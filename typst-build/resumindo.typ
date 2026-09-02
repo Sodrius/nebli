@@ -1,33 +1,30 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("O que a inflamação é",
-   [Resposta do tecido *vascularizado* a qualquer estímulo lesivo — infarto, cristal e trauma inflamam sem micróbio. Protetora por projeto e lesiva por consequência, porque o arsenal não distingue parede microbiana de tecido próprio. Sem inflamação não há reparo.]),
+  ("Quatro palavras, quatro promessas",
+   [Limpeza remove por ação mecânica e não mata; desinfecção mata o que ficou numa superfície inanimada e tolera sobreviventes; antissepsia faz o mesmo em tecido vivo, limitada pela toxicidade; esterilização elimina ou remove toda forma viável, esporo e vírus inclusive.]),
 
-  ("Reconhecer sem nunca ter visto",
-   [Os receptores de padrão vêm prontos da linhagem germinativa e não deixam memória. Leem estruturas conservadas de micróbio (PAMP) e moléculas próprias fora de lugar (DAMP). Ficam em três endereços — plasma, membrana, citosol — e o endereço informa *onde* o agente está.]),
+  ("A morte é logarítmica — e \"mata 99,9%\" são 3 log₁₀",
+   [O agente mata uma fração constante por unidade de tempo; o valor D é o tempo para reduzir a população a um décimo. De 10⁶ por mL sobram 10³ — em 10 mL, 10 mil viáveis. Como a curva nunca toca o zero, esterilidade é 1 chance em 10⁶.]),
 
-  ("Toll-like: o ligante segue a localização",
-   [Na superfície ficam os que leem parede e flagelo; no endossomo, os que leem ácido nucleico — reclusão que impede a leitura de ácido nucleico próprio. TLR4 precisa de CD14 e MD-2. Todos convergem em NF-κB, e como o produto é transcrição, o efeito leva horas.]),
+  ("A escada de resistência é uma escada de barreiras",
+   [Do mais frágil ao mais duro: micoplasma sem parede, vírus envelopado (lipídio dissolúvel), bactéria vegetativa, vírus não envelopado (só capsídeo), micobactéria (ácido micólico), esporo (núcleo desidratado, dipicolinato), oocisto e, no topo, o príon — sem estrutura vulnerável.]),
 
-  ("Inflamassoma: dois sinais para uma citocina",
-   [O primeiro sinal fabrica pró-IL-1β inativa no citosol; o segundo (cristal, ATP, efluxo de K⁺, ROS) monta o NLRP3 e ativa a caspase-1, que corta o precursor. A mesma caspase corta a gasdermina D — o poro libera a citocina e mata a célula por piroptose.]),
+  ("O calor: 121 °C úmidos vencem 180 °C secos",
+   [A água é reagente da desnaturação e o vapor entrega calor latente ao condensar; a pressão só eleva o ponto de ebulição. Sem água resta oxidação lenta: 160 °C/2 h ou 180 °C/1 h. Fervura e pasteurização poupam o esporo — não esterilizam.]),
 
-  ("A hidráulica dos sinais cardinais",
-   [Vasodilatação arteriolar dá rubor e calor; o aumento de permeabilidade na *vênula pós-capilar* dá o edema. A perda de plasma concentra hemácias e freia o fluxo, e é essa estase que joga o leucócito contra a parede. A dor vem de bradicinina somada à PGE₂, que baixa o limiar do nociceptor.]),
+  ("Fita indicadora não comprova esterilidade",
+   [A fita é indicador químico: registra exposição à temperatura, não o tempo nem a penetração do vapor. Bolsão de ar retido derruba a temperatura efetiva com o pacote de aparência normal. Só o indicador biológico, com esporo vivo, testa o que interessa.]),
 
-  ("Sair do vaso em quatro tempos",
-   [A selectina freia mas não estaciona. A quimiocina presa ao glicocálix não puxa a célula para fora: ela estende a integrina, que agarra o ICAM. Segue adesão firme, diapedese por PECAM entre células endoteliais, e caminhada pelo gradiente de IL-8, C5a e LTB₄ já no tecido.]),
+  ("Radiação e filtração: as saídas sem calor",
+   [A gama ioniza a água, gera radical hidroxila e quebra o DNA através da embalagem; a ultravioleta a 254 nm forma dímero de timina só na superfície exposta e pode ser revertida. O filtro de 0,22 µm retém bactéria e deixa passar vírus — ele separa, não mata.]),
 
-  ("Matar custa oxidante",
-   [Opsonizado por C3b e IgG, o alvo é engolido; a NADPH oxidase gera superóxido, a dismutação dá peróxido, a mieloperoxidase o converte em hipoclorito. Falhar no primeiro passo é a doença granulomatosa crônica. Neutrófilo nas primeiras horas, macrófago em 12–48 h, linfócito e eosinófilo após 72 h.]),
+  ("O frio preserva; ele não mata",
+   [Baixa temperatura é bacteriostática, e a liofilização conserva cepas e vacinas ao sublimar a água do estado congelado. Refrigerar não torna seguro: Listeria cresce a 4 °C, e toxina já formada não é desfeita pelo frio.]),
 
-  ("Mediadores organizados pelo relógio",
-   [O que estava no grânulo age em segundos (histamina); o cortado de precursor plasmático, em minutos (bradicinina, C3a, C5a); o vindo de lipídio de membrana, em minutos a horas (prostanoides, leucotrienos); o que passa pelo núcleo, em horas (IL-1, IL-6, TNF-α).]),
+  ("Limpar antes, e o destino do artigo escolhe o processo",
+   [Matéria orgânica consome o agente e blinda o micro-organismo: a sequência é detergente com fricção, enxágue, desinfetante, enxágue. Crítico exige esterilização; semicrítico, como o endoscópio, alto nível; não crítico, baixo ou intermediário. Crítico e termossensível vai a óxido de etileno ou plasma.]),
 
-  ("Complemento e araquidônico: onde a farmacologia entra",
-   [Três portas convergem na C3 convertase — C3b fica e opsoniza, C3a e C5a viajam e inflamam. Na via lipídica a fosfolipase A₂ é o passo limitante: o AINE bloqueia só a ciclo-oxigenase e desvia substrato para leucotrieno; o corticoide age acima e derruba os dois braços.]),
-
-  ("Parar é uma ação",
-   [A PGE₂ acumulada liga a 15-lipoxigenase e troca LTB₄ por lipoxinas, que bloqueiam o recrutamento. O neutrófilo entra em apoptose e é engolido inteiro pelo macrófago; essa eferocitose o reprograma para IL-10 e TGF-β. Matriz preservada, restituição integral; matriz destruída, fibrose.]),
+  ("Cada classe mata por um alvo — e esporocida não é esterilizante",
+   [Álcool 70% desnatura e dissolve lipídio, e o absoluto é pior porque a água é reagente. Halogênio oxida, aldeído alquila e é o único esporocida líquido comum, quaternário é tensoativo de baixo nível. Glutaraldeído a 2% é alto nível em 20–30 min e só esteriliza em horas.]),
 ))

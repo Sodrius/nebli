@@ -1,231 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [Um paciente com infarto agudo do miocárdio desenvolve, nas 48 horas seguintes, infiltrado neutrofílico intenso na área necrótica, sem qualquer evidência de infecção. Por que a inflamação se instala com essa intensidade na ausência de micro-organismo],
-  (("A", [Porque a isquemia gera hipóxia local e a hipóxia é reconhecida diretamente pelos receptores Toll-like da superfície do cardiomiócito, que respondem à queda de oxigênio disparando transcrição de citocinas inflamatórias.]),
-   ("B", [Porque o tecido necrótico expõe colágeno subendotelial que ativa apenas a cascata da coagulação, e é a trombina formada localmente o único mediador capaz de recrutar neutrófilo na inflamação estéril.]),
-   ("C", [Porque as células mortas liberam moléculas próprias que normalmente ficam confinadas — ATP, potássio, DNA mitocondrial, HMGB1 — e essas moléculas de dano são lidas pelos mesmos receptores de padrão que reconhecem micróbios.]),
-   ("D", [Porque a ausência de micróbio remove a inibição que os padrões microbianos exercem sobre o macrófago residente, liberando-o para produzir citocina de forma desregulada e recrutar neutrófilo em excesso no foco.]),
-   ("E", [Porque a inflamação estéril depende de anticorpos naturais preexistentes contra antígenos cardíacos, que formam imunocomplexos com proteínas liberadas do miócito e ativam a via clássica do complemento no tecido.])))
+  [O que distingue conceitualmente a desinfecção da esterilização não é a intensidade do tratamento, mas a promessa que cada uma faz sobre a população remanescente. Assinale a alternativa que descreve corretamente essa distinção.],
+  (("A", [A desinfecção atua exclusivamente por agentes químicos e a esterilização exclusivamente por agentes físicos, de modo que a diferença entre as duas está na natureza do agente empregado e não no resultado obtido sobre a população.]),
+   ("B", [A desinfecção elimina apenas micro-organismos patogênicos e a esterilização elimina também os saprófitas, de forma que a diferença está no espectro de patogenicidade dos alvos atingidos por cada processo.]),
+   ("C", [A desinfecção reduz os patógenos a um nível considerado seguro para o uso pretendido e tolera sobreviventes, enquanto a esterilização promete a ausência de qualquer forma viável, incluindo endósporos e vírus, sendo essa forma mais resistente o que separa as duas.]),
+   ("D", [A desinfecção age sobre superfícies inanimadas e a esterilização age sobre tecidos vivos, o que faz da toxicidade ao hospedeiro o critério que separa os dois procedimentos na rotina de um serviço de saúde.]),
+   ("E", [A desinfecção é sempre reversível, porque o micro-organismo retoma o crescimento ao ser transferido para meio favorável, enquanto a esterilização é irreversível por destruir de modo permanente as estruturas celulares do alvo.])))
 
-#questao-mc("02", badge-consolidacao,
-  [Sobre as propriedades dos receptores de reconhecimento de padrões da imunidade inata, assinale a alternativa *incorreta*:],
-  (("A", [Cada receptor é gerado por recombinação somática de segmentos gênicos durante a maturação da célula, o que produz um repertório de milhões de especificidades distintas e permite expansão clonal com memória.]),
-   ("B", [São codificados na linhagem germinativa, de modo que o receptor é idêntico em todas as células que o expressam e não depende de encontro prévio com o agente para estar disponível.]),
-   ("C", [Reconhecem estruturas moleculares conservadas que o micróbio não pode perder sem prejuízo de viabilidade, como lipopolissacarídeo, peptidoglicano, flagelina e glicanos de manose terminal expostos na superfície.]),
-   ("D", [Reconhecem também moléculas próprias deslocadas de seu compartimento normal, como ATP extracelular e DNA mitocondrial citosólico, o que explica a inflamação disparada por trauma e por isquemia.]),
-   ("E", [Distribuem-se em três compartimentos — solúvel no plasma, associado a membrana e citosólico — e a localização de cada um informa em que compartimento do tecido o agente se encontra.])))
+#questao-ce("02", badge-consolidacao,
+  [Um serviço avalia dois produtos para uso em superfície: o produto X é descrito no rótulo como bacteriostático e o produto Y como bactericida e esporocida. Julgue os itens sobre o significado desses termos e sobre as variáveis que decidem o resultado no uso real.],
+  (("I",   [O produto X interrompe a multiplicação bacteriana e depende da resposta imune do hospedeiro para eliminar a população remanescente, o que torna essa categoria menos confiável em sítios de baixa penetração de células de defesa.]),
+   ("II",  [A atividade esporocida declarada para o produto Y pode ser deduzida diretamente de sua atividade bactericida, porque um agente capaz de matar a forma vegetativa necessariamente atravessa as barreiras do endósporo.]),
+   ("III", [Espectro de ação, concentração, tempo de contato e toxicidade são variáveis independentes, e o desrespeito ao tempo de contato mínimo pode anular na prática a atividade declarada de qualquer um dos dois produtos.]),
+   ("IV",  [A denominação virustática é conceitualmente problemática, porque a partícula viral não apresenta metabolismo próprio fora da célula hospedeira e, portanto, não há multiplicação a ser paralisada no ambiente.])))
 
-#questao-ce("03", badge-consolidacao,
-  [A família de receptores Toll-like distribui seus membros entre a membrana plasmática e o compartimento endossômico. Julgue os itens abaixo:],
-  (("I",   [Os receptores que reconhecem ácidos nucleicos virais e bacterianos localizam-se em vesículas endossômicas, e essa reclusão restringe a leitura ao material genético que chegou por endocitose.]),
-   ("II",  [O reconhecimento do lipopolissacarídeo pelo TLR4 dispensa proteínas acessórias, uma vez que o domínio extracelular do receptor acomoda o lipídeo A diretamente, sem participação de CD14 ou de MD-2.]),
-   ("III", [A via de sinalização converge na liberação do NF-κB, que migra ao núcleo e induz a transcrição de citocinas inflamatórias e de moléculas de adesão endotelial.]),
-   ("IV",  [Como o produto final da via é a transcrição de genes, o efeito biológico do estímulo do receptor aparece em horas, e não em segundos como o das aminas vasoativas pré-formadas.])))
+#questao-mc("03", badge-consolidacao,
+  [Uma solução contém 10#super[6] bactérias por mililitro. Após o tratamento com um desinfetante cujo rótulo declara eliminar 99,9% da população, o serviço precisa utilizar 10 mL do produto tratado. Assinale a alternativa que apresenta a leitura correta desse resultado.],
+  (("A", [A redução de 99,9% corresponde a seis reduções decimais, de modo que resta cerca de uma bactéria por mililitro e o volume de 10 mL utilizado contém aproximadamente dez células viáveis ao final do processo.]),
+   ("B", [A redução de 99,9% corresponde a três reduções decimais, restam 10#super[3] bactérias por mililitro e os 10 mL utilizados contêm cerca de 10#super[4] células viáveis, o que mostra que o resíduo depende do volume empregado.]),
+   ("C", [A redução de 99,9% elimina um número fixo de células por unidade de tempo, e por isso o resultado final independe da carga inicial, restando sempre a mesma quantidade absoluta de sobreviventes qualquer que seja a suspensão tratada.]),
+   ("D", [A redução de 99,9% equivale a um valor D, restando 10#super[5] bactérias por mililitro; como o valor D mede a temperatura do processo, dobrar a temperatura aplicada dobraria o número total de células eliminadas.]),
+   ("E", [A redução de 99,9% pode ser considerada equivalente à esterilização para fins práticos, uma vez que a fração remanescente é pequena demais para representar risco em qualquer volume de produto que venha a ser utilizado.])))
 
-#questao-mc("04", badge-consolidacao,
-  [Como se explica que o fluxo sanguíneo desacelere até a estase num foco inflamatório em que as arteríolas estão dilatadas e o aporte de sangue aumentou],
-  (("A", [A vasodilatação arteriolar é acompanhada de vasoconstrição venular reflexa e sustentada, e é o aumento da resistência na saída do leito que represa a coluna de sangue e reduz sua velocidade.]),
-   ("B", [O consumo local de oxigênio pelos leucócitos recrutados reduz a saturação da hemoglobina, e o sangue dessaturado tem viscosidade maior, o que por si só é suficiente para produzir a estase observada.]),
-   ("C", [A trombina gerada pela ativação do fator XII forma microtrombos de fibrina que obstruem parcialmente a luz venular, e essa obstrução mecânica progressiva é a causa primária da lentificação do fluxo.]),
-   ("D", [O aumento da permeabilidade venular deixa escapar plasma para o interstício; as hemácias ficam retidas, a fração celular do sangue sobe, a viscosidade aumenta, e sangue mais viscoso corre mais devagar.]),
-   ("E", [A dilatação arteriolar reduz a pressão de perfusão a jusante por queda da resistência total, e a menor diferença de pressão entre entrada e saída do leito capilar diminui a velocidade linear do fluxo.])))
+#questao-ce("04", badge-consolidacao,
+  [A ordem de resistência dos micro-organismos aos agentes de desinfecção e esterilização é estável e corresponde, em cada degrau, a uma barreira física identificável. Julgue os itens a seguir sobre essa escada.],
+  (("I",   [Os micoplasmas ocupam o degrau mais sensível da escada justamente por não possuírem parede celular, o que deixa a membrana plasmática diretamente exposta a agentes tensoativos e lipofílicos.]),
+   ("II",  [Os vírus envelopados são mais resistentes que os não envelopados, porque a bicamada lipídica adquirida da célula hospedeira funciona como camada adicional de proteção contra álcool e detergentes.]),
+   ("III", [A resistência da micobactéria aos agentes químicos decorre de uma camada de peptideoglicano consideravelmente mais espessa que a das demais bactérias Gram-positivas, o que retarda a difusão dos agentes aquosos.]),
+   ("IV",  [O príon ocupa o topo da escala porque não possui ácido nucleico a ser quebrado nem membrana a ser rompida, e o formaldeído é contraindicado diante dele por fixar e estabilizar o agregado proteico.])))
 
-#questao-ce("05", badge-consolidacao,
-  [O aumento da permeabilidade vascular na inflamação aguda pode ser produzido por mais de um mecanismo. Julgue os itens:],
-  (("I",   [A contração da célula endotelial induzida por histamina produz aumento de permeabilidade imediato e sustentado por vários dias, porque a fenda intercelular aberta permanece independentemente da depuração do mediador.]),
-   ("II",  [A lesão endotelial direta por queimadura ou toxina produz aumento de permeabilidade imediato e sustentado, porque a recuperação depende de reparo do endotélio e não da depuração de um mediador.]),
-   ("III", [O líquido que sai por essa barreira quebrada é exsudato, rico em proteína e em células, distinto do transudato, que decorre de desequilíbrio de pressões com barreira vascular íntegra.]),
-   ("IV",  [A lesão endotelial mediada por leucócito instala-se nos primeiros segundos após o estímulo, antes mesmo do rolamento, sendo o primeiro dos três mecanismos a operar no foco.])))
+#questao-mc("05", badge-consolidacao,
+  [Aquecer leite brandamente e deixá-lo esfriar devolve à maior parte das proteínas o dobramento original; fritar um ovo produz uma alteração que não se desfaz ao resfriar. Assinale a alternativa que explica corretamente o mecanismo por trás dessa diferença.],
+  (("A", [No leite o calor rompe apenas ligações covalentes da cadeia principal, que se refazem espontaneamente ao resfriar, enquanto no ovo ele rompe também as ligações peptídicas, fragmentando a proteína de forma definitiva.]),
+   ("B", [A diferença decorre da composição de aminoácidos: as proteínas do leite são ricas em resíduos hidrofílicos capazes de reenovelar, e as do ovo são hidrofóbicas e por isso incapazes de recuperar a conformação nativa.]),
+   ("C", [No leite ocorre desnaturação e no ovo ocorre oxidação dos componentes celulares, um processo químico distinto que depende da presença de oxigênio e não guarda relação com a estrutura terciária das proteínas.]),
+   ("D", [A diferença está no tipo de energia aplicada: o aquecimento úmido do leite não transfere calor latente às proteínas, enquanto o aquecimento seco da frigideira transfere e por isso produz alteração permanente.]),
+   ("E", [Em ambos os casos o calor desfaz as interações fracas que sustentam o dobramento; a permanência depende do tempo em que a cadeia fica aberta, pois exposição prolongada permite que cadeias vizinhas se agreguem em rede insolúvel.])))
 
 #questao-mc("06", badge-consolidacao,
-  [Qual é o papel funcional da quimiocina apresentada na superfície luminal do endotélio inflamado, durante a cascata de adesão leucocitária],
-  (("A", [Formar um gradiente de concentração no interior da luz vascular que atrai quimiotaticamente o leucócito circulante em direção à parede, substituindo a marginação física produzida pela estase do fluxo.]),
-   ("B", [Ativar a integrina que já está na membrana do leucócito, convertendo-a da conformação dobrada de baixa afinidade para a conformação estendida de alta afinidade, capaz de agarrar firmemente o ICAM-1.]),
-   ("C", [Induzir a síntese de novas moléculas de integrina no leucócito em rolamento, processo que depende de transcrição gênica e explica o intervalo de horas entre o estímulo inflamatório e a adesão firme.]),
-   ("D", [Estabilizar a ligação entre selectina endotelial e ligante leucocitário, aumentando a afinidade dessa interação até o ponto em que ela sozinha é capaz de interromper o rolamento e imobilizar a célula.]),
-   ("E", [Degradar localmente a membrana basal do vaso e a matriz adjacente, abrindo o caminho físico por onde o leucócito aderido atravessará a parede em direção ao interstício inflamado.])))
+  [Sobre a esterilização pelo calor e a comparação entre autoclave e forno de calor seco, assinale a alternativa *incorreta*.],
+  (("A", [A pressão elevada no interior da autoclave não é o agente letal: ela eleva o ponto de ebulição da água e permite a existência de vapor a 121 °C, temperatura em que o calor úmido efetivamente promove a morte microbiana.]),
+   ("B", [A água participa quimicamente da desnaturação ao competir por pontes de hidrogênio internas e solvatar resíduos do miolo hidrofóbico, o que faz a proteína hidratada abrir-se a temperatura menor que a mesma proteína seca.]),
+   ("C", [A condensação do vapor sobre a superfície fria do material libera calor latente naquele ponto, o que entrega mais energia ao material do que o ar aquecido conseguiria transferir por simples contato na mesma temperatura.]),
+   ("D", [Bolsões de ar retidos na câmara não comprometem o processo, porque a temperatura de uma mistura de ar e vapor é determinada apenas pela pressão registrada no manômetro e independe da proporção entre os dois gases.]),
+   ("E", [O forno de calor seco mata por oxidação lenta dos componentes celulares e por isso exige combinações como 160 °C por duas horas ou 180 °C por uma hora, sendo indicado para vidraria, pós e substâncias oleosas.])))
 
 #questao-ce("07", badge-consolidacao,
-  [Sobre os mecanismos microbicidas do neutrófilo ativado no interior do fagossomo. Julgue os itens:],
-  (("I",   [A NADPH oxidase transfere elétrons ao oxigênio molecular gerando superóxido; a dismutação deste produz peróxido de hidrogênio, que a mieloperoxidase converte em hipoclorito na presença de cloreto.]),
-   ("II",  [A explosão respiratória não gera ATP: o oxigênio consumido é empregado na fabricação de oxidantes, e os elétrons usados vêm do NADPH produzido na via das pentoses-fosfato.]),
-   ("III", [A cobertura do alvo por C3b e por IgG é irrelevante para a eficiência da captura, uma vez que o receptor de manose do fagócito realiza sozinho o reconhecimento com a mesma eficácia.]),
-   ("IV",  [A armadilha extracelular do neutrófilo é composta por cromatina descondensada associada a enzimas granulares, expelida para o meio extracelular, e sua formação em geral custa a vida da célula.])))
+  [A filtração ocupa um lugar particular entre os métodos de controle porque não age destruindo o micro-organismo. Julgue os itens sobre o método e seus limites.],
+  (("I",   [A membrana de 0,22 µm retém com confiabilidade bactérias e fungos, mas vírus e micoplasmas atravessam, razão pela qual ela é descrita como filtro esterilizante por convenção e não em sentido absoluto.]),
+   ("II",  [A cascata de pré-filtros com porosidades decrescentes existe para evitar a colmatação da membrana final, que de outro modo teria os poros obstruídos por partículas grosseiras antes de processar o volume pretendido.]),
+   ("III", [O filtro de alta eficiência retém partículas por peneiramento estrito, de modo que sua eficiência cresce continuamente com o tamanho da partícula e é mínima para as menores partículas suspensas no ar.]),
+   ("IV",  [A cabine de fluxo laminar horizontal protege o produto manipulado e dirige o ar da bancada em direção ao operador, não sendo o equipamento indicado para o manuseio de material infeccioso.])))
 
 #questao-mc("08", badge-consolidacao,
-  [Após a clivagem do C3 pela C3 convertase, os dois fragmentos gerados têm destinos e funções distintos. Qual alternativa descreve corretamente essa divisão],
-  (("A", [O fragmento maior, C3b, difunde-se pelo interstício e atua como anafilatoxina degranulando mastócitos, enquanto o menor, C3a, permanece ligado à superfície do alvo funcionando como opsonina.]),
-   ("B", [Ambos os fragmentos permanecem ligados covalentemente à superfície onde a convertase se formou, e a diferença entre eles está apenas na afinidade relativa pelos receptores do fagócito.]),
-   ("C", [O fragmento C3a nucleia diretamente a montagem do complexo de ataque à membrana, ao passo que o C3b é rapidamente inativado por proteínas reguladoras presentes no plasma circulante.]),
-   ("D", [Os dois fragmentos difundem-se livremente e agem como quimioatraentes de potência equivalente para o neutrófilo, sendo a opsonização realizada exclusivamente pela imunoglobulina G ligada ao antígeno.]),
-   ("E", [O fragmento maior, C3b, liga-se covalentemente à superfície e opsoniza o alvo para o fagócito, enquanto o menor, C3a, difunde-se e atua como anafilatoxina sobre mastócito e vaso.])))
+  [As formulações antissépticas e desinfetantes à base de etanol são padronizadas na faixa de 70% a 95%, e não em concentração absoluta. Assinale a alternativa que explica corretamente essa escolha.],
+  (("A", [A água presente na formulação participa da desnaturação proteica e retarda a evaporação; sem ela o álcool coagula apenas a camada superficial da proteína, deixa de penetrar e evapora antes de completar o tempo de contato necessário.]),
+   ("B", [A diluição tem finalidade econômica e de segurança contra incêndio, sem impacto sobre o desempenho antimicrobiano, que cresce de forma proporcional à concentração de etanol em toda a faixa de uso disponível.]),
+   ("C", [O álcool absoluto seria excessivamente irritante para a pele, e a diluição a 70% reduz a toxicidade tecidual mantendo inalterada a potência antimicrobiana, o que explica seu uso preferencial na antissepsia das mãos.]),
+   ("D", [A água atua como veículo que dissolve o envelope lipídico dos vírus, função que o etanol não desempenha sozinho, de modo que soluções muito concentradas perdem a atividade virucida por falta desse componente.]),
+   ("E", [A faixa de 70% a 95% é a concentração mínima capaz de destruir endósporos bacterianos, e concentrações superiores seriam desnecessárias porque não acrescentam atividade esporocida à formulação já obtida.])))
 
 #questao-mc("09", badge-integracao,
-  [Em camundongo com deleção do adaptador MyD88, o endotélio da microcirculação exposto a lipopolissacarídeo não expressa E-selectina nem ICAM-1, e o recrutamento de neutrófilos fica abolido. Qual sequência explica esse fenótipo],
-  (("A", [A ausência do adaptador impede a montagem da NADPH oxidase no neutrófilo, e sem produção de oxidantes a célula não consegue aderir ao endotélio nem completar a diapedese pela junção intercelular.]),
-   ("B", [A deleção bloqueia a clivagem do C5 e suprime a produção de C5a; sem o principal quimioatraente do foco, o neutrófilo não recebe o sinal de ativação da integrina e permanece circulando na luz vascular.]),
-   ("C", [Sem o adaptador não há liberação do NF-κB; sem esse fator de transcrição, o endotélio não transcreve as moléculas de adesão induzíveis, e o leucócito perde os pontos de ancoragem necessários para parar na parede.]),
-   ("D", [A deleção impede a ativação da fosfolipase que libera ácido araquidônico, de modo que não se formam leucotrienos, e o neutrófilo deixa de expressar as selectinas necessárias ao rolamento sobre o endotélio.]),
-   ("E", [O adaptador é necessário para a exocitose dos grânulos endoteliais que contêm P-selectina pré-formada, e sem esse passo inicial de rolamento nenhuma das etapas subsequentes da cascata pode ocorrer.])))
+  [Durante um surto de gastroenterite por vírus não envelopado numa enfermaria, observa-se que a frequência de casos permanece alta apesar da adesão elevada à fricção alcoólica das mãos. Assinale a alternativa que explica esse achado e indica a conduta coerente.],
+  (("A", [O álcool perdeu atividade por estar em concentração absoluta na formulação disponível; a conduta é substituí-lo por etanol a 70%, que recupera a atividade contra o agente sem necessidade de mudar o método de higienização.]),
+   ("B", [A partícula viral encontra-se em fase de multiplicação ambiental que a torna transitoriamente refratária; a conduta é aumentar o tempo de fricção alcoólica, o que eleva o número de reduções decimais obtidas por aplicação.]),
+   ("C", [O álcool depende de envelope lipídico a dissolver e não alcança vírus formado apenas por capsídeo proteico; a conduta associa higienização com água e sabão, cuja eficácia vem da remoção mecânica, e hipoclorito nas superfícies.]),
+   ("D", [O agente viral resiste por ser menor que a bactéria e escapar do contato com o agente químico; a conduta é aumentar a concentração do produto alcoólico, o que compensa a dificuldade de contato imposta pela dimensão reduzida.]),
+   ("E", [A falha decorre de o álcool ser bacteriostático e não bactericida, o que permite a retomada da multiplicação após a evaporação; a conduta é substituí-lo por um quaternário de amônio, de ação prolongada sobre a pele.])))
 
 #questao-ce("10", badge-integracao,
-  [Um paciente internado por pneumonia apresenta proteína C reativa muito elevada. Julgue os itens sobre a relação entre reconhecimento inato e resposta hepática:],
-  (("I",   [A proteína C reativa é um receptor de padrão solúvel: liga fosfocolina exposta em parede bacteriana e em célula morta, opsoniza o alvo e ativa a via clássica do complemento.]),
-   ("II",  [A elevação plasmática decorre da síntese aumentada pelo próprio neutrófilo recrutado ao foco pulmonar, que exporta a proteína pronta para a circulação sem participação do fígado.]),
-   ("III", [Como a proteína C reativa é gerada por rearranjo somático de segmentos gênicos no hepatócito, sua especificidade aumenta a cada exposição, o que caracteriza memória humoral inata.]),
-   ("IV",  [A lectina ligadora de manose é também uma proteína de fase aguda, de modo que a resposta hepática amplifica simultaneamente duas portas distintas de ativação do complemento.])))
+  [A cinética de morte microbiana e a validação do ciclo de autoclave estão diretamente ligadas: o modo como a população decai é o que define o que se pode comprovar ao final do processo. Julgue os itens.],
+  (("I",   [Como a morte segue cinética de primeira ordem, a curva de sobreviventes se aproxima do zero sem alcançá-lo, e por isso a esterilidade é definida como uma probabilidade aceitável de sobrevivência, convencionada em 10#super[-6].]),
+   ("II",  [O valor D corresponde ao tempo necessário para reduzir a população a um décimo naquelas condições fixas, de modo que cada intervalo adicional de um D multiplica por dez a eficácia acumulada do processo.]),
+   ("III", [A fita termossensível colada ao pacote comprova que o material permaneceu na temperatura-alvo pelo tempo necessário, dispensando o uso de indicadores biológicos em ciclos de rotina devidamente registrados.]),
+   ("IV",  [O indicador biológico do calor úmido emprega esporos de #emph[Bacillus subtilis], os mesmos utilizados no monitoramento do calor seco e do óxido de etileno, por serem os mais termorresistentes disponíveis.])))
 
 #questao-mc("11", badge-integracao,
-  [Paciente com crise aguda de gota no hálux. A articulação está quente, vermelha e extremamente dolorosa, e o líquido sinovial mostra cristais de urato monossódico e neutrófilos abundantes. Qual encadeamento mecanístico sustenta esse quadro],
-  (("A", [O cristal fagocitado desestabiliza o fagolisossomo e dispara efluxo de potássio e espécies reativas; o NLRP3 se monta, a caspase-1 corta a pró-interleucina-1β, e a citocina madura ativa o endotélio sinovial recrutando neutrófilos.]),
-   ("B", [O cristal, por ser insolúvel, é reconhecido diretamente pelo TLR2 de superfície do sinoviócito, que sinaliza por MyD88 e induz a secreção imediata de interleucina-1β já madura estocada em grânulos citoplasmáticos.]),
-   ("C", [A hiperuricemia satura os transportadores tubulares renais e o urato circulante ativa a via clássica do complemento por ligação ao C1q, gerando C5a em quantidade suficiente para recrutar neutrófilo para a sinóvia.]),
-   ("D", [As arestas do cristal lesam mecanicamente a membrana do sinoviócito e do neutrófilo, e é o extravasamento de conteúdo citoplasmático dessas células rompidas o único mecanismo capaz de manter a resposta inflamatória.]),
-   ("E", [O cristal liga-se à albumina sinovial formando um neoantígeno reconhecido por anticorpos naturais preexistentes; o imunocomplexo depositado na cartilagem é o gatilho da resposta inflamatória local observada.])))
+  [Um utensílio contaminado por bactéria esporulada é submetido a fervura a 100 °C por 15 minutos e, em outro momento, a um ciclo de autoclave a 121 °C por 15 minutos. Assinale a alternativa que explica corretamente a diferença de resultado entre os dois tratamentos.],
+  (("A", [A fervura falha porque a 100 °C a água não é capaz de participar quimicamente da desnaturação proteica, função que só se estabelece acima de 120 °C, quando a molécula de água adquire energia suficiente para hidrolisar ligações.]),
+   ("B", [Os dois tratamentos são equivalentes em capacidade microbicida, e a diferença entre eles é apenas o tempo total do procedimento, já que a pressão aplicada na autoclave atua diretamente rompendo a estrutura do endósporo.]),
+   ("C", [A fervura elimina o endósporo, mas permite a germinação posterior das formas vegetativas remanescentes no próprio utensílio, o que explica o recrescimento observado após o resfriamento e a aparente falha do método.]),
+   ("D", [A autoclave é superior porque a pressão de uma atmosfera acima da atmosférica comprime mecanicamente o córtex do endósporo, rompendo-o, enquanto a fervura em recipiente aberto não exerce pressão sobre a estrutura.]),
+   ("E", [O endósporo tem o núcleo praticamente desidratado, com dipicolinato de cálcio e proteínas protetoras, e sem água livre a desnaturação térmica é lenta demais a 100 °C; o vapor a 121 °C sob pressão vence essa barreira.])))
 
 #questao-mc("12", badge-integracao,
-  [Durante a inflamação aguda, o leucócito abandona a coluna central de sangue e passa a trafegar rente à parede vascular. Qual é a relação entre os eventos hemodinâmicos e esse comportamento],
-  (("A", [A vasodilatação arteriolar aumenta a velocidade linear do sangue na vênula, e a força de cisalhamento elevada empurra o leucócito contra o endotélio, onde as selectinas então o capturam e iniciam o rolamento.]),
-   ("B", [A marginação é resultado exclusivo da expressão de selectinas na superfície endotelial, que capturam ativamente o leucócito na linha central do fluxo, independentemente de qualquer alteração da velocidade do sangue.]),
-   ("C", [A liberação de quimiocinas para a luz vascular cria um gradiente radial de concentração dentro do vaso, e é a quimiotaxia intraluminal ao longo desse gradiente que desloca o leucócito para a periferia da coluna.]),
-   ("D", [A perda de plasma para o interstício concentra as hemácias e eleva a viscosidade; o fluxo desacelera, e nesse regime lento o leucócito, maior e menos deformável, deixa a linha central e passa a rolar sobre a parede.]),
-   ("E", [A contração da célula endotelial reduz o calibre efetivo da vênula, e essa redução de área transversal força mecanicamente o leucócito contra a parede antes que qualquer molécula de adesão seja expressa ali.])))
+  [O par de 62 °C a 65 °C por 30 minutos usado na pasteurização lenta não foi escolhido por conveniência industrial. Assinale a alternativa que explica corretamente a lógica dessa combinação e sua relação com o mecanismo da morte térmica.],
+  (("A", [A combinação foi definida pelo ponto em que as proteínas do próprio leite desnaturam de modo irreversível, o que garante que qualquer micro-organismo presente tenha suas proteínas alteradas na mesma extensão.]),
+   ("B", [A combinação foi calibrada sobre o patógeno não esporulado mais resistente ao calor que poderia estar no leite; como temperatura e tempo se compensam na desnaturação, matar aquele com margem elimina todos os menos resistentes.]),
+   ("C", [A combinação corresponde ao valor D dos endósporos presentes no leite cru, de modo que 30 minutos entregam uma redução decimal completa da carga esporulada sem alterar as características do alimento.]),
+   ("D", [A combinação foi escolhida por ser a menor capaz de esterilizar o leite, o que dispensa refrigeração posterior e explica a validade prolongada do produto pasteurizado quando mantido em embalagem fechada.]),
+   ("E", [A combinação decorre da necessidade de evitar a formação de radicais livres, que ocorreria em temperaturas mais altas e comprometeria o valor nutricional sem acrescentar eficácia microbicida ao processo.])))
 
 #questao-ce("13", badge-integracao,
-  [Vinte minutos após uma picada de inseto, a pele apresenta pápula circundada por eritema. Julgue os itens sobre os mediadores e o mecanismo envolvidos:],
-  (("I",   [A histamina responsável pelo edema inicial estava pré-formada em grânulos do mastócito, o que explica seu efeito em segundos a minutos, sem necessidade de síntese proteica.]),
-   ("II",  [O edema decorre da contração da célula endotelial da vênula pós-capilar, com abertura de fenda intercelular, e não da dilatação de poros na membrana da célula endotelial.]),
-   ("III", [Além da ligação cruzada de IgE de superfície, as anafilatoxinas C3a e C5a, os neuropeptídeos e o trauma físico também são capazes de degranular o mastócito.]),
-   ("IV",  [O eritema que ultrapassa os limites do ponto picado só pode ser explicado por difusão passiva da histamina pelo interstício, já que a fibra sensitiva conduz o impulso apenas em direção à medula.])))
+  [Radiação e filtração são as duas alternativas ao calor quando o material não tolera aquecimento, e diferem completamente em mecanismo. Julgue os itens a seguir.],
+  (("I",   [A radiação gama ioniza a água e gera radical hidroxila, que produz quebras nas fitas de DNA; por atravessar embalagens e não elevar de modo significativo a temperatura, é adequada à esterilização de descartáveis já lacrados.]),
+   ("II",  [A radiação ultravioleta em torno de 254 nm é absorvida pelas bases nitrogenadas e forma dímeros de timina, mas sua ausência de penetração restringe a ação à superfície exposta e ao ar que passa diante da lâmpada.]),
+   ("III", [O forno de micro-ondas atua por ionização direta das moléculas orgânicas do material, o que confere a esse método uniformidade de ação superior à do calor úmido em cargas de geometria irregular.]),
+   ("IV",  [A filtração não possui ação microbicida: o micro-organismo retido permanece viável sobre a membrana, o que faz da membrana usada um resíduo contaminado a ser descartado como tal.])))
 
 #questao-mc("14", badge-integracao,
-  [Sobre a articulação entre o sistema complemento e a fagocitose no foco inflamatório, assinale a alternativa *incorreta*:],
-  (("A", [O C3b depositado covalentemente na superfície do micróbio é reconhecido por receptores de complemento do fagócito, e esse engajamento dispara a polimerização de actina que fecha o fagossomo.]),
-   ("B", [A cápsula polissacarídica de algumas bactérias dificulta a deposição estável de C3b na superfície, e é em parte por esse mecanismo que os encapsulados resistem à fagocitose eficiente.]),
-   ("C", [A lise direta pelo complexo de ataque à membrana é o principal mecanismo pelo qual o complemento elimina bactérias em geral, superando em importância clínica a opsonização e o recrutamento celular.]),
-   ("D", [O C5a acumula três funções no foco: aumenta a permeabilidade vascular, atrai o neutrófilo por quimiotaxia e ativa essa mesma célula, potencializando sua capacidade microbicida.]),
-   ("E", [A via alternativa inicia-se por hidrólise espontânea e contínua do C3 no plasma, e é a ausência de proteínas reguladoras na superfície microbiana que permite à cascata prosseguir ali.])))
+  [Uma suspensão bacteriana é exposta a uma dose subletal de radiação ultravioleta e, em seguida, mantida sob iluminação com luz visível. Ao ser semeada, apresenta contagem de viáveis maior que a de uma alíquota irradiada e mantida no escuro. Assinale a explicação correta.],
+  (("A", [A luz visível reverte a ionização provocada pela radiação ultravioleta, restaurando os elétrons arrancados das bases nitrogenadas e devolvendo à molécula de DNA a configuração eletrônica anterior à exposição.]),
+   ("B", [A luz visível fornece energia adicional para a síntese de novos nucleotídeos, o que permite às células substituírem integralmente o segmento de DNA danificado antes que a lesão bloqueie a replicação do cromossomo.]),
+   ("C", [A diferença decorre de fotólise dos radicais hidroxila formados pela radiação ultravioleta, que na presença de luz visível se recombinam em água e deixam de atacar o açúcar e as bases do material genético.]),
+   ("D", [A radiação ultravioleta forma dímeros de timina que travam a replicação, e bactérias possuem enzimas de fotorreativação que desfazem esses dímeros na presença de luz visível, revertendo parte do dano subletal.]),
+   ("E", [A luz visível induz a esporulação das células danificadas, e o endósporo formado protege o DNA lesado até que condições favoráveis permitam a germinação, o que aumenta artificialmente a contagem de unidades viáveis.])))
 
 #questao-mc("15", badge-integracao,
-  [Um politraumatizado sem qualquer foco infeccioso apresenta queda dos níveis séricos de C3 e sinais sistêmicos de inflamação. Qual mecanismo liga a lesão tecidual extensa ao consumo de complemento],
-  (("A", [O trauma expõe antígenos intracelulares que se combinam a imunoglobulina M natural, e é exclusivamente por essa via clássica dependente de anticorpo que o complemento pode ser consumido na ausência de infecção.]),
-   ("B", [A exposição de colágeno subendotelial autoativa o fator XII, que gera calicreína; a calicreína converte plasminogênio em plasmina, e a plasmina cliva diretamente o C3, gerando fragmentos ativos sem nenhuma das três vias canônicas.]),
-   ("C", [A hemorragia dilui as proteínas plasmáticas de forma proporcional, e a queda medida do C3 reflete apenas essa diluição, sem que haja consumo real por ativação da cascata do complemento no tecido.]),
-   ("D", [O tecido necrótico expõe manose terminal em glicoproteínas próprias desnaturadas, e a via das lectinas é a única capaz de consumir complemento em quadro estéril, por reconhecimento desse açúcar exposto.]),
-   ("E", [A trombina formada na coagulação inibe as proteínas reguladoras de membrana das células do hospedeiro, e o consumo observado decorre da lise autóloga de hemácias e endotélio pelo complexo de ataque à membrana.])))
+  [Um meio de cultura contendo vitaminas termolábeis é esterilizado por passagem em membrana de 0,22 µm. Assinale a alternativa que descreve corretamente o alcance e o limite desse procedimento à luz da definição de esterilização.],
+  (("A", [O filtrado é confiavelmente livre de bactérias e fungos, mas vírus e micoplasmas podem atravessar a membrana; a expressão filtro esterilizante é uma convenção válida quando o alvo declarado é a carga bacteriana.]),
+   ("B", [O procedimento cumpre integralmente a definição de esterilização, uma vez que a ausência de toda forma viável no filtrado é assegurada pelo diâmetro do poro, inferior ao de qualquer entidade biológica conhecida.]),
+   ("C", [O procedimento é classificado como desinfecção de alto nível, porque a membrana não destrói o micro-organismo e nenhum processo que preserve células viáveis pode ser considerado esterilizante em qualquer circunstância.]),
+   ("D", [O filtrado é estéril apenas se a membrana for previamente autoclavada, já que a retenção depende de carga eletrostática da superfície do poro, propriedade que se estabelece com a exposição ao vapor sob pressão.]),
+   ("E", [O procedimento retém vírus e micoplasmas e deixa passar bactérias filamentosas e formas em L, que atravessam o poro por deformação, o que inverte a hierarquia de retenção esperada para a membrana.])))
 
 #questao-ce("16", badge-integracao,
-  [Um paciente com pneumonia bacteriana apresenta temperatura de 39,2 °C e refere sensação de frio intenso com tremores no início do episódio. Julgue os itens:],
-  (("I",   [A prostaglandina E₂ que produz a febre é sintetizada no foco pulmonar e transportada pelo sangue até o hipotálamo, onde então desloca para cima o ponto de ajuste do centro termorregulador.]),
-   ("II",  [O tremor muscular e a vasoconstrição cutânea são mecanismos efetores acionados para elevar a temperatura corporal até o novo ponto de ajuste, e não consequências passivas da infecção.]),
-   ("III", [A sensação de frio com tremores no início do episódio é coerente com um ponto de ajuste já deslocado para cima enquanto a temperatura corporal ainda está abaixo do novo alvo.]),
-   ("IV",  [O antitérmico age inibindo a ciclo-oxigenase e reduzindo a síntese hipotalâmica de prostaglandina, o que faz o ponto de ajuste retornar ao valor normal.])))
+  [Baixas temperaturas, dessecação e liofilização são agrupadas entre os métodos de conservação, e não entre os microbicidas. Julgue os itens sobre esse grupo e suas consequências práticas.],
+  (("I",   [O congelamento é um método microbicida confiável, porque a formação de cristais de gelo rompe a membrana de toda a população celular, razão pela qual não se recomenda o congelamento para a conservação de cepas.]),
+   ("II",  [A refrigeração a 4 °C impede o crescimento de todos os patógenos veiculados por alimento, de modo que produto mantido corretamente refrigerado durante todo o armazenamento não representa risco microbiológico.]),
+   ("III", [Na liofilização o material é congelado e a água é removida por sublimação sob vácuo, sem passar pelo estado líquido, o que preserva as estruturas celulares e permite a reidratação do produto anos depois.]),
+   ("IV",  [A dessecação interrompe o metabolismo por retirar a água disponível, mas admite sobrevivência prolongada: o agente da tuberculose permanece viável em escarro ressecado e estafilococos sobrevivem em poeira ambiental.])))
 
 #questao-mc("17", badge-integracao,
-  [Em um modelo experimental, neutrófilos recrutados para o peritônio são impedidos de entrar em apoptose por bloqueio farmacológico da via apoptótica. O infiltrado persiste e o dano tecidual se agrava. Qual mecanismo explica melhor esse agravamento],
-  (("A", [Sem apoptose o neutrófilo retorna à circulação carregado de enzimas granulares, e é a redistribuição sistêmica dessas enzimas por via hematogênica que produz o dano observado em outros órgãos.]),
-   ("B", [O bloqueio da apoptose impede a montagem da NADPH oxidase no fagossomo, e o acúmulo de micro-organismos viáveis não eliminados é a causa direta da lesão progressiva do peritônio.]),
-   ("C", [A persistência do neutrófilo consome o oxigênio disponível no exsudato e a hipóxia resultante é o mecanismo primário de morte das células mesoteliais adjacentes ao infiltrado inflamatório.]),
-   ("D", [Neutrófilos que não morrem deixam de expressar selectinas e passam a bloquear mecanicamente a luz das vênulas do mesentério, e a isquemia por obstrução explica a progressão do dano tecidual.]),
-   ("E", [A remoção do neutrófilo depende da apoptose seguida de eferocitose; bloqueada essa rota, a célula evolui para necrose secundária e derrama proteases, oxidantes e moléculas de dano no tecido, perpetuando o foco.])))
+  [As recomendações para desinfecção de superfície com respingo de sangue indicam concentrações de composto clorado muito superiores às usadas em superfície visivelmente limpa. Assinale a alternativa que explica corretamente essa diferença.],
+  (("A", [A matéria orgânica eleva o pH local da superfície, o que desloca o equilíbrio do hipoclorito para a forma dissociada, e a concentração maior serve para compensar a perda de atividade decorrente dessa mudança de pH.]),
+   ("B", [O sangue funciona como meio de cultura e aumenta a carga microbiana na superfície, de modo que a concentração maior é necessária apenas para vencer o número mais alto de células presentes naquele ponto.]),
+   ("C", [A concentração maior é exigida por razões legais de padronização entre serviços, sem fundamento no mecanismo do agente, já que o hipoclorito mantém atividade oxidante constante na presença de proteínas e lipídios.]),
+   ("D", [O composto clorado age por alquilação de grupos amino, reação que a hemoglobina inibe competitivamente, e a concentração elevada é a forma de superar essa inibição enzimática exercida pelo sangue sobre o agente.]),
+   ("E", [O hipoclorito oxida grupos tiol e é fortemente consumido por proteínas e lipídios da matéria orgânica, que ainda blindam fisicamente o micro-organismo; a concentração maior compensa esse consumo antes que o agente alcance o alvo.])))
 
 #questao-mc("18", badge-integracao,
-  [Por que os receptores Toll-like que reconhecem ácidos nucleicos estão confinados ao compartimento endossômico, e não à membrana plasmática],
-  (("A", [Porque ácido nucleico próprio, liberado por células que morrem no tecido, circularia livremente no meio extracelular; confinar esses receptores ao endossomo condiciona a leitura ao material que chegou por endocitose.]),
-   ("B", [Porque o pH ácido do endossomo é indispensável ao pareamento de bases entre o RNA viral e o domínio de reconhecimento do receptor, reação que não ocorre no pH neutro do líquido extracelular.]),
-   ("C", [Porque esses receptores derivam evolutivamente de proteínas lisossomais e mantiveram o sinal de endereçamento ancestral, sem que a localização traga vantagem funcional relevante à resposta imune inata.]),
-   ("D", [Porque os ácidos nucleicos microbianos só adquirem a conformação reconhecível após degradação parcial por nucleases endossômicas, e o material íntegro na superfície celular seria invisível ao receptor.]),
-   ("E", [Porque a sinalização desses receptores exige o adaptador TRIF, proteína ancorada exclusivamente à face citosólica da membrana endossômica e ausente na face interna da membrana plasmática.])))
+  [Sobre a classificação dos artigos segundo o destino de uso e o nível de desinfecção correspondente, assinale a alternativa *incorreta*.],
+  (("A", [Artigo crítico é aquele que penetra tecido estéril, o sistema vascular ou cavidade normalmente estéril, e a exigência para ele é a esterilização, porque qualquer sobrevivente seria inoculado onde não existe barreira de defesa.]),
+   ("B", [O endoscópio digestivo flexível é artigo crítico e deve ser esterilizado antes de cada uso, motivo pelo qual o reprocessamento padrão desse equipamento emprega autoclave em ciclo de baixa temperatura com vapor saturado.]),
+   ("C", [Artigo semicrítico entra em contato com mucosa íntegra ou pele não íntegra e exige, no mínimo, desinfecção de alto nível, obtida com agentes como glutaraldeído a 2% ou ácido peracético após limpeza cuidadosa.]),
+   ("D", [Artigo não crítico toca apenas pele íntegra, como estetoscópio e manguito de pressão, e o processamento com desinfetante de baixo ou de nível intermediário é suficiente para o risco associado a esse contato.]),
+   ("E", [A desinfecção de alto nível elimina formas vegetativas, fungos, micobactérias e vírus e alcança esporos em pequeno número, mas não substitui a esterilização diante de carga esporulada elevada no artigo processado.])))
 
 #questao-ce("19", badge-integracao,
-  [Um paciente toma anti-inflamatório não esteroidal para dor articular e apresenta melhora da dor, mas desenvolve epigastralgia. Julgue os itens:],
-  (("I",   [A prostaglandina E₂ não excita diretamente o nociceptor; ela reduz o limiar de disparo dessa terminação, de modo que estímulos habitualmente indolores passam a doer.]),
-   ("II",  [A epigastralgia relaciona-se à inibição da ciclo-oxigenase constitutiva da mucosa gástrica, cujo produto estimula a secreção de muco e de bicarbonato protetores.]),
-   ("III", [O fármaco atua sobre a fosfolipase A₂, impedindo a liberação de ácido araquidônico da membrana, e por isso suprime simultaneamente prostanoides e leucotrienos.]),
-   ("IV",  [A bradicinina responsável pela dor é sintetizada localmente pelo fibroblasto a partir de aminoácidos livres e age sobre o mesmo receptor de prostaglandina que o fármaco bloqueia.])))
+  [A divisão dos desinfetantes em níveis de atividade não é comercial: cada corte corresponde a um degrau da escada de resistência microbiana. Julgue os itens sobre essa correspondência.],
+  (("I",   [O divisor concreto entre o nível baixo e o nível intermediário é o endósporo bacteriano: o agente de nível intermediário é esporocida, ao passo que o de baixo nível alcança micobactérias mas não esporos.]),
+   ("II",  [A resistência da micobactéria aos desinfetantes aquosos decorre da capa de ácido micólico, hidrofóbica, que retarda a penetração do agente, e não de maior espessura da camada de peptideoglicano.]),
+   ("III", [Os compostos quaternários de amônio são agentes de baixo nível: não alcançam micobactérias, endósporos nem vírus não envelopados, e são inativados por detergente aniônico e por água dura.]),
+   ("IV",  [A desinfecção de alto nível equivale à esterilização, uma vez que ambas eliminam a totalidade dos endósporos presentes no artigo, independentemente da carga inicial e do tempo de contato empregado.])))
 
 #questao-mc("20", badge-integracao,
-  [Em um quadro de sepse grave, o paciente apresenta simultaneamente sangramento em locais de punção e microtrombos na microcirculação. Qual mecanismo articula a resposta inflamatória sistêmica a essa combinação aparentemente contraditória],
-  (("A", [O fator de necrose tumoral em concentração elevada lisa diretamente as plaquetas circulantes, e a plaquetopenia resultante explica o sangramento, enquanto os microtrombos derivam apenas da estase da microcirculação.]),
-   ("B", [As citocinas inflamatórias ativam a fibrinólise de forma primária e maciça, e a plasmina em excesso degrada fibrinogênio circulante, o que causa sangramento sem que haja qualquer trombose associada verdadeira.]),
-   ("C", [O lipopolissacarídeo liga-se diretamente ao fator XII e o autoativa em toda a circulação; o sangramento decorre do consumo desse fator isolado, sem participação do endotélio nem das citocinas.]),
-   ("D", [Interleucina-1 e fator de necrose tumoral induzem fator tecidual no endotélio e suprimem os anticoagulantes naturais que ele expressava; a coagulação difusa consome plaquetas e fatores, e o consumo é o que produz o sangramento.]),
-   ("E", [O óxido nítrico produzido em excesso inibe a agregação plaquetária e causa o sangramento, ao passo que os microtrombos observados são compostos apenas de leucócitos aderidos ao endotélio, sem fibrina.])))
+  [Diante da suspeita de contaminação de instrumental por agente causador de encefalopatia espongiforme transmissível, o protocolo veta expressamente o uso prévio de formaldeído. Assinale a alternativa que fundamenta corretamente essa vedação.],
+  (("A", [O formaldeído reage com o hipoclorito recomendado na etapa seguinte, produzindo compostos clorados voláteis que impedem a leitura do indicador biológico e comprometem a validação do ciclo subsequente.]),
+   ("B", [O formaldeído é inativo diante de proteínas por atuar exclusivamente sobre ácidos nucleicos, e a sua aplicação atrasa o processamento sem qualquer efeito sobre o agente, que é constituído apenas por material genético.]),
+   ("C", [O agente é uma proteína mal dobrada, sem ácido nucleico a ser quebrado, e o formaldeído, que alquila e forma ligações cruzadas, fixa e estabiliza o agregado proteico, tornando-o ainda mais resistente à inativação.]),
+   ("D", [O formaldeído desnatura de modo irreversível as proteínas do instrumental metálico, alterando a superfície e criando microfissuras que passam a abrigar o agente e a impedir o contato com os agentes posteriores.]),
+   ("E", [O formaldeído seria eficaz, mas seu emprego é vedado apenas por questões de toxicidade ocupacional, sendo substituído pelo glutaraldeído a 2%, que apresenta o mesmo mecanismo alquilante com menor volatilidade.])))
 
 #questao-mc("21", badge-integracao,
-  [Sobre o programa de resolução da inflamação aguda, assinale a alternativa *incorreta*:],
-  (("A", [A prostaglandina E₂ acumulada no foco induz a expressão da 15-lipoxigenase, o que desloca o metabolismo do ácido araquidônico da produção de leucotrieno B₄ para a produção de lipoxinas.]),
-   ("B", [As lipoxinas inibem a quimiotaxia e a adesão de neutrófilos e estimulam o macrófago a remover os restos celulares, atuando em sentido oposto ao do leucotrieno B₄.]),
-   ("C", [A resolução é essencialmente passiva: cessado o estímulo, os mediadores deixam de ser produzidos e o infiltrado se dissipa por inércia, sem que haja síntese de moléculas dedicadas ao desligamento.]),
-   ("D", [A fagocitose do neutrófilo apoptótico pelo macrófago reprograma esta célula, que passa a secretar interleucina-10 e fator de transformação do crescimento beta em vez de citocinas pró-inflamatórias.]),
-   ("E", [O desfecho depende da integridade do arcabouço de matriz: preservado, há restituição integral; destruído, o fator de transformação do crescimento beta conduz a deposição de colágeno e a cicatriz.])))
+  [Uma superfície é limpa com detergente comum e, sem enxágue intermediário, recebe imediatamente um desinfetante à base de quaternário de amônio. A desinfecção falha. Assinale a alternativa que explica corretamente o resultado.],
+  (("A", [O detergente removeu a camada de matéria orgânica que serviria de substrato ao quaternário de amônio, cuja ação depende da oxidação de proteínas presentes na superfície para gerar o produto microbicida ativo.]),
+   ("B", [O quaternário de amônio requer superfície úmida para se distribuir, e o detergente residual formou uma película hidrofóbica que impediu o espalhamento do produto, reduzindo a área efetivamente tratada durante a aplicação.]),
+   ("C", [O detergente elevou a tensão superficial da solução desinfetante, o que dificultou o contato do agente com a parede bacteriana e reduziu a penetração do produto através da camada externa das células presentes.]),
+   ("D", [O quaternário de amônio é um tensoativo catiônico, e o resíduo de detergente aniônico o neutraliza quimicamente por interação de cargas opostas, de modo que a etapa seguinte foi conduzida com o agente já inativado.]),
+   ("E", [O quaternário de amônio é agente de alto nível cuja atividade exige tempo de contato prolongado, e a presença de detergente acelerou sua evaporação, encurtando o contato abaixo do mínimo previsto para o produto.])))
 
 #questao-ce("22", badge-integracao,
-  [Sobre a cinética das moléculas de adesão endotelial e sua relação com as citocinas do foco. Julgue os itens:],
-  (("I",   [A P-selectina depende de transcrição gênica induzida no endotélio e por isso só alcança a superfície várias horas depois do estímulo por histamina ou por trombina.]),
-   ("II",  [A E-selectina encontra-se pré-formada nos corpúsculos de Weibel-Palade e é externalizada em poucos minutos, sem necessidade de síntese proteica nova.]),
-   ("III", [O ICAM-1 tem expressão basal baixa que aumenta acentuadamente sob estímulo de interleucina-1 e de fator de necrose tumoral, e é esse incremento que sustenta a adesão firme.]),
-   ("IV",  [A ligação da integrina VLA-4 ao VCAM-1 favorece o recrutamento de monócitos e linfócitos, contribuindo para a mudança do perfil do infiltrado ao longo dos dias.])))
+  [A escolha do antisséptico para preparo de pele em procedimento invasivo depende menos da potência imediata do agente e mais do seu comportamento ao longo do procedimento. Julgue os itens.],
+  (("I",   [O álcool a 70% apresenta ação rápida e potente sobre a microbiota da pele e mantém atividade antimicrobiana por várias horas depois de evaporar, o que dispensa a associação a outro agente em procedimentos longos.]),
+   ("II",  [A clorexidina liga-se ao estrato córneo e às proteínas da pele e mantém atividade por horas após a aplicação, propriedade que sustenta seu uso em antissepsia cirúrgica e na inserção de cateter venoso central.]),
+   ("III", [A antissepsia da pele reduz drasticamente a microbiota transitória e apenas parte da residente, alojada em folículos e glândulas, de modo que o campo cirúrgico é uma superfície de carga muito baixa e não estéril.]),
+   ("IV",  [A restrição que limita o arsenal antisséptico é a toxicidade ao tecido do hospedeiro, e não a incapacidade química dos demais desinfetantes de destruir os micro-organismos presentes sobre a pele.])))
 
 #questao-mc("23", badge-integracao,
-  [Uma célula que morre por piroptose amplifica a inflamação de modo muito mais intenso do que uma célula que morre por apoptose. Qual é a base mecanística dessa diferença],
-  (("A", [O fragmento amino-terminal da gasdermina D forma poro na membrana; a célula incha, rompe e derrama no interstício conteúdo citosólico rico em moléculas de dano, além de liberar a interleucina-1β madura.]),
-   ("B", [A piroptose consome as reservas de ATP da célula muito mais rapidamente, e é a depleção energética do tecido vizinho, com falência das bombas iônicas, o que amplifica a resposta inflamatória local observada.]),
-   ("C", [Na piroptose a célula expõe fosfatidilserina na face externa da membrana com densidade muito maior, e esse sinal em excesso ativa o macrófago para um perfil pró-inflamatório sustentado no foco.]),
-   ("D", [A caspase-1 ativada difunde para o meio extracelular e cliva diretamente componentes da matriz, e são os fragmentos de matriz gerados por essa protease os principais responsáveis pela amplificação do processo.]),
-   ("E", [A piroptose ocorre preferencialmente em células endoteliais, e é a perda de integridade da barreira vascular, e não o conteúdo liberado pela célula morta, o que amplifica a resposta inflamatória no tecido.])))
+  [Um serviço precisa esterilizar um conjunto de instrumentos ópticos com componentes plásticos que não toleram 121 °C, embalados junto a compressas de algodão. O responsável considera o plasma de peróxido de hidrogênio. Assinale a alternativa correta sobre essa escolha.],
+  (("A", [O plasma é inadequado porque atua exclusivamente sobre superfícies externas e não penetra embalagens, o que obriga o processamento dos instrumentos desmontados e expostos diretamente na câmara sob vácuo.]),
+   ("B", [O plasma é adequado para os instrumentos, que devem ser embalados em polipropileno permeável, mas as compressas de algodão precisam ser retiradas: a celulose absorve o peróxido e aborta o ciclo do equipamento.]),
+   ("C", [O plasma é inadequado porque opera entre 100 °C e 120 °C na fase de vaporização do peróxido, faixa que os componentes plásticos descritos também não toleram, sendo o óxido de etileno a única alternativa possível.]),
+   ("D", [O plasma é adequado para todo o conjunto, e a presença de algodão é desejável porque a celulose retém o peróxido residual e funciona como indicador visual da distribuição do agente dentro da câmara.]),
+   ("E", [O plasma é inadequado por deixar resíduo tóxico que exige aeração prolongada, o que inviabiliza o uso em material com componentes plásticos capazes de absorver e liberar lentamente o agente esterilizante.])))
 
 #questao-mc("24", badge-integracao,
-  [O infiltrado de um foco inflamatório agudo é predominantemente neutrofílico nas primeiras horas e passa a predominantemente macrofágico entre doze e quarenta e oito horas. O que explica essa substituição],
-  (("A", [O macrófago fagocita seletivamente os neutrófilos viáveis do foco e os elimina de forma ativa, e essa depuração dirigida é o mecanismo que impõe a troca do elenco celular observada no tecido.]),
-   ("B", [O neutrófilo migra do tecido de volta para a luz vascular assim que o estímulo perde intensidade, retornando à circulação, ao passo que o macrófago é incapaz de fazer esse trajeto reverso.]),
-   ("C", [A expressão de selectinas no endotélio cai abruptamente após seis horas, o que impede qualquer novo recrutamento de neutrófilos, enquanto o macrófago atravessa a parede por mecanismo independente de adesão.]),
-   ("D", [O neutrófilo vive poucas horas no tecido e entra em apoptose por relógio interno, sem ser reposto; o macrófago responde a quimiocinas de expressão mais tardia, sobrevive dias e acaba herdando o foco.]),
-   ("E", [A queda progressiva do oxigênio no exsudato inviabiliza o metabolismo do neutrófilo, que é estritamente dependente de fosforilação oxidativa, ao contrário do macrófago, que sustenta sua função por glicólise anaeróbia.])))
+  [Um produto tem atividade esporocida comprovada em ensaio de laboratório. O fabricante conclui, a partir disso, que ele pode ser rotulado como esterilizante para uso hospitalar. Assinale a alternativa que avalia corretamente essa conclusão.],
+  (("A", [A conclusão procede, porque a capacidade de destruir endósporos é o critério que define a esterilização, e um agente que ultrapassa o degrau mais resistente da escada elimina por consequência todos os degraus inferiores.]),
+   ("B", [A conclusão procede desde que o ensaio tenha empregado #emph[Geobacillus stearothermophilus], espécie cuja destruição é reconhecida como equivalente à esterilidade independentemente da concentração e do tempo utilizados no ensaio.]),
+   ("C", [A conclusão não procede, porque a atividade esporocida só pode ser atribuída a agentes gasosos; produtos líquidos, qualquer que seja o resultado do ensaio, são classificados no máximo como desinfetantes de alto nível.]),
+   ("D", [A conclusão não procede, porque um agente esporocida não alcança príons, e a esterilização exige, por definição, a eliminação de todas as entidades transmissíveis, incluindo aquelas desprovidas de ácido nucleico.]),
+   ("E", [A conclusão não procede: atividade esporocida depende de concentração e tempo de contato, enquanto esterilização é processo validado e monitorado — o glutaraldeído a 2% é alto nível em 20 a 30 minutos e esteriliza apenas em horas.])))
 
 #questao-ce("25", badge-integracao,
-  [Sobre a ação das anafilatoxinas do complemento sobre o mastócito e a microcirculação. Julgue os itens:],
-  (("I",   [O C5a e o C3a degranulam o mastócito por receptor próprio, o que libera histamina pré-formada e conecta a ativação do complemento ao aumento imediato da permeabilidade venular.]),
-   ("II",  [Entre os fragmentos gerados, o C3a é a anafilatoxina mais potente e o único com função quimiotática relevante sobre o neutrófilo, papel que o C5a praticamente não desempenha.]),
-   ("III", [A degranulação do mastócito por anafilatoxina exige sensibilização prévia por IgE específica, razão pela qual esse mecanismo só opera em indivíduos previamente alergizados.]),
-   ("IV",  [A histamina liberada age no receptor H1 do músculo liso arteriolar promovendo vasoconstrição, o que reduz o fluxo local e limita a formação de edema no território afetado.])))
+  [O monitoramento de um ciclo de esterilização se apoia em três camadas de informação, e cada uma responde a uma pergunta diferente sobre o que aconteceu dentro da câmara. Julgue os itens.],
+  (("I",   [O indicador biológico é o único que desafia diretamente o parâmetro de interesse, porque submete ao ciclo esporos vivos de espécie mais resistente que qualquer contaminante esperado para aquele processo.]),
+   ("II",  [No ciclo de óxido de etileno o indicador biológico é dispensável, bastando o registro automático de concentração, umidade e temperatura emitido pelo próprio equipamento ao final do processo.]),
+   ("III", [A leitura do indicador biológico deve ser feita imediatamente após o ciclo, sem incubação, uma vez que qualquer turvação tardia do meio decorre de contaminação ambiental da ampola durante o manuseio.]),
+   ("IV",  [O óxido de etileno age por oxidação direta, não deixa resíduo no material processado e permite a liberação imediata da carga ao final do ciclo, sem necessidade de etapa de aeração.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Menino de 4 anos com abscessos cutâneos de repetição por #emph[Staphylococcus aureus] e #emph[Serratia]. O teste funcional do neutrófilo mostra produção de oxidantes muito reduzida; a contagem de neutrófilos e as moléculas de adesão são normais. Qual etapa está comprometida],
-  (("A", [O rolamento sobre o endotélio, por deficiência de ligante de selectina no leucócito, o que impede a marginação e reduz a chegada de neutrófilo ao foco apesar da contagem sanguínea normal.]),
-   ("B", [A geração de superóxido pela NADPH oxidase no fagossomo, de modo que não se formam peróxido nem hipoclorito e o micro-organismo fagocitado sobrevive dentro da célula que o engoliu.]),
-   ("C", [A opsonização do alvo por C3b, por deficiência de componente inicial da via alternativa do complemento, o que torna a captura lenta e ineficiente mesmo com neutrófilos plenamente funcionais.]),
-   ("D", [A quimiotaxia ao longo do gradiente tecidual, por defeito do receptor de peptídeos formilados, o que mantém o neutrófilo próximo ao vaso e distante do sítio real de multiplicação bacteriana.]),
-   ("E", [A fusão do grânulo azurófilo com o fagossomo, o que impede a entrega de mieloperoxidase e defensinas ao compartimento onde o micro-organismo fagocitado se encontra confinado.])))
+  [Após biópsia de lesão pulmonar com suspeita de tuberculose, o serviço precisa reprocessar dois grupos de itens usados no procedimento: pinças metálicas termorresistentes e um conjunto óptico termossensível com lúmen estreito. Assinale a conduta correta para cada grupo.],
+  (("A", [Pinças em forno de calor seco a 121 °C por 15 minutos; conjunto óptico por imersão em álcool a 70% por 10 minutos, tempo suficiente para inativar a micobactéria em razão da alta lipossolubilidade do agente.]),
+   ("B", [Ambos os grupos por desinfecção de nível intermediário com composto clorado, uma vez que a micobactéria é sensível a agentes tuberculicidas e nenhum dos dois itens penetra tecido normalmente estéril.]),
+   ("C", [Pinças em autoclave a 121 °C por 15 a 30 minutos ou 134 °C por poucos minutos; conjunto óptico por óxido de etileno ou plasma de peróxido de hidrogênio, ambos precedidos de limpeza com escovação dos lúmens.]),
+   ("D", [Ambos os grupos por imersão em quaternário de amônio, associando tempo de contato prolongado, o que compensa a barreira de ácido micólico e dispensa a etapa de limpeza prévia por ação tensoativa do produto.]),
+   ("E", [Pinças por fervura a 100 °C por 15 minutos, suficiente para bacilos álcool-ácido resistentes; conjunto óptico por radiação ultravioleta em cabine fechada durante 30 minutos, com o material desmontado sobre a bancada.])))
 
 #questao-mc("27", badge-aplicacao,
-  [Paciente asmático usa ácido acetilsalicílico para cefaleia e desenvolve broncoespasmo intenso em minutos, sem urticária e sem hipotensão. Qual mecanismo explica melhor esse desfecho],
-  (("A", [Reação de hipersensibilidade mediada por IgE específica contra o salicilato, com degranulação maciça de mastócito brônquico e liberação de histamina suficiente para contrair o músculo liso das vias aéreas.]),
-   ("B", [Inibição da fosfolipase A₂ pelo fármaco, que suprime a produção de prostaciclina broncodilatadora e deixa o tônus da via aérea sob domínio exclusivo da inervação colinérgica parassimpática.]),
-   ("C", [Ativação direta do complemento pelo fármaco, com geração de C5a em quantidade suficiente para degranular mastócitos da mucosa brônquica e produzir contração da musculatura lisa respiratória.]),
-   ("D", [Acetilação irreversível da mieloperoxidase do eosinófilo brônquico, o que aumenta a produção local de espécies reativas e desencadeia contração da musculatura lisa por lesão epitelial oxidativa.]),
-   ("E", [Bloqueio da ciclo-oxigenase com acúmulo de ácido araquidônico, que é desviado para a 5-lipoxigenase; o excesso de cisteinil-leucotrienos contrai o músculo liso brônquico com potência muito superior à da histamina.])))
+  [Um paciente internado desenvolve diarreia associada a #emph[Clostridioides difficile]. A equipe reforça a fricção alcoólica das mãos e a limpeza do quarto com quaternário de amônio, e novos casos surgem no mesmo corredor. Assinale a conduta que corrige as duas falhas.],
+  (("A", [Manter a fricção alcoólica e substituir o quaternário por álcool a 70% nas superfícies, aumentando o tempo de contato para 10 minutos e repetindo a aplicação a cada turno até a alta do paciente-índice.]),
+   ("B", [Substituir a fricção alcoólica por higienização com água e sabão e trocar o quaternário por composto liberador de cloro ativo nas superfícies, mantendo a limpeza com detergente antes da etapa de desinfecção.]),
+   ("C", [Manter as duas medidas e acrescentar irradiação ultravioleta do quarto entre as internações, o que compensa a limitação dos agentes empregados por atingir diretamente as formas esporuladas nas superfícies sombreadas.]),
+   ("D", [Substituir a fricção alcoólica por clorexidina degermante e manter o quaternário nas superfícies, uma vez que a atividade residual da clorexidina sobre a pele é o fator que interrompe a cadeia de transmissão.]),
+   ("E", [Manter a fricção alcoólica, reforçando o volume aplicado por higienização, e substituir o quaternário por composto fenólico, cuja atividade residual sobre a superfície prolonga o efeito entre as limpezas do quarto.])))
 
 #questao-ce("28", badge-aplicacao,
-  [Homem de 62 anos com bacteriemia por Gram-negativo apresenta pressão arterial de 70/40 mmHg que não responde a volume, edema difuso e plaquetopenia. Julgue os itens sobre a fisiopatologia do quadro:],
-  (("I",   [A hipotensão refratária decorre exclusivamente da perda absoluta de volume intravascular para o interstício, sem participação de vasodilatação sistêmica mediada por óxido nítrico.]),
-   ("II",  [O edema difuso decorre de lesão endotelial direta produzida pelo lipopolissacarídeo em todos os leitos, mecanismo distinto da contração endotelial que opera no foco localizado.]),
-   ("III", [A plaquetopenia decorre do consumo de plaquetas na coagulação intravascular disseminada, desencadeada pelo fator tecidual induzido no endotélio sob ação das citocinas.]),
-   ("IV",  [O lipopolissacarídeo é reconhecido no citosol do macrófago pelo NOD2, e é essa via, e não o TLR4 de superfície, que dispara a liberação sistêmica de citocinas na sepse.])))
+  [Um endoscópio digestivo flexível retorna do centro de endoscopia com resíduo orgânico visível no canal de biópsia. O técnico pretende encaminhá-lo diretamente à imersão em glutaraldeído a 2% por 30 minutos. Julgue os itens sobre essa conduta.],
+  (("I",   [A conduta está incorreta: sem limpeza com escovação dos canais, a matéria orgânica consome o glutaraldeído por reação química e blinda fisicamente o micro-organismo, reduzindo a concentração efetiva no alvo.]),
+   ("II",  [O endoscópio digestivo é artigo semicrítico por entrar em contato com mucosa íntegra, e a exigência mínima para o seu reprocessamento é a desinfecção de alto nível, e não a esterilização.]),
+   ("III", [A imersão em glutaraldeído a 2% por 30 minutos, quando precedida de limpeza adequada, esteriliza o equipamento, o que permite classificá-lo como artigo crítico processado por método químico à temperatura ambiente.]),
+   ("IV",  [O ácido peracético é inadequado ao reprocessamento de endoscópios porque sua decomposição gera resíduos corrosivos que danificam de forma progressiva os canais internos do equipamento.])))
 
 #questao-mc("29", badge-aplicacao,
-  [Uma criança apresenta infecções bacterianas graves de repetição desde o nascimento, com cicatrização lenta do coto umbilical e feridas sem pus, apesar de leucometria persistentemente acima de 30.000 por mm³. A biópsia da lesão cutânea mostra pouquíssimos neutrófilos no tecido, embora as vênulas estejam repletas deles. Qual defeito molecular explica esse conjunto],
-  (("A", [Deficiência da subunidade comum das integrinas leucocitárias: o neutrófilo rola normalmente, mas não converte o rolamento em adesão firme ao ICAM-1, não atravessa a parede e permanece na circulação, o que produz leucocitose sem pus.]),
-   ("B", [Deficiência de mieloperoxidase no grânulo azurófilo, o que impede a conversão de peróxido em hipoclorito e torna o neutrófilo incapaz de eliminar o micro-organismo já fagocitado no interior do fagossomo.]),
-   ("C", [Deficiência dos componentes terminais do complemento, com incapacidade de montar o complexo de ataque à membrana, o que compromete a lise direta das bactérias e explica a gravidade e a recorrência das infecções.]),
-   ("D", [Defeito na sinalização do TLR4 por ausência do adaptador MyD88, o que abole a produção de citocinas inflamatórias e impede o reconhecimento de bactérias Gram-negativas pelo macrófago residente do tecido.]),
-   ("E", [Deficiência da NADPH oxidase fagocitária, com incapacidade de gerar superóxido, o que permite ao micro-organismo sobreviver dentro do fagócito e leva à formação de granulomas nos sítios de infecção.])))
+  [Uma gestante apresenta listeriose após consumo de queijo feito com leite não pasteurizado, mantido refrigerado a 4 °C durante todo o armazenamento na residência. Assinale a alternativa que explica corretamente a sequência de falhas envolvida nesse caso.],
+  (("A", [A refrigeração a 4 °C esteriliza o alimento apenas após 72 horas de armazenamento contínuo, e o consumo antes desse intervalo explica a persistência do agente viável no produto ingerido pela paciente.]),
+   ("B", [A pasteurização teria sido dispensável se o queijo fosse mantido congelado, uma vez que o congelamento é microbicida e elimina de forma confiável os patógenos não esporulados presentes no leite cru.]),
+   ("C", [O agente sobreviveu porque a pasteurização não é eficaz contra bactérias intracelulares facultativas, e a refrigeração adequada seria suficiente se o produto tivesse sido submetido a fervura antes do consumo.]),
+   ("D", [O leite não pasteurizado manteve a carga do patógeno, e a refrigeração não corrigiu a falha porque o frio é bacteriostático e a espécie é psicrotrófica, multiplicando-se lentamente na temperatura de armazenamento.]),
+   ("E", [O queijo foi contaminado após a produção, já que a espécie não sobrevive em leite cru; a refrigeração seria suficiente para conter o crescimento caso a manipulação posterior tivesse ocorrido em superfície desinfetada.])))
 
 #questao-mc("30", badge-aplicacao,
-  [Homem de 45 anos sofre queimadura de segundo grau em 20% da superfície corporal. Nas primeiras horas há edema intenso e persistente na área queimada; ao terceiro dia, o exame histológico mostra infiltrado predominantemente macrofágico e início de deposição de matriz. Qual sequência mecanística descreve corretamente esses dois momentos],
-  (("A", [O edema inicial resulta de contração endotelial mediada por histamina, de curta duração; o infiltrado macrofágico do terceiro dia decorre do retorno dos neutrófilos à circulação, que abre espaço para o monócito recrutado.]),
-   ("B", [O edema inicial decorre de queda isolada da pressão oncótica plasmática por perda de albumina pela superfície queimada, e o infiltrado tardio reflete apenas a proliferação local de macrófagos residentes do tecido.]),
-   ("C", [O edema inicial vem de lesão endotelial direta, imediata e sustentada porque depende de reparo do endotélio; o predomínio macrofágico tardio decorre da apoptose não reposta do neutrófilo e da eferocitose, que reprograma o macrófago para o reparo.]),
-   ("D", [O edema inicial é mediado por leucotrienos liberados pelo neutrófilo já aderido à parede vascular, e o infiltrado do terceiro dia representa a segunda onda de neutrófilos atraída pelo leucotrieno B₄ acumulado na ferida.]),
-   ("E", [O edema inicial decorre de obstrução linfática pelo calor, sem alteração da permeabilidade vascular, e o infiltrado macrofágico tardio é resposta à infecção secundária que se instala invariavelmente na área desvitalizada.])))
+  [Um pacote retirado da autoclave apresenta a fita termossensível uniformemente escurecida, mas o indicador biológico processado no mesmo ciclo mostra turvação do meio após incubação. Sobre a interpretação e a conduta nesse cenário, assinale a alternativa *incorreta*.],
+  (("A", [A discordância entre os dois indicadores é impossível em ciclo tecnicamente correto, e por isso o resultado deve ser atribuído a contaminação da ampola durante o manuseio, liberando-se a carga processada normalmente.]),
+   ("B", [A turvação do meio indica que os esporos sobreviveram ao ciclo, o que caracteriza falha do processo e impõe a retenção de toda a carga processada até a investigação e o reprocessamento do material envolvido.]),
+   ("C", [A fita escurecida informa apenas que o pacote foi exposto à temperatura de viragem do indicador químico, sem qualquer garantia sobre o tempo de permanência ou a penetração do vapor até o centro do pacote.]),
+   ("D", [Um bolsão de ar retido no interior do pacote explicaria o achado, pois a mistura de ar e vapor atinge, naquela pressão, temperatura inferior à do vapor saturado puro, sem alteração aparente no registro do ciclo.]),
+   ("E", [A investigação deve incluir a rotina de purga de ar, a disposição e o volume da carga na câmara e o tipo de embalagem utilizada, fatores que interferem diretamente na penetração do vapor até o interior dos pacotes.])))
