@@ -2,79 +2,72 @@
 
 ## Seção A — Escopo
 
+> **v2 — 2026-09-03.** Regerado sob o `CLAUDE.md` § Registro científico: teto de E1 em 15 páginas, profundidade padronizada em "superior à da prova", Consolidação da E2 em decoreba. A v1 (18 páginas, 12 subtópicos) está arquivada em `arquivos-trabalho/etapas-anteriores/gr-02-diabetes-mellitus-v1/`.
+
 - **Tema:** Diabetes mellitus — do defeito de insulina às complicações de órgão-alvo
 - **Slug:** `gr-02-diabetes-mellitus` (entrada `gr-02` em `banco/aulas_uc03.yml`)
 - **Disciplina:** UC03 · Grand Round (integra Bioquímica/Biologia Molecular, Patologia, Imunologia e Radiologia)
-- **Onde estudar:** Robbins & Cotran, *Patologia — Bases Patológicas das Doenças*, capítulo do Sistema Endócrino (§ Diabetes mellitus) · Lehninger, *Princípios de Bioquímica*, capítulo de Regulação Hormonal e Integração Metabólica · Brant & Helms, *Fundamentos de Radiologia*, capítulos de tórax cardiovascular e musculoesquelético
-- **Alvo de páginas E1:** piso 2, **teto 22** — alvo real 18–21
-- **`profundidade: fundo`** (Davi pediu "bem abrangente, pra aprofundarmos bem")
+- **Onde estudar:** Robbins & Cotran, *Patologia*, capítulo do Sistema Endócrino (§ Diabetes mellitus) · Lehninger, *Princípios de Bioquímica*, Regulação hormonal e integração metabólica · Brant & Helms, *Fundamentos de Radiologia*, tórax cardiovascular e musculoesquelético
+- **Alvo de páginas E1:** piso 2, **teto 15** — alvo real 12–14 · **10 subtópicos** (4 + 3 + 3), 440–480 palavras cada, ~4.800 palavras de miolo
 - **Distribuição E2:** PROFUNDO → 8 Consolidação · 17 Integração · 5 Aplicação
+
+### Teto histórico e degrau (substitui o antigo campo `profundidade:`)
+
+- **Teto histórico desta aula** (o que o acervo da UC03 mostra que a casa cobra): a cadeia da glicação até os AGEs nomeada por etapas, com os destinos protéicos — colágeno e cicatrização, LDL e aterosclerose, hemoglobina e HbA1c, albumina e frutosamina; a diferença tipo 1 × tipo 2 em mecanismo, clínica e forma de descompensação; necrose gangrenosa do pé como isquemia com irreversibilidade marcada pela permeabilidade de membrana; tríade de Virchow aplicada ao diabético; diabetes como causa básica na declaração de óbito.
+- **Degrau que a E1 acrescenta:** (a) *por que* a hiperglicemia lesa justamente retina, glomérulo, nervo e endotélio — a captação de glicose independente de insulina, que impede essas células de fechar a porta; (b) as **quatro rotas** (polióis, hexosamina, PKC, AGE/RAGE) convergindo em estresse oxidativo; (c) o eixo **RAGE → NF-κB** como o que converte dano químico em dano auto-perpetuado; (d) a leitura quantitativa dos exames do caso — por que o peptídeo C separa tipo 1 de tipo 2 e por que frutosamina e HbA1c medem janelas distintas; (e) por que o rim cresce no início da nefropatia e encolhe no fim, e como isso aparece na ultrassonografia.
+
+### Hierarquia de fontes aplicada (canônico 2026-09-03)
+
+1. **O slide guiou o fluxo** — a ordem do resumo é a do deck: definição e classificação → tipo 1 → tipo 2 → AGEs → complicações oculares, renais e do pé → bloco radiológico.
+2. **A prova indicou o quanto ir a mais** — as 19 subquestões `GR` de 2018-2025 e as 36 subquestões com conteúdo de diabetes fixaram o teto; o degrau acima está declarado na linha anterior.
+3. **Livros e outras fontes indicaram assuntos laterais** — Robbins forneceu a via dos polióis, a via da hexosamina e o padrão nodular de Kimmelstiel-Wilson; entram como menção lateral integrada à prosa, sem redefinir escopo.
 
 ### Recorte slide × tema
 
-O slide cobre **duas fontes**: o deck da aula (43 telas — definição/classificação, DM1 como jejum permanente, DM2 como resistência + falência, AGEs, complicações oculares/renais/pé, e um bloco radiológico de 12 telas) e o **caso clínico** da Dra. Sharon Admoni (homem de 26 anos, poliúria/polidipsia/perda de 3 kg, glicemia 397, HbA1c 8,8%, peptídeo C 1,32, anti-GAD65 1082, e o seguimento com insulina basal-bolus + monitorização contínua até um perfil com 97% de tempo no alvo).
+O slide cobre **duas fontes**: o deck da aula (43 telas) e o caso clínico da Dra. Sharon Admoni (homem de 26 anos, poliúria e polidipsia, glicemia 397, HbA1c 8,8%, peptídeo C 1,32, anti-GAD65 1082, seguido até um perfil com 97% de tempo no alvo).
 
-**Recorte declarado:** o tema pedido é o Grand Round inteiro. Diferente de um resumo de aula única, aqui a integração multiárea **é** o conteúdo — não é vazamento de outra aula. O que fica de fora mesmo assim: física de formação da imagem (ultrassom, TC, RM) em detalhe de aula-ferramenta; farmacologia de antidiabéticos além do mecanismo que o slide cita; e o manejo terapêutico de ciclo clínico (protocolo de cetoacidose, ajuste fino de contagem de carboidratos). O caso clínico entra como **âncora**, não como aula de endocrinologia prática.
+**Recorte declarado:** o tema pedido é o Grand Round inteiro, e aqui a integração multiárea **é** o conteúdo — não é vazamento de outra aula. Fica de fora: física de formação da imagem em detalhe de aula-ferramenta, farmacologia de antidiabéticos além do mecanismo que o slide cita, e manejo terapêutico de ciclo clínico.
 
 ### Divergência canônica declarada
 
-`referencias-externas/uc03/CALIBRACAO.md` § Fronteiras, item 6, diz "Grand Round não vira resumo NEBLI". Davi pediu explicitamente este resumo. A regra vale como default; o pedido explícito vence. Anotado no `banco/aulas_uc03.yml` e no `MEMORY.md` § Histórico.
+`referencias-externas/uc03/CALIBRACAO.md` § Fronteiras item 6 diz "Grand Round não vira resumo NEBLI". Davi pediu explicitamente. A regra vale como default; o pedido explícito vence. Anotado em `banco/aulas_uc03.yml` e no `MEMORY.md` § Histórico.
 
-### Teto histórico × degrau NEBLI (calibração UC03)
+### Prioridades desta corrida
 
-Levantamento de 19 subquestões etiquetadas `GR` (2018–2025) + 36 subquestões com conteúdo de diabetes/aterosclerose no acervo de 30 provas.
+1. **Registro científico (CANON 2026-09-03).** Termo técnico nomeado na mesma frase em que é definido; filtro das três funções aplicado subtópico a subtópico; zero frase de moldura.
+2. **Teto de 15 páginas.** Alavanca 1 do F4 (filtro das três funções) aplicada primeiro; alavanca 2 (fundir irmãos) levou 12 → 10 subtópicos.
+3. **Consolidação decoreba.** Q01–Q08 reescritas como recall direto, alternativas de 10–20 palavras.
 
-**O que a casa cobra num Grand Round** (padrão estável 2018→2025):
-1. **Mecanismo único que explica achados em múltiplos órgãos** — "explique o principal mecanismo fisiopatológico que pode explicar todas essas alterações" (2024 P1, e a resposta esperada é a cadeia glicação → Schiff → Amadori → AGE, com o destino em colágeno, LDL e hemoglobina).
-2. **Comparar dois cenários pelo mecanismo, apontando semelhança E diferença** — osteomielite × pneumonia pelo mesmo *S. aureus* (2024 P2); trombose por estase/hipercoagulabilidade × trombose por lesão endotelial/turbulência (2025 P4); sarampo × influenza (2025 P3).
-3. **Correlacionar achado patológico + imagem + laboratório no mesmo paciente** (2019 P3, 2018 P4).
-4. **Ligar estratégia terapêutica ao mecanismo fisiopatológico** (2024 P4 — antiagregante, trombolítico e stent explicados pela ativação endotelial).
-5. **Explicar por que a resposta imune do caso produz o quadro observado** (2018 P3 ×3, 2019 P1/P2).
-   Verbos: *explique · aponte semelhanças e diferenças · correlacione · compare do ponto de vista de mecanismos · considerando seus conhecimentos de*. Nunca "defina".
-
-**Teto histórico desta aula:** a cadeia da glicação até os AGEs, nomeada por etapas, com os destinos protéicos (colágeno → cicatrização; LDL → aterosclerose; hemoglobina → HbA1c; albumina → frutosamina); a diferença DM1 × DM2 em mecanismo, clínica e forma de descompensação; necrose gangrenosa do pé como isquemia + irreversibilidade por permeabilidade de membrana; tríade de Virchow aplicada ao diabético; declaração de óbito com diabetes como causa básica.
-
-**A E1 vai um degrau acima em:** (a) *por que* a hiperglicemia lesa **justamente** retina, glomérulo, nervo e endotélio — a captação de glicose GLUT-independente de insulina, que impede essas células de fecharem a porta; (b) as **quatro rotas** da hiperglicemia (polióis, hexosamina, PKC, AGE/RAGE) convergindo em estresse oxidativo; (c) o eixo **RAGE → NF-κB** como o que transforma dano químico em dano auto-perpetuado; (d) a leitura **quantitativa** dos exames do caso — por que peptídeo C separa DM1 de DM2 e por que frutosamina e HbA1c medem janelas de tempo diferentes; (e) por que o rim **cresce** no início da nefropatia e **encolhe** no fim, e como isso aparece na ultrassonografia.
-
-### Prioridades desta corrida (do § Diário de revisões)
-
-1. **Economia de palavra (F10, peso alto, 2026-08-31).** Alvo 450–550 palavras por subtópico. `fundo` sobe conteúdo, não verbosidade. Caçar: moldura antes do conteúdo, legenda que reconta o corpo, achado recontado, conclusão que reconta, duas frases onde cabe uma.
-2. **Figura obrigatória mesmo quando o tema é "conceitual" (peso alto, 2026-05-29).** Aqui há slide farto — sem desculpa. Mínimo 3 por PARTE, largura deliberada caso a caso.
-
----
-
-## Seção B — Esqueleto das 3 PARTES
+## Seção B — Esqueleto das 3 PARTES (10 subtópicos, 12 figuras)
 
 ### PARTE I — O sinal que falta: por que a glicose sobe (4 subtópicos)
 
-| # | Subtópico | Figuras planejadas |
+| # | Subtópico | Figuras |
 |---|---|---|
-| 1.1 | O que a insulina manda a célula fazer | `slide-14` (eixo incretina GLP-1/CCK) — lateral 42% |
-| 1.2 | Tipo 1: a ilhota destruída e o corpo em jejum permanente | `slide-12` (saudável × tipo 1 × tipo 2) — 72% |
-| 1.3 | Tipo 2: resistir ao sinal antes de perder a fonte | `slide-09` (lipotoxicidade muscular) 62% + `slide-11` (defeitos multiórgão) 68% |
-| 1.4 | Da glicose alta ao sintoma: diurese osmótica, catabolismo e as duas descompensações | `slide-10` (história natural DM2) 70% |
+| 1.1 | A insulina e os freios que ela mantém | `slide-14` eixo incretina — lateral 40% |
+| 1.2 | Tipo 1: a ilhota destruída e o corpo em jejum permanente | `slide-12` saudável × tipo 1 × tipo 2 — 60% |
+| 1.3 | Tipo 2: o sinal que chega e não é escutado | `slide-09` lipotoxicidade 55% + `slide-11` defeitos multiórgão 56% |
+| 1.4 | Diurese osmótica e as duas descompensações | — |
 
-### PARTE II — Do açúcar ao dano: glicação, AGEs e as rotas que perpetuam (4 subtópicos)
+### PARTE II — Do açúcar ao dano: glicação e as rotas que se perpetuam (3 subtópicos)
 
-| # | Subtópico | Figuras planejadas |
+| # | Subtópico | Figuras |
 |---|---|---|
-| 2.1 | Glicação não-enzimática: Schiff → Amadori → AGE | `slide-15` (química da glicação, reversível→fixo) — 76% **obrigatória** (cadeia multi-passo) |
-| 2.2 | HbA1c e frutosamina: dois relógios, duas janelas | — (cálculo em prosa) |
-| 2.3 | O que o AGE faz nas proteínas de vida longa | `slide-17` (espessamento da membrana basal glomerular) — 60% |
-| 2.4 | RAGE e as outras três rotas: como o dano vira auto-perpetuado | `slide-30` (cascata metabólico→funcional→patológico→clínico) — 66% |
+| 2.1 | Glicação não-enzimática e os dois relógios do controle *(funde as antigas 2.1 e 2.2)* | `slide-15` química da glicação — 70% **obrigatória** (cadeia multi-passo) |
+| 2.2 | O que o AGE faz nas proteínas de vida longa | `slide-17` membrana basal glomerular — 50% |
+| 2.3 | RAGE e as outras rotas: como o dano passa a se perpetuar | `slide-30` cascata metabólico→auto-perpetuador — 55% |
 
-### PARTE III — Onde o dano aparece: órgãos-alvo e o que a imagem enxerga (4 subtópicos)
+### PARTE III — Onde o dano aparece: órgãos-alvo e o que a imagem enxerga (3 subtópicos)
 
-| # | Subtópico | Figuras planejadas |
+| # | Subtópico | Figuras |
 |---|---|---|
-| 3.1 | Microangiopatia I — a retina | `slide-31` (mapa corporal das complicações) 72% + `slide-24` (retina digerida: microaneurismas) 48% |
-| 3.2 | Microangiopatia II — o glomérulo, e o rim que cresce antes de encolher | `slide-33` (US renal: normal / aumentado / reduzido) — 74% |
-| 3.3 | Neuropatia e pé diabético: três falhas somadas num só pé | `slide-28` (úlcera e gangrena) 55% + `slide-42` (Charcot, radiografias) 70% + `slide-43` (osteomielite, RX e RM) 70% |
-| 3.4 | Macroangiopatia: aterosclerose acelerada e como se procura por ela | `slide-34` (placa estável × vulnerável → trombo) 70% + `slide-40` (AVC isquêmico na TC) 55% |
+| 3.1 | Microangiopatia: retina e glomérulo *(funde as antigas 3.1 e 3.2)* | `slide-31` mapa corporal 58% + `slide-33` US renal 58% |
+| 3.2 | Neuropatia e pé diabético | `slide-42` Charcot 58% + `slide-43` osteomielite 58% |
+| 3.3 | Macroangiopatia: aterosclerose acelerada e como se procura por ela | `slide-34` placa estável × vulnerável 58% + tabela de métodos |
 
-**Conclusão integradora** (`#conclusao-box`, 4 camadas) + **Resumindo** (8 seções).
+**Conclusão integradora** (`#conclusao-box`, 4 camadas) + **Resumindo** (10 seções, 1 página).
 
----
+**Figuras descartadas na regeração** (filtro de utilidade + orçamento de 15 páginas): `slide-10` (história natural do tipo 2 — o conteúdo está na prosa de 1.3), `slide-24` (retina digerida — legibilidade baixa no tamanho disponível), `slide-28` (úlcera plantar — o mecanismo das três falhas não depende da foto), `slide-40` (AVC na TC — a leitura hipoatenuante × hiperatenuante está na prosa de 3.3).
 
 ## Seção B.bis — Registro de abertura por subtópico
 
@@ -85,17 +78,13 @@ Nenhum par vizinho compartilha registro. Pergunta âncora/retórica banida.
 | 1.1 | enquadramento |
 | 1.2 | ponto-de-quebra |
 | 1.3 | integração-anterior |
-| 1.4 | analogia concreta |
-| 2.1 | enquadramento |
-| 2.2 | integração-posterior |
-| 2.3 | ponto-de-quebra |
-| 2.4 | integração-anterior |
-| 3.1 | analogia concreta |
-| 3.2 | enquadramento |
-| 3.3 | integração-anterior |
-| 3.4 | ponto-de-quebra |
-
----
+| 1.4 | enquadramento |
+| 2.1 | analogia-de-processo (a reação como produto concentração × tempo) |
+| 2.2 | ponto-de-quebra |
+| 2.3 | integração-anterior |
+| 3.1 | enquadramento |
+| 3.2 | integração-anterior |
+| 3.3 | ponto-de-quebra |
 
 ## Seção B.ter — Pré-requisitos cruzados com frase-âncora pronta
 
@@ -114,7 +103,9 @@ Nenhum par vizinho compartilha registro. Pergunta âncora/retórica banida.
 ## Seção C — Distribuição da E2 e termos-nota
 
 **Taxonomia PROFUNDO:** 8 Consolidação (Q01–Q08) · 17 Integração (Q09–Q25) · 5 Aplicação (Q26–Q30).
-**Formatos:** 20 múltipla escolha (A–E) · **10 Certo/Errado com exatamente 4 itens (I–IV)** distribuídos pelas três categorias · 3 "assinale a incorreta" sinalizadas no stem.
+**Formatos:** 20 múltipla escolha (A–E) · **10 Certo/Errado com exatamente 4 itens (I–IV)** distribuídos pelas três categorias · 2 "assinale a incorreta" sinalizadas no stem (Q04 da v1 virou decoreba; restam Q18 e a antiga Q04 foi substituída).
+
+**Consolidação decoreba (CANON 2026-09-03).** Q01–Q08 cobram recall direto — nome do transportador, limiar renal, o que o peptídeo C mede, achado ultrassonográfico, os dois intermediários lipídicos — com **alternativas de 10 a 20 palavras** e distratora sendo a entidade vizinha errada (o outro GLUT, o outro valor de corte, o outro lipídeo). A banda de paridade 0.80–1.25 continua valendo, medida entre alternativas curtas; a regra de 25–35 palavras por distratora fica restrita a Integração e Aplicação.
 
 **Termos-nota obrigatórios (piso 6–10):** peptídeo C · anti-GAD65 · base de Schiff · produto de Amadori · frutosamina · diurese osmótica · hialinização arteriolar · microaneurisma · artropatia de Charcot · escore de cálcio coronariano.
 

@@ -23,18 +23,19 @@
 #sumario((
   ("Etapa 1 — Texto didático", (
     ("PARTE I — O sinal que falta", (
-      "1.1 O que a insulina manda fazer",
+      "1.1 A insulina e seus freios",
       "1.2 Tipo 1: ilhota destruída",
       "1.3 Tipo 2: sinal não escutado",
+      "1.4 Diurese osmótica e descompensações",
     )),
     ("PARTE II — Do açúcar ao dano", (
-      "2.1 Schiff, Amadori e AGE",
-      "2.2 Dois relógios do controle",
-      "2.3 RAGE e as quatro rotas",
+      "2.1 Glicação e os dois relógios",
+      "2.2 O AGE nas proteínas de vida longa",
+      "2.3 RAGE e as outras rotas",
     )),
     ("PARTE III — Onde o dano aparece", (
       "3.1 Retina e glomérulo",
-      "3.2 Nervo e pé diabético",
+      "3.2 Neuropatia e pé diabético",
       "3.3 Aterosclerose e imagem",
     )),
   )),
@@ -58,19 +59,19 @@
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
   ("Consolidação (Q01–Q08)", (
-    ("01", "C"),
+    ("01", "D"),
     ("02", "ECCE"),
-    ("03", "B"),
-    ("04", "E"),
-    ("05", "CCEE"),
-    ("06", "A"),
-    ("07", "CCCE"),
-    ("08", "D"),
+    ("03", "C"),
+    ("04", "A"),
+    ("05", "CCCE"),
+    ("06", "E"),
+    ("07", "CCEE"),
+    ("08", "C"),
   )),
   ("Integração (Q09–Q25)", (
     ("09", "B"),
     ("10", "CCEC"),
-    ("11", "E"),
+    ("11", "D"),
     ("12", "A"),
     ("13", "CECC"),
     ("14", "B"),
@@ -83,7 +84,7 @@
     ("21", "A"),
     ("22", "EECC"),
     ("23", "D"),
-    ("24", "A"),
+    ("24", "B"),
     ("25", "CEEE"),
   )),
   ("Aplicação (Q26–Q30)", (

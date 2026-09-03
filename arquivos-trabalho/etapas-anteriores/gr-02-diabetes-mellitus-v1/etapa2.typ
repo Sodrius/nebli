@@ -1,65 +1,65 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [O transportador de glicose cuja translocação para a membrana depende da insulina, presente no músculo esquelético e no tecido adiposo, é o:],
-  (("A", [GLUT-1, expresso de forma constitutiva na hemácia e na barreira hematoencefálica.]),
-   ("B", [GLUT-2, transportador de alta capacidade do hepatócito e da célula beta pancreática.]),
-   ("C", [SGLT-2, cotransportador de sódio e glicose do túbulo contorcido proximal.]),
-   ("D", [GLUT-4, estocado em vesículas intracelulares e translocado à membrana pela via da Akt.]),
-   ("E", [GLUT-3, transportador de alta afinidade do neurônio, independente de insulina.])))
+  [O efeito da insulina sobre a captação muscular de glicose se instala em poucos minutos e se desfaz em poucos minutos quando a concentração do hormônio cai. O mecanismo que explica essa cinética é:],
+  (("A", [A insulina induz rapidamente a transcrição do gene do GLUT-4, e a meia-vida curta do RNA mensageiro correspondente faz a quantidade de transportador cair assim que o estímulo hormonal cessa.]),
+   ("B", [O receptor de insulina ativa uma proteína G que eleva o AMP cíclico em segundos, e a fosfodiesterase degrada esse segundo mensageiro tão logo o hormônio se desliga do receptor.]),
+   ("C", [O GLUT-4 já existe pronto, estocado em vesículas intracelulares, e a via PI3K-Akt apenas comanda a fusão dessas vesículas com a membrana plasmática, movimento que se reverte quando o sinal cessa.]),
+   ("D", [A insulina aumenta a afinidade do GLUT-4 já presente na membrana pela glicose extracelular, alterando a constante de transporte sem que nenhum transportador precise mudar de compartimento celular.]),
+   ("E", [A insulina inibe diretamente a hexoquinase muscular, e a queda imediata do consumo intracelular de glicose desfaz o gradiente de concentração que sustentava a entrada do açúcar pela membrana.])))
 
 #questao-ce("02", badge-consolidacao,
-  [Julgue os itens a seguir sobre a glicação e os exames que a medem.],
-  (("I",   [A glicação da hemoglobina é catalisada por uma glicosiltransferase específica da hemácia.]),
-   ("II",  [A base de Schiff se forma em horas e é reversível.]),
-   ("III", [A hemoglobina glicada reflete as últimas 8 a 12 semanas de exposição à glicose.]),
-   ("IV",  [A frutosamina reflete uma janela de tempo maior que a da hemoglobina glicada.])))
+  [Julgue os itens a seguir sobre a reação entre a glicose e as proteínas do organismo.],
+  (("I",   [A glicação da hemoglobina depende de uma enzima específica, que reconhece a valina terminal da cadeia beta e transfere o açúcar para ela de forma dirigida.]),
+   ("II",  [A base de Schiff se forma em horas e se desfaz quando a glicemia cai, enquanto a ligação cruzada característica do produto final de glicação avançada já não se reverte.]),
+   ("III", [O produto de Amadori é o rearranjo mais estável da base de Schiff, e é essa forma que se dosa no laboratório como hemoglobina glicada e como frutosamina.]),
+   ("IV",  [Proteínas de meia-vida curta acumulam mais produtos de glicação avançada do que proteínas de meia-vida longa, porque são sintetizadas com maior frequência.])))
 
 #questao-mc("03", badge-consolidacao,
-  [A glicosúria começa a aparecer quando a glicemia ultrapassa aproximadamente:],
-  (("A", [100 mg/dL, valor que define o limite superior da glicemia de jejum normal.]),
-   ("B", [126 mg/dL, valor de glicemia de jejum usado como ponto de corte diagnóstico.]),
-   ("C", [180 mg/dL, ponto em que satura a reabsorção tubular proximal de glicose.]),
-   ("D", [250 mg/dL, faixa a partir da qual costuma haver cetose no diabetes tipo 1.]),
-   ("E", [300 mg/dL, faixa habitual de apresentação do estado hiperosmolar não cetótico.])))
+  [A sequência de eventos que explica a poliúria e a polidipsia de um paciente com hiperglicemia franca é:],
+  (("A", [A hiperglicemia estimula diretamente os osmorreceptores hipotalâmicos, a sede aparece primeiro, o paciente ingere volume muito acima do habitual e a poliúria surge como consequência dessa sobrecarga hídrica.]),
+   ("B", [A carga filtrada de glicose supera a capacidade máxima de reabsorção tubular, a glicose retida no lúmen impede a reabsorção de água, o volume urinário sobe e a desidratação dispara a sede.]),
+   ("C", [A hiperglicemia reduz a secreção de hormônio antidiurético pela neuro-hipófise, a água deixa de ser reabsorvida no túbulo coletor, e a diurese aquosa resultante concentra o plasma e provoca sede.]),
+   ("D", [A glicose lesa diretamente o epitélio do túbulo proximal, a reabsorção de sódio despenca, e a perda de sódio arrasta água por gradiente osmótico até que a volemia caia o bastante para gerar sede.]),
+   ("E", [A hiperglicemia aumenta a pressão hidrostática do capilar glomerular, a taxa de filtração se eleva de forma proporcional, e o excesso de filtrado ultrapassa a capacidade de reabsorção de água do néfron.])))
 
 #questao-mc("04", badge-consolidacao,
-  [A dosagem de peptídeo C em um paciente com diabetes serve para estimar:],
-  (("A", [A secreção endógena residual de insulina pela célula beta pancreática.]),
-   ("B", [A dose diária total de insulina exógena que o paciente vem aplicando.]),
-   ("C", [O grau de resistência periférica à insulina nos tecidos-alvo do hormônio.]),
-   ("D", [O título de autoanticorpos dirigidos contra antígenos da ilhota pancreática.]),
-   ("E", [A capacidade de extração hepática da insulina na primeira passagem.])))
+  [Sobre o mecanismo do diabetes mellitus tipo 1, assinale a alternativa *incorreta*.],
+  (("A", [A destruição da célula beta é mediada sobretudo por linfócitos T autorreativos, e os autoanticorpos circulantes funcionam como marcadores sorológicos dessa agressão, não como seus principais executores.]),
+   ("B", [A queda da razão insulina/glucagon retira o freio sobre a célula alfa, e o glucagon sem contraposição sustenta glicogenólise e gliconeogênese hepáticas que agravam ainda mais a hiperglicemia.]),
+   ("C", [O peptídeo C é liberado em quantidade equimolar à insulina endógena e, por não estar presente na insulina exógena aplicada, permite estimar a secreção residual própria da ilhota pancreática.]),
+   ("D", [A perda de peso combina caloria eliminada na urina sob a forma de glicose, lipólise desinibida no tecido adiposo e proteólise muscular que alimenta a gliconeogênese no fígado.]),
+   ("E", [Os corpos cetônicos derivam da conversão direta do excesso de glicose plasmática em acetoacetato pelo hepatócito, de modo que a cetose é consequência aritmética do grau de hiperglicemia alcançado.])))
 
 #questao-ce("05", badge-consolidacao,
-  [Julgue os itens a seguir sobre os métodos de imagem da doença arterial coronariana.],
-  (("I",   [O escore de cálcio é adquirido sem contraste intravenoso.]),
-   ("II",  [A angiotomografia de coronárias utiliza contraste iodado.]),
-   ("III", [A angiocoronariografia invasiva permite tratar a lesão no mesmo procedimento.]),
-   ("IV",  [O escore de cálcio informa o grau de estenose da luz coronariana.])))
+  [Julgue os itens a seguir sobre os exames que traduzem controle glicêmico em número.],
+  (("I",   [A hemoglobina glicada integra a exposição à glicose ao longo de 8 a 12 semanas porque a hemácia não repara a modificação e permanece em circulação por esse período.]),
+   ("II",  [A frutosamina reflete as últimas 2 a 3 semanas porque mede a glicação da albumina, cuja meia-vida plasmática é de 14 a 20 dias.]),
+   ("III", [Hemoglobina glicada e frutosamina resultam de reações químicas distintas entre si, e é essa diferença de mecanismo que justifica os resultados discordantes em algumas condições.]),
+   ("IV",  [Uma anemia hemolítica recente tende a elevar falsamente a hemoglobina glicada de um paciente, para uma mesma glicemia média do período.])))
 
 #questao-mc("06", badge-consolidacao,
-  [No estágio final da nefropatia diabética, a ultrassonografia renal mostra:],
-  (("A", [Rins aumentados de volume, com córtex espessado e ecogenicidade reduzida.]),
-   ("B", [Rins de dimensões normais, com dilatação do sistema coletor bilateralmente.]),
-   ("C", [Rins aumentados de volume, com múltiplos cistos corticais e medulares.]),
-   ("D", [Rins de dimensões normais, com perda da diferenciação córtico-medular.]),
-   ("E", [Rins reduzidos de volume, com córtex afilado e ecogenicidade aumentada.])))
+  [A ultrassonografia de um paciente com diabetes de diagnóstico recente mostra rins de dimensões aumentadas. O mecanismo que melhor explica esse achado é:],
+  (("A", [A hiperglicemia dilata a arteríola aferente mais do que a eferente, eleva a pressão no capilar glomerular e aumenta a filtração, e a hipertrofia glomerular que acompanha essa sobrecarga aumenta o volume renal.]),
+   ("B", [A retenção de sódio induzida pela hiperinsulinemia expande o volume extracelular, e o edema intersticial renal resultante aumenta as dimensões do órgão antes de qualquer alteração glomerular.]),
+   ("C", [A deposição precoce de matriz mesangial nodular expande o tufo glomerular e, somada ao infiltrado inflamatório da glomerulonefrite diabética, aumenta o volume do parênquima já na fase inicial.]),
+   ("D", [A obstrução do fluxo urinário pela neuropatia autonômica vesical dilata o sistema coletor e produz hidronefrose bilateral, que é lida como aumento das dimensões renais na ultrassonografia.]),
+   ("E", [A hialinização das arteríolas aferente e eferente reduz a resistência vascular renal e aumenta o fluxo plasmático, o que congestiona o parênquima e eleva o volume do órgão.])))
 
 #questao-ce("07", badge-consolidacao,
-  [Julgue os itens a seguir sobre as duas lesões ósseas do pé diabético.],
-  (("I",   [A artropatia de Charcot decorre de microtraumas repetidos em articulação sem dor nem propriocepção.]),
-   ("II",  [A osteomielite é infecção que acomete a medular óssea.]),
-   ("III", [A radiografia simples detecta a osteomielite já nas primeiras horas de infecção.]),
-   ("IV",  [O edema da medular óssea aparece com alto sinal em T1 na ressonância magnética.])))
+  [Julgue os itens a seguir sobre os métodos de imagem usados na investigação de doença arterial coronariana.],
+  (("I",   [O escore de cálcio é adquirido sem contraste intravenoso, com sincronização ao eletrocardiograma, e quantifica calcificação com atenuação acima de 130 unidades Hounsfield.]),
+   ("II",  [A angiotomografia de coronárias tem valor preditivo negativo muito alto e é mais útil para excluir doença em pacientes com probabilidade pré-teste baixa a intermediária.]),
+   ("III", [A angiocoronariografia invasiva quantifica o grau de estenose com precisão e permite tratar a lesão no mesmo procedimento diagnóstico.]),
+   ("IV",  [O escore de cálcio, por medir a carga total de placa, informa diretamente o grau de estenose da luz coronariana em cada vaso avaliado.])))
 
 #questao-mc("08", badge-consolidacao,
-  [Os dois intermediários lipídicos que se acumulam no miócito sob excesso de ácido graxo e ativam serina-quinases de estresse são:],
-  (("A", [Colesterol livre e éster de colesterol, acumulados na gotícula lipídica citoplasmática.]),
-   ("B", [Acetoacetato e β-hidroxibutirato, os dois corpos cetônicos produzidos pelo hepatócito.]),
-   ("C", [Diacilglicerol e ceramida, derivados do excesso de acil-CoA graxo intracelular.]),
-   ("D", [Fosfatidilcolina e esfingomielina, principais fosfolipídeos da membrana plasmática.]),
-   ("E", [Prostaglandina E₂ e leucotrieno B₄, eicosanoides derivados do ácido araquidônico.])))
+  [Em um paciente obeso com resistência à insulina, o passo cujo comprometimento explica melhor a menor captação muscular de glicose é:],
+  (("A", [A ligação da insulina às subunidades alfa do receptor, reduzida pela competição de ácidos graxos livres circulantes pelo mesmo sítio de reconhecimento na superfície da célula muscular.]),
+   ("B", [A síntese de novas moléculas de receptor de insulina, suprimida no músculo pela ativação crônica de fatores de transcrição inflamatórios dependentes do fator de necrose tumoral alfa.]),
+   ("C", [A afinidade do GLUT-4 já inserido na membrana pela glicose extracelular, reduzida pela ligação covalente de diacilglicerol ao domínio de transporte do carreador na superfície.]),
+   ("D", [A fosforilação do IRS-1 em resíduos de tirosina, substituída por fosforilação em serina por quinases de estresse ativadas por diacilglicerol e ceramida, o que impede o recrutamento da PI3K.]),
+   ("E", [A degradação da insulina circulante pela insulinase hepática, acelerada na obesidade a ponto de reduzir a concentração do hormônio que alcança o leito muscular após cada refeição.])))
 
 #questao-mc("09", badge-integracao,
   [Retina, glomérulo, nervo periférico e cristalino concentram as complicações crônicas do diabetes, enquanto o músculo esquelético é relativamente poupado. A explicação mecanística desse contraste é:],
@@ -77,20 +77,20 @@
    ("IV",  [O estado hiperosmolar é primariamente um distúrbio de água, produzido pela diurese osmótica prolongada, e não um distúrbio do equilíbrio ácido-base.])))
 
 #questao-mc("11", badge-integracao,
-  [Após seis meses de bom controle glicêmico, a hemoglobina glicada de um paciente normalizou, mas a rigidez da matriz e a dificuldade de cicatrização persistem. A explicação é:],
-  (("A", [A hemoglobina glicada mede glicemia recente enquanto o colágeno registra a glicemia de anos anteriores, sem que a química das duas modificações difira entre si.]),
-   ("B", [A hemácia possui enzimas de desglicação ausentes no fibroblasto, e é essa maquinaria que devolve a hemoglobina ao estado original quando a glicemia normaliza.]),
-   ("C", [O colágeno sofre glicosilação enzimática, irreversível por definição, enquanto a hemoglobina sofre apenas a glicação espontânea, que reverte com a queda da glicemia.]),
-   ("D", [A hemoglobina glicada é produto de Amadori e sai de circulação com a renovação da hemácia, enquanto o colágeno reticulado por ligação cruzada resiste à proteólise e não é reposto.]),
-   ("E", [A rigidez da matriz decorre de deposição de cálcio, e não de glicação, de modo que ela não guarda relação com a exposição prévia à glicose nem responde ao controle.])))
+  [Um paciente inicia insulinoterapia e, quatro semanas depois, as glicemias capilares estão no alvo, mas a hemoglobina glicada caiu pouco em relação ao valor inicial. A leitura correta desse resultado é:],
+  (("A", [A hemoglobina glicada não caiu porque a glicação da hemoglobina é irreversível já desde a formação da base de Schiff, e o valor só se normaliza quando toda a população de hemácias tiver sido renovada.]),
+   ("B", [O resultado indica adesão irregular ao tratamento, já que a hemoglobina glicada responde a mudanças de controle com atraso máximo de sete a dez dias após qualquer ajuste terapêutico.]),
+   ("C", [O exame perdeu validade porque a insulinoterapia interfere quimicamente na dosagem da hemoglobina glicada, e o controle deve passar a ser avaliado apenas por glicemias capilares seriadas.]),
+   ("D", [A hemoglobina glicada mede o produto final de glicação avançada da hemoglobina, formado ao longo de meses, e por isso não acompanha oscilações de controle inferiores a um ano de tratamento.]),
+   ("E", [A hemoglobina glicada é um produto de Amadori acumulado ao longo da vida da hemácia e integra 8 a 12 semanas: quatro semanas de bom controle ainda estão diluídas nas semanas anteriores.])))
 
 #questao-mc("12", badge-integracao,
-  [Sobre o elo entre a hiperglicemia crônica e a formação da placa de ateroma, assinale a alternativa *incorreta*.],
-  (("A", [A captação da LDL glicada pelo macrófago se dá por receptores de LDL clássicos, cuja expressão cai à medida que o colesterol intracelular sobe, o que limita a formação de células espumosas.]),
-   ("B", [A glicação da LDL prejudica o reconhecimento da partícula pelo seu receptor hepático, prolonga o tempo que ela passa na circulação e favorece a oxidação no espaço subendotelial.]),
-   ("C", [Os receptores scavenger do macrófago não são inibidos pelo colesterol já acumulado na célula, e é essa ausência de regulação que produz a célula espumosa.]),
-   ("D", [A inativação do óxido nítrico pelos produtos de glicação avançada instala disfunção endotelial antes que exista placa detectável por qualquer método de imagem.]),
-   ("E", [O eixo AGE-RAGE mantém estado pró-inflamatório e pró-coagulante, com aumento de fator tecidual e do inibidor do ativador de plasminogênio.])))
+  [O elo mecanístico mais direto entre a hiperglicemia crônica e a formação da placa de ateroma é:],
+  (("A", [A LDL glicada é mal reconhecida pelo seu receptor, circula por mais tempo e se oxida, sendo então captada por receptores scavenger do macrófago, que não são inibidos pelo colesterol já acumulado.]),
+   ("B", [A glicose em excesso é convertida diretamente em acetil-CoA na parede arterial e serve de substrato para a síntese local de colesterol pelos miócitos lisos da camada média do vaso.]),
+   ("C", [A hiperglicemia aumenta a produção hepática de lipoproteína de alta densidade, que se deposita no espaço subendotelial e é fagocitada por macrófagos residentes até transformá-los em células espumosas.]),
+   ("D", [A glicação da albumina plasmática reduz a capacidade de transporte de ácidos graxos livres, que passam a circular ligados a hemácias e são liberados diretamente na íntima arterial lesada.]),
+   ("E", [A insulina em concentrações elevadas estimula receptores de LDL no macrófago da íntima, aumentando a captação regulada da partícula até que o conteúdo lipídico da célula se torne excessivo.])))
 
 #questao-ce("13", badge-integracao,
   [Julgue os itens a seguir sobre a via dos polióis e suas consequências oculares.],
@@ -177,12 +177,12 @@
    ("E", [O fenômeno decorre da liberação de somatostatina pela célula delta em resposta à via oral, que potencializa a resposta da célula beta vizinha; no tipo 2 a célula delta encontra-se hipofuncionante.])))
 
 #questao-mc("24", badge-integracao,
-  [Colágeno, elastina e proteínas do cristalino acumulam produtos de glicação avançada; proteínas plasmáticas de renovação rápida praticamente não. A consequência clínica que decorre dessa seleção de alvo é:],
-  (("A", [A elevação da frutosamina torna-se o marcador mais precoce de lesão de matriz extracelular, por medir diretamente a glicação das proteínas estruturais de vida longa.]),
-   ("B", [O remodelamento da matriz extracelular trava, porque as proteases não cortam o colágeno reticulado, e a ferida deixa de cicatrizar mesmo com perfusão preservada.]),
-   ("C", [A concentração plasmática de albumina cai progressivamente, porque a fração glicada é retirada da circulação por receptores hepáticos específicos para proteína modificada.]),
-   ("D", [A hemoglobina glicada perde valor como marcador de controle, já que a hemácia é justamente o compartimento em que a glicação avançada mais se acumula.]),
-   ("E", [O cristalino torna-se o primeiro órgão a apresentar lesão irreversível, porque a sua taxa de renovação proteica é a mais alta entre os tecidos acometidos.])))
+  [Colágeno, elastina e proteínas do cristalino acumulam produtos de glicação avançada, ao passo que proteínas plasmáticas de renovação rápida praticamente não os acumulam. O determinante desse contraste é:],
+  (("A", [O tempo: a ligação cruzada leva semanas a meses para se formar, e a proteína de renovação rápida é degradada e substituída antes que a reação chegue a esse estágio irreversível.]),
+   ("B", [A composição em aminoácidos: colágeno e elastina são ricos em lisina e arginina, enquanto proteínas de renovação rápida praticamente não dispõem de grupos amino livres capazes de reagir com a glicose.]),
+   ("C", [A localização: proteínas da matriz extracelular ficam expostas à glicose intersticial, cuja concentração é várias vezes superior à plasmática, enquanto as proteínas do plasma veem concentrações menores.]),
+   ("D", [A presença de enzimas de reparo: proteínas plasmáticas circulam acompanhadas de desglicases hepáticas que revertem continuamente a base de Schiff, mecanismo que a matriz extracelular não possui.]),
+   ("E", [A conformação: proteínas fibrilares mantêm resíduos amino permanentemente expostos ao solvente, ao passo que proteínas globulares os escondem no interior hidrofóbico da molécula dobrada.])))
 
 #questao-ce("25", badge-integracao,
   [Julgue os itens a seguir sobre o eixo AGE-RAGE e a trombose no paciente diabético.],
