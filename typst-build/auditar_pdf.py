@@ -261,12 +261,14 @@ def check_palavras_e1(pdf_path: Path) -> tuple[list, list]:
     palavras = [w for w in re.split(r"\s+", miolo) if w and any(c.isalpha() for c in w)]
     n = len(palavras)
 
-    # Faixa recalibrada em 2026-08-28 junto com o conserto da ancora acima.
-    # A antiga (3500-5000) datava de quando a E1 tinha ~12 paginas; com o
-    # teto de 22 paginas e o padrao de profundidade elevado (CLAUDE.md
-    # 2026-07-12), uma E1 cheia entrega ~450 palavras/pagina impressa
-    # (legendas e footnotes inclusas). Continua sendo aviso, nao bloqueio.
-    PISO, TETO = 3500, 10500
+    # Faixa recalibrada em 2026-09-03 com a queda do teto da E1 de 22 para
+    # 15 paginas (CLAUDE.md § Registro cientifico). Uma E1 cheia entrega ~450
+    # palavras por pagina impressa, legendas e footnotes inclusas, entao
+    # 15 paginas ~ 6750 palavras; o teto de aviso fica em 7200 com folga.
+    # Historico: 3500-5000 (ate 2026-08-28, E1 de ~12 paginas) ->
+    # 3500-10500 (teto 22) -> 3000-7200 (teto 15).
+    # Continua sendo aviso, nao bloqueio.
+    PISO, TETO = 3000, 7200
     if PISO <= n <= TETO:
         print(f"  v palavras E1: {n} (faixa {PISO}-{TETO})")
     elif n < PISO:
@@ -275,6 +277,57 @@ def check_palavras_e1(pdf_path: Path) -> tuple[list, list]:
     else:
         warnings.append(f"  ! palavras E1: {n} (esperado {PISO}-{TETO}). "
                         f"Miolo inflado -- conferir se REDATOR encheu linguiça.")
+    return errors, warnings
+
+
+def check_paginas_e1(pdf_path: Path) -> tuple[list, list]:
+    """Conta as paginas ocupadas pela Etapa 1 e avisa acima do teto canonico.
+
+    CANON 2026-09-03 (CLAUDE.md § Registro cientifico): o teto da E1 caiu de
+    22 para 15 paginas. Ate aqui o item #7 do ERROS.md era 'manual' -- ninguem
+    conferia, e as duas ultimas corridas fecharam em 18 e 25 paginas sem que
+    nenhum auditor dissesse nada. Este check torna o teto auditavel.
+
+    Delimitacao: pagina do banner 'Etapa 1' (o `etapa-header`, que aparece uma
+    vez) ate a pagina anterior ao banner isolado 'Resumindo'. Mesma ancora do
+    check_palavras_e1, so que contada em paginas em vez de palavras.
+
+    Aviso, nao bloqueio -- coerente com a linha 7 da tabela de checks do
+    ERROS.md e com a § Missao (ensinar bem pode vencer o teto, desde que a
+    quebra va declarada no relatorio).
+    """
+    errors, warnings = [], []
+    TETO = 15
+    n_pages = pdf_pages(pdf_path)
+    if n_pages < 4:
+        return errors, warnings
+
+    pag_e1 = pag_resumindo = None
+    for i in range(1, n_pages + 1):
+        txt = pdf_text(pdf_path, i, i)
+        if not txt:
+            continue
+        if pag_e1 is None and re.search(r"^[ \t]*Etapa 1\b", txt, re.MULTILINE):
+            pag_e1 = i
+            continue
+        if pag_e1 is not None and re.search(r"^[ \t]*Resumindo[ \t]*$", txt, re.MULTILINE):
+            pag_resumindo = i
+            break
+
+    if pag_e1 is None or pag_resumindo is None or pag_resumindo <= pag_e1:
+        warnings.append("  ! paginas E1: nao consegui delimitar (banner ausente) -- conferir a olho")
+        return errors, warnings
+
+    n = pag_resumindo - pag_e1
+    if n <= TETO:
+        print(f"  v paginas E1: {n} (teto {TETO})")
+    else:
+        warnings.append(
+            f"  ! paginas E1: {n} paginas contra o teto canonico de {TETO} "
+            f"(CLAUDE.md § Registro cientifico, 2026-09-03). Antes de aceitar o estouro, "
+            f"aplicar as alavancas do ERROS.md F4 nesta ordem: (1) filtro das tres funcoes, "
+            f"(2) fundir subtopicos irmaos ate 8-10, (3) max 2 boxes pesados por PARTE, "
+            f"(4) figuras 50-55%. Se ainda assim estourar, declarar a quebra no relatorio.")
     return errors, warnings
 
 
@@ -325,6 +378,11 @@ def main():
 
     print("\n-> Fonte embarcada (Merriweather + Montserrat)")
     e, w = check_fonte(pdf_path)
+    all_errors.extend(e); all_warnings.extend(w)
+    for msg in e + w: print(msg)
+
+    print("\n-> Paginas da E1 (aviso, não bloqueia)")
+    e, w = check_paginas_e1(pdf_path)
     all_errors.extend(e); all_warnings.extend(w)
     for msg in e + w: print(msg)
 

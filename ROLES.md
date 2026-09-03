@@ -58,7 +58,7 @@ Coordena a geração de um resumo NEBLI ponta a ponta. Hoje fundido com Redator-
 
 ### Tema Card — estrutura obrigatória
 
-- **Seção A** — Tema · Slug · Disciplina · Onde estudar · **Onde aprofundar (plataformas)** · Alvo de páginas E1 (piso 2, **teto 22**) · Recorte slide×tema · **Prioridades desta corrida** (do Diário de revisões).
+- **Seção A** — Tema · Slug · Disciplina · Onde estudar · **Onde aprofundar (plataformas)** · Alvo de páginas E1 (piso 2, **teto 15** — canônico 2026-09-03) · Recorte slide×tema · **Teto histórico** (o que a prova já cobrou deste conteúdo) e **degrau** (onde a E1 vai além, e qual mecanismo) · **Prioridades desta corrida** (do Diário de revisões). O campo `profundidade:` foi aposentado em 2026-09-03 — o padrão é único, "superior à da prova" (ver `CLAUDE.md` § Profundidade elevada, item 1).
   - **Onde aprofundar (plataformas)** (canônico 2026-06-30): bloco da capa em **2 grupos**, cada item um bullet navy. (1) **Assistir/ler** — 1 bullet com fontes de vídeo/leitura (B&B/Bootcamp, NinjaNerd, Sketchy, UWorld, Pathoma); recurso que não cobre → "não cobre" (honestidade > referência falsa). (2) **Dessuspender no AnKing v12** — 1 bullet de cabeçalho + **1 bullet por deck**, mostrando o **caminho de tag pra usar no `Browse`** (não o nome amigável) + contagem de cards, com **variedade de decks** (o conteúdo está taggeado em paralelo por vários recursos). Preencher rodando `python flashcards/scripts/buscar_tags_anking.py <termo>`; consultar/gravar em `referencias-externas/onde-aprofundar.md`. Vai pro `meta` da capa como **valor em lista** (o `gerar_main.py` renderiza bullets navy via `_esc_typst_content`, que escapa `#`/`_` das tags e preserva `*` do negrito). Exceção escopada à regra de banimento Step 1: nomes de plataforma/deck só neste bloco.
 - **Seção B** — Esqueleto das 3 PARTES com subtópicos. 3 figuras planejadas por PARTE com fonte (slide-XX ou SVG novo). Cadeia multi-passo ≥5 reações = figura obrigatória.
 - **Seção B.bis** — Registro de abertura por subtópico. Os 5 registros: (1) enquadramento, (2) integração-anterior, (3) integração-posterior, (4) analogia concreta, (5) ponto-de-quebra. Nenhum par vizinho compartilha registro. **Pergunta âncora/retórica banida** (canônico 2026-05-29) — substituída pelos 5 registros acima.
@@ -117,9 +117,9 @@ Negrito didático tem cota: máx 2–3 por parágrafo, marcando o conceito que o
 
 **Nome de subtópico é descritivo e direto (item 35, 2026-06-24):** diz exatamente o que aquele trecho ensina. Metáfora no título só quando ela *informa* o conteúdo ("Tendões: a corda inextensível que entrega a força ao osso" passa porque diz o que o tendão faz); título só-poético que não revela o conteúdo, não. Em dúvida, prefira o claro ao bonito.
 
-**2. Tamanho.** Piso 2, teto 22 páginas. Subtópico ~400 palavras. Completude > teto.
+**2. Tamanho (revisto 2026-09-03).** Piso 2, **teto 15 páginas**. Formato-alvo 3 PARTES × 3 subtópicos: 8–10 subtópicos no total, **450–550 palavras cada**, ~5.000–5.500 palavras de miolo. Quando o tema pede mais de 10 subtópicos, **funda irmãos** em vez de espremer todos — compressão uniforme custa mecanismo. Completude ainda vence o teto, mas só depois de os cinco desperdícios do `ERROS.md` F10 e o filtro das três funções (`CLAUDE.md` § Registro científico) terem sido aplicados; a quebra vai declarada no relatório.
 
-**3. Jargão controlado.** Termo técnico = etiqueta para conceito já entendido. "Ligação temporária entre o açúcar e a enzima (chamada thiohemiacetal)" — não "intermediário thiohemiacetal". Abrir cada conceito pelo mecanismo plausível, dar nome técnico DEPOIS, retomar pré-requisitos em 1–2 frases. Aprofundamento por camadas: porquê cru → nuance → exceção → clínica.
+**3. Jargão exato, definido na mesma frase (revisto 2026-09-03 — ver `CLAUDE.md` § Registro científico).** O termo técnico correto entra **junto** da definição, não depois dela e nunca substituído por perífrase: "a glicose forma com a enzima um *thiohemiacetal*, ligação covalente temporária que segura o substrato durante a oxidação". Abrir pelo mecanismo continua; adiar o nome, não — perífrase que evita o termo é perda de rigor. Retomar pré-requisito em 1–2 frases continua obrigatório. Aprofundamento por camadas: porquê cru → nuance → exceção → clínica.
 
 **4. Mini-resumos.** Em parágrafos >5 linhas, inserir `#mini-resumo[X causa Y → consequência Z]` no meio. Sem piadas, sem mnemônicos forçados.
 
@@ -151,7 +151,7 @@ Negrito didático tem cota: máx 2–3 por parágrafo, marcando o conceito que o
 
 **16. Calibração externa invisível — `blueprint-step1.md` (convite, 2026-06-30).** Antes de redigir a E1 de um slug, olhe a linha dele em `referencias-externas/blueprint-step1.md`. Se a coluna "Aprofundar na E1" tiver conteúdo E o slide já abriu aquele assunto, acrescente **1-2 frases sucintas de mecanismo** no ponto indicado — diluídas na prosa, não um bloco novo. Se a coluna marca **BAIXO** (ou está vazia), não force nada: mantém foco puro no slide. A fonte é invisível como o banco — a frase entra como mecanismo/cenário clínico puro, jamais citando "Step 1/residência/USMLE" (vocabulário banido, regra 10 detalhada). Convite, não cota: aprofundar só onde flui.
 
-**17. Passe de aprofundamento por subtópico (loop card→E1→E2, CANON 2026-07-10).** Antes das injeções, fazer um passe leve **Fontes→E1**: comparar Tema Card/slide, banco FMUSP já filtrado e blueprint já consultado com a E1; listar ausências relevantes e incorporar somente as que pertencem ao recorte. Não criar ledger novo. Depois do rascunho da E1 e da seleção de cards (ver `FLASHCARDS.md` § Loop Card→E1), fazer um passe voltando na E1 e injetando **≈1 conteúdo extra mecanístico por subtópico** — pequeno (1-3 frases), colado a um mecanismo que o subtópico já abriu. Dá ~9-12 por resumo; a soma faz a E1 ir **um tiquinho além do slide** (o norte do Davi: aprofundar bem a base durável). Fontes do que injetar, em ordem: (a) **bons cards do AnKing** que cobrem o conceito com mais profundidade — muitos aprofundamentos são *induzidos* por esses cards, que vão para o deck-aula; (b) mapa de cobertura offline do export quando o Anki está fora; (c) `blueprint-step1.md`; (d) bibliografia do curso em `_material/` (leitura dirigida das páginas do ponto). **Regra-mestra:** o **slide regula O QUE entra** (escopo — nada fora do tema da aula), o **AnKing/bibliografia regula ATÉ QUE PROFUNDIDADE**. Se um subtópico não tem onde encaixar, não injeta. Cada injeção é prosa/mecanismo puro (vocabulário Step 1 banido no PDF). **Efeito colateral desejado:** o aprofundamento sobe também o teto da E2 — por isso o ideal é rodar este passe ANTES de redigir a E2 (E2 já cobra o extra); se a E2 já estiver escrita, atualizá-la nos pontos aprofundados revalidando paridade/gabarito. Exemplos concretos no piloto embrio-gastrulacao-neurulacao (SHH, EMT→metástase, cílios do nó→lateralidade, crista→Hirschsprung, somito→esclerótomo/miótomo/dermátomo, dobramento→frênico).
+**17. Passe de aprofundamento por subtópico (loop card→E1→E2, CANON 2026-07-10).** Antes das injeções, fazer um passe leve **Fontes→E1**: comparar Tema Card/slide, banco FMUSP já filtrado e blueprint já consultado com a E1; listar ausências relevantes e incorporar somente as que pertencem ao recorte. Não criar ledger novo. Depois do rascunho da E1 e da seleção de cards (ver `FLASHCARDS.md` § Loop Card→E1), fazer um passe voltando na E1 e injetando **≈1 conteúdo extra mecanístico por subtópico** — pequeno (1-3 frases), colado a um mecanismo que o subtópico já abriu. Dá ~9-12 por resumo; a soma faz a E1 ir **um tiquinho além do slide** (o norte do Davi: aprofundar bem a base durável). Fontes do que injetar, em ordem: (a) **bons cards do AnKing** que cobrem o conceito com mais profundidade — muitos aprofundamentos são *induzidos* por esses cards, que vão para o deck-aula; (b) mapa de cobertura offline do export quando o Anki está fora; (c) `blueprint-step1.md`; (d) bibliografia do curso em `_material/` (leitura dirigida das páginas do ponto). **Regra-mestra (revista 2026-09-03):** o **slide guia o fluxo** (recorte e ordem), a **prova indica o quanto ir a mais** (teto histórico + um degrau), e **livros e outras fontes indicam assuntos laterais** — sem redefinir escopo nem profundidade. Se um subtópico não tem onde encaixar, não injeta. Cada injeção é prosa/mecanismo puro (vocabulário Step 1 banido no PDF). **Efeito colateral desejado:** o aprofundamento sobe também o teto da E2 — por isso o ideal é rodar este passe ANTES de redigir a E2 (E2 já cobra o extra); se a E2 já estiver escrita, atualizá-la nos pontos aprofundados revalidando paridade/gabarito. Exemplos concretos no piloto embrio-gastrulacao-neurulacao (SHH, EMT→metástase, cílios do nó→lateralidade, crista→Hirschsprung, somito→esclerótomo/miótomo/dermátomo, dobramento→frênico).
 
 **18. "Antes da aula" — `pre-aula.typ` (CANON 2026-08-28).** Toda E1 fechada gera também a seção de abertura do PDF, que vive entre a capa e o sumário. **2 páginas de prosa contínua na voz NEBLI contando a história da aula**, 900–1100 palavras, **sem figura**, encerrando em uma linha do tipo "chegue com esse mapa na cabeça". Não é sumário executivo nem mini-E1: é a narrativa do que a aula vai fazer e em que ordem, para o aluno ler na véspera.
 
@@ -217,7 +217,7 @@ Distribuição da Seção C do Tema Card:
 
 **Critério de Integração:** questão precisa cruzar ≥2 subtópicos no mecanismo de resolução. Se resolve com 1 subtópico, é Consolidação mesmo que enunciado seja longo.
 
-**Cada categoria tem que fazer o que o nome diz (item 16, 2026-06-24):** Consolidação *consolida* (fixa um mecanismo, de preferência pelo ângulo "Por que/Como" — ver subseção abaixo); Integração *integra* (cruza dois domínios e exige raciocínio, não recall longo); Aplicação *aplica* (cenário clínico onde o conceito vira decisão). Questão que não cumpre o verbo da própria categoria está na categoria errada.
+**Cada categoria tem que fazer o que o nome diz (item 16, 2026-06-24; revisto 2026-09-03):** Consolidação *consolida* — recall direto do fato que precisa estar decorado, ver subseção abaixo; Integração *integra* — cruza dois domínios e exige raciocínio, e é para cá que migrou o ângulo "Por que/Como"; Aplicação *aplica* — cenário clínico onde o conceito vira decisão. Questão que não cumpre o verbo da própria categoria está na categoria errada.
 
 ### Formatos de item (revisto 2026-06-24 — itens 6, 9, 10)
 
@@ -267,20 +267,24 @@ Stems que puxam Consolidação (evitar com badge `integracao`): "Sobre [proteín
 
 **Mapa de Confusões como semente:** confusões "duo-conceito" (necroptose × piroptose; anaplerótico × catabólico) são sementes naturais — pede ao aluno separar mecanismos vizinhos.
 
-### Consolidação — subir um pouco a densidade cognitiva (2026-05-28)
+### Consolidação — decoreba direta (CANON 2026-09-03, reverte 2026-05-28)
 
-**Sugestão de ângulo (não cota):** ao redigir cada Consolidação, testar reformulação com "Por que / Como / O que explica" e ver se mantém o mesmo fato testado com mais densidade. Mesmo conteúdo, ângulo que exige raciocínio mínimo em vez de busca em lista.
+Davi: *"quero as de consolidação bem decorebas"*. A diretriz de 2026-05-28, que mandava subir a densidade cognitiva da Consolidação pelo ângulo "Por que/Como", está **revogada**. O ângulo "Por que/Como" migra inteiro para a Integração.
 
-Exemplos:
+**A divisão de trabalho.** Consolidação garante que o **fato está na memória**; Integração e Aplicação cobram o raciocínio. Misturar as duas produzia uma Integração fraca ocupando lugar de Consolidação, e deixava sem cobrança justamente o que precisa estar decorado.
 
-| Antes (recall) | Depois (consolidação ativa) |
+**O que a Consolidação cobra:** nome (da enzima, do receptor, da via, da célula, do achado), número e unidade, sequência e ordem dos passos, classificação e nomenclatura, qual-é-qual entre entidades vizinhas, quem-faz-o-quê, e o valor de referência ou limiar quando ele é parte do conteúdo.
+
+| Formato certo agora | O que era pedido antes (agora é Integração) |
 |---|---|
-| "Qual enzima do ciclo gera FADH₂?" | "Por que a succinato DH é a única do ciclo a gerar FADH₂?" |
-| "Em qual compartimento ocorrem as 8 reações?" | "Por que as 8 reações precisam ocorrer na matriz mitocondrial?" |
-| "Quantos CO₂ por volta?" | "De quais carbonos vêm os 2 CO₂ liberados na primeira volta?" |
-| "DISC é formado por quais componentes?" | "Por que o DISC precisa de adaptador (FADD) entre receptor e pró-caspase-8?" |
+| "Qual enzima do ciclo de Krebs gera FADH₂?" | "Por que a succinato desidrogenase é a única do ciclo a gerar FADH₂?" |
+| "Em qual compartimento ocorrem as oito reações do ciclo?" | "Por que as oito reações precisam ocorrer na matriz mitocondrial?" |
+| "Quantos CO₂ são liberados por volta do ciclo?" | "De quais carbonos vêm os dois CO₂ da primeira volta?" |
+| "Quais componentes formam o DISC?" | "Por que o DISC precisa de adaptador entre receptor e pró-caspase-8?" |
 
-**Sugestão paralela para CE de Consolidação:** quando o tema permitir, incluir item C/E com pegadinha mecanística fina (item soa correto mas inverte sutileza).
+**Consequência sobre a redação das alternativas.** Como a pergunta é de recall, as cinco alternativas ficam **curtas — 10 a 20 palavras** — e a distratora é a entidade vizinha errada (a outra enzima, o outro compartimento, o número imediatamente acima ou abaixo), não um parágrafo de mecanismo plausível-errado. A **banda de paridade 0.80–1.25 continua valendo**, agora medida entre alternativas curtas; a regra de "25–35 palavras por distratora" vale para Integração e Aplicação, não para Consolidação. Inflar distratora de decoreba com prosa vazia é exatamente o que o `ERROS.md` #1 proíbe.
+
+**C/E de Consolidação:** os quatro itens continuam existindo e seguem a mesma lógica — assertivas curtas de fato verificável, com a falsa trocando um nome, um número ou uma ordem. A pegadinha mecanística fina migra para os C/E de Integração.
 
 ### Aplicação (Q26–Q30)
 
@@ -369,7 +373,7 @@ Sessão de revisão final **antes de compilar**, pedida por Davi. Audita a **com
 **Três eixos (nota 0-10 cada):**
 1. **Cards → E1 (não-orfandade).** Todo card tem seu conceito explicado na E1? Lista cada card órfão (conceito ausente na E1) com veredito: **injetar 1-3 frases na E1** (se é aprofundamento legítimo do tema) OU **dropar o card** (se é FORA/próxima-aula). Honra o gate B2.
 2. **E1 → cards (cobertura).** Todo subtópico da E1 tem card à altura? Lista subtópico RASO/LACUNA + sugere card AnKing a curar OU NEBLIcard a gerar. Reusa a rubrica R6 (0-3 por subtópico). Conceito **nuclear** só fecha em **COBERTO** por card real (AnKing, externo ou NEBLIcard); questão da E2 não conta. PARCIAL/LACUNA/PENDENTE-GERADO são estados intermediários para nuclear.
-3. **Profundidade.** A E1 vai um degrau além do slide (novo padrão elevado)? Marca subtópicos rasos demais para o dial `profundidade` daquele resumo (`padrao`/`fundo`).
+3. **Profundidade.** A E1 entrega o teto histórico da prova **mais um degrau de mecanismo** (padrão único desde 2026-09-03)? Marca subtópicos que apenas empatam com a prova — esses ficaram rasos — e os que foram duas camadas além do teto, que invadiram outra aula.
 
 **Curadoria de card = duas camadas de julgamento** (na avaliação de cada card sugerido): (1) bate com o que a **FMUSP cobra**? (camada mais importante); (2) cobre bem a E1 e **aprofunda pra base do Step 1**?
 

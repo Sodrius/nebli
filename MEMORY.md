@@ -43,11 +43,19 @@
 
 **Entradas:**
 
+### 2026-09-03 · diretiva de registro científico (vale para toda corrida)
+- **Observei:** Davi pediu *"usar uma linguagem mais técnica e cientificamente adequada, sem perder a fluidez e o tom didático, mas fazê-lo com mais rigor — linguagem ainda extremamente fluida e didática, mas mais sucinta e que dispensa baboseiras, como frases sem nenhum valor. O objetivo é ser uma apostila de alto nível científico."* Junto vieram três consequências numéricas: teto da E1 em 15 páginas, profundidade padronizada em "superior à da prova", e Consolidação da E2 de volta a decoreba.
+- **Regra envolvida:** `CLAUDE.md` § Registro científico (nova) · § Profundidade elevada itens 1-2 · § Rules globais (Consolidação decoreba) · `ROLES.md` § Redator diretrizes 2-3 e § Questionador § Consolidação · `ERROS.md` #7, F4, F10.
+- **O que declarar na Seção A da próxima corrida:** teto 15 páginas · 8–10 subtópicos, 450–550 palavras cada · teto histórico da prova + degrau · Consolidação decoreba com alternativas de 10–20 palavras.
+- **Peso:** alto
+- **Decai em:** não decai enquanto for diretiva de registro — só sai daqui quando duas corridas seguidas fecharem dentro das quatro réguas sem correção.
+
 ### 2026-08-31 · imuno-07-inflamacao-inicio-resolucao
 - **Observei:** a E1 saiu inflada — 10.547 palavras e 25 páginas contra o teto de 22, ~660 palavras por subtópico. "Você tem escrito demais ora falar pouca coisa, dá pra falar mais com menos palavras." O `profundidade: fundo` foi lido como licença para verbosidade, quando ele só sobe o teto de conteúdo.
-- **Regra envolvida:** `ERROS.md` F10 (nova) + `CLAUDE.md` § Preferences + F4 (teto 22).
+- **Regra envolvida:** `ERROS.md` F10 + `CLAUDE.md` § Preferences e § Registro científico + F4.
+- **Absorvida e endurecida em 2026-09-03:** a mesma queixa voltou em outra forma ("dispensa baboseiras, como frases sem nenhum valor") e virou o § Registro científico, com o filtro das três funções, teto de E1 em **15** páginas e o dial `profundidade:` aposentado. A entrada continua viva porque o sintoma é de redação, não de regra ausente.
 - **Peso:** alto
-- **Decai em:** 5 resumos sem reincidência
+- **Decai em:** 5 resumos sem reincidência (contador reiniciado em 2026-09-03)
 
 ### 2026-05-29 · biocel-07-divisao-celular
 - **Observei:** Davi pediu "100% do zero" sem anexar slide, e a sessão entregou 35 páginas SEM nenhuma figura. Tratei "sem slide" como "sem figura possível" — decisão unilateral errada. Coreografia espacial (mitose, anel contrátil, eixo APC/C-securina-separatase) precisava de figura mesmo sem slide do professor.
@@ -145,6 +153,21 @@ Pedido de 2026-05-22. Pipeline que, dado conteúdo de prova segundo cronograma, 
 - **Tier 3 propostas** — UI editável de Tema Card, banco colaborativo turma 114, SRS inteligente, mini-resumo on-demand.
 
 ## § Histórico de decisões canônicas
+
+### 2026-09-03 · Registro científico (canonização de diretiva do Davi)
+
+Davi: *"canoniza e mergeia a seguinte indicação: usar uma linguagem mais técnica e cientificamente adequada, sem perder a fluidez e o tom didático, mas fazê-lo com mais rigor. (...) mais sucinta e que dispensa baboseiras, como frases sem nenhum valor. O objetivo é ser uma apostila de alto nível científico."*
+
+- **Nasce o `CLAUDE.md` § Registro científico**, que passa a governar a voz de todo resumo. Alvo declarado: o registro de um bom capítulo de livro-texto de referência (Robbins, Lehninger, Abbas) — ensina do zero com precisão técnica integral e sem frase sobrando. Fluidez continua sendo o motor, mas passa a vir do encadeamento causal, não de enchimento conversacional. Quatro exigências de rigor (nomenclatura exata · quantidade com unidade · força da afirmação calibrada · antropomorfismo não substitui mecanismo) e o **filtro das três funções**: toda frase afirma um fato/passo novo, faz a ponte causal entre dois fatos, ou nomeia/define um termo — as demais saem.
+- **Jargão deixa de ser adiado.** A diretriz 3 do Redator dizia "abrir pelo mecanismo, dar o nome técnico DEPOIS". Agora o termo correto entra **junto** da definição, na mesma frase; perífrase que evita o termo passa a contar como perda de rigor, não ganho de didática. O baseline do aluno (conhecimento baixo, dificuldade real) **não muda** — o que muda é que ele recebe o nome certo com o significado colado, em vez de um apelido para trocar depois.
+- **Teto da E1 cai de 22 para 15 páginas.** Formato-alvo 3 PARTES × 3 subtópicos; 8–10 subtópicos, 450–550 palavras cada, ~5.000–5.500 palavras de miolo. Acima de 10 subtópicos a orientação é **fundir irmãos**, não comprimir todos. `auditar_pdf.py` recalibrado de `3500-10500` para `3000-7200` palavras de E1; `ERROS.md` #7, F4 e a tabela de checks atualizados.
+- **Profundidade padronizada em "superior à da prova" e o dial `profundidade:` APOSENTADO.** Os valores `padrao`/`fundo` deixam de existir. A E1 entrega o teto histórico que a prova cobra daquele conteúdo mais um degrau de mecanismo — quem empata com a prova ficou raso, quem vai duas camadas além invadiu outra aula. A Seção A do Tema Card passa a declarar, no lugar do dial, duas linhas: *teto histórico* e *degrau*. Motivo do fim do dial: nas corridas `imuno-07` e `gr-02` ele foi lido como licença de verbosidade, exatamente o que o F10 já apontava.
+- **Nova hierarquia de fontes** (substitui "slide regula O QUE, AnKing regula ATÉ QUE PROFUNDIDADE"): **(1) o slide guia o fluxo** — recorte e ordem; **(2) a prova indica o quanto ir a mais** — teto histórico + um degrau; **(3) livros e outras fontes indicam assuntos laterais** — sem redefinir escopo nem profundidade. Onde a UC não tem acervo de provas, o degrau sai do `banco_slim.json` e depois do `blueprint-step1.md`.
+- **Consolidação da E2 volta a ser decoreba**, revogando a diretriz de 2026-05-28 ("subir a densidade cognitiva pelo ângulo Por que/Como"). Divisão limpa: Consolidação cobra recall direto (nome, número, unidade, sequência, classificação, qual-é-qual); Integração cobra o raciocínio; Aplicação cobra a decisão. Consequência de redação: alternativas de Consolidação ficam **curtas, 10–20 palavras**, e a distratora é a entidade vizinha errada — a banda de paridade 0.80–1.25 continua valendo, medida entre alternativas curtas, e a regra de "25–35 palavras por distratora" fica restrita a Integração e Aplicação.
+- **`EXEMPLARES.md` ganha exceção de precedência.** A regra "em conflito, o exemplar vence" passa a ter uma exceção única: o § Registro científico vence a superfície da frase do exemplar. Os exemplares foram escritos sob o registro anterior e carregam jargão adiado, uma pergunta retórica de ponte (Exemplar 1.2) e frases de moldura. O **gesto pedagógico** deles continua sendo a referência integral.
+- **Arquivos tocados:** `CLAUDE.md` (§ Missão, § Registro científico nova, § Diretrizes vs. exemplares, § Preferences, § Rules globais, § Aprofundamento item 1, § Profundidade itens 1-2, 3ª regra editorial), `ROLES.md` (§ Orquestrador Seção A, § Redator 2/3/17, § Questionador taxonomia e § Consolidação, § Revisor-completude), `ERROS.md` (#7, #21, F4, F10, tabela de checks), `MEMORY.md` (Core Memory, Diário), `EXEMPLARES.md` (nota de precedência), `.claude/commands/resumo.md` (passos 5 e 7), `typst-build/auditar_pdf.py` (faixa de palavras recalibrada **e novo `check_paginas_e1`**).
+- **O teto de páginas deixou de ser manual.** `check_paginas_e1` conta as páginas entre o banner da Etapa 1 e o banner do Resumindo e avisa acima de 15. É warn, não bloqueio — coerente com a linha 7 da tabela de checks e com a § Missão. Validado no `GR-02`, que acusa corretamente as suas 18 páginas.
+- **Não aplicado retroativamente.** O `GR-02-DIABETES-MELLITUS.pdf` fechado nesta mesma sessão nasceu sob o canônico antigo (18 páginas de E1, 12 subtópicos, Consolidação com ângulo "Por que/Como"). Regerar sob o registro novo é decisão do Davi.
 
 ### 2026-09-03 (corrida `gr-02-diabetes-mellitus`)
 - **Resumo do Grand Round 2 — Diabetes mellitus gerado** a pedido explícito de Davi ("aprende bem, de acordo com as provas antigas, o tipo de cobrança feita em cada grand round; agora roda as etapas 1 a 3 pra esse grand round, sendo bem abrangente"). Dial `profundidade: fundo`. **39 páginas:** capa · "Antes da aula" (2p, 971 palavras, 60 termos plantados) · sumário (1p) · E1 com 18 páginas, 3 PARTES e 12 subtópicos (6.975 palavras, ~500/subtópico — dentro do alvo do F10) · Resumindo em 1 página com 10 seções · 30 objetivas (20 MC + 10 C/E de 4 itens + 2 "assinale a incorreta") · 5 discursivas · gabarito. 15 figuras, todas do slide do professor (deck da aula + caso clínico da Dra. Sharon Admoni). Taxonomia PROFUNDO (8 Cons · 17 Int · 5 Apl). Ratio de paridade Q01–Q30: 20/20 MC na banda 0.80–1.25, média 1.05.
@@ -319,11 +342,11 @@ Auditoria detalhada em `backups/pre-faxina-2026-05-29/raiz/CHANGELOG_CLAUDE.md` 
 
 - **Davi Sousa** — aluno FMUSP turma 114, 1º ano (2026). **2º semestre ativo (desde ago/2026): Ciclo da Vida I (UC-16) + Digestório (UC-8), Turma B.** (1º sem foi UC01/UC02.)
 - **Contato (rodapé da capa):** "Davi Sousa — Turma 114" / "(61) 98264-7208 · dpbdes@gmail.com · PIX: dpbdes@gmail.com".
-- **Conhecimento inicial:** ensino médio + meses de medicina, **com dificuldade real** no tema. Mecanismo antes de nome; jargão como etiqueta para conceito já entendido; pré-requisitos sempre retomados em 1-2 frases.
+- **Conhecimento inicial:** ensino médio + meses de medicina, **com dificuldade real** no tema. Mecanismo antes de nome; **o termo técnico correto nomeado na mesma frase em que é definido** (revisto 2026-09-03 — jargão não se adia nem se parafraseia); pré-requisitos sempre retomados em 1-2 frases.
 
-### Missão NEBLI (canônica 2026-05-25)
+### Missão NEBLI (canônica 2026-05-25, elevada a registro científico em 2026-09-03)
 
-**Apostila de extrema qualidade, do básico ao aprofundado**, para aluno que sabe pouco aprender muito. Ensinar bem > concisão. Teto E1 = 22 páginas. Comprimir essencial trai a missão.
+**Apostila de alto nível científico, do básico ao aprofundado**, para aluno que sabe pouco aprender muito. Ensinar bem > concisão — mas texto que não ensina é gordura, não concisão sacrificada. Linguagem técnica exata com prosa fluida; toda frase afirma um fato, faz uma ponte causal ou nomeia um termo. **Teto E1 = 15 páginas** (era 22 até 2026-09-03), 8–10 subtópicos, 450–550 palavras cada. **Profundidade única: superior à da prova.** Comprimir mecanismo essencial trai a missão; cortar frase sem função é a missão.
 
 ### Identidade visual ativa (pacote v2, canônico 2026-05-19)
 

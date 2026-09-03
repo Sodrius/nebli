@@ -18,6 +18,8 @@
 
 Quando um exemplar conflitar com uma instrução abstrata do CLAUDE.md ou do prompt mestre, **o exemplar tem precedência** — ele é a operacionalização concreta da instrução.
 
+**Exceção única (CANON 2026-09-03): o `CLAUDE.md` § Registro científico vence o exemplar.** Os exemplares deste arquivo foram escritos sob o registro anterior e carregam três padrões que hoje estão revogados: (a) **jargão adiado ou parafraseado** — "ligação temporária entre o açúcar e a enzima (chamada thiohemiacetal)"; hoje o termo entra junto da definição, na mesma frase; (b) **pergunta retórica de ponte** — o "Por que isso importa?" do Exemplar 1.2 é anterior ao banimento de 2026-05-29 e não deve ser imitado; (c) **frase de moldura ou de reafirmação** que não afirma fato, não faz ponte causal e não nomeia termo. O que continua valendo integralmente nos exemplares é o **gesto pedagógico** — cada parágrafo com função discreta, cadeia mecanística completa, exemplo canônico em vez de nome citado, ritmo e variação de abertura. Leia-os pelo gesto; a superfície da frase segue o registro novo.
+
 ---
 
 ## Quando usar cada categoria (índice operacional + lazy-load)
