@@ -372,9 +372,15 @@ aulas:
     conteudo:
     data: 2026-09-29
     prova: P2
-    titulo: "Grand Round 2"
-    chaves: [grand round]
-    nota: "Não vira resumo NEBLI próprio."
+    titulo: "Grand Round 2 (diabetes mellitus)"
+    apelidos: [gr-02-diabetes-mellitus]
+    chaves: [grand round, diabetes, glicação, AGE, insulina, cetoacidose, pé diabético, nefropatia, retinopatia, Charcot, osteomielite, aterosclerose]
+    nota: >-
+      Tema confirmado em 2026-09-03 pelo slide (Diabetes mellitus, com bloco radiológico do InRad) e
+      pelo caso clínico da Dra. Sharon Admoni (DM1 em homem de 26 anos, anti-GAD65 1082). A regra
+      geral "Grand Round não vira resumo NEBLI" (CALIBRACAO.md § Fronteiras, item 6) foi
+      EXCEPCIONADA a pedido explícito de Davi: resumo gerado em `resumos-gerados/GR-02-DIABETES-MELLITUS.pdf`
+      (slug `gr-02-diabetes-mellitus`). A exceção não muda a regra para os demais Grand Rounds.
 
   # =================================================================
   # P3 (06/11) — MICOLOGIA, VIROLOGIA, INFLAMAÇÃO CRÔNICA E REPARO

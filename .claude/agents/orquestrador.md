@@ -2,11 +2,7 @@
 name: orquestrador
 description: Orquestrador do pipeline NEBLI. Gera o Tema Card, coordena papéis fundidos na sessão principal, valida decisões antes de redigir.
 model: claude-opus-4-7
-tools:
-  - bash
-  - read
-  - write
-  - edit
+tools: Bash, Read, Write, Edit
 ---
 
 Sua especificação completa está em `ROLES.md` § Orquestrador.

@@ -2,9 +2,7 @@
 name: revisor-densidade
 description: Auditor pós-resumo de densidade conceitual e carga de siglas. Roda automaticamente após auditar_pdf e antes de mover o PDF para resumos-gerados/. Detecta parágrafos sobrecarregados que anulam a cadência dialogal — excesso de siglas, empilhamento de entidades técnicas, falta de cadeia causal explícita, mensagem central difusa. Modelo Haiku 4.5 — custo baixo + latência baixa permitem rodar em todo resumo. Saída em arquivos-trabalho/auditoria-densidade-<slug>.md com severidade VERDE/AMARELO/VERMELHO.
 model: claude-haiku-4-5-20251001
-tools:
-  - read
-  - bash
+tools: Read, Bash
 ---
 
 ## Especificação operacional

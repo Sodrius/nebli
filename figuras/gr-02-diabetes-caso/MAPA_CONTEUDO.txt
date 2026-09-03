@@ -1,0 +1,22 @@
+# MAPA_CONTEUDO -- gr-02-diabetes-caso
+# Slide-fonte: GrandRound2-diabetes-caso.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Grand Round Dra. Sharon Nina Admoni Médica Endocrinologista Grupo de Diabetes Serviço de Endocrinologia HC FMUSP
+slide-02: 26 anos, masculino, bancário, natural de São Paulo • Abril 2024: • Há 10 dias poliúria, polidipsia • Perda ponderal de 3 kg • Realizou glicemia capilar na véspera: 248mg/dL • Nega infecções recentes • AP: • Nega uso de medicações. • Nega tabagismo, n...
+slide-03: Exame físico • BEG, desid ++/4+, eupneico, acianótico, afebril • Peso: 80kg • H 176,5 cm • IMC 25,6 • PA 120x80 mmHg FC 88 bPM • MV+ SRA • BRNF 2 T SS • Abd inocente • MMII sem alt CD: orientado ir ao Pronto Socorro
+slide-04: Exames de Pronto Socorro Glicemia 397 70 a 99 mg/dL Creatinina 1,04 0,70 – 1,30 mg/dL K 4,4 3,5 a 4,5mEq/L PCR 0,05 Até 1,0mg/dL CD: Hidratação Endovenosa Orientado Insulinoterapia e Monitorização
+slide-05: Exames Ambulatoriais (colhidos na manhã do dia seguinte) Valor VR Glicemia 320 70 a 99 mg/dL HbA1c 8,8 <5,7% Frutosamina 575 205 a 285 micromol/L Peptídeo C 1,32 1,1 a 4,4 ng/mL AcGAD65 1082 < 10 UI/mL TSH 4,2 0,45 a 4,5 mUI/L T4 livre 1,3 0,9 a 1,8 ...
+slide-06: [VISUAL -- usar adjacente com titulo extraivel]
+slide-07: [VISUAL -- usar adjacente com titulo extraivel]
+slide-08: Orientação ambulatorial • Educação em diabetes • Orientação sobre contagem de carboidratos IA: Tia Bete • Insulina Degludeca 4 UI • Insulina Asparte conforme contagem de carboidratos: • 1 UI : 25g de CH no café, almoço e jantar • Correção com Fator ...
+slide-09: Agosto de 2024 Abril 2024 Agosto 2024 VR Glicemia 320 96 70 a 99 mg/dL HbA1c 8,8 5,2 <5,7% Frutosamina 575 289 205 a 285 micromol/L Peptídeo C 1,32 1,1 a 4,4 ng/mL AcGAD65 1082 < 10 UI/mL TSH 4,2 0,45 a 4,5 mUI/L T4 livre 1,3 0,9 a 1,8 ng.dL Cortisol...
+slide-10: [VISUAL -- usar adjacente com titulo extraivel]
+slide-11: [VISUAL -- usar adjacente com titulo extraivel]
+slide-12: Hoje, agosto de 2025 • Insulina Degludeca - 1 UI cedo • Insulina Asparte - Antes das principais refeições: Contagem de carboidratos: Café da manhã: 1 UI : 25g CH Almoço: 1 UI : 30g CH Jantar: 1 UI : 25g CH Fator de correção de glicemia: Alvo glicêmic...
+slide-13: [VISUAL -- usar adjacente com titulo extraivel]
+slide-14: [VISUAL -- usar adjacente com titulo extraivel]

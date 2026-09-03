@@ -1,231 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [Um paciente com infarto agudo do miocárdio desenvolve, nas 48 horas seguintes, infiltrado neutrofílico intenso na área necrótica, sem qualquer evidência de infecção. Por que a inflamação se instala com essa intensidade na ausência de micro-organismo],
-  (("A", [Porque a isquemia gera hipóxia local e a hipóxia é reconhecida diretamente pelos receptores Toll-like da superfície do cardiomiócito, que respondem à queda de oxigênio disparando transcrição de citocinas inflamatórias.]),
-   ("B", [Porque o tecido necrótico expõe colágeno subendotelial que ativa apenas a cascata da coagulação, e é a trombina formada localmente o único mediador capaz de recrutar neutrófilo na inflamação estéril.]),
-   ("C", [Porque as células mortas liberam moléculas próprias que normalmente ficam confinadas — ATP, potássio, DNA mitocondrial, HMGB1 — e essas moléculas de dano são lidas pelos mesmos receptores de padrão que reconhecem micróbios.]),
-   ("D", [Porque a ausência de micróbio remove a inibição que os padrões microbianos exercem sobre o macrófago residente, liberando-o para produzir citocina de forma desregulada e recrutar neutrófilo em excesso no foco.]),
-   ("E", [Porque a inflamação estéril depende de anticorpos naturais preexistentes contra antígenos cardíacos, que formam imunocomplexos com proteínas liberadas do miócito e ativam a via clássica do complemento no tecido.])))
+  [O efeito da insulina sobre a captação muscular de glicose se instala em poucos minutos e se desfaz em poucos minutos quando a concentração do hormônio cai. O mecanismo que explica essa cinética é:],
+  (("A", [A insulina induz rapidamente a transcrição do gene do GLUT-4, e a meia-vida curta do RNA mensageiro correspondente faz a quantidade de transportador cair assim que o estímulo hormonal cessa.]),
+   ("B", [O receptor de insulina ativa uma proteína G que eleva o AMP cíclico em segundos, e a fosfodiesterase degrada esse segundo mensageiro tão logo o hormônio se desliga do receptor.]),
+   ("C", [O GLUT-4 já existe pronto, estocado em vesículas intracelulares, e a via PI3K-Akt apenas comanda a fusão dessas vesículas com a membrana plasmática, movimento que se reverte quando o sinal cessa.]),
+   ("D", [A insulina aumenta a afinidade do GLUT-4 já presente na membrana pela glicose extracelular, alterando a constante de transporte sem que nenhum transportador precise mudar de compartimento celular.]),
+   ("E", [A insulina inibe diretamente a hexoquinase muscular, e a queda imediata do consumo intracelular de glicose desfaz o gradiente de concentração que sustentava a entrada do açúcar pela membrana.])))
 
-#questao-mc("02", badge-consolidacao,
-  [Sobre as propriedades dos receptores de reconhecimento de padrões da imunidade inata, assinale a alternativa *incorreta*:],
-  (("A", [Cada receptor é gerado por recombinação somática de segmentos gênicos durante a maturação da célula, o que produz um repertório de milhões de especificidades distintas e permite expansão clonal com memória.]),
-   ("B", [São codificados na linhagem germinativa, de modo que o receptor é idêntico em todas as células que o expressam e não depende de encontro prévio com o agente para estar disponível.]),
-   ("C", [Reconhecem estruturas moleculares conservadas que o micróbio não pode perder sem prejuízo de viabilidade, como lipopolissacarídeo, peptidoglicano, flagelina e glicanos de manose terminal expostos na superfície.]),
-   ("D", [Reconhecem também moléculas próprias deslocadas de seu compartimento normal, como ATP extracelular e DNA mitocondrial citosólico, o que explica a inflamação disparada por trauma e por isquemia.]),
-   ("E", [Distribuem-se em três compartimentos — solúvel no plasma, associado a membrana e citosólico — e a localização de cada um informa em que compartimento do tecido o agente se encontra.])))
+#questao-ce("02", badge-consolidacao,
+  [Julgue os itens a seguir sobre a reação entre a glicose e as proteínas do organismo.],
+  (("I",   [A glicação da hemoglobina depende de uma enzima específica, que reconhece a valina terminal da cadeia beta e transfere o açúcar para ela de forma dirigida.]),
+   ("II",  [A base de Schiff se forma em horas e se desfaz quando a glicemia cai, enquanto a ligação cruzada característica do produto final de glicação avançada já não se reverte.]),
+   ("III", [O produto de Amadori é o rearranjo mais estável da base de Schiff, e é essa forma que se dosa no laboratório como hemoglobina glicada e como frutosamina.]),
+   ("IV",  [Proteínas de meia-vida curta acumulam mais produtos de glicação avançada do que proteínas de meia-vida longa, porque são sintetizadas com maior frequência.])))
 
-#questao-ce("03", badge-consolidacao,
-  [A família de receptores Toll-like distribui seus membros entre a membrana plasmática e o compartimento endossômico. Julgue os itens abaixo:],
-  (("I",   [Os receptores que reconhecem ácidos nucleicos virais e bacterianos localizam-se em vesículas endossômicas, e essa reclusão restringe a leitura ao material genético que chegou por endocitose.]),
-   ("II",  [O reconhecimento do lipopolissacarídeo pelo TLR4 dispensa proteínas acessórias, uma vez que o domínio extracelular do receptor acomoda o lipídeo A diretamente, sem participação de CD14 ou de MD-2.]),
-   ("III", [A via de sinalização converge na liberação do NF-κB, que migra ao núcleo e induz a transcrição de citocinas inflamatórias e de moléculas de adesão endotelial.]),
-   ("IV",  [Como o produto final da via é a transcrição de genes, o efeito biológico do estímulo do receptor aparece em horas, e não em segundos como o das aminas vasoativas pré-formadas.])))
+#questao-mc("03", badge-consolidacao,
+  [A sequência de eventos que explica a poliúria e a polidipsia de um paciente com hiperglicemia franca é:],
+  (("A", [A hiperglicemia estimula diretamente os osmorreceptores hipotalâmicos, a sede aparece primeiro, o paciente ingere volume muito acima do habitual e a poliúria surge como consequência dessa sobrecarga hídrica.]),
+   ("B", [A carga filtrada de glicose supera a capacidade máxima de reabsorção tubular, a glicose retida no lúmen impede a reabsorção de água, o volume urinário sobe e a desidratação dispara a sede.]),
+   ("C", [A hiperglicemia reduz a secreção de hormônio antidiurético pela neuro-hipófise, a água deixa de ser reabsorvida no túbulo coletor, e a diurese aquosa resultante concentra o plasma e provoca sede.]),
+   ("D", [A glicose lesa diretamente o epitélio do túbulo proximal, a reabsorção de sódio despenca, e a perda de sódio arrasta água por gradiente osmótico até que a volemia caia o bastante para gerar sede.]),
+   ("E", [A hiperglicemia aumenta a pressão hidrostática do capilar glomerular, a taxa de filtração se eleva de forma proporcional, e o excesso de filtrado ultrapassa a capacidade de reabsorção de água do néfron.])))
 
 #questao-mc("04", badge-consolidacao,
-  [Como se explica que o fluxo sanguíneo desacelere até a estase num foco inflamatório em que as arteríolas estão dilatadas e o aporte de sangue aumentou],
-  (("A", [A vasodilatação arteriolar é acompanhada de vasoconstrição venular reflexa e sustentada, e é o aumento da resistência na saída do leito que represa a coluna de sangue e reduz sua velocidade.]),
-   ("B", [O consumo local de oxigênio pelos leucócitos recrutados reduz a saturação da hemoglobina, e o sangue dessaturado tem viscosidade maior, o que por si só é suficiente para produzir a estase observada.]),
-   ("C", [A trombina gerada pela ativação do fator XII forma microtrombos de fibrina que obstruem parcialmente a luz venular, e essa obstrução mecânica progressiva é a causa primária da lentificação do fluxo.]),
-   ("D", [O aumento da permeabilidade venular deixa escapar plasma para o interstício; as hemácias ficam retidas, a fração celular do sangue sobe, a viscosidade aumenta, e sangue mais viscoso corre mais devagar.]),
-   ("E", [A dilatação arteriolar reduz a pressão de perfusão a jusante por queda da resistência total, e a menor diferença de pressão entre entrada e saída do leito capilar diminui a velocidade linear do fluxo.])))
+  [Sobre o mecanismo do diabetes mellitus tipo 1, assinale a alternativa *incorreta*.],
+  (("A", [A destruição da célula beta é mediada sobretudo por linfócitos T autorreativos, e os autoanticorpos circulantes funcionam como marcadores sorológicos dessa agressão, não como seus principais executores.]),
+   ("B", [A queda da razão insulina/glucagon retira o freio sobre a célula alfa, e o glucagon sem contraposição sustenta glicogenólise e gliconeogênese hepáticas que agravam ainda mais a hiperglicemia.]),
+   ("C", [O peptídeo C é liberado em quantidade equimolar à insulina endógena e, por não estar presente na insulina exógena aplicada, permite estimar a secreção residual própria da ilhota pancreática.]),
+   ("D", [A perda de peso combina caloria eliminada na urina sob a forma de glicose, lipólise desinibida no tecido adiposo e proteólise muscular que alimenta a gliconeogênese no fígado.]),
+   ("E", [Os corpos cetônicos derivam da conversão direta do excesso de glicose plasmática em acetoacetato pelo hepatócito, de modo que a cetose é consequência aritmética do grau de hiperglicemia alcançado.])))
 
 #questao-ce("05", badge-consolidacao,
-  [O aumento da permeabilidade vascular na inflamação aguda pode ser produzido por mais de um mecanismo. Julgue os itens:],
-  (("I",   [A contração da célula endotelial induzida por histamina produz aumento de permeabilidade imediato e sustentado por vários dias, porque a fenda intercelular aberta permanece independentemente da depuração do mediador.]),
-   ("II",  [A lesão endotelial direta por queimadura ou toxina produz aumento de permeabilidade imediato e sustentado, porque a recuperação depende de reparo do endotélio e não da depuração de um mediador.]),
-   ("III", [O líquido que sai por essa barreira quebrada é exsudato, rico em proteína e em células, distinto do transudato, que decorre de desequilíbrio de pressões com barreira vascular íntegra.]),
-   ("IV",  [A lesão endotelial mediada por leucócito instala-se nos primeiros segundos após o estímulo, antes mesmo do rolamento, sendo o primeiro dos três mecanismos a operar no foco.])))
+  [Julgue os itens a seguir sobre os exames que traduzem controle glicêmico em número.],
+  (("I",   [A hemoglobina glicada integra a exposição à glicose ao longo de 8 a 12 semanas porque a hemácia não repara a modificação e permanece em circulação por esse período.]),
+   ("II",  [A frutosamina reflete as últimas 2 a 3 semanas porque mede a glicação da albumina, cuja meia-vida plasmática é de 14 a 20 dias.]),
+   ("III", [Hemoglobina glicada e frutosamina resultam de reações químicas distintas entre si, e é essa diferença de mecanismo que justifica os resultados discordantes em algumas condições.]),
+   ("IV",  [Uma anemia hemolítica recente tende a elevar falsamente a hemoglobina glicada de um paciente, para uma mesma glicemia média do período.])))
 
 #questao-mc("06", badge-consolidacao,
-  [Qual é o papel funcional da quimiocina apresentada na superfície luminal do endotélio inflamado, durante a cascata de adesão leucocitária],
-  (("A", [Formar um gradiente de concentração no interior da luz vascular que atrai quimiotaticamente o leucócito circulante em direção à parede, substituindo a marginação física produzida pela estase do fluxo.]),
-   ("B", [Ativar a integrina que já está na membrana do leucócito, convertendo-a da conformação dobrada de baixa afinidade para a conformação estendida de alta afinidade, capaz de agarrar firmemente o ICAM-1.]),
-   ("C", [Induzir a síntese de novas moléculas de integrina no leucócito em rolamento, processo que depende de transcrição gênica e explica o intervalo de horas entre o estímulo inflamatório e a adesão firme.]),
-   ("D", [Estabilizar a ligação entre selectina endotelial e ligante leucocitário, aumentando a afinidade dessa interação até o ponto em que ela sozinha é capaz de interromper o rolamento e imobilizar a célula.]),
-   ("E", [Degradar localmente a membrana basal do vaso e a matriz adjacente, abrindo o caminho físico por onde o leucócito aderido atravessará a parede em direção ao interstício inflamado.])))
+  [A ultrassonografia de um paciente com diabetes de diagnóstico recente mostra rins de dimensões aumentadas. O mecanismo que melhor explica esse achado é:],
+  (("A", [A hiperglicemia dilata a arteríola aferente mais do que a eferente, eleva a pressão no capilar glomerular e aumenta a filtração, e a hipertrofia glomerular que acompanha essa sobrecarga aumenta o volume renal.]),
+   ("B", [A retenção de sódio induzida pela hiperinsulinemia expande o volume extracelular, e o edema intersticial renal resultante aumenta as dimensões do órgão antes de qualquer alteração glomerular.]),
+   ("C", [A deposição precoce de matriz mesangial nodular expande o tufo glomerular e, somada ao infiltrado inflamatório da glomerulonefrite diabética, aumenta o volume do parênquima já na fase inicial.]),
+   ("D", [A obstrução do fluxo urinário pela neuropatia autonômica vesical dilata o sistema coletor e produz hidronefrose bilateral, que é lida como aumento das dimensões renais na ultrassonografia.]),
+   ("E", [A hialinização das arteríolas aferente e eferente reduz a resistência vascular renal e aumenta o fluxo plasmático, o que congestiona o parênquima e eleva o volume do órgão.])))
 
 #questao-ce("07", badge-consolidacao,
-  [Sobre os mecanismos microbicidas do neutrófilo ativado no interior do fagossomo. Julgue os itens:],
-  (("I",   [A NADPH oxidase transfere elétrons ao oxigênio molecular gerando superóxido; a dismutação deste produz peróxido de hidrogênio, que a mieloperoxidase converte em hipoclorito na presença de cloreto.]),
-   ("II",  [A explosão respiratória não gera ATP: o oxigênio consumido é empregado na fabricação de oxidantes, e os elétrons usados vêm do NADPH produzido na via das pentoses-fosfato.]),
-   ("III", [A cobertura do alvo por C3b e por IgG é irrelevante para a eficiência da captura, uma vez que o receptor de manose do fagócito realiza sozinho o reconhecimento com a mesma eficácia.]),
-   ("IV",  [A armadilha extracelular do neutrófilo é composta por cromatina descondensada associada a enzimas granulares, expelida para o meio extracelular, e sua formação em geral custa a vida da célula.])))
+  [Julgue os itens a seguir sobre os métodos de imagem usados na investigação de doença arterial coronariana.],
+  (("I",   [O escore de cálcio é adquirido sem contraste intravenoso, com sincronização ao eletrocardiograma, e quantifica calcificação com atenuação acima de 130 unidades Hounsfield.]),
+   ("II",  [A angiotomografia de coronárias tem valor preditivo negativo muito alto e é mais útil para excluir doença em pacientes com probabilidade pré-teste baixa a intermediária.]),
+   ("III", [A angiocoronariografia invasiva quantifica o grau de estenose com precisão e permite tratar a lesão no mesmo procedimento diagnóstico.]),
+   ("IV",  [O escore de cálcio, por medir a carga total de placa, informa diretamente o grau de estenose da luz coronariana em cada vaso avaliado.])))
 
 #questao-mc("08", badge-consolidacao,
-  [Após a clivagem do C3 pela C3 convertase, os dois fragmentos gerados têm destinos e funções distintos. Qual alternativa descreve corretamente essa divisão],
-  (("A", [O fragmento maior, C3b, difunde-se pelo interstício e atua como anafilatoxina degranulando mastócitos, enquanto o menor, C3a, permanece ligado à superfície do alvo funcionando como opsonina.]),
-   ("B", [Ambos os fragmentos permanecem ligados covalentemente à superfície onde a convertase se formou, e a diferença entre eles está apenas na afinidade relativa pelos receptores do fagócito.]),
-   ("C", [O fragmento C3a nucleia diretamente a montagem do complexo de ataque à membrana, ao passo que o C3b é rapidamente inativado por proteínas reguladoras presentes no plasma circulante.]),
-   ("D", [Os dois fragmentos difundem-se livremente e agem como quimioatraentes de potência equivalente para o neutrófilo, sendo a opsonização realizada exclusivamente pela imunoglobulina G ligada ao antígeno.]),
-   ("E", [O fragmento maior, C3b, liga-se covalentemente à superfície e opsoniza o alvo para o fagócito, enquanto o menor, C3a, difunde-se e atua como anafilatoxina sobre mastócito e vaso.])))
+  [Em um paciente obeso com resistência à insulina, o passo cujo comprometimento explica melhor a menor captação muscular de glicose é:],
+  (("A", [A ligação da insulina às subunidades alfa do receptor, reduzida pela competição de ácidos graxos livres circulantes pelo mesmo sítio de reconhecimento na superfície da célula muscular.]),
+   ("B", [A síntese de novas moléculas de receptor de insulina, suprimida no músculo pela ativação crônica de fatores de transcrição inflamatórios dependentes do fator de necrose tumoral alfa.]),
+   ("C", [A afinidade do GLUT-4 já inserido na membrana pela glicose extracelular, reduzida pela ligação covalente de diacilglicerol ao domínio de transporte do carreador na superfície.]),
+   ("D", [A fosforilação do IRS-1 em resíduos de tirosina, substituída por fosforilação em serina por quinases de estresse ativadas por diacilglicerol e ceramida, o que impede o recrutamento da PI3K.]),
+   ("E", [A degradação da insulina circulante pela insulinase hepática, acelerada na obesidade a ponto de reduzir a concentração do hormônio que alcança o leito muscular após cada refeição.])))
 
 #questao-mc("09", badge-integracao,
-  [Em camundongo com deleção do adaptador MyD88, o endotélio da microcirculação exposto a lipopolissacarídeo não expressa E-selectina nem ICAM-1, e o recrutamento de neutrófilos fica abolido. Qual sequência explica esse fenótipo],
-  (("A", [A ausência do adaptador impede a montagem da NADPH oxidase no neutrófilo, e sem produção de oxidantes a célula não consegue aderir ao endotélio nem completar a diapedese pela junção intercelular.]),
-   ("B", [A deleção bloqueia a clivagem do C5 e suprime a produção de C5a; sem o principal quimioatraente do foco, o neutrófilo não recebe o sinal de ativação da integrina e permanece circulando na luz vascular.]),
-   ("C", [Sem o adaptador não há liberação do NF-κB; sem esse fator de transcrição, o endotélio não transcreve as moléculas de adesão induzíveis, e o leucócito perde os pontos de ancoragem necessários para parar na parede.]),
-   ("D", [A deleção impede a ativação da fosfolipase que libera ácido araquidônico, de modo que não se formam leucotrienos, e o neutrófilo deixa de expressar as selectinas necessárias ao rolamento sobre o endotélio.]),
-   ("E", [O adaptador é necessário para a exocitose dos grânulos endoteliais que contêm P-selectina pré-formada, e sem esse passo inicial de rolamento nenhuma das etapas subsequentes da cascata pode ocorrer.])))
+  [Retina, glomérulo, nervo periférico e cristalino concentram as complicações crônicas do diabetes, enquanto o músculo esquelético é relativamente poupado. A explicação mecanística desse contraste é:],
+  (("A", [O músculo esquelético dispõe de uma isoforma de aldose-redutase com afinidade muito baixa pela glicose, o que impede a via dos polióis de operar nesse tecido mesmo sob hiperglicemia prolongada.]),
+   ("B", [Esses tecidos captam glicose por transportadores independentes de insulina e não reduzem a entrada quando a glicemia sobe, enquanto o músculo diminui o GLUT-4 de superfície e limita a própria carga intracelular.]),
+   ("C", [A microcirculação desses órgãos é anatomicamente terminal, e é apenas essa ausência de circulação colateral, e não a concentração intracelular de glicose, que determina onde a lesão crônica se instala.]),
+   ("D", [Esses tecidos possuem taxa de renovação proteica muito superior à do músculo, o que multiplica o número de grupos amino recém-expostos disponíveis para a reação de glicação não-enzimática.]),
+   ("E", [O músculo esquelético expressa concentrações elevadas de receptor para produtos de glicação avançada e degrada localmente os AGEs formados antes que eles estabeleçam ligações cruzadas.])))
 
 #questao-ce("10", badge-integracao,
-  [Um paciente internado por pneumonia apresenta proteína C reativa muito elevada. Julgue os itens sobre a relação entre reconhecimento inato e resposta hepática:],
-  (("I",   [A proteína C reativa é um receptor de padrão solúvel: liga fosfocolina exposta em parede bacteriana e em célula morta, opsoniza o alvo e ativa a via clássica do complemento.]),
-   ("II",  [A elevação plasmática decorre da síntese aumentada pelo próprio neutrófilo recrutado ao foco pulmonar, que exporta a proteína pronta para a circulação sem participação do fígado.]),
-   ("III", [Como a proteína C reativa é gerada por rearranjo somático de segmentos gênicos no hepatócito, sua especificidade aumenta a cada exposição, o que caracteriza memória humoral inata.]),
-   ("IV",  [A lectina ligadora de manose é também uma proteína de fase aguda, de modo que a resposta hepática amplifica simultaneamente duas portas distintas de ativação do complemento.])))
+  [Julgue os itens a seguir sobre as duas formas de descompensação aguda do diabetes.],
+  (("I",   [No tipo 1, a ausência quase total de insulina libera a lipase hormônio-sensível, e a inundação do fígado por ácido graxo produz cetoácidos em excesso.]),
+   ("II",  [No tipo 2, a insulina residual é insuficiente para normalizar a glicemia mas basta para conter a lipólise, o que explica a ausência de cetose franca na descompensação típica.]),
+   ("III", [A respiração ampla e profunda observada na cetoacidose reflete comprometimento pulmonar direto causado pela hiperglicemia e pela desidratação associadas ao quadro.]),
+   ("IV",  [O estado hiperosmolar é primariamente um distúrbio de água, produzido pela diurese osmótica prolongada, e não um distúrbio do equilíbrio ácido-base.])))
 
 #questao-mc("11", badge-integracao,
-  [Paciente com crise aguda de gota no hálux. A articulação está quente, vermelha e extremamente dolorosa, e o líquido sinovial mostra cristais de urato monossódico e neutrófilos abundantes. Qual encadeamento mecanístico sustenta esse quadro],
-  (("A", [O cristal fagocitado desestabiliza o fagolisossomo e dispara efluxo de potássio e espécies reativas; o NLRP3 se monta, a caspase-1 corta a pró-interleucina-1β, e a citocina madura ativa o endotélio sinovial recrutando neutrófilos.]),
-   ("B", [O cristal, por ser insolúvel, é reconhecido diretamente pelo TLR2 de superfície do sinoviócito, que sinaliza por MyD88 e induz a secreção imediata de interleucina-1β já madura estocada em grânulos citoplasmáticos.]),
-   ("C", [A hiperuricemia satura os transportadores tubulares renais e o urato circulante ativa a via clássica do complemento por ligação ao C1q, gerando C5a em quantidade suficiente para recrutar neutrófilo para a sinóvia.]),
-   ("D", [As arestas do cristal lesam mecanicamente a membrana do sinoviócito e do neutrófilo, e é o extravasamento de conteúdo citoplasmático dessas células rompidas o único mecanismo capaz de manter a resposta inflamatória.]),
-   ("E", [O cristal liga-se à albumina sinovial formando um neoantígeno reconhecido por anticorpos naturais preexistentes; o imunocomplexo depositado na cartilagem é o gatilho da resposta inflamatória local observada.])))
+  [Um paciente inicia insulinoterapia e, quatro semanas depois, as glicemias capilares estão no alvo, mas a hemoglobina glicada caiu pouco em relação ao valor inicial. A leitura correta desse resultado é:],
+  (("A", [A hemoglobina glicada não caiu porque a glicação da hemoglobina é irreversível já desde a formação da base de Schiff, e o valor só se normaliza quando toda a população de hemácias tiver sido renovada.]),
+   ("B", [O resultado indica adesão irregular ao tratamento, já que a hemoglobina glicada responde a mudanças de controle com atraso máximo de sete a dez dias após qualquer ajuste terapêutico.]),
+   ("C", [O exame perdeu validade porque a insulinoterapia interfere quimicamente na dosagem da hemoglobina glicada, e o controle deve passar a ser avaliado apenas por glicemias capilares seriadas.]),
+   ("D", [A hemoglobina glicada mede o produto final de glicação avançada da hemoglobina, formado ao longo de meses, e por isso não acompanha oscilações de controle inferiores a um ano de tratamento.]),
+   ("E", [A hemoglobina glicada é um produto de Amadori acumulado ao longo da vida da hemácia e integra 8 a 12 semanas: quatro semanas de bom controle ainda estão diluídas nas semanas anteriores.])))
 
 #questao-mc("12", badge-integracao,
-  [Durante a inflamação aguda, o leucócito abandona a coluna central de sangue e passa a trafegar rente à parede vascular. Qual é a relação entre os eventos hemodinâmicos e esse comportamento],
-  (("A", [A vasodilatação arteriolar aumenta a velocidade linear do sangue na vênula, e a força de cisalhamento elevada empurra o leucócito contra o endotélio, onde as selectinas então o capturam e iniciam o rolamento.]),
-   ("B", [A marginação é resultado exclusivo da expressão de selectinas na superfície endotelial, que capturam ativamente o leucócito na linha central do fluxo, independentemente de qualquer alteração da velocidade do sangue.]),
-   ("C", [A liberação de quimiocinas para a luz vascular cria um gradiente radial de concentração dentro do vaso, e é a quimiotaxia intraluminal ao longo desse gradiente que desloca o leucócito para a periferia da coluna.]),
-   ("D", [A perda de plasma para o interstício concentra as hemácias e eleva a viscosidade; o fluxo desacelera, e nesse regime lento o leucócito, maior e menos deformável, deixa a linha central e passa a rolar sobre a parede.]),
-   ("E", [A contração da célula endotelial reduz o calibre efetivo da vênula, e essa redução de área transversal força mecanicamente o leucócito contra a parede antes que qualquer molécula de adesão seja expressa ali.])))
+  [O elo mecanístico mais direto entre a hiperglicemia crônica e a formação da placa de ateroma é:],
+  (("A", [A LDL glicada é mal reconhecida pelo seu receptor, circula por mais tempo e se oxida, sendo então captada por receptores scavenger do macrófago, que não são inibidos pelo colesterol já acumulado.]),
+   ("B", [A glicose em excesso é convertida diretamente em acetil-CoA na parede arterial e serve de substrato para a síntese local de colesterol pelos miócitos lisos da camada média do vaso.]),
+   ("C", [A hiperglicemia aumenta a produção hepática de lipoproteína de alta densidade, que se deposita no espaço subendotelial e é fagocitada por macrófagos residentes até transformá-los em células espumosas.]),
+   ("D", [A glicação da albumina plasmática reduz a capacidade de transporte de ácidos graxos livres, que passam a circular ligados a hemácias e são liberados diretamente na íntima arterial lesada.]),
+   ("E", [A insulina em concentrações elevadas estimula receptores de LDL no macrófago da íntima, aumentando a captação regulada da partícula até que o conteúdo lipídico da célula se torne excessivo.])))
 
 #questao-ce("13", badge-integracao,
-  [Vinte minutos após uma picada de inseto, a pele apresenta pápula circundada por eritema. Julgue os itens sobre os mediadores e o mecanismo envolvidos:],
-  (("I",   [A histamina responsável pelo edema inicial estava pré-formada em grânulos do mastócito, o que explica seu efeito em segundos a minutos, sem necessidade de síntese proteica.]),
-   ("II",  [O edema decorre da contração da célula endotelial da vênula pós-capilar, com abertura de fenda intercelular, e não da dilatação de poros na membrana da célula endotelial.]),
-   ("III", [Além da ligação cruzada de IgE de superfície, as anafilatoxinas C3a e C5a, os neuropeptídeos e o trauma físico também são capazes de degranular o mastócito.]),
-   ("IV",  [O eritema que ultrapassa os limites do ponto picado só pode ser explicado por difusão passiva da histamina pelo interstício, já que a fibra sensitiva conduz o impulso apenas em direção à medula.])))
+  [Julgue os itens a seguir sobre a via dos polióis e suas consequências oculares.],
+  (("I",   [A aldose-redutase converte glicose em sorbitol consumindo NADPH, e a menor disponibilidade de glutationa reduzida enfraquece a defesa antioxidante da célula.]),
+   ("II",  [O sorbitol atravessa livremente a membrana da fibra do cristalino e é exportado para o humor aquoso, razão pela qual não contribui para a opacificação da lente.]),
+   ("III", [A oscilação do grau refrativo do paciente descompensado se explica por variação do conteúdo de água do cristalino acompanhando as mudanças de glicemia.]),
+   ("IV",  [Os neovasos da retinopatia proliferativa surgem em resposta à isquemia retiniana e, por serem frágeis e crescerem em direção ao vítreo, sangram e tracionam a retina.])))
 
 #questao-mc("14", badge-integracao,
-  [Sobre a articulação entre o sistema complemento e a fagocitose no foco inflamatório, assinale a alternativa *incorreta*:],
-  (("A", [O C3b depositado covalentemente na superfície do micróbio é reconhecido por receptores de complemento do fagócito, e esse engajamento dispara a polimerização de actina que fecha o fagossomo.]),
-   ("B", [A cápsula polissacarídica de algumas bactérias dificulta a deposição estável de C3b na superfície, e é em parte por esse mecanismo que os encapsulados resistem à fagocitose eficiente.]),
-   ("C", [A lise direta pelo complexo de ataque à membrana é o principal mecanismo pelo qual o complemento elimina bactérias em geral, superando em importância clínica a opsonização e o recrutamento celular.]),
-   ("D", [O C5a acumula três funções no foco: aumenta a permeabilidade vascular, atrai o neutrófilo por quimiotaxia e ativa essa mesma célula, potencializando sua capacidade microbicida.]),
-   ("E", [A via alternativa inicia-se por hidrólise espontânea e contínua do C3 no plasma, e é a ausência de proteínas reguladoras na superfície microbiana que permite à cascata prosseguir ali.])))
+  [A membrana basal glomerular do paciente com nefropatia diabética está espessada e, ainda assim, deixa passar albumina para o filtrado. A explicação desse achado aparentemente contraditório é:],
+  (("A", [O espessamento reduz o tamanho dos poros de filtração a ponto de reter moléculas maiores, e a albumina detectada na urina provém da descamação de células tubulares lesadas pela hiperglicemia.]),
+   ("B", [O que aumenta não é apenas a espessura: a matriz depositada é desorganizada e a membrana perde proteoglicanos aniônicos, isto é, a barreira de carga que repelia a albumina, também aniônica.]),
+   ("C", [A espessura maior aumenta a distância de difusão e reduz o fluxo de água, elevando a concentração de albumina no filtrado sem que a permeabilidade da barreira tenha se alterado.]),
+   ("D", [A albuminúria decorre da hialinização das arteríolas eferentes, que reduz a pressão de filtração e faz a albumina ser secretada ativamente pelo epitélio do túbulo proximal para o lúmen.]),
+   ("E", [O espessamento da membrana basal é acompanhado de infiltrado inflamatório rico em neutrófilos, cujas proteases digerem localmente a barreira e abrem falhas por onde a albumina escapa.])))
 
 #questao-mc("15", badge-integracao,
-  [Um politraumatizado sem qualquer foco infeccioso apresenta queda dos níveis séricos de C3 e sinais sistêmicos de inflamação. Qual mecanismo liga a lesão tecidual extensa ao consumo de complemento],
-  (("A", [O trauma expõe antígenos intracelulares que se combinam a imunoglobulina M natural, e é exclusivamente por essa via clássica dependente de anticorpo que o complemento pode ser consumido na ausência de infecção.]),
-   ("B", [A exposição de colágeno subendotelial autoativa o fator XII, que gera calicreína; a calicreína converte plasminogênio em plasmina, e a plasmina cliva diretamente o C3, gerando fragmentos ativos sem nenhuma das três vias canônicas.]),
-   ("C", [A hemorragia dilui as proteínas plasmáticas de forma proporcional, e a queda medida do C3 reflete apenas essa diluição, sem que haja consumo real por ativação da cascata do complemento no tecido.]),
-   ("D", [O tecido necrótico expõe manose terminal em glicoproteínas próprias desnaturadas, e a via das lectinas é a única capaz de consumir complemento em quadro estéril, por reconhecimento desse açúcar exposto.]),
-   ("E", [A trombina formada na coagulação inibe as proteínas reguladoras de membrana das células do hospedeiro, e o consumo observado decorre da lise autóloga de hemácias e endotélio pelo complexo de ataque à membrana.])))
+  [Em um homem obeso e sedentário, a cadeia que liga o excesso de oferta de ácido graxo ao músculo à redução da captação de glicose por essa mesma fibra é:],
+  (("A", [O ácido graxo compete com a glicose pelo sítio de transporte do GLUT-4 na membrana, e a ocupação desse sítio reduz proporcionalmente o número de moléculas de glicose transportadas por minuto.]),
+   ("B", [O ácido graxo é oxidado preferencialmente na mitocôndria, e o acúmulo de citrato inibe a fosfofrutoquinase, o que eleva a glicose-6-fosfato intracelular e bloqueia a entrada do açúcar pela membrana.]),
+   ("C", [O ácido graxo ativa receptores nucleares que reprimem a transcrição do gene do receptor de insulina, e a menor densidade de receptores na superfície reduz a sinalização em todas as suas ramificações.]),
+   ("D", [O excedente de acil-CoA graxo acumula diacilglicerol e ceramida, que ativam serina-quinases de estresse; estas fosforilam o IRS-1 em serina, o sinal não alcança a PI3K e menos GLUT-4 chega à membrana.]),
+   ("E", [O ácido graxo se liga diretamente à subunidade beta do receptor de insulina e bloqueia o sítio catalítico da tirosina-quinase, impedindo a autofosforilação que iniciaria toda a cascata intracelular.])))
 
 #questao-ce("16", badge-integracao,
-  [Um paciente com pneumonia bacteriana apresenta temperatura de 39,2 °C e refere sensação de frio intenso com tremores no início do episódio. Julgue os itens:],
-  (("I",   [A prostaglandina E₂ que produz a febre é sintetizada no foco pulmonar e transportada pelo sangue até o hipotálamo, onde então desloca para cima o ponto de ajuste do centro termorregulador.]),
-   ("II",  [O tremor muscular e a vasoconstrição cutânea são mecanismos efetores acionados para elevar a temperatura corporal até o novo ponto de ajuste, e não consequências passivas da infecção.]),
-   ("III", [A sensação de frio com tremores no início do episódio é coerente com um ponto de ajuste já deslocado para cima enquanto a temperatura corporal ainda está abaixo do novo alvo.]),
-   ("IV",  [O antitérmico age inibindo a ciclo-oxigenase e reduzindo a síntese hipotalâmica de prostaglandina, o que faz o ponto de ajuste retornar ao valor normal.])))
+  [Julgue os itens a seguir sobre os mecanismos que produzem e mantêm a úlcera do pé diabético.],
+  (("I",   [A perda de sensibilidade dolorosa protege o pé, porque reduz o reflexo de retirada e, com ele, o número de traumas repetidos sobre o mesmo ponto de apoio.]),
+   ("II",  [A neuropatia autonômica reduz a sudorese local, resseca a pele e abre fissuras que servem de porta de entrada para infecção bacteriana.]),
+   ("III", [A doença arterial periférica limita a chegada de oxigênio, de células de defesa e do próprio antibiótico administrado ao leito da úlcera.]),
+   ("IV",  [O colágeno reticulado por produtos de glicação avançada resiste à digestão proteolítica, e o remodelamento da matriz necessário ao reparo fica comprometido.])))
 
 #questao-mc("17", badge-integracao,
-  [Em um modelo experimental, neutrófilos recrutados para o peritônio são impedidos de entrar em apoptose por bloqueio farmacológico da via apoptótica. O infiltrado persiste e o dano tecidual se agrava. Qual mecanismo explica melhor esse agravamento],
-  (("A", [Sem apoptose o neutrófilo retorna à circulação carregado de enzimas granulares, e é a redistribuição sistêmica dessas enzimas por via hematogênica que produz o dano observado em outros órgãos.]),
-   ("B", [O bloqueio da apoptose impede a montagem da NADPH oxidase no fagossomo, e o acúmulo de micro-organismos viáveis não eliminados é a causa direta da lesão progressiva do peritônio.]),
-   ("C", [A persistência do neutrófilo consome o oxigênio disponível no exsudato e a hipóxia resultante é o mecanismo primário de morte das células mesoteliais adjacentes ao infiltrado inflamatório.]),
-   ("D", [Neutrófilos que não morrem deixam de expressar selectinas e passam a bloquear mecanicamente a luz das vênulas do mesentério, e a isquemia por obstrução explica a progressão do dano tecidual.]),
-   ("E", [A remoção do neutrófilo depende da apoptose seguida de eferocitose; bloqueada essa rota, a célula evolui para necrose secundária e derrama proteases, oxidantes e moléculas de dano no tecido, perpetuando o foco.])))
+  [A hiperfiltração glomerular observada no início da nefropatia diabética é frequentemente interpretada como sinal de função renal preservada. A leitura mecanística correta é:],
+  (("A", [A hiperfiltração é um mecanismo compensatório benigno que se mantém estável por décadas, e a esclerose glomerular decorre apenas da hialinização arteriolar, sem relação com a pressão intraglomerular.]),
+   ("B", [A hiperfiltração é a primeira alteração funcional da doença: a arteríola aferente dilata mais que a eferente, a pressão no capilar sobe, e essa sobrecarga sustentada produz a esclerose de anos depois.]),
+   ("C", [A hiperfiltração indica aumento real de massa de néfrons funcionantes induzido pela insulina, e a queda posterior da filtração reflete apenas a interrupção desse estímulo trófico pelo tratamento.]),
+   ("D", [A hiperfiltração resulta de vasoconstrição da arteríola aferente com redução da pressão glomerular, e a albuminúria que a acompanha decorre de lesão isquêmica do podócito por baixo fluxo.]),
+   ("E", [A hiperfiltração é artefato de cálculo da taxa de filtração a partir da creatinina sérica, que se encontra falsamente reduzida pela perda de massa muscular do paciente descompensado.])))
 
 #questao-mc("18", badge-integracao,
-  [Por que os receptores Toll-like que reconhecem ácidos nucleicos estão confinados ao compartimento endossômico, e não à membrana plasmática],
-  (("A", [Porque ácido nucleico próprio, liberado por células que morrem no tecido, circularia livremente no meio extracelular; confinar esses receptores ao endossomo condiciona a leitura ao material que chegou por endocitose.]),
-   ("B", [Porque o pH ácido do endossomo é indispensável ao pareamento de bases entre o RNA viral e o domínio de reconhecimento do receptor, reação que não ocorre no pH neutro do líquido extracelular.]),
-   ("C", [Porque esses receptores derivam evolutivamente de proteínas lisossomais e mantiveram o sinal de endereçamento ancestral, sem que a localização traga vantagem funcional relevante à resposta imune inata.]),
-   ("D", [Porque os ácidos nucleicos microbianos só adquirem a conformação reconhecível após degradação parcial por nucleases endossômicas, e o material íntegro na superfície celular seria invisível ao receptor.]),
-   ("E", [Porque a sinalização desses receptores exige o adaptador TRIF, proteína ancorada exclusivamente à face citosólica da membrana endossômica e ausente na face interna da membrana plasmática.])))
+  [Sobre a aterosclerose acelerada do paciente diabético, assinale a alternativa *incorreta*.],
+  (("A", [A inativação do óxido nítrico pelos produtos de glicação avançada reduz a vasodilatação dependente do endotélio e favorece a adesão de leucócitos e plaquetas à parede arterial.]),
+   ("B", [O eixo AGE-RAGE mantém um estado pró-inflamatório com secreção de citocinas, expressão de moléculas de adesão e aumento da produção de fator tecidual pela célula endotelial.]),
+   ("C", [A disfunção endotelial do diabético só se instala depois que a placa de ateroma se torna visível à angiotomografia, o que faz do exame de imagem o marcador mais precoce da doença.]),
+   ("D", [O estado pró-coagulante inclui aumento do inibidor do ativador de plasminogênio, com redução da fibrinólise e maior persistência do trombo formado sobre a placa instabilizada.]),
+   ("E", [A maioria dos eventos coronarianos agudos decorre da ruptura de placa vulnerável, com núcleo lipídico grande e capa fibrosa fina, muitas vezes pouco estenosante antes do evento.])))
 
 #questao-ce("19", badge-integracao,
-  [Um paciente toma anti-inflamatório não esteroidal para dor articular e apresenta melhora da dor, mas desenvolve epigastralgia. Julgue os itens:],
-  (("I",   [A prostaglandina E₂ não excita diretamente o nociceptor; ela reduz o limiar de disparo dessa terminação, de modo que estímulos habitualmente indolores passam a doer.]),
-   ("II",  [A epigastralgia relaciona-se à inibição da ciclo-oxigenase constitutiva da mucosa gástrica, cujo produto estimula a secreção de muco e de bicarbonato protetores.]),
-   ("III", [O fármaco atua sobre a fosfolipase A₂, impedindo a liberação de ácido araquidônico da membrana, e por isso suprime simultaneamente prostanoides e leucotrienos.]),
-   ("IV",  [A bradicinina responsável pela dor é sintetizada localmente pelo fibroblasto a partir de aminoácidos livres e age sobre o mesmo receptor de prostaglandina que o fármaco bloqueia.])))
+  [Julgue os itens a seguir sobre a predisposição do paciente diabético à infecção urinária.],
+  (("I",   [A glicosúria oferece substrato de crescimento no próprio lúmen urinário e favorece a colonização bacteriana da via urinária.]),
+   ("II",  [A neuropatia autonômica vesical acelera o esvaziamento da bexiga e, ao reduzir o volume residual, protege o paciente contra a infecção ascendente.]),
+   ("III", [A hiperglicemia melhora a quimiotaxia e a explosão respiratória do neutrófilo, o que compensa parcialmente o risco aumentado de infecção urinária.]),
+   ("IV",  [A esclerose glomerular e a pielonefrite comprometem o mesmo órgão por caminhos independentes, e as perdas de função resultantes se somam.])))
 
 #questao-mc("20", badge-integracao,
-  [Em um quadro de sepse grave, o paciente apresenta simultaneamente sangramento em locais de punção e microtrombos na microcirculação. Qual mecanismo articula a resposta inflamatória sistêmica a essa combinação aparentemente contraditória],
-  (("A", [O fator de necrose tumoral em concentração elevada lisa diretamente as plaquetas circulantes, e a plaquetopenia resultante explica o sangramento, enquanto os microtrombos derivam apenas da estase da microcirculação.]),
-   ("B", [As citocinas inflamatórias ativam a fibrinólise de forma primária e maciça, e a plasmina em excesso degrada fibrinogênio circulante, o que causa sangramento sem que haja qualquer trombose associada verdadeira.]),
-   ("C", [O lipopolissacarídeo liga-se diretamente ao fator XII e o autoativa em toda a circulação; o sangramento decorre do consumo desse fator isolado, sem participação do endotélio nem das citocinas.]),
-   ("D", [Interleucina-1 e fator de necrose tumoral induzem fator tecidual no endotélio e suprimem os anticoagulantes naturais que ele expressava; a coagulação difusa consome plaquetas e fatores, e o consumo é o que produz o sangramento.]),
-   ("E", [O óxido nítrico produzido em excesso inibe a agregação plaquetária e causa o sangramento, ao passo que os microtrombos observados são compostos apenas de leucócitos aderidos ao endotélio, sem fibrina.])))
+  [Um paciente com cetoacidose diabética chega ao pronto-socorro com potássio sérico de 5,1 mEq/L. Poucas horas após o início da insulinoterapia, o potássio despenca. A explicação é:],
+  (("A", [A insulina aumenta a excreção renal de potássio ao estimular a bomba de sódio e potássio no túbulo coletor, e a perda urinária acelerada explica integralmente a queda observada no exame.]),
+   ("B", [O potássio inicial estava elevado por hemólise da amostra colhida, e o valor mais baixo obtido depois representa apenas a coleta correta, sem que tenha havido movimento real do íon.]),
+   ("C", [A correção da acidose desloca potássio do plasma para o interior das hemácias apenas, sem participação da insulina, que não tem efeito conhecido sobre o transporte transmembrana desse íon.]),
+   ("D", [O potássio inicial refletia estoque corporal normal, e a queda posterior indica perda aguda pelo trato gastrintestinal, secundária aos vômitos que costumam acompanhar o quadro de cetoacidose.]),
+   ("E", [O estoque corporal já estava depletado pela diurese osmótica; a acidose e a falta de insulina mantinham o íon no compartimento extracelular, e a insulina o empurra de volta para dentro da célula.])))
 
 #questao-mc("21", badge-integracao,
-  [Sobre o programa de resolução da inflamação aguda, assinale a alternativa *incorreta*:],
-  (("A", [A prostaglandina E₂ acumulada no foco induz a expressão da 15-lipoxigenase, o que desloca o metabolismo do ácido araquidônico da produção de leucotrieno B₄ para a produção de lipoxinas.]),
-   ("B", [As lipoxinas inibem a quimiotaxia e a adesão de neutrófilos e estimulam o macrófago a remover os restos celulares, atuando em sentido oposto ao do leucotrieno B₄.]),
-   ("C", [A resolução é essencialmente passiva: cessado o estímulo, os mediadores deixam de ser produzidos e o infiltrado se dissipa por inércia, sem que haja síntese de moléculas dedicadas ao desligamento.]),
-   ("D", [A fagocitose do neutrófilo apoptótico pelo macrófago reprograma esta célula, que passa a secretar interleucina-10 e fator de transformação do crescimento beta em vez de citocinas pró-inflamatórias.]),
-   ("E", [O desfecho depende da integridade do arcabouço de matriz: preservado, há restituição integral; destruído, o fator de transformação do crescimento beta conduz a deposição de colágeno e a cicatriz.])))
+  [Na retinopatia diabética proliferativa, a formação de neovasos é o desfecho de uma cadeia que começa na hiperglicemia intracelular. Essa cadeia é:],
+  (("A", [Morte de pericitos e oclusão capilar geram isquemia retiniana; o tecido isquêmico libera fator de crescimento endotelial, potencializado pela via da proteína quinase C, e o estímulo produz vasos frágeis.]),
+   ("B", [O espessamento da membrana basal capilar reduz o aporte de oxigênio ao pericito, que se hipertrofia e passa a secretar colágeno em excesso, formando os cordões fibrosos vistos ao exame de fundo de olho.]),
+   ("C", [A hemorragia vítrea inicial priva a retina de nutrientes provenientes do humor vítreo, e a resposta reparadora do epitélio pigmentar organiza novos vasos a partir da coroide subjacente.]),
+   ("D", [O acúmulo de sorbitol no interior do pericito o torna refratário ao fator de crescimento endotelial, e a ausência de resposta angiogênica leva à atrofia progressiva da rede capilar retiniana.]),
+   ("E", [A glicação do colágeno da membrana limitante interna reduz a adesão do vítreo à retina, e o descolamento resultante estimula a proliferação vascular como tentativa de reancoramento tecidual.])))
 
 #questao-ce("22", badge-integracao,
-  [Sobre a cinética das moléculas de adesão endotelial e sua relação com as citocinas do foco. Julgue os itens:],
-  (("I",   [A P-selectina depende de transcrição gênica induzida no endotélio e por isso só alcança a superfície várias horas depois do estímulo por histamina ou por trombina.]),
-   ("II",  [A E-selectina encontra-se pré-formada nos corpúsculos de Weibel-Palade e é externalizada em poucos minutos, sem necessidade de síntese proteica nova.]),
-   ("III", [O ICAM-1 tem expressão basal baixa que aumenta acentuadamente sob estímulo de interleucina-1 e de fator de necrose tumoral, e é esse incremento que sustenta a adesão firme.]),
-   ("IV",  [A ligação da integrina VLA-4 ao VCAM-1 favorece o recrutamento de monócitos e linfócitos, contribuindo para a mudança do perfil do infiltrado ao longo dos dias.])))
+  [Julgue os itens a seguir sobre as duas lesões ósseas que disputam o diagnóstico no pé do paciente diabético.],
+  (("I",   [A artropatia de Charcot resulta de infecção da medular óssea disseminada a partir de uma úlcera plantar profunda contígua à articulação.]),
+   ("II",  [A radiografia simples detecta a osteomielite desde as primeiras horas de infecção, o que dispensa a ressonância magnética na avaliação inicial do pé.]),
+   ("III", [A ressonância magnética identifica o edema da medular óssea com baixo sinal em T1, alto sinal em T2 com saturação de gordura e realce após a injeção de contraste.]),
+   ("IV",  [Artropatia de Charcot e osteomielite podem coexistir no mesmo pé, e a distinção entre elas altera a conduta de forma substancial.])))
 
 #questao-mc("23", badge-integracao,
-  [Uma célula que morre por piroptose amplifica a inflamação de modo muito mais intenso do que uma célula que morre por apoptose. Qual é a base mecanística dessa diferença],
-  (("A", [O fragmento amino-terminal da gasdermina D forma poro na membrana; a célula incha, rompe e derrama no interstício conteúdo citosólico rico em moléculas de dano, além de liberar a interleucina-1β madura.]),
-   ("B", [A piroptose consome as reservas de ATP da célula muito mais rapidamente, e é a depleção energética do tecido vizinho, com falência das bombas iônicas, o que amplifica a resposta inflamatória local observada.]),
-   ("C", [Na piroptose a célula expõe fosfatidilserina na face externa da membrana com densidade muito maior, e esse sinal em excesso ativa o macrófago para um perfil pró-inflamatório sustentado no foco.]),
-   ("D", [A caspase-1 ativada difunde para o meio extracelular e cliva diretamente componentes da matriz, e são os fragmentos de matriz gerados por essa protease os principais responsáveis pela amplificação do processo.]),
-   ("E", [A piroptose ocorre preferencialmente em células endoteliais, e é a perda de integridade da barreira vascular, e não o conteúdo liberado pela célula morta, o que amplifica a resposta inflamatória no tecido.])))
+  [Uma carga oral de glicose eleva mais a insulina plasmática do que a mesma carga administrada por via intravenosa, apesar de produzir glicemias comparáveis. O fenômeno e sua relevância no diabetes tipo 2 são:],
+  (("A", [O fenômeno decorre da absorção mais lenta da glicose no intestino, que prolonga o estímulo à célula beta; no tipo 2 a absorção é acelerada, o que reduz o tempo total de estímulo secretor.]),
+   ("B", [O fenômeno decorre da primeira passagem hepática, que retém parte da glicose oral e reduz a carga que chega à ilhota; no tipo 2 essa retenção é maior e mascara a resistência periférica.]),
+   ("C", [O fenômeno decorre da estimulação vagal desencadeada pela distensão gástrica, que age diretamente na célula beta; no tipo 2 a gastroparesia autonômica suprime por completo essa via reflexa.]),
+   ("D", [O fenômeno é o efeito incretínico: hormônios liberados pela chegada do alimento, sobretudo o GLP-1, amplificam a secreção de insulina; no tipo 2 esse efeito está reduzido e soma-se aos demais defeitos.]),
+   ("E", [O fenômeno decorre da liberação de somatostatina pela célula delta em resposta à via oral, que potencializa a resposta da célula beta vizinha; no tipo 2 a célula delta encontra-se hipofuncionante.])))
 
 #questao-mc("24", badge-integracao,
-  [O infiltrado de um foco inflamatório agudo é predominantemente neutrofílico nas primeiras horas e passa a predominantemente macrofágico entre doze e quarenta e oito horas. O que explica essa substituição],
-  (("A", [O macrófago fagocita seletivamente os neutrófilos viáveis do foco e os elimina de forma ativa, e essa depuração dirigida é o mecanismo que impõe a troca do elenco celular observada no tecido.]),
-   ("B", [O neutrófilo migra do tecido de volta para a luz vascular assim que o estímulo perde intensidade, retornando à circulação, ao passo que o macrófago é incapaz de fazer esse trajeto reverso.]),
-   ("C", [A expressão de selectinas no endotélio cai abruptamente após seis horas, o que impede qualquer novo recrutamento de neutrófilos, enquanto o macrófago atravessa a parede por mecanismo independente de adesão.]),
-   ("D", [O neutrófilo vive poucas horas no tecido e entra em apoptose por relógio interno, sem ser reposto; o macrófago responde a quimiocinas de expressão mais tardia, sobrevive dias e acaba herdando o foco.]),
-   ("E", [A queda progressiva do oxigênio no exsudato inviabiliza o metabolismo do neutrófilo, que é estritamente dependente de fosforilação oxidativa, ao contrário do macrófago, que sustenta sua função por glicólise anaeróbia.])))
+  [Colágeno, elastina e proteínas do cristalino acumulam produtos de glicação avançada, ao passo que proteínas plasmáticas de renovação rápida praticamente não os acumulam. O determinante desse contraste é:],
+  (("A", [O tempo: a ligação cruzada leva semanas a meses para se formar, e a proteína de renovação rápida é degradada e substituída antes que a reação chegue a esse estágio irreversível.]),
+   ("B", [A composição em aminoácidos: colágeno e elastina são ricos em lisina e arginina, enquanto proteínas de renovação rápida praticamente não dispõem de grupos amino livres capazes de reagir com a glicose.]),
+   ("C", [A localização: proteínas da matriz extracelular ficam expostas à glicose intersticial, cuja concentração é várias vezes superior à plasmática, enquanto as proteínas do plasma veem concentrações menores.]),
+   ("D", [A presença de enzimas de reparo: proteínas plasmáticas circulam acompanhadas de desglicases hepáticas que revertem continuamente a base de Schiff, mecanismo que a matriz extracelular não possui.]),
+   ("E", [A conformação: proteínas fibrilares mantêm resíduos amino permanentemente expostos ao solvente, ao passo que proteínas globulares os escondem no interior hidrofóbico da molécula dobrada.])))
 
 #questao-ce("25", badge-integracao,
-  [Sobre a ação das anafilatoxinas do complemento sobre o mastócito e a microcirculação. Julgue os itens:],
-  (("I",   [O C5a e o C3a degranulam o mastócito por receptor próprio, o que libera histamina pré-formada e conecta a ativação do complemento ao aumento imediato da permeabilidade venular.]),
-   ("II",  [Entre os fragmentos gerados, o C3a é a anafilatoxina mais potente e o único com função quimiotática relevante sobre o neutrófilo, papel que o C5a praticamente não desempenha.]),
-   ("III", [A degranulação do mastócito por anafilatoxina exige sensibilização prévia por IgE específica, razão pela qual esse mecanismo só opera em indivíduos previamente alergizados.]),
-   ("IV",  [A histamina liberada age no receptor H1 do músculo liso arteriolar promovendo vasoconstrição, o que reduz o fluxo local e limita a formação de edema no território afetado.])))
+  [Julgue os itens a seguir sobre o eixo AGE-RAGE e a trombose no paciente diabético.],
+  (("I",   [A ligação do produto de glicação avançada ao seu receptor ativa o fator nuclear kappa B e induz a expressão de fator tecidual pela célula endotelial.]),
+   ("II",  [A sinalização por esse receptor é autolimitada, porque a ativação reduz a expressão do próprio receptor e interrompe a alça em poucas horas.]),
+   ("III", [No paciente diabético, o eixo predominante da tríade de Virchow é a estase venosa produzida pela redução do débito cardíaco.]),
+   ("IV",  [O infarto agudo do miocárdio decorre, na maioria dos casos, do crescimento progressivo da placa até a oclusão completa da luz, sem participação de trombo.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Menino de 4 anos com abscessos cutâneos de repetição por #emph[Staphylococcus aureus] e #emph[Serratia]. O teste funcional do neutrófilo mostra produção de oxidantes muito reduzida; a contagem de neutrófilos e as moléculas de adesão são normais. Qual etapa está comprometida],
-  (("A", [O rolamento sobre o endotélio, por deficiência de ligante de selectina no leucócito, o que impede a marginação e reduz a chegada de neutrófilo ao foco apesar da contagem sanguínea normal.]),
-   ("B", [A geração de superóxido pela NADPH oxidase no fagossomo, de modo que não se formam peróxido nem hipoclorito e o micro-organismo fagocitado sobrevive dentro da célula que o engoliu.]),
-   ("C", [A opsonização do alvo por C3b, por deficiência de componente inicial da via alternativa do complemento, o que torna a captura lenta e ineficiente mesmo com neutrófilos plenamente funcionais.]),
-   ("D", [A quimiotaxia ao longo do gradiente tecidual, por defeito do receptor de peptídeos formilados, o que mantém o neutrófilo próximo ao vaso e distante do sítio real de multiplicação bacteriana.]),
-   ("E", [A fusão do grânulo azurófilo com o fagossomo, o que impede a entrega de mieloperoxidase e defensinas ao compartimento onde o micro-organismo fagocitado se encontra confinado.])))
+  [Homem de 26 anos, magro, com dez dias de poliúria, polidipsia e perda de 3 kg. Glicemia de 397 mg/dL, hemoglobina glicada de 8,8%, peptídeo C de 1,32 ng/mL (referência 1,1 a 4,4) e anticorpo anti-descarboxilase do ácido glutâmico de 1082 UI/mL (referência abaixo de 10). A leitura conjunta indica:],
+  (("A", [Diabetes tipo 2 de início precoce, já que o peptídeo C dentro da faixa de referência exclui deficiência de secreção e o autoanticorpo apenas acompanha a inflamação sistêmica da hiperglicemia.]),
+   ("B", [Diabetes secundário a pancreatite crônica, porque a associação de peptídeo C no limite inferior com autoanticorpo elevado é característica da destruição inflamatória não-imune da glândula exócrina.]),
+   ("C", [Diabetes tipo 1 no início da história natural: o autoanticorpo em título alto identifica a autoimunidade contra a ilhota, e o peptídeo C ainda mensurável indica secreção residual em parte preservada.]),
+   ("D", [Diabetes tipo 1 em fase avançada, uma vez que hemoglobina glicada acima de 8% só é alcançada quando a massa de célula beta já está integralmente destruída e a secreção residual é nula.]),
+   ("E", [Resistência à insulina isolada, porque hemoglobina glicada elevada com peptídeo C mensurável configura hiperinsulinemia compensatória, e o autoanticorpo é achado incidental sem valor diagnóstico.])))
 
 #questao-mc("27", badge-aplicacao,
-  [Paciente asmático usa ácido acetilsalicílico para cefaleia e desenvolve broncoespasmo intenso em minutos, sem urticária e sem hipotensão. Qual mecanismo explica melhor esse desfecho],
-  (("A", [Reação de hipersensibilidade mediada por IgE específica contra o salicilato, com degranulação maciça de mastócito brônquico e liberação de histamina suficiente para contrair o músculo liso das vias aéreas.]),
-   ("B", [Inibição da fosfolipase A₂ pelo fármaco, que suprime a produção de prostaciclina broncodilatadora e deixa o tônus da via aérea sob domínio exclusivo da inervação colinérgica parassimpática.]),
-   ("C", [Ativação direta do complemento pelo fármaco, com geração de C5a em quantidade suficiente para degranular mastócitos da mucosa brônquica e produzir contração da musculatura lisa respiratória.]),
-   ("D", [Acetilação irreversível da mieloperoxidase do eosinófilo brônquico, o que aumenta a produção local de espécies reativas e desencadeia contração da musculatura lisa por lesão epitelial oxidativa.]),
-   ("E", [Bloqueio da ciclo-oxigenase com acúmulo de ácido araquidônico, que é desviado para a 5-lipoxigenase; o excesso de cisteinil-leucotrienos contrai o músculo liso brônquico com potência muito superior à da histamina.])))
+  [Mulher de 52 anos com diabetes tipo 2 apresenta glicemias capilares entre 90 e 140 mg/dL nos últimos dois meses, mas hemoglobina glicada de 5,0%. O hemograma mostra hemoglobina de 9,2 g/dL, reticulócitos elevados e bilirrubina indireta aumentada. A conduta e a justificativa são:],
+  (("A", [Manter a hemoglobina glicada como parâmetro e reduzir a dose do antidiabético, porque o valor de 5,0% indica risco de hipoglicemia que as glicemias capilares isoladas não conseguem detectar.]),
+   ("B", [Repetir a hemoglobina glicada em outro laboratório, porque a discordância entre glicemia capilar e exame laboratorial se explica melhor por erro analítico do que por qualquer condição do paciente.]),
+   ("C", [Solicitar teste oral de tolerância à glicose, porque hemoglobina glicada baixa com glicemias capilares no limite superior sugere que o diagnóstico inicial de diabetes deve ser revisto por completo.]),
+   ("D", [Substituir a hemoglobina glicada pela glicemia de jejum, porque a hemólise altera igualmente todos os exames que dependem de proteínas glicadas e nenhum deles pode ser usado nesse contexto.]),
+   ("E", [Solicitar frutosamina, porque a hemólise encurta a sobrevida da hemácia e subestima a hemoglobina glicada, enquanto a albumina glicada mantém preservada a sua janela de duas a três semanas.])))
 
-#questao-ce("28", badge-aplicacao,
-  [Homem de 62 anos com bacteriemia por Gram-negativo apresenta pressão arterial de 70/40 mmHg que não responde a volume, edema difuso e plaquetopenia. Julgue os itens sobre a fisiopatologia do quadro:],
-  (("I",   [A hipotensão refratária decorre exclusivamente da perda absoluta de volume intravascular para o interstício, sem participação de vasodilatação sistêmica mediada por óxido nítrico.]),
-   ("II",  [O edema difuso decorre de lesão endotelial direta produzida pelo lipopolissacarídeo em todos os leitos, mecanismo distinto da contração endotelial que opera no foco localizado.]),
-   ("III", [A plaquetopenia decorre do consumo de plaquetas na coagulação intravascular disseminada, desencadeada pelo fator tecidual induzido no endotélio sob ação das citocinas.]),
-   ("IV",  [O lipopolissacarídeo é reconhecido no citosol do macrófago pelo NOD2, e é essa via, e não o TLR4 de superfície, que dispara a liberação sistêmica de citocinas na sepse.])))
+#questao-mc("28", badge-aplicacao,
+  [Homem de 61 anos, diabético há vinte anos, com úlcera plantar profunda há três semanas, sondagem da lesão que atinge osso e radiografia do antepé sem alterações. A conduta de imagem e a justificativa são:],
+  (("A", [Ressonância magnética, porque a radiografia só demonstra alteração após perda óssea significativa, com atraso de uma a duas semanas, e a ressonância identifica o edema da medular óssea bem antes.]),
+   ("B", [Repetir a radiografia em quarenta e oito horas, porque a osteomielite aguda produz reação periosteal detectável nesse intervalo e a repetição precoce é suficiente para confirmar o diagnóstico.]),
+   ("C", [Ultrassonografia de partes moles do pé, porque o método define bem a interface entre osso cortical e medular e detecta o edema medular com sensibilidade equivalente à da ressonância magnética.]),
+   ("D", [Tomografia computadorizada sem contraste, porque a alta resolução para osso cortical torna o método superior à ressonância na detecção precoce da infecção da medular óssea.]),
+   ("E", [Nenhum exame adicional, porque a radiografia normal afasta com segurança o comprometimento ósseo e a conduta pode se restringir ao curativo e ao alívio de pressão sobre a lesão.])))
 
 #questao-mc("29", badge-aplicacao,
-  [Uma criança apresenta infecções bacterianas graves de repetição desde o nascimento, com cicatrização lenta do coto umbilical e feridas sem pus, apesar de leucometria persistentemente acima de 30.000 por mm³. A biópsia da lesão cutânea mostra pouquíssimos neutrófilos no tecido, embora as vênulas estejam repletas deles. Qual defeito molecular explica esse conjunto],
-  (("A", [Deficiência da subunidade comum das integrinas leucocitárias: o neutrófilo rola normalmente, mas não converte o rolamento em adesão firme ao ICAM-1, não atravessa a parede e permanece na circulação, o que produz leucocitose sem pus.]),
-   ("B", [Deficiência de mieloperoxidase no grânulo azurófilo, o que impede a conversão de peróxido em hipoclorito e torna o neutrófilo incapaz de eliminar o micro-organismo já fagocitado no interior do fagossomo.]),
-   ("C", [Deficiência dos componentes terminais do complemento, com incapacidade de montar o complexo de ataque à membrana, o que compromete a lise direta das bactérias e explica a gravidade e a recorrência das infecções.]),
-   ("D", [Defeito na sinalização do TLR4 por ausência do adaptador MyD88, o que abole a produção de citocinas inflamatórias e impede o reconhecimento de bactérias Gram-negativas pelo macrófago residente do tecido.]),
-   ("E", [Deficiência da NADPH oxidase fagocitária, com incapacidade de gerar superóxido, o que permite ao micro-organismo sobreviver dentro do fagócito e leva à formação de granulomas nos sítios de infecção.])))
+  [Homem de 64 anos, diabético há dezoito anos e tabagista, com dor precordial típica aos pequenos esforços há dois meses e alterações de repolarização no eletrocardiograma. A probabilidade pré-teste de doença coronariana é alta. Sobre a investigação por imagem:],
+  (("A", [O escore de cálcio é a melhor escolha inicial, porque quantifica a carga de placa e, sendo elevado, define o grau de estenose e dispensa qualquer método adicional antes do tratamento.]),
+   ("B", [A angiotomografia é a melhor escolha inicial, porque seu valor preditivo negativo próximo de 100% permite afastar doença com segurança mesmo neste cenário e evita um procedimento invasivo.]),
+   ("C", [A angiotomografia é a melhor escolha inicial, porque quantifica a estenose com precisão comparável à do cateterismo e permite planejar a intervenção sem expor o paciente a risco de procedimento.]),
+   ("D", [A angiocoronariografia invasiva é a melhor escolha, porque com probabilidade pré-teste alta um resultado não invasivo negativo não convenceria e um positivo levaria ao cateterismo de qualquer forma.]),
+   ("E", [Nenhum exame de imagem é necessário, porque com dor típica e eletrocardiograma alterado o diagnóstico está firmado e a anatomia coronariana não influencia a escolha terapêutica subsequente.])))
 
-#questao-mc("30", badge-aplicacao,
-  [Homem de 45 anos sofre queimadura de segundo grau em 20% da superfície corporal. Nas primeiras horas há edema intenso e persistente na área queimada; ao terceiro dia, o exame histológico mostra infiltrado predominantemente macrofágico e início de deposição de matriz. Qual sequência mecanística descreve corretamente esses dois momentos],
-  (("A", [O edema inicial resulta de contração endotelial mediada por histamina, de curta duração; o infiltrado macrofágico do terceiro dia decorre do retorno dos neutrófilos à circulação, que abre espaço para o monócito recrutado.]),
-   ("B", [O edema inicial decorre de queda isolada da pressão oncótica plasmática por perda de albumina pela superfície queimada, e o infiltrado tardio reflete apenas a proliferação local de macrófagos residentes do tecido.]),
-   ("C", [O edema inicial vem de lesão endotelial direta, imediata e sustentada porque depende de reparo do endotélio; o predomínio macrofágico tardio decorre da apoptose não reposta do neutrófilo e da eferocitose, que reprograma o macrófago para o reparo.]),
-   ("D", [O edema inicial é mediado por leucotrienos liberados pelo neutrófilo já aderido à parede vascular, e o infiltrado do terceiro dia representa a segunda onda de neutrófilos atraída pelo leucotrieno B₄ acumulado na ferida.]),
-   ("E", [O edema inicial decorre de obstrução linfática pelo calor, sem alteração da permeabilidade vascular, e o infiltrado macrofágico tardio é resposta à infecção secundária que se instala invariavelmente na área desvitalizada.])))
+#questao-ce("30", badge-aplicacao,
+  [Mulher de 58 anos, diabética há dezoito anos com controle irregular, apresenta redução progressiva da acuidade visual, albuminúria de 480 mg em 24 horas com creatinina de 1,1 mg/dL, e úlcera indolor no calcâneo esquerdo há dois meses. A ultrassonografia renal mostra rins de dimensões reduzidas, córtex afilado e ecogenicidade aumentada. Julgue os itens.],
+  (("I",   [A creatinina de 1,1 mg/dL indica parênquima renal preservado, e a albuminúria deve ser atribuída a uma causa distinta do diabetes.]),
+   ("II",  [O achado ultrassonográfico de rins reduzidos com córtex afilado corresponde à fase de hiperfiltração inicial da nefropatia diabética.]),
+   ("III", [A perda visual, a albuminúria e a úlcera de difícil cicatrização compartilham como mecanismo de base a lesão de tecidos que captam glicose independentemente de insulina.]),
+   ("IV",  [A ausência de dor no leito da úlcera indica que a lesão é superficial e afasta a necessidade de investigar comprometimento ósseo.])))

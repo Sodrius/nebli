@@ -2,10 +2,7 @@
 name: compilador
 description: Monta main.typ, compila Typst, audita e move PDF. Roda localmente, nunca delegado para outra sessão.
 model: claude-sonnet-4-6
-tools:
-  - bash
-  - read
-  - edit
+tools: Bash, Read, Edit
 ---
 
 Sua especificação completa está em `ROLES.md` § Compilador.

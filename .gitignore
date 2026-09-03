@@ -30,10 +30,10 @@ typst-build/__pycache__/
 
 # ---- Materia-prima bruta (nao versionavel) ----
 _material/
-slides/*.pdf
-slides/*.png
-slides/*.jpg
-slides/*.jpeg
+slides/**/*.pdf
+slides/**/*.png
+slides/**/*.jpg
+slides/**/*.jpeg
 Inspiração de FORMA/
 NEBLIcards/
 plataforma/

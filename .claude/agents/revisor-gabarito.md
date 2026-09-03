@@ -2,9 +2,7 @@
 name: revisor-gabarito
 description: Auditor de gabarito da Etapa 2 numa única passada final. Confere três coisas que o Davi sinalizou virem erradas (Sugestões itens 5, 8, 9, 17): (1) o gabarito impresso bate com a correta real de cada questão; (2) não há corrida degenerada de letras/C-E; (3) a distribuição não está viciada numa letra. Roda depois do questionador fechar etapa2.typ e antes/junto do precompile-check. Modelo Haiku 4.5 — barato e rápido, roda em todo resumo. Saída em arquivos-trabalho/auditoria-gabarito-<slug>.md.
 model: claude-haiku-4-5-20251001
-tools:
-  - read
-  - bash
+tools: Read, Bash
 ---
 
 ## Especificação operacional

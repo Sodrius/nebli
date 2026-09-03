@@ -1,0 +1,106 @@
+# Mapa de Confusões — gr-02-diabetes-mellitus
+
+Erros mecanísticos típicos por subtópico da E1. Origem: acervo interno de subquestões UC03 (2015–2025, etiquetas BQ/BM, PT, IM, RD e GR), bibliografia (Robbins, Lehninger, Brant & Helms) e armadilha clínica. Alimenta as distratoras da E2 — nada daqui vai colado no PDF com rótulo de origem.
+
+## 1.1 O que a insulina manda a célula fazer
+
+1. **Insulina age por segundo mensageiro clássico** — o aluno encaixa a insulina no molde do glucagon e procura AMPc. O receptor de insulina *é* a enzima: dois domínios β com atividade tirosina-quinase que se autofosforilam quando as subunidades α ligam o hormônio, e a partir daí fosforilam IRS-1. Não há proteína G nem adenilato-ciclase no caminho.
+2. **GLUT-4 é sintetizado quando a insulina chega** — imagina transcrição em minutos. O GLUT-4 já existe, estocado em vesículas intracelulares; a via PI3K–Akt manda a vesícula fundir com a membrana. Por isso o efeito é de minutos, não de horas, e por isso ele é reversível quando o sinal cessa.
+3. **Toda célula precisa de insulina para captar glicose** — generalização que destrói o resto do resumo. Neurônio, hemácia, endotélio, célula mesangial, cristalino e epitélio tubular usam transportadores independentes de insulina; só músculo esquelético e tecido adiposo dependem do GLUT-4 insulino-dependente.
+4. **A insulina só serve para baixar a glicemia** — reduz o hormônio a um efeito. Ela é o sinal de fartura: além de abrir o GLUT-4, ativa glicogênio-sintase, liga a lipogênese, **desliga a lipase hormônio-sensível** e freia a gliconeogênese e a proteólise. Perder insulina é perder todos esses freios ao mesmo tempo.
+5. **Incretina é sinônimo de insulina** — o aluno funde os dois. GLP-1 é hormônio intestinal liberado pela chegada do alimento; ele *amplifica* a secreção de insulina pela célula beta e ainda freia o esvaziamento gástrico e aumenta a saciedade no encéfalo. É por isso que glicose oral eleva mais a insulina que a mesma glicose intravenosa.
+
+## 1.2 Tipo 1: a ilhota destruída e o corpo em jejum permanente
+
+1. **O DM1 é hipoinsulinemia isolada** — o aluno para na insulina baixa. O que define o quadro é a **razão insulina/glucagon** despencando: sem insulina, a célula alfa deixa de ser freada e a hiperglucagonemia empurra glicogenólise e gliconeogênese hepáticas, agravando a hiperglicemia que já existia por falta de captação.
+2. **A célula beta é destruída por toxicidade da glicose no tipo 1** — inverte a causa. No tipo 1 a destruição é **autoimune**, por linfócitos T contra antígenos da ilhota, com autoanticorpos (anti-GAD65, anti-IA2, anti-insulina) como marcadores e associação a haplótipos de HLA de classe II. A glicotoxicidade é fenômeno do tipo 2 avançado.
+3. **Autoanticorpo positivo prova que o anticorpo destruiu a ilhota** — confunde marcador com efetor. O anti-GAD65 é o rastro sorológico de uma agressão predominantemente celular; ele *sinaliza* autoimunidade contra a ilhota, mas o dano é feito sobretudo por linfócito T citotóxico e macrófago ativado.
+4. **Peptídeo C e insulina são medidas intercambiáveis** — ignora por que se dosa um e não o outro. Insulina e peptídeo C saem em quantidades iguais da clivagem da pró-insulina, mas a insulina exógena aplicada não traz peptídeo C junto e o fígado extrai boa parte da insulina na primeira passagem. O peptídeo C mede **produção própria residual**.
+5. **A cetoacidose é consequência da hiperglicemia** — troca a causa. Os corpos cetônicos vêm da **lipólise desinibida**: sem insulina a lipase hormônio-sensível fica livre, os ácidos graxos inundam o fígado, a β-oxidação gera acetil-CoA além da capacidade do ciclo de Krebs, e o excedente vira acetoacetato e β-hidroxibutirato. Glicemia alta e cetose são dois efeitos do mesmo defeito, não um causando o outro.
+6. **Emagrecer no DM1 é por não comer** — o paciente costuma comer mais. A perda de peso vem de perda calórica na urina (glicosúria), de lipólise e de proteólise sem contraposição — o corpo se comporta como em jejum mesmo com o sangue cheio de glicose.
+
+## 1.3 Tipo 2: resistir ao sinal antes de perder a fonte
+
+1. **No tipo 2 a insulina está sempre baixa** — a inversão mais cara do tema. Na fase de resistência a insulina está **normal ou alta** (hiperinsulinemia compensatória); só depois de anos de sobrecarga a célula beta descompensa e a secreção cai. Um paciente com insulina alta e glicemia alta é o retrato do tipo 2, não uma contradição.
+2. **Resistência à insulina é receptor com defeito estrutural** — imagina mutação. Na obesidade o receptor está lá; o que trava é a **sinalização pós-receptor**: excesso de ácido graxo gera diacilglicerol e ceramida, que ativam serina-quinases de estresse; estas fosforilam o IRS-1 em serina em vez de tirosina, e o sinal para antes do PI3K, com menos GLUT-4 chegando à membrana.
+3. **A gordura age só armazenando** — subestima o tecido adiposo. O adipócito hipertrofiado recruta macrófagos e secreta TNF-α e IL-6; essas citocinas ativam as mesmas serina-quinases e reduzem GLUT-4 — a obesidade é inflamação crônica de baixo grau, e é por essa via que ela produz resistência.
+4. **Só o músculo resiste à insulina** — recorta o defeito. O fígado resiste ao freio da gliconeogênese e mantém produção hepática de glicose mesmo com insulina alta; o adipócito resiste ao freio da lipólise e continua liberando ácido graxo; o intestino perde parte do efeito incretínico; e o pâncreas ainda tem hiperglucagonemia. É defeito de múltiplos órgãos.
+5. **O tipo 2 nunca precisa de insulina** — lê "não dependente de insulina" como "nunca usa". A denominação descreve a *origem* do defeito e a ausência de cetoacidose espontânea; com a falência progressiva da célula beta, uma parcela grande dos pacientes acaba insulinizada.
+6. **A descompensação grave do tipo 2 é cetoacidose** — troca as descompensações. No tipo 2 sobra insulina residual suficiente para segurar a lipólise, então falta a cetose; a descompensação típica é o **estado hiperosmolar**, com glicemias muito mais altas, desidratação profunda e rebaixamento de consciência, sem acidose por cetoácidos.
+
+## 1.4 Da glicose alta ao sintoma: diurese osmótica, catabolismo e as duas descompensações
+
+1. **A poliúria vem da sede** — inverte a ordem. Primeiro a glicose ultrapassa a capacidade de reabsorção do túbulo proximal e aparece na urina; como soluto não reabsorvido, ela retém água no lúmen (diurese osmótica) e o volume urinário sobe. A perda de água eleva a osmolaridade plasmática e *depois* dispara a sede.
+2. **Glicosúria começa em qualquer glicemia alta** — ignora o limiar. Só há glicose na urina quando a carga filtrada supera a capacidade máxima de reabsorção dos transportadores tubulares, em torno de 180 mg/dL de glicemia. Abaixo disso, hiperglicemia sem glicosúria e sem poliúria.
+3. **Hiperosmolaridade e acidose são o mesmo problema** — funde as descompensações. A hiperosmolaridade é distúrbio de **água**, produzida pela diurese osmótica; a acidose é distúrbio de **ácido**, produzida pelos cetoácidos. Elas convivem na cetoacidose, mas a que mata no estado hiperosmolar é a primeira, isolada.
+4. **A respiração rápida na cetoacidose é sinal pulmonar** — procura o pulmão. É compensação respiratória: a queda do pH estimula quimiorreceptores, a ventilação aumenta e o CO₂ cai para tamponar a acidose metabólica. O pulmão está normal e trabalhando a favor.
+5. **A desidratação é apenas perda de água** — esquece o eletrólito. A diurese osmótica arrasta sódio e potássio junto; no diabético descompensado o potássio sérico pode estar normal ou alto mesmo com o estoque corporal total esvaziado, porque a acidose e a falta de insulina jogam potássio para fora da célula.
+
+## 2.1 Glicação não-enzimática: Schiff → Amadori → AGE
+
+1. **Glicação e glicosilação são a mesma coisa** — a confusão de nome mais frequente. Glicosilação é enzimática, dirigida e específica de sítio, parte da maturação da proteína; glicação é **espontânea**, sem enzima, dependendo só de concentração de glicose e tempo de exposição. É por isso que a glicação é proporcional à hiperglicemia.
+2. **A base de Schiff já é o dano permanente** — pula as etapas. A base de Schiff é a ligação inicial entre o carbonil da glicose e um grupo amino da proteína, formada em horas e **reversível**: se a glicose cai, ela se desfaz. É a partir dela que se organiza o produto de Amadori.
+3. **O produto de Amadori é irreversível** — endurece o passo errado. O Amadori é o rearranjo mais estável da base de Schiff, formado em dias e ainda **lentamente reversível**; o irreversível é o AGE com ligação cruzada, que se forma em semanas a meses ligando dois radicais protéicos entre si.
+4. **A glicação atinge todas as proteínas por igual** — ignora a variável tempo. Quem acumula AGE é a proteína de **meia-vida longa** — colágeno, elastina, cristalino, membrana basal — porque a proteína é renovada mais devagar do que a reação avança. Proteína de turnover rápido é substituída antes de reticular.
+5. **Se a glicemia normalizar, o AGE se desfaz** — projeta reversibilidade onde não há. As duas primeiras etapas revertem; a ligação cruzada não. É o motivo mecanístico de o dano do diabetes ter memória, e de o controle precoce valer mais do que o tardio.
+
+## 2.2 HbA1c e frutosamina: dois relógios, duas janelas
+
+1. **HbA1c é uma glicemia média medida no laboratório** — trata como medida de glicose. É a fração da hemoglobina que sofreu glicação: reflete a exposição acumulada da hemácia à glicose, e o resultado depende da concentração de glicose **e** do tempo que a hemácia viveu.
+2. **A janela da HbA1c é o mês anterior** — encurta o relógio. A hemácia vive de 90 a 120 dias, e a HbA1c integra 8 a 12 semanas, com peso maior para as últimas 4. Um controle que melhorou há duas semanas ainda não aparece nela.
+3. **HbA1c alta sempre significa mau controle** — esquece o denominador. Qualquer condição que altere a sobrevida da hemácia distorce o resultado: hemólise e sangramento recente derrubam a HbA1c com glicemia igual; carência de ferro e insuficiência renal podem elevá-la. Interpreta-se com o hemograma ao lado.
+4. **Frutosamina é sinônimo de HbA1c** — perde a razão de existir do exame. Frutosamina é a albumina glicada; a albumina vive de 14 a 20 dias, então o exame lê **2 a 3 semanas**. Serve exatamente quando a HbA1c não serve: hemoglobinopatia, gestação, mudança recente de tratamento.
+5. **Os dois exames medem coisas químicas diferentes** — separa demais. A reação é a mesma glicação não-enzimática; o que muda é a proteína carregada e, portanto, a janela de tempo que ela guarda.
+
+## 2.3 O que o AGE faz nas proteínas de vida longa
+
+1. **AGE em colágeno significa só rigidez** — para na mecânica. A reticulação muda o **turnover** da matriz: o colágeno reticulado resiste à digestão proteolítica e não é substituído no ritmo normal, e é isso que faz a matriz do diabético envelhecer sem trocar — a ferida cicatriza mal porque o remodelamento trava.
+2. **LDL glicada é apenas LDL que não funciona** — perde o dano ativo. A glicação atrapalha o reconhecimento pelo receptor de LDL, prolonga o tempo de circulação e favorece a oxidação; a partícula modificada é captada por receptores *scavenger* de macrófago, que não têm regulação por conteúdo de colesterol — e o macrófago vira célula espumosa.
+3. **Membrana basal espessa filtra menos** — inverte o efeito. A membrana basal glomerular do diabético é mais espessa **e mais permeável a proteína**, porque a composição muda: perde proteoglicano aniônico e ganha matriz desorganizada. Espessura maior com barreira pior é o paradoxo central da nefropatia.
+4. **AGE não interfere no tônus vascular** — esquece o óxido nítrico. Os AGEs **inativam o NO** e reduzem sua disponibilidade; menos NO significa menos vasodilatação, mais adesão de leucócito e plaqueta e mais proliferação de músculo liso — disfunção endotelial antes de qualquer placa visível.
+5. **Só proteína é alvo** — recorta o alvo. AGEs também se ligam a ácidos nucleicos e a proteínas não glicosiladas do plasma, entre elas imunoglobulinas e componentes do complemento, o que ajuda a explicar por que o diabético responde pior à infecção.
+
+## 2.4 RAGE e as outras três rotas: como o dano vira auto-perpetuado
+
+1. **O AGE danifica só quimicamente** — para na química. Além de reticular, o AGE é **ligante**: liga-se a RAGE em monócito, macrófago, endotélio e célula mesangial, ativa NF-κB e dispara transcrição de citocinas, fatores de crescimento, moléculas de adesão e fator tecidual. É por aqui que o dano químico vira dano inflamatório.
+2. **A ativação de RAGE se esgota** — imagina resposta autolimitada. A sinalização por RAGE **aumenta a expressão do próprio RAGE** e o estresse oxitativo local, que por sua vez acelera a formação de novos AGEs: é alça de retroalimentação positiva, e é o que o esquema da aula chama de processo auto-perpetuador.
+3. **A via dos polióis é irrelevante** — descarta a rota mais barata de explicar. Com glicose intracelular alta, a aldose-redutase converte glicose em sorbitol consumindo NADPH; menos NADPH significa menos glutationa reduzida e menos defesa antioxidante — e o sorbitol acumulado no cristalino e no nervo puxa água por osmose.
+4. **PKC e hexosamina são detalhe bioquímico sem tradução clínica** — não fecha a ponte. O excesso de glicose eleva o diacilglicerol e ativa PKC, que aumenta permeabilidade vascular, VEGF e matriz extracelular; a via da hexosamina modifica fatores de transcrição por O-GlcNAc e altera a expressão de TGF-β e PAI-1. As duas terminam em permeabilidade, fibrose e trombogenicidade.
+5. **Aumento de filtração glomerular é sinal de saúde renal** — lê o número ao contrário. A hiperfiltração inicial é **alteração funcional de doença**: a arteríola aferente dilata mais do que a eferente, a pressão no capilar glomerular sobe, e essa sobrecarga é o que produz a esclerose de anos depois.
+6. **As quatro rotas competem entre si** — busca a "verdadeira". Elas convergem: todas aumentam espécies reativas de oxigênio mitocondriais, e o estresse oxidativo realimenta as quatro. O dano é a soma, não a escolha.
+
+## 3.1 Microangiopatia I — a retina
+
+1. **A retinopatia começa com sangramento** — inverte a ordem dos achados. Começa com perda de pericito e aumento de permeabilidade capilar: primeiro microaneurismas e exsudatos, depois hemorragias, e só ao final a fase proliferativa. O sangramento não é o evento inicial.
+2. **Neovaso é sinal de recuperação** — lê a angiogênese como reparo bem-sucedido. Os neovasos da retinopatia proliferativa nascem de isquemia e VEGF, são frágeis e crescem em plano errado: sangram no vítreo e tracionam a retina, produzindo hemorragia vítrea e descolamento tracional. É a fase de pior prognóstico.
+3. **Catarata diabética é a mesma catarata senil, mais cedo** — perde o mecanismo próprio. No cristalino a glicose vira sorbitol pela aldose-redutase; o sorbitol não atravessa a membrana, acumula, puxa água e opacifica a lente. É osmótico, e por isso pode oscilar com o controle glicêmico.
+4. **A alteração de refração do diabético é erro de medida** — despreza um achado real. Oscilações de glicemia mudam o conteúdo de água do cristalino e, com ele, o poder refrativo; o paciente descompensado troca de grau e volta ao anterior quando compensa.
+5. **Glaucoma no diabetes é sempre por pressão elevada de causa comum** — ignora a via específica. Neovasos podem crescer sobre a íris e o ângulo camerular, bloqueando a drenagem do humor aquoso — glaucoma neovascular, complicação da própria retinopatia proliferativa.
+
+## 3.2 Microangiopatia II — o glomérulo, e o rim que cresce antes de encolher
+
+1. **O rim diabético sempre está reduzido** — pula a fase inicial. No começo ele está **aumentado de volume**, por hiperfiltração e hipertrofia; a redução volumétrica com afilamento cortical e aumento da ecogenicidade é o estágio final, quando esclerose e fibrose substituíram o parênquima funcionante.
+2. **Albuminúria é lesão tubular** — troca o compartimento. A albumina passa porque a **barreira glomerular** perdeu carga aniônica e integridade; o túbulo até tenta reabsorver, e é a sobrecarga dessa reabsorção que contribui para a fibrose intersticial.
+3. **Hialinização arteriolar é o mesmo que aterosclerose** — mistura escalas. A hialinização é depósito de material proteico homogêneo na parede de **arteríolas**, que enrijece e estreita o vaso pequeno; aterosclerose é placa lipídica em artéria de médio e grande calibre. Ambas convivem no diabético, em vasos diferentes.
+4. **Glomeruloesclerose é inflamação glomerular** — confunde com glomerulonefrite. É acúmulo de matriz mesangial e espessamento de membrana basal, sem infiltrado inflamatório proeminente; o padrão nodular de Kimmelstiel-Wilson é a forma mais característica.
+5. **A pielonefrite do diabético é coincidência** — perde a ligação. Glicosúria oferece substrato, a neuropatia autonômica gera retenção urinária e a disfunção de neutrófilo reduz a defesa; a predisposição à infecção urinária ascendente é consequência do próprio diabetes.
+6. **Creatinina normal exclui nefropatia** — confia no exame errado para a fase errada. A albuminúria aparece anos antes de a creatinina subir, exatamente porque a hiperfiltração inicial mascara a perda de néfrons.
+
+## 3.3 Neuropatia e pé diabético: três falhas somadas num só pé
+
+1. **A úlcera do pé diabético é puramente isquêmica** — recorta uma das três causas. Somam-se a neuropatia sensitiva, que apaga o alarme da dor e deixa o trauma repetir; a neuropatia autonômica, que reduz a sudorese, resseca a pele e abre fissuras; e a doença arterial periférica, que tira o aporte de oxigênio e antibiótico necessário para cicatrizar.
+2. **A neuropatia diabética é lesão direta do axônio pela glicose** — pula o vaso. Há dois mecanismos que se somam: a lesão microvascular dos **vasa nervorum**, que isquemia o nervo, e o dano metabólico direto por sorbitol e AGEs. O resultado é a queda de velocidade de condução.
+3. **Gangrena é sinônimo de infecção** — troca o achado. Gangrena é padrão morfológico de **necrose**, tipicamente isquêmica, comprometendo vários tecidos ao mesmo tempo; ela é dita úmida quando há infecção bacteriana superposta, e seca quando não há.
+4. **Charcot é infecção óssea** — a confusão de maior custo prático. A artropatia de Charcot é destruição **mecânica** de articulação insensível: sem dor e sem propriocepção, microtraumas repetidos desorganizam a arquitetura do médio-pé. A osteomielite é infecção da medular óssea. Coexistem, e a distinção decide entre imobilizar e operar/antibioticar.
+5. **A radiografia resolve o diagnóstico de osteomielite** — superestima o método. A radiografia só mostra alteração depois de perda óssea significativa, com atraso de uma a duas semanas; a ressonância magnética detecta o edema da medular óssea muito antes, com alto sinal em T2 com saturação de gordura e realce após contraste.
+6. **O diabético cicatriza mal só por isquemia** — esquece a matriz. A reticulação do colágeno por AGEs, a disfunção de neutrófilo e macrófago em hiperglicemia e a redução de fatores de crescimento também travam o reparo, mesmo com perfusão preservada.
+
+## 3.4 Macroangiopatia: aterosclerose acelerada e como se procura por ela
+
+1. **O infarto acontece quando a placa cresceu até fechar o vaso** — o erro clássico de estenose. A maioria dos eventos agudos vem de **ruptura de placa vulnerável**, com núcleo lipídico grande e capa fibrosa fina, muitas vezes pouco estenosante; a exposição do conteúdo dispara trombose que oclui em minutos.
+2. **Diabetes acelera a aterosclerose só pela dislipidemia** — recorta a causa. Somam-se LDL glicada captada por *scavenger*, disfunção endotelial por inativação do NO, estado pró-inflamatório via RAGE e estado pró-coagulante com mais fator tecidual e PAI-1 e menos fibrinólise.
+3. **A tríade de Virchow no diabético é estase** — troca o eixo. O que predomina é **lesão endotelial** e alteração de fluxo por **turbulência** sobre a placa, mais hipercoagulabilidade; estase é o eixo de trombose venosa por imobilidade, cenário diferente.
+4. **O escore de cálcio mostra a obstrução** — pede ao exame o que ele não faz. O escore de cálcio é feito **sem contraste**, sincronizado ao eletrocardiograma, e quantifica calcificação com atenuação acima de 130 unidades Hounsfield: ele mede carga de doença, não o grau de estenose nem a luz.
+5. **A angiotomografia substitui o cateterismo** — ignora o desenho do exame. A angiotomografia tem especificidade alta e valor preditivo negativo próximo de 100%, então serve para **excluir** doença em probabilidade pré-teste baixa a intermediária; quantifica estenose com menos precisão e não trata. Diante de lesão grave, o paciente vai para o cateterismo.
+6. **Área hipoatenuante na tomografia de crânio é hemorragia** — inverte a densidade. Sangue agudo é **hiperatenuante** (mais branco); a área isquêmica é hipoatenuante (mais escura), porque o edema citotóxico aumenta o conteúdo de água do tecido.
+7. **Pedir angiotomografia em paciente com alta probabilidade pré-teste é a conduta mais segura** — confunde segurança com utilidade. Com probabilidade pré-teste alta, um exame negativo não convence e um positivo levaria ao cateterismo de qualquer forma; o exame não muda a conduta e apenas adiciona radiação e contraste.

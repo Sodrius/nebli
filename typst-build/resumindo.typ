@@ -1,33 +1,33 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("O que a inflamação é",
-   [Resposta do tecido *vascularizado* a qualquer estímulo lesivo — infarto, cristal e trauma inflamam sem micróbio. Protetora por projeto e lesiva por consequência, porque o arsenal não distingue parede microbiana de tecido próprio. Sem inflamação não há reparo.]),
+  ("Um defeito de sinal, dois caminhos",
+   [O receptor de insulina é uma tirosina-quinase que traz vesículas prontas de GLUT-4 à membrana e, além de abrir a porta, freia lipólise, gliconeogênese e proteólise. No tipo 1 a ilhota é destruída por autoimunidade e a fonte desse sinal acaba; no tipo 2 o sinal chega e a célula não responde, com insulina normal ou *alta* por anos. A hiperglicemia é o resultado comum de dois defeitos opostos.]),
 
-  ("Reconhecer sem nunca ter visto",
-   [Os receptores de padrão vêm prontos da linhagem germinativa e não deixam memória. Leem estruturas conservadas de micróbio (PAMP) e moléculas próprias fora de lugar (DAMP). Ficam em três endereços — plasma, membrana, citosol — e o endereço informa *onde* o agente está.]),
+  ("Por que o tipo 1 cetoacidota",
+   [Sem insulina, a lipase hormônio-sensível fica livre e inunda o fígado de ácido graxo; a acetil-CoA gerada excede o ciclo de Krebs e vira cetoácido. No tipo 2 a insulina residual segura a lipólise — por isso ele descompensa como estado hiperosmolar, sem cetose.]),
 
-  ("Toll-like: o ligante segue a localização",
-   [Na superfície ficam os que leem parede e flagelo; no endossomo, os que leem ácido nucleico — reclusão que impede a leitura de ácido nucleico próprio. TLR4 precisa de CD14 e MD-2. Todos convergem em NF-κB, e como o produto é transcrição, o efeito leva horas.]),
+  ("O sintoma nasce no túbulo",
+   [Acima de cerca de 180 mg/dL a reabsorção tubular satura e a glicose fica no lúmen, retendo água por osmose. A poliúria vem primeiro, desidrata, eleva a osmolaridade e só então dispara a sede. O emagrecimento soma glicosúria, lipólise e proteólise.]),
 
-  ("Inflamassoma: dois sinais para uma citocina",
-   [O primeiro sinal fabrica pró-IL-1β inativa no citosol; o segundo (cristal, ATP, efluxo de K⁺, ROS) monta o NLRP3 e ativa a caspase-1, que corta o precursor. A mesma caspase corta a gasdermina D — o poro libera a citocina e mata a célula por piroptose.]),
+  ("Glicação em três etapas, com reversibilidade decrescente",
+   [Base de Schiff em horas e reversível; Amadori em dias e pouco reversível; ligação cruzada irreversível em semanas a meses. O tempo que a glicose passa alta define até onde a reação avança — e a proteína de vida longa é a que paga.]),
 
-  ("A hidráulica dos sinais cardinais",
-   [Vasodilatação arteriolar dá rubor e calor; o aumento de permeabilidade na *vênula pós-capilar* dá o edema. A perda de plasma concentra hemácias e freia o fluxo, e é essa estase que joga o leucócito contra a parede. A dor vem de bradicinina somada à PGE₂, que baixa o limiar do nociceptor.]),
+  ("Dois relógios do controle",
+   [A hemoglobina glicada integra 8 a 12 semanas porque a hemácia vive esse tanto; a frutosamina lê 2 a 3 semanas porque a albumina vive esse tanto. Onde a sobrevida da hemácia é anormal, o primeiro exame engana e o segundo resolve.]),
 
-  ("Sair do vaso em quatro tempos",
-   [A selectina freia mas não estaciona. A quimiocina presa ao glicocálix não puxa a célula para fora: ela estende a integrina, que agarra o ICAM. Segue adesão firme, diapedese por PECAM entre células endoteliais, e caminhada pelo gradiente de IL-8, C5a e LTB₄ já no tecido.]),
+  ("O AGE não só reticula: ele sinaliza",
+   [Ligado ao RAGE em monócito, endotélio e célula mesangial, ativa NF-κB e dispara citocinas, adesão e fator tecidual. A via aumenta a expressão do próprio receptor e o estresse oxidativo, que gera mais AGE — a alça que torna o dano auto-perpetuado.]),
 
-  ("Matar custa oxidante",
-   [Opsonizado por C3b e IgG, o alvo é engolido; a NADPH oxidase gera superóxido, a dismutação dá peróxido, a mieloperoxidase o converte em hipoclorito. Falhar no primeiro passo é a doença granulomatosa crônica. Neutrófilo nas primeiras horas, macrófago em 12–48 h, linfócito e eosinófilo após 72 h.]),
+  ("Quem adoece é quem não fecha a porta",
+   [Pericito, célula mesangial, endotélio, neurônio e cristalino captam glicose sem depender de insulina e não reduzem a entrada quando a glicemia sobe. Os órgãos-alvo do diabetes são esses tecidos, pelas rotas do poliol, da PKC, da hexosamina e do AGE.]),
 
-  ("Mediadores organizados pelo relógio",
-   [O que estava no grânulo age em segundos (histamina); o cortado de precursor plasmático, em minutos (bradicinina, C3a, C5a); o vindo de lipídio de membrana, em minutos a horas (prostanoides, leucotrienos); o que passa pelo núcleo, em horas (IL-1, IL-6, TNF-α).]),
+  ("A microangiopatia órgão a órgão",
+   [Retina: morte de pericito, microaneurisma e, na isquemia, neovaso frágil que sangra. Glomérulo: hiperfiltração que aumenta o rim, membrana basal espessa e mais permeável, albuminúria antes da creatinina, e rim reduzido e hiperecogênico no fim.]),
 
-  ("Complemento e araquidônico: onde a farmacologia entra",
-   [Três portas convergem na C3 convertase — C3b fica e opsoniza, C3a e C5a viajam e inflamam. Na via lipídica a fosfolipase A₂ é o passo limitante: o AINE bloqueia só a ciclo-oxigenase e desvia substrato para leucotrieno; o corticoide age acima e derruba os dois braços.]),
+  ("Três falhas fazem o pé diabético",
+   [A neuropatia sensitiva apaga o alarme da dor, a autonômica resseca a pele e abre fissuras, e a doença arterial periférica tira o aporte que cicatrizaria. Charcot é destruição mecânica de articulação insensível; osteomielite é infecção da medular — coexistem e exigem condutas opostas.]),
 
-  ("Parar é uma ação",
-   [A PGE₂ acumulada liga a 15-lipoxigenase e troca LTB₄ por lipoxinas, que bloqueiam o recrutamento. O neutrófilo entra em apoptose e é engolido inteiro pelo macrófago; essa eferocitose o reprograma para IL-10 e TGF-β. Matriz preservada, restituição integral; matriz destruída, fibrose.]),
+  ("A placa mata rompendo, e cada exame responde uma pergunta",
+   [Núcleo lipídico grande e capa fina se fissuram e expõem fator tecidual; o trombo oclui em minutos, mesmo em placa pouco estenosante. O escore de cálcio mede carga de placa, a angiotomografia exclui doença em risco intermediário, o cateterismo quantifica e trata.]),
 ))

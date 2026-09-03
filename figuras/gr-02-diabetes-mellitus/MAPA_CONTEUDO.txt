@@ -1,0 +1,51 @@
+# MAPA_CONTEUDO -- gr-02-diabetes-mellitus
+# Slide-fonte: GrandRound2-diabetes-aula.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: [VISUAL -- usar adjacente com titulo extraivel]
+slide-02: DIABETES MELLITUS DEFINIÇÃO Grupo de doenças metabólicas caracterizadas por hiperglicemia, devido a defeito na secreção de insulina, na sua ação, ou ambos. Tipo 1 – Dependente de Insulina. Tipo 2- Não dependente de insulina.
+slide-03: Predomínio em idade < 20 anos Deficiência absoluta de insulina (destruição auto-imune) Indivíduo magro Sintomas: polidipsia, poliúria, polifagia e emagrecimento Descompensação tipo cetoacidose Herança associada ao sist. HLA Predomínio em idade...
+slide-04: Tipo 1 – Dependente de Insulina Deficiências das células beta do pâncreas. Susceptibilidade genética, reação auto-imune que destrói as células beta. Requerem : Administrações diárias de insulina Dieta rigorosa Exercícios Sobrevida pode ser diminuída ...
+slide-05: Tipo 1 – Dependente de Insulina. Semelhante ao Jejum Deficiência de insulina impede o aproveitamento de glicose Não há inibição da síntese de glucagon pela insulina Hiperglucagonemia, que agrava a hiperglicemia.
+slide-06: Razão insulina/ glucagon baixa Gliconeogênese acentuada, lipólise, proteólise, corpos cetônicos. Cetoacidose, balanço nitrogenado negativo. Carência celular de glicose e amino-acidos. Hiperglicemia leva a uma hiperosmolaridade aumenta a sobrecarga re...
+slide-07: Tipo 2- Não dependente de insulina Resistência à insulina. Secreção deficiente de insulina. Responsável por mais de 90% dos casos de diabetes (afeta 18% da população acima de 65 anos e geralmente ocorre em obesos). Predisposição genética. Podem ter n...
+slide-08: Inibição da entrada de glicose (músculo e tecido adiposo) Glicemia estimula a secreção de insulina porém os níveis de glicose permanecem altos. Estimulação crônica das células beta levam à sua falência e à secreção deficiente do hormônio. Associada à...
+slide-09: [VISUAL -- usar adjacente com titulo extraivel]
+slide-10: [VISUAL -- usar adjacente com titulo extraivel]
+slide-11: DEFEITOS METABÓLICOS NA DM TIPO 2
+slide-12: [VISUAL -- usar adjacente com titulo extraivel]
+slide-13: Tratamento para o tipo 2 No começo pode ser tratada pela dieta e exercício. Diminuindo a necessidade do corpo para insulina. Antidiabéticos (hipoglicemiantes) orais tem diversas ações como: redução da produção de glicose pelo fígado, promover a absor...
+slide-14: [VISUAL -- usar adjacente com titulo extraivel]
+slide-15: Advanced Glycated End Products
+slide-16: Advanced Glycated End Products • Ligação a polipeptídios – colágeno • Ligação a proteínas não glicosiladas (LDL, Ig, Complemento) • Resistência à digestão protéica • Induz à oxidação lipídica • Inativação do Óxido Nítrico • Ligação aos ácidos nucléic...
+slide-17: Advanced Glycated End Products
+slide-18: Advanced Glycated End Products Nihalani D, Susztak N, Sirt1–Claudin-1 crosstalk regulates renal function, Nature Medicine 2013
+slide-19: Advanced Glycated End Products • Ligação dos AGEs aos receptores de monócitos e células mesenquimais: • Migração dos monócitos • Secreção de citoquinas e fatores de crescimento • Aumento da permeabilidade vascular • Aumento da atividade pró-coagulant...
+slide-20: Efeitos Combinados Adicionais • Nervos • Queda da Velocidade de condução • Rim • Aumento da filtração glomerular • Retina • Permeabilidade vásculo-retiniana aumentada • Músculo • Aumento da contratilidade - Hipertensão
+slide-21: [VISUAL -- usar adjacente com titulo extraivel]
+slide-22: Alterações Oculares • Aumento Permeabilidade de vasos retinianos – hemorragia – descolamento de retina / glaucoma • Fragilidade de vasos - microaneurismas
+slide-23: Alterações Oculares • 1º - Retinopatia • microaneurismas • exsudatos e hemorragias • retinite proliferante • 2º - Cataratas • 3º - Alterações da iris • 4º - Alterações da refração e acomodação • 5º - Neurite óptica com atrofia de papila
+slide-24: Alterações Oculares
+slide-25: Nefropatia Diabética • Aumento permeabilidade da MB – albuminúria / esclerose glomerular • Hialinização arteriolar – hipertensão arterial • Predisposição a infecções - pielonefrite
+slide-26: Nefropatia Diabética
+slide-27: Pé Diabético • Aterosclerose periférica – isquemia • Alteração vascular dos nervos periféricos + alterações de bomba - neuropatia • Alterações do sistema de coagulação e recorrência das lesões
+slide-28: [VISUAL -- usar adjacente com titulo extraivel]
+slide-29: [VISUAL -- usar adjacente com titulo extraivel]
+slide-30: Diabetes e Suas Complicações Alterações Metabólicas Processos patológicos Secundários Alterações Funcionais Alterações Patológicas Precoces Modificações Progressivas Processos patológicos Auto-perpetuadores Manifestações Clínicas
+slide-31: Diabetes e Suas Complicações
+slide-32: Diabetes – Principais achados Radiológicos 1. Nefropatia do Diabetes 2. Aterosclerose -> Coronariopatia, AVC, Aortopatia, DAOP 3. Artropatia de Charcot 4. Osteomielite
+slide-33: Nefropatia do Diabetes ● Início da doença: ○ Aumento volumétrico dos rins ● Estágio final: ○ Redução volumétrica ○ Afilamento cortical ○ Aumento da ecogenicidade Normal Aumentado – estágio inicial Reduzido – estágio final
+slide-34: Aterosclerose Créditos da imagem - Dr Walter Ishikawa Aterosclerose: longo período assintomático de latência Tratamento é mais efetivo no início diagnóstico precoce Miocárdio infartado x isquêmico x viável Prognóstico Resposta a tratamento
+slide-35: Aterosclerose Score de Cálcio AngioTC de coronárias Detecção e quantificação de aterosclerose subclínica Estudo angiográfico coronariano não invasivo
+slide-36: Score de Cálcio Protocolo: Cortes realizados no plano axial, espessura de 3 mm, sem sobreposição ou gaps, limitados à área cardíaca, adquiridos em sincronização com o ECG de forma prospectiva (em um momento pré-determinado do intervalo R-R, geralment...
+slide-37: AngioTC de Coronárias • Estudo angiográfico coronariano não invasivo (tem radiação e contraste) • Indicação: • paciente sintomático com probabilidade baixa ou intermediária de DAC (doença arterial coronariana) • possível situação de exceção: assintom...
+slide-38: AngioTC de Coronárias Sensibilidade <<< CATE Especificidade ALTA (VPN ~ 100%) EXCLUIR DOENÇA Menos precisa para quantificar estenoses Se detectar lesão grave, paciente irá para CATE Se a probabilidade pré-teste for alta, TC não terá utilidade
+slide-39: Angiocoronariografia invasiva Padrão-ouro para o estudo de estenoses coronárias Detecta e quantifica precisamente os locais de estenose Permite tratamento Invasivo - risco baixo porém existente. Estudos prospectivos de angiografias eletivas - exames ...
+slide-40: AVC Normal Mais escuro = AVC
+slide-41: [VISUAL -- usar adjacente com titulo extraivel]
+slide-42: Artropatia de Charcot Destruição e erosão progressiva da articulação Neuropatia diabética: Perda de sensação dolorosa e propriocepção - > traumas e lesões recorrentes Radiografia do antepé Radiografia do mediopé Radiografia do retropé
+slide-43: Osteomielite RM T1 RM T2 FS RM T1 C+ Radiografia do antepé Infecção óssea, envolvendo a medular óssea
