@@ -154,6 +154,15 @@ Pedido de 2026-05-22. Pipeline que, dado conteúdo de prova segundo cronograma, 
 
 ## § Histórico de decisões canônicas
 
+### 2026-09-04 · `pat-07-inflamacao-aguda` — 1ª corrida nativa sob o registro científico
+
+Primeiro resumo **redigido do zero** já sob o `CLAUDE.md` § Registro científico (o `gr-02` v2 foi regeração). Fechou dentro das quatro réguas sem correção: **10 subtópicos** (3 + 4 + 3), **5.677 palavras** de miolo, **15 páginas** de E1 no teto, e **10,2 palavras** de média nas alternativas de Consolidação. Nenhum gate precisou de escape — sem `--quebra-declarada`, sem `--legado`, sem `--no-paridade`.
+
+- **Conta para o decaimento** das duas entradas de peso alto do § Diário (registro científico de 2026-09-03 e economia de palavra de 2026-08-31): é a 1ª de 2 corridas seguidas dentro das réguas exigidas para a primeira sair do diário, e a 1ª de 5 para a segunda.
+- **Calibração UC03 aplicada** (passo 2b do `/resumo`): 18 subquestões de 2016 a 2025 fixaram o teto histórico; o degrau declarado no Tema Card foi *por que o padrão morfológico é consequência do agente e do tecido*, exatamente a linha que o `CALIBRACAO.md` prevê para o slug.
+- **Corrida remota:** `typst` e `poppler-utils` não vêm no container (armadilha `ERROS.md` #22, que se confirmou de novo). Instalados na sessão; o `apt-get install poppler-utils` só funciona **depois** de `apt-get update` — vale acrescentar isso à receita do #22 se a armadilha reincidir.
+- **Deck-aula NÃO fechado.** O AnkiConnect vive em `localhost` da máquina do Davi e é inalcançável de sessão na nuvem, então os passos 11a–11h do `/resumo` (curadoria AnKing, NEBLIcards autorais, `gate_deck_aula_completo.py --verify-anki`) ficaram pendentes para uma sessão local. O aprofundamento da E1 nasceu do acervo de provas + Robbins, como o canônico prevê para "sem Anki vivo".
+
 ### 2026-09-03 · Registro científico (canonização de diretiva do Davi)
 
 Davi: *"canoniza e mergeia a seguinte indicação: usar uma linguagem mais técnica e cientificamente adequada, sem perder a fluidez e o tom didático, mas fazê-lo com mais rigor. (...) mais sucinta e que dispensa baboseiras, como frases sem nenhum valor. O objetivo é ser uma apostila de alto nível científico."*
