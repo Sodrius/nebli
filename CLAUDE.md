@@ -24,6 +24,8 @@ Pedido de Davi, e passa a governar a voz de **todo resumo NEBLI**: *"usar uma li
 
 **O que o filtro NÃO autoriza cortar** (continua valendo `ANTI-EXEMPLARES.md` A2/A3): o elo causal do meio, a retomada de pré-requisito em 1–2 frases, o "porquê" por baixo do fato, e a camada que explica por que uma segunda camada de regulação existe. Cortar mecanismo para caber é o erro oposto, e é pior.
 
+**O que é gate e o que é julgamento (endurecido 2026-09-03).** As três consequências abaixo **bloqueiam o pipeline**, não são convite: `precompile-check.py` (antes de compilar) exige **8–10 subtópicos**, **miolo ≤ 6.000 palavras** e **alternativas de Consolidação com média ≤ 20 palavras**; `pos_pipeline_check.py` (antes de mover o PDF) exige **E1 ≤ 15 páginas**, com escape `--quebra-declarada "motivo"` para a exceção que a § Missão permite. O *registro* em si — jargão na mesma frase, filtro das três funções — **não é gateável**: padrões lexicais de baboseira foram testados contra três resumos reais (incluindo o que Davi marcou como inflado) e não acusaram nada em nenhum. O que os gates travam é o **sintoma** do registro frouxo, que é a inflação; a qualidade da frase continua sendo julgamento declarado no Tema Card e no relatório de fechamento.
+
 **As três consequências que Davi derivou desta mudança:**
 - **Teto da E1 cai de 22 para 15 páginas.** Formato-alvo 3 PARTES × 3 subtópicos; 8–10 subtópicos no total, 450–550 palavras cada, ~5.000–5.500 palavras de miolo. Doze ou mais subtópicos só cabem espremendo cada um a ~380 palavras, o que costuma custar mecanismo — nesse caso **funda subtópicos irmãos** em vez de comprimir todos.
 - **Profundidade padronizada em "superior à da prova".** Ver § Profundidade elevada, item 1.

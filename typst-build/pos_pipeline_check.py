@@ -148,11 +148,60 @@ def check_paginas_em_branco(pdf_path: Path) -> tuple[bool, str]:
         return False, "pdftotext indisponivel -- pulando"
 
 
+def check_paginas_e1(texto: str) -> tuple[bool, str]:
+    """Teto de 15 paginas da E1 -- BLOQUEIO desde 2026-09-03.
+
+    Ate aqui o teto era so aviso (linha 7 da tabela de checks do ERROS.md dizia
+    "manual") e, na pratica, ninguem conferia: `imuno-07` fechou com 25 paginas
+    e `gr-02` v1 com 18, ambos em silencio. Aqui ele passa a impedir que o PDF
+    seja movido para `resumos-gerados/`.
+
+    A § Missao continua permitindo estourar o teto quando ensinar bem exigir --
+    mas agora a excecao tem de ser DECLARADA, com `--quebra-declarada "motivo"`.
+    Excecao silenciosa deixou de existir.
+
+    Delimitacao: pagina do banner `Etapa 1` ate a pagina anterior ao banner
+    isolado `Resumindo`. Mesma ancora do auditar_pdf.
+    """
+    TETO = 15
+    if not texto:
+        return False, "sem texto extraido -- teto de paginas nao verificado"
+    paginas = texto.split("\f")
+    pag_e1 = pag_res = None
+    for i, pg in enumerate(paginas, 1):
+        if pag_e1 is None and re.search(r"^[ \t]*Etapa 1\b", pg, re.MULTILINE):
+            pag_e1 = i
+            continue
+        if pag_e1 is not None and re.search(r"^[ \t]*Resumindo[ \t]*$", pg, re.MULTILINE):
+            pag_res = i
+            break
+    if pag_e1 is None or pag_res is None or pag_res <= pag_e1:
+        return False, "nao consegui delimitar a E1 (banner ausente) -- conferir a olho"
+    n = pag_res - pag_e1
+    if n <= TETO:
+        return False, f"E1 com {n} paginas (teto {TETO})"
+    return True, (f"E1 com {n} paginas contra o teto canonico de {TETO} "
+                  f"(CLAUDE.md § Registro cientifico). Aplicar as alavancas do ERROS.md F4 "
+                  f"nesta ordem: (1) filtro das tres funcoes, (2) fundir subtopicos irmaos "
+                  f"ate 8-10, (3) max 2 boxes pesados por PARTE, (4) figuras 50-55%. "
+                  f"Se o tema realmente exigir o estouro, rodar com "
+                  f'--quebra-declarada "motivo" e registrar a quebra no relatorio final.')
+
+
 def main():
-    if len(sys.argv) < 2:
-        print("Uso: pos_pipeline_check.py <pdf>")
+    args = [a for a in sys.argv[1:]]
+    quebra = None
+    if "--quebra-declarada" in args:
+        i = args.index("--quebra-declarada")
+        if i + 1 >= len(args) or args[i+1].startswith("--"):
+            print("x --quebra-declarada exige o motivo entre aspas.")
+            return 1
+        quebra = args[i+1]
+        del args[i:i+2]
+    if not args:
+        print('Uso: pos_pipeline_check.py <pdf> [--quebra-declarada "motivo"]')
         return 1
-    pdf_path = Path(sys.argv[1])
+    pdf_path = Path(args[0])
     if not pdf_path.exists():
         print(f"x PDF nao encontrado: {pdf_path}")
         return 1
@@ -175,6 +224,7 @@ def main():
         ("Markdown bold vazado", check_markdown_bold(texto)),
         ("Numeracao de pagina", check_numeracao(pdf_path, texto)),
         ("Paginas em branco", check_paginas_em_branco(pdf_path)),
+        ("Teto de 15 paginas da E1", check_paginas_e1(texto)),
     ]
 
     okays = []
@@ -182,7 +232,10 @@ def main():
     bloqueios = []
     for nome, (problema, msg) in checks:
         if problema:
-            if nome in ("ETAPA 4 fossil", "Bloco/Prova na capa"):
+            if nome == "Teto de 15 paginas da E1" and quebra:
+                avisos.append(f"  [!] {nome}: {msg}\n      QUEBRA DECLARADA: {quebra}")
+            elif nome in ("ETAPA 4 fossil", "Bloco/Prova na capa",
+                          "Teto de 15 paginas da E1"):
                 bloqueios.append(f"  [x] {nome}: {msg}")
             else:
                 avisos.append(f"  [!] {nome}: {msg}")

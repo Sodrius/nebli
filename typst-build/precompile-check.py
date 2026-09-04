@@ -979,6 +979,131 @@ def check_ce_quatro_itens(content, fname):
     return erros
 
 
+# ============================================================
+# Forma canonica da E1 e da Consolidacao (CANON 2026-09-03)
+# ============================================================
+
+def _palavras_typ(s):
+    """Mesma formula usada pelo auditar_pdf: remove tokens `#helper` e conta
+    palavras que tenham letra. Calibrada -- no gr-02 v2 deu 4770 no .typ
+    contra 4840 extraidas do PDF."""
+    limpo = re.sub(r"#[\w-]+", "", s)
+    return len([w for w in re.split(r"\s+", limpo) if any(ch.isalpha() for ch in w)])
+
+
+def check_forma_e1(content, fname):
+    """Trava a forma da E1 no formato canonico de 2026-09-03.
+
+    Por que estes numeros e nao outros: sao os que DISCRIMINAM. Medidos nos
+    tres resumos reais que existiam quando a regra nasceu --
+
+        imuno-07 (Davi marcou como inflado)  10.147 palavras, 14 subtopicos, 25 paginas
+        gr-02 v1 (canonico antigo)            6.852 palavras, 12 subtopicos, 18 paginas
+        gr-02 v2 (registro cientifico)        4.770 palavras, 10 subtopicos, 13 paginas
+
+    Padroes lexicais de "baboseira" (`vale notar`, `e fundamental compreender`,
+    `chamado X` para jargao adiado) foram testados contra os tres e nao
+    acusaram NADA em nenhum -- nao servem de gate e nao estao aqui. O sintoma
+    auditavel do registro frouxo e a inflacao; e ela que se trava.
+    """
+    errors, warnings = [], []
+
+    # --- numero de subtopicos ---
+    n_sub = len(re.findall(r"#subtopico\(", content))
+    if n_sub < 8 or n_sub > 10:
+        errors.append(
+            f"  x {fname}: {n_sub} subtopicos -- o formato canonico e 3 PARTES x 3, "
+            f"entre 8 e 10 no total (CLAUDE.md § Registro cientifico, 2026-09-03). "
+            f"Acima de 10, FUNDA subtopicos irmaos em vez de comprimir todos "
+            f"(ERROS.md F4, alavanca 2).")
+    else:
+        print(f"  subtopicos: {n_sub} (canonico 8-10)")
+
+    # --- miolo total ---
+    n = _palavras_typ(content)
+    if n > 6000:
+        errors.append(
+            f"  x {fname}: {n} palavras de miolo -- acima do teto operacional de 6000, "
+            f"que corresponde as 15 paginas do canonico. Aplicar as alavancas do "
+            f"ERROS.md F4 nesta ordem: (1) filtro das tres funcoes, (2) fundir "
+            f"subtopicos irmaos, (3) max 2 boxes pesados por PARTE, (4) figuras 50-55%.")
+    elif n > 5400:
+        warnings.append(f"  ! {fname}: {n} palavras de miolo -- alvo 4800-5500; "
+                        f"conferir se ha frase sem funcao antes de compilar.")
+    elif n < 2500:
+        warnings.append(f"  ! {fname}: {n} palavras de miolo -- abaixo de 2500; "
+                        f"conferir se a E1 nao ficou rasa para o teto historico da prova.")
+    else:
+        print(f"  palavras de miolo: {n} (alvo 4800-5500, teto 6000)")
+
+    # --- subtopico individual gigante ---
+    segs = re.split(r"(?=#subtopico\()", content)
+    for seg in segs[1:]:
+        m = re.search(r'#subtopico\("([^"]+)"', seg)
+        if not m:
+            continue
+        w = _palavras_typ(seg)
+        if w > 900:
+            errors.append(
+                f"  x {fname}: subtopico `{m.group(1)[:44]}` com {w} palavras -- "
+                f"acima de 900 e sinal de que sao dois subtopicos num so. "
+                f"Alvo 450-550 (tabela dentro do subtopico infla a contagem).")
+        elif w > 650 or w < 300:
+            warnings.append(f"  ! {fname}: subtopico `{m.group(1)[:44]}` com {w} palavras "
+                            f"(alvo 450-550).")
+    return errors, warnings
+
+
+def check_consolidacao_decoreba(content, fname):
+    """Consolidacao da E2 e decoreba desde 2026-09-03 (pedido de Davi).
+
+    Recall direto com alternativas CURTAS -- 10 a 20 palavras. A metrica
+    discrimina limpo: no gr-02 a media das alternativas de Consolidacao caiu de
+    29,3 palavras (v1, angulo "Por que/Como") para 11,4 (v2, decoreba).
+
+    A banda de paridade 0.80-1.25 continua valendo, medida ENTRE alternativas
+    curtas; o que nao vale mais e inflar distratora ate 25-35 palavras nesta
+    categoria (ERROS.md #1).
+    """
+    errors, warnings = [], []
+    starts = [(m.start(), m.group(1)) for m in re.finditer(r'#questao-mc\("(\d+)"', content)]
+    medias, maiores = [], []
+    for i, (pos, num) in enumerate(starts):
+        fim = starts[i+1][0] if i+1 < len(starts) else len(content)
+        bloco = content[pos:fim]
+        if "badge-consolidacao" not in bloco:
+            continue
+        alts = []
+        for m in re.finditer(r'\(\s*"[A-E]"\s*,\s*\[', bloco):
+            s = m.end(); d = 1; k = s
+            while k < len(bloco) and d > 0:
+                if bloco[k] == "[": d += 1
+                elif bloco[k] == "]": d -= 1
+                k += 1
+            alts.append(count_words(bloco[s:k-1]))
+        if alts:
+            medias.append((num, sum(alts)/len(alts)))
+            maiores.append((num, max(alts)))
+    if not medias:
+        return errors, warnings
+    media_geral = sum(m for _, m in medias) / len(medias)
+    pior_num, pior = max(maiores, key=lambda t: t[1])
+    if media_geral > 20:
+        errors.append(
+            f"  x {fname}: alternativas de Consolidacao com media de {media_geral:.1f} "
+            f"palavras -- a Consolidacao e DECOREBA desde 2026-09-03 e pede alternativas "
+            f"de 10 a 20 palavras, com a distratora sendo a entidade vizinha errada "
+            f"(o outro transportador, o outro valor de corte), nao um paragrafo de "
+            f"mecanismo plausivel-errado. Ver ROLES.md § Questionador § Consolidacao.")
+    elif pior > 26:
+        warnings.append(f"  ! {fname}: Q{pior_num} tem alternativa de Consolidacao com "
+                        f"{pior} palavras (alvo 10-20).")
+    else:
+        print(f"  consolidacao-decoreba: media {media_geral:.1f} palavras por alternativa "
+              f"(alvo 10-20), maior {pior}")
+    return errors, warnings
+
+
 def check_file(path):
     fname = path.name
     if not path.exists():
@@ -1037,6 +1162,14 @@ def check_file(path):
     # C/E sempre 4 itens (canonico 2026-07-01) -- so etapa2.typ
     if fname == "etapa2.typ":
         errors.extend(check_ce_quatro_itens(content, fname))
+        # Consolidacao decoreba (canonico 2026-09-03)
+        e_cd, w_cd = check_consolidacao_decoreba(content, fname)
+        errors.extend(e_cd); warnings.extend(w_cd)
+
+    # Forma canonica da E1 (canonico 2026-09-03): 8-10 subtopicos, miolo <= 6000
+    if fname == "etapa1.typ":
+        e_fe, w_fe = check_forma_e1(content, fname)
+        errors.extend(e_fe); warnings.extend(w_fe)
 
     # "Antes da aula" -- gate hard (canonico 2026-08-29)
     if fname == "pre-aula.typ":

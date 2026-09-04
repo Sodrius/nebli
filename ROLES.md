@@ -119,6 +119,8 @@ Negrito didático tem cota: máx 2–3 por parágrafo, marcando o conceito que o
 
 **2. Tamanho (revisto 2026-09-03).** Piso 2, **teto 15 páginas**. Formato-alvo 3 PARTES × 3 subtópicos: 8–10 subtópicos no total, **450–550 palavras cada**, ~5.000–5.500 palavras de miolo. Quando o tema pede mais de 10 subtópicos, **funda irmãos** em vez de espremer todos — compressão uniforme custa mecanismo. Completude ainda vence o teto, mas só depois de os cinco desperdícios do `ERROS.md` F10 e o filtro das três funções (`CLAUDE.md` § Registro científico) terem sido aplicados; a quebra vai declarada no relatório.
 
+**Isto é gate, não convite (2026-09-03).** `precompile-check.py` bloqueia a compilação fora de 8–10 subtópicos ou acima de 6.000 palavras de miolo; `pos_pipeline_check.py` bloqueia mover o PDF acima de 15 páginas de E1. A exceção da § Missão continua existindo, mas passou a exigir `--quebra-declarada "motivo"` — estouro silencioso não é mais possível.
+
 **3. Jargão exato, definido na mesma frase (revisto 2026-09-03 — ver `CLAUDE.md` § Registro científico).** O termo técnico correto entra **junto** da definição, não depois dela e nunca substituído por perífrase: "a glicose forma com a enzima um *thiohemiacetal*, ligação covalente temporária que segura o substrato durante a oxidação". Abrir pelo mecanismo continua; adiar o nome, não — perífrase que evita o termo é perda de rigor. Retomar pré-requisito em 1–2 frases continua obrigatório. Aprofundamento por camadas: porquê cru → nuance → exceção → clínica.
 
 **4. Mini-resumos.** Em parágrafos >5 linhas, inserir `#mini-resumo[X causa Y → consequência Z]` no meio. Sem piadas, sem mnemônicos forçados.
@@ -283,6 +285,8 @@ Davi: *"quero as de consolidação bem decorebas"*. A diretriz de 2026-05-28, qu
 | "Quais componentes formam o DISC?" | "Por que o DISC precisa de adaptador entre receptor e pró-caspase-8?" |
 
 **Consequência sobre a redação das alternativas.** Como a pergunta é de recall, as cinco alternativas ficam **curtas — 10 a 20 palavras** — e a distratora é a entidade vizinha errada (a outra enzima, o outro compartimento, o número imediatamente acima ou abaixo), não um parágrafo de mecanismo plausível-errado. A **banda de paridade 0.80–1.25 continua valendo**, agora medida entre alternativas curtas; a regra de "25–35 palavras por distratora" vale para Integração e Aplicação, não para Consolidação. Inflar distratora de decoreba com prosa vazia é exatamente o que o `ERROS.md` #1 proíbe.
+
+**Isto é gate (2026-09-03).** `precompile-check.py` bloqueia a compilação quando a média das alternativas de Consolidação passa de 20 palavras. A métrica discrimina limpo: no `gr-02` ela caiu de 29,3 (v1, ângulo "Por que/Como") para 11,4 (v2, decoreba).
 
 **C/E de Consolidação:** os quatro itens continuam existindo e seguem a mesma lógica — assertivas curtas de fato verificável, com a falsa trocando um nome, um número ou uma ordem. A pegadinha mecanística fina migra para os C/E de Integração.
 

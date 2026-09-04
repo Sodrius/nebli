@@ -169,6 +169,22 @@ Davi: *"canoniza e mergeia a seguinte indicação: usar uma linguagem mais técn
 - **O teto de páginas deixou de ser manual.** `check_paginas_e1` conta as páginas entre o banner da Etapa 1 e o banner do Resumindo e avisa acima de 15. É warn, não bloqueio — coerente com a linha 7 da tabela de checks e com a § Missão. Validado no `GR-02`, que acusa corretamente as suas 18 páginas.
 - **Não aplicado retroativamente.** O `GR-02-DIABETES-MELLITUS.pdf` fechado nesta mesma sessão nasceu sob o canônico antigo (18 páginas de E1, 12 subtópicos, Consolidação com ângulo "Por que/Como"). Regerar sob o registro novo é decisão do Davi.
 
+### 2026-09-03 · O registro científico vira GATE (pedido: "garante que os próximos sairão nesse padrão com certeza")
+
+Davi pediu garantia. A resposta honesta é que promessa não garante nada — o teto de 22 páginas existia desde 2026-05-25 e foi estourado em silêncio em `imuno-07` (25) e em `gr-02` v1 (18), porque a linha 7 da tabela de checks dizia "manual" e ninguém conferia. Só trava o que bloqueia.
+
+**Três gates novos, todos testados regressivamente contra os resumos que deveriam reprovar:**
+
+| Gate | Onde | Bloqueia | `imuno-07` | `gr-02` v1 | `gr-02` v2 |
+|---|---|---|---|---|---|
+| `check_forma_e1` | precompile | 8–10 subtópicos · miolo ≤ 6.000 palavras · nenhum subtópico > 900 | REPROVA (14 subt · 10.147 · 1.320) | REPROVA (12 subt · 6.852 · 995) | passa (10 · 4.770) |
+| `check_consolidacao_decoreba` | precompile | média das alternativas de Consolidação ≤ 20 palavras | — | REPROVA (29,3) | passa (11,4) |
+| `check_paginas_e1` | pos_pipeline | E1 ≤ 15 páginas, agora como **bloqueio de mover o PDF** | REPROVA (25) | REPROVA (18) | passa (13) |
+
+- **A exceção da § Missão sobrevive, mas deixa de ser silenciosa:** `pos_pipeline_check.py --quebra-declarada "motivo"` converte o bloqueio em aviso e imprime o motivo no relatório. Testado nos dois sentidos (exit 1 sem o escape, exit 0 com ele).
+- **O que NÃO virou gate, e a razão.** Escrevi padrões lexicais de baboseira (`vale notar`, `é fundamental compreender`) e de jargão adiado (`(chamado X)`) e rodei contra os três resumos: **zero ocorrências em todos**, inclusive no que Davi marcou como inflado. Não discriminam nada e não foram implementados — seriam teatro de verificação. O que os gates travam é o *sintoma* do registro frouxo, que é a inflação; a qualidade da frase continua sendo julgamento, declarado no Tema Card e no relatório de fechamento.
+- **Risco residual conhecido:** os gates são de forma, não de voz. Uma E1 com 9 subtópicos, 4.900 palavras e 14 páginas pode, ainda assim, adiar jargão e encher linha. O contrapeso é o § Registro científico ser lido no início de toda corrida e a Seção A do Tema Card declarar as réguas — mais o `revisor-didatico`, que volta a ser spawnável a partir da próxima sessão com o frontmatter corrigido.
+
 ### 2026-09-03 · `gr-02-diabetes-mellitus` REGERADO sob o registro científico (v2)
 
 Davi pediu a regeração logo após a canonização. O resumo é o **primeiro gerado inteiramente sob o `CLAUDE.md` § Registro científico**, e serve de aferição das quatro réguas novas.

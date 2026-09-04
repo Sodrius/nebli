@@ -62,7 +62,19 @@
 
 **Como evitar:** Tema Card Seção A sempre declara "piso 2, **teto 15** páginas" (canônico 2026-09-03, era 22). Alvo mais estreito é permitido dentro disso ("alvo 11-14"), mas o teto absoluto é 15. O teto caiu junto com a mudança de registro (`CLAUDE.md` § Registro científico): 15 páginas é o que sobra quando a prosa perde as frases sem função, não um corte de conteúdo.
 
-**Deixou de ser manual em 2026-09-03.** O `auditar_pdf.py` ganhou `check_paginas_e1`, que conta as páginas entre o banner da Etapa 1 e o banner do Resumindo e **avisa** acima de 15 (não bloqueia — a `§ Missão` ainda permite estourar com a quebra declarada). Até aqui esta linha era "manual" na tabela de checks e, na prática, ninguém conferia: as corridas `imuno-07` e `gr-02` fecharam em 25 e 18 páginas sem que nenhum auditor dissesse nada.
+**Deixou de ser manual, e depois virou bloqueio (2026-09-03).** Primeiro o `auditar_pdf.py` ganhou `check_paginas_e1`, que conta as páginas entre o banner da Etapa 1 e o do Resumindo. Na mesma data, a pedido de Davi ("garante que os próximos sairão nesse padrão com certeza"), o mesmo check entrou no `pos_pipeline_check.py` como **bloqueio de mover o PDF**. A `§ Missão` continua permitindo estourar o teto quando ensinar bem exigir — mas a exceção passou a ser **declarada**, com `--quebra-declarada "motivo"`; exceção silenciosa deixou de existir. Motivo do endurecimento: enquanto a linha era "manual", as corridas `imuno-07` e `gr-02` v1 fecharam com 25 e 18 páginas sem que nenhum auditor dissesse nada.
+
+### 25 e 26. Forma da E1 e Consolidação decoreba — gates de 2026-09-03
+
+**Por que estes números.** São os que **discriminam**, medidos nos três resumos que existiam quando a regra nasceu:
+
+| Resumo | Palavras | Subtópicos | Páginas E1 | Média das alternativas de Consolidação |
+|---|---|---|---|---|
+| `imuno-07` (Davi marcou como inflado) | 10.147 | 14 | 25 | — |
+| `gr-02` v1 (canônico antigo) | 6.852 | 12 | 18 | 29,3 |
+| `gr-02` v2 (registro científico) | 4.770 | 10 | 13 | 11,4 |
+
+**O que NÃO virou gate, e por quê.** Padrões lexicais de baboseira (`vale notar`, `é fundamental compreender`) e de jargão adiado (`(chamado X)`) foram escritos e testados contra os três resumos acima: **não acusaram nada em nenhum**, inclusive no que Davi marcou como inflado. Não servem de gate e não foram implementados — seriam teatro de verificação. O sintoma auditável do registro frouxo é a inflação, e é ela que se trava.
 
 ### 8. Página em branco entre etapas (`#etapa-header` duplicado)
 
@@ -198,7 +210,9 @@ O `revisor-gabarito` (Haiku) existe para essa conferência; quando ele não pude
 | 4 | Heredoc ENAMETOOLONG | falha shell | usar Write | sim |
 | 5 | `questao-ce` string em vez de tupla | compilação Typst | não | sim |
 | 6 | Termo-notas < 6 | grep | não | warn |
-| 7 | Teto E1 > 15 páginas (era 22 até 2026-09-03) | auditar_pdf (`check_paginas_e1`) | não | warn |
+| 7 | Teto E1 > 15 páginas (era 22 até 2026-09-03) | pos_pipeline (`check_paginas_e1`) + auditar_pdf | não | **sim** (escape `--quebra-declarada`) |
+| 25 | E1 fora de 8-10 subtópicos ou miolo > 6.000 palavras | precompile (`check_forma_e1`) | não | sim |
+| 26 | Alternativas de Consolidação com média > 20 palavras (decoreba) | precompile (`check_consolidacao_decoreba`) | não | sim |
 | 8 | `#etapa-header` duplicado | precompile + auto-fix | SIM | sim |
 | 9 | Gabarito embaralhado | template fix + verificar_gabarito_resumo | não | sim |
 | 10 | "ETAPA 4" no PDF | pos_pipeline_check | não | sim |
