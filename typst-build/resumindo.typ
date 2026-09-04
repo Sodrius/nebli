@@ -1,33 +1,30 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("Um defeito de sinal, dois caminhos",
-   [O receptor de insulina é uma tirosina-quinase que traz vesículas prontas de GLUT-4 à membrana e, além de abrir a porta, freia lipólise, gliconeogênese e proteólise. No tipo 1 a ilhota é destruída por autoimunidade e a fonte desse sinal acaba; no tipo 2 o sinal chega e a célula não responde, com insulina normal ou *alta* por anos. A hiperglicemia é o resultado comum de dois defeitos opostos.]),
+  ("Padrão morfológico é consequência, não rótulo",
+   [O agente e o tecido decidem a forma. Agente piogênico contido faz abscesso — centro liquefeito com parede, que exige drenagem; agente que produz hialuronidase e estreptoquinase dissolve a barreira e faz flegmão, difuso e sem parede.]),
 
-  ("Por que o tipo 1 cetoacidota",
-   [Sem insulina, a lipase hormônio-sensível fica livre e inunda o fígado de ácido graxo; a acetil-CoA gerada excede o ciclo de Krebs e vira cetoácido. No tipo 2 a insulina residual segura a lipólise — por isso ele descompensa como estado hiperosmolar, sem cetose.]),
+  ("Exsudato indica barreira aberta",
+   [Proteína acima de 3 g/dL, densidade acima de 1020, desidrogenase láctica acima de 200 e células abundantes indicam permeabilidade aumentada, isto é, causa local. Os valores opostos indicam transudato, com endotélio íntegro e desequilíbrio de forças — causa sistêmica.]),
 
-  ("O sintoma nasce no túbulo",
-   [Acima de cerca de 180 mg/dL a reabsorção tubular satura e a glicose fica no lúmen, retendo água por osmose. A poliúria vem primeiro, desidrata, eleva a osmolaridade e só então dispara a sede. O emagrecimento soma glicosúria, lipólise e proteólise.]),
+  ("Os cinco sinais são leitura de eventos vasculares",
+   [Calor e rubor vêm da hiperemia por vasodilatação arteriolar; tumor é o exsudato acumulado; dor soma bradicinina e prostaglandina E₂ sensibilizando o nociceptor à distensão mecânica; perda funcional resulta da dor com o edema.]),
 
-  ("Glicação em três etapas, com reversibilidade decrescente",
-   [Base de Schiff em horas e reversível; Amadori em dias e pouco reversível; ligação cruzada irreversível em semanas a meses. O tempo que a glicose passa alta define até onde a reação avança — e a proteína de vida longa é a que paga.]),
+  ("Dilatação, permeabilidade e estase são três eventos",
+   [A arteríola dilata e aumenta o fluxo; a vênula pós-capilar abre junções e deixa sair proteína; a perda de plasma concentra hemácias, eleva a viscosidade e produz estase — que empurra o leucócito contra a parede e abre o recrutamento.]),
 
-  ("Dois relógios do controle",
-   [A hemoglobina glicada integra 8 a 12 semanas porque a hemácia vive esse tanto; a frutosamina lê 2 a 3 semanas porque a albumina vive esse tanto. Onde a sobrevida da hemácia é anormal, o primeiro exame engana e o segundo resolve.]),
+  ("Quatro modos de abrir a barreira",
+   [Contração endotelial em vênula, imediata e de minutos; lesão endotelial direta em qualquer vaso, com necrose da parede e duração de dias; lesão mediada por leucócito, tardia; e transcitose induzida pelo fator de crescimento endotelial vascular, através da célula.]),
 
-  ("O AGE não só reticula: ele sinaliza",
-   [Ligado ao RAGE em monócito, endotélio e célula mesangial, ativa NF-κB e dispara citocinas, adesão e fator tecidual. A via aumenta a expressão do próprio receptor e o estresse oxidativo, que gera mais AGE — a alça que torna o dano auto-perpetuado.]),
+  ("A adesão trabalha em duas afinidades",
+   [Selectina ligando Sialyl-Lewis X é ligação frouxa e reversível, que só freia — daí o rolamento. A quimiocina converte a integrina para alta afinidade, que se liga a ICAM-1 e VCAM-1 e prende. Sem a primeira não há freio; sem a segunda não há parada.]),
 
-  ("Quem adoece é quem não fecha a porta",
-   [Pericito, célula mesangial, endotélio, neurônio e cristalino captam glicose sem depender de insulina e não reduzem a entrada quando a glicemia sobe. Os órgãos-alvo do diabetes são esses tecidos, pelas rotas do poliol, da PKC, da hexosamina e do AGE.]),
+  ("TNF e interleucina-1 comandam local e sistêmico",
+   [No foco, induzem moléculas de adesão, quimiocinas e estado procoagulante do endotélio. Na circulação, produzem febre por prostaglandina E₂ hipotalâmica, leucocitose e proteínas de fase aguda; em excesso, hipotensão e coagulação difusa do choque séptico.]),
 
-  ("A microangiopatia órgão a órgão",
-   [Retina: morte de pericito, microaneurisma e, na isquemia, neovaso frágil que sangra. Glomérulo: hiperfiltração que aumenta o rim, membrana basal espessa e mais permeável, albuminúria antes da creatinina, e rim reduzido e hiperecogênico no fim.]),
+  ("Matar custa dano ao hospedeiro",
+   [A NADPH oxidase gera superóxido, que vira peróxido de hidrogênio e, pela mieloperoxidase com cloreto, hipoclorito. As mesmas enzimas e oxidantes, liberados na fagocitose frustrada e na regurgitação, degradam matriz e matam células vizinhas.]),
 
-  ("Três falhas fazem o pé diabético",
-   [A neuropatia sensitiva apaga o alarme da dor, a autonômica resseca a pele e abre fissuras, e a doença arterial periférica tira o aporte que cicatrizaria. Charcot é destruição mecânica de articulação insensível; osteomielite é infecção da medular — coexistem e exigem condutas opostas.]),
-
-  ("A placa mata rompendo, e cada exame responde uma pergunta",
-   [Núcleo lipídico grande e capa fina se fissuram e expõem fator tecidual; o trombo oclui em minutos, mesmo em placa pouco estenosante. O escore de cálcio mede carga de placa, a angiotomografia exclui doença em risco intermediário, o cateterismo quantifica e trata.]),
+  ("A cinética data o processo e o desfecho depende de três variáveis",
+   [Edema em horas, neutrófilo até 24 a 48 horas, macrófago a partir de 48. Agente removido, dano limitado e tecido regenerável levam à resolução; caso contrário, abscesso, fibrose por organização do exsudato, ou progressão para inflamação crônica.]),
 ))

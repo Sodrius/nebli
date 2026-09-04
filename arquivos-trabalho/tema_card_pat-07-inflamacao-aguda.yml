@@ -1,0 +1,67 @@
+slug: pat-07-inflamacao-aguda
+titulo: "Inflamação aguda"
+subtitulo: "Patologia geral"
+meta:
+  - ["Disciplina", "Patologia geral"]
+  - ["Onde estudar", "Robbins & Cotran, Patologia — Bases Patológicas das Doenças, capítulo Inflamação e Reparo, § Inflamação aguda · Robbins, Patologia Básica, capítulo 3"]
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O gatilho: reconhecer o dano e abrir o vaso"
+        subtopicos:
+          - "1.1 Definição, sinais e desencadeantes"
+          - "1.2 Reconhecimento, receptores e inflamassoma"
+          - "1.3 Fluxo, calibre, estase e mediadores"
+      - titulo: "PARTE II — Do plasma às células: exsudato e recrutamento"
+        subtopicos:
+          - "2.1 Os quatro mecanismos de permeabilidade"
+          - "2.2 Exsudato, transudato e linfáticos"
+          - "2.3 Rolamento, adesão e diapedese"
+          - "2.4 Quimiotaxia e citocinas do recrutamento"
+      - titulo: "PARTE III — Executar, desligar e a marca que fica"
+        subtopicos:
+          - "3.1 Fagocitose, burst oxidativo e dano"
+          - "3.2 Cinética, desligamento e desfechos"
+          - "3.3 Padrões morfológicos e seus porquês"
+  - titulo: "Etapa 2 — 30 questões objetivas"
+    descricoes:
+      - "Consolidação, integração e aplicação"
+  - titulo: "Etapa 3 — 5 discursivas"
+    descricoes:
+      - "Mecanismo, líquido, padrão morfológico e alvo"
+
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "CCEC"]
+    - ["03", "CECE"]
+    - ["04", "E"]
+    - ["05", "B"]
+    - ["06", "A"]
+    - ["07", "CCEE"]
+    - ["08", "D"]
+    - ["09", "D"]
+    - ["10", "C"]
+  integracao:
+    - ["11", "A"]
+    - ["12", "CEEC"]
+    - ["13", "E"]
+    - ["14", "B"]
+    - ["15", "CECC"]
+    - ["16", "E"]
+    - ["17", "D"]
+    - ["18", "B"]
+    - ["19", "ECEC"]
+    - ["20", "CCCE"]
+    - ["21", "CCEC"]
+    - ["22", "A"]
+    - ["23", "D"]
+    - ["24", "CECC"]
+    - ["25", "A"]
+  aplicacao:
+    - ["26", "A"]
+    - ["27", "E"]
+    - ["28", "CCEC"]
+    - ["29", "B"]
+    - ["30", "D"]

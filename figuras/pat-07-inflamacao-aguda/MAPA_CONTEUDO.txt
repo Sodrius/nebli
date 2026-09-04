@@ -1,0 +1,51 @@
+# MAPA_CONTEUDO -- pat-07-inflamacao-aguda
+# Slide-fonte: 4562c5c3-F__Transcri__o_da_Aula_em_PDF__PT__Patologia_da_Inflama__o_1__Inflama__o_Aguda.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: burns@usp.br Inflamação Aguda ou “Vocês lembram que…” Prof. Dr. Luiz Fernando Ferraz da Silva Faculdade de Medicina da Universidade de São Paulo Departamento de Patologia
+slide-02: burns@usp.br Definição e Sinais • Resposta inicial ao dano tecidual visando o restabelecimento da homeostase • Sinais Flogísticos – Calor – Rubor – Tumor – Dor – Perda Funcional
+slide-03: burns@usp.br Desencadeantes • Infecções • Necrose tecidual – isquemia, trauma, etc • Corpo estranho • Reações de hipersensibilidade • Agentes químicos e físicos
+slide-04: burns@usp.br Alterações Iniciais Robbins, Pathologic basis of disesases – 9th edition
+slide-05: burns@usp.br Alterações Iniciais Robbins, Pathologic basis of disesases – 9th edition
+slide-06: burns@usp.br Alterações Vasculares Exsudato x Transudato Robbins, Pathologic basis of disesases – 9th edition
+slide-07: burns@usp.br Exsudato x Transudato Característic a EXSUDATO TRANSUDATO [ ] proteínas Elevada > 3g/dl Normal < 3g/dl Densidade > 1020 < 1020 Células Frequentes / abundantes Ausentes ou raras DHL > 200 < 200 Alterações Vasculares
+slide-08: burns@usp.br Alterações Vasculares • Alterações de fluxo e calibre – Vasodilatação (calor e rubor) – Histamina e NO – Extravasamento de líquido na microvasculatura – fluxo, [ ] hemácias e viscosidade – [ ] Leucócitos • Aumento da permeabilidade • R...
+slide-09: burns@usp.br Alterações Vasculares • Alterações de fluxo e calibre • Aumento da permeabilidade – Contração endotelial – Lesão endotelial direta – Lesão mediada por leucócitos – Transcitose • Resposta linfática Robbins, Pathologic basis of disesases –...
+slide-10: burns@usp.br Alterações Vasculares • Alterações de fluxo e calibre • Aumento da permeabilidade – Contração endotelial – Lesão endotelial direta – Lesão mediada por leucócitos – Transcitose • Resposta linfática Robbins, Pathologic basis of disesases –...
+slide-11: burns@usp.br Alterações Vasculares • Alterações de fluxo e calibre • Aumento da permeabilidade • Resposta linfática – Proliferação – Aumento da drenagem – relevância das linfadenopatias Robbins, Pathologic basis of disesases – 9th edition
+slide-12: burns@usp.br Alterações Vasculares Mediadores Importantes Mediador Origem Função Histamina Mastócitos e plaquetas Vasodilatação e  permeabilidade Prostaglandinas Mastócitos e leucócitos Vasodilatação Leucotrienos Mastócitos e leucócitos Permeabilid...
+slide-13: burns@usp.br Alterações Vasculares Mediadores Importantes Robbins, Pathologic basis of disesases – 9th edition
+slide-14: burns@usp.br Alterações Vasculares Robbins, Pathologic basis of disesases – 9th edition
+slide-15: burns@usp.br Alterações Celulares Robbins, Pathologic basis of disesases – 9th edition • Células Efetoras – Imunidade Inata – Macrófago e Mastócito (tecido) – Neutrófilo (recrutado) – Plaquetas – Eosinófilos
+slide-16: burns@usp.br Alterações Celulares • Recrutamento – Complemento – Fatores plaquetários – Citocinas • Marginação • Rolamento • Adesão • Transmigração / Diapedese • Quimiotaxia
+slide-17: burns@usp.br Alterações Celulares Robbins, Pathologic basis of disesases – 9th edition
+slide-18: burns@usp.br Alterações Celulares • Recrutamento • Marginação – Lentificação do fluxo – Concentração de leucócitos • Rolamento • Adesão • Transmigração / Diapedese • Quimiotaxia
+slide-19: burns@usp.br Alterações Celulares Robbins, Pathologic basis of disesases – 9th edition
+slide-20: burns@usp.br Alterações Celulares Robbins, Pathologic basis of disesases – 9th edition
+slide-21: burns@usp.br Alterações Celulares • Recrutamento • Marginação • Rolamento – Selectinas / Sialyl-Lewis – Moléculas de adesão constitutivas no leucócito – baixa afinidade – Indução de expressão no endotélio – E e P selectina – Ativação endotelial – pro...
+slide-22: burns@usp.br Alterações Celulares Robbins, Pathologic basis of disesases – 9th edition
+slide-23: burns@usp.br Alterações Celulares • Recrutamento • Marginação • Rolamento • Adesão – Integrinas / Ligantes (CAMs) – Expressão de integrina de alta afinidade (leucócito) – Expressão endotelial de ligantes (VCAM / ICAM) – Aderência firme • Transmigraçã...
+slide-24: burns@usp.br Alterações Celulares Robbins, Pathologic basis of disesases – 9th edition
+slide-25: burns@usp.br Alterações Celulares • Recrutamento • Marginação • Rolamento • Adesão – Integrinas / Ligantes (CAMs) • Transmigração / Diapedese – Aumento permeabilidade + Moléculas junção (PECAM) – Alteração do citoesqueleto – Liberação de metaloprotei...
+slide-26: burns@usp.br Alterações Celulares Robbins, Pathologic basis of disesases – 9th edition
+slide-27: burns@usp.br Alterações Celulares
+slide-28: burns@usp.br Alterações Celulares • Recrutamento • Marginação • Rolamento • Adesão – Integrinas / Ligantes (CAMs) • Transmigração / Diapedese • Quimiotaxia – Produtos bacterianos – Citocinas – IL8, C5a, LTB4 – Movimento progressivo
+slide-29: burns@usp.br Alterações Celulares Robbins, Pathologic basis of disesases – 9th edition
+slide-30: burns@usp.br Alterações Celulares Robbins, Pathologic basis of disesases – 9th edition
+slide-31: burns@usp.br Alterações Celulares Mediadores Importantes Mediador Origem Função Leucotrienos Mastócitos e leucócitos Quimiotaxia C3a e C5a Plasma Recrutamento e quimiotaxia IL8 Macrófagos Quimiotaxia TNF Macrófagos, mastócitos e células T Expressão d...
+slide-32: burns@usp.br Alterações Celulares Mediadores Importantes Robbins, Pathologic basis of disesases – 9th edition
+slide-33: burns@usp.br Mecanismos Efetores Robbins, Pathologic basis of disesases – 9th edition
+slide-34: burns@usp.br Mecanismos Efetores Robbins, Pathologic basis of disesases – 8th edition • Reconhecimento • Remoção • Efeitos regulatórios
+slide-35: burns@usp.br Mecanismos Efetores Robbins, Pathologic basis of disesases – 8th edition • Reconhecimento • Remoção • Efeitos regulatórios
+slide-36: burns@usp.br Mecanismos Efetores Robbins, Pathologic basis of disesases – 8th edition • Reconhecimento • Remoção • Efeitos regulatórios – Meia vida de células e mediadores – Alternância na cascata do ácido aracdônico
+slide-37: burns@usp.br Desdobramentos Robbins, Pathologic basis of disesases – 7th edition
+slide-38: burns@usp.br Desdobramentos Robbins, Pathologic basis of disesases – 9th edition
+slide-39: burns@usp.br Padrões Morfológicos • Úlcera • Flegmão • Abcesso
+slide-40: burns@usp.br Padrões Morfológicos • Úlcera • Flegmão • Abcesso
+slide-41: burns@usp.br Padrões Morfológicos • Úlcera • Flegmão • Abcesso
+slide-42: burns@usp.br Padrões Morfológicos • Úlcera • Flegmão • Abcesso
+slide-43: [VISUAL -- usar adjacente com titulo extraivel]
