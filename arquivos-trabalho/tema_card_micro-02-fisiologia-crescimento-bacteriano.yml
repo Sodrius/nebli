@@ -1,0 +1,58 @@
+slug: micro-02-fisiologia-crescimento-bacteriano
+titulo: "Fisiologia e crescimento bacteriano"
+subtitulo: "Microbiologia"
+meta:
+  - ["Disciplina", "Microbiologia"]
+  - ["Onde estudar", "Trabulsi & Alterthum — Microbiologia (7ª ed.) · Murray — Microbiologia Médica · Brock — Biologia dos Microrganismos (caps. 3–5) · Tortora — Microbiologia (caps. 5–6)"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O que a bactéria precisa para crescer"
+        subtopicos:
+          - "1.1 Nutrição e classificação trófica"
+          - "1.2 pH, temperatura e sal"
+          - "1.3 Oxigênio e ferro"
+      - titulo: "PARTE II — Como a bactéria transforma nutriente em ATP"
+        subtopicos:
+          - "2.1 Glicólise e fermentação"
+          - "2.2 Respiração na membrana plasmática"
+          - "2.3 Metabolismo vira assinatura"
+      - titulo: "PARTE III — Da célula à população"
+        subtopicos:
+          - "3.1 Divisão binária e curva"
+          - "3.2 Tempo de geração na clínica"
+          - "3.3 Meios de cultura e isolamento"
+gabarito:
+  consolidacao:
+    - ["01", "B"]
+    - ["02", "D"]
+    - ["03", "CECC"]
+    - ["04", "C"]
+    - ["05", "A"]
+    - ["06", "D"]
+    - ["07", "CCEC"]
+    - ["08", "E"]
+    - ["09", "B"]
+    - ["10", "CCEE"]
+  integracao:
+    - ["11", "C"]
+    - ["12", "CEEC"]
+    - ["13", "EECC"]
+    - ["14", "E"]
+    - ["15", "CCCE"]
+    - ["16", "A"]
+    - ["17", "D"]
+    - ["18", "ECCC"]
+    - ["19", "B"]
+    - ["20", "A"]
+    - ["21", "ECEE"]
+    - ["22", "E"]
+    - ["23", "C"]
+    - ["24", "EECE"]
+    - ["25", "B"]
+  aplicacao:
+    - ["26", "D"]
+    - ["27", "A"]
+    - ["28", "ECCE"]
+    - ["29", "E"]
+    - ["30", "C"]

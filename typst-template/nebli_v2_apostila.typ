@@ -76,7 +76,17 @@
     paper: "a4",
     margin: (top: 1.7cm, bottom: 1.8cm, left: 1.9cm, right: 1.9cm),
     header: context {
-      let val = state("etapa", "").get()
+      // Canonico 2026-09-06: o header nao pode ler `state.get()`, porque o
+      // update de `set-etapa` no topo do corpo de uma pagina e resolvido
+      // DEPOIS do header dessa mesma pagina -- resultado: toda pagina de
+      // banner de secao (Sumario, Etapa 1/2/3, Resumindo, Gabarito) exibia o
+      // nome da secao ANTERIOR. Bug pego pelo `auditar_pdf_visual` como
+      // "header dessincronizado". A correcao troca state por marcadores
+      // consultados por numero de pagina: o marcador que cai NA pagina conta
+      // para ela, e a defasagem some.
+      let pg = here().page()
+      let marcas = query(<nebli-etapa>).filter(m => m.location().page() <= pg)
+      let val = if marcas.len() > 0 { marcas.last().value } else { "" }
       grid(columns: (1fr, 1fr),
         align: (left, right),
         text(font: titulo-fam, weight: "bold", size: 8pt, fill: rgb("#B8B8B8"), tracking: 3pt, "NEBLI"),
@@ -109,7 +119,7 @@
 }
 
 // ======= Atualiza a string do header =======
-#let set-etapa(nome) = state("etapa", "").update(nome)
+#let set-etapa(nome) = [#metadata(nome)<nebli-etapa>]
 
 // ======= Banner de etapa =======
 // Caixa navy com cantos arredondados (apostila moderna, não bandeira chapada).

@@ -30,6 +30,15 @@
 
 **Formato fixo:**
 ```
+### 2026-09-06 · micro-02-fisiologia-crescimento-bacteriano
+
+Corrida em sessão remota (nuvem). Registros úteis para as próximas:
+
+- **Ambiente remoto não traz `typst` nem poppler** (`ERROS.md` #22 confirmado de novo). Resolvido em ~1 min: binário estático do Typst 0.13.1 em `/usr/local/bin` + `apt-get update && apt-get install -y poppler-utils` (o `install` sozinho dá 404; o `update` antes resolve). `pymupdf` e `pillow` via pip.
+- **O `#mini-resumo` continua gerando warning falso** no `auditar_pdf_visual` ("banner de 'resumindo' aparece no corpo") porque o helper imprime a etiqueta fixa "Resumindo até aqui:". É ruído conhecido, não bug — mesma raiz do `ERROS.md` #21.
+- **Resumindo em 2 páginas com a última seção sozinha** deixa página de mancha baixa. Encurtar de 10 seções × ~50 palavras para 9 × ~38 fechou em 1 página e limpou o aviso.
+- **Deck-aula não fechou nesta corrida:** sem AnkiConnect na nuvem (`INFRA-REMOTO.md`). Ficou declarado como pendência, não como ship.
+
 ### 2026-MM-DD · <slug do resumo>
 - **Observei:** <o que Davi viu>
 - **Regra envolvida:** <link pra regra no CLAUDE.md ou ERROS.md, se existir>
@@ -153,6 +162,16 @@ Pedido de 2026-05-22. Pipeline que, dado conteúdo de prova segundo cronograma, 
 - **Tier 3 propostas** — UI editável de Tema Card, banco colaborativo turma 114, SRS inteligente, mini-resumo on-demand.
 
 ## § Histórico de decisões canônicas
+
+### 2026-09-06 · Header de seção dessincronizado — bug de template corrigido na raiz
+
+Achado na corrida `micro-02-fisiologia-crescimento-bacteriano`, quando o `auditar_pdf_visual.py` bloqueou a movimentação com "pagina 20: header continua 'resumindo' mas banner de 'etapa2' aparece no corpo (BUG header dessincronizado — fix em `set-etapa`)".
+
+- **O bug era real e sistêmico, não desta corrida.** `set-etapa` era `state("etapa","").update(nome)` e o header lia `state.get()` dentro de um `context`. Em Typst, o `context` do header de uma página resolve ANTES do corpo dessa mesma página — então todo update disparado no topo do corpo chegava tarde, e **toda página de banner de seção exibia o nome da seção anterior**: a do Sumário mostrava "ANTES DA AULA", a da Etapa 1 mostrava "SUMÁRIO", a do Resumindo mostrava "ETAPA 1", a da Etapa 2 mostrava "RESUMINDO". Vinha assim desde sempre; o auditor só disparava quando o alinhamento de páginas fazia duas páginas seguidas cairem na mesma classificação.
+- **Correção (`typst-template/nebli_v2_apostila.typ`):** `set-etapa(nome)` passa a emitir um marcador — `[#metadata(nome)<nebli-etapa>]` — e o header do `pagina-padrao` resolve por consulta filtrada por página: `query(<nebli-etapa>).filter(m => m.location().page() <= here().page())`, pegando o último. Marcador que cai NA página conta para ela, e a defasagem some. Verificado no PDF: Sumário/Etapa 1/Resumindo/Etapa 2/Etapa 3/Gabarito agora com header correto em todas as páginas de banner.
+- **Backup do template anterior** em `backups/tecnicos/nebli_v2_apostila.typ.bak-2026-09-06`. Sem mudança de assinatura de helper — `precompile-check` continua encontrando os 37 helpers canônicos.
+- **Efeito colateral desejado:** resumos regerados a partir de agora saem com o header certo. PDFs antigos não são reprocessados.
+
 
 ### 2026-09-03 · Registro científico (canonização de diretiva do Davi)
 

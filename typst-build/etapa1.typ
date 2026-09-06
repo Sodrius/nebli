@@ -1,243 +1,207 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #intro-box[
-Diabetes mellitus é um defeito de sinal. A insulina, que informa aos tecidos que há substrato chegando, deixa de ser produzida ou deixa de ser obedecida — e a glicose que se acumula no plasma passa a reagir quimicamente com as proteínas do organismo.
-
-A *PARTE I* percorre por que a glicemia sobe: o que a insulina comanda, os dois defeitos opostos que interrompem esse comando, e como a hiperglicemia vira sintoma. A *PARTE II* trata a glicose alta como reagente e acompanha a glicação não-enzimática até a lesão estrutural que se auto-alimenta. A *PARTE III* localiza essa lesão nos órgãos-alvo e mostra a correspondência entre o substrato que o patologista descreve e o achado que o radiologista enxerga.
+Uma bactéria não cresce como um bebê cresce. O que aumenta numa cultura não é o tamanho da célula, é o número de células: cada bactéria copia o cromossomo, separa as cópias e se parte em duas por divisão binária, e a população dobra. Toda a fisiologia bacteriana existe para sustentar essa conta. Ela precisa capturar matéria-prima do meio, extrair energia dela por reações de oxidação, e fazer as duas coisas dentro de uma janela estreita de pH, temperatura, sal e oxigênio. Este resumo segue exatamente esse caminho — primeiro o que a bactéria precisa, depois como ela fabrica energia com isso, e por fim o que acontece quando bilhões delas fazem isso ao mesmo tempo dentro de um tubo de cultura.
 ]
 
-#parte-title("PARTE I — O sinal que falta: por que a glicose sobe", primeira: true)
+#parte-title("PARTE I — O que a bactéria precisa para crescer", primeira: true)
 
-#subtopico("1.1 — A insulina e os freios que ela mantém")
+#subtopico("1.1 — Nutrição: os elementos que viram bactéria")
 
-A célula beta da ilhota pancreática secreta insulina quando a glicose plasmática sobe. O receptor de insulina é uma *tirosina-quinase*, enzima que fosforila resíduos de tirosina de proteínas-alvo: as duas subunidades α ligam o hormônio, as duas subunidades β se autofosforilam e passam a fosforilar o #sigla("IRS-1", [substrato 1 do receptor de insulina — a primeira proteína fosforilada pelo receptor, e o ponto em que a via se ramifica]), que recruta a #sigla("PI3K", [fosfatidilinositol-3-quinase — converte o sinal do receptor em um lipídeo de membrana capaz de ancorar a Akt]) e ativa a Akt. Não há proteína G nem segundo mensageiro nesse caminho.
+Quase todo o peso seco de uma bactéria é carbono, nitrogênio, enxofre e fósforo. Esses quatro elementos montam as macromoléculas que a célula precisa duplicar antes de se dividir: o carbono é o esqueleto de proteína, lipídeo e açúcar; o nitrogênio entra em todo aminoácido e em toda base nitrogenada; o enxofre está na cisteína e na metionina e em cofatores como a coenzima A; o fósforo forma a espinha do #sigla("DNA", [ácido desoxirribonucleico — o cromossomo bacteriano, uma molécula circular única]) e as cabeças dos fosfolipídeos. Ao lado deles vêm íons inorgânicos em quantidade muito menor e igualmente obrigatória — potássio, sódio, cálcio, cloro, ferro e magnésio —, que não constroem estrutura mas ativam enzimas: o magnésio estabiliza o ribossomo e é cofator de toda reação que envolve #sigla("ATP", [adenosina trifosfato — a moeda de energia que a célula gasta em qualquer reação que não ocorre espontaneamente]), o ferro carrega elétrons nos citocromos.
 
-O #sigla("GLUT-4", [transportador de glicose tipo 4 — isoforma insulino-dependente do músculo esquelético e do tecido adiposo]) já existe pronto, estocado em vesículas intracelulares, e a Akt comanda a fusão dessas vesículas com a membrana plasmática. *A insulina não sintetiza o transportador, ela o transloca* — daí o efeito surgir em minutos e desaparecer em minutos quando o sinal cessa.
-
-O restante do programa é composto de freios. A insulina ativa a glicogênio-sintase, liga a lipogênese no adipócito e inibe a *lipase hormônio-sensível*, enzima que hidrolisa triacilglicerol em ácido graxo livre; em paralelo, suprime a gliconeogênese hepática e a proteólise muscular. Perder o hormônio é liberar todos esses freios simultaneamente, e é por isso que o quadro clínico do tipo 1 não se resume à glicemia.
-
-Um dado de distribuição sustenta as PARTES II e III: *apenas músculo esquelético e tecido adiposo dependem do GLUT-4*. Neurônio, hemácia, endotélio, célula mesangial do glomérulo, pericito da retina, cristalino e epitélio tubular renal captam glicose por transportadores que não respondem à insulina, e por isso não conseguem reduzir a entrada quando a glicemia sobe.
-
-#figura-lateral("/figuras/gr-02-diabetes-mellitus/slide-14.png",
-  lado: "right",
-  largura-figura: 40%,
-  texto: [O intestino sinaliza ao pâncreas antes de a glicose ser absorvida. O #sigla("GLP-1", [peptídeo semelhante ao glucagon 1 — incretina intestinal que amplifica a secreção de insulina dependente de glicose]), liberado pela chegada do alimento ao lúmen, amplifica a secreção de insulina pela célula beta, retarda o esvaziamento gástrico e aumenta a saciedade por ação hipotalâmica. É o *efeito incretínico*, e ele explica por que uma carga oral de glicose eleva mais a insulina do que a mesma carga por via intravenosa.],
-  legenda: [Eixo intestino–pâncreas–encéfalo.])
-
-#subtopico("1.2 — Tipo 1: a ilhota destruída e o corpo em jejum permanente")
-
-O que desencadeia o quadro clínico do tipo 1 não é o valor absoluto da insulina, e sim a queda da *razão insulina/glucagon*. A insulina freia a célula alfa dentro da própria ilhota; sem ela, o glucagon é secretado sem contraposição e o fígado mantém glicogenólise e gliconeogênese enquanto o músculo já não capta glicose. A hiperglicemia é gerada nas duas pontas.
-
-A destruição da célula beta é autoimune, mediada sobretudo por linfócitos T citotóxicos, em indivíduos com alelos predisponentes de #sigla("HLA", [antígeno leucocitário humano — o complexo principal de histocompatibilidade humano, cujos alelos de classe II definem boa parte do risco genético do tipo 1]) de classe II. Os autoanticorpos dosados no laboratório — anti-#termo-nota[descarboxilase do ácido glutâmico][enzima citoplasmática da célula beta; o anticorpo anti-GAD65 contra ela é o marcador sorológico mais usado de autoimunidade contra a ilhota], anti-insulina, anti-tirosina-fosfatase da ilhota — são marcadores dessa agressão, não os seus executores principais.
-
-A massa funcionante remanescente é estimada pelo #termo-nota[peptídeo C][fragmento liberado em quantidade equimolar à insulina na clivagem da pró-insulina; ausente na insulina exógena e pouco extraído pelo fígado, mede a secreção endógena]: ele sai da pró-insulina junto com a insulina, mas não acompanha a insulina exógena aplicada e escapa da extração hepática de primeira passagem, que retira boa parte da insulina antes da circulação sistêmica.
-
-O metabolismo assume então o padrão do jejum com o plasma cheio de glicose. Sem o freio da insulina, a lipase hormônio-sensível libera ácidos graxos em quantidade que excede a capacidade oxidativa hepática: a acetil-CoA gerada ultrapassa a capacidade de consumo do ciclo de Krebs e o excedente é desviado para acetoacetato e β-hidroxibutirato, ácidos fortes cujo acúmulo derruba o pH. A proteólise muscular fornece aminoácidos à gliconeogênese e o balanço nitrogenado fica negativo. A perda ponderal ocorre com ingesta aumentada, porque se perde caloria na urina, triacilglicerol no adipócito e proteína no músculo.
-
-#mini-resumo[Falta de insulina → glucagon sem freio e lipólise sem freio → glicose hepática alta e ácido graxo em excesso → cetoácidos. Hiperglicemia e cetose são efeitos paralelos do mesmo defeito.]
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-12.png",
-  largura: 60%,
-  legenda: [O defeito está em andares diferentes: no tipo 1 o pâncreas não entrega o sinal; no tipo 2 o sinal chega em quantidade e a célula-alvo não responde.])
-
-#clinica-box("O caso que abre a aula", [
-Homem de 26 anos, magro, com dez dias de poliúria, polidipsia e perda de 3 kg; glicemia de 397 mg/dL, hemoglobina glicada de 8,8%, peptídeo C de 1,32 ng/mL e anti-descarboxilase do ácido glutâmico de 1082 UI/mL para valor de referência abaixo de 10.
-
-Os três exames respondem perguntas distintas. O autoanticorpo em título cem vezes acima do limite identifica a natureza autoimune da destruição. O peptídeo C mensurável, no limite inferior da normalidade, indica secreção residual preservada em parte — o paciente está no início da história natural, o que explica a ausência de acidose franca à apresentação. A hemoglobina glicada de 8,8% data o início da hiperglicemia semanas antes dos dez dias de sintomas: o sintoma marca a queda da reserva de célula beta, não o início da doença.
-])
-
-#subtopico("1.3 — Tipo 2: o sinal que chega e não é escutado")
-
-No tipo 2 o receptor está íntegro e a falha é pós-receptor. Com oferta calórica alta e sedentarismo, o músculo recebe mais acil-CoA graxo do que oxida, e o excedente acumula dois intermediários lipídicos com atividade de sinalização: *diacilglicerol* e *ceramida*. Ambos ativam *serina-quinases de estresse*, que fosforilam o IRS-1 em resíduos de serina em vez de tirosina. O IRS-1 fosforilado no resíduo errado não recruta a PI3K, a Akt não é ativada, e menos vesículas de GLUT-4 alcançam a membrana.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-09.png",
-  largura: 55%,
-  legenda: [O ácido graxo não apenas compete com a glicose como combustível: ele interrompe a sinalização que traria o GLUT-4 à superfície. A mitocôndria sobrecarregada devolve espécies reativas de oxigênio, que realimentam as serina-quinases.])
-
-O tecido adiposo contribui por uma segunda via. O adipócito hipertrofiado recruta macrófagos e secreta fator de necrose tumoral alfa e interleucina-6, citocinas que ativam as mesmas serina-quinases e reduzem o GLUT-4 de superfície. A obesidade opera como inflamação crônica de baixo grau, e é por essa ponte que produz resistência à insulina.
-
-A resistência isolada não configura diabetes. A célula beta responde à glicemia crescente aumentando a secreção, e a *hiperinsulinemia compensatória* mantém a glicose em faixa quase normal por anos.
-
-#atencao-box("No tipo 2, a insulina pode estar alta", [
-Durante a maior parte da história natural do tipo 2 a insulina está *normal ou elevada*, e a glicemia sobe apesar disso porque o tecido não responde. Insulina alta com glicemia alta não é contradição laboratorial: é o retrato da resistência. A insulina só cai quando, após anos de sobrecarga secretora e de exposição a glicose e ácido graxo em excesso, a célula beta entra em apoptose e a massa de ilhota diminui — e é nessa fase que o tipo 2 passa a exigir insulina exógena.
-])
-
-O defeito é distribuído por vários órgãos. O fígado resiste ao freio da gliconeogênese e mantém produção hepática de glicose mesmo sob insulina alta, o que explica a hiperglicemia de jejum. O adipócito resiste ao freio da lipólise e continua exportando ácido graxo. O intestino perde parte do efeito incretínico. A ilhota acrescenta hiperglucagonemia à queda de secreção.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-11.png",
-  largura: 56%,
-  legenda: [Cinco endereços do mesmo defeito. A produção hepática de glicose que não desliga é a que sustenta a glicemia de jejum, quando nenhuma refeição a justifica.])
-
-#subtopico("1.4 — Diurese osmótica e as duas descompensações")
-
-A glicose é filtrada livremente no glomérulo e reabsorvida no túbulo proximal por transportadores de capacidade máxima finita, saturados em torno de 180 mg/dL de glicemia. Acima desse limiar a glicose excedente permanece no lúmen tubular.
-
-Soluto não reabsorvido retém água por osmose e impede que ela acompanhe o sódio de volta ao interstício: instala-se a #termo-nota[diurese osmótica][perda aumentada de água na urina causada por um soluto não reabsorvido que a retém no lúmen tubular], e o volume urinário sobe. A poliúria precede a sede — a perda de água eleva a osmolaridade plasmática e só então os osmorreceptores hipotalâmicos disparam a polidipsia. Sódio e potássio são arrastados junto.
-
-A perda ponderal soma três parcelas: caloria eliminada como glicose urinária, triacilglicerol mobilizado pela lipólise e proteína muscular consumida pela gliconeogênese. A polifagia coexiste porque a glicose não entrou na célula.
-
-A forma da descompensação depende da insulina residual. No tipo 1, com secreção praticamente ausente, a lipólise segue livre até os cetoácidos e instala-se a *cetoacidose diabética*, com pH baixo, #termo-nota[hiato aniônico][diferença entre os cátions e os ânions medidos no plasma; aumenta quando um ácido não medido, como o cetoácido, se acumula] aumentado e respiração ampla e profunda — compensação respiratória que elimina gás carbônico para tamponar a acidez, não doença pulmonar. No tipo 2, a insulina residual é insuficiente para normalizar a glicemia mas basta para conter a lipase hormônio-sensível; sem lipólise maciça não há cetose, e a descompensação assume a forma de *estado hiperosmolar*, com glicemias mais altas, diurese osmótica prolongada e rebaixamento de consciência.
-
-#confusao-prevista(
-  titulo: "Hiperosmolaridade e acidose não são o mesmo distúrbio",
-  aluno_acha: [as duas descompensações são lidas como graus de gravidade de um mesmo processo],
-  mecanismo: [são distúrbios de naturezas distintas que apenas coexistem na cetoacidose. A hiperosmolaridade é distúrbio de *água*, produzido pela diurese osmótica; a acidose é distúrbio de *ácido*, produzido pelos cetoácidos da lipólise. No estado hiperosmolar do tipo 2 a primeira ocorre isolada, e é ela que ameaça a vida.],
-)
-
-O potássio inverte a leitura esperada do exame. A diurese osmótica esvazia o estoque corporal total, enquanto a acidose e a ausência de insulina deslocam potássio do intracelular para o plasma. O resultado é potássio sérico normal ou elevado em paciente profundamente depletado — valor que despenca assim que a insulina reconduz o íon para dentro da célula.
-
-#parte-title("PARTE II — Do açúcar ao dano: glicação e as rotas que se perpetuam")
-
-#subtopico("2.1 — Glicação não-enzimática e os dois relógios do controle")
-
-A glicose é um açúcar redutor: possui grupo carbonil livre, que reage espontaneamente com grupos amino de proteínas. A reação é *glicação* — não-enzimática, sem sítio preferencial, governada apenas pelo produto entre concentração de glicose e tempo de exposição. Distingue-se da *glicosilação*, que é enzimática, dirigida a sítios específicos e parte da maturação normal de glicoproteínas. É essa dependência de concentração e tempo que faz da glicação, ao mesmo tempo, o mecanismo da lesão e a base dos exames que medem controle.
-
-A reação avança em três estágios de reversibilidade decrescente. A *base de Schiff* é a condensação inicial entre o carbonil da glicose e um grupo amino da proteína, tipicamente da lisina ou da valina N-terminal; forma-se em horas e desfaz-se se a glicemia cai. O *produto de Amadori* é o rearranjo da base de Schiff numa cetoamina estável, formado em dias e apenas lentamente reversível. O #sigla("AGE", [produto final de glicação avançada — do inglês *advanced glycation end product*, a forma irreversível da glicação]) resulta de desidratações e oxidações sucessivas ao longo de semanas a meses e estabelece *ligações cruzadas* entre dois radicais protéicos: aqui a reação deixa de reverter.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-15.png",
-  largura: 70%,
-  legenda: [A régua de tempo no alto — horas, dias, semanas a meses — carrega o mecanismo. A barra "reversível" termina antes da ligação cruzada entre duas cadeias protéicas, e é essa etapa final que a normalização da glicemia já não desfaz.])
-
-Da escala de tempo decorre a seleção do alvo: acumula AGE a proteína de meia-vida longa — colágeno, elastina, cristalino, membrana basal —, renovada mais devagar do que a reação avança. Proteína de turnover rápido é degradada antes de reticular.
-
-Os dois exames de controle são produtos de Amadori em proteínas diferentes, e a diferença entre eles é a janela de tempo que cada proteína guarda. A #sigla("HbA1c", [hemoglobina glicada — fração da hemoglobina A que sofreu glicação, expressa em porcentagem da hemoglobina total]) mede a fração glicada da hemoglobina; como a hemácia circula de 90 a 120 dias sem reverter a modificação, o exame integra a exposição à glicose ao longo de 8 a 12 semanas, com peso maior nas últimas quatro. Uma HbA1c de 8,8% corresponde a glicemia média em torno de 205 mg/dL nesse período — no caso da PARTE I, hiperglicemia sustentada muito antes dos dez dias de sintomas. A limitação do exame é a mesma variável que o define: hemólise, sangramento recente ou transfusão encurtam a sobrevida eritrocitária e reduzem a HbA1c para a mesma glicemia média.
-
-A #termo-nota[frutosamina][conjunto das proteínas plasmáticas glicadas, sobretudo a albumina; como a albumina vive de 14 a 20 dias, o exame reflete as últimas 2 a 3 semanas] resolve exatamente esses casos. A albumina circula de 14 a 20 dias e o exame lê 2 a 3 semanas, o que o torna útil em hemoglobinopatia, anemia hemolítica, gestação e mudança recente de tratamento. No caso da aula os dois caminharam juntos em escalas distintas: HbA1c de 8,8% e frutosamina de 575 μmol/L em abril; 5,2% e 289 μmol/L em agosto, quatro meses após a insulinização.
-
-#subtopico("2.2 — O que o AGE faz nas proteínas de vida longa")
-
-A reticulação do colágeno não produz apenas rigidez: a proteína reticulada *resiste à digestão proteolítica e deixa de ser substituída*. O remodelamento da matriz extracelular depende de degradar colágeno velho para depositar colágeno novo, e as proteases não cortam o substrato reticulado. Esta é a razão bioquímica de a ferida do diabético cicatrizar mal mesmo com perfusão preservada.
-
-A glicação da #sigla("LDL", [lipoproteína de baixa densidade — partícula que transporta colesterol do fígado para os tecidos]) prejudica o reconhecimento da partícula pelo receptor hepático, prolonga o tempo de circulação e favorece a oxidação. A partícula modificada passa a ser captada por *receptores scavenger* do macrófago, que — ao contrário do receptor de LDL — não são inibidos pelo colesterol já acumulado na célula. O macrófago capta sem regulação e se converte em #termo-nota[célula espumosa][macrófago repleto de gotículas lipídicas, elemento fundador da estria gordurosa e da placa de ateroma]. É o elo direto entre hiperglicemia e placa de ateroma, retomado na PARTE III.
-
-#confusao-prevista(
-  titulo: "Membrana basal mais espessa não filtra melhor",
-  aluno_acha: [engrossar a barreira deveria retê-la mais e reduzir a passagem de proteína],
-  mecanismo: [o que muda não é só a espessura, é a *composição*. A membrana basal glomerular do diabético ganha matriz desorganizada e perde proteoglicanos aniônicos, que constituem a barreira de carga que repelia a albumina — também aniônica. O resultado é uma membrana mais espessa e simultaneamente mais permeável a proteína.],
-)
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-17.png",
-  largura: 50%,
-  legenda: [À esquerda, membrana basal normal: fina e homogênea, com pedicelos regularmente espaçados. À direita, a mesma barreira espessada e desorganizada no diabético.])
-
-Há ainda um efeito independente de estrutura: os AGEs *inativam o óxido nítrico*. A menor disponibilidade de óxido nítrico reduz a vasodilatação dependente do endotélio, aumenta a adesão de leucócitos e plaquetas e favorece a proliferação de músculo liso na parede vascular. O primeiro dano vascular do diabetes é funcional e antecede qualquer placa detectável por imagem.
-
-#subtopico("2.3 — RAGE e as outras rotas: como o dano passa a se perpetuar")
-
-O AGE não é apenas produto: é ligante. Monócitos, macrófagos, células endoteliais e células mesangiais expressam o #sigla("RAGE", [receptor para produtos finais de glicação avançada — receptor de membrana que converte a presença de AGE em sinal inflamatório intracelular]); a ligação ativa o #sigla("NF-κB", [fator nuclear kappa B — fator de transcrição que comanda a expressão de genes pró-inflamatórios]) e transcreve um programa que inclui citocinas, fatores de crescimento, moléculas de adesão e fator tecidual. Migração de monócitos, aumento de permeabilidade vascular, atividade pró-coagulante e deposição de matriz extracelular são saídas desse programa.
-
-A alça é positiva: a sinalização por RAGE aumenta a expressão do próprio receptor e o estresse oxidativo local, e as espécies reativas de oxigênio aceleram a formação de novos AGEs. *O dano passa a produzir as condições que o produzem* — o processo auto-perpetuador do esquema da aula, que continua operando quando o estímulo inicial já diminuiu.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-30.png",
-  largura: 55%,
-  legenda: [Alteração metabólica e alteração funcional ainda revertem; a partir das modificações progressivas um dos ramos passa a se alimentar sozinho. É esse ramo que faz a manifestação clínica surgir anos depois e não regredir com o controle.])
-
-Três rotas adicionais explicam alvos específicos. A *via dos polióis* converte glicose em sorbitol pela aldose-redutase consumindo NADPH; menos NADPH significa menos glutationa reduzida e menor defesa antioxidante, e o sorbitol acumulado — incapaz de atravessar a membrana — puxa água por osmose no cristalino e no nervo. A ativação da *proteína quinase C* pelo excesso de diacilglicerol aumenta permeabilidade vascular, expressão de fator de crescimento endotelial e deposição de matriz. A *via da hexosamina* modifica fatores de transcrição por adição de N-acetilglicosamina e altera a expressão de fator de crescimento transformador beta e do inibidor do ativador de plasminogênio, com fibrose e trombogenicidade como saída.
-
-As quatro rotas convergem: todas aumentam a produção mitocondrial de espécies reativas de oxigênio, e o estresse oxidativo as realimenta. Como todas dependem de glicose *intracelular* alta, atingem preferencialmente as células que captam glicose sem depender de insulina — endotélio, pericito, célula mesangial, neurônio, cristalino, epitélio tubular. Os órgãos-alvo do diabetes são exatamente esses tecidos.
-
-#parte-title("PARTE III — Onde o dano aparece: órgãos-alvo e o que a imagem enxerga")
-
-#subtopico("3.1 — Microangiopatia: retina e glomérulo")
-
-A retina é servida por vasos terminais sem circulação colateral, e é o único leito capilar do corpo examinável diretamente. O primeiro alvo é o #termo-nota[pericito][célula contrátil que envolve o capilar e regula o seu calibre], que capta glicose independentemente de insulina, sofre pelas quatro rotas da PARTE II e morre. O capilar perde suporte de parede e dilata focalmente em #termo-nota[microaneurismas][dilatações focais da parede capilar, formadas onde o suporte do pericito se perdeu; são as primeiras lesões detectáveis ao exame de fundo de olho]; a permeabilidade aumentada deposita *exsudatos duros* — plasma e lipoproteína extravasados — e a fragilidade da parede produz hemorragias puntiformes.
-
-A fase proliferativa não é recuperação. A retina isquêmica libera fator de crescimento endotelial e o organismo fabrica neovasos frágeis que crescem para dentro do vítreo: eles sangram, produzindo hemorragia vítrea, e o tecido fibroso que os acompanha traciona e descola a retina. Quando crescem sobre a íris e o ângulo camerular, bloqueiam a drenagem do humor aquoso e produzem glaucoma neovascular. A catarata tem mecanismo próprio e osmótico: a aldose-redutase converte glicose em sorbitol, que não atravessa a membrana da fibra do cristalino, acumula, puxa água e opacifica a lente — o mesmo mecanismo explica as oscilações de refração do paciente descompensado.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-31.png",
-  largura: 58%,
-  legenda: [Os órgãos marcados no esquema são os que captam glicose sem depender de insulina, mais os leitos arteriais atingidos pela aterosclerose acelerada.])
-
-No glomérulo, a hiperglicemia dilata a arteríola aferente mais do que a eferente: a pressão no capilar glomerular sobe e a filtração aumenta. Essa *hiperfiltração* é a primeira alteração funcional da doença, e a sobrecarga mecânica que ela impõe produz a esclerose de anos depois — o aumento da filtração inicial não é sinal de rim preservado.
-
-O que se deposita é matriz. A membrana basal espessa e muda de composição, como em 2.2, e a matriz mesangial se expande, primeiro difusamente e depois em nódulos arredondados — a glomeruloesclerose nodular de Kimmelstiel-Wilson. *Não há infiltrado inflamatório proeminente*: é acúmulo de matriz, não glomerulonefrite. As arteríolas aferente e eferente sofrem #termo-nota[hialinização][depósito de material proteico homogêneo e eosinofílico na parede do vaso, que a enrijece e estreita a luz], que é lesão de arteríola e não se confunde com a aterosclerose das artérias de médio e grande calibre.
-
-A tradução laboratorial tem ordem. A albuminúria aparece primeiro, porque a barreira de carga glomerular se perdeu — a albumina passa pelo glomérulo, não por falha tubular. A creatinina sobe muito depois, porque a hiperfiltração dos néfrons remanescentes mascara a perda dos já esclerosados: creatinina normal não exclui nefropatia. A glicosúria, a retenção urinária por neuropatia autonômica e a redução da quimiotaxia e da explosão respiratória do neutrófilo em hiperglicemia somam-se para explicar a predisposição à pielonefrite.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-33.png",
-  largura: 58%,
-  legenda: [As duas pontas da história no mesmo exame: rim *aumentado* na hiperfiltração inicial; rim reduzido, com córtex afilado e ecogenicidade aumentada no estágio final — fibrose devolve mais som que parênquima funcionante.])
-
-#subtopico("3.2 — Neuropatia e pé diabético")
-
-A neuropatia diabética resulta de dois mecanismos somados. Os *vasa nervorum*, capilares que nutrem o tronco nervoso, sofrem a mesma microangiopatia da retina e do glomérulo e isquemiam o nervo; em paralelo, o sorbitol acumulado e a glicação de proteínas do axônio e da mielina lesam a fibra diretamente. O achado funcional é a queda da velocidade de condução, e o padrão clínico é o comprometimento em bota e luva, que começa pelas fibras mais longas.
-
-O pé diabético soma três falhas independentes no mesmo território. A *neuropatia sensitiva* remove a dor protetora, e o trauma repetido — calçado apertado, corpo estranho, calo que ulcera — não é percebido nem interrompido. A *neuropatia autonômica* reduz a sudorese, resseca a pele e abre fissuras que servem de porta de entrada. A *doença arterial periférica* limita o aporte de oxigênio, de células de defesa e do antibiótico administrado. Somam-se a reticulação do colágeno por AGEs, que trava o remodelamento da matriz, e a disfunção do neutrófilo em hiperglicemia.
-
-Quando a isquemia é suficiente, o tecido morre com padrão de *gangrena*: necrose, tipicamente isquêmica, comprometendo pele, subcutâneo, músculo e osso simultaneamente. Diz-se seca sem infecção superposta e úmida com ela — o termo descreve a morte tecidual, não a infecção.
-
-#atencao-box("Charcot não é osteomielite", [
-A *artropatia de Charcot* é destruição mecânica: a articulação sem propriocepção nem dor recebe microtraumas repetidos sem correção postural, e a arquitetura do médio-pé se desmonta com erosão das superfícies articulares, fragmentação, subluxação e colapso do arco plantar. Não há infecção — há trauma acumulado sobre um pé que não avisa.
-
-A *osteomielite* é infecção da medular óssea, em geral por contiguidade a partir de úlcera plantar profunda, e exige antibioticoterapia prolongada e com frequência desbridamento.
-
-As duas coexistem no mesmo pé, e a confusão custa nos dois sentidos: antibiótico não imobiliza a articulação que continua se destruindo, e imobilização não contém a infecção que progride para o osso vizinho e para a corrente sanguínea.
-])
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-42.png",
-  largura: 58%,
-  legenda: [Antepé, médio-pé e retropé na artropatia de Charcot: erosão das superfícies articulares e desalinhamento, sem reação periosteal de infecção.])
-
-A escolha do método de imagem segue o tempo do achado. A radiografia só demonstra alteração após perda óssea significativa, com atraso de uma a duas semanas — insuficiente para excluir osteomielite aguda. A #sigla("RM", [ressonância magnética — método baseado no comportamento dos núcleos de hidrogênio em campo magnético, com alta resolução para partes moles e medula óssea]) detecta o edema da medular óssea muito antes: baixo sinal em T1, alto sinal em T2 com saturação de gordura, e realce após contraste no tecido inflamado e perfundido.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-43.png",
-  largura: 58%,
-  legenda: [A mesma região aparece escura em T1, clara em T2 com saturação de gordura e realçada após contraste — a assinatura do edema e da inflamação da medular óssea.])
-
-#subtopico("3.3 — Macroangiopatia: aterosclerose acelerada e como se procura por ela")
-
-O diabetes acelera a aterosclerose por quatro caminhos já construídos: a LDL glicada captada sem regulação pelo macrófago, a inativação do óxido nítrico com disfunção endotelial, o estado pró-inflamatório do eixo AGE–RAGE, e um estado pró-coagulante com mais fator tecidual, mais inibidor do ativador de plasminogênio e menos fibrinólise.
-
-O evento agudo vem da *ruptura* da placa, não do seu crescimento até ocluir. Uma placa com núcleo lipídico grande e capa fibrosa fina se fissura, expõe colágeno e fator tecidual ao sangue, e a trombose resultante oclui a luz em minutos — placa pouco estenosante pode matar, enquanto placa muito estenosante e estável dá angina previsível por anos. Aplicada ao diabético, a tríade de Virchow destaca *lesão endotelial* e *alteração de fluxo por turbulência* sobre a placa, somadas à hipercoagulabilidade; a estase é o eixo da trombose venosa por imobilidade, cenário distinto.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-34.png",
-  largura: 58%,
-  legenda: [Dois ramos a partir do mesmo ponto: a placa estável estreita a luz e dá angina previsível; a placa vulnerável se instabiliza e o desfecho passa a depender do trombo — suboclusivo dá síndrome coronariana aguda, oclusivo dá infarto ou morte súbita.])
-
-Como a aterosclerose tem período assintomático longo, a imagem é usada para procurá-la antes do evento, e cada método responde a uma pergunta distinta.
+Nutrição, em bacteriologia, é o fornecimento dessas substâncias; crescimento é o aumento do número de microrganismos que esse fornecimento permite. Um meio de cultura só funciona se entregar três coisas simultaneamente: uma fonte de energia, uma fonte de carbono e um doador de elétrons — e é justamente por essas três dimensões que se classificam os microrganismos.
 
 #align(center, table(
-  columns: (auto, 1fr, auto, 1fr),
-  inset: 6pt,
+  columns: (auto, auto, auto, auto),
+  stroke: 0.5pt + gray-border,
+  inset: (x: 8pt, y: 6pt),
   align: left + horizon,
-  stroke: 0.4pt + gray-border,
-  fill: (_, y) => if y == 0 { navy } else { white },
-  table.header(
-    text(fill: white, weight: "bold", size: 8.5pt)[Método],
-    text(fill: white, weight: "bold", size: 8.5pt)[O que mede],
-    text(fill: white, weight: "bold", size: 8.5pt)[Custo],
-    text(fill: white, weight: "bold", size: 8.5pt)[Quando escolher],
-  ),
-  text(size: 8.5pt)[Escore de cálcio],
-  text(size: 8.5pt)[Carga de placa calcificada, acima de 130 unidades Hounsfield em área mínima de 1 mm²],
-  text(size: 8.5pt)[Radiação baixa, sem contraste],
-  text(size: 8.5pt)[Estratificar risco em assintomático; não mostra a luz],
-  text(size: 8.5pt)[Angiotomografia de coronárias],
-  text(size: 8.5pt)[A luz do vaso, com especificidade alta e valor preditivo negativo próximo de 100%],
-  text(size: 8.5pt)[Radiação e contraste iodado],
-  text(size: 8.5pt)[Excluir doença em probabilidade pré-teste baixa a intermediária],
-  text(size: 8.5pt)[Cateterismo],
-  text(size: 8.5pt)[Grau de estenose com precisão, e permite tratar no mesmo tempo],
-  text(size: 8.5pt)[Invasivo, risco baixo mas real],
-  text(size: 8.5pt)[Alta probabilidade pré-teste, ou lesão grave já detectada],
+  fill: (col, row) => if row == 0 { navy } else { none },
+  text(fill: white, weight: "bold", size: 8.5pt)[Grupo],
+  text(fill: white, weight: "bold", size: 8.5pt)[Energia],
+  text(fill: white, weight: "bold", size: 8.5pt)[Carbono],
+  text(fill: white, weight: "bold", size: 8.5pt)[Doador de elétrons],
+  text(size: 8.5pt)[Fotolitoautotrófica], text(size: 8.5pt)[luz], text(size: 8.5pt)[CO₂], text(size: 8.5pt)[inorgânico (H₂O, H₂S)],
+  text(size: 8.5pt)[Fotorganoheterotrófica], text(size: 8.5pt)[luz], text(size: 8.5pt)[orgânico], text(size: 8.5pt)[orgânico],
+  text(size: 8.5pt)[Quimiolitoautotrófica], text(size: 8.5pt)[reação química], text(size: 8.5pt)[CO₂], text(size: 8.5pt)[inorgânico (NH₃, NO₂⁻, Fe²⁺)],
+  text(size: 8.5pt)[Quimiorganoheterotrófica], text(size: 8.5pt)[reação química], text(size: 8.5pt)[orgânico], text(size: 8.5pt)[orgânico],
 ))
 
-A regra que organiza a tabela: *um exame só é útil quando o resultado pode mudar a conduta*. Com probabilidade pré-teste alta, uma angiotomografia negativa não seria aceita e uma positiva levaria ao cateterismo de qualquer modo — o exame acrescenta radiação e contraste sem alterar a decisão. Com probabilidade baixa a intermediária, o resultado negativo encerra a investigação, e é aí que o valor preditivo negativo alto tem valor.
+#v(4pt)
 
-A mesma leitura por densidade vale nos outros territórios. Na tomografia de crânio sem contraste, a área isquêmica é *hipoatenuante* porque o edema citotóxico aumenta o conteúdo de água do tecido; sangue agudo é hiperatenuante. Na aorta, a calcificação parietal extensa e o alargamento do vaso registram a mesma doença em calibre maior.
+O nome comprido se lê em três pedaços: o prefixo _foto_ ou _quimio_ diz de onde vem a energia — luz ou oxidação de uma substância; o trecho do meio, _lito_ ou _organo_, diz quem doa os elétrons dessa oxidação — composto inorgânico ou orgânico; o sufixo _autotrófico_ ou _heterotrófico_ diz de onde vem o carbono — gás carbônico ou molécula orgânica pronta.
 
-#clinica-box("Do mecanismo à estratégia terapêutica", [
-No infarto por trombose sobre placa rota, cada estratégia ataca um elo da cadeia deste resumo. O *antiagregante plaquetário* age na hemostasia primária, reduzindo adesão e agregação sobre o colágeno exposto. O *trombolítico* age depois do trombo formado, ativando o plasminogênio em plasmina, que degrada a rede de fibrina. A *desobstrução mecânica com implante de stent* restabelece a luz e reduz a turbulência que realimenta a ativação endotelial.
+#figura-nebli("/figuras/micro-02-fisiologia-crescimento-bacteriano/slide-04.png",
+  largura: 72%,
+  legenda: [As quatro combinações e seus representantes. Repare que a última linha, a dos patógenos humanos, é a única em que todas as três colunas apontam para "orgânico".])
 
-As três convergem no mesmo alvo: o endotélio ativado, que perdeu o perfil antitrombótico e passou a expressar fator tecidual e fator de von Willebrand enquanto reduz óxido nítrico e ativador de plasminogênio. Controlar a glicemia atua antes disso, sobre a glicação que produziu a disfunção endotelial.
+Toda bactéria de interesse médico cai na última linha: é #termo-nota[quimiorganoheterotrófica][tira energia da oxidação de compostos orgânicos, e usa esses mesmos compostos como fonte de carbono e como doadores de elétrons]. A consequência prática é imediata e volta na PARTE III: se o patógeno não sabe fixar gás carbônico nem oxidar amônia, o meio de cultura tem que chegar com matéria orgânica pronta, e é por isso que a base de praticamente todo meio é hidrolisado de proteína — peptonas e caseína já quebradas em peptídeos e aminoácidos, que entregam carbono e nitrogênio na mesma colherada.
+
+As outras linhas não são curiosidade de livro: as quimiolitoautotróficas do gênero _Nitrosomonas_ oxidam amônia a nitrito, tiram disso toda a energia de que precisam e fixam gás carbônico como uma planta — são elas que fazem o nitrogênio circular no solo e na água, sem depender de uma única molécula orgânica pronta.
+
+#mini-resumo[A bactéria precisa de energia, carbono e doador de elétrons; o patógeno humano tira os três de matéria orgânica, e por isso o meio de cultura começa sempre por proteína hidrolisada.]
+
+#subtopico("1.2 — pH, temperatura e sal: as janelas que o meio precisa respeitar")
+
+Nenhuma bactéria cresce em qualquer condição, e o motivo é que enzima é proteína dobrada. A forma que segura o sítio ativo depende de pontes de hidrogênio e de interações iônicas entre cadeias laterais, e essas interações se desfazem quando o próton disponível muda, quando o calor agita demais a cadeia ou quando a água some do citoplasma. As três variáveis clássicas do meio — pH, temperatura e concentração de sal — atacam exatamente esse ponto.
+
+A maioria das bactérias de importância médica é #termo-nota[neutrófila][cresce melhor em pH próximo de 7,0, faixa em que a maior parte das enzimas citoplasmáticas mantém a conformação ativa], com faixa útil aproximada de 6 a 8. Acidófilas prosperam abaixo disso e alcalófilas acima, mas em nenhuma delas o citoplasma acompanha o meio: o pH interno é mantido perto da neutralidade por bombas de próton e antiportes que trocam íons contra o gradiente, gastando energia. Essa é a razão de o meio de cultura levar tampão fosfato. À medida que a bactéria fermenta açúcar e despeja ácido, o pH do meio despenca e a cultura se envenena com o próprio produto; o tampão segura essa queda por tempo suficiente para a população crescer.
+
+#figura-nebli("/figuras/micro-02-fisiologia-crescimento-bacteriano/slide-05.png",
+  largura: 76%,
+  legenda: [As três faixas de pH e o que cada grupo faz para manter o interior neutro. O painel da direita mostra o ponto central: o pH intracelular varia muito menos que o extracelular.])
+
+Com a temperatura o desenho da curva conta o mecanismo. A taxa de crescimento sobe devagar conforme o calor acelera as reações enzimáticas, atinge um ótimo e depois cai de forma abrupta — não simétrica. A subida é cinética, obedece ao aumento normal de velocidade de reação com a temperatura; a queda é estrutural, porque poucos graus acima do ótimo as proteínas começam a desnaturar e a membrana perde a fluidez adequada. Pelo ótimo separam-se psicrófilas (frio), mesófilas (temperaturas amenas, ótimo em torno de 37 °C), termófilas e hipertermófilas. Todo patógeno humano é mesófilo, e não por acaso: 37 °C é a temperatura do hospedeiro que ele coloniza.
+
+#figura-nebli("/figuras/micro-02-fisiologia-crescimento-bacteriano/slide-06.png",
+  largura: 60%,
+  legenda: [Cada grupo tem seu pico, e todos compartilham o mesmo formato: subida gradual, queda vertical logo depois do ótimo.])
+
+A concentração de sal age por um caminho diferente — não desnatura proteína, desidrata a célula. Quando a força iônica do meio sobe, a água sai do citoplasma por osmose e as reações param por falta de solvente. A maioria das bactérias é não halófila e tolera pouco mais que a salinidade fisiológica. Algumas são #termo-nota[halotolerantes][crescem em concentrações de sal que inibem a maioria das espécies, sem precisarem de sal alto para crescer] e continuam crescendo em concentrações que travam as demais — _Staphylococcus aureus_ cresce em cloreto de sódio a 7,5%, e é exatamente essa tolerância que o meio de manitol salgado explora para isolá-lo de material contaminado por outras espécies. Já os halófilos extremos das salinas não apenas toleram como exigem sal em torno de 15 a 30%, porque acumulam potássio no citoplasma para equilibrar o meio e suas proteínas só se dobram corretamente nessa força iônica.
+
+#figura-nebli("/figuras/micro-02-fisiologia-crescimento-bacteriano/slide-09.png",
+  largura: 48%,
+  legenda: [Cada curva tem um pico deslocado: o halófilo extremo não cresce em água doce, e o não halófilo não cresce na salina.])
+
+#subtopico("1.3 — Oxigênio e ferro: dois recursos, duas guerras")
+
+O oxigênio é o recurso mais mal compreendido da fisiologia bacteriana porque é veneno e combustível ao mesmo tempo. Quando o oxigênio molecular recebe um elétron avulso de uma enzima qualquer, ele não se reduz por inteiro a água; forma o ânion superóxido, e daí peróxido de hidrogênio e radical hidroxila, que atacam lipídeo de membrana, proteína e DNA. Toda célula que convive com ar precisa de duas enzimas para neutralizar essa cascata: a #sigla("SOD", [superóxido dismutase — converte dois ânions superóxido em peróxido de hidrogênio e oxigênio]) e a catalase, que quebra o peróxido em água e oxigênio.
+
+Essa dupla explica a classificação por aeração inteira. O aeróbio estrito tem as duas enzimas e precisa de oxigênio como aceptor final de elétrons — sem ele, não fecha a cadeia respiratória e não fabrica ATP. O anaeróbio estrito, como _Clostridium tetani_, não tem superóxido dismutase nem catalase em quantidade útil: exposto ao ar, morre oxidado pelos próprios derivados reativos. O anaeróbio facultativo, de que _Escherichia coli_ é o exemplo padrão, tem as duas enzimas e as duas rotas — respira quando há oxigênio, fermenta quando não há. O microaerófilo precisa de oxigênio em tensão reduzida, porque sua defesa antioxidante não dá conta da concentração atmosférica.
+
+#confusao-prevista(
+  titulo: "Anaeróbio estrito não é quem \"não usa\" oxigênio",
+  aluno_acha: [o aluno lê "anaeróbio" como indiferença ao ar — a bactéria simplesmente ignoraria o oxigênio e cresceria com ou sem ele],
+  mecanismo: [a relação é de letalidade, não de indiferença. O oxigênio gera superóxido e peróxido espontaneamente dentro de qualquer célula; sem superóxido dismutase e catalase, esses derivados oxidam a própria maquinaria. Por isso material suspeito de anaeróbio exige transporte que exclua o ar, sob pena de a cultura vir negativa por morte, não por ausência.],
+)
+
+O ferro trava uma guerra de natureza oposta: não é tóxico ao patógeno, é escasso por decisão do hospedeiro. Ele é micronutriente crítico porque compõe os citocromos da cadeia respiratória e o sítio catalítico da ribonucleotídeo redutase, a enzima que fabrica os desoxirribonucleotídeos do DNA novo — sem ferro a célula não respira nem replica, e por isso a oferta de ferro dita o ritmo de crescimento da população. O hospedeiro explora exatamente essa dependência e mantém quase todo o seu ferro preso em proteínas: transferrina no plasma, lactoferrina nas mucosas, ferritina dentro das células e hemoglobina nas hemácias. A concentração de ferro livre resultante fica na ordem de 10⁻¹⁸ molar, muito abaixo do que qualquer bactéria precisa. Esse sequestro deliberado é a imunidade nutricional: o recurso existe em abundância, mas não circula.
+
+#figura-nebli("/figuras/micro-02-fisiologia-crescimento-bacteriano/slide-10.png",
+  largura: 72%,
+  legenda: [Os quatro movimentos da disputa pelo ferro: por que a bactéria precisa dele, como o hospedeiro o esconde, como o patógeno o arranca e como o nível de ferro acaba regulando a virulência.])
+
+As bactérias patogênicas responderam com três estratégias de arrombamento. Os sideróforos são moléculas pequenas, secretadas, com afinidade pelo ferro férrico maior que a da própria transferrina: arrancam o metal da proteína do hospedeiro e voltam por receptores específicos de membrana. As hemolisinas rompem a hemácia e liberam a hemoglobina, capturada inteira por transportadores de heme. E há receptores diretos, que encostam na transferrina ou na lactoferrina e retiram o ferro sem intermediário.
+
+O detalhe que fecha o raciocínio é regulatório. A proteína Fur funciona como sensor: quando o ferro intracelular está alto, ela se liga ao metal, ocupa os promotores dos genes de virulência e os reprime; quando o ferro cai — exatamente o que acontece dentro do hospedeiro —, Fur se desliga do DNA e esses genes são transcritos. A escassez de ferro é, portanto, o sinal ambiental que avisa a bactéria de que ela entrou num corpo, e a resposta a esse sinal é produzir sideróforos, hemolisinas e toxinas. É esse mecanismo que faz a produção da toxina diftérica depender do ferro do meio.
+
+#parte-title("PARTE II — Como a bactéria transforma nutriente em ATP")
+
+#subtopico("2.1 — Glicólise e fermentação: ATP sem aceptor externo")
+
+A bactéria que chega ao meio de cultura traz consigo a mesma via central que a célula humana usa: a glicólise, que quebra uma glicose de seis carbonos em dois piruvatos de três, com saldo de dois ATP e dois #sigla("NADH", [nicotinamida adenina dinucleotídeo reduzido — o transportador que carrega os elétrons arrancados do substrato]). Vale a pena separar essa via em três estágios, porque cada um resolve um problema diferente.
+
+No primeiro estágio a célula gasta ATP para fosforilar a glicose. Parece contraintuitivo investir energia logo na entrada, mas a fosforilação cumpre duas funções ao mesmo tempo: a glicose fosforilada perde a capacidade de atravessar a membrana de volta, ficando presa dentro da célula, e a carga negativa do fosfato desestabiliza a molécula, preparando-a para ser cortada ao meio. No segundo estágio vem a colheita: a oxidação do gliceraldeído-3-fosfato reduz o NAD⁺ a NADH e cria o 1,3-bifosfoglicerato, um intermediário de ligação rica em energia, cuja hidrólise libera energia suficiente para transferir o fosfato diretamente a uma molécula de #sigla("ADP", [adenosina difosfato — o ATP já gasto, que volta a ser carregado quando recebe um fosfato]). Esse é o mecanismo da fosforilação em nível de substrato: o fosfato salta de um intermediário energizado direto para o ADP, sem membrana, sem gradiente e sem oxigênio em passo nenhum.
+
+Há, porém, um problema de contabilidade. A oxidação do estágio dois consumiu NAD⁺ e devolveu NADH, e a célula tem um estoque pequeno e fixo desse transportador. Se ninguém devolver os elétrons do NADH a algum lugar, o NAD⁺ acaba, a oxidação para e a glicólise trava em duas ou três voltas. O terceiro estágio existe só para resolver isso: na ausência de aceptor externo, o próprio piruvato — ou um derivado dele — é reduzido pelo NADH ali mesmo no citoplasma, regenerando o NAD⁺. Isso é fermentação, e a definição precisa é essa: um processo de oxirredução em que o aceptor final de elétrons é uma molécula orgânica produzida pela própria via, não um composto externo.
+
+#figura-nebli("/figuras/micro-02-fisiologia-crescimento-bacteriano/slide-15.png",
+  largura: 55%,
+  legenda: [O mesmo piruvato, três destinos. Repare que o ramo fermentativo devolve o elétron ao carbono, enquanto o ramo aeróbio entrega o carbono ao ciclo e o elétron à cadeia.])
+
+O produto varia com a espécie, e essa variação é a base de meia bacteriologia diagnóstica. As bactérias láticas homofermentativas reduzem o piruvato a lactato e param aí; as heterofermentativas produzem lactato mais etanol e gás carbônico; enterobactérias fabricam mistura de ácidos, com produção de gás em algumas espécies e não em outras. O rendimento é sempre baixo — os mesmos dois ATP líquidos da glicólise, porque nenhum ATP adicional aparece no estágio três —, mas o processo é rápido e independe de qualquer aceptor do ambiente. É o que sustenta o crescimento no fundo de um abscesso, na luz intestinal e dentro de um tubo fechado.
+
+#mini-resumo[Fermentar não é deixar de produzir ATP: é produzir só o ATP da glicólise e gastar o piruvato para devolver os elétrons do NADH ao NAD⁺, mantendo a via girando.]
+
+#subtopico("2.2 — Respiração: a cadeia mora na membrana plasmática")
+
+Se houver um aceptor de elétrons externo disponível, a bactéria muda de estratégia e o piruvato deixa de ser lixeira para virar combustível. Descarboxilado a acetil-coenzima A, ele entra no ciclo dos ácidos tricarboxílicos, que arranca o restante dos elétrons dos seus carbonos e os entrega a mais NADH e a #sigla("FADH₂", [flavina adenina dinucleotídeo reduzido — transportador que entrega elétrons num ponto mais tardio da cadeia, rendendo menos ATP que o NADH]), liberando gás carbônico. Até aqui a diferença em relação à célula humana é nenhuma. A diferença aparece no endereço da etapa seguinte.
+
+O eucarioto faz respiração na membrana interna da mitocôndria. A bactéria não tem mitocôndria — e a solução dela é montar a mesma maquinaria na própria membrana plasmática. Os complexos que recebem os elétrons do NADH, as quinonas que os transportam pelo interior lipídico e os citocromos que os passam adiante ficam encravados na membrana que envolve o citoplasma, e a ATP sintase fica ao lado deles.
+
+#figura-nebli("/figuras/micro-02-fisiologia-crescimento-bacteriano/slide-18.png",
+  largura: 68%,
+  legenda: [O desenho é o da mitocôndria, mas na bactéria essa membrana é a plasmática e o espaço para onde os prótons são bombeados é o periplasma ou o meio externo.])
+
+O mecanismo em si é o mesmo em qualquer domínio da vida. Conforme os elétrons descem a cadeia de um transportador para o seguinte, cada passo libera energia, e essa energia é usada para bombear prótons para fora da membrana. Acumula-se então uma diferença de concentração de próton e de carga entre os dois lados — a #termo-nota[força próton-motriz][energia armazenada no gradiente de próton através da membrana, convertida em ATP quando esse próton retorna pela ATP sintase]. Os prótons tendem a voltar, e o único caminho de volta é o canal da ATP sintase, cuja rotação, movida por esse fluxo, fosforila o ADP. Isso é fosforilação oxidativa, e ela produz muito mais ATP que a fermentação: da ordem de trinta ATP por glicose contra os dois da via fermentativa, porque cada NADH entregue à cadeia rende vários prótons bombeados em vez de um único fosfato transferido.
+
+O que define se a via é aeróbia ou anaeróbia não é a cadeia, é quem recebe o elétron no fim dela. Na respiração aeróbia o aceptor final é o oxigênio molecular, que ao receber quatro elétrons e quatro prótons vira água; é a rota de maior rendimento porque o oxigênio é o aceptor mais ávido disponível na natureza. Na respiração anaeróbia a cadeia continua funcionando, mas o aceptor final é um composto inorgânico oxidado — nitrato, sulfato ou carbonato —, reduzido a nitrito, sulfeto ou metano. O rendimento fica intermediário, maior que o da fermentação e menor que o da respiração aeróbia, porque esses aceptores puxam o elétron com menos força que o oxigênio e a queda de energia ao longo da cadeia é menor.
+
+#figura-nebli("/figuras/micro-02-fisiologia-crescimento-bacteriano/slide-19.png",
+  largura: 66%,
+  legenda: [A bifurcação está no piruvato: à esquerda o ramo anaeróbio fermentativo, à direita a entrada no ciclo com o rendimento muito maior.])
+
+Essa hierarquia energética explica um comportamento que reaparece na PARTE III. O anaeróbio facultativo, tendo as três rotas, escolhe sempre a mais rentável disponível: respira oxigênio se houver, respira nitrato se não houver oxigênio, e só fermenta em último caso. A consequência prática é que uma mesma _E. coli_ cresce mais rápido e atinge densidade maior numa cultura aerada do que num tubo fechado.
+
+#subtopico("2.3 — O metabolismo vira assinatura: do açúcar fermentado à cor da placa")
+
+O rendimento energético que acabamos de comparar tem um subproduto que a bacteriologia transformou em ferramenta: cada espécie fermenta um conjunto próprio de açúcares e despeja um conjunto próprio de resíduos. Como espécies diferentes carregam enzimas diferentes, o padrão de resíduos funciona como impressão digital bioquímica — e é ele, não a aparência da célula, que dá o nome da bactéria no laboratório.
+
+A leitura mais usada é a do ácido. Um #termo-nota[meio diferencial][deixa todas as espécies crescerem e as separa pela reação química entre um produto do metabolismo e um indicador do meio] que contenha um único açúcar fermentável e um indicador de pH separa em duas cores quem fermenta aquele açúcar e quem não fermenta: quem fermenta despeja ácido, o pH local cai e o indicador vira; quem não fermenta usa outra fonte de carbono, não acidifica e a colônia fica na cor do meio. É por isso que a lactose aparece como açúcar único em vários meios seletivos — ela separa de uma vez as enterobactérias fermentadoras de lactose das não fermentadoras, e essa divisão orienta a conduta antes mesmo da identificação de espécie.
+
+A segunda leitura é a do enxofre. Algumas espécies reduzem tiossulfato a gás sulfídrico durante o metabolismo de aminoácidos sulfurados; se o meio contiver citrato férrico, o sulfeto produzido precipita como sulfeto de ferro, que é preto. O centro escuro da colônia de _Salmonella_ em meio apropriado não é pigmento bacteriano: é o precipitado de um gás que a bactéria produziu reagindo com um sal que o meio trouxe de propósito.
+
+#figura-nebli("/figuras/micro-02-fisiologia-crescimento-bacteriano/slide-44.png",
+  largura: 55%,
+  legenda: [Uma bateria bioquímica lê vários resíduos ao mesmo tempo — ácido na base, gás sulfídrico, gás preso no meio, urease, indol e motilidade — e cada combinação aponta um gênero.])
+
+A partir daí a lógica se repete com outros resíduos. A produção de gás é lida como bolha ou deslocamento da coluna de ágar; a urease é detectada pela alcalinização que a amônia provoca; a produção de indol denuncia a quebra de triptofano; a motilidade aparece como turvação difusa em torno da picada. Reunindo meia dúzia dessas leituras num único tubo com camadas, o laboratório chega ao gênero sem precisar de nenhum equipamento sofisticado.
+
+Duas consequências merecem ficar claras. A primeira é que toda identificação bioquímica é fenotípica: ela lê o que a bactéria faz, não o gene que ela carrega, e por isso exige que a bactéria esteja viva, crescendo e em quantidade suficiente para acidificar o meio de forma visível — o que amarra o resultado ao tempo de crescimento da população, tema da PARTE III. A segunda é que a cor lida na placa nunca é a cor do microrganismo. Ela é o produto de uma reação química entre um metabólito e um reagente que o meio trouxe; a bactéria em si é incolor.
+
+#parte-title("PARTE III — Da célula à população: crescimento e cultivo")
+
+#subtopico("3.1 — Divisão binária e as quatro fases da curva")
+
+Uma cultura bacteriana cresce como juros compostos, não como um organismo. A célula duplica o cromossomo, segrega as cópias para os polos, constrói um septo de parede no meio e se parte em duas células-filhas idênticas — divisão binária simples. O intervalo entre uma divisão e a seguinte é o #termo-nota[tempo de geração][intervalo que a espécie leva para dobrar de número em dadas condições; é ele que fixa a inclinação da fase log], e como cada célula gerada volta a se dividir, a população não cresce somando, cresce dobrando: partindo de N₀ células, depois de _n_ gerações há N₀ × 2#super[n] células. Por isso o eixo vertical da curva de crescimento é logarítmico. Numa escala linear, a fase mais informativa apareceria comprimida contra o eixo e depois disparando fora do papel.
+
+#figura-nebli("/figuras/micro-02-fisiologia-crescimento-bacteriano/slide-22.png",
+  largura: 66%,
+  legenda: [As quatro fases em escala logarítmica. O trecho reto da fase log é reto justamente porque o crescimento é exponencial — em log, uma exponencial vira reta, e a inclinação dessa reta é o tempo de geração.])
+
+A curva tem quatro trechos, e cada um tem uma explicação fisiológica própria. Na *fase lag* praticamente não ocorre divisão celular, mas há aumento de massa: a bactéria acaba de cair num meio novo e está construindo o que vai precisar — ribossomos em quantidade, transportadores para os nutrientes daquele meio específico, e as enzimas de assimilação das fontes de carbono e nitrogênio disponíveis. É fase de adaptação e de intensa atividade metabólica, não de repouso, e sua duração depende de quão diferente o meio novo é do anterior: uma bactéria transferida para um meio idêntico ao de origem quase não faz lag.
+
+Na *fase logarítmica* a maquinaria está pronta e a divisão ocorre em velocidade máxima e constante, limitada apenas pelo tempo de geração da espécie naquelas condições. É a fase em que a população é mais homogênea e em que cada célula está com todos os processos ligados — parede sendo sintetizada, DNA sendo replicado, ribossomo traduzindo —, e isso terá consequência direta no subtópico seguinte.
+
+Na *fase estacionária* a velocidade de multiplicação diminui gradualmente até que o número de células por unidade de volume pare de mudar. A causa é dupla: o nutriente limitante se esgota e os produtos do metabolismo se acumulam a ponto de intoxicar a cultura — ácido da fermentação, principalmente. O ponto que costuma escapar é que a divisão não parou; o número de células novas formadas apenas passou a contrabalançar o número das que morrem. E a bactéria estacionária não é uma bactéria logarítmica mais lenta: a queda de nutriente dispara a #termo-nota[resposta estringente][programa disparado pela falta de aminoácido ou de nutriente, que redireciona a célula de crescer para sobreviver], com síntese do nucleotídeo alarmônio ppGpp, que desliga a produção de ribossomos e liga um programa genético alternativo de sobrevivência — parede mais espessa, defesas antioxidantes, tolerância a estresse. É nessa fase que muitas espécies produzem toxinas e, nas que têm essa capacidade, é aqui que começa a esporulação.
+
+Na *fase de declínio* a morte supera a formação e o número de células viáveis cai, até que a cultura se esterilize.
+
+#subtopico("3.2 — Tempo de geração na clínica: por que a cultura demora e onde o antibiótico morde")
+
+O tempo de geração é o número que traduz a curva para a prática clínica, e a diferença entre espécies é de ordens de grandeza. _Escherichia coli_ duplica a cada 20 minutos em condições ideais; _Mycobacterium tuberculosis_ leva de 18 a 24 horas para fazer o mesmo. Essa diferença muda a forma inteira da curva: a enterobactéria tem lag curta e uma fase log íngreme, entrando rapidamente em estacionária por esgotamento de nutriente; a micobactéria tem lag prolongada, log de inclinação baixa e muito alongada, e uma fase estacionária longa povoada de células em estado de latência.
+
+A primeira consequência é o tempo de resultado. Uma colônia só se torna visível a olho nu quando reúne algo em torno de 10⁸ células empilhadas no mesmo ponto do ágar. Partindo de uma única célula, uma bactéria que duplica em 20 minutos alcança essa marca em torno de nove horas de fase log, e por isso o laboratório entrega a leitura da placa em 18 a 24 horas — margem que cobre a lag e o crescimento a partir de inóculo escasso. Com duplicação de um dia, a mesma conta leva semanas, e é essa aritmética, não a dificuldade técnica, que explica por que a cultura de micobactéria demora tanto.
+
+A segunda consequência é onde o antibiótico morde. Um bacteriostático impede a proliferação, e o efeito dele é máximo exatamente onde a proliferação é máxima: na fase log. Vários bactericidas dependem da mesma janela por um motivo mecanístico mais estreito — o beta-lactâmico bloqueia a enzima que faz as ligações cruzadas do peptidoglicano, de modo que só mata a célula que está construindo parede naquele momento; uma célula parada, com parede pronta, não oferece alvo. Daí decorre a razão de associar um bacteriostático a um beta-lactâmico ser em geral desaconselhado: o primeiro trava a divisão e, ao fazê-lo, retira do segundo o alvo de que ele precisa, com antagonismo em vez de soma.
+
+#atencao-box("Tolerância não é resistência", [
+Uma subpopulação da fase estacionária entra em estado metabolicamente quase parado: são as células persistentes, e elas sobrevivem a concentrações de antibiótico que matam toda a população em fase log. A tentação é chamar isso de resistência — e o erro tem custo. A persistente é *geneticamente sensível*: seu genoma não carrega mutação nem gene de resistência, e o antibiograma da cepa dá sensível. Ela sobrevive por não estar fazendo nada que o antibiótico possa interromper, e volta a morrer com a mesma droga assim que retoma o crescimento. Por isso o problema que a tolerância gera é *recidiva após suspender o tratamento*, e a resposta é duração adequada de terapia — não troca de esquema.
+])
+
+Há ainda uma terceira leitura da curva, que liga crescimento a virulência. Em _Staphylococcus aureus_, os fatores que servem para *aderir* ao tecido — proteína ligadora de fibronectina, proteína ligadora de colágeno, fator de agregação, coagulase — são expressos predominantemente durante a fase exponencial, quando a bactéria está colonizando; já as toxinas que *destroem* tecido aparecem na fase estacionária, quando a população chega a alta densidade. A troca de programa é comandada por densidade populacional, o mecanismo de quórum: as células secretam continuamente um peptídeo sinalizador, e quando a concentração dele no meio ultrapassa um limiar — o que só acontece quando há bactéria suficiente — o sistema regulador liga os genes de toxina.
+
+#figura-nebli("/figuras/micro-02-fisiologia-crescimento-bacteriano/slide-23.png",
+  largura: 62%,
+  legenda: [Adesinas na subida da curva, toxinas no platô: a virulência não é um traço fixo da espécie, é um programa ligado em função da fase de crescimento.])
+
+#subtopico("3.3 — Meios de cultura e isolamento: a química que escolhe quem cresce")
+
+Toda a fisiologia das PARTES I e II está embutida na formulação de um meio de cultura, e a composição básica se lê como uma lista de respostas às exigências já levantadas. Hidrolisados de proteína entregam carbono e nitrogênio na forma orgânica que o quimiorganoheterotrófico exige; carboidratos oferecem substrato fermentável; tampões de fosfato seguram o pH contra o ácido da fermentação; indicadores como o vermelho de fenol e o vermelho neutro tornam essa acidificação visível; o citrato férrico revela o gás sulfídrico produzido; corantes e metais pesados inibem quem não interessa; e o ágar dá consistência sólida sem ser metabolizado por praticamente nenhuma bactéria de interesse médico, o que mantém as colônias separadas na superfície.
+
+Combinando esses ingredientes obtêm-se três categorias funcionais. Meios *não seletivos* deixam crescer tudo o que for cultivável — o #sigla("TSA", [ágar tripticase-soja — meio rico não seletivo, base de vários outros meios]) e o ágar sangue, base rica acrescida de 5% de sangue de carneiro. Meios *seletivos e diferenciais* combinam inibidor e indicador. Meios de *enriquecimento*, como os caldos tetrationato e selenito, favorecem a multiplicação de um patógeno pouco numeroso antes da semeadura, aumentando a chance de encontrá-lo em material com flora abundante.
+
+#figura-nebli("/figuras/micro-02-fisiologia-crescimento-bacteriano/slide-30.png",
+  largura: 56%,
+  legenda: [MacConkey resolvido: sais biliares e cristal violeta como inibidores, lactose como único açúcar e vermelho neutro como indicador — colônia rosa fermenta lactose, colônia incolor não fermenta.])
+
+O ágar MacConkey ilustra a lógica inteira. Sais biliares e cristal violeta inibem as Gram-positivas, cuja parede espessa e exposta é vulnerável a detergente e a corante catiônico; a lactose entra como único açúcar; o vermelho neutro reporta a acidificação. Sobram apenas Gram-negativas, já divididas por cor em fermentadoras e não fermentadoras de lactose. O ágar de _Salmonella_ e _Shigella_ leva a mesma lógica adiante — mais sais biliares e citrato de sódio para inibir também os coliformes, e tiossulfato com citrato férrico para marcar de preto quem produz gás sulfídrico.
+
+O ágar chocolate resolve uma exigência nutricional mais fina: é ágar sangue aquecido a cerca de 80 °C, e o calor rompe as hemácias liberando dois fatores indisponíveis no sangue íntegro — o fator X, que é a hemina necessária para montar os citocromos, e o fator V, que é o próprio NAD, destruído por enzimas do ágar sangue comum. Bactérias incapazes de sintetizá-los, como _Haemophilus influenzae_, crescem no chocolate e não no sangue.
+
+Nada disso funciona sem separar as células fisicamente. A técnica de esgotamento do inóculo arrasta a alça em quadrantes sucessivos, diluindo a suspensão até que no último quadrante cada célula depositada esteja longe o bastante das outras para gerar colônia isolada — o clone que vai para os testes bioquímicos. A incubação, por fim, reproduz as janelas da PARTE I: atmosfera compatível com a exigência de oxigênio da espécie, 35 a 37 °C, e 24 a 48 horas ditadas pelo tempo de geração.
+
+#figura-nebli("/figuras/micro-02-fisiologia-crescimento-bacteriano/slide-40.png",
+  largura: 44%,
+  legenda: [Cada quadrante recomeça a partir de uma raspagem do anterior; a diluição em série é mecânica, feita com a alça.])
+
+O passo mais recente da mesma ideia são os meios cromogênicos: em vez de ler acidificação, o meio traz um substrato incolor acoplado a um corante que só é clivado por uma enzima presente em determinada espécie, e a colônia adquire cor própria quando essa enzima existe. Numa única placa de urocultura, _E. coli_, _Klebsiella pneumoniae_, _Enterococcus faecalis_ e _Staphylococcus aureus_ saem em cores distintas, o que dispensa a bateria de confirmação.
+
+#clinica-box("Urocultura: por que 24 horas e não duas", [
+A paciente com disúria e febre inicia antibiótico empírico antes de o resultado sair, e a razão é aritmética: mesmo com duplicação de 20 minutos, a placa precisa acumular cerca de 10⁸ células por ponto para que a colônia apareça, o que consome a lag mais várias horas de fase log. Só então chegam juntas a contagem de colônias, que separa infecção de contaminação, a cor no meio cromogênico, que aponta a espécie, e o antibiograma. O tratamento empírico cobre exatamente esse intervalo imposto pelo tempo de geração.
 ])
 
 #conclusao-box[
-O princípio que atravessa o resumo: *diabetes é um defeito de sinal cujo produto — glicose intracelular alta e prolongada — é quimicamente reativo*. O restante é consequência dessa reatividade encontrando tecidos incapazes de se proteger dela.
-
-O mecanismo nuclear é a glicação não-enzimática avançando em etapas de reversibilidade decrescente — base de Schiff em horas, produto de Amadori em dias, ligação cruzada irreversível em meses — e o eixo AGE–RAGE convertendo dano químico em programa inflamatório com retroalimentação positiva. A mesma distinção entre etapas reversíveis e irreversíveis explica por que a hemoglobina glicada mede controle e por que a lesão do diabetes tem memória.
-
-Adoecem os tecidos que captam glicose sem depender de insulina e não conseguem fechar a porta quando a glicemia sobe — pericito, célula mesangial, endotélio, neurônio periférico, cristalino. Cada um tem uma assinatura de imagem que corresponde ao substrato descrito pelo patologista: o rim que aumenta antes de encolher, a erosão articular sem reação periosteal do Charcot, o edema de medular óssea da osteomielite, a calcificação coronariana medida em unidades Hounsfield, o parênquima hipoatenuante do infarto cerebral.
-
-Duas portas ficam abertas. A inflamação crônica e o reparo tecidual: o que a PARTE III chamou de auto-perpetuador é, no vocabulário da patologia, inflamação crônica com fibrose, e o pé que não cicatriza é reparo travado. E a trombose: a placa que rompe e o trombo que se forma sobre ela são hemostasia funcionando como deveria, no lugar errado.
+Uma única ideia atravessa este resumo: a bactéria converte recurso do meio em mais cópias de si mesma, e tudo o que se mede em bacteriologia é consequência dessa conversão. O mecanismo nuclear é a oxirredução — a célula arranca elétrons de um substrato e precisa entregá-los a alguém. Entregando ao próprio piruvato, fermenta e rende pouco; entregando a uma cadeia na membrana plasmática terminada em oxigênio ou nitrato, respira e rende muito; e é o aceptor disponível, somado às janelas de pH, temperatura, sal e ferro, que decide onde cada espécie vive. No plano da população essa conversão aparece como as quatro fases da curva, e a fase vira decisão: a lag explica a demora da cultura, a log é onde morde o antibiótico que exige célula em divisão, a estacionária produz as toxinas e as persistentes que fazem a infecção recidivar, e o tempo de geração fixa a escala de horas ou de semanas. A bancada materializa essa fisiologia — o meio entrega o que a PARTE I listou, o indicador lê o resíduo da PARTE II, a incubação respeita o relógio da PARTE III. O passo seguinte é natural: se a droga precisa encontrar a bactéria em determinado estado metabólico, o próximo tema é como essas drogas agem e como as bactérias escapam delas.
 ]

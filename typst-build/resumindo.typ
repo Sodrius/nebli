@@ -1,33 +1,30 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("Um defeito de sinal, dois caminhos",
-   [O receptor de insulina é uma tirosina-quinase que traz vesículas prontas de GLUT-4 à membrana e, além de abrir a porta, freia lipólise, gliconeogênese e proteólise. No tipo 1 a ilhota é destruída por autoimunidade e a fonte desse sinal acaba; no tipo 2 o sinal chega e a célula não responde, com insulina normal ou *alta* por anos. A hiperglicemia é o resultado comum de dois defeitos opostos.]),
+  ("A curva é da população, não da célula",
+   [Crescimento bacteriano é aumento de número por divisão binária, então a população dobra a cada tempo de geração e o eixo precisa ser logarítmico para que a fase exponencial vire reta legível.]),
 
-  ("Por que o tipo 1 cetoacidota",
-   [Sem insulina, a lipase hormônio-sensível fica livre e inunda o fígado de ácido graxo; a acetil-CoA gerada excede o ciclo de Krebs e vira cetoácido. No tipo 2 a insulina residual segura a lipólise — por isso ele descompensa como estado hiperosmolar, sem cetose.]),
+  ("Lag constrói, log divide, estacionária troca de programa",
+   [Na lag não há divisão mas há síntese de ribossomos e enzimas; na log a divisão é máxima e constante; na estacionária formação iguala morte e a resposta estringente liga um programa de sobrevivência.]),
 
-  ("O sintoma nasce no túbulo",
-   [Acima de cerca de 180 mg/dL a reabsorção tubular satura e a glicose fica no lúmen, retendo água por osmose. A poliúria vem primeiro, desidrata, eleva a osmolaridade e só então dispara a sede. O emagrecimento soma glicosúria, lipólise e proteólise.]),
+  ("Tempo de geração fixa o relógio do laboratório",
+   [Colônia visível reúne cerca de 10#super[8] células: _E. coli_, que duplica em 20 minutos, dá leitura em 18 a 24 horas; a micobactéria, com duplicação de quase um dia, leva semanas.]),
 
-  ("Glicação em três etapas, com reversibilidade decrescente",
-   [Base de Schiff em horas e reversível; Amadori em dias e pouco reversível; ligação cruzada irreversível em semanas a meses. O tempo que a glicose passa alta define até onde a reação avança — e a proteína de vida longa é a que paga.]),
+  ("Antibiótico precisa da célula em atividade",
+   [O bacteriostático rende mais na fase log, e o beta-lactâmico só mata quem está sintetizando parede; travar a divisão antes retira o alvo do bactericida, e as duas classes se antagonizam.]),
 
-  ("Dois relógios do controle",
-   [A hemoglobina glicada integra 8 a 12 semanas porque a hemácia vive esse tanto; a frutosamina lê 2 a 3 semanas porque a albumina vive esse tanto. Onde a sobrevida da hemácia é anormal, o primeiro exame engana e o segundo resolve.]),
+  ("Persistente é tolerante, não resistente",
+   [A subpopulação quiescente da estacionária sobrevive a doses que esterilizam a cultura em log, mas seu genoma é sensível: ela morre ao voltar a crescer, e o risco clínico é recidiva por tratamento curto.]),
 
-  ("O AGE não só reticula: ele sinaliza",
-   [Ligado ao RAGE em monócito, endotélio e célula mesangial, ativa NF-κB e dispara citocinas, adesão e fator tecidual. A via aumenta a expressão do próprio receptor e o estresse oxidativo, que gera mais AGE — a alça que torna o dano auto-perpetuado.]),
+  ("Fermentar e respirar diferem em quem recebe o elétron",
+   [Sem aceptor externo o piruvato é reduzido para regenerar NAD⁺ e o saldo fica em 2 ATP; com oxigênio ou nitrato a cadeia da membrana plasmática entra em cena e o rendimento sobe para cerca de 30.]),
 
-  ("Quem adoece é quem não fecha a porta",
-   [Pericito, célula mesangial, endotélio, neurônio e cristalino captam glicose sem depender de insulina e não reduzem a entrada quando a glicemia sobe. Os órgãos-alvo do diabetes são esses tecidos, pelas rotas do poliol, da PKC, da hexosamina e do AGE.]),
+  ("Oxigênio mata quem não tem dismutase e catalase",
+   [O anaeróbio estrito não é indiferente ao ar: sem essas duas enzimas, o superóxido e o peróxido formados espontaneamente oxidam sua maquinaria, e a cultura vem negativa por morte, não por ausência.]),
 
-  ("A microangiopatia órgão a órgão",
-   [Retina: morte de pericito, microaneurisma e, na isquemia, neovaso frágil que sangra. Glomérulo: hiperfiltração que aumenta o rim, membrana basal espessa e mais permeável, albuminúria antes da creatinina, e rim reduzido e hiperecogênico no fim.]),
+  ("Ferro escasso avisa a bactéria de que ela entrou no hospedeiro",
+   [Transferrina, lactoferrina, ferritina e hemoglobina mantêm o ferro livre na ordem de 10⁻¹⁸ molar; a queda do ferro solta a proteína Fur do DNA e libera sideróforos, hemolisinas e toxinas.]),
 
-  ("Três falhas fazem o pé diabético",
-   [A neuropatia sensitiva apaga o alarme da dor, a autonômica resseca a pele e abre fissuras, e a doença arterial periférica tira o aporte que cicatrizaria. Charcot é destruição mecânica de articulação insensível; osteomielite é infecção da medular — coexistem e exigem condutas opostas.]),
-
-  ("A placa mata rompendo, e cada exame responde uma pergunta",
-   [Núcleo lipídico grande e capa fina se fissuram e expõem fator tecidual; o trombo oclui em minutos, mesmo em placa pouco estenosante. O escore de cálcio mede carga de placa, a angiotomografia exclui doença em risco intermediário, o cateterismo quantifica e trata.]),
+  ("O meio de cultura é fisiologia materializada",
+   [Hidrolisado cobre carbono e nitrogênio, tampão segura o pH, inibidor exclui e indicador revela: no MacConkey os sais biliares tiram as Gram-positivas e o vermelho neutro separa quem fermenta lactose.]),
 ))

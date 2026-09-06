@@ -1,231 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [O transportador de glicose cuja translocação para a membrana depende da insulina, presente no músculo esquelético e no tecido adiposo, é o:],
-  (("A", [GLUT-1, expresso de forma constitutiva na hemácia e na barreira hematoencefálica.]),
-   ("B", [GLUT-2, transportador de alta capacidade do hepatócito e da célula beta pancreática.]),
-   ("C", [SGLT-2, cotransportador de sódio e glicose do túbulo contorcido proximal.]),
-   ("D", [GLUT-4, estocado em vesículas intracelulares e translocado à membrana pela via da Akt.]),
-   ("E", [GLUT-3, transportador de alta afinidade do neurônio, independente de insulina.])))
+  [A combinação trófica que descreve as bactérias de interesse médico é:],
+  (("A", [Fototrófica quanto à energia, litotrófica quanto aos elétrons e autotrófica quanto ao carbono.]),
+   ("B", [Quimiotrófica quanto à energia, organotrófica quanto aos elétrons e heterotrófica quanto ao carbono.]),
+   ("C", [Quimiotrófica quanto à energia, litotrófica quanto aos elétrons e autotrófica quanto ao carbono.]),
+   ("D", [Fototrófica quanto à energia, organotrófica quanto aos elétrons e heterotrófica quanto ao carbono.]),
+   ("E", [Quimiotrófica quanto à energia, organotrófica quanto aos elétrons e autotrófica quanto ao carbono.])))
 
-#questao-ce("02", badge-consolidacao,
-  [Julgue os itens a seguir sobre a glicação e os exames que a medem.],
-  (("I",   [A glicação da hemoglobina é catalisada por uma glicosiltransferase específica da hemácia.]),
-   ("II",  [A base de Schiff se forma em horas e é reversível.]),
-   ("III", [A hemoglobina glicada reflete as últimas 8 a 12 semanas de exposição à glicose.]),
-   ("IV",  [A frutosamina reflete uma janela de tempo maior que a da hemoglobina glicada.])))
+#questao-mc("02", badge-consolidacao,
+  [O grupo térmico dos patógenos humanos e sua temperatura ótima de crescimento são:],
+  (("A", [Psicrófilos, com temperatura ótima de crescimento em torno de 4 °C.]),
+   ("B", [Termófilos, com temperatura ótima de crescimento em torno de 60 °C.]),
+   ("C", [Hipertermófilos, com temperatura ótima de crescimento em torno de 100 °C.]),
+   ("D", [Mesófilos, com temperatura ótima de crescimento em torno de 37 °C.]),
+   ("E", [Mesófilos, com temperatura ótima de crescimento em torno de 60 °C.])))
 
-#questao-mc("03", badge-consolidacao,
-  [A glicosúria começa a aparecer quando a glicemia ultrapassa aproximadamente:],
-  (("A", [100 mg/dL, valor que define o limite superior da glicemia de jejum normal.]),
-   ("B", [126 mg/dL, valor de glicemia de jejum usado como ponto de corte diagnóstico.]),
-   ("C", [180 mg/dL, ponto em que satura a reabsorção tubular proximal de glicose.]),
-   ("D", [250 mg/dL, faixa a partir da qual costuma haver cetose no diabetes tipo 1.]),
-   ("E", [300 mg/dL, faixa habitual de apresentação do estado hiperosmolar não cetótico.])))
+#questao-ce("03", badge-consolidacao,
+  [Julgue os itens sobre nutrição e classificação nutricional das bactérias:],
+  (("I",   [Carbono, nitrogênio, enxofre e fósforo compõem a maior parte do peso seco bacteriano.]),
+   ("II",  [O ágar é a principal fonte de carbono dos meios de cultura sólidos.]),
+   ("III", [Magnésio, potássio e ferro são exigidos como cofatores, apesar da pequena quantidade.]),
+   ("IV",  [O sufixo autotrófico designa a origem do carbono; o termo organotrófico designa a origem dos elétrons.])))
 
 #questao-mc("04", badge-consolidacao,
-  [A dosagem de peptídeo C em um paciente com diabetes serve para estimar:],
-  (("A", [A secreção endógena residual de insulina pela célula beta pancreática.]),
-   ("B", [A dose diária total de insulina exógena que o paciente vem aplicando.]),
-   ("C", [O grau de resistência periférica à insulina nos tecidos-alvo do hormônio.]),
-   ("D", [O título de autoanticorpos dirigidos contra antígenos da ilhota pancreática.]),
-   ("E", [A capacidade de extração hepática da insulina na primeira passagem.])))
+  [As duas enzimas cuja ausência torna o oxigênio letal para o anaeróbio estrito, com suas respectivas reações, são:],
+  (("A", [Catalase, que converte superóxido em peróxido, e superóxido dismutase, que quebra o peróxido.]),
+   ("B", [Nitrato redutase, que reduz o nitrato, e citocromo oxidase, que reduz o oxigênio final.]),
+   ("C", [Superóxido dismutase, que converte superóxido em peróxido, e catalase, que quebra o peróxido.]),
+   ("D", [Superóxido dismutase, que quebra o peróxido, e peroxidase, que converte superóxido em água.]),
+   ("E", [Ribonucleotídeo redutase, que sintetiza desoxirribonucleotídeos, e coagulase, que agrega o plasma.])))
 
-#questao-ce("05", badge-consolidacao,
-  [Julgue os itens a seguir sobre os métodos de imagem da doença arterial coronariana.],
-  (("I",   [O escore de cálcio é adquirido sem contraste intravenoso.]),
-   ("II",  [A angiotomografia de coronárias utiliza contraste iodado.]),
-   ("III", [A angiocoronariografia invasiva permite tratar a lesão no mesmo procedimento.]),
-   ("IV",  [O escore de cálcio informa o grau de estenose da luz coronariana.])))
+#questao-mc("05", badge-consolidacao,
+  [O saldo líquido da glicólise, por molécula de glicose degradada, é:],
+  (("A", [Dois ATP, dois NADH e dois piruvatos, sem consumo de oxigênio em passo nenhum.]),
+   ("B", [Quatro ATP, dois NADH e dois piruvatos, sem consumo de oxigênio em passo nenhum.]),
+   ("C", [Dois ATP, dois FADH₂ e dois piruvatos, com consumo de oxigênio no passo final.]),
+   ("D", [Trinta ATP, dois NADH e dois piruvatos, sem consumo de oxigênio em passo nenhum.]),
+   ("E", [Dois ATP, dois NADH e um único piruvato, com consumo de oxigênio no passo final.])))
 
 #questao-mc("06", badge-consolidacao,
-  [No estágio final da nefropatia diabética, a ultrassonografia renal mostra:],
-  (("A", [Rins aumentados de volume, com córtex espessado e ecogenicidade reduzida.]),
-   ("B", [Rins de dimensões normais, com dilatação do sistema coletor bilateralmente.]),
-   ("C", [Rins aumentados de volume, com múltiplos cistos corticais e medulares.]),
-   ("D", [Rins de dimensões normais, com perda da diferenciação córtico-medular.]),
-   ("E", [Rins reduzidos de volume, com córtex afilado e ecogenicidade aumentada.])))
+  [Sobre a produção de energia por respiração na bactéria, assinale a *incorreta*:],
+  (("A", [O piruvato é descarboxilado a acetil-coenzima A antes de entrar no ciclo dos ácidos tricarboxílicos.]),
+   ("B", [A cadeia transportadora de elétrons bacteriana fica encravada na membrana plasmática, e não em mitocôndria.]),
+   ("C", [Na respiração anaeróbia o aceptor final é um composto inorgânico oxidado, como nitrato ou sulfato.]),
+   ("D", [A ATP sintase bombeia prótons para fora da célula e assim gera a força próton-motriz.]),
+   ("E", [O oxigênio atua como aceptor final de elétrons e é reduzido a água ao fim da cadeia.])))
 
 #questao-ce("07", badge-consolidacao,
-  [Julgue os itens a seguir sobre as duas lesões ósseas do pé diabético.],
-  (("I",   [A artropatia de Charcot decorre de microtraumas repetidos em articulação sem dor nem propriocepção.]),
-   ("II",  [A osteomielite é infecção que acomete a medular óssea.]),
-   ("III", [A radiografia simples detecta a osteomielite já nas primeiras horas de infecção.]),
-   ("IV",  [O edema da medular óssea aparece com alto sinal em T1 na ressonância magnética.])))
+  [Julgue os itens sobre a leitura de meios diferenciais:],
+  (("I",   [Colônia rosa em ágar MacConkey indica fermentação da lactose com acidificação do meio.]),
+   ("II",  [O escurecimento central em meio com tiossulfato e citrato férrico indica produção de gás sulfídrico.]),
+   ("III", [A cor observada na colônia é o pigmento próprio da bactéria em cultivo.]),
+   ("IV",  [O vermelho neutro é o indicador de pH do ágar MacConkey.])))
 
 #questao-mc("08", badge-consolidacao,
-  [Os dois intermediários lipídicos que se acumulam no miócito sob excesso de ácido graxo e ativam serina-quinases de estresse são:],
-  (("A", [Colesterol livre e éster de colesterol, acumulados na gotícula lipídica citoplasmática.]),
-   ("B", [Acetoacetato e β-hidroxibutirato, os dois corpos cetônicos produzidos pelo hepatócito.]),
-   ("C", [Diacilglicerol e ceramida, derivados do excesso de acil-CoA graxo intracelular.]),
-   ("D", [Fosfatidilcolina e esfingomielina, principais fosfolipídeos da membrana plasmática.]),
-   ("E", [Prostaglandina E₂ e leucotrieno B₄, eicosanoides derivados do ácido araquidônico.])))
+  [A fase lag da curva de crescimento bacteriano caracteriza-se por:],
+  (("A", [Divisão celular em velocidade máxima e constante, com consumo acelerado de nutrientes do meio.]),
+   ("B", [Equilíbrio entre células novas e células que morrem, com número total mantido constante.]),
+   ("C", [Predomínio da morte celular sobre a formação, com queda do número de células viáveis.]),
+   ("D", [Ausência de divisão celular com queda de massa e atividade metabólica praticamente nula.]),
+   ("E", [Ausência de divisão celular com aumento de massa e intensa atividade metabólica de adaptação.])))
 
-#questao-mc("09", badge-integracao,
-  [Retina, glomérulo, nervo periférico e cristalino concentram as complicações crônicas do diabetes, enquanto o músculo esquelético é relativamente poupado. A explicação mecanística desse contraste é:],
-  (("A", [O músculo esquelético dispõe de uma isoforma de aldose-redutase com afinidade muito baixa pela glicose, o que impede a via dos polióis de operar nesse tecido mesmo sob hiperglicemia prolongada.]),
-   ("B", [Esses tecidos captam glicose por transportadores independentes de insulina e não reduzem a entrada quando a glicemia sobe, enquanto o músculo diminui o GLUT-4 de superfície e limita a própria carga intracelular.]),
-   ("C", [A microcirculação desses órgãos é anatomicamente terminal, e é apenas essa ausência de circulação colateral, e não a concentração intracelular de glicose, que determina onde a lesão crônica se instala.]),
-   ("D", [Esses tecidos possuem taxa de renovação proteica muito superior à do músculo, o que multiplica o número de grupos amino recém-expostos disponíveis para a reação de glicação não-enzimática.]),
-   ("E", [O músculo esquelético expressa concentrações elevadas de receptor para produtos de glicação avançada e degrada localmente os AGEs formados antes que eles estabeleçam ligações cruzadas.])))
+#questao-mc("09", badge-consolidacao,
+  [Os tempos de geração aproximados de _E. coli_ e de _M. tuberculosis_, em condições ideais, são respectivamente:],
+  (("A", [Duas horas para a enterobactéria e de 18 a 24 horas para a micobactéria.]),
+   ("B", [Vinte minutos para a enterobactéria e de 18 a 24 horas para a micobactéria.]),
+   ("C", [Vinte minutos para a enterobactéria e de duas a três horas para a micobactéria.]),
+   ("D", [Vinte minutos para as duas espécies, com diferença apenas na duração da fase lag.]),
+   ("E", [Dezoito horas para a enterobactéria e vinte minutos para a micobactéria.])))
 
-#questao-ce("10", badge-integracao,
-  [Julgue os itens a seguir sobre as duas formas de descompensação aguda do diabetes.],
-  (("I",   [No tipo 1, a ausência quase total de insulina libera a lipase hormônio-sensível, e a inundação do fígado por ácido graxo produz cetoácidos em excesso.]),
-   ("II",  [No tipo 2, a insulina residual é insuficiente para normalizar a glicemia mas basta para conter a lipólise, o que explica a ausência de cetose franca na descompensação típica.]),
-   ("III", [A respiração ampla e profunda observada na cetoacidose reflete comprometimento pulmonar direto causado pela hiperglicemia e pela desidratação associadas ao quadro.]),
-   ("IV",  [O estado hiperosmolar é primariamente um distúrbio de água, produzido pela diurese osmótica prolongada, e não um distúrbio do equilíbrio ácido-base.])))
+#questao-ce("10", badge-consolidacao,
+  [Julgue os itens sobre composição e classes de meios de cultura:],
+  (("I",   [Caldos tetrationato e selenito são meios de enriquecimento, não meios de leitura em placa.]),
+   ("II",  [O ágar chocolate resulta do aquecimento do ágar sangue, que libera os fatores X e V.]),
+   ("III", [Os sais biliares do ágar MacConkey inibem o crescimento das bactérias Gram-negativas.]),
+   ("IV",  [O ágar é a principal fonte de nitrogênio dos meios de cultura sólidos.])))
 
 #questao-mc("11", badge-integracao,
-  [Após seis meses de bom controle glicêmico, a hemoglobina glicada de um paciente normalizou, mas a rigidez da matriz e a dificuldade de cicatrização persistem. A explicação é:],
-  (("A", [A hemoglobina glicada mede glicemia recente enquanto o colágeno registra a glicemia de anos anteriores, sem que a química das duas modificações difira entre si.]),
-   ("B", [A hemácia possui enzimas de desglicação ausentes no fibroblasto, e é essa maquinaria que devolve a hemoglobina ao estado original quando a glicemia normaliza.]),
-   ("C", [O colágeno sofre glicosilação enzimática, irreversível por definição, enquanto a hemoglobina sofre apenas a glicação espontânea, que reverte com a queda da glicemia.]),
-   ("D", [A hemoglobina glicada é produto de Amadori e sai de circulação com a renovação da hemácia, enquanto o colágeno reticulado por ligação cruzada resiste à proteólise e não é reposto.]),
-   ("E", [A rigidez da matriz decorre de deposição de cálcio, e não de glicação, de modo que ela não guarda relação com a exposição prévia à glicose nem responde ao controle.])))
+  [A base de praticamente todo meio de cultura para bactérias de interesse médico é o hidrolisado de proteína. O mecanismo que explica essa escolha é:],
+  (("A", [Essas bactérias são quimiolitoautotróficas e fixam gás carbônico, de modo que o hidrolisado serve apenas como fonte de nitrogênio, enquanto o carbono é retirado do gás dissolvido no meio.]),
+   ("B", [O hidrolisado atua principalmente como tampão de pH, impedindo que o ácido produzido pela fermentação reduza o pH abaixo da faixa de crescimento das espécies neutrófilas.]),
+   ("C", [Essas bactérias são quimiorganoheterotróficas e retiram energia, carbono e elétrons de compostos orgânicos, de modo que o meio precisa entregar carbono e nitrogênio já em forma orgânica assimilável.]),
+   ("D", [A proteína hidrolisada fornece os aminoácidos sulfurados de que a via respiratória depende, já que o enxofre é o aceptor final de elétrons na respiração anaeróbia dessas espécies.]),
+   ("E", [O hidrolisado dá consistência ao meio e permite que as colônias fiquem separadas na superfície, papel que o ágar sozinho não cumpre nos meios seletivos e diferenciais.])))
 
-#questao-mc("12", badge-integracao,
-  [Sobre o elo entre a hiperglicemia crônica e a formação da placa de ateroma, assinale a alternativa *incorreta*.],
-  (("A", [A captação da LDL glicada pelo macrófago se dá por receptores de LDL clássicos, cuja expressão cai à medida que o colesterol intracelular sobe, o que limita a formação de células espumosas.]),
-   ("B", [A glicação da LDL prejudica o reconhecimento da partícula pelo seu receptor hepático, prolonga o tempo que ela passa na circulação e favorece a oxidação no espaço subendotelial.]),
-   ("C", [Os receptores scavenger do macrófago não são inibidos pelo colesterol já acumulado na célula, e é essa ausência de regulação que produz a célula espumosa.]),
-   ("D", [A inativação do óxido nítrico pelos produtos de glicação avançada instala disfunção endotelial antes que exista placa detectável por qualquer método de imagem.]),
-   ("E", [O eixo AGE-RAGE mantém estado pró-inflamatório e pró-coagulante, com aumento de fator tecidual e do inibidor do ativador de plasminogênio.])))
+#questao-ce("12", badge-integracao,
+  [Uma cultura em caldo sem tampão é comparada a outra em caldo tamponado com fosfato, ambas semeadas com a mesma enterobactéria fermentadora. Julgue os itens:],
+  (("I",   [O tampão fosfato existe para conter a queda de pH provocada pelo ácido que a própria cultura produz.]),
+   ("II",  [Uma bactéria acidófila mantém o citoplasma no mesmo pH ácido do meio em que cresce.]),
+   ("III", [A acidificação ao redor da colônia decorre da respiração aeróbia, que libera gás carbônico como único produto.]),
+   ("IV",  [Sem tampão, a cultura pode entrar em declínio por autointoxicação antes de esgotar o nutriente limitante.])))
 
 #questao-ce("13", badge-integracao,
-  [Julgue os itens a seguir sobre a via dos polióis e suas consequências oculares.],
-  (("I",   [A aldose-redutase converte glicose em sorbitol consumindo NADPH, e a menor disponibilidade de glutationa reduzida enfraquece a defesa antioxidante da célula.]),
-   ("II",  [O sorbitol atravessa livremente a membrana da fibra do cristalino e é exportado para o humor aquoso, razão pela qual não contribui para a opacificação da lente.]),
-   ("III", [A oscilação do grau refrativo do paciente descompensado se explica por variação do conteúdo de água do cristalino acompanhando as mudanças de glicemia.]),
-   ("IV",  [Os neovasos da retinopatia proliferativa surgem em resposta à isquemia retiniana e, por serem frágeis e crescerem em direção ao vítreo, sangram e tracionam a retina.])))
+  [Julgue os itens sobre a relação entre exigência de oxigênio e destino dos elétrons:],
+  (("I",   [O anaeróbio facultativo depende de nitrato como aceptor final sempre que há oxigênio disponível.]),
+   ("II",  [O anaeróbio estrito deixa de crescer no ar por falta de aceptor final de elétrons.]),
+   ("III", [O microaerófilo exige oxigênio, porém em tensão inferior à atmosférica.]),
+   ("IV",  [A superóxido dismutase converte o ânion superóxido em peróxido de hidrogênio e oxigênio.])))
 
 #questao-mc("14", badge-integracao,
-  [A membrana basal glomerular do paciente com nefropatia diabética está espessada e, ainda assim, deixa passar albumina para o filtrado. A explicação desse achado aparentemente contraditório é:],
-  (("A", [O espessamento reduz o tamanho dos poros de filtração a ponto de reter moléculas maiores, e a albumina detectada na urina provém da descamação de células tubulares lesadas pela hiperglicemia.]),
-   ("B", [O que aumenta não é apenas a espessura: a matriz depositada é desorganizada e a membrana perde proteoglicanos aniônicos, isto é, a barreira de carga que repelia a albumina, também aniônica.]),
-   ("C", [A espessura maior aumenta a distância de difusão e reduz o fluxo de água, elevando a concentração de albumina no filtrado sem que a permeabilidade da barreira tenha se alterado.]),
-   ("D", [A albuminúria decorre da hialinização das arteríolas eferentes, que reduz a pressão de filtração e faz a albumina ser secretada ativamente pelo epitélio do túbulo proximal para o lúmen.]),
-   ("E", [O espessamento da membrana basal é acompanhado de infiltrado inflamatório rico em neutrófilos, cujas proteases digerem localmente a barreira e abrem falhas por onde a albumina escapa.])))
+  [Uma cepa de _Corynebacterium diphtheriae_ cultivada em meio pobre em ferro produz muito mais toxina que a mesma cepa cultivada em meio suplementado com ferro. O mecanismo é:],
+  (("A", [Com ferro alto, os citocromos da cadeia respiratória ficam saturados e a célula desvia o excesso de elétrons para a via de síntese da toxina, que funciona como dreno redox.]),
+   ("B", [O ferro do meio quela a toxina já secretada e a inativa antes da dosagem, de modo que a diferença observada é analítica e não reflete mudança de expressão gênica.]),
+   ("C", [A escassez de ferro reduz a atividade da ribonucleotídeo redutase e leva a célula à fase estacionária precoce, única fase em que a toxina é produzida, por esporulação.]),
+   ("D", [Sideróforos secretados em resposta à falta de ferro são eles próprios a toxina, de modo que a produção aumenta pelo simples acúmulo desses quelantes no sobrenadante da cultura.]),
+   ("E", [Com ferro alto, a proteína Fur ligada ao metal ocupa os promotores dos genes de virulência e os reprime; a queda do ferro solta Fur do DNA e libera a transcrição da toxina.])))
 
-#questao-mc("15", badge-integracao,
-  [Em um homem obeso e sedentário, a cadeia que liga o excesso de oferta de ácido graxo ao músculo à redução da captação de glicose por essa mesma fibra é:],
-  (("A", [O ácido graxo compete com a glicose pelo sítio de transporte do GLUT-4 na membrana, e a ocupação desse sítio reduz proporcionalmente o número de moléculas de glicose transportadas por minuto.]),
-   ("B", [O ácido graxo é oxidado preferencialmente na mitocôndria, e o acúmulo de citrato inibe a fosfofrutoquinase, o que eleva a glicose-6-fosfato intracelular e bloqueia a entrada do açúcar pela membrana.]),
-   ("C", [O ácido graxo ativa receptores nucleares que reprimem a transcrição do gene do receptor de insulina, e a menor densidade de receptores na superfície reduz a sinalização em todas as suas ramificações.]),
-   ("D", [O excedente de acil-CoA graxo acumula diacilglicerol e ceramida, que ativam serina-quinases de estresse; estas fosforilam o IRS-1 em serina, o sinal não alcança a PI3K e menos GLUT-4 chega à membrana.]),
-   ("E", [O ácido graxo se liga diretamente à subunidade beta do receptor de insulina e bloqueia o sítio catalítico da tirosina-quinase, impedindo a autofosforilação que iniciaria toda a cascata intracelular.])))
+#questao-ce("15", badge-integracao,
+  [Julgue os itens sobre fermentação e sua leitura na bancada:],
+  (("I",   [O terceiro estágio da fermentação existe para regenerar NAD⁺ e não gera ATP adicional.]),
+   ("II",  [A cor de uma colônia em meio diferencial vem da reação entre metabólito e indicador, não de pigmento bacteriano.]),
+   ("III", [Colônia incolor em meio com lactose indica crescimento sem fermentação daquele açúcar.]),
+   ("IV",  [A fermentação usa um aceptor final de elétrons inorgânico externo à célula.])))
 
-#questao-ce("16", badge-integracao,
-  [Julgue os itens a seguir sobre os mecanismos que produzem e mantêm a úlcera do pé diabético.],
-  (("I",   [A perda de sensibilidade dolorosa protege o pé, porque reduz o reflexo de retirada e, com ele, o número de traumas repetidos sobre o mesmo ponto de apoio.]),
-   ("II",  [A neuropatia autonômica reduz a sudorese local, resseca a pele e abre fissuras que servem de porta de entrada para infecção bacteriana.]),
-   ("III", [A doença arterial periférica limita a chegada de oxigênio, de células de defesa e do próprio antibiótico administrado ao leito da úlcera.]),
-   ("IV",  [O colágeno reticulado por produtos de glicação avançada resiste à digestão proteolítica, e o remodelamento da matriz necessário ao reparo fica comprometido.])))
+#questao-mc("16", badge-integracao,
+  [Uma cultura de _E. coli_ em caldo idêntico atinge densidade maior e em menos tempo quando o frasco é agitado sob aeração do que quando permanece fechado. O mecanismo é:],
+  (("A", [Com oxigênio disponível, a bactéria desloca o piruvato do ramo fermentativo para o ciclo e a cadeia respiratória, e o rendimento por glicose sobe de cerca de dois para cerca de trinta ATP.]),
+   ("B", [A agitação aumenta o contato entre as células e acelera a divisão binária por contato físico, encurtando o tempo de geração sem qualquer mudança na via metabólica utilizada.]),
+   ("C", [O oxigênio funciona como fonte de carbono adicional para a bactéria, o que amplia a oferta de substrato do meio e adia o esgotamento do nutriente limitante da cultura.]),
+   ("D", [A aeração remove o gás sulfídrico produzido pela fermentação, que de outro modo precipitaria e inibiria a superóxido dismutase, levando a cultura à fase de declínio precoce.]),
+   ("E", [Sob aeração a bactéria passa a usar nitrato como aceptor final, rota de rendimento maior que a respiração aeróbia por envolver menos passos na cadeia transportadora de elétrons.])))
 
 #questao-mc("17", badge-integracao,
-  [A hiperfiltração glomerular observada no início da nefropatia diabética é frequentemente interpretada como sinal de função renal preservada. A leitura mecanística correta é:],
-  (("A", [A hiperfiltração é um mecanismo compensatório benigno que se mantém estável por décadas, e a esclerose glomerular decorre apenas da hialinização arteriolar, sem relação com a pressão intraglomerular.]),
-   ("B", [A hiperfiltração é a primeira alteração funcional da doença: a arteríola aferente dilata mais que a eferente, a pressão no capilar sobe, e essa sobrecarga sustentada produz a esclerose de anos depois.]),
-   ("C", [A hiperfiltração indica aumento real de massa de néfrons funcionantes induzido pela insulina, e a queda posterior da filtração reflete apenas a interrupção desse estímulo trófico pelo tratamento.]),
-   ("D", [A hiperfiltração resulta de vasoconstrição da arteríola aferente com redução da pressão glomerular, e a albuminúria que a acompanha decorre de lesão isquêmica do podócito por baixo fluxo.]),
-   ("E", [A hiperfiltração é artefato de cálculo da taxa de filtração a partir da creatinina sérica, que se encontra falsamente reduzida pela perda de massa muscular do paciente descompensado.])))
+  [Comparando a fosforilação oxidativa em uma bactéria e em uma célula humana, a diferença mecanística relevante é:],
+  (("A", [Na bactéria a fosforilação oxidativa ocorre no citoplasma por transferência direta de fosfato de intermediários energizados, dispensando qualquer gradiente de próton através de membrana biológica.]),
+   ("B", [Na bactéria o aceptor final de elétrons é sempre um composto inorgânico oxidado, como nitrato ou sulfato, e nunca o oxigênio molecular, que seria exclusivo dos organismos eucariotos.]),
+   ("C", [Na bactéria os elétrons do NADH são entregues diretamente ao oxigênio sem passar por citocromos, o que explica o rendimento menor por molécula de glicose completamente oxidada.]),
+   ("D", [Na bactéria a cadeia transportadora e a ATP sintase ficam na membrana plasmática, e os prótons são bombeados para fora dela; no eucarioto o mesmo aparato fica na membrana interna da mitocôndria.]),
+   ("E", [Na bactéria a ATP sintase bombeia prótons para o periplasma e a cadeia transportadora os traz de volta, invertendo o sentido do fluxo de próton em relação ao que ocorre no eucarioto.])))
 
-#questao-mc("18", badge-integracao,
-  [Sobre a aterosclerose acelerada do paciente diabético, assinale a alternativa *incorreta*.],
-  (("A", [A inativação do óxido nítrico pelos produtos de glicação avançada reduz a vasodilatação dependente do endotélio e favorece a adesão de leucócitos e plaquetas à parede arterial.]),
-   ("B", [O eixo AGE-RAGE mantém um estado pró-inflamatório com secreção de citocinas, expressão de moléculas de adesão e aumento da produção de fator tecidual pela célula endotelial.]),
-   ("C", [A disfunção endotelial do diabético só se instala depois que a placa de ateroma se torna visível à angiotomografia, o que faz do exame de imagem o marcador mais precoce da doença.]),
-   ("D", [O estado pró-coagulante inclui aumento do inibidor do ativador de plasminogênio, com redução da fibrinólise e maior persistência do trombo formado sobre a placa instabilizada.]),
-   ("E", [A maioria dos eventos coronarianos agudos decorre da ruptura de placa vulnerável, com núcleo lipídico grande e capa fibrosa fina, muitas vezes pouco estenosante antes do evento.])))
+#questao-ce("18", badge-integracao,
+  [Julgue os itens sobre respiração anaeróbia e suas consequências na bancada:],
+  (("I",   [Material com suspeita de anaeróbio estrito pode ser transportado exposto ao ar sem prejuízo da cultura.]),
+   ("II",  [Na respiração anaeróbia a cadeia transportadora continua funcionando, com nitrato ou sulfato como aceptor final.]),
+   ("III", [O rendimento da respiração anaeróbia é intermediário entre o da fermentação e o da respiração aeróbia.]),
+   ("IV",  [A atmosfera de incubação deve ser escolhida conforme a exigência de oxigênio da espécie procurada.])))
 
-#questao-ce("19", badge-integracao,
-  [Julgue os itens a seguir sobre a predisposição do paciente diabético à infecção urinária.],
-  (("I",   [A glicosúria oferece substrato de crescimento no próprio lúmen urinário e favorece a colonização bacteriana da via urinária.]),
-   ("II",  [A neuropatia autonômica vesical acelera o esvaziamento da bexiga e, ao reduzir o volume residual, protege o paciente contra a infecção ascendente.]),
-   ("III", [A hiperglicemia melhora a quimiotaxia e a explosão respiratória do neutrófilo, o que compensa parcialmente o risco aumentado de infecção urinária.]),
-   ("IV",  [A esclerose glomerular e a pielonefrite comprometem o mesmo órgão por caminhos independentes, e as perdas de função resultantes se somam.])))
+#questao-mc("19", badge-integracao,
+  [Em ágar de _Salmonella_ e _Shigella_, colônias incolores com centro negro sugerem _Salmonella_. A cadeia química que produz esse centro negro é:],
+  (("A", [A bactéria fermenta a lactose e acidifica o meio, e o vermelho neutro em pH ácido assume coloração escura no centro da colônia, onde a concentração de ácido é maior.]),
+   ("B", [A bactéria não fermenta a lactose, o que mantém a colônia incolor, e reduz o tiossulfato do meio a gás sulfídrico, que precipita com o citrato férrico como sulfeto de ferro.]),
+   ("C", [A bactéria produz um pigmento negro de origem proteica que se acumula no centro da colônia à medida que as camadas internas entram em fase estacionária por falta de oxigênio.]),
+   ("D", [Os sais biliares do meio são reduzidos pela bactéria a sais insolúveis de cor escura, reação que só ocorre em espécies incapazes de fermentar a lactose e serve para separá-las.]),
+   ("E", [A bactéria oxida o citrato férrico a ferro ferroso, e a mudança de estado de oxidação do metal escurece o meio ao redor do ponto em que a colônia se implantou na superfície.])))
 
 #questao-mc("20", badge-integracao,
-  [Um paciente com cetoacidose diabética chega ao pronto-socorro com potássio sérico de 5,1 mEq/L. Poucas horas após o início da insulinoterapia, o potássio despenca. A explicação é:],
-  (("A", [A insulina aumenta a excreção renal de potássio ao estimular a bomba de sódio e potássio no túbulo coletor, e a perda urinária acelerada explica integralmente a queda observada no exame.]),
-   ("B", [O potássio inicial estava elevado por hemólise da amostra colhida, e o valor mais baixo obtido depois representa apenas a coleta correta, sem que tenha havido movimento real do íon.]),
-   ("C", [A correção da acidose desloca potássio do plasma para o interior das hemácias apenas, sem participação da insulina, que não tem efeito conhecido sobre o transporte transmembrana desse íon.]),
-   ("D", [O potássio inicial refletia estoque corporal normal, e a queda posterior indica perda aguda pelo trato gastrintestinal, secundária aos vômitos que costumam acompanhar o quadro de cetoacidose.]),
-   ("E", [O estoque corporal já estava depletado pela diurese osmótica; a acidose e a falta de insulina mantinham o íon no compartimento extracelular, e a insulina o empurra de volta para dentro da célula.])))
+  [Sobre a lógica de funcionamento do ágar MacConkey, assinale a *incorreta*:],
+  (("A", [A colônia incolor indica que a bactéria não conseguiu crescer no meio, por não dispor de fonte de carbono utilizável.]),
+   ("B", [A lactose entra como único açúcar fermentável, de modo que a leitura de cor separa fermentadoras de não fermentadoras.]),
+   ("C", [Sais biliares e cristal violeta inibem as Gram-positivas, cuja parede espessa e exposta é vulnerável a detergente e corante catiônico.]),
+   ("D", [O vermelho neutro reporta a queda de pH provocada pelo ácido que a fermentação da lactose despeja ao redor da colônia.]),
+   ("E", [O meio é ao mesmo tempo seletivo, por excluir um grupo inteiro, e diferencial, por separar por reação química quem cresceu.])))
 
-#questao-mc("21", badge-integracao,
-  [Na retinopatia diabética proliferativa, a formação de neovasos é o desfecho de uma cadeia que começa na hiperglicemia intracelular. Essa cadeia é:],
-  (("A", [Morte de pericitos e oclusão capilar geram isquemia retiniana; o tecido isquêmico libera fator de crescimento endotelial, potencializado pela via da proteína quinase C, e o estímulo produz vasos frágeis.]),
-   ("B", [O espessamento da membrana basal capilar reduz o aporte de oxigênio ao pericito, que se hipertrofia e passa a secretar colágeno em excesso, formando os cordões fibrosos vistos ao exame de fundo de olho.]),
-   ("C", [A hemorragia vítrea inicial priva a retina de nutrientes provenientes do humor vítreo, e a resposta reparadora do epitélio pigmentar organiza novos vasos a partir da coroide subjacente.]),
-   ("D", [O acúmulo de sorbitol no interior do pericito o torna refratário ao fator de crescimento endotelial, e a ausência de resposta angiogênica leva à atrofia progressiva da rede capilar retiniana.]),
-   ("E", [A glicação do colágeno da membrana limitante interna reduz a adesão do vítreo à retina, e o descolamento resultante estimula a proliferação vascular como tentativa de reancoramento tecidual.])))
+#questao-ce("21", badge-integracao,
+  [Julgue os itens sobre o que muda na bactéria ao entrar em fase estacionária:],
+  (("I",   [Na fase estacionária a divisão celular cessa por completo.]),
+   ("II",  [A resposta estringente, com síntese de ppGpp, desliga a produção de ribossomos e liga um programa de sobrevivência.]),
+   ("III", [Em _S. aureus_, as adesinas predominam na fase estacionária e as toxinas na fase exponencial.]),
+   ("IV",  [A fase estacionária resulta apenas do acúmulo de produtos tóxicos, sem participação do esgotamento de nutriente.])))
 
-#questao-ce("22", badge-integracao,
-  [Julgue os itens a seguir sobre as duas lesões ósseas que disputam o diagnóstico no pé do paciente diabético.],
-  (("I",   [A artropatia de Charcot resulta de infecção da medular óssea disseminada a partir de uma úlcera plantar profunda contígua à articulação.]),
-   ("II",  [A radiografia simples detecta a osteomielite desde as primeiras horas de infecção, o que dispensa a ressonância magnética na avaliação inicial do pé.]),
-   ("III", [A ressonância magnética identifica o edema da medular óssea com baixo sinal em T1, alto sinal em T2 com saturação de gordura e realce após a injeção de contraste.]),
-   ("IV",  [Artropatia de Charcot e osteomielite podem coexistir no mesmo pé, e a distinção entre elas altera a conduta de forma substancial.])))
+#questao-mc("22", badge-integracao,
+  [Uma única célula de _E. coli_, com tempo de geração de 20 minutos, é depositada no ágar. Sabendo que a colônia se torna visível ao reunir cerca de 10⁸ células, o tempo estimado e o raciocínio corretos são:],
+  (("A", [Cerca de 33 horas, porque são necessárias 10⁸ divisões sucessivas e cada uma delas consome os mesmos 20 minutos do tempo de geração da espécie.]),
+   ("B", [Cerca de três horas, porque o crescimento é exponencial e a população alcança 10⁸ células em aproximadamente nove gerações de 20 minutos cada uma.]),
+   ("C", [Cerca de 27 horas, porque cada uma das 27 gerações necessárias consome uma hora inteira de incubação até que a colônia se torne visível.]),
+   ("D", [Cerca de 90 horas, porque a escala logarítmica do eixo multiplica por dez o tempo obtido pela contagem simples das gerações necessárias.]),
+   ("E", [Cerca de nove horas, porque são necessárias aproximadamente 27 gerações para que 2 elevado a n alcance 10⁸, e cada geração consome 20 minutos.])))
 
 #questao-mc("23", badge-integracao,
-  [Uma carga oral de glicose eleva mais a insulina plasmática do que a mesma carga administrada por via intravenosa, apesar de produzir glicemias comparáveis. O fenômeno e sua relevância no diabetes tipo 2 são:],
-  (("A", [O fenômeno decorre da absorção mais lenta da glicose no intestino, que prolonga o estímulo à célula beta; no tipo 2 a absorção é acelerada, o que reduz o tempo total de estímulo secretor.]),
-   ("B", [O fenômeno decorre da primeira passagem hepática, que retém parte da glicose oral e reduz a carga que chega à ilhota; no tipo 2 essa retenção é maior e mascara a resistência periférica.]),
-   ("C", [O fenômeno decorre da estimulação vagal desencadeada pela distensão gástrica, que age diretamente na célula beta; no tipo 2 a gastroparesia autonômica suprime por completo essa via reflexa.]),
-   ("D", [O fenômeno é o efeito incretínico: hormônios liberados pela chegada do alimento, sobretudo o GLP-1, amplificam a secreção de insulina; no tipo 2 esse efeito está reduzido e soma-se aos demais defeitos.]),
-   ("E", [O fenômeno decorre da liberação de somatostatina pela célula delta em resposta à via oral, que potencializa a resposta da célula beta vizinha; no tipo 2 a célula delta encontra-se hipofuncionante.])))
+  [A penicilina inibe a transpeptidase que faz as ligações cruzadas do peptidoglicano. A consequência dessa característica sobre a fase de crescimento em que a droga é eficaz é:],
+  (("A", [Ela é mais eficaz na fase estacionária, quando a parede já está completa e as ligações cruzadas existentes podem ser desfeitas pela droga, levando à lise osmótica.]),
+   ("B", [Ela é igualmente eficaz em todas as fases, porque a transpeptidase é enzima constitutiva, expressa em nível constante e independente do estado metabólico da célula.]),
+   ("C", [Ela só mata a célula que está sintetizando parede naquele momento, ou seja, na fase logarítmica; célula parada, com parede pronta, não oferece o alvo.]),
+   ("D", [Ela é mais eficaz na fase lag, quando a célula sintetiza ribossomos e transportadores e por isso está mais permeável à entrada da droga pelo envelope.]),
+   ("E", [Ela atua apenas na fase de declínio, porque a autólise já iniciada pela própria célula amplifica o efeito da inibição da transpeptidase sobre a parede.])))
 
-#questao-mc("24", badge-integracao,
-  [Colágeno, elastina e proteínas do cristalino acumulam produtos de glicação avançada; proteínas plasmáticas de renovação rápida praticamente não. A consequência clínica que decorre dessa seleção de alvo é:],
-  (("A", [A elevação da frutosamina torna-se o marcador mais precoce de lesão de matriz extracelular, por medir diretamente a glicação das proteínas estruturais de vida longa.]),
-   ("B", [O remodelamento da matriz extracelular trava, porque as proteases não cortam o colágeno reticulado, e a ferida deixa de cicatrizar mesmo com perfusão preservada.]),
-   ("C", [A concentração plasmática de albumina cai progressivamente, porque a fração glicada é retirada da circulação por receptores hepáticos específicos para proteína modificada.]),
-   ("D", [A hemoglobina glicada perde valor como marcador de controle, já que a hemácia é justamente o compartimento em que a glicação avançada mais se acumula.]),
-   ("E", [O cristalino torna-se o primeiro órgão a apresentar lesão irreversível, porque a sua taxa de renovação proteica é a mais alta entre os tecidos acometidos.])))
+#questao-ce("24", badge-integracao,
+  [Uma cultura em fase estacionária é exposta a concentração de antibiótico que esteriliza a mesma cepa em fase logarítmica, e uma fração das células sobrevive. Julgue os itens:],
+  (("I",   [As células sobreviventes carregam gene de resistência que explica sua sobrevivência ao antibiótico.]),
+   ("II",  [O antibiograma dessa cepa acusa resistência à droga usada.]),
+   ("III", [A célula sobrevivente volta a ser morta pela mesma droga quando retoma o crescimento.]),
+   ("IV",  [Essa tolerância se manifesta clinicamente como falha primária do tratamento nas primeiras 48 horas.])))
 
-#questao-ce("25", badge-integracao,
-  [Julgue os itens a seguir sobre o eixo AGE-RAGE e a trombose no paciente diabético.],
-  (("I",   [A ligação do produto de glicação avançada ao seu receptor ativa o fator nuclear kappa B e induz a expressão de fator tecidual pela célula endotelial.]),
-   ("II",  [A sinalização por esse receptor é autolimitada, porque a ativação reduz a expressão do próprio receptor e interrompe a alça em poucas horas.]),
-   ("III", [No paciente diabético, o eixo predominante da tríade de Virchow é a estase venosa produzida pela redução do débito cardíaco.]),
-   ("IV",  [O infarto agudo do miocárdio decorre, na maioria dos casos, do crescimento progressivo da placa até a oclusão completa da luz, sem participação de trombo.])))
+#questao-mc("25", badge-integracao,
+  [_Haemophilus influenzae_ cresce em ágar chocolate e não em ágar sangue preparado com a mesma base. O mecanismo é:],
+  (("A", [O aquecimento desnatura proteínas inibidoras presentes no sangue de carneiro, e a espécie passa a crescer porque deixa de sofrer a ação da hemolisina liberada pelas próprias hemácias quando elas permanecem íntegras.]),
+   ("B", [O aquecimento rompe as hemácias e libera o fator X, que é a hemina usada para montar os citocromos, e o fator V, que é o NAD, destruído por enzimas do ágar sangue íntegro.]),
+   ("C", [O ágar chocolate contém cacau, cujos polifenóis funcionam como fonte alternativa de carbono e de energia para as espécies exigentes que são incapazes de fermentar os carboidratos habituais dos meios ricos.]),
+   ("D", [O aquecimento eleva a concentração efetiva de sais biliares do meio, tornando-o seletivo para as Gram-negativas exigentes e removendo a competição das demais espécies presentes na amostra clínica semeada.]),
+   ("E", [O ágar sangue comum não fornece nitrogênio em quantidade suficiente, e o aquecimento libera aminoácidos das hemácias rompidas que suprem exatamente essa carência nutricional das espécies desse gênero.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Homem de 26 anos, magro, com dez dias de poliúria, polidipsia e perda de 3 kg. Glicemia de 397 mg/dL, hemoglobina glicada de 8,8%, peptídeo C de 1,32 ng/mL (referência 1,1 a 4,4) e anticorpo anti-descarboxilase do ácido glutâmico de 1082 UI/mL (referência abaixo de 10). A leitura conjunta indica:],
-  (("A", [Diabetes tipo 2 de início precoce, já que o peptídeo C dentro da faixa de referência exclui deficiência de secreção e o autoanticorpo apenas acompanha a inflamação sistêmica da hiperglicemia.]),
-   ("B", [Diabetes secundário a pancreatite crônica, porque a associação de peptídeo C no limite inferior com autoanticorpo elevado é característica da destruição inflamatória não-imune da glândula exócrina.]),
-   ("C", [Diabetes tipo 1 no início da história natural: o autoanticorpo em título alto identifica a autoimunidade contra a ilhota, e o peptídeo C ainda mensurável indica secreção residual em parte preservada.]),
-   ("D", [Diabetes tipo 1 em fase avançada, uma vez que hemoglobina glicada acima de 8% só é alcançada quando a massa de célula beta já está integralmente destruída e a secreção residual é nula.]),
-   ("E", [Resistência à insulina isolada, porque hemoglobina glicada elevada com peptídeo C mensurável configura hiperinsulinemia compensatória, e o autoanticorpo é achado incidental sem valor diagnóstico.])))
+  [Material de abscesso profundo é colhido em seringa e chega ao laboratório após duas horas exposto ao ar. A cultura para anaeróbios volta negativa, apesar do quadro clínico compatível. A explicação é:],
+  (("A", [O anaeróbio estrito entra em fase lag prolongada quando exposto ao ar e precisaria de incubação de sete dias, prazo que o laboratório não costuma cumprir na rotina.]),
+   ("B", [O oxigênio inibe de forma reversível a cadeia respiratória do anaeróbio, que retomaria o crescimento apenas se o meio fosse suplementado com nitrato como aceptor final.]),
+   ("C", [A exposição ao ar converte o anaeróbio em facultativo por indução das enzimas antioxidantes, e ele passa a crescer na placa aeróbia, não na anaeróbia semeada.]),
+   ("D", [O anaeróbio estrito não dispõe de superóxido dismutase e catalase em quantidade útil e morre oxidado durante o transporte; o resultado negativo reflete morte, não ausência do agente.]),
+   ("E", [O material em seringa sofre hemólise, e a hemoglobina liberada quela o ferro do meio, impedindo o crescimento de qualquer espécie com exigência de ferro para respirar.])))
 
 #questao-mc("27", badge-aplicacao,
-  [Mulher de 52 anos com diabetes tipo 2 apresenta glicemias capilares entre 90 e 140 mg/dL nos últimos dois meses, mas hemoglobina glicada de 5,0%. O hemograma mostra hemoglobina de 9,2 g/dL, reticulócitos elevados e bilirrubina indireta aumentada. A conduta e a justificativa são:],
-  (("A", [Manter a hemoglobina glicada como parâmetro e reduzir a dose do antidiabético, porque o valor de 5,0% indica risco de hipoglicemia que as glicemias capilares isoladas não conseguem detectar.]),
-   ("B", [Repetir a hemoglobina glicada em outro laboratório, porque a discordância entre glicemia capilar e exame laboratorial se explica melhor por erro analítico do que por qualquer condição do paciente.]),
-   ("C", [Solicitar teste oral de tolerância à glicose, porque hemoglobina glicada baixa com glicemias capilares no limite superior sugere que o diagnóstico inicial de diabetes deve ser revisto por completo.]),
-   ("D", [Substituir a hemoglobina glicada pela glicemia de jejum, porque a hemólise altera igualmente todos os exames que dependem de proteínas glicadas e nenhum deles pode ser usado nesse contexto.]),
-   ("E", [Solicitar frutosamina, porque a hemólise encurta a sobrevida da hemácia e subestima a hemoglobina glicada, enquanto a albumina glicada mantém preservada a sua janela de duas a três semanas.])))
+  [Paciente com hemocromatose e sobrecarga de ferro desenvolve infecção grave por _Vibrio vulnificus_, agente incomum na população geral. O mecanismo que liga as duas condições é:],
+  (("A", [A sobrecarga satura a transferrina e eleva o ferro livre circulante, desfazendo a imunidade nutricional que limita o patógeno e desreprimindo os genes controlados pela proteína Fur.]),
+   ("B", [O excesso de ferro inativa diretamente os neutrófilos por oxidação de suas membranas, de modo que o paciente fica sem a primeira barreira celular contra bactérias de origem marinha.]),
+   ("C", [O ferro em excesso é captado pelas hemácias e reduz a oferta de oxigênio aos tecidos, criando anaerobiose local que favorece o crescimento de espécies anaeróbias estritas.]),
+   ("D", [A sobrecarga de ferro aumenta a produção hepática de lactoferrina, que serve de fonte direta de nutrientes ao patógeno assim que é degradada por proteases bacterianas.]),
+   ("E", [O ferro livre atua como cofator da coagulase bacteriana e acelera a formação de trombos, o que dissemina o agente por via hematogênica muito mais rapidamente.])))
 
-#questao-mc("28", badge-aplicacao,
-  [Homem de 61 anos, diabético há vinte anos, com úlcera plantar profunda há três semanas, sondagem da lesão que atinge osso e radiografia do antepé sem alterações. A conduta de imagem e a justificativa são:],
-  (("A", [Ressonância magnética, porque a radiografia só demonstra alteração após perda óssea significativa, com atraso de uma a duas semanas, e a ressonância identifica o edema da medular óssea bem antes.]),
-   ("B", [Repetir a radiografia em quarenta e oito horas, porque a osteomielite aguda produz reação periosteal detectável nesse intervalo e a repetição precoce é suficiente para confirmar o diagnóstico.]),
-   ("C", [Ultrassonografia de partes moles do pé, porque o método define bem a interface entre osso cortical e medular e detecta o edema medular com sensibilidade equivalente à da ressonância magnética.]),
-   ("D", [Tomografia computadorizada sem contraste, porque a alta resolução para osso cortical torna o método superior à ressonância na detecção precoce da infecção da medular óssea.]),
-   ("E", [Nenhum exame adicional, porque a radiografia normal afasta com segurança o comprometimento ósseo e a conduta pode se restringir ao curativo e ao alívio de pressão sobre a lesão.])))
+#questao-ce("28", badge-aplicacao,
+  [Mulher de 24 anos com disúria e febre. A urocultura em meio cromogênico é liberada em 24 horas, com contagem de 10#super[5] unidades formadoras de colônia por mililitro e colônias vermelhas típicas. Julgue os itens:],
+  (("I",   [O intervalo de 24 horas decorre da complexidade técnica do meio cromogênico, não do crescimento bacteriano.]),
+   ("II",  [A cor da colônia resulta da clivagem de um substrato cromogênico por enzima característica da espécie.]),
+   ("III", [A colônia visível corresponde a um clone de cerca de 10#super[8] células originadas de uma única célula depositada.]),
+   ("IV",  [O início empírico do antibiótico antes do resultado é injustificado, já que a cultura estaria pronta em poucas horas.])))
 
 #questao-mc("29", badge-aplicacao,
-  [Homem de 64 anos, diabético há dezoito anos e tabagista, com dor precordial típica aos pequenos esforços há dois meses e alterações de repolarização no eletrocardiograma. A probabilidade pré-teste de doença coronariana é alta. Sobre a investigação por imagem:],
-  (("A", [O escore de cálcio é a melhor escolha inicial, porque quantifica a carga de placa e, sendo elevado, define o grau de estenose e dispensa qualquer método adicional antes do tratamento.]),
-   ("B", [A angiotomografia é a melhor escolha inicial, porque seu valor preditivo negativo próximo de 100% permite afastar doença com segurança mesmo neste cenário e evita um procedimento invasivo.]),
-   ("C", [A angiotomografia é a melhor escolha inicial, porque quantifica a estenose com precisão comparável à do cateterismo e permite planejar a intervenção sem expor o paciente a risco de procedimento.]),
-   ("D", [A angiocoronariografia invasiva é a melhor escolha, porque com probabilidade pré-teste alta um resultado não invasivo negativo não convenceria e um positivo levaria ao cateterismo de qualquer forma.]),
-   ("E", [Nenhum exame de imagem é necessário, porque com dor típica e eletrocardiograma alterado o diagnóstico está firmado e a anatomia coronariana não influencia a escolha terapêutica subsequente.])))
+  [Homem de 38 anos com tosse há dois meses, febre vespertina e emagrecimento. A baciloscopia de escarro é positiva, mas a cultura só é liberada seis semanas depois. Iniciado o tratamento, ele melhora em três semanas e pede para suspender o esquema, alegando estar curado. O par de mecanismos que explica, respectivamente, a demora da cultura e o risco de interromper o tratamento é:],
+  (("A", [A micobactéria exige meio de enriquecimento líquido antes da semeadura, o que acrescenta semanas; e a interrupção precoce seleciona mutantes resistentes já presentes em alta frequência no inóculo inicial.]),
+   ("B", [A parede rica em lipídeos impede a difusão de nutrientes e prolonga indefinidamente a fase lag; e a recidiva ocorre porque o bacilo se torna intracelular obrigatório e deixa de ser alcançado por qualquer droga.]),
+   ("C", [O bacilo cresce apenas em anaerobiose estrita e a montagem da atmosfera demora; e a interrupção falha porque a droga usada é bacteriostática e nunca elimina a população, apenas contém o crescimento dela.]),
+   ("D", [A cultura demora porque a baciloscopia positiva exige confirmação molecular antes da semeadura; e a recidiva decorre de reinfecção por uma nova cepa, e não da sobrevivência da população original.]),
+   ("E", [O tempo de geração de 18 a 24 horas exige semanas para formar colônia visível; e a subpopulação persistente, geneticamente sensível, sobrevive por estar metabolicamente parada e reativa a doença se a terapia for encurtada.])))
 
-#questao-ce("30", badge-aplicacao,
-  [Mulher de 58 anos, diabética há dezoito anos com controle irregular, apresenta redução progressiva da acuidade visual, albuminúria de 480 mg em 24 horas com creatinina de 1,1 mg/dL, e úlcera indolor no calcâneo esquerdo há dois meses. A ultrassonografia renal mostra rins de dimensões reduzidas, córtex afilado e ecogenicidade aumentada. Julgue os itens.],
-  (("I",   [A creatinina de 1,1 mg/dL indica parênquima renal preservado, e a albuminúria deve ser atribuída a uma causa distinta do diabetes.]),
-   ("II",  [O achado ultrassonográfico de rins reduzidos com córtex afilado corresponde à fase de hiperfiltração inicial da nefropatia diabética.]),
-   ("III", [A perda visual, a albuminúria e a úlcera de difícil cicatrização compartilham como mecanismo de base a lesão de tecidos que captam glicose independentemente de insulina.]),
-   ("IV",  [A ausência de dor no leito da úlcera indica que a lesão é superficial e afasta a necessidade de investigar comprometimento ósseo.])))
+#questao-mc("30", badge-aplicacao,
+  [Paciente com celulite por _S. aureus_ sensível recebe oxacilina, um beta-lactâmico bactericida. Para reforçar o efeito, o plantonista acrescenta um bacteriostático que bloqueia a subunidade 50S do ribossomo. Nas 48 horas seguintes a resposta clínica é pior que a esperada. A explicação mecanística é:],
+  (("A", [O bacteriostático induz a produção de beta-lactamase pelo estafilococo, que hidrolisa a oxacilina antes de ela alcançar a transpeptidase, o que anula por completo a ação do bactericida associado.]),
+   ("B", [As duas drogas competem pelo mesmo transportador de entrada no envelope bacteriano, de modo que a concentração intracelular de cada uma cai pela metade e nenhuma alcança a dose eficaz.]),
+   ("C", [O bacteriostático interrompe a divisão e retira do beta-lactâmico o alvo de que ele depende, que é a parede em construção; sem célula sintetizando peptidoglicano, as duas drogas se antagonizam.]),
+   ("D", [O bloqueio da subunidade 50S impede a síntese das enzimas antioxidantes, e o acúmulo de peróxido protege a bactéria ao induzir o estado persistente tolerante já nas primeiras horas.]),
+   ("E", [O bacteriostático empurra a população para a fase logarítmica, fase em que a parede já está pronta e o beta-lactâmico não encontra transpeptidase ativa para poder inibir.])))

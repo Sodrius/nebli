@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- gr-02-diabetes-mellitus | Gerado por gerar_main.py
+// MAIN.TYP -- micro-02-fisiologia-crescimento-bacteriano | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,11 +8,11 @@
 
 // ======= CAPA =======
 #capa(
-  "Diabetes mellitus",
-  "Da hiperglicemia às complicações de órgão-alvo",
+  "Fisiologia e crescimento bacteriano",
+  "Microbiologia",
   (
-    ("Disciplina", "Patologia · Bioquímica · Imunologia · Radiologia"),
-    ("Onde estudar", "Robbins & Cotran, Patologia — capítulo do Sistema Endócrino, § Diabetes mellitus · Lehninger, Princípios de Bioquímica — Regulação hormonal e integração metabólica · Brant & Helms, Fundamentos de Radiologia — tórax cardiovascular e musculoesquelético"),
+    ("Disciplina", "Microbiologia"),
+    ("Onde estudar", "Trabulsi & Alterthum — Microbiologia (7ª ed.) · Murray — Microbiologia Médica · Brock — Biologia dos Microrganismos (caps. 3–5) · Tortora — Microbiologia (caps. 5–6)"),
   ),
 )
 
@@ -22,21 +22,20 @@
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — O sinal que falta", (
-      "1.1 A insulina e seus freios",
-      "1.2 Tipo 1: ilhota destruída",
-      "1.3 Tipo 2: sinal não escutado",
-      "1.4 Diurese osmótica e descompensações",
+    ("PARTE I — O que a bactéria precisa para crescer", (
+      "1.1 Nutrição e classificação trófica",
+      "1.2 pH, temperatura e sal",
+      "1.3 Oxigênio e ferro",
     )),
-    ("PARTE II — Do açúcar ao dano", (
-      "2.1 Glicação e os dois relógios",
-      "2.2 O AGE nas proteínas de vida longa",
-      "2.3 RAGE e as outras rotas",
+    ("PARTE II — Como a bactéria transforma nutriente em ATP", (
+      "2.1 Glicólise e fermentação",
+      "2.2 Respiração na membrana plasmática",
+      "2.3 Metabolismo vira assinatura",
     )),
-    ("PARTE III — Onde o dano aparece", (
-      "3.1 Retina e glomérulo",
-      "3.2 Neuropatia e pé diabético",
-      "3.3 Aterosclerose e imagem",
+    ("PARTE III — Da célula à população", (
+      "3.1 Divisão binária e curva",
+      "3.2 Tempo de geração na clínica",
+      "3.3 Meios de cultura e isolamento",
     )),
   )),
 ))
@@ -58,40 +57,40 @@
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
-  ("Consolidação (Q01–Q08)", (
-    ("01", "D"),
-    ("02", "ECCE"),
-    ("03", "C"),
-    ("04", "A"),
-    ("05", "CCCE"),
-    ("06", "E"),
-    ("07", "CCEE"),
-    ("08", "C"),
-  )),
-  ("Integração (Q09–Q25)", (
+  ("Consolidação (Q01–Q10)", (
+    ("01", "B"),
+    ("02", "D"),
+    ("03", "CECC"),
+    ("04", "C"),
+    ("05", "A"),
+    ("06", "D"),
+    ("07", "CCEC"),
+    ("08", "E"),
     ("09", "B"),
-    ("10", "CCEC"),
-    ("11", "D"),
-    ("12", "A"),
-    ("13", "CECC"),
-    ("14", "B"),
-    ("15", "D"),
-    ("16", "ECCC"),
-    ("17", "B"),
-    ("18", "C"),
-    ("19", "CEEC"),
-    ("20", "E"),
-    ("21", "A"),
-    ("22", "EECC"),
-    ("23", "D"),
-    ("24", "B"),
-    ("25", "CEEE"),
+    ("10", "CCEE"),
+  )),
+  ("Integração (Q11–Q25)", (
+    ("11", "C"),
+    ("12", "CEEC"),
+    ("13", "EECC"),
+    ("14", "E"),
+    ("15", "CCCE"),
+    ("16", "A"),
+    ("17", "D"),
+    ("18", "ECCC"),
+    ("19", "B"),
+    ("20", "A"),
+    ("21", "ECEE"),
+    ("22", "E"),
+    ("23", "C"),
+    ("24", "EECE"),
+    ("25", "B"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "E"),
-    ("28", "A"),
-    ("29", "D"),
-    ("30", "EECE"),
+    ("26", "D"),
+    ("27", "A"),
+    ("28", "ECCE"),
+    ("29", "E"),
+    ("30", "C"),
   )),
 ))
