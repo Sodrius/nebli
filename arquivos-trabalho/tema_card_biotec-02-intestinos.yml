@@ -1,0 +1,58 @@
+slug: biotec-02-intestinos
+titulo: "Intestinos: organização, renovação e absorção"
+subtitulo: "Biologia Tecidual"
+meta:
+  - ["Disciplina", "Biologia Tecidual II — Sistema Digestório"]
+  - ["Onde estudar", "Junqueira & Carneiro, Histologia Básica, 13ª ed. — Aparelho Digestivo · Kierszenbaum, Histologia e Biologia Celular — Segmento Digestivo Inferior · Wheater's, Histologia Funcional · Sobotta, Atlas de Histologia"]
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O plano do tubo e a superfície que ele multiplica"
+        subtopicos:
+          - "1.1 As quatro túnicas"
+          - "1.2 Os quatro dobramentos"
+          - "1.3 Duodeno, jejuno e íleo"
+      - titulo: "PARTE II — O epitélio que se refaz por inteiro toda semana"
+        subtopicos:
+          - "2.1 O nicho da cripta"
+          - "2.2 Linhagens e decisão de Notch"
+          - "2.3 Proliferar, migrar, morrer"
+      - titulo: "PARTE III — O epitélio que absorve e o que vigia"
+        subtopicos:
+          - "3.1 Digestão terminal na borda em escova"
+          - "3.2 Lâmina própria e GALT"
+          - "3.3 O intestino grosso"
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "A"]
+    - ["03", "CCEE"]
+    - ["04", "D"]
+    - ["05", "CCEC"]
+    - ["06", "B"]
+    - ["07", "ECCE"]
+    - ["08", "E"]
+  integracao:
+    - ["09", "CECC"]
+    - ["10", "B"]
+    - ["11", "D"]
+    - ["12", "B"]
+    - ["13", "CCCE"]
+    - ["14", "C"]
+    - ["15", "E"]
+    - ["16", "B"]
+    - ["17", "C"]
+    - ["18", "CEEC"]
+    - ["19", "A"]
+    - ["20", "ECCC"]
+    - ["21", "D"]
+    - ["22", "E"]
+    - ["23", "C"]
+    - ["24", "B"]
+    - ["25", "ECEE"]
+  aplicacao:
+    - ["26", "D"]
+    - ["27", "A"]
+    - ["28", "EECE"]
+    - ["29", "E"]
+    - ["30", "EECC"]

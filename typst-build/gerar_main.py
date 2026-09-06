@@ -186,24 +186,36 @@ HEADER = '''// ================================================================
 {capa}
 {pre_aula}
 // ======= SUMÁRIO =======
+#set-etapa("Sumário")
 {sumario}
 
 // ======= ETAPA 1 =======
+// set-etapa ANTES do etapa-header: o header da pagina resolve o state antes do
+// corpo dela, entao a atualizacao feita dentro de `etapa-header` (que roda
+// depois do `pagebreak`) so aparece na pagina SEGUINTE. Emitindo aqui, a
+// atualizacao fica no fluxo da pagina anterior e a pagina de abertura da etapa
+// ja nasce com o header certo. Corrige o bug "header dessincronizado" que o
+// auditar_pdf_visual bloqueia.
+#set-etapa("Etapa 1 — Texto didático")
 #etapa-header("Etapa 1 — Texto didático")
 #include "etapa1.typ"
 
 // ======= RESUMINDO =======
+#set-etapa("Resumindo")
 #include "resumindo.typ"
 
 // ======= ETAPA 2 =======
+#set-etapa("Etapa 2 — 30 objetivas")
 #etapa-header("Etapa 2 — 30 objetivas")
 #include "etapa2.typ"
 
 // ======= ETAPA 3 =======
+#set-etapa("Etapa 3 — 5 discursivas")
 #etapa-header("Etapa 3 — 5 discursivas")
 #include "etapa3.typ"
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
+#set-etapa("Gabarito — Etapa 2")
 {gabarito}
 '''
 
@@ -219,16 +231,26 @@ HEADER_SEM_E2 = '''// ==========================================================
 {capa}
 {pre_aula}
 // ======= SUMÁRIO =======
+#set-etapa("Sumário")
 {sumario}
 
 // ======= ETAPA 1 =======
+// set-etapa ANTES do etapa-header: o header da pagina resolve o state antes do
+// corpo dela, entao a atualizacao feita dentro de `etapa-header` (que roda
+// depois do `pagebreak`) so aparece na pagina SEGUINTE. Emitindo aqui, a
+// atualizacao fica no fluxo da pagina anterior e a pagina de abertura da etapa
+// ja nasce com o header certo. Corrige o bug "header dessincronizado" que o
+// auditar_pdf_visual bloqueia.
+#set-etapa("Etapa 1 — Texto didático")
 #etapa-header("Etapa 1 — Texto didático")
 #include "etapa1.typ"
 
 // ======= RESUMINDO =======
+#set-etapa("Resumindo")
 #include "resumindo.typ"
 
 // ======= ETAPA 3 =======
+#set-etapa("Etapa 3 — 5 discursivas")
 #etapa-header("Etapa 3 — 5 discursivas")
 #include "etapa3.typ"
 '''

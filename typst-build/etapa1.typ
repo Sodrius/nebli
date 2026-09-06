@@ -1,243 +1,242 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #intro-box[
-Diabetes mellitus é um defeito de sinal. A insulina, que informa aos tecidos que há substrato chegando, deixa de ser produzida ou deixa de ser obedecida — e a glicose que se acumula no plasma passa a reagir quimicamente com as proteínas do organismo.
+O intestino resolve dois problemas que puxam em direções opostas. Precisa de superfície enorme para absorver tudo o que uma refeição traz, e precisa de barreira fina o bastante para que o nutriente atravesse — mas fina o bastante também para que a bactéria atravesse. Toda a arquitetura desta aula é a solução desse conflito.
 
-A *PARTE I* percorre por que a glicemia sobe: o que a insulina comanda, os dois defeitos opostos que interrompem esse comando, e como a hiperglicemia vira sintoma. A *PARTE II* trata a glicose alta como reagente e acompanha a glicação não-enzimática até a lesão estrutural que se auto-alimenta. A *PARTE III* localiza essa lesão nos órgãos-alvo e mostra a correspondência entre o substrato que o patologista descreve e o achado que o radiologista enxerga.
+A *PARTE I* monta o plano do tubo em quatro túnicas e mostra como o delgado dobra esse plano em quatro níveis sucessivos, multiplicando a área por cerca de seiscentas vezes. A *PARTE II* trata do preço dessa aposta: uma barreira de uma célula de espessura se gasta, e o epitélio é reposto inteiro a cada três a cinco dias a partir de um nicho de células-tronco no fundo da cripta, sob dois gradientes moleculares opostos. A *PARTE III* põe esse epitélio para trabalhar — digestão terminal na membrana do enterócito, vigilância imunológica na lâmina própria, e o que muda no cólon, onde a mesma cripta troca de ofício.
 ]
 
-#parte-title("PARTE I — O sinal que falta: por que a glicose sobe", primeira: true)
+#parte-title("PARTE I — O plano do tubo e a superfície que ele multiplica", primeira: true)
 
-#subtopico("1.1 — A insulina e os freios que ela mantém")
+#subtopico("1.1 — As quatro túnicas e o que o intestino faz com elas")
 
-A célula beta da ilhota pancreática secreta insulina quando a glicose plasmática sobe. O receptor de insulina é uma *tirosina-quinase*, enzima que fosforila resíduos de tirosina de proteínas-alvo: as duas subunidades α ligam o hormônio, as duas subunidades β se autofosforilam e passam a fosforilar o #sigla("IRS-1", [substrato 1 do receptor de insulina — a primeira proteína fosforilada pelo receptor, e o ponto em que a via se ramifica]), que recruta a #sigla("PI3K", [fosfatidilinositol-3-quinase — converte o sinal do receptor em um lipídeo de membrana capaz de ancorar a Akt]) e ativa a Akt. Não há proteína G nem segundo mensageiro nesse caminho.
+Do esôfago ao canal anal, o tubo digestório repete o mesmo plano: quatro túnicas concêntricas, sempre na mesma ordem, do lúmen para fora. O que muda de segmento para segmento não é o plano, é o preenchimento de cada túnica — e é por isso que a lâmina identifica a região.
 
-O #sigla("GLUT-4", [transportador de glicose tipo 4 — isoforma insulino-dependente do músculo esquelético e do tecido adiposo]) já existe pronto, estocado em vesículas intracelulares, e a Akt comanda a fusão dessas vesículas com a membrana plasmática. *A insulina não sintetiza o transportador, ela o transloca* — daí o efeito surgir em minutos e desaparecer em minutos quando o sinal cessa.
+A *mucosa*, túnica mais interna, tem sozinha três subcamadas: o *epitélio de revestimento*, que faz barreira e transporte; a *lâmina própria*, tecido conjuntivo frouxo — malha de colágeno e fibroblastos com muito espaço intersticial — por onde correm capilares, linfáticos e uma população permanente de células de defesa; e a *muscular da mucosa*, lâmina fina de músculo liso que marca o limite profundo da túnica.
 
-O restante do programa é composto de freios. A insulina ativa a glicogênio-sintase, liga a lipogênese no adipócito e inibe a *lipase hormônio-sensível*, enzima que hidrolisa triacilglicerol em ácido graxo livre; em paralelo, suprime a gliconeogênese hepática e a proteólise muscular. Perder o hormônio é liberar todos esses freios simultaneamente, e é por isso que o quadro clínico do tipo 1 não se resume à glicemia.
+A *submucosa* é conjuntivo denso não modelado, e carrega os vasos calibrosos que alimentam a mucosa e o *plexo submucoso*, ou de Meissner — gânglios e fibras do sistema nervoso entérico que regulam secreção glandular e fluxo sanguíneo local. A *muscular externa* traz duas subcamadas de músculo liso com orientações cruzadas: a circular interna, que estreita o lúmen, e a longitudinal externa, que encurta o segmento, com o *plexo mientérico*, ou de Auerbach, entre elas comandando a motilidade. A quarta túnica é *serosa* onde o segmento é intraperitoneal — conjuntivo delgado revestido pelo #termo-nota[mesotélio][epitélio simples pavimentoso de origem mesodérmica que reveste as cavidades celômicas e secreta o líquido que reduz o atrito entre vísceras] — e *adventícia* onde é retroperitoneal e o conjuntivo se funde à parede posterior.
 
-Um dado de distribuição sustenta as PARTES II e III: *apenas músculo esquelético e tecido adiposo dependem do GLUT-4*. Neurônio, hemácia, endotélio, célula mesangial do glomérulo, pericito da retina, cristalino e epitélio tubular renal captam glicose por transportadores que não respondem à insulina, e por isso não conseguem reduzir a entrada quando a glicemia sobe.
+A muscular da mucosa não é redundância da muscular externa: as duas atuam em escalas diferentes. A muscular externa movimenta a *coluna* de conteúdo, empurrando-a em peristalse e misturando-a em segmentação. A muscular da mucosa movimenta a *própria mucosa* contra esse conteúdo — sacode as vilosidades, comprime as glândulas esvaziando sua secreção, renova a camada de líquido em contato com a superfície absortiva. É motilidade local, independente do trânsito, e existe porque absorver depende de contato repetido, não de contato prolongado.
 
-#figura-lateral("/figuras/gr-02-diabetes-mellitus/slide-14.png",
-  lado: "right",
-  largura-figura: 40%,
-  texto: [O intestino sinaliza ao pâncreas antes de a glicose ser absorvida. O #sigla("GLP-1", [peptídeo semelhante ao glucagon 1 — incretina intestinal que amplifica a secreção de insulina dependente de glicose]), liberado pela chegada do alimento ao lúmen, amplifica a secreção de insulina pela célula beta, retarda o esvaziamento gástrico e aumenta a saciedade por ação hipotalâmica. É o *efeito incretínico*, e ele explica por que uma carga oral de glicose eleva mais a insulina do que a mesma carga por via intravenosa.],
-  legenda: [Eixo intestino–pâncreas–encéfalo.])
+#figura-nebli("/figuras/biotec-02-intestinos/slide-02.png",
+  largura: 58%,
+  legenda: [O corte transversal à direita é o mapa a guardar: da luz para fora, epitélio, lâmina própria e muscular da mucosa compõem a mucosa; a submucosa carrega o plexo submucoso; a muscular externa traz circular interna e longitudinal externa com o plexo mientérico entre elas.])
 
-#subtopico("1.2 — Tipo 1: a ilhota destruída e o corpo em jejum permanente")
 
-O que desencadeia o quadro clínico do tipo 1 não é o valor absoluto da insulina, e sim a queda da *razão insulina/glucagon*. A insulina freia a célula alfa dentro da própria ilhota; sem ela, o glucagon é secretado sem contraposição e o fígado mantém glicogenólise e gliconeogênese enquanto o músculo já não capta glicose. A hiperglicemia é gerada nas duas pontas.
+#subtopico("1.2 — Quatro graus de dobramento: plica, vilo, cripta e microvilosidade")
 
-A destruição da célula beta é autoimune, mediada sobretudo por linfócitos T citotóxicos, em indivíduos com alelos predisponentes de #sigla("HLA", [antígeno leucocitário humano — o complexo principal de histocompatibilidade humano, cujos alelos de classe II definem boa parte do risco genético do tipo 1]) de classe II. Os autoanticorpos dosados no laboratório — anti-#termo-nota[descarboxilase do ácido glutâmico][enzima citoplasmática da célula beta; o anticorpo anti-GAD65 contra ela é o marcador sorológico mais usado de autoimunidade contra a ilhota], anti-insulina, anti-tirosina-fosfatase da ilhota — são marcadores dessa agressão, não os seus executores principais.
+Um cilindro liso com o comprimento e o calibre do intestino delgado oferece pouco mais de 0,4 metro quadrado de superfície interna — área que não dá conta de absorver o produto de uma refeição nas poucas horas de trânsito. A solução é dobrar a parede, e o intestino a dobra quatro vezes, em escalas encaixadas, cada uma envolvendo uma camada diferente.
 
-A massa funcionante remanescente é estimada pelo #termo-nota[peptídeo C][fragmento liberado em quantidade equimolar à insulina na clivagem da pró-insulina; ausente na insulina exógena e pouco extraído pelo fígado, mede a secreção endógena]: ele sai da pró-insulina junto com a insulina, mas não acompanha a insulina exógena aplicada e escapa da extração hepática de primeira passagem, que retira boa parte da insulina antes da circulação sistêmica.
+O primeiro grau é a *plica circular*, também chamada válvula de Kerckring: uma prega permanente, transversal ao eixo do tubo, formada por evaginação da mucosa *mais* uma porção da submucosa. Como a submucosa participa, a plica tem esqueleto próprio e não se desfaz quando a alça distende — diferença que a separa das rugas gástricas, que somem com o estômago cheio. O ganho é de cerca de três vezes.
 
-O metabolismo assume então o padrão do jejum com o plasma cheio de glicose. Sem o freio da insulina, a lipase hormônio-sensível libera ácidos graxos em quantidade que excede a capacidade oxidativa hepática: a acetil-CoA gerada ultrapassa a capacidade de consumo do ciclo de Krebs e o excedente é desviado para acetoacetato e β-hidroxibutirato, ácidos fortes cujo acúmulo derruba o pH. A proteólise muscular fornece aminoácidos à gliconeogênese e o balanço nitrogenado fica negativo. A perda ponderal ocorre com ingesta aumentada, porque se perde caloria na urina, triacilglicerol no adipócito e proteína no músculo.
+O segundo grau é a *vilosidade*, projeção digitiforme de 0,5 a 1,5 milímetro que cobre toda a superfície mucosa, plicas inclusive. Aqui evagina *apenas* a mucosa: epitélio revestindo um eixo de lâmina própria. O ganho é de cerca de dez vezes.
 
-#mini-resumo[Falta de insulina → glucagon sem freio e lipólise sem freio → glicose hepática alta e ácido graxo em excesso → cetoácidos. Hiperglicemia e cetose são efeitos paralelos do mesmo defeito.]
+O terceiro grau inverte o gesto. A *cripta de Lieberkühn* é uma invaginação da mucosa que desce entre as bases das vilosidades até quase encostar na muscular da mucosa. Por ser invaginação, ela contribui pouco para a área absortiva — sua função é outra, e a PARTE II inteira trata dela: é ali que ficam as células que proliferam e as que secretam.
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-12.png",
-  largura: 60%,
-  legenda: [O defeito está em andares diferentes: no tipo 1 o pâncreas não entrega o sinal; no tipo 2 o sinal chega em quantidade e a célula-alvo não responde.])
+O quarto grau é celular. Cada enterócito projeta cerca de três mil *microvilosidades* do domínio apical, prolongamentos de aproximadamente um micrômetro sustentados por feixes de actina, que em conjunto formam a borda em escova — visível ao microscópio óptico como faixa acidófila contínua. O ganho é de cerca de vinte vezes.
 
-#clinica-box("O caso que abre a aula", [
-Homem de 26 anos, magro, com dez dias de poliúria, polidipsia e perda de 3 kg; glicemia de 397 mg/dL, hemoglobina glicada de 8,8%, peptídeo C de 1,32 ng/mL e anti-descarboxilase do ácido glutâmico de 1082 UI/mL para valor de referência abaixo de 10.
+Multiplicando os três níveis que ampliam — três, dez e vinte —, chega-se a um fator próximo de seiscentas, e os 0,4 metro quadrado viram algo em torno de 200 metros quadrados de superfície absortiva. *Cada grau resolve um problema geométrico diferente:* a plica reorganiza a parede inteira, o vilo multiplica as unidades de troca, e a microvilosidade amplia a membrana de uma célula só sem aumentar o volume que ela ocupa.
 
-Os três exames respondem perguntas distintas. O autoanticorpo em título cem vezes acima do limite identifica a natureza autoimune da destruição. O peptídeo C mensurável, no limite inferior da normalidade, indica secreção residual preservada em parte — o paciente está no início da história natural, o que explica a ausência de acidose franca à apresentação. A hemoglobina glicada de 8,8% data o início da hiperglicemia semanas antes dos dez dias de sintomas: o sintoma marca a queda da reserva de célula beta, não o início da doença.
-])
-
-#subtopico("1.3 — Tipo 2: o sinal que chega e não é escutado")
-
-No tipo 2 o receptor está íntegro e a falha é pós-receptor. Com oferta calórica alta e sedentarismo, o músculo recebe mais acil-CoA graxo do que oxida, e o excedente acumula dois intermediários lipídicos com atividade de sinalização: *diacilglicerol* e *ceramida*. Ambos ativam *serina-quinases de estresse*, que fosforilam o IRS-1 em resíduos de serina em vez de tirosina. O IRS-1 fosforilado no resíduo errado não recruta a PI3K, a Akt não é ativada, e menos vesículas de GLUT-4 alcançam a membrana.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-09.png",
-  largura: 55%,
-  legenda: [O ácido graxo não apenas compete com a glicose como combustível: ele interrompe a sinalização que traria o GLUT-4 à superfície. A mitocôndria sobrecarregada devolve espécies reativas de oxigênio, que realimentam as serina-quinases.])
-
-O tecido adiposo contribui por uma segunda via. O adipócito hipertrofiado recruta macrófagos e secreta fator de necrose tumoral alfa e interleucina-6, citocinas que ativam as mesmas serina-quinases e reduzem o GLUT-4 de superfície. A obesidade opera como inflamação crônica de baixo grau, e é por essa ponte que produz resistência à insulina.
-
-A resistência isolada não configura diabetes. A célula beta responde à glicemia crescente aumentando a secreção, e a *hiperinsulinemia compensatória* mantém a glicose em faixa quase normal por anos.
-
-#atencao-box("No tipo 2, a insulina pode estar alta", [
-Durante a maior parte da história natural do tipo 2 a insulina está *normal ou elevada*, e a glicemia sobe apesar disso porque o tecido não responde. Insulina alta com glicemia alta não é contradição laboratorial: é o retrato da resistência. A insulina só cai quando, após anos de sobrecarga secretora e de exposição a glicose e ácido graxo em excesso, a célula beta entra em apoptose e a massa de ilhota diminui — e é nessa fase que o tipo 2 passa a exigir insulina exógena.
-])
-
-O defeito é distribuído por vários órgãos. O fígado resiste ao freio da gliconeogênese e mantém produção hepática de glicose mesmo sob insulina alta, o que explica a hiperglicemia de jejum. O adipócito resiste ao freio da lipólise e continua exportando ácido graxo. O intestino perde parte do efeito incretínico. A ilhota acrescenta hiperglucagonemia à queda de secreção.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-11.png",
-  largura: 56%,
-  legenda: [Cinco endereços do mesmo defeito. A produção hepática de glicose que não desliga é a que sustenta a glicemia de jejum, quando nenhuma refeição a justifica.])
-
-#subtopico("1.4 — Diurese osmótica e as duas descompensações")
-
-A glicose é filtrada livremente no glomérulo e reabsorvida no túbulo proximal por transportadores de capacidade máxima finita, saturados em torno de 180 mg/dL de glicemia. Acima desse limiar a glicose excedente permanece no lúmen tubular.
-
-Soluto não reabsorvido retém água por osmose e impede que ela acompanhe o sódio de volta ao interstício: instala-se a #termo-nota[diurese osmótica][perda aumentada de água na urina causada por um soluto não reabsorvido que a retém no lúmen tubular], e o volume urinário sobe. A poliúria precede a sede — a perda de água eleva a osmolaridade plasmática e só então os osmorreceptores hipotalâmicos disparam a polidipsia. Sódio e potássio são arrastados junto.
-
-A perda ponderal soma três parcelas: caloria eliminada como glicose urinária, triacilglicerol mobilizado pela lipólise e proteína muscular consumida pela gliconeogênese. A polifagia coexiste porque a glicose não entrou na célula.
-
-A forma da descompensação depende da insulina residual. No tipo 1, com secreção praticamente ausente, a lipólise segue livre até os cetoácidos e instala-se a *cetoacidose diabética*, com pH baixo, #termo-nota[hiato aniônico][diferença entre os cátions e os ânions medidos no plasma; aumenta quando um ácido não medido, como o cetoácido, se acumula] aumentado e respiração ampla e profunda — compensação respiratória que elimina gás carbônico para tamponar a acidez, não doença pulmonar. No tipo 2, a insulina residual é insuficiente para normalizar a glicemia mas basta para conter a lipase hormônio-sensível; sem lipólise maciça não há cetose, e a descompensação assume a forma de *estado hiperosmolar*, com glicemias mais altas, diurese osmótica prolongada e rebaixamento de consciência.
+À primeira vista parece natural chamar de vilosidade qualquer relevo da mucosa — e a distinção, na verdade, é de camada, não de tamanho.
 
 #confusao-prevista(
-  titulo: "Hiperosmolaridade e acidose não são o mesmo distúrbio",
-  aluno_acha: [as duas descompensações são lidas como graus de gravidade de um mesmo processo],
-  mecanismo: [são distúrbios de naturezas distintas que apenas coexistem na cetoacidose. A hiperosmolaridade é distúrbio de *água*, produzido pela diurese osmótica; a acidose é distúrbio de *ácido*, produzido pelos cetoácidos da lipólise. No estado hiperosmolar do tipo 2 a primeira ocorre isolada, e é ela que ameaça a vida.],
+  titulo: "Plica circular e vilosidade não são o mesmo relevo em escalas diferentes",
+  aluno_acha: [aluno acha que a plica é só uma vilosidade grande, ou que basta o tamanho para diferenciar],
+  mecanismo: [a diferença é qual camada evagina. A *plica* leva mucosa #emph[e] submucosa, é permanente e visível a olho nu na peça aberta. A *vilosidade* leva #emph[só] mucosa, tem eixo de lâmina própria com vaso e é da ordem do milímetro. E a *cripta* não é relevo: é invaginação, do lado oposto do movimento.],
 )
 
-O potássio inverte a leitura esperada do exame. A diurese osmótica esvazia o estoque corporal total, enquanto a acidose e a ausência de insulina deslocam potássio do intracelular para o plasma. O resultado é potássio sérico normal ou elevado em paciente profundamente depletado — valor que despenca assim que a insulina reconduz o íon para dentro da célula.
-
-#parte-title("PARTE II — Do açúcar ao dano: glicação e as rotas que se perpetuam")
-
-#subtopico("2.1 — Glicação não-enzimática e os dois relógios do controle")
-
-A glicose é um açúcar redutor: possui grupo carbonil livre, que reage espontaneamente com grupos amino de proteínas. A reação é *glicação* — não-enzimática, sem sítio preferencial, governada apenas pelo produto entre concentração de glicose e tempo de exposição. Distingue-se da *glicosilação*, que é enzimática, dirigida a sítios específicos e parte da maturação normal de glicoproteínas. É essa dependência de concentração e tempo que faz da glicação, ao mesmo tempo, o mecanismo da lesão e a base dos exames que medem controle.
-
-A reação avança em três estágios de reversibilidade decrescente. A *base de Schiff* é a condensação inicial entre o carbonil da glicose e um grupo amino da proteína, tipicamente da lisina ou da valina N-terminal; forma-se em horas e desfaz-se se a glicemia cai. O *produto de Amadori* é o rearranjo da base de Schiff numa cetoamina estável, formado em dias e apenas lentamente reversível. O #sigla("AGE", [produto final de glicação avançada — do inglês *advanced glycation end product*, a forma irreversível da glicação]) resulta de desidratações e oxidações sucessivas ao longo de semanas a meses e estabelece *ligações cruzadas* entre dois radicais protéicos: aqui a reação deixa de reverter.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-15.png",
+#figura-nebli("/figuras/biotec-02-intestinos/slide-09.png",
   largura: 70%,
-  legenda: [A régua de tempo no alto — horas, dias, semanas a meses — carrega o mecanismo. A barra "reversível" termina antes da ligação cruzada entre duas cadeias protéicas, e é essa etapa final que a normalização da glicemia já não desfaz.])
+  legenda: [Os quatro graus lado a lado. O terceiro deles, a cripta, é o único que aponta para dentro.])
 
-Da escala de tempo decorre a seleção do alvo: acumula AGE a proteína de meia-vida longa — colágeno, elastina, cristalino, membrana basal —, renovada mais devagar do que a reação avança. Proteína de turnover rápido é degradada antes de reticular.
+#figura-lateral("/figuras/biotec-02-intestinos/slide-07.png",
+  lado: "right",
+  largura-figura: 36%,
+  texto: [A varredura eletrônica mostra o que o corte esconde: as vilosidades não são lâminas paralelas, são projeções independentes, de alturas irregulares, separadas por sulcos onde se abrem as criptas. Cada uma é uma unidade funcional completa, com arteríola, vaso quilífero e contingente próprio de células imunes.],
+  legenda: [Microscopia eletrônica de varredura, intestino delgado. V, vilosidade.])
 
-Os dois exames de controle são produtos de Amadori em proteínas diferentes, e a diferença entre eles é a janela de tempo que cada proteína guarda. A #sigla("HbA1c", [hemoglobina glicada — fração da hemoglobina A que sofreu glicação, expressa em porcentagem da hemoglobina total]) mede a fração glicada da hemoglobina; como a hemácia circula de 90 a 120 dias sem reverter a modificação, o exame integra a exposição à glicose ao longo de 8 a 12 semanas, com peso maior nas últimas quatro. Uma HbA1c de 8,8% corresponde a glicemia média em torno de 205 mg/dL nesse período — no caso da PARTE I, hiperglicemia sustentada muito antes dos dez dias de sintomas. A limitação do exame é a mesma variável que o define: hemólise, sangramento recente ou transfusão encurtam a sobrevida eritrocitária e reduzem a HbA1c para a mesma glicemia média.
+#mini-resumo[Quatro túnicas em todo o tubo; no delgado, quatro graus de dobramento multiplicam a área por ~600×; e a proporção entre glândula submucosa, altura de vilo e tecido linfoide identifica duodeno, jejuno e íleo.]
 
-A #termo-nota[frutosamina][conjunto das proteínas plasmáticas glicadas, sobretudo a albumina; como a albumina vive de 14 a 20 dias, o exame reflete as últimas 2 a 3 semanas] resolve exatamente esses casos. A albumina circula de 14 a 20 dias e o exame lê 2 a 3 semanas, o que o torna útil em hemoglobinopatia, anemia hemolítica, gestação e mudança recente de tratamento. No caso da aula os dois caminharam juntos em escalas distintas: HbA1c de 8,8% e frutosamina de 575 μmol/L em abril; 5,2% e 289 μmol/L em agosto, quatro meses após a insulinização.
+#subtopico("1.3 — Duodeno, jejuno e íleo: ler o segmento pela lâmina")
 
-#subtopico("2.2 — O que o AGE faz nas proteínas de vida longa")
+Com o plano das quatro túnicas na mão, cada segmento do delgado ganha uma assinatura própria. A transição começa abrupta: no piloro, o epitélio glandular do estômago, com suas fovéolas, termina e dá lugar em poucos milímetros ao epitélio com vilosidades do duodeno — muda o epitélio e muda a função na mesma fronteira.
 
-A reticulação do colágeno não produz apenas rigidez: a proteína reticulada *resiste à digestão proteolítica e deixa de ser substituída*. O remodelamento da matriz extracelular depende de degradar colágeno velho para depositar colágeno novo, e as proteases não cortam o substrato reticulado. Esta é a razão bioquímica de a ferida do diabético cicatrizar mal mesmo com perfusão preservada.
+O *duodeno* tem a assinatura mais fácil e a pior localizada pelo aluno: as *glândulas de Brunner*, tubuloacinosas ramificadas, são as únicas glândulas do tubo digestório alojadas na *submucosa*. Secretam muco alcalino rico em bicarbonato, e seus ductos atravessam a muscular da mucosa para desembocar no fundo das criptas. A localização não é curiosidade topográfica: o quimo chega do estômago com pH em torno de 2, as enzimas pancreáticas trabalham perto de 7, e é essa secreção que faz a ponte. As vilosidades duodenais são largas e achatadas, em folha.
 
-A glicação da #sigla("LDL", [lipoproteína de baixa densidade — partícula que transporta colesterol do fígado para os tecidos]) prejudica o reconhecimento da partícula pelo receptor hepático, prolonga o tempo de circulação e favorece a oxidação. A partícula modificada passa a ser captada por *receptores scavenger* do macrófago, que — ao contrário do receptor de LDL — não são inibidos pelo colesterol já acumulado na célula. O macrófago capta sem regulação e se converte em #termo-nota[célula espumosa][macrófago repleto de gotículas lipídicas, elemento fundador da estria gordurosa e da placa de ateroma]. É o elo direto entre hiperglicemia e placa de ateroma, retomado na PARTE III.
+O *jejuno* é o segmento de absorção máxima, e sua assinatura é a ausência de assinaturas: plicas circulares altas e numerosas, vilosidades digitiformes longas, nenhuma glândula na submucosa, nenhum agregado linfoide conspícuo.
+#figura-nebli("/figuras/biotec-02-intestinos/slide-23.png",
+  largura: 70%,
+  legenda: [Três lâminas, três assinaturas: glândula na submucosa marca duodeno; plica alta com submucosa limpa marca jejuno; folículo linfoide atravessando a muscular da mucosa marca íleo.])
 
-#confusao-prevista(
-  titulo: "Membrana basal mais espessa não filtra melhor",
-  aluno_acha: [engrossar a barreira deveria retê-la mais e reduzir a passagem de proteína],
-  mecanismo: [o que muda não é só a espessura, é a *composição*. A membrana basal glomerular do diabético ganha matriz desorganizada e perde proteoglicanos aniônicos, que constituem a barreira de carga que repelia a albumina — também aniônica. O resultado é uma membrana mais espessa e simultaneamente mais permeável a proteína.],
+O *íleo* inverte a lógica: as vilosidades encurtam e, na parede oposta à inserção do mesentério, aparecem as *placas de Peyer* — agregados de folículos linfoides tão volumosos que ocupam a lâmina própria, empurram a muscular da mucosa e invadem a submucosa.
+
+O gradiente entre os três segmentos tem uma lógica única por baixo. A carga ácida vinda do estômago é máxima nos primeiros centímetros e cai rápido; a bacteriana é baixa no duodeno e sobe até o ceco. A defesa da mucosa acompanha as duas curvas e troca de natureza no caminho — começa *química*, com o bicarbonato de Brunner, e termina *imunológica*, com tecido linfoide amostrando bactéria. No bulbo duodenal, onde a proteção química ainda não venceu o ácido, é onde a úlcera péptica se instala.
+
+#parte-title("PARTE II — O epitélio que se refaz por inteiro toda semana")
+
+#subtopico("2.1 — A cripta como nicho: a célula-tronco entre dois gradientes opostos")
+
+Uma barreira de uma célula de espessura, exposta a enzimas digestivas e a atrito contínuo, se gasta. O intestino não protege essa célula: substitui-a. Repor 200 metros quadrados de revestimento a cada poucos dias exige um compartimento produtor permanente, protegido do lúmen e com endereço fixo — a cripta de Lieberkühn, cujo fundo é o *nicho*, o microambiente que mantém a célula-tronco indiferenciada.
+
+No fundo da cripta, encaixadas entre as células de Paneth, ficam células finas e cuneiformes chamadas *células colunares da base da cripta*, ou #sigla("CBC", [crypt base columnar cells — células-tronco ativas do intestino, cuneiformes, intercaladas entre as Paneth no fundo da cripta]). São as células-tronco ativas, reconhecíveis por três marcadores: *Lgr5*, *Ascl2* e *Olfm4*. O primeiro já diz o mecanismo — Lgr5 é o receptor da #termo-nota[R-espondina][proteína secretada que se liga ao Lgr5 e impede a degradação dos receptores Frizzled da membrana, amplificando o sinal Wnt sem substituí-lo].
+
+Dois gradientes moleculares opostos percorrem o eixo cripta-vilo e decidem o destino de cada célula pela *posição* que ela ocupa, não pelo tempo que ela viveu. A via *Wnt* está no máximo no fundo da cripta e cai em direção ao ápice: onde há Wnt alto, a célula mantém o programa de tronco e prolifera. A via #sigla("BMP", [bone morphogenetic protein — família de fatores da superfamília do TGF-β; no intestino, o gradiente BMP é máximo no ápice do vilo e impõe diferenciação terminal]) faz o inverso, com máximo no ápice do vilo: onde há BMP alto, a célula para de dividir e completa a diferenciação. A célula sobe atravessando os dois gradientes em sentidos contrários, e essa travessia é o cronograma dela.
+
+A origem do Wnt é dupla. Parte vem da própria célula de Paneth vizinha, que secreta Wnt3, fator de crescimento epidérmico e ligantes de Notch — por isso a Paneth é *nicho celular* da tronco, e não só célula de defesa. Parte vem de fora do epitélio: os *trofócitos* e os *telócitos* Foxl1-positivos, fibroblastos da lâmina própria sob a cripta, secretam Wnt e também antagonistas de BMP como a gremlina. O nicho não é apenas um lugar com sinal de manutenção: é um lugar onde o sinal de diferenciação está ativamente bloqueado.
+
+Acima das células-tronco vem o compartimento *amplificador de trânsito*, designado #sigla("TA", [transit-amplifying cells — progenitores comprometidos com uma linhagem que ainda percorrem quatro a cinco ciclos de divisão enquanto migram da cripta para o vilo]). É esse degrau que explica a aritmética do tecido: poucas células-tronco geram muitas diferenciadas sem que a tronco precise se dividir em ritmo insustentável.
+
+Existe ainda uma segunda população, na *posição +4*, logo acima das Paneth, marcada por *Bmi1*, *Hopx* e *mTert*. Divide-se pouco e funciona como reserva: quando as Lgr5-positivas são eliminadas — o que ocorre após irradiação ou quimioterapia, justamente por ciclarem rápido —, as células da posição +4 reentram no ciclo e repovoam a cripta. Essa redundância é o que permite ao epitélio se reconstituir depois de uma agressão que destruiria um tecido de renovação lenta.
+
+#figura-nebli("/figuras/biotec-02-intestinos/slide-15.png",
+  largura: 58%,
+  legenda: [Os dois compartimentos de tronco: as CBC (Lgr5, Ascl2, Olfm4) no fundo, entre as Paneth; a reserva de posição +4 (Bmi1, Hopx, Tert) logo acima. Entre elas e o vilo, a zona TA.])
+
+#figura-lateral("/figuras/biotec-02-intestinos/slide-10.png",
+  lado: "left",
+  largura-figura: 34%,
+  texto: [Os dois triângulos à direita são o essencial: Wnt cresce para baixo, BMP cresce para cima. Fora do epitélio, o telócito Foxl1-positivo acompanha todo o eixo e o trofócito fica sob a cripta — o nicho é epitelial *e* mesenquimal, e por isso uma cripta isolada só forma organoide quando o meio repõe artificialmente Wnt, R-espondina e antagonista de BMP.],
+  legenda: [Gradientes opostos Wnt e BMP ao longo do eixo cripta-vilo.])
+
+#clinica-box("Quando o gradiente Wnt não desliga", [
+O gene *APC* codifica uma proteína do complexo que degrada a β-catenina, efetor final da via Wnt. Perdidas as duas cópias funcionais, a β-catenina acumula-se e entra no núcleo mesmo sem ligante: a célula passa a se comportar como se estivesse permanentemente no fundo da cripta.
+
+A consequência é direta: ela não recebe o sinal de parar ao subir, prolifera fora do compartimento próprio, e a cripta se expande formando o *adenoma*. Na polipose adenomatosa familiar o indivíduo nasce com uma cópia de APC alterada em todas as células, e a perda da segunda em qualquer cripta basta — daí centenas a milhares de pólipos a partir da segunda década. O rastreamento de linhagem mostra que a célula de origem é, em geral, a própria Lgr5-positiva: o tumor herda do nicho a capacidade de se auto-renovar.
+])
+
+#subtopico("2.2 — Duas linhagens e a decisão de Notch")
+
+Da célula-tronco da base da cripta saem dois ramos, e essa bifurcação organiza todo o epitélio intestinal. O ramo *absortivo* produz uma única classe terminal, o enterócito, que responde por cerca de noventa por cento das células do vilo. O ramo *secretor* produz quatro: a célula caliciforme, a enteroendócrina, a de Paneth e a célula em tufo.
+
+Quem decide entre os dois ramos é a via Notch, por *inibição lateral* — competição entre vizinhas, não instrução externa. A célula que começa a expressar os ligantes DLL1 e DLL4 ativa o receptor Notch das adjacentes; Notch ativo reprime o fator de transcrição *ATOH1*, e sem ATOH1 a vizinha segue por padrão o programa absortivo. Quem emitiu o ligante não recebe repressão, mantém ATOH1 alto e completa o programa secretor. Daí o mosaico em que secretoras aparecem isoladas entre muitos enterócitos, com proporção emergindo da competição e sem contador central. A demonstração é limpa: bloqueada a γ-secretase, enzima que cliva o receptor Notch e libera seu fragmento intracelular, a cripta inteira converte-se em caliciformes.
+
+Os quatro tipos terminais têm, cada um, um traço morfológico que os denuncia na lâmina e um produto que define a função.
+
+#table(
+  columns: (auto, 1fr, 1fr),
+  inset: 7pt,
+  align: left + horizon,
+  stroke: 0.5pt + gray-border,
+  table.header(
+    [*Tipo*], [*Traço na lâmina*], [*Produto e função*]
+  ),
+  [Enterócito], [Colunar alto, núcleo basal, borda em escova acidófila no ápice], [Dissacaridases e peptidases de membrana, transportadores; absorção],
+  [Caliciforme], [Ápice dilatado em taça por grânulos de mucinogênio; núcleo comprimido na base], [Mucina 2, que hidrata e forma o gel de muco protetor],
+  [Enteroendócrina], [Grânulos na porção *basal*, abaixo do núcleo; célula piramidal], [Colecistoquinina, secretina, peptídeo YY, GLP-1, serotonina; regula digestão, metabolismo e apetite],
+  [Paneth], [Grânulos grandes e intensamente acidófilos no ápice; localização exclusiva no fundo da cripta], [Lisozima, α-defensinas e fosfolipase A₂; controle da flora e manutenção do nicho],
 )
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-17.png",
+A célula de Paneth é a exceção do eixo. Todas as outras nascem na cripta e sobem; a Paneth *desce*, ocupa o fundo e permanece semanas, não dias. Precisa dessa longevidade porque acumula duas funções incompatíveis com descarte rápido: mantém peptídeos antimicrobianos na luz da cripta, protegendo o compartimento de tronco da flora, e é fonte de Wnt3 e de ligante de Notch para a Lgr5-positiva encostada nela.
+
+A polaridade dos grânulos separa Paneth de enteroendócrina numa lâmina apertada, e fixa-se pelo destino da secreção: a Paneth secreta para o *lúmen* da cripta e guarda os grânulos no ápice; a enteroendócrina secreta para o *sangue* da lâmina própria e guarda os grânulos na base.
+
+#figura-nebli("/figuras/biotec-02-intestinos/slide-17.png",
+  largura: 62%,
+  legenda: [Os quatro tipos em corte. Na Paneth, à direita, os grânulos acidófilos ocupam o ápice voltado para a luz da cripta; na enteroendócrina, ao lado, acumulam-se sob o núcleo, voltados para o capilar.])
+
+
+#mini-resumo[Wnt alto na cripta mantém a tronco; BMP alto no vilo obriga a diferenciar; Notch, por inibição lateral, distribui as células entre absortivas e secretoras; e o conjunto migra e é descartado em 3 a 5 dias.]
+
+#subtopico("2.3 — Da cripta ao ápice: proliferar, migrar, morrer")
+
+O epitélio do intestino delgado humano é substituído inteiramente a cada três a cinco dias — nenhum outro tecido se renova nessa velocidade. O número explica por que a mucosa intestinal é das primeiras a falhar sob quimioterapia e por que se recupera em dias, e não em meses, de uma agressão superficial.
+
+O movimento tem uma direção só, e duas colorações o tornam visível. O *Ki67* é proteína nuclear presente em todas as fases do ciclo exceto G₀: onde há núcleo marcado, há célula em ciclo — e a marcação se concentra na cripta. O #termo-nota[TUNEL][marcação enzimática das extremidades livres de DNA geradas pela fragmentação internucleossômica da apoptose; identifica células apoptóticas in situ] faz o oposto, identifica DNA fragmentado e concentra-se no *ápice* das vilosidades. As duas lâminas juntas leem o eixo no espaço: nasce embaixo, morre em cima.
+
+#figura-nebli("/figuras/biotec-02-intestinos/slide-13.png",
+  largura: 56%,
+  legenda: [Ki67 à esquerda, restrito às criptas; TUNEL à direita, com os núcleos marrons acumulados nas pontas das vilosidades. O eixo de renovação é legível numa única imagem.])
+
+Entre um extremo e outro há migração. A célula recém-formada é empurrada para cima pela pressão das divisões que continuam abaixo dela, deslizando sobre a lâmina basal a cerca de uma posição celular por hora. No ápice ela perde a ancoragem à matriz e entra em #termo-nota[anoikis][apoptose desencadeada pela perda de adesão da célula à matriz extracelular; garante que a célula destacada morra em vez de sobreviver fora do lugar], sendo extrudada para o lúmen. A extrusão é coreografada: as vizinhas fecham a junção de oclusão entre si *antes* que a célula moribunda se solte, e a barreira nunca chega a ter buraco — perder essa coordenação é uma das formas de a permeabilidade intestinal aumentar em quadros inflamatórios.
+
+Nada disso está pronto ao nascimento. Em roedores, no décimo nono dia de gestação o epitélio ainda é pseudoestratificado e a superfície apenas ondulada; no vigésimo, as vilosidades já se projetam definidas. A *cripta*, porém, é estrutura pós-natal: ao nascer não existe, e o compartimento proliferativo está disperso na região plana entre as vilosidades. Entre o quarto e o décimo dia de vida essas regiões se invaginam e a proliferação se concentra dentro das novas criptas. A ordem de montagem é essa — primeiro a superfície de troca, depois a fábrica que a mantém.
+
+#figura-nebli("/figuras/biotec-02-intestinos/slide-12.png",
   largura: 50%,
-  legenda: [À esquerda, membrana basal normal: fina e homogênea, com pedicelos regularmente espaçados. À direita, a mesma barreira espessada e desorganizada no diabético.])
+  legenda: [Do nascimento ao décimo dia: em P0 a base do epitélio é plana; as invaginações que darão as criptas aparecem em P4 e estão formadas em P10.])
 
-Há ainda um efeito independente de estrutura: os AGEs *inativam o óxido nítrico*. A menor disponibilidade de óxido nítrico reduz a vasodilatação dependente do endotélio, aumenta a adesão de leucócitos e plaquetas e favorece a proliferação de músculo liso na parede vascular. O primeiro dano vascular do diabetes é funcional e antecede qualquer placa detectável por imagem.
+#clinica-box("Doença celíaca: o eixo cripta-vilo desequilibrado", [
+Peptídeos de glúten desamidados pela transglutaminase tecidual são apresentados por moléculas HLA-DQ2 ou DQ8 e desencadeiam resposta de linfócitos T na lâmina própria. O efeito sobre o epitélio é agressão contínua ao topo do eixo: os enterócitos maduros do vilo são destruídos em ritmo muito acima do normal.
 
-#subtopico("2.3 — RAGE e as outras rotas: como o dano passa a se perpetuar")
+A cripta responde acelerando, e daí sai a combinação que define a lesão — *atrofia vilositária com hiperplasia de cripta*: vilosidades curtas ou ausentes sobre criptas alongadas e cheias de mitoses, com aumento dos linfócitos intraepiteliais. As duas alterações só parecem contraditórias: o compartimento proliferativo trabalha mais, não menos, mas a perda apical supera a reposição.
 
-O AGE não é apenas produto: é ligante. Monócitos, macrófagos, células endoteliais e células mesangiais expressam o #sigla("RAGE", [receptor para produtos finais de glicação avançada — receptor de membrana que converte a presença de AGE em sinal inflamatório intracelular]); a ligação ativa o #sigla("NF-κB", [fator nuclear kappa B — fator de transcrição que comanda a expressão de genes pró-inflamatórios]) e transcreve um programa que inclui citocinas, fatores de crescimento, moléculas de adesão e fator tecidual. Migração de monócitos, aumento de permeabilidade vascular, atividade pró-coagulante e deposição de matriz extracelular são saídas desse programa.
-
-A alça é positiva: a sinalização por RAGE aumenta a expressão do próprio receptor e o estresse oxidativo local, e as espécies reativas de oxigênio aceleram a formação de novos AGEs. *O dano passa a produzir as condições que o produzem* — o processo auto-perpetuador do esquema da aula, que continua operando quando o estímulo inicial já diminuiu.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-30.png",
-  largura: 55%,
-  legenda: [Alteração metabólica e alteração funcional ainda revertem; a partir das modificações progressivas um dos ramos passa a se alimentar sozinho. É esse ramo que faz a manifestação clínica surgir anos depois e não regredir com o controle.])
-
-Três rotas adicionais explicam alvos específicos. A *via dos polióis* converte glicose em sorbitol pela aldose-redutase consumindo NADPH; menos NADPH significa menos glutationa reduzida e menor defesa antioxidante, e o sorbitol acumulado — incapaz de atravessar a membrana — puxa água por osmose no cristalino e no nervo. A ativação da *proteína quinase C* pelo excesso de diacilglicerol aumenta permeabilidade vascular, expressão de fator de crescimento endotelial e deposição de matriz. A *via da hexosamina* modifica fatores de transcrição por adição de N-acetilglicosamina e altera a expressão de fator de crescimento transformador beta e do inibidor do ativador de plasminogênio, com fibrose e trombogenicidade como saída.
-
-As quatro rotas convergem: todas aumentam a produção mitocondrial de espécies reativas de oxigênio, e o estresse oxidativo as realimenta. Como todas dependem de glicose *intracelular* alta, atingem preferencialmente as células que captam glicose sem depender de insulina — endotélio, pericito, célula mesangial, neurônio, cristalino, epitélio tubular. Os órgãos-alvo do diabetes são exatamente esses tecidos.
-
-#parte-title("PARTE III — Onde o dano aparece: órgãos-alvo e o que a imagem enxerga")
-
-#subtopico("3.1 — Microangiopatia: retina e glomérulo")
-
-A retina é servida por vasos terminais sem circulação colateral, e é o único leito capilar do corpo examinável diretamente. O primeiro alvo é o #termo-nota[pericito][célula contrátil que envolve o capilar e regula o seu calibre], que capta glicose independentemente de insulina, sofre pelas quatro rotas da PARTE II e morre. O capilar perde suporte de parede e dilata focalmente em #termo-nota[microaneurismas][dilatações focais da parede capilar, formadas onde o suporte do pericito se perdeu; são as primeiras lesões detectáveis ao exame de fundo de olho]; a permeabilidade aumentada deposita *exsudatos duros* — plasma e lipoproteína extravasados — e a fragilidade da parede produz hemorragias puntiformes.
-
-A fase proliferativa não é recuperação. A retina isquêmica libera fator de crescimento endotelial e o organismo fabrica neovasos frágeis que crescem para dentro do vítreo: eles sangram, produzindo hemorragia vítrea, e o tecido fibroso que os acompanha traciona e descola a retina. Quando crescem sobre a íris e o ângulo camerular, bloqueiam a drenagem do humor aquoso e produzem glaucoma neovascular. A catarata tem mecanismo próprio e osmótico: a aldose-redutase converte glicose em sorbitol, que não atravessa a membrana da fibra do cristalino, acumula, puxa água e opacifica a lente — o mesmo mecanismo explica as oscilações de refração do paciente descompensado.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-31.png",
-  largura: 58%,
-  legenda: [Os órgãos marcados no esquema são os que captam glicose sem depender de insulina, mais os leitos arteriais atingidos pela aterosclerose acelerada.])
-
-No glomérulo, a hiperglicemia dilata a arteríola aferente mais do que a eferente: a pressão no capilar glomerular sobe e a filtração aumenta. Essa *hiperfiltração* é a primeira alteração funcional da doença, e a sobrecarga mecânica que ela impõe produz a esclerose de anos depois — o aumento da filtração inicial não é sinal de rim preservado.
-
-O que se deposita é matriz. A membrana basal espessa e muda de composição, como em 2.2, e a matriz mesangial se expande, primeiro difusamente e depois em nódulos arredondados — a glomeruloesclerose nodular de Kimmelstiel-Wilson. *Não há infiltrado inflamatório proeminente*: é acúmulo de matriz, não glomerulonefrite. As arteríolas aferente e eferente sofrem #termo-nota[hialinização][depósito de material proteico homogêneo e eosinofílico na parede do vaso, que a enrijece e estreita a luz], que é lesão de arteríola e não se confunde com a aterosclerose das artérias de médio e grande calibre.
-
-A tradução laboratorial tem ordem. A albuminúria aparece primeiro, porque a barreira de carga glomerular se perdeu — a albumina passa pelo glomérulo, não por falha tubular. A creatinina sobe muito depois, porque a hiperfiltração dos néfrons remanescentes mascara a perda dos já esclerosados: creatinina normal não exclui nefropatia. A glicosúria, a retenção urinária por neuropatia autonômica e a redução da quimiotaxia e da explosão respiratória do neutrófilo em hiperglicemia somam-se para explicar a predisposição à pielonefrite.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-33.png",
-  largura: 58%,
-  legenda: [As duas pontas da história no mesmo exame: rim *aumentado* na hiperfiltração inicial; rim reduzido, com córtex afilado e ecogenicidade aumentada no estágio final — fibrose devolve mais som que parênquima funcionante.])
-
-#subtopico("3.2 — Neuropatia e pé diabético")
-
-A neuropatia diabética resulta de dois mecanismos somados. Os *vasa nervorum*, capilares que nutrem o tronco nervoso, sofrem a mesma microangiopatia da retina e do glomérulo e isquemiam o nervo; em paralelo, o sorbitol acumulado e a glicação de proteínas do axônio e da mielina lesam a fibra diretamente. O achado funcional é a queda da velocidade de condução, e o padrão clínico é o comprometimento em bota e luva, que começa pelas fibras mais longas.
-
-O pé diabético soma três falhas independentes no mesmo território. A *neuropatia sensitiva* remove a dor protetora, e o trauma repetido — calçado apertado, corpo estranho, calo que ulcera — não é percebido nem interrompido. A *neuropatia autonômica* reduz a sudorese, resseca a pele e abre fissuras que servem de porta de entrada. A *doença arterial periférica* limita o aporte de oxigênio, de células de defesa e do antibiótico administrado. Somam-se a reticulação do colágeno por AGEs, que trava o remodelamento da matriz, e a disfunção do neutrófilo em hiperglicemia.
-
-Quando a isquemia é suficiente, o tecido morre com padrão de *gangrena*: necrose, tipicamente isquêmica, comprometendo pele, subcutâneo, músculo e osso simultaneamente. Diz-se seca sem infecção superposta e úmida com ela — o termo descreve a morte tecidual, não a infecção.
-
-#atencao-box("Charcot não é osteomielite", [
-A *artropatia de Charcot* é destruição mecânica: a articulação sem propriocepção nem dor recebe microtraumas repetidos sem correção postural, e a arquitetura do médio-pé se desmonta com erosão das superfícies articulares, fragmentação, subluxação e colapso do arco plantar. Não há infecção — há trauma acumulado sobre um pé que não avisa.
-
-A *osteomielite* é infecção da medular óssea, em geral por contiguidade a partir de úlcera plantar profunda, e exige antibioticoterapia prolongada e com frequência desbridamento.
-
-As duas coexistem no mesmo pé, e a confusão custa nos dois sentidos: antibiótico não imobiliza a articulação que continua se destruindo, e imobilização não contém a infecção que progride para o osso vizinho e para a corrente sanguínea.
+A clínica sai da geometria: menos superfície e epitélio mais imaturo — a célula chega ao topo sem completar a diferenciação — significam menos dissacaridase e menos transportador por unidade de área. Daí diarreia, distensão, perda de peso e anemia ferropriva, esta por má absorção de ferro no duodeno, o segmento mais atingido.
 ])
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-42.png",
+#parte-title("PARTE III — O epitélio que absorve e o que vigia")
+
+#subtopico("3.1 — O enterócito e a digestão terminal na borda em escova")
+
+A microvilosidade apresentada na PARTE I como recurso geométrico é, de perto, uma máquina. Cada uma mede cerca de um micrômetro e é sustentada por um feixe de vinte a trinta filamentos de actina reticulados pelas proteínas *vilina* e fimbrina — a vilina dá ao feixe rigidez para manter o prolongamento ereto contra o fluxo luminal, e por isso serve de marcador imuno-histoquímico de diferenciação enterocitária. As bases dos feixes ancoram-se na #termo-nota[trama terminal][rede horizontal de actina e espectrina logo abaixo do ápice do enterócito, que ancora as microvilosidades e se continua no cinturão de adesão da junção intercelular], que amarra todas as microvilosidades num conjunto solidário.
+
+Sobre as microvilosidades assenta o #termo-nota[glicocálice][manto de cadeias glicídicas das glicoproteínas e glicolipídios integrais da membrana apical, espesso o bastante para reter uma camada de água imóvel e ancorar enzimas de digestão terminal], formado pelas porções glicídicas das proteínas integrais da própria membrana apical. Ele retém junto à superfície uma camada de água praticamente imóvel, que dificulta o acesso de bactérias e reduz a exposição da membrana às proteases pancreáticas do lúmen — e ancora as enzimas da etapa final da digestão.
+
+A digestão luminal, feita pelas enzimas pancreáticas dissolvidas no quimo, não chega a monômeros: para em oligossacarídeos e oligopeptídeos. A *digestão terminal*, ou de membrana, é executada por proteínas integrais da membrana apical com sítio catalítico voltado ao lúmen — as dissacaridases *lactase*, *sacarase-isomaltase* e *maltase-glicoamilase* e as peptidases *aminopeptidase N* e *dipeptidil-peptidase IV*. A vantagem é de proximidade: o monômero nasce a nanômetros do transportador que o capta, sem se perder por difusão de volta ao lúmen.
+
+Uma dessas enzimas de membrana funciona como gatilho. A *enteroquinase*, ou enteropeptidase, expressa sobretudo no duodeno, cliva o tripsinogênio em tripsina, e a tripsina ativa em cascata os demais zimogênios pancreáticos — toda a proteólise pancreática depende de uma enzima que não é pancreática e está fixada na borda em escova.
+
+O transporte que segue depende do gradiente de sódio. Glicose e galactose entram pelo cotransportador #sigla("SGLT-1", [sodium-glucose linked transporter 1 — cotransportador apical que introduz duas moléculas de sódio por hexose, usando o gradiente de sódio como energia]); frutose entra sem gasto, por difusão facilitada via #sigla("GLUT5", [transportador de glicose tipo 5 — isoforma apical do enterócito, específica para frutose e independente de sódio]); aminoácidos e di- e tripeptídeos entram por simportes com sódio ou hidrogênio; e a saída basolateral é por #sigla("GLUT2", [transportador de glicose tipo 2 — isoforma basolateral de alta capacidade, que devolve o monossacarídeo ao interstício a favor do gradiente]), a favor do gradiente. *A conta energética não é paga no ápice:* quem a paga é a bomba de sódio e potássio basolateral, que mantém o sódio intracelular baixo e sustenta o gradiente que os cotransportadores apicais consomem.
+
+Os lipídeos tomam outro caminho. Ácidos graxos e monoacilgliceróis entregues pelas micelas de sais biliares atravessam a membrana apical, são reesterificados no retículo endoplasmático liso e empacotados com apolipoproteína B-48 em *quilomícrons* — partículas grandes demais para o endotélio contínuo do capilar, que por isso saem pelo *vaso quilífero central*, de endotélio linfático descontínuo e sem lâmina basal completa. Daí a gordura da dieta alcançar a circulação sistêmica pelo ducto torácico, escapando da primeira passagem hepática, enquanto glicose e aminoácido vão direto ao fígado pela veia porta.
+
+A lactase é a primeira dissacaridase a declinar, por ocupar a porção mais apical da microvilosidade. Perdida ela, a lactose não hidrolisada permanece no lúmen como soluto osmoticamente ativo e chega ao cólon, onde a flora a fermenta em ácidos graxos de cadeia curta e gases — daí a diarreia osmótica, a distensão e a flatulência.
+
+#figura-nebli("/figuras/biotec-02-intestinos/slide-19.png",
+  largura: 72%,
+  legenda: [Repare em onde estão as enzimas: as pancreáticas flutuam no lúmen e param nos oligômeros; as oligossacaridases e peptidases estão presas às microvilosidades, e é ali que o monômero nasce, ao lado do transportador que o capta.])
+
+#figura-lateral("/figuras/biotec-02-intestinos/slide-18.png",
+  lado: "right",
+  largura-figura: 33%,
+  texto: [Na transmissão, a borda em escova aparece como paliçada regular de prolongamentos de mesma altura, coroada pelo material filamentoso do glicocálice. Sob as bases, a faixa densa e sem organelas é a trama terminal; ao lado dela, os complexos juncionais que selam o espaço entre enterócitos vizinhos.],
+  legenda: [Domínio apical do enterócito: microvilosidades, glicocálice e trama terminal.])
+
+#subtopico("3.2 — Lâmina própria e GALT: célula M, placa de Peyer e IgA")
+
+Do outro lado de uma única camada de células está a maior massa de microrganismos do organismo. É essa desproporção que obriga a lâmina própria intestinal a ser, permanentemente, tecido linfoide — o #sigla("GALT", [gut-associated lymphoid tissue — tecido linfoide associado ao intestino, somando o componente difuso da lâmina própria e agregados organizados como as placas de Peyer]), que existe em duas formas com funções distintas, uma difusa e uma organizada.
+
+O componente difuso é o eixo de cada vilosidade, onde correm a arteríola, a rede capilar subepitelial fenestrada, a vênula, o vaso quilífero central e feixes de músculo liso da muscular da mucosa que encurtam o vilo ritmicamente e bombeiam a linfa para fora dele. Ali reside em caráter permanente um contingente de plasmócitos, linfócitos T e B, macrófagos, eosinófilos e mastócitos; e acima da lâmina basal, entre os próprios enterócitos, ficam os *linfócitos intraepiteliais*, em sua maioria T CD8, posicionados para reagir a célula epitelial infectada sem atravessar barreira alguma.
+
+O produto característico do componente difuso é a *imunoglobulina A secretora*. O plasmócito da lâmina própria secreta #sigla("IgA", [imunoglobulina A — no intestino é secretada em forma dimérica, unida pela cadeia J, e transportada através do enterócito até o muco]) dimérica, unida pela cadeia J; o *receptor de imunoglobulina polimérica* da membrana basolateral do enterócito liga o dímero e o transcita até a face apical, onde a porção extracelular do receptor é clivada e permanece ligada como *componente secretor*, que protege a molécula da proteólise luminal. Assim protegida, a IgA atua por *exclusão imune* — aglutina bactéria e neutraliza toxina dentro do muco sem ativar a via clássica do complemento. É defesa que não produz inflamação, exatamente o que uma superfície colonizada por trilhões de comensais exige.
+
+O componente organizado é a placa de Peyer, e o problema que ela resolve é de acesso: um agregado linfoide não reconhece o que está no lúmen se nada trouxer o antígeno para dentro. A solução é a *célula M*, enterócito modificado que compõe, com enterócitos comuns, o #sigla("FAE", [follicle-associated epithelium — epitélio do domo da placa de Peyer, sem vilosidades e sem células caliciformes, onde se alojam as células M]) sobre o domo do folículo. Ela tem microvilosidades curtas e irregulares, glicocálice fino e — o traço decisivo — um bolso profundo na membrana basal, ocupado por linfócitos, macrófagos e células dendríticas. Capta antígeno particulado ou bactéria inteira e o transcita *íntegro* até esse bolso: amostragem, não digestão.
+
+O tráfego de linfócitos fecha o circuito com uma assimetria que vale guardar. Eles entram na placa pela *vênula de endotélio alto*, o #sigla("HEV", [high endothelial venule — vênula de endotélio cúbico especializada na passagem de linfócitos do sangue para o tecido linfoide]), num endereçamento em que a integrina α4β7 do linfócito reconhece a molécula MAdCAM-1 do endotélio intestinal; estimulados no centro germinativo, saem por linfáticos eferentes da submucosa. *A placa de Peyer não tem vaso linfático aferente* — diferente do linfonodo, ela não recebe antígeno pela linfa, recebe pelo epitélio.
+
+O equilíbrio final é de tolerância: linfócitos T reguladores da lâmina própria produzem interleucina 10 e fator de transformação do crescimento beta, que amortecem a resposta a comensais e a antígenos alimentares sem desligar a resposta a patógenos. Sustentar ao mesmo tempo vigilância ativa e não-resposta seletiva é a tarefa mais difícil desse tecido, e a quebra desse equilíbrio está por trás das doenças inflamatórias intestinais.
+
+#figura-nebli("/figuras/biotec-02-intestinos/slide-27.png",
   largura: 58%,
-  legenda: [Antepé, médio-pé e retropé na artropatia de Charcot: erosão das superfícies articulares e desalinhamento, sem reação periosteal de infecção.])
+  legenda: [O domo do folículo não tem vilosidades: o epitélio ali é plano e abriga as células M. As setas mostram o único tráfego possível — entrada de linfócito pela vênula de endotélio alto, saída pelo linfático eferente.])
 
-A escolha do método de imagem segue o tempo do achado. A radiografia só demonstra alteração após perda óssea significativa, com atraso de uma a duas semanas — insuficiente para excluir osteomielite aguda. A #sigla("RM", [ressonância magnética — método baseado no comportamento dos núcleos de hidrogênio em campo magnético, com alta resolução para partes moles e medula óssea]) detecta o edema da medular óssea muito antes: baixo sinal em T1, alto sinal em T2 com saturação de gordura, e realce após contraste no tecido inflamado e perfundido.
+#clinica-box("Doença de Crohn e a célula de Paneth", [
+Variantes de perda de função no gene *NOD2* estão entre os fatores de risco genéticos mais consistentes para doença de Crohn ileal. NOD2 é sensor citoplasmático de muramil-dipeptídeo, fragmento de parede bacteriana, e é expresso em nível alto justamente na célula de Paneth.
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-43.png",
-  largura: 58%,
-  legenda: [A mesma região aparece escura em T1, clara em T2 com saturação de gordura e realçada após contraste — a assinatura do edema e da inflamação da medular óssea.])
-
-#subtopico("3.3 — Macroangiopatia: aterosclerose acelerada e como se procura por ela")
-
-O diabetes acelera a aterosclerose por quatro caminhos já construídos: a LDL glicada captada sem regulação pelo macrófago, a inativação do óxido nítrico com disfunção endotelial, o estado pró-inflamatório do eixo AGE–RAGE, e um estado pró-coagulante com mais fator tecidual, mais inibidor do ativador de plasminogênio e menos fibrinólise.
-
-O evento agudo vem da *ruptura* da placa, não do seu crescimento até ocluir. Uma placa com núcleo lipídico grande e capa fibrosa fina se fissura, expõe colágeno e fator tecidual ao sangue, e a trombose resultante oclui a luz em minutos — placa pouco estenosante pode matar, enquanto placa muito estenosante e estável dá angina previsível por anos. Aplicada ao diabético, a tríade de Virchow destaca *lesão endotelial* e *alteração de fluxo por turbulência* sobre a placa, somadas à hipercoagulabilidade; a estase é o eixo da trombose venosa por imobilidade, cenário distinto.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-34.png",
-  largura: 58%,
-  legenda: [Dois ramos a partir do mesmo ponto: a placa estável estreita a luz e dá angina previsível; a placa vulnerável se instabiliza e o desfecho passa a depender do trombo — suboclusivo dá síndrome coronariana aguda, oclusivo dá infarto ou morte súbita.])
-
-Como a aterosclerose tem período assintomático longo, a imagem é usada para procurá-la antes do evento, e cada método responde a uma pergunta distinta.
-
-#align(center, table(
-  columns: (auto, 1fr, auto, 1fr),
-  inset: 6pt,
-  align: left + horizon,
-  stroke: 0.4pt + gray-border,
-  fill: (_, y) => if y == 0 { navy } else { white },
-  table.header(
-    text(fill: white, weight: "bold", size: 8.5pt)[Método],
-    text(fill: white, weight: "bold", size: 8.5pt)[O que mede],
-    text(fill: white, weight: "bold", size: 8.5pt)[Custo],
-    text(fill: white, weight: "bold", size: 8.5pt)[Quando escolher],
-  ),
-  text(size: 8.5pt)[Escore de cálcio],
-  text(size: 8.5pt)[Carga de placa calcificada, acima de 130 unidades Hounsfield em área mínima de 1 mm²],
-  text(size: 8.5pt)[Radiação baixa, sem contraste],
-  text(size: 8.5pt)[Estratificar risco em assintomático; não mostra a luz],
-  text(size: 8.5pt)[Angiotomografia de coronárias],
-  text(size: 8.5pt)[A luz do vaso, com especificidade alta e valor preditivo negativo próximo de 100%],
-  text(size: 8.5pt)[Radiação e contraste iodado],
-  text(size: 8.5pt)[Excluir doença em probabilidade pré-teste baixa a intermediária],
-  text(size: 8.5pt)[Cateterismo],
-  text(size: 8.5pt)[Grau de estenose com precisão, e permite tratar no mesmo tempo],
-  text(size: 8.5pt)[Invasivo, risco baixo mas real],
-  text(size: 8.5pt)[Alta probabilidade pré-teste, ou lesão grave já detectada],
-))
-
-A regra que organiza a tabela: *um exame só é útil quando o resultado pode mudar a conduta*. Com probabilidade pré-teste alta, uma angiotomografia negativa não seria aceita e uma positiva levaria ao cateterismo de qualquer modo — o exame acrescenta radiação e contraste sem alterar a decisão. Com probabilidade baixa a intermediária, o resultado negativo encerra a investigação, e é aí que o valor preditivo negativo alto tem valor.
-
-A mesma leitura por densidade vale nos outros territórios. Na tomografia de crânio sem contraste, a área isquêmica é *hipoatenuante* porque o edema citotóxico aumenta o conteúdo de água do tecido; sangue agudo é hiperatenuante. Na aorta, a calcificação parietal extensa e o alargamento do vaso registram a mesma doença em calibre maior.
-
-#clinica-box("Do mecanismo à estratégia terapêutica", [
-No infarto por trombose sobre placa rota, cada estratégia ataca um elo da cadeia deste resumo. O *antiagregante plaquetário* age na hemostasia primária, reduzindo adesão e agregação sobre o colágeno exposto. O *trombolítico* age depois do trombo formado, ativando o plasminogênio em plasmina, que degrada a rede de fibrina. A *desobstrução mecânica com implante de stent* restabelece a luz e reduz a turbulência que realimenta a ativação endotelial.
-
-As três convergem no mesmo alvo: o endotélio ativado, que perdeu o perfil antitrombótico e passou a expressar fator tecidual e fator de von Willebrand enquanto reduz óxido nítrico e ativador de plasminogênio. Controlar a glicemia atua antes disso, sobre a glicação que produziu a disfunção endotelial.
+Com o sensor comprometido, a Paneth secreta menos α-defensinas na luz da cripta; a flora deixa de ser mantida à distância do compartimento de tronco e a lâmina própria passa a ser acionada cronicamente. Daí a inflamação transmural, descontínua e granulomatosa, com predileção pelo íleo terminal, onde densidade de Paneth e carga bacteriana são ambas máximas. A célula que sustenta o nicho de renovação é a mesma que mantém a fronteira microbiológica, e um defeito único compromete as duas.
 ])
+
+#subtopico("3.3 — O intestino grosso: mesma cripta, outro ofício")
+
+O intestino grosso mantém o plano de quatro túnicas e o eixo cripta-para-superfície, com a mesma célula-tronco Lgr5-positiva no fundo. O que muda é a tarefa — aqui não se absorve nutriente, absorve-se água e eletrólito e compacta-se o resíduo —, e a arquitetura desmontou tudo o que servia à tarefa anterior.
+
+O que sumiu foi a superfície. *Não há vilosidade nenhuma no intestino grosso* — nem curta, nem rudimentar. A mucosa é plana, e sobre ela abrem-se criptas retas, longas, paralelas e muito próximas, com o aspecto de tubos de ensaio enfileirados no corte. Tampouco há plica circular: as pregas semilunares da peça acompanham as haustrações e são deformações da parede inteira, não pregas mucosas permanentes. A divisão de trabalho passa a ser vertical — o epitélio de superfície absorve, a cripta secreta.
+
+#figura-nebli("/figuras/biotec-02-intestinos/slide-31.png",
+  largura: 50%,
+  legenda: [Superfície plana, criptas retas e paralelas, e o volume claro dos grânulos de mucinogênio no ápice de quase todas as células. Nenhuma vilosidade em ponto algum do campo.])
+
+O que aumentou foi o muco. A proporção de caliciformes cresce continuamente do ceco ao reto, e a mucina 2 que elas produzem forma no cólon *duas* camadas — uma externa, frouxa, densamente colonizada, e uma interna, densa e aderida ao epitélio, que em condições normais permanece praticamente estéril. O muco do cólon não é só lubrificante da massa fecal desidratada: é a barreira física que mantém a bactéria à distância da célula, e o afinamento da camada interna é achado precoce na colite ulcerativa.
+
+O que mudou de identidade foi o nicho. O cólon normal *não tem célula de Paneth* — encontrá-la em biópsia de cólon é *metaplasia de Paneth*, sinal de inflamação crônica. Sustentar a célula-tronco cabe ali à *célula secretora profunda de cripta*, ou #sigla("DCS", [deep crypt secretory cell — célula do fundo da cripta colônica que ocupa o papel de nicho exercido pela Paneth no delgado]), intercalada entre as tronco e secretora dos fatores que as mantêm: RELMβ, a quimiocina CCL6, os ligantes de Notch DLL1 e DLL4 e o fator de crescimento epidérmico. A sinalização local combina Wnt ativo com inibição de Notch e recebe entrada imune — as #sigla("ILC2", [innate lymphoid cells type 2 — linfócitos inatos residentes de mucosa que, ao secretar interleucina 13, modulam o compartimento secretor da cripta colônica]) secretam interleucina 13 e ampliam esse compartimento secretor. O nicho do cólon é regulado também por imunidade tecidual, e não só por sinal epitelial e mesenquimal.
+
+A absorção de água acompanha o transporte de sódio: o colonócito de superfície capta sódio por canais epiteliais sensíveis à aldosterona, e a água segue por osmose. É essa via que a toxina do cólera subverte ao ativar irreversivelmente a adenilato-ciclase — o excesso de monofosfato cíclico de adenosina abre o canal de cloreto da cripta, e a secreção de cloreto arrasta sódio e água acima da capacidade absortiva da superfície. Na parede externa, a camada longitudinal condensa-se em três *tênias do cólon*, cuja contração tônica produz as haustrações.
 
 #conclusao-box[
-O princípio que atravessa o resumo: *diabetes é um defeito de sinal cujo produto — glicose intracelular alta e prolongada — é quimicamente reativo*. O restante é consequência dessa reatividade encontrando tecidos incapazes de se proteger dela.
+O intestino é a solução de engenharia para duas exigências que se opõem: máxima área de contato com o lúmen e mínima espessura de barreira. A área vem do dobramento em quatro escalas encaixadas — plica, vilosidade, cripta e microvilosidade —; a espessura mínima, de um epitélio simples, de uma célula só.
 
-O mecanismo nuclear é a glicação não-enzimática avançando em etapas de reversibilidade decrescente — base de Schiff em horas, produto de Amadori em dias, ligação cruzada irreversível em meses — e o eixo AGE–RAGE convertendo dano químico em programa inflamatório com retroalimentação positiva. A mesma distinção entre etapas reversíveis e irreversíveis explica por que a hemoglobina glicada mede controle e por que a lesão do diabetes tem memória.
+O mecanismo que torna a aposta sustentável é o eixo cripta-vilo. Barreira tão fina se gasta, e o intestino a repõe inteira a cada três a cinco dias, a partir de uma célula-tronco Lgr5-positiva mantida no fundo da cripta por Wnt alto e bloqueio ativo de BMP, com a Paneth e o mesênquima subepitelial como fontes desse microambiente. Notch distribui a descendência entre absortivas e secretoras, a posição no eixo dita o grau de diferenciação, e a apoptose no ápice fecha o ciclo — o mesmo eixo, com nicho de identidade diferente, operando no cólon.
 
-Adoecem os tecidos que captam glicose sem depender de insulina e não conseguem fechar a porta quando a glicemia sobe — pericito, célula mesangial, endotélio, neurônio periférico, cristalino. Cada um tem uma assinatura de imagem que corresponde ao substrato descrito pelo patologista: o rim que aumenta antes de encolher, a erosão articular sem reação periosteal do Charcot, o edema de medular óssea da osteomielite, a calcificação coronariana medida em unidades Hounsfield, o parênquima hipoatenuante do infarto cerebral.
+A clínica confirma a leitura ponto a ponto: não desligar o sinal Wnt gera o adenoma; agredir o topo do eixo mais rápido do que a cripta repõe produz a atrofia vilositária com hiperplasia de cripta da celíaca; reduzir a defensina da Paneth alimenta a inflamação crônica do Crohn; subverter o cloreto da cripta colônica produz a diarreia secretória do cólera. O achado histológico diz qual ponto da arquitetura foi atingido.
 
-Duas portas ficam abertas. A inflamação crônica e o reparo tecidual: o que a PARTE III chamou de auto-perpetuador é, no vocabulário da patologia, inflamação crônica com fibrose, e o pé que não cicatriza é reparo travado. E a trombose: a placa que rompe e o trombo que se forma sobre ela são hemostasia funcionando como deveria, no lugar errado.
+O que vem a seguir opera sobre esta mesma arquitetura: a fisiologia vai quantificar o que aqui é estrutura — quanto de água e eletrólito atravessa cada segmento, quais transportadores dominam onde, e como hormônios enteroendócrinos e plexos entéricos ajustam secreção e motilidade ao conteúdo que chega.
 ]

@@ -154,6 +154,13 @@ Pedido de 2026-05-22. Pipeline que, dado conteúdo de prova segundo cronograma, 
 
 ## § Histórico de decisões canônicas
 
+### 2026-09-06 (corrida `biotec-02-intestinos` — 1º resumo de Biologia Tecidual da UC-8)
+
+- **Resumo gerado:** "Intestinos: organização, renovação e absorção" — Bio Tecidual II do Digestório (UC-8), aula da Profa. Patrícia Gama (ICB-USP), slide "Sistema Digestório — Módulo 3: Intestinos" (36 páginas). 35 páginas de PDF, E1 com 15 páginas (no teto), 9 subtópicos, 5.700 palavras de miolo, 13 figuras. Primeira corrida inteiramente sob o § Registro científico com os três gates novos (`check_forma_e1`, `check_consolidacao_decoreba`, `check_pre_aula`) passando de primeira depois do ajuste de forma.
+- **Bug corrigido no `gerar_main.py` — header dessincronizado nas transições de seção.** O `auditar_pdf_visual.py` bloqueava a movimentação: a página de abertura da Etapa 2 saía com o header "RESUMINDO", e a do Resumindo com "ETAPA 1". Causa: tanto `etapa-header` quanto `resumindo-page` fazem `pagebreak(weak: true)` **antes** de `set-etapa`, e o header da página resolve o `state` antes do corpo dela — a atualização só aparecia na página seguinte. É a pendência que o próprio template registra em comentário desde 2026-05-20 (#28 Krebs). Como mudança no template canônico exige aprovação do Davi, o conserto foi feito no **gerador**: `gerar_main.py` passa a emitir `#set-etapa("...")` imediatamente antes de cada `#etapa-header(...)`, antes do `#include "resumindo.typ"` e antes do sumário. Vale para todo resumo daqui pra frente; nenhuma mudança visual.
+- **Sem etapa de cards nesta corrida:** sessão remota (nuvem) não alcança o AnkiConnect em localhost (`referencias-externas/INFRA-REMOTO.md`). O deck-aula do gate de 2026-08-03 ficou pendente para uma sessão na máquina do Davi. Também não há `banco/aulas_uc8.yml` nem acervo de provas da UC-8 — o degrau de profundidade foi calibrado por bibliografia (Junqueira, Kierszenbaum, Wheater's) e pelo que a aula abre.
+- **Ambiente remoto:** confirmada de novo a armadilha `ERROS.md` #22 — o container não traz `typst` nem poppler. Instalação do binário estático + `apt-get update && apt-get install poppler-utils` + `pip install pymupdf` resolveu em ~2 minutos.
+
 ### 2026-09-03 · Registro científico (canonização de diretiva do Davi)
 
 Davi: *"canoniza e mergeia a seguinte indicação: usar uma linguagem mais técnica e cientificamente adequada, sem perder a fluidez e o tom didático, mas fazê-lo com mais rigor. (...) mais sucinta e que dispensa baboseiras, como frases sem nenhum valor. O objetivo é ser uma apostila de alto nível científico."*

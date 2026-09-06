@@ -1,0 +1,44 @@
+# MAPA_CONTEUDO -- biotec-02-intestinos
+# Slide-fonte: e096cc13-BioTecidual_tubodigestorio_aula_2_25.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: [VISUAL -- usar adjacente com titulo extraivel]
+slide-02: [VISUAL -- usar adjacente com titulo extraivel]
+slide-03: Motilidade e trânsito Gartner and Hiatt, 2007
+slide-04: Physiology of lower gastrointestinal tract Aliment Pharmacol Ther, Volume: 60, Issue: S1, Pages: S1-S19, First published: 25 June 2024, DOI: (10.1111/apt.17900)
+slide-05: [VISUAL -- usar adjacente com titulo extraivel]
+slide-06: Transição estômago – intestino delgado Estômago Intestino delgado duodeno
+slide-07: MEV Intestino Delgado
+slide-08: Intestino delgado
+slide-09: [VISUAL -- usar adjacente com titulo extraivel]
+slide-10: e. (Cell Mol Gastroenterol Hepatol 2023;16:809–821; https:// doi.org/10.1016/j.jcmgh.2023.07.011)
+slide-11: Intestino (fase pré-natal)- rato Pardal, 1997 19 dias 20 dias
+slide-12: Intestino (fase pós-natal)- camundongo Sumigray et al., 2018, Developmental Cell 45, 183–197 April 23, 2018 ª 2018 Elsevier Inc. https://doi.org/10.1016/j.devcel.2018.03.024
+slide-13: Células marcadas com Ki67 proliferação Células marcadas com TUNEL apoptose Ana Luiza Werneck- BED Lab ICB
+slide-14: Linhagens celulares do intestino delgado Célula de Paneth Célula caliciforme Enterócito Vilo Estro ma Adapatado de Quante, M. & Wang, T. C. Nat. Rev. Gastroenterol. Hepatol. 6, 724–737 (2009) Célula tronco quiescente Célula tronco ativa Células proge...
+slide-15: Marcadores CBC Lgr5 Ascl2 Olfm4 Tert Hopx Bmi1 TA Nicho de células tronco intestinal Adaptado deTrends in Cell Biology,2018
+slide-16: Linhagens celulares do intestino delgado Hans Clevers, 2017 Video link- Hubretch Institute Video link- Hubretch Institute
+slide-17: Células do epitélio intestinal Enterócitos Células Caliciformes Células Enteroendócrinas Células de Paneth Junqueira e Carneiro 13 а Ed. 2017 - Borda em escova, - Lactase e Sacarase, - Proteína estrutural vilina. - Mucina 2 - Secreta hormônios, - Reg...
+slide-18: [VISUAL -- usar adjacente com titulo extraivel]
+slide-19: [VISUAL -- usar adjacente com titulo extraivel]
+slide-20: Sobotta- Histologie
+slide-21: Wheather´s Histology- Text and Atlas
+slide-22: Wheather´s Histology- Text and Atlas
+slide-23: [VISUAL -- usar adjacente com titulo extraivel]
+slide-24: [VISUAL -- usar adjacente com titulo extraivel]
+slide-25: [VISUAL -- usar adjacente com titulo extraivel]
+slide-26: placas de Peyer muscular da mucosa Ileo
+slide-27: [VISUAL -- usar adjacente com titulo extraivel]
+slide-28: [VISUAL -- usar adjacente com titulo extraivel]
+slide-29: Intestino grosso
+slide-30: [VISUAL -- usar adjacente com titulo extraivel]
+slide-31: [VISUAL -- usar adjacente com titulo extraivel]
+slide-32: https://doi.org/10.1152/ajpgi.00093.2023 created by Biorender
+slide-33: [VISUAL -- usar adjacente com titulo extraivel]
+slide-34: [VISUAL -- usar adjacente com titulo extraivel]
+slide-35: [VISUAL -- usar adjacente com titulo extraivel]
+slide-36: Profa. Dra. Patrícia Gama Laboratório de Biologia dos Epitélios Digestivos- BED Departamento de Biologia Celular e do Desenvolvimento Instituto de Ciências Biomédicas Universidade de São Paulo https://sites.usp.br/patgamalab/ CV Lattes: http://lattes...

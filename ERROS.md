@@ -200,6 +200,18 @@ O `revisor-gabarito` (Haiku) existe para essa conferência; quando ele não pude
 
 ---
 
+### 27. Header dessincronizado na página de abertura de cada seção — ✅ CORRIGIDO 2026-09-06
+
+**Sintoma:** `auditar_pdf_visual.py` bloqueia com "página N: header continua 'resumindo' mas banner de 'etapa2' aparece no corpo". Na prática, a página de abertura da Etapa 2 sai com o header da seção anterior, e a do Resumindo com o header da Etapa 1.
+
+**Causa-raiz:** `etapa-header` e `resumindo-page` executam `pagebreak(weak: true)` **antes** de `set-etapa(...)`. O header da página é resolvido pelo Typst antes do corpo dela, então a atualização de `state("etapa")` feita no topo do corpo só é vista pela página *seguinte*. O comentário dentro do próprio `resumindo-page` já registrava a pendência desde 2026-05-20 (#28 Krebs), atribuída à "página fantasma".
+
+**Correção aplicada (no gerador, não no template):** mudar o template exige aprovação do Davi (`typst-template/CLAUDE.md`), então o conserto foi feito em `typst-build/gerar_main.py`, que passa a emitir `#set-etapa("...")` imediatamente **antes** de cada `#etapa-header(...)`, antes do `#include "resumindo.typ"` e antes do sumário. A atualização fica no fluxo da página anterior e a página de abertura já nasce com o header certo. Zero mudança visual; vale para os dois modos (`completo` e `sem_e2`).
+
+**Se voltar a aparecer:** conferir se o `main.typ` gerado tem as linhas `#set-etapa` antes dos `#etapa-header` — main.typ escrito à mão não as tem.
+
+---
+
 ## § Erros que viram CHECK no pipeline (auditoria automática)
 
 | # | Erro | Detecção | Auto-fix? | Bloqueio |
