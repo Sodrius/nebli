@@ -274,7 +274,7 @@ nebli/                            # 4 arquivos vivos no canônico, pós-faxina 2
 3. **Sumário** (1 página: máx 3 itens por PARTE da E1, descrições 3–5 palavras).
 4. **Etapa 1 — texto didático** (intro-box + 3 PARTES + **conclusão integradora obrigatória** — a E1 fecha sempre no `#conclusao-box`, costurando as PARTES em 4 camadas: princípio unificador → mecanismo nuclear → clínica retomada → projeção; ver `ROLES.md` § Redator diretriz 11). **A conclusão VOLTA a ser gate do `precompile-check.py` (CANON 2026-07-03 — reverte a suspensão de 2026-07-01)** — `#conclusao-box` é exigido `>=1` em toda E1. Siglas como footnote no rodapé de cada página.
 5. **Resumindo** (1 página) — logo após Conclusão integradora da E1.
-6. **Etapa 2** — 30 objetivas, cores por categoria (consolidação/integração/aplicação), sem gabarito inline.
+6. **Etapa 2** — 30 objetivas, cores por categoria (consolidação/integração/aplicação), sem gabarito inline. **Cada questão é indivisível (CANON 2026-09-07):** `#questao-mc` e `#questao-ce` são `breakable: false`, de modo que enunciado, badge e as cinco alternativas (ou os quatro itens I–IV) vivem sempre na mesma página. Alternativa órfã no topo da página seguinte deixou de existir; o custo é um pouco de branco no rodapé quando a questão não cabe no que sobrou da página, e ele é pequeno porque com o corpo em 8,5pt cabem 4–5 questões por página.
 7. **Etapa 3** — 5 discursivas, modelo de resposta ≤100 palavras (Q5 ≤130).
 8. **Gabarito consolidado da Etapa 2** (última seção).
 

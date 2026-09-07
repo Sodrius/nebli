@@ -141,7 +141,6 @@ Pedido de 2026-05-22. Pipeline que, dado conteúdo de prova segundo cronograma, 
 
 ### Ideias pequenas (revisitar a cada 5 resumos)
 
-- **I2 — Quebra de página com imagem na E2.** `block(breakable: false)` em `#questao-mc` quando há figura.
 - **I3 — Paleta NEBLI por evidência de concentração/foco.**
 - **I4 — Auditor reporta contagem de palavras da E1.** Aviso fora da faixa 3.500-5.000.
 - **I8 — Análise visual sistemática da apostila do Poliedro.** Pegar 3-5 páginas, decompor o que funciona, mapear o que NEBLI já faz parecido e o que falta. Pasta `Inspiração de FORMA/` é ponto de partida.
@@ -441,3 +440,9 @@ Davi: *"quero que haja bem menos espaço entre linhas, que a fonte diminua (do t
 - **Bandas de largura de figura caem de 40–80% para 34–68%.** Descoberto na primeira compilação: com o corpo menor, as figuras nas larguras antigas passaram a comer um terço da página e a deixar rodapés brancos. Figura ocupa área fixa; texto não.
 - **"Antes da aula" deixa de prometer 2 páginas fixas e passa a prometer 1–2.** O invariante da seção sempre foi a contagem de palavras (~5 minutos de leitura), e é ela que o gate mede; a página era só a tradução daquele número na tipografia antiga.
 - **Negrito vira obrigação positiva.** A cota defensiva "máx 2–3 por parágrafo" (Redator diretriz 1) virou "o termo ou a afirmação que o aluno leva embora vai em negrito, 2–4 por parágrafo; parágrafo de mecanismo sem nenhum negrito é sinal de que não se decidiu qual é a peça principal".
+
+### 2026-09-07 · Questão da E2 deixa de partir entre páginas (fecha a pendência I2)
+
+`#questao-mc` e `#questao-ce` passaram de `breakable: true` para `breakable: false`. A pendência I2 estava aberta desde maio e propunha o `breakable: false` **só quando houvesse figura na questão**; na prática o problema não depende de figura — no resumo de granuloma, 6 das 30 questões saíram partidas sem nenhuma figura envolvida. A correção foi aplicada aos dois helpers sem condicional.
+
+Medido antes/depois no mesmo resumo: **6 questões partidas → 0**, ao custo de **uma página** (26 → 27). Integridade verificada no PDF: 30 questões, 100 alternativas e 40 itens I–IV presentes, nada transbordou. Backup do template em `nebli_v2_apostila.typ.bak-2026-09-07-A2`. Registrado como `ERROS.md` #27 e na linha 27 da tabela de checks; a entrada I2 saiu de § Ideias pequenas.

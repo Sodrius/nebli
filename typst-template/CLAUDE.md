@@ -26,6 +26,7 @@ Detalhes em `../MEMORY.md` § "Identidade visual ativa". Resumo:
 - PARTE 14pt (era 16), subtópico 10pt (era 11), legenda de figura 8pt (era 9,5), footnote 7,2pt (era 8,5).
 - Margens `top: 1.7cm, bottom: 1.8cm, left/right: 1.9cm` (verticais reduzidas em 2026-05-28).
 - Negrito do corpo em preto, não navy.
+- **`#questao-mc` e `#questao-ce` são `breakable: false`** (canônico 2026-09-07). A questão inteira cabe numa página só; se não couber no que restou, desce inteira para a próxima. Fecha a pendência I2. Os helpers `prova-*` da E4 legacy continuam `breakable: true` — estão fora do pipeline.
 - Resumindo banner gold, títulos de seção navy 9,5pt e corpo 8,2pt em 2 colunas.
 - PARTE com pagebreak antes (se não primeira) — tamanho na linha acima.
 - **"Antes da aula" (`#pre-aula-page`, canônico 2026-08-28):** faixa **teal** (a capa é navy, o Resumindo é gold), corpo 9pt (era 10.5pt), leading 0.66em, margens laterais 2.2cm. Fica entre capa e sumário, 2 páginas, sem figura. A faixa teal é o sinal visual de que a seção vem ANTES do material, não dentro dele.

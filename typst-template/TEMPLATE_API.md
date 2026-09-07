@@ -124,7 +124,7 @@ Grid 2 colunas: texto à esquerda/direita + figura ao lado. Use quando parágraf
 ## Questões da Etapa 2 (sem gabarito inline — cor por categoria)
 
 ### `questao-mc(numero, badge, enunciado, alts)`
-Múltipla escolha A–E. `alts` é tupla de pares `("LETRA", [texto])`.
+Múltipla escolha A–E. `alts` é tupla de pares `("LETRA", [texto])`. **`breakable: false` desde 2026-09-07** — a questão não se parte entre páginas; se não couber no rodapé, desce inteira.
 ```typst
 #questao-mc("01", badge-consolidacao,
   [Sobre a estrutura do DNA, é correto afirmar:],
@@ -136,7 +136,7 @@ Múltipla escolha A–E. `alts` é tupla de pares `("LETRA", [texto])`.
 ```
 
 ### `questao-ce(numero, badge, enunciado, itens)`
-4 itens certo/errado. `itens` é **tupla de pares `("MARCADOR", [conteudo])`** — o helper itera `(rom, conteudo)` e imprime `rom.` em negrito antes de cada item. Gate hard: sempre 4 pares (I–IV).
+4 itens certo/errado. **`breakable: false` desde 2026-09-07** — os quatro itens não se separam do enunciado que manda julgá-los. `itens` é **tupla de pares `("MARCADOR", [conteudo])`** — o helper itera `(rom, conteudo)` e imprime `rom.` em negrito antes de cada item. Gate hard: sempre 4 pares (I–IV).
 ```typst
 #questao-ce("05", badge-integracao,
   [Julgue os itens sobre Watson-Crick:],

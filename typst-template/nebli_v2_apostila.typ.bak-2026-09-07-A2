@@ -384,14 +384,7 @@
 // Canônico 2026-05-15: `set par(first-line-indent: 0em)` interno.
 // Questões digitadas (estilo prova) não têm recuo de parágrafo no enunciado --
 // o recuo da prosa do corpo é estilo livro; o estilo questão é flush-left.
-// Canonico 2026-09-07: `breakable: false`. A questao inteira -- enunciado,
-// badge e as cinco alternativas -- vive numa pagina so. Era `true`, e no
-// resumo de granuloma isso partia 6 das 30 questoes ao meio, deixando o
-// aluno com "D)" e "E)" orfaos no topo da pagina seguinte. Pendencia I2 do
-// MEMORY.md, aberta desde 2026-05, fechada aqui. O custo e branco no rodape
-// quando a questao nao cabe no que restou da pagina; com o corpo em 8.5pt
-// cabem 4-5 questoes por pagina e esse branco e pequeno.
-#let questao-mc(numero, badge, enunciado, alts) = block(below: 16pt, breakable: false, {
+#let questao-mc(numero, badge, enunciado, alts) = block(below: 16pt, breakable: true, {
   set par(first-line-indent: 0em)
   text(font: titulo-fam, size: 10pt, weight: "bold", fill: navy, [Questão #numero ])
   h(5pt)
@@ -408,9 +401,7 @@
 })
 
 // ======= Questão C/E =======
-// Mesma regra da questao-mc (canonico 2026-09-07): os 4 itens I-IV nao se
-// separam do enunciado que manda julga-los.
-#let questao-ce(numero, badge, enunciado, itens) = block(below: 16pt, breakable: false, {
+#let questao-ce(numero, badge, enunciado, itens) = block(below: 16pt, breakable: true, {
   set par(first-line-indent: 0em)
   text(font: titulo-fam, size: 11pt, weight: "bold", fill: navy, [Questão #numero ])
   h(5pt)

@@ -226,6 +226,7 @@ O `revisor-gabarito` (Haiku) existe para essa conferência; quando ele não pude
 | 21 | Contagem de palavras da E1 falseada pelo mini-resumo | auditar_pdf (âncora no banner) | SIM (corrigido) | warn |
 | 23 | Gabarito C/E divergente dos itens | revisor-gabarito ou passada manual | não | sim |
 | 24 | `pre-aula.typ` ausente ou fora da forma canônica | precompile (`check_pre_aula`) | não | sim |
+| 27 | Questão da E2 partida entre páginas | template (`breakable: false`) | SIM (corrigido) | n/a |
 
 ---
 
@@ -308,3 +309,15 @@ Caminhos viáveis (ordem de risco crescente): (1) manter fundido na sessão prin
 **Réguas (revistas 2026-09-03; teto de páginas recalibrado 2026-09-07).** Alvo **450–550 palavras por subtópico**, **8–10 subtópicos**, **teto de 12 páginas** (22 até setembro, depois 15) e ~5.000–5.500 palavras de miolo. As réguas de palavra não mudam com a tipografia; a de páginas, sim. Estourar o teto é sinal de gordura, não de profundidade — checar os seis desperdícios acima antes de qualquer outra coisa. O dial `profundidade:` que este feedback culpava foi aposentado em 2026-09-03; a profundidade agora é única e definida pela prova, não por um seletor. Na dúvida entre cortar mecanismo e cortar moldura, corta moldura; se ainda não couber, é aí que a `§ Missão` decide (ensinar bem vence o teto) — e a quebra vai declarada no relatório.
 
 **O que a regra NÃO autoriza.** Tirar o "porquê", encurtar cadeia causal, virar bullet, ou trocar prosa por lista para economizar linha. O alvo é o texto que não ensina nada; o mecanismo é intocável.
+
+### 27. Questão da E2 partida entre páginas (alternativa órfã) — ✅ CORRIGIDO 2026-09-07
+
+**Sintoma:** a página abre com `D)` e `E)` soltas, ou com os itens `III.` e `IV.` de um Certo/Errado cujo enunciado ficou na página anterior. O aluno tem de voltar uma página para saber o que está julgando, e numa prova simulada isso custa tempo e induz erro. No resumo de inflamação granulomatosa, **6 das 30 questões** saíram partidas.
+
+**Causa:** `#questao-mc` e `#questao-ce` nasceram `breakable: true` no template. O Typst então quebra o bloco onde couber, sem nenhuma noção de que enunciado e alternativas formam uma unidade. O problema existia desde sempre; a tipografia compacta de 2026-09-07 apenas o tornou mais visível, porque com mais questões por página há mais oportunidades de quebra.
+
+**Correção aplicada (2026-09-07):** os dois helpers passaram a `breakable: false`. A questão inteira — enunciado, badge e as cinco alternativas, ou os quatro itens I–IV — vive numa página só; quando não cabe no que restou, desce inteira para a próxima. Backup do template em `nebli_v2_apostila.typ.bak-2026-09-07-A2`.
+
+**O que isso custa, e por que vale.** Sobra branco no rodapé quando a questão não cabe no espaço restante. No resumo de granuloma o custo foi **uma página** (26 → 27) para eliminar as 6 quebras; com o corpo em 8,5pt cabem 4–5 questões por página, então o branco residual é de meia questão, não de meia página. Troca boa.
+
+**Limite conhecido:** `breakable: false` não protege contra uma questão **maior que uma página inteira** — nesse caso o Typst deixa o bloco transbordar. Nenhuma questão do padrão NEBLI chega perto disso (a maior, uma Aplicação com cenário de 6 linhas, ocupa ~1/4 de página), mas se algum dia um texto motivador crescer muito, o sintoma seria transbordo, não quebra. Os helpers `prova-*` da E4 legacy continuam `breakable: true` — estão fora do pipeline desde 2026-05-22.
