@@ -1,0 +1,60 @@
+slug: pat-08-inflamacao-granulomatosa
+titulo: "Inflamação granulomatosa"
+subtitulo: "Do agente que não se destrói à arquitetura que o isola"
+meta:
+  - ["Disciplina", "Patologia"]
+  - ["Onde estudar", "Robbins & Cotran, Patologia — Inflamação e reparo, § Inflamação crônica e inflamação granulomatosa · Abbas, Imunologia Celular e Molecular — Imunidade mediada por células T e resposta a microrganismos intracelulares"]
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — O agente que não se destrói"
+        subtopicos:
+          - "1.1 Granuloma como arquitetura"
+          - "1.2 O bacilo dentro do macrófago"
+          - "1.3 Da inata ao linfonodo"
+      - titulo: "PARTE II — A montagem do granuloma"
+        subtopicos:
+          - "2.1 Eixo IL-12, TH1 e interferon-gama"
+          - "2.2 De onde vêm os macrófagos"
+          - "2.3 A arquitetura pronta"
+      - titulo: "PARTE III — Na lâmina e no paciente"
+        subtopicos:
+          - "3.1 Caseoso, duro, antigo"
+          - "3.2 Primária, secundária, miliar"
+          - "3.3 Granuloma sem bacilo"
+
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "CECC"]
+    - ["03", "B"]
+    - ["04", "D"]
+    - ["05", "CCEC"]
+    - ["06", "E"]
+    - ["07", "A"]
+    - ["08", "D"]
+    - ["09", "ECCC"]
+    - ["10", "E"]
+  integracao:
+    - ["11", "E"]
+    - ["12", "CCCE"]
+    - ["13", "B"]
+    - ["14", "D"]
+    - ["15", "CCEE"]
+    - ["16", "C"]
+    - ["17", "D"]
+    - ["18", "A"]
+    - ["19", "ECCE"]
+    - ["20", "B"]
+    - ["21", "A"]
+    - ["22", "CEEC"]
+    - ["23", "C"]
+    - ["24", "B"]
+    - ["25", "EECC"]
+  aplicacao:
+    - ["26", "A"]
+    - ["27", "C"]
+    - ["28", "EECE"]
+    - ["29", "E"]
+    - ["30", "CEEE"]

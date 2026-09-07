@@ -1,231 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [O transportador de glicose cuja translocação para a membrana depende da insulina, presente no músculo esquelético e no tecido adiposo, é o:],
-  (("A", [GLUT-1, expresso de forma constitutiva na hemácia e na barreira hematoencefálica.]),
-   ("B", [GLUT-2, transportador de alta capacidade do hepatócito e da célula beta pancreática.]),
-   ("C", [SGLT-2, cotransportador de sódio e glicose do túbulo contorcido proximal.]),
-   ("D", [GLUT-4, estocado em vesículas intracelulares e translocado à membrana pela via da Akt.]),
-   ("E", [GLUT-3, transportador de alta afinidade do neurônio, independente de insulina.])))
+  [Qual citocina é o principal ativador do macrófago na formação e na manutenção do granuloma?],
+  (("A", [Interleucina-2, secretada pelo linfócito T CD4 recém-ativado dentro do linfonodo de drenagem.]),
+   ("B", [Interleucina-4, secretada pelo linfócito T quando a resposta se desvia para o perfil humoral.]),
+   ("C", [Interferon-gama, secretado pelo linfócito T CD4 de perfil TH1 que ocupa a coroa periférica.]),
+   ("D", [Fator de necrose tumoral, secretado pelo próprio macrófago depois de já estar plenamente ativado.]),
+   ("E", [Interleucina-1 beta, secretada pelo macrófago alveolar ainda na fase inicial da infecção.])))
 
 #questao-ce("02", badge-consolidacao,
-  [Julgue os itens a seguir sobre a glicação e os exames que a medem.],
-  (("I",   [A glicação da hemoglobina é catalisada por uma glicosiltransferase específica da hemácia.]),
-   ("II",  [A base de Schiff se forma em horas e é reversível.]),
-   ("III", [A hemoglobina glicada reflete as últimas 8 a 12 semanas de exposição à glicose.]),
-   ("IV",  [A frutosamina reflete uma janela de tempo maior que a da hemoglobina glicada.])))
+  [Julgue os itens sobre os componentes celulares do granuloma tuberculoso.],
+  (("I", [A célula epitelioide é um macrófago ativado modificado, e não uma célula de origem epitelial.]),
+   ("II", [A coroa periférica do granuloma é formada predominantemente por neutrófilos.]),
+   ("III", [A célula gigante de Langhans exibe núcleos dispostos em ferradura na periferia do citoplasma.]),
+   ("IV", [Os linfócitos da coroa são majoritariamente CD4, com participação menor de CD8.])))
 
 #questao-mc("03", badge-consolidacao,
-  [A glicosúria começa a aparecer quando a glicemia ultrapassa aproximadamente:],
-  (("A", [100 mg/dL, valor que define o limite superior da glicemia de jejum normal.]),
-   ("B", [126 mg/dL, valor de glicemia de jejum usado como ponto de corte diagnóstico.]),
-   ("C", [180 mg/dL, ponto em que satura a reabsorção tubular proximal de glicose.]),
-   ("D", [250 mg/dL, faixa a partir da qual costuma haver cetose no diabetes tipo 1.]),
-   ("E", [300 mg/dL, faixa habitual de apresentação do estado hiperosmolar não cetótico.])))
+  [A célula gigante multinucleada de Langhans origina-se de qual processo?],
+  (("A", [Recrutamento de células dendríticas da epiderme para o interior do foco granulomatoso.]),
+   ("B", [Fusão de células epitelioides, ou divisão nuclear sem divisão do citoplasma.]),
+   ("C", [Diferenciação de fibroblastos locais estimulados pelo fator de transformação do crescimento beta.]),
+   ("D", [Proliferação de linfócitos T CD8 que perderam a capacidade de completar a citocinese.]),
+   ("E", [Maturação direta do monócito circulante logo após atravessar o endotélio alveolar.])))
 
 #questao-mc("04", badge-consolidacao,
-  [A dosagem de peptídeo C em um paciente com diabetes serve para estimar:],
-  (("A", [A secreção endógena residual de insulina pela célula beta pancreática.]),
-   ("B", [A dose diária total de insulina exógena que o paciente vem aplicando.]),
-   ("C", [O grau de resistência periférica à insulina nos tecidos-alvo do hormônio.]),
-   ("D", [O título de autoanticorpos dirigidos contra antígenos da ilhota pancreática.]),
-   ("E", [A capacidade de extração hepática da insulina na primeira passagem.])))
+  [Qual mediador retém o macrófago no foco inflamatório, impedindo sua saída para o linfonodo?],
+  (("A", [A quimiocina MCP-1, liberada pelo endotélio ativado da microcirculação pulmonar.]),
+   ("B", [A fração C5a do complemento, gerada pela via alternativa no interior do granuloma.]),
+   ("C", [O fator de necrose tumoral, secretado pelas células epitelioides do halo interno.]),
+   ("D", [O fator inibidor da migração de macrófagos, conhecido pela sigla MIF.]),
+   ("E", [O fator de transformação do crescimento beta, secretado no perfil reparador.])))
 
 #questao-ce("05", badge-consolidacao,
-  [Julgue os itens a seguir sobre os métodos de imagem da doença arterial coronariana.],
-  (("I",   [O escore de cálcio é adquirido sem contraste intravenoso.]),
-   ("II",  [A angiotomografia de coronárias utiliza contraste iodado.]),
-   ("III", [A angiocoronariografia invasiva permite tratar a lesão no mesmo procedimento.]),
-   ("IV",  [O escore de cálcio informa o grau de estenose da luz coronariana.])))
+  [Julgue os itens sobre a parede celular do #emph[Mycobacterium tuberculosis].],
+  (("I", [O ácido micólico é a camada responsável pela álcool-ácido resistência do bacilo.]),
+   ("II", [O fator corda é um glicolipídeo de superfície com efeito citotóxico sobre o macrófago.]),
+   ("III", [O lipoarabinomanano expõe um capuz de galactose, e é esse açúcar que o receptor de manose reconhece.]),
+   ("IV", [Sobre o peptidoglicano assentam-se o arabinogalactano e a camada de ácido micólico.])))
 
 #questao-mc("06", badge-consolidacao,
-  [No estágio final da nefropatia diabética, a ultrassonografia renal mostra:],
-  (("A", [Rins aumentados de volume, com córtex espessado e ecogenicidade reduzida.]),
-   ("B", [Rins de dimensões normais, com dilatação do sistema coletor bilateralmente.]),
-   ("C", [Rins aumentados de volume, com múltiplos cistos corticais e medulares.]),
-   ("D", [Rins de dimensões normais, com perda da diferenciação córtico-medular.]),
-   ("E", [Rins reduzidos de volume, com córtex afilado e ecogenicidade aumentada.])))
+  [Assinale a alternativa *incorreta* sobre as etiologias da inflamação granulomatosa.],
+  (("A", [Fungos como #emph[Paracoccidioides] e #emph[Histoplasma] podem desencadear formação de granulomas.]),
+   ("B", [Fio cirúrgico não absorvível retido no tecido causa reação granulomatosa de corpo estranho.]),
+   ("C", [A sarcoidose cursa com granulomas sem que se identifique um antígeno ou agente causal.]),
+   ("D", [A sílica inalada no jateamento de areia produz granuloma por não ser digerível.]),
+   ("E", [Somente agentes infecciosos de localização intracelular são capazes de desencadear a formação de granulomas.])))
 
-#questao-ce("07", badge-consolidacao,
-  [Julgue os itens a seguir sobre as duas lesões ósseas do pé diabético.],
-  (("I",   [A artropatia de Charcot decorre de microtraumas repetidos em articulação sem dor nem propriocepção.]),
-   ("II",  [A osteomielite é infecção que acomete a medular óssea.]),
-   ("III", [A radiografia simples detecta a osteomielite já nas primeiras horas de infecção.]),
-   ("IV",  [O edema da medular óssea aparece com alto sinal em T1 na ressonância magnética.])))
+#questao-mc("07", badge-consolidacao,
+  [Qual coloração identifica o bacilo álcool-ácido resistente no centro do granuloma?],
+  (("A", [Coloração de Ziehl-Neelsen, que evidencia o bacilo em vermelho sobre fundo azulado.]),
+   ("B", [Coloração de Gram, que separa o bacilo entre gram-positivo e gram-negativo.]),
+   ("C", [Coloração de Perls, que revela depósitos de ferro nos macrófagos do foco.]),
+   ("D", [Coloração tricrômica de Masson, que evidencia o colágeno da fibrose periférica.]),
+   ("E", [Coloração de hematoxilina e eosina, suficiente para identificar o agente etiológico.])))
 
 #questao-mc("08", badge-consolidacao,
-  [Os dois intermediários lipídicos que se acumulam no miócito sob excesso de ácido graxo e ativam serina-quinases de estresse são:],
-  (("A", [Colesterol livre e éster de colesterol, acumulados na gotícula lipídica citoplasmática.]),
-   ("B", [Acetoacetato e β-hidroxibutirato, os dois corpos cetônicos produzidos pelo hepatócito.]),
-   ("C", [Diacilglicerol e ceramida, derivados do excesso de acil-CoA graxo intracelular.]),
-   ("D", [Fosfatidilcolina e esfingomielina, principais fosfolipídeos da membrana plasmática.]),
-   ("E", [Prostaglandina E₂ e leucotrieno B₄, eicosanoides derivados do ácido araquidônico.])))
+  [O complexo primário tuberculoso, ou complexo de Ghon, é constituído por:],
+  (("A", [Cavidade apical revestida por reação granulomatosa comunicada com um brônquio.]),
+   ("B", [Granuloma isolado do lobo superior, sem qualquer acometimento linfonodal associado.]),
+   ("C", [Múltiplos nódulos de um a dois milímetros distribuídos por todo o parênquima.]),
+   ("D", [Foco parenquimatoso no pulmão somado ao linfonodo hilar satélite acometido.]),
+   ("E", [Derrame pleural associado a espessamento difuso da pleura visceral.])))
 
-#questao-mc("09", badge-integracao,
-  [Retina, glomérulo, nervo periférico e cristalino concentram as complicações crônicas do diabetes, enquanto o músculo esquelético é relativamente poupado. A explicação mecanística desse contraste é:],
-  (("A", [O músculo esquelético dispõe de uma isoforma de aldose-redutase com afinidade muito baixa pela glicose, o que impede a via dos polióis de operar nesse tecido mesmo sob hiperglicemia prolongada.]),
-   ("B", [Esses tecidos captam glicose por transportadores independentes de insulina e não reduzem a entrada quando a glicemia sobe, enquanto o músculo diminui o GLUT-4 de superfície e limita a própria carga intracelular.]),
-   ("C", [A microcirculação desses órgãos é anatomicamente terminal, e é apenas essa ausência de circulação colateral, e não a concentração intracelular de glicose, que determina onde a lesão crônica se instala.]),
-   ("D", [Esses tecidos possuem taxa de renovação proteica muito superior à do músculo, o que multiplica o número de grupos amino recém-expostos disponíveis para a reação de glicação não-enzimática.]),
-   ("E", [O músculo esquelético expressa concentrações elevadas de receptor para produtos de glicação avançada e degrada localmente os AGEs formados antes que eles estabeleçam ligações cruzadas.])))
+#questao-ce("09", badge-consolidacao,
+  [Julgue os itens sobre a origem e a especialização dos macrófagos.],
+  (("I", [O precursor medular da linhagem mononuclear fagocitária é o mieloblasto.]),
+   ("II", [Célula de Kupffer, micróglia e osteoclasto são macrófagos residentes especializados.]),
+   ("III", [O macrófago ativado apresenta citoplasma volumoso, rico em lisossomos, e cromatina frouxa.]),
+   ("IV", [O macrófago alveolar é rico em receptores de reconhecimento de padrão.])))
 
-#questao-ce("10", badge-integracao,
-  [Julgue os itens a seguir sobre as duas formas de descompensação aguda do diabetes.],
-  (("I",   [No tipo 1, a ausência quase total de insulina libera a lipase hormônio-sensível, e a inundação do fígado por ácido graxo produz cetoácidos em excesso.]),
-   ("II",  [No tipo 2, a insulina residual é insuficiente para normalizar a glicemia mas basta para conter a lipólise, o que explica a ausência de cetose franca na descompensação típica.]),
-   ("III", [A respiração ampla e profunda observada na cetoacidose reflete comprometimento pulmonar direto causado pela hiperglicemia e pela desidratação associadas ao quadro.]),
-   ("IV",  [O estado hiperosmolar é primariamente um distúrbio de água, produzido pela diurese osmótica prolongada, e não um distúrbio do equilíbrio ácido-base.])))
+#questao-mc("10", badge-consolidacao,
+  [A necrose central característica do granuloma tuberculoso é denominada:],
+  (("A", [Necrose gordurosa, de aspecto opaco e esbranquiçado por saponificação de lipídeos.]),
+   ("B", [Necrose fibrinoide, com deposição de material eosinofílico na parede dos vasos.]),
+   ("C", [Necrose liquefativa, de conteúdo francamente fluido e rico em neutrófilos.]),
+   ("D", [Necrose gangrenosa, resultante de isquemia associada a colonização bacteriana.]),
+   ("E", [Necrose caseosa, friável e branco-amarelada, com aspecto semelhante ao de queijo.])))
 
 #questao-mc("11", badge-integracao,
-  [Após seis meses de bom controle glicêmico, a hemoglobina glicada de um paciente normalizou, mas a rigidez da matriz e a dificuldade de cicatrização persistem. A explicação é:],
-  (("A", [A hemoglobina glicada mede glicemia recente enquanto o colágeno registra a glicemia de anos anteriores, sem que a química das duas modificações difira entre si.]),
-   ("B", [A hemácia possui enzimas de desglicação ausentes no fibroblasto, e é essa maquinaria que devolve a hemoglobina ao estado original quando a glicemia normaliza.]),
-   ("C", [O colágeno sofre glicosilação enzimática, irreversível por definição, enquanto a hemoglobina sofre apenas a glicação espontânea, que reverte com a queda da glicemia.]),
-   ("D", [A hemoglobina glicada é produto de Amadori e sai de circulação com a renovação da hemácia, enquanto o colágeno reticulado por ligação cruzada resiste à proteólise e não é reposto.]),
-   ("E", [A rigidez da matriz decorre de deposição de cálcio, e não de glicação, de modo que ela não guarda relação com a exposição prévia à glicose nem responde ao controle.])))
+  [Um paciente com infecção pelo HIV e contagem de linfócitos T CD4 muito reduzida desenvolve tuberculose pulmonar. Qual achado histopatológico é o mais esperado?],
+  (("A", [Granulomas bem formados, com halo espesso de células epitelioides e coroa linfocitária densa, porque a destruição das células CD4 aumenta compensatoriamente a produção de interferon-gama pelos macrófagos residentes.]),
+   ("B", [Infiltrado eosinofílico difuso substituindo o granuloma, porque a perda dos linfócitos CD4 desvia a resposta para o perfil de hipersensibilidade imediata mediada por anticorpo.]),
+   ("C", [Ausência completa de qualquer reação inflamatória no parênquima, porque a imunidade inata também depende do linfócito CD4 para reconhecer e fagocitar o bacilo no alvéolo.]),
+   ("D", [Granulomas não caseosos idênticos aos da sarcoidose, porque a queda dos linfócitos CD4 impede a formação de necrose central sem prejudicar a ativação macrofágica pelo interferon.]),
+   ("E", [Granulomas mal formados, com macrófagos presentes mas poucos linfócitos, acompanhados de resposta neutrofílica e destruição tecidual extensa, porque falta o interferon-gama que ativaria o macrófago.])))
 
-#questao-mc("12", badge-integracao,
-  [Sobre o elo entre a hiperglicemia crônica e a formação da placa de ateroma, assinale a alternativa *incorreta*.],
-  (("A", [A captação da LDL glicada pelo macrófago se dá por receptores de LDL clássicos, cuja expressão cai à medida que o colesterol intracelular sobe, o que limita a formação de células espumosas.]),
-   ("B", [A glicação da LDL prejudica o reconhecimento da partícula pelo seu receptor hepático, prolonga o tempo que ela passa na circulação e favorece a oxidação no espaço subendotelial.]),
-   ("C", [Os receptores scavenger do macrófago não são inibidos pelo colesterol já acumulado na célula, e é essa ausência de regulação que produz a célula espumosa.]),
-   ("D", [A inativação do óxido nítrico pelos produtos de glicação avançada instala disfunção endotelial antes que exista placa detectável por qualquer método de imagem.]),
-   ("E", [O eixo AGE-RAGE mantém estado pró-inflamatório e pró-coagulante, com aumento de fator tecidual e do inibidor do ativador de plasminogênio.])))
+#questao-ce("12", badge-integracao,
+  [Cada mecanismo de escape do bacilo é revertido por um ganho específico do macrófago ativado. Julgue os itens.],
+  (("I", [A amônia liberada pelo bacilo eleva o pH do fagossomo, e a ativação por interferon-gama restaura a acidificação necessária à fusão com o lisossomo.]),
+   ("II", [A catalase micobacteriana degrada peróxido de hidrogênio, e o macrófago ativado responde produzindo espécies reativas de oxigênio acima da capacidade dessa enzima.]),
+   ("III", [O bacilo bloqueia a maturação do fagossomo, e o macrófago ativado responde com formação efetiva do fagolisossomo e produção de óxido nítrico.]),
+   ("IV", [O lipoarabinomanano inibe a apresentação de antígeno, e o macrófago ativado responde reduzindo a expressão de MHC de classe II para poupar energia.])))
 
-#questao-ce("13", badge-integracao,
-  [Julgue os itens a seguir sobre a via dos polióis e suas consequências oculares.],
-  (("I",   [A aldose-redutase converte glicose em sorbitol consumindo NADPH, e a menor disponibilidade de glutationa reduzida enfraquece a defesa antioxidante da célula.]),
-   ("II",  [O sorbitol atravessa livremente a membrana da fibra do cristalino e é exportado para o humor aquoso, razão pela qual não contribui para a opacificação da lente.]),
-   ("III", [A oscilação do grau refrativo do paciente descompensado se explica por variação do conteúdo de água do cristalino acompanhando as mudanças de glicemia.]),
-   ("IV",  [Os neovasos da retinopatia proliferativa surgem em resposta à isquemia retiniana e, por serem frágeis e crescerem em direção ao vítreo, sangram e tracionam a retina.])))
+#questao-mc("13", badge-integracao,
+  [Um paciente em uso de anticorpo monoclonal que neutraliza o fator de necrose tumoral apresenta reativação de tuberculose latente. Qual é o mecanismo?],
+  (("A", [O bloqueio do fator de necrose tumoral impede a polarização do linfócito CD4 para o perfil TH1, de modo que nenhum interferon-gama é produzido e o macrófago jamais chega a ser ativado.]),
+   ("B", [O fator de necrose tumoral recruta monócitos e mantém a coesão arquitetural do granuloma; sem ele, a estrutura já formada se desorganiza e o bacilo antes contido volta a se disseminar.]),
+   ("C", [A neutralização do fator de necrose tumoral destrói diretamente as células epitelioides do halo, expondo o centro caseoso ao parênquima e permitindo a drenagem do material para o brônquio.]),
+   ("D", [O anticorpo monoclonal atravessa a parede do granuloma e opsoniza o bacilo latente, o que estimula sua replicação intracelular e converte a lesão contida em doença ativa.]),
+   ("E", [O bloqueio da citocina impede a produção de interleucina-12 pelo linfócito da coroa, que deixa de sustentar a resposta celular e permite o predomínio de resposta humoral ineficaz.])))
 
 #questao-mc("14", badge-integracao,
-  [A membrana basal glomerular do paciente com nefropatia diabética está espessada e, ainda assim, deixa passar albumina para o filtrado. A explicação desse achado aparentemente contraditório é:],
-  (("A", [O espessamento reduz o tamanho dos poros de filtração a ponto de reter moléculas maiores, e a albumina detectada na urina provém da descamação de células tubulares lesadas pela hiperglicemia.]),
-   ("B", [O que aumenta não é apenas a espessura: a matriz depositada é desorganizada e a membrana perde proteoglicanos aniônicos, isto é, a barreira de carga que repelia a albumina, também aniônica.]),
-   ("C", [A espessura maior aumenta a distância de difusão e reduz o fluxo de água, elevando a concentração de albumina no filtrado sem que a permeabilidade da barreira tenha se alterado.]),
-   ("D", [A albuminúria decorre da hialinização das arteríolas eferentes, que reduz a pressão de filtração e faz a albumina ser secretada ativamente pelo epitélio do túbulo proximal para o lúmen.]),
-   ("E", [O espessamento da membrana basal é acompanhado de infiltrado inflamatório rico em neutrófilos, cujas proteases digerem localmente a barreira e abrem falhas por onde a albumina escapa.])))
+  [Por que a produção de anticorpos específicos é pouco eficaz contra o #emph[Mycobacterium tuberculosis] já estabelecido?],
+  (("A", [Porque os antígenos micobacterianos são lipídicos e, por natureza química, incapazes de ser reconhecidos por qualquer receptor de linfócito B ou de linfócito T.]),
+   ("B", [Porque a parede rica em ácido micólico degrada enzimaticamente as imunoglobulinas que se ligam à superfície do bacilo antes que o complemento seja ativado.]),
+   ("C", [Porque a resposta humoral só é montada após a formação do granuloma, quando a lesão já está fibrosada e impede a chegada de anticorpos ao centro caseoso.]),
+   ("D", [Porque o bacilo reside no citoplasma e em vesículas do macrófago, onde nem anticorpo nem complemento o alcançam, o que deixa a opsonização sem alvo disponível.]),
+   ("E", [Porque o bacilo inibe seletivamente a mudança de classe de imunoglobulina no linfonodo, permitindo apenas produção de anticorpos de baixa afinidade e curta duração.])))
 
-#questao-mc("15", badge-integracao,
-  [Em um homem obeso e sedentário, a cadeia que liga o excesso de oferta de ácido graxo ao músculo à redução da captação de glicose por essa mesma fibra é:],
-  (("A", [O ácido graxo compete com a glicose pelo sítio de transporte do GLUT-4 na membrana, e a ocupação desse sítio reduz proporcionalmente o número de moléculas de glicose transportadas por minuto.]),
-   ("B", [O ácido graxo é oxidado preferencialmente na mitocôndria, e o acúmulo de citrato inibe a fosfofrutoquinase, o que eleva a glicose-6-fosfato intracelular e bloqueia a entrada do açúcar pela membrana.]),
-   ("C", [O ácido graxo ativa receptores nucleares que reprimem a transcrição do gene do receptor de insulina, e a menor densidade de receptores na superfície reduz a sinalização em todas as suas ramificações.]),
-   ("D", [O excedente de acil-CoA graxo acumula diacilglicerol e ceramida, que ativam serina-quinases de estresse; estas fosforilam o IRS-1 em serina, o sinal não alcança a PI3K e menos GLUT-4 chega à membrana.]),
-   ("E", [O ácido graxo se liga diretamente à subunidade beta do receptor de insulina e bloqueia o sítio catalítico da tirosina-quinase, impedindo a autofosforilação que iniciaria toda a cascata intracelular.])))
+#questao-ce("15", badge-integracao,
+  [Julgue os itens comparando o granuloma tuberculoso e o granuloma silicótico.],
+  (("I", [O granuloma tuberculoso costuma exibir necrose caseosa central, cujo aspecto deriva em parte do lipídeo da parede micobacteriana somado aos restos celulares.]),
+   ("II", [O granuloma silicótico é descrito como duro porque a partícula inerte não é destruída e não gera destruição tecidual suficiente para formar centro necrótico amplo.]),
+   ("III", [Na silicose o estímulo cessa assim que o macrófago ativado digere a partícula, de modo que a lesão regride sem deixar fibrose residual.]),
+   ("IV", [Nenhum dos dois exige recrutamento de macrófagos a partir do sangue, pois ambos se organizam apenas com os macrófagos residentes do alvéolo.])))
 
-#questao-ce("16", badge-integracao,
-  [Julgue os itens a seguir sobre os mecanismos que produzem e mantêm a úlcera do pé diabético.],
-  (("I",   [A perda de sensibilidade dolorosa protege o pé, porque reduz o reflexo de retirada e, com ele, o número de traumas repetidos sobre o mesmo ponto de apoio.]),
-   ("II",  [A neuropatia autonômica reduz a sudorese local, resseca a pele e abre fissuras que servem de porta de entrada para infecção bacteriana.]),
-   ("III", [A doença arterial periférica limita a chegada de oxigênio, de células de defesa e do próprio antibiótico administrado ao leito da úlcera.]),
-   ("IV",  [O colágeno reticulado por produtos de glicação avançada resiste à digestão proteolítica, e o remodelamento da matriz necessário ao reparo fica comprometido.])))
+#questao-mc("16", badge-integracao,
+  [A interleucina-12 produzida pelo macrófago polariza o linfócito CD4 para o perfil TH1. Qual é o passo intracelular que efetiva essa polarização?],
+  (("A", [A interleucina-12 é internalizada pelo linfócito e clivada em fragmentos peptídicos que se ligam ao promotor do gene do interferon-gama, ativando sua transcrição diretamente.]),
+   ("B", [A interleucina-12 aumenta a expressão de MHC de classe II na superfície do linfócito CD4, o que permite a apresentação cruzada de antígeno e a diferenciação em célula efetora.]),
+   ("C", [A sinalização da interleucina-12 induz o fator de transcrição T-bet, que reprograma o linfócito para transcrever o gene do interferon-gama e consolidar o perfil TH1.]),
+   ("D", [A interleucina-12 atua sobre o macrófago vizinho induzindo a secreção de interleucina-4, que por sua vez desvia o linfócito CD4 já ativado para o perfil de resposta celular.]),
+   ("E", [A interleucina-12 estabiliza o receptor de célula T na sinapse imunológica, prolongando o contato e permitindo que o próprio antígeno determine o perfil de citocinas produzido.])))
 
 #questao-mc("17", badge-integracao,
-  [A hiperfiltração glomerular observada no início da nefropatia diabética é frequentemente interpretada como sinal de função renal preservada. A leitura mecanística correta é:],
-  (("A", [A hiperfiltração é um mecanismo compensatório benigno que se mantém estável por décadas, e a esclerose glomerular decorre apenas da hialinização arteriolar, sem relação com a pressão intraglomerular.]),
-   ("B", [A hiperfiltração é a primeira alteração funcional da doença: a arteríola aferente dilata mais que a eferente, a pressão no capilar sobe, e essa sobrecarga sustentada produz a esclerose de anos depois.]),
-   ("C", [A hiperfiltração indica aumento real de massa de néfrons funcionantes induzido pela insulina, e a queda posterior da filtração reflete apenas a interrupção desse estímulo trófico pelo tratamento.]),
-   ("D", [A hiperfiltração resulta de vasoconstrição da arteríola aferente com redução da pressão glomerular, e a albuminúria que a acompanha decorre de lesão isquêmica do podócito por baixo fluxo.]),
-   ("E", [A hiperfiltração é artefato de cálculo da taxa de filtração a partir da creatinina sérica, que se encontra falsamente reduzida pela perda de massa muscular do paciente descompensado.])))
+  [Assinale a alternativa *incorreta* a respeito do macrófago ativado no granuloma.],
+  (("A", [Ele restaura a acidificação do compartimento fagocítico e passa a formar fagolisossomos funcionais, revertendo o bloqueio de maturação imposto pelo bacilo.]),
+   ("B", [Ele aumenta a expressão de MHC de classe II e a produção de interleucina-12, o que realimenta a polarização TH1 e a produção de interferon-gama na coroa.]),
+   ("C", [Ele secreta elastases e colagenases, espécies reativas de oxigênio, citocinas, quimiocinas e fatores de crescimento que participam da destruição e do reparo.]),
+   ("D", [Ele exibe núcleo aumentado com cromatina condensada e citoplasma escasso, alterações que refletem a redução do metabolismo e da atividade secretora durante a fase efetora da resposta.]),
+   ("E", [Ele produz fator de necrose tumoral, que recruta novos monócitos para o foco e sustenta a coesão da estrutura granulomatosa já constituída.])))
 
 #questao-mc("18", badge-integracao,
-  [Sobre a aterosclerose acelerada do paciente diabético, assinale a alternativa *incorreta*.],
-  (("A", [A inativação do óxido nítrico pelos produtos de glicação avançada reduz a vasodilatação dependente do endotélio e favorece a adesão de leucócitos e plaquetas à parede arterial.]),
-   ("B", [O eixo AGE-RAGE mantém um estado pró-inflamatório com secreção de citocinas, expressão de moléculas de adesão e aumento da produção de fator tecidual pela célula endotelial.]),
-   ("C", [A disfunção endotelial do diabético só se instala depois que a placa de ateroma se torna visível à angiotomografia, o que faz do exame de imagem o marcador mais precoce da doença.]),
-   ("D", [O estado pró-coagulante inclui aumento do inibidor do ativador de plasminogênio, com redução da fibrinólise e maior persistência do trombo formado sobre a placa instabilizada.]),
-   ("E", [A maioria dos eventos coronarianos agudos decorre da ruptura de placa vulnerável, com núcleo lipídico grande e capa fibrosa fina, muitas vezes pouco estenosante antes do evento.])))
+  [A tuberculose secundária tem predileção pelos ápices pulmonares. Qual explicação é mecanisticamente correta?],
+  (("A", [Os ápices apresentam maior tensão de oxigênio e drenagem linfática menos eficiente, condições que favorecem um bacilo aeróbio estrito e dificultam a remoção do agente.]),
+   ("B", [Os ápices recebem maior fluxo sanguíneo em ortostatismo, o que aumenta a chegada de bacilos por via hematogênica e concentra a carga infectante nessa região.]),
+   ("C", [Os ápices concentram a maior densidade de macrófagos alveolares residentes do pulmão, o que amplia proporcionalmente o número de células disponíveis para parasitismo.]),
+   ("D", [Os ápices possuem menor quantidade de surfactante, e a instabilidade alveolar resultante facilita a penetração das partículas de aerossol contendo bacilos viáveis.]),
+   ("E", [Os ápices sofrem maior deposição de pigmento antracótico, e o macrófago sobrecarregado de carbono perde a capacidade de responder ao interferon-gama.])))
 
 #questao-ce("19", badge-integracao,
-  [Julgue os itens a seguir sobre a predisposição do paciente diabético à infecção urinária.],
-  (("I",   [A glicosúria oferece substrato de crescimento no próprio lúmen urinário e favorece a colonização bacteriana da via urinária.]),
-   ("II",  [A neuropatia autonômica vesical acelera o esvaziamento da bexiga e, ao reduzir o volume residual, protege o paciente contra a infecção ascendente.]),
-   ("III", [A hiperglicemia melhora a quimiotaxia e a explosão respiratória do neutrófilo, o que compensa parcialmente o risco aumentado de infecção urinária.]),
-   ("IV",  [A esclerose glomerular e a pielonefrite comprometem o mesmo órgão por caminhos independentes, e as perdas de função resultantes se somam.])))
+  [Julgue os itens sobre a construção da resposta adaptativa na primo-infecção tuberculosa.],
+  (("I", [O linfócito T CD4 virgem é ativado diretamente no alvéolo pulmonar, sem necessidade de passagem pelo linfonodo de drenagem.]),
+   ("II", [A interleucina-2 produzida pelo linfócito CD4 ativado age de forma autócrina e sustenta a expansão clonal dessa mesma população.]),
+   ("III", [A reatividade cutânea ao antígeno tuberculínico leva semanas para se estabelecer, pois depende de linfócitos T de memória específicos.]),
+   ("IV", [A disseminação hematogênica que ocorre antes da resposta celular é sempre sintomática e corresponde à forma miliar da doença.])))
 
 #questao-mc("20", badge-integracao,
-  [Um paciente com cetoacidose diabética chega ao pronto-socorro com potássio sérico de 5,1 mEq/L. Poucas horas após o início da insulinoterapia, o potássio despenca. A explicação é:],
-  (("A", [A insulina aumenta a excreção renal de potássio ao estimular a bomba de sódio e potássio no túbulo coletor, e a perda urinária acelerada explica integralmente a queda observada no exame.]),
-   ("B", [O potássio inicial estava elevado por hemólise da amostra colhida, e o valor mais baixo obtido depois representa apenas a coleta correta, sem que tenha havido movimento real do íon.]),
-   ("C", [A correção da acidose desloca potássio do plasma para o interior das hemácias apenas, sem participação da insulina, que não tem efeito conhecido sobre o transporte transmembrana desse íon.]),
-   ("D", [O potássio inicial refletia estoque corporal normal, e a queda posterior indica perda aguda pelo trato gastrintestinal, secundária aos vômitos que costumam acompanhar o quadro de cetoacidose.]),
-   ("E", [O estoque corporal já estava depletado pela diurese osmótica; a acidose e a falta de insulina mantinham o íon no compartimento extracelular, e a insulina o empurra de volta para dentro da célula.])))
+  [Radiografia de tórax de rotina em adulto assintomático revela nódulo calcificado periférico e linfonodo hilar calcificado. Qual é a interpretação correta?],
+  (("A", [Trata-se de tuberculose miliar em fase inicial, e a calcificação corresponde aos primeiros nódulos hematogênicos que ainda não confluíram no parênquima pulmonar.]),
+   ("B", [Trata-se de complexo primário antigo, em que a necrose central sofreu calcificação distrófica; o achado indica lesão resolvida, e não doença em atividade.]),
+   ("C", [Trata-se de doença ativa com alta carga bacilar, uma vez que a deposição de cálcio no granuloma só ocorre enquanto há multiplicação bacteriana no centro caseoso.]),
+   ("D", [Trata-se de calcificação metastática por hipercalcemia, situação em que o cálcio sérico elevado se deposita preferencialmente no parênquima pulmonar e nos linfonodos.]),
+   ("E", [Trata-se de silicose nodular, já que apenas partículas minerais inorgânicas são capazes de produzir opacidades calcificadas simultaneamente no pulmão e no hilo.])))
 
 #questao-mc("21", badge-integracao,
-  [Na retinopatia diabética proliferativa, a formação de neovasos é o desfecho de uma cadeia que começa na hiperglicemia intracelular. Essa cadeia é:],
-  (("A", [Morte de pericitos e oclusão capilar geram isquemia retiniana; o tecido isquêmico libera fator de crescimento endotelial, potencializado pela via da proteína quinase C, e o estímulo produz vasos frágeis.]),
-   ("B", [O espessamento da membrana basal capilar reduz o aporte de oxigênio ao pericito, que se hipertrofia e passa a secretar colágeno em excesso, formando os cordões fibrosos vistos ao exame de fundo de olho.]),
-   ("C", [A hemorragia vítrea inicial priva a retina de nutrientes provenientes do humor vítreo, e a resposta reparadora do epitélio pigmentar organiza novos vasos a partir da coroide subjacente.]),
-   ("D", [O acúmulo de sorbitol no interior do pericito o torna refratário ao fator de crescimento endotelial, e a ausência de resposta angiogênica leva à atrofia progressiva da rede capilar retiniana.]),
-   ("E", [A glicação do colágeno da membrana limitante interna reduz a adesão do vítreo à retina, e o descolamento resultante estimula a proliferação vascular como tentativa de reancoramento tecidual.])))
+  [Qual é o papel do linfócito T CD8 dentro do granuloma tuberculoso?],
+  (("A", [Reconhecer antígeno micobacteriano apresentado em MHC de classe I pelo macrófago ainda parasitado e não plenamente ativado, destruindo essa célula por citotoxicidade.]),
+   ("B", [Produzir a interleucina-12 que polariza os linfócitos CD4 vizinhos para o perfil TH1, garantindo o suprimento contínuo de interferon-gama à coroa periférica.]),
+   ("C", [Fundir-se com as células epitelioides do halo interno para formar as células gigantes multinucleadas responsáveis por englobar as partículas grandes.]),
+   ("D", [Secretar o fator de transformação do crescimento beta que estimula os fibroblastos periféricos a depositar o colágeno da fibrose cicatricial.]),
+   ("E", [Opsonizar os bacilos liberados após a lise do macrófago, o que facilita sua captação pelos macrófagos recém-recrutados a partir do sangue.])))
 
 #questao-ce("22", badge-integracao,
-  [Julgue os itens a seguir sobre as duas lesões ósseas que disputam o diagnóstico no pé do paciente diabético.],
-  (("I",   [A artropatia de Charcot resulta de infecção da medular óssea disseminada a partir de uma úlcera plantar profunda contígua à articulação.]),
-   ("II",  [A radiografia simples detecta a osteomielite desde as primeiras horas de infecção, o que dispensa a ressonância magnética na avaliação inicial do pé.]),
-   ("III", [A ressonância magnética identifica o edema da medular óssea com baixo sinal em T1, alto sinal em T2 com saturação de gordura e realce após a injeção de contraste.]),
-   ("IV",  [Artropatia de Charcot e osteomielite podem coexistir no mesmo pé, e a distinção entre elas altera a conduta de forma substancial.])))
+  [Julgue os itens sobre a silicose como modelo de granuloma por partícula.],
+  (("I", [A partícula fagocitada lesa a membrana lisossomal e mantém o macrófago em produção sustentada de citocinas inflamatórias.]),
+   ("II", [A sílica é degradada pelas enzimas lisossomais assim que o macrófago é ativado pelo interferon-gama.]),
+   ("III", [Por ser um agente inerte, a sílica não desencadeia qualquer participação de linfócitos T na formação da lesão.]),
+   ("IV", [A sericita produz lesão semelhante e sua partícula é birrefringente à microscopia de luz polarizada.])))
 
 #questao-mc("23", badge-integracao,
-  [Uma carga oral de glicose eleva mais a insulina plasmática do que a mesma carga administrada por via intravenosa, apesar de produzir glicemias comparáveis. O fenômeno e sua relevância no diabetes tipo 2 são:],
-  (("A", [O fenômeno decorre da absorção mais lenta da glicose no intestino, que prolonga o estímulo à célula beta; no tipo 2 a absorção é acelerada, o que reduz o tempo total de estímulo secretor.]),
-   ("B", [O fenômeno decorre da primeira passagem hepática, que retém parte da glicose oral e reduz a carga que chega à ilhota; no tipo 2 essa retenção é maior e mascara a resistência periférica.]),
-   ("C", [O fenômeno decorre da estimulação vagal desencadeada pela distensão gástrica, que age diretamente na célula beta; no tipo 2 a gastroparesia autonômica suprime por completo essa via reflexa.]),
-   ("D", [O fenômeno é o efeito incretínico: hormônios liberados pela chegada do alimento, sobretudo o GLP-1, amplificam a secreção de insulina; no tipo 2 esse efeito está reduzido e soma-se aos demais defeitos.]),
-   ("E", [O fenômeno decorre da liberação de somatostatina pela célula delta em resposta à via oral, que potencializa a resposta da célula beta vizinha; no tipo 2 a célula delta encontra-se hipofuncionante.])))
+  [Por que a reação ao asbesto mobiliza células gigantes multinucleadas com mais frequência do que a reação à sílica?],
+  (("A", [Porque o asbesto é rapidamente revestido por ferro e proteína, e apenas as células multinucleadas expressam os receptores capazes de reconhecer esse revestimento.]),
+   ("B", [Porque o asbesto é um agente vivo capaz de se replicar dentro do macrófago, o que exige múltiplos núcleos para sustentar a transcrição necessária à defesa.]),
+   ("C", [Porque a fibra de asbesto é longa demais para ser englobada por um único macrófago, o que torna a fusão em sincício a forma de aumentar a superfície de contato.]),
+   ("D", [Porque a fibra de asbesto induz produção intensa de interleucina-4, citocina que bloqueia a citocinese e impede a separação das células-filhas após a mitose.]),
+   ("E", [Porque a sílica é fagocitada preferencialmente por neutrófilos, de modo que os macrófagos permanecem disponíveis na forma mononucleada para outras funções.])))
 
 #questao-mc("24", badge-integracao,
-  [Colágeno, elastina e proteínas do cristalino acumulam produtos de glicação avançada; proteínas plasmáticas de renovação rápida praticamente não. A consequência clínica que decorre dessa seleção de alvo é:],
-  (("A", [A elevação da frutosamina torna-se o marcador mais precoce de lesão de matriz extracelular, por medir diretamente a glicação das proteínas estruturais de vida longa.]),
-   ("B", [O remodelamento da matriz extracelular trava, porque as proteases não cortam o colágeno reticulado, e a ferida deixa de cicatrizar mesmo com perfusão preservada.]),
-   ("C", [A concentração plasmática de albumina cai progressivamente, porque a fração glicada é retirada da circulação por receptores hepáticos específicos para proteína modificada.]),
-   ("D", [A hemoglobina glicada perde valor como marcador de controle, já que a hemácia é justamente o compartimento em que a glicação avançada mais se acumula.]),
-   ("E", [O cristalino torna-se o primeiro órgão a apresentar lesão irreversível, porque a sua taxa de renovação proteica é a mais alta entre os tecidos acometidos.])))
+  [A fibrose que acompanha o granuloma crônico resulta de qual sequência?],
+  (("A", [O macrófago ativado por interferon-gama sintetiza colágeno diretamente no citoplasma e o deposita na periferia da lesão à medida que a inflamação se prolonga.]),
+   ("B", [O macrófago em perfil reparador secreta fator de transformação do crescimento beta, que estimula a proliferação de fibroblastos e a síntese de colágeno por essas células.]),
+   ("C", [O linfócito T da coroa perde o perfil TH1 e se diferencia localmente em fibroblasto, passando a produzir a matriz colágena que delimita o granuloma antigo.]),
+   ("D", [As células epitelioides do halo sofrem apoptose e o material liberado por elas polimeriza espontaneamente em fibras colágenas maduras na periferia da lesão.]),
+   ("E", [O fator de necrose tumoral produzido no centro caseoso induz metaplasia do epitélio alveolar adjacente, que passa a depositar colágeno na interface com o granuloma.])))
 
 #questao-ce("25", badge-integracao,
-  [Julgue os itens a seguir sobre o eixo AGE-RAGE e a trombose no paciente diabético.],
-  (("I",   [A ligação do produto de glicação avançada ao seu receptor ativa o fator nuclear kappa B e induz a expressão de fator tecidual pela célula endotelial.]),
-   ("II",  [A sinalização por esse receptor é autolimitada, porque a ativação reduz a expressão do próprio receptor e interrompe a alça em poucas horas.]),
-   ("III", [No paciente diabético, o eixo predominante da tríade de Virchow é a estase venosa produzida pela redução do débito cardíaco.]),
-   ("IV",  [O infarto agudo do miocárdio decorre, na maioria dos casos, do crescimento progressivo da placa até a oclusão completa da luz, sem participação de trombo.])))
+  [Julgue os itens comparando granuloma imune e granuloma de corpo estranho.],
+  (("I", [O granuloma de corpo estranho depende de apresentação de antígeno e de interferon-gama tanto quanto o granuloma imune.]),
+   ("II", [Nas células gigantes de corpo estranho os núcleos dispõem-se em ferradura periférica, como na célula de Langhans.]),
+   ("III", [A sarcoidose produz granulomas não caseosos sem que se identifique o antígeno responsável pela ativação da resposta.]),
+   ("IV", [O corpo asteroide é bastante específico da sarcoidose, porém pouco sensível, de modo que sua ausência não afasta o diagnóstico.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Homem de 26 anos, magro, com dez dias de poliúria, polidipsia e perda de 3 kg. Glicemia de 397 mg/dL, hemoglobina glicada de 8,8%, peptídeo C de 1,32 ng/mL (referência 1,1 a 4,4) e anticorpo anti-descarboxilase do ácido glutâmico de 1082 UI/mL (referência abaixo de 10). A leitura conjunta indica:],
-  (("A", [Diabetes tipo 2 de início precoce, já que o peptídeo C dentro da faixa de referência exclui deficiência de secreção e o autoanticorpo apenas acompanha a inflamação sistêmica da hiperglicemia.]),
-   ("B", [Diabetes secundário a pancreatite crônica, porque a associação de peptídeo C no limite inferior com autoanticorpo elevado é característica da destruição inflamatória não-imune da glândula exócrina.]),
-   ("C", [Diabetes tipo 1 no início da história natural: o autoanticorpo em título alto identifica a autoimunidade contra a ilhota, e o peptídeo C ainda mensurável indica secreção residual em parte preservada.]),
-   ("D", [Diabetes tipo 1 em fase avançada, uma vez que hemoglobina glicada acima de 8% só é alcançada quando a massa de célula beta já está integralmente destruída e a secreção residual é nula.]),
-   ("E", [Resistência à insulina isolada, porque hemoglobina glicada elevada com peptídeo C mensurável configura hiperinsulinemia compensatória, e o autoanticorpo é achado incidental sem valor diagnóstico.])))
+  [Homem de 34 anos, assintomático, realiza radiografia de tórax admissional que mostra opacidade nodular calcificada de 8 mm na periferia do pulmão direito e linfonodo hilar calcificado ipsilateral. Qual é a interpretação correta?],
+  (("A", [Complexo primário tuberculoso antigo e calcificado, achado compatível com primo-infecção contida no passado e sem indicação de tratar doença em atividade.]),
+   ("B", [Tuberculose miliar, dado que o achado de nódulo periférico associado a linfonodo indica disseminação hematogênica em curso pelo parênquima pulmonar.]),
+   ("C", [Tuberculose secundária em fase pré-cavitária, pois a calcificação marca o início da liquefação do material caseoso que formará a caverna apical.]),
+   ("D", [Granuloma de corpo estranho por aspiração, já que a calcificação em nódulo periférico é o achado radiológico típico desse tipo de reação tecidual.]),
+   ("E", [Sarcoidose pulmonar em estágio avançado, considerando que a associação de nódulo parenquimatoso e adenopatia hilar é exclusiva dessa doença.])))
 
 #questao-mc("27", badge-aplicacao,
-  [Mulher de 52 anos com diabetes tipo 2 apresenta glicemias capilares entre 90 e 140 mg/dL nos últimos dois meses, mas hemoglobina glicada de 5,0%. O hemograma mostra hemoglobina de 9,2 g/dL, reticulócitos elevados e bilirrubina indireta aumentada. A conduta e a justificativa são:],
-  (("A", [Manter a hemoglobina glicada como parâmetro e reduzir a dose do antidiabético, porque o valor de 5,0% indica risco de hipoglicemia que as glicemias capilares isoladas não conseguem detectar.]),
-   ("B", [Repetir a hemoglobina glicada em outro laboratório, porque a discordância entre glicemia capilar e exame laboratorial se explica melhor por erro analítico do que por qualquer condição do paciente.]),
-   ("C", [Solicitar teste oral de tolerância à glicose, porque hemoglobina glicada baixa com glicemias capilares no limite superior sugere que o diagnóstico inicial de diabetes deve ser revisto por completo.]),
-   ("D", [Substituir a hemoglobina glicada pela glicemia de jejum, porque a hemólise altera igualmente todos os exames que dependem de proteínas glicadas e nenhum deles pode ser usado nesse contexto.]),
-   ("E", [Solicitar frutosamina, porque a hemólise encurta a sobrevida da hemácia e subestima a hemoglobina glicada, enquanto a albumina glicada mantém preservada a sua janela de duas a três semanas.])))
+  [Mulher de 46 anos com artrite reumatoide inicia terapia com bloqueador do fator de necrose tumoral. Três meses depois surgem febre, tosse e infiltrado pulmonar, e a investigação identifica tuberculose. O evento decorre de:],
+  (("A", [Efeito tóxico direto do medicamento sobre o epitélio respiratório, que perde a barreira mucociliar e permite a colonização primária do alvéolo pelo bacilo.]),
+   ("B", [Estímulo do medicamento à proliferação do bacilo dentro do macrófago, uma vez que o fator de necrose tumoral atua normalmente inibindo a replicação intracelular.]),
+   ("C", [Perda da coesão de granulomas antes formados, que continham bacilos viáveis; sem o fator de necrose tumoral a estrutura se desorganiza e o agente volta a se disseminar.]),
+   ("D", [Depleção seletiva de linfócitos T CD4 circulantes pelo anticorpo monoclonal, com queda do interferon-gama e falha primária na montagem da resposta adaptativa.]),
+   ("E", [Indução de resposta de perfil TH2 pelo medicamento, com desvio para imunidade humoral e produção de anticorpos incapazes de conter o bacilo intracelular.])))
 
-#questao-mc("28", badge-aplicacao,
-  [Homem de 61 anos, diabético há vinte anos, com úlcera plantar profunda há três semanas, sondagem da lesão que atinge osso e radiografia do antepé sem alterações. A conduta de imagem e a justificativa são:],
-  (("A", [Ressonância magnética, porque a radiografia só demonstra alteração após perda óssea significativa, com atraso de uma a duas semanas, e a ressonância identifica o edema da medular óssea bem antes.]),
-   ("B", [Repetir a radiografia em quarenta e oito horas, porque a osteomielite aguda produz reação periosteal detectável nesse intervalo e a repetição precoce é suficiente para confirmar o diagnóstico.]),
-   ("C", [Ultrassonografia de partes moles do pé, porque o método define bem a interface entre osso cortical e medular e detecta o edema medular com sensibilidade equivalente à da ressonância magnética.]),
-   ("D", [Tomografia computadorizada sem contraste, porque a alta resolução para osso cortical torna o método superior à ressonância na detecção precoce da infecção da medular óssea.]),
-   ("E", [Nenhum exame adicional, porque a radiografia normal afasta com segurança o comprometimento ósseo e a conduta pode se restringir ao curativo e ao alívio de pressão sobre a lesão.])))
+#questao-ce("28", badge-aplicacao,
+  [Homem de 52 anos, com vinte anos de trabalho em jateamento de areia, apresenta dispneia progressiva e opacidades nodulares em lobos superiores. A biópsia mostra granulomas compactos, sem necrose central, com fibrose densa ao redor. Julgue os itens.],
+  (("I", [O achado de granulomas compactos sem necrose central afasta doença ocupacional e aponta infecção micobacteriana.]),
+   ("II", [A ausência de necrose central indica que o macrófago conseguiu degradar a partícula inalada.]),
+   ("III", [A fibrose progressiva decorre da persistência de um estímulo que nunca é eliminado.]),
+   ("IV", [A confirmação diagnóstica exige a demonstração de bacilos álcool-ácido resistentes na lesão.])))
 
 #questao-mc("29", badge-aplicacao,
-  [Homem de 64 anos, diabético há dezoito anos e tabagista, com dor precordial típica aos pequenos esforços há dois meses e alterações de repolarização no eletrocardiograma. A probabilidade pré-teste de doença coronariana é alta. Sobre a investigação por imagem:],
-  (("A", [O escore de cálcio é a melhor escolha inicial, porque quantifica a carga de placa e, sendo elevado, define o grau de estenose e dispensa qualquer método adicional antes do tratamento.]),
-   ("B", [A angiotomografia é a melhor escolha inicial, porque seu valor preditivo negativo próximo de 100% permite afastar doença com segurança mesmo neste cenário e evita um procedimento invasivo.]),
-   ("C", [A angiotomografia é a melhor escolha inicial, porque quantifica a estenose com precisão comparável à do cateterismo e permite planejar a intervenção sem expor o paciente a risco de procedimento.]),
-   ("D", [A angiocoronariografia invasiva é a melhor escolha, porque com probabilidade pré-teste alta um resultado não invasivo negativo não convenceria e um positivo levaria ao cateterismo de qualquer forma.]),
-   ("E", [Nenhum exame de imagem é necessário, porque com dor típica e eletrocardiograma alterado o diagnóstico está firmado e a anatomia coronariana não influencia a escolha terapêutica subsequente.])))
+  [Homem de 29 anos, com infecção pelo HIV sem tratamento e contagem de CD4 de 42 células por microlitro, apresenta febre, emagrecimento e infiltrado pulmonar difuso. A biópsia revela necrose com numerosos bacilos álcool-ácido resistentes, infiltrado neutrofílico e agregados frouxos de macrófagos com raros linfócitos. A explicação é:],
+  (("A", [A carga bacilar elevada satura os receptores de manose do macrófago alveolar, o que impede o reconhecimento do agente e bloqueia por completo a fagocitose inicial.]),
+   ("B", [O vírus infecta preferencialmente o macrófago alveolar e o destrói, de modo que a coroa linfocitária permanece íntegra enquanto o halo epitelioide deixa de se formar.]),
+   ("C", [A imunossupressão desvia a resposta para um perfil TH1 exacerbado, o que aumenta a necrose caseosa e reduz proporcionalmente o número de bacilos identificáveis na lesão.]),
+   ("D", [A ausência de linfócitos impede a produção de fator de necrose tumoral pelo macrófago, o que suprime o recrutamento de monócitos e explica a abundância de neutrófilos.]),
+   ("E", [A depleção de CD4 reduz a oferta de interferon-gama, o macrófago não é ativado, o granuloma se organiza mal e a resposta neutrofílica supletiva destrói tecido sem conter o bacilo.])))
 
 #questao-ce("30", badge-aplicacao,
-  [Mulher de 58 anos, diabética há dezoito anos com controle irregular, apresenta redução progressiva da acuidade visual, albuminúria de 480 mg em 24 horas com creatinina de 1,1 mg/dL, e úlcera indolor no calcâneo esquerdo há dois meses. A ultrassonografia renal mostra rins de dimensões reduzidas, córtex afilado e ecogenicidade aumentada. Julgue os itens.],
-  (("I",   [A creatinina de 1,1 mg/dL indica parênquima renal preservado, e a albuminúria deve ser atribuída a uma causa distinta do diabetes.]),
-   ("II",  [O achado ultrassonográfico de rins reduzidos com córtex afilado corresponde à fase de hiperfiltração inicial da nefropatia diabética.]),
-   ("III", [A perda visual, a albuminúria e a úlcera de difícil cicatrização compartilham como mecanismo de base a lesão de tecidos que captam glicose independentemente de insulina.]),
-   ("IV",  [A ausência de dor no leito da úlcera indica que a lesão é superficial e afasta a necessidade de investigar comprometimento ósseo.])))
+  [Mulher de 38 anos apresenta nódulo endurecido em cicatriz cirúrgica abdominal operada há dois anos. A biópsia mostra células gigantes multinucleadas de núcleos desordenados envolvendo material filamentar birrefringente, com poucos linfócitos e sem necrose. Julgue os itens.],
+  (("I", [O achado é compatível com granuloma de corpo estranho a fio de sutura não absorvível.]),
+   ("II", [A escassez de linfócitos indica consumo local dessas células por apresentação antigênica intensa.]),
+   ("III", [A disposição desordenada dos núcleos é característica da célula gigante de Langhans.]),
+   ("IV", [O quadro descrito indica sarcoidose, e a pesquisa de corpo asteroide seria confirmatória.])))

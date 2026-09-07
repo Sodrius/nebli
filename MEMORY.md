@@ -423,3 +423,9 @@ Template ativo: `typst-template/nebli_v2_apostila.typ` (monolítico, ~42 KB). Pa
 - **`MEMORY.md` (este arquivo)** absorveu `pendências de melhora.md` e versão compacta do `CHANGELOG_CLAUDE.md`. Versão completa do changelog (619 linhas) preservada em `backups/pre-faxina-2026-05-29/raiz/`.
 - **ARCHIVE.md deletado** em 2026-05-29 (esqueleto vazio, nunca acionado).
 - **FILOSOFIA.md deletado** em 2026-05-29 (congelado desde 2026-05-04, conteúdo já migrado).
+
+### 2026-09-07 · Resumo de Inflamação granulomatosa (UC03 · P3) sob o registro científico
+
+Segunda corrida seguida fechada dentro das quatro réguas de 2026-09-03 (a primeira foi `gr-02` v2). Entrada foi a **transcrição da aula em PDF**, não o slide solto: o arquivo alterna página de slide (ímpar, imagem) e página de fala (par, texto), e o `extrair_slides.py` renderizou as 72 páginas — as ímpares foram recortadas para remover a barra preta do screencast e o quadro da webcam, as pares descartadas. Números: 9 subtópicos, 5.047 palavras de miolo, E1 em 14 páginas (teto 15), 13 figuras, média de 11,9 palavras por alternativa de Consolidação, 20/20 MC dentro da banda 0.80–1.25, gabarito 4/4/4/4/4 entre A–E, 10 C/E com as 10 sequências distintas e nenhuma degenerada.
+
+Calibração da UC03 aplicada: o acervo (9 subquestões, 2015–2025) cobra componentes celulares, IFN-γ como mediador central, MIF, granuloma mal formado no HIV e a distinção célula gigante de granuloma × célula gigante viral; o degrau da E1 subiu um nível de mecanismo em cada um desses pontos (granuloma imune × de corpo estranho, contramedidas do macrófago ativado escape a escape, eixo IL-12/IFN-γ como espelho genético do HIV, reativação sob bloqueio de TNF, inflamassoma na silicose).

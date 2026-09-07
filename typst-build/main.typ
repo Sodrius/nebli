@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- gr-02-diabetes-mellitus | Gerado por gerar_main.py
+// MAIN.TYP -- pat-08-inflamacao-granulomatosa | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,11 +8,11 @@
 
 // ======= CAPA =======
 #capa(
-  "Diabetes mellitus",
-  "Da hiperglicemia às complicações de órgão-alvo",
+  "Inflamação granulomatosa",
+  "Do agente que não se destrói à arquitetura que o isola",
   (
-    ("Disciplina", "Patologia · Bioquímica · Imunologia · Radiologia"),
-    ("Onde estudar", "Robbins & Cotran, Patologia — capítulo do Sistema Endócrino, § Diabetes mellitus · Lehninger, Princípios de Bioquímica — Regulação hormonal e integração metabólica · Brant & Helms, Fundamentos de Radiologia — tórax cardiovascular e musculoesquelético"),
+    ("Disciplina", "Patologia"),
+    ("Onde estudar", "Robbins & Cotran, Patologia — Inflamação e reparo, § Inflamação crônica e inflamação granulomatosa · Abbas, Imunologia Celular e Molecular — Imunidade mediada por células T e resposta a microrganismos intracelulares"),
   ),
 )
 
@@ -22,21 +22,20 @@
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — O sinal que falta", (
-      "1.1 A insulina e seus freios",
-      "1.2 Tipo 1: ilhota destruída",
-      "1.3 Tipo 2: sinal não escutado",
-      "1.4 Diurese osmótica e descompensações",
+    ("PARTE I — O agente que não se destrói", (
+      "1.1 Granuloma como arquitetura",
+      "1.2 O bacilo dentro do macrófago",
+      "1.3 Da inata ao linfonodo",
     )),
-    ("PARTE II — Do açúcar ao dano", (
-      "2.1 Glicação e os dois relógios",
-      "2.2 O AGE nas proteínas de vida longa",
-      "2.3 RAGE e as outras rotas",
+    ("PARTE II — A montagem do granuloma", (
+      "2.1 Eixo IL-12, TH1 e interferon-gama",
+      "2.2 De onde vêm os macrófagos",
+      "2.3 A arquitetura pronta",
     )),
-    ("PARTE III — Onde o dano aparece", (
-      "3.1 Retina e glomérulo",
-      "3.2 Neuropatia e pé diabético",
-      "3.3 Aterosclerose e imagem",
+    ("PARTE III — Na lâmina e no paciente", (
+      "3.1 Caseoso, duro, antigo",
+      "3.2 Primária, secundária, miliar",
+      "3.3 Granuloma sem bacilo",
     )),
   )),
 ))
@@ -58,40 +57,40 @@
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
-  ("Consolidação (Q01–Q08)", (
-    ("01", "D"),
-    ("02", "ECCE"),
-    ("03", "C"),
-    ("04", "A"),
-    ("05", "CCCE"),
+  ("Consolidação (Q01–Q10)", (
+    ("01", "C"),
+    ("02", "CECC"),
+    ("03", "B"),
+    ("04", "D"),
+    ("05", "CCEC"),
     ("06", "E"),
-    ("07", "CCEE"),
-    ("08", "C"),
+    ("07", "A"),
+    ("08", "D"),
+    ("09", "ECCC"),
+    ("10", "E"),
   )),
-  ("Integração (Q09–Q25)", (
-    ("09", "B"),
-    ("10", "CCEC"),
-    ("11", "D"),
-    ("12", "A"),
-    ("13", "CECC"),
-    ("14", "B"),
-    ("15", "D"),
-    ("16", "ECCC"),
-    ("17", "B"),
-    ("18", "C"),
-    ("19", "CEEC"),
-    ("20", "E"),
+  ("Integração (Q11–Q25)", (
+    ("11", "E"),
+    ("12", "CCCE"),
+    ("13", "B"),
+    ("14", "D"),
+    ("15", "CCEE"),
+    ("16", "C"),
+    ("17", "D"),
+    ("18", "A"),
+    ("19", "ECCE"),
+    ("20", "B"),
     ("21", "A"),
-    ("22", "EECC"),
-    ("23", "D"),
+    ("22", "CEEC"),
+    ("23", "C"),
     ("24", "B"),
-    ("25", "CEEE"),
+    ("25", "EECC"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "E"),
-    ("28", "A"),
-    ("29", "D"),
-    ("30", "EECE"),
+    ("26", "A"),
+    ("27", "C"),
+    ("28", "EECE"),
+    ("29", "E"),
+    ("30", "CEEE"),
   )),
 ))
