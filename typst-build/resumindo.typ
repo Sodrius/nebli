@@ -1,33 +1,30 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("Um defeito de sinal, dois caminhos",
-   [O receptor de insulina é uma tirosina-quinase que traz vesículas prontas de GLUT-4 à membrana e, além de abrir a porta, freia lipólise, gliconeogênese e proteólise. No tipo 1 a ilhota é destruída por autoimunidade e a fonte desse sinal acaba; no tipo 2 o sinal chega e a célula não responde, com insulina normal ou *alta* por anos. A hiperglicemia é o resultado comum de dois defeitos opostos.]),
+  ("Três decisões, três níveis",
+   [*Quando* contrair é decidido pela onda lenta das células de Cajal; *onde e em que direção*, pela rede intramural do plexo mioentérico; *quanta força*, pelo balanço entre a quinase e a fosfatase da cadeia leve. Parassimpático e simpático apenas ajustam ganho, e terminam sempre no neurônio entérico.]),
 
-  ("Por que o tipo 1 cetoacidota",
-   [Sem insulina, a lipase hormônio-sensível fica livre e inunda o fígado de ácido graxo; a acetil-CoA gerada excede o ciclo de Krebs e vira cetoácido. No tipo 2 a insulina residual segura a lipólise — por isso ele descompensa como estado hiperosmolar, sem cetose.]),
+  ("A serina 19 é o ponto de convergência",
+   [Contração é a cadeia leve reguladora da miosina fosforilada pela MLCK, ativada pelo complexo cálcio-calmodulina; relaxamento é a miosina fosfatase removendo esse fosfato. Cálcio baixo apenas cessa a fosforilação nova — enquanto o fosfato existente permanecer, a força permanece.]),
 
-  ("O sintoma nasce no túbulo",
-   [Acima de cerca de 180 mg/dL a reabsorção tubular satura e a glicose fica no lúmen, retendo água por osmose. A poliúria vem primeiro, desidrata, eleva a osmolaridade e só então dispara a sede. O emagrecimento soma glicosúria, lipólise e proteólise.]),
+  ("O esfíncter já está fechado",
+   [O estado basal do esfíncter é contração tônica, e o evento fisiológico é o *relaxamento* disparado pela distensão a montante, mediado por VIP e óxido nítrico. Falha de tônus produz refluxo; falha de relaxamento produz obstrução funcional com dilatação acima.]),
 
-  ("Glicação em três etapas, com reversibilidade decrescente",
-   [Base de Schiff em horas e reversível; Amadori em dias e pouco reversível; ligação cruzada irreversível em semanas a meses. O tempo que a glicose passa alta define até onde a reação avança — e a proteína de vida longa é a que paga.]),
+  ("Relaxar é ativo, e é isso que a doença rouba",
+   [O plexo mioentérico tem duas populações motoras: excitatória (acetilcolina, substância P) e inibitória (VIP, óxido nítrico, ATP). Chagas, aganglionose e acalásia atingem a inibitória — o segmento perde a capacidade de abrir e o intestino a montante dilata contra obstrução que não é física.]),
 
-  ("Dois relógios do controle",
-   [A hemoglobina glicada integra 8 a 12 semanas porque a hemácia vive esse tanto; a frutosamina lê 2 a 3 semanas porque a albumina vive esse tanto. Onde a sobrevida da hemácia é anormal, o primeiro exame engana e o segundo resolve.]),
+  ("Reflexo curto e reflexo longo, no mesmo músculo",
+   [O curto fecha o arco inteiro dentro da parede e obedece à lei do intestino: contrai atrás do bolo, relaxa adiante. O longo sobe pelo aferente vagal ao tronco encefálico e volta pelo vago, mas a fibra eferente faz sinapse no neurônio entérico — nunca no músculo.]),
 
-  ("O AGE não só reticula: ele sinaliza",
-   [Ligado ao RAGE em monócito, endotélio e célula mesangial, ativa NF-κB e dispara citocinas, adesão e fator tecidual. A via aumenta a expressão do próprio receptor e o estresse oxidativo, que gera mais AGE — a alça que torna o dano auto-perpetuado.]),
+  ("Simpático não inibe tudo",
+   [A noradrenalina relaxa as camadas circular e longitudinal agindo em receptor alfa-2 pré-sináptico, que corta a liberação de acetilcolina; ao mesmo tempo *contrai* os esfíncteres e produz vasoconstrição na mucosa. Sinais opostos com a mesma finalidade: interromper o transporte.]),
 
-  ("Quem adoece é quem não fecha a porta",
-   [Pericito, célula mesangial, endotélio, neurônio e cristalino captam glicose sem depender de insulina e não reduzem a entrada quando a glicemia sobe. Os órgãos-alvo do diabetes são esses tecidos, pelas rotas do poliol, da PKC, da hexosamina e do AGE.]),
+  ("Fásico e tônico, mesmo maquinário",
+   [Nos dois modos o transiente de cálcio é breve. Na fásica a força cai junto; na tônica ela se sustenta em platô porque pontes cruzadas desfosforiladas permanecem ligadas em estado latch, com desprendimento lento — força alta e consumo de ATP baixo.]),
 
-  ("A microangiopatia órgão a órgão",
-   [Retina: morte de pericito, microaneurisma e, na isquemia, neovaso frágil que sangra. Glomérulo: hiperfiltração que aumenta o rim, membrana basal espessa e mais permeável, albuminúria antes da creatinina, e rim reduzido e hiperecogênico no fim.]),
+  ("Mais força sem mais cálcio, e o caminho de volta",
+   [O mesmo receptor abre dois braços: Gq eleva o cálcio pelo IP₃; G12/13 ativa RhoA e a Rho-quinase, que inibem a miosina fosfatase e acumulam cadeias fosforiladas com o cálcio inalterado. O óxido nítrico percorre a alavanca ao contrário — o GMPc ativa a proteína quinase G, que favorece a fosfatase e relaxa.]),
 
-  ("Três falhas fazem o pé diabético",
-   [A neuropatia sensitiva apaga o alarme da dor, a autonômica resseca a pele e abre fissuras, e a doença arterial periférica tira o aporte que cicatrizaria. Charcot é destruição mecânica de articulação insensível; osteomielite é infecção da medular — coexistem e exigem condutas opostas.]),
-
-  ("A placa mata rompendo, e cada exame responde uma pergunta",
-   [Núcleo lipídico grande e capa fina se fissuram e expõem fator tecidual; o trombo oclui em minutos, mesmo em placa pouco estenosante. O escore de cálcio mede carga de placa, a angiotomografia exclui doença em risco intermediário, o cateterismo quantifica e trata.]),
+  ("A onda lenta tem gradiente, e o gradiente propele",
+   [A frequência cai no sentido oral-aboral — cerca de 3 por minuto no estômago, 12 no duodeno, 8 no íleo e 3 no cólon. O segmento de trás oscila mais rápido que o da frente, e essa diferença desloca conteúdo adiante. Perder as células de Cajal desorganiza o ritmo sem lesar o músculo.]),
 ))

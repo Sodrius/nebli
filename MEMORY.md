@@ -154,6 +154,16 @@ Pedido de 2026-05-22. Pipeline que, dado conteúdo de prova segundo cronograma, 
 
 ## § Histórico de decisões canônicas
 
+### 2026-09-07 · 1º resumo do Digestório (UC-8) — `motilidade-tgi`
+
+Primeiro resumo da UC-8 (Med5043). Slide "Motilidade do TGI — Aula 1", Profa. Fran Goulart da Silva (Fisiologia e Biofísica, ICB/USP), 6 páginas. PDF `Motilidade do TGI - Etapas 1 a 3 - FGS.pdf`, 34 páginas, E1 em 14 (teto 15). Sem decisão canônica nova — corrida de aplicação do § Registro científico. Três notas de operação que valem para as próximas:
+
+- **Recorte declarado.** O slide cobre os *fundamentos neuromusculares* da motilidade, não a motilidade órgão a órgão. Deglutição, complexo motor migratório, peristalse, segmentação e defecação ficaram de fora por pertencerem à aula seguinte (`Intestinos — motilidade e absorção`, Turma B 14/09).
+- **Slide econômico não é desculpa para poucas figuras** (diário, entrada `biocel-07`). Com 5 páginas de conteúdo, os slides 4 e 5 foram **fatiados por unidade de mecanismo** (dois e três mecanismos distintos cada) e renderam 9 figuras. O recorte por mecanismo virou o método padrão quando o slide é denso e o deck é curto.
+- **Falso positivo conhecido do `check_forma_e1`.** O check corta do último `#subtopico(` até o fim do arquivo, então o último subtópico é medido junto com o `#clinica-box` e a `#conclusao-box` finais. Aqui acusou 898 palavras onde a prosa real do 3.3 tem 468. Warning, não erro — mas convém saber antes de cortar mecanismo à toa.
+- **Sem acervo de provas.** UC-8 não tem `banco/aulas_uc08.yml` nem entrada no `blueprint-step1.md`; o degrau foi calibrado por slide + bibliografia (Berne & Levy, Guyton, Boron).
+- **Deck-aula pendente.** Sessão remota não alcança o AnkiConnect em `localhost` (`referencias-externas/INFRA-REMOTO.md`), e o pedido foi escopado a "etapas 1 a 3". Curadoria AnKing e upload pro Drive ficam para uma sessão na máquina do Davi.
+
 ### 2026-09-03 · Registro científico (canonização de diretiva do Davi)
 
 Davi: *"canoniza e mergeia a seguinte indicação: usar uma linguagem mais técnica e cientificamente adequada, sem perder a fluidez e o tom didático, mas fazê-lo com mais rigor. (...) mais sucinta e que dispensa baboseiras, como frases sem nenhum valor. O objetivo é ser uma apostila de alto nível científico."*

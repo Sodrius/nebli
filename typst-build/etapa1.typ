@@ -1,243 +1,201 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #intro-box[
-Diabetes mellitus é um defeito de sinal. A insulina, que informa aos tecidos que há substrato chegando, deixa de ser produzida ou deixa de ser obedecida — e a glicose que se acumula no plasma passa a reagir quimicamente com as proteínas do organismo.
+O trato gastrointestinal transporta, mistura e retém conteúdo durante dias sem comando consciente, e faz isso com uma musculatura que se contrai por regras próprias e uma rede nervosa que vive dentro da própria parede. O que este resumo monta é o *aparato* que executa a motilidade — o músculo, a rede que o comanda e o interruptor bioquímico que converte sinal em força. Os padrões motores de cada órgão vêm depois, e vêm apoiados neste aparato.
 
-A *PARTE I* percorre por que a glicemia sobe: o que a insulina comanda, os dois defeitos opostos que interrompem esse comando, e como a hiperglicemia vira sintoma. A *PARTE II* trata a glicose alta como reagente e acompanha a glicação não-enzimática até a lesão estrutural que se auto-alimenta. A *PARTE III* localiza essa lesão nos órgãos-alvo e mostra a correspondência entre o substrato que o patologista descreve e o achado que o radiologista enxerga.
+A *PARTE I* apresenta as peças: o músculo liso visceral acoplado como sincício, o marcapasso que impõe o ritmo, a diferença entre a contração que dura segundos e a que dura horas, e os dois plexos do sistema nervoso entérico com sua divisão de trabalho. A *PARTE II* liga essas peças em circuitos — o reflexo curto, que nasce e morre dentro da parede; o reflexo longo, que sobe ao tronco encefálico e volta pelo nervo vago; e os esfíncteres, cuja regra é o relaxamento comandado pela distensão. A *PARTE III* desce à célula e percorre o caminho que transforma um transmissor liberado por uma varicosidade em força mecânica, além da alavanca que ajusta quanta força sai da mesma quantidade de cálcio.
 ]
 
-#parte-title("PARTE I — O sinal que falta: por que a glicose sobe", primeira: true)
+#parte-title("PARTE I — O músculo e a rede nervosa que o comanda", primeira: true)
 
-#subtopico("1.1 — A insulina e os freios que ela mantém")
+#subtopico("1.1 — Músculo liso visceral: o sincício e o marcapasso")
 
-A célula beta da ilhota pancreática secreta insulina quando a glicose plasmática sobe. O receptor de insulina é uma *tirosina-quinase*, enzima que fosforila resíduos de tirosina de proteínas-alvo: as duas subunidades α ligam o hormônio, as duas subunidades β se autofosforilam e passam a fosforilar o #sigla("IRS-1", [substrato 1 do receptor de insulina — a primeira proteína fosforilada pelo receptor, e o ponto em que a via se ramifica]), que recruta a #sigla("PI3K", [fosfatidilinositol-3-quinase — converte o sinal do receptor em um lipídeo de membrana capaz de ancorar a Akt]) e ativa a Akt. Não há proteína G nem segundo mensageiro nesse caminho.
+Cerca de dois terços do tubo digestório são feitos de músculo liso, e o terço restante é músculo esquelético concentrado nas duas pontas: boca, faringe, terço superior do esôfago e esfíncter anal externo. Essa divisão anatômica já entrega a divisão de controle — as pontas admitem comando voluntário, e todo o percurso entre elas é involuntário.
 
-O #sigla("GLUT-4", [transportador de glicose tipo 4 — isoforma insulino-dependente do músculo esquelético e do tecido adiposo]) já existe pronto, estocado em vesículas intracelulares, e a Akt comanda a fusão dessas vesículas com a membrana plasmática. *A insulina não sintetiza o transportador, ela o transloca* — daí o efeito surgir em minutos e desaparecer em minutos quando o sinal cessa.
+#figura-lateral("/figuras/motilidade-tgi/fig-tubo.png",
+  lado: "left",
+  largura-figura: 27%,
+  texto: [O miócito liso visceral é fusiforme, mede cerca de 5 µm de diâmetro por 200 a 500 µm de comprimento e não trabalha sozinho. Células vizinhas se conectam por #termo-nota[junções comunicantes][canais formados por conexinas que atravessam as duas membranas e deixam passar íons e moléculas pequenas diretamente de um citoplasma ao outro], e a corrente que despolariza uma célula alcança as vizinhas sem precisar de sinapse. O resultado é um #termo-nota[sincício funcional][conjunto de células individuais, com membranas próprias, que se comporta eletricamente como unidade por estar acoplado por junções comunicantes] — e a palavra *funcional* carrega o peso: as células continuam individuais, com suas membranas intactas, e o que se compartilha é corrente elétrica, não citoplasma.
 
-O restante do programa é composto de freios. A insulina ativa a glicogênio-sintase, liga a lipogênese no adipócito e inibe a *lipase hormônio-sensível*, enzima que hidrolisa triacilglicerol em ácido graxo livre; em paralelo, suprime a gliconeogênese hepática e a proteólise muscular. Perder o hormônio é liberar todos esses freios simultaneamente, e é por isso que o quadro clínico do tipo 1 não se resume à glicemia.
+Esse músculo se organiza em duas camadas com efeitos mecânicos opostos. A camada *circular*, interna, estreita a luz e oclui o segmento; a camada *longitudinal*, externa, encurta o segmento e o traz na direção do conteúdo. Nenhuma das duas transporta nada sozinha: o transporte nasce da alternância entre elas ao longo do eixo do tubo.],
+  legenda: [Dois terços de músculo liso entre duas pontas de músculo esquelético.])
 
-Um dado de distribuição sustenta as PARTES II e III: *apenas músculo esquelético e tecido adiposo dependem do GLUT-4*. Neurônio, hemácia, endotélio, célula mesangial do glomérulo, pericito da retina, cristalino e epitélio tubular renal captam glicose por transportadores que não respondem à insulina, e por isso não conseguem reduzir a entrada quando a glicemia sobe.
+O ritmo dessa alternância não vem do miócito. Entre as duas camadas musculares, e em contato com o plexo nervoso que ali corre, existe uma população própria de #termo-nota[células intersticiais de Cajal][células marcapasso de origem mesenquimal, identificadas pelo receptor c-Kit, acopladas ao miócito por junções comunicantes] que despolariza e repolariza espontaneamente. Essa oscilação rítmica do potencial de repouso é a *onda lenta*, com amplitude de 10 a 20 mV, e ela se propaga ao músculo pelas junções comunicantes.
 
-#figura-lateral("/figuras/gr-02-diabetes-mellitus/slide-14.png",
-  lado: "right",
-  largura-figura: 40%,
-  texto: [O intestino sinaliza ao pâncreas antes de a glicose ser absorvida. O #sigla("GLP-1", [peptídeo semelhante ao glucagon 1 — incretina intestinal que amplifica a secreção de insulina dependente de glicose]), liberado pela chegada do alimento ao lúmen, amplifica a secreção de insulina pela célula beta, retarda o esvaziamento gástrico e aumenta a saciedade por ação hipotalâmica. É o *efeito incretínico*, e ele explica por que uma carga oral de glicose eleva mais a insulina do que a mesma carga por via intravenosa.],
-  legenda: [Eixo intestino–pâncreas–encéfalo.])
+A onda lenta, sozinha, não contrai. Ela apenas leva o potencial de membrana periodicamente para mais perto do limiar, e a contração só ocorre nos ciclos em que estímulos excitatórios somam despolarização suficiente para abrir canais de cálcio tipo L — canais que se abrem com a despolarização e deixam entrar cálcio a favor de um gradiente de cerca de dez mil vezes. A onda lenta define *quando* o segmento pode contrair; a excitação nervosa e hormonal define *se* ele contrai e com que força.
 
-#subtopico("1.2 — Tipo 1: a ilhota destruída e o corpo em jejum permanente")
+#mini-resumo[A célula de Cajal marca o compasso, a onda lenta abre janelas rítmicas de excitabilidade, e o estímulo nervoso decide quais janelas viram contração.]
 
-O que desencadeia o quadro clínico do tipo 1 não é o valor absoluto da insulina, e sim a queda da *razão insulina/glucagon*. A insulina freia a célula alfa dentro da própria ilhota; sem ela, o glucagon é secretado sem contraposição e o fígado mantém glicogenólise e gliconeogênese enquanto o músculo já não capta glicose. A hiperglicemia é gerada nas duas pontas.
+A frequência dessas janelas é fixa para cada região e cai no sentido oral-aboral: cerca de 3 por minuto no corpo do estômago, 12 por minuto no duodeno, 8 por minuto no íleo e novamente 3 por minuto no cólon. Como o segmento de trás oscila mais rápido que o da frente, o conteúdo tende a ser deslocado adiante — o gradiente de frequência é, por si, um mecanismo de propulsão. Na gastroparesia de longa evolução do diabetes, a perda dessas células marcapasso desorganiza a onda lenta gástrica e o estômago esvazia devagar mesmo com musculatura íntegra e sem qualquer obstrução mecânica.
 
-A destruição da célula beta é autoimune, mediada sobretudo por linfócitos T citotóxicos, em indivíduos com alelos predisponentes de #sigla("HLA", [antígeno leucocitário humano — o complexo principal de histocompatibilidade humano, cujos alelos de classe II definem boa parte do risco genético do tipo 1]) de classe II. Os autoanticorpos dosados no laboratório — anti-#termo-nota[descarboxilase do ácido glutâmico][enzima citoplasmática da célula beta; o anticorpo anti-GAD65 contra ela é o marcador sorológico mais usado de autoimunidade contra a ilhota], anti-insulina, anti-tirosina-fosfatase da ilhota — são marcadores dessa agressão, não os seus executores principais.
+#subtopico("1.2 — Contração fásica e contração tônica: dois modos de ocupar o tempo")
 
-A massa funcionante remanescente é estimada pelo #termo-nota[peptídeo C][fragmento liberado em quantidade equimolar à insulina na clivagem da pró-insulina; ausente na insulina exógena e pouco extraído pelo fígado, mede a secreção endógena]: ele sai da pró-insulina junto com a insulina, mas não acompanha a insulina exógena aplicada e escapa da extração hepática de primeira passagem, que retira boa parte da insulina antes da circulação sistêmica.
+Os dois registros de contração do músculo liso partem de um transiente de cálcio quase idêntico e terminam em curvas de força completamente diferentes — e é essa dissociação, e não a intensidade do estímulo, que separa os dois modos.
 
-O metabolismo assume então o padrão do jejum com o plasma cheio de glicose. Sem o freio da insulina, a lipase hormônio-sensível libera ácidos graxos em quantidade que excede a capacidade oxidativa hepática: a acetil-CoA gerada ultrapassa a capacidade de consumo do ciclo de Krebs e o excedente é desviado para acetoacetato e β-hidroxibutirato, ácidos fortes cujo acúmulo derruba o pH. A proteólise muscular fornece aminoácidos à gliconeogênese e o balanço nitrogenado fica negativo. A perda ponderal ocorre com ingesta aumentada, porque se perde caloria na urina, triacilglicerol no adipócito e proteína no músculo.
+#figura-nebli("/figuras/motilidade-tgi/fig-fasico-tonico.png",
+  largura: 58%,
+  legenda: [Em ambos os traçados o cálcio sobe em pico e retorna quase à linha de base em segundos. Na contração fásica (A) a força acompanha essa queda e desaparece; na tônica (B) a força se instala num platô e permanece enquanto durar o estímulo, apesar de o cálcio já ter caído e de a fosforilação das pontes cruzadas ter recuado junto.])
 
-#mini-resumo[Falta de insulina → glucagon sem freio e lipólise sem freio → glicose hepática alta e ácido graxo em excesso → cetoácidos. Hiperglicemia e cetose são efeitos paralelos do mesmo defeito.]
+Na *contração fásica*, um estímulo breve produz um pico de cálcio, uma onda de fosforilação das pontes cruzadas e uma força que sobe e decai em segundos. É o registro do antro gástrico e das alças intestinais, onde o trabalho é misturar e propelir em ciclos repetidos, e cada ciclo precisa terminar para que o próximo comece.
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-12.png",
-  largura: 60%,
-  legenda: [O defeito está em andares diferentes: no tipo 1 o pâncreas não entrega o sinal; no tipo 2 o sinal chega em quantidade e a célula-alvo não responde.])
+Na *contração tônica*, o estímulo é mantido e a força se estabiliza num platô que pode durar minutos ou horas. O cálcio e a velocidade de fosforilação retornam para perto da linha de base logo após o início, mas a força não retorna — sinal de que o mecanismo que sustenta o platô não é o mesmo que o iniciou. É o registro dos esfíncteres e do fundo gástrico, onde a função é manter pressão constante, e não gerar eventos.
 
-#clinica-box("O caso que abre a aula", [
-Homem de 26 anos, magro, com dez dias de poliúria, polidipsia e perda de 3 kg; glicemia de 397 mg/dL, hemoglobina glicada de 8,8%, peptídeo C de 1,32 ng/mL e anti-descarboxilase do ácido glutâmico de 1082 UI/mL para valor de referência abaixo de 10.
+A explicação desse platô barato está no #termo-nota[estado latch][condição em que pontes cruzadas de miosina permanecem ligadas à actina após terem sido desfosforiladas, com taxa de desprendimento muito lenta]: as cabeças de miosina que já se ligaram à actina perdem o fosfato mas não se soltam, e passam a ciclar em velocidade muito baixa. Força alta é mantida com pouca fosforilação nova e pouco consumo de ATP — o esfíncter anal interno mantém sua pressão de repouso o dia inteiro sem exaurir a célula.
 
-Os três exames respondem perguntas distintas. O autoanticorpo em título cem vezes acima do limite identifica a natureza autoimune da destruição. O peptídeo C mensurável, no limite inferior da normalidade, indica secreção residual preservada em parte — o paciente está no início da história natural, o que explica a ausência de acidose franca à apresentação. A hemoglobina glicada de 8,8% data o início da hiperglicemia semanas antes dos dez dias de sintomas: o sintoma marca a queda da reserva de célula beta, não o início da doença.
+#confusao-prevista(
+  titulo: "Tônico descreve duração, não intensidade",
+  aluno_acha: [tônico soa como "contração máxima", e fásico como "contração fraca"],
+  mecanismo: [os dois adjetivos classificam o *perfil temporal* da força. Uma contração fásica do antro pode gerar pressão muito maior que o tônus de repouso do esfíncter esofágico inferior; a diferença é que a fásica termina em segundos e a tônica se sustenta. Um mesmo segmento pode alternar entre os dois modos conforme o padrão de estímulo que recebe.],
+)
+
+#mini-resumo[O maquinário molecular é o mesmo nos dois modos. O que muda é a duração do estímulo e o balanço entre a quinase que fosforila e a fosfatase que desfosforila — e é do lado desfosforilado, no estado latch, que nasce o tônus econômico.]
+
+#subtopico("1.3 — O sistema nervoso entérico: o plexo que move e o plexo que secreta")
+
+A parede do tubo digestório carrega sua própria rede nervosa, com 200 a 600 milhões de neurônios — número da ordem de grandeza da medula espinhal inteira. Esse #sigla("SNE", [sistema nervoso entérico — a divisão do sistema nervoso autônomo cujos corpos neuronais residem na parede do tubo digestório]) não é um cabo de transmissão de ordens vindas de cima: é um circuito completo, com neurônio sensitivo, interneurônio e motoneurônio, capaz de gerar o programa motor sozinho.
+
+#figura-nebli("/figuras/motilidade-tgi/fig-inervacao.png",
+  largura: 66%,
+  legenda: [A inervação intrínseca reside na parede e executa o programa; a extrínseca chega de fora e regula ganho. O plexo mioentérico responde por contração e relaxamento, tônico e fásico; o submucoso, por secreção. A ingestão dispara os três desfechos ao mesmo tempo: motilidade, secreção e vasodilatação local.])
+
+O SNE se organiza em dois plexos, e a posição anatômica de cada um prediz sua função. O *plexo mioentérico*, ou de Auerbach, corre exatamente entre a camada circular e a longitudinal — cercado pelo músculo que comanda — e governa contração e relaxamento, tanto fásicos quanto tônicos. O *plexo submucoso*, ou de Meissner, fica sob a mucosa, junto ao epitélio e à rede capilar, e governa secreção e fluxo sanguíneo local. Um plexo está onde precisa estar para mover; o outro, onde precisa estar para secretar.
+
+Os motoneurônios do plexo mioentérico vêm em duas populações antagônicas. Os *excitatórios* liberam acetilcolina e substância P e produzem contração; os *inibitórios* liberam #sigla("VIP", [peptídeo intestinal vasoativo — cotransmissor inibitório do plexo mioentérico, que relaxa músculo liso e aumenta a secreção intestinal]), #sigla("NO", [óxido nítrico — gás sinalizador de meia-vida de segundos, principal mediador do relaxamento do músculo liso digestório]) e #sigla("ATP", [adenosina trifosfato — aqui não como moeda energética, mas como neurotransmissor liberado em vesículas]) e produzem relaxamento. A consequência conceitual é grande: no tubo digestório o relaxamento é um *evento ativo*, com neurônio próprio e transmissor próprio, e não a simples ausência de estímulo excitatório.
+
+A demonstração biológica dessa arquitetura aparece quando ela falha durante a formação. Na aganglionose congênita do cólon, os precursores neuronais da crista neural interrompem a migração craniocaudal antes de completar o trajeto, e o segmento distal — em geral o retossigmoide — fica sem os dois plexos. Sem motoneurônio inibitório, esse segmento não relaxa e permanece contraído; o intestino a montante, inervado e funcionante, empurra contra uma obstrução funcional e se dilata. O segmento dilatado, que é o que chama atenção na imagem, é justamente o *saudável*.
+
+#parte-title("PARTE II — Reflexos: o tubo que decide sozinho e o tubo que consulta o encéfalo")
+
+#subtopico("2.1 — O reflexo curto: o circuito inteiro dentro da parede")
+
+O plexo mioentérico apresentado no subtópico anterior não é apenas uma via de saída motora: ele fecha o arco reflexo completo sem sair da parede. O receptor, o interneurônio e o motoneurônio estão todos intramurais, e é por isso que esse circuito é chamado de *reflexo curto*, ou reflexo intramural.
+
+O estímulo que abre o circuito é mecânico. A chegada de conteúdo distende a parede, e *mecanorreceptores* — terminações que respondem a estiramento, e não à composição química do que passa — despolarizam o #termo-nota[neurônio aferente primário intrínseco][neurônio sensitivo cujo corpo celular fica no próprio plexo mioentérico, sem qualquer projeção para fora da parede do tubo]. Esse aferente ativa interneurônios que distribuem o sinal ao longo do eixo do tubo, e são os interneurônios que decidem qual motoneurônio recrutar de cada lado do bolo.
+
+Essa decisão é assimétrica, e a assimetria é o que dá direção ao transporte. No segmento *oral* ao bolo, os interneurônios recrutam motoneurônios excitatórios: a acetilcolina e a substância P contraem a camada circular, e a luz se estreita atrás do conteúdo. No segmento *aboral*, recrutam motoneurônios inibitórios: o VIP e o óxido nítrico relaxam a circular à frente, e a luz se abre. Contrai atrás, relaxa adiante — o conteúdo é empurrado para o único lugar de menor resistência. Essa polarização estereotipada é conhecida como *lei do intestino*.
+
+#figura-nebli("/figuras/motilidade-tgi/fig-reflexos.png",
+  largura: 72%,
+  legenda: [Dois arcos partem do mesmo estímulo. À esquerda, o reflexo curto se resolve dentro da parede: mecanorreceptor, neurônio sensitivo intrínseco e motoneurônio excitatório (acetilcolina) ou inibitório (VIP). À direita, o mesmo enchimento recruta o aferente vagal, que sobe ao tronco encefálico e retorna pela fibra parassimpática — o reflexo longo, ou vago-vagal. Os dois operam ao mesmo tempo sobre o mesmo músculo.])
+
+Um segmento de intestino retirado do organismo, colocado em banho fisiológico e sem nenhuma conexão nervosa com o exterior, ainda propaga conteúdo na direção correta quando distendido. Esse experimento é a demonstração direta de que o programa motor é intrínseco e de que o comando externo, quando existe, modula intensidade — não cria o movimento.
+
+O repertório químico da parede vai além dos dois pares clássicos. A serotonina liberada pelas células enterocromafins da mucosa sinaliza distensão e presença de nutriente aos aferentes intrínsecos; catecolaminas, ATP e ácido gama-aminobutírico participam da modulação sináptica dentro dos plexos; e o óxido nítrico, por ser um gás de meia-vida de segundos que difunde direto pela membrana, age apenas nas células imediatamente vizinhas ao terminal que o produziu — o que dá ao relaxamento uma precisão espacial que um transmissor circulante não teria.
+
+#clinica-box("Quando o plexo mioentérico é destruído", [
+O #termo-nota[Trypanosoma cruzi][protozoário causador da doença de Chagas, transmitido por triatomíneos, cuja fase crônica pode destruir os plexos intramurais do tubo digestório] provoca, na fase crônica, destruição inflamatória progressiva dos neurônios do plexo mioentérico. A perda não é uniforme entre as duas populações motoras: os neurônios *inibitórios*, produtores de VIP e óxido nítrico, são desproporcionalmente atingidos.
+
+A consequência mecânica segue direto do que este subtópico montou. Sem o ramo inibitório, o segmento perde a capacidade de relaxar à frente do bolo e os esfíncteres perdem a capacidade de se abrir, enquanto o tônus excitatório permanece. O esôfago não consegue vencer um esfíncter esofágico inferior que não relaxa, e se dilata progressivamente acima dele — o megaesôfago. No cólon, o mesmo defeito produz retenção fecal crônica e dilatação do segmento a montante — o megacólon. As duas apresentações são a mesma lesão em dois endereços, e ambas ilustram que a rede intramural, uma vez perdida, não é substituída pelo comando extrínseco que continua intacto.
 ])
 
-#subtopico("1.3 — Tipo 2: o sinal que chega e não é escutado")
+#subtopico("2.2 — O reflexo longo vago-vagal e o comando extrínseco")
 
-No tipo 2 o receptor está íntegro e a falha é pós-receptor. Com oferta calórica alta e sedentarismo, o músculo recebe mais acil-CoA graxo do que oxida, e o excedente acumula dois intermediários lipídicos com atividade de sinalização: *diacilglicerol* e *ceramida*. Ambos ativam *serina-quinases de estresse*, que fosforilam o IRS-1 em resíduos de serina em vez de tirosina. O IRS-1 fosforilado no resíduo errado não recruta a PI3K, a Akt não é ativada, e menos vesículas de GLUT-4 alcançam a membrana.
+O reflexo longo percorre o mesmo estímulo por um trajeto muito maior. A distensão da parede ativa terminações vagais aferentes, cujos corpos celulares estão no gânglio nodoso; a informação sobe ao núcleo do trato solitário, no bulbo, e é retransmitida ao núcleo motor dorsal do vago, de onde parte a resposta eferente pelo mesmo nervo. Por entrar e sair pelo vago, o circuito recebe o nome de *reflexo vago-vagal*.
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-09.png",
-  largura: 55%,
-  legenda: [O ácido graxo não apenas compete com a glicose como combustível: ele interrompe a sinalização que traria o GLUT-4 à superfície. A mitocôndria sobrecarregada devolve espécies reativas de oxigênio, que realimentam as serina-quinases.])
+Dois detalhes anatômicos explicam por que esse arco é regulador, e não executor. O primeiro é a proporção de fibras: cerca de 80% das fibras do vago abdominal são *aferentes*, o que faz do nervo muito mais um relator do estado do tubo do que um emissor de ordens. O segundo é onde a via eferente termina. A fibra parassimpática pré-ganglionar é longa, colinérgica, e não alcança o miócito: ela faz sinapse em um neurônio do plexo mioentérico, que é quem inerva o músculo. O comando extrínseco entra no circuito intrínseco e ajusta seu ganho.
 
-O tecido adiposo contribui por uma segunda via. O adipócito hipertrofiado recruta macrófagos e secreta fator de necrose tumoral alfa e interleucina-6, citocinas que ativam as mesmas serina-quinases e reduzem o GLUT-4 de superfície. A obesidade opera como inflamação crônica de baixo grau, e é por essa ponte que produz resistência à insulina.
+O ramo simpático chega por outro caminho e com o sinal invertido. Fibras pós-ganglionares oriundas dos gânglios celíaco e mesentéricos liberam noradrenalina, e boa parte do efeito inibitório não é exercida sobre a fibra muscular: a noradrenalina age em receptores adrenérgicos alfa-2 pré-sinápticos do neurônio entérico e *reduz a liberação de acetilcolina*. A inibição simpática opera principalmente cortando o suprimento excitatório na origem.
 
-A resistência isolada não configura diabetes. A célula beta responde à glicemia crescente aumentando a secreção, e a *hiperinsulinemia compensatória* mantém a glicose em faixa quase normal por anos.
+#mini-resumo[Parassimpático estimula, simpático inibe — mas nenhum dos dois fala diretamente com o músculo. Ambos terminam no neurônio entérico, que é o executor final comum.]
 
-#atencao-box("No tipo 2, a insulina pode estar alta", [
-Durante a maior parte da história natural do tipo 2 a insulina está *normal ou elevada*, e a glicemia sobe apesar disso porque o tecido não responde. Insulina alta com glicemia alta não é contradição laboratorial: é o retrato da resistência. A insulina só cai quando, após anos de sobrecarga secretora e de exposição a glicose e ácido graxo em excesso, a célula beta entra em apoptose e a massa de ilhota diminui — e é nessa fase que o tipo 2 passa a exigir insulina exógena.
-])
+O efeito simpático, porém, não é uniformemente inibitório ao longo da parede. O mesmo comando relaxa a musculatura das camadas circular e longitudinal, *contrai* os esfíncteres e produz vasoconstrição na mucosa. Os três efeitos são coerentes com a mesma finalidade: durante uma resposta de estresse, interromper o transporte, fechar as passagens e desviar fluxo sanguíneo para músculo esquelético e encéfalo. Sinais opostos em tecidos vizinhos servem a um objetivo único.
 
-O defeito é distribuído por vários órgãos. O fígado resiste ao freio da gliconeogênese e mantém produção hepática de glicose mesmo sob insulina alta, o que explica a hiperglicemia de jejum. O adipócito resiste ao freio da lipólise e continua exportando ácido graxo. O intestino perde parte do efeito incretínico. A ilhota acrescenta hiperglucagonemia à queda de secreção.
+A potência desse ramo inibitório fica visível depois de uma laparotomia. A manipulação do peritônio dispara aferentes que ativam, por arco espinhal, uma descarga simpática intensa e prolongada sobre todo o tubo, e a motilidade cessa — é o íleo paralítico pós-operatório. Não há lesão estrutural do intestino, e a recuperação segue uma ordem previsível que reflete a sensibilidade de cada segmento: o intestino delgado retoma em horas, o estômago em cerca de um a dois dias, e o cólon em três a cinco dias.
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-11.png",
+#subtopico("2.3 — Esfíncteres: tônus de repouso e o relaxamento comandado pela distensão")
+
+O esfíncter não é um anel que se fecha quando o conteúdo chega — ele já está fechado. Seu estado basal é contração tônica sustentada, e o evento fisiológico que a chegada do conteúdo produz é o *relaxamento*. Inverter esses dois estados desorganiza a leitura de toda a fisiologia dos esfíncteres.
+
+#figura-nebli("/figuras/motilidade-tgi/fig-esfincteres.png",
   largura: 56%,
-  legenda: [Cinco endereços do mesmo defeito. A produção hepática de glicose que não desliga é a que sustenta a glicemia de jejum, quando nenhuma refeição a justifica.])
+  legenda: [Cinco zonas de alta pressão dividem o tubo em compartimentos com pH, flora e pressões próprios. A distensão a montante relaxa o esfíncter seguinte; no piloro, a regulação é dupla e as duas fontes de sinal têm efeitos opostos.])
 
-#subtopico("1.4 — Diurese osmótica e as duas descompensações")
+#atencao-box("O estado basal do esfíncter é contração", [
+Um esfíncter em repouso está *contraído*, e essa contração tônica é o que mantém compartimentos vizinhos separados: ela impede que o ácido do estômago suba ao esôfago, que o quimo desça ao duodeno antes de processado, que o conteúdo colônico reflua ao íleo e que as fezes escapem do reto.
 
-A glicose é filtrada livremente no glomérulo e reabsorvida no túbulo proximal por transportadores de capacidade máxima finita, saturados em torno de 180 mg/dL de glicemia. Acima desse limiar a glicose excedente permanece no lúmen tubular.
-
-Soluto não reabsorvido retém água por osmose e impede que ela acompanhe o sódio de volta ao interstício: instala-se a #termo-nota[diurese osmótica][perda aumentada de água na urina causada por um soluto não reabsorvido que a retém no lúmen tubular], e o volume urinário sobe. A poliúria precede a sede — a perda de água eleva a osmolaridade plasmática e só então os osmorreceptores hipotalâmicos disparam a polidipsia. Sódio e potássio são arrastados junto.
-
-A perda ponderal soma três parcelas: caloria eliminada como glicose urinária, triacilglicerol mobilizado pela lipólise e proteína muscular consumida pela gliconeogênese. A polifagia coexiste porque a glicose não entrou na célula.
-
-A forma da descompensação depende da insulina residual. No tipo 1, com secreção praticamente ausente, a lipólise segue livre até os cetoácidos e instala-se a *cetoacidose diabética*, com pH baixo, #termo-nota[hiato aniônico][diferença entre os cátions e os ânions medidos no plasma; aumenta quando um ácido não medido, como o cetoácido, se acumula] aumentado e respiração ampla e profunda — compensação respiratória que elimina gás carbônico para tamponar a acidez, não doença pulmonar. No tipo 2, a insulina residual é insuficiente para normalizar a glicemia mas basta para conter a lipase hormônio-sensível; sem lipólise maciça não há cetose, e a descompensação assume a forma de *estado hiperosmolar*, com glicemias mais altas, diurese osmótica prolongada e rebaixamento de consciência.
-
-#confusao-prevista(
-  titulo: "Hiperosmolaridade e acidose não são o mesmo distúrbio",
-  aluno_acha: [as duas descompensações são lidas como graus de gravidade de um mesmo processo],
-  mecanismo: [são distúrbios de naturezas distintas que apenas coexistem na cetoacidose. A hiperosmolaridade é distúrbio de *água*, produzido pela diurese osmótica; a acidose é distúrbio de *ácido*, produzido pelos cetoácidos da lipólise. No estado hiperosmolar do tipo 2 a primeira ocorre isolada, e é ela que ameaça a vida.],
-)
-
-O potássio inverte a leitura esperada do exame. A diurese osmótica esvazia o estoque corporal total, enquanto a acidose e a ausência de insulina deslocam potássio do intracelular para o plasma. O resultado é potássio sérico normal ou elevado em paciente profundamente depletado — valor que despenca assim que a insulina reconduz o íon para dentro da célula.
-
-#parte-title("PARTE II — Do açúcar ao dano: glicação e as rotas que se perpetuam")
-
-#subtopico("2.1 — Glicação não-enzimática e os dois relógios do controle")
-
-A glicose é um açúcar redutor: possui grupo carbonil livre, que reage espontaneamente com grupos amino de proteínas. A reação é *glicação* — não-enzimática, sem sítio preferencial, governada apenas pelo produto entre concentração de glicose e tempo de exposição. Distingue-se da *glicosilação*, que é enzimática, dirigida a sítios específicos e parte da maturação normal de glicoproteínas. É essa dependência de concentração e tempo que faz da glicação, ao mesmo tempo, o mecanismo da lesão e a base dos exames que medem controle.
-
-A reação avança em três estágios de reversibilidade decrescente. A *base de Schiff* é a condensação inicial entre o carbonil da glicose e um grupo amino da proteína, tipicamente da lisina ou da valina N-terminal; forma-se em horas e desfaz-se se a glicemia cai. O *produto de Amadori* é o rearranjo da base de Schiff numa cetoamina estável, formado em dias e apenas lentamente reversível. O #sigla("AGE", [produto final de glicação avançada — do inglês *advanced glycation end product*, a forma irreversível da glicação]) resulta de desidratações e oxidações sucessivas ao longo de semanas a meses e estabelece *ligações cruzadas* entre dois radicais protéicos: aqui a reação deixa de reverter.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-15.png",
-  largura: 70%,
-  legenda: [A régua de tempo no alto — horas, dias, semanas a meses — carrega o mecanismo. A barra "reversível" termina antes da ligação cruzada entre duas cadeias protéicas, e é essa etapa final que a normalização da glicemia já não desfaz.])
-
-Da escala de tempo decorre a seleção do alvo: acumula AGE a proteína de meia-vida longa — colágeno, elastina, cristalino, membrana basal —, renovada mais devagar do que a reação avança. Proteína de turnover rápido é degradada antes de reticular.
-
-Os dois exames de controle são produtos de Amadori em proteínas diferentes, e a diferença entre eles é a janela de tempo que cada proteína guarda. A #sigla("HbA1c", [hemoglobina glicada — fração da hemoglobina A que sofreu glicação, expressa em porcentagem da hemoglobina total]) mede a fração glicada da hemoglobina; como a hemácia circula de 90 a 120 dias sem reverter a modificação, o exame integra a exposição à glicose ao longo de 8 a 12 semanas, com peso maior nas últimas quatro. Uma HbA1c de 8,8% corresponde a glicemia média em torno de 205 mg/dL nesse período — no caso da PARTE I, hiperglicemia sustentada muito antes dos dez dias de sintomas. A limitação do exame é a mesma variável que o define: hemólise, sangramento recente ou transfusão encurtam a sobrevida eritrocitária e reduzem a HbA1c para a mesma glicemia média.
-
-A #termo-nota[frutosamina][conjunto das proteínas plasmáticas glicadas, sobretudo a albumina; como a albumina vive de 14 a 20 dias, o exame reflete as últimas 2 a 3 semanas] resolve exatamente esses casos. A albumina circula de 14 a 20 dias e o exame lê 2 a 3 semanas, o que o torna útil em hemoglobinopatia, anemia hemolítica, gestação e mudança recente de tratamento. No caso da aula os dois caminharam juntos em escalas distintas: HbA1c de 8,8% e frutosamina de 575 μmol/L em abril; 5,2% e 289 μmol/L em agosto, quatro meses após a insulinização.
-
-#subtopico("2.2 — O que o AGE faz nas proteínas de vida longa")
-
-A reticulação do colágeno não produz apenas rigidez: a proteína reticulada *resiste à digestão proteolítica e deixa de ser substituída*. O remodelamento da matriz extracelular depende de degradar colágeno velho para depositar colágeno novo, e as proteases não cortam o substrato reticulado. Esta é a razão bioquímica de a ferida do diabético cicatrizar mal mesmo com perfusão preservada.
-
-A glicação da #sigla("LDL", [lipoproteína de baixa densidade — partícula que transporta colesterol do fígado para os tecidos]) prejudica o reconhecimento da partícula pelo receptor hepático, prolonga o tempo de circulação e favorece a oxidação. A partícula modificada passa a ser captada por *receptores scavenger* do macrófago, que — ao contrário do receptor de LDL — não são inibidos pelo colesterol já acumulado na célula. O macrófago capta sem regulação e se converte em #termo-nota[célula espumosa][macrófago repleto de gotículas lipídicas, elemento fundador da estria gordurosa e da placa de ateroma]. É o elo direto entre hiperglicemia e placa de ateroma, retomado na PARTE III.
-
-#confusao-prevista(
-  titulo: "Membrana basal mais espessa não filtra melhor",
-  aluno_acha: [engrossar a barreira deveria retê-la mais e reduzir a passagem de proteína],
-  mecanismo: [o que muda não é só a espessura, é a *composição*. A membrana basal glomerular do diabético ganha matriz desorganizada e perde proteoglicanos aniônicos, que constituem a barreira de carga que repelia a albumina — também aniônica. O resultado é uma membrana mais espessa e simultaneamente mais permeável a proteína.],
-)
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-17.png",
-  largura: 50%,
-  legenda: [À esquerda, membrana basal normal: fina e homogênea, com pedicelos regularmente espaçados. À direita, a mesma barreira espessada e desorganizada no diabético.])
-
-Há ainda um efeito independente de estrutura: os AGEs *inativam o óxido nítrico*. A menor disponibilidade de óxido nítrico reduz a vasodilatação dependente do endotélio, aumenta a adesão de leucócitos e plaquetas e favorece a proliferação de músculo liso na parede vascular. O primeiro dano vascular do diabetes é funcional e antecede qualquer placa detectável por imagem.
-
-#subtopico("2.3 — RAGE e as outras rotas: como o dano passa a se perpetuar")
-
-O AGE não é apenas produto: é ligante. Monócitos, macrófagos, células endoteliais e células mesangiais expressam o #sigla("RAGE", [receptor para produtos finais de glicação avançada — receptor de membrana que converte a presença de AGE em sinal inflamatório intracelular]); a ligação ativa o #sigla("NF-κB", [fator nuclear kappa B — fator de transcrição que comanda a expressão de genes pró-inflamatórios]) e transcreve um programa que inclui citocinas, fatores de crescimento, moléculas de adesão e fator tecidual. Migração de monócitos, aumento de permeabilidade vascular, atividade pró-coagulante e deposição de matriz extracelular são saídas desse programa.
-
-A alça é positiva: a sinalização por RAGE aumenta a expressão do próprio receptor e o estresse oxidativo local, e as espécies reativas de oxigênio aceleram a formação de novos AGEs. *O dano passa a produzir as condições que o produzem* — o processo auto-perpetuador do esquema da aula, que continua operando quando o estímulo inicial já diminuiu.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-30.png",
-  largura: 55%,
-  legenda: [Alteração metabólica e alteração funcional ainda revertem; a partir das modificações progressivas um dos ramos passa a se alimentar sozinho. É esse ramo que faz a manifestação clínica surgir anos depois e não regredir com o controle.])
-
-Três rotas adicionais explicam alvos específicos. A *via dos polióis* converte glicose em sorbitol pela aldose-redutase consumindo NADPH; menos NADPH significa menos glutationa reduzida e menor defesa antioxidante, e o sorbitol acumulado — incapaz de atravessar a membrana — puxa água por osmose no cristalino e no nervo. A ativação da *proteína quinase C* pelo excesso de diacilglicerol aumenta permeabilidade vascular, expressão de fator de crescimento endotelial e deposição de matriz. A *via da hexosamina* modifica fatores de transcrição por adição de N-acetilglicosamina e altera a expressão de fator de crescimento transformador beta e do inibidor do ativador de plasminogênio, com fibrose e trombogenicidade como saída.
-
-As quatro rotas convergem: todas aumentam a produção mitocondrial de espécies reativas de oxigênio, e o estresse oxidativo as realimenta. Como todas dependem de glicose *intracelular* alta, atingem preferencialmente as células que captam glicose sem depender de insulina — endotélio, pericito, célula mesangial, neurônio, cristalino, epitélio tubular. Os órgãos-alvo do diabetes são exatamente esses tecidos.
-
-#parte-title("PARTE III — Onde o dano aparece: órgãos-alvo e o que a imagem enxerga")
-
-#subtopico("3.1 — Microangiopatia: retina e glomérulo")
-
-A retina é servida por vasos terminais sem circulação colateral, e é o único leito capilar do corpo examinável diretamente. O primeiro alvo é o #termo-nota[pericito][célula contrátil que envolve o capilar e regula o seu calibre], que capta glicose independentemente de insulina, sofre pelas quatro rotas da PARTE II e morre. O capilar perde suporte de parede e dilata focalmente em #termo-nota[microaneurismas][dilatações focais da parede capilar, formadas onde o suporte do pericito se perdeu; são as primeiras lesões detectáveis ao exame de fundo de olho]; a permeabilidade aumentada deposita *exsudatos duros* — plasma e lipoproteína extravasados — e a fragilidade da parede produz hemorragias puntiformes.
-
-A fase proliferativa não é recuperação. A retina isquêmica libera fator de crescimento endotelial e o organismo fabrica neovasos frágeis que crescem para dentro do vítreo: eles sangram, produzindo hemorragia vítrea, e o tecido fibroso que os acompanha traciona e descola a retina. Quando crescem sobre a íris e o ângulo camerular, bloqueiam a drenagem do humor aquoso e produzem glaucoma neovascular. A catarata tem mecanismo próprio e osmótico: a aldose-redutase converte glicose em sorbitol, que não atravessa a membrana da fibra do cristalino, acumula, puxa água e opacifica a lente — o mesmo mecanismo explica as oscilações de refração do paciente descompensado.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-31.png",
-  largura: 58%,
-  legenda: [Os órgãos marcados no esquema são os que captam glicose sem depender de insulina, mais os leitos arteriais atingidos pela aterosclerose acelerada.])
-
-No glomérulo, a hiperglicemia dilata a arteríola aferente mais do que a eferente: a pressão no capilar glomerular sobe e a filtração aumenta. Essa *hiperfiltração* é a primeira alteração funcional da doença, e a sobrecarga mecânica que ela impõe produz a esclerose de anos depois — o aumento da filtração inicial não é sinal de rim preservado.
-
-O que se deposita é matriz. A membrana basal espessa e muda de composição, como em 2.2, e a matriz mesangial se expande, primeiro difusamente e depois em nódulos arredondados — a glomeruloesclerose nodular de Kimmelstiel-Wilson. *Não há infiltrado inflamatório proeminente*: é acúmulo de matriz, não glomerulonefrite. As arteríolas aferente e eferente sofrem #termo-nota[hialinização][depósito de material proteico homogêneo e eosinofílico na parede do vaso, que a enrijece e estreita a luz], que é lesão de arteríola e não se confunde com a aterosclerose das artérias de médio e grande calibre.
-
-A tradução laboratorial tem ordem. A albuminúria aparece primeiro, porque a barreira de carga glomerular se perdeu — a albumina passa pelo glomérulo, não por falha tubular. A creatinina sobe muito depois, porque a hiperfiltração dos néfrons remanescentes mascara a perda dos já esclerosados: creatinina normal não exclui nefropatia. A glicosúria, a retenção urinária por neuropatia autonômica e a redução da quimiotaxia e da explosão respiratória do neutrófilo em hiperglicemia somam-se para explicar a predisposição à pielonefrite.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-33.png",
-  largura: 58%,
-  legenda: [As duas pontas da história no mesmo exame: rim *aumentado* na hiperfiltração inicial; rim reduzido, com córtex afilado e ecogenicidade aumentada no estágio final — fibrose devolve mais som que parênquima funcionante.])
-
-#subtopico("3.2 — Neuropatia e pé diabético")
-
-A neuropatia diabética resulta de dois mecanismos somados. Os *vasa nervorum*, capilares que nutrem o tronco nervoso, sofrem a mesma microangiopatia da retina e do glomérulo e isquemiam o nervo; em paralelo, o sorbitol acumulado e a glicação de proteínas do axônio e da mielina lesam a fibra diretamente. O achado funcional é a queda da velocidade de condução, e o padrão clínico é o comprometimento em bota e luva, que começa pelas fibras mais longas.
-
-O pé diabético soma três falhas independentes no mesmo território. A *neuropatia sensitiva* remove a dor protetora, e o trauma repetido — calçado apertado, corpo estranho, calo que ulcera — não é percebido nem interrompido. A *neuropatia autonômica* reduz a sudorese, resseca a pele e abre fissuras que servem de porta de entrada. A *doença arterial periférica* limita o aporte de oxigênio, de células de defesa e do antibiótico administrado. Somam-se a reticulação do colágeno por AGEs, que trava o remodelamento da matriz, e a disfunção do neutrófilo em hiperglicemia.
-
-Quando a isquemia é suficiente, o tecido morre com padrão de *gangrena*: necrose, tipicamente isquêmica, comprometendo pele, subcutâneo, músculo e osso simultaneamente. Diz-se seca sem infecção superposta e úmida com ela — o termo descreve a morte tecidual, não a infecção.
-
-#atencao-box("Charcot não é osteomielite", [
-A *artropatia de Charcot* é destruição mecânica: a articulação sem propriocepção nem dor recebe microtraumas repetidos sem correção postural, e a arquitetura do médio-pé se desmonta com erosão das superfícies articulares, fragmentação, subluxação e colapso do arco plantar. Não há infecção — há trauma acumulado sobre um pé que não avisa.
-
-A *osteomielite* é infecção da medular óssea, em geral por contiguidade a partir de úlcera plantar profunda, e exige antibioticoterapia prolongada e com frequência desbridamento.
-
-As duas coexistem no mesmo pé, e a confusão custa nos dois sentidos: antibiótico não imobiliza a articulação que continua se destruindo, e imobilização não contém a infecção que progride para o osso vizinho e para a corrente sanguínea.
+O erro de leitura tem consequência direta na interpretação da doença. Um esfíncter que "não funciona" pode falhar de dois modos opostos: por perder o tônus, e então há refluxo do compartimento de trás; ou por não conseguir relaxar, e então há obstrução funcional com dilatação a montante. São defeitos contrários, e só se distinguem se o estado basal correto estiver claro.
 ])
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-42.png",
-  largura: 58%,
-  legenda: [Antepé, médio-pé e retropé na artropatia de Charcot: erosão das superfícies articulares e desalinhamento, sem reação periosteal de infecção.])
+O tubo tem cinco desses controles. O *esfíncter esofágico superior* é esquelético e mantém o esôfago fechado à entrada de ar durante a respiração. O #sigla("EEI", [esfíncter esofágico inferior — zona de alta pressão na transição esofagogástrica, sem espessamento muscular macroscópico distinto, identificada por manometria]) é liso e separa o esôfago do ambiente ácido gástrico. O *piloro* controla a saída do estômago; a *valva ileocecal* separa o íleo do ceco; e o complexo anal reúne um esfíncter interno, liso e involuntário, e um externo, esquelético e voluntário, inervado pelo nervo pudendo.
 
-A escolha do método de imagem segue o tempo do achado. A radiografia só demonstra alteração após perda óssea significativa, com atraso de uma a duas semanas — insuficiente para excluir osteomielite aguda. A #sigla("RM", [ressonância magnética — método baseado no comportamento dos núcleos de hidrogênio em campo magnético, com alta resolução para partes moles e medula óssea]) detecta o edema da medular óssea muito antes: baixo sinal em T1, alto sinal em T2 com saturação de gordura, e realce após contraste no tecido inflamado e perfundido.
+O sinal que abre esses controles é a distensão do segmento imediatamente a montante, e o mediador do relaxamento é o mesmo já conhecido: os motoneurônios inibitórios do plexo mioentérico, com VIP e óxido nítrico. A deglutição relaxa o EEI antes que o bolo chegue; a distensão do reto relaxa o esfíncter anal interno; a distensão do íleo terminal relaxa a valva ileocecal, enquanto a distensão do ceco a contrai, o que impede refluxo de conteúdo colônico rico em bactérias para o íleo.
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-43.png",
-  largura: 58%,
-  legenda: [A mesma região aparece escura em T1, clara em T2 com saturação de gordura e realçada após contraste — a assinatura do edema e da inflamação da medular óssea.])
+O piloro recebe as duas informações de lados opostos, e responde a cada uma com o sinal contrário. A distensão do antro gera regulação *anterógrada*, que o relaxa e favorece o esvaziamento gástrico. A chegada de quimo ácido, hipertônico ou rico em gordura ao duodeno gera regulação *retrógrada*, que o contrai e freia o esvaziamento. O estômago não entrega conteúdo na velocidade em que o produz: entrega na velocidade em que o duodeno consegue neutralizar e absorver.
 
-#subtopico("3.3 — Macroangiopatia: aterosclerose acelerada e como se procura por ela")
+O EEI mostra a mesma economia funcionando na direção do erro. Fora da deglutição, ele apresenta episódios de *relaxamento transitório* — quedas espontâneas de pressão, mediadas por reflexo vago-vagal disparado pela distensão do fundo gástrico, cuja função fisiológica é permitir a eructação de gás. Quando esses episódios se tornam frequentes ou o tônus basal é baixo, é por essa mesma porta que o conteúdo ácido alcança o esôfago na doença do refluxo gastroesofágico.
 
-O diabetes acelera a aterosclerose por quatro caminhos já construídos: a LDL glicada captada sem regulação pelo macrófago, a inativação do óxido nítrico com disfunção endotelial, o estado pró-inflamatório do eixo AGE–RAGE, e um estado pró-coagulante com mais fator tecidual, mais inibidor do ativador de plasminogênio e menos fibrinólise.
+#parte-title("PARTE III — Da membrana à força: o acoplamento excitação-contração")
 
-O evento agudo vem da *ruptura* da placa, não do seu crescimento até ocluir. Uma placa com núcleo lipídico grande e capa fibrosa fina se fissura, expõe colágeno e fator tecidual ao sangue, e a trombose resultante oclui a luz em minutos — placa pouco estenosante pode matar, enquanto placa muito estenosante e estável dá angina previsível por anos. Aplicada ao diabético, a tríade de Virchow destaca *lesão endotelial* e *alteração de fluxo por turbulência* sobre a placa, somadas à hipercoagulabilidade; a estase é o eixo da trombose venosa por imobilidade, cenário distinto.
+#subtopico("3.1 — A junção neuroefetora: a sinapse sem endereço fixo")
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-34.png",
-  largura: 58%,
-  legenda: [Dois ramos a partir do mesmo ponto: a placa estável estreita a luz e dá angina previsível; a placa vulnerável se instabiliza e o desfecho passa a depender do trombo — suboclusivo dá síndrome coronariana aguda, oclusivo dá infarto ou morte súbita.])
+O terminal autônomo que inerva o músculo liso não termina em botão sobre uma célula: ele atravessa o tecido como um colar de contas. Ao longo do axônio pós-ganglionar, dilatações espaçadas chamadas *varicosidades* acumulam vesículas e mitocôndrias e liberam transmissor por toda a extensão do trajeto.
 
-Como a aterosclerose tem período assintomático longo, a imagem é usada para procurá-la antes do evento, e cada método responde a uma pergunta distinta.
+#figura-lateral("/figuras/motilidade-tgi/fig-juncao.png",
+  lado: "right",
+  largura-figura: 36%,
+  texto: [A comparação com a placa motora do músculo esquelético mede a diferença. No esquelético, a acetilcolina cai numa fenda de cerca de 50 nm sobre uma membrana pós-sináptica pregueada e densa em receptores, e cada axônio comanda apenas as fibras da sua unidade motora. Na junção neuroefetora visceral não existe especialização pós-sináptica alguma: não há placa, não há concentração local de receptor, e a distância entre a varicosidade e o miócito varia de 20 nm a mais de 100 nm.],
+  legenda: [Varicosidades ao longo do axônio, sem placa motora.])
 
-#align(center, table(
-  columns: (auto, 1fr, auto, 1fr),
-  inset: 6pt,
-  align: left + horizon,
-  stroke: 0.4pt + gray-border,
-  fill: (_, y) => if y == 0 { navy } else { white },
-  table.header(
-    text(fill: white, weight: "bold", size: 8.5pt)[Método],
-    text(fill: white, weight: "bold", size: 8.5pt)[O que mede],
-    text(fill: white, weight: "bold", size: 8.5pt)[Custo],
-    text(fill: white, weight: "bold", size: 8.5pt)[Quando escolher],
-  ),
-  text(size: 8.5pt)[Escore de cálcio],
-  text(size: 8.5pt)[Carga de placa calcificada, acima de 130 unidades Hounsfield em área mínima de 1 mm²],
-  text(size: 8.5pt)[Radiação baixa, sem contraste],
-  text(size: 8.5pt)[Estratificar risco em assintomático; não mostra a luz],
-  text(size: 8.5pt)[Angiotomografia de coronárias],
-  text(size: 8.5pt)[A luz do vaso, com especificidade alta e valor preditivo negativo próximo de 100%],
-  text(size: 8.5pt)[Radiação e contraste iodado],
-  text(size: 8.5pt)[Excluir doença em probabilidade pré-teste baixa a intermediária],
-  text(size: 8.5pt)[Cateterismo],
-  text(size: 8.5pt)[Grau de estenose com precisão, e permite tratar no mesmo tempo],
-  text(size: 8.5pt)[Invasivo, risco baixo mas real],
-  text(size: 8.5pt)[Alta probabilidade pré-teste, ou lesão grave já detectada],
-))
+Três consequências saem dessa geometria. A resposta é *lenta*, porque o transmissor precisa difundir por uma fenda ampla até encontrar receptores dispersos. É *graduada*, porque a quantidade que alcança cada célula depende da distância, e não de um evento tudo-ou-nada. E é *difusa*, porque uma única varicosidade banha muitas células ao mesmo tempo — e o sincício elétrico montado no subtópico 1.1 espalha ainda mais a resposta, recrutando células que sequer receberam transmissor.
 
-A regra que organiza a tabela: *um exame só é útil quando o resultado pode mudar a conduta*. Com probabilidade pré-teste alta, uma angiotomografia negativa não seria aceita e uma positiva levaria ao cateterismo de qualquer modo — o exame acrescenta radiação e contraste sem alterar a decisão. Com probabilidade baixa a intermediária, o resultado negativo encerra a investigação, e é aí que o valor preditivo negativo alto tem valor.
+O contraste rende uma imagem útil: a placa motora funciona como uma seringa, que entrega dose exata a um destinatário único; a varicosidade funciona como um regador, que molha uma área e atinge quem estiver nela. O músculo esquelético precisa de precisão porque move ossos contra a gravidade; o músculo visceral precisa de coordenação em massa porque move conteúdo dentro de um tubo.
 
-A mesma leitura por densidade vale nos outros territórios. Na tomografia de crânio sem contraste, a área isquêmica é *hipoatenuante* porque o edema citotóxico aumenta o conteúdo de água do tecido; sangue agudo é hiperatenuante. Na aorta, a calcificação parietal extensa e o alargamento do vaso registram a mesma doença em calibre maior.
+A mesma varicosidade não é fiel a um único transmissor. Acetilcolina, VIP, óxido nítrico, ATP, serotonina, catecolaminas e ácido gama-aminobutírico saem de terminais do mesmo circuito, e é essa variedade química que permite ao plexo produzir contração em um ponto e relaxamento em outro poucos milímetros adiante, com o mesmo arco reflexo.
 
-#clinica-box("Do mecanismo à estratégia terapêutica", [
-No infarto por trombose sobre placa rota, cada estratégia ataca um elo da cadeia deste resumo. O *antiagregante plaquetário* age na hemostasia primária, reduzindo adesão e agregação sobre o colágeno exposto. O *trombolítico* age depois do trombo formado, ativando o plasminogênio em plasmina, que degrada a rede de fibrina. A *desobstrução mecânica com implante de stent* restabelece a luz e reduz a turbulência que realimenta a ativação endotelial.
+#subtopico("3.2 — Cálcio, calmodulina e a cadeia leve da miosina")
 
-As três convergem no mesmo alvo: o endotélio ativado, que perdeu o perfil antitrombótico e passou a expressar fator tecidual e fator de von Willebrand enquanto reduz óxido nítrico e ativador de plasminogênio. Controlar a glicemia atua antes disso, sobre a glicação que produziu a disfunção endotelial.
+O cálcio que a excitação faz entrar precisa agora virar força, e o caminho que ele percorre no músculo liso não é o do músculo estriado. O íon chega de duas fontes: entra do meio extracelular pelos canais tipo L abertos pela despolarização, e sai do retículo sarcoplasmático, que o mantém estocado. A concentração citosólica sobe de cerca de 100 nM em repouso para a faixa de 1 µM.
+
+#figura-nebli("/figuras/motilidade-tgi/fig-calmodulina.png",
+  largura: 62%,
+  legenda: [Quatro íons cálcio ocupam a calmodulina e mudam sua conformação. O complexo cálcio-calmodulina liga-se à quinase da cadeia leve da miosina e a ativa; ela transfere fosfato do ATP para a cadeia leve reguladora, e a cabeça de miosina passa de inativa a ativa — apta a ligar actina e ciclar.])
+
+O músculo liso *não tem troponina*. Quem recebe o cálcio é a #termo-nota[calmodulina][proteína citosólica ligante de cálcio, presente em praticamente toda célula eucariótica, que atua como sensor e transmite o sinal ativando enzimas-alvo], que liga quatro íons e, por isso, ativa de forma abrupta dentro da faixa fisiológica de concentração. O complexo cálcio-calmodulina ativa a #sigla("MLCK", [quinase da cadeia leve da miosina — enzima que fosforila a serina 19 da cadeia leve reguladora e habilita a cabeça de miosina]), e a MLCK transfere um fosfato do ATP para a serina 19 da cadeia leve reguladora da miosina.
+
+A diferença conceitual com o estriado está exatamente aqui. No músculo estriado a regulação é feita sobre o *filamento fino*: o cálcio liga-se à troponina C e desloca a tropomiosina, liberando sítios da actina. No liso a regulação é feita sobre o *filamento grosso*: a fosforilação libera a atividade ATPásica da própria cabeça de miosina, que só então consegue ligar actina e ciclar pontes cruzadas. Não há troponina para desviar tropomiosina alguma — a actina já está disponível, e quem estava desligado era o motor.
+
+#figura-nebli("/figuras/motilidade-tgi/fig-cascata-ca.png",
+  largura: 68%,
+  legenda: [O mesmo esquema lido nos dois sentidos. À esquerda, o cálcio sobe, ativa a calmodulina e a quinase, e a cadeia leve fosforilada produz contração. À direita, a extrusão devolve o cálcio ao meio extracelular e ao retículo, a quinase perde atividade — e é a miosina fosfatase, no canto, que efetivamente remove o fosfato e encerra a contração.])
+
+O caminho de volta tem duas etapas, e omitir a segunda é o erro mais caro deste subtópico. A primeira é retirar o cálcio do citosol: a Ca²⁺-ATPase da membrana plasmática o bombeia para fora, o trocador sódio-cálcio o expulsa aproveitando o gradiente de sódio que a Na⁺/K⁺-ATPase mantém, e a Ca²⁺-ATPase do retículo sarcoplasmático o recolhe de volta ao estoque interno. Com cálcio baixo, a calmodulina se desocupa e a MLCK deixa de fosforilar.
+
+#atencao-box("Cálcio baixo não é relaxamento", [
+Cessar a fosforilação *nova* não desfaz a fosforilação *existente*. Enquanto a serina 19 permanecer fosforilada, a cabeça de miosina continua apta a ciclar e a força se mantém — foi exatamente isso que o traçado da contração tônica mostrou no subtópico 1.2, com o cálcio já de volta à linha de base e a força ainda em platô.
+
+Quem encerra a contração é a #sigla("MLCP", [fosfatase da cadeia leve da miosina — enzima que remove o fosfato da serina 19 e devolve a cabeça de miosina ao estado inativo]), removendo o fosfato. Contração e relaxamento não são "cálcio alto" e "cálcio baixo": são o resultado da disputa entre a MLCK e a MLCP pelo estado de fosforilação da mesma serina. Essa é a razão pela qual o próximo subtópico consegue mudar a força sem mudar o cálcio.
+])
+
+#subtopico("3.3 — O receptor acoplado à proteína G e a sensibilização ao cálcio")
+
+A disputa entre quinase e fosfatase que fechou o subtópico anterior tem um regulador, e ele chega pelo mesmo receptor que faz o cálcio subir. Um #sigla("GPCR", [receptor acoplado à proteína G — proteína de sete domínios transmembrana que, ao ligar o agonista, troca GDP por GTP na subunidade alfa da proteína G associada]) ativado por acetilcolina no receptor muscarínico M3 recruta duas proteínas G distintas, com desfechos diferentes.
+
+#figura-nebli("/figuras/motilidade-tgi/fig-gpcr.png",
+  largura: 70%,
+  legenda: [Dois braços a partir do mesmo receptor. À esquerda, Gq ativa a fosfolipase C beta, e o IP₃ liberta cálcio do retículo — o braço que *aumenta o sinal*. À direita, G12/13 ativa RhoA e a Rho-quinase, que inibem a miosina fosfatase — o braço que *retira o freio*. A soma é mais força para a mesma quantidade de cálcio.])
+
+A proteína Gq ativa a fosfolipase C beta, que parte o PIP₂ da membrana em dois mensageiros: o #sigla("IP₃", [inositol 1,4,5-trifosfato — mensageiro solúvel que abre canais de cálcio no retículo sarcoplasmático]), solúvel, que abre os canais de cálcio do retículo sarcoplasmático; e o #sigla("DAG", [diacilglicerol — mensageiro que permanece na membrana e ativa a proteína quinase C]), que fica na membrana e ativa a proteína quinase C. Esse braço eleva o cálcio e, pelo caminho do subtópico anterior, a fosforilação e a força.
+
+O segundo braço não toca no cálcio. A proteína G12/13 ativa um fator de troca de nucleotídeo de guanina, que troca GDP por GTP na pequena GTPase RhoA; a RhoA ativa a *Rho-quinase*, que fosforila a subunidade reguladora da MLCP, inibindo-a. Em paralelo, tanto a Rho-quinase quanto a proteína quinase C ativam a proteína CPI-17, inibidor endógeno da mesma fosfatase. O resultado é uma fosfatase desligada por duas frentes.
+
+#mini-resumo[Inibir a fosfatase produz mais força sem exigir mais cálcio: com menos remoção de fosfato, a mesma taxa de fosforilação acumula mais cadeias leves fosforiladas.]
+
+Esse deslocamento da relação entre cálcio e força chama-se #termo-nota[sensibilização ao cálcio][aumento da força gerada para uma dada concentração de cálcio citosólico, obtido por inibição da fosfatase da cadeia leve em vez de elevação do próprio cálcio], e é o que torna sustentável o tônus dos esfíncteres: manter cálcio alto por horas seria tóxico e caro em ATP, enquanto manter a fosfatase inibida custa pouco.
+
+O mesmo eixo funciona na direção oposta e fecha o circuito aberto na PARTE II. O óxido nítrico dos motoneurônios inibitórios difunde para o miócito e ativa a guanilato-ciclase solúvel, que produz #sigla("GMPc", [monofosfato cíclico de guanosina — segundo mensageiro que ativa a proteína quinase G e medeia o relaxamento do músculo liso]); este ativa a proteína quinase G, que reduz o cálcio e *favorece* a miosina fosfatase. O transmissor que a rede entérica usa para relaxar age sobre a mesma alavanca que a Rho-quinase usa para contrair.
+
+#clinica-box("A alavanca molecular na acalásia", [
+Na acalásia, a perda dos motoneurônios inibitórios do plexo mioentérico esofágico retira o VIP e o óxido nítrico que relaxariam o EEI. O esfíncter permanece hipertônico, o esôfago não vence a resistência e se dilata acima dela.
+
+As três abordagens atacam elos distintos da mesma cadeia. O *bloqueador de canal de cálcio* impede a entrada do íon pelos canais tipo L e reduz o substrato da calmodulina. O *nitrato* doa óxido nítrico e repõe o mediador que falta, ativando a guanilato-ciclase solúvel e a proteína quinase G — reforça, portanto, a fosfatase responsável pelo relaxamento. A *toxina botulínica* cliva proteínas SNARE e bloqueia a liberação de acetilcolina pelos terminais excitatórios remanescentes. Nenhuma das três recupera o neurônio perdido, e por isso o efeito é temporário.
 ])
 
 #conclusao-box[
-O princípio que atravessa o resumo: *diabetes é um defeito de sinal cujo produto — glicose intracelular alta e prolongada — é quimicamente reativo*. O restante é consequência dessa reatividade encontrando tecidos incapazes de se proteger dela.
+A motilidade do tubo digestório resulta de três decisões tomadas em níveis diferentes. *Quando* o segmento pode contrair é decidido pelo oscilador das células intersticiais de Cajal, cuja onda lenta abre janelas rítmicas de excitabilidade com frequência própria de cada região. *Onde e em que direção* a contração acontece é decidido pela rede intramural, que fecha arcos reflexos completos dentro da parede e os polariza — excitatório atrás do bolo, inibitório à frente. *Quanta força* sai de cada contração é decidido na célula muscular, pelo balanço entre a quinase e a fosfatase que disputam a cadeia leve da miosina. O comando extrínseco não substitui nenhuma das três: entra em cada uma ajustando ganho, e termina sempre no neurônio entérico.
 
-O mecanismo nuclear é a glicação não-enzimática avançando em etapas de reversibilidade decrescente — base de Schiff em horas, produto de Amadori em dias, ligação cruzada irreversível em meses — e o eixo AGE–RAGE convertendo dano químico em programa inflamatório com retroalimentação positiva. A mesma distinção entre etapas reversíveis e irreversíveis explica por que a hemoglobina glicada mede controle e por que a lesão do diabetes tem memória.
+O ponto de convergência mecanística é uma única serina. A onda lenta, o cálcio que entra pelo canal tipo L, o IP₃ que o liberta do retículo, a calmodulina com seus quatro sítios e a Rho-quinase que desliga a fosfatase convergem todos para o estado de fosforilação da serina 19 da cadeia leve reguladora. E porque a fosfatase é regulável de forma independente do cálcio, o mesmo aparato produz tanto a contração fásica que dura segundos quanto o tônus de esfíncter que dura horas, sem que o custo energético acompanhe a força.
 
-Adoecem os tecidos que captam glicose sem depender de insulina e não conseguem fechar a porta quando a glicemia sobe — pericito, célula mesangial, endotélio, neurônio periférico, cristalino. Cada um tem uma assinatura de imagem que corresponde ao substrato descrito pelo patologista: o rim que aumenta antes de encolher, a erosão articular sem reação periosteal do Charcot, o edema de medular óssea da osteomielite, a calcificação coronariana medida em unidades Hounsfield, o parênquima hipoatenuante do infarto cerebral.
+As doenças percorridas confirmam a arquitetura ao quebrá-la em endereços distintos: Chagas e aganglionose removem os motoneurônios inibitórios da rede, a acalásia faz o mesmo restrito ao esôfago, e a gastroparesia atinge o oscilador poupando músculo e inervação. Em todas, o segmento doente é o que não relaxa, e o dilatado é o vizinho íntegro empurrando contra ele.
 
-Duas portas ficam abertas. A inflamação crônica e o reparo tecidual: o que a PARTE III chamou de auto-perpetuador é, no vocabulário da patologia, inflamação crônica com fibrose, e o pé que não cicatriza é reparo travado. E a trombose: a placa que rompe e o trombo que se forma sobre ela são hemostasia funcionando como deveria, no lugar errado.
+O passo seguinte é ver esse aparato produzir repertório — deglutição, relaxamento receptivo, moagem antral, segmentação, peristalse, complexo motor migratório e defecação. Nenhum desses padrões acrescenta peça nova: todos são arranjos das peças entregues aqui.
 ]

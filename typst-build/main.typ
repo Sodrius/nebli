@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- gr-02-diabetes-mellitus | Gerado por gerar_main.py
+// MAIN.TYP -- motilidade-tgi | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,11 +8,11 @@
 
 // ======= CAPA =======
 #capa(
-  "Diabetes mellitus",
-  "Da hiperglicemia às complicações de órgão-alvo",
+  "Motilidade do trato gastrointestinal",
+  "Do sinal nervoso à contração do músculo liso",
   (
-    ("Disciplina", "Patologia · Bioquímica · Imunologia · Radiologia"),
-    ("Onde estudar", "Robbins & Cotran, Patologia — capítulo do Sistema Endócrino, § Diabetes mellitus · Lehninger, Princípios de Bioquímica — Regulação hormonal e integração metabólica · Brant & Helms, Fundamentos de Radiologia — tórax cardiovascular e musculoesquelético"),
+    ("Disciplina", "Fisiologia do sistema digestório"),
+    ("Onde estudar", "Berne & Levy, Fisiologia — capítulo de motilidade do trato gastrointestinal · Guyton & Hall, Tratado de Fisiologia Médica — princípios gerais da função gastrointestinal · Boron & Boulpaep, Fisiologia Médica — músculo liso e sistema nervoso entérico"),
   ),
 )
 
@@ -22,21 +22,20 @@
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — O sinal que falta", (
-      "1.1 A insulina e seus freios",
-      "1.2 Tipo 1: ilhota destruída",
-      "1.3 Tipo 2: sinal não escutado",
-      "1.4 Diurese osmótica e descompensações",
+    ("PARTE I — O músculo e a rede", (
+      "1.1 Sincício e marcapasso",
+      "1.2 Contração fásica e tônica",
+      "1.3 Os dois plexos entéricos",
     )),
-    ("PARTE II — Do açúcar ao dano", (
-      "2.1 Glicação e os dois relógios",
-      "2.2 O AGE nas proteínas de vida longa",
-      "2.3 RAGE e as outras rotas",
+    ("PARTE II — Reflexos e esfíncteres", (
+      "2.1 Reflexo curto intramural",
+      "2.2 Reflexo longo vago-vagal",
+      "2.3 Esfíncteres e distensão",
     )),
-    ("PARTE III — Onde o dano aparece", (
-      "3.1 Retina e glomérulo",
-      "3.2 Neuropatia e pé diabético",
-      "3.3 Aterosclerose e imagem",
+    ("PARTE III — Da membrana à força", (
+      "3.1 Junção neuroefetora",
+      "3.2 Cálcio, calmodulina e MLCK",
+      "3.3 Sensibilização ao cálcio",
     )),
   )),
 ))
@@ -58,40 +57,40 @@
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
-  ("Consolidação (Q01–Q08)", (
-    ("01", "D"),
-    ("02", "ECCE"),
-    ("03", "C"),
-    ("04", "A"),
-    ("05", "CCCE"),
-    ("06", "E"),
-    ("07", "CCEE"),
-    ("08", "C"),
+  ("Consolidação (Q01–Q10)", (
+    ("01", "B"),
+    ("02", "CCEC"),
+    ("03", "B"),
+    ("04", "D"),
+    ("05", "B"),
+    ("06", "CEEC"),
+    ("07", "E"),
+    ("08", "B"),
+    ("09", "CECC"),
+    ("10", "D"),
   )),
-  ("Integração (Q09–Q25)", (
-    ("09", "B"),
-    ("10", "CCEC"),
-    ("11", "D"),
-    ("12", "A"),
-    ("13", "CECC"),
-    ("14", "B"),
-    ("15", "D"),
-    ("16", "ECCC"),
+  ("Integração (Q11–Q25)", (
+    ("11", "C"),
+    ("12", "E"),
+    ("13", "CCEE"),
+    ("14", "A"),
+    ("15", "B"),
+    ("16", "CCCE"),
     ("17", "B"),
     ("18", "C"),
-    ("19", "CEEC"),
+    ("19", "ECEE"),
     ("20", "E"),
-    ("21", "A"),
-    ("22", "EECC"),
-    ("23", "D"),
-    ("24", "B"),
-    ("25", "CEEE"),
+    ("21", "C"),
+    ("22", "E"),
+    ("23", "ECCE"),
+    ("24", "C"),
+    ("25", "ECEE"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "E"),
-    ("28", "A"),
-    ("29", "D"),
-    ("30", "EECE"),
+    ("26", "A"),
+    ("27", "B"),
+    ("28", "CCEE"),
+    ("29", "C"),
+    ("30", "CEEC"),
   )),
 ))

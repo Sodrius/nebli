@@ -42,5 +42,5 @@
 **Locais:** anf. 06 / 202 · lab 007 (Anatomia) · sala 130 ICBI (BioTec/Fisiologia).
 
 ## Estado NEBLI
-- Nenhum resumo gerado ainda.
+- **1 resumo gerado (2026-09-07):** `motilidade-tgi` — *Motilidade do TGI*, Fisiologia, Profa. Fran Goulart da Silva (FGS). PDF `Motilidade do TGI - Etapas 1 a 3 - FGS.pdf` (34 páginas). Cobre os fundamentos neuromusculares (músculo liso e ondas lentas, sistema nervoso entérico, reflexos curto e longo, esfíncteres, acoplamento excitação-contração); a motilidade órgão a órgão fica para a aula seguinte. Deck-aula ainda não montado.
 - **Naming sugerido do PDF:** `<aula curta> - Etapas 1 a 3 - PC` (Patrícia Castelucci, Anatomia); árvore de deck `NEBLI::Digestório::<P1|P2>::<Anatomia|Histologia|Fisiologia>::<aula>`.
