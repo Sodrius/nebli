@@ -149,7 +149,7 @@ def check_paginas_em_branco(pdf_path: Path) -> tuple[bool, str]:
 
 
 def check_paginas_e1(texto: str) -> tuple[bool, str]:
-    """Teto de 15 paginas da E1 -- BLOQUEIO desde 2026-09-03.
+    """Teto de 12 paginas da E1 -- BLOQUEIO desde 2026-09-03, recalibrado 2026-09-07.
 
     Ate aqui o teto era so aviso (linha 7 da tabela de checks do ERROS.md dizia
     "manual") e, na pratica, ninguem conferia: `imuno-07` fechou com 25 paginas
@@ -163,7 +163,16 @@ def check_paginas_e1(texto: str) -> tuple[bool, str]:
     Delimitacao: pagina do banner `Etapa 1` ate a pagina anterior ao banner
     isolado `Resumindo`. Mesma ancora do auditar_pdf.
     """
-    TETO = 15
+    # CANON 2026-09-07: o teto caiu de 15 para 12 paginas junto com a
+    # tipografia nova (corpo 8.5pt, leading 0.60em). Nao e afrouxamento nem
+    # aperto de conteudo -- e a mesma quantidade de texto medida numa mancha
+    # mais densa: o resumo de granuloma passou de 14 para 10 paginas de E1 sem
+    # perder uma palavra. O equivalente exato de 15 paginas antigas seria 11;
+    # 12 deixa uma pagina de folga para resumos com muitas figuras, que
+    # ocupam area fixa e nao encolhem com a fonte. O gate que de fato limita
+    # CONTEUDO continua sendo o de 6.000 palavras do precompile-check, que
+    # independe de tipografia.
+    TETO = 12
     if not texto:
         return False, "sem texto extraido -- teto de paginas nao verificado"
     paginas = texto.split("\f")
@@ -224,7 +233,7 @@ def main():
         ("Markdown bold vazado", check_markdown_bold(texto)),
         ("Numeracao de pagina", check_numeracao(pdf_path, texto)),
         ("Paginas em branco", check_paginas_em_branco(pdf_path)),
-        ("Teto de 15 paginas da E1", check_paginas_e1(texto)),
+        ("Teto de 12 paginas da E1", check_paginas_e1(texto)),
     ]
 
     okays = []
@@ -232,10 +241,10 @@ def main():
     bloqueios = []
     for nome, (problema, msg) in checks:
         if problema:
-            if nome == "Teto de 15 paginas da E1" and quebra:
+            if nome == "Teto de 12 paginas da E1" and quebra:
                 avisos.append(f"  [!] {nome}: {msg}\n      QUEBRA DECLARADA: {quebra}")
             elif nome in ("ETAPA 4 fossil", "Bloco/Prova na capa",
-                          "Teto de 15 paginas da E1"):
+                          "Teto de 12 paginas da E1"):
                 bloqueios.append(f"  [x] {nome}: {msg}")
             else:
                 avisos.append(f"  [!] {nome}: {msg}")

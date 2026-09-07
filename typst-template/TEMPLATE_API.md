@@ -94,7 +94,7 @@ Box âmbar fechando a Etapa 1 (Conclusão integradora). 1 por E1.
 ## Figuras
 
 ### `figura-nebli(caminho, legenda: none, largura: 65%, ..rest)`
-Figura centralizada com legenda. **Path com `/` inicial obrigatório.**
+Figura centralizada com legenda. **Path com `/` inicial obrigatório.** O default de 65% é herança do template e **não deve ser usado como automatismo**: desde 2026-09-07 as bandas canônicas são 34–42% (detalhe) · 44–54% (informativa média) · 56–68% (cadeia/comparativo), rebaixadas junto com a tipografia. Passar `largura:` sempre explícito.
 ```typst
 #figura-nebli("/figuras/acidos-nucleicos/slide-14.png",
   largura: 65%,
@@ -228,7 +228,7 @@ Subsequente: só `"ATP"`, sem footnote. Sem teto.
 ```
 
 ### `pre-aula-page(conteudo)`
-Seção "Antes da aula" (canônico 2026-08-28) — 2 páginas de prosa contínua **entre a capa e o sumário**, com faixa teal, corpo 10.5pt e margens mais largas que o miolo. Sem figura, sem bullet. Termina em `pagebreak()`.
+Seção "Antes da aula" (canônico 2026-08-28) — 1–2 páginas de prosa contínua **entre a capa e o sumário**, com faixa teal, corpo 9pt e margens mais largas que o miolo. Sem figura, sem bullet. Termina em `pagebreak()`.
 ```typst
 #pre-aula-page[
 A aula de hoje tem dois pacientes e um órgão só. ...

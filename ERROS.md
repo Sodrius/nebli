@@ -60,7 +60,7 @@
 
 **Sintoma:** declarar "piso 9, teto 14" ou "teto 20" no Tema Card — ou, a partir de 2026-09-03, repetir o teto antigo de 22.
 
-**Como evitar:** Tema Card Seção A sempre declara "piso 2, **teto 15** páginas" (canônico 2026-09-03, era 22). Alvo mais estreito é permitido dentro disso ("alvo 11-14"), mas o teto absoluto é 15. O teto caiu junto com a mudança de registro (`CLAUDE.md` § Registro científico): 15 páginas é o que sobra quando a prosa perde as frases sem função, não um corte de conteúdo.
+**Como evitar:** Tema Card Seção A sempre declara "piso 2, **teto 12** páginas" (canônico 2026-09-03 com teto 15; recalibrado para 12 em 2026-09-07). Alvo mais estreito é permitido dentro disso ("alvo 9-11"), mas o teto absoluto é 12. O teto caiu duas vezes por razões diferentes: em 2026-09-03 junto com a mudança de registro (`CLAUDE.md` § Registro científico), porque 15 páginas é o que sobra quando a prosa perde as frases sem função; em 2026-09-07 junto com a tipografia compacta (corpo 8.5pt, leading 0.60em), porque a mesma quantidade de texto passou a ocupar menos páginas. O primeiro corte foi de conteúdo, o segundo não foi.
 
 **Deixou de ser manual, e depois virou bloqueio (2026-09-03).** Primeiro o `auditar_pdf.py` ganhou `check_paginas_e1`, que conta as páginas entre o banner da Etapa 1 e o do Resumindo. Na mesma data, a pedido de Davi ("garante que os próximos sairão nesse padrão com certeza"), o mesmo check entrou no `pos_pipeline_check.py` como **bloqueio de mover o PDF**. A `§ Missão` continua permitindo estourar o teto quando ensinar bem exigir — mas a exceção passou a ser **declarada**, com `--quebra-declarada "motivo"`; exceção silenciosa deixou de existir. Motivo do endurecimento: enquanto a linha era "manual", as corridas `imuno-07` e `gr-02` v1 fecharam com 25 e 18 páginas sem que nenhum auditor dissesse nada.
 
@@ -210,7 +210,7 @@ O `revisor-gabarito` (Haiku) existe para essa conferência; quando ele não pude
 | 4 | Heredoc ENAMETOOLONG | falha shell | usar Write | sim |
 | 5 | `questao-ce` string em vez de tupla | compilação Typst | não | sim |
 | 6 | Termo-notas < 6 | grep | não | warn |
-| 7 | Teto E1 > 15 páginas (era 22 até 2026-09-03) | pos_pipeline (`check_paginas_e1`) + auditar_pdf | não | **sim** (escape `--quebra-declarada`) |
+| 7 | Teto E1 > 12 páginas (22 até 2026-09-03, 15 até 2026-09-07) | pos_pipeline (`check_paginas_e1`) + auditar_pdf | não | **sim** (escape `--quebra-declarada`) |
 | 25 | E1 fora de 8-10 subtópicos ou miolo > 6.000 palavras | precompile (`check_forma_e1`) | não | sim |
 | 26 | Alternativas de Consolidação com média > 20 palavras (decoreba) | precompile (`check_consolidacao_decoreba`) | não | sim |
 | 8 | `#etapa-header` duplicado | precompile + auto-fix | SIM | sim |
@@ -245,19 +245,19 @@ Davi NÃO quer "spot-check humano" em fase de verificação — substituir por a
 
 Resumos NEBLI tendem ao excesso de `#atencao-box` (vermelhos). Cota máxima 1-2 por PARTE. Default é prosa. Confusão educativa vira parágrafo dialogado ("a confusão clássica aqui é..."). Reservar box para inversões com risco letal (cianeto bloqueia o IV — diagnóstico errado mata). Ver erro #16 acima e regra 13 do § Redator em `ROLES.md`.
 
-### F4. Calibração de tamanho da E1 (teto 15 páginas — revisto 2026-09-03)
+### F4. Calibração de tamanho da E1 (teto 12 páginas — revisto 2026-09-03, recalibrado 2026-09-07)
 
 Quatro alavancas quando o tema é denso e o resumo estoura o teto, **em ordem de aplicação**:
 1. **Filtro das três funções** (`CLAUDE.md` § Registro científico): toda frase afirma um fato novo, faz uma ponte causal ou nomeia um termo — as outras saem. É a alavanca de maior rendimento e a única que não custa conteúdo.
-2. **Fundir subtópicos conceitualmente irmãos** até chegar a 8–10 no total ("via extrínseca" + "via intrínseca" → "as duas vias para o mesmo destino"). Com teto 15, a PARTE de 5-6 subtópicos deixou de caber.
+2. **Fundir subtópicos conceitualmente irmãos** até chegar a 8–10 no total ("via extrínseca" + "via intrínseca" → "as duas vias para o mesmo destino"). A PARTE de 5-6 subtópicos deixou de caber.
 3. **Máx 2 boxes pesados** (`confusao-prevista` + `atencao-box` somados) por PARTE — o restante vira prosa.
-4. **Figuras 50–55%** em resumos com 12+ figuras, reservando 65–80% só para as estruturais críticas.
+4. **Figuras 42–46%** em resumos com 12+ figuras, reservando 56–68% só para as estruturais críticas.
 
 Aplicar no planejamento (orçamento de páginas prévio no Tema Card), não na cirurgia pós-redação. Empírico da corrida `imuno-07`: reduzir largura de figura sozinha **não rendeu página nenhuma** — o texto é o binding constraint, então a alavanca 1 vem primeiro.
 
-### F5. Figuras: largura 40-80% + relatório auditável
+### F5. Figuras: largura 34-68% + relatório auditável
 
-**Largura caso a caso:** 40-50% (detalhe pontual, lateral, ícone), 55-65% (informativa média), 70-80% (cadeia multi-passo, mapa orientador, comparativo lado-a-lado), >80% só se a figura **é** o mecanismo. Default 65% foi aposentado em 2026-05-28.
+**Largura caso a caso (bandas rebaixadas em 2026-09-07):** 34-42% (detalhe pontual, lateral, ícone), 44-54% (informativa média), 56-68% (cadeia multi-passo, mapa orientador, comparativo lado-a-lado), >68% só se a figura **é** o mecanismo. Default 65% foi aposentado em 2026-05-28; as faixas antigas (40-80%) foram multiplicadas por ~0,85 quando o corpo caiu para 8,5pt, porque figura ocupa área fixa na página e texto não — mantê-las produzia rodapé branco.
 
 **Relatório auditável obrigatório no fechamento da E1** (junto do ratio Q01-Q30):
 
@@ -305,6 +305,6 @@ Caminhos viáveis (ordem de risco crescente): (1) manter fundido na sessão prin
 
 6. **Frase que não cumpre nenhuma das três funções** (acrescentado 2026-09-03). Generaliza os cinco anteriores: toda frase afirma um fato/passo de mecanismo novo, faz a ponte causal entre dois fatos já postos, ou nomeia/define/delimita um termo. As que não fazem nenhuma das três são as "baboseiras" que Davi nomeou — adjetivo avaliativo sem conteúdo, analogia decorativa, reafirmação com outras palavras.
 
-**Réguas (revistas 2026-09-03).** Alvo **450–550 palavras por subtópico**, **8–10 subtópicos**, **teto de 15 páginas** (era 22) e ~5.000–5.500 palavras de miolo. Estourar o teto é sinal de gordura, não de profundidade — checar os seis desperdícios acima antes de qualquer outra coisa. O dial `profundidade:` que este feedback culpava foi aposentado em 2026-09-03; a profundidade agora é única e definida pela prova, não por um seletor. Na dúvida entre cortar mecanismo e cortar moldura, corta moldura; se ainda não couber, é aí que a `§ Missão` decide (ensinar bem vence o teto) — e a quebra vai declarada no relatório.
+**Réguas (revistas 2026-09-03; teto de páginas recalibrado 2026-09-07).** Alvo **450–550 palavras por subtópico**, **8–10 subtópicos**, **teto de 12 páginas** (22 até setembro, depois 15) e ~5.000–5.500 palavras de miolo. As réguas de palavra não mudam com a tipografia; a de páginas, sim. Estourar o teto é sinal de gordura, não de profundidade — checar os seis desperdícios acima antes de qualquer outra coisa. O dial `profundidade:` que este feedback culpava foi aposentado em 2026-09-03; a profundidade agora é única e definida pela prova, não por um seletor. Na dúvida entre cortar mecanismo e cortar moldura, corta moldura; se ainda não couber, é aí que a `§ Missão` decide (ensinar bem vence o teto) — e a quebra vai declarada no relatório.
 
 **O que a regra NÃO autoriza.** Tirar o "porquê", encurtar cadeia causal, virar bullet, ou trocar prosa por lista para economizar linha. O alvo é o texto que não ensina nada; o mecanismo é intocável.

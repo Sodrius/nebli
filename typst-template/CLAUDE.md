@@ -16,17 +16,19 @@ Esta pasta contém o template canônico do NEBLI.
 - Mudança testada primeiro num `_test_X.typ` em `typst-build/`, nunca direto em resumo de produção.
 - Documentar no `CHANGELOG_CLAUDE.md` (raiz do projeto).
 
-## Pacote visual ativo (v3 — 2026-05-19)
+## Pacote visual ativo (v4 — 2026-09-07)
 
 Detalhes em `../MEMORY.md` § "Identidade visual ativa". Resumo:
-- Corpo Merriweather 10pt, títulos Montserrat.
+- **Corpo Merriweather 8,5pt** (era 10pt até 2026-09-07), títulos Montserrat. Amostra antes/depois de 4 graus aprovada por Davi; ver `../CLAUDE.md` § Tipografia compacta.
 - `first-line-indent: 0em` (sem indentação de primeira linha).
-- `spacing: 1.2em` entre parágrafos (reduzido de 1.5em em 2026-05-28), leading 1.0em.
+- `spacing: 0.90em` entre parágrafos (1.5em → 1.2em em 2026-05-28 → 0.90em em 2026-09-07), **leading 0.60em** (era 1.0em).
+- **Todo o fluxo de corpo escalado por 0,85 na mesma passada** — caixas, alternativas da E2, modelo da E3, legendas, footnotes, sumário, Resumindo e "Antes da aula". Mexer no corpo sem mexer nesses inverte a hierarquia: eles ficam maiores que o texto.
+- PARTE 14pt (era 16), subtópico 10pt (era 11), legenda de figura 8pt (era 9,5), footnote 7,2pt (era 8,5).
 - Margens `top: 1.7cm, bottom: 1.8cm, left/right: 1.9cm` (verticais reduzidas em 2026-05-28).
 - Negrito do corpo em preto, não navy.
-- Resumindo banner gold, títulos navy 10.5pt.
-- PARTE 16pt navy bold + pagebreak antes (se não primeira).
-- **"Antes da aula" (`#pre-aula-page`, canônico 2026-08-28):** faixa **teal** (a capa é navy, o Resumindo é gold), corpo 10.5pt, margens laterais 2.2cm. Fica entre capa e sumário, 2 páginas, sem figura. A faixa teal é o sinal visual de que a seção vem ANTES do material, não dentro dele.
+- Resumindo banner gold, títulos de seção navy 9,5pt e corpo 8,2pt em 2 colunas.
+- PARTE com pagebreak antes (se não primeira) — tamanho na linha acima.
+- **"Antes da aula" (`#pre-aula-page`, canônico 2026-08-28):** faixa **teal** (a capa é navy, o Resumindo é gold), corpo 9pt (era 10.5pt), leading 0.66em, margens laterais 2.2cm. Fica entre capa e sumário, 2 páginas, sem figura. A faixa teal é o sinal visual de que a seção vem ANTES do material, não dentro dele.
 
 ## Mapas mentais
 

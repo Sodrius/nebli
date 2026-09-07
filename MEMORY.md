@@ -377,17 +377,18 @@ Auditoria detalhada em `backups/pre-faxina-2026-05-29/raiz/CHANGELOG_CLAUDE.md` 
 
 **Apostila de alto nível científico, do básico ao aprofundado**, para aluno que sabe pouco aprender muito. Ensinar bem > concisão — mas texto que não ensina é gordura, não concisão sacrificada. Linguagem técnica exata com prosa fluida; toda frase afirma um fato, faz uma ponte causal ou nomeia um termo. **Teto E1 = 15 páginas** (era 22 até 2026-09-03), 8–10 subtópicos, 450–550 palavras cada. **Profundidade única: superior à da prova.** Comprimir mecanismo essencial trai a missão; cortar frase sem função é a missão.
 
-### Identidade visual ativa (pacote v2, canônico 2026-05-19)
+### Identidade visual ativa (pacote v4 — tipografia compacta, canônico 2026-09-07)
 
 Template ativo: `typst-template/nebli_v2_apostila.typ` (monolítico, ~42 KB). Pacote visual v2 com Merriweather (corpo) + Montserrat (títulos). Apostila brasileira A4 fundo creme, navy escuro como cor estrutural, gold como spark.
 
-- **Tipografia:** corpo Merriweather, títulos Montserrat. Negrito em preto, sem indentação de primeira linha de parágrafo.
+- **Tipografia (v4, 2026-09-07):** corpo Merriweather **8,5pt** (era 10pt), `leading` **0,60em** (era 1,0em), `spacing` **0,90em** (era 1,2em). Títulos Montserrat, PARTE 14pt e subtópico 10pt. Todo o fluxo de corpo — caixas, alternativas da E2, modelo da E3, legendas, footnotes, sumário, Resumindo, "Antes da aula" — foi escalado por 0,85 na mesma passada. Negrito em preto, sem indentação de primeira linha. Mancha-alvo: capítulo de livro-texto de referência. Prescrição em `CLAUDE.md` § Tipografia compacta.
+- **Larguras de figura (v4):** 34–42% detalhe · 44–54% informativa média · 56–68% cadeia/comparativo. Rebaixadas ~15% junto com a fonte porque figura ocupa área fixa e texto não.
 - **Callouts canônicos:** `clinica-box`, `atencao-box`, `confusao-prevista` com fundo colorido e cantos arredondados (gramática clássica do v2).
 - **Capa:** faixa navy + título + subtítulo (opcional, em geral vazio ou disciplina seca) + bloco meta (Disciplina · Onde estudar) + rodapé identificador (Davi + contato). Sem bloco/prova/turma/semestre/slug em nenhuma página.
-- **Resumindo:** banner gold + 2 colunas, 8–12 seções de ~25–35 palavras.
+- **Resumindo:** banner gold + 2 colunas, 6–10 seções de ~30–45 palavras, títulos navy 9,5pt e corpo 8,2pt.
 - **Categorias E2:** 3 cores (consolidação verde, integração azul, aplicação roxa) no badge da questão e no cabeçalho da Etapa 2.
 - **Mapas mentais suspensos.** Helpers `#mapa-parte` e `#mindmap-fechamento` são no-op silencioso no template.
-- **Backups do template:** `backups/tecnicos/nebli_v2_apostila.bak_pre-fix-resumindo.20260520_154028.typ`, `nebli_v2_apostila_pre-colbreak-fix_2026-05-20.typ`, `nebli_v2_apostila.typ.bak-2026-05-28-Ax-densidade`. **Tentativa de migração v3 (fundo branco / Nunito / accent azul-céu) revertida em 2026-05-30** — v3 arquivado em `backups/tecnicos/v3-revertida-2026-05-30/`.
+- **Backups do template:** `backups/tecnicos/nebli_v2_apostila.bak_pre-fix-resumindo.20260520_154028.typ`, `nebli_v2_apostila_pre-colbreak-fix_2026-05-20.typ`, `nebli_v2_apostila.typ.bak-2026-05-28-Ax-densidade`, `nebli_v2_apostila.typ.bak-2026-09-07-A1` (pré-tipografia compacta). **Tentativa de migração v3 (fundo branco / Nunito / accent azul-céu) revertida em 2026-05-30** — v3 arquivado em `backups/tecnicos/v3-revertida-2026-05-30/`.
 
 ### Restrições visuais ativas
 
@@ -429,3 +430,14 @@ Template ativo: `typst-template/nebli_v2_apostila.typ` (monolítico, ~42 KB). Pa
 Segunda corrida seguida fechada dentro das quatro réguas de 2026-09-03 (a primeira foi `gr-02` v2). Entrada foi a **transcrição da aula em PDF**, não o slide solto: o arquivo alterna página de slide (ímpar, imagem) e página de fala (par, texto), e o `extrair_slides.py` renderizou as 72 páginas — as ímpares foram recortadas para remover a barra preta do screencast e o quadro da webcam, as pares descartadas. Números: 9 subtópicos, 5.047 palavras de miolo, E1 em 14 páginas (teto 15), 13 figuras, média de 11,9 palavras por alternativa de Consolidação, 20/20 MC dentro da banda 0.80–1.25, gabarito 4/4/4/4/4 entre A–E, 10 C/E com as 10 sequências distintas e nenhuma degenerada.
 
 Calibração da UC03 aplicada: o acervo (9 subquestões, 2015–2025) cobra componentes celulares, IFN-γ como mediador central, MIF, granuloma mal formado no HIV e a distinção célula gigante de granuloma × célula gigante viral; o degrau da E1 subiu um nível de mecanismo em cada um desses pontos (granuloma imune × de corpo estranho, contramedidas do macrófago ativado escape a escape, eixo IL-12/IFN-γ como espelho genético do HIV, reativação sob bloqueio de TNF, inflamassoma na silicose).
+
+### 2026-09-07 · Tipografia compacta (pacote visual v4)
+
+Davi: *"quero que haja bem menos espaço entre linhas, que a fonte diminua (do tamanho da fonte do Lehninger), e que isso seja para todos os resumos. Também que o que for mais importante fique em negrito."*
+
+- **Corpo 10pt → 8,5pt · leading 1,0em → 0,60em · spacing 1,2em → 0,90em.** A escolha saiu de uma amostra antes/depois de quatro graus (10 · 9,5 · 9 · 8,5pt) renderizada na mesma página de uma E1 real, como a regra da pasta `typst-template/` exige; Davi escolheu o mais compacto. Backup em `nebli_v2_apostila.typ.bak-2026-09-07-A1`.
+- **Todo o fluxo de corpo escalado por 0,85 na mesma passada.** Caixas, alternativas da E2, modelo da E3, legendas, footnotes de `#sigla`/`#termo-nota`, sumário, Resumindo e "Antes da aula". Sem isso esses elementos passariam a ser maiores que o texto corrido.
+- **Teto da E1 cai de 15 para 12 páginas.** Não é aperto de conteúdo — é a mesma quantidade de texto numa mancha mais densa; o resumo de granuloma foi de 14 para 10 páginas de E1 sem perder uma palavra. O equivalente aritmético seria 11; 12 dá uma página de folga para resumos com muitas figuras. Implementado em `pos_pipeline_check.py` e `auditar_pdf.py`. **O gate que limita conteúdo continua sendo o de 6.000 palavras, que independe de tipografia.**
+- **Bandas de largura de figura caem de 40–80% para 34–68%.** Descoberto na primeira compilação: com o corpo menor, as figuras nas larguras antigas passaram a comer um terço da página e a deixar rodapés brancos. Figura ocupa área fixa; texto não.
+- **"Antes da aula" deixa de prometer 2 páginas fixas e passa a prometer 1–2.** O invariante da seção sempre foi a contagem de palavras (~5 minutos de leitura), e é ela que o gate mede; a página era só a tradução daquele número na tipografia antiga.
+- **Negrito vira obrigação positiva.** A cota defensiva "máx 2–3 por parágrafo" (Redator diretriz 1) virou "o termo ou a afirmação que o aluno leva embora vai em negrito, 2–4 por parágrafo; parágrafo de mecanismo sem nenhum negrito é sinal de que não se decidiu qual é a peça principal".

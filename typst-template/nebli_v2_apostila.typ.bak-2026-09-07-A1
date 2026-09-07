@@ -87,21 +87,15 @@
       text(font: titulo-fam, size: 9pt, fill: rgb("#888888"), context counter(page).display())
     ),
   )
-  // Corpo em Merriweather 8.5pt (CANÔNICO 2026-09-07 — pedido de Davi:
-  // "que a fonte diminua, do tamanho da fonte do Lehninger, e que haja bem
-  // menos espaço entre linhas"). Substitui os 10pt de 2026-05-18. A escolha
-  // saiu de uma amostra de 4 graus (10 / 9,5 / 9 / 8,5pt) na mesma página da
-  // E1; Davi escolheu o mais compacto. Todos os tamanhos do fluxo de corpo
-  // — caixas, alternativas, legendas, footnotes — foram escalados por 0,85
-  // na mesma passada, senão passariam a ser MAIORES que o texto corrido.
-  set text(font: corpo-fam, size: 8.5pt, fill: text-main)
+  // Corpo em Merriweather 10pt (canônico 2026-05-18 — restaura tamanho usado
+  // até CITOESQUELETO em 17/maio, antes da subida temporária para 11pt).
+  // Tentativa de 9pt + Crimson Pro em 2026-05-19: revertida por Davi na mesma sessão.
+  set text(font: corpo-fam, size: 10pt, fill: text-main)
   // Sem indentação de primeira linha (canônico 2026-05-19): apostila, não livro.
-  // Entrelinha e espaço entre parágrafos comprimidos (CANÔNICO 2026-09-07):
-  // leading 1.0em -> 0.60em e spacing 1.2em -> 0.90em. A mancha resultante é
-  // a de capítulo de livro-texto de referência, coerente com o § Registro
-  // científico. O spacing continua sendo o que separa parágrafos, já que
-  // não há indentação de primeira linha.
-  set par(justify: true, leading: 0.60em, first-line-indent: 0em, spacing: 0.90em, linebreaks: "optimized")
+  // Spacing entre parágrafos generoso (canônico 2026-05-19 v2 após Davi):
+  // 1.2em substitui visualmente a indentação. Leading subido para 1.0em
+  // para aliviar a densidade vertical de Merriweather 10pt.
+  set par(justify: true, leading: 1.0em, first-line-indent: 0em, spacing: 1.2em, linebreaks: "optimized")
   set heading(numbering: none)
   // Negrito em PRETO (canônico 2026-05-19 v2 após Davi): negrito em navy parecia link
   // e ficava menos profissional. Preto puro dá peso sem mudar a cor da página.
@@ -110,7 +104,7 @@
   show emph: set text(fill: text-light)
   // Footnotes canônicas (sem alteração funcional)
   set footnote.entry(separator: line(length: 30%, stroke: 0.5pt + gray-border))
-  show footnote.entry: it => text(size: 7.2pt, fill: text-light, it)
+  show footnote.entry: it => text(size: 8.5pt, fill: text-light, it)
   corpo
 }
 
@@ -137,7 +131,7 @@
   // acima/abaixo. Hierarquia visual clara em relação ao subtopico (11pt teal).
   block(below: 12pt, breakable: false,
     stack(
-      text(font: titulo-fam, size: 14pt, weight: "bold", fill: navy, tracking: 0.3pt, titulo),
+      text(font: titulo-fam, size: 16pt, weight: "bold", fill: navy, tracking: 0.3pt, titulo),
       v(6pt),
       line(length: 100%, stroke: 2.5pt + teal),
       v(1.5pt),
@@ -152,7 +146,7 @@
 #let subtopico(titulo) = {
   v(10pt)
   block(below: 8pt, breakable: false,
-    text(font: titulo-fam, size: 10pt, weight: "bold", fill: teal, tracking: 0.2pt, titulo)
+    text(font: titulo-fam, size: 11pt, weight: "bold", fill: teal, tracking: 0.2pt, titulo)
   )
 }
 
@@ -172,10 +166,10 @@
     {
       set par(first-line-indent: 0em)
       if titulo != none {
-        text(font: titulo-fam, weight: "bold", size: 9pt, fill: titulo-cor, tracking: 0.2pt, titulo)
+        text(font: titulo-fam, weight: "bold", size: 10pt, fill: titulo-cor, tracking: 0.2pt, titulo)
         v(4pt)
       }
-      set text(size: 8.5pt)
+      set text(size: 10pt)
       conteudo
     }
   )
@@ -219,11 +213,11 @@
   {
     set par(first-line-indent: 0em)
     if titulo != none {
-      text(font: titulo-fam, weight: "bold", size: 9pt, fill: rgb("#8B6914"),
+      text(font: titulo-fam, weight: "bold", size: 10pt, fill: rgb("#8B6914"),
         tracking: 0.2pt, titulo)
       v(5pt)
     }
-    set text(size: 8.5pt)
+    set text(size: 10pt)
     [#text(weight: "bold", fill: rgb("#8B6914"))[Aluno costuma achar: ] #aluno_acha]
     v(3pt)
     [#text(weight: "bold", fill: rgb("#8B6914"))[Mecanismo correto: ] #mecanismo]
@@ -242,7 +236,7 @@
   breakable: false,
   {
     set par(first-line-indent: 0em)
-    set text(size: 8.5pt)
+    set text(size: 10pt)
     [#text(weight: "bold", fill: teal)[Síntese #numero —] #conteudo]
   }
 )
@@ -256,7 +250,7 @@
   breakable: false,
   {
     set par(first-line-indent: 0em)
-    set text(size: 8.5pt, style: "italic")
+    set text(size: 10pt, style: "italic")
     [#text(weight: "bold", fill: teal, style: "normal")[Resumindo até aqui:] #conteudo]
   }
 )
@@ -270,7 +264,7 @@
   breakable: false,
   {
     set par(first-line-indent: 0em)
-    text(font: titulo-fam, weight: "bold", size: 10.5pt, fill: blue-clin, tracking: 0.3pt, "Conclusão integradora")
+    text(font: titulo-fam, weight: "bold", size: 11.5pt, fill: blue-clin, tracking: 0.3pt, "Conclusão integradora")
     v(6pt)
     conteudo
   }
@@ -304,7 +298,7 @@
         image(caminho, width: largura),
         v(6pt),
         align(left,
-          text(size: 8pt, style: "italic", fill: text-light, legenda)
+          text(size: 9.5pt, style: "italic", fill: text-light, legenda)
         )
       )
     )
@@ -340,7 +334,7 @@
     stack(
       image(caminho, width: 100%),
       v(5pt),
-      text(size: 7.8pt, style: "italic", fill: text-light, legenda)
+      text(size: 9pt, style: "italic", fill: text-light, legenda)
     )
   )
   v(6pt)
@@ -386,7 +380,7 @@
 // o recuo da prosa do corpo é estilo livro; o estilo questão é flush-left.
 #let questao-mc(numero, badge, enunciado, alts) = block(below: 16pt, breakable: true, {
   set par(first-line-indent: 0em)
-  text(font: titulo-fam, size: 10pt, weight: "bold", fill: navy, [Questão #numero ])
+  text(font: titulo-fam, size: 11pt, weight: "bold", fill: navy, [Questão #numero ])
   h(5pt)
   badge
   v(6pt)
@@ -409,7 +403,7 @@
   v(6pt)
   enunciado
   v(2pt)
-  text(size: 8pt, style: "italic", fill: text-light, "Cada item deve ser julgado de forma independente.")
+  text(size: 9.5pt, style: "italic", fill: text-light, "Cada item deve ser julgado de forma independente.")
   v(5pt)
   for (rom, conteudo) in itens {
     pad(left: 10pt, [#text(weight: "bold")[#rom.] #conteudo])
@@ -430,7 +424,7 @@
   below: 18pt,
   {
     set par(first-line-indent: 0em)
-    text(font: titulo-fam, weight: "bold", size: 10.5pt, fill: navy,
+    text(font: titulo-fam, weight: "bold", size: 11.5pt, fill: navy,
       if titulo-q != none { titulo-q } else [Questão #numero]
     )
     v(5pt)
@@ -442,9 +436,9 @@
       inset: (x: 13pt, y: 11pt),
       radius: 4pt,
       {
-        text(font: titulo-fam, weight: "bold", size: 8pt, fill: teal, tracking: 1pt, "MODELO DE RESPOSTA")
+        text(font: titulo-fam, weight: "bold", size: 9pt, fill: teal, tracking: 1pt, "MODELO DE RESPOSTA")
         v(5pt)
-        set text(size: 9pt)
+        set text(size: 10.5pt)
         modelo
       }
     )
@@ -700,11 +694,11 @@
   )
   v(7pt)
   block(below: 15pt,
-    text(font: corpo-fam, size: 8pt, style: "italic", fill: text-light,
+    text(font: corpo-fam, size: 8.5pt, style: "italic", fill: text-light,
       "Cinco minutos de leitura para chegar na aula sabendo o caminho — o material completo vem depois dela.")
   )
-  set par(justify: true, leading: 0.66em, spacing: 0.95em, first-line-indent: 0em)
-  set text(size: 9pt)
+  set par(justify: true, leading: 1.02em, spacing: 1.15em, first-line-indent: 0em)
+  set text(size: 10.5pt)
   conteudo
   pagebreak()
 }
@@ -715,7 +709,7 @@
 #let sumario(estrutura) = {
   set page(margin: (top: 2.0cm, bottom: 2.1cm, left: 1.9cm, right: 1.9cm))
   set-etapa("Sumário")
-  text(font: titulo-fam, size: 17pt, weight: "bold", fill: navy, tracking: 0.3pt, "Sumário")
+  text(font: titulo-fam, size: 19pt, weight: "bold", fill: navy, tracking: 0.3pt, "Sumário")
   block(below: 4pt, line(length: 100%, stroke: 2.5pt + teal))
   block(below: 18pt, line(length: 100%, stroke: 0.5pt + teal))
   // Canônico 2026-05-19 v2 (após Davi): hierarquia mais forte.
@@ -724,19 +718,19 @@
   // Subitens em 9.5pt corpo — peso menor, contraste maior.
   for (etapa, partes) in estrutura {
     block(below: 10pt,
-      text(font: titulo-fam, weight: "bold", size: 10pt, fill: navy, tracking: 0.8pt, upper(etapa))
+      text(font: titulo-fam, weight: "bold", size: 11pt, fill: navy, tracking: 0.8pt, upper(etapa))
     )
     for (parte, itens) in partes {
       if parte != none {
         block(below: 7pt,
           pad(left: 8pt,
-            text(font: titulo-fam, weight: "bold", size: 9pt, fill: teal, tracking: 0.2pt, parte))
+            text(font: titulo-fam, weight: "bold", size: 10pt, fill: teal, tracking: 0.2pt, parte))
         )
       }
       for it in itens {
         block(below: 5pt,
           pad(left: 22pt,
-            text(font: corpo-fam, size: 8.5pt, it))
+            text(font: corpo-fam, size: 9.5pt, it))
         )
       }
     }
@@ -775,7 +769,7 @@
 #let gabarito-page(blocos) = {
   pagebreak(weak: true)
   set-etapa("Gabarito — Etapa 2")
-  text(font: titulo-fam, size: 15pt, weight: "bold", fill: navy, tracking: 0.3pt, "Gabarito — Etapa 2")
+  text(font: titulo-fam, size: 17pt, weight: "bold", fill: navy, tracking: 0.3pt, "Gabarito — Etapa 2")
   block(below: 18pt, line(length: 100%, stroke: 2pt + teal))
   for (titulo, items) in blocos {
     gabarito-bloco(titulo, items)
@@ -789,7 +783,7 @@
 //   #termo-nota[acetilcolina][principal neurotransmissor da JNM, ...]
 // Calibração: 5-10 footnotes por resumo.
 #let termo-nota(termo, def) = {
-  [#termo#footnote[#text(font: titulo-fam, weight: "bold", size: 7.2pt, fill: navy, termo) #text(size: 7.2pt, fill: text-light)[-- #def]]]
+  [#termo#footnote[#text(font: titulo-fam, weight: "bold", size: 8.5pt, fill: navy, termo) #text(size: 8.5pt, fill: text-light)[-- #def]]]
 }
 
 // ======= Glossário de siglas -- SISTEMA CANÔNICO 2026-05-15 =======
@@ -832,7 +826,7 @@
       [#abr-str]
     } else {
       // Primeira aparição -- texto + footnote com expansão.
-      [#abr-str#footnote[#text(font: titulo-fam, weight: "bold", size: 7.2pt, fill: navy, abr-str) #text(size: 7.2pt, fill: text-light)[-- #expansao]]]
+      [#abr-str#footnote[#text(font: titulo-fam, weight: "bold", size: 8.5pt, fill: navy, abr-str) #text(size: 8.5pt, fill: text-light)[-- #expansao]]]
     }
   }
   // Marca como vista para todas as aparições subsequentes.
@@ -1023,7 +1017,7 @@
   // canonica para sessao de manutencao do template (investigar troca por
   // state.get + condicional).
   show: columns.with(2, gutter: 14pt)
-  set par(justify: false, leading: 0.62em, spacing: 0.62em)
+  set par(justify: false, leading: 0.95em, spacing: 0.75em)
   for (idx, par-secao) in secoes.enumerate() {
     let (titulo, corpo) = par-secao
     if idx > 0 {
@@ -1032,9 +1026,9 @@
       v(6pt)
     }
     block(breakable: false, {
-      text(font: titulo-fam, weight: "bold", size: 9.5pt, fill: navy, tracking: 0.3pt, titulo)
+      text(font: titulo-fam, weight: "bold", size: 10.5pt, fill: navy, tracking: 0.3pt, titulo)
       v(4pt)
-      set text(size: 8.2pt)
+      set text(size: 9.5pt)
       corpo
     })
   }

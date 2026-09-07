@@ -802,7 +802,11 @@ def check_pre_aula(content, fname):
     opcional. Davi canonizou como gate hard: todo resumo abre com a leitura de
     vespera. O que se verifica aqui e o que a regra promete:
 
-      - **2 paginas de prosa** -> 800-1300 palavras (alvo 900-1100, fora disso avisa).
+      - **1-2 paginas de prosa** -> 800-1300 palavras (alvo 900-1100, fora disso avisa).
+        O invariante e a CONTAGEM DE PALAVRAS (~5 minutos de leitura), nao o numero
+        de paginas: com a tipografia compacta de 2026-09-07 as mesmas ~950 palavras
+        ocupam ~1,5 pagina em vez de 2. Se a fonte mudar de novo, muda a pagina,
+        nao a palavra.
       - **prosa fluida contínua** -> sem bullet/lista, sem caixa, sem helper de E1.
       - **sem figura** -> as figuras todas ficam na E1 (canonico).
       - **sem pergunta retorica** -> mesmo banimento da E1 (canonico 2026-05-29).
@@ -819,11 +823,12 @@ def check_pre_aula(content, fname):
     palavras = [w for w in re.split(r"\s+", limpo) if any(c.isalpha() for c in w)]
     n = len(palavras)
     if n < 800 or n > 1300:
-        errors.append(f"  x {fname}: {n} palavras -- fora de 800-1300, nao fecha as 2 paginas "
-                      f"canonicas (alvo 900-1100). Ver CLAUDE.md § \"Antes da aula\".")
+        errors.append(f"  x {fname}: {n} palavras -- fora de 800-1300, que e a faixa dos "
+                      f"~5 minutos de leitura de vespera (alvo 900-1100). "
+                      f"Ver CLAUDE.md § \"Antes da aula\".")
     elif n < 900 or n > 1100:
         warnings.append(f"  ! {fname}: {n} palavras -- fora do alvo 900-1100 (ainda dentro do "
-                        f"aceitavel de 2 paginas).")
+                        f"aceitavel).")
     else:
         print(f"  palavras pre-aula: {n} (alvo 900-1100)")
 
@@ -1024,7 +1029,7 @@ def check_forma_e1(content, fname):
     if n > 6000:
         errors.append(
             f"  x {fname}: {n} palavras de miolo -- acima do teto operacional de 6000, "
-            f"que corresponde as 15 paginas do canonico. Aplicar as alavancas do "
+            f"que corresponde as 12 paginas do canonico. Aplicar as alavancas do "
             f"ERROS.md F4 nesta ordem: (1) filtro das tres funcoes, (2) fundir "
             f"subtopicos irmaos, (3) max 2 boxes pesados por PARTE, (4) figuras 50-55%.")
     elif n > 5400:

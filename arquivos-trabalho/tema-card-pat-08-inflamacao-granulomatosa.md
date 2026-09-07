@@ -10,7 +10,7 @@
 
 **Recorte:** o slide cobre exatamente o que o título promete — definição de granuloma, etiologias, mecanismo de formação (usando o *Mycobacterium tuberculosis* como modelo) e apresentações clínicas. Não há descasamento entre nome da aula e slide.
 
-**Orçamento de páginas:** piso 2, **teto 15 páginas**. Alvo 12–14.
+**Orçamento de páginas:** piso 2, **teto 12 páginas** (recalibrado em 2026-09-07 com a tipografia compacta; a corrida fechou em 10). Alvo 9–11.
 **Forma:** 3 PARTES × 3 subtópicos = **9 subtópicos**, 450–550 palavras cada, ~4.900–5.200 palavras de miolo.
 
 **Teto histórico desta aula** (acervo UC03 2015–2025, 9 subquestões etiquetadas): a prova cobra (a) os componentes celulares do granuloma e sua origem — macrófago → célula epitelioide → célula gigante multinucleada, com coroa de linfócitos T CD4; (b) o **IFN-γ como principal mediador** da formação e da manutenção; (c) o **MIF** e a proliferação local como explicação para o número de macrófagos; (d) o granuloma **mal-formado** do paciente com HIV e CD4 baixo; (e) por que um fungo faz granuloma e outro não (perfil de resposta celular × neutrofílica); (f) representar esquematicamente as **três camadas**; (g) distinguir célula gigante de granuloma de célula gigante sincicial de efeito citopático viral.
@@ -31,7 +31,8 @@
 **Prioridades desta corrida (do § Diário de revisões do `MEMORY.md`):**
 1. **Registro científico (peso alto, 2026-09-03).** Termo técnico junto da definição, na mesma frase. Filtro das três funções em toda frase. Zero moldura, zero reafirmação, zero adjetivo avaliativo.
 2. **Economia de palavra (F10, peso alto).** 450–550 palavras por subtópico; teto de 15 páginas.
-3. **Figura mesmo sem slide próprio (biocel-07, peso alto).** Aqui o problema é o inverso — há 36 slides, quase todos com valor visual real. O risco é o excesso: aplicar o filtro de utilidade pedagógica e declarar as descartadas.
+3. **Negrito no que é mais importante (CANON 2026-09-07).** 2–4 por parágrafo de mecanismo; parágrafo de mecanismo sem nenhum negrito volta pra prancheta.
+4. **Figura mesmo sem slide próprio (biocel-07, peso alto).** Aqui o problema é o inverso — há 36 slides, quase todos com valor visual real. O risco é o excesso: aplicar o filtro de utilidade pedagógica e declarar as descartadas.
 
 ---
 

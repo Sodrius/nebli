@@ -262,7 +262,8 @@ def check_palavras_e1(pdf_path: Path) -> tuple[list, list]:
     n = len(palavras)
 
     # Faixa recalibrada em 2026-09-03 com a queda do teto da E1 de 22 para
-    # 15 paginas (CLAUDE.md § Registro cientifico). Uma E1 cheia entrega ~450
+    # 15 paginas (e mantida em 2026-09-07, quando o teto virou 12 por mudanca
+    # de tipografia -- a contagem e de PALAVRAS, que nao muda com o corpo) (CLAUDE.md § Registro cientifico). Uma E1 cheia entrega ~450
     # palavras por pagina impressa, legendas e footnotes inclusas, entao
     # 15 paginas ~ 6750 palavras; o teto de aviso fica em 7200 com folga.
     # Historico: 3500-5000 (ate 2026-08-28, E1 de ~12 paginas) ->
@@ -284,7 +285,9 @@ def check_paginas_e1(pdf_path: Path) -> tuple[list, list]:
     """Conta as paginas ocupadas pela Etapa 1 e avisa acima do teto canonico.
 
     CANON 2026-09-03 (CLAUDE.md § Registro cientifico): o teto da E1 caiu de
-    22 para 15 paginas. Ate aqui o item #7 do ERROS.md era 'manual' -- ninguem
+    22 para 15 paginas. RECALIBRADO 2026-09-07 para 12, quando a tipografia
+    passou a corpo 8.5pt com leading 0.60em -- mesma quantidade de texto numa
+    mancha mais densa, nao menos conteudo. Ate aqui o item #7 do ERROS.md era 'manual' -- ninguem
     conferia, e as duas ultimas corridas fecharam em 18 e 25 paginas sem que
     nenhum auditor dissesse nada. Este check torna o teto auditavel.
 
@@ -297,7 +300,7 @@ def check_paginas_e1(pdf_path: Path) -> tuple[list, list]:
     quebra va declarada no relatorio).
     """
     errors, warnings = [], []
-    TETO = 15
+    TETO = 12
     n_pages = pdf_pages(pdf_path)
     if n_pages < 4:
         return errors, warnings
