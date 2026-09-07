@@ -1,243 +1,250 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #intro-box[
-Diabetes mellitus é um defeito de sinal. A insulina, que informa aos tecidos que há substrato chegando, deixa de ser produzida ou deixa de ser obedecida — e a glicose que se acumula no plasma passa a reagir quimicamente com as proteínas do organismo.
+Patologia é o estudo das alterações estruturais, bioquímicas e funcionais que a doença produz no organismo. O diagnóstico patológico é o ato de ler essas alterações num material que veio do paciente — um fragmento, uma peça cirúrgica, um esfregaço de células — e devolver ao clínico uma informação que muda conduta.
 
-A *PARTE I* percorre por que a glicemia sobe: o que a insulina comanda, os dois defeitos opostos que interrompem esse comando, e como a hiperglicemia vira sintoma. A *PARTE II* trata a glicose alta como reagente e acompanha a glicação não-enzimática até a lesão estrutural que se auto-alimenta. A *PARTE III* localiza essa lesão nos órgãos-alvo e mostra a correspondência entre o substrato que o patologista descreve e o achado que o radiologista enxerga.
+A *PARTE I* monta a cadeia que organiza esse raciocínio: causa, mecanismo, marca deixada no tecido e queixa à beira do leito. A *PARTE II* acompanha o material da mesa de macroscopia até a lâmina corada, porque cada etapa desse trajeto preserva uma coisa e destrói outra. A *PARTE III* abre as cinco ferramentas e mostra o que cada uma pergunta ao tecido — e por que são complementares, nunca substitutas.
 ]
 
-#parte-title("PARTE I — O sinal que falta: por que a glicose sobe", primeira: true)
+#parte-title("PARTE I — A doença como cadeia: o que o patologista procura", primeira: true)
 
-#subtopico("1.1 — A insulina e os freios que ela mantém")
+#subtopico("1.1 — Etiologia e patogênese: a causa e o caminho")
 
-A célula beta da ilhota pancreática secreta insulina quando a glicose plasmática sobe. O receptor de insulina é uma *tirosina-quinase*, enzima que fosforila resíduos de tirosina de proteínas-alvo: as duas subunidades α ligam o hormônio, as duas subunidades β se autofosforilam e passam a fosforilar o #sigla("IRS-1", [substrato 1 do receptor de insulina — a primeira proteína fosforilada pelo receptor, e o ponto em que a via se ramifica]), que recruta a #sigla("PI3K", [fosfatidilinositol-3-quinase — converte o sinal do receptor em um lipídeo de membrana capaz de ancorar a Akt]) e ativa a Akt. Não há proteína G nem segundo mensageiro nesse caminho.
+Toda doença pode ser descrita como uma sequência de quatro elos encadeados: a *etiologia*, que é o agente ou condição que a causa; a *patogênese*, que é o conjunto de mecanismos pelos quais esse agente produz o dano; as *alterações morfológicas e funcionais*, que são as marcas resultantes desse dano nas células e nos tecidos; e as *manifestações clínicas*, que são essas alterações se expressando em sintoma, sinal e exame alterado.
 
-O #sigla("GLUT-4", [transportador de glicose tipo 4 — isoforma insulino-dependente do músculo esquelético e do tecido adiposo]) já existe pronto, estocado em vesículas intracelulares, e a Akt comanda a fusão dessas vesículas com a membrana plasmática. *A insulina não sintetiza o transportador, ela o transloca* — daí o efeito surgir em minutos e desaparecer em minutos quando o sinal cessa.
+#figura-nebli("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-03.png",
+  largura: 43%,
+  legenda: [A seta é de mão única no tempo, mas o raciocínio diagnóstico percorre a cadeia nos dois sentidos: da clínica de volta à causa.])
 
-O restante do programa é composto de freios. A insulina ativa a glicogênio-sintase, liga a lipogênese no adipócito e inibe a *lipase hormônio-sensível*, enzima que hidrolisa triacilglicerol em ácido graxo livre; em paralelo, suprime a gliconeogênese hepática e a proteólise muscular. Perder o hormônio é liberar todos esses freios simultaneamente, e é por isso que o quadro clínico do tipo 1 não se resume à glicemia.
+A etiologia responde à pergunta *o que* causa a doença, e divide-se em dois grupos. As causas *genéticas* estão no genoma do indivíduo — mutação herdada, alteração cromossômica, variante de suscetibilidade. As causas *adquiridas* vêm de fora ou surgem ao longo da vida: agentes infecciosos, agressões físicas e químicas, hipóxia, desequilíbrio nutricional, resposta imune contra o próprio hospedeiro. A causa pode ser única, como na anemia falciforme, ou múltipla, como na aterosclerose, em que dislipidemia, hipertensão, tabagismo e hiperglicemia somam efeitos sobre o mesmo endotélio.
 
-Um dado de distribuição sustenta as PARTES II e III: *apenas músculo esquelético e tecido adiposo dependem do GLUT-4*. Neurônio, hemácia, endotélio, célula mesangial do glomérulo, pericito da retina, cristalino e epitélio tubular renal captam glicose por transportadores que não respondem à insulina, e por isso não conseguem reduzir a entrada quando a glicemia sobe.
+Reconhecer o agente não basta, porque quase nenhum agente é *suficiente* sozinho. O bacilo da tuberculose é causa *necessária* — sem ele não há tuberculose —, mas apenas uma parcela dos infectados adoece, e quem adoece depende da competência da resposta imune, da carga infectante e do estado nutricional. A distinção entre causa necessária, suficiente e contribuinte é o que permite entender por que duas pessoas expostas ao mesmo agente têm desfechos diferentes.
 
-#figura-lateral("/figuras/gr-02-diabetes-mellitus/slide-14.png",
+A patogênese responde à pergunta *como*. É a sequência de eventos genéticos e bioquímicos que vai do estímulo inicial até a expressão da doença — que gene deixou de ser transcrito, que enzima parou, que via de sinalização foi ativada, que célula morreu e por qual mecanismo. A importância médica dessa separação é direta: quando a etiologia não pode ser removida, é sobre a patogênese que o tratamento age. Não se desfaz uma mutação germinativa, mas se bloqueia a via que ela mantém ligada.
+
+A relação entre os elos não é biunívoca em nenhum dos sentidos, e é aqui que a ferramenta entra. Uma mesma etiologia produz patogêneses distintas conforme o hospedeiro, e uma mesma morfologia pode nascer de etiologias diferentes — necrose caseosa em um granuloma sugere tuberculose, mas também aparece em micoses profundas. Por isso o diagnóstico morfológico frequentemente entrega um *padrão*, e fechar a causa exige uma segunda ferramenta dirigida ao agente.
+
+#mini-resumo[Etiologia é o que causa; patogênese é como causa; morfologia é o rastro. O padrão morfológico raramente identifica sozinho a etiologia — e é essa lacuna que as ferramentas da PARTE III preenchem.]
+
+#subtopico("1.2 — A morfologia como registro: presença, grau e tempo da lesão")
+
+A alteração morfológica não é a doença: ela é *secundária* à patogênese, um produto do mecanismo e não a sua causa. Essa é a razão pela qual descrever bem a morfologia permite reconstruir o mecanismo para trás, e é o motivo pelo qual ela costuma ser a primeira forma de detecção da doença.
+
+Essas alterações são avaliadas em três escalas: a *macroscopia* examina a olho nu peso, tamanho, cor, consistência e limites; a *microscopia óptica*, as células e sua organização; a *ultraestrutura*, ao microscópio eletrônico, organelas e estruturas de poucos nanômetros. As três respondem à mesma pergunta em resoluções diferentes, e o achado de uma orienta a busca na seguinte.
+
+A morfologia informa mais do que a presença da doença: informa o *grau*. Dizer que existe fibrose no fígado é um dado; dizer que ela forma septos circundando nódulos de hepatócitos em todo o parênquima é outro, e apenas o segundo caracteriza cirrose e prevê insuficiência hepática. Extensão da necrose, profundidade da invasão tumoral e proporção de glomérulos esclerosados são medidas morfológicas com consequência prognóstica direta.
+
+#figura-nebli("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-09.png",
+  largura: 55%,
+  legenda: [Três infartos de idades diferentes no mesmo coração, com a microscopia correspondente ao lado. A morfologia não diz apenas que houve lesão: diz há quanto tempo.])
+
+O tempo é a informação que mais escapa a quem começa. Cada lesão tem uma cronologia previsível de achados, e ler essa cronologia data o evento. No infarto do miocárdio, o miócito privado de oxigênio perde a contração em menos de um minuto, mas a necrose só se torna reconhecível ao microscópio depois de algumas horas — o citoplasma fica intensamente rosado e o núcleo desaparece por #termo-nota[cariólise][dissolução da cromatina pela ação de nucleases, a etapa final da morte do núcleo, precedida por picnose e cariorrexe]. Nas primeiras 24 horas chegam neutrófilos; entre o terceiro e o sétimo dia predominam macrófagos removendo os restos; na segunda semana instala-se #termo-nota[tecido de granulação][tecido de reparo formado por capilares neoformados, fibroblastos e matriz frouxa, que substitui a área necrótica antes da cicatriz]; ao fim de semanas resta cicatriz colágena pálida.
+
+O corolário é incômodo: nas primeiras horas a morfologia é normal apesar de a doença já estar instalada e já ser letal. A alteração funcional pode preceder em muito a estrutural, e tecido morfologicamente preservado não garante tecido saudável.
+
+#figura-nebli("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-10.png",
+  largura: 49%,
+  legenda: [A falha de enchimento no ramo arterial pulmonar da tomografia e o trombo cavalgando a bifurcação na peça são o mesmo achado, lidos por dois métodos com escalas de resolução separadas por três ordens de grandeza.])
+
+A morfologia macroscópica corresponde quase termo a termo à imagem radiológica, porque ambas leem densidade, contorno e limite — a diferença está na resolução, próxima de um milímetro na tomografia e de dois décimos de micrômetro na microscopia, e no fato de a imagem ser feita no paciente vivo.
+
+#subtopico("1.3 — As cinco frentes da patologia e o raciocínio da causa da morte")
+
+O último elo da cadeia montada em 1.1 é a manifestação clínica, definida com precisão: é como a patogênese e as alterações morfológicas se expressam à beira do leito. O ícterico tem bilirrubina impregnando mucosa e pele porque a excreção hepática falhou; a dispneia da insuficiência cardíaca é congestão pulmonar em forma de sintoma. Nenhum sinal existe sem uma alteração estrutural ou funcional por baixo dele.
+
+#figura-nebli("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-14.png",
+  largura: 49%,
+  legenda: [Cinco frentes, um mesmo objeto. A interface com as demais especialidades não é acessória: o material só é bem interpretado com a história clínica junto.])
+
+A especialidade se organiza em cinco frentes. A *patologia cirúrgica* examina biópsias e peças de ressecção, e é a que mais decide conduta oncológica; a *citopatologia*, células isoladas obtidas por raspado, punção ou líquido corporal; a *patologia clínica* corresponde ao laboratório de análises; a *patologia forense* investiga mortes violentas ou suspeitas; e a *autópsia* investiga a doença que levou à morte natural.
+
+A autópsia mantém uma função que nenhum exame de imagem substituiu: comparar o que se pensou em vida com o que se encontra depois. Séries hospitalares modernas ainda mostram discrepâncias maiores — achados que, se conhecidos antes, teriam mudado a conduta — em cerca de uma em cada dez autópsias.
+
+Desse raciocínio nasce um documento que todo médico assina e quase ninguém aprende a preencher. A parte I da declaração de óbito é uma *cadeia causal escrita ao contrário*: a primeira linha traz a causa imediata, aquela que encerrou a vida, e cada linha abaixo traz a condição que originou a de cima, até a última linha preenchida, que é a *causa básica* — a doença que iniciou a sequência. A parte II reúne as condições que contribuíram para a morte sem pertencer a essa cadeia.
+
+#clinica-box("A cadeia escrita de trás para frente", [
+Paciente diabética sofre trauma no hálux, evolui com infecção cutânea, depois pneumonia hospitalar, e morre em insuficiência respiratória. A parte I fica, de cima para baixo: insuficiência respiratória, pneumonia hospitalar, infecção cutânea, contusão do hálux; a parte II traz o diabetes.
+
+O diabetes não ocupa a parte I porque não iniciou *esta* sequência — ele a permitiu, ao produzir a neuropatia que apagou a dor do trauma e a vasculopatia que impediu a cicatrização. Trocar a ordem, ou promovê-lo a causa básica, altera a estatística de mortalidade, montada a partir da causa básica de cada declaração.
+])
+
+#parte-title("PARTE II — Do corpo à lâmina: o que acontece com o material")
+
+#subtopico("2.1 — Macroscopia e amostragem: a decisão que precede o microscópio")
+
+Uma peça de colectomia tem 30 cm de comprimento; o fragmento que vira lâmina tem 2 cm de lado e 4 micrômetros de espessura. O que o microscópio examina é uma fração minúscula do que foi retirado, e quem escolhe essa fração é o patologista na mesa de macroscopia. Essa escolha é irreversível e limita tudo o que virá depois — nenhuma coloração recupera o que não foi amostrado.
+
+#figura-nebli("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-17.png",
+  largura: 51%,
+  legenda: [Da peça medida com régua ao fragmento no cassete: cada etapa da macroscopia gera um dado que não existe mais depois que o material é cortado.])
+
+O exame macroscópico começa antes do formol: o material *a fresco* permite o que a fixação impede — congelar um fragmento para análise imediata, semear cultura, separar tecido para citometria de fluxo ou banco de tumor. Decidir isso depois que a peça mergulhou no fixador é tarde.
+
+A descrição segue ordem fixa: pesos e medidas — peso do baço, espessura da parede ventricular, maior diâmetro do tumor —, cortes seriados, caracterização das lesões quanto a cor, consistência, limites e distância às margens, fotografia do que não sobreviverá ao corte, e a *representação histológica*, que é a amostragem propriamente dita.
+
+Um detalhe operacional carrega peso oncológico. Antes de cortar, a superfície de ressecção é pintada com tinta nanquim, que resiste ao processamento e reaparece preta no microscópio; assim o patologista sabe exatamente onde estava o limite do que o cirurgião retirou. Tumor tocando a tinta significa margem comprometida, e margem comprometida costuma significar reoperação ou radioterapia — um dado gerado por um pincel, não por um reagente caro.
+
+A amostragem também define o que vale um resultado negativo. Protocolos fixam quantos fragmentos representam cada tipo de peça porque o erro de amostragem é a principal causa de falso-negativo em patologia. Quando a lesão é focal e pequena, a agulha precisa ser levada até ela por um método de imagem — a ponte para o item 2.3. Em material exíguo, a ausência de achado significa que aquela amostra não continha a lesão, não que o órgão esteja livre dela.
+
+#mini-resumo[A macroscopia decide o que será visto: material a fresco abre opções que o formol fecha, a tinta na margem transforma um dado espacial em dado microscópico, e a representatividade da amostra é o que dá — ou tira — valor a um resultado negativo.]
+
+#subtopico("2.2 — Fixação e processamento: por que o formol, e o que ele custa")
+
+O tecido removido do corpo começa a se digerir sozinho em minutos: as enzimas dos lisossomos vazam de células que morrem sem irrigação e destroem a arquitetura, um processo chamado #termo-nota[autólise][autodigestão do tecido pelas próprias enzimas lisossômicas após a morte celular, responsável pela perda de detalhe morfológico em material mal fixado]. Fixar é interromper essa destruição no instante mais próximo possível do estado vivo.
+
+O fixador de rotina é o formol tamponado a 10%, com cerca de 4% de formaldeído. Ele reage com grupos amino livres de proteínas, sobretudo o grupo ε-amino da lisina, e forma *pontes de metileno* que ligam cadeias vizinhas entre si. Essa reticulação enrijece o tecido, imobiliza as proteínas onde estavam e inativa as enzimas da autólise. O fixador penetra a cerca de 1 mm por hora, o que explica duas regras de bancada: fatiar a peça em lâminas de poucos milímetros e usar volume de fixador dez vezes maior que o dela. Peça grossa mergulhada inteira fixa a superfície e autolisa o centro.
+
+Fixado o tecido, a água é retirada em álcoois de concentração crescente, porque a parafina não se mistura com água. O álcool é então substituído pelo xilol na etapa de #termo-nota[diafanização][banho em solvente miscível tanto com álcool quanto com parafina, que torna o tecido translúcido e permite a impregnação pela parafina]. O tecido é impregnado por parafina líquida a cerca de 58 °C e incluído em bloco. O micrótomo corta fitas de 3 a 5 micrômetros — espessura de uma a duas células —, que são estendidas em banho-maria morno e pescadas com a lâmina. Antes de corar, desfaz-se o caminho: a parafina sai no xilol e o tecido é reidratado, porque a hematoxilina é uma solução aquosa.
+
+#figura-nebli("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-19.png",
+  largura: 49%,
+  legenda: [Processador, micrótomo, banho de flotação e os dois corantes. O fragmento mal orientado no molde gera corte oblíquo e epitélio ilegível — o trajeto inteiro existe para permitir um corte de poucos micrômetros que ainda se pareça com tecido vivo.])
+
+O formol cobra três preços, e os três reaparecem na PARTE III. As pontes de metileno alteram a conformação das proteínas e escondem os sítios que os anticorpos reconhecem — daí a etapa de #termo-nota[recuperação antigênica][aquecimento do corte em tampão de citrato ou de EDTA, que desfaz parte das ligações cruzadas do formol e reexpõe os epítopos para o anticorpo] na imunohistoquímica. O formaldeído também fragmenta o DNA e o liga a proteínas, o que restringe os testes moleculares a segmentos curtos, tipicamente abaixo de 300 pares de base. E álcool e xilol dissolvem os lipídeos: gordura não é vista na lâmina de rotina, e o vacúolo vazio do hepatócito esteatótico é o buraco que ela deixou.
+
+#atencao-box("Congelação responde rápido; não responde tudo", [
+No exame de congelação o fragmento é resfriado a cerca de −25 °C, e a água transformada em gelo dá a dureza que a parafina daria. O corte sai no criostato e a coloração fica pronta em 10 a 15 minutos, com o cirurgião ainda operando: diz se a margem está livre, se o material é representativo e qual a natureza geral da lesão.
+
+O preço é morfológico: os cristais de gelo rasgam o citoplasma, distorcem o núcleo e o detalhe fino se perde. O diagnóstico definitivo é sempre o da parafina.
+])
+
+#subtopico("2.3 — Citopatologia e punção guiada: células sem arquitetura")
+
+A citopatologia abre mão da arquitetura do tecido para ganhar acesso. Em vez de retirar um fragmento, colhem-se células soltas — por raspado do colo uterino, por escova brônquica, do sedimento de um derrame pleural ou da urina, ou por *punção aspirativa por agulha fina*, técnica em que uma agulha de calibre fino, semelhante à de injeção, aspira células de um nódulo sem retirar um cilindro de tecido. O material é espalhado na lâmina, fixado em álcool e corado.
+
+#figura-lateral("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-21.png",
   lado: "right",
-  largura-figura: 40%,
-  texto: [O intestino sinaliza ao pâncreas antes de a glicose ser absorvida. O #sigla("GLP-1", [peptídeo semelhante ao glucagon 1 — incretina intestinal que amplifica a secreção de insulina dependente de glicose]), liberado pela chegada do alimento ao lúmen, amplifica a secreção de insulina pela célula beta, retarda o esvaziamento gástrico e aumenta a saciedade por ação hipotalâmica. É o *efeito incretínico*, e ele explica por que uma carga oral de glicose eleva mais a insulina do que a mesma carga por via intravenosa.],
-  legenda: [Eixo intestino–pâncreas–encéfalo.])
+  largura-figura: 36%,
+  texto: [O esfregaço tem uma técnica própria: a segunda lâmina espalha a gota em camada única, porque células empilhadas não permitem avaliar núcleo. Material espesso, coagulado ou seco ao ar antes da fixação gera artefato que imita atipia — parte dos resultados inconclusivos nasce aqui, e não na lesão.],
+  legenda: [Do aspirado ao esfregaço em monocamada.])
 
-#subtopico("1.2 — Tipo 1: a ilhota destruída e o corpo em jejum permanente")
+O que se lê numa célula isolada é o critério de atipia: aumento da #termo-nota[relação núcleo-citoplasma][proporção entre a área do núcleo e a do citoplasma, em torno de 1:4 a 1:6 em epitélio maduro; sua elevação é um dos primeiros sinais de transformação], hipercromasia, cromatina grosseira, nucléolo proeminente e contorno nuclear irregular — suspeita de malignidade levantada com rapidez, custo baixo e agressão mínima.
 
-O que desencadeia o quadro clínico do tipo 1 não é o valor absoluto da insulina, e sim a queda da *razão insulina/glucagon*. A insulina freia a célula alfa dentro da própria ilhota; sem ela, o glucagon é secretado sem contraposição e o fígado mantém glicogenólise e gliconeogênese enquanto o músculo já não capta glicose. A hiperglicemia é gerada nas duas pontas.
+O que a citologia *não* decide é a invasão. Invasão é uma relação espacial — células neoplásicas atravessando a membrana basal e ocupando o estroma subjacente — e uma relação espacial só existe onde a arquitetura foi preservada. Por isso a distinção entre lesão *in situ*, que não rompeu a membrana basal, e neoplasia invasora exige um fragmento de tecido, não um esfregaço. A citologia levanta a suspeita e seleciona quem precisa de biópsia; a histologia estadia.
 
-A destruição da célula beta é autoimune, mediada sobretudo por linfócitos T citotóxicos, em indivíduos com alelos predisponentes de #sigla("HLA", [antígeno leucocitário humano — o complexo principal de histocompatibilidade humano, cujos alelos de classe II definem boa parte do risco genético do tipo 1]) de classe II. Os autoanticorpos dosados no laboratório — anti-#termo-nota[descarboxilase do ácido glutâmico][enzima citoplasmática da célula beta; o anticorpo anti-GAD65 contra ela é o marcador sorológico mais usado de autoimunidade contra a ilhota], anti-insulina, anti-tirosina-fosfatase da ilhota — são marcadores dessa agressão, não os seus executores principais.
+#figura-nebli("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-20.png",
+  largura: 49%,
+  legenda: [A ultrassonografia leva a agulha ao nódulo em tempo real e confirma que a ponta está dentro da lesão. Sem esse guia, a punção de um nódulo pequeno amostra o parênquima ao redor.])
 
-A massa funcionante remanescente é estimada pelo #termo-nota[peptídeo C][fragmento liberado em quantidade equimolar à insulina na clivagem da pró-insulina; ausente na insulina exógena e pouco extraído pelo fígado, mede a secreção endógena]: ele sai da pró-insulina junto com a insulina, mas não acompanha a insulina exógena aplicada e escapa da extração hepática de primeira passagem, que retira boa parte da insulina antes da circulação sistêmica.
+#clinica-box("Nódulo de tireoide: a punção decide quem opera", [
+Nódulos tireoidianos são frequentes na ultrassonografia e a maioria é benigna. A punção guiada por imagem separa quem precisa de cirurgia de quem precisa apenas de seguimento, e decide por critérios nucleares — o carcinoma papilífero tem núcleo claro, com fenda longitudinal e pseudoinclusão, reconhecível célula a célula.
 
-O metabolismo assume então o padrão do jejum com o plasma cheio de glicose. Sem o freio da insulina, a lipase hormônio-sensível libera ácidos graxos em quantidade que excede a capacidade oxidativa hepática: a acetil-CoA gerada ultrapassa a capacidade de consumo do ciclo de Krebs e o excedente é desviado para acetoacetato e β-hidroxibutirato, ácidos fortes cujo acúmulo derruba o pH. A proteólise muscular fornece aminoácidos à gliconeogênese e o balanço nitrogenado fica negativo. A perda ponderal ocorre com ingesta aumentada, porque se perde caloria na urina, triacilglicerol no adipócito e proteína no músculo.
-
-#mini-resumo[Falta de insulina → glucagon sem freio e lipólise sem freio → glicose hepática alta e ácido graxo em excesso → cetoácidos. Hiperglicemia e cetose são efeitos paralelos do mesmo defeito.]
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-12.png",
-  largura: 60%,
-  legenda: [O defeito está em andares diferentes: no tipo 1 o pâncreas não entrega o sinal; no tipo 2 o sinal chega em quantidade e a célula-alvo não responde.])
-
-#clinica-box("O caso que abre a aula", [
-Homem de 26 anos, magro, com dez dias de poliúria, polidipsia e perda de 3 kg; glicemia de 397 mg/dL, hemoglobina glicada de 8,8%, peptídeo C de 1,32 ng/mL e anti-descarboxilase do ácido glutâmico de 1082 UI/mL para valor de referência abaixo de 10.
-
-Os três exames respondem perguntas distintas. O autoanticorpo em título cem vezes acima do limite identifica a natureza autoimune da destruição. O peptídeo C mensurável, no limite inferior da normalidade, indica secreção residual preservada em parte — o paciente está no início da história natural, o que explica a ausência de acidose franca à apresentação. A hemoglobina glicada de 8,8% data o início da hiperglicemia semanas antes dos dez dias de sintomas: o sintoma marca a queda da reserva de célula beta, não o início da doença.
+A exceção confirma a regra do parágrafo anterior: diante de lesão folicular a punção não decide, porque adenoma e carcinoma folicular têm células idênticas e o que os separa é a invasão de cápsula ou de vasos. O diagnóstico só sai na peça, com a cápsula inteira examinada — a diferença não está na célula, está na relação dela com o que existe ao redor.
 ])
 
-#subtopico("1.3 — Tipo 2: o sinal que chega e não é escutado")
+#parte-title("PARTE III — As cinco ferramentas: o que cada uma pergunta ao tecido")
 
-No tipo 2 o receptor está íntegro e a falha é pós-receptor. Com oferta calórica alta e sedentarismo, o músculo recebe mais acil-CoA graxo do que oxida, e o excedente acumula dois intermediários lipídicos com atividade de sinalização: *diacilglicerol* e *ceramida*. Ambos ativam *serina-quinases de estresse*, que fosforilam o IRS-1 em resíduos de serina em vez de tirosina. O IRS-1 fosforilado no resíduo errado não recruta a PI3K, a Akt não é ativada, e menos vesículas de GLUT-4 alcançam a membrana.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-09.png",
+#figura-nebli("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-15.png",
   largura: 55%,
-  legenda: [O ácido graxo não apenas compete com a glicose como combustível: ele interrompe a sinalização que traria o GLUT-4 à superfície. A mitocôndria sobrecarregada devolve espécies reativas de oxigênio, que realimentam as serina-quinases.])
+  legenda: [O mapa da PARTE III. A palavra em vermelho é o ponto: as ferramentas são complementares — cada uma responde a uma pergunta que as outras não respondem, e a ordem de uso é dirigida pela hipótese.])
 
-O tecido adiposo contribui por uma segunda via. O adipócito hipertrofiado recruta macrófagos e secreta fator de necrose tumoral alfa e interleucina-6, citocinas que ativam as mesmas serina-quinases e reduzem o GLUT-4 de superfície. A obesidade opera como inflamação crônica de baixo grau, e é por essa ponte que produz resistência à insulina.
+#subtopico("3.1 — Hematoxilina e eosina: a química das duas cores")
 
-A resistência isolada não configura diabetes. A célula beta responde à glicemia crescente aumentando a secreção, e a *hiperinsulinemia compensatória* mantém a glicose em faixa quase normal por anos.
+Toda coloração é uma reação química com endereço: o corante se liga a um tipo de sítio molecular e não a outro, e a imagem colorida é o mapa desses sítios. A coloração de rotina, a #sigla("HE", [hematoxilina-eosina — a coloração de rotina da anatomia patológica, base de praticamente todo diagnóstico morfológico]), tem dois corantes com endereços opostos.
 
-#atencao-box("No tipo 2, a insulina pode estar alta", [
-Durante a maior parte da história natural do tipo 2 a insulina está *normal ou elevada*, e a glicemia sobe apesar disso porque o tecido não responde. Insulina alta com glicemia alta não é contradição laboratorial: é o retrato da resistência. A insulina só cai quando, após anos de sobrecarga secretora e de exposição a glicose e ácido graxo em excesso, a célula beta entra em apoptose e a massa de ilhota diminui — e é nessa fase que o tipo 2 passa a exigir insulina exógena.
-])
+A hematoxilina, extraída de uma árvore e oxidada a hemateína, não cora sozinha: precisa de um mordente de alumínio, com o qual forma um complexo de carga positiva. Esse complexo se liga aos grupos fosfato de carga negativa do #sigla("DNA", [ácido desoxirribonucleico]) e do #sigla("RNA", [ácido ribonucleico]), e é por isso que ele cora de azul-arroxeado tudo o que é rico em ácido nucleico — o núcleo, em primeiro lugar, mas também o retículo endoplasmático rugoso coberto de ribossomos. Essa afinidade por corante básico é a #termo-nota[basofilia][propriedade de estruturas aniônicas, ricas em fosfato de ácidos nucleicos, de fixar corantes básicos como a hematoxilina].
 
-O defeito é distribuído por vários órgãos. O fígado resiste ao freio da gliconeogênese e mantém produção hepática de glicose mesmo sob insulina alta, o que explica a hiperglicemia de jejum. O adipócito resiste ao freio da lipólise e continua exportando ácido graxo. O intestino perde parte do efeito incretínico. A ilhota acrescenta hiperglucagonemia à queda de secreção.
+A eosina faz o contrário: corante ácido, em solução vira ânion e se liga a grupos de carga positiva — as cadeias laterais protonadas de lisina e arginina. Cora o citoplasma rico em proteína, o colágeno da matriz e, com intensidade máxima, a hemácia repleta de hemoglobina. Essa afinidade é a acidofilia, ou eosinofilia.
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-11.png",
-  largura: 56%,
-  legenda: [Cinco endereços do mesmo defeito. A produção hepática de glicose que não desliga é a que sustenta a glicemia de jejum, quando nenhuma refeição a justifica.])
-
-#subtopico("1.4 — Diurese osmótica e as duas descompensações")
-
-A glicose é filtrada livremente no glomérulo e reabsorvida no túbulo proximal por transportadores de capacidade máxima finita, saturados em torno de 180 mg/dL de glicemia. Acima desse limiar a glicose excedente permanece no lúmen tubular.
-
-Soluto não reabsorvido retém água por osmose e impede que ela acompanhe o sódio de volta ao interstício: instala-se a #termo-nota[diurese osmótica][perda aumentada de água na urina causada por um soluto não reabsorvido que a retém no lúmen tubular], e o volume urinário sobe. A poliúria precede a sede — a perda de água eleva a osmolaridade plasmática e só então os osmorreceptores hipotalâmicos disparam a polidipsia. Sódio e potássio são arrastados junto.
-
-A perda ponderal soma três parcelas: caloria eliminada como glicose urinária, triacilglicerol mobilizado pela lipólise e proteína muscular consumida pela gliconeogênese. A polifagia coexiste porque a glicose não entrou na célula.
-
-A forma da descompensação depende da insulina residual. No tipo 1, com secreção praticamente ausente, a lipólise segue livre até os cetoácidos e instala-se a *cetoacidose diabética*, com pH baixo, #termo-nota[hiato aniônico][diferença entre os cátions e os ânions medidos no plasma; aumenta quando um ácido não medido, como o cetoácido, se acumula] aumentado e respiração ampla e profunda — compensação respiratória que elimina gás carbônico para tamponar a acidez, não doença pulmonar. No tipo 2, a insulina residual é insuficiente para normalizar a glicemia mas basta para conter a lipase hormônio-sensível; sem lipólise maciça não há cetose, e a descompensação assume a forma de *estado hiperosmolar*, com glicemias mais altas, diurese osmótica prolongada e rebaixamento de consciência.
-
-#confusao-prevista(
-  titulo: "Hiperosmolaridade e acidose não são o mesmo distúrbio",
-  aluno_acha: [as duas descompensações são lidas como graus de gravidade de um mesmo processo],
-  mecanismo: [são distúrbios de naturezas distintas que apenas coexistem na cetoacidose. A hiperosmolaridade é distúrbio de *água*, produzido pela diurese osmótica; a acidose é distúrbio de *ácido*, produzido pelos cetoácidos da lipólise. No estado hiperosmolar do tipo 2 a primeira ocorre isolada, e é ela que ameaça a vida.],
-)
-
-O potássio inverte a leitura esperada do exame. A diurese osmótica esvazia o estoque corporal total, enquanto a acidose e a ausência de insulina deslocam potássio do intracelular para o plasma. O resultado é potássio sérico normal ou elevado em paciente profundamente depletado — valor que despenca assim que a insulina reconduz o íon para dentro da célula.
-
-#parte-title("PARTE II — Do açúcar ao dano: glicação e as rotas que se perpetuam")
-
-#subtopico("2.1 — Glicação não-enzimática e os dois relógios do controle")
-
-A glicose é um açúcar redutor: possui grupo carbonil livre, que reage espontaneamente com grupos amino de proteínas. A reação é *glicação* — não-enzimática, sem sítio preferencial, governada apenas pelo produto entre concentração de glicose e tempo de exposição. Distingue-se da *glicosilação*, que é enzimática, dirigida a sítios específicos e parte da maturação normal de glicoproteínas. É essa dependência de concentração e tempo que faz da glicação, ao mesmo tempo, o mecanismo da lesão e a base dos exames que medem controle.
-
-A reação avança em três estágios de reversibilidade decrescente. A *base de Schiff* é a condensação inicial entre o carbonil da glicose e um grupo amino da proteína, tipicamente da lisina ou da valina N-terminal; forma-se em horas e desfaz-se se a glicemia cai. O *produto de Amadori* é o rearranjo da base de Schiff numa cetoamina estável, formado em dias e apenas lentamente reversível. O #sigla("AGE", [produto final de glicação avançada — do inglês *advanced glycation end product*, a forma irreversível da glicação]) resulta de desidratações e oxidações sucessivas ao longo de semanas a meses e estabelece *ligações cruzadas* entre dois radicais protéicos: aqui a reação deixa de reverter.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-15.png",
-  largura: 70%,
-  legenda: [A régua de tempo no alto — horas, dias, semanas a meses — carrega o mecanismo. A barra "reversível" termina antes da ligação cruzada entre duas cadeias protéicas, e é essa etapa final que a normalização da glicemia já não desfaz.])
-
-Da escala de tempo decorre a seleção do alvo: acumula AGE a proteína de meia-vida longa — colágeno, elastina, cristalino, membrana basal —, renovada mais devagar do que a reação avança. Proteína de turnover rápido é degradada antes de reticular.
-
-Os dois exames de controle são produtos de Amadori em proteínas diferentes, e a diferença entre eles é a janela de tempo que cada proteína guarda. A #sigla("HbA1c", [hemoglobina glicada — fração da hemoglobina A que sofreu glicação, expressa em porcentagem da hemoglobina total]) mede a fração glicada da hemoglobina; como a hemácia circula de 90 a 120 dias sem reverter a modificação, o exame integra a exposição à glicose ao longo de 8 a 12 semanas, com peso maior nas últimas quatro. Uma HbA1c de 8,8% corresponde a glicemia média em torno de 205 mg/dL nesse período — no caso da PARTE I, hiperglicemia sustentada muito antes dos dez dias de sintomas. A limitação do exame é a mesma variável que o define: hemólise, sangramento recente ou transfusão encurtam a sobrevida eritrocitária e reduzem a HbA1c para a mesma glicemia média.
-
-A #termo-nota[frutosamina][conjunto das proteínas plasmáticas glicadas, sobretudo a albumina; como a albumina vive de 14 a 20 dias, o exame reflete as últimas 2 a 3 semanas] resolve exatamente esses casos. A albumina circula de 14 a 20 dias e o exame lê 2 a 3 semanas, o que o torna útil em hemoglobinopatia, anemia hemolítica, gestação e mudança recente de tratamento. No caso da aula os dois caminharam juntos em escalas distintas: HbA1c de 8,8% e frutosamina de 575 μmol/L em abril; 5,2% e 289 μmol/L em agosto, quatro meses após a insulinização.
-
-#subtopico("2.2 — O que o AGE faz nas proteínas de vida longa")
-
-A reticulação do colágeno não produz apenas rigidez: a proteína reticulada *resiste à digestão proteolítica e deixa de ser substituída*. O remodelamento da matriz extracelular depende de degradar colágeno velho para depositar colágeno novo, e as proteases não cortam o substrato reticulado. Esta é a razão bioquímica de a ferida do diabético cicatrizar mal mesmo com perfusão preservada.
-
-A glicação da #sigla("LDL", [lipoproteína de baixa densidade — partícula que transporta colesterol do fígado para os tecidos]) prejudica o reconhecimento da partícula pelo receptor hepático, prolonga o tempo de circulação e favorece a oxidação. A partícula modificada passa a ser captada por *receptores scavenger* do macrófago, que — ao contrário do receptor de LDL — não são inibidos pelo colesterol já acumulado na célula. O macrófago capta sem regulação e se converte em #termo-nota[célula espumosa][macrófago repleto de gotículas lipídicas, elemento fundador da estria gordurosa e da placa de ateroma]. É o elo direto entre hiperglicemia e placa de ateroma, retomado na PARTE III.
-
-#confusao-prevista(
-  titulo: "Membrana basal mais espessa não filtra melhor",
-  aluno_acha: [engrossar a barreira deveria retê-la mais e reduzir a passagem de proteína],
-  mecanismo: [o que muda não é só a espessura, é a *composição*. A membrana basal glomerular do diabético ganha matriz desorganizada e perde proteoglicanos aniônicos, que constituem a barreira de carga que repelia a albumina — também aniônica. O resultado é uma membrana mais espessa e simultaneamente mais permeável a proteína.],
-)
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-17.png",
-  largura: 50%,
-  legenda: [À esquerda, membrana basal normal: fina e homogênea, com pedicelos regularmente espaçados. À direita, a mesma barreira espessada e desorganizada no diabético.])
-
-Há ainda um efeito independente de estrutura: os AGEs *inativam o óxido nítrico*. A menor disponibilidade de óxido nítrico reduz a vasodilatação dependente do endotélio, aumenta a adesão de leucócitos e plaquetas e favorece a proliferação de músculo liso na parede vascular. O primeiro dano vascular do diabetes é funcional e antecede qualquer placa detectável por imagem.
-
-#subtopico("2.3 — RAGE e as outras rotas: como o dano passa a se perpetuar")
-
-O AGE não é apenas produto: é ligante. Monócitos, macrófagos, células endoteliais e células mesangiais expressam o #sigla("RAGE", [receptor para produtos finais de glicação avançada — receptor de membrana que converte a presença de AGE em sinal inflamatório intracelular]); a ligação ativa o #sigla("NF-κB", [fator nuclear kappa B — fator de transcrição que comanda a expressão de genes pró-inflamatórios]) e transcreve um programa que inclui citocinas, fatores de crescimento, moléculas de adesão e fator tecidual. Migração de monócitos, aumento de permeabilidade vascular, atividade pró-coagulante e deposição de matriz extracelular são saídas desse programa.
-
-A alça é positiva: a sinalização por RAGE aumenta a expressão do próprio receptor e o estresse oxidativo local, e as espécies reativas de oxigênio aceleram a formação de novos AGEs. *O dano passa a produzir as condições que o produzem* — o processo auto-perpetuador do esquema da aula, que continua operando quando o estímulo inicial já diminuiu.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-30.png",
+#figura-nebli("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-23.png",
   largura: 55%,
-  legenda: [Alteração metabólica e alteração funcional ainda revertem; a partir das modificações progressivas um dos ramos passa a se alimentar sozinho. É esse ramo que faz a manifestação clínica surgir anos depois e não regredir com o controle.])
+  legenda: [O mundo em roxo e rosa. À esquerda, um nódulo dérmico reconhecível pelo padrão de arranjo; à direita, miocárdio com infiltrado inflamatório — núcleos azuis entre fibras rosadas.])
 
-Três rotas adicionais explicam alvos específicos. A *via dos polióis* converte glicose em sorbitol pela aldose-redutase consumindo NADPH; menos NADPH significa menos glutationa reduzida e menor defesa antioxidante, e o sorbitol acumulado — incapaz de atravessar a membrana — puxa água por osmose no cristalino e no nervo. A ativação da *proteína quinase C* pelo excesso de diacilglicerol aumenta permeabilidade vascular, expressão de fator de crescimento endotelial e deposição de matriz. A *via da hexosamina* modifica fatores de transcrição por adição de N-acetilglicosamina e altera a expressão de fator de crescimento transformador beta e do inibidor do ativador de plasminogênio, com fibrose e trombogenicidade como saída.
+A regra de carga explica leituras que parecem decorebas isoladas. O plasmócito tem citoplasma intensamente basófilo porque é uma fábrica de anticorpo, e fábrica de proteína secretada significa retículo rugoso abundante. A célula em necrose fica hipereosinofílica por dois motivos somados: perde o RNA citoplasmático, que puxava hematoxilina, e tem suas proteínas desnaturadas, o que expõe mais sítios para a eosina — enquanto o núcleo escurece e encolhe, fragmenta-se e desaparece. E a distinção nítida entre núcleo e citoplasma, que o slide destaca como virtude do método, é justamente o que torna possível avaliar a relação núcleo-citoplasma discutida em 2.3.
 
-As quatro rotas convergem: todas aumentam a produção mitocondrial de espécies reativas de oxigênio, e o estresse oxidativo as realimenta. Como todas dependem de glicose *intracelular* alta, atingem preferencialmente as células que captam glicose sem depender de insulina — endotélio, pericito, célula mesangial, neurônio, cristalino, epitélio tubular. Os órgãos-alvo do diabetes são exatamente esses tecidos.
+A HE é rápida, barata e universal: fica pronta em poucas horas, permite avaliar padrões de arranjo tecidual e gera a hipótese. O que ela não faz é identificar moléculas — duas neoplasias de células pequenas e azuis podem ser indistinguíveis nela, e é dessa limitação que nascem as quatro ferramentas seguintes.
 
-#parte-title("PARTE III — Onde o dano aparece: órgãos-alvo e o que a imagem enxerga")
+#subtopico("3.2 — Histoquímica: reagentes dirigidos a classes de moléculas")
 
-#subtopico("3.1 — Microangiopatia: retina e glomérulo")
+A HE separa estruturas por carga elétrica, o que é uma regra grosseira. A histoquímica troca essa regra por uma reação química dirigida a uma classe de moléculas — carboidrato, lipídeo, ferro, colágeno, componente de parede de microrganismo —, e por isso responde perguntas que a rotina deixa em aberto.
 
-A retina é servida por vasos terminais sem circulação colateral, e é o único leito capilar do corpo examinável diretamente. O primeiro alvo é o #termo-nota[pericito][célula contrátil que envolve o capilar e regula o seu calibre], que capta glicose independentemente de insulina, sofre pelas quatro rotas da PARTE II e morre. O capilar perde suporte de parede e dilata focalmente em #termo-nota[microaneurismas][dilatações focais da parede capilar, formadas onde o suporte do pericito se perdeu; são as primeiras lesões detectáveis ao exame de fundo de olho]; a permeabilidade aumentada deposita *exsudatos duros* — plasma e lipoproteína extravasados — e a fragilidade da parede produz hemorragias puntiformes.
+O método mais usado é o #sigla("PAS", [ácido periódico-reativo de Schiff — coloração que revela carboidratos, da membrana basal ao glicogênio e à parede de fungos]). O ácido periódico oxida carbonos adjacentes que carregam hidroxilas, abundantes em açúcares, gerando aldeídos; o reativo de Schiff liga-se a eles e assume cor magenta, corando glicogênio, muco neutro, membrana basal e parede de fungo. Tratando o corte com diastase antes, o glicogênio é digerido e some — o que persiste é muco ou membrana basal, e o método traz o próprio controle.
 
-A fase proliferativa não é recuperação. A retina isquêmica libera fator de crescimento endotelial e o organismo fabrica neovasos frágeis que crescem para dentro do vítreo: eles sangram, produzindo hemorragia vítrea, e o tecido fibroso que os acompanha traciona e descola a retina. Quando crescem sobre a íris e o ângulo camerular, bloqueiam a drenagem do humor aquoso e produzem glaucoma neovascular. A catarata tem mecanismo próprio e osmótico: a aldose-redutase converte glicose em sorbitol, que não atravessa a membrana da fibra do cristalino, acumula, puxa água e opacifica a lente — o mesmo mecanismo explica as oscilações de refração do paciente descompensado.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-31.png",
-  largura: 58%,
-  legenda: [Os órgãos marcados no esquema são os que captam glicose sem depender de insulina, mais os leitos arteriais atingidos pela aterosclerose acelerada.])
-
-No glomérulo, a hiperglicemia dilata a arteríola aferente mais do que a eferente: a pressão no capilar glomerular sobe e a filtração aumenta. Essa *hiperfiltração* é a primeira alteração funcional da doença, e a sobrecarga mecânica que ela impõe produz a esclerose de anos depois — o aumento da filtração inicial não é sinal de rim preservado.
-
-O que se deposita é matriz. A membrana basal espessa e muda de composição, como em 2.2, e a matriz mesangial se expande, primeiro difusamente e depois em nódulos arredondados — a glomeruloesclerose nodular de Kimmelstiel-Wilson. *Não há infiltrado inflamatório proeminente*: é acúmulo de matriz, não glomerulonefrite. As arteríolas aferente e eferente sofrem #termo-nota[hialinização][depósito de material proteico homogêneo e eosinofílico na parede do vaso, que a enrijece e estreita a luz], que é lesão de arteríola e não se confunde com a aterosclerose das artérias de médio e grande calibre.
-
-A tradução laboratorial tem ordem. A albuminúria aparece primeiro, porque a barreira de carga glomerular se perdeu — a albumina passa pelo glomérulo, não por falha tubular. A creatinina sobe muito depois, porque a hiperfiltração dos néfrons remanescentes mascara a perda dos já esclerosados: creatinina normal não exclui nefropatia. A glicosúria, a retenção urinária por neuropatia autonômica e a redução da quimiotaxia e da explosão respiratória do neutrófilo em hiperglicemia somam-se para explicar a predisposição à pielonefrite.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-33.png",
-  largura: 58%,
-  legenda: [As duas pontas da história no mesmo exame: rim *aumentado* na hiperfiltração inicial; rim reduzido, com córtex afilado e ecogenicidade aumentada no estágio final — fibrose devolve mais som que parênquima funcionante.])
-
-#subtopico("3.2 — Neuropatia e pé diabético")
-
-A neuropatia diabética resulta de dois mecanismos somados. Os *vasa nervorum*, capilares que nutrem o tronco nervoso, sofrem a mesma microangiopatia da retina e do glomérulo e isquemiam o nervo; em paralelo, o sorbitol acumulado e a glicação de proteínas do axônio e da mielina lesam a fibra diretamente. O achado funcional é a queda da velocidade de condução, e o padrão clínico é o comprometimento em bota e luva, que começa pelas fibras mais longas.
-
-O pé diabético soma três falhas independentes no mesmo território. A *neuropatia sensitiva* remove a dor protetora, e o trauma repetido — calçado apertado, corpo estranho, calo que ulcera — não é percebido nem interrompido. A *neuropatia autonômica* reduz a sudorese, resseca a pele e abre fissuras que servem de porta de entrada. A *doença arterial periférica* limita o aporte de oxigênio, de células de defesa e do antibiótico administrado. Somam-se a reticulação do colágeno por AGEs, que trava o remodelamento da matriz, e a disfunção do neutrófilo em hiperglicemia.
-
-Quando a isquemia é suficiente, o tecido morre com padrão de *gangrena*: necrose, tipicamente isquêmica, comprometendo pele, subcutâneo, músculo e osso simultaneamente. Diz-se seca sem infecção superposta e úmida com ela — o termo descreve a morte tecidual, não a infecção.
-
-#atencao-box("Charcot não é osteomielite", [
-A *artropatia de Charcot* é destruição mecânica: a articulação sem propriocepção nem dor recebe microtraumas repetidos sem correção postural, e a arquitetura do médio-pé se desmonta com erosão das superfícies articulares, fragmentação, subluxação e colapso do arco plantar. Não há infecção — há trauma acumulado sobre um pé que não avisa.
-
-A *osteomielite* é infecção da medular óssea, em geral por contiguidade a partir de úlcera plantar profunda, e exige antibioticoterapia prolongada e com frequência desbridamento.
-
-As duas coexistem no mesmo pé, e a confusão custa nos dois sentidos: antibiótico não imobiliza a articulação que continua se destruindo, e imobilização não contém a infecção que progride para o osso vizinho e para a corrente sanguínea.
-])
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-42.png",
-  largura: 58%,
-  legenda: [Antepé, médio-pé e retropé na artropatia de Charcot: erosão das superfícies articulares e desalinhamento, sem reação periosteal de infecção.])
-
-A escolha do método de imagem segue o tempo do achado. A radiografia só demonstra alteração após perda óssea significativa, com atraso de uma a duas semanas — insuficiente para excluir osteomielite aguda. A #sigla("RM", [ressonância magnética — método baseado no comportamento dos núcleos de hidrogênio em campo magnético, com alta resolução para partes moles e medula óssea]) detecta o edema da medular óssea muito antes: baixo sinal em T1, alto sinal em T2 com saturação de gordura, e realce após contraste no tecido inflamado e perfundido.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-43.png",
-  largura: 58%,
-  legenda: [A mesma região aparece escura em T1, clara em T2 com saturação de gordura e realçada após contraste — a assinatura do edema e da inflamação da medular óssea.])
-
-#subtopico("3.3 — Macroangiopatia: aterosclerose acelerada e como se procura por ela")
-
-O diabetes acelera a aterosclerose por quatro caminhos já construídos: a LDL glicada captada sem regulação pelo macrófago, a inativação do óxido nítrico com disfunção endotelial, o estado pró-inflamatório do eixo AGE–RAGE, e um estado pró-coagulante com mais fator tecidual, mais inibidor do ativador de plasminogênio e menos fibrinólise.
-
-O evento agudo vem da *ruptura* da placa, não do seu crescimento até ocluir. Uma placa com núcleo lipídico grande e capa fibrosa fina se fissura, expõe colágeno e fator tecidual ao sangue, e a trombose resultante oclui a luz em minutos — placa pouco estenosante pode matar, enquanto placa muito estenosante e estável dá angina previsível por anos. Aplicada ao diabético, a tríade de Virchow destaca *lesão endotelial* e *alteração de fluxo por turbulência* sobre a placa, somadas à hipercoagulabilidade; a estase é o eixo da trombose venosa por imobilidade, cenário distinto.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-34.png",
-  largura: 58%,
-  legenda: [Dois ramos a partir do mesmo ponto: a placa estável estreita a luz e dá angina previsível; a placa vulnerável se instabiliza e o desfecho passa a depender do trombo — suboclusivo dá síndrome coronariana aguda, oclusivo dá infarto ou morte súbita.])
-
-Como a aterosclerose tem período assintomático longo, a imagem é usada para procurá-la antes do evento, e cada método responde a uma pergunta distinta.
-
-#align(center, table(
-  columns: (auto, 1fr, auto, 1fr),
-  inset: 6pt,
-  align: left + horizon,
+#align(center)[
+#text(size: 8.6pt)[
+#table(
+  columns: (auto, 1fr, 1fr),
+  inset: 5.5pt,
+  align: left + top,
   stroke: 0.4pt + gray-border,
-  fill: (_, y) => if y == 0 { navy } else { white },
-  table.header(
-    text(fill: white, weight: "bold", size: 8.5pt)[Método],
-    text(fill: white, weight: "bold", size: 8.5pt)[O que mede],
-    text(fill: white, weight: "bold", size: 8.5pt)[Custo],
-    text(fill: white, weight: "bold", size: 8.5pt)[Quando escolher],
-  ),
-  text(size: 8.5pt)[Escore de cálcio],
-  text(size: 8.5pt)[Carga de placa calcificada, acima de 130 unidades Hounsfield em área mínima de 1 mm²],
-  text(size: 8.5pt)[Radiação baixa, sem contraste],
-  text(size: 8.5pt)[Estratificar risco em assintomático; não mostra a luz],
-  text(size: 8.5pt)[Angiotomografia de coronárias],
-  text(size: 8.5pt)[A luz do vaso, com especificidade alta e valor preditivo negativo próximo de 100%],
-  text(size: 8.5pt)[Radiação e contraste iodado],
-  text(size: 8.5pt)[Excluir doença em probabilidade pré-teste baixa a intermediária],
-  text(size: 8.5pt)[Cateterismo],
-  text(size: 8.5pt)[Grau de estenose com precisão, e permite tratar no mesmo tempo],
-  text(size: 8.5pt)[Invasivo, risco baixo mas real],
-  text(size: 8.5pt)[Alta probabilidade pré-teste, ou lesão grave já detectada],
-))
+  table.header([*Método*], [*Alvo químico*], [*Onde decide*]),
+  [PAS · Alcian blue], [carboidratos; muco neutro e ácido], [membrana basal, glicogênio, fungo, muco],
+  [Ziehl-Neelsen], [ácidos micólicos da parede], [micobactéria (bacilo álcool-ácido resistente)],
+  [Grocott (prata)], [polissacarídeos da parede fúngica], [fungo em tecido, contorno negro],
+  [Brown-Hopps], [parede bacteriana (Gram tecidual)], [bactéria em abscesso e vegetação],
+  [Perls], [ferro férrico da hemossiderina], [hemorragia antiga, sobrecarga de ferro],
+  [Fontana-Masson], [melanina], [pigmento castanho de origem melanocítica],
+  [Masson · Picro-Sirius], [colágeno], [fibrose e cirrose, quantificação],
+  [Verhoeff · resorcina-fucsina], [fibra elástica], [parede arterial, elastose],
+  [Oil Red O], [lipídeo neutro], [esteatose e embolia gordurosa, só em congelação],
+)]]
 
-A regra que organiza a tabela: *um exame só é útil quando o resultado pode mudar a conduta*. Com probabilidade pré-teste alta, uma angiotomografia negativa não seria aceita e uma positiva levaria ao cateterismo de qualquer modo — o exame acrescenta radiação e contraste sem alterar a decisão. Com probabilidade baixa a intermediária, o resultado negativo encerra a investigação, e é aí que o valor preditivo negativo alto tem valor.
+Duas linhas da tabela carregam mais mecanismo do que parece. O #termo-nota[bacilo álcool-ácido resistente][micobactéria, cuja parede rica em ácidos micólicos retém a carbol-fucsina mesmo sob descoloração por álcool e ácido — daí o nome do achado] retém o corante porque a parede cerosa é impermeável ao descorante, não por afinidade especial: o método explora uma propriedade física da parede. E o Oil Red O só funciona em congelação porque o álcool e o xilol da rotina já dissolveram a gordura, como ficou estabelecido em 2.2.
 
-A mesma leitura por densidade vale nos outros territórios. Na tomografia de crânio sem contraste, a área isquêmica é *hipoatenuante* porque o edema citotóxico aumenta o conteúdo de água do tecido; sangue agudo é hiperatenuante. Na aorta, a calcificação parietal extensa e o alargamento do vaso registram a mesma doença em calibre maior.
+Há um limite embutido no nome: a identificação histoquímica é *grosseira* no sentido técnico — reconhece a classe química, não a molécula. PAS positivo indica material rico em carboidrato, que pode ser glicogênio, muco ou fungo, e o contexto morfológico decide. Do mesmo modo, um pigmento castanho na rotina tem candidatos que só as reações separam: hemossiderina azula no Perls, melanina escurece no Fontana-Masson, lipofuscina não reage a nenhum dos dois, e antracose é preta e não cora — é carvão inerte.
 
-#clinica-box("Do mecanismo à estratégia terapêutica", [
-No infarto por trombose sobre placa rota, cada estratégia ataca um elo da cadeia deste resumo. O *antiagregante plaquetário* age na hemostasia primária, reduzindo adesão e agregação sobre o colágeno exposto. O *trombolítico* age depois do trombo formado, ativando o plasminogênio em plasmina, que degrada a rede de fibrina. A *desobstrução mecânica com implante de stent* restabelece a luz e reduz a turbulência que realimenta a ativação endotelial.
+#clinica-box("Quando o achado morfológico não fecha o agente", [
+Um granuloma com necrose caseosa no pulmão levanta tuberculose, mas o mesmo padrão aparece em micoses profundas e em micobactérias não tuberculosas: o Ziehl-Neelsen procura o bacilo no corte, o Grocott procura fungo no mesmo material.
 
-As três convergem no mesmo alvo: o endotélio ativado, que perdeu o perfil antitrombótico e passou a expressar fator tecidual e fator de von Willebrand enquanto reduz óxido nítrico e ativador de plasminogênio. Controlar a glicemia atua antes disso, sobre a glicação que produziu a disfunção endotelial.
+O ponto de atenção está no negativo. A carga bacilar em lesão bem organizada pela imunidade é baixa, e um Ziehl negativo não exclui tuberculose — segue-se para cultura, que leva semanas, ou para amplificação de ácido nucleico, que responde em horas. A ferramenta seguinte é acionada pela limitação da anterior, não por preferência.
 ])
+
+#subtopico("3.3 — Imunohistoquímica e imunofluorescência: o anticorpo como reagente")
+
+A #sigla("IHQ", [imunohistoquímica — identificação de proteínas no corte histológico por meio de anticorpos específicos, com revelação por reação enzimática]) usa como reagente a molécula mais específica que a biologia produz. Um anticorpo dirigido contra um epítopo da proteína procurada é aplicado sobre o corte; onde a proteína estiver, ele fica.
+
+Cada passo da sequência técnica tem uma razão. O corte passa antes pela recuperação antigênica, que desfaz parte das pontes de metileno do formol e reexpõe o epítopo. Bloqueia-se a peroxidase endógena do tecido, que produziria cor falsa. Aplica-se o anticorpo primário e, depois, um anticorpo secundário biotinilado, que reconhece o primeiro; sobre ele monta-se o complexo avidina-biotina carregado de peroxidase. A enzima oxida a diaminobenzidina, que precipita como pigmento castanho insolúvel *no local exato da reação* — e é essa insolubilidade que permite ver a proteína sobre a arquitetura preservada, com hematoxilina contracorando os núcleos. Cada etapa custa incubação e lavagem: por isso o método acrescenta ao menos 24 horas ao tempo do laudo.
+
+#figura-nebli("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-29.png",
+  largura: 53%,
+  legenda: [À esquerda, marcação nuclear; à direita, marcação de membrana desenhando o contorno de cada célula. O castanho está nos dois, mas o resultado é diferente — a localização faz parte da resposta.])
+
+O padrão de marcação é parte do resultado. Receptor de estrogênio e o marcador de proliferação Ki-67 marcam *núcleo*, porque são proteínas nucleares; o #sigla("HER2", [receptor 2 do fator de crescimento epidérmico humano — proteína de membrana cuja superexpressão indica terapia dirigida]) e a caderina-E marcam *membrana*, porque são proteínas de superfície; citoqueratina e actina marcam *citoplasma*. Marcação num compartimento incompatível com a biologia da proteína é artefato, e é por isso que toda bateria roda com controle positivo e controle negativo.
+
+#atencao-box("Marcação no lugar errado é resultado errado", [
+Uma reação para HER2 que aparece difusa no citoplasma, sem desenhar a membrana, não é HER2 positivo — é reação inespecífica. Ler apenas a presença do castanho, sem a localização, inverte condutas: um resultado falso-positivo indica um tratamento caro e cardiotóxico a quem não vai se beneficiar dele, e um falso-negativo nega o tratamento a quem responderia.
+])
+
+A imunohistoquímica presta dois serviços. O primeiro é dizer *o que* é a lesão e de onde ela veio: citoqueratina indica carcinoma, o antígeno leucocitário comum indica linfoma, S-100 e Melan-A indicam melanoma; numa metástase de sítio primário desconhecido, marcadores como TTF-1, CDX2 e GATA3 apontam pulmão e tireoide, trato digestório e mama. O segundo é *predizer resposta a tratamento*: receptor de estrogênio positivo indica hormonioterapia, superexpressão de HER2 indica anticorpo dirigido contra ele — e aqui a coloração deixa de ser diagnóstica e passa a ser preditiva.
+
+#figura-lateral("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-30.png",
+  lado: "left",
+  largura-figura: 40%,
+  texto: [A #sigla("IF", [imunofluorescência — variante da imunohistoquímica em que o anticorpo carrega um fluoróforo, lida em microscópio de fluorescência]) troca a enzima por um fluoróforo. Ela é a técnica de escolha na biópsia renal e nas doenças bolhosas da pele, e exige tecido *congelado*, porque a fixação e a inclusão destroem a antigenicidade dos imunocomplexos depositados. A topografia da fluorescência entrega o mecanismo: depósito *linear* ao longo da membrana basal glomerular indica anticorpo dirigido contra a própria membrana; depósito *granular* indica imunocomplexos circulantes que se depositaram ali. Mesmo corante, mesmo órgão, doenças diferentes.],
+  legenda: [Glomérulo em IF e o esquema da amplificação por avidina-biotina.])
+
+#subtopico("3.4 — Microscopia eletrônica e patologia molecular: resolução e genótipo")
+
+Existe um limite físico onde o microscópio óptico para, e ampliar não o resolve. A resolução — menor distância entre dois pontos que ainda aparecem separados — é imposta pelo comprimento de onda da luz visível, entre 400 e 700 nanômetros, e fica em torno de 0,2 micrômetro; além disso, só se amplia o borrão. A microscopia eletrônica usa elétrons acelerados, de comprimento de onda associado da ordem de 0,004 nanômetro, e alcança na prática poucos nanômetros: ganho de cerca de mil vezes.
+
+Esse ganho tem custo proporcional. O tecido é fixado em glutaraldeído, pós-fixado em tetróxido de ósmio, incluído em resina epóxi, cortado em fatias ultrafinas de 60 a 90 nanômetros — cinquenta vezes mais finas que o corte de parafina — e contrastado com sais de metais pesados. Poucos centros mantêm a estrutura, o que obriga a seleção prévia rigorosa: manda-se o caso cuja pergunta só ela responde.
+
+#figura-nebli("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-24.png",
+  largura: 49%,
+  legenda: [Corte transversal de cílios. À esquerda, o padrão normal de nove pares periféricos e um par central; à direita, as setas apontam onde deveriam estar os braços de dineína — a ausência mede cerca de 25 nanômetros e é invisível na microscopia óptica.])
+
+A discinesia ciliar primária é o exemplo canônico. O #termo-nota[axonema][esqueleto interno do cílio, com nove pares de microtúbulos periféricos ao redor de um par central e braços de dineína que promovem o deslizamento entre os pares] só é resolvido no microscópio eletrônico, e o defeito diagnóstico é a ausência dos braços de dineína, de algumas dezenas de nanômetros. Sem eles o cílio não bate: falha o transporte mucociliar, com sinusite e otite de repetição e bronquiectasias; o flagelo do espermatozoide, que tem o mesmo axonema, não se move, e há infertilidade. No embrião, os cílios do nó que estabelecem a assimetria direita-esquerda também param, e cerca de metade dos pacientes tem situs inversus — a síndrome de Kartagener. A mesma técnica é rotina na biópsia renal, onde mede a membrana basal glomerular e localiza depósitos elétron-densos que a luz não mostra.
+
+A patologia molecular faz a pergunta seguinte: qual mutação, qual sequência, qual gene amplificado. A #sigla("PCR", [reação em cadeia da polimerase — amplificação exponencial de um segmento definido de DNA, que multiplica por milhões uma sequência inicialmente indetectável]) dobra o número de cópias do alvo a cada ciclo, e detecta o que está abaixo do limiar morfológico: micobactéria escassa demais para o Ziehl, genoma viral, rearranjo clonal de linfócitos. A hibridização *in situ* faz o oposto — a sonda marcada é aplicada sobre o próprio corte e a leitura preserva a topografia; na #sigla("FISH", [hibridização in situ por fluorescência — sondas aplicadas ao corte, que permitem contar cópias de um gene dentro de cada núcleo]) contam-se os sinais núcleo a núcleo, e a amplificação de HER2 é definida por razão igual ou maior que 2,0 entre cópias do gene e do centrômero do cromossomo 17.
+
+#confusao-prevista(
+  titulo: "Mais aumento não é mais resolução",
+  aluno_acha: [aluno acha que basta uma objetiva mais forte para enxergar organela na lâmina de rotina],
+  mecanismo: [resolução é fixada pelo comprimento de onda da radiação; ampliação apenas escala a imagem. Ver um braço de dineína de 25 nanômetros exige trocar a luz pelo elétron, não trocar a lente.],
+)
+
+#figura-nebli("/figuras/pat-01-ferramentas-diagnostico-patologico/slide-31.png",
+  largura: 51%,
+  legenda: [À esquerda, a morfologia na rotina; à direita, o mesmo material em hibridização in situ, com os sinais fluorescentes contados núcleo a núcleo. O teste molecular é acoplado à morfologia, não a substitui.])
+
+O limite do método vem de 2.2: o DNA fragmentado pelo formol restringe a amplificação a segmentos curtos, e material muito antigo ou mal fixado pode não amplificar. O produto final não é apenas um nome — a mutação identificada define o fármaco dirigido a ela, como os inibidores de tirosina-quinase nos tumores com mutação do #sigla("EGFR", [receptor do fator de crescimento epidérmico — a mutação ativadora dele define sensibilidade ao inibidor]).
 
 #conclusao-box[
-O princípio que atravessa o resumo: *diabetes é um defeito de sinal cujo produto — glicose intracelular alta e prolongada — é quimicamente reativo*. O restante é consequência dessa reatividade encontrando tecidos incapazes de se proteger dela.
+O princípio que atravessa o resumo cabe numa frase: *cada ferramenta da patologia responde a uma pergunta diferente, e a pergunta é definida pela cadeia etiologia–patogênese–morfologia–clínica*. Não há hierarquia entre elas, há complementaridade — a palavra que o professor destaca em vermelho no mapa das ferramentas.
 
-O mecanismo nuclear é a glicação não-enzimática avançando em etapas de reversibilidade decrescente — base de Schiff em horas, produto de Amadori em dias, ligação cruzada irreversível em meses — e o eixo AGE–RAGE convertendo dano químico em programa inflamatório com retroalimentação positiva. A mesma distinção entre etapas reversíveis e irreversíveis explica por que a hemoglobina glicada mede controle e por que a lesão do diabetes tem memória.
+O mecanismo nuclear é a troca permanente entre o que se preserva e o que se perde. O formol preserva a forma criando pontes de metileno, e ao fazê-lo mascara epítopo, fragmenta DNA e abre caminho para o xilol dissolver o lipídeo; a congelação preserva antigenicidade e gordura, e destrói o detalhe com cristal de gelo; a citologia alcança qualquer nódulo com uma agulha fina, e perde a arquitetura que decide invasão. Escolher a ferramenta é escolher qual perda é aceitável diante da pergunta feita.
 
-Adoecem os tecidos que captam glicose sem depender de insulina e não conseguem fechar a porta quando a glicemia sobe — pericito, célula mesangial, endotélio, neurônio periférico, cristalino. Cada um tem uma assinatura de imagem que corresponde ao substrato descrito pelo patologista: o rim que aumenta antes de encolher, a erosão articular sem reação periosteal do Charcot, o edema de medular óssea da osteomielite, a calcificação coronariana medida em unidades Hounsfield, o parênquima hipoatenuante do infarto cerebral.
+Na clínica isso aparece como sequência ordenada, não como cardápio: a hematoxilina-eosina gera a hipótese em horas; a histoquímica entra quando a hipótese envolve uma classe química; a imunohistoquímica entra para nomear a proteína, e nela o padrão de marcação faz parte do resultado; a microscopia eletrônica e os testes moleculares entram quando a resposta está abaixo do limite óptico ou dentro do genoma — e é aí que o laudo passa a escolher o tratamento.
 
-Duas portas ficam abertas. A inflamação crônica e o reparo tecidual: o que a PARTE III chamou de auto-perpetuador é, no vocabulário da patologia, inflamação crônica com fibrose, e o pé que não cicatriza é reparo travado. E a trombose: a placa que rompe e o trombo que se forma sobre ela são hemostasia funcionando como deveria, no lugar errado.
+O que vem a seguir usa isso como alfabeto: alterações celulares reversíveis e irreversíveis, inflamação e reparo, distúrbios circulatórios e neoplasias serão descritos nos termos aqui montados — o que se vê a olho nu, o que se vê na lâmina, o que a reação revela e o que só o anticorpo, o elétron ou a sonda alcançam.
 ]

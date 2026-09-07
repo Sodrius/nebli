@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- gr-02-diabetes-mellitus | Gerado por gerar_main.py
+// MAIN.TYP -- pat-01-ferramentas-diagnostico-patologico | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,11 +8,11 @@
 
 // ======= CAPA =======
 #capa(
-  "Diabetes mellitus",
-  "Da hiperglicemia às complicações de órgão-alvo",
+  "Ferramentas do diagnóstico patológico",
+  "Patologia",
   (
-    ("Disciplina", "Patologia · Bioquímica · Imunologia · Radiologia"),
-    ("Onde estudar", "Robbins & Cotran, Patologia — capítulo do Sistema Endócrino, § Diabetes mellitus · Lehninger, Princípios de Bioquímica — Regulação hormonal e integração metabólica · Brant & Helms, Fundamentos de Radiologia — tórax cardiovascular e musculoesquelético"),
+    ("Disciplina", "Patologia"),
+    ("Onde estudar", "Robbins & Cotran — Patologia: Bases Patológicas das Doenças (cap. 1) · Bogliolo — Patologia Geral (cap. 1 e 2) · Rosai and Ackerman's Surgical Pathology (cap. 1) · Manual de procedimentos do laboratório de anatomia patológica"),
   ),
 )
 
@@ -22,21 +22,20 @@
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — O sinal que falta", (
-      "1.1 A insulina e seus freios",
-      "1.2 Tipo 1: ilhota destruída",
-      "1.3 Tipo 2: sinal não escutado",
-      "1.4 Diurese osmótica e descompensações",
+    ("PARTE I — A doença como cadeia", (
+      "1.1 Etiologia e patogênese",
+      "1.2 Morfologia: presença, grau e tempo",
+      "1.3 Frentes da patologia e causa da morte",
     )),
-    ("PARTE II — Do açúcar ao dano", (
-      "2.1 Glicação e os dois relógios",
-      "2.2 O AGE nas proteínas de vida longa",
-      "2.3 RAGE e as outras rotas",
+    ("PARTE II — Do corpo à lâmina", (
+      "2.1 Macroscopia e amostragem",
+      "2.2 Fixação e processamento",
+      "2.3 Citopatologia e punção guiada",
     )),
-    ("PARTE III — Onde o dano aparece", (
-      "3.1 Retina e glomérulo",
-      "3.2 Neuropatia e pé diabético",
-      "3.3 Aterosclerose e imagem",
+    ("PARTE III — As cinco ferramentas", (
+      "3.1 Hematoxilina e eosina: química das cores",
+      "3.2 Histoquímica: reações por classe",
+      "3.3–3.4 Anticorpo, elétron e sonda",
     )),
   )),
 ))
@@ -58,40 +57,40 @@
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
-  ("Consolidação (Q01–Q08)", (
-    ("01", "D"),
-    ("02", "ECCE"),
-    ("03", "C"),
+  ("Consolidação (Q01–Q10)", (
+    ("01", "C"),
+    ("02", "CCEE"),
+    ("03", "D"),
     ("04", "A"),
-    ("05", "CCCE"),
-    ("06", "E"),
-    ("07", "CCEE"),
-    ("08", "C"),
+    ("05", "CCEC"),
+    ("06", "B"),
+    ("07", "E"),
+    ("08", "CECC"),
+    ("09", "D"),
+    ("10", "B"),
   )),
-  ("Integração (Q09–Q25)", (
-    ("09", "B"),
-    ("10", "CCEC"),
-    ("11", "D"),
-    ("12", "A"),
-    ("13", "CECC"),
-    ("14", "B"),
-    ("15", "D"),
-    ("16", "ECCC"),
-    ("17", "B"),
-    ("18", "C"),
-    ("19", "CEEC"),
+  ("Integração (Q11–Q25)", (
+    ("11", "E"),
+    ("12", "CCCE"),
+    ("13", "ECCC"),
+    ("14", "C"),
+    ("15", "ECEE"),
+    ("16", "A"),
+    ("17", "D"),
+    ("18", "EECC"),
+    ("19", "B"),
     ("20", "E"),
-    ("21", "A"),
-    ("22", "EECC"),
-    ("23", "D"),
-    ("24", "B"),
-    ("25", "CEEE"),
+    ("21", "CEEC"),
+    ("22", "C"),
+    ("23", "A"),
+    ("24", "ECCE"),
+    ("25", "D"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
+    ("26", "B"),
     ("27", "E"),
-    ("28", "A"),
-    ("29", "D"),
-    ("30", "EECE"),
+    ("28", "CEEE"),
+    ("29", "C"),
+    ("30", "D"),
   )),
 ))

@@ -1,33 +1,30 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("Um defeito de sinal, dois caminhos",
-   [O receptor de insulina é uma tirosina-quinase que traz vesículas prontas de GLUT-4 à membrana e, além de abrir a porta, freia lipólise, gliconeogênese e proteólise. No tipo 1 a ilhota é destruída por autoimunidade e a fonte desse sinal acaba; no tipo 2 o sinal chega e a célula não responde, com insulina normal ou *alta* por anos. A hiperglicemia é o resultado comum de dois defeitos opostos.]),
+  ("A cadeia que organiza o raciocínio",
+   [Etiologia é o que causa, patogênese é como causa, alterações morfológicas são o rastro deixado no tecido e manifestações clínicas são esse rastro chegando à beira do leito. A morfologia é secundária ao mecanismo, e é por isso que descrevê-la bem permite reconstruir o mecanismo para trás.]),
 
-  ("Por que o tipo 1 cetoacidota",
-   [Sem insulina, a lipase hormônio-sensível fica livre e inunda o fígado de ácido graxo; a acetil-CoA gerada excede o ciclo de Krebs e vira cetoácido. No tipo 2 a insulina residual segura a lipólise — por isso ele descompensa como estado hiperosmolar, sem cetose.]),
+  ("A morfologia mede grau e data o evento",
+   [Ela não diz apenas que há lesão: diz quanta e desde quando. No infarto, neutrófilos nas primeiras 24 horas, macrófagos entre o terceiro e o sétimo dia, tecido de granulação na segunda semana e cicatriz colágena ao fim de semanas. Nas primeiras horas a lâmina ainda é normal — alteração funcional precede a estrutural.]),
 
-  ("O sintoma nasce no túbulo",
-   [Acima de cerca de 180 mg/dL a reabsorção tubular satura e a glicose fica no lúmen, retendo água por osmose. A poliúria vem primeiro, desidrata, eleva a osmolaridade e só então dispara a sede. O emagrecimento soma glicosúria, lipólise e proteólise.]),
+  ("A declaração de óbito é a cadeia escrita ao contrário",
+   [Na parte I, a primeira linha traz a causa imediata e cada linha abaixo traz a condição que originou a de cima; a última linha preenchida é a causa básica, que iniciou a sequência. A parte II reúne o que contribuiu sem pertencer à cadeia — o diabetes que permitiu a lesão, não o trauma que a iniciou.]),
 
-  ("Glicação em três etapas, com reversibilidade decrescente",
-   [Base de Schiff em horas e reversível; Amadori em dias e pouco reversível; ligação cruzada irreversível em semanas a meses. O tempo que a glicose passa alta define até onde a reação avança — e a proteína de vida longa é a que paga.]),
+  ("A amostragem define o que vale um resultado negativo",
+   [O que vira lâmina é uma fração mínima da peça, e a escolha é feita na macroscopia, antes de qualquer coloração. Erro de amostragem é a principal causa de falso-negativo: em material exíguo, ausência de achado significa que aquela amostra não continha a lesão.]),
 
-  ("Dois relógios do controle",
-   [A hemoglobina glicada integra 8 a 12 semanas porque a hemácia vive esse tanto; a frutosamina lê 2 a 3 semanas porque a albumina vive esse tanto. Onde a sobrevida da hemácia é anormal, o primeiro exame engana e o segundo resolve.]),
+  ("O formol preserva a forma e cobra três preços",
+   [As pontes de metileno entre proteínas param a autólise e enrijecem o tecido, mas mascaram epítopos, o que obriga à recuperação antigênica na imunohistoquímica; fragmentam o DNA, o que limita a amplificação a segmentos curtos; e o processamento em álcool e xilol dissolve o lipídeo, o que joga o Oil Red para a congelação.]),
 
-  ("O AGE não só reticula: ele sinaliza",
-   [Ligado ao RAGE em monócito, endotélio e célula mesangial, ativa NF-κB e dispara citocinas, adesão e fator tecidual. A via aumenta a expressão do próprio receptor e o estresse oxidativo, que gera mais AGE — a alça que torna o dano auto-perpetuado.]),
+  ("Citologia sugere; histologia decide invasão",
+   [A punção por agulha fina dá acesso a qualquer nódulo e lê atipia célula a célula — relação núcleo-citoplasma aumentada, hipercromasia, nucléolo proeminente. Mas invasão é uma relação espacial com a membrana basal, e só existe em fragmento com arquitetura: a separação entre lesão in situ e invasora exige biópsia.]),
 
-  ("Quem adoece é quem não fecha a porta",
-   [Pericito, célula mesangial, endotélio, neurônio e cristalino captam glicose sem depender de insulina e não reduzem a entrada quando a glicemia sobe. Os órgãos-alvo do diabetes são esses tecidos, pelas rotas do poliol, da PKC, da hexosamina e do AGE.]),
+  ("A hematoxilina-eosina é química de carga",
+   [O complexo hematoxilina-alumínio é catiônico e se liga aos fosfatos dos ácidos nucleicos, corando núcleo e retículo rugoso de azul; a eosina é aniônica e se liga a lisina e arginina das proteínas, corando citoplasma, colágeno e hemácia de rosa. A célula necrótica fica hipereosinofílica porque perde RNA e desnatura proteína.]),
 
-  ("A microangiopatia órgão a órgão",
-   [Retina: morte de pericito, microaneurisma e, na isquemia, neovaso frágil que sangra. Glomérulo: hiperfiltração que aumenta o rim, membrana basal espessa e mais permeável, albuminúria antes da creatinina, e rim reduzido e hiperecogênico no fim.]),
+  ("Histoquímica identifica classe; imunohistoquímica identifica molécula",
+   [O PAS revela carboidrato, o Ziehl-Neelsen explora a impermeabilidade da parede micobacteriana, o Perls revela ferro férrico — reações por classe química, que o contexto morfológico fecha. O anticorpo, ao contrário, reconhece um epítopo específico, e a diaminobenzidina precipita castanho no local exato da proteína.]),
 
-  ("Três falhas fazem o pé diabético",
-   [A neuropatia sensitiva apaga o alarme da dor, a autonômica resseca a pele e abre fissuras, e a doença arterial periférica tira o aporte que cicatrizaria. Charcot é destruição mecânica de articulação insensível; osteomielite é infecção da medular — coexistem e exigem condutas opostas.]),
-
-  ("A placa mata rompendo, e cada exame responde uma pergunta",
-   [Núcleo lipídico grande e capa fina se fissuram e expõem fator tecidual; o trombo oclui em minutos, mesmo em placa pouco estenosante. O escore de cálcio mede carga de placa, a angiotomografia exclui doença em risco intermediário, o cateterismo quantifica e trata.]),
+  ("O padrão de marcação e o limite de resolução",
+   [Receptor de estrogênio e Ki-67 marcam núcleo, HER2 e caderina-E marcam membrana, citoqueratina marca citoplasma; castanho em compartimento incompatível é artefato. E resolução não é ampliação: os 0,2 micrômetro da luz visível só são superados trocando a luz pelo elétron.]),
 ))

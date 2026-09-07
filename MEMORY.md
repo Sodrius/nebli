@@ -50,6 +50,13 @@
 - **Peso:** alto
 - **Decai em:** não decai enquanto for diretiva de registro — só sai daqui quando duas corridas seguidas fecharem dentro das quatro réguas sem correção.
 
+### 2026-09-07 · pat-01-ferramentas-diagnostico-patologico (corrida sob o registro científico)
+- **Observei:** 2ª corrida inteira sob o § Registro científico. Fechou dentro das quatro réguas — 10 subtópicos, 5.228 palavras de miolo, E1 em 15 páginas exatas, alternativas de Consolidação com média de 11,8 palavras, paridade 30/30 na banda dupla. **Mas precisou de quatro passadas de corte** para sair de 17 → 15 páginas: o rascunho nasceu com 5.620 palavras e 16 figuras.
+- **Padrão a observar:** o excesso não veio de moldura (o filtro das três funções já entra na redação), veio de **figura demais** — 16 figuras num tema de 10 subtópicos, várias acima de 60%. As alavancas que renderam foram, nesta ordem: cortar 2 figuras, capar toda largura em 55% e enxugar caixas clínicas. Para a próxima corrida de tema com slide muito ilustrado: orçar figuras no Tema Card (máx ~13) antes de redigir, não depois.
+- **Regra envolvida:** `ERROS.md` F4 (alavancas 1 e 4) + `CLAUDE.md` § Figuras (largura caso a caso).
+- **Peso:** médio
+- **Decai em:** 5 resumos sem reincidência
+
 ### 2026-08-31 · imuno-07-inflamacao-inicio-resolucao
 - **Observei:** a E1 saiu inflada — 10.547 palavras e 25 páginas contra o teto de 22, ~660 palavras por subtópico. "Você tem escrito demais ora falar pouca coisa, dá pra falar mais com menos palavras." O `profundidade: fundo` foi lido como licença para verbosidade, quando ele só sobe o teto de conteúdo.
 - **Regra envolvida:** `ERROS.md` F10 + `CLAUDE.md` § Preferences e § Registro científico + F4.

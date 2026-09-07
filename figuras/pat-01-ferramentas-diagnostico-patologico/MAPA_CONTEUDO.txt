@@ -1,0 +1,39 @@
+# MAPA_CONTEUDO -- pat-01-ferramentas-diagnostico-patologico
+# Slide-fonte: 52dd62e0-C__Apresenta__o_em_PDF_da_Video_Aula__PT__Ferramentas_do_Diagn_stico_Patol_gico_2.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: burns@usp.br Ferramentas do Diagnóstico Patológico Prof. Dr. Luiz Fernando Ferraz da Silva Faculdade de Medicina da Universidade de São Paulo Departamento de Patologia
+slide-02: burns@usp.br Patologia Alterações Estruturais Alterações Bioquímicas Alterações Funcionais
+slide-03: burns@usp.br Patologia Etiologia Patogênese Alterações morfológicas e funcionais Manifestações Clínicas
+slide-04: burns@usp.br Etiologia e Patogênese Etiologia • O QUE causa a doença • Dois grupos principais: – Genéticos – Adquiridos • Pode ser única ou múltipla
+slide-05: burns@usp.br Etiologia e Patogênese Patogênese • COMO o agente etiológico causa a doença • Falamos portanto dos MECANISMOS: – Genéticos – Bioquímicos • Importância médica
+slide-06: burns@usp.br Etiologia e Patogênese www.topgameskids.com.br www.geneticliteracyproject.org envolverde.com.br
+slide-07: burns@usp.br Etiologia e Patogênese ocw.tufts.edu
+slide-08: burns@usp.br Alterações morfológicas e moleculares • SECUNDÁRIAS / RESULTANTES do processo de patogênese • Podem ser avaliadas macroscopicamente, microscopicamente e/ou ultra-estruturalmente • Auxiliam a definir não apenas a presença, mas o grau de d...
+slide-09: burns@usp.br Alterações morfológicas e moleculares www.brown.edu www.quizlet.com www.en.wikipedia.org
+slide-10: burns@usp.br Alterações morfológicas e moleculares Departamento de Patologia - FMUSP
+slide-11: burns@usp.br Manifestações clínicas É como a patogênese e as alterações morfológicas e moleculares se manifestam à beira do leito
+slide-12: burns@usp.br Manifestações clínicas Departamento de Patologia - FMUSP
+slide-13: burns@usp.br O conhecimento patológico na formação médica Patologia Geral Alterações Celulares Inflamação e Reparo Distúrbios Vasculares Neoplasias Ambiental e Nutricional Imunológicas Genéticas Órgãos e Sistemas
+slide-14: burns@usp.br A patologia na assistência Patologia Autópsia Patologia Cirúrgica Citopatologia Patologia Clínica Patologia Forense Interface com outras especialidades para Diagnóstico e Tratamento
+slide-15: burns@usp.br Ferramentas da anatomia patológica Ferramentas HE Estrutura Geral Microscopia Eletrônica Identificação de ultra- estruturas Avaliação qualitativa ou quantitativa Discinesia Ciliar Histoquímica Identificação grosseira de proteínas e outro...
+slide-16: burns@usp.br Macroscopia • Estudo feito a fresco ou fixado • Pesos e medidas • Cortes • Identificação das lesões • Fotografia • Representação histológica
+slide-17: burns@usp.br Macroscopia
+slide-18: burns@usp.br Processamento
+slide-19: burns@usp.br Processamento
+slide-20: burns@usp.br Interação patologia – radiologia
+slide-21: burns@usp.br Processamento
+slide-22: burns@usp.br Diagnóstico Patológico Ferramentas Fundamentais
+slide-23: burns@usp.br O Mundo em roxo e rosa • Principal Método – Rápida – Permite avaliação de padrões morfológicos – Distinção núcleo – citoplasma
+slide-24: burns@usp.br Para ver mais a fundo • Microscopia Eletrônica – Poucos centros – Seleção prévia – Pensar antes!!! – Doenças específicas!
+slide-25: burns@usp.br Mas nós também gostamos de cores • Métodos Histoquímicos – Rápidos – Avaliação de estruturas específicas • Colágeno – Picro-Sirius, Massom • Fibra Elástica – Verhoeff e Resorcina-Fucsina • Membrana basal – PAS
+slide-26: burns@usp.br Mas nós também gostamos de cores • Métodos Histoquímicos – Avaliação de microorganismos • Bactérias – BH (Gram da histologia) • Fungos – Grocott • BAAR – Ziehl-Nielsen
+slide-27: burns@usp.br Mas nós também gostamos de cores • Métodos Histoquímicos – Avaliação de substâncias • Muco – PAS e Alcian Blue • Gordura – Oil Red • Ferro – PERLS • Melanina – Fontana Masson
+slide-28: burns@usp.br Sejamos específicos • Imunohistoquímica – Acrescente pelo menos 24 horas ao tempo do laudo – Reação específica para identificação in situ” de proteínas
+slide-29: burns@usp.br Sejamos específicos • Imunohistoquímica – Importância do padrão de coloração / localização
+slide-30: burns@usp.br Sejamos específicos • Imunofluorescência
+slide-31: burns@usp.br Sejamos específicos • Testes moleculares – PCR – Hibridização in situ
