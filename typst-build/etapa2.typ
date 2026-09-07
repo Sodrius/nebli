@@ -109,7 +109,7 @@
 
 #questao-ce("15", badge-integracao,
   [Julgue os itens a seguir, que cruzam a química dos corantes de rotina com as alterações da necrose.],
-  (("I",   [A basofilia do citoplasma do plasmócito decorre do acúmulo de imunoglobulina livre no citosol.]),
+  (("I",   [A basofilia do citoplasma do plasmócito decorre do acúmulo de imunoglobulina livre no citosol, e não do retículo endoplasmático rugoso abundante.]),
    ("II",  [A célula necrótica torna-se hipereosinofílica em parte por perder o RNA citoplasmático.]),
    ("III", [A cariólise é a etapa inicial da morte nuclear, anterior à picnose e à cariorrexe.]),
    ("IV",  [A eosina liga-se aos grupos fosfato dos ácidos nucleicos do núcleo celular.])))
