@@ -1,0 +1,54 @@
+# MAPA_CONTEUDO -- biomol-05-operon-procariotos
+# Slide-fonte: c5fa8431-Aula2_regulacao_expressao_bacterias.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: Regulação da Expressão Gênica em Bactérias – o modelo do Operon Alexandre Bruni-Cardoso brunicar@iq.usp.br
+slide-02: Dogma Central da Biologia Molecular
+slide-03: Expressão gênica pode ser regulada em diversos níveis A iniciação do controle transcricional é o mais importante. Por que? Por que existe regulação nas outras camadas? • Transcricional • Pós-transcricional • Traducional • Pós-traducional
+slide-04: Pontuação da transcrição
+slide-05: Nível basal de transcrição Reguladores da expressão Repressores Ativadores Repressão da transcrição Ativação da transcrição
+slide-06: [VISUAL -- usar adjacente com titulo extraivel]
+slide-07: mRNA policistrônico Genes estruturais Sequências regulatórias Sítio de ligação do repressor Operador Promotor A B C Sítio de ligação do Ativador Gene regulador Ativador Repressor OU Produtos gênicos que atuam em trans (são difusíveis e atuam a distân...
+slide-08: INDUÇÃO da expressão sinal molecular se liga na proteína repressora levando a sua dissociação Regulação negativa induzível Repressor ligado inibe a transcrição indutor
+slide-09: REPRESSÃO da expressão Regulação negativa repressível Repressor ligado inibe a transcrição sinal molecular se liga na proteína reguladora levando a sua associação co-repressor
+slide-10: INDUÇÃO da expressão Regulação positiva induzível Ativador ligado facilita a transcrição sinal molecular se liga na proteína reguladora levando a sua associação indutor
+slide-11: REPRESSÃO da expressão Regulação positiva repressível Ativador ligado facilita a transcrição sinal molecular causa a dissociação da proteína reguladora co-repressor
+slide-12: Regulação negativa é mediada por repressores Regulação positiva é mediada por ativadores Indução é mediada por indutores Repressão é mediada por co-repressores
+slide-13: O Operon Genes de bactérias são comumente organizados em Operons. Operon= grupo de genes em sequência controlados por um só promotor e que codificam mRNAs policistrônicos que são traduzidos em proteínas com funções relacionadas (ex. de uma mesma via ...
+slide-14: RNAs bacterianos geralmente são policistrônicos RBS = ribosomal binding site
+slide-15: [VISUAL -- usar adjacente com titulo extraivel]
+slide-16: [VISUAL -- usar adjacente com titulo extraivel]
+slide-17: [VISUAL -- usar adjacente com titulo extraivel]
+slide-18: [VISUAL -- usar adjacente com titulo extraivel]
+slide-19: Regulação negativa induzível do operon da lactose pela ligação do repressor no operador
+slide-20: Regulação negativa do operon da lactose pela ligação do repressor no operador Lactose presente *Lactose (alolactose) é o indutor
+slide-21: [VISUAL -- usar adjacente com titulo extraivel]
+slide-22: Jacob e Monod usaram apenas genética e lógica para propor um modelo que explicasse este fenômeno Que tipos de mutações podem levar a estes fenótipos ? mutantes não induzíveis mutantes constitutivos
+slide-23: Que tipos de mutações podem levar a estes fenótipos ? LacIS = proteína gerada tem baixa afinidade pelo indutor; LaZ- = expressa uma lacZ defeituosa – de forma que não produz beta gal Como distinguir entre estas mutações ? LacI- = expressa repressor q...
+slide-24: Como os experimentos de Jacob e Manod foram realizados? Uso de análogo não- metabolizável de lactose como indutor Uso de merizigotos (diploide parcial) com o uso de transferência de DNA por conjugação https://www.youtube.com/watch?v=vFdhrxq0fyg&t=68s...
+slide-25: [VISUAL -- usar adjacente com titulo extraivel]
+slide-26: Se você inserir uma segunda cópia do operon lac (incluindo uma cópia intacta de lacI) numa célula contendo uma mutação lacI-, o que irá acontecer? 1) O operon lac seria expresso eficientemente somente na ausência de lactose 2) O operon lac seria expr...
+slide-27: Repressor ativo Experimento do diploide parcial Repressor inativo (mutação em LacI) mutação não se manifesta na presença do gene selvagem → ‘recessiva’ ! repressor é uma molécula difusível que pode atuar em uma molécula de DNA diferente da que o orig...
+slide-28: Se você inserir uma segunda cópia do operon lac (incluindo uma cópia intacta de lacI) numa célula contendo uma mutação lacO-, o que irá acontecer? 1) O operon lac seria expresso eficientemente somente na ausência de lactose 2) O operon lac seria expr...
+slide-29: Experimento do diploide parcial Diploide parcial mutação se manifesta na presença do gene selvagem → ‘dominante’ Operador só funciona para a molécula de DNA na qual ele está – só atua em cis
+slide-30: [VISUAL -- usar adjacente com titulo extraivel]
+slide-31: [VISUAL -- usar adjacente com titulo extraivel]
+slide-32: [VISUAL -- usar adjacente com titulo extraivel]
+slide-33: [VISUAL -- usar adjacente com titulo extraivel]
+slide-34: Problema: Como a lactose entra na célula e como a alolactose aparece sem a indução? Existe expressão basal no operon mesmo sem o indutor Por que pode haver expressão basal?
+slide-35: Nível basal de transcrição Repressão da transcrição Ativação da transcrição Regulação integrada do operon lac
+slide-36: [VISUAL -- usar adjacente com titulo extraivel]
+slide-37: [VISUAL -- usar adjacente com titulo extraivel]
+slide-38: Anatomia de um promotor bacteriano Os promotores bacterianos são compostos de elementos de sequência conservada localizados a 5’ (acima) do sítio de início da transcrição. Os elementos mais importantes são as regiões a -10 e a -35. Estas regiões são ...
+slide-39: Matriz consenso do promotor bacteriano
+slide-40: Sequências representativas de promotores em E. coli
+slide-41: Como a RNAP bacteriana reconhece o promotor? A subunidade σ da RNA polimerase se liga às regiões “-35” e “–10” do promotor .
+slide-42: A conformidade baixa com o consenso é a base para o controle da expressão gênica Alguns promotores tem similaridade baixa com o consenso e são, portanto, promotores “fracos”. Os ativadores estimulam a transcrição compensando a inabilidade dos promoto...
+slide-43: O Promotor lac não é perfeitamente idêntico à sequência consenso dos promotores bacterianos consensus -35 sequence: TTGACA -35 sequence of lac: TTTACA consensus -10 sequence: TATAAT -10 sequence of lac: TATGTT
+slide-44: O ativador CAP se liga à 5’ do promotor
+slide-45: A interação entre CAP e a RNAP compensa a imperfeição das sequências do promotor lac em relação ao consenso das sequências promotoras A proteína CAP regulatória recruta a maquinaria de transcrição para o DNA. A energia livre favorável à interação ent...
+slide-46: Nível basal de transcrição Repressão da transcrição Ativação da transcrição

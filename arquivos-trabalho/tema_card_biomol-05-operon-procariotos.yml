@@ -1,0 +1,60 @@
+slug: biomol-05-operon-procariotos
+titulo: "Regulação gênica em bactérias"
+subtitulo: "Biologia Molecular"
+meta:
+  - ["Disciplina", "Biologia Molecular"]
+  - ["Onde estudar", "Lehninger Cap. 28 + Alberts (Biologia Molecular da Célula) Cap. 7"]
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — A gramática da regulação bacteriana"
+        subtopicos:
+          - "1.1 Onde o controle acontece"
+          - "1.2 As quatro combinações lógicas"
+          - "1.3 Operon, cis e trans"
+      - titulo: "PARTE II — O operon lac e a lógica que o revelou"
+        subtopicos:
+          - "2.1 Os cinco elementos do operon"
+          - "2.2 LacI, sensor alostérico"
+          - "2.3 Mutantes e diploide parcial"
+      - titulo: "PARTE III — Promotor, ativador e integração"
+        subtopicos:
+          - "3.1 Anatomia e força do promotor"
+          - "3.2 CAP-cAMP compensa o promotor"
+          - "3.3 Glicose versus lactose"
+
+gabarito:
+  consolidacao:
+    - ["01", "D"]
+    - ["02", "A"]
+    - ["03", "CCEE"]
+    - ["04", "D"]
+    - ["05", "C"]
+    - ["06", "A"]
+    - ["07", "CCEE"]
+    - ["08", "D"]
+    - ["09", "E"]
+    - ["10", "CECC"]
+  integracao:
+    - ["11", "A"]
+    - ["12", "C"]
+    - ["13", "ECCE"]
+    - ["14", "D"]
+    - ["15", "E"]
+    - ["16", "ECCE"]
+    - ["17", "C"]
+    - ["18", "A"]
+    - ["19", "CEEC"]
+    - ["20", "C"]
+    - ["21", "E"]
+    - ["22", "CECC"]
+    - ["23", "D"]
+    - ["24", "C"]
+    - ["25", "EECC"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "A"]
+    - ["28", "CEEC"]
+    - ["29", "B"]
+    - ["30", "CCEC"]

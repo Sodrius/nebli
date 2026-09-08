@@ -154,6 +154,16 @@ Pedido de 2026-05-22. Pipeline que, dado conteúdo de prova segundo cronograma, 
 
 ## § Histórico de decisões canônicas
 
+### 2026-09-08 · Resumo NEBLI de `biomol-05-operon-procariotos` (etapas 1 a 3)
+
+Aula de Biologia Molecular da UC03 (Prof. Alexandre Bruni-Cardoso, IQ-USP; slide de 46 telas). Primeira corrida completa sob o § Registro científico com os três gates novos ligados desde o início.
+
+- **Fechou dentro das quatro réguas sem remediação:** 9 subtópicos (3 PARTES × 3), 5.087 palavras de miolo, **E1 em 14 páginas** (teto 15), média de 12,9 palavras por alternativa de Consolidação (alvo 10–20). `precompile-check`, `auditar_pdf` e `pos_pipeline_check` passaram com 0 erro.
+- **Calibração UC03 aplicada:** `consultar.py` devolveu 7 subquestões (2019, 2024 e 2025) que fixaram o teto histórico — componentes regulatórios nomeados, expressão com e sem substrato, repressão por catabólito, genótipos de diploide parcial, IPTG e X-Gal. O degrau declarado da E1 acrescentou looping de operadores auxiliares, mecanismo do PTS/exclusão do indutor, anatomia quantitativa do promotor e o dominante-negativo do LacI^S.
+- **Paridade Q01–Q30:** 20 MC auditadas, média de ratio 1,01, máximo 1,19, nenhuma fora da banda 0,80–1,25. Gabarito com A5 · B2 · C5 · D5 · E3 (máx. 25%), sem corrida de iguais.
+- **Achado de processo (reforça `ERROS.md` #23):** o gabarito C/E de Q28 saiu divergente das assertivas na primeira redação (planejado CEEC, escrito CECE — padrão ping-pong banido). Só a releitura item a item pegou. A passada manual continua obrigatória enquanto o revisor-gabarito não puder rodar.
+- **Limite da corrida remota:** o passo 11 do `/resumo` (curadoria AnKing + deck-aula) não rodou — a sessão é de nuvem e o AnkiConnect vive em `localhost` na máquina do Davi. Fica pendente para a próxima sessão local com Anki vivo.
+
 ### 2026-09-03 · Registro científico (canonização de diretiva do Davi)
 
 Davi: *"canoniza e mergeia a seguinte indicação: usar uma linguagem mais técnica e cientificamente adequada, sem perder a fluidez e o tom didático, mas fazê-lo com mais rigor. (...) mais sucinta e que dispensa baboseiras, como frases sem nenhum valor. O objetivo é ser uma apostila de alto nível científico."*
