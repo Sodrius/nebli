@@ -1,33 +1,33 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("Um defeito de sinal, dois caminhos",
-   [O receptor de insulina é uma tirosina-quinase que traz vesículas prontas de GLUT-4 à membrana e, além de abrir a porta, freia lipólise, gliconeogênese e proteólise. No tipo 1 a ilhota é destruída por autoimunidade e a fonte desse sinal acaba; no tipo 2 o sinal chega e a célula não responde, com insulina normal ou *alta* por anos. A hiperglicemia é o resultado comum de dois defeitos opostos.]),
+  ("A lesão viral tem dois autores",
+   [O que se vê na lâmina soma o que o vírus faz com a célula e o que o sistema imune faz com a célula infectada. Em vírus pouco citopático, a extensão da lesão mede o vigor da resposta, não a carga viral.]),
 
-  ("Por que o tipo 1 cetoacidota",
-   [Sem insulina, a lipase hormônio-sensível fica livre e inunda o fígado de ácido graxo; a acetil-CoA gerada excede o ciclo de Krebs e vira cetoácido. No tipo 2 a insulina residual segura a lipólise — por isso ele descompensa como estado hiperosmolar, sem cetose.]),
+  ("Três desfechos da célula infectada",
+   [A lise rompe a membrana, vaza conteúdo, gera sinal de perigo e recruta neutrófilo — é a via da inflamação aguda. A apoptose empacota o conteúdo e não recruta ninguém. A transformação celular inverte tudo: a célula sobrevive e prolifera, com destino de neoplasia.]),
 
-  ("O sintoma nasce no túbulo",
-   [Acima de cerca de 180 mg/dL a reabsorção tubular satura e a glicose fica no lúmen, retendo água por osmose. A poliúria vem primeiro, desidrata, eleva a osmolaridade e só então dispara a sede. O emagrecimento soma glicosúria, lipólise e proteólise.]),
+  ("Efeito citopático é a célula viva e deformada",
+   [Sob essa chave estão o bloqueio da síntese proteica, o sincício, a despolimerização do citoesqueleto, a parada mitótica e o acúmulo de componentes virais. Nenhum deles exige a morte da célula, e é esse conjunto que dá o diagnóstico morfológico.]),
 
-  ("Glicação em três etapas, com reversibilidade decrescente",
-   [Base de Schiff em horas e reversível; Amadori em dias e pouco reversível; ligação cruzada irreversível em semanas a meses. O tempo que a glicose passa alta define até onde a reação avança — e a proteína de vida longa é a que paga.]),
+  ("A inclusão marca o compartimento de montagem",
+   [O vírion é pequeno demais para a microscopia óptica; o que se vê é o agregado de nucleocapsídeos. Corpúsculo de Negri é citoplasmático, na raiva; inclusão nuclear tipo Cowdry A aparece no sarampo, no herpes e no citomegalovírus.]),
 
-  ("Dois relógios do controle",
-   [A hemoglobina glicada integra 8 a 12 semanas porque a hemácia vive esse tanto; a frutosamina lê 2 a 3 semanas porque a albumina vive esse tanto. Onde a sobrevida da hemácia é anormal, o primeiro exame engana e o segundo resolve.]),
+  ("Sincício e coilócito denunciam a estratégia",
+   [A proteína de fusão viral exposta na membrana funde células vizinhas e permite propagação sem passar pelo meio extracelular, onde o anticorpo agiria. O coilócito é o halo que sobra quando a proteína E4 do papilomavírus desmonta a queratina perinuclear — marca de infecção produtiva.]),
 
-  ("O AGE não só reticula: ele sinaliza",
-   [Ligado ao RAGE em monócito, endotélio e célula mesangial, ativa NF-κB e dispara citocinas, adesão e fator tecidual. A via aumenta a expressão do próprio receptor e o estresse oxidativo, que gera mais AGE — a alça que torna o dano auto-perpetuado.]),
+  ("O relógio da resposta define o infiltrado",
+   [Interferon tipo I no primeiro ao quinto dia, célula NK do terceiro ao sétimo, linfócito T no décimo, anticorpo depois. Como o interferon recruta linfócito e não neutrófilo, o infiltrado da lesão viral estabelecida é linfomononuclear.]),
 
-  ("Quem adoece é quem não fecha a porta",
-   [Pericito, célula mesangial, endotélio, neurônio e cristalino captam glicose sem depender de insulina e não reduzem a entrada quando a glicemia sobe. Os órgãos-alvo do diabetes são esses tecidos, pelas rotas do poliol, da PKC, da hexosamina e do AGE.]),
+  ("Interferon tipo I é um estado, não uma bala",
+   [Ele não toca no vírus. Instala nas células vizinhas a proteína-quinase R, que paralisa a tradução, e a RNase L, que degrada RNA mensageiro; e eleva o MHC de classe I, o que expõe a célula infectada ao linfócito em vez de protegê-la.]),
 
-  ("A microangiopatia órgão a órgão",
-   [Retina: morte de pericito, microaneurisma e, na isquemia, neovaso frágil que sangra. Glomérulo: hiperfiltração que aumenta o rim, membrana basal espessa e mais permeável, albuminúria antes da creatinina, e rim reduzido e hiperecogênico no fim.]),
+  ("NK lê ausência, CD8 lê presença",
+   [A célula NK mata quem perdeu MHC de classe I e ganhou ligante de estresse; o linfócito T CD8 mata quem exibe peptídeo viral nele. A maquinaria é comum — perforina abre, granzima ativa caspases — e o desfecho é apoptose, que não espalha vírus.]),
 
-  ("Três falhas fazem o pé diabético",
-   [A neuropatia sensitiva apaga o alarme da dor, a autonômica resseca a pele e abre fissuras, e a doença arterial periférica tira o aporte que cicatrizaria. Charcot é destruição mecânica de articulação insensível; osteomielite é infecção da medular — coexistem e exigem condutas opostas.]),
+  ("O vírus B se instala e se acumula",
+   [O cccDNA é um minicromossomo epissomal que nenhum inibidor de polimerase alcança, e sustenta a persistência. O antígeno de superfície, produzido em excesso, enche o retículo liso e dá o hepatócito em vidro fosco; antígeno do core no núcleo é que indica replicação ativa.]),
 
-  ("A placa mata rompendo, e cada exame responde uma pergunta",
-   [Núcleo lipídico grande e capa fina se fissuram e expõem fator tecidual; o trombo oclui em minutos, mesmo em placa pouco estenosante. O escore de cálcio mede carga de placa, a angiotomografia exclui doença em risco intermediário, o cateterismo quantifica e trata.]),
+  ("Da execução célula a célula até a cirrose",
+   [Corpúsculo acidófilo é apoptose isolada e sem infiltrado; necrose lítica é o hepatócito ausente com macrófagos no lugar. A necrose de interface repetida ativa a célula estrelada, que deposita colágeno — septo, nódulo de regeneração e perda definitiva de arquitetura.]),
 ))

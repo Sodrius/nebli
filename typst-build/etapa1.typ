@@ -1,243 +1,237 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #intro-box[
-Diabetes mellitus é um defeito de sinal. A insulina, que informa aos tecidos que há substrato chegando, deixa de ser produzida ou deixa de ser obedecida — e a glicose que se acumula no plasma passa a reagir quimicamente com as proteínas do organismo.
+Um vírus não tem metabolismo próprio: ele só existe enquanto usa a célula. Toda a patologia da infecção viral nasce dessa dependência — do que a célula sofre para produzir vírus, e do que o organismo destrói ao tentar interromper essa produção.
 
-A *PARTE I* percorre por que a glicemia sobe: o que a insulina comanda, os dois defeitos opostos que interrompem esse comando, e como a hiperglicemia vira sintoma. A *PARTE II* trata a glicose alta como reagente e acompanha a glicação não-enzimática até a lesão estrutural que se auto-alimenta. A *PARTE III* localiza essa lesão nos órgãos-alvo e mostra a correspondência entre o substrato que o patologista descreve e o achado que o radiologista enxerga.
+A *PARTE I* percorre o que o vírus faz com a célula que ocupa, e como cada efeito se torna um achado reconhecível ao microscópio. A *PARTE II* mostra que o padrão da lesão é esculpido pela resposta imune — quem chega primeiro, o que cada efetor faz e por que o dano acompanha a resposta, não a carga viral. A *PARTE III* junta as duas metades num órgão só: a hepatite pelo vírus B, do acúmulo de antígeno no hepatócito até a arquitetura cirrótica.
 ]
 
-#parte-title("PARTE I — O sinal que falta: por que a glicose sobe", primeira: true)
+#parte-title("PARTE I — O que o vírus faz com a célula", primeira: true)
 
-#subtopico("1.1 — A insulina e os freios que ela mantém")
+#subtopico("1.1 — Sete efeitos, três destinos")
 
-A célula beta da ilhota pancreática secreta insulina quando a glicose plasmática sobe. O receptor de insulina é uma *tirosina-quinase*, enzima que fosforila resíduos de tirosina de proteínas-alvo: as duas subunidades α ligam o hormônio, as duas subunidades β se autofosforilam e passam a fosforilar o #sigla("IRS-1", [substrato 1 do receptor de insulina — a primeira proteína fosforilada pelo receptor, e o ponto em que a via se ramifica]), que recruta a #sigla("PI3K", [fosfatidilinositol-3-quinase — converte o sinal do receptor em um lipídeo de membrana capaz de ancorar a Akt]) e ativa a Akt. Não há proteína G nem segundo mensageiro nesse caminho.
+A infecção viral lesa a célula por caminhos que terminam em três desfechos distintos, e essa separação organiza toda a aula: a célula rompe, a célula sobrevive alterada, ou a célula sobrevive e passa a proliferar sem controle.
 
-O #sigla("GLUT-4", [transportador de glicose tipo 4 — isoforma insulino-dependente do músculo esquelético e do tecido adiposo]) já existe pronto, estocado em vesículas intracelulares, e a Akt comanda a fusão dessas vesículas com a membrana plasmática. *A insulina não sintetiza o transportador, ela o transloca* — daí o efeito surgir em minutos e desaparecer em minutos quando o sinal cessa.
+A *lise celular* é o desfecho da replicação que consome a célula por dentro. À medida que a maquinaria de síntese é desviada para produzir capsídeo e genoma viral, a membrana perde integridade e o conteúdo citoplasmático — enzimas lisossomais, ácido úrico, #sigla("ATP", [adenosina trifosfato — nucleotídeo energético que, fora da célula, funciona como sinal de perigo]) e fragmentos de DNA — é despejado no interstício. Essas moléculas são #sigla("DAMP", [padrão molecular associado a dano — molécula do interior da célula que, no meio extracelular, sinaliza morte violenta e ativa a resposta inata]), e o macrófago residente que as reconhece libera interleucina-1 e fator de necrose tumoral, citocinas que abrem o endotélio e recrutam neutrófilo em horas. É por isso que o slide liga a lise diretamente a inflamação aguda.
 
-O restante do programa é composto de freios. A insulina ativa a glicogênio-sintase, liga a lipogênese no adipócito e inibe a *lipase hormônio-sensível*, enzima que hidrolisa triacilglicerol em ácido graxo livre; em paralelo, suprime a gliconeogênese hepática e a proteólise muscular. Perder o hormônio é liberar todos esses freios simultaneamente, e é por isso que o quadro clínico do tipo 1 não se resume à glicemia.
+A *apoptose* é o desfecho oposto em termos de repercussão tecidual. A célula infectada se retrai, condensa a cromatina e fragmenta-se em corpos apoptóticos envolvidos por membrana íntegra, prontamente fagocitados pelo vizinho. Nada vaza, nenhum sinal de perigo é liberado e não há quimiotaxia: morre-se muita célula sem infiltrado inflamatório proporcional. A apoptose pode ser disparada pelo próprio vírus, que a usa para dispersar partículas dentro de corpos apoptóticos, ou pelo hospedeiro, que a usa como forma de eliminar a fábrica antes que ela produza.
 
-Um dado de distribuição sustenta as PARTES II e III: *apenas músculo esquelético e tecido adiposo dependem do GLUT-4*. Neurônio, hemácia, endotélio, célula mesangial do glomérulo, pericito da retina, cristalino e epitélio tubular renal captam glicose por transportadores que não respondem à insulina, e por isso não conseguem reduzir a entrada quando a glicemia sobe.
+Entre esses dois extremos está o #termo-nota[efeito citopático][conjunto de alterações morfológicas que a célula infectada exibe ao microscópio óptico sem necessariamente morrer — inclusões, sincícios, arredondamento e parada mitótica], que é o que o patologista efetivamente vê. O professor agrupa quatro entradas sob essa chave. O *bloqueio da síntese proteica* vem dos dois lados: o vírus cliva fatores de iniciação da tradução para monopolizar o ribossomo, e o hospedeiro paralisa a mesma tradução como defesa — mecanismo retomado na PARTE II. A *formação de sincícios* funde células vizinhas numa massa multinucleada. A *despolimerização do citoesqueleto* desfaz a rede de filamentos que sustenta a forma e a adesão, e a célula arredonda e se destaca do vizinho. A *interrupção do ciclo mitótico* trava a célula na fase em que nucleotídeos e enzimas de replicação estão mais disponíveis, sequestrando-os para o genoma viral.
 
-#figura-lateral("/figuras/gr-02-diabetes-mellitus/slide-14.png",
-  lado: "right",
-  largura-figura: 40%,
-  texto: [O intestino sinaliza ao pâncreas antes de a glicose ser absorvida. O #sigla("GLP-1", [peptídeo semelhante ao glucagon 1 — incretina intestinal que amplifica a secreção de insulina dependente de glicose]), liberado pela chegada do alimento ao lúmen, amplifica a secreção de insulina pela célula beta, retarda o esvaziamento gástrico e aumenta a saciedade por ação hipotalâmica. É o *efeito incretínico*, e ele explica por que uma carga oral de glicose eleva mais a insulina do que a mesma carga por via intravenosa.],
-  legenda: [Eixo intestino–pâncreas–encéfalo.])
+O terceiro desfecho inverte a lógica dos dois primeiros. Na *transformação celular*, proteínas virais inativam os freios do ciclo celular e a célula infectada não morre — prolifera. O destino é neoplasia, e o exemplo clássico é o papilomavírus no colo uterino.
 
-#subtopico("1.2 — Tipo 1: a ilhota destruída e o corpo em jejum permanente")
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-04.png",
+  largura: 72%,
+  legenda: [A chave do meio agrupa os efeitos que a célula exibe *estando viva*. Repare que lise e transformação ficam de fora dela: uma termina em ruptura e inflamação aguda, a outra em proliferação — e é a única em que a célula infectada tem futuro.])
 
-O que desencadeia o quadro clínico do tipo 1 não é o valor absoluto da insulina, e sim a queda da *razão insulina/glucagon*. A insulina freia a célula alfa dentro da própria ilhota; sem ela, o glucagon é secretado sem contraposição e o fígado mantém glicogenólise e gliconeogênese enquanto o músculo já não capta glicose. A hiperglicemia é gerada nas duas pontas.
+#mini-resumo[A lise vaza conteúdo → sinal de perigo → neutrófilo. A apoptose empacota o conteúdo → nenhum sinal → nenhum infiltrado. O efeito citopático deixa a célula viva e deformada — e é ele que dá o diagnóstico morfológico.]
 
-A destruição da célula beta é autoimune, mediada sobretudo por linfócitos T citotóxicos, em indivíduos com alelos predisponentes de #sigla("HLA", [antígeno leucocitário humano — o complexo principal de histocompatibilidade humano, cujos alelos de classe II definem boa parte do risco genético do tipo 1]) de classe II. Os autoanticorpos dosados no laboratório — anti-#termo-nota[descarboxilase do ácido glutâmico][enzima citoplasmática da célula beta; o anticorpo anti-GAD65 contra ela é o marcador sorológico mais usado de autoimunidade contra a ilhota], anti-insulina, anti-tirosina-fosfatase da ilhota — são marcadores dessa agressão, não os seus executores principais.
+#subtopico("1.2 — Inclusões: onde o vírus se acumula é onde ele se monta")
 
-A massa funcionante remanescente é estimada pelo #termo-nota[peptídeo C][fragmento liberado em quantidade equimolar à insulina na clivagem da pró-insulina; ausente na insulina exógena e pouco extraído pelo fígado, mede a secreção endógena]: ele sai da pró-insulina junto com a insulina, mas não acompanha a insulina exógena aplicada e escapa da extração hepática de primeira passagem, que retira boa parte da insulina antes da circulação sistêmica.
+Uma fábrica clandestina não é descoberta pela máquina, que é pequena e escondida, mas pelo estoque que ela deixa acumulado num canto. A inclusão viral é esse estoque.
 
-O metabolismo assume então o padrão do jejum com o plasma cheio de glicose. Sem o freio da insulina, a lipase hormônio-sensível libera ácidos graxos em quantidade que excede a capacidade oxidativa hepática: a acetil-CoA gerada ultrapassa a capacidade de consumo do ciclo de Krebs e o excedente é desviado para acetoacetato e β-hidroxibutirato, ácidos fortes cujo acúmulo derruba o pH. A proteólise muscular fornece aminoácidos à gliconeogênese e o balanço nitrogenado fica negativo. A perda ponderal ocorre com ingesta aumentada, porque se perde caloria na urina, triacilglicerol no adipócito e proteína no músculo.
+Um vírion mede de 20 a 300 nanômetros e está bem abaixo do limite de resolução da microscopia óptica, em torno de 0,2 micrômetro — nenhuma partícula isolada é visível na lâmina de hematoxilina-eosina. O que se enxerga é a *inclusão*, agregado de nucleocapsídeos e proteínas virais acumulados em quantidade suficiente para formar uma massa com afinidade tintorial própria, em geral eosinofílica e com contorno definido.
 
-#mini-resumo[Falta de insulina → glucagon sem freio e lipólise sem freio → glicose hepática alta e ácido graxo em excesso → cetoácidos. Hiperglicemia e cetose são efeitos paralelos do mesmo defeito.]
+O #termo-nota[corpúsculo de Negri][inclusão citoplasmática eosinofílica, arredondada, característica da raiva; encontrada sobretudo em neurônios do corno de Ammon e em células de Purkinje] é o exemplo canônico de inclusão citoplasmática. Ele aparece no neurônio, é único ou escasso por célula, e sua localização no citoplasma corresponde ao compartimento em que o vírus da raiva — um vírus de RNA — transcreve, traduz e monta suas partículas.
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-12.png",
+Essa correspondência é a regra que dá utilidade ao achado: *a topografia da inclusão indica o compartimento de replicação*. Vírus de DNA replicam no núcleo, porque dependem da maquinaria de transcrição nuclear da célula, e por isso formam inclusões nucleares — herpes-vírus e citomegalovírus são os exemplos diários; a exceção é o poxvírus, que carrega as próprias enzimas e replica no citoplasma. Vírus de RNA replicam no citoplasma, onde estão os ribossomos e onde sua polimerase própria opera, e as exceções são o ortomixovírus e os retrovírus, que precisam do núcleo.
+
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-05.png",
+  largura: 46%,
+  legenda: [A inclusão está no citoplasma, ao lado do núcleo, e não dentro dele. A barra de 10 µm dá a escala: o corpúsculo tem alguns micrômetros — dezenas de vezes maior que a partícula viral que o compõe.])
+
+O sarampo é a exceção instrutiva. É um vírus de RNA, replica no citoplasma e ali forma inclusões — mas seus nucleocapsídeos também migram para o núcleo e se acumulam como *inclusão nuclear*, o que faz da célula infectada portadora dos dois tipos ao mesmo tempo. A inclusão nuclear eosinofílica cercada por um halo claro, com a cromatina empurrada contra a membrana nuclear, recebe o nome de *corpúsculo de Cowdry tipo A* e não é exclusiva do sarampo: herpes simples e citomegalovírus produzem a mesma imagem. É o contexto — qual tecido, qual quadro clínico, que outras alterações acompanham — que separa os agentes, não a inclusão isolada.
+
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-06.png",
+  largura: 48%,
+  legenda: [Duas células no centro do campo trazem massa eosinofílica dentro do núcleo, com a cromatina deslocada para a periferia. Compare com os núcleos vizinhos, de cromatina distribuída por igual.])
+
+#confusao-prevista(
+  titulo: "Inclusão não é o vírus sendo visto",
+  aluno_acha: [o aluno lê "acúmulo de componentes virais" e imagina estar enxergando partículas virais na lâmina],
+  mecanismo: [o vírion está uma ordem de grandeza abaixo do que a lente resolve. A inclusão só aparece porque milhares de nucleocapsídeos se agregam num mesmo ponto e formam uma massa micrométrica. Enxergar a partícula exige microscopia eletrônica — e é por isso que a inclusão indica infecção, mas não identifica o agente sozinha.],
+)
+
+#subtopico("1.3 — Sincício e coilócito: duas deformações, duas estratégias")
+
+Uma célula com vinte núcleos e uma célula escavada em torno do núcleo parecem acidentes morfológicos sem parentesco. São, na verdade, dois efeitos citopáticos com mecanismo definido, e cada um denuncia a estratégia do vírus que o produziu.
+
+O #termo-nota[sincício][massa citoplasmática única contendo múltiplos núcleos, formada pela fusão de células vizinhas induzida por proteína viral de fusão] se forma quando a célula infectada insere na própria membrana plasmática a glicoproteína de fusão do vírus — a proteína F dos paramixovírus, a gp41 do #sigla("HIV", [vírus da imunodeficiência humana]), a glicoproteína B dos herpes-vírus. Essa proteína é a mesma que funde o envelope viral com a membrana da célula na entrada; exposta na superfície de uma célula já infectada, ela funde essa membrana com a da vizinha. Os citoplasmas se unem, os núcleos se somam, e o resultado é a célula gigante multinucleada da bronquiolite pelo #sigla("VSR", [vírus sincicial respiratório — principal agente de bronquiolite no lactente]), da pneumonia do sarampo e do esfregaço de lesão herpética.
+
+A vantagem para o vírus é direta: passando de citoplasma a citoplasma pela fusão, a partícula nunca atravessa o meio extracelular, onde o anticorpo neutralizante a encontraria. É a razão de a resposta humoral, sozinha, não conter uma infecção estabelecida.
+
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-07.png",
+  largura: 46%,
+  legenda: [Os núcleos aparecem agrupados em ilhas, sem membrana separando-os — cada ilha era um conjunto de células independentes antes da fusão.])
+
+#atencao-box("Sincício viral e célula gigante de granuloma têm origens distintas", [
+As duas são células multinucleadas, e o aluno costuma tratá-las como o mesmo achado. O sincício viral resulta da fusão de células *infectadas* com suas vizinhas, comandada por uma glicoproteína viral de fusão exposta na membrana. A célula gigante do granuloma resulta da fusão de *macrófagos* ativados por interferon-gama, sem participação de vírus, e aparece onde o organismo tenta murar um agente que não consegue digerir. Ler um sincício como granuloma inverte o mecanismo, o agente e o significado do achado.
+])
+
+A #termo-nota[coilocitose][alteração da célula escamosa infectada pelo papilomavírus, com halo claro amplo em torno do núcleo e núcleo aumentado, hipercromático e de contorno irregular] tem outra origem. O #sigla("HPV", [papilomavírus humano]) expressa a proteína E4, que desmonta a rede de filamentos de queratina disposta em torno do núcleo. Sem esse arcabouço, o citoplasma perinuclear colapsa e deixa a cavidade óptica que dá o nome à célula — um caso particular da despolimerização do citoesqueleto listada como efeito citopático em 1.1. O núcleo, em paralelo, aumenta, escurece e adquire contorno enrugado.
+
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-08.png",
+  largura: 52%,
+  legenda: [Duas células centrais mostram o halo perinuclear nítido e núcleos escuros de contorno irregular — uma delas binucleada. Ao redor, células escamosas de citoplasma homogêneo servem de comparação.])
+
+O coilócito marca *infecção produtiva*: o vírus está replicando e montando partículas nas camadas superficiais do epitélio escamoso, onde a célula já se diferenciou. Nas lesões de alto grau o quadro se inverte — o genoma viral tende a integrar-se ao da célula hospedeira, a produção de partículas cai e o coilócito rareia, enquanto a atipia nuclear e as mitoses em camadas altas aumentam. Encontrar coilócito é, portanto, evidência de infecção ativa, não medida de gravidade da lesão.
+
+#mini-resumo[Sincício: proteína de fusão viral na membrana → citoplasmas unidos → propagação sem passar pelo meio extracelular. Coilócito: E4 do HPV desmonta a queratina perinuclear → halo → assinatura de infecção produtiva.]
+
+#parte-title("PARTE II — A resposta do hospedeiro esculpe a lesão")
+
+#subtopico("2.1 — A cronologia da resposta e o infiltrado que ela deixa")
+
+Os efeitos da PARTE I explicam o que acontece dentro de uma célula infectada. Não explicam o campo inteiro que o patologista examina — as células mortas onde nenhum vírus foi detectado, e o infiltrado que ocupa o tecido dias depois. Esse segundo andar da lesão é obra da resposta imune, e ela obedece a um cronograma.
+
+Nos primeiros dias a defesa é *inata*: barreiras epiteliais, células #sigla("NK", [natural killer — linfócito da imunidade inata capaz de matar célula alterada sem reconhecimento de antígeno específico]) e macrófagos, e o sistema complemento. O #sigla("IFN", [interferon — citocina que instala nas células vizinhas um programa de resistência à replicação viral]) tipo I aparece já no primeiro dia e atinge o pico por volta do terceiro ou quarto; a atividade das células NK acompanha, entre o terceiro e o sétimo dia. É essa dupla que derruba a curva de carga viral antes que qualquer resposta específica esteja pronta.
+
+A resposta *adaptativa* ocupa o segundo tempo. Os linfócitos T efetores só chegam ao pico em torno do décimo dia — o intervalo é o tempo de apresentação do antígeno no linfonodo, expansão clonal e migração para o tecido. Os anticorpos sobem depois deles e permanecem em platô por semanas a anos. A leitura clínica desse deslocamento é direta: quadros agudos são governados pela resposta inata, quadros sub-agudos e crônicos exibem a assinatura da resposta adaptativa.
+
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-10.png",
+  largura: 74%,
+  legenda: [A carga viral já está caindo quando os linfócitos T chegam, e despenca antes de o anticorpo subir. Quem contém a fase inicial é o interferon com a célula NK; o anticorpo chega para neutralizar partícula livre e impedir a reinfecção.])
+
+A ordem das chegadas determina a composição do infiltrado, e é aqui que a cronologia vira morfologia. O neutrófilo é recrutado por interleucina-8, liberada por macrófago que reconheceu sinal de perigo — o cenário da lise maciça de 1.1 e da infecção bacteriana extracelular. Já o interferon tipo I induz outro conjunto de quimiocinas, a família CXCL9 a CXCL11, cujos receptores são expressos por linfócito T e célula NK. O tecido infectado por vírus, portanto, chama preferencialmente linfócito e macrófago, e o infiltrado *linfomononuclear* é a assinatura esperada da lesão viral estabelecida.
+
+O complemento participa em duas janelas distintas. As vias alternativa e das lectinas operam desde as primeiras horas, opsonizando partículas virais e lisando vírus envelopados; a via clássica só entra depois, porque depende de anticorpo já formado. Depositar C3b sobre a partícula aumenta a fagocitose, mas não alcança o vírus que já está dentro da célula — limitação que devolve o problema às células citotóxicas.
+
+#mini-resumo[Interferon e NK contêm a fase inicial e derrubam a carga viral; o linfócito T chega no décimo dia; o anticorpo, depois. Como o interferon recruta linfócito e não neutrófilo, o infiltrado da lesão viral é linfomononuclear.]
+
+#subtopico("2.2 — Interferon tipo I: um estado celular, não uma citocina lítica")
+
+O interferon tipo I reúne o *interferon-alfa* e o *interferon-beta*, citocinas que qualquer célula nucleada produz ao detectar replicação viral no próprio citoplasma. O gatilho é o RNA de fita dupla, intermediário obrigatório da replicação de muitos vírus e molécula ausente da célula sadia: receptores citosólicos da família RIG-I e o receptor TLR3, no endossomo, o reconhecem e ativam fatores de transcrição que ligam o gene do interferon.
+
+A citocina liberada age sobre a própria célula e sobre as vizinhas, ligando-se ao receptor IFNAR e acionando a via JAK-STAT, que transcreve centenas de genes estimulados por interferon. Dois deles carregam o efeito antiviral central. A #sigla("PKR", [proteína-quinase R — enzima ativada por RNA de fita dupla que fosforila o fator de iniciação eIF2α e paralisa a tradução]) fosforila o fator de iniciação da tradução e a síntese proteica da célula para — a do vírus junto, porque ele depende do ribossomo do hospedeiro. A 2'-5'-oligoadenilato sintetase produz um segundo mensageiro que ativa a RNase L, endonuclease que degrada RNA mensageiro no citoplasma, viral e celular indistintamente.
+
+O resultado é o que o esquema chama de *estado de resistência antiviral*: a célula vizinha, ainda não infectada, deixa de ser fábrica utilizável antes que o vírus chegue nela. Aqui se fecha o item "bloqueio de síntese proteica" da lista de 1.1 — parte dele é sabotagem viral, e parte é o hospedeiro desligando a própria linha de produção.
+
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-11.png",
+  largura: 66%,
+  legenda: [A célula infectada, à esquerda, não se salva: ela sinaliza. O interferon que ela libera atinge a vizinha sadia, que passa a sintetizar proteína antiviral antes de qualquer contato com o vírus.])
+
+O segundo braço do interferon é imunológico e tem custo. Ele aumenta a expressão do #sigla("MHC", [complexo principal de histocompatibilidade — conjunto de moléculas que exibem peptídeos na superfície celular para inspeção pelo linfócito T]) de classe I, o que amplia a exibição de peptídeos virais na superfície e torna a célula infectada *mais* visível ao linfócito T citotóxico. E ativa NK, linfócito T citotóxico e macrófago. Aumentar a apresentação não protege a célula — condena-a com mais eficiência, em benefício do tecido.
+
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-12.png",
+  largura: 62%,
+  legenda: [A célula do centro, infectada, exporta interferon nas duas direções. As laterais entram em estado de resistência e sobem MHC de classe I; abaixo, o mesmo sinal ativa NK, linfócito T citotóxico e macrófago.])
+
+#atencao-box("O interferon não ataca o vírus", [
+A palavra "antiviral" leva o aluno a imaginar uma molécula que destrói partículas, como um antibiótico destrói bactéria. O interferon nunca toca no vírus. Ele altera a *célula*: paralisa a tradução pela proteína-quinase R, degrada RNA mensageiro pela RNase L e eleva o MHC de classe I. A consequência prática dessa distinção aparece na clínica — o mal-estar, a febre e a mialgia da fase aguda de uma virose são efeitos do interferon sobre o organismo, não do vírus sobre os músculos.
+])
+
+#subtopico("2.3 — NK e linfócito T CD8: matar a célula infectada é a lesão")
+
+A necrose que o patologista descreve na biópsia de uma hepatite não foi produzida pelo vírus. Foi produzida pelo linfócito que reconheceu o hepatócito infectado e o executou — e admitir isso reorganiza a leitura de toda lesão viral.
+
+A célula NK decide sem conhecer o antígeno. Ela não possui receptor antígeno-específico; integra dois sinais opostos. O receptor ativador, NKG2D, lê ligantes de estresse, como as moléculas MICA e MICB, que a célula infectada ou transformada passa a expor. O receptor inibitório, da família #sigla("KIR", [receptor semelhante a imunoglobulina da célula killer — família de receptores inibitórios que leem MHC de classe I na célula-alvo]), lê MHC de classe I: encontrando-o em quantidade normal, cancela a ordem de matar. A morte ocorre quando o sinal ativador está presente e o inibitório ausente — princípio conhecido como #termo-nota[missing self][reconhecimento da ausência: a célula NK executa a célula que deixou de exibir MHC de classe I em quantidade normal, sem precisar identificar o que a alterou].
+
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-13.png",
+  largura: 64%,
+  legenda: [À esquerda, os dois receptores encontram seus ligantes e o sinal inibitório vence: a célula normal é poupada. À direita, falta o MHC de classe I, o freio some e sobra apenas o sinal ativador.])
+
+Essa arquitetura fecha uma armadilha sobre o vírus. Reduzir o MHC de classe I é a estratégia clássica de escape do linfócito T citotóxico — sem peptídeo exibido, não há reconhecimento. Mas a mesma redução remove o freio da NK, que passa a matar a célula justamente por ela ter ficado silenciosa. O vírus escolhe entre ser visto pelo linfócito ou ser denunciado pela ausência.
+
+O linfócito T #sigla("CD8", [marcador de superfície do linfócito T citotóxico, que se liga ao MHC de classe I e restringe o reconhecimento a peptídeos apresentados nessa molécula]) resolve o mesmo problema pelo caminho oposto, com especificidade. Seu receptor reconhece um peptídeo viral específico apresentado em MHC de classe I, e o reconhecimento exige que a célula já tenha sido ativada no linfonodo — o que explica o atraso de dias documentado em 2.1.
+
+A maquinaria letal, no entanto, é a mesma nos dois. A *perforina* polimeriza na membrana da célula-alvo e abre a via de entrada; a *granzima*, protease que penetra por ela, cliva e ativa caspases no citoplasma do alvo. Em paralelo, o ligante de Fas na superfície do linfócito engata o receptor Fas do alvo e dispara a mesma cascata. O desfecho é apoptose, não lise: a célula morre empacotada, sem liberar vírions viáveis nem sinal de perigo — o organismo escolhe o modo de morte que menos dissemina.
+
+#mini-resumo[NK mata por ausência de MHC-I; CD8 mata por presença de peptídeo em MHC-I. A maquinaria é a mesma — perforina abre, granzima ativa caspases — e o desfecho é apoptose, porque lisar espalharia vírus viável.]
+
+Daqui decorre o princípio que governa a PARTE III: em vírus pouco citopático, *a extensão da lesão tecidual mede a intensidade da resposta, não a carga viral*. Uma resposta vigorosa elimina o vírus e destrói muito parênquima no processo; uma resposta fraca preserva o tecido e deixa a infecção persistir.
+
+#parte-title("PARTE III — Hepatite viral: a combinação de tudo num órgão")
+
+#subtopico("3.1 — O vírus B dentro do hepatócito")
+
+O princípio que fecha a PARTE II tem no #sigla("HBV", [vírus da hepatite B]) seu exemplo mais limpo, porque este vírus praticamente não mata a célula que ocupa. A partícula carrega um DNA circular parcialmente dupla-fita e replica por transcrição reversa de um RNA intermediário — combinação incomum que a classificação de Baltimore reserva ao grupo VII.
+
+O nucleocapsídeo levado ao núcleo entrega ali seu genoma, que é reparado e fechado no #termo-nota[cccDNA][DNA circular covalentemente fechado — forma epissomal e estável do genoma do vírus B, que funciona como minicromossomo no núcleo do hepatócito], molde de todas as transcrições subsequentes. Ele não se integra ao genoma da célula e não é alcançado pelos antivirais que inibem a polimerase viral, e é essa dupla propriedade que explica a persistência da infecção e a reativação sob imunossupressão.
+
+A partir do cccDNA a célula transcreve um RNA pré-genômico, que é empacotado num capsídeo novo junto com a polimerase viral. Dentro desse capsídeo ocorre a transcrição reversa, e o genoma de DNA recém-formado segue um de dois caminhos: retorna ao núcleo, ampliando o reservatório de cccDNA, ou brota pelo retículo endoplasmático, onde adquire o envelope.
+
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-15.png",
   largura: 60%,
-  legenda: [O defeito está em andares diferentes: no tipo 1 o pâncreas não entrega o sinal; no tipo 2 o sinal chega em quantidade e a célula-alvo não responde.])
+  legenda: [A seta tracejada de reciclagem é a que sustenta a cronicidade: parte dos capsídeos novos volta ao núcleo em vez de sair da célula, e reabastece o molde que nenhum antiviral remove.])
 
-#clinica-box("O caso que abre a aula", [
-Homem de 26 anos, magro, com dez dias de poliúria, polidipsia e perda de 3 kg; glicemia de 397 mg/dL, hemoglobina glicada de 8,8%, peptídeo C de 1,32 ng/mL e anti-descarboxilase do ácido glutâmico de 1082 UI/mL para valor de referência abaixo de 10.
+O envelope é feito do #sigla("HBsAg", [antígeno de superfície do vírus B — proteína do envelope, produzida em enorme excesso e detectável no soro]), e o hepatócito o produz em quantidade muitas vezes superior à necessária para montar partículas completas. O excedente sai na circulação como partículas subvirais vazias e, dentro da célula, acumula-se nas cisternas do retículo endoplasmático liso. O citoplasma assume então aspecto homogêneo, finamente granular e eosinofílico, com um halo claro separando essa massa da membrana: é o #termo-nota[hepatócito em vidro fosco][hepatócito de citoplasma homogêneo e opaco, repleto de antígeno de superfície acumulado no retículo endoplasmático liso, característico do portador crônico do vírus B]. Trata-se do item "acúmulo de componentes virais" da lista de 1.1, materializado num órgão.
 
-Os três exames respondem perguntas distintas. O autoanticorpo em título cem vezes acima do limite identifica a natureza autoimune da destruição. O peptídeo C mensurável, no limite inferior da normalidade, indica secreção residual preservada em parte — o paciente está no início da história natural, o que explica a ausência de acidose franca à apresentação. A hemoglobina glicada de 8,8% data o início da hiperglicemia semanas antes dos dez dias de sintomas: o sintoma marca a queda da reserva de célula beta, não o início da doença.
-])
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-16.png",
+  largura: 46%,
+  legenda: [A seta aponta um hepatócito de citoplasma opaco e uniforme, sem a granulação grosseira dos vizinhos. O halo claro periférico é o artefato de retração que separa a massa acumulada da membrana.])
 
-#subtopico("1.3 — Tipo 2: o sinal que chega e não é escutado")
-
-No tipo 2 o receptor está íntegro e a falha é pós-receptor. Com oferta calórica alta e sedentarismo, o músculo recebe mais acil-CoA graxo do que oxida, e o excedente acumula dois intermediários lipídicos com atividade de sinalização: *diacilglicerol* e *ceramida*. Ambos ativam *serina-quinases de estresse*, que fosforilam o IRS-1 em resíduos de serina em vez de tirosina. O IRS-1 fosforilado no resíduo errado não recruta a PI3K, a Akt não é ativada, e menos vesículas de GLUT-4 alcançam a membrana.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-09.png",
-  largura: 55%,
-  legenda: [O ácido graxo não apenas compete com a glicose como combustível: ele interrompe a sinalização que traria o GLUT-4 à superfície. A mitocôndria sobrecarregada devolve espécies reativas de oxigênio, que realimentam as serina-quinases.])
-
-O tecido adiposo contribui por uma segunda via. O adipócito hipertrofiado recruta macrófagos e secreta fator de necrose tumoral alfa e interleucina-6, citocinas que ativam as mesmas serina-quinases e reduzem o GLUT-4 de superfície. A obesidade opera como inflamação crônica de baixo grau, e é por essa ponte que produz resistência à insulina.
-
-A resistência isolada não configura diabetes. A célula beta responde à glicemia crescente aumentando a secreção, e a *hiperinsulinemia compensatória* mantém a glicose em faixa quase normal por anos.
-
-#atencao-box("No tipo 2, a insulina pode estar alta", [
-Durante a maior parte da história natural do tipo 2 a insulina está *normal ou elevada*, e a glicemia sobe apesar disso porque o tecido não responde. Insulina alta com glicemia alta não é contradição laboratorial: é o retrato da resistência. A insulina só cai quando, após anos de sobrecarga secretora e de exposição a glicose e ácido graxo em excesso, a célula beta entra em apoptose e a massa de ilhota diminui — e é nessa fase que o tipo 2 passa a exigir insulina exógena.
-])
-
-O defeito é distribuído por vários órgãos. O fígado resiste ao freio da gliconeogênese e mantém produção hepática de glicose mesmo sob insulina alta, o que explica a hiperglicemia de jejum. O adipócito resiste ao freio da lipólise e continua exportando ácido graxo. O intestino perde parte do efeito incretínico. A ilhota acrescenta hiperglucagonemia à queda de secreção.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-11.png",
-  largura: 56%,
-  legenda: [Cinco endereços do mesmo defeito. A produção hepática de glicose que não desliga é a que sustenta a glicemia de jejum, quando nenhuma refeição a justifica.])
-
-#subtopico("1.4 — Diurese osmótica e as duas descompensações")
-
-A glicose é filtrada livremente no glomérulo e reabsorvida no túbulo proximal por transportadores de capacidade máxima finita, saturados em torno de 180 mg/dL de glicemia. Acima desse limiar a glicose excedente permanece no lúmen tubular.
-
-Soluto não reabsorvido retém água por osmose e impede que ela acompanhe o sódio de volta ao interstício: instala-se a #termo-nota[diurese osmótica][perda aumentada de água na urina causada por um soluto não reabsorvido que a retém no lúmen tubular], e o volume urinário sobe. A poliúria precede a sede — a perda de água eleva a osmolaridade plasmática e só então os osmorreceptores hipotalâmicos disparam a polidipsia. Sódio e potássio são arrastados junto.
-
-A perda ponderal soma três parcelas: caloria eliminada como glicose urinária, triacilglicerol mobilizado pela lipólise e proteína muscular consumida pela gliconeogênese. A polifagia coexiste porque a glicose não entrou na célula.
-
-A forma da descompensação depende da insulina residual. No tipo 1, com secreção praticamente ausente, a lipólise segue livre até os cetoácidos e instala-se a *cetoacidose diabética*, com pH baixo, #termo-nota[hiato aniônico][diferença entre os cátions e os ânions medidos no plasma; aumenta quando um ácido não medido, como o cetoácido, se acumula] aumentado e respiração ampla e profunda — compensação respiratória que elimina gás carbônico para tamponar a acidez, não doença pulmonar. No tipo 2, a insulina residual é insuficiente para normalizar a glicemia mas basta para conter a lipase hormônio-sensível; sem lipólise maciça não há cetose, e a descompensação assume a forma de *estado hiperosmolar*, com glicemias mais altas, diurese osmótica prolongada e rebaixamento de consciência.
+#figura-lateral("/figuras/pat-09-patologia-infeccao-viral/slide-17.png",
+  lado: "right",
+  largura-figura: 36%,
+  texto: [A #sigla("IHQ", [imuno-histoquímica — técnica que localiza um antígeno no tecido usando anticorpo marcado, revelado como precipitado castanho]) mostra em que compartimento cada antígeno viral está, e o compartimento informa a fase da infecção. O antígeno de superfície aparece marcado no *citoplasma e na membrana* do hepatócito, coerente com sua rota pelo retículo endoplasmático. Já o #sigla("HBcAg", [antígeno do core do vírus B — proteína do capsídeo, marcador de replicação ativa quando detectada no núcleo do hepatócito]) marca o *núcleo*, onde o capsídeo se monta sobre o RNA pré-genômico — e núcleo positivo significa replicação em curso.],
+  legenda: [Antígeno de superfície: marcação citoplasmática.])
 
 #confusao-prevista(
-  titulo: "Hiperosmolaridade e acidose não são o mesmo distúrbio",
-  aluno_acha: [as duas descompensações são lidas como graus de gravidade de um mesmo processo],
-  mecanismo: [são distúrbios de naturezas distintas que apenas coexistem na cetoacidose. A hiperosmolaridade é distúrbio de *água*, produzido pela diurese osmótica; a acidose é distúrbio de *ácido*, produzido pelos cetoácidos da lipólise. No estado hiperosmolar do tipo 2 a primeira ocorre isolada, e é ela que ameaça a vida.],
+  titulo: "Vidro fosco não é sinal de replicação intensa",
+  aluno_acha: [muito antígeno acumulado deveria significar muito vírus sendo produzido],
+  mecanismo: [o vidro fosco é acúmulo de *envelope*, e o envelope é fabricado em excesso independentemente de quantas partículas completas se montam. Ele caracteriza o portador crônico, em que a produção de antígeno de superfície segue alta e a replicação pode estar baixa. Replicação ativa se marca de outro jeito: antígeno do core positivo dentro do núcleo do hepatócito.],
 )
 
-O potássio inverte a leitura esperada do exame. A diurese osmótica esvazia o estoque corporal total, enquanto a acidose e a ausência de insulina deslocam potássio do intracelular para o plasma. O resultado é potássio sérico normal ou elevado em paciente profundamente depletado — valor que despenca assim que a insulina reconduz o íon para dentro da célula.
+#subtopico("3.2 — Ler a lesão hepatocitária: necrose e apoptose")
 
-#parte-title("PARTE II — Do açúcar ao dano: glicação e as rotas que se perpetuam")
+Reconhecer lesão exige a referência do normal. No fígado sadio, o espaço porta reúne ramo da veia porta, ramo da artéria hepática e ducto biliar, e é delimitado pela *placa limitante*, a fileira de hepatócitos que faz a fronteira com o parênquima. Dali os cordões de hepatócitos se irradiam até a veia centrolobular, separados por sinusoides. O oxigênio cai ao longo desse trajeto, e por isso a zona 1, periportal, é a mais bem oxigenada, e a zona 3, centrolobular, a mais vulnerável à hipóxia.
 
-#subtopico("2.1 — Glicação não-enzimática e os dois relógios do controle")
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-20.png",
+  largura: 52%,
+  legenda: [Os números marcam as três zonas, do espaço porta à veia centrolobular. Na hepatite viral crônica o epicentro da agressão é o extremo 1 desse eixo, junto à placa limitante — o oposto do que ocorre na lesão isquêmica ou tóxica.])
 
-A glicose é um açúcar redutor: possui grupo carbonil livre, que reage espontaneamente com grupos amino de proteínas. A reação é *glicação* — não-enzimática, sem sítio preferencial, governada apenas pelo produto entre concentração de glicose e tempo de exposição. Distingue-se da *glicosilação*, que é enzimática, dirigida a sítios específicos e parte da maturação normal de glicoproteínas. É essa dependência de concentração e tempo que faz da glicação, ao mesmo tempo, o mecanismo da lesão e a base dos exames que medem controle.
+A morte por necrose deixa um vazio. O hepatócito lisado desaparece e no seu lugar fica um agregado de macrófagos e linfócitos, de modo que a lesão é lida pela *ausência* de célula, não pela presença de célula morta — padrão descrito como necrose lítica focal quando ocorre em pontos dispersos pelo lóbulo. Focos maiores podem confluir e ligar espaços porta entre si ou a veias centrolobulares, e essa confluência recebe o nome de necrose em ponte, marcador de agressão grave.
 
-A reação avança em três estágios de reversibilidade decrescente. A *base de Schiff* é a condensação inicial entre o carbonil da glicose e um grupo amino da proteína, tipicamente da lisina ou da valina N-terminal; forma-se em horas e desfaz-se se a glicemia cai. O *produto de Amadori* é o rearranjo da base de Schiff numa cetoamina estável, formado em dias e apenas lentamente reversível. O #sigla("AGE", [produto final de glicação avançada — do inglês *advanced glycation end product*, a forma irreversível da glicação]) resulta de desidratações e oxidações sucessivas ao longo de semanas a meses e estabelece *ligações cruzadas* entre dois radicais protéicos: aqui a reação deixa de reverter.
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-22.png",
+  largura: 43%,
+  legenda: [No centro, um agrupamento denso de células inflamatórias ocupa o espaço onde havia hepatócitos. O que identifica a necrose é a interrupção do cordão, não uma célula morta reconhecível.])
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-15.png",
-  largura: 70%,
-  legenda: [A régua de tempo no alto — horas, dias, semanas a meses — carrega o mecanismo. A barra "reversível" termina antes da ligação cruzada entre duas cadeias protéicas, e é essa etapa final que a normalização da glicemia já não desfaz.])
+A morte por apoptose deixa o oposto: uma célula isolada, retraída, de citoplasma intensamente eosinofílico e núcleo picnótico ou já ausente, sem infiltrado ao seu redor. É o #termo-nota[corpúsculo acidófilo][hepatócito apoptótico isolado, arredondado, de citoplasma fortemente eosinofílico e núcleo picnótico ou ausente; também chamado corpúsculo de Councilman], e ele é a tradução morfológica da execução por linfócito T CD8 descrita em 2.3 — perforina, granzima, caspases, membrana preservada. A ausência de inflamação ao redor não é detalhe estético: é a consequência de a célula ter morrido sem vazar conteúdo, exatamente como previsto em 1.1.
 
-Da escala de tempo decorre a seleção do alvo: acumula AGE a proteína de meia-vida longa — colágeno, elastina, cristalino, membrana basal —, renovada mais devagar do que a reação avança. Proteína de turnover rápido é degradada antes de reticular.
+#figura-lateral("/figuras/pat-09-patologia-infeccao-viral/slide-24.png",
+  lado: "left",
+  largura-figura: 36%,
+  texto: [Distinguir os dois padrões muda a interpretação do caso. Necrose lítica extensa aponta agressão intensa e aguda, com risco de insuficiência hepática. Corpúsculos acidófilos dispersos apontam citotoxicidade linfocitária dirigida, célula a célula — o padrão da hepatite crônica em atividade. Uma terceira alteração completa o repertório: a *degeneração hidrópica*, ou balonização, em que o hepatócito incha por influxo de água após falha das bombas de membrana. Ela é reversível e, sendo aumento de volume, é o oposto morfológico da retração apoptótica.],
+  legenda: [Corpúsculo acidófilo: uma célula, sem infiltrado.])
 
-Os dois exames de controle são produtos de Amadori em proteínas diferentes, e a diferença entre eles é a janela de tempo que cada proteína guarda. A #sigla("HbA1c", [hemoglobina glicada — fração da hemoglobina A que sofreu glicação, expressa em porcentagem da hemoglobina total]) mede a fração glicada da hemoglobina; como a hemácia circula de 90 a 120 dias sem reverter a modificação, o exame integra a exposição à glicose ao longo de 8 a 12 semanas, com peso maior nas últimas quatro. Uma HbA1c de 8,8% corresponde a glicemia média em torno de 205 mg/dL nesse período — no caso da PARTE I, hiperglicemia sustentada muito antes dos dez dias de sintomas. A limitação do exame é a mesma variável que o define: hemólise, sangramento recente ou transfusão encurtam a sobrevida eritrocitária e reduzem a HbA1c para a mesma glicemia média.
+#clinica-box("Hepatite fulminante: quando a resposta é rápida demais", [
+A insuficiência hepática aguda por hepatite viral acomete justamente pacientes com resposta imune vigorosa, e não os mais imunodeprimidos. Uma população grande de linfócitos T CD8 específicos alcança o fígado num intervalo curto e executa hepatócitos em massa; a necrose confluente destrói a maior parte do parênquima antes que a regeneração compense, e instalam-se icterícia intensa, coagulopatia por queda dos fatores de coagulação e encefalopatia por amônia não depurada.
 
-A #termo-nota[frutosamina][conjunto das proteínas plasmáticas glicadas, sobretudo a albumina; como a albumina vive de 14 a 20 dias, o exame reflete as últimas 2 a 3 semanas] resolve exatamente esses casos. A albumina circula de 14 a 20 dias e o exame lê 2 a 3 semanas, o que o torna útil em hemoglobinopatia, anemia hemolítica, gestação e mudança recente de tratamento. No caso da aula os dois caminharam juntos em escalas distintas: HbA1c de 8,8% e frutosamina de 575 μmol/L em abril; 5,2% e 289 μmol/L em agosto, quatro meses após a insulinização.
-
-#subtopico("2.2 — O que o AGE faz nas proteínas de vida longa")
-
-A reticulação do colágeno não produz apenas rigidez: a proteína reticulada *resiste à digestão proteolítica e deixa de ser substituída*. O remodelamento da matriz extracelular depende de degradar colágeno velho para depositar colágeno novo, e as proteases não cortam o substrato reticulado. Esta é a razão bioquímica de a ferida do diabético cicatrizar mal mesmo com perfusão preservada.
-
-A glicação da #sigla("LDL", [lipoproteína de baixa densidade — partícula que transporta colesterol do fígado para os tecidos]) prejudica o reconhecimento da partícula pelo receptor hepático, prolonga o tempo de circulação e favorece a oxidação. A partícula modificada passa a ser captada por *receptores scavenger* do macrófago, que — ao contrário do receptor de LDL — não são inibidos pelo colesterol já acumulado na célula. O macrófago capta sem regulação e se converte em #termo-nota[célula espumosa][macrófago repleto de gotículas lipídicas, elemento fundador da estria gordurosa e da placa de ateroma]. É o elo direto entre hiperglicemia e placa de ateroma, retomado na PARTE III.
-
-#confusao-prevista(
-  titulo: "Membrana basal mais espessa não filtra melhor",
-  aluno_acha: [engrossar a barreira deveria retê-la mais e reduzir a passagem de proteína],
-  mecanismo: [o que muda não é só a espessura, é a *composição*. A membrana basal glomerular do diabético ganha matriz desorganizada e perde proteoglicanos aniônicos, que constituem a barreira de carga que repelia a albumina — também aniônica. O resultado é uma membrana mais espessa e simultaneamente mais permeável a proteína.],
-)
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-17.png",
-  largura: 50%,
-  legenda: [À esquerda, membrana basal normal: fina e homogênea, com pedicelos regularmente espaçados. À direita, a mesma barreira espessada e desorganizada no diabético.])
-
-Há ainda um efeito independente de estrutura: os AGEs *inativam o óxido nítrico*. A menor disponibilidade de óxido nítrico reduz a vasodilatação dependente do endotélio, aumenta a adesão de leucócitos e plaquetas e favorece a proliferação de músculo liso na parede vascular. O primeiro dano vascular do diabetes é funcional e antecede qualquer placa detectável por imagem.
-
-#subtopico("2.3 — RAGE e as outras rotas: como o dano passa a se perpetuar")
-
-O AGE não é apenas produto: é ligante. Monócitos, macrófagos, células endoteliais e células mesangiais expressam o #sigla("RAGE", [receptor para produtos finais de glicação avançada — receptor de membrana que converte a presença de AGE em sinal inflamatório intracelular]); a ligação ativa o #sigla("NF-κB", [fator nuclear kappa B — fator de transcrição que comanda a expressão de genes pró-inflamatórios]) e transcreve um programa que inclui citocinas, fatores de crescimento, moléculas de adesão e fator tecidual. Migração de monócitos, aumento de permeabilidade vascular, atividade pró-coagulante e deposição de matriz extracelular são saídas desse programa.
-
-A alça é positiva: a sinalização por RAGE aumenta a expressão do próprio receptor e o estresse oxidativo local, e as espécies reativas de oxigênio aceleram a formação de novos AGEs. *O dano passa a produzir as condições que o produzem* — o processo auto-perpetuador do esquema da aula, que continua operando quando o estímulo inicial já diminuiu.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-30.png",
-  largura: 55%,
-  legenda: [Alteração metabólica e alteração funcional ainda revertem; a partir das modificações progressivas um dos ramos passa a se alimentar sozinho. É esse ramo que faz a manifestação clínica surgir anos depois e não regredir com o controle.])
-
-Três rotas adicionais explicam alvos específicos. A *via dos polióis* converte glicose em sorbitol pela aldose-redutase consumindo NADPH; menos NADPH significa menos glutationa reduzida e menor defesa antioxidante, e o sorbitol acumulado — incapaz de atravessar a membrana — puxa água por osmose no cristalino e no nervo. A ativação da *proteína quinase C* pelo excesso de diacilglicerol aumenta permeabilidade vascular, expressão de fator de crescimento endotelial e deposição de matriz. A *via da hexosamina* modifica fatores de transcrição por adição de N-acetilglicosamina e altera a expressão de fator de crescimento transformador beta e do inibidor do ativador de plasminogênio, com fibrose e trombogenicidade como saída.
-
-As quatro rotas convergem: todas aumentam a produção mitocondrial de espécies reativas de oxigênio, e o estresse oxidativo as realimenta. Como todas dependem de glicose *intracelular* alta, atingem preferencialmente as células que captam glicose sem depender de insulina — endotélio, pericito, célula mesangial, neurônio, cristalino, epitélio tubular. Os órgãos-alvo do diabetes são exatamente esses tecidos.
-
-#parte-title("PARTE III — Onde o dano aparece: órgãos-alvo e o que a imagem enxerga")
-
-#subtopico("3.1 — Microangiopatia: retina e glomérulo")
-
-A retina é servida por vasos terminais sem circulação colateral, e é o único leito capilar do corpo examinável diretamente. O primeiro alvo é o #termo-nota[pericito][célula contrátil que envolve o capilar e regula o seu calibre], que capta glicose independentemente de insulina, sofre pelas quatro rotas da PARTE II e morre. O capilar perde suporte de parede e dilata focalmente em #termo-nota[microaneurismas][dilatações focais da parede capilar, formadas onde o suporte do pericito se perdeu; são as primeiras lesões detectáveis ao exame de fundo de olho]; a permeabilidade aumentada deposita *exsudatos duros* — plasma e lipoproteína extravasados — e a fragilidade da parede produz hemorragias puntiformes.
-
-A fase proliferativa não é recuperação. A retina isquêmica libera fator de crescimento endotelial e o organismo fabrica neovasos frágeis que crescem para dentro do vítreo: eles sangram, produzindo hemorragia vítrea, e o tecido fibroso que os acompanha traciona e descola a retina. Quando crescem sobre a íris e o ângulo camerular, bloqueiam a drenagem do humor aquoso e produzem glaucoma neovascular. A catarata tem mecanismo próprio e osmótico: a aldose-redutase converte glicose em sorbitol, que não atravessa a membrana da fibra do cristalino, acumula, puxa água e opacifica a lente — o mesmo mecanismo explica as oscilações de refração do paciente descompensado.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-31.png",
-  largura: 58%,
-  legenda: [Os órgãos marcados no esquema são os que captam glicose sem depender de insulina, mais os leitos arteriais atingidos pela aterosclerose acelerada.])
-
-No glomérulo, a hiperglicemia dilata a arteríola aferente mais do que a eferente: a pressão no capilar glomerular sobe e a filtração aumenta. Essa *hiperfiltração* é a primeira alteração funcional da doença, e a sobrecarga mecânica que ela impõe produz a esclerose de anos depois — o aumento da filtração inicial não é sinal de rim preservado.
-
-O que se deposita é matriz. A membrana basal espessa e muda de composição, como em 2.2, e a matriz mesangial se expande, primeiro difusamente e depois em nódulos arredondados — a glomeruloesclerose nodular de Kimmelstiel-Wilson. *Não há infiltrado inflamatório proeminente*: é acúmulo de matriz, não glomerulonefrite. As arteríolas aferente e eferente sofrem #termo-nota[hialinização][depósito de material proteico homogêneo e eosinofílico na parede do vaso, que a enrijece e estreita a luz], que é lesão de arteríola e não se confunde com a aterosclerose das artérias de médio e grande calibre.
-
-A tradução laboratorial tem ordem. A albuminúria aparece primeiro, porque a barreira de carga glomerular se perdeu — a albumina passa pelo glomérulo, não por falha tubular. A creatinina sobe muito depois, porque a hiperfiltração dos néfrons remanescentes mascara a perda dos já esclerosados: creatinina normal não exclui nefropatia. A glicosúria, a retenção urinária por neuropatia autonômica e a redução da quimiotaxia e da explosão respiratória do neutrófilo em hiperglicemia somam-se para explicar a predisposição à pielonefrite.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-33.png",
-  largura: 58%,
-  legenda: [As duas pontas da história no mesmo exame: rim *aumentado* na hiperfiltração inicial; rim reduzido, com córtex afilado e ecogenicidade aumentada no estágio final — fibrose devolve mais som que parênquima funcionante.])
-
-#subtopico("3.2 — Neuropatia e pé diabético")
-
-A neuropatia diabética resulta de dois mecanismos somados. Os *vasa nervorum*, capilares que nutrem o tronco nervoso, sofrem a mesma microangiopatia da retina e do glomérulo e isquemiam o nervo; em paralelo, o sorbitol acumulado e a glicação de proteínas do axônio e da mielina lesam a fibra diretamente. O achado funcional é a queda da velocidade de condução, e o padrão clínico é o comprometimento em bota e luva, que começa pelas fibras mais longas.
-
-O pé diabético soma três falhas independentes no mesmo território. A *neuropatia sensitiva* remove a dor protetora, e o trauma repetido — calçado apertado, corpo estranho, calo que ulcera — não é percebido nem interrompido. A *neuropatia autonômica* reduz a sudorese, resseca a pele e abre fissuras que servem de porta de entrada. A *doença arterial periférica* limita o aporte de oxigênio, de células de defesa e do antibiótico administrado. Somam-se a reticulação do colágeno por AGEs, que trava o remodelamento da matriz, e a disfunção do neutrófilo em hiperglicemia.
-
-Quando a isquemia é suficiente, o tecido morre com padrão de *gangrena*: necrose, tipicamente isquêmica, comprometendo pele, subcutâneo, músculo e osso simultaneamente. Diz-se seca sem infecção superposta e úmida com ela — o termo descreve a morte tecidual, não a infecção.
-
-#atencao-box("Charcot não é osteomielite", [
-A *artropatia de Charcot* é destruição mecânica: a articulação sem propriocepção nem dor recebe microtraumas repetidos sem correção postural, e a arquitetura do médio-pé se desmonta com erosão das superfícies articulares, fragmentação, subluxação e colapso do arco plantar. Não há infecção — há trauma acumulado sobre um pé que não avisa.
-
-A *osteomielite* é infecção da medular óssea, em geral por contiguidade a partir de úlcera plantar profunda, e exige antibioticoterapia prolongada e com frequência desbridamento.
-
-As duas coexistem no mesmo pé, e a confusão custa nos dois sentidos: antibiótico não imobiliza a articulação que continua se destruindo, e imobilização não contém a infecção que progride para o osso vizinho e para a corrente sanguínea.
+O corolário incomoda e é verdadeiro: reduzir a carga viral não seria, nesse cenário, a intervenção que salva o fígado. O paciente sob imunossupressão profunda tende ao extremo oposto — replica muito vírus, exibe pouca inflamação na biópsia e mantém transaminases próximas do normal, porque falta o efetor que produziria a lesão.
 ])
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-42.png",
-  largura: 58%,
-  legenda: [Antepé, médio-pé e retropé na artropatia de Charcot: erosão das superfícies articulares e desalinhamento, sem reação periosteal de infecção.])
+#subtopico("3.3 — Do infiltrado à cirrose: quando a resposta vira arquitetura")
 
-A escolha do método de imagem segue o tempo do achado. A radiografia só demonstra alteração após perda óssea significativa, com atraso de uma a duas semanas — insuficiente para excluir osteomielite aguda. A #sigla("RM", [ressonância magnética — método baseado no comportamento dos núcleos de hidrogênio em campo magnético, com alta resolução para partes moles e medula óssea]) detecta o edema da medular óssea muito antes: baixo sinal em T1, alto sinal em T2 com saturação de gordura, e realce após contraste no tecido inflamado e perfundido.
+A cronicidade transforma o problema: a lesão deixa de ser contada em células e passa a ser contada em arquitetura. O infiltrado que se instala não se distribui ao acaso, e sua topografia reproduz a divisão de trabalho da PARTE II.
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-43.png",
-  largura: 58%,
-  legenda: [A mesma região aparece escura em T1, clara em T2 com saturação de gordura e realçada após contraste — a assinatura do edema e da inflamação da medular óssea.])
+O linfócito B se concentra no espaço porta, formando agregados densos que podem organizar-se em folículo linfoide com centro germinativo — estrutura de tecido linfoide construída dentro do órgão agredido, onde não existia. O linfócito T CD8, ao contrário, dispersa-se pelo lóbulo, entre os cordões, porque é lá que estão os hepatócitos que exibem peptídeo viral em MHC de classe I. A posição segue a função: o linfócito B precisa de estrutura organizada para expandir e produzir anticorpo; o CD8 precisa de contato célula a célula com o alvo.
 
-#subtopico("3.3 — Macroangiopatia: aterosclerose acelerada e como se procura por ela")
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-27.png",
+  largura: 54%,
+  legenda: [A marcação para CD8 sai do espaço porta e invade o parênquima. Cada célula marcada ao lado de um cordão de hepatócitos é um efetor em posição de execução.])
 
-O diabetes acelera a aterosclerose por quatro caminhos já construídos: a LDL glicada captada sem regulação pelo macrófago, a inativação do óxido nítrico com disfunção endotelial, o estado pró-inflamatório do eixo AGE–RAGE, e um estado pró-coagulante com mais fator tecidual, mais inibidor do ativador de plasminogênio e menos fibrinólise.
+Onde o linfócito T CD8 atravessa a placa limitante e mata hepatócitos na borda do espaço porta, instala-se a #termo-nota[necrose de interface][destruição de hepatócitos na fronteira entre o espaço porta e o parênquima, com rompimento da placa limitante pelo infiltrado inflamatório; marcador morfológico de atividade na hepatite crônica]. Ela é o motor da progressão, porque agride repetidamente a mesma região e mantém ali um estímulo permanente de reparo.
 
-O evento agudo vem da *ruptura* da placa, não do seu crescimento até ocluir. Uma placa com núcleo lipídico grande e capa fibrosa fina se fissura, expõe colágeno e fator tecidual ao sangue, e a trombose resultante oclui a luz em minutos — placa pouco estenosante pode matar, enquanto placa muito estenosante e estável dá angina previsível por anos. Aplicada ao diabético, a tríade de Virchow destaca *lesão endotelial* e *alteração de fluxo por turbulência* sobre a placa, somadas à hipercoagulabilidade; a estase é o eixo da trombose venosa por imobilidade, cenário distinto.
+Esse estímulo é recolhido pela #termo-nota[célula estrelada][célula perissinusoidal que armazena vitamina A no fígado normal e, quando ativada, transdiferencia-se em miofibroblasto produtor de colágeno], residente do espaço de Disse. Ativada por fator de crescimento transformador beta liberado por macrófagos e por produtos de hepatócitos lesados, ela perde os depósitos lipídicos, converte-se em miofibroblasto e passa a depositar colágeno tipo I no espaço perissinusoidal. O sinusoide, que era um capilar fenestrado permitindo troca direta com o hepatócito, ganha membrana basal e perde as fenestras — processo de capilarização que compromete a troca antes de qualquer nódulo existir.
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-34.png",
-  largura: 58%,
-  legenda: [Dois ramos a partir do mesmo ponto: a placa estável estreita a luz e dá angina previsível; a placa vulnerável se instabiliza e o desfecho passa a depender do trombo — suboclusivo dá síndrome coronariana aguda, oclusivo dá infarto ou morte súbita.])
+O colágeno depositado a partir dos espaços porta forma septos que ligam espaço porta a espaço porta e espaço porta a veia centrolobular. Entre os septos, os hepatócitos remanescentes proliferam e formam *nódulos de regeneração*. A combinação de septos fibrosos difusos e nódulos regenerativos por todo o órgão define a *cirrose*; a impregnação por prata revela a trama de reticulina distorcida e o tricrômio cora em azul o colágeno dos septos.
 
-Como a aterosclerose tem período assintomático longo, a imagem é usada para procurá-la antes do evento, e cada método responde a uma pergunta distinta.
+#figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-29.png",
+  largura: 54%,
+  legenda: [Os septos corados em azul isolam nódulos de hepatócitos. Repare que os nódulos não têm veia centrolobular no centro nem espaço porta na periferia — a relação entre célula, sinusoide e canalículo biliar foi perdida, e é essa perda que a massa regenerada não recupera.])
 
-#align(center, table(
-  columns: (auto, 1fr, auto, 1fr),
-  inset: 6pt,
-  align: left + horizon,
-  stroke: 0.4pt + gray-border,
-  fill: (_, y) => if y == 0 { navy } else { white },
-  table.header(
-    text(fill: white, weight: "bold", size: 8.5pt)[Método],
-    text(fill: white, weight: "bold", size: 8.5pt)[O que mede],
-    text(fill: white, weight: "bold", size: 8.5pt)[Custo],
-    text(fill: white, weight: "bold", size: 8.5pt)[Quando escolher],
-  ),
-  text(size: 8.5pt)[Escore de cálcio],
-  text(size: 8.5pt)[Carga de placa calcificada, acima de 130 unidades Hounsfield em área mínima de 1 mm²],
-  text(size: 8.5pt)[Radiação baixa, sem contraste],
-  text(size: 8.5pt)[Estratificar risco em assintomático; não mostra a luz],
-  text(size: 8.5pt)[Angiotomografia de coronárias],
-  text(size: 8.5pt)[A luz do vaso, com especificidade alta e valor preditivo negativo próximo de 100%],
-  text(size: 8.5pt)[Radiação e contraste iodado],
-  text(size: 8.5pt)[Excluir doença em probabilidade pré-teste baixa a intermediária],
-  text(size: 8.5pt)[Cateterismo],
-  text(size: 8.5pt)[Grau de estenose com precisão, e permite tratar no mesmo tempo],
-  text(size: 8.5pt)[Invasivo, risco baixo mas real],
-  text(size: 8.5pt)[Alta probabilidade pré-teste, ou lesão grave já detectada],
-))
+#clinica-box("Do vírus B ao carcinoma hepatocelular", [
+A hepatite crônica pelo vírus B eleva o risco de carcinoma hepatocelular por três mecanismos somados. O ciclo de necrose e regeneração mantém hepatócitos em divisão por décadas, e cada divisão é oportunidade de mutação não reparada. A inflamação crônica fornece espécies reativas de oxigênio e nitrogênio, que lesam o DNA diretamente. E fragmentos do genoma viral se integram ao DNA do hepatócito, desregulando genes vizinhos e mantendo a expressão da proteína viral X, que interfere no controle do ciclo celular.
 
-A regra que organiza a tabela: *um exame só é útil quando o resultado pode mudar a conduta*. Com probabilidade pré-teste alta, uma angiotomografia negativa não seria aceita e uma positiva levaria ao cateterismo de qualquer modo — o exame acrescenta radiação e contraste sem alterar a decisão. Com probabilidade baixa a intermediária, o resultado negativo encerra a investigação, e é aí que o valor preditivo negativo alto tem valor.
-
-A mesma leitura por densidade vale nos outros territórios. Na tomografia de crânio sem contraste, a área isquêmica é *hipoatenuante* porque o edema citotóxico aumenta o conteúdo de água do tecido; sangue agudo é hiperatenuante. Na aorta, a calcificação parietal extensa e o alargamento do vaso registram a mesma doença em calibre maior.
-
-#clinica-box("Do mecanismo à estratégia terapêutica", [
-No infarto por trombose sobre placa rota, cada estratégia ataca um elo da cadeia deste resumo. O *antiagregante plaquetário* age na hemostasia primária, reduzindo adesão e agregação sobre o colágeno exposto. O *trombolítico* age depois do trombo formado, ativando o plasminogênio em plasmina, que degrada a rede de fibrina. A *desobstrução mecânica com implante de stent* restabelece a luz e reduz a turbulência que realimenta a ativação endotelial.
-
-As três convergem no mesmo alvo: o endotélio ativado, que perdeu o perfil antitrombótico e passou a expressar fator tecidual e fator de von Willebrand enquanto reduz óxido nítrico e ativador de plasminogênio. Controlar a glicemia atua antes disso, sobre a glicação que produziu a disfunção endotelial.
+Daí a distinção prática: no vírus C e no álcool o carcinoma surge quase sempre sobre fígado já cirrótico, enquanto no vírus B pode aparecer *antes* da cirrose, porque a integração atua por via independente da fibrose — e por isso o portador crônico do vírus B é rastreado mesmo sem cirrose estabelecida.
 ])
 
 #conclusao-box[
-O princípio que atravessa o resumo: *diabetes é um defeito de sinal cujo produto — glicose intracelular alta e prolongada — é quimicamente reativo*. O restante é consequência dessa reatividade encontrando tecidos incapazes de se proteger dela.
+Um princípio único organiza a aula inteira: *o que se vê no tecido é a soma do que o vírus faz com a célula e do que o organismo faz com a célula infectada*. Nenhuma das duas metades explica sozinha uma lâmina de infecção viral.
 
-O mecanismo nuclear é a glicação não-enzimática avançando em etapas de reversibilidade decrescente — base de Schiff em horas, produto de Amadori em dias, ligação cruzada irreversível em meses — e o eixo AGE–RAGE convertendo dano químico em programa inflamatório com retroalimentação positiva. A mesma distinção entre etapas reversíveis e irreversíveis explica por que a hemoglobina glicada mede controle e por que a lesão do diabetes tem memória.
+O mecanismo nuclear que sustenta esse princípio é a economia de sinais. A lise vaza conteúdo e chama neutrófilo; a apoptose empacota e não chama ninguém; o interferon não toca no vírus, mas paralisa a tradução da célula vizinha e eleva o MHC de classe I, expondo o alvo; a célula NK lê a ausência desse MHC e o linfócito T CD8 lê a presença do peptídeo — e ambos matam por perforina e granzima, produzindo apoptose. Cada achado morfológico da aula é o registro visível de um desses passos: a inclusão marca o compartimento de montagem, o sincício marca a proteína de fusão, o coilócito marca a queratina desmontada, o vidro fosco marca o antígeno acumulado, o corpúsculo acidófilo marca a execução linfocitária.
 
-Adoecem os tecidos que captam glicose sem depender de insulina e não conseguem fechar a porta quando a glicemia sobe — pericito, célula mesangial, endotélio, neurônio periférico, cristalino. Cada um tem uma assinatura de imagem que corresponde ao substrato descrito pelo patologista: o rim que aumenta antes de encolher, a erosão articular sem reação periosteal do Charcot, o edema de medular óssea da osteomielite, a calcificação coronariana medida em unidades Hounsfield, o parênquima hipoatenuante do infarto cerebral.
+A hepatite pelo vírus B mostra o preço dessa aritmética. Quem mata o hepatócito é o linfócito, e a intensidade da lesão acompanha o vigor da resposta: resposta explosiva dá necrose confluente e insuficiência aguda; resposta insuficiente dá replicação persistente com biópsia quase limpa; resposta intermediária e prolongada dá o pior desfecho estrutural, porque sustenta a necrose de interface que ativa a célula estrelada.
 
-Duas portas ficam abertas. A inflamação crônica e o reparo tecidual: o que a PARTE III chamou de auto-perpetuador é, no vocabulário da patologia, inflamação crônica com fibrose, e o pé que não cicatriza é reparo travado. E a trombose: a placa que rompe e o trombo que se forma sobre ela são hemostasia funcionando como deveria, no lugar errado.
+O raciocínio se estende adiante: a inflamação que não resolve e o reparo que a acompanha são o tema seguinte, e nele a cirrose deixa de ser desfecho de uma infecção específica para virar o exemplo geral do tecido obrigado a reparar-se sob agressão que não cessa.
 ]

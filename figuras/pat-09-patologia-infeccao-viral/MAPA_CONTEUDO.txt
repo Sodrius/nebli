@@ -1,0 +1,37 @@
+# MAPA_CONTEUDO -- pat-09-patologia-infeccao-viral
+# Slide-fonte: PT-patologia-infeccao-viral.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: burns@usp.br Patologia das Infecções Virais Prof. Dr. Luiz Fernando Ferraz da Silva Faculdade de Medicina da Universidade de São Paulo Departamento de Patologia
+slide-02: burns@usp.br Aspectos Patológicos da Infecção Viral • A biologia do vírus e a patologia • O Padrão de resposta imune e a Patologia
+slide-03: burns@usp.br Efeitos dos vírus sobre a célula / tecido • Lise celular • Apoptose • Bloqueio de síntese protéica • Formação de Sincícios • Despolimerização do citoesqueleto • Interrupção do ciclo mitótico • Transformação celular e proliferação celular
+slide-04: burns@usp.br Efeitos dos vírus sobre a célula / tecido • Lise celular Inflamação Aguda • Apoptose • Bloqueio de síntese protéica • Formação de Sincícios Efeito citopático • Despolimerização do citoesqueleto • Interrupção do ciclo mitótico • Transfor...
+slide-05: burns@usp.br Efeitos dos vírus sobre a célula / tecido • Efeito Citopático – Acúmulos de componentes virais – Inclusão Citoplasmática - Raiva
+slide-06: burns@usp.br Efeitos dos vírus sobre a célula / tecido • Efeito Citopático – Inclusão Nuclear - Sarampo
+slide-07: burns@usp.br Efeitos dos vírus sobre a célula / tecido • Efeito Citopático – Formação de Sincícios
+slide-08: burns@usp.br Efeitos dos vírus sobre a célula / tecido • Efeito Citopático – Coilocitose
+slide-09: burns@usp.br Resposta do Hospedeiro e Patologia • Processo de resposta – Quadros agudos – Resposta Imune Inata • Barreiras • Células NK e Macrófagos • Complemento – Quadros sub-agudos e crônicos – Resposta Imune Adaptativa • Linfócitos T • Linfócitos...
+slide-10: burns@usp.br Resposta do Hospedeiro e Patologia • Processo de resposta
+slide-11: burns@usp.br Resposta do Hospedeiro e Patologia • Processo de resposta – Papel do Interferon
+slide-12: burns@usp.br Resposta do Hospedeiro e Patologia • Processo de resposta – Papel do Interferon
+slide-13: burns@usp.br Resposta do Hospedeiro e Patologia • Processo de resposta – A célula NK
+slide-14: burns@usp.br A combinação de tudo… o exemplo da hepatite • O Vírus e o Ciclo
+slide-15: burns@usp.br A combinação de tudo… o exemplo da hepatite • O Vírus e o Ciclo
+slide-16: burns@usp.br A combinação de tudo… o exemplo da hepatite • Efeito Citopático
+slide-17: burns@usp.br A combinação de tudo… o exemplo da hepatite • Imunohistoquímica - HBsAg
+slide-18: burns@usp.br A combinação de tudo… o exemplo da hepatite • Imunohistoquímica - HBcAg
+slide-19: burns@usp.br A combinação de tudo… o exemplo da hepatite • Processo Inflamatório Crônico
+slide-20: burns@usp.br A combinação de tudo… o exemplo da hepatite • O fígado normal
+slide-21: burns@usp.br A combinação de tudo… o exemplo da hepatite • Lesão Hepatocitária - Necrose
+slide-22: burns@usp.br A combinação de tudo… o exemplo da hepatite • Lesão Hepatocitária - Necrose
+slide-23: burns@usp.br A combinação de tudo… o exemplo da hepatite • Lesão Hepatocitária - Necrose
+slide-24: burns@usp.br A combinação de tudo… o exemplo da hepatite • Lesão Hepatocitária – Indução de Apoptose
+slide-25: burns@usp.br A combinação de tudo… o exemplo da hepatite • Distribuição da lesão
+slide-26: burns@usp.br A combinação de tudo… o exemplo da hepatite • Perfil de resposta – Linfócito B
+slide-27: burns@usp.br A combinação de tudo… o exemplo da hepatite • Perfil de resposta – Linfócito T CD8
+slide-28: burns@usp.br A combinação de tudo… o exemplo da hepatite • Alteração arquitetural – a agressividade da resposta
+slide-29: burns@usp.br A combinação de tudo… o exemplo da hepatite • Alteração arquitetural – a agressividade da resposta
