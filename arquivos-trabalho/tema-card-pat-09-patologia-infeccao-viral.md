@@ -57,7 +57,7 @@ Figuras da PARTE II: `slide-10` (curva temporal, 74%) · `slide-11` (interferon 
 
 Figuras da PARTE III: `slide-15` (ciclo do HBV, 62%) · `slide-16` (vidro fosco, 52%) · `slide-17` (imuno-histoquímica HBsAg — `#figura-lateral`, 36%) · `slide-20` (fígado normal com zonas, 56%) · `slide-24` (corpúsculo acidófilo, 50%) · `slide-27` (CD8 no lóbulo, 56%) · `slide-29` (tricrômio: septos e nódulos, 64%).
 
-**Total planejado: 16 figuras**, todas do slide do professor. Nenhuma cadeia enzimática ≥5 reações (o tema é morfológico, não metabólico) — a obrigatoriedade do erro #12 não se aplica; ainda assim, ciclo do HBV e cronologia da resposta recebem figura.
+**Total planejado: 17 figuras**, todas do slide do professor. Nenhuma cadeia enzimática ≥5 reações (o tema é morfológico, não metabólico) — a obrigatoriedade do erro #12 não se aplica; ainda assim, ciclo do HBV e cronologia da resposta recebem figura.
 
 ---
 
