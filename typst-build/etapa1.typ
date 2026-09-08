@@ -16,12 +16,12 @@ A *lise celular* é o desfecho da replicação que consome a célula por dentro.
 
 A *apoptose* é o desfecho oposto em termos de repercussão tecidual. A célula infectada se retrai, condensa a cromatina e fragmenta-se em corpos apoptóticos envolvidos por membrana íntegra, prontamente fagocitados pelo vizinho. Nada vaza, nenhum sinal de perigo é liberado e não há quimiotaxia: morre-se muita célula sem infiltrado inflamatório proporcional. A apoptose pode ser disparada pelo próprio vírus, que a usa para dispersar partículas dentro de corpos apoptóticos, ou pelo hospedeiro, que a usa como forma de eliminar a fábrica antes que ela produza.
 
-Entre esses dois extremos está o #termo-nota[efeito citopático][conjunto de alterações morfológicas que a célula infectada exibe ao microscópio óptico sem necessariamente morrer — inclusões, sincícios, arredondamento e parada mitótica], que é o que o patologista efetivamente vê. O professor agrupa quatro entradas sob essa chave. O *bloqueio da síntese proteica* vem dos dois lados: o vírus cliva fatores de iniciação da tradução para monopolizar o ribossomo, e o hospedeiro paralisa a mesma tradução como defesa — mecanismo retomado na PARTE II. A *formação de sincícios* funde células vizinhas numa massa multinucleada. A *despolimerização do citoesqueleto* desfaz a rede de filamentos que sustenta a forma e a adesão, e a célula arredonda e se destaca do vizinho. A *interrupção do ciclo mitótico* trava a célula na fase em que nucleotídeos e enzimas de replicação estão mais disponíveis, sequestrando-os para o genoma viral.
+Entre esses dois extremos está o #termo-nota[efeito citopático][conjunto de alterações morfológicas que a célula infectada exibe ao microscópio óptico sem necessariamente morrer — inclusões, sincícios, arredondamento e parada mitótica], que é o que o patologista efetivamente vê. O professor agrupa quatro entradas sob essa chave. O *bloqueio da síntese proteica* vem dos dois lados: o vírus cliva fatores de iniciação da tradução para monopolizar o ribossomo, e o hospedeiro paralisa a mesma tradução como defesa — mecanismo retomado na PARTE II. A *formação de sincícios* funde células vizinhas numa massa multinucleada. A *despolimerização do citoesqueleto* desfaz a rede de filamentos que sustenta a forma e a adesão, e a célula arredonda e se destaca do vizinho. A *interrupção do ciclo mitótico* trava a célula na fase em que nucleotídeos e enzimas de replicação estão mais disponíveis, sequestrando-os para o genoma viral. A esse conjunto o professor acrescenta, nos slides seguintes, o *acúmulo de componentes virais* — a inclusão viral, que o subtópico 1.2 trata à parte pela importância diagnóstica.
 
 O terceiro desfecho inverte a lógica dos dois primeiros. Na *transformação celular*, proteínas virais inativam os freios do ciclo celular e a célula infectada não morre — prolifera. O destino é neoplasia, e o exemplo clássico é o papilomavírus no colo uterino.
 
 #figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-04.png",
-  largura: 72%,
+  largura: 63%,
   legenda: [A chave do meio agrupa os efeitos que a célula exibe *estando viva*. Repare que lise e transformação ficam de fora dela: uma termina em ruptura e inflamação aguda, a outra em proliferação — e é a única em que a célula infectada tem futuro.])
 
 #mini-resumo[A lise vaza conteúdo → sinal de perigo → neutrófilo. A apoptose empacota o conteúdo → nenhum sinal → nenhum infiltrado. O efeito citopático deixa a célula viva e deformada — e é ele que dá o diagnóstico morfológico.]
@@ -40,7 +40,7 @@ Essa correspondência é a regra que dá utilidade ao achado: *a topografia da i
   largura: 46%,
   legenda: [A inclusão está no citoplasma, ao lado do núcleo, e não dentro dele. A barra de 10 µm dá a escala: o corpúsculo tem alguns micrômetros — dezenas de vezes maior que a partícula viral que o compõe.])
 
-O sarampo é a exceção instrutiva. É um vírus de RNA, replica no citoplasma e ali forma inclusões — mas seus nucleocapsídeos também migram para o núcleo e se acumulam como *inclusão nuclear*, o que faz da célula infectada portadora dos dois tipos ao mesmo tempo. A inclusão nuclear eosinofílica cercada por um halo claro, com a cromatina empurrada contra a membrana nuclear, recebe o nome de *corpúsculo de Cowdry tipo A* e não é exclusiva do sarampo: herpes simples e citomegalovírus produzem a mesma imagem. É o contexto — qual tecido, qual quadro clínico, que outras alterações acompanham — que separa os agentes, não a inclusão isolada.
+O sarampo é a exceção instrutiva. É um vírus de RNA, replica no citoplasma e ali forma inclusões — mas seus nucleocapsídeos também migram para o núcleo e se acumulam como *inclusão nuclear*, o que faz da célula infectada portadora dos dois tipos ao mesmo tempo. O *corpúsculo de Cowdry tipo A* é essa inclusão nuclear eosinofílica cercada por halo claro, com a cromatina empurrada contra a membrana nuclear, e não é exclusivo do sarampo: herpes simples e citomegalovírus produzem a mesma imagem. É o contexto — qual tecido, qual quadro clínico, que outras alterações acompanham — que separa os agentes, não a inclusão isolada.
 
 #figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-06.png",
   largura: 48%,
@@ -89,7 +89,7 @@ Nos primeiros dias a defesa é *inata*: barreiras epiteliais, células #sigla("N
 A resposta *adaptativa* ocupa o segundo tempo. Os linfócitos T efetores só chegam ao pico em torno do décimo dia — o intervalo é o tempo de apresentação do antígeno no linfonodo, expansão clonal e migração para o tecido. Os anticorpos sobem depois deles e permanecem em platô por semanas a anos. A leitura clínica desse deslocamento é direta: quadros agudos são governados pela resposta inata, quadros sub-agudos e crônicos exibem a assinatura da resposta adaptativa.
 
 #figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-10.png",
-  largura: 74%,
+  largura: 64%,
   legenda: [A carga viral já está caindo quando os linfócitos T chegam, e despenca antes de o anticorpo subir. Quem contém a fase inicial é o interferon com a célula NK; o anticorpo chega para neutralizar partícula livre e impedir a reinfecção.])
 
 A ordem das chegadas determina a composição do infiltrado, e é aqui que a cronologia vira morfologia. O neutrófilo é recrutado por interleucina-8, liberada por macrófago que reconheceu sinal de perigo — o cenário da lise maciça de 1.1 e da infecção bacteriana extracelular. Já o interferon tipo I induz outro conjunto de quimiocinas, a família CXCL9 a CXCL11, cujos receptores são expressos por linfócito T e célula NK. O tecido infectado por vírus, portanto, chama preferencialmente linfócito e macrófago, e o infiltrado *linfomononuclear* é a assinatura esperada da lesão viral estabelecida.
@@ -104,16 +104,18 @@ O interferon tipo I reúne o *interferon-alfa* e o *interferon-beta*, citocinas 
 
 A citocina liberada age sobre a própria célula e sobre as vizinhas, ligando-se ao receptor IFNAR e acionando a via JAK-STAT, que transcreve centenas de genes estimulados por interferon. Dois deles carregam o efeito antiviral central. A #sigla("PKR", [proteína-quinase R — enzima ativada por RNA de fita dupla que fosforila o fator de iniciação eIF2α e paralisa a tradução]) fosforila o fator de iniciação da tradução e a síntese proteica da célula para — a do vírus junto, porque ele depende do ribossomo do hospedeiro. A 2'-5'-oligoadenilato sintetase produz um segundo mensageiro que ativa a RNase L, endonuclease que degrada RNA mensageiro no citoplasma, viral e celular indistintamente.
 
+#mini-resumo[A proteína-quinase R para a tradução → a célula vizinha deixa de servir de fábrica; a RNase L degrada RNA mensageiro → o vírus perde o molde; o MHC de classe I sobe → a célula infectada fica mais exposta ao linfócito, não mais protegida.]
+
 O resultado é o que o esquema chama de *estado de resistência antiviral*: a célula vizinha, ainda não infectada, deixa de ser fábrica utilizável antes que o vírus chegue nela. Aqui se fecha o item "bloqueio de síntese proteica" da lista de 1.1 — parte dele é sabotagem viral, e parte é o hospedeiro desligando a própria linha de produção.
 
 #figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-11.png",
-  largura: 66%,
+  largura: 58%,
   legenda: [A célula infectada, à esquerda, não se salva: ela sinaliza. O interferon que ela libera atinge a vizinha sadia, que passa a sintetizar proteína antiviral antes de qualquer contato com o vírus.])
 
 O segundo braço do interferon é imunológico e tem custo. Ele aumenta a expressão do #sigla("MHC", [complexo principal de histocompatibilidade — conjunto de moléculas que exibem peptídeos na superfície celular para inspeção pelo linfócito T]) de classe I, o que amplia a exibição de peptídeos virais na superfície e torna a célula infectada *mais* visível ao linfócito T citotóxico. E ativa NK, linfócito T citotóxico e macrófago. Aumentar a apresentação não protege a célula — condena-a com mais eficiência, em benefício do tecido.
 
 #figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-12.png",
-  largura: 62%,
+  largura: 55%,
   legenda: [A célula do centro, infectada, exporta interferon nas duas direções. As laterais entram em estado de resistência e sobem MHC de classe I; abaixo, o mesmo sinal ativa NK, linfócito T citotóxico e macrófago.])
 
 #atencao-box("O interferon não ataca o vírus", [
@@ -127,7 +129,7 @@ A necrose que o patologista descreve na biópsia de uma hepatite não foi produz
 A célula NK decide sem conhecer o antígeno. Ela não possui receptor antígeno-específico; integra dois sinais opostos. O receptor ativador, NKG2D, lê ligantes de estresse, como as moléculas MICA e MICB, que a célula infectada ou transformada passa a expor. O receptor inibitório, da família #sigla("KIR", [receptor semelhante a imunoglobulina da célula killer — família de receptores inibitórios que leem MHC de classe I na célula-alvo]), lê MHC de classe I: encontrando-o em quantidade normal, cancela a ordem de matar. A morte ocorre quando o sinal ativador está presente e o inibitório ausente — princípio conhecido como #termo-nota[missing self][reconhecimento da ausência: a célula NK executa a célula que deixou de exibir MHC de classe I em quantidade normal, sem precisar identificar o que a alterou].
 
 #figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-13.png",
-  largura: 64%,
+  largura: 56%,
   legenda: [À esquerda, os dois receptores encontram seus ligantes e o sinal inibitório vence: a célula normal é poupada. À direita, falta o MHC de classe I, o freio some e sobra apenas o sinal ativador.])
 
 Essa arquitetura fecha uma armadilha sobre o vírus. Reduzir o MHC de classe I é a estratégia clássica de escape do linfócito T citotóxico — sem peptídeo exibido, não há reconhecimento. Mas a mesma redução remove o freio da NK, que passa a matar a célula justamente por ela ter ficado silenciosa. O vírus escolhe entre ser visto pelo linfócito ou ser denunciado pela ausência.
@@ -151,10 +153,10 @@ O nucleocapsídeo levado ao núcleo entrega ali seu genoma, que é reparado e fe
 A partir do cccDNA a célula transcreve um RNA pré-genômico, que é empacotado num capsídeo novo junto com a polimerase viral. Dentro desse capsídeo ocorre a transcrição reversa, e o genoma de DNA recém-formado segue um de dois caminhos: retorna ao núcleo, ampliando o reservatório de cccDNA, ou brota pelo retículo endoplasmático, onde adquire o envelope.
 
 #figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-15.png",
-  largura: 60%,
+  largura: 54%,
   legenda: [A seta tracejada de reciclagem é a que sustenta a cronicidade: parte dos capsídeos novos volta ao núcleo em vez de sair da célula, e reabastece o molde que nenhum antiviral remove.])
 
-O envelope é feito do #sigla("HBsAg", [antígeno de superfície do vírus B — proteína do envelope, produzida em enorme excesso e detectável no soro]), e o hepatócito o produz em quantidade muitas vezes superior à necessária para montar partículas completas. O excedente sai na circulação como partículas subvirais vazias e, dentro da célula, acumula-se nas cisternas do retículo endoplasmático liso. O citoplasma assume então aspecto homogêneo, finamente granular e eosinofílico, com um halo claro separando essa massa da membrana: é o #termo-nota[hepatócito em vidro fosco][hepatócito de citoplasma homogêneo e opaco, repleto de antígeno de superfície acumulado no retículo endoplasmático liso, característico do portador crônico do vírus B]. Trata-se do item "acúmulo de componentes virais" da lista de 1.1, materializado num órgão.
+O envelope é feito do #sigla("HBsAg", [antígeno de superfície do vírus B — proteína do envelope, produzida em enorme excesso e detectável no soro]), e o hepatócito o produz em quantidade muitas vezes superior à necessária para montar partículas completas. O excedente sai na circulação como partículas subvirais vazias e, dentro da célula, acumula-se nas cisternas do retículo endoplasmático liso — a rede de membranas internas por onde as proteínas de envelope transitam antes da montagem, e onde se depositam quando produzidas em excesso. O citoplasma assume então aspecto homogêneo, finamente granular e eosinofílico, com um halo claro separando essa massa da membrana: é o #termo-nota[hepatócito em vidro fosco][hepatócito de citoplasma homogêneo e opaco, repleto de antígeno de superfície acumulado no retículo endoplasmático liso, característico do portador crônico do vírus B]. Trata-se do item "acúmulo de componentes virais" da lista de 1.1, materializado num órgão.
 
 #figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-16.png",
   largura: 46%,
@@ -186,7 +188,7 @@ A morte por necrose deixa um vazio. O hepatócito lisado desaparece e no seu lug
   largura: 43%,
   legenda: [No centro, um agrupamento denso de células inflamatórias ocupa o espaço onde havia hepatócitos. O que identifica a necrose é a interrupção do cordão, não uma célula morta reconhecível.])
 
-A morte por apoptose deixa o oposto: uma célula isolada, retraída, de citoplasma intensamente eosinofílico e núcleo picnótico ou já ausente, sem infiltrado ao seu redor. É o #termo-nota[corpúsculo acidófilo][hepatócito apoptótico isolado, arredondado, de citoplasma fortemente eosinofílico e núcleo picnótico ou ausente; também chamado corpúsculo de Councilman], e ele é a tradução morfológica da execução por linfócito T CD8 descrita em 2.3 — perforina, granzima, caspases, membrana preservada. A ausência de inflamação ao redor não é detalhe estético: é a consequência de a célula ter morrido sem vazar conteúdo, exatamente como previsto em 1.1.
+A morte por apoptose deixa o oposto. O #termo-nota[corpúsculo acidófilo][hepatócito apoptótico isolado, arredondado, de citoplasma fortemente eosinofílico e núcleo picnótico ou ausente; também chamado corpúsculo de Councilman] é o hepatócito apoptótico isolado, retraído, de citoplasma intensamente eosinofílico e núcleo picnótico ou já ausente, sem infiltrado ao seu redor, e ele é a tradução morfológica da execução por linfócito T CD8 descrita em 2.3 — perforina, granzima, caspases, membrana preservada. A ausência de inflamação ao redor não é detalhe estético: é a consequência de a célula ter morrido sem vazar conteúdo, exatamente como previsto em 1.1.
 
 #figura-lateral("/figuras/pat-09-patologia-infeccao-viral/slide-24.png",
   lado: "left",
@@ -210,15 +212,17 @@ O linfócito B se concentra no espaço porta, formando agregados densos que pode
   largura: 54%,
   legenda: [A marcação para CD8 sai do espaço porta e invade o parênquima. Cada célula marcada ao lado de um cordão de hepatócitos é um efetor em posição de execução.])
 
-Onde o linfócito T CD8 atravessa a placa limitante e mata hepatócitos na borda do espaço porta, instala-se a #termo-nota[necrose de interface][destruição de hepatócitos na fronteira entre o espaço porta e o parênquima, com rompimento da placa limitante pelo infiltrado inflamatório; marcador morfológico de atividade na hepatite crônica]. Ela é o motor da progressão, porque agride repetidamente a mesma região e mantém ali um estímulo permanente de reparo.
+Onde o linfócito T CD8 atravessa a placa limitante e mata hepatócitos na borda do espaço porta, instala-se a #termo-nota[necrose de interface][destruição de hepatócitos na fronteira entre o espaço porta e o parênquima, com rompimento da placa limitante pelo infiltrado inflamatório; marcador morfológico de atividade na hepatite crônica]. Ela é o motor da progressão: agride repetidamente a mesma região e mantém ali estímulo permanente de reparo.
 
 Esse estímulo é recolhido pela #termo-nota[célula estrelada][célula perissinusoidal que armazena vitamina A no fígado normal e, quando ativada, transdiferencia-se em miofibroblasto produtor de colágeno], residente do espaço de Disse. Ativada por fator de crescimento transformador beta liberado por macrófagos e por produtos de hepatócitos lesados, ela perde os depósitos lipídicos, converte-se em miofibroblasto e passa a depositar colágeno tipo I no espaço perissinusoidal. O sinusoide, que era um capilar fenestrado permitindo troca direta com o hepatócito, ganha membrana basal e perde as fenestras — processo de capilarização que compromete a troca antes de qualquer nódulo existir.
 
-O colágeno depositado a partir dos espaços porta forma septos que ligam espaço porta a espaço porta e espaço porta a veia centrolobular. Entre os septos, os hepatócitos remanescentes proliferam e formam *nódulos de regeneração*. A combinação de septos fibrosos difusos e nódulos regenerativos por todo o órgão define a *cirrose*; a impregnação por prata revela a trama de reticulina distorcida e o tricrômio cora em azul o colágeno dos septos.
+O colágeno forma septos que ligam espaços porta entre si e a veias centrolobulares, e entre eles os hepatócitos remanescentes proliferam em *nódulos de regeneração*. Septos fibrosos difusos com nódulos regenerativos por todo o órgão definem a *cirrose*; a impregnação por prata revela a reticulina distorcida e o tricrômio cora em azul o colágeno dos septos.
 
 #figura-nebli("/figuras/pat-09-patologia-infeccao-viral/slide-29.png",
   largura: 54%,
   legenda: [Os septos corados em azul isolam nódulos de hepatócitos. Repare que os nódulos não têm veia centrolobular no centro nem espaço porta na periferia — a relação entre célula, sinusoide e canalículo biliar foi perdida, e é essa perda que a massa regenerada não recupera.])
+
+#mini-resumo[Necrose de interface repetida → fator de crescimento transformador beta → célula estrelada vira miofibroblasto → colágeno no espaço de Disse → septo fibroso → nódulo de regeneração sem arquitetura → cirrose.]
 
 #clinica-box("Do vírus B ao carcinoma hepatocelular", [
 A hepatite crônica pelo vírus B eleva o risco de carcinoma hepatocelular por três mecanismos somados. O ciclo de necrose e regeneração mantém hepatócitos em divisão por décadas, e cada divisão é oportunidade de mutação não reparada. A inflamação crônica fornece espécies reativas de oxigênio e nitrogênio, que lesam o DNA diretamente. E fragmentos do genoma viral se integram ao DNA do hepatócito, desregulando genes vizinhos e mantendo a expressão da proteína viral X, que interfere no controle do ciclo celular.
@@ -233,5 +237,5 @@ O mecanismo nuclear que sustenta esse princípio é a economia de sinais. A lise
 
 A hepatite pelo vírus B mostra o preço dessa aritmética. Quem mata o hepatócito é o linfócito, e a intensidade da lesão acompanha o vigor da resposta: resposta explosiva dá necrose confluente e insuficiência aguda; resposta insuficiente dá replicação persistente com biópsia quase limpa; resposta intermediária e prolongada dá o pior desfecho estrutural, porque sustenta a necrose de interface que ativa a célula estrelada.
 
-O raciocínio se estende adiante: a inflamação que não resolve e o reparo que a acompanha são o tema seguinte, e nele a cirrose deixa de ser desfecho de uma infecção específica para virar o exemplo geral do tecido obrigado a reparar-se sob agressão que não cessa.
+O raciocínio se estende adiante: a inflamação que não resolve e o reparo que a acompanha são o tema seguinte, e nele a cirrose vira o exemplo geral do tecido obrigado a reparar-se sob agressão que não cessa.
 ]
