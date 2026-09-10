@@ -1,243 +1,243 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #intro-box[
-Diabetes mellitus é um defeito de sinal. A insulina, que informa aos tecidos que há substrato chegando, deixa de ser produzida ou deixa de ser obedecida — e a glicose que se acumula no plasma passa a reagir quimicamente com as proteínas do organismo.
+Todo antibiótico resolve o mesmo problema de mira: matar uma célula alojada no meio de células humanas, sem matar as vizinhas. A saída é sempre atacar uma estrutura que só existe na bactéria, ou que existe em nós com forma diferente o bastante para o fármaco não confundir.
 
-A *PARTE I* percorre por que a glicemia sobe: o que a insulina comanda, os dois defeitos opostos que interrompem esse comando, e como a hiperglicemia vira sintoma. A *PARTE II* trata a glicose alta como reagente e acompanha a glicação não-enzimática até a lesão estrutural que se auto-alimenta. A *PARTE III* localiza essa lesão nos órgãos-alvo e mostra a correspondência entre o substrato que o patologista descreve e o achado que o radiologista enxerga.
+A *PARTE I* percorre as quatro frentes possíveis desse ataque — parede, membrana, ribossomo e ácidos nucleicos — e mostra por que cada classe age onde age. A *PARTE II* muda o ponto de vista para o da bactéria: o que separa parar de matar, e as cinco saídas que ela encontra para deixar de morrer. A *PARTE III* leva tudo isso à bancada, onde suscetibilidade vira número, o número vira letra no laudo e a letra vira decisão.
 ]
 
-#parte-title("PARTE I — O sinal que falta: por que a glicose sobe", primeira: true)
+#parte-title("PARTE I — O alvo seletivo: onde o antibiótico ataca e por que só a bactéria sofre", primeira: true)
 
-#subtopico("1.1 — A insulina e os freios que ela mantém")
+#subtopico("1.1 — Toxicidade seletiva: atacar o que existe na bactéria e não em nós")
 
-A célula beta da ilhota pancreática secreta insulina quando a glicose plasmática sobe. O receptor de insulina é uma *tirosina-quinase*, enzima que fosforila resíduos de tirosina de proteínas-alvo: as duas subunidades α ligam o hormônio, as duas subunidades β se autofosforilam e passam a fosforilar o #sigla("IRS-1", [substrato 1 do receptor de insulina — a primeira proteína fosforilada pelo receptor, e o ponto em que a via se ramifica]), que recruta a #sigla("PI3K", [fosfatidilinositol-3-quinase — converte o sinal do receptor em um lipídeo de membrana capaz de ancorar a Akt]) e ativa a Akt. Não há proteína G nem segundo mensageiro nesse caminho.
+O princípio que organiza a farmacologia antibacteriana inteira chama-se *toxicidade seletiva*: a droga precisa ter afinidade muito maior por uma estrutura do micróbio do que por qualquer equivalente do hospedeiro. Paul Ehrlich chegou a ela em 1909 testando corantes que coravam treponemas e não tecidos humanos, e dela saiu o arsfenamina.
 
-O #sigla("GLUT-4", [transportador de glicose tipo 4 — isoforma insulino-dependente do músculo esquelético e do tecido adiposo]) já existe pronto, estocado em vesículas intracelulares, e a Akt comanda a fusão dessas vesículas com a membrana plasmática. *A insulina não sintetiza o transportador, ela o transloca* — daí o efeito surgir em minutos e desaparecer em minutos quando o sinal cessa.
+Duas origens diferentes convergem no mesmo efeito, e a nomenclatura separa as duas. *Antibiótico* é metabólito secundário produzido por um microrganismo — a penicilina vem do fungo _Penicillium notatum_, a estreptomicina de _Streptomyces griseus_, a polimixina de _Bacillus polymyxa_. *Quimioterápico antibacteriano* é composto de síntese química integral, sem origem biológica: as quinolonas e as sulfonamidas são os exemplos da aula. A distinção é de procedência, não de potência — a maior parte do arsenal em uso hoje é semissintética, um esqueleto natural quimicamente modificado.
 
-O restante do programa é composto de freios. A insulina ativa a glicogênio-sintase, liga a lipogênese no adipócito e inibe a *lipase hormônio-sensível*, enzima que hidrolisa triacilglicerol em ácido graxo livre; em paralelo, suprime a gliconeogênese hepática e a proteólise muscular. Perder o hormônio é liberar todos esses freios simultaneamente, e é por isso que o quadro clínico do tipo 1 não se resume à glicemia.
+Chamá-lo de *metabólito secundário* diz quando ele aparece: metabólito primário é o que a célula produz para crescer, e secundário é o que ela produz quando crescer já não é prioridade. A produção sobe na *fase estacionária*, com o nutriente escasso — o antibiótico é arma química de disputa entre microrganismos, não subproduto metabólico.
 
-Um dado de distribuição sustenta as PARTES II e III: *apenas músculo esquelético e tecido adiposo dependem do GLUT-4*. Neurônio, hemácia, endotélio, célula mesangial do glomérulo, pericito da retina, cristalino e epitélio tubular renal captam glicose por transportadores que não respondem à insulina, e por isso não conseguem reduzir a entrada quando a glicemia sobe.
+#figura-lateral("/figuras/micro-05-antibioticos-resistencia/slide-14.png",
+  lado: "right",
+  largura-figura: 33%,
+  texto: [Numa cultura de _Pseudomonas aeruginosa_ acompanhada por 48 horas, o pigmento antimicrobiano só se torna detectável muito depois do pico de divisão celular: quem cronometra a produção é o esgotamento do meio, não o relógio da divisão.],
+  legenda: [Metabólito secundário aparece na fase estacionária.])
 
-#figura-lateral("/figuras/gr-02-diabetes-mellitus/slide-14.png",
+A seletividade é possível porque existem exatamente quatro frentes em que a bactéria difere de nós. A *parede de peptidoglicano* não tem equivalente em célula humana. A *membrana citoplasmática* bacteriana tem composição lipídica e carga próprias, sobretudo no Gram-negativo, cuja membrana externa carrega #sigla("LPS", [lipopolissacarídeo — molécula da membrana externa do Gram-negativo, cuja porção lipídio A é o alvo das polimixinas e o componente tóxico da endotoxina]). O *ribossomo* bacteriano é 70S, montado de subunidades 30S e 50S, contra o 80S humano de 40S e 60S. E a *síntese de ácidos nucleicos* usa enzimas próprias — a DNA-girase não tem homólogo humano, e a via de produção de folato não existe em nós.
+
+Onde essa diferença é grande, a margem terapêutica é larga; onde é estreita, a toxicidade nasce do mesmo mecanismo que dá a atividade. As polimixinas atacam a membrana lipídica, e membrana lipídica nós também temos: são nefrotóxicas e neurotóxicas por essa razão, não por impureza de formulação.
+
+#figura-nebli("/figuras/micro-05-antibioticos-resistencia/slide-41.png",
+  largura: 44%,
+  legenda: [Quatro endereços, e todo antibacteriano em uso ocupa um deles. Guardar a qual frente uma classe pertence já prediz três coisas: o espectro provável, se a ação será bactericida ou bacteriostática, e qual mecanismo de resistência é plausível naquela cepa.])
+
+#subtopico("1.2 — A parede: β-lactâmicos e glicopeptídeos")
+
+O β-lactâmico não fura a parede bacteriana. Ele impede que ela seja *fechada*, e quem a desfaz é a própria bactéria — a distinção parece sutil e explica o comportamento inteiro da classe.
+
+A parede é uma malha de *peptidoglicano*, polímero de dois aminoaçúcares alternados — N-acetilglicosamina e ácido N-acetilmurâmico — cujas cadeias paralelas são amarradas por pontes peptídicas. Quem fecha essas pontes é a *transpeptidase*, também chamada #sigla("PBP", [proteína ligadora de penicilina — nome dado à transpeptidase da parede por ela ligar penicilina; é o alvo dos β-lactâmicos, e trocá-la por uma variante de baixa afinidade é o mecanismo do MRSA]), que reconhece a terminação *D-alanil-D-alanina* do precursor e usa a energia dessa ligação para formar a ponte cruzada. O anel β-lactâmico é mimético estrutural desse terminal: a enzima o aceita como substrato, abre o anel e fica acilada de forma irreversível no sítio ativo.
+
+#figura-nebli("/figuras/micro-05-antibioticos-resistencia/slide-45.png",
+  largura: 40%,
+  legenda: [No Gram-negativo o β-lactâmico atravessa a membrana externa por uma porina para alcançar o periplasma, onde a transpeptidase trabalha. Barrar essa entrada — perder a porina — é resistência sem que enzima nenhuma seja produzida.])
+
+A partir daí nada novo se constrói, mas a demolição continua. A bactéria em crescimento mantém *autolisinas* ativas cortando o peptidoglicano para abrir espaço à inserção de material novo; sem reticulação repondo o que foi cortado, a malha perde resistência mecânica, a pressão osmótica interna vence e a célula lisa. Daí a consequência que a bancada confirma: o β-lactâmico é bactericida, mas *só contra bactéria em crescimento ativo* — em população estacionária o efeito praticamente desaparece.
+
+Os glicopeptídeos atacam o mesmo processo por outro ponto. Vancomicina e teicoplanina não tocam na enzima: ligam-se à terminação D-Ala-D-Ala do precursor e a escondem, de modo que a transpeptidase não encontra substrato. É a diferença entre travar o operário e sequestrar o tijolo, e ela deixa de ser detalhe quando se olha a resistência.
+
+#confusao-prevista(
+  titulo: "Vancomicina não inibe a transpeptidase",
+  aluno_acha: [o aluno encaixa o glicopeptídeo no molde da penicilina e supõe que os dois disputam a mesma enzima],
+  mecanismo: [o β-lactâmico liga a *enzima*; o glicopeptídeo liga o *substrato*. Como o alvo da vancomicina é o dipeptídeo terminal do precursor, a bactéria resistente não precisa mutar enzima alguma: basta trocar o terminal D-alanil-D-alanina por D-alanil-D-lactato, e a afinidade despenca cerca de mil vezes enquanto a transpeptidase segue construindo a parede normalmente.],
+)
+
+O espectro dos glicopeptídeos é restrito a Gram-positivos, e não por falta de alvo. O Gram-negativo tem peptidoglicano — fino, mas tem —, protegido por uma membrana externa cujas porinas são canais estreitos; a vancomicina é grande demais para passar. O alvo existe, o acesso é que não.
+
+Os β-lactâmicos distribuem-se em quatro famílias de espectros distintos. As *penicilinas* vão das naturais, restritas a Gram-positivos, às aminopenicilinas com alguma cobertura de Gram-negativo e às anti-estafilocócicas estáveis à penicilinase. As *cefalosporinas* percorrem cinco gerações que deslocam o espectro progressivamente para o Gram-negativo — a quinta é a que retoma o Gram-positivo com atividade contra #sigla("MRSA", [_Staphylococcus aureus_ resistente à meticilina — cepa que adquiriu o gene mecA e produz uma transpeptidase alternativa de baixa afinidade por β-lactâmicos]). Os *carbapenêmicos*, os mais estáveis à degradação enzimática, ficam reservados como última linha; o *monobactâmico* aztreonam cobre apenas Gram-negativos aeróbios.
+
+#subtopico("1.3 — Ribossomo, ácidos nucleicos e membrana: as outras três frentes")
+
+A mesma lógica de 1.2 — encontrar uma peça que só a bactéria tem — se repete dentro da célula, e o ribossomo é o alvo mais explorado. O ribossomo bacteriano é *70S*, de subunidades 30S e 50S; o humano é 80S, de 40S e 60S, e é a diferença de sequência do RNA ribossômico que permite o encaixe seletivo.
+
+*Aminoglicosídeos* e *tetraciclinas* ligam-se ao 30S, mas fazem coisas distintas ali. A tetraciclina bloqueia a chegada do RNA transportador ao sítio A e a tradução para — efeito reversível, logo bacteriostático. O aminoglicosídeo liga-se ao RNA ribossômico 16S e causa *erro de leitura do códon*: a bactéria segue traduzindo, mas as proteínas saem com aminoácido trocado e, aberrantes, inserem-se na membrana, tornando-a permeável. É por isso que ele é bactericida e os outros inibidores de síntese proteica não são: ele não interrompe a fábrica, faz a fábrica produzir veneno.
+
+#clinica-box("Por que o aminoglicosídeo falha no abscesso", [
+A entrada do aminoglicosídeo depende de transporte ativo acoplado ao gradiente de prótons da membrana, e esse gradiente só se mantém com respiração aeróbia — em anaeróbio estrito o fármaco não é captado, por mais alto que seja o nível sérico. O interior de um abscesso reúne as condições que anulam a classe: hipóxia, pH ácido e flora anaeróbia. Daí a drenagem ser parte do tratamento, não complemento dele.
+])
+
+*Macrolídeos*, *lincosamidas* e *oxazolidinonas* ocupam o 50S: o macrolídeo trava a translocação do ribossomo no túnel de saída do polipeptídeo, e a linezolida impede a montagem do complexo de iniciação. Como os três compartilham a mesma região, uma única metilação desse trecho — pela enzima do gene _erm_ — derruba as três classes de uma vez.
+
+Na frente dos ácidos nucleicos, as *quinolonas* inibem a *DNA-girase* e a *topoisomerase IV*, que desfazem o super-enrolamento gerado à frente da forquilha de replicação. Sem elas a forquilha trava, e o complexo enzima-DNA-fármaco libera extremidades quebradas — a quebra de fita dupla torna a classe bactericida. Guarde _gyrA_ e _gyrB_: a resistência à quinolona é, na maioria das cepas, mutação pontual em _gyrA_ ou no homólogo _parC_, nunca enzima que degrade o fármaco.
+
+#figura-lateral("/figuras/micro-05-antibioticos-resistencia/slide-57.png",
   lado: "right",
   largura-figura: 40%,
-  texto: [O intestino sinaliza ao pâncreas antes de a glicose ser absorvida. O #sigla("GLP-1", [peptídeo semelhante ao glucagon 1 — incretina intestinal que amplifica a secreção de insulina dependente de glicose]), liberado pela chegada do alimento ao lúmen, amplifica a secreção de insulina pela célula beta, retarda o esvaziamento gástrico e aumenta a saciedade por ação hipotalâmica. É o *efeito incretínico*, e ele explica por que uma carga oral de glicose eleva mais a insulina do que a mesma carga por via intravenosa.],
-  legenda: [Eixo intestino–pâncreas–encéfalo.])
+  texto: [As *sulfonamidas* e a *trimetoprima* atacam a via do folato, e o par mostra o que é sinergia de verdade. A sulfonamida é análoga do #sigla("PABA", [ácido para-aminobenzoico — precursor que a bactéria usa para fabricar folato; a sulfonamida imita a sua estrutura]) e inibe a di-hidropteroato sintase; a trimetoprima inibe a di-hidrofolato redutase, dois passos adiante. Dois bloqueios *em série* derrubam o tetra-hidrofolato muito mais do que a soma dos bloqueios isolados.],
+  legenda: [A célula humana não sintetiza folato: capta folato pronto da dieta por transportador. A via inteira que o fármaco bloqueia não existe em nós — é a seletividade mais limpa da farmacologia antibacteriana.])
 
-#subtopico("1.2 — Tipo 1: a ilhota destruída e o corpo em jejum permanente")
+As *polimixinas* fecham a lista atacando a membrana: peptídeos catiônicos que se ligam à carga negativa do lipídio A, deslocam os cátions que estabilizam a membrana externa e desorganizam a interna até a célula extravasar conteúdo. São detergentes, e por isso matam bactéria parada.
 
-O que desencadeia o quadro clínico do tipo 1 não é o valor absoluto da insulina, e sim a queda da *razão insulina/glucagon*. A insulina freia a célula alfa dentro da própria ilhota; sem ela, o glucagon é secretado sem contraposição e o fígado mantém glicogenólise e gliconeogênese enquanto o músculo já não capta glicose. A hiperglicemia é gerada nas duas pontas.
-
-A destruição da célula beta é autoimune, mediada sobretudo por linfócitos T citotóxicos, em indivíduos com alelos predisponentes de #sigla("HLA", [antígeno leucocitário humano — o complexo principal de histocompatibilidade humano, cujos alelos de classe II definem boa parte do risco genético do tipo 1]) de classe II. Os autoanticorpos dosados no laboratório — anti-#termo-nota[descarboxilase do ácido glutâmico][enzima citoplasmática da célula beta; o anticorpo anti-GAD65 contra ela é o marcador sorológico mais usado de autoimunidade contra a ilhota], anti-insulina, anti-tirosina-fosfatase da ilhota — são marcadores dessa agressão, não os seus executores principais.
-
-A massa funcionante remanescente é estimada pelo #termo-nota[peptídeo C][fragmento liberado em quantidade equimolar à insulina na clivagem da pró-insulina; ausente na insulina exógena e pouco extraído pelo fígado, mede a secreção endógena]: ele sai da pró-insulina junto com a insulina, mas não acompanha a insulina exógena aplicada e escapa da extração hepática de primeira passagem, que retira boa parte da insulina antes da circulação sistêmica.
-
-O metabolismo assume então o padrão do jejum com o plasma cheio de glicose. Sem o freio da insulina, a lipase hormônio-sensível libera ácidos graxos em quantidade que excede a capacidade oxidativa hepática: a acetil-CoA gerada ultrapassa a capacidade de consumo do ciclo de Krebs e o excedente é desviado para acetoacetato e β-hidroxibutirato, ácidos fortes cujo acúmulo derruba o pH. A proteólise muscular fornece aminoácidos à gliconeogênese e o balanço nitrogenado fica negativo. A perda ponderal ocorre com ingesta aumentada, porque se perde caloria na urina, triacilglicerol no adipócito e proteína no músculo.
-
-#mini-resumo[Falta de insulina → glucagon sem freio e lipólise sem freio → glicose hepática alta e ácido graxo em excesso → cetoácidos. Hiperglicemia e cetose são efeitos paralelos do mesmo defeito.]
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-12.png",
-  largura: 60%,
-  legenda: [O defeito está em andares diferentes: no tipo 1 o pâncreas não entrega o sinal; no tipo 2 o sinal chega em quantidade e a célula-alvo não responde.])
-
-#clinica-box("O caso que abre a aula", [
-Homem de 26 anos, magro, com dez dias de poliúria, polidipsia e perda de 3 kg; glicemia de 397 mg/dL, hemoglobina glicada de 8,8%, peptídeo C de 1,32 ng/mL e anti-descarboxilase do ácido glutâmico de 1082 UI/mL para valor de referência abaixo de 10.
-
-Os três exames respondem perguntas distintas. O autoanticorpo em título cem vezes acima do limite identifica a natureza autoimune da destruição. O peptídeo C mensurável, no limite inferior da normalidade, indica secreção residual preservada em parte — o paciente está no início da história natural, o que explica a ausência de acidose franca à apresentação. A hemoglobina glicada de 8,8% data o início da hiperglicemia semanas antes dos dez dias de sintomas: o sintoma marca a queda da reserva de célula beta, não o início da doença.
-])
-
-#subtopico("1.3 — Tipo 2: o sinal que chega e não é escutado")
-
-No tipo 2 o receptor está íntegro e a falha é pós-receptor. Com oferta calórica alta e sedentarismo, o músculo recebe mais acil-CoA graxo do que oxida, e o excedente acumula dois intermediários lipídicos com atividade de sinalização: *diacilglicerol* e *ceramida*. Ambos ativam *serina-quinases de estresse*, que fosforilam o IRS-1 em resíduos de serina em vez de tirosina. O IRS-1 fosforilado no resíduo errado não recruta a PI3K, a Akt não é ativada, e menos vesículas de GLUT-4 alcançam a membrana.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-09.png",
-  largura: 55%,
-  legenda: [O ácido graxo não apenas compete com a glicose como combustível: ele interrompe a sinalização que traria o GLUT-4 à superfície. A mitocôndria sobrecarregada devolve espécies reativas de oxigênio, que realimentam as serina-quinases.])
-
-O tecido adiposo contribui por uma segunda via. O adipócito hipertrofiado recruta macrófagos e secreta fator de necrose tumoral alfa e interleucina-6, citocinas que ativam as mesmas serina-quinases e reduzem o GLUT-4 de superfície. A obesidade opera como inflamação crônica de baixo grau, e é por essa ponte que produz resistência à insulina.
-
-A resistência isolada não configura diabetes. A célula beta responde à glicemia crescente aumentando a secreção, e a *hiperinsulinemia compensatória* mantém a glicose em faixa quase normal por anos.
-
-#atencao-box("No tipo 2, a insulina pode estar alta", [
-Durante a maior parte da história natural do tipo 2 a insulina está *normal ou elevada*, e a glicemia sobe apesar disso porque o tecido não responde. Insulina alta com glicemia alta não é contradição laboratorial: é o retrato da resistência. A insulina só cai quando, após anos de sobrecarga secretora e de exposição a glicose e ácido graxo em excesso, a célula beta entra em apoptose e a massa de ilhota diminui — e é nessa fase que o tipo 2 passa a exigir insulina exógena.
-])
-
-O defeito é distribuído por vários órgãos. O fígado resiste ao freio da gliconeogênese e mantém produção hepática de glicose mesmo sob insulina alta, o que explica a hiperglicemia de jejum. O adipócito resiste ao freio da lipólise e continua exportando ácido graxo. O intestino perde parte do efeito incretínico. A ilhota acrescenta hiperglucagonemia à queda de secreção.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-11.png",
-  largura: 56%,
-  legenda: [Cinco endereços do mesmo defeito. A produção hepática de glicose que não desliga é a que sustenta a glicemia de jejum, quando nenhuma refeição a justifica.])
-
-#subtopico("1.4 — Diurese osmótica e as duas descompensações")
-
-A glicose é filtrada livremente no glomérulo e reabsorvida no túbulo proximal por transportadores de capacidade máxima finita, saturados em torno de 180 mg/dL de glicemia. Acima desse limiar a glicose excedente permanece no lúmen tubular.
-
-Soluto não reabsorvido retém água por osmose e impede que ela acompanhe o sódio de volta ao interstício: instala-se a #termo-nota[diurese osmótica][perda aumentada de água na urina causada por um soluto não reabsorvido que a retém no lúmen tubular], e o volume urinário sobe. A poliúria precede a sede — a perda de água eleva a osmolaridade plasmática e só então os osmorreceptores hipotalâmicos disparam a polidipsia. Sódio e potássio são arrastados junto.
-
-A perda ponderal soma três parcelas: caloria eliminada como glicose urinária, triacilglicerol mobilizado pela lipólise e proteína muscular consumida pela gliconeogênese. A polifagia coexiste porque a glicose não entrou na célula.
-
-A forma da descompensação depende da insulina residual. No tipo 1, com secreção praticamente ausente, a lipólise segue livre até os cetoácidos e instala-se a *cetoacidose diabética*, com pH baixo, #termo-nota[hiato aniônico][diferença entre os cátions e os ânions medidos no plasma; aumenta quando um ácido não medido, como o cetoácido, se acumula] aumentado e respiração ampla e profunda — compensação respiratória que elimina gás carbônico para tamponar a acidez, não doença pulmonar. No tipo 2, a insulina residual é insuficiente para normalizar a glicemia mas basta para conter a lipase hormônio-sensível; sem lipólise maciça não há cetose, e a descompensação assume a forma de *estado hiperosmolar*, com glicemias mais altas, diurese osmótica prolongada e rebaixamento de consciência.
-
-#confusao-prevista(
-  titulo: "Hiperosmolaridade e acidose não são o mesmo distúrbio",
-  aluno_acha: [as duas descompensações são lidas como graus de gravidade de um mesmo processo],
-  mecanismo: [são distúrbios de naturezas distintas que apenas coexistem na cetoacidose. A hiperosmolaridade é distúrbio de *água*, produzido pela diurese osmótica; a acidose é distúrbio de *ácido*, produzido pelos cetoácidos da lipólise. No estado hiperosmolar do tipo 2 a primeira ocorre isolada, e é ela que ameaça a vida.],
-)
-
-O potássio inverte a leitura esperada do exame. A diurese osmótica esvazia o estoque corporal total, enquanto a acidose e a ausência de insulina deslocam potássio do intracelular para o plasma. O resultado é potássio sérico normal ou elevado em paciente profundamente depletado — valor que despenca assim que a insulina reconduz o íon para dentro da célula.
-
-#parte-title("PARTE II — Do açúcar ao dano: glicação e as rotas que se perpetuam")
-
-#subtopico("2.1 — Glicação não-enzimática e os dois relógios do controle")
-
-A glicose é um açúcar redutor: possui grupo carbonil livre, que reage espontaneamente com grupos amino de proteínas. A reação é *glicação* — não-enzimática, sem sítio preferencial, governada apenas pelo produto entre concentração de glicose e tempo de exposição. Distingue-se da *glicosilação*, que é enzimática, dirigida a sítios específicos e parte da maturação normal de glicoproteínas. É essa dependência de concentração e tempo que faz da glicação, ao mesmo tempo, o mecanismo da lesão e a base dos exames que medem controle.
-
-A reação avança em três estágios de reversibilidade decrescente. A *base de Schiff* é a condensação inicial entre o carbonil da glicose e um grupo amino da proteína, tipicamente da lisina ou da valina N-terminal; forma-se em horas e desfaz-se se a glicemia cai. O *produto de Amadori* é o rearranjo da base de Schiff numa cetoamina estável, formado em dias e apenas lentamente reversível. O #sigla("AGE", [produto final de glicação avançada — do inglês *advanced glycation end product*, a forma irreversível da glicação]) resulta de desidratações e oxidações sucessivas ao longo de semanas a meses e estabelece *ligações cruzadas* entre dois radicais protéicos: aqui a reação deixa de reverter.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-15.png",
-  largura: 70%,
-  legenda: [A régua de tempo no alto — horas, dias, semanas a meses — carrega o mecanismo. A barra "reversível" termina antes da ligação cruzada entre duas cadeias protéicas, e é essa etapa final que a normalização da glicemia já não desfaz.])
-
-Da escala de tempo decorre a seleção do alvo: acumula AGE a proteína de meia-vida longa — colágeno, elastina, cristalino, membrana basal —, renovada mais devagar do que a reação avança. Proteína de turnover rápido é degradada antes de reticular.
-
-Os dois exames de controle são produtos de Amadori em proteínas diferentes, e a diferença entre eles é a janela de tempo que cada proteína guarda. A #sigla("HbA1c", [hemoglobina glicada — fração da hemoglobina A que sofreu glicação, expressa em porcentagem da hemoglobina total]) mede a fração glicada da hemoglobina; como a hemácia circula de 90 a 120 dias sem reverter a modificação, o exame integra a exposição à glicose ao longo de 8 a 12 semanas, com peso maior nas últimas quatro. Uma HbA1c de 8,8% corresponde a glicemia média em torno de 205 mg/dL nesse período — no caso da PARTE I, hiperglicemia sustentada muito antes dos dez dias de sintomas. A limitação do exame é a mesma variável que o define: hemólise, sangramento recente ou transfusão encurtam a sobrevida eritrocitária e reduzem a HbA1c para a mesma glicemia média.
-
-A #termo-nota[frutosamina][conjunto das proteínas plasmáticas glicadas, sobretudo a albumina; como a albumina vive de 14 a 20 dias, o exame reflete as últimas 2 a 3 semanas] resolve exatamente esses casos. A albumina circula de 14 a 20 dias e o exame lê 2 a 3 semanas, o que o torna útil em hemoglobinopatia, anemia hemolítica, gestação e mudança recente de tratamento. No caso da aula os dois caminharam juntos em escalas distintas: HbA1c de 8,8% e frutosamina de 575 μmol/L em abril; 5,2% e 289 μmol/L em agosto, quatro meses após a insulinização.
-
-#subtopico("2.2 — O que o AGE faz nas proteínas de vida longa")
-
-A reticulação do colágeno não produz apenas rigidez: a proteína reticulada *resiste à digestão proteolítica e deixa de ser substituída*. O remodelamento da matriz extracelular depende de degradar colágeno velho para depositar colágeno novo, e as proteases não cortam o substrato reticulado. Esta é a razão bioquímica de a ferida do diabético cicatrizar mal mesmo com perfusão preservada.
-
-A glicação da #sigla("LDL", [lipoproteína de baixa densidade — partícula que transporta colesterol do fígado para os tecidos]) prejudica o reconhecimento da partícula pelo receptor hepático, prolonga o tempo de circulação e favorece a oxidação. A partícula modificada passa a ser captada por *receptores scavenger* do macrófago, que — ao contrário do receptor de LDL — não são inibidos pelo colesterol já acumulado na célula. O macrófago capta sem regulação e se converte em #termo-nota[célula espumosa][macrófago repleto de gotículas lipídicas, elemento fundador da estria gordurosa e da placa de ateroma]. É o elo direto entre hiperglicemia e placa de ateroma, retomado na PARTE III.
-
-#confusao-prevista(
-  titulo: "Membrana basal mais espessa não filtra melhor",
-  aluno_acha: [engrossar a barreira deveria retê-la mais e reduzir a passagem de proteína],
-  mecanismo: [o que muda não é só a espessura, é a *composição*. A membrana basal glomerular do diabético ganha matriz desorganizada e perde proteoglicanos aniônicos, que constituem a barreira de carga que repelia a albumina — também aniônica. O resultado é uma membrana mais espessa e simultaneamente mais permeável a proteína.],
-)
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-17.png",
-  largura: 50%,
-  legenda: [À esquerda, membrana basal normal: fina e homogênea, com pedicelos regularmente espaçados. À direita, a mesma barreira espessada e desorganizada no diabético.])
-
-Há ainda um efeito independente de estrutura: os AGEs *inativam o óxido nítrico*. A menor disponibilidade de óxido nítrico reduz a vasodilatação dependente do endotélio, aumenta a adesão de leucócitos e plaquetas e favorece a proliferação de músculo liso na parede vascular. O primeiro dano vascular do diabetes é funcional e antecede qualquer placa detectável por imagem.
-
-#subtopico("2.3 — RAGE e as outras rotas: como o dano passa a se perpetuar")
-
-O AGE não é apenas produto: é ligante. Monócitos, macrófagos, células endoteliais e células mesangiais expressam o #sigla("RAGE", [receptor para produtos finais de glicação avançada — receptor de membrana que converte a presença de AGE em sinal inflamatório intracelular]); a ligação ativa o #sigla("NF-κB", [fator nuclear kappa B — fator de transcrição que comanda a expressão de genes pró-inflamatórios]) e transcreve um programa que inclui citocinas, fatores de crescimento, moléculas de adesão e fator tecidual. Migração de monócitos, aumento de permeabilidade vascular, atividade pró-coagulante e deposição de matriz extracelular são saídas desse programa.
-
-A alça é positiva: a sinalização por RAGE aumenta a expressão do próprio receptor e o estresse oxidativo local, e as espécies reativas de oxigênio aceleram a formação de novos AGEs. *O dano passa a produzir as condições que o produzem* — o processo auto-perpetuador do esquema da aula, que continua operando quando o estímulo inicial já diminuiu.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-30.png",
-  largura: 55%,
-  legenda: [Alteração metabólica e alteração funcional ainda revertem; a partir das modificações progressivas um dos ramos passa a se alimentar sozinho. É esse ramo que faz a manifestação clínica surgir anos depois e não regredir com o controle.])
-
-Três rotas adicionais explicam alvos específicos. A *via dos polióis* converte glicose em sorbitol pela aldose-redutase consumindo NADPH; menos NADPH significa menos glutationa reduzida e menor defesa antioxidante, e o sorbitol acumulado — incapaz de atravessar a membrana — puxa água por osmose no cristalino e no nervo. A ativação da *proteína quinase C* pelo excesso de diacilglicerol aumenta permeabilidade vascular, expressão de fator de crescimento endotelial e deposição de matriz. A *via da hexosamina* modifica fatores de transcrição por adição de N-acetilglicosamina e altera a expressão de fator de crescimento transformador beta e do inibidor do ativador de plasminogênio, com fibrose e trombogenicidade como saída.
-
-As quatro rotas convergem: todas aumentam a produção mitocondrial de espécies reativas de oxigênio, e o estresse oxidativo as realimenta. Como todas dependem de glicose *intracelular* alta, atingem preferencialmente as células que captam glicose sem depender de insulina — endotélio, pericito, célula mesangial, neurônio, cristalino, epitélio tubular. Os órgãos-alvo do diabetes são exatamente esses tecidos.
-
-#parte-title("PARTE III — Onde o dano aparece: órgãos-alvo e o que a imagem enxerga")
-
-#subtopico("3.1 — Microangiopatia: retina e glomérulo")
-
-A retina é servida por vasos terminais sem circulação colateral, e é o único leito capilar do corpo examinável diretamente. O primeiro alvo é o #termo-nota[pericito][célula contrátil que envolve o capilar e regula o seu calibre], que capta glicose independentemente de insulina, sofre pelas quatro rotas da PARTE II e morre. O capilar perde suporte de parede e dilata focalmente em #termo-nota[microaneurismas][dilatações focais da parede capilar, formadas onde o suporte do pericito se perdeu; são as primeiras lesões detectáveis ao exame de fundo de olho]; a permeabilidade aumentada deposita *exsudatos duros* — plasma e lipoproteína extravasados — e a fragilidade da parede produz hemorragias puntiformes.
-
-A fase proliferativa não é recuperação. A retina isquêmica libera fator de crescimento endotelial e o organismo fabrica neovasos frágeis que crescem para dentro do vítreo: eles sangram, produzindo hemorragia vítrea, e o tecido fibroso que os acompanha traciona e descola a retina. Quando crescem sobre a íris e o ângulo camerular, bloqueiam a drenagem do humor aquoso e produzem glaucoma neovascular. A catarata tem mecanismo próprio e osmótico: a aldose-redutase converte glicose em sorbitol, que não atravessa a membrana da fibra do cristalino, acumula, puxa água e opacifica a lente — o mesmo mecanismo explica as oscilações de refração do paciente descompensado.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-31.png",
-  largura: 58%,
-  legenda: [Os órgãos marcados no esquema são os que captam glicose sem depender de insulina, mais os leitos arteriais atingidos pela aterosclerose acelerada.])
-
-No glomérulo, a hiperglicemia dilata a arteríola aferente mais do que a eferente: a pressão no capilar glomerular sobe e a filtração aumenta. Essa *hiperfiltração* é a primeira alteração funcional da doença, e a sobrecarga mecânica que ela impõe produz a esclerose de anos depois — o aumento da filtração inicial não é sinal de rim preservado.
-
-O que se deposita é matriz. A membrana basal espessa e muda de composição, como em 2.2, e a matriz mesangial se expande, primeiro difusamente e depois em nódulos arredondados — a glomeruloesclerose nodular de Kimmelstiel-Wilson. *Não há infiltrado inflamatório proeminente*: é acúmulo de matriz, não glomerulonefrite. As arteríolas aferente e eferente sofrem #termo-nota[hialinização][depósito de material proteico homogêneo e eosinofílico na parede do vaso, que a enrijece e estreita a luz], que é lesão de arteríola e não se confunde com a aterosclerose das artérias de médio e grande calibre.
-
-A tradução laboratorial tem ordem. A albuminúria aparece primeiro, porque a barreira de carga glomerular se perdeu — a albumina passa pelo glomérulo, não por falha tubular. A creatinina sobe muito depois, porque a hiperfiltração dos néfrons remanescentes mascara a perda dos já esclerosados: creatinina normal não exclui nefropatia. A glicosúria, a retenção urinária por neuropatia autonômica e a redução da quimiotaxia e da explosão respiratória do neutrófilo em hiperglicemia somam-se para explicar a predisposição à pielonefrite.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-33.png",
-  largura: 58%,
-  legenda: [As duas pontas da história no mesmo exame: rim *aumentado* na hiperfiltração inicial; rim reduzido, com córtex afilado e ecogenicidade aumentada no estágio final — fibrose devolve mais som que parênquima funcionante.])
-
-#subtopico("3.2 — Neuropatia e pé diabético")
-
-A neuropatia diabética resulta de dois mecanismos somados. Os *vasa nervorum*, capilares que nutrem o tronco nervoso, sofrem a mesma microangiopatia da retina e do glomérulo e isquemiam o nervo; em paralelo, o sorbitol acumulado e a glicação de proteínas do axônio e da mielina lesam a fibra diretamente. O achado funcional é a queda da velocidade de condução, e o padrão clínico é o comprometimento em bota e luva, que começa pelas fibras mais longas.
-
-O pé diabético soma três falhas independentes no mesmo território. A *neuropatia sensitiva* remove a dor protetora, e o trauma repetido — calçado apertado, corpo estranho, calo que ulcera — não é percebido nem interrompido. A *neuropatia autonômica* reduz a sudorese, resseca a pele e abre fissuras que servem de porta de entrada. A *doença arterial periférica* limita o aporte de oxigênio, de células de defesa e do antibiótico administrado. Somam-se a reticulação do colágeno por AGEs, que trava o remodelamento da matriz, e a disfunção do neutrófilo em hiperglicemia.
-
-Quando a isquemia é suficiente, o tecido morre com padrão de *gangrena*: necrose, tipicamente isquêmica, comprometendo pele, subcutâneo, músculo e osso simultaneamente. Diz-se seca sem infecção superposta e úmida com ela — o termo descreve a morte tecidual, não a infecção.
-
-#atencao-box("Charcot não é osteomielite", [
-A *artropatia de Charcot* é destruição mecânica: a articulação sem propriocepção nem dor recebe microtraumas repetidos sem correção postural, e a arquitetura do médio-pé se desmonta com erosão das superfícies articulares, fragmentação, subluxação e colapso do arco plantar. Não há infecção — há trauma acumulado sobre um pé que não avisa.
-
-A *osteomielite* é infecção da medular óssea, em geral por contiguidade a partir de úlcera plantar profunda, e exige antibioticoterapia prolongada e com frequência desbridamento.
-
-As duas coexistem no mesmo pé, e a confusão custa nos dois sentidos: antibiótico não imobiliza a articulação que continua se destruindo, e imobilização não contém a infecção que progride para o osso vizinho e para a corrente sanguínea.
-])
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-42.png",
-  largura: 58%,
-  legenda: [Antepé, médio-pé e retropé na artropatia de Charcot: erosão das superfícies articulares e desalinhamento, sem reação periosteal de infecção.])
-
-A escolha do método de imagem segue o tempo do achado. A radiografia só demonstra alteração após perda óssea significativa, com atraso de uma a duas semanas — insuficiente para excluir osteomielite aguda. A #sigla("RM", [ressonância magnética — método baseado no comportamento dos núcleos de hidrogênio em campo magnético, com alta resolução para partes moles e medula óssea]) detecta o edema da medular óssea muito antes: baixo sinal em T1, alto sinal em T2 com saturação de gordura, e realce após contraste no tecido inflamado e perfundido.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-43.png",
-  largura: 58%,
-  legenda: [A mesma região aparece escura em T1, clara em T2 com saturação de gordura e realçada após contraste — a assinatura do edema e da inflamação da medular óssea.])
-
-#subtopico("3.3 — Macroangiopatia: aterosclerose acelerada e como se procura por ela")
-
-O diabetes acelera a aterosclerose por quatro caminhos já construídos: a LDL glicada captada sem regulação pelo macrófago, a inativação do óxido nítrico com disfunção endotelial, o estado pró-inflamatório do eixo AGE–RAGE, e um estado pró-coagulante com mais fator tecidual, mais inibidor do ativador de plasminogênio e menos fibrinólise.
-
-O evento agudo vem da *ruptura* da placa, não do seu crescimento até ocluir. Uma placa com núcleo lipídico grande e capa fibrosa fina se fissura, expõe colágeno e fator tecidual ao sangue, e a trombose resultante oclui a luz em minutos — placa pouco estenosante pode matar, enquanto placa muito estenosante e estável dá angina previsível por anos. Aplicada ao diabético, a tríade de Virchow destaca *lesão endotelial* e *alteração de fluxo por turbulência* sobre a placa, somadas à hipercoagulabilidade; a estase é o eixo da trombose venosa por imobilidade, cenário distinto.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-34.png",
-  largura: 58%,
-  legenda: [Dois ramos a partir do mesmo ponto: a placa estável estreita a luz e dá angina previsível; a placa vulnerável se instabiliza e o desfecho passa a depender do trombo — suboclusivo dá síndrome coronariana aguda, oclusivo dá infarto ou morte súbita.])
-
-Como a aterosclerose tem período assintomático longo, a imagem é usada para procurá-la antes do evento, e cada método responde a uma pergunta distinta.
-
-#align(center, table(
-  columns: (auto, 1fr, auto, 1fr),
-  inset: 6pt,
+#table(
+  columns: (0.95fr, 1.4fr, 0.72fr, 1.28fr),
+  inset: 1.7pt,
   align: left + horizon,
-  stroke: 0.4pt + gray-border,
-  fill: (_, y) => if y == 0 { navy } else { white },
-  table.header(
-    text(fill: white, weight: "bold", size: 8.5pt)[Método],
-    text(fill: white, weight: "bold", size: 8.5pt)[O que mede],
-    text(fill: white, weight: "bold", size: 8.5pt)[Custo],
-    text(fill: white, weight: "bold", size: 8.5pt)[Quando escolher],
-  ),
-  text(size: 8.5pt)[Escore de cálcio],
-  text(size: 8.5pt)[Carga de placa calcificada, acima de 130 unidades Hounsfield em área mínima de 1 mm²],
-  text(size: 8.5pt)[Radiação baixa, sem contraste],
-  text(size: 8.5pt)[Estratificar risco em assintomático; não mostra a luz],
-  text(size: 8.5pt)[Angiotomografia de coronárias],
-  text(size: 8.5pt)[A luz do vaso, com especificidade alta e valor preditivo negativo próximo de 100%],
-  text(size: 8.5pt)[Radiação e contraste iodado],
-  text(size: 8.5pt)[Excluir doença em probabilidade pré-teste baixa a intermediária],
-  text(size: 8.5pt)[Cateterismo],
-  text(size: 8.5pt)[Grau de estenose com precisão, e permite tratar no mesmo tempo],
-  text(size: 8.5pt)[Invasivo, risco baixo mas real],
-  text(size: 8.5pt)[Alta probabilidade pré-teste, ou lesão grave já detectada],
-))
+  stroke: 0.5pt + gray-border,
+  fill: (x, y) => if y == 0 { navy } else { none },
+  text(fill: white, weight: "bold", size: 6.8pt)[Classe],
+  text(fill: white, weight: "bold", size: 6.8pt)[Alvo molecular],
+  text(fill: white, weight: "bold", size: 6.8pt)[Ação],
+  text(fill: white, weight: "bold", size: 6.8pt)[Espectro],
+  text(size: 6.8pt)[β-lactâmicos], text(size: 6.8pt)[Transpeptidase (PBP)], text(size: 6.8pt)[Bactericida], text(size: 6.8pt)[Varia com a família],
+  text(size: 6.8pt)[Glicopeptídeos], text(size: 6.8pt)[Terminal D-Ala-D-Ala], text(size: 6.8pt)[Bactericida], text(size: 6.8pt)[Gram-positivos],
+  text(size: 6.8pt)[Aminoglicosídeos], text(size: 6.8pt)[Subunidade 30S], text(size: 6.8pt)[Bactericida], text(size: 6.8pt)[Aeróbios],
+  text(size: 6.8pt)[Tetraciclinas], text(size: 6.8pt)[Subunidade 30S], text(size: 6.8pt)[Bacteriostática], text(size: 6.8pt)[Amplo],
+  text(size: 6.8pt)[Macrolídeos], text(size: 6.8pt)[Subunidade 50S], text(size: 6.8pt)[Bacteriostática], text(size: 6.8pt)[Gram-positivos e atípicos],
+  text(size: 6.8pt)[Quinolonas], text(size: 6.8pt)[DNA-girase, topoisomerase IV], text(size: 6.8pt)[Bactericida], text(size: 6.8pt)[Gram-positivos e negativos],
+  text(size: 6.8pt)[Sulfa + trimetoprima], text(size: 6.8pt)[Duas enzimas da via do folato], text(size: 6.8pt)[Bactericida], text(size: 6.8pt)[Amplo],
+  text(size: 6.8pt)[Polimixinas], text(size: 6.8pt)[Lipídio A do LPS], text(size: 6.8pt)[Bactericida], text(size: 6.8pt)[Gram-negativos],
+)
 
-A regra que organiza a tabela: *um exame só é útil quando o resultado pode mudar a conduta*. Com probabilidade pré-teste alta, uma angiotomografia negativa não seria aceita e uma positiva levaria ao cateterismo de qualquer modo — o exame acrescenta radiação e contraste sem alterar a decisão. Com probabilidade baixa a intermediária, o resultado negativo encerra a investigação, e é aí que o valor preditivo negativo alto tem valor.
+#parte-title("PARTE II — Matar ou parar, e as cinco saídas que a bactéria encontra")
 
-A mesma leitura por densidade vale nos outros territórios. Na tomografia de crânio sem contraste, a área isquêmica é *hipoatenuante* porque o edema citotóxico aumenta o conteúdo de água do tecido; sangue agudo é hiperatenuante. Na aorta, a calcificação parietal extensa e o alargamento do vaso registram a mesma doença em calibre maior.
+#subtopico("2.1 — Bacteriostático × bactericida: uma razão, não um rótulo")
 
-#clinica-box("Do mecanismo à estratégia terapêutica", [
-No infarto por trombose sobre placa rota, cada estratégia ataca um elo da cadeia deste resumo. O *antiagregante plaquetário* age na hemostasia primária, reduzindo adesão e agregação sobre o colágeno exposto. O *trombolítico* age depois do trombo formado, ativando o plasminogênio em plasmina, que degrada a rede de fibrina. A *desobstrução mecânica com implante de stent* restabelece a luz e reduz a turbulência que realimenta a ativação endotelial.
+Duas medidas saem da mesma bateria de tubos. A #sigla("CIM", [concentração inibitória mínima — menor concentração do antimicrobiano capaz de impedir o crescimento visível do microrganismo após 18 a 24 horas de incubação]) é a menor concentração que impede o crescimento macroscópico. A #sigla("CBM", [concentração bactericida mínima — menor concentração capaz de matar praticamente todo o inóculo; obtida subcultivando em meio livre de antibiótico os tubos que não turvaram]) é a menor que não deixa sobrevivente: obtém-se semeando em meio sem antibiótico o conteúdo dos tubos límpidos e vendo qual deles não cresce mais.
 
-As três convergem no mesmo alvo: o endotélio ativado, que perdeu o perfil antitrombótico e passou a expressar fator tecidual e fator de von Willebrand enquanto reduz óxido nítrico e ativador de plasminogênio. Controlar a glicemia atua antes disso, sobre a glicação que produziu a disfunção endotelial.
+A classificação nasce da relação entre as duas. Quando a CBM é próxima da CIM — na prática, até quatro vezes maior —, a concentração que inibe é praticamente a que mata, e o fármaco é *bactericida*. Quando a CBM está muito acima, inibir custa pouco e matar custa concentração inatingível: o fármaco é *bacteriostático*, e a eliminação fica por conta do sistema imune. Segue daí que a classificação não é identidade fixa da molécula — ela depende do par fármaco-microrganismo, e o cloranfenicol é bacteriostático para a maioria das bactérias e bactericida para _Haemophilus influenzae_.
+
+#figura-nebli("/figuras/micro-05-antibioticos-resistencia/slide-47.png",
+  largura: 36%,
+  legenda: [O conteúdo citoplasmático extravasando pela parede rompida é o desfecho da inibição da transpeptidase — e ele só ocorre porque a bactéria estava crescendo e as autolisinas seguiram cortando uma malha que ninguém repunha.])
+
+Onde a imunidade funciona e o sítio é acessível, o bacteriostático resolve: congela a população e o hospedeiro faz o resto. Onde a defesa não chega — vegetação de válvula na endocardite, liquor com pouca opsonina e poucos fagócitos, paciente neutropênico —, exige-se bactericida, porque não há quem termine o serviço.
+
+Isso define também a *fase da curva de crescimento* em que cada um rende mais. A cultura passa por fase lag, sem divisão; fase log, de duplicação exponencial; e fase estacionária, com o nutriente esgotado. O bacteriostático impede proliferação, e por isso rende ao máximo na fase log e quase nada na estacionária; o β-lactâmico depende da mesma fase log pela razão oposta, porque precisa da parede em remodelação para que a autólise apareça.
+
+#atencao-box("Somar dois antibióticos pode subtrair efeito", [
+Associar um bacteriostático a um β-lactâmico tende ao *antagonismo*: o bacteriostático trava a fase log, e é exatamente do crescimento ativo que o β-lactâmico depende para desencadear autólise — a população parada fica protegida da lise, e o resultado combinado é pior que o do β-lactâmico sozinho.
+
+A sinergia previsível está noutro par: o β-lactâmico desorganiza a parede e facilita a travessia do aminoglicosídeo até a membrana, onde ele será captado. A regra que sai daí é que combinar faz sentido quando um fármaco *abre caminho* para o outro, ou quando dois alvos independentes reduzem a chance de uma mutação única conferir resistência aos dois — que é a lógica do esquema múltiplo e prolongado da tuberculose, imposto pelo tempo de duplicação longo e pelo nicho intracelular do bacilo.
 ])
+
+#subtopico("2.2 — As cinco saídas: como a bactéria deixa de morrer")
+
+O antibiótico *não induz* resistência: ele seleciona. A mutação ou o gene já existiam numa fração da população, e o fármaco elimina o restante, deixando a subpopulação resistente ocupar o espaço vazio. É por isso que subdose e tempo curto selecionam com tanta eficiência — matam o suficiente para abrir o nicho e de menos para esterilizá-lo.
+
+A resistência pode ser *intrínseca*, propriedade da espécie anterior a qualquer exposição — a vancomicina que não atravessa a membrana externa do Gram-negativo é o exemplo canônico —, ou *adquirida*, surgida por mutação pontual ou pela chegada de um gene de fora. O veículo desse gene é tipicamente o *plasmídeo*, molécula circular de DNA com replicação autônoma que passa de uma bactéria a outra e costuma carregar vários genes de resistência de uma vez.
+
+Os mecanismos formam uma lista fechada de cinco. O primeiro é a *inativação enzimática*: a bactéria produz uma enzima que destrói o fármaco antes que ele chegue ao alvo. A *β-lactamase* hidrolisa o anel β-lactâmico e o inutiliza; variantes de espectro estendido, as #sigla("ESBL", [β-lactamases de espectro estendido — variantes que ampliam a hidrólise às cefalosporinas de terceira e quarta gerações, deixando os carbapenêmicos como saída]), ampliam a hidrólise às cefalosporinas modernas; carbapenemases como a KPC atingem a última linha. Contra aminoglicosídeos o princípio é o mesmo com outra química: enzimas acetilam, adenilam ou fosforilam a molécula, e o produto modificado não se liga mais ao 30S.
+
+O segundo é a *alteração do alvo*, o mais importante da aula. No MRSA o gene _mecA_ codifica a *PBP2a*, transpeptidase alternativa de afinidade baixíssima por β-lactâmicos: ela constrói a parede enquanto todas as PBPs normais estão bloqueadas. Como o que mudou foi o alvo, e não a estabilidade do fármaco, nenhum inibidor de β-lactamase recupera a atividade, e a resistência se estende a toda a classe. A lógica reaparece noutras frentes — mutação em _gyrA_ e _parC_ reduz a afinidade da quinolona, e a metilase codificada por _erm_ altera o 50S e derruba macrolídeo, lincosamida e estreptogramina juntos.
+
+#clinica-box("MRSA: uma troca de peça que fecha a classe inteira", [
+_Staphylococcus aureus_ carrega dois mecanismos de resistência a β-lactâmicos que costumam ser confundidos. A *penicilinase*, presente na quase totalidade das cepas, é uma β-lactamase que hidrolisa a penicilina G — e é contornável, seja por uma penicilina anti-estafilocócica estável à enzima, seja pela associação com um inibidor.
+
+A resistência à meticilina é outra coisa. O gene _mecA_ chega dentro de um elemento genético móvel e codifica a PBP2a; o alvo passa a existir em duas versões, e a nova ignora o fármaco. Como não há enzima a inibir, a cepa é considerada resistente a *todos* os β-lactâmicos, com a exceção das cefalosporinas de quinta geração, desenhadas para ligar a própria PBP2a. Daí a vancomicina ocupar historicamente o lugar de tratamento padrão: ela ataca o substrato, não a enzima, e a troca de PBP não a afeta.
+])
+
+Os três últimos são de rota e de acesso. A *via alternativa* contorna o alvo em vez de mudá-lo: os genes _van_ fazem a bactéria sintetizar precursores terminados em D-alanil-D-lactato, o que remove uma ligação de hidrogênio do sítio de encaixe da vancomicina e derruba a afinidade cerca de mil vezes, sem prejuízo para a transpeptidase. A *redução da permeabilidade* fecha a entrada — perder uma porina específica basta para o carbapenêmico não alcançar o periplasma. E o *efluxo* usa bombas transmembrana que exportam o fármaco tão rápido quanto ele entra; como muitas têm especificidade larga, uma só produz resistência simultânea a classes sem parentesco químico.
+
+#mini-resumo[Destruir o fármaco, trocar o alvo, contornar a via, barrar a entrada, bombear para fora. Cada uma dessas cinco saídas deixa uma marca própria no perfil do laudo — e é essa marca que o subtópico seguinte aprende a ler.]
+
+#subtopico("2.3 — Ler o padrão como assinatura, e a contramedida do inibidor suicida")
+
+Se cada mecanismo de resistência atinge um conjunto previsível de fármacos, o conjunto de resultados de um laudo pode ser lido ao contrário, do efeito para a causa. É a habilidade mais útil que a aula entrega, e ela começa por um par de resultados aparentemente contraditório.
+
+Uma cepa *resistente à amoxicilina e sensível à amoxicilina com clavulanato* não é erro de bancada: é a assinatura da β-lactamase. A mesma molécula funciona quando acompanhada porque o acompanhante neutralizou a enzima que a destruía. O *ácido clavulânico* — como o sulbactam e o tazobactam — é um β-lactâmico praticamente sem atividade antibacteriana própria, desenhado para ser reconhecido pela β-lactamase e ligar-se a ela de forma irreversível. Ele é consumido no processo, e por isso se chama *substrato suicida*.
+
+#figura-nebli("/figuras/micro-05-antibioticos-resistencia/slide-60.png",
+  largura: 42%,
+  legenda: [Acima, a aminopenicilina sozinha é hidrolisada no periplasma antes de alcançar a PBP. Abaixo, o inibidor suicida ocupa e destrói a β-lactamase, e a mesma aminopenicilina chega intacta ao alvo. O que a associação restaura é o acesso, não a potência.])
+
+#confusao-prevista(
+  titulo: "Clavulanato não é o antibiótico da associação",
+  aluno_acha: [o aluno lê "amoxicilina + clavulanato" como dois antibióticos somando espectro],
+  mecanismo: [o clavulanato é inibidor de enzima, não antibacteriano. Ele só faz diferença quando o mecanismo de resistência *é* enzimático: não protege contra carbapenemase e não faz nada quando a resistência vem de alteração de alvo, como no MRSA, ou de efluxo. Inibidor de β-lactamase resolve resistência por β-lactamase — e apenas ela.],
+)
+
+Os demais padrões se organizam em degraus. Resistência às penicilinas e às cefalosporinas de terceira e quarta gerações, com carbapenêmico sensível, aponta β-lactamase de espectro estendido — e a saída é o carbapenêmico. Quando ele também cai, o mecanismo subiu para carbapenemase e o arsenal se reduz a polimixina, tigeciclina e combinações recentes. Resistência isolada às quinolonas, com β-lactâmicos preservados, aponta mutação em topoisomerase, porque nenhuma enzima bacteriana degrada quinolona. E resistência simultânea a classes sem parentesco químico levanta bomba de efluxo de espectro largo.
+
+#figura-nebli("/figuras/micro-05-antibioticos-resistencia/slide-123.png",
+  largura: 36%,
+  legenda: [Na mesma placa, o disco de ampicilina não produz halo e o de amoxicilina-clavulanato produz — leitura direta de β-lactamase. Repare também nas colônias crescendo dentro da zona de inibição do disco à direita: colônia satélite levanta cultura polimicrobiana, identificação equivocada ou heterorresistência, e obriga a reisolar antes de liberar o resultado.])
+
+Cada degrau tem contramedida própria: o *avibactam*, com a ceftazidima, inibe carbapenemases fora do alcance do clavulanato, e o *cefiderocol* — cefalosporina ligada a um quelante de ferro — entra pelos sistemas de captação de ferro da bactéria, contornando porina e efluxo de uma vez.
+
+#parte-title("PARTE III — O laboratório: de suscetibilidade a número, e de número a decisão")
+
+#subtopico("3.1 — A CIM e como se chega ao número")
+
+A CIM não é propriedade da bactéria como o formato da colônia. É o resultado de uma corrida padronizada entre a difusão do fármaco e a duplicação do microrganismo, e o valor só significa alguma coisa porque todas as variáveis dessa corrida foram fixadas de antemão por um comitê de normatização.
+
+O método de referência é a *diluição em caldo*. Prepara-se uma série de tubos com *diluições duplas* do antimicrobiano — 1, 2, 4, 8, 16, 32 µg/mL —, semeia-se em cada um o mesmo inóculo padronizado e incuba-se a 35 ± 2 °C por 18 a 24 horas. A leitura é por turbidez: o primeiro tubo límpido, de menor concentração, é a CIM. A escala é geométrica e não decimal, o que significa que a resolução do método é de um degrau — um valor de 16 é vizinho imediato de um valor de 32.
+
+#figura-nebli("/figuras/micro-05-antibioticos-resistencia/slide-74.png",
+  largura: 44%,
+  legenda: [Os primeiros tubos estão turvos e o seguinte já está límpido: a CIM desta cepa de _E. coli_ para ampicilina é a concentração do primeiro tubo sem crescimento visível. O tubo-controle, sem antibiótico, atesta que o inóculo era viável — sem ele o resultado não pode ser liberado.])
+
+Três padronizações sustentam o número, e cada uma tem razão mecanística. O *inóculo* é ajustado pela *escala 0,5 de McFarland*, suspensão de referência de cerca de 1,5 × 10⁸ unidades formadoras de colônia por mililitro, conferida por turbidez ou absorbância a 625 nm e diluída até o inóculo de trabalho, da ordem de 5 × 10⁵ por mililitro: inóculo denso demais consome o antibiótico e eleva falsamente a CIM. O *meio* é o Mueller-Hinton, pobre em timidina e em PABA, que antagonizariam as sulfonamidas, e com teor controlado de cálcio e magnésio, cátions que alteram a atividade de aminoglicosídeos e polimixinas. *Tempo e temperatura* são fixos porque a leitura compara populações que tiveram a mesma janela para crescer.
+
+#mini-resumo[Inóculo padronizado, meio definido, tempo e temperatura fixos → o único fator que varia entre os tubos é a concentração do fármaco. É essa restrição que transforma turbidez em número comparável.]
+
+#figura-lateral("/figuras/micro-05-antibioticos-resistencia/slide-91.png",
+  lado: "left",
+  largura-figura: 32%,
+  texto: [As variantes trocam praticidade por custo. A *microdiluição em caldo* leva a mesma lógica para uma microplaca de 96 poços, testando doze antimicrobianos com oito diluições cada e leitura fotométrica. A *diluição em ágar* permite dezenas de isolados na mesma placa e resolve bactérias exigentes que não crescem bem em caldo. O *E-test* é uma fita com gradiente contínuo já calibrado: a elipse de inibição cruza a escala impressa exatamente no valor da CIM, unindo a praticidade da difusão ao resultado quantitativo da diluição.],
+  legenda: [E-test: a elipse marca a CIM na escala.])
+
+#subtopico("3.2 — Difusão em disco: o halo é a CIM lida ao contrário")
+
+O método de Kirby-Bauer mede a mesma grandeza de 3.1 em outra unidade. Um disco de papel impregnado com massa conhecida de antimicrobiano é aplicado sobre o ágar recém-semeado; o fármaco difunde radialmente e forma um *gradiente de concentração* decrescente a partir do disco. A bactéria cresce por toda a placa, exceto onde a concentração local ainda estava acima da CIM — e a borda do halo marca justamente o ponto em que a concentração que difundiu igualou a CIM da cepa.
+
+É por isso que diâmetro do halo e CIM são grandezas inversamente relacionadas: quanto menor a concentração necessária para inibir, mais longe do disco a inibição alcança. O halo mede inibição, exatamente como a CIM — não mede morte.
+
+#figura-nebli("/figuras/micro-05-antibioticos-resistencia/slide-116.png",
+  largura: 50%,
+  legenda: [O corte transversal explica por que a leitura tem de ser do halo *mais interno*. Perto do disco há inibição completa; adiante, crescimento retardado; depois, inibição apenas parcial. Só a primeira faixa corresponde à concentração acima da CIM, e é a única que a tabela de interpretação prevê.])
+
+As variáveis de 3.1 reaparecem com efeito geométrico. A *profundidade do ágar* é fixada em torno de 4 mm — cerca de 25 mL em placa de 90 mm — porque camada mais rasa concentra o fármaco num volume menor e alarga o halo. O *inóculo* segue a escala de McFarland: suspensão densa demais devolve halo falsamente pequeno e pode converter cepa sensível em laudo resistente.
+
+#confusao-prevista(
+  titulo: "Halo maior não significa antibiótico melhor",
+  aluno_acha: [o aluno compara diâmetros entre discos diferentes da mesma placa e conclui qual fármaco é mais potente],
+  mecanismo: [o diâmetro depende de três coisas ao mesmo tempo: a CIM da cepa, a massa de fármaco no disco e a velocidade com que aquela molécula difunde no ágar. Moléculas grandes difundem mal e produzem halos pequenos mesmo com excelente atividade. A comparação entre discos só é legítima depois de cada diâmetro ser traduzido pela tabela de pontos de corte específica daquele par disco-espécie.],
+)
+
+Dois achados interrompem a liberação do resultado. *Halo duplo* significa zona interna de inibição completa e anel externo de crescimento parcial — mede-se o interno. *Colônias satélites* dentro da zona de inibição levantam cultura polimicrobiana, identificação incorreta ou heterorresistência, e obrigam a reisolar a partir da satélite, reidentificar e repetir. Semanalmente, o *controle de qualidade* com cepas de coleção de suscetibilidade conhecida — _E. coli_ ATCC 25922, _P. aeruginosa_ ATCC 27853 — confere se os halos ainda caem na faixa esperada, validando discos, meio e técnica.
+
+#subtopico("3.3 — De S/I/R à escolha: o laudo é previsão, não veredito")
+
+O laudo não afirma que o antibiótico mata a bactéria: afirma que a concentração alcançável no sítio, com a dose habitual, deve superar a CIM medida. É previsão farmacológica, e as premissas dela podem não valer no paciente da frente.
+
+A tradução de milímetros e de µg/mL em letras é feita pelo *ponto de corte*, fixado por comitês como o #sigla("CLSI", [Clinical and Laboratory Standards Institute — comitê norte-americano que publica os pontos de corte de interpretação do antibiograma; no Brasil o equivalente é o BrCAST]) e, no Brasil, o BrCAST. O corte não é propriedade do fármaco: nasce do cruzamento da distribuição de CIM naquela espécie, da farmacocinética no sítio de interesse e do desfecho clínico observado — e por isso muda entre espécies, entre sítios e ao longo dos anos.
+
+#figura-nebli("/figuras/micro-05-antibioticos-resistencia/slide-120.png",
+  largura: 57%,
+  legenda: [A tabela é a peça que fecha a PARTE. Para cada par fármaco-espécie ela dá a massa do disco, a faixa de diâmetro em milímetros e o ponto de corte equivalente em µg/mL — as duas unidades convivem porque medem a mesma coisa. Repare que ampicilina e amoxicilina-clavulanato têm cortes distintos: são interpretações separadas, não o mesmo fármaco em duas doses.])
+
+*Sensível* indica que a dose habitual alcança concentração suficiente no sítio; *Resistente*, que nem a dose máxima chega lá. *Intermediário* não é "meio sensível": é a faixa em que o sucesso depende de dose maximizada ou de sítio onde o fármaco se concentra, e é também a zona-tampão que absorve a variação técnica do método, impedindo que um milímetro de leitura mude a cepa de categoria.
+
+#clinica-box("O mesmo número, dois laudos diferentes", [
+O pico sérico em dose plena fica entre quatro e oito vezes acima da CIM da cepa sensível; no liquor exige-se perto de dez vezes; e na urina muitos fármacos se concentram dezenas de vezes acima do plasma, porque o rim os despeja concentrados na luz tubular. O mesmo valor de CIM pode então ser Sensível numa cistite e Resistente numa meningite — e a nitrofurantoína é o extremo disso: concentração urinária alta e sérica baixa a tornam boa em cistite e inútil em pielonefrite.
+])
+
+Entre os fármacos sensíveis, restam critérios que o laudo não mede: o *espectro mais estreito* poupa a microbiota comensal e reduz a pressão seletiva, a *penetração no sítio* elimina candidatos que o antibiograma aprovou, e a *imunidade do hospedeiro* decide se um bacteriostático basta. A *toxicidade de órgão* desempata — eritromicina é hepatotóxica, gentamicina é oto e nefrotóxica, tetraciclina deposita-se em dente e osso em formação, sulfonamida desloca bilirrubina da albumina e causa kernicterus no recém-nascido, cloranfenicol produz a síndrome do bebê cinzento no neonato que ainda não glicuroniza.
+
+#atencao-box("Sensível no laudo não garante cura no paciente", [
+O antibiograma testa bactéria em crescimento livre, em meio rico e sem barreira física. O paciente oferece o oposto em situações previsíveis: coleção purulenta não drenada, onde pH ácido e baixa tensão de oxigênio anulam classes inteiras; biofilme em cateter ou prótese, cuja matriz reduz a penetração; patógeno intracelular; tecido necrótico sem perfusão; imunossupressão. Falha terapêutica com laudo integralmente Sensível é, portanto, achado esperado — e o primeiro passo diante dela não é trocar o antibiótico, é procurar o foco a drenar ou o corpo estranho a retirar.
+])
+
+Prevenir resistência decorre do mecanismo de 2.2: como o antibiótico seleciona em vez de induzir, o que reduz a seleção é o espectro mais estreito possível, em dose plena e pelo tempo adequado — subdose e curso interrompido abrem o nicho sem esterilizá-lo. Reservar as classes de última linha preserva a alternativa para quando ela for a única.
+
+#figura-nebli("/figuras/micro-05-antibioticos-resistencia/slide-126.png",
+  largura: 58%,
+  legenda: [Os três métodos lendo a mesma cepa. Diluição em ágar e em caldo entregam a CIM em µg/mL e a difusão entrega o halo em milímetros; a linha tracejada é o ponto de corte, e é ele que converte qualquer uma das três medidas na mesma letra do laudo.])
 
 #conclusao-box[
-O princípio que atravessa o resumo: *diabetes é um defeito de sinal cujo produto — glicose intracelular alta e prolongada — é quimicamente reativo*. O restante é consequência dessa reatividade encontrando tecidos incapazes de se proteger dela.
+Um princípio organiza a aula inteira: *toxicidade seletiva*. Quatro estruturas da bactéria diferem das nossas o bastante para servirem de alvo — parede, membrana, ribossomo 70S e maquinaria de ácidos nucleicos —, e cada classe ocupa uma delas. Saber a qual frente uma classe pertence prediz o espectro, a ação e a resistência plausível.
 
-O mecanismo nuclear é a glicação não-enzimática avançando em etapas de reversibilidade decrescente — base de Schiff em horas, produto de Amadori em dias, ligação cruzada irreversível em meses — e o eixo AGE–RAGE convertendo dano químico em programa inflamatório com retroalimentação positiva. A mesma distinção entre etapas reversíveis e irreversíveis explica por que a hemoglobina glicada mede controle e por que a lesão do diabetes tem memória.
+O mecanismo nuclear a levar embora é que *alvo e acesso são coisas distintas*, e a bactéria ataca qualquer um dos dois: destrói o fármaco com uma enzima, troca o alvo por uma versão que não o reconhece, contorna a via, fecha a porta de entrada ou bombeia para fora o que entrou. Cada uma dessas cinco saídas produz um perfil característico no laudo — o que torna o antibiograma legível ao contrário, do efeito para a causa.
 
-Adoecem os tecidos que captam glicose sem depender de insulina e não conseguem fechar a porta quando a glicemia sobe — pericito, célula mesangial, endotélio, neurônio periférico, cristalino. Cada um tem uma assinatura de imagem que corresponde ao substrato descrito pelo patologista: o rim que aumenta antes de encolher, a erosão articular sem reação periosteal do Charcot, o edema de medular óssea da osteomielite, a calcificação coronariana medida em unidades Hounsfield, o parênquima hipoatenuante do infarto cerebral.
+Na clínica isso vira três leituras. Amoxicilina resistente com amoxicilina-clavulanato sensível é β-lactamase, e a associação resolve o caso. Resistência a toda a classe β-lactâmica sem reversão pelo inibidor é troca de PBP, como no MRSA, e a associação não resolve nada. E laudo Sensível com paciente que não melhora aponta problema de acesso — abscesso, biofilme, tecido necrótico —, não de escolha de molécula.
 
-Duas portas ficam abertas. A inflamação crônica e o reparo tecidual: o que a PARTE III chamou de auto-perpetuador é, no vocabulário da patologia, inflamação crônica com fibrose, e o pé que não cicatriza é reparo travado. E a trombose: a placa que rompe e o trombo que se forma sobre ela são hemostasia funcionando como deveria, no lugar errado.
+Fica em aberto a rota pela qual o gene de resistência viaja: ele quase nunca surge na cepa que o carrega — chega em plasmídeo, transposon ou integron, vindo de outra bactéria e às vezes de outra espécie. É essa mobilidade, e não a taxa de mutação, que explica a velocidade com que a resistência se espalha.
 ]

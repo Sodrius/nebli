@@ -1,0 +1,135 @@
+# MAPA_CONTEUDO -- micro-05-antibioticos-resistencia
+# Slide-fonte: micro-05-antibioticos-resistencia.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: UC3-2024 Mecanismo de ação de antibióticos Resistência bacteriana Nilton Lincopan, PhD lincopan@usp.br http://www.onehealthbr.com/ Departamento de Microbiologia – Instituto de Ciências Biomédicas Universidade de São Paulo, Brasil *All images are beli...
+slide-02: [VISUAL -- usar adjacente com titulo extraivel]
+slide-03: Paul et al., 2019. Ecotoxicol Environ Saf. 174:601-610. Antimicrobianos
+slide-04: https://amr.biomerieux.com/en/challenges/from-farm-to-food-to-people-one-health/ Uso de antimicrobianos
+slide-05: procariontes (bactérias) Bacteriologia Microbiologia vs Doenças Infecciosas eucariontes (fungos) Micologia vírus Virologia
+slide-06: PRE-ANTIBIÓTICA (Infeções bacterianas = principal causa de morte) PÓS-ANTIBIÓTICA (Aumento da resistência) Antibióticos e Quimioterápicos
+slide-07: Paul Ehrlich (1854-1915): Arsfenamina (Salvarsan/606), comercializado em 1910. Gerhard Domagk (1895-1964): Sulfonamidas (Prontosil/KI-730), comercializado em 1935. Alexander Fleming (1881-1955): Penicilina 1928, uso clínico em 1942. Antibióticos e Qu...
+slide-08: 1882 - Estudos com Corantes “seletividade” 1909 – 1910 Salvarsan (composto arsénico) Quimioterápicos Paul Erlich (1854 – 1915)
+slide-09: Compostos sintéticos ou modificados quimicamente que matam ou inibem o crescimento de bactérias Quinolonas: Ciprofloxacina (CIPRO) Norfloxacina Levofloxacina Enrofloxacina (Veterinária) Sulfonamidas: Sulfametoxazol-Trimetoprim (BACTRIM) Quimioterápic...
+slide-10: [VISUAL -- usar adjacente com titulo extraivel]
+slide-11: Compostos de baixo peso molecular que matam ou inibem o crescimento de bactérias Produzido por microrganismos: Penicilina (1928) Penicillium notatum Estreptomicina (1944) Streptomyces griseus Cloranfenicol (1947) Streptomyces venezuelae Polimixina (1...
+slide-12: bacteriocinas P. aeruginosa Penicillium notatum Antibióticos: Metabólitos secundários
+slide-13: Antibióticos: Metabólitos secundários Tempo Bactérias (UFC)/mL Fase de crescimento estacionária
+slide-14: Antimicrobianos: Metabólitos secundários Tempo de incubação (horas) 0 24 48 Produção de bacteriocinas por Pseudomonas aeruginosa
+slide-15: 35 Penicilinas 50 Cefalosporinas 4 Carbapenems 1 Monobactâmico 10 Fluoroquinolonas 8 Aminoglicosídeos 12 Tetraciclinas 10 Macrolídeos / Lincosamidas 9 Sulfonamidas Sanford, 2023 β-lactâmicos Antibacterianos Comercializados
+slide-16: 1 Glicilciclina (Tigeciclina) 1 Oxaxolidinona (Linezolida) 1 Quetolídeo (Telitromicina) 1 Lipopeptídeo (Daptomicina) 1 Estreptogramina (quinupristina/dalfopristina) Synercid (30/70) “2 Polimixinas” Ceftazidima/Avibactam (2015) Cefiderocol (20...
+slide-17: Cefiderocol (FDA 2019, Fetroja): Cefiderocol is approved for treatment of complicated urinary tract infections (cUTIs) caused by susceptible Gram-negative microorganisms.
+slide-18: Classificação dos Antimicrobianos 1.Espectro de Atividade • Espectro dirigido • Amplio espectro 2. Estrutura Química 3. Ação • Bacteriostático • Bactericida
+slide-19: [VISUAL -- usar adjacente com titulo extraivel]
+slide-20: [VISUAL -- usar adjacente com titulo extraivel]
+slide-21: -lactâmicos Estrutura Química Alvo: Transpeptidase (Protein binding penicillin) Ação: Inibem síntese da parede (Bactericida) Espectro: Gram-positivos e/ou Gram-negativos
+slide-22: Penicilina Naturais Penicilina G Amino Penicilinas Ampicilina Amoxicilina Anti-estafilocócica Cloxacilina, Meticilina, Oxacilina Anti-Pseudomonas Carbenicilina Ticarcilina Piperacilina Penicilinas -lactâmicos O O N S CH3 CH3 COOH N H R
+slide-23: 1G: Cefalotina (Keflin), Cefazolina 2G: Cefaclor 3G: Cefotaxima (Claforan) Ceftriaxona (Rocephin) Ceftazidima (Fortaz) + Avibactam (KPC) Ceftiofur (Veterinário) Cefovecina (Veterinário) 4G: Cefepime (Maxipime) 5G: Ceftarolina (MRSA) Ceftobiprole (MRS...
+slide-24: COOH O N R1 R Imipenem Meropenem Ertapenem Doripenem Carbapenems -lactâmicos Amplio Espectro, ÚLTIMA ALTERNATVA TERAPÊUTICA Atividade contra bactéria produtoras de beta-lactamases de amplo espectro (ESBLs)
+slide-25: C O R NH O N SO3H Aztreonam Monobactâmicos -lactâmicos
+slide-26: Alvo: subunidades N-ácido acetilmuramico e N- acetilglucosamina Ação: Inibem síntese da parede (Bactericida) Espectro: Gram positivos Glicopeptídeos Estrutura Química
+slide-27: O N H O NH O O NH O NH O O O O H OH C H3 O NH2 CH3 CH2OH O O R4 R5 H OH H N + CH3 C H3 O NH Y H NH -O2C H OH OH O H R3 R2 R1 H S1O H H X1 X2 Vancomicina Teicoplanina Gram positivos Glicopeptídeos
+slide-28: Alvo: DNA girase Ação: Inibição da transcrição de DNA Espectro: Gram positivos e Gram negativos Quinolonas Estrutura Química
+slide-29: Geração Agente Primeira Ácido nalidixico Segunda Norfloxacina Ofloxacina Ciprofloxacina Terceira Levofloxacina Enrofloxacina Gatifloxacina Bonomo, R. A. Clin. Microbiolo. Newsletters. 20:197-201, 1998. Quinolonas
+slide-30: Alvo: Subunidade 30S do ribossoma Ação: Inibição da síntese de proteínas Espectro: Gram positivos e Gram negtivos Aminoglicosídeos Estrutura Química
+slide-31: Aminoglicosídeos Gentamicina Tobramicina Amicacina
+slide-32: Alvo: Subunidade 50S do ribossoma Ação: Inibição da síntese de proteínas Espectro: Gram positivos Macrolídeos Estrutura Química
+slide-33: CH3 O CH3 N CH3 C H3 O H O O O O O C2H3 C H3 O H O H C H3 CH3 OH CH3 CH3 CH3 OH CH3 OMe Eritromicina Azitromicina Claritromicina Macrolídeos
+slide-34: Tetraciclinas Estrutura Química Alvo: Subunidade 30S do ribossoma Ação: Inibição da síntese de proteínas Espectro: Gram positivos e Gram negativos, Mycoplasma, Chlamydia, Rickettsia, Coxiella burnetii .
+slide-35: Tetraciclina Doxiciclina Minociclina Tetraciclinas
+slide-36: Alvo: Membrana citoplásmica Ação: Disrupção Espectro: Gram negativos Polimixinas Estrutura Química
+slide-37: Polimixina B Polimixina E (colistina) Polimixinas
+slide-38: Classificação dos Antimicrobianos Ação: Bacteriostático Bactericida
+slide-39: Bacteriostático: Sulfonamidas Tetraciclinas Eritromicina Bactericida: Penicilinas Cefalosporinas Vancomicina Aminoglicosídeos Polipeptídeos Quinolonas Bacteriostático vs Bactericida
+slide-40: Mecanismos de Ação Inibição da síntese de parede Alteração da integridade da membrana Inibição da síntese protéica Inibição da síntese de ácidos nucléicos Classificação dos Antimicrobianos
+slide-41: Síntese proteíca Macrolídeos Ketolídeos (telitromicina) Lincosamidas Estreptograminas (synercid) Tetraciclinas Aminoglicosídeos Oxazolidinonas (linezolida) Síntese de ácidos nucleicos Quinolonas Sulfonamidas Trimetoprim Rifampicina Síntese de ácidos ...
+slide-42: INIBIÇÃO DA SINTESE DA PAREDE CELULAR -lactâmicos: PBPs (protein binding penicillin) Glicopeptídeos: Precursores do peptidoglicano
+slide-43: Mecanismos de Ação: síntese da parede
+slide-44: Vancomicina: Mecanismo de ação
+slide-45: Mecanismos de Ação: inibição da parede
+slide-46: Mecanismos de Ação: inibição da síntese da parede
+slide-47: Mecanismos de Ação: inibição da parede Bactericida
+slide-48: INIBIÇÃO DA TRANSCRIÇÃO DE DNA QUINOLONAS Alvo: DNA Girase
+slide-49: [VISUAL -- usar adjacente com titulo extraivel]
+slide-50: Inibição de DNA Girase J. Antimicrob. Chemother. 51:1109-1117, 2003 gyrA gyrB
+slide-51: Quinolonas: Mecanimo de ação
+slide-52: INIBIÇÃO DA SINTESE PROTÉICA Grupo MLS Aminoglicosídeos Alvo: Ribossomos
+slide-53: Inibição da Síntese Proteica
+slide-54: Inibição da Síntese Proteica
+slide-55: Disrupção da Membrana Polimixinas Alvo: Membrana
+slide-56: Membrana externa Membrana interna Periplasma Polimixina B (Bacillus polymyxa) Colistin (Bacillus colistinus) NH3+ - - - - - - - - -
+slide-57: MECANISMO DE AÇÃO DAS SULFAS Síntese do DNA PABA ÁCIDO DIIDROFÓLICO ÁCIDO TETRAIDROFÓLICO SÍNTESE DO TIMIDILATO DNA diidropteroato sintase diidrofolato redutase SULFONAMIDAS PABA Essencial na síntese do ácido fólico
+slide-58: N H2 C O OH N H2 C O N H CH CH2 COOH CH2 COOH Ácido p-amino benzóico Ácido fólico Sulfonamida Análogo do PABA X diidropteroato sintase diidropteroato sintase N H2 SO2 NH2
+slide-59: Ácido Clavulânico Sulbactam Tazobactam O N O CH2OH COOH Inibidores de β-lactamase
+slide-60: Inibidores de β-lactamase Amoxicilina + Clavulânico
+slide-61: ESTUDO DA SUSCEPTIBILIDADE ANTIBACTERIANA “IN VITRO”
+slide-62: Objetivo: “Predizer in vitro o que acontecerá in vivo” Antibiograma Assistência terapêutica Epidemiologia
+slide-63: 1. Métodos de diluição 2. E-Test 3. Sistemas Automatizados 4. Método de difusão do disco Antibiograma
+slide-64: Metodologia estandardizada CLSI: Clinical and Laboratory Standards Institute BSAC: British Society for Antimicrobial Chemotherapy BrCAST: Brazilian Modificações para bactérias fastidiosas Controle de Qualidade Cepas ATCC E. coli 25922 P. aeruginos...
+slide-65: Gratuito Adiconalmente existe BrCASTVet
+slide-66: 1. Métodos de diluição 2. Sistemas Automatizados 3. E-Test 4. Método de difusão do disco Antibiograma
+slide-67: uso de diluições duplas ex: 1, 2, 4, 8, 16.......μg/mL total 8 concentrações (1 - 2 ml por tubo) inocular com suspensão standard (5 x 105 ufc/mL) temperatura de incubação 37C Interpretação: TURBIDÊZ 1. Macrodiluição em caldo
+slide-68: Caldo ou ágar Mueller-Hinton Meio quimicamente puro Adição de fatores de crescimento quando necessário ex. 5% sangue Meio de cultura
+slide-69: Tubo 0,5 1 2 3 4 5 6 Barium chloride 1,175% (mL) 0.05 0,1 0,2 0,3 0,4 0,5 0,6 Sulfuric acid 1% (mL) 9.95 9,9 9,8 9,7 9,6 9,5 9,4 Cell density (X 108/mL) 1,5 3 6 9 12 14 18 Escala 0,5 de Mc Farland equivalente à leitura no espectrofotómetro =absorvanc...
+slide-70: Escala 0,5 de Mc Farland
+slide-71: 1 mL caldo Mueller-Hinton 1 mL caldo Mueller-Hinton 1,8 mL caldo Mueller-Hinton 0,2 mL antibiótico ex. 1280 ug/mL + 128 ug/mL 1 mL 1 mL 64 ug/mL 32 ug/mL 1 x 108 ufc/mL 1 x 106 ufc/mL 0,01 mL 1:100 2,97 mL MH 0,03 mL 1 x 104 ufc/mL 1 x 104 ufc/mL 1 x...
+slide-72: 35 ± 2°C 18 – 24 horas Aerobiose, microaerofilia ou anaerobiose segundo requerimento do microrganismo Condições de incubação
+slide-73: Concentração inibitória mínima (CIM): menor concentração do antimicrobiano que inibe o crescimento macroscópico do microrganismo. Expresso em μg/mL
+slide-74: Cepa de E. coli ATCC 25922 apresentando uma CIM para Ampicilina 4 g/mL. Método de Macrodiluição. 1. Macrodiluição em caldo
+slide-75: Vantagens • Resultado quantitativo = CIM Desvantagens • Trabalhoso • Quantidade de reagente • Espaço requerido • Erros de manipulação 1. Macrodiluição em caldo
+slide-76: “Menor concentração do antibiótico que produz a inibição do crescimento macroscopicamente visível” (após 18-24 h) 1- Estabelecimento de esquemas terapêuticos Concentração no sangue Cmáx = 4 - 8 vezes > CIM Concentração no liquor = 10 vezes > CIM 2 - ...
+slide-77: “Maior diluição do antibiótico que produz a morte do microrganismo” (após 18-24 h) Concentração bactericida mínima Concentração ug/mL C+ 100 uL 24 h x 37°C x 24h
+slide-78: Uso de microplacas (96 pocinhos) 100 uL 8 diluições duplas 12 antimicrobianos 1 - 5 uL de inoculo standard 16 - 20 horas Leitura no computador (fotômetro) 2. Microdiluição em caldo
+slide-79: 2. Microdiluição em caldo
+slide-80: [VISUAL -- usar adjacente com titulo extraivel]
+slide-81: Vantagens • Reporte impresso • Memória de dados • Economia de reagente e espaço físico • Reprodutibilidade • Resultado quantitativo = CIM Desvantagens • Inflexibilidade para a seleção de drogas 2. Microdiluição em caldo
+slide-82: 3. Diluição em ágar
+slide-83: Vantagens • 32 - 36 isolamentos diferentes testados • CIM (inibição do crescimento visível) • custo • Teste de bactérias problemáticas que não crescem bem em caldo (N. gonorrhoeae) Desvantagens • Inefetivo para poucos isolamentos • Não disponível co...
+slide-84: [VISUAL -- usar adjacente com titulo extraivel]
+slide-85: Placas contendo vancomicina Método de Diluição em ágar para Vancomicina. CIM para S. aureus ATCC 259222 1.0 g/mL (cuadro vermelho).
+slide-86: Antibiograma 1. Métodos de diluição 2. Sistemas Automatizados 3. E-Test 4. Método de difusão do disco
+slide-87: MICROSCAN / VITEX Turbação ou mudança de cor Antibiograma automatizado
+slide-88: Vantagens • Reporte impresso • Memória de dados • Economia de reagente e espaço físico • Reprodutibilidade • Resultado semi-quantitativo = CIM (valor máx e min) • Adição da identificação Desvantagens • Inflexibilidade para a seleção de drogas • Perda...
+slide-89: Antibiograma 1. Métodos de diluição 2. Sistemas Automatizados 3. E-Test 4. Método de difusão do disco
+slide-90: ++ Flexibilidade na escolha dos antibióticos +++ Teste de bactérias exigentes ++++ Obtenção da CIM (-) Custo elevado (2 - 3 dólares cada fita) Antibiograma E-test
+slide-91: Antibiograma E-test
+slide-92: Antibiograma 1. Métodos de diluição 2. Sistemas Automatizados 3. E-Test 4. Método de difusão do disco
+slide-93: Difusão do disco
+slide-94: Difusão do disco (Kirby-Bauer)
+slide-95: Altura do Ágar: h = V = cm h= altura r2 x 3,14 V= volume Difusão do disco (Kirby-Bauer) 1. Placas de 150 mm = 70 mL de meio 2. Placas de 90 mm = 25 mL de meio
+slide-96: Difusão do disco (Kirby-Bauer) Preparação do inóculo a partir de 3 – 5 colônias isoladas
+slide-97: [VISUAL -- usar adjacente com titulo extraivel]
+slide-98: Mueller-Hinton Sangue Considerar características Nutricionais da bactéria
+slide-99: Haemophilus spp. Neisseria spp.
+slide-100: Conservação dos antibióticos 4°C ou –20°C
+slide-101: Ajuste do inóculo da escala o,e de Mc Farland = 1 x108 ufc/mL 625 nm / 0,08 – 0,1 Absorbância
+slide-102: [VISUAL -- usar adjacente com titulo extraivel]
+slide-103: [VISUAL -- usar adjacente com titulo extraivel]
+slide-104: Aplicar inóculo e deixar secar a superfície do meio
+slide-105: Como escolher ? • Bactéria (Gram +/-) • Espectro de ação • Sitio alvo • Clínica (estado imune) • Duração da terapia • CIM • Custo • Reações adversas (custo/beneficio) Seleção de antibióticos
+slide-106: • Imipinem / Meropenem 250-400 reais/dia (28 dias) • Ciprofloxacina ~300 reais/dia • Ceftazidima ~300 reais / dia • Cefepime ~300 reais / dia • Piperazilina/Tazobactam ~200 reais/dia • Vancomicina ~100 reais/dia • Ambisome ~2000 reais / dia • Flucona...
+slide-107: SEGURANÇA DO ANTIBIÓTICO Eritromicina: hepatotóxico Gentamicina: ototóxico Tetraciclinas: displasia dentária Sulfonamidas: Kernicterus em recém- nascidos Cloranfenicol: Síndrome do Bebê cinzento
+slide-108: Penicilina Eritromicina Azitromicina Amoxicilina/clavulânico Cefaclor Amoxicilina (otite) Trato repiratório superior
+slide-109: Amoxicilina/calvulânico Cefuroxima Cefotaxima Ceftriaxona Ciprofloxacina Ceftazidima Gentamicina Amicacina Eritromicina/Azitromicina Tetraciclina Trato repiratório inferior
+slide-110: SXT Nitrofurantoína Ciprofloxacina Norfloxacina Ofloxacina Cefalosporinas de 1 geração (cefalexina) Cefuroxima Amoxicila/clavulânico Trato urinário
+slide-111: Eritromicina (Campylobacter spp) Ciprofloxacina Cloranfenicol SXT Ceftriaxona Ampicilina Tetraciclína Azitromicina Trato gastrointestinal
+slide-112: Eritromicina Clindamicina Cloxacilina Cefuroxima Cefalosporinas de 1° geração Tetraciclina Penicilina Pele e tecidos moles
+slide-113: Ampicilina (A) Cafalotina (A) Gentamicina (A) Amicacina (B) Amoxi/Cla ou Ampi/Sulbactam (B) Cefepima (B) Cefoxitina (B) Cefotaxima/Ceftriaxona (B) SXT (B) Ciprofloxacina (B) Ertapenem/Imipenem ou Meropenem (B) Gram negativo (Enterobacteriaceae) Aztre...
+slide-114: Ceftazidima (A) Gentamicina (A) Ticarcilina/Piperacilina (A) Amicacina (B) Aztreonam (B) Cefepima (B) Ciprofloxacina (B) Imipenem ou Meropenem (B) Cefotaxima ou Ceftriaxona (C) SXT (C) Piperacilina/Tazobactam P. aeruginosa/Acinetobacter spp Ampicilin...
+slide-115: Incubar x 18-24h – 35 ± 2°C
+slide-116: Difusão do disco (Kirby-Bauer) Medir diâmetro do halo mais interno em milimetro
+slide-117: Vantagens • Padronizado • Reprodutível • Simples • Fácil de interpretar • Flexível para a seleção de discos • Baixo custo Desvantagens • Não automatizado • NÃO PADRONIZADO PARA NÃO FERMENTADORES QUE NÃO SEJAM Pseudomonas aeruginosa ou Acinetobacter s...
+slide-118: The National Committee for Clinical Laboratory Standards Leitura e interpretação CLSI: Clinical and Laboratory Standards Institute
+slide-119: Leitura em mm ou em µg/mL (CIM)
+slide-120: [VISUAL -- usar adjacente com titulo extraivel]
+slide-121: Interpretação Interpretação in vivo: Sensível: resposta ao tratamento Intermediário: dose dependente? Resistente: não responde ao tratamento
+slide-122: Critérios Duplo halo? Medir diâmetro interno!
+slide-123: Critérios Colônias satelites! Cultura polimicrobiana? Contaminação? Identificação ok? Heterorresitência? Repita teste a partir da colônia Satélite, re-isole, re-identifique
+slide-124: Resistência heterogênea??
+slide-125: Controle de qualidade Semanalmente
+slide-126: Métodos de Suscetibilidade Antimicrobiana CL 128 64 32 16 8 4 2 (ug/mL) VAN 30 ug 9mm 12 mm CL 256 128 64 32 16 8 4 2 1 (ug/mL)
+slide-127: PREVENÇÃO DA RESISTÊNCIA A ANTIBIÓTICOS não usar de modo indiscriminado e inadequado utilizar por período de tempo adequado preferir o uso de ATB de ação rápida e seletivos (espectro estreito) Utilizar associação de fármacos quando houver necessi...

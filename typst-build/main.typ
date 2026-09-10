@@ -1,5 +1,5 @@
 // ================================================================
-// MAIN.TYP -- gr-02-diabetes-mellitus | Gerado por gerar_main.py
+// MAIN.TYP -- micro-05-antibioticos-resistencia | Gerado por gerar_main.py
 // ================================================================
 
 #import "../typst-template/nebli_v2_apostila.typ": *
@@ -8,11 +8,11 @@
 
 // ======= CAPA =======
 #capa(
-  "Diabetes mellitus",
-  "Da hiperglicemia às complicações de órgão-alvo",
+  "Antibióticos e resistência bacteriana",
+  "Do alvo molecular ao laudo do antibiograma",
   (
-    ("Disciplina", "Patologia · Bioquímica · Imunologia · Radiologia"),
-    ("Onde estudar", "Robbins & Cotran, Patologia — capítulo do Sistema Endócrino, § Diabetes mellitus · Lehninger, Princípios de Bioquímica — Regulação hormonal e integração metabólica · Brant & Helms, Fundamentos de Radiologia — tórax cardiovascular e musculoesquelético"),
+    ("Disciplina", "Microbiologia"),
+    ("Onde estudar", "Murray, Microbiologia Médica — capítulos de agentes antibacterianos e de mecanismos de resistência · Levinson, Microbiologia Médica e Imunologia — antimicrobianos, testes de suscetibilidade e antibiograma"),
   ),
 )
 
@@ -22,21 +22,20 @@
 // ======= SUMÁRIO =======
 #sumario((
   ("Etapa 1 — Texto didático", (
-    ("PARTE I — O sinal que falta", (
-      "1.1 A insulina e seus freios",
-      "1.2 Tipo 1: ilhota destruída",
-      "1.3 Tipo 2: sinal não escutado",
-      "1.4 Diurese osmótica e descompensações",
+    ("PARTE I — O alvo seletivo", (
+      "1.1 Toxicidade seletiva e os quatro alvos",
+      "1.2 A parede: β-lactâmicos e glicopeptídeos",
+      "1.3 Ribossomo, ácidos nucleicos e membrana",
     )),
-    ("PARTE II — Do açúcar ao dano", (
-      "2.1 Glicação e os dois relógios",
-      "2.2 O AGE nas proteínas de vida longa",
-      "2.3 RAGE e as outras rotas",
+    ("PARTE II — Matar, parar e escapar", (
+      "2.1 Bacteriostático × bactericida",
+      "2.2 As cinco saídas da resistência",
+      "2.3 O padrão do laudo como assinatura",
     )),
-    ("PARTE III — Onde o dano aparece", (
-      "3.1 Retina e glomérulo",
-      "3.2 Neuropatia e pé diabético",
-      "3.3 Aterosclerose e imagem",
+    ("PARTE III — O laboratório decide", (
+      "3.1 A CIM e como se chega ao número",
+      "3.2 Difusão em disco e o halo",
+      "3.3 De S/I/R à escolha do fármaco",
     )),
   )),
 ))
@@ -58,40 +57,40 @@
 
 // ======= GABARITO CONSOLIDADO (Etapa 2) =======
 #gabarito-page((
-  ("Consolidação (Q01–Q08)", (
+  ("Consolidação (Q01–Q10)", (
     ("01", "D"),
-    ("02", "ECCE"),
+    ("02", "CCEE"),
     ("03", "C"),
-    ("04", "A"),
-    ("05", "CCCE"),
-    ("06", "E"),
-    ("07", "CCEE"),
-    ("08", "C"),
+    ("04", "ECCE"),
+    ("05", "A"),
+    ("06", "A"),
+    ("07", "E"),
+    ("08", "B"),
+    ("09", "CCEC"),
+    ("10", "C"),
   )),
-  ("Integração (Q09–Q25)", (
-    ("09", "B"),
-    ("10", "CCEC"),
-    ("11", "D"),
-    ("12", "A"),
-    ("13", "CECC"),
-    ("14", "B"),
-    ("15", "D"),
-    ("16", "ECCC"),
+  ("Integração (Q11–Q25)", (
+    ("11", "C"),
+    ("12", "EECC"),
+    ("13", "E"),
+    ("14", "D"),
+    ("15", "CEEC"),
+    ("16", "A"),
     ("17", "B"),
-    ("18", "C"),
-    ("19", "CEEC"),
-    ("20", "E"),
-    ("21", "A"),
-    ("22", "EECC"),
-    ("23", "D"),
-    ("24", "B"),
-    ("25", "CEEE"),
+    ("18", "ECEE"),
+    ("19", "D"),
+    ("20", "C"),
+    ("21", "CEEE"),
+    ("22", "A"),
+    ("23", "E"),
+    ("24", "EECE"),
+    ("25", "B"),
   )),
   ("Aplicação (Q26–Q30)", (
-    ("26", "C"),
-    ("27", "E"),
+    ("26", "D"),
+    ("27", "CECC"),
     ("28", "A"),
-    ("29", "D"),
-    ("30", "EECE"),
+    ("29", "C"),
+    ("30", "ECCE"),
   )),
 ))

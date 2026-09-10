@@ -1,231 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [O transportador de glicose cuja translocação para a membrana depende da insulina, presente no músculo esquelético e no tecido adiposo, é o:],
-  (("A", [GLUT-1, expresso de forma constitutiva na hemácia e na barreira hematoencefálica.]),
-   ("B", [GLUT-2, transportador de alta capacidade do hepatócito e da célula beta pancreática.]),
-   ("C", [SGLT-2, cotransportador de sódio e glicose do túbulo contorcido proximal.]),
-   ("D", [GLUT-4, estocado em vesículas intracelulares e translocado à membrana pela via da Akt.]),
-   ("E", [GLUT-3, transportador de alta afinidade do neurônio, independente de insulina.])))
+  [O alvo molecular dos antibióticos β-lactâmicos é:],
+  (("A", [A subunidade 50S do ribossomo bacteriano, no túnel de saída do polipeptídeo.]),
+   ("B", [O terminal D-alanil-D-alanina do precursor do peptidoglicano.]),
+   ("C", [A DNA-girase, enzima que desfaz o super-enrolamento da dupla-hélice.]),
+   ("D", [A transpeptidase que fecha a parede, também chamada proteína ligadora de penicilina.]),
+   ("E", [O lipídio A do lipopolissacarídeo da membrana externa.])))
 
 #questao-ce("02", badge-consolidacao,
-  [Julgue os itens a seguir sobre a glicação e os exames que a medem.],
-  (("I",   [A glicação da hemoglobina é catalisada por uma glicosiltransferase específica da hemácia.]),
-   ("II",  [A base de Schiff se forma em horas e é reversível.]),
-   ("III", [A hemoglobina glicada reflete as últimas 8 a 12 semanas de exposição à glicose.]),
-   ("IV",  [A frutosamina reflete uma janela de tempo maior que a da hemoglobina glicada.])))
+  [Julgue os itens a seguir sobre as medidas quantitativas de suscetibilidade.],
+  (("I",   [A concentração inibitória mínima é a menor concentração que impede o crescimento visível após 18 a 24 horas.]),
+   ("II",  [A escala 0,5 de McFarland corresponde a cerca de 1,5 × 10⁸ unidades formadoras de colônia por mililitro.]),
+   ("III", [A concentração bactericida mínima é lida diretamente pela turbidez dos tubos, sem subcultivo.]),
+   ("IV",  [A série de concentrações do método de diluição é montada em passos de dez vezes.])))
 
 #questao-mc("03", badge-consolidacao,
-  [A glicosúria começa a aparecer quando a glicemia ultrapassa aproximadamente:],
-  (("A", [100 mg/dL, valor que define o limite superior da glicemia de jejum normal.]),
-   ("B", [126 mg/dL, valor de glicemia de jejum usado como ponto de corte diagnóstico.]),
-   ("C", [180 mg/dL, ponto em que satura a reabsorção tubular proximal de glicose.]),
-   ("D", [250 mg/dL, faixa a partir da qual costuma haver cetose no diabetes tipo 1.]),
-   ("E", [300 mg/dL, faixa habitual de apresentação do estado hiperosmolar não cetótico.])))
+  [O meio de cultura padronizado para a realização do antibiograma é o:],
+  (("A", [Ágar sangue, enriquecido com 5% de sangue de carneiro desfibrinado.]),
+   ("B", [Ágar MacConkey, seletivo para bacilos Gram-negativos entéricos.]),
+   ("C", [Mueller-Hinton, quimicamente definido e pobre em timidina e PABA.]),
+   ("D", [Ágar chocolate, obtido pelo aquecimento controlado do ágar sangue.]),
+   ("E", [Caldo tioglicolato, usado para cultivo de microrganismos anaeróbios.])))
 
-#questao-mc("04", badge-consolidacao,
-  [A dosagem de peptídeo C em um paciente com diabetes serve para estimar:],
-  (("A", [A secreção endógena residual de insulina pela célula beta pancreática.]),
-   ("B", [A dose diária total de insulina exógena que o paciente vem aplicando.]),
-   ("C", [O grau de resistência periférica à insulina nos tecidos-alvo do hormônio.]),
-   ("D", [O título de autoanticorpos dirigidos contra antígenos da ilhota pancreática.]),
-   ("E", [A capacidade de extração hepática da insulina na primeira passagem.])))
+#questao-ce("04", badge-consolidacao,
+  [Julgue os itens a seguir sobre o alvo molecular de cada classe.],
+  (("I",   [Os macrolídeos ligam-se à subunidade 30S do ribossomo bacteriano.]),
+   ("II",  [As tetraciclinas ligam-se à subunidade 30S do ribossomo bacteriano.]),
+   ("III", [As quinolonas inibem a DNA-girase e a topoisomerase IV.]),
+   ("IV",  [As polimixinas atuam inibindo a síntese da parede celular.])))
 
-#questao-ce("05", badge-consolidacao,
-  [Julgue os itens a seguir sobre os métodos de imagem da doença arterial coronariana.],
-  (("I",   [O escore de cálcio é adquirido sem contraste intravenoso.]),
-   ("II",  [A angiotomografia de coronárias utiliza contraste iodado.]),
-   ("III", [A angiocoronariografia invasiva permite tratar a lesão no mesmo procedimento.]),
-   ("IV",  [O escore de cálcio informa o grau de estenose da luz coronariana.])))
+#questao-mc("05", badge-consolidacao,
+  [O gene responsável pela resistência à meticilina em _Staphylococcus aureus_ é o:],
+  (("A", [_mecA_, que codifica a proteína ligadora de penicilina alternativa, a PBP2a.]),
+   ("B", [_vanA_, que altera o terminal do precursor para D-alanil-D-lactato.]),
+   ("C", [_gyrA_, que codifica uma subunidade da DNA-girase bacteriana.]),
+   ("D", [_erm_, que codifica uma metilase da subunidade ribossômica 50S.]),
+   ("E", [_blaTEM_, que codifica uma β-lactamase de espectro clássico.])))
 
 #questao-mc("06", badge-consolidacao,
-  [No estágio final da nefropatia diabética, a ultrassonografia renal mostra:],
-  (("A", [Rins aumentados de volume, com córtex espessado e ecogenicidade reduzida.]),
-   ("B", [Rins de dimensões normais, com dilatação do sistema coletor bilateralmente.]),
-   ("C", [Rins aumentados de volume, com múltiplos cistos corticais e medulares.]),
-   ("D", [Rins de dimensões normais, com perda da diferenciação córtico-medular.]),
-   ("E", [Rins reduzidos de volume, com córtex afilado e ecogenicidade aumentada.])))
+  [O ácido clavulânico, associado à amoxicilina, é classificado como:],
+  (("A", [Inibidor suicida de β-lactamase, praticamente sem atividade antibacteriana própria.]),
+   ("B", [Aminoglicosídeo de segunda geração com ação sobre a subunidade 30S.]),
+   ("C", [Inibidor da DNA-girase de uso restrito ao trato urinário baixo.]),
+   ("D", [Glicopeptídeo que se liga ao precursor do peptidoglicano.]),
+   ("E", [Análogo estrutural do ácido para-aminobenzoico bacteriano.])))
 
-#questao-ce("07", badge-consolidacao,
-  [Julgue os itens a seguir sobre as duas lesões ósseas do pé diabético.],
-  (("I",   [A artropatia de Charcot decorre de microtraumas repetidos em articulação sem dor nem propriocepção.]),
-   ("II",  [A osteomielite é infecção que acomete a medular óssea.]),
-   ("III", [A radiografia simples detecta a osteomielite já nas primeiras horas de infecção.]),
-   ("IV",  [O edema da medular óssea aparece com alto sinal em T1 na ressonância magnética.])))
+#questao-mc("07", badge-consolidacao,
+  [Sobre a execução e a leitura do teste de difusão em disco, assinale a alternativa *incorreta*:],
+  (("A", [A incubação é feita a 35 ± 2 °C por um período de 18 a 24 horas.]),
+   ("B", [Quando há halo duplo, mede-se o diâmetro do halo mais interno.]),
+   ("C", [O inóculo é ajustado previamente pela escala 0,5 de McFarland.]),
+   ("D", [O meio usado é o ágar Mueller-Hinton, com cerca de 4 mm de espessura.]),
+   ("E", [O diâmetro do halo de inibição é registrado em micrograma por mililitro no laudo final.])))
 
 #questao-mc("08", badge-consolidacao,
-  [Os dois intermediários lipídicos que se acumulam no miócito sob excesso de ácido graxo e ativam serina-quinases de estresse são:],
-  (("A", [Colesterol livre e éster de colesterol, acumulados na gotícula lipídica citoplasmática.]),
-   ("B", [Acetoacetato e β-hidroxibutirato, os dois corpos cetônicos produzidos pelo hepatócito.]),
-   ("C", [Diacilglicerol e ceramida, derivados do excesso de acil-CoA graxo intracelular.]),
-   ("D", [Fosfatidilcolina e esfingomielina, principais fosfolipídeos da membrana plasmática.]),
-   ("E", [Prostaglandina E₂ e leucotrieno B₄, eicosanoides derivados do ácido araquidônico.])))
+  [A classe cujo alvo é a membrana citoplasmática, com ação por disrupção, é a das:],
+  (("A", [Macrolídeos, representados pela eritromicina, pela azitromicina e pela claritromicina.]),
+   ("B", [Polimixinas, representadas pela polimixina B e pela polimixina E, a colistina.]),
+   ("C", [Carbapenêmicos, representados pelo imipenem, pelo meropenem e pelo ertapenem.]),
+   ("D", [Aminoglicosídeos, representados pela gentamicina, pela tobramicina e pela amicacina.]),
+   ("E", [Sulfonamidas, representadas pelo sulfametoxazol e pelo cotrimoxazol em associação.])))
 
-#questao-mc("09", badge-integracao,
-  [Retina, glomérulo, nervo periférico e cristalino concentram as complicações crônicas do diabetes, enquanto o músculo esquelético é relativamente poupado. A explicação mecanística desse contraste é:],
-  (("A", [O músculo esquelético dispõe de uma isoforma de aldose-redutase com afinidade muito baixa pela glicose, o que impede a via dos polióis de operar nesse tecido mesmo sob hiperglicemia prolongada.]),
-   ("B", [Esses tecidos captam glicose por transportadores independentes de insulina e não reduzem a entrada quando a glicemia sobe, enquanto o músculo diminui o GLUT-4 de superfície e limita a própria carga intracelular.]),
-   ("C", [A microcirculação desses órgãos é anatomicamente terminal, e é apenas essa ausência de circulação colateral, e não a concentração intracelular de glicose, que determina onde a lesão crônica se instala.]),
-   ("D", [Esses tecidos possuem taxa de renovação proteica muito superior à do músculo, o que multiplica o número de grupos amino recém-expostos disponíveis para a reação de glicação não-enzimática.]),
-   ("E", [O músculo esquelético expressa concentrações elevadas de receptor para produtos de glicação avançada e degrada localmente os AGEs formados antes que eles estabeleçam ligações cruzadas.])))
+#questao-ce("09", badge-consolidacao,
+  [Julgue os itens a seguir sobre as famílias de antibióticos β-lactâmicos.],
+  (("I",   [O aztreonam é um monobactâmico com atividade restrita a Gram-negativos aeróbios.]),
+   ("II",  [Os carbapenêmicos são os β-lactâmicos mais estáveis às β-lactamases de espectro estendido.]),
+   ("III", [As cefalosporinas de primeira geração são as de melhor cobertura para Gram-negativos.]),
+   ("IV",  [As cefalosporinas de quinta geração têm atividade contra cepas resistentes à meticilina.])))
 
-#questao-ce("10", badge-integracao,
-  [Julgue os itens a seguir sobre as duas formas de descompensação aguda do diabetes.],
-  (("I",   [No tipo 1, a ausência quase total de insulina libera a lipase hormônio-sensível, e a inundação do fígado por ácido graxo produz cetoácidos em excesso.]),
-   ("II",  [No tipo 2, a insulina residual é insuficiente para normalizar a glicemia mas basta para conter a lipólise, o que explica a ausência de cetose franca na descompensação típica.]),
-   ("III", [A respiração ampla e profunda observada na cetoacidose reflete comprometimento pulmonar direto causado pela hiperglicemia e pela desidratação associadas ao quadro.]),
-   ("IV",  [O estado hiperosmolar é primariamente um distúrbio de água, produzido pela diurese osmótica prolongada, e não um distúrbio do equilíbrio ácido-base.])))
+#questao-mc("10", badge-consolidacao,
+  [A enzima da via do folato inibida diretamente pelas sulfonamidas é a:],
+  (("A", [Di-hidrofolato redutase, que converte o di-hidrofolato em tetra-hidrofolato ativo.]),
+   ("B", [Timidilato sintase, responsável pela produção do timidilato usado no DNA.]),
+   ("C", [Di-hidropteroato sintase, a enzima da via que consome o ácido para-aminobenzoico.]),
+   ("D", [Transpeptidase, que fecha as pontes cruzadas do peptidoglicano.]),
+   ("E", [Topoisomerase IV, que separa os dois cromossomos-filhos após a replicação.])))
 
 #questao-mc("11", badge-integracao,
-  [Após seis meses de bom controle glicêmico, a hemoglobina glicada de um paciente normalizou, mas a rigidez da matriz e a dificuldade de cicatrização persistem. A explicação é:],
-  (("A", [A hemoglobina glicada mede glicemia recente enquanto o colágeno registra a glicemia de anos anteriores, sem que a química das duas modificações difira entre si.]),
-   ("B", [A hemácia possui enzimas de desglicação ausentes no fibroblasto, e é essa maquinaria que devolve a hemoglobina ao estado original quando a glicemia normaliza.]),
-   ("C", [O colágeno sofre glicosilação enzimática, irreversível por definição, enquanto a hemoglobina sofre apenas a glicação espontânea, que reverte com a queda da glicemia.]),
-   ("D", [A hemoglobina glicada é produto de Amadori e sai de circulação com a renovação da hemácia, enquanto o colágeno reticulado por ligação cruzada resiste à proteólise e não é reposto.]),
-   ("E", [A rigidez da matriz decorre de deposição de cálcio, e não de glicação, de modo que ela não guarda relação com a exposição prévia à glicose nem responde ao controle.])))
+  [Uma cultura em fase estacionária é exposta a uma concentração de penicilina que é plenamente bactericida para a mesma cepa em fase log, e a mortalidade observada é muito menor. A explicação mecanística para essa diferença é:],
+  (("A", [A penicilina sofre hidrólise espontânea acelerada pelo acúmulo de metabólitos ácidos que ocorre na fase estacionária, e a concentração efetiva no meio cai antes de o fármaco alcançar a transpeptidase.]),
+   ("B", [Na fase estacionária a bactéria induz a expressão de bombas de efluxo de espectro largo, que exportam o β-lactâmico do periplasma tão rápido quanto ele atravessa a porina da membrana externa.]),
+   ("C", [A morte pelo β-lactâmico depende da autólise: sem remodelação ativa da parede as autolisinas não estão cortando peptidoglicano, e a transpeptidase inibida não gera perda de resistência mecânica.]),
+   ("D", [A parede sintetizada na fase estacionária é mais espessa e mais reticulada, o que impede fisicamente que a molécula de penicilina alcance as proteínas ligadoras de penicilina do periplasma.]),
+   ("E", [Na fase estacionária o pH do meio cai o suficiente para protonar o anel β-lactâmico, e a forma protonada perde a capacidade de acilar o sítio ativo da enzima-alvo.])))
 
-#questao-mc("12", badge-integracao,
-  [Sobre o elo entre a hiperglicemia crônica e a formação da placa de ateroma, assinale a alternativa *incorreta*.],
-  (("A", [A captação da LDL glicada pelo macrófago se dá por receptores de LDL clássicos, cuja expressão cai à medida que o colesterol intracelular sobe, o que limita a formação de células espumosas.]),
-   ("B", [A glicação da LDL prejudica o reconhecimento da partícula pelo seu receptor hepático, prolonga o tempo que ela passa na circulação e favorece a oxidação no espaço subendotelial.]),
-   ("C", [Os receptores scavenger do macrófago não são inibidos pelo colesterol já acumulado na célula, e é essa ausência de regulação que produz a célula espumosa.]),
-   ("D", [A inativação do óxido nítrico pelos produtos de glicação avançada instala disfunção endotelial antes que exista placa detectável por qualquer método de imagem.]),
-   ("E", [O eixo AGE-RAGE mantém estado pró-inflamatório e pró-coagulante, com aumento de fator tecidual e do inibidor do ativador de plasminogênio.])))
+#questao-ce("12", badge-integracao,
+  [Julgue os itens a seguir sobre a relação entre o mecanismo de resistência e a contramedida farmacológica cabível.],
+  (("I",   [Em cepa resistente à meticilina, associar um inibidor de β-lactamase à oxacilina restaura a atividade do β-lactâmico.]),
+   ("II",  [O ácido clavulânico protege o carbapenêmico da hidrólise promovida por uma carbapenemase.]),
+   ("III", [O perfil amoxicilina resistente com amoxicilina-clavulanato sensível indica produção de β-lactamase pela cepa.]),
+   ("IV",  [A resistência conferida pelo gene _mecA_ estende-se a praticamente toda a classe dos β-lactâmicos.])))
 
-#questao-ce("13", badge-integracao,
-  [Julgue os itens a seguir sobre a via dos polióis e suas consequências oculares.],
-  (("I",   [A aldose-redutase converte glicose em sorbitol consumindo NADPH, e a menor disponibilidade de glutationa reduzida enfraquece a defesa antioxidante da célula.]),
-   ("II",  [O sorbitol atravessa livremente a membrana da fibra do cristalino e é exportado para o humor aquoso, razão pela qual não contribui para a opacificação da lente.]),
-   ("III", [A oscilação do grau refrativo do paciente descompensado se explica por variação do conteúdo de água do cristalino acompanhando as mudanças de glicemia.]),
-   ("IV",  [Os neovasos da retinopatia proliferativa surgem em resposta à isquemia retiniana e, por serem frágeis e crescerem em direção ao vítreo, sangram e tracionam a retina.])))
+#questao-mc("13", badge-integracao,
+  [A sulfonamida bloqueia uma via metabólica ausente na célula humana, e ainda assim é contraindicada no recém-nascido. O mecanismo dessa toxicidade é:],
+  (("A", [A sulfonamida inibe a di-hidrofolato redutase humana com afinidade elevada no período neonatal, e a queda do tetra-hidrofolato compromete a hematopoese do lactente.]),
+   ("B", [O acúmulo de ácido para-aminobenzoico não consumido pela via bloqueada gera metabólitos oxidantes que lesam a membrana da hemácia do recém-nascido.]),
+   ("C", [A imaturidade da filtração glomerular concentra a sulfonamida no túbulo, e o fármaco precipita em cristais que obstruem a luz tubular e causam lesão renal.]),
+   ("D", [A sulfonamida inibe a glicuronidação hepática ainda imatura no neonato, e o acúmulo do fármaco não conjugado produz colapso circulatório de instalação rápida.]),
+   ("E", [A sulfonamida desloca a bilirrubina de seus sítios na albumina; a fração livre atravessa a barreira hematoencefálica imatura e se deposita nos núcleos da base.])))
 
 #questao-mc("14", badge-integracao,
-  [A membrana basal glomerular do paciente com nefropatia diabética está espessada e, ainda assim, deixa passar albumina para o filtrado. A explicação desse achado aparentemente contraditório é:],
-  (("A", [O espessamento reduz o tamanho dos poros de filtração a ponto de reter moléculas maiores, e a albumina detectada na urina provém da descamação de células tubulares lesadas pela hiperglicemia.]),
-   ("B", [O que aumenta não é apenas a espessura: a matriz depositada é desorganizada e a membrana perde proteoglicanos aniônicos, isto é, a barreira de carga que repelia a albumina, também aniônica.]),
-   ("C", [A espessura maior aumenta a distância de difusão e reduz o fluxo de água, elevando a concentração de albumina no filtrado sem que a permeabilidade da barreira tenha se alterado.]),
-   ("D", [A albuminúria decorre da hialinização das arteríolas eferentes, que reduz a pressão de filtração e faz a albumina ser secretada ativamente pelo epitélio do túbulo proximal para o lúmen.]),
-   ("E", [O espessamento da membrana basal é acompanhado de infiltrado inflamatório rico em neutrófilos, cujas proteases digerem localmente a barreira e abrem falhas por onde a albumina escapa.])))
+  [Um isolado de _Escherichia coli_ mostra-se resistente à ampicilina, à cefalotina, à ceftriaxona e à ceftazidima, e sensível ao meropenem e à amicacina. O mecanismo de resistência mais provável é:],
+  (("A", [Mutação pontual em _gyrA_ com redução da afinidade da enzima-alvo, mecanismo que reduz a suscetibilidade de forma característica e é o mais frequente nesta espécie.]),
+   ("B", [Perda de porina da membrana externa, que barra a entrada das moléculas hidrofílicas pequenas e produz resistência sem que enzima alguma seja produzida pela cepa.]),
+   ("C", [Alteração da proteína ligadora de penicilina por aquisição de uma variante de baixa afinidade, o que retira o alvo de todos os β-lactâmicos testados.]),
+   ("D", [Produção de β-lactamase de espectro estendido, que hidrolisa penicilinas e cefalosporinas de todas as gerações mas não alcança o anel dos carbapenêmicos.]),
+   ("E", [Expressão de bomba de efluxo de especificidade larga, que exporta simultaneamente classes quimicamente não relacionadas e explica o perfil observado no laudo.])))
 
-#questao-mc("15", badge-integracao,
-  [Em um homem obeso e sedentário, a cadeia que liga o excesso de oferta de ácido graxo ao músculo à redução da captação de glicose por essa mesma fibra é:],
-  (("A", [O ácido graxo compete com a glicose pelo sítio de transporte do GLUT-4 na membrana, e a ocupação desse sítio reduz proporcionalmente o número de moléculas de glicose transportadas por minuto.]),
-   ("B", [O ácido graxo é oxidado preferencialmente na mitocôndria, e o acúmulo de citrato inibe a fosfofrutoquinase, o que eleva a glicose-6-fosfato intracelular e bloqueia a entrada do açúcar pela membrana.]),
-   ("C", [O ácido graxo ativa receptores nucleares que reprimem a transcrição do gene do receptor de insulina, e a menor densidade de receptores na superfície reduz a sinalização em todas as suas ramificações.]),
-   ("D", [O excedente de acil-CoA graxo acumula diacilglicerol e ceramida, que ativam serina-quinases de estresse; estas fosforilam o IRS-1 em serina, o sinal não alcança a PI3K e menos GLUT-4 chega à membrana.]),
-   ("E", [O ácido graxo se liga diretamente à subunidade beta do receptor de insulina e bloqueia o sítio catalítico da tirosina-quinase, impedindo a autofosforilação que iniciaria toda a cascata intracelular.])))
+#questao-ce("15", badge-integracao,
+  [Julgue os itens a seguir sobre a padronização física do teste e o sentido do ponto de corte.],
+  (("I",   [Inóculo mais denso que o padrão tende a produzir halo menor e pode converter uma cepa sensível em laudo resistente.]),
+   ("II",  [Camada de ágar mais espessa que os 4 mm padronizados alarga o halo de inibição obtido.]),
+   ("III", [O ponto de corte é propriedade intrínseca do antimicrobiano e vale igualmente para todas as espécies.]),
+   ("IV",  [A categoria Intermediário funciona também como zona-tampão para a variação técnica inerente ao método.])))
 
-#questao-ce("16", badge-integracao,
-  [Julgue os itens a seguir sobre os mecanismos que produzem e mantêm a úlcera do pé diabético.],
-  (("I",   [A perda de sensibilidade dolorosa protege o pé, porque reduz o reflexo de retirada e, com ele, o número de traumas repetidos sobre o mesmo ponto de apoio.]),
-   ("II",  [A neuropatia autonômica reduz a sudorese local, resseca a pele e abre fissuras que servem de porta de entrada para infecção bacteriana.]),
-   ("III", [A doença arterial periférica limita a chegada de oxigênio, de células de defesa e do próprio antibiótico administrado ao leito da úlcera.]),
-   ("IV",  [O colágeno reticulado por produtos de glicação avançada resiste à digestão proteolítica, e o remodelamento da matriz necessário ao reparo fica comprometido.])))
+#questao-mc("16", badge-integracao,
+  [Paciente com abscesso profundo por bacilo Gram-negativo recebe gentamicina em dose plena, com nível sérico adequado e laudo Sensível, e não apresenta resposta. O mecanismo mais provável dessa falha é:],
+  (("A", [A captação do aminoglicosídeo exige transporte acoplado ao gradiente de prótons, que depende de respiração aeróbia; a hipóxia e o pH ácido do abscesso impedem a entrada do fármaco.]),
+   ("B", [A gentamicina é quimicamente inativada pelo pH ácido da coleção purulenta, que hidrolisa as ligações glicosídicas da molécula e a converte em produto sem afinidade ribossômica.]),
+   ("C", [A densidade bacteriana muito alta do abscesso consome a totalidade do fármaco disponível por adsorção ao ribossomo, de modo que a concentração livre cai abaixo da concentração inibitória mínima.]),
+   ("D", [As bactérias do interior do abscesso expressam a proteína ligadora de penicilina alternativa PBP2a, que confere resistência cruzada aos inibidores de síntese proteica ribossômica.]),
+   ("E", [No microambiente do abscesso a gentamicina passa a ligar-se preferencialmente à subunidade 50S, sítio em que sua ação é apenas bacteriostática e insuficiente para eliminar o inóculo.])))
 
 #questao-mc("17", badge-integracao,
-  [A hiperfiltração glomerular observada no início da nefropatia diabética é frequentemente interpretada como sinal de função renal preservada. A leitura mecanística correta é:],
-  (("A", [A hiperfiltração é um mecanismo compensatório benigno que se mantém estável por décadas, e a esclerose glomerular decorre apenas da hialinização arteriolar, sem relação com a pressão intraglomerular.]),
-   ("B", [A hiperfiltração é a primeira alteração funcional da doença: a arteríola aferente dilata mais que a eferente, a pressão no capilar sobe, e essa sobrecarga sustentada produz a esclerose de anos depois.]),
-   ("C", [A hiperfiltração indica aumento real de massa de néfrons funcionantes induzido pela insulina, e a queda posterior da filtração reflete apenas a interrupção desse estímulo trófico pelo tratamento.]),
-   ("D", [A hiperfiltração resulta de vasoconstrição da arteríola aferente com redução da pressão glomerular, e a albuminúria que a acompanha decorre de lesão isquêmica do podócito por baixo fluxo.]),
-   ("E", [A hiperfiltração é artefato de cálculo da taxa de filtração a partir da creatinina sérica, que se encontra falsamente reduzida pela perda de massa muscular do paciente descompensado.])))
+  [Numa mesma placa, o disco do fármaco X produz halo de 22 mm e o do fármaco Y, halo de 14 mm; o E-test, porém, mostra concentração inibitória mínima mais baixa para Y. A explicação é:],
+  (("A", [O E-test e a difusão em disco medem grandezas diferentes: o primeiro mede inibição e o segundo mede morte bacteriana, de modo que os dois resultados não podem ser comparados.]),
+   ("B", [O diâmetro depende também da massa de fármaco no disco e da velocidade de difusão da molécula no ágar, e só o ponto de corte de cada par disco-espécie traduz milímetro em categoria.]),
+   ("C", [A discordância indica erro de padronização do inóculo, e o procedimento correto é descartar ambos os resultados e repetir os dois testes a partir de uma nova suspensão.]),
+   ("D", [O fármaco Y encontra-se em concentração superior no disco, o que satura o ágar próximo à borda e impede que o halo se expanda além do limite geométrico observado.]),
+   ("E", [O halo do fármaco X inclui a zona de crescimento retardado, e sua medida correta seria o anel externo, o que inverteria a relação observada entre os dois diâmetros.])))
 
-#questao-mc("18", badge-integracao,
-  [Sobre a aterosclerose acelerada do paciente diabético, assinale a alternativa *incorreta*.],
-  (("A", [A inativação do óxido nítrico pelos produtos de glicação avançada reduz a vasodilatação dependente do endotélio e favorece a adesão de leucócitos e plaquetas à parede arterial.]),
-   ("B", [O eixo AGE-RAGE mantém um estado pró-inflamatório com secreção de citocinas, expressão de moléculas de adesão e aumento da produção de fator tecidual pela célula endotelial.]),
-   ("C", [A disfunção endotelial do diabético só se instala depois que a placa de ateroma se torna visível à angiotomografia, o que faz do exame de imagem o marcador mais precoce da doença.]),
-   ("D", [O estado pró-coagulante inclui aumento do inibidor do ativador de plasminogênio, com redução da fibrinólise e maior persistência do trombo formado sobre a placa instabilizada.]),
-   ("E", [A maioria dos eventos coronarianos agudos decorre da ruptura de placa vulnerável, com núcleo lipídico grande e capa fibrosa fina, muitas vezes pouco estenosante antes do evento.])))
+#questao-ce("18", badge-integracao,
+  [Julgue os itens a seguir sobre a origem populacional da resistência bacteriana.],
+  (("I",   [A exposição ao antibiótico induz, na população exposta, as mutações que conferem resistência ao fármaco.]),
+   ("II",  [Subdose e interrupção precoce do tratamento favorecem a seleção da subpopulação já resistente.]),
+   ("III", [A resistência intrínseca de uma espécie surge após a primeira exposição dela ao antimicrobiano.]),
+   ("IV",  [Uma bomba de efluxo de especificidade larga confere resistência a uma única classe química.])))
 
-#questao-ce("19", badge-integracao,
-  [Julgue os itens a seguir sobre a predisposição do paciente diabético à infecção urinária.],
-  (("I",   [A glicosúria oferece substrato de crescimento no próprio lúmen urinário e favorece a colonização bacteriana da via urinária.]),
-   ("II",  [A neuropatia autonômica vesical acelera o esvaziamento da bexiga e, ao reduzir o volume residual, protege o paciente contra a infecção ascendente.]),
-   ("III", [A hiperglicemia melhora a quimiotaxia e a explosão respiratória do neutrófilo, o que compensa parcialmente o risco aumentado de infecção urinária.]),
-   ("IV",  [A esclerose glomerular e a pielonefrite comprometem o mesmo órgão por caminhos independentes, e as perdas de função resultantes se somam.])))
+#questao-mc("19", badge-integracao,
+  [Sobre os glicopeptídeos e a razão do seu espectro, assinale a alternativa *incorreta*:],
+  (("A", [A vancomicina liga-se ao terminal D-alanil-D-alanina do precursor do peptidoglicano, e não à transpeptidase que consome esse terminal na reação de reticulação.]),
+   ("B", [A bactéria Gram-negativa possui peptidoglicano na parede, ainda que em camada fina e recoberta por uma membrana externa contendo lipopolissacarídeo.]),
+   ("C", [A membrana externa do Gram-negativo limita a passagem da vancomicina, cuja massa molecular é grande demais para atravessar o canal das porinas.]),
+   ("D", [A vancomicina não cobre bactérias Gram-negativas porque essas espécies não sintetizam peptidoglicano e portanto não oferecem o alvo molecular do fármaco.]),
+   ("E", [A resistência do tipo VanA substitui o terminal do precursor por D-alanil-D-lactato, o que derruba a afinidade do fármaco em cerca de mil vezes.])))
 
 #questao-mc("20", badge-integracao,
-  [Um paciente com cetoacidose diabética chega ao pronto-socorro com potássio sérico de 5,1 mEq/L. Poucas horas após o início da insulinoterapia, o potássio despenca. A explicação é:],
-  (("A", [A insulina aumenta a excreção renal de potássio ao estimular a bomba de sódio e potássio no túbulo coletor, e a perda urinária acelerada explica integralmente a queda observada no exame.]),
-   ("B", [O potássio inicial estava elevado por hemólise da amostra colhida, e o valor mais baixo obtido depois representa apenas a coleta correta, sem que tenha havido movimento real do íon.]),
-   ("C", [A correção da acidose desloca potássio do plasma para o interior das hemácias apenas, sem participação da insulina, que não tem efeito conhecido sobre o transporte transmembrana desse íon.]),
-   ("D", [O potássio inicial refletia estoque corporal normal, e a queda posterior indica perda aguda pelo trato gastrintestinal, secundária aos vômitos que costumam acompanhar o quadro de cetoacidose.]),
-   ("E", [O estoque corporal já estava depletado pela diurese osmótica; a acidose e a falta de insulina mantinham o íon no compartimento extracelular, e a insulina o empurra de volta para dentro da célula.])))
+  [A resistência do tipo VanA à vancomicina não é revertida por nenhum inibidor enzimático nem depende de mutação na transpeptidase. A razão mecanística disso é:],
+  (("A", [A vancomicina é inativada por uma hidrolase codificada no mesmo operon, e essa enzima não pertence à família das β-lactamases, contra as quais os inibidores disponíveis foram desenhados.]),
+   ("B", [O operon _van_ codifica uma bomba de efluxo específica para glicopeptídeos, e nenhum inibidor de enzima consegue interferir num mecanismo que opera por transporte ativo.]),
+   ("C", [O alvo da vancomicina é o substrato e não a enzima: o operon troca o terminal do precursor por D-alanil-D-lactato, removendo o sítio de ligação sem alterar a transpeptidase.]),
+   ("D", [A vancomicina deixa de atravessar a parede espessada das cepas VanA, e um inibidor enzimático não teria como restaurar o acesso do fármaco ao espaço periplasmático.]),
+   ("E", [A transpeptidase das cepas VanA passa a ser expressa em quantidade muito maior, e o excesso de enzima satura o fármaco antes que ele alcance os precursores em número suficiente.])))
 
-#questao-mc("21", badge-integracao,
-  [Na retinopatia diabética proliferativa, a formação de neovasos é o desfecho de uma cadeia que começa na hiperglicemia intracelular. Essa cadeia é:],
-  (("A", [Morte de pericitos e oclusão capilar geram isquemia retiniana; o tecido isquêmico libera fator de crescimento endotelial, potencializado pela via da proteína quinase C, e o estímulo produz vasos frágeis.]),
-   ("B", [O espessamento da membrana basal capilar reduz o aporte de oxigênio ao pericito, que se hipertrofia e passa a secretar colágeno em excesso, formando os cordões fibrosos vistos ao exame de fundo de olho.]),
-   ("C", [A hemorragia vítrea inicial priva a retina de nutrientes provenientes do humor vítreo, e a resposta reparadora do epitélio pigmentar organiza novos vasos a partir da coroide subjacente.]),
-   ("D", [O acúmulo de sorbitol no interior do pericito o torna refratário ao fator de crescimento endotelial, e a ausência de resposta angiogênica leva à atrofia progressiva da rede capilar retiniana.]),
-   ("E", [A glicação do colágeno da membrana limitante interna reduz a adesão do vítreo à retina, e o descolamento resultante estimula a proliferação vascular como tentativa de reancoramento tecidual.])))
+#questao-ce("21", badge-integracao,
+  [Julgue os itens a seguir sobre o ponto de corte e a farmacocinética que o sustenta.],
+  (("I",   [Um mesmo valor de concentração inibitória mínima pode ser interpretado como Sensível na urina e Resistente no liquor.]),
+   ("II",  [A categoria Sensível assegura a erradicação bacteriana no paciente que recebe a dose habitual.]),
+   ("III", [O ponto de corte é definido apenas pela distribuição de concentração inibitória mínima observada na espécie.]),
+   ("IV",  [A nitrofurantoína é boa opção para pielonefrite porque atinge nível sérico elevado e sustentado.])))
 
-#questao-ce("22", badge-integracao,
-  [Julgue os itens a seguir sobre as duas lesões ósseas que disputam o diagnóstico no pé do paciente diabético.],
-  (("I",   [A artropatia de Charcot resulta de infecção da medular óssea disseminada a partir de uma úlcera plantar profunda contígua à articulação.]),
-   ("II",  [A radiografia simples detecta a osteomielite desde as primeiras horas de infecção, o que dispensa a ressonância magnética na avaliação inicial do pé.]),
-   ("III", [A ressonância magnética identifica o edema da medular óssea com baixo sinal em T1, alto sinal em T2 com saturação de gordura e realce após a injeção de contraste.]),
-   ("IV",  [Artropatia de Charcot e osteomielite podem coexistir no mesmo pé, e a distinção entre elas altera a conduta de forma substancial.])))
+#questao-mc("22", badge-integracao,
+  [A associação de sulfametoxazol com trimetoprima é sinérgica e, ao mesmo tempo, seletiva para a bactéria. O mecanismo que explica as duas propriedades é:],
+  (("A", [Os dois fármacos bloqueiam passos sequenciais da mesma via do folato, e a célula humana capta folato pronto da dieta em vez de sintetizá-lo a partir do ácido para-aminobenzoico.]),
+   ("B", [Os dois fármacos ocupam sítios distintos da mesma di-hidropteroato sintase, e a enzima humana equivalente é protegida por uma modificação pós-traducional ausente na bactéria.]),
+   ("C", [Um dos fármacos inibe a síntese de folato e o outro desorganiza a membrana externa, e a combinação de alvos independentes reduz a chance de mutação única conferir resistência.]),
+   ("D", [O sulfametoxazol abre a parede bacteriana e facilita a entrada da trimetoprima, num mecanismo de sinergia por acesso análogo ao do β-lactâmico com o aminoglicosídeo.]),
+   ("E", [Os dois fármacos são convertidos por enzimas bacterianas num metabólito comum de alta toxicidade, e a célula humana não possui a via de ativação necessária para produzi-lo.])))
 
 #questao-mc("23", badge-integracao,
-  [Uma carga oral de glicose eleva mais a insulina plasmática do que a mesma carga administrada por via intravenosa, apesar de produzir glicemias comparáveis. O fenômeno e sua relevância no diabetes tipo 2 são:],
-  (("A", [O fenômeno decorre da absorção mais lenta da glicose no intestino, que prolonga o estímulo à célula beta; no tipo 2 a absorção é acelerada, o que reduz o tempo total de estímulo secretor.]),
-   ("B", [O fenômeno decorre da primeira passagem hepática, que retém parte da glicose oral e reduz a carga que chega à ilhota; no tipo 2 essa retenção é maior e mascara a resistência periférica.]),
-   ("C", [O fenômeno decorre da estimulação vagal desencadeada pela distensão gástrica, que age diretamente na célula beta; no tipo 2 a gastroparesia autonômica suprime por completo essa via reflexa.]),
-   ("D", [O fenômeno é o efeito incretínico: hormônios liberados pela chegada do alimento, sobretudo o GLP-1, amplificam a secreção de insulina; no tipo 2 esse efeito está reduzido e soma-se aos demais defeitos.]),
-   ("E", [O fenômeno decorre da liberação de somatostatina pela célula delta em resposta à via oral, que potencializa a resposta da célula beta vizinha; no tipo 2 a célula delta encontra-se hipofuncionante.])))
+  [Sobre a distinção entre bacteriostático e bactericida e as suas consequências clínicas, assinale a alternativa *incorreta*:],
+  (("A", [A classificação decorre da relação entre a concentração bactericida mínima e a concentração inibitória mínima, e varia conforme o par formado pelo fármaco e pelo microrganismo.]),
+   ("B", [O efeito do bacteriostático é máximo na fase log da curva de crescimento, quando a proliferação que ele impede está no seu ritmo mais intenso.]),
+   ("C", [Endocardite, meningite e neutropenia febril são situações em que se exige um fármaco bactericida, por serem sítios ou estados de defesa pobre.]),
+   ("D", [O bacteriostático resolve o quadro quando a imunidade do hospedeiro está íntegra, porque congela a população e o sistema imune completa a eliminação.]),
+   ("E", [Associar um bacteriostático a um β-lactâmico soma os dois efeitos antibacterianos e é, por isso, a estratégia de escolha no tratamento da endocardite.])))
 
-#questao-mc("24", badge-integracao,
-  [Colágeno, elastina e proteínas do cristalino acumulam produtos de glicação avançada; proteínas plasmáticas de renovação rápida praticamente não. A consequência clínica que decorre dessa seleção de alvo é:],
-  (("A", [A elevação da frutosamina torna-se o marcador mais precoce de lesão de matriz extracelular, por medir diretamente a glicação das proteínas estruturais de vida longa.]),
-   ("B", [O remodelamento da matriz extracelular trava, porque as proteases não cortam o colágeno reticulado, e a ferida deixa de cicatrizar mesmo com perfusão preservada.]),
-   ("C", [A concentração plasmática de albumina cai progressivamente, porque a fração glicada é retirada da circulação por receptores hepáticos específicos para proteína modificada.]),
-   ("D", [A hemoglobina glicada perde valor como marcador de controle, já que a hemácia é justamente o compartimento em que a glicação avançada mais se acumula.]),
-   ("E", [O cristalino torna-se o primeiro órgão a apresentar lesão irreversível, porque a sua taxa de renovação proteica é a mais alta entre os tecidos acometidos.])))
+#questao-ce("24", badge-integracao,
+  [Julgue os itens a seguir sobre resistência estafilocócica e espectro das cefalosporinas.],
+  (("I",   [A progressão da primeira para a quarta geração de cefalosporinas amplia progressivamente a cobertura para Gram-positivos.]),
+   ("II",  [A penicilinase estafilocócica e o produto do gene _mecA_ correspondem ao mesmo mecanismo de resistência.]),
+   ("III", [A ceftarolina, cefalosporina de quinta geração, tem afinidade pela proteína ligadora de penicilina PBP2a.]),
+   ("IV",  [Cepas resistentes à meticilina costumam permanecer sensíveis às aminopenicilinas associadas a inibidor de β-lactamase.])))
 
-#questao-ce("25", badge-integracao,
-  [Julgue os itens a seguir sobre o eixo AGE-RAGE e a trombose no paciente diabético.],
-  (("I",   [A ligação do produto de glicação avançada ao seu receptor ativa o fator nuclear kappa B e induz a expressão de fator tecidual pela célula endotelial.]),
-   ("II",  [A sinalização por esse receptor é autolimitada, porque a ativação reduz a expressão do próprio receptor e interrompe a alça em poucas horas.]),
-   ("III", [No paciente diabético, o eixo predominante da tríade de Virchow é a estase venosa produzida pela redução do débito cardíaco.]),
-   ("IV",  [O infarto agudo do miocárdio decorre, na maioria dos casos, do crescimento progressivo da placa até a oclusão completa da luz, sem participação de trombo.])))
+#questao-mc("25", badge-integracao,
+  [Um isolado mostra-se resistente simultaneamente a fluoroquinolona, tetraciclina e cloranfenicol, sem que se detecte produção de β-lactamase nem alteração das proteínas ligadoras de penicilina. O mecanismo mais provável é:],
+  (("A", [Aquisição de plasmídeo contendo três genes independentes de inativação enzimática, cada um deles dirigido a uma das classes químicas envolvidas no perfil observado.]),
+   ("B", [Expressão aumentada de bomba de efluxo de especificidade larga, capaz de exportar classes quimicamente não relacionadas e produzir resistência múltipla de uma vez.]),
+   ("C", [Mutação pontual em _gyrA_ acompanhada de metilação ribossômica pelo produto do gene _erm_, combinação que cobriria as três classes citadas no enunciado.]),
+   ("D", [Perda simultânea de todas as porinas da membrana externa, o que impediria a entrada de qualquer molécula hidrofílica pequena no espaço periplasmático da cepa.]),
+   ("E", [Formação de biofilme sobre a superfície do meio de cultura, que reduz a penetração dos três fármacos e produz o padrão de resistência descrito no laudo.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Homem de 26 anos, magro, com dez dias de poliúria, polidipsia e perda de 3 kg. Glicemia de 397 mg/dL, hemoglobina glicada de 8,8%, peptídeo C de 1,32 ng/mL (referência 1,1 a 4,4) e anticorpo anti-descarboxilase do ácido glutâmico de 1082 UI/mL (referência abaixo de 10). A leitura conjunta indica:],
-  (("A", [Diabetes tipo 2 de início precoce, já que o peptídeo C dentro da faixa de referência exclui deficiência de secreção e o autoanticorpo apenas acompanha a inflamação sistêmica da hiperglicemia.]),
-   ("B", [Diabetes secundário a pancreatite crônica, porque a associação de peptídeo C no limite inferior com autoanticorpo elevado é característica da destruição inflamatória não-imune da glândula exócrina.]),
-   ("C", [Diabetes tipo 1 no início da história natural: o autoanticorpo em título alto identifica a autoimunidade contra a ilhota, e o peptídeo C ainda mensurável indica secreção residual em parte preservada.]),
-   ("D", [Diabetes tipo 1 em fase avançada, uma vez que hemoglobina glicada acima de 8% só é alcançada quando a massa de célula beta já está integralmente destruída e a secreção residual é nula.]),
-   ("E", [Resistência à insulina isolada, porque hemoglobina glicada elevada com peptídeo C mensurável configura hiperinsulinemia compensatória, e o autoanticorpo é achado incidental sem valor diagnóstico.])))
+  [Mulher de 24 anos com cistite não complicada. A urocultura isola _E. coli_ com concentração inibitória mínima para nitrofurantoína interpretada como Sensível e para ceftriaxona também Sensível. A conduta mais adequada é:],
+  (("A", [Prescrever ceftriaxona intravenosa, por ser cefalosporina de terceira geração e cobrir com margem mais ampla o agente isolado na urocultura da paciente.]),
+   ("B", [Prescrever meropenem por via intravenosa, reservando as demais opções para o caso de a paciente não apresentar melhora clínica em 48 horas.]),
+   ("C", [Solicitar novo antibiograma antes de qualquer prescrição, uma vez que dois resultados Sensíveis no mesmo laudo indicam provável erro de padronização do inóculo.]),
+   ("D", [Prescrever nitrofurantoína oral, que concentra na urina e tem espectro estreito, poupando a microbiota e reduzindo a pressão seletiva sobre a paciente.]),
+   ("E", [Prescrever vancomicina oral, que não é absorvida e portanto alcança concentração urinária elevada com risco sistêmico mínimo para a paciente jovem.])))
 
-#questao-mc("27", badge-aplicacao,
-  [Mulher de 52 anos com diabetes tipo 2 apresenta glicemias capilares entre 90 e 140 mg/dL nos últimos dois meses, mas hemoglobina glicada de 5,0%. O hemograma mostra hemoglobina de 9,2 g/dL, reticulócitos elevados e bilirrubina indireta aumentada. A conduta e a justificativa são:],
-  (("A", [Manter a hemoglobina glicada como parâmetro e reduzir a dose do antidiabético, porque o valor de 5,0% indica risco de hipoglicemia que as glicemias capilares isoladas não conseguem detectar.]),
-   ("B", [Repetir a hemoglobina glicada em outro laboratório, porque a discordância entre glicemia capilar e exame laboratorial se explica melhor por erro analítico do que por qualquer condição do paciente.]),
-   ("C", [Solicitar teste oral de tolerância à glicose, porque hemoglobina glicada baixa com glicemias capilares no limite superior sugere que o diagnóstico inicial de diabetes deve ser revisto por completo.]),
-   ("D", [Substituir a hemoglobina glicada pela glicemia de jejum, porque a hemólise altera igualmente todos os exames que dependem de proteínas glicadas e nenhum deles pode ser usado nesse contexto.]),
-   ("E", [Solicitar frutosamina, porque a hemólise encurta a sobrevida da hemácia e subestima a hemoglobina glicada, enquanto a albumina glicada mantém preservada a sua janela de duas a três semanas.])))
+#questao-ce("27", badge-aplicacao,
+  [Homem de 62 anos, internado, com pneumonia. O laudo do escarro traz _S. aureus_ resistente à oxacilina e à cefalotina, e sensível à vancomicina e ao sulfametoxazol-trimetoprima. Julgue os itens.],
+  (("I",   [O perfil descrito é compatível com aquisição do gene _mecA_ e expressão da proteína ligadora de penicilina PBP2a.]),
+   ("II",  [A associação de amoxicilina com ácido clavulânico seria capaz de reverter a resistência descrita no laudo.]),
+   ("III", [A vancomicina permanece ativa porque o seu alvo é o precursor do peptidoglicano, e não a proteína ligadora de penicilina.]),
+   ("IV",  [O laudo Sensível para vancomicina não exclui a necessidade de investigar foco não drenado caso não haja melhora.])))
 
 #questao-mc("28", badge-aplicacao,
-  [Homem de 61 anos, diabético há vinte anos, com úlcera plantar profunda há três semanas, sondagem da lesão que atinge osso e radiografia do antepé sem alterações. A conduta de imagem e a justificativa são:],
-  (("A", [Ressonância magnética, porque a radiografia só demonstra alteração após perda óssea significativa, com atraso de uma a duas semanas, e a ressonância identifica o edema da medular óssea bem antes.]),
-   ("B", [Repetir a radiografia em quarenta e oito horas, porque a osteomielite aguda produz reação periosteal detectável nesse intervalo e a repetição precoce é suficiente para confirmar o diagnóstico.]),
-   ("C", [Ultrassonografia de partes moles do pé, porque o método define bem a interface entre osso cortical e medular e detecta o edema medular com sensibilidade equivalente à da ressonância magnética.]),
-   ("D", [Tomografia computadorizada sem contraste, porque a alta resolução para osso cortical torna o método superior à ressonância na detecção precoce da infecção da medular óssea.]),
-   ("E", [Nenhum exame adicional, porque a radiografia normal afasta com segurança o comprometimento ósseo e a conduta pode se restringir ao curativo e ao alívio de pressão sobre a lesão.])))
+  [Paciente com pielonefrite por _E. coli_ vinha em uso de cefalexina. O antibiograma mostra concentração inibitória mínima de 32 µg/mL para cefalexina e de 2 µg/mL para amicacina, com meropenem também sensível. A leitura correta é:],
+  (("A", [A cepa é resistente à cefalexina, o que sugere produção de β-lactamase, e a troca por carbapenêmico ou aminoglicosídeo é a conduta justificada pelo laudo.]),
+   ("B", [A cefalexina deve ser mantida em dose dobrada, já que a concentração inibitória mínima de 32 µg/mL ainda se encontra dentro da faixa terapêutica alcançável no plasma.]),
+   ("C", [O valor de 32 µg/mL indica apenas resistência intermediária, e o esperado é que o quadro responda com a manutenção do esquema oral já iniciado pela paciente.]),
+   ("D", [A amicacina deve ser descartada porque uma concentração inibitória mínima de 2 µg/mL é sempre considerada resistente para aminoglicosídeos em infecção urinária alta.]),
+   ("E", [O laudo é inconclusivo, pois valores de concentração inibitória mínima só podem ser interpretados quando acompanhados do diâmetro do halo em milímetros.])))
 
 #questao-mc("29", badge-aplicacao,
-  [Homem de 64 anos, diabético há dezoito anos e tabagista, com dor precordial típica aos pequenos esforços há dois meses e alterações de repolarização no eletrocardiograma. A probabilidade pré-teste de doença coronariana é alta. Sobre a investigação por imagem:],
-  (("A", [O escore de cálcio é a melhor escolha inicial, porque quantifica a carga de placa e, sendo elevado, define o grau de estenose e dispensa qualquer método adicional antes do tratamento.]),
-   ("B", [A angiotomografia é a melhor escolha inicial, porque seu valor preditivo negativo próximo de 100% permite afastar doença com segurança mesmo neste cenário e evita um procedimento invasivo.]),
-   ("C", [A angiotomografia é a melhor escolha inicial, porque quantifica a estenose com precisão comparável à do cateterismo e permite planejar a intervenção sem expor o paciente a risco de procedimento.]),
-   ("D", [A angiocoronariografia invasiva é a melhor escolha, porque com probabilidade pré-teste alta um resultado não invasivo negativo não convenceria e um positivo levaria ao cateterismo de qualquer forma.]),
-   ("E", [Nenhum exame de imagem é necessário, porque com dor típica e eletrocardiograma alterado o diagnóstico está firmado e a anatomia coronariana não influencia a escolha terapêutica subsequente.])))
+  [Uma paciente com endocardite por _Enterococcus_ recebe ampicilina isolada, sem resposta clínica satisfatória. A equipe considera acrescentar um segundo fármaco. Sabendo que a vegetação valvar é sítio de defesa pobre e que a cepa é sensível a ampicilina e a gentamicina, a associação mecanisticamente justificada e a sua razão são:],
+  (("A", [Acrescentar tetraciclina, porque a inibição da subunidade 30S impede a síntese das proteínas de superfície necessárias à adesão do enterococo à vegetação valvar.]),
+   ("B", [Acrescentar cloranfenicol, porque o bloqueio da subunidade 50S trava a proliferação e potencializa o efeito da ampicilina sobre a população bacteriana da vegetação.]),
+   ("C", [Acrescentar gentamicina, porque a ampicilina desorganiza a parede e facilita a captação do aminoglicosídeo, que sozinho penetraria mal na bactéria Gram-positiva.]),
+   ("D", [Acrescentar azitromicina, porque a ação prolongada no tecido mantém concentração elevada na vegetação e compensa a penetração limitada do β-lactâmico no sítio.]),
+   ("E", [Acrescentar sulfametoxazol-trimetoprima, porque o bloqueio sequencial do folato soma-se à inibição da parede e amplia o espectro sobre o agente isolado.])))
 
 #questao-ce("30", badge-aplicacao,
-  [Mulher de 58 anos, diabética há dezoito anos com controle irregular, apresenta redução progressiva da acuidade visual, albuminúria de 480 mg em 24 horas com creatinina de 1,1 mg/dL, e úlcera indolor no calcâneo esquerdo há dois meses. A ultrassonografia renal mostra rins de dimensões reduzidas, córtex afilado e ecogenicidade aumentada. Julgue os itens.],
-  (("I",   [A creatinina de 1,1 mg/dL indica parênquima renal preservado, e a albuminúria deve ser atribuída a uma causa distinta do diabetes.]),
-   ("II",  [O achado ultrassonográfico de rins reduzidos com córtex afilado corresponde à fase de hiperfiltração inicial da nefropatia diabética.]),
-   ("III", [A perda visual, a albuminúria e a úlcera de difícil cicatrização compartilham como mecanismo de base a lesão de tecidos que captam glicose independentemente de insulina.]),
-   ("IV",  [A ausência de dor no leito da úlcera indica que a lesão é superficial e afasta a necessidade de investigar comprometimento ósseo.])))
+  [Homem de 70 anos, internado há três semanas em terapia intensiva, com sepse de foco pulmonar. O isolado de _Klebsiella pneumoniae_ é resistente a ampicilina, ceftriaxona, ceftazidima e meropenem, e sensível apenas a polimixina B. Julgue os itens.],
+  (("I",   [O perfil é compatível com produção de β-lactamase de espectro estendido isolada, sem outro mecanismo associado.]),
+   ("II",  [A resistência ao meropenem, no contexto descrito, aponta produção de carbapenemase pela cepa isolada.]),
+   ("III", [A polimixina B atua por disrupção da membrana, mecanismo independente das enzimas que hidrolisam o anel β-lactâmico.]),
+   ("IV",  [A associação de ceftazidima com avibactam seria inútil neste caso porque o avibactam não inibe carbapenemase alguma.])))
