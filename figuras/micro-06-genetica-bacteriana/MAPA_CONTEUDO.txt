@@ -1,0 +1,52 @@
+# MAPA_CONTEUDO -- micro-06-genetica-bacteriana
+# Slide-fonte: d3ffeddf-Genetica_2026.pdf
+# Gerado por extrair_slides.py (frente B2 do plano de economia)
+#
+# Uso: REDATOR-E1 OBRIGATORIAMENTE consulta este arquivo antes de
+# referenciar `slide-XX.png` na Etapa 1. Se um slide aparece como
+# `[VISUAL -- usar adjacente]`, use o slide vizinho com texto extraivel.
+
+slide-01: GENÉTICA BACTERIANA PROFA. ASSOC. CARLA ROMANO TADDEI ICB II - USP
+slide-02: GENOMA BACTERIANO O cromossoma bacteriano organiza-se numa estrutura compacta -NUCLEÓIDE- por interacção do DNA com proteínas HU e H-NS e com a participação de catiõs, poliaminas, RNA e proteínas não-histonas. O genoma bacteriano ocupa uma larga fraç...
+slide-03: - Formas: * linear - Eucariotos * circulares - extremidades ligadas covalentemente - plasmídeos - DNA mitocondrial - DNA bacteriófagos - Forma - supertorcida - super-hélice * enrolamento da dupla hélice sobre si mesma. - torção positiva / torção nega...
+slide-04: [VISUAL -- usar adjacente com titulo extraivel]
+slide-05: Formas de DNA e supertorção
+slide-06: DNA tem 100.000 vezes o tamanho da célula.....
+slide-07: Ácidos Nucléicos DNA - Estrutura e Bioquímica - O DNA é formado por uma dupla hélice anti-paralela de polímeros de nucleotídeos. - sua unidade monomérica é o nucleotídeo.
+slide-08: DNA - Estrutura e Bioquímica Um nucleotídeo é composto de três partes: Um açúcar de 5 carbonos (RIBOSE) Um fosfato Uma base nitrogenada, podendo ser: Adenina (A) Timina (T) Guanina (G) Citosina (C)
+slide-09: DNA - Estrutura e Bioquímica As bases nitrogenadas são complementares: A T Adenina Timina 2 pontes de Hidrogênio
+slide-10: DNA - Estrutura e Bioquímica As bases nitrogenadas são complementares: C G Citosina Guanina 3 pontes de Hidrogênio - um nucleotídeo está invertido em relação ao outro. 3´ 5´ 3´ 5´
+slide-11: Estrutura do Grupo Açúcar Desoxiribose
+slide-12: LIGAÇÃO ENTRE AS BASES NITROGENDAS
+slide-13: Estrutura das Bases Nitrogenadas
+slide-14: LIGAÇÃO FOSFODIÉSTER
+slide-15: [VISUAL -- usar adjacente com titulo extraivel]
+slide-16: DNA - Desnaturação e Renaturação - Desnaturação ocorre quando duas pontes de hidrogênio se separam Calor ou substância química Renaturação: reanelamento do DNA
+slide-17: [VISUAL -- usar adjacente com titulo extraivel]
+slide-18: [VISUAL -- usar adjacente com titulo extraivel]
+slide-19: [VISUAL -- usar adjacente com titulo extraivel]
+slide-20: [VISUAL -- usar adjacente com titulo extraivel]
+slide-21: [VISUAL -- usar adjacente com titulo extraivel]
+slide-22: [VISUAL -- usar adjacente com titulo extraivel]
+slide-23: Tipo Função DNA Polimerase I Catalisa o crescimento da cadeia no sentido 5´3´ Atividade de exonuclease 3´5´ e 5´3´ Preenche pedaços pequenos de DNA durante a replicação e processo de reparo DNA Polimerase II Polimerase alternativa de reparo, mas tamb...
+slide-24: Mutação - alterações na estrutura química ou física do DNA - agentes físicos ou químicos: mutagênicos ou genotóxico - mutações espontâneas: erros durante a replicação do DNA ou exposição do organismo a influências meio ambiente, como radiações ou age...
+slide-25: [VISUAL -- usar adjacente com titulo extraivel]
+slide-26: Mutagênicos físicos : - UV (dímeros de pirimidina), - Radiações ionizantes (ionização do DNA): quebras das cadeias do DNA simples e duplas - Calor
+slide-27: Mutagênicos químicos : - moléculas planares: - Brometo de etídio (EB), - Dodecilsulfato de sódio (SDS) - Agentes alquilantes: metil metano sulfonato (EMS) - Água oxigenada (H2O2)
+slide-28: Modificação do DNA
+slide-29: Transformação Processo no qual o DNA livre no meio é tomado pela célula, resultando em alterações genotípicas desta. Para conseguir capturar o DNA, a célula precisa encontrar-se no estado de competência.
+slide-30: [VISUAL -- usar adjacente com titulo extraivel]
+slide-31: [VISUAL -- usar adjacente com titulo extraivel]
+slide-32: [VISUAL -- usar adjacente com titulo extraivel]
+slide-33: Transdução DNA bacteriano é transferido entre células mediado por um vírus. 1) Transdução generalizada: qualquer gene pode ser transduzido. 2) Transdução especializada: transferência de genes bacterianos específicos, que estão localizados próximos do...
+slide-34: [VISUAL -- usar adjacente com titulo extraivel]
+slide-35: [VISUAL -- usar adjacente com titulo extraivel]
+slide-36: Recombinação gênica
+slide-37: TECNOLOGIA DO DNA RECOMBINANTE
+slide-38: [VISUAL -- usar adjacente com titulo extraivel]
+slide-39: [VISUAL -- usar adjacente com titulo extraivel]
+slide-40: [VISUAL -- usar adjacente com titulo extraivel]
+slide-41: [VISUAL -- usar adjacente com titulo extraivel]
+slide-42: [VISUAL -- usar adjacente com titulo extraivel]
+slide-43: Sistema CRISPR- Cas 9
+slide-44: [VISUAL -- usar adjacente com titulo extraivel]

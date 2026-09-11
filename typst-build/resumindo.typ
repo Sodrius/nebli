@@ -1,33 +1,27 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("Um defeito de sinal, dois caminhos",
-   [O receptor de insulina é uma tirosina-quinase que traz vesículas prontas de GLUT-4 à membrana e, além de abrir a porta, freia lipólise, gliconeogênese e proteólise. No tipo 1 a ilhota é destruída por autoimunidade e a fonte desse sinal acaba; no tipo 2 o sinal chega e a célula não responde, com insulina normal ou *alta* por anos. A hiperglicemia é o resultado comum de dois defeitos opostos.]),
+  ("Resistência tem duas origens, e elas se comportam de forma diferente",
+   [Por *mutação de alvo* — a serina 83 da girase trocada por leucina, a subunidade β da RNA-polimerase alterada — ela é de linhagem e se propaga por descendência. Por *aquisição horizontal*, vem em bloco num plasmídeo e atravessa gêneros em horas.]),
 
-  ("Por que o tipo 1 cetoacidota",
-   [Sem insulina, a lipase hormônio-sensível fica livre e inunda o fígado de ácido graxo; a acetil-CoA gerada excede o ciclo de Krebs e vira cetoácido. No tipo 2 a insulina residual segura a lipólise — por isso ele descompensa como estado hiperosmolar, sem cetose.]),
+  ("Plasmídeo é replicon; transposon e integron são passageiros",
+   [O plasmídeo tem origem de replicação própria e por isso viaja entre células. O transposon só muda de endereço dentro de um replicon, e leva o gene de resistência do cromossomo para o plasmídeo. O integron captura cassetes em série sob um único promotor.]),
 
-  ("O sintoma nasce no túbulo",
-   [Acima de cerca de 180 mg/dL a reabsorção tubular satura e a glicose fica no lúmen, retendo água por osmose. A poliúria vem primeiro, desidrata, eleva a osmolaridade e só então dispara a sede. O emagrecimento soma glicosúria, lipólise e proteólise.]),
+  ("A conjugação transforma a receptora em doadora",
+   [A relaxase corta uma fita na origem de transferência e a conduz pelo canal do sistema de secreção do tipo IV; o círculo rolante repõe a fita nas duas células. A receptora vira F⁺ e o número de doadoras cresce geometricamente, sem depender de divisão celular. Com o fator F integrado ao cromossomo, a célula Hfr transfere genes cromossômicos mas deixa a receptora F⁻.]),
 
-  ("Glicação em três etapas, com reversibilidade decrescente",
-   [Base de Schiff em horas e reversível; Amadori em dias e pouco reversível; ligação cruzada irreversível em semanas a meses. O tempo que a glicose passa alta define até onde a reação avança — e a proteína de vida longa é a que paga.]),
+  ("Transformação e transdução: dois erros, dois alcances",
+   [Na transformação a célula competente capta DNA livre e o integra por recombinação homóloga, o que favorece espécies próximas. Na transdução, a falha de empacotamento do ciclo lítico sorteia qualquer gene; a falha de excisão do prófago repete sempre os genes vizinhos ao sítio de integração.]),
 
-  ("Dois relógios do controle",
-   [A hemoglobina glicada integra 8 a 12 semanas porque a hemácia vive esse tanto; a frutosamina lê 2 a 3 semanas porque a albumina vive esse tanto. Onde a sobrevida da hemácia é anormal, o primeiro exame engana e o segundo resolve.]),
+  ("Supertorção negativa é subenrolamento, não aperto",
+   [Faltam voltas de hélice em relação à forma relaxada, e a tensão armazenada paga a abertura das fitas na replicação e na transcrição. A girase a introduz gastando ATP, a topoisomerase I a relaxa sem gastar — e é essa dependência que torna a girase alvo das quinolonas.]),
 
-  ("O AGE não só reticula: ele sinaliza",
-   [Ligado ao RAGE em monócito, endotélio e célula mesangial, ativa NF-κB e dispara citocinas, adesão e fator tecidual. A via aumenta a expressão do próprio receptor e o estresse oxidativo, que gera mais AGE — a alça que torna o dano auto-perpetuado.]),
+  ("O antibiótico seleciona a mutação, e afrouxa a fidelidade de todas",
+   [A mutação é anterior e aleatória; o antimicrobiano só elimina quem não a tinha. Mas quinolona e β-lactâmico induzem a resposta SOS, que desreprime polimerases de translesão propensas a erro e eleva a taxa geral de mutação na fração que sobrevive.]),
 
-  ("Quem adoece é quem não fecha a porta",
-   [Pericito, célula mesangial, endotélio, neurônio e cristalino captam glicose sem depender de insulina e não reduzem a entrada quando a glicemia sobe. Os órgãos-alvo do diabetes são esses tecidos, pelas rotas do poliol, da PKC, da hexosamina e do AGE.]),
+  ("Replicação: uma origem, duas forquilhas, três polimerases",
+   [DnaA funde as repetições ricas em A-T do oriC; a Pol III sintetiza com revisão 3′→5′; a Pol I, única com exonuclease 5′→3′, troca o iniciador de RNA por DNA e a ligase fecha. A hemimetilação GATC diz ao reparo qual fita é a nova.]),
 
-  ("A microangiopatia órgão a órgão",
-   [Retina: morte de pericito, microaneurisma e, na isquemia, neovaso frágil que sangra. Glomérulo: hiperfiltração que aumenta o rim, membrana basal espessa e mais permeável, albuminúria antes da creatinina, e rim reduzido e hiperecogênico no fim.]),
-
-  ("Três falhas fazem o pé diabético",
-   [A neuropatia sensitiva apaga o alarme da dor, a autonômica resseca a pele e abre fissuras, e a doença arterial periférica tira o aporte que cicatrizaria. Charcot é destruição mecânica de articulação insensível; osteomielite é infecção da medular — coexistem e exigem condutas opostas.]),
-
-  ("A placa mata rompendo, e cada exame responde uma pergunta",
-   [Núcleo lipídico grande e capa fina se fissuram e expõem fator tecidual; o trombo oclui em minutos, mesmo em placa pouco estenosante. O escore de cálcio mede carga de placa, a angiotomografia exclui doença em risco intermediário, o cateterismo quantifica e trata.]),
+  ("O que o sequenciamento responde, e o que ele não mede",
+   [Genes espécie-específicos identificam a bactéria mesmo com cultura negativa, e a mesma leitura detecta genes de resistência adquiridos e mutações pontuais em gyrA, parC e ftsI. Gene presente pode estar pouco expresso: o fenótipo continua vindo do teste de sensibilidade.]),
 ))

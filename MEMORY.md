@@ -154,6 +154,16 @@ Pedido de 2026-05-22. Pipeline que, dado conteúdo de prova segundo cronograma, 
 
 ## § Histórico de decisões canônicas
 
+### 2026-09-11 · Resumo `micro-06-genetica-bacteriana` (UC03 · Microbiologia · Profa. Carla Romano Taddei)
+
+Primeiro resumo fechado inteiramente sob o § Registro científico com os três gates novos ativos. Números da corrida: **10 subtópicos** (3+3+4), **5.982 palavras de miolo** (teto 6.000), **E1 com 14 páginas** (teto 15), **12 figuras**, Resumindo em 1 página, **34 páginas** no total.
+
+- **O slide é largo e o recorte foi declarado.** Das 44 telas, 10 são revisão de estrutura do DNA (nucleotídeo, pareamento, fosfodiéster, desnaturação). Em vez de virar subtópico, a revisão entrou como retomada de 2–3 frases em 1.1 e **desnaturação/renaturação foi realocada para 3.4**, onde ela de fato rende mecanismo (base física do anelamento de iniciador, da hibridação e da PCR, e dependência do Tm do conteúdo G+C). O tema comportaria 14 subtópicos; a alavanca 2 do `ERROS.md` F4 (fundir irmãos) fechou em 10.
+- **Custou quatro passadas de corte chegar ao teto de 6.000 palavras.** A v1 saiu com 7.511. O aprendizado operacional: *reformular frase quase não economiza* (v1→v2 rendeu 488 palavras em ~20 reescritas); o que rende é **deletar bloco** — box grande, legenda longa, parágrafo histórico, definição de footnote inflada. Caixas e legendas somavam ~15% do miolo. Vale orçar isso no Tema Card em vez de descobrir na cirurgia (é o que o F4 já dizia: aplicar no planejamento).
+- **Cobertura E1→E2 pegou um buraco real.** A tabela subtópico→questões acusou `3.2 Operon lac` com 1 questão; a Q17 (acridina → mudança de fase, subtópico que já tinha 5 questões) foi **trocada** por uma Integração de operon lac cruzando 3.2 + 2.1, com a correta mantida na letra A para não mexer no gabarito. A tabela não é decorativa — foi ela que pegou.
+- **Sessão remota (nuvem), de novo o `ERROS.md` #22.** Sem `typst`, sem poppler e sem `pymupdf`. Instalados na sessão: `pymupdf` via pip, binário do Typst 0.15.1 em `/usr/local/bin`, e os três shims (`pdftotext`/`pdfinfo`/`pdffonts`) sobre pymupdf. **Deck-aula do passo 11 não rodou** — a sessão remota não alcança o AnkiConnect local (mesmo bloqueio das corridas do fígado, do `micro-01` e do `pediatria-01`).
+- **Dois ajustes visuais que valem como reflexo:** tabela de 3+ linhas dentro da E1 quebrava entre páginas repetindo o cabeçalho — resolvido com `#block(breakable: false)`; e Resumindo com 10 seções deixava a 2ª página 80% vazia — 8 seções fecham em 1 página no tamanho atual.
+
 ### 2026-09-03 · Registro científico (canonização de diretiva do Davi)
 
 Davi: *"canoniza e mergeia a seguinte indicação: usar uma linguagem mais técnica e cientificamente adequada, sem perder a fluidez e o tom didático, mas fazê-lo com mais rigor. (...) mais sucinta e que dispensa baboseiras, como frases sem nenhum valor. O objetivo é ser uma apostila de alto nível científico."*

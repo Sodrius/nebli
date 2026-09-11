@@ -1,231 +1,231 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #questao-mc("01", badge-consolidacao,
-  [O transportador de glicose cuja translocação para a membrana depende da insulina, presente no músculo esquelético e no tecido adiposo, é o:],
-  (("A", [GLUT-1, expresso de forma constitutiva na hemácia e na barreira hematoencefálica.]),
-   ("B", [GLUT-2, transportador de alta capacidade do hepatócito e da célula beta pancreática.]),
-   ("C", [SGLT-2, cotransportador de sódio e glicose do túbulo contorcido proximal.]),
-   ("D", [GLUT-4, estocado em vesículas intracelulares e translocado à membrana pela via da Akt.]),
-   ("E", [GLUT-3, transportador de alta afinidade do neurônio, independente de insulina.])))
+  [A enzima que introduz supertorção negativa no cromossomo bacteriano, consumindo ATP a cada ciclo, é a:],
+  (("A", [Topoisomerase I, que corta uma das fitas e relaxa a molécula sem consumo de ATP.]),
+   ("B", [Helicase DnaB, que separa as duas fitas à frente da forquilha de replicação.]),
+   ("C", [Primase DnaG, que sintetiza o iniciador de RNA de cada fragmento de Okazaki.]),
+   ("D", [DNA-girase, topoisomerase do tipo II que corta as duas fitas, passa um segmento e religa.]),
+   ("E", [DNA-ligase, que sela a interrupção remanescente no esqueleto de açúcar e fosfato.])))
 
 #questao-ce("02", badge-consolidacao,
-  [Julgue os itens a seguir sobre a glicação e os exames que a medem.],
-  (("I",   [A glicação da hemoglobina é catalisada por uma glicosiltransferase específica da hemácia.]),
-   ("II",  [A base de Schiff se forma em horas e é reversível.]),
-   ("III", [A hemoglobina glicada reflete as últimas 8 a 12 semanas de exposição à glicose.]),
-   ("IV",  [A frutosamina reflete uma janela de tempo maior que a da hemoglobina glicada.])))
+  [Julgue os itens a seguir sobre a organização do genoma bacteriano.],
+  (("I",   [O nucleóide é uma região do citoplasma sem membrana que a delimite.]),
+   ("II",  [As proteínas HU e H-NS participam da compactação do cromossomo bacteriano.]),
+   ("III", [O DNA do nucleóide é organizado em nucleossomos por octâmeros de histona.]),
+   ("IV",  [Por massa, o nucleóide contém proporção de DNA menor que a da cromatina eucariótica.])))
 
 #questao-mc("03", badge-consolidacao,
-  [A glicosúria começa a aparecer quando a glicemia ultrapassa aproximadamente:],
-  (("A", [100 mg/dL, valor que define o limite superior da glicemia de jejum normal.]),
-   ("B", [126 mg/dL, valor de glicemia de jejum usado como ponto de corte diagnóstico.]),
-   ("C", [180 mg/dL, ponto em que satura a reabsorção tubular proximal de glicose.]),
-   ("D", [250 mg/dL, faixa a partir da qual costuma haver cetose no diabetes tipo 1.]),
-   ("E", [300 mg/dL, faixa habitual de apresentação do estado hiperosmolar não cetótico.])))
+  [A única DNA-polimerase de _Escherichia coli_ com atividade de exonuclease no sentido 5′→3′, responsável por trocar o iniciador de RNA por DNA, é a:],
+  (("A", [DNA-polimerase II, polimerase alternativa de reparo em molde lesado.]),
+   ("B", [DNA-polimerase I, que preenche o vão enquanto remove o iniciador.]),
+   ("C", [DNA-polimerase III, replicase principal de alta processividade.]),
+   ("D", [Primase DnaG, que deposita o iniciador de RNA na fita tardia.]),
+   ("E", [Transcriptase reversa, que sintetiza DNA a partir de molde de RNA.])))
 
 #questao-mc("04", badge-consolidacao,
-  [A dosagem de peptídeo C em um paciente com diabetes serve para estimar:],
-  (("A", [A secreção endógena residual de insulina pela célula beta pancreática.]),
-   ("B", [A dose diária total de insulina exógena que o paciente vem aplicando.]),
-   ("C", [O grau de resistência periférica à insulina nos tecidos-alvo do hormônio.]),
-   ("D", [O título de autoanticorpos dirigidos contra antígenos da ilhota pancreática.]),
-   ("E", [A capacidade de extração hepática da insulina na primeira passagem.])))
+  [Do ponto de vista de definição, o que caracteriza um plasmídeo é:],
+  (("A", [Estar sempre integrado ao cromossomo bacteriano por recombinação homóloga.]),
+   ("B", [Conter obrigatoriamente pelo menos um gene de resistência a antimicrobianos.]),
+   ("C", [Ser formado por DNA de fita simples, ao contrário do cromossomo.]),
+   ("D", [Codificar a transposase que reconhece as próprias repetições invertidas terminais.]),
+   ("E", [Ter origem de replicação própria, sendo em geral dispensável em condições favoráveis.])))
 
 #questao-ce("05", badge-consolidacao,
-  [Julgue os itens a seguir sobre os métodos de imagem da doença arterial coronariana.],
-  (("I",   [O escore de cálcio é adquirido sem contraste intravenoso.]),
-   ("II",  [A angiotomografia de coronárias utiliza contraste iodado.]),
-   ("III", [A angiocoronariografia invasiva permite tratar a lesão no mesmo procedimento.]),
-   ("IV",  [O escore de cálcio informa o grau de estenose da luz coronariana.])))
+  [Julgue os itens a seguir sobre elementos genéticos móveis.],
+  (("I",   [Uma sequência de inserção carrega, além da transposase, genes de resistência.]),
+   ("II",  [O transposon composto é formado por duas sequências de inserção flanqueando genes acessórios.]),
+   ("III", [O integron captura cassetes gênicos que passam a ser transcritos por um mesmo promotor.]),
+   ("IV",  [O integron possui origem de replicação própria e se mantém de forma autônoma.])))
 
 #questao-mc("06", badge-consolidacao,
-  [No estágio final da nefropatia diabética, a ultrassonografia renal mostra:],
-  (("A", [Rins aumentados de volume, com córtex espessado e ecogenicidade reduzida.]),
-   ("B", [Rins de dimensões normais, com dilatação do sistema coletor bilateralmente.]),
-   ("C", [Rins aumentados de volume, com múltiplos cistos corticais e medulares.]),
-   ("D", [Rins de dimensões normais, com perda da diferenciação córtico-medular.]),
-   ("E", [Rins reduzidos de volume, com córtex afilado e ecogenicidade aumentada.])))
+  [No transposon Tn10, as duas extremidades do elemento móvel são formadas por:],
+  (("A", [Duas sequências de inserção, IS10L e IS10R, com repetições invertidas terminais.]),
+   ("B", [Duas origens de replicação independentes, uma em cada extremidade do elemento.]),
+   ("C", [Dois sítios de recombinação reconhecidos pela integrase de um integron.]),
+   ("D", [Duas cópias do gene de resistência à tetraciclina, em orientação oposta.]),
+   ("E", [Dois promotores fortes que garantem a transcrição do segmento central.])))
 
-#questao-ce("07", badge-consolidacao,
-  [Julgue os itens a seguir sobre as duas lesões ósseas do pé diabético.],
-  (("I",   [A artropatia de Charcot decorre de microtraumas repetidos em articulação sem dor nem propriocepção.]),
-   ("II",  [A osteomielite é infecção que acomete a medular óssea.]),
-   ("III", [A radiografia simples detecta a osteomielite já nas primeiras horas de infecção.]),
-   ("IV",  [O edema da medular óssea aparece com alto sinal em T1 na ressonância magnética.])))
+#questao-mc("07", badge-consolidacao,
+  [O agente mutagênico que produz dímero de ciclobutano entre pirimidinas adjacentes da mesma fita é:],
+  (("A", [A radiação ionizante, que gera quebras de fita simples e de fita dupla.]),
+   ("B", [O brometo de etídio, molécula planar que se intercala entre pares de base.]),
+   ("C", [A radiação ultravioleta, em comprimento de onda em torno de 254 nm.]),
+   ("D", [O metilmetanossulfonato, agente alquilante que metila a guanina do DNA.]),
+   ("E", [A água oxigenada, que produz 8-oxoguanina por dano oxidativo da base.])))
 
-#questao-mc("08", badge-consolidacao,
-  [Os dois intermediários lipídicos que se acumulam no miócito sob excesso de ácido graxo e ativam serina-quinases de estresse são:],
-  (("A", [Colesterol livre e éster de colesterol, acumulados na gotícula lipídica citoplasmática.]),
-   ("B", [Acetoacetato e β-hidroxibutirato, os dois corpos cetônicos produzidos pelo hepatócito.]),
-   ("C", [Diacilglicerol e ceramida, derivados do excesso de acil-CoA graxo intracelular.]),
-   ("D", [Fosfatidilcolina e esfingomielina, principais fosfolipídeos da membrana plasmática.]),
-   ("E", [Prostaglandina E₂ e leucotrieno B₄, eicosanoides derivados do ácido araquidônico.])))
+#questao-ce("08", badge-consolidacao,
+  [Julgue os itens a seguir sobre tipos de mutação.],
+  (("I",   [A mutação silenciosa em geral atinge a primeira base do códon.]),
+   ("II",  [Transversão é a troca de uma purina por outra purina.]),
+   ("III", [A mutação nonsense introduz um códon de parada prematuro.]),
+   ("IV",  [Deleção de dois nucleotídeos em região codificante desloca a fase de leitura.])))
 
-#questao-mc("09", badge-integracao,
-  [Retina, glomérulo, nervo periférico e cristalino concentram as complicações crônicas do diabetes, enquanto o músculo esquelético é relativamente poupado. A explicação mecanística desse contraste é:],
-  (("A", [O músculo esquelético dispõe de uma isoforma de aldose-redutase com afinidade muito baixa pela glicose, o que impede a via dos polióis de operar nesse tecido mesmo sob hiperglicemia prolongada.]),
-   ("B", [Esses tecidos captam glicose por transportadores independentes de insulina e não reduzem a entrada quando a glicemia sobe, enquanto o músculo diminui o GLUT-4 de superfície e limita a própria carga intracelular.]),
-   ("C", [A microcirculação desses órgãos é anatomicamente terminal, e é apenas essa ausência de circulação colateral, e não a concentração intracelular de glicose, que determina onde a lesão crônica se instala.]),
-   ("D", [Esses tecidos possuem taxa de renovação proteica muito superior à do músculo, o que multiplica o número de grupos amino recém-expostos disponíveis para a reação de glicação não-enzimática.]),
-   ("E", [O músculo esquelético expressa concentrações elevadas de receptor para produtos de glicação avançada e degrada localmente os AGEs formados antes que eles estabeleçam ligações cruzadas.])))
+#questao-mc("09", badge-consolidacao,
+  [Na transdução especializada, os genes bacterianos transferidos para a célula receptora são:],
+  (("A", [Quaisquer genes do cromossomo, com frequência proporcional ao seu tamanho.]),
+   ("B", [Apenas os genes localizados no plasmídeo presente na célula doadora.]),
+   ("C", [Apenas os genes que codificam fatores de virulência da célula doadora.]),
+   ("D", [Os genes que estavam sendo transcritos no momento da infecção pelo fago.]),
+   ("E", [Apenas os genes vizinhos ao sítio de integração do prófago no cromossomo.])))
 
-#questao-ce("10", badge-integracao,
-  [Julgue os itens a seguir sobre as duas formas de descompensação aguda do diabetes.],
-  (("I",   [No tipo 1, a ausência quase total de insulina libera a lipase hormônio-sensível, e a inundação do fígado por ácido graxo produz cetoácidos em excesso.]),
-   ("II",  [No tipo 2, a insulina residual é insuficiente para normalizar a glicemia mas basta para conter a lipólise, o que explica a ausência de cetose franca na descompensação típica.]),
-   ("III", [A respiração ampla e profunda observada na cetoacidose reflete comprometimento pulmonar direto causado pela hiperglicemia e pela desidratação associadas ao quadro.]),
-   ("IV",  [O estado hiperosmolar é primariamente um distúrbio de água, produzido pela diurese osmótica prolongada, e não um distúrbio do equilíbrio ácido-base.])))
+#questao-mc("10", badge-consolidacao,
+  [Na conjugação, o sítio do plasmídeo em que a relaxase corta a fita simples a ser transferida é a:],
+  (("A", [Região _tra_, que reúne os genes de construção do pilus sexual.]),
+   ("B", [Origem de transferência, ponto definido de corte de fita única.]),
+   ("C", [Origem de replicação vegetativa, onde a cópia do plasmídeo se inicia.]),
+   ("D", [Sequência de inserção que permite a integração do fator F ao cromossomo.]),
+   ("E", [Sítio de ligação da integrase, reconhecido pelo cassete gênico capturado.])))
 
 #questao-mc("11", badge-integracao,
-  [Após seis meses de bom controle glicêmico, a hemoglobina glicada de um paciente normalizou, mas a rigidez da matriz e a dificuldade de cicatrização persistem. A explicação é:],
-  (("A", [A hemoglobina glicada mede glicemia recente enquanto o colágeno registra a glicemia de anos anteriores, sem que a química das duas modificações difira entre si.]),
-   ("B", [A hemácia possui enzimas de desglicação ausentes no fibroblasto, e é essa maquinaria que devolve a hemoglobina ao estado original quando a glicemia normaliza.]),
-   ("C", [O colágeno sofre glicosilação enzimática, irreversível por definição, enquanto a hemoglobina sofre apenas a glicação espontânea, que reverte com a queda da glicemia.]),
-   ("D", [A hemoglobina glicada é produto de Amadori e sai de circulação com a renovação da hemácia, enquanto o colágeno reticulado por ligação cruzada resiste à proteólise e não é reposto.]),
-   ("E", [A rigidez da matriz decorre de deposição de cálcio, e não de glicação, de modo que ela não guarda relação com a exposição prévia à glicose nem responde ao controle.])))
+  [Um isolado de _Escherichia coli_ apresenta resistência a ciprofloxacino, e o sequenciamento revela substituição de serina por leucina na posição 83 da subunidade A da girase. A explicação mecanística para a resistência observada é:],
+  (("A", [A troca de aminoácido elimina um contato do domínio de ligação ao DNA que a fluoroquinolona utiliza para estabilizar o complexo de clivagem; a girase segue introduzindo supertorção negativa, e a droga perde afinidade pelo complexo.]),
+   ("B", [A troca de aminoácido inativa completamente a girase, de modo que a bactéria passa a depender apenas da topoisomerase I para manter o grau de supertorção do cromossomo durante a replicação.]),
+   ("C", [A troca de aminoácido converte a girase numa enzima capaz de hidrolisar o anel da fluoroquinolona, inativando a droga antes que ela alcance o complexo enzima-DNA no interior da célula.]),
+   ("D", [A troca de aminoácido reduz a permeabilidade da membrana externa à fluoroquinolona, impedindo que a concentração intracelular da droga atinja o nível necessário para inibir a enzima-alvo.]),
+   ("E", [A troca de aminoácido aumenta a expressão da própria girase, de modo que o excesso de enzima titula a droga disponível e mantém atividade residual suficiente para completar a replicação.])))
 
 #questao-mc("12", badge-integracao,
-  [Sobre o elo entre a hiperglicemia crônica e a formação da placa de ateroma, assinale a alternativa *incorreta*.],
-  (("A", [A captação da LDL glicada pelo macrófago se dá por receptores de LDL clássicos, cuja expressão cai à medida que o colesterol intracelular sobe, o que limita a formação de células espumosas.]),
-   ("B", [A glicação da LDL prejudica o reconhecimento da partícula pelo seu receptor hepático, prolonga o tempo que ela passa na circulação e favorece a oxidação no espaço subendotelial.]),
-   ("C", [Os receptores scavenger do macrófago não são inibidos pelo colesterol já acumulado na célula, e é essa ausência de regulação que produz a célula espumosa.]),
-   ("D", [A inativação do óxido nítrico pelos produtos de glicação avançada instala disfunção endotelial antes que exista placa detectável por qualquer método de imagem.]),
-   ("E", [O eixo AGE-RAGE mantém estado pró-inflamatório e pró-coagulante, com aumento de fator tecidual e do inibidor do ativador de plasminogênio.])))
+  [O sistema de reparo de malpareamento de _Escherichia coli_ corrige bases incorretamente incorporadas durante a replicação. O elemento que permite a esse sistema decidir qual das duas fitas deve ser corrigida é:],
+  (("A", [A presença do iniciador de RNA remanescente na fita recém-sintetizada, que só é removido pela polimerase I depois de o reparo de malpareamento ter concluído a correção.]),
+   ("B", [A orientação da fita em relação à forquilha, já que apenas a fita contínua é acessível às proteínas MutS e MutL durante o avanço da replicação.]),
+   ("C", [O grau de supertorção negativa local, mantido pela girase, que é maior na fita antiga e sinaliza às nucleases de reparo qual molde deve ser preservado.]),
+   ("D", [O estado transitório de hemimetilação das sequências GATC, em que a fita antiga já carrega o grupo metil da Dam e a fita nova ainda não o recebeu.]),
+   ("E", [A ligação da proteína SeqA à fita recém-sintetizada, que a marca como molde definitivo e direciona a atividade de corte da endonuclease MutH para a fita antiga.])))
 
 #questao-ce("13", badge-integracao,
-  [Julgue os itens a seguir sobre a via dos polióis e suas consequências oculares.],
-  (("I",   [A aldose-redutase converte glicose em sorbitol consumindo NADPH, e a menor disponibilidade de glutationa reduzida enfraquece a defesa antioxidante da célula.]),
-   ("II",  [O sorbitol atravessa livremente a membrana da fibra do cristalino e é exportado para o humor aquoso, razão pela qual não contribui para a opacificação da lente.]),
-   ("III", [A oscilação do grau refrativo do paciente descompensado se explica por variação do conteúdo de água do cristalino acompanhando as mudanças de glicemia.]),
-   ("IV",  [Os neovasos da retinopatia proliferativa surgem em resposta à isquemia retiniana e, por serem frágeis e crescerem em direção ao vítreo, sangram e tracionam a retina.])))
+  [Uma cepa hospitalar de _Klebsiella pneumoniae_ carrega um plasmídeo conjugativo com um integron contendo quatro cassetes de resistência, inserido em um transposon. Julgue os itens.],
+  (("I",   [O integron confere ao conjunto a capacidade de se transferir autonomamente para outra célula.]),
+   ("II",  [Como os quatro cassetes compartilham um promotor, a perda desse promotor aboliria a expressão dos quatro.]),
+   ("III", [Um único evento de conjugação pode transferir as quatro resistências simultaneamente.]),
+   ("IV",  [O integron, isoladamente, é suficiente para mover o bloco de resistência entre cromossomo e plasmídeo.])))
 
 #questao-mc("14", badge-integracao,
-  [A membrana basal glomerular do paciente com nefropatia diabética está espessada e, ainda assim, deixa passar albumina para o filtrado. A explicação desse achado aparentemente contraditório é:],
-  (("A", [O espessamento reduz o tamanho dos poros de filtração a ponto de reter moléculas maiores, e a albumina detectada na urina provém da descamação de células tubulares lesadas pela hiperglicemia.]),
-   ("B", [O que aumenta não é apenas a espessura: a matriz depositada é desorganizada e a membrana perde proteoglicanos aniônicos, isto é, a barreira de carga que repelia a albumina, também aniônica.]),
-   ("C", [A espessura maior aumenta a distância de difusão e reduz o fluxo de água, elevando a concentração de albumina no filtrado sem que a permeabilidade da barreira tenha se alterado.]),
-   ("D", [A albuminúria decorre da hialinização das arteríolas eferentes, que reduz a pressão de filtração e faz a albumina ser secretada ativamente pelo epitélio do túbulo proximal para o lúmen.]),
-   ("E", [O espessamento da membrana basal é acompanhado de infiltrado inflamatório rico em neutrófilos, cujas proteases digerem localmente a barreira e abrem falhas por onde a albumina escapa.])))
+  [Um pneumococo isolado de líquor apresenta sensibilidade reduzida à penicilina, e o sequenciamento mostra genes de proteínas ligadoras de penicilina em mosaico, sem qualquer gene de β-lactamase. Sobre esse achado, assinale a alternativa *incorreta*:],
+  (("A", [O mosaico resulta de transformação, com captação de DNA livre liberado por estreptococos comensais da orofaringe e integração por recombinação homóloga conduzida pela RecA.]),
+   ("B", [A ausência de β-lactamase indica que a resistência observada depende necessariamente de aquisição de plasmídeo conjugativo vindo de outra enterobactéria do mesmo paciente.]),
+   ("C", [A proteína resultante do gene em mosaico mantém a função de transpeptidase na síntese da parede, mas liga o β-lactâmico com afinidade reduzida.]),
+   ("D", [A captação de DNA exige que o pneumococo esteja em estado de competência, regulado por peptídeo estimulador secretado pela própria população.]),
+   ("E", [A integração do DNA captado depende de semelhança de sequência com o cromossomo receptor, o que favorece a troca entre espécies filogeneticamente próximas.])))
 
 #questao-mc("15", badge-integracao,
-  [Em um homem obeso e sedentário, a cadeia que liga o excesso de oferta de ácido graxo ao músculo à redução da captação de glicose por essa mesma fibra é:],
-  (("A", [O ácido graxo compete com a glicose pelo sítio de transporte do GLUT-4 na membrana, e a ocupação desse sítio reduz proporcionalmente o número de moléculas de glicose transportadas por minuto.]),
-   ("B", [O ácido graxo é oxidado preferencialmente na mitocôndria, e o acúmulo de citrato inibe a fosfofrutoquinase, o que eleva a glicose-6-fosfato intracelular e bloqueia a entrada do açúcar pela membrana.]),
-   ("C", [O ácido graxo ativa receptores nucleares que reprimem a transcrição do gene do receptor de insulina, e a menor densidade de receptores na superfície reduz a sinalização em todas as suas ramificações.]),
-   ("D", [O excedente de acil-CoA graxo acumula diacilglicerol e ceramida, que ativam serina-quinases de estresse; estas fosforilam o IRS-1 em serina, o sinal não alcança a PI3K e menos GLUT-4 chega à membrana.]),
-   ("E", [O ácido graxo se liga diretamente à subunidade beta do receptor de insulina e bloqueia o sítio catalítico da tirosina-quinase, impedindo a autofosforilação que iniciaria toda a cascata intracelular.])))
+  [Em uma infecção por _Escherichia coli_ O157:H7, o uso de antimicrobianos que lesam o DNA foi associado a maior risco de síndrome hemolítico-urêmica. A cadeia de eventos que explica essa associação é:],
+  (("A", [O antimicrobiano seleciona subpopulações que já produziam mais toxina Shiga, de modo que a carga tóxica aumenta por substituição de clones e não por alteração da expressão gênica.]),
+   ("B", [O antimicrobiano inibe a síntese proteica bacteriana de forma incompleta, o que libera ribossomos para a tradução preferencial do mRNA da toxina Shiga em detrimento das demais proteínas.]),
+   ("C", [O antimicrobiano rompe a membrana externa e libera a toxina Shiga previamente armazenada no espaço periplasmático, elevando de forma abrupta a concentração de toxina livre no lúmen.]),
+   ("D", [O antimicrobiano induz a transferência conjugativa do plasmídeo que codifica a toxina Shiga para a microbiota residente, ampliando o número de células produtoras no intestino do paciente.]),
+   ("E", [O dano ao DNA dispara a resposta SOS, que induz o ciclo lítico do prófago portador do gene da toxina Shiga; a produção de toxina aumenta e ela é liberada com a lise bacteriana.])))
 
 #questao-ce("16", badge-integracao,
-  [Julgue os itens a seguir sobre os mecanismos que produzem e mantêm a úlcera do pé diabético.],
-  (("I",   [A perda de sensibilidade dolorosa protege o pé, porque reduz o reflexo de retirada e, com ele, o número de traumas repetidos sobre o mesmo ponto de apoio.]),
-   ("II",  [A neuropatia autonômica reduz a sudorese local, resseca a pele e abre fissuras que servem de porta de entrada para infecção bacteriana.]),
-   ("III", [A doença arterial periférica limita a chegada de oxigênio, de células de defesa e do próprio antibiótico administrado ao leito da úlcera.]),
-   ("IV",  [O colágeno reticulado por produtos de glicação avançada resiste à digestão proteolítica, e o remodelamento da matriz necessário ao reparo fica comprometido.])))
+  [Julgue os itens a seguir sobre a dinâmica da transferência de um plasmídeo conjugativo numa população bacteriana densa.],
+  (("I",   [A célula doadora conserva uma cópia completa do plasmídeo após a transferência.]),
+   ("II",  [A receptora convertida passa a funcionar como doadora para outras células receptoras.]),
+   ("III", [A disseminação do plasmídeo na população depende da divisão celular das doadoras.]),
+   ("IV",  [A fita transferida chega à receptora como dupla fita já circularizada.])))
 
 #questao-mc("17", badge-integracao,
-  [A hiperfiltração glomerular observada no início da nefropatia diabética é frequentemente interpretada como sinal de função renal preservada. A leitura mecanística correta é:],
-  (("A", [A hiperfiltração é um mecanismo compensatório benigno que se mantém estável por décadas, e a esclerose glomerular decorre apenas da hialinização arteriolar, sem relação com a pressão intraglomerular.]),
-   ("B", [A hiperfiltração é a primeira alteração funcional da doença: a arteríola aferente dilata mais que a eferente, a pressão no capilar sobe, e essa sobrecarga sustentada produz a esclerose de anos depois.]),
-   ("C", [A hiperfiltração indica aumento real de massa de néfrons funcionantes induzido pela insulina, e a queda posterior da filtração reflete apenas a interrupção desse estímulo trófico pelo tratamento.]),
-   ("D", [A hiperfiltração resulta de vasoconstrição da arteríola aferente com redução da pressão glomerular, e a albuminúria que a acompanha decorre de lesão isquêmica do podócito por baixo fluxo.]),
-   ("E", [A hiperfiltração é artefato de cálculo da taxa de filtração a partir da creatinina sérica, que se encontra falsamente reduzida pela perda de massa muscular do paciente descompensado.])))
+  [Uma cepa de _Escherichia coli_ carrega mutação no gene _lacI_ que impede o repressor de se ligar ao operador. Essa cepa é cultivada em meio contendo glicose e sem lactose. O comportamento esperado do operon lac é:],
+  (("A", [Transcrição acima do nível basal, mas ainda baixa: o operador ficou permanentemente livre, porém o cAMP permanece baixo enquanto há glicose e o complexo CAP-cAMP não reforça o promotor fraco.]),
+   ("B", [Transcrição máxima dos três genes estruturais, porque a liberação do operador é condição suficiente para que a RNA-polimerase se ligue com eficiência ao promotor lac e transcreva o operon inteiro.]),
+   ("C", [Ausência completa de transcrição, já que sem lactose no meio não há substrato para a β-galactosidase e o operon permanece silenciado por um mecanismo de controle pós-transcricional adicional.]),
+   ("D", [Transcrição máxima somente depois de a glicose se esgotar, porque a mutação em _lacI_ torna o operon dependente exclusivamente da concentração intracelular de alolactose disponível na célula.]),
+   ("E", [Ausência de transcrição, porque a mutação em _lacI_ elimina também o promotor do operon lac, situado imediatamente a montante do operador nesse mesmo arranjo gênico da bactéria.])))
 
 #questao-mc("18", badge-integracao,
-  [Sobre a aterosclerose acelerada do paciente diabético, assinale a alternativa *incorreta*.],
-  (("A", [A inativação do óxido nítrico pelos produtos de glicação avançada reduz a vasodilatação dependente do endotélio e favorece a adesão de leucócitos e plaquetas à parede arterial.]),
-   ("B", [O eixo AGE-RAGE mantém um estado pró-inflamatório com secreção de citocinas, expressão de moléculas de adesão e aumento da produção de fator tecidual pela célula endotelial.]),
-   ("C", [A disfunção endotelial do diabético só se instala depois que a placa de ateroma se torna visível à angiotomografia, o que faz do exame de imagem o marcador mais precoce da doença.]),
-   ("D", [O estado pró-coagulante inclui aumento do inibidor do ativador de plasminogênio, com redução da fibrinólise e maior persistência do trombo formado sobre a placa instabilizada.]),
-   ("E", [A maioria dos eventos coronarianos agudos decorre da ruptura de placa vulnerável, com núcleo lipídico grande e capa fibrosa fina, muitas vezes pouco estenosante antes do evento.])))
+  [Uma bactéria que expressa o sistema de restrição-modificação EcoRI não digere o próprio cromossomo, embora ele contenha várias cópias da sequência GAATTC. A explicação é:],
+  (("A", [O cromossomo bacteriano encontra-se supertorcido negativamente, conformação em que a sequência GAATTC não é acessível à endonuclease de restrição no interior do nucleóide.]),
+   ("B", [A endonuclease de restrição é secretada para o espaço periplasmático e só encontra DNA quando este é injetado por um bacteriófago através da membrana externa.]),
+   ("C", [Uma metiltransferase do mesmo sistema metila as sequências GAATTC do DNA próprio, e a marca metílica impede o corte pela endonuclease parceira.]),
+   ("D", [As sequências GAATTC do cromossomo próprio estão sempre associadas a proteínas HU e H-NS, que ocupam o sítio e competem com a ligação da endonuclease.]),
+   ("E", [A endonuclease de restrição só é expressa após a entrada de DNA estranho, sob controle de um promotor dependente da resposta SOS induzida pela infecção.])))
 
 #questao-ce("19", badge-integracao,
-  [Julgue os itens a seguir sobre a predisposição do paciente diabético à infecção urinária.],
-  (("I",   [A glicosúria oferece substrato de crescimento no próprio lúmen urinário e favorece a colonização bacteriana da via urinária.]),
-   ("II",  [A neuropatia autonômica vesical acelera o esvaziamento da bexiga e, ao reduzir o volume residual, protege o paciente contra a infecção ascendente.]),
-   ("III", [A hiperglicemia melhora a quimiotaxia e a explosão respiratória do neutrófilo, o que compensa parcialmente o risco aumentado de infecção urinária.]),
-   ("IV",  [A esclerose glomerular e a pielonefrite comprometem o mesmo órgão por caminhos independentes, e as perdas de função resultantes se somam.])))
+  [Em uma clonagem no vetor pUC18, o inserto é ligado no sítio de clonagem múltipla, que fica dentro de um fragmento do gene _lacZ_. Julgue os itens.],
+  (("I",   [Colônias com plasmídeo contendo inserto crescem brancas em meio com substrato cromogênico.]),
+   ("II",  [A ampicilina no meio seleciona especificamente as bactérias cujo plasmídeo recebeu inserto.]),
+   ("III", [A cor azul das colônias sem inserto depende da atividade da permease codificada por _lacY_.]),
+   ("IV",  [Nas colônias recombinantes, o fragmento de _lacZ_ interrompido não gera β-galactosidase funcional.])))
 
 #questao-mc("20", badge-integracao,
-  [Um paciente com cetoacidose diabética chega ao pronto-socorro com potássio sérico de 5,1 mEq/L. Poucas horas após o início da insulinoterapia, o potássio despenca. A explicação é:],
-  (("A", [A insulina aumenta a excreção renal de potássio ao estimular a bomba de sódio e potássio no túbulo coletor, e a perda urinária acelerada explica integralmente a queda observada no exame.]),
-   ("B", [O potássio inicial estava elevado por hemólise da amostra colhida, e o valor mais baixo obtido depois representa apenas a coleta correta, sem que tenha havido movimento real do íon.]),
-   ("C", [A correção da acidose desloca potássio do plasma para o interior das hemácias apenas, sem participação da insulina, que não tem efeito conhecido sobre o transporte transmembrana desse íon.]),
-   ("D", [O potássio inicial refletia estoque corporal normal, e a queda posterior indica perda aguda pelo trato gastrintestinal, secundária aos vômitos que costumam acompanhar o quadro de cetoacidose.]),
-   ("E", [O estoque corporal já estava depletado pela diurese osmótica; a acidose e a falta de insulina mantinham o íon no compartimento extracelular, e a insulina o empurra de volta para dentro da célula.])))
+  [Dois fragmentos de DNA de mesmo comprimento, um com 30% e outro com 65% de guanina mais citosina, são submetidos a aquecimento progressivo. O comportamento esperado e o princípio comum com a abertura do oriC são:],
+  (("A", [O fragmento com 65% de G+C desnatura primeiro, porque o maior número de pontes de hidrogênio torna a molécula mais rígida e mais suscetível à ruptura por agitação térmica.]),
+   ("B", [Os dois fragmentos desnaturam na mesma temperatura, já que o número de pontes de hidrogênio não influencia a estabilidade térmica quando o comprimento é idêntico entre eles.]),
+   ("C", [O fragmento com 30% de G+C desnatura primeiro por conter menos ligações fosfodiéster no esqueleto, o mesmo motivo pelo qual o oriC se abre antes do restante do cromossomo.]),
+   ("D", [O fragmento com 30% de G+C desnatura primeiro, porque o par A-T é sustentado por duas pontes de hidrogênio; é o mesmo motivo de as repetições ricas em A-T do oriC cederem primeiro.]),
+   ("E", [O fragmento com 65% de G+C desnatura primeiro, e o oriC se abre antes do restante do cromossomo porque também é a região de maior conteúdo de guanina e citosina do genoma.])))
 
 #questao-mc("21", badge-integracao,
-  [Na retinopatia diabética proliferativa, a formação de neovasos é o desfecho de uma cadeia que começa na hiperglicemia intracelular. Essa cadeia é:],
-  (("A", [Morte de pericitos e oclusão capilar geram isquemia retiniana; o tecido isquêmico libera fator de crescimento endotelial, potencializado pela via da proteína quinase C, e o estímulo produz vasos frágeis.]),
-   ("B", [O espessamento da membrana basal capilar reduz o aporte de oxigênio ao pericito, que se hipertrofia e passa a secretar colágeno em excesso, formando os cordões fibrosos vistos ao exame de fundo de olho.]),
-   ("C", [A hemorragia vítrea inicial priva a retina de nutrientes provenientes do humor vítreo, e a resposta reparadora do epitélio pigmentar organiza novos vasos a partir da coroide subjacente.]),
-   ("D", [O acúmulo de sorbitol no interior do pericito o torna refratário ao fator de crescimento endotelial, e a ausência de resposta angiogênica leva à atrofia progressiva da rede capilar retiniana.]),
-   ("E", [A glicação do colágeno da membrana limitante interna reduz a adesão do vítreo à retina, e o descolamento resultante estimula a proliferação vascular como tentativa de reancoramento tecidual.])))
+  [Sobre a comparação entre transdução generalizada e transdução especializada, assinale a alternativa *incorreta*:],
+  (("A", [A transdução generalizada exige que o fago esteja integrado ao cromossomo bacteriano como prófago, em um sítio específico, antes que o empacotamento equivocado possa ocorrer.]),
+   ("B", [Na transdução generalizada, o erro ocorre no empacotamento, quando a maquinaria enche o capsídeo com um fragmento de DNA bacteriano em vez do DNA viral.]),
+   ("C", [Na transdução especializada, o erro ocorre na excisão do prófago, que recorta junto o DNA bacteriano adjacente ao sítio de integração no cromossomo.]),
+   ("D", [A partícula transdutora que carrega apenas DNA bacteriano é capaz de injetar esse DNA em nova célula, mas não de produzir progênie viral nela.]),
+   ("E", [Em ambas as modalidades, a fixação estável do DNA transferido no cromossomo receptor depende de recombinação com sequências homólogas.])))
 
 #questao-ce("22", badge-integracao,
-  [Julgue os itens a seguir sobre as duas lesões ósseas que disputam o diagnóstico no pé do paciente diabético.],
-  (("I",   [A artropatia de Charcot resulta de infecção da medular óssea disseminada a partir de uma úlcera plantar profunda contígua à articulação.]),
-   ("II",  [A radiografia simples detecta a osteomielite desde as primeiras horas de infecção, o que dispensa a ressonância magnética na avaliação inicial do pé.]),
-   ("III", [A ressonância magnética identifica o edema da medular óssea com baixo sinal em T1, alto sinal em T2 com saturação de gordura e realce após a injeção de contraste.]),
-   ("IV",  [Artropatia de Charcot e osteomielite podem coexistir no mesmo pé, e a distinção entre elas altera a conduta de forma substancial.])))
+  [Julgue os itens a seguir sobre a DNA-polimerase I e sua participação em processos distintos.],
+  (("I",   [A atividade de exonuclease 3′→5′ da enzima é a que remove o iniciador de RNA.]),
+   ("II",  [A enzima é a principal responsável pela síntese da maior parte do cromossomo.]),
+   ("III", [No reparo por excisão de nucleotídeo, ela preenche o vão deixado após a retirada do oligonucleotídeo lesado.]),
+   ("IV",  [Após a ação da enzima na fita tardia, resta uma interrupção no esqueleto que é selada pela ligase.])))
 
 #questao-mc("23", badge-integracao,
-  [Uma carga oral de glicose eleva mais a insulina plasmática do que a mesma carga administrada por via intravenosa, apesar de produzir glicemias comparáveis. O fenômeno e sua relevância no diabetes tipo 2 são:],
-  (("A", [O fenômeno decorre da absorção mais lenta da glicose no intestino, que prolonga o estímulo à célula beta; no tipo 2 a absorção é acelerada, o que reduz o tempo total de estímulo secretor.]),
-   ("B", [O fenômeno decorre da primeira passagem hepática, que retém parte da glicose oral e reduz a carga que chega à ilhota; no tipo 2 essa retenção é maior e mascara a resistência periférica.]),
-   ("C", [O fenômeno decorre da estimulação vagal desencadeada pela distensão gástrica, que age diretamente na célula beta; no tipo 2 a gastroparesia autonômica suprime por completo essa via reflexa.]),
-   ("D", [O fenômeno é o efeito incretínico: hormônios liberados pela chegada do alimento, sobretudo o GLP-1, amplificam a secreção de insulina; no tipo 2 esse efeito está reduzido e soma-se aos demais defeitos.]),
-   ("E", [O fenômeno decorre da liberação de somatostatina pela célula delta em resposta à via oral, que potencializa a resposta da célula beta vizinha; no tipo 2 a célula delta encontra-se hipofuncionante.])))
+  [Em um cruzamento entre uma célula Hfr e uma célula F⁻, observa-se que a receptora adquire marcadores cromossômicos da doadora, mas permanece F⁻. A explicação para esse resultado é:],
+  (("A", [O fator F integrado perde os genes _tra_ ao se inserir no cromossomo, de modo que a receptora recebe apenas DNA cromossômico e nunca a informação necessária para construir o pilus.]),
+   ("B", [A célula Hfr transfere exclusivamente DNA cromossômico, porque o fator F integrado é excisado e degradado por nucleases da doadora imediatamente antes do início da transferência.]),
+   ("C", [A receptora degrada seletivamente o DNA do fator F por meio do seu sistema de restrição-modificação, enquanto incorpora os marcadores cromossômicos por recombinação homóloga.]),
+   ("D", [A transferência a partir de uma célula Hfr ocorre em sentido oposto ao da conjugação por plasmídeo livre, de modo que o fator F seria o primeiro segmento a passar e se perde no canal.]),
+   ("E", [A transferência começa na origem do fator F integrado e arrasta o cromossomo atrás; como parte do fator F é a última a passar e o contato se rompe antes, ela raramente chega à receptora.])))
 
 #questao-mc("24", badge-integracao,
-  [Colágeno, elastina e proteínas do cristalino acumulam produtos de glicação avançada; proteínas plasmáticas de renovação rápida praticamente não. A consequência clínica que decorre dessa seleção de alvo é:],
-  (("A", [A elevação da frutosamina torna-se o marcador mais precoce de lesão de matriz extracelular, por medir diretamente a glicação das proteínas estruturais de vida longa.]),
-   ("B", [O remodelamento da matriz extracelular trava, porque as proteases não cortam o colágeno reticulado, e a ferida deixa de cicatrizar mesmo com perfusão preservada.]),
-   ("C", [A concentração plasmática de albumina cai progressivamente, porque a fração glicada é retirada da circulação por receptores hepáticos específicos para proteína modificada.]),
-   ("D", [A hemoglobina glicada perde valor como marcador de controle, já que a hemácia é justamente o compartimento em que a glicação avançada mais se acumula.]),
-   ("E", [O cristalino torna-se o primeiro órgão a apresentar lesão irreversível, porque a sua taxa de renovação proteica é a mais alta entre os tecidos acometidos.])))
+  [Tanto o sistema de restrição-modificação quanto o sistema CRISPR-Cas precisam distinguir DNA próprio de DNA invasor. A diferença de estratégia entre os dois é:],
+  (("A", [O sistema de restrição reconhece o invasor por memória de infecções anteriores, enquanto o CRISPR-Cas reconhece qualquer DNA que não tenha sido metilado pela própria célula.]),
+   ("B", [O sistema de restrição usa uma marca química genérica, a metilação do próprio DNA, enquanto o CRISPR-Cas usa memória de sequência guardada como espaçador e exige um PAM no alvo.]),
+   ("C", [Os dois sistemas usam memória de sequência, mas o de restrição armazena a informação em plasmídeo e o CRISPR-Cas armazena a mesma informação no cromossomo bacteriano.]),
+   ("D", [O sistema de restrição corta DNA de fita simples e o CRISPR-Cas corta exclusivamente moléculas de RNA mensageiro transcritas a partir do genoma do bacteriófago invasor.]),
+   ("E", [Os dois sistemas dependem da resposta SOS para serem expressos, e a diferença está apenas na velocidade com que cada um é induzido após a entrada do DNA estranho.])))
 
 #questao-ce("25", badge-integracao,
-  [Julgue os itens a seguir sobre o eixo AGE-RAGE e a trombose no paciente diabético.],
-  (("I",   [A ligação do produto de glicação avançada ao seu receptor ativa o fator nuclear kappa B e induz a expressão de fator tecidual pela célula endotelial.]),
-   ("II",  [A sinalização por esse receptor é autolimitada, porque a ativação reduz a expressão do próprio receptor e interrompe a alça em poucas horas.]),
-   ("III", [No paciente diabético, o eixo predominante da tríade de Virchow é a estase venosa produzida pela redução do débito cardíaco.]),
-   ("IV",  [O infarto agudo do miocárdio decorre, na maioria dos casos, do crescimento progressivo da placa até a oclusão completa da luz, sem participação de trombo.])))
+  [Um laboratório sequencia o genoma de um isolado clínico e relata a presença de um gene de β-lactamase do tipo TEM e de uma mutação em _gyrA_. Julgue os itens.],
+  (("I",   [O gene de β-lactamase representa mecanismo adquirido, compatível com transferência horizontal.]),
+   ("II",  [A mutação em _gyrA_ representa mecanismo de linhagem, transmitido verticalmente à descendência.]),
+   ("III", [O relato permite prever fenótipo de resistência, mas não substitui o teste de sensibilidade.]),
+   ("IV",  [A detecção do gene garante que a cepa expressa a enzima em nível suficiente para resistência clínica.])))
 
 #questao-mc("26", badge-aplicacao,
-  [Homem de 26 anos, magro, com dez dias de poliúria, polidipsia e perda de 3 kg. Glicemia de 397 mg/dL, hemoglobina glicada de 8,8%, peptídeo C de 1,32 ng/mL (referência 1,1 a 4,4) e anticorpo anti-descarboxilase do ácido glutâmico de 1082 UI/mL (referência abaixo de 10). A leitura conjunta indica:],
-  (("A", [Diabetes tipo 2 de início precoce, já que o peptídeo C dentro da faixa de referência exclui deficiência de secreção e o autoanticorpo apenas acompanha a inflamação sistêmica da hiperglicemia.]),
-   ("B", [Diabetes secundário a pancreatite crônica, porque a associação de peptídeo C no limite inferior com autoanticorpo elevado é característica da destruição inflamatória não-imune da glândula exócrina.]),
-   ("C", [Diabetes tipo 1 no início da história natural: o autoanticorpo em título alto identifica a autoimunidade contra a ilhota, e o peptídeo C ainda mensurável indica secreção residual em parte preservada.]),
-   ("D", [Diabetes tipo 1 em fase avançada, uma vez que hemoglobina glicada acima de 8% só é alcançada quando a massa de célula beta já está integralmente destruída e a secreção residual é nula.]),
-   ("E", [Resistência à insulina isolada, porque hemoglobina glicada elevada com peptídeo C mensurável configura hiperinsulinemia compensatória, e o autoanticorpo é achado incidental sem valor diagnóstico.])))
+  [Um paciente internado há três semanas em terapia intensiva apresenta infecção por _Escherichia coli_ produtora de carbapenemase. Duas semanas antes, uma _Klebsiella pneumoniae_ com o mesmo perfil havia sido isolada de outro paciente do mesmo setor, e a tipagem mostra que as duas bactérias não são clonalmente relacionadas. A hipótese mais consistente é:],
+  (("A", [As duas bactérias adquiriram independentemente mutações pontuais no gene das proteínas ligadoras de penicilina, o que reduziu a afinidade pelo carbapenêmico em cada uma delas de forma separada.]),
+   ("B", [A _Escherichia coli_ do segundo paciente descende diretamente da _Klebsiella pneumoniae_ do primeiro, o que explica o perfil idêntico apesar do resultado discordante da tipagem molecular.]),
+   ("C", [Um plasmídeo conjugativo carregando o gene de carbapenemase foi transferido entre as duas espécies, o que explica perfil de resistência comum sem parentesco clonal entre os isolados.]),
+   ("D", [A exposição prolongada ao carbapenêmico induziu, em cada bactéria, a mutação específica que confere resistência, de modo que o mesmo fenótipo surgiu duas vezes por indução direta da droga.]),
+   ("E", [Um bacteriófago transferiu por transdução especializada o gene da carbapenemase, que necessariamente estava adjacente ao sítio de integração do prófago no cromossomo das duas espécies.])))
 
 #questao-mc("27", badge-aplicacao,
-  [Mulher de 52 anos com diabetes tipo 2 apresenta glicemias capilares entre 90 e 140 mg/dL nos últimos dois meses, mas hemoglobina glicada de 5,0%. O hemograma mostra hemoglobina de 9,2 g/dL, reticulócitos elevados e bilirrubina indireta aumentada. A conduta e a justificativa são:],
-  (("A", [Manter a hemoglobina glicada como parâmetro e reduzir a dose do antidiabético, porque o valor de 5,0% indica risco de hipoglicemia que as glicemias capilares isoladas não conseguem detectar.]),
-   ("B", [Repetir a hemoglobina glicada em outro laboratório, porque a discordância entre glicemia capilar e exame laboratorial se explica melhor por erro analítico do que por qualquer condição do paciente.]),
-   ("C", [Solicitar teste oral de tolerância à glicose, porque hemoglobina glicada baixa com glicemias capilares no limite superior sugere que o diagnóstico inicial de diabetes deve ser revisto por completo.]),
-   ("D", [Substituir a hemoglobina glicada pela glicemia de jejum, porque a hemólise altera igualmente todos os exames que dependem de proteínas glicadas e nenhum deles pode ser usado nesse contexto.]),
-   ("E", [Solicitar frutosamina, porque a hemólise encurta a sobrevida da hemácia e subestima a hemoglobina glicada, enquanto a albumina glicada mantém preservada a sua janela de duas a três semanas.])))
+  [Uma criança com meningite bacteriana tem cultura de líquor negativa, porque recebeu antimicrobiano antes da coleta. O laboratório amplifica e sequencia material do líquor. A conduta diagnóstica e o que ela pode acrescentar são:],
+  (("A", [A amplificação só permite confirmar a espécie se a bactéria estiver viável no material, de modo que a cultura negativa inviabiliza também a identificação por sequenciamento.]),
+   ("B", [A amplificação identifica a espécie e substitui definitivamente o teste de sensibilidade, porque a leitura genotípica mede diretamente o nível de expressão das enzimas de resistência.]),
+   ("C", [A amplificação permite apenas quantificar a carga bacteriana, sem informação de espécie, já que os iniciadores utilizados se ligam a regiões idênticas em todas as bactérias.]),
+   ("D", [A amplificação de genes espécie-específicos identifica o agente mesmo sem crescimento, e a mesma leitura pode detectar genes de resistência e mutações pontuais em alvos conhecidos.]),
+   ("E", [A amplificação depende de a bactéria estar em estado de competência para liberar DNA no líquor, condição incomum entre os agentes habituais de meningite bacteriana na infância.])))
 
-#questao-mc("28", badge-aplicacao,
-  [Homem de 61 anos, diabético há vinte anos, com úlcera plantar profunda há três semanas, sondagem da lesão que atinge osso e radiografia do antepé sem alterações. A conduta de imagem e a justificativa são:],
-  (("A", [Ressonância magnética, porque a radiografia só demonstra alteração após perda óssea significativa, com atraso de uma a duas semanas, e a ressonância identifica o edema da medular óssea bem antes.]),
-   ("B", [Repetir a radiografia em quarenta e oito horas, porque a osteomielite aguda produz reação periosteal detectável nesse intervalo e a repetição precoce é suficiente para confirmar o diagnóstico.]),
-   ("C", [Ultrassonografia de partes moles do pé, porque o método define bem a interface entre osso cortical e medular e detecta o edema medular com sensibilidade equivalente à da ressonância magnética.]),
-   ("D", [Tomografia computadorizada sem contraste, porque a alta resolução para osso cortical torna o método superior à ressonância na detecção precoce da infecção da medular óssea.]),
-   ("E", [Nenhum exame adicional, porque a radiografia normal afasta com segurança o comprometimento ósseo e a conduta pode se restringir ao curativo e ao alívio de pressão sobre a lesão.])))
+#questao-ce("28", badge-aplicacao,
+  [Um serviço registra aumento progressivo de isolados resistentes a ciprofloxacino em uma enfermaria onde o consumo do antimicrobiano triplicou no último ano. Julgue os itens.],
+  (("I",   [O aumento pode ser explicado pela seleção de clones que já portavam mutação em topoisomerase.]),
+   ("II",  [A quinolona induz a resposta SOS, o que eleva a taxa geral de mutação na fração sobrevivente.]),
+   ("III", [A exposição à quinolona cria a mutação de resistência nas bactérias expostas.]),
+   ("IV",  [A restrição do uso do antimicrobiano pode reduzir a pressão seletiva sobre a população bacteriana.])))
 
 #questao-mc("29", badge-aplicacao,
-  [Homem de 64 anos, diabético há dezoito anos e tabagista, com dor precordial típica aos pequenos esforços há dois meses e alterações de repolarização no eletrocardiograma. A probabilidade pré-teste de doença coronariana é alta. Sobre a investigação por imagem:],
-  (("A", [O escore de cálcio é a melhor escolha inicial, porque quantifica a carga de placa e, sendo elevado, define o grau de estenose e dispensa qualquer método adicional antes do tratamento.]),
-   ("B", [A angiotomografia é a melhor escolha inicial, porque seu valor preditivo negativo próximo de 100% permite afastar doença com segurança mesmo neste cenário e evita um procedimento invasivo.]),
-   ("C", [A angiotomografia é a melhor escolha inicial, porque quantifica a estenose com precisão comparável à do cateterismo e permite planejar a intervenção sem expor o paciente a risco de procedimento.]),
-   ("D", [A angiocoronariografia invasiva é a melhor escolha, porque com probabilidade pré-teste alta um resultado não invasivo negativo não convenceria e um positivo levaria ao cateterismo de qualquer forma.]),
-   ("E", [Nenhum exame de imagem é necessário, porque com dor típica e eletrocardiograma alterado o diagnóstico está firmado e a anatomia coronariana não influencia a escolha terapêutica subsequente.])))
+  [Um caso de difteria é confirmado em paciente não vacinado. O isolado de _Corynebacterium diphtheriae_ produz toxina, enquanto um isolado de contactante assintomático, da mesma espécie, não produz. A diferença genética esperada entre os dois isolados é:],
+  (("A", [O isolado toxigênico está lisogenizado por um bacteriófago cujo genoma carrega o gene da toxina, expresso enquanto o prófago permanece integrado ao cromossomo bacteriano.]),
+   ("B", [O isolado toxigênico apresenta mutação de mudança de fase no gene da toxina, que no contactante permanece truncado por um códon de parada prematuro em posição inicial.]),
+   ("C", [O isolado toxigênico possui um integron adicional com cassete codificador da toxina, capturado por integrase a partir do ambiente hospitalar onde o paciente foi atendido.]),
+   ("D", [O isolado toxigênico perdeu o sistema de restrição-modificação que, no contactante, degradaria o mRNA da toxina antes que ele pudesse ser traduzido pelos ribossomos.]),
+   ("E", [O isolado toxigênico possui supertorção negativa mais acentuada no cromossomo, o que aumenta a transcrição do gene da toxina já presente nas duas linhagens estudadas.])))
 
 #questao-ce("30", badge-aplicacao,
-  [Mulher de 58 anos, diabética há dezoito anos com controle irregular, apresenta redução progressiva da acuidade visual, albuminúria de 480 mg em 24 horas com creatinina de 1,1 mg/dL, e úlcera indolor no calcâneo esquerdo há dois meses. A ultrassonografia renal mostra rins de dimensões reduzidas, córtex afilado e ecogenicidade aumentada. Julgue os itens.],
-  (("I",   [A creatinina de 1,1 mg/dL indica parênquima renal preservado, e a albuminúria deve ser atribuída a uma causa distinta do diabetes.]),
-   ("II",  [O achado ultrassonográfico de rins reduzidos com córtex afilado corresponde à fase de hiperfiltração inicial da nefropatia diabética.]),
-   ("III", [A perda visual, a albuminúria e a úlcera de difícil cicatrização compartilham como mecanismo de base a lesão de tecidos que captam glicose independentemente de insulina.]),
-   ("IV",  [A ausência de dor no leito da úlcera indica que a lesão é superficial e afasta a necessidade de investigar comprometimento ósseo.])))
+  [Uma paciente com infecção urinária por _Escherichia coli_ apresenta, no antibiograma, resistência simultânea a ampicilina, sulfametoxazol-trimetoprima e tetraciclina. Julgue os itens.],
+  (("I",   [O perfil é compatível com aquisição de um único plasmídeo com múltiplos determinantes de resistência.]),
+   ("II",  [A resistência simultânea a três classes exige necessariamente três eventos mutacionais independentes.]),
+   ("III", [Integrons com vários cassetes gênicos são um mecanismo plausível de agrupamento dessas resistências.]),
+   ("IV",  [A transferência desse perfil a outra enterobactéria por conjugação é um evento esperado.])))

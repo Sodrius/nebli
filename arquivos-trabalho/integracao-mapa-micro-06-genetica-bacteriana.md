@@ -1,0 +1,17 @@
+# Filtro de admissão — Integração (Q11-Q25) · micro-06-genetica-bacteriana
+
+Q11 conecta [supertorção e girase — 1.1] + [mutação de alvo e resistência — 2.1]
+Q12 conecta [replicação e hemimetilação GATC — 1.3] + [reparo de malpareamento — 2.2]
+Q13 conecta [elementos móveis: IS/transposon/integron — 1.2] + [conjugação e plasmídeo R — 3.1]
+Q14 conecta [transformação e recombinação homóloga — 2.3] + [alvo do β-lactâmico: PBP — pré-requisito clínico]
+Q15 conecta [ciclo lítico e lisogênico do fago — 2.3] + [resposta SOS induzida por antimicrobiano — 2.2]
+Q16 conecta [círculo rolante na conjugação — 3.1] + [cinética de disseminação em população — 1.2/3.1]
+Q17 conecta [operon lac: repressor e CAP-cAMP — 3.2] + [mutação de perda de função e fenótipo — 2.1]
+Q18 conecta [restrição-modificação e metilação — 3.3] + [enzima de restrição como ferramenta — 3.4]
+Q19 conecta [operon lac e repressão — 3.2] + [triagem azul-branco no vetor de clonagem — 3.4]
+Q20 conecta [desnaturação e conteúdo G+C — 3.4] + [abertura do oriC rica em A-T — 1.3]
+Q21 conecta [transdução especializada — 2.3] + [organização do genoma e sítio de integração — 1.2]
+Q22 conecta [DNA-polimerase I e remoção do iniciador — 1.3] + [reparo por excisão de nucleotídeo — 2.2]
+Q23 conecta [Hfr e transferência cromossômica — 3.1] + [recombinação homóloga via sequências IS — 1.2]
+Q24 conecta [CRISPR-Cas e discriminação próprio/estranho — 3.3] + [restrição-modificação como solução paralela — 3.3/1.1]
+Q25 conecta [sequenciamento e previsão genotípica — 3.4] + [mecanismos de resistência: mutação × aquisição — 2.1/3.1]
