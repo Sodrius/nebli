@@ -83,3 +83,21 @@ Thumbs.db
 # ---- Logs e caches de Typst ----
 *.log
 .typst-cache/
+
+# ---- Estado local do orquestrador NEBLI ----
+state/
+artifacts/
+config/nebli.local.yaml
+
+# ---- Pacotes, coleções e estado pessoal: fora do GitHub público ----
+*.apkg
+*.colpkg
+*.anki2
+*.anki21
+*.anki21b
+*.sqlite
+config/publicacoes-uc.json
+arquivos-trabalho/**/catalogo*.json
+arquivos-trabalho/**/preflight*.json
+arquivos-trabalho/**/publication.json
+arquivos-trabalho/**/DOCS-ORIGINAL.txt

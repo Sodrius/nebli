@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "policy": "one_current_private_apkg_per_uc_compressed_without_visible_flags",
+  "ucs": {}
+}
