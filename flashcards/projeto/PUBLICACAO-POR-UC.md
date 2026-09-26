@@ -9,8 +9,8 @@ Decisão explícita posterior ao questionário, 23/09/2026. Substitui o upload p
 - Publicar **um arquivo `NEBLI-UC03.apkg`, `NEBLI-UC08.apkg` etc.** na pasta pessoal da respectiva UC. A cada aula nova/alterada, exportar novamente a UC inteira existente e atualizar o mesmo file_id. Não somar arquivos históricos, não publicar só o incremento, não exportar AnKing/Referências/Etimologia.
 - Conservar hierarquia `NEBLI::UCxx::Px::Componente::Aula` conforme calendário/material; não inventar prova ausente nem mover deck antigo silenciosamente para padronizar. Hierarquia física e associações por card são coisas diferentes.
 - Pacote **comprimido internamente e ainda terminado em `.apkg`**, pronto para importar; sem `.zip` externo obrigatório. Mídia não recebe compressão com perda, redução de resolução ou recompressão de imagem.
-- **Zero bandeiras visíveis no arquivo publicado.** Rosa, verde, vermelho e laranja permanecem na coleção viva. Nunca limpar a coleção e tentar restaurar as bandeiras depois.
-- O normal no Anki é manter cards ativos. Candidatos à suspensão pós-prova já recebem rosa no plano de curadoria; Davi decide a cada prova se suspende ou mantém. Nenhuma suspensão automática por data, falta de HY ou rosa.
+- **Zero bandeiras visíveis no arquivo publicado.** Todas as cores permanecem na coleção viva. Nunca limpar a coleção e tentar restaurar as bandeiras depois.
+- O normal no Anki é manter cards ativos. Verde/azul/incerto seguem BANDEIRAS-E-PROGRESSAO.md; Davi decide se suspende ou mantém. Nenhuma suspensão automática por data, tag ou cor.
 - Sem pedido contrário, o empacotador conserva agendamento/histórico exportado. “Sem flags” não significa resetar progresso. O APKG não substitui AnkiWeb/sincronização; reimportação sobre uma coleção estudada precisa de cautela.
 
 ## Implementação disponível

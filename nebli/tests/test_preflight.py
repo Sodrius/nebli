@@ -12,9 +12,16 @@ class PreflightTests(unittest.TestCase):
                     ReadOnlyAnki()(action)
             network.assert_not_called()
 
-    def test_pink_mapping(self):
-        self.assertEqual(FLAGS[5], "candidato_suspensao_pos_prova")
+    def test_blue_mapping_and_legacy_pink(self):
+        self.assertEqual(FLAGS[0], "avaliacao_incerta")
+        self.assertEqual(FLAGS[3], "recomendo_manter_longo_prazo")
+        self.assertEqual(FLAGS[4], "aprender_menor_custo_de_esquecer")
+        self.assertEqual(FLAGS[5], "rosa_legado_ou_pessoal")
         self.assertNotIn(6, FLAGS)
+
+    def test_discovers_anking_after_case_change(self):
+        name = "Referências::Anking Step Deck"
+        self.assertIn(name, discover_corpora([name, name + "::Instructions"]))
 
     def test_quotes(self):
         self.assertEqual(deck_query('A "B"'), 'deck:"A \\"B\\""')
@@ -54,12 +61,12 @@ class PreflightTests(unittest.TestCase):
             if action == "getActiveProfile":
                 raise RuntimeError("unsupported action")
             if action == "deckNames":
-                return []
+                return ["NEBLI (1)", "NEBLI (1)::UC03 (1)", "NEBLI (1)::UC03 (1)::Test (1)"]
             if action == "findCards":
                 return [100] if params["query"] in (
-                    "deck:NEBLI::UC*", "deck:NEBLI::UC* flag:2") else []
+                    '(deck:"NEBLI (1)::UC03 (1)")', '(deck:"NEBLI (1)::UC03 (1)") flag:2') else []
             if action == "cardsInfo":
-                return [{"cardId": 100, "note": 10, "deckName": "NEBLI::UC03::Test",
+                return [{"cardId": 100, "note": 10, "deckName": "NEBLI (1)::UC03 (1)::Test (1)",
                          "queue": 0, "reps": 0}]
             if action == "notesInfo":
                 return [{"noteId": 10, "cards": [100], "fields": {
@@ -73,6 +80,7 @@ class PreflightTests(unittest.TestCase):
         self.assertEqual(result["medical"]["flags"]["0"], 0)
         self.assertEqual(result["medical"]["red_or_orange_ids"], [100])
         self.assertEqual(result["medical"]["comments"][0]["comment"], "imagem")
+        self.assertEqual(result["medical"]["by_deck"], {"NEBLI::UC03::Test": 1})
 
 
 if __name__ == "__main__":

@@ -18,6 +18,7 @@ from contextlib import closing
 from pathlib import Path
 
 from nebli.preflight import ReadOnlyAnki, deck_query
+from nebli.rotulos import canonical
 
 
 def sha256(path):
@@ -147,7 +148,11 @@ def export_uc(uc, output, endpoint="http://127.0.0.1:8765"):
         raise ValueError("Use uma pasta de execução nova; saída/recibo já existem.")
     call = ReadOnlyAnki(endpoint)
     profile = call("getActiveProfile")  # se ausente, falhar; confirmar por outro caminho antes de usar
-    deck = "NEBLI::" + uc
+    # O nome vivo pode trazer o total de cards ("UC03 (1161)"); a identidade é o canônico.
+    live = [name for name in call("deckNames") if canonical(name) == "NEBLI::" + uc]
+    if len(live) != 1:
+        raise ValueError(f"Esperado um deck NEBLI::{uc}; encontrados: {live}")
+    deck = live[0]
     before = live_snapshot(call, deck)
     if not before["card_ids"]:
         raise ValueError("UC vazia: nada a publicar; não restaurar pacotes históricos.")
@@ -170,7 +175,7 @@ def export_uc(uc, output, endpoint="http://127.0.0.1:8765"):
             raise RuntimeError(f"Exportação falhou: {data.get('error')}")
         result = prepare_package(raw, output, before["card_ids"], deck)
     after = live_snapshot(call, deck)
-    result.update({"uc": uc, "deck": deck, "exported_parent": export_deck, "profile": profile,
+    result.update({"uc": uc, "deck": canonical(deck), "exported_parent": export_deck, "profile": profile,
                    "live_card_ids_and_flags_unchanged": before == after,
                    "live_snapshot": after, "published": False, "import_test": "not_performed"})
     if before != after:

@@ -1,0 +1,91 @@
+{
+  "created": "2026-09-25",
+  "purpose": "Originals before context consolidation. Historical, not executable instructions.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "9fd0f1736b30d33c325e7b0c38544251a13e52a0aabcd727c8e68b5ff458c921",
+      "bytes": 3071
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "326266e24f275fffa498a0d20fc0c5eae018c503d2bb16fb69df92acb4e951d9",
+      "bytes": 46460
+    },
+    {
+      "path": "MEMORY.md",
+      "sha256": "b1f79d8f77211534dbb5ed6dd085872886b0080fde9d262bdad9419072727ba1",
+      "bytes": 94111
+    },
+    {
+      "path": "ROLES.md",
+      "sha256": "39b5c524a75c4a1567aa931e7fe053645ca76f91106df1dc8e142f391376d225",
+      "bytes": 59843
+    },
+    {
+      "path": "ERROS.md",
+      "sha256": "1282d26fedf5e306006f9f94c26dddec516f4064d7deb404d89cddc3bfd12047",
+      "bytes": 31063
+    },
+    {
+      "path": ".claude/commands/resumo.md",
+      "sha256": "35c4ed8039963df2a7cc30f626759146cd710bdc81bf688138ebcb90c7b8137d",
+      "bytes": 9304
+    },
+    {
+      "path": ".claude/commands/deck-aula.md",
+      "sha256": "a9e4dac4354115e00c3a857ad7f4a9dfd4670210154a64614b566675beb3a4ad",
+      "bytes": 5035
+    },
+    {
+      "path": "flashcards/projeto/README.md",
+      "sha256": "651c4d3c1c1b0941f9b0913265ef3fdfcae6168133c706a7013f0a9ea88bff92",
+      "bytes": 35215
+    },
+    {
+      "path": "flashcards/projeto/CONTRATO-DE-QUALIDADE.md",
+      "sha256": "3ed4e6d50a2d7ac3f6285b58597f09800e99545bc927ade52deaaee6094487f4",
+      "bytes": 10577
+    },
+    {
+      "path": "flashcards/projeto/OPERACAO-CODEX-CLAUDE.md",
+      "sha256": "a7cab6416db90430467941da8ea41a4f8cc8f22ad4d5e1a9c5824feeceb0f790",
+      "bytes": 5079
+    },
+    {
+      "path": "flashcards/projeto/EXECUCAO-DECK-AULA.md",
+      "sha256": "2adef93049afff6910b18f822156b0c2b95737e0b341995439c7ba2982b9a4e5",
+      "bytes": 18509
+    },
+    {
+      "path": "flashcards/projeto/HANDOFF-CLAUDE.md",
+      "sha256": "0e6e6e45ac51a774d875ddf89dcc538a3f231562956990246fd71230d7db3244",
+      "bytes": 4239
+    },
+    {
+      "path": "flashcards/projeto/CALIBRACAO-ESCALA-V4.md",
+      "sha256": "27edc954ea2e212ea4832bac239e148fbae66f1176e952a8897490cf4a786e50",
+      "bytes": 11647
+    },
+    {
+      "path": "flashcards/projeto/CALIBRACAO-2026-09-25.md",
+      "sha256": "8439cb4f92250ae3502c6b6dfc24e60c2ad8b95cc38c391ca752e98ece862b61",
+      "bytes": 7146
+    },
+    {
+      "path": "flashcards/projeto/FILA-UC03-P2-UC08-P1.md",
+      "sha256": "61bbdc4ed2785a99370be232a4488b4cff0eca1b73fadc6aa29e409a74ca7e8f",
+      "bytes": 28367
+    },
+    {
+      "path": ".claude/commands/flashcards.md",
+      "sha256": "643b9449470c25efcddf480b550b3a614742c760b0e71d7458d5d8c59f4a2e9e",
+      "bytes": 1205
+    },
+    {
+      "path": "flashcards/projeto/PUBLICACAO-POR-UC.md",
+      "sha256": "6e9e177a5e115227b3db6e22b226282de7c9b7b0ab099e96052215cd5af981d8",
+      "bytes": 5495
+    }
+  ]
+}

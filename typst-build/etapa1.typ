@@ -1,243 +1,207 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #intro-box[
-Diabetes mellitus é um defeito de sinal. A insulina, que informa aos tecidos que há substrato chegando, deixa de ser produzida ou deixa de ser obedecida — e a glicose que se acumula no plasma passa a reagir quimicamente com as proteínas do organismo.
+Depois de uma refeição, o sangue fica cheio de glicose; horas depois, em jejum, essa glicose some da circulação — e mesmo assim o seu cérebro, que só queima glicose, continua funcionando sem falhar. Alguém está segurando a glicemia por trás dos panos. Esse alguém é o *glicogênio*: um polímero de glicose que o fígado monta quando sobra açúcar e desmonta quando falta. No músculo, o mesmo polímero cumpre outro papel — é o tanque de combustível que sustenta os primeiros minutos de um esforço intenso, antes de qualquer outra fonte entrar em campo.
 
-A *PARTE I* percorre por que a glicemia sobe: o que a insulina comanda, os dois defeitos opostos que interrompem esse comando, e como a hiperglicemia vira sintoma. A *PARTE II* trata a glicose alta como reagente e acompanha a glicação não-enzimática até a lesão estrutural que se auto-alimenta. A *PARTE III* localiza essa lesão nos órgãos-alvo e mostra a correspondência entre o substrato que o patologista descreve e o achado que o radiologista enxerga.
+A pergunta que organiza este resumo é direta: *como a célula guarda glicose de um jeito que ela possa ser retirada rápido, sem envenenar a célula com pressão osmótica, e sob controle hormonal fino?* A resposta tem três peças, e cada PARTE pega uma.
+
+Na PARTE I você vai entender a *molécula* e a *lógica do estoque*: por que o glicogênio é ramificado, o que são extremidades redutora e não redutora, por que fígado e músculo guardam glicogênio por motivos opostos, e por que a evolução escolheu um polímero em vez de glicose solta.
+
+Na PARTE II entram as *duas vias*: a degradação (glicogenólise), onde a glicogênio fosforilase corta com fosfato e a enzima desramificadora resolve os galhos; e a síntese (glicogênese), onde a glicose precisa ser "ativada" como UDP-glicose antes de ser costurada ao polímero. Você vai ver por que síntese e degradação são vias *separadas*, não uma o inverso da outra.
+
+Na PARTE III a gente fecha com a *regulação coordenada*: como glucagon e adrenalina disparam uma cascata que fosforila as enzimas e libera glicose, como a insulina desliga tudo pela fosfatase PP1, e por que a fosforilase do fígado é, ela mesma, um sensor de glicose no sangue — coisa que a do músculo não é. No fim, um panorama das doenças de depósito de glicogênio, que são o que acontece quando uma peça dessa máquina falta.
 ]
 
-#parte-title("PARTE I — O sinal que falta: por que a glicose sobe", primeira: true)
+#parte-title("PARTE I — A molécula e a lógica do estoque", primeira: true)
 
-#subtopico("1.1 — A insulina e os freios que ela mantém")
+#subtopico("1.1 — O glicogênio é uma árvore de glicose com muitas pontas")
 
-A célula beta da ilhota pancreática secreta insulina quando a glicose plasmática sobe. O receptor de insulina é uma *tirosina-quinase*, enzima que fosforila resíduos de tirosina de proteínas-alvo: as duas subunidades α ligam o hormônio, as duas subunidades β se autofosforilam e passam a fosforilar o #sigla("IRS-1", [substrato 1 do receptor de insulina — a primeira proteína fosforilada pelo receptor, e o ponto em que a via se ramifica]), que recruta a #sigla("PI3K", [fosfatidilinositol-3-quinase — converte o sinal do receptor em um lipídeo de membrana capaz de ancorar a Akt]) e ativa a Akt. Não há proteína G nem segundo mensageiro nesse caminho.
+Comece pela forma, porque nela já está metade da função. O #termo-nota[glicogênio][polímero ramificado de glicose que é a forma de estoque de carboidrato nos animais; concentra-se em fígado e músculo] é um polímero feito só de resíduos de D-glicose, unidos de dois jeitos diferentes. O tronco e os ramos são cadeias de glicoses ligadas por ligação *α(1→4)* — o carbono 1 de uma glicose amarrado ao carbono 4 da seguinte. A cada oito a doze resíduos, porém, sai um galho: uma ligação *α(1→6)*, em que o carbono 1 de uma glicose se prende ao carbono 6 de outra, criando um ponto de ramificação. O resultado é uma estrutura que lembra uma árvore muito densa, com um único tronco na base e centenas de pontas na copa.
 
-O #sigla("GLUT-4", [transportador de glicose tipo 4 — isoforma insulino-dependente do músculo esquelético e do tecido adiposo]) já existe pronto, estocado em vesículas intracelulares, e a Akt comanda a fusão dessas vesículas com a membrana plasmática. *A insulina não sintetiza o transportador, ela o transloca* — daí o efeito surgir em minutos e desaparecer em minutos quando o sinal cessa.
+Essas pontas têm nomes que valem a pena fixar agora, porque toda a bioquímica das próximas páginas gira em torno delas. A *extremidade redutora* é uma só: é o carbono 1 (anomérico) da primeira glicose de todas, o ponto pelo qual o polímero inteiro fica preso a uma proteína chamada glicogenina (voltaremos a ela). As *extremidades não redutoras* são muitas — uma para cada galho —, e são os carbonos 4 livres na periferia da molécula. Guarde a ideia central: *é nas extremidades não redutoras que tanto a síntese quanto a degradação trabalham*. Quanto mais galhos, mais pontas; quanto mais pontas, mais enzimas conseguem atacar o polímero ao mesmo tempo.
 
-O restante do programa é composto de freios. A insulina ativa a glicogênio-sintase, liga a lipogênese no adipócito e inibe a *lipase hormônio-sensível*, enzima que hidrolisa triacilglicerol em ácido graxo livre; em paralelo, suprime a gliconeogênese hepática e a proteólise muscular. Perder o hormônio é liberar todos esses freios simultaneamente, e é por isso que o quadro clínico do tipo 1 não se resume à glicemia.
-
-Um dado de distribuição sustenta as PARTES II e III: *apenas músculo esquelético e tecido adiposo dependem do GLUT-4*. Neurônio, hemácia, endotélio, célula mesangial do glomérulo, pericito da retina, cristalino e epitélio tubular renal captam glicose por transportadores que não respondem à insulina, e por isso não conseguem reduzir a entrada quando a glicemia sobe.
-
-#figura-lateral("/figuras/gr-02-diabetes-mellitus/slide-14.png",
-  lado: "right",
-  largura-figura: 40%,
-  texto: [O intestino sinaliza ao pâncreas antes de a glicose ser absorvida. O #sigla("GLP-1", [peptídeo semelhante ao glucagon 1 — incretina intestinal que amplifica a secreção de insulina dependente de glicose]), liberado pela chegada do alimento ao lúmen, amplifica a secreção de insulina pela célula beta, retarda o esvaziamento gástrico e aumenta a saciedade por ação hipotalâmica. É o *efeito incretínico*, e ele explica por que uma carga oral de glicose eleva mais a insulina do que a mesma carga por via intravenosa.],
-  legenda: [Eixo intestino–pâncreas–encéfalo.])
-
-#subtopico("1.2 — Tipo 1: a ilhota destruída e o corpo em jejum permanente")
-
-O que desencadeia o quadro clínico do tipo 1 não é o valor absoluto da insulina, e sim a queda da *razão insulina/glucagon*. A insulina freia a célula alfa dentro da própria ilhota; sem ela, o glucagon é secretado sem contraposição e o fígado mantém glicogenólise e gliconeogênese enquanto o músculo já não capta glicose. A hiperglicemia é gerada nas duas pontas.
-
-A destruição da célula beta é autoimune, mediada sobretudo por linfócitos T citotóxicos, em indivíduos com alelos predisponentes de #sigla("HLA", [antígeno leucocitário humano — o complexo principal de histocompatibilidade humano, cujos alelos de classe II definem boa parte do risco genético do tipo 1]) de classe II. Os autoanticorpos dosados no laboratório — anti-#termo-nota[descarboxilase do ácido glutâmico][enzima citoplasmática da célula beta; o anticorpo anti-GAD65 contra ela é o marcador sorológico mais usado de autoimunidade contra a ilhota], anti-insulina, anti-tirosina-fosfatase da ilhota — são marcadores dessa agressão, não os seus executores principais.
-
-A massa funcionante remanescente é estimada pelo #termo-nota[peptídeo C][fragmento liberado em quantidade equimolar à insulina na clivagem da pró-insulina; ausente na insulina exógena e pouco extraído pelo fígado, mede a secreção endógena]: ele sai da pró-insulina junto com a insulina, mas não acompanha a insulina exógena aplicada e escapa da extração hepática de primeira passagem, que retira boa parte da insulina antes da circulação sistêmica.
-
-O metabolismo assume então o padrão do jejum com o plasma cheio de glicose. Sem o freio da insulina, a lipase hormônio-sensível libera ácidos graxos em quantidade que excede a capacidade oxidativa hepática: a acetil-CoA gerada ultrapassa a capacidade de consumo do ciclo de Krebs e o excedente é desviado para acetoacetato e β-hidroxibutirato, ácidos fortes cujo acúmulo derruba o pH. A proteólise muscular fornece aminoácidos à gliconeogênese e o balanço nitrogenado fica negativo. A perda ponderal ocorre com ingesta aumentada, porque se perde caloria na urina, triacilglicerol no adipócito e proteína no músculo.
-
-#mini-resumo[Falta de insulina → glucagon sem freio e lipólise sem freio → glicose hepática alta e ácido graxo em excesso → cetoácidos. Hiperglicemia e cetose são efeitos paralelos do mesmo defeito.]
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-12.png",
-  largura: 60%,
-  legenda: [O defeito está em andares diferentes: no tipo 1 o pâncreas não entrega o sinal; no tipo 2 o sinal chega em quantidade e a célula-alvo não responde.])
-
-#clinica-box("O caso que abre a aula", [
-Homem de 26 anos, magro, com dez dias de poliúria, polidipsia e perda de 3 kg; glicemia de 397 mg/dL, hemoglobina glicada de 8,8%, peptídeo C de 1,32 ng/mL e anti-descarboxilase do ácido glutâmico de 1082 UI/mL para valor de referência abaixo de 10.
-
-Os três exames respondem perguntas distintas. O autoanticorpo em título cem vezes acima do limite identifica a natureza autoimune da destruição. O peptídeo C mensurável, no limite inferior da normalidade, indica secreção residual preservada em parte — o paciente está no início da história natural, o que explica a ausência de acidose franca à apresentação. A hemoglobina glicada de 8,8% data o início da hiperglicemia semanas antes dos dez dias de sintomas: o sintoma marca a queda da reserva de célula beta, não o início da doença.
-])
-
-#subtopico("1.3 — Tipo 2: o sinal que chega e não é escutado")
-
-No tipo 2 o receptor está íntegro e a falha é pós-receptor. Com oferta calórica alta e sedentarismo, o músculo recebe mais acil-CoA graxo do que oxida, e o excedente acumula dois intermediários lipídicos com atividade de sinalização: *diacilglicerol* e *ceramida*. Ambos ativam *serina-quinases de estresse*, que fosforilam o IRS-1 em resíduos de serina em vez de tirosina. O IRS-1 fosforilado no resíduo errado não recruta a PI3K, a Akt não é ativada, e menos vesículas de GLUT-4 alcançam a membrana.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-09.png",
-  largura: 55%,
-  legenda: [O ácido graxo não apenas compete com a glicose como combustível: ele interrompe a sinalização que traria o GLUT-4 à superfície. A mitocôndria sobrecarregada devolve espécies reativas de oxigênio, que realimentam as serina-quinases.])
-
-O tecido adiposo contribui por uma segunda via. O adipócito hipertrofiado recruta macrófagos e secreta fator de necrose tumoral alfa e interleucina-6, citocinas que ativam as mesmas serina-quinases e reduzem o GLUT-4 de superfície. A obesidade opera como inflamação crônica de baixo grau, e é por essa ponte que produz resistência à insulina.
-
-A resistência isolada não configura diabetes. A célula beta responde à glicemia crescente aumentando a secreção, e a *hiperinsulinemia compensatória* mantém a glicose em faixa quase normal por anos.
-
-#atencao-box("No tipo 2, a insulina pode estar alta", [
-Durante a maior parte da história natural do tipo 2 a insulina está *normal ou elevada*, e a glicemia sobe apesar disso porque o tecido não responde. Insulina alta com glicemia alta não é contradição laboratorial: é o retrato da resistência. A insulina só cai quando, após anos de sobrecarga secretora e de exposição a glicose e ácido graxo em excesso, a célula beta entra em apoptose e a massa de ilhota diminui — e é nessa fase que o tipo 2 passa a exigir insulina exógena.
-])
-
-O defeito é distribuído por vários órgãos. O fígado resiste ao freio da gliconeogênese e mantém produção hepática de glicose mesmo sob insulina alta, o que explica a hiperglicemia de jejum. O adipócito resiste ao freio da lipólise e continua exportando ácido graxo. O intestino perde parte do efeito incretínico. A ilhota acrescenta hiperglucagonemia à queda de secreção.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-11.png",
-  largura: 56%,
-  legenda: [Cinco endereços do mesmo defeito. A produção hepática de glicose que não desliga é a que sustenta a glicemia de jejum, quando nenhuma refeição a justifica.])
-
-#subtopico("1.4 — Diurese osmótica e as duas descompensações")
-
-A glicose é filtrada livremente no glomérulo e reabsorvida no túbulo proximal por transportadores de capacidade máxima finita, saturados em torno de 180 mg/dL de glicemia. Acima desse limiar a glicose excedente permanece no lúmen tubular.
-
-Soluto não reabsorvido retém água por osmose e impede que ela acompanhe o sódio de volta ao interstício: instala-se a #termo-nota[diurese osmótica][perda aumentada de água na urina causada por um soluto não reabsorvido que a retém no lúmen tubular], e o volume urinário sobe. A poliúria precede a sede — a perda de água eleva a osmolaridade plasmática e só então os osmorreceptores hipotalâmicos disparam a polidipsia. Sódio e potássio são arrastados junto.
-
-A perda ponderal soma três parcelas: caloria eliminada como glicose urinária, triacilglicerol mobilizado pela lipólise e proteína muscular consumida pela gliconeogênese. A polifagia coexiste porque a glicose não entrou na célula.
-
-A forma da descompensação depende da insulina residual. No tipo 1, com secreção praticamente ausente, a lipólise segue livre até os cetoácidos e instala-se a *cetoacidose diabética*, com pH baixo, #termo-nota[hiato aniônico][diferença entre os cátions e os ânions medidos no plasma; aumenta quando um ácido não medido, como o cetoácido, se acumula] aumentado e respiração ampla e profunda — compensação respiratória que elimina gás carbônico para tamponar a acidez, não doença pulmonar. No tipo 2, a insulina residual é insuficiente para normalizar a glicemia mas basta para conter a lipase hormônio-sensível; sem lipólise maciça não há cetose, e a descompensação assume a forma de *estado hiperosmolar*, com glicemias mais altas, diurese osmótica prolongada e rebaixamento de consciência.
-
-#confusao-prevista(
-  titulo: "Hiperosmolaridade e acidose não são o mesmo distúrbio",
-  aluno_acha: [as duas descompensações são lidas como graus de gravidade de um mesmo processo],
-  mecanismo: [são distúrbios de naturezas distintas que apenas coexistem na cetoacidose. A hiperosmolaridade é distúrbio de *água*, produzido pela diurese osmótica; a acidose é distúrbio de *ácido*, produzido pelos cetoácidos da lipólise. No estado hiperosmolar do tipo 2 a primeira ocorre isolada, e é ela que ameaça a vida.],
-)
-
-O potássio inverte a leitura esperada do exame. A diurese osmótica esvazia o estoque corporal total, enquanto a acidose e a ausência de insulina deslocam potássio do intracelular para o plasma. O resultado é potássio sérico normal ou elevado em paciente profundamente depletado — valor que despenca assim que a insulina reconduz o íon para dentro da célula.
-
-#parte-title("PARTE II — Do açúcar ao dano: glicação e as rotas que se perpetuam")
-
-#subtopico("2.1 — Glicação não-enzimática e os dois relógios do controle")
-
-A glicose é um açúcar redutor: possui grupo carbonil livre, que reage espontaneamente com grupos amino de proteínas. A reação é *glicação* — não-enzimática, sem sítio preferencial, governada apenas pelo produto entre concentração de glicose e tempo de exposição. Distingue-se da *glicosilação*, que é enzimática, dirigida a sítios específicos e parte da maturação normal de glicoproteínas. É essa dependência de concentração e tempo que faz da glicação, ao mesmo tempo, o mecanismo da lesão e a base dos exames que medem controle.
-
-A reação avança em três estágios de reversibilidade decrescente. A *base de Schiff* é a condensação inicial entre o carbonil da glicose e um grupo amino da proteína, tipicamente da lisina ou da valina N-terminal; forma-se em horas e desfaz-se se a glicemia cai. O *produto de Amadori* é o rearranjo da base de Schiff numa cetoamina estável, formado em dias e apenas lentamente reversível. O #sigla("AGE", [produto final de glicação avançada — do inglês *advanced glycation end product*, a forma irreversível da glicação]) resulta de desidratações e oxidações sucessivas ao longo de semanas a meses e estabelece *ligações cruzadas* entre dois radicais protéicos: aqui a reação deixa de reverter.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-15.png",
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-07.png",
   largura: 70%,
-  legenda: [A régua de tempo no alto — horas, dias, semanas a meses — carrega o mecanismo. A barra "reversível" termina antes da ligação cruzada entre duas cadeias protéicas, e é essa etapa final que a normalização da glicemia já não desfaz.])
+  legenda: [A arquitetura do glicogênio: tronco e ramos em ligação α(1→4), pontos de ramificação em α(1→6). Uma única extremidade redutora (ancorada à glicogenina) e muitas extremidades não redutoras na periferia — os locais onde as enzimas de síntese e de quebra atuam.])
 
-Da escala de tempo decorre a seleção do alvo: acumula AGE a proteína de meia-vida longa — colágeno, elastina, cristalino, membrana basal —, renovada mais devagar do que a reação avança. Proteína de turnover rápido é degradada antes de reticular.
-
-Os dois exames de controle são produtos de Amadori em proteínas diferentes, e a diferença entre eles é a janela de tempo que cada proteína guarda. A #sigla("HbA1c", [hemoglobina glicada — fração da hemoglobina A que sofreu glicação, expressa em porcentagem da hemoglobina total]) mede a fração glicada da hemoglobina; como a hemácia circula de 90 a 120 dias sem reverter a modificação, o exame integra a exposição à glicose ao longo de 8 a 12 semanas, com peso maior nas últimas quatro. Uma HbA1c de 8,8% corresponde a glicemia média em torno de 205 mg/dL nesse período — no caso da PARTE I, hiperglicemia sustentada muito antes dos dez dias de sintomas. A limitação do exame é a mesma variável que o define: hemólise, sangramento recente ou transfusão encurtam a sobrevida eritrocitária e reduzem a HbA1c para a mesma glicemia média.
-
-A #termo-nota[frutosamina][conjunto das proteínas plasmáticas glicadas, sobretudo a albumina; como a albumina vive de 14 a 20 dias, o exame reflete as últimas 2 a 3 semanas] resolve exatamente esses casos. A albumina circula de 14 a 20 dias e o exame lê 2 a 3 semanas, o que o torna útil em hemoglobinopatia, anemia hemolítica, gestação e mudança recente de tratamento. No caso da aula os dois caminharam juntos em escalas distintas: HbA1c de 8,8% e frutosamina de 575 μmol/L em abril; 5,2% e 289 μmol/L em agosto, quatro meses após a insulinização.
-
-#subtopico("2.2 — O que o AGE faz nas proteínas de vida longa")
-
-A reticulação do colágeno não produz apenas rigidez: a proteína reticulada *resiste à digestão proteolítica e deixa de ser substituída*. O remodelamento da matriz extracelular depende de degradar colágeno velho para depositar colágeno novo, e as proteases não cortam o substrato reticulado. Esta é a razão bioquímica de a ferida do diabético cicatrizar mal mesmo com perfusão preservada.
-
-A glicação da #sigla("LDL", [lipoproteína de baixa densidade — partícula que transporta colesterol do fígado para os tecidos]) prejudica o reconhecimento da partícula pelo receptor hepático, prolonga o tempo de circulação e favorece a oxidação. A partícula modificada passa a ser captada por *receptores scavenger* do macrófago, que — ao contrário do receptor de LDL — não são inibidos pelo colesterol já acumulado na célula. O macrófago capta sem regulação e se converte em #termo-nota[célula espumosa][macrófago repleto de gotículas lipídicas, elemento fundador da estria gordurosa e da placa de ateroma]. É o elo direto entre hiperglicemia e placa de ateroma, retomado na PARTE III.
+Aqui mora uma confusão clássica que atravessa toda a bioquímica de carboidratos, e vale desarmá-la de uma vez.
 
 #confusao-prevista(
-  titulo: "Membrana basal mais espessa não filtra melhor",
-  aluno_acha: [engrossar a barreira deveria retê-la mais e reduzir a passagem de proteína],
-  mecanismo: [o que muda não é só a espessura, é a *composição*. A membrana basal glomerular do diabético ganha matriz desorganizada e perde proteoglicanos aniônicos, que constituem a barreira de carga que repelia a albumina — também aniônica. O resultado é uma membrana mais espessa e simultaneamente mais permeável a proteína.],
+  titulo: "α(1→4) não é β(1→4): a ligação decide se dá para digerir",
+  aluno_acha: [aluno mistura glicogênio, amido e celulose como se a diferença fosse só o tamanho da molécula.],
+  mecanismo: [Os três são polímeros de glicose, mas a *ligação* muda tudo. O glicogênio (animais) e o amido (plantas) usam ligação *α*, que as nossas enzimas — amilase, fosforilase — reconhecem e quebram. A celulose usa ligação *β(1→4)*, que o corpo humano não consegue clivar: por isso ela é fibra, passa reto pelo intestino. Além disso, o glicogênio é *muito mais ramificado* que o amido (galhos a cada 8–12 resíduos, contra 24–30 na amilopectina), o que o torna mobilizável mais depressa. Mesma glicose, ligações diferentes, destinos opostos.],
 )
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-17.png",
-  largura: 50%,
-  legenda: [À esquerda, membrana basal normal: fina e homogênea, com pedicelos regularmente espaçados. À direita, a mesma barreira espessada e desorganizada no diabético.])
+Uma nota de aprofundamento que amarra estrutura e velocidade: a ramificação não é enfeite. Cada ponto α(1→6) cria uma nova extremidade não redutora, e é dessas pontas que a glicose sai durante a mobilização. Uma molécula com centenas de pontas pode ser degradada por centenas de moléculas de fosforilase agindo em paralelo — é isso que permite despejar glicose no sangue em segundos, quando a adrenalina manda. A forma ramificada é, literalmente, o que torna o estoque de acesso rápido.
 
-Há ainda um efeito independente de estrutura: os AGEs *inativam o óxido nítrico*. A menor disponibilidade de óxido nítrico reduz a vasodilatação dependente do endotélio, aumenta a adesão de leucócitos e plaquetas e favorece a proliferação de músculo liso na parede vascular. O primeiro dano vascular do diabetes é funcional e antecede qualquer placa detectável por imagem.
+#mini-resumo[O glicogênio é um polímero de glicose com tronco α(1→4) e galhos α(1→6) a cada 8–12 resíduos. Uma extremidade redutora (presa à glicogenina), muitas não redutoras (as pontas de trabalho). Ligação *α* = digerível (glicogênio, amido); ligação *β* = celulose, indigerível. Ramificar = multiplicar pontas = mobilizar rápido.]
 
-#subtopico("2.3 — RAGE e as outras rotas: como o dano passa a se perpetuar")
+#subtopico("1.2 — Dois estoques, duas funções: fígado versus músculo")
 
-O AGE não é apenas produto: é ligante. Monócitos, macrófagos, células endoteliais e células mesangiais expressam o #sigla("RAGE", [receptor para produtos finais de glicação avançada — receptor de membrana que converte a presença de AGE em sinal inflamatório intracelular]); a ligação ativa o #sigla("NF-κB", [fator nuclear kappa B — fator de transcrição que comanda a expressão de genes pró-inflamatórios]) e transcreve um programa que inclui citocinas, fatores de crescimento, moléculas de adesão e fator tecidual. Migração de monócitos, aumento de permeabilidade vascular, atividade pró-coagulante e deposição de matriz extracelular são saídas desse programa.
+O corpo guarda glicogênio principalmente em dois tecidos, e o mesmo polímero serve a propósitos que quase se opõem. No *fígado*, o glicogênio ocupa até 10% da massa do órgão (algo como 50 a 100 g num adulto) e existe para uma missão de interesse público: *manter a glicemia de todo o organismo*. Entre as refeições e durante a noite, o fígado desmonta seu glicogênio e joga glicose livre no sangue, alimentando cérebro, hemácias e todos os tecidos que dependem da glicose circulante.
 
-A alça é positiva: a sinalização por RAGE aumenta a expressão do próprio receptor e o estresse oxidativo local, e as espécies reativas de oxigênio aceleram a formação de novos AGEs. *O dano passa a produzir as condições que o produzem* — o processo auto-perpetuador do esquema da aula, que continua operando quando o estímulo inicial já diminuiu.
+No *músculo*, o glicogênio representa cerca de 1 a 2% da massa — proporção menor, mas como a massa muscular total é grande, o estoque absoluto é considerável. A função aqui é *egoísta*: o músculo guarda glicogênio para seu próprio consumo, como combustível pronto para a contração. Ele não compartilha essa glicose com ninguém. E há uma razão molecular precisa para isso, que é talvez o detalhe mais cobrado da aula.
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-30.png",
-  largura: 55%,
-  legenda: [Alteração metabólica e alteração funcional ainda revertem; a partir das modificações progressivas um dos ramos passa a se alimentar sozinho. É esse ramo que faz a manifestação clínica surgir anos depois e não regredir com o controle.])
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-05.png",
+  largura: 65%,
+  legenda: [Fígado (≈10% da massa, reserva para a glicemia sistêmica) e músculo (≈2% da massa, reserva energética local). No músculo, o estoque é mobilizado durante e após o exercício, para consumo próprio.])
 
-Três rotas adicionais explicam alvos específicos. A *via dos polióis* converte glicose em sorbitol pela aldose-redutase consumindo NADPH; menos NADPH significa menos glutationa reduzida e menor defesa antioxidante, e o sorbitol acumulado — incapaz de atravessar a membrana — puxa água por osmose no cristalino e no nervo. A ativação da *proteína quinase C* pelo excesso de diacilglicerol aumenta permeabilidade vascular, expressão de fator de crescimento endotelial e deposição de matriz. A *via da hexosamina* modifica fatores de transcrição por adição de N-acetilglicosamina e altera a expressão de fator de crescimento transformador beta e do inibidor do ativador de plasminogênio, com fibrose e trombogenicidade como saída.
-
-As quatro rotas convergem: todas aumentam a produção mitocondrial de espécies reativas de oxigênio, e o estresse oxidativo as realimenta. Como todas dependem de glicose *intracelular* alta, atingem preferencialmente as células que captam glicose sem depender de insulina — endotélio, pericito, célula mesangial, neurônio, cristalino, epitélio tubular. Os órgãos-alvo do diabetes são exatamente esses tecidos.
-
-#parte-title("PARTE III — Onde o dano aparece: órgãos-alvo e o que a imagem enxerga")
-
-#subtopico("3.1 — Microangiopatia: retina e glomérulo")
-
-A retina é servida por vasos terminais sem circulação colateral, e é o único leito capilar do corpo examinável diretamente. O primeiro alvo é o #termo-nota[pericito][célula contrátil que envolve o capilar e regula o seu calibre], que capta glicose independentemente de insulina, sofre pelas quatro rotas da PARTE II e morre. O capilar perde suporte de parede e dilata focalmente em #termo-nota[microaneurismas][dilatações focais da parede capilar, formadas onde o suporte do pericito se perdeu; são as primeiras lesões detectáveis ao exame de fundo de olho]; a permeabilidade aumentada deposita *exsudatos duros* — plasma e lipoproteína extravasados — e a fragilidade da parede produz hemorragias puntiformes.
-
-A fase proliferativa não é recuperação. A retina isquêmica libera fator de crescimento endotelial e o organismo fabrica neovasos frágeis que crescem para dentro do vítreo: eles sangram, produzindo hemorragia vítrea, e o tecido fibroso que os acompanha traciona e descola a retina. Quando crescem sobre a íris e o ângulo camerular, bloqueiam a drenagem do humor aquoso e produzem glaucoma neovascular. A catarata tem mecanismo próprio e osmótico: a aldose-redutase converte glicose em sorbitol, que não atravessa a membrana da fibra do cristalino, acumula, puxa água e opacifica a lente — o mesmo mecanismo explica as oscilações de refração do paciente descompensado.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-31.png",
-  largura: 58%,
-  legenda: [Os órgãos marcados no esquema são os que captam glicose sem depender de insulina, mais os leitos arteriais atingidos pela aterosclerose acelerada.])
-
-No glomérulo, a hiperglicemia dilata a arteríola aferente mais do que a eferente: a pressão no capilar glomerular sobe e a filtração aumenta. Essa *hiperfiltração* é a primeira alteração funcional da doença, e a sobrecarga mecânica que ela impõe produz a esclerose de anos depois — o aumento da filtração inicial não é sinal de rim preservado.
-
-O que se deposita é matriz. A membrana basal espessa e muda de composição, como em 2.2, e a matriz mesangial se expande, primeiro difusamente e depois em nódulos arredondados — a glomeruloesclerose nodular de Kimmelstiel-Wilson. *Não há infiltrado inflamatório proeminente*: é acúmulo de matriz, não glomerulonefrite. As arteríolas aferente e eferente sofrem #termo-nota[hialinização][depósito de material proteico homogêneo e eosinofílico na parede do vaso, que a enrijece e estreita a luz], que é lesão de arteríola e não se confunde com a aterosclerose das artérias de médio e grande calibre.
-
-A tradução laboratorial tem ordem. A albuminúria aparece primeiro, porque a barreira de carga glomerular se perdeu — a albumina passa pelo glomérulo, não por falha tubular. A creatinina sobe muito depois, porque a hiperfiltração dos néfrons remanescentes mascara a perda dos já esclerosados: creatinina normal não exclui nefropatia. A glicosúria, a retenção urinária por neuropatia autonômica e a redução da quimiotaxia e da explosão respiratória do neutrófilo em hiperglicemia somam-se para explicar a predisposição à pielonefrite.
-
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-33.png",
-  largura: 58%,
-  legenda: [As duas pontas da história no mesmo exame: rim *aumentado* na hiperfiltração inicial; rim reduzido, com córtex afilado e ecogenicidade aumentada no estágio final — fibrose devolve mais som que parênquima funcionante.])
-
-#subtopico("3.2 — Neuropatia e pé diabético")
-
-A neuropatia diabética resulta de dois mecanismos somados. Os *vasa nervorum*, capilares que nutrem o tronco nervoso, sofrem a mesma microangiopatia da retina e do glomérulo e isquemiam o nervo; em paralelo, o sorbitol acumulado e a glicação de proteínas do axônio e da mielina lesam a fibra diretamente. O achado funcional é a queda da velocidade de condução, e o padrão clínico é o comprometimento em bota e luva, que começa pelas fibras mais longas.
-
-O pé diabético soma três falhas independentes no mesmo território. A *neuropatia sensitiva* remove a dor protetora, e o trauma repetido — calçado apertado, corpo estranho, calo que ulcera — não é percebido nem interrompido. A *neuropatia autonômica* reduz a sudorese, resseca a pele e abre fissuras que servem de porta de entrada. A *doença arterial periférica* limita o aporte de oxigênio, de células de defesa e do antibiótico administrado. Somam-se a reticulação do colágeno por AGEs, que trava o remodelamento da matriz, e a disfunção do neutrófilo em hiperglicemia.
-
-Quando a isquemia é suficiente, o tecido morre com padrão de *gangrena*: necrose, tipicamente isquêmica, comprometendo pele, subcutâneo, músculo e osso simultaneamente. Diz-se seca sem infecção superposta e úmida com ela — o termo descreve a morte tecidual, não a infecção.
-
-#atencao-box("Charcot não é osteomielite", [
-A *artropatia de Charcot* é destruição mecânica: a articulação sem propriocepção nem dor recebe microtraumas repetidos sem correção postural, e a arquitetura do médio-pé se desmonta com erosão das superfícies articulares, fragmentação, subluxação e colapso do arco plantar. Não há infecção — há trauma acumulado sobre um pé que não avisa.
-
-A *osteomielite* é infecção da medular óssea, em geral por contiguidade a partir de úlcera plantar profunda, e exige antibioticoterapia prolongada e com frequência desbridamento.
-
-As duas coexistem no mesmo pé, e a confusão custa nos dois sentidos: antibiótico não imobiliza a articulação que continua se destruindo, e imobilização não contém a infecção que progride para o osso vizinho e para a corrente sanguínea.
+#atencao-box("Por que a glicose do músculo não sai do músculo", [
+O músculo *não possui a enzima glicose-6-fosfatase* — a enzima que remove o fosfato da glicose-6-fosfato e libera glicose livre. Sem ela, a glicose derivada do glicogênio muscular fica presa na forma de glicose-6-fosfato, que é carregada e não atravessa a membrana. Resultado: essa glicose só tem um caminho, entrar na glicólise e virar energia ali mesmo. O fígado, ao contrário, *tem* glicose-6-fosfatase, por isso consegue exportar glicose para o sangue. Essa única diferença enzimática explica por que o fígado regula a glicemia de todos e o músculo cuida só de si.
 ])
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-42.png",
+Vale um aprofundamento que integra com a via da gliconeogênese: mesmo sem exportar glicose diretamente, o músculo contribui indiretamente para a glicemia. Durante o exercício intenso, o glicogênio muscular vira lactato, que cai no sangue, chega ao fígado e é reconvertido em glicose (o ciclo de Cori). Ou seja, o músculo devolve carbono ao pool de glicose — só que pela via longa, passando pelo fígado, e não por liberação direta.
+
+#mini-resumo[Fígado: glicogênio ≈10% da massa, serve à *glicemia sistêmica* (tem glicose-6-fosfatase, exporta glicose). Músculo: glicogênio ≈2% da massa, serve à *contração local* (sem glicose-6-fosfatase, a glicose fica retida como glicose-6-fosfato e entra na glicólise). A diferença é uma única enzima.]
+
+#subtopico("1.3 — Por que estocar como polímero, e não como glicose solta")
+
+Se o objetivo é ter glicose à mão, por que não guardar glicose livre? A resposta tem dois motivos, e ambos são consequências diretas de ser um polímero. O primeiro é *osmótico*. A pressão osmótica de uma solução depende do número de partículas dissolvidas, não da massa delas. Se uma célula hepática guardasse na forma livre toda a glicose que hoje mantém como glicogênio, seriam centenas de milimols por litro de partículas puxando água para dentro — a célula incharia e estouraria. Ao amarrar milhares de glicoses numa única molécula gigante, a célula reduz o número de partículas osmoticamente ativas para praticamente uma. O glicogênio é um jeito de estocar açúcar sem pagar o preço osmótico.
+
+O segundo motivo é a *velocidade de mobilização*, e aqui a estrutura ramificada volta a ser a heroína. Como vimos, cada galho é uma nova ponta de trabalho; muitas pontas significam muitas enzimas cortando ao mesmo tempo. Quando a adrenalina anuncia perigo, o corpo precisa de glicose *agora* — e o glicogênio entrega, porque a degradação acontece em paralelo em centenas de extremidades.
+
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-08.png",
+  largura: 62%,
+  legenda: [A glicose armazenada como glicogênio é mobilizada conforme a necessidade: no fígado, para manter o açúcar no sangue; no músculo, para gerar energia quando a demanda sobe.])
+
+Cabe contrastar com a gordura, para não confundir os papéis. O tecido adiposo guarda muito mais energia por grama e é a reserva profunda do corpo — mas é lenta de mobilizar, não rende energia sem oxigênio e não consegue sustentar a glicemia de forma aguda (ácidos graxos não viram glicose líquida no humano). O glicogênio é o oposto: reserva pequena, porém de saque imediato e utilizável até em anaerobiose. Um é a poupança de longo prazo; o outro, o dinheiro no bolso.
+
+#mini-resumo[Estocar como glicogênio, e não glicose livre, resolve dois problemas: *osmótico* (um polímero gigante conta como uma partícula, não puxa água) e *cinético* (a ramificação cria muitas pontas, permitindo mobilização rápida e paralela). Contraste com a gordura: reserva grande, mas lenta e sem sustentar glicemia.]
+
+#parte-title("PARTE II — Quebrar e construir: as duas vias")
+
+#subtopico("2.1 — Glicogenólise: a fosforilase corta com fosfato, não com água")
+
+A degradação começa nas extremidades não redutoras, e a enzima protagonista — reguladora e limitante da glicogenólise — é a *glicogênio fosforilase*. O nome já entrega o truque: ela não hidrolisa a ligação (não usa água), ela faz *fosforólise* — ataca a ligação α(1→4) com um fosfato inorgânico (Pi). A cada corte, sai uma *glicose-1-fosfato* e o polímero encurta em um resíduo. A fosforilase depende de um cofator, o #termo-nota[piridoxal-fosfato][forma ativa da vitamina B6; seu grupo fosfato atua como catalisador ácido-base na fosforilase, doando e recebendo próton na clivagem] (PLP), cujo grupo fosfato participa diretamente da catálise.
+
+Por que cortar com fosfato em vez de água? Porque a fosforólise já entrega o produto na forma útil. A glicose sai *pré-fosforilada*, como glicose-1-fosfato — o que economiza o gasto de um #sigla("ATP", [adenosina trifosfato — a moeda energética da célula]) que seria necessário para fosforilar a glicose depois. E há um bônus: por estar carregada, a glicose-1-fosfato não atravessa a membrana, então o carbono capturado do glicogênio fica retido dentro da célula. Cortar com fosfato é energeticamente esperto e evita vazamento.
+
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-12.png",
+  largura: 66%,
+  legenda: [Clivagem fosforolítica: a fosforilase usa Pᵢ (não água) para liberar glicose-1-fosfato do glicogênio, com participação do piridoxal-fosfato (PLP). O produto sai já fosforilado — economia de ATP e retenção do carbono na célula.])
+
+Há um limite físico, porém: a fosforilase é uma enzima que só trabalha em cadeia reta e *para quando chega a quatro resíduos de um ponto de ramificação*. O que sobra é uma estrutura de galhos curtos chamada dextrina-limite. Para seguir, entra a *enzima desramificadora*, que é bifuncional — uma única cadeia proteica com duas atividades. Primeiro, sua atividade *transferase* (glicosiltransferase) pega um bloco de três resíduos do galho e o transfere para uma extremidade não redutora vizinha, alongando aquela cadeia. Depois, sua atividade *α(1→6)-glicosidase* hidrolisa o último resíduo, o que ficou preso pela ligação de ramificação — e esse sai como *glicose livre*, não fosforilada.
+
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-14.png",
+  largura: 64%,
+  legenda: [A enzima desramificadora em dois atos: a transferase move um bloco de três glicoses para uma ponta vizinha; a α(1→6)-glicosidase hidrolisa o resíduo de ramificação, liberando-o como glicose livre.])
+
+Fixe a proporção, porque é um ponto de confusão frequente: a maior parte da glicose do glicogênio sai como *glicose-1-fosfato* (obra da fosforilase, ~90%), e uma fração menor sai como *glicose livre* (obra da glicosidase da enzima desramificadora, ~10%, nos pontos de ramificação). Como aprofundamento clínico, vale saber que a falta da fosforilase muscular causa a doença de McArdle: o músculo não consegue mobilizar o próprio glicogênio, e o paciente tem intolerância ao exercício e não eleva o lactato no esforço — porque o combustível não é liberado.
+
+#mini-resumo[A glicogênio fosforilase faz *fosforólise* (corta com Pᵢ, não água), liberando glicose-1-fosfato pré-fosforilada — economia de ATP + retenção do carbono. Usa PLP (vitamina B6). Para a 4 resíduos do galho; a *enzima desramificadora bifuncional* transfere um bloco de 3 (transferase) e hidrolisa o resíduo α(1→6) (glicosidase), soltando glicose livre. ~90% sai como glicose-1-fosfato, ~10% como glicose livre.]
+
+#subtopico("2.2 — De glicose-1-fosfato ao destino: a bifurcação hepática e muscular")
+
+A glicose-1-fosfato ainda não é a moeda que a célula usa. Uma enzima chamada *fosfoglicomutase* converte glicose-1-fosfato em *glicose-6-fosfato*, numa reação reversível que passa por um intermediário difosforilado (glicose-1,6-bisfosfato). A glicose-6-fosfato é a verdadeira encruzilhada do metabolismo — dela partem a glicólise, a via das pentoses, a devolução ao glicogênio e, no fígado, a liberação de glicose livre.
+
+E é exatamente aqui que os dois tecidos se separam, retomando o que a PARTE I abriu. No *fígado*, a glicose-6-fosfato é levada ao retículo endoplasmático, onde a *glicose-6-fosfatase* remove o fosfato e produz glicose livre, que sai para o sangue e sustenta a glicemia. No *músculo*, que não tem essa fosfatase, a glicose-6-fosfato só pode descer pela glicólise e virar ATP para a contração. A mesma molécula, dois destinos, decididos pela presença ou ausência de uma enzima.
+
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-11.png",
+  largura: 72%,
+  legenda: [Panorama da glicogenólise: fosforilase e desramificadora liberam glicose-1-fosfato, que a fosfoglicomutase converte em glicose-6-fosfato. No fígado, a glicose-6-fosfatase gera glicose para o sangue; no músculo, a glicose-6-fosfato segue para glicólise, piruvato e lactato.])
+
+Como aprofundamento que conecta com a clínica, a ausência da glicose-6-fosfatase — desta vez no fígado, por defeito genético — causa a doença de von Gierke. Sem a fosfatase, o fígado não libera glicose nem do glicogênio nem da gliconeogênese: o paciente faz hipoglicemia grave em jejum, acumula glicogênio (fígado aumentado) e desvia o excesso de glicose-6-fosfato para lactato, causando acidose. É o retrato do que acontece quando a última porta da via hepática se fecha.
+
+#mini-resumo[A *fosfoglicomutase* converte glicose-1-fosfato em glicose-6-fosfato (reversível). A glicose-6-fosfato é a encruzilhada: no fígado, a *glicose-6-fosfatase* a transforma em glicose livre para o sangue; no músculo, sem essa enzima, ela entra na glicólise. Falha hepática da glicose-6-fosfatase = doença de von Gierke (hipoglicemia de jejum, hepatomegalia, acidose láctica).]
+
+#subtopico("2.3 — Glicogênese: a glicose ativada (UDP-glicose) e a costura do polímero")
+
+A síntese *não é a degradação ao contrário* — é uma via própria, com enzimas próprias, e isso é proposital: vias separadas podem ser reguladas de forma independente, ligando uma e desligando a outra. O ponto de partida é a glicose-6-fosfato, que a fosfoglicomutase converte em glicose-1-fosfato (a mesma reação de antes, no sentido inverso). Mas, antes de ser costurada ao polímero, a glicose precisa ser *ativada*.
+
+A ativação é a jogada central da via. A glicose-1-fosfato reage com *#sigla("UTP", [uridina trifosfato — nucleotídeo que ativa a glicose para a síntese, análogo ao ATP])* — uma molécula-irmã do ATP —, formando *UDP-glicose* e liberando pirofosfato (PPi). A enzima é a UDP-glicose pirofosforilase. Sozinha, essa reação seria facilmente reversível; o que a torna irreversível na prática é o destino do pirofosfato: uma pirofosfatase o hidrolisa imediatamente em dois fosfatos, e essa quebra puxa a reação para frente de forma definitiva. A UDP-glicose é a *forma ativada da glicose* — a peça pronta para ser encaixada. (Foi Luis Leloir quem descobriu esse mecanismo, rendendo-lhe o Nobel de Química de 1970.)
+
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-18.png",
+  largura: 60%,
+  legenda: [Ativação da glicose: glicose-1-fosfato + UTP formam UDP-glicose + pirofosfato (PPᵢ). A hidrólise imediata do pirofosfato em dois Pᵢ torna a reação irreversível — a UDP-glicose é a forma ativada, pronta para a síntese.])
+
+Com a peça ativada, entra a *glicogênio sintase* — a enzima reguladora e limitante da glicogênese: ela transfere a glicose da UDP-glicose para uma extremidade não redutora do glicogênio, formando uma nova ligação α(1→4) no carbono 4. Há um detalhe importante — a sintase *não sabe começar do zero*: ela só alonga uma cadeia que já tenha ao menos quatro resíduos. Quem fornece esse primer inicial é a *glicogenina*, uma proteína que catalisa a própria glicosilação, ligando as primeiras glicoses a um resíduo de tirosina seu e permanecendo presa à extremidade redutora do polímero para sempre. Todo glicogênio nasce, portanto, grudado a uma glicogenina.
+
+Mas a sintase só faz cadeia reta. Para criar os galhos que dão ao glicogênio sua forma ramificada, entra a *enzima ramificadora* (uma amilo-(1,4→1,6)-transglicosilase): quando um ramo cresce o suficiente, ela recorta um bloco de cerca de sete resíduos da ponta e o reconecta mais para dentro, por uma ligação α(1→6), criando um novo galho. É essa enzima que constrói a árvore.
+
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-21.png",
   largura: 58%,
-  legenda: [Antepé, médio-pé e retropé na artropatia de Charcot: erosão das superfícies articulares e desalinhamento, sem reação periosteal de infecção.])
+  legenda: [A glicogenina inicia a molécula: com atividade de glicosiltransferase, monta o primer inicial e permanece ancorada à extremidade redutora. A glicogênio sintase depois alonga as cadeias, e a enzima ramificadora abre os galhos.])
 
-A escolha do método de imagem segue o tempo do achado. A radiografia só demonstra alteração após perda óssea significativa, com atraso de uma a duas semanas — insuficiente para excluir osteomielite aguda. A #sigla("RM", [ressonância magnética — método baseado no comportamento dos núcleos de hidrogênio em campo magnético, com alta resolução para partes moles e medula óssea]) detecta o edema da medular óssea muito antes: baixo sinal em T1, alto sinal em T2 com saturação de gordura, e realce após contraste no tecido inflamado e perfundido.
+Feche a via com o balanço energético, que também vale fixar bem: *a síntese custa 2 ATP por glicose incorporada*. Um ATP foi gasto lá atrás para fosforilar a glicose em glicose-6-fosfato (pela hexoquinase ou glicoquinase); o segundo é o custo de regenerar o UTP a partir do UDP liberado pela sintase (o UDP é refosforilado às custas de um ATP). Sintetizar glicogênio é, portanto, um investimento: gasta-se energia para guardar energia.
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-43.png",
-  largura: 58%,
-  legenda: [A mesma região aparece escura em T1, clara em T2 com saturação de gordura e realçada após contraste — a assinatura do edema e da inflamação da medular óssea.])
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-23.png",
+  largura: 68%,
+  legenda: [Contabilidade da glicogênese: 1 ATP na fosforilação inicial da glicose + 1 ATP na regeneração do UTP = 2 ATP gastos por glicose adicionada ao glicogênio. Guardar energia custa energia.])
 
-#subtopico("3.3 — Macroangiopatia: aterosclerose acelerada e como se procura por ela")
+#mini-resumo[Síntese é via *separada* da degradação. Glicose-1-fosfato + UTP → *UDP-glicose* (forma ativada; a hidrólise do PPᵢ torna a reação irreversível — Leloir, Nobel 1970). A *glicogênio sintase* transfere a glicose para o C4 de uma cadeia (α1→4), mas precisa de primer de ≥4 resíduos, fornecido pela *glicogenina* (fica presa à extremidade redutora). A *enzima ramificadora* cria os galhos α(1→6). Custo: *2 ATP por glicose*.]
 
-O diabetes acelera a aterosclerose por quatro caminhos já construídos: a LDL glicada captada sem regulação pelo macrófago, a inativação do óxido nítrico com disfunção endotelial, o estado pró-inflamatório do eixo AGE–RAGE, e um estado pró-coagulante com mais fator tecidual, mais inibidor do ativador de plasminogênio e menos fibrinólise.
+#parte-title("PARTE III — A regulação coordenada")
 
-O evento agudo vem da *ruptura* da placa, não do seu crescimento até ocluir. Uma placa com núcleo lipídico grande e capa fibrosa fina se fissura, expõe colágeno e fator tecidual ao sangue, e a trombose resultante oclui a luz em minutos — placa pouco estenosante pode matar, enquanto placa muito estenosante e estável dá angina previsível por anos. Aplicada ao diabético, a tríade de Virchow destaca *lesão endotelial* e *alteração de fluxo por turbulência* sobre a placa, somadas à hipercoagulabilidade; a estase é o eixo da trombose venosa por imobilidade, cenário distinto.
+#subtopico("3.1 — O princípio: nunca as duas vias ao mesmo tempo")
 
-#figura-nebli("/figuras/gr-02-diabetes-mellitus/slide-34.png",
-  largura: 58%,
-  legenda: [Dois ramos a partir do mesmo ponto: a placa estável estreita a luz e dá angina previsível; a placa vulnerável se instabiliza e o desfecho passa a depender do trombo — suboclusivo dá síndrome coronariana aguda, oclusivo dá infarto ou morte súbita.])
+Duas vias opostas que compartilham metabólitos criam um risco óbvio: se síntese e degradação rodassem juntas, a célula ficaria montando e desmontando glicogênio sem parar, gastando ATP e não produzindo nada — um ciclo fútil. Por isso o metabolismo do glicogênio é regulado de forma *recíproca*: o sinal que liga uma via desliga a outra, sempre. Essa coordenação opera em três camadas que se somam: *alostérica* (metabólitos que sinalizam o estado energético da célula), *covalente* (fosforilação e desfosforilação das enzimas em resposta a hormônios) e *hormonal* (o comando de cima, que decide o sentido).
 
-Como a aterosclerose tem período assintomático longo, a imagem é usada para procurá-la antes do evento, e cada método responde a uma pergunta distinta.
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-24.png",
+  largura: 60%,
+  legenda: [Três camadas de regulação coordenada: efetores alostéricos, modificação covalente por fosforilação e comando hormonal. Síntese e degradação são reguladas em sentidos opostos, para nunca operarem simultaneamente.])
 
-#align(center, table(
-  columns: (auto, 1fr, auto, 1fr),
-  inset: 6pt,
-  align: left + horizon,
-  stroke: 0.4pt + gray-border,
-  fill: (_, y) => if y == 0 { navy } else { white },
-  table.header(
-    text(fill: white, weight: "bold", size: 8.5pt)[Método],
-    text(fill: white, weight: "bold", size: 8.5pt)[O que mede],
-    text(fill: white, weight: "bold", size: 8.5pt)[Custo],
-    text(fill: white, weight: "bold", size: 8.5pt)[Quando escolher],
-  ),
-  text(size: 8.5pt)[Escore de cálcio],
-  text(size: 8.5pt)[Carga de placa calcificada, acima de 130 unidades Hounsfield em área mínima de 1 mm²],
-  text(size: 8.5pt)[Radiação baixa, sem contraste],
-  text(size: 8.5pt)[Estratificar risco em assintomático; não mostra a luz],
-  text(size: 8.5pt)[Angiotomografia de coronárias],
-  text(size: 8.5pt)[A luz do vaso, com especificidade alta e valor preditivo negativo próximo de 100%],
-  text(size: 8.5pt)[Radiação e contraste iodado],
-  text(size: 8.5pt)[Excluir doença em probabilidade pré-teste baixa a intermediária],
-  text(size: 8.5pt)[Cateterismo],
-  text(size: 8.5pt)[Grau de estenose com precisão, e permite tratar no mesmo tempo],
-  text(size: 8.5pt)[Invasivo, risco baixo mas real],
-  text(size: 8.5pt)[Alta probabilidade pré-teste, ou lesão grave já detectada],
-))
+A elegância do desenho é que uma *única* modificação — a fosforilação — tem efeitos *opostos* nas duas enzimas: fosforilar *ativa* a fosforilase (liga a degradação) e ao mesmo tempo *inativa* a sintase (desliga a síntese). Um comando, dois efeitos casados, sentidos contrários. Guardar essa assimetria é a chave para não se perder na cascata que vem a seguir.
 
-A regra que organiza a tabela: *um exame só é útil quando o resultado pode mudar a conduta*. Com probabilidade pré-teste alta, uma angiotomografia negativa não seria aceita e uma positiva levaria ao cateterismo de qualquer modo — o exame acrescenta radiação e contraste sem alterar a decisão. Com probabilidade baixa a intermediária, o resultado negativo encerra a investigação, e é aí que o valor preditivo negativo alto tem valor.
+#mini-resumo[Síntese e degradação são reguladas *reciprocamente* para evitar ciclo fútil. Três camadas: alostérica (estado energético), covalente (fosforilação), hormonal (comando). Regra de ouro: *a fosforilação ativa a fosforilase e inativa a sintase* — um sinal, efeitos opostos nas duas vias.]
 
-A mesma leitura por densidade vale nos outros territórios. Na tomografia de crânio sem contraste, a área isquêmica é *hipoatenuante* porque o edema citotóxico aumenta o conteúdo de água do tecido; sangue agudo é hiperatenuante. Na aorta, a calcificação parietal extensa e o alargamento do vaso registram a mesma doença em calibre maior.
+#subtopico("3.2 — A cascata do glucagon e da adrenalina: fosforilar para quebrar")
 
-#clinica-box("Do mecanismo à estratégia terapêutica", [
-No infarto por trombose sobre placa rota, cada estratégia ataca um elo da cadeia deste resumo. O *antiagregante plaquetário* age na hemostasia primária, reduzindo adesão e agregação sobre o colágeno exposto. O *trombolítico* age depois do trombo formado, ativando o plasminogênio em plasmina, que degrada a rede de fibrina. A *desobstrução mecânica com implante de stent* restabelece a luz e reduz a turbulência que realimenta a ativação endotelial.
+Quando o corpo precisa de glicose — jejum, para o fígado; luta ou fuga, para o músculo —, os hormônios *glucagon* (fígado) e *adrenalina* (músculo e fígado) disparam a mesma lógica. Eles se ligam a receptores de membrana acoplados à proteína G, que ativam a *adenilato-ciclase*, que fabrica *#sigla("AMPc", [adenosina-monofosfato cíclico — segundo mensageiro intracelular gerado a partir do ATP])* a partir de ATP. O AMPc é o segundo mensageiro, e seu alvo é a *#sigla("PKA", [proteína-quinase A — enzima ativada pelo AMPc que fosforila alvos da cascata])*.
 
-As três convergem no mesmo alvo: o endotélio ativado, que perdeu o perfil antitrombótico e passou a expressar fator tecidual e fator de von Willebrand enquanto reduz óxido nítrico e ativador de plasminogênio. Controlar a glicemia atua antes disso, sobre a glicação que produziu a disfunção endotelial.
+A PKA ativa, então, dispara os dois efeitos casados. De um lado, ela fosforila e ativa a *fosforilase-quinase*, que por sua vez fosforila a glicogênio fosforilase, convertendo-a de *fosforilase b* (menos ativa) em *fosforilase a* (ativa) — a degradação liga. De outro lado, a mesma PKA fosforila a *glicogênio sintase*, inativando-a — a síntese desliga. Um hormônio, uma cascata, as duas vias ajustadas em sentidos opostos.
+
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-32.png",
+  largura: 66%,
+  legenda: [A cascata de ativação: hormônio → receptor acoplado à proteína G → adenilato-ciclase → AMPc → PKA → fosforilase-quinase → fosforilase a. Cada nível amplifica o sinal, e o mesmo AMPc que liga a quebra desliga a síntese.])
+
+A palavra-chave dessa arquitetura é *amplificação*. Cada etapa da cascata é uma enzima ativando muitas cópias da enzima seguinte, de modo que *uma* molécula de hormônio acaba liberando *milhões* de moléculas de glicose. É por isso que um susto libera açúcar no sangue quase instantaneamente.
+
+No músculo, soma-se a essa cascata hormonal uma camada *alostérica* afinada ao esforço. Durante o exercício, o AMP se acumula (sinal de que o ATP está sendo consumido) e ativa diretamente a fosforilase b, empurrando-a para o estado R (relaxado, ativo) — sem precisar de fosforilação. Já o ATP e a glicose-6-fosfato, sinais de fartura energética, empurram a enzima para o estado T (tenso, inativo). E há uma conexão engenhosa com a contração: o cálcio liberado para contrair o músculo também ativa a fosforilase-quinase (por meio de uma subunidade calmodulina), acoplando o próprio ato de contrair à mobilização do combustível.
+
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-28.png",
+  largura: 64%,
+  legenda: [Fosforilase muscular: o AMP (energia baixa) favorece o estado R ativo; ATP e glicose-6-fosfato favorecem o estado T inativo. A adrenalina, via fosforilação, converte b em a; o cálcio da contração ativa a fosforilase-quinase pela calmodulina.])
+
+#confusao-prevista(
+  titulo: "Fosforilase a e b, estado T e R: dois eixos diferentes",
+  aluno_acha: [aluno confunde o par a/b (modificação covalente) com o par T/R (alosteria), como se fossem a mesma coisa.],
+  mecanismo: [São dois controles independentes que convergem na mesma enzima. *a versus b* é sobre *fosforilação*: a fosforilase *a* está fosforilada (efeito do hormônio), a *b* está desfosforilada. *T versus R* é sobre *conformação alostérica*: T é tenso/inativo, R é relaxado/ativo. A fosforilase *a* tende ao estado R (ativa por padrão); a *b* tende ao T, mas o AMP pode empurrá-la para R no músculo em exercício. Ou seja: o hormônio age por a/b, o estado energético age por T/R, e os dois se somam.],
+)
+
+#mini-resumo[Glucagon (fígado) e adrenalina (músculo/fígado) acionam, pela proteína G, a adenilato-ciclase, que faz *AMPc*, que ativa a *PKA*. A PKA ativa a *fosforilase-quinase* (fosforilase b vira a, degradação liga) e inativa a *sintase* (síntese desliga). A cascata *amplifica* (um hormônio → milhões de glicoses). No músculo: AMP ativa (estado R), ATP/glicose-6-fosfato inibem (estado T); o Ca²⁺ da contração ativa a fosforilase-quinase.]
+
+#subtopico("3.3 — Desligar a máquina: insulina, PP1 e o sensor de glicose do fígado")
+
+Ligar a degradação é metade da história; saber *desligá-la* e voltar a estocar é a outra. Dois mecanismos apagam a cascata. Primeiro, a *fosfodiesterase* degrada o AMPc, convertendo-o em AMP comum: sem AMPc, a PKA volta ao repouso e para de fosforilar as enzimas. Segundo, e mais importante, a *insulina* — hormônio da fartura, liberado após a refeição — ativa a *#sigla("PP1", [proteína-fosfatase 1 — desfosforila as enzimas do glicogênio, revertendo a ação da PKA])*, que faz o serviço inverso da PKA: ela *desfosforila* as enzimas. Ao remover o fosfato, a PP1 converte a fosforilase a de volta em b (desliga a degradação) e converte a sintase de sua forma inativa para a ativa (liga a síntese). Novamente, um só agente, efeitos opostos casados — só que agora no sentido de armazenar.
+
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-36.png",
+  largura: 64%,
+  legenda: [O desligamento: a fosfodiesterase converte AMPc em AMP (encerra o sinal da PKA); a proteína-fosfatase 1 (PP1), estimulada pela insulina, desfosforila as enzimas — inativa a fosforilase e ativa a sintase, revertendo a célula para o modo de síntese.])
+
+Sobre a sintase, vale explicitar a simetria que fecha a lógica da PARTE III: a *glicogênio sintase a* (ativa) é a forma *desfosforilada*, e a *sintase b* (inativa) é a *fosforilada* — exatamente o inverso da fosforilase. Por isso a fosforilação tem "efeitos opostos" nas duas: o mesmo fosfato que acorda a fosforilase adormece a sintase, e a mesma PP1 que adormece a fosforilase acorda a sintase.
+
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-39.png",
+  largura: 62%,
+  legenda: [Regulação recíproca por fosforilação: na fosforilase, a forma fosforilada (a) é ativa; na sintase, a forma fosforilada (b) é inativa. O mesmo evento covalente liga a degradação e desliga a síntese — e a desfosforilação faz o contrário.])
+
+Falta o toque mais fino, que distingue o fígado do músculo e retoma o papel de "guardião da glicemia". No fígado, a *fosforilase a funciona como um sensor direto de glicose*. Quando a glicemia sobe, a glicose se liga à fosforilase a e a empurra para o estado T (inativo), o que expõe seu fosfato à PP1 — a fosforilase é então desfosforilada e desligada, *e* a PP1 liberada vai ativar a sintase. Assim, o próprio nível de glicose no sangue comanda o fígado a parar de quebrar e começar a estocar, sem precisar de intermediário. No músculo isso não acontece: a fosforilase muscular *não é sensível à glicose*, porque o músculo responde ao seu próprio estado energético (AMP), não à glicemia — afinal, não é ele que regula o açúcar do sangue.
+
+#figura-nebli("/figuras/bioq-24-glicogenio/slide-30.png",
+  largura: 62%,
+  legenda: [O fígado como sensor de glicemia: níveis altos de glicose deslocam a fosforilase a hepática do estado R para o T, expondo-a à desfosforilação pela PP1. A fosforilase muscular, ao contrário, responde ao AMP e não à glicose.])
+
+#clinica-box("Doenças de depósito de glicogênio", [
+As *glicogenoses* são doenças autossômicas recessivas em que falta uma das enzimas da via — e cada enzima ausente produz um quadro característico, de modo que reconhecer o defeito é reconstruir a via de trás para frente. O glicogênio acumulado cora fortemente pelo #termo-nota[PAS][ácido periódico de Schiff — coloração histológica que marca carboidratos, útil para identificar o glicogênio acumulado nas glicogenoses], o que ajuda a identificá-las na biópsia.
+
+Na *doença de von Gierke* (tipo I) falta a glicose-6-fosfatase hepática: como o fígado não libera glicose nem do glicogênio nem da gliconeogênese, há hipoglicemia grave de jejum e fígado muito aumentado; o excesso de glicose-6-fosfato é desviado, elevando *lactato*, *triglicérides* e *ácido úrico* (podendo causar gota secundária). Na *doença de Pompe* (tipo II) falta a maltase ácida lisossomal — a exceção que degrada glicogênio dentro do lisossomo, fora da regulação citosólica —, com acúmulo em coração e músculo que leva a cardiomegalia (miocardiopatia hipertrófica), hipotonia e fraqueza muscular. Na *doença de Cori* (tipo III) falta a enzima desramificadora: sobra glicogênio com galhos curtos (dextrina-limite); é uma forma mais branda que a de von Gierke, com lactato normal, porque a gliconeogênese continua funcional. Na *doença de Andersen* (tipo IV) falta a enzima ramificadora, gerando um glicogênio anormal, pouco ramificado. Na *doença de McArdle* (tipo V) falta a fosforilase muscular: intolerância ao exercício, cãibras e ausência da elevação normal de lactato no esforço, muitas vezes com urina escura por mioglobinúria (rabdomiólise) e o clássico "segundo fôlego" quando o fluxo sanguíneo ao músculo aumenta. Na *doença de Hers* (tipo VI) falta a fosforilase hepática: hipoglicemia de jejum mais leve e hepatomegalia — no fígado, o espelho do que McArdle é no músculo.
 ])
+
+#mini-resumo[Desligar a cascata: a *fosfodiesterase* degrada o AMPc; a *insulina* ativa a *PP1*, que desfosforila as enzimas — inativa a fosforilase, ativa a sintase (modo síntese). *Sintase a* = desfosforilada/ativa (inverso da fosforilase). No fígado, a *fosforilase a é sensor de glicose*: glicose alta → estado T → PP1 a desliga e libera a sintase. No músculo, não há esse sensor (responde a AMP). Faltas enzimáticas = doenças de depósito (von Gierke, Pompe, Cori, McArdle).]
 
 #conclusao-box[
-O princípio que atravessa o resumo: *diabetes é um defeito de sinal cujo produto — glicose intracelular alta e prolongada — é quimicamente reativo*. O restante é consequência dessa reatividade encontrando tecidos incapazes de se proteger dela.
+Chegamos ao princípio unificador: *o glicogênio é energia guardada de um jeito que pode ser sacada rápido e sob controle preciso*. Tudo o que estudamos serve a essa frase. A *forma ramificada* resolve o osmótico e cria as muitas pontas que permitem mobilização veloz. A *fosforólise* devolve a glicose já fosforilada, economizando ATP e prendendo o carbono na célula, enquanto a *desramificadora* resolve os galhos. A *síntese*, via separada, ativa a glicose como *UDP-glicose* e gasta 2 ATP para estocar — porque guardar energia é um investimento que vale a pena.
 
-O mecanismo nuclear é a glicação não-enzimática avançando em etapas de reversibilidade decrescente — base de Schiff em horas, produto de Amadori em dias, ligação cruzada irreversível em meses — e o eixo AGE–RAGE convertendo dano químico em programa inflamatório com retroalimentação positiva. A mesma distinção entre etapas reversíveis e irreversíveis explica por que a hemoglobina glicada mede controle e por que a lesão do diabetes tem memória.
+O mecanismo nuclear, que amarra a PARTE III, é a *reciprocidade por fosforilação*: um único evento covalente liga a degradação e desliga a síntese, e a desfosforilação faz o oposto — de modo que as duas vias nunca correm juntas. Em cima disso, os hormônios decidem o sentido (glucagon e adrenalina quebram; insulina estoca) e a alosteria afina pelo estado energético (AMP no músculo, glicose no fígado).
 
-Adoecem os tecidos que captam glicose sem depender de insulina e não conseguem fechar a porta quando a glicemia sobe — pericito, célula mesangial, endotélio, neurônio periférico, cristalino. Cada um tem uma assinatura de imagem que corresponde ao substrato descrito pelo patologista: o rim que aumenta antes de encolher, a erosão articular sem reação periosteal do Charcot, o edema de medular óssea da osteomielite, a calcificação coronariana medida em unidades Hounsfield, o parênquima hipoatenuante do infarto cerebral.
-
-Duas portas ficam abertas. A inflamação crônica e o reparo tecidual: o que a PARTE III chamou de auto-perpetuador é, no vocabulário da patologia, inflamação crônica com fibrose, e o pé que não cicatriza é reparo travado. E a trombose: a placa que rompe e o trombo que se forma sobre ela são hemostasia funcionando como deveria, no lugar errado.
+A clínica retomada mostra o custo de cada falha: von Gierke fecha a saída hepática, Pompe entope o lisossomo, Cori deixa galhos por resolver, McArdle trava o combustível do músculo. E a projeção para as próximas aulas é natural: a glicose-6-fosfato que aparece o tempo todo aqui é a mesma encruzilhada da glicólise, da gliconeogênese e da via das pentoses — o glicogênio é uma das portas desse centro, e entender essa porta é entender como o corpo equilibra estocar e gastar açúcar ao longo do dia.
 ]

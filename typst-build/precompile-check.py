@@ -1244,12 +1244,31 @@ def check_file(path):
 # Main
 # ============================================================
 
+def check_somente_e1(build_dir):
+    """Valida presença e composição, sem relaxar os checks de conteúdo da E1."""
+    errors = []
+    required = ("pre-aula.typ", "etapa1.typ", "resumindo.typ", "main.typ")
+    for name in required:
+        if not (build_dir / name).is_file():
+            errors.append(f"  x somente-E1: arquivo obrigatório ausente: {name}")
+    main_path = build_dir / "main.typ"
+    if main_path.is_file():
+        content = main_path.read_text(encoding="utf-8")
+        if re.search(r"(?:etapa[23]\.typ|#gabarito(?:-page|-bloco)?\b)", content):
+            errors.append("  x somente-E1: main.typ ainda inclui questões/gabarito do fluxo antigo.")
+        for name in required[:-1]:
+            if not re.search(r'#include\s+"' + re.escape(name) + '"', content):
+                errors.append(f"  x somente-E1: main.typ não inclui {name}.")
+    return errors
+
+
 def main():
     args = sys.argv[1:]
+    somente_e1 = "--somente-e1" in args
     strict = "--strict" in args
     no_template = "--no-template" in args
-    no_paridade = "--no-paridade" in args
-    no_e2_regras = "--no-e2-regras" in args
+    no_paridade = "--no-paridade" in args or somente_e1
+    no_e2_regras = "--no-e2-regras" in args or somente_e1
     # Escape documentado para REGERAR resumo historico anterior a 2026-08-28,
     # que nasceu sem a secao "Antes da aula". Nunca usar em resumo novo.
     legado = "--legado" in args
@@ -1261,7 +1280,7 @@ def main():
             slug_override = args[idx + 1]
             args = args[:idx] + args[idx+2:]
     args = [a for a in args if a not in ("--strict", "--no-template", "--no-paridade",
-                                        "--no-e2-regras", "--legado")]
+                                        "--no-e2-regras", "--legado", "--somente-e1")]
 
     cwd = Path.cwd()
 
@@ -1274,6 +1293,8 @@ def main():
     else:
         files = []
         for fname in EXPECTATIONS:
+            if somente_e1 and fname in ("etapa2.typ", "etapa3.typ"):
+                continue
             p = cwd / fname
             if p.exists():
                 files.append(p)
@@ -1313,6 +1334,12 @@ def main():
 
     all_errors = []
     all_warnings = []
+    if somente_e1:
+        all_errors.extend(check_somente_e1(cwd))
+        if args:
+            all_errors.append("  x --somente-e1 exige auditoria do build inteiro, sem lista parcial de arquivos.")
+        for error in all_errors:
+            print(error)
 
     if pre_aula_ausente:
         print("-> pre-aula.typ")

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "project_root": ".",
+  "state_path": "state/nebli.sqlite",
+  "device_target": "android_import",
+  "calendar": {
+    "spreadsheet_id": "1T1RZ_vpqtchmdM8U2BXYmlHk7e-Ov-iCGM51PFIEqMU",
+    "month_sheet": "Mês",
+    "subjects_sheet": "Matérias"
+  },
+  "drive": {
+    "output_root_folder_id": "198hAtMeeN9HfBa21Zu2gqcRnz5V5wpea",
+    "pilot_output_folder_id": "1JfJgEH9zEYxiDUkfff7RWvm3WJanN6H3"
+  }
+}

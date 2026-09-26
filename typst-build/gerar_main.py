@@ -42,6 +42,7 @@ Uso:
 """
 
 import argparse
+import re
 import sys
 from pathlib import Path
 
@@ -246,7 +247,10 @@ def render_pre_aula(build_dir: Path) -> str:
     return '\n// ======= ANTES DA AULA =======\n#include "pre-aula.typ"\n'
 
 
-def gerar_main(card_path: Path, out_path: Path):
+HEADER_SOMENTE_E1 = HEADER.split('// ======= ETAPA 2 =======')[0]
+
+
+def gerar_main(card_path: Path, out_path: Path, somente_e1=False):
     if yaml is None:
         print("x PyYAML nao instalado. Rode: pip install pyyaml --break-system-packages",
               file=sys.stderr)
@@ -263,12 +267,20 @@ def gerar_main(card_path: Path, out_path: Path):
     sumario = card.get("sumario", [])
     gabarito = card.get("gabarito", {})
 
+    if somente_e1 and re.search(r"(?:etapa\s*[23]|gabarito)", str(sumario), re.IGNORECASE):
+        raise ValueError("Tema Card somente-E1 ainda contém E2/E3/gabarito no sumário; ajustar o sumário.")
+
     capa_text = render_capa(titulo, subtitulo, meta)
     pre_aula_text = render_pre_aula(out_path.parent)
     sumario_text = render_sumario(sumario)
     sem_e2 = bool(card.get("sem_e2", False))
 
-    if sem_e2:
+    if somente_e1:
+        text = HEADER_SOMENTE_E1.format(
+            slug=slug, capa=capa_text, pre_aula=pre_aula_text,
+            sumario=sumario_text,
+        )
+    elif sem_e2:
         text = HEADER_SEM_E2.format(
             slug=slug,
             capa=capa_text,
@@ -284,6 +296,11 @@ def gerar_main(card_path: Path, out_path: Path):
             sumario=sumario_text,
             gabarito=gabarito_text,
         )
+    # Saída isolada não pode herdar o import relativo da pasta typst-build.
+    import os
+    template = Path(__file__).resolve().parent.parent / "typst-template" / "nebli_v2_apostila.typ"
+    template_relative = os.path.relpath(template, out_path.parent).replace("\\", "/")
+    text = text.replace("../typst-template/nebli_v2_apostila.typ", template_relative)
     out_path.write_text(text, encoding="utf-8")
     return len(text)
 
@@ -292,12 +309,13 @@ def main():
     parser = argparse.ArgumentParser(description="Gera main.typ a partir de Tema Card YAML")
     parser.add_argument("card", help="Caminho do Tema Card YAML")
     parser.add_argument("--out", default=None, help="Saida (default: typst-build/main.typ)")
+    parser.add_argument("--somente-e1", action="store_true", help="E1 + Resumindo, sem E2/E3/gabarito")
     args = parser.parse_args()
 
     card_path = Path(args.card)
     out_path = Path(args.out) if args.out else Path(__file__).resolve().parent / "main.typ"
 
-    n = gerar_main(card_path, out_path)
+    n = gerar_main(card_path, out_path, somente_e1=args.somente_e1)
     print(f"v {n} chars escritos em {out_path}")
 
 

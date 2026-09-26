@@ -1,0 +1,73 @@
+# Spec de cobertura E1 -> deck (bioq-24-glicogenio).
+# Cada subtópico da E1 lista os CONCEITOS que o deck tem de cobrir.
+# Cada conceito = lista de alternativas (PT ou EN); COBERTO se >=1 card casa >=1 alternativa.
+# Usado por verificar_cobertura_deck.py como GATE (falha se algum conceito LACUNA).
+
+"1.1 estrutura":
+  ligacao_alpha_1_4: ["α-(1,4", "α(1→4", "1,4 ) bonds"]
+  ligacao_alpha_1_6: ["α-(1,6", "α(1→6", "branching enzyme", "1,6"]
+  alpha_vs_beta: ["β(1→4", "cellulose", "celulose", "β-(1"]
+  ramificacao_frequencia: ["8-12", "8 a 12"]
+  extremidade_nao_redutora: ["não redutora", "non-reducing"]
+  glicogenina_ancora: ["glicogenina", "glycogenin"]
+
+"1.2 figado x musculo":
+  musculo_sem_g6pase: ["muscle cannot participate", "sem glicose-6-fosfatase", "lacks the enzyme"]
+  figado_g6pase: ["glucose-6-phosphatase", "glicose-6-fosfatase"]
+  percent_massa: ["10% da massa", "1-2%"]
+  ciclo_de_cori: ["ciclo de cori", "cori cycle"]
+
+"1.3 por que polimero":
+  razao_osmotica: ["osmót", "osmotic"]
+  mobilizacao_rapida: ["mobilização rápida", "muitas fosforilases", "many non-reducing"]
+
+"2.1 glicogenolise":
+  fosforolise: ["fosforólise", "phosphorolytic", "adds inorganic phosphate", "inorganic phosphate onto"]
+  produto_glicose_1_fosfato: ["glucose-1-phosphate", "glicose-1-fosfato"]
+  cofator_plp_b6: ["pyridoxal", "piridoxal", "vitamin b"]
+  para_antes_do_galho: ["four ] glucose", "4 glucose units", "quatro resíduos", "limit dextrin"]
+  desramificadora: ["debranching", "desramificadora", "glucanotransferase", "1,6-glucosidase"]
+  fosforilase_reguladora: ["rate-limiting enzyme for glycogenolysis", "reguladora e limitante da glicog"]
+
+"2.2 fosfoglicomutase e destino":
+  fosfoglicomutase: ["phosphoglucomutase", "fosfoglicomutase"]
+  g6pase_no_reticulo: ["endoplasmic", "retículo"]
+  musculo_para_glicolise: ["glycogenolysis ultimately produces", "entra na glicólise", "glicólise"]
+
+"2.3 glicogenese":
+  udp_glicose: ["udp-glucose", "udp-glicose"]
+  irreversibilidade_ppi: ["pirofosfato", "pyrophosph", "ppi"]
+  sintase_c4_primer: ["glycogen synthase catalyzes", "glicogênio sintase", "primer"]
+  glicogenina: ["glicogenina", "glycogenin"]
+  ramificadora: ["branching enzyme", "ramificadora"]
+  custo_2_atp: ["2 atp"]
+  sintase_reguladora: ["rate-limiting enzyme for glycogenesis"]
+
+"3.1 regulacao reciproca":
+  reciprocidade: ["efeitos opostos", "opostos", "ciclo fútil"]
+
+"3.2 cascata glucagon/adrenalina":
+  camp_pka: ["camp", "protein kinase a", "pka"]
+  fosforilase_quinase: ["fosforilase-quinase", "phosphorylase kinase"]
+  fosforilase_a_b: ["forma ativa da glicogênio fosforilase", "phosphorylase a "]
+  estado_t_r: ["estado t", "tenso", "tense", "relaxed"]
+  amp_ativa_musculo: ["amp}} (musc", "amp empurra", "positive feedback by [amp"]
+  atp_g6p_inibe: ["negative feedback by atp", "atp e glicose-6-fosfato favorecem"]
+  calcio_calmodulina: ["ca 2", "cálcio", "calmodul", "contraction are synchronized"]
+
+"3.3 insulina, PP1, sensor":
+  insulina_estoca: ["insulin decreases blood glucose", "insulina", "increased glycogenesis"]
+  pp1: ["pp1", "proteína-fosfatase 1", "protein phosphatase"]
+  fosfodiesterase: ["fosfodiesterase", "phosphodiesterase"]
+  sensor_glicose_figado: ["sensor de glicose", "glucose sensor"]
+  sintase_a_desfosforilada: ["dephosphorylation of glycogen synthase", "sintase a"]
+
+"CLIN glicogenoses":
+  von_gierke: ["von gierke"]
+  pompe: ["pompe"]
+  cori: ["cori disease", "cori }}", "cori"]
+  mcardle: ["mcardle"]
+  hers: ["hers"]
+  andersen: ["andersen"]
+  pas: ["pas", "periodic acid"]
+  heranca_ar: ["autosomal recessive", "autossômic"]

@@ -1,6 +1,6 @@
 # Acervos de referência — mapa de busca
 
-Inventário vivo em 23/09/2026, perfil Davi, após reorganização e novas importações. Fonte completa: `arquivos-trabalho/reinicio-uc-2026-09-23/catalogo-vivo.json`. Foram mapeados todos os modelos presentes por contagem/consulta, com zero cards sem modelo identificado; conteúdo e tags lidos por amostra, não auditoria científica integral. Descoberta dinâmica, sem depender do nome da pasta-pai.
+Inventário vivo em 23/09/2026, atualizado em 24/09/2026 (`arquivos-trabalho/lote-uc03p2-uc08p1-2026-09-24/catalogo.json`), perfil Davi, após reorganização e novas importações. Fonte completa: `arquivos-trabalho/reinicio-uc-2026-09-23/catalogo-vivo.json`. Foram mapeados todos os modelos presentes por contagem/consulta, com zero cards sem modelo identificado; conteúdo e tags lidos por amostra, não auditoria científica integral. Descoberta dinâmica, sem depender do nome da pasta-pai.
 
 ## O que está disponível
 
@@ -15,8 +15,10 @@ Todos os acervos externos abaixo estão em `Referências::Referências Externas:
 | Histology | 6.023 | Teoria/estrutura-função e figuras histológicas |
 | LLU Histology | 135 | Identificação histológica/prática e apoio sucinto |
 | University of Michigan - BlueLink Atlas | 2.992 | Reconhecimento anatômico/oclusão, alternativa visual ao AnKing |
+| AnatoKing (V2) | 3.493 | **Novo, 24/09.** Anatomia estilo AnKing (modelo `AnatoKingOverhaul V2`, tags `AnatoKing_v2::...`): relações, cadáver/ilustração. Buscar junto com Dope/BlueLink antes de autorar; conferir mídia faltante card a card |
+| USMLE Lab Values | 232 | **Novo, 24/09.** Valores laboratoriais (modelo `LabValue`, subdecks Normal Range/Practice). Só quando a aula cobra um valor de referência; não importar a tabela inteira |
 
-São **18.959 cards externos**, além do AnKing Step. Nenhum deles deve ser incluído por quantidade ou reputação; todo candidato passa por alvo, qualidade e modelo. Ter um acervo não demonstra cobertura de uma lacuna antes da busca.
+São **22.684 cards externos** (vistoria de 24/09/2026), além do AnKing Step (35.068, em `Referências::Anking Step Deck` — com "k" minúsculo; o filho `Instructions` usa "AnKing"). O deck `Ankisthesia` (anestesia) apareceu no topo, mas estava vazio na vistoria. Nenhum deles deve ser incluído por quantidade ou reputação; todo candidato passa por alvo, qualidade e modelo. Ter um acervo não demonstra cobertura de uma lacuna antes da busca.
 
 ## Novidade: AnKing-MCAT
 
@@ -44,11 +46,11 @@ Templates e campos completos estão no JSON, sem precisar carregar toda a coleç
 3. Se nada adequado, reformular fora da disciplina aparente. Procurar estrutura, relação, molécula ou contraste em outro sistema, sem importar assuntos laterais.
 4. Consultar os acervos adequados acima usando os caminhos da descoberta atual. Registrar consultas e candidatos rejeitados. Um resultado vazio não demonstra ausência no corpus.
 5. Antes da autoria, verificar se o verso ou um bom visual existente resolve; autoria só para lacuna importante real. Uma imagem de apoio pode enriquecer um card sem gerar outro card.
-6. Se os acervos atuais continuarem insuficientes, registrar o tipo de falta (por exemplo, peça/plano anatômico não representado) e orientar aquisição específica em tarefa separada. ComprehensiveCadaver, Netter Better, Foundations e Anatoking aparecem como ideias no Docs, mas **não foram encontrados como acervos instalados sob esses nomes**; não fingir busca neles nem baixar automaticamente.
+6. Se os acervos atuais continuarem insuficientes, registrar o tipo de falta (por exemplo, peça/plano anatômico não representado) e orientar aquisição específica em tarefa separada. ComprehensiveCadaver, Netter Better e Foundations aparecem como ideias no Docs, mas **não foram encontrados como acervos instalados sob esses nomes** (o AnatoKing foi instalado em 24/09); não fingir busca neles nem baixar automaticamente.
 
 Atualizar com `python -m nebli.preflight --catalog --output <pasta-da-execucao>/catalogo.json`. Toda importação/reorganização invalida caminhos/contagens anteriores; a descoberta inclui automaticamente novos filhos de Referências Externas.
 
-## Anatoking — candidato a aquisição, não instalado pela vistoria
+## Anatoking — instalado em 24/09/2026 (histórico da avaliação abaixo)
 
 Pesquisa de 24/09/2026 na [publicação do autor da V2](https://www.reddit.com/r/medicalschoolanki/comments/sgmmms/anatoking_v2_better_late_than_never/). A V2 foi anunciada com 3.493 cards, campos Cadaver/Illustration/Model/Imaging, relações musculares e estilo inspirado no AnKing. O autor também documenta cerca de 250 estruturas sem imagem testável e mídia faltante. São características daquela versão, não inspeção de pacote atual.
 

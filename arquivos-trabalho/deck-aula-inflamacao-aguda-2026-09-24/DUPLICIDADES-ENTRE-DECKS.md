@@ -1,0 +1,7 @@
+# Repetições entre decks NEBLI — auditoria de 24/09/2026
+
+`audit_duplicates.py` consultou a coleção viva, somente leitura: **462 notas em 7 decks** (UC03 e UC08). Comparou tags de identidade da fonte, perguntas textuais normalizadas entre decks e, especificamente para X2, semelhança textual aproximada com os demais. Resultado: **0 identidades de fonte repetidas**, **0 perguntas textuais idênticas entre decks**, **0 pares X2 × outros sinalizados pelo limiar de semelhança**. Dados reproduzíveis em `duplicate-audit.json`.
+
+Uma nota sobreposta **já existente** foi associada a X2 por tag, sem nova cópia: nota `1790190268740`, fonte AnKing `1487642726245`, deck físico `NEBLI::UC03::P2::Microbiologia::Fisiologia bacteriana`. Ela não é duplicidade física; poderá ser revisada ao estudar qualquer aula associada, conforme o fluxo de tags. X10, ainda por fazer, deve procurar primeiro as tags/cards X2, especialmente início, permeabilidade, recrutamento e resolução.
+
+Este teste encontra cópias com a mesma identidade e perguntas iguais ou muito parecidas na redação. **Não prova ausência de redundância conceitual** entre paráfrases diferentes, nem compara todas as respostas/imagens. Cada aula futura precisa inspecionar pares sobrepostos por conceito e manter duas frentes só quando testarem relações ou imagens realmente diferentes. Se a mesma pergunta já estiver em outro deck e pertencer às duas aulas, associar a nota existente; preservar histórico, agendamento, bandeiras e suspensões.

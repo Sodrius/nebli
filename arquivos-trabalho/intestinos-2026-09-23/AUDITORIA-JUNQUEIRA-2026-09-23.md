@@ -1,0 +1,51 @@
+﻿# Auditoria de conteúdo — Intestinos (23/09/2026)
+
+**Veredito:** a entrega de 37 notas/41 cards está tecnicamente íntegra, mas **não cobre bem a aula**. A seleção privilegiou detalhes de esquemas de renovação epitelial e imunidade, enquanto deixou fraca a leitura de lâminas e a organização histológica que o roteiro docente explicitamente exige. Portanto, a entrega publicada é uma versão preliminar, não um deck aprovado de conteúdo.
+
+Esta é uma auditoria somente de leitura do Anki/Drive. Nenhum card ou arquivo remoto foi alterado nesta revisão.
+
+## Fontes e autoridade
+
+1. [Roteiro das aulas práticas da Profa. Patrícia Gama](https://drive.google.com/file/d/1LSjFV2kIoC3FwUo9u7pRMooUyhA70V3R/view): **omitido na curadoria anterior**. Ele traz objetivos de reconhecer as quatro túnicas e relacionar estrutura/função; caracterizar segmentos; descrever o vilo; reconhecer células absortivas; caracterizar intestino grosso. Na prática, pede leitura do jejuno em HE (vilos, células caliciformes, criptas contínuas aos vilos, células em divisão e demais camadas), do cólon em HE (criptas retas, numerosas caliciformes, camadas) e comparação com duodeno e íleo.
+2. [Slides da aula, 36 páginas](https://drive.google.com/file/d/1RSAOynVb4CfC1FqItxkU7KvxCl-DRc1r/view): definem o material mostrado; suas figuras, isoladamente, não tornam todo rótulo uma obrigação de recuperação ativa.
+3. **Junqueira e Carneiro**: o roteiro indica *Histologia Básica*, 13ª (2017) ou 14ª (2023). A [editora da 14ª edição](https://www.grupogen.com.br/e-book-histologia-basica-texto-e-atlas-junqueira-e-jose-carneiro-guanabara-koogan-9788527739283) confirma edição e capítulo 15, Sistema Digestório. O capítulo integral dessas edições **não foi acessado**. Conferi a [abertura do capítulo correspondente da edição inglesa 17](https://accessmedicine.mhmedical.com/content.aspx?bookid=3390&sectionid=281540765), que descreve quatro túnicas e os componentes da mucosa. Não equivale a citar páginas da edição brasileira.
+4. [Histology Guide, atlas de tubo digestivo](https://histologyguide.com/gallery/14-gastrointestinal-tract.html), indicado no roteiro: fornece [lâmina de intestino delgado](https://histologyguide.com/slideview/MH-118-small-intestine/14-slide-1.html), [jejuno](https://histologyguide.com/search.html), [cólon](https://histologyguide.com/slideview/MHS-282-colon/14-slide-1.html) e [atlas explicativo](https://histologyguide.com/about-us/sorenson-atlas-of-human-histology-chapter-14.pdf).
+
+A bibliografia principal é, portanto, Junqueira, mas a curadoria anterior **não foi predominantemente baseada nele**: usou slides, acervo AnKing e uma apostila de apoio sem consultar o texto integral. Também não foi feita pesquisa externa substantiva antes da entrega; ela ocorreu nesta auditoria. Não há justificativa para chamar o material anterior de “Junqueira predominante”.
+
+## Matriz de cobertura do deck atual
+
+| Alvo da aula/roteiro | Evidência atual | Avaliação |
+|---|---|---|
+| Quatro túnicas, três componentes da mucosa e limites entre camadas | Uma frente autoral sobre plica × vilo; imagens de órgão inteiro | **Lacuna central.** Faltam recuperação das camadas e localização visual no HE. |
+| Estrutura/função das camadas | Brunner/HCO3-, absorção isolada | **Parcial.** Falta relacionar epitélio, lâmina própria/vasos/quilífero, muscular da mucosa, submucosa e muscular externa no corte. Sem expandir para fisiologia geral. |
+| Jejuno HE: vilo, epitélio, caliciforme, cripta, continuidade vilo–cripta, proliferação | Cards textuais e um LLU genérico de intestino delgado; **nenhum visual de jejuno** | **Lacuna principal.** O roteiro usa jejuno como lâmina prática central. |
+| Células epiteliais: absorção, muco, Paneth e localização | Vários cards de nomes/produtos; pouca identificação em imagem | **Parcial e mal distribuído.** É mais útil reconhecer enterócito/calicíforme no vilo, Paneth na base da cripta e associar função. |
+| Cólon HE: superfície sem vilos, criptas retas, muitas caliciformes, camadas | Duas frentes AnKing e um LLU de órgão inteiro | **Parcial.** Falta localizar cripta/célula/camadas e contrastar com jejuno em HE. |
+| Duodeno × jejuno × íleo | AnKing para glândulas de Brunner/plicas/placas de Peyer e LLU duodeno/íleo | **Razoável conceitualmente, fraco visualmente.** Plicas favorecem jejuno, mas não são exclusivas; prática pede comparação, não diagnóstico por um único sinal. |
+| Renovação do epitélio e eixo cripta–vilo | Muitos autorais, de migração a listas moleculares | **Excesso de detalhe frente à prática.** A posição proliferativa e migração são pertinentes; listas de marcadores/sinais ocupam espaço desproporcional. |
+| Imunidade da mucosa e nicho colônico experimental | Peyer, M, IgA, DCS, ILC2 | **Desproporcional.** Reconhecer placa de Peyer no íleo é pertinente; cascata de IgA e IL-13/DCS não são alvo formal da lâmina. |
+
+## Julgamento dos 41 cards atuais
+
+**Manter como base (12 AnKing + 2 visuais + 2 autorais; conferir imagem e verso):** epitélio colunar simples `1486608749626`; vilos/microvilos `1486608754106`; criptas `1486608758394`; células-tronco nas criptas `1486608763486`; Paneth/antimicrobianos `1486608768857`; Brunner na submucosa `1486608774946`; jejuno/plicas `1486608782562` (com ressalva de não exclusividade); íleo/Peyer `1486608789738`; cólon sem vilos `1486608805821`; cólon/calicíformes `1486608813182`; quilífero central `1482115575316`; Brunner/HCO3- `1486608779650` **apenas após limpar/verificar o Extra**, que atribui CCK e secretina às glândulas de Brunner; LLU duodeno `1668632250119` e íleo `1668632387853`; autorais plica/vilo e migração cripta→vilo. O AnKing de quilífero já liga absorção a estrutura, mas precisa de identificação visual do centro do vilo.
+
+**Reavaliar, condensar ou usar no verso/guia (7 AnKing + 1 LLU + 10 cards autorais):** íleo com mais caliciformes `1486608796832`; localização de Peyer `1486831445995` (2 cards, redundante com íleo/Peyer); M cells `1486831448616` (o texto “present antigens” é impreciso: [Histology Guide](https://histologyguide.com/EM-view/EM-054-m-cell/14-photo-1.html) descreve transporte a células imunes/apresentadoras); SGLT1 `1482115445612`; lactase `1474164981030` (2 cards); LLU genérico `1668633014837` (o Extra “goblet cells are a feature of lower intestinal tract” é vago); autorais TA, Wnt/BMP, linhagem absortiva/secretora (2), MUC2, enzimas/vilina (2), enteroendócrinas/hormônios, Ki67, TUNEL. Manter uma pergunta focal de renovação/proliferação e uma de função absortiva se os slides a tornam necessária; não exigir listas bioquímicas para reconhecer tecido. O LLU genérico pode ser substituído por visual de jejuno que cobre componentes.
+
+**Retirar da seleção da aula, preservando originais e histórico (1 AnKing + 6 autorais):** Peyer→IgA `1486831451445` (imunologia além do reconhecimento histológico); CBC Lgr5/Ascl2/Olfm4; célula +4 Bmi1/Hopx/Tert; Paneth→Lgr5+ (o Extra do AnKing de Paneth já explica proteção do nicho); DCS colônico; ILC2→IL-13. Esses detalhes aparecem em esquemas, mas não respondem ao que o roteiro prático pede reconhecer nem justificam frentes próprias agora. No máximo, ficam como contextualização curta do slide no guia.
+
+**A contagem acima é por cards, não notas.** A categoria intermediária depende de rever cada imagem/Extra e de não perder as poucas relações funcionais realmente ensinadas. Não executar exclusão automática a partir desta lista.
+
+## Correção concreta para a próxima execução
+
+1. Construir novo mapa de escopo começando pelos objetivos do roteiro e por cada lâmina HE; usar os slides para delimitar profundidade. A ordem de estudo e de cobertura deve ser: parede intestinal → jejuno/vilo/cripta/células → cólon e contraste → duodeno/íleo como identificação complementar → renovação epitelial no nível necessário.
+2. Recuperar **AnKing existente, omitido na busca anterior**: `1482021549752` (três partes da mucosa, 3 clozes), `1482021556058` (submucosa), `1482021561377` (muscular externa). Avaliar também `1482021594676` (plexo de Meissner, somente se a identificação da submucosa o justificar). O acervo acessível já contém essas perguntas; não autorar equivalentes.
+3. Criar ou selecionar identificação visual focal, começando pela lâmina de **jejuno** da p. 25 e atlas indicado: apontar vilo, cripta, epitélio, célula caliciforme, lâmina própria, muscular da mucosa e submucosa; reconhecer continuidade vilo–cripta. Em cólon, apontar criptas retas, caliciformes e ausência de vilos; em corte panorâmico, separar as camadas. Cada imagem deve ter teste de legibilidade e resposta inequívoca, sem copiar gabarito contraditório da p. 29.
+4. Pesquisar AnKing/LLU para essas identificações em mais de uma formulação. Só criar autoral curto quando a lacuna visual ou relacional persistir. Exemplo de alvo que realmente agrega: “Which mucosal component forms the core of an intestinal villus?” → “Lamina propria”; “Where do intestinal crypts extend?” → “Into the lamina propria, between villi” — sempre conferir a imagem e evitar pergunta de lista extensa.
+5. Revalidar função de cada camada e célula **apenas no nível desta aula**. Absorção de água/solutos, muco, secreção de Paneth e proliferação merecem ligação à morfologia. SGLT1, digestão detalhada, imunologia adaptativa e nicho experimental ficam como ponte ou contexto se não forem cobrados.
+6. Fazer nova matriz objetivo→frente/verso/imagem, provar que jejuno e cólon estão cobertos antes de exportar, conferir duplicatas/histórico, fazer backup e só então atualizar Anki/APKG/E1/Drive em pedido de execução. Não há cota de cards nem meta de proporção autoral: a predominância do Junqueira deve ser **de critério e recorte**, comprovada por referência verificável, não uma porcentagem de notas.
+
+## Corrigendas aos documentos da primeira corrida
+
+`MAPA-ESCOPO.md` e `APRENDIZADOS-INTESTINOS.md` afirmaram que não havia roteiro. Isso está errado. Também classificaram como *taught* e fizeram recall de marcadores CBC/+4, DCS e ILC2 apenas porque constavam em figuras. A entrega inicial informou corretamente a integridade técnica do APKG, mas confundiu quantidade de termos cobertos com cobertura dos objetivos histológicos. Este relatório preserva o histórico da primeira execução e registra a correção sem sobrescrevê-la.
+

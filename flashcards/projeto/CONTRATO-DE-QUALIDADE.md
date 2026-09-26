@@ -1,12 +1,6 @@
-# Deck pronto para estudar — contrato de qualidade
+# E1 + cards prontos para estudar — contrato de qualidade
 
-23/09/2026. Complementa [README.md](README.md), [CALIBRACAO-DECK-AULA-V3.md](CALIBRACAO-DECK-AULA-V3.md) e [EXECUCAO-DECK-AULA.md](EXECUCAO-DECK-AULA.md). Governa a seleção e o fechamento de novas execuções; não certifica retroativamente os decks existentes.
-
-## Objetivo explicitamente reafirmado
-
-Davi quer receber um deck em que possa confiar e dedicar o tempo a estudar. A curadoria precisa combinar **o que há na aula, o que daquele assunto importa para Step 1 e o que ajuda a compreender profundamente e conservar conhecimento médico útil**. Procurar, montar e verificar os cards é responsabilidade do executor. Feedback do aluno melhora a calibração; não substitui a auditoria anterior à entrega.
-
-As 30 respostas foram recebidas e estão consolidadas em [CALIBRACAO-ESCALA-V4.md](CALIBRACAO-ESCALA-V4.md), que prevalece em conflitos. Seleção AnKing ampla pré-prova não deve ser reduzida ao mínimo sob pretexto de economia; manutenção pós-prova é outra decisão.
+Revisão consolidada 25/09/2026. Política única em README.md; regressões em FEEDBACKS.md; retenção em BANDEIRAS-E-PROGRESSAO.md. Davi quer estudar com confiança, sem assumir a função de curador. As verificações são responsabilidade do executor. Não certificam retroativamente a coleção.
 
 ## Três perspectivas sobre o mesmo assunto
 
@@ -18,7 +12,7 @@ As 30 respostas foram recebidas e estão consolidadas em [CALIBRACAO-ESCALA-V4.m
 
 São dimensões da auditoria, não três decks, cotas ou rótulos de prioridade nos cards. Uma pergunta pode atender às três. Não somar percentuais ou contar o mesmo card três vezes.
 
-**Interpretação operacional do pedido atual:** a aula delimita o assunto; o slide não é um teto absoluto para a profundidade daquele conceito. Um complemento diretamente ligado ao conceito pode entrar mesmo sem a formulação literal no slide. A exigência anterior de que toda aplicação fosse mencionada pelo professor deixa de ser uma condição universal; permanece o filtro forte contra clínica lateral e antecipação de blocos futuros.
+**Interpretação operacional do pedido atual:** a aula delimita o assunto **e os alvos** (F-C15). O slide não é teto para *explicar* um alvo que a aula trouxe: o mecanismo por trás de uma figura mostrada, ou o que muito provavelmente foi dito, pode entrar mesmo sem a formulação literal no slide. Fato adjacente de Step 1/livro que a aula não trouxe (toxicidade, espectro, inverso, doença lateral) sai — não vira azul nem subdeck. Permanece o filtro forte contra clínica lateral e antecipação de blocos futuros.
 
 Para incluir um complemento, registrar fora do card:
 
@@ -45,7 +39,7 @@ AnKing-first continua sendo a ordem de busca. Autoria continua excepcional: comp
 - Verificar cada pergunta e cada cloze selecionado, incluindo os irmãos de notas compartilhadas.
 - Para lacunas importantes, reformular buscas e consultar os acervos adequados antes de autorar. Resultado vazio ou excesso de falsos positivos é motivo para revisar a busca.
 - Conteúdo suficiente no verso conta para aprender. Se o objetivo é identificar, distinguir ou responder sem ajuda, comprovar também a pergunta/imagem de recuperação correspondente.
-- Até a prova, admitir alguma repetição entre bons AnKing do mesmo assunto, conforme Q1. Direções inversas exigem ganho específico (Q8). Bons candidatos pós-prova, inclusive variantes visuais, recebem rosa desde a criação. O normal é manter ativo; Davi decide se suspende. Não transformar julgamento de redundância em corte silencioso.
+- Não incluir duas recuperações equivalentes da mesma informação. Comparar alvo, resposta e habilidade em toda a seleção e nos compartilhados, inclusive autoral vs AnKing. Par mantido exige ganho explícito de direção, contraste ou reconhecimento; outra redação ou tag diferente não bastam. Registrar exclusões, sem remover silenciosamente cards já existentes/revisados.
 - Revisar todos os autorais quanto a foco, precisão, tamanho, aparência, imagem útil e ausência de comentários de curadoria no verso. Quantidade alta motiva reexaminar busca e escopo, sem cota percentual.
 
 ### Precisão e apresentação
@@ -61,8 +55,15 @@ AnKing-first continua sendo a ordem de busca. Autoria continua excepcional: comp
 - Conferir a seleção visível ao estudante, incluindo cards compartilhados: associar a nota por tag não prova que só os clozes pertinentes aparecem.
 - Preservar identidade, histórico, comentários, marcas pessoais e originais. Reexecutar a aula deve atualizar a mesma seleção, sem duplicar revisões.
 - Separar verificação técnica e revisão de conteúdo. Uma contagem correta, ausência de erro no script ou APKG válido não certificam o conteúdo.
-- Publicar um APKG comprimido da UC inteira na pasta privada da UC, sem bandeiras no arquivo e sem alterar flags vivas; atualizar o mesmo file_id a cada aula. Seguir PUBLICACAO-POR-UC.md, verificar IDs únicos/compartilhados/mídia, destino/nome/tamanho/permissão. E1 e guia ficam por aula. Não restaurar cards apagados a partir de artefatos históricos.
+- E1 e guia por aula; APKG comprimido da UC inteira, sem bandeiras no arquivo e sem alterar flags vivas. Seguir PUBLICACAO-POR-UC.md. Upload APKG continua pausado; se reautorizado, atualizar o mesmo file_id com readback de destino/nome/tamanho/permissão. Verificar IDs únicos/compartilhados/mídia. Não restaurar cards apagados de artefatos antigos.
 - Corrigir problemas identificados pelo próprio executor antes de pedir feedback. Não transferir ao aluno uma checagem card por card como rotina de aceitação.
+
+### E1, autoria e retenção — aceite separado
+- E1 explicativa efetivamente revisada (ou boa existente conferida), segundo didatica/E1.md: mecanismos corretos, encadeamento, termos definidos, imagens que ensinam e economia sem perda de profundidade. Não substituir por guia nem reativar E2/E3.
+- Uma matriz de objetivos atende E1 e cards: indicar seção explicativa e card/cloze/verso; não impor bijeção de frase e card. Revisar lacunas **e excessos**.
+- Cada autoral identifica a lacuna relevante, duas rotas AnKing distintas, externos adequados realmente buscados e candidatos recusados com motivo. Coleção inacessível não equivale a resultado zero. Alta autoria pede segunda auditoria de busca/escopo. Registro burocrático sozinho não prova boa busca.
+- Classificar cada novo card após qualidade/deduplicação: verde, azul ou incerteza fundamentada, preservando feedback/marcas pessoais. HY literal não é condição. Registrar utilidade futura e relação com currículo/Step quando pertinente, sem inventar estatística.
+- Média aproximada de 50 verdes/aula orienta calibração do lote, não aprovação automática, mínimo ou teto. Contar também a união de IDs para não inflar manutenção com compartilhados.
 
 ## Fechamento obrigatório por execução
 
@@ -81,7 +82,10 @@ Alvo | origem (aula/Step/compreensão; pode ser múltipla)
 Revisão do recorte: resultado, evidência e exceções
 Revisão Step do mesmo assunto: resultado, candidatos incluídos/excluídos e motivo
 Revisão dos mecanismos/contrastes/identificação: resultado e evidência
-Revisão de excessos e redundância: resultado e decisões
+Revisão de excessos e redundância: pares comparados, ganhos e decisões
+E1: seções, precisão, didática, figuras, PDF/limitações
+Autoria: lacuna → buscas/candidatos recusados → alvo da nova pergunta
+Retenção: verde/azul/incerto → motivo; média do lote e união de IDs
 Revisão de autorais, versos, imagens e nomenclatura: resultado e correções
 Seleção acessível, identidade, histórico, mídia e APKG: referência ao recibo
 
@@ -90,7 +94,8 @@ Estado técnico: verificado / parcial / não verificado
 Estado de acesso: Anki local / sincronização confirmada ou não testada
 Pendências que afetam o estudo:
 Contabilidade: notas, cards únicos, novos/reutilizados/compartilhados,
-             origens, autorais, verdes, vermelhos, laranjas, rosas e suspensos
+             origens reais, autorais, verdes, azuis, incertos,
+             marcas de feedback/pessoais e suspensos
 ```
 
 Não usar campos genéricos “OK” sem evidência. Uma fonte importante indisponível, lacuna relevante ou contradição não resolvida mantém o conteúdo parcial. Não inventar porcentagem de cobertura curricular Step 1 por contagem de tags HY. Não prometer domínio, ausência absoluta de erro ou sucesso na prova.
@@ -105,4 +110,4 @@ Na conversa, mostrar apenas o necessário: onde estudar, o que a seleção cobre
 
 Após a limpeza manual, os recibos antigos são históricos, não evidência de cards presentes. Reconciliar pendências por identidade viva; não recriar card apagado para resolver comentário antigo.
 
-O comando genérico completo permanece em implementação. Este contrato torna o fluxo assistido verificável; sua existência não significa que os cinco decks anteriores já passaram por ele.
+O comando genérico completo permanece em implementação. Este contrato torna o fluxo assistido verificável; sua existência não significa que as aulas já instaladas passaram pela revisão atual.

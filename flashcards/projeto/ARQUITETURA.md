@@ -1,6 +1,6 @@
 # NEBLI Decks — arquitetura v2
 
-> Atualização 23/09/2026: [CALIBRACAO-ESCALA-V4.md](CALIBRACAO-ESCALA-V4.md) prevalece sobre este plano histórico. Seleção ampla pré-prova e manutenção menor pós-prova são fases distintas; suspensão só após proposta confirmada. E1 explicativa + guia + Anki + APKG privado são a entrega atual. Operação assistida em [OPERACAO-CODEX-CLAUDE.md](OPERACAO-CODEX-CLAUDE.md); não confundir roadmap com funcionalidades testadas.
+> **Plano histórico de arquitetura, não regra de produção.** Política atual em [README.md](README.md), incluindo E1 + cards, não redundância sem ganho e retenção verde/azul/incerto. Regras antigas de cor, volume ou entrega neste plano não prevalecem. Use [OPERACAO-CODEX-CLAUDE.md](OPERACAO-CODEX-CLAUDE.md) para o estado implementado; upload APKG pausado.
 
 Estado: especificação do produto futuro, não implementação concluída. Para executar uma aula hoje, usar [EXECUCAO-DECK-AULA.md](EXECUCAO-DECK-AULA.md). Preferências em [README.md](README.md); construção do comando genérico em [IMPLEMENTACAO.md](IMPLEMENTACAO.md).
 

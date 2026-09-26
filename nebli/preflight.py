@@ -4,17 +4,20 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
+import re
 import shutil
 import urllib.request
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
+from nebli.rotulos import canonical
+
 READ_ACTIONS = frozenset({
     "version", "getActiveProfile", "deckNames", "findCards", "cardsInfo",
     "notesInfo", "modelFieldNames", "modelTemplates", "modelNames",
 })
-FLAGS = {1: "melhorar", 2: "comentario_pendente", 3: "high_yield", 5: "candidato_suspensao_pos_prova"}
+FLAGS = {0: "avaliacao_incerta", 1: "melhorar", 2: "comentario_pendente", 3: "recomendo_manter_longo_prazo", 4: "aprender_menor_custo_de_esquecer", 5: "rosa_legado_ou_pessoal"}
 CORPORA = {
     "AnKing Step Deck": "mecanismos, relações e Step pertinente",
     "Referências Externas::Dope Anatomy": "relações anatômicas e pranchas",
@@ -62,7 +65,7 @@ def discover_corpora(decks):
                 name = parts[pos + 1]
                 found[root] = CORPORA.get("Referências Externas::" + name,
                     "acervo externo: classificar adequação antes de selecionar")
-        elif parts[-1] == "AnKing Step Deck":
+        elif parts[-1].casefold() == "anking step deck":
             found[deck] = CORPORA["AnKing Step Deck"]
     return dict(sorted(found.items(), key=lambda item: ("Referências Externas" in item[0], item[0])))
 
@@ -118,7 +121,10 @@ def collect(call, catalog=False):
             entry["model_inventory_complete"] = covered == set(ids)
             entry["unmapped_cards"] = len(set(ids) - covered)
         report["corpora"].append(entry)
-    medical_ids = call("findCards", query='deck:NEBLI::UC*')
+    # Nome vivo pode trazer o total de cards ("UC03 (1161)"); casar pelo canônico.
+    uc_decks = [d for d in decks if re.fullmatch(r"NEBLI::UC[^:]*", canonical(d))]
+    medical_query = "(" + " or ".join(deck_query(d) for d in uc_decks) + ")" if uc_decks else None
+    medical_ids = call("findCards", query=medical_query) if medical_query else []
     cards = [c for batch in chunks(medical_ids) for c in call("cardsInfo", cards=batch)]
     notes = sorted({c["note"] for c in cards})
     comments = []
@@ -131,12 +137,13 @@ def collect(call, catalog=False):
     # pelo mecanismo de busca; ausência de campo jamais significa flag zero.
     medical_set = set(medical_ids)
     flag_ids = {str(flag): sorted(medical_set.intersection(call(
-        "findCards", query=f'deck:NEBLI::UC* flag:{flag}'))) for flag in range(8)}
+        "findCards", query=f"{medical_query} flag:{flag}") if medical_query else []))
+        for flag in range(8)}
     if set().union(*(set(ids) for ids in flag_ids.values())) != medical_set:
         report["errors"].append("Cards sem bandeira determinada; coleção pode ter mudado durante leitura.")
     report["medical"] = {
         "cards": len(cards), "notes": len(notes),
-        "by_deck": dict(Counter(c["deckName"] for c in cards)),
+        "by_deck": dict(Counter(canonical(c["deckName"]) for c in cards)),
         "flags": {flag: len(ids) for flag, ids in flag_ids.items()},
         "suspended": sum(c.get("queue") == -1 for c in cards),
         "never_reviewed": sum(c.get("reps", 0) == 0 for c in cards),

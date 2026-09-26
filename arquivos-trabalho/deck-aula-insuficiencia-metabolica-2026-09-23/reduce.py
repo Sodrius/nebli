@@ -1,0 +1,24 @@
+import json,sys,collections
+sys.stdout.reconfigure(encoding='utf-8')
+plan=json.load(open('plan.json',encoding='utf-8'))
+DROP={1462327363797,1475203898709,1475203888674,
+ 1472435688940,1472435698856,1462809460228,1462128178981,1474164969397,1475982732554,1462128243453,
+ 1487986277978,1462326105448,1462326951145,1488680175770,1552217717563,1584129194060,
+ 1484603671017,1474165370026,1471819186977,1471819183136,1462327481691,
+ 1462327211125,1462849133349,1555720902040,
+ 1472435673376,1472435681635,1462131701878,1462809734046,1524013366997,
+ 1474164736251,1474164568985,1474922409905,1462809626737,1462327389480,1482021936009,
+ 1476154095169,1475982812947,1476154069517,1476154207990,
+ 1475028551112,1462128367235,1461866979051,1462128153992,1574168422150,1474763665591,1462123239655}
+ADD={1462913162803,1462849248763,1462913773816,1462849394748,1462849107376,1462849196492,1502564625891}
+core=[];rest=[]
+for e in plan['entries']:
+    nid=e['source_nid']
+    incore=(e['scope']=='roteiro' and not e['rosa'] and nid not in DROP) or nid in ADD
+    (core if incore else rest).append(e)
+missing=ADD-{e['source_nid'] for e in core}
+assert not missing, missing
+n=lambda L:sum(e['expected_cards'] for e in L)
+print('core notes',len(core),'cards',n(core),'| rest',len(rest),n(rest))
+print(collections.Counter(e['objective'] for e in core for _ in range(e['expected_cards'])))
+json.dump({'core_keys':[e['key'] for e in core],'rest_keys':[e['key'] for e in rest]},open('reduction.json','w',encoding='utf-8'),indent=1)

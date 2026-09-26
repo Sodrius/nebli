@@ -1,6 +1,6 @@
 # NEBLI Decks — plano de implementação v2
 
-> Atualização 23/09/2026: [CALIBRACAO-ESCALA-V4.md](CALIBRACAO-ESCALA-V4.md) prevalece sobre este plano histórico. Seleção ampla pré-prova e manutenção menor pós-prova são fases distintas; suspensão só após proposta confirmada. E1 explicativa + guia + Anki + APKG privado são a entrega atual. Operação assistida em [OPERACAO-CODEX-CLAUDE.md](OPERACAO-CODEX-CLAUDE.md); não confundir roadmap com funcionalidades testadas.
+> **Roadmap histórico, não regra de produção.** Política vigente em [README.md](README.md): E1 + cards, deduplicação por recuperação e bandeiras por retenção. Os itens abaixo precisam ser reconciliados com essa política antes de implementação. Estado atual em OPERACAO-CODEX-CLAUDE.md e MEMORY; upload APKG pausado. Não confundir proposta com funcionalidade validada.
 
 Este arquivo é o roadmap de software do comando genérico, não o procedimento de curadoria de cada aula. Para gerar um deck hoje, use [EXECUCAO-DECK-AULA.md](EXECUCAO-DECK-AULA.md). Ao programar a automação, leia [README.md](README.md) e [ARQUITETURA.md](ARQUITETURA.md). O formato dos pilotos está aprovado; melhorar integração sem refazer a experiência.
 

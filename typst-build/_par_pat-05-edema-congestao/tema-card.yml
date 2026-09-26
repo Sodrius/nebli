@@ -1,0 +1,25 @@
+slug: pat-05-edema-congestao
+titulo: "Edema e congestão"
+subtitulo: "Patologia"
+meta:
+  - ["Disciplina", "Patologia"]
+  - ["Onde estudar", "Slides da aula (Prof. Luiz Fernando Ferraz da Silva) · Robbins & Cotran, Patologia — capítulo de Distúrbios hemodinâmicos, seções de edema e congestão"]
+
+sumario:
+  - titulo: "Texto didático"
+    blocos:
+      - titulo: "PARTE I — O balanço que mantém o líquido no lugar"
+        subtopicos:
+          - "1.1 Edema, hiperemia e congestão"
+          - "1.2 As forças de Starling e o dreno linfático"
+          - "1.3 Transudato, exsudato e o nome das coleções"
+      - titulo: "PARTE II — As maneiras de romper o balanço"
+        subtopicos:
+          - "2.1 Pressão hidrostática e insuficiência cardíaca"
+          - "2.2 Pressão oncótica baixa e retenção de sódio"
+          - "2.3 Linfa obstruída e parede permeável"
+      - titulo: "PARTE III — O que o patologista vê"
+        subtopicos:
+          - "3.1 A morfologia do edema e da congestão"
+          - "3.2 O fígado: noz-moscada e a ascite da cirrose"
+          - "3.3 O pulmão: edema hemodinâmico e dano alveolar difuso"

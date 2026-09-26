@@ -10,7 +10,8 @@ Modos disponíveis:
                       → envia email → dessuspende + remove flag. Sempre sob demanda.
   --suspender-vermelhos  suspende imediatamente todos os cards flag:1 sem email. Uso:
                       durante o estudo, antes de rodar --bandeira depois.
-  --laranja           [DESCONTINUADO — Davi não usa mais bandeira laranja]
+  --laranja           [DESCONTINUADO — laranja hoje significa "algo aqui pode mudar",
+                       com comentário de Davi; ver flashcards/projeto/README.md § Bandeiras]
 
 Roda NO PC (fala com AnkiConnect em localhost). Puxa os cards, chama a API Claude
 pra redigir as explicações, e envia por Gmail SMTP para dpbdes@gmail.com.

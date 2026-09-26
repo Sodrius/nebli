@@ -1,0 +1,60 @@
+slug: bioq-24-glicogenio
+titulo: "Metabolismo do glicogênio"
+subtitulo: "Bioquímica · Síntese, degradação e regulação"
+meta:
+  - ["Disciplina", "Bioquímica"]
+  - ["Onde estudar", "Lehninger Cap. 15 + slides do prof."]
+
+sumario:
+  - titulo: "Etapa 1 — Texto didático"
+    blocos:
+      - titulo: "PARTE I — A molécula e a lógica do estoque"
+        subtopicos:
+          - "1.1 A árvore de glicose com muitas pontas"
+          - "1.2 Fígado versus músculo"
+          - "1.3 Por que estocar como polímero"
+      - titulo: "PARTE II — Quebrar e construir"
+        subtopicos:
+          - "2.1 Glicogenólise e fosforólise"
+          - "2.2 Fosfoglicomutase e o destino tecidual"
+          - "2.3 Glicogênese e a UDP-glicose"
+      - titulo: "PARTE III — A regulação coordenada"
+        subtopicos:
+          - "3.1 Regulação recíproca"
+          - "3.2 Cascata do glucagon e adrenalina"
+          - "3.3 Insulina, PP1 e o sensor hepático"
+
+gabarito:
+  consolidacao:
+    - ["01", "C"]
+    - ["02", "B"]
+    - ["03", "D"]
+    - ["04", "CECC"]
+    - ["05", "A"]
+    - ["06", "E"]
+    - ["07", "CCEC"]
+    - ["08", "B"]
+    - ["09", "C"]
+    - ["10", "CCEC"]
+  integracao:
+    - ["11", "B"]
+    - ["12", "C"]
+    - ["13", "CCEC"]
+    - ["14", "B"]
+    - ["15", "D"]
+    - ["16", "CECC"]
+    - ["17", "C"]
+    - ["18", "B"]
+    - ["19", "CCCE"]
+    - ["20", "E"]
+    - ["21", "C"]
+    - ["22", "CCEC"]
+    - ["23", "B"]
+    - ["24", "D"]
+    - ["25", "CCEC"]
+  aplicacao:
+    - ["26", "B"]
+    - ["27", "C"]
+    - ["28", "B"]
+    - ["29", "A"]
+    - ["30", "CCEC"]

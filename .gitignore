@@ -101,3 +101,26 @@ arquivos-trabalho/**/catalogo*.json
 arquivos-trabalho/**/preflight*.json
 arquivos-trabalho/**/publication.json
 arquivos-trabalho/**/DOCS-ORIGINAL.txt
+
+# Livros do curso baixados localmente e capítulos extraídos (direitos autorais; nunca versionar)
+arquivos-trabalho/livros/
+
+# Snapshot pessoal da amostra de retenção; resumo público fica em flashcards/projeto.
+arquivos-trabalho/calibracao-retencao-2026-09-25/*.json
+arquivos-trabalho/calibracao-retencao-2026-09-25/*.jsonl
+
+# Dados de deck das corridas (snapshots, inventários, planos, recibos, textos extraídos de slide/prova/vídeo):
+# conteúdo de cards AnKing e material docente; ficam só na máquina (auditoria 25/09: "não fazer push dos snapshots").
+# Scripts (.py), relatórios (.md) e fontes Typst das corridas continuam versionados.
+arquivos-trabalho/**/*.json
+arquivos-trabalho/**/*.jsonl
+arquivos-trabalho/**/*.txt
+arquivos-trabalho/**/*.vtt
+arquivos-trabalho/**/*.tsv
+arquivos-trabalho/**/*.html
+arquivos-trabalho/**/*.patch
+arquivos-trabalho/**/*.lock
+# Revisão visual de PDF (PNGs de página) e cópias locais de E1
+typst-build/_par_*/revisao/
+typst-build/_par_*/*.pdf
+arquivos-trabalho/**/slide-texto.md

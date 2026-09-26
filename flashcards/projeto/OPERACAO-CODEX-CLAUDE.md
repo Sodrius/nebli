@@ -1,55 +1,36 @@
-# Operação compartilhada — Codex e Claude
+# Operação compartilhada
+Rota atual em README.md; conteúdo/aceite em CONTRATO-DE-QUALIDADE.md. **E1 + cards**, sem API paga adicional obrigatória. Ambos os executores usam os mesmos artefatos e critérios.
 
-Revisão final de 24/09/2026. Fluxo assistido, sem API paga adicional obrigatória. A v4 governa conteúdo; PUBLICACAO-POR-UC governa a entrega. Não confundir especificação com automação concluída.
+## Diagnóstico
+Abrir na raiz. Confirmar perfil vivo, AnkiConnect e ferramentas Drive disponíveis; não copiar nome de ferramenta/caminho do outro computador.
+`python -m nebli.preflight --catalog --output arquivos-trabalho/deck-aula-<slug>-<data>/catalogo.json`
+Somente leitura no Anki. Catálogo descobre raízes externas/modelos, mas não aprova conteúdo. Resolver errors/partial antes de escrita insegura. Comentários em cards vivos são pendências; apagados não ressuscitam.
 
-## Entrada e diagnóstico
+## Execução segura
+Seguir EXECUCAO-DECK-AULA.md e fila. Criar lock exclusivo `arquivos-trabalho/ANKI-ESCRITA.lock` com executor/aula/horário; só remover seu próprio lock após readback. Não atropelar lock existente. Curadoria em leitura pode continuar.
+Um run_id/pasta por execução, plano de IDs/clozes/fields/cor/origem, snapshot antes, backup para remoções, journal e recibo. Após timeout, procurar identidade antes de repetir.
+Não rodar `nebli/anki_apply.py` nem scripts antigos de corridas como gerador universal. Existem decisões específicas e operações por nota que podem mover/expor irmãos indevidos.
 
-Abrir na raiz NEBLI. Ler README → CALIBRACAO-ESCALA-V4 → CONTRATO-DE-QUALIDADE → este arquivo → EXECUCAO-DECK-AULA, ACERVOS-REFERENCIA e PUBLICACAO-POR-UC. Claude: `/deck-aula <link ou nome>`; Codex: pedido equivalente.
+## E1
+Ler didatica/E1.md e exemplares. Mesmas fontes/objetivos para E1 e cards, sem reciprocidade artificial de cada frase. Usar modo somente-E1 dos scripts e build isolado; não limpar arquivos de outra sessão. Verificar PDF textual/visual, fonte, figuras e cópia leve. Não declarar capítulo consultado por causa de figura no slide.
 
-Anki aberto, perfil e acesso confirmados. A última vistoria respondeu perfil Davi; antes getActiveProfile não era suportado. Conferir em cada sessão, sem adivinhar ou reutilizar um caminho de outro computador.
+## Compartilhados
+Uma identidade/histórico; seleção deve registrar card_id e cloze/template pertinente. Tag vive na nota e pode selecionar irmãos fora do recorte. Deck físico não exibe automaticamente associações de outras aulas.
+Até a interface completa, entregar consulta explícita pelos IDs **vivos e validados**, conferindo conjunto retornado. Não duplicar/mover cards para simular duas aulas. Consulta do navegador não é botão de estudo calibrado; declarar essa diferença.
+Empacotador atual cobre conjunto físico da UC. Compartilhados fisicamente em outra UC exigem união lógica isolada ainda não implementada; não anunciar pacote completo se faltam.
 
-```text
-python -m nebli.preflight --catalog --output arquivos-trabalho/deck-aula-<slug>-<data>/catalogo.json
-```
+## Mexer em decks a pedido de Davi
+Ação num deck vale para ele e todos os subdecks; trecho do nome sem acento basta. Só NEBLI:: e NEBLI-deck::, nunca AnKing/Referências.
+`python -m nebli.decks status [trecho]` · `dessuspender|suspender <trecho> [--simular]` · `desfazer <registro>` · `liberar <trecho> [--encerrar]` · `instalar-addon`
+Suspender grava os card IDs em `arquivos-trabalho/deck-ops/` antes de mudar, confere por ID e sincroniza. Suspender/dessuspender só por pedido dele (Manutenção no README).
 
-Somente leitura no Anki; grava JSON local sem sobrescrever recibo existente. Sem --catalog há amostra estrutural; com ele são mapeados modelos por corpus, subdecks e união de IDs. Nenhum desses modos aprova conteúdo/imagens. Se partial, ler errors e resolver o que impede escrita segura.
+**Total no nome (Davi, 25/09):** o add-on `nebli_decks` (Windows; lógica em `nebli/anki_addon.py`, recarregada sem reiniciar o Anki; log em `addons21/nebli_decks/user_files/log.txt`) põe o total de cards no nome de todo deck NEBLI, ex.: `Antibióticos e resistência (112)`. A identidade é o nome canônico sem o número (`nebli.rotulos.canonical`); leitura compara por ele. **Toda escrita no Anki passa por `with nebli.decks.escrita(Anki(), "<aula>"):`**, que cria ANKI-ESCRITA.lock, espera o add-on devolver os nomes canônicos, libera, espera os totais voltarem e sincroniza. Script que cria o lock à mão espera `deckNames` sem nenhum " (N)" antes do primeiro findCards/createDeck: sem isso, createDeck("NEBLI::...") cria árvore paralela e addNotes falha com "deck was not found". Em outro computador sem o add-on, os nomes chegam rotulados pelo sync e `escrita` recusa escrever.
 
-Reconciliar pendências pela coleção viva. Card apagado intencionalmente não deve ser restaurado para resolver comentário antigo. Não executar nebli/anki_apply.py como gerador universal: é legado com decisões específicas, atuação por nota e movimentação de cards.
+**Opções do baralho:** um preset único para todo NEBLI (150 novos/dia). Status acusa deck fora dele ou dois presets com o mesmo nome (armadilha do menu de Opções); conserto `flashcards/scripts/nebli_novos.py --alinhar`, que também renomeia o preset largado. **O teto diário do NEBLI vale também ao clicar numa aula ou num filtrado dentro da árvore** (medido 25/09, Anki 26.9: limite "Este baralho" e "Somente hoje" num ramo não liberam nada). Para liberar todos os novos de um ramo sem mexer no resto: `liberar <trecho>` grava `config/anki-decks.json` e o add-on mantém no nível de cima o filtrado `NEBLI · <ramo>: todos os novos`, reconstruído quando entram novos no ramo; `--encerrar` devolve os cards às aulas. Conferência "ao clicar": pedido em `arquivos-trabalho/anki-contagem-pedido.json`, resposta do add-on em `anki-contagem-resposta.json` (`nebli.decks.count_on_click`).
 
-## Acervos e busca
+## Entregas e escala
+E1/guia por aula na pasta privada; APKG local UC inteira:
+`python -m nebli.package_uc --uc UC03 --output <corrida>/NEBLI-UC03.apkg`
+PUBLICACAO-POR-UC.md descreve compressão/validação sem flags no arquivo. **Upload APKG pausado**; não atualizar Drive por inferência. Se reautorizado, manter file_id/destino em config/publicacoes-uc.json, readback e permissões; não sobrescrever IDs antigos inadvertidamente.
 
-Usar [ACERVOS-REFERENCIA.md](ACERVOS-REFERENCIA.md): AnKing Step primeiro; MCAT e demais externos adequados antes de autoria. Descoberta dinâmica inclui filhos novos de Referências Externas, independentemente da pasta-pai.
-
-Buscar por texto, sinônimos, tags de recursos (Ninja Nerd inclusive), sistemas e vizinhança semântica. Depois ler cada card/cloze/verso/imagem. Tags são portas de busca, não conjuntos automaticamente pertinentes. Em modelos visuais procurar Header/Title/rótulos/máscaras, não apenas Text.
-
-Registrar buscas e recusas antes da autoria; segunda auditoria quando houver muita autoria. Preservar modelos/fontes originais. Autoral curto, focal, aparência AnKing e imagem quando ensina; inspecionar todo autoral e imagem adaptada.
-
-## E1 e aprendizado
-
-E1 explicativa sempre; reutilizar boa E1 conferida. Guia curto separado ou junto, nunca substituto. E2/E3 desligadas. Bibliografia distingue consultada, indicada e não acessada; não alegar leitura de capítulo a partir de figura no slide.
-
-Vídeos no guia/chat, nunca nos cards. Verificar pertinência e canal/título; timestamp somente com evidência. O pacote Python typst estava disponível mesmo sem executável no PATH; testar o ambiente antes de declarar compilação impossível. Aplicar revisão visual do PDF.
-
-O assunto deve progredir entre aulas: registrar o que já foi coberto e o que fica para depois. Não construir um currículo adicional dentro de cada deck nem prometer porcentagem de Step coberto por tags.
-
-## Publicação por UC
-
-Seguir [PUBLICACAO-POR-UC.md](PUBLICACAO-POR-UC.md):
-
-```text
-python -m nebli.package_uc --uc UC03 --output <pasta-da-execucao>/NEBLI-UC03.apkg
-```
-
-UC inteira viva, comprimida, sem bandeiras no arquivo; flags vivas preservadas. E1/guia por aula. Atualizar o mesmo file_id no Drive e registro local config/publicacoes-uc.json. Se ainda ausente, criar a partir do exemplo; nunca sobrescrever IDs existentes.
-
-Codex: upload local/readback testados, inclusive arquivo de 26 MB. Claude: conexão Drive pela conta confirmada; descobrir as ferramentas da sessão e testar upload binário, não copiar nomes de ferramentas do Codex. Ainda falta validação de uma aula completa pelo Claude.
-
-Pacotes históricos não são fonte para reconstruir UCs após a limpeza manual. O empacotador confere o conjunto físico. Se há card compartilhado fisicamente em outra UC, a união lógica exige operação isolada ainda não implementada no utilitário; não publicar um conjunto incompleto como completo, duplicar ou mover cards vivos para contornar.
-
-## Primeiro teste e escala
-
-Aula escolhida por Davi → fontes/recorte → buscas → revisão de qualidade → E1/guia → plano/backup → Anki → APKG/Drive → relatório. O normal é manter cards; candidatos pós-prova já rosas, decisão de suspensão pessoal. Não alterar 35 novos/50 min automaticamente.
-
-Validar uma aula ponta a ponta, depois 2–3 da mesma UC. Amostra aprovada + uso real + tipos diferentes de aula + execução satisfatória pelo Claude são o aceite, não apenas ZIP/contagem corretos.
-
-Q18/Q22 ainda requerem explicação da interface compartilhada, sem duplicar história. Q25 está simplificada (manter/rosa/decisão pessoal); Q26 depende de carga real. Guia da próxima sessão em [HANDOFF-CLAUDE.md](HANDOFF-CLAUDE.md).
+Sincronizar após escrita autorizada e readback; aceitação de sync não confirma dispositivo remoto. Não mudar o limite de novos/dia (150 desde 25/09) nem o agendador sem pedido de Davi. Validar pequena amostra/lote e uso real antes de escala. Documentos e testes estruturais não garantem julgamento de conteúdo pelo modelo.

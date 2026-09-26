@@ -1,0 +1,5 @@
+# Dependências Python do NEBLI (testadas em Python 3.14 no Windows, 26/09/2026; qualquer 3.11+ deve servir)
+pymupdf>=1.24      # extração/renderização de PDF (import fitz)
+PyYAML>=6.0        # tema-card.yml, gerar_main.py
+Pillow>=10.0       # composição de figuras
+typst>=0.11        # compilar E1 sem instalar o CLI (typst.compile); o CLI oficial também serve

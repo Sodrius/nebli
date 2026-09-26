@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "lesson_id": "2026-uc03-patologia-38-inflamacao-aguda",
+  "source_snapshot": "drive:1O5qLt4JANr93Hv7tEXeZ8TddmsiHKAjw@2026-09-07T10:53:15.429Z",
+  "objectives": [
+    {
+      "objective_id": "ia-01-definicao-sinais",
+      "target": "Explicar inflamação aguda e relacionar seus cinco sinais às alterações vasculares e teciduais.",
+      "expected_answer": "Resposta inicial ao dano para restaurar homeostase; calor e rubor refletem vasodilatação, tumor o extravasamento/edema, e dor tem componentes químicos e mecânicos.",
+      "source_refs": [{"source_id": "src-uc03-pato-38-transcricao", "locator": "Definição e Sinais; Alterações Vasculares"}],
+      "role": "core", "retention_group": "durable", "card_decision": "required", "rationale": "É a moldura causal da aula e sustenta aplicações clínicas."
+    },
+    {
+      "objective_id": "ia-02-desencadeantes-reconhecimento",
+      "target": "Distinguir os desencadeantes da inflamação aguda e o reconhecimento de dano infeccioso ou estéril.",
+      "expected_answer": "Infecção, necrose/isquemia/trauma, corpo estranho, hipersensibilidade e agentes físicos/químicos podem desencadear; PAMPs e DAMPs são reconhecidos por receptores inatos.",
+      "source_refs": [{"source_id": "src-uc03-pato-38-transcricao", "locator": "Desencadeantes"}, {"source_id": "src-uc03-pato-38-e1-legacy", "locator": "Antes da aula — Alterações iniciais"}],
+      "role": "core", "retention_group": "durable", "card_decision": "required", "rationale": "Evita reduzir inflamação a infecção e cria a ponte com Imunologia."
+    },
+    {
+      "objective_id": "ia-03-exsudato-transudato",
+      "target": "Diferenciar exsudato de transudato pela composição e pelo mecanismo.",
+      "expected_answer": "Exsudato é rico em proteína, células e DHL por aumento de permeabilidade; transudato é pobre nesses componentes e resulta de desequilíbrio hidrostático/oncótico com endotélio íntegro.",
+      "source_refs": [{"source_id": "src-uc03-pato-38-transcricao", "locator": "Exsudato x Transudato"}],
+      "role": "core", "retention_group": "durable", "card_decision": "required", "rationale": "É diferencial mecanístico e aplicação direta de prova."
+    },
+    {
+      "objective_id": "ia-04-fluxo-estase",
+      "target": "Ordenar vasodilatação, perda de líquido, hemoconcentração e estase, relacionando-as ao recrutamento leucocitário.",
+      "expected_answer": "Vasodilatação aumenta fluxo; extravasamento de plasma eleva viscosidade e reduz fluxo; a estase concentra leucócitos na periferia e favorece marginação.",
+      "source_refs": [{"source_id": "src-uc03-pato-38-transcricao", "locator": "Alterações Vasculares — alterações de fluxo e calibre"}],
+      "role": "core", "retention_group": "durable", "card_decision": "required", "rationale": "Conecta o evento vascular à cascata celular."
+    },
+    {
+      "objective_id": "ia-05-permeabilidade",
+      "target": "Comparar os mecanismos de aumento de permeabilidade vascular.",
+      "expected_answer": "Contração endotelial, lesão endotelial direta, lesão mediada por leucócitos e transcitose aumentam permeabilidade; a vênula pós-capilar é central na contração e saída leucocitária.",
+      "source_refs": [{"source_id": "src-uc03-pato-38-transcricao", "locator": "Alterações Vasculares — aumento da permeabilidade"}],
+      "role": "core", "retention_group": "durable", "card_decision": "required", "rationale": "Distingue mecanismos frequentemente confundidos."
+    },
+    {
+      "objective_id": "ia-06-mediadores-vasculares",
+      "target": "Associar histamina, NO, prostaglandinas, leucotrienos e PAF aos efeitos vasculares relevantes.",
+      "expected_answer": "Histamina e PAF promovem vasodilatação e permeabilidade; NO e prostaglandinas promovem vasodilatação; leucotrienos aumentam permeabilidade.",
+      "source_refs": [{"source_id": "src-uc03-pato-38-transcricao", "locator": "Mediadores Importantes — Alterações Vasculares"}],
+      "role": "core", "retention_group": "exam", "card_decision": "required", "rationale": "A associação mediador–efeito é exigida no material docente."
+    },
+    {
+      "objective_id": "ia-07-recrutamento-leucocitario",
+      "target": "Explicar a sequência de recrutamento leucocitário do sangue ao foco inflamatório.",
+      "expected_answer": "Estase causa marginação; selectinas fazem rolamento; integrinas ativadas ligam ICAM/VCAM para adesão firme; PECAM participa da diapedese; quimiotáticos orientam a migração tecidual.",
+      "source_refs": [{"source_id": "src-uc03-pato-38-transcricao", "locator": "Alterações Celulares — recrutamento, rolamento, adesão e transmigração"}],
+      "role": "core", "retention_group": "durable", "card_decision": "required", "rationale": "Objetivo longitudinal e ponte explícita com Imunologia."
+    },
+    {
+      "objective_id": "ia-08-quimiotaxia-citocinas",
+      "target": "Identificar agentes quimiotáticos e os efeitos de TNF e IL-1 no endotélio e sistemicamente.",
+      "expected_answer": "Produtos bacterianos, IL-8, C5a e LTB4 orientam quimiotaxia; TNF e IL-1 induzem moléculas de adesão e produzem efeitos sistêmicos, incluindo febre para IL-1.",
+      "source_refs": [{"source_id": "src-uc03-pato-38-transcricao", "locator": "Alterações Celulares — Quimiotaxia; Mediadores Importantes"}],
+      "role": "core", "retention_group": "durable", "card_decision": "required", "rationale": "Reaproveitável na interseção com a aula de Imunologia."
+    },
+    {
+      "objective_id": "ia-09-resolucao",
+      "target": "Descrever os mecanismos que limitam a resposta inflamatória aguda.",
+      "expected_answer": "A resposta é limitada pela meia-vida de células e mediadores e pela alternância na cascata do ácido araquidônico para mediadores pró-resolução.",
+      "source_refs": [{"source_id": "src-uc03-pato-38-transcricao", "locator": "Mecanismos Efetores — efeitos regulatórios"}],
+      "role": "prerequisite", "retention_group": "durable", "card_decision": "required", "rationale": "É a ponte mínima para Inflamação: início e resolução."
+    },
+    {
+      "objective_id": "ia-10-padroes-morfologicos",
+      "target": "Distinguir os padrões morfológicos úlcera, flegmão e abscesso.",
+      "expected_answer": "Úlcera é perda de epitélio; flegmão é inflamação supurativa difusa pelos planos; abscesso é coleção localizada de pus delimitada.",
+      "source_refs": [{"source_id": "src-uc03-pato-38-transcricao", "locator": "Padrões Morfológicos"}],
+      "role": "core", "retention_group": "exam", "card_decision": "required", "rationale": "É um bloco final explícito e aplicável a casos clínicos."
+    }
+  ]
+}

@@ -1,33 +1,26 @@
 #import "../typst-template/nebli_v2_apostila.typ": *
 
 #resumindo-page((
-  ("Um defeito de sinal, dois caminhos",
-   [O receptor de insulina é uma tirosina-quinase que traz vesículas prontas de GLUT-4 à membrana e, além de abrir a porta, freia lipólise, gliconeogênese e proteólise. No tipo 1 a ilhota é destruída por autoimunidade e a fonte desse sinal acaba; no tipo 2 o sinal chega e a célula não responde, com insulina normal ou *alta* por anos. A hiperglicemia é o resultado comum de dois defeitos opostos.]),
-
-  ("Por que o tipo 1 cetoacidota",
-   [Sem insulina, a lipase hormônio-sensível fica livre e inunda o fígado de ácido graxo; a acetil-CoA gerada excede o ciclo de Krebs e vira cetoácido. No tipo 2 a insulina residual segura a lipólise — por isso ele descompensa como estado hiperosmolar, sem cetose.]),
-
-  ("O sintoma nasce no túbulo",
-   [Acima de cerca de 180 mg/dL a reabsorção tubular satura e a glicose fica no lúmen, retendo água por osmose. A poliúria vem primeiro, desidrata, eleva a osmolaridade e só então dispara a sede. O emagrecimento soma glicosúria, lipólise e proteólise.]),
-
-  ("Glicação em três etapas, com reversibilidade decrescente",
-   [Base de Schiff em horas e reversível; Amadori em dias e pouco reversível; ligação cruzada irreversível em semanas a meses. O tempo que a glicose passa alta define até onde a reação avança — e a proteína de vida longa é a que paga.]),
-
-  ("Dois relógios do controle",
-   [A hemoglobina glicada integra 8 a 12 semanas porque a hemácia vive esse tanto; a frutosamina lê 2 a 3 semanas porque a albumina vive esse tanto. Onde a sobrevida da hemácia é anormal, o primeiro exame engana e o segundo resolve.]),
-
-  ("O AGE não só reticula: ele sinaliza",
-   [Ligado ao RAGE em monócito, endotélio e célula mesangial, ativa NF-κB e dispara citocinas, adesão e fator tecidual. A via aumenta a expressão do próprio receptor e o estresse oxidativo, que gera mais AGE — a alça que torna o dano auto-perpetuado.]),
-
-  ("Quem adoece é quem não fecha a porta",
-   [Pericito, célula mesangial, endotélio, neurônio e cristalino captam glicose sem depender de insulina e não reduzem a entrada quando a glicemia sobe. Os órgãos-alvo do diabetes são esses tecidos, pelas rotas do poliol, da PKC, da hexosamina e do AGE.]),
-
-  ("A microangiopatia órgão a órgão",
-   [Retina: morte de pericito, microaneurisma e, na isquemia, neovaso frágil que sangra. Glomérulo: hiperfiltração que aumenta o rim, membrana basal espessa e mais permeável, albuminúria antes da creatinina, e rim reduzido e hiperecogênico no fim.]),
-
-  ("Três falhas fazem o pé diabético",
-   [A neuropatia sensitiva apaga o alarme da dor, a autonômica resseca a pele e abre fissuras, e a doença arterial periférica tira o aporte que cicatrizaria. Charcot é destruição mecânica de articulação insensível; osteomielite é infecção da medular — coexistem e exigem condutas opostas.]),
-
-  ("A placa mata rompendo, e cada exame responde uma pergunta",
-   [Núcleo lipídico grande e capa fina se fissuram e expõem fator tecidual; o trombo oclui em minutos, mesmo em placa pouco estenosante. O escore de cálcio mede carga de placa, a angiotomografia exclui doença em risco intermediário, o cateterismo quantifica e trata.]),
+  ("Fígado × músculo",
+   [O fígado (≈10% da massa em glicogênio) regula a *glicemia sistêmica* e tem glicose-6-fosfatase, exportando glicose. O músculo (≈2%) guarda para si e, sem essa enzima, retém a glicose como glicose-6-fosfato.]),
+  ("Fosforólise",
+   [A glicogênio fosforilase corta a ligação α(1→4) com fosfato (não água), liberando *glicose-1-fosfato* já fosforilada — economiza ATP e prende o carbono na célula. Usa piridoxal-fosfato (vitamina B6).]),
+  ("Enzima desramificadora",
+   [A fosforilase para 4 resíduos antes do galho. A desramificadora bifuncional *transfere* um bloco de 3 e *hidrolisa* o resíduo α(1→6), soltando glicose livre (~10% do total; ~90% sai como glicose-1-fosfato).]),
+  ("UDP-glicose ativa",
+   [Na síntese, glicose-1-fosfato + UTP formam *UDP-glicose* (forma ativada); a hidrólise do pirofosfato torna o passo irreversível. Descoberta de Leloir, Nobel de 1970.]),
+  ("Sintase, glicogenina, ramificadora",
+   [A glicogênio sintase alonga em α(1→4) mas precisa de primer; a *glicogenina* fornece esse primer e fica presa à extremidade redutora. A *enzima ramificadora* abre os galhos α(1→6).]),
+  ("Custo energético",
+   [Sintetizar glicogênio gasta *2 ATP por glicose*: um para fosforilar a glicose em glicose-6-fosfato, outro para regenerar o UTP a partir do UDP. Guardar energia é investimento.]),
+  ("Regulação recíproca",
+   [A *fosforilação ativa a fosforilase e inativa a sintase* — um sinal, efeitos opostos, para as vias nunca correrem juntas. A desfosforilação (PP1) faz o inverso.]),
+  ("Cascata do glucagon/adrenalina",
+   [Hormônio → proteína G → adenilato-ciclase → *AMPc* → *PKA* → fosforilase-quinase → fosforilase a. Cada nível amplifica: um hormônio libera milhões de glicoses.]),
+  ("Insulina e desligamento",
+   [A insulina ativa a *PP1*, que desfosforila as enzimas (inativa a fosforilase, ativa a sintase). A *fosfodiesterase* degrada o AMPc, encerrando o sinal da PKA.]),
+  ("Sensor de glicose hepático",
+   [No fígado, a *fosforilase a é sensor de glicose*: glicemia alta a empurra ao estado T e à desfosforilação pela PP1. No músculo não há esse sensor — ele responde ao AMP.]),
+  ("Doenças de depósito",
+   [Autossômicas recessivas, glicogênio cora ao PAS. von Gierke (I): glicose-6-fosfatase → hipoglicemia, hepatomegalia, ↑lactato/ácido úrico. Pompe (II): maltase ácida lisossomal → cardiomegalia. Cori (III): desramificadora. Andersen (IV): ramificadora. McArdle (V): fosforilase muscular → intolerância ao exercício. Hers (VI): fosforilase hepática.]),
 ))
