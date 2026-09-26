@@ -17,7 +17,7 @@ O clone é grande (~400 MB de histórico). Depois, ler `CLAUDE.md` → `flashcar
 
 ## 3. Anki: coleção e add-on
 1. No Anki do Mac, entre com a conta AnkiWeb e **sincronize** (baixar). Traz decks `NEBLI::…`, AnKing e Referências Externas. A primeira sincronização é longa (mídia). Não use "Substituir a coleção" do lado errado: **baixar** do AnkiWeb, nunca enviar do Mac vazio.
-2. O perfil precisa se chamar **Davi** (os scripts conferem).
+2. O nome do perfil não importa para os scripts (ele só aparece nos relatórios); o perfil que estiver aberto é o que recebe as escritas.
 3. Copie o add-on que coloca o total de cards no nome dos decks:
    ```bash
    cp -R anki-addon/nebli_decks "$HOME/Library/Application Support/Anki2/addons21/"
@@ -50,3 +50,15 @@ O repositório `Sodrius/nebli` é **público**. Por isso o `.gitignore` deixa fo
 
 ## 7. Estado do trabalho (26/09/2026)
 Ver `MEMORY.md` (estado), `flashcards/projeto/FILA-UC03-P2-UC08-P1.md` (aulas) e `arquivos-trabalho/deck-aula-edema-congestao-2026-09-25/LACUNAS-PROPOSTAS.md` (decisão pendente sobre o deck de Edema).
+
+## 8. Compartilhar o ferramental com colegas
+O repositório entrega o **ferramental**: regras e fluxo (`flashcards/projeto/`), scripts, add-on `nebli_decks`, verificadores, modelo Typst e testes. **Não entrega os decks de referência**, por três motivos: o repositório é público; AnKing, Dope, BlueLink (Univ. de Michigan), AnatoKing, Lightyear e demais têm autores e licenças próprios, e as notas trazem mídia de terceiros; e o volume (dezenas de milhares de cards com mídia) passa de qualquer limite do GitHub.
+
+Cada colega monta os acervos a partir da fonte original e o ferramental os descobre sozinho pela estrutura de decks:
+- `Referências::Anking Step Deck` (AnKing Step Deck, via AnkiHub/AnkiWeb do AnKing);
+- `Referências::Referências Externas::<nome do acervo>` para os demais (lista, contagens e para que serve cada um em `flashcards/projeto/ACERVOS-REFERENCIA.md`; onde achar: AnkiWeb, AnkiHub ou r/medicalschoolanki, pelo nome do acervo).
+- Conferir: com o Anki aberto, `python3 -m nebli.preflight --catalog --output /tmp/catalogo.json` lista os acervos encontrados e o que falta.
+
+O que é seu e o colega deve trocar: IDs de pastas do Drive e tabela de livros no `flashcards/projeto/README.md`, calendário e UCs (turma), presets e limite de novos/dia. O acervo NEBLI (as suas notas e cópias) não vai; ele cria os dele com `/deck-aula`.
+
+**Mega-decks de Patologia (monitoria):** não há deck de Patologia pronto em Referências; a Patologia está espalhada pelo AnKing como tags. Em 26/09/2026, no AnKing (35.068 cards): Sketchy Pathology 8.908, Pathoma 7.600, Physeo Pathology 6.785, por sistema (`^Systems::*::Pathology`) 5.542, B&B Pathology (patologia geral) 577 — união dessas tags ≈ **11.750 cards únicos**. Um mega-deck é uma busca por tag exportada, ou um deck filtrado; não uma cópia nova. Antes de distribuir para alunos, checar a licença de cada acervo.
