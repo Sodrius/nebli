@@ -124,3 +124,6 @@ arquivos-trabalho/**/*.lock
 typst-build/_par_*/revisao/
 typst-build/_par_*/*.pdf
 arquivos-trabalho/**/slide-texto.md
+
+# Cópia de verificação do projeto (hash longo no caminho quebra clone no Windows; sem uso no Mac)
+arquivos-trabalho/reinicio-uc-2026-09-23/verificacao-git-*/
