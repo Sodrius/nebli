@@ -62,6 +62,8 @@ Criar ancestrais e manter a hierarquia `NEBLI::UCxx::Px::Componente::Aula`, sem 
 
 ## 6. Readback e evidência da entrega
 
+**Cores no plano:** verde 3, azul 4 e **rosa 5 para o muito lateral** (tag `NEBLI::lateral`), em vez de excluir detalhe que ainda vale ter; o `build.py` herdado das corridas só conhece 3/4 e precisa aceitar 5.
+
 Conferir plano versus coleção: notas/cards/clozes e origens, campos/modelos/mídia (incluindo `NEBLI_Comentario` presente e vazio em toda nota nova), cores previstas com marcas pessoais preservadas, IDs selecionados, história/agendamento e integridade dos originais. Verificação estrutural completa e revisão editorial por amostra são evidências diferentes.
 
 Compartilhados: provar associação por IDs vivos e consulta com conjunto conferido. Se só existe busca no navegador, dizer; não anunciar botão de estudo na segunda aula pronto. Não duplicar para contornar limitação da interface. Sync aceito pelo AnkiWeb não comprova chegada em Mac/Android/Windows.

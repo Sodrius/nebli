@@ -76,8 +76,8 @@ def justification(entry):
     """Autoral só para alvo central da aula ou cobrado em prova, sem AnKing/associado equivalente
     (F-20260930-CLAUDE-19: autoria excessiva em detalhes na Imuno P2)."""
     problems = []
-    if entry.get("autoria") not in ("central", "prova"):
-        problems.append(("dura", "autoral sem 'autoria': 'central' (alvo central da aula) ou 'prova' (cobrado em prova)"))
+    if entry.get("autoria") not in ("central", "prova", "lateral"):
+        problems.append(("dura", "autoral sem 'autoria': 'central', 'prova' ou 'lateral' (este vai com bandeira rosa)"))
     if not str(entry.get("busca", "")).strip():
         problems.append(("dura", "autoral sem 'busca': rotas AnKing/alternativos consultadas e por que não servem"))
     return problems
