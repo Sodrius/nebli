@@ -62,7 +62,7 @@ Criar ancestrais e manter a hierarquia `NEBLI::UCxx::Px::Componente::Aula`, sem 
 
 ## 6. Readback e evidência da entrega
 
-**Cores no plano:** verde 3, azul 4 e **rosa 5 para o muito lateral** (tag `NEBLI::lateral`), em vez de excluir detalhe que ainda vale ter; o `build.py` herdado das corridas só conhece 3/4 e precisa aceitar 5.
+**Cores no plano:** verde 3, azul 4 e **rosa 5 para o muito lateral** (tag `NEBLI::lateral`), em vez de excluir detalhe que ainda vale ter; o `build.py` herdado das corridas só conhece 3/4 e precisa aceitar 5. Cada card da aula, inclusive compartilhado, recebe `NEBLI::cor::<lesson_id>::<cor>`; bandeira visível = maior cor entre as aulas, sem baixar bandeira existente nem mexer em marca pessoal (MEMORY, Bandeiras).
 
 Conferir plano versus coleção: notas/cards/clozes e origens, campos/modelos/mídia (incluindo `NEBLI_Comentario` presente e vazio em toda nota nova), cores previstas com marcas pessoais preservadas, IDs selecionados, história/agendamento e integridade dos originais. Verificação estrutural completa e revisão editorial por amostra são evidências diferentes.
 
