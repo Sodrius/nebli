@@ -7,10 +7,13 @@ Uso (Anki aberto com AnkiConnect):
     python -m nebli.explicacoes gerar '<busca>' --simular      # mostra o que seria enviado, sem gerar
     python -m nebli.explicacoes mostrar <card_id> [<card_id> ...]
     python -m nebli.explicacoes resumo
+    python -m nebli.explicacoes instalar                       # só o add-on do Tab
+
+Guia completo: GUIA-EXPLICACOES-TAB.md na raiz do repositório.
 
 Cada card (não a nota) tem a sua: irmãos de cloze recebem explicações diferentes.
-A base fica em addons21/nebli_atalhos/user_files/explicacoes.sqlite, onde o add-on
-nebli_atalhos a lê quando Davi aperta Tab no verso. Nada é escrito na coleção.
+A base fica em addons21/nebli_explicacoes/user_files/explicacoes.sqlite, onde o
+add-on nebli_explicacoes a lê quando se aperta Tab no verso. Nada é escrito na coleção.
 
 O estilo e as regras ficam em config/explicacao-tab.md (inclusive os exemplos
 aprovados). Mudar esse arquivo muda a versão do estilo; `resumo` mostra quantas
@@ -50,8 +53,29 @@ def anki_base():
                           else ".local/share/Anki2")
 
 
+ADDON = "nebli_explicacoes"
+OLD_STORE = ("nebli_atalhos", "user_files", "explicacoes.sqlite")  # antes de 30/09, 11h
+
+
 def store_path():
-    return anki_base() / "addons21" / "nebli_atalhos" / "user_files" / "explicacoes.sqlite"
+    return anki_base() / "addons21" / ADDON / "user_files" / "explicacoes.sqlite"
+
+
+def install():
+    """Copia só o add-on do Tab (não mexe em outras teclas) e leva a base antiga, se houver."""
+    target = anki_base() / "addons21" / ADDON
+    (target / "user_files").mkdir(parents=True, exist_ok=True)
+    source = ROOT / "anki-addon" / ADDON
+    shutil.copy2(source / "__init__.py", target / "__init__.py")
+    if not (target / "meta.json").exists():
+        shutil.copy2(source / "meta.json", target / "meta.json")
+    old = anki_base() / "addons21" / Path(*OLD_STORE)
+    if old.exists() and not store_path().exists():
+        for suffix in ("", "-wal", "-shm"):
+            if Path(f"{old}{suffix}").exists():
+                shutil.move(f"{old}{suffix}", f"{store_path()}{suffix}")
+        print(f"Explicações já geradas movidas para {store_path()}.")
+    print(f"Add-on do Tab em {target}. Reiniciar o Anki para carregar.")
 
 
 def open_store(path=None):
@@ -121,7 +145,7 @@ def studied_related(call, card, target, limit=4):
     term = re.sub(r'["*_:\\()]', " ", target.split(";")[0]).strip()
     if len(term) < 4:
         return []
-    ids = call("findCards", query=f'deck:NEBLI* -is:new "{term[:60]}" -nid:{card["note"]}')[:limit]
+    ids = call("findCards", query=f'-is:new "{term[:60]}" -nid:{card["note"]}')[:limit]
     return [card_text(c)[1][:220] for c in call("cardsInfo", cards=ids)] if ids else []
 
 
@@ -224,8 +248,11 @@ def main():
     sh = sub.add_parser("mostrar")
     sh.add_argument("ids", nargs="+")
     sub.add_parser("resumo")
+    sub.add_parser("instalar", help="copia só o add-on do Tab para o Anki deste computador")
     args = parser.parse_args()
-    if args.cmd == "gerar":
+    if args.cmd == "instalar":
+        install()
+    elif args.cmd == "gerar":
         generate(Anki(), args.busca, args.limite, args.refazer, args.simular)
     elif args.cmd == "mostrar":
         show(args.ids)

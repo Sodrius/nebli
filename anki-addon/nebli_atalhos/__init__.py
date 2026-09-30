@@ -7,12 +7,8 @@ Durante a revisão:
     Shift       sozinho (apertar e soltar): edita o card
     c           comentário: abre o campo NEBLI_Comentario da nota para escrever
     v           voltar: desfaz a última ação e volta ao card anterior (Cmd/Ctrl+Z também)
-    Tab         no verso: mostra a explicação deste card por cima dele; Tab ou qualquer
-                tecla some (a tecla de resposta responde na mesma hora)
 
-Explicações: uma por card (irmãos têm a sua), em user_files/explicacoes.sqlite,
-geradas fora do Anki por `python -m nebli.explicacoes gerar`. Nada vai para a coleção.
-Cada Tab é anotado em user_files/tab-log.jsonl.
+A explicação com Tab é outro add-on (nebli_explicacoes), para quem quiser só ela.
 
 Conflitos resolvidos só na tela de revisão: atalhos globais e de menu nas mesmas
 teclas (a Adicionar, s Estudar, d Baralhos, f Criar filtrado...) ficam desligados
@@ -22,11 +18,8 @@ e o botão Editar continua no rodapé; v deixa de tocar a gravação de voz.
 Instalar/atualizar pelo repositório: python -m nebli.decks instalar-addon
 (reiniciar o Anki depois). Carregamento e erros vão para user_files/log.txt.
 """
-import hashlib
 import html
-import json
 import re
-import sqlite3
 import sys
 import time
 import traceback
@@ -45,21 +38,6 @@ TAKEN = set("1234") | set(ANSWER) | set(FLAGS) | {COMMENT_KEY, UNDO_KEY}
 FIELD = "NEBLI_Comentario"
 PENDING = "NEBLI_comentario::pendente"
 USER = Path(__file__).resolve().parent / "user_files"
-STORE = USER / "explicacoes.sqlite"
-LABELS = ("Base:", "Por quê:", "Na aula:", "Liga com:", "Não confundir:")
-POPUP_JS = """(function(body){
-  var old = document.getElementById('nebli-tab'); if (old) old.remove();
-  var night = document.body.classList.contains('nightMode') || document.documentElement.classList.contains('night-mode');
-  var d = document.createElement('div'); d.id = 'nebli-tab'; d.innerHTML = body;
-  d.style.cssText = 'position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:99999;'
-    + 'width:min(900px,94vw);max-height:66vh;overflow-y:auto;box-sizing:border-box;padding:18px 24px;'
-    + 'border-radius:14px;text-align:left;font:17px/1.6 -apple-system,system-ui,sans-serif;'
-    + 'box-shadow:0 10px 32px rgba(0,0,0,.3);'
-    + (night ? 'background:#26282c;color:#e8e8e8;border:1px solid #3a3d42;'
-             : 'background:#fffdf7;color:#1f2328;border:1px solid #e3dccb;');
-  d.onclick = function(){ d.remove(); };
-  document.body.appendChild(d);
-})(__BODY__);"""
 
 
 def _log(message):
@@ -166,68 +144,6 @@ def _comment():
         tooltip("Comentário salvo.")
 
 
-_popup = {"open": False}
-
-
-def _card_hash(card):
-    return hashlib.sha1(("\x1f".join(card.note().fields) + f"\x1e{card.ord}").encode("utf-8")).hexdigest()
-
-
-def _lookup(card):
-    if not STORE.exists():
-        return None
-    db = sqlite3.connect(f"file:{STORE}?mode=ro", uri=True)
-    try:
-        return db.execute("select status, texto, motivo, hash from explicacoes where card_id=?",
-                          (card.id,)).fetchone()
-    finally:
-        db.close()
-
-
-def _render(row, card):
-    if not row:
-        return "<i>Ainda sem explicação para este card.</i>", False
-    status, text, reason, digest = row
-    if status != "ok":
-        return f"<i>Card marcado para revisão:</i> {html.escape(reason or '')}", True
-    lines = []
-    for line in html.escape(text or "", quote=False).splitlines():
-        for label in LABELS:
-            if line.startswith(label):
-                line = f"<b>{label}</b>{line[len(label):]}"
-        lines.append(line)
-    body = "<br>".join(lines)
-    if digest != _card_hash(card):
-        body += "<div style='margin-top:6px;font-size:12px;opacity:.6'>O card mudou depois desta explicação.</div>"
-    return body, True
-
-
-def _close_popup(*_args):
-    """Remove sempre (barato), mesmo se o card já mudou antes do fechamento agendado."""
-    _popup["open"] = False
-    reviewer = getattr(mw, "reviewer", None)
-    if reviewer and reviewer.web:
-        reviewer.web.eval("var n=document.getElementById('nebli-tab'); if(n) n.remove();")
-
-
-@_guarded
-def _toggle_explanation():
-    reviewer = _reviewer()
-    if not reviewer or reviewer.state != "answer":
-        return
-    if _popup["open"]:
-        _close_popup()
-        return
-    card = reviewer.card
-    body, found = _render(_lookup(card), card)
-    reviewer.web.eval(POPUP_JS.replace("__BODY__", json.dumps(body)))
-    _popup["open"] = True
-    USER.mkdir(exist_ok=True)
-    with (USER / "tab-log.jsonl").open("a", encoding="utf-8") as handle:
-        handle.write(json.dumps({"em": time.strftime("%Y-%m-%d %H:%M:%S"), "card": card.id,
-                                 "nota": card.nid, "deck": card.did, "achou": found}) + "\n")
-
-
 def _on_shortcuts(state, shortcuts):
     if state != "review":
         return
@@ -292,11 +208,6 @@ class _SoloKeys(QObject):
         if kind not in (QEvent.Type.KeyPress, QEvent.Type.KeyRelease) or event.isAutoRepeat():
             return False
         key, now = event.key(), time.monotonic()
-        if kind == QEvent.Type.KeyPress and key == Qt.Key.Key_Tab and not event.modifiers() and self._active():
-            QTimer.singleShot(0, _toggle_explanation)
-            return True  # Tab não passa adiante (no Anki ele só mudaria o foco)
-        if kind == QEvent.Type.KeyPress and _popup["open"]:
-            QTimer.singleShot(0, _close_popup)  # qualquer tecla fecha; a tecla segue valendo
         if key == Qt.Key.Key_Shift:
             if kind == QEvent.Type.KeyPress:
                 self.shift_down = self.shift_down or now
@@ -322,6 +233,4 @@ _solo = _SoloKeys()
 QApplication.instance().installEventFilter(_solo)
 gui_hooks.state_shortcuts_will_change.append(_on_shortcuts)
 gui_hooks.state_did_change.append(_on_state)
-gui_hooks.reviewer_did_show_question.append(_close_popup)
-gui_hooks.reviewer_did_show_answer.append(_close_popup)
 _log("carregado")

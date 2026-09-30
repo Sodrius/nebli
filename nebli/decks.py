@@ -263,6 +263,8 @@ def install_addon():
     if not (shortcuts / "meta.json").exists():
         shutil.copy2(ADDON_SRC.parent / "nebli_atalhos" / "meta.json", shortcuts / "meta.json")
     print(f"Atalhos de revisão em {shortcuts}. Reiniciar o Anki para carregar mudanças.")
+    from nebli import explicacoes
+    explicacoes.install()
 
 
 def status(call, patterns=()):
