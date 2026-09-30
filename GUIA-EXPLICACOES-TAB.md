@@ -1,6 +1,6 @@
 # Explicação do card com Tab (Anki)
 
-Você está revisando no Anki, vira um card que errou ou não entendeu e aperta **Tab**. Aparece, por cima do próprio card, uma explicação curta e profunda daquele card: do conceito básico até a resposta, e como isso se encaixa na aula. Tab ou qualquer outra tecla fecha. Se a tecla for de resposta, o card é respondido na mesma hora.
+Você está revisando no Anki, vira um card que errou ou não entendeu e aperta **Tab**. Aparece, logo abaixo do texto, um bloco de explicação com fonte de 21 px: do conceito básico até a resposta, e como isso se encaixa na aula. Tab ou qualquer outra tecla fecha. Se a tecla for de resposta, o card é respondido na mesma hora.
 
 - **Uma explicação por card.** Irmãos de cloze da mesma nota têm explicações diferentes, cada uma focada no que aquele card esconde.
 - **Nada muda nos seus cards.** As explicações ficam num arquivo do add-on, fora da coleção. Não sincronizam, não aparecem no editor e não mexem no agendamento.
@@ -19,7 +19,7 @@ Umas 8 linhas, em português:
 > **Liga com:** algo que você **já estudou** em outro card (só aparece quando existe).
 > **Não confundir:** só quando há uma confusão clássica.
 
-Em card clínico, a explicação vai do fundamento (anatomia, fisiologia, micro, farmaco) até o achado ou efeito que o card cobra. Quando o card parece errado ou só pede um nome, ele não é explicado: aparece "Card marcado para revisão", com o motivo.
+Em card clínico, a explicação vai do fundamento (anatomia, fisiologia, micro, farmaco) até o achado ou efeito que o card cobra. Quando o card parece errado ou não oferece contexto suficiente, ele não é explicado: aparece "Card marcado para revisão", com o motivo.
 
 ## O que precisa ter
 
@@ -44,8 +44,12 @@ Depois feche e abra o Anki. Esse comando instala **só** o add-on do Tab (`nebli
 Com o Anki aberto, escolha os cards por uma **busca do Anki**, a mesma sintaxe da barra do navegador:
 
 ```bash
-# todos os cards de um deck
-python3 -m nebli.explicacoes gerar 'deck:"Minha UC::Microbiologia"'
+# todos os cards de um deck (o * no fim pega também os subdecks)
+python3 -m nebli.explicacoes gerar 'deck:"Minha UC::Microbiologia*"'
+
+# NEBLI: use a tag da aula (os nomes de deck do NEBLI levam o total, ex. "UC03 (992)",
+# e deck:"NEBLI::UC03::..." exato não acha nada)
+python3 -m nebli.explicacoes gerar '"tag:NEBLI::2026-uc03-imunologia-31-sistema-complemento"'
 
 # só os que você errou hoje (bom para começar)
 python3 -m nebli.explicacoes gerar 'deck:*Microbiologia* rated:1:1'
@@ -57,12 +61,13 @@ python3 -m nebli.explicacoes gerar 'deck:*Microbiologia*' --simular
 python3 -m nebli.explicacoes gerar 'deck:*Microbiologia*' --limite 20
 ```
 
-Cards que já têm explicação são pulados. Para refazer, por exemplo depois de mudar o estilo, acrescente `--refazer`.
+Cards com explicação do conteúdo e do estilo atuais são pulados. Cards editados ou com explicação em estilo antigo são atualizados. `--refazer` força a geração mesmo dos atuais.
 
 Outros comandos:
 
 ```bash
 python3 -m nebli.explicacoes resumo              # quantas existem, quantas no estilo antigo
+python3 -m nebli.explicacoes resumo 'deck:*Microbiologia*'   # cobertura exata: atual / faltando / desatualizada
 python3 -m nebli.explicacoes mostrar 1790248163066   # ler a explicação de um card (id do card)
 ```
 
@@ -95,5 +100,5 @@ A pasta `Anki2` fica em `~/Library/Application Support/Anki2` (Mac), `%APPDATA%\
 ## Limites atuais
 
 - Só no Anki para computador. A versão para tablet (AnkiDroid) usará uma função nos modelos dos cards, chamada pela "Ação do usuário". Está planejada, ainda não existe.
-- As explicações ficam no computador onde foram geradas. Outro computador precisa gerar as suas ou copiar o `explicacoes.sqlite`. Elas valem para os mesmos cards, porque a chave é o ID do card.
+- As explicações **não acompanham o APKG nem o AnkiWeb** nesta etapa. Outro computador precisa do add-on e da base `explicacoes.sqlite` (copiada com o Anki/gerador fechados, ou por backup SQLite), além de IDs de cards correspondentes. Uma importação pode mudar IDs; portanto copiar a base não garante que as explicações apareçam. Se isso acontecer, gere novamente no destino. Exportar não remove as explicações do computador de origem.
 - A IA pode errar. Ela parte do conteúdo do card e é instruída a não inventar, mas trate a explicação como apoio: se algo não bater com a aula, confie na aula e ajuste o card ou o estilo.

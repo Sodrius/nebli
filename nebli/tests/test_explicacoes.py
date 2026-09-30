@@ -1,5 +1,8 @@
 import hashlib
 import unittest
+import tempfile
+from pathlib import Path
+from unittest.mock import patch
 
 from nebli import explicacoes
 
@@ -29,6 +32,40 @@ class ExplicacoesTests(unittest.TestCase):
         fields = ["a", "b<br>c"]
         addon = hashlib.sha1(("\x1f".join(fields) + "\x1e2").encode("utf-8")).hexdigest()
         self.assertEqual(explicacoes.card_hash(fields, 2), addon)
+
+    def test_resume_regenerates_changed_content_and_style(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            db = explicacoes.open_store(Path(tmp) / "cache.sqlite")
+            current = card("{{c1::C3b}} opsonizes microbes", 0)
+            answer = ({"1": {"status": "ok", "texto": "Base: Complemento."}}, 0)
+            with patch.object(explicacoes, "collect", return_value=[current]), \
+                    patch.object(explicacoes, "studied_related", return_value=[]), \
+                    patch.object(explicacoes, "claude", return_value=answer) as generate:
+                explicacoes.generate(None, "test", db=db)
+                explicacoes.generate(None, "test", db=db)
+                self.assertEqual(generate.call_count, 1)
+                current["fields"]["Extra"]["value"] = "Edited mechanism"
+                explicacoes.generate(None, "test", db=db)
+                self.assertEqual(generate.call_count, 2)
+                db.execute("update explicacoes set estilo='old'")
+                explicacoes.generate(None, "test", db=db)
+                self.assertEqual(generate.call_count, 3)
+            db.close()
+
+    def test_connections_search_requires_actual_reviews(self):
+        queries = []
+        def call(action, **kwargs):
+            queries.append(kwargs["query"])
+            return []
+        self.assertEqual(explicacoes.studied_related(call, card("", 0), "complement"), [])
+        self.assertIn("prop:reps>0", queries[0])
+
+    def test_paid_api_key_prevents_launch(self):
+        with patch.dict("os.environ", {"ANTHROPIC_API_KEY": "test"}), \
+                patch.object(explicacoes.subprocess, "run") as launch:
+            with self.assertRaises(RuntimeError):
+                explicacoes.claude("rules", [])
+            launch.assert_not_called()
 
 
 if __name__ == "__main__":

@@ -14,5 +14,7 @@ Para a UC08, ler também [RECONSTRUCAO-UC08.md](RECONSTRUCAO-UC08.md): fila, fon
 
 - [CALIBRACAO-DECK-100-PERGUNTAS.md](CALIBRACAO-DECK-100-PERGUNTAS.md): respostas literais de Davi e esclarecimentos. Não refazer o questionário; Q093 vazia não bloqueia o trabalho.
 - [HISTORICO.md](HISTORICO.md): versões integrais e destino dos documentos retirados. Consultar para uma dúvida concreta, sem reativar instruções antigas.
+- [ANALISTA-RETENCAO.md](ANALISTA-RETENCAO.md): plano e pesquisa inicial do analista de retenção (tempo por card × repetições), ainda não construído.
+- Explicação por Tab: guia público [GUIA-EXPLICACOES-TAB.md](../../GUIA-EXPLICACOES-TAB.md); estilo em `config/explicacao-tab.md`; gate de cobertura no roteiro §6.
 
 Quem recebe feedback registra no arquivo comum e atualiza a preferência no MEMORY, em seu lugar. A fila guarda estado, a corrida guarda evidências. Não criar novos handoffs, contratos, memórias ou listas de ajustes concorrentes. Preferência nova orienta próximas entregas; deck anterior só muda a pedido de Davi.
