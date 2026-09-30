@@ -64,6 +64,8 @@ Conferir plano versus coleção: notas/cards/clozes e origens, campos/modelos/m�
 
 Compartilhados: provar associação por IDs vivos e consulta com conjunto conferido. Se só existe busca no navegador, dizer; não anunciar botão de estudo na segunda aula pronto. Não duplicar para contornar limitação da interface. Sync aceito pelo AnkiWeb não comprova chegada em Mac/Android/Windows.
 
+**Explicações do Tab (F-20260930-CLAUDE-11):** depois da instalação, gerar uma explicação por card da aula com `python3 -m nebli.explicacoes gerar 'deck:"<deck da aula>"'`. Cada card tem a sua, inclusive irmãos. A base fica fora da coleção e o estilo em `config/explicacao-tab.md`. Ler uma amostra (irmãos, autorais, imagem e todos os “revisar”) e registrar na REVISAO-DE-QUALIDADE; card marcado “revisar” é achado da própria revisão. `resumo` mostra explicações em estilo antigo.
+
 Manter na mesma corrida `plan.json`, snapshot anterior, `journal.jsonl`, `receipt.json`, `verification.json` e `REVISAO-DE-QUALIDADE.md`. A revisão sintetiza, com links às evidências existentes:
 
 - Versão/escopo, fontes realmente consultadas e varredura integral da aula; lacunas e exclusões relevantes.
