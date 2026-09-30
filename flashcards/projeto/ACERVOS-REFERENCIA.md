@@ -1,4 +1,4 @@
-# Acervos de referência — mapa de busca
+# Fontes e acervos — localizadores e modelos
 
 Inventário vivo em 23/09/2026, atualizado em 24/09/2026 (`arquivos-trabalho/lote-uc03p2-uc08p1-2026-09-24/catalogo.json`), perfil Davi, após reorganização e novas importações. Fonte completa: `arquivos-trabalho/reinicio-uc-2026-09-23/catalogo-vivo.json`. Foram mapeados todos os modelos presentes por contagem/consulta, com zero cards sem modelo identificado; conteúdo e tags lidos por amostra, não auditoria científica integral. Descoberta dinâmica, sem depender do nome da pasta-pai.
 
@@ -15,7 +15,7 @@ Todos os acervos externos abaixo estão em `Referências::Referências Externas:
 | Histology | 6.023 | Teoria/estrutura-função e figuras histológicas |
 | LLU Histology | 135 | Identificação histológica/prática e apoio sucinto |
 | University of Michigan - BlueLink Atlas | 2.992 | Reconhecimento anatômico/oclusão, alternativa visual ao AnKing |
-| AnatoKing (V2) | 3.493 | **Novo, 24/09.** Anatomia estilo AnKing (modelo `AnatoKingOverhaul V2`, tags `AnatoKing_v2::...`): relações, cadáver/ilustração. Buscar junto com Dope/BlueLink antes de autorar; conferir mídia faltante card a card |
+| AnatoKing (V2) | 3.493 | **Última opção entre acervos anatômicos, pedido de Davi em 28/09:** AnKing → outros (Dope/BlueLink/Dorian conforme alvo) → AnatoKing. Modelo `AnatoKingOverhaul V2`; conferir figura, destaque e resposta, além da existência da mídia. Imagem principal precisa ser grande e visível |
 | USMLE Lab Values | 232 | **Novo, 24/09.** Valores laboratoriais (modelo `LabValue`, subdecks Normal Range/Practice). Só quando a aula cobra um valor de referência; não importar a tabela inteira |
 
 São **22.684 cards externos** (vistoria de 24/09/2026), além do AnKing Step (35.068, em `Referências::Anking Step Deck` — com "k" minúsculo; o filho `Instructions` usa "AnKing"). O deck `Ankisthesia` (anestesia) apareceu no topo, mas estava vazio na vistoria. Nenhum deles deve ser incluído por quantidade ou reputação; todo candidato passa por alvo, qualidade e modelo. Ter um acervo não demonstra cobertura de uma lacuna antes da busca.
@@ -54,4 +54,25 @@ Atualizar com `python -m nebli.preflight --catalog --output <pasta-da-execucao>/
 
 Pesquisa de 24/09/2026 na [publicação do autor da V2](https://www.reddit.com/r/medicalschoolanki/comments/sgmmms/anatoking_v2_better_late_than_never/). A V2 foi anunciada com 3.493 cards, campos Cadaver/Illustration/Model/Imaging, relações musculares e estilo inspirado no AnKing. O autor também documenta cerca de 250 estruturas sem imagem testável e mídia faltante. São características daquela versão, não inspeção de pacote atual.
 
-Vale testar como acervo visual secundário, sobretudo cadáver, antes de criar visuais autorais. Não substitui AnKing e pode sobrepor BlueLink/Dope. Antes de incorporar: obter pacote de fonte autorizada, testar mídia/template em perfil isolado, verificar conflitos de IDs/modelos e avaliar amostra das regiões das próximas aulas. Importar como referência, sem ativar milhares de revisões. Incompletos não cobrem lacunas. Não executar instruções antigas de apagar decks para completar mídia. Nenhum download/importação autorizado só pela pergunta sobre utilidade.
+Davi avaliou em 28/09: “anato king não é bom, preferir anking, depois outros de anato depois anatoking”. Usar AnatoKing por último entre os acervos, somente quando a figura e o alvo forem bons; aumentar as imagens das cópias existentes. Pode haver várias práticas da mesma estrutura, com **um único representante verde**. Antes de incorporar: testar mídia/template, verificar conflitos de IDs/modelos e avaliar a região pertinente. Importar como referência, sem ativar milhares de revisões. Incompletos não cobrem lacunas. Não executar instruções antigas de apagar decks para completar mídia.
+
+## Bibliografia por matéria (Davi, 24/09/2026 — ele avisa quando mudar)
+
+"Sempre se atentar à bibliografia... não precisa pôr tudo deles, mas são a bibliografia do curso." Usar o livro para conferir recorte, profundidade e precisão, e citar no relatório o capítulo realmente consultado. Não transformar o capítulo em deck. Livro ausente → usar substituto de acesso livre e declarar.
+
+Pasta **Livros** no Drive: `1ZYH9ezNk8lH4h0ArsX2PgdOpsnf4N-ss`.
+
+| Matéria | Livro do curso | No Drive | Substituto se faltar |
+|---|---|---|---|
+| Patologia | Robbins | `1u6R2qzAKb7zEDeBzkD6_NSvDh7sjdvn6` (Livros; presença confirmada 28/09, conteúdo não lido nesta confirmação) | StatPearls (NCBI Bookshelf) do tópico; figuras do Robbins nos slides não equivalem a capítulo lido |
+| Microbiologia | Trabulsi-Alterthum, 6ª ed. | `1QiU-YUYL85MM0kTfHOQetm5VKJRO2PJ3` (Livros) | Murray/Medical Microbiology (Baron, NCBI Bookshelf) |
+| Imunologia | **Abbas** (confirmado 24/09) | `1JfWlKNQeGkEUh5Ih0CNqnZH4ft8mN_aT` (compartilhado pelo ICB) | Janeway 8ª ed. `1L45MKuyfHC_bbN2hhlWTjYq7UkJqC350` (Livros) |
+| Histologia / Biologia Tecidual | Junqueira | `1u14iVQGia6FwrZvubVcAMCiTXwU8QZVp` | Histology Guide (atlas indicado nos roteiros) |
+| Fisiologia | Margarida (de Mello Aires) | `1kyImyBETHBfM7Rp2o9gUqEn2-VE29XMr` | Guyton / Costanzo, se acessível |
+| Bioquímica / Biologia Molecular | Harper | não localizado | Berg *Biochemistry* 5ª ed. e Lodish *Molecular Cell Biology* 4ª ed. (NCBI Bookshelf, livres) |
+| Anatomia | Netter | Atlas `1nnetoiEhQCcsABxyuoAS3sUvw5HXukX_` (Livros) | — |
+| Endocrinologia (Grand Round DM) | — | Williams 11ª ed. `1Tt-NrQxSwbwirD_PMRT6eqxFqlpTNLec` (Livros, 587 MB) | — |
+
+Acesso aos PDFs: o conector Drive do Claude devolveu texto vazio para o Trabulsi (PDF grande). Baixar pelo navegador para uma pasta local ignorada pelo Git (`arquivos-trabalho/livros/`) e extrair só o capítulo com `pymupdf`. Não declarar leitura de capítulo que não foi aberto.
+
+Canais preferidos declarados: Ninja Nerd; Medicosis Perfectionalis e Patologia Fácil; Dirty Medicine; Armando Hasudungan, Osmosis e Professor Dave; Shomu's Biology. Q028, 29/09: oferecer uma seleção mais ampla de recursos pertinentes para Davi escolher, sem alegar cobertura de vídeo não assistido. O idioma e os critérios são os do MEMORY atual.

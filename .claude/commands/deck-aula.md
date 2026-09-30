@@ -1,16 +1,12 @@
 ---
-description: Produz E1 e cards NEBLI AnKing-first, com revisão e instalação verificadas
+description: Produz e revisa o deck-aula com as preferências consolidadas de Davi
 argument-hint: <nome, link ou pasta da aula> [observações]
 ---
 
 Argumentos: $ARGUMENTS
 
-Leia `flashcards/projeto/README.md` e siga sua ordem de leitura: FEEDBACKS.md, BANDEIRAS-E-PROGRESSAO.md, CONTRATO-DE-QUALIDADE.md, EXECUCAO-DECK-AULA.md, OPERACAO-CODEX-CLAUDE.md, ACERVOS-REFERENCIA.md, didatica/E1.md; PUBLICACAO-POR-UC.md ao empacotar. Na primeira sessão, HANDOFF-CLAUDE.md e MEMORY.md. Leia integralmente as instruções aplicáveis e o caso semelhante.
+Leia `flashcards/projeto/README.md` e sua ordem: `MEMORY.md` inteiro, `flashcards/projeto/FEEDBACKS.md` e `flashcards/projeto/EXECUCAO-DECK-AULA.md`. Mensagem comum segue a mesma rota. A entrega padrão é E1 + cards; exceções/estado na memória e fila vigente. Não usar handoffs/calibrações antigos como instruções atuais.
 
-Pedido de gerar autoriza execução do fluxo **E1 + cards**; avaliação sem pedido de correção é leitura externa. Respeite fila de propriedade, lock, originais, histórico e marcas pessoais. Não escolher uma próxima aula se o pedido for apenas ajustar pipeline.
+Execute o pedido com as fontes, curadoria, revisão e proteção do roteiro. Recupere exemplos calibrados antes de autorar; demonstre aplicação real na revisão da mesma corrida. Entregue o deck pronto sem transferir a Davi a auditoria de cobertura ou de verdes. Limites técnicos e semânticos devem ser declarados separadamente.
 
-Prioridades: cobrir bem o recorte sem ampliar para outras aulas; E1 rigorosa/didática; AnKing → externos → autoria excepcional comprovada; sem duplicatas semânticas sem ganho. Verde = manter a longo prazo; azul = vale aprender/menor custo de esquecer; branco = incerteza real. Média ~50 verdes é calibração, não cota. Não reclassificar coleção toda.
-
-Verifique cards/clozes, versos, imagens, compartilhados acessíveis e origem real. Não prometer integralidade com tags/contagens. Entregar E1/guia, Anki verificado, APKG local por UC comprimido sem flags no arquivo. **Upload de APKG pausado**; E1/guia seguem pasta privada quando publicação autorizada. Vídeos no chat/guia, não nos cards.
-
-Registrar feedback no registro único. Relatar contabilidade, resolvidos/pendentes, acesso/sync/exportação/publicação separados. Não chamar o comando documental de CLI autônoma comprovada.
+Grave todo feedback desta sessão no registro comum e atualize a preferência no MEMORY em seu lugar. Melhorias orientam próximas entregas; alterar deck anterior só se pedido. Reler acréscimos concorrentes antes de fechar. Este comando orienta execução assistida, não um serviço autônomo em segundo plano.

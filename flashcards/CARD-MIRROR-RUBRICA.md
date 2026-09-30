@@ -1,3 +1,5 @@
+> **HISTÓRICO — autoridade substituída em 29/09/2026.** O corpo abaixo conserva pesquisa, exemplos ou schema de versões anteriores. Para decks médicos atuais, seguir [entrada vigente](projeto/README.md) e [MEMORY](../MEMORY.md); este arquivo não define preferências, quotas, idioma, modelos obrigatórios ou gates de produção. Não executar o fluxo E2/E3, mover originais, restaurar cards ou aplicar opções antigas a partir dele. Exemplos podem ser consultados criticamente, sem reativar suas regras. Etimologia segue seu contexto próprio.
+
 # CARD-MIRROR — rubrica viva (o que faz um NEBLIcard parecer AnKing-nativo)
 
 > Depósito permanente do aprendizado do loop adversarial. Cada linha nasceu de um **tell** que o discriminador `card-mirror` pegou e o refinador corrigiu. Esta é a spec de geração: NEBLIcard novo deve satisfazer tudo aqui **antes** de entrar e passar por `lint_neblicard.py`.

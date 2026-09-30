@@ -8,6 +8,8 @@ Uso (Anki aberto com AnkiConnect):
     python -m nebli.decks desfazer arquivos-trabalho/deck-ops/<registro>.json
     python -m nebli.decks liberar microbiologia         # todos os novos do ramo, sem limite diário
     python -m nebli.decks liberar microbiologia --encerrar
+    python -m nebli.decks liberar microbiologia --treino  # cram dos novos sem reagendar
+    python -m nebli.decks liberar microbiologia --treino --encerrar
     python -m nebli.decks instalar-addon                # add-on que põe o total no nome
 
 O trecho casa sem acento nem maiúscula com qualquer parte do caminho canônico do
@@ -203,27 +205,31 @@ def count_on_click(canonical_name, wait=None):
     return None
 
 
-def release(call, patterns, stop=False):
-    """Liga/desliga o filtrado "NEBLI · <ramo>: todos os novos", mantido pelo add-on."""
+def release(call, patterns, stop=False, train=False):
+    """Liga/desliga o filtrado "NEBLI · <ramo>: todos os novos", mantido pelo add-on.
+
+    train: "NEBLI · <ramo>: treino dos novos", cram sem reagendar (os cards continuam novos).
+    """
     branches, missing = resolve(call("deckNames"), patterns)
     if missing:
         raise SystemExit("Nenhum deck NEBLI casa com: " + ", ".join(missing))
     config = read_config()
-    current = config.setdefault("liberar_novos", [])
+    key_name = "treino_novos" if train else "liberar_novos"
+    current = config.setdefault(key_name, [])
     for b in branches:
         key = rotulos.canonical(b)
         if stop and key in current:
             current.remove(key)
         elif not stop and key not in current:
             current.append(key)
-        print(f"  {key}: {'liberação encerrada, novos voltam ao preset' if stop else 'todos os novos liberados'}")
+        print(f"  {key}: {'filtrado encerrado, cards voltam às aulas' if stop else 'treino sem reagendar' if train else 'todos os novos liberados'}")
     LIMITS.parent.mkdir(parents=True, exist_ok=True)
     LIMITS.write_text(json.dumps(config, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     if stop:
         return
     for b in branches:
         leaf = rotulos.canonical(b).rsplit("::", 1)[-1]
-        name = f"{rotulos.ROOT} · {leaf}: todos os novos"
+        name = f"{rotulos.ROOT} · {leaf}: {'treino dos novos' if train else 'todos os novos'}"
         available = len(call("findCards", query=f"{deck_query(b)} is:new -is:suspended -is:buried"))
         end = time.monotonic() + ESPERA
         counts = None
@@ -243,11 +249,20 @@ def install_addon():
         Path.home() / ("Library/Application Support/Anki2" if sys.platform == "darwin" else ".local/share/Anki2")
     target = base / "addons21" / "nebli_decks"
     target.mkdir(parents=True, exist_ok=True)
-    for name in ("__init__.py", "meta.json"):
-        shutil.copy2(ADDON_SRC / name, target / name)
-    (target / "config.json").write_text(json.dumps({"repo": str(ROOT)}, ensure_ascii=False) + "\n",
-                                        encoding="utf-8")
+    shutil.copy2(ADDON_SRC / "__init__.py", target / "__init__.py")
+    if not (target / "meta.json").exists():
+        shutil.copy2(ADDON_SRC / "meta.json", target / "meta.json")
+    config_path = target / "config.json"
+    config = json.loads(config_path.read_text(encoding="utf-8")) if config_path.exists() else {}
+    config["repo"] = str(ROOT)
+    config_path.write_text(json.dumps(config, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Add-on em {target}. Na primeira instalação, reiniciar o Anki; depois ele se atualiza sozinho.")
+    shortcuts = base / "addons21" / "nebli_atalhos"
+    shortcuts.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(ADDON_SRC.parent / "nebli_atalhos" / "__init__.py", shortcuts / "__init__.py")
+    if not (shortcuts / "meta.json").exists():
+        shutil.copy2(ADDON_SRC.parent / "nebli_atalhos" / "meta.json", shortcuts / "meta.json")
+    print(f"Atalhos de revisão em {shortcuts}. Reiniciar o Anki para carregar mudanças.")
 
 
 def status(call, patterns=()):
@@ -285,6 +300,9 @@ def status(call, patterns=()):
     for branch in read_config().get("liberar_novos", []):
         print(f"Liberado ({LIMITS.name}): todos os novos de {branch} no filtrado "
               f"\"{rotulos.ROOT} · {branch.rsplit('::', 1)[-1]}: todos os novos\".")
+    for branch in read_config().get("treino_novos", []):
+        print(f"Treino sem reagendar ({LIMITS.name}): novos de {branch} no filtrado "
+              f"\"{rotulos.ROOT} · {branch.rsplit('::', 1)[-1]}: treino dos novos\".")
 
 
 def main():
@@ -305,6 +323,7 @@ def main():
     li = sub.add_parser("liberar", help="todos os novos do ramo num filtrado sem limite diário")
     li.add_argument("trechos", nargs="+")
     li.add_argument("--encerrar", action="store_true", help="desfaz o filtrado; os cards voltam às aulas")
+    li.add_argument("--treino", action="store_true", help="cram sem reagendar: os cards continuam novos")
     sub.add_parser("instalar-addon", help="copia o add-on nebli_decks para o Anki deste computador")
     args = parser.parse_args()
     if args.cmd == "instalar-addon":
@@ -316,7 +335,7 @@ def main():
     elif args.cmd == "desfazer":
         undo(call, args.registro, sync=not args.sem_sync)
     elif args.cmd == "liberar":
-        release(call, args.trechos, stop=args.encerrar)
+        release(call, args.trechos, stop=args.encerrar, train=args.treino)
     else:
         change(call, args.trechos, args.cmd == "suspender",
                simulate=args.simular, sync=not args.sem_sync)

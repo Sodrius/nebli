@@ -123,7 +123,30 @@ class DecksTests(unittest.TestCase):
                          {"liberar_novos": ["NEBLI::Microbiologia"]})
         decks.release(anki, ["micro"], stop=True)
         self.assertEqual(json.loads(decks.LIMITS.read_text(encoding="utf-8")), {"liberar_novos": []})
+        with patch.object(decks, "count_on_click", return_value=None):
+            decks.release(anki, ["micro"], train=True)
+        self.assertEqual(json.loads(decks.LIMITS.read_text(encoding="utf-8")),
+                         {"liberar_novos": [], "treino_novos": ["NEBLI::Microbiologia"]})
         self.assertEqual(anki.writes, [])
+
+    def test_reinstall_repairs_missing_config_without_overwriting_user_metadata(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            home = Path(tmp)
+            target = home / 'Library/Application Support/Anki2/addons21/nebli_decks'
+            target.mkdir(parents=True)
+            original_meta = '{"disabled": false, "custom": "preservar"}'
+            (target / 'meta.json').write_text(original_meta)
+            with patch.object(decks.sys, 'platform', 'darwin'), patch.object(Path, 'home', return_value=home):
+                decks.install_addon()
+                self.assertEqual(json.loads((target / 'config.json').read_text())['repo'], str(decks.ROOT))
+                self.assertEqual((target / 'meta.json').read_text(), original_meta)
+                (target / 'config.json').write_text('{"repo":"antigo", "opcao_pessoal":true}')
+                decks.install_addon()
+            self.assertEqual(json.loads((target / 'config.json').read_text()),
+                             {'repo': str(decks.ROOT), 'opcao_pessoal': True})
+            shortcuts = target.parent / 'nebli_atalhos'
+            self.assertTrue((shortcuts / '__init__.py').exists())
+            self.assertIn('asdf', (shortcuts / '__init__.py').read_text(encoding='utf-8').replace(' ', ''))
 
 if __name__ == "__main__":
     unittest.main()

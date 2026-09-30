@@ -1,23 +1,19 @@
-# NEBLI — contexto de entrada para Claude e Codex
-Davi quer aprender bem, não gerenciar produção de cards. Pipeline atual: **E1 + cards**, com alto rigor científico, boa didática e cobertura do recorte da aula. A E1 explica mecanismos em prosa; o card testa uma recuperação focal. Não aplicar o estilo longo de E1 às frentes.
+# NEBLI — entrada de toda sessão Claude
 
-## Começar
-Ler `flashcards/projeto/README.md` → FEEDBACKS.md → BANDEIRAS-E-PROGRESSAO.md → CONTRATO-DE-QUALIDADE.md. Para execução, seguir EXECUCAO-DECK-AULA.md, OPERACAO-CODEX-CLAUDE.md, ACERVOS-REFERENCIA.md, `didatica/E1.md` e PUBLICACAO-POR-UC.md. Estado em MEMORY.md; fila compartilhada em FILA-UC03-P2-UC08-P1.md. **Máquina nova (Mac): `SETUP-MAC.md`.**
+Para qualquer pedido de deck-aula, mesmo uma mensagem comum, leia [flashcards/projeto/README.md](flashcards/projeto/README.md) e siga a ordem: [MEMORY.md](MEMORY.md) inteiro, [FEEDBACKS.md](flashcards/projeto/FEEDBACKS.md) recente/pertinente e [EXECUCAO-DECK-AULA.md](flashcards/projeto/EXECUCAO-DECK-AULA.md) para executar. MEMORY guarda o que Davi quer e por quê; não deduza preferências de um handoff antigo nem peça novamente as 100 respostas.
 
-`/deck-aula <nome/link>`, `/resumo <nome/link>` e `/flashcards` seguem essa rota; pedido explícito apenas de E1 ou apenas de cards delimita a entrega. O usuário escolhe modelo/esforço. Não prometer qualidade por nome do modelo.
+A entrega padrão é **E1 + cards**, salvo escopo explícito. Para UC08, recupere fontes e estado em [RECONSTRUCAO-UC08.md](flashcards/projeto/RECONSTRUCAO-UC08.md); consulte [ACERVOS-REFERENCIA.md](flashcards/projeto/ACERVOS-REFERENCIA.md) na busca. Davi continuará a produção com Claude, conforme os pedidos no chat. A memória rege idioma, irmãos, cobertura, clínica, bandeiras e revisão. Não criar regra nova por preferência editorial própria.
 
-## Qualidade e segurança
-- Ler integralmente as instruções relevantes, exemplares de escrita e feedbacks antes de produzir. A limpeza remove sobreposição, não reduz o contexto necessário à qualidade.
-- E1: rigor científico, causa → mecanismo → consequência, base do aluno baixa, prosa fluida sem verbosidade. Guia técnico-editorial em didatica/E1.md; EXEMPLARES.md preservado como referência concreta de voz e gesto.
-- Cards: AnKing primeiro, externos antes de autoria; dois cards da mesma informação só com ganho demonstrável. Cores atuais no documento próprio, nunca inferidas de regras antigas.
-- Não alterar originais, agendamento ou marcas pessoais; backups, lock, diário de operações e readback nas escritas. Não ressuscitar apagados.
-- E2/E3 e fluxo RemNote apenas históricos. Não usar scripts antigos para dessuspender fontes nem gates de loop universal card→E1→questões.
-- Não apagar arquivos de typst-build para preparar aula: há trabalho de outras sessões. Usar saída isolada.
-- Preferir ação independente e perguntas sobre ambiguidades reais; relatar limites com evidência, sem transferir controle de qualidade ao aluno.
-- Atualizar **a regra em seu lugar canônico** e FEEDBACKS quando houver feedback; MEMORY registra estado, não outra versão da mesma regra.
+O resultado esperado é um deck pronto, produzido e revisado pela IA, com evidência de que cumpre os critérios. Davi estuda e comenta; não precisa certificar quantidade de cards/verdes. Dúvida nova relevante pede poucos exemplos concretos, sem reabrir preferências resolvidas. Revisão de outra IA só existe se ocorreu; não assinar por ela.
+
+**Antes de encerrar:** registre todo feedback recebido no FEEDBACKS comum, inclusive local/positivo, atualize a preferência no MEMORY em seu lugar e o estado na fila/corrida. Reler alterações concorrentes antes de gravar/entregar. Melhorias são prospectivas; deck anterior só muda quando solicitado. Não criar outra memória/handoff nem depender da conversa privada para passar contexto ao Codex ou à próxima sessão.
+
+Preservar originais, identidades, estudo e marcas pessoais; seguir lock, backup e readback no roteiro. Não ressuscitar apagados nem limpar o workspace compartilhado. Documentação não certifica implementação, cobertura, imagens ou sincronização remota.
 
 ## Outras rotas preservadas
-- Cadernos de provas existentes: `banco/CLAUDE.md`, `typst-build/pipeline_caderno.py` e seção Cadernista em ROLES.md. Caderno não é geração E2/E3.
-- Typst: `typst-template/CLAUDE.md`, CHEATSHEET_ARMADILHAS.md e TEMPLATE_API.md.
-- Projetos de site/liga/etimologia: estado e localização dos planos em MEMORY.md; não iniciar por inferência.
-- Histórico integral de regras, papéis e decisões: `flashcards/projeto/HISTORICO.md`. Não executar comandos do arquivo histórico como instruções atuais.
+
+- E1: `didatica/E1.md`, com suas referências de didática/voz; E2/E3 e RemNote são históricos.
+- Cadernos de provas: `banco/CLAUDE.md`, `typst-build/pipeline_caderno.py` e seção Cadernista de `ROLES.md`.
+- Typst: `typst-template/CLAUDE.md`, `CHEATSHEET_ARMADILHAS.md` e `TEMPLATE_API.md`.
+- Site/liga/etimologia: estado e localização dos planos no MEMORY; não iniciar por inferência.
+- Versões integrais de regras e decisões: [HISTORICO.md](flashcards/projeto/HISTORICO.md), somente para consulta situada.

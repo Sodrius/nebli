@@ -4,6 +4,8 @@
 > UC do sistema digestório, **multidisciplinar**: Anatomia · Biologia Tecidual II (Histologia) · Fisiologia · Biocel/Embriologia. **Duas provas** (P1, P2).
 > **Davi = Turma B** → as datas do Davi são a coluna **Turma B**. **P1 = 05/10** · **P2 = 30/11**. A Turma B começa 03/08 (14h-18h).
 
+> **Correção de classificação, Davi 24/09 e 29/09/2026:** motilidade = P1; secreções e digestão FI05/FI06 = P2, embora as datas sejam anteriores à P1. Datas reconferidas na aba Mês em 29/09; a aba Matérias ainda tem marcações divergentes e não foi editada. O pedido explícito prevalece. Execução atual: [reconstrução UC08](../flashcards/projeto/RECONSTRUCAO-UC08.md).
+
 ## Responsáveis (Anatomia)
 - **Coordenadora:** Profa. Dra. Patrícia Castelucci. Colaboradora: Nathalia Senger/Singer. 90 alunos, Turmas A e B.
 
@@ -22,8 +24,6 @@
 | Intestino grosso e canal anal (teórica + prática) | 13/08 | 10/08 | Anatomia | P1 |
 | Estrutura geral do estômago (teórico-prática) | 20/08 | 17/08 | Bio Tecidual II | P1 |
 | Intestinos (teórico-prática) | 27/08 | 24/08 | Bio Tecidual II | P1 |
-| Esôfago/Estômago — Fisiologia: secreções e digestão | 27/08 | 24/08 | Fisiologia | P1 |
-| Intestino — Fisiologia: secreções e digestão | 03/09 | 31/08 | Fisiologia | P1 |
 | Vascularização das vísceras (teórica + prática) | 10/09 | 11/09 | Anatomia | P1 |
 | Intestinos — Fisiologia: motilidade e absorção | 17/09 | 14/09 | Fisiologia | P1 |
 | Intestino — Fisiologia: motilidade e absorção (cont.) | 01/10 | 28/09 | Fisiologia | P1 |
@@ -32,6 +32,8 @@
 ### Bloco Prova 2
 | Aula (tema) | Turma A | Turma B | Componente | Prova |
 |---|---|---|---|---|
+| Esôfago/Estômago — Fisiologia: secreções e digestão | 27/08 | 24/08 | Fisiologia | P2 |
+| Intestino — Fisiologia: secreções e digestão | 03/09 | 31/08 | Fisiologia | P2 |
 | Fígado / Pâncreas e vias biliares (teórica + prática) | 15/10 | 26/10 | Anatomia | P2 |
 | Fígado / Pâncreas / Embriologia | 22/10 | 19/10 | Biocel/Embrio | P2 |
 | Fígado / Pâncreas — Fisiologia: função hepato-biliar, metabolismo, secreções | 29/10 | 09/11 | Fisiologia | P2 |
@@ -42,5 +44,5 @@
 **Locais:** anf. 06 / 202 · lab 007 (Anatomia) · sala 130 ICBI (BioTec/Fisiologia).
 
 ## Estado NEBLI
-- Nenhum resumo gerado ainda.
-- **Naming sugerido do PDF:** `<aula curta> - Etapas 1 a 3 - PC` (Patrícia Castelucci, Anatomia); árvore de deck `NEBLI::Digestório::<P1|P2>::<Anatomia|Histologia|Fisiologia>::<aula>`.
+- Estado corrente e fila: [reconstrução UC08 de 29/09](../flashcards/projeto/RECONSTRUCAO-UC08.md), somente cards, sem E1. Este digest descreve calendário, não presença/qualidade de decks no Anki.
+- Hierarquia vigente: `NEBLI::UC08::<P1|P2>::<Componente>::<Aula>`, conforme EXECUCAO-DECK-AULA.md (hierarquia e publicação). A sugestão antiga de “Etapas 1 a 3”/“NEBLI::Digestório” é histórica e não rege a reconstrução.

@@ -1,10 +1,11 @@
 # NEBLI — instruções de entrada
-Para E1, cards, Anki, curadoria e arquitetura: ler primeiro `flashcards/projeto/README.md` e seguir sua ordem atual de leitura, incluindo FEEDBACKS.md, BANDEIRAS-E-PROGRESSAO.md e CONTRATO-DE-QUALIDADE.md. O pipeline padrão é **E1 + cards**. E2/E3 são histórico; não executar regras antigas de /resumo.
 
-Para executar: EXECUCAO-DECK-AULA.md, OPERACAO-CODEX-CLAUDE.md, ACERVOS-REFERENCIA.md, `didatica/E1.md` e PUBLICACAO-POR-UC.md no contexto indicado pelo README. Não confundir documentação com automação comprovada.
+Para E1, cards, Anki, curadoria e arquitetura, ler primeiro `flashcards/projeto/README.md` e seguir a ordem: `MEMORY.md`, `flashcards/projeto/FEEDBACKS.md` e, na execução, `flashcards/projeto/EXECUCAO-DECK-AULA.md`. Isso vale para mensagem comum em toda nova sessão. As respostas de calibração já estão consolidadas; não pedir que Davi reensine suas preferências.
 
-Lote UC03 P2/UC08 P1: ler `flashcards/projeto/FILA-UC03-P2-UC08-P1.md`; Codex assume somente sua fila (Patologia/Imunologia e Anatomia/Biologia Tecidual). Marcar aula antes de começar. Escrita Anki usa `arquivos-trabalho/ANKI-ESCRITA.lock`. Atualizar feedback geral no registro único, não espalhar regras pela fila.
+MEMORY é a única memória normativa dos decks. O pipeline padrão é **E1 + cards**, com exceções e estado na memória/fila. UC08: `flashcards/projeto/RECONSTRUCAO-UC08.md`; fontes/modelos: `flashcards/projeto/ACERVOS-REFERENCIA.md`. E1 quando aplicável: `didatica/E1.md`. Não usar divisão de tarefas, idioma ou ritmo de handoffs antigos. E2/E3 são histórico.
 
-Preservar originais, histórico, edições, flags e suspensões pessoais. Auditoria/planejamento são somente leitura externa, salvo pedido explícito de correção. Não restaurar limpeza manual de artefatos antigos. Não reclassificar toda a coleção: calibrar incrementalmente.
+Todo feedback recebido por qualquer executor vai ao registro único nesta sessão. Atualizar a preferência em seu lugar no MEMORY; não espalhar regras pela fila. Aplicar melhorias às próximas entregas; alterar deck anterior só quando Davi pedir. Demonstrar aplicação dos critérios na revisão, não apenas leitura dos arquivos.
 
-Outras tarefas: CLAUDE.md e MEMORY.md. Preservar alterações locais não relacionadas; regras de etimologia não governam cards médicos. Histórico e versões integrais anteriores em `flashcards/projeto/HISTORICO.md`.
+Preservar originais, estudo, edições, flags, suspensões pessoais e trabalho local não relacionado. Escrita Anki usa `nebli.decks.escrita()` e `arquivos-trabalho/ANKI-ESCRITA.lock`, conforme o roteiro. Auditoria/planejamento são somente leitura externa, salvo correção solicitada. Não restaurar artefatos limpos manualmente nem reclassificar a coleção toda.
+
+Outras tarefas: `CLAUDE.md` e `MEMORY.md`. Regras de etimologia não governam cards médicos. Versões integrais e fila antiga em `flashcards/projeto/HISTORICO.md`; não são instruções atuais.

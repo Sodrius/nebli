@@ -2,7 +2,7 @@
 E1 + cards são conduzidos pela sessão executora conforme `flashcards/projeto/README.md`. Não há necessidade de delegação ou modelo fixo como condição de qualidade. Ler as instruções aplicáveis integralmente; responsabilidade de verificação permanece com quem entrega.
 
 - E1: `didatica/E1.md`, EXEMPLARES.md, ANTI-EXEMPLARES.md, ajustes-finos-recentes.md; preserve didática e precisão.
-- Cards: EXECUCAO-DECK-AULA, CONTRATO, FEEDBACKS, BANDEIRAS-E-PROGRESSAO e ACERVOS-REFERENCIA.
+- Cards: MEMORY.md, EXECUCAO-DECK-AULA, FEEDBACKS e ACERVOS-REFERENCIA, pela ordem do README.
 - Revisão: passes separados de precisão/recorte, didática/recuperação, imagens/renderização e identidade/entrega; não confundir um com outro.
 - Compilação: modo somente-E1, saída isolada, template atual e revisão textual/visual. Detalhes atuais em didatica/E1.md.
 - Questionador/E2/E3/RemNote: papéis aposentados do fluxo atual; íntegra no arquivo histórico, não carregar como instrução de nova aula.

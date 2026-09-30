@@ -23,6 +23,10 @@ LOCK = REPO / "arquivos-trabalho" / "ANKI-ESCRITA.lock"
 CONFIG = REPO / "config" / "anki-decks.json"
 ORDER_ADDED = 5  # DYN_ADDED: novos na ordem em que as aulas foram instaladas
 SUFFIX = ": todos os novos"
+TRAIN_SUFFIX = ": treino dos novos"
+# Treino: só Fácil (f) tira o card; Bom (d) volta mais tarde na sessão (Davi, 30/09).
+TRAIN_DELAYS = {"previewAgainSecs": 60, "previewHardSecs": 600, "previewGoodSecs": 1800}
+_delays_failed = set()
 
 
 def relabel(col, strip, log):
@@ -66,24 +70,57 @@ def _filtered_id(col, name):
                  if col.decks.is_filtered(d.id) and rotulos.canonical(d.name) == name), None)
 
 
+def train_name(branch):
+    return f"NEBLI · {branch.rsplit('::', 1)[-1]}{TRAIN_SUFFIX}"
+
+
+def _train_delays(col, did, log):
+    """Atrasos do treino direto na configuração do filtrado: sem reconstruir, nada volta."""
+    deck = col.decks.get(did)
+    if did in _delays_failed or all(deck.get(k) == v for k, v in TRAIN_DELAYS.items()):
+        return 0
+    deck.update(TRAIN_DELAYS)
+    col.decks.save(deck)
+    saved = col.decks.get(did)
+    if not all(saved.get(k) == v for k, v in TRAIN_DELAYS.items()):
+        _delays_failed.add(did)
+        log(f"atrasos do treino não gravaram em {deck['name']}: conferir versão do Anki")
+        return 0
+    log(f"atrasos do treino: {deck['name']} (Bom volta em 30 min; só Fácil tira)")
+    return 1
+
+
 def release_new(col, mw, store, log):
-    """Deck filtrado com todos os novos de cada ramo liberado; encerra os que saíram do config."""
+    """Filtrados de novos por ramo; encerra os que saíram do config.
+
+    "todos os novos" (liberar_novos) conta para o agendamento e é reconstruído a cada
+    tique. "treino dos novos" (treino_novos) é cram sem reagendar: os cards continuam
+    novos; é montado uma vez só, e recomeçar o treino ou apagar o deck fica com Davi
+    (botão Reconstruir/Excluir do Anki).
+    """
     config = json.loads(CONFIG.read_text(encoding="utf-8")) if CONFIG.exists() else {}
-    wanted = {filtered_name(branch): branch for branch in config.get("liberar_novos", [])}
+    wanted = {filtered_name(branch): (branch, True) for branch in config.get("liberar_novos", [])}
+    wanted.update({train_name(branch): (branch, False) for branch in config.get("treino_novos", [])})
     state_file = store / "filtrados.json"
     managed = set(json.loads(state_file.read_text(encoding="utf-8"))) if state_file.exists() else set()
+    kept = set(managed)
     changed = 0
     for name in sorted(managed - set(wanted)):
         did = _filtered_id(col, name)
         if did:
             col.sched.empty_filtered_deck(did)
             col.decks.remove([did])
-            log(f"liberação encerrada, cards de volta às aulas: {name}")
+            log(f"filtrado encerrado, cards de volta às aulas: {name}")
             changed += 1
-    for name, branch in wanted.items():
+        kept.discard(name)
+    for name, (branch, reschedule) in wanted.items():
+        if not reschedule and name in managed:
+            did = _filtered_id(col, name)
+            changed += _train_delays(col, did, log) if did else 0
+            continue
         ids = _branch_ids(col, branch)
         if not ids:
-            log(f"ramo não encontrado para liberar: {branch}")
+            log(f"ramo não encontrado para filtrar: {branch}")
             continue
         did = _filtered_id(col, name)
         pending = col.db.scalar(
@@ -96,13 +133,17 @@ def release_new(col, mw, store, log):
         del deck.config.search_terms[:]
         deck.config.search_terms.add(search="(" + " or ".join(f"did:{i}" for i in ids) + ") is:new",
                                      limit=9999, order=ORDER_ADDED)
-        deck.config.reschedule = True
-        col.sched.add_or_update_filtered_deck(deck)
-        log(f"filtrado {'criado' if did is None else 'reconstruído'}: {name} ({pending} novos a reunir)")
+        deck.config.reschedule = reschedule
+        out = col.sched.add_or_update_filtered_deck(deck)
+        if not reschedule:
+            _train_delays(col, did or out.id, log)
+        kept.add(name)
+        log(f"filtrado {'criado' if did is None else 'reconstruído'}: {name} ({pending} novos a reunir"
+            f"{'' if reschedule else ', sem reagendar'})")
         changed += 1
-    if set(wanted) != managed:
+    if kept != managed:
         store.mkdir(parents=True, exist_ok=True)
-        state_file.write_text(json.dumps(sorted(wanted), ensure_ascii=False), encoding="utf-8")
+        state_file.write_text(json.dumps(sorted(kept), ensure_ascii=False), encoding="utf-8")
     return changed
 
 

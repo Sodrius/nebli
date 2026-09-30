@@ -1,3 +1,5 @@
+> **HISTÓRICO — autoridade substituída em 29/09/2026.** O corpo abaixo conserva pesquisa, exemplos ou schema de versões anteriores. Para decks médicos atuais, seguir [entrada vigente](projeto/README.md) e [MEMORY](../MEMORY.md); este arquivo não define preferências, quotas, idioma, modelos obrigatórios ou gates de produção. Não executar o fluxo E2/E3, mover originais, restaurar cards ou aplicar opções antigas a partir dele. Exemplos podem ser consultados criticamente, sem reativar suas regras. Etimologia segue seu contexto próprio.
+
 # PESQUISA — O que é um bom card (empírico + teórico) → como o NEBLI gera NEBLIcards
 
 > **Criado 2026-07-11.** Base de referência que a sessão usa para **gerar NEBLIcards** (cards autorais para lacunas que o AnKing não cobre). Junta três fontes: (1) dissecação de **500 cards reais do AnKing v12**, (2) princípios canônicos de formulação de conhecimento (SuperMemo, Matuschak, Nielsen), (3) estado-da-arte de IA gerando cards. Este é o resultado permanente da pesquisa; o plano de execução foi encerrado.

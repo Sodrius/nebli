@@ -1,10 +1,8 @@
 ---
-description: Produz E1 de alta qualidade e cards NEBLI no pipeline vigente
+description: Alias do pipeline E1 + cards NEBLI
 argument-hint: <nome, link ou pasta da aula> [observações]
 ---
 
 Argumentos: $ARGUMENTS
 
-Leia `flashcards/projeto/README.md` e siga a mesma rota de `/deck-aula`: **E1 + cards**, salvo pedido explícito de apenas um deles. Ler FEEDBACKS.md, BANDEIRAS-E-PROGRESSAO.md, CONTRATO-DE-QUALIDADE.md e didatica/E1.md.
-
-Não executar E2/E3, RemNote, loop obrigatório card→E1→questões ou scripts de dessuspensão de originais. Não apagar o workspace compartilhado. Preservar fontes, identidade/histórico e marcas pessoais. Executar runbook atual, com revisão científica e visual; relatório sucinto e estados honestos. APKG local por UC; upload pausado.
+Execute `.claude/commands/deck-aula.md` com estes argumentos. A entrada é `flashcards/projeto/README.md`: `MEMORY.md`, `flashcards/projeto/FEEDBACKS.md` e `flashcards/projeto/EXECUCAO-DECK-AULA.md`. E1 + cards é o padrão; o escopo explícito e a fila vigente definem exceções. E2/E3 e RemNote são históricos. Não executar limpeza do workspace ou restauração de cards a partir de comandos antigos.

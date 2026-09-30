@@ -1,3 +1,5 @@
+> **HISTÓRICO — autoridade substituída em 29/09/2026.** O corpo abaixo conserva pesquisa, exemplos ou schema de versões anteriores. Para decks médicos atuais, seguir [entrada vigente](projeto/README.md) e [MEMORY](../MEMORY.md); este arquivo não define preferências, quotas, idioma, modelos obrigatórios ou gates de produção. Não executar o fluxo E2/E3, mover originais, restaurar cards ou aplicar opções antigas a partir dele. Exemplos podem ser consultados criticamente, sem reativar suas regras. Etimologia segue seu contexto próprio.
+
 # EXEMPLARES-CARDS.md — few-shot de bons cards
 
 > Referência dupla, como o `EXEMPLARES.md` dos resumos: (a) **gesto** — o que um bom card testa e por quê; (b) **forma** — a voz cloze do AnKing v12, que os cards NEBLI autorais devem imitar para ficarem indistinguíveis no deck. Ler antes de gerar qualquer card autoral. Sementes vindas da aula embrio-gastrulacao-neurulacao (2026-07-10).

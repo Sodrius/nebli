@@ -1,3 +1,5 @@
+> **HISTÓRICO — autoridade substituída em 29/09/2026.** O corpo abaixo conserva pesquisa, exemplos ou schema de versões anteriores. Para decks médicos atuais, seguir [entrada vigente](projeto/README.md) e [MEMORY](../MEMORY.md); este arquivo não define preferências, quotas, idioma, modelos obrigatórios ou gates de produção. Não executar o fluxo E2/E3, mover originais, restaurar cards ou aplicar opções antigas a partir dele. Exemplos podem ser consultados criticamente, sem reativar suas regras. Etimologia segue seu contexto próprio.
+
 # estrutura-deck-mestre.md — como o deck NEBLI espelha a FMUSP
 
 > Plano de organização do deck Anki para (a) refletir a estrutura FMUSP (UC › componente › aula) que o Davi já usa no Drive com as apostilas, (b) permitir "revisar só a aula X" e (c) manter o fluxo "deck geralzão, 15 novos/dia". Criado 2026-07-10; a decisão A vs B abaixo estava marcada "a pensar" pelo Davi.

@@ -1,51 +1,99 @@
-# Execução — E1 + cards
-Runbook vigente, 25/09/2026. Ler contexto segundo README.md; critérios no CONTRATO-DE-QUALIDADE, feedbacks no registro único, cores em BANDEIRAS-E-PROGRESSAO. **Não executar scripts antigos de uma aula para reconstruir seu estado atual.**
+# Execução de deck-aula — fontes, revisão e entrega
 
-## 1. Entrada e segurança
-Nome/link/slide → localizar UC, componente, recorte, material, perfil Anki e pasta privada. Conferir fila (Codex só suas aulas). Resolver ambiguidade material; não repetir preferências fechadas.
-Uma aula por vez, assim que o material cair no Drive, de preferência antes da aula; não acumular lote para a semana da prova. O tamanho vem da aula, não do tempo até a prova (F-C18).
-Pedido de gerar autoriza fluxo; auditoria/planejamento sem correção são leitura externa. Não iniciar outra aula se pedido é só manutenção do projeto.
-Criar pasta única `arquivos-trabalho/deck-aula-<slug>-<data>/`. Preflight --catalog vivo. Reconciliar comentários/vermelhos/pendências anteriores conservadoramente; não recriar apagados. Separar resolvido, retirado pelo usuário e ainda pendente.
+Roteiro técnico consolidado em 29/09/2026. Preferências e critérios somente no [MEMORY](../../MEMORY.md); decisões/casos em [FEEDBACKS](FEEDBACKS.md). Este roteiro orienta a sessão assistida: não é promessa de um gerador ou serviço já implementado. Não executar scripts antigos de aula, nem `nebli/anki_apply.py`, como gerador universal.
 
-## 2. Fontes e escopo
-Manifesto das seis famílias do README, com localizador/hash quando disponível e acesso real. Buscar pastas relacionadas/roteiro, não somente PDF inicial. Biblioteca/canais no README; acervos no ACERVOS-REFERENCIA.
-**Ler as provas pertinentes logo no começo, junto com o slide**, antes de montar o mapa: o que foi cobrado e em que profundidade. UC03 pelo índice local; outras UCs, pasta de provas no Drive antes de declarar ausência.
-Mapa de objetivos teóricos e práticos com categorias: ensinado; retomado/cobrado; ponte curta; exemplo; pré-requisito; futuro; fora do recorte. Cada alvo aponta para o trecho da aula/prova; fato adjacente de Step/livro que a aula não trouxe sai (F-C15). Pontes exigem ligação direta e fonte, não “é importante na medicina”. Prova antiga sem confirmação atual não amplia recorte sozinha.
-Slide regula assunto, não cada frase necessária à compreensão. Não completar toda a medicina explicativa de um exemplo. Ausência de fonte pode tornar resultado parcial; declarar impacto.
+## 1. Recuperar contexto e estado
 
-## 3. E1 e busca de candidatos
-Rascunhar/revisar E1 conforme didatica/E1.md, usando os mesmos objetivos do deck. E1 existente boa pode ser reutilizada após conferência. Guia e vídeos não substituem E1.
-Procurar primeiro cópia NEBLI viva da origem/pergunta. Uma identidade e histórico; registrar associação **por card/cloze**, não apenas nota.
-Buscar amplamente AnKing por texto, sinônimos, estruturas, mecanismo, sistema, tags de recursos e vizinhança. Ler cada frente, resposta, verso e imagem. Modelo visual exige campos/rótulos/máscaras, não apenas Text.
-Lacuna importante → reformular busca → consultar externos apropriados descobertos dinamicamente (incluindo AnatoKing/Dope/Dorian/BlueLink/Histology/LLU/MCAT, quando acessíveis). Ler candidatos recusados e motivo antes de concluir ausência. Não repetir pesquisa de downloads a cada aula; usar mapa e indicar aquisição útil quando necessário.
+Seguir [README](README.md), inclusive em mensagem comum. Identificar pedido, UC/prova, componente, aula e escopo E1 + cards ou exceção. Para UC08, ler [fila atual](RECONSTRUCAO-UC08.md); registrar início, executor, run_id e pasta quando houver produção autorizada. Revisão própria obrigatória; papéis/ritmo seguem o pedido atual, sem gate fixo de outra IA.
 
-## 4. Seleção sem duplicação e autoria excepcional
-Uma recuperação por informação, salvo ganho claro de habilidade/contexto/transferência. Comparar alvo+resposta+habilidade em **toda a seleção viva**, não só textos idênticos. Inversos e imagens variantes não são automaticamente bons nem automaticamente redundantes.
-Verso pertinente conta para aprender; frente adicional só se recuperar ativamente agregar. Uma nota com três clozes custa três cards: avaliar irmãos individualmente. Cards compartilhados não contam como novos.
-Autoral só cobre lacuna muito importante após buscas comprovadas. Registrar: objetivo → lacuna → duas rotas AnKing → externos consultados → candidatos inadequados → decisão. Alta autoria dispara nova auditoria de escopo/busca.
-Autoral focal, inglês, cloze, aparência AnKing, curto (~8–18 palavras como referência, não mutilar contexto), Extra útil em 1–3 frases; imagem quando ensina. Não virar lista/dissertação ou definição sem contexto. Rever todos autorais e adaptações, não amostra.
-Limpar clínica/recurso lateral na cópia, inclusive Clinical, Extra e campos Bootcamp/Sketchy/B&B/Additional Resources. Vídeo só guia/chat. Não apagar fontes/apoio científico relevante confundindo-os com link promocional.
+Ler feedbacks novos e os casos aprovados/rejeitados pertinentes do MEMORY; abrir exemplos reais para calibrar a forma antes de redigir. Documentos antigos não revogam as respostas de 29/09. Não iniciar aula quando o pedido for só organização/planejamento. Auditoria sem correção solicitada não escreve no Anki/Drive.
 
-## 5. Revisão de qualidade e bandeiras
-Matriz objetivo → seção E1 → card/cloze/verso/identificação. Conferir cobertura, proporcionalidade, precisão científica, exemplos excluídos e reconhecimento prático.
-Ler verso renderizado, inspecionar imagens. Procurar vazamento de resposta, cloze ambíguo, outro card que já recupera a mesma informação e feedback rejeitado reaparecendo. Origem real pelo ID no corpus, não tag declarada.
-Aplicar critérios de BANDEIRAS-E-PROGRESSAO: verde recomendação durável, azul aprendizado de menor custo de esquecimento, branco só incerteza real. **A cor é decidida aqui, junto com a seleção, e gravada no plano com motivo curto por card**; sem bandeira só com a dúvida escrita. Não calcular cor pela tag HY. Média ~50 verdes/aula não é cota nem teto. Cor não corrige má seleção.
+Usar uma pasta privada `arquivos-trabalho/deck-aula-<slug>-<data>/`, com versões/identificadores sem sobrescrever evidência anterior. Confirmar perfil vivo, acesso AnkiConnect e ferramentas Drive disponíveis no computador atual. Não assumir caminhos Windows ou nome de ferramenta de outra sessão.
 
-## 6. Plano e aplicação
-`plan.json`: lesson_id, fontes/versões, nota/card de origem, objetivo, campos/mídia, clozes/templates selecionados, identidade NEBLI existente/nova, autoria e busca, recomendação/cor e motivo, ganho de pares mantidos, totais reais.
-Dry-run: perfil/mídia corretos, fontes estáveis, templates condicionais, identidade sem colisão, conjunto de cards esperado. Snapshot e backup para alterações/exclusões. Aquisição exclusiva de ANKI-ESCRITA.lock **por `nebli.decks.escrita()`**, que também tira o total de cards dos nomes enquanto se escreve e sincroniza ao sair; deck e busca pelo nome canônico. Diário de operações e liberação só do próprio lock.
-Cópias NEBLI independentes; originais/modelos/AnkiHub preservados, ankihub_id vazio no clone. Não mover compartilhado para fingir que pertence a dois decks. Não excluir nota inteira se irmão útil/associação/revisão depender dela sem resolver isso primeiro.
-Criar ancestrais de decks e conferir árvore. Preset NEBLI para novos decks (`nebli_novos.py --alinhar`), sem mudar número de novos/agendador. Manter ativos; suspensão pessoal. Flags de feedback/pessoais prevalecem sobre cor proposta.
-Após timeout, readback por identidade antes de repetir. **Instalar e sincronizar no mesmo dia** em que a seleção passa na revisão (F-C16); livro, figuras e ajustes finos atualizam as mesmas notas depois, declarando parcial. Não marcar pronto com fonte/precisão indispensável ainda pendente.
+```text
+python3 -m nebli.preflight --catalog --output arquivos-trabalho/deck-aula-<slug>-<data>/catalogo.json
+```
 
-## 7. Verificar o que Davi realmente recebe
-Contagem do plano vs coleção, notas/cards/clozes, origens, modelos, campos, mídia/legibilidade, ausência de rodapé meta e recursos laterais, flags previstas sem sobrescrever marcas pessoais, histórico/agendamento/originais preservados.
-Provar seleção compartilhada por **conjunto exato de IDs**. Se só há tag ou busca no navegador, dizer; não anunciar botão de revisão por aula pronto. Não duplicar para contornar interface.
-Salvar before, journal, receipt, verification e REVISAO-DE-QUALIDADE na mesma pasta. Sincronizar após escrita autorizada; distinguir resposta da API de chegada real aos aparelhos.
-Falha técnica bloqueia aquela entrega; revisão semântica parcial não vira conteúdo aprovado por teste unitário.
+Preflight é leitura: descobre raízes, modelos e estado; não aprova conteúdo. Resolver erro/partial antes de escrita insegura. Reconciliar edições, flags, comentários (mesmo sem cor), suspensões e cards removidos. Não recriar apagados nem restaurar estado de snapshot antigo.
 
-## 8. E1, pacote e relatório
-E1 rigorosa/didática (ou reutilização conferida) + guia breve com poucos vídeos pertinentes, bibliografia realmente usada e lacunas. Links no chat/guia; timestamps só verificados. PDF com revisão textual/visual, versão leve sem perda de legibilidade. Publicar na pasta privada existente quando autorizado.
-APKG **UC inteira viva**, comprimido internamente, sem flags no arquivo, preservando coleção; PUBLICACAO-POR-UC.md. Upload APKG continua pausado; não publicar por inferência. Empacotador físico não garante união lógica de compartilhados de outra UC.
-Relatório sucinto: onde aprender, cobertura/limites, E1, instalado/exportado/publicado/sync separados, notas/cards únicos, novos/reutilizados/compartilhados, origem, autorais, verdes/azuis/incertos/marcas pessoais/suspensos. Total por aula e união real da UC/lote; média dos verdes somente para calibrar.
-Feedback generalizável vai a FEEDBACKS; estado fica MEMORY/fila; detalhes da execução na pasta da corrida. Não espalhar nova política em todas as memórias. Fechar por suficiência com precisão, não por alcançar número de cards.
+## 2. Fontes e cobertura integral
+
+Usar [ACERVOS-REFERENCIA](ACERVOS-REFERENCIA.md) para livros, canais, modelos e descoberta. Buscar material docente atual no Drive, incluindo roteiro/extras/transcrição. Considerar seis famílias: material docente, provas pertinentes, E1 existente quando aplicável, bibliografia, vídeos e Step do mesmo conteúdo. Provas no começo, junto com slides: UC03 pelo índice `referencias-externas/uc03/consultar.py --slug <slug>`; outras UCs pela pasta de provas e nomes dos temas antes de declarar ausência.
+
+Registrar fonte/localizador, versão/hash quando disponível, trecho/páginas e estado `consultada / não localizada / inacessível / substituída / não aplicável`. Não chamar figura citada no slide de capítulo lido nem metadados de vídeo assistido. Buscar substituto adequado quando necessário. **Fonte importante ainda ausente impede instalar a aula** (Q020); avançar na preparação sem mascarar a falta. Fonte opcional ausente não vira bloqueio artificial.
+
+Percorrer toda a aula, inclusive figuras e prática. Mapear cada bloco a: alvos que exigem recuperação, apoio suficiente ou exclusão justificada como ilustração/futuro/fora do recorte. A lista de objetivos criada pelo executor não basta para certificar cobertura. Conferir depois se cada alvo recuperável está de fato testado por card/cloze/identificação, sem trocar uma recuperação necessária por menção no verso.
+
+Aplicar as fronteiras do MEMORY: mecanismos necessários, clínica compreensível diretamente ligada e HY do mesmo conteúdo; prova antiga sozinha não acrescenta tema ausente dos slides atuais. Não usar rotina ou prazo como orçamento de cards. Quando Davi respondeu “depende”, justificar a escolha naquele alvo; não criar regra universal.
+
+Se houver E1, ler [didatica/E1.md](../../didatica/E1.md) e suas referências, usando as mesmas fontes/objetivos. Build isolado, somente E1; revisão textual/visual do PDF e figuras. Na UC08 atual, E1 é `não aplicável — pedido explícito`; não torná-la requisito.
+
+## 3. Buscar, selecionar e redigir
+
+Primeiro procurar identidade NEBLI viva. Depois AnKing → alternativos pertinentes → AnatoKing quando anatômico → autoria por último. Buscar conteúdo/sinônimos, sistemas, tags de recursos, vizinhança e campos de modelos visuais; duas rotas AnKing e externos adequados antes da autoria. Ler candidatos/recusas; tag ou consulta vazia não prova lacuna. Registrar a busca por alvo, sem repetir aquisição de acervo já disponível.
+
+Selecionar irmãos pertinentes individualmente, sem os cortes excessivos e sem importar outro assunto. Comparar alvo + resposta + habilidade na seleção viva, incluindo compartilhados. Prática adicional exige ganho; básico não é redundante por parecer fácil. Autoral só para lacuna relevante real. Comparar a forma com AnKing de verdade, conforme MEMORY: contexto, resposta, ocultações, verso, imagem e carga de recuperação; CSS/contagem de palavras não são qualidade.
+
+Novas cópias/autorais em inglês (Q056–060). Idioma novo não autoriza converter decks anteriores. Manter proveniência e separar fonte original de adaptação curada; originais, modelos compartilhados de referência e AnkiHub preservados. Clone independente não herda vínculo ativo: `ankihub_id` vazio. Conservar fontes científicas úteis; retirar recurso/clínica lateral na curadoria da cópia, sem confundir bibliografia com propaganda. Links de vídeo ficam no guia/chat.
+
+## 4. Plano, bandeiras e revisão
+
+`plan.json` registra lesson_id/run_id, fontes/versões, sequência docente, alvo, evidência na aula, uso futuro concreto, necessidade de recuperação ativa, comparação com cobertura existente, decisão/motivo/incerteza, recomendação/cor; origem real, IDs de nota/card, cloze/template, identidade existente/nova, campos/mídia, associação a outras aulas, busca/autoria e ganho de pares mantidos. A cor nasce com a seleção, não de uma classificação genérica posterior da matéria. Respeitar marcas pessoais; registrar recomendação separada quando necessário.
+
+Cobertura é conferida contra todos os blocos da aula. Verificar alvos essenciais ausentes, verdes equivalentes e exclusões injustificadas; revisar recorte/precisão, didática/recuperação, imagens/renderização e identidade/entrega separadamente.
+
+**Q040 permite revisão por amostra quando o restante segue o mesmo padrão.** Selecionar exemplos representativos das origens, modelos e tipos presentes; incluir autorais/adaptações e casos de risco conhecidos. Registrar exatamente o que foi lido/renderizado/inspecionado e o que ficou fora. Erro encontrado amplia a revisão da parte afetada antes da entrega. Amostragem editorial não dispensa mapa integral de cobertura, seleção justificada nem conferência estrutural do conjunto. Não afirmar que todas as imagens ou todos os cards passaram por leitura individual se isso não ocorreu; não exigir auditoria do usuário para compensar.
+
+Na amostra, ler frente/verso renderizados: resposta vazada, cloze ambíguo, pergunta que depende do nome do deck, informação lateral, imagem errada/ilegível, máscara/legenda e fidelidade ao modelo. Clínica deve ensinar a relação com ganho real. Erro científico conhecido, resposta vazada ou imagem errada impede liberar o card afetado; contagem/teste não o aprova.
+
+## 5. Dry-run e escrita segura
+
+Antes de aplicar, validar **todo o conjunto estrutural**: perfil, IDs/origens/GUIDs, campos/templates/clozes selecionados, mídia existente, condicionais, irmãos que seriam gerados e colisões de identidade. Dry-run precisa ser somente leitura, sem `createDeck`/`addNotes` escondido. Fazer snapshot/backup e registrar precondições de versão/hash; mudanças pessoais desde a leitura exigem reconciliação, não sobrescrita.
+
+Toda escrita no Anki passa por **`with nebli.decks.escrita(Anki(), "<aula>"):`**. O contexto adquire `arquivos-trabalho/ANKI-ESCRITA.lock`, espera os nomes canônicos sem os totais do add-on, libera seu lock e solicita sync após sucesso. Não atropelar lock existente nem criar árvore paralela usando nome com sufixo `(N)`. Usar `nebli.rotulos.canonical`. Se o add-on necessário não estiver funcionando no perfil atual, resolver isso antes de escrever; não contornar o mecanismo com lock manual.
+
+**Campo de comentário:** todo tipo de nota usado recebe `NEBLI_Comentario` vazio (F-20260930-CLAUDE-01). Clone novo (`createModel`) acrescenta o campo ao fim de `inOrderFields`; nunca preencher com curadoria. Antes de instalar em tipo já existente, rodar `python3 flashcards/scripts/garantir_campo_comentario.py`. Se ele listar falta, acrescentar o campo é mudança de esquema (confirmação na tela + sync completo): pedir a Davi que sincronize os outros aparelhos antes e aplicar com `--aplicar` só com a autorização dele.
+
+Uma identidade/histórico por card. Tag pertence à nota e pode incluir irmãos indevidos; associações precisam do conjunto exato de IDs/clozes. Não mover/duplicar compartilhados para simular duas aulas. Antes de alterar campo de nota ou excluir nota, conferir todos os irmãos, associações e histórico afetados. Preservar edições, bandeiras e suspensões pessoais. Novas preferências não disparam correção retroativa sem pedido.
+
+Criar ancestrais e manter a hierarquia `NEBLI::UCxx::Px::Componente::Aula`, sem inventar prova ou reorganizar outra aula. Preset comum; quando necessário, alinhamento por `flashcards/scripts/nebli_novos.py --alinhar`, sem restaurar valores antigos de novos/revisões. Instalar depois de fontes importantes e revisão resolvidas; sincronizar na mesma execução. Após timeout, ler identidade/estado antes de repetir a operação.
+
+## 6. Readback e evidência da entrega
+
+Conferir plano versus coleção: notas/cards/clozes e origens, campos/modelos/mídia (incluindo `NEBLI_Comentario` presente e vazio em toda nota nova), cores previstas com marcas pessoais preservadas, IDs selecionados, história/agendamento e integridade dos originais. Verificação estrutural completa e revisão editorial por amostra são evidências diferentes.
+
+Compartilhados: provar associação por IDs vivos e consulta com conjunto conferido. Se só existe busca no navegador, dizer; não anunciar botão de estudo na segunda aula pronto. Não duplicar para contornar limitação da interface. Sync aceito pelo AnkiWeb não comprova chegada em Mac/Android/Windows.
+
+Manter na mesma corrida `plan.json`, snapshot anterior, `journal.jsonl`, `receipt.json`, `verification.json` e `REVISAO-DE-QUALIDADE.md`. A revisão sintetiza, com links às evidências existentes:
+
+- Versão/escopo, fontes realmente consultadas e varredura integral da aula; lacunas e exclusões relevantes.
+- Escolhas concretas que demonstram o padrão de Davi: recuperação preservada, alternativa consultada, autoria necessária, relação clínica pertinente, imagem e bibliografia, núcleo sem quota.
+- Inglês dos novos cards; forma comparada aos exemplos reais. Se houver revisão de tradução antiga explicitamente pedida, comparar base/resultado e declarar alcance real.
+- Revisão realizada, amostra e limites; achados corrigidos ou pendentes; IDs dos feedbacks aplicados e versão dos critérios.
+- Estados distintos: conteúdo revisado, instalação, acesso aos compartilhados, pacote, publicação e sync. Outra IA só assina sua revisão efetiva.
+
+Não gerar um novo arquivo de política por aula. Relatório ao usuário é curto: onde estudar, cobertura/limites, núcleo, poucos exemplos e contagens (notas/cards únicos, novos/reutilizados/compartilhados, origens, autorais, cores/suspensos; aula e união da UC). Gerar a tabela final pelo Anki vivo com `python3 arquivos-trabalho/relatorio_decks.py "NEBLI::UCxx"` (somente leitura; origem por tag `NEBLI::origem::*`, associados pela tag da aula). Contagens não certificam qualidade. Guia pode oferecer seleção mais ampla de vídeos pertinentes, conforme Q028.
+
+## 7. E1, guia e pacote por UC
+
+E1/guia, quando aplicáveis, vão para a pasta privada existente da aula após revisão e conforme autorização vigente; sem inventar destino. Preservar organização e trabalho concorrente. A reativação de E1 não reativa upload de APKG.
+
+```text
+python3 -m nebli.package_uc --uc UC03 --output <corrida>/NEBLI-UC03.apkg
+```
+
+Gerar da **UC inteira viva**, com compressão interna DEFLATE 9, mídia sem perdas e zero flags somente no arquivo. Não limpar/repor cores da coleção para exportar; conservar IDs/GUIDs e estudo. O utilitário verifica ZIP/SQLite/mídia, IDs e readback das flags, gera `.publication-ready.json` e não faz upload. Recusa saída existente, UC vazia, escopo divergente e formato `.anki21b` (trata SQLite legado `collection.anki21`/`collection.anki2`). Não restaurar APKG antigo para resolver falha.
+
+Limite: exportação física. Compartilhados fisicamente em outra UC exigem união lógica isolada ainda não implementada; não mover/duplicar cards vivos nem anunciar pacote completo sem conferir essa diferença. **Upload APKG permanece pausado.** Se Davi o reautorizar: ler `config/publicacoes-uc.json`, inicializar do `.example.json` só se ausente, resolver pasta privada e atualizar o file_id existente da UC; após timeout fazer readback. Verificar nome/bytes/pasta/permissões e só então registrar hash, IDs incluídos e confirmação. Não confundir arquivos antigos por aula com o arquivo da UC.
+
+## 8. Manutenção solicitada e continuidade
+
+Ferramenta disponível: `python3 -m nebli.decks status [trecho]`, `suspender|dessuspender <trecho> [--simular]`, `desfazer <registro>`, `liberar <trecho> [--treino] [--encerrar]` (`--treino` = cram sem reagendar), `instalar-addon`. Mudança de ramo inclui subdecks e só alcança raízes NEBLI, nunca AnKing/Referências. Ver o conjunto antes de aplicar. Registros em `arquivos-trabalho/deck-ops/` permitem desfazer os IDs exatos. Usar apenas para a manutenção solicitada, sem tarefa paralela durante geração de memória.
+
+Add-on `nebli_decks`: lógica em `nebli/anki_addon.py`, total nos nomes, identidade pelo nome canônico. `liberar` usa `config/anki-decks.json` e filtrado acima da árvore para todos os novos do ramo; `--encerrar` devolve às aulas. Não recriar filtrados ou mudar opções por inferência. A contagem ao clicar usa `anki-contagem-pedido.json` / `anki-contagem-resposta.json` na pasta de trabalho (`nebli.decks.count_on_click`). Confirmar funcionamento no computador vivo; não presumir instalação pelo código.
+
+Add-on `nebli_atalhos` (mesmo instalador, reiniciar o Anki): a/s/d/f respostas, q/w/e/r bandeiras vermelha/verde/azul/rosa, Caps Lock suspende (recusa verde), Shift sozinho edita, `v` volta (desfaz), `c` comentário; no AnkiDroid o mesmo mapa é configurado à mão em Controles; log em `addons21/nebli_atalhos/user_files/log.txt`. Carregar sem erro não prova que as teclas funcionam; só o uso de Davi confirma. A explicação por Tab está planejada no MEMORY e não existe ainda.
+
+Q068 registra o desejo de suspender azuis após prova; **não existe agendamento automático comprovado por este roteiro**. Implementação futura exige datas atuais, associação exata card/aula/prova, proteção de compartilhados ainda necessários e intervenções pessoais, simulação, registro e readback. Não aplicar durante esta consolidação. Monitor contínuo/tutor/macros não são requisitos da produção: prioridades no MEMORY.
+
+Antes de fechar: reler FEEDBACKS e alterações concorrentes. Registrar todo retorno recebido nesta sessão e atualizar a preferência no MEMORY em seu lugar; mudanças técnicas neste roteiro, fontes no mapa e estado na fila. Feedback melhora próximas entregas; anteriores só quando pedidos. Evidência local não é sync entre PCs: numa troca, levar a versão atual do projeto e reconciliar os artefatos privados/Anki necessários. Não exigir novo questionário por falta de leitura.
