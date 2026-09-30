@@ -161,6 +161,9 @@ Registro literal e mapeamento: [RESPOSTAS-2026-09-28](../../arquivos-trabalho/nu
 
 - **Estado do Tab em 30/09, fim do dia (continuação de F-15/F-16):** geração retomada pela busca exata dos IDs e concluída; gate `resumo` passou: Complemento 79/79 e Inflamação 163/163 (tags das aulas, com compartilhados), Imuno 179/179, Micro 551 atuais + 2 “revisar”, 0 faltando, 0 desatualizadas. Amostra lida: CH50/AH50, LAD, urato/NLRP3, corretas e no estilo. Os dois “revisar” são defeitos reais de cards da Micro, a mostrar a Davi (corrigir só com pedido): (1) “The [...] phase of bacterial growth…” com resposta “growth”, provável cloze original “log/exponential”; (2) triagem de estreptococo B com 36–38 semanas no card × 35–37 citadas da aula no Extra.
 
+
+- **F-20260930-CODEX-01 — continuação Imuno P2 encerrada:** pedido “compreende e termina no estilo que tava indo”, só decks, slides e provas UC03. Instalados e conferidos: Complemento 55 notas/72 cards (43 AnKing + 29 autorais; 38 verdes/34 azuis), Inflamação 79/107 (84 AnKing + 3 MCAT + 20 autorais; 59 verdes/48 azuis). Associados por IDs, sem duplicar: 5 e 56; união 168 notas/228 cards. Novos 179 sem estudo/suspensão; originais, flags pessoais e estudo preservados. Feedback autoral recente aplicado: frentes focais, lint sem falhas duras, amostra cega final 16/16 compatíveis. Tab fonte 21 abaixo do texto instalado/carregado; teclas físicas não testadas remotamente. Imuno 228/228 explicações atuais; Micro 551 ok + 2 REVISAR, zero faltando/desatualizadas. APKG local UC03 1.245 cards verificado, sem upload, sem cache Tab embutido; filtrado vivo preservado. Revisão e limites: `arquivos-trabalho/deck-aula-uc03-imuno-p2-2026-09-30/REVISAO-DE-QUALIDADE.md`. Preferências já consolidadas no MEMORY, aplicadas sem nova calibração.
+
 ## E1 — preservar a qualidade na condensação
 
 | ID / pedido | Aplicação e teste |

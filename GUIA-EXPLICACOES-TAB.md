@@ -25,7 +25,7 @@ Em card clínico, a explicação vai do fundamento (anatomia, fisiologia, micro,
 
 1. **Anki para computador** (testado no 26.9) com o add-on **AnkiConnect** (código `2055492159`, em Ferramentas → Complementos → Obter complementos).
 2. **Python 3.9 ou mais novo** e este repositório baixado (`git clone`).
-3. **Claude Code** instalado e com login feito **com a sua assinatura do Claude**: no terminal, `claude` deve abrir sem pedir chave de API. Se você tiver a variável `ANTHROPIC_API_KEY` configurada, o uso vai para a API paga; remova-a para usar a assinatura.
+3. **Claude Code** instalado e com login feito **com a sua assinatura do Claude**: no terminal, `claude` deve abrir sem pedir chave de API. Se a variável `ANTHROPIC_API_KEY` estiver configurada, o gerador interrompe a execução para evitar uso de API paga; remova-a para usar a assinatura.
 
 ## Instalar (uma vez)
 
@@ -71,7 +71,7 @@ python3 -m nebli.explicacoes resumo 'deck:*Microbiologia*'   # cobertura exata: 
 python3 -m nebli.explicacoes mostrar 1790248163066   # ler a explicação de um card (id do card)
 ```
 
-**Tempo e cota:** lotes de 10 cards, uns 20–30 s por lote. No teste, cada explicação gastou por volta de US$ 0,005 **equivalentes** da cota da assinatura. Não é cobrado; conta no limite de uso do seu plano. Algumas centenas de cards cabem tranquilamente num dia normal.
+**Tempo e cota:** lotes de 10 cards; o tempo de preparação e geração varia. No teste inicial, cada explicação consumiu por volta de US$ 0,005 **equivalentes** da cota da assinatura. Isso não é cobrança de API. Lotes grandes podem atingir o limite do plano. Quando a cota liberar, repita o mesmo comando sem `--refazer`: as explicações atuais já salvas são preservadas.
 
 ## Mudar o estilo
 
