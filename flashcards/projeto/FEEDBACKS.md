@@ -159,6 +159,8 @@ Registro literal e mapeamento: [RESPOSTAS-2026-09-28](../../arquivos-trabalho/nu
 
 - **F-20260930-CLAUDE-18 — verde com mais clínica:** Davi: “card verde pode ter um pouco mais de clínica mesmo, especialmente se for hy”. Corrige a calibração escrita em F-16, que mandava detalhes clínicos para azul. Ação: MEMORY (Bandeiras e tabela de erros) passa a admitir clínica ligada ao alvo como verde, sobretudo HY; azul para trivial, clínica lateral sem HY e tema de outra aula. Coerente com Q044/Q048. Decks anteriores não alterados. Estado: aplicado.
 
+- **Estado do Tab em 30/09, fim do dia (continuação de F-15/F-16):** geração retomada pela busca exata dos IDs e concluída; gate `resumo` passou: Complemento 79/79 e Inflamação 163/163 (tags das aulas, com compartilhados), Imuno 179/179, Micro 551 atuais + 2 “revisar”, 0 faltando, 0 desatualizadas. Amostra lida: CH50/AH50, LAD, urato/NLRP3, corretas e no estilo. Os dois “revisar” são defeitos reais de cards da Micro, a mostrar a Davi (corrigir só com pedido): (1) “The [...] phase of bacterial growth…” com resposta “growth”, provável cloze original “log/exponential”; (2) triagem de estreptococo B com 36–38 semanas no card × 35–37 citadas da aula no Extra.
+
 ## E1 — preservar a qualidade na condensação
 
 | ID / pedido | Aplicação e teste |
