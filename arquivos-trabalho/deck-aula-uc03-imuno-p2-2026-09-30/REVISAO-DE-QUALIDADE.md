@@ -1,3 +1,5 @@
+> **Estado final reconciliado:** as contagens anteriores abaixo descrevem a revisão antes do pedido concorrente de reduzir autoria. A entrega atual está no fechamento pós-redução ao fim deste documento; não restaurar os cards retirados.
+
 # Imuno P2 UC03 — revisão da continuação Codex, 30/09/2026
 
 Pedido: recriar os decks apagados, completos no conteúdo docente e nas provas pertinentes; **só decks, sem E1**. Aplicados MEMORY, FEEDBACKS até F-20260930-CLAUDE-15 e EXECUCAO-DECK-AULA. Este registro distingue a preparação anterior do Claude da revisão efetivamente realizada nesta continuação.
@@ -85,3 +87,13 @@ Cobertura final: consulta exata Imuno 228 atuais/0 REVISAR/0 faltando/0 desatual
 Pacote regenerado após todas as alterações, verificado por ZIP/SQLite, IDs, campos, GUIDs, mídia e revlog. `contagens-exatas.json`, `coverage-final.json` e `NEBLI-UC03.publication-ready.json` são os recibos finais. Nenhum upload ou teste de importação foi realizado.
 
 O utilitário padrão de relatório foi executado e conta 992 cards nos decks físicos da UC03, omitindo os 253 hospedados no filtrado. Para o total real foi usada a seleção viva que inclui deck original (`odid`): 935 notas/1.223 cards no momento desta consulta. A coleção teve alterações concorrentes depois da exportação; o pacote guarda os 1.245 cards verificados no momento em que foi gerado. Recibo completo em `contagens-uc03-inclui-filtrados.json`; não confundir esse total com os 228 da seleção lógica de Imuno.
+
+## Fechamento pós-redução solicitada ao executor concorrente
+
+Foram reconhecidos os pedidos registrados nos scripts do Claude: reduzir autorais e encurtar Extras. Preservada a remoção de 18 notas/23 cards ainda não estudados e a substituição MBL/MASP por um card AnKing. Não restaurados os alvos retirados. Os detalhes deixam de ser todos recuperações ativas individuais, conforme o recorte novo; alguns permanecem nos apoios/Tab. `reduzir_autorais.py` registra cada alvo, cobertura remanescente e o que foi tratado como detalhe. Isso supersede o mapa de recuperações ativas da primeira versão; o mapa de fontes continua válido.
+
+Readback atual (`contagens-pos-reducao.json`): Complemento 44 notas/58 cards, 44 AnKing + 14 autorais, 34 verdes/24 azuis, 5 associados; Inflamação 73/99, 84 AnKing + 3 MCAT + 12 autorais, 56 verdes/43 azuis, 56 associados. União 151 notas/206 cards; 157 novos instalados nesta rodada, sem estudo/suspensão, mais 49 existentes fisicamente fora do ramo; 26 desses já estudados.
+
+Extras resumidos mantêm o mesmo alvo das frentes; as 26 explicações afetadas, previamente lidas, foram revalidadas e receberam hash atual. O novo AnKing “C1-like complex” recebeu explicação manual MBL–MASP, distinguindo analogia funcional de C1 verdadeiro. Tags atuais: 65/65 Complemento e 155/155 Inflamação, faltando/desatualizada/REVISAR zero. União exata 206 atuais. Não houve restauração dos cards retirados.
+
+Pacote novamente gerado e verificado após essa redução: **1.223 cards, 65.413.860 bytes**, flags zero só no pacote, 253 cards do treino incluídos sem alterar o filtrado vivo. O arquivo NEBLI-UC03.apkg e seu recibo representam esta versão final. A primeira exportação 1.245 foi preservada como snapshot anterior, não é a entrega atual.

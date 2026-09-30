@@ -27,6 +27,19 @@ class LintCardsTests(unittest.TestCase):
         self.assertTrue(lint_cards.check("k", long))
         self.assertTrue(hard(lint_cards.check("k", very)))
 
+    def test_extra_prose_and_meta_are_flagged(self):
+        text = "Tetracyclines bind the {{c1::30S}} subunit"
+        prose = "The lecture lists this mechanism. " + " ".join(["word"] * 20)
+        problems = lint_cards.check("k", text, prose)
+        self.assertTrue(any("metacomentário" in msg for msg in hard(problems)))
+        self.assertTrue(any("parágrafo" in msg for _, msg in problems))
+        self.assertEqual(lint_cards.check("k", text, "- Blocks <b>aminoacyl-tRNA</b> binding"), [])
+
+    def test_plan_authored_needs_reason_and_search(self):
+        self.assertTrue(hard(lint_cards.justification({"origin": "Autoral"})))
+        ok = {"origin": "Autoral", "autoria": "prova", "busca": "AnKing CH50 só LES; lacuna"}
+        self.assertEqual(lint_cards.justification(ok), [])
+
 
 if __name__ == "__main__":
     unittest.main()
