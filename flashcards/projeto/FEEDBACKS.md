@@ -157,6 +157,8 @@ Registro literal e mapeamento: [RESPOSTAS-2026-09-28](../../arquivos-trabalho/nu
 
 - **F-20260930-CLAUDE-17 — gravar os erros:** Davi: “grava os erros para não ocorrerem de nov”. Ação: tabela “Erros já cometidos — conferir antes de entregar” no MEMORY (16 erros reais de 29–30/09, cada um com a prevenção obrigatória), lida por toda sessão; CLAUDE.md e AGENTS.md já apontam os dois gates. Estado: aplicado.
 
+- **F-20260930-CLAUDE-18 — verde com mais clínica:** Davi: “card verde pode ter um pouco mais de clínica mesmo, especialmente se for hy”. Corrige a calibração escrita em F-16, que mandava detalhes clínicos para azul. Ação: MEMORY (Bandeiras e tabela de erros) passa a admitir clínica ligada ao alvo como verde, sobretudo HY; azul para trivial, clínica lateral sem HY e tema de outra aula. Coerente com Q044/Q048. Decks anteriores não alterados. Estado: aplicado.
+
 ## E1 — preservar a qualidade na condensação
 
 | ID / pedido | Aplicação e teste |
