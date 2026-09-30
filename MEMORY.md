@@ -117,6 +117,29 @@ Q098: guardar o que muda a forma de fazer; manter o restante. Atualizar esta mem
 
 Não há compartilhamento mágico de chats privados nem sincronização implícita entre PCs. Quem recebe persiste no projeto comum; numa troca de máquina, recuperar a versão atual da memória e conferir estado do Anki, sem recalibrar do zero. Clone novo pode trazer as preferências sem trazer snapshots privados; isso não apaga as decisões. Não ressuscitar cards apagados.
 
+## Erros já cometidos — conferir antes de entregar (F-20260930-CLAUDE-17)
+
+Davi: “grava os erros para não ocorrerem de nov”. Cada item aconteceu de verdade em 29–30/09; a prevenção é obrigatória para qualquer IA.
+
+| Erro | Prevenção |
+|---|---|
+| Autorais com “;” juntando duas afirmações e com 25–33 palavras | `python3 -m nebli.lint_cards <plan.json>` sem reprovação dura + amostra cega com `card-mirror` antes de instalar |
+| Frentes e Extras em português (BT03, FI08, Edema, Extras da Micro) | Tudo novo em inglês; o lint reprova frente em português e avisa Extra |
+| Verdes inflados (54% na Imuno): detalhe clínico e conteúdo de outra aula verdes | Verde só para alvo central de longo prazo; detalhe de consequência e tema de outra aula = azul (calibração acima) |
+| Autoria alta (29/72 no Complemento) aceita sem nova busca | Autoria acima do usual → repetir busca AnKing/alternativos e registrar por que cada autoral ficou |
+| Mecanismo errado em autoral (C3(H2O)Bb × C3bBb, “todo fragmento b se liga covalentemente”, fator H × fator I) | Conferir cada autoral contra o livro da matéria (Imuno = Abbas) antes do dry-run |
+| Figura herdada de AnKing com erro (esquema de complemento, sinais cardinais) | Ver toda mídia das cópias antes de instalar; retirar a imagem errada da cópia, não do original |
+| Explicações do Tab geradas com `deck:"NEBLI::..."` exato → busca vazia; Imuno entregue com 0/179 | Gerar pela tag da aula; entregar só com `resumo '"tag:NEBLI::<aula>"'` = `faltando: 0` |
+| Geração do Tab caiu (limite da assinatura, Anki fechado) e ninguém retomou | Rodar de novo o mesmo comando, que pula o que está atual, e conferir o `resumo` antes de dizer “pronto” |
+| “Liga com” citando card que Davi nunca viu | Só cards com `prop:reps>0`, passados na lista “já estudados” |
+| `claude -p` com o prompt padrão do Claude Code gastou ~40× mais cota | Sempre `--system-prompt` próprio, `--tools ""`, `--strict-mcp-config`, `--setting-sources ""` (como em `nebli/explicacoes.py`) |
+| Tecla do add-on sem efeito (F: “Criar filtrado” do menu) | Tecla nova → conferir atalhos globais e de menu do Anki; o `nebli_atalhos` estaciona os conflitos durante a revisão |
+| Pop-up que ficaria preso ao responder e `%` do CSS quebrando a montagem em Python | Fechar a caixa no hook de troca de card; montar o JS com `.replace`, nunca `%`; conferir a sintaxe do JS (`osascript -l JavaScript`) |
+| Treino sem reagendar: Bom e Fácil tiravam o card | No treino, só Fácil encerra (atrasos no filtrado); conferir os botões no card vivo |
+| Verde suspenso por ação em bloco | Verde nunca suspenso; Caps Lock recusa verde; ao ver verde suspenso, dessuspender |
+| Arquivos grandes/livro com direitos autorais perto do commit (JSON de 221 MB, texto do Abbas, PDFs) | Commitar só código, docs, specs e revisões; nunca livro, PDF de aula ou dumps |
+| Dizer que funciona sem ter visto (teclas, Tab) | Carregar sem erro ≠ funcionar; declarar o que falta Davi testar |
+
 ## Referências de calibração que não podem se perder
 
 - **Antibióticos UC03 v3:** aprovado “agora sim gostei” (F-C15). As duas primeiras versões extrapolavam o recorte; não copiar sua seleção antiga. A aprovação é da experiência/recorte, não meta de 112 cards ou das cores históricas.
