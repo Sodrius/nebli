@@ -46,14 +46,15 @@ FIELD = "NEBLI_Comentario"
 PENDING = "NEBLI_comentario::pendente"
 USER = Path(__file__).resolve().parent / "user_files"
 STORE = USER / "explicacoes.sqlite"
-LABELS = ("Por quê:", "Liga com:", "Não confundir:")
+LABELS = ("Base:", "Por quê:", "Na aula:", "Liga com:", "Não confundir:")
 POPUP_JS = """(function(body){
   var old = document.getElementById('nebli-tab'); if (old) old.remove();
   var night = document.body.classList.contains('nightMode') || document.documentElement.classList.contains('night-mode');
   var d = document.createElement('div'); d.id = 'nebli-tab'; d.innerHTML = body;
   d.style.cssText = 'position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:99999;'
-    + 'width:min(720px,92vw);box-sizing:border-box;padding:14px 18px;border-radius:12px;text-align:left;'
-    + 'font:15px/1.5 -apple-system,system-ui,sans-serif;box-shadow:0 8px 28px rgba(0,0,0,.28);'
+    + 'width:min(900px,94vw);max-height:66vh;overflow-y:auto;box-sizing:border-box;padding:18px 24px;'
+    + 'border-radius:14px;text-align:left;font:17px/1.6 -apple-system,system-ui,sans-serif;'
+    + 'box-shadow:0 10px 32px rgba(0,0,0,.3);'
     + (night ? 'background:#26282c;color:#e8e8e8;border:1px solid #3a3d42;'
              : 'background:#fffdf7;color:#1f2328;border:1px solid #e3dccb;');
   d.onclick = function(){ d.remove(); };
