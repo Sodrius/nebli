@@ -97,6 +97,9 @@ def release_new(col, mw, store, log):
     tique. "treino dos novos" (treino_novos) é cram sem reagendar: os cards continuam
     novos; é montado uma vez só, e recomeçar o treino ou apagar o deck fica com Davi
     (botão Reconstruir/Excluir do Anki).
+
+    Apagar à mão encerra (Davi, 30/09: "eles devem poder ser deletados a mão"): filtrado
+    já criado que sumiu sai do config e não é recriado; os cards já voltaram às aulas.
     """
     config = json.loads(CONFIG.read_text(encoding="utf-8")) if CONFIG.exists() else {}
     wanted = {filtered_name(branch): (branch, True) for branch in config.get("liberar_novos", [])}
@@ -113,7 +116,14 @@ def release_new(col, mw, store, log):
             log(f"filtrado encerrado, cards de volta às aulas: {name}")
             changed += 1
         kept.discard(name)
+    dropped = []
     for name, (branch, reschedule) in wanted.items():
+        if name in managed and _filtered_id(col, name) is None:
+            dropped.append((branch, "liberar_novos" if reschedule else "treino_novos"))
+            kept.discard(name)
+            log(f"filtrado apagado à mão, sai do config e não é recriado: {name}")
+            changed += 1
+            continue
         if not reschedule and name in managed:
             did = _filtered_id(col, name)
             changed += _train_delays(col, did, log) if did else 0
@@ -141,6 +151,10 @@ def release_new(col, mw, store, log):
         log(f"filtrado {'criado' if did is None else 'reconstruído'}: {name} ({pending} novos a reunir"
             f"{'' if reschedule else ', sem reagendar'})")
         changed += 1
+    if dropped:
+        for branch, key in dropped:
+            config[key] = [b for b in config.get(key, []) if b != branch]
+        CONFIG.write_text(json.dumps(config, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     if kept != managed:
         store.mkdir(parents=True, exist_ok=True)
         state_file.write_text(json.dumps(sorted(kept), ensure_ascii=False), encoding="utf-8")
