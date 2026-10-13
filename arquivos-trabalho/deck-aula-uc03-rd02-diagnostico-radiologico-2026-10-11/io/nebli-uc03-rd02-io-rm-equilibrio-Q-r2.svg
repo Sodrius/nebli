@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1728" height="972">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-rm-equilibrio-o0" x="359.9" y="34.7" width="849.4" height="67.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-rm-equilibrio-o1" x="292.5" y="513.7" width="298.7" height="43.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-rm-equilibrio-o2" x="1035.2" y="513.7" width="499.5" height="43.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-rm-equilibrio-o3" x="185.1" y="931.2" width="475.8" height="43.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-rm-equilibrio-t0" x="1039.8" y="931.2" width="528.0" height="43.2" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>

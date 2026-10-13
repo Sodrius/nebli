@@ -1,0 +1,62 @@
+{
+ "nome": "Biologia geral dos fungos",
+ "escopo": "cards",
+ "drive_pasta": "UC03/Microbiologia/43 - Biologia dos fungos",
+ "slides": {
+  "arquivo": "fontes/slides.pdf",
+  "todas_vistas": true,
+  "obs": "61 lâminas vistas nas folhas visual/folha1–6; texto em fontes/slides.txt"
+ },
+ "livros": [
+  {
+   "livro": "Trabulsi-Alterthum, Microbiologia 6ª ed., cap. 64.1–64.3 (características gerais, ecologia, fisiologia dos fungos)",
+   "texto": "livros/trabulsi-cap64-65-fungos.txt",
+   "lido": true,
+   "obs": "64.1–64.3 lidos inteiros (pdf pp. 575–590); cap. 65 (genética) só a introdução, fora da aula. Figuras 64.1.3, 64.1.4, 64.1.5, 64.1.8 e 64.1.12 recortadas para os cards de morfologia."
+  }
+ ],
+ "canais": [],
+ "ninja_nerd_busca": "03/10: python3 -m nebli.canais busca 'ninja nerd fungi', 'ninja nerd mycology', 'ninja nerd fungi introduction mycology': o Ninja Nerd não tem aula de biologia geral dos fungos; só 'Antifungals' (AOtYDzLUavo, 46 min), que cobre o slide 27. Transcrição recusada pelo YouTube (IpBlocked e 429 em youtube_transcript_api, yt_dlp e página de legendas) em 20h–21h de 03/10; não lida.",
+ "canais_tentados": [
+  {
+   "canal": "Ninja Nerd — Antifungals",
+   "url": "https://youtu.be/AOtYDzLUavo",
+   "estado": "transcrição bloqueada pelo YouTube (IpBlocked), não lida"
+  },
+  {
+   "canal": "Professor Dave Explains — Introduction to Mycology",
+   "url": "https://youtu.be/wqKNm_evkYA",
+   "estado": "transcrição bloqueada pelo YouTube (IpBlocked/429), não lida"
+  },
+  {
+   "canal": "Professor Dave Explains — Introduction to Fungal Phylogeny and Taxonomy",
+   "url": "https://youtu.be/9bB-0dt6u-g",
+   "estado": "transcrição bloqueada, não lida"
+  },
+  {
+   "canal": "Shomu's Biology — Fungal infection: mycosis",
+   "url": "https://youtu.be/MyPvgio7BGE",
+   "estado": "transcrição bloqueada, não lida"
+  }
+ ],
+ "provas": {
+  "estado": "consultada",
+  "busca": "referencias-externas/uc03/consultar.py --termo fungo/levedura/bolor/quitina/dimorf/conídio/hifa/micélio/azol/esporo/Paracoccidioides/Candida --completo; questões de Micro: 2025 P3 1.1, 1.2, 4.4; 2024 P3 2.4–2.6; 2019 P2 1.5, 3.1; 2018 P2 1.1, 1.3, 1.4, 1.5; 2017 P2 2.3–2.6; 2015 P2 29.1, 29.3"
+ },
+ "exercicios": {
+  "estado": "não localizada",
+  "busca": "03/10: pasta 43 no Drive pessoal (apresentação e transcrição) e Aula 12 no drive da turma (apresentação e material complementar); sem exercícios"
+ },
+ "caoc": {
+  "estado": "inacessível",
+  "busca": "03/10: conta usp.br montada sem acervo CAOC; drive da turma (TURMA 114) consultado: Material para Estudos (monitorias P1–P3) e Bibliografia Básica (Microbiologia Médica, Brock)"
+ },
+ "veteranos": {
+  "estado": "consultada",
+  "arquivos": [
+   "fontes/monitoria-p2.pdf: Monitoria - Resumo da P2, Aula 9 Biologia geral dos fungos (pp. 55–58), cotejada com slides e Trabulsi",
+   "fontes/transcricao.pdf: material complementar da aula (apresentação do Prof. Benedito Corrêa, 44 pp.)",
+   "fontes/monitoria-p3.pdf: sem a aula de fungos (consultada)"
+  ]
+ }
+}

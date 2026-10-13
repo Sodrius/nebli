@@ -107,6 +107,9 @@ def _wait(call, done, seconds):
         time.sleep(0.5)
 
 
+SYNC_PENDENTE = ROOT / "arquivos-trabalho" / "ANKI-SYNC-PENDENTE"
+
+
 @contextmanager
 def escrita(call, label, sync=True):
     """Lock de escrita com a árvore NEBLI em nomes canônicos; sincroniza ao sair sem erro."""
@@ -127,7 +130,29 @@ def escrita(call, label, sync=True):
         LOCK.unlink(missing_ok=True)
     if sync:
         _wait(call, lambda names: bool(names) and all(map(rotulos.labeled, names)), ESPERA)
-        call("sync")
+        if em_tela(call):  # F-20261008-CLAUDE-02: Davi revisando; sync fica para quando estiver ocioso
+            SYNC_PENDENTE.write_text(now(), encoding="utf-8")
+        else:
+            call("sync")
+            SYNC_PENDENTE.unlink(missing_ok=True)
+
+
+def em_tela(call):
+    """Notas que Davi tem na tela agora (card em revisão e irmãos): não alterar neste lote."""
+    try:
+        card = call("guiCurrentCard")
+    except Exception:
+        return set()
+    if not card:
+        return set()
+    return {call("cardsToNotes", cards=[card["cardId"]])[0]}
+
+
+def sync_se_ocioso(call):
+    """Sincroniza o pendente quando Davi não está com card na tela; devolve True se sincronizou."""
+    if SYNC_PENDENTE.exists() and not em_tela(call):
+        call("sync"); SYNC_PENDENTE.unlink(missing_ok=True); return True
+    return False
 
 
 def apply(call, card_ids, suspend, label, branches, sync=True):

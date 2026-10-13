@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="786" height="779">
+ <defs><marker id="focus-arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#C62828"/></marker></defs>
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-novo-t0" x="30.0" y="690.0" width="190.0" height="52.0" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  <line x1="220" y1="690" x2="347" y2="461" stroke="#C62828" stroke-width="6" marker-end="url(#focus-arrow)"/>
+ </g>
+</svg>

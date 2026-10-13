@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="749">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-pd-postero-inferior-o0" x="487.6" y="127.1" width="23.5" height="28.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-inferior-o1" x="520.2" y="127.1" width="170.9" height="28.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-inferior-o2" x="487.6" y="147.3" width="130.1" height="28.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-inferior-o3" x="487.6" y="167.4" width="232.6" height="28.3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-inferior-o4" x="211.1" y="147.6" width="142.6" height="28.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-inferior-o5" x="86.1" y="236.9" width="25.6" height="31.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-inferior-o6" x="118.6" y="236.9" width="114.5" height="31.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-inferior-o7" x="86.1" y="260.0" width="223.2" height="31.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-inferior-t0" x="96.7" y="597.8" width="251.4" height="33.7" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  <rect id="io-pd-postero-inferior-t1" x="96.7" y="623.7" width="154.0" height="33.7" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  <rect id="io-pd-postero-inferior-t2" x="96.7" y="649.6" width="242.7" height="33.7" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>

@@ -4,6 +4,7 @@ Uso (Anki aberto com AnkiConnect):
     python -m nebli.explicacoes gerar '"tag:NEBLI::2026-uc08-fisiologia-08-motilidade-i"'   # aula inteira
     python -m nebli.explicacoes gerar 'deck:*Microbiologia* rated:1:1' --limite 20
     python -m nebli.explicacoes gerar '<busca>' --refazer      # refaz mesmo as que já existem
+    python -m nebli.explicacoes gerar '<busca>' --backend codex  # alternativa pela assinatura quando Claude atinge o limite
     python -m nebli.explicacoes gerar '<busca>' --simular      # mostra o que seria enviado, sem gerar
     python -m nebli.explicacoes mostrar <card_id> [<card_id> ...]
     python -m nebli.explicacoes resumo                        # totais da base
@@ -19,9 +20,10 @@ Cada card (não a nota) tem a sua: irmãos de cloze recebem explicações difere
 A base fica em addons21/nebli_explicacoes/user_files/explicacoes.sqlite, onde o
 add-on nebli_explicacoes a lê quando se aperta Tab no verso. Nada é escrito na coleção.
 
-O estilo e as regras ficam em config/explicacao-tab.md (inclusive os exemplos
-aprovados). Mudar esse arquivo muda a versão do estilo; `resumo` mostra quantas
-explicações estão em estilo antigo, e `gerar --refazer` as atualiza.
+O estilo e as regras ficam em config/explicacao-tab.md. Mudar esse arquivo muda a
+versão do estilo; `resumo` mostra quantas explicações estão em estilo antigo. Elas
+continuam visíveis no Tab e são atualizadas aula a aula quando `gerar` recebe a
+tag da aula. Não iniciar uma regeneração geral só pela mudança de estilo.
 
 `hash` identifica o conteúdo do card (campos da nota + ordem do card). Se o card
 for editado depois, o add-on mostra a explicação com aviso de que o card mudou.
@@ -38,10 +40,12 @@ import shutil
 import sqlite3
 import subprocess
 import sys
+import tempfile
 import time
 from pathlib import Path
 
 from nebli.decks import Anki
+from nebli.rotulos import canonical
 
 ROOT = Path(__file__).resolve().parents[1]
 STYLE = ROOT / "config" / "explicacao-tab.md"
@@ -170,16 +174,30 @@ def item(call, card):
     fields = card["fields"]
     ordered = [f["value"] for f in sorted(fields.values(), key=lambda f: f["order"])]
     target = hidden_target(fields, card["ord"])
+    if not target and "Answer Mask" in fields:
+        # Oclusão de imagem: o rótulo só existe nos pixels. As cópias NEBLI trazem o nome em negrito no início de Remarks.
+        named = re.match(r"\s*<b>(.*?)</b>", fields.get("Remarks", {}).get("value", ""), flags=re.S)
+        target = plain(named.group(1)) if named else None
+    if not target and f"{card['ord'] + 1}a" in fields:
+        # Prancha numerada (modelo Anatomy): o card N cobra o rótulo do campo "Na".
+        target = plain(fields[f"{card['ord'] + 1}a"]["value"]) or None
     front, back = card_text(card)
+    if target and "Answer Mask" in fields:
+        front, back = ("Image occlusion on a figure from the lecture (cadaver photo, histology slide or atlas plate): identify the marked "
+                       "structure. The figure is never available as text and that is expected: do NOT mark this card 'revisar' for lack "
+                       "of the image. Explain the hidden target itself: what it is, where it lies, how to recognize it and what it does."), target
+    if target and front.strip() in ("[...]", ""):
+        front = "Identify the structure shown on the anatomy figure (the image is not available as text; explain the hidden target itself)."
     extra = next((plain(fields[k]["value"]) for k in ("Extra", "Remarks", "Extra 1") if k in fields), "")
     return {
         "id": str(card["cardId"]),
-        "aula": re.sub(r" \(\d+\)", "", card["deckName"]).split("::")[-1],
+        "aula": canonical(card["deckName"]).split("::")[-1],
+        "parte_da_aula": next((t.split("::")[-1] for t in ((call("notesInfo", notes=[card["note"]]) or [{}])[0].get("tags", []) if call else []) if t.startswith("NEBLI::objetivo::")), ""),
         "frente": front[:1200],
         "verso": back[:1500],
         "alvo_oculto": target,
         "extra": extra[:800],
-        "ja_estudados": studied_related(call, card, target),
+        "ja_estudados": studied_related(call, card, target) if call else [],
     }, card_hash(ordered, card["ord"]), card["note"]
 
 
@@ -201,7 +219,64 @@ def claude(system, payload):
     return json.loads(text), envelope.get("total_cost_usd")
 
 
-def generate(call, query, limit=None, redo=False, simulate=False, db=None):
+def codex_cli(system, payload):
+    """Alternativa pela assinatura do Codex quando a assinatura do Claude está indisponível."""
+    if os.environ.get("OPENAI_API_KEY"):
+        raise RuntimeError("OPENAI_API_KEY está definida: geração interrompida para não usar API paga.")
+    exe = shutil.which("codex")
+    if not exe:
+        raise RuntimeError("Codex CLI não encontrado.")
+    with tempfile.TemporaryDirectory(prefix="nebli-tab-") as tmp:
+        output = Path(tmp) / "resposta.json"
+        prompt = system + "\n\nCards:\n" + json.dumps(payload, ensure_ascii=False, indent=1)
+        cmd = [exe, "exec", "--ephemeral", "--sandbox", "read-only",
+               "--skip-git-repo-check", "--output-last-message", str(output), "-"]
+        done = subprocess.run(cmd, input=prompt, capture_output=True, text=True,
+                              cwd=tmp, timeout=300)
+        if done.returncode or not output.is_file():
+            raise RuntimeError(f"Codex CLI não devolveu JSON (exit {done.returncode}): {done.stderr[-500:]}")
+        answer = output.read_text(encoding="utf-8").strip()
+        answer = re.sub(r"^```(?:json)?\s*|\s*```$", "", answer)
+        return json.loads(answer), 0
+
+
+EMPTY_LINK = re.compile(r"(?im)^\s*Liga com:\s*(nada|nenhum|nenhuma|sem|n[ãa]o h[áa])\b[^\n]*\n?")
+TAB_LABELS = ("Básico", "Explicação", "Na aula", "Não confundir")
+TAB_LABEL_RE = re.compile(r"(?m)^(Básico|Explicação|Na aula|Não confundir):[ \t]*")
+ANY_LABEL_RE = re.compile(r"(?m)^([^:\n]{2,35}):[ \t]*")
+
+
+NUMERADA = re.compile(r"(?m)(?:(?:^|[\s:])[1-9]\)\s|(?:^\s*|:\s*)[1-9]\.\s)")
+META = re.compile(r"(?i)\b(este card|neste card|o card (quer|pede|cobra)|a pergunta quer|o extra)\b")
+
+
+OLD_LABEL_RE = re.compile(r"(?m)^\s*(Básico|Explicação|Na aula|Não confundir|Base|Por quê|Mais a fundo|Liga com):")
+
+
+def problema_estilo(text):
+    """F-20261013-CLAUDE-03: texto corrido, do princípio geral ao card, em 2–4 parágrafos, sem rótulos, listas ou passos."""
+    if not text or not text.strip():
+        return "texto vazio"
+    if OLD_LABEL_RE.search(text):
+        return "rótulos de bloco (estilo antigo); escrever texto corrido"
+    paras = [p for p in re.split(r"\n\s*\n", text.strip()) if p.strip()]
+    if len(paras) < 2:
+        return "um parágrafo só; descer do princípio ao card em 2–4 parágrafos"
+    if len(paras) > 5:
+        return "parágrafos demais"
+    if len(NUMERADA.findall(text)) >= 2 or re.search(r"(?m)^\s*[-•*]\s", text):
+        return "lista ou passos numerados"
+    if META.search(text):
+        return "metacomentário sobre o card"
+    return None
+
+
+def drop_empty_link(text):
+    """O estilo manda omitir "Liga com" quando nada estudado serve; o modelo às vezes escreve "Liga com: nada da lista" (03/10)."""
+    return EMPTY_LINK.sub("", text).strip() if text else text
+
+
+def generate(call, query, limit=None, redo=False, simulate=False, db=None, backend="auto"):
     db = db or open_store()
     system = STYLE.read_text(encoding="utf-8")
     version = style_version(system)
@@ -213,7 +288,7 @@ def generate(call, query, limit=None, redo=False, simulate=False, db=None):
     for index, card in enumerate(cards, 1):
         ordered = [f["value"] for f in sorted(card["fields"].values(), key=lambda f: f["order"])]
         saved = have.get(card["cardId"])
-        if not redo and saved and saved[:2] == (card_hash(ordered, card["ord"]), version):
+        if not redo and saved and saved[:2] == (card_hash(ordered, card["ord"]), version) and not str(saved[2]).startswith("revisar"):
             continue
         todo.append(item(call, card))
         if len(todo) % 50 == 0:
@@ -224,18 +299,41 @@ def generate(call, query, limit=None, redo=False, simulate=False, db=None):
             print(json.dumps(payload, ensure_ascii=False, indent=1))
         return
     cost, stamp = 0.0, time.strftime("%Y-%m-%d %H:%M:%S")
+    used = set()
     for start in range(0, len(todo), BATCH):
         chunk = todo[start:start + BATCH]
-        result, spent = claude(system, [payload for payload, _, _ in chunk])
+        if backend == "auto":
+            try:
+                result, spent = claude(system, [payload for payload, _, _ in chunk])
+                producer = "claude"
+                used.add("claude")
+            except RuntimeError as error:
+                print(f"  Claude indisponível ({error}); tentando Codex CLI.", flush=True)
+                result, spent = codex_cli(system, [payload for payload, _, _ in chunk])
+                producer = "codex"
+                used.add("codex")
+        else:
+            result, spent = (codex_cli if backend == "codex" else claude)(system, [payload for payload, _, _ in chunk])
+            producer = backend
+            used.add(backend)
         cost += spent or 0
         for payload, digest, note_id in chunk:
             answer = result.get(payload["id"]) or {"status": "revisar", "motivo": "sem resposta do modelo"}
+            answer["texto"] = drop_empty_link(answer.get("texto"))
+            falha = problema_estilo(answer["texto"]) if answer.get("status", "ok") == "ok" else None
+            if falha:  # não grava texto fora do estilo como atual; fica pendente para nova geração
+                print(f"  estilo recusado ({falha}) no card {payload['id']}: {answer['texto'][:300]!r}", flush=True)
+                answer = {"status": "revisar", "motivo": f"estilo: {falha}", "texto": None}
             db.execute("insert or replace into explicacoes values (?,?,?,?,?,?,?,?,?)",
                        (int(payload["id"]), note_id, digest, answer.get("status", "ok"),
-                        answer.get("texto"), answer.get("motivo"), version, MODEL, stamp))
+                        answer.get("texto"), answer.get("motivo"), version,
+                        "codex-cli" if producer == "codex" else MODEL, stamp))
         db.commit()
         print(f"  {min(start + BATCH, len(todo))}/{len(todo)}", flush=True)
-    print(f"Pronto. Cota equivalente (não cobrada na assinatura): US$ {cost:.3f}.", flush=True)
+    if used == {"claude"}:
+        print(f"Pronto. Cota equivalente (não cobrada na assinatura): US$ {cost:.3f}.", flush=True)
+    elif used:
+        print("Pronto. Gerado pela assinatura do Codex CLI.", flush=True)
 
 
 def show(ids, db=None):
@@ -248,6 +346,43 @@ def show(ids, db=None):
             print(row[1] or row[2])
 
 
+def cobertura(query, call=None, db=None):
+    """Cobertura e estrutura do formato atual; não certifica a qualidade didática."""
+    if db is None:
+        path = store_path()
+        if not Path(path).is_file():
+            cards = collect(call or Anki(), query)
+            return {"atual": 0, "revisar": 0, "desatualizada": 0, "faltando": len(cards),
+                    "formato_incompleto": 0}
+        with sqlite3.connect(Path(path).resolve().as_uri() + "?mode=ro", uri=True) as connection:
+            return cobertura(query, call=call, db=connection)
+    version = style_version(STYLE.read_text(encoding="utf-8"))
+    saved = {cid: (h, style, status, text) for cid, h, style, status, text in
+             db.execute("select card_id, hash, estilo, status, texto from explicacoes")}
+    count = {"atual": 0, "revisar": 0, "desatualizada": 0, "faltando": 0,
+             "formato_incompleto": 0}
+    words = []
+    for card in collect(call or Anki(), query):
+        ordered = [f["value"] for f in sorted(card["fields"].values(), key=lambda f: f["order"])]
+        row = saved.get(card["cardId"])
+        if not row:
+            count["faltando"] += 1
+        elif row[:2] != (card_hash(ordered, card["ord"]), version):
+            count["desatualizada"] += 1
+        elif row[2] != "ok":
+            count["revisar"] += 1
+        elif not (row[3] or "").strip():
+            count["faltando"] += 1
+        elif problema_estilo(row[3]):
+            count["formato_incompleto"] += 1
+        else:
+            count["atual"] += 1
+            words.append(len(row[3].split()))
+    # Mediana descritiva, sem limite editorial de palavras.
+    count["palavras_mediana"] = sorted(words)[len(words) // 2] if words else 0
+    return count
+
+
 def summary(db=None, call=None, query=None):
     """Sem busca: totais da base. Com busca: cobertura exata daqueles cards (sai 1 se faltar algo)."""
     db = db or open_store()
@@ -258,20 +393,40 @@ def summary(db=None, call=None, query=None):
     print(f"{total} explicações ({by}); {old} em estilo antigo; base {store_path()}")
     if not query:
         return 0
-    saved = {cid: (h, style, status) for cid, h, style, status in
-             db.execute("select card_id, hash, estilo, status from explicacoes")}
-    count = {"atual": 0, "revisar": 0, "desatualizada": 0, "faltando": 0}
-    for card in collect(call, query):
-        ordered = [f["value"] for f in sorted(card["fields"].values(), key=lambda f: f["order"])]
-        row = saved.get(card["cardId"])
-        if not row:
-            count["faltando"] += 1
-        elif row[:2] != (card_hash(ordered, card["ord"]), version):
-            count["desatualizada"] += 1
-        else:
-            count["revisar" if row[2] != "ok" else "atual"] += 1
+    count = cobertura(query, call=call, db=db)
     print(f"Cobertura de {query}: {count}")
-    return 1 if count["faltando"] or count["desatualizada"] else 0
+    return 1 if not count["atual"] or any(count[key] for key in
+            ("faltando", "desatualizada", "revisar", "formato_incompleto")) else 0
+
+
+def bad_tabs(log_path=None, db=None):
+    """Lista reprovações explícitas ainda ligadas à versão atual da explicação."""
+    path = Path(log_path or store_path().parent / "tab-log.jsonl")
+    if not path.is_file():
+        print("Nenhum Tab marcado como ruim.")
+        return []
+    marked = {}
+    for line in path.read_text(encoding="utf-8").splitlines():
+        try:
+            event = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if event.get("evento") == "tab_ruim" and event.get("card") is not None:
+            marked[int(event["card"])] = event
+    if not marked:
+        print("Nenhum Tab marcado como ruim.")
+        return []
+    db = db or open_store()
+    pending = []
+    for cid, event in marked.items():
+        row = db.execute("select texto from explicacoes where card_id=?", (cid,)).fetchone()
+        current = hashlib.sha256(((row or [""])[0] or "").encode("utf-8")).hexdigest()[:16]
+        if current == event.get("explicacao") or not row:
+            pending.append(event)
+    for event in sorted(pending, key=lambda x: x.get("em", ""), reverse=True):
+        print(f"{event.get('em', '?')} card {event['card']} nota {event.get('nota', '?')} — Tab ruim pendente")
+    print(f"{len(pending)} Tab(s) ruim(ns) pendente(s).")
+    return pending
 
 
 def main():
@@ -282,18 +437,22 @@ def main():
     gen.add_argument("--limite", type=int)
     gen.add_argument("--refazer", action="store_true")
     gen.add_argument("--simular", action="store_true")
+    gen.add_argument("--backend", choices=("auto", "claude", "codex"), default="auto")
     sh = sub.add_parser("mostrar")
     sh.add_argument("ids", nargs="+")
     rs = sub.add_parser("resumo", help="totais da base; com busca, cobertura exata daqueles cards")
     rs.add_argument("busca", nargs="?")
+    sub.add_parser("ruins", help="lista Tabs marcados como ruins ainda não reescritos")
     sub.add_parser("instalar", help="copia só o add-on do Tab para o Anki deste computador")
     args = parser.parse_args()
     if args.cmd == "instalar":
         install()
     elif args.cmd == "gerar":
-        generate(Anki(), args.busca, args.limite, args.refazer, args.simular)
+        generate(Anki(), args.busca, args.limite, args.refazer, args.simular, backend=args.backend)
     elif args.cmd == "mostrar":
         show(args.ids)
+    elif args.cmd == "ruins":
+        bad_tabs()
     else:
         sys.exit(summary(call=Anki() if args.busca else None, query=args.busca))
 

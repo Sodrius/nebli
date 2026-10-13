@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="749">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-sigmoideas-o0" x="625.3" y="260.8" width="25.6" height="31.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-sigmoideas-o1" x="657.9" y="260.8" width="178.4" height="31.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-sigmoideas-o2" x="630.8" y="283.8" width="43.6" height="31.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-sigmoideas-o3" x="664.5" y="348.6" width="165.3" height="31.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-sigmoideas-o4" x="605.5" y="643.0" width="150.5" height="31.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-sigmoideas-t0" x="684.0" y="522.8" width="129.5" height="31.1" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>

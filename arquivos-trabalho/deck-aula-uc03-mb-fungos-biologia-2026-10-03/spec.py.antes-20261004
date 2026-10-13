@@ -1,0 +1,118 @@
+# Especificação curada — Biologia geral dos fungos (UC03 P3, Microbiologia, aula 43; Prof. Carlos P. Taborda, ICB).
+# 61 lâminas: importância (2–16), classificação e características (17–22), parede e membrana (23–27, antifúngicos),
+# taxonomia (28–35), reprodução de leveduras e bolores (36–53), ecologia e nutrição (54–61).
+# Feita em 03/10/2026 a partir de planejamento.json (escrito antes). Ordem = slides. Critérios até F-20261003-CLAUDE-19.
+# AnKing → outros acervos (MCAT: 80S) → autoral (6: quitina, α-glucana na fase Y, teleomorfo, brotamento, esporângio, asco).
+RUN_ID = "uc03-mb43-20261003a"
+SHORT = "mb43"
+LESSON = "2026-uc03-microbiologia-43-biologia-fungos"
+DECK = "NEBLI::UC03::P3::Microbiologia::Biologia geral dos fungos"
+CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261003-CODEX-22) + PLANO-GERACAO-ANO, 03/10/2026"
+MEDIA = {"nebli-uc03-mb43-p23f.png": "io/nebli-uc03-mb43-p23f.png"}
+V, Z, R = 3, 4, 5
+BUSCA = ("AnKing Step por texto, sinônimos e tags de micologia (busca/anking-ext.txt, 50 consultas e 6 tags, 03/10); "
+         "Referências Externas (MCAT, Histology, LLU, Dope, AnatoKing, Dorian) pelos mesmos alvos e por campo (Text/Front *fung*, *yeast*, "
+         "*hypha*, *spore*, *chitin*: zero card de biologia fúngica): ")
+EXCLUIDOS = [
+(1509751969962, "equinocandinas agem na parede: redundante com o card da β-1,3-glucana sintase (HY 1, mesma informação)"),
+ (1509742814980, "ergosterol na membrana: redundante com 1468250158738"),
+ (1525446605993, "Cryptococcus levedura com cápsula: redundante com 'which fungus is encapsulated'"),
+ (1500245573893, "tinta nanquim: diagnóstico, aula de micoses"),
+ (1500234023725, "tubo germinativo a 37 °C: diagnóstico de Candida, aula de micoses oportunistas"),
+ (1509741919338, "terbinafina: não está no slide 27"),
+ (1500053746842, "griseofulvina: farmacologia fora da aula"),
+ (1499975827249, "roda de leme do Paracoccidioides: aula de micoses sistêmicas"),
+ (1500050370771, "Malassezia na pele: aula de micoses superficiais"),
+]
+FORA_DO_RECORTE = ["micoses específicas (aulas seguintes da P3)", "farmacologia clínica dos antifúngicos além do slide 27",
+                   "genética dos fungos (Trabulsi cap. 65)", "curiosidades sem alvo (slides 6, 11–15)"]
+F = lambda p, w=460: f'<img src="nebli-uc03-mb43-p{p:02d}f.png" width="{w}">'
+
+
+def ak(key, src, flags, bloco, alvo, slide, motivo, origin=None, **kw):
+    d = dict(key=key, kind="text", src=src, manter=True, flags=flags, bloco=bloco, alvo=alvo, evid=f"Slide {slide}", motivo=motivo, **kw)
+    if origin: d["origin"] = origin
+    return d
+
+
+def au(key, text, flags, bloco, alvo, slide, autoria, falta, espelhos, motivo, extra="", duplicacao_ok=""):
+    return dict(key=key, kind="autoral", text=text, extra=extra, flags=flags, bloco=bloco, alvo=alvo, evid=f"Slide {slide}", autoria=autoria,
+                busca=BUSCA + falta, espelhos=espelhos, motivo=motivo, duplicacao_ok=duplicacao_ok)
+
+
+A_, B_, C_, D_, E_, F_, G_ = ("A-importancia", "B-caracteristicas", "C-parede-membrana", "D-antifungicos", "E-taxonomia",
+                              "F-reproducao", "G-ecologia-nutricao")
+CARDS = [
+ # ---------- A. Fungos, vida humana e natureza (slides 2–16) ----------
+ ak("alergia-tipo1", 1500239144039, {2: V}, A_, "Alergia a fungos é hipersensibilidade tipo I", "8; transcrição p. 30; Trabulsi 64.2",
+    "Verde: HY (1); rinite e asma por esporos inalados (síndrome dos edifícios doentes, Trabulsi). Só o cloze do tipo."),
+ ak("aflatoxina-chc", 1486591290032, {1: V, 2: Z}, A_, "Aflatoxina de Aspergillus causa carcinoma hepatocelular", 10,
+    "c1 verde: HY (2), micotoxina com consequência duradoura; c2 azul (nome da toxina)."),
+ ak("aflatoxina-graos", 1517779158524, {1: V}, A_, "Aflatoxina vem de grãos e amendoim mal armazenados", 10, "Verde: HY (2); milho e trigo mofados do slide 10."),
+ # ---------- B. Classificação e características (slides 17–22) ----------
+ ak("ribossomo-80s", 1716931103425, {1: Z}, B_, "Fungos são eucariontes com ribossomo 80S", "21; transcrição p. 44; prova 2017 P2 2.5",
+    "Azul: tabela fungo × bactéria da transcrição e da prova de 2017.", origin="MCAT"),
+ au("quitina", "Unlike bacterial walls, fungal cell walls contain {{c1::chitin}}", {1: V}, B_,
+    "Parede de quitina e β-glucana", "21; Trabulsi 64.1; prova 2018 P2 1.3", "central",
+    "AnKing só cita a parede pelos antifúngicos (equinocandinas); externos sem card de quitina.", [1468250158738, 1509742036852],
+    "Verde: característica que define fungo e diferencia de bactéria (prova 2018).",
+    extra="- Together with <b>β-glucans</b> and mannans<br>- Bacteria use <b>peptidoglycan</b><br><br>" + F(23)),
+ ak("ergosterol", 1468250158738, {1: V}, C_, "Membrana fúngica tem ergosterol", 22, "Verde: HY (1); 'membrana celular – ergosterol' no slide 22."),
+ ak("capsula", 1500243301914, {1: V}, C_, "Cryptococcus é o fungo capsulado", 22, "Verde: HY (1); 'cápsula – Cryptococcus spp.' no slide 22."),
+ ak("capsula-fagocitose", 1500244482455, {1: V}, C_, "Cápsula do Cryptococcus é antifagocítica", 22, "Verde: prova 2024 P3 2.5 (vantagens da cápsula); Trabulsi 64.1."),
+ # ---------- C. Parede celular (slides 23–24) ----------
+ au("alfa-glucana", "The yeast phase of <b>Paracoccidioides</b> has more {{c1::α-glucan}} in its cell wall than the mold phase", {1: Z}, C_,
+    "Parede da fase Y com mais α-glucana", "24; Trabulsi tabela 64.1.1; prova 2025 P3 1.2", "prova",
+    "nenhum card de composição da parede por fase nos acervos.", [1499976133630, 1509742036852],
+    "Azul: resposta da prova de 2025 sobre parede e dimorfismo.", extra="- The mold phase at 25 °C has more <b>β-glucan</b>"),
+ # ---------- D. Antifúngicos e seus alvos (slide 27) ----------
+ ak("equinocandina", 1509742036852, {1: V, 2: V}, D_, "Equinocandinas inibem a β-1,3-glucana sintase", 27, "Verdes: HY (1); 'inhibit the enzyme that synthesizes β-glucans' no slide 27."),
+ ak("polienos", 1509742201770, {1: V, 2: V}, D_, "Polienos ligam ergosterol e abrem poros", 27, "Verdes: HY (1); anfotericina B no slide 27."),
+ ak("polienos-eletrolitos", 1509743161238, {1: V}, D_, "Poros dos polienos deixam vazar eletrólitos", 27, "Verde: HY (2); 'leakage of K+ and Na+' no slide 27."),
+ ak("anfo-toxicidade", 1509743373899, {1: Z}, D_, "Toxicidade da anfotericina vem da ligação ao colesterol", 27, "Azul: 'also confers mammalian toxicity' no slide 27."),
+ ak("azois", 1509742000812, {1: V, 2: Z}, D_, "Azóis inibem a 14α-desmetilase", 27, "c1 verde: HY (1), classe do slide 27; c2 azul (enzima)."),
+ ak("azois-lanosterol", 1509745062370, {1: V}, D_, "Azóis bloqueiam lanosterol → ergosterol", 27, "Verde: HY (1); 'inhibit the enzyme that synthesizes ergosterol'."),
+ ak("flucitosina-5fu", 1509742361304, {1: Z}, D_, "Flucitosina vira 5-FU dentro do fungo", 27, "Azul: '5-FC is converted to 5-FU to inhibit DNA synthesis'."),
+ ak("flucitosina-medula", 1509742681361, {1: V}, D_, "Flucitosina causa mielossupressão", 27, "Verde: HY (1); 'side effect myelosuppression' no slide 27."),
+ # ---------- E. Taxonomia (slides 28–35) ----------
+ au("teleomorfo", "The {{c1::teleomorph}} is the sexual reproductive stage of a fungus", {1: Z}, E_,
+    "Teleomorfo × anamorfo", "30–31; Trabulsi 64.1", "prova", "zero resultado para teleomorph/anamorph no AnKing e nos externos.",
+    [1499970409878, 1500238914091], "Azul: estados do slide 30 e regra de nomenclatura do slide 31.",
+    extra="- The asexual stage is the <b>anamorph</b>"),
+ ak("pneumocystis-fungo", 1500335727221, {1: V}, E_, "Pneumocystis é fungo", "35; Trabulsi 64.1", "Verde: HY (2); reclassificação citada na taxonomia do Trabulsi."),
+ # ---------- F. Reprodução (slides 36–53) ----------
+ au("brotamento", "{{c1::Budding}} is the usual form of asexual reproduction in <b>yeasts</b>", {1: V}, F_,
+    "Leveduras: unicelulares, brotamento", "37–38; Trabulsi fig. 64.1.4; prova 2017 P2 2.4", "central",
+    "AnKing só cita brotamento dentro de fungos específicos (Blastomyces, Sporothrix); externos sem card de levedura.",
+    [1499972082394, 1557752615914], "Verde: forma de reprodução da levedura cobrada na prova de 2017.",
+    extra="- The bud is a <b>blastoconidium</b>"),
+ ak("pseudohifa", 1557752615914, {1: V}, F_, "Candida: pseudo-hifas e leveduras em brotamento", 39, "Verde: 'pseudo-hifas – comum na invasão de Candida' no slide 39."),
+ ak("aspergillus-conidioforo", 1500238914091, {1: Z, 2: V}, F_, "Aspergillus forma conidióforos", 43, "c2 verde: HY (1), conídio externo no conidióforo (slide 43); c1 azul."),
+ ak("aspergillus-hifa", 1500238441939, {1: Z, 3: V}, F_, "Aspergillus: hifas septadas em ângulo agudo", "43; transcrição pp. 16–17",
+    "c3 verde: HY (1), hifa septada (bolor do slide 43); c1 azul, o gênero; c2 (ângulo) fica para a aula de micoses oportunistas."),
+ au("esporangio", "<b>Rhizopus</b> and <b>Mucor</b> form their asexual spores inside a {{c1::sporangium}}", {1: Z}, F_,
+    "Esporangiósporos internos no esporângio", "44; transcrição p. 20; Trabulsi fig. 64.1.8", "prova",
+    "AnKing cita Rhizopus só pela hifa e pela mucormicose; externos sem esporângio.", [1500334133616, 1500238914091],
+    "Azul: 'conídios internos' do slide 44.", extra="- The spores are <b>sporangiospores</b><br>- The sporangium sits on a stalk, the sporangiophore"),
+ ak("mucor-hifa", 1500334133616, {1: Z, 2: V}, F_, "Mucor/Rhizopus: hifas não septadas", 44, "c2 verde: HY (2), hifa cenocítica (slide 48); c1 azul."),
+ ak("dimorfismo", 1499970409878, {1: V}, F_, "Dimórficos: bolor no solo, levedura no corpo", "45; provas 2017, 2018, 2025", "Verde: tema mais cobrado da aula nas provas."),
+ ak("paracocci-dimorfico", 1499976133630, {1: Z}, F_, "Paracoccidioides é dimórfico", 45, "Azul: exemplo do slide 45."),
+ ak("candida-inverte", 1500234258289, {1: Z}, F_, "Candida inverte o dimorfismo", "45; Trabulsi 64.3", "Azul: exceção descrita no Trabulsi (forma parasitária é a filamentosa)."),
+ ak("amanitina", 1467833857831, {1: V, 2: Z}, F_, "Amanita: α-amanitina inibe a RNA polimerase II", 51, "c1 verde: HY (2), a toxina; c2 azul: 'Amanita – altamente venenosas' no slide 51 (micetismo)."),
+ au("asco", "<b>Ascospores</b> are sexual spores produced inside an {{c1::ascus}}", {1: Z}, F_,
+    "Ascósporos dentro do asco", "52; transcrição p. 12; Trabulsi fig. 64.1.12", "prova", "zero resultado para ascus/ascospore/basidium no AnKing e nos externos.",
+    [1500238914091, 1500334133616], "Azul: reprodução sexuada que classifica o filo (slide 52).",
+    extra="- Characteristic of <b>Ascomycota</b><br>- <b>Basidiomycota</b> bear basidiospores on the outside of a basidium"),
+ # ---------- G. Ecologia e nutrição (slides 54–61) ----------
+ ak("aspergillus-inalacao", 1500239016754, {1: V}, G_, "Conídios de Aspergillus são inalados", 55, "Verde: HY (2); 'vias de dispersão: ar atmosférico' no slide 55."),
+ ak("candida-flora", 1500234684400, {1: V}, G_, "Candida faz parte da microbiota", "55; Trabulsi 64.2", "Verde: HY (1); homem como hábitat no slide 55."),
+ ak("sabouraud", 1500246419118, {1: V}, G_, "Fungos crescem em ágar Sabouraud", "57; Trabulsi 64.3", "Verde: HY (1); glicose e peptona do slide 57 são o meio de Sabouraud."),
+]
+CARDS = [dict(c, slide_sem_alternativa="diagrama da parede do próprio slide; o Trabulsi não tem figura da parede") if c["key"] == "quitina" else c for c in CARDS]
+
+# F-20261003-CLAUDE-15/19: figura do livro (Trabulsi), só a imagem, e explicação curta no verso
+from nebli.ilustrar import ilustrar, anotar
+from imagens import IMAGENS, LIVRO
+from notas import NOTAS
+MEDIA.update(LIVRO)
+CARDS = anotar(ilustrar(CARDS, IMAGENS, {}), NOTAS)

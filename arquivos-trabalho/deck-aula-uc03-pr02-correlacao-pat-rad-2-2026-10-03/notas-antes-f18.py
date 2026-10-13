@@ -1,0 +1,20 @@
+# Explicação curta no verso (F-20261003-CLAUDE-15), conferida no Robbins cap. 18 e nas aulas do Ninja Nerd/Osmosis.
+NOTAS = {
+ "hemangioma-mulheres": "Hemangioma is the most common benign liver tumor",
+ "hemangioma-us": "Typical hemangioma needs no biopsy: imaging is diagnostic",
+ "hemangioma-tc": "Peripheral nodular enhancement filling in toward the center is the hemangioma signature",
+ "triade-portal": "Portal triad sits at the corners of the classic hexagonal lobule",
+ "fluxo-portal-central": "Bile flows the other way, from hepatocytes toward the portal tract",
+ "hemangioma-macro": "Spongy because it is made of blood-filled vascular spaces",
+ "hemangioma-histologia": "Biopsy risks bleeding, so imaging makes the diagnosis",
+ "esteatose-reversivel": "Steatosis reverses; fibrosis of cirrhosis largely does not",
+ "esteatose-us": "Normal liver is about as bright as the renal cortex; fat makes it brighter",
+ "esteatose-tc": "Fat lowers attenuation (Hounsfield units), so the liver looks darker",
+ "micro-macronodular": "Long-standing cirrhosis tends to become macronodular",
+ "reticulina": "Reticulin (type III collagen) frames the plates; fibrous septa surround the nodules",
+ "hp-cirrose-causa": "Causes are pre-, intra- or posthepatic; cirrhosis is intrahepatic",
+ "hp-tc": "CT findings mirror the consequences: ascites, collaterals, splenomegaly",
+ "hp-ascite": "Ascites also comes from low albumin and renal Na+ retention",
+ "baco-congesto": "Hypersplenism from congestion lowers platelets",
+ "varizes-terco-inferior": "Left gastric vein (portal) meets esophageal veins (systemic) at the lower esophagus",
+}

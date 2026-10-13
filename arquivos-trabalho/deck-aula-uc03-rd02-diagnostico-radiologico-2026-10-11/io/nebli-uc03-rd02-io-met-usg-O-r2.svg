@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1728" height="972">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-met-usg-o0" x="429.9" y="39.2" width="727.1" height="84.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-met-usg-o1" x="661.6" y="120.4" width="263.8" height="84.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-met-usg-o2" x="96.3" y="284.1" width="30.0" height="73.9" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-met-usg-o3" x="161.1" y="284.1" width="320.4" height="73.9" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-met-usg-o4" x="96.3" y="442.5" width="30.0" height="73.9" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-met-usg-o5" x="161.1" y="442.5" width="890.7" height="73.9" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-met-usg-o6" x="96.3" y="600.9" width="30.0" height="73.9" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-met-usg-t0" x="161.1" y="600.9" width="608.7" height="73.9" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

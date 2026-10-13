@@ -1,12 +1,15 @@
 ---
-description: Produz e revisa o deck-aula com as preferências consolidadas de Davi
-argument-hint: <nome, link ou pasta da aula> [observações]
+description: Faz o deck-aula inteiro com as preferências vigentes de Davi
+argument-hint: <nome, número ou pasta da aula> [observações]
 ---
 
 Argumentos: $ARGUMENTS
 
-Leia `flashcards/projeto/README.md` e sua ordem: `MEMORY.md` inteiro, `flashcards/projeto/FEEDBACKS.md` e `flashcards/projeto/EXECUCAO-DECK-AULA.md`. Mensagem comum segue a mesma rota. A entrega padrão é E1 + cards; exceções/estado na memória e fila vigente. Não usar handoffs/calibrações antigos como instruções atuais.
+Faça o deck desta aula do começo à entrega, sem agente e sem pedir aprovação:
 
-Execute o pedido com as fontes, curadoria, revisão e proteção do roteiro. Recupere exemplos calibrados antes de autorar; demonstre aplicação real na revisão da mesma corrida. Entregue o deck pronto sem transferir a Davi a auditoria de cobertura ou de verdes. Limites técnicos e semânticos devem ser declarados separadamente.
+1. `ESTADO-ATUAL.md`: confira se a aula está livre e registre “Com Claude: <aula>”. Sem argumento, pegue a próxima da fila.
+2. `MEMORY.md` é a regra única; leia só as entradas novas de `flashcards/projeto/FEEDBACKS.md`.
+3. Execute `flashcards/projeto/EXECUCAO-DECK-AULA.md` do passo 0 ao 6 (fontes → mapa de escopo → inventário → busca → spec → `nebli.artefatos pre` → apply → suspender se aula antiga → tab → despejo lido → pos → REVISAO-DE-QUALIDADE → entrega).
+4. Relate no formato do MEMORY §11, atualize o ESTADO-ATUAL e siga para a próxima aula da fila até Davi mandar parar.
 
-Grave todo feedback desta sessão no registro comum e atualize a preferência no MEMORY em seu lugar. Melhorias orientam próximas entregas; alterar deck anterior só se pedido. Reler acréscimos concorrentes antes de fechar. Este comando orienta execução assistida, não um serviço autônomo em segundo plano.
+Índice: `README.md`. Pedido explícito de “E1 + cards” inclui a E1 (`didatica/E1.md`). Observações do pedido prevalecem sobre a fila. Feedback recebido durante o trabalho: FEEDBACKS (literal) → MEMORY (regra reescrita no lugar) → aplicar já.

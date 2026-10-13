@@ -1,0 +1,38 @@
+# NEBLI — entrada de toda sessão
+
+1. Ler [README.md](README.md) e [ESTADO-ATUAL.md](ESTADO-ATUAL.md): estado real, leva e próxima ação.
+2. Ler [MEMORY.md](MEMORY.md), única memória normativa, e as entradas recentes/pertinentes de [FEEDBACKS](flashcards/projeto/FEEDBACKS.md). Preferências explícitas mais recentes prevalecem; não pedir que Davi reensine a calibração.
+3. Ler o [plano ativo](PLANO-AJUSTES-ANKI-2026-10-08.md). Para executar, ler [EXECUCAO-DECK-AULA](flashcards/projeto/EXECUCAO-DECK-AULA.md) e [ACERVOS-REFERENCIA](flashcards/projeto/ACERVOS-REFERENCIA.md).
+
+## Estado e limites
+
+Plano de 08/10 **aprovado** (F-20261008-CLAUDE-01). Execução contínua na ordem do plano até Davi mandar parar; **retomar pela seção “Retomar aqui” do ESTADO-ATUAL** e atualizá-la a cada etapa concluída (não só no fim da sessão). Dúvidas não bloqueiam: listar ao fim de cada deck no chat e em ESTADO-ATUAL, seguir com a melhor decisão registrada. Feedback de Davi é incorporado assim que chega. Qualidade acima de velocidade. **Davi usa o Anki enquanto o executor trabalha (F-20261008-CLAUDE-02): isso não bloqueia.** Preparar fora do Anki e aplicar em lotes curtos mesmo durante a revisão dele; nunca alterar a nota em exibição (`guiCurrentCard`) nem seus irmãos (adiar só essas); não mexer na tela dele; escrita com `sync=False` enquanto ele revisa e sync quando estiver ocioso ou no fim da sessão; readback após cada lote.
+
+Entrega padrão: somente deck. Tab único com qualidade, sem variante longa/curta. Geração 2026, depois do pipeline validado: UC03 → UC19 → UC21 → UC02 → UC01. Davi decidirá depois a entrada dos decks antigos na rotina; não criar quotas/distribuição diária. E1 existente pode ser fonte; E1–E3 só sob pedido explícito.
+
+**Padrão prospectivo confirmado em 12/10 (F-20261012-CODEX-01/02):** para os próximos autorais, priorizar a capacidade que a aula ensina e preservar o AnKing original. Conferir primeiro se há card que recupera o conceito organizador antes de acumular detalhes específicos (corantes foi o exemplo de Davi). O autoral pode ser pergunta ou afirmação; a forma, a posição da cloze e o Extra são escolhidos pelo ganho de recuperação, não para cumprir um molde. Extra específico pode trazer detalhe ou conexão para visão de conjunto, ou ficar vazio. Renderizar frente/verso e revisar pistas. Os Tabs novos seguem `config/explicacao-tab.md`: **Básico → Explicação → Na aula → Não confundir**, com os quatro blocos substantivos e revisão didática humana. O segundo Tab com o balão aberto registra `tab_ruim` no add-on instalado (requer reinício do Anki para o código novo carregar). Tabs antigos continuam visíveis; não regenerar a coleção inteira pela troca de estilo, apenas a aula em produção e, depois, as famílias corrigidas.
+
+**Recorte das próximas aulas (F-20261012-CODEX-04):** antes do inventário final, ler objetivo, cronograma e aulas vizinhas já dadas/previstas. Fazer um mapa breve `objetivo da aula → conceitos centrais → exemplos ilustrativos → tópicos de aula específica futura`; conferir decks vizinhos para localizar lacunas/antecipações. Aula introdutória prioriza os conceitos que permitem entender os exemplos. Exemplo não vira card por aparecer no slide: decidir entre recuperação própria, Extra/Tab, outra aula ou exclusão e registrar o motivo. Detalhe periférico que ainda vale revisar é rosa; não promover pela especificidade nem pela presença em fonte complementar. Se aula posterior mostrar card anterior no lugar errado, remanejar associação e ordem preservando identidade/histórico. Antes de aplicar, revisar cobertura do núcleo **separadamente** da contagem total, e casos de fronteira entre aulas. Os decks antigos serão revistos em etapa geral posterior; preparar esse padrão já para as próximas gerações.
+
+## Execução e preservação
+
+- **Revisão incremental de 12/10 (F-20261012-CODEX-06):** em gráficos, esconder a interpretação e pedir leitura da figura; não entregar deslocamento/platô na própria pergunta. Cores por ganho e objetivo, sem meta de percentual ou total verde. Na limpeza de Extra herdado, avaliar texto e imagens separadamente: uma tabela clínica lateral pode sair enquanto a figura pertinente fica. Correções desta leva estão nas specs, planos e `correcoes-vivas.json` de FA01/RD02/PT03/MB34/MB39; preservar no rebuild. Evidência em `arquivos-trabalho/revisao-pontual-claude-2026-10-12/`.
+
+- **Completude + fidelidade ao material de base (F-20261009-CLAUDE-02, refinada por F-20261012-CODEX-04):** inventariar tudo que a fonte mostra, mas exigir card próprio para cada **objetivo recuperável**, não para cada exemplo ilustrativo. O deck conta a história da aula inteira; cada card aponta para objetivo e fonte e cada objetivo central é testado, não apenas mencionado no Extra. Para cada item inventariado registrar card, apoio no Extra/Tab, aula específica futura ou exclusão com motivo. Conferir depois o deck instalado contra objetivo, fontes e cronograma. Um detalhe pequeno e pertinente pode ser rosa; material de apoio não amplia sozinho o escopo da aula.
+
+- Planejar com fontes reais antes de selecionar cards; explorar Outros/Materiais complementares. Material extra docente/de veteranos é essencial nas matérias anteriores. Bibliografia no Drive; conferir também `bibliografia/` quando houver cópia local.
+- Revisar cobertura contra a aula, imagens renderizadas, redação AnKing, redundância, cores/HY, ordem e Tab. Poucos cards de conexão rosas somente com ganho real e construção AnKing.
+- Reler todos os comentários médicos, mesmo CORRIGIDO: marcadores antigos podem corresponder a correções ruins. Após correção validada, dessuspender o card se suspenso e anexar `CORRIGIDO, DD, MM, YY.` preservando o texto. Não liberar um deck inteiro por inferência. Suspensão pós-prova é manual.
+- Preservar originais, identidades/histórico compatíveis, comentários, marcas e trabalho concorrente. Escrita Anki pelo protocolo `nebli.decks.escrita()` e `arquivos-trabalho/ANKI-ESCRITA.lock`, com backup e leitura posterior. Revisão ativa de Davi não bloqueia: ver regra acima.
+- Rodar `python3 -m nebli.gates <corrida>` na entrega e resolver falhas. Gate aprovado não comprova julgamento visual/semântico. Documentos atualizados não significam implementação. Não fabricar leitura, busca, teste ou revisão por outra IA.
+- Toda leva registra o realizado, pendências e feedback aguardado em ESTADO-ATUAL; preferências vão ao MEMORY, falas ao FEEDBACKS e evidências à corrida. Reler mudanças concorrentes antes de gravar.
+- Arquivar versões superadas com origem/hash em `arquivo/`; não apagar conteúdo nem ressuscitar cards/decks removidos sem escopo explícito. Não usar filas históricas como ordens atuais.
+
+## Outras rotas
+
+E1: `didatica/E1.md`; E2/E3: materiais preservados, somente sob pedido. Cadernos: `banco/CLAUDE.md` e `ROLES.md`. Typst: `typst-template/CLAUDE.md`. Site/liga/Etimologia: preservar, sem iniciar nesta campanha. Histórico sob consulta em `arquivo/` e `flashcards/projeto/HISTORICO.md`.
+
+
+## Padrão confirmado para próximas aulas — F-20261013-CODEX-01
+
+Aplicar o MEMORY, entrada “Padrão confirmado para todas as próximas gerações”: núcleo e relações antes dos exemplos; contexto suficiente; gráficos exigindo interpretação; Extra e imagens julgados por contribuição; cores por pertinência, sem quotas. Conferir recuperação e aparência renderizada. Usar os antes/depois de `arquivos-trabalho/revisao-pontual-claude-2026-10-12/REVISAO.md` como comparadores, não como molde fixo. No fechamento, registrar a conferência desses critérios, atualizar os Tabs afetados e persistir as correções para o próximo rebuild.

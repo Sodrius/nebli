@@ -20,7 +20,7 @@ Hipótese de trabalho, a testar nos dados de Davi: **esforço curto e honesto** 
 - `revlog`: cada resposta com data, botão (De novo/Difícil/Bom/Fácil), **tempo gasto em ms**, intervalo antes/depois, tipo (aprendizado, revisão, reaprendizado, filtrado).
 - FSRS, se ativo: D, S, R por card. Conferir no perfil vivo se o FSRS está ligado.
 - NEBLI: bandeira, aula, origem (AnKing/autoral), comentários (`NEBLI_Comentario`) e registro de Tabs (`tab-log.jsonl`) de cada card.
-- Limite em 30/09: só 116 respostas acessíveis, de um dia. As conclusões por card precisam de **3–6 semanas** de 30 novos/dia.
+- Limite em 30/09: só 116 respostas acessíveis, de um dia. A janela inicial proposta é de **3–6 semanas**, sem garantia de amostra suficiente por card da rotina atual de 40 novos/dia + revisões.
 
 ## Perguntas e como responder
 
@@ -28,7 +28,7 @@ Hipótese de trabalho, a testar nos dados de Davi: **esforço curto e honesto** 
    - *Difícil que fixa*: tempo alto, acerto e intervalo crescendo → nada a mudar, é esforço bom;
    - *Travado*: tempo alto e erros repetidos (sanguessuga) → ver o Tab, reescrever ou dividir o card (Q084/Q085);
    - *Chute rápido*: tempo muito curto com erros → pouca tentativa, sugerir tentar mais antes de virar;
-   - *Fácil demais*: sempre rápido e certo → candidato a azul ou a intervalos maiores (decisão de Davi).
+   - *Rápido e consistente*: acompanhar carga e intervalos; rapidez não rebaixa a relevância longitudinal nem justifica mudar a bandeira.
 2. **Geral:** o tempo gasto numa revisão prediz acerto na revisão seguinte, **controlando R do FSRS**? Comparar faixas de tempo (ex.: <5 s, 5–15 s, >15 s) quanto à retenção posterior e ao custo em minutos por card retido.
 3. **Autoral × AnKing:** autorais têm mais tempo/erro? Se sim, é sinal de escrita pior (liga com o padrão F-20260930-CLAUDE-16).
 4. **Tab:** cards em que Davi apertou Tab passam a errar menos depois? Mede o valor da explicação.
@@ -41,3 +41,13 @@ Hipótese de trabalho, a testar nos dados de Davi: **esforço curto e honesto** 
 4. **Primeira análise real** quando houver ≥ 3 semanas de histórico. Revisar critérios com os resultados e com o que Davi sentir estudando.
 
 Estado: planejado; nenhuma parte construída. Pendência no MEMORY (Uso, entrega e ferramentas).
+
+## Execução planejada em 02/10 — pesquisa primeiro (F-20261002-CODEX-06)
+
+1. Claude pesquisa documentação atual do Anki/FSRS e AnKing/AnkiHub, escopos oficiais USMLE Step 1/2 CK/3 e literatura primária de recuperação/espaçamento. Comunidades complementam como experiência, sem equivaler a evidência experimental. Entrega: fontes/data, diferenças entre provas, cobertura e limites do AnKing, uso dos quatro botões, tempo por card, novos versus revisões e projeção de carga. Não declarar a pesquisa executada por ter este plano.
+2. Auditar dados vivos em leitura: perfil, algoritmo, preset, horário de virada do dia, revlog e disponibilidade após o reset. Tempo do revlog pode incluir leitura do verso, Tab, pausas e limite do timer; não tratá-lo como latência pura de lembrança. Comparações observacionais não provam causalidade. Sem histórico suficiente, declarar incerteza e orientar com evidência externa, sem inventar precisão individual.
+3. Heatmap: meta global dos decks médicos NEBLI, 40 cards novos únicos efetivamente apresentados/respondidos pela primeira vez por dia de estudo do Anki, mais revisões separadas. Contar cada card uma vez; múltiplos passos de aprendizagem não aumentam novos. Investigar API/revlog da versão instalada e Review Heatmap antes de escolher integração; não modificar o log original. Mostrar novos/40 e revisões pendentes separadamente. Verde com novos >=40, ainda que haja revisões pendentes; isso atende à semântica pedida de meta de novos.
+4. Validar heatmap em 39/40/41 novos, respostas repetidas, desfazer, virada de dia e sync entre dispositivos; garantir ausência de dupla contagem e compatibilidade de atalhos. Instalar/configurar somente na sessão de execução, com backup e readback; conferir renderização real.
+5. Relatório do analista sob pedido: novos, revisões, minutos, lapsos, botões, carga projetada e confiança; nenhuma reclassificação automática por velocidade ou dificuldade. A frequência contínua não foi definida nem implantada.
+
+As recomendações numéricas da pesquisa inicial acima são hipóteses antigas a revisar, não um cronômetro universal nem resultados de dados pessoais atuais.

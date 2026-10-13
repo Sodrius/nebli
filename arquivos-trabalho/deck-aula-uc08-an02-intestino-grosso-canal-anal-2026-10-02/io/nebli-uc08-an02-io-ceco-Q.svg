@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1104" height="708">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-ceco-o0" x="501.5" y="616.9" width="213.7" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-ceco-o1" x="746.5" y="591.4" width="101.6" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-ceco-o2" x="812.7" y="340.0" width="168.5" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-ceco-t0" x="332.1" y="563.7" width="55.5" height="33.7" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>

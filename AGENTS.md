@@ -1,13 +1,21 @@
-# NEBLI — instruções de entrada
+# NEBLI — entrada de toda sessão (Codex e qualquer executor; mesmo conteúdo do CLAUDE.md)
 
-Para E1, cards, Anki, curadoria e arquitetura, ler primeiro `flashcards/projeto/README.md` e seguir a ordem: `MEMORY.md`, `flashcards/projeto/FEEDBACKS.md` e, na execução, `flashcards/projeto/EXECUCAO-DECK-AULA.md`. Isso vale para mensagem comum em toda nova sessão. As respostas de calibração já estão consolidadas; não pedir que Davi reensine suas preferências.
+1. [ESTADO-ATUAL.md](ESTADO-ATUAL.md) › **Retomar aqui** e **Quem está com o quê**: o que fazer agora e o que outro executor já pegou.
+2. [MEMORY.md](MEMORY.md): **a regra única e vigente** do que Davi quer (reorganizada em 13/10; versões antigas em `arquivo/` não são norma). Das [FEEDBACKS](flashcards/projeto/FEEDBACKS.md), ler só as entradas novas desde a última sessão.
+3. Para fazer um deck: [EXECUCAO-DECK-AULA](flashcards/projeto/EXECUCAO-DECK-AULA.md), do passo 0 ao 6.
 
-MEMORY é a única memória normativa dos decks. O pipeline padrão é **E1 + cards**, com exceções e estado na memória/fila. UC08: `flashcards/projeto/RECONSTRUCAO-UC08.md`; fontes/modelos: `flashcards/projeto/ACERVOS-REFERENCIA.md`. E1 quando aplicável: `didatica/E1.md`. Não usar divisão de tarefas, idioma ou ritmo de handoffs antigos. E2/E3 são histórico.
+## Pedido curto
 
-Todo feedback recebido por qualquer executor vai ao registro único nesta sessão. Atualizar a preferência em seu lugar no MEMORY; não espalhar regras pela fila. Aplicar melhorias às próximas entregas; alterar deck anterior só quando Davi pedir. Demonstrar aplicação dos critérios na revisão, não apenas leitura dos arquivos.
+“Faz a aula X”, “continua”, `/deck-aula X` ou só o nome da aula = executar o roteiro inteiro até o deck entregue (instalado, Tab, gates 100%, pacote da UC, sync) e relatar no formato do MEMORY §11. Sem agente, sem plano para aprovar, sem pedir permissão. Continuar para a próxima aula da fila até Davi mandar parar; dúvidas vão ao fim de cada deck, com a suposição adotada, sem bloquear.
 
-**Dois gates de todo deck novo (F-20260930-CLAUDE-16):** (1) autoral indistinguível do AnKing às cegas — uma frase que ensina o processo e oculta um nome, sem “;” juntando afirmações, ≤ ~20 palavras, frente e Extra em inglês; `python3 -m nebli.lint_cards <plan.json>` sem reprovação dura + amostra cega com `card-mirror`; (2) explicações do Tab geradas pela tag da aula (`python3 -m nebli.explicacoes gerar '"tag:NEBLI::<aula>"'`, nunca `deck:"NEBLI::..."` exato) e `resumo '"tag:NEBLI::<aula>"'` com `faltando: 0` e `desatualizada: 0` antes de entregar. Detalhes no MEMORY e no roteiro §3/§6. Antes de entregar, percorrer a tabela “Erros já cometidos” do MEMORY.
+## Limites que não mudam
 
-Preservar originais, estudo, edições, flags, suspensões pessoais e trabalho local não relacionado. Escrita Anki usa `nebli.decks.escrita()` e `arquivos-trabalho/ANKI-ESCRITA.lock`, conforme o roteiro. Auditoria/planejamento são somente leitura externa, salvo correção solicitada. Não restaurar artefatos limpos manualmente nem reclassificar a coleção toda.
+- Davi estuda no Anki enquanto o executor trabalha: nunca tocar a nota em tela nem irmãos; escrita só por `nebli.decks.escrita()`; sync quando ele estiver ocioso.
+- Outro executor (Claude ou Codex) trabalha em paralelo: reivindicar a aula no ESTADO-ATUAL antes; não mexer no que ele reivindicou; reler antes de gravar.
+- Preservar originais AnKing, IDs/histórico, comentários, marcas e suspensões pessoais. Não apagar notas sem autorização de Davi e backup. Arquivar documentos superados em `arquivo/` com hash.
+- Feedback novo: literal em FEEDBACKS → regra **reescrita no lugar** no MEMORY (sem acrescentar camada) → check no lint/gate quando mecanizável.
+- Não fabricar leitura, busca, teste ou revisão. Gate aprovado não prova julgamento.
 
-Outras tarefas: `CLAUDE.md` e `MEMORY.md`. Regras de etimologia não governam cards médicos. Versões integrais e fila antiga em `flashcards/projeto/HISTORICO.md`; não são instruções atuais.
+## Outras rotas (só sob pedido)
+
+Índice do projeto: [README.md](README.md). Pedido explícito de “E1 + cards” (E1 + deck) inclui a E1: `didatica/E1.md`. Cadernos: `banco/CLAUDE.md` e `ROLES.md`. Typst: `typst-template/CLAUDE.md`. Site, liga e Etimologia: preservar.

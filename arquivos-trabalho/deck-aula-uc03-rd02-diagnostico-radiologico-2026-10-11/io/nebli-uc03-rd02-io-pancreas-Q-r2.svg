@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1728" height="972">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-pancreas-o0" x="714.4" y="391.1" width="340.9" height="96.0" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pancreas-o1" x="434.6" y="26.7" width="722.6" height="67.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pancreas-o2" x="663.4" y="95.8" width="265.5" height="67.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pancreas-o3" x="1088.9" y="372.9" width="175.0" height="52.8" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pancreas-o4" x="1426.8" y="698.1" width="90.5" height="70.5" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pancreas-t0" x="339.0" y="754.7" width="247.0" height="52.8" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>

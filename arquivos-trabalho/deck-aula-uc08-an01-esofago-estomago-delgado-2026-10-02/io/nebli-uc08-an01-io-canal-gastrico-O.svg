@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1104" height="708">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-canal-gastrico-o0" x="177.2" y="480.8" width="58.9" height="31.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-canal-gastrico-o1" x="638.5" y="514.0" width="54.9" height="28.9" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-canal-gastrico-o2" x="663.1" y="530.0" width="54.9" height="28.9" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-canal-gastrico-o3" x="877.9" y="470.5" width="54.6" height="28.9" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-canal-gastrico-o4" x="877.9" y="493.5" width="76.8" height="28.9" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-canal-gastrico-t0" x="210.3" y="261.3" width="72.3" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-canal-gastrico-t1" x="210.3" y="287.2" width="85.7" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-canal-gastrico-t2" x="850.1" y="543.1" width="57.1" height="28.9" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-canal-gastrico-t3" x="850.1" y="566.1" width="70.2" height="28.9" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

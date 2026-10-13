@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="768">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-peca-pd-superior-o0" x="306.8" y="395.3" width="182.9" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-peca-pd-superior-o1" x="311.6" y="199.4" width="192.2" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-peca-pd-superior-o2" x="371.9" y="234.3" width="195.9" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-peca-pd-superior-o3" x="598.2" y="212.9" width="205.7" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-peca-pd-superior-o4" x="691.8" y="414.7" width="125.4" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

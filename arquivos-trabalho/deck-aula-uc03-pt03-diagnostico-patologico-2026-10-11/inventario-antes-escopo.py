@@ -1,0 +1,201 @@
+"""Inventário atômico de Ferramentas do diagnóstico patológico (UC03 P1, Patologia; Prof. Luiz Fernando Ferraz da Silva; 31 lâminas),
+escrito a partir do material de base lido inteiro: lâminas (visual/folha-01 a 06, fontes/slides.txt), transcrição da aula
+(fontes/transcricao.txt), pasta da turma (bibliografias das aulas 1 e 2, palavras-cruzadas com gabarito), apostila de veteranos
+(Guia de Patologia, aula 1, e UC3.pdf, ferramentas de diagnóstico patológico), monitoria P1 (não há seção desta aula; conferido por
+busca no arquivo), provas (índice pat-01-ferramentas-diagnostico-patologico) e Robbins, Introdução à Patologia (cap. 1).
+Cada ideia aponta para o card que a pergunta (chave do spec, lista, "sh-<nid>" ou "EXC: motivo" só em lâmina). Menção no verso não conta.
+"""
+PREFIXO = "pt03"
+AULA = "Ferramentas do diagnóstico patológico (UC03 P1; Prof. Luiz Fernando Ferraz da Silva, 2026)"
+EXC = "EXC: "
+
+SLIDES = [
+ (1, "capa", "Capa (Departamento de Patologia, FMUSP)", []),
+ (2, "conteudo", "Patologia: alterações estruturais, bioquímicas e funcionais", [
+   ("tres-alteracoes", "Patologia estuda alterações estruturais, bioquímicas e funcionais, que se interligam", "patologia-def"),
+   ("bioquimica-primeiro", "A alteração bioquímica precede a estrutural; a bioquímica se dosa, a estrutural se vê", "bioquimica-antes"),
+   ("ponte", "A patologia liga ciências básicas e clínica (Robbins)", "ponte-basicas")]),
+ (3, "conteudo", "Etiologia, patogênese, alterações morfológicas e funcionais, manifestações clínicas", [
+   ("sequencia", "Sequência: etiologia, patogênese, alterações morfológicas e funcionais, manifestações clínicas", "sequencia-doenca"),
+   ("patologia-nao-doenca", "'Patologia' não é sinônimo de doença", "patologia-vs-doenca"),
+   ("pneumonia", "Exemplo da pneumonia: pneumococo invade o epitélio, resposta inflamatória destrói mais tecido", "pneumonia-patogenese"),
+   ("pneumonia-niveis", "Pneumonia: oxigenação reduzida (funcional), consolidação na radiografia, dispneia e estertor (clínica)", "pneumonia-niveis")]),
+ (4, "conteudo", "Etiologia", [
+   ("etiologia-def", "Etiologia é o que causa a doença", "etiologia-def"),
+   ("grupos", "Dois grupos: genéticos (herdados ou do desenvolvimento) e adquiridos (interação com o meio)",
+    ["etiologia-grupos", "genetica-def", "adquirida-def"]),
+   ("multipla", "A etiologia pode ser única ou múltipla; mesma doença com agentes diferentes",
+    ["etiologia-multipla", "pneumonia-etiologias"]),
+   ("agente", "Agente etiológico: causa externa, como o pneumococo; o DNA não é agente", "agente-etiologico"),
+   ("homeostase", "Doença: perda de homeostase não corrigida; nem todo agente causa doença", ["doenca-def", "nem-todo-agente"]),
+   ("subclinica", "Doença subclínica: pneumonia e câncer iniciais", "subclinica")]),
+ (5, "conteudo", "Patogênese", [
+   ("patogenese-def", "Patogênese: como o agente etiológico causa a doença", "patogenese-def"),
+   ("mecanismos", "Mecanismos genéticos e bioquímicos; causa genética com mecanismo bioquímico",
+    ["patogenese-mecanismos", "genetica-bioquimica"]),
+   ("importancia", "Importância médica: fármacos agem no mecanismo; febre da gripe, anti-inflamatório, antibiótico não age no vírus",
+    ["farmacos-patogenese", "sh-1791743347261", "antibiotico-virus"]),
+   ("causa-distante", "Causa conhecida está várias etapas da lesão final (fibrose cística; Robbins)", "fibrose-cistica")]),
+ (6, "conteudo", "Cigarro, dieta industrializada e DNA", [
+   ("adquiridos-geneticos", "Fatores adquiridos (cigarro, dieta) e efeitos genéticos se somam", "somam-se")]),
+ (7, "conteudo", "Fluxograma da patogênese da aterosclerose", [
+   ("dano-endotelial", "Dano endotelial (hipertensão, diabetes) aumenta a difusão de proteínas plasmáticas e lipídeos para a íntima",
+    ["ateroma-endotelio", "ateroma-hipertensao"]),
+   ("ldl", "Oxidação do LDL, captação pelos macrófagos e formação das células espumosas",
+    ["sh-1791147101592", "ateroma-espumosas"]),
+   ("monocitos", "Migração de monócitos para a íntima", "ateroma-monocitos"),
+   ("plaquetas", "Adesão plaquetária e liberação de PDGF", "ateroma-plaquetas"),
+   ("musculo-liso", "Proliferação de células miointimais e síntese de colágeno", "ateroma-musculo-liso"),
+   ("citocinas", "Liberação de citocinas e ciclo de ativação do endotélio", "ateroma-ciclo"),
+   ("placa", "Placa de ateroma: gordura e fibrose; esclerose vem de fibrose", ["ateroma-placa", "ateroma-def", "ateroma-esclerose"]),
+   ("farmacos", "Conhecer a patogênese permite fármacos contra a captação de colesterol e a adesão plaquetária", "ateroma-farmacos")]),
+ (8, "conteudo", "Alterações morfológicas e moleculares", [
+   ("secundarias", "São secundárias e resultantes da patogênese", "morfologicas-secundarias"),
+   ("niveis", "Avaliação macroscópica (inclusive por imagem), microscópica e ultraestrutural", ["macro-imagem", "micro-ultra"]),
+   ("grau", "Definem a presença e o grau de doença (hepatite crônica)", "grau-doenca"),
+   ("primeira", "Em geral, a primeira forma de detecção (rastreio, check-up)", "primeira-deteccao")]),
+ (9, "conteudo", "Infarto do miocárdio: agudo, subagudo e cicatrizado (peça e histologia)", [
+   ("mi-agudo", "Infarto agudo (horas): células sem núcleo, necrose", ["mi-agudo", "io-mi-agudo"]),
+   ("mi-subagudo", "Subagudo (5 a 7 dias): coloração amarelada, muitas células inflamatórias",
+    ["mi-amarelo", "mi-macrofagos", "mi-neutrofilos", "io-mi-subagudo"]),
+   ("mi-cicatrizado", "Cicatrizado (semanas): fibrose branca; o miocárdio não regenera",
+    ["mi-cicatriz-branca", "mi-fibrose", "mi-regeneracao", "io-mi-cicatrizado"])]),
+ (10, "conteudo", "Obstrução coronariana na tomografia e trombo na peça", [
+   ("coronaria", "Trombo coronariano interrompe o sangue e o oxigênio e o miocárdio morre", "sh-1791054019772"),
+   ("ct-peca", "Correlação entre a tomografia com contraste e o trombo na peça", "ct-trombo")]),
+ (11, "conteudo", "Manifestações clínicas", [
+   ("manifestacoes", "Como a patogênese e as alterações se manifestam à beira do leito", "manifestacoes-def"),
+   ("fisiopatologia", "Fisiopatologia (como a doença altera a fisiologia) × patogênese (como se desenvolve)", "fisiopatologia")]),
+ (12, "conteudo", "Fluxograma clínico: febre reumática, lesão mitral, insuficiência cardíaca e aterosclerose", [
+   ("lesao-mitral", "Febre reumática e dupla lesão mitral", ["rhd-mitral", "rhd-estenose"]),
+   ("atrio", "Lesão mitral dilata o átrio, causa congestão e trombo de átrio esquerdo", ["ms-atrio", "ms-congestao", "ms-trombo-atrio"]),
+   ("ic", "Insuficiência cardíaca: congestão pulmonar, hipertensão pulmonar e câmaras direitas dilatadas",
+    ["sh-1791142464566", "ms-hp"]),
+   ("dilatada", "Dilatação aguda ativa receptores de estiramento, sarcômeros em série, miocardiopatia dilatada e não hipertrófica",
+    ["dilatacao-estiramento", "dilatada-excentrica"]),
+   ("arterias", "Aterosclerose atinge aorta, coronárias e artérias cerebrais", "arterias-ateroma"),
+   ("outros-nos", "Leiomioma uterino, adenoma renal, osteíte aguda, hipertensão arterial, miocardioesclerose",
+    EXC + "nós isolados do fluxograma sem explicação na fala nem alvo de aula (exemplos de organização do raciocínio)")]),
+ (13, "conteudo", "O conhecimento patológico na formação médica", [
+   ("geral-sistemas", "Patologia geral (mecanismos) × patologia de órgãos e sistemas; temas da patologia geral", "patologia-geral"),
+   ("qualquer-orgao", "Inflamação e reparo acontecem em qualquer órgão", "inflamacao-qualquer-orgao")]),
+ (14, "conteudo", "A patologia na assistência", [
+   ("autopsia", "Autópsia: corpo inteiro, avaliação global", "autopsia"),
+   ("cirurgica", "Patologia cirúrgica: peças de biópsia e ressecções", "cirurgica"),
+   ("citopatologia", "Citopatologia: amostra celular por punção", "citopatologia"),
+   ("clinica", "Patologia clínica: exames laboratoriais", "patologia-clinica"),
+   ("forense", "Patologia forense: causas externas de morte", "forense"),
+   ("interface", "Patologista de bastidor; interface com outras especialidades para diagnóstico e tratamento", "bastidor")]),
+ (15, "conteudo", "Ferramentas da anatomia patológica", [
+   ("complementares", "As ferramentas são complementares", "complementares"),
+   ("he", "HE: estrutura geral", "he-principal"),
+   ("me", "Microscopia eletrônica: ultraestruturas, avaliação qualitativa ou quantitativa, discinesia ciliar", ["me-selecao", "discinesia"]),
+   ("histoquimica", "Histoquímica: identificação grosseira de proteínas, componentes e microrganismos (Ziehl, Masson, PAS)", "histoquimica-def"),
+   ("ihq", "Imuno-histoquímica e imunofluorescência: expressão específica de proteínas, tipo e origem do câncer",
+    ["ihq-vs-histo", "ihq-origem"]),
+   ("molecular", "Patologia molecular: mutações ou proteína mutada, PCR, Western blot, terapia-alvo", ["molecular-def", "western"])]),
+ (16, "conteudo", "Macroscopia", [
+   ("macro", "Estudo a fresco ou fixado (formol)", "macro-fresco"),
+   ("etapas", "Pesos e medidas, cortes, identificação das lesões, fotografia", "macro-etapas"),
+   ("representacao", "Representação histológica: amostrar a lesão", "representacao")]),
+ (17, "conteudo", "Macroscopia (fotografias de peças)", [
+   ("fotos", "Fotografias de peças em exame macroscópico",
+    EXC + "fotografias de peças sem rótulo, ilustram a macroscopia descrita na lâmina 16")]),
+ (18, "conteudo", "Processamento: processador de tecidos, cassetes e blocos", [
+   ("processador", "Processador de tecidos infiltra parafina durante a noite", "processador"),
+   ("cassete", "Fragmento em cassete, que vira bloco de parafina", "cassete")]),
+ (19, "conteudo", "Processamento: micrótomo, lâminas, hematoxilina e eosina", [
+   ("microtomo", "Micrótomo corta o bloco; os cortes vão para a lâmina", "microtomo")]),
+ (20, "conteudo", "Interação patologia e radiologia", [
+   ("puncao", "Punção de nódulo de tireoide guiada por ultrassom", ["fna-tireoide", "puncao-guiada"])]),
+ (21, "conteudo", "Processamento: esfregaço de material de punção", [
+   ("esfregaco", "Material esfregado na lâmina em monocamada, corado e visto ao microscópio", "citologia-esfregaco")]),
+ (22, "conteudo", "Diagnóstico patológico: ferramentas fundamentais", [
+   ("olho-cerebro", "Olho e cérebro são as ferramentas fundamentais", "olho-cerebro")]),
+ (23, "conteudo", "O mundo em roxo e rosa", [
+   ("he", "HE: principal método, rápido, padrões morfológicos, núcleo × citoplasma; sempre feita primeiro",
+    ["he-principal", "he-primeiro", "he-cores"])]),
+ (24, "conteudo", "Para ver mais a fundo: microscopia eletrônica", [
+   ("me", "Poucos centros, seleção prévia, doenças específicas; glutaraldeído", ["me-selecao", "me-fixador"]),
+   ("discinesia", "Discinesia ciliar: microtúbulos alterados na microscopia eletrônica", ["discinesia", "kartagener"])]),
+ (25, "conteudo", "Histoquímica de estruturas específicas", [
+   ("colageno", "Colágeno: Picro-Sirius (luz polarizada) e Masson", ["masson", "picrosirius"]),
+   ("elastica", "Fibra elástica: Verhoeff e resorcina-fucsina", "elastica"),
+   ("membrana-basal", "Membrana basal: PAS", "membrana-basal")]),
+ (26, "conteudo", "Histoquímica de microrganismos", [
+   ("bacterias", "Bactérias: BH, o Gram da histologia", "bh"),
+   ("fungos", "Fungos: Grocott (prata), hifas", "prata"),
+   ("baar", "BAAR: Ziehl-Neelsen", ["sh-1791576674292", "zn-usos"])]),
+ (27, "conteudo", "Histoquímica de substâncias", [
+   ("muco", "Muco: PAS e Alcian blue", "muco"),
+   ("gordura", "Gordura: Oil Red", "oil-red"),
+   ("ferro", "Ferro: Perls; hemossiderose e hemocromatose", ["perls", "hemossiderina"]),
+   ("melanina", "Melanina: Fontana-Masson", "melanina"),
+   ("glicogenio", "Glicogênio (PAS) × gordura no hepatócito", "pas-glicogenio")]),
+ (28, "conteudo", "Imuno-histoquímica: método", [
+   ("tempo", "Acrescenta pelo menos 24 horas ao laudo", "ihq-24h"),
+   ("in-situ", "Reação específica para identificação in situ de proteínas", ["ihq-in-situ", "ihq-tumores"]),
+   ("anticorpos", "Anticorpo primário e secundário marcado; o secundário reconhece o Fc; lavagens; DAB",
+    ["ihq-passos", "ihq-secundario", "ihq-lavagem", "dab"]),
+   ("esquema", "Esquema da imuno-histoquímica indireta (rótulos na figura)",
+    ["io-ihq-primario", "io-ihq-secundario", "io-ihq-proteina", "io-ihq-produto"])]),
+ (29, "conteudo", "Imuno-histoquímica: padrão de coloração e localização", [
+   ("padrao", "Núcleo × membrana: fator de transcrição × receptor", ["ihq-padrao", "ihq-er", "ihq-her2"]),
+   ("marcadores", "Marcadores que dão o tipo ou a origem do tumor: citoqueratina, PSA, receptor de estrógeno",
+    ["ihq-citoqueratina", "ihq-psa", "ihq-er-mama"])]),
+ (30, "conteudo", "Imunofluorescência", [
+   ("if", "Revelador fluorescente, microscópio de fluorescência, fundo escuro", ["if-def", "if-fundo"]),
+   ("multiplo", "Vários marcadores ao mesmo tempo, em cores diferentes", "if-multiplex"),
+   ("renal", "Muito usada em doenças renais", ["if-renal", "if-linear", "if-granular"])]),
+ (31, "conteudo", "Testes moleculares", [
+   ("pcr", "PCR", "pcr"),
+   ("ish", "Hibridização in situ: sonda complementar marcada, cópias do gene, expressão", ["ish-def", "fish", "ish-copias"]),
+   ("terapia-alvo", "Terapia-alvo só vale com hiperexpressão do receptor; translocação confirmada em linfomas",
+    ["terapia-alvo", "her2-trastuzumab", "translocacao-alvo"])]),
+]
+JUSTIFICATIVAS = {}
+CAPITULO = [("Robbins, Bases Patológicas, cap. 1, Introdução à Patologia (pp. 3 a 5)", [
+   ("quatro-aspectos", "Quatro aspectos da doença: etiologia, patogenia, alterações moleculares e morfológicas, manifestações clínicas", "sequencia-doenca"),
+   ("genetico-adquirido", "Fatores etiológicos genéticos e adquiridos; a maioria das doenças comuns é multifatorial", ["etiologia-grupos", "etiologia-multipla"]),
+   ("patogenia", "Patogenia: sequência de eventos do estímulo inicial à expressão final", ["patogenese-def", "fibrose-cistica"]),
+   ("mama-molecular", "Cânceres de mama morfologicamente iguais diferem em curso e resposta; análise molecular", "mama-molecular"),
+   ("virchow", "Virchow: toda doença começa em alterações moleculares ou estruturais das células", "virchow"),
+   ("ponte", "A patologia liga ciências básicas e medicina clínica", "ponte-basicas")])]
+EXERCICIOS = [
+ ("Provas UC03 (índice pat-01-ferramentas-diagnostico-patologico)", [
+   ("2018-p4", "2018 P4 1.3: aspectos moleculares e ferramentas diagnósticas definem conduta e terapia (ER, PR, HER2)",
+    ["er-pr-her2", "terapia-alvo"]),
+   ("2015-p3sub", "2015 P3 sub 2.2: receptores de estrógeno e progesterona na imuno-histoquímica e hormonioterapia", "hormonioterapia"),
+   ("2015-p3-marcador", "2015 P3 2.3: ferramenta molecular para distinguir neoplasia de hiperplasia", "molecular-def"),
+   ("2019-p3", "2019 P3 1.5: imuno-histoquímica com marcadores em tecido de autópsia", "ihq-in-situ"),
+   ("2016-p3-pap", "2016 P3 1.1: exame de Papanicolaou e categoria da lesão (citologia do colo)", "pap-raspagem")]),
+ ("Monitoria P1 (Resumo da P1): sem seção desta aula, conferido por busca de texto no arquivo", []),
+ ("Apostila de veteranos, Guia de Patologia aula 1 e UC3.pdf, Ferramentas de Diagnóstico Patológico", [
+   ("ve-sequencia", "Etiologia, patogênese, alterações morfológicas e funcionais, manifestações clínicas", "sequencia-doenca"),
+   ("ve-ferramentas", "HE, microscopia eletrônica, histoquímica, imuno-histoquímica, patologia molecular", ["he-principal", "histoquimica-def", "molecular-def"]),
+   ("ve-autopsia", "Autópsia: validação de métodos, correlação clínico-patológica, achados atípicos", "autopsia-qualidade"),
+   ("ve-declinio", "Queda das autópsias: baixo retorno financeiro, desobrigação em 1971, carga de trabalho, recusa familiar", "autopsia-declinio-causas"),
+   ("ve-assistencia", "Patologia cirúrgica, citopatologia, patologia clínica", ["cirurgica", "citopatologia", "patologia-clinica"])]),
+ ("Palavras-cruzadas da turma (Material Complementar IV e V)", [
+   ("pc-aspirativa", "Punção aspirativa por agulha fina", "fna-tireoide"),
+   ("pc-he", "HE, principal coloração para diagnóstico", "he-principal"),
+   ("pc-congelacao", "Congelação, exame intraoperatório", "congelacao"),
+   ("pc-core", "Core biopsy em fígado e mama", "core-biopsia"),
+   ("pc-if", "Imunofluorescência na pele e no rim", "if-renal"),
+   ("pc-papanicolau", "Papanicolaou: citologia do colo por raspagem", "pap-raspagem"),
+   ("pc-patogenese", "Patogênese da pneumonia bacteriana", "pneumonia-patogenese"),
+   ("pc-resolucao", "Aumento da resolução das imagens e a ideia errada de que a autópsia é desnecessária", "autopsia-imagem"),
+   ("pc-monobloco", "Retirada em monobloco na autópsia", "monobloco"),
+   ("pc-molecular", "Patologia molecular", "molecular-def"),
+   ("pc-agente", "Agente etiológico", "agente-etiologico"),
+   ("pc-controle", "Controle de qualidade como objetivo da autópsia", "autopsia-qualidade"),
+   ("pc-histoquimica", "Histoquímica: colorações específicas sem anticorpos", "histoquimica-def"),
+   ("pc-biopsia", "Biópsia: pequeno fragmento de tecido", "biopsia-def"),
+   ("pc-virchow", "Virchow sistematizou a autópsia", "virchow"),
+   ("pc-ihq", "Imuno-histoquímica define a linhagem celular dos tumores", "ihq-origem"),
+   ("pc-svoc", "Maior serviço de autópsia do Brasil (SVOC)", "svoc")]),
+ ("Bibliografia da aula 1 (Kotovicz, Mauad e Saldiva, Clinics 2008) e da aula 2 (Burton et al., Am J Med 2004)", [
+   ("bib-discrepancia", "Discordância clínico-patológica maior de cerca de 16% em hospital universitário de São Paulo", "autopsia-discrepancia"),
+   ("bib-tep", "Embolia pulmonar, pneumonia e infarto são os diagnósticos mais perdidos", "autopsia-erros"),
+   ("bib-declinio", "Taxa de autópsias caiu de cerca de 50% nos anos 1940 para menos de 10% nos anos 1990", "autopsia-declinio")]),
+]

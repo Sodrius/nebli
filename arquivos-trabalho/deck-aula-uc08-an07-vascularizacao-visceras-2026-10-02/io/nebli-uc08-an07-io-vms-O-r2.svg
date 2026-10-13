@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="768">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-vms-o0" x="694.8" y="575.5" width="235.7" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-vms-o1" x="491.8" y="206.2" width="151.3" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-vms-o2" x="92.8" y="514.2" width="271.4" height="59.6" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-vms-o3" x="92.8" y="602.7" width="258.1" height="59.6" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-vms-o4" x="113.3" y="323.4" width="223.1" height="54.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-vms-o5" x="86.1" y="391.5" width="232.7" height="54.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-vms-t0" x="398.0" y="679.2" width="233.6" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

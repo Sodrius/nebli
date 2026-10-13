@@ -1,10 +1,11 @@
 """NEBLI — explicação do card com Tab (Anki desktop).
 
-No verso do card, Tab mostra abaixo do texto a explicação daquele card; Tab ou qualquer
-outra tecla fecha (a tecla de resposta responde na mesma hora). Uma explicação por
+No verso do card, Tab mostra num balão flutuante a explicação daquele card; Tab de novo
+enquanto o balão está aberto marca essa explicação como ruim e fecha. Outra tecla só fecha
+(a tecla de resposta responde na mesma hora). Uma explicação por
 card (irmãos de cloze têm a sua), lida de user_files/explicacoes.sqlite, que é
 gerada fora do Anki por `python -m nebli.explicacoes gerar`. Nada vai para a coleção.
-Cada Tab é anotado em user_files/tab-log.jsonl (para achar os cards que mais pegam).
+Cada abertura e reprovação é anotada em user_files/tab-log.jsonl.
 
 Não mexe em nenhuma outra tecla. Guia: GUIA-EXPLICACOES-TAB.md na raiz do NEBLI.
 Instalar/atualizar: python -m nebli.explicacoes instalar (reiniciar o Anki depois).
@@ -22,26 +23,31 @@ from aqt.qt import QApplication, QEvent, QObject, Qt, QTimer
 
 USER = Path(__file__).resolve().parent / "user_files"
 STORE = USER / "explicacoes.sqlite"
-LABELS = ("Base:", "Por quê:", "Na aula:", "Liga com:", "Não confundir:")
-# Bloco logo abaixo do texto do card (dentro de #qa, como um comentário), fonte grande.
+LABELS = ("Básico:", "Explicação:", "Na aula:", "Não confundir:",
+          "Base:", "Por quê:", "Mais a fundo:", "Liga com:")
+# Balão flutuante na parte de baixo da tela, por cima do card, fonte grande.
 POPUP_JS = """(function(body){
   var old = document.getElementById('nebli-tab'); if (old) old.remove();
   var night = document.body.classList.contains('nightMode') || document.documentElement.classList.contains('night-mode');
   var d = document.createElement('div'); d.id = 'nebli-tab'; d.innerHTML = body;
-  d.style.cssText = 'display:block;box-sizing:border-box;width:100%;max-width:960px;margin:22px auto 12px;'
-    + 'padding:16px 22px;border-radius:12px;text-align:left;font:21px/1.6 -apple-system,system-ui,sans-serif;'
-    + (night ? 'background:#23272e;color:#ececec;border-left:5px solid #6ea8fe;'
-             : 'background:#f4f7fc;color:#1f2328;border-left:5px solid #3b6fd8;');
+  d.style.cssText = 'position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:99999;'
+    + 'width:min(960px,94vw);max-height:66vh;overflow-y:auto;box-sizing:border-box;padding:18px 24px;'
+    + 'border-radius:14px;text-align:left;font:21px/1.6 -apple-system,system-ui,sans-serif;'
+    + 'box-shadow:0 10px 32px rgba(0,0,0,.3);'
+    + (night ? 'background:#26282c;color:#e8e8e8;border:1px solid #3a3d42;'
+             : 'background:#fffdf7;color:#1f2328;border:1px solid #e3dccb;');
   d.setAttribute('role', 'note'); d.setAttribute('aria-label', 'Explicação do card');
-  var texts = Array.from(document.querySelectorAll('#text')).filter(function(n){
-    return n.getClientRects().length > 0;
-  });
-  var anchor = texts[texts.length - 1];
-  if (anchor) anchor.insertAdjacentElement('afterend', d);
-  else (document.getElementById('qa') || document.body).appendChild(d);
-  d.scrollIntoView({block: 'nearest'});
+  document.body.appendChild(d);
 })(__BODY__);"""
-_popup = {"open": False}
+_popup = {"open": False, "card": None, "nota": None, "deck": None,
+          "achou": False, "explicacao": None}
+
+
+def _tab_event(event, **details):
+    USER.mkdir(exist_ok=True)
+    record = {"em": time.strftime("%Y-%m-%d %H:%M:%S"), "evento": event, **details}
+    with (USER / "tab-log.jsonl").open("a", encoding="utf-8") as handle:
+        handle.write(json.dumps(record, ensure_ascii=False) + "\n")
 
 
 def _log(message):
@@ -91,9 +97,26 @@ def _render(row, card):
 def _close_popup(*_args):
     """Remove sempre (barato), mesmo se o card já mudou antes do fechamento agendado."""
     _popup["open"] = False
+    _popup["card"] = None
+    _popup["nota"] = None
+    _popup["deck"] = None
+    _popup["explicacao"] = None
     reviewer = getattr(mw, "reviewer", None)
     if reviewer and reviewer.web:
         reviewer.web.eval("var n=document.getElementById('nebli-tab'); if(n) n.remove();")
+
+
+def _mark_bad_and_close():
+    if not _popup["open"]:
+        return
+    reviewer = _reviewer()
+    if reviewer and reviewer.card and reviewer.card.id == _popup["card"]:
+        _tab_event("tab_ruim", card=_popup["card"], nota=_popup["nota"],
+                   deck=_popup["deck"], achou=_popup["achou"],
+                   explicacao=_popup["explicacao"])
+        from aqt.utils import tooltip
+        tooltip("Explicação marcada como ruim para revisão.")
+    _close_popup()
 
 
 def _toggle():
@@ -102,16 +125,20 @@ def _toggle():
         if not reviewer or reviewer.state != "answer":
             return
         if _popup["open"]:
-            _close_popup()
+            _mark_bad_and_close()
             return
         card = reviewer.card
-        body, found = _render(_lookup(card), card)
+        row = _lookup(card)
+        body, found = _render(row, card)
         reviewer.web.eval(POPUP_JS.replace("__BODY__", json.dumps(body)))
         _popup["open"] = True
-        USER.mkdir(exist_ok=True)
-        with (USER / "tab-log.jsonl").open("a", encoding="utf-8") as handle:
-            handle.write(json.dumps({"em": time.strftime("%Y-%m-%d %H:%M:%S"), "card": card.id,
-                                     "nota": card.nid, "deck": card.did, "achou": found}) + "\n")
+        _popup["card"] = card.id
+        _popup["nota"] = card.nid
+        _popup["deck"] = card.did
+        _popup["achou"] = found
+        _popup["explicacao"] = hashlib.sha256((row[1] or "").encode("utf-8")).hexdigest()[:16] if row else None
+        _tab_event("abriu", card=card.id, nota=card.nid, deck=card.did,
+                   achou=found, explicacao=_popup["explicacao"])
     except Exception:
         _log(traceback.format_exc())
 

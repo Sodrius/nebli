@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="749">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-peca-gastromental-direita-o0" x="135.9" y="484.5" width="67.2" height="28.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-peca-gastromental-direita-o1" x="135.9" y="504.6" width="81.0" height="28.3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-peca-gastromental-direita-o2" x="135.9" y="524.9" width="63.2" height="28.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-peca-gastromental-direita-o3" x="103.5" y="319.5" width="28.1" height="28.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-peca-gastromental-direita-o4" x="793.8" y="539.8" width="115.7" height="28.3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-peca-gastromental-direita-t0" x="103.5" y="339.6" width="109.5" height="28.3" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  <rect id="io-peca-gastromental-direita-t1" x="103.5" y="359.8" width="54.9" height="28.2" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>

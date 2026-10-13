@@ -1,17 +1,19 @@
 # Explicação do card com Tab (Anki)
 
-Você está revisando no Anki, vira um card que errou ou não entendeu e aperta **Tab**. Aparece, logo abaixo do texto, um bloco de explicação com fonte de 21 px: do conceito básico até a resposta, e como isso se encaixa na aula. Tab ou qualquer outra tecla fecha. Se a tecla for de resposta, o card é respondido na mesma hora.
+Você está revisando no Anki, vira um card que errou ou não entendeu e aperta **Tab**. Aparece, num balão flutuante na parte de baixo da tela, por cima do card, a explicação com fonte de 21 px: do conceito básico até a resposta, e como isso se encaixa na aula. **Tab novamente, enquanto o balão está aberto, marca essa explicação como ruim e fecha.** Outra tecla apenas fecha; se for tecla de resposta, o card é respondido na mesma hora. A reprovação fica no `tab-log.jsonl` com o ID do card e uma assinatura da versão da explicação, para revisão posterior.
 
 - **Uma explicação por card.** Irmãos de cloze da mesma nota têm explicações diferentes, cada uma focada no que aquele card esconde.
 - **Nada muda nos seus cards.** As explicações ficam num arquivo do add-on, fora da coleção. Não sincronizam, não aparecem no editor e não mexem no agendamento.
 - **Instantânea.** As explicações são geradas antes, em lote. O Tab só mostra.
-- **Gerada pelo Claude da sua assinatura**, pelo Claude Code instalado no computador. Não usa API paga.
+- **Gerada pela assinatura do Claude ou, com `--backend codex`, pela assinatura do Codex CLI.** Não usa API paga.
 
 Funciona hoje no **Anki para computador** (Mac, Windows, Linux). No AnkiDroid/tablet ainda não: está planejado.
 
 ## Formato da explicação
 
-Umas 8 linhas, em português:
+**Padrão ativo desde 12/10:** quatro blocos presentes e úteis, na ordem **Básico → Explicação → Na aula → Não confundir**. O primeiro define o que faltou para entender a pergunta; o segundo constrói a resposta por mecanismo ou relação; o terceiro mostra a função daquela ideia na aula; o quarto distingue uma alternativa realmente confundível. [Três exemplos editoriais](../Documents/NEBLI-investigacao-2026-10-11/GUIA.md). O gerador aplica o estilo novo à aula que está sendo produzida e seus cards compartilhados. Os Tabs antigos continuam visíveis; o resumo os chama de desatualizados até a atualização por aula. Não há regeneração geral automática.
+
+Formato das explicações anteriores, em português (legado que permanece visível até a atualização daquela aula):
 
 > **Base:** o conceito básico de que a resposta depende.
 > **Por quê:** a cadeia causal da base até a resposta, em poucos passos.
@@ -73,9 +75,11 @@ python3 -m nebli.explicacoes mostrar 1790248163066   # ler a explicação de um 
 
 **Tempo e cota:** lotes de 10 cards; o tempo de preparação e geração varia. No teste inicial, cada explicação consumiu por volta de US$ 0,005 **equivalentes** da cota da assinatura. Isso não é cobrança de API. Lotes grandes podem atingir o limite do plano. Quando a cota liberar, repita o mesmo comando sem `--refazer`: as explicações atuais já salvas são preservadas.
 
+O comportamento padrão tenta a assinatura do Claude e, se ela atingir o limite, passa para o Codex CLI autenticado sem perder o lote. Para escolher diretamente, use `--backend claude` ou `--backend codex`. O comando preserva as explicações atuais e usa o mesmo estilo e as mesmas checagens. Com `OPENAI_API_KEY` definida, o Codex para antes de gerar para evitar uma API paga.
+
 ## Mudar o estilo
 
-O estilo é o arquivo [`config/explicacao-tab.md`](config/explicacao-tab.md), escrito em linguagem comum: tamanho, ordem das linhas, ano do estudante, regras e exemplos. Edite, rode `gerar ... --refazer` nos cards que quiser e veja com Tab. Quando uma explicação ficar do jeito que você gosta, cole-a na seção "Exemplos aprovados" do arquivo: ela passa a servir de modelo para as próximas.
+O estilo ativo é o arquivo [`config/explicacao-tab.md`](config/explicacao-tab.md); a versão anterior foi preservada em `arquivo/2026-10-12-tab-estilo-legado.md`. O próximo `gerar '"tag:NEBLI::<aula>"'` atualiza só os cards daquela aula, inclusive compartilhados. `python3 -m nebli.explicacoes ruins` mostra os Tabs reprovados pelo segundo toque de Tab que ainda não foram reescritos. Ler o texto e a fonte ao corrigi-los; uma alteração automática de palavras não resolve necessariamente a dúvida.
 
 ## Onde ficam as coisas
 
@@ -102,3 +106,9 @@ A pasta `Anki2` fica em `~/Library/Application Support/Anki2` (Mac), `%APPDATA%\
 - Só no Anki para computador. A versão para tablet (AnkiDroid) usará uma função nos modelos dos cards, chamada pela "Ação do usuário". Está planejada, ainda não existe.
 - As explicações **não acompanham o APKG nem o AnkiWeb** nesta etapa. Outro computador precisa do add-on e da base `explicacoes.sqlite` (copiada com o Anki/gerador fechados, ou por backup SQLite), além de IDs de cards correspondentes. Uma importação pode mudar IDs; portanto copiar a base não garante que as explicações apareçam. Se isso acontecer, gere novamente no destino. Exportar não remove as explicações do computador de origem.
 - A IA pode errar. Ela parte do conteúdo do card e é instruída a não inventar, mas trate a explicação como apoio: se algo não bater com a aula, confie na aula e ajuste o card ou o estilo.
+
+## Decisão vigente em 08/10/2026
+
+Manter **uma explicação por card**, com a interação atual. Davi cancelou variantes curta/longa; não implementar duas colunas ou migrar cache por essa proposta. Revisar fundamentos, cadeia causal, termos definidos e contexto da aula, sem apoio genérico. Conferir atualidade do Tab após alterar cards.
+
+Proposta antiga integral em [arquivo](arquivo/2026-10-08-organizacao/GUIA-EXPLICACOES-TAB.md). Prompt, cache e add-on não foram alterados nesta organização. Limites técnicos acima continuam sujeitos à verificação na execução.

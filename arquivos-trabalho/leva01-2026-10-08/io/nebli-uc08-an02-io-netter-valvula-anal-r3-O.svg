@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="652">
+ <defs><marker id="focus-arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#C62828"/></marker></defs>
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-novo-t0" x="300.0" y="200.0" width="190.0" height="46.0" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

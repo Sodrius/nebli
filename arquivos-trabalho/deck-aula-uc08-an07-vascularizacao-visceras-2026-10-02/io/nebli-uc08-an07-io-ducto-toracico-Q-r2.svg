@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="749">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-ducto-toracico-o0" x="783.5" y="518.3" width="96.4" height="63.6" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-ducto-toracico-o1" x="93.2" y="363.7" width="254.7" height="229.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-ducto-toracico-t0" x="775.7" y="304.8" width="161.9" height="63.6" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>

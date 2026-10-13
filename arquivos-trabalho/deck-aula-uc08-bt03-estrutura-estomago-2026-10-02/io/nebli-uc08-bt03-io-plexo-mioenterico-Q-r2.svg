@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1728" height="1296">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-plexo-mioenterico-o0" x="1077.0" y="58.6" width="459.2" height="67.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-plexo-mioenterico-o1" x="1077.0" y="196.8" width="369.2" height="67.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-plexo-mioenterico-o2" x="1077.0" y="473.3" width="446.2" height="67.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-plexo-mioenterico-t0" x="1077.0" y="680.7" width="429.7" height="67.2" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>

@@ -1,0 +1,230 @@
+"""Inventário atômico de Ferramentas do diagnóstico radiológico (UC03 P1, Radiologia; Profa. Claudia Leite / Preceptoria 2024; 61 lâminas).
+Material de base lido inteiro: lâminas II (Leite, 49) e III (preceptoria 2024, 34) remontadas em fontes/slides.pdf na ordem da transcrição
+(fontes/slides-ordem.json; I é subconjunto de III), transcrição da aula (85 páginas), Radiology Basics (bibliografia da aula, cap. 1),
+Radiologia Básica (Mello Júnior, cap. 1), provas pelo índice rad-01, monitoria P1 (aula 1 suprimida pelos monitores) e apostilas de veteranos.
+Cada ideia aponta para o card que a pergunta (chave do spec, lista, "sh-<nid>" ou "EXC: motivo" só em lâmina). Menção no verso não conta.
+"""
+PREFIXO = "rd02"
+AULA = "Ferramentas do diagnóstico radiológico (UC03 P1; Radiologia; Claudia Leite / Preceptoria 2024)"
+EXC = "EXC: "
+JUSTIFICATIVAS = {}
+SH_FIG = "sh-1791022171899"
+SH_HEM = "sh-1791022169824"
+SH_OST = "sh-1791054020921"
+
+SLIDES = [
+ (1, "capa", "Capa", []),
+ (2, "conteudo", "Por que aprender radiologia (caso: dor no hipocôndrio direito)", [
+   ("a1", "Imagem não existe sozinha: soma-se à história e ao exame físico; o pedido leva hipótese diagnóstica", "historia-clinica"),
+   ("a2", "Dor na palpação do hipocôndrio direito: fígado e vesícula biliar (rim é posterior)", "hipocondrio-dir")]),
+ (3, "conteudo", "E agora? Exame complementar: ultrassonografia (cálculos biliares)", [
+   ("a3", "Dor biliar crônica com exames normais: ultrassom como exame inicial do hipocôndrio direito", "ruq-us"),
+   ("a4", "Colelitíase sintomática se diagnostica por ultrassom", "colelitiase-us"),
+   ("a5", "Imagem do ultrassom com cálculos biliares na vesícula e sombra acústica", ["io-calculos", "sombra"]),
+   ("a6", "Vesícula biliar no ultrassom (identificação)", "io-ves-biliar")]),
+ (4, "conteudo", "O que queremos? (objetivo da aula)", [
+   ("a7", "Objetivo: principais métodos por imagem e suas aplicações clínicas", EXC + "enunciado do objetivo; os métodos e aplicações são cobertos pelos cards de cada método")]),
+ (5, "conteudo", "Ovo quebrado (metáfora)", [
+   ("a8", "Metáfora de ver o que há dentro sem abrir", "ver-sem-abrir")]),
+ (6, "conteudo", "Caixa fechada (metáfora)", [
+   ("a9", "O radiologista quer saber o que há na caixa sem abri-la", "ver-sem-abrir")]),
+ (7, "conteudo", "Principais métodos de imagem I: RX, TC e USG", [
+   ("b1", "Radiografia e tomografia usam radiação ionizante", "rx-ct-ionizante"),
+   ("b2", "Tomografia: medidas de raios X em vários ângulos geram cortes", "tc-def"),
+   ("b3", "Ultrassonografia forma imagem com ecos de som de alta frequência", "usg-som"),
+   ("b4", "Reconhecer radiografia de tórax, TC de tórax e USG de fígado pela imagem", ["io-met-rx", "io-met-tc", "io-met-usg"])]),
+ (8, "conteudo", "Principais métodos de imagem II: RM, angiografia, MN e radiologia intervencionista", [
+   ("b5", "Ressonância usa campo magnético e radiofrequência", "rm-def"),
+   ("b6", "Angiografia digital: cateter e contraste para estudar vasos", "angio-def"),
+   ("b7", "Medicina nuclear usa radioisótopos e avalia função; no Brasil é especialidade separada", ["mn-funcional", "mn-brasil"]),
+   ("b8", "Radiologia intervencionista une diagnóstico e tratamento (coils em aneurisma, biópsia guiada)", ["interv-def", "ak-coil", "us-biopsia"]),
+   ("b9", "Reconhecer RM de abdome, angiografia e PET-CT pela imagem", ["io-met-rm", "io-met-angio", "io-met-mn"])]),
+ (9, "conteudo", "Quais métodos devemos utilizar? (ACR)", [
+   ("c1", "Escolher o método mais simples e barato que resolve a pergunta clínica", "mais-barato"),
+   ("c2", "ACR Appropriateness Criteria orientam o método por situação clínica", "acr-def"),
+   ("c3", "Notas ACR: 1–3 não apropriado, 4–6 pode ser, 7–9 apropriado", "acr-notas"),
+   ("c4", "Exemplo: RM para cálculo de vesícula é não apropriada", "acr-exemplo"),
+   ("c5", "Exames repetidos em vários métodos (angiografia + angio-RM + angio-TC) são desperdício", "exames-repetidos")]),
+ (10, "conteudo", "Tabela do ACR (exemplo de icterícia)", [
+   ("c6", "Exemplo da tabela de adequação", EXC + "tabela ilustrativa do ACR sem leitura dirigida em aula; a lógica da classificação está nos cards ACR")]),
+ (11, "conteudo", "Exames radiológicos: pirâmide cruzada e lista de exames avançados", [
+   ("c7", "Métodos mais avançados não substituem os simples (pirâmide RX⊂USG⊂TC⊂RM riscada)", "nao-hierarquia"),
+   ("c8", "Lista de exames avançados (dual energy, PET/CT, PET/RM, Primovist, ecoendoscopia, elastografia)", EXC + "só nomes, sem explicação em aula; PET/CT e PET/RM entram na medicina nuclear")]),
+ (12, "conteudo", "Imagens seccionais (o mesmo objeto em RX, TC, RM e USG)", [
+   ("d1", "Radiografia não é seccional (sobreposição); TC, RM e USG são seccionais", "rx-nao-seccional"),
+   ("d2", "Aparência do mesmo objeto na radiografia (sobreposto, sem corte)", "io-rx-ovo")]),
+ (13, "conteudo", "Planos sagital, axial e coronal", [
+   ("d3", "Reconhecer os planos de corte (sagital mediano, coronal, transverso)", ["plano-sag-ak", "plano-cor-ak", "plano-axial-ak"])]),
+ (14, "conteudo", "Tabela ultrassom: vantagens e limitantes", [
+   ("e1", "USG é rápida, dinâmica e feita no leito", "usg-rapido-leito"),
+   ("e2", "USG é excelente para líquidos (cisto simples anecoico)", ["usg-liquidos", "cisto-anecoico"]),
+   ("e3", "Limitantes do USG: gás, gordura e osso", ["usg-limites", "usg-bamb"]),
+   ("e4", "Reforço acústico atrás de estrutura líquida", "reforco")]),
+ (15, "conteudo", "Aparelhos de ultrassom (transdutor, celular, tablet)", [
+   ("e5", "Transdutor com cristais piezoelétricos emite e recebe os ecos", "piezo"),
+   ("e6", "Ultrassom à beira do leito (point of care) e portátil, inclusive em locais remotos", ["pocus", "usg-portatil"]),
+   ("e7", "Gel retira o ar entre transdutor e pele", "gel")]),
+ (16, "conteudo", "Ultrassom: quadro de características", [
+   ("e8", "Feixe sonoro de alta frequência, sem radiação ionizante", ["usg-som", "usg-sem-radiacao"]),
+   ("e9", "USG depende do operador", "usg-operador"),
+   ("e10", "Ultrassom é som acima de 20.000 Hz; frequência maior dá mais resolução e menos penetração", ["usg-frequencia-som", "usg-freq-resolucao"])]),
+ (17, "conteudo", "Contraste intrínseco × exógeno no USG", [
+   ("e11", "Contraste intrínseco do USG: interação entre onda sonora e tecidos", "usg-contraste-int"),
+   ("e12", "Contraste exógeno do USG: microbolhas", "usg-contraste-ext")]),
+ (18, "conteudo", "USG de abdome: lobos hepáticos", [
+   ("e13", "Ecogenicidade: hiperecoico (claro) e hipoecoico (escuro)", ["ecogenico-hiper", "ecogenico-hipo", SH_FIG]),
+   ("e14", "Imagens em vários cortes movendo o transdutor (longitudinal, transversal)", "usg-cortes")]),
+ (19, "conteudo", "USG de abdome: veia porta, colédoco e Doppler", [
+   ("e15", "Doppler avalia fluxo (fluxo na veia porta)", ["doppler", "doppler-cor"]),
+   ("e16", "Veia porta na imagem de vesícula e fígado", "io-veia-porta")]),
+ (20, "conteudo", "USG de abdome: rins direito e esquerdo", [
+   ("e17", "Rim: sistema coletor, cortical e pirâmides; paciente em decúbito lateral", ["usg-rim-estruturas", "giro-rim"]),
+   ("e18", "Rins identificados na imagem de USG", EXC + "imagens de rim direito e esquerdo diferem só pelo lado; estruturas (cortical, pirâmides, sistema coletor) estão em usg-rim-estruturas")]),
+ (21, "conteudo", "USG de abdome: pâncreas, fígado e VCI", [
+   ("e19", "Pâncreas é retroperitoneal e fica profundo", "pancreas-retro"),
+   ("e20", "Reconhecer pâncreas, fígado e veia cava inferior no USG", ["io-pancreas", "io-figado", "io-vci"])]),
+ (22, "conteudo", "USG de abdome: vesícula normal × com conteúdo espesso", [
+   ("e21", "Vesícula com conteúdo espesso no interior comparada à normal", "gb-espesso")]),
+ (23, "conteudo", "USG transfontanela", [
+   ("e22", "Fontanelas não ossificadas permitem ver o crânio do recém-nascido; hemorragia em prematuros, no berçário", ["trans-ossif", "ak-ivh"])]),
+ (24, "conteudo", "Tabela USG e TC: limitantes da TC", [
+   ("f1", "TC: rápida e boa resolução espacial; limitada por radiação, contraste e sedação em crianças", ["tc-rapido-res", "tc-sedacao"])]),
+ (25, "conteudo", "Aparelho de tomografia", [
+   ("f2", "Foto do tomógrafo (gantry em forma de rosca)", EXC + "foto do equipamento sem fato próprio além da definição de TC (tc-def)")]),
+ (26, "conteudo", "TC: quadro de características", [
+   ("f3", "TC usa radiação ionizante e dá imagem seccional, com dose maior que a radiografia", ["tc-radiacao-maior", "tc-def"]),
+   ("f4", "Radiação é cumulativa: cuidado em grávidas e crianças, ajustando parâmetros do aparelho", ["radiacao-cumulativa", "radiacao-gravidez", "tc-dose-registro"]),
+   ("f5", "TC distingue cerca de 250 tons de cinza (radiografia, 25)", "tc-cinzas")]),
+ (27, "conteudo", "Exames radiológicos (Escher e Van Gogh)", [
+   ("f6", "Imagens de arte (esfera de Escher, campo de trigo de Van Gogh)", EXC + "metáfora visual sem enunciado nem fala correspondente na transcrição")]),
+ (28, "conteudo", "TC: sem contraste, IV iodado (fases), VO e VR", [
+   ("f7", "Contraste IV da TC é iodado; oral/retal iodado ou bário; siglas EV, VO, VR", ["tc-contraste-iv", "via-eva"]),
+   ("f8", "Contraste iodado oral é hiperosmolar e dá diarreia", "iodo-diarreia"),
+   ("f9", "Contraste iodado: nefropatia induzida por contraste, prevenida com hidratação", "cin-hidratacao")]),
+ (29, "conteudo", "Contraste intrínseco × exógeno na TC", [
+   ("f10", "Contraste exógeno melhora a definição das estruturas", "contraste-exogeno"),
+   ("f11", "Contraste intrínseco da TC é a diferença de atenuação", "tc-contraste-int")]),
+ (30, "conteudo", "TC de abdome sem contraste (janela de partes moles e janela óssea)", [
+   ("f12", "Uma só aquisição pode ser exibida em janelas diferentes", "janela-conceito"),
+   ("f13", "Janela óssea no abdome detecta lesão em costelas e vértebras", "janela-abdome")]),
+ (31, "conteudo", "TC de abdome com contraste EV: planos axial, sagital e coronal", [
+   ("f14", "Reconhecer os planos axial, sagital e coronal na TC", ["io-plano-axial", "io-plano-sagital", "io-plano-coronal"]),
+   ("f15", "A TC reconstrói imagens em vários planos e em 3D a partir de uma aquisição", "tc-recon")]),
+ (32, "conteudo", "Fases do contraste: arterial, portal, excretora e tardia", [
+   ("f16", "Fases: arterial, portal, excretora e tardia", ["io-fase-arterial", "io-fase-portal", "io-fase-excretora", "io-fase-tardia"]),
+   ("f17", "Fase arterial vem antes da venosa porque o contraste passa pelo coração", "fases-coracao"),
+   ("f18", "Fases caracterizam nódulos hepáticos (hemangioma realça na periferia)", ["fases-figado", SH_HEM]),
+   ("f19", "Realce é a captação de contraste; abdome costuma ser avaliado na fase portal", ["realce", "abdome-venosa"])]),
+ (33, "conteudo", "Fase portal sem contraste VO, com VO e com VOP", [
+   ("f20", "Contraste oral enche as alças para estudá-las melhor; bário dá artefato", ["vo-finalidade", "bario-artefato", "io-vo"])]),
+ (34, "conteudo", "TC de crânio sem contraste: janela de parênquima e janela óssea", [
+   ("f21", "Janelas de parênquima e óssea: osso procura fratura da calota", ["io-janela-parenquima", "io-janela-ossea", "janela-ossea-fratura"]),
+   ("f22", "Sangramento agudo é hiperdenso na TC sem contraste", "ak-hemorragia"),
+   ("f23", "Hiperdenso, hipodenso, isodenso; unidades Hounsfield", ["hiperdenso", "hipodenso", "isodenso", "hu-agua"]),
+   ("f24", "TC de crânio sem contraste leva menos de um minuto", "tc-rapido-min")]),
+ (35, "conteudo", "TC: aneurisma de aorta abdominal infrarrenal (reconstrução 3D)", [
+   ("f25", "Reconhecer aneurisma de aorta abdominal infrarrenal na reconstrução 3D; aneurisma é dilatação arterial", ["io-aaa", "aneurisma-def"]),
+   ("f26", "Ultrassom é o método de escolha para diagnóstico e seguimento do AAA", "ak-aaa")]),
+ (36, "conteudo", "TC: aneurisma de aorta abdominal (reconstrução sagital)", [
+   ("f27", "Mesmo aneurisma em reconstrução com aorta, ilíacas, rins e coluna", "io-aaa")]),
+ (37, "conteudo", "Objeto metálico na TC (artefato)", [
+   ("f28", "Artefato é imagem anormal que atrapalha; metal gera artefato pela diferença de atenuação; movimento também", ["artefato-def", "artefato-metal", "artefato-movimento", "io-metal"])]),
+ (38, "conteudo", "Tabela: acrescenta ressonância magnética", [
+   ("g1", "RM: boa resolução de contraste, sem radiação; demorada, sedação em claustrofóbicos, ferromagnéticos, interferência elétrica", ["rm-contraste-tecidos", "rm-sem-radiacao", "rm-demorado", "rm-sedacao"])]),
+ (39, "conteudo", "Aparelho de ressonância", [
+   ("g2", "Aparelhos clínicos de 1,5 e 3 tesla", "rm-tesla")]),
+ (40, "conteudo", "RM: quadro de características", [
+   ("g3", "Campo magnético e radiofrequência sobre prótons de hidrogênio; excelente resolução entre tecidos", ["rm-def", "rm-protons-h", "rm-contraste-tecidos"]),
+   ("g4", "Paciente precisa colaborar; sedação; entrevista antes (metal, celular, prótese)", ["rm-sedacao", "rm-ferro", "rm-aparelho-dentario"]),
+   ("g5", "Interferência elétrica: marcapasso; implante coclear contraindicado", ["rm-marcapasso", "ak-coclear"]),
+   ("g6", "Exame mais caro e demorado; IA pode encurtá-lo", ["rm-caro", "rm-ia"])]),
+ (41, "conteudo", "Tabela de contrastes por método: RM com gadolínio e sequências", [
+   ("g7", "Contraste da RM: gadolínio EV; sequências T1 e T2 com e sem fat sat", ["gadolinio", "sequencia-def"])]),
+ (42, "conteudo", "Contraste intrínseco × exógeno na RM", [
+   ("g8", "Contraste intrínseco da RM é a diferença de sinal", "rm-contraste-int"),
+   ("g9", "Gadolínio é paramagnético, eleva sinal em T1; FSN em insuficiência renal; marca lesões sem barreira hematoencefálica", ["gd-paramagnetico", "gd-t1", "gd-nsf", "gd-snc"])]),
+ (43, "conteudo", "RM de abdome superior: sequências T1, T2, fat sat", [
+   ("g10", "Cada sequência é uma aquisição separada; interpretação em conjunto; exame demorado", ["sequencia-def", "rm-demorado"]),
+   ("g11", "Líquido: claro em T2 e escuro em T1; T2 para patologia; hiper/hipointenso; fat-sat; fluxo sem sinal", ["t2-liquido", "t1-liquido", "t2-patologia", "hiperintenso", "hipointenso", "flow-void", "fatsat", SH_OST]),
+   ("g12", "Reconhecer T2 e T1 pela vesícula (clara em T2, escura em T1 com fat sat)", ["io-t2", "io-t1fs"])]),
+ (44, "conteudo", "RM T1 com fat sat sem contraste e fases arterial, venosa e equilíbrio", [
+   ("g13", "Fases arterial, venosa e de equilíbrio na RM com gadolínio", ["io-rm-arterial", "io-rm-venosa", "io-rm-equilibrio", "equilibrio-def"])]),
+ (45, "conteudo", "Colangio-RM", [
+   ("g14", "Colangio-RM mostra as vias biliares intra e extra-hepáticas", ["io-colangio", "colangiorm"])]),
+ (46, "conteudo", "Tabela com radiografia convencional: rápida, leito, gás; baixa resolução, sem cortes axiais", [
+   ("h1", "Radiografia é boa para gás e osso, rápida e no leito", ["rx-rapido-leito", "rx-osso-gas"]),
+   ("h2", "Radiografia tem menor resolução espacial e de contraste e não permite cortes axiais", ["rx-contraste-baixo", "rx-nao-seccional"])]),
+ (47, "conteudo", "Sala de radiografia convencional", [
+   ("h3", "Foto da sala de radiografia", EXC + "foto do ambiente sem fato adicional")]),
+ (48, "conteudo", "Radiografia: quadro de características", [
+   ("h4", "Radiação ionizante, imagem de sobreposição, não seccional", ["rx-ct-ionizante", "rx-nao-seccional"]),
+   ("h5", "Mais denso absorve mais raios X e fica branco; radiopaco e radiotransparente; quatro densidades", ["rx-principio", "rx-radiopaco", "rx-radiolucente", "rx-densidades-4"]),
+   ("h6", "Radiografia: primeira linha por baixa dose e disponibilidade; fratura inicial (≥2 incidências)", ["rx-primeira-linha", "rx-fratura"]),
+   ("h7", "Evitar em grávidas; cuidado em crianças", ["radiacao-gravidez", "radiacao-cumulativa"])]),
+ (49, "conteudo", "Radiografia de abdome (incidência única)", [
+   ("h8", "Sobreposição de fígado, rins e alças; alças com ar e estômago", ["rx-nao-seccional", "rx-principio"])]),
+ (50, "conteudo", "Radiografia de abdome em decúbito dorsal e ortostase: obstrução intestinal alta", [
+   ("h9", "Em pé o nível hidroaéreo se forma; obstrução com alça dilatada e níveis", ["ortostase-nivel", "ak-sbo-kub", "io-ortostase", "io-decubito", "io-obstrucao"]),
+   ("h10", "Com radiação inevitável, TC pode ser preferida à radiografia de abdome", "tc-vs-rx-abd")]),
+ (51, "conteudo", "Radiografia de tórax em PA e perfil", [
+   ("h11", "Tórax em PA e perfil; PA = feixe de trás para frente", ["incidencias", "pa-def", "io-pa", "io-perfil"]),
+   ("h12", "Pneumonia: área branca no pulmão preto", "pneumonia-rx")]),
+ (52, "conteudo", "Tabela dos quatro métodos (resumo)", [
+   ("h13", "Resumo: USG, TC, RM e radiografia — vantagens e limitantes", ["usg-limites", "tc-rapido-res", "rm-demorado", "rx-contraste-baixo"])]),
+ (53, "conteudo", "Angiografia digital (sala de hemodinâmica)", [
+   ("i1", "Angiografia na sala intervencionista; trombectomia em AVC isquêmico", "ak-trombectomia")]),
+ (54, "conteudo", "Angiografia digital: quadro de características", [
+   ("i2", "Radiação ionizante, contraste iodado EV, demorada e trabalhosa, dinâmica", ["angio-radiacao-iodo", "fluoroscopia"]),
+   ("i3", "Diagnóstico e terapêutica; risco de qualquer intervenção; tomo, RM ou digital", ["angio-terapeutica", "angio-risco", "angio-tipos"])]),
+ (55, "conteudo", "Angiografia digital: cateteres", [
+   ("i4", "Cateter entra pela femoral e sobe até o alvo, com fio-guia", "angio-femoral")]),
+ (56, "conteudo", "Angiografia digital: aorta, rins e ilíacas", [
+   ("i5", "Reconhecer aorta abdominal, artérias renais e bifurcação ilíaca no angiograma", "angio-aorta-img")]),
+ (57, "conteudo", "Tabela: angiografia digital e medicina nuclear", [
+   ("i6", "Angiografia: trabalhosa, radiação, contraste, risco; MN: baixa resolução espacial, avalia função, demorada, material radioativo", ["angio-risco", "mn-baixa-res", "mn-funcional"])]),
+ (58, "conteudo", "Medicina nuclear (aparelho)", [
+   ("j1", "Foto do equipamento de medicina nuclear", EXC + "foto do aparelho sem fato adicional")]),
+ (59, "conteudo", "Medicina nuclear: quadro de características", [
+   ("j2", "Radiofármacos, exame funcional, baixa resolução anatômica, SPECT/PET, acoplado a TC ou RM", ["mn-funcional", "mn-baixa-res", "spect-pet", "pet-fusao"])]),
+ (60, "conteudo", "Medicina nuclear: material radioativo injetado", [
+   ("j3", "Pequena quantidade de material radioativo é injetada e depois excretada", "mn-radiofarmaco")]),
+ (61, "conteudo", "PET: glicose marcada e tumores", [
+   ("j4", "Glicose marcada: células tumorais captam mais; PET mostra tumores", "mn-pet-glicose")]),
+]
+
+CAPITULO = [
+ ("Mello Júnior, Radiologia Básica, cap. 1 (princípios técnicos e nomenclatura)", [
+   ("k1", "Radiografia: densidades ar, gordura, partes moles e osso; sobreposição e duas incidências", ["rx-densidades-4", "incidencias"]),
+   ("k2", "TC: cortes axiais com reconstrução, 250 tons de cinza, unidades Hounsfield, janelas e termos hiperdenso/hipodenso/isodenso", ["tc-cinzas", "hu-agua", "janela-conceito", "hiperdenso", "hipodenso", "isodenso"]),
+   ("k3", "USG: ultrassom >20 kHz, efeito piezoelétrico, frequência × resolução/penetração, gel, ecogenicidade, sombra e reforço, Doppler",
+    ["usg-frequencia-som", "piezo", "usg-freq-resolucao", "gel", "ecogenico-hiper", "ecogenico-hipo", "sombra", "reforco", "doppler"]),
+   ("k4", "RM: prótons de hidrogênio, T1 × T2, hiper/hipo/isointenso, flow void, supressão de gordura, contraindicações (marcapasso, implante coclear)",
+    ["rm-protons-h", "t2-liquido", "t1-liquido", "hiperintenso", "hipointenso", "flow-void", "fatsat", "rm-marcapasso", "ak-coclear"]),
+   ("k5", "Meios de contraste: iodo e bário na radiografia/TC; gadolínio paramagnético na RM; contraste oral opacifica alças",
+    ["tc-contraste-iv", "gd-paramagnetico", "gd-t1", "vo-finalidade", "realce"])]),
+ ("Radiology Basics (Sia & Shah), cap. 1 — bibliografia da aula", [
+   ("l1", "Radiografia é a primeira linha por baixa dose e fácil acesso; fluoroscopia = raios X ao vivo", ["rx-primeira-linha", "fluoroscopia"]),
+   ("l2", "TC: fase arterial antes da venosa (contraste passa pelo coração); abdome em fase portal; artefatos de metal e movimento",
+    ["fases-coracao", "abdome-venosa", "artefato-metal", "artefato-movimento"]),
+   ("l3", "Janelas e unidades Hounsfield (água 0, ar −1000)", ["janela-conceito", "hu-agua"]),
+   ("l4", "Contraste iodado: nefropatia induzida por contraste; gadolínio: fibrose sistêmica nefrogênica", ["cin-hidratacao", "gd-nsf"]),
+   ("l5", "RM: T1 anatomia, T2 patologia; ferromagnéticos e marcapassos; metal como projétil", ["t2-patologia", "rm-ferro", "rm-marcapasso"]),
+   ("l6", "USG: refletido por sólido e gás, absorvido por líquido; sombra e reforço; Doppler vermelho/azul", ["usg-bamb", "cisto-anecoico", "sombra", "reforco", "doppler-cor"])]),
+]
+
+EXERCICIOS = [
+ ("Provas UC03 (índice rad-01, 'modalidade de exame', 2016–2025)", [
+   ("p1", "Identificar a modalidade da imagem e justificar (termos hiperatenuante, hipoecoico, hipersinal, sombra acústica, reforço)",
+    ["io-met-rx", "io-met-tc", "io-met-usg", "io-met-rm", "hiperdenso", "rx-radiopaco", "ecogenico-hiper", "hiperintenso", "sombra", "reforco"]),
+   ("p2", "Vantagens do US (sem radiação, leito, repetível) frente a TC, radiografia e RM", ["usg-sem-radiacao", "usg-rapido-leito", "rx-contraste-baixo", "rm-demorado"]),
+   ("p3", "Cuidados na RM: próteses ferromagnéticas, marcapasso, claustrofobia", ["rm-ferro", "rm-marcapasso", "rm-sedacao"]),
+   ("p4", "Cuidados na TC: dose maior que a radiografia e toxicidade do contraste", ["tc-radiacao-maior", "cin-hidratacao"]),
+   ("p5", "Princípio da TC: tubo gira 360° com detectores; cortes reconstruídos em axial, coronal e sagital", ["tc-def", "tc-recon", "io-plano-axial"]),
+   ("p6", "Modalidade e contraste iodado em reconstrução sagital/coronal; US com Doppler; PET marca alto metabolismo", ["tc-contraste-iv", "doppler", "mn-pet-glicose"])]),
+ ("Monitoria P1 (Resumo da P1, radiologia): a aula 1 foi suprimida pelos monitores; sem item próprio", []),
+ ("Apostilas de veteranos (Apostila Guia de Radiologia, Apostila Ilustrativa, Tudo que você precisa saber de RD)", [
+   ("v1", "Tabela comparativa dos quatro métodos (vantagens, limitações, contraste, contraindicações)", ["rx-rapido-leito", "usg-limites", "tc-rapido-res", "rm-contraste-tecidos", "rm-ferro"]),
+   ("v2", "Terminologia por método: radiopaco, hiperdenso/hiperatenuante, hiperecoico, hipersinal", ["rx-radiopaco", "hiperdenso", "ecogenico-hiper", "hiperintenso"]),
+   ("v3", "Sombra acústica posterior (cálculo) e reforço acústico posterior (cisto)", ["sombra", "reforco"]),
+   ("v4", "Artefatos de TC: metal (aparelho dentário), movimento", ["artefato-metal", "artefato-movimento", "rm-aparelho-dentario"])]),
+]

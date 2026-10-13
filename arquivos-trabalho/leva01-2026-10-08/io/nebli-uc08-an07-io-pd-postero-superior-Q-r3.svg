@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="749">
+ <defs><marker id="focus-arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#C62828"/></marker></defs>
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-pd-postero-superior-o0" x="710.8" y="502.6" width="112.9" height="31.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-superior-o1" x="765.9" y="189.4" width="108.1" height="54.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-superior-o2" x="99.6" y="317.0" width="223.1" height="54.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-superior-o3" x="459.7" y="381.8" width="17.1" height="31.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-superior-o4" x="705.3" y="598.0" width="192.9" height="36.3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-superior-o5" x="651.0" y="114.8" width="203.9" height="31.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-pd-postero-superior-t0" x="75.9" y="558.1" width="232.7" height="54.2" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  <line x1="309" y1="558" x2="363" y2="466" stroke="#C62828" stroke-width="6" marker-end="url(#focus-arrow)"/>
+ </g>
+</svg>

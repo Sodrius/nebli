@@ -1,0 +1,378 @@
+{
+ "run_id": "uc03-mb43-20261003a",
+ "selection_hash": "8797fb764cc11d07",
+ "deck": "NEBLI::UC03::P3::Microbiologia::Biologia geral dos fungos",
+ "notes": [
+  {
+   "key": "alergia-tipo1",
+   "nid": 1791069772787,
+   "cards": {
+    "1791069772787": {
+     "ord": 1,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "aflatoxina-chc",
+   "nid": 1791069772912,
+   "cards": {
+    "1791069772913": {
+     "ord": 0,
+     "flag": 3
+    },
+    "1791069772912": {
+     "ord": 1,
+     "flag": 4
+    }
+   }
+  },
+  {
+   "key": "aflatoxina-graos",
+   "nid": 1791069773085,
+   "cards": {
+    "1791069773085": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "ribossomo-80s",
+   "nid": 1791069773210,
+   "cards": {
+    "1791069773210": {
+     "ord": 0,
+     "flag": 4
+    }
+   }
+  },
+  {
+   "key": "quitina",
+   "nid": 1791069773334,
+   "cards": {
+    "1791069773334": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "ergosterol",
+   "nid": 1791069773485,
+   "cards": {
+    "1791069773485": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "capsula",
+   "nid": 1791069773612,
+   "cards": {
+    "1791069773612": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "capsula-fagocitose",
+   "nid": 1791069773739,
+   "cards": {
+    "1791069773739": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "alfa-glucana",
+   "nid": 1791069773860,
+   "cards": {
+    "1791069773860": {
+     "ord": 0,
+     "flag": 4
+    }
+   }
+  },
+  {
+   "key": "equinocandina",
+   "nid": 1791069773985,
+   "cards": {
+    "1791069773985": {
+     "ord": 0,
+     "flag": 3
+    },
+    "1791069773986": {
+     "ord": 1,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "polienos",
+   "nid": 1791069774161,
+   "cards": {
+    "1791069774162": {
+     "ord": 0,
+     "flag": 3
+    },
+    "1791069774161": {
+     "ord": 1,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "polienos-eletrolitos",
+   "nid": 1791069774339,
+   "cards": {
+    "1791069774339": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "anfo-toxicidade",
+   "nid": 1791069774461,
+   "cards": {
+    "1791069774461": {
+     "ord": 0,
+     "flag": 4
+    }
+   }
+  },
+  {
+   "key": "azois",
+   "nid": 1791069774588,
+   "cards": {
+    "1791069774589": {
+     "ord": 0,
+     "flag": 3
+    },
+    "1791069774588": {
+     "ord": 1,
+     "flag": 4
+    }
+   }
+  },
+  {
+   "key": "azois-lanosterol",
+   "nid": 1791069774762,
+   "cards": {
+    "1791069774762": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "flucitosina-5fu",
+   "nid": 1791069774887,
+   "cards": {
+    "1791069774887": {
+     "ord": 0,
+     "flag": 4
+    }
+   }
+  },
+  {
+   "key": "flucitosina-medula",
+   "nid": 1791069775011,
+   "cards": {
+    "1791069775011": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "teleomorfo",
+   "nid": 1791069775137,
+   "cards": {
+    "1791069775137": {
+     "ord": 0,
+     "flag": 4
+    }
+   }
+  },
+  {
+   "key": "pneumocystis-fungo",
+   "nid": 1791069775262,
+   "cards": {
+    "1791069775262": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "brotamento",
+   "nid": 1791069775385,
+   "cards": {
+    "1791069775385": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "pseudohifa",
+   "nid": 1791069775510,
+   "cards": {
+    "1791069775510": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "aspergillus-conidioforo",
+   "nid": 1791069775636,
+   "cards": {
+    "1791069775637": {
+     "ord": 0,
+     "flag": 4
+    },
+    "1791069775636": {
+     "ord": 1,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "aspergillus-hifa",
+   "nid": 1791069775810,
+   "cards": {
+    "1791069775811": {
+     "ord": 0,
+     "flag": 4
+    },
+    "1791069775810": {
+     "ord": 2,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "esporangio",
+   "nid": 1791069775987,
+   "cards": {
+    "1791069775987": {
+     "ord": 0,
+     "flag": 4
+    }
+   }
+  },
+  {
+   "key": "mucor-hifa",
+   "nid": 1791069776111,
+   "cards": {
+    "1791069776113": {
+     "ord": 0,
+     "flag": 4
+    },
+    "1791069776112": {
+     "ord": 1,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "dimorfismo",
+   "nid": 1791069776286,
+   "cards": {
+    "1791069776286": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "paracocci-dimorfico",
+   "nid": 1791069776412,
+   "cards": {
+    "1791069776412": {
+     "ord": 0,
+     "flag": 4
+    }
+   }
+  },
+  {
+   "key": "candida-inverte",
+   "nid": 1791069776537,
+   "cards": {
+    "1791069776537": {
+     "ord": 0,
+     "flag": 4
+    }
+   }
+  },
+  {
+   "key": "amanitina",
+   "nid": 1791069776661,
+   "cards": {
+    "1791069776662": {
+     "ord": 0,
+     "flag": 3
+    },
+    "1791069776661": {
+     "ord": 1,
+     "flag": 4
+    }
+   }
+  },
+  {
+   "key": "asco",
+   "nid": 1791069776838,
+   "cards": {
+    "1791069776838": {
+     "ord": 0,
+     "flag": 4
+    }
+   }
+  },
+  {
+   "key": "aspergillus-inalacao",
+   "nid": 1791069776959,
+   "cards": {
+    "1791069776959": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "candida-flora",
+   "nid": 1791069777087,
+   "cards": {
+    "1791069777087": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  },
+  {
+   "key": "sabouraud",
+   "nid": 1791069777212,
+   "cards": {
+    "1791069777212": {
+     "ord": 0,
+     "flag": 3
+    }
+   }
+  }
+ ],
+ "cards_tag_aula": 41,
+ "cards_new_lesson": 41,
+ "expected": 41,
+ "green": 26,
+ "blue": 15,
+ "pink": 0,
+ "compartilhados_tag": [],
+ "problems": [],
+ "at": "2026-10-03T23:22:59.114459+00:00"
+}

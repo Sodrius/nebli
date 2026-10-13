@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="749">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-ln-gastricos-o0" x="194.9" y="121.3" width="126.8" height="63.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-ln-gastricos-o1" x="86.1" y="649.9" width="236.4" height="63.6" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-ln-gastricos-o2" x="742.2" y="543.4" width="126.8" height="63.6" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-ln-gastricos-t0" x="732.6" y="95.2" width="126.8" height="89.6" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>

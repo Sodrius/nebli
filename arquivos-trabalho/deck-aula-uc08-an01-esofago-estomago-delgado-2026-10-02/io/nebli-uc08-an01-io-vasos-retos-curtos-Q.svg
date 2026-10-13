@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1104" height="708">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-vasos-retos-curtos-t0" x="838.2" y="581.5" width="128.4" height="33.7" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  <rect id="io-vasos-retos-curtos-t1" x="838.2" y="607.4" width="80.3" height="33.7" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+  <rect id="io-vasos-retos-curtos-t2" x="838.2" y="633.3" width="57.9" height="33.7" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1104" height="708">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-esofago-cervical-o0" x="580.3" y="179.7" width="88.3" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-esofago-cervical-o1" x="327.2" y="66.6" width="68.8" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-esofago-cervical-o2" x="202.1" y="262.4" width="160.0" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-esofago-cervical-o3" x="187.8" y="395.1" width="184.8" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-esofago-cervical-o4" x="775.2" y="411.5" width="105.0" height="33.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-esofago-cervical-t0" x="218.9" y="160.8" width="157.4" height="33.7" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>

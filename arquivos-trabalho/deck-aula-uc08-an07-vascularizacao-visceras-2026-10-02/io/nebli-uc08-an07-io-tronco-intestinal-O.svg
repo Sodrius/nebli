@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="768">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-tronco-intestinal-o0" x="371.9" y="167.3" width="314.2" height="37.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-tronco-intestinal-t0" x="712.2" y="197.1" width="167.2" height="34.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-tronco-intestinal-t1" x="712.2" y="220.9" width="107.2" height="31.3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-tronco-intestinal-t2" x="712.2" y="241.1" width="120.6" height="31.3" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

@@ -1,0 +1,209 @@
+{
+ "aula": "2026-uc03-microbiologia-43-biologia-fungos",
+ "feito_antes_de_montar": true,
+ "data": "2026-10-03",
+ "fontes": {
+  "slides": {
+   "estado": "consultada",
+   "contribuicao": "61 lâminas vistas (visual/folha1–6), Prof. Carlos P. Taborda, ICB"
+  },
+  "bibliografia": {
+   "estado": "consultada",
+   "contribuicao": "Trabulsi-Alterthum 6ª ed., cap. 64.1–64.3 lidos inteiros (estrutura, morfologia, reprodução, taxonomia, ecologia, fisiologia); cap. 65 (genética) só introdução, fora da aula"
+  },
+  "caoc": {
+   "estado": "inacessível",
+   "contribuicao": "conta usp.br montada sem o acervo CAOC; usado o drive da turma (Material para Estudos)"
+  },
+  "youtube": {
+   "estado": "bloqueado",
+   "contribuicao": "busca feita (Ninja Nerd só tem Antifungals; Professor Dave Introduction to Mycology/Phylogeny; Shomu's Biology); transcrição recusada pelo YouTube (IpBlocked/429) em 03/10"
+  },
+  "veteranos": {
+   "estado": "consultada",
+   "contribuicao": "Monitoria - Resumo da P2 (turma), Aula 9 Biologia geral dos fungos, pp. 55–58; transcrição/apresentação complementar do Prof. Benedito Corrêa (44 pp.)"
+  },
+  "provas": {
+   "estado": "consultada",
+   "contribuicao": "2025 P3 1.2 (parede na fase M × Y), 2024 P3 2.4–2.6 (levedura capsulada × dermatófito), 2018 P2 1.1, 1.3, 1.4 (dimorfismo, parede fungo × bactéria, fatores ambientais), 2017 P2 2.3–2.6 (levedura, brotamento, fungo × bactéria, dimorfismo), 2015 P2 29.1"
+  },
+  "exercicios": {
+   "estado": "não localizada",
+   "contribuicao": "pasta da aula (Drive pessoal e da turma) só tem a apresentação e o material complementar"
+  }
+ },
+ "alvos": [
+  {
+   "slide": "8",
+   "alvo": "Alergia respiratória a fungos é hipersensibilidade tipo I (síndrome dos edifícios doentes, rinite, asma)",
+   "fontes": [
+    "slide 8",
+    "transcrição p.30",
+    "Trabulsi 64.2"
+   ],
+   "origem_prevista": "AnKing (ABPA)"
+  },
+  {
+   "slide": "10",
+   "alvo": "Micotoxinas: aflatoxina de Aspergillus em grãos e amendoim → carcinoma hepatocelular",
+   "fontes": [
+    "slide 10",
+    "transcrição p.5",
+    "Trabulsi 64.2"
+   ],
+   "origem_prevista": "AnKing"
+  },
+  {
+   "slide": "17–21",
+   "alvo": "Fungos: eucariontes (80S), heterotróficos absortivos, parede de quitina e β-glucana, reserva de glicogênio, sem clorofila/celulose/amido",
+   "fontes": [
+    "slides 17–21",
+    "transcrição pp.7–8 e 44",
+    "Trabulsi 64",
+    "prova 2017 P2 2.5",
+    "prova 2018 P2 1.3"
+   ],
+   "origem_prevista": "MCAT (80S) + autoral (quitina)"
+  },
+  {
+   "slide": "22, 25–26",
+   "alvo": "Membrana com ergosterol (no lugar do colesterol)",
+   "fontes": [
+    "slides 22, 25–26",
+    "Trabulsi 64.1"
+   ],
+   "origem_prevista": "AnKing"
+  },
+  {
+   "slide": "22",
+   "alvo": "Cápsula polissacarídica de Cryptococcus, antifagocítica",
+   "fontes": [
+    "slide 22",
+    "Trabulsi 64.1",
+    "prova 2024 P3 2.4–2.5"
+   ],
+   "origem_prevista": "AnKing"
+  },
+  {
+   "slide": "23–24",
+   "alvo": "Parede: quitina, β-1,3/1,6-glucanas, mananas; fase Y (37 °C) com mais α-glucana",
+   "fontes": [
+    "slides 23–24",
+    "Trabulsi tabela 64.1.1",
+    "prova 2025 P3 1.2"
+   ],
+   "origem_prevista": "autoral (sem card nos acervos)"
+  },
+  {
+   "slide": "27",
+   "alvo": "Alvos dos antifúngicos: equinocandinas (β-1,3-glucana sintase), polienos (ligam ergosterol, poros), azóis (14α-desmetilase, lanosterol→ergosterol), 5-FC → 5-FU (mielossupressão)",
+   "fontes": [
+    "slide 27"
+   ],
+   "origem_prevista": "AnKing"
+  },
+  {
+   "slide": "30–31",
+   "alvo": "Teleomorfo (sexuado) × anamorfo (assexuado); nome do teleomorfo tem prioridade",
+   "fontes": [
+    "slides 30–31",
+    "Trabulsi 64.1"
+   ],
+   "origem_prevista": "autoral"
+  },
+  {
+   "slide": "33–35",
+   "alvo": "Taxonomia: Ascomycota e Basidiomycota concentram os de interesse médico; Pneumocystis é fungo",
+   "fontes": [
+    "slides 33–35",
+    "Trabulsi 64.1"
+   ],
+   "origem_prevista": "AnKing (Pneumocystis, rosa)"
+  },
+  {
+   "slide": "36–40",
+   "alvo": "Leveduras: unicelulares, brotamento (blastoconídio); pseudo-hifas de Candida",
+   "fontes": [
+    "slides 36–40",
+    "Trabulsi fig. 64.1.4",
+    "prova 2017 P2 2.4"
+   ],
+   "origem_prevista": "autoral (brotamento) + AnKing (pseudo-hifa)"
+  },
+  {
+   "slide": "41–43",
+   "alvo": "Bolores: hifas septadas × cenocíticas, micélio; conídios externos no conidióforo (Aspergillus, Penicillium)",
+   "fontes": [
+    "slides 41–43",
+    "transcrição pp.11–18",
+    "Trabulsi figs. 64.1.5, 64.1.9–10"
+   ],
+   "origem_prevista": "AnKing"
+  },
+  {
+   "slide": "44",
+   "alvo": "Esporangiósporos internos em esporângio (Rhizopus, Mucor)",
+   "fontes": [
+    "slide 44",
+    "transcrição p.20",
+    "Trabulsi fig. 64.1.8"
+   ],
+   "origem_prevista": "autoral + AnKing (Mucor/Rhizopus não septado)"
+  },
+  {
+   "slide": "45, 58",
+   "alvo": "Dimorfismo térmico: bolor 25 °C/solo, levedura 37 °C/tecido; Candida inverte; Paracoccidioides",
+   "fontes": [
+    "slides 45 e 58",
+    "Trabulsi 64.3",
+    "provas 2017, 2018, 2025"
+   ],
+   "origem_prevista": "AnKing"
+  },
+  {
+   "slide": "46, 50–53",
+   "alvo": "Reprodução sexuada: plasmogamia, dicário, cariogamia, meiose; ascósporos no asco, basidiósporos no basídio",
+   "fontes": [
+    "slides 46, 50–53",
+    "transcrição p.12",
+    "Trabulsi figs. 64.1.11–12"
+   ],
+   "origem_prevista": "autoral (asco) + verso"
+  },
+  {
+   "slide": "51",
+   "alvo": "Amanita: α-amanitina inibe a RNA polimerase II",
+   "fontes": [
+    "slide 51",
+    "transcrição p.5 (micetismo)"
+   ],
+   "origem_prevista": "AnKing"
+  },
+  {
+   "slide": "55",
+   "alvo": "Dispersão pelo ar: inalação de conídios; Candida na microbiota",
+   "fontes": [
+    "slide 55",
+    "Trabulsi 64.2",
+    "prova 2025 P3 1.1"
+   ],
+   "origem_prevista": "AnKing"
+  },
+  {
+   "slide": "56–60",
+   "alvo": "Nutrição por absorção (exoenzimas); Sabouraud (glicose + peptona); mesófilos 20–30 °C, AA mínima ~0,6, pH ótimo 5,6–6,5",
+   "fontes": [
+    "slides 56–60",
+    "Trabulsi 64.3",
+    "prova 2018 P2 1.4"
+   ],
+   "origem_prevista": "AnKing (Sabouraud) + verso"
+  }
+ ],
+ "fora_do_recorte": [
+  "micoses específicas (sistêmicas, cutâneas, subcutâneas, oportunistas): aulas seguintes da P3",
+  "farmacologia clínica dos antifúngicos além dos alvos do slide 27 (terbinafina, griseofulvina, indicações)",
+  "genética dos fungos (Trabulsi cap. 65)",
+  "curiosidades sem alvo de prova (slides 6, 11–15: bioluminescência, doenças de anfíbios, morcegos, insetos, dinossauros)"
+ ]
+}

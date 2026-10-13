@@ -23,7 +23,10 @@ from nebli.rotulos import canonical
 
 def sha256(path):
     with Path(path).open("rb") as stream:
-        return hashlib.file_digest(stream, "sha256").hexdigest()
+        digest = hashlib.sha256()  # hashlib.file_digest só existe a partir do Python 3.11
+        for chunk in iter(lambda: stream.read(1 << 20), b""):
+            digest.update(chunk)
+        return digest.hexdigest()
 
 
 def db_state(connection):
@@ -193,7 +196,15 @@ def main():
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--endpoint", default="http://127.0.0.1:8765")
     args = parser.parse_args()
-    print(json.dumps(export_uc(args.uc, args.output, args.endpoint), ensure_ascii=False))
+    rep = export_uc(args.uc, args.output, args.endpoint)
+    # F-20261013-CLAUDE-01: o relatório completo (lista de card_ids) vai para arquivo; a tela mostra só o resumo.
+    full = args.output.parent / (args.output.name + ".relatorio.json")
+    full.write_text(json.dumps(rep, ensure_ascii=False, indent=1), encoding="utf-8")
+    dbs = rep.get("databases", {})
+    print(json.dumps({"status": rep.get("status"), "output": rep.get("output"), "output_sha256": rep.get("output_sha256"),
+                      "cards": max((d.get("cards", 0) for d in dbs.values()), default=0), "media_files": rep.get("media_files"),
+                      "visible_flags": rep.get("visible_flags"), "live_card_ids_and_flags_unchanged": rep.get("live_card_ids_and_flags_unchanged"),
+                      "relatorio": str(full)}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

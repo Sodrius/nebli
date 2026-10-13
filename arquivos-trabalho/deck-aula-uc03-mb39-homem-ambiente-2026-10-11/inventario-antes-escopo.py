@@ -1,0 +1,372 @@
+"""Inventário atômico de Homem, ambiente e microrganismo, escrito ANTES de escolher cards, a partir do material de base lido inteiro:
+lâminas 2026 da Profa. Carla Taddei (43, visual/folha-01..08), lâminas da Profa. Elisabete Vicente (turma I, 2025, lâminas 44–96 do PDF combinado;
+turma II 2020 e Material Complementar I 2023 são versões anteriores do mesmo deck), monitoria P2 (aula 7), apostila de veteranos (aula 7),
+provas (índice micro-08-integracao-homem-ambiente-microrganismo) e Trabulsi 6ª ed., caps. 12 e 13.
+Cada ideia aponta para o card que a pergunta (chave do spec, lista, "sh-<nid>" ou "EXC: motivo" só em lâmina). Menção no verso não conta.
+"""
+PREFIXO = "mb39"
+AULA = "Homem, ambiente e microrganismo (UC03 P2; Profa. Carla Taddei, 2026, e Profa. Elisabete Vicente, 2025)"
+EXC = "EXC: "
+S = "sh-"
+
+SLIDES = [
+ (1, "capa", "Capa (Microbiota humana, Taddei)", []),
+ (2, "conteudo", "O ser humano e os micróbios (figura)", [("fig-humano", "Ilustração do corpo cercado de microrganismos", EXC + "ilustração de abertura sem rótulo; o conceito está na lâmina 4")]),
+ (3, "conteudo", "Ecossistemas microbianos no corpo (nasal, oral, cutâneo, gastrointestinal, urogenital)", [
+   ("sitios-corpo", "Cinco ecossistemas do corpo humano", ["microbiota-sitios"])]),
+ (4, "conteudo", "Microbiota: definição, distribuição, residente × transitória, antagonismo", [
+   ("def", "Microrganismos que residem, permanente ou não, sem causar infecção", "microbiota-def"),
+   ("pele-mucosas", "Pele e mucosas em contato com o meio externo; distribuição não homogênea", "microbiota-sitios"),
+   ("transitoria", "Microbiota transitória", "transitoria"),
+   ("residente", "Microbiota residente ou indígena", "residente"),
+   ("antagonismo", "Principal benefício: antagonismo bacteriano", "antagonismo"),
+   ("comensal", "Maioria comensal ou mutualista", S + "1791576665465")]),
+ (5, "conteudo", "Microbiota (repetição) e infecções por patógenos ou pela microbiota", [
+   ("repeticao", "Mesmo texto da lâmina 4", ["microbiota-def", "antagonismo"]),
+   ("inf-microbiota", "Infecções por microrganismos da própria microbiota", S + "1791746115903")]),
+ (6, "conteudo", "Pele: transitórios, residente constante, densidade, gêneros, estrato córneo e folículo, pH/ácidos/lisozima, ouvido", [
+   ("transitorios", "Pele propensa a abrigar transitórios", "transitoria"),
+   ("regioes", "Axilas e períneo mais densos", "pele-regioes"),
+   ("numeros", "10^6 e 10^4 bact/cm²", "pele-numeros"),
+   ("generos", "Staphylococcus, Corynebacterium, Propionibacterium", "pele-generos"),
+   ("propioni", "Propionibacterium na glândula sebácea", ["propionibacterium", "acne-lipases"]),
+   ("camadas", "Estrato córneo e folículo piloso", "pele-camadas"),
+   ("eliminacao", "pH baixo, ácidos graxos e lisozima eliminam a flora não residente", "pele-nao-residente"),
+   ("ouvido", "Ouvido semelhante à pele", "ouvido")]),
+ (7, "conteudo", "8 horas para normalizar; lavagem e banho não eliminam a flora residente (figura)", [
+   ("oito-horas", "Microbiota normaliza em 8 horas", "pele-oito-horas"),
+   ("lavagem", "Lavagem e banho não modificam a flora residente; recolonização", "pele-lavagem")]),
+ (8, "conteudo", "Vias aéreas, conjuntiva", [
+   ("nares", "Fossas nasais: Staphylococcus e Corynebacterium", ["nares-generos", S + "1791763647093"]),
+   ("betalactam", "β-lactâmicos inibem a microbiota e selecionam Klebsiella e E. coli", ["nares-betalactamico", S + "1791668518814"]),
+   ("faringe", "Faringe e traqueia", "faringe"),
+   ("inferiores", "Bronquíolos e alvéolos estéreis", "vias-inferiores"),
+   ("conj-esteril", "Conjuntiva estéril", "conjuntiva-esteril"),
+   ("lagrima", "Fluxo de lágrimas com lisozima controla a microbiota", "conjuntiva-lagrima")]),
+ (9, "conteudo", "Trato genital feminino", [
+   ("varia", "Varia com idade, pH, hormônio, ciclo, anticoncepcional e atividade sexual", "vag-varia"),
+   ("seis-semanas", "Primeiras semanas: Lactobacillus pelo estrogênio materno", "vag-estrogenio"),
+   ("puberdade", "Puberdade: pH neutro, mista; lactobacilos reaparecem", ["vag-doderlein", "vag-lactobacillus", "vag-pre-pos"]),
+   ("acido", "Lactobacilos mantêm o pH ácido", "vag-glicogenio"),
+   ("cons-ecoli", "Staphylococcus coagulase negativa e E. coli", ["vag-staph-ecoli", "saprophyticus-flora"]),
+   ("lacto-importante", "Lactobacillus mantém a microbiota em mulheres saudáveis", "vag-glicogenio")]),
+ (10, "conteudo", "Figura L. crispatus × G. vaginalis (glicogênio, ácido lático)", [
+   ("fig-glicogenio", "Pullulanase de L. crispatus ↑ ácido lático; degradação comunal por G. vaginalis ↓", ["vag-pullulanase", "vag-glicogenio"])]),
+ (11, "conteudo", "Supressão de lactobacilos, muco cervical, menopausa (imagens)", [
+   ("supressao", "Antimicrobiano suprime lactobacilos; leveduras ou bactérias aumentam", ["vag-disbiose", "vag-vaginose"]),
+   ("muco", "Muco cervical com lisozima e atividade antibacteriana", "muco-cervical"),
+   ("menopausa", "Após a menopausa lactobacilos diminuem e reaparece microbiota mista", ["vag-pre-pos", "vag-estrogenio-ph"]),
+   ("fotos", "Quatro esfregaços corados sem legenda", EXC + "microscopias sem rótulo na lâmina; a recuperação visual não tem alvo ensinado")]),
+ (12, "conteudo", "Trato genital masculino e uretra (heatmap)", [
+   ("uretra", "S. epidermidis, Corynebacterium, Streptococcus, E. coli", "uretra"),
+   ("exames", "Microbiota da uretra e exames de secreção e urina", "uretra-exames"),
+   ("heatmap", "Heatmap de abundância relativa", EXC + "figura de artigo com dezenas de gêneros e sem texto próprio")]),
+ (13, "conteudo", "Cavidade bucal", [
+   ("diversa", "Muito diversificada", "oral-diversa"),
+   ("numeros", "Saliva 10^8; placa 10^11", "oral-numeros"),
+   ("generos", "Gêneros predominantes", "oral-generos"),
+   ("importancia", "Cárie, periodontite, actinomicose, endocardite subaguda", ["oral-importancia", "viridans-endocardite", "actinomyces-flora", "viridans-placa", S + "1791576680517"]),
+   ("anaerobios", "Anaeróbios obrigatórios na boca e no intestino", "oral-anaerobios")]),
+ (14, "conteudo", "Esôfago, estômago, intestino (figura do TGI)", [
+   ("esofago", "Esôfago: saliva e alimentos", "esofago"),
+   ("estomago", "Estômago mínimo pela acidez; protege de patógenos entéricos", "estomago-acido"),
+   ("ph", "pH alcalino, microbiota aumenta gradualmente", "intestino-ph-alcalino"),
+   ("h-pylori", "H. pylori (apostila e livro)", "h-pylori"),
+   ("fig-tgi", "Figura anatômica do TGI", EXC + "figura anatômica de apoio sem rótulo próprio da aula")]),
+ (15, "conteudo", "Mapa de sítios e espécies (figura)", [
+   ("dentes", "Dentes: S. mutans, Bacteroides, Fusobacterium, Actinomyces", ["dentes", "fusobacterium-oral"]),
+   ("pele-mapa", "Pele: Pseudomonas, Candida, Torulopsis, Pityrosporum", "pele-mapa"),
+   ("garganta", "Garganta: S. viridans, pyogenes, pneumoniae, Neisseria, Haemophilus", "faringe"),
+   ("nariz-boca", "Nariz e boca", ["nares-generos", "oral-generos"]),
+   ("uretra-vagina", "Uretra e vagina", ["uretra", "vag-staph-ecoli"]),
+   ("pulmoes", "Pneumocystis carinii com interrogação", EXC + "interrogação da própria lâmina; fora do que a aula ensina")]),
+ (16, "capa", "Título: Microbiota intestinal", []),
+ (17, "conteudo", "Microbiota intestinal: início ao nascimento", [
+   ("nascimento", "Estabelecida ao nascimento; TGI fetal estéril", "feto-esteril"),
+   ("facultativos", "Facultativos colonizam primeiro", S + "1791763663067"),
+   ("obrigatorios", "Modificação do ambiente: anaeróbios obrigatórios", "anaerobios-obrigatorios"),
+   ("dois-anos", "Estabilidade por volta do 2º ano", "estabilidade-2anos")]),
+ (18, "conteudo", "Origens da microbiota intestinal: fatores internos e externos (figura)", [
+   ("fig-fatores", "Tipo de parto, microbiota materna, contaminantes, alimentação, antibiótico", ["fatores-externos", "fatores-internos"])]),
+ (19, "conteudo", "Fatores interferentes", [
+   ("internos", "Peristaltismo, ácidos biliares, pH, resposta imune", "fatores-internos"),
+   ("externos", "Microbiota materna, forma de nascimento, alimentação, ambiente", "fatores-externos"),
+   ("parto", "Forma de nascimento", "parto-vaginal"),
+   ("bifido", "Fator bífido do leite materno", ["fator-bifido", "leite-formula"])]),
+ (20, "conteudo", "TGI com microbiota residente", [
+   ("harmonia", "Convive harmonicamente; estabilidade por interações", "tgi-harmonia"),
+   ("patogenica", "Torna-se patogênica quando o ecossistema é perturbado", ["tgi-patogenica", S + "1791668518814"]),
+   ("populacao", "10^11 a 10^12 UFC/mL", "tgi-populacao")]),
+ (21, "conteudo", "Funções da microbiota intestinal", [
+   ("protecao", "Proteção: competição por sítios, antimicrobianos, nutrientes", "funcao-protecao"),
+   ("imune", "Modulação imunológica e tolerância", "funcao-imune"),
+   ("orgao", "Intestino maior órgão imunológico; 80% das células produtoras", ["intestino-orgao-imune", S + "1791023301592"]),
+   ("quarenta-mg", "40 mg/kg/dia", EXC + "valor sem especificar o isótipo na lâmina e sem apoio no livro"),
+   ("nutricao", "Vitamina K, atividade enzimática, fermentação", [S + "1791051804825", "vitk-antibiotico", "funcao-fermentacao"]),
+   ("ph", "pH e motilidade, absorção de íons e água", "funcao-ph-motilidade"),
+   ("snc", "Modulação do SNC pelo nervo vago", "funcao-snc")]),
+ (22, "conteudo", "Microbiota: desafios", [("desafios", "Requerimentos nutricionais, competição, hospedeiro saudável", "desafios")]),
+ (23, "conteudo", "Figura Nat Rev Microbiol 2024: intestino delgado × grosso", [
+   ("fig-camadas", "Camadas de muco e comunidades microbianas", "colon-muco")]),
+ (24, "conteudo", "Barreira das células epiteliais intestinais (a–g)", [
+   ("microvilos", "a) Microvilosidades ricas em actina", "microvilosidades"),
+   ("tight", "b) Junções oclusivas", S + "1791000304527"),
+   ("glico", "c) Glicocálix", "glicocalice"),
+   ("peptideos", "d) Peptídeos antimicrobianos", S + "1791023299492"),
+   ("celulas-m", "e) Células M", S + "1790980915172"),
+   ("apc", "f) APCs dos folículos linfoides e g) células dendríticas", "folículo-apc")]),
+ (25, "conteudo", "Barreira intestinal: eubiose × disbiose (figuras)", [
+   ("eubiose", "Eubiose: barreira funcional e resposta tolerante", "eubiose"),
+   ("disbiose", "Disbiose: defeito de barreira, leaky gut", ["disbiose-barreira", S + "1791014719199"]),
+   ("juncoes", "Proteínas das junções (ocludina, claudina)", S + "1791000315902")]),
+ (26, "conteudo", "Atividade metabólica", [
+   ("energia", "AGCC como energia", [S + "1791014718900", "agcc-nomes"]),
+   ("colipase", "Colipase", "colipase"),
+   ("gluconato", "Gluconato e ácidos biliares", "gluconato-biliares"),
+   ("vit", "Vitaminas K e B", S + "1791051804825")]),
+ (27, "conteudo", "Figura: simbionte × patógeno e nutrientes", [
+   ("simbionte", "Bacteroides degrada polissacarídeos", "simbionte-polissacarideos"),
+   ("patogeno", "Salmonella não compete por nutrientes e invade", S + "1791746116201")]),
+ (28, "conteudo", "Figura: camadas de muco, IgA, célula dendrítica, macrófago", [
+   ("muco", "Camada interna protegida", "colon-muco"),
+   ("iga", "IgA por transcitose induzida por célula B", [S + "1791629596747", S + "1791023301592"]),
+   ("macrofago", "Macrófago mata bactérias que penetram", "macrofago-bacterias")]),
+ (29, "conteudo", "Localização: UFC por segmento", [
+   ("gradiente", "Densidade crescente até o cólon", "densidade-aumenta"),
+   ("numeros", "10 a 10^3, 10^4 a 10^8, 10^10 a 10^12", "densidade-numeros")]),
+ (30, "conteudo", "Composição: filos, gêneros, espécies", [
+   ("especies", "400 espécies, 40 dominantes", "quatrocentas-especies"),
+   ("filos", "Bacteroidetes e Firmicutes", "filos-dominantes"),
+   ("anaerobios", "Gêneros anaeróbios", "generos-anaerobios"),
+   ("aerobios", "Gêneros aeróbios", "generos-aerobios")]),
+ (31, "conteudo", "Microscopia eletrônica de microrganismos intestinais", [
+   ("lacto", "Adesão de Lactobacillus ao epitélio", "lacto-adesao"),
+   ("fotos", "Fotos de E. coli, Staphylococcus, Bifidobacterium, Bacteroides, C. perfringens", EXC + "microscopias de morfologia sem alvo específico além da adesão do Lactobacillus")]),
+ (32, "conteudo", "Probióticos e prebióticos", [
+   ("probiotico", "Organismos vivos que beneficiam a saúde", S + "1791666339316"),
+   ("prebiotico", "Ingrediente não absorvido que estimula seletivamente", "prebiotico-def")]),
+ (33, "conteudo", "Figura 1: prebióticos e probióticos, fermentação, efeitos", [
+   ("fermentacao", "Fermentação → AGCC e gases; ↓ anaeróbios facultativos; estabilidade", "fermentacao-agcc"),
+   ("prebioticos", "Prebióticos: fibras e oligossacarídeos", "prebioticos-colon")]),
+ (34, "conteudo", "Figura 2: prebióticos bifidogênicos e efeitos dos probióticos", [
+   ("inulina", "Inulina e oligofrutose chegam ao cólon", ["prebioticos-colon", "prebioticos-exemplos"]),
+   ("bifido", "Efeito bifidogênico", "bifidogenico"),
+   ("modulacao", "Competição por sítios e nutrientes, antimicrobianos", "funcao-protecao"),
+   ("imune", "Estímulo da imunidade: anticorpos e macrófagos", "probiotico-imune"),
+   ("calcio", "Absorção de cálcio", "probiotico-calcio")]),
+ (35, "conteudo", "Tabela de composição por segmento", [
+   ("tabela", "Contagens por segmento e por grupo", ["densidade-numeros", "anaerobios-razao"])]),
+ (36, "conteudo", "Composição da flora: efeitos nocivos × promotores de saúde", [
+   ("beneficas", "Lactobacilos, Eubacteria, Bifidobacteria promovem saúde", "benefica-lacto-bifido"),
+   ("nocivas", "Pseudomonas, Proteus, Staphylococci, Clostridia, Veillonella e efeitos", "nocivas"),
+   ("funcoes", "Inibição de nocivas, imunidade, minerais, vitaminas", ["funcao-protecao", "funcao-imune"])]),
+ (37, "conteudo", "Sucessão microbiana descrita", [
+   ("dia1", "Primeiro dia: facultativos (E. coli, Streptococcus)", "sucessao-dia1"),
+   ("oxigenio", "Consumo de oxigênio: anaeróbios, AGCC", "sucessao-bifido"),
+   ("mes", "Um mês: Bifidobacterium, E. coli, Lactobacillus, Bacteroides, Prevotella", "sucessao-1mes")]),
+ (38, "conteudo", "Uma janela para intervenções (Th1:Th2)", [
+   ("janela", "Sistema imune moldável, janela de regulação", ["janela-th", "janela-meses"]),
+   ("th", "Th2 > Th1 atopia; Th1 > Th2 autoimune; Th2 = Th1 saúde", "th-doenca")]),
+ (39, "conteudo", "Teoria da higiene", [("higiene", "Ambiente contaminado: regulação TH e menos atopia/autoimunidade", "higiene")]),
+ (40, "conteudo", "Funções (síntese)", [("tres", "Antibacteriana, imunomoduladora, nutricional e metabólica", "tres-funcoes")]),
+ (41, "conteudo", "Disfunções a curto, médio e longo prazo", [
+   ("curto", "Enterocolite necrosante, colite pseudomembranosa, diarreia por antibiótico", ["disfuncoes-curto", "nec-prematuro", "nec-invasao", S + "1791746140352", "diarreia-antibiotico", "probiotico-nec"]),
+   ("medio-longo", "Alergia; doença inflamatória intestinal e câncer de cólon", "disfuncoes-longo")]),
+ (42, "conteudo", "Eixo cérebro-intestino (figura)", [("eixo", "Vias neurais, imunes e endócrinas", "eixo-intestino-cerebro")]),
+ (43, "conteudo", "Fatores que provocam desequilíbrio", [("fatores", "Dieta, álcool, fumo, infecção, antibiótico, idade, estresse", "desequilibrio-fatores")]),
+ # ---- Vicente (turma I, 2025): lâmina = 43 + página ----
+ (44, "capa", "Capa Vicente", []),
+ (45, "capa", "Homem – Microrganismo – Ambiente", []),
+ (46, "conteudo", "Sumário", [("sumario", "Roteiro da aula", EXC + "sumário; cada tópico tem lâmina própria")]),
+ (47, "conteudo", "Ambiente: solo e água", [("solo", "Solo e água como ambiente microbiano", "ambiente-solo")]),
+ (48, "conteudo", "Três desfechos do contato", [
+   ("desfechos", "Colonização transitória, permanente, doença", "tres-desfechos"),
+   ("colonizacao", "Colonização × infecção", S + "1791746114850")]),
+ (49, "conteudo", "O que é m.n.c.h.", [
+   ("raramente", "MNCH raramente causa doença", "mnch-raramente"),
+   ("oportunista", "Patógenos oportunistas causam doença frequentemente", S + "1791746115653"),
+   ("aviso", "Tópico 2 já abordado na aula anterior do Prof. Mário", EXC + "recado de versão 2023")]),
+ (50, "conteudo", "Quando se forma e variações", [
+   ("forma", "Varia em qualidade e quantidade, com idade e alimentação", "nao-uniforme"),
+   ("benefica", "Pode ter importância benéfica? Pode causar doenças?", ["antagonismo", "endogena-causas"])]),
+ (51, "conteudo", "Importâncias benéficas", [
+   ("vit", "Vitaminas K e complexo B", S + "1791051804825"),
+   ("imune", "Estímulo ao desenvolvimento das defesas", "imune-estimulo-pele"),
+   ("salmonella", "Proteção do intestino × Salmonella", "sem-microbiota"),
+   ("cdiff", "Proteção × colite pseudomembranosa", ["sem-microbiota", S + "1791746140352"]),
+   ("pele-mucosas", "Proteção da pele e das mucosas", "protecao-pele-mucosas")]),
+ (52, "conteudo", "Disbiose → Clostridioides; metronidazol", [
+   ("disbiose", "Disbiose → C. difficile", [S + "1791746140352", "clinda-colite"]),
+   ("tabela", "Tratamento por gravidade (2012)", "cdiff-primeira-linha"),
+   ("metro", "Mecanismo do metronidazol", ["cdiff-metronidazol", "metronidazol-anaerobios"])]),
+ (53, "conteudo", "Infecções endógenas", [
+   ("migra", "Deixam o sítio normal e migram", ["endogena-causas", S + "1791746115903"]),
+   ("antibiotico", "Antibióticos ou imunossupressores", "endogena-causas"),
+   ("uti", "Pacientes na UTI", "endogena-uti"),
+   ("prova-aureus", "S. aureus da pele translocado (prova 2023)", "prova-aureus-translocacao"),
+   ("prova-ecoli", "E. coli da microbiota e ITU (prova 2017)", "prova-ecoli-itu")]),
+ (54, "conteudo", "Pele (Vicente)", [
+   ("generos", "Corynebacterium, Propionibacterium, Streptococcus, S. epidermidis, S. aureus, Peptococcus, fungos", ["pele-generos", S + "1791763650166", "epidermidis-90", "aureus-percentual", "peptococcus", "pele-fungos", S + "1791630908669", "epidermidis-hemocultura"])]),
+ (55, "conteudo", "Fossas nasais (Vicente)", [
+   ("nares", "S. aureus em 50–70% e Corynebacterium", ["aureus-percentual", S + "1791763647093", "nares-generos"]),
+   ("betalactam", "Antibiótico β-lactâmico seleciona E. coli, Klebsiella, Pseudomonas", "nares-betalactamico"),
+   ("razao", "10 a 100 vezes mais anaeróbios", "anaerobios-razao")]),
+ (56, "conteudo", "Cavidade oral (Vicente)", [
+   ("numeros", "Saliva 10^8, placa 10^10", "oral-numeros"),
+   ("importancia", "Odontologia, endocardite, cárie, doenças periodontais", "oral-importancia")]),
+ (57, "conteudo", "Gênero Bacteroides", [
+   ("gram", "Bacilos Gram-negativos anaeróbios", "oral-bacteroides-gram"),
+   ("benefica", "B. fragilis benéfica no intestino", "bfragilis-flora"),
+   ("patogenica", "Sepse e abscessos abdominais em imunocomprometidos", "bfragilis-abscesso")]),
+ (58, "conteudo", "S. mutans, biofilme e Aggregatibacter", [
+   ("mutans", "S. mutans forma biofilme e anaerobiose", [S + "1791746132577", "mutans-anaerobiose"]),
+   ("aa", "Aa: Gram-negativa anaeróbia facultativa; periodontite; endocardite", ["aa-periodontite", "hacek"])]),
+ (59, "conteudo", "Colônias de Aa e S. mutans (figuras)", [
+   ("estrela", "Colônias translúcidas com centro em estrela", "aa-colonia"),
+   ("mutans-foto", "Gram de S. mutans", S + "1791746132577")]),
+ (60, "conteudo", "Aparelho digestivo", [
+   ("numeros", "Estômago variável; intestino 10^3–10^11; cólon 10^4–10^8", "densidade-numeros"),
+   ("razao", "1 aeróbia para 100–1000 anaeróbias", "anaerobios-razao"),
+   ("fezes", "Mais de 50% do peso das fezes", "fezes-peso"),
+   ("fonte", "Principal fonte de MNCH e de infecções endógenas", "tgi-fonte"),
+   ("defesa", "Importante papel de defesa", "funcao-protecao")]),
+ (61, "conteudo", "Aparelho digestivo (figura com UFC/g)", [("fig-ufc", "Contagens por segmento", "densidade-numeros")]),
+ (62, "conteudo", "AGCC regulam genes e dão energia", [
+   ("agcc", "AGCC penetram células epiteliais e afetam genes", "agcc-genes"),
+   ("energia", "Fonte de energia para o cólon e regulação metabólica", [S + "1791014718900", "agcc-nomes"])]),
+ (63, "conteudo", "Permanentes e transitórios", [("perm-trans", "Microrganismos permanentes e transitórios", ["residente", "transitoria"])]),
+ (64, "conteudo", "Filos Firmicutes e Proteobacteria", [
+   ("firmicutes", "Firmicutes: Gram-positivas; Micoplasma sem parede", "firmicutes-filo"),
+   ("proteo", "Proteobacteria: Escherichia, Salmonella, Vibrio, Helicobacter", "proteobacteria-filo")]),
+ (65, "conteudo", "Microbiota intestinal: filos dominantes e dieta", [
+   ("quatro", "80% em quatro filos", "quatro-filos"),
+   ("bacteroidetes", "Bacteroidetes: Gram-negativas fermentativas, imunomoduladoras", "bacteroidetes-filo"),
+   ("firmicutes", "Firmicutes: benéficos e inflamatórios", "bacteroides-grupos"),
+   ("noventa", "Bacteroidetes e Firmicutes 90%", "filos-dominantes"),
+   ("dieta", "Principal modulador é a alimentação", "dieta-modula")]),
+ (66, "conteudo", "Ex. 1: transplante de microbiota fecal na colite", [("ftm", "FMT para disbiose por C. difficile, >90% de eficácia", ["ftm-colite", "ftm-china"])]),
+ (67, "conteudo", "Ex. 2: microbiota e obesidade", [("obesidade", "Obesos: mais Firmicutes, menos Bacteroidetes", "obesidade-firmicutes")]),
+ (68, "conteudo", "FMT no Brasil", [
+   ("einstein", "2013 Einstein", "ftm-colite"),
+   ("outros", "2015 UFSC, 2017 UFMG, HC/USP, dieta rica em açúcar em ratos", EXC + "marcos institucionais sem mecanismo; o Einstein representa a história do FMT no Brasil")]),
+ (69, "conteudo", "Probióticos e prebióticos (Vicente)", [
+   ("generos", "Lactobacillus e Bifidobacterium", "probioticos-generos"),
+   ("boulardii", "Saccharomyces boulardii", "boulardii"),
+   ("fontes", "Leite fermentado, iogurtes, cápsulas", EXC + "formas de apresentação comercial sem alvo conceitual"),
+   ("prebioticos", "Não digeridos por enzimas, fermentados no cólon", "prebioticos-colon"),
+   ("lista", "Inulina, GOS, FOS, lactulose", "prebioticos-exemplos")]),
+ (70, "conteudo", "OK!", [("ok", "Lâmina de transição", EXC + "lâmina sem conteúdo ensinável")]),
+ (71, "conteudo", "Conjuntiva: doenças", [
+   ("bacteriana", "Conjuntivite por S. aureus, S. pneumoniae e N. gonorrhoeae", ["conjuntivite", "conjuntivite-neonatal-gono"]),
+   ("tracoma", "Tracoma por Chlamydia trachomatis", "tracoma"),
+   ("chlamydia", "Não corada pelo Gram; intracelular por não sintetizar ATP", [S + "1791576673916", "chlamydia-atp"])]),
+ (72, "conteudo", "Vagina e uretra (Vicente)", [
+   ("doderlein", "Lactobacillus de Döderlein: primeiro mês e puberdade-menopausa", ["vag-doderlein", "vag-estrogenio"]),
+   ("pre-pos", "Infância e pós-menopausa: Corynebacterium, S. epidermidis, E. coli", "vag-pre-pos"),
+   ("uretra", "Uretra: S. epidermidis, Corynebacterium, S. faecalis, E. coli", "uretra")]),
+ (73, "conteudo", "Perguntas que você já deve saber responder", [
+   ("perguntas", "Seis perguntas sobre a MNCH", ["microbiota-def", "antagonismo", "endogena-causas", "oral-diversa", "filos-dominantes", "nao-uniforme"])]),
+ (74, "conteudo", "Epidemiologia: DI = N × V / R", [("di", "Doença infecciosa e carga, virulência, resistência", "di-formula")]),
+ (75, "conteudo", "Infecções endógenas × exógenas", [
+   ("exogena", "Exógena: reservatório ou fonte externa", "exogena-def"),
+   ("endogena", "Endógena: causada pela MNCH", S + "1791746115903")]),
+ (76, "conteudo", "Infecções endógenas: causas", [("causas", "Traumatismos, ferimentos, cirurgias, procedimentos invasivos, baixa imunidade", "endogena-causas")]),
+ (77, "conteudo", "Fonte: homem e animais", [
+   ("homem", "Homem doente ou portador são", "fonte-homem"),
+   ("antroponoses", "Antroponoses × zoonoses", "antroponose-zoonose")]),
+ (78, "conteudo", "Fonte: homem doente (DST)", [("dst", "DST como exemplo de fonte humana", EXC + "exemplo ilustrativo; coberto no card de contato imediato")]),
+ (79, "conteudo", "Portador são: Mary Mallon", [
+   ("mary", "Portadora sã de febre tifoide", ["typhoid-mary", "typhi-vesicula"]),
+   ("tifoide", "S. typhi por alimentos ou água contaminados com fezes; incubação 6–30 dias", "typhoid-transmissao"),
+   ("biografia", "Biografia: nascimento na Irlanda, cozinheira, isolamento", EXC + "biografia sem mecanismo; o conceito de portador são está no card")]),
+ (80, "conteudo", "Fonte (repetição)", [("repete", "Mesmo esquema da lâmina 77", ["fonte-homem", "antroponose-zoonose"])]),
+ (81, "conteudo", "Animais e insetos", [
+   ("aedes", "Aedes transmite dengue, Zika, Chikungunya", [S + "1791593042493", "aedes-doencas"]),
+   ("peste", "Peste por Yersinia pestis pelas pulgas de roedores", "peste-pulgas"),
+   ("lista", "Leptospirose e raiva", "lepto-agua")]),
+ (82, "conteudo", "Dengue", [
+   ("incidencia", "Incidência 30 vezes maior em 50 anos", "dengue-incidencia"),
+   ("resto", "50 milhões de infecções, 2,5 bilhões em áreas endêmicas, surtos no Brasil", EXC + "estatísticas descritivas sem alvo conceitual; o card de incidência representa")]),
+ (83, "conteudo", "Dengue (mapa)", [("mapa", "Mapa de casos", EXC + "figura do Ministério da Saúde sem texto próprio")]),
+ (84, "conteudo", "Vias de transmissão", [
+   ("contato", "Contato direto imediato (DST) e mediato (TB)", "contato-direto"),
+   ("vias", "Vetores, solo, alimentos, água, ar, soluções terapêuticas", "vias-lista"),
+   ("lepto", "Leptospirose: vetor e fonte", "lepto-agua"),
+   ("solo", "Solo 10^7 bactérias e 10^5 fungos/g", "ambiente-solo")]),
+ (85, "conteudo", "Transmissão horizontal e vertical", [
+   ("vertical", "Vertical: dos pais para a prole", "transmissao-vertical"),
+   ("horizontal", "Horizontal: independente de parentesco", "transmissao-horizontal")]),
+ (86, "conteudo", "Transmissão das doenças (figura)", [("fig", "Esquema vertical e horizontal", ["transmissao-vertical", "transmissao-horizontal"])]),
+ (87, "conteudo", "Portas de entrada", [
+   ("portas", "Pele, mucosas, vias aéreas, oral", "portas-lista"),
+   ("congenita", "Congênita (transplacentária)", "porta-congenita"),
+   ("iatrogenica", "Iatrogênica", "porta-iatrogenica")]),
+ (88, "conteudo", "Modos de transmissão e epidemiologistas", [("modo", "Modo de transmissão mais importante que o agente (AIDS)", "modo-transmissao")]),
+ (89, "conteudo", "Disseminação dos agentes infecciosos", [("fonte-via", "Fonte → via → porta de entrada", ["fonte-via", "portas-lista"])]),
+ (90, "conteudo", "Mais perguntas (7 a 10)", [
+   ("endo-exo", "Diferença entre infecção endógena e exógena", ["exogena-def", S + "1791746115903"]),
+   ("tres-vias", "Três vias de transmissão", "vias-lista"),
+   ("fonte-habitat", "Fonte não é o habitat normal?", "fonte-via"),
+   ("vias-meios", "Vias de transmissão são os meios da fonte até o indivíduo", "fonte-via")]),
+ (91, "conteudo", "Instalação com sucesso: infecção e doença", [
+   ("infeccao", "Instalação com sucesso é infecção", S + "1791746114724"),
+   ("doenca", "Vence as defesas e manifestação clínica: doença", "infeccao-doenca"),
+   ("incubacao", "Período de incubação", "incubacao")]),
+ (92, "conteudo", "Infecção é sinônimo de doença?", [("iceberg", "Infecção sem doença", [S + "1791746116702", "infeccao-doenca"])]),
+ (93, "conteudo", "O que faz uma bactéria causar doença?", [("virulencia", "Patogenicidade e virulência", S + "1791746115228")]),
+ (94, "conteudo", "Epidemiologia: períodos e John Snow", [
+   ("latente", "Período latente", S + "1791746116575"),
+   ("incubacao", "Período de incubação", "incubacao"),
+   ("transmissibilidade", "Período de transmissibilidade", "transmissibilidade"),
+   ("snow", "John Snow e a bomba do Soho", "john-snow"),
+   ("epi", "Definição de epidemiologia", "epidemiologia-def")]),
+ (95, "conteudo", "LD50, patogenicidade e virulência", [
+   ("ld50", "LD50", S + "1791746115530"),
+   ("pneumo", "S. pneumoniae muito virulento; S. typhimurium menos", "ld50-pneumo"),
+   ("virulencia", "Virulência: fatores que determinam a patogenicidade", S + "1791746115228")]),
+ (96, "conteudo", "Questões de revisão", [
+   ("q1-4", "MNCH, papel, variedade, infecção × doença", ["microbiota-def", "antagonismo", "oral-diversa", "infeccao-doenca"]),
+   ("q5-8", "Endógena × exógena, fonte × via, portas, vias", ["exogena-def", "fonte-via", "portas-lista", "vias-lista"]),
+   ("q9-10", "Papel do ambiente e controle do ambiente hospitalar", ["hospital-ambiente", "endogena-causas"])]),
+]
+JUSTIFICATIVAS = {}
+CAPITULO = [("Trabulsi 6ª ed., cap. 12 (Microbiota Humana, Taddei, Brandt e Carneiro-Sampaio) e cap. 13 (Epidemiologia aplicada às doenças bacterianas), pdf pp. 133–148", [
+   ("tb-def", "Microbiota, transitória/alóctone × residente/autóctone, antagonismo", ["microbiota-def", "transitoria", "residente", "antagonismo"]),
+   ("tb-formacao", "Útero estéril; parto vaginal × cesáreo; estabilização em até dois anos", ["feto-esteril", "parto-vaginal", "estabilidade-2anos"]),
+   ("tb-sitios", "Pele, vias aéreas, genital, boca, TGI", ["pele-regioes", "faringe", "vag-glicogenio", "oral-diversa", "densidade-aumenta"]),
+   ("tb-estomago-hp", "Estômago e H. pylori", "h-pylori"),
+   ("tb-colonizacao", "Anaeróbios facultativos primeiro; sucessão", ["anaerobios-obrigatorios", S + "1791763663067"]),
+   ("tb-agcc", "AGCC e butirato", ["agcc-nomes", S + "1791014718900"]),
+   ("tb-barreira", "Resistência à colonização, IgA, tolerância oral", ["funcao-protecao", "funcao-imune", S + "1791023301592"]),
+   ("tb-nutricao", "pH, motilidade, vitamina K", ["funcao-ph-motilidade", S + "1791051804825"]),
+   ("tb-bifidos", "Leite materno, fator bífido, lactobacilos e bifidobactérias benéficos", ["fator-bifido", "leite-formula", "benefica-lacto-bifido"]),
+   ("tb-prebioticos", "Prebióticos e fermentação", ["prebiotico-def", "prebioticos-exemplos", "bifidogenico"]),
+   ("tb-probioticos", "Definição, requisitos, mecanismos, efeito transitório", [S + "1791666339316", "probiotico-requisitos", "probiotico-transitorio", "probiotico-imune"]),
+   ("tb-disbiose", "Disbiose: alergia, obesidade, DII, câncer colônico; NEC e probióticos", ["disfuncoes-longo", "probiotico-nec", "obesidade-firmicutes"]),
+   ("tb-higiene", "Hipótese da higiene", "higiene"),
+   ("tb-epidemiologia", "Epidemiologia: definição, John Snow", ["john-snow", "epidemiologia-def"]),
+   ("tb-exo-endo", "Infecções exógenas e endógenas", ["exogena-def", S + "1791746115903"]),
+   ("tb-infeccao", "Infecção, simbiose, comensalismo, patogenicidade e susceptibilidade", [S + "1791746114724", S + "1791746115228", "endogena-causas"]),
+   ("tb-periodos", "Períodos latente, incubação, transmissibilidade", [S + "1791746116575", "incubacao", "transmissibilidade"]),
+   ("tb-reservatorio", "Reservatórios, transmissão direta, indireta, vetores", ["contato-direto", "vias-lista", "peste-pulgas"]),
+   ("tb-medidas", "Prevalência (casos existentes) e incidência (casos novos)", "incidencia-prevalencia")])]
+EXERCICIOS = [
+ ("Provas UC03 (índice micro-08-integracao-homem-ambiente-microrganismo)", [
+   ("p2023", "2023 P2 1.10: S. aureus normal ou patogênico (translocação)", "prova-aureus-translocacao"),
+   ("p2017", "2017 P2 1.8: E. coli na cultura de fezes e ITU", "prova-ecoli-itu")]),
+ ("Monitoria P2, aula 7 (Fundamentos da interação homem-ambiente-microrganismo)", [
+   ("m-mnch", "MNCH, benefícios, infecções endógenas", ["mnch-raramente", "antagonismo", "endogena-causas", "sem-microbiota"]),
+   ("m-distribuicao", "Pele, fossas nasais, boca, digestivo, vagina", ["aureus-percentual", "nares-generos", "oral-importancia", "tgi-fonte", "vag-glicogenio", "propionibacterium"]),
+   ("m-epi", "Epidemiologia, endógenas × exógenas, fontes, vias, portas, horizontal × vertical", ["di-formula", "exogena-def", "antroponose-zoonose", "vias-lista", "portas-lista", "transmissao-horizontal"]),
+   ("m-infeccao", "Infecção não é sinônimo de doença", "infeccao-doenca")]),
+ ("Apostila de veteranos, aula 7 (Integração homem-microrganismo-ambiente)", [
+   ("a-formacao", "Microbiota começa no nascimento pelo canal de parto; distribuição não uniforme", ["parto-vaginal", "nao-uniforme"]),
+   ("a-beneficos", "Vitamina K e B, estímulo imune, proteção contra Salmonella, Shigella, C. difficile", [S + "1791051804825", "imune-estimulo-pele", "sem-microbiota"]),
+   ("a-endogena", "Infecções endógenas: cirurgia, antibiótico, UTI", ["endogena-causas", "endogena-uti"]),
+   ("a-pele", "Pele, S. epidermidis 90% e S. aureus, recolonização em 8 horas", ["epidermidis-90", "aureus-percentual", "pele-oito-horas"]),
+   ("a-conj-vag", "Conjuntiva estéril com lisozima; vagina, glicogênio e ITU", ["conjuntiva-lagrima", "vag-glicogenio", "saprophyticus-flora"]),
+   ("a-intestino", "Flora autóctone e alóctone; ceco; anaeróbios; H. pylori; quórum-sensing", ["densidade-aumenta", "oral-anaerobios", "h-pylori", "tgi-harmonia", "transitoria"]),
+ ]),
+ ("Material docente da turma: Vicente 2020 (turma II) e 2023 (Material Complementar I), versões anteriores do deck da turma I", [
+   ("v-iguais", "Mesmo conteúdo da turma I; sem tópico novo (a de 2023 só avisa que o tópico 2 foi dado na aula T anterior)", ["microbiota-def", "endogena-causas", "vias-lista", "john-snow"])]),
+]

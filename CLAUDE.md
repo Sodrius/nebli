@@ -1,21 +1,21 @@
-# NEBLI — entrada de toda sessão Claude
+# NEBLI — entrada de toda sessão
 
-Para qualquer pedido de deck-aula, mesmo uma mensagem comum, leia [flashcards/projeto/README.md](flashcards/projeto/README.md) e siga a ordem: [MEMORY.md](MEMORY.md) inteiro, [FEEDBACKS.md](flashcards/projeto/FEEDBACKS.md) recente/pertinente e [EXECUCAO-DECK-AULA.md](flashcards/projeto/EXECUCAO-DECK-AULA.md) para executar. MEMORY guarda o que Davi quer e por quê; não deduza preferências de um handoff antigo nem peça novamente as 100 respostas.
+1. [ESTADO-ATUAL.md](ESTADO-ATUAL.md) › **Retomar aqui** e **Quem está com o quê**: o que fazer agora e o que outro executor já pegou.
+2. [MEMORY.md](MEMORY.md): **a regra única e vigente** do que Davi quer (reorganizada em 13/10; versões antigas em `arquivo/` não são norma). Das [FEEDBACKS](flashcards/projeto/FEEDBACKS.md), ler só as entradas novas desde a última sessão.
+3. Para fazer um deck: [EXECUCAO-DECK-AULA](flashcards/projeto/EXECUCAO-DECK-AULA.md), do passo 0 ao 6.
 
-A entrega padrão é **E1 + cards**, salvo escopo explícito. Para UC08, recupere fontes e estado em [RECONSTRUCAO-UC08.md](flashcards/projeto/RECONSTRUCAO-UC08.md); consulte [ACERVOS-REFERENCIA.md](flashcards/projeto/ACERVOS-REFERENCIA.md) na busca. Davi continuará a produção com Claude, conforme os pedidos no chat. A memória rege idioma, irmãos, cobertura, clínica, bandeiras e revisão. Não criar regra nova por preferência editorial própria.
+## Pedido curto
 
-O resultado esperado é um deck pronto, produzido e revisado pela IA, com evidência de que cumpre os critérios. Davi estuda e comenta; não precisa certificar quantidade de cards/verdes. Dúvida nova relevante pede poucos exemplos concretos, sem reabrir preferências resolvidas. Revisão de outra IA só existe se ocorreu; não assinar por ela.
+“Faz a aula X”, “continua”, `/deck-aula X` ou só o nome da aula = executar o roteiro inteiro até o deck entregue (instalado, Tab, gates 100%, pacote da UC, sync) e relatar no formato do MEMORY §11. Sem agente, sem plano para aprovar, sem pedir permissão. Continuar para a próxima aula da fila até Davi mandar parar; dúvidas vão ao fim de cada deck, com a suposição adotada, sem bloquear.
 
-**Dois gates de todo deck novo (F-20260930-CLAUDE-16):** (1) autoral indistinguível do AnKing às cegas — uma frase que ensina o processo e oculta um nome, sem “;” juntando afirmações, ≤ ~20 palavras, frente e Extra em inglês; `python3 -m nebli.lint_cards <plan.json>` sem reprovação dura + amostra cega com `card-mirror`; (2) explicações do Tab geradas pela tag da aula (`python3 -m nebli.explicacoes gerar '"tag:NEBLI::<aula>"'`, nunca `deck:"NEBLI::..."` exato) e `resumo '"tag:NEBLI::<aula>"'` com `faltando: 0` e `desatualizada: 0` antes de entregar. Detalhes no MEMORY e no roteiro §3/§6. Antes de entregar, percorrer a tabela “Erros já cometidos” do MEMORY.
+## Limites que não mudam
 
-**Antes de encerrar:** registre todo feedback recebido no FEEDBACKS comum, inclusive local/positivo, atualize a preferência no MEMORY em seu lugar e o estado na fila/corrida. Reler alterações concorrentes antes de gravar/entregar. Melhorias são prospectivas; deck anterior só muda quando solicitado. Não criar outra memória/handoff nem depender da conversa privada para passar contexto ao Codex ou à próxima sessão.
+- Davi estuda no Anki enquanto o executor trabalha: nunca tocar a nota em tela nem irmãos; escrita só por `nebli.decks.escrita()`; sync quando ele estiver ocioso.
+- Outro executor (Codex) trabalha em paralelo: reivindicar a aula no ESTADO-ATUAL antes; não mexer no que ele reivindicou; reler antes de gravar.
+- Preservar originais AnKing, IDs/histórico, comentários, marcas e suspensões pessoais. Não apagar notas sem autorização de Davi e backup. Arquivar documentos superados em `arquivo/` com hash.
+- Feedback novo: literal em FEEDBACKS → regra **reescrita no lugar** no MEMORY (sem acrescentar camada) → check no lint/gate quando mecanizável.
+- Não fabricar leitura, busca, teste ou revisão. Gate aprovado não prova julgamento.
 
-Preservar originais, identidades, estudo e marcas pessoais; seguir lock, backup e readback no roteiro. Não ressuscitar apagados nem limpar o workspace compartilhado. Documentação não certifica implementação, cobertura, imagens ou sincronização remota.
+## Outras rotas (só sob pedido)
 
-## Outras rotas preservadas
-
-- E1: `didatica/E1.md`, com suas referências de didática/voz; E2/E3 e RemNote são históricos.
-- Cadernos de provas: `banco/CLAUDE.md`, `typst-build/pipeline_caderno.py` e seção Cadernista de `ROLES.md`.
-- Typst: `typst-template/CLAUDE.md`, `CHEATSHEET_ARMADILHAS.md` e `TEMPLATE_API.md`.
-- Site/liga/etimologia: estado e localização dos planos no MEMORY; não iniciar por inferência.
-- Versões integrais de regras e decisões: [HISTORICO.md](flashcards/projeto/HISTORICO.md), somente para consulta situada.
+Índice do projeto: [README.md](README.md). Pedido explícito de “E1 + cards” (E1 + deck) inclui a E1: `didatica/E1.md`. Cadernos: `banco/CLAUDE.md` e `ROLES.md`. Typst: `typst-template/CLAUDE.md`. Site, liga e Etimologia: preservar.

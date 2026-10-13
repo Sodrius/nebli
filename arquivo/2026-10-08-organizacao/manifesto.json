@@ -1,0 +1,86 @@
+[
+  {
+    "origem": "AGENTS.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/AGENTS.md",
+    "sha256": "d9f81180f55cc9feeeeec23e55829389f1b877101bddd16e4b935e56269f97de",
+    "bytes": 5041
+  },
+  {
+    "origem": "CLAUDE.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/CLAUDE.md",
+    "sha256": "b98f4fb3e2dbde1361f4a8d0b476ec2f5b4e465b70b1290e098035064e6aa366",
+    "bytes": 7999
+  },
+  {
+    "origem": "MEMORY.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/MEMORY.md",
+    "sha256": "34ab8d26788def59dc58a2075dd246c9b5ee9213ff0bc5dbd8a8ea47d9dcb2a4",
+    "bytes": 93825
+  },
+  {
+    "origem": "PENDENCIAS.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/PENDENCIAS.md",
+    "sha256": "01ad5eaf7d693ef0c0aee9a7b44d0d71b076ddb3332a0509a46e3abec142ae97",
+    "bytes": 7487
+  },
+  {
+    "origem": "ROLES.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/ROLES.md",
+    "sha256": "893ad63d9726e3e1eb46e95a155628dcdb6dfe9ff55404598f0cca48f5c80986",
+    "bytes": 3393
+  },
+  {
+    "origem": "GUIA-EXPLICACOES-TAB.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/GUIA-EXPLICACOES-TAB.md",
+    "sha256": "330ee4072206bb9d6feb363564cb77fd896a6fc6cbeca4c7acea56349d0738a2",
+    "bytes": 8419
+  },
+  {
+    "origem": "PLANO-AJUSTES-ANKI-2026-10-08.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/PLANO-AJUSTES-ANKI-2026-10-08.md",
+    "sha256": "4cfa9a99fb0991e3728df00869e564be30a5beadc35f8ab33cdc1944bdf6f8e8",
+    "bytes": 24937
+  },
+  {
+    "origem": "flashcards/projeto/README.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/flashcards/projeto/README.md",
+    "sha256": "d6f1f0ad2544ca7ac472280dc0782138d9dbee01286b9b690795bb56cbf99088",
+    "bytes": 3363
+  },
+  {
+    "origem": "flashcards/projeto/EXECUCAO-DECK-AULA.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/flashcards/projeto/EXECUCAO-DECK-AULA.md",
+    "sha256": "837f3d386163c67bd301a90c771134cb1a165409c3ab00784b7c3348de826ad4",
+    "bytes": 32927
+  },
+  {
+    "origem": "flashcards/projeto/PLANO-GERACAO-ANO.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/flashcards/projeto/PLANO-GERACAO-ANO.md",
+    "sha256": "0e64c37472bad685829422d97458bd4c37ca25b8ea28fdfab7caf3d43b19ef44",
+    "bytes": 10874
+  },
+  {
+    "origem": "flashcards/projeto/RECONSTRUCAO-UC08.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/flashcards/projeto/RECONSTRUCAO-UC08.md",
+    "sha256": "27ac7ed13f98f36f812cc5bba94f74343e9f256f6ace14b2807ffe476711e4a1",
+    "bytes": 16087
+  },
+  {
+    "origem": "flashcards/projeto/REFACAO-UC03-PADRAO-UC08.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/flashcards/projeto/REFACAO-UC03-PADRAO-UC08.md",
+    "sha256": "c8335f0d8df3dc737c13b1e9daa11a067d2cba3c2b4d543d5bd5e524b2b21df8",
+    "bytes": 10161
+  },
+  {
+    "origem": ".claude/commands/deck-aula.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/.claude/commands/deck-aula.md",
+    "sha256": "e8bb093b6423aba48f57978165b9ffecef2ae9e19b5e19a2e9c843a2cbae58ca",
+    "bytes": 1314
+  },
+  {
+    "origem": "flashcards/projeto/ACERVOS-REFERENCIA.md",
+    "preservado_em": "arquivo/2026-10-08-organizacao/flashcards/projeto/ACERVOS-REFERENCIA.md",
+    "sha256": "e19b3a65e08f8f80beed71a5ed04102146888658ffc406ed6a2becae3ad31ff9",
+    "bytes": 17730
+  }
+]

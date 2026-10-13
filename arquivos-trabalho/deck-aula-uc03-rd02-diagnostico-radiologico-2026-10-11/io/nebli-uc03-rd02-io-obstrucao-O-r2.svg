@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1728" height="972">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-obstrucao-o0" x="395.1" y="34.7" width="779.1" height="67.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-obstrucao-o1" x="329.3" y="880.2" width="243.0" height="43.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-obstrucao-o2" x="1250.9" y="880.2" width="155.2" height="43.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-obstrucao-t0" x="608.5" y="919.7" width="510.6" height="43.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

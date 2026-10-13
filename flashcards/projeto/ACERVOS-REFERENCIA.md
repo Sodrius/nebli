@@ -1,5 +1,7 @@
 # Fontes e acervos — localizadores e modelos
 
+> Localizadores e modelos. O que ler em cada aula está no MEMORY §4 e no roteiro; em conflito, valem eles.
+
 Inventário vivo em 23/09/2026, atualizado em 24/09/2026 (`arquivos-trabalho/lote-uc03p2-uc08p1-2026-09-24/catalogo.json`), perfil Davi, após reorganização e novas importações. Fonte completa: `arquivos-trabalho/reinicio-uc-2026-09-23/catalogo-vivo.json`. Foram mapeados todos os modelos presentes por contagem/consulta, com zero cards sem modelo identificado; conteúdo e tags lidos por amostra, não auditoria científica integral. Descoberta dinâmica, sem depender do nome da pasta-pai.
 
 ## O que está disponível
@@ -58,7 +60,7 @@ Davi avaliou em 28/09: “anato king não é bom, preferir anking, depois outros
 
 ## Bibliografia por matéria (Davi, 24/09/2026 — ele avisa quando mudar)
 
-"Sempre se atentar à bibliografia... não precisa pôr tudo deles, mas são a bibliografia do curso." Usar o livro para conferir recorte, profundidade e precisão, e citar no relatório o capítulo realmente consultado. Não transformar o capítulo em deck. Livro ausente → usar substituto de acesso livre e declarar.
+"Sempre se atentar à bibliografia... não precisa pôr tudo deles, mas são a bibliografia do curso." Usar o livro para conferir recorte, profundidade e precisão, e citar no relatório o capítulo realmente consultado. Não transformar o capítulo em deck. Livro desconhecido/ambíguo → perguntar a Davi após consultar a lista atual; livro conhecido mas inacessível → buscar acesso/alternativa e avaliar a falta conforme MEMORY, sem substituição silenciosa nem instalar com fonte importante pendente.
 
 Pasta **Livros** no Drive: `1ZYH9ezNk8lH4h0ArsX2PgdOpsnf4N-ss`.
 
@@ -76,3 +78,80 @@ Pasta **Livros** no Drive: `1ZYH9ezNk8lH4h0ArsX2PgdOpsnf4N-ss`.
 Acesso aos PDFs: o conector Drive do Claude devolveu texto vazio para o Trabulsi (PDF grande). Baixar pelo navegador para uma pasta local ignorada pelo Git (`arquivos-trabalho/livros/`) e extrair só o capítulo com `pymupdf`. Não declarar leitura de capítulo que não foi aberto.
 
 Canais preferidos declarados: Ninja Nerd; Medicosis Perfectionalis e Patologia Fácil; Dirty Medicine; Armando Hasudungan, Osmosis e Professor Dave; Shomu's Biology. Q028, 29/09: oferecer uma seleção mais ampla de recursos pertinentes para Davi escolher, sem alegar cobertura de vídeo não assistido. O idioma e os critérios são os do MEMORY atual.
+
+## Fontes de toda aula — Davi, 02/10/2026 (F-20261002-CLAUDE-06; substitui a tabela e a lista de canais acima onde divergirem)
+
+**Base do que é a aula:** slides + provas antigas + exercícios + material do CAOC (arquivos). Tudo no Drive montado: `~/Library/CloudStorage/GoogleDrive-dpbdes@gmail.com/Mon Drive/` (aulas em `MEGA DRIVE/Medicina/Resumos e exercícios/B - Primeiro ano/UC<NN>/`; `Margarida.pdf` na raiz; pasta de livros no Drive `10URthATN63lr0GSxN9ekgQrGJ1abzxNn`). Procurar na montagem antes de declarar fonte ausente.
+
+**Bibliografia por UC (ler o capítulo pertinente da aula, sempre; UC01/02/03/08 e canais reconfirmados por Davi em F-20261002-CODEX-10):**
+- UC01: Lehninger, Alberts, Guyton
+- UC02: Lehninger, Alberts, Guyton, Junqueira, Netter
+- UC03: Abbas, Robbins, Lehninger, Trabulsi (no MEGA DRIVE), Netter; para clínica, os livros do HCFMUSP
+- UC07: Netter
+- UC08: Guyton, Margarida (Aires), Junqueira, Alberts, Netter
+- UC19: **Rang & Dale**, confirmado por Davi em 06/10/2026. PDF 7ª ed. no Drive pessoal, `MEGA DRIVE/Outros/Livros/Bibliografia principal - medicina/Rang _ Dale Farmacologia 7 Ed.pdf`; conector ID `1yStxtNxwnZuBYTeOYKRZtz0US5zhunVL`. Explorar também `UC19/Outros` (questões, objetivos, De Nucci e apostila).
+
+**Canais que Davi acompanha (referência para quando ele pedir; vídeos estão dispensados na produção dos decks desde F-20261010-CLAUDE-06):** Ninja Nerd, Medicosis Perfectionalis, Osler, Osmosis, Professor Mike, AK Lectures, MK Fisiologia, Dirty Medicine, Shomu's Biology. Transcrição lida não é vídeo assistido; declarar o que foi de fato consultado (`youtube-transcript-api` funciona neste Mac).
+
+
+### Localização complementar — busca de 02/10/2026 (Codex)
+
+- [MEGA DRIVE](https://drive.google.com/drive/folders/18HEmYCd--zhu5KRi9IutMggaoNAtBqcK): confirmado pelo conector; montagem local contém `Medicina/Resumos e exercícios/B - Primeiro ano/UC<NN>` e `Medicina/Sem compartilhar/Provas/UC<NN>`. Algumas subpastas deram timeout na listagem local; isso não prova ausência de arquivos.
+- [Pipeline criação de cards](https://docs.google.com/document/d/1gHGICvzQMe_B5CJFPAKwo6SvtIjcqEwBPCV5v-dBhD0/edit): texto lido, confirma referência a “CAOC arquivos”, bibliografia e canais. Contém metas antigas conflitantes (30/35/350 semanal); a fala atual e MEMORY, 40 novos/dia, prevalecem.
+- [Gliconeogênese — Etapas 1 a 4 — drive do CAOC](https://drive.google.com/file/d/1h_LnK-Hg0_Kiqn8DFvgU8AGPoqkZB_dQ/view): PDF localizado, não lido nesta busca; local `Mon Drive/Guardar para mim/com E4/Gliconeogênese - Etapas 1 a 4 - drive do CAOC.pdf`. O título não certifica autoria ou acesso ao acervo inteiro. Revisões locais de ácidos nucleicos também citam CAOC, mas outra revisão identifica o PDF como NEBLI: não usar como prova de procedência.
+- [ARQUIVOS 114](https://drive.google.com/drive/folders/16JQUsZKD4sp1O2HG7Y0UZ9tb2MtSqeGU): pasta compartilhada listada com Livros, arquivos diversos, Provas antigas, Resumos, SLIDES e Cards. [Provas antigas](https://drive.google.com/drive/folders/1hdnxUY-WB-mBb-CE_MeFL30mqhoEmGky) contém 1º e 4º semestres na listagem. **Não confirmado que seja o CAOC.** Pesquisa nominal CAOC não encontrou pasta geral; localização dessa raiz continua pendente.
+- Provas UC03: consultado `consultar.py --slug pat-07-inflamacao-aguda --desde 2023`; exemplos P2 2025 1.2/2.2 e P2 2024 1.16. Índice tem ecos e trechos mal segmentados; consultar originais antes de usar como evidência final. Consulta não equivale a leitura integral das provas.
+
+
+### Acesso ao acervo indicado por Davi — 02/10 (F-20261002-CODEX-11)
+
+Davi identificou explicitamente [esta pasta](https://drive.google.com/drive/folders/10URthATN63lr0GSxN9ekgQrGJ1abzxNn) como o acervo ao qual devemos ter acesso. O ID já constava acima como pasta de livros; não inferir o nome/conteúdo da raiz sem abri-la. Ele confirmou que **a conta FMUSP tem acesso e dpbdes@gmail.com não**. Conector e montagem disponíveis nesta verificação usam dpbdes@gmail.com. `get_file_metadata` retornou 404; listagem retornou vazia, o que não comprova pasta vazia. Acesso/conteúdo ainda não verificados. Próximo passo: conectar conta FMUSP ao Google Drive e repetir metadados, listagem e leitura de um arquivo pertinente antes de declarar fonte disponível.
+
+**Atualização de 02/10, tarde (F-20261002-CLAUDE-08).** Davi: o livro de cada matéria vem **sempre do CAOC arquivos** ([link](https://drive.google.com/drive/u/1/folders/10URthATN63lr0GSxN9ekgQrGJ1abzxNn)) e “o plugin do google drive vai ter acesso ao drive do caoc arquivos”. Teste desta sessão: o conector `claude.ai Google Drive` ainda responde como dpbdes@gmail.com (`get_file_metadata` 404 na pasta; `parentId` não suportado). A pasta também não aparece na montagem local da conta FMUSP, porque item “compartilhado comigo” só é montado se houver atalho em “Mon Drive”. **Em toda aula, testar primeiro o conector na pasta do CAOC; se 404, dizer a Davi e usar as rotas abaixo, sem declarar o CAOC consultado.**
+
+Rotas que funcionam hoje, sem conector:
+- **Drive da turma (conta FMUSP, montado):** `~/Library/CloudStorage/GoogleDrive-davi.sousa@fm.usp.br/Drive partagés/TURMA 114/1º ano/UC<NN> - <nome>/<Componente>/`. Na UC08 há `Aula NN - …` com os slides, `Material para Estudos` (Exercícios de Anatomia I/II, Prática de Anatomia I/II, Monitoria - Resumo Geral) e `Bibliografia Básica` (Anatomia: Moore, Gray, Dângelo; Histologia: Junqueira, Ross, Kierszenbaum). Fisiologia da UC08 estava com as pastas vazias na listagem de 02/10.
+- **Drive pessoal (Gmail, montado; caminhos de 03/10/2026):** aulas em `MEGA DRIVE/Medicina/Material de estudo/A - Primeiro ano (2026)/UC<NN>/`, `Margarida.pdf` na raiz, provas em `MEGA DRIVE/Medicina/Outros/Provas/` (UC01, UC02, UC03, UC21; **sem UC08**). Livros em `MEGA DRIVE/Medicina/Outros/Livros/`, `MEGA DRIVE/Outros/Livros/` e `.../Bibliografia principal/` (inventário no MEMORY, item 4).
+
+- **Netter (atlas, PDF com rótulos em texto):** `MEGA DRIVE/Medicina/Outros/Livros/Atlas of Human Anatomy by Frank H. Netter (z-lib.org).pdf` no Drive pessoal montado; digestório nas páginas 335–338 e 397–400 do PDF (pranchas 237–239, 276–279). Serve para conferir a aula e para oclusão com `nebli.slide_io` (half="full").
+
+Busca anterior: o [site oficial CAOC](https://www.caoc.org.br/links) aponta materiais de estudo para [Med nas Nuvens](https://drive.google.com/drive/folders/1P34Q14neVrke0XorAGwOy6_Rv9K6WeMT), com acesso @fm.usp.br. Esse link também retornou 404 com o Gmail, mas **não substitui a pasta específica indicada por Davi**. ARQUIVOS 114 foi listada pelo conector; vínculo com o CAOC continua não comprovado. A busca nominal CAOC retornou o PDF de gliconeogênese e o documento de pipeline, sem localizar uma raiz adicional.
+
+
+## Imagens de fonte aberta (F-20261003-CLAUDE-19, 03/10/2026)
+
+Quando a figura do livro for ruim mesmo recortada: histologia em **Histology Guide** (https://histologyguide.com, lâminas virtuais da University of Minnesota) e **Leeds Histology Guide** (https://histology.leeds.ac.uk). Guardar URL e arquivo no registro da corrida (`imagens-vistas.json`), sem crédito visível no card. Vale a mesma ideia para outras matérias: escolher a imagem mais nítida e intencional disponível.
+
+
+## Atualização — 08/10/2026
+
+Toda a bibliografia está no Drive segundo Davi; ele poderá copiar para `bibliografia/` na raiz. Não presumir presença local. Explorar **Outros, Materiais complementares e equivalentes em cada UC**. Extras de veteranos/professores são essenciais nas matérias anteriores. Registrar arquivos, leitura e contribuição efetiva.
+
+A apostila de lâminas UC02 **já está no Drive segundo Davi**; localizar/ler antes de produzir. Histology Guide também é apoio pertinente. Não registrar como material ainda a enviar. UC17: Neuroanatomia Funcional, Angelo Machado, 3ª ed., Manole. Demais bibliografias/canais no MEMORY. E1 existente é auxiliar; não gerar E1 nesta campanha.
+
+
+## Drive reorganizado — conferido em 08/10/2026 (leva 1)
+
+Raiz `~/Library/CloudStorage/GoogleDrive-dpbdes@gmail.com/Mon Drive/MEGA DRIVE/Medicina/` tem agora só `Material de estudo/` e `Não compartilhar/`. **Livros:** `Não compartilhar/Bibliografia principal - medicina/` — Alberts 5ª, Moore (Anatomia Orientada), Netter Atlas, Machado Neuroanatomia 3ª (UC17), Goodman & Gilman 12ª, Guyton 12ª, Janeway 8ª, Junqueira 12ª, Lehninger, Trabulsi 6ª, Harrison (manual), Margarida Aires 4ª, Netter Neurologia, Rang & Dale 7ª (UC19), Robbins Bases Patológicas, Williams Endocrinologia 11ª. Também em `Não compartilhar/`: Cronogramas, IC, Imuno P2 deck, Notas, Provas, UC21. Caminhos anteriores (`Medicina/Outros/...`) não existem mais.
+
+**Imagens de histologia (leva 1):** Histology Guide via `python3 -m nebli.zif` (recorte por região das lâminas virtuais; `--buscar <termo>` usa o índice do site; `--anotacoes <url>` lista as estruturas anotadas de uma lâmina). Atlas Sorenson cap. 14 (GI), amostra gratuita do próprio Histology Guide, em `arquivos-trabalho/livros/sorenson/ch14-clean.pdf` (recorte com `nebli.atlas_pdf`). Setas com `nebli.seta`. Registro de cada imagem no lote da corrida.
+
+## Provas UC08 — localizadas em 09/10/2026
+
+Na pasta pessoal do Drive `MEGA DRIVE/Medicina/Não compartilhar/Provas/UC08/`: `P1 UC8 TA.pdf` e `P1 UC8 TB.pdf`. Cópias de auditoria, hash, contagem de páginas, OCR e origem em `arquivos-trabalho/auditoria-uc08-provas-2026-10-08/fontes.json`. TA tem 17 páginas, TB 19. São provas P1; ano não confirmado. As respostas assinaladas não são gabarito integral validado. Consultar a revisão de correspondência com os decks em `REVISAO.md` nessa pasta antes de usar como cobertura de prova.
+
+## Candidatos a novos acervos — pesquisa de 09/10/2026 (F-20261009-CLAUDE-01)
+
+Pesquisa web/Reddit (r/medicalschoolanki por espelhos, AnkiHub Community, blogs). Não baixado nem avaliado card a card; prioridade pelo que falta hoje (histologia por micrografia, fisiologia/bioquímica pré-clínica, anatomia por peça).
+1. **Navi's Histology** (Netter's Histology Flashcards, 1.316 cards, IO + comentário clínico; link Mega no willpeachmd.com) — maior lacuna atual: identificação histológica (UC02/UC08).
+2. **Complete Phase 1 Histology** (AnkiWeb 967365558, 2.189 cards, lâmina + fato único) e **Lange Basic Histology** (1.094, Reddit) — complementos.
+3. **Ankiphil – AMBOSS Vorklinik** (alemão, ~7.500 notas, todas as matérias pré-clínicas, imagens AMBOSS e Histo-Trainer; AnkiWeb 1163710568 / amboss.com/de/anki-download) — equivalente pré-clínico mais próximo do AnKing em outra língua; traduzir sob demanda.
+4. **Ankizin v5** (alemão, ~40.000 cards clínicos, BVMD, ankizin.de; pré-clínica prevista para 2026) — clínica de UC21/patologia.
+5. **Dope "Medical School Science"** (~25.000; Ganong, BRS Bioquímica/Genética, Nolte) — só temos o Dope Anatomy.
+6. **Ranatomy** (Rohen, foto de peça + IO) — anatomia por cadáver, se confirmado o download.
+Francês: há relatos não verificados de "AnKing FR" (~12 mil) e decks ECN/EDN comunitários; Clinicard afirma não existir equivalente nacional. Espanhol: decks MIR de Dr. Basti (Gumroad, pagos, clínicos). Chinês: nada encontrado. Pepper/Lolnotacop já estão dentro do AnKing.
+
+**Avaliação dos candidatos contra as lacunas reais (09/10, F-20261009-CLAUDE-03).** Na revisão de completude da UC03, os autorais que sobraram cobrem micologia geral (Fungos), poluição e mudanças climáticas (Ambiental), cavidades/anamnese do edema e leitura das imagens da própria aula (PR02): nenhum candidato acima tem isso, então **não baixar para a UC03** — aceitar os autorais. Onde vale testar: **Ankiphil Vorklinik e Dope "Medical School Science" (Ganong)** para a fisiologia da UC08 (FI09 ficou com 36% de autorais em motilidade fina) e **Navi's/Complete Phase 1 Histology** para histologia (UC02/UC08). Testar = baixar como referência suspensa, buscar 5 alvos reais de uma aula e só então adotar.
+
+**UC03 2026 (09/10):** drive da turma (conta FMUSP, montado) `Drive partagés/TURMA 114/1º ano/UC03 - Princípios do Desenvolvimento de Doenças/` tem slides por componente/aula, transcrições, videoaulas, exercícios, bibliografia, provas antigas e a `grade não oficial UC3 TA.pdf` (aula → prova; extraída em `arquivos-trabalho/uc03-grade-2026.json`). Pasta pessoal `MEGA DRIVE/Medicina/Material de estudo/A - Primeiro ano (2026)/UC03/` tem só parte dos slides e as apostilas de veteranos (`Outros/Apostilas de veteranos`).
+- 11/10 (F-20261011-CLAUDE-06): canal indicado por Davi — [Animated biology With arpan, “T cell subtypes | Th1, Th2, Treg, Th17 | Cytotoxic T cells | exhausted T cells”](https://www.youtube.com/watch?v=fmq8zHEhUOg). Título/canal confirmados pelos metadados YouTube oEmbed em 12/10; conteúdo ainda não assistido. Vídeos seguem dispensados de transcrição (F-20261010-CLAUDE-06); consultar quando pertinente à aula.

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1728" height="972">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-ves-biliar-o0" x="752.7" y="148.9" width="317.6" height="90.0" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-ves-biliar-o1" x="41.3" y="304.1" width="436.0" height="47.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-ves-biliar-o2" x="38.3" y="527.0" width="253.6" height="47.1" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-ves-biliar-t0" x="1003.2" y="448.8" width="160.8" height="45.6" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>

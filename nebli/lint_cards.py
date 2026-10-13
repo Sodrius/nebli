@@ -9,8 +9,9 @@ AnKing cobra UM nome (o cloze) dentro de uma frase que ensina o processo inteiro
 Uso:
     python3 -m nebli.lint_cards arquivos-trabalho/<corrida>/plan.json   # entries do plano (antes de instalar)
     python3 -m nebli.lint_cards --anki '"tag:NEBLI::<aula>" "tag:NEBLI::origem::Autoral"'  # notas vivas
-No plan.json, cada autoral precisa de "autoria": "central" | "prova" e de "busca" preenchida;
-autoria acima de 20% dos cards gera aviso. Sai com código 1 se algum card autoral falhar em regra dura. Métrica não substitui leitura:
+No plan.json, cada autoral precisa de "autoria": "central" | "prova" | "lateral", de "busca" preenchida e de
+"espelhos": [nid, nid, ...] (2–3 cards AnKing vizinhos usados como molde; ver nebli/espelhos.py);
+autoria acima de 15% dos cards gera aviso de auditoria, não cota. Sai com código 1 se algum card autoral falhar em regra dura. Métrica não substitui leitura:
 passar aqui é o mínimo, não prova qualidade.
 """
 from __future__ import annotations
@@ -37,7 +38,11 @@ def plain(value):
     return re.sub(r"\s+", " ", html.unescape(value)).strip()
 
 
+CHEM = re.compile(r"\b(?:Na|K|Ca|Cl|H|Fe|Mg|O|e\.g\.|i\.e\.)(?=\W|$)")
+
+
 def portuguese(text):
+    text = CHEM.sub(" ", text)  # "Na", "O", "e.g." não são português
     return len(text.split()) > 4 and len(PT.findall(text)) > len(EN.findall(text))
 
 
@@ -47,6 +52,8 @@ def check(key, text_html, extra_html=""):
     problems = []
     if ";" in text:
         problems.append(("dura", "';' junta duas afirmações: dividir em cards ou reescrever numa frase só"))
+    if re.search(r"(?<!\d):(?!\d)", text):
+        problems.append(("dura", "':' na frente: AnKing escreve frase corrida, sem rótulo nem dois pontos (F-20261001-CLAUDE-16)"))
     words = len(text.split())
     if words > MAX_WORDS:
         problems.append(("dura" if words > 30 else "aviso", f"{words} palavras (AnKing: mediana 15, p90 {MAX_WORDS})"))
@@ -55,6 +62,12 @@ def check(key, text_html, extra_html=""):
         problems.append(("aviso", f"{len(clozes)} clozes: vira lista; preferir um nome por card"))
     if portuguese(text):
         problems.append(("dura", "frente em português (novos cards em inglês)"))
+    if text and not re.search(r"<(?:b|strong)\b", text_html or "") and not re.search(r"\{\{c\d+::\s*<(?:b|strong)\b", text_html or ""):
+        problems.append(("dura", "sem negrito: AnKing negrita 1–3 termos de contexto (95% das notas, mediana 2; F-20261011-CLAUDE-01)"))
+    if re.search(r"\b(?:the (?:lesson|lecture)|slide \d+)\b", text, re.I):
+        problems.append(("dura", "frente com metacomentário de aula/slide: o card não cita a aula"))
+    if re.search(r"\b(?:according to (?:the )?source|the source (?:contrasts|states|says)|given in the source)\b", text, re.I):
+        problems.append(("dura", "frente com metacomentário de fonte: resolver a incerteza fora do card"))
     extra = plain(re.sub(r"<img[^>]*>", " ", extra_html or ""))
     extra_words = len(extra.split())
     if portuguese(extra):
@@ -65,7 +78,7 @@ def check(key, text_html, extra_html=""):
         problems.append(("aviso", f"Extra com {extra_words} palavras (AnKing p75 {MAX_EXTRA})"))
     if extra_words > 15 and not re.search(r"(^|<br\s*/?>|<div>)\s*-\s", extra_html or ""):
         problems.append(("aviso", "Extra em parágrafo: AnKing usa bullets '- ' curtos com termo em negrito"))
-    if re.search(r"\b(the lecture|in the lecture|this card|these patterns|this is)\b", extra, re.I):
+    if re.search(r"\b(the lecture|in the lecture|in the lesson|the lesson|the transcript|transcript cites|in the figure|exercise question|slide \d+|this card|these patterns)\b", extra, re.I):
         problems.append(("dura", "Extra com metacomentário de curadoria"))
     if re.search(r"\b(whereas|while|but)\b.*\{\{c\d+::", text_html) and len(clozes) >= 2:
         problems.append(("aviso", "contraste com 2+ clozes: conferir se não são dois cards"))
@@ -80,6 +93,10 @@ def justification(entry):
         problems.append(("dura", "autoral sem 'autoria': 'central', 'prova' ou 'lateral' (este vai com bandeira rosa)"))
     if not str(entry.get("busca", "")).strip():
         problems.append(("dura", "autoral sem 'busca': rotas AnKing/alternativos consultadas e por que não servem"))
+    mirrors = entry.get("espelhos")
+    if not isinstance(mirrors, list) or len(mirrors) < 2:
+        problems.append(("dura", "autoral sem 'espelhos': 2–3 nids de cards AnKing vizinhos que serviram de molde "
+                                 "(python3 -m nebli.espelhos <termos>)"))
     return problems
 
 
@@ -88,8 +105,12 @@ def from_plan(path):
     entries = plan["entries"]
     autorais = [e for e in entries if e.get("origin") == "Autoral"]
     cards = lambda es: sum(len(e.get("cards", [])) or 1 for e in es)
-    if entries and cards(autorais) > 0.2 * cards(entries):
-        print(f"[aviso] {cards(autorais)} de {cards(entries)} cards são autorais (>20%): refazer a busca antes de aceitar")
+    if entries and cards(autorais) > 0.15 * cards(entries):
+        print(f"[aviso] {cards(autorais)} de {cards(entries)} cards são autorais (>15%): auditar busca e espelhos; preservar a completude")
+    evidence = plan.get("busca_externos")
+    if autorais and not (evidence and (Path(path).parent / evidence).exists()):
+        yield ("plano", "", "", [("dura", "há autorais e o plano não aponta 'busca_externos': arquivo da corrida com a busca feita em "
+                                         "Referências Externas (MCAT, AnatoKing, Dope etc.) antes de autorar")])
     for entry in autorais:
         fields = entry["fields"]
         yield entry["key"], fields.get("Text", ""), fields.get("Extra", ""), justification(entry)
@@ -118,7 +139,7 @@ def main():
     total = hard = 0
     for key, text, extra, extra_problems in cards:
         total += 1
-        problems = check(key, text, extra) + extra_problems
+        problems = (check(key, text, extra) if text else []) + extra_problems
         if problems:
             hard += any(level == "dura" for level, _ in problems)
             print(f"{key}: " + " | ".join(f"[{level}] {msg}" for level, msg in problems))

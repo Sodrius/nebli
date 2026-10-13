@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1104" height="708">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-regiao-inguinal-o0" x="249.7" y="299.6" width="95.5" height="31.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-regiao-inguinal-o1" x="248.9" y="350.2" width="136.2" height="31.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-regiao-inguinal-o2" x="733.0" y="356.2" width="133.2" height="31.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-regiao-inguinal-o3" x="239.3" y="412.3" width="152.2" height="31.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-regiao-inguinal-o4" x="724.9" y="447.3" width="144.2" height="31.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-regiao-inguinal-o5" x="240.9" y="453.9" width="147.0" height="31.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-regiao-inguinal-o6" x="727.3" y="515.8" width="159.2" height="31.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-regiao-inguinal-o7" x="245.7" y="563.9" width="109.9" height="31.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-regiao-inguinal-t0" x="242.3" y="513.8" width="162.0" height="31.3" stroke="#2D2D2D" fill="#FF7E7E" class="qshape"/>
+ </g>
+</svg>

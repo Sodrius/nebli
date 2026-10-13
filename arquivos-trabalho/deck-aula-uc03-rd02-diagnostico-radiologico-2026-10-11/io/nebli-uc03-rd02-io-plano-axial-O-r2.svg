@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1728" height="972">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-plano-axial-o0" x="714.4" y="391.1" width="340.9" height="96.0" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-plano-axial-o1" x="476.3" y="23.5" width="610.7" height="136.3" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-plano-axial-o2" x="785.0" y="841.6" width="271.9" height="43.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-plano-axial-o3" x="1305.5" y="841.6" width="298.8" height="43.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-plano-axial-t0" x="209.2" y="841.6" width="226.0" height="43.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

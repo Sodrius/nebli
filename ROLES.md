@@ -1,11 +1,11 @@
 # Papéis — roteamento atual
-E1 + cards são conduzidos pela sessão executora conforme `flashcards/projeto/README.md`. Não há necessidade de delegação ou modelo fixo como condição de qualidade. Ler as instruções aplicáveis integralmente; responsabilidade de verificação permanece com quem entrega.
+Nesta campanha, Codex coordena e verifica; Claude executa por levas e feedback conforme `README.md`, `ESTADO-ATUAL.md` e o plano ativo. Somente decks por padrão; E1–E3 sob pedido. Ler as instruções aplicáveis integralmente; responsabilidade de verificação permanece com quem entrega.
 
 - E1: `didatica/E1.md`, EXEMPLARES.md, ANTI-EXEMPLARES.md, ajustes-finos-recentes.md; preserve didática e precisão.
 - Cards: MEMORY.md, EXECUCAO-DECK-AULA, FEEDBACKS e ACERVOS-REFERENCIA, pela ordem do README.
 - Revisão: passes separados de precisão/recorte, didática/recuperação, imagens/renderização e identidade/entrega; não confundir um com outro.
 - Compilação: modo somente-E1, saída isolada, template atual e revisão textual/visual. Detalhes atuais em didatica/E1.md.
-- Questionador/E2/E3/RemNote: papéis aposentados do fluxo atual; íntegra no arquivo histórico, não carregar como instrução de nova aula.
+- E2/E3: opções sob pedido explícito, com materiais preservados; não gerar nesta campanha. RemNote permanece histórico.
 - Critérios extensos de revisores e detalhes técnicos legados continuam em `backups/contexto-2026-09-25/ROLES.md`, consultáveis por seção; regras atuais prevalecem.
 
 ## § Cadernista

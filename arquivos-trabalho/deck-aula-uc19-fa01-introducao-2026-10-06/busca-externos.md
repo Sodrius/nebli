@@ -1,0 +1,3 @@
+# Busca de alternativas antes dos autorais
+
+Acervo disponível no Anki: AnKing Step Deck e Referências Externas (incluindo AnKing-MCAT, Ankisthesia, AnatoKing e Dope). A busca nesta corrida foi por definições, sinônimos e mecanismos, não só pelo nome da classe. O cartão Ankisthesia 1565120487647 foi aproveitado para a ponte PK/PD; 120 dos 142 cards finais vieram do AnKing Step. Para os 21 autorais, os IDs em `espelhos` registram 2–3 notas reais vizinhas consultadas. Cada lacuna era uma relação ou contraste expresso nos slides que esses cartões não cobravam na formulação requerida (por exemplo Kd ≠ EC50, atividade constitutiva versus antagonista neutro e reserva de receptores). Não foram criados autorais para listas de nomes quando havia alternativa AnKing.

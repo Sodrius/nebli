@@ -1,0 +1,22 @@
+# Explicação curta no verso (F-20261003-CLAUDE-15), conferida no Aires cap. 59 e na aula do Ninja Nerd (SNE).
+NOTAS = {
+ "extrinseco-sinapses": "The enteric plexuses act as the relay where the autonomic system reaches the gut",
+ "atropina-motilidade": "Atropine blocks muscarinic receptors, removing the parasympathetic drive",
+ "simpatico-inibe": "Sympathetic = brake on motility and secretion, but closes the sphincters",
+ "reflexo-curto": "Short reflex: stays in the gut wall; long reflex: goes through the CNS",
+ "vagovagal": "Example: receptive relaxation of the stomach",
+ "vip-parassimpatico": "VIP and NO are the main inhibitory (relaxing) enteric transmitters",
+ "vip-distensao": "Distension relaxes the segment ahead of the bolus through VIP",
+ "no-relaxa": "NO acts through cGMP in smooth muscle",
+ "serotonina-peristalse": "Mucosal 5-HT release starts the peristaltic reflex",
+ "esfincter-distensao": "The sphincter opens as the bolus arrives, part of the peristaltic reflex",
+ "piloro-regulacao": "Antral wave opens the pylorus; acid or fat in the duodenum closes it",
+ "varicosidades-dilatacoes": "No true neuromuscular junction: transmitter spreads to many cells",
+ "varicosidades-transmissores": "ACh excites gut smooth muscle; norepinephrine inhibits it",
+ "juncoes-comunicantes-sincronia": "Gap junctions make GI smooth muscle work as a single unit",
+ "sem-troponina-troponina": "Smooth muscle: Ca2+ binds calmodulin; skeletal muscle: Ca2+ binds troponin C",
+ "ca-remocao": "Relaxation also needs myosin light chain phosphatase",
+ "m3-liso": "M3 is Gq: IP3 releases Ca2+ from the sarcoplasmic reticulum",
+ "rho-quinase": "Ca2+ sensitization: more force without more Ca2+",
+ "cpi17": "Both RhoA/ROK and PKC/CPI-17 keep myosin phosphorylated by blocking the phosphatase",
+}

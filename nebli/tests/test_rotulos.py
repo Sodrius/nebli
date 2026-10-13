@@ -8,6 +8,14 @@ class RotulosTests(unittest.TestCase):
         self.assertEqual(rotulos.canonical("NEBLI (9)::Grand Round 2 (diabetes mellitus) (67)"),
                          "NEBLI::Grand Round 2 (diabetes mellitus)")
         self.assertFalse(rotulos.labeled("NEBLI::Grand Round 2 (diabetes mellitus)"))
+        self.assertEqual(rotulos.canonical("NEBLI (12|10|5)::Grand Round 2 (diabetes mellitus) (7|6|3)"),
+                         "NEBLI::Grand Round 2 (diabetes mellitus)")
+
+    def test_total_unsuspended_and_available_new_roll_up(self):
+        decks = {1: "NEBLI", 2: "NEBLI::A", 3: "NEBLI::B"}
+        steps, _ = rotulos.plan(decks, {2: 5, 3: 3},
+                                home_stats={2: (4, 2), 3: (1, 1)})
+        self.assertEqual(steps, [(1, "NEBLI (8|5|3)"), (2, "A (5|4|2)"), (3, "B (3|1|1)")])
 
     def test_totals_add_up_the_branch_and_go_parent_first(self):
         decks = {1: "NEBLI", 2: "NEBLI::UC03", 3: "NEBLI::UC03::Micro", 4: "NEBLI::UC03::Pato",
