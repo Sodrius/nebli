@@ -135,5 +135,15 @@ class GatesTests(unittest.TestCase):
             self.assertFalse(result["canais que Davi acompanha: pelo menos 3 aulas com transcrição lida"])
 
 
+    def test_frontier_cases_required_only_with_percurso(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            run = Path(tmp)
+            self.assertIsNone(gates.frontier_cases(run))
+            (run / "percurso-aula.md").write_text("# Percurso\n\n| Bloco |\n")
+            self.assertFalse(gates.frontier_cases(run)[1])
+            (run / "percurso-aula.md").write_text("# Percurso\n\n## Casos de fronteira\n\nnenhum\n")
+            self.assertTrue(gates.frontier_cases(run)[1])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -438,3 +438,58 @@ claude tava montando, mas acabou os tokens”. **Ação:** Codex assume a corrid
 - **F-20261013-CODEX-04 — revisão da granulomatosa reprovada durante a execução.** Literal: “ficou zuado o de granulomatosa
 pensa se está dando para realmente passar por toda a aula com esse deck, para rever os conceitos e manter a longo prazo
 ficaram coisas away, faltaram outro conceitos centrais, não excluiu os cards, só suspendeu, e não mudou os números de cada card”. **Correção exigida:** reconstruir a progressão e cobertura dos conceitos centrais contra todas as lâminas, excluir de fato as notas descartadas com backup e sem apagar compartilhadas, e conferir numeração viva após as exclusões. A redução anterior 125→67 não foi aceita nem entregue.
+
+  **Conclusão em 13/10:** granulomatosa foi reconstruída para 42 notas próprias/45 cards e 5 compartilhadas/6 cards, com 68 notas próprias removidas de fato e backup de notas, cards e revisões; associações compartilhadas foram retiradas sem apagar a origem. Ordem viva, Tabs 51/51 e gates 56/56 conferidos. A 62 foi concluída em seguida com 27 notas próprias/30 cards e 6 compartilhadas/9 cards, Tabs 39/39 e gates 56/56. Em ambas, a progressão começa pelo mecanismo que explica os casos; exemplos clínicos ficaram nos Extras, exceto aplicação explicitamente cobrada em prova.
+
+- **F-20261013-CODEX-05 — nova revisão da Inflamação crônica.** Literal: “crÔnica sobrou algumas coisas, faltou outras, alguns cards mal escritos / revê / ajusta para ter lógica e para me ajudar a realmente decorar o que mais importa”. **Aplicação:** reler fontes e deck vivo como uma sequência de aprendizagem; juntar causas repetitivas pelo mecanismo, preencher relações centrais ausentes, reescrever frentes vagas e retirar de fato notas redundantes com backup. A revisão só fecha após leitura da ordem viva e Tabs atualizados.
+
+- **F-20261013-CODEX-06 — auditoria completa da Inflamação crônica contra as fontes.** Literal: “revê se tudo foi coberto, com qualidade e reveja para ver se bate com os materiais extras, como prova, slide e robbins”. **Aplicação:** confronto item a item com as duas versões de lâminas, exercícios, provas antigas, monitoria, apostila e Robbins; correção de lacunas reais em sistema fagocítico mononuclear, longevidade do macrófago, mastócitos, eotaxina, neutrófilos no tabagismo e MALT; releitura da ordem viva e regeneração dos Tabs. Resultado documentado em `arquivos-trabalho/deck-aula-uc03-pt62-inflamacao-cronica-2026-10-13/REVISAO-DE-QUALIDADE.md`.
+
+
+- **F-20261014-CODEX-01 — X para avaliar Tab; percurso completo e cards organizadores.** Literal:
+
+> ideia: ao invés de clicar duas vezes no tab, quero marcar um tab ruim com x quando o tab estiver aberto (x duas vezes tira a marcação de ruim)
+>
+> para planejar:
+> também quero explorar outra ideia: cards + tabs devem ser uma explicação completa e contínua da aula
+> quero ver a videoaula, ler os tabs, fazer os cards e sair com boa noção de tudo. digo, o tab pode ir um pouco mais fundo que o card e tem que haver um planejamento para que o deck + tab me ajude a ter passado por tudo com mais profundidade na parte do ciclo básico do que a própria aula (+ alguns detalhes do clínico)
+>
+> ideias: às vezes, sei o processo e preciso saber o nome de estruturas importantes. exemplo:
+> na inflamação crÔnica destaca-se
+> Cicatriz
+> Infiltrado mononuclear
+> Destruição tissular
+>
+> Nesse tipo de situação, em que há uma tríade de informações relacionadas, cabe bem um card assim:
+>
+> A tríade característica da inflamação crônica é constituída por:
+>
+> C {{c2:cicatriz}}
+> I {{c1:infiltrado mononuclear}}
+> D  {{c2:destruição tissular}}
+>
+> entenda que isso é um card que vai me ajudar a organizar as ideias da aula na cabeça, além de saber o processo, o que é importante também
+> ajuda a ter uma visão geral e a decorar coisa
+> ENTENDA PROFUNDAMENTE O QUE QUERO DIZER, APLICA AS IDEIAS E PLANEJA O PLANO PARA REALMENTER SER ALGO VIÁVEL
+
+**Aplicação:** atalho X reversível no leitor e cancelamento reconhecido pelo comando `ruins`; preferências reescritas no MEMORY, prompt e roteiro. Plano operacional em `PLANO-CARDS-TABS.md`, com piloto proposto na 62 e limites técnicos explícitos. Nenhuma reescrita em massa de decks ou geração de Tabs por este planejamento.
+
+- **F-20261014-CLAUDE-01 — replanejar a continuação; 62 apagada; revisão final.** Literal: “replaneja a continuação da geração de decks do anki, para seguirmos fazendo vários / integra os vários feedbacks que dei em sessões anteriores, erros recorrentes e coisas que são prioridade (completude do deck, organização das ideias, profundidade e qualidade dos cards autorais) / […] deixa pronto para eu continuar a geração com qualidade de outra sessão / adiciona no plano uma revisão final depois de geramos todos os decks / a próxima aula que deve ser gerada é inflamação crônica, que ficou ruim e apaguei”. **Aplicação:** `flashcards/projeto/PLANO-CONTINUACAO-DECKS.md` (diagnóstico com evidência da 62 apagada: cloze de paráfrase, nomes no Extra, repetição, falta de organizadores; controles C1–C7 por aula; briefing da 62; fila com a P3 antes das aulas antigas, como suposição; revisão final do conjunto). ESTADO-ATUAL aponta para o plano. Nenhuma alteração no Anki nesta sessão.
+
+- **F-20261014-CODEX-02 — ajustes do plano pelo chat.** Respostas literais: ao piloto na 62, “não, claude tá trabalhando em outra sessão”; profundidade, “Cards também cobram parte do aprofundamento extra”; coexistência de organização e mecanismo, “Sim, quando houver ganho claro, sem quota”; critério do extra (explicar/prever fenômenos, distinguir conceitos importantes ou fixar estrutura/nome essencial; curiosidades no Tab ou fora), “Sim, esse critério”. Não iniciar piloto concorrente; preparar prompt para a sessão Claude respeitando sua aula reivindicada. Ordem e agrupamento de clozes ainda em consulta neste registro.
+
+**Complemento F-20261014-CODEX-02:** ordem, “Prefiro seguir estritamente a ordem dos slides”; clozes, “Sim, decidir pelo que preciso recuperar”. Sobre o critério do aprofundamento: “respondi isso, mas pode ir um pouco mais, na realidade”. O critério anterior não é limite exaustivo; amplitude adicional em calibração.
+
+- **F-20261014-CLAUDE-02 — refinamento, não reformulação; aprofundamento extra mais amplo; casos de fronteira.** Literal (trechos):
+
+> IMPORTANTE: REFINAMENTO, NÃO REFORMULAÇÃO. Estou gostando dos resultados atuais e quero manter muito do que construímos: estilo dos cards, seleção, mecanismos, organização, fontes e critérios de qualidade. Este pedido não é motivo para reescrever tudo, aumentar indiscriminadamente os decks ou transformar cada Tab em um capítulo. Use a forma atual como base e faça mudanças proporcionais às lacunas reais.
+>
+> Quero também APRENDER com o deck e os Tabs, complementarmente à videoaula: compreender, organizar as ideias, memorizar nomes importantes e aprofundar o ciclo básico.
+>
+> Cards + Tabs devem formar um percurso completo e contínuo, seguindo ESTRITAMENTE A ORDEM DOS SLIDES. Não antecipe nem reagrupe blocos. Retome brevemente os pré-requisitos no ponto de uso. Completude é propriedade do conjunto. Cada card pode continuar pequeno e focal. Aprofunde o ciclo básico além da exposição oral, com apoio nas fontes. Inclua alguns detalhes clínicos pertinentes, mantendo o foco no básico.
+>
+> O extra não precisa se limitar ao que tem aplicação imediata, explica outro fenômeno ou cai em prova. Também quero conhecer bem o assunto. Pode haver detalhes básicos relevantes que completem essa formação. Isso não significa esgotar o livro. Avalie pertinência, importância e custo de revisão. Evite curiosidades isoladas, enumerações sem propósito e invasão de temas com aula própria. Registre casos de fronteira para calibrarmos a profundidade.
+>
+> Cards de organização podem coexistir com cards de mecanismo quando houver ganho próprio, sem quota. Entender um processo não garante lembrar os nomes das partes nem a composição de um conjunto.
+
+**Aplicação:** MEMORY §2 (“Para que serve” reescrito: quatro funções de card, completude do conjunto, critério do extra ampliado com filtro de pertinência/importância/custo, casos de fronteira, refinamento e não reformulação) e §3 (bullet do detalhe reescrito no lugar); PLANO-CARDS-TABS (resultado desejado e seção “Casos de fronteira” no `percurso-aula.md`); roteiro passos 2 e 5; `config/explicacao-tab.md` (Tab não vira capítulo; muda a versão do estilo, Tabs antigos seguem válidos). Check novo: `nebli.gates` exige a seção “Casos de fronteira” quando a corrida tem `percurso-aula.md`. A corrida da 62 (outra sessão Claude ativa) não foi tocada; aviso no ESTADO-ATUAL. Nenhuma alteração no Anki.

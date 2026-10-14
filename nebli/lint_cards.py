@@ -50,9 +50,11 @@ def check(key, text_html, extra_html=""):
     """Lista de (gravidade, problema). 'dura' reprova; 'aviso' pede olhar."""
     text = plain(CLOZE.sub(lambda m: m.group(2), text_html))
     problems = []
+    organizacao = 'data-nebli-organizacao="true"' in text_html
+    pista_cid = organizacao and 'data-nebli-pista="CID"' in text_html
     if ";" in text:
         problems.append(("dura", "';' junta duas afirmações: dividir em cards ou reescrever numa frase só"))
-    if re.search(r"(?<!\d):(?!\d)", text):
+    if re.search(r"(?<!\d):(?!\d)", text) and not organizacao:
         problems.append(("dura", "':' na frente: AnKing escreve frase corrida, sem rótulo nem dois pontos (F-20261001-CLAUDE-16)"))
     words = len(text.split())
     if words > MAX_WORDS:
@@ -60,7 +62,7 @@ def check(key, text_html, extra_html=""):
     clozes = {m.group(1) for m in CLOZE.finditer(text_html)}
     if len(clozes) > MAX_CLOZES:
         problems.append(("aviso", f"{len(clozes)} clozes: vira lista; preferir um nome por card"))
-    if portuguese(text):
+    if portuguese(text) and not pista_cid:
         problems.append(("dura", "frente em português (novos cards em inglês)"))
     if text and not re.search(r"<(?:b|strong)\b", text_html or "") and not re.search(r"\{\{c\d+::\s*<(?:b|strong)\b", text_html or ""):
         problems.append(("dura", "sem negrito: AnKing negrita 1–3 termos de contexto (95% das notas, mediana 2; F-20261011-CLAUDE-01)"))

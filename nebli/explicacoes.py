@@ -413,6 +413,10 @@ def bad_tabs(log_path=None, db=None):
             continue
         if event.get("evento") == "tab_ruim" and event.get("card") is not None:
             marked[int(event["card"])] = event
+        elif event.get("evento") == "tab_ruim_desfeito" and event.get("card") is not None:
+            cid = int(event["card"])
+            if marked.get(cid, {}).get("explicacao") == event.get("explicacao"):
+                marked.pop(cid, None)
     if not marked:
         print("Nenhum Tab marcado como ruim.")
         return []

@@ -1,7 +1,7 @@
 """NEBLI — explicação do card com Tab (Anki desktop).
 
 No verso do card, Tab mostra num balão flutuante a explicação daquele card; Tab de novo
-enquanto o balão está aberto marca essa explicação como ruim e fecha. Outra tecla só fecha
+fecha o balão. X com o balão aberto marca/desmarca essa explicação como ruim. Outra tecla só fecha
 (a tecla de resposta responde na mesma hora). Uma explicação por
 card (irmãos de cloze têm a sua), lida de user_files/explicacoes.sqlite, que é
 gerada fora do Anki por `python -m nebli.explicacoes gerar`. Nada vai para a coleção.
@@ -106,17 +106,45 @@ def _close_popup(*_args):
         reviewer.web.eval("var n=document.getElementById('nebli-tab'); if(n) n.remove();")
 
 
-def _mark_bad_and_close():
+def _is_bad(cid, digest):
+    path = USER / "tab-log.jsonl"
+    marked = False
+    if path.exists():
+        for line in path.read_text(encoding="utf-8").splitlines():
+            try:
+                event = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if event.get("card") == cid and event.get("explicacao") == digest:
+                if event.get("evento") in ("tab_ruim", "tab_ruim_desfeito"):
+                    marked = event["evento"] == "tab_ruim"
+    return marked
+
+
+def _show_bad_state():
+    reviewer = _reviewer()
+    if reviewer:
+        label = "Marcado como ruim · X desfaz" if _popup.get("ruim") else "X marca como ruim"
+        reviewer.web.eval("(function(){var n=document.getElementById('nebli-tab');if(!n)return;"
+                          "var s=document.getElementById('nebli-tab-status');"
+                          "if(!s){s=document.createElement('div');s.id='nebli-tab-status';"
+                          "s.style.cssText='font-size:13px;margin-top:10px';n.appendChild(s);}"
+                          "s.textContent=" + json.dumps(label) + ";})();")
+
+
+def _toggle_bad():
     if not _popup["open"]:
         return
     reviewer = _reviewer()
     if reviewer and reviewer.card and reviewer.card.id == _popup["card"]:
-        _tab_event("tab_ruim", card=_popup["card"], nota=_popup["nota"],
+        bad = not _popup.get("ruim", False)
+        _tab_event("tab_ruim" if bad else "tab_ruim_desfeito", card=_popup["card"], nota=_popup["nota"],
                    deck=_popup["deck"], achou=_popup["achou"],
                    explicacao=_popup["explicacao"])
         from aqt.utils import tooltip
-        tooltip("Explicação marcada como ruim para revisão.")
-    _close_popup()
+        _popup["ruim"] = bad
+        _show_bad_state()
+        tooltip("Explicação marcada como ruim para revisão." if bad else "Marcação de ruim removida.")
 
 
 def _toggle():
@@ -125,7 +153,7 @@ def _toggle():
         if not reviewer or reviewer.state != "answer":
             return
         if _popup["open"]:
-            _mark_bad_and_close()
+            _close_popup()
             return
         card = reviewer.card
         row = _lookup(card)
@@ -137,6 +165,8 @@ def _toggle():
         _popup["deck"] = card.did
         _popup["achou"] = found
         _popup["explicacao"] = hashlib.sha256((row[1] or "").encode("utf-8")).hexdigest()[:16] if row else None
+        _popup["ruim"] = _is_bad(card.id, _popup["explicacao"])
+        _show_bad_state()
         _tab_event("abriu", card=card.id, nota=card.nid, deck=card.did,
                    achou=found, explicacao=_popup["explicacao"])
     except Exception:
@@ -148,6 +178,9 @@ class _TabKey(QObject):
         if event.type() != QEvent.Type.KeyPress or event.isAutoRepeat():
             return False
         active = QApplication.activeWindow() is mw and _reviewer()
+        if active and _popup["open"] and event.key() == Qt.Key.Key_X and not event.modifiers():
+            _toggle_bad()
+            return True
         if event.key() == Qt.Key.Key_Tab and not event.modifiers() and active:
             QTimer.singleShot(0, _toggle)
             return True  # Tab não passa adiante (no Anki ele só mudaria o foco)

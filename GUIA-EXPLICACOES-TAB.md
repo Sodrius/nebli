@@ -1,6 +1,6 @@
 # Explicação do card com Tab (Anki)
 
-Você está revisando no Anki, vira um card que errou ou não entendeu e aperta **Tab**. Aparece, num balão flutuante na parte de baixo da tela, por cima do card, a explicação com fonte de 21 px: do conceito básico até a resposta, e como isso se encaixa na aula. **Tab novamente, enquanto o balão está aberto, marca essa explicação como ruim e fecha.** Outra tecla apenas fecha; se for tecla de resposta, o card é respondido na mesma hora. A reprovação fica no `tab-log.jsonl` com o ID do card e uma assinatura da versão da explicação, para revisão posterior.
+Você está revisando no Anki, vira um card que errou ou não entendeu e aperta **Tab**. Aparece, num balão flutuante na parte de baixo da tela, por cima do card, a explicação com fonte de 21 px: do conceito básico até a resposta, e como isso se encaixa na aula. **Tab novamente fecha. X com o balão aberto marca a explicação como ruim; X novamente desfaz, mantendo o texto aberto.** A indicação aparece no balão e persiste quando ele é reaberto. Outra tecla apenas fecha; se for tecla de resposta, o card é respondido na mesma hora. A reprovação fica no `tab-log.jsonl` com o ID do card e uma assinatura da versão da explicação, para revisão posterior.
 
 - **Uma explicação por card.** Irmãos de cloze da mesma nota têm explicações diferentes, cada uma focada no que aquele card esconde.
 - **Nada muda nos seus cards.** As explicações ficam num arquivo do add-on, fora da coleção. Não sincronizam, não aparecem no editor e não mexem no agendamento.
@@ -11,15 +11,7 @@ Funciona hoje no **Anki para computador** (Mac, Windows, Linux). No AnkiDroid/ta
 
 ## Formato da explicação
 
-**Padrão ativo desde 12/10:** quatro blocos presentes e úteis, na ordem **Básico → Explicação → Na aula → Não confundir**. O primeiro define o que faltou para entender a pergunta; o segundo constrói a resposta por mecanismo ou relação; o terceiro mostra a função daquela ideia na aula; o quarto distingue uma alternativa realmente confundível. [Três exemplos editoriais](../Documents/NEBLI-investigacao-2026-10-11/GUIA.md). O gerador aplica o estilo novo à aula que está sendo produzida e seus cards compartilhados. Os Tabs antigos continuam visíveis; o resumo os chama de desatualizados até a atualização por aula. Não há regeneração geral automática.
-
-Formato das explicações anteriores, em português (legado que permanece visível até a atualização daquela aula):
-
-> **Base:** o conceito básico de que a resposta depende.
-> **Por quê:** a cadeia causal da base até a resposta, em poucos passos.
-> **Na aula:** onde isso se encaixa na aula (o nome do deck).
-> **Liga com:** algo que você **já estudou** em outro card (só aparece quando existe).
-> **Não confundir:** só quando há uma confusão clássica.
+**Padrão vigente:** texto corrido em português, de 2–4 parágrafos, do princípio necessário até a resposta. Cards + Tabs são planejados como percurso: mecanismos, nomes, organização e aprofundamento do ciclo básico. Cada Tab deve funcionar isoladamente e contribuir para a leitura contínua. Estilo em `config/explicacao-tab.md`; procedimento em `flashcards/projeto/PLANO-CARDS-TABS.md`. Textos antigos permanecem visíveis; atualizar por aula, sem regeneração geral automática.
 
 Em card clínico, a explicação vai do fundamento (anatomia, fisiologia, micro, farmaco) até o achado ou efeito que o card cobra. Quando o card parece errado ou não oferece contexto suficiente, ele não é explicado: aparece "Card marcado para revisão", com o motivo.
 
@@ -79,7 +71,7 @@ O comportamento padrão tenta a assinatura do Claude e, se ela atingir o limite,
 
 ## Mudar o estilo
 
-O estilo ativo é o arquivo [`config/explicacao-tab.md`](config/explicacao-tab.md); a versão anterior foi preservada em `arquivo/2026-10-12-tab-estilo-legado.md`. O próximo `gerar '"tag:NEBLI::<aula>"'` atualiza só os cards daquela aula, inclusive compartilhados. `python3 -m nebli.explicacoes ruins` mostra os Tabs reprovados pelo segundo toque de Tab que ainda não foram reescritos. Ler o texto e a fonte ao corrigi-los; uma alteração automática de palavras não resolve necessariamente a dúvida.
+O estilo ativo é o arquivo [`config/explicacao-tab.md`](config/explicacao-tab.md); a versão anterior foi preservada em `arquivo/2026-10-12-tab-estilo-legado.md`. O próximo `gerar '"tag:NEBLI::<aula>"'` atualiza só os cards daquela aula, inclusive compartilhados. `python3 -m nebli.explicacoes ruins` mostra os Tabs reprovados com X que ainda não foram reescritos. Ler o texto e a fonte ao corrigi-los; uma alteração automática de palavras não resolve necessariamente a dúvida.
 
 ## Onde ficam as coisas
 

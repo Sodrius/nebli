@@ -391,6 +391,18 @@ def final_review(run):
     return label, bool(ok and data.get("feita_depois_de_instalar") is True)
 
 
+def frontier_cases(run):
+    """F-20261014-CLAUDE-02: “Registre casos de fronteira para calibrarmos a profundidade.”
+    Só vale para corridas com percurso-aula.md (PLANO-CARDS-TABS); a seção pode dizer “nenhum”."""
+    path = run / "percurso-aula.md"
+    if not path.exists():
+        return None
+    text = path.read_text(encoding="utf-8")
+    ok = any(line.lstrip("#").strip().lower().startswith("casos de fronteira")
+             for line in text.splitlines() if line.startswith("#"))
+    return ("percurso-aula.md: seção “Casos de fronteira” (profundidade em dúvida, decisão e motivo)", ok)
+
+
 def card_review(run, plan):
     """F-20261003-CLAUDE-15: "sinto que ainda falta a revisão final do deck". Cada card do deck vivo (notas da aula e
     compartilhados) é lido depois de instalar e recebe veredito em revisao-final.json["cards"][chave]:
@@ -566,6 +578,9 @@ def plan_checks(run, plan):
     out.append(inventory(run, plan))
     out.append(planning(run))
     out.append(final_review(run))
+    frontier = frontier_cases(run)
+    if frontier:
+        out.append(frontier)
     out.append(card_review(run, plan))
     out += past_errors(plan)
     out.append(specific_extras(plan))

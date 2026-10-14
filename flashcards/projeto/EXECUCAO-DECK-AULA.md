@@ -1,4 +1,4 @@
-# Como fazer um deck-aula (roteiro vigente, 13/10/2026)
+# Como fazer um deck-aula (roteiro vigente, 13/10/2026; ajustes de 14/10)
 
 As preferências estão no [MEMORY](../../MEMORY.md); este arquivo diz **como** executá-las, na ordem. Um pedido curto de Davi (“faz a aula X”, “continua”) roda tudo isto até a entrega, sem agente e sem parar para aprovação. Versão anterior: `arquivo/2026-10-13-reorganizacao/flashcards/projeto/EXECUCAO-DECK-AULA.md`.
 
@@ -20,7 +20,8 @@ Molde técnico de referência (correlação de imagens, feita direto, 56/56): `a
 
 1. Cronograma e aulas vizinhas → no `spec.py`, o **mapa obrigatório** `ESCOPO = {"objetivo": ..., "centrais": [("conceito", "chave-do-princípio", "detalhe1", ...)], "exemplos": [...], "outras_aulas": [("subtema", "aula")]}`. O `pre` reprova sem ele, aponta conceito central sem card e detalhe que vem antes do seu princípio (modelo na corrida da 06). Princípio dado em aula anterior entra como `sh-<nid>`. Conferir decks vizinhos vivos (o que já existe entra por `sh()`).
 2. `inventario.py`: cada lâmina com conteúdo → itens atômicos, cada um apontando para a chave do card, `sh-<nid>` ou `EXC: motivo` (capa, ilustração, repetição, outra aula citada pelo nome). `CAPITULO` (livro) e `EXERCICIOS` (provas, monitoria, apostila, palavras-cruzadas) também: item de prova/material da aula sempre aponta para card.
-3. Antes de buscar, responder por escrito no mapa: quais princípios esta aula precisa que Davi recupere antes dos detalhes (o que é, para que serve, como funciona em geral)? Cada um terá card próprio, antes dos detalhes. Exemplo que é só ilustração vai em `exemplos` (sem card ou só uma linha no Extra). Detalhe só entra se a aula o ensina como alvo ou a prova cobra; profundidade de ciclo básico (sem semiologia, conduta ou fisiopatologia elevada).
+3. Antes de buscar, criar `percurso-aula.md` usando [PLANO-CARDS-TABS](PLANO-CARDS-TABS.md): uma linha por bloco, com fontes, capacidades recuperáveis (mecanismo, nomes, organização), chaves dos cards, conteúdo que só precisa de explicação, aprofundamento e ponte seguinte. Não criar card só para hospedar um Tab. O gerador atual não lê esse arquivo: conferir e ajustar o texto final com o plano em mãos.
+4. Antes de buscar, responder por escrito no mapa: quais princípios esta aula precisa que Davi recupere antes dos detalhes (o que é, para que serve, como funciona em geral)? Cada um terá card próprio, antes dos detalhes. Exemplo que é só ilustração vai em `exemplos` (sem card ou só uma linha no Extra). Detalhe entra se a aula o ensina como alvo, a prova cobra ou é aprofundamento básico relevante (MEMORY §2: pertinência, importância, custo de revisão); dúvida vai para **Casos de fronteira** no `percurso-aula.md`. Profundidade de ciclo básico (sem semiologia, conduta ou fisiopatologia elevada). Refinar a forma atual, não reformular: mudanças proporcionais às lacunas reais.
 
 ## 3. Buscar e selecionar (MEMORY §5)
 
@@ -32,7 +33,7 @@ Molde técnico de referência (correlação de imagens, feita direto, 56/56): `a
 - `ak()` para AnKing (flags por cloze; HY 1–2 verde ou `hy_repete`/`clinica_lateral`), `au()` para autoral (2–3 `espelhos`, `autoria`, motivo da cor), `sh()` para compartilhado. Ordem = lâminas.
 - Imagens: recortar da fonte certa para `img/`, ver o recorte (montagem em `visual/`) e declarar `IMAGENS_VISTAS = {"arquivo.png": "o que mostra e por que ensina"}`. Cortar títulos que entreguem a resposta.
 - `VERSO` para dar linha curta a card sem texto no verso; `DUPLICACAO` para resposta coincidente com ganho próprio; `slide_sem_alternativa` quando a imagem do caso da aula é o objetivo.
-- **Revisão do núcleo antes de rodar:** ler a lista de alvos contra o mapa do passo 2. Faltou conceito organizador? Algum exemplo virou card sem motivo? Cor por ganho, sem quota?
+- **Revisão do núcleo antes de rodar:** conferir também conjuntos organizadores (tríades, classificações, estruturas importantes); usar card de organização quando recuperar o conjunto traz ganho próprio, documentado em `DUPLICACAO` se necessário. Ler a lista de alvos contra o mapa do passo 2. Faltou conceito organizador? Algum exemplo virou card sem motivo? Cor por ganho, sem quota?
 
 ## 5. Comandos (saída só com falhas)
 
@@ -40,7 +41,7 @@ Molde técnico de referência (correlação de imagens, feita direto, 56/56): `a
 python3 -m nebli.artefatos pre <corrida>          # build, planejamento, ext.txt, imagens vistas, fontes, inventário, lint, pré-gate
 python3 <corrida>/apply.py                         # instala sob o lock (só notas novas; sync adiado se Davi estiver revisando)
 python3 -m nebli.artefatos suspender <corrida>    # só aula antiga (MEMORY §10)
-python3 -m nebli.artefatos tab <corrida>          # em segundo plano; depois ler as 3 amostras que ele mostra
+python3 -m nebli.artefatos tab <corrida>          # em segundo plano; depois ler todos os Tabs junto dos cards, na ordem do percurso
 python3 -m nebli.artefatos despejo <corrida>      # ler o deck vivo inteiro, card a card
 python3 -m nebli.artefatos pos <corrida> --li-despejo [--corrigidos k1,k2]
 python3 -m nebli.artefatos entrega <corrida> --pasta "UC03/<Comp>/<NN - Aula>" --nome "<Aula>" --slides <arquivo na pasta pessoal>
@@ -48,7 +49,8 @@ python3 -m nebli.artefatos entrega <corrida> --pasta "UC03/<Comp>/<NN - Aula>" -
 
 - `pre` só pode falhar nos passos de pós-instalação. Lint com reprovação dura, ISSUES no build ou item de prova sem card: corrigir o spec e rodar de novo.
 - **Leitura do despejo** (o julgamento final): frente natural, cloze certo, resposta vazada, imagem certa e legível, cor coerente com o motivo, Extra útil, erro do AnKing herdado. Corrigir no spec → `python3 build.py --delta` → `python3 -m nebli.delta <corrida>` → Tab de novo para os alterados. Notas da leitura em `REVISAO = {"chave": "o que foi conferido"}` no spec.
-- `REVISAO-DE-QUALIDADE.md` à mão, curto: deck, contagens, objetivo e mapa de escopo, fontes, decisões de escopo/cor, imagens, Tab, perguntas a Davi.
+- **Aceitação do percurso:** em `percurso-aula.md`, preencher evidência de cada bloco: card/irmão que recupera cada alvo, Tab que explica as relações e fonte que sustenta o aprofundamento. Conferir leitura sequencial e autonomia de cada Tab, sobretudo irmãos/compartilhados. Contagem de Tabs não comprova continuidade.
+- `REVISAO-DE-QUALIDADE.md` à mão, curto: deck, contagens, objetivo e mapa de escopo, fontes, decisões de escopo/cor, imagens, Tab, casos de fronteira de profundidade, perguntas a Davi.
 - `entrega` republica `NEBLI - UCxx.apkg`, sincroniza (ou adia se Davi estiver revisando) e roda os gates completos: 100% para entregar.
 
 ## 7. Análise do deck-prova / deck-UC (quando a prova fecha ou a pedido)
