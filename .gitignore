@@ -127,3 +127,10 @@ arquivos-trabalho/**/slide-texto.md
 
 # Cópia de verificação do projeto (hash longo no caminho quebra clone no Windows; sem uso no Mac)
 arquivos-trabalho/reinicio-uc-2026-09-23/verificacao-git-*/
+
+# Backups Anki e mídia de aula (add 14/10/2026)
+arquivos-trabalho/ajustes-anki-2026-09-28/collection-before.anki2-wal
+arquivos-trabalho/ajustes-anki-2026-09-28/collection-before.anki2-shm
+arquivos-trabalho/*/video/
+arquivos-trabalho/*/fontes/pessoal/*.pptx
+arquivos-trabalho/*/fontes/pessoal/*.mp4
