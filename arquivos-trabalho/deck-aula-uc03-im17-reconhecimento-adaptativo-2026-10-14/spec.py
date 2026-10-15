@@ -140,3 +140,53 @@ ESCOPO = {
 }
 import re as _re
 CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): Abbas Básica cap. 4 (receptores antigênicos: anticorpos) lido; apostila guia Aula 3 e
+# monitoria P1 aula 3 conferidas (itens de seleção/recombinação da monitoria entram associados às aulas 18/45/49, rosa).
+_M3 = "Ajuste 15/10 noite (F-20261015-CLAUDE-05)."
+_MON = "Rosa: monitoria P1 aula 3 (recapitulação de seleção e recombinação); viva em outra aula. " + _M3
+CARDS += [
+ sh(1791625425082, "rosa", A_, "Só 5–10% dos timócitos sobrevivem", "3", _MON),
+ sh(1791625423932, "rosa", A_, "AIRE expõe antígenos próprios no timo", "3", _MON),
+ sh(1791625434632, "rosa", A_, "Treg natural (FOXP3) nasce no timo", "3", _MON),
+ sh(1791629587897, "rosa", A_, "Edição do receptor do B", "3", _MON),
+ sh(1791629589372, "rosa", A_, "RAG1 e RAG2 recombinam os genes", "3", _MON),
+ au("b-cinetica", "In a <b>primary response</b> antibodies appear only after about {{c1::10–12 days}}, whereas a secondary response produces IgG within about 3 days",
+    {1: R}, B_, "Cinética primária × secundária", "10", "lateral", NAO, EP, "Rosa: apostila guia Aula 3 cap. 2. " + _M3,
+    extra="- Memory B cells that already switched class explain the speed"),
+ sh(1791629598047, "azul", B_, "IgG domina a resposta secundária", "10", "Azul: apostila guia Aula 3 cap. 3 (resposta secundária). " + _M3),
+ au("c-isotipo", "The <b>antibody class</b>, or isotype, is defined by the constant region of the {{c1::heavy::heavy/light}} chain",
+    G(1), C_, "Cadeia pesada define a classe", "11; 12", "central", "AnKing não tem a regra geral (só isotipo no Fc); 15/10 noite.", EP, "Verde: Abbas cap. 4 e apostila guia Aula 3 cap. 2. " + _M3,
+    extra="- The five heavy chains are μ, δ, γ, ε and α"),
+ au("c-dominio-ig", "<b>Antibody chains</b> fold into repeated {{c1::immunoglobulin domains}}, β-sheet units also found in TCR, MHC and adhesion molecules",
+    {1: R}, C_, "Domínio de Ig e superfamília", "11", "lateral", NAO, EP, "Rosa: lâmina 11 (domínios) e Abbas cap. 4. " + _M3,
+    extra="- A light chain has one V and one C domain; a heavy chain has one V and three or four C domains"),
+ sh(1791629590722, "rosa", C_, "Região de dobradiça", "11", "Rosa: lâmina 11 e Abbas cap. 4 (região de junção dá flexibilidade aos Fab). " + _M3),
+ au("c-membrana", "The same <b>antibody</b> exists as a membrane BCR, anchored by the end of its {{c1::heavy}} chain, or as a secreted protein",
+    {1: Z}, C_, "Forma de membrana × secretada", "13", "central", NAO, EP, "Azul: Abbas cap. 4 e apostila guia Aula 3 cap. 2. " + _M3,
+    extra="- Light chains never anchor to the membrane; the TCR exists only on the membrane"),
+ au("c-igab", "<b>Membrane Ig</b> has a tiny cytoplasmic tail, so B-cell receptor signals are carried by the associated chains {{c1::Igα and Igβ}}",
+    {1: Z}, C_, "Igα e Igβ sinalizam o BCR", "13", "central", "consultas Igα/CD79 sem card (15/10 noite).", EP, "Azul: Abbas cap. 4 (complexo BCR). " + _M3,
+    extra="- On T cells, CD3 plays the same role for the TCR"),
+ au("c-cdr3", "Of the three hypervariable loops in each <b>variable region</b>, {{c1::CDR3}} is the most variable and contributes most to antigen binding",
+    {1: Z}, C_, "CDR3", "13", "central", "consulta CDR3 sem card (15/10 noite).", EP, "Azul: Abbas cap. 4 e apostila guia Aula 3 cap. 2. " + _M3,
+    extra="- It lies at the junction where gene segments were joined"),
+ sh(1792029316710, "azul", C_, "Epítopo", "13", "Azul: Abbas cap. 4; viva na 18. " + _M3),
+ au("c-conformacional", "<b>Antibodies</b> bind linear epitopes and also {{c1::conformational}} epitopes, formed by the folded shape of a protein",
+    {1: Z}, C_, "Epítopo linear × conformacional", "13", "central", NAO, EP, "Azul: Abbas cap. 4. " + _M3,
+    extra="- T cells see only linear peptides, since the protein is cut up before presentation"),
+ ak("ak-afinidade", 1487117112350, {1: V}, D_, "Afinidade", "15", "Verde: lâmina 15 (afinidade × avidez) e Abbas cap. 4. " + _M3,
+    extra_add="- Avidity is the total binding strength of all sites of one molecule"),
+ ak("ak-valencia", 1487117108862, {1: V}, D_, "Valência", "15", "Verde: Abbas cap. 4 (IgG 2, IgA 4, IgM 10 sítios); HY 1. " + _M3,
+    extra='<b>Avidity</b> refers to the <u>overall strength</u> of <u>all interactions combined</u> and is <u>dependent on</u>:<div>- <b>Affinity</b></div><div>- <b>Valence</b></div><div>- <b>Structural arrangement of all the parts</b></div><div><br><div>- e.g., IgM typically has a lower affinity than IgG, but a higher avidity due to more possible binding sites (10 binding sites)</div></div><br>- IgG has 2 binding sites, dimeric IgA 4 and pentameric IgM 10'),
+ au("d-reacao-cruzada", "Binding of an <b>antibody</b> to a structurally similar epitope on a different antigen is called {{c1::cross-reaction}}",
+    {1: Z}, D_, "Reação cruzada", "15", "central", NAO, [1484704852145, 1480564052470], "Azul: Abbas cap. 4. " + _M3,
+    extra="- Example: antistreptococcal antibodies that bind heart myosin in rheumatic fever"),
+ sh(1791629591820, "azul", D_, "IgA dímero com cadeia J", "14", "Azul: apostila guia Aula 3 cap. 2 (IgA dímero nas mucosas). " + _M3),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+CARDS.append(au("a-selecao-clonal", "Only the <b>lymphocyte</b> whose receptor binds the antigen proliferates into a clone with that same specificity, the principle of {{c1::clonal selection}}",
+    G(1), A_, "Seleção clonal (Burnet)", "5", "central", "consulta 'clonal selection' sem card do princípio (15/10 noite).", EP, "Verde: UC3.pdf p. 122 (teoria da seleção clonal, parte central da imunidade adaptativa) e bibliografia histórica (Burnet). " + _M3,
+    extra="- One antigen with several epitopes selects several clones (polyclonal response)"))
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+for _c_ in CARDS:
+    if _c_["key"] == "ak-pepsina": _c_["hy_repete"] = "papaína e pepsina: ak-papaina (verde) já cobra Fab/Fc; pepsina é o par"

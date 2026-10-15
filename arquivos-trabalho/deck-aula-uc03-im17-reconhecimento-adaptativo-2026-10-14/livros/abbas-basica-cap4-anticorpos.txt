@@ -1,0 +1,385 @@
+RECEPTORES ANTIGÊNICOS 
+DOS LINFÓCITOS
+Os receptores de antígenos dos linfócitos B e 
+T apresentam várias características que são 
+importantes para a função desses receptores 
+na imunidade adaptativa (Fig. 4-1). Embora 
+estes receptores possuam muitas semelhan-
+ças em termos de estrutura e mecanismos de 
+sinalização, existem diferenças fundamen-
+tais relacionadas com os tipos de estruturas 
+antigênicas que as células B e as células T 
+reconhecem.
+Os anticorpos da membrana plas-
+mática, que funcionam como receptores 
+antigênicos dos linfócitos B, podem re-
+conhecer uma gama muito mais ampla 
+de estruturas químicas que os recepto-
+res antigênicos das células T. Os recep-
+tores de antígenos dos linfócitos B e os anti-
+corpos que as células B secretam são capazes 
+de reconhecer formas ou conformações de 
+macromoléculas nativas, incluindo proteí-
+nas, lipídios, carboidratos e ácidos nucleicos, 
+bem como pequenos grupos químicos sim-
+ples. Esta ampla especificidade das células 
+B para tipos estruturalmente diferentes de 
+moléculas permite que os anticorpos reco-
+nheçam diversos patógenos e toxinas em 
+sua forma nativa. Em extremo contraste, a 
+maioria das células T vê apenas peptídeos, 
+e somente quando esses peptídeos são mos-
+trados nas células apresentadoras de antíge-
+no (APC, do inglês, antigen-presenting cells) 
+ligados a proteínas de membrana codificadas 
+pelo locus genético do complexo principal de 
+histocompatibilidade (MHC, do inglês, major 
+histocompatibility complex). Além do mais, as 
+células T são capazes de detectar os micror­
+ganismos associados a células (Cap. 3).
+Moléculas receptoras de antígenos 
+consistem em regiões (domínios) que 
+estão envolvidas no reconhecimento 
+antigênico – e, dessa forma, variam en-
+tre os clones dos linfócitos – e outras 
+regiões requeridas para a integridade 
+estrutural e para as funções efetoras – 
+e, portanto, são relativamente conser-
+vadas entre todos os clones. As porções 
+de reconhecimento antigênico entre os re-
+ceptores são chamadas regiões variáveis 
+(V), e as porções preservadas são as regiões 
+constantes (C). Mesmo em cada região V, a 
+maior parte da variabilidade das sequências 
+é concentrada em curtos trechos, que são 
+chamados de regiões hipervariáveis, ou re-
+giões determinantes da complementaridade 
+(CDR, do inglês, complementary-determining 
+regions), porque elas formam a parte do re-
+ceptor que se liga ao antígeno (i.e, elas são 
+complementares à estrutura dos antígenos). 
+Por concentrar sequências variáveis em pe-
+quenas regiões dos receptores é possível ma-
+ximizar a variabilidade da parte de ligação 
+ao antígeno, enquanto a estrutura básica dos 
+receptores é mantida. Conforme será dis-
+cutido posteriormente, existem mecanismos 
+especiais no desenvolvimento de linfócitos 
+para criar genes que codificam diferentes 
+regiões variáveis de proteínas receptoras 
+antigênicas em clones individuais.
+Cadeias receptoras antigênicas estão 
+associadas às proteínas da membrana 
+invariante, cuja função é fornecer sinais 
+intracelulares que são acionados pelo 
+reconhecimento do antígeno (Fig. 4-1). 
+Estes sinais, que são transmitidos para o ci-
+tosol e o núcleo, podem fazer com que um 
+linfócito divida-se, diferencie-se, ou, em cer-
+tas circunstâncias, morra. Assim, essas duas 
+funções dos receptores de antígenos dos 
+linfócitos – reconhecimento antigênico es-
+pecífico e sinal de transdução – são mediadas 
+por diferentes polipeptídeos. Isso novamente 
+permite a variabilidade a ser segregada em 
+um grupo de moléculas, os próprios recep-
+tores, enquanto deixa a função preservada 
+da transdução de sinal em outras proteínas 
+invariantes. O conjunto associado dos recep-
+tores de antígenos da membrana plasmática 
+e as moléculas sinalizadoras nos linfócitos 
+B é chamado de complexo receptor da 
+célula B (BCR, do inglês, B cell receptor), 
+e nos linfócitos T é chamada de complexo 
+receptor da célula T (TCR, do inglês, T 
+cell receptor). Quando as moléculas de an-
+tígeno se ligam aos receptores antigênicos 
+
+=== p.75
+FIGURA 4-1  Propriedades dos anticorpos e receptores de antígenos das células T (TCR).  Anticorpos 
+(também chamados de imunoglobulinas) podem ser expressos como receptores de membrana ou proteínas secretadas; TCR 
+funcionam apenas como receptores de membrana. Quando a imunoglobulina (Ig) ou as moléculas de TCR reconhecem antígenos, 
+sinais são liberados para os linfócitos pelas proteínas associadas aos receptores de antígenos. Os receptores de antígenos e as 
+proteínas sinalizadoras ligadas formam os complexos receptores da célula B (BCR) e TCR. Note que receptores de antígenos 
+únicos são exibidos reconhecendo antígenos, mas a sinalização tipicamente requer a ligação de dois ou mais receptores ligados 
+às moléculas antigênicas adjacentes. As características importantes dessas moléculas de reconhecimento antigênico estão 
+resumidas. APC, Célula apresentadora de antígenos; MHC, complexo principal de histocompatibilidade.
+
+=== p.76
+74	
+Capítulo 4 – Reconhecimento Antigênico no Sistema Imunológico Adaptativo
+dos linfócitos, as proteínas de sinalização 
+associadas aos complexos receptores são tra-
+zidas para a proximidade. Como resultado, 
+as enzimas ligadas à porção citoplasmática 
+das proteínas sinalizadoras catalisam a fos-
+forilação de outras proteínas. A fosforilação 
+desencadeia cascatas de sinalização comple-
+xas que culminam na ativação transcricional 
+de muitos genes e na produção de nume-
+rosas moléculas que medeiam a resposta 
+dos linfócitos. Retornaremos ao processo de 
+ativação dos linfócitos T e B nos Capítulos 5 
+e 7, respectivamente.
+Os anticorpos existem em duas for-
+mas, como receptores de antígenos liga-
+dos à membrana das células B ou como 
+proteínas secretadas, mas TCR existem 
+somente como receptores de membrana 
+nas células T. Anticorpos secretados estão 
+presentes no sangue e nas secreções das mu-
+cosas, onde eles agem para neutralizar e eli-
+minar microrganismos e toxinas (i.e., eles são 
+moléculas efetoras da imunidade humoral). 
+Anticorpos são também chamados de imu-
+noglobulinas (Ig), referindo-se a proteínas 
+que conferem imunidade com características 
+da mobilidade eletroforética lenta das glo-
+bulinas. Anticorpos secretados reconhecem 
+antígenos microbianos e toxinas por meio 
+de seus domínios variáveis da mesma manei-
+ra que os receptores de antígenos ligados à 
+membrana dos linfócitos B. As regiões cons-
+tantes de alguns anticorpos secretados têm a 
+capacidade de se ligar a outras moléculas que 
+participam da eliminação de antígenos: essas 
+moléculas incluem receptores de fagócitos 
+e proteínas do sistema complemento. As-
+sim, anticorpos têm diferentes funções em 
+diversos estágios na resposta da imunidade 
+humoral: anticorpos ligados à membrana nas 
+células B reconhecem antígenos e iniciam 
+a resposta imunológica humoral, e anti-
+corpos secretados neutralizam e eliminam 
+os antígenos e suas toxinas na fase efetora 
+dessa resposta. Na imunidade mediada por 
+células, a função efetora de eliminação dos 
+microrganismos é realizada pelos próprios 
+linfócitos T e por outros leucócitos que res-
+pondem às células T. Os receptores de antí-
+genos das células T estão envolvidos somente 
+no reconhecimento antigênico e na ativação 
+da célula T, e essas proteínas não medeiam as 
+funções efetoras e não são secretadas.
+Com esta introdução, descrevemos os 
+próximos receptores de antígenos dos linfó-
+citos, primeiramente falando dos anticorpos 
+e, então, dos TCR.
+Anticorpos
+Uma molécula de anticorpo é composta 
+de quatro cadeias polipeptídicas, in-
+cluindo duas cadeias pesadas (H) idên-
+ticas e duas cadeias leves (L) idênticas, 
+onde cada cadeia contém uma região va-
+riável e uma região constante (Fig. 4-2). 
+As quatro cadeias estão dispostas de modo a 
+formar uma molécula em forma de Y. Cada 
+cadeia leve está ligada a uma cadeia pesada, 
+e as duas cadeias pesadas estão ligadas uma à 
+outra por pontes dissulfeto. Uma cadeia leve 
+é composta por um domínio V e um C, e a 
+cadeia pesada, por um domínio V e três ou 
+quatro domínios C. Cada domínio se dobra 
+em uma forma tridimensional característica, 
+denominada domínio de imunoglobulina 
+(Fig. 4-2, D). Um domínio de Ig consiste em 
+duas camadas de folhas b pregueadas e uni-
+das por uma ponte dissulfeto. Os filamentos 
+adjacentes de cada folha b são conectados 
+por circuitos protuberantes curtos; em mo-
+léculas de Ig, estes circuitos compõem os 
+três CDR responsáveis pelo reconhecimento 
+do antígeno. Domínios de imunoglobulina 
+estão presentes em muitas outras proteínas 
+do sistema imune, bem como fora do sistema 
+imunológico, e a maioria das proteínas está 
+envolvida na resposta aos estímulos do meio 
+e de outras células. Todas essas proteínas são 
+consideradas membros da superfamília das 
+imunoglobulinas e podem ter desenvolvi-
+do-se de um gene ancestral comum.
+O local de ligação ao antígeno de um 
+anticorpo é composto das regiões V de 
+ambas as cadeias pesadas e leves, e o 
+núcleo na estrutura do anticorpo con-
+tém dois locais idênticos de ligação ao 
+antígeno (Fig. 4-2). Cada região variável da 
+cadeia pesada (chamada de VH) ou da cadeia 
+leve (chamada de VL) possui três regiões hi-
+pervariáveis, ou CDR. Dentre as três, a maior 
+variabilidade é encontrada na CDR3, que está 
+localizada na junção das regiões V e C. Con-
+forme esperado, CDR3 é também a porção 
+da molécula de Ig com maior contribuição 
+na ligação antigênica. Partes funcionalmente 
+distintas de moléculas de anticorpos foram 
+primeiramente identificadas com base em 
+fragmentos gerados por proteólise. O frag-
+mento de um anticorpo que contém uma ca-
+deia leve (apenas com domínios V e C) ligada 
+aos primeiros domínios V e C de uma cadeia 
+pesada contém a porção do anticorpo reque-
+rida para o reconhecimento antigênico, sen-
+do denominada Fab (fragmento de ligação 
+
+=== p.77
+	
+Capítulo 4 – Reconhecimento Antigênico no Sistema Imunológico Adaptativo	
+75
+do antígeno). Os de mais domínios C da ca-
+deia pesada formam a região Fc (fragmento, 
+cristalino); este fragmento tende a cristalizar 
+em solução. Em cada molécula de Ig há duas 
+regiões de Fab idênticas onde o antígeno se 
+liga e uma região Fc que é responsável pela 
+maioria das atividades biológicas e funções 
+efetoras dos anticorpos. (Como será visto 
+posteriormente, alguns anticorpos consistem 
+em duas ou cinco moléculas de Ig ligadas 
+umas às outras.) Entre as regiões Fab e Fc 
+da maioria das moléculas de anticorpo há 
+FIGURA 4-2  Estrutura dos anticorpos.  São exibidos os diagramas esquemáticos de A, uma molécula de imuno-
+globulina G (IgG), e B, uma molécula da forma de membrana da IgM, ilustrando os domínios das cadeias pesadas e leves e as 
+regiões da proteína que participam do reconhecimento antigênico e das funções efetoras. N e C referem-se às extremidades 
+aminoterminal e carboxiterminal das cadeias polipeptídicas, respectivamente. C, A estrutura cristalina de uma molécula de IgG 
+segregada ilustra os domínios e sua orientação espacial; as cadeias pesadas são de cores azul e vermelha, as cadeias leves são 
+verdes, e carboidratos são cinza. D, Um diagrama de fita do domínio V da Ig mostra a estrutura básica da folha b- pregueada 
+e os laços salientes que formam as três CDR. CDR, Regiões de determinação da complementariedade. (C cortesia do Dr. Alex 
+McPherson, University of California, Irvine.)
+
+=== p.78
+76	
+Capítulo 4 – Reconhecimento Antigênico no Sistema Imunológico Adaptativo
+uma região flexível chamada de região de 
+junção. A região de junção permite que duas 
+regiões Fab de ligação de antígenos de cada 
+molécula de anticorpo movam-se indepen-
+dentemente, possibilitando a elas ligarem-se 
+simultaneamente a epítopos antigênicos que 
+estão separados um do outro por distâncias 
+variadas. A região C-terminal da cadeia pe-
+sada pode estar ancorada na membrana plas-
+mática, como observado nos receptores das 
+células B, ou pode terminar em uma peça 
+final que não possui uma âncora de mem-
+brana, de modo que o anticorpo é produzido 
+como uma proteína secretada. As cadeias le-
+ves não são ligadas às membranas celulares.
+Os dois tipos de cadeias leves, chamadas 
+de k e l, diferem em suas regiões C. Cada cé-
+lula B expressa ou k ou l, mas não ambas. Há 
+cinco tipos de cadeias pesadas, chamadas m, d, 
+g, ε e a, que diferem nas suas regiões C. Cada 
+tipo de cadeia leve pode formar um com-
+plexo com qualquer tipo de cadeia pesada em 
+uma molécula de anticorpo. Anticorpos que 
+contêm diferentes cadeias pesadas perten-
+cem a diferentes classes ou isótipos, e são 
+denominados de acordo com a cadeia pesada 
+(i.e., IgM, IgD, IgG, IgE e IgA), independente-
+mente da classe da cadeia leve. Cada isótipo 
+difere nas suas propriedades físicas e bioló-
+gicas e nas suas funções efetoras (Fig. 4-3). 
+Os receptores de antígenos dos linfócitos B 
+virgens, que são células maduras, mas que 
+ainda não encontraram os antígenos, são a 
+IgM e a IgD ligadas à membrana. Após a es-
+timulação por antígenos e linfócitos T auxilia-
+res, o clone de linfócito B antígeno-específico 
+pode expandir-se e diferenciar-se em uma 
+progênie que secreta anticorpos. Algumas 
+progênies das células B que expressam IgM 
+e IgD podem secretar IgM, e outras progênies 
+das mesmas células B podem produzir anti-
+corpos de outras classes de cadeias pesadas. 
+Essa mudança na produção do isótipo da Ig 
+é chamada de troca da classe (ou isótipo) 
+da cadeia pesada; seu mecanismo e sua 
+importância serão discutidos posteriormente 
+no Capítulo 7. Embora as regiões C da cadeia 
+pesada possam ser trocadas durante a respos-
+ta imunológica humoral, cada clone de célula 
+B mantém a especificidade, porque as regiões 
+V não são alteradas. A classe da cadeia leve (k 
+ou l) também permanece inalterada durante 
+a vida de cada clone de célula B.
+Anticorpos são capazes de se ligar 
+a uma ampla variedade de antígenos, 
+incluindo macromoléculas e pequenas 
+moléculas químicas. A razão para isso é 
+que o circuito CDR de ligação ao antígeno 
+das moléculas do anticorpo podem-se jun-
+tar para formar fendas capazes de acomodar 
+pequenas moléculas ou para formar uma 
+superfície plana, que é capaz de acomodar 
+muitas moléculas maiores, incluindo partes 
+de proteínas (Fig. 4-4). Anticorpos ligam-se 
+aos antígenos por ligações não covalentes, 
+reversíveis, incluindo pontes de hidrogênio, 
+interações hidrofóbicas e interações com base 
+nas cargas. As partes dos antígenos que são 
+reconhecidas pelos anticorpos são chamadas 
+de epítopos, ou determinantes. Diferentes 
+epítopos de antígenos proteicos podem ser 
+reconhecidos baseando-se na sequência de 
+aminoácidos alongados (epítopos lineares) 
+ou na forma (epítopos conformacionais). 
+Alguns desses epítopos estão escondidos na 
+molécula antigênica e são expostos como um 
+resultado de uma alteração físico-química.
+A força com a qual uma superfície de liga-
+ção de antígeno se liga a um epítopo de um 
+antígeno é chamada de afinidade de intera-
+ção. A afinidade é frequentemente expressa 
+pela constante de dissociação (Kd), que é a 
+concentração molar requerida de um antígeno 
+para ocupar metade das moléculas de anti-
+corpo disponíveis em solução; quanto menor 
+a Kd, mais alta é a afinidade. A maioria dos 
+anticorpos produzidos em uma resposta imu-
+nológica primária possui uma Kd entre 10−6 
+e 10−9 M, mas com a repetida estimulação 
+antigênica (p. ex., em uma resposta imuno-
+lógica secundária) a afinidade aumenta para 
+uma Kd entre 10−8 e 10−11 M. Esse aumento 
+na força de ligação do antígeno é chamado 
+de maturação da afinidade (Cap. 7). Cada 
+molécula de anticorpo IgG, IgD e IgE tem dois 
+sítios de ligação de antígeno. A IgA secretada é 
+um dímero, e dessa forma possui quatro sítios 
+de ligação ao antígeno, e a IgM secretada é um 
+pentâmero, com 10 sítios de ligação ao antí-
+geno. Portanto, cada molécula de anticorpo 
+pode ligar dois a 10 epítopos de um antígeno, 
+ou epítopos em dois ou mais antígenos próxi-
+mos. A força total de ligação é muito maior do 
+que a afinidade de um único antígeno ligado 
+a um anticorpo, e é chamada de avidez de 
+uma interação. Anticorpos produzidos contra 
+um antígeno podem ligar outros antígenos es-
+truturalmente similares. A ligação a epítopos 
+similares denomina-se reação cruzada.
+Em linfócitos B, as moléculas de Ig es-
+tão não covalentemente associadas a outras 
+duas proteínas chamadas Iga e Igb, e as três 
+proteínas formam o complexo receptor da 
+célula B. Quando o receptor de Ig reconhece o 
+
+=== p.79
+	
+Capítulo 4 – Reconhecimento Antigênico no Sistema Imunológico Adaptativo	
+77
+antígeno, Iga e Igb transmitem os sinais para 
+o interior da célula B, que inicia o processo de 
+ativação do linfócito B. Este e outros sinais 
+de ativação da resposta imunológica humoral 
+serão discutidos posteriormente no Capítulo 7.
+A constatação de que um clone de célula 
+B faz um anticorpo de apenas uma especi-
+ficidade tem sido explorada para produzir 
+anticorpos monoclonais, um dos mais 
+importantes avanços tecnológicos em imu-
+nologia, com implicações que estavam fora 
+do alcance para a clínica médica e a pesquisa. 
+Para produzir anticorpos monoclonais, que 
+possuem o menor tempo de vida in vitro, são 
