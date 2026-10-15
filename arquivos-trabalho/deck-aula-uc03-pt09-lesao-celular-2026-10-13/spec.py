@@ -200,3 +200,43 @@ ESCOPO = {
 
 import re as _re
 CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): apostila guia de Patologia Aula 2 e monitoria P1 (Pato aula 1) lidas; Robbins cap. 1 já lido.
+_M3 = "Ajuste 15/10 noite (F-20261015-CLAUDE-05)."
+CARDS += [
+ au("a-causas", ORG("Main causes of <b>cell injury</b>:<br>1. {{c1::oxygen deprivation}}<br>2. physical agents<br>3. chemicals and drugs<br>4. infectious agents<br>5. {{c2::immunologic}} reactions<br>6. genetic derangements<br>7. nutritional imbalances"),
+    {1: Z, 2: Z}, A_, "Causas de lesão celular", "5", "central", NAO, EP_CONJ, "Azul: lâmina 5, apostila guia Aula 2 cap. 1 e monitoria P1 aula 1. " + _M3,
+    extra="- Ischemia, the commonest, combines hypoxia with loss of nutrients"),
+ au("a-isquemia", "<b>Ischemia</b> injures cells faster than {{c1::hypoxia}} alone, because it also cuts off nutrients and lets toxic metabolites accumulate",
+    {1: Z}, A_, "Isquemia × hipóxia", "5", "central", NAO, EP_FATO, "Azul: apostila guia Aula 2 cap. 1 (isquemia × hipóxia por pneumonia, anemia, CO). " + _M3,
+    extra="- Hypoxia without ischemia: pneumonia, anemia, carbon monoxide poisoning"),
+ au("b-gordura", "Besides cell swelling, the other light-microscopic change of reversible <b>cell injury</b> is {{c1::fatty change}}, seen mostly in liver and heart",
+    {1: Z}, B_, "Alteração gordurosa na lesão reversível", "7", "central", NAO, EP_FATO, "Azul: lâmina 7 e monitoria P1 aula 1. " + _M3,
+    extra="- It comes from disrupted lipid metabolism inside the injured cell"),
+ ak("ak-caseosa-tb", 1487469962274, {1: V}, D_, "Caseosa: tuberculose e fungos", "30", "Verde: lâmina 30, apostila guia Aula 2 cap. 4 e monitoria P1 aula 1. " + _M3,
+    extra_add="- Unlike coagulative necrosis, tissue architecture is completely lost"),
+ au("e-fosfatidilserina", "<b>Apoptotic cells</b> flip {{c1::phosphatidylserine}} to the outer leaflet of the membrane, an eat-me signal for macrophages",
+    {1: Z}, E_, "Fosfatidilserina: sinal de remoção", "40", "central", "consulta phosphatidylserine sem card (15/10 noite).", EP_FATO, "Azul: lâmina 37 (etapa de remoção) e Robbins cap. 1. " + _M3,
+    extra="- Quick removal keeps cell contents from leaking and causing inflammation"),
+ au("e-necroptose", "{{c1::Necroptosis}} is a programmed form of <b>necrosis</b> triggered by death receptors through RIP kinases, without caspases",
+    {1: R}, E_, "Necroptose", "45", "lateral", NAO, EP_FATO, "Rosa: lâmina 45 (o professor mostrou sem detalhar); Robbins cap. 1. " + _M3,
+    extra="- It looks like necrosis but is regulated like apoptosis"),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+CARDS += [
+ au("e-iniciadoras", "The initiator caspase of the <b>intrinsic</b> (mitochondrial) pathway is caspase-{{c1::9::8/9}}, and that of the extrinsic (death-receptor) pathway is caspase-{{c1::8::8/9}}",
+    {1: Z}, E_, "Caspases iniciadoras 9 e 8", "38", "central", "consultas caspase-9/caspase-8 sem card AnKing (15/10 noite).", EP_FATO, "Azul: apostila guia Aula 2 cap. 6 (caspases desencadeantes 8 e 9; executoras). " + _M3,
+    extra="- Both converge on executioner caspases that cleave the cell's components"),
+ au("e-bh3", "Stress sensors of the <b>BCL-2 family</b>, the {{c1::BH3-only}} proteins, tip the balance toward mitochondrial leak and apoptosis",
+    {1: R}, E_, "Sensores BH3", "38", "lateral", NAO, EP_FATO, "Rosa: apostila guia Aula 2 cap. 6 e Robbins cap. 1. " + _M3,
+    extra="- They activate BAX/BAK and neutralize BCL-2"),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+_SI2 = "conceito/mecanismo sem estrutura a reconhecer em imagem (ajuste 15/10 noite)"
+for _c_ in CARDS:
+    if _c_["key"] in ("a-causas", "a-isquemia", "b-gordura", "e-fosfatidilserina", "e-necroptose", "e-iniciadoras", "e-bh3", "ak-caseosa-tb"):
+        _c_.setdefault("sem_imagem", _SI2)
+import json as _json, pathlib as _pl
+_cv = _json.loads((_pl.Path(__file__).parent / "correcoes-vivas.json").read_text())
+for _c_ in CARDS:
+    if _c_["key"] in _cv and "Extra" in _cv[_c_["key"]]:
+        _c_["extra"] = _cv[_c_["key"]]["Extra"]; _c_.pop("extra_add", None)
