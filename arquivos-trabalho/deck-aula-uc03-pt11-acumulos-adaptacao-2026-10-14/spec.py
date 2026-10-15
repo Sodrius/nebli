@@ -262,3 +262,14 @@ for _c_ in CARDS:
     if _c_["key"] in ("a-definicao", "b-fisio-pato", "b-limite", "c-viral", "d-atrofia-fisio", "d-mecanismo-atrofia", "f-sitios-distrofica", "f-mapa-pigmentos") and "<img" not in _c_.get("text", ""):
         _c_["sem_imagem"] = "conceito ou organizador; a morfologia correspondente tem card próprio com imagem"
     if _c_["key"] == "d-fumante": _c_["duplicacao_ok"] = "metaplasia escamosa do fumante; Barrett é outra direção (escamoso → colunar)"
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): apostila guia de Patologia Aulas 2 (caps. 2–3, adaptação) e 3 (acúmulos) e monitoria P1
+# aula 2 lidas; Robbins cap. 1 já lido.
+_M3 = "Ajuste 15/10 noite (F-20261015-CLAUDE-05)."
+CARDS += [
+ ak("ak-a1at", 1473628007883, {1: V}, E_, "α1-antitripsina retida no RE", "45", "Verde: lâmina 45 (dobramento) e apostila guia Aula 3 cap. 3 (deficiência de α1-antitripsina: acúmulo no RE e enfisema); HY 1. " + _M3,
+    extra_add="- The missing circulating enzyme lets elastase destroy the alveoli (emphysema)", sem_imagem="mecanismo; a figura AnKing, se houver, vem herdada"),
+ sh(1791022172150, "rosa", E_, "Hialino alcoólico (Mallory)", "44", "Rosa: apostila guia Aula 3 cap. 3 (acúmulo de filamentos intermediários de queratina); viva na Correlação 2. " + _M3),
+ ak("ak-pas-diastase", 1521264448683, {1: V}, E_, "Glicogênio: PAS com diástase", "47", "Verde: lâmina 47 e apostila guia Aula 3 cap. 3 (carmim de Best, PAS e controle com diástase); HY 1. " + _M3,
+    extra_add="- Glycogen dissolves in aqueous fixatives, so it shows as clear cytoplasmic vacuoles", sem_imagem="técnica de coloração; sem estrutura a reconhecer"),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
