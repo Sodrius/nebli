@@ -110,3 +110,10 @@ O que **não** aparece neles: frase sobre “papel”, “função”, “mecani
 - **Card no deck errado**: hipersensibilidade tipo IV e PPD na Ativação de linfócitos T (“card era para ser de outro deck”) → aula 64.
 - **Card repetido**: fosforilação × FOXO1 cobrando o mesmo “nucleus” → cada card esconde um nome diferente.
 - **Card que não ensina**: “Bound Lac repressor lowers lac operon transcription about {{c1::1000}}-fold” (“escrita estranha + sem negrito + faltou ensinar e colocar cloze que pede para lembrar algo”).
+
+### 15. Autoral onde não devia haver card (amostra medida em 15/10, F-20261015-CLAUDE-06)
+Davi: “em muitos cards de microbio você puxou cards nada a ver, de coisas que não eram importantes, de detalhes que você meio que inventou com base de algo que tinha no livro”.
+- ❌ Detalhe de livro sem alvo na aula: “Soil holds about {{c1::10⁷}} bacteria and 10⁵ fungi per gram…” · “Oomycetes… belong to the kingdom {{c1::Chromista}}” · “A {{c1::lichen}} is a mutualism…” · “Calico cats are almost always {{c1::female}}”.
+- ❌ Cloze que se completa pelo bom senso: “…favor invasion by {{c1::degrading host tissue}}” · “Infection is the contamination, penetration and {{c1::multiplication}}…” · “…prostration, {{c1::low fever}}, nausea…” · “Fungal cells are {{c1::nonmotile}}”.
+- ❌ Autoral com AnKing disponível: organizador de antifúngicos (AnKing tem 56 notas de *polyenes*), coagulase (13), toxina diftérica (7), conídios (6).
+- ✅ O que fazer: conceito da aula → AnKing que o cobre (com irmãos) → autoral só se as três rotas de busca falharem, com a fonte da aula declarada.
