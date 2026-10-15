@@ -168,3 +168,35 @@ ESCOPO = {
 }
 import re as _re
 CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): apostilas de Radiologia dos veteranos (radiologia.pdf Aula 4; Tudo que você precisa
+# saber de RD; Apostila Ilustrativa) e monitoria P1 (Radio aula 3) lidas nas seções de RM.
+_M3 = "Ajuste 15/10 noite (F-20261015-CLAUDE-05)."
+CARDS += [
+ au("a-vantagens", "Compared with CT, <b>MRI</b> gives richer soft-tissue contrast and acquires images in any {{c1::plane}} without reconstruction, with no ionizing radiation",
+    {1: Z}, A_, "Vantagens da RM", "3", "central", NAO, EP, "Azul: monitoria P1 Radio aula 3 e apostila radiologia.pdf Aula 4. " + _M3,
+    extra="- Its drawbacks are cost, time and the strong magnet"),
+ au("b-tabela-tr-te", ORG("<b>MRI weighting</b> by pulse timing:<br>- short TR, short TE: {{c1::T1}}<br>- long TR, long TE: {{c2::T2}}<br>- long TR, short TE: {{c3::proton density}}"),
+    G(1, 2, 3), B_, "Ponderação por TR e TE", "71", "central", NAO, EP, "Verde: lâmina 71 e apostila radiologia.pdf Aula 4 cap. 1 (TR/TE de T1, T2 e DP). " + _M3,
+    duplicacao_ok="b-ponderacao cobra só T1; aqui o quadro das três ponderações"),
+ au("b-ordem-relaxamento", "<b>Relaxation times</b> increase in the order white matter, gray matter, edema and {{c1::cerebrospinal fluid}}",
+    {1: R}, B_, "Ordem dos tempos de relaxamento", "19", "lateral", NAO, EP, "Rosa: monitoria P1 Radio aula 3. " + _M3,
+    extra="- So on T2, CSF and edema are the brightest"),
+ au("b-supressao", "<b>MRI</b> can suppress the {{c1::fat}} signal, making it dark to tell fat from a suspicious lesion",
+    {1: Z}, B_, "Supressão de gordura", "81", "central", NAO, EP, "Azul: apostila radiologia.pdf Aula 4 cap. 2. " + _M3,
+    extra="- FLAIR does the same for cerebrospinal fluid"),
+ au("e-espectroscopia", "<b>MR spectroscopy</b> analyzes the {{c1::biochemical}} composition of a tissue in vivo",
+    {1: R}, E_, "Espectroscopia", "92", "lateral", NAO, EP, "Rosa: lâmina 92 (outras funcionalidades) e apostila radiologia.pdf Aula 4 cap. 1. " + _M3),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+for _c_ in CARDS:
+    if _c_["key"] in ("a-vantagens", "b-tabela-tr-te", "b-ordem-relaxamento", "b-supressao", "e-espectroscopia"): _c_["sem_imagem"] = SEM_IMAGEM
+CARDS.append(au("b-t2-patologia", "On <b>MRI</b>, {{c1::T2::T1/T2}} is the weighting for spotting disease, since edema, inflammation and cysts hold water, while the other shows anatomy",
+    {1: Z}, B_, "T1 anatomia × T2 patologia", "83", "central", NAO, EP, "Azul: Apostila Ilustrativa de Radiologia e Tudo que você precisa saber de RD (T1 = anatomia, T2 = patologia). " + _M3))
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+for _c_ in CARDS:
+    if _c_["key"] == "b-t2-patologia": _c_["sem_imagem"] = SEM_IMAGEM; _c_["extra"] = "- Gadolinium is then read on T1, where enhancing tissue turns bright"
+    if _c_["key"] == "d-contraindicacoes" and "claustro" not in _c_.get("extra", ""):
+        _c_["extra"] = (_c_.get("extra", "") + "<br>" if _c_.get("extra") else "") + "- Claustrophobia is a relative contraindication"
+for _c_ in CARDS:
+    if _c_["key"] == "b-tabela-tr-te": _c_["extra"] = "- Short TR and TE minimize T2 effects; long TR and TE minimize T1 effects"
+    if _c_["key"] == "e-espectroscopia": _c_["extra"] = "- It measures metabolites instead of producing an anatomic image"
