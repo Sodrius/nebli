@@ -67,8 +67,7 @@ CARDS = [
  ak("ak-alvo", 1483845020612, {1: Z}, C_, "Alvo dos antipsicóticos", "24; 23", "Azul: lâmina 23 (antipsicóticos bloqueiam D2)."),
  ak("ak-nigro", 1483845029571, {1: Z}, C_, "Bloqueio nigroestriatal", "24", "Azul: lâmina 24.",
     extra_add="- Antipsychotics blocking D2 here cause parkinsonism-like effects"),
- ak("ak-tubero", 1483845044133, {1: Z}, C_, "Bloqueio tuberoinfundibular", "24", "Azul: lâmina 24.",
-    extra_add="- Dopamine normally inhibits prolactin release"),
+ ak("ak-tubero", 1483845044133, {1: Z}, C_, "Bloqueio tuberoinfundibular", "24", "Azul: lâmina 24."),
  ak("ak-comt", 1485226927627, G(1, 2), C_, "COMT degrada dopamina", "26", "Verde: lâmina 26."),
  au("c-comt-val", "The COMT <b>{{c1::Val::Val/Met}} allele</b> breaks down prefrontal dopamine faster, worsening prefrontal performance and possibly raising schizophrenia risk",
     {1: Z}, C_, "Alelos Val e Met da COMT", "27", "central", NAO, EP, "Azul: lâmina 27.",
@@ -139,3 +138,60 @@ import re as _re
 CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
 for _c_ in CARDS:
     if _c_["key"] == "d-estresse-dc": _c_["extra"] = "- Brain and immune system talk both ways: cytokines affect behavior and stress affects immunity"
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): apostila de veteranos “Grand round 1.pdf” (UC03/Outros) lida inteira; lâminas 2–28 e 37–42 relidas.
+import re as _re
+_M3 = "Ajuste 15/10 noite: apostila GR1 de veteranos (F-20261015-CLAUDE-05)."
+CARDS += [
+ ak("ak-delirio", 1484686921210, {1: V}, A_, "Delírio: crença falsa fixa", "2; 4", "Verde: apostila GR1 §1 (delírio × alucinação, ênfase da palestra); caso da lâmina 2. " + _M3,
+    extra_add="- The patient of the case believes he is God: a delusion"),
+ au("a-alucinacao", "A {{c1::hallucination}} is a sensory perception without an external stimulus, such as hearing <b>voices</b> no one else hears",
+    G(1), A_, "Alucinação", "2; 4", "central", "AnKing só tem tipos de alucinação (tátil etc.); 15/10 noite.", EP, "Verde: apostila GR1 §1 (a palestra separa alucinação de delírio). " + _M3,
+    extra="- A delusion is a false belief; a hallucination is a false perception"),
+ au("a-avolicao", "{{c1::Avolition}}, a negative symptom of <b>schizophrenia</b>, is a lack of drive to start and keep up activities",
+    {1: Z}, A_, "Avolição", "4", "central", "AnKing cita avolição só nos critérios do DSM (excluído); 15/10 noite.", EP, "Azul: apostila GR1 §1. " + _M3,
+    extra="- Blunted affect: emotions are not shown in face or voice"),
+ ak("ak-delirium", 1484686841350, {1: Z}, A_, "Delirium × delírio", "2", "Azul: apostila GR1 §5 (delírio, sintoma, × delirium, confusão aguda metabólica). " + _M3,
+    clinica_lateral="diferencial de nomenclatura feito na palestra; não é o alvo da aula", extra_add="- Delirium has a metabolic cause (electrolytes, sepsis) and is treated by fixing it"),
+ au("a-mulheres", "<b>Women</b> with schizophrenia show a second peak of onset around age 45, near {{c1::menopause}}",
+    {1: R}, A_, "Segundo pico nas mulheres", "9", "lateral", NAO, EP, "Rosa: lâmina 9 e apostila GR1 §2. " + _M3,
+    extra="- Falling estrogen may remove a protective effect"),
+ au("a-idade-paterna", "Advanced {{c1::paternal}} age (over 45) is associated with <b>schizophrenia</b> in the offspring",
+    {1: R}, A_, "Idade paterna", "10", "lateral", NAO, [1520948736017, 1488153933696], "Rosa: lâmina 10 e apostila GR1 §2 (associação, não causa). " + _M3,
+    extra="- Older fathers pass on more new mutations"),
+ sh(1792028343886, "azul", B_, "FLAIR suprime o liquor", "17", "Azul: lâmina 17 (TC × RM: T1, T2, FLAIR) — periventricular na esquizofrenia; viva na Radiologia 12. " + _M3),
+ ak("ak-negativos", 1483844994929, {1: V}, C_, "Antipsicótico típico não trata negativos", "25", "Verde: apostila GR1 §3 (bloqueador D2 controla os positivos) e resposta parcial do caso. " + _M3,
+    extra_add="- Negative symptoms come from too little cortical dopamine, which D2 blockers cannot fix"),
+ au("c-glutamato", "Besides dopamine, a {{c1::glutamate}} hypothesis of <b>schizophrenia</b> exists, since NMDA blockers such as PCP cause psychosis",
+    {1: R}, C_, "Outras hipóteses (glutamato, serotonina)", "25", "lateral", NAO, [1524014086162, 1483845005621, 1541613861907], "Rosa: apostila GR1 §3 (hipóteses serotoninérgica e glutamatérgica). " + _M3,
+    extra="- A serotonergic hypothesis also exists"),
+ ak("ak-hva", 1476416128783, {1: Z}, C_, "HVA: produto da dopamina", "26", "Azul: lâmina 26 (metabolismo da dopamina por MAO e COMT). " + _M3,
+    extra_add="- MAO and COMT together turn dopamine into HVA"),
+ au("d-microglia", "<b>Microglia</b>, the macrophages of the CNS, remove {{c1::synaptic terminals}}, which may add to synapse loss in schizophrenia",
+    {1: Z}, D_, "Micróglia poda sinapses", "41", "central", NAO, EP, "Azul: apostila GR1 §3 (apoptose das terminações) e lâmina 41. " + _M3),
+ au("d-exercicio", "Physical <b>exercise</b> lowers inflammatory markers such as IL-6 and improves {{c1::cognition}} in schizophrenia",
+    {1: R}, D_, "Exercício e inflamação", "42", "lateral", NAO, EP, "Rosa: lâmina 42 e apostila GR1 §3. " + _M3),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+CARDS += [
+ au("a-herdabilidade", "<b>Schizophrenia</b> is strongly heritable, with genes explaining about {{c1::70–80%}} of susceptibility",
+    {1: R}, A_, "Herdabilidade", "11", "lateral", NAO, EP, "Rosa: UC3.pdf p. 117 (componente hereditário; ambiente soma risco). " + _M3,
+    extra="- Environmental factors such as prenatal infection add to this risk"),
+ au("c-anfetamina", "<b>Amphetamines</b> can trigger psychosis because they release stored {{c1::dopamine}} by acting on dopamine and vesicular monoamine transporters",
+    {1: Z}, C_, "Anfetamina e psicose", "25", "central", NAO, [1509051255923, 1483845005621, 1484686964548], "Azul: UC3.pdf p. 114 (Laruelle; liberação de dopamina) e lâmina 25. " + _M3,
+    extra="- This supports the dopamine hypothesis: more dopamine release, more positive symptoms", duplicacao_ok="dopamina aqui é o que a anfetamina libera; os outros cards cobram vias e receptores"),
+ au("d-sitios", "Besides the brain, the {{c1::testes}} and the anterior chamber of the eye are <b>immune-privileged</b> sites",
+    {1: Z}, D_, "Sítios imunoprivilegiados", "43", "central", NAO, EP, "Azul: Abbas Básica (glossário, sítio imunologicamente privilegiado) e lâmina 43. " + _M3,
+    extra="- These sites limit or suppress immune responses to protect vital function"),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+for _c_ in CARDS:
+    if _c_["key"] == "a-sintomas": _c_["duplicacao_ok"] = "organizador dos três grupos; ak-delirio, a-alucinacao e a-avolicao definem cada sintoma"
+    if _c_["key"] == "ak-alvo": _c_["flags"] = {k: V for k in _c_["flags"]}; _c_["motivo"] += " Verde (HY 2, ajuste 15/10 noite)."
+_CL = {"ak-nigro": "efeito adverso de antipsicótico: farmacologia, citado na lâmina 24 só para situar as vias",
+       "ak-tubero": "efeito adverso de antipsicótico: farmacologia, citado na lâmina 24 só para situar as vias",
+       "ak-clozapina": "conduta (caso refratário da lâmina 2/36); detalhe clínico do GR",
+       "ak-esquizoafetivo": "diagnóstico de Brian Wilson (lâmina 55); nosologia psiquiátrica lateral ao ciclo básico"}
+for _c_ in CARDS:
+    if _c_["key"] in _CL: _c_["clinica_lateral"] = _CL[_c_["key"]]
+    if _c_["key"] == "d-microglia": _c_["extra"] = "- Microglia also release IL-1β when activated"
+    if _c_["key"] == "d-exercicio": _c_["extra"] = "- Less inflammation means less microglial synapse loss"
