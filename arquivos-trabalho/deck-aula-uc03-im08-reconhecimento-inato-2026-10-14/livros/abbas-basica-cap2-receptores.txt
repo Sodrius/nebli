@@ -1,0 +1,194 @@
+RECEPTORES CELULARES  
+PARA OS MICRORGANISMOS  
+E CÉLULAS DANIFICADAS
+Os receptores usados pelo sistema imunoló-
+gico inato para reagir contra os microrganis-
+mos e células danificadas são expressos nos 
+fagócitos, células dendríticas e muitos outros 
+tipos celulares, incluindo os linfócitos e as cé-
+lulas epiteliais e endoteliais. Esses receptores 
+são expressos em diferentes compartimentos 
+celulares onde os microrganismos podem 
+estar localizados. Muitos estão presentes na 
+superfície celular; outros estão presentes no 
+retículo endoplasmático e são rapidamen-
+te recrutados para as vesículas (endossomas) 
+dentro das quais os produtos microbianos 
+são ingeridos; e ainda outros estão no cito-
+sol, onde eles funcionam como sensores dos 
+microrganismos citoplasmáticos (Fig. 2-2). 
+Alguns desses receptores respondem aos 
+produtos de células danificadas e a uma va-
+riedade de substâncias estranhas, como cris-
+tais depositados em células e tecidos. Esses 
+receptores para PAMP e DAMP pertencem a 
+várias famílias de proteína.
+Receptores Tipo Toll
+Os receptores tipo Toll (TLR, do inglês, 
+Toll-like receptors) são homólogos a uma pro-
+teína da Drosophila, chamada Toll, que foi 
+descoberta por sua participação no desenvol-
+vimento da mosca e mais tarde mostrou ser 
+essencial para a proteção das moscas contra 
+as infecções. Diferentes receptores são espe-
+cíficos para diferentes componentes dos mi-
+crorganismos (Fig. 2-3). O TLR-2 reconhece 
+
+=== p.29
+	
+Capítulo 2 – Imunidade Inata	
+27
+vários lipoglicanos bacterianos; os TLR-3, 7 e 
+8 são específicos para ácidos nucleicos virais 
+(p. ex., dsRNA); o TLR-4 é específico para o 
+LPS (endotoxina), o TLR-5, para uma pro-
+teína flagelar bacteriana chamada flagelina, 
+e o TLR-9, para oligonucleotídios CpG não 
+metilados, que são mais abundantes no DNA 
+microbiano do que no DNA dos mamíferos. 
+Muitos TLR estão presentes na superfície 
+celular, onde reconhecem os produtos dos 
+microrganismos extracelulares, e outros TLR 
+estão nos endossomas, para dentro dos quais 
+os microrganismos são ingeridos.
+Os sinais gerados pela ligação dos re-
+ceptores tipo Toll ativam fatores de trans-
+crição que estimulam a produção de genes 
+que codificam citocinas, enzimas e outras 
+proteínas envolvidas nas funções antimi-
+crobianas dos fagócitos ativados e das outras 
+células (Fig. 2-4). Entre os mais importantes 
+fatores de transcrição ativados pelos sinais 
+dos TLR estão o kB (NF-kB), que promove 
+a expressão de várias citocinas e moléculas 
+de adesão endotelial, e os fatores de resposta 
+ao interferon (IRF, do inglês, interferon regu-
+latory factors), que estimulam a produção das 
+citocinas antivirais, interferons tipo 1.
+Raras mutações herdadas das moléculas 
+de sinalização dos TLR estão associadas a in-
+fecções recorrentes e graves, em particular a 
+pneumonia bacteriana, destacando a impor-
+tância dessas vias na defesa do hospedeiro 
+contra microrganismos.
+Receptores Tipo NOD e o Inflamassoma
+Os receptores tipo NOD (NLR, do inglês, 
+NOD-like receptors) são uma grande família de 
+receptores citosólicos que detectam DAMP 
+e PAMP no citoplasma. Todos os NLR com-
+partilham aspectos estruturais, incluindo 
+um domínio chamado NOD (domínio de 
+oligomerização nucleotídica). Alguns NLR 
+reconhecem uma ampla variedade de subs-
+tâncias não relacionadas estruturalmente e 
+utilizam um mecanismo de sinalização especial 
+(Fig. 2-5). Um dos NLR mais bem caracteriza-
+dos e prototípicos, chamado NLRP-3 (famí-
+FIGURA 2-2  Localizações celulares dos receptores do sistema imune inato. Alguns receptores, como 
+certos receptores tipo Toll (TLR) e lectinas, localizam-se nas superfícies das células; outros TLR ficam em endossomas. Alguns 
+receptores para ácidos nucleicos virais, peptídeos bacterianos e produtos de células danificadas ficam no citoplasma. O NOD 
+e a RIG referem-se aos membros fundadores das famílias de receptores citosólicos estruturalmente homólogos para produtos 
+bacterianos e virais, respectivamente. (Seus nomes completos são históricos e não refletem suas funções.) Existem quatro 
+famílias principais de receptores celulares na imunidade inata: TLR, CLR (receptores de lectina tipo C), NLR (receptores tipo 
+NOD) e RLR (receptores tipo RIG).
+
+=== p.30
+28	
+Capítulo 2 – Imunidade Inata
+lia do receptor tipo NOD, domínio de pirina 
+contendo 3), detecta a presença de produtos 
+microbianos; substâncias que indicam dano e 
+morte celulares, incluindo o trifosfato de ade-
+nosina (ATP) liberado, cristais de ácido úrico 
+derivados de ácidos nucleicos e alterações no 
+íon potássio intracelular (K+); e substâncias 
+endógenas que são depositadas em células e 
+tecidos em quantidades excessivas (p. ex., cris-
+tais de colesterol, ácidos graxos livres).
+Após o reconhecimento dessas substân-
+cias variadas, ou talvez de alguma alteração 
+química induzida por essas substâncias, o 
+NLRP-3 oligomeriza-se com uma proteína 
+adaptadora e uma (pró) forma inativa da 
+enzima caspase-1. Uma vez recrutada, a cas-
+pase-1 é ativada e cliva uma forma precur-
+sora da citocina interleucina-1b (IL-1b) para 
+gerar a IL-1b biologicamente ativa. Confor-
+me será discutido posteriormente, a IL-1 in-
+duz inflamação aguda e causa febre; provém 
+daí o nome domínio de pirina na proteína 
+NLRP-3 (do grego, pyro = queimar). Esse 
+complexo citosólico de NLRP-3 (o sensor), 
+FIGURA 2-3  Estrutura e especificidades de receptores tipo Toll. Diferentes TLR respondem a muitos produtos 
+diferentes e estruturalmente diversos dos microrganismos. Os TLR endossomais respondem apenas aos ácidos nucleicos. Todos 
+os TLR contêm um domínio de ligação ao ligante composto por motivos ricos em leucina e uma sinalização citoplasmática, 
+domínio do receptor de interleucina-1 tipo Toll (IL-1).ds, cadeia dupla; LPS, lipossacarídeo; ss, cadeia simples.
+
+=== p.31
+	
+Capítulo 2 – Imunidade Inata	
+29
+um adaptador, e a caspase-1 é conhecido 
+como inflamassoma. O inflamassoma é 
+importante não apenas para a defesa do 
+hospedeiro, mas também por causa de seu 
+papel em várias doenças. Mutações de ga-
+nho de função nos componentes sensoriais 
+do inflamassoma são a causa de doenças 
+raras, porém graves, chamadas síndromes 
+autoinflamatórias, caracterizadas por in-
+flamação descontrolada e espontânea. Os 
+antagonistas de IL-1 são tratamentos eficazes 
+para essas doenças. A gota, uma doença co-
+mum das articulações, é causada pela depo-
+sição de cristais de urato e acredita-se que a 
+subsequente inflamação seja mediada pelo 
+reconhecimento por parte do inflamassoma 
+dos cristais e pela produção de IL-1b. O in-
+flamassoma também pode contribuir para a 
+aterosclerose, na qual a inflamação causada 
+pelos cristais de colesterol pode desempe-
+nhar um papel, e também para o diabetes 
+tipo 2 associado à obesidade, no qual a IL-1 
+produzida no reconhecimento de lipídios 
+pode contribuir para a resistência de tecidos 
+à insulina.
+O NOD-2 é um NLR específico para pep-
+tídeos bacterianos que entraram no citosol. 
+Ele ativa o fator de transcrição NF-kB, mas 
+não sinaliza através do inflamassoma. Al-
+guns polimorfismos do gene NOD2 estão as-
+sociados à doença intestinal inflamatória; os 
+mecanismos subjacentes permanecem pouco 
+compreendidos. Sabe-se menos ainda a res-
+peito de outros membros da família do NLR.
+Outros Receptores Celulares  
+da Imunidade Inata
+Muitos outros tipos de receptores estão 
+envolvidos na resposta imunológica inata 
+aos microrganismos (Fig. 2-2). Vários re-
+ceptores citoplasmáticos reconhecem ácidos 
+nucleicos virais ou peptídeos bacterianos; 
+por exemplo, a família do receptor tipo RIG 
+(RLR, do inglês, RIG-like receptor) reconhece 
+o RNA viral. Um receptor de superfície ce-
+lular expresso principalmente em fagócitos 
+reconhece peptídeos que iniciam com a 
+N-formilmetionina, que é específica para 
+proteínas bacterianas e promove a migração, 
+bem como as atividades antimicrobianas dos 
+fagócitos. Os receptores de lectina (que reco-
+nhecem carboidrato) são específicos para 
+glicanos fúngicos (esses receptores são cha-
+mados dectinas) e para resíduos de manose 
+terminal (chamados receptores de manose); 
+eles estão envolvidos na fagocitose de fungos 
+e bactérias e em respostas inflamatórias para 
+esses patógenos.
+Embora nossa ênfase até agora tenha sido 
+nos receptores celulares, o sistema imunoló-
+gico inato também contém várias moléculas 
+circulantes que reconhecem e oferecem de-
+fesa contra microrganismos, conforme será 
+discutido posteriormente.
+COMPONENTES DA IMUNIDADE INATA

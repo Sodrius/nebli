@@ -161,3 +161,34 @@ import re as _re
 CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
 for _c_ in CARDS:
     if _c_["key"] == "d-exossomos": _c_["extra"] = "- They are studied as biomarkers and as a way to deliver therapy"
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): Abbas Básica cap. 2 (receptores celulares da imunidade inata) lido; apostila guia
+# Aula 2 (caps. 1, 2 e 4), monitoria P1 aula 2 e UC3.pdf conferidas. Cards vivos das aulas 37/38/45 associados (mesma nota).
+_M3 = "Ajuste 15/10 noite (F-20261015-CLAUDE-05)."
+CARDS += [
+ sh(1791743348110, "azul", B_, "PCR: opsonina solúvel", "8", "Azul: monitoria P1 aula 2 (anticorpos, PCR e complemento reconhecem no sangue). " + _M3),
+ au("b-pamp-essencial", "Innate receptors target <b>PAMPs</b> such as LPS that microbes need to survive, so pathogens rarely escape them by {{c1::mutation}}",
+    {1: Z}, B_, "PAMP essencial ao micróbio", "8", "central", NAO, EP, "Azul: apostila guia Aula 2 cap. 1. " + _M3,
+    extra="- Adaptive receptors, by contrast, can be escaped when an epitope mutates"),
+ au("b-tlr2", "Cell-surface {{c1::TLR2}} recognizes bacterial lipoproteins, lipoteichoic acid and peptidoglycan, typical of <b>gram-positive</b> bacteria",
+    {1: Z}, B_, "TLR2", "16", "central", "consulta TLR2 sem card (15/10 noite).", EP, "Azul: lâmina 16, Abbas cap. 2 e apostila guia Aula 2 cap. 2. " + _M3,
+    extra="- TLR4 is the matching receptor for gram-negative LPS"),
+ sh(1791780361306, "azul", B_, "Receptor de manose", "17", "Azul: Abbas cap. 2 (lectinas: dectina e receptor de manose). " + _M3),
+ sh(1791780360005, "rosa", B_, "Receptor de N-formilmetionina", "17", "Rosa: Abbas cap. 2 (outros receptores). " + _M3),
+ ak("ak-nod2-crohn", 1521771712578, {1: R}, B_, "NOD2 e doença de Crohn", "17", "Rosa: Abbas cap. 2 (polimorfismos de NOD2 e doença inflamatória intestinal). " + _M3,
+    extra='- <b>NOD2 </b>is an <b>intracellular pattern recognition receptor</b> that recognizes bacterial <u>muramyl dipeptide</u> (a peptidoglycan fragment) and activates the <b><u>NF-kB pathway</u></b><br><br>- Mutations lead to impairment of <b>innate immune response</b> of intestinal mucosa (antimicrobial peptide synthesis / mucin secretion)<br><br><img src="61152fc3386f10bb585b60803d386bd3.webp" width="1200px"><br><br>- NOD2 activates NF-κB but does not use the inflammasome',
+    correcao_ankingm="Extra do AnKing dizia que NOD2 reconhece LPS; Abbas cap. 2 e b-nod2: muramil dipeptídeo (peptidoglicano). Corrigido 15/10 noite."),
+ sh(1791743347261, "verde", C_, "Febre: IL-1, IL-6 e TNF", "9", "Verde: lâmina 9 (febre) e apostila guia Aula 2 cap. 4. " + _M3),
+ ak("ak-tnf", 1489970181312, {1: V}, D_, "TNF-α: caquexia e choque", "14", "Verde: lâmina 14 (citocinas) e apostila guia Aula 2 cap. 4 (TNF = caquexina; choque séptico). " + _M3,
+    extra_add="- Locally TNF recruits neutrophils; in large amounts it causes fever, acute-phase proteins and shock"),
+ sh(1791743347558, "azul", D_, "IL-6 e fase aguda", "14", "Azul: lâmina 14 e apostila guia Aula 2 cap. 4. " + _M3),
+ sh(1791625422408, "azul", D_, "IL-12 ativa NK e Th1", "14", "Azul: lâmina 14 e apostila guia Aula 2 cap. 4 (IL-12, resposta a intracelulares). " + _M3),
+ au("d-il10", "{{c1::IL-10}}, made by <b>macrophages</b> and regulatory T cells, switches off activated macrophages and MHC II expression as inflammation ends",
+    {1: Z}, D_, "IL-10 anti-inflamatória", "14", "central", NAO, EP, "Azul: apostila guia Aula 2 cap. 4 (controle do processo inflamatório). " + _M3,
+    extra="- It belongs to the regulatory side of every response"),
+ sh(1791780343873, "azul", E_, "Piroptose", "20", "Azul: monitoria P1 aula 2 e UC3.pdf (inflamassoma → piroptose). " + _M3),
+ sh(1791743340632, "azul", E_, "Cristais de urato ativam NLRP3", "21", "Azul: Abbas cap. 2 e apostila guia (gota). " + _M3),
+ au("e-colesterol", "Besides urate, the <b>NLRP3 inflammasome</b> senses {{c1::cholesterol}} crystals and free fatty acids, linking it to atherosclerosis and type 2 diabetes",
+    {1: R}, E_, "NLRP3: colesterol e ácidos graxos", "21", "lateral", NAO, EP, "Rosa: Abbas cap. 2 e apostila guia Aula 2 cap. 2. " + _M3,
+    extra="- It also senses ATP and potassium efflux from damaged cells"),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
