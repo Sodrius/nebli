@@ -109,8 +109,8 @@ CARDS = [
  au("rima", "The peripheral T-cell rim supports macrophages mainly through {{c1::cytokine signaling}}", {1: V}, D_, "rima linfocitária mantém ativação", 10, "central", "AnKing Th1 cobra IFN-γ, sem função da rima na estrutura.", [1487643795892,1487642936903], "Verde: componente funcional, cobrado nas provas.", extra="- Th1 IFN-γ is a major activating signal within immune granulomas."),
  au("gigante-fusao", "Multinucleated giant cells in granulomas arise from fusion of {{c1::macrophages}}", {1: V}, D_, "origem das células gigantes", 10, "central", "AnKing histiócito epitelioide não cobra formação de gigante.", [1487643760880,1487642936903], "Verde: linhagem e formação cobradas em exercício/prova.", extra="- A giant cell contains multiple nuclei in shared cytoplasm.", duplicacao_ok="Ganho: fusão que gera célula gigante; card AnKing cobra origem do macrófago a partir do monócito."),
  au("langhans", "Langhans giant cells have nuclei arranged at the {{c1::periphery}} in a horseshoe-like pattern", {1: Z}, D_, "padrão nuclear de Langhans", 10, "prova", "AnKing encontrado liga Langhans indevidamente a TB secundária específica.", [1487642936903,1503252725841], "Azul: reconhecimento morfológico sem atribuir exclusividade à TB.", extra="- Nuclear arrangement identifies a giant-cell pattern, not an etiology."),
- au("gigante-estranho", "Foreign-body giant cells tend to have {{c1::irregularly scattered}} nuclei", {1: Z}, D_, "padrão nuclear de gigante de corpo estranho", 10, "prova", "Acervo não cobre o contraste morfológico fiel.", [1487643775029,1487642936903], "Azul: comparação com Langhans.", extra="- Nuclear position alone does not establish the cause of a granuloma."),
- au("nao-obrigatorio", "Neither caseous necrosis nor giant cells are {{c1::required}} to diagnose a granuloma", {1: V}, D_, "granuloma não exige caseificação ou gigante", 10, "central", "AnKing exemplo de TB pode induzir a tratá-los como critérios obrigatórios.", [1487642936903,1473638571391], "Verde: princípio diagnóstico cobrado em monitoria/prova.", extra="- The defining feature is an organized aggregate of activated macrophages."),
+ au("gigante-estranho", "In foreign-body giant cells, the nuclei are {{c1::scattered}} throughout the cytoplasm rather than at the periphery", {1: Z}, D_, "padrão nuclear de gigante de corpo estranho", 10, "prova", "Acervo não cobre o contraste morfológico fiel.", [1487643775029,1487642936903], "Azul: comparação com Langhans.", extra="- Nuclear position alone does not establish the cause of a granuloma."),
+ au("nao-obrigatorio", "Neither {{c1::caseous necrosis}} nor {{c2::giant cells}} are required to diagnose a granuloma", {1: V, 2: V}, D_, "granuloma não exige caseificação ou gigante", 10, "central", "AnKing exemplo de TB pode induzir a tratá-los como critérios obrigatórios.", [1487642936903,1473638571391], "Verde: princípio diagnóstico cobrado em monitoria/prova.", extra="- The defining feature is an organized aggregate of activated macrophages."),
  vi("visual-arquitetura", 10, "The circumscribed aggregate of epithelioid macrophages is a", "granuloma", V, D_, "reconhecer arquitetura granulomatosa na microfotografia", [1487642936903,1487643760880], "Verde: reconhecimento morfológico geral.", "- The rim contains lymphocytes and the center may vary by cause and stage."),
  ak("caseosa", 1487469944925, {1: V}, D_, "necrose caseosa macroscópica", 13, "Verde: padrão morfológico transferível da aula."),
  au("visual-caseosa-fibrose", '<img src="pt47-s13-clean.jpeg"><br>The center shows {{c1::caseous necrosis}} within an outer zone of {{c2::fibrosis}}', {1: V, 2: Z}, D_, "centro caseoso e borda fibrótica na histologia", 13, "central", "AnKing necrose caseosa mostra peça, sem esta leitura da histologia docente.", [1487469944925,1487642936903], "Centro verde e fibrose azul: dois alvos da mesma imagem.", extra="- Black pigment is anthracosis, not the acid-fast bacilli or calcification.", sem_imagem="", duplicacao_ok="ganho: reconhecimento histológico de centro e borda; caseosa cobra padrão macroscópico"),
@@ -240,7 +240,7 @@ EMPHASIS = {
  "cd8": "kill macrophages", "feedback": "macrophage–Th1 circuit",
  "palisada": "Epithelioid macrophages", "rima": "peripheral T-cell rim",
  "gigante-fusao": "Multinucleated giant cells", "langhans": "Langhans giant cells",
- "gigante-estranho": "Foreign-body giant cells", "nao-obrigatorio": "caseous necrosis nor giant cells",
+ "gigante-estranho": "foreign-body giant cells", 
  "baar-limite": "positive acid-fast stain", "reativacao-cicatriz": "Fibrosis",
  "fibrose-funcao": "Residual pulmonary fibrosis", "dna-viabilidade": "mycobacterial",
  "asteroide": "Asteroid bodies", "cristais": "crystalline oxalate/carbonate",
@@ -321,6 +321,7 @@ REVISAO_MECANISMO = {'persistencia': {'text': 'When <b>macrophages cannot elimin
 RETIRADOS_MECANISMO = {'tb-prototipo': 'especificidade-sem-ganho-para-mecanismo-geral', 'sarcoidose-causa': 'especificidade-sem-ganho-para-mecanismo-geral', 'gpa': 'especificidade-sem-ganho-para-mecanismo-geral', 'c5a': 'especificidade-sem-ganho-para-mecanismo-geral', 'complemento': 'especificidade-sem-ganho-para-mecanismo-geral', 'pdgf': 'especificidade-sem-ganho-para-mecanismo-geral', 'inalacao': 'especificidade-sem-ganho-para-mecanismo-geral', 'manose': 'especificidade-sem-ganho-para-mecanismo-geral', 'cr3': 'especificidade-sem-ganho-para-mecanismo-geral', 'retorno-t': 'especificidade-sem-ganho-para-mecanismo-geral', 'il1': 'especificidade-sem-ganho-para-mecanismo-geral', 'il18': 'especificidade-sem-ganho-para-mecanismo-geral', 'cd8': 'especificidade-sem-ganho-para-mecanismo-geral', 'palisada': 'especificidade-sem-ganho-para-mecanismo-geral', 'reativacao-cicatriz': 'especificidade-sem-ganho-para-mecanismo-geral', 'visual-exsudacao': 'especificidade-sem-ganho-para-mecanismo-geral', 'dna-viabilidade': 'especificidade-sem-ganho-para-mecanismo-geral', 'ghon-foco': 'especificidade-sem-ganho-para-mecanismo-geral', 'visual-primaria': 'especificidade-sem-ganho-para-mecanismo-geral', 'ranke': 'especificidade-sem-ganho-para-mecanismo-geral', 'secundaria': 'especificidade-sem-ganho-para-mecanismo-geral', 'apice': 'especificidade-sem-ganho-para-mecanismo-geral', 'visual-cavidade': 'especificidade-sem-ganho-para-mecanismo-geral', 'visual-miliar': 'especificidade-sem-ganho-para-mecanismo-geral', 'sarcoidose-exclusao': 'especificidade-sem-ganho-para-mecanismo-geral', 'asteroide': 'especificidade-sem-ganho-para-mecanismo-geral', 'visual-asteroide': 'especificidade-sem-ganho-para-mecanismo-geral', 'schaumann': 'especificidade-sem-ganho-para-mecanismo-geral', 'cristais': 'especificidade-sem-ganho-para-mecanismo-geral', 'hamazaki': 'especificidade-sem-ganho-para-mecanismo-geral', 'celulose': 'especificidade-sem-ganho-para-mecanismo-geral', 'sutura': 'especificidade-sem-ganho-para-mecanismo-geral', 'silica': 'especificidade-sem-ganho-para-mecanismo-geral', 'visual-silicose': 'especificidade-sem-ganho-para-mecanismo-geral', 'silica-tb': 'especificidade-sem-ganho-para-mecanismo-geral', 'sericita': 'especificidade-sem-ganho-para-mecanismo-geral', 'polarizacao': 'especificidade-sem-ganho-para-mecanismo-geral', 'asbesto-corpo': 'especificidade-sem-ganho-para-mecanismo-geral', 'visual-asbesto': 'especificidade-sem-ganho-para-mecanismo-geral', 'inato-inicial': 'especificidade-sem-ganho-para-mecanismo-geral', 'atraso-adaptativo': 'especificidade-sem-ganho-para-mecanismo-geral', 'acidos-micolicos': 'especificidade-sem-ganho-para-mecanismo-geral', 'arabinogalactano': 'especificidade-sem-ganho-para-mecanismo-geral', 'lam-envelope': 'especificidade-sem-ganho-para-mecanismo-geral', 'fator-corda': 'especificidade-sem-ganho-para-mecanismo-geral', 'fator-corda-quimica': 'especificidade-sem-ganho-para-mecanismo-geral', 'fator-corda-tnf': 'especificidade-sem-ganho-para-mecanismo-geral', 'lam-apresentacao': 'especificidade-sem-ganho-para-mecanismo-geral', 'catalase': 'especificidade-sem-ganho-para-mecanismo-geral', 'amonia': 'especificidade-sem-ganho-para-mecanismo-geral', 'pkng': 'especificidade-sem-ganho-para-mecanismo-geral', 'vatpase': 'especificidade-sem-ganho-para-mecanismo-geral', 'ppd': 'especificidade-sem-ganho-para-mecanismo-geral', 'esat6-mmp9': 'especificidade-sem-ganho-para-mecanismo-geral', 'eferocitose': 'especificidade-sem-ganho-para-mecanismo-geral', 'saem-macrofagos': 'especificidade-sem-ganho-para-mecanismo-geral', 'treg': 'especificidade-sem-ganho-para-mecanismo-geral'}
 for c in CARDS:
     c.update(REVISAO_MECANISMO.get(c["key"], {}))
+_TODOS = {c["key"]: c for c in CARDS}
 CARDS = [c for c in CARDS if c["key"] not in RETIRADOS_MECANISMO]
 ESCOPO = {'objetivo': 'Entender formação, manutenção, função e consequências do granuloma em diferentes etiologias; clínica ilustra o mecanismo.', 'centrais': [('estímulo persistente e contenção', 'persistencia', 'conter-nao-esterilizar'), ('reação ao material indigerível', 'imune-corpoestranho', 'corpoestranho-sem-th1'), ('recrutamento e ativação de macrófagos', 'monocito', 'recrutamento', 'proliferacao'), ('cooperação celular imune', 'linfonodo', 'il12', 'feedback', 'rima'), ('ativação produz defesa e dano', 'ros', 'necrose-dissemina'), ('arquitetura e reparo', 'epitelioide', 'gigante-fusao', 'visual-caseosa-fibrose', 'fibrose-funcao')], 'exemplos': ['TB como persistência intracelular e contenção incompleta', 'HIV como perda de suporte Th1', 'sutura e fibras como material persistente', 'sarcoidose como padrão não caseoso'], 'outras_aulas': [('pneumoconioses e exposições ocupacionais', 'Patologia Ambiental'), ('química da parede e fatores de virulência bacterianos', 'Microbiologia: Fisiologia e Patogenicidade bacteriana')]}
 
@@ -399,4 +400,56 @@ for c in CARDS:
  if c['key']=='replicacao':c['extra']='- An initially ineffective macrophage can become an intracellular niche.<br>- Th1-mediated activation improves its ability to control the microbes.'
  if c['key']=='acidos-micolicos':c['extra']='- The lipid-rich envelope resists ordinary staining and requires an acid-fast stain.'
 _FIRST.update({'ghon-foco':-1,'secundaria':-1})
+CARDS.sort(key=lambda c:(int(_r.search(r'\d+',c['evid']).group()),_FIRST.get(c['key'],0)))
+
+# F-20261013-CODEX-04 (segunda leitura): a aula é revista pelo encadeamento
+# persistência -> contenção -> ativação -> lesão/reparo. Nomes de doenças,
+# padrões clínicos e mediadores que não mudam esse encadeamento ficam no Extra
+# ou nas aulas próprias, em vez de virarem uma lista paralela de cartões.
+RETIRADOS_SEGUNDA_LEITURA = {
+ 'fungos', 'crohn', 'hanseniase', 'mcp1', 'mif', 'proteases', 'm2',
+ 'caseosa', 'fases', 'calcificacao-distrofica',
+ 'sem-caseosa', 'ghon-foco', 'ghon-complexo', 'secundaria', 'cavitacao',
+ 'miliar', 'sarcoidose-morfologia', 'visual-nao-caseoso', 'ziehl',
+ 'visual-baar', 'baar-limite', 'acidos-micolicos', 'il10'
+}
+_TODOS.update({c['key']: c for c in CARDS})
+CARDS = [c for c in CARDS if c['key'] not in RETIRADOS_SEGUNDA_LEITURA]
+CARDS = [c for c in CARDS if c['key'] != 'sh-1791625430332']
+ESCOPO['centrais'] = [
+ ('padrão, gatilho e finalidade', 'padrao-cronico', 'definicao', 'persistencia', 'funcao-contencao', 'conter-nao-esterilizar'),
+ ('dois caminhos para formar o granuloma', 'imune-antigeno', 'tipoiv', 'imune-corpoestranho', 'corpoestranho-sem-th1'),
+ ('macrófago: origem, ativação e acúmulo', 'monocito', 'ativacao-microbicida', 'ativacao-lisossomos', 'recrutamento', 'proliferacao'),
+ ('circuito imune que mantém a resposta', 'linfonodo', 'il12', 'feedback', 'tnf'),
+ ('arquitetura, defesa, lesão e reparo', 'epitelioide', 'gigante-fusao', 'ros', 'necrose-imunolesao', 'caseoso-padrao', 'reparo-fibroblasto', 'fibrose-funcao'),
+ ('exemplo de persistência intracelular', 'fagolisossomo', 'replicacao', 'intracelular', 'cd4-malformado')
+]
+ESCOPO['exemplos'] = [
+ 'tuberculose: persistência intracelular, contenção incompleta e necrose',
+ 'material vegetal ou fibra longa: corpo estranho e fagocitose frustrada',
+ 'sarcoidose: exemplo de granuloma não caseoso, sem cartão diagnóstico próprio'
+]
+CARDS.sort(key=lambda c:(int(_r.search(r'\d+',c['evid']).group()),_FIRST.get(c['key'],0)))
+
+
+# ---------- Ajuste 15/10 noite (F-20261015-CLAUDE-05): a aula inteira, sem fugir dela ----------
+# Davi: decks rasos, “cobrirem tudo da aula de verdade, mas sem fugir do que é o conteúdo da aula”. O bloco “Doenças
+# granulomatosas” das lâminas (3, 20–33) e a seção “Apresentações clínicas do granuloma” da monitoria P3 (aula 8) ficaram sem
+# card na segunda leitura. Volta um card por item, no nível da monitoria, com as peças que a aula pede para reconhecer;
+# detalhes de Micro (ácidos micólicos, fator corda, Ziehl), mediadores já cobertos na 62 e curiosidades continuam fora.
+_VOLTA = ['fases', 'ghon-complexo', 'visual-primaria', 'secundaria', 'apice', 'cavitacao', 'visual-cavidade', 'miliar', 'visual-miliar',
+          'visual-silicose', 'silica-tb', 'sarcoidose-morfologia', 'visual-nao-caseoso', 'schaumann']
+for _k in _VOLTA:
+    _c = dict(_TODOS[_k]); _c["motivo"] = _c.get("motivo", "") + " Restaurado 15/10 noite (F-20261015-CLAUDE-05): item da monitoria P3 aula 8 e das lâminas."
+    CARDS.append(_c)
+CARDS.append(au("causas-org",
+    'What are the main causes of <b>granulomatous inflammation</b>?<br><br><div>1) infection: {{c1::<b>tuberculosis</b>}}, paracoccidioidomycosis, histoplasmosis</div>'
+    '<div>2) foreign body: {{c2::<b>silica</b>}}</div><div>3) unknown cause: {{c3::<b>sarcoidosis</b>}}, granulomatosis with polyangiitis</div>',
+    {1: V, 2: Z, 3: V}, A_, "organizador das causas (lâmina 3)", 3, "central", "AnKing não tem o conjunto de causas da lâmina 3.",
+    [1790972064784, 1487642936903, 1487643766184],
+    "Organizador do único grupo classificatório da aula (lâmina 3; monitoria P3 aula 8), no modelo das constrições do esôfago que Davi aprovou (UC08). Ajuste 15/10 noite.",
+    duplicacao_ok="organizador do conjunto de causas; os cards de TB, silicose e sarcoidose cobram cada doença"))
+CARDS.append(ak("asteroide-ak", 1473638595730, {1: Z, 2: Z}, A_, "corpo asteroide na sarcoidose", 27,
+    "Azul: lâmina 27 (corpo asteroide) e monitoria P3 aula 8; HY 1 lateral à aula.", clinica_lateral="morfologia da sarcoidose, exemplo da aula"))
+_FIRST.update({'causas-org': -5})
 CARDS.sort(key=lambda c:(int(_r.search(r'\d+',c['evid']).group()),_FIRST.get(c['key'],0)))

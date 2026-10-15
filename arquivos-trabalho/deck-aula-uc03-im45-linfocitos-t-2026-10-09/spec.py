@@ -261,8 +261,8 @@ CARDS = [
  au("plasticidade-hibrido", "Some effector T cells express two subsets' programs at once (e.g., Th1/Th17), a sign of T cell {{c1::plasticity}}", {1: R}, I_,
     "Células intermediárias e plasticidade", "70 e 47; transcrição p. 139", "lateral", "sem card de células híbridas nos acervos.",
     [1487116982311, 1487116917001], "Rosa: slide 70; lateral para a prova.", extra="- They can return to the original subset when the stimulus ends"),
- ak("dth-cd4", 1487207229813, {2: V}, I_, "Hipersensibilidade tardia: CD4", 71, "Verde: HY; slide 71."),
- ak("ppd", 1487207242473, {1: V}, I_, "PPD: tipo IV (Th1)", 71, "Verde: HY; foto do slide 71."),
+ # ak("dth-cd4", 1487207229813, {2: V}, I_, "Hipersensibilidade tardia: CD4", 71, "Verde: HY; slide 71."),  # retirado 15/10 noite: Davi, "card era para ser de outro deck" (aula 64 Hipersensibilidade)
+ # ak("ppd", 1487207242473, {1: V}, I_, "PPD: tipo IV (Th1)", 71, "Verde: HY; foto do slide 71."),  # retirado 15/10 noite: Davi, "card era para ser de outro deck" (aula 64 Hipersensibilidade)
  ak("granuloma-ifng", 1487643795892, {1: V}, I_, "Th1/IFN-γ forma o granuloma", 71, "Verde: HY; granuloma do slide 2 e transcrição p. 141."),
 ]
 

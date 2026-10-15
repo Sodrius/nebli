@@ -211,7 +211,7 @@ SLIDES = [
  (70, "conteudo", "Plasticidade (DuPage 2016)", [
    ("hibridos", "Células intermediárias (Th1/Th17) e reversão", "plasticidade-hibrido")]),
  (71, "conteudo", "Hipersensibilidade tardia", [
-   ("dth", "Imunidade celular gerando lesão: hipersensibilidade tipo IV (CD4)", ["dth-cd4", "ppd"]),
+   ("dth", "Imunidade celular gerando lesão: hipersensibilidade tipo IV (CD4)", "EXC: aula 64 Hipersensibilidade (comentário de Davi 15/10: card de outro deck)"),
    ("granuloma", "Th1 e granuloma", "granuloma-ifng")]),
 ]
 JUSTIFICATIVAS = {"capa": "capa ou divisória de bloco, sem conteúdo",
@@ -251,7 +251,7 @@ EXERCICIOS = [
    ("mon-ctla4", "CTLA-4/B7 inativa; anti-CTLA-4 no câncer", ["ctla4", "ipilimumab"]),
    ("mon-fas", "Apoptose por Fas–FasL ao fim da resposta", "aicd"),
    ("mon-cd25", "CD25 aumenta a afinidade do IL-2R", "cd25"),
-   ("mon-dth", "Teste de hipersensibilidade tardia mede memória Th1", "ppd"),
+   ("mon-dth", "Teste de hipersensibilidade tardia mede memória Th1", "EXC: aula 64 Hipersensibilidade (comentário de Davi 15/10)"),
    ("mon-memoria", "Memória central (linfonodo, IL-7, L-selectina) × efetora", "memoria-central"),
    ("mon-ctl", "LFA-1/ICAM-1 no conjugado; um CTL mata vários alvos", ["sinapse", "ctl-desliga"])]),
  ("Apostila de veteranos, aula 6 caps. 2–5", [

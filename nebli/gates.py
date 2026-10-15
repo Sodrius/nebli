@@ -115,12 +115,15 @@ def uc_materials(run, data):
     corrida + seção) ou descartado com motivo; a bibliografia tem de ser um livro, não transcrição/slides/relatório."""
     from nebli import entrega
     out = []
-    mats = data.get("materiais_uc", {}) or {}
-    lidos = {os.path.basename(str(x)) for x in data.get("turma_arquivos_lidos", [])}
-    lidos |= {os.path.basename(str(r.get("arquivo", ""))) for recs in data.get("evidencias", {}).values() if isinstance(recs, list)
+    import unicodedata
+    nfc = lambda x: unicodedata.normalize("NFC", str(x))
+    mats = {nfc(k): v for k, v in (data.get("materiais_uc", {}) or {}).items()}
+    lidos = {nfc(os.path.basename(str(x))) for x in data.get("turma_arquivos_lidos", [])}
+    lidos |= {nfc(os.path.basename(str(r.get("arquivo", "")))) for recs in data.get("evidencias", {}).values() if isinstance(recs, list)
               for r in recs if isinstance(r, dict)}
 
     def conta(nome):
+        nome = nfc(nome)
         m = mats.get(nome)
         if isinstance(m, dict) and str(m.get("descartado", "")).strip():
             return True
@@ -152,7 +155,7 @@ def uc_materials(run, data):
         faltam = [p.name for p in arquivos if not conta(p.name)]
         ok = not faltam
         if precisa_lido and arquivos:
-            ok = ok and any(isinstance(mats.get(p.name), dict) and mats[p.name].get("texto") for p in arquivos)
+            ok = ok and any(isinstance(mats.get(nfc(p.name)), dict) and mats[nfc(p.name)].get("texto") for p in arquivos)
         out.append((f"{rotulo}: cada arquivo lido (com seção) ou descartado com motivo" + (f"; faltam {faltam[:4]}" if faltam else "")
                     + ("; nenhuma lida" if precisa_lido and arquivos and not faltam and not ok else ""), ok))
     return out
