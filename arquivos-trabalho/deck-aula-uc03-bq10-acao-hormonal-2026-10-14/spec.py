@@ -267,3 +267,51 @@ _c("a-fosforilacao")["text"] = "Enzymes that transfer phosphate from ATP to <b>s
 _c("d-glucagon-figado")["duplicacao_ok"] = "compreensão: efeitos do glucagon reunidos; os AnKing cobram cada um"
 _c("e-epinefrina")["duplicacao_ok"] = "compreensão: efeitos sistêmicos reunidos"
 CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): apostila guia de Biologia Molecular, Aula 1 (Conceitos de ação e regulação hormonal),
+# lida inteira; UC3.pdf (mecanismos de ação hormonal) conferido; Lehninger cap. 23 já lido. Cards vivos de Integração I/II, 37/38 e 16 associados.
+_M3 = "Ajuste 15/10 noite: apostila guia Biomol Aula 1 (F-20261015-CLAUDE-05)."
+CARDS += [
+ sh(1791743344484, "azul", A_, "Ácido araquidônico via fosfolipase A2", "9", "Azul: apostila guia Aula 1 (eicosanoides por fosfolipase A2). " + _M3),
+ ak("ak-pomc", 1461871709857, {1: V}, A_, "POMC: um gene, vários hormônios", "9", "Verde: apostila guia Aula 1 cap. 2 (POMC → ACTH, endorfinas, lipotropinas); HY 2. " + _M3,
+    extra_add="- The same precursor is cut at different sites in different cells"),
+ ak("ak-no-gc", 1461865838545, {1: R}, A_, "NO: guanilato ciclase citosólica", "14", "Rosa: apostila guia Aula 1 cap. 2 (NO lipofílico é exceção à regra hidrossolúvel × lipossolúvel). " + _M3),
+ au("a-amplificacao", "Each level of a <b>hormonal cascade</b> amplifies the signal, so nanograms of CRH end as milligrams of cortisol, roughly a {{c1::million}}-fold gain",
+    {1: R}, A_, "Amplificação da cascata", "16", "lateral", NAO, EP, "Rosa: apostila guia Aula 1 cap. 5. " + _M3,
+    extra="- Each level is also a point for negative feedback"),
+ sh(1791647346496, "azul", B_, "GLUT2: Km alto", "24", "Azul: apostila guia Aula 1 cap. 3 (GLUT2 de Km alto na célula β); viva em Integração I. " + _M3),
+ sh(1791647346994, "azul", B_, "Glicoquinase não inibida por G6P", "25", "Azul: apostila guia Aula 1 cap. 3 (por isso o ATP sobe na célula β); viva em Integração I. " + _M3),
+ ak("ak-receptor-insulina", 1462128028823, {1: R}, B_, "Receptor de insulina α2β2", "33", "Rosa: apostila guia Aula 1 cap. 3 (α liga insulina, β autofosforila). " + _M3,
+    extra_add="- Insulin binds the α subunits; the β subunits carry the tyrosine kinase"),
+ ak("ak-tireoglobulina", 1461984665340, {1: Z, 2: Z}, F_, "Tireoglobulina", "42", "Azul: apostila guia Aula 1 cap. 4 (T3/T4 a partir da tireoglobulina do coloide). " + _M3),
+ sh(1792089754676, "azul", "G-esteroides", "Doença de Cushing", "54", "Azul: lâmina 54 (Addison e Cushing); viva na 16. " + _M3),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+CARDS += [
+ au("b-hipoglicemia", "Hypoglycemia from excess <b>insulin</b> triggers {{c1::adrenergic}} symptoms such as tremor and sweating, and prolonged lack of glucose damages the brain",
+    {1: Z}, B_, "Sintomas da hiperinsulinemia", "28", "central", NAO, [1524013224124, 1477447327155], "Azul: exercício de Bioquímica I.2 e I.6 (insulinoma). " + _M3,
+    extra="- The brain depends on blood glucose and cannot use fatty acids"),
+ sh(1791647348245, "azul", D_, "Músculo não libera glicose", "41", "Azul: exercício de Bioquímica I.3 (epinefrina: glicose no fígado, piruvato no músculo); viva em Integração I/II. " + _M3),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+CARDS += [
+ au("a-dessensibilizacao", "Continuous exposure to a <b>hormone</b> weakens the response through receptor {{c1::desensitization}}, by inactivating or internalizing the receptor",
+    {1: Z}, A_, "Dessensibilização", "15", "central", NAO, EP, "Azul: UC3.pdf p. 62 (características da transdução de sinal). " + _M3,
+    extra="- When the stimulus falls below a threshold, the system becomes sensitive again"),
+ ak("ak-metilxantinas", 1472435600503, {2: Z, 1: Z}, A_, "Cafeína inibe fosfodiesterase", "16", "Azul: UC3.pdf p. 63 (teobromina e cafeína prolongam o AMPc). " + _M3),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+# HY 1–2 em azul: justificativa explícita (ajuste 15/10 noite; antes passavam sem motivo registrado).
+_HY = {"ak-pde": ("hy_repete", "o alvo AMPc → PKA já é verde em ak-camp-pka; a degradação completa o ciclo"),
+       "ak-equimolar": ("hy_repete", "peptídeo C já verde em ak-peptideo-c; equimolaridade é o corolário"),
+       "ak-insulinoma": ("clinica_lateral", "exemplo clínico das lâminas 27–28 (agonistas de KATP)"),
+       "ak-pnmt": ("hy_repete", "a via inteira é verde em e-sintese-catecol"),
+       "ak-resistencia": ("hy_repete", "efeito contrarregulador já no mapa da epinefrina (e-epinefrina)"),
+       "ak-ppar": ("clinica_lateral", "fármaco de exemplo da tabela de receptores nucleares (lâmina 48)"),
+       "ak-crh-acth": ("hy_repete", "eixo CRH/ACTH já coberto no deck 16 (verde) e aqui só como retroalimentação"),
+       "ak-desmolase": ("clinica_lateral", "enzima da síntese adrenal: detalhe da lâmina 51, aprofundado no endócrino"),
+       "ak-lipolise": ("hy_repete", "efeito gliconeogênico do cortisol já verde no compartilhado da lâmina 53"),
+       "ak-addison": ("clinica_lateral", "doença citada na lâmina 54 como ilustração")}
+for _c_ in CARDS:
+    if _c_["key"] in _HY: _c_[_HY[_c_["key"]][0]] = _HY[_c_["key"]][1]
+    if _c_["key"] == "b-tirosina-quinase": _c_["duplicacao_ok"] = "regra geral do receptor de insulina; ak-receptor-insulina cobra a estrutura α2β2"
+    if _c_["key"] == "ak-metilxantinas": _c_["extra_add"] = "- More cAMP prolongs the effects of epinephrine"
