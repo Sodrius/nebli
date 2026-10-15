@@ -87,3 +87,34 @@ import re as _re
 CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
 for _c_ in CARDS:
     if _c_["key"] in ("c-caso-varizes", "c-caso-aneurisma"): _c_["sem_imagem"] = "caso clínico em texto; preencher a declaração não depende de imagem"
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): apostila guia de Patologia Aula 5 e monitoria P1 aula 4 lidas; os casos das lâminas
+# 7–16 entram todos (antes só varizes e aneurisma), pois a prova cobra o preenchimento por caso.
+_M3 = "Ajuste 15/10 noite (F-20261015-CLAUDE-05)."
+CARDS += [
+ au("a-autopsia", "A <b>death certificate</b> does not require an {{c1::autopsy}}, which is ordered only when the physician is unsure of the cause",
+    {1: Z}, A_, "DO sem autópsia obrigatória", "2", "central", NAO, EP, "Azul: monitoria P1 aula 4 e apostila guia Aula 5 cap. 1. " + _M3,
+    extra="- The death certificate is the base document for the civil death record"),
+ au("a-nascido-vivo", "Any <b>child</b> who dies after a live birth needs a death certificate, regardless of birth {{c1::weight}} or gestational age",
+    {1: Z}, A_, "Criança após nascimento: sempre DO", "3", "central", NAO, EP, "Azul: lâmina 3 e apostila guia Aula 5 cap. 1. " + _M3,
+    extra="- The only exception is a fetal death before 20 weeks and under 500 g"),
+ au("c-caso-has", ORG("<b>Death certificate</b>, untreated hypertensive, pulmonary edema:<br>- a: {{c1::pulmonary edema}}<br>- b: {{c1::heart failure}}<br>- c: hypertensive heart disease<br>- d: {{c1::hypertension}}<br>- Part II: {{c2::prostate cancer}}"),
+    {1: Z, 2: Z}, B_, "Caso hipertensão (lâminas 7–8)", "8", "central", NAO, EP, "Azul: lâminas 7–8 e apostila guia Aula 5 cap. 2 (caso 1). " + _M3,
+    extra="- Intervals: 5 hours, 2 months, 2 years, 35 years"),
+ au("c-caso-chagas", ORG("<b>Death certificate</b>, Chagas megacolon, acute abdomen:<br>- a: {{c1::septic shock}}<br>- b: {{c1::peritonitis}}<br>- c: {{c1::sigmoid volvulus}}<br>- d: Chagas megacolon<br>- Part II: {{c2::Chagas cardiomyopathy}}"),
+    {1: Z, 2: Z}, B_, "Caso megacólon chagásico (lâminas 11–12)", "12", "central", NAO, EP, "Azul: lâminas 11–12 e apostila guia Aula 5 cap. 2 (caso 3). " + _M3,
+    extra="- Cardiorespiratory arrest is not written: it is the mode of dying"),
+ au("c-caso-covid", ORG("<b>Death certificate</b>, diabetic with COVID-19 and respiratory failure:<br>- a: {{c1::ARDS}}<br>- b: {{c1::COVID-19}}<br>- Part II: {{c2::diabetes mellitus}}"),
+    {1: Z, 2: Z}, B_, "Caso COVID-19 (lâminas 13–14)", "14", "central", NAO, EP, "Azul: lâminas 13–14. " + _M3,
+    extra="- Intervals: 4 days and 7 days"),
+ au("c-ps-sem-diagnostico", "When a patient without a known diagnosis dies of natural causes in the <b>emergency room</b>, the body goes to the {{c1::SVO}} (death verification service)",
+    {1: Z}, C_, "Óbito no PS sem diagnóstico", "19", "central", NAO, EP, "Azul: lâmina 19 (óbitos no PS de pacientes sem diagnóstico prévio). " + _M3,
+    extra="- If there is any sign of violence, it goes to the IML instead"),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+CARDS.append(au("a-autopsia-violenta", "<b>Autopsy</b> is mandatory in every death from external causes (violence), ordered by the police regardless of the family's {{c1::consent}}",
+    {1: Z}, A_, "Autópsia obrigatória na morte violenta", "5", "central", NAO, EP, "Azul: UC3.pdf p. 156 (autópsia obrigatória por causas externas). " + _M3,
+    extra="- In natural deaths it is done only when the clinical cause is unclear"))
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+for _c_ in CARDS:
+    if _c_["key"] in ("a-autopsia", "a-nascido-vivo", "a-autopsia-violenta", "c-ps-sem-diagnostico"): _c_["sem_imagem"] = SEM_IMAGEM
+    if _c_["key"] in ("c-caso-has", "c-caso-chagas", "c-caso-covid"): _c_["sem_imagem"] = "caso clínico em texto; preencher a declaração não depende de imagem"
