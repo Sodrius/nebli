@@ -134,7 +134,7 @@ JUSTIFICATIVAS = {"capa": "capa ou divisória, sem conteúdo"}
 
 CAPITULO = [("Abbas, Imunologia Básica: respostas humorais, mecanismos efetores e maturação B", [
    ("ab-edicao", "Edição do receptor resgata B imatura autorreativa", "edicao"),
-   ("ab-ti", "B-1 e zona marginal respondem a antígenos TI", ["ti-crosslink", "b1-cavidades"]),
+   ("ab-ti", "B-1 e zona marginal respondem a antígenos TI", ["ti-crosslink", "b1-cavidades", "zona-marginal"]),
    ("ab-baff", "BAFF pode participar da troca para IgA", "ti-baff"),
    ("ab-fdc", "FDC exibem antígeno no centro germinativo; seleção por afinidade", ["fdc", "cdr"]),
    ("ab-pigr", "Receptor poli-Ig transporta IgA pelo epitélio", ["pigr", "transcitose"])])]

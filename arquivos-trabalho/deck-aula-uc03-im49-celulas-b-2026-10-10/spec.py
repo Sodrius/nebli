@@ -76,6 +76,10 @@ CARDS = [
  # ---------- C. B-1 × B-2 e plasmócito (slides 13–14) ----------
  au("b1-cavidades", "B-1 cells arise in fetal life and renew themselves in the pleural and peritoneal {{c1::cavities}}", {1: Z}, C_,
     "B-1: origem fetal e cavidades", "13; transcrição", "central", "consultas B-1/B1 sem card de B-1.", [1486952598683, 1540066474869], "Azul: lâmina 13."),
+ au("zona-marginal", "Like B-1 cells, splenic {{c1::marginal zone}} B cells respond mainly to T-independent antigens, producing IgM", {1: Z}, C_,
+    "B-2 da zona marginal × folicular", "13; apostila guia; UC3.pdf p. 308–309", "central", "consulta 'marginal zone B' sem card (15/10 noite).", [1486952598683, 1540066474869],
+    "Azul: apostila guia e UC3.pdf separam B-2 folicular (IgM+IgD, antígeno T-dependente) e B-2 da zona marginal (T-independente); estava só no inventário. Ajuste 15/10 noite (F-20261015-CLAUDE-05).",
+    extra="- Follicular B-2 cells carry IgM and IgD and respond to protein (T-dependent) antigens in the follicles"),
  au("b1-cd5", "B-1 cells are marked by surface {{c1::CD5}}", {1: R}, C_,
     "B-1 é CD5+", "13; transcrição", "lateral", "sem card nos acervos.", [1486952594655, 1486952598683], "Rosa: marcador da lâmina 13."),
  au("b1-igm", "B-1 cells secrete natural {{c1::polyreactive}} IgM", {1: Z}, C_,
