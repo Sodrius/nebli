@@ -10,7 +10,7 @@ V, Z, R = 3, 4, 5
 BUSCA = ("AnKing e cópias NEBLI vivas por frases (NETs, myeloperoxidase, nitric oxide, ADCC, natural killer, M1/M2, Kupffer, microglia, defensins, lysozyme, CD16, memory, Th17, pus, "
          "L-selectin, homing, NADPH oxidase, peroxynitrite, leprosy), 15/10: ")
 EXCLUIDOS = []
-FORA_DO_RECORTE = ["PRR, NOD e inflamassoma (lâminas 5–11): aula 08.", "Sinalização da fagocitose (24–25): Tab.", "Apresentação de antígenos (49–50): aula 20.", "Mediadores metabólicos (succinato): Tab."]
+FORA_DO_RECORTE = ["PRR, NOD e inflamassoma (lâminas 5–11): cards da aula 08 associados (15/10 noite).", "Sinalização da fagocitose (24–25): Tab.", "Apresentação de antígenos (49–50): aula 20.", "Mediadores metabólicos (succinato): Tab."]
 
 
 def au(key, text, flags, bloco, alvo, slide, autoria, falta, espelhos, motivo, extra="", duplicacao_ok=""):
@@ -145,5 +145,28 @@ CARDS.append(au("d-polarizacao", ORG("<b>Macrophage</b> profiles:<br>- {{c1::M1}
 CARDS.append(au("e-subtipo-ameaca", ORG("<b>Helper subset</b> matched to the threat:<br>- intracellular bacteria: {{c1::Th1}}, IFN-γ activates macrophages<br>- fungi, extracellular bacteria: {{c2::Th17}}, IL-17 recruits neutrophils<br>- worms: {{c3::Th2}}, IL-4 activates eosinophils, mast cells"),
     G(1, 2, 3), E_, "Subtipo T conforme a ameaça", "55", "central", NAO, EP, "Verde: lâminas 52–56 e transcrição (‘a diferenciação está relacionada com o reconhecimento’); card de conexão. " + _M2,
     extra="- Too much Th1 damages tissue; too much Th2 favors allergy", duplicacao_ok="conexão entre reconhecimento, subtipo e efetor"))
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): o deck percorre a aula inteira. As lâminas 4–21 retomam o reconhecimento inato;
+# os cards vivos da aula 08 são associados (mesma nota, sem revisão em dobro). Da monitoria P1 (aula 6) entram neutrófilo não-APC,
+# lactoferrina e DGC. Organizadores que só repetiam cards atômicos saem (Davi: tópicos “deveriam ser poucos”).
+_M3 = "Ajuste 15/10 noite: lâmina retomada na aula; card vivo da 08 associado (F-20261015-CLAUDE-05)."
+CARDS += [
+ sh(1791780342851, "verde", A_, "PRR reconhecem PAMP", "5", "Verde: lâmina 5. " + _M3),
+ sh(1792029609563, "azul", A_, "Famílias de PRR e localização", "6", "Azul: lâmina 6 (solúveis, membrana, citoplasma). " + _M3),
+ sh(1791743339358, "azul", A_, "TLR4 + CD14 reconhecem LPS", "8", "Azul: lâmina 8 (TLR4 e efeitos). " + _M3),
+ sh(1792029614609, "azul", A_, "MyD88 → NF-κB", "8", "Azul: lâmina 8. " + _M3),
+ sh(1792029613859, "azul", A_, "NOD2 reconhece muramil dipeptídeo", "10", "Azul: lâminas 9–10 (NOD1 e NOD2). " + _M3),
+ sh(1791743339740, "verde", A_, "Inflamassoma", "11", "Verde: lâmina 11. " + _M3),
+ sh(1791743339860, "verde", A_, "Inflamassoma → IL-1β e IL-18", "11", "Verde: lâmina 11. " + _M3),
+ sh(1791780352647, "verde", A_, "Macrófagos e mastócitos residentes iniciam a inflamação", "13", "Verde: lâminas 13–14 (células da inflamação). " + _M3),
+ sh(1792029608910, "verde", A_, "Reconhecimento inato × adaptativo", "20", "Verde: lâmina 20. " + _M3),
+ sh(1791647814494, "rosa", B_, "Lactoferrina quela ferro", "31", "Rosa: monitoria P1 aula 6 (o neutrófilo reduz o ferro disponível para a bactéria). Ajuste 15/10 noite."),
+ sh(1791743343884, "verde", B_, "DGC: defeito da NADPH oxidase", "29", "Verde: monitoria P1 aula 6 (sem burst oxidativo o neutrófilo não mata e forma-se granuloma); HY 1. Ajuste 15/10 noite."),
+ au("b-nao-apc", "<b>Neutrophils</b> phagocytose only to kill and, unlike macrophages, do not work as {{c1::antigen-presenting}} cells",
+    {1: Z}, B_, "Neutrófilo não é APC", "31; monitoria P1 aula 6", "central", "consulta 'neutrophils antigen-presenting' sem card (15/10 noite).", EP,
+    "Azul: monitoria P1 aula 6 (“o neutrófilo, que não é uma APC, fagocita a bactéria e busca somente sua morte”). Ajuste 15/10 noite.",
+    extra="- Macrophages and dendritic cells kill and also show peptides to T cells"),
+]
+_RET = {"b-cadeia-morte": "organizador repete NADPH oxidase, MPO e NOS atômicos", "d-polarizacao": "organizador repete M1, M2 e regulador atômicos"}
+CARDS = [c for c in CARDS if c["key"] not in _RET]
 import re as _re
 CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
