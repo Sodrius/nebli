@@ -1,0 +1,281 @@
+senvolvimento de respostas autoimunes; este 
+processo é chamado de seleção negativa.
+Os processos de maturação e seleção de 
+linfócitos B e T compartilham algumas ca-
+racterísticas importantes, mas diferem em 
+muitos aspectos. Começamos com o evento 
+central que é comum a ambas as linhagens: 
+a recombinação e a expressão de genes de 
+receptores antigênicos.
+FIGURA 4-8  Características do reconhecimento antigênico por imunoglobulinas e receptores de 
+antígenos das células T.  Esta tabela resume as semelhanças e as diferenças importantes das moléculas de Ig e TCR, os 
+receptores de antígenos dos linfócitos B e T, respectivamente.
+
+=== p.85
+	
+Capítulo 4 – Reconhecimento Antigênico no Sistema Imunológico Adaptativo	
+83
+Produção de Receptores de Antígenos 
+Diversos
+A formação de genes funcionais que 
+codificam os receptores antigênicos de 
+linfócitos B e T é iniciada pela recombi-
+nação somática dos segmentos de genes 
+que codificam para as regiões variáveis 
+dos receptores, e a diversidade é gerada 
+durante esse processo. As células-tronco 
+hematopoiéticas da medula óssea e os pro-
+genitores linfoides iniciais contêm genes de 
+Ig e TCR na sua configuração herdada ou 
+na linhagem germinativa. Nessa configu-
+ração, os loci da cadeia pesada e da cadeia 
+leve da Ig e os loci das cadeias a e b do TCR 
+contêm múltiplos genes de regiões variáveis 
+(V), numerados até algumas centenas, e um 
+ou alguns genes de regiões constantes (C) 
+(Fig. 4-10). Entre os genes V e C existem 
+grupos de várias sequências de codificação 
+curtas, chamadas de segmentos gênicos de 
+diversidade (D) e de junção (J). (Todos os 
+loci de receptores de antígenos contêm genes 
+V, J e C, mas somente as cadeias pesadas 
+de Ig e os loci b do TCR também contêm 
+segmentos gênicos D.) O comprometimento 
+do progenitor do linfócito para tornar-se um 
+linfócito B está associado à recombinação de 
+um segmento gênico aleatoriamente sele-
+cionado no locus das cadeias pesadas de Ig – 
+primeiro um segmento genético D com um 
+J, seguido pelo rearranjo de um segmento V 
+fundido com o elemento D-J (Fig. 4-11). As-
+sim, o comprometimento da célula B imatu-
+ra agora possui um éxon recombinado VDJ 
+no locus da cadeia pesada. Este gene é trans-
+crito, e na transcrição primária, o éxon VDJ 
+é unido aos éxons da região C da cadeia m, a 
+maioria da região 59 C, para formar um RNA 
+mensageiro (mRNA) m completo. O mRNA 
+m é traduzido de modo a originar a cadeia 
+FIGURA 4-9  Estágios da maturação de linfócitos.  Durante a maturação, linfócitos B e T passam por ciclos de 
+proliferação e expressão de proteínas dos receptores de antígenos por recombinação gênica. Células que falham na expressão 
+dos receptores intactos funcionais morrem por apoptose, pois elas não recebem os sinais necessários para a sobrevivência. No 
+fim do processo, as células passam pela seleção positiva e negativa. Os linfócitos apresentados podem ser B ou T.
+
+=== p.86
+84	
+Capítulo 4 – Reconhecimento Antigênico no Sistema Imunológico Adaptativo
+pesada m, que é a primeira proteína de Ig 
+sintetizada durante a maturação da célula 
+B. Essencialmente, a mesma sequência de 
+recombinação de DNA e o splicing do RNA 
+levam à produção de uma cadeia leve em 
+células B, com exceção dos loci de cadeia leve 
+que necessitam de segmentos D, portanto, 
+um éxon da região V se recombina direta-
+mente com um segmento J. O rearranjo da 
+cadeia TCR a e dos genes da cadeia b em 
+linfócitos T é semelhante àquele das cadeias 
+Ig L e H, respectivamente.
+A recombinação somática de segmentos 
+genéticos V e J, ou de V, D e J, é mediada 
+por uma enzima linfoide-específica, recom-
+binase VDJ, e enzimas adicionais, a maio-
+ria das quais não são linfócito-específicas 
+e estão envolvidas nas quebras no DNA de 
+dupla-hélice. A recombinase VDJ é cons-
+tituída pelas proteínas do gene de ativação da 
+recombinase 1 e 2 (RAG-2 e RAG-1). Ela re-
+conhece sequências de DNA que flanqueiam 
+todo o receptor de antígeno e os segmentos 
+genéticos V, D, J. Como resultado desse 
+FIGURA 4-10  A organização dos loci do receptor de antígenos na linhagem germinativa.  Na linhagem 
+germinativa, os loci dos genes do receptor de antígenos que foram herdados contêm segmentos codificadores (éxons, mos-
+trados aqui como blocos coloridos de diversos tamanhos) que estão separados por segmentos que não se expressam (íntrons, 
+mostrados aqui na forma de secções cinza). Cada região constante (C) da cadeia pesada das Ig e da região C do receptor de 
+célula T (TCR) consiste em múltiplos éxons que codificam os domínios das regiões C; a organização do éxon Cm no locus da 
+cadeia pesada das Ig é usada como exemplo. Os diagramas mostram os loci do receptor de antígenos dos seres humanos; a 
+organização básica é a mesma em todas as espécies, mas a ordem exata e o número de genes podem variar. O tamanho dos 
+segmentos e a distância entre eles não estão na escala real. D, diversidade; J, junção; L, sequência-líder (uma pequena extensão 
+de nucleotídios que guia as proteínas através do retículo endoplasmático, sendo clivada das proteínas maduras); V, variável.
+
+=== p.87
+	
+Capítulo 4 – Reconhecimento Antigênico no Sistema Imunológico Adaptativo	
+85
+reconhecimento, a recombinase liga dois 
+segmentos gênicos Ig ou TCR próximos e 
+juntos e cliva o DNA em lugares específicos. 
+As falhas do DNA são reparadas pelas ligases, 
+produzindo um éxon recombinado completo 
+VJ ou VDJ sem intervir nos segmentos do 
+DNA (Fig. 4-11). A recombinase VDJ é ex-
+pressa somente em linfócitos B e T imatu-
+ros. Embora a mesma enzima possa mediar 
+a recombinação de todos os genes de Ig e 
+TCR, os genes das cadeias pesadas e leves são 
+expressos somente em células B, e os genes 
+das cadeias a e b são reajustados e expres-
+sos somente em células T. A especificidade 
+da linhagem de rearranjo do gene receptor 
+parece estar associada à expressão de fatores 
+de transcrição específicos da linhagem.
+A diversidade dos receptores de antí-
+genos é produzida pelo uso de diferentes 
+combinações de segmentos gênicos V, 
+D e J em diferentes clones de linfócitos 
+(denominadas diversidade combinató-
+ria) e também por meio de alterações na 
+sequência de nucleotídios inseridas nas 
+FIGURA 4-11  Recombinação e expressão dos genes de imunoglobulina (Ig).  A expressão de uma cadeia 
+pesada de imunoglobulina envolve dois eventos de recombinação gênica (junção de D-J, seguida pela junção de uma região V ao 
+complexo DJ, com a deleção e a perda dos segmentos gênicos intermediários). O gene recombinado é transcrito, e o segmento 
+VDJ passa pela edição (splicing) para a primeira cadeia pesada de RNA (que é m), para dar origem ao mRNA m. O mRNA é traduzido 
+de modo a produzir a proteína da cadeia pesada m. A recombinação de outros genes de receptores de antígenos, isto é, a cadeia 
+leve da Ig e as cadeias a e b do receptor de célula T (TCR), segue essencialmente a mesma sequência; exceto nos loci em 
+que o segmento D não faz parte (cadeia leve de Ig e TCR a), um gene V recombina-se diretamente com o segmento gênico J.
+
+=== p.88
+86	
+Capítulo 4 – Reconhecimento Antigênico no Sistema Imunológico Adaptativo
+junções dos segmentos gênicos recombi-
+nados V, D e J (chamadas de diversidade 
+juncional) (Fig. 4-12). A diversidade combi-
+natória é limitada pelo número disponível de 
+segmentos gênicos V, D e J, mas a diversidade 
+juncional é quase ilimitada. Essa diversida-
+de juncional é produzida por três tipos de 
+alterações na sequência, cada um dos quais 
+gera mais sequências que aquelas presentes 
+na linhagem germinativa. Em primeiro lugar, 
+FIGURA 4-12  Mecanismos de diversidade dos receptores de antígeno.  A diversidade de imunoglobulinas 
+(Ig) e receptores de células T é produzida pela combinação aleatória dos segmentos gênicos V, D e J, que são limitados pelo 
+número desses segmentos e pela remoção e adição de nucleotídios às junções V-J ou V-D-J, que são quase sempre ilimitadas. A 
+diversidade juncional aumenta as variações nas regiões CDR3 de proteínas do receptor de antígeno, uma vez que CDR3 é o local 
+de recombinação de VJ e VDJ. São apresentadas as contribuições estimadas desses mecanismos para o tamanho potencial do 
+repertório dos receptores de células B e T maduras. Além disso, a diversidade é aumentada pela capacidade de diferentes cadeias 
+pesadas e leves de Ig, ou diferentes cadeias a e b do TCR, estando associada a diferentes células, formando diferentes receptores 
+(não mostrado). Embora o limite superior do número de proteínas de imunoglobulina (Ig) e receptor da célula T (TCR) que podem ser 
+expressas seja muito grande, isso pode ser estimado para cada conteúdo individual na ordem de somente 107 clones de células B 
+e T, com especificidades e receptores distintos; em outras palavras, somente uma fração do repertório potencial pode ser expres-
+sa realmente. (Modificada de Davis MM, Bjorkman PJ: T-cell antigen receptor genes and T-cell recognition. Nature 334:395–402, 1988.)
+
+=== p.89
+	
+Capítulo 4 – Reconhecimento Antigênico no Sistema Imunológico Adaptativo	
+87
+exonucleases podem remover nucleotídios a 
+partir de segmentos genéticos V, D, J nos lo-
+cais de recombinação. Segundo, uma enzima 
+linfócito-específica denominada desoxirribo-
+nucleotidil transferase terminal (TdT) catalisa 
+a adição aleatória desses nucleotídios que não 
+são parte da linhagem germinativa para as 
+junções entre os segmentos V e D e os seg-
+mentos D e J, formando as chamadas regiões 
+N. Terceiro, durante um estágio intermediário 
+do processo de recombinação V(D)J, antes de 
+as falhas do DNA serem reparadas, pode ser 
+gerada maior acessibilidade das sequências de 
+DNA que são então preenchidas, formando 
+“nucleotídios-P”, introduzindo ainda mais 
+variabilidade nesses sítios de recombinação.
+Como resultado desses mecanismos, a 
+sequência de nucleotídios no sítio da re-
+combinação V(D)J ou as moléculas de TCR 
+criadas por um clone de linfócito diferem da 
+sequência no sítio de V(D)J do anticorpo ou 
+das moléculas de TCR gerados por qualquer 
+outro clone. Essas junções e os segmentos 
+D e J codificam os aminoácidos da região 
+CDR3, que foi mencionada como sendo a 
+mais variável das CDR e a mais importante 
+para o reconhecimento de antígenos. As-
+sim, a diversidade juncional maximiza a 
+variabilidade de anticorpos e TCR nas re-
+giões que ligam os antígenos. No processo 
+de criação da diversidade juncional podem 
+ser produzidas sequências genéticas que não 
+podem codificar proteínas e, dessa forma, 
+não são funcionais. Este é o preço que o 
+sistema imune paga pela geração da diver-
+sidade extrema. O risco de produzir genes 
+não funcionais é também a razão pela qual 
+o processo de maturação dos linfócitos con-
+tém pontos de controle nos quais apenas as 
+células com receptores úteis são selecionadas 
+para sobreviver.
+Maturação e Seleção dos Linfócitos B
+A maturação dos linfócitos B ocor-
+re principalmente na medula óssea 
+(Fig. 4-13). Os progenitores comprometidos 
+com a linhagem de células B proliferam, dan-
+do origem a um grande número de precur-
+sores de linfócitos B, chamados de células 
+pró-B. Estas células começam a rearranjar 
+genes de Ig, inicialmente no locus de cadeia 
+pesada. As células que fazem rearranjos VDJ 
+produtivos no locus de cadeia pesada de Ig 
+desenvolvem células pré-B, definidas pela 
+presença da proteína de cadeia pesada de Ig 
+m, principalmente o citoplasma. Algumas das 
+proteínas m são expressas na superfície 
+das células associadas a duas outras proteí-
+nas invariáveis, denominadas cadeia leve 
+sub-rogada, pois são semelhantes às cadeias 
+leves e estão associadas a uma cadeia pesada. 
+FIGURA 4-13  Estágios de maturação e seleção dos linfócitos B.  A maturação dos linfócitos B segue estágios 
+sequenciais, cada um dos quais caracterizado por alterações particulares na expressão gênica de imunoglobulina (Ig) e no padrão 
+na expressão de proteínas de Ig. A falha da expressão funcional nos estágios de células pró-B e pré-B (cadeia pesada e cadeia 
+leve de Ig, respectivamente) resulta na morte das células pela ativação da via de apoptose. O pré-BCR consiste em uma proteína 
+associada a uma membrana Ig m ligada a duas outras proteínas chamadas substitutos de cadeias leves, porque podem tomar o 
+lugar da cadeia leve de uma molécula completa de Ig. BCR, receptor de célula B.
+
+=== p.90
+88	
+Capítulo 4 – Reconhecimento Antigênico no Sistema Imunológico Adaptativo
+A cadeia m e a cadeia leve sub-rogada asso-
+ciam-se a moléculas de sinalização Iga e Igb 
+para formar o complexo receptor da célula 
+pré-B (pré-BCR). O pré-BCR montado for-
+nece sinais que promovem a sobrevivência e 
+a proliferação das células da linhagem B que 
+realizam um rearranjo produtivo no locus Ig 
+da cadeia H. Este é o primeiro ponto de con-
+trole do desenvolvimento das células B, onde 
+todas as células pré-B que expressam uma 
+cadeia pesada m funcional são selecionadas 
+e expandidas (um componente essencial pa-
+ra o pré-BCR e BCR). As pré-células B que 
+realizam rearranjos fora da estrutura (não 
+produtivos) no locus de cadeia pesada não 
+conseguem criar a proteína m, não podem 
+expressar um pré-BCR ou receber sinais de 
+pré-BCR e morrem por morte celular pro-
+gramada (apoptose).
+O complexo pré-BCR também sinaliza o 
+processo de fechamento da recombinação 
+dos genes da cadeia pesada da Ig no segundo 
+cromossomo, pois cada célula B pode expres-
+sar uma cadeia pesada Ig de somente um dos 
+alelos parentais herdados. Esse processo é 
+chamado de exclusão alélica, e assegura 
+que cada célula possa expressar receptores 
+de uma única especificidade. O pré-BCR tam-
+bém desencadeia a recombinação do locus 
+da cadeia leve de Ig k e a cadeia leve l é 
+produzida somente se o locus da cadeia k re-
+combinado falhar em expressar uma proteína 
+funcional ou se a cadeia k gerar um receptor 
+autorreativo potencialmente prejudicial e que 
+deve ser eliminado, pelo processo chamado 
+de edição do receptor (Cap. 9). Qualquer uma 
+das cadeias leves que for produzida e for fun-
+cional é associada à cadeia m para formar o 
+receptor de antígeno completo IgM associado 
+à membrana. Esse receptor novamente trans-
+mite sinais que promovem sobrevivência, 
+preservando as células que expressam re-
+ceptores de antígenos completos, o segundo 
+ponto de controle durante a maturação. 
+Sinais dos receptores de antígeno também 
+finalizam a produção da enzima recombinase 

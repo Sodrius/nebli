@@ -155,3 +155,34 @@ import re as _re
 CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
 for _c_ in CARDS:
     if _c_["key"] == "b-transposons": _c_["extra"] = "- Transposon enzymes also cut DNA at specific signal sequences and rejoin the ends"
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): Abbas Básica cap. 4 (produção de receptores diversos; maturação B) lido;
+# apostila guia Imuno Aula 4 e monitoria P1 aula 4 conferidas.
+_M3 = "Ajuste 15/10 noite (F-20261015-CLAUDE-05)."
+CARDS += [
+ au("a-tres-loci", "<b>Immunoglobulins</b> are encoded by three loci on different chromosomes, one for the heavy chain and two for the κ and {{c1::λ}} light chains",
+    {1: Z}, A_, "Três loci de Ig", "8", "central", NAO, EP, "Azul: monitoria P1 aula 4 e apostila guia Aula 4 cap. 1. " + _M3,
+    extra="- Each B cell uses only one light-chain type, κ or λ"),
+ au("b-ordem-cadeias", "Developing <b>B cells</b> rearrange the {{c1::heavy::heavy/light}} chain first, at the pro-B stage, and only then the light chain",
+    {1: Z}, B_, "Pesada antes da leve", "11", "central", NAO, EP, "Azul: apostila guia Aula 4 cap. 1 e Abbas cap. 4 (pró-B → pré-B → B imatura). " + _M3,
+    extra="- The light chain lacks D segments, so it needs a single V–J join"),
+ sh(1791629587148, "rosa", B_, "Pré-B: μ citoplasmático", "11", "Rosa: Abbas cap. 4 (estágios de maturação B); viva na 49. " + _M3),
+ au("b-pre-bcr", "In <b>pre-B cells</b> the μ heavy chain pairs with a {{c1::surrogate light chain}}, forming the pre-BCR that checks the heavy chain works",
+    {1: Z}, B_, "Pré-BCR: primeiro ponto de controle", "14", "central", "consultas surrogate/pre-BCR sem card (15/10 noite).", EP, "Azul: Abbas cap. 4 (pré-BCR, primeiro ponto de controle, exclusão alélica). " + _M3,
+    extra="- The same signal stops heavy-chain rearrangement on the other allele and starts κ rearrangement"),
+ au("b-splicing", "After <b>V(D)J joining</b>, RNA {{c1::splicing}} removes the intron between the J segment and the constant-region exon",
+    {1: Z}, B_, "Splicing une VDJ à região C", "11", "central", NAO, EP, "Azul: monitoria P1 aula 4 e Abbas fig. 4-11. " + _M3,
+    extra="- The DNA between V, D and J is deleted; the J–C intron is removed only in the RNA"),
+ au("b-heptamero", "<b>RAG</b> cuts DNA exactly at the edge of the {{c1::heptamer}}, while the nonamer serves as its binding site",
+    {1: R}, B_, "Heptâmero = corte; nonâmero = ligação", "13", "lateral", NAO, EP, "Rosa: apostila guia Aula 4 cap. 3. " + _M3,
+    extra="- The 12- or 23-bp spacer between them enforces the 12/23 rule"),
+ au("c-exonuclease", "Besides added P and N nucleotides, {{c1::exonucleases}} trim bases from the <b>coding ends</b>, adding to junctional diversity",
+    {1: R}, C_, "Exonucleases na diversidade juncional", "17", "lateral", NAO, EP, "Rosa: Abbas cap. 4 (três alterações na junção) e apostila guia Aula 4 cap. 3. " + _M3,
+    extra="- Junctional changes concentrate variability in CDR3"),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+CARDS.append(au("a-policlonal", "Because most <b>antigens</b> carry several epitopes, the normal antibody response is {{c1::polyclonal}}, unlike the single clone of myeloma",
+    {1: Z}, A_, "Resposta policlonal", "7", "central", NAO, EP, "Azul: exercício 8 (gp120 do HIV: mono ou policlonal?) e UC3.pdf p. 127. " + _M3,
+    extra="- Each clone recognizes one epitope of the antigen"))
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+for _c_ in CARDS:
+    if _c_["key"] == "ak-mieloma": _c_["clinica_lateral"] = "mieloma é a prova histórica de um clone = um anticorpo; doença é da Pato/hemato"
