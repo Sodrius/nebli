@@ -357,7 +357,7 @@ SLIDES = [(1, 'capa', 'Capa', []),
  (52,
   'conteudo',
   'Tabela dos quatro métodos (resumo)',
-  [('h13', 'Resumo: USG, TC, RM e radiografia — vantagens e limitantes', ['usg-limites', 'tc-rapido-res', 'rm-demorado', 'rx-contraste-baixo'])]),
+  [('h13', 'Resumo: USG, TC, RM e radiografia — vantagens e limitantes', ['usg-limites', 'tc-rapido-res', 'rx-contraste-baixo']), ('h13b', 'Reconhecer cada modalidade na imagem (provas rad-01)', ['mod-pistas', 'mod-img-rx', 'mod-img-tc', 'mod-img-us', 'mod-img-rm'])]),
  (53,
   'conteudo',
   'Angiografia digital (sala de hemodinâmica)',
@@ -449,7 +449,7 @@ EXERCICIOS = [("Provas UC03 (índice rad-01, 'modalidade de exame', 2016–2025)
 
 
 # Análise do deck-prova 2026-10-13: itens cujo card saiu desta aula passam a exclusão com o motivo.
-_RETIRADOS = {"acr-notas": "detalhe-numerico", "trans-ossif": "exemplo", "abdome-venosa": "detalhe", "rm-sedacao": "clinica", "rm-marcapasso": "clinica", "rm-demorado": "repetido", "fatsat": "detalhe-tecnico", "colangiorm": "exemplo", "angio-tipos": "detalhe", "angio-radiacao-iodo": "repetido", "angio-risco": "clinica", "mn-radiofarmaco": "detalhe", "sh-1791022171899": "exemplo", "sh-1791022169824": "exemplo", "sh-1791054020921": "exemplo"}
+_RETIRADOS = {"sequencia-def": "cloze-generico", "mn-baixa-res": "repetido", "angio-terapeutica": "repetido", "rx-densidades-4": "repetido", "acr-notas": "detalhe-numerico", "trans-ossif": "exemplo", "abdome-venosa": "detalhe", "rm-sedacao": "clinica", "rm-marcapasso": "clinica", "rm-demorado": "repetido", "fatsat": "detalhe-tecnico", "colangiorm": "exemplo", "angio-tipos": "detalhe", "angio-radiacao-iodo": "repetido", "angio-risco": "clinica", "mn-radiofarmaco": "detalhe", "sh-1791022171899": "exemplo", "sh-1791022169824": "exemplo", "sh-1791054020921": "exemplo"}
 def _remap(dest):
     ds = [dest] if isinstance(dest, str) else list(dest)
     if any(isinstance(d, str) and d.startswith('EXC') for d in ds): return dest

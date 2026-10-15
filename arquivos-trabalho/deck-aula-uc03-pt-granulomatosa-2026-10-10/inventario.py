@@ -75,3 +75,26 @@ CAPITULO=[(t,[(i,x,_restore_dest(i,d)) for i,x,d in items]) for t,items in CAPIT
 
 _PRINCIPIOS = [(2, 'padrao-cronico', 'Padrão organizado de inflamação crônica'), (2, 'funcao-contencao', 'Organização limita dispersão do estímulo'), (3, 'imune-antigeno', 'Antígeno persistente sustenta cooperação T-macrófago'), (5, 'ativacao-microbicida', 'IFN-γ aumenta capacidade microbicida'), (6, 'reparo-fibroblasto', 'Sinais macrofágicos estimulam fibroblastos a depositar colágeno'), (10, 'necrose-imunolesao', 'Lesão imune contribui para necrose central'), (10, 'caseoso-padrao', 'Padrão caseoso com necrose central')]
 SLIDES=[(n,t,tit,items+[(k,x,k) for slide,k,x in _PRINCIPIOS if slide==n]) for n,t,tit,items in SLIDES]
+
+# Segunda leitura: não converter exemplos clínicos e nomenclatura isolada em
+# obrigações de memorização. Permanecem nas lâminas e nos Extras dos princípios.
+_SECOND_REMOVED = {'fungos','crohn','hanseniase','mcp1','mif','proteases','m2',
+ 'caseosa','fases','calcificacao-distrofica','sem-caseosa',
+ 'ghon-foco','ghon-complexo','secundaria','cavitacao','miliar','sarcoidose-morfologia',
+ 'visual-nao-caseoso','ziehl','visual-baar','baar-limite','acidos-micolicos','il10'}
+_SECOND_REMOVED.add('ifng-mhcii')
+def _second_dest(i, d):
+    candidates = [i]
+    if isinstance(d, (list, tuple)): candidates += list(d)
+    candidates += [_ALIAS.get(x, x) for x in candidates]
+    if any(x in _SECOND_REMOVED for x in candidates):
+        return 'EXC: F-20261013-CODEX-04; detalhe clínico, morfológico ou molecular mantido como ilustração, sem cartão próprio no recorte de mecanismo geral pedido por Davi'
+    return d
+SLIDES = [(n,t,tit,[(i,x,_second_dest(i,d)) for i,x,d in items]) for n,t,tit,items in SLIDES]
+CAPITULO = [(t,[(i,x,_second_dest(i,d)) for i,x,d in items]) for t,items in CAPITULO]
+EXERCICIOS = [(t,[(i,x,_second_dest(i,d)) for i,x,d in items]) for t,items in EXERCICIOS]
+
+# O mesmo conceito aparece na monitoria e nas provas. Cada ocorrência precisa
+# ter ID próprio no inventário, embora ambas possam apontar ao mesmo card.
+EXERCICIOS = [(t, [(f'prova-{i}' if t.startswith('Provas ') else i, x, d)
+                   for i,x,d in items]) for t,items in EXERCICIOS]

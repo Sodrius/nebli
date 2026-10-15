@@ -12,15 +12,15 @@ SLIDES = [
  (1, "capa", "Capa", []),
  (2, "conteudo", "Três tipos de manifestação dos fungos", [("tipos", "Alergia, toxicose (micetismo/micotoxicose) e infecção", "tipos-doenca")]),
  (3, "conteudo", "Classificação: superficiais e cutâneas", [
-   ("superficial-pv", "Superficial: pitiríase versicolor (Malassezia)", "classificacao"),
+   ("superficial-pv", "Superficial: pitiríase versicolor (Malassezia)", ["org-classificacao", "classificacao"]),
    ("cutaneas", "Cutâneas: dermatófitos (Trichophyton, Nannizzia, Epidermophyton) e candidose", ["classificacao", "dermatofitos-tinea"])]),
  (4, "conteudo", "Classificação: subcutâneas e sistêmicas", [("subcut-sist", "Esporotricose; histoplasmose, PCM, criptococose, candidose, aspergilose",
-   EXC + "lista das aulas seguintes (micoses subcutâneas e sistêmicas), sem alvo desta aula")]),
+   "org-classificacao")]),
  (5, "conteudo", "Aspectos gerais", [
-   ("def-superficial", "Micose superficial: restrita ao estrato córneo, pouca ou nenhuma resposta imune", ["superficial-imune", "estrato-corneo-pv"]),
+   ("def-superficial", "Micose superficial: restrita ao estrato córneo, pouca ou nenhuma resposta imune", ["classificacao", "org-superficiais", "estrato-corneo-pv"]),
    ("def-dermatofitose", "Dermatofitose: dermatófitos que usam queratina; pele, pelos, unhas", "dermatofitose-def"),
    ("piedra-negra", "Piedra negra", "piedra-negra"), ("piedra-branca", "Piedra branca", "piedra-branca"), ("tinha-negra", "Tinha negra", "tinea-nigra"),
-   ("nao-dermatofitos", "Micoses cutâneas por não dermatófitos e candidíase", ["classificacao", "nao-dermatofitos"])]),
+   ("nao-dermatofitos", "Micoses cutâneas por não dermatófitos e candidíase", ["org-cutaneas", "nao-dermatofitos"]), ("generos", "Gêneros de dermatófitos", "org-generos")]),
  (6, "conteudo", "Anatomia da pele", [("pele", "Epiderme, derme e subcutâneo com microbiota", EXC + "figura de revisão de histologia da pele, sem alvo próprio")]),
  (7, "conteudo", "Epidemiologia global", [("prevalencia", "20–25% da população; 30–70% portadores assintomáticos", "portadores")]),
  (8, "conteudo", "Habitat", [
@@ -40,15 +40,15 @@ SLIDES = [
  (13, "conteudo", "Patogenia: fatores do fungo e do hospedeiro", [
    ("hospedeiro", "Integridade da epiderme, umidade, calçado, populações fechadas", ["atletas", "umidade"]),
    ("imunidade", "Fatores imunológicos do hospedeiro", "imunidade-t")]),
- (14, "conteudo", "Tinea corporis", [
-   ("corporis", "Lesões anulares no corpo", ["tinea-corporis", "corporis-imagem"]),
-   ("ringworm", "Tinha = ringworm, pruriginosa", ["tinea-corporis", "pruriginosa"])]),
+ (14, "conteudo", "Tinea corporis", [("tinhas-mapa", "Tinhas nomeadas pelo local", "org-tinhas"), 
+   ("corporis", "Lesões anulares no corpo", ["org-tinhas", "corporis-imagem"]),
+   ("ringworm", "Tinha = ringworm, pruriginosa", ["ringworm", "pruriginosa"])]),
  (15, "conteudo", "Tinea corporis (extensa)", [("corporis-extensa", "Lesões confluentes", "corporis-imagem")]),
  (16, "conteudo", "Tinea pedis", [("pedis", "Pés, espaços interdigitais", "tinea-pedis")]),
  (17, "conteudo", "Tinha imbricata", [("imbricata", "Trichophyton concentricum", "imbricata")]),
  (18, "conteudo", "Tinea pedis (fotos)", [("pedis-fotos", "Formas plantares/interdigitais", "tinea-pedis")]),
- (19, "conteudo", "Tinea cruris", [("cruris", "Região inguinal", ["tinea-cruris", "recorrencia-cruris"])]),
- (20, "conteudo", "Tinea cruris (foto)", [("cruris-foto", "Placa de borda ativa", "tinea-cruris")]),
+ (19, "conteudo", "Tinea cruris", [("cruris", "Região inguinal", ["org-tinhas", "recorrencia-cruris"])]),
+ (20, "conteudo", "Tinea cruris (foto)", [("cruris-foto", "Placa de borda ativa", "EXC: foto clínica ilustrativa; tinea cruris recuperada no organizador org-tinhas")]),
  (21, "conteudo", "Tinea manum", [("manum", "Mãos", "tinea-manum")]),
  (22, "conteudo", "Trichophyton indotineae", [
    ("indotineae", "Dermatofitose emergente; 1º caso no Brasil", "indotineae"),

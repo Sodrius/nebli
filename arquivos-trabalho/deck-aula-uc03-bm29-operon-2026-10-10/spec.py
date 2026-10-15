@@ -72,7 +72,7 @@ CARDS = [
  au("pontuacao", "Promoter positions get {{c1::negative}} numbers because they lie upstream of the +1 transcription start site", {1: Z}, A_,
     "Numeração +1, montante e jusante", "4; transcrição I", "central", "sem card de numeração do promotor.", PROM,
     "Azul: base para ler −10 e −35.", extra="- Downstream positions, toward the terminator, are positive"),
- au("neg-pos", "Regulation by a repressor is called {{c1::negative}} control, whereas regulation by an activator is called {{c2::positive}} control", {1: V, 2: V}, A_,
+ au("neg-pos", "Regulation by a repressor is called {{c1::negative}} control, whereas regulation by an activator is called {{c1::positive}} control", {1: V}, A_,
     "Regulação negativa × positiva", "5, 12; exercício 1b", "prova", "MCAT só tem 'repressor turns off / activator turns on', sem os termos.", LAC,
     "Verde: vocabulário do exercício 1 e da P2.", extra="- The terms name the regulatory protein, not whether a signal turns the gene on or off"),
  au("cis", "Regulatory DNA sequences such as the promoter and operator act in {{c1::cis}}, only on the DNA molecule that carries them", {1: V}, A_,
@@ -261,7 +261,7 @@ CARDS = [
  au("alfa-ctd", "CAP contacts the C-terminal domain of the {{c1::α}} subunit of RNA polymerase", {1: R}, I_,
     "CAP–αCTD", "45, 36, 42; transcrição IV; monitoria", "lateral", "sem card.", LAC, "Rosa: detalhe da figura."),
  # ---------- J. Síntese (lâmina 46) ----------
- au("dois-sensores", "In the lac operon, the repressor senses {{c1::lactose}}, whereas CAP senses {{c2::glucose}}", {1: V, 2: V}, H_,
+ au("dois-sensores", "In the lac operon, the repressor senses {{c1::lactose}}, whereas CAP senses {{c1::glucose}}", {1: V}, H_,
     "Dois sinais, dois reguladores", "46; transcrição IV; P2 2025 q1.9", "prova", "AnKing dá os cenários, não a divisão de papéis.", COND,
     "Verde: frase-síntese da aula.", extra="- Repressor = negative control; CAP = positive control"),
 ]

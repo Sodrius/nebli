@@ -303,7 +303,7 @@ CARDS = [
  # ---------- G. DNA recombinante (lâminas 36–40) ----------
  ak("palindromo", 1468549155531, Z, G_, "Palíndromo: sequência igual nas duas fitas", "37", "Azul: lâmina 37, HY 4."),
  ak("endonuclease", 1468549176064, Z, G_, "Endonucleases cortam no meio da fita", "37", "Azul: lâmina 37."),
- au("extremidades", "Cleavage at the axis of symmetry produces {{c1::blunt}} ends, whereas staggered cleavage produces {{c2::cohesive}} ends", V, G_,
+ au("extremidades", "Cleavage at the axis of symmetry produces {{c1::blunt}} ends, whereas staggered cleavage produces {{c1::cohesive}} ends", V, G_,
     "Extremidades abruptas e coesivas", "37", "central", "sem card nos acervos.", [1468549155531, 1468549176064], "Verde: lâmina 37.",
     extra="- Cohesive (sticky) ends pair with complementary ends cut by the same enzyme"),
  au("ecori", "EcoRI, named after E. coli, cuts the palindromic sequence {{c1::GAATTC}}", R, G_,

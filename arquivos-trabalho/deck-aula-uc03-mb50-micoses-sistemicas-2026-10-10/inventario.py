@@ -7,15 +7,15 @@ EXC = "EXC: "
 
 SLIDES = [
  (1, 'capa', 'Capa', []),
- (2, 'conteudo', 'Classificação das micoses', [('classif', 'Superficiais, cutâneas, subcutâneas, sistêmicas (PCM, histo, cripto, candidose)', ['sist-caracteristicas'])]),
+ (2, 'conteudo', 'Classificação das micoses', [('classif', 'Superficiais, cutâneas, subcutâneas, sistêmicas (PCM, histo, cripto, candidose)', ['org-sistemicas', 'sist-caracteristicas'])]),
  (3, 'conteudo', 'Figura sem texto', [('fig3', 'Figura geral das micoses', ['sist-caracteristicas'])]),
- (4, 'conteudo', 'Características comuns', [('comuns', 'Distribuição geográfica, solo/dejetos, vias aéreas', ['sist-caracteristicas', 'sh-1791557944155', 'geografica'])]),
+ (4, 'conteudo', 'Características comuns', [('comuns', 'Distribuição geográfica, solo/dejetos, vias aéreas', ['org-sist-comuns', 'sist-caracteristicas', 'sh-1791557944155', 'geografica'])]),
  (5, 'conteudo', 'PCM: histórico e distribuição', [('hist-pcm', 'México → Argentina; Brasil > Colômbia > Venezuela; SP', ['pcm-america']), ('datas', 'datas históricas', 'EXC: datas históricas')]),
  (6, 'conteudo', 'P. brasiliensis e P. lutzii', [('especies', 'Duas espécies', ['pcm-especies'])]),
  (7, 'conteudo', 'PCM: habitat e contágio', [('habitat', 'Solo e vegetais; inalação, ferimentos; paracoccidioidina', ['pcm-inalacao', 'paracoccidioidina'])]),
  (8, 'conteudo', 'PCM: solo de café e tatu', [('cafe', 'Isolado de solo de café', ['pcm-cafe']), ('tatu', 'Tatu como reservatório', ['pcm-tatu'])]),
  (9, 'conteudo', 'PCM: mortalidade', [('mort', '8ª causa de morte entre infecciosas e parasitárias', ['pcm-mortalidade'])]),
- (10, 'conteudo', 'PCM: formas aguda e crônica', [('cronica', 'Crônica do adulto 90%', ['pcm-cronica']), ('juvenil', 'Aguda/subaguda juvenil 3–5%, grave', ['pcm-juvenil', 'pcm-linfonodos'])]),
+ (10, 'conteudo', 'PCM: formas aguda e crônica', [('cronica', 'Crônica do adulto 90%', ['org-pcm-formas', 'pcm-cronica']), ('juvenil', 'Aguda/subaguda juvenil 3–5%, grave', ['pcm-juvenil', 'pcm-linfonodos'])]),
  (11, 'conteudo', 'PCM: lesões', [('lesoes', 'Lesões mucosas e pulmonares', ['pcm-mucosa', 'pcm-pulmao'])]),
  (12, 'conteudo', 'PCM: exame direto', [('direto', 'Leveduras com múltiplos brotos', ['pcm-brotos'])]),
  (13, 'conteudo', 'PCM: exame direto', [('direto-13', 'Leveduras com múltiplos brotos', ['pcm-brotos'])]),

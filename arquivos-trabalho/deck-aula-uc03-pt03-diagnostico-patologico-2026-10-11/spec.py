@@ -664,3 +664,27 @@ CARDS = [c for c in CARDS if c['key'] not in RETIRADOS_ANALISE]
 for c in CARDS:
     if c["key"] == "pap-raspagem" and not c.get("extra_add"):
         c["extra_add"] = "- The scraped cells are stained and screened for dysplasia, a cytopathology exam"
+
+# ---- Revisão 15/10 (F-20261015-CLAUDE-03/04; P1 "faltando informação"): organizadores de mapa mental; cards de cloze genérico retirados ----
+ORG = lambda s: f'<div data-nebli-organizacao="true">{s}</div>'
+_NAO = "o AnKing não tem este mapa da aula como card."
+_M = "Revisão 15/10: organizador de mapa mental da aula (Davi: P1 incompleta; organizadores essenciais)."
+_SI = "organizador sem estrutura a reconhecer em imagem"
+def _org(key, text, flags, bloco, alvo, slide, motivo, extra):
+    return dict(key=key, kind="autoral", text=ORG(text), extra=extra, flags=flags, bloco=bloco, alvo=alvo, evid=f"Slide {slide}", autoria="central",
+                busca="AnKing e cópias NEBLI vivas sem organizador equivalente, 15/10", espelhos=DEF, motivo=motivo + " " + _M, duplicacao_ok="organizador; cada item tem card próprio ou foi retirado como detalhe isolado", sem_imagem=_SI)
+CARDS += [
+ _org("org-areas", "Areas of <b>pathology</b> in patient care:<br>- {{c1::autopsy}}: the whole body<br>- surgical pathology: biopsies and resections<br>- {{c2::cytopathology}}: isolated cells<br>- clinical pathology: laboratory tests<br>- forensic pathology: external causes of death",
+      {1: Z, 2: Z}, E_, "Áreas da patologia", "14", "Azul: lâmina 14.", "- Each area answers a different clinical question"),
+ _org("org-ferramentas", "Tools of <b>anatomic pathology</b>:<br>- H&E: general structure<br>- {{c1::electron microscopy}}: ultrastructure<br>- histochemistry: components and microbes<br>- {{c2::immunohistochemistry}}: specific proteins in situ<br>- molecular tests: mutations",
+      {1: V, 2: V}, G_, "Ferramentas e o que cada uma mostra", "15", "Verde: lâmina 15 (mapa da aula).", "- They are complementary: H&E first, the others chosen from the H&E findings"),
+ _org("org-cor-estruturas", "Stains for tissue <b>structures</b>:<br>- collagen: {{c1::Masson}} trichrome, Picro-Sirius<br>- elastic fibers: {{c2::Verhoeff}}<br>- basement membrane: {{c3::PAS}}",
+      {1: Z, 2: Z, 3: Z}, G_, "Histoquímica de estruturas", "25", "Azul: lâmina 25.", "- Picro-Sirius shows collagen birefringence under polarized light"),
+ _org("org-cor-microrg", "Stains for <b>microorganisms</b> in tissue:<br>- bacteria: {{c1::Brown-Hopps}}, the Gram of histology<br>- fungi: {{c2::Grocott}} silver<br>- acid-fast bacilli: {{c3::Ziehl-Neelsen}}",
+      {1: Z, 2: Z, 3: Z}, G_, "Histoquímica de micro-organismos", "26", "Azul: lâmina 26.", "- Mycolic acid in the wall makes mycobacteria acid-fast"),
+ _org("org-cor-substancias", "Stains for <b>substances</b>:<br>- mucus: PAS and {{c1::Alcian blue}}<br>- fat: Oil Red O<br>- iron: {{c2::Perls}} (Prussian blue)<br>- melanin: {{c3::Fontana-Masson}}",
+      {1: Z, 2: Z, 3: Z}, G_, "Histoquímica de substâncias", "27", "Azul: lâmina 27.", "- Glycogen is also PAS-positive, which helps tell it from fat in hepatocytes"),
+]
+_RET15 = {"patologia-vs-doenca", "somam-se", "agente-etiologico", "primeira-deteccao", "if-multiplex", "if-def", "complementares", "me-selecao",
+          "morfologicas-secundarias", "etiologia-multipla", "grau-doenca", "ponte-basicas"}
+CARDS[:] = [c for c in CARDS if c["key"] not in _RET15]

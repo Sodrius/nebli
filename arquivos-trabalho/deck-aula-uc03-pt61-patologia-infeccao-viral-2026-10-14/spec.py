@@ -117,8 +117,8 @@ CARDS = [
  ak("ak-nk-perforina", 1487117308213, {1: V}, C_, "NK mata por perforina e granzimas", 13, "Verde: HY 2; lâmina 13."),
 
  # ---------- D. Lâminas 14–18 ----------
- au("d-hbv-estrutura", "In <b>hepatitis B virus</b>, {{c1::HBsAg}} lies in the lipid envelope, whereas {{c2::HBcAg}} forms the core around the DNA",
-    {1: V, 2: V}, D_, "Estrutura do HBV: HBsAg × HBcAg", 14, "central", NAO, EP_HBV, "Verde: lâmina 14; base das lâminas 17–18.",
+ au("d-hbv-estrutura", "In <b>hepatitis B virus</b>, {{c1::HBsAg}} lies in the lipid envelope, whereas {{c1::HBcAg}} forms the core around the DNA",
+    {1: V}, D_, "Estrutura do HBV: HBsAg × HBcAg", 14, "central", NAO, EP_HBV, "Verde: lâmina 14; base das lâminas 17–18.",
     extra="- HBeAg is a secreted form related to the core protein"),
  au("d-cccdna", "In the hepatocyte nucleus, HBV DNA is converted into {{c1::cccDNA}}, the stable template for viral transcription",
     {1: Z}, D_, "cccDNA no ciclo do HBV", 15, "central", NAO, EP_HBV, "Azul: lâmina 15; explica a persistência da infecção.",
@@ -131,8 +131,8 @@ CARDS = [
     duplicacao_ok="ganho: mecanismo (HBsAg acumulado); o AnKing pergunta o nome do achado"),
  sh(1791810364524, "azul", D_, "IHC localiza proteínas in situ", 17, "Azul: princípio da IHC (aula 03) antes das lâminas 17–18."),
  sh(1791810365149, "rosa", D_, "Cromógeno DAB marrom", 17, "Rosa: a cor marrom das lâminas 17–18 (aula 03)."),
- au("d-ihc", "On HBV immunohistochemistry, HBsAg stains the hepatocyte {{c1::cytoplasm}}, whereas HBcAg stains the {{c2::nucleus}}",
-    {1: Z, 2: Z}, D_, "IHC de HBsAg × HBcAg", "17–18", "central", NAO, EP_HBV, "Azul: lâminas 17 e 18.", duplicacao_ok="ganho: localização de cada antígeno na IHC; nenhum outro card pergunta núcleo × citoplasma",
+ au("d-ihc", "On HBV immunohistochemistry, HBsAg stains the hepatocyte {{c1::cytoplasm}}, whereas HBcAg stains the {{c1::nucleus}}",
+    {1: Z}, D_, "IHC de HBsAg × HBcAg", "17–18", "central", NAO, EP_HBV, "Azul: lâminas 17 e 18.", duplicacao_ok="ganho: localização de cada antígeno na IHC; nenhum outro card pergunta núcleo × citoplasma",
     extra=F("ihc-hbsag", 300) + " " + F("ihc-hbcag", 300)),
 
  # ---------- E. Lâminas 19–29 ----------

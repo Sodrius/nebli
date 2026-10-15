@@ -46,7 +46,7 @@ CARDS = [
  au("infeccao-def", "Infection is the contamination, penetration and {{c1::multiplication}} of a pathogen in the body", Z, A_,
     "Infecção", "2; turma I p.3", "central", "AnKing não define infecção.", [1500571366378, 1500571132898], "Azul: lâmina 2.",
     extra="- Disease is the tissue damage that impairs the functions of the host"),
- au("patogenicidade-virulencia", "{{c1::Pathogenicity}} is the capacity of a bacterium to cause infection, whereas {{c2::virulence}} is the quantitative measure of its ability to cause disease", V, A_,
+ au("patogenicidade-virulencia", "{{c1::Pathogenicity}} is the capacity of a bacterium to cause infection, whereas {{c1::virulence}} is the quantitative measure of its ability to cause disease", V, A_,
     "Patogenicidade × virulência", "5", "central", "AnKing cobre fatores de virulência isolados.", [1484872713454, 1484872744972], "Verde: lâmina 5.",
     extra="- Virulent and opportunistic bacteria differ in how readily they cause disease"),
  au("koch", "Koch's postulates require isolating the suspected pathogen, growing it in {{c1::pure culture}} and reproducing the disease in a healthy animal", Z, A_,

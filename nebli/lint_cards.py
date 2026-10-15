@@ -84,6 +84,10 @@ def check(key, text_html, extra_html=""):
         problems.append(("dura", "Extra com metacomentário de curadoria"))
     if re.search(r"\b(whereas|while|but)\b.*\{\{c\d+::", text_html) and len(clozes) >= 2:
         problems.append(("aviso", "contraste com 2+ clozes: conferir se não são dois cards"))
+        # F-20261015-CLAUDE-05 (onicomicose: “já pontuei 300 cards nesse estilo, que são ruins”): par complementar em
+        # índices diferentes deixa um lado entregar o outro; o mesmo índice (c1/c1, dica x/y se ambíguo) é o padrão.
+        if len(set(re.findall(r"\{\{c(\d+)::", text_html))) == 2 and re.search(r"\b(whereas|while|unlike)\b", plain(text_html), re.I):
+            problems.append(("aviso", "CONTRASTE EM DOIS ÍNDICES: se o par é complementar (saber um lado dá o outro), usar o mesmo índice (c1/c1)"))
     return problems
 
 

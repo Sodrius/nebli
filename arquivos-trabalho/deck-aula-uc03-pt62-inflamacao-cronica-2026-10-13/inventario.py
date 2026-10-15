@@ -81,3 +81,76 @@ EXERCICIOS = [
   ("e7", "Quadros característicos: artrite reumatoide e bronquiectasia; folículos como órgãos linfoides terciários", ["ra-foliculos", "bronquiectasia", "terciario"]),
   ("e8", "Palavras-cruzadas: parasitas, Th1, hipersensibilidade, reparo", EXC + "palavras-cruzadas de revisão, sem alvo novo")]),
 ]
+
+# O recorte final privilegia o mecanismo que se transfere entre doenças. Os
+# detalhes retirados são ilustrações ou conteúdo de aulas específicas; se um
+# item composto ainda tem alvo central, ele é mantido só com esses alvos.
+_REMOVIDOS_MECANISMO = {'mac-sfm','mac-vida','mac-mif','lin-th17','mastocito',
+                        'eos-eotaxina','neutro-fumo','ra-foliculos','bronquiectasia'}
+_MOTIVO = EXC + 'F-20261013-CODEX-03: detalhe clínico ou de nomenclatura mantido como ilustração; mecanismo geral recuperado nesta aula e aprofundamento em aula própria'
+def _recorte(d):
+    if isinstance(d, (list, tuple)):
+        kept = [x for x in d if x not in _REMOVIDOS_MECANISMO]
+        return kept if kept else _MOTIVO
+    return _MOTIVO if d in _REMOVIDOS_MECANISMO else d
+SLIDES = [(n,c,t,[(i,x,_recorte(d)) for i,x,d in itens]) for n,c,t,itens in SLIDES]
+CAPITULO = [(t,[(i,x,_recorte(d)) for i,x,d in itens]) for t,itens in CAPITULO]
+EXERCICIOS = [(t,[(i,x,_recorte(d)) for i,x,d in itens]) for t,itens in EXERCICIOS]
+
+# F-20261013-CODEX-05: o inventário acompanha a sequência causal final. As
+# quatro listas de causas passam a testar duas formas de perpetuação; detalhes
+# retirados continuam rastreados como exemplos ou em sua aula própria.
+_SUBSTITUI = {
+ 'ic-causa-toxico': 'ic-causa-infec',
+ 'ic-causa-auto': 'ic-causa-infec',
+ 'ic-causa-alergia': 'ic-causa-infec',
+ 'ic-infiltrado': 'ic-triade',
+ 'mac-limitada': 'mac-persiste',
+ 'lin-th17': S(1791625422039),
+}
+def _logica(d):
+    if isinstance(d, list):
+        out=[]
+        for x in d:
+            y=_SUBSTITUI.get(x,x)
+            if y not in out: out.append(y)
+        return out
+    return _SUBSTITUI.get(d,d)
+SLIDES = [(n,c,t,[(i,x,_logica(d)) for i,x,d in itens]) for n,c,t,itens in SLIDES]
+CAPITULO = [(t,[(i,x,_logica(d)) for i,x,d in itens]) for t,itens in CAPITULO]
+EXERCICIOS = [(t,[(i,x,_logica(d)) for i,x,d in itens]) for t,itens in EXERCICIOS]
+
+# A pergunta de 2015 é coberta na aula específica de granulomas; não cria uma
+# associação deslocada neste deck.
+EXERCICIOS = [(t, [(i,x, EXC + 'questão coberta na aula 47 Inflamação granulomatosa' if i == 'p6' else d)
+                   for i,x,d in itens]) for t,itens in EXERCICIOS]
+
+# Alvos que completam o mecanismo final e reutilizam notas vivas.
+SLIDES = [(n,c,t, itens + ([("a43b", "Th17 recruta neutrófilos", S(1791625422039))] if n == 22 else []))
+          for n,c,t,itens in SLIDES]
+CAPITULO = [(t, itens + ([("l8", "Fibrose substitui parênquima e pode reduzir a função", S(1791716432060))]
+                         if "Robbins" in t else [])) for t,itens in CAPITULO]
+EXERCICIOS = [(t, [(i,x, S(1791716424523) if i == 'p6' else d) for i,x,d in itens])
+              for t,itens in EXERCICIOS]
+
+# F-20261013-CODEX-06: lacunas encontradas na conferência fonte por fonte.
+_AUDITA = {
+ "a19": "neutro-fumo",
+ "a25": "mac-sfm", "a26": "mac-longevo", "a49": "mast-cronica",
+ "a52": S(1791743343634), "a54": "neutro-fumo",
+ "e3": [TH1, "lin-th2", S(1791625422039)],
+ "e4": "neutro-fumo", "e6": "malt",
+}
+def _audita(itens):
+    return [(i, x, _AUDITA.get(i, d)) for i,x,d in itens]
+SLIDES = [(n,c,t,_audita(itens)) for n,c,t,itens in SLIDES]
+CAPITULO = [(t,_audita(itens)) for t,itens in CAPITULO]
+EXERCICIOS = [(t,_audita(itens)) for t,itens in EXERCICIOS]
+
+# O Robbins reúne estes alvos na mesma seção de células da inflamação crônica.
+CAPITULO = [(t, itens + ([
+    ("l9", "Sistema fagocítico mononuclear e sobrevida longa dos macrófagos", ["mac-sfm", "mac-longevo"]),
+    ("l10", "Mastócitos modulam a inflamação crônica por citocinas", "mast-cronica"),
+    ("l11", "Eotaxina recruta eosinófilos", S(1791743343634)),
+    ("l12", "Neutrófilos persistem em dano pulmonar pelo tabagismo", "neutro-fumo"),
+  ] if "Robbins" in t else [])) for t,itens in CAPITULO]

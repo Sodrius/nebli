@@ -21,7 +21,7 @@ SLIDES = [
  (7, "conteudo", "Decomposição e micorrizas", [
    ("decompositor", "Decomposição de matéria orgânica (sapróbios)", "saprofita"),
    ("micorriza", "Associação com raiz de planta: micorrizas", "micorriza")]),
- (8, "conteudo", "Síndrome dos edifícios doentes", [("edificios", "Fadiga, cefaleia, irritação de olhos/nariz/vias aéreas em >20% dos ocupantes", "edificios")]),
+ (8, "conteudo", "Síndrome dos edifícios doentes", [("edificios", "Fadiga, cefaleia, irritação de olhos/nariz/vias aéreas em >20% dos ocupantes", "EXC: curiosidade reprovada por Davi (14/10, anti-exemplar)")]),
  (9, "conteudo", "Decomposição de alimentos", [("mofo-pao", "Rhizopus, mofo do pão", "rhizopus-pao")]),
  (10, "conteudo", "Micotoxinas", [
    ("micotoxicose", "Micotoxinas em alimentos causam micotoxicose", "micotoxicose"),
@@ -37,7 +37,7 @@ SLIDES = [
    ("woess", "Woese 1994: árvore por sequência de DNA", "animais")]),
  (18, "conteudo", "Árvore filogenética", [("animais-proximos", "Fungos mais próximos de animais que de plantas", "animais")]),
  (19, "conteudo", "Aspectos macroscópicos", [
-   ("colonia-bolor", "Bolores: algodonosa, aveludada, pulverulenta", "colonias"),
+   ("colonia-bolor", "Bolores: algodonosa, aveludada, pulverulenta", ["org-formas", "colonias"]),
    ("colonia-levedura", "Leveduras: cremosa, pastosa, cerebriforme", "colonias")]),
  (20, "conteudo", "Diferenças em relação às plantas", [
    ("sem-clorofila", "Sem clorofila", "heterotrofo"),
@@ -45,7 +45,7 @@ SLIDES = [
    ("sem-amido", "Não armazenam amido; glicogênio", "glicogenio"),
    ("quitina-animais", "Quitina e glicogênio os aproximam dos animais", ["quitina", "glicogenio"])]),
  (21, "conteudo", "Características dos fungos", [
-   ("eucariontes", "Eucariontes", "eucarioto"),
+   ("eucariontes", "Eucariontes", ["org-fungo-bacteria", "eucarioto"]),
    ("parede", "Parede com quitina e β-glucana", "quitina"),
    ("imoveis", "Imóveis", "imoveis"),
    ("absortivos", "Absortivos", "exoenzimas"),
@@ -66,7 +66,7 @@ SLIDES = [
  (25, "revisao", "Modelo geral de membrana", []),
  (26, "conteudo", "Membrana dos fungos", [("membrana-ergosterol", "Ergosterol na membrana fúngica", "ergosterol")]),
  (27, "conteudo", "Antifúngicos e alvos", [
-   ("equinocandina", "Equinocandinas inibem a síntese de β-glucana", "equinocandina"),
+   ("equinocandina", "Equinocandinas inibem a síntese de β-glucana", ["org-antifungicos", "equinocandina"]),
    ("polieno", "Polienos ligam ergosterol e formam poros", "polienos"),
    ("polieno-eletrolitos", "Vazamento de K+ e Na+", "polienos"),
    ("polieno-toxicidade", "Toxicidade em mamíferos", "anfo-toxicidade"),
@@ -122,7 +122,7 @@ SLIDES = [
  (48, "conteudo", "Antigo filo Zygomycota", [
    ("sapro", "Sapróbios, eventualmente infecciosos", "mucor-hifa"),
    ("cenocitico", "Micélio cenocítico", ["septos", "mucor-hifa"]),
-   ("zigosporo", "Reprodução sexuada (zigosporângio)", "zigosporo")]),
+   ("zigosporo", "Reprodução sexuada (zigosporângio)", ["org-esporos-sexuados", "zigosporo"])]),
  (49, "conteudo", "Pilobolus", [("pilobolus", "Esporângios explosivos em fezes de gado", EXC + "exemplo em foto, curiosidade")]),
  (50, "conteudo", "Filo Basidiomycota", [("basidio", "Cogumelos; basidiósporos no basídio (basidioma)", "basidio")]),
  (51, "conteudo", "Amanita e Geastrum", [("amanita", "Amanita altamente venenosa (micetismo)", "micotoxicose")]),

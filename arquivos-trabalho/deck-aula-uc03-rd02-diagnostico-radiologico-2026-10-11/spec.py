@@ -6,7 +6,7 @@ SHORT = "rd02"
 LESSON = "2026-uc03-radiologia-02-diagnostico-radiologico"
 DECK = "NEBLI::UC03::P1::Radiologia::Diagnóstico radiológico"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261011-CLAUDE-06) + plano vigente, 12/10/2026"
-MEDIA = {"rd02-gb-espesso.png": "img/rd02-gb-espesso.png", "rd02-angio-aorta.png": "img/rd02-angio-aorta.png"}
+MEDIA = {"rd02-gb-espesso.png": "img/rd02-gb-espesso.png", "rd02-angio-aorta.png": "img/rd02-angio-aorta.png", **{f"rd02-mod-{m}.png": f"img/rd02-mod-{m}.png" for m in ("rx", "tc", "us", "rm")}}
 V, Z, R = 3, 4, 5
 BUSCA = ("AnKing Step e Referências Externas em texto livre (busca/anking.txt, anking2.txt, anking3.txt: 100 consultas sobre física, métodos, contraste, "
          "planos e achados de imagem; busca/ext.txt), tags de seção sem resultado útil, 12/10: ")
@@ -32,6 +32,9 @@ FORA_DO_RECORTE = [
  "Tabelas de limiares de decisão do ACR (apenas a lógica 1–9 foi ensinada).",
  "O livro de Mello Júnior afirma velocidade do som maior em gás que em líquido e bário só por via oral; ambos conflitam com física e com a lâmina (bário também por via retal) e ficaram fora.",
 ]
+
+
+ORG = lambda s: f'<div data-nebli-organizacao="true">{s}</div>'
 
 
 def ak(key, src, flags, bloco, alvo, slide, motivo, origin=None, **kw):
@@ -386,6 +389,17 @@ CARDS = [
     "nenhum card dos acervos.", EP_RX, "Rosa: comentário da professora sobre a prática atual."),
  # ---------- G. Angiografia e medicina nuclear (lâminas 53–61) ----------
  ak("ak-trombectomia", 1553026998577, {1: R}, G_, "Trombectomia em AVC isquêmico por oclusão de grande vaso", 53, "Rosa: exemplo terapêutico da professora; janela de 24 h é detalhe."),
+ au("mod-pistas", ORG("Clue to the <b>imaging modality</b>:<br>- fan-shaped image: {{c1::ultrasound}}<br>- overlapping projection: {{c2::radiography}}<br>- slice with white bone: {{c3::CT}}<br>- slice with black bone cortex: {{c4::MRI}}"),
+    {1: V, 2: V, 3: V, 4: V}, B_, "Reconhecer a modalidade", 52, "prova", "nenhum card dos acervos.", EP_TERM, "Verde: provas rad-01 (≈20 questões pedem a modalidade do exame e 2 elementos que a justificam); lâmina 52. Revisão 15/10.",
+    extra="- Terms also give the method away: radiopaque/radiolucent (radiography), hyper/hypodense (CT), hyper/hypoechoic (ultrasound), hyper/hypointense (MRI)", duplicacao_ok="organizador e imagens cobram a mesma modalidade por caminhos diferentes (pista × reconhecer)"),
+ au("mod-img-rx", '<img src="rd02-mod-rx.png"><br>What <b>imaging modality</b> is shown in the image above? {{c1::Radiography}}', {1: V}, B_, "Reconhecer a modalidade: radiografia", 52, "prova", "nenhum card dos acervos.", EP_TERM, "Verde: provas rad-01 (≈20 questões pedem a modalidade do exame e 2 elementos que a justificam); lâmina 52. Revisão 15/10.",
+    extra="- A single frontal projection: spine, ribs and bowel gas overlap", duplicacao_ok="organizador e imagens cobram a mesma modalidade por caminhos diferentes (pista × reconhecer)"),
+ au("mod-img-tc", '<img src="rd02-mod-tc.png"><br>What <b>imaging modality</b> is shown in the image above? {{c1::Computed tomography}}', {1: V}, B_, "Reconhecer a modalidade: TC", 52, "prova", "nenhum card dos acervos.", EP_TERM, "Verde: provas rad-01 (≈20 questões pedem a modalidade do exame e 2 elementos que a justificam); lâmina 52. Revisão 15/10.",
+    extra="- Axial slice of the upper abdomen; bone is white and air in the bowel is black", duplicacao_ok="organizador e imagens cobram a mesma modalidade por caminhos diferentes (pista × reconhecer)"),
+ au("mod-img-us", '<img src="rd02-mod-us.png"><br>What <b>imaging modality</b> is shown in the image above? {{c1::Ultrasound}}', {1: V}, B_, "Reconhecer a modalidade: US", 52, "prova", "nenhum card dos acervos.", EP_TERM, "Verde: provas rad-01 (≈20 questões pedem a modalidade do exame e 2 elementos que a justificam); lâmina 52. Revisão 15/10.",
+    extra="- Fan-shaped sector image; the gallbladder is anechoic and the stones are hyperechoic with an acoustic shadow", duplicacao_ok="organizador e imagens cobram a mesma modalidade por caminhos diferentes (pista × reconhecer)"),
+ au("mod-img-rm", '<img src="rd02-mod-rm.png"><br>What <b>imaging modality</b> is shown in the image above? {{c1::Magnetic resonance imaging}}', {1: V}, B_, "Reconhecer a modalidade: RM", 52, "prova", "nenhum card dos acervos.", EP_TERM, "Verde: provas rad-01 (≈20 questões pedem a modalidade do exame e 2 elementos que a justificam); lâmina 52. Revisão 15/10.",
+    extra="- Axial head slice: cortical bone of the skull is black and the CSF is bright, as on T2", duplicacao_ok="organizador e imagens cobram a mesma modalidade por caminhos diferentes (pista × reconhecer)"),
  au("angio-def", "In <b>digital angiography</b>, a catheter delivers {{c1::contrast}} into the vessel to be studied", {1: Z}, G_, "Angiografia digital", 54, "central",
     "AnKing cita angiografia só como teste indicado.", EP_ANG, "Azul: método citado desde a lâmina 8."),
  au("angio-tipos", "<b>Angiography</b> can be done by CT, by MRI or by the {{c1::digital}} method", {1: R}, G_, "Tipos de angiografia", 54, "lateral", "nenhum card dos acervos.", EP_ANG, "Rosa: fala da professora."),

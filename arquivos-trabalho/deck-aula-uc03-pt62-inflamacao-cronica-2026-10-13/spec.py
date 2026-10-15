@@ -40,8 +40,11 @@ def ak(key, src, cor, bloco, alvo, slide, motivo, origin=None, **kw):
 def au(key, text, cor, bloco, alvo, slide, autoria, espelhos, motivo, extra="", dup=""):
     import re
     n = sorted({int(x) for x in re.findall(r"\{\{c(\d+)::", text)})
-    return dict(key=key, kind="autoral", text=text, extra=extra, flags={i: cor for i in n}, bloco=bloco, alvo=alvo, evid=f"Slide {slide}",
-                autoria=autoria, busca=BUSCA + FALTA, espelhos=espelhos, motivo=motivo, duplicacao_ok=dup)
+    d = dict(key=key, kind="autoral", text=text, extra=extra, flags={i: cor for i in n}, bloco=bloco, alvo=alvo, evid=f"Slide {slide}",
+             autoria=autoria, busca=BUSCA + FALTA, espelhos=espelhos, motivo=motivo, duplicacao_ok=dup)
+    if key in {"mac-sfm", "mac-longevo", "malt", "mast-cronica", "neutro-fumo"}:
+        d["sem_imagem"] = "relação conceitual sem estrutura própria a identificar; a figura não acrescentaria recuperação ao alvo"
+    return d
 
 
 def sh(nid, cor, bloco, alvo, slide, motivo):
@@ -224,6 +227,333 @@ for c in CARDS:
 import re as _re
 CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
 
+# Estes alvos são relações conceituais sem estrutura visual própria para testar.
+# O motivo fica explícito no plano para o gate não exigir imagem decorativa.
+for c in CARDS:
+    if c["key"] in {"mac-sfm", "mac-longevo", "malt"}:
+        c["sem_imagem"] = "relação conceitual sem estrutura própria a identificar; a figura não acrescentaria recuperação ao alvo"
+
+# Revisão final aplicada por último: prevalece sobre as transformações da
+# primeira entrega que aparecem acima neste arquivo.
+_FINAL = {
+ "ic-nao-resolvida": ("A <b>persistent stimulus</b> keeps immune cells active, so tissue injury coexists with {{c1::repair and fibrosis}}",
+                       "- This sequence explains why chronic diseases can destroy tissue while producing scar."),
+ "ic-def": ("<b>Chronic inflammation</b> is a prolonged response in which inflammation, tissue injury and attempted {{c1::repair}} coexist",
+            "- Histology and persistence define the process better than a fixed time cutoff."),
+ "ic-persiste": ("Inflammation becomes <b>chronic</b> when the trigger persists or the immune response becomes {{c1::self-perpetuating}}",
+                 "- Either route prevents the normal shutdown that follows removal of an acute insult."),
+ "ic-sem-aguda": ("<b>Chronic inflammation</b> may follow unresolved acute inflammation or begin {{c1::insidiously}}",
+                   "- Persistent viral, fungal or immune stimuli may produce a chronic pattern from the outset."),
+ "ic-causa-infec": ("A trigger sustains <b>chronic inflammation</b> when it resists {{c1::elimination}} or repeatedly renews immune {{c2::recognition}}",
+                     "- Persistent microbes and poorly degradable particles resist elimination.<br>- Self antigens and repeated environmental antigens renew recognition."),
+ "ic-triade": ("The <b>histologic triad of chronic inflammation</b> is {{c1::mononuclear infiltration}}, tissue {{c2::destruction}} and attempted healing with {{c3::fibrosis and angiogenesis}}",
+                "- Healing appears as angiogenesis and fibrosis while injury is still occurring."),
+ "ic-pmn": ("<b>Neutrophils</b> within chronic inflammation indicate ongoing acute activity or a persistently {{c1::injurious stimulus}}",
+             "- Chronicity describes the whole process; it does not forbid neutrophils from joining it."),
+ "mac-principal": ("The <b>macrophage</b> organizes chronic inflammation via {{c1::injury, recruitment, repair}}",
+                   "- Its different products account for all three arms of the chronic response."),
+ "mac-ativacao": ("<b>Microbial signals and cytokines</b> activate macrophages, increasing phagocytosis and {{c1::mediator production}}",
+                  "- TLR ligands and IFN-γ are major examples of activating signals.<br>- Activation also increases cell size, lysosomal enzymes and metabolism."),
+ "mac-persiste": ("<b>Macrophages</b> disappear after trigger control, but a persistent trigger causes recruitment, local proliferation and {{c1::retention}}",
+                  "- Death and lymphatic drainage favor resolution; continued accumulation sustains the infiltrate.<br>- MIF promotes macrophage retention at the inflammatory focus."),
+ "lin-loop": ("In chronic inflammation, <b>T cells activate macrophages</b> and macrophages reactivate T cells, creating {{c1::positive feedback}}",
+              F("macrofago-linfocito", 420) + "<br>- The circuit persists while antigen or tissue injury continues."),
+ "lin-th2": ("In <b>chronic allergic inflammation</b>, Th2 responses recruit and activate {{c1::eosinophils}}",
+             "- Mast-cell mediators amplify the response; eosinophil granule proteins can injure epithelium."),
+ "plasmocitos": ("<b>Plasma cells</b> in a chronic inflammatory focus indicate sustained {{c1::antibody production}}",
+                 F("plasmocitos", 420) + "<br>- Persistent antigens or altered tissue components provide the continuing stimulus."),
+ "terciario": ("<b>Persistent local immune activation</b> can organize lymphoid follicles into {{c1::tertiary lymphoid tissue}}",
+               F("foliculo-linfoide", 360) + "<br>- This supports lymphocyte activation close to the chronic inflammatory focus.<br>- Unlike constitutive MALT, tertiary lymphoid tissue is induced at a chronically inflamed site."),
+}
+_DROP_FINAL = {"ic-causa-toxico", "ic-causa-auto", "ic-causa-alergia", "ic-infiltrado", "mac-limitada"}
+CARDS = [c for c in CARDS if c["key"] not in _DROP_FINAL and c.get("nid") not in {1791625422039, 1791716432060, 1791716424523}]
+for c in CARDS:
+    if c["key"] in _FINAL:
+        c["text"], c["extra"] = _FINAL[c["key"]]
+    if c["key"] == "ic-causa-infec": c["flags"] = {1: V, 2: V}
+    if c["key"] == "ic-triade": c["flags"] = {1: V, 2: V, 3: V}
+CARDS.extend([
+ sh(1791716432060, "verde", "C-macrofago", "Fibrose substitui parênquima e reduz função", 18,
+    "Verde: consequência geral do reparo crônico; nota viva da aula 47."),
+ sh(1791625422039, "azul", "D-linfocitos-e-plasmocitos", "Th17 recruta neutrófilos", 22,
+    "Azul: papel correto de Th17 na lâmina 22 e exercício 4."),
+ sh(1791716424523, "azul", "D-linfocitos-e-plasmocitos", "Gigantócitos derivam da fusão de macrófagos", 23,
+    "Azul: questão direta de 2015; ponte curta para a aula 47."),
+])
+ESCOPO = {
+ "objetivo": "Recuperar a cadeia estímulo persistente → ativação imune → dano e reparo simultâneos, e aplicá-la a diferentes causas de inflamação crônica.",
+ "centrais": [
+   ("modelo causal geral", "ic-nao-resolvida", "ic-def", "ic-persiste", "ic-sem-aguda"),
+   ("formas de perpetuação", "ic-causa-infec"),
+   ("padrão histológico", "ic-triade", "ic-img", "ic-pmn"),
+   ("macrófago integra dano, recrutamento e reparo", "mac-principal", "mac-origem", "mac-ativacao", "mac-destroi", "mac-recruta", "mac-cresc"),
+   ("polarização e destino", "sh-1791625434032", "mac-m1", "sh-1791625434457", "mac-m2", "mac-persiste", "sh-1791716432060"),
+   ("circuito adaptativo", "lin-loop", "sh-1791625422657", "lin-th2", "sh-1791625422039"),
+   ("resposta humoral e organização local", "plasmocitos", "terciario"),
+ ],
+ "exemplos": ["tuberculose/fungos", "sílica/lipídios", "artrite reumatoide", "asma e remodelamento"],
+ "outras_aulas": [("granuloma e células gigantes", "47 Inflamação granulomatosa"), ("diferenciação de Th", "45 Ativação de linfócitos T"), ("cicatrização em detalhe", "65 Reparo tecidual"), ("hipersensibilidade tipo I", "64 Hipersensibilidade")],
+}
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+
+# Relações conceituais para as quais uma figura seria apenas decorativa.
+for c in CARDS:
+    if c["key"] in {"mac-sfm", "mac-longevo", "malt"}:
+        c["sem_imagem"] = "relação conceitual sem estrutura própria a identificar; a figura não acrescentaria recuperação ao alvo"
+
+# Relações conceituais para as quais uma figura seria apenas decorativa.
+for c in CARDS:
+    if c["key"] in {"mac-sfm", "mac-longevo", "malt"}:
+        c["sem_imagem"] = "relação conceitual sem estrutura própria a identificar; a figura não acrescentaria recuperação ao alvo"
+
+# Aplicação final da auditoria CODEX-06, após todos os filtros históricos.
+CARDS = [c for c in CARDS if c["key"] not in {"mac-sfm", "neutro-fumo"}]
+CARDS.extend([
+ au("mac-sfm", "Blood monocytes and tissue macrophages form the {{c1::mononuclear phagocyte system}}",
+    Z, C_, "Sistema fagocítico mononuclear", 15, "prova", EP_MAC,
+    "Azul: termo organizador ensinado nas duas versões da aula e no Robbins.",
+    extra="- Bone marrow precursor → blood monocyte → tissue macrophage."),
+ au("neutro-fumo", "Persistent cigarette-smoke injury can maintain {{c1::neutrophils}} in chronically inflamed airways",
+    Z, E_, "Neutrófilos na inflamação crônica do fumante", 30, "prova", EP_IC,
+    "Azul: pergunta 5 dos exercícios e exemplo que qualifica o padrão celular.",
+    extra="- Chronic inflammation can therefore contain ongoing acute activity."),
+])
+for c in CARDS:
+    if c["key"] == "ic-nao-resolvida": c["flags"] = {1: V}
+    if c["key"] == "mac-longevo" and "<b>tissue macrophages</b>" not in c["text"]:
+        c["text"] = c["text"].replace("tissue macrophages", "<b>tissue macrophages</b>", 1)
+    if c["key"] == "mast-cronica" and "<b>Mast cells</b>" not in c["text"]:
+        c["text"] = c["text"].replace("Mast cells", "<b>Mast cells</b>", 1)
+    if c["key"] == "mac-ativacao" and "Activation also increases" not in c.get("extra", ""):
+        c["extra"] += "<br>- Activation also increases cell size, lysosomal enzymes and metabolism."
+    if c["key"] == "mac-persiste" and "MIF promotes" not in c.get("extra", ""):
+        c["extra"] += "<br>- MIF promotes macrophage retention at the inflammatory focus."
+    if c["key"] == "terciario" and "Unlike constitutive MALT" not in c.get("extra", ""):
+        c["extra"] += "<br>- Unlike constitutive MALT, tertiary lymphoid tissue is induced at a chronically inflamed site."
+ESCOPO = {
+ "objetivo": "Recuperar a cadeia estímulo persistente → ativação imune → dano e reparo simultâneos e reconhecer como suas células mantêm ou organizam a resposta.",
+ "centrais": [
+   ("modelo causal geral", "ic-nao-resolvida", "ic-def", "ic-persiste", "ic-sem-aguda"),
+   ("formas de perpetuação", "ic-causa-infec"),
+   ("padrão histológico", "ic-triade", "ic-img", "ic-pmn"),
+   ("macrófago: origem, ativação e persistência", "mac-principal", "mac-origem", "mac-sfm", "mac-longevo", "mac-ativacao", "mac-persiste"),
+   ("macrófago integra dano, recrutamento e reparo", "mac-destroi", "mac-recruta", "mac-cresc", "sh-1791716432060"),
+   ("polarização funcional", "sh-1791625434032", "mac-m1", "sh-1791625434457", "mac-m2"),
+   ("circuito adaptativo", "lin-loop", "sh-1791625422657", "lin-th2", "sh-1791625422039"),
+   ("outras células", "mast-cronica", "sh-1791743343634", "sh-1791780353397", "neutro-fumo"),
+   ("resposta humoral e organização local", "plasmocitos", "terciario", "malt"),
+ ],
+ "exemplos": ["tuberculose/fungos", "sílica/lipídios", "artrite reumatoide", "asma e remodelamento", "vias aéreas do fumante"],
+ "outras_aulas": [("granuloma e células gigantes", "47 Inflamação granulomatosa"), ("diferenciação de Th", "45 Ativação de linfócitos T"), ("cicatrização em detalhe", "65 Reparo tecidual"), ("hipersensibilidade tipo I", "64 Hipersensibilidade")],
+}
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+
+# Finalizador da auditoria de fontes. As transformações históricas acima ainda
+# removem duas chaves antigas; elas são recolocadas aqui com a formulação nova.
+CARDS = [c for c in CARDS if c["key"] not in {"mac-sfm", "neutro-fumo"}]
+CARDS.extend([
+ au("mac-sfm", "Blood monocytes and tissue macrophages form the {{c1::mononuclear phagocyte system}}",
+    Z, C_, "Sistema fagocítico mononuclear", 15, "prova", EP_MAC,
+    "Azul: termo organizador ensinado nas duas versões da aula e no Robbins.",
+    extra="- Bone marrow precursor → blood monocyte → tissue macrophage."),
+ au("neutro-fumo", "Persistent cigarette-smoke injury can maintain {{c1::neutrophils}} in chronically inflamed airways",
+    Z, E_, "Neutrófilos na inflamação crônica do fumante", 30, "prova", EP_IC,
+    "Azul: pergunta 5 dos exercícios e exemplo que qualifica o padrão celular.",
+    extra="- Chronic inflammation can therefore contain ongoing acute activity."),
+])
+for c in CARDS:
+    if c["key"] == "ic-nao-resolvida": c["flags"] = {1: V}
+    if c["key"] == "mac-longevo": c["text"] = c["text"].replace("tissue macrophages", "<b>tissue macrophages</b>", 1)
+    if c["key"] == "mast-cronica": c["text"] = c["text"].replace("Mast cells", "<b>Mast cells</b>", 1)
+    if c["key"] == "mac-ativacao" and "Activation also increases" not in c.get("extra", ""):
+        c["extra"] += "<br>- Activation also increases cell size, lysosomal enzymes and metabolism."
+    if c["key"] == "mac-persiste" and "MIF promotes" not in c.get("extra", ""):
+        c["extra"] += "<br>- MIF promotes macrophage retention at the inflammatory focus."
+    if c["key"] == "terciario" and "Unlike constitutive MALT" not in c.get("extra", ""):
+        c["extra"] += "<br>- Unlike constitutive MALT, tertiary lymphoid tissue is induced at a chronically inflamed site."
+ESCOPO = {
+ "objetivo": "Recuperar a cadeia estímulo persistente → ativação imune → dano e reparo simultâneos e reconhecer como suas células mantêm ou organizam a resposta.",
+ "centrais": [
+   ("modelo causal geral", "ic-nao-resolvida", "ic-def", "ic-persiste", "ic-sem-aguda"),
+   ("formas de perpetuação", "ic-causa-infec"),
+   ("padrão histológico", "ic-triade", "ic-img", "ic-pmn"),
+   ("macrófago: origem, ativação e persistência", "mac-principal", "mac-origem", "mac-sfm", "mac-longevo", "mac-ativacao", "mac-persiste"),
+   ("macrófago integra dano, recrutamento e reparo", "mac-destroi", "mac-recruta", "mac-cresc", "sh-1791716432060"),
+   ("polarização funcional", "sh-1791625434032", "mac-m1", "sh-1791625434457", "mac-m2"),
+   ("circuito adaptativo", "lin-loop", "sh-1791625422657", "lin-th2", "sh-1791625422039"),
+   ("outras células", "mast-cronica", "sh-1791743343634", "sh-1791780353397", "neutro-fumo"),
+   ("resposta humoral e organização local", "plasmocitos", "terciario", "malt"),
+ ],
+ "exemplos": ["tuberculose/fungos", "sílica/lipídios", "artrite reumatoide", "asma e remodelamento", "vias aéreas do fumante"],
+ "outras_aulas": [("granuloma e células gigantes", "47 Inflamação granulomatosa"), ("diferenciação de Th", "45 Ativação de linfócitos T"), ("cicatrização em detalhe", "65 Reparo tecidual"), ("hipersensibilidade tipo I", "64 Hipersensibilidade")],
+}
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+
+# F-20261013-CODEX-06: auditoria integral contra lâminas, exercícios, provas,
+# monitoria/apostila e Robbins. Estes alvos estavam apenas implícitos ou no
+# verso; entram em recuperação própria porque fecham partes ensinadas da aula.
+for c in CARDS:
+    if c["key"] == "ic-nao-resolvida":
+        c["flags"] = {1: V}
+    if c["key"] == "mac-ativacao":
+        c["extra"] += "<br>- Activation also increases cell size, lysosomal enzymes and metabolism."
+    if c["key"] == "mac-persiste":
+        c["extra"] += "<br>- MIF promotes macrophage retention at the inflammatory focus."
+    if c["key"] == "terciario":
+        c["extra"] += "<br>- Unlike constitutive MALT, tertiary lymphoid tissue is induced at a chronically inflamed site."
+
+CARDS.extend([
+ au("mac-sfm", "Blood monocytes and tissue macrophages form the {{c1::mononuclear phagocyte system}}",
+    Z, C_, "Sistema fagocítico mononuclear", 15, "prova", EP_MAC,
+    "Azul: termo organizador ensinado nas duas versões da aula e no Robbins.",
+    extra="- Bone marrow precursor → blood monocyte → tissue macrophage."),
+ au("mac-longevo", "Compared with circulating monocytes, <b>tissue macrophages</b> are {{c1::long-lived}}",
+    Z, C_, "Sobrevida do macrófago sustenta a resposta", 15, "central", EP_MAC,
+    "Azul: explica mecanicamente por que o infiltrado macrofágico pode persistir.",
+    extra="- Monocytes circulate for about one day; tissue macrophages may survive for months or years."),
+ au("mast-cronica", "<b>Mast cells</b> can promote or limit chronic inflammation through {{c1::cytokine secretion}}",
+    Z, E_, "Papel geral do mastócito na inflamação crônica", 27, "central", EP_EOS,
+    "Azul: célula explicitamente ensinada na lâmina 27 e na seção do Robbins.",
+    extra="- IgE-driven degranulation is one activating route; its full pathway belongs to hypersensitivity."),
+ sh(1791743343634, "rosa", E_, "Eotaxina recruta eosinófilos", 29,
+    "Rosa: mediador específico da lâmina 29; nota viva da aula 37."),
+ au("neutro-fumo", "Persistent cigarette-smoke injury can maintain {{c1::neutrophils}} in chronically inflamed airways",
+    Z, E_, "Neutrófilos na inflamação crônica do fumante", 30, "prova", EP_IC,
+    "Azul: pergunta 5 dos exercícios e exemplo que qualifica o padrão celular.",
+    extra="- Chronic inflammation can therefore contain ongoing acute activity."),
+ au("malt", "<b>MALT</b> is constitutive lymphoid tissue that protects {{c1::mucosal surfaces}}",
+    Z, D_, "Definição de MALT e distinção do tecido linfoide terciário", "25; exercise 7", "prova", EP_IC,
+    "Azul: pergunta 7 dos exercícios; evita confundir MALT com folículo terciário induzido.",
+    extra="- Chronic inflammation can instead induce tertiary lymphoid follicles in normally non-lymphoid tissue."),
+])
+ESCOPO = {
+ "objetivo": "Recuperar a cadeia estímulo persistente → ativação imune → dano e reparo simultâneos e reconhecer como suas células mantêm ou organizam a resposta.",
+ "centrais": [
+   ("modelo causal geral", "ic-nao-resolvida", "ic-def", "ic-persiste", "ic-sem-aguda"),
+   ("formas de perpetuação", "ic-causa-infec"),
+   ("padrão histológico", "ic-triade", "ic-img", "ic-pmn"),
+   ("macrófago: origem, ativação e persistência", "mac-principal", "mac-origem", "mac-sfm", "mac-longevo", "mac-ativacao", "mac-persiste"),
+   ("macrófago integra dano, recrutamento e reparo", "mac-destroi", "mac-recruta", "mac-cresc", "sh-1791716432060"),
+   ("polarização funcional", "sh-1791625434032", "mac-m1", "sh-1791625434457", "mac-m2"),
+   ("circuito adaptativo", "lin-loop", "sh-1791625422657", "lin-th2", "sh-1791625422039"),
+   ("outras células", "mast-cronica", "sh-1791743343634", "sh-1791780353397", "neutro-fumo"),
+   ("resposta humoral e organização local", "plasmocitos", "terciario", "malt"),
+ ],
+ "exemplos": ["tuberculose/fungos", "sílica/lipídios", "artrite reumatoide", "asma e remodelamento", "vias aéreas do fumante"],
+ "outras_aulas": [("granuloma e células gigantes", "47 Inflamação granulomatosa"), ("diferenciação de Th", "45 Ativação de linfócitos T"), ("cicatrização em detalhe", "65 Reparo tecidual"), ("hipersensibilidade tipo I", "64 Hipersensibilidade")],
+}
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+
+# F-20261013-CODEX-05: revisão de retenção. A aula passa a ser recuperada como
+# uma cadeia causal única; causas e exemplos aprofundam essa cadeia sem virar
+# listas paralelas. Detalhes isolados que não mudam o raciocínio saem.
+RETIRADOS_LOGICA = {
+ "ic-causa-toxico", "ic-causa-auto", "ic-causa-alergia", "ic-infiltrado",
+ "mac-limitada"
+}
+REESCRITOS_LOGICA = {
+ "ic-nao-resolvida": {
+  "text": "A <b>persistent stimulus</b> keeps immune cells active, so tissue injury coexists with {{c1::repair and fibrosis}}",
+  "extra": "- This single sequence explains why many chronic diseases show destruction and scarring at the same time."
+ },
+ "ic-def": {
+  "text": "<b>Chronic inflammation</b> is a prolonged response in which inflammation, tissue injury and attempted {{c1::repair}} coexist",
+  "extra": "- Histology and persistence define the process better than a fixed time cutoff."
+ },
+ "ic-persiste": {
+  "text": "Inflammation becomes <b>chronic</b> when the trigger persists or the immune response becomes {{c1::self-perpetuating}}",
+  "extra": "- Either route prevents the normal shutdown that follows removal of an acute insult."
+ },
+ "ic-sem-aguda": {
+  "text": "Chronic inflammation may follow unresolved acute inflammation or begin {{c1::insidiously}}",
+  "extra": "- Persistent viral, fungal or immune stimuli may produce a chronic pattern from the outset."
+ },
+ "ic-causa-infec": {
+  "text": "A trigger sustains <b>chronic inflammation</b> when it resists {{c1::elimination}} or repeatedly renews immune {{c2::recognition}}",
+  "extra": "- Persistent microbes and poorly degradable particles resist elimination.\n- Self antigens and repeated environmental antigens renew recognition."
+ },
+ "ic-triade": {
+  "text": "The <b>histologic triad of chronic inflammation</b> is mononuclear infiltration, tissue destruction and attempted {{c1::healing}}",
+  "extra": "- Healing appears as angiogenesis and fibrosis while injury is still occurring."
+ },
+ "ic-pmn": {
+  "text": "<b>Neutrophils</b> within chronic inflammation indicate ongoing acute activity or a persistently {{c1::injurious stimulus}}",
+  "extra": "- Chronicity describes the whole process; it does not forbid neutrophils from joining it."
+ },
+ "mac-principal": {
+  "text": "The <b>macrophage</b> organizes chronic inflammation through {{c1::tissue injury, leukocyte recruitment and repair}}",
+  "extra": "- Its different products account for all three arms of the chronic response."
+ },
+ "mac-ativacao": {
+  "text": "<b>Microbial signals and cytokines</b> activate macrophages, increasing phagocytosis and production of {{c1::enzymes and inflammatory mediators}}",
+  "extra": "- TLR ligands and IFN-γ are major examples of activating signals."
+ },
+ "mac-persiste": {
+  "text": "Macrophages disappear after trigger control, but a persistent trigger causes recruitment, local proliferation and {{c1::retention}}",
+  "extra": "- Death and lymphatic drainage favor resolution; continued accumulation sustains the infiltrate."
+ },
+ "lin-loop": {
+  "text": "In chronic inflammation, T cells activate macrophages and macrophages reactivate T cells, creating {{c1::positive feedback}}",
+  "extra": F("macrofago-linfocito", 420) + "<br>- The circuit persists while antigen or tissue injury continues."
+ },
+ "lin-th2": {
+  "text": "In <b>chronic allergic inflammation</b>, Th2 responses recruit and activate {{c1::eosinophils}}",
+  "extra": "- Mast-cell mediators amplify the response; eosinophil granule proteins can injure epithelium."
+ },
+ "plasmocitos": {
+  "text": "<b>Plasma cells</b> in a chronic inflammatory focus indicate sustained {{c1::antibody production}}",
+  "extra": F("plasmocitos", 420) + "<br>- Persistent antigens or altered tissue components provide the continuing stimulus."
+ },
+ "terciario": {
+  "text": "Persistent local immune activation can organize lymphoid follicles into {{c1::tertiary lymphoid tissue}}",
+  "extra": F("foliculo-linfoide", 360) + "<br>- This supports lymphocyte activation close to the chronic inflammatory focus."
+ },
+}
+for c in CARDS:
+    c.update(REESCRITOS_LOGICA.get(c["key"], {}))
+    if c["key"] == "ic-triade":
+        c["flags"] = {1: V}
+CARDS = [c for c in CARDS if c["key"] not in RETIRADOS_LOGICA]
+
+# As lâminas ensinam Th17 pelo recrutamento de neutrófilos. A consequência
+# funcional da fibrose fecha o arco dano–reparo e já existe viva na aula 47.
+CARDS.extend([
+ sh(1791625422039, "azul", "D-linfocitos-e-plasmocitos", "Th17 recruta neutrófilos", 22,
+    "Azul: papel correto de Th17 na lâmina 22 e exercício 4."),
+ sh(1791716432060, "verde", "C-macrofago", "Fibrose substitui parênquima e reduz função", 18,
+    "Verde: consequência geral do reparo crônico; associação à nota viva da aula 47."),
+ sh(1791716424523, "azul", "D-linfocitos-e-plasmocitos", "Gigantócitos derivam da fusão de macrófagos", 23,
+    "Azul: questão direta de 2015; ponte curta para a aula 47, sem duplicar a nota."),
+])
+ESCOPO = {
+ "objetivo": "Recuperar a cadeia estímulo persistente → ativação imune → dano e reparo simultâneos, e aplicá-la a diferentes causas de inflamação crônica.",
+ "centrais": [
+   ("modelo causal geral", "ic-nao-resolvida", "ic-def", "ic-persiste", "ic-sem-aguda"),
+   ("duas formas de perpetuação: resistência à eliminação ou reconhecimento renovado", "ic-causa-infec"),
+   ("tríade histológica e atividade aguda sobreposta", "ic-triade", "ic-img", "ic-pmn"),
+   ("macrófago integra dano, recrutamento e reparo", "mac-principal", "mac-origem", "mac-ativacao", "mac-destroi", "mac-recruta", "mac-cresc"),
+   ("polarização funcional e destino", "sh-1791625434032", "mac-m1", "sh-1791625434457", "mac-m2", "mac-persiste", "sh-1791716432060"),
+   ("circuito adaptativo que mantém a resposta", "lin-loop", "sh-1791625422657", "lin-th2", "sh-1791625422039"),
+   ("resposta humoral e organização local", "plasmocitos", "terciario"),
+ ],
+ "exemplos": ["tuberculose/fungos", "sílica/lipídios", "artrite reumatoide", "asma e remodelamento"],
+ "outras_aulas": [("granuloma e células gigantes", "47 Inflamação granulomatosa"), ("diferenciação de Th", "45 Ativação de linfócitos T"), ("cicatrização em detalhe", "65 Reparo tecidual"), ("hipersensibilidade tipo I", "64 Hipersensibilidade")],
+}
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+
+# Negritos de contexto após as reescritas finais.
+for c in CARDS:
+    if c["key"] == "ic-sem-aguda":
+        c["text"] = c["text"].replace("Chronic inflammation", "<b>Chronic inflammation</b>", 1)
+    if c["key"] == "lin-loop":
+        c["text"] = c["text"].replace("T cells activate macrophages", "<b>T cells activate macrophages</b>", 1)
+
+# Questão de prova sobre gigantócitos: reutiliza o princípio já consolidado na
+# granulomatosa, sem criar uma cópia clínica nesta aula.
+CARDS.append(sh(1791716424523, "verde", "D-linfocitos-e-plasmocitos", "Gigantócitos derivam de macrófagos ativados", 23,
+                "Verde: questão 2015 P2 1.1; associação com o card vivo da aula 47, sem duplicar a nota."))
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+
 IMAGENS_VISTAS = {
  "pt62-aguda-vs-cronica.png": "Lâmina II 8 (Robbins): A pulmão com agregado linfoide e septos fibrosados (crônica), B alvéolos cheios de neutrófilos (aguda); recorte sem logotipo.",
  "pt62-infiltrado-misto.png": "Lâmina I 12: infiltrado com plasmócitos, macrófagos e eosinófilos em grande aumento; sem legenda no recorte, o rótulo está na frente do AnKing.",
@@ -256,3 +586,140 @@ ESCOPO = {
                   ("reparo, cicatrização e fibrose em detalhe", "65 Reparo tecidual"), ("hipersensibilidade tipo I e vias da asma", "64 Hipersensibilidade"),
                   ("MALT", "07 Organização do sistema imune")],
 }
+
+# F-20261013-CODEX-03: a recuperação acompanha uma explicação transferível.
+# Quadros clínicos e nomes isolados ficam nos exemplos e no verso; só persistem
+# como cartões quando uma questão da própria aula exige a aplicação.
+RETIRADOS_MECANISMO = {
+ "mac-sfm", "mac-vida", "mac-mif", "lin-th17", "mastocito",
+ "eos-eotaxina", "neutro-fumo", "ra-foliculos", "bronquiectasia"
+}
+REESCRITOS_MECANISMO = {
+ "ic-nao-resolvida": {
+  "text": "<b>Non-resolving inflammation</b> is harmful because ongoing tissue injury coexists with {{c1::repair and fibrosis}}",
+  "extra": "- Persistent immune cells keep causing injury while repair deposits extracellular matrix.\n- Atherosclerosis, chronic lung disease and arthritis are examples of the same principle."
+ },
+ "ic-causa-infec": {
+  "text": "A <b>persistent infection</b> causes chronic inflammation when the agent {{c1::cannot be eliminated}}",
+  "extra": "- Tuberculosis and some fungal infections illustrate an organism that remains despite the host response."
+ },
+ "ic-causa-toxico": {
+  "text": "A <b>poorly degradable material</b> sustains inflammation because it {{c1::persists}} in the tissue",
+  "extra": "- Silica and arterial lipids are examples; their disease-specific consequences belong to later lessons."
+ },
+ "ic-causa-auto": {
+  "text": "<b>Autoimmune inflammation</b> can persist because the self antigen {{c1::remains}} available",
+  "extra": "- Rheumatoid arthritis is an illustration of a response that keeps encountering its target."
+ },
+ "ic-causa-alergia": {
+  "text": "<b>Repeated immune reactions</b> to an environmental antigen can sustain {{c1::chronic inflammation}}",
+  "extra": "- Allergic asthma illustrates repeated Th2, mast-cell and eosinophil participation; the pathway is taught in hypersensitivity."
+ },
+ "mac-principal": {
+  "text": "The {{c1::macrophage}} is the <b>central cell of chronic inflammation</b> because it links injury, recruitment and repair",
+  "extra": "- It can kill microbes and injure tissue, recruit more leukocytes, or stimulate fibrosis."
+ },
+ "mac-ativacao": {
+  "text": "<b>Microbial signals and cytokines</b> activate macrophages, increasing {{c1::phagocytosis and secretion}}",
+  "extra": "- TLR ligands and IFN-γ are examples of activating signals. Activated macrophages also enlarge and increase lysosomal enzymes."
+ },
+ "mac-destroi": {
+  "text": "<b>Macrophage antimicrobial products</b> also cause {{c1::collateral tissue damage}}",
+  "extra": "- Proteases, reactive oxygen species and nitric oxide help control microbes but can damage extracellular matrix and host cells."
+ },
+ "mac-recruta": {
+  "text": "<b>Macrophages</b> sustain chronic inflammation by releasing mediators that {{c1::recruit more leukocytes}}",
+  "extra": "- Cytokines and chemokines make continued cellular influx part of the mechanism, not a separate event."
+ },
+ "mac-cresc": {
+  "text": "<b>Macrophage growth factors</b> drive fibroblast proliferation, {{c1::collagen deposition}} and angiogenesis",
+  "extra": "- This is the repair arm of chronic inflammation and explains fibrosis in the histologic triad."
+ },
+ "mac-limitada": {
+  "text": "<b>Inflammation resolves</b> when macrophages die or leave through {{c1::lymphatic drainage}} after the stimulus is controlled",
+  "extra": "- Failure of this exit, together with continuing recruitment and local proliferation, sustains chronic inflammation."
+ },
+ "mac-persiste": {
+  "text": "<b>Persistent inflammation</b> accumulates macrophages through continued recruitment, local proliferation and {{c1::retention}}",
+  "extra": "- These processes keep the tissue infiltrate present as long as the trigger or immune circuit remains active."
+ },
+ "lin-th2": {
+  "text": "In <b>chronic allergic inflammation</b>, Th2 responses favor {{c1::eosinophil-rich inflammation}}",
+  "extra": "- Asthma is the illustration in the slides; IL-4, IL-5 and IL-13 and the full allergic pathway are taught elsewhere."
+ },
+ "plasmocitos": {
+  "text": "<b>Plasma cells</b> are terminally differentiated B cells that produce {{c1::antibodies}} in chronic inflammatory foci",
+  "extra": "- Their accumulation indicates ongoing antigenic stimulation or response to altered tissue components."
+ },
+ "terciario": {
+  "text": "<b>Persistent inflammation</b> can organize lymphoid follicles in non-lymphoid tissue, forming {{c1::tertiary lymphoid tissue}}",
+  "extra": "- These local structures support ongoing lymphocyte activation near the chronic inflammatory focus."
+ },
+}
+for c in CARDS:
+    c.update(REESCRITOS_MECANISMO.get(c["key"], {}))
+    if c["key"] == "ic-causa-toxico":
+        c["flags"] = {1: Z}
+    if c["key"] == "mac-origem":
+        c["extra_add"] = "- Circulating monocytes enter inflamed tissue and differentiate into macrophages.<br>" + F("monocito-macrofago", 440)
+    if c["key"] == "plasmocitos":
+        c["extra"] = F("plasmocitos", 420) + "<br>- Their accumulation indicates ongoing antigenic stimulation or response to altered tissue components."
+    if c["key"] == "terciario":
+        c["extra"] = F("foliculo-linfoide", 360) + "<br>- These local structures support ongoing lymphocyte activation near the chronic inflammatory focus."
+CARDS = [c for c in CARDS if c["key"] not in RETIRADOS_MECANISMO]
+CARDS.extend([
+ au("mac-sfm", "<b>Blood monocytes and tissue macrophages</b> form the {{c1::mononuclear phagocyte system}}",
+    Z, C_, "Sistema fagocítico mononuclear", 15, "prova", EP_MAC,
+    "Azul: termo organizador ensinado nas duas versões da aula e no Robbins.",
+    extra="- Bone marrow precursor → blood monocyte → tissue macrophage."),
+ au("neutro-fumo", "<b>Persistent cigarette-smoke injury</b> can maintain {{c1::neutrophils}} in chronically inflamed airways",
+    Z, E_, "Neutrófilos na inflamação crônica do fumante", 30, "prova", EP_IC,
+    "Azul: pergunta 5 dos exercícios e exemplo que qualifica o padrão celular.",
+    extra="- Chronic inflammation can therefore contain ongoing acute activity."),
+])
+ESCOPO = {
+ "objetivo": "Explicar por que uma resposta inflamatória persiste e como macrófagos, linfócitos, dano e reparo passam a coexistir em diferentes doenças.",
+ "centrais": [
+   ("lesão persistente e reparo simultâneo", "ic-nao-resolvida", "ic-def", "ic-persiste"),
+   ("formas de o estímulo persistir", "ic-persiste", "ic-causa-infec", "ic-causa-toxico", "ic-causa-auto", "ic-causa-alergia"),
+   ("padrão histológico", "ic-triade", "ic-img", "ic-infiltrado", "ic-pmn"),
+   ("macrófago integra defesa, dano e reparo", "mac-principal", "mac-origem", "mac-ativacao", "mac-m1", "mac-m2", "mac-destroi", "mac-cresc"),
+   ("manutenção da população macrofágica", "mac-recruta", "mac-limitada", "mac-persiste"),
+   ("circuito imune e organização local", "lin-loop", "lin-th2", "plasmocitos", "terciario")
+ ],
+ "exemplos": ["tuberculose e fungos como persistência infecciosa", "sílica e lipídios como material persistente", "artrite reumatoide como autoimunidade", "asma como exemplo alérgico e remodelamento exigido em prova"],
+ "outras_aulas": [("granuloma", "47 Inflamação granulomatosa"), ("subtipos e diferenciação de Th", "45 Ativação de linfócitos T"), ("detalhe da fibrose", "65 Reparo tecidual"), ("via alérgica", "64 Hipersensibilidade tipo I"), ("MALT", "07 Organização do sistema imune")]
+}
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+
+# Finalizador da revisão de 13/10. Precisa ficar depois da transformação da
+# primeira entrega para que o plano vivo reflita exatamente a versão revista.
+CARDS = [c for c in CARDS if c["key"] not in _DROP_FINAL and c.get("nid") not in {1791625422039, 1791716432060, 1791716424523}]
+for c in CARDS:
+    if c["key"] in _FINAL:
+        c["text"], c["extra"] = _FINAL[c["key"]]
+    if c["key"] == "ic-causa-infec": c["flags"] = {1: V, 2: V}
+    if c["key"] == "ic-triade": c["flags"] = {1: V, 2: V, 3: V}
+CARDS.extend([
+ sh(1791716432060, "verde", "C-macrofago", "Fibrose substitui parênquima e reduz função", 18,
+    "Verde: consequência geral do reparo crônico; nota viva da aula 47."),
+ sh(1791625422039, "azul", "D-linfocitos-e-plasmocitos", "Th17 recruta neutrófilos", 22,
+    "Azul: papel correto de Th17 na lâmina 22 e exercício 4."),
+ sh(1791716424523, "azul", "D-linfocitos-e-plasmocitos", "Gigantócitos derivam da fusão de macrófagos", 23,
+    "Azul: questão direta de 2015; ponte curta para a aula 47."),
+])
+ESCOPO = {
+ "objetivo": "Recuperar a cadeia estímulo persistente → ativação imune → dano e reparo simultâneos, e aplicá-la a diferentes causas de inflamação crônica.",
+ "centrais": [
+   ("modelo causal geral", "ic-nao-resolvida", "ic-def", "ic-persiste", "ic-sem-aguda"),
+   ("formas de perpetuação", "ic-causa-infec"),
+   ("padrão histológico", "ic-triade", "ic-img", "ic-pmn"),
+   ("macrófago integra dano, recrutamento e reparo", "mac-principal", "mac-origem", "mac-ativacao", "mac-destroi", "mac-recruta", "mac-cresc"),
+   ("polarização e destino", "sh-1791625434032", "mac-m1", "sh-1791625434457", "mac-m2", "mac-persiste", "sh-1791716432060"),
+   ("circuito adaptativo", "lin-loop", "sh-1791625422657", "lin-th2", "sh-1791625422039"),
+   ("resposta humoral e organização local", "plasmocitos", "terciario"),
+ ],
+ "exemplos": ["tuberculose/fungos", "sílica/lipídios", "artrite reumatoide", "asma e remodelamento"],
+ "outras_aulas": [("granuloma e células gigantes", "47 Inflamação granulomatosa"), ("diferenciação de Th", "45 Ativação de linfócitos T"), ("cicatrização em detalhe", "65 Reparo tecidual"), ("hipersensibilidade tipo I", "64 Hipersensibilidade")],
+}
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))

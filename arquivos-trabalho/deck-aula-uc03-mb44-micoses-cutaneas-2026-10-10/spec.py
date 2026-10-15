@@ -86,22 +86,21 @@ CARDS = [
     "Verde: explica o aspecto clínico de todas as tinhas."),
  au("estrato-corneo-inflamacao", "Dermatophytes rarely invade below the {{c1::stratum corneum}}", {1: Z}, B_,
     "Limitado ao estrato córneo, mas inflamatório", "12; prova 2025 P3 4.4", "prova", "sem card nos acervos.", [1500051183614, 1500152000410],
-    "Azul: cobrado em 2025.", extra="- Itching and scaling are a host reaction to fungal products, not deep invasion"),
+    "Azul: cobrado em 2025.", extra="- Itching and scaling are a host reaction to fungal products, not deep invasion<br><img src=\"2b5e7156d2ac6df8a3aaf0a737822a1c.webp\">"),
  ak("atletas", 1500052763799, {1: Z}, B_, "Atletas em risco", 13, "Azul: calçado, umidade e populações fechadas (lâmina 13)."),
  au("imunidade-t", "Defective {{c1::cell-mediated}} (T cell) immunity makes dermatophytosis more extensive and recurrent", {1: Z}, B_,
     "Imunossupressão e dermatofitose", "13; prova 2025 P3 4.4", "prova", "AnKing liga células T só à Candida (1502224452270).", [1502224452270, 1500152247775],
     "Azul: 'fatores imunológicos' (lâmina 13) e prova 2025."),
  # ---------- C. Formas clínicas (slides 14–31) ----------
  ak("ringworm", 1500052444077, {1: Z}, C_, "Tinha = ringworm", 14, "Verde: HY. Rebaixado: foco em compreensão, clínica não cobrada pela aula (F-20261010-CLAUDE-04).", clinica_lateral=True),
- ak("tinea-corporis", 1500052605836, {1: Z}, C_, "Tinea corporis: corpo", 14, "Azul: lâminas 14–15."),
+ # tinea-corporis: retirado 15/10 noite — repete o organizador org-tinhas (F-20261015-CLAUDE-05)
  ak("pruriginosa", 1500052912297, {1: R}, C_, "Tinha é pruriginosa", 14, "Verde: HY. Rebaixado: foco em compreensão, clínica não cobrada pela aula (F-20261010-CLAUDE-04).", clinica_lateral=True),
  ak("corporis-imagem", 1505160761819, {1: Z}, C_, "Reconhecer tinea corporis", 14, "Azul: reconhecimento da lesão anular (lâminas 14–15)."),
  au("tinea-pedis", "Athlete's foot, often starting between the toes, is tinea {{c1::pedis}}", {1: Z}, C_,
     "Tinea pedis", "16 e 18", "central", "AnKing cita tinea pedis só em complicações (1581260145423).", [1500052626060, 1500052605836], "Azul: lâminas 16 e 18."),
  au("imbricata", "Tinea imbricata, with concentric rings of scale, is caused by Trichophyton {{c1::concentricum}}", {1: R}, C_,
     "Tinha imbricata", "17", "lateral", "sem card nos acervos.", [1500052605836, 1500052444077], "Rosa: lâmina 17."),
- ak("tinea-cruris", 1500052626060, {1: Z}, C_, "Tinea cruris: virilha", 19, "Azul: lâminas 19–20. Extra do AnKing sem a linha de crédito DermNet (resto preservado).",
-    extra='<div>- AKA "jock itch"</div><br><div>- Recall that <b>crura</b> attaches the base of the penis to the ischiopubic rami</div><br><div><img alt="Raised border and central clearing" src="6162814eb02f42194b0b7d9c5a004a99.webp" width="518"><img src="7c95acc786ed7e81a4a4d6ac9818c3b9.webp" width="290"></div>'),
+ # tinea-cruris: retirado 15/10 noite — repete o organizador org-tinhas (F-20261015-CLAUDE-05)
  ak("recorrencia-cruris", 1555800414777, {1: R}, C_, "Tinea cruris recorre por tinea pedis", 19, "Rosa: ligação pé–virilha."),
  au("tinea-manum", "Dermatophytosis of the hands is called tinea {{c1::manuum}}", {1: R}, C_,
     "Tinea manum", "21", "lateral", "sem card nos acervos.", [1500052605836, 1500052626060], "Rosa: lâmina 21.", extra="- Often dry scaling of one palm, with tinea pedis on both feet"),
@@ -307,7 +306,7 @@ _NEGRITO_VIVO = {
 "tinea-manum": "Dermatophytosis of the <b>hands</b> is called tinea {{c1::manuum}}",
 "indotineae": "<b>Trichophyton indotineae</b>, an emerging dermatophyte, resists <b>terbinafine</b> through mutations in {{c1::squalene epoxidase}}",
 "dermatofitide": "A <b>sterile eruption on the hands</b> caused by an immune reaction to a <b>distant dermatophyte focus</b> is a {{c1::dermatophytid}}",
-"onicomicose-distal": "<b>Dermatophyte onychomycosis</b> usually starts at the {{c1::distal}} nail edge, whereas <b>Candida</b> starts at the <b>proximal nail fold</b>",
+"onicomicose-distal": "<b>Dermatophyte onychomycosis</b> usually starts at the {{c1::distal}} nail edge, whereas <b>Candida</b> starts at the {{c1::proximal}}<b>&nbsp;nail fold</b>",
 "canis-animais": "<b>Tinea capitis in children</b> is often caused by {{c1::Microsporum canis}}, caught from <b>cats and dogs</b>",
 "its": "<b>Molecular identification</b> of dermatophytes sequences the {{c1::ITS}} region of <b>ribosomal DNA</b>",
 "rubrum-prevalencia": "{{c1::Trichophyton rubrum}} is the <b>most common dermatophyte</b> isolated in <b>Brazil</b>",
@@ -330,3 +329,47 @@ for _k, _x in {"estrato-imunidade": "- Hence the active, inflamed border and the
                "candidiase-cutanea": "- Moisture and maceration favor Candida, as in intertrigo",
                "candida-sabouraud": "- Microscopy shows budding yeasts"}.items():
     _c(_k)["extra"] = _x
+
+# ---- Revisão por prova 15/10 (F-20261015-CLAUDE-03): organizadores de mapa mental, em tópicos, no ponto em que cada grupo aparece ----
+ORG = lambda s: f'<div data-nebli-organizacao="true">{s}</div>'
+_MOT = "Revisão 15/10: organizador de mapa mental pedido por Davi (‘quais as principais superficiais, diferença superficial × cutânea, principais cutâneas’)."
+def _antes(ref, card):
+    i = next(i for i, c in enumerate(CARDS) if c["key"] == ref); CARDS.insert(i, card)
+_c("tipos-doenca")["text"] = ORG("Three ways <b>fungi</b> cause disease:<br>- {{c1::allergies}} (hypersensitivity)<br>- {{c2::toxicoses}} (mycetism and mycotoxicosis)<br>- {{c3::infections}} (invasion of living tissue)")
+_c("tipos-doenca")["flags"] = {1: V, 2: V, 3: V}; _c("tipos-doenca")["motivo"] = "Verde: lâmina 2. " + _MOT + " Antes o cloze estava no verbo ‘invading’."
+_c("classificacao")["text"] = ORG("<b>Superficial</b> × <b>cutaneous</b> mycoses:<br>- superficial: only the {{c1::stratum corneum}} or hair surface, no immune response<br>- cutaneous: fungi digest the {{c2::keratin}} of skin, hair, nails, with inflammation")
+_c("classificacao")["flags"] = {1: V, 2: V}; _c("classificacao")["motivo"] = "Verde: lâminas 3 e 5; provas 2025 P3 4.4 e 2024 P3 2.6. " + _MOT
+_c("classificacao")["extra"] = "- Subcutaneous mycoses are implanted below the skin; systemic ones are usually inhaled"
+_c("classificacao")["duplicacao_ok"] = "organizador: o critério que separa os grupos"
+CARDS[:] = [c for c in CARDS if c["key"] != "superficial-imune"]
+_antes("classificacao", au("org-classificacao", ORG("<b>Mycoses</b> by depth of invasion:<br>- {{c1::superficial}}: pityriasis versicolor<br>- {{c2::cutaneous}}: dermatophytosis, candidiasis<br>- {{c3::subcutaneous}}: sporotrichosis, chromoblastomycosis<br>- {{c4::systemic}}: histoplasmosis, paracoccidioidomycosis, cryptococcosis"),
+    {1: V, 2: V, 3: V, 4: V}, A_, "Classificação das micoses por profundidade", "3", "central", "nenhum card dos acervos.", _ESP, "Verde: lâminas 3–4 (repetidas nas aulas 48 e 50). " + _MOT,
+    extra="- The depth reached by the fungus defines the group, from keratin to internal organs", duplicacao_ok="organizador da matéria inteira"))
+_antes("estrato-corneo-pv", au("org-superficiais", ORG("Main <b>superficial mycoses</b> (agent):<br>- {{c1::pityriasis versicolor}} (Malassezia)<br>- {{c2::black piedra}} (Piedraia hortae)<br>- {{c3::white piedra}} (Trichosporon)<br>- {{c4::tinea nigra}} (Hortaea werneckii)"),
+    {1: V, 2: V, 3: V, 4: V}, A_, "Principais micoses superficiais", "5", "central", "nenhum card dos acervos.", _ESP, "Verde: lâmina 5. " + _MOT, extra="- All stay in dead keratin, so they are mainly cosmetic",
+    duplicacao_ok="organizador; os cards de cada item cobram o agente e o aspecto"))
+_antes("estrato-corneo-pv", au("org-cutaneas", ORG("Main <b>cutaneous mycoses</b>:<br>- {{c1::dermatophytosis}} (tinea)<br>- cutaneous {{c2::candidiasis}}<br>- infection by {{c3::non-dermatophyte}} molds"),
+    {1: V, 2: V, 3: V}, A_, "Principais micoses cutâneas", "5", "central", "nenhum card dos acervos.", _ESP, "Verde: lâminas 3 e 5. " + _MOT, extra="- Dermatophytes are by far the most common cause",
+    duplicacao_ok="organizador"))
+_antes("estrato-corneo-pv", au("org-generos", ORG("The three <b>dermatophyte</b> genera:<br>- {{c1::Trichophyton}}<br>- {{c2::Microsporum}} (now partly Nannizzia)<br>- {{c3::Epidermophyton}}"),
+    {1: V, 2: V, 3: V}, A_, "Gêneros de dermatófitos", "5", "prova", "nenhum card dos acervos.", _ESP, "Verde: lâmina 3; prova 2019 P2 3.1 (gêneros e fontes). " + _MOT, extra="- Sources: soil (geophilic), animals (zoophilic), people (anthropophilic)",
+    duplicacao_ok="organizador; a tabela de locais cobra onde cada gênero infecta"))
+_ref14 = next(c["key"] for c in sorted(CARDS, key=lambda c: int(_re.search(r"\d+", c["evid"]).group())) if int(_re.search(r"\d+", c["evid"]).group()) >= 14)
+_antes(_ref14, au("org-tinhas", ORG("<b>Tinea</b> is named by the site:<br>- scalp: tinea {{c1::capitis}}<br>- body: tinea {{c2::corporis}}<br>- groin: tinea {{c3::cruris}}<br>- feet: tinea {{c4::pedis}}<br>- nails: tinea {{c5::unguium}}"),
+    {1: Z, 2: Z, 3: Z, 4: Z, 5: Z}, C_, "Tinhas por local", "14", "central", "nenhum card dos acervos.", _ESP, "Azul: lâminas 14–30. " + _MOT, extra="- Tinea = dermatophytosis; the Latin name only says where it is",
+    duplicacao_ok="organizador; os cards de cada tinha trazem a clínica"))
+
+# tabela gênero × local feita ao vivo (comentário de Davi, CORRIGIDO 14/10) trazida à spec, 15/10
+_c("localizacao")["text"] = "<div data-nebli-organizacao=\"true\">Sites infected by each <b>dermatophyte</b> genus:<br><table style=\"margin:auto;border-collapse:collapse\"><tr><th></th><th>&nbsp;Skin&nbsp;</th><th>&nbsp;Hair&nbsp;</th><th>&nbsp;Nails&nbsp;</th></tr><tr><td><i>Trichophyton</i></td><td>✓</td><td>✓</td><td>✓</td></tr><tr><td><i>Microsporum</i></td><td>✓</td><td>{{c1::✓}}</td><td>{{c1::✗}}</td></tr><tr><td><i>Epidermophyton</i></td><td>✓</td><td>{{c2::✗}}</td><td>{{c2::✓}}</td></tr></table></div>"
+_c("localizacao")["extra"] = "- Microsporum spares the nails; Epidermophyton spares the hair<br>- Nannizzia, like Microsporum, spares the nails"
+
+# textos vivos (correções de comentários de Davi feitas ao vivo) trazidos à spec, 15/10
+_c('localizacao')["text"] = "<div data-nebli-organizacao=\"true\">Sites infected by each <b>dermatophyte</b> genus:<br><table style=\"margin:auto;border-collapse:collapse\"><tbody><tr><th></th><th>&nbsp;Skin&nbsp;</th><th>&nbsp;Hair&nbsp;</th><th>&nbsp;Nails&nbsp;</th></tr><tr><td><i>Trichophyton</i></td><td>{{c2::Yes}}</td><td>{{c2::Yes}}</td><td>{{c2::Yes}}</td></tr><tr><td><i>Microsporum</i></td><td>{{c3::Yes}}</td><td>{{c3::Yes}}</td><td>{{c3::Rarely}}</td></tr><tr><td><i>Epidermophyton</i></td><td>{{c1::Yes}}</td><td>{{c1::No}}</td><td>{{c2::Yes}}</td></tr></tbody></table></div>"
+_c('localizacao')["extra"] = "- Microsporum is the classic agent of scalp ringworm (tinea capitis) and rarely reaches the nails<br>- Epidermophyton spares the hair"
+_c('localizacao')["flags"] = {n: list(_c('localizacao')["flags"].values())[0] for n in [1, 2, 3]}
+
+# textos vivos (correções de comentários de Davi feitas ao vivo) trazidos à spec, 15/10
+_c('localizacao')["text"] = "<div data-nebli-organizacao=\"true\">Sites infected by each <b>dermatophyte</b> genus:<br><table style=\"margin:auto;border-collapse:collapse\"><tbody><tr><th></th><th>&nbsp;Skin&nbsp;</th><th>&nbsp;Hair&nbsp;</th><th>&nbsp;Nails&nbsp;</th></tr><tr><td><i>Trichophyton</i></td><td>{{c2::Yes}}</td><td>{{c2::Yes}}</td><td>{{c2::Yes}}</td></tr><tr><td><i>Microsporum</i></td><td>{{c3::Yes}}</td><td>{{c3::Yes}}</td><td>{{c3::Rarely}}</td></tr><tr><td><i>Epidermophyton</i></td><td>{{c1::Yes}}</td><td>{{c1::No}}</td><td>{{c1::Yes}}</td></tr></tbody></table></div>"
+_c('localizacao')["extra"] = "Dermatophytes are&nbsp;"
+_c('localizacao')["flags"] = {n: list(_c('localizacao')["flags"].values())[0] for n in [1, 2, 3]}
+IMAGENS_VISTAS = {"2b5e7156d2ac6df8a3aaf0a737822a1c.webp": "Figura AnKing das camadas da epiderme (vista 15/10 noite): mostra o estrato córneo como camada externa de células mortas; no Extra, não entrega a resposta da frente."}

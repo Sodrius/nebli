@@ -50,14 +50,14 @@ CARDS = [
     [1500401344665, 1500333766310], "Rosa: abre o bloco de importância; útil, pouco ganho longitudinal.",
     extra="- Fungi are also eaten (mushrooms) and ripen cheeses"),
  au("penicilina", 'The first antibiotic, penicillin, was obtained from the mold {{c1::<i><b>Penicillium</b></i>}}', {1: Z}, A_, 'Antibióticos naturais (penicilina)', '5; Benedito p. 4', 'central', "busca 09/10 (AnKing, MCAT, Histology, LLU, Dope, AnatoKing): 'penicillin Penicillium' sem card.", [1500401344665, 1500243882463], "Azul: 'antibióticos naturais' do slide 5.", extra='- Cephalosporins and griseofulvin also come from fungi'),
- au("saprofita", "Fungi that feed on dead organic matter are {{c1::<b>saprobes</b>}}, while those that feed on living hosts are {{c2::<b>parasites</b>}}", {1: Z, 2: Z}, A_,
+ au("saprofita", "Fungi that feed on dead organic matter are {{c1::<b>saprobes</b>}}, while those that feed on living hosts are {{c1::<b>parasites</b>}}", {1: Z}, A_,
     "Sapróbios × parasitas", "7; apostila veteranos aula 8; Trabulsi 64.2; prova 2015 P2 29.3", "prova", "nenhum card AnKing/MCAT define sapróbio (busca 'saprophyt*', 'decompos*').",
     [1500243882463, 1500401344665], "Azul: 'características do fungo em saprofitismo' (prova 2015).",
     extra="- Saprobes are the main decomposers that recycle nutrients"),
  au("micorriza", '{{c1::<b>Mycorrhizae</b>}} are mutualistic associations between fungi and plant roots', {1: Z}, A_, 'Micorrizas', '7', 'central', "busca 09/10 (AnKing, MCAT, Histology, LLU, Dope, AnatoKing): 'mycorrhiz*' sem card.", [1500401344665, 1500243882463], "Azul: 'associação com a raiz da planta – micorrizas' do slide 7.", extra="- The fungus extends the root's reach for water and minerals"),
- au("edificios", 'In {{c1::<b>sick building</b>}} syndrome, indoor fungi cause fatigue, headache and airway irritation in more than 20% of occupants', {1: R}, A_, 'Síndrome dos edifícios doentes', '8', 'lateral', "busca 09/10 (AnKing, MCAT, Histology, LLU, Dope, AnatoKing): 'sick building' sem card.", [1500401344665, 1500243882463], 'Rosa: lâmina 8 inteira sobre o tema; detalhe ambiental.', extra='- Damp, poorly ventilated buildings favor mold'),
+ # edificios: retirado 15/10 noite — reprovado por Davi em 14/10 (anti-exemplar “sick building, >20%”), apagado e recriado por engano
  ak("rhizopus-pao", 1500333766310, {1: V, 2: V}, A_, "Rhizopus, mofo do pão", 9, "Verde: HY (1); mofo do pão do slide 9 e Benedito p. 41."),
- au("micotoxicose", 'Eating food with fungal toxins causes {{c1::<b>mycotoxicosis</b>}}, whereas eating a poisonous mushroom (e.g., <i>Amanita</i>) causes {{c2::<b>mycetism</b>}}', {1: Z, 2: Z}, A_, 'Micotoxicose × micetismo', '10 e 51; Benedito p. 5', 'central', "busca 09/10 (AnKing, MCAT, Histology, LLU, Dope, AnatoKing): 'mycotoxi*', 'mycetism' sem card; AnKing tem só aflatoxina.", [1517779158524, 1500401344665], 'Azuis: micotoxinas (slide 10) e Amanita venenosa (slide 51), separadas por Benedito.', extra='- Neither is an infection: the harm comes from the toxin'),
+ au("micotoxicose", 'Eating food with fungal toxins causes {{c1::<b>mycotoxicosis</b>}}, whereas eating a poisonous mushroom (e.g., <i>Amanita</i>) causes {{c1::<b>mycetism</b>}}', {1: Z}, A_, 'Micotoxicose × micetismo', '10 e 51; Benedito p. 5', 'central', "busca 09/10 (AnKing, MCAT, Histology, LLU, Dope, AnatoKing): 'mycotoxi*', 'mycetism' sem card; AnKing tem só aflatoxina.", [1517779158524, 1500401344665], 'Azuis: micotoxinas (slide 10) e Amanita venenosa (slide 51), separadas por Benedito.', extra='- Neither is an infection: the harm comes from the toxin'),
  ak("aflatoxina-graos", 1517779158524, {1: Z}, A_, "Aflatoxina em grãos e nozes mal armazenados", 10, "Verde: HY (2); grãos contaminados do slide 10. Rebaixado: foco em compreensão, clínica não cobrada pela aula (F-20261010-CLAUDE-04).", extra_add="- A mycotoxin: a toxic fungal metabolite in food, not an infection", clinica_lateral=True),
  au("quitridio", '{{c1::<b>Chytrids</b>}} (Chytridiomycota) are aquatic fungi whose spores swim with a flagellum', {1: Z}, A_, 'Quitrídios: aquáticos, esporos flagelados', '14 e 46; Benedito p. 9', 'central', "busca 09/10 (AnKing, MCAT, Histology, LLU, Dope, AnatoKing): 'chytrid*' sem card.", [1500401344665, 1500243882463], 'Azul: quitrídio do slide 14 e gametas flagelados de fungos aquáticos (slide 46).', extra='- A chytrid is wiping out amphibians worldwide'),
  au("melanina", "{{c1::<b>Melanin</b>}} deposited in the fungal cell wall protects the fungus against ionizing radiation", {1: R}, A_,
@@ -98,7 +98,7 @@ CARDS = [
  au("alfa-glucana", "In dimorphic fungi, the <b>yeast</b> phase at 37 °C has more {{c1::<b>α-glucan</b>}} in its wall than the mold phase", {1: Z}, B_,
     "Parede da fase leveduriforme: α-glucana", "24; Trabulsi tab. 64.1.1; prova 2025 P3 1.2", "prova", "nenhum card de α-glucana no AnKing/MCAT.",
     [1509742036852, 1499970409878], "Azul: parede e dimorfismo cobrados em 2025 P3.",
-    extra="- Mold phase (25 °C): more <b>β-glucan</b><br>- The switch helps the yeast evade host defenses"),
+    extra="- Mold phase (25 °C): more <b>β-glucan</b><br>- <b>Virulence factor</b>: the outer α-glucan layer hides β-glucan from the macrophage receptor <b>dectin-1</b>, so the yeast is recognized less"),
  # ---------- C. Antifúngicos (slide 27) ----------
  ak("equinocandina", 1509742036852, {1: V, 2: V}, C_, "Equinocandinas inibem a β-1,3-glucana sintase", 27, "Verdes: HY (1); slide 27."),
  ak("polienos", 1509742201770, {1: V, 2: V}, C_, "Polienos ligam ergosterol e abrem poros", 27, "Verdes: HY (1); slide 27."),
@@ -117,7 +117,7 @@ CARDS = [
  au("mixomicetos", 'Slime molds (Myxomycota), once grouped with fungi, are now classified as {{c1::<b>protists</b>}}', {1: R}, D_, 'Fungos do lodo agora em Protista', '33', 'lateral', "busca 09/10 (AnKing, MCAT, Histology, LLU, Dope, AnatoKing): 'slime mold*' sem card.", [1500401344665, 1500243882463], 'Rosa: reclassificação do slide 33.', extra='- True fungi = Eumycota'),
  au("filos-medicos", 'Most fungi of medical interest belong to {{c1::<b>Ascomycota</b>}} and {{c2::<b>Basidiomycota</b>}}', {1: V, 2: V}, D_, 'Asco e Basidio: maioria dos fungos médicos', '34–35; monitoria P2', 'central', "busca 09/10 (AnKing, MCAT, Histology, LLU, Dope, AnatoKing): 'Ascomycota OR Basidiomycota' sem card.", [1500401344665, 1500243882463], 'Verdes: destaque circulado do slide 35.', extra='- Together they form the subkingdom <b>Dikarya</b>'),
  au("mucoromycota", '<i>Mucor</i>, <i>Rhizopus</i> and <i>Lichtheimia</i> now belong to the phylum {{c1::<b>Mucoromycota</b>}}', {1: Z}, D_, 'Mucoromycota', '35 e 48', 'central', "busca 09/10 (AnKing, MCAT, Histology, LLU, Dope, AnatoKing): 'Mucorales OR zygomycete*' sem card.", [1500334133616, 1500333766310], 'Azul: gêneros anotados no slide 35; antigo Zygomycota (48).', extra='- Formerly Zygomycota'),
- au("brotamento", "Yeasts reproduce asexually mainly by {{c1::<b>budding</b>}}, which gives unequal cells, whereas {{c2::<b>binary fission</b>}} gives two equal cells", {1: V, 2: Z}, D_,
+ au("brotamento", "Yeasts reproduce asexually mainly by {{c1::<b>budding</b>}}, which gives unequal cells, whereas {{c1::<b>binary fission</b>}} gives two equal cells", {1: V}, D_,
     "Brotamento × cissiparidade", "37–38; prova 2017 P2 2.4", "prova", "AnKing só cita brotamento por espécie (Blastomyces, Cryptococcus), não o processo.",
     [1499972082394, 1500246246409], "Verde: reprodução da levedura, cobrada em 2017.",
     extra="- The bud is a <b>blastoconidium</b>"),
@@ -128,7 +128,7 @@ CARDS = [
     extra="- Unlike true hyphae, they are pinched at each junction", duplicacao_ok="ganho: como a pseudo-hifa se forma; o AnKing cobra o achado da Candida"),
  ak("candida-pseudohifa", 1557752615914, {1: V}, D_, "Candida: pseudo-hifas ± leveduras brotando", 39, "Verde: 'pseudo-hifas na invasão por Candida' (slide 39)."),
  au("micelio", 'A mass of branching hyphae is called a {{c1::<b>mycelium</b>}}', {1: V}, D_, 'Hifas formam o micélio', '42–44; apostila veteranos aula 8; monitoria P2', 'central', "busca 09/10 (AnKing, MCAT, Histology, LLU, Dope, AnatoKing): 'mycelium' só no Extra de Aspergillus.", [1500401344665, 1500243882463], 'Verde: estrutura somática dos bolores (apostila e Benedito).', extra='- Hyphae are the tubular filaments that make up molds'),
- au("micelio-vegetativo", 'The {{c1::<b>vegetative</b>}} mycelium grows into the substrate to absorb nutrients, whereas the {{c2::<b>aerial</b>}} mycelium bears the spores', {1: V, 2: V}, D_, 'Micélio vegetativo × aéreo (reprodutivo)', '44; apostila veteranos aula 8; monitoria P2; Benedito p. 14', 'central', "busca 09/10 (AnKing, MCAT, Histology, LLU, Dope, AnatoKing): 'aerial hypha*' sem card.", [1500401344665, 1500243882463], "Verdes: 'hifa vegetativa' do slide 44 e a divisão da apostila.", extra='- Reproductive structures are the basis of mold identification'),
+ au("micelio-vegetativo", 'The {{c1::<b>vegetative</b>}} mycelium grows into the substrate to absorb nutrients, whereas the {{c1::<b>aerial</b>}} mycelium bears the spores', {1: V}, D_, 'Micélio vegetativo × aéreo (reprodutivo)', '44; apostila veteranos aula 8; monitoria P2; Benedito p. 14', 'central', "busca 09/10 (AnKing, MCAT, Histology, LLU, Dope, AnatoKing): 'aerial hypha*' sem card.", [1500401344665, 1500243882463], "Verdes: 'hifa vegetativa' do slide 44 e a divisão da apostila.", extra='- Reproductive structures are the basis of mold identification'),
  au("crescimento-apical", 'Hyphae grow by elongating at their {{c1::<b>tips</b>}}, and a hyphal fragment can start a new colony', {1: R}, D_, 'Crescimento apical e fragmentação', '42; monitoria P2', 'lateral', 'busca 09/10 (AnKing, MCAT, Histology, LLU, Dope, AnatoKing): sem card de crescimento de hifa.', [1500401344665, 1500243882463], 'Rosa: detalhe da monitoria.', extra='- Fragmentation is a simple form of asexual reproduction'),
  au("conidios", "<i>Aspergillus</i> and <i>Penicillium</i> spread by asexual spores borne externally on hyphae, called {{c1::<b>conidia</b>}}", {1: V}, D_,
     "Conídios", "42–43; Trabulsi 64.1", "central", "AnKing só tem conidióforo do Aspergillus e artroconídio do Coccidioides.",
@@ -268,7 +268,7 @@ for k in ("quitina-levedura", "mucoromycota", "clamidoconidio", "pleomorfismo", 
 _cor("saprofita", V); _cor("nome-sexuado", Z)
 _c("pleomorfismo")["extra"] = "- Example: loss of conidia and sterile mycelium after repeated subculture"
 # lacunas (G1–G8, G10–G13)
-_novo("levedura-bolor", "<b>Yeasts</b> are {{c1::unicellular}} fungi, whereas <b>molds</b> are {{c2::multicellular}} fungi made of filaments", V, B_, "Levedura unicelular × bolor filamentoso", "21; 19", "central", "- A yeast cell does both vegetative and reproductive work by itself", [1499970409878, 1500334133616])
+_novo("levedura-bolor", "<b>Yeasts</b> are {{c1::unicellular}} fungi, whereas <b>molds</b> are {{c1::multicellular}} fungi made of filaments", V, B_, "Levedura unicelular × bolor filamentoso", "21; 19", "central", "- A yeast cell does both vegetative and reproductive work by itself", [1499970409878, 1500334133616])
 _novo("hifas", "The body (<b>thallus</b>) of a <b>mold</b> is made of long tubular filaments called {{c1::hyphae}}", V, B_, "Talo do bolor = hifas", "21; Benedito p. 7", "central", "- A mass of hyphae is a mycelium", [1500334133616, 1499970409878])
 _novo("hifa-septada", "In most <b>molds</b>, cross-walls called {{c1::septa}} divide the <b>hyphae</b> into cells", V, B_, "Hifa septada", "21; Benedito p. 10", "central", "- Hyphae without septa are coenocytic, as in Mucor and Rhizopus", [1500334133616, 1499970409878])
 _novo("parede-funcao", "The fungal <b>cell wall</b> gives the cell its {{c1::shape}} and protects it from <b>osmotic lysis</b>", Z, B_, "Função da parede", "22", "central", "- It is the target of echinocandins", [1500244482455, 1499970409878])
@@ -281,3 +281,40 @@ _novo("endotermia", "Mammalian {{c1::endothermy}} (~37 °C) may protect against 
 _novo("zoopagomycota", "The genera <b>Conidiobolus</b> and <b>Basidiobolus</b> belong to the phylum {{c1::Zoopagomycota}}", R, E_, "Zoopagomycota", "35", "lateral", "- They were formerly in Zygomycota", [1500334133616, 1500333766310])
 _novo("queijos", "<b>Penicillium</b> molds are used to ripen cheeses such as {{c1::Roquefort}} and Camembert", R, A_, "Fungos na maturação de queijos", "4", "lateral", "- Yeasts ferment bread, beer and wine", [1500333766310, 1499970409878])
 _ak("dimorfismo", text="<i><b>Histoplasma</b>, <b>Paracoccidioides</b> and other endemic systemic fungi</i> are found in the {{c1::mold}} form in <u>soil</u> and the {{c1::yeast}} form in the <u>body</u>")
+
+# ---- Revisão por prova 15/10 (F-20261015-CLAUDE-03): organizadores de mapa mental, em tópicos ----
+ORG = lambda s: f'<div data-nebli-organizacao="true">{s}</div>'
+_MOT = "Revisão 15/10: organizador de mapa mental pedido por Davi."
+_EP = [c["src"] for c in CARDS if c["kind"] == "text"][:2]
+def _sl(c): return int(_re.search(r"\d+", str(c["evid"])).group())
+def _no_slide(n, card):
+    i = next(i for i, c in enumerate(CARDS) if _sl(c) >= n); CARDS.insert(i, card)
+_no_slide(21, au("org-fungo-bacteria", ORG("<b>Fungi</b> × bacteria:<br>- cell: {{c1::eukaryotic}} × prokaryotic<br>- wall: {{c2::chitin}} × peptidoglycan<br>- ribosomes: {{c3::80S}} × 70S<br>- membrane sterol: {{c4::ergosterol}} × none"),
+    {1: V, 2: V, 3: V, 4: V}, B_, "Fungos × bactérias", "21", "prova", "nenhum card dos acervos.", _EP, "Verde: lâmina 21; provas 2017 P2 2.5 e 2018 P2 1.3 (tabela fungo × bactéria). " + _MOT,
+    duplicacao_ok="organizador da comparação cobrada em prova"))
+_no_slide(21, au("org-formas", ORG("Forms of <b>fungi</b>:<br>- {{c1::yeast}}: single budding cells<br>- {{c1::mold}}: hyphae forming a mycelium<br>- {{c1::dimorphic}}: yeast at 37 °C, mold at 25 °C"),
+    {1: V}, B_, "Formas morfológicas", "21", "prova", "nenhum card dos acervos.", _EP, "Verde: lâminas 19–21 e 45; provas 2017 e 2018 (forma e dimorfismo). " + _MOT,
+    duplicacao_ok="organizador; cada forma tem cards de detalhe"))
+_no_slide(27, au("org-antifungicos", ORG("<b>Antifungals</b> by target:<br>- bind ergosterol: {{c1::polyenes}}<br>- block ergosterol synthesis: {{c2::azoles}}<br>- block β-glucan synthesis: {{c3::echinocandins}}<br>- block nucleic acid synthesis: {{c4::flucytosine}}"),
+    {1: V, 2: V, 3: V, 4: V}, C_, "Antifúngicos por alvo", "27", "central", "nenhum card dos acervos.", _EP, "Verde: lâmina 27 (antifúngicos e alvos). " + _MOT,
+    duplicacao_ok="organizador; os AnKing de cada classe trazem o mecanismo"))
+_no_slide(48, au("org-esporos-sexuados", ORG("Sexual spores by <b>phylum</b>:<br>- Mucoromycota (old Zygomycota): {{c1::zygospore}}<br>- Basidiomycota: {{c2::basidiospores}} on a basidium<br>- Ascomycota: {{c3::ascospores}} inside an ascus"),
+    {1: Z, 2: Z, 3: Z}, D_, "Esporos sexuados por filo", "48", "central", "nenhum card dos acervos.", _EP, "Azul: lâminas 48–52. " + _MOT,
+    duplicacao_ok="organizador; cada filo tem card próprio"))
+
+# textos vivos (correções de comentários de Davi feitas ao vivo) trazidos à spec, 15/10
+_c('colonias')["text"] = "{{c1::<b>Yeasts::Yeasts/Molds</b>}} form creamy, pasty colonies, whereas {{c1::<b>molds::ye</b><b>asts/molds</b>}} form cottony, velvety or powdery ones"
+_c('colonias')["extra"] = "- Telling them apart is the first step in culture identification<br><br><img src=\"nebli-trabulsi-fig-64-1-3.png\" style=\"max-width:100%;max-height:52vh\">"
+_c('colonias')["flags"] = {n: list(_c('colonias')["flags"].values())[0] for n in [1]}
+_c('mucoromycota')["text"] = "<img src=\"nebli-mb43-arvore-fungos-oculto.png\" style=\"max-width:100%;max-height:45vh\"><br>The phylum that now includes <i>Mucor</i>, <i>Rhizopus</i> and <i>Lichtheimia</i> is {{c1::<b>Mucoromycota</b>}}"
+_c('mucoromycota')["extra"] = "- These genera were formerly grouped in Zygomycota<br>- Most fungi of medical interest are Ascomycota and Basidiomycota<br><img src=\"nebli-mb43-arvore-fungos.png\" style=\"max-width:100%;max-height:52vh\">"
+_c('mucoromycota')["flags"] = {n: list(_c('mucoromycota')["flags"].values())[0] for n in [1]}
+_c('conidio-esporangio')["text"] = "Asexual <b>spores</b> formed freely on hyphae are {{c1::conidia}}, whereas spores formed inside a sac (sporangium) are sporangiospores"
+_c('conidio-esporangio')["extra"] = "- Aspergillus and Penicillium make conidia, while Rhizopus and Mucor make sporangiospores"
+_c('conidio-esporangio')["flags"] = {n: list(_c('conidio-esporangio')["flags"].values())[0] for n in [1]}
+for _c_ in CARDS:
+    _x_ = {"org-fungo-bacteria": "- Fungi are also larger (3–10 µm vs 1–5 µm); these differences are drug targets",
+           "org-formas": "- Candida also forms pseudohyphae from buds that do not separate",
+           "org-antifungicos": "- Polyenes: amphotericin B, nystatin; allylamines (terbinafine) also block ergosterol synthesis; human cells lack ergosterol and β-glucan",
+           "org-esporos-sexuados": "- Most fungi of medical interest are Ascomycota or Basidiomycota"}.get(_c_["key"])
+    if _x_: _c_["extra"] = _x_

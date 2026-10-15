@@ -134,7 +134,8 @@ CARDS = [
  ak("crypto-pombo", 1500244584091, {1: V, 2: V}, E_, "Fezes de pombo e solo", "55, 133", "Verdes: HY; lâmina 133."),
  sh(1791557941633, "azul", E_, "Cryptococcus é levedura", "55, 134", "Azul: nota já existente de Biologia dos fungos."),
  au("crypto-sne", "After a lung infection, Cryptococcus shows marked tropism for the {{c1::meninges}}", {1: V}, E_,
-    "Tropismo pelo SNC", "56, 137", "central", "AnKing tem meningite, não o tropismo.", [1500244913534, 1500244699744], "Verde: lâminas 56 e 137."),
+    "Tropismo pelo SNC", "56, 137", "central", "AnKing tem meningite, não o tropismo.", [1500244913534, 1500244699744], "Verde: lâminas 56 e 137.",
+    extra="- Why the CNS: the <b>capsule</b> lets the yeast survive in the blood, it crosses the blood–brain barrier (directly or inside macrophages), and the CSF has little complement and few phagocytes<br>- Brain catecholamines also feed its <b>melanin</b>, which protects it from oxidative killing"),
  ak("crypto-inalacao", 1500244699744, {1: V}, E_, "Inalação, primária no pulmão", "56, 138", "Verde: HY; lâmina 138."),
  ak("crypto-meningite", 1500244913534, {1: V, 2: V}, E_, "Causa mais comum de meningite fúngica", "56, 138", "Verdes: infecção secundária do SNC."),
  au("crypto-gattii", "Cryptococcus gattii (serotypes B and C) is linked to {{c1::eucalyptus}} trees", {1: Z}, E_,
@@ -146,7 +147,8 @@ CARDS = [
  au("crypto-cgb", "On CGB agar, C. gattii grows and turns the medium {{c1::blue}}, whereas C. neoformans does not grow", {1: R}, E_,
     "Meio CGB", "62; Trabulsi", "lateral", "sem card nos acervos.", [1500246419118, 1500244771798],
     "Rosa: lâmina 62.", extra="- CGB = canavanine, glycine and bromothymol blue"),
- ak("crypto-urease", 1500244771798, {1: V}, E_, "Cryptococcus é urease-positivo", "63, 144", "Verde: HY; urease + × Candida − (lâmina 144)."),
+ ak("crypto-urease", 1500244771798, {1: V}, E_, "Cryptococcus é urease-positivo", "63, 144", "Verde: HY; urease + × Candida − (lâmina 144).",
+    extra_add="- Urease turns urea into ammonia; in Cryptococcus it helps the yeast cross the blood–brain barrier<br>- In the lab, urease separates Cryptococcus (positive) from Candida (negative)"),
 ]
 
 # Linha curta no verso dos cards que chegavam sem explicação (F-20261003-CLAUDE-15); AnKing preservado (extra_add), autoral em extra.
@@ -232,6 +234,7 @@ _novo("geografica", "Agents of the <b>endemic systemic mycoses</b> have a well-d
 _novo("pcm-formas", "In <b>paracoccidioidomycosis</b>, the inhaled {{c1::mycelial}} form (conidia) is infective and the {{c2::yeast}} form is parasitic", V, "pcm-pulmao", "Forma infectante × parasitária", "20", "central")
 _novo("galactomanana", "The <b>mold phase</b> of Paracoccidioides is rich in immunogenic {{c1::galactomannan}}, which the yeast phase largely lacks", R, "pcm-pulmao", "Galactomanana da fase M", "19", "lateral")
 _novo("reativacao", "<b>Paracoccidioidomycosis</b> can appear years after infection by {{c1::reactivation}} of a latent focus", Z, "pcm-pulmao", "Reativação de foco latente", "20; monitoria", "prova")
+_novo("pcm-celular", "In <b>paracoccidioidomycosis</b>, protection depends on {{c1::cell-mediated}} immunity, while circulating antibodies are not protective", Z, "pcm-pulmao", "Imunidade celular protege na PCM", "20; apostila guia aula 11; UC3.pdf p. 324", "central", extra="- Granulomas form when T cells activate macrophages; weak cellular immunity allows the severe juvenile form")  # ajuste 15/10 noite (F-20261015-CLAUDE-05)
 _novo("paracoccidioidina", "The {{c1::paracoccidioidin}} skin test is used in <b>epidemiological surveys</b> of Paracoccidioides infection", R, "pcm-pulmao", "Paracoccidioidina", "7", "lateral")
 _novo("pcm-sorologia", "Antibodies in <b>paracoccidioidomycosis</b> are detected by {{c1::immunodiffusion}} and complement fixation", Z, "pcm-pulmao", "Sorologia da PCM", "80", "central", "- Titers help follow treatment")
 _novo("vaginite-endogena", "<b>Candida vulvovaginitis</b> usually comes from the patient's own {{c1::GI tract}} by autoinoculation", Z, "cand-pseudo", "Fonte endógena da vulvovaginite", "118", "central", "- Sexual transmission also occurs")
@@ -282,3 +285,30 @@ for _k, _x in {"paracoccidioidina": "- A positive test shows past infection, not
                "filobasidiella": "- Its asexual (anamorph) form is the yeast seen in patients"}.items():
     _c(_k)["extra"] = _x
 _c("histo-levedura")["duplicacao_ok"] = "ganho: local da conversão conídio → levedura (monitoria), além do parasitismo intracelular"
+
+# ---- Revisão por prova 15/10 (F-20261015-CLAUDE-03): organizadores de mapa mental, em tópicos ----
+ORG = lambda s: f'<div data-nebli-organizacao="true">{s}</div>'
+_MOT = "Revisão 15/10: organizador de mapa mental pedido por Davi."
+_EP = [c["src"] for c in CARDS if c["kind"] == "text"][:2]
+def _sl(c): return int(_re.search(r"\d+", str(c["evid"])).group())
+def _no_slide(n, card):
+    i = next(i for i, c in enumerate(CARDS) if _sl(c) >= n); CARDS.insert(i, card)
+_no_slide(2, au("org-sistemicas", ORG("Main <b>systemic mycoses</b>:<br>- endemic, by dimorphic true pathogens: {{c1::paracoccidioidomycosis}} and {{c2::histoplasmosis}}<br>- opportunistic, mainly in the immunocompromised: {{c3::cryptococcosis}}, {{c4::candidiasis}} and aspergillosis"),
+    {1: V, 2: V, 3: V, 4: V}, A_, "Principais micoses sistêmicas: endêmicas × oportunistas", "2", "central", "nenhum card dos acervos.", _EP, "Verde: lâmina 2 (classificação). " + _MOT,
+    duplicacao_ok="organizador; cada micose tem seus cards"))
+_no_slide(4, au("org-sist-comuns", ORG("Features shared by agents of <b>endemic systemic mycoses</b>:<br>- a defined {{c1::geographic}} distribution<br>- live in {{c2::soil}} and animal droppings<br>- enter through the {{c3::airways}}"),
+    {1: V, 2: V, 3: V}, A_, "Características comuns dos agentes", "4", "central", "nenhum card dos acervos.", _EP, "Verde: lâmina 4 (lista da aula); prova 2025 P3 1.1 (contágio por inalação). " + _MOT,
+    duplicacao_ok="organizador da lâmina 4; os cards isolados ficam como detalhe"))
+_no_slide(10, au("org-pcm-formas", ORG("Clinical forms of <b>paracoccidioidomycosis</b>:<br>- {{c1::chronic adult}} form: about 90%, mostly men, lungs and mucosa<br>- {{c2::acute juvenile}} form: 3–5%, most severe, lymph nodes, liver and spleen"),
+    {1: V, 2: V}, B_, "Formas da PCM", "10", "central", "nenhum card dos acervos.", _EP, "Verde: lâmina 10. " + _MOT,
+    duplicacao_ok="organizador; os cards de cada forma trazem a frequência"))
+
+# textos vivos (correções de comentários de Davi feitas ao vivo) trazidos à spec, 15/10
+_c('pcm-formas')["text"] = "In <b>paracoccidioidomycosis</b>, conidia from the environmental {{c1::mold::mold/yeast}} form are inhaled, and in tissue the fungus becomes a {{c1::yeast::mold/yeast}}"
+_c('pcm-formas')["extra"] = "- The switch happens at body temperature (37 °C)"
+_c('pcm-formas')["flags"] = {n: list(_c('pcm-formas')["flags"].values())[0] for n in [1]}
+for _c_ in CARDS:
+    _x_ = {"org-sistemicas": "- Endemic agents infect healthy people in their region; opportunists need a weakened host",
+           "org-sist-comuns": "- Inhaled conidia from the mold form convert to yeast at body temperature",
+           "org-pcm-formas": "- The chronic form reactivates a latent lung focus years later"}.get(_c_["key"])
+    if _x_: _c_["extra"] = _x_

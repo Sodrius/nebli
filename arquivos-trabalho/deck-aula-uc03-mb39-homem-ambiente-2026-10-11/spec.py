@@ -247,7 +247,7 @@ CARDS = [
  au("sucessao-bifido", "Once oxygen is consumed, anaerobes such as {{c1::Bifidobacterium}} take over and produce short-chain fatty acids", V, F_, "Sucessão: anaeróbios e AGCC", "37", "central", NF, ES4, "Verde: lâmina 37."),
  au("sucessao-1mes", "By one month the gut contains Bifidobacterium, E. coli, Lactobacillus, Bacteroides and {{c1::Prevotella}}", R, F_, "Sucessão: um mês", "37", "lateral", NF, ES4, "Rosa: lâmina 37."),
  au("janela-th", "In the first year the immune system is moldable, a window to regulate the {{c1::Th1:Th2}} balance", V, F_, "Janela de regulação imune", "38", "central", NF, ES4, "Verde: lâmina 38."),
- au("th-doenca", "A Th2 > Th1 ratio favors {{c1::atopic}} disease, whereas Th1 > Th2 favors {{c2::autoimmune}} disease", V, F_, "Relação Th1:Th2 e doença", "38", "central", NF, ES4, "Verde: gráfico da lâmina 38.",
+ au("th-doenca", "A Th2 > Th1 ratio favors {{c1::atopic}} disease, whereas Th1 > Th2 favors {{c1::autoimmune}} disease", V, F_, "Relação Th1:Th2 e doença", "38", "central", NF, ES4, "Verde: gráfico da lâmina 38.",
     extra="- Th2 = Th1 corresponds to health"),
  au("janela-meses", "The window for immune regulation spans roughly the first {{c1::12 months}} of life", R, F_, "Duração da janela", "38", "lateral", NF, ES4, "Rosa: gráfico da lâmina 38."),
  au("higiene", "According to the <b>hygiene hypothesis</b>, excessive environmental hygiene {{c1::increases}} atopy and autoimmune disease", V, F_, "Teoria da higiene", "39; Trabulsi cap. 12", "central", NF, ES4, "Verde: lâmina 39.",

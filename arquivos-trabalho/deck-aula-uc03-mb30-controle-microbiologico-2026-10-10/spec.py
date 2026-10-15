@@ -115,7 +115,7 @@ CARDS = [
  # ---------- E. Calor (lâminas 36–42) ----------
  au("metodos-bio", "Biological control methods include antimicrobial drugs, bacteriocins and {{c1::bacteriophages}}", {1: R}, E_,
     "Métodos biológicos", "36", "lateral", "sem card.", DEF, "Rosa: lista da lâmina 36."),
- au("calor-umido-seco", "Moist heat kills microbes by {{c1::denaturing proteins}}, whereas dry heat kills by {{c2::oxidation}}", {1: V, 2: V}, E_,
+ au("calor-umido-seco", "Moist heat kills microbes by {{c1::denaturing proteins}}, whereas dry heat kills by {{c1::oxidation}}", {1: V}, E_,
     "Calor úmido × seco", "37–40; Trabulsi; guia", "central", "AnKing não compara.", HEAT, "Verde: base do bloco de calor.",
     extra="- Moist heat works at lower temperatures and shorter times"),
  au("flambagem", "A platinum loop is sterilized by flaming it {{c1::red-hot}} in a Bunsen burner", {1: Z}, E_,

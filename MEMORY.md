@@ -72,6 +72,7 @@ Referências positivas: Antibióticos v3 (“agora sim gostei”), Correlação 
 - **Negrito como no AnKing**: 1–2 trechos de contexto/sujeito (raramente dentro do cloze); sublinhado para qualificador. Autoral sem negrito reprova no lint.
 - **Extra:** vazio ou bullets `- ` curtos que acrescentam raciocínio, detalhe ou conexão útil; nunca repete a resposta, nunca parágrafo nem curadoria. Extra do AnKing preservado (acrescentar com `extra_add`). Ao limpar Extra herdado, julgar texto e cada imagem separadamente (tabela/algoritmo lateral sai; figura que ensina fica).
 - **Cada autoral nasce de 2–3 espelhos AnKing** escolhidos pela função da pergunta (`"espelhos"` no plano). Dica no cloze (`{{c1::x::dica}}`) só em poucos casos realmente ambíguos. Não inventar mnemônico. Iniciais fornecidas por Davi (como C/I/D) podem servir de pista num card de organização; não são termo médico nem obrigação para todos os conjuntos. O exemplo C/I/D pode ficar em português para preservar a pista; isso não muda o idioma padrão dos demais cards.
+- **Contraste complementar vai no mesmo índice** (F-20261015-CLAUDE-05; Davi, onicomicose: “já pontuei 300 cards nesse estilo, que são ruins”): quando saber um lado dá o outro (distal × proximal, saprófita × parasita), os dois clozes têm o mesmo número (dica x/y se ambíguo); índices diferentes só para fatos independentes. Lint avisa.
 - Conferir resposta vazada em cada irmão (texto visível, figura, seta, título, legenda) e frente/verso renderizados.
 
 ## 7. Imagens e gráficos

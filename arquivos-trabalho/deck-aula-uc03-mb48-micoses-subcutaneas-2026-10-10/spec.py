@@ -5,7 +5,7 @@ SHORT = "mb48"
 LESSON = "2026-uc03-microbiologia-48-micoses-subcutaneas"
 DECK = "NEBLI::UC03::P3::Microbiologia::Micoses subcutâneas"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261010-CLAUDE-02) + plano de 08/10 ajustado em 10/10, 10/10/2026"
-MEDIA = {}
+MEDIA = {"mb48-sporothrix-margarida.png": "img/mb48-sporothrix-margarida.png", "mb48-lobo-cadeias.png": "img/mb48-lobo-cadeias.png"}
 V, Z, R = 3, 4, 5
 BUSCA = ("AnKing Step e Referências Externas em texto livre (busca/anking.txt, 14 consultas, 10/10): ")
 EXCLUIDOS = [
@@ -62,7 +62,7 @@ CARDS = [
  ak("charuto", 1500055361936, {1: Z, 2: Z}, B_, "Levedura em charuto ao microscópio", 22, "Azuis: exame direto da lâmina 22."),
  au("margarida", "At 25ºC, Sporothrix conidia cluster at the tip of the conidiophore in a {{c1::daisy}}-like pattern", {1: Z}, B_,
     "Conídios em margarida", "23–24; transcrição; Trabulsi fig. 68.1", "central", "AnKing compara as hifas à roseira, não os conídios em flor.", [1500054938635, 1500055049050],
-    "Azul: lâmina 24.", extra="- The colony is membranous and darkens with time"),
+    "Azul: lâmina 24.", extra="- The colony is membranous and darkens with time<br><img src=\"mb48-sporothrix-margarida.png\" width=\"300\">"),
  ak("levedura-tecido", 1500151811249, {1: V}, B_, "Levedura em tecido, bolor em cultura", 25, "Verde: HY; fase leveduriforme (lâmina 25)."),
  au("reversao", "In the lab, converting Sporothrix from mold to yeast at {{c1::37}}ºC confirms the identification", {1: Z}, B_,
     "Reversão térmica confirma Sporothrix", "25; transcrição; Trabulsi", "central", "sem card nos acervos.", [1500054777136, 1500055687581], "Azul: diagnóstico laboratorial."),
@@ -183,7 +183,7 @@ _novo("grocott", "In <b>sporotrichosis</b> biopsies, the scarce yeasts are best 
 _novo("micetoma-pe", "<b>Eumycetoma</b> (maduromycosis) most often affects the {{c1::foot}}", Z, "madurella", "Micetoma no pé", "33, 37", "central", "- Hence the name Madura foot")
 _novo("grao-hifas", "The <b>grains</b> of eumycetoma are compact clumps of fungal {{c1::hyphae}}", Z, "madurella", "Grão de hifas", "36", "central", "- Seen on direct exam of sinus pus or on histopathology")
 _novo("grao-branco", "<b>Pseudallescheria boydii</b> and Acremonium form {{c1::white}} grains, whereas Madurella forms black grains", R, "madurella", "Cor do grão", "36; transcrição", "lateral")
-_novo("lobo-cadeias", "Direct exam in <b>lobomycosis</b> shows round, thick-walled, refractile cells in {{c1::chains}}", Z, "lacazia", "Células em cadeia na lobomicose", "41", "central")
+_novo("lobo-cadeias", "Direct exam in <b>lobomycosis</b> shows round, thick-walled, refractile cells in {{c1::chains}}", Z, "lacazia", "Células em cadeia na lobomicose", "41", "central", extra="- Left: fresh direct exam; right: histology with silver stain<br><img src=\"mb48-lobo-cadeias.png\" width=\"460\">")
 _novo("gato-levedura", "Cat-transmitted <b>sporotrichosis</b> progresses faster because the fungus arrives already in the {{c1::yeast}} form", R, "brasiliensis", "Transmissão felina já em levedura", "22; monitoria", "lateral")
 
 # negrito aplicado ao vivo em 11/10 (correcao-comentarios-2026-10-11/negrito.json), trazido à spec
@@ -219,3 +219,34 @@ for _k, _x in {"hialino": "- Chromoblastomycosis agents (Fonsecaea) are dematiac
                "lobo-cadeias": "- The fungus does not grow in culture"}.items():
     _c(_k)["extra"] = _x
 _c("gato-levedura")["duplicacao_ok"] = "ganho: por que a transmissão felina evolui mais rápido (forma de levedura), não só que o gato transmite"
+
+# ---- Revisão por prova 15/10 (F-20261015-CLAUDE-03): organizadores de mapa mental, em tópicos ----
+ORG = lambda s: f'<div data-nebli-organizacao="true">{s}</div>'
+_MOT = "Revisão 15/10: organizador de mapa mental pedido por Davi."
+def _sl(c): return int(_re.search(r"\d+", str(c["evid"])).group())
+def _no_slide(n, card):
+    i = next(i for i, c in enumerate(CARDS) if _sl(c) >= n); CARDS.insert(i, card)
+_no_slide(3, au("org-subcutaneas", ORG("Main <b>subcutaneous mycoses</b> (agent):<br>- {{c1::sporotrichosis}} (Sporothrix brasiliensis)<br>- {{c2::chromoblastomycosis}} (Fonsecaea pedrosoi)<br>- {{c3::eumycetoma}} (Madurella grisea)<br>- {{c4::Jorge Lobo disease}} (Lacazia loboi)"),
+    {1: V, 2: V, 3: V, 4: V}, A_, "Principais micoses subcutâneas", "3", "central", "nenhum card dos acervos.", _ESP, "Verde: lâmina 3. " + _MOT,
+    extra="- All are implanted through the skin by minor trauma with soil or plants", duplicacao_ok="organizador; cada doença tem seus cards"))
+_no_slide(11, au("org-formas-esporo", ORG("Forms of <b>sporotrichosis</b>:<br>- {{c1::lymphocutaneous}}: nodules along lymphatics (most common)<br>- {{c2::fixed cutaneous}}: stays at the wound<br>- {{c3::disseminated}}: immunocompromised<br>- pulmonary: inhaled conidia (rare)"),
+    {1: V, 2: Z, 3: Z}, B_, "Formas clínicas da esporotricose", "11", "central", "nenhum card dos acervos.", _ESP, "Verde/azul: lâmina 11 (resumo das formas). " + _MOT,
+    duplicacao_ok="organizador; cada forma tem card próprio"))
+
+# textos vivos (correções de comentários de Davi feitas ao vivo) trazidos à spec, 15/10
+_c('cromo-ocupacional')["text"] = "Because the fungus is implanted by minor trauma from soil and plants, <b>chromoblastomycosis</b> mostly affects the {{c1::lower limbs}}"
+_c('cromo-ocupacional')["extra"] = "- Typical patients are rural workers who walk barefoot or handle wood and thorny plants"
+_c('cromo-ocupacional')["flags"] = {n: list(_c('cromo-ocupacional')["flags"].values())[0] for n in [1]}
+_c('subcut-def')["text"] = "<b>Subcutaneous mycoses</b> start when soil or plant fungi are pushed through the skin by a minor injury, called traumatic {{c1::implantation}}"
+_c('subcut-def')["extra"] = "- The fungus then grows in the dermis and subcutis near the wound; some spread along lymphatics"
+_c('subcut-def')["flags"] = {n: list(_c('subcut-def')["flags"].values())[0] for n in [1]}
+for _c_ in CARDS:
+    if _c_["key"] == "org-formas-esporo": _c_["extra"] = "- The host's immunity decides how far the fungus spreads from the inoculation site"
+    if _c_["key"] == "org-subcutaneas": _c_["extra"] = "- All are implanted through the skin by minor trauma with soil or plants"
+
+# textos vivos (correções de comentários de Davi feitas ao vivo) trazidos à spec, 15/10
+_c('subcut-def')["text"] = "{{c1::Subcutaneous}}<b>&nbsp;mycoses</b> start when soil or plant fungi are pushed through the skin by a minor injury, called traumatic implantation"
+_c('subcut-def')["extra"] = "- The fungus then grows in the dermis and subcutis near the wound; some spread along lymphatics"
+_c('subcut-def')["flags"] = {n: list(_c('subcut-def')["flags"].values())[0] for n in [1]}
+
+IMAGENS_VISTAS = {"mb48-sporothrix-margarida.png": "Lâmina 24 (figura sem o texto): conídios em margarida na ponta do conidióforo, cultivo a 25 °C; no Extra (pedido de Davi 15/10).", "mb48-lobo-cadeias.png": "Lâmina 42 recortada sem o título: exame direto a fresco e histologia com células redondas de parede espessa em cadeia; no Extra (pedido de Davi 15/10)."}

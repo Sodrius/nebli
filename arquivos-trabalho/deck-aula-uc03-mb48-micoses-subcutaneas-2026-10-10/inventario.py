@@ -13,7 +13,7 @@ SLIDES = [
    ("implantacao", "Implantação traumática de fungos sapróbios (vegetais)", "subcut-def"),
    ("localizadas", "Ficam no subcutâneo; às vezes disseminam por via linfática", "subcut-def")]),
  (3, "conteudo", "Classificação (superficiais, cutâneas, subcutâneas)", [
-   ("lista-sub", "Esporotricose, cromomicose, maduromicose, Jorge Lobo", ["subcut-def", "espinho", "cromo-agentes", "micetoma-tipos", "lacazia"])]),
+   ("lista-sub", "Esporotricose, cromomicose, maduromicose, Jorge Lobo", ["org-subcutaneas", "subcut-def", "espinho", "cromo-agentes", "micetoma-tipos", "lacazia"])]),
  (4, "conteudo", "Classificação (sistêmicas)", [("sist", "Histoplasmose, PCM, criptococose, candidose, aspergilose", EXC + "aula seguinte (micoses sistêmicas)")]),
  (5, "conteudo", "História da esporotricose", [
    ("schenck", "Schenck 1898; África do Sul 1941–44 (mineiros, madeira)", EXC + "histórico de datas; a ideia útil (inoculação por espinho/madeira) está em espinho")]),
@@ -26,7 +26,7 @@ SLIDES = [
  (10, "conteudo", "Contágio por inoculação", [("inoculacao", "Espinho de rosa e lesões em cadeia no braço", ["espinho", "linfocutanea"])]),
  (11, "conteudo", "Esporotricose: resumo", [
    ("dimorfico", "Dimórfico: bolor a 25 °C, levedura a 37 °C", ["levedura-tecido", "hifas-25"]),
-   ("formas", "Linfocutânea, cutânea fixa, extracutânea, pulmonar, disseminada", ["linfocutanea", "fixa", "disseminada", "pulmonar-primaria"])]),
+   ("formas", "Linfocutânea, cutânea fixa, extracutânea, pulmonar, disseminada", ["org-formas-esporo", "linfocutanea", "fixa", "disseminada", "pulmonar-primaria"])]),
  (12, "conteudo", "Lesão inicial", [("inicial", "Pústula/úlcera no ponto de inoculação", "lesao-inicial")]),
  (13, "conteudo", "Forma cutânea localizada", [("localizada", "Lesão restrita ao ponto de inoculação", "fixa")]),
  (14, "conteudo", "Forma cutânea localizada (foto)", [("localizada2", "Lesão ulcerada no dedo", "fixa")]),
