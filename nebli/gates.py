@@ -16,6 +16,7 @@ fontes.json:
 """
 from __future__ import annotations
 
+import os
 import argparse
 import html
 import hashlib
@@ -91,6 +92,69 @@ def sources(run, data):
         out.append((f"{kind}: consultado, ou busca no Drive registrada", ok))
     out += source_evidence(run, data)
     out.append(class_folder(run, data))
+    out += uc_materials(run, data)
+    return out
+
+
+NAO_LIVRO = re.compile(r"transcri|slides?\b|grupo|plataforma|relat[oó]rio|apresenta", re.I)
+
+
+def _arquivos(pasta):
+    import os
+    pasta = Path(os.path.expanduser(str(pasta)))
+    if not pasta.is_dir():
+        return []
+    return sorted(p for p in pasta.rglob("*") if p.is_file() and not p.name.startswith(".") and p.suffix.lower() not in {".mp4", ".mov", ".m4a"})
+
+
+def uc_materials(run, data):
+    """F-20261015-CLAUDE-05 (gate duro): “verificar slide + bibliografia + apostila de veterano + o que mais houver na pasta ou em
+    outras pastas, tipo outros”. Em 14–15/10 várias corridas declararam a transcrição como 'veteranos' e 'bibliografia' e saíram
+    rasas. Cada arquivo de: apostilas de veteranos da UC (`UCxx/Outros/Apostilas de veteranos`), pasta pessoal da aula,
+    `Material para Estudos` do componente no drive da turma e `pastas_extra` está em `materiais_uc` como lido (texto extraído na
+    corrida + seção) ou descartado com motivo; a bibliografia tem de ser um livro, não transcrição/slides/relatório."""
+    from nebli import entrega
+    out = []
+    mats = data.get("materiais_uc", {}) or {}
+    lidos = {os.path.basename(str(x)) for x in data.get("turma_arquivos_lidos", [])}
+    lidos |= {os.path.basename(str(r.get("arquivo", ""))) for recs in data.get("evidencias", {}).values() if isinstance(recs, list)
+              for r in recs if isinstance(r, dict)}
+
+    def conta(nome):
+        m = mats.get(nome)
+        if isinstance(m, dict) and str(m.get("descartado", "")).strip():
+            return True
+        if isinstance(m, dict) and m.get("texto") and str(m.get("secao", "")).strip():
+            f = run / str(m["texto"])
+            return f.is_file() and f.stat().st_size > 0
+        return nome in lidos
+
+    livros = [b for b in data.get("livros", []) if not NAO_LIVRO.search(f"{b.get('livro', '')} {b.get('texto', '')}")]
+    out.append(("bibliografia é livro da UC (não transcrição, slides nem relatório de grupo)", bool(livros)))
+    parts = Path(str(data.get("drive_pasta", ""))).parts
+    uc = parts[0] if parts and re.fullmatch(r"UC\d\d", parts[0]) else None
+    grupos = []
+    if uc:
+        ap = [p for p in _arquivos(entrega.ROOT / uc / "Outros") if "veteran" in str(p).lower()]
+        grupos.append(("apostilas de veteranos da UC", ap, True))
+        pessoal = [p for p in _arquivos(entrega.ROOT / Path(*parts)) if p.suffix.lower() != ".apkg"
+                   and not p.name.startswith(str(data.get("nome", "\0")) + " - ")]
+        grupos.append(("pasta pessoal da aula", pessoal, False))
+    turma = data.get("pasta_turma")
+    if isinstance(turma, str) and os.path.isdir(os.path.expanduser(turma)):
+        comp = Path(os.path.expanduser(turma)).parent
+        grupos.append(("Material para Estudos do componente", [p for p in _arquivos(comp) if "material para estudo" in str(p).lower()], False))
+    for extra in data.get("pastas_extra", []):
+        grupos.append((f"pasta extra {Path(extra).name}", _arquivos(extra), False))
+    if not uc and not data.get("pastas_extra"):
+        out.append(("materiais da UC: drive_pasta sem UC reconhecida e sem 'pastas_extra'", False))
+    for rotulo, arquivos, precisa_lido in grupos:
+        faltam = [p.name for p in arquivos if not conta(p.name)]
+        ok = not faltam
+        if precisa_lido and arquivos:
+            ok = ok and any(isinstance(mats.get(p.name), dict) and mats[p.name].get("texto") for p in arquivos)
+        out.append((f"{rotulo}: cada arquivo lido (com seção) ou descartado com motivo" + (f"; faltam {faltam[:4]}" if faltam else "")
+                    + ("; nenhuma lida" if precisa_lido and arquivos and not faltam and not ok else ""), ok))
     return out
 
 

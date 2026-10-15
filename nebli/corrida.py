@@ -125,7 +125,9 @@ def fontes(pasta: Path):
     "familias":{"slides":[{"arquivo","localizador","contribuicao","alvos":"slides"|"todos"|"cap"|"prova"|[ids]}],
                 "bibliografia":[...], "veteranos":[...], "provas":[...],
                 "caoc"|"exercicios"|"youtube": {"estado":"não localizada"|"inacessível","busca","impacto"}},
-    "livros":[{"livro","texto"}], "canais":[{"canal","url","transcricao","calibracao"}], "canais_bloqueados":{...}}
+    "livros":[{"livro","texto"}], "canais":[{"canal","url","transcricao","calibracao"}], "canais_bloqueados":{...},
+    "materiais_uc":{"<nome do arquivo>": {"texto": "fontes/x.txt", "secao": "pp. 12–18"} | {"descartado": "motivo"}},
+    "pastas_extra":["<pasta absoluta a varrer inteira>"]}
     Só declara o que foi lido; o hash e a lista de alvos vêm do disco e do planejamento.json."""
     d = json.loads((pasta / "fontes-decl.json").read_text())
     # F-20261013-CLAUDE-01: vídeos dispensados por Davi (F-20261010-CLAUDE-06); sem canal lido, registra a dispensa sem busca.
@@ -166,6 +168,9 @@ def fontes(pasta: Path):
         rec = d["familias"].get(fam)
         out[fam] = ({"estado": "consultada", "contribuicao": "; ".join(r["contribuicao"] for r in rec)} if isinstance(rec, list)
                     else {"estado": rec["estado"], "busca": rec["busca"], "impacto": rec["impacto"]} if rec else {"estado": "não localizada", "busca": "não registrada"})
+    # F-20261015-CLAUDE-05: gate duro de materiais da UC (apostilas, Outros, Material para Estudos, pasta pessoal da aula).
+    out["materiais_uc"] = d.get("materiais_uc", {})
+    out["pastas_extra"] = d.get("pastas_extra", [])
     for k in ("canais_bloqueados", "ninja_nerd_busca"):
         if d.get(k):
             out[k] = d[k]
