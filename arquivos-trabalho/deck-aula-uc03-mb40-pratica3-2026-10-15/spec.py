@@ -54,7 +54,7 @@ CARDS = [
     extra="- Growth from sites with normal microbiota needs interpretation"),
  # B — microscopia e sífilis (7–15)
  sh(1791576665617, "verde", B_, "Gram orienta o 1º antibiótico", "7", "Verde: lâmina 7; viva na aula 26."),
- sh(1791780535460, "verde", B_, "Ziehl-Neelsen", "8", "Verde: lâmina 8; viva no GR3."),
+ sh(1791576674542, "verde", B_, "Ziehl-Neelsen", "8", "Verde: lâmina 8; viva na 26/GR3 (a nota antiga 1791780535460 foi apagada; troca 15/10 noite)."),
  au("b-lepra", "In suspected <b>leprosy</b>, acid-fast bacilli are searched for in a smear from the {{c1::earlobe}} or nasal secretions",
     {1: Z}, B_, "Hanseníase: lóbulo da orelha", "8; 3", "central", NAO, EP, "Azul: lâminas 3 e 8.",
     extra="- Mycobacterium leprae cannot be cultured in the lab"),
@@ -106,7 +106,9 @@ CARDS = [
     extra="- It does not rely on biochemical tests"),
  au("f-latex", "<b>Latex agglutination</b> detects bacterial antigens in CSF quickly but does not replace {{c1::culture}} to confirm bacterial meningitis",
     {1: Z}, F_, "Aglutinação em látex", "35", "central", NAO, EP, "Azul: lâmina 35."),
- sh(1791780540526, "verde", F_, "Xpert MTB/RIF", "37", "Verde: lâmina 37; viva no GR3."),
+ au("f-xpert", "The rapid molecular test {{c1::Xpert MTB/RIF}} detects <b>Mycobacterium tuberculosis</b> DNA in sputum within about 2 hours",
+    G(1), F_, "Xpert MTB/RIF", "37", "central", "a nota viva do GR3 (1791780540526) foi apagada; 15/10 noite.", EP, "Verde: lâmina 37 e texto TP3.2 (teste rápido molecular).",
+    extra="- Culture on Löwenstein-Jensen remains the gold standard"),
  au("f-rpob", "<b>Xpert</b> detects rifampicin resistance through mutations in the {{c1::rpoB}} gene",
     {1: Z}, F_, "Gene rpoB", "37", "central", NAO, EP, "Azul: lâmina 37; Identificação IV.",
     extra="- Results in about 2 hours"),
@@ -135,11 +137,11 @@ ESCOPO = {
  "objetivo": "Seguir as etapas do diagnóstico bacteriano (coleta correta, microscopia, cultivo em meios seletivos/diferenciais, provas bioquímicas dos cocos Gram-positivos, sorologia, antibiograma/MIC, PCR, sequenciamento, MALDI-TOF, Xpert) e reconhecer a sífilis pela clínica e pelo campo escuro.",
  "centrais": [
    ("amostra", "a-etapas", "a-antes-atb", "a-representativa", "a-esteril"),
-   ("microscopia e sífilis", "sh-1791576665617", "sh-1791780535460", "b-lepra", "sh-1791576674741", "ak-cancro", "ak-secundaria", "ak-goma", "b-bejel"),
+   ("microscopia e sífilis", "sh-1791576665617", "sh-1791576674542", "b-lepra", "sh-1791576674741", "ak-cancro", "ak-secundaria", "ak-goma", "b-bejel"),
    ("cultivo", "sh-1791647817820", "sh-1791647818320", "sh-1791647817219", "sh-1791648194669", "sh-1791648194793", "c-lj", "c-anaerobios"),
    ("provas bioquímicas", "sh-1791763646494", "sh-1791763646344", "d-micrococcus", "sh-1791746129003", "sh-1791763650819", "ak-gas", "ak-gbs", "ak-pneumo"),
    ("sorologia e sensibilidade", "ak-elisa", "e-sorologia", "sh-1791647818945", "sh-1791668526789"),
-   ("molecular e automação", "f-pcr", "f-sequenciamento", "f-maldi", "f-latex", "sh-1791780540526", "f-rpob", "f-resistencia"),
+   ("molecular e automação", "f-pcr", "f-sequenciamento", "f-maldi", "f-latex", "f-xpert", "f-rpob", "f-resistencia"),
  ],
  "exemplos": ["tuberculose (baciloscopia × cultura × Xpert)", "hanseníase", "meningite", "MRSA"],
  "outras_aulas": [("meios e hemólise", "27"), ("Gram e assepsia", "26 e 28"), ("algoritmo Gram+", "35"), ("TB", "GR3")],
@@ -167,3 +169,36 @@ for _c_ in CARDS:
            "d-fluxo-cgp": "- β-hemolytic streptococci are split by bacitracin: S. pyogenes sensitive, S. agalactiae resistant",
            "f-mapa-metodos": "- The antibiogram (or MIC) guides treatment once the bacterium grows"}.get(_c_["key"])
     if _x_: _c_["extra"] = _x_
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): pasta pessoal lida (Identificação de Bactérias 2023 A/B = versão anterior das mesmas
+# lâminas; roteiro de práticas T/P3 sobre meios; texto TP3.2 de diagnóstico molecular). Cards vivos da Prática 1 (28), 27, 35 e GR3 associados.
+_M3 = "Ajuste 15/10 noite (F-20261015-CLAUDE-05)."
+CARDS += [
+ au("b-tp-virulencia", "<b>Treponema pallidum</b> has few surface proteins and little {{c1::LPS}}, so it triggers the immune system poorly",
+    {1: R}, B_, "Virulência do T. pallidum", "10", "lateral", NAO, EP, "Rosa: lâmina 10 (fatores de virulência: adesinas, pouca proteína de superfície, pouco LPS). " + _M3,
+    extra="- It adheres to connective tissue through wall adhesins; humans are its only host"),
+ sh(1791648194368, "azul", C_, "Thayer-Martin para Neisseria", "16", "Azul: roteiro T/P3 (meio seletivo com antibióticos); viva na Prática 1. " + _M3),
+ au("c-macconkey-seletivo", "<b>MacConkey agar</b> is selective because bile salts and crystal violet inhibit {{c1::gram-positive}} bacteria",
+    {1: Z}, C_, "Por que o MacConkey é seletivo", "16", "central", NAO, EP, "Azul: roteiro T/P3 (meio seletivo e diferencial). " + _M3,
+    extra="- It is also differential: lactose with neutral red turns fermenters pink-red"),
+ sh(1791648195041, "rosa", C_, "Cetrimide para Pseudomonas", "16", "Rosa: roteiro T/P3; viva na Prática 1. " + _M3),
+ sh(1791647818070, "azul", D_, "Hemólise alfa", "25", "Azul: lâmina 25 e roteiro T/P3 (tipos de hemólise no ágar sangue). " + _M3),
+ ak("ak-viridans", 1500751641847, {1: Z, 2: Z}, D_, "Viridans: optoquina resistente", "25", "Azul: lâmina 25 (optoquina separa pneumococo de viridans). " + _M3),
+ sh(1791625436533, "azul", E_, "PPD: hipersensibilidade tipo IV", "26", "Azul: lâmina 26/28 (pesquisa de hipersensibilidade tardia, importante para TB); viva no GR3. " + _M3),
+ sh(1791648194118, "azul", E_, "Mueller-Hinton no antibiograma", "29", "Azul: roteiro T/P3 (meio do antibiograma); viva na Prática 1. " + _M3),
+ au("f-falso-positivo", "Because nucleic acid amplification is so sensitive, tiny <b>contaminations</b> easily give {{c1::false-positive}} PCR results",
+    {1: R}, F_, "PCR: falso-positivo por contaminação", "31", "lateral", NAO, EP, "Rosa: texto TP3.2 (problemas dos métodos de amplificação). " + _M3,
+    extra="- Culture is still recommended in parallel as the gold standard"),
+ au("f-mdr", "<b>Multidrug-resistant tuberculosis</b> (MDR-TB) resists the two most powerful drugs, rifampicin and {{c1::isoniazid}}",
+    {1: Z}, F_, "TB multirresistente", "37", "central", "consulta MDR-TB sem card (15/10 noite).", EP, "Azul: texto TP3.2 (categorias de resistência da OMS) e lâmina 37. " + _M3,
+    extra="- Xpert screens for the rifampicin part through rpoB mutations"),
+ au("f-pentavalente", "The <b>pentavalent vaccine</b>, given from 2 months of age, protects against diphtheria, tetanus, pertussis, hepatitis B and {{c1::Haemophilus influenzae b}}",
+    {1: R}, F_, "Vacina pentavalente", "39", "lateral", NAO, EP, "Rosa: lâminas 39–40 (prevenção; calendário do SUS). " + _M3),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+for _c_ in CARDS:
+    if _c_["key"] in ("b-tp-virulencia", "c-macconkey-seletivo", "f-falso-positivo", "f-mdr", "f-pentavalente", "ak-viridans"): _c_.setdefault("sem_imagem", SEM_IMAGEM)
+for _c_ in CARDS:
+    if _c_["key"] == "ak-viridans": _c_["extra_add"] = "- Viridans streptococci are normal oral flora"
+    if _c_["key"] == "f-pentavalente": _c_["extra"] = "- Vaccination is one of the most effective ways to prevent bacterial infections"
+    if _c_["key"] == "f-xpert": _c_["sem_imagem"] = SEM_IMAGEM
+    if _c_["key"] == "ak-viridans": _c_["hy_repete"] = "ak-pneumo (verde) já cobra a optoquina; viridans é o par"
