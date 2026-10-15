@@ -1,0 +1,357 @@
+TECIDOS DO SISTEMA IMUNOLÓGICO
+Os tecidos do sistema imunológico são 
+formados pelos órgãos linfoides gerado-
+res, nos quais os linfócitos T e B amadu-
+recem, tornando-se competentes para 
+responder aos antígenos, e os órgãos 
+linfoides periféricos, nos quais as res-
+postas imunológicas secundárias aos 
+microrganismos são iniciadas (Fig. 1-10). 
+Os órgãos linfoides geradores (também de-
+nominados primários ou centrais) são des-
+critos no Capítulo 4, quando é abordado o 
+processo de amadurecimento dos linfócitos. 
+A seção a seguir discrimina algumas carac-
+terísticas dos órgãos linfoides periféricos (ou 
+secundários) importantes para o desenvolvi-
+mento da imunidade adquirida.
+
+=== p.16
+14	
+Capítulo 1 – Introdução à Imunologia
+Órgãos Linfoides Periféricos
+Os órgãos linfoides periféricos, que incluem 
+os linfonodos, o baço e os sistemas imuno-
+lógicos das mucosas e cutâneo, são orga-
+nizados para otimizar as interações entre 
+antígenos, APC e linfócitos de modo a es-
+timular o desenvolvimento da imunidade 
+adquirida. Os linfócitos T e B precisam lo-
+calizar os microrganismos que entram em 
+qualquer lugar do corpo, responder a eles e 
+eliminá-los. Além disso, conforme discutido 
+anteriormente, no sistema imunológico nor-
+mal uma quantidade muito pequena desses 
+linfócitos é específica para qualquer antíge-
+no. Não é possível para os poucos linfócitos 
+específicos para qualquer antígeno patrulhar 
+todos os locais de entrada do antígeno. A 
+organização anatômica dos órgãos linfoides 
+periféricos permite que as APC concentrem 
+os antígenos nesses órgãos e os linfócitos 
+localizem e respondam aos microrganismos. 
+Essa organização é complementada por uma 
+capacidade incrível dos linfócitos de circula-
+rem pelo corpo, de maneira que os linfócitos 
+virgens se dirijam preferencialmente para os 
+órgãos especializados, nos quais os antígenos 
+estão concentrados, e as células efetoras se 
+desloquem para os locais de infecção onde os 
+microrganismos são eliminados. Além disso, 
+diversos tipos de linfócitos precisam se co-
+municar para gerar respostas imunológicas 
+eficazes. Por exemplo, células T auxiliares 
+específicas para um antígeno interagem com 
+e auxiliam os linfócitos B específicos para 
+aquele mesmo antígeno, levando à produção 
+de anticorpos. Reunir essas células raras para 
+que interajam de maneira produtiva é uma 
+função importante dos órgãos linfoides.
+Os linfonodos são agregados nodulares 
+encapsulados de tecido linfoide, localizados 
+ao longo dos canais linfáticos por todo o corpo 
+(Fig. 1-12). Fluido é expelido constantemente 
+dos vasos sanguíneos em todos os epitélios 
+e tecidos conjuntivos e na maioria dos ór-
+gãos parenquimatosos. Esse fluido, chamado 
+linfa, é drenado pelos vasos linfáticos dos 
+tecidos até os linfonodos, e, por fim, retorna 
+à circulação sanguínea. Consequentemente, 
+a linfa contém uma mistura de substâncias 
+absorvidas dos epitélios e dos tecidos. Con-
+forme a linfa passa pelos linfonodos, as APC 
+localizadas nos linfonodos podem identificar 
+os antígenos dos patógenos que possam ter 
+entrado nos tecidos. Além disso, as células 
+dendríticas capturam os antígenos dos mi-
+crorganismos do epitélio e outros tecidos e os 
+transportam para os linfonodos. O resultado 
+deste processo de captura e transporte de 
+antígenos é que os antígenos dos microrga-
+nismos que entram através do epitélio ou 
+que colonizam os tecidos se concentram nos 
+linfonodos que drenam a região.
+O baço é um órgão abdominal altamente 
+vascularizado, que desempenha o mesmo 
+papel que os linfonodos na resposta imu-
+nológica às infecções que ganham acesso ao 
+sangue (Fig. 1-13). O sangue que entra no 
+FIGURA 1-12  A morfologia dos linfonodos. A, 
+O diagrama esquemático mostra a organização estrutural 
+de um linfonodo. B, Microfotografia óptica mostrando um 
+corte transversal de um linfonodo com numerosos folículos 
+no córtex, alguns contendo áreas centrais de coloração mais 
+clara (centros germinativos).
+
+=== p.17
+	
+Capítulo 1 – Introdução à Imunologia	
+15
+baço circula por uma rede de canais (sinu-
+soides). Os antígenos presentes no sangue 
+são aprisionados e concentrados pelas célu-
+las dendríticas e macrófagos no baço. Este 
+contém uma grande quantidade de células 
+fagocitárias que ingerem e destroem os pa-
+tógenos presentes no sangue.
+O sistema imunológico cutâneo e o 
+sistema imunológico mucoso são cole-
+ções especializadas de tecidos linfoides, APC 
+e moléculas efetoras localizadas no interior e 
+sob o epitélio da pele e tratos gastrointestinal 
+e respiratório, respectivamente. Embora a 
+maior parte das células imunológicas nesses 
+tecidos seja difusamente dispersa sob as bar-
+reiras epiteliais, existem coleções discretas 
+de linfócitos e APC organizadas de maneira 
+semelhante à dos linfonodos. Por exemplo, 
+as amígdalas, na faringe, e as placas de Peyer, 
+no intestino, são exemplos de tecido linfoide 
+associado às mucosas (Fig. 1-14). A qualquer 
+momento, pelo menos um quarto dos linfó-
+citos do corpo está nas mucosas (refletindo 
+o grande tamanho desses tecidos), e muitos 
+desses linfócitos são células de memória. Os 
+tecidos linfoides cutâneo e mucoso são lo-
+cais em que ocorrem respostas imunológicas 
+aos antígenos que penetram nos epitélios. 
+Um desafio para os sistemas imunológicos 
+cutâneo e mucoso consiste em eles serem 
+capazes de responder a patógenos, mas não 
+reagirem às enormes quantidades de micror­
+ganismos comensais normalmente inofensi-
+vos e presentes nas barreiras epiteliais. Isto 
+se dá por meio de vários mecanismos não 
+totalmente compreendidos, incluindo a ação 
+de células T reguladores e células dendríticas, 
+que suprimem ao invés de ativar linfócitos T.
+Os linfócitos T e os linfócitos B são segrega-
+dos em compartimentos anatômicos diferen-
+tes nos órgãos linfoides periféricos (Fig. 1-15). 
+Nos linfonodos, as células B se concentram 
+em estruturas discretas, chamadas de folícu-
+los, localizadas na periferia ou córtex. Se as 
+células B em um folículo responderam recen-
+temente a um antígeno, o folículo pode apre-
+sentar uma área central levemente corada 
+chamada de centro germinativo. O papel 
+dos centros germinativos na produção de an-
+ticorpos é descrito no Capítulo 7. Os linfócitos 
+T são concentrados fora, mas adjacentes aos 
+folículos, no paracórtex. Os folículos contêm 
+as FDC descritas anteriormente que estão en-
+volvidas na ativação das células B, enquanto 
+o paracórtex contém as células dendríticas 
+que apresentam os antígenos aos linfócitos 
+T. No baço, os linfócitos T estão concentrados 
+na bainha linfoide periarteriolar que circunda 
+as pequenas arteríolas, enquanto as células B 
+residem nos folículos.
+A organização anatômica dos órgãos lin-
+foides periféricos é rigidamente controlada 
+para permitir o desenvolvimento das res-
+postas imunológicas após a estimulação pelos 
+antígenos. Os linfócitos B são atraídos para os 
+folículos e retidos neles por causa da ação de 
+uma classe de citocinas chamadas quimioci-
+nas (citocinas quimiotáticas, quimiocinas e 
+outras citocinas são discutidas mais detalha-
+damente nos capítulos posteriores). As FDC 
+nos folículos constantemente secretam uma 
+quimiocina em particular para a qual as cé-
+lulas B virgens expressam um receptor, cha-
+mado CXCR5. A quimiocina que se liga ao 
+CXCR5 atrai as células B do sangue para os 
+folículos dos órgãos linfoides. Similarmente, 
+FIGURA 1-13  A morfologia do baço. A, Diagrama 
+esquemático mostrando uma arteríola esplênica cercada por 
+uma bainha linfoide periarteriolar (PALS) e um folículo ligado 
+a ela contendo um centro germinativo proeminente. A PALS 
+e os folículos linfoides formam a polpa branca. B, Microfoto-
+grafia óptica de uma secção do baço mostrando uma arteríola 
+com a PALS e um folículo com um centro germinativo. Eles 
+estão cercados pela polpa vermelha, que é rica em sinusoides 
+vasculares.
+
+=== p.18
+16	
+Capítulo 1 – Introdução à Imunologia
+as células T são segregadas no paracórtex dos 
+linfonodos e na bainha linfoide periarteriolar 
+do baço, pois os linfócitos T virgens expres-
+sam um receptor, denominado CCR7, que 
+reconhece as quimiocinas produzidas nessas 
+regiões do linfonodo e baço. Consequente-
+mente, os linfócitos T são recrutados do san-
+gue para a região do córtex parafolicular do 
+linfonodo e bainhas linfoides periarteriolares 
+do baço. Quando os linfócitos são ativados 
+por antígenos, eles alteram sua expressão 
+dos receptores de quimiocinas. As células 
+B e T, então, migram em direção umas às 
+outras, encontrando-se na periferia dos folí-
+culos, onde as células T auxiliares interagem 
+e ajudam as células B a se diferenciarem em 
+células produtoras de anticorpos (Cap. 7). 
+Portanto, essas populações de linfócitos são 
+mantidas separadas umas das outras até que 
+haja utilidade em sua interação, após a expo-
+sição ao antígeno. Isto é um excelente exem-
+plo de como a estrutura de órgãos linfoides 
+garante que as células que reconheceram 
+e responderam a um antígeno interajam e 
+comuniquem-se umas com as outras apenas 
+quando necessário.
+Muitos dos linfócitos ativados, especial-
+mente as células T, finalmente saem do lin-
+fonodo, pelos vasos linfáticos eferentes, e do 
+baço, pelas veias. Esses linfócitos ativados 
+entram na circulação sanguínea e podem 
+atingir locais distantes de infecção.
+Recirculação dos Linfócitos e Migração 
+para os Tecidos
+Os linfócitos virgens recirculam cons-
+tantemente entre o sangue e os órgãos 
+FIGURA 1-14  Sistema imunológico mucoso. O diagrama esquemático do sistema imunológico mucoso utiliza o 
+intestino delgado como exemplo. Muitas bactérias comensais estão presentes no lúmen. O epitélio secretor de muco oferece 
+uma barreira inata à invasão de microrganismos (discutida no Cap. 2). Células epiteliais especializadas, como as células M, 
+promovem o transporte de antígenos do lúmen para os tecidos subjacentes. Células na lâmina própria, incluindo células den-
+dríticas, linfócitos T e macrófagos, oferecem defesa imunológica inata e adquirida contra microrganismos invasores; algumas 
+dessas células são organizadas em estruturas especializadas, tais como as placas de Peyer no intestino delgado. A imunoglobulina 
+A (IgA) é um tipo de anticorpo produzido em abundância nos tecidos mucosos que é transportado para o lúmen, onde se liga a 
+microrganismos e os neutraliza (Cap. 8).
+
+=== p.19
+	
+Capítulo 1 – Introdução à Imunologia	
+17
+linfoides periféricos, onde podem ser 
+ativados por antígenos para tornarem-se 
+células efetoras, e os linfócitos efetores 
+migram dos tecidos linfoides para os lo-
+cais de infecção, onde os patógenos são 
+eliminados (Fig. 1-16). Assim, os linfócitos, 
+em estágios distintos de suas vidas, migram 
+para os diversos locais onde sua função é ne-
+cessária. A migração de linfócitos efetores pa-
+ra locais de infecção é mais relevante para os 
+linfócitos T, pois as células T efetoras precisam 
+localizar e eliminar os microrganismos nesses 
+locais. Em contrapartida, os plasmócitos não 
+precisam migrar para locais de infecção, mas, 
+em vez disso, eles secretam anticorpos e estes 
+entram no sangue, onde eles podem se ligar 
+a patógenos ou toxinas hematogênicas. Além 
+disso, anticorpos podem ser transportados a 
+locais de tecidos de infecção pela circulação.
+Os linfócitos T virgens que amadureceram 
+no timo e entraram na circulação migram 
+para os linfonodos, onde podem encontrar 
+antígenos que entram pelos vasos linfáticos, 
+drenando os epitélios e os órgãos parenqui-
+matosos. Essas células entram nos linfonodos 
+pelas vênulas pós-capilares especializadas, 
+chamadas de vênulas endoteliais altas 
+(HEV, do inglês, high endothelial venules). As 
+moléculas de adesão usadas pelas células T 
+para se ligarem ao endotélio são descritas 
+no Capítulo 6. Quimiocinas produzidas nas 
+zonas de células T dos linfonodos e apre-
+sentadas em superfícies de HEV se ligam 
+ao receptor de quimiocina CCR7 expresso 
+em células T virgens, o que faz as células T 
+se ligarem firmemente às HEV. As células 
+T virgens, então, migram para a zona da 
+célula T, onde antígenos são apresentados 
+por células dendríticas. As células B virgens 
+também entram nos tecidos linfoides, mas 
+depois migram para folículos em resposta a 
+quimiocinas que ligam o CXCR5, o receptor 
+de quimiocina expresso nessas células B.
+No linfonodo, se uma célula T encontra 
+um antígeno que reconhece especificamen-
+te em uma célula dendrítica, aquela célula 
+T forma conjugados estáveis com a célula 
+dendrítica e, então, é ativada. Esse encontro 
+entre um antígeno e um linfócito específico 
+é provavelmente um evento aleatório, mas a 
+maioria das células T no corpo circula através 
+de alguns linfonodos pelo menos uma vez ao 
+dia. Como mencionado e descrito mais deta-
+lhadamente no Capítulo 3, a probabilidade 
+de a célula T correta encontrar seu antígeno 
+está aumentada nos órgãos linfoides periféri-
+cos, especialmente os linfonodos, porque os 
+FIGURA 1-15  Segregação dos linfócitos T e B 
+em diferentes regiões dos órgãos linfoides pe-
+riféricos. A, O diagrama esquemático mostra o caminho 
+pelo qual os linfócitos T e B virgens migram para as diversas 
+áreas de um linfonodo. Os linfócitos virgens B e T entram 
+através de uma vênula endotelial alta (HEV), mostrada aqui 
+em um corte transversal, sendo encaminhados para as di-
+versas áreas dos linfonodos pelas quimiocinas produzidas 
+nessas áreas, e se ligam seletivamente a cada tipo celular. 
+Também é exibida a migração das células dendríticas que 
+capturam os antígenos dos epitélios, entram pelos vasos 
+linfáticos aferentes e migram para as áreas ricas em célu-
+las T (Cap. 3). B, Nesse corte histológico de um linfonodo, 
+os linfócitos B, localizados nos folículos, estão corados em 
+verde, e as células T, no córtex parafolicular, são coradas 
+em vermelho por meio da imunofluorescência. Nessa técnica, 
+um corte do tecido é corado com anticorpos específicos para 
+células T ou B ligados a fluorocromos, que emitem cores 
+diferentes quando estimulados pelos comprimentos de onda 
+apropriados. A segregação anatômica das células T e B tam-
+bém é vista no baço (não mostrada aqui). (Cortesia dos Drs. 
+Kathryn Pape e Jennifer Walter, University of Minnesota Medical 
+School, Minneapolis.)
+
+=== p.20
+18	
+Capítulo 1 – Introdução à Imunologia
+antígenos microbianos estão concentrados na 
+mesma região desses órgãos pela qual as célu-
+las T virgens circulam. Desse modo, as células 
+T encontram o antígeno que elas podem re-
+conhecer e essas células T são ativadas para 
+que se proliferem e se diferenciem. Células 
+virgens que não encontraram antígenos es-
+pecíficos deixam os linfonodos e entram 
+novamente na circulação. As células efeto-
+ras que são geradas mediante ativação de 
+células T migram preferencialmente para os 
+tecidos infectados por microrganismos, onde 
+os linfócitos T desempenham sua função de 
+erradicar a infecção. Sinais específicos con-
+trolam esses padrões precisos de migração de 
+células T virgens e ativadas (Cap. 6).
+Os linfócitos B que reconhecem e respon-
+dem ao antígeno em folículos do linfonodo 
+diferenciam-se em células secretoras de an-
+ticorpos, que permanecem nos linfonodos 
+ou migram para a medula óssea (Cap. 7).
+As células T de memória consistem em 
+diferentes populações; algumas células 
+circulam pelos linfonodos, onde podem 
+desenvolver respostas secundárias aos an-
+tígenos capturados, e por outras células que 
+migram para locais de infecção, onde po-
+dem responder rapidamente para eliminar 
+a infecção.
+Sabemos menos a respeito da circulação 
+através do baço ou outros tecidos linfoides. 
+O baço não possui HEV, mas o padrão geral 
+de migração dos linfócitos virgens através 
+desse órgão é provavelmente semelhante à 
+migração através dos linfonodos.
+VISÃO GERAL DA RESPOSTA 

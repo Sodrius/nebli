@@ -157,3 +157,39 @@ ESCOPO = {
  "exemplos": ["vírus da hepatite B (apresentação cruzada)", "janela imunológica do HIV", "mieloma na medula", "COVID-19 (predomínio T × B)"],
  "outras_aulas": [("PRR e alarmes moleculares", "08"), ("MHC e APCs", "20"), ("efetores", "22"), ("seleção tímica e Treg", "45"), ("células B", "49")],
 }
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): Abbas Básica cap. 1 (tecidos do sistema imune; recirculação) lido; monitoria P1 aula 1,
+# apostila guia Imuno Aula 1 e UC3.pdf conferidas. Cards de conteúdo no lugar de lacunas; organizadores mantidos só nos grupos da aula.
+import re as _re
+_M3 = "Ajuste 15/10 noite (F-20261015-CLAUDE-05)."
+CARDS += [
+ ak("ak-humoral", 1487116986135, {1: V}, A_, "Imunidade humoral: anticorpos", "5", "Verde: monitoria P1 aula 1 (humoral × celular) e Abbas cap. 1. " + _M3,
+    extra_add="- Antibodies neutralize extracellular microbes and toxins but cannot reach microbes inside cells"),
+ sh(1791625429833, "verde", A_, "Imunidade celular: intracelulares", "5", "Verde: monitoria P1 aula 1 (celular contra intracelulares); viva na 45. " + _M3),
+ ak("ak-passiva", 1487121752455, {1: V}, A_, "Imunização passiva", "5", "Verde: monitoria P1 aula 1 (ativa × passiva; soro, placenta, leite); HY 1. " + _M3,
+    extra_add="- Active immunity (infection, vaccine) is slow but leaves memory"),
+ sh(1791629597298, "rosa", A_, "IgG atravessa a placenta", "5", "Rosa: monitoria P1 aula 1 (anticorpos maternos no recém-nascido); viva na 17/49. " + _M3),
+ au("d-cxcr5", "Naive <b>B cells</b> home to lymphoid follicles through the chemokine receptor {{c1::CXCR5}}, whereas naive T cells use CCR7",
+    {1: Z}, D_, "CXCR5 leva B ao folículo", "13; 20", "central", "consultas CXCR5/CXCL13 sem card (15/10 noite).", EP, "Azul: Abbas cap. 1 (segregação T × B por quimiocinas) e monitoria P1 aula 1. " + _M3,
+    extra="- Follicular dendritic cells secrete the chemokine that binds CXCR5"),
+ au("d-encontro-tb", "After activation, <b>T and B cells</b> change chemokine receptors and meet at the follicle {{c1::edge}}, where helper T cells assist B cells",
+    {1: R}, D_, "Encontro T–B na borda do folículo", "20", "lateral", NAO, EP, "Rosa: Abbas cap. 1. " + _M3,
+    extra="- They stay apart until there is a reason to interact"),
+ au("d-mucosa", "At any time at least a quarter of the body's <b>lymphocytes</b> sit in the {{c1::mucosal}} tissues, many of them memory cells",
+    {1: R}, D_, "Linfócitos nas mucosas", "19", "lateral", NAO, EP, "Rosa: Abbas cap. 1 (sistema imune das mucosas). " + _M3,
+    extra="- Mucosal immunity must also tolerate the commensal microbiota"),
+ au("f-polpas", "The <b>spleen</b> white pulp holds lymphocytes around arterioles, while the {{c1::red pulp}} is a network of vascular sinusoids full of phagocytes",
+    {1: Z}, F_, "Polpa branca × vermelha", "19; 20", "central", "AnKing só tem polpa vermelha em doenças (hemólise, tricoleucemia); 15/10 noite.", [1478915728868, 1480647005122, 1486945131833],
+    "Azul: Abbas cap. 1 (morfologia do baço) e monitoria P1 aula 1 (baço filtra sangue, destrói hemácias velhas). " + _M3,
+    extra="- Red pulp macrophages remove old red cells and blood-borne microbes<br>- The spleen has no HEV"),
+ ak("ak-medula-ln", 1486945192340, {1: V}, H_, "Medula do linfonodo", "21", "Verde: lâmina 21 (eferência: cordões medulares) e Abbas fig. 1-12; HY 1. " + _M3,
+    extra_add="- Efferent lymph leaves from the medullary sinuses"),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+CARDS += [
+ sh(1791625423407, "azul", C_, "Seleção positiva no córtex do timo", "10", "Azul: apostila guia Aula 1 cap. 6 (córtex: seleção positiva); viva na 45. " + _M3),
+ sh(1791625423808, "azul", C_, "Seleção negativa na medula do timo", "10", "Azul: apostila guia Aula 1 cap. 6 (medula: seleção negativa); viva na 45. " + _M3),
+ au("c-involucao", "The <b>thymus</b>, in the anterior superior mediastinum, {{c1::involutes}} after puberty, though T-cell output never stops completely",
+    {1: R}, C_, "Involução do timo", "10", "lateral", NAO, EP, "Rosa: apostila guia Aula 1 cap. 6 (atrofia após a puberdade). " + _M3,
+    extra="- Memory and naive T cells already made keep the repertoire going"),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
