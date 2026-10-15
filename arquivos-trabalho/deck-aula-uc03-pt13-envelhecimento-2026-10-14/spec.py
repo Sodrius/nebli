@@ -134,3 +134,36 @@ for _c_ in CARDS:
     _x_ = {"c-uso": "- Use keeps cells working near their capacity; the same applies to bone and muscle",
            "c-doacao": "- Older donors have shorter telomeres and less capacity to proliferate"}.get(_c_["key"])
     if _x_: _c_["extra"] = _x_
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): apostila guia de Patologia Aula 4 e monitoria P1 aula 3 lidas; Robbins cap. 1 (envelhecimento) já lido.
+_M3 = "Ajuste 15/10 noite (F-20261015-CLAUDE-05)."
+_SI3 = "conceito sem estrutura a reconhecer em imagem"
+CARDS += [
+ ak("ak-ttaggg", 1467771904154, {1: V, 2: V}, B_, "Telomerase adiciona TTAGGG", "6", "Verde: lâmina 6 e apostila guia Aula 4 cap. 2 (telômeros TTAGGG; telomerase com RNA próprio); HY 2. " + _M3, sem_imagem=_SI3),
+ ak("ak-telomerase-rt", 1467771911742, {1: Z}, B_, "Telomerase é transcriptase reversa", "6", "Azul: apostila guia Aula 4 cap. 2 (usa o próprio RNA como molde). " + _M3,
+    hy_repete="telomerase já verde em ak-ttaggg; aqui o tipo de enzima", sem_imagem=_SI3),
+ au("b-dna-quebrado", "Critically short <b>telomeres</b> are read as {{c1::broken DNA}}, triggering the DNA damage response and cell-cycle arrest",
+    {1: Z}, B_, "Telômero curto = DNA quebrado", "6", "central", NAO, EP, "Azul: apostila guia Aula 4 cap. 2. " + _M3,
+    extra="- Unprotected ends could also fuse or be degraded"),
+ au("b-proteostase", "With age, falling {{c1::chaperone}} and proteasome activity lets damaged <b>proteins</b> accumulate, a loss of protein homeostasis",
+    {1: Z}, B_, "Perda da homeostase proteica", "9", "central", NAO, EP, "Azul: lâmina 9 e monitoria P1 aula 3. " + _M3,
+    extra="- Misfolded proteins that persist can trigger apoptosis"),
+ au("b-igf", "<b>Lifespan</b> of model organisms, from worms to mice, is extended by reduced signaling through the {{c1::insulin/IGF-1}} receptor",
+    {1: Z}, B_, "Sinalização insulina/IGF-1 e longevidade", "10", "central", NAO, EP, "Azul: lâmina 10 (sensores de nutrientes) e apostila guia Aula 4 cap. 2. " + _M3,
+    extra="- Caloric restriction acts on the same nutrient-sensing pathways (TOR, sirtuins)"),
+ au("b-antioxidantes", "Transgenic <b>flies</b> overexpressing superoxide dismutase and {{c1::catalase}} live longer, supporting the free-radical theory of aging",
+    {1: R}, B_, "Antioxidantes e longevidade", "8", "lateral", NAO, EP, "Rosa: apostila guia Aula 4 cap. 2. " + _M3,
+    extra="- Species with lower mitochondrial superoxide production tend to live longer"),
+ au("c-cerebro", "Normal <b>brain aging</b> reduces neuron number, brain weight and nerve conduction without necessarily impairing {{c1::cognition}}",
+    {1: Z}, C_, "Envelhecimento cerebral normal", "15", "central", NAO, EP, "Azul: lâmina 15 e monitoria P1 aula 3. " + _M3,
+    extra="- Dementia such as Alzheimer disease is senility, not senescence"),
+ au("c-coracao", "In the aging <b>heart</b>, collagen deposition thickens the {{c1::valves}} and the ventricle becomes less compliant, lowering maximal heart rate and output",
+    {1: Z}, C_, "Coração do idoso", "17; 20", "central", NAO, EP, "Azul: lâminas 17 e 20 e monitoria P1 aula 3. " + _M3,
+    extra="- Lipofuscin accumulates in the aged myocardium"),
+ au("c-fluxo-renal", "After age 50, <b>renal blood flow</b> falls about {{c1::1%}} per year",
+    {1: R}, C_, "Fluxo renal no idoso", "18", "lateral", NAO, EP, "Rosa: monitoria P1 aula 3. " + _M3,
+    extra="- Even so, the kidneys keep about twice the reserve needed at rest"),
+]
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+for _c_ in CARDS:
+    if _c_["key"] in ("b-dna-quebrado", "b-proteostase", "b-igf", "b-antioxidantes", "c-cerebro", "c-coracao", "c-fluxo-renal"):
+        _c_["sem_imagem"] = _SI3
