@@ -69,7 +69,7 @@ CARDS = [
  sh(1791729319038, "azul", B_, "Malonil-CoA inibe CAT-1", "49", "Azul: lâmina 49; viva em Integração II."),
  au("b-pfk2", "<b>AMPK</b> speeds glycolysis by activating {{c1::PFK-2}}, which raises fructose-2,6-bisphosphate, the activator of PFK-1",
     {1: Z}, B_, "AMPK ativa a glicólise", "50", "central", NAO, EP, "Azul: lâmina 50; transcrição.", extra="- More ATP is produced when energy is low"),
- ak("ak-metformina", 1462913225002, {1: Z}, B_, "Metformina ativa AMPK", "50", "Azul: HY 1; liga AMPK à clínica.",
+ ak("ak-metformina", 1462913225002, {1: Z}, B_, "Metformina ativa AMPK", "50", "Azul: HY 1; liga AMPK à clínica.", clinica_lateral="fármaco de exemplo; o alvo é a AMPK (b-ampk verde)",
     extra_add="- Same sensor the lesson describes as the master energy regulator"),
  # C — adipocinas e leptina (21–28; 51–57)
  au("c-leptina", "{{c1::Leptin}}, secreted by <b>adipocytes</b> in proportion to fat stores, acts on the <b>hypothalamus</b> to produce satiety",
@@ -106,7 +106,7 @@ SEM_IMAGEM = "fato bioquímico sem estrutura a reconhecer em imagem"
 for c in CARDS:
     if c["kind"] in ("text", "autoral") and "<img" not in c.get("text", "") + c.get("extra", "") + c.get("extra_add", ""):
         c["sem_imagem"] = SEM_IMAGEM
-DUPLICACAO = {}
+DUPLICACAO = {"a-eixo": "cascata hipotálamo–hipófise–tireoide (TRH/TSH); ak-crh cobra o ramo CRH/ACTH do estresse"}
 IMAGENS_VISTAS = {}
 REVISAO = {}
 ESCOPO = {
@@ -147,3 +147,72 @@ import re as _re
 CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
 for _c_ in CARDS:
     if _c_["key"] == "d-cart-drogas": _c_["extra"] = "- CART = cocaine- and amphetamine-regulated transcript"
+# Ajuste 15/10 noite (F-20261015-CLAUDE-05): lâminas 6, 8, 12, 15–17, 22, 26, 29, 31, 38 e 48–51 relidas contra o Lehninger cap. 23
+# (massa corporal, lido de novo nas pp. 961–965), o UC3.pdf (pp. 70–71 e 254–255) e a apostila de exercícios de Bioquímica (II.1–5).
+_M3 = "Ajuste 15/10 noite (F-20261015-CLAUDE-05)."
+FORA_DO_RECORTE[0] = "Eixos hipotálamo-hipófise (lâminas 4–7, 40–43): panorama com cascata, hipófise e estresse em card; doenças endócrinas (8, 44) só pela classificação e pelo tumor de hipófise do exercício II.4."
+CARDS += [
+ ak("ak-crh", 1462053147855, {2: V}, A_, "CRH → POMC/ACTH", "6", "Verde: lâmina 6 (estresse prolongado: hipotálamo → CRH → ACTH) e exercício II.1B; HY 2. " + _M3,
+    extra_add="- Cortisol then raises gluconeogenesis and mobilizes protein and fat"),
+ sh(1791054013222, "azul", A_, "Glucagon, cortisol e adrenalina: resistência à insulina", "6", "Azul: exercício II.1 (hormônios do estresse integram a resposta metabólica); viva no GR1. " + _M3),
+ au("a-endocrinas", ORG("How are <b>endocrine disorders</b> classified?<br>1. gland {{c1::hyposecretion}} (hormone deficiency)<br>2. gland {{c1::hypersecretion}} (hormone excess)<br>3. {{c2::tumors}} of endocrine glands"),
+    {1: R, 2: R}, A_, "Classificação das doenças endócrinas", "8; 44", "lateral", NAO, EP, "Rosa: quadro da lâmina 8 (classification). " + _M3,
+    extra="- Causes include gland injury, congenital defects, infections and feedback failures"),
+ ak("ak-cushing", 1462380546437, {1: Z}, A_, "Doença de Cushing: adenoma de hipófise", "8", "Azul: exercício II.4 (tumor de hipófise e consequência metabólica). " + _M3, clinica_lateral="tumor de hipófise pedido no exercício II.4; o alvo da aula é a consequência metabólica",
+    extra_add="- Excess cortisol raises blood glucose by gluconeogenesis and insulin resistance"),
+ au("a-recompensa", "Palatable food activates the brain's {{c1::reward}} pathways, one reason <b>obesity</b> rose once food became always available",
+    {1: R}, A_, "Por que a obesidade aumentou", "12", "lateral", NAO, EP, "Rosa: lâmina 12 (fatores: comida disponível, recompensa, genética, ambiente, microbiota). " + _M3,
+    extra="- Genetics, environment and the gut microbiota also contribute"),
+ sh(1791729325413, "azul", A_, "Síndrome metabólica", "15", "Azul: lâmina 15 (obesidade → síndrome metabólica); viva em Integração II. " + _M3),
+ sh(1791729324668, "azul", A_, "DM2: resistência + deficiência relativa", "16", "Azul: lâmina 16 (pré-diabetes: resistência e disfunção da célula β); viva em Integração II. " + _M3),
+ au("a-endotelio", "<b>Obesity</b>-driven inflammation damages the endothelium, which makes less {{c1::nitric oxide}} and more ROS",
+    {1: R}, A_, "Disfunção endotelial na obesidade", "17", "lateral", NAO, EP, "Rosa: último quadro da lâmina 17. " + _M3,
+    extra="- This links obesity to hypertension and atherosclerosis"),
+ au("c-ob-frio", "<b>ob/ob mice</b> are cold-sensitive as well as obese, because leptin also drives {{c1::thermogenesis}}",
+    {1: R}, C_, "ob/ob: sensibilidade ao frio", "22", "lateral", NAO, EP, "Rosa: lâmina 22 (apetite voraz, obesidade, síndrome metabólica, sensibilidade ao frio). " + _M3,
+    extra="- Without leptin the brain reads a starving state and cuts heat production"),
+ au("c-simpatico", "<b>Leptin</b> stimulates the {{c1::sympathetic}} nervous system, raising heart rate, blood pressure and brown-fat thermogenesis",
+    {1: Z}, C_, "Leptina ativa o simpático", "26", "central", NAO, EP, "Azul: lâmina 26 (efeitos periféricos), Lehninger p. 962 e UC3.pdf p. 70. " + _M3,
+    extra="- Norepinephrine → β3 receptor → cAMP → PKA, which induces UCP1 (thermogenin) and activates hormone-sensitive lipase"),
+ au("c-jak-stat", "The <b>leptin receptor</b> signals through the {{c1::JAK-STAT}} pathway, turning on POMC transcription in the hypothalamus",
+    {1: Z}, C_, "Leptina: via JAK-STAT", "22", "central", NAO, EP, "Azul: Lehninger fig. 23-36 (via de sinalização da leptina). " + _M3,
+    extra="- STATs are phosphorylated by JAK, dimerize and enter the nucleus"),
+ au("c-jejum", "Falling <b>leptin</b> in fasting lowers thyroid and sex hormones and raises glucocorticoids, so the leptin system mainly defends against {{c1::starvation}}",
+    {1: Z}, C_, "Leptina e jejum", "25", "central", NAO, EP, "Azul: Lehninger p. 963 (o sistema evoluiu para a fome) e UC3.pdf p. 255. " + _M3,
+    extra="- Minimizing energy use and mobilizing stores helps survive famine"),
+ sh(1790999837254, "azul", D_, "PYY diminui o apetite", "29", "Azul: lâmina 29 (peptídeos gastrointestinais de saciedade) e Lehninger fig. 23-35; viva na UC08. " + _M3),
+ au("d-orexigenico", "Hormones that increase appetite, such as <b>ghrelin</b>, are called {{c1::orexigenic}}",
+    {1: Z}, D_, "Orexigênico × anorexigênico", "31", "central", NAO, EP, "Azul: UC3.pdf p. 254 e Lehninger p. 962. " + _M3,
+    extra="- Leptin, insulin, PYY and GLP-1 are anorexigenic"),
+ au("d-grelina-refeicao", "Blood <b>ghrelin</b> peaks just {{c1::before::before/after}} a meal and falls quickly after eating",
+    {1: R}, D_, "Grelina sobe antes da refeição", "31", "lateral", NAO, EP, "Rosa: UC3.pdf p. 71. " + _M3,
+    extra="- Ghrelin also stimulates growth hormone release"),
+ au("d-npy", "Levels of the hunger neuropeptide {{c1::NPY}} rise in <b>fasting</b> and stay high in ob/ob and db/db mice",
+    {1: R}, D_, "NPY alto no jejum e nos mutantes", "32; 33", "lateral", NAO, EP, "Rosa: Lehninger p. 962 e lâmina 33. " + _M3,
+    extra="- Without leptin signaling, NPY release is never restrained"),
+ au("d-insulina", "Besides leptin, {{c1::insulin}} acts on <b>arcuate neurons</b> to inhibit NPY and stimulate α-MSH, reducing food intake",
+    {1: Z}, D_, "Insulina também age no arqueado", "31; 34", "central", NAO, EP, "Azul: lâmina 31 e Lehninger fig. 23-35. " + _M3,
+    extra="- Both hormones rise in proportion to body fat"),
+ au("d-reciproca", "The two groups of <b>arcuate neurons</b> {{c1::inhibit each other}}, so a signal that activates the hunger neurons silences the satiety neurons",
+    {1: R}, D_, "Inibição recíproca", "33", "lateral", NAO, EP, "Rosa: lâmina 33 e Lehninger fig. 23-35. " + _M3,
+    extra="- This sharpens the switch between eating and stopping"),
+ ak("ak-glp1-agonistas", 1462849387815, {1: Z}, D_, "Agonistas de GLP-1 (semaglutida)", "38", "Azul: lâmina 38 (Ozempic) e prova 2023 P1 2.3. " + _M3, clinica_lateral="fármaco de exemplo da lâmina 38; o mecanismo (GLP-1) é verde no card compartilhado",
+    extra_add="- They mimic the gut hormone GLP-1: more insulin, slower gastric emptying, satiety"),
+ au("d-tirzepatida", "<b>Tirzepatide</b> (Mounjaro) activates the GLP-1 receptor and also the {{c1::GIP}} receptor",
+    {1: R}, D_, "Tirzepatida: GLP-1 + GIP", "38", "lateral", "consulta tirzepatide sem card (15/10 noite).", EP, "Rosa: lâmina 38. " + _M3,
+    extra="- GIP is the other incretin released by the gut after a meal"),
+ au("b-hmg", "<b>AMPK</b> also blocks cholesterol synthesis by phosphorylating and inactivating {{c1::HMG-CoA reductase}}",
+    {1: R}, B_, "AMPK inibe HMG-CoA redutase", "49", "lateral", NAO, EP, "Rosa: Lehninger p. 964 (AMPK e síntese de lipídeos). " + _M3,
+    extra="- Low energy shuts down every costly lipid synthesis pathway"),
+]
+for _c_ in CARDS:
+    if _c_["key"] == "c-adiponectina" and "TNF" not in _c_.get("extra", ""):
+        _c_["extra"] = (_c_.get("extra", "") + "<br>" if _c_.get("extra") else "") + "- TNF-α suppresses adiponectin in obesity"
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+CARDS.append(au("c-irs2", "<b>Leptin</b> makes liver and muscle more sensitive to insulin, since both hormones lead to phosphorylation of {{c1::IRS-2}}",
+    {1: R}, C_, "Leptina e insulina: IRS-2", "31", "lateral", NAO, EP, "Rosa: apostila guia (Biomol) Aula 2 cap. 5 e Lehninger fig. 23-37. " + _M3,
+    extra="- Phosphorylated IRS-2 activates PI3K, which also reduces food intake"))
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
+for _c_ in CARDS:
+    if _c_["key"] == "a-eixo":
+        _c_["duplicacao_ok"] = "'pituitary' da cascata TRH/TSH; ak-cushing cobra o adenoma hipofisário secretor de ACTH (outro alvo)"

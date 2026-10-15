@@ -27,7 +27,7 @@ ORIGIN = {"Anatomy": "Dope", "Image Occlusion Enhanced+": "BlueLink", "AnatoKing
 CLOZE = re.compile(r"\{\{c(\d+)::((?:(?!\}\}).)*?)(?:::((?:(?!\}\}).)*?))?\}\}", re.S)
 KHAN = re.compile(r"(<br>\s*)*<div>\s*<a[^>]*khanacademy[^>]*>.*?</a>\s*(<br>)?\s*</div>|(<br>\s*)*<a[^>]*(khanacademy|youtu)[^>]*>.*?</a>", re.I | re.S)
 WHITE = re.compile(r'\s*style="color: rgb\(255 255 255[^"]*"')
-CREDIT = re.compile(r"(?:\s*<br\s*/?>\s*)*(?:<(?:em|span|i|div)[^>]*>\s*)*(?:Photo credit|Image credit|Image licensed|Image\(s\) provided)[\s\S]*?(?=<img|\Z)", re.I)
+CREDIT = re.compile(r"(?:\s*<br\s*/?>\s*)*(?:<(?:em|span|i|div)[^>]*>\s*)*(?:Photo\s*cr(?:<[^>]*>)*edit|Image\s*cr(?:<[^>]*>)*edit|Image licensed|Image\(s\) provided)[\s\S]*?(?=<img|\Z)", re.I)
 
 
 def h(x): return hashlib.sha256(json.dumps(x, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:16]
