@@ -3,7 +3,7 @@
 Rotas de busca obrigatórias antes de qualquer autoral (MEMORY §5, gate `cobertura_anking`):
   (a) palavra: termos e sinônimos (pontuação BM25 local sobre o mesmo texto do índice);
   (b) seção de recurso: tags #FirstAid/#Pathoma/#B&B/#Sketchy*/#NinjaNerd… do tema, lidas inteiras;
-  (c) significado: embeddings locais (fastembed, BAAI/bge-small-en-v1.5; nada sai do Mac).
+  (c) significado (inclui os cards NEBLI já instalados de outras aulas, acervo “NEBLI-vivo”): embeddings locais (fastembed, BAAI/bge-small-en-v1.5; nada sai do Mac).
 (a) e (c) são fundidas por Reciprocal Rank Fusion, como no anki-semantic-search.
 
     /usr/bin/python3 -m nebli.semantica indexar                       # uma vez (e quando o AnKing atualizar)
@@ -115,6 +115,31 @@ class Indice:
         self.df = Counter(t for d in self.docs for t in d)
         self.avg = sum(sum(d.values()) for d in self.docs) / len(self.docs)
         self.acervos = sorted({m["acervo"] for m in self.meta}, key=lambda a: (a != "AnKing", a))
+        self._vivo()
+
+    def _vivo(self):
+        """F-20261016-CLAUDE-03 (“os decks não se repitam nas informações”): os cards NEBLI já instalados de outras aulas entram na
+        busca como acervo “NEBLI-vivo”; o que já existe é associado por sh() em vez de virar card novo. Embutidos na hora (~1 min)."""
+        np = self.np
+        excl = getattr(self, "excluir_tag", "")
+        nids = call("findNotes", query='"tag:NEBLI::2026-*"' + (f' -"tag:{excl}"' if excl else ""))
+        meta = []
+        for i in range(0, len(nids), 500):
+            for n in call("notesInfo", notes=nids[i:i + 500]):
+                frente, extra = texto(n["fields"])
+                aula = next((t for t in n["tags"] if re.fullmatch(r"NEBLI::2026-uc\d\d-[^:]+", t)), "")
+                meta.append({"acervo": "NEBLI-vivo", "nid": n["noteId"], "modelo": n["modelName"], "hy": aula[7:], "frente": frente, "extra": extra, "recursos": []})
+        if not meta:
+            return
+        vec = np.array(list(self.emb.embed([f"{m['frente']} {m['extra']}"[:600] for m in meta], batch_size=64)), dtype="float32")
+        vec /= np.linalg.norm(vec, axis=1, keepdims=True)
+        self.vec = np.vstack([self.vec, vec])
+        self.meta += meta
+        docs = [Counter(tokens(f"{m['frente']} {m['extra']}")) for m in meta]
+        self.docs += docs
+        for d in docs:
+            self.df.update(d.keys())
+        self.acervos.append("NEBLI-vivo")
 
     def bm25(self, q, n_top=100, k1=1.2, b=0.75):
         qt = set(tokens(q)); n = len(self.docs); out = []
@@ -154,6 +179,12 @@ class Indice:
 
 
 def buscar(run: Path, pares, k=12):
+    plan = run / "plan.json"
+    lesson = json.loads(plan.read_text()).get("lesson_id", "") if plan.exists() else ""
+    if not lesson and (run / "spec.py").exists():
+        m = re.search(r'LESSON = "([^"]+)"', (run / "spec.py").read_text(encoding="utf-8"))
+        lesson = m.group(1) if m else ""
+    Indice.excluir_tag = f"NEBLI::{lesson}" if lesson else ""
     ix = Indice()
     (run / "busca").mkdir(exist_ok=True)
     with open(run / "busca" / "semantica.jsonl", "a", encoding="utf-8") as f:

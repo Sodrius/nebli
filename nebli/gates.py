@@ -704,6 +704,8 @@ def cobertura_anking(run, plan):
     # Rota (c): significado, em TODOS os acervos
     sem = _jsonl(run / "busca" / "semantica.jsonl")
     todos = set(semantica.ACERVOS)
+    if int(plan.get("pipeline_versao") or 1) >= 2:  # F-20261016-CLAUDE-03: também os decks NEBLI vivos (sem repetir entre aulas)
+        todos = todos | {"NEBLI-vivo"}
     falta_acervo = [x["chave"] for x in sem if not todos <= set(x.get("acervos", []))]
     out.append(("[duro] rota (c) busca por significado em todos os acervos (AnKing + cada deck de Referências Externas)"
                 + (f": consultas sem algum acervo {falta_acervo[:3]}" if falta_acervo else ""), bool(sem) and not falta_acervo))
@@ -769,7 +771,7 @@ def cobertura_anking(run, plan):
 
 # F-20261016-CLAUDE-01: "não pode ser tudo verde… nem tudo é tão importante" e "quando for mais de 2 clozes por card garanta que a
 # indução está boa / em cards organizadores… deixar a primeira letra". Rubrica em PESQUISA-IMPORTANCIA-2026-10-16.md e MEMORY §6/§8.
-RUBRICA = {"V-pilar": "verde", "V-prova": "verde", "A-aula": "azul", "A-step": "azul", "R-detalhe": "rosa", "R-org": "rosa"}
+RUBRICA = {"V-hy": "verde", "V-pilar": "verde", "V-prova": "verde", "A-aula": "azul", "A-step": "azul", "R-detalhe": "rosa", "R-org": "rosa"}
 MAX_VERDE = 0.50
 _CLOZE_FULL = re.compile(r"\{\{c(\d+)::(.*?)\}\}", re.S)
 
@@ -795,14 +797,20 @@ def cores_rubrica(plan):
             verde_sem_base.append(e["key"])
         if "data-nebli-organizacao" in (e.get("fields", {}).get("Text", "")) and "verde" in permitidas and "V-pilar" not in cods:
             org_verde.append(e["key"])
-    cards = [x for e in entries for x in e.get("cards", [])]
+    # F-20261016-CLAUDE-03: todo HY 1–2 do AnKing é verde; o limite de 50% vale para o resto
+    eh_hy = lambda e: e.get("origin") == "AnKing" and e.get("hy") in ("1", "2")
+    hy_nao_verde = [e["key"] for e in entries if eh_hy(e) and any(x.get("cor") != "verde" for x in e.get("cards", []))]
+    vhy_sem_hy = [e["key"] for e in entries if str(e.get("motivo", "")).startswith("V-hy") and not eh_hy(e)]
+    out.append(("[duro] todo HY 1–2 do AnKing é verde (V-hy), mesmo acima de 50%" + (f": {hy_nao_verde[:4]}" if hy_nao_verde else "")
+                + (f"; V-hy sem HY {vhy_sem_hy[:4]}" if vhy_sem_hy else ""), not hy_nao_verde and not vhy_sem_hy))
+    cards = [x for e in entries if not eh_hy(e) for x in e.get("cards", [])]
     verde = sum(x.get("cor") == "verde" for x in cards) / max(1, len(cards))
-    out.append(("[duro] cor por rubrica: motivo começa com V-pilar|V-prova|A-aula|A-step|R-detalhe|R-org e a cor bate" +
+    out.append(("[duro] cor por rubrica: motivo começa com V-hy|V-pilar|V-prova|A-aula|A-step|R-detalhe|R-org e a cor bate" +
                 (f": sem código {sem_cod[:4]}" if sem_cod else "") + (f"; cor divergente {erradas[:4]}" if erradas else ""), not sem_cod and not erradas))
     out.append(("[duro] verde só com base: V-pilar no ESCOPO['centrais']; V-prova central e com prova/HY 1" +
                 (f": {verde_sem_base[:4]}" if verde_sem_base else ""), not verde_sem_base))
     out.append(("[duro] organizador verde só se a classificação é pilar (V-pilar)" + (f": {org_verde[:4]}" if org_verde else ""), not org_verde))
-    out.append((f"[duro] diversidade de cores: verde {verde:.0%} dos cards (máximo {MAX_VERDE:.0%})", verde <= MAX_VERDE))
+    out.append((f"[duro] diversidade de cores: verde {verde:.0%} dos cards que não são HY (máximo {MAX_VERDE:.0%})", verde <= MAX_VERDE))
     return out
 
 

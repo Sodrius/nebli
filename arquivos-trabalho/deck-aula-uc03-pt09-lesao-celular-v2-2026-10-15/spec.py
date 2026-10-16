@@ -89,7 +89,7 @@ CARDS = [
     extra_add="- Blood flow returns before the myocytes pass the point of no return"),
  ak("ak-iam", 1471898845279, V, A_, "Infarto = lesão irreversível", 3, "Verde: HY 1; exemplo de lesão irreversível da lâmina 3."),
  ak("ak-hepatite-viral", 1521424037362, Z, A_, "Hepatite viral aguda: necrose/apoptose do hepatócito", 3, "Azul: HY 2; exemplo da lâmina 3 (hepatite aguda) e provas 2018/2016 (AST/ALT).", clinica_lateral="hepatite viral tem aula própria; aqui é só exemplo de lesão irreversível"),
- au("au-causas", ORG("<b>Main causes of cell injury</b>:<br>1. {{c1::Oxygen deprivation}}<br>2. {{c1::Physical}} agents<br>3. {{c1::Chemicals}} and drugs<br>"
+ au("au-causas", ORG("<b>Causes of cell injury</b>:<br>1. {{c1::Oxygen deprivation}}<br>2. {{c1::Physical}} agents<br>3. {{c1::Chemicals}} and drugs<br>"
                      "4. {{c2::Infections}}<br>5. {{c2::Immune}} reactions<br>6. {{c2::Genetic}} defects<br>7. {{c2::Nutritional}} imbalances"),
     {1: Z, 2: Z}, A_, "As sete causas de lesão celular", "5", "central", "", EP_CONJ, "Azul: lista da lâmina 5, monitoria P1 e apostila guia Aula 2.",
     extra="- Oxygen deprivation is the most common, usually through ischemia"),
@@ -97,7 +97,7 @@ CARDS = [
  ak("ak-isquemia", 1473466862672, V, A_, "Isquemia = perda de fluxo", 5, "Verde: causa mais comum (cruzadas 15; prova 2019).",
     extra_add="- Ischemia injures faster than hypoxia alone: flow also stops bringing glucose and removing wastes"),
  ak("ak-co", 1473466860013, R, A_, "CO reduz o conteúdo de O2", 5, "Rosa: HY 2; apostila guia (hipóxia sem isquemia: pneumonia, anemia, CO).", clinica_lateral="intoxicação por CO é exemplo da apostila, não alvo da lâmina"),
- au("au-sequencia", ORG("After <b>cell injury</b> begins, changes become detectable in this order:<br>1. {{c1::Biochemical}} alterations (loss of function)<br>2. {{c1::Ultrastructural}} changes<br>"
+ au("au-sequencia", ORG("<b>Cell injury</b> becomes detectable in this order:<br>1. {{c1::Biochemical}} alterations (loss of function)<br>2. {{c1::Ultrastructural}} changes<br>"
                         "3. {{c2::Light microscopic}} changes<br>4. {{c2::Gross}} morphologic changes"),
     {1: V, 2: V}, A_, "Ordem em que as alterações aparecem", "6; cruzadas 8 e 26", "central", "", EP_CONJ,
     "Verde: gráfico da lâmina 6; palavras-cruzadas (ultraestruturais precoces; coração sem alteração macroscópica após 1 h).",
@@ -123,7 +123,7 @@ CARDS = [
  ak("ak-amilase-lipase", 1482971327560, V, B_, "Amilase/lipase na pancreatite", 11, "Verde (HY do recorte): HY 2; exemplo da transcrição e provas 2023/2016. Clínica ampla."),
 
  # ---------- C. Mecanismos (Ia 12–20) ----------
- au("au-mecanismos", ORG("<b>Cell injury</b> results from damage to four main targets:<br>1. {{c1::Mitochondria}} (↓ ATP, ↑ free radicals)<br>2. {{c1::Calcium}} homeostasis (Ca²⁺ influx)<br>"
+ au("au-mecanismos", ORG("<b>Main targets of cell injury</b>:<br>1. {{c1::Mitochondria}} (↓ ATP, ↑ free radicals)<br>2. {{c1::Calcium}} homeostasis (Ca²⁺ influx)<br>"
                          "3. Cell {{c1::membranes}}<br>4. {{c1::DNA}} and protein folding"),
     G(1), C_, "Os quatro alvos/mecanismos da lesão", "12; 18", "central", "", EP_CONJ, "Verde: esquema das lâminas 12 e 18; monitoria P1 e apostila guia cap. 5.",
     extra="- They feed each other: low ATP lets Ca²⁺ in, Ca²⁺ and free radicals damage mitochondria and membranes"),
@@ -148,7 +148,7 @@ CARDS = [
  ak("ak-citc-iniciadoras", 1496161956265, V, C_, "Citocromo c ativa caspases iniciadoras", 16, "Verde: HY 1; lâmina 16 (mitocôndria → apoptose); cruzadas 35.",
     extra_add="- If the mitochondrion instead loses its membrane potential (permeability transition), ATP production stops and the cell dies by necrosis"),
  ak("ak-calcio-entrada", 1487463918664, V, C_, "Entrada de Ca²⁺", 17, "Verde: HY 1; lâmina 17."),
- au("au-calcio-enzimas", ORG("High cytosolic <b>Ca²⁺</b> in injured cells activates:<br>- {{c1::phospholipases}} → membrane damage<br>- {{c1::proteases}} → cytoskeleton and membrane damage<br>"
+ au("au-calcio-enzimas", ORG("High cytosolic <b>Ca²⁺</b> activates:<br>- {{c1::phospholipases}} → membrane damage<br>- {{c1::proteases}} → cytoskeleton damage<br>"
                              "- {{c1::endonucleases}} → DNA damage<br>- {{c1::ATPases}} → faster ATP loss"),
     G(1), C_, "Enzimas ativadas pelo cálcio", "17; prova 2024 P1 2.8; cruzadas 25", "prova", "", EP_CONJ, "Verde: lâmina 17; prova 2024; palavras-cruzadas.",
     extra="- Ca²⁺ comes from outside the cell and from mitochondrial and ER stores, all kept by ATP-dependent pumps"),
@@ -206,7 +206,7 @@ CARDS = [
  ak("ak-gangrena-imagem", 1545331820247, Z, D_, "Reconhecer gangrena", 35, "Azul: foto como a da lâmina 35 e da prova 2024."),
 
  # ---------- E. Apoptose (Ia 36–45) ----------
- au("au-apoptose-causas", ORG("<b>Physiologic</b> apoptosis:<br>- {{c1::embryogenesis}}<br>- hormonal {{c1::involution}}<br>- immune tolerance<br>- inflammatory cell turnover<br>"
+ au("au-apoptose-causas", ORG("<b>Physiologic</b> apoptosis:<br>- {{c1::embryogenesis}}<br>- hormonal {{c1::involution}}<br>- immune tolerance<br>- cell turnover<br>"
                               "<b>Pathologic</b> apoptosis:<br>- {{c2::DNA damage}}<br>- {{c2::misfolded proteins}}<br>- viral infection<br>- atrophy"),
     {1: Z, 2: Z}, E_, "Causas fisiológicas × patológicas de apoptose", "36; cruzadas 20", "central", "", EP_CONJ, "Azul: lista da lâmina 36; monitoria P1; palavras-cruzadas.",
     extra="- Example of involution: mammary epithelium after weaning"),
@@ -256,26 +256,26 @@ for c in CARDS:
 
 # F-20261016-CLAUDE-01: cor pela rubrica (MEMORY §8), não pela tag HY; código no início do motivo (gate duro cores_rubrica)
 RUB = {
- "ak-dois-mecanismos": "V-pilar", "ak-fim-irreversivel": "A-aula", "au-reversivel-irreversivel": "V-pilar", "ak-angina": "A-aula", "ak-iam": "A-aula",
- "ak-hepatite-viral": "R-detalhe", "au-causas": "A-aula", "ak-hipoxia": "V-pilar", "ak-isquemia": "V-pilar", "ak-co": "R-detalhe", "au-sequencia": "A-aula",
- "ak-30min": "A-step", "ak-edema": "V-prova", "ak-bolhas": "A-step", "ak-ribossomos": "A-step", "ak-cromatina": "A-step", "ak-marco-irreversivel": "V-prova",
- "au-criterios": "V-pilar", "ak-perda-nucleo": "V-pilar", "ak-enzimas-soro": "V-prova", "ak-troponina": "A-step", "ak-amilase-lipase": "A-aula",
- "au-mecanismos": "V-pilar", "ak-atp": "V-pilar", "ak-bombas": "A-step", "au-lactato": "A-aula", "ak-superoxido": "R-detalhe", "ak-peroxido": "R-detalhe",
- "ak-hidroxila": "R-detalhe", "ak-hidroxila-pior": "R-detalhe", "ak-fenton": "R-detalhe", "ak-radiacao": "R-detalhe", "ak-efeitos-radicais": "V-pilar",
- "ak-sod": "A-aula", "ak-catalase-gpx": "A-step", "ak-antioxidantes": "R-detalhe", "ak-reperfusao-trombolise": "A-step", "ak-reperfusao-radicais": "V-prova",
- "ak-citc-iniciadoras": "V-pilar", "ak-calcio-entrada": "A-step", "au-calcio-enzimas": "V-pilar", "ak-lisossomo": "A-step", "au-mal-dobradas": "R-detalhe",
- "ak-necrose-patologica": "V-pilar", "ak-necrose-inflamatoria": "V-pilar", "ak-necrose-grupos": "A-step", "ak-apoptose-programada": "V-pilar",
- "ak-apoptose-sem-inflamacao": "V-pilar", "ak-apoptose-isoladas": "A-step", "ak-mielina": "R-detalhe", "ak-vacuolizacao": "A-step", "ak-eosina": "A-aula",
- "ak-picnose": "A-aula", "ak-cariorrexe": "A-aula", "ak-cariolise": "R-detalhe", "au-tipos-necrose": "V-pilar", "ak-coag-arquitetura": "V-pilar",
- "ak-coag-enzimas": "A-aula", "ak-coag-infarto": "V-prova", "ak-infarto-palido": "A-step", "ak-liq-lise": "A-aula", "ak-liq-cerebro-abscesso": "V-prova",
- "ak-neutrofilos": "A-aula", "ak-cavitacao": "R-detalhe", "ak-klebsiella": "A-aula", "ak-caseosa-tb": "V-pilar", "ak-caseosa-debris": "R-detalhe",
- "ak-gordurosa-causas": "A-aula", "ak-gordurosa-peripancreatica": "V-prova", "ak-saponificacao": "A-aula", "ak-gordurosa-calcario": "A-step",
- "ak-saponificacao-he": "R-detalhe", "ak-fibrinoide-vasos": "V-pilar", "ak-fibrinoide-has": "A-step", "ak-fibrinoide-rosa": "R-detalhe",
- "ak-gangrena-local": "V-prova", "ak-gangrena-seca": "R-detalhe", "ak-gangrena-umida": "A-aula", "ak-gangrena-imagem": "A-aula", "au-apoptose-causas": "A-aula",
- "ak-atrofia": "V-prova", "ak-caspases": "V-pilar", "ak-endonucleases": "A-step", "ak-proteases": "A-step", "ak-bcl2-inativacao": "V-prova",
- "ak-bcl2-citc": "V-pilar", "au-caspases": "A-aula/R-detalhe", "ak-cd8": "A-step", "ak-apoptose-morfologia": "V-pilar", "ak-corpos-apoptoticos": "A-aula",
- "ak-apoptose-eosinofilica": "R-detalhe", "ak-apoptose-basofilico": "R-detalhe", "ak-bax-pro": "A-step", "ak-bcl2-anti": "A-step", "ak-p53-bax": "V-prova",
- "au-tabela-necrose-apoptose": "V-pilar", "ak-p53-reparo": "A-step", "au-apoptose-doencas": "A-aula", "au-necroptose": "R-detalhe",
+ "ak-dois-mecanismos": "V-hy", "ak-fim-irreversivel": "A-aula", "au-reversivel-irreversivel": "V-pilar", "ak-angina": "V-hy", "ak-iam": "V-hy",
+ "ak-hepatite-viral": "V-hy", "au-causas": "A-aula", "ak-hipoxia": "V-pilar", "ak-isquemia": "V-pilar", "ak-co": "V-hy", "au-sequencia": "A-aula",
+ "ak-30min": "V-hy", "ak-edema": "V-hy", "ak-bolhas": "V-hy", "ak-ribossomos": "V-hy", "ak-cromatina": "V-hy", "ak-marco-irreversivel": "V-hy",
+ "au-criterios": "V-pilar", "ak-perda-nucleo": "V-hy", "ak-enzimas-soro": "V-hy", "ak-troponina": "V-hy", "ak-amilase-lipase": "V-hy",
+ "au-mecanismos": "V-pilar", "ak-atp": "V-hy", "ak-bombas": "V-hy", "au-lactato": "A-aula", "ak-superoxido": "R-detalhe", "ak-peroxido": "R-detalhe",
+ "ak-hidroxila": "R-detalhe", "ak-hidroxila-pior": "R-detalhe", "ak-fenton": "R-detalhe", "ak-radiacao": "R-detalhe", "ak-efeitos-radicais": "V-hy",
+ "ak-sod": "V-hy", "ak-catalase-gpx": "V-hy", "ak-antioxidantes": "V-hy", "ak-reperfusao-trombolise": "V-hy", "ak-reperfusao-radicais": "V-hy",
+ "ak-citc-iniciadoras": "V-hy", "ak-calcio-entrada": "V-hy", "au-calcio-enzimas": "V-pilar", "ak-lisossomo": "V-hy", "au-mal-dobradas": "R-detalhe",
+ "ak-necrose-patologica": "V-pilar", "ak-necrose-inflamatoria": "V-pilar", "ak-necrose-grupos": "V-hy", "ak-apoptose-programada": "V-hy",
+ "ak-apoptose-sem-inflamacao": "V-hy", "ak-apoptose-isoladas": "V-hy", "ak-mielina": "V-hy", "ak-vacuolizacao": "V-hy", "ak-eosina": "V-hy",
+ "ak-picnose": "V-hy", "ak-cariorrexe": "V-hy", "ak-cariolise": "V-hy", "au-tipos-necrose": "V-pilar", "ak-coag-arquitetura": "V-hy",
+ "ak-coag-enzimas": "V-hy", "ak-coag-infarto": "V-hy", "ak-infarto-palido": "V-hy", "ak-liq-lise": "V-hy", "ak-liq-cerebro-abscesso": "V-hy",
+ "ak-neutrofilos": "V-hy", "ak-cavitacao": "V-hy", "ak-klebsiella": "V-hy", "ak-caseosa-tb": "V-hy", "ak-caseosa-debris": "V-hy",
+ "ak-gordurosa-causas": "V-hy", "ak-gordurosa-peripancreatica": "V-hy", "ak-saponificacao": "A-aula", "ak-gordurosa-calcario": "V-hy",
+ "ak-saponificacao-he": "R-detalhe", "ak-fibrinoide-vasos": "V-hy", "ak-fibrinoide-has": "V-hy", "ak-fibrinoide-rosa": "V-hy",
+ "ak-gangrena-local": "V-hy", "ak-gangrena-seca": "R-detalhe", "ak-gangrena-umida": "A-aula", "ak-gangrena-imagem": "A-aula", "au-apoptose-causas": "A-aula",
+ "ak-atrofia": "V-hy", "ak-caspases": "V-hy", "ak-endonucleases": "V-hy", "ak-proteases": "V-hy", "ak-bcl2-inativacao": "V-hy",
+ "ak-bcl2-citc": "V-hy", "au-caspases": "A-aula/R-detalhe", "ak-cd8": "V-hy", "ak-apoptose-morfologia": "V-hy", "ak-corpos-apoptoticos": "A-aula",
+ "ak-apoptose-eosinofilica": "V-hy", "ak-apoptose-basofilico": "V-hy", "ak-bax-pro": "V-hy", "ak-bcl2-anti": "V-hy", "ak-p53-bax": "V-hy",
+ "au-tabela-necrose-apoptose": "V-pilar", "ak-p53-reparo": "V-hy", "au-apoptose-doencas": "A-aula", "au-necroptose": "R-detalhe",
 }
 SH_COR = {1791716427402: "azul", 1791625429957: "azul", 1791625429657: "verde"}
 _COR = {"V": V, "A": Z, "R": R}

@@ -21,7 +21,7 @@ from pathlib import Path
 V, Z, R = 3, 4, 5
 COR = {"V": V, "A": Z, "R": R}
 NOME = {"V": "verde", "A": "azul", "R": "rosa"}
-CODIGOS = ("V-pilar", "V-prova", "A-aula", "A-step", "R-detalhe", "R-org")
+CODIGOS = ("V-hy", "V-pilar", "V-prova", "A-aula", "A-step", "R-detalhe", "R-org")
 ORG = lambda s: f'<div data-nebli-organizacao="true">{s}</div>'
 CLOZE = re.compile(r"\{\{c(\d+)::(.*?)\}\}", re.S)
 
@@ -65,8 +65,10 @@ def dicas(t):
 def finalizar(cards, here: Path, busca_base: str):
     """Aplica as regras mecânicas do pipeline a CARDS, no lugar."""
     ids = [c["src"] for c in cards if c["kind"] == "text"]
-    clozes = {n["noteId"]: sorted({int(x) for x in re.findall(r"\{\{c(\d+)::", n["fields"].get("Text", {}).get("value", ""))})
-              for n in _call("notesInfo", notes=ids)} if ids else {}
+    infos = _call("notesInfo", notes=ids) if ids else []
+    clozes = {n["noteId"]: sorted({int(x) for x in re.findall(r"\{\{c(\d+)::", n["fields"].get("Text", {}).get("value", ""))}) for n in infos}
+    # F-20261016-CLAUDE-03: “deixa sempre todos os HY como verdes, mesmo que passe o limite de 50%”
+    hy = {n["noteId"]: next((t.split("::")[-1][0] for t in n["tags"] if "HighYield" in t or "LowYield" in t or "LowerYield" in t), "") for n in infos}
     cob = {}
     tsv = here / "busca" / "cobertura.tsv"
     if tsv.exists():
@@ -75,6 +77,8 @@ def finalizar(cards, here: Path, busca_base: str):
         if c["kind"] == "compartilhado":
             continue
         cod = c.pop("cod")
+        if c["kind"] == "text" and hy.get(c["src"]) in ("1", "2"):
+            cod = "V-hy"
         if any(x not in CODIGOS for x in cod.split("/")):
             raise SystemExit(f"{c['key']}: código de rubrica inválido {cod!r} (use {', '.join(CODIGOS)})")
         c["motivo"] = f"{cod}: {c['motivo']}"

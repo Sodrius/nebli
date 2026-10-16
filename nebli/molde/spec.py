@@ -6,6 +6,7 @@ HERE = _pl.Path(__file__).parent
 _sys.path.insert(0, str(HERE.parents[1]))
 from nebli.spec_lib import ak, au, sh, ORG, finalizar  # todos os irmãos, cor pela rubrica, dica de 1ª letra, busca por autoral
 
+PIPELINE_VERSAO = 2  # 2 = busca também nos decks NEBLI vivos (gate duro)
 PIPELINE = "anking-primeiro"  # F-20261015-CLAUDE-06: liga os gates duros (cobertura_anking, cores_rubrica, inducao_clozes); não remover
 RUN_ID = "<ucNN-curto-AAAAMMDDa>"
 SHORT = "<curto>"

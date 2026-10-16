@@ -24,6 +24,8 @@ import sys
 from pathlib import Path
 
 MAX_WORDS = 23          # p90 AnKing
+MAX_SENT_WORDS = 20     # F-20261016-CLAUDE-03: autoral em frase, um pouco menor que o p90
+MAX_ORG_WORDS = 26      # organizador/quadro em tópicos
 MAX_CLOZES = 3          # acima disso vira lista; AnKing: 75% com 1
 MAX_EXTRA = 34          # Extra AnKing: 25% vazio, mediana 19, p75 34
 MAX_EXTRA_HARD = 51     # p90
@@ -57,8 +59,12 @@ def check(key, text_html, extra_html=""):
     if re.search(r"(?<!\d):(?!\d)", text) and not organizacao:
         problems.append(("dura", "':' na frente: AnKing escreve frase corrida, sem rótulo nem dois pontos (F-20261001-CLAUDE-16)"))
     words = len(text.split())
-    if words > MAX_WORDS:
-        problems.append(("dura" if words > 30 else "aviso", f"{words} palavras (AnKing: mediana 15, p90 {MAX_WORDS})"))
+    # F-20261016-CLAUDE-03: “os cards ficaram um pouco grandes… autorais, na maior parte dos casos, num tamanho um pouco menor, com uma indução de qualidade”
+    limite = MAX_ORG_WORDS if organizacao else MAX_SENT_WORDS
+    if words > limite:
+        problems.append(("dura", f"{words} palavras ({'organizador' if organizacao else 'frase'}: máximo {limite}; AnKing: mediana 15)"))
+    elif not organizacao and words > 16:
+        problems.append(("aviso", f"{words} palavras (AnKing: mediana 15): dá para encurtar mantendo a indução?"))
     clozes = {m.group(1) for m in CLOZE.finditer(text_html)}
     if len(clozes) > MAX_CLOZES:
         problems.append(("aviso", f"{len(clozes)} clozes: vira lista; preferir um nome por card"))

@@ -64,7 +64,7 @@ def base_of(run, short):
 def same(a, b):
     """Igualdade de campo ignorando a normalização de HTML que o Anki faz ao gravar (/>, </div>, espaços)."""
     import html as _html  # 12/10: o Anki grava & como &amp; (e &nbsp;); entidade não é correção viva
-    n = lambda x: re.sub(r"\s+|</[a-z0-9]+>|<div>|<br\s*/?>", "", re.sub(r"\s*/>", ">", _html.unescape(x or "").replace("\xa0", " ")))
+    n = lambda x: re.sub(r"\s+|</[a-z0-9]+>|<div>|<tbody>|<br\s*/?>", "", re.sub(r"\s*/>", ">", _html.unescape(x or "").replace("\xa0", " ")))  # 16/10: o editor insere <tbody> nas tabelas
     return n(a) == n(b)
 
 
