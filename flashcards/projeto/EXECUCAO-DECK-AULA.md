@@ -36,7 +36,7 @@ Molde técnico de referência (correlação de imagens, feita direto, 56/56): `a
 
 ## 4. Escrever o `spec.py` (MEMORY §6–8)
 
-- `ak()` para AnKing (flags por cloze; HY 1–2 verde ou `hy_repete`/`clinica_lateral`), `au()` para autoral (2–3 `espelhos`, `autoria`, motivo da cor), `sh()` para compartilhado. Ordem = lâminas.
+- Auxiliares em `nebli/spec_lib.py` (o molde já importa): `ak(chave, nid, código, …)` para acervo (todos os irmãos entram), `au(chave, texto, código, …)` para autoral, `sh()` para compartilhado; `finalizar(CARDS, HERE, BUSCA)` aplica a cor do **código da rubrica** (V-pilar, V-prova, A-aula, A-step, R-detalhe, R-org; MEMORY §8), a dica de 1ª letra quando um índice esconde 3+ itens e a busca de `cobertura.tsv` em cada autoral. Notas de acervo externo levam `origin=` (MCAT, Ankisthesia…); `extra=` substitui um verso herdado ruim. Ordem = lâminas. Modelo vivo: corrida da 02 de 16/10.
 - Imagens: recortar da fonte certa para `img/`, ver o recorte (montagem em `visual/`) e declarar `IMAGENS_VISTAS = {"arquivo.png": "o que mostra e por que ensina"}`. Cortar títulos que entreguem a resposta.
 - `VERSO` para dar linha curta a card sem texto no verso; `DUPLICACAO` para resposta coincidente com ganho próprio; `slide_sem_alternativa` quando a imagem do caso da aula é o objetivo.
 - **Revisão do núcleo antes de rodar:** conferir também conjuntos organizadores (tríades, classificações, estruturas importantes); usar card de organização quando recuperar o conjunto traz ganho próprio, documentado em `DUPLICACAO` se necessário. Ler a lista de alvos contra o mapa do passo 2. Faltou conceito organizador? Algum exemplo virou card sem motivo? Cor por ganho, sem quota?

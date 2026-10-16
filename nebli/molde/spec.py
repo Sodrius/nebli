@@ -1,51 +1,41 @@
 # Especificação curada — <AULA> (<UC> <Pn>, <componente>; <professor>; <N> lâminas). Gerada a partir de inventario.py (escrito antes).
 # Ordem = slides. AnKing → externos → autoral SÓ para lacuna provada em busca/cobertura.tsv (gate duro), último do último caso.
-PIPELINE = "anking-primeiro"  # F-20261015-CLAUDE-06: liga os gates duros (cobertura_anking em nebli/gates.py); não remover
+# Modelo vivo: arquivos-trabalho/deck-aula-uc03-rd02-diagnostico-radiologico-v2-2026-10-16/spec.py (16/10).
+import pathlib as _pl, re as _re, sys as _sys
+HERE = _pl.Path(__file__).parent
+_sys.path.insert(0, str(HERE.parents[1]))
+from nebli.spec_lib import ak, au, sh, ORG, finalizar  # todos os irmãos, cor pela rubrica, dica de 1ª letra, busca por autoral
+
+PIPELINE = "anking-primeiro"  # F-20261015-CLAUDE-06: liga os gates duros (cobertura_anking, cores_rubrica, inducao_clozes); não remover
 RUN_ID = "<ucNN-curto-AAAAMMDDa>"
 SHORT = "<curto>"
 LESSON = "2026-<ucNN>-<componente>-<NN>-<slug>"
 DECK = "NEBLI::<UC>::<Pn>::<Componente>::<Aula>"
-CRITERIOS = "MEMORY.md + FEEDBACKS (último lido) + plano vigente, <data>"
+CRITERIOS = "MEMORY.md + FEEDBACKS (último lido) + PLANO-ANKING-PRIMEIRO, <data>"
 MEDIA = {}
-V, Z, R = 3, 4, 5
-BUSCA = ("AnKing Step e Referências Externas em texto livre (busca/anking.txt, 66 consultas; busca/ext.txt, 20 consultas), tags de seção "
-         "FirstAid/Bootcamp/Sketchy de T cells (busca/tags-secao.txt), 10/10: ")
+BUSCA = ("Três caminhos (<data>): seções de recurso do AnKing (busca/secoes); palavra-chave em AnKing e Referências Externas (busca/anking.txt); "
+         "significado em todos os acervos (busca/semantica.jsonl). ")
 EXCLUIDOS = []  # (nid, motivo) de candidatos lidos e recusados
 FORA_DO_RECORTE = []
-
-
-def ak(key, src, flags, bloco, alvo, slide, motivo, origin=None, **kw):
-    d = dict(key=key, kind="text", src=src, manter=True, flags=flags, bloco=bloco, alvo=alvo, evid=f"Slide {slide}", motivo=motivo, **kw)
-    if origin: d["origin"] = origin
-    return d
-
-
-def au(key, text, flags, bloco, alvo, slide, autoria, falta, espelhos, motivo, extra="", duplicacao_ok=""):
-    return dict(key=key, kind="autoral", text=text, extra=extra, flags=flags, bloco=bloco, alvo=alvo, evid=f"Slide {slide}", autoria=autoria,
-                busca=BUSCA + falta, espelhos=espelhos, motivo=motivo, duplicacao_ok=duplicacao_ok)
-
-
-def sh(nid, cor, bloco, alvo, slide, motivo):
-    return dict(key=f"sh-{nid}", kind="compartilhado", nid=nid, cor=cor, bloco=bloco, alvo=alvo, evid=f"Slide {slide}", motivo=motivo)
-
-
 A_ = "A-<bloco>"
+
 CARDS = [
- # ---------- A. <bloco> (slides x–y) ----------
- # ak("chave", nid, {1: V}, A_, "alvo", slide, "Cor: motivo (slide/prova/HY)."),
- # au("chave", "Frase AnKing com {{c1::termo}}", {1: Z}, A_, "alvo", "slide; fonte", "central|prova|lateral", "o que a busca não achou", [nid1, nid2], "Cor: motivo.", extra="- linha"),
- # sh(nid_nebli, "verde", A_, "alvo", slide, "motivo"),
+ # Código de rubrica (MEMORY §8): V-pilar | V-prova | A-aula | A-step | R-detalhe | R-org — a cor sai daqui, não da tag HY.
+ # ak("chave", nid, "A-step", A_, "alvo", slide, "por quê (lâmina/prova/HY)", origin="MCAT"|"Ankisthesia"|... se externo, extra_add="- linha"),
+ # au("chave", "Frase AnKing com <b>contexto</b> e {{c1::nome}}", "A-aula", A_, "alvo", "slide; fonte", "por quê", extra="- porquê"),
+ # sh(nid_nebli, "azul", A_, "alvo", slide, "motivo"),
 ]
 
-# Linha curta no verso dos cards que chegavam sem explicação (F-20261003-CLAUDE-15); AnKing preservado (extra_add), autoral em extra.
-VERSO = {}  # chave: "- linha curta" para card sem Extra (gate de verso); AnKing recebe em extra_add
-DUPLICACAO = {}  # chave autoral: "ganho: ..." quando a resposta coincide com outro card
+finalizar(CARDS, HERE, BUSCA)
+
+VERSO = {}  # chave: "- linha curta" para nota de acervo sem Extra (gate de verso)
 for c in CARDS:
-    k = c["key"]
-    if k in VERSO:
-        if c["kind"] == "autoral":
-            c["extra"] = (c["extra"] + "<br>" if c["extra"] else "") + VERSO[k]
-        else:
-            c["extra_add"] = VERSO[k]
-    if k in DUPLICACAO:
-        c["duplicacao_ok"] = DUPLICACAO[k]
+    if c["key"] in VERSO and c["kind"] != "autoral":
+        c["extra_add"] = VERSO[c["key"]] + ("<br>" + c["extra_add"] if c.get("extra_add") else "")
+DUPLICACAO = {}  # chave autoral: "ganho: ..." quando a resposta coincide com outro card
+for _k, _v in DUPLICACAO.items():
+    next(c for c in CARDS if c["key"] == _k)["duplicacao_ok"] = _v
+IMAGENS_VISTAS = {}  # arquivo: "o que mostra e por que ensina" (toda imagem fora do AnKing, depois de ver)
+REVISAO = {}
+ESCOPO = {"objetivo": "", "centrais": [], "exemplos": [], "outras_aulas": []}
+CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))

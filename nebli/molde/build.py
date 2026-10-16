@@ -133,15 +133,15 @@ def build():
     keys = [c["key"] for c in spec.CARDS if c["kind"] != "compartilhado"]
     issues = [i for i in issues if "já existe" not in i and "já usado" not in i] if "--delta" in sys.argv else issues
     if len(set(keys)) != len(keys): issues.append("chave repetida")
-    if A("findNotes", query=f'"tag:NEBLI::ordem::{spec.SHORT}-*"'): issues.append(f"prefixo de ordem '{spec.SHORT}' já usado")
+    if "--delta" not in sys.argv and A("findNotes", query=f'"tag:NEBLI::ordem::{spec.SHORT}-*"'): issues.append(f"prefixo de ordem '{spec.SHORT}' já usado")
     # HY do recorte precisa de pelo menos um card verde (MEMORY, Q048)
     for e in entries:
-        if e["hy"] in ("1", "2") and e["origin"] == "AnKing" and not e.get("hy_repete") and not e.get("clinica_lateral") and not any(x["flag"] == 3 for x in e["cards"]): issues.append(f"{e['key']}: HY {e['hy']} sem verde")
+        if getattr(spec, "PIPELINE", "") != "anking-primeiro" and e["hy"] in ("1", "2") and e["origin"] == "AnKing" and not e.get("hy_repete") and not e.get("clinica_lateral") and not any(x["flag"] == 3 for x in e["cards"]): issues.append(f"{e['key']}: HY {e['hy']} sem verde")
     tot = lambda f: sum(1 for e in entries for x in e["cards"] if f(e, x))
     origens = sorted({e["origin"] for e in entries})
     scope_file = next((HERE / name for name in ("fontes.json", "fontes-decl.json") if (HERE / name).exists()), None)
     source_scope = json.loads(scope_file.read_text()).get("escopo", "cards") if scope_file else "cards"
-    plan = {"pipeline": getattr(spec, "PIPELINE", ""), "run_id": spec.RUN_ID, "short": spec.SHORT, "lesson_id": spec.LESSON, "deck": spec.DECK, "criterios": spec.CRITERIOS,
+    plan = {"pipeline": getattr(spec, "PIPELINE", ""), "escopo": getattr(spec, "ESCOPO", None), "run_id": spec.RUN_ID, "short": spec.SHORT, "lesson_id": spec.LESSON, "deck": spec.DECK, "criterios": spec.CRITERIOS,
             "E1": "solicitada junto ao deck" if source_scope == "e1+cards" else "não solicitada nesta corrida", "entries": entries, "compartilhados": shared,
             "excluidos": [{"nid": n, "motivo": m} for n, m in spec.EXCLUIDOS], "fora_do_recorte": spec.FORA_DO_RECORTE, "media": spec.MEDIA,
             "clones": CLONES, "busca_externos": "busca/ext.txt",

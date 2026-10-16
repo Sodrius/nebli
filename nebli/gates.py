@@ -515,7 +515,7 @@ def visible(e):
 
 def bad_cloze(e):
     t = (e.get("fields") or {}).get("Text", "") or ""
-    if e.get("origin") == "AnKing":  # AnKing usa "{{c1::macro}}vesicular" e dica de contagem ("::2") de propósito
+    if e.get("origin") == "AnKing" or (e.get("kind") == "text" and e.get("manter")):  # AnKing e acervos externos originais (16/10) ficam como são
         return False
     if PARTIAL.search(t):
         return True
@@ -561,7 +561,7 @@ def past_errors(plan):
         f = e.get("fields") or {}
         return re.sub(r"\s+|&nbsp;|/", "", html.unescape(re.sub(r"<[^>]+>", "", f.get("Extra", "") or f.get("Back Extra", "") or "")))
     bare = [e["key"] for e in entries if e.get("kind") in ("text", "autoral") and not back_text(e)]
-    longcz = [e["key"] for e in entries if e.get("origin") != "AnKing" and e.get("kind") in ("text", "autoral")
+    longcz = [e["key"] for e in entries if e.get("origin") != "AnKing" and e.get("kind") in ("text", "autoral") and not (e.get("kind") == "text" and e.get("manter"))
               and any(len(re.sub(r"<[^>]+>", " ", m.split("::")[0]).split()) > MAX_CLOZE for m in CLOZE_RE.findall((e.get("fields") or {}).get("Text", "") or ""))]
     extra += [(f"cloze curto (até {MAX_CLOZE} palavras) fora do AnKing" + (f": {longcz[:4]}" if longcz else ""), not longcz)]
     extra += [("verso com explicação curta (não só figura)" + (f": faltam {len(bare)} ({bare[:3]})" if bare else ""), not bare)]
@@ -623,6 +623,7 @@ def plan_checks(run, plan):
               else f"; exceção histórica {exception}" if exception and share > MAX_AUTORAL else "")
     if pipeline_novo(run, plan):  # F-20261015-CLAUDE-06: exceções de completude não valem; vale a prova de lacuna por autoral
         out += cobertura_anking(run, plan)
+        out += cores_rubrica(plan) + inducao_clozes(plan)  # F-20261016-CLAUDE-01
     else:
         out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
     if "biologia-tecidual" in plan.get("lesson_id", ""):  # F-20261003-CLAUDE-13: aprender, não visualizar em excesso
@@ -764,6 +765,67 @@ def cobertura_anking(run, plan):
     share = sum(len(e.get("cards", [])) or 1 for e in autorais) / max(1, sum(len(e.get("cards", [])) or 1 for e in entries))
     out.append((f"autoral = {share:.0%} dos cards (sem teto; informativo)", True))
     return out
+
+
+# F-20261016-CLAUDE-01: "não pode ser tudo verde… nem tudo é tão importante" e "quando for mais de 2 clozes por card garanta que a
+# indução está boa / em cards organizadores… deixar a primeira letra". Rubrica em PESQUISA-IMPORTANCIA-2026-10-16.md e MEMORY §6/§8.
+RUBRICA = {"V-pilar": "verde", "V-prova": "verde", "A-aula": "azul", "A-step": "azul", "R-detalhe": "rosa", "R-org": "rosa"}
+MAX_VERDE = 0.50
+_CLOZE_FULL = re.compile(r"\{\{c(\d+)::(.*?)\}\}", re.S)
+
+
+def cores_rubrica(plan):
+    out = []
+    entries = plan.get("entries", [])
+    centrais = set()
+    for item in (plan.get("escopo") or {}).get("centrais", []):
+        centrais.update(item[1:])
+    sem_cod, erradas, verde_sem_base, org_verde = [], [], [], []
+    for e in entries:
+        m = re.match(r"\s*([VAR]-[a-z]+(?:/[VAR]-[a-z]+)*)\s*:", str(e.get("motivo", "")))
+        cods = m.group(1).split("/") if m else []
+        if not cods or any(c not in RUBRICA for c in cods):
+            sem_cod.append(e["key"]); continue
+        permitidas = {RUBRICA[c] for c in cods}
+        if any(x.get("cor") not in permitidas for x in e.get("cards", [])):
+            erradas.append(e["key"])
+        if "V-pilar" in cods and e["key"] not in centrais:
+            verde_sem_base.append(e["key"])
+        if "V-prova" in cods and not (e["key"] in centrais and ("prova" in str(e.get("motivo", "")).lower() or e.get("hy") == "1")):
+            verde_sem_base.append(e["key"])
+        if "data-nebli-organizacao" in (e.get("fields", {}).get("Text", "")) and "verde" in permitidas and "V-pilar" not in cods:
+            org_verde.append(e["key"])
+    cards = [x for e in entries for x in e.get("cards", [])]
+    verde = sum(x.get("cor") == "verde" for x in cards) / max(1, len(cards))
+    out.append(("[duro] cor por rubrica: motivo começa com V-pilar|V-prova|A-aula|A-step|R-detalhe|R-org e a cor bate" +
+                (f": sem código {sem_cod[:4]}" if sem_cod else "") + (f"; cor divergente {erradas[:4]}" if erradas else ""), not sem_cod and not erradas))
+    out.append(("[duro] verde só com base: V-pilar no ESCOPO['centrais']; V-prova central e com prova/HY 1" +
+                (f": {verde_sem_base[:4]}" if verde_sem_base else ""), not verde_sem_base))
+    out.append(("[duro] organizador verde só se a classificação é pilar (V-pilar)" + (f": {org_verde[:4]}" if org_verde else ""), not org_verde))
+    out.append((f"[duro] diversidade de cores: verde {verde:.0%} dos cards (máximo {MAX_VERDE:.0%})", verde <= MAX_VERDE))
+    return out
+
+
+def inducao_clozes(plan):
+    ruins = []
+    for e in plan.get("entries", []):
+        if e.get("origin") == "AnKing":
+            continue
+        txt = e.get("fields", {}).get("Text", "")
+        grupos = {}
+        for n, corpo in _CLOZE_FULL.findall(txt):
+            grupos.setdefault(n, []).append(corpo)
+        for n, itens in grupos.items():
+            if len(itens) < 3:
+                continue
+            for corpo in itens:
+                partes = corpo.split("::")
+                resp = re.sub(r"<[^>]+>", "", partes[0]).strip()
+                dica = partes[1].strip() if len(partes) > 1 else ""
+                if not dica or (resp and dica[0].lower() != resp[0].lower()):
+                    ruins.append(f"{e['key']}/c{n}"); break
+    return [("[duro] indução: card que esconde 3+ itens tem dica com a 1ª letra em cada lacuna ({{c1::Coagulative::C…}})"
+             + (f": {ruins[:4]}" if ruins else ""), not ruins)]
 
 
 def author_volume_supported(plan):

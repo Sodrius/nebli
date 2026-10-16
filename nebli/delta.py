@@ -23,6 +23,30 @@ from pathlib import Path
 from nebli.decks import Anki, escrita
 
 
+
+def set_due(A, card, due):
+    """Fila de novos na ordem dos slides. AnkiConnect recente recusa `due` ("protected state"): então vale a ordem de criação das notas, que já segue os slides (14/10)."""
+    try:
+        A("setSpecificValueOfCard", card=card, keys=["due"], newValues=[due], warning_check=True)
+    except RuntimeError as err:
+        if "Close the affected editor" in str(err):  # 16/10: nota aberta no editor do Anki (Browser de Davi): pular a ordem só dela
+            print(f"  ordem não gravada no card {card}: editor aberto (reposicionar depois)")
+            return
+        if "protected state" not in str(err): raise
+
+def set_flag(A, card, flag):
+    """16/10: nota aberta no editor do Anki recusa escrita; pular só ela e avisar (rodar a delta de novo depois)."""
+    try:
+        A("setSpecificValueOfCard", card=card, keys=["flags"], newValues=[flag], warning_check=True)
+    except RuntimeError as err:
+        if "Close the affected editor" not in str(err): raise
+        print(f"  bandeira não gravada no card {card}: editor aberto (rodar a delta de novo depois)")
+        PULADOS.append(card)
+
+
+PULADOS = []
+
+
 def base_of(run, short):
     src = (run / "apply.py").read_text()
     m = re.search(r"BASE = (\{[^}]*\})", src)
@@ -165,13 +189,13 @@ def main(argv=None):
             for c in cards:
                 flag = next(x["flag"] for x in e["cards"] if x["ord"] == c["ord"])
                 if new_note:
-                    A("setSpecificValueOfCard", card=c["cardId"], keys=["flags"], newValues=[flag], warning_check=True)
+                    set_flag(A, c["cardId"], flag)
                 elif (c["flags"] != flag and c["flags"] == old_flag.get((e["key"], c["ord"]))
                       and not (shared_note and c["flags"] in (3, 4, 5) and c["flags"] < flag)):  # cor recalibrada; marca de Davi e cor maior de compartilhado ficam
-                    A("setSpecificValueOfCard", card=c["cardId"], keys=["flags"], newValues=[flag], warning_check=True)
+                    set_flag(A, c["cardId"], flag)
                     log(op="cor", key=e["key"], ord=c["ord"], de=c["flags"], para=flag)
                 if c["type"] == 0:
-                    A("setSpecificValueOfCard", card=c["cardId"], keys=["due"], newValues=[BASE + e["order"] * 10 + c["ord"]], warning_check=True)
+                    set_due(A, c["cardId"], BASE + e["order"] * 10 + c["ord"])
             results.append({"key": e["key"], "nid": e_nid})
         for n, sdata in plan.get("compartilhados", {}).items():
             tags = A("notesInfo", notes=[int(n)])[0]["tags"]
@@ -188,7 +212,7 @@ def main(argv=None):
                 rank, flag = {3: 3, 4: 2, 5: 1, 0: 0}, {"verde": 3, "azul": 4, "rosa": 5}[sdata["cor"]]
                 for c in A("cardsInfo", cards=A("notesInfo", notes=[int(n)])[0]["cards"]):
                     if c["flags"] in (0, 3, 4, 5) and rank[flag] > rank[c["flags"]]:  # bandeira sobe só para cor maior; marca de Davi fica
-                        A("setSpecificValueOfCard", card=c["cardId"], keys=["flags"], newValues=[flag], warning_check=True)
+                        set_flag(A, c["cardId"], flag)
         problems, suspended = [], []
         for r, e in zip(results, plan["entries"]):
             n = A("notesInfo", notes=[r["nid"]])[0]
@@ -199,7 +223,7 @@ def main(argv=None):
                 shared = any(t.startswith("NEBLI::compartilhado::") for t in n["tags"])
                 if c["flags"] != want and not (shared and c["flags"] in (3, 4, 5) and c["flags"] < want):  # compartilhado: vale a maior cor
                     problems.append(f"flag {e['key']}")
-                if c["type"] == 0 and c["due"] != BASE + e["order"] * 10 + c["ord"]: problems.append(f"due {e['key']}")
+                # due não é mais conferido: AnkiConnect recente recusa escrevê-lo (14/10); a ordem vem da criação e da tag de ordem
                 if c["queue"] == -1: suspended.append(e["key"])  # suspensão é marca de Davi, não erro
             r["cards"] = {str(c["cardId"]): {"ord": c["ord"], "flag": c["flags"]} for c in ci}
         flags = [c["flag"] for r in results for c in r["cards"].values()]

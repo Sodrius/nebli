@@ -1,0 +1,97 @@
+"""Inventário atômico de Diagnóstico radiológico — Ferramentas do diagnóstico radiológico (UC03 P1; Radiologia; Profa. Claudia Leite),
+escrito ANTES da seleção (16/10, pipeline AnKing-primeiro + F-20261016-CLAUDE-01). Sequência = 61 lâminas (fontes/slides.pdf, ordem da
+transcrição). Lido inteiro nesta corrida: lâminas (visual/folha-01..11), transcrição integral, apostila guia de Radiologia (aula 1), apostila
+ilustrativa (pp. 1–4), “Tudo que você precisa saber de RD” (pp. 1–5), monitoria P1 (aula suprimida), provas rad-01 (30 subquestões).
+Fronteira com as aulas específicas (MEMORY §3): a 02 fica com a identidade de cada método; física, densidades, Hounsfield, janelas, fases,
+reconstruções, ecogenicidade e artefatos, T1/T2 e sequências ficam em 04 (RX/US), 05 (TC), 12 (RM) e 56 (contrastes).
+"""
+PREFIXO = "rd02"
+AULA = "Diagnóstico radiológico (UC03 P1; Radiologia; Claudia Leite)"
+EXC = "EXC: "
+OUTRA = lambda a: EXC + f"aula {a} (fronteira da radiologia, MEMORY §3)"
+
+SLIDES = [
+ (1, "capa", "Capa", []),
+ (2, "conteudo", "Caso: dor no hipocôndrio direito após comida gordurosa", [("a1", "Imagem responde a uma hipótese clínica", "au-acr")]),
+ (3, "conteudo", "E agora? Ultrassonografia: cálculos biliares", [("a2", "US é o exame de escolha para colelitíase", "ak-us-litiase")]),
+ (4, "conteudo", "Objetivo da aula", [("a3", "Objetivo (sem fato próprio)", EXC + "enunciado do objetivo")]),
+ (5, "conteudo", "Ovo (metáfora: ver dentro sem abrir)", [("a4", "Metáfora", EXC + "ilustração")]),
+ (6, "conteudo", "Caixa (metáfora)", [("a5", "Metáfora", EXC + "ilustração")]),
+ (7, "conteudo", "Principais métodos: RX, TC, USG", [("a6", "Métodos de imagem", "au-metodos")]),
+ (8, "conteudo", "Principais métodos: RM, angiografia, MN, radiologia intervencionista", [("a7", "Métodos de imagem", "au-metodos"),
+   ("a8", "Radiologia intervencionista: diagnóstico e terapêutica", "au-angio-intervencao")]),
+ (9, "conteudo", "ACR Appropriateness Criteria", [("a9", "Escala 1–3 / 4–6 / 7–9", "au-acr")]),
+ (10, "conteudo", "Tabela ACR (exemplo)", [("a10", "Exemplo", "au-acr")]),
+ (11, "conteudo", "Hierarquia de exames (riscada: não existe exame melhor em tudo)", [("a11", "Escolher pelo problema", "au-acr")]),
+ (12, "conteudo", "Ovo em RX, TC, RM, USG: imagens seccionais", [("a12", "Métodos seccionais × projeção", "au-rx")]),
+ (13, "conteudo", "Planos sagital, axial e coronal", [("a13", "Planos", ["ak-plano-sagital", "ak-plano-coronal", "ak-plano-transverso"])]),
+ (14, "conteudo", "Tabela de métodos: USG", [("a14", "Forças e limites do USG", "au-us")]),
+ (15, "conteudo", "Aparelhos de US e transdutores", [("a15", "Transdutor piezoelétrico", "ak-piezo")]),
+ (16, "conteudo", "US: feixe sonoro, sem radiação; rápido, operador-dependente; limites", [("a16", "Princípio e limites", ["ak-piezo", "au-us"])]),
+ (17, "conteudo", "Contraste intrínseco × exógeno (US: microbolhas)", [("a17", "Contraste intrínseco × exógeno", "au-contraste-tipos"),
+   ("a18", "Contraste por método", "au-contraste-agentes")]),
+ (18, "conteudo", "US de abdome: fígado", [("a19", "Reconhecer US", "au-img-us")]),
+ (19, "conteudo", "US: vesícula, porta, Doppler do colédoco", [("a20", "Doppler mostra fluxo", "ak-doppler")]),
+ (20, "conteudo", "US: rins", [("a21", "Exemplo", EXC + "anatomia de exemplo")]),
+ (21, "conteudo", "US: pâncreas, fígado, VCI", [("a22", "Exemplo", EXC + "anatomia de exemplo")]),
+ (22, "conteudo", "US: vesícula com conteúdo", [("a23", "Exemplo", EXC + "anatomia de exemplo")]),
+ (23, "conteudo", "US transfontanela", [("a24", "Fontanela como janela no recém-nascido", "ak-us-hiv")]),
+ (24, "conteudo", "Tabela: TC", [("a25", "Forças e limites da TC", "au-tc")]),
+ (25, "conteudo", "Aparelho de TC", [("a26", "Aparelho", "au-tc-principio")]),
+ (26, "conteudo", "TC: radiação ionizante, seccional; rápida; cuidado em grávidas e crianças", [("a27", "Princípio da TC", "au-tc-principio"),
+   ("a28", "Radiação em crianças e grávidas", ["au-radiacao-cuidados", "ak-radiacao-tireoide"])]),
+ (27, "conteudo", "Escher/van Gogh (ilustração)", [("a29", "Ilustração", EXC + "ilustração")]),
+ (28, "conteudo", "TC: sem contraste, EV (fases), VO, VR", [("a30", "Vias de contraste na TC", "au-contraste-agentes"), ("a31", "Fases arterial/venosa/equilíbrio/excretora", OUTRA("05 TC"))]),
+ (29, "conteudo", "Contraste na TC: atenuação; iodado EV, VO iodado/bário, VR", [("a32", "Contraste da TC", "au-contraste-agentes")]),
+ (30, "conteudo", "TC abdome sem contraste (janelas)", [("a33", "Reconhecer TC", "au-img-tc"), ("a34", "Janelas", OUTRA("05 TC"))]),
+ (31, "conteudo", "TC com contraste: planos axial, sagital, coronal", [("a35", "Reconhecer o plano", "au-img-planos")]),
+ (32, "conteudo", "Fases arterial, portal, excretora, tardia", [("a36", "Fases", OUTRA("05 TC"))]),
+ (33, "conteudo", "Contraste VO", [("a37", "Contraste oral", "au-contraste-agentes")]),
+ (34, "conteudo", "TC crânio: janela de parênquima e óssea", [("a38", "Janelas", OUTRA("05 TC"))]),
+ (35, "conteudo", "Reconstrução 3D (aneurisma)", [("a39", "Reconstrução", OUTRA("05 TC"))]),
+ (36, "conteudo", "Reconstrução sagital (aneurisma)", [("a40", "Reconstrução", OUTRA("05 TC"))]),
+ (37, "conteudo", "Artefato metálico na TC", [("a41", "Artefato por metal", "au-tc")]),
+ (38, "conteudo", "Tabela: RM", [("a42", "Forças e limites da RM", "au-rm")]),
+ (39, "conteudo", "Aparelho de RM", [("a43", "Aparelho", "mc-rm")]),
+ (40, "conteudo", "RM: campo magnético e radiofrequência; demorada; limitantes", [("a44", "Princípio da RM", "mc-rm"), ("a45", "Contraindicações e limites", "au-rm")]),
+ (41, "conteudo", "Protocolos: TC com/sem contraste; RM T1/T2, fat sat, gadolínio", [("a46", "Sequências T1/T2", OUTRA("12 RM")), ("a47", "Gadolínio", "au-contraste-agentes")]),
+ (42, "conteudo", "Contraste na RM: sinal; gadolínio", [("a48", "Gadolínio", "au-contraste-agentes")]),
+ (43, "conteudo", "RM abdome superior (sequências)", [("a49", "Reconhecer RM", "au-img-rm")]),
+ (44, "conteudo", "RM T1 fat sat com contraste (fases)", [("a50", "Fases", OUTRA("12 RM"))]),
+ (45, "conteudo", "Colangio-RM", [("a51", "Colangio-RM para vias biliares", "au-rm")]),
+ (46, "conteudo", "Tabela: RX", [("a52", "Forças e limites do RX", "au-rx")]),
+ (47, "conteudo", "Aparelho de RX", [("a53", "Aparelho", "au-rx")]),
+ (48, "conteudo", "RX: radiação ionizante, sobreposição, não seccional", [("a54", "Princípio do RX", "au-rx")]),
+ (49, "conteudo", "RX de abdome", [("a55", "Sobreposição", "au-rx")]),
+ (50, "conteudo", "RX de abdome em decúbito e ortostase: obstrução", [("a56", "Nível hidroaéreo na obstrução", "ak-obstrucao")]),
+ (51, "conteudo", "RX de tórax PA e perfil: pneumonia", [("a57", "RX para pneumonia", "ak-pneumonia"), ("a58", "Reconhecer RX", "au-img-rx"), ("a59", "Incidências PA/perfil", OUTRA("04 RX/US"))]),
+ (52, "conteudo", "Tabela completa dos quatro métodos", [("a60", "Termos de descrição por método", "au-termos"), ("a61", "Quais usam radiação ionizante", "au-ionizante")]),
+ (53, "conteudo", "Sala de angiografia", [("a62", "Angiografia", "au-angio-intervencao")]),
+ (54, "conteudo", "Angiografia digital: ionizante, diagnóstica e terapêutica, contraste iodado, risco", [("a63", "Angiografia", "au-angio-intervencao")]),
+ (55, "conteudo", "Cateteres", [("a64", "Cateter pela femoral", "au-angio-intervencao")]),
+ (56, "conteudo", "Angiografia da aorta", [("a65", "Reconhecer angiografia", "au-img-angio")]),
+ (57, "conteudo", "Tabela: angiografia e MN", [("a66", "Forças e limites", ["au-angio-intervencao", "au-mn"])]),
+ (58, "conteudo", "Aparelho de PET", [("a67", "Aparelho", "mc-pet")]),
+ (59, "conteudo", "MN: radiofármacos, funcional, baixa resolução, SPECT/PET, fusão com TC/RM", [("a68", "Medicina nuclear", "au-mn"), ("a69", "PET e glicose", "mc-pet")]),
+ (60, "conteudo", "Material radioativo injetado", [("a70", "Radiofármaco", "au-mn")]),
+ (61, "conteudo", "PET-CT de tumores", [("a71", "Reconhecer PET", "au-img-pet")]),
+]
+JUSTIFICATIVAS = {}
+CAPITULO = [("Mello cap. 1 / Radiology Basics (bibliografia da aula; confirmam)", [
+ ("l1", "Métodos e princípios físicos", ["au-tc-principio", "mc-rm", "ak-piezo"]), ("l2", "Proteção radiológica", "au-radioprotecao"),
+ ("l3", "Física detalhada de cada método", EXC + "aulas 04, 05 e 12 (fronteira da radiologia)")])]
+EXERCICIOS = [
+ ("Provas UC03 (rad-01)", [
+   ("p1", "Qual a modalidade? (2025–2016, quase toda questão)", ["au-img-us", "au-img-tc", "au-img-rm", "au-img-rx", "au-img-angio", "au-img-pet"]),
+   ("p2", "Vantagens do US (sem radiação, leito, repetível)", "au-us"), ("p3", "Termos radiológicos apropriados", "au-termos"),
+   ("p4", "Princípio de formação da TC (tubo gira, fatias, planos)", ["au-tc-principio", "au-img-planos"]), ("p5", "Plano de reconstrução e contraste usado", ["au-img-planos", "au-contraste-agentes"]),
+   ("p6", "Princípio do RX (atenuação, radiopaco/radiotransparente)", ["au-rx", "au-termos"]), ("p7", "US como exame inicial (custo-benefício)", ["ak-us-litiase", "au-us"]),
+   ("p8", "Cuidados na indicação da RM (ferromagnéticos, marcapasso, claustrofobia)", "au-rm"), ("p9", "PET: radioisótopo, metabolismo", ["mc-pet", "au-mn"]),
+   ("p10", "Radioproteção: justificação, otimização, limitação; tempo, blindagem, distância", ["au-radioprotecao", "ext-alarp"]),
+   ("p11", "Dose maior na TC que no RX; contraste", ["au-tc", "au-ionizante"]), ("p12", "RX de tórax como primeiro exame", "ak-pneumonia")]),
+ ("Apostila guia de Radiologia, aula 1", [("ap1", "Mecanismo por método: opacidade, atenuação, ecogenicidade, sinal", "au-termos"),
+   ("ap2", "Contrastes: iodado, ar no US, gadolínio", "au-contraste-agentes"), ("ap3", "Contraindicações (gravidez; metais, marcapasso, claustrofobia)", ["au-radiacao-cuidados", "au-rm"])]),
+ ("Apostila ilustrativa e “Tudo que você precisa saber de RD”", [("t1", "Tabela comparativa dos métodos", ["au-us", "au-tc", "au-rm", "au-rx"]),
+   ("t2", "Sombra/reforço acústico, Hounsfield, T1/T2", EXC + "aulas 04, 05 e 12 (fronteira da radiologia)")]),
+ ("Monitoria P1", [("m1", "Aula 1 suprimida pelos monitores", EXC + "sem conteúdo desta aula")]),
+]

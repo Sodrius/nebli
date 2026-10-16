@@ -187,7 +187,7 @@ CARDS = [
  ak("ak-cavitacao", 1487469868022, V, D_, "Cavitação tardia no cérebro", 29, "Verde (HY do recorte): HY 1; o “buraco” no cérebro da lâmina 29."),
  ak("ak-klebsiella", 1525611579376, V, D_, "Abscesso pulmonar (Klebsiella) é liquefativo", 29, "Verde (HY do recorte): HY 1; prova 2017 P1 3.5."),
  ak("ak-caseosa-tb", 1487469962274, V, D_, "Caseosa: tuberculose e fungos", 30, "Verde: lâmina 30; cruzadas 29."),
- sh(1791716427402, "verde", D_, "Caseosa: aspecto de queijo", 30, "Verde: o nome “caseosa” (queijo) da lâmina 30; nota viva do GR3."),
+ sh(1791716427402, "azul", D_, "Caseosa: aspecto de queijo", 30, "Verde: o nome “caseosa” (queijo) da lâmina 30; nota viva do GR3."),
  ak("ak-caseosa-debris", 1487469968141, V, D_, "Caseosa: debris com halo de linfócitos e macrófagos", 30, "Verde (HY do recorte): descrição literal da lâmina 30."),
  ak("ak-gordurosa-causas", 1487469975903, V, D_, "Gordurosa: pancreatite aguda ou trauma", 32, "Verde: lâmina 32.",
     extra_add=IMG("gordurosa.png", 420)),
@@ -253,6 +253,60 @@ CARDS = [
 for c in CARDS:
     if c["kind"] == "text" and isinstance(c["flags"], int):
         c["flags"] = {n: c["flags"] for n in _clozes(c["src"])}
+
+# F-20261016-CLAUDE-01: cor pela rubrica (MEMORY §8), não pela tag HY; código no início do motivo (gate duro cores_rubrica)
+RUB = {
+ "ak-dois-mecanismos": "V-pilar", "ak-fim-irreversivel": "A-aula", "au-reversivel-irreversivel": "V-pilar", "ak-angina": "A-aula", "ak-iam": "A-aula",
+ "ak-hepatite-viral": "R-detalhe", "au-causas": "A-aula", "ak-hipoxia": "V-pilar", "ak-isquemia": "V-pilar", "ak-co": "R-detalhe", "au-sequencia": "A-aula",
+ "ak-30min": "A-step", "ak-edema": "V-prova", "ak-bolhas": "A-step", "ak-ribossomos": "A-step", "ak-cromatina": "A-step", "ak-marco-irreversivel": "V-prova",
+ "au-criterios": "V-pilar", "ak-perda-nucleo": "V-pilar", "ak-enzimas-soro": "V-prova", "ak-troponina": "A-step", "ak-amilase-lipase": "A-aula",
+ "au-mecanismos": "V-pilar", "ak-atp": "V-pilar", "ak-bombas": "A-step", "au-lactato": "A-aula", "ak-superoxido": "R-detalhe", "ak-peroxido": "R-detalhe",
+ "ak-hidroxila": "R-detalhe", "ak-hidroxila-pior": "R-detalhe", "ak-fenton": "R-detalhe", "ak-radiacao": "R-detalhe", "ak-efeitos-radicais": "V-pilar",
+ "ak-sod": "A-aula", "ak-catalase-gpx": "A-step", "ak-antioxidantes": "R-detalhe", "ak-reperfusao-trombolise": "A-step", "ak-reperfusao-radicais": "V-prova",
+ "ak-citc-iniciadoras": "V-pilar", "ak-calcio-entrada": "A-step", "au-calcio-enzimas": "V-pilar", "ak-lisossomo": "A-step", "au-mal-dobradas": "R-detalhe",
+ "ak-necrose-patologica": "V-pilar", "ak-necrose-inflamatoria": "V-pilar", "ak-necrose-grupos": "A-step", "ak-apoptose-programada": "V-pilar",
+ "ak-apoptose-sem-inflamacao": "V-pilar", "ak-apoptose-isoladas": "A-step", "ak-mielina": "R-detalhe", "ak-vacuolizacao": "A-step", "ak-eosina": "A-aula",
+ "ak-picnose": "A-aula", "ak-cariorrexe": "A-aula", "ak-cariolise": "R-detalhe", "au-tipos-necrose": "V-pilar", "ak-coag-arquitetura": "V-pilar",
+ "ak-coag-enzimas": "A-aula", "ak-coag-infarto": "V-prova", "ak-infarto-palido": "A-step", "ak-liq-lise": "A-aula", "ak-liq-cerebro-abscesso": "V-prova",
+ "ak-neutrofilos": "A-aula", "ak-cavitacao": "R-detalhe", "ak-klebsiella": "A-aula", "ak-caseosa-tb": "V-pilar", "ak-caseosa-debris": "R-detalhe",
+ "ak-gordurosa-causas": "A-aula", "ak-gordurosa-peripancreatica": "V-prova", "ak-saponificacao": "A-aula", "ak-gordurosa-calcario": "A-step",
+ "ak-saponificacao-he": "R-detalhe", "ak-fibrinoide-vasos": "V-pilar", "ak-fibrinoide-has": "A-step", "ak-fibrinoide-rosa": "R-detalhe",
+ "ak-gangrena-local": "V-prova", "ak-gangrena-seca": "R-detalhe", "ak-gangrena-umida": "A-aula", "ak-gangrena-imagem": "A-aula", "au-apoptose-causas": "A-aula",
+ "ak-atrofia": "V-prova", "ak-caspases": "V-pilar", "ak-endonucleases": "A-step", "ak-proteases": "A-step", "ak-bcl2-inativacao": "V-prova",
+ "ak-bcl2-citc": "V-pilar", "au-caspases": "A-aula/R-detalhe", "ak-cd8": "A-step", "ak-apoptose-morfologia": "V-pilar", "ak-corpos-apoptoticos": "A-aula",
+ "ak-apoptose-eosinofilica": "R-detalhe", "ak-apoptose-basofilico": "R-detalhe", "ak-bax-pro": "A-step", "ak-bcl2-anti": "A-step", "ak-p53-bax": "V-prova",
+ "au-tabela-necrose-apoptose": "V-pilar", "ak-p53-reparo": "A-step", "au-apoptose-doencas": "A-aula", "au-necroptose": "R-detalhe",
+}
+SH_COR = {1791716427402: "azul", 1791625429957: "azul", 1791625429657: "verde"}
+_COR = {"V": V, "A": Z, "R": R}
+for c in CARDS:
+    if c["kind"] == "compartilhado":
+        c["cor"] = SH_COR[c["nid"]]; continue
+    cod = RUB[c["key"]]
+    if c["key"] == "au-caspases":
+        c["flags"] = {1: Z, 2: R}
+    else:
+        c["flags"] = {n: _COR[cod[0]] for n in c["flags"]}
+    c["motivo"] = cod + ": " + _re.sub(r"^\s*(Verde|Azul|Rosa)[^:]*:\s*", "", c["motivo"])
+
+
+# F-20261016-CLAUDE-01: índice que esconde 3+ itens leva a primeira letra como dica (gate duro inducao_clozes)
+def _dicas(t):
+    conta = {}
+    for n in _re.findall(r"\{\{c(\d+)::", t):
+        conta[n] = conta.get(n, 0) + 1
+    def sub(m):
+        n, corpo = m.group(1), m.group(2)
+        if conta[n] < 3 or "::" in corpo:
+            return m.group(0)
+        letra = _re.sub(r"<[^>]+>", "", corpo).strip()[0]
+        return "{{c%s::%s::%s…}}" % (n, corpo, letra)
+    return _re.sub(r"\{\{c(\d+)::(.*?)\}\}", sub, t)
+
+
+for c in CARDS:
+    if c["kind"] == "autoral":
+        c["text"] = _dicas(c["text"])
 
 SEM_IMAGEM = "fato ou conjunto sem estrutura a reconhecer; as imagens que ensinam estão nos cards de túbulo, coagulativa, liquefativa, gordurosa, gangrena e nos organizadores"
 SLIDE_SEM_ALT = "figura da própria lâmina da aula, sem equivalente no AnKing"
