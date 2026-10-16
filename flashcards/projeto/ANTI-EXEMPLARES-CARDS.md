@@ -94,6 +94,11 @@ O que **não** aparece neles: frase sobre “papel”, “função”, “mecani
 - “The inferior pancreaticoduodenal artery is the first branch of the {{c1::superior mesenteric}} artery” (com a imagem certa).
 - AnKing: “{{c1::Partial opioid}} agonists can cause {{c2::opioid withdrawal}} symptoms if the patient is also taking a full opioid agonist”: “realmente ensina algo e tem um cloze”.
 
+- “The {{c1::jejunum}} has few, large arterial arcades and long vasa recta” com a **Fig. 5.48 B–C do Moore** no verso (16/10): “imagem top aqui / esse card ficou muito bom”. A figura real do livro é o padrão; o esquema que eu desenhei antes no mesmo card levou “imagem ruim”.
+- Edição de Davi nas células serosas e no *Actinomyces* (16/10): **sujeito em negrito**, <u>achados sublinhados</u>, *gênero em itálico* — “toda mudança que eu fizer manualmente nos cards vc tem que perceber […] já colocando os que mexi como bons exemplares”. Ler a versão editada por Davi como o modelo.
+- Organizador de antifúngicos agrupado por índice (16/10): “BOM CARD!!!!! / ajuda a organizar bem as ideias / melhor tipo de card para conceitos mt juntos assim é esse, como deixei, vou até suspender os outros” — vários conceitos muito ligados num organizador só, cada grupo num índice, em vez de vários cards soltos.
+- Tabela comparando parótida × submandibular × sublingual no verso: “bom exemplo de tabela”; e a imagem de localização das glândulas: “imagem clara e bom”.
+
 ### 13. Adjetivo ou palavra genérica no cloze (achados por Claude na 62/61, corrigidos em 14/10)
 - ❌ “Chronic inflammation is described as {{c1::non-resolving}} inflammation, because injured tissue keeps triggering new inflammation” → ✅ “In chronic inflammation, molecules released by dead cells and damaged matrix ({{c1::DAMPs}}) are sensed like microbes and keep re-igniting inflammation”
 - ❌ “macrophages accumulate by continuous recruitment, local {{c1::proliferation}} and immobilization by {{c2::MIF}}” → ✅ só {{c1::MIF}} (os três mecanismos ficam visíveis como contexto)
@@ -117,3 +122,16 @@ Davi: “em muitos cards de microbio você puxou cards nada a ver, de coisas que
 - ❌ Cloze que se completa pelo bom senso: “…favor invasion by {{c1::degrading host tissue}}” · “Infection is the contamination, penetration and {{c1::multiplication}}…” · “…prostration, {{c1::low fever}}, nausea…” · “Fungal cells are {{c1::nonmotile}}”.
 - ❌ Autoral com AnKing disponível: organizador de antifúngicos (AnKing tem 56 notas de *polyenes*), coagulase (13), toxina diftérica (7), conídios (6).
 - ✅ O que fazer: conceito da aula → AnKing que o cobre (com irmãos) → autoral só se as três rotas de busca falharem, com a fonte da aula declarada.
+
+### 16. Comentários de 16/10 (decks da P1/P2 da UC03: fisiologia, histologia, farmacologia, imunologia)
+- **Imagem desenhada por mim** (“imagem ruim” no jejuno/íleo e nas varicosidades; “imagem zuada”): esquemas e gráficos que eu gerei (`jej-ile.jpg`, `fi-varicosity.jpg`, `fa01-g-*.png`) parecem amadores e às vezes erram a anatomia. ✅ Figura real: AnKing → livro da UC recortado (Moore 5.48, Guyton 8-4, Rang 2.5, Goodman 4-2) → Kenhub só para uso pessoal. Se não há figura real, o card fica sem imagem — nunca desenhar.
+- **“imagem” / “faltou imagem” / “IMAGEM”** em card de anatomia, histologia ou de gráfico (curva dose-resposta, antagonismo): quando o conceito é visual, o card sai já com a figura do livro no verso. Eu não pus porque tratei a frase como suficiente; o padrão de Davi é que conceito visual sem figura está incompleto.
+- **Cloze só na sigla, com a resposta escrita ao lado**: ❌ “The {{c1::TBP}} (TATA-binding protein)…” (“de novo, sigla só o card”; “cloze é só a sigla e tá dada a resposta”) → ✅ “The **TATA-binding protein**, which recognizes the TATA box, is a subunit of the general factor {{c1::**TFIID**}}”.
+- **Expressão forte e ambígua**: ❌ “An antagonist has no {{c1::intrinsic activity}}” (“quem não tem intrinsic activity? receptor or antagonist”) → ✅ “An **antagonist** occupies the receptor but has zero {{c1::**efficacy**}}, so it blocks the agonist without a response”.
+- **Escrita estranha / “o que isso sequer quer dizer?”**: frase que cria conceito próprio e cobra como se qualquer palavra servisse. ✅ Frase de livro, com sujeito claro, que explica um mecanismo e esconde um nome.
+- **Muita informação num card** (“mt info num card só”) e **lista sequencial** (“poderia ser tópicos aqui, não sequencial só”) → uma ideia por card; quando são itens paralelos, tópicos em pé.
+- **Card parecido com outro** (varizes esofágicas: “tem um card mt parecido com esse, daí fico confundido / escreve diferente”) → cada card esconde algo diferente e começa diferente.
+- **Informação sem história** (Paneth: “não aprendo nada, só decoro algo meio inútil”) → o card diz a função que dá sentido ao dado.
+- **Verso sem o porquê ou sem tradução**: cadeia invariante sem dizer o que é; *India ink* sem “nanquim”; parótida-sublingual sem a tabela do card irmão → o verso responde a dúvida que o card provoca e reaproveita a tabela do irmão.
+- **Pergunta de Davi no comentário** (“isso é algo específico tb de subcutânea? cutânea não tem tb?”) → responder no Extra, em uma linha.
+- **Card HY rosa** (“card hy rosa, tem q ser verde”) → HY 1–2 sempre verde (já é gate).

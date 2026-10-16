@@ -11,6 +11,10 @@ Gere os Tabs (explicação por card) dos cards destas aulas que estão sem Tab, 
 
 (09, 02, 03 e 51 já estão completas. Este prompt substitui o PROMPT-CODEX-TABS-2026-10-16c, que só tinha a 43.)
 
+Refazer também (Davi criticou o Tab nos comentários de 16/10; regenere com `python3 -m nebli.explicacoes gerar 'nid:1791625427358 OR nid:1791629595872' --refazer` levando estas instruções):
+- `nid:1791625427358` — “tab não fala o que é invariant chain”: o Tab tem de dizer o que é a cadeia invariante (ocupa a fenda do MHC II no RE e guia ao endossomo; sobra o CLIP, trocado pelo peptídeo via HLA-DM).
+- `nid:1791629595872` — “TAB RUIM”: explicar o porquê (C1q precisa de duas Fc próximas; IgM pentamérica oferece isso com uma molécula, IgG precisa de várias).
+
 Regras (MEMORY §9 e `config/explicacao-tab.md`):
 1. Entrada: `ESTADO-ATUAL.md` › Retomar aqui e MEMORY §9. Não altere cards, cores, ordem nem suspensão; só os Tabs.
 2. Gere pela tag de cada aula, nunca pelo nome do deck: `python3 -m nebli.explicacoes gerar '"tag:NEBLI::<lesson>"'` (rode de novo se cair; ele pula o que já está atual).

@@ -86,6 +86,8 @@ Referências positivas: Antibióticos v3 (“agora sim gostei”), Correlação 
 - Imagem quando ensina ou testa o alvo (estrutura, morfologia, patologia, radiologia: reconhecer sem legenda), nunca decoração. Ordem: AnKing → livro da UC recortado (`nebli.img_figura`, sem título nem legenda) → fonte aberta (Histology Guide, Leeds) → lâmina da aula (obrigatória quando a imagem do caso é o objetivo, como nas correlações).
 - **Toda figura é vista e julgada** (nitidez, enquadramento, pertinência) e registrada em `spec.IMAGENS_VISTAS`. Cortar título/legenda/seta que entregue a resposta (ex.: “Sinal do menisco” fora da figura).
 - **Gráfico exige leitura real da figura:** a pergunta não antecipa deslocamento, platô ou interpretação; identificar curvas por letra, posição ou símbolo; interpretação no Extra.
+- **Nunca desenhar esquema ou gráfico próprio** (F-20261016-CLAUDE-10: os que gerei levaram “imagem ruim”; as figuras do Moore, “imagem top”). Sem figura real disponível, o card vai sem imagem. Conceito visual (anatomia, histologia, curva de farmacologia/fisiologia) sai **já com** a figura real no verso, sem esperar o pedido “imagem”.
+- Kenhub: imagens só para uso pessoal de Davi (nos decks dele; nunca no pacote compartilhável nem no git).
 - Sem crédito de imagem visível no card (proveniência só no plano). Sem cards de foto clínica salvo pedido. Rótulos científicos em inglês preservados.
 
 ## 8. Cores (por alvo, por aula, sem quota)
