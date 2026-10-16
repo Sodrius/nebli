@@ -73,6 +73,12 @@ def sources(run, data):
         return candidate.is_file() and candidate.stat().st_size > 0
     slides = data.get("slides", {})
     out.append(("slides: arquivo não vazio na corrida e todas as lâminas vistas", bool(slides.get("todas_vistas")) and material(slides.get("arquivo", "_"))))
+    # F-20261016-CLAUDE-05: “não há slide para isso, é necessário criar a lógica da aula”. Sem PDF de lâminas, só vale aula
+    # declarada sem lâminas por Davi (fala literal + id do feedback) com o roteiro da aula escrito na corrida no lugar do PDF.
+    if not str(slides.get("arquivo", "")).lower().endswith(".pdf"):
+        sl = data.get("sem_laminas") or {}
+        out.append(("[duro] aula sem lâminas: declarada por Davi (fala + F-id) e roteiro da aula na corrida",
+                    bool(str(sl.get("fala", "")).strip() and re.match(r"F-\d{8}-", str(sl.get("feedback", ""))) and material(slides.get("arquivo", "_")))))
     books = [b for b in data.get("livros", []) if b.get("lido") and material(b.get("texto", "_"))]
     out.append(("bibliografia da UC: capítulo da aula extraído e lido", bool(books)))
     channels = [c for c in data.get("canais", []) if c.get("lido") == "integral" and material(c.get("transcricao", "_"))]
@@ -454,7 +460,11 @@ def final_review(run):
     if not path.exists():
         return label, False
     data = json.loads(path.read_text(encoding="utf-8"))
-    ok = all(data.get(k, {}).get("ok") is True and str(data[k].get("evidencia", "")).strip() for k in REVISAO)
+    # Sem Tab (Codex depois): o Tab fica 'pendente' e nunca é declarado lido (EXECUCAO passo 6.3)
+    sem_tab = os.environ.get("NEBLI_SEM_TAB") == "1"
+    feito = lambda k: (data.get(k, {}).get("ok") is True and str(data[k].get("evidencia", "")).strip()) or (
+        sem_tab and k == "tab_lido_por_amostra" and str(data.get(k, {}).get("pendente", "")).strip())
+    ok = all(feito(k) for k in REVISAO)
     return label, bool(ok and data.get("feita_depois_de_instalar") is True)
 
 
@@ -663,8 +673,8 @@ def plan_checks(run, plan):
 # ---------------------------------------------------------------------------------------------------------------
 # F-20261015-CLAUDE-06 — pipeline AnKing-primeiro, gates duros. Davi: "criar autoral SÓ PARA LACUNAS REAIS […] em último
 # do último caso (gate-hard nisso)"; "SEMPRE BUSCA EM TODOS ESSES DECKS DE REF EXTERNA - GATE HARD, UM DECK NÃO PODE
-# TERMINAR SEM PASSAR POR TODOS ESSES GATES HARDS"; "pode puxar todos os irmãos, eu suspendo". Sem teto de autoral: o
-# que se exige é a prova, autoral por autoral, de que nenhum acervo tinha o card.
+# TERMINAR SEM PASSAR POR TODOS ESSES GATES HARDS"; "pode puxar todos os irmãos, eu suspendo". Prova autoral por autoral
+# de que nenhum acervo tinha o card e, desde F-20261016-CLAUDE-04, teto de autoral (MAX_AUTORAL; exceção até MAX_AUTORAL_EXCECAO).
 PIPELINE_DESDE = 20261016
 COB_COLS = ["chave", "conceito", "fonte_aula", "veredito", "lidos", "decora", "decisao"]
 FONTE_AULA = re.compile(r"slide|l[âa]mina|prova|apostila|monitoria|transcri|exerc[íi]cio|palavras|gabarito|caso", re.I)
@@ -683,6 +693,12 @@ def _jsonl(path):
     if not path.exists():
         return []
     return [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()]
+
+
+MAX_AUTORAL = 0.20          # F-20261016-CLAUDE-04: autoral é caso especial; acervos (AnKing e externos) têm prioridade máxima
+MAX_AUTORAL_EXCECAO = 0.35  # teto absoluto, mesmo com AUTORAL_EXCECAO ("aula introdutória" não basta: a 03, com 68%, foi o excesso)
+LEGADO_V2 = {"deck-aula-uc03-pt09-lesao-celular-v2-2026-10-15", "deck-aula-uc03-rd02-diagnostico-radiologico-v2-2026-10-16",
+             "deck-aula-uc03-pt03-diagnostico-patologico-v2-2026-10-16"}  # entregues antes do teto
 
 
 def cobertura_anking(run, plan):
@@ -765,7 +781,32 @@ def cobertura_anking(run, plan):
                 irm.append(e["key"])
     out.append(("[duro] notas de acervo com todos os irmãos (clozes) incluídos" + (f": {irm[:4]}" if irm else ""), not irm))
     share = sum(len(e.get("cards", [])) or 1 for e in autorais) / max(1, sum(len(e.get("cards", [])) or 1 for e in entries))
-    out.append((f"autoral = {share:.0%} dos cards (sem teto; informativo)", True))
+    # F-20261016-CLAUDE-04: "excesso de autoral… só para casos especiais; no geral, sempre decks outros, AnKing e os outros, prioridade máxima (gate-hard)"
+    exc = str(plan.get("autoral_excecao") or "").strip()
+    versao = int(plan.get("pipeline_versao") or 1)
+    if run.name not in LEGADO_V2:
+        out.append(("[duro] PIPELINE_VERSAO ≥ 4 (teto de autoral + todo AnKing das seções da aula) em toda corrida nova", versao >= 4))
+    if versao >= 3 and run.name not in LEGADO_V2:
+        ok = share <= MAX_AUTORAL or (len(exc) >= 80 and share <= MAX_AUTORAL_EXCECAO)
+        out.append((f"[duro] autoral = {share:.0%} dos cards: até {MAX_AUTORAL:.0%}; até {MAX_AUTORAL_EXCECAO:.0%} só com AUTORAL_EXCECAO (≥ 80 caracteres); acima, nunca"
+                    + (" — exceção declarada" if share > MAX_AUTORAL and ok else ""), ok))
+    else:
+        out.append((f"autoral = {share:.0%} dos cards (corrida legada, entregue antes do teto)", True))
+    # F-20261016-CLAUDE-06: “se tiver um card anking daquele conteúdo, pode entrar, sem limite de quantos, quanto mais melhor, se
+    # realmente for da aula. Só cuidado para não ir para outros conteúdos / deck não tem limite de cards”. Cada seção de recurso que a
+    # corrida declara como do conteúdo da aula (SECOES_DA_AULA) tem TODA nota no deck (ak, ou sh de cópia NEBLI) ou em EXCLUIDOS.
+    if versao >= 4 and run.name not in LEGADO_V2:
+        secs = plan.get("secoes_da_aula") or []
+        dentro = {str(e.get("src")) for e in entries if e.get("src")}
+        dentro |= {str(v.get("source_nid")) for v in (plan.get("compartilhados") or {}).values() if v.get("source_nid")}
+        fora = {str(x["nid"]) for x in plan.get("excluidos", []) if str(x.get("motivo", "")).strip()}
+        faltam = []
+        for s in secs:
+            f = run / "busca" / "secoes" / s
+            nids = re.findall(r"(?m)^(\d{13})\b", f.read_text(encoding="utf-8")) if f.exists() else ["arquivo-ausente:" + s]
+            faltam += [n for n in nids if n not in dentro and n not in fora]
+        out.append((f"[duro] todo AnKing das seções da aula ({len(secs)}) está no deck ou em EXCLUIDOS com motivo"
+                    + (f": faltam {sorted(set(faltam))[:6]}" if faltam else ""), bool(secs) and not faltam))
     return out
 
 
@@ -892,6 +933,8 @@ def drive_checks(data):
         return [("escopo reconhecido: cards ou e1+cards", False)]
     # F-20261011-CLAUDE-02: um só .apkg por UC no Drive (NEBLI - UCxx.apkg); .apkg por aula não sobe mais
     kinds = ("slides",) if scope == "cards" else ("e1", "slides")
+    if data.get("sem_laminas"):  # F-20261016-CLAUDE-05: aula sem lâminas não tem PDF de slides a entregar
+        kinds = tuple(k for k in kinds if k != "slides")
     checks = [(f"Drive: {names[k]}", (folder / names[k]).is_file()) for k in kinds]
     parts = Path(data.get("drive_pasta", "_")).parts
     if parts:

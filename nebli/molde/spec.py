@@ -6,7 +6,9 @@ HERE = _pl.Path(__file__).parent
 _sys.path.insert(0, str(HERE.parents[1]))
 from nebli.spec_lib import ak, au, sh, ORG, finalizar  # todos os irmãos, cor pela rubrica, dica de 1ª letra, busca por autoral
 
-PIPELINE_VERSAO = 2  # 2 = busca também nos decks NEBLI vivos (gate duro)
+PIPELINE_VERSAO = 4  # 3 = teto de autoral (20%; 35% com AUTORAL_EXCECAO); 4 = todo AnKing das SECOES_DA_AULA entra ou é excluído com motivo
+SECOES_DA_AULA = []  # arquivos de busca/secoes/ cujo assunto É o da aula (F-20261016-CLAUDE-06: todo AnKing do conteúdo entra, sem limite)
+AUTORAL_EXCECAO = ""  # caso especial raro: ≥ 80 caracteres com o porquê e a busca que provou; "aula introdutória" não basta
 PIPELINE = "anking-primeiro"  # F-20261015-CLAUDE-06: liga os gates duros (cobertura_anking, cores_rubrica, inducao_clozes); não remover
 RUN_ID = "<ucNN-curto-AAAAMMDDa>"
 SHORT = "<curto>"

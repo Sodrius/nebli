@@ -19,6 +19,7 @@ REVISAO-DE-QUALIDADE.md continua escrito à mão: é o julgamento da aula.
 from __future__ import annotations
 
 import argparse
+import os
 import importlib.util
 import json
 import re
@@ -221,7 +222,8 @@ def pos(run: Path, corrigidos: str, li: bool):
           "sem_credito_visivel": ok("créditos AnKing removidos pelo build"),
           "ingles_nos_cards": ok("frentes e Extras em inglês; lint 0 reprovação dura"),
           "hy_verde": ok(f"{len(hy)} AnKing HY 1–2: verdes ou com hy_repete/clinica_lateral justificado"),
-          "tab_lido_por_amostra": ok("amostra lida com nebli.artefatos tab (imagem, autoral, AnKing)"),
+          "tab_lido_por_amostra": ({"ok": False, "pendente": "Tab não gerado nesta corrida (Codex depois); nada foi lido"} if os.environ.get("NEBLI_SEM_TAB") == "1"
+                                   else ok("amostra lida com nebli.artefatos tab (imagem, autoral, AnKing)")),
           "erros_anteriores_do_memory": ok("escopo pela regra de 12/10 (sem coleção de exemplos), cor justificada, pistas fora da figura"),
           "cards": {e["key"]: {"veredito": "corrigido" if e["key"] in corrigidos.split(",") else "ok",
                                "nota": notas.get(e["key"], "lido no despejo vivo: frente, verso, figura e cor conferem")} for e in ent}}

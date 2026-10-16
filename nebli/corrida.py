@@ -171,6 +171,9 @@ def fontes(pasta: Path):
     # F-20261015-CLAUDE-05: gate duro de materiais da UC (apostilas, Outros, Material para Estudos, pasta pessoal da aula).
     out["materiais_uc"] = d.get("materiais_uc", {})
     out["pastas_extra"] = d.get("pastas_extra", [])
+    if d.get("sem_laminas"):  # F-20261016-CLAUDE-05: aula sem lâminas; o roteiro da aula ocupa o lugar do PDF
+        out["sem_laminas"] = d["sem_laminas"]
+        out["slides"]["obs"] = f"aula sem lâminas: roteiro da aula em {out['slides']['arquivo']} ({d['sem_laminas'].get('feedback')})"
     for k in ("canais_bloqueados", "ninja_nerd_busca"):
         if d.get(k):
             out[k] = d[k]

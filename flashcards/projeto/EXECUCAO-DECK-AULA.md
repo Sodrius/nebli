@@ -8,10 +8,10 @@ Todo comando com `/usr/bin/python3` (tem PyMuPDF e fastembed). Gates com `NEBLI_
 1. ESTADO-ATUAL › Retomar aqui: qual aula, quem está com ela. Registrar “Com Claude: <aula>”.
 2. FEEDBACKS: ler só as entradas novas. ANTI-EXEMPLARES-CARDS: reler os pares (§1–§15).
 3. Fase de calibração: **um deck por vez; ao terminar, parar e esperar o feedback de Davi** (nunca parar no meio).
-4. Corrida nova `arquivos-trabalho/deck-aula-<uc>-<curto>-<slug>-v2-<data>`; se existe corrida antiga da aula, copiar `fontes/ livros/ visual/ fontes-decl.json` (fontes já extraídas), nunca o spec. `python3 -m nebli.corrida molde <corrida>`. Prefixo `<curto>` livre (`"tag:NEBLI::ordem::<curto>-*"` vazio; se só restam tags de compartilhados antigos, removê-las por `nebli.decks.escrita`).
+4. Corrida nova `arquivos-trabalho/deck-aula-<uc>-<curto>-<slug>-v2-<data>`; se existe corrida antiga da aula, copiar `fontes/ livros/ visual/ fontes-decl.json` (fontes já extraídas), nunca o spec. `python3 -m nebli.corrida molde <corrida>` (o molde já traz `PIPELINE_VERSAO = 4`: teto de autoral e todo AnKing das seções da aula, gates duros). Prefixo `<curto>` livre (`"tag:NEBLI::ordem::<curto>-*"` vazio; se só restam tags de compartilhados antigos, removê-las por `nebli.decks.escrita`).
 
 ## 1. Ler TODO o material (gate duro de fontes)
-1. Lâminas como imagem (`visual/folha-NN.png`), todas.
+1. Lâminas como imagem (`visual/folha-NN.png`), todas. **Aula sem lâminas:** montar a lógica da aula (livro da UC + aulas vizinhas + resumos/monitoria + provas) em `percurso-aula.md` antes do inventário (MEMORY §4).
 2. Transcrição inteira; apostila guia e demais apostilas de veteranos (só a seção da aula); monitoria; UC3.pdf (seção da aula); provas antigas (`fontes/provas-*.txt` ou `referencias-externas/uc03/consultar.py`); palavras-cruzadas/exercícios; capítulo do livro da UC (confirma, não origina).
 3. `fontes-decl.json` com `materiais_uc`: **cada** arquivo de `UCxx/Outros/Apostilas de veteranos`, da pasta pessoal da aula e de `Material para Estudos` lido (texto + seção) ou descartado com motivo. Nada declarado como lido sem ter sido lido nesta sessão.
 
@@ -25,12 +25,13 @@ Todo comando com `/usr/bin/python3` (tem PyMuPDF e fastembed). Gates com `NEBLI_
 1. Seções de recurso: `python3 -m nebli.semantica secoes <corrida> "<tag>" …` (FirstAid, Pathoma, B&B, Bootcamp, Sketchy, OME, NinjaNerd) e **ler cada `busca/secoes/*.txt`**.
 2. Palavra-chave: `python3 -m nebli.busca_acervos <corrida>/busca/anking.txt "rótulo=termos" …` (AnKing **e** Referências Externas).
 3. Significado: `python3 -m nebli.semantica buscar <corrida> "chave=frase em inglês" …` — **uma consulta por conceito, com a chave exata do card**; roda em AnKing, nos 9 acervos externos e nos **decks NEBLI vivos** (achou em NEBLI-vivo → `sh(nid)`).
-4. Para cada candidato: texto, clozes, HY, imagem; cópia NEBLI viva (`"tag:NEBLI::source::nid-<nid>"`) → `sh()`.
+4. Declarar no spec `SECOES_DA_AULA` (as seções cujo assunto é o da aula): **toda nota delas entra** (`ak`, ou `sh` da cópia NEBLI) ou vai para `EXCLUIDOS` com motivo de estar fora do conteúdo — gate duro, sem limite de cards (F-20261016-CLAUDE-06).
+5. Para cada candidato: texto, clozes, HY, imagem; cópia NEBLI viva (`"tag:NEBLI::source::nid-<nid>"`) → `sh()`.
 
 ## 4. Escrever o spec (`nebli.spec_lib`, já importado pelo molde)
 1. Ordem = lâminas. `ak(chave, nid, código, bloco, alvo, slide, motivo, origin=…)` para acervo — **todos os irmãos entram**; `au(chave, texto, código, …, extra=…)` para autoral; `sh(nid, cor, …)` para compartilhado. `finalizar(CARDS, HERE, BUSCA)` no fim da lista.
 2. **Código de cor** (MEMORY §8): V-hy (automático: **todo HY 1–2 do AnKing é verde**), V-pilar, V-prova, A-aula, A-step, R-detalhe, R-org. Organizador verde só se for pilar; os demais azul/rosa.
-3. **Autoral só para lacuna provada** e no padrão dos anti-exemplares: frase AnKing de **≤ 16 palavras (máximo 20)**, um nome decorado no cloze, contexto concreto, 1–2 trechos em negrito, sem “;”, sem “x ou y” no cloze; organizador em pé, uma linha curta por item (**máximo 26 palavras**), cloze nos nomes; índice que esconde 3+ itens recebe a 1ª letra como dica (automático). Contraste complementar no mesmo índice.
+3. **Autoral só para lacuna provada, ≤ 20% dos cards** (até 35% só com `AUTORAL_EXCECAO`; “aula introdutória” não basta; sem card de acervo, preferir pôr o conceito no Extra de um card de acervo a criar autoral) e no padrão dos anti-exemplares: frase AnKing de **≤ 16 palavras (máximo 20)**, um nome decorado no cloze, contexto concreto, 1–2 trechos em negrito, sem “;”, sem “x ou y” no cloze; organizador em pé, uma linha curta por item (**máximo 26 palavras**), cloze nos nomes; índice que esconde 3+ itens recebe a 1ª letra como dica (automático). Contraste complementar no mesmo índice.
 4. Verso: cada card com uma linha de porquê (`VERSO`/`extra`); verso herdado ruim de acervo é trocado com `extra=`.
 5. `IMAGENS_VISTAS` (toda imagem fora do AnKing, depois de ver), `DUPLICACAO` (ganho quando a resposta coincide), `ESCOPO` (centrais com o princípio antes dos detalhes), `EXCLUIDOS`, `FORA_DO_RECORTE`.
 

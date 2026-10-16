@@ -59,8 +59,10 @@ def build():
     shared = {}
     for order, c in enumerate(cards_in_order, 1):
         if c["kind"] == "compartilhado":
-            if not A("notesInfo", notes=[c["nid"]])[0]: issues.append(f"compartilhado ausente {c['nid']}")
-            shared[str(c["nid"])] = {"motivo": c["motivo"], "cor": c["cor"], "order": order, "ordem_tag": ordem.tag(spec.SHORT, order), "bloco": c["bloco"],
+            _ni = A("notesInfo", notes=[c["nid"]])[0]
+            if not _ni: issues.append(f"compartilhado ausente {c['nid']}")
+            _src = next((t.split("nid-")[1] for t in (_ni or {}).get("tags", []) if "::source::nid-" in t), "")
+            shared[str(c["nid"])] = {"source_nid": _src, "motivo": c["motivo"], "cor": c["cor"], "order": order, "ordem_tag": ordem.tag(spec.SHORT, order), "bloco": c["bloco"],
                                     "alvo": c["alvo"], "evid": c["evid"]}
             continue
         kind, model = c["kind"], MODEL[c["kind"]]
@@ -143,7 +145,7 @@ def build():
     origens = sorted({e["origin"] for e in entries})
     scope_file = next((HERE / name for name in ("fontes.json", "fontes-decl.json") if (HERE / name).exists()), None)
     source_scope = json.loads(scope_file.read_text()).get("escopo", "cards") if scope_file else "cards"
-    plan = {"pipeline": getattr(spec, "PIPELINE", ""), "pipeline_versao": getattr(spec, "PIPELINE_VERSAO", 1), "escopo": getattr(spec, "ESCOPO", None), "run_id": spec.RUN_ID, "short": spec.SHORT, "lesson_id": spec.LESSON, "deck": spec.DECK, "criterios": spec.CRITERIOS,
+    plan = {"pipeline": getattr(spec, "PIPELINE", ""), "pipeline_versao": getattr(spec, "PIPELINE_VERSAO", 1), "escopo": getattr(spec, "ESCOPO", None), "autoral_excecao": getattr(spec, "AUTORAL_EXCECAO", ""), "secoes_da_aula": list(getattr(spec, "SECOES_DA_AULA", [])), "run_id": spec.RUN_ID, "short": spec.SHORT, "lesson_id": spec.LESSON, "deck": spec.DECK, "criterios": spec.CRITERIOS,
             "E1": "solicitada junto ao deck" if source_scope == "e1+cards" else "não solicitada nesta corrida", "entries": entries, "compartilhados": shared,
             "excluidos": [{"nid": n, "motivo": m} for n, m in spec.EXCLUIDOS], "fora_do_recorte": spec.FORA_DO_RECORTE, "media": spec.MEDIA,
             "clones": CLONES, "busca_externos": "busca/ext.txt",

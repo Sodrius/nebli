@@ -15,7 +15,7 @@
 - Preservar originais AnKing, IDs/histórico, comentários, marcas e suspensões pessoais. Não apagar notas sem autorização de Davi e backup. Arquivar documentos superados em `arquivo/` com hash.
 - Feedback novo: literal em FEEDBACKS → regra **reescrita no lugar** no MEMORY (sem acrescentar camada) → check no lint/gate quando mecanizável.
 - Não fabricar leitura, busca, teste ou revisão. Gate aprovado não prova julgamento.
-- **AnKing-primeiro com gates duros** (MEMORY §5): busca nos três caminhos em todos os acervos, `busca/cobertura.tsv`, autoral só para lacuna provada e relido contra os ANTI-EXEMPLARES. O `apply` recusa instalar sem isso.
+- **AnKing-primeiro com gates duros** (MEMORY §5): busca nos três caminhos em todos os acervos, `busca/cobertura.tsv`, autoral só para lacuna provada, **no máximo 20% dos cards** (35% só com `AUTORAL_EXCECAO`), **todo AnKing do conteúdo da aula entra, sem teto de cards** (`PIPELINE_VERSAO = 4`, `SECOES_DA_AULA`) e relido contra os ANTI-EXEMPLARES. O `apply` recusa instalar sem isso.
 
 ## Outras rotas (só sob pedido)
 
