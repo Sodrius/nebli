@@ -6,7 +6,7 @@
 
 ## Pedido curto
 
-“Faz a aula X”, “continua”, `/deck-aula X` ou só o nome da aula = executar o roteiro inteiro até o deck entregue (instalado, Tab, gates 100%, pacote da UC, sync) e relatar no formato do MEMORY §11. Sem agente, sem plano para aprovar, sem pedir permissão. Continuar para a próxima aula da fila até Davi mandar parar; dúvidas vão ao fim de cada deck, com a suposição adotada, sem bloquear.
+“Faz a aula X”, “continua”, `/deck-aula X` ou só o nome da aula = executar o roteiro inteiro até o deck entregue (instalado **sem Tab**, gates duros 100%, pacote da UC, sync) e relatar no formato do MEMORY §11. Sem agente, sem plano para aprovar, sem pedir permissão, sem parar no meio. **Fase de calibração (15/10): ao terminar cada deck, parar e esperar o feedback de Davi** antes do próximo. Plano vigente: [PLANO-ANKING-PRIMEIRO](flashcards/projeto/PLANO-ANKING-PRIMEIRO-2026-10-15.md). Tabs: o Codex gera quando Davi pedir.
 
 ## Limites que não mudam
 
@@ -15,6 +15,7 @@
 - Preservar originais AnKing, IDs/histórico, comentários, marcas e suspensões pessoais. Não apagar notas sem autorização de Davi e backup. Arquivar documentos superados em `arquivo/` com hash.
 - Feedback novo: literal em FEEDBACKS → regra **reescrita no lugar** no MEMORY (sem acrescentar camada) → check no lint/gate quando mecanizável.
 - Não fabricar leitura, busca, teste ou revisão. Gate aprovado não prova julgamento.
+- **AnKing-primeiro com gates duros** (MEMORY §5): busca nos três caminhos em todos os acervos, `busca/cobertura.tsv`, autoral só para lacuna provada e relido contra os ANTI-EXEMPLARES. O `apply` recusa instalar sem isso.
 
 ## Outras rotas (só sob pedido)
 

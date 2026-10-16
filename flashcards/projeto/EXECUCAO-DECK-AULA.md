@@ -25,8 +25,14 @@ Molde técnico de referência (correlação de imagens, feita direto, 56/56): `a
 
 ## 3. Buscar e selecionar (MEMORY §5)
 
-- `python3 -m nebli.busca_acervos <corrida>/busca/anking.txt "rótulo=frase" ...` (frases, não siglas). Para cada candidato, conferir cópia NEBLI viva (`"tag:NEBLI::source::nid-<nid>"`) e usar `sh(nid_vivo, cor, ...)`.
-- AnKing → externos → autoral. Registrar recusas pertinentes em `EXCLUIDOS` e temas fora em `FORA_DO_RECORTE`.
+**Gates duros (F-20261015-CLAUDE-06; `gates.cobertura_anking`, também no `apply`): nenhum deck termina sem eles.**
+
+1. (a) Palavra-chave, AnKing **e** externos: `python3 -m nebli.busca_acervos <corrida>/busca/anking.txt "rótulo=frase" ...` (frases e sinônimos, não siglas).
+2. (b) Seções de recurso lidas inteiras: `/usr/bin/python3 -m nebli.semantica secoes <corrida> "Cell_injury" "Apoptosis" ...` → `busca/secoes/*.txt` (FirstAid, Pathoma, B&B, Sketchy, NinjaNerd…). Ler cada arquivo.
+3. (c) Significado, **em todos os acervos** (AnKing, MCAT, Histology, LLU, BlueLink, AnatoKing, Dope, Ankisthesia, Dorian, Lab Values): `/usr/bin/python3 -m nebli.semantica buscar <corrida> "chave=frase em inglês" ...` — **uma consulta por conceito do inventário**, com a chave do card (ou que o será). Índice: `nebli.semantica indexar` (uma vez).
+4. `busca/cobertura.tsv` (tab, cabeçalho `chave conceito fonte_aula veredito lidos decora decisao`): uma linha por card do plano. AnKing/externo: `coberto` ou `parcial`. Autoral: `lacuna`/`parcial`, 3+ nids lidos da busca da própria chave, fonte da aula (lâmina/prova/apostila; livro sozinho não), `decora` = resposta do cloze, `decisao` dizendo por que nenhum candidato serve.
+5. Para cada candidato, conferir cópia NEBLI viva (`"tag:NEBLI::source::nid-<nid>"`) e usar `sh(nid_vivo, cor, ...)`. **Irmãos: todos** (Davi suspende). Step 1: HY 1–2 ligados à aula; clínica pouca e ampla.
+6. Autoral só depois disso, último do último caso. Depois de escrever: `REVISAO-AUTORAIS.md` com uma linha por autoral (`<chave> — par: §N dos ANTI-EXEMPLARES / exemplar imitado — decora: … — veredito`).
 
 ## 4. Escrever o `spec.py` (MEMORY §6–8)
 
@@ -41,7 +47,7 @@ Molde técnico de referência (correlação de imagens, feita direto, 56/56): `a
 python3 -m nebli.artefatos pre <corrida>          # build, planejamento, ext.txt, imagens vistas, fontes, inventário, lint, pré-gate
 python3 <corrida>/apply.py                         # instala sob o lock (só notas novas; sync adiado se Davi estiver revisando)
 python3 -m nebli.artefatos suspender <corrida>    # só aula antiga (MEMORY §10)
-python3 -m nebli.artefatos tab <corrida>          # em segundo plano; depois ler todos os Tabs junto dos cards, na ordem do percurso
+# Tab: NÃO gerar (15/10: Codex gera depois). Rodar pos/entrega com NEBLI_SEM_TAB=1.
 python3 -m nebli.artefatos despejo <corrida>      # ler o deck vivo inteiro, card a card
 python3 -m nebli.artefatos pos <corrida> --li-despejo [--corrigidos k1,k2]
 python3 -m nebli.artefatos entrega <corrida> --pasta "UC03/<Comp>/<NN - Aula>" --nome "<Aula>" --slides <arquivo na pasta pessoal>

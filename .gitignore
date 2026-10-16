@@ -135,3 +135,6 @@ arquivos-trabalho/*/video/
 arquivos-trabalho/*/fontes/pessoal/*.pptx
 arquivos-trabalho/*/fontes/pessoal/*.mp4
 arquivos-trabalho/materiais-uc03/
+
+# Índice local de busca semântica do AnKing (regenerável; F-20261015-CLAUDE-06)
+.cache/

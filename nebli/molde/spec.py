@@ -1,5 +1,6 @@
 # Especificação curada — <AULA> (<UC> <Pn>, <componente>; <professor>; <N> lâminas). Gerada a partir de inventario.py (escrito antes).
-# Ordem = slides. AnKing → externos → autoral curto só para item do material de base sem card nos acervos.
+# Ordem = slides. AnKing → externos → autoral SÓ para lacuna provada em busca/cobertura.tsv (gate duro), último do último caso.
+PIPELINE = "anking-primeiro"  # F-20261015-CLAUDE-06: liga os gates duros (cobertura_anking em nebli/gates.py); não remover
 RUN_ID = "<ucNN-curto-AAAAMMDDa>"
 SHORT = "<curto>"
 LESSON = "2026-<ucNN>-<componente>-<NN>-<slug>"

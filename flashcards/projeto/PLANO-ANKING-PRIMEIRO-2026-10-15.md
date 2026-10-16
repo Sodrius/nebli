@@ -47,9 +47,11 @@ Recursos com tag no AnKing local (28.650 notas): `#FirstAid` 4.428 tags, `#B&B` 
    - (c) **busca semântica local** (a construir: embeddings dos 28.650 AnKing gerados uma vez, fundidos com (a) por RRF; inspirado no anki-semantic-search), para achar o card que diz a mesma coisa com outras palavras.
    Veredito por conceito: **coberto** (AnKing entra, com irmãos pertinentes) · **parcial** (AnKing + uma linha de Extra, ou autoral de complemento) · **lacuna**.
 4. **Autoral só para lacuna real**, que deve ser pouca e quase sempre detalhe da aula. Cada autoral leva no spec: a fonte da aula, as consultas que não acharam nada e 2–3 espelhos AnKing. Escrita pelos EXEMPLARES/ANTI-EXEMPLARES: uma frase que ensina e um cloze no nome que se decora.
-5. **Revisão**: leitura do deck na ordem (um aluno aprenderia a aula?), triagem dos autorais contra os anti-exemplares e números ao final: % autoral, conceitos cobertos/parciais/lacuna. **Gate novo**: autoral acima de ~20% reprova a corrida, a menos que `cobertura.tsv` mostre a busca nas três rotas para cada autoral. Radiologia (física, pouco AnKing) é a exceção esperada, declarada.
+5. **Revisão**: leitura do deck na ordem (um aluno aprenderia a aula?), `REVISAO-AUTORAIS.md` (cada autoral contra o par dos anti-exemplares) e números ao final: % autoral, conceitos cobertos/parciais/lacuna. **Sem teto de autoral** (resposta de Davi), mas **gate duro por autoral**: sem a prova de lacuna em `cobertura.tsv` (busca nos três caminhos, em todos os acervos), o deck reprova e o `apply` não instala.
 6. **Pistas visuais**: imagem do AnKing/livro/lâmina que ajude a decorar e organizar (figura no verso, oclusão quando reconhecer é o alvo).
-7. **Tab**: fica para o Codex depois.
+7. **Tab**: não gerar; o Codex gera depois (gates com `NEBLI_SEM_TAB=1`).
+
+Respostas de Davi (15/10): piloto 09; sem teto de autoral, mas autoral só para lacuna e em último do último caso (gate duro); detalhe de livro entra se houver card do AnKing; Step 1 = mais cobrados, mais se for base; clínica pouca e ampla; todos os irmãos; organizador AnKing quando houver, autoral só para classificação da aula; feedback nos cards e no chat, ao fim de cada deck, **esperar antes do próximo, nunca parar no meio**; refazer a P1 antes da P3; sem AnkiHub; modelo local de busca liberado; buscar SEMPRE em todos os acervos externos (gate duro).
 
 ## 4. Calibração deck a deck
 
@@ -58,9 +60,16 @@ Recursos com tag no AnKing local (28.650 notas): `#FirstAid` 4.428 tags, `#B&B` 
 - Antes do deck seguinte, reler só as entradas novas e o par mais parecido nos anti-exemplares.
 - Registro curto por deck no ESTADO-ATUAL: % autoral, cobertos/parciais/lacunas e o que Davi aprovou ou reprovou.
 
-## 5. Fila (proposta; ordem e piloto dependem das respostas de Davi)
+## 5. Fila e decks a refazer
 
-1. **Ferramenta antes do primeiro deck**: busca semântica local + `cobertura.tsv` + gate de % autoral (P0 da pesquisa: “começar pelo reconhecimento do que já existe”).
-2. **UC03 P1, refeita do zero, na ordem do curso:** 02 Diagnóstico radiológico · 03 Diagnóstico patológico · 04 Radiografia e US · 05 TC · 06 Correlação 1 · 07 Organização do sistema imune · 08 Reconhecimento inato · 09 Lesão celular · 10 Ação hormonal · 11 Acúmulos e adaptação · 12 RM · 13 Envelhecimento · 14 Declaração de óbito · 15 GR1 · 16 Regulação hormonal · 17 Reconhecimento adaptativo · 18 Recombinação · 20 MHC · 22 Mecanismos efetores. Specs antigos ficam como fonte de inventário, não de cards. **Piloto sugerido: 09 Lesão celular**, em que o AnKing é rico (FA/Pathoma), para calibrar o método antes da radiologia, onde ele é pobre.
-3. Depois, com o método calibrado: UC03 P3 (Micro e Biomol, 50–77% autoral; prova em 06/11), P2, UC21 e as próximas UCs.
-4. **UC07**: deck de neuroanatomia direto (Machado como bibliografia oficial, Netter, Kenhub), quando a UC chegar.
+**Ferramenta (feita 15/10):** `nebli.semantica` (índice local de AnKing + todos os acervos externos, busca por significado + palavra com RRF, seções de recurso) e gates duros em `nebli/gates.py::cobertura_anking`, que também bloqueiam o `apply`.
+
+**Todos os decks feitos pelo pipeline antigo serão refeitos.** Ordem: P1 primeiro (Davi julga a qualidade por ela), depois P3, P2, UC19, UC21. O número é a % de autoral medida em 15/10.
+
+- **UC03 P1 (apagada; refazer do zero, na ordem):** 09 Lesão celular (**piloto**) → 02 Diagnóstico radiológico · 03 Diagnóstico patológico · 04 Radiografia e US · 05 TC · 06 Correlação 1 · 07 Organização do sistema imune · 08 Reconhecimento inato · 10 Ação hormonal · 11 Acúmulos e adaptação · 12 RM · 13 Envelhecimento · 14 Declaração de óbito · 15 GR1 · 16 Regulação hormonal · 17 Reconhecimento adaptativo · 18 Recombinação · 20 MHC · 22 Mecanismos efetores.
+- **UC03 P3 (em estudo, prova 06/11):** 43 Biologia dos fungos 77% · 54 RNAs não codificadores 77% · 48 Micoses subcutâneas 76% · 47 Inflamação granulomatosa 72% · 52 Eucariotos II 68% · 44 Micoses cutâneas 67% · 46 Eucariotos I 64% · 42 GR3 62% · 61 Infecção viral 60% · 62 Inflamação crônica 57% · 50 Micoses sistêmicas 50% · 45 Linfócitos T 33% · 49 Células B 32%. Ainda sem deck: 51, 53, 55–60, 63, 64.
+- **UC03 P2:** 39 Homem-ambiente 84% · 24 Ambiental 78% · 29 Operon 75% · 30 Controle microbiológico 75% · 34 Genética bacteriana 70% · 32 Antibióticos 64% · 40 Prática 3 64% · 27 Fisiologia bacteriana 62% · 35 Patogenicidade 59% · 31 Complemento 57% · 28 Prática 1 52% · 38 Inflamação aguda 51% · 33 Integração II 40% · 26 Morfologia 38% · 25 Integração I 30% · 23 Edema 28% · 19 Correlação 2 24% · 37 Inflamação início/resolução 18% · 21 GR2 16%. Sem deck: 36.
+- **UC19:** FA01 Introdução 60%.
+- **UC21:** Caso 5 (3%; conferir pelos gates novos, provavelmente só ajuste).
+- **UC08:** referência; não refazer. Só a 09 Motilidade II (40%) passa por conferência de busca.
+- **UC07:** deck de neuroanatomia direto (Machado, Netter, Kenhub), quando a UC chegar.

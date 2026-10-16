@@ -621,7 +621,10 @@ def plan_checks(run, plan):
     allowed = author_volume_supported(plan)
     suffix = (f"; completude: {completude}" if completude and share > MAX_AUTORAL
               else f"; exceção histórica {exception}" if exception and share > MAX_AUTORAL else "")
-    out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
+    if pipeline_novo(run, plan):  # F-20261015-CLAUDE-06: exceções de completude não valem; vale a prova de lacuna por autoral
+        out += cobertura_anking(run, plan)
+    else:
+        out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
     if "biologia-tecidual" in plan.get("lesson_id", ""):  # F-20261003-CLAUDE-13: aprender, não visualizar em excesso
         ident = cards([e for e in entries if e.get("kind") == "slideio" or e.get("identificacao")]) / max(1, cards(entries))
         out.append((f"histologia: teoria é maioria; identificação por imagem {ident:.0%} dos cards (teto {MAX_IDENT_HISTO:.0%})", ident <= MAX_IDENT_HISTO))
@@ -653,6 +656,113 @@ def plan_checks(run, plan):
     out.append(specific_extras(plan))
     out.append(("cada cor justificada em 'motivo'", all(str(e.get("motivo", "")).strip() for e in entries)))
     out.append(("REVISAO-DE-QUALIDADE.md na corrida", (run / "REVISAO-DE-QUALIDADE.md").exists()))
+    return out
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# F-20261015-CLAUDE-06 — pipeline AnKing-primeiro, gates duros. Davi: "criar autoral SÓ PARA LACUNAS REAIS […] em último
+# do último caso (gate-hard nisso)"; "SEMPRE BUSCA EM TODOS ESSES DECKS DE REF EXTERNA - GATE HARD, UM DECK NÃO PODE
+# TERMINAR SEM PASSAR POR TODOS ESSES GATES HARDS"; "pode puxar todos os irmãos, eu suspendo". Sem teto de autoral: o
+# que se exige é a prova, autoral por autoral, de que nenhum acervo tinha o card.
+PIPELINE_DESDE = 20261016
+COB_COLS = ["chave", "conceito", "fonte_aula", "veredito", "lidos", "decora", "decisao"]
+FONTE_AULA = re.compile(r"slide|l[âa]mina|prova|apostila|monitoria|transcri|exerc[íi]cio|palavras|gabarito|caso", re.I)
+
+
+def pipeline_novo(run, plan):
+    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", Path(run).name)
+    return plan.get("pipeline") == "anking-primeiro" or bool(m and int("".join(m.groups())) >= PIPELINE_DESDE)
+
+
+def _norm(s):
+    return re.sub(r"[^a-z0-9α-ω]+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or "")).lower()).strip()
+
+
+def _jsonl(path):
+    if not path.exists():
+        return []
+    return [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()]
+
+
+def cobertura_anking(run, plan):
+    from nebli import semantica
+    run = Path(run)
+    out = []
+    entries = plan.get("entries", [])
+    keys = {e["key"]: e for e in entries}
+    autorais = [e for e in entries if e.get("origin") == "Autoral"]
+    # Rota (a): palavra-chave em AnKing e externos (nebli.busca_acervos)
+    kw = run / "busca" / "anking.txt"
+    kwtxt = kw.read_text(encoding="utf-8") if kw.exists() else ""
+    out.append(("[duro] rota (a) palavra-chave em AnKing E Referências Externas (busca/anking.txt)",
+                "| AnKing |" in kwtxt and "| Externos |" in kwtxt))
+    # Rota (b): seções de recurso lidas inteiras
+    sec = _jsonl(run / "busca" / "secoes.jsonl")
+    out.append(("[duro] rota (b) seções de recurso do AnKing lidas (busca/secoes.jsonl)" + (f": {len(sec)}" if sec else ""),
+                bool(sec) and all((run / x["arquivo"]).exists() for x in sec)))
+    # Rota (c): significado, em TODOS os acervos
+    sem = _jsonl(run / "busca" / "semantica.jsonl")
+    todos = set(semantica.ACERVOS)
+    falta_acervo = [x["chave"] for x in sem if not todos <= set(x.get("acervos", []))]
+    out.append(("[duro] rota (c) busca por significado em todos os acervos (AnKing + cada deck de Referências Externas)"
+                + (f": consultas sem algum acervo {falta_acervo[:3]}" if falta_acervo else ""), bool(sem) and not falta_acervo))
+    # Matriz de cobertura
+    cob_path = run / "busca" / "cobertura.tsv"
+    rows = {}
+    if cob_path.exists():
+        lines = [l.split("\t") for l in cob_path.read_text(encoding="utf-8").splitlines() if l.strip()]
+        if lines and [c.strip() for c in lines[0]] == COB_COLS:
+            rows = {r[0].strip(): dict(zip(COB_COLS, [c.strip() for c in r] + [""] * 7)) for r in lines[1:]}
+    out.append(("[duro] busca/cobertura.tsv com cabeçalho " + "|".join(COB_COLS), bool(rows)))
+    sem_linha = [k for k in keys if k not in rows]
+    out.append(("[duro] todo card do plano tem linha na matriz de cobertura" + (f": faltam {sem_linha[:4]}" if sem_linha else ""),
+                bool(rows) and not sem_linha))
+    vered = [k for k, r in rows.items() if r["veredito"] not in ("coberto", "parcial", "lacuna")]
+    out.append(("[duro] veredito coberto|parcial|lacuna em cada linha" + (f": {vered[:4]}" if vered else ""), bool(rows) and not vered))
+    # Autoral: só lacuna/parcial, com prova da busca, fonte da aula e cloze no nome decorado
+    vistos = {}
+    for x in sem:
+        vistos.setdefault(x["chave"], set()).update(str(t["nid"]) for t in x.get("top", []))
+    ruins = {}
+    for e in autorais:
+        k = e["key"]; r = rows.get(k); prob = []
+        if not r:
+            prob.append("sem linha")
+        else:
+            if r["veredito"] not in ("lacuna", "parcial"):
+                prob.append("veredito não é lacuna/parcial")
+            if k not in vistos:
+                prob.append("sem busca por significado com esta chave")
+            lidos = re.findall(r"\d{10,}", r["lidos"])
+            if len(lidos) < 3 or not set(lidos) <= vistos.get(k, set()):
+                prob.append("menos de 3 candidatos lidos da busca desta chave")
+            if not FONTE_AULA.search(r["fonte_aula"]):
+                prob.append("fonte da aula ausente (livro sozinho não origina autoral)")
+            clozes = [_norm(c) for c in re.findall(r"\{\{c\d+::(.*?)(?:::[^}]*)?\}\}", e.get("fields", {}).get("Text", ""))]
+            if not r["decora"] or _norm(r["decora"]) not in clozes:
+                prob.append("'decora' não é a resposta de um cloze")
+            if len(r["decisao"]) < 25:
+                prob.append("decisão sem motivo de os candidatos não servirem")
+        if prob:
+            ruins[k] = prob
+    out.append((f"[duro] cada autoral ({len(autorais)}) prova lacuna: busca nos 3 caminhos, 3+ candidatos lidos, fonte da aula, cloze no nome decorado"
+                + (f": {dict(list(ruins.items())[:3])}" if ruins else ""), not ruins))
+    # Rechecagem dos autorais contra os anti-exemplares
+    rev = run / "REVISAO-AUTORAIS.md"
+    rtxt = rev.read_text(encoding="utf-8") if rev.exists() else ""
+    sem_rev = [e["key"] for e in autorais if not re.search(re.escape(e["key"]) + r".*par:", rtxt)]
+    out.append(("[duro] REVISAO-AUTORAIS.md: cada autoral relido contra o par dos ANTI-EXEMPLARES ('<chave> … par: …')"
+                + (f": faltam {sem_rev[:4]}" if sem_rev else ""), not autorais or (rev.exists() and not sem_rev)))
+    # Irmãos: nota de acervo entra com todos os clozes (Davi suspende)
+    irm = []
+    for e in entries:
+        if e.get("origin") != "Autoral" and e.get("manter") and e.get("fields", {}).get("Text"):
+            n = {int(x) for x in re.findall(r"\{\{c(\d+)::", e["fields"]["Text"])}
+            if n and n != {c["n"] for c in e.get("cards", [])}:
+                irm.append(e["key"])
+    out.append(("[duro] notas de acervo com todos os irmãos (clozes) incluídos" + (f": {irm[:4]}" if irm else ""), not irm))
+    share = sum(len(e.get("cards", [])) or 1 for e in autorais) / max(1, sum(len(e.get("cards", [])) or 1 for e in entries))
+    out.append((f"autoral = {share:.0%} dos cards (sem teto; informativo)", True))
     return out
 
 
@@ -690,6 +800,9 @@ def live_checks(plan):
     out.append(("nenhum deck NEBLI fora da árvore NEBLI (etimologia incluída)",
                 not [n for n in call("deckNames") if n.startswith("NEBLI") and not rotulos.in_tree(n)]))
     from nebli import explicacoes
+    if os.environ.get("NEBLI_SEM_TAB") == "1":  # F-20261015-CLAUDE-06: "não gera com tab ainda, vou pedir pro codex gerar depois"
+        out.append(("Tab pendente por decisão de Davi (Codex gera depois)", True))
+        return out
     try:
         coverage = explicacoes.cobertura(f'"tag:{tag}"', call=call)
         out.append(("Tab em 100% dos cards", coverage.get("atual", 0) > 0 and coverage.get("faltando", 1) == 0 and coverage.get("desatualizada", 1) == 0 and coverage.get("revisar", 1) == 0))

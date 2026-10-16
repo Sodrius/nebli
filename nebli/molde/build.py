@@ -141,7 +141,7 @@ def build():
     origens = sorted({e["origin"] for e in entries})
     scope_file = next((HERE / name for name in ("fontes.json", "fontes-decl.json") if (HERE / name).exists()), None)
     source_scope = json.loads(scope_file.read_text()).get("escopo", "cards") if scope_file else "cards"
-    plan = {"run_id": spec.RUN_ID, "short": spec.SHORT, "lesson_id": spec.LESSON, "deck": spec.DECK, "criterios": spec.CRITERIOS,
+    plan = {"pipeline": getattr(spec, "PIPELINE", ""), "run_id": spec.RUN_ID, "short": spec.SHORT, "lesson_id": spec.LESSON, "deck": spec.DECK, "criterios": spec.CRITERIOS,
             "E1": "solicitada junto ao deck" if source_scope == "e1+cards" else "não solicitada nesta corrida", "entries": entries, "compartilhados": shared,
             "excluidos": [{"nid": n, "motivo": m} for n, m in spec.EXCLUIDOS], "fora_do_recorte": spec.FORA_DO_RECORTE, "media": spec.MEDIA,
             "clones": CLONES, "busca_externos": "busca/ext.txt",

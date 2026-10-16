@@ -11,6 +11,30 @@ A = Anki(); plan = json.loads((HERE / "plan.json").read_text())
 DECK, LESSON, LESSON_TAG = plan["deck"], plan["lesson_id"], f'NEBLI::{plan["lesson_id"]}'
 RANK = {3: 3, 4: 2, 5: 1}  # verde > azul > rosa
 FLAG = {"verde": 3, "azul": 4, "rosa": 5}
+
+_RECUSADOS = []
+
+
+def set_due(A, card, due):
+    """Fila de novos na ordem dos slides. AnkiConnect recente recusa `due` ("protected state", 14/10): o card entra em
+    _RECUSADOS e pedir_reposicao() pede ao add-on nebli_decks o reposicionamento nativo (executa fora da tela de revisão)."""
+    try:
+        A("setSpecificValueOfCard", card=card, keys=["due"], newValues=[due], warning_check=True)
+    except RuntimeError as err:
+        if "protected state" not in str(err): raise
+        _RECUSADOS.append((due, card))
+
+
+def pedir_reposicao(deck):
+    if not _RECUSADOS:
+        return None
+    pedido = Path(__file__).resolve().parents[2] / "arquivos-trabalho" / "anki-acao-pedido.json"
+    if pedido.exists():
+        raise SystemExit(f"Já há um pedido pendente para o add-on ({pedido}); repetir depois que ele for consumido")
+    ordem = sorted(_RECUSADOS)
+    pedido.write_text(json.dumps({"acao": "reposicionar", "deck": deck, "inicio": ordem[0][0], "cards": [c for _, c in ordem]}))
+    return len(ordem)
+
 def faixa(short):
     """Faixa da aula na fila de novos (config/fila-novos.json); aula nova recebe o próximo bloco livre e fica registrada."""
     cfg_path = HERE.parents[1] / "config" / "fila-novos.json"
@@ -46,7 +70,19 @@ def ensure_clones():
         log(op="createModel", model=new, clone_of=old)
 
 
+def gate_duro():
+    """F-20261015-CLAUDE-06: nada é instalado sem os gates duros do pipeline AnKing-primeiro (busca nos 3 caminhos em todos os
+    acervos, matriz de cobertura, prova de lacuna e rechecagem de cada autoral, irmãos completos)."""
+    from nebli import gates
+    if not gates.pipeline_novo(HERE, plan):
+        return
+    falhas = [label for label, ok in gates.cobertura_anking(HERE, plan) if ok is not True]
+    if falhas:
+        raise SystemExit("Gate duro reprovado — não instalar:\n  " + "\n  ".join(falhas))
+
+
 def main():
+    gate_duro()
     with escrita(A, f"{plan['short'].upper()} {plan['run_id']}"):
         ensure_clones()
         shared_ids = [int(k) for k in plan["compartilhados"]]
@@ -77,7 +113,7 @@ def main():
                 flag = next(x["flag"] for x in e["cards"] if x["ord"] == c["ord"])
                 A("setSpecificValueOfCard", card=c["cardId"], keys=["flags"], newValues=[flag], warning_check=True)
             for c in cards:  # fila de novos na ordem dos slides
-                A("setSpecificValueOfCard", card=c["cardId"], keys=["due"], newValues=[BASE + e["order"] * 10 + c["ord"]], warning_check=True)
+                set_due(A, c["cardId"], BASE + e["order"] * 10 + c["ord"])
             results.append({"key": e["key"], "nid": nid})
         # compartilhados: só tags (aula, cor e posição nesta aula); bandeira sobe apenas se a cor nova for maior e não houver marca pessoal
         for n in shared:
@@ -112,6 +148,7 @@ def main():
                "cards_new_lesson": len(flags), "expected": plan["totais"]["cards"],
                "green": flags.count(3), "blue": flags.count(4), "pink": flags.count(5),
                "compartilhados_tag": shared_ids, "problems": problems, "at": datetime.now(timezone.utc).isoformat()}
+        rec["reposicao_pedida"] = pedir_reposicao(DECK)
         (HERE / "receipt.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1))
         print(json.dumps({k: rec[k] for k in ("cards_new_lesson", "expected", "green", "blue", "pink", "cards_tag_aula", "problems")}, ensure_ascii=False))
         if problems or rec["cards_new_lesson"] != plan["totais"]["cards"]: raise SystemExit("Readback divergente — ver receipt.json (sem sync)")
