@@ -1,11 +1,11 @@
 """NEBLI — explicação do card com Tab (Anki desktop).
 
 No verso do card, Tab mostra num balão flutuante a explicação daquele card; Tab de novo
-fecha o balão. X com o balão aberto marca/desmarca essa explicação como ruim. Outra tecla só fecha
-(a tecla de resposta responde na mesma hora). Uma explicação por
+fecha o balão. X marca/desmarca "gostei" para o card como um todo, com ou sem o balão aberto.
+Outra tecla só fecha (a tecla de resposta responde na mesma hora). Uma explicação por
 card (irmãos de cloze têm a sua), lida de user_files/explicacoes.sqlite, que é
 gerada fora do Anki por `python -m nebli.explicacoes gerar`. Nada vai para a coleção.
-Cada abertura e reprovação é anotada em user_files/tab-log.jsonl.
+Cada abertura e cada "gostei" é anotado em user_files/tab-log.jsonl.
 
 Não mexe em nenhuma outra tecla. Guia: GUIA-EXPLICACOES-TAB.md na raiz do NEBLI.
 Instalar/atualizar: python -m nebli.explicacoes instalar (reiniciar o Anki depois).
@@ -106,7 +106,7 @@ def _close_popup(*_args):
         reviewer.web.eval("var n=document.getElementById('nebli-tab'); if(n) n.remove();")
 
 
-def _is_bad(cid, digest):
+def _is_liked(cid):
     path = USER / "tab-log.jsonl"
     marked = False
     if path.exists():
@@ -115,16 +115,15 @@ def _is_bad(cid, digest):
                 event = json.loads(line)
             except json.JSONDecodeError:
                 continue
-            if event.get("card") == cid and event.get("explicacao") == digest:
-                if event.get("evento") in ("tab_ruim", "tab_ruim_desfeito"):
-                    marked = event["evento"] == "tab_ruim"
+            if event.get("card") == cid and event.get("evento") in ("card_gostei", "card_gostei_desfeito"):
+                marked = event["evento"] == "card_gostei"
     return marked
 
 
-def _show_bad_state():
+def _show_like_state():
     reviewer = _reviewer()
     if reviewer:
-        label = "Marcado como ruim · X desfaz" if _popup.get("ruim") else "X marca como ruim"
+        label = "Gostei deste card · X desfaz" if _popup.get("gostei") else "X marca gostei neste card"
         reviewer.web.eval("(function(){var n=document.getElementById('nebli-tab');if(!n)return;"
                           "var s=document.getElementById('nebli-tab-status');"
                           "if(!s){s=document.createElement('div');s.id='nebli-tab-status';"
@@ -132,19 +131,19 @@ def _show_bad_state():
                           "s.textContent=" + json.dumps(label) + ";})();")
 
 
-def _toggle_bad():
-    if not _popup["open"]:
-        return
+def _toggle_like():
     reviewer = _reviewer()
-    if reviewer and reviewer.card and reviewer.card.id == _popup["card"]:
-        bad = not _popup.get("ruim", False)
-        _tab_event("tab_ruim" if bad else "tab_ruim_desfeito", card=_popup["card"], nota=_popup["nota"],
-                   deck=_popup["deck"], achou=_popup["achou"],
-                   explicacao=_popup["explicacao"])
+    if reviewer and reviewer.card:
+        card = reviewer.card
+        liked = not _is_liked(card.id)
+        _tab_event("card_gostei" if liked else "card_gostei_desfeito",
+                   card=card.id, nota=card.nid, deck=card.did,
+                   card_hash=_card_hash(card))
         from aqt.utils import tooltip
-        _popup["ruim"] = bad
-        _show_bad_state()
-        tooltip("Explicação marcada como ruim para revisão." if bad else "Marcação de ruim removida.")
+        if _popup["open"] and _popup["card"] == card.id:
+            _popup["gostei"] = liked
+            _show_like_state()
+        tooltip("Gostei registrado para este card." if liked else "Gostei removido deste card.")
 
 
 def _toggle():
@@ -165,8 +164,8 @@ def _toggle():
         _popup["deck"] = card.did
         _popup["achou"] = found
         _popup["explicacao"] = hashlib.sha256((row[1] or "").encode("utf-8")).hexdigest()[:16] if row else None
-        _popup["ruim"] = _is_bad(card.id, _popup["explicacao"])
-        _show_bad_state()
+        _popup["gostei"] = _is_liked(card.id)
+        _show_like_state()
         _tab_event("abriu", card=card.id, nota=card.nid, deck=card.did,
                    achou=found, explicacao=_popup["explicacao"])
     except Exception:
@@ -178,8 +177,8 @@ class _TabKey(QObject):
         if event.type() != QEvent.Type.KeyPress or event.isAutoRepeat():
             return False
         active = QApplication.activeWindow() is mw and _reviewer()
-        if active and _popup["open"] and event.key() == Qt.Key.Key_X and not event.modifiers():
-            _toggle_bad()
+        if active and event.key() == Qt.Key.Key_X and not event.modifiers():
+            _toggle_like()
             return True
         if event.key() == Qt.Key.Key_Tab and not event.modifiers() and active:
             QTimer.singleShot(0, _toggle)

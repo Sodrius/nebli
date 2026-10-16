@@ -13,7 +13,9 @@ class TabInteractionTests(unittest.TestCase):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
         self.path = Path(self.tmp.name)
-        self.mw = NS(state='review', reviewer=NS(state='answer', card=NS(id=1, nid=9, did=3), web=MagicMock()))
+        note = NS(fields=['front', 'back'])
+        self.mw = NS(state='review', reviewer=NS(
+            state='answer', card=NS(id=1, nid=9, did=3, ord=0, note=lambda: note), web=MagicMock()))
         self.app = NS(activeWindow=lambda: self.mw, instance=lambda: MagicMock())
         qt = NS(QApplication=self.app, QEvent=NS(Type=NS(KeyPress=1)), QObject=object,
                 Qt=NS(Key=NS(Key_Tab=9, Key_X=88)), QTimer=NS(singleShot=lambda _, fn: fn()))
@@ -33,35 +35,33 @@ class TabInteractionTests(unittest.TestCase):
         event = NS(type=lambda: 1, isAutoRepeat=lambda: repeat, key=lambda: key, modifiers=lambda: modifiers)
         return self.ns['_tab'].eventFilter(None, event)
 
-    def test_x_toggles_persistently_without_closing_and_tab_only_closes(self):
+    def test_x_toggles_card_like_without_closing_and_tab_only_closes(self):
         self.assertTrue(self.press(88))
         self.assertTrue(self.ns['_popup']['open'])
-        self.assertTrue(self.ns['_is_bad'](1, None))
+        self.assertTrue(self.ns['_is_liked'](1))
         self.press(9)
         self.assertFalse(self.ns['_popup']['open'])
+        self.assertTrue(self.press(88))
+        self.assertFalse(self.ns['_is_liked'](1))
         self.press(9)
-        self.assertTrue(self.ns['_popup']['ruim'])
+        self.assertFalse(self.ns['_popup']['gostei'])
         self.press(88)
-        self.assertFalse(self.ns['_is_bad'](1, None))
-        db = explicacoes.open_store(self.path / 'test.sqlite')
-        self.addCleanup(db.close)
-        self.assertEqual(explicacoes.bad_tabs(self.path / 'user_files/tab-log.jsonl', db), [])
-        self.press(88)
-        self.assertEqual(len(explicacoes.bad_tabs(self.path / 'user_files/tab-log.jsonl', db)), 1)
+        self.assertTrue(self.ns['_is_liked'](1))
+        self.assertEqual(len(explicacoes.liked_cards(self.path / 'user_files/tab-log.jsonl')), 1)
 
-    def test_repeat_closed_popup_other_window_and_stale_card_do_not_mark(self):
+    def test_repeat_and_other_window_do_not_like_but_closed_popup_does(self):
         self.press(88, repeat=True)
-        self.assertFalse(self.ns['_is_bad'](1, None))
+        self.assertFalse(self.ns['_is_liked'](1))
         self.app.activeWindow = lambda: None
         self.press(88)
-        self.assertFalse(self.ns['_is_bad'](1, None))
+        self.assertFalse(self.ns['_is_liked'](1))
         self.app.activeWindow = lambda: self.mw
-        self.ns['_toggle']()
+        self.ns['_close_popup']()
+        self.assertTrue(self.press(88))
+        self.assertTrue(self.ns['_is_liked'](1))
         self.mw.reviewer.card.id = 2
         self.press(88)
-        self.assertFalse(self.ns['_is_bad'](1, None))
-        self.ns['_close_popup']()
-        self.assertFalse(self.press(88))
+        self.assertTrue(self.ns['_is_liked'](2))
 
     def test_cancel_old_version_does_not_remove_new_version_report(self):
         log = self.path / 'log.jsonl'

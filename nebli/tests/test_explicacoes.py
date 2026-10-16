@@ -146,6 +146,18 @@ class ExplicacoesTests(unittest.TestCase):
             self.assertEqual(explicacoes.bad_tabs(log, db), [])
             db.close()
 
+    def test_liked_cards_toggle(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            log = Path(tmp) / "tab-log.jsonl"
+            events = [
+                {"em": "2026-10-16 10:00:00", "evento": "card_gostei", "card": 1, "nota": 10},
+                {"em": "2026-10-16 10:01:00", "evento": "card_gostei", "card": 2, "nota": 20},
+                {"em": "2026-10-16 10:02:00", "evento": "card_gostei_desfeito", "card": 1, "nota": 10},
+            ]
+            log.write_text("\n".join(json.dumps(event) for event in events), encoding="utf-8")
+            liked = explicacoes.liked_cards(log)
+            self.assertEqual([event["card"] for event in liked], [2])
+
 
 if __name__ == "__main__":
     unittest.main()

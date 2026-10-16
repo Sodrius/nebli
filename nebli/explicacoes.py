@@ -9,6 +9,7 @@ Uso (Anki aberto com AnkiConnect):
     python -m nebli.explicacoes mostrar <card_id> [<card_id> ...]
     python -m nebli.explicacoes resumo                        # totais da base
     python -m nebli.explicacoes resumo '"tag:NEBLI::<aula>"'  # cobertura exata; sai 1 se faltar
+    python -m nebli.explicacoes gostados                      # cards marcados com X
 
 Não usar deck:"NEBLI::UCxx::..." exato: o add-on nebli_decks põe o total no nome dos decks,
 e a busca volta vazia. Use a tag da aula (inclui os compartilhados) ou deck:*trecho*.
@@ -433,6 +434,32 @@ def bad_tabs(log_path=None, db=None):
     return pending
 
 
+def liked_cards(log_path=None):
+    """Lista os cards cujo "gostei" continua ativo; X novamente desfaz a marca."""
+    path = Path(log_path or store_path().parent / "tab-log.jsonl")
+    if not path.is_file():
+        print("Nenhum card marcado como gostei.")
+        return []
+    marked = {}
+    for line in path.read_text(encoding="utf-8").splitlines():
+        try:
+            event = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if event.get("card") is None:
+            continue
+        cid = int(event["card"])
+        if event.get("evento") == "card_gostei":
+            marked[cid] = event
+        elif event.get("evento") == "card_gostei_desfeito":
+            marked.pop(cid, None)
+    liked = sorted(marked.values(), key=lambda x: x.get("em", ""), reverse=True)
+    for event in liked:
+        print(f"{event.get('em', '?')} card {event['card']} nota {event.get('nota', '?')} — gostei")
+    print(f"{len(liked)} card(s) marcado(s) como gostei.")
+    return liked
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -447,6 +474,7 @@ def main():
     rs = sub.add_parser("resumo", help="totais da base; com busca, cobertura exata daqueles cards")
     rs.add_argument("busca", nargs="?")
     sub.add_parser("ruins", help="lista Tabs marcados como ruins ainda não reescritos")
+    sub.add_parser("gostados", help="lista cards cujo gostei marcado com X continua ativo")
     sub.add_parser("instalar", help="copia só o add-on do Tab para o Anki deste computador")
     args = parser.parse_args()
     if args.cmd == "instalar":
@@ -457,6 +485,8 @@ def main():
         show(args.ids)
     elif args.cmd == "ruins":
         bad_tabs()
+    elif args.cmd == "gostados":
+        liked_cards()
     else:
         sys.exit(summary(call=Anki() if args.busca else None, query=args.busca))
 

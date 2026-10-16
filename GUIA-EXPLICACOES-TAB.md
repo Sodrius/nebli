@@ -1,6 +1,6 @@
 # Explicação do card com Tab (Anki)
 
-Você está revisando no Anki, vira um card que errou ou não entendeu e aperta **Tab**. Aparece, num balão flutuante na parte de baixo da tela, por cima do card, a explicação com fonte de 21 px: do conceito básico até a resposta, e como isso se encaixa na aula. **Tab novamente fecha. X com o balão aberto marca a explicação como ruim; X novamente desfaz, mantendo o texto aberto.** A indicação aparece no balão e persiste quando ele é reaberto. Outra tecla apenas fecha; se for tecla de resposta, o card é respondido na mesma hora. A reprovação fica no `tab-log.jsonl` com o ID do card e uma assinatura da versão da explicação, para revisão posterior.
+Você está revisando no Anki, vira um card que errou ou não entendeu e aperta **Tab**. Aparece, num balão flutuante na parte de baixo da tela, por cima do card, a explicação com fonte de 21 px: do conceito básico até a resposta, e como isso se encaixa na aula. **Tab novamente fecha. X, com ou sem o balão aberto, marca “gostei” para o card como um todo; X novamente desfaz.** A indicação aparece no balão quando ele está aberto. Outra tecla apenas fecha o balão; se for tecla de resposta, o card é respondido na mesma hora. O elogio fica no `tab-log.jsonl` com o ID do card para calibração posterior. Cards ruins são sinalizados pela bandeira vermelha.
 
 - **Uma explicação por card.** Irmãos de cloze da mesma nota têm explicações diferentes, cada uma focada no que aquele card esconde.
 - **Nada muda nos seus cards.** As explicações ficam num arquivo do add-on, fora da coleção. Não sincronizam, não aparecem no editor e não mexem no agendamento.
@@ -71,7 +71,7 @@ O comportamento padrão tenta a assinatura do Claude e, se ela atingir o limite,
 
 ## Mudar o estilo
 
-O estilo ativo é o arquivo [`config/explicacao-tab.md`](config/explicacao-tab.md); a versão anterior foi preservada em `arquivo/2026-10-12-tab-estilo-legado.md`. O próximo `gerar '"tag:NEBLI::<aula>"'` atualiza só os cards daquela aula, inclusive compartilhados. `python3 -m nebli.explicacoes ruins` mostra os Tabs reprovados com X que ainda não foram reescritos. Ler o texto e a fonte ao corrigi-los; uma alteração automática de palavras não resolve necessariamente a dúvida.
+O estilo ativo é o arquivo [`config/explicacao-tab.md`](config/explicacao-tab.md); a versão anterior foi preservada em `arquivo/2026-10-12-tab-estilo-legado.md`. O próximo `gerar '"tag:NEBLI::<aula>"'` atualiza só os cards daquela aula, inclusive compartilhados. `python3 -m nebli.explicacoes gostados` mostra os cards cujo elogio com X continua ativo. Cards ruins são encontrados pela bandeira vermelha quando Davi pedir a correção; ler o card, a aula e os irmãos relacionados antes de refazê-lo.
 
 ## Onde ficam as coisas
 
