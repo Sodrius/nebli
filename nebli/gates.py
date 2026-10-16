@@ -696,7 +696,7 @@ def _jsonl(path):
 
 
 MAX_AUTORAL = 0.20          # F-20261016-CLAUDE-04: autoral é caso especial; acervos (AnKing e externos) têm prioridade máxima
-MAX_AUTORAL_EXCECAO = 0.35  # teto absoluto, mesmo com AUTORAL_EXCECAO ("aula introdutória" não basta: a 03, com 68%, foi o excesso)
+MAX_AUTORAL_EXCECAO = 0.30  # teto absoluto, mesmo com AUTORAL_EXCECAO ("aula introdutória" não basta: a 03, com 68%, foi o excesso)
 LEGADO_V2 = {"deck-aula-uc03-pt09-lesao-celular-v2-2026-10-15", "deck-aula-uc03-rd02-diagnostico-radiologico-v2-2026-10-16",
              "deck-aula-uc03-pt03-diagnostico-patologico-v2-2026-10-16"}  # entregues antes do teto
 
@@ -780,7 +780,11 @@ def cobertura_anking(run, plan):
             if n and n != {c["n"] for c in e.get("cards", [])}:
                 irm.append(e["key"])
     out.append(("[duro] notas de acervo com todos os irmãos (clozes) incluídos" + (f": {irm[:4]}" if irm else ""), not irm))
-    share = sum(len(e.get("cards", [])) or 1 for e in autorais) / max(1, sum(len(e.get("cards", [])) or 1 for e in entries))
+    # F-20261016-CLAUDE-08 (refação): autoral antigo da própria aula mantido por sh() (sem source::nid e no deck da aula) conta como autoral,
+    # e todo compartilhado conta no total de cards do deck; corridas antigas sem "n_cards" no plano seguem a conta só das entradas.
+    shs = [v for v in (plan.get("compartilhados") or {}).values() if "n_cards" in v]
+    au_sh = sum(v["n_cards"] for v in shs if not v.get("source_nid") and v.get("deck_proprio"))
+    share = (sum(len(e.get("cards", [])) or 1 for e in autorais) + au_sh) / max(1, sum(len(e.get("cards", [])) or 1 for e in entries) + sum(v["n_cards"] for v in shs))
     # F-20261016-CLAUDE-04: "excesso de autoral… só para casos especiais; no geral, sempre decks outros, AnKing e os outros, prioridade máxima (gate-hard)"
     exc = str(plan.get("autoral_excecao") or "").strip()
     versao = int(plan.get("pipeline_versao") or 1)

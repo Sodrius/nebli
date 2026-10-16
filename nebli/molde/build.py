@@ -27,7 +27,7 @@ ORIGIN = {"Anatomy": "Dope", "Image Occlusion Enhanced+": "BlueLink", "AnatoKing
 CLOZE = re.compile(r"\{\{c(\d+)::((?:(?!\}\}).)*?)(?:::((?:(?!\}\}).)*?))?\}\}", re.S)
 KHAN = re.compile(r"(<br>\s*)*<div>\s*<a[^>]*khanacademy[^>]*>.*?</a>\s*(<br>)?\s*</div>|(<br>\s*)*<a[^>]*(khanacademy|youtu)[^>]*>.*?</a>", re.I | re.S)
 WHITE = re.compile(r'\s*style="color: rgb\(255 255 255[^"]*"')
-CREDIT = re.compile(r"(?:\s*<br\s*/?>\s*)*(?:<(?:em|span|i|div)[^>]*>\s*)*(?:Photo\s*cr(?:<[^>]*>)*edit|Image\s*cr(?:<[^>]*>)*edit|Image licensed|Image\(s\) provided)[\s\S]*?(?=<img|\Z)", re.I)
+CREDIT = re.compile(r"(?:\s*<br\s*/?>\s*)*(?:<(?:em|span|i|div)[^>]*>\s*)*(?:Photo\s*cr(?:<[^>]*>)*edit|Image\s*cr(?:<[^>]*>)*edit|Image licensed|Image\(s\) licensed|Image\(s\) provided)[\s\S]*?(?=<img|\Z)", re.I)
 
 
 def h(x): return hashlib.sha256(json.dumps(x, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:16]
@@ -63,7 +63,10 @@ def build():
             if not _ni: issues.append(f"compartilhado ausente {c['nid']}")
             _src = next((t.split("nid-")[1] for t in (_ni or {}).get("tags", []) if "::source::nid-" in t), "")
             shared[str(c["nid"])] = {"source_nid": _src, "motivo": c["motivo"], "cor": c["cor"], "order": order, "ordem_tag": ordem.tag(spec.SHORT, order), "bloco": c["bloco"],
-                                    "alvo": c["alvo"], "evid": c["evid"]}
+                                    "alvo": c["alvo"], "evid": c["evid"], "n_cards": len((_ni or {}).get("cards", [])),
+                                    # F-20261016-CLAUDE-08: autoral antigo da própria aula mantido por sh() conta no teto de autoral (gate)
+                                    "deck_proprio": any(re.sub(r" \(\d+\|\d+\|\d+\)", "", x["deckName"]) == spec.DECK
+                                                        for x in A("cardsInfo", cards=(_ni or {}).get("cards", [])))}
             continue
         kind, model = c["kind"], MODEL[c["kind"]]
         tf = fields_of(model); fields = {f: "" for f in tf}

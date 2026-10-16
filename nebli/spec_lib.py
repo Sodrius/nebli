@@ -92,3 +92,30 @@ def finalizar(cards, here: Path, busca_base: str):
             if c["key"] in cob:
                 c["busca"] = busca_base + cob[c["key"]][6] + " Candidatos lidos: " + cob[c["key"]][4] + "."
     return cards
+
+def hy_de(nid):
+    """Nível HY (1–5) da nota de acervo, pela tag #Low/HighYield; None se não tiver."""
+    n = _call("notesInfo", notes=[nid])
+    for t in (n[0]["tags"] if n and n[0] else []):
+        m = re.search(r"HighYield::(\d)-", t) or re.search(r"Yield::(\d)-", t)
+        if m:
+            return int(m.group(1))
+    return None
+
+
+def acervo(nid, cod, bloco, alvo, slide, motivo, lesson=None, run_id=None, **kw):
+    """F-20261016-CLAUDE-08/09 (refação): nota de acervo que já tem cópia NEBLI viva entra por sh() (mesma nota, histórico preservado);
+    sem cópia, ak(). Cor do sh pela rubrica: HY 1–2 verde (V-hy), senão pelo código. Com várias cópias, prefere a que já tem a tag da aula."""
+    proprio = f' -"tag:NEBLI::run::{run_id}"' if run_id else ""  # a nota que esta corrida criou continua sendo ak() (delta)
+    vivas = _call("findNotes", query=f'"tag:NEBLI::source::nid-{nid}" -"tag:NEBLI::retirado::*"{proprio}')
+    # cópia retirada numa enxugada antiga também serve (a refação a devolve antes do apply), mas nunca a da refação atual
+    copias = vivas or _call("findNotes", query=f'"tag:NEBLI::source::nid-{nid}" -"tag:NEBLI::retirado::refacao-v2"{proprio}')
+    if not copias:
+        return ak(f"ak{nid}", nid, cod, bloco, alvo, slide, motivo, **kw)
+    if lesson and len(copias) > 1:
+        info = _call("notesInfo", notes=copias)
+        copias = sorted(copias, key=lambda c: not any(f"NEBLI::{lesson}" == t for n in info if n["noteId"] == c for t in n["tags"]))
+    hy = hy_de(nid)
+    cor = "verde" if hy in (1, 2) else NOME[cod[0]]
+    codigo = "V-hy" if hy in (1, 2) else cod
+    return sh(copias[0], cor, bloco, alvo, slide, f"{codigo}: {motivo} (cópia NEBLI viva da nota AnKing {nid})")

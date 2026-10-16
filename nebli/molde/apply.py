@@ -90,7 +90,8 @@ def main():
             raise SystemExit("A aula já tem cards — reconciliar antes de reaplicar")
         shared = A("notesInfo", notes=shared_ids)
         before = {"decks_uc08": [d for d in A("deckNames") if d.startswith("NEBLI") and "UC08" in d],
-                  "compartilhados": {str(n["noteId"]): {"tags": n["tags"], "cards": {str(c["cardId"]): c["flags"] for c in A("cardsInfo", cards=n["cards"])}} for n in shared},
+                  "compartilhados": {str(n["noteId"]): {"tags": n["tags"], "cards": {str(c["cardId"]): c["flags"] for c in A("cardsInfo", cards=n["cards"])},
+                                                     "decks": sorted({canonical(c["deckName"]) for c in A("cardsInfo", cards=n["cards"])})} for n in shared},
                   "at": datetime.now(timezone.utc).isoformat()}
         (HERE / "before.json").write_text(json.dumps(before, ensure_ascii=False, indent=1))
         for name, rel in plan["media"].items():
@@ -141,7 +142,9 @@ def main():
             r["cards"] = {str(c["cardId"]): {"ord": c["ord"], "flag": c["flags"]} for c in ci}
         for n in A("notesInfo", notes=shared_ids):
             for c in A("cardsInfo", cards=n["cards"]):
-                if canon(c["deckName"]) == DECK: problems.append(f"compartilhado movido {n['noteId']}")
+                # F-20261016-CLAUDE-08 (refação): nota antiga da própria aula mantida por sh() já morava no deck; só é problema se foi movida agora
+                if canon(c["deckName"]) == DECK and DECK not in before["compartilhados"][str(n["noteId"])].get("decks", []):
+                    problems.append(f"compartilhado movido {n['noteId']}")
         flags = [c["flag"] for r in results for c in r["cards"].values()]
         rec = {"run_id": plan["run_id"], "selection_hash": plan["selection_hash"], "deck": DECK, "notes": results,
                "cards_tag_aula": len(A("findCards", query=f'"tag:{LESSON_TAG}"')),
