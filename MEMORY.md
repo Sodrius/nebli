@@ -116,6 +116,7 @@ Referências positivas: Antibióticos v3 (“agora sim gostei”), Correlação 
 ## 11. Entrega e relato
 
 - **Drive:** lâminas da aula na pasta pessoal da aula; **um só `.apkg` por UC** (`NEBLI - UCxx.apkg`), republicado a cada deck; nada de `.apkg` por aula. Sync ao final (ou adiado se Davi estiver revisando). Gates 100% (`nebli.gates <corrida>`).
+- **Prompt de Tab para o Codex ao fim de cada entrega** (F-20261016-CLAUDE-02: “sempre dá todos os cards que precisam”): listar toda tag de aula feita no pipeline novo com cards sem Tab (contagem de `nebli.explicacoes resumo`), com os comandos e o critério de aceite; salvar em `flashcards/projeto/PROMPT-CODEX-TABS-<data>.md` e colar no chat.
 - **Relato no chat (curto, em português):** deck e contagens (notas/cards, verde/azul/rosa, AnKing/autorais, compartilhados; lidas do Anki vivo), o que entrou e o que ficou de fora com o motivo, erros corrigidos na revisão, gates, e as perguntas objetivas com a suposição adotada. Detalhes técnicos ficam na corrida.
 
 ## 12. Uso do Anki por Davi (ferramentas existentes; não mudar sem pedido)

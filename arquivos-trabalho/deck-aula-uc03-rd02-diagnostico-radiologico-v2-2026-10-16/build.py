@@ -75,6 +75,8 @@ def build():
             origin = c.get("origin") or ORIGIN.get(n["modelName"], "AnKing")
             if kind == "text":
                 fields["Text"] = base["Text"]
+                if base.get("Header", "").strip() and "Header" not in tf:  # 16/10: AnatoKing põe pergunta e imagem no Header; o modelo NEBLI não tem o campo
+                    fields["Text"] = base["Header"] + "<br><br>" + fields["Text"]
                 fields["Extra"], removed = strip_credit(WHITE.sub("", KHAN.sub("", base.get("Extra", ""))))
                 if c.get("uncloze"): fields["Text"] = uncloze(fields["Text"], set(c["uncloze"]))
                 if c.get("manter"):  # nota original do acervo: só os clozes do plano ficam (F-20261003-CLAUDE-13)

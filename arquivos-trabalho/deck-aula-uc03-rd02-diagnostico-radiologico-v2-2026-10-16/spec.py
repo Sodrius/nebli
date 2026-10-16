@@ -177,6 +177,7 @@ DUPLICACAO = {
 for _k, _v in DUPLICACAO.items():
     next(c for c in CARDS if c["key"] == _k)["duplicacao_ok"] = _v
 IMAGENS_VISTAS = {
+ "paste-95c0a723251d942368b36cad938e9586b2d416cc.jpg": "AnatoKing: figura dos planos anatômicos com a, b, c; frente dos três cards de plano (Header levado ao Text, 16/10).",
  "paste-f225be22a58710ab4f2b5a4e3318beb40419c5c1.jpg": "Ankisthesia: transdutor emitindo ondas com texto do eco; ensina o princípio; verso de ak-piezo (a figura de transdutores phased array foi retirada).",
  "be36c6149265b8edd418fd3efd825430.jpg": "MCAT: TC, PET e fusão PET-CT coronais lado a lado; mostra por que se funde; verso de mc-pet.",
  "rd02-us.png": "Lâmina 19: US de vesícula e veia porta (rótulo “VEIA PORTA”; título cortado); frente do card de modalidade.",
@@ -187,7 +188,14 @@ IMAGENS_VISTAS = {
  "rd02-pet.png": "Lâmina 61: PET-CT coronal, axial e MIP com focos de captação; frente.",
  "rd02-planos.png": "Lâmina 31: TC com contraste em axial, sagital e coronal; legendas cortadas (A/B/C no texto); frente.",
 }
-REVISAO = {}
+REVISAO = {
+ "ak-plano-sagital": "despejo 16/10: frente vinha só com a lacuna (Header do AnatoKing perdido); build corrigido, figura na frente",
+ "ak-plano-coronal": "idem: Header + figura levados ao Text",
+ "ak-plano-transverso": "idem: Header + figura levados ao Text",
+ "ak-doppler": "verso herdado (Doppler esofágico) trocado por uma linha sobre fluxo no US",
+ "ak-piezo": "verso herdado: ficou só a figura do transdutor",
+ "mc-rm": "verso do MCAT traz tabela CT×MRI longa; preservada (externo original)",
+}
 ESCOPO = {
  "objetivo": "Conhecer os principais métodos de imagem (RX, TC, US, RM, angiografia, medicina nuclear): o princípio físico, se usa radiação ionizante, o termo de descrição, forças e limites, o contraste típico, os cuidados e como escolher o exame; reconhecer a modalidade numa imagem.",
  "centrais": [
