@@ -114,7 +114,7 @@ IMAGENS_VISTAS = {
  "rd12-sequencias.png": "Lâmina 83: RM de crânio em T1, T2, FLAIR, GRE, T1 pós-contraste, T2 coronal, FIESTA sagital e difusão, com legendas; verso de au-pesos.",
  "rd12-gadolinio.png": "Lâmina 87: RM axial com tumor de fossa posterior antes e depois do gadolínio (realce intenso); verso de au-gadolinio.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (14 notas novas, 16 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Entender como a RM forma a imagem (hidrogênio no campo forte, pulso de RF na frequência de Larmor, relaxamento T1 e T2), "
              "ler as ponderações T1 e T2, o papel de TE/TR, o gadolínio e seus riscos, as contraindicações e as aplicações (difusão no AVC).",

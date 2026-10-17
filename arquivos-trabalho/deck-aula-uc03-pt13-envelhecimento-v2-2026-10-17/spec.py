@@ -28,7 +28,7 @@ BUSCA = ("Três caminhos (17/10): seções de recurso do AnKing (FirstAid telome
          "normal do coração; busca/secoes); palavra-chave em AnKing e Referências Externas (busca/anking.txt: telomere, senescence, Werner, "
          "sirtuin, aging, elderly, lipofuscin, chaperone, wrinkles, osteopenia); significado em todos os acervos e NEBLI vivo (busca/semantica.jsonl). ")
 # Vagas da 11 (ainda não instalada): ao instalar a 11, preencher com os nids das cópias NEBLI de 1486590985316 e 1486590997246.
-PT11 = {"LIPO": None, "LIPO_LOCAIS": None}
+PT11 = {"LIPO": 1792240581792, "LIPO_LOCAIS": 1792240582292}
 EXCLUIDOS = [
  (1467771917029, "seção Telomerase: repete ak-telomerase-rt (telomerase é transcriptase reversa)"),
  (1489891684955, "seção Changes in the elderly: suicídio no idoso — psicologia do idoso, UC16 Ciclos da vida; fora das lâminas"),

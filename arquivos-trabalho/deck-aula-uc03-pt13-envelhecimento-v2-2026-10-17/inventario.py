@@ -11,7 +11,7 @@ Fronteira (MEMORY §3): radicais livres e proteínas mal dobradas são da 09 →
 PREFIXO = "pt13"
 AULA = "Envelhecimento celular e tecidual (UC03 P1; Patologia)"
 EXC = "EXC: "
-LIPO, LIPO_LOCAIS = "sh-PT11-LIPO", "sh-PT11-LIPO-LOCAIS"
+LIPO, LIPO_LOCAIS = "sh-1792240581792", "sh-1792240582292"
 RESP = ["ak-pulm-complacencia", "ak-parede-complacencia", "ak-vr", "ak-cvf", "ak-vef1", "ak-cpt", "ak-vq", "ak-aa", "ak-musculo-resp"]
 
 SLIDES = [

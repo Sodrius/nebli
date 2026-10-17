@@ -39,7 +39,7 @@ SLIDES = [(1, "capa", "Capa", [])] + [
  (26, "conteudo", "Timo × medula: TCR encaixa no MHC (I→CD8, II→CD4); BCR não", [("a25", "MHC I → CD8, MHC II → CD4", ["sh-1791625424657", "sh-1791625424481"])]),
  (27, "conteudo", "Reconhecimento → ativação → expansão → diferenciação", [("a26", "Expansão clonal", "sh-1791625428408")]),
  (28, "conteudo", "CD4 rege a orquestra", [("a27", "CD4 ativa outras células", "sh-1791625431758")]),
- (29, "secao", "Captura, processamento e apresentação", []),
+ (29, "logistica", "Captura, processamento e apresentação", []),
  (30, "conteudo", "Antígeno precisa ser capturado e apresentado para o T", [("a28", "Apresentação", "ak-mhc-apresenta")]),
  (31, "conteudo", "Antígenos drenados para órgãos linfoides secundários", [("a29", "Linfáticos aferentes", "sh-1792240072720")]),
  (32, "conteudo", "Células dendríticas migram para o linfonodo", [("a30", "Migração e maturação", "sh-1791625425333")]),
@@ -76,7 +76,7 @@ SLIDES = [(1, "capa", "Capa", [])] + [
  (63, "conteudo", "Sinapse imunológica: LFA-1/ICAM, CD28/B7, CD40/CD40L", [("a61", "Coestímulo", ["sh-1791625428533", "sh-1791625430082"])]),
  (64, "conteudo", "Th1 × Th2", [("a62", "Th1 e Th2", ["sh-1791625431758", "sh-1791625432007"])]),
  (65, "conteudo", "Sensores nas CD: IL-12 → Th1", [("a63", "IL-12", "sh-1791625432383")]),
- (66, "secao", "Resumo", []),
+ (66, "logistica", "Resumo", []),
  (67, "conteudo", "Resumo: classe II → CD4, classe I → CD8", [("a64", "Resumo", ["sh-1791625427059", "sh-1791625426657"])]),
  (68, "conteudo", "Tabela: peptídeos em MHC I e II", [("a65", "8–10 × 13–17 aminoácidos", ["ak-mhc1-fenda", "ak-mhc2-fenda"])]),
  (69, "conteudo", "Tabela: vias por tipo de patógeno", [("a66", "Vias", ["sh-1791625426657", "sh-1791625427531", "ak-mhc1-tumor"])]),
@@ -87,7 +87,7 @@ SLIDES = [(1, "capa", "Capa", [])] + [
  (74, "conteudo", "Comprometimento das células T", [("a71", "Subtipos T", EXC + "diferenciação dos Th: aula 45")]),
  (75, "conteudo", "Th1, Th2, Th17, Treg (figura)", [("a72", "Subtipos", EXC + "diferenciação dos Th: aula 45")]),
 ]
-JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "secao": "título de seção"}
+JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "logistica": "título de seção, sem conteúdo"}
 CAPITULO = [("Abbas Básica cap. 3 (captura e apresentação de antígenos)", [
  ("l1", "Células dendríticas e maturação", "sh-1791625425333"), ("l2", "Estrutura e genes do MHC, codominância, polimorfismo", ["au-codominante", "au-polimorfismo"]),
  ("l3", "Vias citosólica e endocítica, TAP, cadeia invariante, HLA-DM", ["sh-1791625426833", "au-hla-dm"]),

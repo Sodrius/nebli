@@ -24,7 +24,7 @@ SLIDES = [
  (6, "conteudo", "Estresse curto (adrenalina) × prolongado (cortisol)", [("a5", "Estresse", _10)]),
  (7, "conteudo", "Sistema neuroendócrino: alvos primários, secundários e finais", [("a6", "Sistema neuroendócrino", _10)]),
  (8, "conteudo", "Doenças endócrinas: hipo, hiper, tumores", [("a7", "Classificação", EXC + "lista de doenças sem mecanismo; cada uma tem aula própria")]),
- (9, "secao", "Regulação hormonal da massa corpórea", []),
+ (9, "logistica", "Regulação hormonal da massa corpórea", []),
  (10, "conteudo", "Como sabemos quando comer e parar?", [("a8", "Fome e saciedade", ["ak-lateral-fome", "ak-vmh-saciedade"])]),
  (11, "conteudo", "Homeostase calórica: teoria lipostática", [("a9", "Teoria lipostática", "au-lipostatica")]),
  (12, "conteudo", "Por que a obesidade aumenta: estoque, recompensa, genética, microbiota", [("a10", "Endocanabinoides e recompensa", "ak-endocanabinoides")]),
@@ -37,9 +37,9 @@ SLIDES = [
   [("a15", "Inflamação do tecido adiposo", ["sh-1791593465414", "sh-1791593465568", "sh-1791054013396"])]),
  (18, "conteudo", "Estresse energético: DAG, ceramida, serina-quinases bloqueiam o receptor de insulina",
   [("a16", "Lipotoxicidade", ["ak-tg-ffa-insulina", "sh-1791054013222"])]),
- (19, "secao", "Como o organismo mantém o controle lipídico?", []),
+ (19, "logistica", "Como o organismo mantém o controle lipídico?", []),
  (20, "conteudo", "Teoria lipostática com leptina", [("a17", "Leptina sinaliza o estoque", ["au-lipostatica", "ak-leptina"])]),
- (21, "secao", "Hormônios secretados pelo tecido adiposo", []),
+ (21, "logistica", "Hormônios secretados pelo tecido adiposo", []),
  (22, "conteudo", "Leptina, produto do gene OB; camundongo ob/ob", [("a18", "ob/ob", "au-ob")]),
  (23, "conteudo", "Parabiose ob/db", [("a19", "Parabiose", ["au-ob", "au-db"])]),
  (24, "conteudo", "Resultados da parabiose (Coleman)", [("a20", "db/db sem receptor", "au-db")]),
@@ -68,7 +68,7 @@ SLIDES = [
  (43, "conteudo", "Neuroendócrino figura (parte II)", [("a41", "Neuroendócrino", _10)]),
  (44, "conteudo", "Doenças endócrinas (parte II)", [("a42", "Classificação", EXC + _R)]),
  (45, "conteudo", "Teoria lipostática (parte II)", [("a43", "Lipostática", "au-lipostatica")]),
- (46, "secao", "Como o organismo mantém o controle do tecido adiposo?", []),
+ (46, "logistica", "Como o organismo mantém o controle do tecido adiposo?", []),
  (47, "conteudo", "Vídeo", [("a44", "Vídeo", _VID)]),
  (48, "conteudo", "AMPK, principal regulador das vias catabólicas (LKB1, AMP)", [("a45", "AMPK", ["au-ampk", "ak-metformina-ampk"])]),
  (49, "conteudo", "AMPK fosforila e inibe a ACC → menos malonil-CoA", [("a46", "ACC", ["au-ampk", "ak-acc", "sh-1791729319038"])]),
@@ -86,7 +86,7 @@ SLIDES = [
  (61, "conteudo", "Optogenética (parte II)", [("a58", "Optogenética", "au-arqueado")]),
  (62, "conteudo", "Fome: fatores (sede, estresse, hábito)", [("a59", "Fatores da fome", ["ak-lateral-lesao", "ak-vmh-lesao", "ak-lateral-grelina"])]),
 ]
-JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "secao": "título de seção", "logistica": "bibliografia"}
+JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "logistica": "título de seção ou bibliografia, sem conteúdo"}
 CAPITULO = [("Lehninger cap. 23 (regulação hormonal e integração; massa corporal)", [
  ("l1", "Teoria lipostática e leptina", ["au-lipostatica", "ak-leptina"]), ("l2", "ob/ob e db/db", ["au-ob", "au-db"]),
  ("l3", "Leptina no arqueado (POMC, NPY)", ["au-arqueado", "au-agrp"]), ("l4", "AMPK e adiponectina", ["au-ampk", "au-adiponectina"]),

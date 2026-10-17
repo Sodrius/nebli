@@ -14,7 +14,7 @@ _08 = EXC + "recapitulação do reconhecimento inato (aula 08)"
 SLIDES = [(1, "capa", "Capa", [])] + [
  (2, "conteudo", "Sistema imune como sistema de reconhecimento", [("a1", "Perigo → homeostase", _08)]),
  (3, "conteudo", "Perigo → receptor → função efetora (imediata ou tardia)", [("a2", "Função efetora", "sh-1791780342851")]),
- (4, "secao", "Sistema de reconhecimento", []),
+ (4, "logistica", "Sistema de reconhecimento", []),
  (5, "conteudo", "Receptores de PAMP por patógeno", [("a3", "PRR", "sh-1791780342851")]),
  (6, "conteudo", "PRR solúveis, de membrana e citoplasmáticos", [("a4", "PRR", _08)]),
  (7, "conteudo", "Receptores Toll (mosca × humano)", [("a5", "Toll", _08)]),
@@ -54,7 +54,7 @@ SLIDES = [(1, "capa", "Capa", [])] + [
  (41, "conteudo", "M2 reparador", [("a39", "M2", "sh-1791625434457")]),
  (42, "conteudo", "Macrófago regulador", [("a40", "Mreg", "au-mreg")]),
  (43, "conteudo", "Macrófago e células T (IL-12, IFN-γ, IL-10)", [("a41", "Interação", ["ak-cd40l", "sh-1791625430082", "sh-1791625431258", "sh-1791625428533"])]),
- (44, "secao", "Mecanismos efetores dos linfócitos T", []),
+ (44, "logistica", "Mecanismos efetores dos linfócitos T", []),
  (45, "conteudo", "Migração dos T naive (recirculação)", [("a42", "Naive × efetor", "sh-1791625425207")]),
  (46, "conteudo", "Início da resposta adaptativa (TLR → Th1/Th2)", [("a43", "IL-12 → Th1", "sh-1791625433782")]),
  (47, "conteudo", "Migração dos T efetores", [("a44", "Efetores vão ao tecido", "sh-1791625425207")]),
@@ -69,14 +69,14 @@ SLIDES = [(1, "capa", "Capa", [])] + [
  (56, "conteudo", "Th17 contra Candida (dectina-1)", [("a53", "Candida", ["sh-1791743340332", "sh-1792175043737"])]),
  (57, "conteudo", "CTL: MHC I, grânulos, perforina e granzimas", [("a54", "CTL", "sh-1791593462592")]),
  (58, "conteudo", "Lise das células-alvo", [("a55", "Fas", "sh-1791625430882")]),
- (59, "secao", "Resumindo", []),
+ (59, "logistica", "Resumindo", []),
  (60, "conteudo", "Dinâmica: reconhecimento, ativação, efeito, homeostase, memória", [("a56", "Dinâmica", EXC + "memória e contração: aulas 07 e 45")]),
  (61, "conteudo", "CD4 Th1 ativa macrófagos", [("a57", "CD4 ajuda", "sh-1791625422657")]),
  (62, "conteudo", "Th2 limita a ativação do macrófago", [("a58", "Th2 inibe", "sh-1791625434457")]),
  (63, "conteudo", "Th1 ou Th2? Leishmania, hanseníase", [("a59", "Equilíbrio", ["sh-1791625421906", "sh-1791625425933", "sh-1791625426108"])]),
  (64, "conteudo", "Papel dos linfócitos T (humoral × celular)", [("a60", "Resumo", "sh-1791625429957")]),
 ]
-JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "secao": "título de seção"}
+JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "logistica": "título de seção, sem conteúdo"}
 CAPITULO = [("Abbas 8ª ed. cap. 4 (fagocitose e morte microbiana)", [
  ("l1", "Fagocitose e opsonização", ["ak-fagocitose", "sh-1791667096988"]), ("l2", "Burst e NO", ["sh-1791780361432", "sh-1791780362080"]),
  ("l3", "NK", "sh-1791984891454"), ("l4", "Macrófagos M1/M2", ["sh-1791625434032", "au-mreg"])])]

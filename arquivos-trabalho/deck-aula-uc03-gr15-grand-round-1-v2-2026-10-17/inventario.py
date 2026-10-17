@@ -78,7 +78,7 @@ SLIDES = [
  (46, "conteudo", "Mas a comunicação é bidirecional!", [("a59", "Cérebro ↔ imunidade", "au-inflamacao")]),
  (47, "conteudo", "DC reconhecem estresse emocional (camundongos)", [("a60", "Estresse ativa DC", EXC + "experimento animal ilustrativo; a ideia bidirecional está em au-inflamacao")]),
  (48, "conteudo", "Antecipação de infecção virtual ativa resposta imune", [("a61", "Experimento", EXC + "estudo ilustrativo sem fato cobrado")]),
- (49, "secao", "O estigma da esquizofrenia", []),
+ (49, "logistica", "O estigma da esquizofrenia", []),
  (50, "conteudo", "Frases com uso pejorativo de esquizofrenia", [("a62", "Uso pejorativo", "au-estigma")]),
  (51, "conteudo", "Llosa chama de esquizofrênico", [("a63", "Uso pejorativo", "au-estigma")]),
  (52, "conteudo", "Pessoas notáveis com doença mental", [("a64", "Contribuição", "au-estigma")]),
@@ -88,7 +88,7 @@ SLIDES = [
  (56, "conteudo", "Vídeo (quadro preto)", [("a68", "Vídeo", EXC + "quadro de vídeo sem conteúdo")]),
  (57, "conteudo", "Morte de Brian Wilson (Reuters)", [("a69", "Notícia", EXC + "notícia sem fato")]),
 ]
-JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "secao": "título de seção"}
+JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "logistica": "título de seção, sem conteúdo"}
 CAPITULO = [("Apostila de veteranos “Grand Round 1” (resumo da fala)", [
  ("l1", "Delírio × alucinação; delirium é outra coisa", ["ak-delirio", "ak-alucinacao"]),
  ("l2", "Positivos = acima do basal; negativos = abaixo", ["ak-positivos", "ak-negativos"]),
