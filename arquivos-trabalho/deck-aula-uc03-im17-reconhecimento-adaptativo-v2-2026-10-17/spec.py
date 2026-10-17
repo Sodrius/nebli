@@ -213,7 +213,7 @@ IMAGENS_VISTAS = {
  "im17-troca-classe.png": "Lâmina 10: IgM seguida de IgG na resposta primária; a mesma célula troca a classe; verso de au-avidez.",
  "im17-estrutura.png": "Lâmina 11: imunoglobulina com VH/VL, CH1–CH3, dobradiça, Fab e Fc; verso de au-cdr.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (34 notas novas, 40 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Entender a resposta adquirida (específica, com memória; humoral × celular), identificar anticorpos no soro, descrever a estrutura "
              "da imunoglobulina (Fab, Fc, cadeias, regiões V e C, isotipos, alotipos, idiotipos), as funções de cada classe, a troca de classe "

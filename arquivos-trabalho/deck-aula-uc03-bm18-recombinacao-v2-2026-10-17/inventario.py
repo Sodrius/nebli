@@ -10,7 +10,7 @@ papaína/pepsina e troca para IgE são instalados pela 17 (vaga IM17 no spec); e
 PREFIXO = "bm18"
 AULA = "Geração de diversidade de anticorpos por recombinação (UC03 P1; Biologia Molecular)"
 EXC = "EXC: "
-TDT, SWE = "sh-IM17-TDT", "sh-IM17-SWITCH-IGE"
+TDT, SWE = "sh-1792241814320", "sh-1792241808513"
 
 SLIDES = [
  (1, "capa", "Capa", []),

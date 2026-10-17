@@ -28,7 +28,7 @@ BUSCA = ("Três caminhos (17/10): seções de recurso do AnKing (FirstAid divers
          "excisão de base; busca/secoes); palavra-chave em AnKing e Referências Externas (busca/anking.txt); significado em todos os "
          "acervos e NEBLI vivo (busca/semantica.jsonl). ")
 # Vagas da 17 (ainda não instalada): preencher com as cópias NEBLI de 1486945114357 (TdT) e 1487117161213 (troca para IgE).
-IM17 = {"TDT": None, "SWITCH_IGE": None}
+IM17 = {"TDT": 1792241814320, "SWITCH_IGE": 1792241808513}
 _C = lambda c, a: f"{a}: entra a cópia NEBLI viva (sh-{c})"
 _BRCA = "BRCA1/2 e câncer: aula de oncogenes e supressores, fora das lâminas"
 _BER = "detalhe enzimático do reparo por excisão de base: aula de reparo do DNA (UC1/UC2, 85), fora das lâminas"
