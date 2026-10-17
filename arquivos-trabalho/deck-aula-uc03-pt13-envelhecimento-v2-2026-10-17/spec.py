@@ -194,7 +194,7 @@ IMAGENS_VISTAS = {
  "pt13-telomeros.png": "Lâmina 6: comprimento do telômero × divisões (germinativas, tronco, normal, câncer) e telomerase com molde de RNA (Robbins); verso de au-replicativa.",
  "pt13-werner.png": "Lâmina 11: paciente com síndrome de Werner aos 15 e aos 48 anos; verso de au-werner.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (46 notas novas, 52 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Distinguir senescência de senilidade, entender a perda de reserva funcional e os mecanismos do envelhecimento celular "
              "(telômeros, dano ao DNA, homeostase proteica, sensores de nutrientes) e reconhecer as alterações por sistema.",

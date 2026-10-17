@@ -12,6 +12,7 @@ NEBLI_SEM_TAB=1 /usr/bin/python3 -m nebli.artefatos pre $R 2>&1 | grep "FALHA\|p
 if NEBLI_SEM_TAB=1 /usr/bin/python3 -m nebli.artefatos pre $R 2>&1 | grep -q "FALHA \[duro\]"; then echo "GATE DURO — parar"; exit 2; fi
 espera
 /usr/bin/python3 -m nebli.refacao $R 2>&1 | tail -1
+P=arquivos-trabalho/anki-acao-pedido.json; [ -f $P ] && mv $P arquivos-trabalho/_instalacao-17-10/fila-reposicao/pendente-$(date +%s).json
 (cd $R && NEBLI_SEM_TAB=1 /usr/bin/python3 apply.py 2>&1 | tail -1)
 espera
 L=$(python3 -c "import json;print(json.load(open('$R/plan.json'))['lesson_id'])")
