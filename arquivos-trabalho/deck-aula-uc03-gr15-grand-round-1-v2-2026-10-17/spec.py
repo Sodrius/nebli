@@ -240,7 +240,7 @@ IMAGENS_VISTAS = {
  "gr15-metabolismo.png": "Lâmina 26: dopamina degradada por MAO (DOPAC) e COMT (3-MT) até HVA; verso de ak-comt-3mt.",
  "gr15-neuronio.png": "Lâmina 37: neurônio normal × esquizofrênico (soma menor, menos espinhas, dendritos curtos, menos terminais); verso de au-espinhas.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (62 notas novas, 78 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Reconhecer os grupos de sintomas da esquizofrenia, seu curso e epidemiologia, a hipótese do neurodesenvolvimento, os achados "
              "de imagem, a hipótese dopaminérgica com as vias e a COMT, as alterações sinápticas e imunes, e o estigma.",
