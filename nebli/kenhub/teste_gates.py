@@ -11,6 +11,8 @@ from PIL import Image, ImageDraw
 
 from nebli.kenhub import deck, modelo, render
 
+TAG = deck.TAG_KENHUB
+
 RAIZ = Path(__file__).resolve().parents[2]
 
 
@@ -62,8 +64,32 @@ def main():
     reg_ = np.zeros((50, 50), bool)
     reg_[10:20, 10:15] = True
     reg_[11, 30:40] = True
-    m_, cx_ = mascara.retangulos(reg_, pad=1, area_min=5)
+    m_, cx_, _ = mascara.retangulos(reg_, pad=1, area_min=5)
     espera(len(cx_) == 2 and m_[9:21, 9:16].all(), "máscara não virou retângulos do padrão AnKing")
+    # [sem duplicata]: duas notas próprias com a mesma estrutura reprovam; associada não conta
+    class Falso:
+        def __init__(self, notas): self.notas = notas
+        def __call__(self, acao, **p):
+            return list(range(len(self.notas))) if acao == "findNotes" else self.notas
+    dup = [{"noteId": 1, "tags": ["NEBLI::2026-uc07-a", TAG, "NEBLI::estrutura::pons"]},
+           {"noteId": 2, "tags": ["NEBLI::2026-uc07-b", TAG, "NEBLI::estrutura::pons"]}]
+    espera(bool(deck.duplicatas(Falso(dup))), "[sem duplicata] aceitou duas notas da mesma estrutura")
+    dup[1]["tags"].append("NEBLI::uc07::assoc::2026-uc07-b")
+    dup[1]["tags"][0] = "NEBLI::2026-uc07-b"
+    dup[0]["tags"].append("NEBLI::2026-uc07-b")
+    espera(not deck.duplicatas(Falso([dup[0]])), "[sem duplicata] reprovou nota associada")
+    # G17: máscara minúscula reprova; modelo genérico do AnatoKing reprova
+    from PIL import Image as _I
+    import tempfile as _t
+    with _t.TemporaryDirectory() as dd:
+        _I.new("RGB", (1000, 1000), "white").save(Path(dd) / "f.png")
+        k = {"chave": "k", "tipo": "kenhub", "modelo": modelo.NOME, "base_frente": str(Path(dd) / "f.png"),
+             "meta": {"seta": True, "ponta_na_mascara": True, "sobra_verde": 0, "area_mascara": 50},
+             "item": {"nome_en": "Pons"}, "slug": "pons", "campos": {"Nome PT": "Ponte", "Nome EN": "Pons"}, "ocr_frente": []}
+        espera(any("G17" in p for p in deck.gates_pre([k], cur)), "G17 aceitou máscara minúscula")
+    ac = {"chave": "a", "tipo": "acervo", "modelo": modelo.CLOZE, "pt": "Ponte", "usos_modelo": 17, "vermelho_modelo": 0.001,
+          "campos": {"Text": "Qual estrutura? {{c1::Ponte}}", "Imagens": "<img src=x>", "Nome EN": "Pons"}, "ocr_frente": []}
+    espera(any("genérica" in p for p in deck.gates_pre([ac], cur)), "gate de modelo genérico aceitou figura repetida em 17 cards")
     # entrada sem campos (tipo desconhecido) reprova
     espera(any("[montagem]" in p for p in deck.gates_pre([{"chave": "z", "tipo": "id"}], cur)), "entrada sem campos passou")
     # F-03: navegador do Kenhub invisível

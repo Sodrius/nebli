@@ -42,7 +42,7 @@ ROOT = Path(__file__).resolve().parents[2]
 CLOZE_RE = re.compile(r"\{\{c(\d+)::(.*?)(?:::[^}]*)?\}\}", re.S)
 INGLES = re.compile(r"\b(the|of|and|is|are|which|from|via|with|located|between|nerve|structure)\b", re.I)
 SEPARADORES = re.compile(r"\s/\s|;|\s[-–—]\s|:|·")
-VERSAO_MIDIA = "3"                    # nome de arquivo novo a cada mudança de desenho (o Anki guarda imagem em cache)
+VERSAO_MIDIA = "7"                    # nome de arquivo novo a cada mudança de desenho (o Anki guarda imagem em cache)
 
 
 class AnkiPaciente(Anki):
@@ -100,6 +100,13 @@ def _ponta_no_fundo(imagem, ponta):
     x, y = int(ponta[0]), int(ponta[1])
     viz = a[max(0, y - 6):y + 7, max(0, x - 6):x + 7]
     return float((viz > 235).mean()) if viz.size else 1.0
+
+
+def _fracao_vermelha(imagem):
+    """Fração de vermelho saturado na figura: seta vermelha = pouco (0,02–4,5%; cabeça em corte sagital tem língua e músculo vermelhos); região pintada de vermelho = muito."""
+    a = np.asarray(Image.open(imagem).convert("RGB")).astype(int)
+    r, g, b = a[..., 0], a[..., 1], a[..., 2]
+    return float(((r > 180) & (g < 80) & (b < 80)).mean())
 
 
 def _chave_txt(t):
@@ -255,6 +262,12 @@ def _montar(e, cur, base, gerados, media, A):
             raise ValueError("AnatoKing sem figura de modelo (sem seta): não há direcionamento")
         modelos = _imgs(campos.get("Model", ""))
         imagens = modelos[0]   # uma figura na frente: o modelo com a seta vermelha (bater o olho e saber onde está)
+        arq_modelo = os.path.join(media, urllib.parse.unquote(re.search(r'src="([^"]+)"', imagens).group(1)))
+        e["vermelho_modelo"] = _fracao_vermelha(arq_modelo) if os.path.exists(arq_modelo) else 0.0
+        nome_modelo = urllib.parse.unquote(re.search(r'src="([^"]+)"', imagens).group(1))
+        # figura genérica (a mesma foto numerada serve a vários cards do AnatoKing) não aponta a estrutura deste card
+        e["usos_modelo"] = len(A("findNotes", query=f'"deck:Referências::Referências Externas::AnatoKing" "Model:*{nome_modelo}*"'))
+        e["base_frente_cloze"] = arq_modelo
         verso = "".join(modelos[1:] + _imgs(campos.get("Cadaver", "")) + _imgs(campos.get("Imaging", "")) + _imgs(campos.get("Illustration", "")))
         en = _limpo(CLOZE_RE.search(campos["Text"]).group(2)).split(" / ")[0]
         e.update(modelo=modelo.CLOZE, cor=cor(e["apos"]), fonte="AnatoKing", tags_origem=src["tags"], campos={
@@ -267,12 +280,14 @@ def _montar(e, cur, base, gerados, media, A):
         imgs = "".join(_imgs(campos.get("Extra", "")))
         extra = (e.get("extra_pt", "") + ("<br>" if e.get("extra_pt") and imgs else "") + imgs).strip()
         e.update(modelo=modelo.CLOZE, cor=_cor_hy(src["tags"]), fonte="AnKing", tags_origem=src["tags"], campos={
-            "Text": e["text_pt"], "Imagens": "", "Extra": extra, "Nome EN": _limpo(campos["Text"]), "Fonte": "",
+            "Text": e["text_pt"], "Imagens": "", "Extra": extra, "Nome EN": _limpo(CLOZE_RE.sub(lambda m: m.group(2), campos["Text"])), "Fonte": "",
             "ID (hidden)": f"nebli-{cur['lesson_id']}-{e['chave']}"})
         e["falta_midia"] = _midia_faltando(extra, media)
         e["clozes_origem"] = sorted({int(n) for n, _ in CLOZE_RE.findall(campos["Text"])})
     else:
         raise ValueError(f"tipo de entrada desconhecido: {e['tipo']!r}")
+    if e.get("base_frente_cloze"):
+        e["ocr_frente"] = fontes_io.textos(e["base_frente_cloze"])
     if e.get("modelo") == modelo.NOME and e.get("base_frente"):
         frente = Image.open(e["base_frente"]).convert("RGBA")
         mq = e["campos"]["MascaraP"]
@@ -292,6 +307,8 @@ def gates_pre(entradas, cur):
             p.append(f"[montagem] {e['chave']}: entrada sem campos montados (tipo {e['tipo']!r})")
             continue
         k = e["chave"]
+        if any(CLOZE_RE.search(v) for kk, v in e["campos"].items() if kk != "Text"):   # o Anki recusa a nota (“unknown reason”)
+            p.append(f"[montagem] {k}: marcação de cloze fora do campo Text")
         if e["campos"].get("Fonte"):
             p.append(f"[G14 sem fonte] {k}: campo Fonte preenchido ({e['campos']['Fonte'][:30]!r})")
         if e.get("falta_midia"):
@@ -307,6 +324,9 @@ def gates_pre(entradas, cur):
                 p.append(f"[G8 português] {k}: nome em PT igual ao inglês (traduzir em 'nome_pt')")
             meta = e.get("meta", {})
             if e["tipo"] == "kenhub":
+                w_, h_ = Image.open(e["base_frente"]).size
+                if meta.get("area_mascara", 0) < 0.002 * w_ * h_:
+                    p.append(f"[G17 máscara evidente] {k}: máscara pequena demais para se ver ({meta.get('area_mascara', 0)} px)")
                 if not (meta.get("seta") and meta.get("ponta_na_mascara")):
                     p.append(f"[G10 direcionamento] {k}: seta ausente ou não toca a máscara")
                 if meta.get("sobra_verde", 1) > 0:
@@ -340,6 +360,16 @@ def gates_pre(entradas, cur):
                     p.append(f"[histórico] {k}: lacunas {nov} != originais {e.get('clozes_origem')} (cards se perderiam)")
             if e["tipo"] == "acervo" and not e["campos"]["Imagens"]:
                 p.append(f"[G10 direcionamento] {k}: AnatoKing sem imagens")
+            if e["tipo"] == "acervo" and e.get("usos_modelo", 1) > 1:
+                p.append(f"[G10 direcionamento] {k}: figura do modelo é genérica (a mesma em {e['usos_modelo']} cards do AnatoKing) — não aponta esta estrutura")
+            if e["tipo"] == "acervo" and not (0.0002 <= e.get("vermelho_modelo", 0) <= 0.045):
+                p.append(f"[G10 direcionamento] {k}: figura do modelo sem seta vermelha (vermelho {e.get('vermelho_modelo', 0):.2%})")
+            if e["tipo"] == "acervo":   # G12 também no cloze: a figura da frente não pode trazer a resposta escrita (legenda)
+                lido = _chave_txt(" ".join(e.get("ocr_frente", [])))
+                for resp in (e["pt"], e["campos"].get("Nome EN", "")):
+                    palavras = re.findall(r"[a-zà-ú]{4,}", resp.lower())
+                    if palavras and all(_chave_txt(w) in lido for w in palavras):
+                        p.append(f"[G12 resposta vazada] {k}: a figura da frente mostra {resp!r}")
     return p
 
 
@@ -379,9 +409,10 @@ def _chaves_nota(n):
 def _em_outras_unidades(A, lesson):
     """chave → nota da UC07 que já existe em OUTRA unidade (a mesma figura/nota não vira card repetido: é associada)."""
     out = {}
-    q = f'"tag:NEBLI::uc07" -"tag:NEBLI::{lesson}" -"tag:NEBLI::retirado::*"'
+    q = '"tag:NEBLI::uc07" -"tag:NEBLI::retirado::*"'
     for n in A("notesInfo", notes=A("findNotes", query=q)):
-        if any(t.startswith("NEBLI::uc07::assoc::") for t in n["tags"]) and not any(t.startswith("NEBLI::chave::") for t in n["tags"]):
+        # “desta unidade” = tem a etiqueta da unidade SEM a marca de associação; associada a ela continua sendo de outra
+        if f"NEBLI::{lesson}" in n["tags"] and f"NEBLI::uc07::assoc::{lesson}" not in n["tags"]:
             continue
         for k in _chaves_nota(n):
             out.setdefault(k, n["noteId"])
@@ -540,7 +571,21 @@ def gates_pos(A, cur, itens, resultados, antes):
     for i in itens:
         if i["slug"] not in cobertas:
             falhas.append(f"[cobertura] estrutura sem card no deck final: {i['slug']}")
+    falhas += duplicatas(A)
     return falhas
+
+
+def duplicatas(A):
+    """[sem duplicata] a mesma estrutura do Kenhub (ou a mesma nota de origem) não pode ter duas notas próprias na UC07."""
+    donos = {}
+    for n in A("notesInfo", notes=A("findNotes", query='"tag:NEBLI::uc07" -"tag:NEBLI::retirado::*"')):
+        licoes = [t for t in n["tags"] if t.startswith("NEBLI::2026-uc07-")]
+        assoc = {t.split("::")[-1] for t in n["tags"] if t.startswith("NEBLI::uc07::assoc::")}
+        if not [l for l in licoes if l.split("::", 1)[1] not in assoc]:
+            continue
+        for k in set(_chaves_nota(n)):
+            donos.setdefault(k, set()).add(n["noteId"])
+    return [f"[sem duplicata] {k}: {len(v)} notas próprias na UC07 ({sorted(v)[:3]})" for k, v in donos.items() if len(v) > 1]
 
 
 def main():

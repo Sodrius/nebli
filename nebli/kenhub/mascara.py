@@ -142,7 +142,7 @@ def _componentes(m):
     return sorted(comps, key=lambda c: -len(c[0]))
 
 
-def planejar_seta(m, rotulo_wh, comprimento=(110, 150, 190, 240)):
+def planejar_seta(m, rotulo_wh, comprimento=(170, 220, 130, 270)):
     """Escolhe direção e comprimento da seta até a maior parte da máscara `m`, com a caixa do rótulo (w, h) na cauda,
     dentro da figura, sem cobrir a máscara nem a marca do Kenhub. Devolve (ponta, cauda, caixa) ou levanta ValueError."""
     h, w = m.shape
@@ -184,7 +184,7 @@ def planejar_seta(m, rotulo_wh, comprimento=(110, 150, 190, 240)):
                 continue
             # preferir direções que deixam folga das bordas e da máscara; desempate: setas mais curtas
             folga = min(caixa[0], caixa[1], w - caixa[2], h - caixa[3])
-            nota = folga - 0.2 * comp
+            nota = folga
             if melhor is None or nota > melhor[0]:
                 melhor = (nota, ponta, cauda, caixa)
         if melhor:
@@ -220,28 +220,43 @@ COR_SETA_ANKING = (229, 38, 30)   # vermelho de anotação (como as setas/linhas
 BORDA_MASCARA = (45, 45, 45)       # #2D2D2D, a borda das máscaras do Image Occlusion do AnKing
 
 
-def retangulos(regiao, pad=5, area_min=AREA_MINIMA):
-    """Máscara no padrão AnKing: um retângulo (com folga) por parte da estrutura. Devolve (máscara booleana, lista de caixas)."""
+def retangulos(regiao, pad=5, area_min=AREA_MINIMA, grande=0.04):
+    """Máscara no padrão AnKing: um retângulo (com folga) por parte da estrutura. Parte GRANDE (> `grande` da figura), cujo
+    retângulo esconderia muito do que não é a estrutura, fica com a forma da própria estrutura (mesma cor e borda) — senão
+    o lobo/cérebro vira um bloco que apaga o contexto. Devolve (máscara booleana, caixas retangulares, máscara das formas)."""
     h, w = regiao.shape
-    caixas = []
-    for ys, xs in _componentes(regiao):
-        if len(ys) < area_min:
-            continue
-        caixas.append((max(0, xs.min() - pad), max(0, ys.min() - pad), min(w - 1, xs.max() + pad), min(h - 1, ys.max() + pad)))
-    m = np.zeros_like(regiao)
+    caixas, formas = [], np.zeros_like(regiao)
+    comps = [c for c in _componentes(regiao) if len(c[0]) >= area_min]
+    if len(comps) > 4:
+        # nervo/vaso cortado em muitos pedaços por estruturas por cima: 30 retângulos espalhados ficam toscos — pinta o
+        # traçado da própria estrutura, engrossado para se ver (F-20261017-CLAUDE-05)
+        for ys, xs in comps:
+            formas[ys, xs] = True
+        formas = dilatar(formas, 6)
+        return formas.copy(), [], formas
+    for ys, xs in comps:
+        x0, y0, x1, y1 = max(0, xs.min() - pad), max(0, ys.min() - pad), min(w - 1, xs.max() + pad), min(h - 1, ys.max() + pad)
+        area, caixa = len(ys), (x1 - x0 + 1) * (y1 - y0 + 1)
+        # grande (lobo, cérebro) ou alongada/diagonal (giro): o retângulo apagaria o contexto → forma da própria estrutura.
+        # Pequena ou linha fina (sulco, núcleo): retângulo, que se vê melhor.
+        if area > grande * w * h or (caixa > 3 * area and area > 0.003 * w * h):
+            formas[ys, xs] = True
+        else:
+            caixas.append((x0, y0, x1, y1))
+    m = formas.copy()
     for x0, y0, x1, y1 in caixas:
         m[y0:y1 + 1, x0:x1 + 1] = True
-    return m, caixas
+    return m, caixas, formas
 
 
-def _seta_limpa(d, ponta, cauda, larg=6, cabeca=24):
+def _seta_limpa(d, ponta, cauda, larg=8, cabeca=32):
     px, py = ponta
     qx, qy = cauda
     ang = np.arctan2(py - qy, px - qx)
     base = (px - cabeca * np.cos(ang), py - cabeca * np.sin(ang))
     esq = (base[0] + cabeca * 0.5 * np.sin(ang), base[1] - cabeca * 0.5 * np.cos(ang))
     dir_ = (base[0] - cabeca * 0.5 * np.sin(ang), base[1] + cabeca * 0.5 * np.cos(ang))
-    for cor, extra in (((255, 255, 255), 4), (COR_SETA_ANKING, 0)):   # halo branco: aparece em tecido escuro e claro
+    for cor, extra in (((30, 30, 30), 8), ((255, 255, 255), 4), (COR_SETA_ANKING, 0)):   # contorno escuro + halo branco: aparece em músculo, osso e fundo
         d.line([cauda, base], fill=cor, width=larg + extra)
         d.polygon([(px + extra * np.cos(ang) * 0.7, py + extra * np.sin(ang) * 0.7), esq, dir_], fill=cor)
 
@@ -255,7 +270,7 @@ def overlays(tamanho, regiao_mascara, nome_pt, ponta=None, cauda=None, cobrir=Tr
     w, h = tamanho
     tam = max(20, int(w / 34))
     f, linhas, bw, bh, alt = _caixa_texto(nome_pt, tam, int(w * 0.36))
-    regiao, caixas_m = retangulos(regiao_mascara) if cobrir else (regiao_mascara, [])
+    regiao, caixas_m, formas = retangulos(regiao_mascara) if cobrir else (regiao_mascara, [], np.zeros_like(regiao_mascara))
     if ancora is not None:
         seta = False
         ponta = cauda = ancora
@@ -276,8 +291,14 @@ def overlays(tamanho, regiao_mascara, nome_pt, ponta=None, cauda=None, cobrir=Tr
         im = Image.new("RGBA", (w, h), (0, 0, 0, 0))
         d = ImageDraw.Draw(im)
         if lado == "frente" and cobrir:
+            if formas.any():   # forma da estrutura grande, com borda #2D2D2D de 2 px como os retângulos
+                arr = np.array(im)
+                arr[formas] = (*COR_PERGUNTA, 255)
+                arr[formas & ~_erodir(formas, 3)] = (*BORDA_MASCARA, 255)
+                im = Image.fromarray(arr)
+                d = ImageDraw.Draw(im)
             for x0, y0, x1, y1 in caixas_m:
-                d.rectangle((x0, y0, x1, y1), fill=(*COR_PERGUNTA, 255), outline=BORDA_MASCARA, width=2)
+                d.rectangle((x0, y0, x1, y1), fill=(*COR_PERGUNTA, 255), outline=BORDA_MASCARA, width=3)
         if seta:
             _seta_limpa(d, ponta, cauda)
         if lado == "verso":
@@ -289,5 +310,5 @@ def overlays(tamanho, regiao_mascara, nome_pt, ponta=None, cauda=None, cobrir=Tr
     viz = regiao[max(0, py - 12):py + 13, max(0, px - 12):px + 13]
     meta = {"ponta": [round(float(ponta[0]), 1), round(float(ponta[1]), 1)], "cauda": [round(float(cauda[0]), 1), round(float(cauda[1]), 1)],
             "caixa": list(map(int, caixa)), "ponta_na_mascara": bool(viz.any()), "seta": seta, "estilo": "anking",
-            "retangulos": len(caixas_m), "ancora": None if ancora is None else [round(float(ancora[0]), 1), round(float(ancora[1]), 1)]}
+            "retangulos": len(caixas_m), "formas": int(formas.sum()), "area_mascara": int(regiao.sum()), "ancora": None if ancora is None else [round(float(ancora[0]), 1), round(float(ancora[1]), 1)]}
     return out[0], out[1], meta

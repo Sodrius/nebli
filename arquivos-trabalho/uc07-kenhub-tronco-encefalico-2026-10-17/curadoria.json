@@ -123,55 +123,6 @@
    "pt": "Quiasma óptico"
   },
   {
-   "nid": 1540251996841,
-   "apos": "nervus-opticus",
-   "cobre": [],
-   "nota": "",
-   "pt": "Nervo óptico (II)"
-  },
-  {
-   "nid": 1540252014940,
-   "apos": "nervus-trochlearis",
-   "cobre": [],
-   "nota": "",
-   "pt": "Nervo troclear (IV)"
-  },
-  {
-   "nid": 1540252153634,
-   "apos": "nervus-vagus",
-   "cobre": [],
-   "nota": "",
-   "pt": "Nervo vago (X)"
-  },
-  {
-   "nid": 1540252142290,
-   "apos": "glossopharyngeal-nerve",
-   "cobre": [],
-   "nota": "",
-   "pt": "Nervo glossofaríngeo (IX)"
-  },
-  {
-   "nid": 1541100906901,
-   "apos": "nervus-vestibulocochlearis",
-   "cobre": [],
-   "nota": "",
-   "pt": "Nervo vestibulococlear (VIII)"
-  },
-  {
-   "nid": 1540252098615,
-   "apos": "facial-nerve",
-   "cobre": [],
-   "nota": "",
-   "pt": "Nervo facial (VII)"
-  },
-  {
-   "nid": 1540252081579,
-   "apos": "abducens-nerve",
-   "cobre": [],
-   "nota": "",
-   "pt": "Nervo abducente (VI)"
-  },
-  {
    "nid": 1540251137463,
    "apos": "third-ventricle",
    "cobre": [],
@@ -279,7 +230,14 @@
   "1480875895840": "AnKing ID em corte (núcleo espinal do V): o “ID” não é legível na figura e o núcleo é da unidade 22; tubérculo do trigêmeo vem do Netter",
   "1480874939086": "AnKing ID em corte (NC V): o “ID” não é legível; fica para a unidade 21/22",
   "1480612335699": "resposta é lista de 4 algarismos (cloze de várias palavras); o conteúdo está nos cards de núcleos por parte do tronco",
-  "1480612341720": "resposta é lista de 4 algarismos (cloze de várias palavras); idem"
+  "1480612341720": "resposta é lista de 4 algarismos (cloze de várias palavras); idem",
+  "1540251996841": "modelo do AnatoKing é foto genérica repetida em 17 cards (não aponta este nervo) — G10; o nervo tem card do Kenhub",
+  "1540252014940": "modelo do AnatoKing é foto genérica repetida em 17 cards (não aponta este nervo) — G10; o nervo tem card do Kenhub",
+  "1540252153634": "modelo do AnatoKing é foto genérica repetida em 17 cards (não aponta este nervo) — G10; o nervo tem card do Kenhub",
+  "1540252142290": "modelo do AnatoKing é foto genérica repetida em 17 cards (não aponta este nervo) — G10; o nervo tem card do Kenhub",
+  "1541100906901": "modelo do AnatoKing é foto genérica repetida em 17 cards (não aponta este nervo) — G10; o nervo tem card do Kenhub",
+  "1540252098615": "modelo do AnatoKing é foto genérica repetida em 17 cards (não aponta este nervo) — G10; o nervo tem card do Kenhub",
+  "1540252081579": "modelo do AnatoKing é foto genérica repetida em 17 cards (não aponta este nervo) — G10; o nervo tem card do Kenhub"
  },
  "netter": [
   {

@@ -1,0 +1,127 @@
+{
+ "modulo": "introducao-ao-sistema-nervoso",
+ "unidade": "sistema-nervoso-central-introducao-ao-encefalo",
+ "unidade_kenhub": "basic-anatomy-of-the-brain",
+ "deck": "NEBLI::UC07::Introdução ao sistema nervoso::Sistema nervoso central: introdução ao encéfalo",
+ "short": "u7ea49",
+ "lesson_id": "2026-uc07-introducao-ao-sistema-nervoso-sistema-nervoso-central-introducao-ao-encefalo",
+ "cores": {
+  "endbrain": "verde",
+  "cerebellum": "verde",
+  "interbrain": "verde",
+  "brainstem": "verde",
+  "brain": "verde",
+  "thalamus": "azul",
+  "frontal-lobe": "verde",
+  "gyrus-precentralis": "verde",
+  "lobus-parietalis": "verde",
+  "gyrus-postcentralis": "verde",
+  "lobus-temporalis": "verde",
+  "lobus-occipitalis": "verde",
+  "insula": "verde",
+  "limbic-lobe": "azul",
+  "glandula-pituitaria": "azul",
+  "mesencephalon-2": "verde",
+  "pons": "verde",
+  "medulla-oblongata": "verde"
+ },
+ "kenhub_excluir": {},
+ "nome_pt": {},
+ "nome_igual_ok": [],
+ "netter": [],
+ "acervo": [
+  {
+   "nid": 1540251271030,
+   "apos": "cerebellum",
+   "cobre": [
+    "cerebellum"
+   ],
+   "pt": "Cerebelo"
+  },
+  {
+   "nid": 1540250763012,
+   "apos": "frontal-lobe",
+   "cobre": [
+    "frontal-lobe"
+   ],
+   "pt": "Lobo frontal"
+  },
+  {
+   "nid": 1543513385640,
+   "apos": "glandula-pituitaria",
+   "cobre": [
+    "glandula-pituitaria"
+   ],
+   "pt": "Hipófise"
+  },
+  {
+   "nid": 1540251144532,
+   "apos": "mesencephalon-2",
+   "cobre": [
+    "mesencephalon-2"
+   ],
+   "pt": "Mesencéfalo"
+  },
+  {
+   "nid": 1540251336134,
+   "apos": "pons",
+   "cobre": [
+    "pons"
+   ],
+   "pt": "Ponte"
+  },
+  {
+   "nid": 1540251362281,
+   "apos": "medulla-oblongata",
+   "cobre": [
+    "medulla-oblongata"
+   ],
+   "pt": "Bulbo"
+  }
+ ],
+ "anking_io": [],
+ "anking": [
+  {
+   "nid": 1481130891600,
+   "text_pt": "O cerebelo é formado por um {{c1::verme}} mediano e dois {{c2::hemisférios}} laterais",
+   "extra_pt": "Cada hemisfério tem uma parte intermédia e uma lateral."
+  },
+  {
+   "nid": 1481513119712,
+   "text_pt": "O giro {{c1::pré}}-central é a área do córtex {{c2::motor primário}} (lobo frontal)"
+  },
+  {
+   "nid": 1481513127112,
+   "text_pt": "O giro {{c1::pós}}-central é a área do córtex {{c2::somatossensitivo primário}} (lobo parietal)"
+  },
+  {
+   "nid": 1481513092382,
+   "text_pt": "O sulco {{c1::lateral}} separa o lobo temporal dos lobos parietal e frontal",
+   "extra_pt": "Também chamado fissura de Sylvius."
+  },
+  {
+   "nid": 1461867909640,
+   "text_pt": "A glândula pituitária, também chamada {{c1::hipófise}}, tem um lobo anterior e um lobo posterior"
+  },
+  {
+   "nid": 1461869991748,
+   "text_pt": "O lobo posterior da hipófise deriva de tecido {{c1::neural}}",
+   "extra_pt": "Por isso é chamado neuro-hipófise."
+  },
+  {
+   "nid": 1481513292610,
+   "text_pt": "Lesões do lobo {{c1::frontal}} podem fazer reaparecer reflexos primitivos"
+  }
+ ],
+ "retirar": {
+  "1576970895707": "AnatoKing sem modelo com seta (G10)",
+  "1576970959189": "AnatoKing sem modelo com seta (G10)",
+  "1540251045003": "imagem ausente na mídia (G4)",
+  "1481596907931": "“ID” ilegível na figura (G10)",
+  "1481596912130": "“ID” ilegível na figura (G10)",
+  "1540250889153": "modelo do AnatoKing é hemisfério colorido com legenda (sem seta; a legenda entrega a resposta) — G10/G12",
+  "1540250915746": "modelo do AnatoKing é hemisfério colorido com legenda (sem seta; a legenda entrega a resposta) — G10/G12",
+  "1540250830460": "modelo do AnatoKing é hemisfério colorido com legenda (sem seta; a legenda entrega a resposta) — G10/G12",
+  "1540250906845": "modelo do AnatoKing é hemisfério colorido com legenda (sem seta; a legenda entrega a resposta) — G10/G12"
+ }
+}

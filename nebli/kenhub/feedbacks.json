@@ -121,7 +121,7 @@
    "id": "F-20261017-CLAUDE-05",
    "data": "17/10/2026",
    "literal": "o IO com seta ainda tá meio tosco / quando o IO for só em uma figura, quero bater o olho e já saber onde está a estrutura / pode modificar alguns anking para tirar quando tem 2 imgs mas só usa uma no card / deixa sem aparecer em cima o nome da estrutura quando já tem seta apontando / deixa sempre kenhub como gate-hard / sempre tira as fontes do campo fonte também do deck, deixa só as que não der para tirar / deixa a imagem dum tamanho adequado, nem mt grande nem mt pequeno / quando for do kenhub e o IO ficar mt evidente, nem precisa de frase tipo 'que estrutura é essa?' quero só a seta e o IO padrão anking / a ordem de geração deve seguir meu cronograma de aulas da uc07 que tá na planilha mestra",
-   "regra": "IO padrão AnKing (retângulo vermelho com borda + seta vermelha limpa, sem “?” nem frase); verso sem nome em cima quando há seta (nome na ponta da seta); uma figura por card; Kenhub sempre (sem exclusão); nenhuma fonte em texto; figura de tamanho adequado; ordem das unidades = cronograma da UC07.",
+   "regra": "IO padrão AnKing (retângulo vermelho com borda + seta vermelha limpa, sem “?” nem frase); verso sem nome em cima quando há seta (nome na ponta da seta); uma figura por card; Kenhub sempre (sem exclusão); nenhuma fonte em texto; figura de tamanho adequado; ordem das unidades = cronograma da UC07. Estrutura já existente em outra unidade é associada, nunca repetida. A máscara tem de ser vista de relance (G17); figura do AnatoKing que serve a muitos cards não conta como direcionamento.",
    "gates": [
     {
      "codigo": "[kenhub-sempre]",
@@ -150,6 +150,22 @@
     {
      "codigo": "def retangulos",
      "arquivo": "nebli/kenhub/mascara.py"
+    },
+    {
+     "codigo": "[sem duplicata]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[G17 máscara evidente]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "figura do modelo é genérica",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "sem seta vermelha",
+     "arquivo": "nebli/kenhub/deck.py"
     }
    ],
    "teste": "teste_gates: figura do Kenhub excluída → [kenhub-sempre]; campo Fonte preenchido → [G14]; máscara vira retângulos"
