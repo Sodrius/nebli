@@ -181,7 +181,7 @@ IMAGENS_VISTAS = {
  "mb57-baltimore.jpg": "Lâmina 40: esquema de Baltimore com os grupos I–VII convergindo para o +mRNA; verso de au-baltimore.",
  "mb57-estruturas.jpg": "Lâmina 55: cinco tipos de simetria (icosaédrica, icosaédrica envelopada, helicoidal, helicoidal envelopada, complexa); verso de au-estruturas.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (44 notas novas, 64 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Definir vírus e diferenciá-lo de bactérias intracelulares, classificar pelos sistemas hierárquico e de Baltimore, "
              "e descrever a estrutura (genoma, capsídeo, nucleocapsídeo, simetrias, envelope e espículas) e suas consequências.",
