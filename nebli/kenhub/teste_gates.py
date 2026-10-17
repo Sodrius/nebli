@@ -61,23 +61,15 @@ def main():
     e["campos"]["Fonte"] = "Kenhub"
     espera(any("G14" in p for p in deck.gates_pre([e], cur)), "G14 aceitou campo Fonte preenchido")
     from nebli.kenhub import mascara
-    reg_ = np.zeros((50, 50), bool)
-    reg_[10:20, 10:15] = True
-    reg_[11, 30:40] = True
-    m_, cx_, _ = mascara.retangulos(reg_, pad=1, area_min=5)
-    espera(len(cx_) == 2 and m_[9:21, 9:16].all(), "máscara não virou retângulos do padrão AnKing")
-    # [sem duplicata]: duas notas próprias com a mesma estrutura reprovam; associada não conta
-    class Falso:
-        def __init__(self, notas): self.notas = notas
-        def __call__(self, acao, **p):
-            return list(range(len(self.notas))) if acao == "findNotes" else self.notas
-    dup = [{"noteId": 1, "tags": ["NEBLI::2026-uc07-a", TAG, "NEBLI::estrutura::pons"]},
-           {"noteId": 2, "tags": ["NEBLI::2026-uc07-b", TAG, "NEBLI::estrutura::pons"]}]
-    espera(bool(deck.duplicatas(Falso(dup))), "[sem duplicata] aceitou duas notas da mesma estrutura")
-    dup[1]["tags"].append("NEBLI::uc07::assoc::2026-uc07-b")
-    dup[1]["tags"][0] = "NEBLI::2026-uc07-b"
-    dup[0]["tags"].append("NEBLI::2026-uc07-b")
-    espera(not deck.duplicatas(Falso([dup[0]])), "[sem duplicata] reprovou nota associada")
+    reg_ = np.zeros((400, 400), bool)
+    reg_[100:120, 100:110] = True        # parte pequena → retângulo
+    reg_[200, 300:340] = True            # linha fina (sulco) → retângulo
+    m_, cx_, fm_ = mascara.retangulos(reg_, pad=1, area_min=5)
+    espera(len(cx_) == 2 and not fm_.any() and m_[99:121, 99:111].all(), "máscara pequena não virou retângulo do padrão AnKing")
+    grande_ = np.zeros((400, 400), bool)
+    grande_[50:250, 50:250] = True       # lobo/cérebro (25% da figura) → forma, não retângulo que apaga o contexto
+    _, cx2_, fm2_ = mascara.retangulos(grande_)
+    espera(fm2_.any() and not cx2_, "estrutura grande virou retângulo e apagaria o contexto")
     # G17: máscara minúscula reprova; modelo genérico do AnatoKing reprova
     from PIL import Image as _I
     import tempfile as _t

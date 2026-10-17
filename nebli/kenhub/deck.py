@@ -366,7 +366,7 @@ def gates_pre(entradas, cur):
                 p.append(f"[G10 direcionamento] {k}: figura do modelo sem seta vermelha (vermelho {e.get('vermelho_modelo', 0):.2%})")
             if e["tipo"] == "acervo":   # G12 também no cloze: a figura da frente não pode trazer a resposta escrita (legenda)
                 lido = _chave_txt(" ".join(e.get("ocr_frente", [])))
-                for resp in (e["pt"], e["campos"].get("Nome EN", "")):
+                for resp in (e.get("pt", ""), e["campos"].get("Nome EN", "")):
                     palavras = re.findall(r"[a-zà-ú]{4,}", resp.lower())
                     if palavras and all(_chave_txt(w) in lido for w in palavras):
                         p.append(f"[G12 resposta vazada] {k}: a figura da frente mostra {resp!r}")

@@ -1,6 +1,6 @@
 # UC07 — painel de sessão (gerado; não editar à mão)
 
-Gerado em 17/10/2026 16:13 por `./kenhub-deck --painel`. **Ler no início de toda sessão da UC07.**
+Gerado em 17/10/2026 16:14 por `./kenhub-deck --painel`. **Ler no início de toda sessão da UC07.**
 
 ## Onde estamos
 
@@ -19,7 +19,7 @@ Fila e tabela das 51 unidades: [PLANO-UC07-NEUROANATOMIA-COMPLETA-2026-10-17.md]
 Para pedindo curadoria (rascunho gerado); depois instala, reconcilia e só termina com TODOS os gates ok. Olhar as folhas de contato.
 Antes de instalar: navegador de cards do Anki fechado (o comando avisa). No fim: `pkill -f nebli.kenhub.navegador` (Kenhub = 1 aparelho por vez).
 
-## Feedbacks de Davi → gates duros (teste dos gates: REPROVADO)
+## Feedbacks de Davi → gates duros (teste dos gates: OK)
 
 | Id | Regra | Gates (onde reprova) | Prova |
 |---|---|---|---|
@@ -31,22 +31,3 @@ Antes de instalar: navegador de cards do Anki fechado (o comando avisa). No fim:
 
 Feedback novo: literal em FEEDBACKS → regra no MEMORY §15 → entrada em `nebli/kenhub/feedbacks.json` → gate no código → caso ruim em `teste_gates.py` → `./kenhub-deck --painel` verde.
 
-## FALHA DO TESTE DOS GATES
-
-```
-warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
-Traceback (most recent call last):
-  File "<frozen runpy>", line 201, in _run_module_as_main
-  File "<frozen runpy>", line 87, in _run_code
-  File "/Users/davisousa/NEBLI/nebli/kenhub/teste_gates.py", line 104, in <module>
-    main()
-    ~~~~^^
-  File "/Users/davisousa/NEBLI/nebli/kenhub/teste_gates.py", line 41, in main
-    espera(any("G8" in p for p in deck.gates_pre([clz], cur)), "G8 aceitou cloze longo em inglês")
-                                  ~~~~~~~~~~~~~~^^^^^^^^^^^^
-  File "/Users/davisousa/NEBLI/nebli/kenhub/deck.py", line 369, in gates_pre
-    for resp in (e["pt"], e["campos"].get("Nome EN", "")):
-                 ~^^^^^^
-KeyError: 'pt'
-
-```
