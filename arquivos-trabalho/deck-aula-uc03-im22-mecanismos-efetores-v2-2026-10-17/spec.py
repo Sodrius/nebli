@@ -29,7 +29,7 @@ IMG = lambda n, w=420: f'<img src="im22-{n}.png" width="{w}">'
 BUSCA = ("Três caminhos (17/10): seções de recurso do AnKing (FirstAid burst, NK, macrófagos, neutrófilos, fagocitose, IFN-γ; busca/secoes); "
          "palavra-chave em AnKing e Referências Externas (busca/anking.txt); significado em todos os acervos e NEBLI vivo (busca/semantica.jsonl). ")
 # Vaga da 08 (ainda não instalada): preencher com a cópia NEBLI de 1487642714884 (burst respiratório usa O2 e NADPH oxidase).
-IM08 = {"BURST": None}
+IM08 = {"BURST": 1792240189395}
 _V = "entra a cópia NEBLI viva"
 EXCLUIDOS = [(n, f"{a}: {_V}") for n, a in [
  (1487117308213, "NK: perforina e granzimas"), (1487117310594, "IFN α/β ativam NK"), (1487117314403, "NK mata célula sem MHC I"),

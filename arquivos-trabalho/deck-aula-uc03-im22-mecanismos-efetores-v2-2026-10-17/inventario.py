@@ -8,7 +8,7 @@ ativação T, da 20/45; 23 notas vivas já levam a etiqueta desta aula (22 antig
 PREFIXO = "im22"
 AULA = "Mecanismos efetores do sistema imune (UC03 P1; Imunologia)"
 EXC = "EXC: "
-BURST = "sh-IM08-BURST"
+BURST = "sh-1792240189395"
 _08 = EXC + "recapitulação do reconhecimento inato (aula 08)"
 
 SLIDES = [(1, "capa", "Capa", [])] + [

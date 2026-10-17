@@ -160,7 +160,7 @@ for c in CARDS:
         c["extra_add"] = VERSO[c["key"]] + ("<br>" + c["extra_add"] if c.get("extra_add") else "")
 DUPLICACAO = {}
 IMAGENS_VISTAS = {}
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (22 notas novas, 28 cards). Nada a corrigir nos campos NEBLI; observação: o Extra original do AnKing em ak-nod2-crohn diz que NOD2 reconhece LPS (é muramil-dipeptídeo) — original preservado, a apontar no Tab.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Identificar os PRR como sensores da perda de homeostasia (PAMP e DAMP), suas famílias e localizações, as vias dos TLR "
              "(MyD88 → NF-κB; TRIF → IFN tipo I), o inflamassoma (caspase-1, IL-1β), as estratégias efetoras inatas (IFN, citotoxicidade, "
