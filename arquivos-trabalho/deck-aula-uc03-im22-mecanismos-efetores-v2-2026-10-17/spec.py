@@ -192,7 +192,7 @@ IMAGENS_VISTAS = {
  "im22-mo-subtipos.png": "Lâmina 38: origem de monócitos, macrófagos e CD na medula, sangue e tecido; verso de au-residente.",
  "im22-mo-reg.png": "Lâmina 42: Treg (IL-10) e outros sinais induzem o macrófago regulador anti-inflamatório; verso de au-mreg.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (21 notas novas, 22 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Rever como o reconhecimento leva a mecanismos efetores: fagocitose e opsonização, burst oxidativo e NO, neutrófilos e NETs, "
              "NK e ADCC, plasticidade dos macrófagos, migração dos T efetores e as funções de Th1, Th2, Th17 e CTL.",
