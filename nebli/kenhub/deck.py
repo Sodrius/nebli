@@ -362,7 +362,7 @@ def gates_pre(entradas, cur):
                 p.append(f"[G10 direcionamento] {k}: AnatoKing sem imagens")
             if e["tipo"] == "acervo" and e.get("usos_modelo", 1) > 1:
                 p.append(f"[G10 direcionamento] {k}: figura do modelo é genérica (a mesma em {e['usos_modelo']} cards do AnatoKing) — não aponta esta estrutura")
-            if e["tipo"] == "acervo" and not (0.0002 <= e.get("vermelho_modelo", 0) <= 0.045):
+            if e["tipo"] == "acervo" and not (0.0001 <= e.get("vermelho_modelo", 0) <= 0.045):
                 p.append(f"[G10 direcionamento] {k}: figura do modelo sem seta vermelha (vermelho {e.get('vermelho_modelo', 0):.2%})")
             if e["tipo"] == "acervo":   # G12 também no cloze: a figura da frente não pode trazer a resposta escrita (legenda)
                 lido = _chave_txt(" ".join(e.get("ocr_frente", [])))

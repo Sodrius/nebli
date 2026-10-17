@@ -1,12 +1,13 @@
 # UC07 — painel de sessão (gerado; não editar à mão)
 
-Gerado em 17/10/2026 16:14 por `./kenhub-deck --painel`. **Ler no início de toda sessão da UC07.**
+Gerado em 17/10/2026 16:51 por `./kenhub-deck --painel`. **Ler no início de toda sessão da UC07.**
 
 ## Onde estamos
 
 | Deck | Notas | Verde/azul/rosa | Estado | Última execução | Corrida |
 |---|---|---|---|---|---|
 | NEBLI::UC07::Introdução ao sistema nervoso::Sistema nervoso central: introdução ao encéfalo | 31 | 20/11/0 | ENTREGUE (gates ok) | 2026-10-17T19:04 | `uc07-kenhub-introducao-ao-sistema-nervoso-sistema-nervoso-central-introducao-ao-encefalo-2026-10-17` |
+| NEBLI::UC07::Introdução ao sistema nervoso::Sistema nervoso periférico: nervos, gânglios e plexos | 26 | 8/17/1 | ENTREGUE (gates ok) | 2026-10-17T19:24 | `uc07-kenhub-introducao-ao-sistema-nervoso-sistema-nervoso-periferico-nervos-ganglios-e-plexos-2026-10-17` |
 | NEBLI::UC07::Tronco encefálico::Visão geral e anatomia de superfície | 110 | 40/53/17 | ENTREGUE (gates ok) | 2026-10-17T19:11 | `uc07-kenhub-tronco-encefalico-2026-10-17` |
 
 Fila e tabela das 51 unidades: [PLANO-UC07-NEUROANATOMIA-COMPLETA-2026-10-17.md](PLANO-UC07-NEUROANATOMIA-COMPLETA-2026-10-17.md). Próxima: a primeira “a fazer” na ordem sugerida do plano.

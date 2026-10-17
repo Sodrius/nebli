@@ -6,6 +6,8 @@ Ao concluir cada deck: atualizar **Retomar aqui**, **Quem está com o quê**, a 
 
 ## Retomar aqui
 
+- **17/10 noite (3) — UC07: unidades 1–2 entregues; 3 e 4 com curadoria pronta, FALTA INSTALAR (Claude).** `./kenhub-deck <slug> "<Módulo>" "<Submódulo>"` (sem `--dry-run`) instala quando o Anki não tiver janela de edição aberta (o comando espera 5 min e para sem escrever). Unidade 3: `spinal-cord-in-situ` (56 notas); 4: `spinal-membranes-and-nerve-roots` (20 notas); depois a ordem do cronograma no plano. Netter para estruturas sem figura no Kenhub: `fontes_io.netter` (rótulo achado por OCR na própria figura).
+
 - **17/10 noite (2) — UC07 v3 (F-20261017-CLAUDE-05): IO padrão AnKing com seta, Kenhub sempre, sem fonte, uma figura, ordem pelo cronograma.** Tronco encefálico › superfície: 117 notas, gates ok, folhas vistas. Seguindo o plano na ordem do cronograma (1: SNC introdução; 2: SNP). Codex gerando Tabs em paralelo.
 
 - **17/10 noite — UC07 v2 ENTREGUE (Claude; F-20261017-CLAUDE-04). COMEÇAR TODA SESSÃO DA UC07 POR `./kenhub-deck --painel`.** Deck `NEBLI::UC07::Tronco encefálico::Visão geral e anatomia de superfície` reconciliado no lugar: 116 notas (59 Kenhub seta+IO, 8 Netter seta+IO, 18 AnKing IO no “ID”/níveis, 15 AnatoKing cloze PT, 16 AnKing traduzidos), 45 verdes · 54 azuis · 17 rosas, 67/67 estruturas, comentário em toda nota, gates G1–G13 + renderização do deck inteiro ok, folhas vistas; 9 notas apagadas (sem comentário/revisão) e 1 retirada (decussação do AnatoKing, revisada). Os 2 comentários de Davi corrigidos e marcados. Próxima unidade: 21 Bulbo (anatomia interna) — antes, cadastro único de estruturas (gate “sem duplicata”).

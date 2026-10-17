@@ -1,0 +1,72 @@
+{
+ "modulo": "medula-espinal",
+ "unidade": "meninges-espinais-e-raizes-nervosas",
+ "unidade_kenhub": "spinal-membranes-and-nerve-roots",
+ "deck": "NEBLI::UC07::Medula espinal::Meninges espinais e raízes nervosas",
+ "short": "u772d3",
+ "lesson_id": "2026-uc07-medula-espinal-meninges-espinais-e-raizes-nervosas",
+ "cores": {
+  "substantia-alba": "verde",
+  "gray-matter": "verde",
+  "posterior-root-of-spinal-nerve": "verde",
+  "anterior-root-of-spinal-nerve": "verde",
+  "anterior-ramus-of-spinal-nerve": "verde",
+  "posterior-ramus-of-spinal-nerve": "verde",
+  "plexus-vasculosus-piae-matris": "rosa",
+  "nervus-spinalis": "verde",
+  "ganglion-spinale": "verde",
+  "fila-radicularia-radicis-posterioris": "azul",
+  "fila-radicularia-radicis-anterioris": "azul",
+  "dura-mater-of-spinal-cord": "azul",
+  "arachnoidea-mater-spinalis": "azul",
+  "anterior-spinal-artery": "verde"
+ },
+ "kenhub_excluir": {},
+ "nome_pt": {},
+ "nome_igual_ok": [],
+ "retirar": {
+  "1481596934369": "“ID” ilegível na figura (G10); a artéria espinal anterior tem card do Kenhub"
+ },
+ "netter": [],
+ "acervo": [
+  {
+   "nid": 1540252225099,
+   "apos": "posterior-root-of-spinal-nerve",
+   "cobre": [
+    "posterior-root-of-spinal-nerve"
+   ],
+   "pt": "Raiz posterior"
+  },
+  {
+   "nid": 1540252178114,
+   "apos": "anterior-root-of-spinal-nerve",
+   "cobre": [
+    "anterior-root-of-spinal-nerve"
+   ],
+   "pt": "Raiz anterior"
+  }
+ ],
+ "anking_io": [],
+ "anking": [
+  {
+   "nid": 1479515685141,
+   "text_pt": "Dentro da medula espinal, a substância {{c1::cinzenta}} fica na posição central"
+  },
+  {
+   "nid": 1479515692339,
+   "text_pt": "Dentro da medula espinal, a substância {{c1::branca}} fica na periferia"
+  },
+  {
+   "nid": 1479515746724,
+   "text_pt": "O corno {{c1::anterior}} da substância cinzenta contém neurônios motores"
+  },
+  {
+   "nid": 1479515742552,
+   "text_pt": "O corno {{c1::posterior}} da substância cinzenta contém neurônios sensitivos"
+  },
+  {
+   "nid": 1580087677295,
+   "text_pt": "Quais funções ficam preservadas na síndrome da artéria espinal anterior? {{c1::Vibração e tato leve}}"
+  }
+ ]
+}

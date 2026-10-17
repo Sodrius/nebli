@@ -47,10 +47,10 @@ Fonte: `Cronograma 2026 — UC07 — Sistema Nervoso I — Turma B.pdf` (Drive, 
 
 | Ordem | Aula (cronograma) | # | Módulo (deck) | Submódulo (deck) | Slug Kenhub | Estruturas | Exerc. identificação | Estado |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 13/10 · Construção morfofuncional do SN (Gerson) | 1 | Introdução ao sistema nervoso | Sistema nervoso central: introdução ao encéfalo | `basic-anatomy-of-the-brain` | 18 | 17 | a fazer |
-| 2 | 13/10 · Construção morfofuncional do SN (Gerson) | 2 | Introdução ao sistema nervoso | Sistema nervoso periférico: nervos, gânglios e plexos | `peripheral-nervous-system-nerves-ganglia-and-plexuses` | 22 | 23 | a fazer |
-| 3 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 29 | Medula espinal | Topografia e morfologia da medula espinal | `spinal-cord-in-situ` | 44 | 54 | a fazer |
-| 4 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 30 | Medula espinal | Meninges espinais e raízes nervosas | `spinal-membranes-and-nerve-roots` | 14 | 14 | a fazer |
+| 1 | 13/10 · Construção morfofuncional do SN (Gerson) | 1 | Introdução ao sistema nervoso | Sistema nervoso central: introdução ao encéfalo | `basic-anatomy-of-the-brain` | 18 | 17 | **ENTREGUE 17/10** (31 notas) |
+| 2 | 13/10 · Construção morfofuncional do SN (Gerson) | 2 | Introdução ao sistema nervoso | Sistema nervoso periférico: nervos, gânglios e plexos | `peripheral-nervous-system-nerves-ganglia-and-plexuses` | 22 | 23 | **ENTREGUE 17/10** (26 notas) |
+| 3 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 29 | Medula espinal | Topografia e morfologia da medula espinal | `spinal-cord-in-situ` | 44 | 54 | curadoria pronta (56 notas, gates pré ok); **falta instalar** — Anki com janela de edição aberta |
+| 4 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 30 | Medula espinal | Meninges espinais e raízes nervosas | `spinal-membranes-and-nerve-roots` | 14 | 14 | curadoria pronta (20 notas, gates pré ok); **falta instalar** |
 | 5 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 31 | Medula espinal | Morfologia interna da medula espinal | `anatomy-spinal-cord-cross-section` | 46 | 46 | a fazer |
 | 6 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 32 | Medula espinal | Nervos espinais | `anatomy-vertebral-column` | 20 | 19 | a fazer |
 | 7 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 50 | Sistema nervoso periférico e autônomo | Dermátomos e miótomos | `anatomy-pns-dermatomes` | 30 | 46 | a fazer |

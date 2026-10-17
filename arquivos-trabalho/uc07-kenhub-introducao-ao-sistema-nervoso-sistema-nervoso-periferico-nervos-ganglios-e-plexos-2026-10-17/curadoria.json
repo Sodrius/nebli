@@ -1,0 +1,69 @@
+{
+ "modulo": "introducao-ao-sistema-nervoso",
+ "unidade": "sistema-nervoso-periferico-nervos-ganglios-e-plexos",
+ "unidade_kenhub": "peripheral-nervous-system-nerves-ganglia-and-plexuses",
+ "deck": "NEBLI::UC07::Introdução ao sistema nervoso::Sistema nervoso periférico: nervos, gânglios e plexos",
+ "short": "u7c53a",
+ "lesson_id": "2026-uc07-introducao-ao-sistema-nervoso-sistema-nervoso-periferico-nervos-ganglios-e-plexos",
+ "cores": {
+  "nervus-spinalis": "verde",
+  "anterior-root-of-spinal-nerve": "verde",
+  "posterior-root-of-spinal-nerve": "verde",
+  "ganglion-spinale": "verde",
+  "epineurium": "azul",
+  "nerve-fascicle": "azul",
+  "myelin": "azul",
+  "peripheral-myelinated-axon-nerve-fiber": "azul",
+  "unmyelinated-fibers": "azul",
+  "perineurium": "azul",
+  "endoneurium": "azul",
+  "vasa-nervorum": "rosa",
+  "sensory-neuron": "azul",
+  "motor-neuron": "azul",
+  "autonomic-nerve-fibers": "azul",
+  "autonomic-preganglionic-nerve-fibers": "azul",
+  "autonomic-ganglion": "azul",
+  "autonomic-postganglionic-nerve-fibers": "azul",
+  "cervical-plexus": "verde",
+  "brachial-plexus": "verde",
+  "lumbar-plexus": "verde",
+  "plexus-sacralis": "verde"
+ },
+ "kenhub_excluir": {},
+ "nome_pt": {},
+ "nome_igual_ok": [
+  "vasa-nervorum"
+ ],
+ "netter": [],
+ "retirar": {},
+ "anking_io": [],
+ "acervo": [
+  {
+   "nid": 1540252225099,
+   "apos": "posterior-root-of-spinal-nerve",
+   "cobre": [
+    "posterior-root-of-spinal-nerve"
+   ],
+   "pt": "Raiz posterior"
+  }
+ ],
+ "anking": [
+  {
+   "nid": 1484101486736,
+   "text_pt": "O {{c1::perineuro}} de um nervo periférico envolve um fascículo de fibras nervosas"
+  },
+  {
+   "nid": 1484101491031,
+   "text_pt": "O {{c1::endoneuro}} de um nervo periférico envolve cada fibra nervosa individualmente"
+  },
+  {
+   "nid": 1479515731667,
+   "text_pt": "Os corpos celulares dos neurônios das raízes posteriores dos nervos espinais ficam nos {{c1::gânglios espinais}}",
+   "extra_pt": "Também chamados gânglios da raiz posterior (dorsal)."
+  },
+  {
+   "nid": 1554064218108,
+   "text_pt": "Os ramos anteriores dos nervos espinais C5 a T1 formam o plexo {{c1::braquial}}"
+  }
+ ]
+}

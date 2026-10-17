@@ -1,0 +1,163 @@
+{
+ "modulo": "medula-espinal",
+ "unidade": "topografia-e-morfologia-da-medula-espinal",
+ "unidade_kenhub": "spinal-cord-in-situ",
+ "deck": "NEBLI::UC07::Medula espinal::Topografia e morfologia da medula espinal",
+ "short": "u7d137",
+ "lesson_id": "2026-uc07-medula-espinal-topografia-e-morfologia-da-medula-espinal",
+ "cores": {
+  "cervical-nerves-c1-c8": "verde",
+  "nervi-thoracici-t1-t12": "verde",
+  "lumbar-nerves-l1-l4": "azul",
+  "nervi-sacrales-s1-s5": "verde",
+  "coccygeal-nerve": "azul",
+  "conus-medullaris": "verde",
+  "cauda-equina": "verde",
+  "medulla-spinalis": "verde",
+  "posterior-median-sulcus-of-spinal-cord": "verde",
+  "dura-mater-of-spinal-cord": "azul",
+  "posterior-roots": "verde",
+  "ganglion-spinale": "verde",
+  "arteriae-spinales-posteriores": "azul",
+  "arteria-radicularis-posterior": "azul",
+  "arteria-vertebralis": "azul",
+  "arteria-cervicalis-ascendens": "rosa",
+  "lumbar-nerves-l1-l5": "azul",
+  "cervical-enlargement": "verde",
+  "lumbar-enlargement": "verde",
+  "filum-terminale": "verde",
+  "anterior-median-fissure-of-medulla": "verde",
+  "anterolateral-sulcus-of-spinal-cord": "azul",
+  "posterior-intermediate-sulcus-of-spinal-cord": "azul",
+  "posterolateral-sulcus-of-spinal-cord": "azul",
+  "rootlets": "azul",
+  "aorta-thoracica": "rosa",
+  "body-of-the-vertebra": "rosa",
+  "ganglion-of-sympathetic-trunk": "azul",
+  "pia-mater-of-spinal-cord": "azul",
+  "lung": "rosa",
+  "epidural-space": "azul",
+  "spatium-subarachnoideum": "azul",
+  "arachnoidea-mater-spinalis": "azul",
+  "pleura": "rosa",
+  "cornu-laterale-medullae-spinalis": "verde",
+  "anterior-ramus-of-spinal-nerve": "verde",
+  "posterior-ramus-of-spinal-nerve": "verde",
+  "lateral-muscular-ramus": "rosa",
+  "medial-muscular-ramus": "rosa",
+  "anterior-root-of-spinal-nerve": "verde",
+  "posterior-root-of-spinal-nerve": "verde",
+  "gray-ramus-communicans": "azul",
+  "ramus-communicans-albus": "azul",
+  "rami-meningei-recurrentes-nervi-spinalis": "azul"
+ },
+ "kenhub_excluir": {},
+ "nome_pt": {},
+ "nome_igual_ok": [
+  "cauda-equina",
+  "pleura"
+ ],
+ "retirar": {
+  "1481596942441": "“ID” ilegível na figura (G10); a artéria vertebral tem card do Kenhub e do AnatoKing"
+ },
+ "netter": [
+  {
+   "slug": "lateral-muscular-ramus",
+   "pagina": 267,
+   "rotulo": "Lateral branch",
+   "pt": "Ramo lateral do ramo posterior"
+  },
+  {
+   "slug": "medial-muscular-ramus",
+   "pagina": 267,
+   "rotulo": "Medial branch",
+   "pt": "Ramo medial do ramo posterior"
+  },
+  {
+   "slug": "lung",
+   "pagina": 300,
+   "rotulo": "Right lung",
+   "pt": "Pulmão"
+  }
+ ],
+ "acervo": [
+  {
+   "nid": 1540252225099,
+   "apos": "posterior-roots",
+   "cobre": [
+    "posterior-roots",
+    "posterior-root-of-spinal-nerve"
+   ],
+   "pt": "Raiz posterior"
+  },
+  {
+   "nid": 1540252178114,
+   "apos": "anterior-root-of-spinal-nerve",
+   "cobre": [
+    "anterior-root-of-spinal-nerve"
+   ],
+   "pt": "Raiz anterior"
+  },
+  {
+   "nid": 1541185043787,
+   "apos": "arteria-vertebralis",
+   "cobre": [
+    "arteria-vertebralis"
+   ],
+   "pt": "Artérias vertebrais"
+  },
+  {
+   "nid": 1540252309361,
+   "apos": "ganglion-of-sympathetic-trunk",
+   "cobre": [
+    "ganglion-of-sympathetic-trunk"
+   ],
+   "pt": "Tronco simpático"
+  },
+  {
+   "nid": 1549136432215,
+   "apos": "gray-ramus-communicans",
+   "cobre": [
+    "gray-ramus-communicans"
+   ],
+   "pt": "Ramo comunicante cinzento"
+  }
+ ],
+ "anking_io": [],
+ "anking": [
+  {
+   "nid": 1479515649019,
+   "text_pt": "Os nervos C1 a C7 saem {{c1::acima::acima ou abaixo}} da vértebra correspondente",
+   "extra_pt": "Ex.: C2 sai acima da vértebra C2. C8 sai abaixo de C7 e acima de T1, pois não há vértebra C8."
+  },
+  {
+   "nid": 1479515759290,
+   "text_pt": "A {{c1::cauda equina}} é formada pelas raízes dos nervos espinais lombares, sacrais e coccígeo abaixo do cone medular"
+  },
+  {
+   "nid": 1479515737415,
+   "text_pt": "Os corpos celulares dos neurônios das raízes anteriores dos nervos espinais ficam no {{c1::corno anterior}} da medula espinal"
+  },
+  {
+   "nid": 1554475805095,
+   "text_pt": "A lesão de uma artéria espinal posterior compromete as colunas dorsais {{c1::ipsilaterais::ipsilaterais, contralaterais ou ambas}}"
+  },
+  {
+   "nid": 1480516743594,
+   "text_pt": "Se há corno lateral, a medula espinal está entre {{c2::T1}} e {{c2::L2}}"
+  },
+  {
+   "nid": 1480516748970,
+   "text_pt": "Se não há corno lateral, a medula espinal está entre {{c1::C1}} e {{c1::C8}} ou {{c1::L3}} e {{c1::S5}}"
+  },
+  {
+   "nid": 1480516724772,
+   "text_pt": "Se o corno anterior é pequeno, o nível da medula espinal está entre {{c1::C1}} e {{c1::C4}} ou {{c1::T2}} e {{c1::L1}}"
+  },
+  {
+   "nid": 1480514822870,
+   "text_pt": "Se o corno anterior é grande, o nível da medula espinal está entre {{c1::C5}} e {{c1::T1}} ou {{c1::L2}} e {{c1::S2}}",
+   "extra_pt": "Intumescências cervical (C5–T1) e lombossacral (L2–S2)."
+  }
+ ]
+}
