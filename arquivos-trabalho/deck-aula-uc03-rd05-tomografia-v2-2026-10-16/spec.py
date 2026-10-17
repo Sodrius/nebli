@@ -174,7 +174,7 @@ IMAGENS_VISTAS = {
  "rd05-metal.png": "Lâmina 68: TC axial da face com raias claras e escuras saindo das restaurações dentárias; verso de au-metal.",
  "rd05-stranding.png": "Lâmina 86: TC da pelve com seta no apêndice espessado e gordura densificada; verso de au-stranding.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (21 notas novas, 25 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Entender como a TC forma e mostra a imagem (tubo que gira, aquisição helicoidal/multislice, voxel, reconstrução, Hounsfield, "
              "janela e nível, fases do contraste, artefatos), descrever achados com hiper/hipoatenuante e reconhecer os achados que não esperam o radiologista.",

@@ -17,11 +17,11 @@ SH04_DUAS = "sh-1792238914748"
 
 SLIDES = [
  (1, "capa", "Capa", []),
- (2, "secao", "Semiologia radiológica", []),
+ (2, "logistica", "Semiologia radiológica", []),
  (3, "conteudo", "Lateralidade na radiologia: direita do paciente à esquerda da imagem", [("a1", "Convenção de lateralidade", SH04_ORIENT)]),
  (4, "conteudo", "Resolução espacial (mais pixels) × resolução de contraste (aumenta com meio de contraste)", [
    ("a2", "Resolução espacial × de contraste", "au-resolucao"), ("a3", "Contraste exógeno aumenta a diferença entre tecidos", "sh-1792141768903")]),
- (5, "secao", "Métodos de imagem", []),
+ (5, "logistica", "Métodos de imagem", []),
  (6, "conteudo", "Métodos de imagem; TC sem e com contraste (arterial, venosa, tardia, angio, cisto)", [
    ("a4", "Lista dos métodos", "sh-1792141766560"), ("a5", "TC com e sem contraste; fases", "au-fases")]),
  (7, "conteudo", "Colagem de métodos (RX, US, TC, RM, PET, elastografia)", [("a6", "Métodos se complementam", EXC + "mensagem sem fato a decorar (repetida na lâmina 93)")]),
@@ -36,7 +36,7 @@ SLIDES = [
  (16, "conteudo", "Dados brutos → reconstrução axial, sagital, coronal, 3D, MIP, MinIP", [("a15", "Aquisição axial reconstruída em outros planos", "au-reconstrucao")]),
  (17, "conteudo", "Axial, sagital, coronal, reformatação 3D", [("a16", "Planos na TC", ["sh-1792141772506", "au-reconstrucao"])]),
  (18, "conteudo", "Anatomia × radiografia × tomografia", [("a17", "TC remove a sobreposição", "sh-1792141770757")]),
- (19, "secao", "Aquisição da imagem", []),
+ (19, "logistica", "Aquisição da imagem", []),
  (20, "conteudo", "Dados brutos (repetida)", [("a18", "Reconstrução", "au-reconstrucao")]),
  (21, "conteudo", "Sombra da mulher com banana e abacaxi", [("a19", "Uma projeção esconde objetos", SH04_DUAS)]),
  (22, "conteudo", "“One view is no view!”", [("a20", "Duas incidências", SH04_DUAS)]),
@@ -52,7 +52,7 @@ SLIDES = [
  (32, "conteudo", "Arco e fileira de detectores", [("a31", "Fileiras de detectores", "au-helicoidal")]),
  (33, "conteudo", "Single slice × multislice", [("a32", "Várias fatias por giro", "au-helicoidal")]),
  (34, "conteudo", "Helicoidal = exame contínuo; multislice = várias fatias por acionamento; mais resolução, menos tempo", [("a33", "Helicoidal e multislice", "au-helicoidal")]),
- (35, "secao", "Interpretação dos dados brutos", []),
+ (35, "logistica", "Interpretação dos dados brutos", []),
  (36, "conteudo", "Dados brutos (repetida)", [("a34", "Reconstrução", "au-reconstrucao")]),
  (37, "conteudo", "Voxel: pixel 2D → voxel 3D; matriz 512×512; eixo Z = espessura", [("a35", "Voxel", "au-voxel")]),
  (38, "conteudo", "Esquema: tubo, colimador, detectores, computador, monitor", [("a36", "Detectores mandam dados ao computador", "sh-1792141770757")]),
@@ -60,7 +60,7 @@ SLIDES = [
  (40, "conteudo", "Retroprojeção em matriz", [("a38", "Retroprojeção", EXC + "idem")]),
  (41, "conteudo", "Número de projeções melhora a imagem", [("a39", "Projeções", EXC + "idem")]),
  (42, "conteudo", "Voxel no corte (esquema)", [("a40", "Voxel", "au-voxel")]),
- (43, "secao", "Formação da imagem", []),
+ (43, "logistica", "Formação da imagem", []),
  (44, "conteudo", "Dados brutos (repetida)", [("a41", "Reconstrução", "au-reconstrucao")]),
  (45, "conteudo", "Quantificar densidades: atenuação relativa à água; fórmula de Hounsfield", [("a42", "Hounsfield relativo à água", "au-hu")]),
  (46, "conteudo", "Escala de unidades Hounsfield", [("a43", "Escala", "au-hu")]),
@@ -75,7 +75,7 @@ SLIDES = [
  (54, "conteudo", "Isquemia encefálica à direita: mais escuro", [("a52", "Isquemia hipodensa", "sh-1791054020270")]),
  (55, "conteudo", "Janela ampla: atenuações muito diferentes (pulmão, osso); estreita: semelhantes (encéfalo, partes moles)", [("a53", "Ampla × estreita", "au-janela-ampla")]),
  (56, "conteudo", "Hiperatenuante = branco, alta atenuação; hipoatenuante = preto", [("a54", "Termos da TC", "sh-1792141774955")]),
- (57, "secao", "Técnicas do exame", []),
+ (57, "logistica", "Técnicas do exame", []),
  (58, "conteudo", "Protocolo: sem contraste; angiográfica 15 s, arterial 30 s, portal 70 s, nefrográfica 90 s, equilíbrio 3 min, excretora 7 min", [
    ("a55", "Fases e tempos", "au-fases")]),
  (59, "conteudo", "Contraste iodado (repetida)", [("a56", "Iodo", "sh-1792141769157")]),
@@ -90,10 +90,10 @@ SLIDES = [
  (68, "conteudo", "Artefato de endurecimento do feixe (metal dentário)", [("a65", "Endurecimento do feixe", "au-metal")]),
  (69, "conteudo", "Artefatos de movimentação", [("a66", "Movimento borra a imagem", EXC + "só o nome do artefato, sem fato cobrável; citado no verso de au-metal")]),
  (70, "conteudo", "Panorâmica com cães duplicados (analogia do movimento)", [("a67", "Analogia", EXC + "ilustração do artefato de movimento")]),
- (71, "secao", "Anatomia TC", []),
+ (71, "logistica", "Anatomia TC", []),
 ] + [(n, "conteudo", "Anatomia seccional do abdome e pelve (cortes axiais e coronal)", [(f"a{n}", "Anatomia seccional",
      EXC + "anatomia por TC é das aulas de anatomia e correlação; nenhum fato isolado ensinado")]) for n in range(72, 85)] + [
- (85, "secao", "Exemplos de achados", []),
+ (85, "logistica", "Exemplos de achados", []),
  (86, "conteudo", "Apendicite aguda não complicada: parede espessa, gordura densificada", [("a86", "Densificação da gordura", "au-stranding")]),
  (87, "conteudo", "Esteatose hepática: fígado hipoatenuante (perto da gordura)", [("a87", "Esteatose na TC", "sh-1791022172025")]),
  (88, "conteudo", "Pneumotórax no RX e na TC (janela de pulmão)", [("a88", "Pneumotórax: linha pleural", "ak-pneumotorax")]),
@@ -109,7 +109,7 @@ SLIDES = [
  (95, "conteudo", "TC de 1971 × 2023", [("a98", "História", EXC + "curiosidade")]),
  (96, "logistica", "Obrigado", []),
 ]
-JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "secao": "capa de seção sem conteúdo", "logistica": "agradecimento e e-mail"}
+JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "logistica": "capa de seção, agradecimento ou e-mail, sem conteúdo"}
 CAPITULO = [("Bibliografia da aula, livro cap. 3 (TC) e Mello cap. 1 (confirmam)", [
  ("l1", "Princípio: tubo e detectores giram; projeções → reconstrução", ["sh-1792141770757", "au-reconstrucao"]),
  ("l2", "Hounsfield e janelas", ["au-hu", "au-janela", "au-janela-ampla"]),

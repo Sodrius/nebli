@@ -26,7 +26,7 @@ BUSCA = ("Três caminhos (17/10): seções de recurso do AnKing (não há seçã
          "cystogram, HSG, MRCP, urography, contrast-induced, angioedema, MR angiography, anaphylactoid, gadolinium); significado em "
          "todos os acervos e NEBLI vivo (busca/semantica.jsonl). ")
 # Vagas: cópias NEBLI das aulas 05 (TC) e 12 (RM), prontas mas não instaladas; preencher com o nid da cópia depois do apply delas.
-RD05 = {"FASES": None}   # au-fases da 05
+RD05 = {"FASES": 1792239680174}   # au-fases da 05
 RD12 = {"GADO": None, "FNS": None}   # au-gadolinio e au-fns da 12
 EXCLUIDOS = [
  (1578963423619, "conduta antes do contraste no renal (hidratar, suspender metformina): farmacologia clínica, fora das lâminas"),

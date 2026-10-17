@@ -19,7 +19,7 @@ SLIDES = [
  (1, "capa", "Capa", []),
  (2, "conteudo", "Caso 1: homem 60 a, tosse com expectoração amarelada e febre há 3 dias; tabagista 30 anos-maço", [
    ("a1", "Tabagismo é a principal causa de enfisema", ["ak-enf-tabaco", "ak-enf-centriacinar"]), ("a2", "Quadro agudo: pneumonia", "ak-febre-consolidacao")]),
- (3, "secao", "Radiografia de tórax", []),
+ (3, "logistica", "Radiografia de tórax", []),
  (4, "conteudo", "Zonas de leitura do RX de tórax (vias aéreas, pulmões, coração, diafragma)", [("a3", "Leitura sistemática ABCDE", EXC + "roteiro de leitura sem fato a decorar; os achados entram nos cards de cada lâmina")]),
  (5, "conteudo", "PA normal anotado: átrio direito, botão aórtico, tronco pulmonar, ventrículo esquerdo", [("a4", "Bordas da silhueta cardíaca", SH04_ATRIO)]),
  (6, "conteudo", "Perfil normal: coluna escurece para baixo, hemidiafragmas", [("a5", "PA e perfil", SH04_DUAS)]),
@@ -69,7 +69,7 @@ SLIDES = [
  (42, "logistica", "Dúvidas", []),
  (43, "logistica", "Obrigado", []),
 ]
-JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "secao": "capa de seção sem conteúdo", "logistica": "dúvidas e agradecimento"}
+JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "logistica": "capa de seção, dúvidas ou agradecimento, sem conteúdo"}
 CAPITULO = [("Robbins: pulmão (enfisema, pneumonia, derrame) e testículo (seminoma) (confirmam)", [
  ("l1", "Enfisema centroacinar no fumante; protease-antiprotease", ["ak-enf-centriacinar", "ak-enf-protease"]),
  ("l2", "Fases da pneumonia lobar", ["ak-pn-congestao", "ak-hep-vermelha", "ak-hep-cinzenta", "ak-pn-resolucao"]),

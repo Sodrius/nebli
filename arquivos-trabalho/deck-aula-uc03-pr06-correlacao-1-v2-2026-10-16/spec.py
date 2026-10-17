@@ -178,7 +178,7 @@ for c in CARDS:
 
 VERSO = {  # chave: "- linha curta" para nota de acervo sem Extra útil
  "ak-enf-neutrofilos": "- In smokers, neutrophil elastase outweighs α1-antitrypsin and alveolar walls are destroyed",
- "ak-pn-rx": "- The case: consolidation in the right middle lobe erasing the right heart border (silhouette sign)",
+ "ak-pn-rx": "- The case (lâmina 17): consolidation in the left mid and lower lung, white where alveolar air was replaced by exudate",
  "ak-pn-lobar": "- Usually pneumococcus; the whole lobe looks white with air bronchograms",
  "ak-pn-exsudato": "- Neutrophils and fibrin fill the alveoli, which is what makes the lung white on X-ray",
  "ak-broncopneumonia": "- Patchy foci centered on bronchioles, often in both lower lobes",
@@ -205,7 +205,7 @@ IMAGENS_VISTAS = {
  "1fbc5c2e2909a72d787b7008104b1ad9.webp": "AnKing: RX PA com pneumonia do lobo médio (consolidação com broncograma); frente de ak-pn-rx.",
  "30b08626f09679318efc307a232d9265.jpg": "AnKing: RX PA com grande derrame à esquerda, borda superior côncava e seio costofrênico apagado; frente de ak-derrame-rx.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (48 notas novas, 64 cards). Corrigido: verso de ak-pn-rx dizia lobo médio direito; o caso da lâmina 17 é no pulmão esquerdo.", "corrigidos": ["ak-pn-rx"]}
 ESCOPO = {
  "objetivo": "Correlacionar imagem, peça e lâmina em dois casos: tabagista com enfisema que desenvolve pneumonia lobar com derrame pleural "
              "(parapneumônico e com células de adenocarcinoma) e jovem com seminoma testicular, usando os sinais radiológicos (silhueta, menisco).",
