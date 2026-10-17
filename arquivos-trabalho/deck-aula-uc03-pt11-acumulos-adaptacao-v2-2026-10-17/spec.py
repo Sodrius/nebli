@@ -178,16 +178,16 @@ DUPLICACAO = {"au-atrofia-parda": "ganho: o nome do achado macroscópico da lipo
 for _k, _v in DUPLICACAO.items():
     next(c for c in CARDS if c["key"] == _k)["duplicacao_ok"] = _v
 IMAGENS_VISTAS = {}
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (61 notas novas, 72 cards; frentes, clozes, versos e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Reconhecer as quatro adaptações celulares (hipertrofia, hiperplasia, atrofia, metaplasia), seus estímulos e mecanismos e a "
              "relação com o tipo de tecido; entender os acúmulos (esteatose, colesterol, proteínas, glicogênio), a calcificação distrófica × "
              "metastática e os pigmentos (antracose, lipofuscina, melanina, hemossiderina, bilirrubina).",
  "centrais": [
-   ("adaptações", "ak-hipertrofia-def", "ak-hiperplasia-def", "ak-atrofia-def", "ak-metaplasia-def", "ak-permanentes", "au-hipertrofia-gatilhos", "au-hipertrofia-fetal"),
+   ("adaptações", "ak-permanentes", "ak-hipertrofia-def", "ak-hiperplasia-def", "ak-atrofia-def", "ak-metaplasia-def", "au-hipertrofia-gatilhos", "au-hipertrofia-fetal"),
    ("esteatose", "sh-1791022171477", "ak-ccl4", "ak-nadh", "sh-1791054011671"),
    ("calcificação", "ak-dist-necrose", "ak-meta-normal"),
-   ("pigmentos", "ak-lipofuscina", "sh-1791592721894", "ak-ictericia"),
+   ("pigmentos", "sh-1791592721894", "ak-lipofuscina", "ak-ictericia"),
  ],
  "exemplos": ["miocárdio na hipertensão", "útero gravídico", "regeneração hepática", "HPB", "metaplasia no fumante", "Barrett", "álcool e esteatose",
               "aterosclerose", "Alzheimer", "hemocromatose"],

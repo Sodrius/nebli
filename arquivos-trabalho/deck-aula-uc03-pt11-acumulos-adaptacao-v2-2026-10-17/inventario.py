@@ -61,7 +61,7 @@ SLIDES = [
  (43, "conteudo", "Colesterolose da vesícula", [("a46", "Vesícula em morango", "au-colesterolose")]),
  (44, "conteudo", "Proteínas: glóbulos; mieloma; reabsorção tubular", [("a47", "Cadeias leves nos túbulos", "ak-bence-jones")]),
  (45, "conteudo", "Chaperonas e ubiquitina (Robbins)", [("a48", "Proteínas mal dobradas", "sh-1792117372320")]),
- (46, "conteudo", "Placa senil (amiloide) no córtex", [("a49", "Alzheimer: amiloide β", ["ak-alzheimer-ab", "ak-placa-neuritica"])]),
+ (46, "conteudo", "Placa senil (amiloide) no córtex", [("a49", "Alzheimer: amiloide β", "ak-alzheimer-ab")]),
  (47, "conteudo", "Glicogênio: diabetes, glicogenoses", [("a50", "Glicogenose", "ak-von-gierke")]),
  (48, "conteudo", "Tabela de glicogenoses", [("a51", "Tabela", EXC + "o professor diz que não é preciso saber a tabela")]),
  (49, "conteudo", "Calcificação distrófica × metastática", [("a52", "Distrófica na necrose; metastática em tecido normal", ["ak-dist-necrose", "ak-meta-normal"])]),
@@ -80,7 +80,7 @@ SLIDES = [
  (59, "conteudo", "Quadro de pigmentos (exógenos, endógenos, hemoglobinógenos)", [("a63", "Quadro", EXC + "síntese em diagrama; cada pigmento tem card nas lâminas 52–58")]),
  (60, "conteudo", "I love Pathology", [("a64", "Humor", EXC + "imagem de humor")]),
 ]
-JUSTIFICATIVAS = {"capa": "capa sem conteúdo"}
+JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "logistica": "capa de seção sem conteúdo"}
 CAPITULO = [("Robbins cap. 1 (adaptações, acúmulos, calcificação) (confirma)", [
  ("l1", "Hipertrofia, hiperplasia, atrofia, metaplasia", ["ak-hipertrofia-def", "ak-hiperplasia-def", "ak-atrofia-def", "ak-metaplasia-def"]),
  ("l2", "Esteatose e colesterol", ["sh-1791022171477", "ak-foam"]), ("l3", "Calcificação", ["ak-dist-necrose", "ak-meta-normal"]),
