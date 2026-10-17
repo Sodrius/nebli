@@ -8,7 +8,7 @@ PREFIXO = "mb57"
 AULA = "Princípios gerais dos vírus (UC03 P3; Microbiologia; Prof. Enrique Boccardo)"
 EXC = "EXC: "
 
-_F, _L = "figura", "logistica"
+_F, _L = "fora_do_recorte", "logistica"
 _HIST = EXC + "história e curiosidades sem cobrança (FORA_DO_RECORTE)"
 PARTE_I = [
  (1, "capa", "Capa", []),
@@ -100,10 +100,10 @@ _I = {s[0]: s for s in PARTE_I}
 PARTE_II = []
 for _n in range(74, 128):
     _o = _I[_ESPELHO[_n]]
-    _tipo = "figura" if _o[1] == "figura" else ("logistica" if _o[1] in ("logistica", "capa") else _o[1])
+    _tipo = "fora_do_recorte" if _o[1] == "fora_do_recorte" else ("logistica" if _o[1] in ("logistica", "capa") else _o[1])
     PARTE_II.append((_n, _tipo, _o[2] + f" (repete a lâmina {_o[0]})", [(f"b{_n}-{k}", t, c) for k, t, c in _o[3]]))
 SLIDES = PARTE_I + PARTE_II
-JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "figura": "figura ou tabela de exemplo; o conceito está na lâmina de texto vizinha",
+JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "fora_do_recorte": "figura ou tabela de exemplo; o conceito está na lâmina de texto vizinha",
                   "logistica": "divisória, agradecimento ou repetição"}
 CAPITULO = [("Apostila UC3 e apostila guia de Micro (Estrutura e classificação dos vírus)", [
  ("l1", "Parasitas intracelulares obrigatórios", "au-definicao"),

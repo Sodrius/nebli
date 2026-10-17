@@ -254,7 +254,7 @@ IMAGENS_VISTAS = {
  "mb55-penicillium.jpg": "Lâmina 113: prancha de Penicillium (colônia esverdeada; conidióforo em pincel no azul de algodão); verso de au-penicillium.",
  "mb55-rubrum.jpg": "Lâmina 119: prancha de T. rubrum (colônia branca com reverso vermelho; microconídios em lágrima); verso de au-rubrum.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (16 notas novas, 16 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Saber a sequência diagnóstica micológica (KOH, nanquim, cultura, auxanograma, zimograma, urease), identificar Candida "
              "(tubo germinativo, clamidoconídios, ágar cromogênico) e Cryptococcus (cápsula, nanquim, mucicarmim, látex, niger), "

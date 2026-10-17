@@ -8,7 +8,7 @@ PREFIXO = "rd56"
 AULA = "Contrastes radiológicos (UC03 P3; Radiologia; Dr. André Bordini)"
 EXC = "EXC: "
 
-_F = "figura"
+_F = "fora_do_recorte"
 SLIDES = [
  (1, "capa", "Capa", []),
  (2, "conteudo", "Motivos: realce de cavidades, vascular, estruturas normais, lesões, hemodinâmica", [("a1", "Contraste exógeno aumenta a resolução de contraste", "sh-1792141768903")]),
@@ -96,7 +96,7 @@ SLIDES = [
  (84, "conteudo", "USG: múltiplas vias, modos, Doppler", [("a67", "Microbolhas", "au-microbolhas")]),
  (85, "logistica", "Agradecimento", []),
 ]
-JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "figura": "exemplo de imagem; o conceito está na lâmina de texto vizinha", "logistica": "roteiro ou agradecimento"}
+JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "fora_do_recorte": "exemplo de imagem; o conceito está na lâmina de texto vizinha", "logistica": "roteiro ou agradecimento"}
 CAPITULO = [("Apostila guia de Radiologia, Aula 5 (Meios de contraste), e apostila UC3", [
  ("l1", "Intracavitário por método; a água não se usa no RX", ["au-bario", "au-agua"]),
  ("l2", "Bário muito denso: artefato na TC", "au-bario"),

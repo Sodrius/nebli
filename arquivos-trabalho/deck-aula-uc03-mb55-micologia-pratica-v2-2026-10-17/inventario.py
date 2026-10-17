@@ -9,7 +9,7 @@ PREFIXO = "mb55"
 AULA = "Prática de micologia (UC03 P3; Microbiologia; Profa. Kelly Ishida)"
 EXC = "EXC: "
 
-_FIG = "figura"
+_FIG = "fora_do_recorte"
 SLIDES = [
  (1, "conteudo", "Sequência diagnóstica: colheita, exame direto (KOH, nanquim, Gram), cultivo, provas bioquímicas",
   [("a1", "KOH no exame direto", "sh-1791626784376"), ("a2", "Nanquim", "sh-1791630910669")]),
@@ -167,7 +167,7 @@ SLIDES = [
  (121, "conteudo", "Prancha: tubo germinativo", [("a160", "Tubo germinativo", ["ak-img-tubo", "sh-1791630909341"])]),
  (122, "conteudo", "Prancha: urease", [("a161", "Urease", "sh-1791630910843")]),
 ]
-JUSTIFICATIVAS = {"figura": "gráfico, capa de diretriz ou foto sem conceito próprio; o conceito está nas lâminas vizinhas",
+JUSTIFICATIVAS = {"fora_do_recorte": "gráfico, capa de diretriz ou foto sem conceito próprio; o conceito está nas lâminas vizinhas",
                   "logistica": "capa ou divisória"}
 CAPITULO = [("Apostila guia de Microbiologia e monitoria P2 (Candida, Cryptococcus, diagnóstico micológico; Trabulsi como base)", [
  ("l1", "Candida: comensal oportunista; pseudo-hifas e tubo germinativo", ["sh-1791630908669", "sh-1791630909341"]),
