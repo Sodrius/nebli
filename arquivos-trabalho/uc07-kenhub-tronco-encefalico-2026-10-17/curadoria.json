@@ -5,9 +5,7 @@
  "deck": "NEBLI::UC07::Tronco encefálico::Visão geral e anatomia de superfície",
  "short": "uc07a",
  "lesson_id": "2026-uc07-tronco-encefalico-01-visao-geral-superficie",
- "kenhub_excluir": {
-  "nuclei-olivares": "figura do Kenhub é esquema de vias com o verde minúsculo; vale a peça do AnatoKing"
- },
+ "kenhub_excluir": {},
  "cores": {
   "medullary-pyramids": "verde",
   "pyramidal-decussation": "verde",
@@ -459,6 +457,7 @@
   }
  ],
  "historico_decisoes": [
-  "17/10 v2: decussação volta ao Kenhub (máscara+seta tornam o alvo explícito); Netter p.178 reprovou no G13 (ponta no fundo branco)."
+  "17/10 v2: decussação volta ao Kenhub (máscara+seta tornam o alvo explícito); Netter p.178 reprovou no G13 (ponta no fundo branco).",
+  "17/10 v3: Kenhub sempre (gate): núcleos olivares voltam ao Kenhub; Netter da oliva fica como complemento."
  ]
 }

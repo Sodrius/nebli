@@ -42,20 +42,27 @@ ROOT = Path(__file__).resolve().parents[2]
 CLOZE_RE = re.compile(r"\{\{c(\d+)::(.*?)(?:::[^}]*)?\}\}", re.S)
 INGLES = re.compile(r"\b(the|of|and|is|are|which|from|via|with|located|between|nerve|structure)\b", re.I)
 SEPARADORES = re.compile(r"\s/\s|;|\s[-–—]\s|:|·")
-VERSAO_MIDIA = "2"                    # nome de arquivo novo a cada mudança de desenho (o Anki guarda imagem em cache)
+VERSAO_MIDIA = "3"                    # nome de arquivo novo a cada mudança de desenho (o Anki guarda imagem em cache)
 
 
 class AnkiPaciente(Anki):
     """Davi está sempre no Anki (F-20261017-CLAUDE-03): se o Anki estiver ocupado, espera em vez de falhar."""
 
     def __call__(self, action, **params):
-        for tentativa in range(60):
+        espera = 0.0
+        while True:
             try:
                 return super().__call__(action, **params)
             except RuntimeError as err:
-                if "lifecycle operation is active" not in str(err) or tentativa == 59:
+                msg = str(err)
+                ocupado = "lifecycle operation is active" in msg
+                editor = "Close the affected editor" in msg   # janela de edição aberta (Davi ou outro executor): esperar fechar
+                if not (ocupado or editor) or espera > 300:
                     raise
-                time.sleep(2)
+                if editor and espera == 0:
+                    print("Anki com janela de edição aberta: esperando fechar (até 5 min)…", file=sys.stderr, flush=True)
+                time.sleep(2 if ocupado else 10)
+                espera += 2 if ocupado else 10
 
 
 def _limpo(html):
@@ -113,9 +120,8 @@ def plano(corrida: Path, A):
     problemas, entradas = [], []
     gerados = corrida / "midia"
     gerados.mkdir(exist_ok=True)
-    for s, motivo in excluir.items():
-        if not motivo:
-            problemas.append(f"[kenhub-primeiro] exclusão da figura Kenhub sem motivo: {s}")
+    for s in excluir:  # F-20261017-CLAUDE-05: “deixa sempre kenhub como gate-hard” — toda figura do Kenhub entra, sem exceção
+        problemas.append(f"[kenhub-sempre] figura do Kenhub excluída ({s}): toda estrutura com figura no Kenhub tem card do Kenhub")
 
     def depois(slug):
         for n in cur.get("netter", []):
@@ -142,12 +148,19 @@ def plano(corrida: Path, A):
         entradas.append({**a, "tipo": "anking", "chave": f"nid-{a['nid']}", "cobre": []})
     for k, e in enumerate(entradas, 1):
         e["ordem"] = k
+    fora = _em_outras_unidades(A, cur["lesson_id"])
+    for e in entradas:   # sem duplicata (F-20261017-CLAUDE-05/plano): já tem nota em outra unidade → associar
+        if e["chave"] in fora:
+            e["associar"] = fora[e["chave"]]
+            e["cor"] = cur["cores"].get(e.get("slug") or e.get("apos")) or "azul"
     for e in entradas:
+        if e.get("associar"):
+            continue
         try:
             _montar(e, cur, base, gerados, media, A)
         except Exception as err:  # o gate pré lista todos os problemas antes de escrever qualquer coisa
             problemas.append(f"[montagem] {e['chave']}: {err}")
-    cobertas = {s for e in entradas for s in e.get("cobre", []) if e.get("campos")}
+    cobertas = {s for e in entradas for s in e.get("cobre", []) if e.get("campos") or e.get("associar")}
     for i in itens:
         if i["slug"] not in cobertas:
             problemas.append(f"[cobertura] estrutura sem card planejado: {i['slug']} ({i['nome_en']})")
@@ -181,7 +194,7 @@ def _montar(e, cur, base, gerados, media, A):
         e.update(modelo=modelo.NOME, cor=cor(s), fonte="Kenhub", base_frente=str(arq), campos={
             "Nome PT": nome_pt(cur, i), "Latim": i.get("latim") or "", "Nome EN": i["nome_en"],
             "Sinonimos": "; ".join(x for x in (i.get("sinonimos_pt") or []) if x), "Imagem": f'<img src="{img}">',
-            "MascaraP": f'<img src="{nq}">', "MascaraR": f'<img src="{nr}">', "Pergunta": "", "Fonte": "Kenhub", "Extra": "",
+            "MascaraP": f'<img src="{nq}">', "MascaraR": f'<img src="{nr}">', "Pergunta": "", "Fonte": "", "Extra": "",
             "ID (hidden)": f"nebli-{cur['lesson_id']}-{s}"})
     elif e["tipo"] == "netter":
         img = f"u7-{e['chave']}.jpg"
@@ -195,7 +208,7 @@ def _montar(e, cur, base, gerados, media, A):
         e.update(modelo=modelo.NOME, cor=cor(e["slug"]), fonte="Netter", base_frente=str(arq), campos={
             "Nome PT": e["pt"], "Latim": "", "Nome EN": e["rotulo"], "Sinonimos": "", "Imagem": f'<img src="{img}">',
             "MascaraP": f'<img src="{nq}">', "MascaraR": f'<img src="{nr}">', "Pergunta": "",
-            "Fonte": f"Netter, p. {e['pagina'] + 1} do PDF", "Extra": "", "ID (hidden)": f"nebli-{cur['lesson_id']}-{e['chave']}"})
+            "Fonte": "", "Extra": "", "ID (hidden)": f"nebli-{cur['lesson_id']}-{e['chave']}"})
     elif e["tipo"] == "anking_io":
         src = A("notesInfo", notes=[e["nid"]])[0]
         campos = _local({k: v["value"] for k, v in src["fields"].items()}, media)
@@ -210,7 +223,8 @@ def _montar(e, cur, base, gerados, media, A):
             figs.sort(key=lambda f: len(" ".join(fontes_io.textos(os.path.join(media, f)))))
         fig = figs[0]
         caminho = os.path.join(media, fig)
-        extra_imgs = "".join(f'<img src="{f}">' for f in figs[1:]) + "".join(_imgs(campos.get("Extra", "")))
+        # F-20261017-CLAUDE-05: uma figura por card — imagens que o card não usa saem; no nível, a legendada é a resposta (verso)
+        extra_imgs = "".join(f'<img src="{f}">' for f in figs[1:]) if e.get("pergunta") else ""
         extra = (e.get("extra_pt", "") + ("<br>" if e.get("extra_pt") and extra_imgs else "") + extra_imgs).strip()
         nq = nr = ""
         if e.get("pergunta"):
@@ -229,7 +243,7 @@ def _montar(e, cur, base, gerados, media, A):
                  tags_origem=src["tags"], base_frente=caminho, campos={
                      "Nome PT": e["pt"], "Latim": "", "Nome EN": en.split(" - ")[0], "Sinonimos": "",
                      "Imagem": f'<img src="{fig}">', "MascaraP": f'<img src="{nq}">' if nq else "",
-                     "MascaraR": f'<img src="{nr}">' if nr else "", "Pergunta": e.get("pergunta", ""), "Fonte": "AnKing",
+                     "MascaraR": f'<img src="{nr}">' if nr else "", "Pergunta": e.get("pergunta", ""), "Fonte": "",
                      "Extra": extra, "ID (hidden)": f"nebli-{cur['lesson_id']}-{e['chave']}"})
         e["falta_midia"] = [u for u in _midia_faltando(" ".join(e["campos"].values()), media) if u not in e["midia"]]
     elif e["tipo"] == "acervo":  # AnatoKing → cloze só com o nome em PT, modelo (seta) + peça à vista
@@ -239,20 +253,21 @@ def _montar(e, cur, base, gerados, media, A):
             raise ValueError(f"acervo de tipo inesperado: {src['modelName']}")
         if not _imgs(campos.get("Model", "")):
             raise ValueError("AnatoKing sem figura de modelo (sem seta): não há direcionamento")
-        imagens = "".join(_imgs(campos.get("Model", "")) + _imgs(campos.get("Cadaver", "")) + _imgs(campos.get("Imaging", ""))
-                          + _imgs(campos.get("Illustration", "")))
+        modelos = _imgs(campos.get("Model", ""))
+        imagens = modelos[0]   # uma figura na frente: o modelo com a seta vermelha (bater o olho e saber onde está)
+        verso = "".join(modelos[1:] + _imgs(campos.get("Cadaver", "")) + _imgs(campos.get("Imaging", "")) + _imgs(campos.get("Illustration", "")))
         en = _limpo(CLOZE_RE.search(campos["Text"]).group(2)).split(" / ")[0]
         e.update(modelo=modelo.CLOZE, cor=cor(e["apos"]), fonte="AnatoKing", tags_origem=src["tags"], campos={
-            "Text": f"Qual estrutura a seta vermelha do modelo indica? {{{{c1::{e['pt']}}}}}", "Imagens": imagens, "Extra": "",
-            "Nome EN": en, "Fonte": "AnatoKing", "ID (hidden)": f"nebli-{cur['lesson_id']}-{e['chave']}"})
-        e["falta_midia"] = _midia_faltando(imagens, media)
+            "Text": f"Qual estrutura a seta vermelha indica? {{{{c1::{e['pt']}}}}}", "Imagens": imagens, "Extra": verso,
+            "Nome EN": en, "Fonte": "", "ID (hidden)": f"nebli-{cur['lesson_id']}-{e['chave']}"})
+        e["falta_midia"] = _midia_faltando(imagens + verso, media)
     elif e["tipo"] == "anking":  # AnKing conceitual, traduzido; só o nome no cloze
         src = A("notesInfo", notes=[e["nid"]])[0]
         campos = _local({k: v["value"] for k, v in src["fields"].items()}, media)
         imgs = "".join(_imgs(campos.get("Extra", "")))
         extra = (e.get("extra_pt", "") + ("<br>" if e.get("extra_pt") and imgs else "") + imgs).strip()
         e.update(modelo=modelo.CLOZE, cor=_cor_hy(src["tags"]), fonte="AnKing", tags_origem=src["tags"], campos={
-            "Text": e["text_pt"], "Imagens": "", "Extra": extra, "Nome EN": _limpo(campos["Text"]), "Fonte": "AnKing (tradução)",
+            "Text": e["text_pt"], "Imagens": "", "Extra": extra, "Nome EN": _limpo(campos["Text"]), "Fonte": "",
             "ID (hidden)": f"nebli-{cur['lesson_id']}-{e['chave']}"})
         e["falta_midia"] = _midia_faltando(extra, media)
         e["clozes_origem"] = sorted({int(n) for n, _ in CLOZE_RE.findall(campos["Text"])})
@@ -271,10 +286,14 @@ def _montar(e, cur, base, gerados, media, A):
 def gates_pre(entradas, cur):
     p = []
     for e in entradas:
+        if e.get("associar"):
+            continue
         if "campos" not in e:   # nunca passar no vazio: entrada que não montou reprova
             p.append(f"[montagem] {e['chave']}: entrada sem campos montados (tipo {e['tipo']!r})")
             continue
         k = e["chave"]
+        if e["campos"].get("Fonte"):
+            p.append(f"[G14 sem fonte] {k}: campo Fonte preenchido ({e['campos']['Fonte'][:30]!r})")
         if e.get("falta_midia"):
             p.append(f"[G4 mídia] {k}: {len(e['falta_midia'])} imagem(ns) ausente(s) na mídia (ex.: {e['falta_midia'][0][:40]})")
         if e["modelo"] == modelo.NOME:
@@ -296,7 +315,7 @@ def gates_pre(entradas, cur):
                 p.append(f"[G10 direcionamento] {k}: seta não segue a linha-guia")
             elif e["tipo"] == "anking_io" and not (meta.get("ancora") or meta.get("pergunta")):
                 p.append(f"[G10 direcionamento] {k}: sem âncora no “ID” nem pergunta")
-            if meta.get("seta") and meta.get("ponta_fundo", 0) > 0.6:
+            if e["tipo"] == "netter" and meta.get("ponta_fundo", 0) > 0.6:   # no Kenhub a seta encosta na máscara (G10)
                 p.append(f"[G13 seta na anatomia] {k}: a ponta da seta cai no fundo ({meta['ponta_fundo']:.0%} branco)")
             # G12: a frente, como aparece (figura + máscara), não pode mostrar a resposta (lida pelo reconhecimento de texto)
             lido = _chave_txt(" ".join(e.get("ocr_frente", [])))
@@ -349,10 +368,33 @@ def _faixa(short):
     return cfg["faixas"][short]
 
 
+def _chaves_nota(n):
+    out = [t.split("::", 2)[2] for t in n["tags"] if t.startswith("NEBLI::chave::")]
+    if TAG_KENHUB in n["tags"]:
+        out += [f"kh-{t.split('::')[-1]}" for t in n["tags"] if t.startswith("NEBLI::estrutura::")]
+    out += [f"nid-{t.split('-')[-1]}" for t in n["tags"] if t.startswith("NEBLI::source::nid-")]
+    return out
+
+
+def _em_outras_unidades(A, lesson):
+    """chave → nota da UC07 que já existe em OUTRA unidade (a mesma figura/nota não vira card repetido: é associada)."""
+    out = {}
+    q = f'"tag:NEBLI::uc07" -"tag:NEBLI::{lesson}" -"tag:NEBLI::retirado::*"'
+    for n in A("notesInfo", notes=A("findNotes", query=q)):
+        if any(t.startswith("NEBLI::uc07::assoc::") for t in n["tags"]) and not any(t.startswith("NEBLI::chave::") for t in n["tags"]):
+            continue
+        for k in _chaves_nota(n):
+            out.setdefault(k, n["noteId"])
+    return out
+
+
 def _existentes(A, lesson_tag):
     """chave → nota existente (pela etiqueta de chave; nas notas antigas, pela estrutura do Kenhub ou pela nota de origem)."""
     out = {}
+    lesson = lesson_tag.split("::", 1)[1]
     for n in A("notesInfo", notes=A("findNotes", query=f'"tag:{lesson_tag}"')):
+        if f"NEBLI::uc07::assoc::{lesson}" in n["tags"]:
+            continue
         chave = next((t.split("::", 2)[2] for t in n["tags"] if t.startswith("NEBLI::chave::")), None)
         if not chave and TAG_KENHUB in n["tags"]:
             chave = next((f"kh-{t.split('::')[-1]}" for t in n["tags"] if t.startswith("NEBLI::estrutura::")), None)
@@ -382,6 +424,19 @@ def instalar(A, cur, entradas):
             A("setDeckConfigId", decks=wrong, configId=root["id"])
         planejadas = set()
         for e in entradas:
+            if e.get("associar"):
+                nid = e["associar"]
+                n = A("notesInfo", notes=[nid])[0]
+                velhas = [t for t in n["tags"] if t.startswith(f"NEBLI::ordem::{cur['short']}-") or t.startswith(f"NEBLI::cor::{lesson}::")]
+                if velhas:
+                    A("removeTags", notes=[nid], tags=" ".join(velhas))
+                A("addTags", notes=[nid], tags=" ".join([lesson_tag, f"NEBLI::ordem::{cur['short']}-{e['ordem']:03d}",
+                                                          f"NEBLI::uc07::assoc::{lesson}", f"NEBLI::cor::{lesson}::{e['cor']}"]
+                                                         + [f"NEBLI::estrutura::{c}" for c in e.get("cobre", [])]))
+                planejadas.add(nid)
+                resultados.append({"ordem": e["ordem"], "chave": e["chave"], "tipo": e["tipo"], "nid": nid, "cor": e["cor"],
+                                   "cobre": e.get("cobre", []), "modelo": n["modelName"], "associada": True})
+                continue
             for nome, caminho in e["midia"].items():
                 if nome.startswith("u7-") or not A("retrieveMediaFile", filename=nome):
                     A("storeMediaFile", filename=nome, data=base64.b64encode(Path(caminho).read_bytes()).decode())
@@ -430,6 +485,13 @@ def instalar(A, cur, entradas):
                                "cobre": e.get("cobre", []), "modelo": e["modelo"]})
         # o que saiu do plano: apagar só sem comentário e sem revisão; senão, retirar (suspenso + etiqueta), nunca perder histórico
         retiradas = []
+        for nid in A("findNotes", query=f'"tag:NEBLI::uc07::assoc::{lesson}"'):
+            if nid not in planejadas:   # associação desfeita: só tira as etiquetas desta unidade; a nota é da unidade de origem
+                n = A("notesInfo", notes=[nid])[0]
+                tira = [t for t in n["tags"] if t in (lesson_tag, f"NEBLI::uc07::assoc::{lesson}") or t.startswith(f"NEBLI::ordem::{cur['short']}-")
+                        or t.startswith(f"NEBLI::cor::{lesson}::")]
+                A("removeTags", notes=[nid], tags=" ".join(tira))
+                retiradas.append({"nid": nid, "chave": "assoc", "acao": "associação desfeita"})
         for chave, n in existentes.items():
             if n["noteId"] in planejadas:
                 continue
@@ -457,12 +519,14 @@ def gates_pos(A, cur, itens, resultados, antes):
         n = A("notesInfo", notes=[r["nid"]])[0]
         if "NEBLI_Comentario" not in n["fields"]:
             falhas.append(f"[G7 comentário] {r['chave']}: nota sem campo de comentário ({n['modelName']})")
-        if n["modelName"] != r["modelo"]:
+        if n["modelName"] != r["modelo"] and not r.get("associada"):
             falhas.append(f"[pós] {r['chave']}: tipo {n['modelName']} != {r['modelo']}")
         cs = A("cardsInfo", cards=n["cards"])
         if not cs:
             falhas.append(f"[pós] nota sem card: {r['chave']}")
         for c in cs:
+            if r.get("associada"):
+                continue   # nota de outra unidade, só associada: deck e bandeira são os da origem
             if canonical(c["deckName"]) != deck:
                 falhas.append(f"[pós] deck errado: {r['chave']} em {c['deckName']}")
             if c["queue"] == -1:

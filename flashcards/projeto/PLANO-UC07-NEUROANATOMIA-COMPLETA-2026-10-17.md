@@ -41,64 +41,63 @@ Só termina com sucesso se TODOS os gates passarem; depois eu olho as folhas de 
 - Guias de estudo recomendam IO com **uma estrutura por card** (“hide all, guess one”) ([MedSchoolCoach](https://www.medschoolcoach.com/resource/how-to-use-anki-for-med-students?hsLang=en)); um post do r/medicalschoolanki aponta o excesso de notas do IO em diagramas grandes ([snapshot](https://reddit.sentinel-team.org/posts/1q3sh0z/snapshots/2026-01-10T01%3A31%3A03.63275Z)) — aqui resolvido por usar uma figura por estrutura (Kenhub já traz isso).
 - Menos atrito daqui em diante: curadoria em rascunho automático; gates que reprovam antes de escrever; reconciliação no lugar (feedback corrige o deck sem perder histórico); painel de sessão; renderização inteira com folhas para olhar.
 
-## Ordem e unidades (ordem do Kenhub; 51 unidades, 1.398 estruturas contando repetições entre unidades)
+## Ordem de geração = cronograma da UC07, Turma B (F-20261017-CLAUDE-05)
 
-| # | Módulo (deck) | Submódulo (deck) | Slug Kenhub | Estruturas | Exerc. identificação | Estado |
-|---|---|---|---|---|---|---|
-| 1 | Introdução ao sistema nervoso | Sistema nervoso central: introdução ao encéfalo | `basic-anatomy-of-the-brain` | 18 | 17 | a fazer |
-| 2 | Introdução ao sistema nervoso | Sistema nervoso periférico: nervos, gânglios e plexos | `peripheral-nervous-system-nerves-ganglia-and-plexuses` | 22 | 23 | a fazer |
-| 3 | Telencéfalo e córtex cerebral | Visão geral do cérebro | `overview-of-the-cerebrum` | 23 | 22 | a fazer |
-| 4 | Telencéfalo e córtex cerebral | Vista lateral do encéfalo | `lateral-views-of-the-brain` | 36 | 36 | a fazer |
-| 5 | Telencéfalo e córtex cerebral | Vista medial do encéfalo | `medial-view-of-the-brain` | 45 | 45 | a fazer |
-| 6 | Telencéfalo e córtex cerebral | Vista inferior do encéfalo | `basal-view-of-the-brain` | 41 | 41 | a fazer |
-| 7 | Telencéfalo e córtex cerebral | Áreas de Brodmann | `anatomy-brodmann-areas` | 41 | 41 | a fazer |
-| 8 | Telencéfalo e córtex cerebral | Homúnculo motor e sensitivo | `cortical-homunculi` | 9 | 8 | a fazer |
-| 9 | Telencéfalo e córtex cerebral | Hipocampo, fórnice e corpo amigdaloide | `the-hippocampus-and-fornix` | 21 | 22 | a fazer |
-| 10 | Estruturas subcorticais | Núcleos da base | `anatomy-basal-ganglia` | 20 | 20 | a fazer |
-| 11 | Estruturas subcorticais | Corte horizontal do encéfalo | `horizontal-section-brain-1` | 31 | 31 | a fazer |
-| 12 | Estruturas subcorticais | Corte coronal do encéfalo (nível do tálamo) | `coronal-section-brain-thalamus-level` | 26 | 26 | a fazer |
-| 13 | Estruturas subcorticais | Visão geral do diencéfalo | `diencephalon` | 17 | 17 | a fazer |
-| 14 | Estruturas subcorticais | Tálamo | `thalamus-and-related-structures` | 23 | 23 | a fazer |
-| 15 | Estruturas subcorticais | Núcleos do tálamo | `thalamic-nuclei` | 17 | 17 | a fazer |
-| 16 | Estruturas subcorticais | Hipotálamo | `anatomy-hypothalamus` | 25 | 25 | a fazer |
-| 17 | Estruturas subcorticais | Hipófise | `anatomy-pituitary-gland` | 32 | 32 | a fazer |
-| 18 | Cerebelo | Córtex cerebelar | `structure-of-cerebellum` | 35 | 35 | a fazer |
-| 19 | Cerebelo | Núcleos do cerebelo | `cerebellar-nuclei` | 16 | 16 | a fazer |
-| 20 | Tronco encefálico | Visão geral e anatomia de superfície | `brainstem-and-related-structures` | 67 | 68 | **ENTREGUE 17/10** |
-| 21 | Tronco encefálico | Bulbo (anatomia interna) | `medulla-hypoglossal-level` | 29 | 30 | a fazer |
-| 22 | Tronco encefálico | Núcleos dos nervos cranianos | `the-cranial-nerve-nuclei` | 33 | 57 | a fazer |
-| 23 | Meninges, ventrículos e líquor | Meninges cranianas | `the-brain-meninges-and-superficial-blood-vessels` | 21 | 26 | a fazer |
-| 24 | Meninges, ventrículos e líquor | Ventrículos do encéfalo | `the-ventricles-of-the-brain` | 16 | 16 | a fazer |
-| 25 | Meninges, ventrículos e líquor | Produção e circulação do líquor | `subarachnoid-cisterns-of-the-brain` | 34 | 39 | a fazer |
-| 26 | Vascularização do encéfalo | Artérias do encéfalo | `arteries-of-brain` | 42 | 49 | a fazer |
-| 27 | Vascularização do encéfalo | Veias do encéfalo | `the-superficial-veins-of-the-brain` | 43 | 43 | a fazer |
-| 28 | Vascularização do encéfalo | Seios venosos da dura-máter | `the-dural-venous-sinuses` | 21 | 34 | a fazer |
-| 29 | Medula espinal | Topografia e morfologia da medula espinal | `spinal-cord-in-situ` | 44 | 54 | a fazer |
-| 30 | Medula espinal | Meninges espinais e raízes nervosas | `spinal-membranes-and-nerve-roots` | 14 | 14 | a fazer |
-| 31 | Medula espinal | Morfologia interna da medula espinal | `anatomy-spinal-cord-cross-section` | 46 | 46 | a fazer |
-| 32 | Medula espinal | Nervos espinais | `anatomy-vertebral-column` | 20 | 19 | a fazer |
-| 33 | Medula espinal | Vasos sanguíneos da medula espinal | `blood-vessels-of-spinal-cord` | 20 | 20 | a fazer |
-| 34 | Vias neurais | Tratos piramidais | `pyramidal-tracts` | 24 | 24 | a fazer |
-| 35 | Vias neurais | Via coluna posterior–lemnisco medial | `posterior-column-medial-lemniscus-pathway` | 22 | 22 | a fazer |
-| 36 | Vias neurais | Via da gustação | `anatomy-of-taste-patway` | 29 | 29 | a fazer |
-| 37 | Nervos cranianos | Os 12 nervos cranianos | `overview-of-cranial-nerves` | 13 | 12 | a fazer |
-| 38 | Nervos cranianos | Nervo olfatório (I) | `the-olfactory-nerve` | 32 | 35 | a fazer |
-| 39 | Nervos cranianos | Nervo óptico (II) | `the-optic-nerve` | 9 | 9 | a fazer |
-| 40 | Nervos cranianos | Nervos oculomotor, troclear e abducente (III, IV, VI) | `the-oculomotor-trochlear-and-abducens-nerves` | 12 | 12 | a fazer |
-| 41 | Nervos cranianos | Nervo oftálmico (V1) | `the-ophthalmic-nerve` | 19 | 19 | a fazer |
-| 42 | Nervos cranianos | Nervo maxilar (V2) | `the-maxillary-nerve` | 18 | 18 | a fazer |
-| 43 | Nervos cranianos | Nervo mandibular (V3) | `the-mandibular-nerve` | 28 | 28 | a fazer |
-| 44 | Nervos cranianos | Nervo facial (VII) | `course-and-branches-of-facial-nerve` | 27 | 26 | a fazer |
-| 45 | Nervos cranianos | Nervo vestibulococlear (VIII) | `course-and-branches-of-vestibulocochlear-nerve` | 19 | 19 | a fazer |
-| 46 | Nervos cranianos | Nervo glossofaríngeo (IX) | `branches-and-nuclei-of-ninth-cranial-nerve` | 50 | 50 | a fazer |
-| 47 | Nervos cranianos | Nervo vago (X) | `course-and-branches-of-vagus-nerve` | 31 | 32 | a fazer |
-| 48 | Nervos cranianos | Nervo acessório (XI) | `course-of-accessory-nerve` | 15 | 15 | a fazer |
-| 49 | Nervos cranianos | Nervo hipoglosso (XII) | `course-of-hypoglossal-nerve` | 17 | 17 | a fazer |
-| 50 | Sistema nervoso periférico e autônomo | Dermátomos e miótomos | `anatomy-pns-dermatomes` | 30 | 46 | a fazer |
-| 51 | Sistema nervoso periférico e autônomo | Sistema nervoso autônomo | `anatomy-pns-ans` | 55 | 54 | a fazer |
+Fonte: `Cronograma 2026 — UC07 — Sistema Nervoso I — Turma B.pdf` (Drive, `Não compartilhar/Menores/Cronogramas`). A “planilha mestra” é um atalho do Google Sheets que não abre daqui; se a ordem dela divergir do PDF, vale a planilha (Davi avisa).
 
-Sugestão de ordem de trabalho: concluir o **tronco encefálico** (21 bulbo interno, 22 núcleos dos nervos cranianos), depois **nervos
-cranianos** (37–49, que se apoiam nos núcleos), depois o resto na ordem da tabela. Davi decide; a tabela é a fila.
+| Ordem | Aula (cronograma) | # | Módulo (deck) | Submódulo (deck) | Slug Kenhub | Estruturas | Exerc. identificação | Estado |
+|---|---|---|---|---|---|---|---|---|
+| 1 | 13/10 · Construção morfofuncional do SN (Gerson) | 1 | Introdução ao sistema nervoso | Sistema nervoso central: introdução ao encéfalo | `basic-anatomy-of-the-brain` | 18 | 17 | a fazer |
+| 2 | 13/10 · Construção morfofuncional do SN (Gerson) | 2 | Introdução ao sistema nervoso | Sistema nervoso periférico: nervos, gânglios e plexos | `peripheral-nervous-system-nerves-ganglia-and-plexuses` | 22 | 23 | a fazer |
+| 3 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 29 | Medula espinal | Topografia e morfologia da medula espinal | `spinal-cord-in-situ` | 44 | 54 | a fazer |
+| 4 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 30 | Medula espinal | Meninges espinais e raízes nervosas | `spinal-membranes-and-nerve-roots` | 14 | 14 | a fazer |
+| 5 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 31 | Medula espinal | Morfologia interna da medula espinal | `anatomy-spinal-cord-cross-section` | 46 | 46 | a fazer |
+| 6 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 32 | Medula espinal | Nervos espinais | `anatomy-vertebral-column` | 20 | 19 | a fazer |
+| 7 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 50 | Sistema nervoso periférico e autônomo | Dermátomos e miótomos | `anatomy-pns-dermatomes` | 30 | 46 | a fazer |
+| 8 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 34 | Vias neurais | Tratos piramidais | `pyramidal-tracts` | 24 | 24 | a fazer |
+| 9 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 35 | Vias neurais | Via coluna posterior–lemnisco medial | `posterior-column-medial-lemniscus-pathway` | 22 | 22 | a fazer |
+| 10 | 14/10 · Tronco encefálico (Jácomo) | 20 | Tronco encefálico | Visão geral e anatomia de superfície | `brainstem-and-related-structures` | 67 | 68 | **ENTREGUE 17/10** |
+| 11 | 14/10 · Tronco encefálico (Jácomo) | 21 | Tronco encefálico | Bulbo (anatomia interna) | `medulla-hypoglossal-level` | 29 | 30 | a fazer |
+| 12 | 14/10 · Tronco encefálico (Jácomo) | 22 | Tronco encefálico | Núcleos dos nervos cranianos | `the-cranial-nerve-nuclei` | 33 | 57 | a fazer |
+| 13 | 14/10 · Nervos cranianos (Jácomo) | 37 | Nervos cranianos | Os 12 nervos cranianos | `overview-of-cranial-nerves` | 13 | 12 | a fazer |
+| 14 | 14/10 · Nervos cranianos (Jácomo) | 38 | Nervos cranianos | Nervo olfatório (I) | `the-olfactory-nerve` | 32 | 35 | a fazer |
+| 15 | 14/10 · Nervos cranianos (Jácomo) | 39 | Nervos cranianos | Nervo óptico (II) | `the-optic-nerve` | 9 | 9 | a fazer |
+| 16 | 14/10 · Nervos cranianos (Jácomo) | 40 | Nervos cranianos | Nervos oculomotor, troclear e abducente (III, IV, VI) | `the-oculomotor-trochlear-and-abducens-nerves` | 12 | 12 | a fazer |
+| 17 | 14/10 · Nervos cranianos (Jácomo) | 41 | Nervos cranianos | Nervo oftálmico (V1) | `the-ophthalmic-nerve` | 19 | 19 | a fazer |
+| 18 | 14/10 · Nervos cranianos (Jácomo) | 42 | Nervos cranianos | Nervo maxilar (V2) | `the-maxillary-nerve` | 18 | 18 | a fazer |
+| 19 | 14/10 · Nervos cranianos (Jácomo) | 43 | Nervos cranianos | Nervo mandibular (V3) | `the-mandibular-nerve` | 28 | 28 | a fazer |
+| 20 | 14/10 · Nervos cranianos (Jácomo) | 44 | Nervos cranianos | Nervo facial (VII) | `course-and-branches-of-facial-nerve` | 27 | 26 | a fazer |
+| 21 | 14/10 · Nervos cranianos (Jácomo) | 45 | Nervos cranianos | Nervo vestibulococlear (VIII) | `course-and-branches-of-vestibulocochlear-nerve` | 19 | 19 | a fazer |
+| 22 | 14/10 · Nervos cranianos (Jácomo) | 46 | Nervos cranianos | Nervo glossofaríngeo (IX) | `branches-and-nuclei-of-ninth-cranial-nerve` | 50 | 50 | a fazer |
+| 23 | 14/10 · Nervos cranianos (Jácomo) | 47 | Nervos cranianos | Nervo vago (X) | `course-and-branches-of-vagus-nerve` | 31 | 32 | a fazer |
+| 24 | 14/10 · Nervos cranianos (Jácomo) | 48 | Nervos cranianos | Nervo acessório (XI) | `course-of-accessory-nerve` | 15 | 15 | a fazer |
+| 25 | 14/10 · Nervos cranianos (Jácomo) | 49 | Nervos cranianos | Nervo hipoglosso (XII) | `course-of-hypoglossal-nerve` | 17 | 17 | a fazer |
+| 26 | 14/10 · Nervos cranianos (Jácomo) | 36 | Vias neurais | Via da gustação | `anatomy-of-taste-patway` | 29 | 29 | a fazer |
+| 27 | 14/10 · Cerebelo (Jácomo) | 18 | Cerebelo | Córtex cerebelar | `structure-of-cerebellum` | 35 | 35 | a fazer |
+| 28 | 14/10 · Cerebelo (Jácomo) | 19 | Cerebelo | Núcleos do cerebelo | `cerebellar-nuclei` | 16 | 16 | a fazer |
+| 29 | 27/10 · Diencéfalo (Jácomo) | 13 | Estruturas subcorticais | Visão geral do diencéfalo | `diencephalon` | 17 | 17 | a fazer |
+| 30 | 27/10 · Diencéfalo (Jácomo) | 14 | Estruturas subcorticais | Tálamo | `thalamus-and-related-structures` | 23 | 23 | a fazer |
+| 31 | 27/10 · Diencéfalo (Jácomo) | 15 | Estruturas subcorticais | Núcleos do tálamo | `thalamic-nuclei` | 17 | 17 | a fazer |
+| 32 | 27/10 · Diencéfalo (Jácomo) | 16 | Estruturas subcorticais | Hipotálamo | `anatomy-hypothalamus` | 25 | 25 | a fazer |
+| 33 | 27/10 · Diencéfalo (Jácomo) | 17 | Estruturas subcorticais | Hipófise | `anatomy-pituitary-gland` | 32 | 32 | a fazer |
+| 34 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 10 | Estruturas subcorticais | Núcleos da base | `anatomy-basal-ganglia` | 20 | 20 | a fazer |
+| 35 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 3 | Telencéfalo e córtex cerebral | Visão geral do cérebro | `overview-of-the-cerebrum` | 23 | 22 | a fazer |
+| 36 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 4 | Telencéfalo e córtex cerebral | Vista lateral do encéfalo | `lateral-views-of-the-brain` | 36 | 36 | a fazer |
+| 37 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 5 | Telencéfalo e córtex cerebral | Vista medial do encéfalo | `medial-view-of-the-brain` | 45 | 45 | a fazer |
+| 38 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 6 | Telencéfalo e córtex cerebral | Vista inferior do encéfalo | `basal-view-of-the-brain` | 41 | 41 | a fazer |
+| 39 | 27/10 · Irrigação do SNC (Jácomo) | 26 | Vascularização do encéfalo | Artérias do encéfalo | `arteries-of-brain` | 42 | 49 | a fazer |
+| 40 | 27/10 · Irrigação do SNC (Jácomo) | 27 | Vascularização do encéfalo | Veias do encéfalo | `the-superficial-veins-of-the-brain` | 43 | 43 | a fazer |
+| 41 | 27/10 · Irrigação do SNC (Jácomo) | 28 | Vascularização do encéfalo | Seios venosos da dura-máter | `the-dural-venous-sinuses` | 21 | 34 | a fazer |
+| 42 | 27/10 · Irrigação do SNC (Jácomo) | 33 | Medula espinal | Vasos sanguíneos da medula espinal | `blood-vessels-of-spinal-cord` | 20 | 20 | a fazer |
+| 43 | 03/11 · Sistemas neurovegetativos (Britto) | 51 | Sistema nervoso periférico e autônomo | Sistema nervoso autônomo | `anatomy-pns-ans` | 55 | 54 | a fazer |
+| 44 | 04/11 · Meninges e líquor (Jácomo) | 23 | Meninges, ventrículos e líquor | Meninges cranianas | `the-brain-meninges-and-superficial-blood-vessels` | 21 | 26 | a fazer |
+| 45 | 04/11 · Meninges e líquor (Jácomo) | 24 | Meninges, ventrículos e líquor | Ventrículos do encéfalo | `the-ventricles-of-the-brain` | 16 | 16 | a fazer |
+| 46 | 04/11 · Meninges e líquor (Jácomo) | 25 | Meninges, ventrículos e líquor | Produção e circulação do líquor | `subarachnoid-cisterns-of-the-brain` | 34 | 39 | a fazer |
+| 47 | 04/11 · Cortes seriados do SNC (Gerson) | 11 | Estruturas subcorticais | Corte horizontal do encéfalo | `horizontal-section-brain-1` | 31 | 31 | a fazer |
+| 48 | 04/11 · Cortes seriados do SNC (Gerson) | 12 | Estruturas subcorticais | Corte coronal do encéfalo (nível do tálamo) | `coronal-section-brain-thalamus-level` | 26 | 26 | a fazer |
+| 49 | 18/11 · Sistema límbico (Jácomo) | 9 | Telencéfalo e córtex cerebral | Hipocampo, fórnice e corpo amigdaloide | `the-hippocampus-and-fornix` | 21 | 22 | a fazer |
+| 50 | 18/11 · Organização do córtex cerebral (Britto) | 7 | Telencéfalo e córtex cerebral | Áreas de Brodmann | `anatomy-brodmann-areas` | 41 | 41 | a fazer |
+| 51 | 18/11 · Organização do córtex cerebral (Britto) | 8 | Telencéfalo e córtex cerebral | Homúnculo motor e sensitivo | `cortical-homunculi` | 9 | 8 | a fazer |
 
 ## Trabalho a fazer antes/durante as próximas unidades
 1. **Cadastro único de estruturas** (`~/NEBLI-privado/kenhub/estruturas.json`: id Kenhub, nome PT/EN/latim, unidades em que aparece, nota do deck):

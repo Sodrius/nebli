@@ -216,16 +216,46 @@ def _rotulo(d, caixa, linhas, fonte, alt, fundo, cor_txt):
         y += alt
 
 
+COR_SETA_ANKING = (229, 38, 30)   # vermelho de anotação (como as setas/linhas do AnKing e do AnatoKing), com halo branco
+BORDA_MASCARA = (45, 45, 45)       # #2D2D2D, a borda das máscaras do Image Occlusion do AnKing
+
+
+def retangulos(regiao, pad=5, area_min=AREA_MINIMA):
+    """Máscara no padrão AnKing: um retângulo (com folga) por parte da estrutura. Devolve (máscara booleana, lista de caixas)."""
+    h, w = regiao.shape
+    caixas = []
+    for ys, xs in _componentes(regiao):
+        if len(ys) < area_min:
+            continue
+        caixas.append((max(0, xs.min() - pad), max(0, ys.min() - pad), min(w - 1, xs.max() + pad), min(h - 1, ys.max() + pad)))
+    m = np.zeros_like(regiao)
+    for x0, y0, x1, y1 in caixas:
+        m[y0:y1 + 1, x0:x1 + 1] = True
+    return m, caixas
+
+
+def _seta_limpa(d, ponta, cauda, larg=6, cabeca=24):
+    px, py = ponta
+    qx, qy = cauda
+    ang = np.arctan2(py - qy, px - qx)
+    base = (px - cabeca * np.cos(ang), py - cabeca * np.sin(ang))
+    esq = (base[0] + cabeca * 0.5 * np.sin(ang), base[1] - cabeca * 0.5 * np.cos(ang))
+    dir_ = (base[0] - cabeca * 0.5 * np.sin(ang), base[1] + cabeca * 0.5 * np.cos(ang))
+    for cor, extra in (((255, 255, 255), 4), (COR_SETA_ANKING, 0)):   # halo branco: aparece em tecido escuro e claro
+        d.line([cauda, base], fill=cor, width=larg + extra)
+        d.polygon([(px + extra * np.cos(ang) * 0.7, py + extra * np.sin(ang) * 0.7), esq, dir_], fill=cor)
+
+
 def overlays(tamanho, regiao_mascara, nome_pt, ponta=None, cauda=None, cobrir=True, seta=True, ancora=None):
-    """Gera (frente, verso) como PNGs RGBA do tamanho da figura.
-    frente: máscara vermelha (se `cobrir`) + seta + caixa “?”; verso: seta + nome em português na mesma caixa.
-    `regiao_mascara`: booleano HxW da área a esconder. Se `ponta`/`cauda` vierem (linha-guia do atlas), a seta segue a linha.
-    `ancora` (x, y): sem seta própria — o “?” e o nome ficam centrados ali (ex.: no lugar do “ID” das figuras do AnKing, cuja
-    linha vermelha já aponta a estrutura). Devolve também os metadados usados pelos gates."""
+    """Gera (frente, verso, meta) como PNGs RGBA do tamanho da figura — padrão AnKing (F-20261017-CLAUDE-05):
+    frente = retângulo(s) vermelho(s) com borda cobrindo a estrutura + seta vermelha limpa até eles, SEM “?” e sem frase;
+    verso = a mesma seta com o nome em português na ponta oposta (a estrutura volta a aparecer).
+    `ancora` (x, y): sem seta própria (a figura já aponta, ex.: “ID” do AnKing) — o nome aparece ali no verso.
+    Se `ponta`/`cauda` vierem (linha-guia do atlas), a seta segue a linha."""
     w, h = tamanho
-    tam = max(22, int(w / 30))
+    tam = max(20, int(w / 34))
     f, linhas, bw, bh, alt = _caixa_texto(nome_pt, tam, int(w * 0.36))
-    fq, lq, qw, qh, qalt = _caixa_texto("?", tam, int(w * 0.36))
+    regiao, caixas_m = retangulos(regiao_mascara) if cobrir else (regiao_mascara, [])
     if ancora is not None:
         seta = False
         ponta = cauda = ancora
@@ -233,7 +263,7 @@ def overlays(tamanho, regiao_mascara, nome_pt, ponta=None, cauda=None, cobrir=Tr
         by = int(max(6, min(h - bh - 6, ancora[1] - bh / 2)))
         caixa = (bx, by, bx + bw, by + bh)
     elif ponta is None:
-        ponta, cauda, caixa = planejar_seta(regiao_mascara, (bw, bh))
+        ponta, cauda, caixa = planejar_seta(regiao, (bw, bh))
     else:
         dx, dy = cauda[0] - ponta[0], cauda[1] - ponta[1]
         n = max(1e-6, (dx * dx + dy * dy) ** 0.5)
@@ -241,34 +271,23 @@ def overlays(tamanho, regiao_mascara, nome_pt, ponta=None, cauda=None, cobrir=Tr
         by = cauda[1] - bh / 2 + dy / n * bh / 2
         caixa = (int(max(6, min(w - bw - 6, bx))), int(max(6, min(h - bh - 6, by))), 0, 0)
         caixa = (caixa[0], caixa[1], caixa[0] + bw, caixa[1] + bh)
-    ux, uy = cauda[0] - ponta[0], cauda[1] - ponta[1]
-    un = max(1e-6, (ux * ux + uy * uy) ** 0.5)
-    ux, uy = ux / un, uy / un
-    qx = cauda[0] - qw / 2 + ux * qw / 2       # o "?" encosta na cauda da seta, como o nome no verso
-    qy = cauda[1] - qh / 2 + uy * qh / 2
-    if ancora is not None:
-        qx, qy = ancora[0] - qw / 2, ancora[1] - qh / 2
-    caixa_q = (int(qx), int(qy), int(qx + qw), int(qy + qh))
     out = []
     for lado in ("frente", "verso"):
         im = Image.new("RGBA", (w, h), (0, 0, 0, 0))
-        if lado == "frente" and cobrir:
-            arr = np.array(im)
-            arr[regiao_mascara] = (*COR_PERGUNTA, 255)
-            im = Image.fromarray(arr)
         d = ImageDraw.Draw(im)
+        if lado == "frente" and cobrir:
+            for x0, y0, x1, y1 in caixas_m:
+                d.rectangle((x0, y0, x1, y1), fill=(*COR_PERGUNTA, 255), outline=BORDA_MASCARA, width=2)
         if seta:
-            _desenhar_seta(d, ponta, cauda)
-        if lado == "frente":
-            _rotulo(d, caixa_q, lq, fq, qalt, (255, 255, 255), (0, 0, 0))
-        else:
-            _rotulo(d, caixa, linhas, f, alt, (255, 255, 255), (0, 90, 30))
+            _seta_limpa(d, ponta, cauda)
+        if lado == "verso":
+            _rotulo(d, caixa, linhas, f, alt, (255, 255, 255), (0, 0, 0))
         buf = io.BytesIO()
         im.save(buf, "PNG", optimize=True)
         out.append(buf.getvalue())
     py, px = int(round(ponta[1])), int(round(ponta[0]))
-    viz = regiao_mascara[max(0, py - 12):py + 13, max(0, px - 12):px + 13]
+    viz = regiao[max(0, py - 12):py + 13, max(0, px - 12):px + 13]
     meta = {"ponta": [round(float(ponta[0]), 1), round(float(ponta[1]), 1)], "cauda": [round(float(cauda[0]), 1), round(float(cauda[1]), 1)],
-            "caixa": list(map(int, caixa)), "ponta_na_mascara": bool(viz.any()), "seta": seta,
-            "ancora": None if ancora is None else [round(float(ancora[0]), 1), round(float(ancora[1]), 1)]}
+            "caixa": list(map(int, caixa)), "ponta_na_mascara": bool(viz.any()), "seta": seta, "estilo": "anking",
+            "retangulos": len(caixas_m), "ancora": None if ancora is None else [round(float(ancora[0]), 1), round(float(ancora[1]), 1)]}
     return out[0], out[1], meta

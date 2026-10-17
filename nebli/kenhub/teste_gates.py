@@ -54,6 +54,16 @@ def main():
         espera(any("G6" in x for x in f), "G6 passou no vazio")
         f, _ = render.renderizar('"tag:NEBLI::nao-existe-xyz"', Path(d), [1, 2, 3])
         espera(any("G6" in x for x in f), "G6 passou com plano não vazio e nada renderizado")
+    # F-05: Fonte preenchida reprova; máscara padrão AnKing é retângulo
+    e = _io("f", "Ponte")
+    e["campos"]["Fonte"] = "Kenhub"
+    espera(any("G14" in p for p in deck.gates_pre([e], cur)), "G14 aceitou campo Fonte preenchido")
+    from nebli.kenhub import mascara
+    reg_ = np.zeros((50, 50), bool)
+    reg_[10:20, 10:15] = True
+    reg_[11, 30:40] = True
+    m_, cx_ = mascara.retangulos(reg_, pad=1, area_min=5)
+    espera(len(cx_) == 2 and m_[9:21, 9:16].all(), "máscara não virou retângulos do padrão AnKing")
     # entrada sem campos (tipo desconhecido) reprova
     espera(any("[montagem]" in p for p in deck.gates_pre([{"chave": "z", "tipo": "id"}], cur)), "entrada sem campos passou")
     # F-03: navegador do Kenhub invisível

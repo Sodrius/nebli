@@ -1,32 +1,158 @@
 {
  "_doc": "Todo feedback de Davi sobre a UC07/Kenhub vira gate duro (MEMORY §15). Cada entrada: id, data, literal (trecho), regra, gates (onde o comando reprova) e teste (o que prova que o gate reprova o caso ruim). `./kenhub-deck --painel` confere que cada gate existe no código e gera flashcards/projeto/UC07-PAINEL.md.",
  "feedbacks": [
-  {"id": "F-20261017-CLAUDE-01", "data": "17/10/2026",
+  {
+   "id": "F-20261017-CLAUDE-01",
+   "data": "17/10/2026",
    "literal": "uma imagem por estrutura / kenhub entra como padrão, anking e anatoking para complementar / card em português / deck sem limite de quantidade de cards: todas as estruturas cobertas no módulo recebem no mínimo um card / esses de fisiopato com neuroanatomia tem que ser anking, sem autoral",
    "regra": "Deck por unidade do Kenhub, na ordem dele; toda estrutura ≥ 1 card; Kenhub primeiro, acervos completam; fisiopatologia só por acervo.",
-   "gates": [{"codigo": "[cobertura]", "arquivo": "nebli/kenhub/deck.py"}, {"codigo": "[kenhub-primeiro]", "arquivo": "nebli/kenhub/deck.py"}],
-   "teste": "teste_gates: estrutura sem card → [cobertura] reprova"},
-  {"id": "F-20261017-CLAUDE-02", "data": "17/10/2026",
+   "gates": [
+    {
+     "codigo": "[cobertura]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[kenhub-sempre]",
+     "arquivo": "nebli/kenhub/deck.py"
+    }
+   ],
+   "teste": "teste_gates: estrutura sem card → [cobertura] reprova"
+  },
+  {
+   "id": "F-20261017-CLAUDE-02",
+   "data": "17/10/2026",
    "literal": "melhora somente o card em si, para aparecer só a imagem marcada e quando eu abrir realmente aparecer o nome / sempre tem que renderizar o deck todo no final para ver / o nome tem que vir em português no verso / tenho que descer com o mouse para ver a resposta",
    "regra": "Frente só com a figura; nome em PT no topo do verso sem rolar; deck inteiro renderizado (PC e celular) e olhado no fim.",
-   "gates": [{"codigo": "G1 frente com texto", "arquivo": "nebli/kenhub/render.py"}, {"codigo": "G2 ", "arquivo": "nebli/kenhub/render.py"},
-             {"codigo": "G4 ", "arquivo": "nebli/kenhub/render.py"}, {"codigo": "G5 ", "arquivo": "nebli/kenhub/render.py"},
-             {"codigo": "G6 ", "arquivo": "nebli/kenhub/render.py"}, {"codigo": "[G8 português]", "arquivo": "nebli/kenhub/deck.py"},
-             {"codigo": "[G4 mídia]", "arquivo": "nebli/kenhub/deck.py"}],
-   "teste": "teste_gates: G6 reprova no vazio; G8 reprova nome em inglês"},
-  {"id": "F-20261017-CLAUDE-03", "data": "17/10/2026",
+   "gates": [
+    {
+     "codigo": "G1 frente com texto",
+     "arquivo": "nebli/kenhub/render.py"
+    },
+    {
+     "codigo": "G2 ",
+     "arquivo": "nebli/kenhub/render.py"
+    },
+    {
+     "codigo": "G4 ",
+     "arquivo": "nebli/kenhub/render.py"
+    },
+    {
+     "codigo": "G5 ",
+     "arquivo": "nebli/kenhub/render.py"
+    },
+    {
+     "codigo": "G6 ",
+     "arquivo": "nebli/kenhub/render.py"
+    },
+    {
+     "codigo": "[G8 português]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[G4 mídia]",
+     "arquivo": "nebli/kenhub/deck.py"
+    }
+   ],
+   "teste": "teste_gates: G6 reprova no vazio; G8 reprova nome em inglês"
+  },
+  {
+   "id": "F-20261017-CLAUDE-03",
+   "data": "17/10/2026",
    "literal": "sempre estou usando o anki, age de acordo com isso para me atrapalhar menos",
    "regra": "Nada abre janela na tela de Davi; o comando espera o Anki ficar livre, testa antes de escrever e é retomável.",
-   "gates": [{"codigo": "lifecycle operation is active", "arquivo": "nebli/kenhub/deck.py"}, {"codigo": "def pode_gravar_bandeira", "arquivo": "nebli/kenhub/deck.py"},
-             {"codigo": "headless=True", "arquivo": "nebli/kenhub/navegador.py"}],
-   "teste": "teste_gates: o navegador do Kenhub é invisível"},
-  {"id": "F-20261017-CLAUDE-04", "data": "17/10/2026",
+   "gates": [
+    {
+     "codigo": "lifecycle operation is active",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "def pode_gravar_bandeira",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "headless=True",
+     "arquivo": "nebli/kenhub/navegador.py"
+    }
+   ],
+   "teste": "teste_gates: o navegador do Kenhub é invisível"
+  },
+  {
+   "id": "F-20261017-CLAUDE-04",
+   "data": "17/10/2026",
    "literal": "tem nota que não dá para pôr comentário / alguns cards tem múltiplas palavras no cloze, o que é ruim: só o nome e em português / tem que tirar isso de escolher entre cadáver e imagem / tem card que não tá explícito qual a estrutura que precisa ser visualizada, não dá direcionamento / uma seta apontando e um IO com o card / [comentário] quero que já puxa a imagem com o cloze no local que está verde, só o nome em português / [comentário] quero que o IO fique já onde está ID, para eu não ter que olhar para outro lugar",
    "regra": "Toda nota aceita comentário; cloze/nome = só o nome, em PT; todas as imagens à vista, sem botões; seta + IO em toda figura (máscara no alvo, seta até ele, nome em PT escrito no lugar do “?”); no AnKing, a máscara fica no “ID”; a frente nunca mostra a resposta; a seta termina sobre a anatomia.",
-   "gates": [{"codigo": "[G7 comentário]", "arquivo": "nebli/kenhub/deck.py"}, {"codigo": "[G8 só o nome]", "arquivo": "nebli/kenhub/deck.py"},
-             {"codigo": "G9 botão ou imagem escondida", "arquivo": "nebli/kenhub/render.py"}, {"codigo": "[G10 direcionamento]", "arquivo": "nebli/kenhub/deck.py"},
-             {"codigo": "G11 verso sem a figura com o nome", "arquivo": "nebli/kenhub/render.py"}, {"codigo": "[G12 resposta vazada]", "arquivo": "nebli/kenhub/deck.py"},
-             {"codigo": "[G13 seta na anatomia]", "arquivo": "nebli/kenhub/deck.py"}, {"codigo": "[histórico]", "arquivo": "nebli/kenhub/deck.py"}],
-   "teste": "teste_gates: G8 reprova “Pyramid / Pirâmide” e cloze longo; G12 reprova frente que mostra o nome; G13 reprova ponta no branco; tipo desconhecido reprova"}
+   "gates": [
+    {
+     "codigo": "[G7 comentário]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[G8 só o nome]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "G9 botão ou imagem escondida",
+     "arquivo": "nebli/kenhub/render.py"
+    },
+    {
+     "codigo": "[G10 direcionamento]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "G11 verso sem a figura com o nome",
+     "arquivo": "nebli/kenhub/render.py"
+    },
+    {
+     "codigo": "[G12 resposta vazada]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[G13 seta na anatomia]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[histórico]",
+     "arquivo": "nebli/kenhub/deck.py"
+    }
+   ],
+   "teste": "teste_gates: G8 reprova “Pyramid / Pirâmide” e cloze longo; G12 reprova frente que mostra o nome; G13 reprova ponta no branco; tipo desconhecido reprova"
+  },
+  {
+   "id": "F-20261017-CLAUDE-05",
+   "data": "17/10/2026",
+   "literal": "o IO com seta ainda tá meio tosco / quando o IO for só em uma figura, quero bater o olho e já saber onde está a estrutura / pode modificar alguns anking para tirar quando tem 2 imgs mas só usa uma no card / deixa sem aparecer em cima o nome da estrutura quando já tem seta apontando / deixa sempre kenhub como gate-hard / sempre tira as fontes do campo fonte também do deck, deixa só as que não der para tirar / deixa a imagem dum tamanho adequado, nem mt grande nem mt pequeno / quando for do kenhub e o IO ficar mt evidente, nem precisa de frase tipo 'que estrutura é essa?' quero só a seta e o IO padrão anking / a ordem de geração deve seguir meu cronograma de aulas da uc07 que tá na planilha mestra",
+   "regra": "IO padrão AnKing (retângulo vermelho com borda + seta vermelha limpa, sem “?” nem frase); verso sem nome em cima quando há seta (nome na ponta da seta); uma figura por card; Kenhub sempre (sem exclusão); nenhuma fonte em texto; figura de tamanho adequado; ordem das unidades = cronograma da UC07.",
+   "gates": [
+    {
+     "codigo": "[kenhub-sempre]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[G14 sem fonte]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "G14 fonte/crédito em texto",
+     "arquivo": "nebli/kenhub/render.py"
+    },
+    {
+     "codigo": "G15 frente com",
+     "arquivo": "nebli/kenhub/render.py"
+    },
+    {
+     "codigo": "G16 figura com",
+     "arquivo": "nebli/kenhub/render.py"
+    },
+    {
+     "codigo": "G2 nome em cima com seta",
+     "arquivo": "nebli/kenhub/render.py"
+    },
+    {
+     "codigo": "def retangulos",
+     "arquivo": "nebli/kenhub/mascara.py"
+    }
+   ],
+   "teste": "teste_gates: figura do Kenhub excluída → [kenhub-sempre]; campo Fonte preenchido → [G14]; máscara vira retângulos"
+  }
  ]
 }

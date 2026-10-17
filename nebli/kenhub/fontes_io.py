@@ -40,7 +40,8 @@ def netter(pagina: int, rotulo: str, destino: str):
         if mesma_coluna and vizinha and abs(wr.x0 - r.x0) < 3 * altura:
             r = r | wr
     cx, cy = (r.x0 + fim[0]) / 2, (r.y0 + fim[1]) / 2
-    lado = max(240.0, 2.4 * max(abs(r.x1 - fim[0]), abs(r.x0 - fim[0]), abs(r.y1 - fim[1]), abs(r.y0 - fim[1])))
+    # recorte de tamanho adequado (F-20261017-CLAUDE-05): rótulo + estrutura com folga, sem virar a prancha inteira
+    lado = min(520.0, max(260.0, 2.6 * max(abs(r.x1 - fim[0]), abs(r.x0 - fim[0]), abs(r.y1 - fim[1]), abs(r.y0 - fim[1]))))
     clip = fitz.Rect(cx - lado / 2, cy - lado / 2, cx + lado / 2, cy + lado / 2) & page.rect
     zoom = LADO / max(clip.width, clip.height)
     for carimbo in ("mebooksfree", "z-lib", "www."):   # carimbo de site no rodapé do PDF (não é crédito do Netter)

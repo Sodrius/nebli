@@ -10,6 +10,10 @@ id do feedback de Davi que o criou (registro: nebli/kenhub/feedbacks.json); feed
   G6  deck-todo            todos os cards planejados renderizados (nunca passa no vazio).
   G9  sem-escolher-imagem  nenhum botão no card e nenhuma imagem escondida (nada de escolher entre cadáver e modelo).
   G11 resposta-no-lugar    IO com seta/ID: o verso tem a sobreposição com o nome escrito na figura.
+  G14 sem-fonte            nenhum crédito/fonte em texto no card (só o que está dentro da imagem e não dá para tirar).
+  G15 uma-figura           a frente mostra uma figura só (imagens que o card não usa saem).
+  G16 tamanho-adequado     figura nem gigante nem miúda: no PC entre 380 e 780 px de altura; no celular ≥ 300 px de largura.
+  (G2 no IO com seta: SEM nome em cima — o nome aparece na figura, na ponta da seta; F-20261017-CLAUDE-05)
 
 Saída: <saida>/grandes/gNN.jpg (folhas para olhar) + relatorio.json. Uso: python -m nebli.kenhub.render '"tag:NEBLI::<lição>"' [saida]
 """
@@ -35,10 +39,12 @@ JS = """() => {
      .map(i => ({src: i.getAttribute('src'), ok: i.complete && i.naturalWidth > 0,
                  visivel: i.offsetParent !== null && getComputedStyle(i).visibility !== 'hidden'}));
   const wrap = q('#kh-wrap'), nome = q('#kh-nome'), cloze = q('.cloze');
+  const fig = q('#kh-img img') || q('#u7-imagens img');
+  const frenteImgs = document.querySelectorAll('#kh-img img, #u7-imagens img').length;
   return {texto: (document.getElementById('content')?.innerText || '').trim(), imgs, vh: window.innerHeight,
           botoes: document.querySelectorAll('button').length, sobre: document.querySelectorAll('.kh-over img').length,
           wrap: wrap ? r(wrap) : null, nome: nome ? r(nome) : null, nomeTexto: nome ? nome.innerText.trim() : '',
-          cloze: cloze ? r(cloze) : null};
+          cloze: cloze ? r(cloze) : null, fig: fig ? r(fig) : null, frenteImgs, vw: window.innerWidth};
 }"""
 
 
@@ -100,6 +106,15 @@ def renderizar(consulta: str, saida: Path, nids_esperados):
                     png = saida / f"{c['cardId']}-{tela}-{lado}.png"
                     pg[tela].screenshot(path=str(png))
                     fotos[(tela, lado)] = png
+                    if re.search(r"\b(kenhub|netter|anking|anatoking|photo credit|cc by|wikimedia|physeo|purchase)\b", m["texto"], re.I):
+                        reg["falhas"].append(f"G14 fonte/crédito em texto no card ({tela}/{lado})")
+                    if lado == "question" and m["frenteImgs"] > 1:
+                        reg["falhas"].append(f"G15 frente com {m['frenteImgs']} figuras ({tela})")
+                    if m["fig"]:
+                        if tela == "pc" and not (380 <= m["fig"]["h"] <= 780) and m["fig"]["w"] < 0.95 * m["vw"]:
+                            reg["falhas"].append(f"G16 figura com {m['fig']['h']:.0f} px de altura no PC ({lado})")
+                        if tela == "cel" and m["fig"]["w"] < 300:
+                            reg["falhas"].append(f"G16 figura com {m['fig']['w']:.0f} px de largura no celular ({lado})")
                     ruins = [i["src"] for i in m["imgs"] if not i["ok"]]
                     if ruins:
                         reg["falhas"].append(f"G4 imagem quebrada ({tela}/{lado}): {ruins[:2]}")
@@ -112,8 +127,10 @@ def renderizar(consulta: str, saida: Path, nids_esperados):
                             if _norm(m["texto"]) != _norm(pergunta):
                                 reg["falhas"].append(f"G1 frente com texto além da pergunta ({tela}): {m['texto'][:40]!r}")
                         else:
-                            if not m["nomeTexto"] or (m["nome"] and m["nome"]["bottom"] > m["vh"]):
+                            if pergunta and (not m["nomeTexto"] or (m["nome"] and m["nome"]["bottom"] > m["vh"])):
                                 reg["falhas"].append(f"G2 nome em PT ausente ou fora da primeira tela ({tela})")
+                            if not pergunta and m["nomeTexto"]:
+                                reg["falhas"].append(f"G2 nome em cima com seta apontando ({tela}) — o nome fica só na figura")
                             if not pergunta and m["sobre"] < 1:
                                 reg["falhas"].append(f"G11 verso sem a figura com o nome no lugar da pergunta ({tela})")
                     elif lado == "answer" and (not m["cloze"] or m["cloze"]["bottom"] > m["vh"]):
