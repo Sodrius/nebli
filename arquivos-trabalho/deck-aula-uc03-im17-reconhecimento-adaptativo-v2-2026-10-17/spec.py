@@ -26,7 +26,7 @@ IMG = lambda n, w=440: f'<img src="im17-{n}.png" width="{w}">'
 BUSCA = ("Três caminhos (17/10): seções de recurso do AnKing (FirstAid estrutura e função dos anticorpos, isotipos, troca de classe, mieloma; "
          "busca/secoes); palavra-chave em AnKing e Referências Externas; significado em todos os acervos e NEBLI vivo (busca/semantica.jsonl). ")
 # Vagas da 07 (ainda não instalada): preencher com as cópias NEBLI de 1486867612235 (específica) e 1486867618953 (memória).
-IM07 = {"ESPEC": None, "MEMORIA": None}
+IM07 = {"ESPEC": 1792240068270, "MEMORIA": 1792240070094}
 _C = lambda c, a: f"{a}: entra a cópia NEBLI viva (sh-{c})"
 EXCLUIDOS = [
  (1486867654077, _C(1791629587397, "IgM e IgD no B naive")), (1486867658485, _C(1791629588145, "BCR bivalente")),

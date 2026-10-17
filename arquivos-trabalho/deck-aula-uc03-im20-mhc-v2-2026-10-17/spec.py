@@ -23,7 +23,7 @@ IMG = lambda n, w=420: f'<img src="im20-{n}.png" width="{w}">'
 BUSCA = ("Três caminhos (17/10): seções de recurso do AnKing (FirstAid MHC I e II, ativação T, células dendríticas, HLA; busca/secoes); "
          "palavra-chave em AnKing e Referências Externas (busca/anking.txt); significado em todos os acervos e NEBLI vivo (busca/semantica.jsonl). ")
 # Vaga da 07 (ainda não instalada): preencher com a cópia NEBLI de 1486945137995 (antígenos chegam pelos linfáticos aferentes).
-IM07 = {"LINFATICO": None}
+IM07 = {"LINFATICO": 1792240072720}
 _C = lambda c, a: f"{a}: entra a cópia NEBLI viva (sh-{c})"
 _HLA = "tipagem HLA (microcitotoxicidade, cultura mista): aula 66 Bases imunes dos transplantes"
 EXCLUIDOS = [

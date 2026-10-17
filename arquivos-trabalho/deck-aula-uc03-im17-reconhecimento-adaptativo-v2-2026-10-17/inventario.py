@@ -9,7 +9,7 @@ Fronteira (MEMORY §3): estrutura do BCR, classes de Ig e troca de classe têm c
 PREFIXO = "im17"
 AULA = "Reconhecimento pelo sistema imune na resposta adquirida (UC03 P1; Imunologia)"
 EXC = "EXC: "
-ESP, MEM = "sh-IM07-ESPEC", "sh-IM07-MEMORIA"
+ESP, MEM = "sh-1792240068270", "sh-1792240070094"
 
 SLIDES = [
  (1, "capa", "Capa", []),

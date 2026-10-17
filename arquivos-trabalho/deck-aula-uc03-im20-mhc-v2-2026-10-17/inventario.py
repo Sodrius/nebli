@@ -41,7 +41,7 @@ SLIDES = [(1, "capa", "Capa", [])] + [
  (28, "conteudo", "CD4 rege a orquestra", [("a27", "CD4 ativa outras células", "sh-1791625431758")]),
  (29, "secao", "Captura, processamento e apresentação", []),
  (30, "conteudo", "Antígeno precisa ser capturado e apresentado para o T", [("a28", "Apresentação", "ak-mhc-apresenta")]),
- (31, "conteudo", "Antígenos drenados para órgãos linfoides secundários", [("a29", "Linfáticos aferentes", "sh-IM07-LINFATICO")]),
+ (31, "conteudo", "Antígenos drenados para órgãos linfoides secundários", [("a29", "Linfáticos aferentes", "sh-1792240072720")]),
  (32, "conteudo", "Células dendríticas migram para o linfonodo", [("a30", "Migração e maturação", "sh-1791625425333")]),
  (33, "conteudo", "Célula dendrítica (fotos)", [("a31", "Langerhans", ["ak-langerhans", "sh-1791625425478"])]),
  (34, "conteudo", "Funções das CAA; melhor CAA: célula dendrítica", [("a32", "CD a mais potente", ["sh-1791625426408", "sh-1791625426532"])]),

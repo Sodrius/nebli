@@ -198,16 +198,16 @@ for c in CARDS:
         c["extra_add"] = VERSO[c["key"]] + ("<br>" + c["extra_add"] if c.get("extra_add") else "")
 DUPLICACAO = {}
 IMAGENS_VISTAS = {}
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (42 notas novas, 44 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Descrever órgãos linfoides primários (geração e seleção do repertório) e secundários (encontro com o antígeno), a recirculação "
              "de linfócitos naive e ativados, as APC, as áreas T e B, a eferência de plasmócitos e anticorpos, e a ideia de resposta × tolerância; "
              "conhecer as famílias de adesão e quimiocinas só em linhas gerais.",
  "centrais": [
    ("inata × adaptativa", "ak-adaptativa-especifica", "ak-inata-memoria", "ak-adaptativa-memoria"),
-   ("primários e seleção", "ak-mo-producao", "ak-mo-b", "sh-1791625422783", "sh-1791625423407", "sh-1791625423808"),
+   ("primários e seleção", "sh-1791625423407", "sh-1791625423808", "ak-mo-producao", "ak-mo-b", "sh-1791625422783"),
    ("secundários e recirculação", "ak-secundarios", "sh-1791625425583", "sh-1791625425207", "au-tolerancia"),
-   ("áreas T e B", "ak-foliculo-b", "ak-paracortex", "ak-baco-t", "sh-1791625426408"),
+   ("áreas T e B", "sh-1791625426408", "ak-foliculo-b", "ak-paracortex", "ak-baco-t"),
  ],
  "exemplos": ["DiGeorge", "mononucleose (paracórtex)", "mieloma", "HBV e apresentação cruzada", "vacina", "janela do HIV"],
  "outras_aulas": [("reconhecimento inato, DAMPs, barreiras", "08 (sh)"), ("MHC e apresentação", "20"), ("ativação T e B", "45 e 49 (sh)"),
