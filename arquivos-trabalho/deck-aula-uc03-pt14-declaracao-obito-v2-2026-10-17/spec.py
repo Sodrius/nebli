@@ -121,7 +121,7 @@ IMAGENS_VISTAS = {
  "pt14-parte-i.png": "Lâmina 6: Parte I da DO com as linhas a (imediata), b–c (intermediárias), d (básica) e o texto da Parte II; verso de au-parte-i.",
  "pt14-caso1.png": "Lâmina 8: DO do caso 1 preenchida (edema agudo ← ICC ← cardiopatia ← hipertensão; câncer de próstata na Parte II, com tempos); verso de au-parte-ii.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (16 notas novas, 18 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Saber para que serve a DO, quando emiti-la, quem a assina (assistente, SVO, IML) e como preencher a Parte I (cadeia causal até a "
              "causa básica) e a Parte II, evitando modos de morrer como causa.",
