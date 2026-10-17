@@ -43,7 +43,7 @@ FORA_DO_RECORTE = [
  "Diferenciação Th1/Th2/Th17/Treg e efetores do CD8: aulas 45 e 22; aqui só o elo apresentação → subtipo.",
  "Tipagem HLA e rejeição: aula 66.",
 ]
-A_, B_, C_, D_, E_ = "A-reconhecimento", "B-celulas-dendriticas", "C-mhc", "D-processamento", "E-ativacao"
+A_, B_, C_, D_, E_ = "A-reconhecimento", "B-celulas-dendriticas", "C-MHC", "D-processamento", "E-ativacao"
 
 CARDS = [
  # ---------- A. Reconhecimento (lâminas 20–28) ----------
@@ -155,7 +155,7 @@ IMAGENS_VISTAS = {
  "im20-pdc.png": "Lâmina 36: CD convencional × plasmocitoide (TLR7/9, IFN-α/β); verso de au-pdc.",
  "im20-mhc1-montagem.png": "Lâmina 54: montagem do MHC I no RE (calnexina, tapasina, TAP) e exportação só com peptídeo; verso de au-mhc-vazio.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (21 notas novas, 23 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Entender como as CAA (sobretudo a célula dendrítica) capturam, processam e apresentam antígenos; a estrutura, os genes e o "
              "polimorfismo do MHC; as vias citosólica (MHC I → CD8) e endocítica (MHC II → CD4), a apresentação cruzada, os superantígenos "
