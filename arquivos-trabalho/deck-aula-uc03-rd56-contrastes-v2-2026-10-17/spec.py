@@ -158,7 +158,7 @@ IMAGENS_VISTAS = {
  "rd56-angiorm.jpg": "Lâmina 31: angio-RM arterial intracraniana sem contraste, arterial extracraniana e venosa com contraste; verso de au-tof.",
  "rd56-reacoes.jpg": "Lâmina 33: escala de gravidade das reações (urticária, angioedema, broncoespasmo, edema de glote, choque, PCR); verso de au-reacoes.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (27 notas novas, 30 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Saber para que servem os meios de contraste, qual contraste intracavitário e intravascular cada método usa (bário só no "
              "tubo digestivo, iodo, água, gadolínio, microbolhas), os exames contrastados principais e a segurança: gravidade das "
