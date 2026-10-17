@@ -252,7 +252,7 @@ DUPLICACAO = {"au-diazoxido": "ganho: o lado oposto (abrir o canal bloqueia a se
 for _k, _v in DUPLICACAO.items():
     next(c for c in CARDS if c["key"] == _k)["duplicacao_ok"] = _v
 IMAGENS_VISTAS = {}
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (63 notas novas, 84 cards; frentes, clozes, versos e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Entender o que são hormônios, suas classes e receptores (membrana × nucleares, AMPc), a síntese e secreção da insulina, a ação "
              "de insulina, glucagon e epinefrina sobre o glicogênio e o metabolismo, a síntese de catecolaminas e o mecanismo dos hormônios "

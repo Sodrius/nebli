@@ -14,7 +14,7 @@ SLIDES = [
  (2, "conteudo", "Regulação metabólica: interferir na velocidade das reações; efeito propagado", [("a1", "Mudar a quantidade de enzima é o controle mais lento e decisivo", "sh-1791647344393")]),
  (3, "conteudo", "Regulação: modulação alostérica, modificação covalente, expressão", [
    ("a2", "Fosforilação ativa a fosforilase e inativa a sintase", ["sh-1791647344895", "sh-1791647345145"])]),
- (4, "secao", "Hormônios", []),
+ (4, "logistica", "Hormônios", []),
  (5, "conteudo", "Integração metabólica: abundância e escassez, oscilações diárias; feita por hormônios", [("a3", "Integração pelos hormônios", EXC + "introdução; os efeitos de cada hormônio entram nas lâminas 23–54")]),
  (6, "conteudo", "O que são hormônios? (vídeo)", [("a4", "Vídeo", EXC + "vídeo indicado, sem texto")]),
  (7, "conteudo", "Hormônios: agem a distância, em baixa quantidade, por receptores", [("a5", "Sensibilidade do alvo depende dos receptores", "sh-1791762417900")]),
@@ -61,7 +61,7 @@ SLIDES = [
  (38, "conteudo", "Regulação do metabolismo pelo glucagon", [
    ("a45", "Efeitos do glucagon", ["sh-1791054011246", "sh-1791729320461", "sh-1791729320636", "ak-glucagon-locais", "ak-glucagon-cetoacidos", "ak-glucagon-ureia", "ak-glucagon-catabolico"]),
    ("a46", "Músculo não tem receptor de glucagon", "sh-1791647350720")]),
- (39, "secao", "Catecolaminas", []),
+ (39, "logistica", "Catecolaminas", []),
  (40, "conteudo", "Síntese: tirosina → DOPA → dopamina → noradrenalina → adrenalina", [("a47", "Enzimas da síntese", ["ak-th", "ak-dbh", "ak-pnmt"])]),
  (41, "conteudo", "Sinalização da epinefrina; efeitos; uso clínico", [
    ("a48", "Epinefrina degrada glicogênio no músculo", ["sh-1791647350546", "sh-1791647349446"]), ("a49", "Estresse: epinefrina e cortisol", ["ak-estresse", "sh-1791054013222"])]),
@@ -83,7 +83,7 @@ SLIDES = [
  (55, "conteudo", "Disruptores endócrinos: imitam ou bloqueiam", [("a64", "Disruptores", "au-disruptores")]),
  (56, "logistica", "Bibliografia", []),
 ]
-JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "secao": "capa de seção", "logistica": "bibliografia"}
+JUSTIFICATIVAS = {"capa": "capa sem conteúdo", "logistica": "capa de seção ou bibliografia, sem conteúdo"}
 CAPITULO = [("Lehninger cap. 23 (regulação hormonal e integração) (confirma)", [
  ("l1", "Classes de hormônios e receptores", ["ak-aminas-classes", "ak-receptor-membrana"]),
  ("l2", "Insulina: receptor, IRS, PI3K, GLUT4", ["ak-receptor-dimeriza", "ak-pi3k", "sh-1791054011372"]),
