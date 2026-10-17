@@ -151,7 +151,7 @@ IMAGENS_VISTAS = {
  "bm18-juncional.png": "Lâmina 17: abertura do grampo, nucleotídeos P e N (TdT), aparo e junção; verso de au-juncional.",
  "bm18-aid.png": "Lâmina 22: AID desamina C em U, par U:G, glicosilase, sítio abásico e polimerases translesão; verso de au-aid.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (17 notas novas, 21 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Explicar como a recombinação V(D)J, a diversidade juncional, a combinação H/L e a hipermutação somática geram a diversidade "
              "de anticorpos, incluindo RSS/RAG, JNHE, exclusão alélica, AID e a troca de classe.",
