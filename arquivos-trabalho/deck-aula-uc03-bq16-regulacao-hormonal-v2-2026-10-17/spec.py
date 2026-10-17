@@ -179,7 +179,7 @@ IMAGENS_VISTAS = {
  "bq16-parabiose.png": "Lâmina 56: resultados da parabiose de Coleman (db/db, ob/ob, selvagem); verso de au-db.",
  "bq16-arqueado.png": "Lâmina 60: neurônios NPY/AgRP × POMC/CART, α-MSH no MC4R, receptor de leptina; verso de au-arqueado.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (37 notas novas, 43 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Explicar a teoria lipostática, como leptina, adiponectina, grelina e GLP-1 regulam o apetite e o metabolismo, os circuitos "
              "do núcleo arqueado, a resistência à leptina e à insulina na obesidade e a AMPK como sensor de energia.",
