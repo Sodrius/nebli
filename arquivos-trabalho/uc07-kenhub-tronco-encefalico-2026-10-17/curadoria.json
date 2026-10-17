@@ -1,0 +1,464 @@
+{
+ "modulo": "tronco-encefalico",
+ "unidade": "visao-geral-anatomia-superficie",
+ "unidade_kenhub": "brainstem-and-related-structures",
+ "deck": "NEBLI::UC07::Tronco encefálico::Visão geral e anatomia de superfície",
+ "short": "uc07a",
+ "lesson_id": "2026-uc07-tronco-encefalico-01-visao-geral-superficie",
+ "kenhub_excluir": {
+  "nuclei-olivares": "figura do Kenhub é esquema de vias com o verde minúsculo; vale a peça do AnatoKing"
+ },
+ "cores": {
+  "medullary-pyramids": "verde",
+  "pyramidal-decussation": "verde",
+  "nuclei-olivares": "verde",
+  "pons": "verde",
+  "cerebral-peduncle": "verde",
+  "interpeduncular-fossa": "verde",
+  "hypoglossal-nerve": "verde",
+  "accessory-nerve": "verde",
+  "nervus-trigeminus": "verde",
+  "nervus-trochlearis": "verde",
+  "nervus-oculomotorius": "verde",
+  "nervus-vagus": "verde",
+  "glossopharyngeal-nerve": "verde",
+  "nervus-vestibulocochlearis": "verde",
+  "facial-nerve": "verde",
+  "abducens-nerve": "verde",
+  "fossa-rhomboidea": "verde",
+  "facial-colliculus": "verde",
+  "colliculus-inferior": "verde",
+  "colliculus-superior": "verde",
+  "inferior-cerebellar-peduncle": "verde",
+  "middle-cerebellar-peduncle": "verde",
+  "pedunculus-cerebellaris-superior": "verde",
+  "preolivary-groove": "azul",
+  "retroolivary-groove": "azul",
+  "pontomesencephalic-sulcus": "azul",
+  "basilar-sulcus": "azul",
+  "posterior-median-sulcus": "azul",
+  "median-sulcus-of-rhomboid-fossa": "azul",
+  "sulcus-limitans-of-rhomboid-fossa": "azul",
+  "trigeminal-tubercle": "azul",
+  "cuneate-tubercle": "azul",
+  "gracile-tubercle": "azul",
+  "cuneate-fasciculus": "azul",
+  "fasciculus-gracilis": "azul",
+  "lateral-funiculus-of-medulla-oblongata": "azul",
+  "inferior-part-of-medulla-oblongata": "azul",
+  "superior-part-of-medulla-oblongata": "azul",
+  "hypoglossal-trigone": "azul",
+  "trigonum-nervi-vagi": "azul",
+  "area-vestibularis": "azul",
+  "eminentia-medialis": "azul",
+  "locus-caeruleus": "azul",
+  "medullary-striae-of-fourth-ventricle": "azul",
+  "opening-of-central-canal-of-spinal-cord": "azul",
+  "superior-medullary-velum": "azul",
+  "frenulum-of-superior-medullary-velum": "azul",
+  "lamina-of-mesencephalic-tectum": "azul",
+  "lateral-groove-of-midbrain": "azul",
+  "corpus-geniculatum-mediale": "azul",
+  "corpus-geniculatum-laterale": "azul",
+  "obex": "azul",
+  "nervus-opticus": "azul",
+  "posterior-perforated-substance": "azul",
+  "chiasma-opticum": "rosa",
+  "corpus-mamillare": "rosa",
+  "tuber-cinereum": "rosa",
+  "infundibulum-of-pituitary-gland": "rosa",
+  "anterior-perforated-substance": "rosa",
+  "third-ventricle": "rosa",
+  "thalamus": "rosa",
+  "glandula-pinealis": "rosa",
+  "taenia-thalami": "rosa",
+  "habenular-trigone": "rosa",
+  "anterior-thalamic-tubercle": "rosa",
+  "lamina-affixa": "rosa",
+  "flocculus": "rosa"
+ },
+ "acervo": [
+  {
+   "nid": 1540251392108,
+   "apos": "medullary-pyramids",
+   "cobre": [],
+   "nota": "",
+   "pt": "Pirâmide do bulbo"
+  },
+  {
+   "nid": 1540251405250,
+   "apos": "nuclei-olivares",
+   "cobre": [
+    "nuclei-olivares"
+   ],
+   "nota": "",
+   "pt": "Oliva do bulbo"
+  },
+  {
+   "nid": 1540251369300,
+   "apos": "preolivary-groove",
+   "cobre": [
+    "preolivary-groove"
+   ],
+   "nota": "sulco anterolateral = pré-olivar",
+   "pt": "Sulco anterolateral do bulbo"
+  },
+  {
+   "nid": 1540251362281,
+   "apos": "inferior-part-of-medulla-oblongata",
+   "cobre": [],
+   "nota": "",
+   "pt": "Bulbo (medula oblonga)"
+  },
+  {
+   "nid": 1543513440087,
+   "apos": "infundibulum-of-pituitary-gland",
+   "cobre": [],
+   "nota": "",
+   "pt": "Infundíbulo da hipófise"
+  },
+  {
+   "nid": 1540251102016,
+   "apos": "chiasma-opticum",
+   "cobre": [],
+   "nota": "",
+   "pt": "Quiasma óptico"
+  },
+  {
+   "nid": 1540251996841,
+   "apos": "nervus-opticus",
+   "cobre": [],
+   "nota": "",
+   "pt": "Nervo óptico (II)"
+  },
+  {
+   "nid": 1540252014940,
+   "apos": "nervus-trochlearis",
+   "cobre": [],
+   "nota": "",
+   "pt": "Nervo troclear (IV)"
+  },
+  {
+   "nid": 1540252153634,
+   "apos": "nervus-vagus",
+   "cobre": [],
+   "nota": "",
+   "pt": "Nervo vago (X)"
+  },
+  {
+   "nid": 1540252142290,
+   "apos": "glossopharyngeal-nerve",
+   "cobre": [],
+   "nota": "",
+   "pt": "Nervo glossofaríngeo (IX)"
+  },
+  {
+   "nid": 1541100906901,
+   "apos": "nervus-vestibulocochlearis",
+   "cobre": [],
+   "nota": "",
+   "pt": "Nervo vestibulococlear (VIII)"
+  },
+  {
+   "nid": 1540252098615,
+   "apos": "facial-nerve",
+   "cobre": [],
+   "nota": "",
+   "pt": "Nervo facial (VII)"
+  },
+  {
+   "nid": 1540252081579,
+   "apos": "abducens-nerve",
+   "cobre": [],
+   "nota": "",
+   "pt": "Nervo abducente (VI)"
+  },
+  {
+   "nid": 1540251137463,
+   "apos": "third-ventricle",
+   "cobre": [],
+   "nota": "",
+   "pt": "Terceiro ventrículo"
+  },
+  {
+   "nid": 1540251227048,
+   "apos": "lamina-of-mesencephalic-tectum",
+   "cobre": [
+    "lamina-of-mesencephalic-tectum"
+   ],
+   "nota": "sem figura no Kenhub; corpos quadrigêmeos = lâmina do teto (AnatoKing)",
+   "pt": "Lâmina quadrigêmea"
+  }
+ ],
+ "anking": [
+  {
+   "nid": 1480611508507,
+   "text_pt": "O tronco encefálico divide-se em três partes contínuas: {{c1::mesencéfalo}}, {{c2::ponte}} e {{c3::bulbo}}"
+  },
+  {
+   "nid": 1480876095292,
+   "text_pt": "Que parte do tronco encefálico contém os núcleos dos nervos cranianos IX, X e XII? {{c1::Bulbo}}"
+  },
+  {
+   "nid": 1480875085160,
+   "text_pt": "Que parte do tronco encefálico contém os núcleos dos nervos cranianos V, VI, VII e VIII? {{c1::Ponte}}"
+  },
+  {
+   "nid": 1480874926420,
+   "text_pt": "Que parte do tronco encefálico contém os núcleos dos nervos cranianos III e IV? {{c1::Mesencéfalo}}",
+   "extra_pt": "Núcleo do III no mesencéfalo rostral; núcleo do IV no mesencéfalo caudal."
+  },
+  {
+   "nid": 1480612332368,
+   "text_pt": "Quais nervos cranianos NÃO se localizam no tronco encefálico? {{c1::I e II}}",
+   "extra_pt": "Algumas fontes incluem também o XI nessa lista."
+  },
+  {
+   "nid": 1480874900668,
+   "text_pt": "Que nervo craniano decussa antes de sair do tronco encefálico? {{c1::Troclear (IV)}}",
+   "extra_pt": "Decussa no véu medular superior."
+  },
+  {
+   "nid": 1480639894881,
+   "text_pt": "O nervo craniano {{c1::II}} é o nervo {{c2::óptico}}"
+  },
+  {
+   "nid": 1480640603407,
+   "text_pt": "O nervo craniano {{c1::XII}} é o nervo {{c2::hipoglosso}}"
+  },
+  {
+   "nid": 1480640282228,
+   "text_pt": "O nervo craniano {{c1::V}} é o nervo {{c2::trigêmeo}}"
+  },
+  {
+   "nid": 1480876113898,
+   "text_pt": "As radículas dos nervos cranianos {{c1::IX}} e {{c1::X}} saem entre a oliva e o pedúnculo cerebelar inferior"
+  },
+  {
+   "nid": 1480908710880,
+   "text_pt": "O colículo inferior envia a informação auditiva ao {{c1::corpo geniculado medial}} do tálamo"
+  },
+  {
+   "nid": 1481130931985,
+   "text_pt": "O cerebelo recebe aferência {{c3::contra}}lateral do {{c1::córtex cerebral}} pelo pedúnculo cerebelar {{c2::médio}}",
+   "extra_pt": "Processada no hemisfério cerebelar lateral."
+  },
+  {
+   "nid": 1481130924540,
+   "text_pt": "O cerebelo recebe informação proprioceptiva {{c3::ipsi}}lateral da {{c1::medula espinal}} pelo pedúnculo cerebelar {{c2::inferior}}",
+   "extra_pt": "Processada no verme e no hemisfério intermédio; por isso a lesão do pedúnculo cerebelar inferior pode causar ataxia e dismetria ipsilaterais."
+  },
+  {
+   "nid": 1461869987440,
+   "text_pt": "O hipotálamo liga-se à hipófise por uma haste fina chamada {{c1::infundíbulo}}",
+   "extra_pt": "Lesão da haste → aumento da prolactina."
+  },
+  {
+   "nid": 1481418839841,
+   "text_pt": "O {{c2::epitálamo}} é formado pela glândula {{c1::pineal}} e pelos núcleos habenulares",
+   "extra_pt": "Epitálamo destacado em vermelho."
+  },
+  {
+   "nid": 1480389648940,
+   "text_pt": "A maioria (80–90%) das fibras do trato corticoespinal decussa logo abaixo do {{c2::bulbo caudal}}, na decussação {{c1::piramidal}}",
+   "extra_pt": "A decussação ocorre na junção do bulbo caudal com a medula espinal."
+  }
+ ],
+ "nome_pt": {
+  "tuber-cinereum": "Túber cinéreo"
+ },
+ "nome_igual_ok": [
+  "obex"
+ ],
+ "versao": 2,
+ "retirar": {
+  "1548697532596": "AnatoKing sem figura de modelo (sem seta): decussação coberta pelo Netter p.178 com seta",
+  "1540251600465": "AnatoKing mostra o funículo lateral da MEDULA ESPINAL; o do bulbo vem do Netter p.179",
+  "1560544170382": "Machado: figura numerada com várias estruturas (sem direcionamento nem campo de comentário); trígono do hipoglosso e estrias medulares vêm do Netter",
+  "1560879496393": "Machado: pergunta com resposta de várias palavras; teto coberto por Netter (RM) e AnatoKing",
+  "1561331517238": "Machado: figura numerada com várias estruturas; trígono da habênula vem do Netter",
+  "1561329064370": "Machado: figura numerada com várias estruturas; tubérculo anterior do tálamo vem do Netter",
+  "1480875895840": "AnKing ID em corte (núcleo espinal do V): o “ID” não é legível na figura e o núcleo é da unidade 22; tubérculo do trigêmeo vem do Netter",
+  "1480874939086": "AnKing ID em corte (NC V): o “ID” não é legível; fica para a unidade 21/22",
+  "1480612335699": "resposta é lista de 4 algarismos (cloze de várias palavras); o conteúdo está nos cards de núcleos por parte do tronco",
+  "1480612341720": "resposta é lista de 4 algarismos (cloze de várias palavras); idem"
+ },
+ "netter": [
+  {
+   "slug": "nuclei-olivares",
+   "pagina": 178,
+   "rotulo": "Olive",
+   "pt": "Oliva (núcleos olivares)"
+  },
+  {
+   "slug": "lateral-funiculus-of-medulla-oblongata",
+   "pagina": 179,
+   "rotulo": "Lateral funiculus",
+   "pt": "Funículo lateral do bulbo"
+  },
+  {
+   "slug": "trigeminal-tubercle",
+   "pagina": 179,
+   "rotulo": "Trigeminal tubercle",
+   "pt": "Tubérculo do trigêmeo"
+  },
+  {
+   "slug": "hypoglossal-trigone",
+   "pagina": 179,
+   "rotulo": "Hypoglossal trigone",
+   "pt": "Trígono do hipoglosso"
+  },
+  {
+   "slug": "medullary-striae-of-fourth-ventricle",
+   "pagina": 179,
+   "rotulo": "striae",
+   "pt": "Estrias medulares do IV ventrículo"
+  },
+  {
+   "slug": "lamina-of-mesencephalic-tectum",
+   "pagina": 214,
+   "rotulo": "Tectum",
+   "pt": "Teto do mesencéfalo"
+  },
+  {
+   "slug": "habenular-trigone",
+   "pagina": 179,
+   "rotulo": "Habenular trigone",
+   "pt": "Trígono da habênula"
+  },
+  {
+   "slug": "anterior-thalamic-tubercle",
+   "pagina": 176,
+   "rotulo": "Anterior tubercle",
+   "pt": "Tubérculo anterior do tálamo"
+  }
+ ],
+ "anking_io": [
+  {
+   "nid": 1480612641559,
+   "apos": "nervus-trigeminus",
+   "pt": "Nervo trigêmeo (V)",
+   "estilo": "id"
+  },
+  {
+   "nid": 1480612650977,
+   "apos": "glossopharyngeal-nerve",
+   "pt": "Nervo glossofaríngeo (IX)",
+   "estilo": "id"
+  },
+  {
+   "nid": 1480612646253,
+   "apos": "facial-nerve",
+   "pt": "Nervo facial (VII)",
+   "estilo": "id"
+  },
+  {
+   "nid": 1480612644189,
+   "apos": "abducens-nerve",
+   "pt": "Nervo abducente (VI)",
+   "estilo": "id"
+  },
+  {
+   "nid": 1480612658199,
+   "apos": "hypoglossal-nerve",
+   "pt": "Nervo hipoglosso (XII)",
+   "estilo": "id"
+  },
+  {
+   "nid": 1480612652856,
+   "apos": "nervus-vagus",
+   "pt": "Nervo vago (X)",
+   "estilo": "id"
+  },
+  {
+   "nid": 1480612604399,
+   "apos": "colliculus-inferior",
+   "pt": "Colículo inferior",
+   "estilo": "id"
+  },
+  {
+   "nid": 1480612633897,
+   "apos": "cerebral-peduncle",
+   "pt": "Pedúnculo cerebral",
+   "estilo": "id"
+  },
+  {
+   "nid": 1480612636881,
+   "apos": "corpus-mamillare",
+   "pt": "Corpo mamilar",
+   "estilo": "id"
+  },
+  {
+   "nid": 1483845206345,
+   "apos": null,
+   "pt": "Canal óptico",
+   "extra_pt": "Passagem do nervo óptico (II) e da artéria oftálmica.",
+   "estilo": "id"
+  },
+  {
+   "nid": 1483845232783,
+   "apos": null,
+   "pt": "Canal do hipoglosso",
+   "extra_pt": "Passagem do nervo hipoglosso (XII).",
+   "estilo": "id"
+  },
+  {
+   "nid": 1483845235812,
+   "apos": null,
+   "pt": "Forame magno",
+   "extra_pt": "Passagem do tronco encefálico/medula, da raiz espinal do XI e das artérias vertebrais.",
+   "estilo": "id"
+  },
+  {
+   "nid": 1480875959060,
+   "apos": null,
+   "pt": "Bulbo caudal (fechado)",
+   "pergunta": "Qual é o nível do tronco encefálico?",
+   "extra_pt": "Sem IV ventrículo; decussação das pirâmides.",
+   "estilo": "nivel"
+  },
+  {
+   "nid": 1480875089335,
+   "apos": null,
+   "pt": "Bulbo rostral (aberto)",
+   "pergunta": "Qual é o nível do tronco encefálico?",
+   "extra_pt": "IV ventrículo presente; núcleo olivar inferior; nervos IX, X e XII.",
+   "estilo": "nivel"
+  },
+  {
+   "nid": 1480874931616,
+   "apos": null,
+   "pt": "Ponte rostral",
+   "pergunta": "Qual é o nível do tronco encefálico?",
+   "extra_pt": "IV ventrículo presente; base da ponte volumosa; nervo V.",
+   "estilo": "nivel"
+  },
+  {
+   "nid": 1480875022899,
+   "apos": null,
+   "pt": "Ponte caudal",
+   "pergunta": "Qual é o nível do tronco encefálico?",
+   "extra_pt": "IV ventrículo presente; base da ponte volumosa; nervos VI e VII.",
+   "estilo": "nivel"
+  },
+  {
+   "nid": 1480874867653,
+   "apos": null,
+   "pt": "Mesencéfalo caudal",
+   "pergunta": "Qual é o nível do tronco encefálico?",
+   "extra_pt": "Colículos inferiores; aqueduto do mesencéfalo; nervo IV.",
+   "estilo": "nivel"
+  },
+  {
+   "nid": 1480873977898,
+   "apos": null,
+   "pt": "Mesencéfalo rostral",
+   "pergunta": "Qual é o nível do tronco encefálico?",
+   "extra_pt": "Colículos superiores; aqueduto; pedúnculos cerebrais; nervo III.",
+   "estilo": "nivel"
+  }
+ ],
+ "historico_decisoes": [
+  "17/10 v2: decussação volta ao Kenhub (máscara+seta tornam o alvo explícito); Netter p.178 reprovou no G13 (ponta no fundo branco)."
+ ]
+}

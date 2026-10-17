@@ -17,6 +17,10 @@
 - Não fabricar leitura, busca, teste ou revisão. Gate aprovado não prova julgamento.
 - **AnKing-primeiro com gates duros** (MEMORY §5): busca nos três caminhos em todos os acervos, `busca/cobertura.tsv`, autoral só para lacuna provada, **no máximo 20% dos cards** (35% só com `AUTORAL_EXCECAO`), **todo AnKing do conteúdo da aula entra, sem teto de cards** (`PIPELINE_VERSAO = 4`, `SECOES_DA_AULA`) e relido contra os ANTI-EXEMPLARES. O `apply` recusa instalar sem isso.
 
+## UC07 / Kenhub (neuroanatomia)
+
+**Toda sessão da UC07 começa por `./kenhub-deck --painel`** (gera `flashcards/projeto/UC07-PAINEL.md`: feedbacks de Davi → gates conferidos + onde estamos + próximo passo). `./kenhub-deck <slug-da-unidade> "<Módulo>" "<Submódulo>"` gera o deck final da unidade com **todos os gates duros** (cobertura 100% das estruturas, deck já instalado e dessuspenso, renderização do deck inteiro em PC e celular). Plano e tabela das unidades: [PLANO-UC07-NEUROANATOMIA-COMPLETA](flashcards/projeto/PLANO-UC07-NEUROANATOMIA-COMPLETA-2026-10-17.md); regras no MEMORY §15. Davi está sempre no Anki (MEMORY §1): nada de janela na tela dele. Depois de rodar, **olhar as folhas de contato** antes de entregar.
+
 ## Outras rotas (só sob pedido)
 
 Índice do projeto: [README.md](README.md). Pedido explícito de “E1 + cards” (E1 + deck) inclui a E1: `didatica/E1.md`. Cadernos: `banco/CLAUDE.md` e `ROLES.md`. Typst: `typst-template/CLAUDE.md`. Site, liga e Etimologia: preservar.

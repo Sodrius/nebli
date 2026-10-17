@@ -20,6 +20,8 @@ from pathlib import Path
 from nebli.preflight import ReadOnlyAnki, deck_query
 from nebli.rotulos import canonical
 
+KENHUB_TAG = "NEBLI::fonte::kenhub"
+
 
 def sha256(path):
     with Path(path).open("rb") as stream:
@@ -159,6 +161,9 @@ def export_uc(uc, output, endpoint="http://127.0.0.1:8765"):
     before = live_snapshot(call, deck)
     if not before["card_ids"]:
         raise ValueError("UC vazia: nada a publicar; não restaurar pacotes históricos.")
+    # Imagens do Kenhub são só de uso pessoal (PLANO-KENHUB §0): nunca em pacote compartilhável.
+    if call("findCards", query=f"{deck_query(deck)} tag:{KENHUB_TAG}"):
+        raise ValueError(f"UC contém cards com {KENHUB_TAG} (uso pessoal); não empacotar.")
     existing_decks = call("deckNames")
     candidates = sorted((name for name in existing_decks
                          if name == deck or name.startswith(deck + "::")), key=len)

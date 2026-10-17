@@ -1,0 +1,6 @@
+#!/bin/bash
+# Uma unidade do Kenhub -> deck final no Anki com gates duros (ver nebli/kenhub/pipeline.py e
+# flashcards/projeto/PLANO-UC07-NEUROANATOMIA-COMPLETA-2026-10-17.md).
+#   ./kenhub-deck <slug-da-unidade> "<Módulo>" "<Submódulo>"
+cd "$(dirname "$0")" || exit 1
+exec "$HOME/NEBLI-privado/kenhub/venv/bin/python" -m nebli.kenhub.pipeline "$@"
