@@ -125,7 +125,7 @@ IMAGENS_VISTAS = {
  "gr53-tc-mediastino.jpg": "Lâmina 18: TC de tórax com contraste do caso, massas linfonodais mediastinais com áreas hipodensas; verso de au-necrose.",
  "gr53-padroes.jpg": "Lâmina 53: quatro RX da forma crônica (pneumônico, nodular, intersticial, fibrótico), centrais e simétricos; verso de au-borboleta.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (8 notas novas, 8 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Reconhecer a forma aguda/juvenil da PCM (linfonodos necróticos que simulam linfoma), o diagnóstico anatomopatológico "
              "(granuloma, Grocott, roda de leme), a imunidade celular que forma o granuloma, a clínica e a radiologia da forma crônica e "
