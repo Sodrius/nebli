@@ -207,7 +207,7 @@ IMAGENS_VISTAS = {
  "aw.png": "Ankisthesia: escala de cor do Doppler (vermelho em direção, azul se afastando, matiz pela velocidade); verso de ext-doppler-cor (a captura de texto sobre Doppler esofágico foi retirada).",
  "paste-0fcf1af07da2c6ca1b0d07839e9e40af572b95e7.jpg": "Ankisthesia: US com perda de sinal por ar entre transdutor e pele (acoustic dropout); verso de ext-gel.",
 }
-REVISAO = {}
+REVISAO = {"despejo": "Despejo lido inteiro em 17/10 (39 notas novas, 42 cards; frentes, clozes, versos, imagens e cores conferidos). Nada a corrigir.", "corrigidos": []}
 ESCOPO = {
  "objetivo": "Entender como se formam a radiografia (tubo, atenuação, densidades, projeção, magnificação, silhueta) e a ultrassonografia "
              "(onda mecânica, transdutor piezoelétrico, impedância, frequência, ecogenicidade, sombra e reforço), os efeitos da radiação ionizante e o FAST.",

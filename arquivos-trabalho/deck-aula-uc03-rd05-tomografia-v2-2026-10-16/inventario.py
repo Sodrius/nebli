@@ -12,8 +12,8 @@ de achados (sangue agudo, AVC, esteatose, apendicite, pneumotórax).
 PREFIXO = "rd05"
 AULA = "Tomografia computadorizada (UC03 P1; Radiologia; Preceptoria)"
 EXC = "EXC: "
-SH04_ORIENT = "sh-RD04-ORIENTACAO"   # preenchido no spec com o nid da 04 instalada
-SH04_DUAS = "sh-RD04-DUAS"
+SH04_ORIENT = "sh-1792238916074"   # preenchido no spec com o nid da 04 instalada
+SH04_DUAS = "sh-1792238914748"
 
 SLIDES = [
  (1, "capa", "Capa", []),

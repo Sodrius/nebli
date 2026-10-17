@@ -27,7 +27,7 @@ BUSCA = ("Três caminhos (16/10): seções de recurso do AnKing (FirstAid semino
          "palavra-chave em AnKing e Referências Externas (busca/anking.txt: enfisema, bolha, antracose, pneumonia lobar, broncograma, derrame, "
          "exsudato, empiema, silhueta, seminoma, tumor testicular, orquiectomia, atelectasia); significado em todos os acervos e NEBLI vivo (busca/semantica.jsonl). ")
 # Cards da 04 (silhueta, átrio direito, duas incidências, enfisema no RX, hemitórax opaco), associados depois de a 04 estar instalada (16/10).
-RD04 = {"SILHUETA": None, "ATRIO": None, "DUAS": None, "ENFISEMA": None, "HEMITORAX": None}
+RD04 = {"SILHUETA": 1792238915573, "ATRIO": 1792238915824, "DUAS": 1792238914748, "ENFISEMA": 1792238913473, "HEMITORAX": 1792238913724}
 EXCLUIDOS = [
  (1473548504699, "seção FirstAid pneumonia lobar: Klebsiella por aspiração é microbiologia (aula de bactérias)"),
  (1473548512472, "seção FirstAid: escarro em geleia de groselha da Klebsiella já existe em cópia NEBLI da microbiologia (1791763664220)"),
@@ -177,11 +177,22 @@ for c in CARDS:
         c["slide_sem_alternativa"] = SLIDE_SEM_ALT
 
 VERSO = {  # chave: "- linha curta" para nota de acervo sem Extra útil
+ "ak-enf-neutrofilos": "- In smokers, neutrophil elastase outweighs α1-antitrypsin and alveolar walls are destroyed",
+ "ak-pn-rx": "- The case: consolidation in the right middle lobe erasing the right heart border (silhouette sign)",
+ "ak-pn-lobar": "- Usually pneumococcus; the whole lobe looks white with air bronchograms",
+ "ak-pn-exsudato": "- Neutrophils and fibrin fill the alveoli, which is what makes the lung white on X-ray",
+ "ak-broncopneumonia": "- Patchy foci centered on bronchioles, often in both lower lobes",
+ "ak-seminoma-comum": "- The case: young man with a homogeneous testicular mass",
+ "ak-seminoma-prognostico": "- Spreads late, through lymphatics to retroperitoneal nodes",
+ "ak-nao-seminoma": "- Embryonal carcinoma, yolk sac tumor, choriocarcinoma, teratoma",
+ "ak-plap": "- Placental alkaline phosphatase is a marker of seminoma",
+ "ak-hcg-seminoma": "- Syncytiotrophoblastic cells in the tumor make the hCG; AFP stays normal",
 }
 for c in CARDS:
     if c["key"] in VERSO and VERSO[c["key"]] and c["kind"] != "autoral":
         c["extra_add"] = VERSO[c["key"]] + ("<br>" + c["extra_add"] if c.get("extra_add") else "")
-DUPLICACAO = {}
+DUPLICACAO = {"au-consolidacao": "a palavra consolidação é resposta também em ak-pn-congestao (fase anatomopatológica); aqui o alvo é o termo radiológico pedido em duas provas",
+              "au-lobo-inferior": "diafragma é resposta em ak-enf-rx (retificado no enfisema); aqui é o hemidiafragma apagado pela consolidação do lobo inferior esquerdo"}
 for _k, _v in DUPLICACAO.items():
     next(c for c in CARDS if c["key"] == _k)["duplicacao_ok"] = _v
 IMAGENS_VISTAS = {
@@ -199,9 +210,9 @@ ESCOPO = {
  "objetivo": "Correlacionar imagem, peça e lâmina em dois casos: tabagista com enfisema que desenvolve pneumonia lobar com derrame pleural "
              "(parapneumônico e com células de adenocarcinoma) e jovem com seminoma testicular, usando os sinais radiológicos (silhueta, menisco).",
  "centrais": [
-   ("enfisema", "ak-enf-centriacinar", "ak-enf-destruicao", "ak-enf-rx", "au-bolhas-tc"),
+   ("enfisema", "ak-enf-rx", "au-bolhas-tc", "ak-enf-destruicao", "ak-enf-centriacinar"),
    ("pneumonia lobar", "au-consolidacao", "ak-hep-vermelha", "ak-hep-cinzenta", "ak-pn-exsudato"),
-   ("derrame pleural", "au-menisco", "au-us-derrame", "ak-parapneumonico", "ak-derrame-maligno"),
+   ("derrame pleural", "au-us-derrame", "ak-parapneumonico", "ak-derrame-maligno", "au-menisco"),
    ("seminoma", "au-us-nodulo", "ak-seminoma-macro", "ak-seminoma-histo", "ak-metastase-pulmao"),
  ],
  "exemplos": ["enfisema do tabagista", "pneumonia da língula", "derrame parapneumônico", "derrame maligno", "seminoma"],

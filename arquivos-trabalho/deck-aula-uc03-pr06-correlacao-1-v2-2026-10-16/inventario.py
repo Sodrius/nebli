@@ -13,7 +13,7 @@ PREFIXO = "pr06"
 AULA = "Correlação patológica-radiológica 1 (UC03 P1; Patologia + Radiologia)"
 EXC = "EXC: "
 SH04_SILHUETA, SH04_ATRIO, SH04_DUAS, SH04_ENFISEMA, SH04_HEMITORAX = (
-    "sh-RD04-SILHUETA", "sh-RD04-ATRIO", "sh-RD04-DUAS", "sh-RD04-ENFISEMA", "sh-RD04-HEMITORAX")
+    "sh-1792238915573", "sh-1792238915824", "sh-1792238914748", "sh-1792238913473", "sh-1792238913724")
 
 SLIDES = [
  (1, "capa", "Capa", []),
@@ -81,8 +81,7 @@ EXERCICIOS = [
    ("p2", "Nome das áreas mais brancas (2015 P1sub 3.1)", "sh-1792141774955"),
    ("p3", "Pneumonia secundária ao enfisema no idoso (2015 P1sub 3.6)", ["ak-febre-consolidacao", "ak-enf-tabaco"]),
    ("p4", "Derrame com Klebsiella na punção (2017 P1 3.1)", ["ak-pn-agente", "ak-parapneumonico"]),
-   ("p5", "Biomassa e pneumonia (2025 P2 4.3)", "sh-1791592724520"),
-   ("p6", "Cavitação no lobo superior (2025 P3 1.4)", EXC + "cavitação é da tuberculose (aulas de micobactérias e GR3)")]),
+   ("p5", "Biomassa e pneumonia (2025 P2 4.3)", "sh-1791592724520")]),  # 2025 P3 1.4 (cavitação no lobo superior) é de tuberculose: aulas de micobactérias e GR3
  ("Grande Resumo P1 e apostila UC3 (Discussão Radio/Pato 1)", [
    ("m1", "Hiperinsuflação, retificação do diafragma, bolhas hipoatenuantes na TC", ["ak-enf-rx", "au-bolhas-tc"]),
    ("m2", "Pulmão do fumante negro (carbono)", "sh-1791592721894"), ("m3", "Estouro de bolha → pneumotórax", "ak-bolha-pneumotorax"),

@@ -26,7 +26,7 @@ BUSCA = ("Três caminhos (16/10): seções de recurso do AnKing (FirstAid hemorr
          "palavra-chave em AnKing e Referências Externas (busca/anking.txt: vidro fosco, Hounsfield, janelas, hiperdenso, fases, endurecimento do feixe); "
          "significado em todos os acervos e NEBLI vivo (busca/semantica.jsonl). ")
 # Cards da 04 (lateralidade e duas incidências), associados depois de a 04 estar instalada (16/10).
-RD04_ORIENT, RD04_DUAS = None, None
+RD04_ORIENT, RD04_DUAS = 1792238916074, 1792238914748
 EXCLUIDOS = [
  (1581465560589, "seção FirstAid hemorragia intracraniana: sintomas clínicos (cefaleia, rebaixamento) são da neurologia, não da imagem"),
  (1561067734495, "MCAT: definição genérica de TC; a 02 já tem o princípio (sh-1792141770757)"),
@@ -181,7 +181,7 @@ ESCOPO = {
  "centrais": [
    ("formação da imagem", "sh-1792141770757", "au-reconstrucao", "au-helicoidal", "au-voxel"),
    ("quantificação e exibição", "au-hu", "au-janela", "au-janela-ampla", "sh-1792141774955"),
-   ("contraste", "au-fases", "sh-1792141769157"),
+   ("contraste", "sh-1792141769157", "au-fases"),
    ("achados", "ak-sangue-agudo", "sh-1791054020270", "au-stranding", "sh-1791022172025"),
  ],
  "exemplos": ["AVC hemorrágico e isquêmico", "hematoma subdural", "apendicite", "esteatose", "pneumotórax", "nódulo hepático hipervascular"],
