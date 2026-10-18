@@ -18,3 +18,10 @@ e para toda sessão nova saber de onde partir. Regra do que vira gate: MEMORY §
 - **Aprendido:** nome em PT inventado/calcado do inglês (“lâmina quadrigêmea”, “gânglios da raiz posterior”) → `glossario.py` (Kenhub PT + Machado + aceitos com fonte); usar a grafia do Machado (“bulbo-pontino”, “teto”).
 - **Aprendido:** AnatoKing com duas figuras no card → só uma (G20).
 - **Melhorar na próxima:** buscar AnKing também para os fatos do texto (feito no rascunho); cards `texto` curtos (cloze ≤ 4 palavras), um fato por card, no mesmo tom do AnKing; conferir se cada trecho do `revisao.md` tem card que de fato pergunta aquele fato.
+
+## Rodada 1 (18/10/2026) — unidades 1–10, feedback F-01..05 do dia
+
+- **Aprendido (Davi):** sem IO nas estruturas (o Kenhub já destaca em verde: basta a seta); um só tipo de card de texto (AnKing de verdade); mesma estrutura junta e só uma verde; termo técnico explicado no Extra; cloze no termo central (não no complemento); figura do Extra cabendo na tela; AnatoKing só com seta evidente.
+- **Aprendido (código):** o template do AnKing repete o Text escondido e tem botões escondidos → render ajustado; `sync` do Anki ocupado derrubava o pipeline → sem sync (pendente); ids de cards de texto precisam ser únicos entre unidades (prefixo da unidade); `texto` pode cobrir estrutura sem figura (`cobre`) e ancorar numa estrutura (`estrutura`).
+- **Melhorar na próxima:** curar já com cloze no termo central e negrito no sujeito; usar `img`/`estrutura` quando a figura automática não serve; conferir G18 com Moore; revisar as folhas das 3 unidades novas card a card.
+

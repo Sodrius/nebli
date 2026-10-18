@@ -156,7 +156,7 @@
      "arquivo": "nebli/kenhub/deck.py"
     },
     {
-     "codigo": "[G17 máscara evidente]",
+     "codigo": "[G17 seta evidente]",
      "arquivo": "nebli/kenhub/deck.py"
     },
     {
@@ -182,6 +182,10 @@
     },
     {
      "codigo": "[cobertura-quiz]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[chave de texto repetida]",
      "arquivo": "nebli/kenhub/deck.py"
     }
    ],
@@ -216,6 +220,76 @@
     }
    ],
    "teste": "painel: sem revisao.json da mesma corrida a unidade não aparece como ENTREGUE"
+  },
+  {
+   "id": "F-20261018-CLAUDE-04",
+   "data": "18/10/2026",
+   "literal": "não quero IO nas estruturas / se tiver a imagem + seta, já sei onde está a estrutura; vai ser só lembrar daí / quero também os cards todos na formatação anking-like que sempre mantemos / codex tá gerando os tabs / não fica atualizando o anki toda hora, porque quero manter fazendo os cards / deixei comentários em alguns cards (cloze me atrapalha de novo; o kenhub deixa a estrutura destacada de verde, basta a seta e o nome; card fora da formatação anking clássico; IMAGEM NO CLOZE) / corrige em todos que tiverem o mesmo problema",
+   "regra": "Card do Kenhub = figura com o destaque verde do próprio Kenhub + seta (sem máscara); nome na ponta da seta no verso. Cards de texto/AnKing com formatação AnKing clássica (sujeito em negrito) e figura no Extra. Gravar no Anki em lote e poucas vezes, nunca a toda hora.",
+   "gates": [
+    {
+     "codigo": "[G21 sem IO nas estruturas]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[G17 seta evidente]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "G5 destaque verde",
+     "arquivo": "nebli/kenhub/render.py"
+    },
+    {
+     "codigo": "[G22 formatação AnKing]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[G23 imagem no cloze]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[sem regravar à toa]",
+     "arquivo": "nebli/kenhub/deck.py"
+    }
+   ],
+   "teste": "teste_gates: máscara sobre estrutura, seta curta, card sem negrito, cloze sem figura reprovam; regravação < 6 h recusada"
+  },
+  {
+   "id": "F-20261018-CLAUDE-05",
+   "data": "18/10/2026",
+   "literal": "cards que cobram a mesma estrutura tem que vir juntos na ordem da aula, para eu saber sempre que há dois cards para uma estrutura e que posso suspender um (gate-hard) / as imagens podem ficar um pouco maiores nos cards da uc07, com uma renderização melhor / a formatação dos que não são cards primariamente de imagem tem que ser anking like, com fonte, fundo, forma de escrita... tudo isso bem anking, para eu me acostumar com um só tipo de card e diminuir o atrito / coloca gate-hard nisso tudo / de 2 cards de uma mesma estrutura só um pode ser bandeira verde / isso que estou falando é para o deck de neuroanato, mas serve para todos os outros / comentários: “num card assim, pode ter no comentário alguma informação dessa área, tipo o que é somestésica” (giro pós-central); “seta ruim” (AnatoKing, artérias vertebrais); “imagem boa para isso, mas ficou zuada” (cauda equina); “cloze no local ruim” (ramo anterior)",
+   "regra": "Cards da mesma estrutura em sequência na ordem da aula (Kenhub primeiro); só um verde por estrutura; cards de texto no tipo de nota do AnKing (clone fiel); figuras maiores e overlay em 2x. Vale para todo deck do Kenhub.",
+   "gates": [
+    {
+     "codigo": "[G25 estrutura junta]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[G26 uma verde por estrutura]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[G24 formato AnKing]",
+     "arquivo": "nebli/kenhub/modelo.py"
+    },
+    {
+     "codigo": "ESCALA = 2",
+     "arquivo": "nebli/kenhub/mascara.py"
+    },
+    {
+     "codigo": "G16 figura",
+     "arquivo": "nebli/kenhub/render.py"
+    },
+    {
+     "codigo": "[G10 seta evidente]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[G27 termo explicado]",
+     "arquivo": "nebli/kenhub/deck.py"
+    }
+   ],
+   "teste": "teste_gates: estrutura espalhada, duas verdes na mesma estrutura reprovam; tipo de nota igual ao AnKing e figuras maiores verificados"
   }
  ]
 }

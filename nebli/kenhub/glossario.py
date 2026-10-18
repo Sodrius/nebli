@@ -1,8 +1,8 @@
 """Atestado de termos em português (F-20261018-CLAUDE-02: “pega tradução oficial de algum lugar”).
 
 Termo traduzido por nós só passa se aparecer numa fonte oficial: os nomes em PT/sinônimos/latim que o próprio Kenhub devolve
-(`locale=pt`, de todas as unidades coletadas) ou o texto do Ângelo Machado, Neuroanatomia Funcional (bibliografia da UC07, no Drive;
-texto extraído em ~/NEBLI-privado/kenhub/glossario/machado.txt). O Machado vem de OCR: a comparação ignora acento, caixa e pontuação.
+(`locale=pt`, de todas as unidades coletadas) ou o texto dos livros em português da UC (Machado, Moore, Dângelo, Gray; Drive, extraídos em
+~/NEBLI-privado/kenhub/glossario/*.txt). Vêm de OCR/PDF: a comparação ignora acento, caixa e pontuação.
 """
 import json
 import re
@@ -43,13 +43,15 @@ def _kenhub() -> set:
 
 
 @lru_cache(maxsize=1)
-def _machado() -> str:
-    arq = RAIZ / "glossario" / "machado.txt"
-    if not arq.exists():
-        return ""
-    bruto = arq.read_text()
-    juntado = re.sub(r"-\s*\n\s*|-\s+(?=[a-zà-ú])", "", bruto)   # sílaba hifenizada na quebra de linha (“an- terior”)
-    return " " + norm(bruto) + " " + norm(juntado) + " "
+def _livros() -> dict:
+    """Livros-texto em PT da UC (Drive), já extraídos em ~/NEBLI-privado/kenhub/glossario/*.txt: Machado (neuroanatomia), Moore, Dângelo, Gray."""
+    pasta = RAIZ / "glossario"
+    out = {}
+    for arq in sorted(pasta.glob("*.txt")) if pasta.exists() else []:
+        bruto = arq.read_text()
+        juntado = re.sub(r"-\s*\n\s*|-\s+(?=[a-zà-ú])", "", bruto)   # sílaba hifenizada na quebra de linha (“an- terior”)
+        out[arq.stem.capitalize()] = " " + norm(bruto) + " " + norm(juntado) + " "
+    return out
 
 
 CODIGO = re.compile(r"^[CTLSco]{1,2}\d+([/–-][CTLSco]{0,2}\d+)*$", re.I)
@@ -64,7 +66,7 @@ def _aceitos() -> dict:
 
 @lru_cache(maxsize=1)
 def _palavras() -> frozenset:
-    return frozenset(w for w in (_machado() + " " + " ".join(_kenhub())).split() if len(w) >= 2)
+    return frozenset(w for w in (" ".join(_livros().values()) + " " + " ".join(_kenhub())).split() if len(w) >= 2)
 
 
 def atestado(termo: str):
@@ -82,8 +84,9 @@ def atestado(termo: str):
         return "aceito"
     if n in _kenhub() or any(n in k for k in _kenhub()):
         return "Kenhub"
-    if f" {n} " in _machado():
-        return "Machado"
+    for livro, texto in _livros().items():
+        if f" {n} " in texto:
+            return livro
     # palavra a palavra: nenhuma palavra pode ser desconhecida (pega calco e invenção; “bulbo caudal” = bulbo + caudal)
     palavras = _palavras()
     if all(w.isdigit() or w in palavras or (len(w) >= 4 and any(x.startswith(w) for x in palavras)) for w in n.split()):

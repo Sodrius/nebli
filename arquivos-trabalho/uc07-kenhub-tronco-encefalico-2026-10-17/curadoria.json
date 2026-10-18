@@ -77,66 +77,14 @@
  },
  "acervo": [
   {
-   "nid": 1540251392108,
-   "apos": "medullary-pyramids",
-   "cobre": [],
-   "nota": "",
-   "pt": "Pirâmide do bulbo"
-  },
-  {
-   "nid": 1540251405250,
-   "apos": "nuclei-olivares",
-   "cobre": [
-    "nuclei-olivares"
-   ],
-   "nota": "",
-   "pt": "Oliva do bulbo"
-  },
-  {
-   "nid": 1540251369300,
-   "apos": "preolivary-groove",
-   "cobre": [
-    "preolivary-groove"
-   ],
-   "nota": "sulco anterolateral = pré-olivar",
-   "pt": "Sulco anterolateral do bulbo"
-  },
-  {
-   "nid": 1540251362281,
-   "apos": "inferior-part-of-medulla-oblongata",
-   "cobre": [],
-   "nota": "",
-   "pt": "Bulbo (medula oblonga)"
-  },
-  {
-   "nid": 1543513440087,
-   "apos": "infundibulum-of-pituitary-gland",
-   "cobre": [],
-   "nota": "",
-   "pt": "Infundíbulo da hipófise"
-  },
-  {
-   "nid": 1540251102016,
-   "apos": "chiasma-opticum",
-   "cobre": [],
-   "nota": "",
-   "pt": "Quiasma óptico"
-  },
-  {
-   "nid": 1540251137463,
-   "apos": "third-ventricle",
-   "cobre": [],
-   "nota": "",
-   "pt": "Terceiro ventrículo"
-  },
-  {
    "nid": 1540251227048,
    "apos": "lamina-of-mesencephalic-tectum",
    "cobre": [
     "lamina-of-mesencephalic-tectum"
    ],
    "nota": "sem figura no Kenhub; corpos quadrigêmeos = lâmina do teto (AnatoKing)",
-   "pt": "Lâmina do teto"
+   "pt": "Lâmina do teto",
+   "seta_ok": true
   }
  ],
  "anking": [
@@ -483,14 +431,14 @@
   },
   {
    "id": "m-func-visual",
-   "text_pt": "O mesencéfalo processa e direciona informação {{c1::visual}} e auditiva para o tálamo",
+   "text_pt": "O {{c1::mesencéfalo}} processa e direciona informação visual e auditiva para o tálamo",
    "cobre_texto": [
     "resumo:Midbrain"
    ]
   },
   {
    "id": "m-func-motor",
-   "text_pt": "O mesencéfalo monitora o movimento em conjunto com os núcleos da {{c1::base}}",
+   "text_pt": "O {{c1::mesencéfalo}} monitora o movimento em conjunto com os núcleos da base",
    "cobre_texto": [
     "resumo:Midbrain"
    ]
@@ -739,7 +687,7 @@
   },
   {
    "id": "b-func-homeostase",
-   "text_pt": "O bulbo regula funções homeostáticas, como a frequência cardíaca e a {{c1::respiração}}",
+   "text_pt": "O bulbo regula a {{c1::homeostase}}: por exemplo, a frequência cardíaca e a respiração",
    "cobre_texto": [
     "resumo:Medulla oblongata"
    ]
@@ -795,7 +743,7 @@
   },
   {
    "id": "v-basilar",
-   "text_pt": "A parte basilar fica ventral ao tegmento e estende-se por {{c1::todo}} o tronco encefálico",
+   "text_pt": "A parte {{c1::basilar}} fica ventral ao tegmento e estende-se por todo o tronco encefálico",
    "cobre_texto": [
     "cap:3490"
    ]

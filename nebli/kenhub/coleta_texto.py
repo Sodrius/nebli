@@ -15,6 +15,7 @@ import time
 
 from playwright.sync_api import sync_playwright
 
+from nebli.kenhub.coleta import _baixar, _get
 from nebli.kenhub.navegador import RAIZ, conectar
 
 IGNORA = ("Review the structures", "Learn more about", "Solidify your", "Keep studying", "Great session",
@@ -84,11 +85,22 @@ def main(alvos):
         for pasta in pastas:
             arq = pasta / "itens.json"
             d = json.loads(arq.read_text())
-            if d.get("texto"):
+            if d.get("texto") and d.get("overview") is not None:
                 continue
             page.goto(f"https://www.kenhub.com/en/study/{d['unidade']}", wait_until="domcontentloaded")
             page.wait_for_timeout(4000)
-            d["texto"] = trechos(page.inner_text("body"), page.content())
+            html = page.content()
+            d["texto"] = trechos(page.inner_text("body"), html)
+            ids = re.search(r'data-overview-image-ids="([\d,]+)"', html)   # figuras do atlas (imagem do Extra dos cards de texto)
+            d["overview"] = []
+            if ids:
+                query = "&".join(f"ids%5B%5D={i}" for i in ids.group(1).split(","))
+                for im in _get(page, f"/api/overview_images?{query}&termLanguage=English&locale=en&version=2"):
+                    rel = f"img/cap-{im['id']}.jpg"
+                    if not (pasta / rel).exists():
+                        _baixar(page, im["fullscreenUrl"], pasta / rel)
+                        time.sleep(random.uniform(1, 2))
+                    d["overview"].append({"id": im["id"], "title": im["title"], "arquivo": rel})
             arq.write_text(json.dumps(d, ensure_ascii=False, indent=1))
             print(f"{pasta.name}: {len(d['texto'])} trechos ({', '.join(sorted({t['tipo'] for t in d['texto']}))})")
             time.sleep(random.uniform(2, 4))

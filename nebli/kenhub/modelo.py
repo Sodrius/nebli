@@ -43,8 +43,10 @@ CSS = """.card {
 #kh-perg { font-size: 1.15em; }
 /* a figura (de qualquer proporção) cabe inteira abaixo do topo; as sobreposições acompanham o tamanho dela */
 #kh-wrap { position: relative; display: inline-block; line-height: 0; max-width: 100%; }
-/* tamanho adequado (F-20261017-CLAUDE-05): nem gigante em tela grande, nem miúda — até 760 px de altura, cabe sem rolar */
-#kh-img img { display: block; max-width: 100%; max-height: min(calc(100vh - 80px), 760px); width: auto; height: auto; }
+/* tamanho adequado (F-20261017-CLAUDE-05): nem gigante em tela grande, nem miúda — até 960 px de altura (F-20261018-CLAUDE-05: um pouco maiores), cabe sem rolar */
+#kh-img img { display: block; max-width: 100%; max-height: min(calc(100vh - 56px), 960px); width: auto; height: auto; }
+/* cards com pergunta no topo (níveis do tronco): desconta os 64 px do topo para a figura caber sem rolar */
+#kh-topo + #kh-wrap #kh-img img { max-height: min(calc(100vh - 124px), 960px); }
 .kh-over { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
 .kh-over img { width: 100%; height: 100%; }
 #kh-extra { font-size: 0.85em; margin: 8px auto 0; max-width: 900px; text-align: left; line-height: 1.35; }
@@ -52,32 +54,52 @@ CSS = """.card {
 .mobile #kh-nome { font-size: 1.3em; }
 """
 
-CLOZE = "NEBLI UC07 Cloze v1"
-CLOZE_CAMPOS = ["Text", "Imagens", "Extra", "Nome EN", "Fonte", "ID (hidden)", "NEBLI_Comentario"]
-CLOZE_FRENTE = """<div id="u7-texto">{{cloze:Text}}</div>
-{{#Imagens}}<div id="u7-imagens">{{Imagens}}</div>{{/Imagens}}"""
-CLOZE_VERSO = """<div id="u7-texto">{{cloze:Text}}</div>
-{{#Imagens}}<div id="u7-imagens">{{Imagens}}</div>{{/Imagens}}
-{{#Extra}}<div id="u7-extra">{{Extra}}</div>{{/Extra}}"""
-CLOZE_CSS = """.card {
-  font-family: Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: black;
-  background-color: white;
-  margin: 0;
-  padding: 6px;
-}
-.nightMode .card, .night_mode .card { color: #eee; background-color: #2b2b2b; }
-#u7-texto { font-size: 1.25em; line-height: 1.3; margin: 4px auto 8px; max-width: 1000px; }
-.cloze { font-weight: bold; color: #0645ad; }
-.nightMode .cloze, .night_mode .cloze { color: #8ab4f8; }
-/* todas as imagens à vista, lado a lado no PC e empilhadas no celular — nunca atrás de botão */
-#u7-imagens { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
-#u7-imagens img { max-width: 100%; max-height: min(calc(100vh - 120px), 640px); width: auto; height: auto; }
-.mobile #u7-imagens img { max-width: 100%; max-height: 62vh; }
-#u7-extra { font-size: 0.9em; margin: 10px auto 0; max-width: 1000px; line-height: 1.35; }
-#u7-extra img { max-width: 100%; max-height: min(60vh, 560px); }
+# Cards que não são primariamente de imagem: o MESMO tipo de nota que o NEBLI já usa para o AnKing (clone fiel de
+# “NEBLI AnKing independente - v3”, que é o AnKingOverhaul): fonte, fundo, cor do cloze, Extra… tudo AnKing (F-20261018-CLAUDE-05)
+ANKING_BASE = "NEBLI AnKing independente - v3"
+CLOZE = "NEBLI UC07 AnKing v1"
+CLOZE_CAMPOS = ["Text", "Extra", "Lecture Notes", "Missed Questions", "Pathoma", "Boards and Beyond", "First Aid", "Sketchy", "Sketchy 2",
+                "Sketchy Extra", "Picmonic", "Pixorize", "Physeo", "Bootcamp", "OME", "Additional Resources", "One by one",
+                "NEBLI_Comentario", "NEBLI_Resposta", "ankihub_id"]
+CSS_UC07 = """
+/* UC07 (F-20261018-CLAUDE-05): figuras do Text e do Extra um pouco maiores; o resto é o AnKing sem alteração */
+#text img { max-width: 100%; max-height: min(78vh, 780px); width: auto; height: auto; }
+/* figura do Extra (resposta): cabe na tela junto com o texto, sem rolar (infográficos altos, como o da cauda equina) */
+#extra img { max-width: 100%; max-height: max(360px, calc(100vh - 280px)); width: auto; height: auto; }
 """
+
+
+def conferir_formato(A):
+    """[G24 formato AnKing] o tipo dos cards de texto tem os modelos de cartão e o CSS do AnKing, sem alteração (só o bloco UC07 no fim)."""
+    if ANKING_BASE not in A("modelNames") or CLOZE not in A("modelNames"):
+        return []   # ainda não existe: garantir() cria o clone fiel
+    p = []
+    a, b = A("modelTemplates", modelName=ANKING_BASE), A("modelTemplates", modelName=CLOZE)
+    fa, fb = next(iter(a.values())), next(iter(b.values()))
+    if (fa["Front"], fa["Back"]) != (fb["Front"], fb["Back"]):
+        p.append("[G24 formato AnKing] modelos de cartão do tipo UC07 diferem do AnKing")
+    ca, cb = A("modelStyling", modelName=ANKING_BASE)["css"], A("modelStyling", modelName=CLOZE)["css"]
+    if cb != ca + CSS_UC07:
+        p.append("[G24 formato AnKing] CSS do tipo UC07 difere do AnKing (só o bloco UC07 no fim é permitido)")
+    if A("modelFieldNames", modelName=CLOZE) != A("modelFieldNames", modelName=ANKING_BASE):
+        p.append("[G24 formato AnKing] campos do tipo UC07 diferem do AnKing")
+    return p
+
+
+def _clonar_anking(A):
+    campos = A("modelFieldNames", modelName=ANKING_BASE)
+    tpl = next(iter(A("modelTemplates", modelName=ANKING_BASE).items()))
+    css = A("modelStyling", modelName=ANKING_BASE)["css"] + CSS_UC07
+    if CLOZE not in A("modelNames"):
+        A("createModel", modelName=CLOZE, inOrderFields=campos, css=css, isCloze=True,
+          cardTemplates=[{"Name": tpl[0], "Front": tpl[1]["Front"], "Back": tpl[1]["Back"]}])
+    else:
+        t = next(iter(A("modelTemplates", modelName=CLOZE).items()))
+        if (t[1]["Front"], t[1]["Back"]) != (tpl[1]["Front"], tpl[1]["Back"]):
+            A("updateModelTemplates", model={"name": CLOZE, "templates": {t[0]: {"Front": tpl[1]["Front"], "Back": tpl[1]["Back"]}}})
+        if A("modelStyling", modelName=CLOZE)["css"] != css:
+            A("updateModelStyling", model={"name": CLOZE, "css": css})
+    return campos
 
 
 def _garantir_um(A, nome, campos, frente, verso, css, cloze, rotulo):
@@ -101,4 +123,5 @@ def _garantir_um(A, nome, campos, frente, verso, css, cloze, rotulo):
 def garantir(A):
     """Cria ou atualiza no lugar os dois tipos da UC07 (só a UC07 os usa)."""
     _garantir_um(A, NOME, CAMPOS, FRENTE, VERSO, CSS, False, "Estrutura")
-    _garantir_um(A, CLOZE, CLOZE_CAMPOS, CLOZE_FRENTE, CLOZE_VERSO, CLOZE_CSS, True, "Cloze")
+    global CLOZE_CAMPOS
+    CLOZE_CAMPOS = _clonar_anking(A)

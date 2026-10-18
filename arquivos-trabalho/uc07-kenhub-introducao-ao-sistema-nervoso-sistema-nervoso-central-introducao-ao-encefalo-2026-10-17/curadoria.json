@@ -31,28 +31,13 @@
  "netter": [],
  "acervo": [
   {
-   "nid": 1540251271030,
-   "apos": "cerebellum",
-   "cobre": [
-    "cerebellum"
-   ],
-   "pt": "Cerebelo"
-  },
-  {
    "nid": 1540250763012,
    "apos": "frontal-lobe",
    "cobre": [
     "frontal-lobe"
    ],
-   "pt": "Lobo frontal"
-  },
-  {
-   "nid": 1543513385640,
-   "apos": "glandula-pituitaria",
-   "cobre": [
-    "glandula-pituitaria"
-   ],
-   "pt": "Hipófise"
+   "pt": "Lobo frontal",
+   "seta_ok": true
   },
   {
    "nid": 1540251144532,
@@ -60,23 +45,8 @@
    "cobre": [
     "mesencephalon-2"
    ],
-   "pt": "Mesencéfalo"
-  },
-  {
-   "nid": 1540251336134,
-   "apos": "pons",
-   "cobre": [
-    "pons"
-   ],
-   "pt": "Ponte"
-  },
-  {
-   "nid": 1540251362281,
-   "apos": "medulla-oblongata",
-   "cobre": [
-    "medulla-oblongata"
-   ],
-   "pt": "Bulbo"
+   "pt": "Mesencéfalo",
+   "seta_ok": true
   }
  ],
  "anking_io": [],
@@ -148,7 +118,7 @@
   },
   {
    "id": "cerebro-funcao",
-   "text_pt": "O cérebro é responsável por funções superiores: visão, audição, cognição, emoções, aprendizado e controle fino do {{c1::movimento}}",
+   "text_pt": "O {{c1::cérebro}} é responsável por funções superiores: visão, audição, cognição, emoções, aprendizado e controle fino do movimento",
    "cobre_texto": [
     "obj:3",
     "txt:2",
@@ -181,7 +151,7 @@
   },
   {
    "id": "tronco-funcao",
-   "text_pt": "O tronco encefálico controla funções vitais de ordem inferior, como a {{c1::respiração}} e a frequência cardíaca",
+   "text_pt": "O {{c1::tronco encefálico}} controla funções vitais de ordem inferior, como a respiração e a frequência cardíaca",
    "cobre_texto": [
     "obj:3",
     "txt:4",

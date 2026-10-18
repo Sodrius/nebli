@@ -6,9 +6,7 @@
  "short": "u71a08",
  "lesson_id": "2026-uc07-medula-espinal-morfologia-interna-da-medula-espinal",
  "kenhub_excluir": {},
- "nome_pt": {
-  "funiculus-lateralis": "Funículo lateral da medula espinal"
- },
+ "nome_pt": {},
  "nome_igual_ok": [],
  "acervo": [
   {
@@ -17,7 +15,8 @@
    "cobre": [
     "posterior-root-of-spinal-nerve"
    ],
-   "pt": "Raiz posterior"
+   "pt": "Raiz posterior",
+   "seta_ok": true
   }
  ],
  "anking": [
@@ -218,7 +217,7 @@
   },
   {
    "id": "comissuras-cinzentas",
-   "text_pt": "A substância cinzenta ao redor do canal central forma as comissuras cinzentas {{c1::anterior}} e posterior, que unem os cornos das duas metades",
+   "text_pt": "A substância cinzenta ao redor do canal central forma as {{c1::comissuras cinzentas}} anterior e posterior, que unem os cornos das duas metades",
    "cobre_texto": [
     "resumo:Pericentral canal",
     "cap:3338"
@@ -356,21 +355,21 @@
   },
   {
    "id": "grupo-medial",
-   "text_pt": "O grupo medial do corno anterior estende-se por quase todo o {{c1::comprimento}} da medula espinal",
+   "text_pt": "O grupo {{c1::medial}} do corno anterior estende-se por quase todo o comprimento da medula espinal",
    "cobre_texto": [
     "cap:756"
    ]
   },
   {
    "id": "grupo-central",
-   "text_pt": "O grupo central do corno anterior existe nos segmentos cervicais e {{c1::lombossacrais}}",
+   "text_pt": "O grupo {{c1::central}} do corno anterior existe nos segmentos cervicais e lombossacrais",
    "cobre_texto": [
     "cap:756"
    ]
   },
   {
    "id": "grupo-lateral",
-   "text_pt": "O grupo lateral do corno anterior existe só nos níveis que inervam os membros: C4 a {{c1::T1}} e L2 a {{c2::S3}}",
+   "text_pt": "O grupo {{c1::lateral}} do corno anterior existe só nos níveis que inervam os membros: C4 a {{c2::T1}} e L2 a {{c3::S3}}",
    "cobre_texto": [
     "cap:756"
    ]

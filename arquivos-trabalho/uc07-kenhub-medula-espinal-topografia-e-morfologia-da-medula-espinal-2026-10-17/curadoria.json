@@ -88,7 +88,8 @@
     "posterior-roots",
     "posterior-root-of-spinal-nerve"
    ],
-   "pt": "Raiz posterior"
+   "pt": "Raiz posterior",
+   "seta_ok": true
   },
   {
    "nid": 1540252178114,
@@ -96,23 +97,8 @@
    "cobre": [
     "anterior-root-of-spinal-nerve"
    ],
-   "pt": "Raiz anterior"
-  },
-  {
-   "nid": 1541185043787,
-   "apos": "arteria-vertebralis",
-   "cobre": [
-    "arteria-vertebralis"
-   ],
-   "pt": "Artérias vertebrais"
-  },
-  {
-   "nid": 1540252309361,
-   "apos": "ganglion-of-sympathetic-trunk",
-   "cobre": [
-    "ganglion-of-sympathetic-trunk"
-   ],
-   "pt": "Tronco simpático"
+   "pt": "Raiz anterior",
+   "seta_ok": true
   },
   {
    "nid": 1549136432215,
@@ -120,7 +106,8 @@
    "cobre": [
     "gray-ramus-communicans"
    ],
-   "pt": "Ramo comunicante cinzento"
+   "pt": "Ramo comunicante cinzento",
+   "seta_ok": true
   }
  ],
  "anking_io": [],
@@ -214,7 +201,8 @@
    "text_pt": "A intumescência cervical vai de C3 a {{c1::T2}} e a lombossacral vai de L1 a {{c2::S3}}",
    "cobre_texto": [
     "cap:1099"
-   ]
+   ],
+   "extra_pt": "Em outra figura do atlas os segmentos são C5–T1 (cervical) e L2–S3 (lombossacral); a extensão vertebral e a dos segmentos medulares diferem."
   },
   {
    "id": "nervos-numero",

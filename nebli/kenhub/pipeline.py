@@ -177,7 +177,8 @@ def main():
         from nebli.kenhub import painel
         painel.main()
     dry = "--dry-run" in sys.argv
-    args = [a for a in sys.argv[1:] if a != "--dry-run"]
+    extra = [a for a in sys.argv[1:] if a == "--forcar"]
+    args = [a for a in sys.argv[1:] if a not in ("--dry-run", "--forcar")]
     if len(args) != 3:
         raise SystemExit(__doc__)
     unidade, modulo, sub = args
@@ -194,7 +195,7 @@ def main():
         sem = rascunho(corrida, base, unidade, modulo, sub)
         raise SystemExit(f"curadoria pendente: revisar {corrida / 'curadoria.rascunho.json'} (estruturas sem figura no Kenhub: "
                          f"{len(sem)}), gravar {corrida / 'curadoria.json'} e rodar de novo")
-    r = subprocess.run([sys.executable, "-m", "nebli.kenhub.deck", str(corrida)] + (["--dry-run"] if dry else []), cwd=ROOT)
+    r = subprocess.run([sys.executable, "-m", "nebli.kenhub.deck", str(corrida)] + (["--dry-run"] if dry else []) + extra, cwd=ROOT)
     raise SystemExit(r.returncode)
 
 

@@ -30,7 +30,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
-from nebli.decks import Anki, escrita
+from nebli.decks import SYNC_PENDENTE, Anki, escrita
 from nebli.kenhub import fontes_io, glossario, mascara, modelo
 from nebli.kenhub.caminhos import RAIZ
 from nebli.rotulos import canonical
@@ -141,20 +141,40 @@ def plano(corrida: Path, A):
             if a.get("apos") == slug:
                 yield {**a, "tipo": "anking_io", "chave": f"nid-{a['nid']}", "cobre": a.get("cobre", [])}
 
+    # cards de texto/AnKing que tratam de uma estrutura vêm logo depois dos cards dela (F-20261018-CLAUDE-05: “cards que cobram a
+    # mesma estrutura têm que vir juntos na ordem da aula”); os que não tratam de estrutura específica ficam no fim
+    ancorados, soltos = {}, []
+    for a in cur.get("anking", []):
+        e = {**a, "tipo": "anking", "chave": f"nid-{a['nid']}", "cobre": a.get("cobre", [])}
+        if a.get("estrutura") in {i["slug"] for i in itens}:
+            est = a["estrutura"]
+        else:
+            it = _casar_estrutura(a["text_pt"], base, a.get("estrutura"))
+            est = it["slug"] if it else None
+        (ancorados.setdefault(est, []) if est else soltos).append(dict(e, estrutura=est))
+    for t in cur.get("texto", []):   # fatos da unidade (objetivos, parágrafos, tabela-resumo) que o quiz cobra
+        e = {**t, "tipo": "texto", "chave": f"txt-{t['id']}", "cobre": t.get("cobre", [])}
+        if t.get("estrutura") in {i["slug"] for i in itens}:   # estrutura dada na curadoria (vale também para as sem figura no Kenhub)
+            est = t["estrutura"]
+        else:
+            it = _casar_estrutura(t["text_pt"], base, t.get("estrutura") if not (t.get("img") or "").startswith("cap:") else None)
+            est = it["slug"] if it else None
+        (ancorados.setdefault(est, []) if est else soltos).append(dict(e, estrutura=est))
+    slugs_itens = {i["slug"] for i in itens}
     for i in itens:
         s = i["slug"]
         if s not in cur["cores"]:
             problemas.append(f"[cobertura] sem cor: {s}")
         if not i.get("sem_figura") and s not in excluir:  # prioridade Kenhub (F-20261017-CLAUDE-02)
-            entradas.append({"tipo": "kenhub", "chave": f"kh-{s}", "slug": s, "item": i, "cobre": [s]})
-        entradas.extend(depois(s))
+            entradas.append({"tipo": "kenhub", "chave": f"kh-{s}", "slug": s, "item": i, "cobre": [s], "estrutura": s})
+        for d_ in depois(s):
+            entradas.append(dict(d_, estrutura=d_.get("apos") or d_.get("slug") or s))
+        entradas.extend(ancorados.get(s, []))
     for a in cur.get("anking_io", []):
         if not a.get("apos"):
-            entradas.append({**a, "tipo": "anking_io", "chave": f"nid-{a['nid']}", "cobre": a.get("cobre", [])})
-    for a in cur.get("anking", []):
-        entradas.append({**a, "tipo": "anking", "chave": f"nid-{a['nid']}", "cobre": []})
-    for t in cur.get("texto", []):   # fatos da unidade (objetivos, parágrafos, tabela-resumo) que o quiz cobra
-        entradas.append({**t, "tipo": "texto", "chave": f"txt-{t['id']}", "cobre": []})
+            entradas.append({**a, "tipo": "anking_io", "chave": f"nid-{a['nid']}", "cobre": a.get("cobre", []), "estrutura": None})
+    for e in soltos:
+        entradas.append(e)
     for k, e in enumerate(entradas, 1):
         e["ordem"] = k
     fora = _em_outras_unidades(A, cur["lesson_id"])
@@ -169,13 +189,45 @@ def plano(corrida: Path, A):
             _montar(e, cur, base, gerados, media, A)
         except Exception as err:  # o gate pré lista todos os problemas antes de escrever qualquer coisa
             problemas.append(f"[montagem] {e['chave']}: {err}")
+    for e in entradas:   # id de card de texto igual ao de outra unidade, com texto diferente: associaria o card errado
+        if e["tipo"] == "texto" and e.get("associar"):
+            antigo = A("notesInfo", notes=[e["associar"]])[0]["fields"].get("Text", {}).get("value", "")
+            norm_ = lambda t: glossario.norm(_limpo(CLOZE_RE.sub(lambda m: m.group(2), t)))
+            if norm_(antigo) != norm_(e["text_pt"]):
+                problemas.append(f"[chave de texto repetida] {e['chave']}: já existe em outra unidade com outro texto — renomeie o id ou tire o card (duplicata)")
     cobertas = {s for e in entradas for s in e.get("cobre", []) if e.get("campos") or e.get("associar")}
     for i in itens:
         if i["slug"] not in cobertas:
             problemas.append(f"[cobertura] estrutura sem card planejado: {i['slug']} ({i['nome_en']})")
+    por_estrutura = {}
+    for e in entradas:   # F-20261018-CLAUDE-05: de dois cards da mesma estrutura, só um pode ser bandeira verde (o do Kenhub, que vem primeiro)
+        if e.get("estrutura") and not e.get("associar"):
+            por_estrutura.setdefault(e["estrutura"], []).append(e)
+    for grupo in por_estrutura.values():
+        for e in [x for x in grupo if x.get("cor") == "verde"][1:]:
+            e["cor"] = "azul"
     problemas += gates_pre(entradas, cur)
+    problemas += gate_estruturas(entradas)
     problemas += gate_quiz_texto(base, entradas)
+    problemas += modelo.conferir_formato(A)
     return cur, base, itens, entradas, problemas, cobertas
+
+
+def gate_estruturas(entradas):
+    """[G25 estrutura junta] cards da mesma estrutura em sequência na ordem da aula; [G26 uma verde por estrutura] no máximo uma
+    bandeira verde por estrutura (F-20261018-CLAUDE-05)."""
+    p, posicoes = [], {}
+    for e in entradas:
+        if e.get("estrutura"):
+            posicoes.setdefault(e["estrutura"], []).append(e["ordem"])
+    for est, pos in posicoes.items():
+        if pos != list(range(pos[0], pos[0] + len(pos))):
+            p.append(f"[G25 estrutura junta] {est}: cards da mesma estrutura espalhados na ordem ({pos[:8]})")
+    for est in posicoes:
+        verdes = [e["chave"] for e in entradas if e.get("estrutura") == est and e.get("cor") == "verde" and not e.get("associar")]
+        if len(verdes) > 1:
+            p.append(f"[G26 uma verde por estrutura] {est}: {len(verdes)} cards verdes ({verdes[:3]})")
+    return p
 
 
 def _kt(chave):
@@ -196,6 +248,164 @@ def gate_quiz_texto(base, entradas):
     return p
 
 
+VERBOS = ("é", "são", "tem", "têm", "contém", "contêm", "transmite", "transmitem", "forma", "formam", "fica", "ficam", "saem", "sai",
+          "emergem", "emerge", "divide-se", "dividem-se", "origina-se", "originam-se", "localiza-se", "corresponde", "correspondem",
+          "inclui", "incluem", "percorre", "passa", "passam", "levam", "leva", "começa", "termina", "conduz", "regula", "controla",
+          "retransmite", "participa", "apresenta", "estende-se", "estendem-se", "inerva", "inervam", "supre", "suprem", "recebe",
+          "carrega", "carregam", "fornece", "fornecem", "emite", "emitem", "contêm", "funde-se", "reflete-se", "unem-se", "une-se",
+          "relaciona-se", "relacionam-se", "ligam-se", "liga-se", "entram", "entra", "existe", "existem", "ocorre", "ocorrem",
+          "lesão", "há", "marcam", "marca", "processa", "monitora", "conecta", "conectam", "descem", "desce", "aloja", "envia",
+          "dividem", "divide", "limita", "limitam", "ladeia", "fixa-se", "usam", "fazem", "faz", "atuam", "atua", "mede", "medem")
+QUALIFICADORES = ("anterior", "posterior", "superior", "inferior", "medial", "lateral", "ventral", "dorsal", "ipsilateral",
+                  "contralateral", "motor", "motora", "sensitivo", "sensitiva", "consciente", "inconsciente")
+
+
+def _fora_cloze(texto):
+    """Trechos do texto fora das lacunas: [(início, fim)]."""
+    pos, out = 0, []
+    for m in CLOZE_RE.finditer(texto):
+        out.append((pos, m.start()))
+        pos = m.end()
+    out.append((pos, len(texto)))
+    return out
+
+
+def _formatar(texto, e):
+    """Formatação AnKing clássica (MEMORY §5: “negrito como no AnKing: 1–2 trechos de contexto/sujeito, sublinhado para qualificador”):
+    o sujeito do enunciado em negrito (a menos que a entrada já traga negrito ou ‘negrito’/‘sublinhado’ explícitos)."""
+    if "<b>" in texto:
+        return texto
+    for trecho in e.get("negrito", []):
+        texto = texto.replace(trecho, f"<b>{trecho}</b>", 1)
+    for trecho in e.get("sublinhado", []):
+        texto = texto.replace(trecho, f"<u>{trecho}</u>", 1)
+    if "<b>" in texto:
+        return texto
+    FUNCAO = {"de", "do", "da", "dos", "das", "no", "na", "nos", "nas", "em", "e", "ou", "a", "o", "ao", "aos", "com", "por", "para",
+              "que", "como", "um", "uma", "os", "as", "se", "são", "é", "qual", "quais", "quantos", "quantas", "que", "entre"}
+    primeira = texto.find("{{")
+    antes = texto[:primeira] if primeira > 0 else ""
+    # 1) sujeito = trecho antes do primeiro verbo (ou da primeira lacuna), sem artigo
+    alvo = None
+    ps = antes.split(" ")
+    corte = len(ps)
+    for k, w in enumerate(ps):
+        if re.sub(r"[^\wà-úÀ-Ú-]", "", w).lower() in VERBOS and k > 0:
+            corte = k
+            break
+    PREP = {"de", "do", "da", "dos", "das", "em", "no", "na", "nos", "nas", "por", "para", "com", "que"}
+    cand = [w for w in ps[:corte] if w]
+    for k, w in enumerate(cand):   # núcleo do sujeito: até a primeira preposição/vírgula (“face dorsal da ponte” → “face dorsal”)
+        if k >= 1 and (re.sub(r"[^\wà-ú-]", "", w).lower() in PREP or cand[k - 1].endswith(",")):
+            cand = cand[:k]
+            break
+    if corte == len(ps) and len(cand) > 3:
+        cand = cand[:3]
+    while cand and re.sub(r"[^\wà-ú-]", "", cand[0]).lower() in FUNCAO:
+        cand = cand[1:]
+    while cand and re.sub(r"[^\wà-ú-]", "", cand[-1]).lower() in FUNCAO:
+        cand = cand[:-1]
+    if cand and len(cand) <= 7 and not all(re.sub(r"[^\wà-ú-]", "", w).lower() in VERBOS for w in cand):
+        alvo = " ".join(cand).strip(" ,.;:")
+    if not alvo:   # 2) lacuna logo no início: o contexto está depois dela (primeiro trecho de texto fora das lacunas)
+        for a, b in _fora_cloze(texto):
+            seg = texto[a:b].strip(" ,.;:?")
+            ws = [w for w in seg.split(" ") if w]
+            ws2 = []
+            for w in ws:
+                if re.sub(r"[^\wà-ú-]", "", w).lower() in VERBOS and ws2:
+                    break
+                ws2.append(w)
+            while ws2 and re.sub(r"[^\wà-ú-]", "", ws2[0]).lower() in FUNCAO | set(VERBOS):
+                ws2 = ws2[1:]
+            while ws2 and re.sub(r"[^\wà-ú-]", "", ws2[-1]).lower() in FUNCAO:
+                ws2 = ws2[:-1]
+            for k, w in enumerate(ws2):
+                if k >= 1 and re.sub(r"[^\wà-ú-]", "", w).lower() in PREP:
+                    ws2 = ws2[:k]
+                    break
+            if ws2 and len(ws2) <= 5:
+                alvo = " ".join(ws2).strip(" ,.;:")
+                break
+    if not alvo:   # 3) última tentativa: primeiro par de palavras de conteúdo fora das lacunas (“nervo periférico”)
+        ign = FUNCAO | set(VERBOS) | PREP
+        for a, b in _fora_cloze(texto):
+            run = []
+            for w in texto[a:b].split(" "):
+                n = re.sub(r"[^\wà-ú-]", "", w).lower()
+                if n and n not in ign and len(n) > 3 and not n[0].isdigit():
+                    run.append(w.strip(" ,.;:?()"))
+                    if len(run) == 2 or w.endswith((",", ".")):
+                        break
+                elif run:
+                    break
+            if run:
+                alvo = " ".join(run)
+                break
+    if alvo and "{{" not in alvo and alvo in texto:
+        ini = texto.find(alvo)
+        suj = " ".join(f"<u>{w}</u>" if re.sub(r"[^\wà-ú]", "", w).lower() in QUALIFICADORES else w for w in alvo.split(" "))
+        texto = texto[:ini] + f"<b>{suj}</b>" + texto[ini + len(alvo):]
+    return texto
+
+
+GENERICAS = {"medula", "espinal", "nervo", "tronco", "encefalico", "parte", "cerebral", "sistema", "nervoso", "do", "da", "de", "dos", "das"}
+_ITENS = {}
+
+
+def _explicacoes(texto_pt, extra):
+    """Termo técnico pouco comum no enunciado → explicação curta no Extra (F-20261018-CLAUDE-05: “pode ter no comentário alguma
+    informação dessa área, tipo o que é somestésica”). Lista em glossario_explicacoes.json."""
+    tabela = json.loads((Path(__file__).with_name("glossario_explicacoes.json")).read_text())
+    alvo = " " + glossario.norm(_limpo(CLOZE_RE.sub(lambda m: m.group(2), texto_pt))) + " "
+    linhas = []
+    for termo, exp in tabela.items():
+        if f" {glossario.norm(termo)} " in alvo and exp not in extra and exp not in linhas:
+            linhas.append(exp)
+    return extra + "".join(f"<br>- {x}" for x in linhas) if linhas else extra
+
+
+
+def _itens(base):
+    return _ITENS.setdefault(str(base), json.loads((base / "itens.json").read_text()))
+
+
+def _casar_estrutura(texto_pt, base, forca=None):
+    """Estrutura do Kenhub de que o card de texto trata (nome da estrutura no enunciado), ou None."""
+    texto = glossario.norm(_limpo(CLOZE_RE.sub(lambda m: m.group(2), texto_pt)))
+    escolha, melhor = None, 0
+    for i in _itens(base)["itens"]:
+        if i.get("sem_figura") or not i.get("nome_pt"):
+            continue
+        if forca and i["slug"] != forca:
+            continue
+        nome = glossario.norm(i["nome_pt"])
+        especificas = set(nome.split()) - GENERICAS
+        casa = nome and f" {nome} " in f" {texto} "
+        if not casa and especificas and especificas <= set(texto.split()) and (len(especificas) >= 2 or max(map(len, especificas)) >= 8):
+            casa = True   # “núcleo marginal” no enunciado ↔ “Núcleo marginal da medula espinal”
+        if forca or (casa and len(nome) > melhor):
+            escolha, melhor = i, len(nome)
+    return escolha
+
+
+def _imagem_texto(e, base):
+    """Figura do Extra do card de texto (“IMAGEM NO CLOZE”, F-20261018-CLAUDE-04): a figura do Kenhub da estrutura de que o card trata
+    (nome da estrutura no enunciado), ou a do atlas da unidade; `img` na curadoria força (slug de estrutura ou `cap:<id>`)."""
+    d = _itens(base)
+    forca = e.get("img")
+    escolha = _casar_estrutura(e["text_pt"], base, None if (forca or "").startswith("cap:") else (forca or e.get("estrutura")))
+    if escolha:
+        return f"kh-{escolha['slug']}.jpg", base / escolha["arquivo"]
+    texto = glossario.norm(_limpo(CLOZE_RE.sub(lambda m: m.group(2), e["text_pt"])))
+    caps = [c for c in d.get("overview", []) if (c["id"] and (not forca or forca == f"cap:{c['id']}"))]
+    if caps:
+        palavras = set(texto.split())
+        caps.sort(key=lambda c: -len(palavras & set(glossario.norm(c["title"]).split())))
+        return f"kh-cap-{caps[0]['id']}.jpg", base / caps[0]["arquivo"]
+    raise ValueError("card de texto sem figura (nem estrutura no enunciado, nem figura do atlas): coletar `overview` ou informar `img`")
+
+
 def _overlay_arquivos(e, gerados, q, r, meta):
     nq, nr = f"u7-{e['chave']}-Q{VERSAO_MIDIA}.png", f"u7-{e['chave']}-R{VERSAO_MIDIA}.png"
     (gerados / nq).write_bytes(q)
@@ -213,8 +423,8 @@ def _montar(e, cur, base, gerados, media, A):
         i, s = e["item"], e["slug"]
         arq = base / i["arquivo"]
         m = mascara.regiao(str(arq))
-        q, r, meta = mascara.overlays(Image.open(arq).size, m, nome_pt(cur, i))
-        meta["sobra_verde"] = mascara.conferir(str(arq), "/tmp/kh-conferir.jpg")
+        # F-20261018-CLAUDE-04: sem IO nas estruturas — o Kenhub já destaca a estrutura em verde; basta a seta (frente) e o nome na ponta (verso)
+        q, r, meta = mascara.overlays(Image.open(arq).size, m, nome_pt(cur, i), cobrir=False)
         meta["ponta_fundo"] = _ponta_no_fundo(str(arq), meta["ponta"])
         nq, nr = _overlay_arquivos(e, gerados, q, r, meta)
         img = f"kh-{s}.jpg"
@@ -292,22 +502,33 @@ def _montar(e, cur, base, gerados, media, A):
         verso = ""   # F-20261018-CLAUDE-01 (“faltou tirar uma image”): uma só figura no card; peça/imagem de apoio não entra
         en = _limpo(CLOZE_RE.search(campos["Text"]).group(2)).split(" / ")[0]
         e.update(modelo=modelo.CLOZE, cor=cor(e["apos"]), fonte="AnatoKing", tags_origem=src["tags"], campos={
-            "Text": f"Qual estrutura a seta vermelha indica? {{{{c1::{e['pt']}}}}}", "Imagens": imagens, "Extra": verso,
+            "Text": f"Qual estrutura a seta indica? {{{{c1::{e['pt']}}}}}", "Imagens": imagens, "Extra": verso,
             "Nome EN": en, "Fonte": "", "ID (hidden)": f"nebli-{cur['lesson_id']}-{e['chave']}"})
         e["falta_midia"] = _midia_faltando(imagens + verso, media)
     elif e["tipo"] == "anking":  # AnKing conceitual, traduzido; só o nome no cloze
         src = A("notesInfo", notes=[e["nid"]])[0]
         campos = _local({k: v["value"] for k, v in src["fields"].items()}, media)
         imgs = "".join(_imgs(campos.get("Extra", "")))
-        extra = (e.get("extra_pt", "") + ("<br>" if e.get("extra_pt") and imgs else "") + imgs).strip()
+        if not imgs:   # F-20261018-CLAUDE-04 “IMAGEM NO CLOZE”: AnKing sem figura no Extra ganha a figura do Kenhub da estrutura / do atlas
+            img, arq_img = _imagem_texto(e, base)
+            e["midia"][img] = arq_img
+            imgs = f'<img src="{img}">'
+        txt_extra = _explicacoes(e["text_pt"], e.get("extra_pt", ""))
+        txt_extra = txt_extra[4:] if txt_extra.startswith("<br>") else txt_extra
+        extra = (txt_extra + ("<br><br>" if txt_extra and imgs else "") + imgs).strip()
         e.update(modelo=modelo.CLOZE, cor=_cor_hy(src["tags"]), fonte="AnKing", tags_origem=src["tags"], campos={
-            "Text": e["text_pt"], "Imagens": "", "Extra": extra, "Nome EN": _limpo(CLOZE_RE.sub(lambda m: m.group(2), campos["Text"])), "Fonte": "",
+            "Text": _formatar(e["text_pt"], e), "Imagens": "", "Extra": extra, "Nome EN": _limpo(CLOZE_RE.sub(lambda m: m.group(2), campos["Text"])), "Fonte": "",
             "ID (hidden)": f"nebli-{cur['lesson_id']}-{e['chave']}"})
-        e["falta_midia"] = _midia_faltando(extra, media)
+        e["falta_midia"] = [u for u in _midia_faltando(extra, media) if u not in e["midia"]]
         e["clozes_origem"] = sorted({int(n) for n, _ in CLOZE_RE.findall(campos["Text"])})
-    elif e["tipo"] == "texto":   # fato do texto de estudo do Kenhub, em PT, cloze curto
+    elif e["tipo"] == "texto":   # fato do texto de estudo do Kenhub, em PT, cloze curto, formatação AnKing, figura no Extra
+        img, arq_img = _imagem_texto(e, base)
+        e["midia"][img] = arq_img
+        txt_extra = _explicacoes(e["text_pt"], e.get("extra_pt", ""))
+        txt_extra = txt_extra[4:] if txt_extra.startswith("<br>") else txt_extra
+        extra = (txt_extra + "<br><br>" if txt_extra else "") + f'<img src="{img}">'
         e.update(modelo=modelo.CLOZE, cor=cur.get("cor_texto", "azul"), fonte="Kenhub", tags_origem=[], campos={
-            "Text": e["text_pt"], "Imagens": "", "Extra": e.get("extra_pt", ""), "Nome EN": e.get("en", ""), "Fonte": "",
+            "Text": _formatar(e["text_pt"], e), "Imagens": "", "Extra": extra, "Nome EN": e.get("en", ""), "Fonte": "",
             "ID (hidden)": f"nebli-{cur['lesson_id']}-{e['chave']}"})
         e["falta_midia"] = []
     else:
@@ -319,7 +540,8 @@ def _montar(e, cur, base, gerados, media, A):
         mq = e["campos"]["MascaraP"]
         if mq:
             nome_q = re.search(r'src="([^"]+)"', mq).group(1)
-            frente = Image.alpha_composite(frente, Image.open(e["midia"][nome_q]).convert("RGBA"))
+            sobre = Image.open(e["midia"][nome_q]).convert("RGBA")
+            frente = Image.alpha_composite(frente, sobre.resize(frente.size, Image.LANCZOS) if sobre.size != frente.size else sobre)
         e["ocr_frente"] = fontes_io.textos(frente)
 
 
@@ -351,12 +573,12 @@ def gates_pre(entradas, cur):
             meta = e.get("meta", {})
             if e["tipo"] == "kenhub":
                 w_, h_ = Image.open(e["base_frente"]).size
-                if meta.get("area_mascara", 0) < 0.002 * w_ * h_:
-                    p.append(f"[G17 máscara evidente] {k}: máscara pequena demais para se ver ({meta.get('area_mascara', 0)} px)")
+                if meta.get("comprimento_seta", 0) < 0.04 * (w_ * w_ + h_ * h_) ** 0.5:
+                    p.append(f"[G17 seta evidente] {k}: seta curta demais para se ver de relance ({meta.get('comprimento_seta', 0):.0f} px)")
                 if not (meta.get("seta") and meta.get("ponta_na_mascara")):
-                    p.append(f"[G10 direcionamento] {k}: seta ausente ou não toca a máscara")
-                if meta.get("sobra_verde", 1) > 0:
-                    p.append(f"[máscara] {k}: marcação verde não coberta ({meta.get('sobra_verde')})")
+                    p.append(f"[G10 direcionamento] {k}: seta ausente ou não toca a estrutura (verde)")
+                if meta.get("retangulos") or meta.get("formas"):
+                    p.append(f"[G21 sem IO nas estruturas] {k}: o card do Kenhub não leva máscara sobre a estrutura")
             elif e["tipo"] == "netter" and not (meta.get("seta") and meta.get("guia")):
                 p.append(f"[G10 direcionamento] {k}: seta não segue a linha-guia")
             elif e["tipo"] == "anking_io" and not (meta.get("ancora") or meta.get("pergunta")):
@@ -382,6 +604,13 @@ def gates_pre(entradas, cur):
                     p.append(f"[G8 só o nome] {k}: cloze {r!r} tem mais que o nome")
             if INGLES.search(_limpo(CLOZE_RE.sub(lambda m: m.group(2), texto))):
                 p.append(f"[G8 português] {k}: texto do cloze parece inglês")
+            if e["tipo"] in ("anking", "texto"):   # formatação AnKing clássica: sujeito em negrito, poucos trechos, nada de negrito nas lacunas
+                fora = "".join(e["campos"]["Text"][a:b] for a, b in _fora_cloze(e["campos"]["Text"]))
+                negritos = re.findall(r"<b>", fora)
+                if not 1 <= len(negritos) <= 3:
+                    p.append(f"[G22 formatação AnKing] {k}: {len(negritos)} trechos em negrito fora da lacuna (esperado 1 a 3: sujeito/contexto)")
+            if e["tipo"] in ("texto", "anking") and "<img" not in e["campos"].get("Extra", ""):
+                p.append(f"[G23 imagem no cloze] {k}: card de texto sem figura no Extra")
             if e["tipo"] == "acervo" and (len(_imgs(e["campos"]["Imagens"] + e["campos"].get("Extra", ""))) != 1):
                 p.append(f"[G20 uma figura] {k}: o card do AnatoKing deve ter uma só figura (tem {len(_imgs(e['campos']['Imagens'] + e['campos'].get('Extra', '')))})")
             for _, resp in clozes:   # G18: tradução oficial — o termo precisa estar no Kenhub PT ou no Machado
@@ -391,6 +620,14 @@ def gates_pre(entradas, cur):
                 nov = sorted({int(n) for n, _ in clozes})
                 if nov != e.get("clozes_origem"):
                     p.append(f"[histórico] {k}: lacunas {nov} != originais {e.get('clozes_origem')} (cards se perderiam)")
+            if e["tipo"] == "acervo" and e.get("seta_ok") is not True:   # “seta ruim”: seta fina/preta/apagada reprova; só entra com a seta conferida à vista
+                p.append(f"[G10 seta evidente] {k}: seta do AnatoKing não conferida (seta_ok) — só entra figura com seta evidente")
+            if e["tipo"] in ("anking", "texto"):
+                falta = [x for x in json.loads(Path(__file__).with_name("glossario_explicacoes.json").read_text()).items()
+                         if f" {glossario.norm(x[0])} " in " " + glossario.norm(_limpo(CLOZE_RE.sub(lambda m: m.group(2), e["campos"]["Text"]))) + " "
+                         and x[1] not in re.sub(r"<[^>]+>", " ", e["campos"].get("Extra", "")).replace("  ", " ") and x[1] not in e["campos"].get("Extra", "")]
+                for termo, _ in falta:
+                    p.append(f"[G27 termo explicado] {k}: o termo {termo!r} não está explicado no Extra")
             if e["tipo"] == "acervo" and not e["campos"]["Imagens"]:
                 p.append(f"[G10 direcionamento] {k}: AnatoKing sem imagens")
             if e["tipo"] == "acervo" and e.get("usos_modelo", 1) > 1:
@@ -433,7 +670,7 @@ def _faixa(short):
 
 def _chaves_nota(n):
     out = [t.split("::", 2)[2] for t in n["tags"] if t.startswith("NEBLI::chave::")]
-    if TAG_KENHUB in n["tags"]:
+    if TAG_KENHUB in n["tags"] and not out:   # notas antigas sem etiqueta de chave; as novas (texto/AnKing) também levam “estrutura” e não são a figura
         out += [f"kh-{t.split('::')[-1]}" for t in n["tags"] if t.startswith("NEBLI::estrutura::")]
     out += [f"nid-{t.split('-')[-1]}" for t in n["tags"] if t.startswith("NEBLI::source::nid-")]
     return out
@@ -469,13 +706,23 @@ def _existentes(A, lesson_tag):
     return out
 
 
+def _campos_modelo(e):
+    """Campos como o Anki os guarda. Cloze = tipo AnKing (clone do NEBLI AnKing independente): figura da frente vai dentro do Text,
+    como nos cards do AnKing; os demais campos do AnKing ficam vazios."""
+    c = e["campos"]
+    if e["modelo"] != modelo.CLOZE:
+        return dict(c)
+    texto = c["Text"] + (f"<br><br>{c['Imagens']}" if c.get("Imagens") else "")
+    return {f: "" for f in modelo.CLOZE_CAMPOS} | {"Text": texto, "Extra": c.get("Extra", "")}
+
+
 def instalar(A, cur, entradas):
     deck, lesson = cur["deck"], cur["lesson_id"]
     lesson_tag = f"NEBLI::{lesson}"
     run = "uc07-" + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M")
     faixa = _faixa(cur["short"])
     resultados, recusados, antes = [], [], {}
-    with escrita(A, f"{cur['short'].upper()} {run}"):
+    with escrita(A, f"{cur['short'].upper()} {run}", sync=False):   # sem sync aqui: Davi está estudando (F-20261018-CLAUDE-04)
         modelo.garantir(A)
         existentes = _existentes(A, lesson_tag)
         for n in existentes.values():
@@ -509,6 +756,8 @@ def instalar(A, cur, entradas):
                     f"NEBLI::escopo::{cur['modulo']}", f"NEBLI::chave::{e['chave']}", f"NEBLI::origem::{e['fonte']}",
                     f"NEBLI::cor::{lesson}::{e['cor']}"] + [f"NEBLI::estrutura::{c}" for c in e.get("cobre", [])] \
                 + [f"NEBLI::texto::{_kt(c)}" for c in e.get("cobre_texto", [])]
+            if e.get("estrutura") and e["estrutura"] not in e.get("cobre", []):
+                tags.append(f"NEBLI::estrutura::{e['estrutura']}")
             if e["tipo"] in ("kenhub", "texto"):
                 tags.append(TAG_KENHUB)
             if "nid" in e:
@@ -517,7 +766,7 @@ def instalar(A, cur, entradas):
             atual = existentes.get(e["chave"])
             if atual:
                 nid = atual["noteId"]
-                campos = dict(e["campos"])
+                campos = _campos_modelo(e)
                 campos["NEBLI_Comentario"] = atual["fields"].get("NEBLI_Comentario", {}).get("value", "")  # comentário de Davi fica
                 if atual["modelName"] != e["modelo"]:
                     A("updateNoteModel", note={"id": nid, "modelName": e["modelo"], "fields": campos, "tags": tags})
@@ -527,7 +776,7 @@ def instalar(A, cur, entradas):
                     if velhas:
                         A("removeTags", notes=[nid], tags=" ".join(velhas))
             else:
-                nid = A("addNote", note={"deckName": deck, "modelName": e["modelo"], "fields": dict(e["campos"], NEBLI_Comentario=""),
+                nid = A("addNote", note={"deckName": deck, "modelName": e["modelo"], "fields": dict(_campos_modelo(e), NEBLI_Comentario=""),
                                          "tags": tags, "options": {"allowDuplicate": True}})
             planejadas.add(nid)
             cards = A("cardsInfo", cards=A("findCards", query=f"nid:{nid}"))
@@ -664,10 +913,17 @@ def main():
     if dry:
         print("dry-run: gates pré ok")
         return
+    rec_ant = corrida / "receipt.json"
+    if rec_ant.exists() and "--forcar" not in sys.argv:   # F-20261018-CLAUDE-04: Davi está estudando — nada de gravar de novo toda hora
+        horas = (datetime.now(timezone.utc) - datetime.fromisoformat(json.loads(rec_ant.read_text())["at"])).total_seconds() / 3600
+        if horas < 6:
+            raise SystemExit(f"[sem regravar à toa] esta unidade foi gravada há {horas:.1f} h; junte as mudanças e grave em lote "
+                             "(ou use --forcar, só com motivo)")
     if not pode_gravar_bandeira(A):
         raise SystemExit("O Anki está com uma janela de edição aberta (navegador de cards ou editor) e recusa gravar. "
                          "Feche essa janela (Cmd+W) e rode de novo: a reconciliação conclui o que faltar.")
     run, resultados, recusados, antes, retiradas = instalar(A, cur, entradas)
+    SYNC_PENDENTE.write_text(datetime.now(timezone.utc).isoformat(), encoding="utf-8")   # o sync fica para quando Davi estiver ocioso
     falhas = gates_pos(A, cur, itens, resultados, antes, json.loads((base / 'itens.json').read_text()).get('texto', []))
     if recusados:
         pedido = ROOT / "arquivos-trabalho" / "anki-acao-pedido.json"

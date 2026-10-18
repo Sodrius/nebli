@@ -1,0 +1,536 @@
+{
+ "modulo": "sistema-nervoso-periferico-e-autonomo",
+ "unidade": "dermatomos-e-miotomos",
+ "unidade_kenhub": "anatomy-pns-dermatomes",
+ "deck": "NEBLI::UC07::Sistema nervoso periférico e autônomo::Dermátomos e miótomos",
+ "short": "u7f05d",
+ "lesson_id": "2026-uc07-sistema-nervoso-periferico-e-autonomo-dermatomos-e-miotomos",
+ "kenhub_excluir": {},
+ "nome_pt": {
+  "myotomes-l1-l3": "Miótomos L1-L3",
+  "myotomes-c6-c8": "Miótomos C6-C8"
+ },
+ "nome_igual_ok": [],
+ "acervo": [],
+ "anking": [
+  {
+   "nid": 1484016833241,
+   "text_pt": "Qual <u>dermátomo</u> fica na <b>metade posterior do crânio</b>? {{c1::C2}}",
+   "cobre_texto": [
+    "cap:3083"
+   ],
+   "extra_pt": "Posterior à orelha, a inervação sensitiva é do nervo occipital menor (C2, C3); anterior à orelha, do ramo auriculotemporal de V3."
+  },
+  {
+   "nid": 1484016838343,
+   "text_pt": "Qual <u>dermátomo</u> fica no nível da <b>gola alta</b> da camisa? {{c1::C3}}",
+   "cobre_texto": [
+    "cap:3083",
+    "cap:3078"
+   ],
+   "extra_pt": "A crista do trapézio é inervada por C3–C4."
+  },
+  {
+   "nid": 1484016848203,
+   "text_pt": "Qual <u>dermátomo</u> fica no nível da <b>gola baixa</b> da camisa? {{c1::C4}}",
+   "cobre_texto": [
+    "cap:3083",
+    "cap:3078"
+   ],
+   "extra_pt": "A crista do trapézio é inervada por C3–C4."
+  },
+  {
+   "nid": 1484016853420,
+   "text_pt": "Qual <u>dermátomo</u> inclui o <b>polegar</b>? {{c1::C6}}",
+   "cobre_texto": [
+    "cap:3083",
+    "cap:3078"
+   ]
+  },
+  {
+   "nid": 1484016858132,
+   "text_pt": "Qual <u>dermátomo</u> fica no <b>mamilo</b>? {{c1::T4}}",
+   "cobre_texto": [
+    "cap:3078"
+   ]
+  },
+  {
+   "nid": 1484016863153,
+   "text_pt": "Qual <u>dermátomo</u> fica no <b>processo xifoide</b>? {{c1::T7}}",
+   "cobre_texto": [
+    "cap:3078"
+   ],
+   "extra_pt": "Mnemônico: “xifoide” tem 7 letras."
+  },
+  {
+   "nid": 1484016867460,
+   "text_pt": "Qual <u>dermátomo</u> fica no <b>umbigo</b>? {{c1::T10}}",
+   "cobre_texto": [
+    "cap:3078"
+   ]
+  },
+  {
+   "nid": 1484016872017,
+   "text_pt": "Qual <u>dermátomo</u> fica no <b>ligamento inguinal</b>? {{c1::L1}}",
+   "cobre_texto": [
+    "cap:3078"
+   ],
+   "extra_pt": "Mnemônico: L1 = “IL” (Inguinal Ligament)."
+  },
+  {
+   "nid": 1484016877030,
+   "text_pt": "Qual <u>dermátomo</u> inclui as <b>patelas</b>? {{c1::L4}}",
+   "cobre_texto": [
+    "cap:3078"
+   ]
+  },
+  {
+   "nid": 1484016881516,
+   "text_pt": "Quais <u>dermátomos</u> respondem pela <b>ereção</b> e pela sensibilidade das zonas peniana e anal? {{c1::S2, S3, S4}}",
+   "cobre_texto": [
+    "cap:3078",
+    "cap:3083"
+   ]
+  },
+  {
+   "nid": 1484016890641,
+   "text_pt": "Qual <u>dermátomo</u> é importante na <b>referência da dor da apendicite inicial</b>? {{c1::T10 (umbigo)}}",
+   "cobre_texto": [
+    "cap:3078"
+   ]
+  },
+  {
+   "nid": 1550611702794,
+   "text_pt": "<b>Linha do mamilo</b> = {{c1::T4::nível do dermátomo}}",
+   "cobre_texto": [
+    "cap:3078"
+   ]
+  },
+  {
+   "nid": 1554073627064,
+   "text_pt": "<b>Dermátomos:</b><br><br> {{c1::C4}}: ombros<br> {{c1::C6}}: polegar<br> {{c1::T4}}: mamilo<br> {{c1::T10}}: umbigo<br> {{c1::L4}}: patelas<br> {{c1::L5}}: hálux<br> {{c1::S1}}: dedo mínimo do pé",
+   "cobre_texto": [
+    "cap:3078",
+    "cap:3083"
+   ]
+  },
+  {
+   "nid": 1550604153796,
+   "text_pt": "<b>Hálux</b> = {{c1::L5::nível do dermátomo}}<br><b>Dedo mínimo do pé</b> = {{c1::S1::nível do dermátomo}}",
+   "cobre_texto": [
+    "cap:3078"
+   ]
+  },
+  {
+   "nid": 1496775957800,
+   "text_pt": "Uma <b>hérnia de disco intervertebral</b> no nível {{c1::L4-L5}} causa:<br><br>- Fraqueza da {{c2::<u>dorsiflexão</u>::ação}}<br>- Dificuldade em andar {{c2::<u>sobre os calcanhares</u>}}",
+   "cobre_texto": [
+    "resumo:Lower limb"
+   ],
+   "extra_pt": "Afeta o nervo espinal L5, prejudicando a ação do nervo fibular comum. É o local mais comum de hérnia de disco lombar."
+  },
+  {
+   "nid": 1496775862689,
+   "text_pt": "Uma <b>hérnia de disco intervertebral</b> no nível {{c1::L3-L4}} causa:<br><br>- Fraqueza da extensão do {{c2::<u>joelho</u>}} e da flexão do {{c2::<u>quadril</u>}}<br>- Diminuição do reflexo {{c3::<u>patelar</u>}}<br>- Diminuição da sensibilidade da face {{c4::anterior}} / lateral da coxa",
+   "cobre_texto": [
+    "resumo:Lower limb"
+   ],
+   "extra_pt": "Afeta o nervo espinal L4 e a ação do nervo femoral."
+  },
+  {
+   "nid": 1484189100278,
+   "text_pt": "A <b>síndrome</b> da {{c2::cauda equina}} pode associar-se a anestesia “em {{c1::sela (S3–S5)}}”",
+   "cobre_texto": [
+    "cap:3078"
+   ]
+  }
+ ],
+ "cores": {
+  "c8-dermatome": "azul",
+  "c5-dermatome": "azul",
+  "l1-dermatome": "verde",
+  "t4-dermatome": "verde",
+  "c6-dermatome": "verde",
+  "c7-dermatome": "azul",
+  "l5-dermatome": "verde",
+  "t10-dermatome": "verde",
+  "s2-dermatome": "azul",
+  "l4-dermatome": "verde",
+  "t1-dermatome": "azul",
+  "s3-dermatome": "azul",
+  "s4-dermatome": "azul",
+  "s5-dermatome": "azul",
+  "l3-dermatome": "azul",
+  "s1-dermatome": "verde",
+  "l2-dermatome": "azul",
+  "myotomes-c1-and-c2": "azul",
+  "myotomes-l1-l3": "azul",
+  "myotomes-l5-and-s1": "azul",
+  "myotomes-c5-and-c6": "azul",
+  "myotomes-c6-c8": "azul",
+  "myotome-c6": "azul",
+  "myotome-t1": "azul",
+  "myotomes-c6-and-c7": "azul",
+  "myotome-c5": "azul",
+  "myotomes-s2-and-s2": "azul",
+  "myotomes-c7-and-c8": "azul",
+  "myotomes-l4-and-l5": "azul",
+  "myotomes-l3-and-l4": "azul"
+ },
+ "texto": [
+  {
+   "id": "d7-derm-def",
+   "text_pt": "A área de pele com inervação sensitiva de um único nervo espinal é um {{c1::dermátomo}}",
+   "cobre_texto": [
+    "resumo:Innervation"
+   ]
+  },
+  {
+   "id": "d7-derm-raiz",
+   "text_pt": "A inervação sensitiva de um dermátomo vem da raiz {{c1::posterior}} (dorsal) de um único nervo espinal",
+   "cobre_texto": [
+    "resumo:Innervation"
+   ]
+  },
+  {
+   "id": "d7-derm-trigemeo",
+   "text_pt": "Na face, a inervação sensitiva da pele é do nervo {{c1::trigêmeo}} (V)",
+   "cobre_texto": [
+    "resumo:Innervation",
+    "resumo:Dermatome map",
+    "cap:3078"
+   ]
+  },
+  {
+   "id": "d7-miot-def",
+   "text_pt": "O conjunto de músculos esqueléticos com inervação motora de um único nervo espinal é um {{c1::miótomo}}",
+   "cobre_texto": [
+    "resumo:Innervation#2"
+   ]
+  },
+  {
+   "id": "d7-miot-raiz",
+   "text_pt": "A inervação motora de um miótomo vem da raiz {{c1::anterior}} (ventral) de um único nervo espinal",
+   "cobre_texto": [
+    "resumo:Innervation#2"
+   ]
+  },
+  {
+   "id": "d7-mapa-cabeca",
+   "text_pt": "Os dermátomos da cabeça, da face e do pescoço são do nervo trigêmeo (V) e dos nervos espinais C2 a {{c1::C4}}",
+   "cobre_texto": [
+    "resumo:Dermatome map"
+   ]
+  },
+  {
+   "id": "d7-mapa-msup",
+   "text_pt": "Os dermátomos dos membros superiores correspondem aos nervos espinais C5 a {{c1::T2}}",
+   "cobre_texto": [
+    "resumo:Dermatome map"
+   ]
+  },
+  {
+   "id": "d7-mapa-tronco",
+   "text_pt": "Os dermátomos do tórax e do abdome correspondem aos nervos espinais T3 a {{c1::T12}}",
+   "cobre_texto": [
+    "resumo:Dermatome map"
+   ]
+  },
+  {
+   "id": "d7-mapa-minf",
+   "text_pt": "Os dermátomos dos membros inferiores e da genitália correspondem aos nervos espinais L1 a {{c1::S5}}",
+   "cobre_texto": [
+    "resumo:Dermatome map"
+   ]
+  },
+  {
+   "id": "d7-mapa-nomes",
+   "text_pt": "Os dois mapas de dermátomos mais usados são o de {{c1::Foerster}} e o de Keegan e Garrett",
+   "cobre_texto": [
+    "cap:3083",
+    "cap:3078"
+   ]
+  },
+  {
+   "id": "d7-face-ramos",
+   "text_pt": "Os três dermátomos da face (V1, V2 e V3) correspondem aos três ramos do nervo {{c1::trigêmeo}}",
+   "cobre_texto": [
+    "cap:3078"
+   ]
+  },
+  {
+   "id": "d7-pescoco-ombro",
+   "text_pt": "No mapa de Keegan e Garrett, o pescoço e o ombro incluem também o dermátomo {{c1::C5}}; no de Foerster são só C3 e C4",
+   "cobre_texto": [
+    "cap:3078",
+    "cap:3083"
+   ]
+  },
+  {
+   "id": "d7-c7",
+   "text_pt": "O dermátomo {{c1::C7}} cobre o centro da palma e o dedo médio",
+   "cobre_texto": [
+    "cap:3078",
+    "cap:3083"
+   ],
+   "estrutura": "c7-dermatome"
+  },
+  {
+   "id": "d7-c8",
+   "text_pt": "O dermátomo {{c1::C8}} cobre o lado ulnar do antebraço e da mão e o dedo mínimo",
+   "cobre_texto": [
+    "cap:3078",
+    "cap:3083"
+   ],
+   "estrutura": "c8-dermatome"
+  },
+  {
+   "id": "d7-t2-t9",
+   "text_pt": "Os dermátomos T2 a T9 são linhas quase {{c1::horizontais}} e regularmente espaçadas",
+   "cobre_texto": [
+    "cap:3078"
+   ]
+  },
+  {
+   "id": "d7-t10-t12",
+   "text_pt": "Nos dermátomos T10 a T12, as margens inferiores {{c1::descem}}, mais evidente no mapa de Keegan e Garrett",
+   "cobre_texto": [
+    "cap:3078"
+   ]
+  },
+  {
+   "id": "d7-s1-cobre",
+   "text_pt": "O dermátomo {{c1::S1}} cobre o maléolo lateral, a margem lateral do pé, o calcanhar e o dedo mínimo do pé",
+   "cobre_texto": [
+    "cap:3078"
+   ],
+   "estrutura": "s1-dermatome"
+  },
+  {
+   "id": "d7-s2s3",
+   "text_pt": "Os dermátomos {{c1::S2}} e {{c2::S3}} cobrem o períneo e os genitais",
+   "cobre_texto": [
+    "cap:3078",
+    "cap:3083"
+   ]
+  },
+  {
+   "id": "d7-perna-anterior",
+   "text_pt": "A face anterior da perna é coberta pelos dermátomos {{c1::L4}}, L5 e S1 nos dois mapas",
+   "cobre_texto": [
+    "cap:3078"
+   ]
+  },
+  {
+   "id": "d7-coxa-anterior",
+   "text_pt": "No mapa de Foerster, a coxa anterior é coberta por L2 e {{c1::L3}}; no de Keegan e Garrett, também por L4",
+   "cobre_texto": [
+    "cap:3078"
+   ]
+  },
+  {
+   "id": "d7-c2-posterior",
+   "text_pt": "No mapa de Keegan e Garrett, o dermátomo C2 cobre toda a parte posterior da {{c1::cabeça}}",
+   "cobre_texto": [
+    "cap:3083"
+   ]
+  },
+  {
+   "id": "d7-c6-c8-posterior",
+   "text_pt": "No mapa de Keegan e Garrett, C6, C7 e C8 cobrem o membro superior posterior em sequência: C6 lateral, C7 central e C8 {{c1::medial}}",
+   "cobre_texto": [
+    "cap:3083"
+   ]
+  },
+  {
+   "id": "d7-t1-t2-foerster",
+   "text_pt": "No mapa de Foerster, T1 cobre a face medial do braço e do cotovelo e T2 chega até a {{c1::axila}}",
+   "cobre_texto": [
+    "cap:3083"
+   ]
+  },
+  {
+   "id": "d7-dorso",
+   "text_pt": "Os dermátomos do dorso de T1 a T12 têm padrão segmentar quase {{c1::horizontal}}, na altura da vértebra correspondente",
+   "cobre_texto": [
+    "cap:3083"
+   ]
+  },
+  {
+   "id": "d7-lombar-foerster",
+   "text_pt": "No mapa de Foerster, a região lombar e a face lateral da região glútea são L1 e {{c1::L2}}",
+   "cobre_texto": [
+    "cap:3083"
+   ]
+  },
+  {
+   "id": "d7-gluteo",
+   "text_pt": "A região glútea é representada pelos dermátomos S1 a {{c1::S5}}",
+   "cobre_texto": [
+    "cap:3083"
+   ]
+  },
+  {
+   "id": "d7-s2-s5-gluteo",
+   "text_pt": "Os dermátomos S2 a S5 cobrem principalmente a face medial das nádegas e a região {{c1::perineal}}",
+   "cobre_texto": [
+    "cap:3083"
+   ]
+  },
+  {
+   "id": "d7-l3-l4-foerster",
+   "text_pt": "No mapa de Foerster, L3 cobre sobretudo a face {{c1::medial}} da coxa e L4, a face medial da perna",
+   "cobre_texto": [
+    "cap:3083"
+   ]
+  },
+  {
+   "id": "d7-u-c5",
+   "text_pt": "O miótomo {{c1::C5}} produz abdução e rotação externa do braço na articulação glenoumeral",
+   "cobre_texto": [
+    "resumo:Upper limb",
+    "cap:3225"
+   ],
+   "estrutura": "myotome-c5"
+  },
+  {
+   "id": "d7-u-c5c6",
+   "text_pt": "Os miótomos {{c1::C5}} e C6 produzem flexão do braço (glenoumeral) e flexão do cotovelo",
+   "cobre_texto": [
+    "resumo:Upper limb",
+    "cap:3225"
+   ],
+   "estrutura": "myotomes-c5-and-c6"
+  },
+  {
+   "id": "d7-u-c6",
+   "text_pt": "O miótomo {{c1::C6}} produz a supinação",
+   "cobre_texto": [
+    "resumo:Upper limb",
+    "cap:3225"
+   ],
+   "estrutura": "myotome-c6"
+  },
+  {
+   "id": "d7-u-c6c7",
+   "text_pt": "Os miótomos C6 e {{c1::C7}} produzem extensão do braço (glenoumeral) e flexão e extensão do punho",
+   "cobre_texto": [
+    "resumo:Upper limb",
+    "cap:3225"
+   ],
+   "estrutura": "myotomes-c6-and-c7"
+  },
+  {
+   "id": "d7-u-c6c8",
+   "text_pt": "Os miótomos {{c1::C6, C7 e C8}} produzem adução e rotação interna do braço e extensão do cotovelo",
+   "cobre_texto": [
+    "resumo:Upper limb",
+    "cap:3225"
+   ],
+   "cobre": [
+    "myotomes-c6-c8"
+   ],
+   "estrutura": "myotomes-c6-c8"
+  },
+  {
+   "id": "d7-u-c7c8",
+   "text_pt": "Os miótomos C7 e {{c1::C8}} produzem pronação e flexão e extensão dos dedos",
+   "cobre_texto": [
+    "resumo:Upper limb",
+    "cap:3225"
+   ],
+   "estrutura": "myotomes-c7-and-c8"
+  },
+  {
+   "id": "d7-u-t1",
+   "text_pt": "O miótomo {{c1::T1}} produz adução e abdução dos dedos nas articulações metacarpofalângicas",
+   "cobre_texto": [
+    "resumo:Upper limb",
+    "cap:3225"
+   ],
+   "estrutura": "myotome-t1"
+  },
+  {
+   "id": "d7-u-cotovelo",
+   "text_pt": "A flexão do cotovelo depende sobretudo de {{c1::C6}}, e a extensão, de C7",
+   "cobre_texto": [
+    "cap:3225"
+   ],
+   "estrutura": "myotome-c6"
+  },
+  {
+   "id": "d7-l-l1l3",
+   "text_pt": "Os miótomos {{c1::L1, L2 e L3}} produzem rotação interna e adução do quadril",
+   "cobre_texto": [
+    "resumo:Lower limb",
+    "cap:3230"
+   ],
+   "cobre": [
+    "myotomes-l1-l3"
+   ],
+   "estrutura": "myotomes-l1-l3"
+  },
+  {
+   "id": "d7-l-l2l3",
+   "text_pt": "Os miótomos {{c1::L2}} e L3 produzem a flexão do quadril",
+   "cobre_texto": [
+    "resumo:Lower limb",
+    "cap:3230"
+   ],
+   "estrutura": "myotomes-l3-and-l4"
+  },
+  {
+   "id": "d7-l-l3l4",
+   "text_pt": "Os miótomos {{c1::L3}} e L4 produzem a extensão do joelho",
+   "cobre_texto": [
+    "resumo:Lower limb",
+    "cap:3230"
+   ],
+   "estrutura": "myotomes-l3-and-l4"
+  },
+  {
+   "id": "d7-l-l4l5",
+   "text_pt": "Os miótomos L4 e {{c1::L5}} produzem extensão do quadril, inversão e dorsiflexão do pé",
+   "cobre_texto": [
+    "resumo:Lower limb",
+    "cap:3230"
+   ],
+   "estrutura": "myotomes-l4-and-l5"
+  },
+  {
+   "id": "d7-l-l5s1",
+   "text_pt": "Os miótomos {{c1::L5}} e S1 produzem rotação externa e abdução do quadril, flexão do joelho, eversão do pé e dorsiflexão das articulações metatarsofalângicas e interfalângicas",
+   "cobre_texto": [
+    "resumo:Lower limb",
+    "cap:3230"
+   ],
+   "estrutura": "myotomes-l5-and-s1"
+  },
+  {
+   "id": "d7-l-s1s2",
+   "text_pt": "Os miótomos S1 e {{c1::S2}} produzem flexão plantar do pé e das articulações metatarsofalângicas e interfalângicas",
+   "cobre_texto": [
+    "resumo:Lower limb",
+    "cap:3230"
+   ],
+   "estrutura": "myotomes-s2-and-s2"
+  },
+  {
+   "id": "d7-l-tornozelo",
+   "text_pt": "A dorsiflexão do tornozelo depende de L4 e {{c1::L5}}; a flexão plantar, de S1 e {{c2::S2}}",
+   "cobre_texto": [
+    "cap:3230"
+   ],
+   "estrutura": "myotomes-l4-and-l5"
+  },
+  {
+   "id": "d7-l-eversao",
+   "text_pt": "A eversão do pé depende de L5 e S1; a inversão, de {{c1::L4}} e L5",
+   "cobre_texto": [
+    "cap:3230"
+   ],
+   "estrutura": "myotomes-l5-and-s1"
+  }
+ ],
+ "netter": []
+}

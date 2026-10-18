@@ -76,9 +76,11 @@ def main():
     with _t.TemporaryDirectory() as dd:
         _I.new("RGB", (1000, 1000), "white").save(Path(dd) / "f.png")
         k = {"chave": "k", "tipo": "kenhub", "modelo": modelo.NOME, "base_frente": str(Path(dd) / "f.png"),
-             "meta": {"seta": True, "ponta_na_mascara": True, "sobra_verde": 0, "area_mascara": 50},
+             "meta": {"seta": True, "ponta_na_mascara": True, "comprimento_seta": 5, "retangulos": 0, "formas": 0},
              "item": {"nome_en": "Pons"}, "slug": "pons", "campos": {"Nome PT": "Ponte", "Nome EN": "Pons"}, "ocr_frente": []}
-        espera(any("G17" in p for p in deck.gates_pre([k], cur)), "G17 aceitou máscara minúscula")
+        espera(any("G17" in p for p in deck.gates_pre([k], cur)), "G17 aceitou seta minúscula")
+        k2 = dict(k, meta=dict(k["meta"], comprimento_seta=300, retangulos=2))
+        espera(any("G21" in p for p in deck.gates_pre([k2], cur)), "G21 aceitou máscara (IO) sobre a estrutura do Kenhub")
     ac = {"chave": "a", "tipo": "acervo", "modelo": modelo.CLOZE, "pt": "Ponte", "usos_modelo": 17, "vermelho_modelo": 0.001,
           "campos": {"Text": "Qual estrutura? {{c1::Ponte}}", "Imagens": "<img src=x>", "Nome EN": "Pons"}, "ocr_frente": []}
     espera(any("genérica" in p for p in deck.gates_pre([ac], cur)), "gate de modelo genérico aceitou figura repetida em 17 cards")
@@ -96,6 +98,27 @@ def main():
     espera(glossario.atestado("bulbo-pontino") and glossario.atestado("fossa romboide"), "glossário recusou termo do Machado/Kenhub")
     espera(glossario.atestado("blorbo quadrigemoide") is None, "glossário aceitou termo inventado")
     espera("AGUARDANDO REVISÃO" in (RAIZ / "nebli/kenhub/painel.py").read_text() and "def revisado" in (RAIZ / "nebli/kenhub/pipeline.py").read_text(), "revisão card a card sumiu")
+    # F-20261018-04: formatação AnKing, figura no cloze, sem regravar à toa
+    tx = {"chave": "t", "tipo": "texto", "modelo": modelo.CLOZE, "campos": {"Text": "O nervo é {{c1::misto}}", "Imagens": "", "Extra": "<img src=x>", "Nome EN": ""}}
+    espera(any("G22" in p for p in deck.gates_pre([tx], cur)), "G22 aceitou card sem negrito")
+    tx2 = dict(tx, campos=dict(tx["campos"], Text="O <b>nervo</b> é {{c1::misto}}", Extra=""))
+    espera(any("G23" in p for p in deck.gates_pre([tx2], cur)), "G23 aceitou card de texto sem figura")
+    espera("<b>" in deck._formatar("A raiz anterior contém fibras {{c1::motoras}}", {}), "formatação AnKing não pôs negrito no sujeito")
+    espera("sem regravar à toa" in (RAIZ / "nebli/kenhub/deck.py").read_text(), "gate de regravação sumiu")
+    # F-20261018-05: estrutura junta, uma verde por estrutura, formato AnKing, figura grande
+    sep = [{"ordem": 1, "estrutura": "a", "cor": "azul"}, {"ordem": 2, "estrutura": "b", "cor": "azul"}, {"ordem": 3, "estrutura": "a", "cor": "azul"}]
+    espera(any("G25" in p for p in deck.gate_estruturas(sep)), "G25 aceitou cards da mesma estrutura espalhados")
+    dois = [{"ordem": 1, "estrutura": "a", "cor": "verde", "chave": "x"}, {"ordem": 2, "estrutura": "a", "cor": "verde", "chave": "y"}]
+    espera(any("G26" in p for p in deck.gate_estruturas(dois)), "G26 aceitou dois cards verdes da mesma estrutura")
+    espera(not deck.gate_estruturas([dois[0], dict(dois[1], cor="azul")]), "G26 reprovou uma verde + uma azul")
+    espera("G24 formato AnKing" in (RAIZ / "nebli/kenhub/modelo.py").read_text() and "ANKING_BASE" in (RAIZ / "nebli/kenhub/modelo.py").read_text(), "gate de formato AnKing sumiu")
+    espera("960px" in (RAIZ / "nebli/kenhub/modelo.py").read_text().replace(" ", "") and "ESCALA = 2" in (RAIZ / "nebli/kenhub/mascara.py").read_text(), "figuras maiores/overlay nítido sumiram")
+    # F-20261018-05 (comentários): seta ruim do AnatoKing e termo sem explicação
+    ac3 = dict(ac, usos_modelo=1, vermelho_modelo=0.01)
+    espera(any("seta evidente" in p for p in deck.gates_pre([ac3], cur)), "AnatoKing sem seta_ok passou")
+    espera(not any("seta evidente" in p for p in deck.gates_pre([dict(ac3, seta_ok=True)], cur)), "AnatoKing com seta_ok reprovou")
+    tz = {"chave": "z", "tipo": "texto", "modelo": modelo.CLOZE, "campos": {"Text": "O giro é a área <b>somestésica</b> {{c1::primária}}", "Imagens": "", "Extra": "<img src=x>", "Nome EN": ""}}
+    espera(any("G27" in p for p in deck.gates_pre([tz], cur)), "G27 aceitou termo técnico sem explicação")
     # entrada sem campos (tipo desconhecido) reprova
     espera(any("[montagem]" in p for p in deck.gates_pre([{"chave": "z", "tipo": "id"}], cur)), "entrada sem campos passou")
     # F-03: navegador do Kenhub invisível

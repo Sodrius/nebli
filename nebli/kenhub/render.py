@@ -6,7 +6,7 @@ id do feedback de Davi que o criou (registro: nebli/kenhub/feedbacks.json); feed
   G1  frente-só-imagem     IO: a frente não tem texto além da Pergunta (quando a figura inteira é a pergunta).
   G2  resposta-sem-rolar   IO: o nome em PT no topo do verso; Cloze: a lacuna revelada — dentro da primeira tela (PC e celular).
   G4  imagens-inteiras     nenhuma imagem quebrada; a figura do IO cabe inteira na tela.
-  G5  máscara-esconde      Kenhub: na frente a marcação verde não aparece; no verso ela aparece.
+  G5  destaque-visível     Kenhub (sem IO, F-20261018-CLAUDE-04): o destaque verde do Kenhub aparece na frente e no verso, com a seta.
   G6  deck-todo            todos os cards planejados renderizados (nunca passa no vazio).
   G9  sem-escolher-imagem  nenhum botão no card e nenhuma imagem escondida (nada de escolher entre cadáver e modelo).
   G11 resposta-no-lugar    IO com seta/ID: o verso tem a sobreposição com o nome escrito na figura.
@@ -35,14 +35,18 @@ TELAS = {"pc": ({"width": 1280, "height": 800}, False), "cel": ({"width": 390, "
 JS = """() => {
   const r = e => { const b = e.getBoundingClientRect(); return {top: b.top, bottom: b.bottom, w: b.width, h: b.height}; };
   const q = s => document.querySelector(s);
-  const imgs = [...document.images].filter(i => (i.getAttribute('src') || '') !== '')
-     .map(i => ({src: i.getAttribute('src'), ok: i.complete && i.naturalWidth > 0,
-                 visivel: i.offsetParent !== null && getComputedStyle(i).visibility !== 'hidden'}));
+  // ícones do próprio tipo AnKing (_AnKingIcon.png…) e botões escondidos do template não contam; imagem do Extra some na frente (AnKing)
+  const vis = i => i.offsetParent !== null && getComputedStyle(i).visibility !== 'hidden';
+  const todas = [...document.images].filter(i => (i.getAttribute('src') || '') !== '' && !(i.getAttribute('src') || '').startsWith('_'));
+  // o template do AnKing repete o Text (campo editável escondido): a imagem vale como visível se alguma cópia dela aparece
+  const imgs = [...new Set(todas.map(i => i.getAttribute('src')))].map(src => {
+     const cop = todas.filter(i => i.getAttribute('src') === src);
+     return {src, ok: cop.every(i => i.complete && i.naturalWidth > 0), emExtra: cop.every(i => !!i.closest('#extra')), visivel: cop.some(vis)}; });
   const wrap = q('#kh-wrap'), nome = q('#kh-nome'), cloze = q('.cloze');
-  const fig = q('#kh-img img') || q('#u7-imagens img');
-  const frenteImgs = document.querySelectorAll('#kh-img img, #u7-imagens img').length;
+  const fig = q('#kh-img img') || q('#u7-imagens img') || [...document.querySelectorAll('#text img')].find(vis) || null;
+  const frenteImgs = [...document.querySelectorAll('#kh-img img, #u7-imagens img, #text img')].filter(vis).length;
   return {texto: (document.getElementById('content')?.innerText || '').trim(), imgs, vh: window.innerHeight,
-          botoes: document.querySelectorAll('button').length, sobre: document.querySelectorAll('.kh-over img').length,
+          botoes: [...document.querySelectorAll('button')].filter(b => b.offsetParent !== null).length, sobre: document.querySelectorAll('.kh-over img').length,
           wrap: wrap ? r(wrap) : null, nome: nome ? r(nome) : null, nomeTexto: nome ? nome.innerText.trim() : '',
           cloze: cloze ? r(cloze) : null, fig: fig ? r(fig) : null, frenteImgs, vw: window.innerWidth};
 }"""
@@ -111,14 +115,14 @@ def renderizar(consulta: str, saida: Path, nids_esperados):
                     if lado == "question" and m["frenteImgs"] > 1:
                         reg["falhas"].append(f"G15 frente com {m['frenteImgs']} figuras ({tela})")
                     if m["fig"]:
-                        if tela == "pc" and not (380 <= m["fig"]["h"] <= 780) and m["fig"]["w"] < 0.95 * m["vw"]:
+                        if tela == "pc" and not (430 <= m["fig"]["h"] <= 960) and m["fig"]["w"] < 0.95 * m["vw"]:
                             reg["falhas"].append(f"G16 figura com {m['fig']['h']:.0f} px de altura no PC ({lado})")
                         if tela == "cel" and m["fig"]["w"] < 300:
                             reg["falhas"].append(f"G16 figura com {m['fig']['w']:.0f} px de largura no celular ({lado})")
                     ruins = [i["src"] for i in m["imgs"] if not i["ok"]]
                     if ruins:
                         reg["falhas"].append(f"G4 imagem quebrada ({tela}/{lado}): {ruins[:2]}")
-                    if m["botoes"] or any(not i["visivel"] for i in m["imgs"]):
+                    if m["botoes"] or any(not i["visivel"] and not (lado == "question" and i["emExtra"]) for i in m["imgs"]):
                         reg["falhas"].append(f"G9 botão ou imagem escondida ({tela}/{lado})")
                     if io:
                         if m["wrap"] and m["wrap"]["bottom"] > m["vh"] + 1:
@@ -139,10 +143,10 @@ def renderizar(consulta: str, saida: Path, nids_esperados):
                 for tela in TELAS:
                     a = _verde(np.asarray(Image.open(fotos[(tela, "answer")]).convert("RGB")))
                     qv = _verde(np.asarray(Image.open(fotos[(tela, "question")]).convert("RGB")))
-                    if qv > 40 and qv > 0.2 * a:
-                        reg["falhas"].append(f"G5 verde visível na frente ({tela}): {qv}px (verso {a}px)")
+                    if qv < 40:   # F-20261018-CLAUDE-04: sem IO — o destaque verde do Kenhub tem de estar visível já na frente
+                        reg["falhas"].append(f"G5 destaque verde do Kenhub não aparece na frente ({tela}): {qv}px")
                     if a < 40:
-                        reg["falhas"].append(f"G5 marcação não aparece no verso ({tela})")
+                        reg["falhas"].append(f"G5 destaque verde não aparece no verso ({tela})")
             mini.append((c["cardId"], fotos[("pc", "question")], fotos[("pc", "answer")], reg["falhas"], mod))
             itens.append(reg)
         nav.close()

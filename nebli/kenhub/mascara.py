@@ -109,13 +109,16 @@ def _quebrar(texto, fonte, largura_max, draw):
     return linhas + [atual]
 
 
-def _caixa_texto(texto, tam, largura_max):
+ESCALA = 2   # overlays desenhados em 2x (supersampling): seta e rótulo nítidos em tela retina; o CSS reduz ao tamanho da figura
+
+
+def _caixa_texto(texto, tam, largura_max, esc=1):
     f = _fonte(tam)
     d = ImageDraw.Draw(Image.new("RGB", (10, 10)))
     linhas = _quebrar(texto, f, largura_max, d)
     alt = int(tam * 1.18)
-    w = int(max(d.textlength(l, font=f) for l in linhas)) + 2 * 12
-    h = alt * len(linhas) + 2 * 8
+    w = int(max(d.textlength(l, font=f) for l in linhas)) + 2 * 12 * esc
+    h = alt * len(linhas) + 2 * 8 * esc
     return f, linhas, w, h, alt
 
 
@@ -207,9 +210,9 @@ def _desenhar_seta(d, ponta, cauda, larg=7, cabeca=26):
         d.polygon(tri, fill=cor)
 
 
-def _rotulo(d, caixa, linhas, fonte, alt, fundo, cor_txt):
-    d.rounded_rectangle(caixa, radius=8, fill=fundo, outline=(0, 0, 0), width=3)
-    y = caixa[1] + 8
+def _rotulo(d, caixa, linhas, fonte, alt, fundo, cor_txt, esc=1):
+    d.rounded_rectangle(caixa, radius=8 * esc, fill=fundo, outline=(0, 0, 0), width=3 * esc)
+    y = caixa[1] + 8 * esc
     for l in linhas:
         lw = d.textlength(l, font=fonte)
         d.text(((caixa[0] + caixa[2]) / 2 - lw / 2, y), l, font=fonte, fill=cor_txt)
@@ -257,14 +260,14 @@ def retangulos(regiao, pad=5, area_min=AREA_MINIMA, grande=0.04):
     return m, caixas, formas
 
 
-def _seta_limpa(d, ponta, cauda, larg=8, cabeca=32):
+def _seta_limpa(d, ponta, cauda, larg=8, cabeca=32, esc=1):
     px, py = ponta
     qx, qy = cauda
     ang = np.arctan2(py - qy, px - qx)
     base = (px - cabeca * np.cos(ang), py - cabeca * np.sin(ang))
     esq = (base[0] + cabeca * 0.5 * np.sin(ang), base[1] - cabeca * 0.5 * np.cos(ang))
     dir_ = (base[0] - cabeca * 0.5 * np.sin(ang), base[1] + cabeca * 0.5 * np.cos(ang))
-    for cor, extra in (((30, 30, 30), 8), ((255, 255, 255), 4), (COR_SETA_ANKING, 0)):   # contorno escuro + halo branco: aparece em músculo, osso e fundo
+    for cor, extra in (((30, 30, 30), 8 * esc), ((255, 255, 255), 4 * esc), (COR_SETA_ANKING, 0)):   # contorno escuro + halo branco: aparece em músculo, osso e fundo
         d.line([cauda, base], fill=cor, width=larg + extra)
         d.polygon([(px + extra * np.cos(ang) * 0.7, py + extra * np.sin(ang) * 0.7), esq, dir_], fill=cor)
 
@@ -294,29 +297,33 @@ def overlays(tamanho, regiao_mascara, nome_pt, ponta=None, cauda=None, cobrir=Tr
         by = cauda[1] - bh / 2 + dy / n * bh / 2
         caixa = (int(max(6, min(w - bw - 6, bx))), int(max(6, min(h - bh - 6, by))), 0, 0)
         caixa = (caixa[0], caixa[1], caixa[0] + bw, caixa[1] + bh)
+    S = ESCALA
+    f2, linhas2, bw2, bh2, alt2 = _caixa_texto(nome_pt, tam * S, int(w * 0.36) * S, esc=S)
+    caixa2 = (caixa[0] * S, caixa[1] * S, caixa[0] * S + bw2, caixa[1] * S + bh2)
+    formas2 = np.kron(formas, np.ones((S, S), dtype=bool)) if formas.any() else formas
     out = []
     for lado in ("frente", "verso"):
-        im = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+        im = Image.new("RGBA", (w * S, h * S), (0, 0, 0, 0))
         d = ImageDraw.Draw(im)
         if lado == "frente" and cobrir:
             if formas.any():   # forma da estrutura grande, com borda #2D2D2D de 2 px como os retângulos
                 arr = np.array(im)
-                arr[formas] = (*COR_PERGUNTA, 255)
-                arr[formas & ~_erodir(formas, 3)] = (*BORDA_MASCARA, 255)
+                arr[formas2] = (*COR_PERGUNTA, 255)
+                arr[formas2 & ~_erodir(formas2, 3 * S)] = (*BORDA_MASCARA, 255)
                 im = Image.fromarray(arr)
                 d = ImageDraw.Draw(im)
             for x0, y0, x1, y1 in caixas_m:
-                d.rectangle((x0, y0, x1, y1), fill=(*COR_PERGUNTA, 255), outline=BORDA_MASCARA, width=3)
+                d.rectangle((x0 * S, y0 * S, (x1 + 1) * S - 1, (y1 + 1) * S - 1), fill=(*COR_PERGUNTA, 255), outline=BORDA_MASCARA, width=3 * S)
         if seta:
-            _seta_limpa(d, ponta, cauda)
+            _seta_limpa(d, (ponta[0] * S, ponta[1] * S), (cauda[0] * S, cauda[1] * S), larg=8 * S, cabeca=32 * S, esc=S)
         if lado == "verso":
-            _rotulo(d, caixa, linhas, f, alt, (255, 255, 255), (0, 0, 0))
+            _rotulo(d, caixa2, linhas2, f2, alt2, (255, 255, 255), (0, 0, 0), esc=S)
         buf = io.BytesIO()
         im.save(buf, "PNG", optimize=True)
         out.append(buf.getvalue())
     py, px = int(round(ponta[1])), int(round(ponta[0]))
     viz = regiao[max(0, py - 12):py + 13, max(0, px - 12):px + 13]
     meta = {"ponta": [round(float(ponta[0]), 1), round(float(ponta[1]), 1)], "cauda": [round(float(cauda[0]), 1), round(float(cauda[1]), 1)],
-            "caixa": list(map(int, caixa)), "ponta_na_mascara": bool(viz.any()), "seta": seta, "estilo": "anking",
+            "comprimento_seta": float(((ponta[0] - cauda[0]) ** 2 + (ponta[1] - cauda[1]) ** 2) ** 0.5), "caixa": list(map(int, caixa)), "ponta_na_mascara": bool(viz.any()), "seta": seta, "estilo": "anking",
             "retangulos": len(caixas_m), "formas": int(formas.sum()), "area_mascara": int(regiao.sum()), "ancora": None if ancora is None else [round(float(ancora[0]), 1), round(float(ancora[1]), 1)]}
     return out[0], out[1], meta

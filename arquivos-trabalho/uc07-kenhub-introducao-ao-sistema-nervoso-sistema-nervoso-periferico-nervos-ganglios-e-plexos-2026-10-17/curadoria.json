@@ -44,7 +44,8 @@
    "cobre": [
     "posterior-root-of-spinal-nerve"
    ],
-   "pt": "Raiz posterior"
+   "pt": "Raiz posterior",
+   "seta_ok": true
   }
  ],
  "anking": [
@@ -228,7 +229,7 @@
   },
   {
    "id": "plexo-autonomo",
-   "text_pt": "Os plexos autônomos, no tórax, abdome e pelve, regulam a atividade das {{c1::vísceras}}",
+   "text_pt": "Os plexos {{c1::autônomos}}, no tórax, abdome e pelve, regulam a atividade das vísceras",
    "cobre_texto": [
     "txt:5",
     "resumo:Anatomical components"

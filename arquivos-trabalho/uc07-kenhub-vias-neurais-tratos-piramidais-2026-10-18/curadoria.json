@@ -1,0 +1,368 @@
+{
+ "modulo": "vias-neurais",
+ "unidade": "tratos-piramidais",
+ "unidade_kenhub": "pyramidal-tracts",
+ "deck": "NEBLI::UC07::Vias neurais::Tratos piramidais",
+ "short": "u7760d",
+ "lesson_id": "2026-uc07-vias-neurais-tratos-piramidais",
+ "kenhub_excluir": {},
+ "nome_pt": {},
+ "nome_igual_ok": [],
+ "acervo": [
+  {
+   "nid": 1540252225099,
+   "apos": "posterior-root-of-spinal-nerve",
+   "cobre": [
+    "posterior-root-of-spinal-nerve"
+   ],
+   "pt": "Raiz posterior",
+   "seta_ok": true
+  }
+ ],
+ "anking": [
+  {
+   "nid": 1480389629812,
+   "text_pt": "Os <u>corpos celulares</u> dos <b>neurônios motores superiores</b> ficam <i>principalmente</i> no {{c1::córtex motor primário}} (giro pré-central)",
+   "cobre_texto": [
+    "resumo:Corticospinal tract",
+    "cap:693"
+   ],
+   "extra_pt": "Também há neurônios motores superiores no núcleo rubro, na formação reticular e nos núcleos vestibulares laterais do tronco encefálico."
+  },
+  {
+   "nid": 1480876167497,
+   "text_pt": "O <b>trato corticoespinal</b> fica {{c1::<u>medialmente</u>::medialmente ou lateralmente}} em todo o <u>tronco encefálico</u>",
+   "cobre_texto": [
+    "resumo:Corticospinal tract"
+   ]
+  },
+  {
+   "nid": 1480995244743,
+   "text_pt": "Lesões no <u>tronco encefálico</u> que afetam o <b>{{c1::trato corticoespinal}}</b> causam <b>fraqueza</b> {{c2::<i>contra</i>::<i>ipsi/contra</i>}}<i>lateral</i> do braço e da perna",
+   "cobre_texto": [
+    "resumo:Function"
+   ]
+  },
+  {
+   "nid": 1480389638460,
+   "text_pt": "Os <u>axônios</u> dos <b>neurônios motores superiores</b> dos nervos <i>periféricos</i> estão no <b>trato {{c1::corticoespinal}}</b>",
+   "cobre_texto": [
+    "resumo:Components",
+    "cap:693"
+   ],
+   "extra_pt": "Os axônios dos neurônios motores superiores dos nervos cranianos estão no trato corticobulbar (corticonuclear)."
+  },
+  {
+   "nid": 1480389641277,
+   "text_pt": "As fibras do <u>trato corticoespinal</u> deixam o <b>córtex cerebral</b> pelo ramo {{c2::posterior}} da {{c1::cápsula interna}}",
+   "cobre_texto": [
+    "cap:693",
+    "resumo:Corticospinal tract"
+   ],
+   "extra_pt": "A cápsula interna carrega todos os axônios que entram e saem do córtex."
+  },
+  {
+   "nid": 1480389653921,
+   "text_pt": "Os <b>neurônios motores superiores</b> fazem <i>sinapse</i> com os corpos dos <b>neurônios motores inferiores</b> no corno {{c1::<u>anterior (ventral)</u>}} da medula espinal",
+   "cobre_texto": [
+    "cap:693",
+    "resumo:Corticospinal tract"
+   ]
+  },
+  {
+   "nid": 1480386317587,
+   "text_pt": "Quantos <u>neurônios</u> são necessários na via do <b>trato corticoespinal lateral</b> (movimento muscular voluntário)? {{c1::Dois}} (neurônio motor superior e neurônio motor inferior)",
+   "cobre_texto": [
+    "resumo:Corticospinal tract"
+   ]
+  },
+  {
+   "nid": 1480876279686,
+   "text_pt": "A <b>inervação corticobulbar</b> dos neurônios motores <u>faciais</u> para os músculos da metade {{c1::<u>superior</u>::inferior/superior}} da face é <b>{{c2::bi::uni/bi}}lateral</b>",
+   "cobre_texto": [
+    "cap:3036",
+    "resumo:Function"
+   ],
+   "extra_pt": "Por exemplo: músculos que enrugam a testa e fecham os olhos."
+  },
+  {
+   "nid": 1480876287869,
+   "text_pt": "A <b>inervação corticobulbar</b> dos neurônios motores faciais para os músculos da metade {{c1::<u>inferior</u>::inferior/superior}} da face é <b>{{c2::contra::ipsi/contra}}lateral</b>",
+   "cobre_texto": [
+    "cap:3036",
+    "resumo:Function"
+   ],
+   "extra_pt": "Por exemplo: músculos que sorriem e dilatam as narinas."
+  },
+  {
+   "nid": 1480876298440,
+   "text_pt": "As lesões de {{c3::<b>neurônio motor superior</b>}} do <b>nervo facial</b> causam paralisia {{c2::contra::ipsi/contra}}lateral dos músculos {{c1::<b>inferiores</b>}} da mímica facial",
+   "cobre_texto": [
+    "cap:3036"
+   ],
+   "extra_pt": "Por exemplo: destruição do córtex motor ou da conexão entre o córtex motor e o núcleo do facial. A testa é poupada pela inervação bilateral do neurônio motor superior."
+  },
+  {
+   "nid": 1480876246086,
+   "text_pt": "Os <b>tratos {{c1::corticobulbares}}</b> são a fonte de inervação do <u>neurônio motor superior</u> sobre os neurônios motores inferiores dos núcleos dos nervos cranianos",
+   "cobre_texto": [
+    "cap:3036",
+    "resumo:Components"
+   ],
+   "extra_pt": "Influenciam todos os núcleos do tronco encefálico que inervam músculo esquelético (por exemplo, nervos V, VII, X, XI, XII)."
+  },
+  {
+   "nid": 1481162298898,
+   "text_pt": "Um componente dos <b>núcleos da base</b> é o {{c1::corpo estriado}}, formado pelo {{c2::<b>putâmen</b>::motor}} e pelo {{c2::<b>núcleo caudado</b>::cognitivo}}",
+   "cobre_texto": []
+  },
+  {
+   "nid": 1481162306967,
+   "text_pt": "O <b>globo pálido</b> divide-se em segmento {{c1::<u>interno</u>}} e {{c1::<u>externo</u>}}",
+   "cobre_texto": [],
+   "extra_pt": "Ou seja, globo pálido interno (GPi) e externo (GPe)."
+  },
+  {
+   "nid": 1481162314123,
+   "text_pt": "Um componente dos <u>núcleos da base</u> é a <b>{{c1::substância negra}}</b>, localizada no <b>{{c2::mesencéfalo}}</b> rostral",
+   "cobre_texto": [],
+   "extra_pt": "A substância negra tem duas partes: a parte compacta (libera dopamina) e a parte reticulada (efluente GABAérgico)."
+  },
+  {
+   "nid": 1481162316769,
+   "text_pt": "Os componentes dos <u>núcleos da base</u> localizados no <b>diencéfalo</b> são o <b>globo pálido</b> e o {{c1::<b>núcleo subtalâmico</b>}}",
+   "cobre_texto": []
+  },
+  {
+   "nid": 1480389648940,
+   "text_pt": "Cerca de 80–90% das fibras do <u>trato corticoespinal</u> decussam logo abaixo do {{c2::<b>bulbo caudal</b>}}, na <b>decussação {{c1::piramidal}}</b>",
+   "cobre_texto": [
+    "cap:693",
+    "resumo:Corticospinal tract"
+   ]
+  },
+  {
+   "nid": 1480389673051,
+   "text_pt": "O trato corticoespinal lateral é ascendente ou descendente? {{c1::Descendente}}",
+   "cobre_texto": [
+    "resumo:Corticospinal tract"
+   ]
+  },
+  {
+   "nid": 1480389669820,
+   "text_pt": "O trato {{c1::corticoespinal}}, no encéfalo, é responsável pelo movimento voluntário dos membros {{c2::contra}}laterais",
+   "cobre_texto": [
+    "resumo:Function"
+   ]
+  }
+ ],
+ "cores": {
+  "motor-cortex": "verde",
+  "pons": "azul",
+  "thalamus": "azul",
+  "capsula-interna": "verde",
+  "globus-pallidus": "azul",
+  "putamen": "azul",
+  "claustrum": "rosa",
+  "corticobulbar-tract": "verde",
+  "caudate-nucleus": "azul",
+  "mesencephalon-2": "azul",
+  "aqueductus-cerebri": "rosa",
+  "periaqueductal-gray": "rosa",
+  "substantia-nigra": "azul",
+  "cerebral-peduncle": "verde",
+  "superior-part-of-medulla-oblongata": "rosa",
+  "nuclei-olivares": "rosa",
+  "inferior-part-of-medulla-oblongata": "rosa",
+  "pyramidal-decussation": "verde",
+  "lateral-corticospinal-tract": "verde",
+  "anterior-corticospinal-tract": "verde",
+  "medulla-spinalis": "azul",
+  "posterior-root-of-spinal-nerve": "azul",
+  "anterior-root-of-spinal-nerve": "azul",
+  "nervus-spinalis": "azul"
+ },
+ "texto": [
+  {
+   "id": "v8-comp",
+   "text_pt": "O trato piramidal tem dois componentes: o trato {{c1::corticoespinal}} e o trato corticonuclear",
+   "cobre_texto": [
+    "resumo:Components"
+   ]
+  },
+  {
+   "id": "v8-cs-origem",
+   "text_pt": "O trato corticoespinal origina-se de neurônios motores superiores do {{c1::córtex motor primário}}",
+   "cobre_texto": [
+    "resumo:Corticospinal tract",
+    "cap:693"
+   ]
+  },
+  {
+   "id": "v8-cs-coroa",
+   "text_pt": "As fibras do trato corticoespinal formam a {{c1::coroa radiada}} e convergem para a cápsula interna",
+   "cobre_texto": [
+    "resumo:Corticospinal tract",
+    "cap:693"
+   ]
+  },
+  {
+   "id": "v8-cs-trajeto",
+   "text_pt": "O trato corticoespinal passa pelo pedúnculo cerebral, pela ponte e pelas {{c1::pirâmides}} do bulbo",
+   "cobre_texto": [
+    "resumo:Corticospinal tract",
+    "cap:693"
+   ]
+  },
+  {
+   "id": "v8-cs-nome",
+   "text_pt": "As {{c1::pirâmides}} do bulbo dão nome ao trato piramidal",
+   "cobre_texto": [
+    "cap:693"
+   ]
+  },
+  {
+   "id": "v8-cs-decussacao",
+   "text_pt": "Na parte caudal do bulbo, cerca de {{c1::90%}} das fibras corticoespinais cruzam para o lado oposto (decussação das pirâmides)",
+   "cobre_texto": [
+    "resumo:Corticospinal tract",
+    "cap:693"
+   ]
+  },
+  {
+   "id": "v8-cs-lateral",
+   "text_pt": "As fibras corticoespinais que cruzam continuam como trato corticoespinal {{c1::lateral}}",
+   "cobre_texto": [
+    "resumo:Corticospinal tract",
+    "cap:693"
+   ]
+  },
+  {
+   "id": "v8-cs-anterior",
+   "text_pt": "Cerca de {{c1::10%}} das fibras corticoespinais permanecem do mesmo lado e descem como trato corticoespinal anterior",
+   "cobre_texto": [
+    "resumo:Corticospinal tract",
+    "cap:693"
+   ]
+  },
+  {
+   "id": "v8-cs-anterior-cruza",
+   "text_pt": "As fibras do trato corticoespinal anterior também {{c1::cruzam}} (decussam), mas em níveis medulares próximos ao destino",
+   "cobre_texto": [
+    "cap:693"
+   ]
+  },
+  {
+   "id": "v8-cs-funiculos",
+   "text_pt": "O trato corticoespinal lateral desce no funículo {{c1::lateral}} da medula espinal; o anterior, no funículo anterior",
+   "cobre_texto": [
+    "resumo:Corticospinal tract"
+   ]
+  },
+  {
+   "id": "v8-cs-sinapse",
+   "text_pt": "Os neurônios motores superiores do trato corticoespinal fazem sinapse com os neurônios motores inferiores no corno {{c1::anterior}} da medula espinal",
+   "cobre_texto": [
+    "resumo:Corticospinal tract",
+    "cap:693"
+   ]
+  },
+  {
+   "id": "v8-cs-saida",
+   "text_pt": "Os neurônios motores inferiores saem da medula espinal pela raiz {{c1::anterior}} e formam nervos que inervam os músculos do tronco e dos membros",
+   "cobre_texto": [
+    "resumo:Corticospinal tract",
+    "cap:693"
+   ]
+  },
+  {
+   "id": "v8-cs-membros",
+   "text_pt": "O trato corticoespinal lateral controla os músculos dos {{c1::membros}}; o trato corticoespinal anterior, os do tronco",
+   "cobre_texto": [
+    "resumo:Corticospinal tract",
+    "resumo:Function"
+   ]
+  },
+  {
+   "id": "v8-fun-cs",
+   "text_pt": "O trato corticoespinal controla o movimento voluntário dos músculos dos membros e do {{c1::tronco}}",
+   "cobre_texto": [
+    "resumo:Function"
+   ]
+  },
+  {
+   "id": "v8-fun-cn",
+   "text_pt": "O trato corticonuclear controla o movimento voluntário dos músculos da face, da cabeça e do {{c1::pescoço}}",
+   "cobre_texto": [
+    "resumo:Function"
+   ]
+  },
+  {
+   "id": "v8-cn-origem",
+   "text_pt": "O trato corticonuclear origina-se da região do córtex motor primário em que a cabeça e a face são representadas no {{c1::homúnculo}} motor",
+   "cobre_texto": [
+    "cap:3036",
+    "resumo:Corticonuclear tract"
+   ]
+  },
+  {
+   "id": "v8-cn-trajeto",
+   "text_pt": "O trato corticonuclear segue o trajeto do corticoespinal pelo ramo posterior e pelo {{c1::joelho}} da cápsula interna",
+   "cobre_texto": [
+    "cap:3036",
+    "resumo:Corticonuclear tract"
+   ]
+  },
+  {
+   "id": "v8-cn-sinapse",
+   "text_pt": "O trato corticonuclear faz sinapse com os núcleos motores dos nervos cranianos do mesencéfalo, da ponte e do {{c1::bulbo}}",
+   "cobre_texto": [
+    "cap:3036",
+    "resumo:Corticonuclear tract"
+   ]
+  },
+  {
+   "id": "v8-cn-nervos",
+   "text_pt": "Os núcleos motores alcançados diretamente pelo trato corticonuclear incluem os dos nervos facial (VII), trigêmeo (V), glossofaríngeo (IX) e {{c1::acessório (XI)}}",
+   "cobre_texto": [
+    "cap:3036"
+   ]
+  },
+  {
+   "id": "v8-cn-indireto",
+   "text_pt": "O trato corticonuclear controla indiretamente os núcleos dos nervos III, IV e VI por meio do fascículo longitudinal {{c1::medial}} e da formação reticular",
+   "cobre_texto": [
+    "cap:3036"
+   ]
+  },
+  {
+   "id": "v8-cn-mesencefalo",
+   "text_pt": "No mesencéfalo, o trato corticonuclear alcança os núcleos motores dos nervos oculomotor (III), troclear (IV) e {{c1::abducente (VI)}}",
+   "cobre_texto": [
+    "resumo:Corticonuclear tract"
+   ]
+  },
+  {
+   "id": "v8-cn-ponte",
+   "text_pt": "Na ponte, o trato corticonuclear alcança os núcleos motores dos nervos facial (VII) e {{c1::trigêmeo (V)}}",
+   "cobre_texto": [
+    "resumo:Corticonuclear tract"
+   ]
+  },
+  {
+   "id": "v8-cn-bulbo",
+   "text_pt": "No bulbo, o trato corticonuclear alcança os núcleos motores dos nervos glossofaríngeo (IX) e {{c1::acessório (XI)}}",
+   "cobre_texto": [
+    "resumo:Corticonuclear tract"
+   ]
+  },
+  {
+   "id": "v8-cn-nmi",
+   "text_pt": "No núcleo motor do nervo craniano, o neurônio motor superior faz sinapse com o neurônio motor {{c1::inferior}}, que inerva os músculos da face, da cabeça e do pescoço",
+   "cobre_texto": [
+    "cap:3036"
+   ]
+  }
+ ],
+ "netter": []
+}

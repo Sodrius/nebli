@@ -15,7 +15,8 @@
    "cobre": [
     "posterior-root-of-spinal-nerve"
    ],
-   "pt": "Raiz posterior"
+   "pt": "Raiz posterior",
+   "seta_ok": true
   },
   {
    "nid": 1540252178114,
@@ -23,15 +24,8 @@
    "cobre": [
     "anterior-root-of-spinal-nerve"
    ],
-   "pt": "Raiz anterior"
-  },
-  {
-   "nid": 1540252309361,
-   "apos": "ganglion-of-sympathetic-trunk",
-   "cobre": [
-    "ganglion-of-sympathetic-trunk"
-   ],
-   "pt": "Tronco simpático"
+   "pt": "Raiz anterior",
+   "seta_ok": true
   },
   {
    "nid": 1549136432215,
@@ -39,7 +33,8 @@
    "cobre": [
     "gray-ramus-communicans"
    ],
-   "pt": "Ramo comunicante cinzento"
+   "pt": "Ramo comunicante cinzento",
+   "seta_ok": true
   }
  ],
  "anking": [
@@ -171,7 +166,7 @@
    ]
   },
   {
-   "id": "funcao",
+   "id": "nervos-espinais-funcao",
    "text_pt": "Os nervos espinais transmitem informação aferente (sensitiva) e eferente (motora/autonômica) entre a periferia e o sistema nervoso {{c1::central}}",
    "cobre_texto": [
     "txt:1"
@@ -179,14 +174,14 @@
   },
   {
    "id": "somatico",
-   "text_pt": "Os neurônios somáticos dos nervos espinais relacionam-se à pele, ao músculo esquelético, aos tendões e às {{c1::articulações}}",
+   "text_pt": "Os neurônios {{c1::somáticos}} dos nervos espinais relacionam-se à pele, ao músculo esquelético, aos tendões e às articulações",
    "cobre_texto": [
     "txt:1"
    ]
   },
   {
    "id": "visceral",
-   "text_pt": "Os neurônios viscerais dos nervos espinais relacionam-se aos órgãos internos, ao músculo liso, ao músculo cardíaco e às {{c1::glândulas}}",
+   "text_pt": "Os neurônios {{c1::viscerais}} dos nervos espinais relacionam-se aos órgãos internos, ao músculo liso, ao músculo cardíaco e às glândulas",
    "cobre_texto": [
     "txt:1"
    ]
@@ -203,38 +198,6 @@
    "text_pt": "Cada nervo espinal origina-se da medula, dentro do canal vertebral, como {{c1::filamentos radiculares}} anteriores e posteriores (6 a 8 de cada)",
    "cobre_texto": [
     "txt:2",
-    "obj:1"
-   ]
-  },
-  {
-   "id": "raizes-formacao",
-   "text_pt": "Os filamentos radiculares anteriores e posteriores se reúnem e formam as {{c1::raízes}} anterior e posterior",
-   "cobre_texto": [
-    "txt:2",
-    "obj:1"
-   ]
-  },
-  {
-   "id": "raiz-anterior",
-   "text_pt": "As raízes anteriores contêm fibras nervosas {{c1::eferentes}} (motoras e autonômicas)",
-   "cobre_texto": [
-    "txt:2",
-    "resumo:Formation"
-   ]
-  },
-  {
-   "id": "raiz-posterior",
-   "text_pt": "As raízes posteriores contêm prolongamentos de neurônios {{c1::aferentes}} (sensitivos)",
-   "cobre_texto": [
-    "txt:2",
-    "resumo:Formation"
-   ]
-  },
-  {
-   "id": "nervo-misto",
-   "text_pt": "A união da raiz anterior (eferente) com a raiz posterior (aferente) forma um nervo espinal {{c1::misto}}",
-   "cobre_texto": [
-    "resumo:Formation",
     "obj:1"
    ]
   },
@@ -265,7 +228,7 @@
   },
   {
    "id": "inervacao-geral",
-   "text_pt": "Os ramos dos nervos espinais fornecem inervação cutânea, motora e {{c1::autonômica}} aos músculos e à pele do pescoço, tronco e membros",
+   "text_pt": "Os ramos dos nervos espinais fornecem inervação {{c1::cutânea}}, {{c2::motora}} e {{c3::autonômica}} aos músculos e à pele do pescoço, tronco e membros",
    "cobre_texto": [
     "txt:3",
     "obj:3"
@@ -282,7 +245,7 @@
   },
   {
    "id": "posterior-supre",
-   "text_pt": "O ramo posterior inerva os músculos {{c1::profundos}} do dorso e uma faixa estreita de pele sobrejacente",
+   "text_pt": "O ramo {{c1::posterior}} do nervo espinal inerva os músculos profundos do dorso e uma faixa estreita de pele sobrejacente",
    "cobre_texto": [
     "resumo:Supply area",
     "cap:441",
@@ -291,7 +254,7 @@
   },
   {
    "id": "anterior-supre",
-   "text_pt": "O ramo anterior fornece inervação motora (somática ou visceral) ao resto do corpo do nível segmentar, incluindo os {{c1::membros}}",
+   "text_pt": "O ramo {{c1::anterior}} do nervo espinal fornece inervação motora (somática ou visceral) ao resto do corpo do nível segmentar, incluindo os membros",
    "cobre_texto": [
     "resumo:Supply area",
     "cap:441",
@@ -401,18 +364,11 @@
    "cobre_texto": [
     "cap:1099"
    ],
-   "extra_pt": "Elas suprem os membros superiores e inferiores, respectivamente."
+   "extra_pt": "Elas suprem os membros superiores e inferiores, respectivamente. Em outra figura do atlas os limites são C3–T2 e L1–S3."
   },
   {
    "id": "intumescencia-lombo",
    "text_pt": "A intumescência lombossacral corresponde aos segmentos medulares {{c1::L2}} a {{c2::S3}}",
-   "cobre_texto": [
-    "cap:1099"
-   ]
-  },
-  {
-   "id": "medula-curta",
-   "text_pt": "A medula espinal é mais curta que a coluna vertebral e termina no cone medular, no nível das vértebras {{c1::L1/L2}}",
    "cobre_texto": [
     "cap:1099"
    ]

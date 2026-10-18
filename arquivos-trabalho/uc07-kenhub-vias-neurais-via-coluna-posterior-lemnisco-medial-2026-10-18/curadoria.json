@@ -1,0 +1,319 @@
+{
+ "modulo": "vias-neurais",
+ "unidade": "via-coluna-posterior-lemnisco-medial",
+ "unidade_kenhub": "posterior-column-medial-lemniscus-pathway",
+ "deck": "NEBLI::UC07::Vias neurais::Via coluna posterior-lemnisco medial",
+ "short": "u70588",
+ "lesson_id": "2026-uc07-vias-neurais-via-coluna-posterior-lemnisco-medial",
+ "kenhub_excluir": {},
+ "nome_pt": {
+  "touch-pressure-and-vibration-fibers-to-the-cervical-spinal-cord": "Fibras de tato, pressão e vibração (cervicais)",
+  "proprioception-and-position-fibers-to-the-lumbar-spinal-cold": "Fibras proprioceptivas e de posição (lombares)"
+ },
+ "nome_igual_ok": [],
+ "acervo": [],
+ "anking": [
+  {
+   "nid": 1481418697758,
+   "text_pt": "Qual é o <u>destino</u> do <b>núcleo ventral póstero-lateral</b> (VPL) do tálamo? {{c1::Área somestésica primária}}",
+   "cobre_texto": [
+    "resumo:Pathway"
+   ]
+  },
+  {
+   "nid": 1480477416642,
+   "text_pt": "O {{c2::<u>2º</u>}}<u> neurônio</u> da <b>via coluna posterior–lemnisco medial</b> sobe {{c1::<u>contra</u>}}<u>lateralmente</u> no <b>lemnisco medial</b> (tronco encefálico e acima)",
+   "cobre_texto": [
+    "resumo:Pathway",
+    "cap:714"
+   ]
+  },
+  {
+   "nid": 1480477410104,
+   "text_pt": "O {{c2::<u>2º</u>}}<u> neurônio</u> da <b>via coluna posterior–lemnisco medial</b> <i>decussa</i> no {{c1::bulbo caudal}}",
+   "cobre_texto": [
+    "resumo:Pathway",
+    "cap:714"
+   ]
+  },
+  {
+   "nid": 1480477428310,
+   "text_pt": "Os <u>2º neurônios</u> da <b>via coluna posterior–lemnisco medial</b> fazem sinapse no <b>núcleo {{c1::ventral póstero-lateral (VPL)}}</b> do <b>{{c2::tálamo}}</b>",
+   "cobre_texto": [
+    "resumo:Pathway",
+    "cap:714"
+   ]
+  },
+  {
+   "nid": 1480477393118,
+   "text_pt": "Os <u>1º neurônios</u> da <b>via coluna posterior–lemnisco medial</b> são <b>terminações nervosas sensitivas</b> com corpos celulares no {{c1::gânglio da raiz dorsal}}",
+   "cobre_texto": [
+    "resumo:Pathway",
+    "cap:714"
+   ]
+  },
+  {
+   "nid": 1480477434255,
+   "text_pt": "O <u>3º neurônio</u> da <b>via coluna posterior–lemnisco medial</b> vai para a {{c1::área somestésica primária}} (giro pós-central)",
+   "cobre_texto": [
+    "resumo:Pathway",
+    "cap:714"
+   ],
+   "extra_pt": "Fica na parte mais anterior do lobo parietal."
+  },
+  {
+   "nid": 1480474914612,
+   "text_pt": "Quantos <u>neurônios</u> são necessários na <b>via coluna posterior–lemnisco medial</b>? {{c1::Três}}",
+   "cobre_texto": [
+    "cap:714"
+   ]
+  },
+  {
+   "nid": 1480477404374,
+   "text_pt": "O <b>núcleo cuneiforme</b> e o <b>núcleo grácil</b> ficam no {{c1::bulbo caudal}}",
+   "cobre_texto": [
+    "resumo:Pathway",
+    "cap:714"
+   ]
+  },
+  {
+   "nid": 1480875974012,
+   "text_pt": "Os <u>axônios</u> do <b>núcleo grácil</b> e do <b>cuneiforme</b> são chamados de <b>fibras {{c1::arqueadas internas}}</b> <i>antes de decussar</i>",
+   "cobre_texto": [
+    "resumo:Pathway",
+    "cap:714"
+   ],
+   "extra_pt": "Depois da decussação, essas fibras formam o lemnisco medial."
+  },
+  {
+   "nid": 1480876126019,
+   "text_pt": "O <b>lemnisco medial</b> fica <i>inicialmente</i> {{c1::<u>medialmente</u>::medialmente ou lateralmente}} no <b>bulbo caudal</b>",
+   "cobre_texto": [
+    "resumo:Pathway"
+   ],
+   "extra_pt": "Segue lateralmente para encontrar o trato espinotalâmico; ambos vão ao núcleo VPL do tálamo."
+  },
+  {
+   "nid": 1480876130933,
+   "text_pt": "O <b>lemnisco medial</b> fica mais {{c1::<u>lateral</u>::medialmente ou lateralmente}} ao subir pelo <b>mesencéfalo</b>",
+   "cobre_texto": [
+    "resumo:Pathway"
+   ],
+   "extra_pt": "Segue lateralmente para encontrar o trato espinotalâmico; ambos vão ao núcleo VPL do tálamo."
+  },
+  {
+   "nid": 1480995247761,
+   "text_pt": "Lesões no <u>tronco encefálico</u> que afetam o <b>{{c1::lemnisco medial}}</b> causam perda {{c2::contra}}lateral da <b>sensibilidade vibratória</b> e da <b>propriocepção</b> no braço e na perna",
+   "cobre_texto": [
+    "resumo:Function"
+   ]
+  },
+  {
+   "nid": 1481513127112,
+   "text_pt": "O giro {{c1::pós}}-central é a área {{c2::somestésica}} primária (lobo parietal)",
+   "cobre_texto": []
+  },
+  {
+   "nid": 1480477461307,
+   "text_pt": "O fascículo {{c2::cuneiforme}} carrega a informação dos níveis medulares {{c1::T5}} e acima",
+   "cobre_texto": [
+    "resumo:Pathway"
+   ]
+  },
+  {
+   "nid": 1480477387212,
+   "text_pt": "O trato {{c5::coluna posterior–lemnisco medial}} transmite informação de {{c1::pressão}}, {{c2::vibração}}, {{c3::tato fino}} (discriminativo) e {{c4::propriocepção}}",
+   "cobre_texto": [
+    "resumo:Function"
+   ]
+  },
+  {
+   "nid": 1480477444170,
+   "text_pt": "O fascículo {{c2::grácil}} é a coluna posterior {{c1::medial::medial ou lateral}}",
+   "cobre_texto": [
+    "resumo:Pathway"
+   ]
+  },
+  {
+   "nid": 1480477451956,
+   "text_pt": "O fascículo {{c2::cuneiforme}} é a coluna posterior {{c1::lateral::medial ou lateral}}",
+   "cobre_texto": [
+    "resumo:Pathway"
+   ]
+  }
+ ],
+ "cores": {
+  "gyrus-postcentralis": "verde",
+  "ventral-posterolateral-nucleus": "verde",
+  "posterior-column-medial-lemniscus-pathway": "verde",
+  "mesencephalon-2": "azul",
+  "medial-lemniscus": "verde",
+  "periaqueductal-gray": "rosa",
+  "substantia-nigra": "rosa",
+  "cerebral-peduncle": "azul",
+  "touch-pressure-and-vibration-fibers-to-the-cervical-spinal-cord": "azul",
+  "superior-part-of-medulla-oblongata": "rosa",
+  "gracile-nucleus": "verde",
+  "cuneate-nucleus": "verde",
+  "internal-arcuate-fibers": "verde",
+  "proprioception-and-position-fibers-to-the-lumbar-spinal-cold": "azul",
+  "proprioception-and-position-fibers-to-the-cervical-spinal-cord": "azul",
+  "cuneate-fasciculus": "verde",
+  "fasciculus-gracilis": "verde",
+  "cervical-part-of-spinal-cord": "azul",
+  "lateral-cervical-nucleus": "rosa",
+  "spinocervical-tract": "rosa",
+  "ganglion-spinale": "verde",
+  "lumbar-part-of-spinal-cord": "azul"
+ },
+ "texto": [
+  {
+   "id": "v9-comp",
+   "text_pt": "A via coluna posterior–lemnisco medial tem a coluna posterior, na {{c1::medula espinal}}, e o lemnisco medial, no tronco encefálico",
+   "cobre_texto": [
+    "resumo:Components"
+   ]
+  },
+  {
+   "id": "v9-comp-lemnisco",
+   "text_pt": "O lemnisco medial é o componente da via que fica no {{c1::tronco encefálico}}",
+   "cobre_texto": [
+    "resumo:Components"
+   ]
+  },
+  {
+   "id": "v9-funcao",
+   "text_pt": "A via coluna posterior–lemnisco medial transmite {{c1::tato fino}}, vibração, propriocepção e pressão, da pele e das articulações",
+   "cobre_texto": [
+    "resumo:Function"
+   ]
+  },
+  {
+   "id": "v9-p-receptores",
+   "text_pt": "Na via coluna posterior–lemnisco medial, os receptores sensitivos periféricos enviam a informação ao {{c1::gânglio espinal}}",
+   "cobre_texto": [
+    "resumo:Pathway"
+   ]
+  },
+  {
+   "id": "v9-p-fasciculos",
+   "text_pt": "Do gânglio espinal, a informação sobe pelo fascículo grácil ou pelo fascículo {{c1::cuneiforme}}",
+   "cobre_texto": [
+    "resumo:Pathway"
+   ]
+  },
+  {
+   "id": "v9-p-nucleos",
+   "text_pt": "Os fascículos grácil e cuneiforme terminam nos núcleos grácil e {{c1::cuneiforme}}, no bulbo",
+   "cobre_texto": [
+    "resumo:Pathway"
+   ]
+  },
+  {
+   "id": "v9-p-arqueadas",
+   "text_pt": "Os axônios dos núcleos grácil e cuneiforme formam as fibras arqueadas internas, que {{c1::decussam}}",
+   "cobre_texto": [
+    "resumo:Pathway"
+   ]
+  },
+  {
+   "id": "v9-p-lemnisco",
+   "text_pt": "Depois da decussação, as fibras formam o {{c1::lemnisco medial}}",
+   "cobre_texto": [
+    "resumo:Pathway"
+   ]
+  },
+  {
+   "id": "v9-p-talamo",
+   "text_pt": "O lemnisco medial termina no núcleo ventral póstero-lateral do {{c1::tálamo}}",
+   "cobre_texto": [
+    "resumo:Pathway"
+   ]
+  },
+  {
+   "id": "v9-p-cortex",
+   "text_pt": "Do tálamo, a via segue para a {{c1::área somestésica}} primária (giro pós-central)",
+   "cobre_texto": [
+    "resumo:Pathway"
+   ]
+  },
+  {
+   "id": "v9-n-tres",
+   "text_pt": "Na via, há três grupos de neurônios: de primeira, de segunda e de {{c1::terceira}} ordem",
+   "cobre_texto": [
+    "cap:714"
+   ]
+  },
+  {
+   "id": "v9-n-corpos",
+   "text_pt": "Os corpos dos neurônios de primeira ordem ficam no gânglio espinal, na raiz {{c1::posterior}} de cada nervo espinal",
+   "cobre_texto": [
+    "cap:714"
+   ]
+  },
+  {
+   "id": "v9-n-entrada",
+   "text_pt": "Os prolongamentos centrais dos neurônios de primeira ordem entram na medula pela parte {{c1::medial}} da zona de entrada da raiz posterior",
+   "cobre_texto": [
+    "cap:714"
+   ]
+  },
+  {
+   "id": "v9-n-ipsi",
+   "text_pt": "Os neurônios de primeira ordem sobem sem fazer sinapse, no funículo posterior do {{c1::mesmo}} lado",
+   "cobre_texto": [
+    "cap:714"
+   ]
+  },
+  {
+   "id": "v9-n-fasciculos",
+   "text_pt": "O fascículo grácil leva informação dos membros {{c1::inferiores}}; o fascículo cuneiforme, dos superiores",
+   "cobre_texto": [
+    "cap:714"
+   ]
+  },
+  {
+   "id": "v9-n-lombossacrais",
+   "text_pt": "As fibras do membro inferior entram pelos gânglios espinais {{c1::lombossacrais}} e já sobem no fascículo grácil no nível cervical",
+   "cobre_texto": [
+    "cap:714"
+   ]
+  },
+  {
+   "id": "v9-n-segunda",
+   "text_pt": "Os fascículos grácil e cuneiforme terminam no bulbo caudal, em sinapse com os neurônios de {{c1::segunda}} ordem dos núcleos grácil e cuneiforme",
+   "cobre_texto": [
+    "cap:714"
+   ]
+  },
+  {
+   "id": "v9-n-decussacao",
+   "text_pt": "A decussação da via ocorre no bulbo caudal, nas fibras arqueadas internas, e dá origem ao {{c1::lemnisco medial}}",
+   "cobre_texto": [
+    "cap:714"
+   ]
+  },
+  {
+   "id": "v9-n-terceira",
+   "text_pt": "No tálamo, o lemnisco medial faz sinapse com os neurônios de {{c1::terceira}} ordem do núcleo ventral póstero-lateral",
+   "cobre_texto": [
+    "cap:714"
+   ]
+  },
+  {
+   "id": "v9-n-capsula",
+   "text_pt": "Os axônios dos neurônios de terceira ordem passam pelo ramo {{c1::posterior}} da cápsula interna até o córtex somestésico primário",
+   "cobre_texto": [
+    "cap:714"
+   ]
+  },
+  {
+   "id": "v9-n-homunculo",
+   "text_pt": "No giro pós-central, a sensibilidade é mapeada de modo somatotópico, no homúnculo {{c1::sensitivo}}",
+   "cobre_texto": [
+    "cap:714"
+   ]
+  }
+ ],
+ "netter": []
+}
