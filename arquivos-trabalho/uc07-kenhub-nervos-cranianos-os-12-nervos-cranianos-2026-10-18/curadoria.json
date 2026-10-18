@@ -1,0 +1,697 @@
+{
+ "modulo": "nervos-cranianos",
+ "unidade": "os-12-nervos-cranianos",
+ "unidade_kenhub": "overview-of-cranial-nerves",
+ "deck": "NEBLI::UC07::Nervos cranianos::Os 12 nervos cranianos",
+ "short": "u7b9fc",
+ "lesson_id": "2026-uc07-nervos-cranianos-os-12-nervos-cranianos",
+ "kenhub_excluir": {},
+ "nome_pt": {},
+ "nome_igual_ok": [],
+ "acervo": [],
+ "anking": [
+  {
+   "nid": 1480634591735,
+   "text_pt": "O <b>nervo craniano {{c1::I}}</b> é o <b>nervo {{c2::olfatório}}</b>",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "nid": 1480639873083,
+   "text_pt": "Qual é o <u>tipo</u> do <b>nervo craniano</b> <b>olfatório</b> (I)? {{c1::Sensitivo::motor, sensitivo ou ambos}}",
+   "cobre_texto": [
+    "resumo:12 cranial nerves",
+    "cap:2658"
+   ],
+   "extra_pt": "Mnemônico (inglês): “Some Say Marry Money But My Brother Says Big Brains Matter Most” (S = sensitivo, M = motor, B = ambos)."
+  },
+  {
+   "nid": 1480639882248,
+   "text_pt": "Qual é a <u>função</u> do <b>nervo craniano I</b> (olfatório)? {{c1::Olfato}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "nid": 1480639909177,
+   "text_pt": "Lesões do <b>nervo craniano </b>{{c1::<b>II</b> (óptico)}} causam perda do <u>ramo sensitivo</u> do <b>reflexo luminoso</b>",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "nid": 1480639898674,
+   "text_pt": "Qual é o <u>tipo</u> do <b>nervo craniano</b> <b>óptico</b> (II)? {{c1::Sensitivo::motor, sensitivo ou ambos}}",
+   "cobre_texto": [
+    "resumo:12 cranial nerves",
+    "cap:2658"
+   ],
+   "extra_pt": "Mnemônico (inglês): “Some Say Marry Money But My Brother Says Big Brains Matter Most” (S = sensitivo, M = motor, B = ambos)."
+  },
+  {
+   "nid": 1480639894881,
+   "text_pt": "O <b>nervo craniano {{c1::II}}</b> é o <b>nervo {{c2::óptico}}</b>",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "nid": 1480640067039,
+   "text_pt": "Lesões do <b>nervo craniano </b>{{c1::<b>III</b> (oculomotor)}} causam perda do <u>ramo motor</u> do <b>reflexo luminoso</b>",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "nid": 1480639918685,
+   "text_pt": "Qual é o <u>tipo</u> do <b>nervo craniano</b> <b>oculomotor</b> (III)? {{c1::Motor::motor, sensitivo ou ambos}}",
+   "cobre_texto": [
+    "resumo:12 cranial nerves",
+    "cap:2658"
+   ],
+   "extra_pt": "Mnemônico (inglês): “Some Say Marry Money But My Brother Says Big Brains Matter Most” (S = sensitivo, M = motor, B = ambos)."
+  },
+  {
+   "nid": 1480639915317,
+   "text_pt": "O <b>nervo craniano {{c1::III}}</b> é o <b>nervo {{c2::oculomotor}}</b>",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "nid": 1481244550452,
+   "text_pt": "Qual <u>nervo craniano</u> é responsável pelo <b>ramo <i>eferente</i></b> do <b>reflexo pupilar à luz</b>? {{c1::Nervo III (oculomotor)}}",
+   "cobre_texto": [
+    "cap:2658"
+   ],
+   "extra_pt": "Já o nervo II (óptico) é responsável pelo ramo aferente."
+  },
+  {
+   "nid": 1480639948735,
+   "text_pt": "Qual <u>nervo craniano</u> inerva o músculo <b>oblíquo inferior</b>? {{c1::Nervo III (oculomotor)}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "nid": 1480639926790,
+   "text_pt": "Qual <u>nervo craniano</u> inerva o músculo <b>reto superior</b>? {{c1::Nervo III (oculomotor)}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "nid": 1480640102378,
+   "text_pt": "Qual é o <u>tipo</u> do <b>nervo craniano</b> <b>troclear</b> (IV)? {{c1::Motor::motor, sensitivo ou ambos}}",
+   "cobre_texto": [
+    "resumo:12 cranial nerves",
+    "cap:2658"
+   ],
+   "extra_pt": "Mnemônico (inglês): “Some Say Marry Money But My Brother Says Big Brains Matter Most” (S = sensitivo, M = motor, B = ambos)."
+  },
+  {
+   "nid": 1480640099641,
+   "text_pt": "O <b>nervo craniano {{c1::IV}}</b> é o <b>nervo {{c2::troclear}}</b>",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "nid": 1480640109659,
+   "text_pt": "O <b>nervo craniano </b>{{c2::<b>IV</b> (troclear)}} contribui para o <u>movimento do olho</u> pela inervação do músculo {{c1::<b>oblíquo superior</b>}}",
+   "cobre_texto": [
+    "cap:2658"
+   ],
+   "extra_pt": "Mnemônico (inglês): “LR6, SO4, all the rest 3” (reto lateral: VI; oblíquo superior: IV; os demais: III)."
+  },
+  {
+   "nid": 1480640282228,
+   "text_pt": "O <b>nervo craniano {{c1::V}}</b> é o <b>nervo {{c2::trigêmeo}}</b>",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "nid": 1480640319770,
+   "text_pt": "Qual ramo do <u>nervo trigêmeo</u> dá <i>sensibilidade geral</i> à <b>mandíbula</b> e aos <b>dentes inferiores</b>? {{c1::Mandibular (V3)}}",
+   "cobre_texto": [
+    "cap:2658"
+   ],
+   "extra_pt": "Passa pelo forame mentual."
+  },
+  {
+   "nid": 1480640167282,
+   "text_pt": "Qual é o <u>tipo</u> do <b>nervo craniano </b><b>abducente</b> (VI)? {{c1::Motor::motor, sensitivo ou ambos}}",
+   "cobre_texto": [
+    "resumo:12 cranial nerves",
+    "cap:2658"
+   ],
+   "extra_pt": "Mnemônico (inglês): “Some Say Marry Money But My Brother Says Big Brains Matter Most” (S = sensitivo, M = motor, B = ambos)."
+  },
+  {
+   "nid": 1480640164088,
+   "text_pt": "O <b>nervo craniano {{c1::VI}}</b> é o <b>nervo {{c2::abducente}}</b>",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "nid": 1480640178545,
+   "text_pt": "O <b>nervo craniano </b>{{c2::<b>VI</b> (abducente)}} contribui para o <u>movimento do olho</u> pela inervação do músculo {{c1::<b>reto lateral</b>}}",
+   "cobre_texto": [
+    "cap:2658"
+   ],
+   "extra_pt": "Mnemônico (inglês): “LR6, SO4, all the rest 3” (reto lateral: VI; oblíquo superior: IV; os demais: III)."
+  },
+  {
+   "nid": 1480640407300,
+   "text_pt": "Qual é o <u>tipo</u> do <b>nervo craniano</b> <b>vestibulococlear</b> (VIII)? {{c1::Sensitivo::motor, sensitivo ou ambos}}",
+   "cobre_texto": [
+    "resumo:12 cranial nerves",
+    "cap:2658"
+   ],
+   "extra_pt": "Mnemônico (inglês): “Some Say Marry Money But My Brother Says Big Brains Matter Most” (S = sensitivo, M = motor, B = ambos)."
+  },
+  {
+   "nid": 1480640404290,
+   "text_pt": "O <b>nervo craniano {{c1::VIII}}</b> é o <b>nervo {{c2::vestibulococlear}}</b>",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "nid": 1480640413559,
+   "text_pt": "Quais são as <u>funções</u> do <b>nervo craniano VIII</b> (vestibulococlear)? {{c1::Audição e equilíbrio::2}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "nid": 1480640416381,
+   "text_pt": "Lesões do <b>nervo craniano </b>{{c1::<b>VIII</b> (vestibulococlear)}} podem causar <b>perda auditiva neurossensorial</b> e <b>perda de equilíbrio</b>",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "nid": 1480640451486,
+   "text_pt": "O <b>nervo craniano {{c1::IX}}</b> é o <b>nervo {{c2::glossofaríngeo}}</b>",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "nid": 1480640454772,
+   "text_pt": "Qual é o <u>tipo</u> do <b>nervo craniano</b> <b>glossofaríngeo</b> (IX)? {{c1::Ambos (motor e sensitivo)::motor, sensitivo ou ambos}}",
+   "cobre_texto": [
+    "resumo:12 cranial nerves",
+    "cap:2658"
+   ],
+   "extra_pt": "Mnemônico (inglês): “Some Say Marry Money But My Brother Says Big Brains Matter Most” (S = sensitivo, M = motor, B = ambos)."
+  },
+  {
+   "nid": 1480640476224,
+   "text_pt": "O <b>nervo craniano </b>{{c2::<b>IX</b> (glossofaríngeo)}} fornece inervação motora ao músculo {{c1::<b>estilofaríngeo</b>}}",
+   "cobre_texto": [
+    "cap:2658"
+   ],
+   "extra_pt": "O estilofaríngeo é o único músculo da faringe inervado pelo glossofaríngeo; os demais são inervados pelo vago."
+  },
+  {
+   "nid": 1480640480530,
+   "text_pt": "O <b>nervo craniano </b>{{c1::<b>X</b>}} é o <b>nervo {{c2::vago}}</b>",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "nid": 1480640566851,
+   "text_pt": "O <b>nervo craniano {{c1::XI}}</b> é o <b>nervo {{c2::acessório}}</b>",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "nid": 1480640603407,
+   "text_pt": "O <b>nervo craniano {{c1::XII}}</b> é o <b>nervo {{c2::hipoglosso}}</b>",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "nid": 1483844929031,
+   "text_pt": "A <u>inervação motora</u> da <i>maioria</i> dos músculos da <b>língua</b> é pelo <b>nervo craniano </b>{{c1::<b>XII</b>}}",
+   "cobre_texto": [
+    "cap:2658"
+   ],
+   "extra_pt": "Isto é: hioglosso, genioglosso, estiloglosso etc. Exceção: o palatoglosso, inervado pelo nervo X."
+  },
+  {
+   "nid": 1479515860351,
+   "text_pt": "Os <u>neurônios motores</u> {{c1::alfa::alfa ou gama}} fazem o <b>músculo esquelético contrair</b>",
+   "cobre_texto": [
+    "resumo:Nerve fiber types/modalities"
+   ]
+  },
+  {
+   "nid": 1480390831442,
+   "text_pt": "Os <b>neurônios motores alfa</b> inervam as fibras musculares {{c1::<u>extrafusais</u>}}",
+   "cobre_texto": [
+    "resumo:Nerve fiber types/modalities"
+   ],
+   "extra_pt": "Geram tensão ao contrair, permitindo o movimento esquelético. Já os neurônios motores gama inervam as fibras intrafusais."
+  },
+  {
+   "nid": 1480389675385,
+   "text_pt": "O <u>componente motor</u> dos <b>reflexos da musculatura esquelética</b> é mediado por <b>neurônios motores {{c1::inferiores::superiores ou inferiores}}</b>",
+   "cobre_texto": [
+    "resumo:Nerve fiber types/modalities"
+   ]
+  }
+ ],
+ "cores": {
+  "peripheral-nervous-system": "azul",
+  "nervus-olfactorius": "verde",
+  "nervus-opticus": "verde",
+  "nervus-oculomotorius": "verde",
+  "nervus-trochlearis": "verde",
+  "nervus-trigeminus": "verde",
+  "abducens-nerve": "verde",
+  "facial-nerve": "verde",
+  "nervus-vestibulocochlearis": "verde",
+  "glossopharyngeal-nerve": "verde",
+  "nervus-vagus": "verde",
+  "accessory-nerve": "verde",
+  "hypoglossal-nerve": "verde"
+ },
+ "texto": [
+  {
+   "id": "c13-def",
+   "text_pt": "Os nervos cranianos são um conjunto de {{c1::12}} nervos periféricos que emergem do encéfalo e inervam cabeça, pescoço, tórax e abdome",
+   "cobre_texto": [
+    "resumo:Definition"
+   ]
+  },
+  {
+   "id": "c13-t-eferente",
+   "text_pt": "Uma fibra {{c1::eferente}} (motora) leva informação do encéfalo para a periferia",
+   "cobre_texto": [
+    "resumo:Nerve fiber terminology"
+   ]
+  },
+  {
+   "id": "c13-t-aferente",
+   "text_pt": "Uma fibra {{c1::aferente}} (sensitiva) leva informação da periferia para o encéfalo",
+   "cobre_texto": [
+    "resumo:Nerve fiber terminology"
+   ]
+  },
+  {
+   "id": "c13-t-misto",
+   "text_pt": "Um nervo {{c1::misto}} leva informação nos dois sentidos",
+   "cobre_texto": [
+    "resumo:Nerve fiber terminology"
+   ]
+  },
+  {
+   "id": "c13-t-especial",
+   "text_pt": "As fibras {{c1::especiais}} levam informação dos sentidos especiais (visão, olfato, gustação, audição e equilíbrio)",
+   "cobre_texto": [
+    "resumo:Nerve fiber terminology"
+   ]
+  },
+  {
+   "id": "c13-t-geral",
+   "text_pt": "As fibras {{c1::gerais}} levam informação de qualquer parte do corpo, exceto dos sentidos especiais",
+   "cobre_texto": [
+    "resumo:Nerve fiber terminology"
+   ]
+  },
+  {
+   "id": "c13-t-somatica",
+   "text_pt": "As fibras {{c1::somáticas}} levam informação da pele ou dos músculos esqueléticos",
+   "cobre_texto": [
+    "resumo:Nerve fiber terminology"
+   ]
+  },
+  {
+   "id": "c13-t-visceral",
+   "text_pt": "As fibras {{c1::viscerais}} levam informação dos órgãos internos",
+   "cobre_texto": [
+    "resumo:Nerve fiber terminology"
+   ]
+  },
+  {
+   "id": "c13-m-asg",
+   "text_pt": "As fibras aferentes somáticas gerais (ASG) conduzem a sensibilidade geral da {{c1::pele}}",
+   "cobre_texto": [
+    "resumo:Nerve fiber types/modalities"
+   ]
+  },
+  {
+   "id": "c13-m-avg",
+   "text_pt": "As fibras aferentes viscerais gerais (AVG) conduzem a sensibilidade geral das {{c1::vísceras}}",
+   "cobre_texto": [
+    "resumo:Nerve fiber types/modalities"
+   ]
+  },
+  {
+   "id": "c13-m-ase",
+   "text_pt": "As fibras aferentes somáticas especiais (ASE) conduzem sentidos derivados do {{c1::ectoderma}}: visão, audição e equilíbrio",
+   "cobre_texto": [
+    "resumo:Nerve fiber types/modalities"
+   ]
+  },
+  {
+   "id": "c13-m-ave",
+   "text_pt": "As fibras aferentes viscerais especiais (AVE) conduzem o sentido derivado do endoderma, isto é, a {{c1::gustação}}",
+   "cobre_texto": [
+    "resumo:Nerve fiber types/modalities"
+   ]
+  },
+  {
+   "id": "c13-m-esg",
+   "text_pt": "As fibras eferentes somáticas gerais (ESG) conduzem a inervação motora dos músculos {{c1::esqueléticos}}",
+   "cobre_texto": [
+    "resumo:Nerve fiber types/modalities"
+   ]
+  },
+  {
+   "id": "c13-m-evg",
+   "text_pt": "As fibras eferentes viscerais gerais (EVG) conduzem a inervação motora do músculo liso, do músculo cardíaco e das {{c1::glândulas}}",
+   "cobre_texto": [
+    "resumo:Nerve fiber types/modalities"
+   ]
+  },
+  {
+   "id": "c13-m-eve",
+   "text_pt": "As fibras eferentes viscerais especiais (EVE) conduzem a inervação motora dos músculos derivados dos arcos {{c1::faríngeos}} (branquiomotor)",
+   "cobre_texto": [
+    "resumo:Nerve fiber types/modalities"
+   ]
+  },
+  {
+   "id": "c13-n1",
+   "text_pt": "O nervo olfatório (I) tem fibras aferentes viscerais especiais ({{c1::AVE}})",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-n2",
+   "text_pt": "O nervo óptico (II) tem fibras aferentes somáticas especiais ({{c1::ASE}})",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-n3",
+   "text_pt": "O nervo oculomotor (III) tem fibras eferentes somáticas gerais (ESG) e eferentes {{c1::viscerais gerais}} (EVG)",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-n4",
+   "text_pt": "O nervo troclear (IV) tem fibras eferentes somáticas gerais ({{c1::ESG}})",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-n5",
+   "text_pt": "O nervo trigêmeo (V) é um nervo {{c1::misto}}",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-n5a",
+   "text_pt": "Os nervos oftálmico (V1) e maxilar (V2) têm fibras aferentes somáticas gerais ({{c1::ASG}})",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-n5b",
+   "text_pt": "O nervo mandibular (V3) tem fibras aferentes somáticas gerais (ASG) e eferentes viscerais {{c1::especiais}} (EVE)",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-n6",
+   "text_pt": "O nervo abducente (VI) tem fibras eferentes somáticas gerais ({{c1::ESG}})",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-n7",
+   "text_pt": "O nervo facial (VII) é um nervo {{c1::misto}}, com fibras ASG, AVE, EVE e EVG",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-n8",
+   "text_pt": "O nervo vestibulococlear (VIII) tem fibras aferentes somáticas especiais ({{c1::ASE}})",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-n9",
+   "text_pt": "O nervo glossofaríngeo (IX) é um nervo {{c1::misto}}, com fibras ASG, AVG, AVE, EVE e EVG",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-n10",
+   "text_pt": "O nervo vago (X) é um nervo {{c1::misto}}, com fibras ASG, AVG, AVE, EVE e EVG",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-n11",
+   "text_pt": "O nervo acessório (XI) é eferente (motor), com fibras ESG e eferentes viscerais {{c1::especiais}} (EVE)",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-n12",
+   "text_pt": "O nervo hipoglosso (XII) tem fibras eferentes somáticas gerais ({{c1::ESG}})",
+   "cobre_texto": [
+    "resumo:12 cranial nerves"
+   ]
+  },
+  {
+   "id": "c13-a-cerebro",
+   "text_pt": "Os dois primeiros nervos cranianos, olfatório (I) e óptico (II), são os únicos que se originam do {{c1::cérebro}}",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-olfatorio",
+   "text_pt": "O nervo olfatório vai da mucosa olfatória nasal ao córtex olfatório, passando pela lâmina {{c1::cribriforme}} do etmoide",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-optico",
+   "text_pt": "O nervo óptico vai da retina ao córtex visual primário (área estriada) pelo canal {{c1::óptico}}",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-tronco",
+   "text_pt": "Todos os outros nervos cranianos originam-se do {{c1::tronco encefálico}}",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-mesencefalo",
+   "text_pt": "Os nervos oculomotor (III) e troclear (IV) originam-se do {{c1::mesencéfalo}}",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-abducente",
+   "text_pt": "O nervo abducente (VI) origina-se da região {{c1::bulbo-pontina}}",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-orbitaria",
+   "text_pt": "Os nervos III, IV e VI saem do crânio pela fissura orbital {{c1::superior}}",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-trigemeo",
+   "text_pt": "O nervo trigêmeo (V) origina-se da {{c1::ponte}} e tem três divisões: oftálmica (V1), maxilar (V2) e mandibular (V3)",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-forames",
+   "text_pt": "V1, V2 e V3 saem do crânio, respectivamente, pela fissura orbital superior, pelo forame redondo e pelo forame {{c1::oval}}",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-facial",
+   "text_pt": "O nervo facial (VII) origina-se da junção bulbo-pontina por duas raízes: motora e {{c1::sensitiva}}",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-vestibulococlear",
+   "text_pt": "O nervo vestibulococlear (VIII) origina-se da junção bulbo-pontina e tem os componentes vestibular e {{c1::coclear}}",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-meato",
+   "text_pt": "Os nervos VII e VIII saem do crânio pelo meato acústico {{c1::interno}}",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-ix-x",
+   "text_pt": "O nervo glossofaríngeo (IX) origina-se da parte rostral do {{c1::bulbo}}; o vago (X), logo caudal a ele",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-acessorio",
+   "text_pt": "O nervo acessório (XI) tem uma raiz craniana, que emerge do bulbo, e uma raiz espinal, dos cinco ou seis segmentos cervicais {{c1::superiores}}",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-jugular",
+   "text_pt": "Os nervos IX, X e XI saem do crânio pelo forame {{c1::jugular}}",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-a-hipoglosso",
+   "text_pt": "O nervo hipoglosso (XII) origina-se do bulbo e sai do crânio pelo canal do {{c1::hipoglosso}}",
+   "cobre_texto": [
+    "cap:397"
+   ]
+  },
+  {
+   "id": "c13-f-olfatorio",
+   "text_pt": "O nervo olfatório (I) é exclusivamente sensitivo e conduz o sentido do {{c1::olfato}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "id": "c13-f-optico",
+   "text_pt": "O nervo óptico (II) é um nervo sensitivo responsável pela {{c1::visão}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "id": "c13-f-olho",
+   "text_pt": "Os nervos oculomotor (III), troclear (IV) e abducente (VI) são motores e inervam os músculos do {{c1::olho}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "id": "c13-f-trigemeo",
+   "text_pt": "O nervo trigêmeo (V) é o primeiro nervo {{c1::misto}}: dá sensibilidade à face e controla os músculos da mastigação",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "id": "c13-f-facial-sensitiva",
+   "text_pt": "A parte sensitiva do nervo facial dá a gustação da parte {{c1::anterior}} da língua",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "id": "c13-f-facial-motora",
+   "text_pt": "A parte motora do nervo facial participa da expressão facial, da salivação e da {{c1::lacrimação}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "id": "c13-f-vestibulococlear",
+   "text_pt": "O nervo vestibulococlear (VIII) é sensitivo e responde pelo equilíbrio e pela {{c1::audição}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "id": "c13-f-glossofaringeo",
+   "text_pt": "O nervo glossofaríngeo (IX) é misto: dá sensibilidade à língua e à faringe e controla músculos da {{c1::deglutição}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "id": "c13-f-vago-longo",
+   "text_pt": "O nervo vago (X) é o nervo craniano misto mais {{c1::longo}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "id": "c13-f-vago-sensitivo",
+   "text_pt": "O nervo vago conduz sensibilidade do ouvido externo, da faringe, da laringe, do tórax e do {{c1::abdome}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "id": "c13-f-vago-motor",
+   "text_pt": "A parte motora do vago participa da deglutição, da fala, da tosse e de funções {{c1::parassimpáticas}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "id": "c13-f-acessorio",
+   "text_pt": "O nervo acessório (XI) é exclusivamente {{c1::motor}} e controla o esternocleidomastóideo e o trapézio",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  },
+  {
+   "id": "c13-f-hipoglosso",
+   "text_pt": "O nervo hipoglosso (XII) é motor e controla os músculos da {{c1::língua}}",
+   "cobre_texto": [
+    "cap:2658"
+   ]
+  }
+ ],
+ "netter": []
+}

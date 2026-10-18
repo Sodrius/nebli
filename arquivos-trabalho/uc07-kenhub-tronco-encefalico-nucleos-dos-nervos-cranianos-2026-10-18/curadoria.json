@@ -1,0 +1,613 @@
+{
+ "modulo": "tronco-encefalico",
+ "unidade": "nucleos-dos-nervos-cranianos",
+ "unidade_kenhub": "the-cranial-nerve-nuclei",
+ "deck": "NEBLI::UC07::Tronco encefálico::Núcleos dos nervos cranianos",
+ "short": "u7f6b5",
+ "lesson_id": "2026-uc07-tronco-encefalico-nucleos-dos-nervos-cranianos",
+ "kenhub_excluir": {},
+ "nome_pt": {},
+ "nome_igual_ok": [],
+ "acervo": [],
+ "anking": [
+  {
+   "nid": 1480612597831,
+   "text_pt": "Os <b>colículos superiores</b> ajudam a coordenar o olhar {{c1::vertical conjugado}}",
+   "cobre_texto": [
+    "cap:765"
+   ]
+  },
+  {
+   "nid": 1480876216467,
+   "text_pt": "Qual <b>núcleo do nervo trigêmeo</b> forma o <u>ramo sensitivo</u> do <b>reflexo mandibular</b>? {{c1::Núcleo mesencefálico}}",
+   "cobre_texto": [
+    "resumo:Trigeminal nerve (CN V)",
+    "cap:2980"
+   ],
+   "extra_pt": "Via fusos musculares do masseter."
+  },
+  {
+   "nid": 1480874979317,
+   "text_pt": "Qual <u>núcleo do nervo trigêmeo</u> recebe as sensações <b>táteis</b> e de <b>pressão</b> das áreas do nervo V? {{c1::Núcleo sensitivo principal}}",
+   "cobre_texto": [
+    "resumo:Trigeminal nerve (CN V)",
+    "cap:2980"
+   ],
+   "extra_pt": "Também chamado de núcleo sensitivo principal ou primário."
+  },
+  {
+   "nid": 1480874967562,
+   "text_pt": "Qual <u>núcleo do nervo trigêmeo</u> inerva os <b>músculos da mastigação</b>? {{c1::Núcleo motor do trigêmeo}}",
+   "cobre_texto": [
+    "resumo:Trigeminal nerve (CN V)",
+    "cap:765"
+   ],
+   "extra_pt": "Fica medialmente ao núcleo sensitivo principal."
+  },
+  {
+   "nid": 1480874998644,
+   "text_pt": "Qual <u>núcleo do nervo trigêmeo</u> recebe <b>dor</b> e <b>temperatura</b> das áreas do nervo V? {{c1::Núcleo espinal do trigêmeo}}",
+   "cobre_texto": [
+    "resumo:Trigeminal nerve (CN V)",
+    "cap:2980"
+   ]
+  },
+  {
+   "nid": 1480876198182,
+   "text_pt": "O <b>núcleo {{c2::espinal do trigêmeo::tronco encefálico}}</b> recebe informação de {{c1::dor}} e {{c1::temperatura}} da face <i>ipsilateral</i>",
+   "cobre_texto": [
+    "resumo:Trigeminal nerve (CN V)",
+    "cap:2980"
+   ]
+  },
+  {
+   "nid": 1480908781550,
+   "text_pt": "As <b>fibras vestibulares primárias</b> fazem sinapse com as fibras secundárias nos <b>núcleos {{c1::vestibulares}}</b>",
+   "cobre_texto": [
+    "resumo:Vestibulocochlear nerve (CN VIII)",
+    "cap:2980"
+   ]
+  },
+  {
+   "nid": 1480908676042,
+   "text_pt": "Todos os axônios da <u>parte coclear</u> do <b>nervo VIII</b> entram na junção {{c1::bulbo-pontina}} e fazem sinapse nos <b>núcleos cocleares</b> ventral e dorsal",
+   "cobre_texto": [
+    "resumo:Vestibulocochlear nerve (CN VIII)",
+    "cap:2980"
+   ]
+  },
+  {
+   "nid": 1480908720922,
+   "text_pt": "Lesões da <b>parte coclear do nervo VIII</b> ou dos <b>núcleos cocleares</b> causam perda auditiva <u>neurossensorial</u> {{c1::uni::uni/bi}}lateral profunda",
+   "cobre_texto": [
+    "resumo:Vestibulocochlear nerve (CN VIII)"
+   ],
+   "extra_pt": "Afeta o lado ipsilateral."
+  },
+  {
+   "nid": 1480640099641,
+   "text_pt": "O <b>nervo craniano {{c1::IV}}</b> é o <b>nervo {{c2::troclear}}</b>",
+   "cobre_texto": [
+    "resumo:Trochlear nerve (CN IV)"
+   ]
+  },
+  {
+   "nid": 1480640164088,
+   "text_pt": "O <b>nervo craniano {{c1::VI}}</b> é o <b>nervo {{c2::abducente}}</b>",
+   "cobre_texto": [
+    "resumo:Abducens nerve (CN VI)"
+   ]
+  },
+  {
+   "nid": 1480640404290,
+   "text_pt": "O <b>nervo craniano {{c1::VIII}}</b> é o <b>nervo {{c2::vestibulococlear}}</b>",
+   "cobre_texto": [
+    "resumo:Vestibulocochlear nerve (CN VIII)"
+   ]
+  },
+  {
+   "nid": 1480640451486,
+   "text_pt": "O <b>nervo craniano {{c1::IX}}</b> é o <b>nervo {{c2::glossofaríngeo}}</b>",
+   "cobre_texto": [
+    "resumo:Glossopharyngeal nerve (CN IX)"
+   ]
+  },
+  {
+   "nid": 1480640480530,
+   "text_pt": "O <b>nervo craniano </b>{{c1::<b>X</b>}} é o <b>nervo {{c2::vago}}</b>",
+   "cobre_texto": [
+    "resumo:Vagus nerve (CN X)"
+   ]
+  },
+  {
+   "nid": 1480640566851,
+   "text_pt": "O <b>nervo craniano {{c1::XI}}</b> é o <b>nervo {{c2::acessório}}</b>",
+   "cobre_texto": [
+    "resumo:Accessory nerve (CN XI)"
+   ]
+  },
+  {
+   "nid": 1480639915317,
+   "text_pt": "O <b>nervo craniano {{c1::III}}</b> é o <b>nervo {{c2::oculomotor}}</b>",
+   "cobre_texto": [
+    "resumo:Oculomotor nerve (CN III)"
+   ]
+  },
+  {
+   "nid": 1480640603407,
+   "text_pt": "O <b>nervo craniano {{c1::XII}}</b> é o <b>nervo {{c2::hipoglosso}}</b>",
+   "cobre_texto": [
+    "resumo:Hypoglossal nerve (CN XII)"
+   ]
+  },
+  {
+   "nid": 1480876308017,
+   "text_pt": "As lesões de <b>neurônio motor {{c3::inferior}}</b> do <u>nervo facial</u> causam paralisia {{c2::ipsi::ipsi/contra}}lateral dos <b>músculos {{c1::superiores e inferiores}}</b> da mímica facial",
+   "cobre_texto": [
+    "resumo:Facial nerve (CN VII)"
+   ],
+   "extra_pt": "Por exemplo: destruição do núcleo do facial ou do nervo VII em qualquer ponto do seu trajeto."
+  },
+  {
+   "nid": 1480640376517,
+   "text_pt": "Qual <u>nervo craniano</u> inerva os <b>músculos da mímica facial</b>? {{c1::Nervo facial (VII)}}",
+   "cobre_texto": [
+    "resumo:Facial nerve (CN VII)",
+    "cap:765"
+   ]
+  },
+  {
+   "nid": 1516828805351,
+   "text_pt": "O <b>núcleo rubro</b> fica no {{c1::mesencéfalo rostral}}",
+   "cobre_texto": [],
+   "extra_pt": "Controla os flexores do membro superior pelo trato rubroespinal."
+  },
+  {
+   "nid": 1480875078047,
+   "text_pt": "O <b>núcleo {{c1::olivar superior}}</b> fica logo ventral ao <u>núcleo do nervo VII</u> e <b>recebe impulsos auditivos</b> dos <i>dois</i> ouvidos, via núcleos cocleares",
+   "cobre_texto": [
+    "resumo:Vestibulocochlear nerve (CN VIII)"
+   ]
+  },
+  {
+   "nid": 1480908723725,
+   "text_pt": "Lesões no ou acima do <b>núcleo olivar superior</b> causam audição <u>diminuída</u> {{c1::bi::uni/bi}}lateralmente e menor capacidade de localizar o som",
+   "cobre_texto": [
+    "resumo:Vestibulocochlear nerve (CN VIII)"
+   ],
+   "extra_pt": "Não há surdez completa, pois cada núcleo olivar superior tem inervação bilateral."
+  },
+  {
+   "nid": 1471378716219,
+   "text_pt": "A informação dos <b>barorreceptores do seio carotídeo</b> chega ao <b>{{c2::núcleo do trato solitário}} (NTS)</b> pelo nervo {{c1::<b>glossofaríngeo</b> (IX)}}",
+   "cobre_texto": [
+    "cap:2990",
+    "resumo:Glossopharyngeal nerve (CN IX)"
+   ],
+   "extra_pt": "O núcleo do trato solitário também é chamado de núcleo solitário do bulbo."
+  },
+  {
+   "nid": 1471378723785,
+   "text_pt": "A informação dos <b>barorreceptores do arco aórtico</b> chega ao {{c2::<b>núcleo do trato solitário</b>}} (NTS) pelo nervo {{c1::<b>vago</b>}}",
+   "cobre_texto": [
+    "cap:2990",
+    "resumo:Vagus nerve (CN X)"
+   ]
+  },
+  {
+   "nid": 1461597220648,
+   "text_pt": "O {{c1::<b>núcleo do trato solitário</b>}}, também chamado de centro do <b>vômito</b> (no bulbo), recebe as principais aferências:<br> 1. {{c2::Trato gastrointestinal}} (via nervo X)<br> 2. {{c2::Sistema vestibular}}<br> 3. {{c2::Área postrema}} (zona quimiorreceptora de gatilho)",
+   "cobre_texto": [
+    "cap:2990"
+   ]
+  },
+  {
+   "nid": 1461597435624,
+   "text_pt": "O <b>trato gastrointestinal</b> comunica-se diretamente com o <b>núcleo do trato solitário</b> pelo nervo {{c1::<b>vago</b>}} (nervo craniano {{c1::X}})",
+   "cobre_texto": [
+    "cap:2990",
+    "resumo:Vagus nerve (CN X)"
+   ]
+  },
+  {
+   "nid": 1461597547266,
+   "text_pt": "O <b>sistema vestibular</b> comunica-se diretamente com o <b>núcleo do trato solitário</b> pelo nervo <b>{{c1::vestibulococlear}}</b> (nervo craniano {{c1::VIII}})",
+   "cobre_texto": [
+    "cap:2990",
+    "resumo:Vestibulocochlear nerve (CN VIII)"
+   ]
+  },
+  {
+   "nid": 1480640469967,
+   "text_pt": "O <b>nervo</b> {{c2::<b>IX</b> (glossofaríngeo)}} fornece inervação <u>parassimpática</u> à(s) glândula(s) {{c1::<b>parótida</b>}} para a salivação",
+   "cobre_texto": [
+    "cap:2985",
+    "resumo:Glossopharyngeal nerve (CN IX)"
+   ]
+  },
+  {
+   "nid": 1480640523392,
+   "text_pt": "O nervo {{c1::<b>X</b> (vago)}} fornece inervação <u>parassimpática</u> às <b>vísceras toracoabdominais</b>",
+   "cobre_texto": [
+    "cap:2985",
+    "resumo:Vagus nerve (CN X)"
+   ]
+  },
+  {
+   "nid": 1480875922836,
+   "text_pt": "O <b>núcleo</b> {{c1::<b>dorsal do vago</b>}} <i>envia</i> <u>fibras parassimpáticas</u> ao coração, aos pulmões e ao trato gastrointestinal superior",
+   "cobre_texto": [
+    "cap:2985",
+    "resumo:Vagus nerve (CN X)"
+   ],
+   "extra_pt": "Também chamado de núcleo motor dorsal."
+  },
+  {
+   "nid": 1480875955623,
+   "text_pt": "O <b>núcleo</b> {{c1::<b>ambíguo</b>}} supre a <u>inervação motora</u> da faringe, da laringe e da parte superior do esôfago (por exemplo, deglutição e elevação do palato)",
+   "cobre_texto": [
+    "resumo:Glossopharyngeal nerve (CN IX)",
+    "resumo:Vagus nerve (CN X)",
+    "resumo:Accessory nerve (CN XI)",
+    "cap:765"
+   ]
+  },
+  {
+   "nid": 1480612335699,
+   "text_pt": "Quais <u>nervos cranianos</u> ficam <b>acima da ponte</b>? {{c1::I a IV}}",
+   "cobre_texto": [
+    "resumo:Oculomotor nerve (CN III)",
+    "resumo:Trochlear nerve (CN IV)"
+   ],
+   "extra_pt": "Observação: os nervos I e II não estão no tronco encefálico; III e IV estão no mesencéfalo."
+  },
+  {
+   "nid": 1480612357260,
+   "text_pt": "Os <u>núcleos dos nervos cranianos</u> que emergem {{c1::<b>lateralmente</b>}} costumam ser <b>mistos</b> ou <b>sensitivos</b>",
+   "cobre_texto": [],
+   "extra_pt": "Ou seja, os nervos V, VII, VIII, IX e X."
+  },
+  {
+   "nid": 1480389675385,
+   "text_pt": "O <u>componente motor</u> dos <b>reflexos da musculatura esquelética</b> é mediado por <b>neurônios motores {{c1::inferiores::superiores ou inferiores}}</b>",
+   "cobre_texto": [
+    "cap:765"
+   ]
+  }
+ ],
+ "cores": {
+  "corpus-geniculatum-laterale": "rosa",
+  "colliculus-superior": "rosa",
+  "mesencephalic-nucleus-of-trigeminal-nerve": "verde",
+  "nucleus-principalis-nervi-trigemini": "verde",
+  "nucleus-et-tractus-spinalis-nervi-trigemini": "verde",
+  "nucleus-et-tractus-solitarius": "verde",
+  "nuclei-vestibulares": "verde",
+  "anterior-cochlear-nucleus": "azul",
+  "nucleus-cochlearis-posterior": "azul",
+  "accessory-oculomotor-nucleus": "verde",
+  "nucleus-nervi-oculomotorii": "verde",
+  "nucleus-trochlearis": "verde",
+  "nucleus-motorius-nervi-trigemini": "verde",
+  "abducens-nucleus": "verde",
+  "nucleus-nervi-facialis": "verde",
+  "nucleus-salivatorius-superior": "verde",
+  "inferior-salivatory-nucleus": "verde",
+  "nucleus-ambiguus": "verde",
+  "dorsal-nucleus-of-vagus-nerve": "verde",
+  "hypoglossal-nucleus": "verde",
+  "nucleus-nervi-accessorii": "rosa",
+  "nervus-trochlearis": "azul",
+  "nervus-trigeminus": "azul",
+  "facial-nerve": "azul",
+  "nervus-vestibulocochlearis": "azul",
+  "glossopharyngeal-nerve": "azul",
+  "nervus-vagus": "azul",
+  "accessory-nerve": "azul",
+  "abducens-nerve": "azul",
+  "hypoglossal-nerve": "azul",
+  "nucleus-ruber": "rosa",
+  "nuclei-olivares": "rosa",
+  "nervus-oculomotorius": "azul"
+ },
+ "texto": [
+  {
+   "id": "n12-o3-nucleo",
+   "text_pt": "O núcleo do nervo oculomotor é do tipo {{c1::eferente somático geral}} (ESG)",
+   "cobre_texto": [
+    "resumo:Oculomotor nerve (CN III)"
+   ]
+  },
+  {
+   "id": "n12-o3-acessorio",
+   "text_pt": "O núcleo acessório do nervo oculomotor (de Edinger-Westphal) é do tipo {{c1::eferente visceral geral}} (EVG)",
+   "cobre_texto": [
+    "resumo:Oculomotor nerve (CN III)"
+   ]
+  },
+  {
+   "id": "n12-o4",
+   "text_pt": "O núcleo do nervo troclear é do tipo {{c1::eferente somático geral}} (ESG)",
+   "cobre_texto": [
+    "resumo:Trochlear nerve (CN IV)"
+   ]
+  },
+  {
+   "id": "n12-o5-motor",
+   "text_pt": "O núcleo motor do nervo trigêmeo é do tipo {{c1::eferente visceral especial}} (EVE)",
+   "cobre_texto": [
+    "resumo:Trigeminal nerve (CN V)"
+   ]
+  },
+  {
+   "id": "n12-o5-sensitivos",
+   "text_pt": "Os núcleos principal, espinal e mesencefálico do trigêmeo são do tipo {{c1::aferente somático geral}} (ASG)",
+   "cobre_texto": [
+    "resumo:Trigeminal nerve (CN V)"
+   ]
+  },
+  {
+   "id": "n12-o6",
+   "text_pt": "O núcleo do nervo abducente é do tipo {{c1::eferente somático geral}} (ESG)",
+   "cobre_texto": [
+    "resumo:Abducens nerve (CN VI)"
+   ]
+  },
+  {
+   "id": "n12-o7-facial",
+   "text_pt": "O núcleo do nervo facial é do tipo {{c1::eferente visceral especial}} (EVE)",
+   "cobre_texto": [
+    "resumo:Facial nerve (CN VII)"
+   ]
+  },
+  {
+   "id": "n12-o7-salivatorio",
+   "text_pt": "O núcleo salivatório superior é do tipo eferente visceral {{c1::geral}} (EVG) e dá fibras ao nervo facial",
+   "cobre_texto": [
+    "resumo:Facial nerve (CN VII)",
+    "cap:2985"
+   ]
+  },
+  {
+   "id": "n12-o7-solitario",
+   "text_pt": "O núcleo do trato solitário recebe aferências viscerais gerais (AVG) e especiais (AVE) dos nervos {{c1::VII}}, IX e X",
+   "cobre_texto": [
+    "resumo:Facial nerve (CN VII)",
+    "resumo:Glossopharyngeal nerve (CN IX)",
+    "resumo:Vagus nerve (CN X)"
+   ]
+  },
+  {
+   "id": "n12-o7-espinal",
+   "text_pt": "O núcleo espinal do trigêmeo recebe aferências somáticas gerais (ASG) também dos nervos VII, IX e {{c1::X}}",
+   "cobre_texto": [
+    "resumo:Facial nerve (CN VII)",
+    "resumo:Glossopharyngeal nerve (CN IX)",
+    "resumo:Vagus nerve (CN X)"
+   ]
+  },
+  {
+   "id": "n12-o8",
+   "text_pt": "Os núcleos coclear e vestibular são do tipo {{c1::aferente somático especial}} (ASE)",
+   "cobre_texto": [
+    "resumo:Vestibulocochlear nerve (CN VIII)",
+    "cap:2980"
+   ]
+  },
+  {
+   "id": "n12-o9-ambiguo",
+   "text_pt": "O núcleo ambíguo é do tipo eferente visceral especial (EVE) e fornece fibras aos nervos IX, X e {{c1::XI}}",
+   "cobre_texto": [
+    "resumo:Glossopharyngeal nerve (CN IX)",
+    "resumo:Vagus nerve (CN X)",
+    "resumo:Accessory nerve (CN XI)",
+    "cap:765"
+   ]
+  },
+  {
+   "id": "n12-o9-salivatorio",
+   "text_pt": "O núcleo salivatório inferior é eferente visceral geral e envia fibras ao nervo {{c1::glossofaríngeo}} (IX)",
+   "cobre_texto": [
+    "resumo:Glossopharyngeal nerve (CN IX)",
+    "cap:2985"
+   ]
+  },
+  {
+   "id": "n12-o10-posterior",
+   "text_pt": "O núcleo posterior do vago é do tipo eferente visceral {{c1::geral}} (EVG)",
+   "cobre_texto": [
+    "resumo:Vagus nerve (CN X)"
+   ]
+  },
+  {
+   "id": "n12-o11",
+   "text_pt": "O núcleo de origem do nervo acessório (XI), segundo o resumo do atlas, é o núcleo {{c1::ambíguo}}",
+   "cobre_texto": [
+    "resumo:Accessory nerve (CN XI)"
+   ]
+  },
+  {
+   "id": "n12-o12",
+   "text_pt": "O núcleo do nervo hipoglosso é do tipo {{c1::eferente somático geral}} (ESG)",
+   "cobre_texto": [
+    "resumo:Hypoglossal nerve (CN XII)"
+   ]
+  },
+  {
+   "id": "n12-af-solitario",
+   "text_pt": "Os núcleos das colunas aferentes viscerais gerais e especiais incluem o núcleo do trato {{c1::solitário}}",
+   "cobre_texto": [
+    "cap:2990"
+   ]
+  },
+  {
+   "id": "n12-af-fibras",
+   "text_pt": "O núcleo do trato solitário fica no bulbo e recebe fibras dos nervos vago, glossofaríngeo e {{c1::facial}} pelo trato solitário",
+   "cobre_texto": [
+    "cap:2990"
+   ]
+  },
+  {
+   "id": "n12-af-funcao",
+   "text_pt": "O núcleo do trato solitário recebe gustação da mucosa lingual e palatina e impulsos viscerais da {{c1::faringe}}, do esôfago e do canal digestório abdominal",
+   "cobre_texto": [
+    "cap:2990"
+   ]
+  },
+  {
+   "id": "n12-ef-pre",
+   "text_pt": "Os núcleos eferentes viscerais gerais (EVG) originam fibras {{c1::pré-ganglionares}} do parassimpático craniano",
+   "cobre_texto": [
+    "cap:2985"
+   ]
+  },
+  {
+   "id": "n12-ef-sinapse",
+   "text_pt": "As fibras eferentes viscerais gerais fazem sinapse em gânglios periféricos e suprem músculo liso e {{c1::glândulas}}",
+   "cobre_texto": [
+    "cap:2985"
+   ]
+  },
+  {
+   "id": "n12-ef-edinger",
+   "text_pt": "O núcleo acessório do oculomotor (Edinger-Westphal) fica no {{c1::mesencéfalo}}",
+   "cobre_texto": [
+    "cap:2985"
+   ]
+  },
+  {
+   "id": "n12-ef-bulbo",
+   "text_pt": "Os núcleos salivatórios e o núcleo posterior do vago ficam no {{c1::bulbo}}",
+   "cobre_texto": [
+    "cap:2985"
+   ]
+  },
+  {
+   "id": "n12-ef-salivatorio-sup",
+   "text_pt": "O núcleo salivatório superior inerva seus alvos pelo nervo {{c1::facial}} (VII)",
+   "cobre_texto": [
+    "cap:2985"
+   ]
+  },
+  {
+   "id": "n12-ef-vago",
+   "text_pt": "O núcleo posterior do vago envia fibras parassimpáticas às vísceras do tórax e do abdome pelo nervo {{c1::vago}} (X)",
+   "cobre_texto": [
+    "cap:2985"
+   ]
+  },
+  {
+   "id": "n12-as-asg",
+   "text_pt": "Os núcleos aferentes somáticos gerais (ASG) são os núcleos mesencefálico, principal e espinal do {{c1::trigêmeo}}",
+   "cobre_texto": [
+    "cap:2980"
+   ]
+  },
+  {
+   "id": "n12-as-ponte",
+   "text_pt": "Os três núcleos sensitivos do trigêmeo ficam na ponte; o espinal estende-se até o bulbo e o mesencefálico, até o {{c1::mesencéfalo}}",
+   "cobre_texto": [
+    "cap:2980"
+   ]
+  },
+  {
+   "id": "n12-as-funcao",
+   "text_pt": "Os núcleos aferentes somáticos gerais mediam dor, propriocepção, tato grosseiro e temperatura dos nervos V, VII, IX e {{c1::X}}",
+   "cobre_texto": [
+    "cap:2980"
+   ]
+  },
+  {
+   "id": "n12-as-ase",
+   "text_pt": "Os núcleos aferentes somáticos especiais (ASE) são os núcleos coclear e {{c1::vestibular}}",
+   "cobre_texto": [
+    "cap:2980"
+   ]
+  },
+  {
+   "id": "n12-as-coclear",
+   "text_pt": "Os núcleos cocleares anterior e posterior ficam no sulco {{c1::bulbo-pontino}}",
+   "cobre_texto": [
+    "cap:2980"
+   ]
+  },
+  {
+   "id": "n12-as-vestibular",
+   "text_pt": "Os núcleos vestibulares (medial, lateral, inferior e superior) ficam sob a parte {{c1::lateral}} do assoalho do quarto ventrículo",
+   "cobre_texto": [
+    "cap:2980"
+   ]
+  },
+  {
+   "id": "n12-as-vestibular-funcao",
+   "text_pt": "Os núcleos cocleares e vestibulares recebem aferências do nervo vestibulococlear relacionadas à audição e ao {{c1::equilíbrio}}",
+   "cobre_texto": [
+    "cap:2980"
+   ]
+  },
+  {
+   "id": "n12-es-esg",
+   "text_pt": "Os núcleos eferentes somáticos gerais (ESG) ficam mais próximos da linha média: oculomotor, troclear, abducente e {{c1::hipoglosso}}",
+   "cobre_texto": [
+    "cap:765"
+   ]
+  },
+  {
+   "id": "n12-es-mesencefalo",
+   "text_pt": "Os núcleos dos nervos oculomotor e troclear ficam no mesencéfalo, na altura dos colículos superior e {{c1::inferior}}",
+   "cobre_texto": [
+    "cap:765"
+   ]
+  },
+  {
+   "id": "n12-es-abducente",
+   "text_pt": "O núcleo do nervo abducente fica na parte inferior da {{c1::ponte}}",
+   "cobre_texto": [
+    "cap:765"
+   ]
+  },
+  {
+   "id": "n12-es-hipoglosso",
+   "text_pt": "O núcleo do nervo hipoglosso fica na parte inferior do {{c1::bulbo}}",
+   "cobre_texto": [
+    "cap:765"
+   ]
+  },
+  {
+   "id": "n12-es-funcao",
+   "text_pt": "Os núcleos eferentes somáticos gerais têm neurônios motores inferiores que inervam músculos estriados voluntários do olho e da {{c1::língua}}",
+   "cobre_texto": [
+    "cap:765"
+   ]
+  },
+  {
+   "id": "n12-es-eve",
+   "text_pt": "Os núcleos eferentes viscerais especiais (EVE), ou branquiomotores, são o motor do trigêmeo, o do facial e o núcleo {{c1::ambíguo}}",
+   "cobre_texto": [
+    "cap:765"
+   ]
+  },
+  {
+   "id": "n12-es-eve-local",
+   "text_pt": "Os núcleos motor do trigêmeo e do facial ficam na ponte; o núcleo ambíguo, no {{c1::bulbo}}",
+   "cobre_texto": [
+    "cap:765"
+   ]
+  },
+  {
+   "id": "n12-es-eve-nervos",
+   "text_pt": "O núcleo ambíguo fornece fibras eferentes aos nervos glossofaríngeo, vago e {{c1::acessório}}",
+   "cobre_texto": [
+    "cap:765"
+   ]
+  },
+  {
+   "id": "n12-es-eve-funcao",
+   "text_pt": "Os núcleos eferentes viscerais especiais suprem músculos estriados derivados dos arcos branquiais, como o estilofaríngeo e alguns músculos da {{c1::mímica facial}}",
+   "cobre_texto": [
+    "cap:765"
+   ]
+  }
+ ],
+ "netter": []
+}

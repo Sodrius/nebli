@@ -1,0 +1,306 @@
+{
+ "modulo": "nervos-cranianos",
+ "unidade": "nervo-olfatorio-i",
+ "unidade_kenhub": "the-olfactory-nerve",
+ "deck": "NEBLI::UC07::Nervos cranianos::Nervo olfatório (I)",
+ "short": "u793fd",
+ "lesson_id": "2026-uc07-nervos-cranianos-nervo-olfatorio-i",
+ "kenhub_excluir": {},
+ "nome_pt": {},
+ "nome_igual_ok": [],
+ "acervo": [],
+ "anking": [
+  {
+   "nid": 1481562805770,
+   "text_pt": "<b>Déficits olfatórios</b> costumam ser causados por <u>traumatismos cranianos</u> que fraturam a <b>{{c1::lâmina cribriforme}}</b> do osso etmoide",
+   "cobre_texto": [
+    "resumo:Olfactory nerve",
+    "cap:2877",
+    "cap:981"
+   ]
+  },
+  {
+   "nid": 1480639885424,
+   "text_pt": "Qual é o <u>único</u> <b>nervo craniano</b> que <i>não tem</i> <b>retransmissão talâmica</b> para o <b>córtex</b>? {{c1::Nervo olfatório (I)}}",
+   "cobre_texto": [
+    "resumo:Function/type of fibers"
+   ],
+   "extra_pt": "Toda a informação sensitiva ascendente, exceto o olfato, é retransmitida pelo tálamo."
+  },
+  {
+   "nid": 1480639873083,
+   "text_pt": "Qual é o <u>tipo</u> do <b>nervo craniano</b> <b>olfatório</b> (I)? {{c1::Sensitivo::motor, sensitivo ou ambos}}",
+   "cobre_texto": [
+    "resumo:Function/type of fibers"
+   ]
+  },
+  {
+   "nid": 1480639882248,
+   "text_pt": "Qual é a <u>função</u> do <b>nervo craniano I</b> (olfatório)? {{c1::Olfato}}",
+   "cobre_texto": [
+    "resumo:Function/type of fibers"
+   ]
+  },
+  {
+   "nid": 1480634591735,
+   "text_pt": "O <b>nervo craniano {{c1::I}}</b> é o <b>nervo {{c2::olfatório}}</b>",
+   "cobre_texto": [
+    "resumo:Olfactory nerve"
+   ]
+  }
+ ],
+ "cores": {
+  "cribriform-plate": "verde",
+  "olfactory-fiber-bundles": "verde",
+  "bulbus-olfactorius": "verde",
+  "mucosa-olfactoria": "verde",
+  "anterior-olfactory-nucleus": "rosa",
+  "olfactory-tract": "verde",
+  "olfactory-trigone": "verde",
+  "olfactory-tubercle": "rosa",
+  "anterior-perforated-substance": "verde",
+  "medial-olfactory-stria": "verde",
+  "anterior-commissure": "rosa",
+  "lateral-olfactory-stria": "verde",
+  "piriform-cortex": "verde",
+  "entorhinal-cortex": "rosa",
+  "ambient-gyrus": "rosa",
+  "amygdala": "rosa",
+  "gyrus-parahippocampalis": "rosa",
+  "hypothalamus": "rosa",
+  "uncus": "rosa",
+  "lamina-propria": "azul",
+  "epithelium-olfactorium": "azul",
+  "olfactory-sensory-neuron": "azul",
+  "supporting-epithelial-cell": "azul",
+  "fila-olfactoria": "azul",
+  "basal-cells": "azul",
+  "glandulae-olfactoriae-bowman": "azul",
+  "glomerulus-olfactorius": "azul",
+  "projection-neurons": "azul",
+  "granular-cell": "azul",
+  "periglomerular-cell": "azul",
+  "afferent-fibers-from-olfactory-bulb": "azul",
+  "efferent-fibers-to-olfactory-bulb": "azul"
+ },
+ "texto": [
+  {
+   "id": "o14-org-epitelio",
+   "text_pt": "O epitélio olfatório contém neurônios sensitivos olfatórios, células de sustentação e células {{c1::basais}} (células-tronco)",
+   "cobre_texto": [
+    "resumo:Olfactory organ",
+    "cap:2877"
+   ]
+  },
+  {
+   "id": "o14-org-cilios",
+   "text_pt": "Os neurônios sensitivos olfatórios têm {{c1::cílios olfatórios}} na superfície do epitélio",
+   "cobre_texto": [
+    "resumo:Olfactory organ",
+    "cap:2877"
+   ],
+   "cobre": [
+    "fila-olfactoria"
+   ],
+   "estrutura": "fila-olfactoria"
+  },
+  {
+   "id": "o14-org-lamina",
+   "text_pt": "A lâmina {{c1::própria}} da mucosa olfatória fica sob o epitélio e contém as glândulas olfatórias",
+   "cobre_texto": [
+    "resumo:Olfactory organ",
+    "cap:2877"
+   ],
+   "cobre": [
+    "lamina-propria"
+   ],
+   "estrutura": "lamina-propria"
+  },
+  {
+   "id": "o14-org-bowman",
+   "text_pt": "As glândulas olfatórias (de {{c1::Bowman}}) ficam na lâmina própria e secretam muco",
+   "cobre_texto": [
+    "resumo:Olfactory organ",
+    "cap:2877"
+   ],
+   "cobre": [
+    "glandulae-olfactoriae-bowman"
+   ],
+   "estrutura": "glandulae-olfactoriae-bowman"
+  },
+  {
+   "id": "o14-org-vesiculas",
+   "text_pt": "Os dendritos dos neurônios olfatórios têm bulbos dendríticos (vesículas olfatórias) com cílios que reagem aos estímulos odoríferos dissolvidos no {{c1::muco}} nasal",
+   "cobre_texto": [
+    "cap:2877"
+   ]
+  },
+  {
+   "id": "o14-ner-feixes",
+   "text_pt": "O nervo craniano I é o termo coletivo para 15 a 20 feixes de fibras olfatórias que cruzam a lâmina {{c1::cribriforme}} de cada lado",
+   "cobre_texto": [
+    "resumo:Olfactory nerve",
+    "cap:2877",
+    "cap:981"
+   ],
+   "cobre": [
+    "olfactory-fiber-bundles"
+   ],
+   "estrutura": "olfactory-fiber-bundles"
+  },
+  {
+   "id": "o14-ner-axonios",
+   "text_pt": "Os axônios (processos centrais) dos neurônios olfatórios formam os feixes de fibras olfatórias, que se projetam ao {{c1::bulbo olfatório}}",
+   "cobre_texto": [
+    "cap:2877"
+   ]
+  },
+  {
+   "id": "o14-bulbo-conteudo",
+   "text_pt": "O bulbo olfatório contém glomérulos olfatórios, corpos dos neurônios de projeção, células granulares e células {{c1::periglomerulares}}",
+   "cobre_texto": [
+    "resumo:Olfactory bulb",
+    "cap:2877"
+   ],
+   "cobre": [
+    "periglomerular-cell"
+   ],
+   "estrutura": "periglomerular-cell"
+  },
+  {
+   "id": "o14-bulbo-relay",
+   "text_pt": "O bulbo olfatório é uma estação de {{c1::retransmissão}} da via olfatória",
+   "cobre_texto": [
+    "resumo:Olfactory bulb"
+   ]
+  },
+  {
+   "id": "o14-bulbo-glomerulos",
+   "text_pt": "O bulbo olfatório tem cerca de {{c1::2000}} glomérulos olfatórios, formados por sinapses entre as fibras olfatórias e os dendritos dos neurônios de projeção",
+   "cobre_texto": [
+    "cap:2877"
+   ]
+  },
+  {
+   "id": "o14-bulbo-projecao",
+   "text_pt": "Os neurônios de projeção do bulbo olfatório são as células mitrais e as células {{c1::em tufo}}",
+   "cobre_texto": [
+    "resumo:Olfactory bulb",
+    "cap:2877"
+   ]
+  },
+  {
+   "id": "o14-bulbo-periglomerulares",
+   "text_pt": "As células periglomerulares participam da {{c1::discriminação}} dos odores",
+   "cobre_texto": [
+    "cap:2877"
+   ]
+  },
+  {
+   "id": "o14-bulbo-granulares",
+   "text_pt": "As células granulares do bulbo olfatório recebem fibras eferentes de áreas centrais do encéfalo e {{c1::modulam}} os sinais aferentes",
+   "cobre_texto": [
+    "cap:2877"
+   ]
+  },
+  {
+   "id": "o14-bulbo-trato",
+   "text_pt": "Os axônios dos neurônios de projeção do bulbo olfatório formam o {{c1::trato olfatório}}",
+   "cobre_texto": [
+    "resumo:Olfactory bulb",
+    "resumo:Olfactory tract",
+    "cap:2877"
+   ]
+  },
+  {
+   "id": "o14-trato-conteudo",
+   "text_pt": "O trato olfatório inclui os axônios dos neurônios de projeção, o núcleo olfatório anterior e as fibras {{c1::eferentes}} (centrífugas) para o bulbo",
+   "cobre_texto": [
+    "resumo:Olfactory tract"
+   ]
+  },
+  {
+   "id": "o14-trato-trigono",
+   "text_pt": "O trato olfatório divide-se no {{c1::trígono olfatório}} nas estrias olfatórias medial e lateral",
+   "cobre_texto": [
+    "resumo:Olfactory striae",
+    "cap:981"
+   ]
+  },
+  {
+   "id": "o14-trato-perfurada",
+   "text_pt": "As estrias olfatórias medial e lateral formam os limites da substância {{c1::perfurada anterior}}",
+   "cobre_texto": [
+    "cap:981"
+   ]
+  },
+  {
+   "id": "o14-estrias",
+   "text_pt": "As estrias olfatórias são as divisões medial e {{c1::lateral}} do trato olfatório",
+   "cobre_texto": [
+    "resumo:Olfactory striae"
+   ]
+  },
+  {
+   "id": "o14-cortex-medial",
+   "text_pt": "A estria olfatória medial leva a informação à área subcalosa, ao giro paraterminal e à comissura {{c1::anterior}}",
+   "cobre_texto": [
+    "resumo:Olfactory cortex"
+   ]
+  },
+  {
+   "id": "o14-cortex-lateral",
+   "text_pt": "A estria olfatória lateral leva a informação ao tubérculo olfatório, ao córtex piriforme, ao núcleo amigdaloide cortical anterior, ao córtex periamigdaloide e ao córtex {{c1::entorrinal}} lateral",
+   "cobre_texto": [
+    "resumo:Olfactory cortex"
+   ]
+  },
+  {
+   "id": "o14-cortex-primario",
+   "text_pt": "O córtex olfatório primário é o córtex {{c1::piriforme}}",
+   "cobre_texto": [
+    "resumo:Olfactory cortex"
+   ]
+  },
+  {
+   "id": "o14-cortex-giro",
+   "text_pt": "O giro {{c1::ambiente}} (ambiens) faz parte da área olfatória do córtex",
+   "cobre_texto": [
+    "resumo:Olfactory cortex"
+   ],
+   "cobre": [
+    "ambient-gyrus"
+   ],
+   "estrutura": "ambient-gyrus"
+  },
+  {
+   "id": "o14-via-hipotalamo",
+   "text_pt": "No esquema da via olfatória, o {{c1::hipotálamo}} aparece entre as estruturas relacionadas ao córtex olfatório",
+   "cobre_texto": [
+    "resumo:Olfactory cortex"
+   ],
+   "cobre": [
+    "hypothalamus"
+   ],
+   "estrutura": "hypothalamus"
+  },
+  {
+   "id": "o14-fun-olfato",
+   "text_pt": "O nervo olfatório conduz o sentido do {{c1::olfato}}",
+   "cobre_texto": [
+    "resumo:Function/type of fibers"
+   ]
+  },
+  {
+   "id": "o14-fun-fibras",
+   "text_pt": "O nervo olfatório conduz fibras sensitivas especiais, aferentes viscerais especiais ({{c1::AVE}})",
+   "cobre_texto": [
+    "resumo:Function/type of fibers"
+   ]
+  }
+ ],
+ "netter": [],
+ "kenhub_sem_marcacao": {
+  "olfactory-fiber-bundles": "a figura do Kenhub desse item não traz destaque verde (imagem de outra estrutura); coberto por card de texto"
+ }
+}

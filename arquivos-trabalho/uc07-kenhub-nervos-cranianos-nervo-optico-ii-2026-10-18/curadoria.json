@@ -1,0 +1,310 @@
+{
+ "modulo": "nervos-cranianos",
+ "unidade": "nervo-optico-ii",
+ "unidade_kenhub": "the-optic-nerve",
+ "deck": "NEBLI::UC07::Nervos cranianos::Nervo óptico (II)",
+ "short": "u72ffb",
+ "lesson_id": "2026-uc07-nervos-cranianos-nervo-optico-ii",
+ "kenhub_excluir": {},
+ "nome_pt": {},
+ "nome_igual_ok": [],
+ "acervo": [],
+ "anking": [
+  {
+   "nid": 1480612597831,
+   "text_pt": "Os <b>colículos superiores</b> ajudam a coordenar o olhar {{c1::vertical conjugado}}",
+   "cobre_texto": [
+    "resumo:Superior colliculus"
+   ]
+  },
+  {
+   "nid": 1480612607294,
+   "text_pt": "Os <b>colículos {{c1::inferiores}}</b> são <b>estruturas auditivas</b>",
+   "cobre_texto": []
+  },
+  {
+   "nid": 1480908715773,
+   "text_pt": "A <u>informação auditiva</u> do <b>corpo geniculado medial</b> projeta-se para o <b>{{c1::córtex auditivo primário}}</b> do <b>giro temporal superior</b>",
+   "cobre_texto": []
+  },
+  {
+   "nid": 1481244800387,
+   "text_pt": "Lesões em áreas <u>posteriores ao quiasma óptico</u> causam déficits {{c1::binoculares}}, <i>homônimos</i> e {{c1::contralaterais}} do campo visual",
+   "cobre_texto": [
+    "resumo:Optic chiasm"
+   ]
+  },
+  {
+   "nid": 1480639894881,
+   "text_pt": "O <b>nervo craniano {{c1::II}}</b> é o <b>nervo {{c2::óptico}}</b>",
+   "cobre_texto": [
+    "resumo:Optic nerve (CN II)"
+   ]
+  },
+  {
+   "nid": 1483845128532,
+   "text_pt": "O <b>nervo craniano {{c2::II}}</b> e a <b>artéria {{c2::oftálmica}}</b> <u>saem</u> do crânio pelo <b>{{c1::canal óptico}}</b>",
+   "cobre_texto": [
+    "cap:603"
+   ]
+  },
+  {
+   "nid": 1480639911973,
+   "text_pt": "Lesões do <b>nervo craniano</b> {{c1::<b>II</b> (óptico)}} causam <u>déficits do campo visual</u> (anopsia)",
+   "cobre_texto": [
+    "resumo:Optic nerve (CN II)"
+   ]
+  },
+  {
+   "nid": 1481244661094,
+   "text_pt": "No <b>{{c2::quiasma óptico}}</b>, 60% das fibras ópticas da <u>metade {{c1::nasal}}</u> de cada retina <i>cruzam</i> e seguem para os <b>{{c3::tratos ópticos}}</b> contralaterais",
+   "cobre_texto": [
+    "resumo:Optic chiasm",
+    "resumo:Optic tracts"
+   ],
+   "extra_pt": "Assim, a imagem temporal decussa."
+  },
+  {
+   "nid": 1481244681819,
+   "text_pt": "Os axônios do <u>corpo geniculado lateral</u> que se projetam para o <b>córtex {{c1::visual primário (estriado)}}</b> são chamados de <b>{{c2::radiações}}</b> ópticas",
+   "cobre_texto": [
+    "resumo:Lateral geniculate nucleus",
+    "resumo:Optic radiation"
+   ]
+  },
+  {
+   "nid": 1481244730798,
+   "text_pt": "A informação visual da <u>retina {{c2::superior}}</u> segue pela <b>radiação óptica dorsal</b> (lobo parietal) antes de fazer sinapse no giro do {{c1::<b>cúneo</b>}}",
+   "cobre_texto": [
+    "resumo:Optic radiation",
+    "resumo:Primary visual cortex"
+   ],
+   "extra_pt": "Isto é, imagens do campo visual contralateral inferior; passa pela cápsula interna."
+  },
+  {
+   "nid": 1481244695864,
+   "text_pt": "A <b>informação visual</b> da <u>retina {{c3::inferior}}</u> segue pela {{c1::<b>alça de Meyer</b>}} (lobo temporal) antes de fazer sinapse no giro <b>{{c2::lingual}}</b>",
+   "cobre_texto": [
+    "resumo:Optic radiation",
+    "resumo:Primary visual cortex"
+   ],
+   "extra_pt": "Isto é, imagens do campo visual contralateral superior; passa ao redor do corno inferior do ventrículo lateral."
+  },
+  {
+   "nid": 1481244741891,
+   "text_pt": "Qual é a <u>orientação</u> de uma imagem ao chegar ao <b>córtex visual primário</b>? {{c1::De cabeça para baixo}} e com direita e esquerda invertidas",
+   "cobre_texto": [
+    "resumo:Primary visual cortex"
+   ]
+  },
+  {
+   "nid": 1481244345355,
+   "text_pt": "A saída dos <u>fotorreceptores</u> (cones e bastonetes) é transmitida às <b>células {{c1::bipolares}}</b>, que ficam na <b>camada {{c2::nuclear interna}}</b> da retina",
+   "cobre_texto": [
+    "resumo:Retina"
+   ],
+   "extra_pt": "A sinapse em si ocorre na camada plexiforme externa."
+  },
+  {
+   "nid": 1481244362035,
+   "text_pt": "Os axônios das <b>células {{c2::ganglionares}}</b> da retina saem do olho pelo <b>nervo {{c1::óptico}}</b>",
+   "cobre_texto": [
+    "resumo:Optic nerve (CN II)"
+   ]
+  },
+  {
+   "nid": 1481244650225,
+   "text_pt": "As <u>imagens</u> percebidas no <b>hemicampo nasal</b> estimulam as células da <b>metade {{c1::temporal}}</b> da retina ipsilateral (e vice-versa)",
+   "cobre_texto": [
+    "resumo:Optic chiasm",
+    "resumo:Optic tracts"
+   ],
+   "extra_pt": "Isto é, imagens do hemicampo temporal estimulam a retina nasal."
+  },
+  {
+   "nid": 1481244670461,
+   "text_pt": "A maioria das fibras do <b>trato óptico</b> projeta-se para o <b>{{c1::corpo geniculado lateral}}</b> do tálamo",
+   "cobre_texto": [
+    "resumo:Lateral geniculate nucleus",
+    "resumo:Optic tracts"
+   ]
+  },
+  {
+   "nid": 1480639909177,
+   "text_pt": "Lesões do <b>nervo craniano </b>{{c1::<b>II</b> (óptico)}} causam perda do <u>ramo sensitivo</u> do <b>reflexo luminoso</b>",
+   "cobre_texto": [
+    "resumo:Optic nerve (CN II)"
+   ]
+  }
+ ],
+ "cores": {
+  "colliculus-superior": "azul",
+  "colliculus-inferior": "rosa",
+  "corpus-geniculatum-laterale": "verde",
+  "corpus-geniculatum-mediale": "rosa",
+  "chiasma-opticum": "verde",
+  "optic-radiation": "verde",
+  "nervus-opticus": "verde",
+  "optic-tract": "verde",
+  "bulbi-oculi": "verde"
+ },
+ "texto": [
+  {
+   "id": "o15-via-lgn",
+   "text_pt": "Na via visual principal: retina → nervo óptico → quiasma óptico → trato óptico → {{c1::núcleo geniculado lateral}} → radiação óptica → córtex visual primário",
+   "cobre_texto": [
+    "resumo:Components",
+    "cap:603"
+   ]
+  },
+  {
+   "id": "o15-via-colicular",
+   "text_pt": "Na via visual secundária: retina → nervo óptico → quiasma → trato óptico → {{c1::colículo superior}} → pulvinar do tálamo → córtex visual secundário",
+   "cobre_texto": [
+    "resumo:Components",
+    "cap:603"
+   ]
+  },
+  {
+   "id": "o15-retina",
+   "text_pt": "A retina é a camada neural sensitiva do {{c1::globo ocular}}",
+   "cobre_texto": [
+    "resumo:Retina"
+   ]
+  },
+  {
+   "id": "o15-retina-neuronios",
+   "text_pt": "Os neurônios da retina são fotorreceptores (cones e bastonetes), células bipolares, células ganglionares, células horizontais e células {{c1::amácrinas}}",
+   "cobre_texto": [
+    "resumo:Retina"
+   ]
+  },
+  {
+   "id": "o15-nervo-disco",
+   "text_pt": "O nervo óptico é formado pelos axônios das células ganglionares, reunidos no disco do {{c1::nervo óptico}}",
+   "cobre_texto": [
+    "resumo:Optic nerve (CN II)"
+   ]
+  },
+  {
+   "id": "o15-quiasma-def",
+   "text_pt": "O quiasma óptico é o ponto de {{c1::decussação}} dos nervos ópticos",
+   "cobre_texto": [
+    "resumo:Optic chiasm"
+   ]
+  },
+  {
+   "id": "o15-quiasma-nasais",
+   "text_pt": "No quiasma óptico, as fibras {{c1::nasais}} da retina cruzam para o trato óptico contralateral",
+   "cobre_texto": [
+    "resumo:Optic chiasm"
+   ]
+  },
+  {
+   "id": "o15-quiasma-temporais",
+   "text_pt": "No quiasma óptico, as fibras {{c1::temporais}} da retina permanecem do mesmo lado (ipsilaterais)",
+   "cobre_texto": [
+    "resumo:Optic chiasm"
+   ]
+  },
+  {
+   "id": "o15-trato-esq",
+   "text_pt": "O trato óptico esquerdo leva as fibras temporais esquerdas e as fibras nasais {{c1::direitas}} da retina",
+   "cobre_texto": [
+    "resumo:Optic tracts"
+   ]
+  },
+  {
+   "id": "o15-trato-dir",
+   "text_pt": "O trato óptico direito leva as fibras temporais direitas e as fibras nasais {{c1::esquerdas}} da retina",
+   "cobre_texto": [
+    "resumo:Optic tracts"
+   ]
+  },
+  {
+   "id": "o15-lgn-90",
+   "text_pt": "O núcleo geniculado lateral recebe cerca de {{c1::90%}} das fibras da retina",
+   "cobre_texto": [
+    "resumo:Lateral geniculate nucleus",
+    "cap:603"
+   ]
+  },
+  {
+   "id": "o15-lgn-relay",
+   "text_pt": "O núcleo geniculado lateral é uma estação de retransmissão do tálamo que se projeta ao córtex visual primário pela radiação {{c1::óptica}}",
+   "cobre_texto": [
+    "resumo:Lateral geniculate nucleus"
+   ]
+  },
+  {
+   "id": "o15-sc-10",
+   "text_pt": "O colículo superior recebe cerca de {{c1::10%}} das fibras da retina",
+   "cobre_texto": [
+    "resumo:Superior colliculus",
+    "cap:603"
+   ]
+  },
+  {
+   "id": "o15-sc-funcao",
+   "text_pt": "O colículo superior integra informação espacial visual, auditiva e somatossensitiva e controla os movimentos reflexos dos {{c1::olhos}}",
+   "cobre_texto": [
+    "resumo:Superior colliculus",
+    "cap:603"
+   ]
+  },
+  {
+   "id": "o15-sc-pulvinar",
+   "text_pt": "O colículo superior projeta-se ao pulvinar do tálamo, que se projeta ao córtex visual {{c1::secundário}}",
+   "cobre_texto": [
+    "cap:603"
+   ]
+  },
+  {
+   "id": "o15-sc-reflexos",
+   "text_pt": "O colículo superior participa de reflexos visuais, como os movimentos {{c1::sacádicos}} dos olhos e o acompanhamento de objetos",
+   "cobre_texto": [
+    "cap:603"
+   ]
+  },
+  {
+   "id": "o15-rad-def",
+   "text_pt": "A radiação óptica é um grande feixe bilateral de fibras, com duas divisões que recebem a informação dos quadrantes {{c1::superior}} e inferior dos hemicampos contralaterais",
+   "cobre_texto": [
+    "resumo:Optic radiation"
+   ],
+   "cobre": [
+    "optic-radiation"
+   ],
+   "estrutura": "optic-radiation"
+  },
+  {
+   "id": "o15-vc-brodmann",
+   "text_pt": "O córtex visual primário corresponde à área de Brodmann {{c1::17}}, no lobo occipital",
+   "cobre_texto": [
+    "resumo:Primary visual cortex"
+   ]
+  },
+  {
+   "id": "o15-vc-campo",
+   "text_pt": "O córtex visual primário recebe e processa informação do campo visual {{c1::contralateral}}",
+   "cobre_texto": [
+    "resumo:Primary visual cortex"
+   ]
+  },
+  {
+   "id": "o15-cam-canal",
+   "text_pt": "O nervo óptico leva a informação da retina ao quiasma óptico, na fossa média do crânio, pelo canal {{c1::óptico}}",
+   "cobre_texto": [
+    "cap:603"
+   ]
+  },
+  {
+   "id": "o15-cam-trato",
+   "text_pt": "Do quiasma óptico, os axônios seguem posteriormente como {{c1::trato óptico}}, que faz sinapse no núcleo geniculado lateral",
+   "cobre_texto": [
+    "cap:603"
+   ]
+  }
+ ],
+ "netter": []
+}

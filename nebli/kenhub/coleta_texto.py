@@ -52,7 +52,7 @@ def analisar(texto: str) -> list[dict]:
         elif modo == "resumo":
             if "\t" in l:
                 rot, _, val = l.strip().partition("\t")
-                chave = f"resumo:{rot.strip()}"
+                chave = "resumo:" + re.sub(r"\s+", " ", rot.replace("\u00a0", " ")).strip()
                 repetidas = sum(1 for o in out if o["chave"].split("#")[0] == chave)
                 ultimo = {"chave": chave + (f"#{repetidas + 1}" if repetidas else ""), "tipo": "resumo", "en": val.strip()}
                 out.append(ultimo)

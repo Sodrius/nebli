@@ -57,15 +57,15 @@ Fonte: `Cronograma 2026 — UC07 — Sistema Nervoso I — Turma B.pdf` (Drive, 
 | 8 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 34 | Vias neurais | Tratos piramidais | `pyramidal-tracts` | 24 | 24 | **instalada 18/10 (66 notas)** |
 | 9 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 35 | Vias neurais | Via coluna posterior–lemnisco medial | `posterior-column-medial-lemniscus-pathway` | 22 | 22 | **instalada 18/10 (60 notas)** |
 | 10 | 14/10 · Tronco encefálico (Jácomo) | 20 | Tronco encefálico | Visão geral e anatomia de superfície | `brainstem-and-related-structures` | 67 | 68 | **instalada 18/10 (153 notas, revisada)** |
-| 11 | 14/10 · Tronco encefálico (Jácomo) | 21 | Tronco encefálico | Bulbo (anatomia interna) | `medulla-hypoglossal-level` | 29 | 30 | coletada; rascunho gerado; falta curar |
-| 12 | 14/10 · Tronco encefálico (Jácomo) | 22 | Tronco encefálico | Núcleos dos nervos cranianos | `the-cranial-nerve-nuclei` | 33 | 57 | coletada; rascunho gerado; falta curar |
-| 13 | 14/10 · Nervos cranianos (Jácomo) | 37 | Nervos cranianos | Os 12 nervos cranianos | `overview-of-cranial-nerves` | 13 | 12 | a fazer |
-| 14 | 14/10 · Nervos cranianos (Jácomo) | 38 | Nervos cranianos | Nervo olfatório (I) | `the-olfactory-nerve` | 32 | 35 | a fazer |
-| 15 | 14/10 · Nervos cranianos (Jácomo) | 39 | Nervos cranianos | Nervo óptico (II) | `the-optic-nerve` | 9 | 9 | a fazer |
-| 16 | 14/10 · Nervos cranianos (Jácomo) | 40 | Nervos cranianos | Nervos oculomotor, troclear e abducente (III, IV, VI) | `the-oculomotor-trochlear-and-abducens-nerves` | 12 | 12 | a fazer |
-| 17 | 14/10 · Nervos cranianos (Jácomo) | 41 | Nervos cranianos | Nervo oftálmico (V1) | `the-ophthalmic-nerve` | 19 | 19 | a fazer |
-| 18 | 14/10 · Nervos cranianos (Jácomo) | 42 | Nervos cranianos | Nervo maxilar (V2) | `the-maxillary-nerve` | 18 | 18 | a fazer |
-| 19 | 14/10 · Nervos cranianos (Jácomo) | 43 | Nervos cranianos | Nervo mandibular (V3) | `the-mandibular-nerve` | 28 | 28 | a fazer |
+| 11 | 14/10 · Tronco encefálico (Jácomo) | 21 | Tronco encefálico | Bulbo (anatomia interna) | `medulla-hypoglossal-level` | 29 | 30 | **instalada 18/10 (74 notas)** |
+| 12 | 14/10 · Tronco encefálico (Jácomo) | 22 | Tronco encefálico | Núcleos dos nervos cranianos | `the-cranial-nerve-nuclei` | 33 | 57 | **instalada 18/10 (108 notas)** |
+| 13 | 14/10 · Nervos cranianos (Jácomo) | 37 | Nervos cranianos | Os 12 nervos cranianos | `overview-of-cranial-nerves` | 13 | 12 | **instalada 18/10 (105 notas)** |
+| 14 | 14/10 · Nervos cranianos (Jácomo) | 38 | Nervos cranianos | Nervo olfatório (I) | `the-olfactory-nerve` | 32 | 35 | **instalada 18/10 (55 notas)** |
+| 15 | 14/10 · Nervos cranianos (Jácomo) | 39 | Nervos cranianos | Nervo óptico (II) | `the-optic-nerve` | 9 | 9 | **instalada 18/10 (46 notas)** |
+| 16 | 14/10 · Nervos cranianos (Jácomo) | 40 | Nervos cranianos | Nervos oculomotor, troclear e abducente (III, IV, VI) | `the-oculomotor-trochlear-and-abducens-nerves` | 12 | 12 | **coletada; rascunho gerado; falta curar** |
+| 17 | 14/10 · Nervos cranianos (Jácomo) | 41 | Nervos cranianos | Nervo oftálmico (V1) | `the-ophthalmic-nerve` | 19 | 19 | **coletada; rascunho gerado; falta curar** |
+| 18 | 14/10 · Nervos cranianos (Jácomo) | 42 | Nervos cranianos | Nervo maxilar (V2) | `the-maxillary-nerve` | 18 | 18 | **coletada; rascunho gerado; falta curar** |
+| 19 | 14/10 · Nervos cranianos (Jácomo) | 43 | Nervos cranianos | Nervo mandibular (V3) | `the-mandibular-nerve` | 28 | 28 | **coletada; rascunho gerado; falta curar** |
 | 20 | 14/10 · Nervos cranianos (Jácomo) | 44 | Nervos cranianos | Nervo facial (VII) | `course-and-branches-of-facial-nerve` | 27 | 26 | a fazer |
 | 21 | 14/10 · Nervos cranianos (Jácomo) | 45 | Nervos cranianos | Nervo vestibulococlear (VIII) | `course-and-branches-of-vestibulocochlear-nerve` | 19 | 19 | a fazer |
 | 22 | 14/10 · Nervos cranianos (Jácomo) | 46 | Nervos cranianos | Nervo glossofaríngeo (IX) | `branches-and-nuclei-of-ninth-cranial-nerve` | 50 | 50 | a fazer |

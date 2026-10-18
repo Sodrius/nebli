@@ -165,7 +165,15 @@ def plano(corrida: Path, A):
         s = i["slug"]
         if s not in cur["cores"]:
             problemas.append(f"[cobertura] sem cor: {s}")
-        if not i.get("sem_figura") and s not in excluir:  # prioridade Kenhub (F-20261017-CLAUDE-02)
+        if s in cur.get("kenhub_sem_marcacao", {}):   # figura do Kenhub sem destaque verde (ex.: imagem errada): só vale se a marcação realmente não existe
+            arq_ = base / i["arquivo"]
+            try:
+                tem_verde = bool(mascara.regiao(str(arq_)).any())
+            except ValueError:   # “sem marcação verde”: é exatamente o caso previsto
+                tem_verde = False
+            if not i.get("sem_figura") and tem_verde:
+                problemas.append(f"[kenhub-sempre] {s}: tem marcação verde — o card do Kenhub é obrigatório (tire de kenhub_sem_marcacao)")
+        elif not i.get("sem_figura") and s not in excluir:  # prioridade Kenhub (F-20261017-CLAUDE-02)
             entradas.append({"tipo": "kenhub", "chave": f"kh-{s}", "slug": s, "item": i, "cobre": [s], "estrutura": s})
         for d_ in depois(s):
             entradas.append(dict(d_, estrutura=d_.get("apos") or d_.get("slug") or s))
@@ -557,6 +565,8 @@ def gates_pre(entradas, cur):
         k = e["chave"]
         if any(CLOZE_RE.search(v) for kk, v in e["campos"].items() if kk != "Text"):   # o Anki recusa a nota (“unknown reason”)
             p.append(f"[montagem] {k}: marcação de cloze fora do campo Text")
+        if re.search(r"\b(kenhub|netter|anking|anatoking|photo credit|wikimedia|physeo)\b", re.sub(r"<[^>]+>", " ", " ".join(str(v) for k_, v in e["campos"].items() if k_ in ("Text", "Extra", "Pergunta"))), re.I):
+            p.append(f"[G14 sem fonte] {k}: o texto do card cita a fonte (Kenhub/AnKing/Netter…) — a fonte não aparece em texto")
         if e["campos"].get("Fonte"):
             p.append(f"[G14 sem fonte] {k}: campo Fonte preenchido ({e['campos']['Fonte'][:30]!r})")
         if e.get("falta_midia"):

@@ -1,0 +1,403 @@
+{
+ "modulo": "tronco-encefalico",
+ "unidade": "bulbo-anatomia-interna",
+ "unidade_kenhub": "medulla-hypoglossal-level",
+ "deck": "NEBLI::UC07::Tronco encefálico::Bulbo (anatomia interna)",
+ "short": "u7c809",
+ "lesson_id": "2026-uc07-tronco-encefalico-bulbo-anatomia-interna",
+ "kenhub_excluir": {},
+ "nome_pt": {},
+ "nome_igual_ok": [],
+ "acervo": [],
+ "anking": [
+  {
+   "nid": 1480995168622,
+   "text_pt": "As lesões do <b>fascículo longitudinal medial</b> (FLM) na <u>esclerose múltipla</u> são classicamente <i>uni</i> ou <i>bilaterais</i>? {{c1::Bilaterais}}",
+   "cobre_texto": [
+    "resumo:Tracts#2",
+    "cap:412"
+   ]
+  },
+  {
+   "nid": 1480995161468,
+   "text_pt": "O <b>fascículo longitudinal medial</b> (FLM) é {{c1::<u>muito</u>::muito ou pouco}} <b>mielinizado</b>",
+   "cobre_texto": [
+    "resumo:Tracts#2",
+    "cap:412"
+   ],
+   "extra_pt": "Precisa comunicar rápido para que os olhos se movam ao mesmo tempo."
+  },
+  {
+   "nid": 1480992359270,
+   "text_pt": "O {{c1::<b>fascículo longitudinal medial</b> (FLM)}} é um par de tratos que permite a comunicação entre os núcleos dos nervos <b>{{c2::VI}}</b> e <b>{{c2::III}}</b>",
+   "cobre_texto": [
+    "resumo:Tracts#2",
+    "cap:412"
+   ],
+   "extra_pt": "Coordena os dois olhos para se moverem na mesma direção (olhar horizontal conjugado)."
+  },
+  {
+   "nid": 1480995171884,
+   "text_pt": "Qual <u>patologia neurológica</u> causa mais comumente <b>lesões do fascículo longitudinal medial</b>? {{c1::Esclerose múltipla}}",
+   "cobre_texto": [
+    "resumo:Tracts#2"
+   ],
+   "extra_pt": "Exemplo: oftalmoplegia internuclear esquerda."
+  },
+  {
+   "nid": 1480876198182,
+   "text_pt": "O <b>núcleo {{c2::espinal do trigêmeo::tronco encefálico}}</b> recebe informação de {{c1::dor}} e {{c1::temperatura}} da face <i>ipsilateral</i>",
+   "cobre_texto": [
+    "resumo:Nuclei#2"
+   ]
+  },
+  {
+   "nid": 1480995268480,
+   "text_pt": "Lesões no <u>tronco encefálico</u> que afetam o <b>{{c1::núcleo espinal do trigêmeo}}</b> causam alteração {{c2::ipsi}}lateral da <b>dor</b> e da <b>temperatura</b> na <u>face</u>, na distribuição do nervo V",
+   "cobre_texto": [
+    "resumo:Nuclei#2"
+   ]
+  },
+  {
+   "nid": 1480874998644,
+   "text_pt": "Qual <u>núcleo do nervo trigêmeo</u> recebe <b>dor</b> e <b>temperatura</b> das áreas do nervo V? {{c1::Núcleo espinal do trigêmeo}}",
+   "cobre_texto": [
+    "resumo:Nuclei#2"
+   ],
+   "extra_pt": "Estende-se da parte superior da medula cervical (C2) até a entrada do nervo V na ponte."
+  },
+  {
+   "nid": 1480875955623,
+   "text_pt": "O <b>núcleo</b> {{c1::<b>ambíguo</b>}} supre a <u>inervação motora</u> da faringe, da laringe e da parte superior do esôfago (por exemplo, deglutição e elevação do palato)",
+   "cobre_texto": [
+    "resumo:Nuclei#2",
+    "cap:280"
+   ]
+  },
+  {
+   "nid": 1480477580477,
+   "text_pt": "Os tratos <b>espinocerebelar posterior</b> e <b>cuneocerebelar</b> entram no cerebelo pelo <b>{{c1::pedúnculo cerebelar inferior}}</b>",
+   "cobre_texto": [
+    "resumo:Tracts#2"
+   ],
+   "extra_pt": "Assim, uma lesão do pedúnculo cerebelar inferior pode causar ataxia e dismetria ipsilaterais."
+  },
+  {
+   "nid": 1483845099719,
+   "text_pt": "O {{c1::sistema ativador reticular}} é formado pela <b>formação reticular</b>, pelo <b>locus ceruleus</b> e pelo <b>núcleo da rafe</b>",
+   "cobre_texto": [
+    "resumo:Reticular formation#2",
+    "resumo:Reticular formation"
+   ]
+  },
+  {
+   "nid": 1481048543678,
+   "text_pt": "O <b>{{c1::núcleo da rafe}}</b> da <u>formação reticular</u> é responsável pela <i>síntese</i> de <b>{{c2::serotonina}}</b>",
+   "cobre_texto": [
+    "resumo:Reticular formation#2",
+    "resumo:Reticular formation"
+   ],
+   "extra_pt": "Participa do humor, da agressividade e da indução do sono não-REM. Fica na ponte."
+  },
+  {
+   "nid": 1481131042169,
+   "text_pt": "As <b>fibras {{c2::trepadeiras}}</b> que entram no <u>cerebelo</u> originam-se dos <b>núcleos {{c1::olivares inferiores}}</b> do <b>bulbo</b> <i>contralateral</i>",
+   "cobre_texto": [
+    "resumo:Nuclei#2"
+   ]
+  },
+  {
+   "nid": 1480477422440,
+   "text_pt": "Os axônios dos <u>neurônios de 2ª ordem</u> da <b>coluna posterior</b> reúnem-se em um feixe de axônios chamado {{c1::lemnisco medial}}",
+   "cobre_texto": [
+    "cap:280",
+    "resumo:Tracts#2"
+   ]
+  },
+  {
+   "nid": 1480875974012,
+   "text_pt": "Os <u>axônios</u> do <b>núcleo grácil</b> e do <b>cuneiforme</b> são chamados de <b>fibras {{c1::arqueadas internas}}</b> <i>antes de decussar</i>",
+   "cobre_texto": [
+    "cap:280",
+    "resumo:Tracts"
+   ]
+  },
+  {
+   "nid": 1480477404374,
+   "text_pt": "O <b>núcleo cuneiforme</b> e o <b>núcleo grácil</b> ficam no {{c1::bulbo caudal}}",
+   "cobre_texto": [
+    "resumo:Nuclei#2"
+   ]
+  },
+  {
+   "nid": 1480640603407,
+   "text_pt": "O nervo craniano {{c1::XII}} é o nervo {{c2::hipoglosso}}",
+   "cobre_texto": [
+    "resumo:Nuclei"
+   ]
+  }
+ ],
+ "cores": {
+  "medial-longitudinal-fasciculus": "verde",
+  "hypoglossal-nucleus": "verde",
+  "hypoglossal-nerve": "azul",
+  "internal-arcuate-fibers": "verde",
+  "medial-lemniscus": "verde",
+  "solitary-tract": "azul",
+  "gracile-nucleus": "verde",
+  "cuneate-nucleus": "verde",
+  "olivocerebellar-tract": "rosa",
+  "superficial-arcuate-fibers": "rosa",
+  "nucleus-spinalis-nervi-trigemini": "verde",
+  "spinal-tract-of-trigeminal-nerve": "azul",
+  "nucleus-ambiguus": "verde",
+  "lateral-reticular-nucleus": "rosa",
+  "dorsal-accessory-olivary-nucleus": "rosa",
+  "nuclei-olivares": "azul",
+  "pyramidal-tract": "verde",
+  "arcuate-nucleus": "rosa",
+  "raphe-nuclei": "azul",
+  "reticular-formation": "verde",
+  "inferior-central-nucleus": "rosa",
+  "spinocerebellar-tract": "azul",
+  "dorsal-nucleus-of-vagus-nerve": "verde",
+  "nucleus-of-solitary-tract": "verde",
+  "medial-vestibular-nucleus": "azul",
+  "inferior-cerebellar-peduncle": "azul",
+  "spinothalamic-tract": "azul",
+  "inferior-olivary-nucleus": "verde",
+  "medial-accessory-olivary-nucleus": "rosa"
+ },
+ "texto": [
+  {
+   "id": "b11-nuc-cranianos",
+   "text_pt": "Os núcleos dos nervos cranianos do bulbo são: núcleo espinal do trigêmeo, núcleo do trato solitário, núcleo ambíguo, núcleo posterior do vago e núcleo do {{c1::hipoglosso}}",
+   "cobre_texto": [
+    "resumo:Nuclei",
+    "resumo:Nuclei#2"
+   ]
+  },
+  {
+   "id": "b11-nuc-retransmissao",
+   "text_pt": "Os núcleos de retransmissão do bulbo incluem os núcleos grácil e cuneiforme, o núcleo arqueado e os núcleos {{c1::olivares}}",
+   "cobre_texto": [
+    "resumo:Nuclei"
+   ]
+  },
+  {
+   "id": "b11-nuc-reticulares",
+   "text_pt": "Os núcleos reticulares do bulbo incluem o núcleo reticular lateral, os núcleos da {{c1::rafe}} e o núcleo sub-hipoglosso",
+   "cobre_texto": [
+    "resumo:Nuclei",
+    "resumo:Nuclei#2"
+   ]
+  },
+  {
+   "id": "b11-nuc-olivares",
+   "text_pt": "Os núcleos olivares de retransmissão são o olivar inferior principal e os olivares acessórios posterior e {{c1::medial}}",
+   "cobre_texto": [
+    "resumo:Nuclei#2"
+   ]
+  },
+  {
+   "id": "b11-nuc-vestibular",
+   "text_pt": "Entre os núcleos de nervos cranianos do bulbo está também o núcleo vestibular {{c1::medial}}",
+   "cobre_texto": [
+    "resumo:Nuclei#2"
+   ]
+  },
+  {
+   "id": "b11-tr-motor",
+   "text_pt": "O trato motor do bulbo é o trato {{c1::piramidal}}",
+   "cobre_texto": [
+    "resumo:Tracts",
+    "resumo:Tracts#2"
+   ]
+  },
+  {
+   "id": "b11-tr-sensitivos",
+   "text_pt": "Os tratos sensitivos do bulbo incluem o trato espinal do trigêmeo, o lemnisco medial, o fascículo longitudinal medial, o pedúnculo cerebelar inferior, o trato solitário, o trato espinocerebelar e o trato {{c1::espinotalâmico}}",
+   "cobre_texto": [
+    "resumo:Tracts#2"
+   ]
+  },
+  {
+   "id": "b11-tr-outros",
+   "text_pt": "Também se descrevem no bulbo o trato olivocerebelar, as fibras arqueadas superficiais, o trato tegmentar central e as fibras arqueadas {{c1::internas}}",
+   "cobre_texto": [
+    "resumo:Tracts"
+   ]
+  },
+  {
+   "id": "b11-reticular",
+   "text_pt": "A formação reticular é composta por numerosos núcleos (grupos lateral, medial e mediano) e por fibras ascendentes e {{c1::descendentes}}",
+   "cobre_texto": [
+    "resumo:Reticular formation",
+    "resumo:Reticular formation#2"
+   ]
+  },
+  {
+   "id": "b11-v-aberto",
+   "text_pt": "No nível do vago, o canal central se abre no quarto ventrículo e forma a parte {{c1::superior (aberta)}} do bulbo",
+   "cobre_texto": [
+    "cap:412"
+   ]
+  },
+  {
+   "id": "b11-v-vago",
+   "text_pt": "Parte do nervo vago origina-se do núcleo posterior do vago; o restante, principalmente do núcleo {{c1::ambíguo}}",
+   "cobre_texto": [
+    "cap:412"
+   ]
+  },
+  {
+   "id": "b11-v-roller",
+   "text_pt": "Medialmente ao núcleo posterior do vago ficam o núcleo do hipoglosso e o núcleo {{c1::sub-hipoglosso}} (de Roller)",
+   "cobre_texto": [
+    "cap:412"
+   ],
+   "cobre": [
+    "inferior-central-nucleus"
+   ],
+   "estrutura": "inferior-central-nucleus"
+  },
+  {
+   "id": "b11-v-vestibular",
+   "text_pt": "No nível do vago, os núcleos do funículo posterior terminam para dar lugar ao núcleo vestibular {{c1::medial}}",
+   "cobre_texto": [
+    "cap:412"
+   ]
+  },
+  {
+   "id": "b11-v-pedunculo",
+   "text_pt": "O pedúnculo cerebelar {{c1::inferior}} começa a aparecer no nível do vago, cercado por muitos núcleos",
+   "cobre_texto": [
+    "cap:412"
+   ]
+  },
+  {
+   "id": "b11-v-reticular",
+   "text_pt": "No nível do vago, a formação reticular é grande: fica anterior aos núcleos do hipoglosso e do vago e lateral ao fascículo longitudinal {{c1::medial}}",
+   "cobre_texto": [
+    "cap:412"
+   ]
+  },
+  {
+   "id": "b11-v-oliva",
+   "text_pt": "No nível do vago, o núcleo olivar inferior principal se expande e forma a {{c1::oliva}}, na face anterolateral do bulbo",
+   "cobre_texto": [
+    "cap:412"
+   ]
+  },
+  {
+   "id": "b11-v-acessorios",
+   "text_pt": "Os núcleos olivares acessórios medial e posterior ficam, respectivamente, medial e {{c1::posterior}} à oliva",
+   "cobre_texto": [
+    "cap:412"
+   ]
+  },
+  {
+   "id": "b11-v-rafe",
+   "text_pt": "Na linha média, as fibras decussantes do lemnisco medial formam uma costura chamada {{c1::rafe}}",
+   "cobre_texto": [
+    "cap:412"
+   ]
+  },
+  {
+   "id": "b11-v-nucleos-rafe",
+   "text_pt": "De cada lado da rafe há agrupamentos de neurônios, os núcleos da rafe, que pertencem à formação {{c1::reticular}}",
+   "cobre_texto": [
+    "cap:412"
+   ]
+  },
+  {
+   "id": "b11-v-flm",
+   "text_pt": "O fascículo longitudinal medial sobe pelo tronco encefálico ao longo da linha média {{c1::dorsal}}",
+   "cobre_texto": [
+    "cap:412"
+   ]
+  },
+  {
+   "id": "b11-v-tratos",
+   "text_pt": "Os tratos espinotalâmico e espinocerebelar mantêm posição anterolateral, logo dorsais à {{c1::oliva}}",
+   "cobre_texto": [
+    "cap:412"
+   ]
+  },
+  {
+   "id": "b11-h-cinzenta",
+   "text_pt": "No bulbo, os núcleos (substância cinzenta) ficam sobretudo na parte {{c1::dorsal}}, e os tratos (substância branca) passam sobretudo pela parte ventral",
+   "cobre_texto": [
+    "cap:280"
+   ]
+  },
+  {
+   "id": "b11-h-marcos",
+   "text_pt": "No nível do hipoglosso, os marcos de substância branca mais evidentes são as pirâmides, o lemnisco medial e o fascículo longitudinal {{c1::medial}}",
+   "cobre_texto": [
+    "cap:280"
+   ]
+  },
+  {
+   "id": "b11-h-decussacao",
+   "text_pt": "A decussação sensitiva é a decussação do {{c1::lemnisco medial}}, vista no nível do hipoglosso",
+   "cobre_texto": [
+    "cap:280"
+   ]
+  },
+  {
+   "id": "b11-h-arqueadas",
+   "text_pt": "As fibras arqueadas internas saem dos núcleos grácil e cuneiforme e cruzam a linha média, formando o lemnisco medial do lado {{c1::contralateral}}",
+   "cobre_texto": [
+    "cap:280"
+   ]
+  },
+  {
+   "id": "b11-h-olivocerebelar",
+   "text_pt": "As fibras do trato olivocerebelar juntam-se às fibras arqueadas internas e seguem para o pedúnculo cerebelar {{c1::inferior}}",
+   "cobre_texto": [
+    "cap:280"
+   ]
+  },
+  {
+   "id": "b11-h-olivares",
+   "text_pt": "A estrutura de substância cinzenta mais evidente no nível do hipoglosso são os núcleos {{c1::olivares}}, dorsais e laterais às pirâmides",
+   "cobre_texto": [
+    "cap:280"
+   ]
+  },
+  {
+   "id": "b11-h-dorsais",
+   "text_pt": "Dorsalmente aos núcleos olivares ficam o núcleo ambíguo, o núcleo espinal do trigêmeo, o núcleo do hipoglosso e o núcleo do trato {{c1::solitário}}",
+   "cobre_texto": [
+    "cap:280"
+   ],
+   "cobre": [
+    "nucleus-of-solitary-tract"
+   ],
+   "estrutura": "nucleus-of-solitary-tract"
+  },
+  {
+   "id": "b11-h-hipoglosso",
+   "text_pt": "O nervo hipoglosso sai do bulbo no sulco {{c1::pré-olivar}}",
+   "cobre_texto": [
+    "cap:280"
+   ]
+  },
+  {
+   "id": "b11-h-arqueado",
+   "text_pt": "O núcleo {{c1::arqueado}} fica na face anteromedial de cada pirâmide, junto à fissura mediana anterior",
+   "cobre_texto": [
+    "cap:280"
+   ]
+  },
+  {
+   "id": "b11-h-estrias",
+   "text_pt": "O núcleo arqueado projeta fibras arqueocerebelares, que formam as estrias {{c1::medulares}} do quarto ventrículo",
+   "cobre_texto": [
+    "cap:280"
+   ]
+  }
+ ],
+ "netter": []
+}
