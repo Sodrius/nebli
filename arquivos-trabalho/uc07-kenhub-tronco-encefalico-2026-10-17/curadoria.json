@@ -136,7 +136,7 @@
     "lamina-of-mesencephalic-tectum"
    ],
    "nota": "sem figura no Kenhub; corpos quadrigêmeos = lâmina do teto (AnatoKing)",
-   "pt": "Lâmina quadrigêmea"
+   "pt": "Lâmina do teto"
   }
  ],
  "anking": [
@@ -146,16 +146,25 @@
   },
   {
    "nid": 1480876095292,
-   "text_pt": "Que parte do tronco encefálico contém os núcleos dos nervos cranianos IX, X e XII? {{c1::Bulbo}}"
+   "text_pt": "Que parte do tronco encefálico contém os núcleos dos nervos cranianos IX, X e XII? {{c1::Bulbo}}",
+   "cobre_texto": [
+    "resumo:Medulla oblongata"
+   ]
   },
   {
    "nid": 1480875085160,
-   "text_pt": "Que parte do tronco encefálico contém os núcleos dos nervos cranianos V, VI, VII e VIII? {{c1::Ponte}}"
+   "text_pt": "Que parte do tronco encefálico contém os núcleos dos nervos cranianos V, VI, VII e VIII? {{c1::Ponte}}",
+   "cobre_texto": [
+    "resumo:Pons"
+   ]
   },
   {
    "nid": 1480874926420,
    "text_pt": "Que parte do tronco encefálico contém os núcleos dos nervos cranianos III e IV? {{c1::Mesencéfalo}}",
-   "extra_pt": "Núcleo do III no mesencéfalo rostral; núcleo do IV no mesencéfalo caudal."
+   "extra_pt": "Núcleo do III no mesencéfalo rostral; núcleo do IV no mesencéfalo caudal.",
+   "cobre_texto": [
+    "resumo:Midbrain"
+   ]
   },
   {
    "nid": 1480612332368,
@@ -417,5 +426,379 @@
  "historico_decisoes": [
   "17/10 v2: decussação volta ao Kenhub (máscara+seta tornam o alvo explícito); Netter p.178 reprovou no G13 (ponta no fundo branco).",
   "17/10 v3: Kenhub sempre (gate): núcleos olivares voltam ao Kenhub; Netter da oliva fica como complemento."
+ ],
+ "texto": [
+  {
+   "id": "m-sulco",
+   "text_pt": "O mesencéfalo apresenta o sulco {{c1::lateral}}",
+   "cobre_texto": [
+    "resumo:Midbrain"
+   ]
+  },
+  {
+   "id": "m-pedunculos",
+   "text_pt": "Na face ventral do mesencéfalo há dois {{c1::pedúnculos cerebrais}}, que conectam os hemisférios cerebrais ao tronco encefálico",
+   "cobre_texto": [
+    "resumo:Midbrain",
+    "cap:921"
+   ]
+  },
+  {
+   "id": "m-fossa",
+   "text_pt": "Entre os pedúnculos cerebrais fica a fossa {{c1::interpeduncular}}",
+   "cobre_texto": [
+    "resumo:Midbrain",
+    "cap:921"
+   ]
+  },
+  {
+   "id": "m-perfurada",
+   "text_pt": "O assoalho da fossa interpeduncular é a substância perfurada {{c1::posterior}}",
+   "cobre_texto": [
+    "resumo:Midbrain",
+    "cap:921"
+   ]
+  },
+  {
+   "id": "m-fossa-conteudo",
+   "text_pt": "A fossa interpeduncular contém os nervos {{c1::oculomotores}} (III) e os corpos mamilares",
+   "cobre_texto": [
+    "cap:921"
+   ]
+  },
+  {
+   "id": "m-teto",
+   "text_pt": "A lâmina do teto do mesencéfalo é formada pelos colículos {{c1::superiores}} e {{c2::inferiores}}",
+   "cobre_texto": [
+    "resumo:Midbrain",
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "m-frenulo",
+   "text_pt": "Os colículos inferiores são separados pelo frênulo do {{c1::véu medular superior}}",
+   "cobre_texto": [
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "m-func-visual",
+   "text_pt": "O mesencéfalo processa e direciona informação {{c1::visual}} e auditiva para o tálamo",
+   "cobre_texto": [
+    "resumo:Midbrain"
+   ]
+  },
+  {
+   "id": "m-func-motor",
+   "text_pt": "O mesencéfalo monitora o movimento em conjunto com os núcleos da {{c1::base}}",
+   "cobre_texto": [
+    "resumo:Midbrain"
+   ]
+  },
+  {
+   "id": "m-nervos",
+   "text_pt": "O mesencéfalo contém os núcleos dos nervos cranianos {{c1::III}} e {{c2::IV}}",
+   "cobre_texto": [
+    "resumo:Midbrain"
+   ]
+  },
+  {
+   "id": "p-sulco-sup",
+   "text_pt": "Superiormente, a ponte é limitada pelo sulco {{c1::ponto-mesencefálico}} (pontino superior)",
+   "cobre_texto": [
+    "resumo:Pons",
+    "cap:921"
+   ]
+  },
+  {
+   "id": "p-sulco-inf",
+   "text_pt": "Inferiormente, a ponte termina no sulco {{c1::bulbo-pontino}} (pontino inferior)",
+   "cobre_texto": [
+    "resumo:Pons",
+    "cap:921"
+   ]
+  },
+  {
+   "id": "p-cupula",
+   "text_pt": "Em vista ventral, a ponte é abaulada e tem estrias {{c1::horizontais}}",
+   "cobre_texto": [
+    "cap:921"
+   ]
+  },
+  {
+   "id": "p-basilar",
+   "text_pt": "O sulco {{c1::basilar}} da ponte aloja a artéria basilar",
+   "cobre_texto": [
+    "resumo:Pons",
+    "cap:921"
+   ]
+  },
+  {
+   "id": "p-romboide",
+   "text_pt": "A face dorsal da ponte e da parte superior do bulbo forma o assoalho do quarto ventrículo: a fossa {{c1::romboide}}",
+   "cobre_texto": [
+    "resumo:Pons",
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "p-mediano",
+   "text_pt": "A parte superior da fossa romboide é dividida ao meio pelo sulco {{c1::mediano}}",
+   "cobre_texto": [
+    "resumo:Pons",
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "p-limitante",
+   "text_pt": "Cada metade da fossa romboide é dividida pelo sulco {{c1::limitante}}",
+   "cobre_texto": [
+    "resumo:Pons",
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "p-eminencia",
+   "text_pt": "Entre o sulco mediano e o sulco limitante fica a eminência {{c1::medial}} (colículo facial)",
+   "cobre_texto": [
+    "resumo:Pons",
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "p-vestibular",
+   "text_pt": "Lateralmente ao sulco limitante fica a área {{c1::vestibular}}",
+   "cobre_texto": [
+    "resumo:Pons",
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "p-ceruleo",
+   "text_pt": "O núcleo {{c1::cerúleo}} (locus ceruleus) está na parte superior da fossa romboide",
+   "cobre_texto": [
+    "resumo:Pons",
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "p-velo",
+   "text_pt": "O limite superior da ponte é formado pelo véu {{c1::medular superior}}, que contribui para o teto do quarto ventrículo",
+   "cobre_texto": [
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "p-estrias",
+   "text_pt": "O limite inferior da ponte é formado pelas estrias {{c1::medulares}} do quarto ventrículo",
+   "cobre_texto": [
+    "resumo:Pons",
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "p-trigemeo",
+   "text_pt": "O nervo trigêmeo (V) emerge da face {{c1::lateral}} da ponte",
+   "cobre_texto": [
+    "cap:921"
+   ]
+  },
+  {
+   "id": "p-sulco-nervos",
+   "text_pt": "Os nervos abducente (VI), facial (VII) e vestibulococlear (VIII) emergem do sulco {{c1::bulbo-pontino}}",
+   "cobre_texto": [
+    "cap:921"
+   ]
+  },
+  {
+   "id": "p-func-cerebelo",
+   "text_pt": "A ponte retransmite informação do córtex cerebral para o {{c1::cerebelo}}",
+   "cobre_texto": [
+    "resumo:Pons"
+   ]
+  },
+  {
+   "id": "p-nervos",
+   "text_pt": "A ponte contém os núcleos dos nervos cranianos {{c1::V}} a {{c2::VIII}}",
+   "cobre_texto": [
+    "resumo:Pons"
+   ]
+  },
+  {
+   "id": "p-func-respiracao",
+   "text_pt": "A ponte participa da regulação da respiração e do ciclo {{c1::sono-vigília}}",
+   "cobre_texto": [
+    "resumo:Pons"
+   ]
+  },
+  {
+   "id": "b-aberto",
+   "text_pt": "A parte superior (aberta) do bulbo contém a metade {{c1::caudal}} do quarto ventrículo",
+   "cobre_texto": [
+    "resumo:Medulla oblongata",
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "b-fechado",
+   "text_pt": "A parte inferior (fechada) do bulbo contém o canal {{c1::central}}",
+   "cobre_texto": [
+    "resumo:Medulla oblongata",
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "b-trigonos",
+   "text_pt": "Na parte superior do bulbo estão os trígonos do {{c1::hipoglosso}} e do {{c2::vago}}",
+   "cobre_texto": [
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "b-obex",
+   "text_pt": "O {{c1::óbex}} é um marco do bulbo, na extremidade caudal do quarto ventrículo",
+   "cobre_texto": [
+    "resumo:Medulla oblongata",
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "b-tuberculo-gracil",
+   "text_pt": "Na face dorsal do bulbo, o sulco mediano posterior é ladeado pelo tubérculo {{c1::grácil}}",
+   "cobre_texto": [
+    "resumo:Medulla oblongata",
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "b-tuberculo-cuneiforme",
+   "text_pt": "Lateralmente ao tubérculo grácil fica o tubérculo {{c1::cuneiforme}}",
+   "cobre_texto": [
+    "resumo:Medulla oblongata",
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "b-tuberculos-fasciculos",
+   "text_pt": "Os tubérculos grácil e cuneiforme são continuações dos {{c1::fascículos}} grácil e cuneiforme da medula espinal",
+   "cobre_texto": [
+    "cap:3187"
+   ]
+  },
+  {
+   "id": "b-piramides",
+   "text_pt": "A fissura mediana anterior divide o bulbo ventral em metades simétricas, ladeada pelas {{c1::pirâmides}}",
+   "cobre_texto": [
+    "resumo:Medulla oblongata",
+    "cap:921"
+   ]
+  },
+  {
+   "id": "b-oliva",
+   "text_pt": "Lateralmente a cada pirâmide há uma proeminência, a {{c1::oliva}}, que corresponde aos núcleos olivares",
+   "cobre_texto": [
+    "resumo:Medulla oblongata",
+    "cap:921"
+   ]
+  },
+  {
+   "id": "b-decussacao",
+   "text_pt": "Na extremidade caudal, a fissura mediana anterior é interrompida pela decussação das {{c1::pirâmides}}, que marca o fim do bulbo",
+   "cobre_texto": [
+    "resumo:Medulla oblongata",
+    "cap:921"
+   ]
+  },
+  {
+   "id": "b-sulcos",
+   "text_pt": "Os sulcos do bulbo incluem a fissura mediana anterior, o sulco anterolateral, o sulco mediano posterior e os sulcos pré-olivar e {{c1::retro-olivar}}",
+   "cobre_texto": [
+    "resumo:Medulla oblongata"
+   ]
+  },
+  {
+   "id": "b-marcos",
+   "text_pt": "Marcos do bulbo: pirâmides, decussação das pirâmides, olivas, tubérculos grácil e cuneiforme, funículo {{c1::lateral}} e óbex",
+   "cobre_texto": [
+    "resumo:Medulla oblongata"
+   ]
+  },
+  {
+   "id": "b-nervos-inferiores",
+   "text_pt": "Os quatro nervos cranianos inferiores ({{c1::IX}} a {{c2::XII}}) emergem da face anterior do bulbo",
+   "cobre_texto": [
+    "cap:921"
+   ]
+  },
+  {
+   "id": "b-func-cerebelo",
+   "text_pt": "O bulbo retransmite informação sensitiva para o {{c1::cerebelo}}",
+   "cobre_texto": [
+    "resumo:Medulla oblongata"
+   ]
+  },
+  {
+   "id": "b-func-homeostase",
+   "text_pt": "O bulbo regula funções homeostáticas, como a frequência cardíaca e a {{c1::respiração}}",
+   "cobre_texto": [
+    "resumo:Medulla oblongata"
+   ]
+  },
+  {
+   "id": "b-nervos",
+   "text_pt": "O bulbo está associado principalmente aos nervos cranianos {{c1::IX}}, {{c2::X}} e {{c3::XII}}",
+   "cobre_texto": [
+    "resumo:Medulla oblongata"
+   ]
+  },
+  {
+   "id": "b-viii",
+   "text_pt": "Na junção bulbo-pontina, o bulbo conecta-se a alguns núcleos do nervo craniano {{c1::VIII}}",
+   "cobre_texto": [
+    "resumo:Medulla oblongata"
+   ]
+  },
+  {
+   "id": "tr-vias",
+   "text_pt": "Todas as partes do tronco encefálico levam informação, por tratos de substância {{c1::branca}}, entre as partes superiores e inferiores do sistema nervoso central",
+   "cobre_texto": [
+    "resumo:Medulla oblongata"
+   ]
+  },
+  {
+   "id": "v-divisao",
+   "text_pt": "O tronco encefálico também se divide verticalmente em teto, tegmento e parte {{c1::basilar}}",
+   "cobre_texto": [
+    "cap:3490"
+   ]
+  },
+  {
+   "id": "v-tecto-tegmento",
+   "text_pt": "O {{c1::teto}} (tecto) forma o teto da cavidade do tubo neural e o {{c2::tegmento}} forma a cobertura ventral",
+   "cobre_texto": [
+    "cap:3490"
+   ]
+  },
+  {
+   "id": "v-cavidade",
+   "text_pt": "A cavidade do tubo neural origina o {{c1::aqueduto cerebral}}, o {{c2::quarto ventrículo}} e o {{c3::canal central}} da medula espinal",
+   "cobre_texto": [
+    "cap:3490"
+   ]
+  },
+  {
+   "id": "v-tecto-posicao",
+   "text_pt": "O teto é a área dorsal ao {{c1::aqueduto cerebral}}; o tegmento é ventral a ele",
+   "cobre_texto": [
+    "cap:3490"
+   ]
+  },
+  {
+   "id": "v-basilar",
+   "text_pt": "A parte basilar fica ventral ao tegmento e estende-se por {{c1::todo}} o tronco encefálico",
+   "cobre_texto": [
+    "cap:3490"
+   ]
+  }
  ]
 }

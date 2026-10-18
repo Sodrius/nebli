@@ -31,7 +31,7 @@ import numpy as np
 from PIL import Image
 
 from nebli.decks import Anki, escrita
-from nebli.kenhub import fontes_io, mascara, modelo
+from nebli.kenhub import fontes_io, glossario, mascara, modelo
 from nebli.kenhub.caminhos import RAIZ
 from nebli.rotulos import canonical
 
@@ -40,7 +40,7 @@ FLAG = {"verde": 3, "azul": 4, "rosa": 5}
 PESSOAIS = {1, 2}                     # vermelha/laranja: marcas de Davi, nunca sobrescrever
 ROOT = Path(__file__).resolve().parents[2]
 CLOZE_RE = re.compile(r"\{\{c(\d+)::(.*?)(?:::[^}]*)?\}\}", re.S)
-INGLES = re.compile(r"\b(the|of|and|is|are|which|from|via|with|located|between|nerve|structure)\b", re.I)
+INGLES = re.compile(r"\b(the|of|and|is|are|which|from|with|located|between|nerve|structure)\b", re.I)
 SEPARADORES = re.compile(r"\s/\s|;|\s[-–—]\s|:|·")
 VERSAO_MIDIA = "7"                    # nome de arquivo novo a cada mudança de desenho (o Anki guarda imagem em cache)
 
@@ -153,6 +153,8 @@ def plano(corrida: Path, A):
             entradas.append({**a, "tipo": "anking_io", "chave": f"nid-{a['nid']}", "cobre": a.get("cobre", [])})
     for a in cur.get("anking", []):
         entradas.append({**a, "tipo": "anking", "chave": f"nid-{a['nid']}", "cobre": []})
+    for t in cur.get("texto", []):   # fatos da unidade (objetivos, parágrafos, tabela-resumo) que o quiz cobra
+        entradas.append({**t, "tipo": "texto", "chave": f"txt-{t['id']}", "cobre": []})
     for k, e in enumerate(entradas, 1):
         e["ordem"] = k
     fora = _em_outras_unidades(A, cur["lesson_id"])
@@ -172,7 +174,26 @@ def plano(corrida: Path, A):
         if i["slug"] not in cobertas:
             problemas.append(f"[cobertura] estrutura sem card planejado: {i['slug']} ({i['nome_en']})")
     problemas += gates_pre(entradas, cur)
+    problemas += gate_quiz_texto(base, entradas)
     return cur, base, itens, entradas, problemas, cobertas
+
+
+def _kt(chave):
+    """chave do trecho de texto → etiqueta (sem espaço nem dois-pontos)."""
+    return re.sub(r"[^a-z0-9]+", "-", chave.lower()).strip("-")
+
+
+def gate_quiz_texto(base, entradas):
+    """[cobertura-quiz] F-20261018-CLAUDE-01: o quiz da unidade tem questões de texto além das estruturas — todo trecho do texto
+    de estudo (objetivos, parágrafos, legendas do atlas, tabela-resumo) precisa estar coberto por algum card (`cobre_texto`)."""
+    d = json.loads((base / "itens.json").read_text())
+    if "texto" not in d:
+        return ["[cobertura-quiz] texto da unidade não coletado (rode: venv/bin/python -m nebli.kenhub.coleta_texto)"]
+    cob = {k for e in entradas for k in e.get("cobre_texto", []) if e.get("campos") or e.get("associar")}
+    desconhecidas = cob - {t["chave"] for t in d["texto"]}
+    p = [f"[cobertura-quiz] chave de texto inexistente: {k}" for k in sorted(desconhecidas)]
+    p += [f"[cobertura-quiz] trecho sem card: {t['chave']} ({t['en'][:70].replace(chr(10), ' / ')})" for t in d["texto"] if t["chave"] not in cob]
+    return p
 
 
 def _overlay_arquivos(e, gerados, q, r, meta):
@@ -268,7 +289,7 @@ def _montar(e, cur, base, gerados, media, A):
         # figura genérica (a mesma foto numerada serve a vários cards do AnatoKing) não aponta a estrutura deste card
         e["usos_modelo"] = len(A("findNotes", query=f'"deck:Referências::Referências Externas::AnatoKing" "Model:*{nome_modelo}*"'))
         e["base_frente_cloze"] = arq_modelo
-        verso = "".join(modelos[1:] + _imgs(campos.get("Cadaver", "")) + _imgs(campos.get("Imaging", "")) + _imgs(campos.get("Illustration", "")))
+        verso = ""   # F-20261018-CLAUDE-01 (“faltou tirar uma image”): uma só figura no card; peça/imagem de apoio não entra
         en = _limpo(CLOZE_RE.search(campos["Text"]).group(2)).split(" / ")[0]
         e.update(modelo=modelo.CLOZE, cor=cor(e["apos"]), fonte="AnatoKing", tags_origem=src["tags"], campos={
             "Text": f"Qual estrutura a seta vermelha indica? {{{{c1::{e['pt']}}}}}", "Imagens": imagens, "Extra": verso,
@@ -284,6 +305,11 @@ def _montar(e, cur, base, gerados, media, A):
             "ID (hidden)": f"nebli-{cur['lesson_id']}-{e['chave']}"})
         e["falta_midia"] = _midia_faltando(extra, media)
         e["clozes_origem"] = sorted({int(n) for n, _ in CLOZE_RE.findall(campos["Text"])})
+    elif e["tipo"] == "texto":   # fato do texto de estudo do Kenhub, em PT, cloze curto
+        e.update(modelo=modelo.CLOZE, cor=cur.get("cor_texto", "azul"), fonte="Kenhub", tags_origem=[], campos={
+            "Text": e["text_pt"], "Imagens": "", "Extra": e.get("extra_pt", ""), "Nome EN": e.get("en", ""), "Fonte": "",
+            "ID (hidden)": f"nebli-{cur['lesson_id']}-{e['chave']}"})
+        e["falta_midia"] = []
     else:
         raise ValueError(f"tipo de entrada desconhecido: {e['tipo']!r}")
     if e.get("base_frente_cloze"):
@@ -335,6 +361,8 @@ def gates_pre(entradas, cur):
                 p.append(f"[G10 direcionamento] {k}: seta não segue a linha-guia")
             elif e["tipo"] == "anking_io" and not (meta.get("ancora") or meta.get("pergunta")):
                 p.append(f"[G10 direcionamento] {k}: sem âncora no “ID” nem pergunta")
+            if e["tipo"] in ("netter", "anking_io") and not glossario.atestado(nome):
+                p.append(f"[G18 tradução oficial] {k}: nome {nome!r} não consta no Kenhub PT nem no Machado (confirme em fonte oficial e ajuste)")
             if e["tipo"] == "netter" and meta.get("ponta_fundo", 0) > 0.6:   # no Kenhub a seta encosta na máscara (G10)
                 p.append(f"[G13 seta na anatomia] {k}: a ponta da seta cai no fundo ({meta['ponta_fundo']:.0%} branco)")
             # G12: a frente, como aparece (figura + máscara), não pode mostrar a resposta (lida pelo reconhecimento de texto)
@@ -354,6 +382,11 @@ def gates_pre(entradas, cur):
                     p.append(f"[G8 só o nome] {k}: cloze {r!r} tem mais que o nome")
             if INGLES.search(_limpo(CLOZE_RE.sub(lambda m: m.group(2), texto))):
                 p.append(f"[G8 português] {k}: texto do cloze parece inglês")
+            if e["tipo"] == "acervo" and (len(_imgs(e["campos"]["Imagens"] + e["campos"].get("Extra", ""))) != 1):
+                p.append(f"[G20 uma figura] {k}: o card do AnatoKing deve ter uma só figura (tem {len(_imgs(e['campos']['Imagens'] + e['campos'].get('Extra', '')))})")
+            for _, resp in clozes:   # G18: tradução oficial — o termo precisa estar no Kenhub PT ou no Machado
+                if e["tipo"] in ("anking", "texto", "acervo") and not glossario.atestado(_limpo(resp)):
+                    p.append(f"[G18 tradução oficial] {k}: termo {_limpo(resp)!r} não consta no Kenhub PT nem no Machado (confirme em fonte oficial e ajuste)")
             if e["tipo"] == "anking":
                 nov = sorted({int(n) for n, _ in clozes})
                 if nov != e.get("clozes_origem"):
@@ -463,7 +496,8 @@ def instalar(A, cur, entradas):
                     A("removeTags", notes=[nid], tags=" ".join(velhas))
                 A("addTags", notes=[nid], tags=" ".join([lesson_tag, f"NEBLI::ordem::{cur['short']}-{e['ordem']:03d}",
                                                           f"NEBLI::uc07::assoc::{lesson}", f"NEBLI::cor::{lesson}::{e['cor']}"]
-                                                         + [f"NEBLI::estrutura::{c}" for c in e.get("cobre", [])]))
+                                                         + [f"NEBLI::estrutura::{c}" for c in e.get("cobre", [])]
+                                                         + [f"NEBLI::texto::{_kt(c)}" for c in e.get("cobre_texto", [])]))
                 planejadas.add(nid)
                 resultados.append({"ordem": e["ordem"], "chave": e["chave"], "tipo": e["tipo"], "nid": nid, "cor": e["cor"],
                                    "cobre": e.get("cobre", []), "modelo": n["modelName"], "associada": True})
@@ -473,8 +507,9 @@ def instalar(A, cur, entradas):
                     A("storeMediaFile", filename=nome, data=base64.b64encode(Path(caminho).read_bytes()).decode())
             tags = [lesson_tag, f"NEBLI::ordem::{cur['short']}-{e['ordem']:03d}", f"NEBLI::run::{run}", "NEBLI::uc07",
                     f"NEBLI::escopo::{cur['modulo']}", f"NEBLI::chave::{e['chave']}", f"NEBLI::origem::{e['fonte']}",
-                    f"NEBLI::cor::{lesson}::{e['cor']}"] + [f"NEBLI::estrutura::{c}" for c in e.get("cobre", [])]
-            if e["tipo"] == "kenhub":
+                    f"NEBLI::cor::{lesson}::{e['cor']}"] + [f"NEBLI::estrutura::{c}" for c in e.get("cobre", [])] \
+                + [f"NEBLI::texto::{_kt(c)}" for c in e.get("cobre_texto", [])]
+            if e["tipo"] in ("kenhub", "texto"):
                 tags.append(TAG_KENHUB)
             if "nid" in e:
                 tags.append(f"NEBLI::source::nid-{e['nid']}")
@@ -539,7 +574,7 @@ def instalar(A, cur, entradas):
     return run, resultados, recusados, antes, retiradas
 
 
-def gates_pos(A, cur, itens, resultados, antes):
+def gates_pos(A, cur, itens, resultados, antes, texto):
     deck, lesson = cur["deck"], cur["lesson_id"]
     falhas = []
     ids = A("findNotes", query=f'"tag:NEBLI::{lesson}"')
@@ -571,8 +606,34 @@ def gates_pos(A, cur, itens, resultados, antes):
     for i in itens:
         if i["slug"] not in cobertas:
             falhas.append(f"[cobertura] estrutura sem card no deck final: {i['slug']}")
+    tags_texto = {t.split("::", 2)[2] for r in resultados for t in A("notesInfo", notes=[r["nid"]])[0]["tags"] if t.startswith("NEBLI::texto::")}
+    for t in texto:
+        if _kt(t["chave"]) not in tags_texto:
+            falhas.append(f"[cobertura-quiz] trecho sem card no deck final: {t['chave']}")
     falhas += duplicatas(A)
     return falhas
+
+
+def revisao_md(cur, itens, entradas, resultados, rel, texto):
+    """Roteiro da revisão (F-20261018-CLAUDE-03): card a card e o deck como um todo — o que olhar e o que o deck deve cobrir."""
+    por = {e["chave"]: e for e in entradas}
+    n_cards = sum(1 for _ in resultados)
+    L = [f"# Revisão — {cur['deck']}", "",
+         "Feita DEPOIS de olhar as folhas de contato (`render/grandes`), card a card e depois o deck todo. "
+         "Só então `./kenhub-deck --revisado <corrida> \"observação\"` libera “ENTREGUE”.", "",
+         "## O deck como um todo", "",
+         f"- Estruturas do quiz: {len(itens)} · cobertas pelos cards: {len({s for r in resultados for s in r['cobre'] if s})}/{len(itens)}",
+         f"- Trechos do texto de estudo (objetivos, parágrafos, legendas, tabela-resumo): {len(texto)} · cobertos: "
+         f"{len({k for e in entradas for k in e.get('cobre_texto', [])} & {t['chave'] for t in texto})}/{len(texto)}",
+         f"- Notas: {n_cards} · folhas de contato: {len(rel['folhas'])}", "",
+         "Perguntas da revisão do deck: cobre tudo que o quiz da unidade cobra (identificação, grafia, texto)? "
+         "Há estrutura importante da aula (cronograma/Machado) sem card? Ordem didática ok? Nada repetido de outra unidade?", "",
+         "## Card a card", "", "| # | Tipo | Nome / enunciado | Cobre | Olhado |", "|---|---|---|---|---|"]
+    for r in resultados:
+        e = por.get(r["chave"], {})
+        nome = e.get("campos", {}).get("Nome PT") or re.sub(r"<[^>]+>", "", e.get("campos", {}).get("Text", ""))[:90] or r["chave"]
+        L.append(f"| {r['ordem']} | {r['tipo']} | {nome} | {', '.join(r['cobre'] + e.get('cobre_texto', []))[:70]} | [ ] |")
+    return "\n".join(L) + "\n"
 
 
 def duplicatas(A):
@@ -607,7 +668,7 @@ def main():
         raise SystemExit("O Anki está com uma janela de edição aberta (navegador de cards ou editor) e recusa gravar. "
                          "Feche essa janela (Cmd+W) e rode de novo: a reconciliação conclui o que faltar.")
     run, resultados, recusados, antes, retiradas = instalar(A, cur, entradas)
-    falhas = gates_pos(A, cur, itens, resultados, antes)
+    falhas = gates_pos(A, cur, itens, resultados, antes, json.loads((base / 'itens.json').read_text()).get('texto', []))
     if recusados:
         pedido = ROOT / "arquivos-trabalho" / "anki-acao-pedido.json"
         if not pedido.exists():
@@ -619,6 +680,8 @@ def main():
     rec = {"run": run, "deck": cur["deck"], "notas": resultados, "retiradas": retiradas, "falhas_pos": falhas,
            "falhas_render": falhas_render, "folhas": rel["folhas"], "at": datetime.now(timezone.utc).isoformat()}
     (corrida / "receipt.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1))
+    (corrida / "revisao.md").write_text(revisao_md(cur, itens, entradas, resultados, rel, json.loads((base / "itens.json").read_text()).get("texto", [])))
+    (corrida / "revisao.json").unlink(missing_ok=True)   # nova instalação = nova revisão
     print(json.dumps({"deck": cur["deck"], "notas": len(resultados), "verde": cores.count("verde"), "azul": cores.count("azul"),
                       "rosa": cores.count("rosa"), "retiradas": len(retiradas), "falhas_pos": len(falhas),
                       "falhas_render": len(falhas_render), "folhas_para_olhar": len(rel["folhas"]),

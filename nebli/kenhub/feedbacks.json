@@ -169,6 +169,53 @@
     }
    ],
    "teste": "teste_gates: figura do Kenhub excluída → [kenhub-sempre]; campo Fonte preenchido → [G14]; máscara vira retângulos"
+  },
+  {
+   "id": "F-20261018-CLAUDE-01",
+   "data": "18/10/2026",
+   "literal": "faltou tirar uma image (card AnatoKing “Raiz posterior”) / esse deck aqui não cobriu tudo do quiz, todos tem que cobrir o quiz todo da unidade (comentários de Davi nas notas)",
+   "regra": "Card do AnatoKing com uma só figura; além das estruturas, todo trecho do texto de estudo da unidade (objetivos, parágrafos, legendas do atlas, tabela-resumo) tem card — o quiz cobra os dois.",
+   "gates": [
+    {
+     "codigo": "[G20 uma figura]",
+     "arquivo": "nebli/kenhub/deck.py"
+    },
+    {
+     "codigo": "[cobertura-quiz]",
+     "arquivo": "nebli/kenhub/deck.py"
+    }
+   ],
+   "teste": "teste_gates: AnatoKing com 2 figuras e trecho de texto sem card reprovam"
+  },
+  {
+   "id": "F-20261018-CLAUDE-02",
+   "data": "18/10/2026",
+   "literal": "pega tradução oficial de algum lugar",
+   "regra": "Termo traduzido por nós só passa se constar no Kenhub PT (locale=pt), no Ângelo Machado (Drive) ou na lista de aceitos com fonte (glossario_aceitos.json).",
+   "gates": [
+    {
+     "codigo": "[G18 tradução oficial]",
+     "arquivo": "nebli/kenhub/deck.py"
+    }
+   ],
+   "teste": "teste_gates: termo inventado reprova, termo do Machado passa"
+  },
+  {
+   "id": "F-20261018-CLAUDE-03",
+   "data": "18/10/2026",
+   "literal": "todo deck confere card a card + deck como um todo, se cobre o que deve / vai fazendo e deixando pronto no anki",
+   "regra": "Depois de instalar e olhar as folhas, cada deck tem revisão card a card e do deck inteiro (revisao.md); só vira ENTREGUE com `./kenhub-deck --revisado`.",
+   "gates": [
+    {
+     "codigo": "AGUARDANDO REVISÃO",
+     "arquivo": "nebli/kenhub/painel.py"
+    },
+    {
+     "codigo": "def revisado",
+     "arquivo": "nebli/kenhub/pipeline.py"
+    }
+   ],
+   "teste": "painel: sem revisao.json da mesma corrida a unidade não aparece como ENTREGUE"
   }
  ]
 }

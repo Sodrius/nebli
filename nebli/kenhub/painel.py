@@ -21,7 +21,10 @@ def main():
     for rec in sorted((ROOT / "arquivos-trabalho").glob("uc07-kenhub-*/receipt.json")):
         r = json.loads(rec.read_text())
         cor = [n["cor"] for n in r["notas"]]
-        estado = "ENTREGUE (gates ok)" if not (r.get("falhas_pos") or r.get("falhas_render")) else "REPROVADA"
+        rev = rec.parent / "revisao.json"
+        revisada = rev.exists() and json.loads(rev.read_text()).get("run") == r["run"]
+        estado = "REPROVADA" if (r.get("falhas_pos") or r.get("falhas_render")) else (
+            "ENTREGUE (gates ok + revisão card a card e do deck)" if revisada else "AGUARDANDO REVISÃO (revisao.md)")
         unidades.append(f"| {r['deck']} | {len(r['notas'])} | {cor.count('verde')}/{cor.count('azul')}/{cor.count('rosa')} | {estado} | {r['at'][:16]} | `{rec.parent.name}` |")
     linhas = ["# UC07 — painel de sessão (gerado; não editar à mão)", "",
               f"Gerado em {datetime.now():%d/%m/%Y %H:%M} por `./kenhub-deck --painel`. **Ler no início de toda sessão da UC07.**", "",

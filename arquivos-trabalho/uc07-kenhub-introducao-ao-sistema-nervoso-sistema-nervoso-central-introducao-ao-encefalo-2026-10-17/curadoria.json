@@ -84,7 +84,11 @@
   {
    "nid": 1481130891600,
    "text_pt": "O cerebelo é formado por um {{c1::verme}} mediano e dois {{c2::hemisférios}} laterais",
-   "extra_pt": "Cada hemisfério tem uma parte intermédia e uma lateral."
+   "extra_pt": "Cada hemisfério tem uma parte intermédia e uma lateral.",
+   "cobre_texto": [
+    "resumo:Structural components of the parts of the brain",
+    "cap:1174"
+   ]
   },
   {
    "nid": 1481513119712,
@@ -92,7 +96,7 @@
   },
   {
    "nid": 1481513127112,
-   "text_pt": "O giro {{c1::pós}}-central é a área do córtex {{c2::somatossensitivo primário}} (lobo parietal)"
+   "text_pt": "O giro {{c1::pós}}-central é a área {{c2::somestésica}} primária (lobo parietal)"
   },
   {
    "nid": 1481513092382,
@@ -123,5 +127,135 @@
   "1540250915746": "modelo do AnatoKing é hemisfério colorido com legenda (sem seta; a legenda entrega a resposta) — G10/G12",
   "1540250830460": "modelo do AnatoKing é hemisfério colorido com legenda (sem seta; a legenda entrega a resposta) — G10/G12",
   "1540250906845": "modelo do AnatoKing é hemisfério colorido com legenda (sem seta; a legenda entrega a resposta) — G10/G12"
- }
+ },
+ "texto": [
+  {
+   "id": "partes",
+   "text_pt": "O encéfalo tem três partes principais: {{c1::cérebro}}, {{c2::cerebelo}} e {{c3::tronco encefálico}}",
+   "cobre_texto": [
+    "obj:1",
+    "txt:1",
+    "resumo:Parts of the brain",
+    "cap:1174"
+   ]
+  },
+  {
+   "id": "cerebro-maior",
+   "text_pt": "A maior parte do encéfalo é o {{c1::cérebro}}",
+   "cobre_texto": [
+    "txt:2"
+   ]
+  },
+  {
+   "id": "cerebro-funcao",
+   "text_pt": "O cérebro é responsável por funções superiores: visão, audição, cognição, emoções, aprendizado e controle fino do {{c1::movimento}}",
+   "cobre_texto": [
+    "obj:3",
+    "txt:2",
+    "resumo:Basic functions of the parts of the brain"
+   ]
+  },
+  {
+   "id": "cerebelo-posicao",
+   "text_pt": "O cerebelo fica abaixo do cérebro, inferior ao lobo {{c1::occipital}}",
+   "cobre_texto": [
+    "txt:3",
+    "cap:1174"
+   ]
+  },
+  {
+   "id": "cerebelo-funcao",
+   "text_pt": "O cerebelo regula funções {{c1::motoras}}, como equilíbrio, coordenação e fala",
+   "cobre_texto": [
+    "obj:3",
+    "txt:3",
+    "resumo:Basic functions of the parts of the brain"
+   ]
+  },
+  {
+   "id": "tronco-conexao",
+   "text_pt": "O tronco encefálico conecta o encéfalo à {{c1::medula espinal}}",
+   "cobre_texto": [
+    "txt:4"
+   ]
+  },
+  {
+   "id": "tronco-funcao",
+   "text_pt": "O tronco encefálico controla funções vitais de ordem inferior, como a {{c1::respiração}} e a frequência cardíaca",
+   "cobre_texto": [
+    "obj:3",
+    "txt:4",
+    "resumo:Basic functions of the parts of the brain"
+   ]
+  },
+  {
+   "id": "tronco-caudal",
+   "text_pt": "O tronco encefálico é a parte mais {{c1::caudal}} do encéfalo",
+   "cobre_texto": [
+    "cap:1174"
+   ]
+  },
+  {
+   "id": "tronco-partes",
+   "text_pt": "O tronco encefálico é formado por {{c1::mesencéfalo}}, {{c2::ponte}} e {{c3::bulbo}}",
+   "cobre_texto": [
+    "obj:2",
+    "resumo:Structural components of the parts of the brain",
+    "cap:1174"
+   ]
+  },
+  {
+   "id": "hemisferios-calo",
+   "text_pt": "Os dois hemisférios do cérebro são conectados por um grande feixe de substância branca, o {{c1::corpo caloso}}",
+   "cobre_texto": [
+    "cap:1174"
+   ]
+  },
+  {
+   "id": "lobos",
+   "text_pt": "Cada hemisfério cerebral tem cinco lobos: frontal, temporal, parietal, occipital e {{c1::insular}}",
+   "cobre_texto": [
+    "obj:2",
+    "resumo:Structural components of the parts of the brain",
+    "cap:1174"
+   ]
+  },
+  {
+   "id": "opérculo",
+   "text_pt": "A {{c1::ínsula}} não é visível na superfície do cérebro: é coberta por porções dos lobos frontal, parietal e temporal",
+   "cobre_texto": [
+    "cap:1174"
+   ],
+   "extra_pt": "Essas porções formam o opérculo (“cobertura” da ínsula)."
+  },
+  {
+   "id": "giros-sulcos",
+   "text_pt": "As elevações da superfície do cérebro são os {{c1::giros}}, separados por sulcos",
+   "cobre_texto": [
+    "cap:1174"
+   ]
+  },
+  {
+   "id": "sulcos",
+   "text_pt": "As depressões que separam os giros são os {{c1::sulcos}}",
+   "cobre_texto": [
+    "cap:1174"
+   ]
+  },
+  {
+   "id": "convolucoes",
+   "text_pt": "Os giros e sulcos aumentam a {{c1::superfície}} do cérebro, dando-lhe aspecto convoluto",
+   "cobre_texto": [
+    "cap:1174"
+   ]
+  },
+  {
+   "id": "cerebelo-lobos",
+   "text_pt": "Os hemisférios do cerebelo têm os lobos anterior, posterior e {{c1::floculonodular}}",
+   "cobre_texto": [
+    "obj:2",
+    "resumo:Structural components of the parts of the brain"
+   ]
+  }
+ ]
 }

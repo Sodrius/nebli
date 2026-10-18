@@ -68,5 +68,144 @@
    "nid": 1580087677295,
    "text_pt": "Quais funções ficam preservadas na síndrome da artéria espinal anterior? {{c1::Vibração e tato leve}}"
   }
+ ],
+ "texto": [
+  {
+   "id": "pia",
+   "text_pt": "A {{c1::pia-máter}} é a meninge mais interna, muito vascularizada e aderida ao contorno da medula espinal",
+   "cobre_texto": [
+    "cap:456",
+    "resumo:Spinal meninges"
+   ]
+  },
+  {
+   "id": "aracnoide",
+   "text_pt": "A {{c1::aracnoide}} é a meninge separada da pia-máter pelo espaço subaracnóideo",
+   "cobre_texto": [
+    "cap:456",
+    "resumo:Spinal meninges"
+   ]
+  },
+  {
+   "id": "subaracnoideo",
+   "text_pt": "O espaço {{c1::subaracnóideo}} contém líquido cerebrospinal e separa a aracnoide da pia-máter",
+   "cobre_texto": [
+    "cap:456",
+    "resumo:Spaces"
+   ]
+  },
+  {
+   "id": "dura",
+   "text_pt": "A {{c1::dura-máter}} é a meninge mais espessa e mais superficial",
+   "cobre_texto": [
+    "cap:456",
+    "resumo:Spinal meninges"
+   ]
+  },
+  {
+   "id": "subdural",
+   "text_pt": "O espaço {{c1::subdural}} é um espaço virtual entre a dura-máter e a aracnoide",
+   "cobre_texto": [
+    "cap:456",
+    "resumo:Spaces"
+   ]
+  },
+  {
+   "id": "epidural",
+   "text_pt": "O espaço {{c1::epidural}} fica entre o canal vertebral e a dura-máter e contém tecido adiposo que amortece e protege a medula",
+   "cobre_texto": [
+    "cap:456",
+    "resumo:Spaces"
+   ]
+  },
+  {
+   "id": "bainha",
+   "text_pt": "A aracnoide e a dura-máter formam uma {{c1::bainha}} sobre os filamentos radiculares e as raízes",
+   "cobre_texto": [
+    "cap:456"
+   ]
+  },
+  {
+   "id": "pia-epineuro",
+   "text_pt": "A pia-máter reflete-se sobre o complexo radicular e funde-se ao {{c1::epineuro}}",
+   "cobre_texto": [
+    "cap:456"
+   ]
+  },
+  {
+   "id": "termino-meninges",
+   "text_pt": "As meninges espinais descem além do cone medular e terminam no nível da vértebra {{c1::S2}}",
+   "cobre_texto": [
+    "cap:456",
+    "resumo:Spinal meninges"
+   ]
+  },
+  {
+   "id": "pia-filamento",
+   "text_pt": "A pia-máter continua como revestimento do {{c1::filamento terminal}}",
+   "cobre_texto": [
+    "resumo:Spinal meninges"
+   ]
+  },
+  {
+   "id": "raiz-anterior",
+   "text_pt": "As raízes anteriores contêm fibras {{c1::motoras}} e autônomas, que levam impulsos do sistema nervoso central à periferia",
+   "cobre_texto": [
+    "cap:456",
+    "resumo:Nerve rootlets/roots"
+   ]
+  },
+  {
+   "id": "raiz-anterior-corpos",
+   "text_pt": "Os corpos dos neurônios da raiz anterior ficam nos cornos anterior e {{c1::lateral}} da medula espinal",
+   "cobre_texto": [
+    "cap:456"
+   ]
+  },
+  {
+   "id": "raiz-posterior",
+   "text_pt": "A raiz posterior contém os prolongamentos centrais de neurônios {{c1::sensitivos}}",
+   "cobre_texto": [
+    "cap:456",
+    "resumo:Nerve rootlets/roots"
+   ]
+  },
+  {
+   "id": "raiz-posterior-corpos",
+   "text_pt": "Os corpos dos neurônios sensitivos ficam no {{c1::gânglio espinal}} da raiz posterior",
+   "cobre_texto": [
+    "cap:456",
+    "resumo:Nerve rootlets/roots"
+   ]
+  },
+  {
+   "id": "nervo-misto",
+   "text_pt": "As raízes anterior e posterior unem-se em um único nervo espinal {{c1::misto}}",
+   "cobre_texto": [
+    "cap:456",
+    "resumo:Nerve rootlets/roots"
+   ]
+  },
+  {
+   "id": "forame",
+   "text_pt": "O nervo espinal sai do canal vertebral pelos forames {{c1::intervertebrais}}",
+   "cobre_texto": [
+    "cap:456"
+   ]
+  },
+  {
+   "id": "origem-posterior",
+   "text_pt": "Os filamentos radiculares posteriores originam-se no sulco {{c1::posterolateral}} da medula espinal",
+   "cobre_texto": [
+    "resumo:Nerve rootlets/roots"
+   ]
+  },
+  {
+   "id": "origem-anterior",
+   "text_pt": "Os filamentos radiculares anteriores originam-se no sulco {{c1::anterolateral}} da medula espinal",
+   "cobre_texto": [
+    "resumo:Nerve rootlets/roots"
+   ]
+  }
  ]
 }

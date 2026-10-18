@@ -82,6 +82,20 @@ def main():
     ac = {"chave": "a", "tipo": "acervo", "modelo": modelo.CLOZE, "pt": "Ponte", "usos_modelo": 17, "vermelho_modelo": 0.001,
           "campos": {"Text": "Qual estrutura? {{c1::Ponte}}", "Imagens": "<img src=x>", "Nome EN": "Pons"}, "ocr_frente": []}
     espera(any("genérica" in p for p in deck.gates_pre([ac], cur)), "gate de modelo genérico aceitou figura repetida em 17 cards")
+    # F-20261018: AnatoKing com duas figuras; texto sem card; termo inventado × termo do Machado; revisão
+    ac2 = dict(ac, usos_modelo=1, vermelho_modelo=0.01)
+    ac2["campos"] = dict(ac["campos"], Imagens="<img src=x>", Extra="<img src=y>")
+    espera(any("G20" in p for p in deck.gates_pre([ac2], cur)), "G20 aceitou AnatoKing com duas figuras")
+    with tempfile.TemporaryDirectory() as dt:
+        (Path(dt) / "itens.json").write_text(json.dumps({"texto": [{"chave": "txt:1", "tipo": "txt", "en": "x"}]}))
+        espera(any("[cobertura-quiz]" in p for p in deck.gate_quiz_texto(Path(dt), [])), "cobertura do quiz aceitou trecho sem card")
+        espera(not deck.gate_quiz_texto(Path(dt), [{"campos": {"a": 1}, "cobre_texto": ["txt:1"]}]), "cobertura do quiz reprovou trecho coberto")
+        (Path(dt) / "itens.json").write_text(json.dumps({"itens": []}))
+        espera(any("não coletado" in p for p in deck.gate_quiz_texto(Path(dt), [])), "cobertura do quiz passou sem texto coletado")
+    from nebli.kenhub import glossario
+    espera(glossario.atestado("bulbo-pontino") and glossario.atestado("fossa romboide"), "glossário recusou termo do Machado/Kenhub")
+    espera(glossario.atestado("blorbo quadrigemoide") is None, "glossário aceitou termo inventado")
+    espera("AGUARDANDO REVISÃO" in (RAIZ / "nebli/kenhub/painel.py").read_text() and "def revisado" in (RAIZ / "nebli/kenhub/pipeline.py").read_text(), "revisão card a card sumiu")
     # entrada sem campos (tipo desconhecido) reprova
     espera(any("[montagem]" in p for p in deck.gates_pre([{"chave": "z", "tipo": "id"}], cur)), "entrada sem campos passou")
     # F-03: navegador do Kenhub invisível

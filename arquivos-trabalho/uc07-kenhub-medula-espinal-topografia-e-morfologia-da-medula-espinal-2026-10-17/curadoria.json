@@ -132,7 +132,10 @@
   },
   {
    "nid": 1479515759290,
-   "text_pt": "A {{c1::cauda equina}} é formada pelas raízes dos nervos espinais lombares, sacrais e coccígeo abaixo do cone medular"
+   "text_pt": "A {{c1::cauda equina}} é formada pelas raízes dos nervos espinais lombares, sacrais e coccígeo abaixo do cone medular",
+   "cobre_texto": [
+    "cap:1099"
+   ]
   },
   {
    "nid": 1479515737415,
@@ -158,6 +161,185 @@
    "nid": 1480514822870,
    "text_pt": "Se o corno anterior é grande, o nível da medula espinal está entre {{c1::C5}} e {{c1::T1}} ou {{c1::L2}} e {{c1::S2}}",
    "extra_pt": "Intumescências cervical (C5–T1) e lombossacral (L2–S2)."
+  }
+ ],
+ "texto": [
+  {
+   "id": "localizacao",
+   "text_pt": "A medula espinal localiza-se no canal {{c1::vertebral}} da coluna vertebral",
+   "cobre_texto": [
+    "resumo:Location"
+   ]
+  },
+  {
+   "id": "inicio",
+   "text_pt": "A medula espinal começa no bulbo, no nível do {{c1::forame magno}}",
+   "cobre_texto": [
+    "resumo:Location",
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "termino",
+   "text_pt": "A medula espinal termina no cone medular, no nível vertebral {{c1::L1/L2}}",
+   "cobre_texto": [
+    "resumo:Location",
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "regioes",
+   "text_pt": "A medula espinal tem cinco regiões: cervical, torácica, lombar, sacral e {{c1::coccígea}}",
+   "cobre_texto": [
+    "resumo:Parts",
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "int-cervical",
+   "text_pt": "A intumescência {{c1::cervical}} da medula espinal supre os membros superiores",
+   "cobre_texto": [
+    "resumo:Parts"
+   ]
+  },
+  {
+   "id": "int-lombossacral",
+   "text_pt": "A intumescência {{c1::lombossacral}} da medula espinal supre os membros inferiores",
+   "cobre_texto": [
+    "resumo:Parts"
+   ]
+  },
+  {
+   "id": "int-niveis",
+   "text_pt": "A intumescência cervical vai de C3 a {{c1::T2}} e a lombossacral vai de L1 a {{c2::S3}}",
+   "cobre_texto": [
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "nervos-numero",
+   "text_pt": "Há {{c1::8}} pares de nervos espinais cervicais, {{c2::12}} torácicos, {{c3::5}} lombares, {{c4::5}} sacrais e um coccígeo",
+   "cobre_texto": [
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "nervo-coccigeo",
+   "text_pt": "O nervo coccígeo origina-se do {{c1::cone medular}} e é o último e menor nervo espinal",
+   "cobre_texto": [
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "filamento-terminal",
+   "text_pt": "O filamento terminal, extensão da pia-máter, parte do ápice do {{c1::cone medular}}",
+   "cobre_texto": [
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "filamento-fixacao",
+   "text_pt": "O filamento terminal fixa-se ao {{c1::cóccix}} e ajuda a ancorar a parte distal da medula espinal",
+   "cobre_texto": [
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "medula-curta",
+   "text_pt": "A medula é mais curta que a coluna vertebral: as raízes de {{c1::L2}} em diante descem formando a cauda equina",
+   "cobre_texto": [
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "superficies",
+   "text_pt": "A medula espinal tem superfícies anterolaterais e {{c1::posterolaterais}}, com fissuras e sulcos",
+   "cobre_texto": [
+    "resumo:Surfaces",
+    "cap:3025"
+   ]
+  },
+  {
+   "id": "interior",
+   "text_pt": "Internamente, a medula espinal é formada por substância cinzenta e substância {{c1::branca}}",
+   "cobre_texto": [
+    "cap:3025"
+   ]
+  },
+  {
+   "id": "fissura-anterior",
+   "text_pt": "A {{c1::fissura mediana anterior}} é um sulco profundo que divide incompletamente a medula em metades simétricas",
+   "cobre_texto": [
+    "resumo:Surfaces",
+    "cap:3025"
+   ]
+  },
+  {
+   "id": "sulco-anterolateral",
+   "text_pt": "Os filamentos radiculares anteriores emergem pelo sulco {{c1::anterolateral}}",
+   "cobre_texto": [
+    "resumo:Surfaces",
+    "cap:3025"
+   ]
+  },
+  {
+   "id": "sulco-mediano-posterior",
+   "text_pt": "O sulco {{c1::mediano posterior}} percorre a linha média posterior da medula",
+   "cobre_texto": [
+    "resumo:Surfaces",
+    "cap:3025"
+   ]
+  },
+  {
+   "id": "sulco-posterolateral",
+   "text_pt": "Os filamentos radiculares posteriores emergem pelo sulco {{c1::posterolateral}}",
+   "cobre_texto": [
+    "resumo:Surfaces",
+    "cap:3025"
+   ]
+  },
+  {
+   "id": "sulco-intermedio",
+   "text_pt": "O sulco {{c1::intermédio posterior}} existe apenas nos níveis cervical e torácico superior",
+   "cobre_texto": [
+    "resumo:Surfaces",
+    "cap:3025"
+   ]
+  },
+  {
+   "id": "raizes-formacao",
+   "text_pt": "Os filamentos radiculares anteriores unem-se e formam a {{c1::raiz anterior}}",
+   "cobre_texto": [
+    "cap:3025"
+   ]
+  },
+  {
+   "id": "raiz-posterior-gg",
+   "text_pt": "Os filamentos radiculares posteriores unem-se e formam a raiz posterior, que contém o {{c1::gânglio espinal}}",
+   "cobre_texto": [
+    "cap:3025"
+   ]
+  },
+  {
+   "id": "nervo-formacao",
+   "text_pt": "A união das raízes anterior e posterior forma o {{c1::nervo espinal}}",
+   "cobre_texto": [
+    "cap:3025"
+   ]
+  },
+  {
+   "id": "meninges",
+   "text_pt": "Da superfície para a profundidade, as meninges espinais são: dura-máter, aracnoide e {{c1::pia-máter}}",
+   "cobre_texto": [
+    "resumo:Meninges"
+   ]
+  },
+  {
+   "id": "funcao",
+   "text_pt": "A medula espinal conduz impulsos do encéfalo para o corpo e gera {{c1::reflexos}}",
+   "cobre_texto": [
+    "resumo:Function"
+   ]
   }
  ]
 }

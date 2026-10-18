@@ -50,20 +50,291 @@
  "anking": [
   {
    "nid": 1484101486736,
-   "text_pt": "O {{c1::perineuro}} de um nervo periférico envolve um fascículo de fibras nervosas"
+   "text_pt": "O {{c1::perineuro}} de um nervo periférico envolve um fascículo de fibras nervosas",
+   "cobre_texto": [
+    "cap:3053"
+   ]
   },
   {
    "nid": 1484101491031,
-   "text_pt": "O {{c1::endoneuro}} de um nervo periférico envolve cada fibra nervosa individualmente"
+   "text_pt": "O {{c1::endoneuro}} de um nervo periférico envolve cada fibra nervosa individualmente",
+   "cobre_texto": [
+    "cap:3053"
+   ]
   },
   {
    "nid": 1479515731667,
    "text_pt": "Os corpos celulares dos neurônios das raízes posteriores dos nervos espinais ficam nos {{c1::gânglios espinais}}",
-   "extra_pt": "Também chamados gânglios da raiz posterior (dorsal)."
+   "extra_pt": "Também chamados gânglios da raiz posterior (dorsal).",
+   "cobre_texto": [
+    "cap:3048"
+   ]
   },
   {
    "nid": 1554064218108,
-   "text_pt": "Os ramos anteriores dos nervos espinais C5 a T1 formam o plexo {{c1::braquial}}"
+   "text_pt": "Os ramos anteriores dos nervos espinais C5 a T1 formam o plexo {{c1::braquial}}",
+   "cobre_texto": [
+    "cap:2907"
+   ]
+  }
+ ],
+ "texto": [
+  {
+   "id": "snp-definicao",
+   "text_pt": "O sistema nervoso periférico é composto por todas as estruturas nervosas fora do {{c1::encéfalo}} e da {{c2::medula espinal}}",
+   "cobre_texto": [
+    "obj:1",
+    "resumo:Definition",
+    "txt:1"
+   ]
+  },
+  {
+   "id": "snp-funcao",
+   "text_pt": "O sistema nervoso periférico transmite informação {{c1::motora}} e {{c2::sensitiva}} entre o sistema nervoso central e a periferia",
+   "cobre_texto": [
+    "obj:1",
+    "resumo:Function"
+   ]
+  },
+  {
+   "id": "snp-divisao",
+   "text_pt": "O sistema nervoso periférico divide-se funcionalmente em sistema nervoso {{c1::somático}} (voluntário) e sistema nervoso {{c2::autônomo}} (involuntário)",
+   "cobre_texto": [
+    "obj:2",
+    "resumo:Functional components",
+    "txt:1"
+   ]
+  },
+  {
+   "id": "snp-autonomo",
+   "text_pt": "O sistema nervoso autônomo subdivide-se em {{c1::simpático}}, {{c2::parassimpático}} e {{c3::entérico}}",
+   "cobre_texto": [
+    "obj:2",
+    "resumo:Functional components",
+    "txt:1"
+   ],
+   "extra_pt": "O sistema nervoso entérico é o do trato gastrointestinal."
+  },
+  {
+   "id": "snp-componentes",
+   "text_pt": "Os componentes anatômicos do sistema nervoso periférico são os {{c1::gânglios}}, os {{c2::nervos}} e os {{c3::plexos}}",
+   "cobre_texto": [
+    "obj:2",
+    "resumo:Anatomical components",
+    "txt:2"
+   ]
+  },
+  {
+   "id": "nervo-definicao",
+   "text_pt": "Um nervo é um feixe de {{c1::fibras nervosas}} (axônios), com seus envoltórios de tecido conjuntivo e seus vasos sanguíneos nutrícios",
+   "cobre_texto": [
+    "txt:2",
+    "cap:3053"
+   ],
+   "extra_pt": "Os vasos que nutrem o nervo são os vasa nervorum."
+  },
+  {
+   "id": "fibra-aferente",
+   "text_pt": "As fibras nervosas que levam informação da periferia ao sistema nervoso central são {{c1::aferentes}} (sensitivas)",
+   "cobre_texto": [
+    "txt:2"
+   ]
+  },
+  {
+   "id": "fibra-eferente",
+   "text_pt": "As fibras nervosas que levam impulsos do sistema nervoso central à periferia são {{c1::eferentes}} (motoras)",
+   "cobre_texto": [
+    "txt:2"
+   ]
+  },
+  {
+   "id": "nervo-origem",
+   "text_pt": "Os nervos {{c1::cranianos}} emergem do encéfalo; os nervos {{c2::espinais}} emergem da medula espinal",
+   "cobre_texto": [
+    "txt:3",
+    "cap:3053",
+    "resumo:Anatomical components"
+   ]
+  },
+  {
+   "id": "nervo-numero",
+   "text_pt": "Há {{c1::12}} pares de nervos cranianos e {{c2::31}} pares de nervos espinais",
+   "cobre_texto": [
+    "txt:3",
+    "resumo:Anatomical components"
+   ]
+  },
+  {
+   "id": "ganglio-definicao",
+   "text_pt": "Gânglio é um agrupamento de corpos de neurônios situado {{c1::fora}} do sistema nervoso central",
+   "cobre_texto": [
+    "txt:4"
+   ]
+  },
+  {
+   "id": "ganglio-tipos",
+   "text_pt": "Os gânglios são de dois tipos principais: {{c1::sensitivos}} e {{c2::autônomos}}",
+   "cobre_texto": [
+    "txt:4",
+    "resumo:Anatomical components"
+   ],
+   "extra_pt": "Gânglios sensitivos: gânglio da raiz posterior e gânglios sensitivos dos nervos cranianos. Gânglios autônomos: simpáticos e parassimpáticos."
+  },
+  {
+   "id": "ganglio-simpatico",
+   "text_pt": "Os gânglios simpáticos ficam próximos à {{c1::medula espinal}}",
+   "cobre_texto": [
+    "txt:4",
+    "resumo:Anatomical components"
+   ]
+  },
+  {
+   "id": "ganglio-parassimpatico",
+   "text_pt": "Os gânglios parassimpáticos ficam próximos às {{c1::vísceras}} ou dentro delas",
+   "cobre_texto": [
+    "txt:4",
+    "resumo:Anatomical components"
+   ]
+  },
+  {
+   "id": "ganglio-sensitivo",
+   "text_pt": "Os gânglios sensitivos contêm corpos de neurônios que enviam informação da periferia ao {{c1::sistema nervoso central}}",
+   "cobre_texto": [
+    "txt:4"
+   ]
+  },
+  {
+   "id": "plexo-definicao",
+   "text_pt": "Plexo é uma rede ramificada de {{c1::nervos}} interconectados",
+   "cobre_texto": [
+    "txt:5"
+   ]
+  },
+  {
+   "id": "plexo-tipos",
+   "text_pt": "Os dois tipos principais de plexo são os plexos dos nervos {{c1::espinais}} e os plexos {{c2::autônomos}}",
+   "cobre_texto": [
+    "txt:5",
+    "resumo:Anatomical components"
+   ]
+  },
+  {
+   "id": "plexo-formacao",
+   "text_pt": "Os plexos dos nervos espinais são formados pelos {{c1::ramos anteriores}} dos nervos espinais",
+   "cobre_texto": [
+    "txt:5",
+    "cap:2907"
+   ]
+  },
+  {
+   "id": "plexo-autonomo",
+   "text_pt": "Os plexos autônomos, no tórax, abdome e pelve, regulam a atividade das {{c1::vísceras}}",
+   "cobre_texto": [
+    "txt:5",
+    "resumo:Anatomical components"
+   ]
+  },
+  {
+   "id": "plexo-cervical",
+   "text_pt": "O plexo {{c1::cervical}} (C1–C4) supre nervos para a parte posterior da cabeça e do pescoço",
+   "cobre_texto": [
+    "cap:2907",
+    "resumo:Anatomical components"
+   ]
+  },
+  {
+   "id": "plexo-lombar",
+   "text_pt": "O plexo {{c1::lombar}} (T12–L5) supre nervos para a parte anterior do membro inferior",
+   "cobre_texto": [
+    "cap:2907",
+    "resumo:Anatomical components"
+   ]
+  },
+  {
+   "id": "plexo-sacral",
+   "text_pt": "O plexo {{c1::sacral}} (S1–S4) supre nervos para a parte posterior do membro inferior",
+   "cobre_texto": [
+    "cap:2907",
+    "resumo:Anatomical components"
+   ]
+  },
+  {
+   "id": "plexo-coccigeo",
+   "text_pt": "O plexo {{c1::coccígeo}} (S4–S5, Co1) supre nervos para as regiões pélvica e coccígea",
+   "cobre_texto": [
+    "cap:2907",
+    "resumo:Anatomical components"
+   ]
+  },
+  {
+   "id": "fibra-mielina",
+   "text_pt": "As fibras nervosas podem ser {{c1::mielinizadas}} (envolvidas por bainha de mielina) ou não mielinizadas",
+   "cobre_texto": [
+    "cap:3053"
+   ]
+  },
+  {
+   "id": "epineuro",
+   "text_pt": "O {{c1::epineuro}} é a camada de tecido conjuntivo que envolve a superfície externa do nervo",
+   "cobre_texto": [
+    "cap:3053"
+   ]
+  },
+  {
+   "id": "raizes-espinais",
+   "text_pt": "Os nervos espinais saem da medula espinal por uma raiz {{c1::anterior}} e uma raiz {{c2::posterior}}",
+   "cobre_texto": [
+    "cap:3053"
+   ]
+  },
+  {
+   "id": "neuronio-sensitivo",
+   "text_pt": "Os neurônios {{c1::sensitivos}} (aferentes) levam informação da periferia ao sistema nervoso central",
+   "cobre_texto": [
+    "cap:3048"
+   ]
+  },
+  {
+   "id": "axonio-sensitivo",
+   "text_pt": "Os axônios sensitivos entram na medula espinal pela raiz {{c1::posterior}} do nervo espinal",
+   "cobre_texto": [
+    "cap:3048"
+   ]
+  },
+  {
+   "id": "neuronio-motor",
+   "text_pt": "Os neurônios {{c1::motores}} (eferentes) levam informação do sistema nervoso central à periferia",
+   "cobre_texto": [
+    "cap:3048"
+   ]
+  },
+  {
+   "id": "fibra-motora",
+   "text_pt": "As fibras motoras, somáticas e autônomas, emergem da medula espinal pela raiz {{c1::anterior}} do nervo espinal",
+   "cobre_texto": [
+    "cap:3048"
+   ]
+  },
+  {
+   "id": "corpo-motor",
+   "text_pt": "Os corpos dos neurônios motores ficam na {{c1::substância cinzenta}} da medula espinal",
+   "cobre_texto": [
+    "cap:3048"
+   ]
+  },
+  {
+   "id": "impulso-autonomo",
+   "text_pt": "Os impulsos autônomos, que inervam músculo liso, músculo cardíaco e células glandulares, passam por fibras {{c1::pré-ganglionares}} e pós-ganglionares",
+   "cobre_texto": [
+    "cap:3048"
+   ]
+  },
+  {
+   "id": "sinapse-autonoma",
+   "text_pt": "A sinapse entre os neurônios pré e pós-ganglionares ocorre no gânglio {{c1::autônomo}}, onde ficam os corpos dos neurônios pós-ganglionares",
+   "cobre_texto": [
+    "cap:3048"
+   ]
   }
  ]
 }

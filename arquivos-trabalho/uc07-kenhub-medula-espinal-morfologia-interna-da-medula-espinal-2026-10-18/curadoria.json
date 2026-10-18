@@ -1,0 +1,563 @@
+{
+ "modulo": "medula-espinal",
+ "unidade": "morfologia-interna-da-medula-espinal",
+ "unidade_kenhub": "anatomy-spinal-cord-cross-section",
+ "deck": "NEBLI::UC07::Medula espinal::Morfologia interna da medula espinal",
+ "short": "u71a08",
+ "lesson_id": "2026-uc07-medula-espinal-morfologia-interna-da-medula-espinal",
+ "kenhub_excluir": {},
+ "nome_pt": {
+  "funiculus-lateralis": "Funículo lateral da medula espinal"
+ },
+ "nome_igual_ok": [],
+ "acervo": [
+  {
+   "nid": 1540252225099,
+   "apos": "posterior-root-of-spinal-nerve",
+   "cobre": [
+    "posterior-root-of-spinal-nerve"
+   ],
+   "pt": "Raiz posterior"
+  }
+ ],
+ "anking": [
+  {
+   "nid": 1479515694810,
+   "text_pt": "Qual substância da medula espinal contém axônios funcionalmente semelhantes, chamados tratos ou fascículos? {{c1::Substância branca}}",
+   "cobre_texto": [
+    "resumo:Tracts"
+   ]
+  },
+  {
+   "nid": 1480477492660,
+   "text_pt": "O trato espinotalâmico anterior transmite {{c1::tato grosseiro}} (não discriminativo) e {{c1::pressão}}",
+   "cobre_texto": [
+    "resumo:Ascending tracts"
+   ],
+   "extra_pt": "O trato espinotalâmico lateral transmite dor e temperatura."
+  },
+  {
+   "nid": 1480477488552,
+   "text_pt": "O trato {{c2::espinotalâmico lateral}} transmite informação de {{c1::dor}} e {{c1::temperatura}} do corpo e dos membros",
+   "cobre_texto": [
+    "resumo:Ascending tracts"
+   ],
+   "extra_pt": "O trato espinotalâmico anterior transmite tato grosseiro e pressão."
+  },
+  {
+   "nid": 1480477387212,
+   "text_pt": "O trato {{c5::coluna posterior–lemnisco medial}} transmite informação de {{c1::pressão}}, {{c2::vibração}}, {{c3::tato fino}} (discriminativo) e {{c4::propriocepção}}",
+   "cobre_texto": [
+    "resumo:Ascending tracts"
+   ]
+  },
+  {
+   "nid": 1480477444170,
+   "text_pt": "O fascículo {{c2::grácil}} é a coluna posterior {{c1::medial::medial ou lateral}}",
+   "cobre_texto": [
+    "cap:3338"
+   ],
+   "extra_pt": "A coluna lateral é o fascículo cuneiforme."
+  },
+  {
+   "nid": 1480477451956,
+   "text_pt": "O fascículo {{c2::cuneiforme}} é a coluna posterior {{c1::lateral::medial ou lateral}}",
+   "cobre_texto": [
+    "cap:3338"
+   ],
+   "extra_pt": "A coluna medial é o fascículo grácil."
+  },
+  {
+   "nid": 1480477461307,
+   "text_pt": "O fascículo {{c2::cuneiforme}} carrega a informação dos níveis medulares {{c1::T5}} e acima",
+   "cobre_texto": [
+    "cap:3338"
+   ]
+  },
+  {
+   "nid": 1480477542136,
+   "text_pt": "Os tratos espinocerebelares levam informação {{c1::proprioceptiva}} inconsciente, dos fusos musculares e órgãos tendinosos de Golgi {{c2::ipsi}}laterais, ao cerebelo",
+   "cobre_texto": [
+    "resumo:Ascending tracts",
+    "cap:1900"
+   ],
+   "extra_pt": "Isto é, o trato espinocerebelar posterior e o trato cuneocerebelar."
+  },
+  {
+   "nid": 1480477559353,
+   "text_pt": "O trato {{c1::espinocerebelar posterior}} carrega informação proprioceptiva inconsciente dos membros inferiores e do tronco",
+   "cobre_texto": [
+    "resumo:Ascending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "nid": 1480477554136,
+   "text_pt": "Quantos neurônios são necessários na via do trato espinocerebelar? {{c1::Dois}}",
+   "cobre_texto": [
+    "resumo:Ascending tracts"
+   ]
+  },
+  {
+   "nid": 1480389673051,
+   "text_pt": "O trato corticoespinal lateral é ascendente ou descendente? {{c1::Descendente}}",
+   "cobre_texto": [
+    "resumo:Descending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "nid": 1480389669820,
+   "text_pt": "O trato {{c1::corticoespinal}}, no encéfalo, é responsável pelo movimento voluntário dos membros {{c2::contra}}laterais",
+   "cobre_texto": [
+    "resumo:Descending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "nid": 1480389659683,
+   "text_pt": "Os neurônios motores {{c2::inferiores::inferiores/superiores}} são sempre {{c1::ipsi::ipsi/contra}}laterais ao músculo que inervam",
+   "cobre_texto": [
+    "resumo:Anterior horn"
+   ]
+  },
+  {
+   "nid": 1480389622314,
+   "text_pt": "Os neurônios motores {{c1::inferiores}} ficam no corno {{c2::anterior}} da medula espinal e nos núcleos dos nervos cranianos do tronco encefálico",
+   "cobre_texto": [
+    "resumo:Anterior horn",
+    "cap:756"
+   ],
+   "extra_pt": "Saem por uma raiz anterior, juntam-se a um nervo espinal e seguem por um de seus ramos até a junção neuromuscular no músculo esquelético."
+  },
+  {
+   "nid": 1480516753828,
+   "text_pt": "Qual nível da medula espinal contém proporcionalmente mais substância cinzenta (em relação à branca)? {{c1::Sacral}}",
+   "cobre_texto": [
+    "cap:3338"
+   ]
+  }
+ ],
+ "cores": {
+  "anterior-root-of-spinal-nerve": "verde",
+  "rootlets": "azul",
+  "fasciculus-gracilis": "verde",
+  "cuneate-fasciculus": "verde",
+  "dorsolateral-tract": "azul",
+  "gray-matter": "verde",
+  "dorsal-spinocerebellar-tract": "azul",
+  "marginal-nucleus-of-spinal-cord": "azul",
+  "central-gelatinous-substance-of-spinal-cord": "azul",
+  "septomarginal-fasciculus": "rosa",
+  "interfascicular-fasciculus": "rosa",
+  "nucleus-proprius-of-spinal-cord": "azul",
+  "secondary-visceral-grey-matter-of-spinal-cord": "azul",
+  "intermediolateral-nucleus-of-spinal-cord": "azul",
+  "posterior-thoracic-nucleus": "azul",
+  "medial-motor-nucleus": "azul",
+  "funiculus-lateralis": "azul",
+  "lamina-i": "azul",
+  "lamina-ii": "azul",
+  "lamina-iii": "azul",
+  "lamina-iv": "azul",
+  "lamina-v": "azul",
+  "lamina-vi": "azul",
+  "lamina-vii": "azul",
+  "lamina-viii": "azul",
+  "lamina-ix": "azul",
+  "lamina-x": "azul",
+  "anterior-proper-fasciculus": "rosa",
+  "lateral-corticospinal-tract": "verde",
+  "rubrospinal-tract": "azul",
+  "medial-longitudinal-fasciculus": "azul",
+  "medullary-reticulospinal-tract": "azul",
+  "canalis-centralis-medullae-spinalis": "verde",
+  "anterior-spinocerebellar-tract": "azul",
+  "spino-olivary-tract": "rosa",
+  "spinothalamic-tract-and-spinoreticular-tract": "verde",
+  "cornu-posterius-medullae-spinalis": "verde",
+  "anterior-horn-of-spinal-cord": "verde",
+  "lateral-motor-nuclei": "azul",
+  "anterior-corticospinal-tract": "azul",
+  "anterior-median-fissure-of-medulla": "azul",
+  "anterior-pontoreticulospinal-tract": "rosa",
+  "posterior-root-of-spinal-nerve": "verde",
+  "vestibulospinal-tract": "azul",
+  "anterior-funiculus-of-spinal-cord": "verde",
+  "tectospinal-tract": "azul"
+ },
+ "texto": [
+  {
+   "id": "cinzenta-cornos",
+   "text_pt": "A substância cinzenta da medula espinal divide-se em cornos {{c1::anterior}}, {{c2::posterior}} e {{c3::lateral}}",
+   "cobre_texto": [
+    "resumo:Divisions",
+    "cap:3338"
+   ]
+  },
+  {
+   "id": "cinzenta-forma",
+   "text_pt": "Em corte transversal, a substância cinzenta da medula espinal tem forma de {{c1::borboleta}}",
+   "cobre_texto": [
+    "cap:3338"
+   ]
+  },
+  {
+   "id": "canal-central",
+   "text_pt": "O canal central da medula espinal contém {{c1::líquido cerebrospinal}} e percorre toda a sua extensão",
+   "cobre_texto": [
+    "cap:3338"
+   ]
+  },
+  {
+   "id": "canal-ventricular",
+   "text_pt": "O canal central é a porção mais {{c1::caudal}} da circulação ventricular",
+   "cobre_texto": [
+    "cap:3338"
+   ]
+  },
+  {
+   "id": "comissuras-cinzentas",
+   "text_pt": "A substância cinzenta ao redor do canal central forma as comissuras cinzentas {{c1::anterior}} e posterior, que unem os cornos das duas metades",
+   "cobre_texto": [
+    "resumo:Pericentral canal",
+    "cap:3338"
+   ]
+  },
+  {
+   "id": "comissura-lamina",
+   "text_pt": "A comissura cinzenta corresponde à lâmina de Rexed {{c1::X}}",
+   "cobre_texto": [
+    "resumo:Pericentral canal",
+    "cap:756"
+   ]
+  },
+  {
+   "id": "lamina-x-sna",
+   "text_pt": "A lâmina X, ao redor do canal central, relaciona-se ao sistema nervoso {{c1::autônomo}}",
+   "cobre_texto": [
+    "cap:756"
+   ]
+  },
+  {
+   "id": "posterior-funcao",
+   "text_pt": "O corno posterior da medula espinal tem função de inervação {{c1::sensitiva}}",
+   "cobre_texto": [
+    "resumo:Posterior horn"
+   ]
+  },
+  {
+   "id": "posterior-raiz",
+   "text_pt": "Os núcleos do corno posterior recebem e processam a informação sensitiva trazida pela raiz {{c1::posterior}}",
+   "cobre_texto": [
+    "resumo:Posterior horn",
+    "cap:756"
+   ]
+  },
+  {
+   "id": "posterior-grupos",
+   "text_pt": "O corno posterior tem quatro núcleos: marginal, substância gelatinosa, núcleo próprio e núcleo torácico {{c1::posterior}}",
+   "cobre_texto": [
+    "resumo:Posterior horn",
+    "cap:756"
+   ]
+  },
+  {
+   "id": "lamina-i",
+   "text_pt": "O núcleo marginal corresponde à lâmina de Rexed {{c1::I}}",
+   "cobre_texto": [
+    "resumo:Posterior horn",
+    "cap:756"
+   ]
+  },
+  {
+   "id": "lamina-ii",
+   "text_pt": "A substância gelatinosa corresponde à lâmina de Rexed {{c1::II}}",
+   "cobre_texto": [
+    "resumo:Posterior horn",
+    "cap:756"
+   ]
+  },
+  {
+   "id": "lamina-iii-v",
+   "text_pt": "O núcleo próprio corresponde às lâminas de Rexed {{c1::III}} a {{c2::V}}",
+   "cobre_texto": [
+    "resumo:Posterior horn",
+    "cap:756"
+   ]
+  },
+  {
+   "id": "lamina-vii-torac",
+   "text_pt": "O núcleo torácico posterior corresponde à lâmina de Rexed {{c1::VII}}",
+   "cobre_texto": [
+    "resumo:Posterior horn",
+    "cap:756"
+   ]
+  },
+  {
+   "id": "lateral-nucleos",
+   "text_pt": "O corno lateral contém os núcleos {{c1::intermediolaterais}} (lâmina VII)",
+   "cobre_texto": [
+    "resumo:Lateral horn",
+    "cap:756"
+   ]
+  },
+  {
+   "id": "lateral-funcao",
+   "text_pt": "O corno lateral tem função de inervação {{c1::simpática}}",
+   "cobre_texto": [
+    "resumo:Lateral horn",
+    "cap:756"
+   ]
+  },
+  {
+   "id": "iml-neuronios",
+   "text_pt": "O núcleo intermediolateral contém os corpos dos neurônios {{c1::pré-ganglionares}} simpáticos",
+   "cobre_texto": [
+    "cap:756"
+   ]
+  },
+  {
+   "id": "iml-niveis",
+   "text_pt": "O núcleo intermediolateral existe apenas nos segmentos {{c1::T1}} a {{c2::L3}}",
+   "cobre_texto": [
+    "cap:756"
+   ]
+  },
+  {
+   "id": "iml-ramos",
+   "text_pt": "A inervação simpática do núcleo intermediolateral chega ao tronco simpático pelos ramos comunicantes {{c1::brancos}}",
+   "cobre_texto": [
+    "cap:756"
+   ]
+  },
+  {
+   "id": "sacral-parassimpatico",
+   "text_pt": "Entre S2 e S4 há um núcleo {{c1::parassimpático}} sacral, também pertencente à lâmina VII",
+   "cobre_texto": [
+    "cap:756"
+   ]
+  },
+  {
+   "id": "anterior-funcao",
+   "text_pt": "Os neurônios do corno anterior são responsáveis pela inervação {{c1::motora}}, conduzida pela raiz anterior",
+   "cobre_texto": [
+    "resumo:Anterior horn",
+    "cap:756"
+   ]
+  },
+  {
+   "id": "anterior-grupos",
+   "text_pt": "Os neurônios do corno anterior formam três grupos: medial, central e {{c1::lateral}}, todos na lâmina IX",
+   "cobre_texto": [
+    "resumo:Anterior horn",
+    "cap:756"
+   ]
+  },
+  {
+   "id": "grupo-medial",
+   "text_pt": "O grupo medial do corno anterior estende-se por quase todo o {{c1::comprimento}} da medula espinal",
+   "cobre_texto": [
+    "cap:756"
+   ]
+  },
+  {
+   "id": "grupo-central",
+   "text_pt": "O grupo central do corno anterior existe nos segmentos cervicais e {{c1::lombossacrais}}",
+   "cobre_texto": [
+    "cap:756"
+   ]
+  },
+  {
+   "id": "grupo-lateral",
+   "text_pt": "O grupo lateral do corno anterior existe só nos níveis que inervam os membros: C4 a {{c1::T1}} e L2 a {{c2::S3}}",
+   "cobre_texto": [
+    "cap:756"
+   ]
+  },
+  {
+   "id": "funiculos",
+   "text_pt": "A substância branca da medula espinal divide-se em funículos anterior, posterior e {{c1::lateral}}",
+   "cobre_texto": [
+    "resumo:Divisions#2",
+    "cap:3338"
+   ]
+  },
+  {
+   "id": "funiculo-posterior",
+   "text_pt": "O funículo posterior dos níveis cervical e torácico superior (C1–T6) divide-se em fascículo grácil (medial) e fascículo {{c1::cuneiforme}} (lateral)",
+   "cobre_texto": [
+    "cap:3338"
+   ]
+  },
+  {
+   "id": "gracil-funcao",
+   "text_pt": "O fascículo grácil transmite propriocepção consciente, tato fino e vibração da metade {{c1::inferior}} do corpo",
+   "cobre_texto": [
+    "cap:3338"
+   ]
+  },
+  {
+   "id": "cuneiforme-funcao",
+   "text_pt": "O fascículo cuneiforme transmite propriocepção consciente, tato fino e vibração da metade {{c1::superior}} do corpo",
+   "cobre_texto": [
+    "cap:3338"
+   ]
+  },
+  {
+   "id": "comissuras-brancas",
+   "text_pt": "Entre as duas metades da medula espinal passam as comissuras {{c1::brancas}} anterior e posterior",
+   "cobre_texto": [
+    "cap:3338"
+   ]
+  },
+  {
+   "id": "tratos-tipos",
+   "text_pt": "A substância branca é feita de fibras nervosas mielinizadas organizadas em tratos ascendentes, descendentes e {{c1::intersegmentares}}",
+   "cobre_texto": [
+    "resumo:Tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "asc-primarias",
+   "text_pt": "Os tratos ascendentes são formados por fibras aferentes {{c1::primárias}}, que entram pelas raízes posteriores dos nervos espinais",
+   "cobre_texto": [
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "asc-vias",
+   "text_pt": "As três vias ascendentes são: sistema anterolateral, via coluna posterior–lemnisco medial e vias somatossensitivas para o {{c1::cerebelo}}",
+   "cobre_texto": [
+    "resumo:Ascending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "anterolateral-tratos",
+   "text_pt": "O sistema anterolateral inclui os tratos espinotalâmico, espinorreticular e {{c1::espino-olivar}}",
+   "cobre_texto": [
+    "resumo:Ascending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "anterolateral-funcao",
+   "text_pt": "O sistema {{c1::anterolateral}} transmite dor, temperatura e tato não discriminativo",
+   "cobre_texto": [
+    "resumo:Ascending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "pcml-fasciculos",
+   "text_pt": "A via coluna posterior–lemnisco medial é formada pelos fascículos grácil e {{c1::cuneiforme}}",
+   "cobre_texto": [
+    "resumo:Ascending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "pcml-funcao",
+   "text_pt": "A via coluna posterior–lemnisco medial transmite tato discriminativo, vibração, pressão e {{c1::propriocepção}}",
+   "cobre_texto": [
+    "resumo:Ascending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "espinocerebelares",
+   "text_pt": "As vias para o cerebelo incluem os tratos espinocerebelares anterior, posterior e {{c1::rostral}}",
+   "cobre_texto": [
+    "resumo:Ascending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "espinocerebelares-funcao",
+   "text_pt": "As vias espinocerebelares transmitem propriocepção e sensações de dor e {{c1::pressão}}",
+   "cobre_texto": [
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "desc-eferentes",
+   "text_pt": "Os tratos descendentes são formados por fibras {{c1::eferentes}}, que levam informação motora do encéfalo ou do tronco encefálico aos músculos efetores",
+   "cobre_texto": [
+    "resumo:Descending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "desc-grupos",
+   "text_pt": "Os tratos descendentes dividem-se em {{c1::piramidais}} (voluntários) e extrapiramidais (involuntários)",
+   "cobre_texto": [
+    "resumo:Descending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "piramidais-origem",
+   "text_pt": "Os tratos piramidais originam-se no {{c1::córtex cerebral}}; os extrapiramidais, no tronco encefálico",
+   "cobre_texto": [
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "piramidais-tratos",
+   "text_pt": "Os tratos piramidais são o corticoespinal {{c1::anterior}} e o corticoespinal lateral",
+   "cobre_texto": [
+    "resumo:Descending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "extrapiramidais-tratos",
+   "text_pt": "Os tratos extrapiramidais são o tetoespinal, o reticuloespinal medial, o vestibuloespinal, o reticuloespinal lateral e o {{c1::rubroespinal}}",
+   "cobre_texto": [
+    "resumo:Descending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "piramidais-funcao",
+   "text_pt": "Os tratos piramidais controlam a musculatura {{c1::voluntária}}; os extrapiramidais, o controle involuntário e automático",
+   "cobre_texto": [
+    "resumo:Descending tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "inter-curtos",
+   "text_pt": "Os tratos intersegmentares são tratos curtos que começam e terminam {{c1::dentro}} da medula espinal",
+   "cobre_texto": [
+    "resumo:Intersegmental tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "inter-funcao",
+   "text_pt": "Os tratos intersegmentares conectam neurônios de diferentes segmentos e participam dos reflexos {{c1::intersegmentares}}",
+   "cobre_texto": [
+    "resumo:Intersegmental tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "inter-lista",
+   "text_pt": "Os tratos intersegmentares são o trato dorsolateral, o fascículo longitudinal medial, o fascículo septomarginal e o fascículo {{c1::interfascicular}}",
+   "cobre_texto": [
+    "resumo:Intersegmental tracts",
+    "cap:1900"
+   ]
+  },
+  {
+   "id": "inter-descendentes",
+   "text_pt": "Os fascículos septomarginal e interfascicular são tratos intersegmentares {{c1::descendentes}}",
+   "cobre_texto": [
+    "resumo:Intersegmental tracts"
+   ]
+  }
+ ]
+}
