@@ -1,0 +1,443 @@
+{
+ "modulo": "medula-espinal",
+ "unidade": "nervos-espinais",
+ "unidade_kenhub": "anatomy-vertebral-column",
+ "deck": "NEBLI::UC07::Medula espinal::Nervos espinais",
+ "short": "u7e10c",
+ "lesson_id": "2026-uc07-medula-espinal-nervos-espinais",
+ "kenhub_excluir": {},
+ "nome_pt": {},
+ "nome_igual_ok": [],
+ "acervo": [
+  {
+   "nid": 1540252225099,
+   "apos": "posterior-root-of-spinal-nerve",
+   "cobre": [
+    "posterior-root-of-spinal-nerve"
+   ],
+   "pt": "Raiz posterior"
+  },
+  {
+   "nid": 1540252178114,
+   "apos": "anterior-root-of-spinal-nerve",
+   "cobre": [
+    "anterior-root-of-spinal-nerve"
+   ],
+   "pt": "Raiz anterior"
+  },
+  {
+   "nid": 1540252309361,
+   "apos": "ganglion-of-sympathetic-trunk",
+   "cobre": [
+    "ganglion-of-sympathetic-trunk"
+   ],
+   "pt": "Tronco simpático"
+  },
+  {
+   "nid": 1549136432215,
+   "apos": "gray-ramus-communicans",
+   "cobre": [
+    "gray-ramus-communicans"
+   ],
+   "pt": "Ramo comunicante cinzento"
+  }
+ ],
+ "anking": [
+  {
+   "nid": 1479515637873,
+   "text_pt": "Há {{c1::31}} pares de nervos espinais no total",
+   "cobre_texto": [
+    "txt:1",
+    "txt:2"
+   ],
+   "extra_pt": "Total: 31 pares de nervos espinais: 8 cervicais, 12 torácicos, 5 lombares, 5 sacrais e 1 coccígeo."
+  },
+  {
+   "nid": 1479515640508,
+   "text_pt": "Há {{c1::8}} pares de nervos espinais cervicais",
+   "cobre_texto": [
+    "txt:2"
+   ],
+   "extra_pt": "Total: 31 pares de nervos espinais: 8 cervicais, 12 torácicos, 5 lombares, 5 sacrais e 1 coccígeo."
+  },
+  {
+   "nid": 1479515642740,
+   "text_pt": "Há {{c1::12}} pares de nervos espinais torácicos",
+   "cobre_texto": [
+    "txt:2"
+   ],
+   "extra_pt": "Total: 31 pares de nervos espinais: 8 cervicais, 12 torácicos, 5 lombares, 5 sacrais e 1 coccígeo."
+  },
+  {
+   "nid": 1479515644755,
+   "text_pt": "Há {{c1::5}} pares de nervos espinais lombares e {{c1::5}} pares sacrais",
+   "cobre_texto": [
+    "txt:2"
+   ],
+   "extra_pt": "Total: 31 pares de nervos espinais: 8 cervicais, 12 torácicos, 5 lombares, 5 sacrais e 1 coccígeo."
+  },
+  {
+   "nid": 1479515646863,
+   "text_pt": "Há {{c1::um}} par de nervos espinais coccígeos",
+   "cobre_texto": [
+    "txt:2"
+   ],
+   "extra_pt": "Total: 31 pares de nervos espinais: 8 cervicais, 12 torácicos, 5 lombares, 5 sacrais e 1 coccígeo."
+  },
+  {
+   "nid": 1479515664501,
+   "text_pt": "O nervo L2 sai {{c1::abaixo}} da vértebra L2",
+   "cobre_texto": [
+    "cap:1099"
+   ],
+   "extra_pt": "Por exemplo: todos os nervos, exceto os cervicais, saem abaixo da vértebra correspondente."
+  },
+  {
+   "nid": 1484189092616,
+   "text_pt": "A síndrome da {{c1::cauda equina}} é uma lesão por compressão das raízes espinais de {{c2::L2}} para baixo",
+   "cobre_texto": [
+    "cap:1099"
+   ],
+   "extra_pt": "Geralmente causada por hérnia de disco intervertebral ou tumores."
+  },
+  {
+   "nid": 1554064167424,
+   "text_pt": "As raízes posterior e anterior se unem para formar o {{c1::nervo}} espinal",
+   "cobre_texto": [
+    "resumo:Formation",
+    "obj:1",
+    "txt:2"
+   ]
+  },
+  {
+   "nid": 1479515727329,
+   "text_pt": "As raízes anteriores dos nervos espinais contêm neurônios sensitivos ou motores? {{c1::Neurônios motores}}",
+   "cobre_texto": [
+    "txt:2",
+    "resumo:Formation"
+   ]
+  },
+  {
+   "nid": 1479351970168,
+   "text_pt": "Os nervos do sistema nervoso somático inervam {{c1::músculo esquelético}}",
+   "cobre_texto": [
+    "txt:1"
+   ]
+  },
+  {
+   "nid": 1479351989406,
+   "text_pt": "Todos os neurônios simpáticos pré-ganglionares podem fazer sinapse nos gânglios da cadeia {{c1::simpática (paravertebral)}}",
+   "cobre_texto": [
+    "cap:441"
+   ],
+   "extra_pt": "Pode ocorrer em gânglios do mesmo nível segmentar ou de outro nível da cadeia."
+  }
+ ],
+ "cores": {
+  "anterior-root-of-spinal-nerve": "verde",
+  "anterior-ramus-of-spinal-nerve": "verde",
+  "posterior-root-of-spinal-nerve": "verde",
+  "ganglion-spinale": "verde",
+  "rami-meningei-recurrentes-nervi-spinalis": "azul",
+  "posterior-ramus-of-spinal-nerve": "verde",
+  "lateral-muscular-ramus": "azul",
+  "medial-muscular-ramus": "azul",
+  "ramus-communicans-albus": "verde",
+  "ganglion-of-sympathetic-trunk": "azul",
+  "gray-ramus-communicans": "verde",
+  "white-and-grey-ramus-communicans": "azul",
+  "cervical-nerves-c1-c8": "verde",
+  "nervus-spinalis-c8": "verde",
+  "nervi-thoracici-t1-t12": "verde",
+  "lumbar-nerves-l1-l5": "verde",
+  "nervi-sacrales-s1-s5": "verde",
+  "coccygeal-nerve": "azul",
+  "cervical-enlargement": "azul",
+  "lumbar-enlargement": "azul"
+ },
+ "texto": [
+  {
+   "id": "pares",
+   "text_pt": "Os nervos espinais são {{c1::31}} pares de nervos mistos que se originam da medula espinal",
+   "cobre_texto": [
+    "txt:1"
+   ]
+  },
+  {
+   "id": "snp-maior",
+   "text_pt": "Os nervos espinais formam o maior componente do sistema nervoso {{c1::periférico}}",
+   "cobre_texto": [
+    "txt:1"
+   ]
+  },
+  {
+   "id": "funcao",
+   "text_pt": "Os nervos espinais transmitem informação aferente (sensitiva) e eferente (motora/autonômica) entre a periferia e o sistema nervoso {{c1::central}}",
+   "cobre_texto": [
+    "txt:1"
+   ]
+  },
+  {
+   "id": "somatico",
+   "text_pt": "Os neurônios somáticos dos nervos espinais relacionam-se à pele, ao músculo esquelético, aos tendões e às {{c1::articulações}}",
+   "cobre_texto": [
+    "txt:1"
+   ]
+  },
+  {
+   "id": "visceral",
+   "text_pt": "Os neurônios viscerais dos nervos espinais relacionam-se aos órgãos internos, ao músculo liso, ao músculo cardíaco e às {{c1::glândulas}}",
+   "cobre_texto": [
+    "txt:1"
+   ]
+  },
+  {
+   "id": "modalidades",
+   "text_pt": "Um nervo espinal típico tem quatro modalidades funcionais: aferente somática, aferente {{c1::visceral}}, eferente somática e eferente visceral",
+   "cobre_texto": [
+    "txt:1"
+   ]
+  },
+  {
+   "id": "radiculas",
+   "text_pt": "Cada nervo espinal origina-se da medula, dentro do canal vertebral, como {{c1::filamentos radiculares}} anteriores e posteriores (6 a 8 de cada)",
+   "cobre_texto": [
+    "txt:2",
+    "obj:1"
+   ]
+  },
+  {
+   "id": "raizes-formacao",
+   "text_pt": "Os filamentos radiculares anteriores e posteriores se reúnem e formam as {{c1::raízes}} anterior e posterior",
+   "cobre_texto": [
+    "txt:2",
+    "obj:1"
+   ]
+  },
+  {
+   "id": "raiz-anterior",
+   "text_pt": "As raízes anteriores contêm fibras nervosas {{c1::eferentes}} (motoras e autonômicas)",
+   "cobre_texto": [
+    "txt:2",
+    "resumo:Formation"
+   ]
+  },
+  {
+   "id": "raiz-posterior",
+   "text_pt": "As raízes posteriores contêm prolongamentos de neurônios {{c1::aferentes}} (sensitivos)",
+   "cobre_texto": [
+    "txt:2",
+    "resumo:Formation"
+   ]
+  },
+  {
+   "id": "nervo-misto",
+   "text_pt": "A união da raiz anterior (eferente) com a raiz posterior (aferente) forma um nervo espinal {{c1::misto}}",
+   "cobre_texto": [
+    "resumo:Formation",
+    "obj:1"
+   ]
+  },
+  {
+   "id": "saida-forame",
+   "text_pt": "Os nervos espinais saem do canal vertebral pelos forames {{c1::intervertebrais}}",
+   "cobre_texto": [
+    "txt:3",
+    "cap:441"
+   ]
+  },
+  {
+   "id": "saida-sacral",
+   "text_pt": "Na região sacral, os nervos espinais saem do canal vertebral pelos forames {{c1::sacrais}}",
+   "cobre_texto": [
+    "txt:3",
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "ramos-principais",
+   "text_pt": "Cada nervo espinal emite dois ramos principais: um ramo {{c1::posterior}} pequeno e um ramo anterior maior",
+   "cobre_texto": [
+    "txt:3",
+    "obj:2",
+    "cap:441"
+   ]
+  },
+  {
+   "id": "inervacao-geral",
+   "text_pt": "Os ramos dos nervos espinais fornecem inervação cutânea, motora e {{c1::autonômica}} aos músculos e à pele do pescoço, tronco e membros",
+   "cobre_texto": [
+    "txt:3",
+    "obj:3"
+   ]
+  },
+  {
+   "id": "posterior-direcao",
+   "text_pt": "O ramo posterior do nervo espinal segue para trás e divide-se em ramos {{c1::medial}} e lateral",
+   "cobre_texto": [
+    "resumo:Branches",
+    "cap:441",
+    "obj:2"
+   ]
+  },
+  {
+   "id": "posterior-supre",
+   "text_pt": "O ramo posterior inerva os músculos {{c1::profundos}} do dorso e uma faixa estreita de pele sobrejacente",
+   "cobre_texto": [
+    "resumo:Supply area",
+    "cap:441",
+    "obj:3"
+   ]
+  },
+  {
+   "id": "anterior-supre",
+   "text_pt": "O ramo anterior fornece inervação motora (somática ou visceral) ao resto do corpo do nível segmentar, incluindo os {{c1::membros}}",
+   "cobre_texto": [
+    "resumo:Supply area",
+    "cap:441",
+    "obj:3"
+   ]
+  },
+  {
+   "id": "anterior-plexos",
+   "text_pt": "Os ramos anteriores dos nervos espinais se misturam e formam os grandes plexos somáticos: cervical, braquial, lombar e {{c1::sacral}}",
+   "cobre_texto": [
+    "cap:441",
+    "obj:3"
+   ]
+  },
+  {
+   "id": "meningeo",
+   "text_pt": "Pouco antes de se dividir, o nervo espinal emite ramos {{c1::meníngeos}} recorrentes, que reentram no forame intervertebral",
+   "cobre_texto": [
+    "resumo:Branches",
+    "cap:441",
+    "obj:2"
+   ]
+  },
+  {
+   "id": "meningeo-supre",
+   "text_pt": "Os ramos meníngeos recorrentes suprem as {{c1::meninges}} e outras estruturas do canal vertebral",
+   "cobre_texto": [
+    "cap:441"
+   ]
+  },
+  {
+   "id": "comunicantes",
+   "text_pt": "Os ramos comunicantes brancos e cinzentos ligam-se ao ramo {{c1::anterior}} do nervo espinal e conduzem fibras simpáticas",
+   "cobre_texto": [
+    "cap:441",
+    "resumo:Branches"
+   ]
+  },
+  {
+   "id": "branco-niveis",
+   "text_pt": "Os ramos comunicantes brancos saem dos ramos anteriores dos nervos espinais {{c1::T1}} a {{c2::L2}}",
+   "cobre_texto": [
+    "resumo:Branches",
+    "cap:441"
+   ]
+  },
+  {
+   "id": "branco-fibras",
+   "text_pt": "O ramo comunicante branco leva fibras simpáticas {{c1::pré-ganglionares}}, do corno lateral ao gânglio simpático adjacente",
+   "cobre_texto": [
+    "cap:441"
+   ]
+  },
+  {
+   "id": "sinapse-cadeia",
+   "text_pt": "No gânglio simpático, a fibra pré-ganglionar pode fazer sinapse no mesmo nível, em nível superior ou inferior, ou passar sem fazer sinapse pelo tronco {{c1::simpático}}",
+   "cobre_texto": [
+    "cap:441"
+   ]
+  },
+  {
+   "id": "cinzento",
+   "text_pt": "As fibras do tronco simpático reentram nos nervos espinais por um ramo comunicante {{c1::cinzento}}",
+   "cobre_texto": [
+    "cap:441",
+    "resumo:Branches"
+   ]
+  },
+  {
+   "id": "cinzento-origem",
+   "text_pt": "O ramo comunicante cinzento é a via de entrada de fibras {{c1::simpáticas}} nos nervos espinais",
+   "cobre_texto": [
+    "resumo:Branches"
+   ]
+  },
+  {
+   "id": "c1-c7",
+   "text_pt": "Os nervos espinais C1–C7 saem do canal vertebral {{c1::acima}} das vértebras correspondentes",
+   "cobre_texto": [
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "c8",
+   "text_pt": "O nervo espinal C8 não tem vértebra associada: sai abaixo da vértebra {{c1::C7}}",
+   "cobre_texto": [
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "t1-abaixo",
+   "text_pt": "A partir da vértebra T1, os nervos espinais saem {{c1::abaixo}} das vértebras correspondentes",
+   "cobre_texto": [
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "coccigeo",
+   "text_pt": "O único nervo coccígeo deixa o canal vertebral sobre a face {{c1::anterior}} do cóccix",
+   "cobre_texto": [
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "intumescencias",
+   "text_pt": "Há duas intumescências na medula espinal: a {{c1::cervical}} (C5–T1) e a lombossacral (L2–S3)",
+   "cobre_texto": [
+    "cap:1099"
+   ],
+   "extra_pt": "Elas suprem os membros superiores e inferiores, respectivamente."
+  },
+  {
+   "id": "intumescencia-lombo",
+   "text_pt": "A intumescência lombossacral corresponde aos segmentos medulares {{c1::L2}} a {{c2::S3}}",
+   "cobre_texto": [
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "medula-curta",
+   "text_pt": "A medula espinal é mais curta que a coluna vertebral e termina no cone medular, no nível das vértebras {{c1::L1/L2}}",
+   "cobre_texto": [
+    "cap:1099"
+   ]
+  },
+  {
+   "id": "cauda-equina",
+   "text_pt": "As raízes posteriores e anteriores que descem abaixo da medula (nervos lombares, sacrais e coccígeo) formam a {{c1::cauda equina}}",
+   "cobre_texto": [
+    "cap:1099"
+   ],
+   "extra_pt": "O nome vem da aparência de “cauda de cavalo”."
+  }
+ ],
+ "netter": [
+  {
+   "slug": "lateral-muscular-ramus",
+   "pagina": 267,
+   "rotulo": "Lateral branch",
+   "pt": "Ramo lateral do ramo posterior"
+  },
+  {
+   "slug": "medial-muscular-ramus",
+   "pagina": 267,
+   "rotulo": "Medial branch",
+   "pt": "Ramo medial do ramo posterior"
+  }
+ ]
+}

@@ -42,7 +42,7 @@ ROOT = Path(__file__).resolve().parents[2]
 CLOZE_RE = re.compile(r"\{\{c(\d+)::(.*?)(?:::[^}]*)?\}\}", re.S)
 INGLES = re.compile(r"\b(the|of|and|is|are|which|from|with|located|between|nerve|structure)\b", re.I)
 SEPARADORES = re.compile(r"\s/\s|;|\s[-–—]\s|:|·")
-VERSAO_MIDIA = "7"                    # nome de arquivo novo a cada mudança de desenho (o Anki guarda imagem em cache)
+VERSAO_MIDIA = "8"                    # nome de arquivo novo a cada mudança de desenho (o Anki guarda imagem em cache)
 
 
 class AnkiPaciente(Anki):

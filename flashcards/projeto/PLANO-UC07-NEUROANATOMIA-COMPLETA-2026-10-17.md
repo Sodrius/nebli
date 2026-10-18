@@ -47,16 +47,16 @@ Fonte: `Cronograma 2026 — UC07 — Sistema Nervoso I — Turma B.pdf` (Drive, 
 
 | Ordem | Aula (cronograma) | # | Módulo (deck) | Submódulo (deck) | Slug Kenhub | Estruturas | Exerc. identificação | Estado |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 13/10 · Construção morfofuncional do SN (Gerson) | 1 | Introdução ao sistema nervoso | Sistema nervoso central: introdução ao encéfalo | `basic-anatomy-of-the-brain` | 18 | 17 | **ENTREGUE 17/10** (31 notas) |
-| 2 | 13/10 · Construção morfofuncional do SN (Gerson) | 2 | Introdução ao sistema nervoso | Sistema nervoso periférico: nervos, gânglios e plexos | `peripheral-nervous-system-nerves-ganglia-and-plexuses` | 22 | 23 | **ENTREGUE 17/10** (26 notas) |
-| 3 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 29 | Medula espinal | Topografia e morfologia da medula espinal | `spinal-cord-in-situ` | 44 | 54 | curadoria pronta (56 notas, gates pré ok); **falta instalar** — Anki com janela de edição aberta |
-| 4 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 30 | Medula espinal | Meninges espinais e raízes nervosas | `spinal-membranes-and-nerve-roots` | 14 | 14 | curadoria pronta (20 notas, gates pré ok); **falta instalar** |
-| 5 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 31 | Medula espinal | Morfologia interna da medula espinal | `anatomy-spinal-cord-cross-section` | 46 | 46 | a fazer |
-| 6 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 32 | Medula espinal | Nervos espinais | `anatomy-vertebral-column` | 20 | 19 | a fazer |
+| 1 | 13/10 · Construção morfofuncional do SN (Gerson) | 1 | Introdução ao sistema nervoso | Sistema nervoso central: introdução ao encéfalo | `basic-anatomy-of-the-brain` | 18 | 17 | **instalada; ajustando ao quiz inteiro (texto + tradução oficial), falta reinstalar e revisar**|
+| 2 | 13/10 · Construção morfofuncional do SN (Gerson) | 2 | Introdução ao sistema nervoso | Sistema nervoso periférico: nervos, gânglios e plexos | `peripheral-nervous-system-nerves-ganglia-and-plexuses` | 22 | 23 | **instalada; ajustando ao quiz inteiro (texto + tradução oficial), falta reinstalar e revisar**|
+| 3 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 29 | Medula espinal | Topografia e morfologia da medula espinal | `spinal-cord-in-situ` | 44 | 54 | curadoria pronta com cobertura do quiz inteiro; **falta instalar** (Anki com janela de edição aberta) |
+| 4 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 30 | Medula espinal | Meninges espinais e raízes nervosas | `spinal-membranes-and-nerve-roots` | 14 | 14 | curadoria pronta com cobertura do quiz inteiro; **falta instalar** (Anki com janela de edição aberta) |
+| 5 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 31 | Medula espinal | Morfologia interna da medula espinal | `anatomy-spinal-cord-cross-section` | 46 | 46 | curadoria pronta (110 notas, gates pré ok); falta instalar |
+| 6 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 32 | Medula espinal | Nervos espinais | `anatomy-vertebral-column` | 20 | 19 | curadoria pronta (69 notas, gates pré ok); falta instalar |
 | 7 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 50 | Sistema nervoso periférico e autônomo | Dermátomos e miótomos | `anatomy-pns-dermatomes` | 30 | 46 | a fazer |
 | 8 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 34 | Vias neurais | Tratos piramidais | `pyramidal-tracts` | 24 | 24 | a fazer |
 | 9 | 14/10 · Medula espinal, plexos, nervos (Jácomo) | 35 | Vias neurais | Via coluna posterior–lemnisco medial | `posterior-column-medial-lemniscus-pathway` | 22 | 22 | a fazer |
-| 10 | 14/10 · Tronco encefálico (Jácomo) | 20 | Tronco encefálico | Visão geral e anatomia de superfície | `brainstem-and-related-structures` | 67 | 68 | **ENTREGUE 17/10** |
+| 10 | 14/10 · Tronco encefálico (Jácomo) | 20 | Tronco encefálico | Visão geral e anatomia de superfície | `brainstem-and-related-structures` | 67 | 68 | **instalada 17/10; cobertura do quiz (texto) pronta na curadoria, falta reinstalar e revisar** |
 | 11 | 14/10 · Tronco encefálico (Jácomo) | 21 | Tronco encefálico | Bulbo (anatomia interna) | `medulla-hypoglossal-level` | 29 | 30 | a fazer |
 | 12 | 14/10 · Tronco encefálico (Jácomo) | 22 | Tronco encefálico | Núcleos dos nervos cranianos | `the-cranial-nerve-nuclei` | 33 | 57 | a fazer |
 | 13 | 14/10 · Nervos cranianos (Jácomo) | 37 | Nervos cranianos | Os 12 nervos cranianos | `overview-of-cranial-nerves` | 13 | 12 | a fazer |

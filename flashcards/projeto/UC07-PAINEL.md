@@ -1,6 +1,6 @@
 # UC07 — painel de sessão (gerado; não editar à mão)
 
-Gerado em 17/10/2026 16:51 por `./kenhub-deck --painel`. **Ler no início de toda sessão da UC07.**
+Gerado em 18/10/2026 07:56 por `./kenhub-deck --painel`. **Ler no início de toda sessão da UC07.**
 
 ## Onde estamos
 
@@ -20,7 +20,7 @@ Fila e tabela das 51 unidades: [PLANO-UC07-NEUROANATOMIA-COMPLETA-2026-10-17.md]
 Para pedindo curadoria (rascunho gerado); depois instala, reconcilia e só termina com TODOS os gates ok. Olhar as folhas de contato.
 Antes de instalar: navegador de cards do Anki fechado (o comando avisa). No fim: `pkill -f nebli.kenhub.navegador` (Kenhub = 1 aparelho por vez).
 
-## Feedbacks de Davi → gates duros (teste dos gates: OK)
+## Feedbacks de Davi → gates duros (teste dos gates: REPROVADO)
 
 | Id | Regra | Gates (onde reprova) | Prova |
 |---|---|---|---|
@@ -32,3 +32,21 @@ Antes de instalar: navegador de cards do Anki fechado (o comando avisa). No fim:
 
 Feedback novo: literal em FEEDBACKS → regra no MEMORY §15 → entrada em `nebli/kenhub/feedbacks.json` → gate no código → caso ruim em `teste_gates.py` → `./kenhub-deck --painel` verde.
 
+## FALHA DO TESTE DOS GATES
+
+```
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+_open(req, data)
+  File "/Users/davisousa/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 506, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/Users/davisousa/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/Users/davisousa/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 1364, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/davisousa/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/urllib/request.py", line 1338, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 61] Connection refused>
+
+```

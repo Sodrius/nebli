@@ -220,6 +220,9 @@ COR_SETA_ANKING = (229, 38, 30)   # vermelho de anotação (como as setas/linhas
 BORDA_MASCARA = (45, 45, 45)       # #2D2D2D, a borda das máscaras do Image Occlusion do AnKing
 
 
+VISIVEL_MIN = 0.0035   # fração da figura: menor que isso o retângulo não se vê de relance
+
+
 def retangulos(regiao, pad=5, area_min=AREA_MINIMA, grande=0.04):
     """Máscara no padrão AnKing: um retângulo (com folga) por parte da estrutura. Parte GRANDE (> `grande` da figura), cujo
     retângulo esconderia muito do que não é a estrutura, fica com a forma da própria estrutura (mesma cor e borda) — senão
@@ -241,7 +244,12 @@ def retangulos(regiao, pad=5, area_min=AREA_MINIMA, grande=0.04):
         # Pequena ou linha fina (sulco, núcleo): retângulo, que se vê melhor.
         if area > grande * w * h or (caixa > 3 * area and area > 0.003 * w * h):
             formas[ys, xs] = True
-        else:
+        else:   # estrutura minúscula (ex.: o nervo C8): retângulo mínimo para se ver de relance (G17)
+            lado = (VISIVEL_MIN * w * h) ** 0.5
+            cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+            larg, alt = max(x1 - x0 + 1, lado), max(y1 - y0 + 1, lado)
+            x0, x1 = int(max(0, cx - larg / 2)), int(min(w - 1, cx + larg / 2))
+            y0, y1 = int(max(0, cy - alt / 2)), int(min(h - 1, cy + alt / 2))
             caixas.append((x0, y0, x1, y1))
     m = formas.copy()
     for x0, y0, x1, y1 in caixas:

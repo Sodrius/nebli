@@ -19,7 +19,7 @@ from nebli.kenhub.navegador import RAIZ, conectar
 
 IGNORA = ("Review the structures", "Learn more about", "Solidify your", "Keep studying", "Great session",
           "This study session", "Take a quiz", "Watch video", "The following video", "You have watched",
-          "Download the following", "While studying the overview")
+          "Download the following", "While studying the overview", "Explore the", "Synonyms:")
 
 
 def analisar(texto: str) -> list[dict]:
