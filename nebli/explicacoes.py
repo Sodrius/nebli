@@ -50,7 +50,7 @@ from nebli.rotulos import canonical
 
 ROOT = Path(__file__).resolve().parents[1]
 STYLE = ROOT / "config" / "explicacao-tab.md"
-BATCH = 10
+BATCH = 25
 MODEL = "sonnet"
 NOISE = ("Reveal Next", "Toggle All")
 
@@ -281,6 +281,13 @@ def generate(call, query, limit=None, redo=False, simulate=False, db=None, backe
     db = db or open_store()
     system = STYLE.read_text(encoding="utf-8")
     version = style_version(system)
+    # Regra editorial específica sem mudar a versão global do estilo: cards de
+    # anatomia devem ensinar também para que a estrutura serve, não apenas seu
+    # nome, localização ou relações espaciais.
+    system += ("\n\nEm cards de Anatomia, Neuroanatomia ou estruturas anatômicas, "
+               "inclua sempre a função da estrutura e conecte essa função à sua "
+               "posição ou às relações mostradas, sem inventar função quando o "
+               "nome estiver ambíguo. A explicação não pode se limitar à identificação.")
     have = {cid: (h, style, status) for cid, h, style, status in
             db.execute("select card_id, hash, estilo, status from explicacoes")}
     todo = []

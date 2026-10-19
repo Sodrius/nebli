@@ -20,7 +20,7 @@ from nebli.kenhub.navegador import RAIZ, conectar
 
 IGNORA = ("Review the structures", "Learn more about", "Solidify your", "Keep studying", "Great session",
           "This study session", "Take a quiz", "Watch video", "The following video", "You have watched",
-          "Download the following", "While studying the overview", "Explore the", "Synonyms:")
+          "Download the following", "While studying the overview", "Explore the", "Synonyms:", "Don\u2019t roll", "Now that you have", "This video will help", "Watch the following video", "Take the following quiz", "Take a closer look", "Structures seen")
 
 
 def analisar(texto: str) -> list[dict]:
@@ -43,6 +43,11 @@ def analisar(texto: str) -> list[dict]:
             modo = "resumo"
             continue
         if s == "Table quiz":
+            continue
+        if s == "Browse atlas" and modo == "obj":   # galeria de legendas e rodapé da página: não é conteúdo de estudo (as legendas vêm por data-captions)
+            modo = "galeria"
+            continue
+        if s == "Introduction" and modo == "obj":
             continue
         if modo == "obj":
             out.append({"chave": f"obj:{sum(1 for o in out if o['tipo'] == 'obj') + 1}", "tipo": "obj", "en": s})

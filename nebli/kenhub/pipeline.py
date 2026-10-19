@@ -115,9 +115,10 @@ def rascunho(corrida: Path, base: Path, unidade: str, modulo: str, sub: str):
     cand_texto = {k: v for k, v in cand.items() if k.startswith("texto:")}
     cand = {k: v for k, v in cand.items() if not k.startswith("texto:")}
     sem_figura = [i["slug"] for i in itens if i.get("sem_figura")]
+    from nebli.kenhub.ordem_decks import nome_deck
     (corrida / "curadoria.rascunho.json").write_text(json.dumps(
         {"modulo": slug(modulo), "unidade": slug(sub), "unidade_kenhub": unidade,
-         "deck": f"NEBLI::UC07::{modulo}::{sub}", "short": "u7" + hashlib.md5(f"{modulo}/{sub}".encode()).hexdigest()[:4],
+         "deck": nome_deck(modulo, sub, unidade), "short": "u7" + hashlib.md5(f"{modulo}/{sub}".encode()).hexdigest()[:4],
          "lesson_id": f"2026-uc07-{slug(modulo)}-{slug(sub)}", "kenhub_excluir": {}, "nome_pt": {}, "nome_igual_ok": [],
          "acervo": [], "anking": [], "cores": {i["slug"]: "azul" for i in itens}, "texto": [], "sem_figura_no_kenhub": sem_figura, "candidatos": cand, "candidatos_texto": cand_texto},
         ensure_ascii=False, indent=1))

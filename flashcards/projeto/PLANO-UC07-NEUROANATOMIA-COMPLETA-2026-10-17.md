@@ -41,9 +41,9 @@ Só termina com sucesso se TODOS os gates passarem; depois eu olho as folhas de 
 - Guias de estudo recomendam IO com **uma estrutura por card** (“hide all, guess one”) ([MedSchoolCoach](https://www.medschoolcoach.com/resource/how-to-use-anki-for-med-students?hsLang=en)); um post do r/medicalschoolanki aponta o excesso de notas do IO em diagramas grandes ([snapshot](https://reddit.sentinel-team.org/posts/1q3sh0z/snapshots/2026-01-10T01%3A31%3A03.63275Z)) — aqui resolvido por usar uma figura por estrutura (Kenhub já traz isso).
 - Menos atrito daqui em diante: curadoria em rascunho automático; gates que reprovam antes de escrever; reconciliação no lugar (feedback corrige o deck sem perder histórico); painel de sessão; renderização inteira com folhas para olhar.
 
-## Ordem de geração = cronograma da UC07, Turma B (F-20261017-CLAUDE-05)
+## Ordem de geração e dos decks = ordem oficial do Kenhub (F-20261019-CODEX-01)
 
-Fonte: `Cronograma 2026 — UC07 — Sistema Nervoso I — Turma B.pdf` (Drive, `Não compartilhar/Menores/Cronogramas`). A “planilha mestra” é um atalho do Google Sheets que não abre daqui; se a ordem dela divergir do PDF, vale a planilha (Davi avisa).
+O cronograma abaixo continua registrando quando o conteúdo aparece na UC07, mas a coluna `#` é a ordem oficial do Kenhub e passa a governar a sequência dos subdecks e da produção. Depois das 51 unidades de Neuroanatomia, os demais módulos também seguem a ordem do Kenhub.
 
 | Ordem | Aula (cronograma) | # | Módulo (deck) | Submódulo (deck) | Slug Kenhub | Estruturas | Exerc. identificação | Estado |
 |---|---|---|---|---|---|---|---|---|
@@ -62,28 +62,28 @@ Fonte: `Cronograma 2026 — UC07 — Sistema Nervoso I — Turma B.pdf` (Drive, 
 | 13 | 14/10 · Nervos cranianos (Jácomo) | 37 | Nervos cranianos | Os 12 nervos cranianos | `overview-of-cranial-nerves` | 13 | 12 | **instalada 18/10 (105 notas)** |
 | 14 | 14/10 · Nervos cranianos (Jácomo) | 38 | Nervos cranianos | Nervo olfatório (I) | `the-olfactory-nerve` | 32 | 35 | **instalada 18/10 (55 notas)** |
 | 15 | 14/10 · Nervos cranianos (Jácomo) | 39 | Nervos cranianos | Nervo óptico (II) | `the-optic-nerve` | 9 | 9 | **instalada 18/10 (46 notas)** |
-| 16 | 14/10 · Nervos cranianos (Jácomo) | 40 | Nervos cranianos | Nervos oculomotor, troclear e abducente (III, IV, VI) | `the-oculomotor-trochlear-and-abducens-nerves` | 12 | 12 | **coletada; rascunho gerado; falta curar** |
-| 17 | 14/10 · Nervos cranianos (Jácomo) | 41 | Nervos cranianos | Nervo oftálmico (V1) | `the-ophthalmic-nerve` | 19 | 19 | **coletada; rascunho gerado; falta curar** |
-| 18 | 14/10 · Nervos cranianos (Jácomo) | 42 | Nervos cranianos | Nervo maxilar (V2) | `the-maxillary-nerve` | 18 | 18 | **coletada; rascunho gerado; falta curar** |
-| 19 | 14/10 · Nervos cranianos (Jácomo) | 43 | Nervos cranianos | Nervo mandibular (V3) | `the-mandibular-nerve` | 28 | 28 | **coletada; rascunho gerado; falta curar** |
-| 20 | 14/10 · Nervos cranianos (Jácomo) | 44 | Nervos cranianos | Nervo facial (VII) | `course-and-branches-of-facial-nerve` | 27 | 26 | a fazer |
-| 21 | 14/10 · Nervos cranianos (Jácomo) | 45 | Nervos cranianos | Nervo vestibulococlear (VIII) | `course-and-branches-of-vestibulocochlear-nerve` | 19 | 19 | a fazer |
-| 22 | 14/10 · Nervos cranianos (Jácomo) | 46 | Nervos cranianos | Nervo glossofaríngeo (IX) | `branches-and-nuclei-of-ninth-cranial-nerve` | 50 | 50 | a fazer |
-| 23 | 14/10 · Nervos cranianos (Jácomo) | 47 | Nervos cranianos | Nervo vago (X) | `course-and-branches-of-vagus-nerve` | 31 | 32 | a fazer |
-| 24 | 14/10 · Nervos cranianos (Jácomo) | 48 | Nervos cranianos | Nervo acessório (XI) | `course-of-accessory-nerve` | 15 | 15 | a fazer |
-| 25 | 14/10 · Nervos cranianos (Jácomo) | 49 | Nervos cranianos | Nervo hipoglosso (XII) | `course-of-hypoglossal-nerve` | 17 | 17 | a fazer |
-| 26 | 14/10 · Nervos cranianos (Jácomo) | 36 | Vias neurais | Via da gustação | `anatomy-of-taste-patway` | 29 | 29 | a fazer |
-| 27 | 14/10 · Cerebelo (Jácomo) | 18 | Cerebelo | Córtex cerebelar | `structure-of-cerebellum` | 35 | 35 | a fazer |
-| 28 | 14/10 · Cerebelo (Jácomo) | 19 | Cerebelo | Núcleos do cerebelo | `cerebellar-nuclei` | 16 | 16 | a fazer |
-| 29 | 27/10 · Diencéfalo (Jácomo) | 13 | Estruturas subcorticais | Visão geral do diencéfalo | `diencephalon` | 17 | 17 | a fazer |
-| 30 | 27/10 · Diencéfalo (Jácomo) | 14 | Estruturas subcorticais | Tálamo | `thalamus-and-related-structures` | 23 | 23 | a fazer |
-| 31 | 27/10 · Diencéfalo (Jácomo) | 15 | Estruturas subcorticais | Núcleos do tálamo | `thalamic-nuclei` | 17 | 17 | a fazer |
-| 32 | 27/10 · Diencéfalo (Jácomo) | 16 | Estruturas subcorticais | Hipotálamo | `anatomy-hypothalamus` | 25 | 25 | a fazer |
-| 33 | 27/10 · Diencéfalo (Jácomo) | 17 | Estruturas subcorticais | Hipófise | `anatomy-pituitary-gland` | 32 | 32 | a fazer |
-| 34 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 10 | Estruturas subcorticais | Núcleos da base | `anatomy-basal-ganglia` | 20 | 20 | a fazer |
-| 35 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 3 | Telencéfalo e córtex cerebral | Visão geral do cérebro | `overview-of-the-cerebrum` | 23 | 22 | a fazer |
-| 36 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 4 | Telencéfalo e córtex cerebral | Vista lateral do encéfalo | `lateral-views-of-the-brain` | 36 | 36 | a fazer |
-| 37 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 5 | Telencéfalo e córtex cerebral | Vista medial do encéfalo | `medial-view-of-the-brain` | 45 | 45 | a fazer |
+| 16 | 14/10 · Nervos cranianos (Jácomo) | 40 | Nervos cranianos | Nervos oculomotor, troclear e abducente (III, IV, VI) | `the-oculomotor-trochlear-and-abducens-nerves` | 12 | 12 | instalada (18/10) |
+| 17 | 14/10 · Nervos cranianos (Jácomo) | 41 | Nervos cranianos | Nervo oftálmico (V1) | `the-ophthalmic-nerve` | 19 | 19 | instalada (18/10) |
+| 18 | 14/10 · Nervos cranianos (Jácomo) | 42 | Nervos cranianos | Nervo maxilar (V2) | `the-maxillary-nerve` | 18 | 18 | instalada (18/10) |
+| 19 | 14/10 · Nervos cranianos (Jácomo) | 43 | Nervos cranianos | Nervo mandibular (V3) | `the-mandibular-nerve` | 28 | 28 | instalada (18/10) |
+| 20 | 14/10 · Nervos cranianos (Jácomo) | 44 | Nervos cranianos | Nervo facial (VII) | `course-and-branches-of-facial-nerve` | 27 | 26 | instalada (18/10) |
+| 21 | 14/10 · Nervos cranianos (Jácomo) | 45 | Nervos cranianos | Nervo vestibulococlear (VIII) | `course-and-branches-of-vestibulocochlear-nerve` | 19 | 19 | instalada (18/10) |
+| 22 | 14/10 · Nervos cranianos (Jácomo) | 46 | Nervos cranianos | Nervo glossofaríngeo (IX) | `branches-and-nuclei-of-ninth-cranial-nerve` | 50 | 50 | instalada (18/10) |
+| 23 | 14/10 · Nervos cranianos (Jácomo) | 47 | Nervos cranianos | Nervo vago (X) | `course-and-branches-of-vagus-nerve` | 31 | 32 | instalada (18/10) |
+| 24 | 14/10 · Nervos cranianos (Jácomo) | 48 | Nervos cranianos | Nervo acessório (XI) | `course-of-accessory-nerve` | 15 | 15 | instalada (18/10) |
+| 25 | 14/10 · Nervos cranianos (Jácomo) | 49 | Nervos cranianos | Nervo hipoglosso (XII) | `course-of-hypoglossal-nerve` | 17 | 17 | instalada (18/10) |
+| 26 | 14/10 · Nervos cranianos (Jácomo) | 36 | Vias neurais | Via da gustação | `anatomy-of-taste-patway` | 29 | 29 | instalada (18/10) |
+| 27 | 14/10 · Cerebelo (Jácomo) | 18 | Cerebelo | Córtex cerebelar | `structure-of-cerebellum` | 35 | 35 | instalada (18/10) |
+| 28 | 14/10 · Cerebelo (Jácomo) | 19 | Cerebelo | Núcleos do cerebelo | `cerebellar-nuclei` | 16 | 16 | instalada (18/10) |
+| 29 | 27/10 · Diencéfalo (Jácomo) | 13 | Estruturas subcorticais | Visão geral do diencéfalo | `diencephalon` | 17 | 17 | instalada (18/10) |
+| 30 | 27/10 · Diencéfalo (Jácomo) | 14 | Estruturas subcorticais | Tálamo | `thalamus-and-related-structures` | 23 | 23 | instalada (18/10) |
+| 31 | 27/10 · Diencéfalo (Jácomo) | 15 | Estruturas subcorticais | Núcleos do tálamo | `thalamic-nuclei` | 17 | 17 | instalada (18/10) |
+| 32 | 27/10 · Diencéfalo (Jácomo) | 16 | Estruturas subcorticais | Hipotálamo | `anatomy-hypothalamus` | 25 | 25 | instalada (18/10) |
+| 33 | 27/10 · Diencéfalo (Jácomo) | 17 | Estruturas subcorticais | Hipófise | `anatomy-pituitary-gland` | 32 | 32 | instalada (18/10) |
+| 34 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 10 | Estruturas subcorticais | Núcleos da base | `anatomy-basal-ganglia` | 20 | 20 | instalada (18/10) |
+| 35 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 3 | Telencéfalo e córtex cerebral | Visão geral do cérebro | `overview-of-the-cerebrum` | 23 | 22 | instalada (18/10) |
+| 36 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 4 | Telencéfalo e córtex cerebral | Vista lateral do encéfalo | `lateral-views-of-the-brain` | 36 | 36 | instalada (18/10) |
+| 37 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 5 | Telencéfalo e córtex cerebral | Vista medial do encéfalo | `medial-view-of-the-brain` | 45 | 45 | instalada (18/10) |
 | 38 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 6 | Telencéfalo e córtex cerebral | Vista inferior do encéfalo | `basal-view-of-the-brain` | 41 | 41 | a fazer |
 | 39 | 27/10 · Irrigação do SNC (Jácomo) | 26 | Vascularização do encéfalo | Artérias do encéfalo | `arteries-of-brain` | 42 | 49 | a fazer |
 | 40 | 27/10 · Irrigação do SNC (Jácomo) | 27 | Vascularização do encéfalo | Veias do encéfalo | `the-superficial-veins-of-the-brain` | 43 | 43 | a fazer |
@@ -102,8 +102,9 @@ Fonte: `Cronograma 2026 — UC07 — Sistema Nervoso I — Turma B.pdf` (Drive, 
 ## Trabalho a fazer antes/durante as próximas unidades
 1. **Cadastro único de estruturas** (`~/NEBLI-privado/kenhub/estruturas.json`: id Kenhub, nome PT/EN/latim, unidades em que aparece, nota do deck):
    a mesma estrutura aparece em várias unidades (1.398 entradas para bem menos estruturas). Regra: o card nasce na primeira unidade em que
-   a estrutura aparece; as seguintes **associam** a nota existente (etiqueta da unidade, sem repetir o card), exceto quando a figura
-   da unidade é de outra vista/escala e ensina algo novo (decisão registrada). Gate novo “sem duplicata” entra na unidade 21.
+   a estrutura aparece; as seguintes **associam** a nota existente se ela estiver ativa. Se todos os cards da nota estiverem suspensos,
+   ela migra para a unidade nova (sem associação), preservando ID, histórico e comentário; isso representa que ela não era importante na
+   unidade anterior, mas passou a ser importante nesta. Figura de outra vista/escala que ensina algo novo continua sendo decisão registrada.
 2. **Glossário PT** de termos anatômicos (um termo, uma tradução) — o Kenhub PT já traz o nome; o que falta ele, vem do glossário.
 3. **Curadoria assistida**: o rascunho já lista, por estrutura, as melhores notas de AnatoKing/AnKing/outros acervos; falta só confirmar
    cores (verde = pilares, azul = secundárias, rosa = distantes para Davi suspender) e o nome em português dos cards do AnatoKing.

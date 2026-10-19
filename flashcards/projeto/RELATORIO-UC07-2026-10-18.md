@@ -2,7 +2,7 @@
 
 ## Onde estamos
 
-- **15 das 51 unidades do cronograma da UC07 já estão instaladas no Anki** (~1.130 notas), dessuspensas, com bandeira por cor, todas com os gates duros aprovados (PRÉ, leitura do Anki e renderização PC + celular do deck inteiro). A 16 está com a curadoria pronta (78 notas) e as 17–19 estão coletadas. Faltam 32 unidades.
+- **15 das 51 unidades do cronograma da UC07 já estão instaladas no Anki** (1.147 notas), dessuspensas, com bandeira por cor, todas com os gates duros aprovados (PRÉ, leitura do Anki e renderização PC + celular do deck inteiro). A 16 está com a curadoria pronta (78 notas) e as 17–19 estão coletadas. Faltam 32 unidades.
 - Ordem seguida: o cronograma da UC07 (Turma B): 1–2 (SN), 3–9 (medula e vias), 10–12 (tronco e núcleos), 13–19 (nervos cranianos), depois cerebelo, diencéfalo, telencéfalo, irrigação, SNA, meninges/líquor, cortes, límbico, córtex.
 - Cada unidade = **estruturas do quiz** (um card do Kenhub por figura) + **texto do quiz** (cards de texto no tipo AnKing) + AnKing traduzido + AnatoKing/Netter só quando a seta é evidente ou o Kenhub não tem figura.
 - Revisão card a card registrada (`--revisado`) só nas unidades 3 e tronco; nas demais vi a maioria das folhas de contato, mas **o registro formal ainda está pendente** (painel mostra “AGUARDANDO REVISÃO”).

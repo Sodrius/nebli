@@ -7,6 +7,84 @@ from nebli.explicacoes import STYLE, card_hash, open_store, style_version
 
 
 TEXTOS = {
+    1791668527790: """No teste de difusão em ágar, o halo de inibição representa a região em que a concentração do antimicrobiano impede crescimento visível. A leitura padronizada mede o limite de inibição completa e o compara com pontos de corte definidos para a combinação específica de microrganismo, fármaco e método.
+
+Quando aparecem dois contornos, o halo interno costuma corresponder à borda nítida de inibição total, enquanto o externo pode refletir crescimento parcial, colônias isoladas ou outro efeito de difusão. A regra de medir o halo interno só deve ser aplicada quando o protocolo daquela técnica a especifica; sem saber o teste e o agente, o desenho isolado não permite atribuir um mecanismo único.""",
+    1791163031470: """O lipopolissacarídeo, ou LPS, é um componente da membrana externa das bactérias Gram-negativas. Sua porção lipídio A fica ancorada na membrana e é reconhecida pelo sistema imune inato, especialmente por TLR4, desencadeando liberação de citocinas e podendo contribuir para sepse.
+
+Ligado ao lipídio A está o polissacarídeo central, ou core, que conecta a molécula ao antígeno O. O antígeno O também é polissacarídico, mas se projeta para fora e varia entre cepas; por isso, ao separar os três componentes, o nome preciso da região intermediária é polissacarídeo central.""",
+    1791625422532: """A IL-4 organiza respostas do tipo 2: promove a diferenciação de linfócitos CD4+ em Th2, favorece troca de classe para IgE e contribui para a ativação alternativa de macrófagos. Uma vez diferenciadas, as células Th2 secretam IL-4 e reforçam esse próprio programa por retroalimentação.
+
+Th2 é, portanto, a resposta central quando a pergunta procura a subpopulação de linfócitos T auxiliar associada à IL-4. Mastócitos, basófilos e células linfoides inatas do tipo 2 também podem produzi-la, sobretudo no início de respostas alérgicas ou contra helmintos, antes de a resposta adaptativa estar plenamente estabelecida.""",
+    1791625430332: """O IFN-γ produzido por células NK, Th1 e linfócitos T citotóxicos aumenta a capacidade de apresentação de antígenos. Ele induz componentes do processamento antigênico e eleva intensamente a expressão de MHC II nas células apresentadoras profissionais, como macrófagos e células dendríticas.
+
+Também pode induzir MHC II em diversos outros tipos celulares sob estímulo inflamatório, mas o efeito não deve ser entendido como literalmente universal. IFN-α e IFN-β, em contraste, destacam-se por aumentar MHC I nas células nucleadas, facilitando o reconhecimento de infecção viral por linfócitos T CD8+.""",
+    1791625433210: """A diferenciação dos linfócitos T CD4+ é estabilizada por fatores de transcrição mestres que convertem sinais de citocinas em programas duradouros de expressão gênica. T-bet dirige o perfil Th1 e a produção de IFN-γ; GATA3 dirige Th2 e citocinas como IL-4, IL-5 e IL-13.
+
+RORγt estabelece o programa Th17, associado à produção de IL-17 e ao recrutamento de neutrófilos. Esses circuitos também se inibem mutuamente, ajudando cada clone ativado a assumir uma função efetora coerente; nas células T reguladoras, o fator correspondente é FOXP3.""",
+    1791625436032: """TGF-β pode conduzir um linfócito CD4+ virgem a destinos diferentes conforme as citocinas presentes durante a ativação. Em ambiente não inflamatório, sua ação junto à IL-2 favorece a expressão de FOXP3 e o desenvolvimento de células T reguladoras, que limitam respostas imunes.
+
+Quando células dendríticas ativadas fornecem IL-6, o mesmo TGF-β passa a colaborar com sinais que induzem RORγt e diferenciação Th17. Assim, IL-6 funciona como a mudança de contexto que desloca o programa regulador para um programa inflamatório produtor de IL-17.""",
+    1791647350071: """A lipólise no adipócito mobiliza triacilgliceróis armazenados quando há necessidade de combustível. A epinefrina liga-se a receptores β-adrenérgicos, eleva cAMP e ativa PKA, que fosforila perilipina e a lipase sensível a hormônio, facilitando o acesso às gotículas lipídicas.
+
+Esse efeito é uma ativação aguda da maquinaria já existente, e não principalmente a indução da síntese da enzima. A epinefrina é o estímulo fisiológico direto mais bem estabelecido no tecido adiposo humano; glucagon e cortisol têm papéis diferentes e não devem ser agrupados automaticamente na mesma via.""",
+    1791647350072: """O cortisol é um hormônio esteroide que entra na célula, liga-se a um receptor intracelular e modifica a expressão gênica. Em situações de estresse prolongado, ele favorece a disponibilidade de combustíveis e pode aumentar a resposta do tecido adiposo às catecolaminas.
+
+Sua ação sobre a mobilização de gordura é lenta e permissiva, não uma ativação direta da lipase sensível a hormônio por cAMP e PKA. A fosforilação aguda dessa maquinaria é produzida sobretudo pela sinalização adrenérgica, enquanto o cortisol prepara o contexto metabólico em outra escala temporal.""",
+    1791647350073: """O glucagon sinaliza por receptor acoplado a Gs, cAMP e PKA principalmente no fígado, onde estimula glicogenólise, gliconeogênese e oxidação de ácidos graxos. Essa organização ajuda a manter a glicemia durante o jejum.
+
+No tecido adiposo humano, porém, o glucagon não é considerado um regulador fisiológico importante da lipólise. A ativação aguda da lipase sensível a hormônio é atribuída sobretudo às catecolaminas; por isso, a via bioquímica do glucagon não implica que ele tenha o mesmo peso em todos os tecidos.""",
+    1791647352121: """A glicogênio sintase alonga as cadeias de glicogênio e fica mais ativa quando está desfosforilada. A insulina estimula fosfatases e inibe quinases que manteriam a enzima fosforilada, direcionando a glicose para armazenamento após uma refeição.
+
+Esse controle combina o sinal hormonal de abundância com a disponibilidade de substrato. Assim, a insulina é o principal regulador hormonal positivo da síntese de glicogênio, especialmente em músculo e fígado, enquanto o cortisol tende a antagonizar a ação periférica da insulina em vez de integrar esse grupo de ativadores.""",
+    1791647352122: """A glicose-6-fosfato liga-se alostericamente à glicogênio sintase e aumenta sua atividade. Quando a glicose entra na célula em quantidade superior à demanda glicolítica imediata, esse metabólito sinaliza disponibilidade de substrato e favorece seu armazenamento como glicogênio.
+
+A regulação alostérica pela glicose-6-fosfato coopera com a ativação por desfosforilação promovida pela insulina. O cortisol não é um ativador positivo clássico da glicogênio sintase muscular: sua ação sistêmica é contrarreguladora e favorece a disponibilidade de combustível durante o estresse.""",
+    1791762418274: """A eficácia descreve o maior efeito que um fármaco consegue produzir e é representada pelo platô da curva dose–resposta, convencionalmente chamado Emax. Já a potência indica quanto fármaco é necessário para obter determinado efeito e costuma ser comparada pela EC50.
+
+O card usa Vmax para esse efeito máximo, uma notação que pode aparecer informalmente no material, mas que em farmacologia é menos precisa que Emax. Vmax é reservada com frequência à velocidade máxima da cinética enzimática; aqui, a ideia correta a reter é que a altura máxima da resposta informa a eficácia, não a potência.""",
+    1791762421523: """A exposição repetida a um fármaco pode reduzir sua resposta por adaptação de receptores, mudanças na sinalização celular ou aumento de sua eliminação. Quando essa perda se desenvolve ao longo de dias ou semanas, o termo geral é tolerância; quando aparece rapidamente, em minutos ou após poucas doses, é chamada taquifilaxia.
+
+Refratariedade pode ser usada em contextos clínicos para indicar que uma doença ou um paciente deixou de responder ao tratamento, mas não é o nome farmacológico mais geral para a perda gradual descrita. O mecanismo temporal aponta principalmente para tolerância, e a rapidez distingue esse fenômeno da taquifilaxia.""",
+    1791780345306: """O exsudato se forma quando inflamação aumenta a permeabilidade vascular, permitindo a saída de proteínas e células para o espaço extravascular. Como contém mais células e proteínas que um transudato, costuma apresentar atividade de LDH relativamente elevada.
+
+Nos derrames pleurais, a interpretação usa comparação com o soro: razão LDH do líquido/LDH sérica acima de 0,6 ou LDH do líquido acima de dois terços do limite superior sérico favorece exsudato. “Aumentada” significa elevada em relação a esses critérios, não necessariamente maior que o valor absoluto do soro.""",
+    1791780346430: """A gravidade específica estima quanto material dissolvido existe em um líquido. Exsudatos são ricos em proteínas e células por causa do aumento inflamatório da permeabilidade vascular, por isso tendem a ser mais densos que transudatos.
+
+O corte tradicional é gravidade específica acima de 1,020 para exsudato; a escrita “1020” omite a vírgula decimal. Hoje a classificação de derrame pleural é feita preferencialmente pelos critérios de Light, pois a densidade isolada é menos confiável.""",
+    1791647347996: """A PFK-1 controla uma etapa comprometida da glicólise e responde ao estado energético da célula. ATP e citrato sinalizam abundância de energia e a inibem; AMP sinaliza baixa carga energética e favorece sua atividade.
+
+A frutose-2,6-bisfosfato também ativa fortemente a PFK-1 e integra a glicólise ao controle hormonal. AMP e frutose-2,6-bisfosfato são, portanto, ativadores alostéricos, não exemplos de feedback positivo no sentido estrito.""",
+    1791647354296: """A célula β pancreática precisa detectar a glicose sanguínea para ajustar a secreção de insulina. A entrada de glicose, seu metabolismo e o aumento da razão ATP/ADP fecham canais de K+ sensíveis a ATP, despolarizam a membrana e promovem entrada de Ca2+ e exocitose de insulina.
+
+Nos modelos clássicos com roedores, o GLUT2 faz a entrada de glicose e funciona como parte desse sensor por sua alta capacidade. Em células β humanas, GLUT1 e GLUT3 têm participação importante e o GLUT2 é menos expresso; a associação exclusiva com GLUT2 é uma simplificação do modelo experimental.""",
+    1791647354421: """Nas primeiras horas entre refeições, o fígado degrada seu glicogênio e libera glicose para sustentar a glicemia. Essa glicogenólise hepática atende sobretudo tecidos dependentes de glicose, como hemácias, e ajuda a manter o suprimento cerebral.
+
+Ela é a principal fonte de glicose circulante nesse período, mas não o único combustível energético do organismo. O tecido adiposo libera ácidos graxos, e muitos tecidos aumentam sua oxidação para poupar glicose.""",
+    1791647354671: """Após cerca de um dia de jejum, o glicogênio hepático está muito reduzido e a gliconeogênese passa a sustentar a maior parte da glicose sanguínea. O fígado, e progressivamente o rim, convertem lactato, glicerol e aminoácidos glicogênicos em glicose.
+
+Gliconeogênese é a principal fonte de glicose entre um e três dias de jejum, não a principal fonte de toda a energia corporal. Muitos tecidos obtêm ATP principalmente da oxidação de ácidos graxos, enquanto a glicose é preservada para tecidos com maior dependência dela.""",
+    1791729320762: """Insulina promove a translocação de GLUT4 de vesículas intracelulares para a membrana de músculo esquelético e tecido adiposo. No jejum, a queda da insulina mantém a maior parte do GLUT4 dentro da célula e reduz intensamente a captação estimulada de glicose.
+
+A captação não se torna absolutamente zero: existe transporte basal, e a contração muscular pode recrutar GLUT4 por uma via parcialmente independente de insulina. O efeito metabólico central é captar muito menos glicose e priorizar outros combustíveis.""",
+    1791729320888: """Durante o jejum, a baixa insulina reduz a captação dependente de GLUT4 no músculo e no tecido adiposo. Isso ajuda a reservar a glicose para tecidos com necessidade contínua e transportadores independentes de insulina, como cérebro, hemácias e medula renal.
+
+Esses são exemplos de tecidos fortemente dependentes de glicose, não uma lista exclusiva de quem pode captá-la. Fígado, córtex renal e outros órgãos também possuem transportadores independentes de insulina; o que muda é a prioridade metabólica e a intensidade do uso de glicose.""",
+    1791729324361: """O diabetes tipo 1 resulta da destruição autoimune das células β e produz deficiência absoluta de insulina. A apresentação clássica ocorre na infância ou adolescência, muitas vezes com poliúria, polidipsia, perda de peso e risco de cetoacidose.
+
+Início antes dos 20 anos e aspecto magro ajudam a reconhecer o padrão clássico, mas não são critérios obrigatórios. A doença pode começar em qualquer idade, inclusive em adultos, e o estado corporal varia entre as pessoas.""",
+    1791729324486: """O diabetes tipo 2 combina resistência à ação da insulina com falência progressiva das células β. Excesso de adiposidade, sedentarismo, idade e predisposição genética aumentam o risco, e a instalação costuma ser gradual.
+
+Começar após os 40 anos em uma pessoa com obesidade descreve o padrão clássico, não uma fronteira diagnóstica. A doença também ocorre em adultos jovens, adolescentes e pessoas sem obesidade; o mecanismo metabólico é mais informativo que o estereótipo de idade ou corpo.""",
+    1790980019633: """A absorção de vitamina B12 depende da liberação da vitamina dos alimentos pelo ácido e pela pepsina, da ligação ao fator intrínseco produzido pelas células parietais e da absorção do complexo no íleo terminal. Cirurgias que reduzem a função gástrica podem prejudicar vários desses passos.
+
+Tanto o bypass em Y de Roux quanto a gastrectomia vertical podem favorecer deficiência de B12, embora sejam técnicas diferentes: o primeiro desvia segmentos do tubo digestório, enquanto o sleeve apenas reduz o volume do estômago. O termo abrangente correto é cirurgia bariátrica, não “bypass” para ambas.""",
+    1790980019634: """O estômago contribui para a absorção de vitamina B12 ao fornecer ácido, pepsina e fator intrínseco. A redução da massa e da função gástrica diminui a liberação da vitamina alimentar e pode reduzir o fator intrínseco disponível, favorecendo deficiência ao longo do tempo.
+
+O Y de Roux é um bypass gástrico; a gastrectomia vertical, ou sleeve, restringe o estômago sem criar um desvio intestinal. Os dois procedimentos pertencem à cirurgia bariátrica e podem afetar a B12, mas apenas o primeiro deve ser chamado de bypass.""",
+    1790981518578: """As anastomoses portossistêmicas são comunicações entre tributárias da veia porta e veias da circulação sistêmica. No esôfago inferior, a veia gástrica esquerda pertence ao território portal, enquanto as veias esofágicas drenam para o sistema ázigos, que termina na veia cava superior.
+
+Quando a pressão portal aumenta, o sangue pode ser desviado por essa comunicação e dilatar as veias submucosas do esôfago, formando varizes. O trajeto sistêmico relevante é esofágicas → ázigos → veia cava superior; a veia cava inferior não recebe diretamente a ázigos.""",
     1792175891607: """Fungos dimórficos ambientais crescem como bolor fora do hospedeiro e assumem outra forma nos tecidos. A escolha do antifúngico depende do agente, do local, da intensidade dos sintomas e do risco do hospedeiro; formas graves ou disseminadas frequentemente exigem anfotericina B inicial.
 
 O itraconazol é uma opção oral importante para várias formas localizadas ou leves a moderadas, incluindo esporotricose e formas selecionadas de histoplasmose, blastomicose e paracoccidioidomicose. A associação serve como regra geral para doença localizada, mas não substitui as indicações próprias de cada micose.""",

@@ -149,8 +149,24 @@ def planejar_seta(m, rotulo_wh, comprimento=(170, 220, 130, 270)):
     """Escolhe direção e comprimento da seta até a maior parte da máscara `m`, com a caixa do rótulo (w, h) na cauda,
     dentro da figura, sem cobrir a máscara nem a marca do Kenhub. Devolve (ponta, cauda, caixa) ou levanta ValueError."""
     h, w = m.shape
-    ys, xs = _componentes(m)[0]
-    cy, cx = ys.mean(), xs.mean()
+    comps = _componentes(m)
+    ys, xs = comps[0]
+    # origem dos raios: o centroide da maior parte; se falhar (estrutura fina e curva, centroide fora dela), pontos da própria máscara
+    origens = [(ys.mean(), xs.mean())]
+    for cy_, cx_ in comps[:3]:
+        idx = np.linspace(0, len(cy_) - 1, min(24, len(cy_))).astype(int)
+        origens += [(float(cy_[i]), float(cx_[i])) for i in idx]
+    ultimo = None
+    for cy, cx in origens:
+        try:
+            return _planejar_de(m, rotulo_wh, comprimento, cy, cx)
+        except ValueError as e:
+            ultimo = e
+    raise ultimo
+
+
+def _planejar_de(m, rotulo_wh, comprimento, cy, cx):
+    h, w = m.shape
     bw, bh = rotulo_wh
     melhor = None
     for comp in comprimento:

@@ -22,8 +22,16 @@ with escrita(A,'PT47 reconstrução de princípios e exclusão autorizada',sync=
   if k in want or nid not in live:continue
   if nid in em_tela(A):pending.append(k);continue
   n=A('notesInfo',notes=[nid])[0]
-  if any(t.startswith('NEBLI::2026-') and L not in t for t in n['tags']):preserved.append(k);continue
-  assert any(t.startswith('NEBLI::retirado::') for t in n['tags']),k
+  if any(t.startswith('NEBLI::2026-') and L not in t for t in n['tags']):
+   # A nota pertence a outra aula: mantém conteúdo, histórico e cartões dela,
+   # mas remove somente sua associação desta aula que acabou de ser excluída.
+   stale=[t for t in n['tags'] if t == f'NEBLI::{L}' or t.startswith(f'NEBLI::ordem::{short}-') or t.startswith(f'NEBLI::cor::{L}::') or t.startswith('NEBLI::objetivo::') or t == 'NEBLI::escopo::aula' or t.startswith(f'NEBLI::run::{p["run_id"]}')]
+   if stale:A('removeTags',notes=[nid],tags=' '.join(stale))
+   preserved.append(k);continue
+  # A segunda leitura também elimina cartões que ainda estavam ativos na
+  # primeira revisão. Eles vieram do recibo desta aula e foram preservados no
+  # backup acima; nunca alcançar notas de outra aula.
+  assert f'NEBLI::{L}' in n['tags'],k
   A('deleteNotes',notes=[nid]);assert not A('findNotes',query=f'nid:{nid}');deleted.append(k)
  for e in p['entries']:
   k=e['key'];nid=ids.get(k);n=A('notesInfo',notes=[nid])[0] if nid else None
@@ -54,6 +62,13 @@ with escrita(A,'PT47 reconstrução de princípios e exclusão autorizada',sync=
   n=A('notesInfo',notes=[nid])[0];stale=[t for t in n['tags'] if t.startswith(f'NEBLI::ordem::{short}-')]
   if stale:A('removeTags',notes=[nid],tags=' '.join(stale))
   A('addTags',notes=[nid],tags=s['ordem_tag'])
+ # Compartilhado que deixou o escopo: só desassociar esta aula; a nota e o
+ # histórico continuam intactos na aula de origem.
+ for nid in (1791625430332,):
+  if nid in em_tela(A):pending.append(str(nid));continue
+  n=A('notesInfo',notes=[nid])[0]
+  stale=[t for t in n['tags'] if t == f'NEBLI::{L}' or t.startswith(f'NEBLI::ordem::{short}-') or t.startswith(f'NEBLI::cor::{L}::')]
+  if stale:A('removeTags',notes=[nid],tags=' '.join(stale))
 results=[]
 for e in p['entries']:
  k=e['key'];nid=ids.get(k)

@@ -290,6 +290,23 @@
     }
    ],
    "teste": "teste_gates: estrutura espalhada, duas verdes na mesma estrutura reprovam; tipo de nota igual ao AnKing e figuras maiores verificados"
+  },
+  {
+   "id": "F-20261019-CODEX-01",
+   "data": "19/10/2026",
+   "literal": "a ordem dos decks deve ser a ordem do kenhub também / quando tem um card suspendo e uma aula nova é criada que usa aquele card, pode mudar pra aula nova, sem linkar mesmo, porque às vezes não era importante para a outra aula, por isso suspendi, mas é para essa / olha todas as unidades, garante que tá tudo certinho e depois passa para terminar as últimas de neuroanato (depois vamos fazer de outros unidades, seguindo a ordem)",
+   "regra": "Módulos e subdecks seguem a ordem oficial do Kenhub. Nota ativa reutilizada é associada; nota totalmente suspensa migra para a unidade nova, sem associação, preservando ID, histórico e comentário.",
+   "gates": [
+    {
+     "codigo": "[G29 ordem Kenhub]",
+     "arquivo": "nebli/kenhub/painel.py"
+    },
+    {
+     "codigo": "[G30 suspensa migra]",
+     "arquivo": "nebli/kenhub/deck.py"
+    }
+   ],
+   "teste": "teste_gates: sequência fora da ordem oficial reprova; nota ativa associa e nota totalmente suspensa migra"
   }
  ]
 }

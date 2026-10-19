@@ -13,12 +13,30 @@ SAIDA = ROOT / "flashcards" / "projeto" / "UC07-PAINEL.md"
 PLANO = "flashcards/projeto/PLANO-UC07-NEUROANATOMIA-COMPLETA-2026-10-17.md"
 
 
+def ordem_oficial():
+    """slug → posição oficial do Kenhub, lida da coluna # do plano mestre."""
+    out = {}
+    for linha in (ROOT / PLANO).read_text().splitlines():
+        cols = [c.strip() for c in linha.split("|")]
+        if len(cols) > 7 and cols[1].isdigit() and cols[3].isdigit() and "`" in cols[6]:
+            out[cols[6].strip("`")] = int(cols[3])
+    return out
+
+
+def gate_ordem_kenhub(valores):
+    """[G29 ordem Kenhub] A sequência de auditoria/produção segue a ordem oficial."""
+    return [] if valores and valores == sorted(valores) else ["[G29 ordem Kenhub] unidades fora da ordem oficial do Kenhub ou fila vazia"]
+
+
 def main():
     reg = json.loads((Path(__file__).parent / "feedbacks.json").read_text())
     teste = subprocess.run([sys.executable, "-W", "ignore", "-m", "nebli.kenhub.teste_gates"], cwd=ROOT, capture_output=True, text=True)
     ok = teste.returncode == 0
     unidades = []
-    for rec in sorted((ROOT / "arquivos-trabalho").glob("uc07-kenhub-*/receipt.json")):
+    ordem = ordem_oficial()
+    recibos = list((ROOT / "arquivos-trabalho").glob("uc07-kenhub-*/receipt.json"))
+    recibos.sort(key=lambda rec: ordem.get(json.loads((rec.parent / "curadoria.json").read_text()).get("unidade_kenhub"), 999))
+    for rec in recibos:
         r = json.loads(rec.read_text())
         cor = [n["cor"] for n in r["notas"]]
         rev = rec.parent / "revisao.json"

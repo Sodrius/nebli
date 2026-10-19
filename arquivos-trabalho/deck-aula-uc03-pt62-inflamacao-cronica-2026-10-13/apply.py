@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE.parents[1]))
-from nebli.decks import Anki, escrita
+from nebli.decks import Anki, escrita, em_tela
 from nebli.rotulos import canonical
 
 A = Anki(); plan = json.loads((HERE / "plan.json").read_text())
@@ -50,6 +50,8 @@ def main():
     with escrita(A, f"{plan['short'].upper()} {plan['run_id']}"):
         ensure_clones()
         shared_ids = [int(k) for k in plan["compartilhados"]]
+        if set(shared_ids) & set(em_tela(A)):
+            raise SystemExit("Uma nota compartilhada está na tela de estudo; nenhuma escrita foi feita. Tentar de novo quando ela não estiver aberta.")
         if set(A("findNotes", query=f'"tag:{LESSON_TAG}"')) - set(shared_ids):
             raise SystemExit("A aula já tem cards — reconciliar antes de reaplicar")
         shared = A("notesInfo", notes=shared_ids)

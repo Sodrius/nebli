@@ -54,7 +54,7 @@ def _livros() -> dict:
     return out
 
 
-CODIGO = re.compile(r"^[CTLSco]{1,2}\d+([/–-][CTLSco]{0,2}\d+)*$", re.I)
+CODIGO = re.compile(r"^([CTLSDco]{1,2}\d+([/–-][CTLSDco]{0,2}\d+)*|H?[IVX]+[AB]?)$", re.I)   # inclui numeração dos lóbulos do cerebelo (I–X, HI–HX, VIIA)
 
 
 @lru_cache(maxsize=1)

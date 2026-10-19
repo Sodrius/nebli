@@ -120,6 +120,10 @@ def nome_pt(cur, i):
 # ----------------------------------------------------------------------------------------------------------- plano
 def plano(corrida: Path, A):
     cur = json.loads((corrida / "curadoria.json").read_text())
+    # Curadorias antigas guardam o nome legível sem prefixo. A fonte canônica é
+    # o manifesto oficial; assim uma reconciliação futura nunca desfaz a ordem.
+    from nebli.kenhub.ordem_decks import nome_deck_por_slug
+    cur["deck"] = nome_deck_por_slug(cur["unidade_kenhub"])
     base = RAIZ / cur["modulo"] / cur["unidade"]
     itens = json.loads((base / "itens.json").read_text())["itens"]
     excluir = cur.get("kenhub_excluir", {})
@@ -186,30 +190,31 @@ def plano(corrida: Path, A):
     for k, e in enumerate(entradas, 1):
         e["ordem"] = k
     fora = _em_outras_unidades(A, cur["lesson_id"])
-    for e in entradas:   # sem duplicata (F-20261017-CLAUDE-05/plano): já tem nota em outra unidade → associar
+    for e in entradas:   # G30: ativa associa; totalmente suspensa migra para a unidade nova
         if e["chave"] in fora:
-            e["associar"] = fora[e["chave"]]
+            nid, destino = fora[e["chave"]]
+            e[destino] = nid
             e["cor"] = cur["cores"].get(e.get("slug") or e.get("apos")) or "azul"
     for e in entradas:
-        if e.get("associar"):
+        if e.get("associar") or e.get("migrar"):
             continue
         try:
             _montar(e, cur, base, gerados, media, A)
         except Exception as err:  # o gate pré lista todos os problemas antes de escrever qualquer coisa
             problemas.append(f"[montagem] {e['chave']}: {err}")
     for e in entradas:   # id de card de texto igual ao de outra unidade, com texto diferente: associaria o card errado
-        if e["tipo"] == "texto" and e.get("associar"):
-            antigo = A("notesInfo", notes=[e["associar"]])[0]["fields"].get("Text", {}).get("value", "")
+        if e["tipo"] == "texto" and (e.get("associar") or e.get("migrar")):
+            antigo = A("notesInfo", notes=[e.get("associar") or e["migrar"]])[0]["fields"].get("Text", {}).get("value", "")
             norm_ = lambda t: glossario.norm(_limpo(CLOZE_RE.sub(lambda m: m.group(2), t)))
             if norm_(antigo) != norm_(e["text_pt"]):
                 problemas.append(f"[chave de texto repetida] {e['chave']}: já existe em outra unidade com outro texto — renomeie o id ou tire o card (duplicata)")
-    cobertas = {s for e in entradas for s in e.get("cobre", []) if e.get("campos") or e.get("associar")}
+    cobertas = {s for e in entradas for s in e.get("cobre", []) if e.get("campos") or e.get("associar") or e.get("migrar")}
     for i in itens:
         if i["slug"] not in cobertas:
             problemas.append(f"[cobertura] estrutura sem card planejado: {i['slug']} ({i['nome_en']})")
     por_estrutura = {}
     for e in entradas:   # F-20261018-CLAUDE-05: de dois cards da mesma estrutura, só um pode ser bandeira verde (o do Kenhub, que vem primeiro)
-        if e.get("estrutura") and not e.get("associar"):
+        if e.get("estrutura") and not (e.get("associar") or e.get("migrar")):
             por_estrutura.setdefault(e["estrutura"], []).append(e)
     for grupo in por_estrutura.values():
         for e in [x for x in grupo if x.get("cor") == "verde"][1:]:
@@ -232,7 +237,7 @@ def gate_estruturas(entradas):
         if pos != list(range(pos[0], pos[0] + len(pos))):
             p.append(f"[G25 estrutura junta] {est}: cards da mesma estrutura espalhados na ordem ({pos[:8]})")
     for est in posicoes:
-        verdes = [e["chave"] for e in entradas if e.get("estrutura") == est and e.get("cor") == "verde" and not e.get("associar")]
+        verdes = [e["chave"] for e in entradas if e.get("estrutura") == est and e.get("cor") == "verde" and not (e.get("associar") or e.get("migrar"))]
         if len(verdes) > 1:
             p.append(f"[G26 uma verde por estrutura] {est}: {len(verdes)} cards verdes ({verdes[:3]})")
     return p
@@ -249,7 +254,7 @@ def gate_quiz_texto(base, entradas):
     d = json.loads((base / "itens.json").read_text())
     if "texto" not in d:
         return ["[cobertura-quiz] texto da unidade não coletado (rode: venv/bin/python -m nebli.kenhub.coleta_texto)"]
-    cob = {k for e in entradas for k in e.get("cobre_texto", []) if e.get("campos") or e.get("associar")}
+    cob = {k for e in entradas for k in e.get("cobre_texto", []) if e.get("campos") or e.get("associar") or e.get("migrar")}
     desconhecidas = cob - {t["chave"] for t in d["texto"]}
     p = [f"[cobertura-quiz] chave de texto inexistente: {k}" for k in sorted(desconhecidas)]
     p += [f"[cobertura-quiz] trecho sem card: {t['chave']} ({t['en'][:70].replace(chr(10), ' / ')})" for t in d["texto"] if t["chave"] not in cob]
@@ -557,7 +562,7 @@ def _montar(e, cur, base, gerados, media, A):
 def gates_pre(entradas, cur):
     p = []
     for e in entradas:
-        if e.get("associar"):
+        if e.get("associar") or e.get("migrar"):
             continue
         if "campos" not in e:   # nunca passar no vazio: entrada que não montou reprova
             p.append(f"[montagem] {e['chave']}: entrada sem campos montados (tipo {e['tipo']!r})")
@@ -567,6 +572,8 @@ def gates_pre(entradas, cur):
             p.append(f"[montagem] {k}: marcação de cloze fora do campo Text")
         if re.search(r"\b(kenhub|netter|anking|anatoking|photo credit|wikimedia|physeo)\b", re.sub(r"<[^>]+>", " ", " ".join(str(v) for k_, v in e["campos"].items() if k_ in ("Text", "Extra", "Pergunta"))), re.I):
             p.append(f"[G14 sem fonte] {k}: o texto do card cita a fonte (Kenhub/AnKing/Netter…) — a fonte não aparece em texto")
+        if e.get("tipo") in ("texto", "anking") and re.search(r"\bna (figura|imagem)\b", re.sub(r"<[^>]+>", " ", e["campos"].get("Text", "")), re.I):
+            p.append(f"[G28 sem pergunta de figura] {k}: o card pergunta sobre a figura (cor, posição no desenho) e não sobre a anatomia")
         if e["campos"].get("Fonte"):
             p.append(f"[G14 sem fonte] {k}: campo Fonte preenchido ({e['campos']['Fonte'][:30]!r})")
         if e.get("falta_midia"):
@@ -686,16 +693,25 @@ def _chaves_nota(n):
     return out
 
 
+def _destino_reuso(cards):
+    """[G30 suspensa migra] Nota totalmente suspensa muda de unidade; nota ativa só é associada."""
+    return "migrar" if cards and all(c["queue"] == -1 for c in cards) else "associar"
+
+
 def _em_outras_unidades(A, lesson):
-    """chave → nota da UC07 que já existe em OUTRA unidade (a mesma figura/nota não vira card repetido: é associada)."""
+    """chave → (nota, destino) para nota da UC07 que já existe em outra unidade."""
     out = {}
     q = '"tag:NEBLI::uc07" -"tag:NEBLI::retirado::*"'
-    for n in A("notesInfo", notes=A("findNotes", query=q)):
+    notas = A("notesInfo", notes=A("findNotes", query=q))
+    todos_cards = [cid for n in notas for cid in n["cards"]]
+    info_cards = {c["cardId"]: c for c in A("cardsInfo", cards=todos_cards)}
+    for n in notas:
         # “desta unidade” = tem a etiqueta da unidade SEM a marca de associação; associada a ela continua sendo de outra
         if f"NEBLI::{lesson}" in n["tags"] and f"NEBLI::uc07::assoc::{lesson}" not in n["tags"]:
             continue
+        destino = _destino_reuso([info_cards[cid] for cid in n["cards"] if cid in info_cards])
         for k in _chaves_nota(n):
-            out.setdefault(k, n["noteId"])
+            out.setdefault(k, (n["noteId"], destino))
     return out
 
 
@@ -745,6 +761,40 @@ def instalar(A, cur, entradas):
             A("setDeckConfigId", decks=wrong, configId=root["id"])
         planejadas = set()
         for e in entradas:
+            if e.get("migrar"):
+                nid = e["migrar"]
+                n = A("notesInfo", notes=[nid])[0]
+                # Migração só é segura quando há um único dono real. Etiquetas de
+                # associação não contam como propriedade; se a proveniência ficou
+                # ambígua, paramos antes de apagar qualquer vínculo.
+                associadas = {t.rsplit("::", 1)[-1] for t in n["tags"]
+                              if t.startswith("NEBLI::uc07::assoc::")}
+                donas = [t for t in n["tags"] if t.startswith("NEBLI::2026-uc07-")
+                         and t.split("::", 1)[1] not in associadas]
+                if len(donas) != 1:
+                    raise RuntimeError(f"[G30 migração segura] nota {nid} tem {len(donas)} unidades donas: {donas}")
+                # A nota deixa de pertencer às unidades anteriores: não é link/associação.
+                velhas = [t for t in n["tags"] if t.startswith("NEBLI::2026-uc07-") or t.startswith("NEBLI::uc07::assoc::")
+                          or t.startswith("NEBLI::ordem::") or t.startswith("NEBLI::cor::")]
+                if velhas:
+                    A("removeTags", notes=[nid], tags=" ".join(velhas))
+                A("addTags", notes=[nid], tags=" ".join([lesson_tag, f"NEBLI::ordem::{cur['short']}-{e['ordem']:03d}",
+                                                          f"NEBLI::cor::{lesson}::{e['cor']}"]
+                                                         + [f"NEBLI::estrutura::{c}" for c in e.get("cobre", [])]
+                                                         + [f"NEBLI::texto::{_kt(c)}" for c in e.get("cobre_texto", [])]))
+                cards = A("cardsInfo", cards=n["cards"])
+                fora_deck = [c["cardId"] for c in cards if canonical(c["deckName"]) != deck]
+                if fora_deck:
+                    A("changeDeck", cards=fora_deck, deck=deck)
+                if any(c["queue"] == -1 for c in cards):
+                    A("unsuspend", cards=[c["cardId"] for c in cards])
+                for c in cards:
+                    if c["flags"] not in PESSOAIS and c["flags"] != FLAG[e["cor"]]:
+                        A("setSpecificValueOfCard", card=c["cardId"], keys=["flags"], newValues=[FLAG[e["cor"]]], warning_check=True)
+                planejadas.add(nid)
+                resultados.append({"ordem": e["ordem"], "chave": e["chave"], "tipo": e["tipo"], "nid": nid, "cor": e["cor"],
+                                   "cobre": e.get("cobre", []), "modelo": n["modelName"], "migrada": True})
+                continue
             if e.get("associar"):
                 nid = e["associar"]
                 n = A("notesInfo", notes=[nid])[0]
@@ -778,11 +828,14 @@ def instalar(A, cur, entradas):
                 nid = atual["noteId"]
                 campos = _campos_modelo(e)
                 campos["NEBLI_Comentario"] = atual["fields"].get("NEBLI_Comentario", {}).get("value", "")  # comentário de Davi fica
+                # A reconciliação administra apenas etiquetas NEBLI. Etiquetas
+                # pessoais ou de outros add-ons nunca podem sumir numa atualização.
+                tags += [t for t in atual["tags"] if not t.startswith("NEBLI::") and t not in tags]
                 if atual["modelName"] != e["modelo"]:
                     A("updateNoteModel", note={"id": nid, "modelName": e["modelo"], "fields": campos, "tags": tags})
                 else:
                     A("updateNote", note={"id": nid, "fields": campos, "tags": tags})
-                    velhas = [t for t in atual["tags"] if t not in tags]
+                    velhas = [t for t in atual["tags"] if t.startswith("NEBLI::") and t not in tags]
                     if velhas:
                         A("removeTags", notes=[nid], tags=" ".join(velhas))
             else:
@@ -808,7 +861,7 @@ def instalar(A, cur, entradas):
                 A("unsuspend", cards=[c["cardId"] for c in cards])
             resultados.append({"ordem": e["ordem"], "chave": e["chave"], "tipo": e["tipo"], "nid": nid, "cor": e["cor"],
                                "cobre": e.get("cobre", []), "modelo": e["modelo"]})
-        # o que saiu do plano: apagar só sem comentário e sem revisão; senão, retirar (suspenso + etiqueta), nunca perder histórico
+        # O que saiu do plano é sempre retirado de forma recuperável. Exclusão exige comando separado e autorização explícita.
         retiradas = []
         for nid in A("findNotes", query=f'"tag:NEBLI::uc07::assoc::{lesson}"'):
             if nid not in planejadas:   # associação desfeita: só tira as etiquetas desta unidade; a nota é da unidade de origem
@@ -822,14 +875,10 @@ def instalar(A, cur, entradas):
                 continue
             cs = A("cardsInfo", cards=n["cards"])
             com = n["fields"].get("NEBLI_Comentario", {}).get("value", "").strip()
-            if com or any(c["reps"] > 0 for c in cs):
-                A("addTags", notes=[n["noteId"]], tags="NEBLI::retirado::uc07-v2")
-                A("removeTags", notes=[n["noteId"]], tags=lesson_tag)
-                A("suspend", cards=[c["cardId"] for c in cs])
-                retiradas.append({"nid": n["noteId"], "chave": chave, "acao": "retirada (comentário/revisão preservados)"})
-            else:
-                A("deleteNotes", notes=[n["noteId"]])
-                retiradas.append({"nid": n["noteId"], "chave": chave, "acao": "apagada (sem comentário nem revisão)"})
+            A("addTags", notes=[n["noteId"]], tags="NEBLI::retirado::uc07-v2")
+            A("removeTags", notes=[n["noteId"]], tags=lesson_tag)
+            A("suspend", cards=[c["cardId"] for c in cs])
+            retiradas.append({"nid": n["noteId"], "chave": chave, "acao": "retirada recuperável (sem exclusão automática)"})
     return run, resultados, recusados, antes, retiradas
 
 

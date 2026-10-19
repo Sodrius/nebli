@@ -113,14 +113,38 @@ def main():
     espera(not deck.gate_estruturas([dois[0], dict(dois[1], cor="azul")]), "G26 reprovou uma verde + uma azul")
     espera("G24 formato AnKing" in (RAIZ / "nebli/kenhub/modelo.py").read_text() and "ANKING_BASE" in (RAIZ / "nebli/kenhub/modelo.py").read_text(), "gate de formato AnKing sumiu")
     espera("960px" in (RAIZ / "nebli/kenhub/modelo.py").read_text().replace(" ", "") and "ESCALA = 2" in (RAIZ / "nebli/kenhub/mascara.py").read_text(), "figuras maiores/overlay nítido sumiram")
+    # F-20261019-CODEX-01: fila na ordem oficial; nota ativa associa, totalmente suspensa migra
+    from nebli.kenhub import painel
+    espera(not painel.gate_ordem_kenhub([1, 2, 3]), "G29 reprovou sequência correta do Kenhub")
+    espera(any("G29" in x for x in painel.gate_ordem_kenhub([1, 3, 2])), "G29 aceitou sequência fora da ordem do Kenhub")
+    from nebli.kenhub.ordem_decks import nome_deck, plano_renomeacao
+    primeiro = nome_deck("Introdução ao sistema nervoso", "Sistema nervoso central: introdução ao encéfalo", "basic-anatomy-of-the-brain")
+    espera(primeiro == "NEBLI::UC07::01 Introdução ao sistema nervoso::01 Sistema nervoso central: introdução ao encéfalo",
+           "G29 não põe Introdução em primeiro lugar na árvore do Anki")
+    plano_nomes = plano_renomeacao()
+    espera(len(plano_nomes) > 51 and len(set(plano_nomes.values())) == len(plano_nomes), "G29 plano de renomeação vazio/duplicado")
+    espera(deck._destino_reuso([{"queue": 0}]) == "associar", "G30 tentou migrar nota ativa")
+    espera(deck._destino_reuso([{"queue": -1}, {"queue": -1}]) == "migrar", "G30 associou nota totalmente suspensa")
     # F-20261018-05 (comentários): seta ruim do AnatoKing e termo sem explicação
     ac3 = dict(ac, usos_modelo=1, vermelho_modelo=0.01)
     espera(any("seta evidente" in p for p in deck.gates_pre([ac3], cur)), "AnatoKing sem seta_ok passou")
     espera(not any("seta evidente" in p for p in deck.gates_pre([dict(ac3, seta_ok=True)], cur)), "AnatoKing com seta_ok reprovou")
     tz = {"chave": "z", "tipo": "texto", "modelo": modelo.CLOZE, "campos": {"Text": "O giro é a área <b>somestésica</b> {{c1::primária}}", "Imagens": "", "Extra": "<img src=x>", "Nome EN": ""}}
     espera(any("G27" in p for p in deck.gates_pre([tz], cur)), "G27 aceitou termo técnico sem explicação")
+    gz = {"chave": "g", "tipo": "texto", "modelo": modelo.CLOZE, "campos": {"Text": "Na figura, o grupo anterior aparece em {{c1::roxo}}", "Imagens": "", "Extra": "<img src=x>", "Nome EN": ""}}
+    espera(any("G28" in x for x in deck.gates_pre([gz], cur)), "G28 aceitou card que pergunta a cor da figura")
     # entrada sem campos (tipo desconhecido) reprova
     espera(any("[montagem]" in p for p in deck.gates_pre([{"chave": "z", "tipo": "id"}], cur)), "entrada sem campos passou")
+    # seta em estrutura fina e curva (centroide fora dela): o planejador não pode desistir (unidade IX, ramo lingual)
+    from nebli.kenhub import mascara
+    fina = np.zeros((600, 600), dtype=bool)
+    for t in np.linspace(0, np.pi, 900):
+        y, x = int(300 + 220 * np.sin(t)), int(300 - 220 * np.cos(t))
+        fina[y:y + 3, x:x + 3] = True
+    try:
+        mascara.planejar_seta(fina, (180, 40))
+    except ValueError:
+        espera(False, "planejar_seta desistiu de uma estrutura fina e curva")
     # F-03: navegador do Kenhub invisível
     espera("headless=True" in (RAIZ / "nebli/kenhub/navegador.py").read_text(), "navegador do Kenhub voltou a abrir janela")
     if falhas:

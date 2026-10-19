@@ -343,15 +343,36 @@ def deck_menu(menu, deck_id, mw, log):
 
 
 def action_request(mw, log):
-    """Gatilho por arquivo para testar sem clicar: arquivos-trabalho/anki-acao-pedido.json {"acao": "estudar"|"memoria", "deck": nome canônico}."""
+    """Gatilho por arquivo para operações locais que precisam da coleção aberta."""
     request = REPO / "arquivos-trabalho" / "anki-acao-pedido.json"
     if not request.exists() or mw.state == "review":
         return
     data = json.loads(request.read_text(encoding="utf-8"))
     request.unlink()
     col = mw.col
-    did = next((d.id for d in col.decks.all_names_and_ids() if rotulos.canonical(d.name) == data["deck"]), None)
+    did = next((d.id for d in col.decks.all_names_and_ids() if rotulos.canonical(d.name) == data.get("deck")), None)
     result = {"pedido": data, "encontrado": did is not None}
+    if data["acao"] == "renomear_decks":
+        # F-20261019: renomeia o próprio deck, não move cards. IDs, histórico,
+        # agendamento, flags e suspensão ficam intactos. O chamador segura o lock.
+        pares = data.get("mapeamentos", [])
+        atuais = {rotulos.canonical(d.name): d.id for d in col.decks.all_names_and_ids()}
+        fontes = {p["de"] for p in pares}
+        if len(fontes) != len(pares) or any(p["de"] == p["para"] for p in pares):
+            raise ValueError("renomeação de decks inválida ou duplicada")
+        ausentes = sorted(fontes - set(atuais))
+        conflitos = sorted(p["para"] for p in pares if p["para"] in atuais and atuais[p["para"]] != atuais.get(p["de"]))
+        if ausentes or conflitos:
+            raise ValueError(f"renomeação recusada; ausentes={ausentes}, conflitos={conflitos}")
+        ids = [(atuais[p["de"]], p["de"], p["para"]) for p in pares]
+        feitos = []
+        for deck_id, antigo, novo in sorted(ids, key=lambda x: x[1].count("::")):
+            col.decks.rename(deck_id, novo)
+            feitos.append({"id": deck_id, "de": antigo, "para": novo})
+        result.update({"encontrado": True, "renomeados": feitos})
+        log(f"decks renomeados em lote: {len(feitos)} (IDs preservados)")
+        (REPO / "arquivos-trabalho" / "anki-acao-resposta.json").write_text(json.dumps(result, ensure_ascii=False), encoding="utf-8")
+        return
     if did is not None:
         if data["acao"] == "estudar":
             result["nome"], result["cards"] = study_deck(col, mw, did, log)
@@ -363,6 +384,19 @@ def action_request(mw, log):
             result["encerrado"] = bool(fid)
         elif data["acao"] == "memoria":
             result["feitos"], result["falhas"] = recompute_memory(col, did, log)
+        elif data["acao"] == "reposicionar":  # fila de novos na ordem da aula; AnkiConnect recente recusa escrever `due` (14/10)
+            cids = [int(c) for c in data["cards"]]
+            col.sched.reposition_new_cards(card_ids=cids, starting_from=int(data["inicio"]), step_size=1,
+                                           randomize=False, shift_existing=False)
+            result["reposicionados"] = len(cids)
+            log(f"fila de novos reposicionada: {data['deck']} ({len(cids)} cards a partir de {data['inicio']})")
+        elif data["acao"] == "remover_vazios":  # só cartões pedidos que o Anki confirma vazios (cloze retirado da nota)
+            pedidos = {int(c) for c in data["cards"]}
+            vazios = [cid for n in col.get_empty_cards().notes for cid in n.card_ids if cid in pedidos]
+            if vazios:
+                col.remove_cards_and_orphaned_notes(vazios)
+            result["removidos"] = vazios
+            log(f"cartões vazios removidos: {vazios}")
     (REPO / "arquivos-trabalho" / "anki-acao-resposta.json").write_text(json.dumps(result, ensure_ascii=False), encoding="utf-8")
 
 
