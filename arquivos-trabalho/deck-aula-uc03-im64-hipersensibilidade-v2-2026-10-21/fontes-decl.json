@@ -51,23 +51,22 @@
   ],
   "bibliografia": [
    {
-    "arquivo": "fontes/slides.pdf",
-    "localizador": "Figuras de livro nas lâminas (Abbas)",
-    "contribuicao": "Resposta e evasão",
-    "alvos": "cap"
-   },
-   {
-    "arquivo": "livros/abbas-basica.txt",
-    "localizador": "Abbas, Imunologia Básica (cap. 3 e imunidade a microrganismos, extraído em materiais-uc03)",
-    "contribuicao": "Confirma interferons e NK",
+    "arquivo": "livros/abbas-hipersensibilidade.txt",
+    "localizador": "Abbas, Imunologia Básica, cap. 11 Hipersensibilidade (p. 207–222), lido, com o resumo do capítulo",
+    "contribuicao": "Confirma a cadeia causal de cada tipo e o resumo: tipo I (mastócito, aminas, lipídeos, citocinas), II (fagocitose, Fc e complemento, receptor), III (vasculite), IV (Th1 e CTL)",
     "alvos": "todos"
    }
   ],
-  "youtube": {
-   "estado": "não aplicável",
-   "busca": "vídeos dispensados por Davi (F-20261010-CLAUDE-06)",
-   "impacto": "nenhum"
-  },
+  "youtube": [
+   {
+    "arquivo": "canais/osmosis-tipo1.txt",
+    "localizador": "Osmosis, Type I hypersensitivity (transcrição inteira, 1.276 palavras)",
+    "contribuicao": "Confirma a ordem do tipo I: sensibilização, IgE no mastócito, degranulação e fase tardia",
+    "alvos": "todos",
+    "canal": "Osmosis",
+    "url": "https://youtu.be/2tmw9x2Ot_Q"
+   }
+  ],
   "caoc": {
    "estado": "não localizada",
    "busca": "pasta da aula sem CAOC",
@@ -84,11 +83,11 @@
  },
  "livros": [
   {
-   "livro": "Abbas, Imunologia Básica",
-   "texto": "livros/abbas-basica.txt"
+   "livro": "Abbas, Imunologia Básica, cap. 11 Hipersensibilidade",
+   "texto": "livros/abbas-hipersensibilidade.txt",
+   "lido": "integral"
   }
  ],
- "ninja_nerd_busca": "não aplicável: vídeos dispensados por Davi (F-20261010-CLAUDE-06)",
  "materiais_uc": {
   "Grand round 1.pdf": {
    "descartado": "apostila do GR1 (esquizofrenia)"
@@ -166,5 +165,14 @@
    "texto": "fontes/transcricao.txt",
    "secao": "Aula de hipersensibilidade (lâminas e transcrição)"
   }
- }
+ },
+ "canais": [
+  {
+   "canal": "Osmosis",
+   "url": "https://youtu.be/2tmw9x2Ot_Q",
+   "transcricao": "canais/osmosis-tipo1.txt",
+   "lido": "integral",
+   "calibracao": "Confirmou a cadeia do tipo I (sensibilização, IgE no mastócito, histamina e leucotrienos, fase tardia com eosinófilos) e a ordem dos passos nos cards."
+  }
+ ]
 }

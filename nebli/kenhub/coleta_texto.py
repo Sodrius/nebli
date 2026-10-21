@@ -92,7 +92,7 @@ def main(alvos):
             d = json.loads(arq.read_text())
             if d.get("texto") and d.get("overview") is not None:
                 continue
-            page.goto(f"https://www.kenhub.com/en/study/{d['unidade']}", wait_until="domcontentloaded")
+            page.goto(f"https://www.kenhub.com/en/study/{d['unidade']}", wait_until="domcontentloaded", timeout=60000)
             page.wait_for_timeout(4000)
             html = page.content()
             d["texto"] = trechos(page.inner_text("body"), html)
@@ -103,12 +103,12 @@ def main(alvos):
                 for im in _get(page, f"/api/overview_images?{query}&termLanguage=English&locale=en&version=2"):
                     rel = f"img/cap-{im['id']}.jpg"
                     if not (pasta / rel).exists():
-                        _baixar(page, im["fullscreenUrl"], pasta / rel)
-                        time.sleep(random.uniform(1, 2))
+                        _baixar(page, im.get("fullscreenUrl") or im.get("imageUrl"), pasta / rel)
+                        time.sleep(random.uniform(.25, .6))
                     d["overview"].append({"id": im["id"], "title": im["title"], "arquivo": rel})
             arq.write_text(json.dumps(d, ensure_ascii=False, indent=1))
             print(f"{pasta.name}: {len(d['texto'])} trechos ({', '.join(sorted({t['tipo'] for t in d['texto']}))})")
-            time.sleep(random.uniform(2, 4))
+            time.sleep(random.uniform(.5, 1))
         page.close()
 
 

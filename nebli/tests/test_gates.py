@@ -51,6 +51,31 @@ class GatesTests(unittest.TestCase):
             "Extra": "Connect the fact to inhaled pollutants and the tissue response described in this lesson"}}]}
         self.assertFalse(gates.specific_extras(plan)[1])
 
+    def test_authorial_bold_is_a_hard_gate(self):
+        base = {"key": "au", "origin": "Autoral", "kind": "autoral", "bloco": "b",
+                "fields": {"Text": "The receptor is {{c1::active}}", "Extra": "Mechanism explained."},
+                "cards": [{"cor": "azul"}]}
+        failed = dict(gates.past_errors({"entries": [base], "lesson_id": "bioquimica"}))
+        self.assertFalse(next(ok for label, ok in failed.items() if "cloze autoral" in label))
+        good = copy.deepcopy(base)
+        good["fields"]["Text"] = "The <b>receptor</b> is {{c1::<b>active</b>}}"
+        passed = dict(gates.past_errors({"entries": [good], "lesson_id": "bioquimica"}))
+        self.assertTrue(next(ok for label, ok in passed.items() if "cloze autoral" in label))
+
+    def test_organizer_is_vertical_and_uses_cloze_indices_deliberately(self):
+        independent = {"key": "org", "origin": "Autoral", "organizador": True,
+                       "fields": {"Text": "Partes:<br>{{c1::A}}<br>{{c2::B}}<br>{{c3::C}}"}}
+        self.assertTrue(gates.inducao_clozes({"entries": [independent]})[-1][1])
+        prose = copy.deepcopy(independent)
+        prose["fields"]["Text"] = "Partes: {{c1::A}}, {{c2::B}} e {{c3::C}}"
+        self.assertFalse(gates.inducao_clozes({"entries": [prose]})[-1][1])
+        contrast = {"key": "contrast", "origin": "Autoral", "organizador": True,
+                    "contraste_complementar": True,
+                    "fields": {"Text": "Anterior — {{c1::eferente}}<br>Posterior — {{c1::aferente}}"}}
+        self.assertTrue(gates.inducao_clozes({"entries": [contrast]})[-1][1])
+        contrast["fields"]["Text"] = "Anterior — {{c1::eferente}}<br>Posterior — {{c2::aferente}}"
+        self.assertFalse(gates.inducao_clozes({"entries": [contrast]})[-1][1])
+
     def test_cards_scope_does_not_require_e1_but_default_does(self):
         from nebli import entrega
         with tempfile.TemporaryDirectory() as d:

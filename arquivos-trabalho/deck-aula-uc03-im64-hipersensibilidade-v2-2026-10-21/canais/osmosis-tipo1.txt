@@ -1,0 +1,93 @@
+Osmosis — https://youtu.be/2tmw9x2Ot_Q
+
+Having a hypersensitivity means that someone’s
+immune system has reacted to something in such a way that it ends up damaging them,
+as opposed to protecting them. There are four different types of hypersensitivities,
+and in the first type or type one, the reactions rely on Immunoglobulin E, or IgE antibody,
+which is a specific type of antibody - the other major ones being IgG, IgA, IgM, and
+IgD. So because IgE is involved with type one hypersensitivity
+reactions they are also called IgE-mediated hypersensitivities. This type of reaction is also sometimes called
+immediate hypersensitivities, because the reaction happens super fast—on the order
+of minutes. So most allergic reactions are IgE-mediated,
+and therefore most allergies are type I hypersensitivity reactions. “Allergy” comes from the Greek Allos which
+roughly means “other” and ergon which means “reactivity”. Essentially, allergies are reactions to molecules
+from outside your own body that most people don’t react to—and these are specific
+molecules from things you might breathe or take in like foods, animal dander, bee stings,
+mold, drugs or medications, and pollen. You can also mount an allergic reaction to
+things you come in contact with on your skin like latex, lotions, and soaps. These specific molecules are also called antigens,
+and when they cause an allergic reaction, they’re called allergens. An allergic reaction happens in two steps,
+a first exposure, or sensitization, and then a subsequent exposure, which is when it gets
+a lot more serious. People that react to these allergens usually
+have a genetic predisposition to having over-reactions to unknown molecules or allergens. This means that these people have certain
+genes that cause their T-helper cells to be more hypersensitive to certain antigens. Since the production of these T-helper cells
+is genetically linked, allergies to things tend to run in families. So let’s say this person breathes in some
+ragweed pollen, that person happens to have T-helper cells that can bind to a specific
+molecule on the pollen, making that molecule an allergen. First off, that antigen gets picked up by
+immune cells hanging out in the membranes along the airways, which then grab the molecule
+and migrate to the lymph nodes, which happens regardless of if the person is allergic or
+not. These cells are antigen-presenting cells,
+since they carry the antigen to the lymph nodes and present it to the T-helper cells
+living there. Dendritic cells and macrophages are examples
+of antigen-presenting cells. When the person is allergic, the antigen presenting
+cell will also express costimulatory molecules, which are needed to mount an effective immune
+response. Before the T-helper cell sees the antigen
+though, it’s called a naive T-helper, since, even though it’s built to recognize the
+antigen, it hasn’t actually seen it before. When the T-helper gets its hands on the antigen
+though, and also binds the costimulatory molecule, it’s now been primed, and the naive T-helper
+changes into a different sort of T-helper cell. Usually in type I hypersensitivity it differentiates
+into a type 2 T helper cell, or just TH2 cell, and this step happens in response to various
+small proteins or interleukins that might be floating around at the time. Some interleukins that sway the T-helper cell
+into turning into a TH2 cell are interleukin 4, interleukin 5, and interleukin 10, and
+these are all cytokines - and they’re given numbers because it’s easier to keep track
+of them that way. At any rate, the excited TH2 cells release
+a bit of their own interleukin 4 and get the B cells to undergo antibody class-switching,
+and so the B cell switches from making IgM antibodies to making IgE antibodies which
+are specific to ragweed pollen in our example. TH2 cells also release some interleukin 5,
+which stimulates production and activation of eosinophils, a granulocyte, which is a
+type of white blood cell that degranulates or essentially releases a whole bunch of toxic
+substances that can damage both invading cells and nearby host cells. These ragweed-specific IgE antibodies have
+a high affinity for, or basically really like Fc epsilon receptors on mast cells, another
+type of granulocyte, so they quickly attach themselves to the surface of mast cells. These antibodies are also called cytotropic
+antibodies, since they can bind to cell surfaces. At this point it’s like the mast cell’s
+been geared up for combat, and is ready for action, and therefore we’re finished with
+the sensitization phase. Now let’s say that that same person breathes
+in the ragweed pollen again, maybe a few months later - a second exposure. Well, the suped up mast cells, using their
+coat of antibodies, binds to the antigen. Actually, it takes two or more bound antigens
+to cross-link the IgE antibodies, which signals the mast cell to degranulate and release a
+bunch of pro-inflammatory molecules called mediators that ultimately causes the effects
+seen in an allergic reaction. One of the major mediators released in an
+allergic reaction is histamine. Histamine binds to H1 receptors and causes
+the smooth muscles around the bronchi to contract, which means the airways get smaller, making
+it more difficult to breathe. It also causes blood vessel dilation and increased
+permeability of the blood vessel walls, meaning that, while blood vessel diameter increases
+and blood flow to the affected area increases, fluid is allowed to more easily leak out the
+blood vessel walls and get into the interstitium, the spaces between cells, which causes edema
+and swelling, and urticaria, or hives. In addition to histamine, mast cells release
+other pro-inflammatory mediators including some that activate eosinophils and proteases
+which chop up large proteins into small peptides. The effects of these molecules are called
+“early phase reactions”, and they happen within minutes of the second exposure. There are also “late phase reactions”
+though, which happen 8-12 hours after that second exposure, where even more immune cells
+like TH2 cells, eosinophils, and basophils, yet another type of granulocyte, are recruited
+to the site where the allergen is located because of the cytokines and pro-inflammatory
+molecules produced during that early phase. These include some of those same interleukins
+again, interleukin 4, interleukin 5, and interleukin 10, but also leukotrienes which are smaller
+molecules made out of fatty acids and facilitate communication between a local group of cells. Two leukotrienes in particular, LTB4 and LTC4,
+can not only cause smooth muscle contraction and damage to the epithelium like histamine,
+but they can attract immune cells - like neutrophils, mast cells, and eosinophils to their location
+even after the allergen is long-gone. A lot of people with allergic reactions experience
+mild symptoms, like hives, eczema, allergic rhinitis—which is inflammation of the nose,
+as well as asthma. Certain people though, when exposed to a large
+load of specific allergens, like bee stings, seafood, or peanuts, can have a really severe
+and potentially life threatening allergic reaction. The increased vascular permeability, along
+with the constriction of airways can be severe enough such that the body can’t supply the
+vital organs—like the brain, with enough oxygen-rich blood, a condition known as anaphylactic
+shock. Treatment for type one hypersensitivity can
+involve a variety of medications. Antihistamines, act to block the effects of
+histamine, which reduces vascular permeability and bronchoconstriction. Also there’re corticosteroids, which can
+be used to reduce the inflammatory response, as well as epinephrine, which is sometimes
+given during severe reactions via intramuscular injections through an EpiPen or intravenous
+injection. Epinephrine can help constrict blood vessels
+and prevent anaphylactic shock. If there’s ever a serious type one hypersensitivity
+reaction that requires something like steroids or Epinephrine, it’s super important to
+get medical attention because type 1 hypersensitivity reactions can be serious and can sometimes
+get slightly better before getting worse again.

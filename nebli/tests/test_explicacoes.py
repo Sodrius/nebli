@@ -56,6 +56,20 @@ class ExplicacoesTests(unittest.TestCase):
              "question": "Q<br>#AK_Step1_v12::x", "answer": "Q<br>A<br>PSEUDO-FIELD #First Aid<br>421090<br>A"}
         self.assertEqual(explicacoes.card_text(c), ("Q", "Q\nA"))
 
+    def test_kenhub_io_uses_portuguese_name_as_hidden_target(self):
+        c = {"cardId": 7, "note": 8, "ord": 0, "deckName": "NEBLI::UC07::Tronco",
+             "question": "<img src='mask.png'>", "answer": "<img src='answer.png'>",
+             "fields": {
+                 "Nome PT": {"value": "Mesencéfalo", "order": 0},
+                 "Imagem": {"value": "<img src='brain.jpg'>", "order": 1},
+                 "MascaraP": {"value": "<img src='mask.png'>", "order": 2},
+                 "Extra": {"value": "", "order": 3},
+             }}
+        payload, _, _ = explicacoes.item(None, c)
+        self.assertEqual(payload["alvo_oculto"], "Mesencéfalo")
+        self.assertEqual(payload["verso"], "Mesencéfalo")
+        self.assertIn("identify the marked structure", payload["frente"])
+
     def test_hash_matches_the_addon_formula(self):
         fields = ["a", "b<br>c"]
         addon = hashlib.sha1(("\x1f".join(fields) + "\x1e2").encode("utf-8")).hexdigest()

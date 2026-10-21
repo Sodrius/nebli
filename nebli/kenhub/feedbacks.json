@@ -307,6 +307,19 @@
     }
    ],
    "teste": "teste_gates: sequência fora da ordem oficial reprova; nota ativa associa e nota totalmente suspensa migra"
+  },
+  {
+   "id": "F-20261020-CODEX-02",
+   "data": "20/10/2026",
+   "literal": "termina de transcrever / analisa as aulas + resumos e dessuspendo o que tem relação com isso / pode ser amplo, mas garante que cada card dessuspenso é de algo que realmente estava na aula ou intimamente relacionado / os cards do step que entram pega uns hy do assunto exato que vão ajudar / isso vai ser meu guia e o que vou levar de neuroanato a longo prazo / estruturas menos importantes nn precisa dessuspender todos os cards que há",
+   "regra": "A cobertura integral fica instalada; a camada ativa só contém cards com fonte ou relação anatômico-funcional imediata registrada. Step/AnKing entra pelo assunto exato, priorizando HY. Detalhes e redundâncias permanecem suspensos como reserva.",
+   "gates": [
+    {
+     "codigo": "GATE F-20261020-CODEX-02",
+     "arquivo": "nebli/kenhub/seleciona_estudo.py"
+    }
+   ],
+   "teste": "teste_gates: manifesto vazio e card ativo sem evidência reprovam; após aplicação o estado vivo é comparado por card ID"
   }
  ]
 }

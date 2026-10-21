@@ -179,11 +179,15 @@ def item(call, card):
         # Oclusão de imagem: o rótulo só existe nos pixels. As cópias NEBLI trazem o nome em negrito no início de Remarks.
         named = re.match(r"\s*<b>(.*?)</b>", fields.get("Remarks", {}).get("value", ""), flags=re.S)
         target = plain(named.group(1)) if named else None
+    if not target and "Nome PT" in fields and ("MascaraP" in fields or "Imagem" in fields):
+        # NEBLI Kenhub IO: o rótulo da estrutura fica no campo próprio; os pixels
+        # da figura/seta não aparecem no texto renderizado entregue ao gerador.
+        target = plain(fields["Nome PT"]["value"]) or None
     if not target and f"{card['ord'] + 1}a" in fields:
         # Prancha numerada (modelo Anatomy): o card N cobra o rótulo do campo "Na".
         target = plain(fields[f"{card['ord'] + 1}a"]["value"]) or None
     front, back = card_text(card)
-    if target and "Answer Mask" in fields:
+    if target and ("Answer Mask" in fields or "MascaraP" in fields):
         front, back = ("Image occlusion on a figure from the lecture (cadaver photo, histology slide or atlas plate): identify the marked "
                        "structure. The figure is never available as text and that is expected: do NOT mark this card 'revisar' for lack "
                        "of the image. Explain the hidden target itself: what it is, where it lies, how to recognize it and what it does."), target

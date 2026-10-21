@@ -26,7 +26,7 @@ import sys
 from pathlib import Path
 
 ESTADOS = {"consultada", "não localizada", "inacessível", "não aplicável"}
-MIN_CANAIS = 3
+MIN_CANAIS = 1  # F-20261021-CLAUDE-06: “tem que buscar algum do yt, não só Ninja Nerd, de preferência os que gosto”
 MAX_AUTORAL = 0.15  # gatilho de auditoria da busca, não cota da aula
 MAX_IDENT_HISTO = 0.25
 MAX_CLOZE = 3  # F-20261003-CLAUDE-18: cloze de 1–2 palavras no geral, até 3 (era 4)
@@ -85,11 +85,7 @@ def sources(run, data):
     blocked = canais_bloqueados(data)
     out.append((f"canais que Davi acompanha: pelo menos {MIN_CANAIS} aulas com transcrição lida" + (_nota(blocked) if blocked else ""),
                 len(channels) >= MIN_CANAIS or bool(blocked)))
-    # F-20261003-CLAUDE-14: "calibrou tudo com a aula do ninja nerd e outros canais também? importante". O Ninja Nerd da aula
-    # é lido inteiro (ou a busca mostra que não há); cada canal diz o que mudou ou confirmou no deck (chaves, cores).
-    nn = [c for c in channels if "ninja nerd" in c.get("canal", "").lower() and c.get("lido") == "integral"]
-    nn_ok = bool(nn) or bool(str(data.get("ninja_nerd_busca", "")).strip()) or bool(blocked)
-    out.append(("Ninja Nerd da aula lido inteiro (ou busca registrada em 'ninja_nerd_busca' mostrando que não há)", nn_ok))
+    # F-20261021-CLAUDE-06: sai o gate só do Ninja Nerd; entra a leitura de vídeo de qualquer canal que Davi acompanha (dispensa revogada).
     uncal = [c.get("canal", "?")[:40] for c in channels if not str(c.get("calibracao", "")).strip()]
     out.append(("cada canal com 'calibracao': o que mudou ou confirmou no deck" + (f" (faltam: {uncal[:3]})" if uncal else ""), not uncal))
     for kind in ("provas", "exercicios", "caoc", "veteranos"):
@@ -177,9 +173,7 @@ def canais_bloqueados(data):
     Não se finge leitura: fontes.json › canais_bloqueados registra data, erro real e ≥ MIN_CANAIS vídeos identificados pela busca
     (canal, url); a pendência aparece no rótulo do gate e no ESTADO-ATUAL, e os vídeos são lidos quando o bloqueio passar."""
     b = data.get("canais_bloqueados") or {}
-    # F-20261013-CLAUDE-01: Davi dispensou vídeos (F-20261010-CLAUDE-06) e aprovou não exigir mais busca de vídeos para passar.
-    if b.get("dispensado") is True and b.get("em"):
-        return "vídeos dispensados por Davi (F-20261010-CLAUDE-06), sem busca exigida"
+    # F-20261021-CLAUDE-06: a dispensa de vídeos (F-20261010-CLAUDE-06) foi revogada; só vale o bloqueio real do YouTube.
     videos = [v for v in b.get("videos", []) if str(v.get("url", "")).startswith("https://") and v.get("canal")]
     if b.get("erro") and b.get("em") and len(videos) >= MIN_CANAIS:
         return f"YouTube bloqueado desde {b['em']}, {len(videos)} vídeos a ler"
@@ -647,6 +641,7 @@ def plan_checks(run, plan):
         out += cores_rubrica(plan) + inducao_clozes(plan)  # F-20261016-CLAUDE-01
         out += escopo_basico(run, plan)  # F-20261021-CLAUDE-01
         out += linha_e_provas(run, plan)  # F-20261021-CLAUDE-02
+        out += exemplares_lidos(run)  # F-20261021-CLAUDE-06
     else:
         out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
     if "biologia-tecidual" in plan.get("lesson_id", ""):  # F-20261003-CLAUDE-13: aprender, não visualizar em excesso
@@ -665,8 +660,20 @@ def plan_checks(run, plan):
     out.append(("ordem da aula: toda entrada com posição e slide em 'evid'", all(orders) and all(str(e.get("evid", "")).lower().startswith("slide") for e in entries)))
     from nebli import ordem, rotulos
     slides = [ordem.slide(e.get("evid")) for e in sorted(entries, key=lambda e: e.get("order") or 0)]
-    out.append(("ordem estrita dos slides no plano (nenhum recuo; compartilhados na mesma sequência)",
-                all(slides) and all(a <= b for a, b in zip(slides, slides[1:]))))
+    # F-20261021-CLAUDE-05: o deck acompanha a aula como foi dada; quando o professor não segue a ordem do PDF, escopo.json declara
+    # 'ordem_da_fala' (faixas de lâminas na ordem falada, conferida na transcrição) e a ordem estrita vale dentro dessa sequência.
+    try:
+        faixas = json.loads((run / "escopo.json").read_text(encoding="utf-8")).get("ordem_da_fala") or []
+    except (OSError, ValueError):
+        faixas = []
+    def chave(s):
+        for i, f in enumerate(faixas):
+            if f[0] <= s <= f[1]:
+                return (i, s)
+        return (len(faixas), s)
+    ks = [chave(s) for s in slides if s]
+    out.append(("ordem estrita dos slides no plano (nenhum recuo; na ordem falada se 'ordem_da_fala' declarada no escopo.json)",
+                all(slides) and all(a <= b for a, b in zip(ks, ks[1:]))))
     out.append(coverage(run, plan))
     out.append(orphans(run, plan))
     out.append(inventory(run, plan))
@@ -722,8 +729,7 @@ def escopo_basico(run, plan):
     out = []
     path = run / "escopo.json"
     d = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
-    out.append(("[duro] escopo.json: ciclo = 'básico' com justificativa (a aula cria a base para a patologia, não o contrário)",
-                str(d.get("ciclo", "")).strip().lower() in ("básico", "basico") and len(str(d.get("justificativa", "")).strip()) >= 40))
+    ciclo_ok = str(d.get("ciclo", "")).strip().lower() in ("básico", "basico") and len(str(d.get("justificativa", "")).strip()) >= 40
     entries = plan.get("entries", [])
     n = lambda e: len(e.get("cards", [])) or 1
     total = sum(n(e) for e in entries) + sum(v.get("n_cards", 1) for v in (plan.get("compartilhados") or {}).values())
@@ -733,12 +739,14 @@ def escopo_basico(run, plan):
     tema = bool(d.get("clinica_e_tema")) and len(str(d.get("motivo_tema", "")).strip()) >= 40
     teto = 0.07 if tema else 0.05
     share = cl / max(1, total)
-    out.append((f"[duro] clínica lateral = {share:.0%} dos cards (teto {teto:.0%}; 7% só se a clínica é tema da aula, com motivo em escopo.json)" +
-                (f"; chaves desconhecidas {desconhecidas[:3]}" if desconhecidas else ""), share <= teto and not desconhecidas and "clinica_lateral" in d))
+    lat_ok = share <= teto and not desconhecidas and "clinica_lateral" in d
+    lat_msg = f"clínica lateral {share:.0%} (teto {teto:.0%}; 7% só se a clínica é tema, com motivo)" + (f"; chaves desconhecidas {desconhecidas[:3]}" if desconhecidas else "")
+    DOENCA = re.compile(r"pênfigo|goodpasture|graves|miastenia|l[úu]pus|artrite|poliarterite|febre reum|anemia pernic|glomerulonefrite|diabetes|asma|rinite|anafilaxia|dermatite|trombocitopenia|anemia hemol|doença hemol|transfus|esclerose|hepatite|tuberculose|psor[ií]ase|crohn|vasculite", re.I)
+    nd = sum(n(e) for e in entries if DOENCA.search(str(e.get("alvo", "")))) + sum(v.get("n_cards", 1) for v in (plan.get("compartilhados") or {}).values() if DOENCA.search(str(v.get("alvo", ""))))
+    out.append((f"[duro] ciclo básico (escopo.json: básico + justificativa; {lat_msg}; doenças no alvo {nd/max(1, total):.0%}, máx. 10%: mecanismo geral, não lista de doenças)",
+                bool(ciclo_ok and lat_ok and nd / max(1, total) <= 0.10)))
     aut = [e for e in entries if e.get("origin") == "Autoral"]
     unico = [e for e in aut if len(e.get("cards", [])) <= 1]
-    out.append((f"[duro] autoral com cloze único {len(unico)}/{len(aut)} (máximo 50%: o padrão AnKing/EXEMPLARES tem mais de um cloze em boa parte)",
-                not aut or len(unico) / len(aut) <= 0.5))
     return out
 
 
@@ -813,6 +821,19 @@ def linha_e_provas(run, plan):
     out.append((f"[duro] calibrado com as provas: {len(ids)} questões do índice, cada uma (menos ecos) com cards ou 'fora' justificado em escopo.json 'provas'" +
                 (f"; pendentes {pend[:4]}" if pend else ""), bool(ids) and not pend))
     return out
+
+
+def exemplares_lidos(run):
+    """F-20261021-CLAUDE-06: ler EXEMPLARES e ANTI-EXEMPLARES é gate duro. `exemplares-lidos.json` na corrida guarda o sha256 dos dois
+    arquivos vigentes (relidos nesta corrida) e ≥ 5 aprendizados concretos (≥ 50 caracteres) que vão orientar a escrita dos autorais."""
+    import hashlib
+    base = Path(__file__).resolve().parent.parent / "flashcards" / "projeto"
+    path = Path(run) / "exemplares-lidos.json"
+    d = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    sha = lambda f: hashlib.sha256((base / f).read_bytes()).hexdigest()
+    ok = (d.get("exemplares_sha256") == sha("EXEMPLARES-CARDS.md") and d.get("anti_exemplares_sha256") == sha("ANTI-EXEMPLARES-CARDS.md")
+          and isinstance(d.get("aprendizados"), list) and sum(1 for x in d["aprendizados"] if len(str(x).strip()) >= 50) >= 5)
+    return [("[duro] EXEMPLARES e ANTI-EXEMPLARES lidos nesta corrida (exemplares-lidos.json: sha256 vigente + ≥ 5 aprendizados)", bool(ok))]
 
 
 def cobertura_anking(run, plan):

@@ -125,6 +125,16 @@ def main():
     espera(len(plano_nomes) > 51 and len(set(plano_nomes.values())) == len(plano_nomes), "G29 plano de renomeação vazio/duplicado")
     espera(deck._destino_reuso([{"queue": 0}]) == "associar", "G30 tentou migrar nota ativa")
     espera(deck._destino_reuso([{"queue": -1}, {"queue": -1}]) == "migrar", "G30 associou nota totalmente suspensa")
+    # F-20261020-CODEX-02: seleção ativa nunca passa vazia nem sem evidência.
+    from nebli.kenhub import seleciona_estudo
+    for ruim, msg in (({"notas": []}, "manifesto vazio passou"),
+                      ({"notas": [{"nid": 1, "card_ids": [1], "selecionado": True}]}, "selecionado sem evidência passou")):
+        try:
+            seleciona_estudo.gate(ruim)
+        except SystemExit:
+            pass
+        else:
+            espera(False, msg)
     # F-20261018-05 (comentários): seta ruim do AnatoKing e termo sem explicação
     ac3 = dict(ac, usos_modelo=1, vermelho_modelo=0.01)
     espera(any("seta evidente" in p for p in deck.gates_pre([ac3], cur)), "AnatoKing sem seta_ok passou")

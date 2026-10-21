@@ -130,12 +130,10 @@ def fontes(pasta: Path):
     "pastas_extra":["<pasta absoluta a varrer inteira>"]}
     Só declara o que foi lido; o hash e a lista de alvos vêm do disco e do planejamento.json."""
     d = json.loads((pasta / "fontes-decl.json").read_text())
-    # F-20261013-CLAUDE-01: vídeos dispensados por Davi (F-20261010-CLAUDE-06); sem canal lido, registra a dispensa sem busca.
+    # F-20261021-CLAUDE-06: a dispensa de vídeos foi revogada; ler pelo menos um vídeo de canal que Davi acompanha
+    # (`corrida youtube "<busca>"` e `corrida video ...`) e declarar em "canais" e em familias.youtube.
     if not d.get("canais"):
-        d.setdefault("canais_bloqueados", {"dispensado": True, "em": time.strftime("%Y-%m-%d"),
-                                           "erro": "vídeos dispensados por Davi (F-20261010-CLAUDE-06)", "videos": []})
-        d["familias"].setdefault("youtube", {"estado": "não aplicável", "busca": "vídeos dispensados por Davi (F-20261010-CLAUDE-06)", "impacto": "nenhum"})
-        d.setdefault("ninja_nerd_busca", "não aplicável: vídeos dispensados por Davi (F-20261010-CLAUDE-06)")
+        raise SystemExit("fontes-decl.json sem 'canais': ler ≥ 1 vídeo do YouTube (canal que Davi acompanha) antes de declarar as fontes.")
     scope = d.get("escopo", "cards")
     if scope not in {"cards", "e1+cards"}:
         raise ValueError(f"escopo inválido em fontes-decl.json: {scope!r}")

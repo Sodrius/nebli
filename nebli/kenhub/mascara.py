@@ -226,9 +226,10 @@ def _desenhar_seta(d, ponta, cauda, larg=7, cabeca=26):
         d.polygon(tri, fill=cor)
 
 
-def _rotulo(d, caixa, linhas, fonte, alt, fundo, cor_txt, esc=1):
-    d.rounded_rectangle(caixa, radius=8 * esc, fill=fundo, outline=(0, 0, 0), width=3 * esc)
-    y = caixa[1] + 8 * esc
+def _rotulo(d, caixa, linhas, fonte, alt, fundo, cor_txt, esc=1, borda=(0, 0, 0), largura_borda=3):
+    d.rounded_rectangle(caixa, radius=8 * esc, fill=fundo, outline=borda, width=largura_borda * esc)
+    bloco = alt * len(linhas)
+    y = caixa[1] + max(0, (caixa[3] - caixa[1] - bloco) / 2)
     for l in linhas:
         lw = d.textlength(l, font=fonte)
         d.text(((caixa[0] + caixa[2]) / 2 - lw / 2, y), l, font=fonte, fill=cor_txt)
@@ -237,6 +238,11 @@ def _rotulo(d, caixa, linhas, fonte, alt, fundo, cor_txt, esc=1):
 
 COR_SETA_ANKING = (229, 38, 30)   # vermelho de anotação (como as setas/linhas do AnKing e do AnatoKing), com halo branco
 BORDA_MASCARA = (45, 45, 45)       # #2D2D2D, a borda das máscaras do Image Occlusion do AnKing
+TEMAS_REFERENCIA = {
+    # Fase piloto da Referência externa: alto contraste sem disputar com o verde do Kenhub.
+    "ambar": {"seta": (245, 166, 35), "caixa": (255, 249, 232), "texto": (25, 25, 25)},
+    "ciano": {"seta": (0, 174, 199), "caixa": (232, 251, 255), "texto": (20, 28, 30)},
+}
 
 
 VISIVEL_MIN = 0.0035   # fração da figura: menor que isso o retângulo não se vê de relance
@@ -276,26 +282,28 @@ def retangulos(regiao, pad=5, area_min=AREA_MINIMA, grande=0.04):
     return m, caixas, formas
 
 
-def _seta_limpa(d, ponta, cauda, larg=8, cabeca=32, esc=1):
+def _seta_limpa(d, ponta, cauda, larg=8, cabeca=32, esc=1, cor=COR_SETA_ANKING, halo=4, contorno=True):
     px, py = ponta
     qx, qy = cauda
     ang = np.arctan2(py - qy, px - qx)
     base = (px - cabeca * np.cos(ang), py - cabeca * np.sin(ang))
     esq = (base[0] + cabeca * 0.5 * np.sin(ang), base[1] - cabeca * 0.5 * np.cos(ang))
     dir_ = (base[0] - cabeca * 0.5 * np.sin(ang), base[1] + cabeca * 0.5 * np.cos(ang))
-    for cor, extra in (((30, 30, 30), 8 * esc), ((255, 255, 255), 4 * esc), (COR_SETA_ANKING, 0)):   # contorno escuro + halo branco: aparece em músculo, osso e fundo
-        d.line([cauda, base], fill=cor, width=larg + extra)
-        d.polygon([(px + extra * np.cos(ang) * 0.7, py + extra * np.sin(ang) * 0.7), esq, dir_], fill=cor)
+    camadas = (((30, 30, 30), (halo + 2) * esc),) if contorno else ()
+    camadas += (((255, 255, 255), halo * esc), (cor, 0))
+    for cor_camada, extra in camadas:
+        d.line([cauda, base], fill=cor_camada, width=larg + extra)
+        d.polygon([(px + extra * np.cos(ang) * 0.7, py + extra * np.sin(ang) * 0.7), esq, dir_], fill=cor_camada)
 
 
-def overlays(tamanho, regiao_mascara, nome_pt, ponta=None, cauda=None, cobrir=True, seta=True, ancora=None):
+def overlays(tamanho, regiao_mascara, nome_pt, ponta=None, cauda=None, cobrir=True, seta=True, ancora=None, tema="anking"):
     """Gera (frente, verso, meta) como PNGs RGBA do tamanho da figura — padrão AnKing (F-20261017-CLAUDE-05):
     frente = retângulo(s) vermelho(s) com borda cobrindo a estrutura + seta vermelha limpa até eles, SEM “?” e sem frase;
     verso = a mesma seta com o nome em português na ponta oposta (a estrutura volta a aparecer).
     `ancora` (x, y): sem seta própria (a figura já aponta, ex.: “ID” do AnKing) — o nome aparece ali no verso.
     Se `ponta`/`cauda` vierem (linha-guia do atlas), a seta segue a linha."""
     w, h = tamanho
-    tam = max(20, int(w / 34))
+    tam = max(22, int(w / 30))
     f, linhas, bw, bh, alt = _caixa_texto(nome_pt, tam, int(w * 0.36))
     regiao, caixas_m, formas = retangulos(regiao_mascara) if cobrir else (regiao_mascara, [], np.zeros_like(regiao_mascara))
     if ancora is not None:
@@ -314,6 +322,11 @@ def overlays(tamanho, regiao_mascara, nome_pt, ponta=None, cauda=None, cobrir=Tr
         caixa = (int(max(6, min(w - bw - 6, bx))), int(max(6, min(h - bh - 6, by))), 0, 0)
         caixa = (caixa[0], caixa[1], caixa[0] + bw, caixa[1] + bh)
     S = ESCALA
+    estilo = TEMAS_REFERENCIA.get(tema)
+    cor_seta = estilo["seta"] if estilo else COR_SETA_ANKING
+    largura_seta = 3 if estilo else 8
+    cabeca_seta = 17 if estilo else 32
+    halo = 2 if estilo else 4
     f2, linhas2, bw2, bh2, alt2 = _caixa_texto(nome_pt, tam * S, int(w * 0.36) * S, esc=S)
     caixa2 = (caixa[0] * S, caixa[1] * S, caixa[0] * S + bw2, caixa[1] * S + bh2)
     formas2 = np.kron(formas, np.ones((S, S), dtype=bool)) if formas.any() else formas
@@ -331,15 +344,27 @@ def overlays(tamanho, regiao_mascara, nome_pt, ponta=None, cauda=None, cobrir=Tr
             for x0, y0, x1, y1 in caixas_m:
                 d.rectangle((x0 * S, y0 * S, (x1 + 1) * S - 1, (y1 + 1) * S - 1), fill=(*COR_PERGUNTA, 255), outline=BORDA_MASCARA, width=3 * S)
         if seta:
-            _seta_limpa(d, (ponta[0] * S, ponta[1] * S), (cauda[0] * S, cauda[1] * S), larg=8 * S, cabeca=32 * S, esc=S)
-        if lado == "verso":
-            _rotulo(d, caixa2, linhas2, f2, alt2, (255, 255, 255), (0, 0, 0), esc=S)
+            _seta_limpa(d, (ponta[0] * S, ponta[1] * S), (cauda[0] * S, cauda[1] * S),
+                        larg=largura_seta * S, cabeca=cabeca_seta * S, esc=S, cor=cor_seta, halo=halo,
+                        contorno=not bool(estilo))
+        if lado == "frente" and estilo:
+            lado_q = 40 * S
+            qbox = (int(cauda[0] * S - lado_q / 2), int(cauda[1] * S - lado_q / 2),
+                    int(cauda[0] * S + lado_q / 2), int(cauda[1] * S + lado_q / 2))
+            fq = _fonte(27 * S)
+            _rotulo(d, qbox, ["?"], fq, 29 * S, (*estilo["caixa"], 246), estilo["texto"],
+                    esc=S, borda=cor_seta, largura_borda=2)
+        elif lado == "verso":
+            fundo = (*estilo["caixa"], 246) if estilo else (255, 255, 255)
+            texto = estilo["texto"] if estilo else (0, 0, 0)
+            _rotulo(d, caixa2, linhas2, f2, alt2, fundo, texto, esc=S,
+                    borda=cor_seta if estilo else (0, 0, 0), largura_borda=2 if estilo else 3)
         buf = io.BytesIO()
         im.save(buf, "PNG", optimize=True)
         out.append(buf.getvalue())
     py, px = int(round(ponta[1])), int(round(ponta[0]))
     viz = regiao[max(0, py - 12):py + 13, max(0, px - 12):px + 13]
     meta = {"ponta": [round(float(ponta[0]), 1), round(float(ponta[1]), 1)], "cauda": [round(float(cauda[0]), 1), round(float(cauda[1]), 1)],
-            "comprimento_seta": float(((ponta[0] - cauda[0]) ** 2 + (ponta[1] - cauda[1]) ** 2) ** 0.5), "caixa": list(map(int, caixa)), "ponta_na_mascara": bool(viz.any()), "seta": seta, "estilo": "anking",
+            "comprimento_seta": float(((ponta[0] - cauda[0]) ** 2 + (ponta[1] - cauda[1]) ** 2) ** 0.5), "caixa": list(map(int, caixa)), "ponta_na_mascara": bool(viz.any()), "seta": seta, "estilo": tema,
             "retangulos": len(caixas_m), "formas": int(formas.sum()), "area_mascara": int(regiao.sum()), "ancora": None if ancora is None else [round(float(ancora[0]), 1), round(float(ancora[1]), 1)]}
     return out[0], out[1], meta

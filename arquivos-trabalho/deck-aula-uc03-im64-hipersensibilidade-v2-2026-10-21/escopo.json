@@ -1,8 +1,8 @@
 {
  "ciclo": "básico",
- "justificativa": "Os quatro tipos de hipersensibilidade pelo mecanismo imunológico e pelos exemplos nomeados na aula, como base para a patologia e a autoimunidade; sem diagnóstico, tratamento nem fármacos.",
+ "justificativa": "Mecanismo geral dos quatro tipos de hipersensibilidade na ordem da aula (a aula não é sobre doenças), como base para a patologia; doença só como exemplo de um mecanismo; sem diagnóstico, tratamento nem fármacos.",
  "clinica_lateral": [
-  "ak1473628085810"
+  "ak1473628137176"
  ],
  "clinica_e_tema": false,
  "motivo_tema": "",
@@ -15,12 +15,11 @@
    "ak1487206917325"
   ],
   "prova": [
-   "au-sensibil",
+   "au-sensib-cadeia",
    "ak1487117161213",
    "ak1487207091819",
-   "ak1473628097990",
    "ak1487207242473",
-   "ak1583964087768"
+   "ak1473628119069"
   ],
   "bibliografia": [
    "ak1487640136892",
@@ -29,80 +28,84 @@
    "ak1487117293576"
   ],
   "apostila": [
-   "ak1500404728172",
-   "ak1487640151914",
    "ak1487207105743",
    "ak1487207112553",
-   "ak1487207119666"
+   "ak1487207119666",
+   "au-soro",
+   "ak1487207218837"
   ]
  },
  "linha_logica": [
   {
    "passo": "Hipersensibilidade é dano tecidual feito pelo imune; os quatro tipos de Gell e Coombs separam o mecanismo (IgE, anticorpo contra célula, imunocomplexo, T)",
    "mecanismo": false,
+   "liga_ao_proximo": "Começando pelo tipo I, o primeiro passo é a sensibilização que arma o mastócito com IgE",
    "cards": [
     "au-gell",
     "ak1487207248593"
-   ],
-   "liga_ao_proximo": "Se o anticorpo é o agente, o primeiro tipo é aquele em que ele reconhece antígeno fixo na célula"
+   ]
   },
   {
-   "passo": "Tipo II: anticorpo contra antígeno da célula ou da matriz destrói (opsonização e complemento), inflama ou desregula o receptor",
+   "passo": "Tipo I, sensibilização: o alérgeno ativa Th2, a IL-4 faz o B trocar para IgE e a IgE se prende ao FcεRI do mastócito, sem clínica no primeiro contato",
    "mecanismo": true,
+   "liga_ao_proximo": "Com o mastócito armado, o segundo contato dispara a fase efetora",
    "cards": [
-    "ak1487207102783",
-    "ak1487207105743",
-    "ak1500404728172",
-    "ak1487207119666",
-    "ak1487207112553",
-    "au-liga-ii-iii"
-   ],
-   "liga_ao_proximo": "Quando o antígeno não está fixo, e sim solúvel, o mesmo anticorpo forma complexos: tipo III"
-  },
-  {
-   "passo": "Tipo III: antígeno solúvel mais anticorpo formam imunocomplexos que se depositam nos vasos, ativam complemento e atraem neutrófilos, que lesam o tecido",
-   "mecanismo": true,
-   "cards": [
-    "ak1487207162179",
-    "ak1487207167794",
-    "ak1487207200447"
-   ],
-   "liga_ao_proximo": "Tirando o anticorpo da cena, o dano passa a depender do linfócito T: tipo IV"
-  },
-  {
-   "passo": "Tipo IV: T sensibilizado reage ao antígeno; Th1 ativa macrófagos por IFN-γ e CD8 mata a célula; a reação leva cerca de 48 h",
-   "mecanismo": true,
-   "cards": [
-    "ak1487207218837",
-    "au-dth-fases",
-    "ak1487116928027",
-    "ak1487117293576",
-    "au-liga-iv"
-   ],
-   "liga_ao_proximo": "Fechando a classificação, o tipo I volta ao anticorpo, agora a IgE que arma o mastócito"
-  },
-  {
-   "passo": "Tipo I, sensibilização: Th2 secreta IL-4 e IL-13, o B troca para IgE e a IgE se prende ao FcεRI do mastócito, sem clínica no primeiro contato",
-   "mecanismo": true,
-   "cards": [
-    "au-sensibil",
+    "ak1487206917325",
     "ak1487116878738",
+    "au-sensib-cadeia",
     "ak1487117161213",
-    "ak1474580620228",
-    "au-liga-i"
-   ],
-   "liga_ao_proximo": "Com o mastócito armado pela IgE, o segundo contato dispara a fase efetora"
+    "ak1474580620228"
+   ]
   },
   {
    "passo": "Tipo I, efetora: o alérgeno agrega a IgE, o mastócito degranula (histamina, depois leucotrienos) e a fase tardia traz eosinófilos e citocinas",
    "mecanismo": true,
+   "liga_ao_proximo": "Quando o anticorpo deixa de ser IgE e passa a IgG ou IgM, o tipo II mostra o alvo na célula",
    "cards": [
+    "ak1487640139590",
     "ak1487640136892",
-    "ak1473628107938",
+    "ak1487207084334",
     "ak1473628116213",
     "ak1487207091819",
-    "ak1473628101206",
-    "ak1473628119069"
+    "ak1473628119069",
+    "ak1479267436105"
+   ]
+  },
+  {
+   "passo": "Tipo II: anticorpo contra antígeno da célula ou da matriz destrói (opsonização, complemento, NK), inflama ou desregula o receptor",
+   "mecanismo": true,
+   "liga_ao_proximo": "Quando o antígeno não está fixo, e sim solúvel, o mesmo anticorpo forma complexos: tipo III",
+   "cards": [
+    "ak1487207102783",
+    "ak1487207105743",
+    "ak1487117328797",
+    "ak1487207119666",
+    "ak1487207112553",
+    "ak1462038209306"
+   ]
+  },
+  {
+   "passo": "Tipo III: antígeno solúvel mais anticorpo formam imunocomplexos que se depositam nos vasos, ativam complemento e atraem neutrófilos, que lesam o tecido",
+   "mecanismo": true,
+   "liga_ao_proximo": "Tirando o anticorpo da cena, o dano passa a depender do linfócito T: tipo IV",
+   "cards": [
+    "ak1487207162179",
+    "au-liga-ii-iii",
+    "ak1487207167794",
+    "au-soro"
+   ]
+  },
+  {
+   "passo": "Tipo IV: T sensibilizado reage ao antígeno; Th1 ativa macrófagos por IFN-γ e CD8 mata a célula; a reação leva cerca de 48 h",
+   "mecanismo": true,
+   "liga_ao_proximo": "",
+   "cards": [
+    "ak1487207218837",
+    "au-liga-iv",
+    "au-dth-fases",
+    "ak1487116928027",
+    "au-tempo",
+    "ak1487117293576"
    ]
   }
  ],
@@ -110,7 +113,7 @@
   {
    "id": "2025 P3 3.2",
    "cards": [
-    "au-sensibil",
+    "au-sensib-cadeia",
     "ak1487117161213",
     "ak1474580620228",
     "ak1487640136892",
@@ -137,10 +140,11 @@
   {
    "id": "2019 P3 4.1",
    "cards": [
-    "au-th2-alergia",
+    "au-sensib-cadeia",
     "ak1473628097990",
     "ak1473628101206",
     "ak1473628119069",
+    "ak1473628137176",
     "ak1487207091819"
    ]
   },
@@ -154,23 +158,23 @@
   {
    "id": "2018 P3 4.1",
    "cards": [
-    "ak1583964087768",
     "ak1487207167794",
-    "ak1487207162179"
+    "ak1487207162179",
+    "au-soro"
    ]
   },
   {
    "id": "2017 P3 1.7",
    "cards": [
-    "ak1473628085810",
-    "au-sensibil"
+    "ak1487206917325",
+    "au-sensib-cadeia"
    ]
   },
   {
    "id": "2016 P2 1.2",
    "cards": [
     "au-gell",
-    "au-sensibil",
+    "au-sensib-cadeia",
     "au-dth-fases"
    ]
   },
@@ -180,11 +184,7 @@
   },
   {
    "id": "2015 P1 2.3",
-   "cards": [
-    "ak1487640151914",
-    "ak1487207119666",
-    "ak1487640222923"
-   ]
+   "fora": "Fora do recorte desta aula: funções efetoras do complemento em um paciente com deficiência; é da aula de sistema complemento, e aqui só a ativação no tipo II e III."
   },
   {
    "id": "2015 P2 2.6",
@@ -198,10 +198,31 @@
    ]
   }
  ],
- "historia": "A aula conta como o sistema imune, ao reagir demais, lesa o tecido, e organiza essa lesão em quatro tipos pelo mecanismo. Começa pelos tipos mediados por anticorpo: no tipo II o anticorpo reconhece antígeno fixo na célula e a destrói, inflama ou desregula o receptor; no tipo III o antígeno é solúvel e os imunocomplexos se depositam nos vasos, ativam o complemento e atraem neutrófilos. Depois tira o anticorpo da cena: no tipo IV o T sensibilizado, via Th1, IFN-γ e macrófago, ou o CD8, lesa o tecido em cerca de 48 horas. Fecha com o tipo I, o mais frequente: Th2 e IL-4 levam à IgE, que arma o mastócito no primeiro contato, e o segundo contato agrega a IgE, degranula o mastócito em minutos e chama os eosinófilos na fase tardia.",
+ "historia": "A aula abre definindo hipersensibilidade como dano tecidual feito pelo imune e separa os quatro tipos de Gell e Coombs pelo mecanismo. Começa pelo tipo I, o mais conhecido: Th2 e IL-4 levam à IgE, que arma o mastócito no primeiro contato, e o segundo contato agrega a IgE, degranula o mastócito em minutos e chama eosinófilos na fase tardia. Depois mostra o que muda quando o anticorpo deixa de ser IgE: no tipo II ele reconhece antígeno fixo na célula e a destrói ou desregula; no tipo III o antígeno é solúvel e os imunocomplexos se depositam nos vasos, ativam complemento e atraem neutrófilos. Termina tirando o anticorpo da cena: no tipo IV o T sensibilizado ativa o macrófago por IFN-γ ou o CD8 mata a célula, em cerca de 48 horas.",
  "cards_de_conexao": [
   "au-liga-ii-iii",
-  "au-liga-iv",
-  "au-liga-i"
+  "au-liga-iv"
+ ],
+ "ordem_da_fala": [
+  [
+   1,
+   2
+  ],
+  [
+   44,
+   90
+  ],
+  [
+   3,
+   13
+  ],
+  [
+   14,
+   26
+  ],
+  [
+   27,
+   43
+  ]
  ]
 }

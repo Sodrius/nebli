@@ -172,7 +172,12 @@ def plano(corrida: Path, A):
         if s in cur.get("kenhub_sem_marcacao", {}):   # figura do Kenhub sem destaque verde (ex.: imagem errada): só vale se a marcação realmente não existe
             arq_ = base / i["arquivo"]
             try:
-                tem_verde = bool(mascara.regiao(str(arq_)).any())
+                regiao_ = mascara.regiao(str(arq_))
+                # Algumas lâminas histológicas trazem uma moldura verde de interface,
+                # não um destaque anatômico. Só a marcação dentro da área útil da
+                # figura torna obrigatório o card de identificação do Kenhub.
+                dy_, dx_ = max(1, regiao_.shape[0] // 20), max(1, regiao_.shape[1] // 20)
+                tem_verde = bool(regiao_[dy_:-dy_, dx_:-dx_].any())
             except ValueError:   # “sem marcação verde”: é exatamente o caso previsto
                 tem_verde = False
             if not i.get("sem_figura") and tem_verde:

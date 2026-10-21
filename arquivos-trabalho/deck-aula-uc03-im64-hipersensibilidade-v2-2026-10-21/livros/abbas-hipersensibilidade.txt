@@ -1,0 +1,950 @@
+=== p.210
+208	
+Capítulo 11 – Hipersensibilidade
+esses descritores serão usados neste capítulo. 
+A hipersensibilidade imediata, ou hipersen-
+sibilidade tipo I, é um tipo de reação pato-
+lógica causada pela liberação de mediadores 
+de mastócitos. Essa reação é muitas vezes 
+desencadeada pela produção de anticorpo 
+imunoglobulina E (IgE) contra antígenos 
+ambientais e ligação da IgE aos mastócitos 
+em diversos tecidos. Anticorpos que não a 
+IgE podem causar doenças de duas maneiras. 
+FIGURA 11-1  Tipos de reações de hipersensibilidade. Nos quatro principais tipos de reações de hipersensibilidade, 
+diferentes mecanismos efetores imunes causam lesão tecidual e doença. CTL, linfócitos T citotóxicos; Ig, imunoglobulina.
+
+
+
+=== p.211
+	
+Capítulo 11 – Hipersensibilidade	
+209
+Anticorpos direcionados contra antígenos 
+celulares ou teciduais podem danificar es-
+sas células ou tecidos ou podem prejudicar 
+sua função. Diz-se que essas doenças são 
+mediadas por anticorpos e representam 
+a hipersensibilidade tipo II. Às vezes, an-
+ticorpos contra antígenos solúveis podem 
+formar complexos com os antígenos, e os 
+complexos imunes podem-se depositar nos 
+vasos sanguíneos em vários tecidos e causar 
+inflamação e lesão tecidual. Tais doenças são 
+denominadas doenças de complexo imune 
+e representam a hipersensibilidade tipo III. 
+Finalmente, algumas doenças resultam das 
+reações dos linfócitos T, geralmente contra 
+antígenos próprios nos tecidos. Essas doen-
+ças mediadas pelas células T são denomina-
+das hipersensibilidade tipo IV.
+Esse esquema de classificação é útil por 
+distinguir os mecanismos da lesão tecidual 
+imune. Em muitas doenças imunológicas 
+humanas, porém, o dano pode resultar de 
+uma combinação de reações mediadas por 
+anticorpos e de reações mediadas por células 
+T; portanto, muitas vezes é difícil classificar 
+essas doenças perfeitamente em um tipo de 
+hipersensibilidade.
+HIPERSENSIBILIDADE IMEDIATA
+A hipersensibilidade imediata trata-se 
+de uma reação mediada pelo anticorpo 
+IgE e por mastócitos a determinados 
+antígenos, que causa um rápido vaza-
+mento vascular e secreções mucosas, 
+geralmente acompanhados por in-
+flamação. As reações hipersensibilidade 
+imediata mediada pela IgE também são 
+denominadas alergia, ou atopia, e diz-se 
+que os indivíduos com uma forte propensão 
+a desenvolver essas reações são atópicos. 
+Tais reações podem afetar diversos tecidos, 
+e apresentam uma gravidade variável em 
+indivíduos diferentes. Os tipos comuns des-
+sas reações incluem a febre do feno, alergias 
+alimentares, asma brônquica e anafilaxia. As 
+alergias são os distúrbios mais frequentes do 
+sistema imunológico e estima-se que afete 
+cerca de 20% da população; além disso, a 
+incidência de doenças alérgicas tem aumen-
+tado em sociedades industrializadas.
+A sequência de eventos no desenvol-
+vimento das reações de hipersensibili-
+dade imediata começa com a ativação 
+de células TH2 e produção de anticorpos 
+IgE em resposta a um antígeno, com a 
+ligação da IgE a receptores de Fc dos 
+mastócitos e, então, com a subsequente 
+exposição ao antígeno, ligação cruzada 
+da IgE ligada pelo antígeno reintro-
+duzido e liberação de mediadores dos 
+mastócitos (Fig. 11-2). Alguns mediadores 
+de mastócitos causam um rápido aumento 
+na permeabilidade vascular e na contração 
+do músculo liso, resultando em muitos dos 
+sintomas dessas reações (Fig. 11-3). Essa rea-
+ção vascular e do músculo liso pode ocorrer 
+minutos após a reintrodução do antígeno 
+em um indivíduo pré-sensibilizado – daí a 
+designação hipersensibilidade imediata. 
+Outros mediadores de mastócitos são citoci-
+nas que recrutam neutrófilos e eosinófilos ao 
+local da reação durante muitas horas. Esse 
+componente inflamatório da hipersensibi-
+lidade imediata é denominado reação de 
+fase tardia, e é responsável principalmente 
+pela lesão tecidual que resulta de ataques 
+repetidos de hipersensibilidade imediata.
+Nesse contexto, a discussão prossegue para 
+as etapas individuais nas reações de hipersen-
+sibilidade imediata.
+Ativação de Células TH2 e Produção 
+de Anticorpos IgE
+Em indivíduos propensos a alergias, a 
+exposição a alguns antígenos resulta na 
+ativação de células TH2 e na produção 
+de anticorpos IgE (Fig. 11-2). A maioria 
+dos indivíduos não manifesta respostas in-
+tensas de TH2 a antígenos estranhos. Por 
+motivos desconhecidos, quando alguns in-
+divíduos são expostos a certos antígenos, 
+como proteínas do pólen, determinados 
+alimentos, venenos de insetos ou pelos de 
+animais, ou se são tratados com determina-
+dos medicamentos, como penicilina, ocorre 
+uma intensa resposta de TH2. A hipersen-
+sibilidade imediata desenvolve-se em con-
+sequência da ativação das células TH2 em 
+resposta a antígenos de proteínas ou subs-
+tâncias químicas que se ligam às proteínas. 
+Os antígenos que produzem as reações de 
+hipersensibilidade imediata (alérgicas) geral-
+mente são chamados de alérgenos. Qualquer 
+indivíduo atópico pode ser alérgico a um ou 
+mais desses antígenos. Não se sabe por que 
+apenas um pequeno subconjunto de antí-
+genos ambientais comuns faz com que eles 
+provoquem reações de TH2 e produção de 
+IgE, ou quais características desses antígenos 
+são responsáveis por seu comportamento 
+como alérgenos.
+
+
+
+=== p.212
+210	
+Capítulo 11 – Hipersensibilidade
+FIGURA 11-2  Sequência de eventos na hipersensibilidade imediata. As reações de hipersensibilidade imediata 
+são iniciadas pela introdução de um alérgeno, que estimula reações de TH2 e produção de imunoglobulina E (IgE). A IgE liga-se 
+a receptores de Fc (FcεRI) nos mastócitos, e a exposição subsequente ao alérgeno ativa os mastócitos para secretarem os 
+mediadores responsáveis pelas reações patológicas de hipersensibilidade imediata.
+
+
+
+=== p.213
+	
+Capítulo 11 – Hipersensibilidade	
+211
+Duas das citocinas secretadas pelas cé-
+lulas TH2, interleucina-4 (IL-4) e IL-13, 
+estimulam linfócitos B específicos para 
+os antígenos estranhos a mudarem para 
+plasmócitos produtores de IgE. Assim, os 
+indivíduos atópicos produzem grandes 
+quantidades de anticorpos IgE em resposta 
+a antígenos que não produzem respostas 
+da IgE em outras pessoas. A propensão ao 
+desenvolvimento de TH2, produção de IgE e 
+hipersensibilidade imediata tem uma forte 
+base genética; o principal risco conhecido 
+para o desenvolvimento de alergias é um 
+histórico familiar de doença atópica. Muitos 
+genes diferentes parecem contribuir, mas 
+os mecanismos pelos quais esses genes in-
+fluenciam o desenvolvimento de alergias são 
+pouco compreendidos.
+Ativação de Mastócitos e Secreção 
+de Mediadores
+Anticorpos IgE produzidos em resposta 
+a um alérgeno ligam-se a receptores 
+de Fc de alta afinidade específicos da 
+cadeia pesada ε e são expressos nos 
+mastócitos (Fig. 11-2). Assim, em um in-
+divíduo atópico, os mastócitos são reves-
+tidos com anticorpo IgE específico do(s) 
+antígeno(s) ao(s) qual(is) o indivíduo é 
+alérgico. Esse processo de revestimento dos 
+mastócitos com IgE é denominado sensi-
+bilização, porque o revestimento com IgE 
+específico de um antígeno torna os mas-
+tócitos sensíveis à ativação pela exposição 
+subsequente àquele antígeno. Por sua vez, 
+em indivíduos normais os mastócitos podem 
+carregar moléculas de IgE de muitas especi-
+ficidades diferentes, porque muitos antíge-
+nos podem produzir pequenas respostas da 
+IgE e a quantidade de IgE específica para 
+qualquer antígeno é insuficiente para cau-
+sar reações de hipersensibilidade imediata 
+mediante exposição àquele antígeno. Mas-
+tócitos estão presentes em todos os tecidos 
+conjuntivos, especialmente sob o epitélio, 
+e normalmente ficam adjacentes aos vasos 
+sanguíneos. Os mastócitos do corpo que 
+são ativados pela ligação cruzada de IgE es-
+pecífica do alérgeno em geral dependem da 
+via de entrada do alérgeno. Por exemplo, 
+alérgenos inalados ativam mastócitos nos 
+tecidos submucosos dos brônquios, enquan-
+to alérgenos ingeridos ativam mastócitos na 
+parede do intestino.
+O receptor de IgE de alta afinidade, de-
+nominado FcεRI, consiste em três cadeias de 
+polipeptídeo, uma das quais se liga muito 
+fortemente à porção Fc da cadeia pesada ε, 
+com uma Kd de quase 10-11 M. (A concentra-
+ção de IgE no plasma é de cerca de 10-9 M, de 
+maneira que mesmo em indivíduos normais 
+os mastócitos são sempre revestidos com IgE 
+ligada a FcεRI.) As outras duas cadeias do re-
+ceptor são proteínas sinalizadoras. O mesmo 
+FcεRI também está presente nos basófilos, 
+que são células circulantes com muitas das 
+características dos mastócitos, mas o papel 
+dos basófilos na hipersensibilidade imediata 
+não está tão bem estabelecido como o papel 
+dos mastócitos.
+Quando mastócitos sensibilizados 
+por IgE são expostos ao alérgeno, as 
+células são ativadas para secretar os 
+seus mediadores (Fig. 11-4). A ativação do 
+mastócito resulta da ligação do alérgeno a 
+FIGURA 11-3  Hipersensibilidade imediata. A, Cinética das reações imediatas e de fase tardia. A reação imediata do 
+músculo liso e vascular ao alérgeno se desenvolve dentro de minutos após o desafio (exposição de um indivíduo previamente 
+sensibilizado ao alérgeno), e a reação de fase tardia se desenvolve de 2 a 24 horas mais tarde. B, A morfologia da reação imediata 
+é caracterizada por vasodilatação, congestão e edema. C, A reação de fase tardia é caracterizada por um infiltrado inflamatório 
+rico em eosinófilos, neutrófilos e células T. (Micrografias cortesia do Dr. Daniel Friend, Department of Pathology, Brigham and Womens 
+Hospital, Boston.)
+
+
+
+=== p.214
+212	
+Capítulo 11 – Hipersensibilidade
+dois ou mais anticorpos IgE na célula. Quan-
+do isso acontece, as moléculas do FcεRI que 
+carregam a IgE se entrecruzam, desenca-
+deando sinais bioquímicos das cadeias 
+transdutoras de sinais do FcεRI. Os sinais 
+levam a três tipos de respostas no mastócito: 
+liberação rápida de conteúdos granulosos 
+(degranulação), síntese e secreção de me-
+diadores lipídicos e síntese e secreção de 
+citocinas.
+FIGURA 11-4  Produção e ações de mediadores de mastócitos. A ligação cruzada de imunoglobulina E (IgE) em 
+um mastócito por um alérgeno estimula a fosforilação de motivos de ativação de imunorreceptor baseado em tirosina (ITAM, 
+do inglês, immunoreceptor tyrosine-based activation motifs) nas cadeias sinalizadoras do receptor de Fc da IgE (FcεRI), que 
+inicia várias vias de sinalização. Essas vias sinalizadoras estimulam a liberação de conteúdos granulosos do mastócito (aminas, 
+proteases), a síntese de metabólitos do ácido araquidônico (prostaglandinas, leucotrienos) e a síntese de várias citocinas. TNF, 
+fator de necrose tumoral.
+
+
+
+=== p.215
+	
+Capítulo 11 – Hipersensibilidade	
+213
+Os mediadores mais importantes 
+produzidos pelos mastócitos são ami-
+nas vasoativas e proteases armazenadas 
+nos grânulos e liberadas deles, produtos 
+recém-gerados e secretados do metabo-
+lismo do ácido araquidônico e citocinas 
+(Fig. 11-4). Esses mediadores têm ações dife-
+rentes. A principal amina, a histamina, causa 
+a dilatação de pequenos vasos sanguíneos, 
+aumenta a permeabilidade vascular e es-
+timula a contração temporária do músculo 
+liso. As proteases podem lesar tecidos locais. 
+Os metabólitos do ácido araquidônico in-
+cluem as prostaglandinas, que causam di-
+latação vascular, e os leucotrienos, que es-
+timulam a contração prolongada do músculo 
+liso. As citocinas induzem inflamação local 
+(a reação de fase tardia, descrita a seguir). 
+Assim, os mediadores dos mastócitos são res-
+ponsáveis por reações agudas vasculares e do 
+músculo liso e pela inflamação, os principais 
+atributos da hipersensibilidade imediata.
+Citocinas produzidas pelos mastóci-
+tos estimulam o recrutamento de leucó-
+citos, causando a reação de fase tardia. 
+Os principais leucócitos envolvidos nessa rea-
+ção são eosinófilos, neutrófilos e células TH2. 
+O fator de necrose tumoral (TNF, do inglês, 
+tumor necrosis factor) derivado dos mastócitos 
+e a IL-4 promovem inflamação rica em neu-
+trófilos e eosinófilos. Quimiocinas produzidas 
+pelos mastócitos e pelas células epiteliais nos 
+tecidos também contribuem para o recruta-
+mento de leucócitos. Os eosinófilos e os neu-
+trófilos liberam proteases, que causam lesão 
+tecidual, e as células TH2 podem exacerbar a 
+reação ao produzir mais citocinas. Os eosi-
+nófilos são componentes notórios de muitas 
+reações alérgicas e uma causa importante de 
+lesão tecidual nessas reações. Essas células 
+são ativadas pela citocina IL-5, produzida por 
+células TH2 e mastócitos.
+Síndromes Clínicas e Tratamento
+Reações de hipersensibilidade imediata 
+têm características clínicas e patológicas 
+diversas, todas atribuíveis a mediadores 
+produzidos por mastócitos em diferen-
+tes quantidades e tecidos (Fig. 11-5). 
+Algumas manifestações brandas, como a ri-
+nite alérgica e a sinusite, comuns na febre do 
+feno, são reações a alérgenos inalados, como 
+a proteína do pólen da ambrósia americana. 
+Mastócitos na mucosa nasal produzem his-
+tamina, as células TH2 produzem IL-13, e 
+esses dois mediadores causam aumento da 
+secreção de muco. Reações de fase tardia 
+podem levar a uma inflamação mais pro-
+longada. Nas alergias alimentares, alérgenos 
+ingeridos desencadeiam a degranulação dos 
+mastócitos, e a liberação de histamina au-
+menta a peristalse. A asma brônquica é mais 
+frequentemente uma forma de alergia res-
+piratória na qual alérgenos inalados (geral-
+mente indefinidos) estimulam os mastócitos 
+brônquicos a liberar mediadores, incluindo 
+os leucotrienos, que causam episódios repe-
+tidos de constrição brônquica e obstrução 
+das vias respiratórias. Na asma crônica, há 
+um grande número de eosinófilos na mucosa 
+brônquica e secreção excessiva de muco nas 
+vias respiratórias, e o músculo liso brônqui-
+co torna-se hipertrofiado e hiper-reativo a 
+vários estímulos. Alguns casos de asma não 
+estão associados à produção de IgE, embora 
+todos sejam causados pela ativação dos mas-
+tócitos. Em alguns pacientes, a asma pode 
+ser desencadeada pelo frio ou por exercícios; 
+ainda não se sabe como esses estímulos le-
+vam à ativação dos mastócitos.
+A forma mais grave de hipersensibilidade 
+imediata é a anafilaxia, uma reação sis-
+têmica caracterizada por edema em vários 
+tecidos, incluindo a laringe, acompanhada 
+FIGURA 11-5  Manifestações clínicas de reações 
+de hipersensibilidade imediata. A tabela lista manifes-
+tações de algumas reações de hipersensibilidade imediata 
+comuns. A hipersensibilidade imediata pode manifestar-se 
+de muitas outras maneiras, como no desenvolvimento de 
+lesões cutâneas (p. ex., urticária, eczema).
+
+
+
+=== p.216
+214	
+Capítulo 11 – Hipersensibilidade
+de uma queda na pressão arterial. Alguns 
+dos indutores mais frequentes de anafilaxia 
+incluem picadas de abelhas, antibióticos in-
+jetados ou ingeridos da família da penicilina, 
+e nozes ou mariscos ingeridos. Essa reação é 
+causada pela degranulação difusa dos mas-
+tócitos em resposta à distribuição sistêmica 
+do antígeno, e é potencialmente fatal pela 
+queda súbita da pressão arterial e pela obs-
+trução das vias respiratórias.
+O tratamento de doenças de hiper-
+sensibilidade imediata visa inibir a de-
+granulação dos mastócitos, antagoni-
+zando os efeitos dos mediadores dos 
+mastócitos e reduzindo a inflamação 
+(Fig. 11-6). Os medicamentos comuns in-
+cluem anti-histamínicos para a febre do feno, 
+agentes que relaxem os músculos lisos brôn-
+quicos na asma e epinefrina na anafilaxia. 
+Em doenças com inflamação como um com-
+ponente patológico importante, como na as-
+ma, os corticosteroides são usados para inibir 
+a inflamação. Muitos pacientes beneficiam-se 
+da administração repetida de pequenas doses 
+de alérgenos, denominada dessensibilização 
+ou imunoterapia específica do alérgeno. Es-
+se tratamento pode funcionar alterando a 
+resposta das células T fora da dominância 
+de TH2, induzindo a tolerância (anergia) nas 
+células T específicas do alérgeno, ou por es-
+timular as células T reguladoras (Tregs).
+Antes de concluir a discussão sobre hi-
+persensibilidade imediata, é importante 
+tratar da questão do porquê de a evolução 
+ter preservado uma resposta imune mediada 
+pelos anticorpos IgE e pelos mastócitos, cujos 
+principais efeitos são patológicos. Não há 
+resposta definitiva para esse quebra-cabeça, 
+mas as reações de hipersensibilidade imedia-
+ta provavelmente evoluíram para proteger 
+contra patógenos ou toxinas. Sabe-se que os 
+anticorpos IgE e os eosinófilos são mecanis-
+mos importantes de defesa contra infecções 
+helmínticas e os mastócitos têm um papel na 
+FIGURA 11-6  Tratamento das reações de hipersensibilidade imediata. A tabela resume os principais mecanis-
+mos de ação dos diversos fármacos usados para tratar distúrbios alérgicos; Ig, imunoglobulina.
+
+
+
+=== p.217
+	
+Capítulo 11 – Hipersensibilidade	
+215
+imunidade inata contra algumas bactérias e 
+na destruição das toxinas venenosas.
+DOENÇAS CAUSADAS POR ANTICORPOS 
+E COMPLEXOS ANTÍGENO-ANTICORPO
+Anticorpos que não a IgE podem causar 
+doenças ao se ligar a seus antígenos-alvo 
+nas células e nos tecidos ou por formar 
+complexos imunes que se depositam 
+nos vasos sanguíneos (Fig. 11-7). As 
+reações de hipersensibilidade mediadas por 
+anticorpos foram reconhecidas e são a base 
+de muitas doenças imunológicas crônicas 
+em seres humanos. Anticorpos contra célu-
+las ou componentes da matriz extracelular 
+podem depositar-se em qualquer tecido que 
+expresse o antígeno-alvo relevante. Doen-
+ças causadas por anticorpos em geral são 
+específicas de um tecido em particular. Os 
+complexos imunológicos muitas vezes são 
+depositados nos vasos sanguíneos, sobretu-
+do os vasos pelos quais o plasma é filtrado 
+em alta pressão (p. ex., glomérulos renais e 
+sinóvia articular). Portanto, as doenças de 
+complexo imune tendem a ser sistêmicas 
+e geralmente se manifestam como vasculite 
+difusa, artrite e nefrite.
+Etiologia das Doenças Mediadas 
+por Anticorpos
+Anticorpos causadores de doenças são 
+com mais frequência anticorpos con-
+tra antígenos próprios e menos comu-
+mente específicos de antígenos estra-
+nhos (p. ex., microbianos). A produção 
+FIGURA 11-7  Tipos de doenças mediadas por anticorpos. Anticorpos (outros que não a imunoglobulina E [IgE]) 
+podem causar lesão tecidual e doença ao: A, se ligar diretamente a seus antígenos-alvo na superfície das células e na matriz 
+extracelular (hipersensibilidade tipo II) ou B, formar complexos imunes que se depositam principalmente nos vasos sanguíneos 
+(hipersensibilidade tipo III).
+
+
+
+=== p.218
+216	
+Capítulo 11 – Hipersensibilidade
+de autoanticorpos resulta de uma falha de 
+autotolerância. No Capítulo 9, os mecanis-
+mos da falha de autotolerância são discuti-
+dos, mas ainda não se sabe por que o evento 
+acontece na doença autoimune humana. 
+Autoanticorpos podem ligar-se a antígenos 
+próprios nos tecidos ou formar complexos 
+imunes com antígenos próprios circulantes.
+Duas das doenças mais bem descritas pro-
+vocadas por anticorpos produzidos contra os 
+antígenos microbianos são sequelas tardias 
+e raras das infecções estreptocócicas. Após 
+essas infecções, alguns indivíduos produzem 
+anticorpos antiestreptocócicos que fazem 
+reação cruzada com um antígeno nos tecidos 
+cardíacos. A deposição desses anticorpos no 
+coração desencadeia uma doença inflamató-
+ria chamada febre reumática, que pode levar 
+à insuficiência cardíaca aguda, ou cicatriza-
+ção lenta das válvulas e insuficiência cardía-
+ca de início tardio. Outros indivíduos produ-
+zem anticorpos antiestreptocócicos que se 
+depositam nos glomérulos renais, causando 
+um processo inflamatório chamado de glo-
+merulonefrite pós-estreptocócica, que pode 
+levar à insuficiência renal. Algumas doen-
+ças de complexo imune são causadas por 
+complexos de anticorpos antimicrobianos e 
+antígenos microbianos. Isso pode ocorrer em 
+pacientes com infecções crônicas com certos 
+vírus (p. ex., vírus Epstein-Barr) ou parasitas 
+(p. ex., malária).
+Mecanismos de Lesão Tecidual e Doença
+Anticorpos específicos de antígenos ce-
+lulares e teciduais podem depositar-se 
+nos tecidos e causar lesões ao induzir 
+uma inflamação local, podem ligar-se e 
+promover a destruição das células, ou 
+podem interferir nas funções celulares 
+normais (Fig. 11-8). Anticorpos contra an-
+tígenos teciduais e complexos imunes de-
+positados nos vasos induzem inflamação ao 
+atraírem e ativarem leucócitos. Anticorpos 
+IgG das subclasses IgG1 e IgG3 ligam-se a 
+receptores Fc de neutrófilos e macrófagos e 
+ativam esses leucócitos, resultando em in-
+flamação (Cap. 8). Os mesmos anticorpos, 
+bem como a IgM, ativam o sistema do com-
+plemento pela via clássica, resultando na 
+produção de subprodutos do complemento 
+que recrutam leucócitos e induzem infla-
+mação. Quando os leucócitos são ativados 
+nos locais de depósito dos anticorpos, essas 
+células produzem substâncias como inter-
+mediários reativos de oxigênio e enzimas 
+lisossômicas que lesam os tecidos adjacentes. 
+Se os anticorpos se ligam a células, como 
+eritrócitos e plaquetas, as células são opso-
+nizadas e podem ser ingeridas e destruídas 
+pelos fagócitos do hospedeiro.
+Alguns anticorpos podem causar doença 
+sem induzir diretamente lesão tecidual. Por 
+exemplo, anticorpos contra receptores hor-
+monais podem inibir a função do receptor; 
+em alguns casos de miastenia grave, anti-
+corpos contra o receptor de acetilcolina ini-
+bem a transmissão neuromuscular e causam 
+paralisia. Outros anticorpos podem ativar 
+diretamente os receptores, imitando seus 
+ligantes fisiológicos. Em uma forma de hiper-
+tireoidismo denominada doença de Graves, 
+anticorpos contra o receptor do hormônio 
+estimulante da tireoide estimulam as células 
+da tireoide mesmo na ausência do hormônio.
+Síndromes Clínicas e Tratamento
+Muitos distúrbios de hipersensibilidade crô-
+nicos em seres humanos são causados ou 
+estão associados a anticorpos antiteciduais 
+(Fig. 11-9) e complexos imunes (Fig. 11-10).
+Dois modelos experimentais de doenças de 
+complexos imunes mostraram informações 
+valiosas sobre mecanismos patogênicos. A 
+doença do soro é induzida pela adminis-
+tração sistêmica de antígeno proteico, que 
+elicita uma resposta de anticorpo e leva à 
+formação de complexos imunes circulantes. 
+Em humanos, a doença do soro pode ocorrer 
+depois de a pessoa receber injeções de prepa-
+rados de anticorpo sérico de outro indivíduo 
+ou animal, que muitas vezes é usado para o 
+tratamento de picadas de cobra ou exposição 
+ao vírus da raiva e para depleção das células T 
+nos receptores de transplantes. Em todos esses 
+casos, o receptor faz as respostas de anticorpos 
+contra os anticorpos estranhos injetados e 
+outras proteínas séricas, se houver, resultando 
+na formação de complexos imunes. A reação 
+de Arthus é induzida pela administração 
+subcutânea de antígenos proteicos a animais 
+previamente imunizados; ela resulta na for-
+mação de complexos imunes no sítio da in-
+jeção do antígeno e em vasculite local.
+O tratamento dessas doenças visa princi-
+palmente limitar a inflamação e as suas con-
+sequências negativas, com agentes como os 
+corticosteroides. Nos casos graves, utiliza-se 
+plasmaférese para reduzir os níveis de an-
+ticorpos ou complexos imunes circulantes. 
+Algumas dessas doenças respondem bem 
+ao tratamento com IgG intravenosa (IVIG) 
+
+
+
+=== p.219
+	
+Capítulo 11 – Hipersensibilidade	
+217
+coletada de doadores saudáveis. Não se sabe 
+como a IVIG funciona; ela pode induzir a 
+expressão do receptor de Fc inibitório, e 
+ligar-se a ele, nas células mieloides e célu-
+las B (Cap. 7, Fig. 7-15), ou pode reduzir 
+a meia-vida dos anticorpos patogênicos ao 
+competir pela ligação ao receptor do Fc 
+neonatal nas células endoteliais e outras 
+células (Cap. 8, Fig. 8-2). O tratamento 
+de pacientes com um anticorpo específico 
+para CD20, uma proteína de superfície de 
+células B maduras, resulta em depleção das 
+células B e pode ser útil no tratamento de 
+alguns distúrbios mediados por anticorpos. 
+Outras abordagens para inibir a produção de 
+autoanticorpos incluem tratar os pacientes 
+com antagonistas que bloqueiam o ligante 
+CD40, inibindo assim a ativação da célula B 
+FIGURA 11-8  Mecanismos causadores de doenças mediadas por anticorpos. Os anticorpos causam doenças 
+ao A, induzir inflamação no local do depósito, B, opsonizar células para fagocitose e C, interferir nas funções celulares normais, 
+como a sinalização de receptores hormonais. Todos os três mecanismos são vistos com anticorpos que se ligam diretamente 
+a seus antígenos-alvo, mas os complexos imunes causam doença basicamente ao induzir inflamação (A). TSH, hormônio es-
+timulante da tireoide.
+
+
+
+=== p.220
+218	
+Capítulo 11 – Hipersensibilidade
+dependente da célula T auxiliar, e utilizando 
+anticorpos para bloquear as citosinas que 
+promovem a sobrevida das células B e dos 
+plasmócitos. Há também um grande interes-
+se na indução da tolerância nos casos em 
+que se conhecem os autoantígenos. Essas 
+novas terapias estão no estágio de testes pré-
+-clínicos e ensaios clínicos iniciais.
+DOENÇAS CAUSADAS POR LINFÓCITOS T
+O papel dos linfócitos T nas doenças imu-
+nológicas humanas tem sido cada vez mais 
+reconhecido à medida que os métodos para 
+identificar e isolar essas células das lesões 
+melhoraram, e por meio dos modelos ani-
+mais da doença humana em que um papel 
+patogênico das células T é estabelecido por 
+experimentos. Na verdade, grande parte do 
+interesse na patogênese e no tratamento das 
+doenças autoimunes humanas está voltada 
+para os distúrbios cuja lesão tecidual é cau-
+sada principalmente pelos linfócitos T.
+Etiologia das Doenças Mediadas 
+por Células T
+As principais causas de reações de hi-
+persensibilidade mediadas por células 
+T são autoimunidade e respostas exa-
+geradas ou persistentes aos antígenos 
+FIGURA 11-9  Doenças mediadas por anticorpo humano (hipersensibilidade tipo II). A tabela lista exemplos 
+de doenças humanas causadas por anticorpos. Na maioria dessas doenças o papel dos anticorpos é inferido pela detecção de 
+anticorpos no sangue ou nas lesões e, em alguns casos, por semelhanças com modelos experimentais nos quais o envolvimento 
+de anticorpos pode ser formalmente estabelecido por estudos de transferência.
+
+
+
+=== p.221
+	
+Capítulo 11 – Hipersensibilidade	
+219
+ambientais. As reações autoimunes em 
+geral são direcionadas contra antígenos 
+celulares com distribuição tecidual restrita. 
+Portanto, as doenças autoimunes mediadas 
+por célula T tendem a se limitar a alguns 
+poucos órgãos, geralmente não sistêmicos. 
+Os exemplos das reações de hipersensibili-
+dade mediadas pela célula T contra os an-
+tígenos ambientais incluem a sensibilidade 
+de contato às substâncias químicas (p. ex., 
+aquelas encontradas na hera venenosa). A 
+lesão tecidual pode ainda ser acompanhada 
+por respostas da célula T a microrganismos. 
+Por exemplo, na tuberculose há uma res-
+posta imune mediada pela célula T contra os 
+antígenos proteicos do Mycobacterium tuber-
+culosis, e a resposta torna-se crônica porque 
+se trata de uma infecção difícil de erradicar. 
+A inflamação granulomatosa resultante é a 
+principal causa de lesão em tecidos normais 
+no local da infecção. Na infecção pelo vírus 
+da hepatite, o próprio vírus pode não ser alta-
+mente citopático, mas a resposta do linfócito 
+T citotóxico (CTL) aos hepatócitos infectados 
+pode causar comprometimento hepático. As 
+células TH2 também podem desempenhar 
+um papel em algumas doenças inflamatórias 
+que não sejam alergias, sobretudo nos es-
+tágios fibróticos tardios da inflamação.
+A ativação excessiva de célula T policlonal 
+por certas toxinas microbianas produzidas 
+por algumas bactérias e vírus pode levar à 
+produção de grandes quantidades de citoci-
+nas inflamatórias, causando uma síndrome 
+similar ao choque séptico. Essas toxinas são 
+chamadas de superantígenos, porque es-
+timulam grande número de células T. Os su-
+perantígenos se ligam a partes não variantes 
+de receptores de células T em muitos clones 
+diferentes de células T, independentemente 
+da especificidade do antígeno, ativando as-
+sim essas células.
+Mecanismos de Lesão Tecidual
+Em diferentes doenças mediadas pela célula 
+T, a lesão tecidual é provocada pela inflama-
+ção induzida pelas citocinas que são produ-
+zidas principalmente pelas células T CD4+ ou 
+pela eliminação das células do hospedeiro 
+pelos CTL CD8+ (Fig. 11-11). Os mecanis-
+mos da lesão tecidual são os mesmos que os 
+mecanismos usados pelas células T para eli-
+minar os microrganismos associados à célula.
+As células T CD4+ podem reagir contra 
+antígenos celulares ou teciduais e secretar 
+citocinas que induzem inflamação local 
+e ativam macrófagos. Diferentes doenças 
+FIGURA 11-10  Doenças do complexo imune (hipersensibilidade tipo III). A tabela lista exemplos de doenças 
+humanas causadas pelo depósito de complexos imunes, assim como dois modelos experimentais. Nas doenças, complexos 
+imunes são detectados no sangue ou nos tecidos no local da lesão. Em todas essas desordens a lesão é causada por inflamação 
+mediada por complemento e receptor de Fc.
+
+
+
+=== p.222
+220	
+Capítulo 11 – Hipersensibilidade
+podem ser associadas à ativação de células 
+TH1 e TH17. As células TH1 são a fonte de 
+interferon-g (IFN-g), a principal citocina ati-
+vadora de macrófagos, e as células TH17 são 
+responsáveis pelo recrutamento de leucóci-
+tos, incluindo neutrófilos. A lesão tecidual 
+verdadeira nessas doenças é causada, prin-
+cipalmente, por macrófagos e neutrófilos. 
+A reação típica mediada pelas citocinas da 
+célula T é a hipersensibilidade de tipo 
+tardio (HTT), assim chamada porque ocorre 
+de 24 a 48 horas após um indivíduo ante-
+riormente exposto a um antígeno proteico 
+ser desafiado com o antígeno (i.e., a reação é 
+tardia ). A reação ocorre tardiamente, porque 
+leva muitas horas para os linfócitos T efeto-
+res circulantes voltarem ao local de teste do 
+antígeno, responderem ao antígeno nesse 
+local e induzirem uma reação detectável. 
+Reações de HTT são manifestadas por infil-
+trados de células T e monócitos nos tecidos, 
+edema e deposição de fibrina causada pela 
+permeabilidade vascular aumentada em res-
+posta às citocinas produzidas pelas células 
+T CD4+, e dano tecidual induzido por pro-
+dutos leucocitários, sobretudo macrófagos, 
+ativados pelas células T (Fig. 11-12). Reações 
+de HTT são frequentemente utilizadas para 
+determinar se indivíduos foram expostos 
+previamente ao antígeno e responderam a 
+ele. Por exemplo, uma reação de HTT para 
+um antígeno micobacteriano, PPD (derivado 
+de proteína purificada, do inglês, purified pro-
+tein derivative), é indicativa de uma resposta 
+de célula T para micobactéria. Esta é a base 
+FIGURA 11-11  Mecanismos de lesão tecidual mediada por células T (hipersensibilidade tipo IV). As célu­
+las T podem causar lesão tecidual e doença por meio de dois mecanismos. A, A inflamação pode ser desencadeada por citocinas 
+produzidas, sobretudo por células CD4+ T e em que a lesão tecidual é causada por macrófagos ativados e células inflamatórias; 
+APC, Célula apresentadora de antígeno. B, A exterminação direta de células-alvo é mediada por linfócitos T citotóxicos (CTL) CD8+.
+FIGURA 11-12  Reação de hipersensibilidade tar-
+dia na pele. A, Acúmulo perivascular (espessamento) das 
+células inflamatórias mononucleares (linfócitos e macrófagos), 
+com edema dérmico e depósito de fibrina associados. B, A 
+coloração de imunoperoxidase revela um infiltrado celular 
+predominantemente perivascular que marca positivamente 
+com anticorpos anti-CD4. (B cortesia do Dr. Louis Picker, Depart-
+ment of Pathology, Oregon Health Sciences University, Portland.)
+
+
+
+=== p.223
+	
+Capítulo 11 – Hipersensibilidade	
+221
+para o teste epidérmico de PPD usado para 
+detectar infecções micobacterianas prévias 
+ou ativas.
+As células T CD8+ específicas para antí-
+genos em células do hospedeiro podem des-
+truir diretamente essas células. As células T 
+CD8+ também produzem citocinas que in-
+duzem à inflamação, mas elas normalmente 
+não são as principais fontes de citocinas nas 
+reações imunológicas. Em muitas doenças 
+autoimunes mediadas por células T, tanto 
+células T CD4+ quanto células T CD8+ especí-
+ficas para antígenos próprios estão presentes, 
+e ambas contribuem para a lesão tecidual.
+Síndromes Clínicas e Tratamento
+Acredita-se que muitas doenças autoimu-
+nes específicas de órgãos em seres humanos 
+sejam causadas por células T, com base na 
+identificação dessas células em lesões e nas 
+semelhanças com modelos animais, nos 
+quais se sabe que as doenças são mediadas 
+por células T (Fig. 11-13). Esses distúrbios 
+são tipicamente crônicos e progressivos, 
+em parte porque as reações da célula T ten-
+dem a ser prolongadas e são, muitas vezes, 
+autoperpetuantes, e porque os antígenos 
+teciduais ou proteínas expressas pelos mi-
+crorganismos residentes nunca são muito 
+claros. Da mesma forma, a lesão tecidual 
+provoca liberação e alteração das proteínas 
+próprias, que podem resultar nas reações 
+contra essas proteínas recém-encontradas. 
+Esse fenômeno foi chamado de expansão de 
+epítopo para indicar que a resposta imune 
+inicial contra um ou poucos epítopos anti-
+gênicos próprios pode-se expandir e incluir 
+respostas contra muitos outros antígenos 
+próprios. As doenças inflamatórias crônicas 
+que são iniciadas pelas reações imunes são 
+chamadas de doenças inflamatórias imu-
+nomediadas.
+A terapia para os distúrbios de hipersen-
+sibilidade mediada pela célula T é designada 
+para reduzir a inflamação e para inibir as res-
+postas da célula T. Por muitas razões, a base 
+do tratamento dessas doenças são os esteroi-
+des anti-inflamatórios potentes, mas esses 
+medicamentos têm efeitos colaterais signifi-
+cativos. O desenvolvimento de mais terapias 
+direcionadas com base na compreensão dos 
+mecanismos fundamentais dessas doenças 
+foi uma das realizações mais impressionan-
+tes da imunologia. Antagonistas do TNF pro-
+varam ser benéficos em pacientes com artrite 
+reumatoide e doença intestinal inflamatória 
+pela redução da inflamação. Agentes mais 
+recentes estão sendo desenvolvidos para ini-
+bir respostas das células T, incluindo medica-
+mentos que bloqueiam os coestimuladores 
+como B7 e antagonistas contra os receptores 
+para citocinas como IL-1, IL-6 e IL-17. A de-
+pleção da célula B com o anti-CD20 também 
+foi eficaz na artrite reumatoide e esclerose 
+múltipla; não está claro se isso ocorre porque 
+os anticorpos contribuem com as doenças ou 
+porque as células B funcionam como APC 
+para promover a ativação da célula T. Há 
+também uma grande esperança de induzir a 
+tolerância em células T patogênicas, mas ain-
+da não há relatos de estudos clínicos bem- 
+sucedidos.
+RESUMO
+✹ As respostas imunes que causam injú-
+ria tecidual são chamadas de reações 
+de hipersensibilidade, e as doenças 
+causadas por essas reações são chama-
+das de doenças de hipersensibilidade 
+ou doenças inflamatórias imunome-
+diadas.
+✹ Reações de hipersensibilidade podem 
+surgir de respostas descontroladas ou 
+anormais a antígenos estranhos ou 
+respostas autoimunes contra antíge-
+nos próprios.
+✹ As reações de hipersensibilidade são 
+classificadas de acordo com o meca-
+nismo de lesão tecidual.
+✹ A hipersensibilidade imediata (tipo I, 
+comumente chamada de alergia) é 
+causada pela produção de anticorpo 
+IgE contra antígenos ambientais ou 
+medicamentos (alérgenos), sensi-
+bilização dos mastócitos pela IgE e 
+degranulação desses mastócitos na 
+exposição subsequente ao alérgeno.
+✹ As manifestações clinicopatológicas da 
+hipersensibilidade imediata resultam 
+das ações dos mediadores secretados 
+pelos mastócitos: as aminas dilatam os 
+vasos e contraem os músculos lisos, 
+os metabólitos do ácido araquidôni-
+co também contraem os músculos, 
+e as citocinas induzem a inflamação, 
+o marco da reação de fase tardia. O 
+tratamento das alergias visa inibir a 
+produção e antagonizar as ações dos 
+mediadores e combater seus efeitos 
+nos órgãos terminais.
+
+
+
+=== p.224
+222	
+Capítulo 11 – Hipersensibilidade
+FIGURA 11-13  Doenças mediadas por célula T. A tabela lista doenças nas quais as células T têm participação 
+dominante na causa da injúria tecidual; anticorpos e complexos imunes também podem contribuir. Note que a esclerose múltipla, 
+a artrite reumatoide e o diabetes tipo I são distúrbios autoimunes. A doença de Crohn, uma doença inflamatória do intestino, é 
+provavelmente causada por reações contra microrganismos no intestino e pode ter um componente de autoimunidade. As outras 
+doenças são causadas por reações contra antígenos estranhos (microbianos ou ambientais). Na maioria das doenças, o papel 
+das células T é inferido pela detecção e pelo isolamento de células T reativas com vários antígenos do sangue ou das lesões e 
+pela semelhança com modelos experimentais nos quais o envolvimento das células T foi estabelecido por uma variedade de 
+abordagens. A especificidade de células T patogênicas foi definida em modelos animais e em algumas lesões nos seres humanos. 
+A hepatite viral e a síndrome do choque tóxico são exemplos clínicos de distúrbios nos quais as células T desempenham um 
+papel patogênico importante, mas elas não são consideradas exemplos de hipersensibilidade. CTL, Linfócito T Citotóxico; HTT, 
+hipersensibilidade tardia; HBV, vírus da hepatite B; HCV, vírus da hepatite C.
+
+
+
+=== p.225
+	
+Capítulo 11 – Hipersensibilidade	
+223
+✹ Os anticorpos contra antígenos celu-
+lares e teciduais podem causar lesão 
+tecidual e doença (hipersensibilidade 
+tipo II). Os anticorpos IgM e IgG pro-
+movem a fagocitose das células a que 
+se ligam, induzindo inflamação pelo 
+recrutamento de leucócitos mediado 
+por receptor de Fc e complemento, 
+e podem interferir nas funções das 
+células ao se ligarem a moléculas e 
+receptores essenciais.
+✹ Nas doenças do complexo imune 
+(hipersensibilidade tipo III), os anti-
+corpos podem ligar-se aos antígenos 
+circulantes para formar os complexos 
+imunes, que são depositados nos va-
+sos, levando à inflamação na parede 
+do vaso (vasculite), que provoca de 
+maneira secundária a lesão tecidual 
+em função do fluxo sanguíneo com-
+prometido.
+✹ Doenças mediadas por célula T (hi-
+persensibilidade tipo IV) resultam 
+de inflamação causada por citocinas 
+produzidas por células CD4+ TH1 e 
+TH17 ou pelo extermínio de células 
+do hospedeiro por CTL CD8+.
+PERGUNTAS DE REVISÃO
+1.	 Quais são os principais tipos de reações 
+de hipersensibilidade?
+2.	 Que tipos de antígenos podem induzir 
+respostas imunes que causam reações de 
+hipersensibilidade?
+3.	 Qual a sequência de eventos em uma rea-
+ção de hipersensibilidade imediata típica? 
+O que é reação de fase tardia e como ela 
+é causada?
+4.	 Quais são alguns exemplos de distúrbios 
+de hipersensibilidade imediata, qual é sua 
+patogênese e como são tratados?
+5.	 Como os anticorpos causam lesão teci-
+dual e doença?
+6.	 Quais são alguns exemplos de doenças 
+causadas por anticorpos específicos para 
+antígenos de superfície celular ou de ma-
+triz tecidual?
+7.	 De que maneira os complexos imunes 
+causam doenças e como as manifestações 
+clínicas diferem da maioria das doenças 
+causadas por anticorpos específicos para 
+proteínas da superfície celular ou matriz 
+tecidual?
+8.	 Quais são alguns exemplos de doenças 
+causadas por células T, qual é sua patogê-
+nese e quais são suas principais manifes-
+tações clínicas e patológicas?
+As respostas e as discussões das Perguntas de Re-
+visão estão disponíveis em studentconsult.com.br.
+
+
+
+=== p.226
+Página deixada intencionalmente em branco
+
+
+

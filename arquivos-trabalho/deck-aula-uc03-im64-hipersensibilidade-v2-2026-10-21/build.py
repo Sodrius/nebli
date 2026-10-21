@@ -55,7 +55,9 @@ def build():
     from nebli import slide_io
     made = slide_io.build(HERE, "fontes/slides.pdf", f"nebli-{IDENTITY}", [c for c in spec.CARDS if c["kind"] == "slideio"])
     for m in made.values(): spec.MEDIA.update(m["media"])
-    cards_in_order = sorted(spec.CARDS, key=lambda c: ordem.slide(c["evid"]))  # ordem estrita dos slides (sort estável)
+    _fx = getattr(spec, "FAIXAS", [])  # F-20261021-CLAUDE-05: ordem falada (faixas de lâminas na ordem da transcrição), se declarada
+    _ch = lambda c: (next((i for i, f in enumerate(_fx) if f[0] <= ordem.slide(c["evid"]) <= f[1]), len(_fx)), ordem.slide(c["evid"]))
+    cards_in_order = sorted(spec.CARDS, key=_ch)  # ordem estrita dos slides (ou da fala; sort estável)
     shared = {}
     for order, c in enumerate(cards_in_order, 1):
         if c["kind"] == "compartilhado":
