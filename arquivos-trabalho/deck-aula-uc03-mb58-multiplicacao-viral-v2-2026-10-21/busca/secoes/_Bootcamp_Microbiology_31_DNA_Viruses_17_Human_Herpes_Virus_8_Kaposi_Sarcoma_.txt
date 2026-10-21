@@ -1,0 +1,28 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::17_Human_Herpes_Virus_8_(Kaposi_Sarcoma) (27 notas)
+1461794652364 1-HighYield Interferon- α may be used to treat Kaposi sarcoma caused by HHV-8
+1488680746086 1-HighYield What vascular tumor is associated with HHV-8 and HIV ? Kaposi sarcoma
+1488680753265 - Kaposi sarcoma has a(n) lymphocytic infiltrate, which distinguishes it from bacillary angiomatosis
+1496159409280 2-RelativelyHighYield Which oncogenic microbe causes Kaposi sarcoma ? HHV-8 *Bonus: common in what 3 populations?
+1504656941699 - What is the likely diagnosis in a patient with poorly controlled HIV that develops multiple violaceous papules in the groin region? Kaposi sarcoma (HHV-8 infection)
+1516039780219 2-RelativelyHighYield Bacillary angiomatosis is a complication of Bartonella henselae in immuno compromised patients
+1516039825145 1-HighYield Bacillary angiomatosis is a complication of Bartonella henselae transmitted via cat scratches
+1516039900905 1-HighYield Bacillary angiomatosis is a complication of Bartonella henselae that presents with raised red vascular lesions on the skin
+1516040828707 1-HighYield Bacillary angiomatosis is commonly confused with Kaposi sarcoma
+1516758492209 3-HighYield-temporary What type of virus is HHV-8? Double-stranded DNA
+1516758512785 1-HighYield HHV-8 is part of the herpesviridae family
+1516758549723 1-HighYield What is the most common cancer in AIDS patients ? Kaposi sarcoma
+1516758615385 1-HighYield HHV-8 infection is common in immunocompromised patients
+1516758648261 1-HighYield What is the initial presentation of Kaposi sarcoma ? Cutaneous disease
+1516758767964 2-RelativelyHighYield Kaposi sarcoma presents with violaceous lesions on the lower extremities, face (especially the nose), and oral mucosa
+1516758856359 2-RelativelyHighYield HHV- 8 induces VEGF , resulting in proliferation of vascular endothelial cells
+1516759003698 1-HighYield HHV-8 inactivates the Rb tumor suppressor protein
+1516759087870 1-HighYield What viral manifestation is seen below? Kaposi sarcoma (HHV-8)
+1516759229282 1-HighYield Which bacterial manifestation can present similarly to Kaposi sarcoma ? Bacillary angiomatosis ( Bartonella henselae )
+1516759301573 1-HighYield Lesions of Kaposi sarcoma may be seen on endoscopic examination of the GI tract
+1516759418001 1-HighYield Where do the lesions of Kaposi sarcoma most commonly occur ? Skin (e.g., face and chest)
+1516759627203 2-RelativelyHighYield HHV-8 has a higher incidence in Russian or Mediterranean males , as well as African populations
+1516759877149 2-RelativelyHighYield Is the African form of Kaposi sarcoma associated with immunodeficiency ? No
+1516759951022 3-HighYield-temporary Which cutaneous manifestation is associated with lymphocytic infiltrate ? Kaposi sarcoma
+1516760157874 3-HighYield-temporary Which cutaneous manifestation is associated with neutrophilic infiltrate ? Bacillary angiomatosis
+1524249176243 2-RelativelyHighYield Microscopic evaluation of Kaposi sarcoma will reveal highly vascular tissue with elongated spindle cells
+1580427388647 - Histopathological examination would show an infiltrate of lymphocytes and plasma cells = HHV-8 virus

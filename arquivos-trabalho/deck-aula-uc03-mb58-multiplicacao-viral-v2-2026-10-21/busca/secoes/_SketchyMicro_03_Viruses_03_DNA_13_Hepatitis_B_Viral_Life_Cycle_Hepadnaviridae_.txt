@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#SketchyMicro::03_Viruses::03_DNA::13_Hepatitis_B_Viral_Life_Cycle_(Hepadnaviridae) (5 notas)
+1506551469394 1-HighYield Where does hepatitis B virus replicate ? Both nucleus and cytoplasm :)
+1506551774430 2-RelativelyHighYield Upon entry into the cell nucleus, HBV DNA-polymerase completes the partially dsDNA
+1506551855396 3-HighYield-temporary Once the dsDNA of HBV is complete, host RNA polymerase transcribes mRNA from the dsDNA
+1506551930834 3-HighYield-temporary After mRNA is produced, HBV reverse transcriptase produces progeny dsDNA from mRNA
+1523915429557 3-HighYield-temporary Upon cellular entry, partially dsDNA of HBV is repaired and used for transcription

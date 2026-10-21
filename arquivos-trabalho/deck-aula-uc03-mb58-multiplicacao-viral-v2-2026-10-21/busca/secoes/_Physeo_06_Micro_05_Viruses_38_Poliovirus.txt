@@ -1,0 +1,43 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::38_Poliovirus (42 notas)
+1480549839004 1-HighYield Which horn of the spinal cord is most affected by poliovirus infection ? Ventral (anterior) horn
+1480549844650 1-HighYield Which spinal cord levels are most commonly affected by poliovirus ? Lumbar levels
+1480549851019 1-HighYield Does poliomyelitis present with symmetric or asymmetric weakness ? Asymmetric
+1480549859622 1-HighYield Poliomyelitis presents with bi lateral weakness
+1480549867867 2-RelativelyHighYield Poliovirus may be recovered from the stool or throat , even before the onset of illness
+1502063631440 2-RelativelyHighYield All naked viruses have icosahedral capsids
+1506609085427 2-RelativelyHighYield What type of viruses are picornaviruses ? Positive sense RNA
+1506609314164 1-HighYield Do picornaviruses have an envelope ? No (naked)
+1506609368498 1-HighYield What is the route of transmission of most picornaviruses ? Fecal-oral
+1506609599866 2-RelativelyHighYield Picornaviruses produce a large polyprotein product (inactive) that is cleaved into smaller subunits (active)
+1506609811863 1-HighYield What family of viruses do enteroviruses belong to? Picornaviridae
+1506610040227 1-HighYield What are the three common enteroviruses (picornaviridae family)? Coxsackie A/B, echovirus, and poliovirus*
+1506610241044 1-HighYield What group of viruses are the most common cause of aseptic meningitis ? Enteroviruses (picornaviridae family)
+1506610455254 1-HighYield What demographic is most susceptible to viral (aseptic) meningitis caused by enteroviruses ? Children
+1506627151740 3-HighYield-temporary Picornaviruses have viral proteases which cleave the large translated polypeptide into functional viral proteins
+1516217887063 2-RelativelyHighYield Poliovirus is part of the picornaviridae family
+1516218038369 2-RelativelyHighYield What type of virus is poliovirus ? Positive sense RNA
+1516218073027 2-RelativelyHighYield Is poliovirus enveloped ? No (naked)
+1516218404816 3-HighYield-temporary Poliovirus is acid-stable
+1516218470870 1-HighYield What is the route of transmission of poliovirus ? Fecal-oral
+1516218603898 2-RelativelyHighYield Poliovirus replicates in the tonsils of the oropharynx
+1516218740374 2-RelativelyHighYield Poliovirus replicates in the Peyer's patches of the ileum
+1516218760271 2-RelativelyHighYield Which virus replicates in ileal Peyer's patches and oropharyngeal tonsils ? Poliovirus
+1516218816170 2-RelativelyHighYield Poliovirus replication within lymphoid tissue takes 2 - 3 weeks
+1516218866700 1-HighYield Which virus affects LMNs of the anterior horn ? Poliovirus
+1516219145757 3-HighYield-temporary Poliovirus can cause respiratory insufficiency
+1516219245653 1-HighYield Poliovirus causes decreased deep tendon reflexes
+1516219290703 1-HighYield Which virus can cause respiratory insufficiency and decreased DTRs ? Poliovirus
+1516219383663 2-RelativelyHighYield Poliovirus is a rare cause of aseptic (viral) meningitis
+1516219470210 1-HighYield Which poliovirus vaccine is inactivated / killed ? Salk
+1516219553378 1-HighYield Which poliovirus vaccine is live attenuated ? Sabin
+1516219597269 1-HighYield What is the method of administration of the Salk vaccine ? Intramuscular (injection)
+1516219693333 1-HighYield What is the route of administration of the Sabin vaccine ? Orally
+1516219750211 3-HighYield-temporary Which form of poliovirus vaccine forms IgG antibodies , only ? Inactivated polio vaccine (Salk)
+1516219843437 3-HighYield-temporary Which form of poliovirus vaccine forms IgG and IgA antibodies ? Oral polio vaccine (Sabin)
+1516219902653 3-HighYield-temporary Which form of poliovirus vaccine is administered in the U.S. ? Inactivated Polio vaccine (IPV)
+1516219994099 3-HighYield-temporary Which form of poliovirus vaccine provides group immunity with person-to-person contact ? Sabin
+1516220099300 4-LowerYield Which cause of meningitis can also lead to myalgia and paralysis ? Poliovirus
+1516220927111 1-HighYield What are the three most common causes of aseptic meningitis ? Coxsackievirus, echovirus ( enteroviruses ), and HSV
+1517598262717 - When are the first three doses of the inactivated poliovirus vaccine (IPV) typically administered? 2 months, 4 months, 6 months
+1691516524185 1-HighYield Inactivated / killed vaccines may be remembered with the mnemonic " A TRIP could kill Y ou": Hepatitis A T yphoid fever ( Salmonella T yphi ) R abies I nfluenza (IM) P olio (Salk) Y ersinia pestis
+1691516524186 1-HighYield Inactivated / killed vaccines may be remembered with the mnemonic " A TRIP could kill Y ou"

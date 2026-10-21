@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::14_Yellow_Fever_Virus (5 notas)
+1506628170585 4-LowerYield What family of viruses does Yellow fever belong to? Flaviviridae
+1506628336655 2-RelativelyHighYield Which vector transmits Yellow fever ? Mosquito , specifically the Aedes
+1506628403819 3-HighYield-temporary What is a cutaneous complication of Yellow fever ? Jaundice
+1506628478878 2-RelativelyHighYield What changes in stool are seen with Yellow fever ? Bloody diarrhea
+1506628520779 3-HighYield-temporary What type of vomiting is seen with Yellow fever ? Black (bloody) vomiting

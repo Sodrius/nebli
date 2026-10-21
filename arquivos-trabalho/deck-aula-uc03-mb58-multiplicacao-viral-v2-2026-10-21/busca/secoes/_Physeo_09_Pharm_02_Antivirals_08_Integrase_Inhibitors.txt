@@ -1,0 +1,14 @@
+# #AK_Step1_v12::#Physeo::09_Pharm::02_Antivirals::08_Integrase_Inhibitors (13 notas)
+1506783017772 1-HighYield Highly active antiretroviral therapy (HAART) consists of a minimum of 3 drugs to prevent resistance
+1506783163535 1-HighYield HAART therapy consists of 2 NRTIs plus 1 of either a(n) NNRTI , protease inhibitor , or integrase inhibitor
+1506783654169 5-LowYield Which type of HAART drug is dolutegravir? Integrase inhibitor
+1506783676307 5-LowYield Which type of HAART drug is elvitegravir? Integrase inhibitor
+1506783685484 4-LowerYield Which type of HAART drug is raltegravir? Integrase inhibitor
+1506805847290 1-HighYield Which envelope protein on HIV functions to allow attachment to host CD4+ T cells ? gp120
+1506806776715 2-RelativelyHighYield HIV env encoded gp160 is first sent to the endoplasmic reticulum of the cell for processing
+1506807161520 1-HighYield Which enzyme allows for HIV dsDNA to integrate with host cell DNA ? Integrase
+1506807294544 1-HighYield What class of drugs inhibits HIV DNA integration into host cell genomes ? Integrase inhibitors
+1506807534113 1-HighYield What class of HAART drugs inhibits HIV mRNA formation? Integrase inhibitors
+1506807835841 1-HighYield Integrase inhibitors will inhibit HIV dsDNA integration into the host cell genome , preventing mRNA production
+1506807904457 1-HighYield Which HAART drugs can result in rhabdomyolysis ? Integrase inhibitors
+1506807973686 1-HighYield Integrase inhibitors can result in rhabdomyolysis , which will appear with elevated creatine kinase levels

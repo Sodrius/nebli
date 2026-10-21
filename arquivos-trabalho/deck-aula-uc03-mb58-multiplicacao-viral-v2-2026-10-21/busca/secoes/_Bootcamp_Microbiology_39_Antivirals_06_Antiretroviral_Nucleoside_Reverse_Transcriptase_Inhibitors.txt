@@ -1,0 +1,31 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::06_Antiretroviral_Nucleoside_Reverse_Transcriptase_Inhibitors (30 notas)
+1469146882653 1-HighYield Muscle biopsies of patients with mitochondrial myopathies often show " ragged red " fibers
+1475636883017 2-RelativelyHighYield Which diuretic can cause type 2 renal tubular acidosis as an adverse effect? Acetazolamide
+1475703973341 2-RelativelyHighYield Which type of renal tubular acidosis may be caused by Fanconi syndrome ? Type 2 (proximal) RTA
+1475703988155 2-RelativelyHighYield What renal tubular disorder may be caused by nephrotoxins/drugs (e.g., ifosfamide, cisplatin, tenofovir, expired tetracyclines)? Fanconi syndrome
+1475874265007 2-RelativelyHighYield Which type of nephrotic syndrome is most commonly seen in HIV patients? Focal segmental glomerulosclerosis (FSGS)
+1502066968224 1-HighYield The pol gene of HIV encodes the enzymes reverse transcriptase , aspartate protease , and integrase
+1506783296016 2-RelativelyHighYield Which type of HAART drug is abacavir (ABC)? NRTI
+1506783462443 3-HighYield-temporary Which type of HAART drug is didanosine (ddl)? NRTI
+1506783471847 1-HighYield Which type of HAART drug is emtricitabine (FTC)? NRTI
+1506783486518 1-HighYield Which type of HAART drug is lamivudine (3TC)? NRTI
+1506783497051 4-LowerYield Which type of HAART drug is stavudine (d4T) ? NRTI
+1506783511355 1-HighYield Which type of HAART drug is tenofovir (TDF)? NtRTI
+1506783521685 1-HighYield Which type of HAART drug is zidovudine ( ZDV , formerly AZT )? NRTI
+1506784318198 3-HighYield-temporary NRTIs are nucleosides or nucleotides that have an absent 3' hydroxyl group
+1506784353867 3-HighYield-temporary NRTIs are incorporated into viral DNA , causing premature chain termination
+1506784467378 2-RelativelyHighYield NRTIs inhibit formation of 3' to 5' phosphodiester bonds
+1506784514467 3-HighYield-temporary Most NRTIs are nucleosides that must undergo phosphorylation in order to be active
+1506784835221 1-HighYield NRTIs are associated with mitochondrial toxicity, lactic acidosis , and peripheral neuropathy
+1506784980543 1-HighYield Which HAART drug class is associated with peripheral neuropathy ? NRTIs
+1506785118508 2-RelativelyHighYield Which NRTI is a nucleo t ide and not a nucleo s ide? Tenofovir
+1506785242535 2-RelativelyHighYield Which NRTI requires only 2 phosphorylations to become active ? Tenofovir
+1506785457319 1-HighYield Which NRTI is associated with myelosuppression ? Zidovudine
+1506785509437 1-HighYield Zidovudine is associated with myelosuppression, which can result in anemia and granulocytopenia
+1506785534996 3-HighYield-temporary Which NRTI is associated with anemia and granulocytopenia ? Zidovudine
+1506785609205 1-HighYield Zidovudine and stavudine are associated with lipodystrophy
+1506785872219 2-RelativelyHighYield Which NRTI is associated with dose-dependent pancreatitis ? Didanosine
+1506786339931 2-RelativelyHighYield Which NRTI is associated with a hypersensitivity reaction in patients with the HLA-B 57:01 allele ? Abacavir
+1506789316317 1-HighYield Which NRTI is associated with Fanconi syndrome ? Tenofovir
+1506796584685 1-HighYield Which HAART drug classes commonly cause lipodystrophy ? Protease inhibitors & NRTIs
+1514665641707 1-HighYield Zidovudine (ZDV/AZT) can cause a(n) megaloblastic anemia and agranulo cytosis

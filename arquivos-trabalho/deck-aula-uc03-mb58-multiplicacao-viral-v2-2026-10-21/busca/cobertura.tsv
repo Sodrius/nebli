@@ -1,0 +1,84 @@
+chave	conceito	fonte_aula	veredito	lidos	decora	decisao
+au-permissiva	Célula suscetível × permissiva	Slide 4	lacuna	1520301328706 1502063659167 1516323747313	susceptible	Nenhum card distingue célula suscetível (receptor) de permissiva (apoia a replicação); só há receptores de HIV e interferon.
+au-produtiva	Infecção produtiva × abortiva	Slide 6	lacuna	1523806626724 1480564012664 1502718274711	productive	Nenhum card define infecção produtiva × abortiva; os candidatos tratam de reassortment, EBV ativo e interferon.
+au-etapas	As etapas do ciclo de replicação, em ordem	Slide 8	lacuna	1520301328706 1501983952866 1608910000343	Adsorption	Nenhum card lista as etapas do ciclo viral em ordem; os candidatos são interferon, Chlamydia e o complexo de replicação do coronavírus.
+ak1502066766747	gp120 é a glicoproteína externa do HIV	Slide 10	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506805847290	gp120 permite a ligação do HIV ao CD4	Slide 10	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1502068331161	Início da infecção: HIV entra em macrófagos por CCR5	Slide 10	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1502068440036	Fase tardia: HIV entra em linfócitos T por CXCR4	Slide 10	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516222322469	Rinovírus entra pelo ICAM-1	Slide 10	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-penetracao	Penetração: endocitose, translocação ou fusão	Slide 11	lacuna	1516323635408 1516473893262 1497440851060	endocytosis	Há hemaglutinina e gp41 como exemplos, mas nenhum card lista endocitose, translocação e fusão como as três vias de penetração.
+ak1516323635408	Hemaglutinina promove a endocitose do influenza	Slide 14	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1502066667272	gp41 do HIV medeia a fusão	Slide 15	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-desnud	Desnudamento: três locais	Slide 17	parcial	1487116836334 1474164548629 1475982652797	cytoplasm	O canal M2 do influenza entra como ak, mas nenhum card lista os três locais de desnudamento.
+au-precoces	mRNAs precoces × tardios	Slide 20	lacuna	1467927108504 1523806413782 1506627151740	nonstructural	Há proteínas estruturais do coronavírus e poliproteína do picornavírus; nenhum card contrasta mRNAs precoces e tardios.
+ak1502152021975	A maioria dos vírus de DNA replica no núcleo	Slide 20	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516321076508	Vírus de RNA em geral replicam no citoplasma	Slide 20	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1483913062659	Exceções: orthomyxovírus e retrovírus replicam no núcleo	Slide 20	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-pequenos-dna	Vírus de DNA pequenos dependem da célula	Slide 29	lacuna	1516927385593 1502570964320 1506551469394	papillomavirus	Os cards dizem tamanho e tipo de genoma; nenhum agrupa os vírus de DNA que dependem da célula.
+au-prot-dna	Proteínas virais da replicação do DNA	Slide 30	lacuna	1506724662638 1467771785512 1506551469394	DNA polymerase	Os candidatos são helicase e SSB da replicação celular; nenhum lista as proteínas que o vírus de DNA codifica.
+au-primers	Dois mecanismos de síntese de DNA e seus iniciadores	Slide 32	lacuna	1467771853847 1467833317937 1467771834622	papillomavirus	Os cards de primer são da replicação procariótica e da transcriptase reversa; nenhum trata de primer proteico ou em grampo.
+au-polyoma-t	Antígeno T: reconhece a origem e é helicase	Slide 36	lacuna	1516851235515 1488418305850 1521223587517	origin of replication	Nenhum card de poliomavírus fala do antígeno T; os candidatos são helicases de recombinação e transmissão do JC/BK.
+ak1493398712106	HPV: nu, icosaédrico, DNA circular de fita dupla	Slide 41	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1463105909117	E6 do HPV de alto risco leva à destruição de p53	Slide 43	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1463105915437	E7 do HPV de alto risco leva à destruição de Rb	Slide 43	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-adeno-pol	Adenovírus: RNA pol da célula, DNA pol própria	Slide 46	lacuna	1506551855396 1516320850504 1506551774430	RNA	Os candidatos são HBV e poxvírus; nenhum card diz qual polimerase o adenovírus usa.
+ak1516930208305	Adenovírus tem genoma de DNA linear	Slide 47	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-adeno-primer	Adenovírus: o primer é uma proteína	Slide 47	lacuna	1516929856097 1516930208305 1516931076187	protein	Os cards de adenovírus são de genoma, transmissão e diagnóstico; nenhum traz o primer proteico.
+au-herpes-circ	Herpesvírus: circulariza e replica por círculo rolante	Slide 51	lacuna	1516930208305 1506554976089 1506554995533	circularizes	Há forma do genoma de HBV, HDV e EBV; nenhum card traz a circularização e o círculo rolante do herpesvírus.
+ak1502570386887	Poxvírus: único DNA vírus que replica só no citoplasma	Slide 54	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1502570452327	Poxvírus tem a própria RNA polimerase dependente de DNA	Slide 55	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-pox-precoces	Poxvírus: mRNAs precoces pela polimerase do vírion	Slide 55	parcial	1502570324908 1502570452327 1502570386887	early	A pol própria do poxvírus entra como ak; nenhum card trata dos mRNAs precoces imediatos pela polimerase do vírion.
+ak1506627151740	Picornavírus fazem poliproteína clivada por protease viral	Slide 68	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516320980606	Orthomyxoviridae: único RNA − que replica no núcleo	Slide 70	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-retro-rt	Retrovírus: transcriptase reversa no vírion e provírus	Slide 73	parcial	1502064775742 1502069441823 1502066968224	reverse transcriptase	Transcriptase reversa converte RNA em dsDNA (ak); nenhum card junta a RT empacotada com o provírus.
+ak1502069441823	Transcriptase reversa gera dsDNA que a integrase insere	Slide 74	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506551550710	Hepatite B: DNA parcialmente de fita dupla	Slide 76	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506551774430	No núcleo, a DNA polimerase do HBV completa a fita dupla	Slide 77	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1608910179425	A RdRp é a peça central do complexo de replicação	Slide 79	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-rdrp-todos	Todo vírus de RNA, menos retrovírus, codifica RdRp	Slide 79	parcial	1483913062659 1516320933265 1516320850504	retroviruses	Há RNA − com polimerase própria e exceções de local; nenhum card diz que todo vírus de RNA, exceto retrovírus, codifica RdRp.
+au-reo-pol	Vírus de RNA − e dsRNA trazem a polimerase	Slide 80	parcial	1516320850504 1502064367585 1516665187703	polymerase	Há RNA − com polimerase própria; nenhum card inclui dsRNA nem a regra de genoma não infeccioso.
+au-mutacao	Alta taxa de mutação dos vírus de RNA	Slide 83	parcial	1467833855389 1467771934972 1467927169487	correct	A RNA polimerase celular sem revisão entra como card de Biomol; nenhum card liga isso à taxa de mutação dos vírus de RNA.
+ak1516321532745	Segmentados: mnemônico BOAR	Slide 83	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1523806216737	Reassortment: troca de segmentos do genoma	Slide 83	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516323064948	Antigenic shift: reassortment de HA e NA entre espécies	Slide 83	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-inclusoes	Corpúsculos de inclusão: citoplasmáticos × nucleares	Slide 85	parcial	1516475620459 1516475827100 1516475256424	poxvirus	Negri, Cowdry e Guarnieri entram como ak; nenhum card agrupa os vírus por inclusão citoplasmática ou nuclear.
+ak1502570605009	Guarnieri: inclusões citoplasmáticas do poxvírus	Slide 85	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516475620459	Corpos de Negri: inclusões citoplasmáticas da raiva	Slide 85	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516475827100	Corpos de Cowdry: inclusões nucleares dos herpesvírus	Slide 85	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-liberacao	Formas de liberação do vírus	Slide 87	lacuna	1501984013065 1510105444986 1516930966434	lysis	Os candidatos tratam de neuraminidase e gp41; nenhum card lista lise, brotamento, passagem entre células e sincícios.
+au-resumo-dna	Resumo: polimerase celular × viral nos vírus de DNA	Slide 91	lacuna	1523915429557 1506551774430 1506551855396	host	Os candidatos são cards de HBV; nenhum compara a polimerase celular e viral nos vírus de DNA.
+au-antiv-mec	Pontos do ciclo onde o antiviral age	Slide 95	lacuna	1520301328706 1514738701137 1516323747313	extracellular	Os cards são de fármacos individuais; nenhum lista os pontos do ciclo que um antiviral pode bloquear.
+ak1506806715774	Enfuvirtida liga gp41 e impede a fusão	Slide 102	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506806433678	Maraviroque inibe a ligação da gp120 ao CCR5	Slide 103	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516324096049	Canal M2 garante o pH para o desnudamento do influenza	Slide 104	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516324301529	Amantadina e rimantadina inibem o canal M2 do influenza A	Slide 105	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-antiv-pol-propria	Inibidores de polimerase: só para vírus com polimerase própria	Slide 107	parcial	1502570386887 1506724662638 1516320850504	own	Há inibidores de polimerase por fármaco; nenhum card diz que só funcionam em vírus com polimerase própria.
+ak1467683788745	Nucleosídeo = base + açúcar	Slide 108	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1467683795991	Nucleotídeo = base + açúcar + fosfato	Slide 108	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506723403021	Aciclovir, famciclovir e valaciclovir são análogos da guanosina	Slide 109	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506723704374	Timidina quinase viral monofosforila o aciclovir	Slide 111	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506724128411	Aciclovir trifosfato entra no DNA viral e inibe a polimerase	Slide 111	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1403635898739	Resistência ao aciclovir: timidina quinase mutada ou ausente	Slide 111	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506724515933	Sem timidina quinase viral, o aciclovir não age em CMV e EBV	Slide 111	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506724662638	Cidofovir e foscarnet não precisam de timidina quinase	Slide 117	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1403636336526	Foscarnet liga o sítio do pirofosfato da polimerase	Slide 117	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506784777103	Inibidores da transcriptase reversa impedem o RNA virar DNA	Slide 119	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506784318198	NRTIs não têm hidroxila 3′	Slide 119	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506785118508	Tenofovir é nucleotídeo, não nucleosídeo	Slide 120	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506784353867	NRTIs terminam a cadeia de DNA precocemente	Slide 122	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506784514467	A maioria dos NRTIs precisa ser fosforilada	Slide 122	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506789392960	NNRTIs ligam a transcriptase reversa em sítio diferente do NRTI	Slide 123	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506789263570	NNRTIs não precisam de fosforilação	Slide 123	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1461797689978	Sofosbuvir é um análogo de nucleotídeo que inibe a NS5B do HCV	Slide 127	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1514740864172	Ribavirina é um análogo da guanosina que inibe a IMP desidrogenase	Slide 127	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506807161520	Qual enzima integra o dsDNA do HIV ao genoma da célula? Integrase	Slide 131	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506807835841	Inibidores da integrase bloqueiam a inserção do dsDNA no genoma	Slide 131	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516324778471	Zanamivir e oseltamivir inibem a neuraminidase do influenza A e B	Slide 134	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516323747313	Neuraminidase cliva a ligação entre HA e ácido siálico	Slide 135	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1502070156173	Inibidores da protease bloqueiam o corte das proteínas virais	Slide 137	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506795652147	Inibidores da protease impedem o vírion maduro a partir de poliproteínas	Slide 138	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506631004332	Hepatite C é tratada com inibidores de protease e de polimerase	Slide 151	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506783017772	HAART usa no mínimo três fármacos para evitar resistência	Slide 156	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1502069492941	O alicerce do HAART são os NRTIs	Slide 157	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506783163535	HAART: dois NRTIs mais NNRTI, inibidor de protease ou da integrase	Slide 163	coberto			card de acervo achado por seção, palavra-chave ou significado

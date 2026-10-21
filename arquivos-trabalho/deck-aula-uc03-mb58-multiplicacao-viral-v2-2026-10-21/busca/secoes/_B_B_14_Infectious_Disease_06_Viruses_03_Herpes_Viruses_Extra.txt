@@ -1,0 +1,28 @@
+# #AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::03_Herpes_Viruses::Extra (27 notas)
+1403296022011 1-HighYield Cytomegalovirus (CMV) is a herpesvirus that causes interstitial pneumonia in patients with HIV
+1480564038208 2-RelativelyHighYield The splenomegaly seen with infectious mononucleosis is due to T-cell hyperplasia in the periarteriolar lymphatic sheath (PALS) of the spleen
+1480564059776 4-LowerYield A(n) negative monospot test with symptoms of infectious mononucleosis suggests CMV infection
+1480564063016 2-RelativelyHighYield A definitive diagnosis of infectious mononucleosis is made by serologic testing for the EBV viral capsid antigen
+1481335525711 1-HighYield Endemic Burkitt lymphoma is associated with Epstein-Barr virus (EBV) infection
+1482191393787 2-RelativelyHighYield Hairy leukoplakia is a white, rough patch that arises on the lateral tongue
+1482191403303 3-HighYield-temporary Oral candidiasis and hairy leukoplakia are usually seen in immunocompromised individuals
+1502044611963 1-HighYield A mnemonic used to remember the infectious agents which may cross the placenta and cause congenital infection is ToRCHHeS VP : T oxoplasmosis R ubella C MV H IV H erpes virus S yphilis ( Treponema pal
+1502153655230 1-HighYield Herpetic whitlow is a painful hand vesicle that occurs when the skin comes in contact with HSV-1 or HSV-2 (common in dentists )
+1503615577801 2-RelativelyHighYield Aminopenicillins (amoxicillin) causing a maculopapular rash in EBV infection is a type IV hypersensitivity reaction
+1503856230733 1-HighYield Epstein-Barr virus is strongly associated with the mixed cellularity and lymphocyte-depleted subtypes of Hodgkin lymphoma
+1503856816924 1-HighYield Epstein-Barr virus is associated with the endemic (African) form of Burkitt lymphoma
+1503857167545 1-HighYield Nasopharyngeal carcinoma is a complication of Epstein-Barr virus in patients of Asian descent
+1503858897040 1-HighYield CMV is the most common congenital infection (developed world)
+1503859471229 1-HighYield Severe, permanent symptoms of congenital CMV infection are remembered via the mnemonic " MR DICS ": M icrocephaly R estricted intellectual ability (intellectual disability) D eafness (sensorineural) I
+1504221691763 - What is the likely causative organism in an HIV patient with a CD4 + count of 30/mm 3 that presents with one month of low-grade fevers , intermittent bloody diarrhea , abdominal pain , and weight loss
+1506290631012 3-HighYield-temporary Adults and immunocompromised patients with chickenpox are at a greater risk of developing pneumonia
+1506290756911 2-RelativelyHighYield Adults and immunocompromised patients with chickenpox are at a greater risk of developing encephalitis
+1506291507955 1-HighYield Individuals who are immunocompromised will have a herpes zoster (shingles) rash that crosses midline and should be tested for HIV
+1506726210693 3-HighYield-temporary Prophylaxis of HSV with acyclovir is important in immunocompromised patients
+1516240313855 2-RelativelyHighYield Congenital rubella is characterized by a(n) "blueberry muffin" rash
+1516759301573 1-HighYield Lesions of Kaposi sarcoma may be seen on endoscopic examination of the GI tract
+1517101821447 4-LowerYield EBV is associated with post-transplant lymphoproliferative disease
+1524249176243 2-RelativelyHighYield Microscopic evaluation of Kaposi sarcoma will reveal highly vascular tissue with elongated spindle cells
+1547906477936 - Herpes simplex virus (HSV) is definitively diagnosed with PCR or viral cultures
+1577804124702 1-HighYield Immunodeficiency (e.g., HIV) increases the risk for non-Hodgkin lymphoma , which presents as diffuse lymphadenopathy and B symptoms
+1690912527337 1-HighYield The causes of false-positive VDRL may be remembered with the mnemonic PVDRL

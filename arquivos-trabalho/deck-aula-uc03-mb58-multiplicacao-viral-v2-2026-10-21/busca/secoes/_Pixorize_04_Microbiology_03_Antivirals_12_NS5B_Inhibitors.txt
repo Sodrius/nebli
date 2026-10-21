@@ -1,0 +1,4 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::03_Antivirals::12_NS5B_Inhibitors (3 notas)
+1461797689978 5-LowYield Sofosbuvir is a nucleotide analog that inhibits the HCV NS5B RNA-dependent RNA polymerase
+1461797701666 5-LowYield Adverse effects associated with sofosbuvir include fatigue and nausea
+1506631004332 1-HighYield Hepatitis C virus infections can be treated with protease and polymerase inhibitors

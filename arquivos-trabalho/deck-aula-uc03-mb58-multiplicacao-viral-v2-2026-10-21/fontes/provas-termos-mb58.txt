@@ -1,0 +1,87 @@
+── [2018 P3] 1.3 (MB)
+   P: 0,6 pontos –Represente esquematicamente o mecanismo de replicação viral de vírus da Febre Amarela ( Grupo IV da classificação de Baltimore ), a pontando as diferentes etapas do processo de multiplicação viral e indicando o compartimento celular onde eles acontecem.
+   G: Para um vírus desta categoria uma representação esquemática possível da replicação seria: Formação do complexo de replicação  Recrutamento da SS-RNA fita positiva  SS-RNA – Fita Negativa é sintetizada pela RNA polimerase dependente de RNA  SS-RNA fita positiva é produzida. O processo ocorre no citoplasma da célula infectada.
+
+── [2015 P2] 2.3 (MB)
+   P: Indique a qual grupo da classificação de Baltimore pertence e descreva brevemente o ciclo de replicação deste agente.
+   G: e.
+
+# 2 subquestões · anos: 2018, 2015
+(nenhuma subquestão no acervo 2015-2025 — aula sem evidência direta; calibrar pelo teto da componente em CALIBRACAO.md)
+── [2024 P3] 1.1 (MB)
+   P: 0,6 pontos - Conhecendo a estrutura do vírus, e que a proteína Q está envolvida no processo de replicação viral, que tipo de proteína seria a proteína Q e qual sua função mais provável na replicação do vírus?
+   G: Esta proteína, envolvida diretamente na replicação viral pode ser qualquer uma das seguintes: 1 - RNA-polimerase RNA-dependente (RdRp): Enzima central na replicação de vírus de RNA. Ela sintetiza uma nova fita de RNA viral usando o RNA genômico como molde. É encontrada em todos os vírus de RNA, pois as células hospedeiras não possuem essa enzima. ova P3 – 2024 - Pág 3 2 – Transcriptase reversa: En
+
+── [2016 P2] 2.12 (PT)
+   P: 0,5 pt – Ao final de uma autópsia, considerando os dados clínicos e de autópsia apresentados anteriormente, o patologista irá preencher a parte I da declaração de óbito deste paciente e preencherá na primeira e na quarta (última) linha respectivamente: a) Aterosclerose e Diabetes Mellitus b) Acidente vascular encefálico isquêmico e Diabetes Mellitus c) Obstrução de artéria cerebral média e Pé diabético d) Aterosclerose e Acidente vascular encefálico isquêmico e) Acidente vascular encefálico isquêmico e Pé Diabético
+   G: A primeira linha da declaração de óbito é onde incluímos a causa imediata de morte. Neste caso o acidente vascular encefálico isquêmico, este foi devido à obstrução da carótida por um trombo, que por conseguinte aconteceu após a ruptura de uma placa de ateroma. A aterosclerose por sua vez foi provavelmente potencializada pelo diabetes mellitus (que pode ter também um efeito pró-coagulante). Desta 
+
+# 2 subquestões · anos: 2024, 2016
+── [2015 P2] 4.8 (MB)
+   P: A presença de corpúsculos de inclusão indica que: a.as novas partículas virais são montadas no núcleo da célula infectada. b.as partículas virais são liberadas por brotamento. c.os novos vírus são montados no núcleo e depois no citoplasma da célula infectada. d.as novas partículas virais são montadas no citoplasma da célula infectada.
+   G: a.
+
+# 1 subquestões · anos: 2015
+── [2024 P3] 1.1 (MB)
+   P: 0,6 pontos - Conhecendo a estrutura do vírus, e que a proteína Q está envolvida no processo de replicação viral, que tipo de proteína seria a proteína Q e qual sua função mais provável na replicação do vírus?
+   G: Esta proteína, envolvida diretamente na replicação viral pode ser qualquer uma das seguintes: 1 - RNA-polimerase RNA-dependente (RdRp): Enzima central na replicação de vírus de RNA. Ela sintetiza uma nova fita de RNA viral usando o RNA genômico como molde. É encontrada em todos os vírus de RNA, pois as células hospedeiras não possuem essa enzima. ova P3 – 2024 - Pág 3 2 – Transcriptase reversa: En
+
+── [2024 P4] 2.10 (MB)
+   P: 0,25 pontos –Os vírus tumorigênicos em humanos: a) apresentam oncogenes que derivam de proto-oncogenes celulares. b) apresentam oncogenes próprios importantes para o ciclo viral. c) transformam a célula por ativação de oncogenes presentes em retrovírus. d) transformam a célula por mutagênese insercional. e) transformam a célula por mutação do gene p53.
+   G: 3.
+
+── [2024 P4] 2.9 (MB)
+   P: 0,25 pontos –O principal mecanismo de transformação celular por retrovírus animais de transformação aguda é: a) a mutagênese insercional. b) a ativação de proto-oncogenes celulares. c) a inativação de genes supressores de tumor celulares. d) a transdução de oncogenes ativados. e) a expressão de oncogenes de origem viral.
+   G: l.
+
+── [2019 P4] 2.16 (PT)
+   P: 0,6 pontos – No contexto dos choques, como você diferenciaria um choque cardiogênico de um choque séptico como este em termos fisiopatológicos e funcionais? ova P4 – Pág 10 QUESTÕES INDEPENDENTES – TESTES RESPONDA AOS TESTES NO GABARITO DA PRIMEIRA PÁGINA DE
+   G: S 4 - (MB) – 0,125 pontos – Atualmente, entre os vírus considerados carcinógenos de tipo 1 em humanos podemos se encontram: a) papilomavírus, herpesvírus, flavivírus, retrovírus e adenovírus. b) papilomavírus, hepadnavírus, flavivírus, retrovírus e herpesvírus. c) adenovírus, flavivírus, hepadnavírus, retrovírus e papilomavírus. d) flavivírus, adenovírus, herpesvírus, retrovírus e hepadnavírus. e)
+
+── [2017 P4] 2.2 (MB)
+   P: 1 ponto – Explique um mecanismo direto e um me canismo indireto através dos quais os vírus podem causar câncer. Cite um vírus representativo para cada caso.
+   G: Mecanismo direto: Retrovirus de transformação aguda que podem carregar oncogenes e no seu processo de replicação levar à tradução destes genes, induzindo a transformação neoplásica. Nestes casos os tumores acontecem de forma rápida e na totalidade dos casos. Além disso há também retrovírus de transformação lenta que não carregam oncogenes mas que causam tumores após longos períodos e numa porção m
+
+# 5 subquestões · anos: 2024, 2019, 2017
+── [2025 P3] 2.5 (IM)
+   P: Na imunidade inata anti-viral, quais fatores celulares e não- celulares contribuiriam para a limitação da infecção por este patógeno? Cite-os e de uma breve justificativa de como cada elemento atuaria.
+   G: A imunidade inata é a primeira linha de defesa contra as infecções virais. Dentre os fatores celulares e não celulares devemos considerar: Fatores não celulares: a) Interferons tipo I (IFN-α e IFN-β) que participam induzindo o estado antiviral nas células vizinhas favorecendo o bloqueio da replicação viral; b) Proteínas antivirais induzidas por interferon (Mx, PKR, OAS) que degradam o RNA viral ou
+
+── [2025 P3] 3.4 (IM)
+   P: Descreva como a infecção viral pelo influenza pode exacerbar o quadro asmático, indicando como as respostas imunes antiviral e alérgica podem interagir no mesmo tecido.
+   G: A infecção pelo vírus Influenza pode exacerbar a asma devido à interação entre a resposta imune antiviral (inata e adaptativa) e a resposta alérgica do tipo Th2 preexistente nas vias aéreas. A infecção viral induz a liberação de interferons tipo I e III (ou IFN-α, IFN-λ), IL-6, TNF-α e quimiocinas, levando ao recrutamento de neutrófilos, células NK e linfócitos T citotóxicos (CD8+), com dano epite
+
+── [2024 P3] 1.7 (IM)
+   P: 0,8 pontos - Considerando seus con hecimentos de Imunologia sobre a resposta imune adaptativa antiviral, levando-se em consideração a presença de anticorpos na mucosa pulmonar do tipo IgA, explique detalhadamente como esta resposta imune culminou na geração deste subtipo de anticorpo, iniciando com a infecção numa célula epitelial pulmonar.
+   G: Apresentamos a seguir o processo detalhado, para conhecimento e aprimoramento formativo. Na avaliação da questão da prova, pelas limitações de espaço e tempo, este processo resumido será con siderado como correto. 1. Infecção Inicial e Ativação da Resposta Imune Inata Quando um vírus invade o trato respiratório, ele entra em contato com células epiteliais das vias aéreas. Ao infectar essas células
+
+── [2019 P1] 3.3 (IM)
+   P: QUESTÃO BÔNUS – 0,4 pontos – Hipoteticamente, uma análise do linfonodo cervical poderia demonstrar uma organização e uma espacialidade da resposta imune antiviral. Desenhe um linfonodo normal (de um indivíduo sadio) e um linfonodo do aluno com o diagnóstico de Sarampo, enaltecendo as células imunes envolvidas na resposta imune antiviral e sua localização, as moléculas envolvidas nas interações celulares e célula:vírus e as vias de entrada e saída de células e antígenos virais. ova P1 – 2019 - Pág 10 Caso Clínico / Situação 4 Leandro tem 28 anos, é youtuber e gostar de treinar corrida de rua
+   G: ua além de fazer regularmente exercícios na academia em área aberta de seu condomínio na região do Itaim. Leandro tem histórico de asma e às vezes apresenta crises de broncoespasmo, especialmente no inverno ou quando o tempo encontra -se muito seco. Hoje, Leandro estava na academia durante a tarde fazendo exercícios e percebeu que o tempo começou a escurecer em São Paulo. Temeroso de uma tempestad
+
+── [2018 P3] 1.7 (GR/MB/PT/IM/RD/BQ/BM)
+   P: 0,5 pontos – Explique como os vírus (e seus possíveis elementos estruturais) devem ter disparado a resposta imune, quais formas de resposta são ativadas e as eventuais repercussões patológicas destas repostas.
+   G: Os V írus como o da febre amarela podem ser reconhecidos atrav és de Padr ões Moleculares presentes no envelope viral – como por receptores destes padr ões (PRR) em c élulas da imunidade inata como macrófagos e células de Kupfer (macr ófagos hepáticos). Um dos mecanismos efetores importante na resposta imune inata nestas situações é a produção de interferon Alfa e Beta que podem ter efeito antivir
+
+── [2018 P3] 5.3 (PT/IM)
+   P: 0,4 pontos – Explique o mecanismo de formação da resposta imune neste caso e sua correlação com os potenciais achados patológicos neste caso, que justifiquem a dispneia progressiva.
+   G: O vírus da Influenza pode ser reconhecido através de Padrões Moleculares presentes no envelope viral – como por receptores destes padrões (PRR – como o TLR -3) em células da imunidade inata como macrófagos. Proteínas da superf ície como Hemaglutinina e Neuraminidase podem ser elementos importantes da deflagração da resposta imune. Um dos mecanismos efetores importante na resposta imune inata nesta
+
+── [2017 P3] 1.6 (IM)
+   P: 0,2 pontos – Considerando ainda a importância de anticorpos na resposta imune antiviral, quais são mecanismos efetores antivirais dependente de Fab e Fc (cite pelo menos dois para cada fator)?
+   G: Fc: ADCC, Sistema complemento e ativar/regular função celular via FcR Fab: neutralizar e eliminar o vírus A criança evoluiu bem e a mbas as crianças cresce ram com saúde e chegaram aos quatro anos sem apresentar outros problemas, porém, Pedro passou a apresentar constantemente tosse, chiado no peito, dificuldade de respirar, respiração ofegante após correr e secreção nas vias áreas superiores. Nos
+
+── [2017 P3] 4.2 (PT/IM)
+   P: 0,2 pontos – Explique o possível papel do Interferon como medida terapêutica / de controle da doença
+   G: O Interferon tem um papel importante nas infecções virais por ter um efeito limitador da infecção em células vizinhas (de forma parácrina). Uma célula infectada por vírus pode levar à ativação da expressão do gene do interferon. Este, sendo liberado pela célula infectada, atuará em células vizinhas através de segundos mensageiros levando à produção de proteínas antivirais (AVP por exemplo) que dif
+
+── [2017 P3] 4.3 (IM)
+   P: 0,2 pontos – Sugira 2 (dois) mecanismos de evasão usado por vírus como o HCV para resistir a resposta imune e permanecer cronicamente nos tecidos, e até se associarem a tumorigênese.
+   G: Degradação de MHC I, retenção de MHC I, variabilidade genômica (variabilidade das regiões NS3 e NS5A do genoma do VHC), integração de proteínas virais ao hospedeiro (algumas proteínas do VHC teriam capacidade de disparar um sinal iniciador de processos celulares como proliferação, diferenciação ou apoptose). O VHC atenua a resposta inata antiviral de várias formas, ao nível da resposta IFN mediant
+
+# 9 subquestões · anos: 2025, 2024, 2019, 2018, 2017
+── [2015 P2] 4.3 (MB)
+   P: No efeito citopático observado nas culturas celulares inoculadas e coradas: a.a formação de sincícios é devida à fusão das células infectada com as células vizinhas b.a fusão das membranas celulares é facilitada por proteínas virais c.a lise celular é conseqüência da excessiva multiplicação viral e esgotamento da célula d.a lise celular é conseqüência da fusão das células infectadas e.as alternativas a e b estão corretas
+   G: as
+
+# 1 subquestões · anos: 2015

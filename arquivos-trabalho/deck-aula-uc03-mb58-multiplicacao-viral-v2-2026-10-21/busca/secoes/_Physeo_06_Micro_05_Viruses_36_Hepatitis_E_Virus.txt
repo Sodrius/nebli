@@ -1,0 +1,8 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::36_Hepatitis_E_Virus (7 notas)
+1506557676034 2-RelativelyHighYield Does hepatitis E have an envelope ? No (naked)
+1506610844450 3-HighYield-temporary Hepatitis E virus is acid-stable
+1506611093570 1-HighYield What is a common source of hepatitis A virus in developing countries ? Contaminated water
+1506611185401 2-RelativelyHighYield What is a common source of hepatitis A virus in developed countries ? Contaminated shellfish
+1506611712544 1-HighYield Which viral hepatitis infection(s) is/are often self-limiting ? HAV and HEV
+1506611752239 1-HighYield Does hepatitis A virus induce a carrier state in infected individuals? No
+1568216055845 - Fulminant liver failure is a rare complication of acute hepatitis E virus with a high mortality rate in pregnant patients

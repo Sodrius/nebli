@@ -1,0 +1,9 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::11_Zika (8 notas)
+1516556891495 4-LowerYield What family of viruses does Zika virus belong to? Flaviviridae
+1516556937003 4-LowerYield Zika virus is commonly transmitted by the Aedes mosquito vector
+1516557048514 2-RelativelyHighYield Zika virus can cause fever, rash, and conjunctivitis in 20% of cases
+1516557104772 2-RelativelyHighYield Transplacental transmission of Zika virus can result in miscarriage or congenital Zika syndrome , which is characterized by microcephaly , ocular anomalies , and motor abnormalities (e.g., spasticity,
+1516557147157 3-HighYield-temporary In addition to vector-borne transmission, how can Zika virus be transmitted ? Sexual; vertical (transplacentally)
+1516557177048 2-RelativelyHighYield Outbreaks of Zika virus are more common in tropical climates
+1516557199738 3-HighYield-temporary Diagnosis of Zika virus is made via RT-PCR or serology
+1548548479271 - Severe microcephaly with thin cerebral cortices and multiple intracranial calcifications is suggestive of congenital Zika syndrome

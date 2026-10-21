@@ -1,0 +1,11 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::05_Antiretroviral_Attachment_and_Fusion_Inhibitors (10 notas)
+1489970960324 1-HighYield Which immune cell has the cell surface protein CXCR4 ? Helper T cells (late HIV infection)
+1489971140322 1-HighYield Which immune cells have the cell surface protein CCR5 ? Macrophages (early HIV infection), helper T cells
+1502068458514 3-HighYield-temporary Individuals with homo zygous CCR5 allele mutations are resistant to HIV infection
+1502068584028 3-HighYield-temporary Individuals with hetero zygous CCR5 allele mutations display a slower rate of progression of HIV infection
+1502070230172 1-HighYield Maraviroc is a(n) CCR5 inhibitor that inhibits HIV entrance into macrophages early in the disease course
+1506783569000 1-HighYield Which type of HAART drug is maraviroc? Entry inhibitor (CCR5 antagonist)
+1506789859053 4-LowerYield Which HAART drugs are hepatotoxic ? NNRTIs, maraviroc
+1506806433678 1-HighYield Maraviroc inhibits gp120 of HIV binding to the chemokine receptor CCR5 (macrophages and T-cells)
+1506806663801 1-HighYield Which HAART drug binds to gp41 ? Enfuvirtide
+1506806715774 1-HighYield Enfuvirtide binds gp41 of HIV, inhibiting viral cell fusion with host cells

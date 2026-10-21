@@ -1,0 +1,35 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::20_HIV_Pathogenesis (34 notas)
+1475874265007 2-RelativelyHighYield Which type of nephrotic syndrome is most commonly seen in HIV patients? Focal segmental glomerulosclerosis (FSGS)
+1489970960324 1-HighYield Which immune cell has the cell surface protein CXCR4 ? Helper T cells (late HIV infection)
+1489971140322 1-HighYield Which immune cells have the cell surface protein CCR5 ? Macrophages (early HIV infection), helper T cells
+1502064775742 2-RelativelyHighYield Retroviruses (e.g., HIV) are diploid single-stranded RNA viruses
+1502066128205 2-RelativelyHighYield HIV is a retrovirus , which is a(n) diploid single-stranded positive sense RNA virus
+1502066300073 1-HighYield Does HIV have an envelope ? Yes
+1502066412218 1-HighYield The gag gene of HIV encodes p24 and p17
+1502066575758 1-HighYield The env gene of HIV encodes gp120 and gp41
+1502066667272 1-HighYield gp41 is the transmembrane protein of HIV , mediating viral-cell fusion and syncytia formation
+1502066766747 1-HighYield gp120 is the outer glycoprotein of HIV
+1502066834360 1-HighYield gp120 of HIV binds {{c2}} and the co-receptors CCR5 (primarily on macrophages ) and CXCR4 (primarily on T cells )
+1502066968224 1-HighYield The pol gene of HIV encodes the enzymes reverse transcriptase , aspartate protease , and integrase
+1502067509832 2-RelativelyHighYield The acute phase of HIV consists of flu or mono -like symptoms with generalized lymphadenopathy and fever
+1502067560663 1-HighYield The clinical latency period of HIV infection can last up to 10 years
+1502067746680 1-HighYield Stage 1 HIV is characterized by wide dissemination to lymphoid organs
+1502067814114 1-HighYield Stage 2 HIV is characterized by clinical latency . CD4+ count drops to < 500 cells/mm 3
+1502067896713 1-HighYield Stage 3 HIV is characterized by recurrent bacterial infections. CD4+ count drops to < 350 cells/mm 3
+1502068052536 1-HighYield The criteria for AIDS is a CD4 count < 200 cells/mm 3 or confirmed HIV status with AIDS-defining opportunistic infections such as Pneumocystis pneumonia (PCP) or Candida esophagitis
+1502068331161 3-HighYield-temporary In early HIV infection, HIV gains entry into macrophages via binding to CD4 plus the coreceptor CCR5
+1502068440036 3-HighYield-temporary In late HIV infection, HIV gains entry into helper T-cells via binding to CD4 plus the coreceptor CXCR4
+1502068458514 3-HighYield-temporary Individuals with homo zygous CCR5 allele mutations are resistant to HIV infection
+1502068584028 3-HighYield-temporary Individuals with hetero zygous CCR5 allele mutations display a slower rate of progression of HIV infection
+1502068621967 2-RelativelyHighYield Transmission of HIV occurs via bodily fluids
+1502069441823 2-RelativelyHighYield Once HIV is inside a cell, viral reverse transcriptase converts viral RNA to double-stranded DNA (dsDNA) This double-stranded DNA is inserted into the host cell genome by integrase, another viral enzy
+1502147310499 2-RelativelyHighYield p24 is the HIV capsid protein
+1506534677170 4-LowerYield p17 is the matrix protein of HIV
+1506795763113 1-HighYield Which gene is mutated in HIV protease inhibitor resistance ? pol gene
+1506805786448 3-HighYield-temporary HIV infects CD4+ helper T-cells, macrophages, and dendritic cells
+1506805847290 1-HighYield Which envelope protein on HIV functions to allow attachment to host CD4+ T cells ? gp120
+1506806776715 2-RelativelyHighYield HIV env encoded gp160 is first sent to the endoplasmic reticulum of the cell for processing
+1506807161520 1-HighYield Which enzyme allows for HIV dsDNA to integrate with host cell DNA ? Integrase
+1506807414184 1-HighYield Which enzyme is responsible for mature HIV virion formation from a large polypeptide ? Aspartate protease
+1523566648949 4-LowerYield Mutations in the env gene enable HIV to escape from host neutralizing antibodies
+1593878731477 - HIV and HTLV-1 are both retroviruses

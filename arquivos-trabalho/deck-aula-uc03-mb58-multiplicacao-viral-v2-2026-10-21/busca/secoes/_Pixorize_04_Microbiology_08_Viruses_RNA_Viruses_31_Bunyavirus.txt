@@ -1,0 +1,14 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::31_Bunyavirus (13 notas)
+1516558391491 4-LowerYield What type of viruses are bunyaviruses? Negative sense RNA
+1516558470012 5-LowYield Are bunyaviruses enveloped ? Yes
+1516558572168 5-LowYield Bunyaviruses have 3 circular segments
+1516558668778 5-LowYield Most of the bunyaviruses are also arboviruses*
+1516558873712 4-LowerYield Which bunyavirus is also a robovirus ? Hantavirus (Sin nombre)
+1516559030641 5-LowYield Hantavirus (Sin nombre) is transmitted through rodent urine/feces
+1516559070982 4-LowerYield Which virus causes hemorrhagic fever with renal syndrome (HFRS)? Hantavirus
+1516559313602 4-LowerYield Which virus causes cardiopulmonary syndrome (HCPS)? Hantavirus (sin nombre)
+1516559573641 4-LowerYield Hantavirus is a virus that causes prerenal azotemia
+1516559707782 4-LowerYield Hantavirus (HFRS) results in capillary leak , causing hypotension and ultimately renal failure
+1516559803599 4-LowerYield Hantavirus can result in hemorrhagic fever with renal syndrome
+1516559881375 5-LowYield Hantavirus (Sin nombre) belongs to the bunyaviridae family
+1516663881703 2-RelativelyHighYield The six negative sense RNA virus families with helical capsids include: Arenavirus Bunyavirus Paramyxovirus Orthomyxovirus Filovirus Rhabdovirus

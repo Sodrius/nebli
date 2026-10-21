@@ -1,0 +1,33 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::09_Herpes_Simplex_Virus_Diagnostics_and_Management (32 notas)
+1481562824130 4-LowerYield Kluver-Bucy syndrome is characterized by disinhibited behavior, such as hyperphagia, hypersexuality, and hyperorality
+1481562826674 4-LowerYield Bilateral lesions of the amygdala (and thus Klüver-Bucy syndrome ) are associated with HSV-1 encephalitis
+1488680054479 - Which blistering skin disorder is characterized by a targetoid rash that is typically raised or papular? Erythema multiforme
+1488680059805 - The targetoid appearance of erythema multiforme is due to central epidermal necrosis, surrounded by erythema
+1488680064613 - Erythema multiforme is a blistering skin disorder most commonly associated with HSV infection
+1502152099123 1-HighYield Cowdry bodies are located in the nucleus
+1502152318872 1-HighYield Cowdry bodies are eosino philic intra nuclear inclusions found in cells infected with organisms within the herpesviridae family
+1502152990415 2-RelativelyHighYield Keratoconjunctivitis is an ophthalmic complication of HSV-1
+1502153188370 1-HighYield HSV-1 is associated with temporal lobe encephalitis
+1502153296503 1-HighYield What is the most common cause of fatal sporadic encephalitis in the United States? HSV-1
+1502153345652 3-HighYield-temporary HSV-1 induced temporal lobe encephalitis can present as seizures, aphasia, and altered mental status
+1502153655230 1-HighYield Herpetic whitlow is a painful hand vesicle that occurs when the skin comes in contact with HSV-1 or HSV-2 (common in dentists )
+1502153845710 1-HighYield Erythema multiforme may appear 1 - 2 weeks after herpes simplex virus (HSV) infection
+1502153970488 1-HighYield Erythema multiforme is a result of HSV infection and appears as a " target lesion " with a pink-red ring around a pale center
+1502154620704 1-HighYield HSV- 2 can cause aseptic meningitis in adolescents and adults
+1502154870583 1-HighYield PCR is the gold standard used in the diagnosis of herpes simplex virus (HSV)
+1503861887862 1-HighYield Esophagitis with linear ulcerations is characteristic of CMV
+1503861910369 1-HighYield Esophagitis with "punched-out" ulcerations is characteristic of HSV-1
+1506290419188 2-RelativelyHighYield What viruses can be diagnosed with a Tzanck smear ? VZV, HSV, and CMV
+1506290563519 5-LowYield A(n) Tzanck smear showing multinucleated giant cells is characteristic of infections with VZV, HSV, and CMV
+1506725995852 1-HighYield What is the treatment of HSV encephalitis ? IV acyclovir
+1513034403955 - What is the gold standard for diagnosis of HSV encephalitis ? HSV PCR analysis of CSF
+1516475827100 1-HighYield Which virus/viral family will have nuclear , eosinophilic inclusions within cells ? Herpesviridae family (Cowdry bodies)
+1516578344011 - What is the likely diagnosis in an infant with a history of eczema that presents with fever , lymphadenopathy , and multiple painful vesicles with hemorrhagic crusting ? Gram stain of the lesions is n
+1520550073758 - What is the recommended management for a pregnant patient with an active genital HSV infection that presents in labor ? Cesarean delivery
+1545258923097 - What is the likely diagnosis ? Erythema multiforme
+1547906477936 - Herpes simplex virus (HSV) is definitively diagnosed with PCR or viral cultures
+1548594108466 - HSV lesions during labor = C-section No lesions during labor = vaginal delivery
+1550055988120 - Likely diagnosis? HSV
+1550879766586 - Herpes encephalitis presents with the following on CSF analysis : ↑ lymphocytes and RBCs Normal glucose ↑ protein
+1581259369271 - Patients with HIV and viral esophagitis more commonly present with odynophagia
+1585502300974 - Below is a T1-weighted MRI with high-intensity signal in the area of the temporal lobe

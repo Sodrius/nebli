@@ -1,0 +1,15 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::27_Mumps (14 notas)
+1463334134563 2-RelativelyHighYield What is a possible viral cause of orchitis in teenage males ? Mumps virus
+1482191438195 2-RelativelyHighYield In addition to parotitis , mumps may also present with orchitis, pancreatitis, and aseptic meningitis
+1506297199835 1-HighYield Which family of viruses is mumps a member of? Paramyxoviridae
+1506297317271 1-HighYield What type of vaccine is the MMR vaccine ? Live attenuated
+1506299399230 1-HighYield What are the 4 places that mumps is known to replicate? Parotid gland, testes, CNS, pancreas
+1506299510551 1-HighYield Which paramyxovirus can result in parotitis ? Mumps
+1506299652364 1-HighYield Which paramyxovirus can result in orchitis ( unilaterally )? Mumps
+1506299798295 1-HighYield Which paramyxovirus can result in aseptic meningitis ? Mumps
+1506299817676 1-HighYield Which paramyxovirus can result in pancreatitis ? Mumps
+1506299907967 1-HighYield Which viral virulence factors is mumps associated with? Hemagglutinin, F (fusion) protein, and neuraminidase
+1517182331172 - What is the likely diagnosis in an unvaccinated child that presents with fever and bilateral parotitis ? Mumps
+1517182412642 - What mumps complication occurs predominantly in post-pubertal males ? Orchitis
+1537381761281 2-RelativelyHighYield MMRV and influenza ( intranasal ) vaccines are contraindicated in immunodeficient and pregnant patients
+1538476945016 - Parotitis is a feature of mumps that presents with a swollen neck and parotid glands

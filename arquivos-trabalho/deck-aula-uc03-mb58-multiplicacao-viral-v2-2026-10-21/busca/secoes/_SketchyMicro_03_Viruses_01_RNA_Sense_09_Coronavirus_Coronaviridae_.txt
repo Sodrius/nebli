@@ -1,0 +1,35 @@
+# #AK_Step1_v12::#SketchyMicro::03_Viruses::01_RNA_(+)_Sense::09_Coronavirus_(Coronaviridae) (34 notas)
+1516222858044 1-HighYield What is the second most common cause of the common cold ? Coronavirus
+1516241721026 1-HighYield What type of virus is coronavirus ? Positive sense RNA
+1516242033603 1-HighYield Is coronavirus enveloped ? Yes
+1516242070729 1-HighYield Coronavirus is a positive-sense RNA virus with a(n) helical - shaped capsid
+1516242261236 1-HighYield Coronavirus is a virus that can cause acute bronchitis , eventually leading to acute respiratory distress syndrome (ARDS)
+1608907758096 - Coronavirus is a(n) positive -sense RNA virus that is enveloped
+1608907893953 - Low -pathogenicity coronavirus strains can cause the common cold
+1608907939580 - High -pathogenicity strains of coronavirus can cause MERS, SARS, and COVID-19
+1608908025916 - High -pathogenicity strains of coronavirus have zoonotic origins
+1608908079380 - Low -pathogenicity strains of coronavirus that cause the common cold are transmitted solely by humans
+1608908135312 - SARS-CoV is the cause of severe acute respiratory syndrome (SARS)
+1608908237186 - MERS-CoV is the cause of Middle East respiratory syndrome (MERS)
+1608908268526 - SARS-CoV-2 is the cause of COVID-19
+1608908406631 - The helical nucleocapsid of coronavirus is a(n) N protein bound to RNA genome
+1608908466625 - Major structural proteins of coronavirus include S , M , E , and N
+1608908508501 - The S glycoprotein of coronavirus is heavily glycosylated
+1608908651007 - Coronavirus binds to the angiotensin-converting enzyme 2 (ACE2) receptor on type II alveolar cells in the respiratory tract via the S glycoprotein
+1608908726392 - After viral uncoating , the positive-sense genomic RNA of coronavirus can be translated into 2 long polyproteins
+1608909035503 - After the replication-transcription complex is assembled, the positive-sense genomic RNA of coronavirus can be transcribed into negative -sense RNA
+1608909322339 - Subgenomic RNA of coronavirus can be used to make S, M, E, and N proteins
+1608909367152 - Full-length negative-sense RNA (template) is used to make new positive-sense RNA (progeny) of coronavirus
+1608909487566 - After translation , the S , M , and E proteins of coronavirus are transported to the Golgi apparatus
+1608909572651 - The N protein of coronavirus forms the nucleocapsid in the cytoplasm after associating with newly synthesized genomic RNA
+1608910000343 - After cleavage of the coronavirus long polyprotein by viral protease , these proteins assemble into the replication-transcription complex
+1608910179425 - The key member of the replication-transcription complex of coronavirus is the RNA-dependent RNA polymerase (RDRP)
+1608910298755 - The newly synthesized coronavirus viral proteins , nucleocapsid , and positive-sense progeny RNA bud from the Golgi apparatus
+1608910407576 - The fully functional virions of coronavirus from the Golgi are transported through a series of membranous vesicles to the cell membrane where they are released via exocytosis
+1608910462723 - Coronavirus is transmitted by airborne or droplet transmission
+1608910550129 - High -pathogenicity strains of coronaviruses can cause potentially fatal pneumonia
+1608910881828 - Patients who develop ARDS may require mechanical ventilation
+1608911149178 - The immune overdrive seen in ARDS in patients with coronavirus may be related to cytokine storm
+1608911203560 - Active coronavirus infection is detected using nucleic acid amplification testing (NAAT)
+1608911304571 - Previous coronavirus infections are detected using serologic assays
+1608911444935 - Active coronavirus infection can be diagnosed by detecting antigens (e.g., nucleocapsid proteins)

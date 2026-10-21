@@ -1,0 +1,41 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::14_Human_Immunodeficiency_Virus_(HIV) (40 notas)
+1502064775742 2-RelativelyHighYield Retroviruses (e.g., HIV) are diploid single-stranded RNA viruses
+1502066128205 2-RelativelyHighYield HIV is a retrovirus , which is a(n) diploid single-stranded positive sense RNA virus
+1502066300073 1-HighYield Does HIV have an envelope ? Yes
+1502066412218 1-HighYield The gag gene of HIV encodes p24 and p17
+1502066575758 1-HighYield The env gene of HIV encodes gp120 and gp41
+1502066667272 1-HighYield gp41 is the transmembrane protein of HIV , mediating viral-cell fusion and syncytia formation
+1502066766747 1-HighYield gp120 is the outer glycoprotein of HIV
+1502066834360 1-HighYield gp120 of HIV binds {{c2}} and the co-receptors CCR5 (primarily on macrophages ) and CXCR4 (primarily on T cells )
+1502066968224 1-HighYield The pol gene of HIV encodes the enzymes reverse transcriptase , aspartate protease , and integrase
+1502067509832 2-RelativelyHighYield The acute phase of HIV consists of flu or mono -like symptoms with generalized lymphadenopathy and fever
+1502067560663 1-HighYield The clinical latency period of HIV infection can last up to 10 years
+1502067746680 1-HighYield Stage 1 HIV is characterized by wide dissemination to lymphoid organs
+1502067814114 1-HighYield Stage 2 HIV is characterized by clinical latency . CD4+ count drops to < 500 cells/mm 3
+1502067896713 1-HighYield Stage 3 HIV is characterized by recurrent bacterial infections. CD4+ count drops to < 350 cells/mm 3
+1502068052536 1-HighYield The criteria for AIDS is a CD4 count < 200 cells/mm 3 or confirmed HIV status with AIDS-defining opportunistic infections such as Pneumocystis pneumonia (PCP) or Candida esophagitis
+1502068121454 1-HighYield Which AIDS-defining illness is caused directly by HIV ? Diffuse large B-cell lymphoma* (DLBCL)
+1502068331161 3-HighYield-temporary In early HIV infection, HIV gains entry into macrophages via binding to CD4 plus the coreceptor CCR5
+1502068440036 3-HighYield-temporary In late HIV infection, HIV gains entry into helper T-cells via binding to CD4 plus the coreceptor CXCR4
+1502068458514 3-HighYield-temporary Individuals with homo zygous CCR5 allele mutations are resistant to HIV infection
+1502068584028 3-HighYield-temporary Individuals with hetero zygous CCR5 allele mutations display a slower rate of progression of HIV infection
+1502068621967 2-RelativelyHighYield Transmission of HIV occurs via bodily fluids
+1502069185038 2-RelativelyHighYield Rev is a regulatory protein of HIV that regulates transport of unspliced viral RNA transcripts out of the nucleus
+1502069270600 3-HighYield-temporary Tat is a regulatory protein of HIV that transcriptionally activates other viral genes
+1502069311820 4-LowerYield Which two regulatory proteins of HIV are required for viral replication ? Rev and Tat
+1502069364234 2-RelativelyHighYield Nef is a cytoplasmic accessory protein of HIV that enhances viral replication through downregulation of CD4 and MHC I expression
+1502069441823 2-RelativelyHighYield Once HIV is inside a cell, viral reverse transcriptase converts viral RNA to double-stranded DNA (dsDNA) This double-stranded DNA is inserted into the host cell genome by integrase, another viral enzy
+1502069492941 1-HighYield The backbone of highly active antiretroviral therapy ( HAART ) are NRTIs such as zidovudine
+1502069963668 3-HighYield-temporary NRTIs insert themselves into the DNA strand being synthesized by reverse transcriptase , halting further elongation
+1502070062514 2-RelativelyHighYield NRTIs and NNRTIs both are reverse transcriptase inhibitors used in the treatment of HIV
+1502070156173 3-HighYield-temporary Protease inhibitors inhibit the enzyme responsible for cleaving proteins during viral replication
+1502070230172 1-HighYield Maraviroc is a(n) CCR5 inhibitor that inhibits HIV entrance into macrophages early in the disease course
+1502147310499 2-RelativelyHighYield p24 is the HIV capsid protein
+1502150081645 5-LowYield HIV-associated lipodystrophy can be treated by the GHRH analog tesamorelin
+1504223265364 - Antibiotic prophylaxis in HIV patients starting ART with CD4 + count < 50/mm 3 should include TMP-SMX*
+1506534677170 4-LowerYield p17 is the matrix protein of HIV
+1506535107169 1-HighYield What is the confirmatory test for HIV ? HIV-1/2 antibody differentiation immunoassay
+1506535130975 1-HighYield What test determines the amount of viral RNA in plasma ? Viral load
+1509813045719 1-HighYield Toxoplasmosis prophylaxis with TMP-SMX is initiated in HIV patients with a CD4 count ≤ 100 cells/mm 3 and positive T. gondii IgG serology
+1547902187372 2-RelativelyHighYield Rapid Diagnosis HIV / AIDS screening in infants < 18 months → HIV-1 NAT (viral load) ≥ 18 months → 4th generation antigen/antibody immunoassay
+1552864862676 - What is the best diagnostic test for HIV before seroconversion? HIV-1 NAT (viral load)

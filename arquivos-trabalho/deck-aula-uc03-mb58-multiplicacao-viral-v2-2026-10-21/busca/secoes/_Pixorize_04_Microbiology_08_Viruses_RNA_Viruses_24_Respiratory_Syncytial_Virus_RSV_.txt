@@ -1,0 +1,10 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::24_Respiratory_Syncytial_Virus_(RSV) (9 notas)
+1506297222604 1-HighYield Which family of viruses does respiratory syncytial virus (RSV) belong to? Pneumoviridae* (negative sense RNA)
+1506457318835 1-HighYield Respiratory syncytial virus (RSV) is typically seen in children < 2 years of age
+1506457483328 1-HighYield RSV uses the G protein in order to infect respiratory epithelial cells
+1506457525828 1-HighYield What is the most common cause of pneumonia in infants ? Respiratory syncytial virus (RSV)
+1506457578924 1-HighYield What is the most common cause of bronchiolitis in infants ? Respiratory syncytial virus (RSV)
+1506457588894 1-HighYield RSV contains the virulence factor F (fusion) protein, which allows the production of multinucleated giant cells
+1506457768755 2-RelativelyHighYield What is the treatment of respiratory syncytial virus (RSV) in adults ? Ribavirin
+1506457874779 2-RelativelyHighYield What is used for prevention of respiratory syncytial virus (RSV) in preterm infants ? Nirsevimab or palivizumab
+1537632149338 - Inflammation of the small airways / bronchioles usually caused by RSV is suggestive of bronchiolitis

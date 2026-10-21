@@ -1,0 +1,44 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::07_Additional_Antiretroviral_Therapies (43 notas)
+1462128186045 1-HighYield Insulin increases glucose transport to muscle and adipose tissue by directing the insertion of the GLUT-4 transporter into the cell membranes
+1502066968224 1-HighYield The pol gene of HIV encodes the enzymes reverse transcriptase , aspartate protease , and integrase
+1502070156173 3-HighYield-temporary Protease inhibitors inhibit the enzyme responsible for cleaving proteins during viral replication
+1506726438486 3-HighYield-temporary Acyclovir can cause crystalline nephropathy (renal side effect)
+1506783654169 5-LowYield Which type of HAART drug is dolutegravir? Integrase inhibitor
+1506783676307 5-LowYield Which type of HAART drug is elvitegravir? Integrase inhibitor
+1506783685484 4-LowerYield Which type of HAART drug is raltegravir? Integrase inhibitor
+1506783697218 5-LowYield Which type of HAART drug is atazanavir? Protease inhibitor
+1506783727082 5-LowYield Which type of HAART drug is darunavir? Protease inhibitor
+1506783796073 5-LowYield Which type of HAART drug is fosamprenavir? Protease inhibitor
+1506783803525 1-HighYield Which type of HAART drug is indinavir ? Protease inhibitor
+1506783808800 4-LowerYield Which type of HAART drug is lopinavir? Protease inhibitor
+1506783814346 1-HighYield Which type of HAART drug is ritonavir? Protease inhibitor
+1506783819179 1-HighYield Which type of HAART drug is saquinavir? Protease inhibitor
+1506783836022 3-HighYield-temporary Which type of HAART drug is delavirdine ? NNRTI
+1506783854533 3-HighYield-temporary Which type of HAART drug is efavirenz? NNRTI
+1506783862734 1-HighYield Which type of HAART drug is nevirapine? NNRTI
+1506789263570 1-HighYield Do NNRTIs require phosphorylation to be activated? No
+1506789392960 1-HighYield Non-nucleoside RTIs ( NNRTIs ) directly inhibit HIV reverse transcriptase by binding to a different site from NRTIs
+1506789519603 3-HighYield-temporary Do NNRTIs compete with nucleotides for binding to reverse transcriptase ? No
+1506789593161 3-HighYield-temporary NNRTIs can cause liver failure , with resulting jaundice cutaneously
+1506789859053 4-LowerYield Which HAART drugs are hepatotoxic ? NNRTIs, maraviroc
+1506789899586 4-LowerYield Which NNRTI is associated with vivid dreams and CNS symptoms (psychosis, drowsiness, headache)? Efavirenz
+1506790052664 5-LowYield Which NNRTIs are teratogenic ? Delavirdine, efavirenz
+1506790215427 2-RelativelyHighYield NNRTIs are associated with Stevens-Johnson syndrome, a severe cutaneous pathology associated with the sloughing of skin
+1506790313094 3-HighYield-temporary NNRTIs are associated with rash, that can manifest as a more severe pathology such as Stevens-Johnson syndrome
+1506795652147 1-HighYield Which HAART drugs prevent mature virion formation from large polypeptides ? Protease inhibitors
+1506795763113 1-HighYield Which gene is mutated in HIV protease inhibitor resistance ? pol gene
+1506796068456 1-HighYield Which class of HAART drugs can result in hyperglycemia due to insulin resistance ? Protease inhibitors
+1506796332132 3-HighYield-temporary Which HAART drugs can result in hyperlipidemia ? Protease inhibitors
+1506796584685 1-HighYield Which HAART drug classes commonly cause lipodystrophy ? Protease inhibitors & NRTIs
+1506796713223 1-HighYield Which HIV protease inhibitor can result in nephrolithiasis ? Indinavir
+1506796787523 3-HighYield-temporary Adequate hydration helps prevent nephrolithiasis with indinavir use (protease inhibitor)
+1506796830726 1-HighYield HIV protease inhibitors inhibit cytochrome P-450
+1506796939961 1-HighYield Which HIV protease inhibitor displays the most potent inhibition of CYP450 ? Ritonavir
+1506797025455 1-HighYield Rifampin is a CYP450 inducer and thus is contraindicated in HIV due to it decreasing HIV protease inhibitor serum concentrations
+1506807161520 1-HighYield Which enzyme allows for HIV dsDNA to integrate with host cell DNA ? Integrase
+1506807294544 1-HighYield What class of drugs inhibits HIV DNA integration into host cell genomes ? Integrase inhibitors
+1506807534113 1-HighYield What class of HAART drugs inhibits HIV mRNA formation? Integrase inhibitors
+1506807835841 1-HighYield Integrase inhibitors will inhibit HIV dsDNA integration into the host cell genome , preventing mRNA production
+1506807904457 1-HighYield Which HAART drugs can result in rhabdomyolysis ? Integrase inhibitors
+1506807973686 1-HighYield Integrase inhibitors can result in rhabdomyolysis , which will appear with elevated creatine kinase levels
+1514666847402 2-RelativelyHighYield Rash and hepatotoxicity are common to which NNRTIs ? All :) Delavirdine, efavirenz and nevirapine

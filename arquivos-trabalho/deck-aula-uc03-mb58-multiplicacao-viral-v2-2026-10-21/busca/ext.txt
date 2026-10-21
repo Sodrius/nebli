@@ -1,0 +1,138 @@
+### ciclo | Externos | (viral AND (uncoating OR penetration OR adsorption OR attachment)) | 0 notas
+### produtiva | Externos | (viral AND (permissive OR abortive OR productive)) | 0 notas
+### primer | Externos | (primer AND (viral OR virus)) | 0 notas
+### polyoma | Externos | (polyomavirus OR SV40 OR "T antigen") | 50 notas
+  1556148532313 [AnKingMCAT (An]  {{c1::Hypermutation}} is the term used to describe mutation of the {{c2:: antigen-binding site (variable region)}} on {{c2::an antibody }}.
+  1701947998760 [Cloze-AnKingMa]  Antibodies and Their Function Antibodies are glycoproteins belonging to the {{c1::immunoglobulin}} family . They interact specifically with {{c2:: antigenic determinants ::s (not antigen, mo
+  1701954636563 [Cloze-AnKingMa]  {{c1::Major Histocompatibility Complex (MHC)::x}} and Antigen Presentation {{c1::MHC::x}} Protein Complexes {{c1::MHC::s}} proteins are specialized integral membrane protein complexes involv
+  1701954765616 [Cloze-AnKingMa]  Major Histocompatibility Complex (MHC) and Antigen Presentation Role in Immune Rejection Initially recognized for their role in immune rejection of tissue or organ grafts. MHC is known as {{
+  1701955202700 [Cloze-AnKingMa]  Major Histocompatibility Complex (MHC) and Antigen Presentation Interaction with {{c1::T Lymphocytes::x}} {{c1:: T lymphocytes ::s (immune cell)}} are specialized to recognize both presented
+  1701955290812 [Cloze-AnKingMa]  MHC Molecule Synthesis and Function Synthesis of MHC Molecules MHC molecules , like other integral membrane protein complexes, are synthesized in the {{c1:: rough endoplasmic reticulum (ER) 
+  1701955420089 [Cloze-AnKingMa]  MHC Molecule Synthesis and Function MHC Class {{c3::I::x}} Protein Binding Before leaving the ER, MHC class {{c3::I::s}} proteins bind to peptide {{c1:: fragments ::s}} derived from {{c2:: p
+  1701955453079 [Cloze-AnKingMa]  MHC Molecule Synthesis and Function Immune Response to Altered Cells In cases where cells are virally infected or have proteins altered due to {{c1:: gene mutation }}, MHC class {{c1::I}} pr
+  1701955635903 [Cloze-AnKingMa]  MHC Class II Protein Synthesis and Function Interaction with {{c1::Endolysosomal::x}} {{c1::Vesicles::x}} During transport, Golgi -derived vesicles containing MHC class II complexes fuse wit
+  1701955861364 [Cloze-AnKingMa]  {{c1::Antigen-Presenting Cells (APCs)::x}} in Adaptive Immunity Role in Adaptive Immune Responses {{c1:: APCs }} are crucial in the adaptive immune system , working alongside {{c1::(T & B) l
+  1701955984551 [Cloze-AnKingMa]  Antigen-Presenting Cells (APCs) in Adaptive Immunity Types of professional APCs {{c1:: Mononuclear Phagocyte }} System : This includes {{c1:: macrophages }} and specialized {{c1::dendritic::
+  1701956124187 [Cloze-AnKingMa]  Antigen-Presenting Cells (APCs) in Adaptive Immunity Common Features of APCs Possess an active {{c1::endocytot}} ic system for {{c1::engulf::si}}ing antigens. Express MHC class {{c2::II}} mo
+  1701956192577 [Cloze-AnKingMa]  Antigen-Presenting Cells (APCs) in Adaptive Immunity Professional vs. Nonprofessional APCs Professional APCs : Include {{c1::dendritic}} cells, many {{c1::monocyte}}-derived cells like {{c1:
+  1701957666199 [Cloze-AnKingMa]  Characteristics and Function of {{c1::T::x}} Cells Longevity and Proportion in Blood {{c1::T}} cells are {{c2::long}}-lived lymphocytes. They constitute about {{c2::75::apprx, 20 50 80}}% of
+  1701957977658 [Cloze-AnKingMa]  Types and Functions of {{c1::T Lymphocytes::x}} {{c1::Helper T}} Cells ({{c1::Th}} Cells) Characterization : Identified by the presence of {{c2:: CD4 }}, a coreceptor that works with the {{c
+  1701958026050 [Cloze-AnKingMa]  Types and Functions of T Lymphocytes Role of CD4 and MHC Class {{c1::II::x}} CD4 acts as a {{c1::corecep}}tor with the TCR for binding MHC class {{c1::II}} molecules and the peptides they pr
+  1701958111687 [Cloze-AnKingMa]  Cytotoxic T Lymphocytes (CTLs) Characteristics {{c1:: CD8 +::x}}: CTLs are characterized by the presence of {{c1:: CD8 ::s}}, a coreceptor . Function : Their T-cell receptors (TCRs), along w
+  1701964014407 [Cloze-AnKingMa]  Cytotoxic T Lymphocytes (CTLs) Activation and {{c3::Proliferation::x}} CTLs are activated in the presence of {{c1:: interleukin-2 (IL-2) ::cytokine}}, which is typically produced by {{c1::Th
+  1701964073186 [Cloze-AnKingMa]  Cytotoxic T Lymphocytes (CTLs) Role in Immune Response Function as {{c1::Killer T}} Cells : CTLs attach to cells presenting the antigens (such as virus-infected cells) and initiate their {{c
+  1701964112186 [Cloze-AnKingMa]  Cytotoxic T Lymphocytes (CTLs) {{c1::Memory::x}} Cytotoxic T Cells Activation of CTLs also results in the formation of {{c1::memory}} cytotoxic T cells , which remain in the body to respond 
+  1701964607590 [Cloze-AnKingMa]  B Lymphocytes and B-Cell Receptors (BCRs) B-Cell Receptors (BCRs) BCRs on B lymphocytes are {{c1::mono}}mers of Ig{{c1::M}} or Ig {{c1:: D }}. Each B cell has about {{c1::150,000::x}} BCRs o
+  1701964744019 [Cloze-AnKingMa]  B Lymphocytes and B-Cell Receptors (BCRs) Antigen Binding and Processing BCRs can bind to antigens that are {{c1::free}} in solution , part of infectious agents , or bound to {{c1:: antibodi
+  1701964865035 [Cloze-AnKingMa]  B Lymphocytes and B-Cell Receptors (BCRs) Activation by {{c1::Helper T::x}} Cells A {{c1::helper T::s}} cell binds to the B cell presenting the antigen . After binding, the {{c1::helper T::s
+  1701965634521 [Cloze-AnKingMa]  Interaction with {{c1::Follicular Dendritic Cells (FDCs)::x}} Characteristics of {{c1::FDCs::x}} {{c1:: Follicular dendritic cells (FDCs) ::s}} are found in all {{c2::secondary lymphoid}} ti
+  1701970607876 [Cloze-AnKingMa]  TECs and {{c3::Thymocyte::x}} Development in the {{c3::Cortex::x}} Positive selection: Thymic epithelial cells (TECs) in the thymic {{c3:: cortex ::part}}'s cytoreticulum present peptides on
+  1701971884045 [Cloze-AnKingMa]  {{c2::Positive::x}} Selection of Thymocytes {{c2::Positive}} selection examines thymocytes: A cell's survival depends on its TCRs' ability to recognize and bind anti {{c1:: gens }} on {{c1::
+  1701971986185 [Cloze-AnKingMa]  {{c1::Apoptosis and Removal::x}} of Non-functional Cells (during {{c1:: positive ::x}} selection ) Non-functional thymocytes undergo {{c1:: apopto }} sis . These cells are then removed by {{
+  1701978261282 [Cloze-AnKingMa]  {{c3:: Negative ::x}} Selection in the Thymic {{c1::Medulla::x}} In the thymic {{c1::medulla::cortex or medulla}} , T cells with functional TCRs encounter antigens on cytoreticular {{c2::TEC
+  1701978608019 [Cloze-AnKingMa]  Role of Medullary TECs and {{c1::Aire::x}} Gene Medullary TECs express high levels of the {{c1::Aire::s}} gene ( {{c1::auto}}immune regulator). The {{c1::Aire::s}} gene promotes expression o
+  1701978632519 [Cloze-AnKingMa]  Dendritic Cells in Antigen Presentation Dendritic cells play a major role in {{c1::presen}}ting {{c1::tissue}}-specific antigens to developing thymocytes . This process ensures that T cells 
+### hpv | Externos | (HPV AND (E6 OR E7 OR E1 OR E2)) | 4 notas
+  1609090695944 [Cloze-Lightyea]  Factors that attenuate hypoxic pulmonary vasoconstriction (HPV) = {{c1::alkalosis}}, {{c1::hypocapnia}}, {{c1::hypothermia}}, {{c2::↑ CO (↑ SvO2)}}, {{c1::volatiles}}. Factors that potentiat
+  1609090771540 [Cloze-Lightyea]  Increased cardiac output {{c1::increases}} mixed venous O 2 tension which causes {{c1::attenuation::potentiation/attenuation}} of HPV.
+  1705345443260 [Cloze-Lightyea]  Volatiles {{c1::attentuate::potentiate/attenuate}} hypoxic pulmonary vasoconstriction (HPV) especially at MAC >{{c1::1.5}}.
+  1712689845947 [Cloze-Lightyea]  Volatiles only attenuate hypoxic pulmonary vasoconstriction (HPV) if MAC is >{{c1::1}}.
+### adeno | Externos | (adenovirus AND (replicat* OR primer OR terminal)) | 0 notas
+### herpes | Externos | (herpes* AND (circular* OR "rolling circle" OR replicat*)) | 0 notas
+### pox | Externos | (poxvirus AND (cytoplasm OR polymerase OR replicat*)) | 0 notas
+### parvo | Externos | (parvovirus AND (hairpin OR replicat* OR polymerase)) | 0 notas
+### rna | Externos | (RdRp OR "RNA-dependent RNA" OR "RNA polymerase") AND virus | 1 notas
+  1554006237655 [AnKingMCAT (An]  A {{c1::positive (coding strand)::positive or negative}} sense RNA strand is itself an mRNA and can be translated {{c2:: directly }} into a protein.
+### reovirus | Externos | (reovirus OR reoviridae OR segmented) | 4 notas
+  1473371147825 [LabValue]  Hematologic: Segmented neutorphils
+  1702231182251 [Cloze-AnKingMa]  Large Intestine: Structure and Function Overview Function : Absorbs water and electrolytes, forms {{c1::indigestible}} material into feces. Regions : {{c2:: Cecum }}: With {{c2::ileocecal va
+  1702231576196 [Cloze-AnKingMa]  Large Intestine: Structure and Function Structural Features Mucosa : Lacks {{c1::Villi}}: Unlike the small intestine . No Major {{c1::Folds}}: Except in the {{c2::rectum}}. Diameter : Greate
+  1702233842140 [Cloze-AnKingMa]  Large Intestine: Structure and Function {{c7::Mucosal}} Composition {{c1:: Tubular Intestinal Glands }}: Penetrate the mucosa throughout the large bowel. Epithelial {{c6::Stem}} Cells : Loca
+### retro | Externos | (retrovirus AND ("reverse transcriptase" OR integrase OR provirus)) | 1 notas
+  1554006299221 [AnKingMCAT (An]  Retroviruses have {{c2::single}}-stranded {{c1::RNA}} genomes.
+### hbv | Externos | (hepatitis AND B AND ("reverse transcri*" OR pregenomic OR partially)) | 0 notas
+### inclusao | Externos | (inclusion AND (viral OR virus OR bodies)) | 1 notas
+  1701789700099 [Cloze-AnKingMa]  Perikarya (Neuronal Cell Bodies) {{c1::Micro}}tubules, {{c1::Actin}} Filaments, and {{c1:: Intermediate ::s }} Filaments are abundant in perikarya. {{c2:: Neurofilaments }}: {{c1::Intermedia
+### liberacao | Externos | (virus AND (budding OR lysis OR syncyti* OR release)) | 16 notas
+  1349477488415 [Anatomy]  Facial Nerve Branches
+  1554006299221 [AnKingMCAT (An]  Retroviruses have {{c2::single}}-stranded {{c1::RNA}} genomes.
+  1611603341336 [Cloze-Lightyea]  A small percentage of patients (mainly immunosuppressed patients and those on long-term hemodialysis regimens) become asymptomatic infectious carriers following infection with hepatitis {{c1
+  1701946117619 [Cloze-AnKingMa]  Antimicrobial Chemicals in Innate Immunity Leukocytes and specific tissue barrier cells produce a range of antimicrobial chemicals, which are key components of innate immunity. These include
+  1701952598221 [Cloze-AnKingMa]  Immunoglobulin A (IgA) Location : Predominantly found in {{c1::exo}} crine secretions . Structure : Exists in a {{c3::di::s}} meric form , with the {{c3::heavy}} chains of {{c3::two::s}} mon
+  1701952674784 [Cloze-AnKingMa]  Immunoglobulin M (IgM) Blood Concentration : Constitutes about {{c1::5 - 10::apprx. 10 50 90}}%* of blood immunoglobulin. Structure : Typically in a {{c2::penta}} meric form , united by a {{
+  1701952972904 [Cloze-AnKingMa]  Immunoglobulin E (IgE) Form : Typically a {{c1:: monomer }}. Abundance : Much {{c1::less::more or less}}* abundant in circulation compared to other immunoglobulin classes. Binding : Exists b
+  1701953543099 [Cloze-AnKingMa]  Immunoglobulin D (IgD) Abundance : The {{c1:: least }} abundant immunoglobulin in plasma. Understanding : Relatively less understood compared to other antibody classes. Structure and Locatio
+  1701953676207 [Cloze-AnKingMa]  Functions of {{c1::IgG::x}} and {{c1::IgA::x}} Antibodies Antigen-Binding Sites {{c2::Neutraliza}}tion : Ig{{c1::G}} and Ig{{c1::A}} antibodies can bind to and {{c2:: neutralize ::x}} viral 
+  1701953769955 [Cloze-AnKingMa]  Fc Portion Functions in Innate Immunity Complement Activation Antigen-antibody complexes containing Ig{{c1::G}} or Ig{{c1::M}} activate the complement system . Complement activation leads to
+  1701953888050 [Cloze-AnKingMa]  {{c1::Fc::x}} Portion Functions in Innate Immunity {{c1:: Opsonization }} = process where pathogens are marked ( by antibodies or complement proteins ) for destruction by {{c2::phagocytes::g
+  1701954484374 [Cloze-AnKingMa]  Fc Portion Functions in Innate Immunity {{c3::NK Cell::x}} Activation Antibodies (IgG) bound to antigens on {{c2::virus}}-infected cells (and certain {{c2::tumor}} cells) are recognized by {
+  1701958111687 [Cloze-AnKingMa]  Cytotoxic T Lymphocytes (CTLs) Characteristics {{c1:: CD8 +::x}}: CTLs are characterized by the presence of {{c1:: CD8 ::s}}, a coreceptor . Function : Their T-cell receptors (TCRs), along w
+  1701964014407 [Cloze-AnKingMa]  Cytotoxic T Lymphocytes (CTLs) Activation and {{c3::Proliferation::x}} CTLs are activated in the presence of {{c1:: interleukin-2 (IL-2) ::cytokine}}, which is typically produced by {{c1::Th
+  1701964073186 [Cloze-AnKingMa]  Cytotoxic T Lymphocytes (CTLs) Role in Immune Response Function as {{c1::Killer T}} Cells : CTLs attach to cells presenting the antigens (such as virus-infected cells) and initiate their {{c
+  1701964112186 [Cloze-AnKingMa]  Cytotoxic T Lymphocytes (CTLs) {{c1::Memory::x}} Cytotoxic T Cells Activation of CTLs also results in the formation of {{c1::memory}} cytotoxic T cells , which remain in the body to respond 
+### antiviral | Externos | (antiviral AND (mechanism OR polymerase OR inhibit*)) | 0 notas
+### aciclovir | Externos | (acyclovir OR aciclovir) | 3 notas
+  1609365416496 [Cloze-Lightyea]  During an initial childhood chickenpox infection , the varicella-zoster virus (VZV) infects {{c1::dorsal root ganglia}}, where it remains latent until reactivation.
+  1609365501603 [Cloze-Lightyea]  Acute herpes zoster , which represents VZV reactivation, manifests as an erythematous vesicular rash in a {{c1::dermatomal}} distribution that is usually associated with severe pain.
+  1609365553505 [Cloze-Lightyea]  Immunocompromised patients with disseminated herpes zoster infection (nondermatomal distribution of vesicles) require {{c1::intravenous acyclovir}} therapy .
+### foscarnet | Externos | (foscarnet OR cidofovir OR ganciclovir) | 2 notas
+  1609365416496 [Cloze-Lightyea]  During an initial childhood chickenpox infection , the varicella-zoster virus (VZV) infects {{c1::dorsal root ganglia}}, where it remains latent until reactivation.
+  1609365501603 [Cloze-Lightyea]  Acute herpes zoster , which represents VZV reactivation, manifests as an erythematous vesicular rash in a {{c1::dermatomal}} distribution that is usually associated with severe pain.
+### nrti | Externos | (NRTI OR "nucleoside reverse" OR zidovudine OR lamivudine) | 1 notas
+  1609368918885 [Cloze-Lightyea]  The recommended adult maximum daily limit for acetaminophen is {{c1::3000 mg/d}}
+### nnrti | Externos | (NNRTI OR efavirenz OR nevirapine) | 0 notas
+### protease | Externos | ("protease inhibitor" OR "protease inhibitors") | 1 notas
+  1606347742733 [Cloze-Lightyea]  The effects of alfentanil may be prolonged when used alongside {{c1::erythromycin::antibiotic}}.
+### integrase | Externos | ("integrase inhibitor" OR raltegravir OR dolutegravir) | 0 notas
+### neuraminidase | Externos | (oseltamivir OR zanamivir OR neuraminidase) | 0 notas
+### baloxavir | Externos | (baloxavir OR "endonuclease") | 2 notas
+  1554351978294 [AnKingMCAT (An]  {{c1::Nucleotide excision repair::... repair}} fixes {{c2:: helix-deforming lesions}} of DNA such as {{c3::Thymine dimers}}.
+  1554352281811 [AnKingMCAT (An]  {{c1::Base excision repair::... repair}} fixes {{c2:: nondeforming lesions::type of lesions}} of the DNA helix such as {{c3::cytosine deamination}} by {{c3::removing the base, leaving an apu
+### covid | Externos | (remdesivir OR nirmatrelvir OR paxlovid OR molnupiravir OR tocilizumab) | 0 notas
+### haart | Externos | (HAART OR PrEP OR enfuvirtide OR maraviroc) | 666 notas
+  1349477488496 [Anatomy]  Male Perineum and Penis
+  1527609733547 [Cloze-b12d6]  What is this called? {{c1:: Prepatellar bursitis }}
+  1543596224274 [AnatoKingOverh]  {{c1::Prepuce of the clitoris}}
+  1543596917069 [AnatoKingOverh]  {{c1::prepuce of the penis}}
+  1549128187245 [AnatoKingOverh]  {{c1::Prepuce; Foreskin of penis [Preputium penis]}}
+  1549128235234 [AnatoKingOverh]  {{c1::Frenulum of prepuce of penis [Frenulum preputii]}}
+  1549132770435 [AnatoKingOverh]  {{c1::Prepuce of clitoris [Praeputium clitoridis]}}
+  1553961868233 [AnKingMCAT (An]  The {{c2::nucleolus}} makes {{c1::ribosomes}}.
+  1553961893520 [AnKingMCAT (An]  Peroxisomes {{c1::break down}} material.
+  1553961912196 [AnKingMCAT (An]  The {{c1::smooth::smooth or rough}} ER is involved in {{c2::detox and also in lipid formation}}.
+  1553961921675 [AnKingMCAT (An]  The {{c1::Golgi Apparatus::organelle}} {{c2::modifies and distributes}} proteins.
+  1553963699499 [AnKingMCAT (An]  {{c2:: Centrioles }} contain 9 triplets of {{c1::microtubules}} and they pull {{c1::chromosomes}} apart.
+  1553995284585 [AnKingMCAT (An]  {{c2::Microfilaments}} are the smallest of the three main components that make up the cell's {{c1::cytoskeleton}}.
+  1553995510621 [AnKingMCAT (An]  {{c2::Microtubules}} help the cell {{c1::resist}} compression forces.
+  1553997217910 [AnKingMCAT (An]  This is an example of {{c1::simple squamous}} epithelial tissue.
+  1554002509530 [AnKingMCAT (An]  This is an example of {{c1::simple cuboidal}} epithelial tissue.
+  1554002532174 [AnKingMCAT (An]  This is an example of {{c1::simple columnar}} epithelial tissue
+  1554002560847 [AnKingMCAT (An]  This is an example of {{c1::pseudostratified columnar}} epithelial tissue.
+  1554002592425 [AnKingMCAT (An]  This is an example of {{c1::stratified squamous}} epithelial tissue
+  1554002615621 [AnKingMCAT (An]  This is an example of {{c1::stratified cuboidal}} epithelial tissue.
+  1554002638271 [AnKingMCAT (An]  This is an example of {{c1::stratified columnar}} epithelial tissue.
+  1554002654867 [AnKingMCAT (An]  This is an example of {{c1::transitional}} epithelial tissue.
+  1554002705124 [AnKingMCAT (An]  Bone, cartilage, tendon, blood, and adipose are examples of {{c1::connective}} tissue.
+  1554003098224 [AnKingMCAT (An]  Epithelial tissue covers {{c1::internal (along the intestinal tract, the bronchi, etc)}} and {{c1::external (ie the upper layers of the epithelium - the skin)}} surfaces of the body.
+  1554003851868 [AnKingMCAT (An]  Gram {{c2::+}} is {{c1::purple::color}} and has a {{c1::thick::thick or thin}} wall.
+  1554003946873 [AnKingMCAT (An]  Gram {{c2::-}} is {{c1::pink / red::color}} and has a {{c1::thin::thick or thin}} wall.
+  1554005491948 [AnKingMCAT (An]  {{c1::Prions}} are {{c2::infectious proteins}} and can trigger {{c2::misfolding}}.
+  1554005504798 [AnKingMCAT (An]  {{c2:: Viroids }} are plant pathogens that lack a {{c1:: protein coat ( capsid) }} and have a {{c1:: circular , RNA }} genome .
+  1554006092985 [AnKingMCAT (An]  {{c1::Virions}} are individual virus particles that are found {{c2::extracellularly::where?}}.
+  1554010061006 [AnKingMCAT (An]  During the {{c1::G 1 phase::cell cycle phase}}, cells synthesize {{c2::organelles, mRNA, and proteins}}.
+### sofosbuvir | Externos | (sofosbuvir OR ribavirin OR NS5A OR NS5B OR "NS3/4A") | 0 notas
+_B_B_14_Infectious_Disease_06_Viruses_08_Antiviral_Drugs_Extra.txt
+_Bootcamp_Microbiology_27_Basics_of_Virology_02_Mechanisms_of_Viral_Infectivity.txt
+_Bootcamp_Microbiology_27_Basics_of_Virology_03_Viral_Genetics.txt
+_Bootcamp_Microbiology_39_Antivirals_01_Respiratory_Antiviral_Therapy.txt
+_Bootcamp_Microbiology_39_Antivirals_02_HSV_and_VZV_Antiviral_Therapy.txt
+_Bootcamp_Microbiology_39_Antivirals_03_Additional_Herpetic_Antiviral_Therapy.txt
+_Bootcamp_Microbiology_39_Antivirals_04_HIV_Antiretroviral_Pharmacology.txt
+_Bootcamp_Microbiology_39_Antivirals_05_Antiretroviral_Attachment_and_Fusion_Inhibitors.txt
+_Bootcamp_Microbiology_39_Antivirals_06_Antiretroviral_Nucleoside_Reverse_Transcriptase_Inhibitors.txt
+_Bootcamp_Microbiology_39_Antivirals_07_Additional_Antiretroviral_Therapies.txt
+_Bootcamp_Microbiology_39_Antivirals_08_HIV_Antiretroviral_Management.txt
+_Bootcamp_Microbiology_39_Antivirals_09_Hepatitis_B_Antiviral_Therapy.txt
+_Bootcamp_Microbiology_39_Antivirals_10_Hepatitis_C_Antiviral_Therapy.txt
+_FirstAid_03_Microbiology_05_Virology_08_Receptors_used_by_viruses.txt
+_Physeo_06_Micro_01_Fundamentals_08_Viral_Genomes_Replication.txt

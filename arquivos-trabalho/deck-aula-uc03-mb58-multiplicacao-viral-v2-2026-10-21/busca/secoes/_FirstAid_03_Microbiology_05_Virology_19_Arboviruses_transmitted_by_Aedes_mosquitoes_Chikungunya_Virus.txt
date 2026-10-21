@@ -1,0 +1,8 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::19_Arboviruses_transmitted_by_Aedes_mosquitoes::*Chikungunya_Virus (7 notas)
+1516237852309 3-HighYield-temporary Arboviruses are a class of viruses that have arthropod vectors
+1516238131776 3-HighYield-temporary Any virus that is transmitted by mosquitoes , fleas , or ticks is said to be a(n) arbovirus
+1516238226677 2-RelativelyHighYield Arboviruses all cause encephalitis and fever
+1516238372967 5-LowYield The togavirus family includes Eastern equine encephalitis, Western equine encephalitis, Venezuelan equine encephalitis, and Chikungunya virus
+1516238643613 4-LowerYield Arboviruses present with symptoms such as fever , altered mental status , seizures, and cranial nerve palsies
+1522430399029 4-LowerYield Dengue fever and chikungunya viral infections typically occur simultaneously, as both are transmitted by the Aedes mosquito
+1587426861915 5-LowYield The hallmark of Chikungunya fever is severe joint symptoms

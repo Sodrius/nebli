@@ -1,0 +1,19 @@
+# #AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::07_HIV_Drugs::Extra (18 notas)
+1467683795991 - A(n) nucleoTide is a base plus a sugar (ribose or deoxyribose) plus phosphate
+1502066412218 1-HighYield The gag gene of HIV encodes p24 and p17
+1502069441823 2-RelativelyHighYield Once HIV is inside a cell, viral reverse transcriptase converts viral RNA to double-stranded DNA (dsDNA) This double-stranded DNA is inserted into the host cell genome by integrase, another viral enzy
+1502069492941 1-HighYield The backbone of highly active antiretroviral therapy ( HAART ) are NRTIs such as zidovudine
+1502070230172 1-HighYield Maraviroc is a(n) CCR5 inhibitor that inhibits HIV entrance into macrophages early in the disease course
+1506785609205 1-HighYield Zidovudine and stavudine are associated with lipodystrophy
+1506789519603 3-HighYield-temporary Do NNRTIs compete with nucleotides for binding to reverse transcriptase ? No
+1506790116654 4-LowerYield NNRTIs have varying effects on CYP450 and thus may have many drug interactions
+1506796421475 1-HighYield What drug side effect presents with increased central adiposity with thin legs ? Lipodystrophy
+1506796584685 1-HighYield Which HAART drug classes commonly cause lipodystrophy ? Protease inhibitors & NRTIs
+1506796787523 3-HighYield-temporary Adequate hydration helps prevent nephrolithiasis with indinavir use (protease inhibitor)
+1506796830726 1-HighYield HIV protease inhibitors inhibit cytochrome P-450
+1506806433678 1-HighYield Maraviroc inhibits gp120 of HIV binding to the chemokine receptor CCR5 (macrophages and T-cells)
+1506806663801 1-HighYield Which HAART drug binds to gp41 ? Enfuvirtide
+1506806715774 1-HighYield Enfuvirtide binds gp41 of HIV, inhibiting viral cell fusion with host cells
+1514665641707 1-HighYield Zidovudine (ZDV/AZT) can cause a(n) megaloblastic anemia and agranulo cytosis
+1514666847402 2-RelativelyHighYield Rash and hepatotoxicity are common to which NNRTIs ? All :) Delavirdine, efavirenz and nevirapine
+1514671566113 3-HighYield-temporary Enfuvirtide and maraviroc are used in patients with treatment-resistant HIV

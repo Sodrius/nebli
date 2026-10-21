@@ -1,0 +1,35 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::19_Hepatitis_B_Virus_Pathogenesis_and_Clinical_Manifestations (34 notas)
+1471806188325 3-HighYield-temporary Polyarteritis nodosa (PAN) is a(n) medium-vessel vasculitis
+1471806201823 1-HighYield Polyarteritis nodosa (PAN) is a necrotizing vasculitis that involves most organs , except the lungs
+1471806210220 2-RelativelyHighYield Polyarteritis nodosa may present with hypertension due to involvement of the renal artery
+1471806240278 1-HighYield Polyarteritis nodosa (PAN) is a necrotizing vasculitis that is associated with positive serum HBsAg in 30% of patients
+1471806250450 1-HighYield Early lesions of polyarteritis nodosa (PAN) are characterized by transmural inflammation with fibrinoid necrosis
+1471806263616 1-HighYield Late lesions of polyarteritis nodosa (PAN) are characterized by fibrosis, leading to vessel narrowing
+1471806267906 1-HighYield The combination of dilatation (aneurysms) and narrowing (fibrosis) in polyarteritis nodosa (PAN) gives blood vessels a(n) "string of pearls" appearance on imaging
+1471806277667 1-HighYield Polyarteritis nodosa (PAN) is characterized by innumerable renal microaneurysms and spasms on arteriogram
+1475363987466 2-RelativelyHighYield Membranous nephropathy is characterized by diffuse capillary and GBM thickening on light microscopy
+1475364023607 1-HighYield Membranous nephropathy is characterized by subepithelial deposits with a(n) ' spike and dome ' appearance on electron microscopy
+1486519322563 3-HighYield-temporary Jaundice is a yellow discoloration of the skin and/or sclera
+1486591284504 2-RelativelyHighYield Risk factors for hepatocellular carcinoma include chronic hepatitis (e.g., HBV, HCV)
+1487207175248 1-HighYield Serum sickness is an immune complex disease in which antibodies to foreign serum proteins are produced
+1487207181602 1-HighYield Serum sickness-like reactions (SSLRs) are associated with infections (e.g., HBV) and some drugs acting as haptens (e.g., penicillin)
+1506551225497 1-HighYield Hepatitis B is from the hepadnaviridae family
+1506551385636 1-HighYield What type of virus is hepatitis B ? DNA
+1506551427767 1-HighYield Does hepatitis B have an envelope ? Yes
+1506551469394 1-HighYield Where does hepatitis B virus replicate ? Both nucleus and cytoplasm :)
+1506551550710 1-HighYield Hepatitis B virus is partially double -stranded
+1506551774430 2-RelativelyHighYield Upon entry into the cell nucleus, HBV DNA-polymerase completes the partially dsDNA
+1506551855396 3-HighYield-temporary Once the dsDNA of HBV is complete, host RNA polymerase transcribes mRNA from the dsDNA
+1506551930834 3-HighYield-temporary After mRNA is produced, HBV reverse transcriptase produces progeny dsDNA from mRNA
+1506552065089 2-RelativelyHighYield Hepatitis B can be transmitted from mother to baby during delivery
+1506552454301 2-RelativelyHighYield Hepatitis B virus can present similar to serum sickness , with fever , rash , and arthralgias
+1506552739959 1-HighYield Polyarteritis nodosa associated with hepatitis B virus can affect the vessels of the kidney, resulting in hypertension and decreased GFR
+1506552876137 2-RelativelyHighYield Hepatitis B virus results in membranous glomerulonephropathy transitioning to membranoproliferative glomerulonephropathy
+1506554186856 3-HighYield-temporary Chronic HBV infection can result in cirrhosis
+1506554976089 2-RelativelyHighYield What is the shape of the hepatitis B virus genome? Circular
+1509300714526 1-HighYield Which reaction to monoclonal antibodies includes skin rash, fever, and arthralgias ? Serum sickness
+1523915429557 3-HighYield-temporary Upon cellular entry, partially dsDNA of HBV is repaired and used for transcription
+1567713671972 4-LowerYield What vasculitis may present with palpable purpura , livedo reticularis and subcutaneous nodules ? Polyarteritis nodosa (seen in 33% of patients)
+1580587134001 2-RelativelyHighYield Hepatitis B virus may cause hepatocellular carcinoma without cirrhosis , but usually occurs via progression from cirrhosis
+1582564331167 - Up to 50% of cases of hepatocellular carcinoma (HCC) occur secondary to chronic HBV infection
+1582854828887 3-HighYield-temporary Hepatitis B infections are more likely to cause membranous glomerulonephritis

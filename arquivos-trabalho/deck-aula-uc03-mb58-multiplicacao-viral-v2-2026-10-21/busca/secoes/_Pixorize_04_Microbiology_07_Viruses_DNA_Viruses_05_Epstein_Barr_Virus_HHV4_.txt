@@ -1,0 +1,24 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::07_Viruses-DNA_Viruses::05_Epstein-Barr_Virus_(HHV4) (23 notas)
+1403140169070 1-HighYield What pathogen is the most common etiology of infectious mononucleosis ? EBV (HHV-4)
+1403140255270 1-HighYield Infectious mononucleosis due to EBV infection presents with fever , hepatosplenomegaly , pharyngitis , and lymphadenopathy
+1403140461354 1-HighYield Infectious mononucleosis is a disease caused by EBV that is also commonly referred to as " kissing disease " as it is often seen in teens and young adults
+1403140930710 1-HighYield Which herpesvirus is associated with nasopharyngeal carcinoma ? EBV (HHV-4)
+1403294217650 2-RelativelyHighYield Primary CNS lymphoma is a lymphoma often associated with EBV that can present as focal/solitary lesions, thereby differentiating it from toxoplasmosis
+1480564028314 2-RelativelyHighYield EBV infection results in lymphocytosis comprised of reactive CD8+ T cells
+1480564035597 1-HighYield The CD8 + T-cell response in EBV infection leads to splenomegaly
+1480564116452 2-RelativelyHighYield Epstein-Barr virus (EBV) remains dormant in B cells , which increases risk for lymphoma , especially if immunodeficiency develops (e.g., HIV )
+1481335224891 1-HighYield Lymphadenopathy (LAD) refers to enlarged lymph nodes
+1481335525711 1-HighYield Endemic Burkitt lymphoma is associated with Epstein-Barr virus (EBV) infection
+1489345373426 1-HighYield Aminopenicillins can cause a(n) maculopapular rash if given in the setting of viral illnesses , such as EBV infectious mononucleosis
+1496159344591 2-RelativelyHighYield Which oncogenic microbe is associated with nasopharyngeal carcinoma , post-transplant lymphoproliferative disease , and certain lymphomas (e.g., endemic Burkitt, primary CNS)? Epstein-Barr virus (EBV)
+1503853224031 1-HighYield Epstein-Barr virus is part of the herpesviridae family
+1503853483744 1-HighYield Epstein-Barr virus causes monospot positive infectious mononucleosis
+1503853508872 1-HighYield Epstein-Barr virus is primarily transmitted through saliva or respiratory secretions
+1503853578292 2-RelativelyHighYield Epstein-Barr virus is associated with fatigue, fever, post erior cervical lymphadenopathy , pharyngitis , and hepatosplenomegaly
+1503853789736 1-HighYield Epstein-Barr virus is associated with Downey type II atypical CD8+ cytotoxic T cells on blood smear
+1503854280231 4-LowerYield Epstein-Barr virus first infects the oropharyngeal epithelium
+1503854580495 1-HighYield T-cell proliferation in Epstein-Barr virus may result in (hepato) splenomegaly
+1503855029259 2-RelativelyHighYield Epstein-Barr virus (EBV) binds to CD21 (C3d receptor; CR2) on B-cells , causing B-cell proliferation and heterophile antibody production
+1503855625731 1-HighYield Which cause of pharyngitis is more commonly seen in late teens and adults ? EBV (infectious mononucleosis)
+1503856816924 1-HighYield Epstein-Barr virus is associated with the endemic (African) form of Burkitt lymphoma
+1503857167545 1-HighYield Nasopharyngeal carcinoma is a complication of Epstein-Barr virus in patients of Asian descent

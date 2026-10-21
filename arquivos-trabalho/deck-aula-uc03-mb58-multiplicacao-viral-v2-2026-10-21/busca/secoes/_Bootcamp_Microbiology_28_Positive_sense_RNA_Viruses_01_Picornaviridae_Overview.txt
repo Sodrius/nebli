@@ -1,0 +1,24 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::01_Picornaviridae_Overview (23 notas)
+1481771512187 1-HighYield Common viral causes of meningitis include enteroviruses (especially coxsackievirus) and HSV-2
+1502063631440 2-RelativelyHighYield All naked viruses have icosahedral capsids
+1506608955267 1-HighYield What family of viruses does HAV belong to? Picornaviridae
+1506609085427 2-RelativelyHighYield What type of viruses are picornaviruses ? Positive sense RNA
+1506609314164 1-HighYield Do picornaviruses have an envelope ? No (naked)
+1506609368498 1-HighYield What is the route of transmission of most picornaviruses ? Fecal-oral
+1506609599866 2-RelativelyHighYield Picornaviruses produce a large polyprotein product (inactive) that is cleaved into smaller subunits (active)
+1506609811863 1-HighYield What family of viruses do enteroviruses belong to? Picornaviridae
+1506609930801 1-HighYield What family of viruses do rhinoviruses belong to? Picornaviridae
+1506609946404 1-HighYield Which picornavirus can cause hepatosplenomegaly ? Hepatitis A virus (HAV)
+1506610040227 1-HighYield What are the three common enteroviruses (picornaviridae family)? Coxsackie A/B, echovirus, and poliovirus*
+1506610101347 1-HighYield Which type of meningitis is caused by a non-bacterial organism ? Aseptic meningitis
+1506610241044 1-HighYield What group of viruses are the most common cause of aseptic meningitis ? Enteroviruses (picornaviridae family)
+1506610615157 1-HighYield Hepatitis A virus is acid-stable
+1506627151740 3-HighYield-temporary Picornaviruses have viral proteases which cleave the large translated polypeptide into functional viral proteins
+1516217887063 2-RelativelyHighYield Poliovirus is part of the picornaviridae family
+1516218404816 3-HighYield-temporary Poliovirus is acid-stable
+1516219383663 2-RelativelyHighYield Poliovirus is a rare cause of aseptic (viral) meningitis
+1516220099300 4-LowerYield Which cause of meningitis can also lead to myalgia and paralysis ? Poliovirus
+1516220203631 1-HighYield Coxsackievirus is part of the picornaviridae family
+1516222135232 1-HighYield Rhinovirus is acid-labile
+1516222208131 2-RelativelyHighYield What is the route of transmission of rhinovirus ? Respiratory droplets, fomites
+1516222636401 2-RelativelyHighYield Rhinovirus causes a(n) upper respiratory tract infection

@@ -1,0 +1,15 @@
+# #AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::02_DNA_Viruses::Extra (14 notas)
+1394242887061 1-HighYield What urogenital disorders are associated with low-risk HPV subtypes? Condylomata / warts
+1502152021975 2-RelativelyHighYield Most DNA viruses replicate in the nucleus
+1502571339484 3-HighYield-temporary The Cowpox virus is transmitted through contact with infected cow udders
+1511225854804 - What causes anal cancer? HPV
+1516851354128 4-LowerYield Polyomaviruses (JC, BK) are hypothesized to seed the kidney resulting in a clinically latent infection
+1516927642869 3-HighYield-temporary Besides respiratory droplets, parvovirus B19 can be transmitted vertically (transplacentally) and through blood products
+1516927952591 2-RelativelyHighYield Parvovirus B19 (erythema infectiosum) is a DNA virus that presents with a rash that starts on the face and moves down wards
+1516929523053 2-RelativelyHighYield Which two viruses can result in hydrops fetalis ? CMV; parvovirus B19
+1516930367817 5-LowYield Which circular DNA virus causes hemorrhagic cystitis ? BK virus
+1523915541724 3-HighYield-temporary The genome of the HBV intermediate from dsDNA is + ssRNA
+1546545292523 - High-risk HPV (oncogenic virus) is associated with adenocarcinoma of the cervix and squamous cell carcinoma of the vulva , vagina , anus , and cervix
+1548806620909 - Which habit can increase the risk of cervical cancer ? Smoking
+1549754110731 - Parvovirus B19 can cause hydrops fetalis in infant; often, the mom has a history of daycare work or flu-like symptoms earlier in pregnancy
+1579385969068 3-HighYield-temporary Men who have sex with men , HIV , HPV (16,18), smoking , and immunocompromised state are risk factors for squamous cell carcinoma of the anus

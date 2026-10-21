@@ -1,0 +1,27 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::08_Herpes_Simplex_Virus_Clinical_Manifestations (26 notas)
+1468250073774 2-RelativelyHighYield Which molecular motor protein is used for retrograde transport along the microtubule? Dynein
+1468250081218 2-RelativelyHighYield Which molecular motor protein is used for anterograde transport along the microtubule? Kinesin
+1482191371567 3-HighYield-temporary Dormant HSV-1 virus may be reactivated by stress and sunlight , leading to an episode of oral herpes
+1502041417776 1-HighYield Primary syphilis is characterized by a(n) painless genital chancre
+1502151766002 3-HighYield-temporary Herpes simplex virus (HSV) is a(n) icosahedral linear enveloped dsDNA virus
+1502152587839 2-RelativelyHighYield HSV-1 is usually confined to the upper half of the body
+1502152765034 2-RelativelyHighYield HSV-2 is usually confined to the lower half of the body
+1502152777535 1-HighYield Gingivostomatitis is the first sign of HSV-1
+1502152875721 3-HighYield-temporary After primary infection, stress can reactivate HSV-1, which can result in herpes labialis (cold sores)
+1502152990415 2-RelativelyHighYield Keratoconjunctivitis is an ophthalmic complication of HSV-1
+1502153397982 1-HighYield HSV-1 remains latent in the trigeminal ganglion
+1502154338212 1-HighYield HSV-2 remains latent in the sacral ganglia
+1502154470259 1-HighYield HSV-2 commonly causes herpes genitalis
+1515889389316 2-RelativelyHighYield The chancroid seen in Haemophilus ducreyi is painful
+1516221557330 1-HighYield Coxsackie A is associated with herpangina ( mouth blisters )
+1517170465040 - What is the likely diagnosis in a child that presents with fever, pharyngitis, and gray vesicles/ulcers on the posterior oropharynx? Herpangina secondary to Coxsackie A virus infection
+1520289377097 - Primary genital herpes is associated with a high risk for recurrence , with less frequent recurrences over time in immunocompetent individuals
+1520443857640 1-HighYield Which cause of genital ulceration presents with painful vesicles on an erythematous base ? Herpes simplex virus (HSV)
+1522946777824 2-RelativelyHighYield Which cause of painful genital ulceration presents with intranuclear inclusions ? Herpes simplex virus (HSV)
+1522946801833 1-HighYield Which genital infection is characterized by a painless genital ulceration with painful inguinal lymph nodes (buboes) ? Lymphogranuloma venereum ( Chlamydia L1-L3 )
+1523048026725 1-HighYield Which cause(s) of painless genital ulceration present(s) with painless inguinal lymphadenopathy ? Primary syphilis ( Treponema pallidum )
+1524691061957 2-RelativelyHighYield Which virus can present with swollen gums and inflamed lesions on the hard palate and lips ? HSV-1
+1544724101873 - Granuloma inguinale ( K. granulomatis ) = Pain less ulcer Chancroid ( H. ducreyi ) = Pain ful ulcer Chancre ( T. pallidum ) = Pain less ulcer
+1545332044593 - What is the likely diagnosis ? Herpes labialis
+1556821327858 - Which genital infection is characterized by dysuria , tender , small ulcers with an erythematous base, and mild lymphadenopathy ? Herpes simplex virus
+1582422612583 - Herpetic gingivostomatitis causes multiple small vesicles in the anterior pharynx/lips

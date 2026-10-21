@@ -1,0 +1,13 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::06_Echovirus (12 notas)
+1481771512187 1-HighYield Common viral causes of meningitis include enteroviruses (especially coxsackievirus) and HSV-2
+1506609085427 2-RelativelyHighYield What type of viruses are picornaviruses ? Positive sense RNA
+1506609368498 1-HighYield What is the route of transmission of most picornaviruses ? Fecal-oral
+1506609811863 1-HighYield What family of viruses do enteroviruses belong to? Picornaviridae
+1506610040227 1-HighYield What are the three common enteroviruses (picornaviridae family)? Coxsackie A/B, echovirus, and poliovirus*
+1506610241044 1-HighYield What group of viruses are the most common cause of aseptic meningitis ? Enteroviruses (picornaviridae family)
+1506610455254 1-HighYield What demographic is most susceptible to viral (aseptic) meningitis caused by enteroviruses ? Children
+1516219383663 2-RelativelyHighYield Poliovirus is a rare cause of aseptic (viral) meningitis
+1516220567288 2-RelativelyHighYield What is the route of transmission of coxsackievirus ? Fecal-oral
+1516220775551 3-HighYield-temporary Coxsackievirus is a common cause of aseptic (viral) meningitis
+1516220927111 1-HighYield What are the three most common causes of aseptic meningitis ? Coxsackievirus, echovirus ( enteroviruses ), and HSV
+1516221057616 1-HighYield Coxsackie B is a virus that causes myocarditis which progresses to dilated cardiomyopathy

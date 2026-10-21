@@ -1,0 +1,36 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::14_Cytomegalovirus_Pathogenesis_and_Clinical_Manifestations (35 notas)
+1403140946098 1-HighYield Which herpesvirus causes mononucleosis with a negative monospot test ? CMV (HHV-5)
+1403141234206 1-HighYield Which herpesvirus is associated with causing retinitis in immunocompromised patients? CMV (HHV-5)
+1403141269124 1-HighYield Which herpesvirus is associated with characteristic owl's eye inclusions in infected cells? CMV (HHV-5)
+1403141305744 1-HighYield CMV is a herpesvirus that is latent in mononuclear cells
+1403292900993 1-HighYield CMV (HHV-5) is a herpesvirus that causes retinitis in HIV patients that presents with cotton-wool spots on fundoscopy
+1403292961137 1-HighYield Esophagitis and colitis are GI complications that are often seen alongside CMV retinitis in immunosuppressed patients
+1403296022011 1-HighYield Cytomegalovirus (CMV) is a herpesvirus that causes interstitial pneumonia in patients with HIV
+1403393437299 1-HighYield How is CMV transmitted? Sexual contact; organ transplant; transplacentally
+1403412017761 1-HighYield Which herpesvirus commonly infects organ transplant recipients ? CMV (HHV-5)
+1473548696191 1-HighYield Cytomegalovirus (CMV) is a common cause of atypical pneumonia in post-transplant patients on immunosuppressive therapy
+1480564012664 2-RelativelyHighYield Infectious mononucleosis less commonly occurs due to a(n) CMV infection
+1480564059776 4-LowerYield A(n) negative monospot test with symptoms of infectious mononucleosis suggests CMV infection
+1503857897067 1-HighYield Cytomegalovirus (CMV) is part of the herpesviridae family
+1503858297868 3-HighYield-temporary Cytomegalovirus (CMV) is icosahedral
+1503858318113 3-HighYield-temporary Cytomegalovirus (CMV) is enveloped
+1503858331520 3-HighYield-temporary Cytomegalovirus (CMV) is linear
+1503858335281 3-HighYield-temporary Cytomegalovirus (CMV) is a(n) dsDNA virus
+1503858394947 1-HighYield Which herpesvirus remains latent in mononuclear cells (e.g., macrophages)? CMV
+1503858692391 2-RelativelyHighYield Reactivation of CMV from mononuclear cells occurs after immunosuppression
+1503860841762 1-HighYield Reactivation of CMV occurs in the immunosuppressed, such as organ transplant and AIDS patients
+1503860955524 1-HighYield Organ transplant patients are at an increased risk of CMV pneumonia
+1503861132678 1-HighYield AIDS patients are at risk for CMV infections (e.g., retinitis, colitis, esophagitis) when their CD4+ count is < 50 cells/mm 3
+1503861467989 1-HighYield Cotton wool spots and a " pizza pie " description on fundoscopy are characteristic of what viral infection complication ? CMV retinitis
+1503861887862 1-HighYield Esophagitis with linear ulcerations is characteristic of CMV
+1503861910369 1-HighYield Esophagitis with "punched-out" ulcerations is characteristic of HSV-1
+1503861947945 1-HighYield CMV can present with basophilic intranuclear inclusion bodies said to look like a(n) "owl's eye"
+1503880470705 1-HighYield What herpesvirus can result in colitis with ulcerated walls ? CMV
+1504049626559 - What is the likely causative microorganism in a renal transplant patient that develops fever , progressive dyspnea on exertion , abdominal pain , bloody diarrhea , and elevated LFTs ? Cytomegalovirus
+1504221691763 - What is the likely causative organism in an HIV patient with a CD4 + count of 30/mm 3 that presents with one month of low-grade fevers , intermittent bloody diarrhea , abdominal pain , and weight loss
+1505744613897 - What is the likely diagnosis in a patient with a history of poorly controlled HIV who presents with floaters and blurred vision ? Funduscopic examination reveals yellow-white exudates adjacent to the 
+1506728145227 3-HighYield-temporary Ganciclovir and valganciclovir are used as prophylaxis of CMV retinitis in immunocompromised patients
+1509213238591 5-LowYield Which chemotherapeutic drug is associated with invasive CMV infection ? Mycophenolate mofetil
+1516929341135 2-RelativelyHighYield CMV is a virus that binds to cellular integrins (heparan sulfate)
+1553807942317 - Pregnant patients are typically infected with CMV via transmission of body fluids (e.g., saliva)
+1557069136233 - Transplant patient with bloody diarrhea and multiple, large shallow ulcers on colonoscopy is suggestive of CMV colitis

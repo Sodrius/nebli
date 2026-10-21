@@ -1,0 +1,7 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::18_Chikungunya (6 notas)
+1504652342629 - What is the likely diagnosis in a patient with recent travel to a (sub)tropical region that presents with fever , polyarthralgias , and a diffuse maculopapular skin rash ? Laboratory exam reveals leuk
+1516237632309 2-RelativelyHighYield What type of viruses are togaviruses ? Positive sense RNA
+1516238372967 5-LowYield The togavirus family includes Eastern equine encephalitis, Western equine encephalitis, Venezuelan equine encephalitis, and Chikungunya virus
+1516239274326 3-HighYield-temporary Are togaviruses enveloped ? Yes
+1522430399029 4-LowerYield Dengue fever and chikungunya viral infections typically occur simultaneously, as both are transmitted by the Aedes mosquito
+1587426861915 5-LowYield The hallmark of Chikungunya fever is severe joint symptoms

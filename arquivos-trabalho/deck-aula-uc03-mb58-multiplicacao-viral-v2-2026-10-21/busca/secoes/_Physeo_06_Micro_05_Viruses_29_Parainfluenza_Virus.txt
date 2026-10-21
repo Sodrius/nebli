@@ -1,0 +1,14 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::29_Parainfluenza_Virus (13 notas)
+1506297103030 2-RelativelyHighYield What type of viruses are paramyxoviruses ? Negative sense RNA
+1506297161449 1-HighYield Which family of viruses does parainfluenza (croup) belong to? Paramyxoviridae
+1506297239258 1-HighYield Do paramyxoviruses have an envelope ? Yes
+1506297282227 1-HighYield What is the route of transmission of most* paramyxoviruses ? Respiratory droplets
+1506298553385 2-RelativelyHighYield Paramyxoviruses can express the virulence factor hemagglutinin which binds sialic acid, promoting viral entry into cells
+1506298786823 2-RelativelyHighYield Paramyxoviruses contain surface F (fusion) proteins that cause respiratory epithelial cells to fuse and form multinucleated giant cells
+1506458538360 2-RelativelyHighYield Which virus classically causes croup ? Parainfluenza virus
+1506458587499 1-HighYield What viral complication is characterized by a seal-bark cough and inspiratory stridor ? Croup (laryngotracheobronchitis)
+1506458681232 1-HighYield Which virulence factors is parainfluenza (croup) associated with? Hemagglutinin, F (fusion) protein, neuraminidase
+1506459192137 1-HighYield Narrowing of the trachea and subglottic region produces the "steeple sign" on CXR of croup (parainfluenza virus)
+1506459340614 1-HighYield What is another name for croup ? Laryngotracheobronchitis
+1506459442241 1-HighYield Severe croup (laryngotracheobronchitis) can result in pulsus paradoxus secondary to upper airway obstruction
+1506459892639 1-HighYield Which viral virulence factor causes respiratory cell fusion and multinucleated giant cell production? F (fusion) protein

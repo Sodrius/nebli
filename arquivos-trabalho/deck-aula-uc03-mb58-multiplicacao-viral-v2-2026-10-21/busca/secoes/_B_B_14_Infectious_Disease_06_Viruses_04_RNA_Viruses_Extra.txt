@@ -1,0 +1,64 @@
+# #AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::04_RNA_Viruses::Extra (63 notas)
+1403393439364 2-RelativelyHighYield Rubella , Toxoplasma , and CMV are three ToRCHHeS VP infections that are associated with a " blueberry muffin " rash
+1472078786108 1-HighYield Myocarditis , secondary to coxsackie B infection, is characterized by a(n) lymphocytic infiltrate in the myocardium
+1473548706867 1-HighYield Influenza is a common viral cause of atypical pneumonia in the elderly
+1480549867867 2-RelativelyHighYield Poliovirus may be recovered from the stool or throat , even before the onset of illness
+1481836431395 5-LowYield Subacute sclerosing panencephalitis (SSPE) is due to slowly progressing, persistent infection of the brain by measles virus
+1482191438195 2-RelativelyHighYield In addition to parotitis , mumps may also present with orchitis, pancreatitis, and aseptic meningitis
+1487122032935 1-HighYield Do live attenuated vaccines induce cellular or humoral responses? Both cellular and humoral :)
+1502062962846 3-HighYield-temporary Viruses contain either DNA or RNA surrounded by a(n) capsid
+1502064775742 2-RelativelyHighYield Retroviruses (e.g., HIV) are diploid single-stranded RNA viruses
+1502152021975 2-RelativelyHighYield Most DNA viruses replicate in the nucleus
+1503859164364 2-RelativelyHighYield The blueberry muffin rash of CMV and rubella is due to dermal erythropoiesis
+1506298052294 3-HighYield-temporary What is a rare respiratory complication of measles (rubeola) seen typically in immunosuppressed individuals? Giant cell pneumonia
+1506298427891 1-HighYield Subacute sclerosing panencephalitis (SSPE) is diagnosed with presence of anti-measles antibodies in CSF
+1506298786823 2-RelativelyHighYield Paramyxoviruses contain surface F (fusion) proteins that cause respiratory epithelial cells to fuse and form multinucleated giant cells
+1506299817676 1-HighYield Which paramyxovirus can result in pancreatitis ? Mumps
+1506610455254 1-HighYield What demographic is most susceptible to viral (aseptic) meningitis caused by enteroviruses ? Children
+1506627592347 5-LowYield Are flaviviruses segmented or non-segmented ? Non-segmented
+1506627894996 1-HighYield What is the most common type of Dengue fever ? Type 2
+1506628287189 2-RelativelyHighYield Which zone of the liver is affected by Yellow fever ? Zone II (intermediate zone)
+1506628692802 1-HighYield Which two viruses classically present with Councilman bodies on liver biopsy ? Hepatitis A virus, yellow fever
+1516218404816 3-HighYield-temporary Poliovirus is acid-stable
+1516219383663 2-RelativelyHighYield Poliovirus is a rare cause of aseptic (viral) meningitis
+1516219470210 1-HighYield Which poliovirus vaccine is inactivated / killed ? Salk
+1516220596529 1-HighYield Coxsackie A is a virus that causes hand, foot, and mouth disease
+1516220927111 1-HighYield What are the three most common causes of aseptic meningitis ? Coxsackievirus, echovirus ( enteroviruses ), and HSV
+1516221010327 2-RelativelyHighYield Coxsackievirus infection commonly occurs during the summer months
+1516221057616 1-HighYield Coxsackie B is a virus that causes myocarditis which progresses to dilated cardiomyopathy
+1516221410740 1-HighYield Four causes of rash on the palms and soles may be remembered with the mnemonic " R ash C overing T he S oles": R ickettsia rickettsii C oxsackievirus A T oxic shock syndrome S econdary S yphilis
+1516222322469 3-HighYield-temporary Rhinovirus is a virus that enters host cells by attaching to ICAM-1
+1516238226677 2-RelativelyHighYield Arboviruses all cause encephalitis and fever
+1516238372967 5-LowYield The togavirus family includes Eastern equine encephalitis, Western equine encephalitis, Venezuelan equine encephalitis, and Chikungunya virus
+1516239955276 1-HighYield Congenital rubella infection is characterized by a classic triad of cataracts, patent ductus arteriosus, and sensorineural hearing loss
+1516240313855 2-RelativelyHighYield Congenital rubella is characterized by a(n) "blueberry muffin" rash
+1516317335536 2-RelativelyHighYield Congenital rubella is characterized by microcephaly
+1516317385436 4-LowerYield Congenital rubella is characterized by radiolucent bone lesions
+1516321367173 3-HighYield-temporary Orthomyxovirus has 8 segments
+1516325456216 1-HighYield What is the most common complication of influenza ? Secondary bacterial pneumonia
+1516325574181 1-HighYield Secondary bacterial pneumonia is typically Strep pneumoniae , Staph aureus , or Haemophilus influenzae superimposed on influenza
+1516473523667 4-LowerYield Along with bats , rabies virus is also commonly carried by skunks in the western U.S.
+1516473638614 4-LowerYield Along with bats , rabies virus is also commonly carried by raccoons and foxes in the eastern U.S.
+1516473893262 1-HighYield Rabies virus binds to nicotinic ACh receptors in the post-synaptic membrane of the neuromuscular junction
+1516474508193 2-RelativelyHighYield Rabies virus travels retrograde to the dorsal root ganglia before spreading to the CNS
+1516557320825 5-LowYield Filoviruses have a(n) helical capsid
+1516557435778 4-LowerYield Ebola and Marburg virus both belong to the filoviridae family
+1516557863803 4-LowerYield Filoviruses (Ebola, Marburg) may be transmitted via primates (apes) or bats
+1516558668778 5-LowYield Most of the bunyaviruses are also arboviruses*
+1516559030641 5-LowYield Hantavirus (Sin nombre) is transmitted through rodent urine/feces
+1516559573641 4-LowerYield Hantavirus is a virus that causes prerenal azotemia
+1516559803599 4-LowerYield Hantavirus can result in hemorrhagic fever with renal syndrome
+1516559998491 4-LowerYield Bunyaviruses that are also arboviruses include: - California encephalitis - Sandfly fever - Rift Valley fever - Crimean-Congo hemorrhagic fever
+1516560132835 4-LowerYield Manifestations of California encephalitis and Rift Valley fever include seizures and encephalitis
+1516560223191 5-LowYield California encephalitis is transmitted via the Aedes mosquito vector
+1516663723276 4-LowerYield Arenaviruses are classified as negative* sense RNA viruses
+1516664064296 5-LowYield Arenaviruses have 2 circular segments
+1516664409922 4-LowerYield The arenaviruses include lymphocytic choriomeningitis virus (LCMV) and lassa fever
+1516664461821 4-LowerYield The arenaviruses include lymphocytic choriomeningitis virus (LCMV) and Lassa virus
+1516665751235 1-HighYield Rotavirus contains the NSP4 enterotoxin , causing watery diarrhea
+1516666766803 2-RelativelyHighYield Rotavirus has a(n) live attenuated vaccine that is administered orally
+1517177408776 - What is the next step in management for a child that develops a fever and mild rash one week after receiving the MMR vaccine ? Reassurance
+1520088551261 4-LowerYield Secondary infection with dengue fever is associated with severe illness
+1539882094287 - Streptococcus pneumoniae is the most common cause of secondary pneumonia (e.g., post-flu)
+1550712327436 - Severe fever, cough, and myalgias is suggestive of influenza
+1614809251322 1-HighYield What are the 6 common childhood exanthems ? First disease - Measles Second disease - Scarlet fever ( S. pyogenes ) Third disease - Rubella Fourth disease - Scalded skin syndrome ( S. aureus )* Fifth d

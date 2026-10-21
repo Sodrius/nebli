@@ -1,0 +1,7 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::16_St._Louis_Encephalitis_&_West_Nile_Virus (6 notas)
+1506628724617 4-LowerYield What family of viruses does West Nile virus belong to? Flaviviridae
+1506628804534 3-HighYield-temporary What is the reservoir of West Nile virus ? Birds
+1506628849279 2-RelativelyHighYield West Nile virus vector(s) : Mosquito ( Culex )
+1506628890385 2-RelativelyHighYield A serious complication of West Nile virus is meningoencephalitis
+1506629122636 4-LowerYield What is the treatment of West Nile virus ? Supportive
+1521659526736 4-LowerYield West Nile virus is associated with confusion resulting from encephalitis

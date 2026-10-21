@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::03_Antivirals::13_NS3/4A_Inhibitors (5 notas)
+1461797734146 3-HighYield-temporary Simeprevir is a NS3/4A protease inhibitor that may be used for the treatment of hepatitis C genotype 1
+1461797752804 5-LowYield Adverse effects of simeprevir include photosensitivity and rash
+1506631004332 1-HighYield Hepatitis C virus infections can be treated with protease and polymerase inhibitors
+1514739659474 4-LowerYield HCV therapeutics with the suffix - previr work by inhibiting the NS3/4A protease
+1514740282011 3-HighYield-temporary Which HCV therapies are generally well tolerated and occasionally present with photosensitivity reactions and rash ? Simeprevir

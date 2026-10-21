@@ -1,0 +1,12 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::21_Coronavirus (11 notas)
+1516222858044 1-HighYield What is the second most common cause of the common cold ? Coronavirus
+1516241721026 1-HighYield What type of virus is coronavirus ? Positive sense RNA
+1516242033603 1-HighYield Is coronavirus enveloped ? Yes
+1516242070729 1-HighYield Coronavirus is a positive-sense RNA virus with a(n) helical - shaped capsid
+1516242261236 1-HighYield Coronavirus is a virus that can cause acute bronchitis , eventually leading to acute respiratory distress syndrome (ARDS)
+1608907758096 - Coronavirus is a(n) positive -sense RNA virus that is enveloped
+1608907893953 - Low -pathogenicity coronavirus strains can cause the common cold
+1608907939580 - High -pathogenicity strains of coronavirus can cause MERS, SARS, and COVID-19
+1608908135312 - SARS-CoV is the cause of severe acute respiratory syndrome (SARS)
+1608908237186 - MERS-CoV is the cause of Middle East respiratory syndrome (MERS)
+1608908268526 - SARS-CoV-2 is the cause of COVID-19

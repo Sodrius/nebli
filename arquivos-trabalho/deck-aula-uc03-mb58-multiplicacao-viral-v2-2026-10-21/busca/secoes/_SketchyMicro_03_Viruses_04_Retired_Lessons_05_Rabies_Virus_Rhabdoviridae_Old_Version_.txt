@@ -1,0 +1,31 @@
+# #AK_Step1_v12::#SketchyMicro::03_Viruses::04_Retired_Lessons::05_Rabies_Virus_(Rhabdoviridae)_[Old_Version] (30 notas)
+1516473010523 1-HighYield Rhabdovirus is the virus that causes rabies
+1516473067952 2-RelativelyHighYield What type of virus is rhabdovirus ? Negative sense RNA
+1516473150103 2-RelativelyHighYield Is rhabdovirus enveloped ? Yes
+1516473172527 1-HighYield Which virus is said to be 'bullet-shaped' ? Rabies virus (rhabdovirus)
+1516473280578 1-HighYield Which virus is displayed below? Rhabdovirus (rabies)
+1516473321006 2-RelativelyHighYield Rhabdovirus has a(n) helical capsid
+1516473412823 4-LowerYield Which animal is the most common carrier of rabies virus (rhabdovirus) in the United States ? Bats
+1516473494830 5-LowYield Which animal is the most common carrier of rabies virus (rhabdovirus) in developing countries ? Dogs
+1516473523667 4-LowerYield Along with bats , rabies virus is also commonly carried by skunks in the western U.S.
+1516473638614 4-LowerYield Along with bats , rabies virus is also commonly carried by raccoons and foxes in the eastern U.S.
+1516473678124 1-HighYield Rabies virus binds to nicotinic ACh receptors in the post-synaptic membrane of the neuromuscular junction
+1516473893262 1-HighYield Rabies virus binds to nicotinic ACh receptors in the post-synaptic membrane of the neuromuscular junction
+1516473945645 2-RelativelyHighYield Infection of Rabies virus occurs within striated muscle cells
+1516474085854 3-HighYield-temporary What is the incubation period of rabies virus ? 1 - 3 months
+1516474120085 3-HighYield-temporary Incubation of rabies virus takes longer when infection occurs in the lower extremities
+1516474178334 4-LowerYield After motor endplate infection, Rabies virus crosses the synaptic cleft by binding neural cell adhesion molecules (NCAMs), entering neurons
+1516474304091 3-HighYield-temporary Rabies virus travels retrograde along peripheral nerves
+1516474369826 2-RelativelyHighYield Replication of Rabies virus occurs within striated muscle and motor neuronal cells
+1516474508193 2-RelativelyHighYield Rabies virus travels retrograde to the dorsal root ganglia before spreading to the CNS
+1516474665512 2-RelativelyHighYield Rabies virus replication occurs in eosinophilic cytoplasmic inclusions called Negri bodies
+1516474771301 2-RelativelyHighYield Negri bodies of rabies virus can be found in the cytoplasm of the hippocampal pyramidal cells and cerebellar Purkinje cells
+1516475081349 1-HighYield Rabies virus can spread to the peripheral neurons and enter salivary glands
+1516475256424 1-HighYield Negri bodies (rabies virus) are found within the cytoplasm
+1516475366919 2-RelativelyHighYield Neurologic manifestations of rabies virus include hydrophobia and aerophobia , both pathognomonic signs
+1516475524371 1-HighYield Rabies virus can present with pharyngeal muscle spasms , causing dysphagia
+1516475620459 3-HighYield-temporary Which virus/viral family will have cytoplasmic, eosinophilic inclusions within neuronal cells ? Rabies virus Negri bodies
+1516475896541 3-HighYield-temporary Treatment of rabies virus includes wound cleaning
+1516476112831 1-HighYield Post-exposure prophylaxis (PEP) for rabies virus includes administration of killed rabies vaccine ( active immunization) and rabies immunoglobulin ( passive immunization)
+1516476215012 3-HighYield-temporary Treatment of rabies virus is known as passive-active immunity
+1516491933738 1-HighYield Transmission of rabies virus occurs via animal bites or aerosol transmission

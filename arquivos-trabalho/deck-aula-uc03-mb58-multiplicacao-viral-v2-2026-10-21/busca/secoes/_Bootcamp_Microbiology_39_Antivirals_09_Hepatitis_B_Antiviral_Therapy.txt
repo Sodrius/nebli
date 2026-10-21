@@ -1,0 +1,23 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::09_Hepatitis_B_Antiviral_Therapy (22 notas)
+1461794607480 1-HighYield Interferon α may be used in the treatment of hepatitis B and C infections
+1461794689858 2-RelativelyHighYield Which hepatitis drug causes flu-like symptoms as a possible side effect? Interferon-α
+1461794711294 3-HighYield-temporary Chronic therapy of interferon-α may result in neurotoxicity, causing mood disorders (e.g., depression ) and confusion
+1461794728973 2-RelativelyHighYield Which hepatitis drug has myelosuppression as a possible side effect? Interferon-α
+1487117310594 1-HighYield Which interferon(s) enhance(s) activity of natural killer cells ? Interferon-α and interferon-β
+1487117314403 1-HighYield Natural killer cells are induced to kill cells that have an absence of MHC I on their cell surface
+1489970693302 1-HighYield Interferon-α and -β are glycoproteins synthesized by virus-infected cells that act locally on uninfected cells , "priming" them for viral defense
+1497440201761 4-LowerYield Chronic use of interferon- α is associated with patients experiencing flu-like symptoms; as well as depression , neutro penia , and myopathy
+1506551385636 1-HighYield What type of virus is hepatitis B ? DNA
+1506551550710 1-HighYield Hepatitis B virus is partially double -stranded
+1506551774430 2-RelativelyHighYield Upon entry into the cell nucleus, HBV DNA-polymerase completes the partially dsDNA
+1506551855396 3-HighYield-temporary Once the dsDNA of HBV is complete, host RNA polymerase transcribes mRNA from the dsDNA
+1506551930834 3-HighYield-temporary After mRNA is produced, HBV reverse transcriptase produces progeny dsDNA from mRNA
+1506554976089 2-RelativelyHighYield What is the shape of the hepatitis B virus genome? Circular
+1506555110318 1-HighYield Which hepatitis D virus infection has a worse outcome? Superinfection with HBV
+1506555240421 1-HighYield What is the treatment for acute cases of HBV ? Supportive
+1506784467378 2-RelativelyHighYield NRTIs inhibit formation of 3' to 5' phosphodiester bonds
+1506784514467 3-HighYield-temporary Most NRTIs are nucleosides that must undergo phosphorylation in order to be active
+1506784835221 1-HighYield NRTIs are associated with mitochondrial toxicity, lactic acidosis , and peripheral neuropathy
+1506789316317 1-HighYield Which NRTI is associated with Fanconi syndrome ? Tenofovir
+1514736654381 4-LowerYield Is therapy for hepatitis viruses indicated for acute, chronic, or both infections? Chronic*
+1523915429557 3-HighYield-temporary Upon cellular entry, partially dsDNA of HBV is repaired and used for transcription

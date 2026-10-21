@@ -1,0 +1,49 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::22_Secondary_HIV-Associated_Diseases (48 notas)
+1403023387767 2-RelativelyHighYield Toxoplasmosis is a CNS protozoal infection that presents with brain abscesses in immunocompromised (e.g., HIV) patients; seen as ring-enhancing brain lesions on CT / MRI
+1403141234206 1-HighYield Which herpesvirus is associated with causing retinitis in immunocompromised patients? CMV (HHV-5)
+1403294217650 2-RelativelyHighYield Primary CNS lymphoma is a lymphoma often associated with EBV that can present as focal/solitary lesions, thereby differentiating it from toxoplasmosis
+1480564116452 2-RelativelyHighYield Epstein-Barr virus (EBV) remains dormant in B cells , which increases risk for lymphoma , especially if immunodeficiency develops (e.g., HIV )
+1481335592215 1-HighYield Primary CNS lymphoma is most commonly seen in patients with AIDS
+1481771519577 4-LowerYield What is a common cause of fungal meningitis in an HIV+ individual ? Cryptococcus species
+1482191403303 3-HighYield-temporary Oral candidiasis and hairy leukoplakia are usually seen in immunocompromised individuals
+1488680736146 - What vascular tumor is a benign , capillary skin papule caused by Bartonella henselae infection in patients with AIDS ? Bacillary angiomatosis
+1488680746086 1-HighYield What vascular tumor is associated with HHV-8 and HIV ? Kaposi sarcoma
+1499810433560 1-HighYield Cryptosporidium is a parasite that causes chronic watery diarrhea in immunocompromised/suppressed (e.g., HIV/AIDS) patients
+1499968803765 5-LowYield Most often, severe fungal infections occur in immunocompromised/suppressed patients
+1499971032936 2-RelativelyHighYield Dissemination of histoplasmosis to the liver and spleen occurs in immunocompromised patients
+1500058721659 2-RelativelyHighYield Cryptosporidium spp. infections are often found in HIV+ patients with CD4+ cell counts < 100/mm 3
+1500233417765 2-RelativelyHighYield Candida albicans is the most common cause of opportunistic mycoses
+1500235389271 3-HighYield-temporary Candida albicans that extends from the mouth to the esophagus is known as candidal esophagitis , which is a(n) AIDS-defining illness
+1500235550523 1-HighYield What is the CD4+ count threshold for the development of candidal esophagitis ? < 100 cells/mm 3
+1500244855818 3-HighYield-temporary Cryptococcus is a(n) opportunistic infection, with most symptoms occurring in immunocompromised patients (e.g., HIV+ patients, those with malignancies, high-dose steroid therapy, etc.)
+1500336907300 2-RelativelyHighYield Pneumocystis pneumonia is a(n) AIDS-defining illness that presents with a CD4+ count < 200 cells/mm 3
+1502068121454 1-HighYield Which AIDS-defining illness is caused directly by HIV ? Diffuse large B-cell lymphoma* (DLBCL)
+1503264058312 3-HighYield-temporary Mycobacterium avium complex (MAC) is a non-TB disease that causes disseminated infection in the late stages of AIDS
+1503858692391 2-RelativelyHighYield Reactivation of CMV from mononuclear cells occurs after immunosuppression
+1503861132678 1-HighYield AIDS patients are at risk for CMV infections (e.g., retinitis, colitis, esophagitis) when their CD4+ count is < 50 cells/mm 3
+1504045083351 - What is the likely diagnosis in an HIV patient from Missouri with a CD4 + count of 50/mm 3 who presents with cough / dyspnea , mouth ulcers , and diffuse lymphadenopathy ? Laboratory exam reveals panc
+1504221691763 - What is the likely causative organism in an HIV patient with a CD4 + count of 30/mm 3 that presents with one month of low-grade fevers , intermittent bloody diarrhea , abdominal pain , and weight loss
+1504654323611 - What is the likely causative organism in a patient with poorly controlled HIV that presents with large , reddish , pedunculated skin lesions that bleed easily ? CT scan of the abdomen reveals hypodens
+1504656941699 - What is the likely diagnosis in a patient with poorly controlled HIV that develops multiple violaceous papules in the groin region? Kaposi sarcoma (HHV-8 infection)
+1504658704338 - What is the likely diagnosis in a patient with poorly controlled HIV that presents with subacute-onset fatigue , headache , and fever ? Physical exam reveals signs of increased intracranial pressure (
+1504659390894 - What is the most common cause of community-acquired pneumonia (CAP) in patients with HIV ? Streptococcus pneumoniae
+1504736584894 - What is the likely diagnosis in an HIV patient with a CD4 + count of 25/mm 3 that presents with 3 weeks of high fever , night sweats , abdominal pain , watery diarrhea , and weight loss ? CXR and PPD 
+1504740972497 - What is the likely causative organism in an HIV patient with a CD4 + count of 85/mm 3 that presents with three weeks of copious , watery diarrhea and low-grade fever ? Cryptosporidium
+1505744613897 - What is the likely diagnosis in a patient with a history of poorly controlled HIV who presents with floaters and blurred vision ? Funduscopic examination reveals yellow-white exudates adjacent to the 
+1505746233593 - What is the likely diagnosis in a patient with a history of poorly controlled HIV that presents with eye pain , conjunctivitis , keratitis , and vision loss ? Fundoscopy shows widespread, pale , perip
+1506291250234 2-RelativelyHighYield Which two demographics are commonly affected by herpes zoster (shingles)? Elderly and immunocompromised
+1509811202989 1-HighYield Which protozoal complication can present with encephalitis and ring-enhancing lesions on CT scan? Toxoplasmosis
+1516039780219 2-RelativelyHighYield Bacillary angiomatosis is a complication of Bartonella henselae in immuno compromised patients
+1516758549723 1-HighYield What is the most common cancer in AIDS patients ? Kaposi sarcoma
+1516758615385 1-HighYield HHV-8 infection is common in immunocompromised patients
+1516850367033 4-LowerYield JC virus causes progressive multifocal leukoencephalopathy (PML) in immunocompromised individuals
+1516850484033 4-LowerYield JC virus presents when CD4+ count is < 200 cells/mm 3 or with immunosuppressants
+1516850609790 4-LowerYield JC virus presents in immunocompromised (HIV/AIDS) patients
+1544195344521 - Mycobacterium avium-intracellulare complex (MAC) is most common in HIV patients with CD4 counts < 50/mm 3
+1552737781454 - HIV patient with CD4 count < 50/mm 3 , systemic symptoms, hepatosplenomegaly , and elevated alkaline phosphatase level is suggestive of Mycobacterium avium complex
+1552904429659 - What is the likely diagnosis in an HIV patient that presents with fever and altered mental status with encapsulated yeast visualized on CSF fungal stain? Cryptococcal meningoencephalitis
+1555459603894 - HIV with CD4 count < 50 , high fever , and watery diarrhea is suggestive of Mycobacterium avium complex (MAC)
+1555459854187 - Primary CNS lymphoma is typically characterized by the presence of EBV DNA in the CSF and a single ring-enhancing lesion on MRI in an HIV-infected patient
+1555459950781 - Subacute signs of increased ICP (headache, fever) in an HIV+ individual is suggestive of cryptococcal meningoencephalitis
+1577804124702 1-HighYield Immunodeficiency (e.g., HIV) increases the risk for non-Hodgkin lymphoma , which presents as diffuse lymphadenopathy and B symptoms
+1582733760096 1-HighYield Immunodeficiency-related Burkitt lymphoma usually occurs in individuals with HIV

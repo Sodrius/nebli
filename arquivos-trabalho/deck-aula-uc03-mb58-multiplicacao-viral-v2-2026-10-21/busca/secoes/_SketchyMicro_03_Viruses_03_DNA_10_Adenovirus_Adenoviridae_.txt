@@ -1,0 +1,18 @@
+# #AK_Step1_v12::#SketchyMicro::03_Viruses::03_DNA::10_Adenovirus_(Adenoviridae) (17 notas)
+1484603457857 1-HighYield What virus commonly causes conjunctivitis ? Adenovirus
+1516929695700 2-RelativelyHighYield Adenovirus is the most common cause of infection of the tonsils and adenoids
+1516929856097 2-RelativelyHighYield Is adenovirus enveloped ? No (naked)
+1516929926653 1-HighYield Transmission of adenovirus includes respiratory droplets, fecal-oral route, or direct contact
+1516930064039 2-RelativelyHighYield Demographics affected by adenovirus include children, military recruits, and swimmers in public pools
+1516930208305 2-RelativelyHighYield Adenovirus has a(n) linear DNA genome
+1516930287625 3-HighYield-temporary What is a genitourinary complication of adenovirus ? Hemorrhagic cystitis
+1516930348175 2-RelativelyHighYield Which linear DNA virus causes hemorrhagic cystitis ? Adenovirus
+1516930367817 5-LowYield Which circular DNA virus causes hemorrhagic cystitis ? BK virus
+1516930542327 1-HighYield Adenovirus vaccine is commonly reserved for military recruits
+1516930619054 4-LowerYield What type of vaccine is available for adenovirus ? Live attenuated vaccine
+1516930661526 1-HighYield What are the two most common causes of bacterial conjunctivitis in children ? - S. pneumoniae - H. influenzae
+1516930744047 1-HighYield Adenovirus commonly causes the common cold , which will present with pharyngitis, rhinitis, and cough
+1516930901647 2-RelativelyHighYield Adenovirus can result in viral gastroenteritis and ultimately intussusception of the bowel
+1516930966434 4-LowerYield Adenovirus can bind cells via hemagglutinin
+1516931046562 3-HighYield-temporary Adenovirus will enter and lyse mucosal cells
+1516931076187 2-RelativelyHighYield Diagnosis of adenovirus is made via serology or viral culture

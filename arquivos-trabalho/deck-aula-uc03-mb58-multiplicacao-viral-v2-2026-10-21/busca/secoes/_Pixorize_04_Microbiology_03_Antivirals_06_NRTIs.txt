@@ -1,0 +1,52 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::03_Antivirals::06_NRTIs (51 notas)
+1461797775253 2-RelativelyHighYield Which NRTI(s)/NtRTI(s) is/are recommended for the treatment of chronic active hepatitis B ? Entecavir, tenofovir
+1461797786977 2-RelativelyHighYield What is the traditional standard treatment for hepatitis B ? Interferon α + lamivudine
+1475703988155 2-RelativelyHighYield What renal tubular disorder may be caused by nephrotoxins/drugs (e.g., ifosfamide, cisplatin, tenofovir, expired tetracyclines)? Fanconi syndrome
+1482971311074 2-RelativelyHighYield The causes of acute pancreatitis may be remembered with the mnemonic I GET PP SMASHED
+1482971311075 2-RelativelyHighYield The causes of acute pancreatitis may be remembered with the mnemonic " I GET PP SMASHED " : I diopathic G allstones E thanol T rauma (e.g., automobile accident in children - seatbelt injury) P osterio
+1502069492941 1-HighYield The backbone of highly active antiretroviral therapy ( HAART ) are NRTIs such as zidovudine
+1502069963668 3-HighYield-temporary NRTIs insert themselves into the DNA strand being synthesized by reverse transcriptase , halting further elongation
+1502070062514 2-RelativelyHighYield NRTIs and NNRTIs both are reverse transcriptase inhibitors used in the treatment of HIV
+1504745583493 - What is the next step in management for a person with high-risk exposure (e.g., needle stick, unprotected sex) to an HIV-positive patient with detectable viral load? Draw blood for HIV serology and st
+1506728366567 4-LowerYield The myelosuppression of ganciclovir may be additive in patients receiving zidovudine
+1506783163535 1-HighYield HAART therapy consists of 2 NRTIs plus 1 of either a(n) NNRTI , protease inhibitor , or integrase inhibitor
+1506783296016 2-RelativelyHighYield Which type of HAART drug is abacavir (ABC)? NRTI
+1506783462443 3-HighYield-temporary Which type of HAART drug is didanosine (ddl)? NRTI
+1506783471847 1-HighYield Which type of HAART drug is emtricitabine (FTC)? NRTI
+1506783486518 1-HighYield Which type of HAART drug is lamivudine (3TC)? NRTI
+1506783497051 4-LowerYield Which type of HAART drug is stavudine (d4T) ? NRTI
+1506783511355 1-HighYield Which type of HAART drug is tenofovir (TDF)? NtRTI
+1506783521685 1-HighYield Which type of HAART drug is zidovudine ( ZDV , formerly AZT )? NRTI
+1506784318198 3-HighYield-temporary NRTIs are nucleosides or nucleotides that have an absent 3' hydroxyl group
+1506784353867 3-HighYield-temporary NRTIs are incorporated into viral DNA , causing premature chain termination
+1506784467378 2-RelativelyHighYield NRTIs inhibit formation of 3' to 5' phosphodiester bonds
+1506784514467 3-HighYield-temporary Most NRTIs are nucleosides that must undergo phosphorylation in order to be active
+1506784610676 2-RelativelyHighYield NRTIs lack a 3’ hydroxyl group , causing strand termination when binding to HIV reverse transcriptase
+1506784777103 1-HighYield Reverse transcriptase inhibitors prevent transcription of ssRNA into dsDNA thereby inhibiting viral replication
+1506784835221 1-HighYield NRTIs are associated with mitochondrial toxicity, lactic acidosis , and peripheral neuropathy
+1506784980543 1-HighYield Which HAART drug class is associated with peripheral neuropathy ? NRTIs
+1506785118508 2-RelativelyHighYield Which NRTI is a nucleo t ide and not a nucleo s ide? Tenofovir
+1506785242535 2-RelativelyHighYield Which NRTI requires only 2 phosphorylations to become active ? Tenofovir
+1506785348651 1-HighYield Which NRTI is used to reduce vertical transmission of HIV ? Zidovudine
+1506785417562 1-HighYield Which NRTI is used during pregnancy and breastfeeding ? Zidovudine
+1506785457319 1-HighYield Which NRTI is associated with myelosuppression ? Zidovudine
+1506785509437 1-HighYield Zidovudine is associated with myelosuppression, which can result in anemia and granulocytopenia
+1506785534996 3-HighYield-temporary Which NRTI is associated with anemia and granulocytopenia ? Zidovudine
+1506785609205 1-HighYield Zidovudine and stavudine are associated with lipodystrophy
+1506785755779 3-HighYield-temporary Bone marrow suppression caused by zidovudine can be reversed with G-CSF and erythropoietin (EPO)
+1506785872219 2-RelativelyHighYield Which NRTI is associated with dose-dependent pancreatitis ? Didanosine
+1506786339931 2-RelativelyHighYield Which NRTI is associated with a hypersensitivity reaction in patients with the HLA-B 57:01 allele ? Abacavir
+1506786378158 2-RelativelyHighYield Which NRTI may cause hyperpigmentation of palms and soles ? Emtricitabine
+1506789316317 1-HighYield Which NRTI is associated with Fanconi syndrome ? Tenofovir
+1506796421475 1-HighYield What drug side effect presents with increased central adiposity with thin legs ? Lipodystrophy
+1506807069336 1-HighYield What classes of drugs inhibit HIV RNA to dsDNA formation? NRTIs and NNRTIs
+1514664090379 2-RelativelyHighYield Emtricitabine (FTC) and tenofovir (TDF) are given as a combination drug for pre-exposure prophylaxis (PrEP) of HIV
+1514665641707 1-HighYield Zidovudine (ZDV/AZT) can cause a(n) megaloblastic anemia and agranulo cytosis
+1520548431218 - What is the recommended antepartum treatment for a pregnant patient with HIV ? Combined anti-retroviral therapy (cART)
+1520549853646 - What is the recommended intrapartum treatment for a pregnant patient with an HIV viral load > 1000 copies/mL ? cART, zidovudine, and cesarean delivery at 38 weeks
+1539372151979 - What is the recommended prophylaxis for an infant born to a mother with an HIV viral load ≤ 50 copies/mL ? Zidovudine for 4 weeks. Start within 12 hours
+1547242134734 - What is management of an infant whose mother has HIV with viral load > 50 copies/mL? Multi-drug ART Zidovudine should be administered to the neonate for > 6 weeks
+1547903722241 - Combined antiretroviral therapy (cART) is recommended throughout pregnancy for HIV (+) moms: T
+1552864003514 - The treatment guideline for HIV is: 2 NRTIs and either : NNRTI Protease inhibitor (+ ritonavir boosting) Integrase inhibitor
+1552864003740 - What is the best anti-retroviral HIV drug for pregnancy / postpartum ? Zidovudine (AZT)
+1552864006710 - How do you manage HIV during pregnancy for mom (intrapartum)? Viral load ≥ 1000 or unknown : cART, zidovudine (AZT), and C-section at 38 weeks Viral load < 1000 : cART and vaginal delivery

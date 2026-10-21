@@ -1,0 +1,16 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::15_Human_T-lymphotropic_Virus_(HTLV) (15 notas)
+1480647024386 2-RelativelyHighYield Adult T-cell leukemia/lymphoma (ATLL) is a neoplastic proliferation of mature CD4 + T cells
+1480647026937 1-HighYield Adult T-cell leukemia/lymphoma is caused by HTLV-1
+1480647032473 2-RelativelyHighYield The HTLV-1 virus (cause of ATLL) is associated with IV drug users
+1480647044946 2-RelativelyHighYield What regions are most commonly affected by adult T-cell leukemia/lymphoma (ATLL)? Japan, West Africa, and the Caribbean
+1480647048466 1-HighYield Adult T-cell leukemia/lymphoma (ATLL) may present with cutaneous lesions (rash) due to skin infiltration
+1480647054826 2-RelativelyHighYield Adult T-cell leukemia/lymphoma may present with lytic (punched-out) bone lesions and hypercalcemia
+1480647061759 1-HighYield What clinical finding can distinguish adult T-cell leukemia/lymphoma (ATLL) from multiple myeloma ? ATLL causes a rash
+1496159468936 4-LowerYield Which oncogenic microbe is associated with adult T-cell leukemia/lymphoma (ATLL)? HTLV-1
+1502064775742 2-RelativelyHighYield Retroviruses (e.g., HIV) are diploid single-stranded RNA viruses
+1502066128205 2-RelativelyHighYield HIV is a retrovirus , which is a(n) diploid single-stranded positive sense RNA virus
+1582488326767 4-LowerYield Adult T-cell leukemia typically presents in older adults and is TdT negative
+1593878223549 - What type of virus is HTLV-1 ? Positive sense RNA
+1593878731477 - HIV and HTLV-1 are both retroviruses
+1593879155083 - HTLV-1 is icosahedral
+1593879324758 - Human T-cell lymphotrophic virus-1 (HTLV-1) is enveloped

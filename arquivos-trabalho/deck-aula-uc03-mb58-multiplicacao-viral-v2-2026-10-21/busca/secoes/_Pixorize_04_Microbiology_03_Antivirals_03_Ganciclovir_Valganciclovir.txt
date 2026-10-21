@@ -1,0 +1,18 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::03_Antivirals::03_Ganciclovir/Valganciclovir (17 notas)
+1503862129351 1-HighYield Treatment for CMV includes ganciclovir, valganciclovir, or foscarnet / cidofovir
+1504642690770 - What prophylactic medications should be initiated in a patient who is beginning high-dose immunosuppression therapy following a renal transplant? 1. TMP-SMX (for PCP) 2. Ganciclovir or valganciclovir 
+1506726911137 3-HighYield-temporary Ganciclovir and valganciclovir are guanosine analogs
+1506727367546 4-LowerYield Ganciclovir must be phosphorylated three times by intracellular enzymes to reach its activated nucleo tide form
+1506727458246 4-LowerYield Ganciclovir is converted to ganciclovir monophosphate by virus-encoded kinases via the UL-97 gene
+1506727517347 4-LowerYield Ganciclovir monophosphate is eventually converted to ganciclovir tri phosphate by cellular kinases
+1506727731928 3-HighYield-temporary Valganciclovir is the prodrug form of ganciclovir that has better oral bioavailability
+1506727746723 3-HighYield-temporary Ganciclovir triphosphate incorporates into viral DNA, inhibiting viral DNA-dependent DNA polymerase
+1506727932519 1-HighYield Ganciclovir and valganciclovir are commonly used to treat CMV
+1506728026109 1-HighYield Which antivirals are used during solid-organ and bone marrow transplant ? Ganciclovir or valganciclovir
+1506728145227 3-HighYield-temporary Ganciclovir and valganciclovir are used as prophylaxis of CMV retinitis in immunocompromised patients
+1506728209338 3-HighYield-temporary Leukopenia (neutropenia), anemia , and thrombocytopenia are hematological complications of ganciclovir
+1506728275842 3-HighYield-temporary Ganciclovir and valganciclovir are associated with bone marrow suppression
+1506728477701 4-LowerYield CMV can gain resistance to ganciclovir via mutations in the UL-97 gene
+1521656938186 - Rapid Diagnosis Newborn with microcephaly , periventricular calcifications, deafness, thrombocytopenia, and petechiae Congenital CMV
+1557069136233 - Transplant patient with bloody diarrhea and multiple, large shallow ulcers on colonoscopy is suggestive of CMV colitis
+1584302274494 - Is primary prophylaxis against CMV recommended for patients with HIV ? No

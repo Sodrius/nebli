@@ -1,0 +1,11 @@
+# #AK_Step1_v12::#SketchyMicro::03_Viruses::01_RNA_(+)_Sense::10_Equine_Encephalitis_Viruses_&_Chikungunya_Virus_(Togaviridae) (10 notas)
+1504652342629 - What is the likely diagnosis in a patient with recent travel to a (sub)tropical region that presents with fever , polyarthralgias , and a diffuse maculopapular skin rash ? Laboratory exam reveals leuk
+1516237632309 2-RelativelyHighYield What type of viruses are togaviruses ? Positive sense RNA
+1516237852309 3-HighYield-temporary Arboviruses are a class of viruses that have arthropod vectors
+1516238131776 3-HighYield-temporary Any virus that is transmitted by mosquitoes , fleas , or ticks is said to be a(n) arbovirus
+1516238226677 2-RelativelyHighYield Arboviruses all cause encephalitis and fever
+1516238372967 5-LowYield The togavirus family includes Eastern equine encephalitis, Western equine encephalitis, Venezuelan equine encephalitis, and Chikungunya virus
+1516238643613 4-LowerYield Arboviruses present with symptoms such as fever , altered mental status , seizures, and cranial nerve palsies
+1516239274326 3-HighYield-temporary Are togaviruses enveloped ? Yes
+1522430399029 4-LowerYield Dengue fever and chikungunya viral infections typically occur simultaneously, as both are transmitted by the Aedes mosquito
+1587426861915 5-LowYield The hallmark of Chikungunya fever is severe joint symptoms

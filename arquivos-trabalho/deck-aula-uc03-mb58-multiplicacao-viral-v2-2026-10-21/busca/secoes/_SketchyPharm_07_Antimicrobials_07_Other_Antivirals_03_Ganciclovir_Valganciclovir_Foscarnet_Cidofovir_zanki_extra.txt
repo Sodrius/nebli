@@ -1,0 +1,3 @@
+# #AK_Step1_v12::#SketchyPharm::07_Antimicrobials::07_Other_Antivirals::03_Ganciclovir,_Valganciclovir,_Foscarnet,_Cidofovir::zanki_extra (2 notas)
+1514907496062 4-LowerYield Letermovir is an antiviral used for treatment and prophylaxis of CMV infections who have received allogenic hematopoietic stem cell transplants
+1514908377683 3-HighYield-temporary Foscarnet inhibits HIV reverse transcriptase

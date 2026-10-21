@@ -1,0 +1,23 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::11_Varicella-Zoster_Virus_Diagnostics_and_Management (22 notas)
+1485127554282 2-RelativelyHighYield Gabapentin is an anti-epileptic that may be used to treat post-herpetic neuralgia
+1486591239941 1-HighYield Reye syndrome is fulminant liver failure and encephalopathy in children with viral illness who take aspirin
+1486591251230 1-HighYield What viruses classically cause Reye syndrome when treated with aspirin ? Influenza B, VZV
+1487122048949 1-HighYield What type of vaccine is the varicella vaccine (chickenpox)? Live-attenuated
+1502152099123 1-HighYield Cowdry bodies are located in the nucleus
+1502152318872 1-HighYield Cowdry bodies are eosino philic intra nuclear inclusions found in cells infected with organisms within the herpesviridae family
+1506290419188 2-RelativelyHighYield What viruses can be diagnosed with a Tzanck smear ? VZV, HSV, and CMV
+1506290563519 5-LowYield A(n) Tzanck smear showing multinucleated giant cells is characteristic of infections with VZV, HSV, and CMV
+1506292159429 1-HighYield What type of vaccine is the zoster vaccine ? Recombinant (Shingrix)
+1506292202420 1-HighYield Which demographic is the recombinant zoster vaccine (Shingrix) recommended for? Adults ≥ 50
+1506292544907 1-HighYield Congenital varicella syndrome occurs when a pregnant patient contracts VZV within the first or second trimester(s)
+1506292648156 3-HighYield-temporary What complication can occur with VZV infection in pregnancy ? Congenital varicella syndrome
+1506292701967 2-RelativelyHighYield Congenital varicella syndrome can result in limb hypoplasia
+1506292746852 2-RelativelyHighYield Congenital varicella syndrome can result in dermatomal scarring
+1506292789570 1-HighYield Congenital varicella syndrome can result in blindness
+1506725730548 1-HighYield What is the treatment of serious HSV and VZV infections? IV acyclovir
+1516325875017 1-HighYield Reye syndrome can present with liver failure and encephalopathy
+1516475827100 1-HighYield Which virus/viral family will have nuclear , eosinophilic inclusions within cells ? Herpesviridae family (Cowdry bodies)
+1539888776643 - The treatment for chickenpox includes topical ointments for pruritus and acyclovir if immunosuppressed
+1553816834276 - What is the likely diagnosis in a child who recently received the VZV vaccine and developed a maculopapular / vesicular rash with few lesions? Replication of the vaccine -strain VZV
+1557010792347 2-RelativelyHighYield Initial treatment of uncomplicated shingles (herpes zoster) is with oral acyclovir, valacyclovir, or famciclovir
+1582564438091 - What are the first-line medications for postherpetic neuralgia ? TCAs and/or gabapentin

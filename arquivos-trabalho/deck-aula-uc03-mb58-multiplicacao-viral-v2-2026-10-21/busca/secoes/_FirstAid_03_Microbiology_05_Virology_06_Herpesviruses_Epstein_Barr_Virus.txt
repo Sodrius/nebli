@@ -1,0 +1,47 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::06_Herpesviruses::*Epstein-Barr_Virus (46 notas)
+1403140169070 1-HighYield What pathogen is the most common etiology of infectious mononucleosis ? EBV (HHV-4)
+1403140255270 1-HighYield Infectious mononucleosis due to EBV infection presents with fever , hepatosplenomegaly , pharyngitis , and lymphadenopathy
+1403140461354 1-HighYield Infectious mononucleosis is a disease caused by EBV that is also commonly referred to as " kissing disease " as it is often seen in teens and young adults
+1403140930710 1-HighYield Which herpesvirus is associated with nasopharyngeal carcinoma ? EBV (HHV-4)
+1403149724209 1-HighYield Which serological antigen from Epstein-Barr virus (EBV) is produced if the infection is active and productive ? Viral capsid antigen (VCA)
+1403149942402 1-HighYield Which serological antigen from EBV is seen in latent infection? Epstein-Barr nuclear antigen (EBNA)
+1403149965943 1-HighYield Epstein-Barr nuclear antigen (EBNA) is a serological antigen from EBV that contributes to Hodgkin or Burkitt lymphoma
+1403294217650 2-RelativelyHighYield Primary CNS lymphoma is a lymphoma often associated with EBV that can present as focal/solitary lesions, thereby differentiating it from toxoplasmosis
+1480564012664 2-RelativelyHighYield Infectious mononucleosis less commonly occurs due to a(n) CMV infection
+1480564019323 1-HighYield What demographic is associated with infectious mononucleosis due to EBV infection? Teenagers
+1480564028314 2-RelativelyHighYield EBV infection results in lymphocytosis comprised of reactive CD8+ T cells
+1480564033225 2-RelativelyHighYield The lymphadenopathy seen with infectious mononucleosis is due to T-cell hyperplasia in the lymph node paracortex
+1480564035597 1-HighYield The CD8 + T-cell response in EBV infection leads to splenomegaly
+1480564038208 2-RelativelyHighYield The splenomegaly seen with infectious mononucleosis is due to T-cell hyperplasia in the periarteriolar lymphatic sheath (PALS) of the spleen
+1480564049214 1-HighYield What initial test is commonly used to diagnose infectious mononucleosis ? Monospot test
+1480564052470 1-HighYield The monospot test detects IgM heterophile antibodies that cross-react with horse or sheep RBCs
+1480564059776 4-LowerYield A(n) negative monospot test with symptoms of infectious mononucleosis suggests CMV infection
+1480564063016 2-RelativelyHighYield A definitive diagnosis of infectious mononucleosis is made by serologic testing for the EBV viral capsid antigen
+1480564116452 2-RelativelyHighYield Epstein-Barr virus (EBV) remains dormant in B cells , which increases risk for lymphoma , especially if immunodeficiency develops (e.g., HIV )
+1503853224031 1-HighYield Epstein-Barr virus is part of the herpesviridae family
+1503853375663 2-RelativelyHighYield Epstein-Barr virus is icosahedral
+1503853445009 2-RelativelyHighYield Epstein-Barr virus is enveloped
+1503853454738 2-RelativelyHighYield Epstein-Barr virus is linear
+1503853462990 3-HighYield-temporary Epstein-Barr virus is a(n) dsDNA virus
+1503853483744 1-HighYield Epstein-Barr virus causes monospot positive infectious mononucleosis
+1503853508872 1-HighYield Epstein-Barr virus is primarily transmitted through saliva or respiratory secretions
+1503853578292 2-RelativelyHighYield Epstein-Barr virus is associated with fatigue, fever, post erior cervical lymphadenopathy , pharyngitis , and hepatosplenomegaly
+1503853789736 1-HighYield Epstein-Barr virus is associated with Downey type II atypical CD8+ cytotoxic T cells on blood smear
+1503854191836 1-HighYield Atypical ( Downey type II ) T cells are unusually large T cells with baso philic , vacuolated cytoplasm and a lobulated nucleus
+1503854280231 4-LowerYield Epstein-Barr virus first infects the oropharyngeal epithelium
+1503854580495 1-HighYield T-cell proliferation in Epstein-Barr virus may result in (hepato) splenomegaly
+1503854748516 1-HighYield Epstein-Barr virus remains latent in B cells
+1503855029259 2-RelativelyHighYield Epstein-Barr virus (EBV) binds to CD21 (C3d receptor; CR2) on B-cells , causing B-cell proliferation and heterophile antibody production
+1503855271322 4-LowerYield The B-cell CD21 is the receptor for complement protein C3d
+1503855340289 1-HighYield Patients with infectious mononucleosis (EBV) are advised to avoid contact sports (e.g., football) for one month due to risk of splenic rupture
+1503855433986 1-HighYield Epstein-Barr virus can result in pharyngitis with tonsillar exudates
+1503855562190 1-HighYield Which cause of pharyngitis is more commonly seen in children and adolescents ? Strep pyogenes (GAS)
+1503855625731 1-HighYield Which cause of pharyngitis is more commonly seen in late teens and adults ? EBV (infectious mononucleosis)
+1503856230733 1-HighYield Epstein-Barr virus is strongly associated with the mixed cellularity and lymphocyte-depleted subtypes of Hodgkin lymphoma
+1503856659741 4-LowerYield Which subtype of Hodgkin lymphoma has the most Reed-Sternberg cells ? Mixed cellularity Hodgkin lymphoma (MCHL)
+1503856727554 2-RelativelyHighYield Hodgkin lymphoma may present as a(n) mediastinal mass or nontender cervical / supraclavicular and/or axillary lymphadenopathy
+1503856816924 1-HighYield Epstein-Barr virus is associated with the endemic (African) form of Burkitt lymphoma
+1503857084845 2-RelativelyHighYield Which form of Burkitt lymphoma presents as an abdominal mass ? Non-endemic (sporadic form)
+1503857167545 1-HighYield Nasopharyngeal carcinoma is a complication of Epstein-Barr virus in patients of Asian descent
+1503857420915 1-HighYield What demographic is associated with nasopharyngeal carcinoma that arises from EBV ? Asians
+1503857456202 1-HighYield What virus causes agglutination of sheep or horse RBCs ? Epstein-Barr virus

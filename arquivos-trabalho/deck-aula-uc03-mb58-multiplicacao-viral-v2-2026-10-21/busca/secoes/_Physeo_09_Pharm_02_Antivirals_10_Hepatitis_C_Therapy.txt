@@ -1,0 +1,25 @@
+# #AK_Step1_v12::#Physeo::09_Pharm::02_Antivirals::10_Hepatitis_C_Therapy (24 notas)
+1461797573387 5-LowYield All patients with virologic evidence of chronic HCV infection should be considered for treatment, except those with limited life expectancy
+1461797583285 5-LowYield The goal of treatment of hepatitis C is to completely cure the patient, which is now possible with the advent of direct-acting antivirals
+1461797595100 5-LowYield What traditional treatment for hepatitis C is no longer used? Interferon α and ribavirin
+1461797629482 3-HighYield-temporary Ribavirin must be phosphorylated three times by intracellular enzymes to reach its activated nucleotide form
+1461797649771 2-RelativelyHighYield A major side effect of ribavirin is that it may cause dose-dependent hemolytic anemia
+1461797689978 5-LowYield Sofosbuvir is a nucleotide analog that inhibits the HCV NS5B RNA-dependent RNA polymerase
+1461797701666 5-LowYield Adverse effects associated with sofosbuvir include fatigue and nausea
+1461797734146 3-HighYield-temporary Simeprevir is a NS3/4A protease inhibitor that may be used for the treatment of hepatitis C genotype 1
+1461797752804 5-LowYield Adverse effects of simeprevir include photosensitivity and rash
+1461797760919 3-HighYield-temporary Simeprevir is a(n) inhibitor of cytochrome P450 and thus may have many drug interactions
+1461797767925 5-LowYield Mainstay of treatment for hepatitis C infection includes NS3/NS4A protease inhibitors and NS5A inhibitors which should be administered together
+1476496198826 2-RelativelyHighYield Mycophenolate mofetil and ribavirin inhibit IMP dehydrogenase , preventing conversion of IMP to GMP (purine synthesis)
+1506631004332 1-HighYield Hepatitis C virus infections can be treated with protease and polymerase inhibitors
+1514736654381 4-LowerYield Is therapy for hepatitis viruses indicated for acute, chronic, or both infections? Chronic*
+1514737162457 2-RelativelyHighYield The goal of chronic HCV therapy is to establish a sustained virologic response ; meaning that HCV RNA is not detected by PCR for 12 weeks
+1514738221319 4-LowerYield Before beginning treatment for HCV - a clinical history, physical exam, and genotyping are undergone
+1514738701137 4-LowerYield HCV therapeutics with the suffix - asvir work by inhibiting the NS5A protein, which plays an integral role in viral replication
+1514739659474 4-LowerYield HCV therapeutics with the suffix - previr work by inhibiting the NS3/4A protease
+1514739756145 3-HighYield-temporary Which HCV therapies are generally well tolerated and occasionally present with fatigue, headache , and nausea ? Ledipasvir, sofosbuvir
+1514740282011 3-HighYield-temporary Which HCV therapies are generally well tolerated and occasionally present with photosensitivity reactions and rash ? Simeprevir
+1514740606355 3-HighYield-temporary Ribavirin is an antiviral that works by inhibiting the synthesis of guanine nucleotides
+1514740864172 4-LowerYield Ribavirin is a(n) guanosine nucleoside analog that acts by competitively inhibiting inosine monophosphate (IMP) dehydrogenase
+1514740967212 3-HighYield-temporary Ribavirin is extremely contraindicated in what patient population? Pregnant patients
+1514900969301 4-LowerYield Which step of the viral life cycle does ribavirin target? E (guanine nucleotide synthesis)

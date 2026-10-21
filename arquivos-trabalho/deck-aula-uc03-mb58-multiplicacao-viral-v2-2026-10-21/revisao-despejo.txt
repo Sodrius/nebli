@@ -1,0 +1,784 @@
+000 au-permissiva | Autora | AsAs | Slide 4
+    F: A cell with the viral receptor is [susceptible], and one that also supports replication is [permissive]
+    V: - Infection also depends on access to the target cell and on the immune response
+    IMG: —
+001 au-produtiva | Autora | Vs | Slide 6
+    F: A(n) [productive] infection yields new infectious virions, whereas a(n) [abortive] one does not
+    V: - Abortive: the cell is not permissive or the virus is defective / - Infection = the virus introduces its genetic material into the cell
+    IMG: —
+002 au-etapas | Autora | VsVsVs | Slide 8
+    F: Steps of viral replication: / - [Adsorption] / - [Penetration] / - [Uncoating] / - Synthesis of [proteins] and [nucleic acid] / - [Assembly] / - [Maturation] / - [Release] /
+    V: - Entry (1), synthesis in the cell (2) and exit (3) in the influenza scheme of lâmina 7
+    IMG: —
+003 au-receptor | Autora | As | Slide 9
+    F: Adsorption is the specific binding of the virus to a host-membrane [receptor] protein
+    V: - Each virus recognizes its own receptor, which defines the cells it infects
+    IMG: —
+004 ak1502066766747 | AnKing | Vs | Slide 10
+    F: [gp120] is the outer glycoprotein of HIV
+    V: Binds CD4 and either CCR5 (macrophages, early) or CXCR4 (T-cells, late) / / /  / /
+    IMG: b744e265d2e52b23d329bbb0
+005 ak1506805847290 | AnKing | Vs | Slide 10
+    F: Which envelope protein on HIV functions to allow attachment to host CD4+ T cells? / / [gp120] /
+    V: gp120 is the docking glycoprotein / /  / /
+    IMG: aacb7afba5b4ddacc0439349, bbb75b6edfb5d5ba5c1ba1c6
+006 ak1489971140322 | AnKing | Vs | Slide 10
+    F: Which immune cells have the cell surface protein CCR5? / / [Macrophages (early HIV infection), helper T cells] /
+    V: Whereas CXCR4 is only on helper T cells / /
+    IMG: aacb7afba5b4ddacc0439349
+007 ak1489970960324 | AnKing | Vs | Slide 10
+    F: Which immune cell has the cell surface protein CXCR4? / / [Helper T cells (late HIV infection)] /
+    V: - HIV may become CXCR4 tropic in late-stage infection / / - Meanwhile CCR5 is on macrophages (early HIV infection) and helper T cells
+    IMG: —
+008 ak1502068331161 | AnKing | AsAs | Slide 10
+    F: In [early] HIV infection, HIV gains entry into [macrophages] via binding to CD4 plus the coreceptor [CCR5]
+    V: - HIV binds to CD4 plus a coreceptor to infect T lymphocytes and macrophages / - Coreceptors include CCR5 (macrophages in early infection) and CXCR4 (T cells in late infection) / /
+    IMG: aacb7afba5b4ddacc0439349, 2d7ec7fa20c74336b35e28f9, b744e265d2e52b23d329bbb0
+009 ak1502068440036 | AnKing | AsAs | Slide 10
+    F: In [late] HIV infection, HIV gains entry into [helper T-cells] via binding to CD4 plus the coreceptor [CXCR4]
+    V: - HIV binds to CD4 plus a coreceptor to infect T lymphocytes and macrophages / - Coreceptors include CCR5 (macrophages in early infection) and CXCR4 (T cells in late infection) / /
+    IMG: b744e265d2e52b23d329bbb0
+010 ak1502068458514 | AnKing | Ps | Slide 10
+    F: Individuals with [homo]zygous CCR5 allele mutations are resistant to HIV infection
+    V: CCR5 is a coreceptor for HIV on macrophages. A deletion in the CCR5 allele can result in nonfunctional coreceptor leading to protection against HIV. The number of CCR5 alleles muta
+    IMG: aacb7afba5b4ddacc0439349
+011 ak1502068584028 | AnKing | Ps | Slide 10
+    F: Individuals with [hetero]zygous CCR5 allele mutations display a slower rate of progression of HIV infection
+    V: - CCR5 is a coreceptor for HIV on macrophages / - Deletion in the CCR5 allele can result in nonfunctional coreceptor leading to protection against HIV / / Number of CCR5 alleles mu
+    IMG: aacb7afba5b4ddacc0439349
+012 ak1516222322469 | AnKing | AsAs | Slide 10
+    F: [Rhinovirus] is a virus that enters host cells by attaching to [ICAM-1]
+    V: #1 cause of the common cold /
+    IMG: —
+013 au-penetracao | Autora | Vs | Slide 11
+    F: Viruses enter the cell by: / - [endocytosis] / - [translocation] / - [membrane fusion] /
+    V: - Endocytosis: poliovirus, adenovirus, influenza, HCV / - Fusion: herpesviruses, paramyxoviruses, HIV
+    IMG: —
+014 ak1516323635408 | AnKing | Vs | Slide 14
+    F: Which envelope protein of Influenza facilitates viral endocytosis into cells? / / [Hemagglutinin (HA)] /
+    V: By binding to sialic acid
+    IMG: —
+015 ak1502066667272 | AnKing | Vs | Slide 15
+    F: [gp41] is the transmembrane protein of HIV, mediating viral-cell fusion and syncytia formation
+    V: - gp41 (Forty-one), Fusion and entry / / - Reaches out and grabs other cells / /  / /
+    IMG: aacb7afba5b4ddacc0439349
+016 au-fusao-env | Autora | As | Slide 16
+    F: Herpesvirus, paramyxovirus and HIV can enter by [fusion] of their envelope with the cell membrane
+    V: - HIV: gp41 mediates the fusion / - Paramyxoviruses: the F protein
+    IMG: —
+017 au-desnud | Autora | Vs | Slide 17
+    F: Uncoating can occur: / - directly in the [cytoplasm] / - after acidification of the [endosomal] vesicle / - at the [nuclear pore] /
+    V: - Uncoating separates the nucleic acid from the capsid, partly or completely
+    IMG: —
+018 au-adeno-desnud | Autora | PsPs | Slide 18
+    F: After endocytosis, adenovirus is carried along [microtubules] to the [nuclear pore], where it releases its DNA
+    V: - Viral DNA is released at the pore because naked DNA in the cytoplasm is foreign to the cell
+    IMG: —
+019 au-precoces | Autora | As | Slide 20
+    F: Early viral mRNAs encode [nonstructural] proteins, whereas late mRNAs encode [structural] proteins
+    V: - Genome replication is prioritized over capsid proteins, which could trigger an immune response if made without genomes
+    IMG: —
+020 ak1502152021975 | AnKing | Vs | Slide 20
+    F: Most DNA viruses replicate in the [nucleus]
+    V: - The exception here being poxvirus (comes pre-packaged with its own DNA-dependent RNA polymerase) / / - Whereas most RNA viruses replicate in the cytoplasm (exceptions here being 
+    IMG: —
+021 ak1516321076508 | AnKing | Vs | Slide 20
+    F: RNA viruses usually replicate in the [cytoplasm]
+    V: Except retroviridae and orthomyxoviridae viruses
+    IMG: —
+022 ak1483913062659 | AnKing | VsVs | Slide 20
+    F: All RNA viruses replicate in the [cytoplasm] except for [orthomyxovirus and retroviruses]
+    V: / / - Retroviral DNA is transcribed in the nucleus, and influenza makes its mRNA there
+    IMG: 8a5367066fd941f4fb6cb204
+023 au-pequenos-dna | Autora | Vs | Slide 29
+    F: Small DNA viruses encode only proteins that manipulate the host: / - [Papillomaviridae] / - [Polyomaviridae] / - [Parvoviridae] /
+    V: - They depend more on host proteins for DNA replication / - Replication of viral DNA always needs at least one viral protein
+    IMG: —
+024 au-grandes-dna | Autora | Vs | Slide 29
+    F: Large DNA viruses encode much of their own replication machinery: / - [Herpesviridae] / - [Adenoviridae] / - [Poxviridae] /
+    V: - They encode many, but not all, of the proteins needed
+    IMG: —
+025 au-prot-dna | Autora | AsAs | Slide 30
+    F: Large DNA viruses encode: / - [DNA polymerase] and helicases / - [exonucleases] / - nucleotide enzymes such as [thymidine kinase] /
+    V: - Others: ribonucleotide reductase and dUTPase / - Thymidine kinase is what activates acyclovir
+    IMG: —
+026 au-primers | Autora | VsVs | Slide 32
+    F: Viral DNA primers: / - RNA at a fork: [papillomavirus], [polyomavirus], [herpesvirus] / - protein: [adenovirus] / - DNA hairpin: [parvovirus], [poxvirus] /
+    V: - Retroviral proviruses also replicate at a fork with RNA primers
+    IMG: —
+027 au-extremidade5 | Autora | As | Slide 33
+    F: Viral genomes avoid losing the [5′ end] by being circular or using protein or hairpin primers
+    V: - RNA primers are removed from the 5′ end of the new strand, which would shorten a linear genome / - Polyomavirus: circular; herpesvirus: circularizes; adenovirus: protein primer; 
+    IMG: —
+028 ak1516850294247 | AnKing | As | Slide 35
+    F: Polyomaviruses have [circular] DNA genomes
+    V: - A circular genome has no ends, so it avoids the 5′-end replication problem
+    IMG: —
+029 au-polyoma-genes | Autora | As | Slide 35
+    F: Polyomavirus early genes encode the [T antigens], and late genes encode the [capsid] proteins
+    V: - Early: large T, small t and 17kT; late: VP1, VP2 and VP3
+    IMG: —
+030 au-polyoma-t | Autora | VsVs | Slide 36
+    F: Polyomavirus large T antigen binds the [origin of replication] and acts as a [helicase]
+    V: - It recruits the host replication machinery and unwinds the SV40 origin with ATP / - Cellular topoisomerases then relieve the supercoiling (lâmina 40)
+    IMG: —
+031 ak1493400683960 | AnKing | Vs | Slide 41
+    F: Which type of genome do papilloma viruses have? / / [Circular] /
+    V: HPV are non-enveloped icosahedral circular double-stranded DNA group of viruses / /
+    IMG: —
+032 ak1493398712106 | AnKing | Vs | Slide 41
+    F: What are four characteristics of human papillomavirus (HPV) itself? / / [Non-enveloped (naked)] / [Icosahedral] / [Circular] / [dsDNA]
+    V: - The HPV 16 genome has 7,906 base pairs
+    IMG: —
+033 au-hpv-e1e2 | Autora | AsAs | Slide 42
+    F: In HPV, [E2] binds sequences near the origin and positions [E1], a helicase
+    V: - E1 also recruits DNA polymerase and topoisomerase
+    IMG: —
+034 ak1463105909117 | AnKing | VsVs | Slide 43
+    F: High-risk HPV strains produce [E6] protein, which increases destruction of [p53] /
+    V: - Conveniently, E6 inhibits p53; E7 inhibits Rb / / - 6 before 7; P before R /
+    IMG: —
+035 ak1463105915437 | AnKing | VsVs | Slide 43
+    F: High-risk HPV strains produce [E7] protein, which increases destruction of [Rb (specifically p105-Rb)] /
+    V: - Rb and p53 are tumor suppressors that inhibit the G1-S transition in the cell cycle / / - Conveniently, E6 inhibits p53; E7 inhibits Rb / - 6 before 7; P before R /
+    IMG: —
+036 ak1494087380814 | AnKing | As | Slide 43
+    F: What type(s) of HPV encode for the proteins E6 and E7? / / [High-risk HPVs (16, 18, 31, 33)] /
+    V: Bind p53 and Rb, respectively → inability to inhibit cell cycle → tumorigenesis /
+    IMG: —
+037 au-hpv-efeitos | Autora | As | Slide 43
+    F: HPV E6 and E7 promote: / - longer [cell lifespan] / - [unscheduled] DNA replication / - resistance to [apoptosis] / - [immune evasion] /
+    V: - Small pleiotropic proteins that help immortalize human keratinocytes / - They differ between high- and low-risk HPV
+    IMG: —
+038 au-hpv-diferenciado | Autora | As | Slide 43
+    F: HPV must induce DNA synthesis in cells committed to terminal [differentiation], where its genome is amplified
+    V: - E7 uncouples DNA synthesis from cell differentiation (lâmina 44)
+    IMG: —
+039 ak1502718274711 | AnKing | Vs | Slide 43
+    F: Which layer of the epithelium does HPV infect? / / [Stratum basale] / /
+    V: Basal layer where new epithelial cells are replicating / /  / /
+    IMG: 2b5e7156d2ac6df8a3aaf0a7
+040 au-adeno-pol | Autora | AsAs | Slide 46
+    F: Adenovirus uses the host [RNA] polymerase but encodes its own [DNA] polymerase
+    V: - The viral DNA polymerase is an early protein
+    IMG: —
+041 au-adeno-sd | Autora | AsAs | Slide 46
+    F: Adenovirus replicates by [strand displacement], making both strands continuously with no [Okazaki] fragments
+    V: - Each strand starts separately, one after the other (semiconservative)
+    IMG: —
+042 ak1516930208305 | AnKing | Vs | Slide 47
+    F: Adenovirus has a(n) [linear] [D]NA genome
+    V: - The origins lie at both ends and a terminal protein primes the synthesis
+    IMG: —
+043 au-adeno-primer | Autora | Vs | Slide 47
+    F: Adenovirus DNA synthesis is primed by a [protein] that binds dCMP and supplies the 3′-OH
+    V: - The origins lie at both ends of the linear genome
+    IMG: —
+044 au-herpes-tandem | Autora | As | Slide 50
+    F: Rolling-circle replication forms tandem genome repeats that are then [cleaved] into single genomes
+    V: - One strand is made continuously and the displaced strand discontinuously
+    IMG: —
+045 au-herpes-circ | Autora | VsVs | Slide 51
+    F: Herpesvirus DNA enters linear, [circularizes] in the cell, and replicates by [rolling circle]
+    V: - Host proteins carry out the circularization / - Origins: two oriS and one oriL
+    IMG: —
+046 ak1502152053718 | AnKing | Ps | Slide 51
+    F: Herpes simplex virus (HSV) replicates in the [nucleus]
+    V: like most DNA viruses
+    IMG: —
+047 ak1502570386887 | AnKing | VsVs | Slide 54
+    F: [Poxvirus] is the only DNA virus that completely replicates in the [cytoplasm]
+    V: Has its own DNA-dependent RNA polymerase
+    IMG: —
+048 ak1502570452327 | AnKing | VsVs | Slide 55
+    F: [Poxvirus] has its own [DNA-dependent RNA polymerase] which allows it to replicate in the cytoplasm
+    V: - Recall Poxvirus is dsDNA / / - Most other DNA viruses must enter the nucleus in order to make use of cellular RNA polymerase /
+    IMG: —
+049 au-pox-precoces | Autora | AsAs | Slide 55
+    F: Right after losing its envelope, poxvirus makes [early] mRNAs using the polymerase carried in the [virion]
+    V: - The host RNA polymerase is in the nucleus, out of reach of a cytoplasmic virus
+    IMG: —
+050 au-pox-dna-nu | Autora | As | Slide 55
+    F: Purified vaccinia DNA is not infectious because it lacks the viral [RNA polymerase]
+    V: - The polymerase must be present in the virion because it is needed right after infection
+    IMG: —
+051 au-parvo-hairpin | Autora | As | Slide 60
+    F: Parvovirus DNA ends fold into [hairpins] whose 3′-OH primes synthesis by a host DNA polymerase
+    V: - Replication is nuclear and uses cellular enzymes / - The genome has rep and cap open reading frames
+    IMG: —
+052 au-rna-genomas | Autora | AsAsAs | Slide 63
+    F: RNA virus genomes: / - poliovirus and retrovirus: [positive-sense ssRNA] / - influenza, rhabdovirus and hepatitis delta: [negative-sense ssRNA] / - reovirus: [dsRNA, segmented] /
+    V: - Influenza genome is segmented; retrovirus is diploid and hepatitis delta is circular
+    IMG: —
+053 ak1506554798856 | AnKing | Vs | Slide 63
+    F: What type of virus is hepatitis D? / / [Negative sense RNA] /
+    V: Part of the deltaviridae family /
+    IMG: —
+054 ak1506554995533 | AnKing | Vs | Slide 63
+    F: What is the shape of the hepatitis D virus genome? / / [Circular] /
+    V: - Hepatitis D is a circular (−) RNA that needs the HBsAg of hepatitis B
+    IMG: —
+055 au-reo-mono | Autora | As | Slide 64
+    F: Each segment of the reovirus genome is transcribed into one [monocistronic] mRNA
+    V: - Replication is cytoplasmic / - Each mRNA codes for a single protein
+    IMG: —
+056 ak1506627151740 | AnKing | As | Slide 68
+    F: Picornaviruses have viral [proteases] which cleave the large translated polypeptide into functional viral proteins
+    V: - The (+) RNA is translated into one polyprotein, which the viral protease cleaves
+    IMG: —
+057 ak1608908726392 | AnKing | PsPs | Slide 68
+    F: After [viral uncoating], the positive-sense genomic RNA of coronavirus can be translated into [2 long polyproteins]
+    V: - Can then undergo autoproteolytic cleavage into proteases / / - These proteases then cleave the remainder of the long polyprotein into the other proteins of coronavirus that will 
+    IMG: —
+058 ak1608909035503 | AnKing | Ps | Slide 68
+    F: After the replication-transcription complex is assembled, the positive-sense genomic RNA of coronavirus can be transcribed into [negative-sense RNA]
+    V: - To provide a template strand for viral progeny synthesis / / - After viral uncoating → positive-sense genomic RNA translated into 2 long polyproteins / - After replication-transc
+    IMG: —
+059 ak1608909367152 | AnKing | Ps | Slide 68
+    F: Full-length [negative]-sense RNA (template) is used to make new [positive]-sense RNA (progeny) of coronavirus
+    V: i.e., genomic RNA of progeny virus
+    IMG: —
+060 ak1516320980606 | AnKing | VsVs | Slide 70
+    F: [Orthomyxoviridae] is the only family of negative sense RNA viruses to replicate in the [nucleus]
+    V: - RNA viruses usually replicate in the cytoplasm / / - Retroviridae (e.g., HIV) are positive sense viruses that replicate in the nucleus
+    IMG: —
+061 au-retro-rt | Autora | AsAs | Slide 73
+    F: A retrovirus packages [reverse transcriptase] and integrates its DNA copy as a [provirus]
+    V: - The incoming (+) RNA is not translated: it is the template for the reverse transcriptase / - Integration into the host genome is obligatory
+    IMG: —
+062 ak1502069441823 | AnKing | Vs | Slide 74
+    F: Once HIV is inside a cell, viral [reverse transcriptase] converts viral RNA to double-stranded DNA (dsDNA) / / This double-stranded DNA is inserted into the host cell genome by [integrase], another viral enzyme /
+    V: Recall that the HIV gene pol encodes reverse transcriptase, aspartate protease and integrase / /  /
+    IMG: 2d7ec7fa20c74336b35e28f9, 68e6f2885007cc627dd50193
+063 ak1506551550710 | AnKing | VsVs | Slide 76
+    F: Hepatitis B virus is [partially] [double]-stranded
+    V: - Becomes fully double-stranded during replication (see below) / / - HBV DNA polymerase has DNA & RNA-dependent activities / / 1. Enters the nucleus → polymerase completes the part
+    IMG: —
+064 ak1506554976089 | AnKing | Vs | Slide 77
+    F: What is the shape of the hepatitis B virus genome? / / [Circular] /
+    V: - The partially double-stranded circle is completed by the viral polymerase in the nucleus
+    IMG: —
+065 ak1506551774430 | AnKing | VsVs | Slide 77
+    F: Upon entry into the cell [nucleus], HBV [DNA-polymerase] completes the partially dsDNA
+    V: HBV DNA polymerase has DNA & RNA-dependent activities / 1. Enters the nucleus → polymerase completes the partial dsDNA / 2. Host RNA polymerase transcribes viral DNA → mRNA → viral
+    IMG: —
+066 ak1506551855396 | AnKing | AsAs | Slide 77
+    F: Once the dsDNA of HBV is complete, [host] [RNA polymerase] transcribes [mRNA] from the dsDNA
+    V: - Reverse transcription of the mRNA forms the partially-dsDNA / / - HBV DNA polymerase has DNA & RNA-dependent activities / / 1. Enters the nucleus → polymerase completes the parti
+    IMG: —
+067 ak1506551469394 | AnKing | Vs | Slide 77
+    F: Where does hepatitis B virus replicate? / / [Both nucleus and cytoplasm :)] /
+    V: HBV DNA polymerase has DNA & RNA-dependent activities / / 1. Enters the nucleus → polymerase completes the partial dsDNA / 2. Host RNA polymerase transcribes viral DNA → mRNA → vir
+    IMG: —
+068 ak1523915429557 | AnKing | As | Slide 77
+    F: Upon cellular entry, partially dsDNA of HBV is repaired and used for [transcription]
+    V: Partially dsDNA → dsDNA → + ssRNA / / HBV DNA polymerase has DNA & RNA-dependent activities / 1. Enters the nucleus → polymerase completes the partial dsDNA / 2. Host RNA polymeras
+    IMG: —
+069 ak1608910179425 | AnKing | As | Slide 79
+    F: The key member of the replication-transcription complex of coronavirus is the [RNA-dependent RNA polymerase (RDRP)]
+    V: Used to make more copies of genomic RNA
+    IMG: —
+070 au-rdrp-todos | Autora | Vs | Slide 79
+    F: All RNA viruses except [retroviruses] encode an RNA-dependent RNA polymerase
+    V: - The enzyme makes new genomes and mRNA / - The cell has no RNA-dependent RNA polymerase, so the virus must supply it
+    IMG: —
+071 au-reo-pol | Autora | As | Slide 80
+    F: dsRNA and (−)ssRNA viruses carry the [polymerase] in the virion, so their genomes are not infectious alone
+    V: - (+)ssRNA viruses carry no polymerase: it is translated from the infectious genome
+    IMG: —
+072 au-neg-pol-proteina | Autora | As | Slide 81
+    F: The polymerase of (−) RNA viruses copies RNA only when it is bound to [proteins] in the nucleocapsid
+    V: - That allows transcription right after infection / - The RNA stays organized in a nucleocapsid that includes the polymerase
+    IMG: —
+073 au-discrimina | Autora | Ps | Slide 82
+    F: A viral RNA polymerase tells viral RNA from cellular RNA by its [internal structure]
+    V: - It must also decide between making complete genomes or mRNA, using segmentation, polyprotein synthesis and internal sequences
+    IMG: —
+074 au-mutacao | Autora | As | Slide 83
+    F: RNA viruses mutate at a high rate because their polymerase cannot [correct errors]
+    V: - Segmented genomes also reassort, as in influenza
+    IMG: —
+075 ak1516321532745 | AnKing | Vs | Slide 83
+    F: The [segmented] virus families may be remembered with the mnemonic "BOAR": / / [Bunyavirus] / [Orthomyxovirus] / [Arenavirus] / [Reovirus] /
+    V: / / - Segmented genomes allow reassortment between strains
+    IMG: 8a5367066fd941f4fb6cb204
+076 ak1516321532746 | AnKing | Vs | Slide 83
+    F: The segmented virus families may be remembered with the mnemonic "[BOAR]"
+    V: Bunyavirus / Orthomyxovirus / Arenavirus / Reovirus / /
+    IMG: 8a5367066fd941f4fb6cb204
+077 ak1523806216737 | AnKing | Vs | Slide 83
+    F: Which viral genetic phenomenon is characterized by virus A and virus B exchanging genomic segments intracellularly? / / [Reassortment] /
+    V: Exchange of the whole genomic segment (e.g., HA or NA antigens) /
+    IMG: —
+078 ak1523806616492 | AnKing | As | Slide 83
+    F: During viral reassortment, will the viral progeny display changes? / / [Yes] /
+    V: - Reassortment swaps whole segments and can create new antigens (antigenic shift)
+    IMG: —
+079 ak1516323064948 | AnKing | VsVsVs | Slide 83
+    F: Antigenic [shift] occurs with HA/NA [reassortment] amongst different [species] /
+    V: - Known as antigenic segment reassortment / / - For example, H1N1 (swine flu) resulted from antigenic shift between human, avian, and swine influenza viruses / / - Antigenic shifts
+    IMG: 350b8ed063c11cbc75773490
+080 ak1523806341324 | AnKing | Vs | Slide 83
+    F: Which viral genetic phenomenon can cause antigenic shift? / / [Reassortment] /
+    V: Exchange of the whole genomic segment (e.g., HA or NA antigens) / /
+    IMG: —
+081 au-montagem | Autora | As | Slide 84
+    F: Viral assembly can occur in the: / - [cytosol] / - [endoplasmic reticulum] and Golgi / - [plasma membrane] / - [nucleus] /
+    V: - Inclusion bodies can form at the assembly site
+    IMG: —
+082 ak1506806776715 | AnKing | VsVs | Slide 84
+    F: HIV [env] encoded [gp160] is first sent to the [endoplasmic reticulum] of the cell for processing
+    V: - Proteases in Golgi apparatus cleave gp160 into gp120 and gp41 → sent to cell membrane (recall that ER and Golgi apparatus are processing centers for surface proteins) / / - This 
+    IMG: —
+083 ak1608910407576 | AnKing | Ps | Slide 84
+    F: The fully functional virions of coronavirus from the Golgi are transported through a series of membranous vesicles to the cell membrane where they are released via [exocytosis]
+    V: - Coronavirus virions assemble on the ER–Golgi membranes and leave in vesicles
+    IMG: —
+084 ak1608910298755 | AnKing | Ps | Slide 84
+    F: The newly synthesized coronavirus viral proteins, nucleocapsid, and positive-sense progeny RNA bud from the [Golgi apparatus] /
+    V: i.e., it's fully functional at this point but is still stuck in the cell
+    IMG: —
+085 au-inclusoes | Autora | AsAs | Slide 85
+    F: Viral inclusion bodies: / - cytoplasmic: [poxvirus], [reovirus], [paramyxovirus], [rabies virus] / - nuclear: [herpesvirus], [adenovirus], [parvovirus] /
+    V: - Only some viruses make inclusion bodies; the presence of one helps recognize a viral infection
+    IMG: —
+086 ak1502570605009 | AnKing | VsVsVs | Slide 85
+    F: Intra[cytoplasmic] inclusions, known as [Guarnieri bodies] AKA [B]-type inclusions, are diagnostic of [Poxvirus]
+    V: Recall that Poxvirus is the only DNA virus to replicate entirely in the cytoplasm, therefore the inclusion bodies will also be in the cytoplasm /  /
+    IMG: 1e015d45baf9564a1a0c4233
+087 ak1516475620459 | AnKing | As | Slide 85
+    F: Which virus/viral family will have cytoplasmic, eosinophilic inclusions within neuronal cells? / / [Rabies virus / Negri bodies] / / [IMG paste-25881472926074.jpg]
+    V: / / - Negri bodies sit in the cytoplasm of neurons, such as hippocampal and Purkinje cells
+    IMG: 7572035579660e4529b16e55
+088 ak1516475827100 | AnKing | Vs | Slide 85
+    F: Which virus/viral family will have nuclear, eosinophilic inclusions within cells? / / [Herpesviridae family (Cowdry bodies)] / / [IMG 4ec1fad705d84063639d6e9816dc5c66.png] /
+    V: / / / / - Adenovirus and parvovirus also form intranuclear inclusions
+    IMG: 5f639bb53c2df0930748949e
+089 ak1502152318872 | AnKing | VsVsVs | Slide 85
+    F: [Cowdry bodies] are [eosino]philic intranuclear inclusions found in cells infected with organisms within the [herpesviridae] family
+    V: Not to be confused with: / - Negri bodies seen in rabies infections (cytoplasmic inclusions in neurons) / - Guarnieri bodies seen in molluscum contagiosum (poxvirus), which has eos
+    IMG: 5f639bb53c2df0930748949e, 17dd844c1b9584c1b91afacb
+090 au-liberacao | Autora | Vs | Slide 87
+    F: Viruses are released by: / - [lysis] / - [budding] / - [cell-to-cell passage] / - formation of [syncytia] /
+    V: - Budding gives enveloped viruses their envelope / - Syncytia come from fusion of infected cells with neighbors
+    IMG: —
+091 au-htlv | Autora | Ps | Slide 90
+    F: HTLV-1 spreads between T cells through a [virological synapse]
+    V: - Cell-to-cell passage avoids exposure of the virus to antibodies
+    IMG: —
+092 au-resumo-dna | Autora | AsAs | Slide 91
+    F: Polyomavirus and papillomavirus use the [host] polymerase, whereas adenovirus and herpesvirus use a [viral] one
+    V: - Poxviruses are the DNA-virus exception: they replicate in the cytoplasm with a viral polymerase / - Hepadnaviruses are a special case
+    IMG: —
+093 au-antiv-poucos | Autora | As | Slide 94
+    F: Few antivirals because: / - fewer [targets] / - each virus has its own [strategy] / - [latency] / - treatment only works [early] /
+    V: - Different viruses can cause similar symptoms, which hampers diagnosis / - Prevention (vaccines) remains the best defense
+    IMG: —
+094 au-antiv-mec | Autora | Vs | Slide 95
+    F: An antiviral blocks: / - [extracellular] virions / - [attachment] or entry / - genome [replication] / - viral [protein] synthesis or function / - [assembly] or release /
+    V: - A molecule works as an antiviral if it inhibits a step of replication without being too toxic to the host
+    IMG: —
+095 ak1506806715774 | AnKing | VsVs | Slide 10
+    F: Enfuvirtide binds [gp41] of HIV, inhibiting viral cell [fusion] with host cells
+    V: EnFOURvirtide binds to gp FORTy-one / / EnFUrvitide inhibits FUsion / /  / /
+    IMG: aacb7afba5b4ddacc0439349, 3689cb1f06f28b3972651aab
+096 ak1506806663801 | AnKing | Vs | Slide 10
+    F: Which HAART drug binds to gp41? / / [Enfuvirtide] /
+    V: EnFOURvirtide binds to gp FORTy-one / /  / /
+    IMG: 3689cb1f06f28b3972651aab, aacb7afba5b4ddacc0439349
+097 ak1506806433678 | AnKing | Vs | Slide 10
+    F: Maraviroc inhibits [gp120] of HIV binding to the chemokine receptor [CCR5 (macrophages and T-cells)]
+    V: Recall that gp120 of HIV binds CD4 and a chemokine receptor (CXCR4 or CCR5) to attach to the host cell / /  / / /
+    IMG: aacb7afba5b4ddacc0439349, 3689cb1f06f28b3972651aab
+098 ak1502070230172 | AnKing | VsVs | Slide 10
+    F: [Maraviroc] is a(n) [CCR5] inhibitor that inhibits HIV entrance into macrophages early in the disease course
+    V: CCR5 is still found on CD4+ T-cells and used as entry (however CXCR4 according to FC is major entry) / /  / /
+    IMG: aacb7afba5b4ddacc0439349
+099 ak1506783569000 | AnKing | Vs | Slide 10
+    F: Which type of HAART drug is maraviroc? / / [Entry inhibitor (CCR5 antagonist)] /
+    V: / /  / / - It blocks CCR5, the coreceptor HIV uses early in infection
+    IMG: 3689cb1f06f28b3972651aab, aacb7afba5b4ddacc0439349
+100 ak1516324096049 | AnKing | VsVsVs | Slide 10
+    F: [M2 channel proteins] are influenza viral proteins that ensure proper intracellular [pH] for viral [uncoating]
+    V: - Amantadine and rimantadine block this channel and trap the virus in the endosome
+    IMG: —
+101 ak1516324301529 | AnKing | VsVs | Slide 10
+    F: Amantadine and rimantadine are drugs that inhibit the [M2 protein channels] of [influenza A]
+    V: - Thus viral uncoating cannot occur / / - Have a high rate of resistance, thus are no longer recommended for treatment of influenza in the United States / / - Zanamivir and oseltam
+    IMG: —
+102 ak1516324529716 | AnKing | Vs | Slide 10
+    F: Which two anti-influenza drugs inhibit the M2 channels? / / [Amantadine, rimantadine] /
+    V: - Thus viral uncoating cannot occur / / - Have a high rate of resistance and are no longer recommended for treatment of influenza in the United States / / - Zanamivir and oseltamiv
+    IMG: —
+103 ak1516401763134 | AnKing | Vs | Slide 10
+    F: Which two anti-influenza drugs inhibit viral uncoating? / / [Amantadine and rimantadine] /
+    V: - Via M2 channel inhibition, thus pH is not regulated for viral uncoating / / - No longer recommended for treatment in the United States due to resistance / / - Whereas zanamivir a
+    IMG: —
+104 ak1516324579285 | AnKing | Vs | Slide 10
+    F: Which two anti-influenza drugs have a high rate of resistance (no longer recommended)? / / [Amantadine and rimantadine] /
+    V: - Resistance made them obsolete; neuraminidase inhibitors replaced them
+    IMG: —
+105 au-antiv-pol-propria | Autora | Vs | Slide 10
+    F: Viral polymerase inhibitors only work on viruses that encode their [own] polymerase
+    V: - They can be nucleoside/nucleotide analogs or non-analogs / - HPV and polyomaviruses use the host polymerase, so these drugs do not work
+    IMG: —
+106 ak1467683788745 | AnKing | As | Slide 10
+    F: A(n) [nucleoSide] is a base plus a sugar (ribose or deoxyribose) /
+    V: / / - Nucleoside analogs, such as acyclovir, receive their phosphates inside the cell
+    IMG: 153ec860a9014aaa4ed89d79
+107 ak1467683795991 | AnKing | As | Slide 10
+    F: A(n) [nucleoTide] is a base plus a sugar (ribose or deoxyribose) plus phosphate /
+    V: / / - Tenofovir is a nucleotide analog, so it needs only two more phosphates
+    IMG: 153ec860a9014aaa4ed89d79
+108 ak1506783462443 | AnKing | Ps | Slide 10
+    F: Which type of HAART drug is didanosine (ddl)? / / [NRTI] /
+    V: / /  / / - Didanosine is a nucleoside analog that terminates the viral DNA chain
+    IMG: 3689cb1f06f28b3972651aab, 2d7ec7fa20c74336b35e28f9
+109 ak1506723403021 | AnKing | As | Slide 10
+    F: Acyclovir, famciclovir, and valacyclovir are all [guanosine] analogs
+    V: Converted to acyclo-GTP, allowing it to inhibit viral DNA-polymerase /
+    IMG: —
+110 ak1506724412716 | AnKing | As | Slide 11
+    F: [Virus]-encoded thymidine kinase phosphorylation is the rate-determining activation step of acyclovir
+    V: Is also the place where herpesviruses can gain resistance to acyclovir /
+    IMG: —
+111 ak1506724574195 | AnKing | As | Slide 11
+    F: Absence of thymidine kinase confers resistance to [acyclovir] in HSV
+    V: - The viral thymidine kinase gives the first phosphate to acyclovir
+    IMG: —
+112 ak1506723704374 | AnKing | AsAs | Slide 11
+    F: Acyclovir is converted to acyclovir monophosphate by [thymidine kinase] in [virus-infected] cells
+    V: This is the first phosphorylation step (hence monophosphate) occurs selectively in virus-infected cells (encoded by herpesviruses)
+    IMG: —
+113 ak1403635238503 | AnKing | Vs | Slide 11
+    F: Which viral enzyme monophosphorylates acyclovir/famciclovir/valacyclovir, thereby activating it? / / [Thymidine kinase] /
+    V: Rate-limiting step /
+    IMG: —
+114 ak1506723958257 | AnKing | As | Slide 11
+    F: Acyclovir must be [phosphorylated three times] by intracellular enzymes to reach its activated nucleotide form
+    V: - First phosphorylation: viral-encoded thymidine kinase monophosphorylates acyclovir (rate-limiting step) / / - Second and third: phosphorylation by cellular kinases → acyclovir tr
+    IMG: —
+115 ak1506724024237 | AnKing | As | Slide 11
+    F: Acyclovir monophosphate is eventually converted to [acyclovir triphosphate] by cellular kinases
+    V: Recall that acyclovir is phosphorylated 3 times before it is active in cells /
+    IMG: —
+116 ak1506724128411 | AnKing | As | Slide 11
+    F: Acyclovir triphosphate is incorporated into replicating viral DNA, inhibiting [viral DNA polymerase]
+    V: - Acyclovir has no 3′-OH, so the DNA chain cannot be extended
+    IMG: —
+117 ak1506724299597 | AnKing | Vs | Slide 11
+    F: What is the rate-limiting step of acyclovir activation? / / [Thymidine kinase phosphorylation to acyclovir monophosphate] /
+    V: Acyclovir is thus not effective in CMV or EBV due to lack of thymidine kinase /
+    IMG: —
+118 ak1403635898739 | AnKing | As | Slide 11
+    F: What is the mechanism of resistance to acyclovir / famciclovir / valacyclovir? / / [Mutated / absent thymidine kinase] /
+    V: - Without the viral kinase, acyclovir is never activated
+    IMG: —
+119 ak1506724515933 | AnKing | As | Slide 11
+    F: Lack of thymidine kinase to phosphorylate acyclovir explains why the drug is not effective in [CMV] and [EBV]
+    V: - Only HSV and VZV encode a thymidine kinase that activates it well
+    IMG: —
+120 ak1506727367546 | AnKing | Ps | Slide 11
+    F: Ganciclovir must be [phosphorylated three times] by intracellular enzymes to reach its activated nucleotide form
+    V: - A viral kinase adds the first phosphate (UL97 in CMV) and cellular kinases the rest
+    IMG: —
+121 ak1506727517347 | AnKing | Ps | Slide 11
+    F: Ganciclovir monophosphate is eventually converted to [ganciclovir triphosphate] by cellular kinases
+    V: Recall that the CMV UL-97 gene encodes enzymes that convert ganciclovir to ganciclovir monophosphate /
+    IMG: —
+122 ak1506728477701 | AnKing | Ps | Slide 11
+    F: CMV can gain resistance to ganciclovir via mutations in the [UL-97] gene
+    V: This card used to say that mutations in DNA polymerase were also a mechanism of resistance, but that is more strongly associated with foscarnet and cidofovir. Both First Aid 2024 a
+    IMG: —
+123 ak1506723660731 | AnKing | VsVs | Slide 11
+    F: Acyclovir, famciclovir, and valacyclovir are used to treat [active] [VZV] and [HSV] infections
+    V: Weak activity against EBV and no activity against CMV
+    IMG: —
+124 ak1506726911137 | AnKing | As | Slide 11
+    F: Ganciclovir and valganciclovir are [guanosine] analogs
+    V: - Like acyclovir, they are activated by a viral kinase
+    IMG: —
+125 ak1506727746723 | AnKing | As | Slide 11
+    F: Ganciclovir triphosphate incorporates into viral DNA, inhibiting [viral DNA-dependent DNA polymerase]
+    V: - Its incorporation slows and stops the elongation of viral DNA
+    IMG: —
+126 ak1506727458246 | AnKing | Ps | Slide 11
+    F: Ganciclovir is converted to ganciclovir monophosphate by virus-encoded kinases via the [UL-97] gene
+    V: - CMV-encoded protein kinase / - vs. thymidine kinase that phosphorylates acyclovir /
+    IMG: —
+127 ak1506727932519 | AnKing | Vs | Slide 11
+    F: Ganciclovir and valganciclovir are commonly used to treat [CMV]
+    V: - Valganciclovir is the oral prodrug of ganciclovir
+    IMG: —
+128 ak1403636599345 | AnKing | As | Slide 11
+    F: What is the mechanism of action of cidofovir? / / [Preferential direct inhibition of viral DNA polymerase] /
+    V: - Cidofovir is already a nucleotide analog, so it does not need the viral kinase
+    IMG: —
+129 ak1506724662638 | AnKing | Vs | Slide 11
+    F: Which viral DNA-polymerase inhibitors do not require thymidine kinase to become active? / / [Cidofovir, foscarnet] /
+    V: - Resistance to these drugs comes from mutations of the viral DNA polymerase
+    IMG: —
+130 ak1506728618047 | AnKing | As | Slide 11
+    F: What drugs do not require phosphorylation via CMV viral kinase? / / [Foscarnet, cidofovir] /
+    V: - Hence are active even with mutations in the UL-97 gene / / - Directly inhibit DNA polymerase /
+    IMG: —
+131 ak1403636336526 | AnKing | VsVsVs | Slide 11
+    F: [Foscarnet] is an antiviral agent that acts as a viral [DNA/RNA polymerase] inhibitor by binding to the [pyrophosphate]-binding site of the enzyme
+    V: - e.g., organ transplant or AIDS patients / - Also inhibits HIV reverse transcriptase /
+    IMG: —
+132 ak1506728737669 | AnKing | Vs | Slide 11
+    F: What drug is a pyrophosphate analog that directly inhibits viral DNA polymerase? / / [Foscarnet] /
+    V: - Foscarnet binds the pyrophosphate site of the polymerase and needs no phosphorylation
+    IMG: —
+133 ak1506729713312 | AnKing | As | Slide 11
+    F: Resistance to cidofovir and foscarnet occurs with mutations to [viral DNA polymerase]
+    V: Recall that these agents bind directly to the DNA polymerase /
+    IMG: —
+134 ak1506784777103 | AnKing | VsVs | Slide 11
+    F: [Reverse transcriptase] inhibitors prevent transcription of [ssRNA] into [dsDNA] thereby inhibiting viral replication
+    V: e.g., NRTIs, NNRTIs / /  / /
+    IMG: 3689cb1f06f28b3972651aab, 2d7ec7fa20c74336b35e28f9
+135 ak1506784318198 | AnKing | As | Slide 11
+    F: NRTIs are nucleosides or nucleotides that have an absent [3' hydroxyl group]
+    V: / / - Without the 3′-OH, the next nucleotide cannot be added
+    IMG: 3689cb1f06f28b3972651aab
+136 ak1506783521685 | AnKing | Vs | Slide 11
+    F: Which type of HAART drug is zidovudine (ZDV, formerly AZT)? / / [NRTI] /
+    V: / /  / / - AZT triphosphate ends the DNA chain made by reverse transcriptase
+    IMG: 3689cb1f06f28b3972651aab, 2d7ec7fa20c74336b35e28f9
+137 ak1506783486518 | AnKing | Vs | Slide 11
+    F: Which type of HAART drug is lamivudine (3TC)? / / [NRTI] /
+    V: / /  / / - A cytidine analog, used together with other NRTIs in HAART
+    IMG: 3689cb1f06f28b3972651aab, 2d7ec7fa20c74336b35e28f9
+138 ak1506783497051 | AnKing | Ps | Slide 11
+    F: Which type of HAART drug is stavudine (d4T)? / / [NRTI]
+    V: / /  / / - A thymidine analog, listed among the nucleoside analogs of the lecture
+    IMG: 3689cb1f06f28b3972651aab, 2d7ec7fa20c74336b35e28f9
+139 ak1506785118508 | AnKing | Vs | Slide 12
+    F: Which NRTI is a nucleotide and not a nucleoside? / / [Tenofovir] /
+    V: - Referred to as NtRTI = nucleoTide reverse transcriptase inhibitor / / - Tenofovir = nucleotide / /
+    IMG: 3689cb1f06f28b3972651aab
+140 ak1506785242535 | AnKing | Vs | Slide 12
+    F: Which NRTI requires only 2 phosphorylations to become active? / / [Tenofovir]
+    V: It is already a nucleotide (monophosphorylated) analog (as opposed to the NRTIs which are nucleosides) which is why it only requires 2 instead of 3 phosphorylations /  /
+    IMG: 3689cb1f06f28b3972651aab
+141 ak1506783296016 | AnKing | Vs | Slide 12
+    F: Which type of HAART drug is abacavir (ABC)? / / [NRTI] /
+    V: / /  / / - Its active form is carbovir, a guanosine analog
+    IMG: 3689cb1f06f28b3972651aab, 2d7ec7fa20c74336b35e28f9
+142 ak1506783511355 | AnKing | Vs | Slide 12
+    F: Which type of HAART drug is tenofovir (TDF)? / / [NtRTI] /
+    V: - NucleoTide reverse transcriptase inhibitor (NtRTI) is a specific subtype of the nucleoside reverse transcriptase inhibitor (NRTI) / / - This card used to state NRTI, but was chan
+    IMG: 3689cb1f06f28b3972651aab, 2d7ec7fa20c74336b35e28f9
+143 ak1506783471847 | AnKing | Vs | Slide 12
+    F: Which type of HAART drug is emtricitabine (FTC)? / / [NRTI] /
+    V: / /  / / - Often combined with tenofovir in PrEP
+    IMG: 3689cb1f06f28b3972651aab, 2d7ec7fa20c74336b35e28f9
+144 ak1506784353867 | AnKing | AsAs | Slide 12
+    F: NRTIs are incorporated into [viral] DNA, causing premature [chain termination]
+    V: - Due to them lacking a 3’ hydroxyl group / - Inhibits the reverse transcription of RNA to DNA / /  / / /
+    IMG: 68e6f2885007cc627dd50193, 3689cb1f06f28b3972651aab
+145 ak1506784467378 | AnKing | VsVs | Slide 12
+    F: NRTIs inhibit formation of [3'] to [5'] [phosphodiester] bonds
+    V: / / - With no 3′-OH there is no phosphodiester bond with the next nucleotide
+    IMG: 3689cb1f06f28b3972651aab
+146 ak1506784514467 | AnKing | As | Slide 12
+    F: Most NRTIs are [nucleosides] that must undergo [phosphorylation] in order to be active
+    V: The exception being tenofovir, which is a nucleotide / /
+    IMG: 3689cb1f06f28b3972651aab
+147 ak1506789392960 | AnKing | Vs | Slide 12
+    F: Non-nucleoside RTIs (NNRTIs) directly inhibit [HIV reverse transcriptase] by binding to a different site from NRTIs
+    V: / / - NNRTIs bind an allosteric pocket and need no phosphorylation
+    IMG: 3689cb1f06f28b3972651aab
+148 ak1506789263570 | AnKing | Vs | Slide 12
+    F: Do NNRTIs require phosphorylation to be activated? / / [No] /
+    V: Non-nucleoside RTIs (NNRTIs) directly inhibit reverse transcriptase by binding to a different site from NRTIs. They do not require phosphorylation to be active or compete with nucl
+    IMG: 3689cb1f06f28b3972651aab
+149 ak1506783862734 | AnKing | Vs | Slide 12
+    F: Which type of HAART drug is nevirapine? / / [NNRTI] /
+    V: / /  / / - Etravirine and rilpivirine belong to the same class
+    IMG: 3689cb1f06f28b3972651aab, 2d7ec7fa20c74336b35e28f9
+150 ak1506783854533 | AnKing | As | Slide 12
+    F: Which type of HAART drug is efavirenz? / / [NNRTI] /
+    V: / /  / / - Efavirenz is part of first-line HAART regimens with two NRTIs
+    IMG: 3689cb1f06f28b3972651aab, 2d7ec7fa20c74336b35e28f9
+151 ak1506783836022 | AnKing | Ps | Slide 12
+    F: Which type of HAART drug is delavirdine? / / [NNRTI] /
+    V: / /  / / - NNRTIs do not compete with nucleotides for the active site
+    IMG: 3689cb1f06f28b3972651aab, 2d7ec7fa20c74336b35e28f9
+152 ak1506789519603 | AnKing | As | Slide 12
+    F: Do NNRTIs compete with nucleotides for binding to reverse transcriptase? / / [No] /
+    V: - Non-nucleoside, have a different mechanism and bind in a different site than NRTIs: / / - NRTIs: are nucleoside analogs and can therefore block other nucleosides from binding to 
+    IMG: —
+153 ak1461797689978 | AnKing | AsAsAs | Slide 12
+    F: [Sofosbuvir] is a nucleotide analog that inhibits the HCV [NS5B] [RNA-dependent RNA polymerase] / /
+    V: - soFIVEsbuvir for NSFIVEB / / - This includes sofosbuvir (a nucleotide analog) and dasabuvir (a non-nucleotide analog) / /
+    IMG: 436bed9d794a18f2bf0f7257
+154 ak1514740864172 | AnKing | AsAs | Slide 12
+    F: Ribavirin is a(n) [guanosine] nucleoside analog that acts by competitively inhibiting [inosine monophosphate (IMP) dehydrogenase]
+    V: - Ribavirin depletes the guanine nucleotide pool needed for viral RNA synthesis
+    IMG: —
+155 ak1514740606355 | AnKing | As | Slide 12
+    F: Ribavirin is an antiviral that works by inhibiting the synthesis of [guanine] nucleotides
+    V: - It acts through IMP dehydrogenase, lowering GTP
+    IMG: —
+156 ak1476496198826 | AnKing | VsVs | Slide 12
+    F: [Mycophenolate mofetil] and [ribavirin] inhibit IMP dehydrogenase, preventing conversion of IMP to [GMP] (purine synthesis) / /
+    V: - Both drugs reduce the guanine nucleotides needed for nucleic acid synthesis
+    IMG: —
+157 ak1506807161520 | AnKing | Vs | Slide 13
+    F: Which enzyme allows for HIV dsDNA to integrate with host cell DNA? / / [Integrase] /
+    V: Encoded by the pol gene / /  / /
+    IMG: 68e6f2885007cc627dd50193
+158 ak1506807294544 | AnKing | Vs | Slide 13
+    F: What class of drugs inhibits HIV DNA integration into host cell genomes? / / [Integrase inhibitors] /
+    V: - Thus inhibiting HIV mRNA formation / - Recall reverse transcriptase turns HIV ssRNA to dsDNA, which then can be integrated- Both enzymes, along with aspartate protease, are encod
+    IMG: 3689cb1f06f28b3972651aab
+159 ak1506807534113 | AnKing | Vs | Slide 13
+    F: What class of HAART drugs inhibits HIV mRNA formation? / / [Integrase inhibitors] /
+    V: Inhibits integration of HIV dsDNA into host cell genome / /
+    IMG: 3689cb1f06f28b3972651aab
+160 ak1506807835841 | AnKing | Vs | Slide 13
+    F: Integrase inhibitors will inhibit HIV [dsDNA] integration into the host cell genome, preventing [mRNA] production
+    V: Inhibit integration of HIV dsDNA into host cell genome / /  / / /
+    IMG: 68e6f2885007cc627dd50193, 3689cb1f06f28b3972651aab
+161 ak1506783685484 | AnKing | Ps | Slide 13
+    F: Which type of HAART drug is raltegravir? / / [Integrase inhibitor] /
+    V: -tegravir suffix for integrase inhibitors / /  / /
+    IMG: 3689cb1f06f28b3972651aab, 68e6f2885007cc627dd50193
+162 ak1506783654169 | AnKing | Ps | Slide 13
+    F: Which type of HAART drug is dolutegravir? / / [Integrase inhibitor] /
+    V: -tegravir suffix for integrase inhibitors / /  / /
+    IMG: 3689cb1f06f28b3972651aab, 68e6f2885007cc627dd50193
+163 ak1506783676307 | AnKing | Ps | Slide 13
+    F: Which type of HAART drug is elvitegravir? / / [Integrase inhibitor] /
+    V: -tegravir suffix for integrase inhibitors / /  / /
+    IMG: 3689cb1f06f28b3972651aab, 68e6f2885007cc627dd50193
+164 ak1516324778471 | AnKing | VsVs | Slide 13
+    F: Zanamivir and oseltamivir are drugs that inhibit [neuraminidase] of [influenza A and B]
+    V: -amivir; anamivir is another neuraminidase inhibitor / /
+    IMG: —
+165 ak1516324960043 | AnKing | Vs | Slide 13
+    F: Which two anti-influenza drugs inhibit virion release? / / [Zanamivir, oseltamivir] /
+    V: - As they are neuraminidase inhibitors / / - Whereas amantadine and rimantadine inhibit viral uncoating
+    IMG: —
+166 ak1516323747313 | AnKing | VsVs | Slide 13
+    F: [Neuraminidase] is a viral envelope protein that cleaves the [HA-sialic acid] interaction
+    V: Thus allowing for viral spread during budding of replication
+    IMG: —
+167 ak1516323825251 | AnKing | Vs | Slide 13
+    F: Which envelope protein of Influenza facilitates viral spread from cells? / / [Neuraminidase (NA)] /
+    V: Cleave HA-sialic acid interaction → Release virion
+    IMG: —
+168 au-baloxavir | Autora | As | Slide 13
+    F: Baloxavir inhibits the [cap-dependent endonuclease] of influenza
+    V: - Influenza snatches caps from host mRNAs (cap snatching) to prime its own mRNA / - It is the one anti-influenza that acts on the polymerase complex
+    IMG: —
+169 ak1502070156173 | AnKing | As | Slide 13
+    F: [Protease] inhibitors inhibit the enzyme responsible for cleaving proteins during viral replication
+    V: Useful in the treatment of HIV / /  / / /  / /
+    IMG: 3689cb1f06f28b3972651aab, fb1617ebcc759d875ae3dd91
+170 ak1506795652147 | AnKing | Vs | Slide 13
+    F: Which HAART drugs prevent mature virion formation from large polypeptides? / / [Protease inhibitors] /
+    V: "-navir" suffix / / Recall that viruses produce a large polypeptide that must be cleaved into smaller peptides for viral virion formation / /  / /
+    IMG: 3689cb1f06f28b3972651aab, fb1617ebcc759d875ae3dd91
+171 ak1514739659474 | AnKing | AsAs | Slide 13
+    F: HCV therapeutics with the suffix [-previr] work by inhibiting the NS3/4A [protease]
+    V: - This includes glecaprevir, simeprevir, grazoprevir, and paritaprevir / / - NS3/4A is found in genotype 1 / /
+    IMG: 436bed9d794a18f2bf0f7257
+172 ak1461797734146 | AnKing | AsAs | Slide 13
+    F: [Simeprevir] is a NS3/4A [protease] inhibitor that may be used for the treatment of hepatitis C genotype 1 / /
+    V: Binds directly to the proteases that cleave HCV-encoded polyproteins / /
+    IMG: 436bed9d794a18f2bf0f7257
+173 ak1506783819179 | AnKing | Vs | Slide 14
+    F: Which type of HAART drug is saquinavir? / / [Protease inhibitor] /
+    V: -navir suffix / /  / /
+    IMG: 3689cb1f06f28b3972651aab, fb1617ebcc759d875ae3dd91
+174 ak1506783814346 | AnKing | Vs | Slide 14
+    F: Which type of HAART drug is ritonavir? / / [Protease inhibitor] /
+    V: -navir suffix / /  / /
+    IMG: 3689cb1f06f28b3972651aab, fb1617ebcc759d875ae3dd91
+175 ak1506783803525 | AnKing | Vs | Slide 14
+    F: Which type of HAART drug is indinavir? / / [Protease inhibitor]
+    V: -navir suffix / /  / /
+    IMG: 3689cb1f06f28b3972651aab, fb1617ebcc759d875ae3dd91
+176 ak1506783808800 | AnKing | Ps | Slide 14
+    F: Which type of HAART drug is lopinavir? / / [Protease inhibitor] /
+    V: -navir suffix / /  / /
+    IMG: 3689cb1f06f28b3972651aab, fb1617ebcc759d875ae3dd91
+177 ak1506783697218 | AnKing | Ps | Slide 14
+    F: Which type of HAART drug is atazanavir? / / [Protease inhibitor] /
+    V: -navir suffix / /  / /
+    IMG: 3689cb1f06f28b3972651aab, fb1617ebcc759d875ae3dd91
+178 ak1506783796073 | AnKing | Ps | Slide 14
+    F: Which type of HAART drug is fosamprenavir? / / [Protease inhibitor] /
+    V: -navir suffix / /  / /
+    IMG: 3689cb1f06f28b3972651aab, fb1617ebcc759d875ae3dd91
+179 ak1506783727082 | AnKing | Ps | Slide 14
+    F: Which type of HAART drug is darunavir? / / [Protease inhibitor] /
+    V: -navir suffix / /  / /
+    IMG: 3689cb1f06f28b3972651aab, fb1617ebcc759d875ae3dd91
+180 ak1514738701137 | AnKing | AsAs | Slide 15
+    F: HCV therapeutics with the suffix [-asvir] work by inhibiting the NS5A protein, which plays an integral role in viral [replication]
+    V: - Also plays a role in viral assembly and secretion / / - Found in genotype 1 / /
+    IMG: 436bed9d794a18f2bf0f7257
+181 ak1461797767925 | AnKing | As | Slide 15
+    F: Mainstay of treatment for hepatitis C infection includes NS3/NS4A protease inhibitors and NS5A inhibitors which should be administered [together]
+    V: Two drugs from two different classes for treatment / /
+    IMG: 436bed9d794a18f2bf0f7257
+182 ak1506631004332 | AnKing | Vs | Slide 15
+    F: Hepatitis C virus infections can be treated with [protease] and [polymerase] inhibitors
+    V: - With direct-acting antivirals (DAAs) such as simeprevir, sofosbuvir, etc. / / - i.e., NS3/4A protease inhibitors and NS5A/B polymerase inhibitors / /
+    IMG: 436bed9d794a18f2bf0f7257
+183 ak1506630733850 | AnKing | Vs | Slide 15
+    F: Older treatments that can be used for hepatitis C virus infection include [IFN-α] and [ribavirin]
+    V: Have since been replaced with direct acting antivirals (DAAs) / /
+    IMG: 436bed9d794a18f2bf0f7257
+184 ak1461797583285 | AnKing | Ps | Slide 15
+    F: The goal of treatment of hepatitis C is to completely cure the patient, which is now possible with the advent of [direct-acting antivirals] / /
+    V: - e.g., NS3/4A protease inhibitors and NS5A/B polymerase inhibitors / - Also make sure the patient is vaccinated for hepatitis A & B / /
+    IMG: 436bed9d794a18f2bf0f7257
+185 ak1506783017772 | AnKing | Vs | Slide 15
+    F: Highly active antiretroviral therapy (HAART) consists of a minimum of [3] drugs to prevent resistance
+    V: 2 NRTIs + either an NNRTI or a protease inhibitor or an integrase inhibitor / /
+    IMG: 3689cb1f06f28b3972651aab
+186 ak1502069492941 | AnKing | Vs | Slide 15
+    F: The backbone of highly active antiretroviral therapy (HAART) are [NRTIs] such as zidovudine
+    V: NRTIs = nucleoside reverse transcriptase inhibitors /
+    IMG: —
+187 au-haart-classes | Autora | Vs | Slide 15
+    F: HAART drug classes: / - [NRTIs] / - [NNRTIs] / - [protease] inhibitors / - [fusion] inhibitors / - [integrase] inhibitors /
+    V: - Entry inhibitors such as the CCR5 antagonist maraviroc sit with the attachment and fusion class
+    IMG: —
+188 ak1514672013629 | AnKing | Vs | Slide 16
+    F: Highly active anti-retroviral therapy (HAART) is often initiated at the time of [HIV diagnosis]
+    V: - ART is indicated for all patients with HIV regardless of CD4 count due to its significant reductions in long-term HIV-related complications / - Early initiation also dramatically
+    IMG: —
+189 ak1506783163535 | AnKing | VsVsVsVs | Slide 16
+    F: HAART therapy consists of [2 NRTIs] plus 1 of either a(n) [NNRTI], [protease inhibitor], or [integrase inhibitor]
+    V: Highly active antiretroviral therapy consists of a minimum of 3 drugs to prevent the emergence of resistance / /
+    IMG: 3689cb1f06f28b3972651aab
+190 ak1514664090379 | AnKing | Vs | Slide 16
+    F: Emtricitabine (FTC) and tenofovir (TDF) are given as a combination drug for [pre-exposure prophylaxis (PrEP)] of HIV
+    V: - This drug combination (Truvada®) has an incredibly high success rate, failing in only 3 known cases / / - Unlike PrEP, post-exposure prophylaxis (PEP) includes an additional inte
+    IMG: 3689cb1f06f28b3972651aab, 96f93779d7ea5264bb770e5f
+191 au-lento-caro | Autora | Ps | Slide 16
+    F: Antiviral candidates need high [potency], because partial activity is not acceptable
+    V: - Also bioavailability, pharmacokinetics and safety / - Some viruses have no experimental model or are too dangerous to handle
+    IMG: —
+192 au-remdesivir | Autora | As | Slide 17
+    F: Remdesivir is a nucleotide analog that inhibits the [RdRp] of SARS-CoV-2
+    V: - Its active metabolite is a nucleoside triphosphate
+    IMG: —
+193 au-nirmatrelvir | Autora | As | Slide 17
+    F: Nirmatrelvir (in Paxlovid) inhibits the SARS-CoV-2 [protease]
+    V: - Paxlovid is nirmatrelvir plus ritonavir
+    IMG: —
+194 ak1461794607480 | AnKing | VsVs | Slide 17
+    F: Interferon [α] may be used in the treatment of hepatitis [B] and [C] infections / /
+    V: - Pegylated interferons may be used instead, which have longer half-lives and warrant less frequent dosing (1x/week) / / - ABC = Interferon α treats hep B and C / /
+    IMG: —
+195 au-polio-lise | Autora | As | Slide 23
+    F: In cell culture, poliovirus causes rounded cells and rapid [lysis] of the monolayer
+    V: - Incubation 2 to 7 days; the cytopathic effect does not identify the virus, only suggests a group
+    IMG: —

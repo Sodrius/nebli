@@ -1,0 +1,10 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::03_Viral_genomes::*RNA_Viral_Genomes (9 notas)
+1483913062659 1-HighYield All RNA viruses replicate in the cytoplasm except for orthomyxovirus and retroviruses
+1502063700798 1-HighYield Most RNA virus genomes are single-stranded and linear
+1502064066857 3-HighYield-temporary RNA viruses can be distinguished via their polarity , either (+) sense or (-) sense
+1502064208990 3-HighYield-temporary Positive sense RNA viruses carry RNA that is structurally similar to mRNA
+1502064281478 3-HighYield-temporary Positive sense RNA can be used immediately by the cell for gene translation and protein synthesis
+1502064367585 3-HighYield-temporary Negative sense RNA viruses must first be converted to positive sense RNA in order to be used by the host cell for protein synthesis
+1502064476771 3-HighYield-temporary Positive sense RNA are oriented in the 5' to 3' direction
+1502064737111 3-HighYield-temporary Negative sense RNA are oriented in the 3' to 5' direction
+1502064775742 2-RelativelyHighYield Retroviruses (e.g., HIV) are diploid single-stranded RNA viruses

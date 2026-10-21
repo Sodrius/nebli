@@ -1,0 +1,22 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::05_Hepatitis_A (21 notas)
+1504651964760 - What is the likely diagnosis in a patient with recent travel out of the country who presents with fever , jaundice , and tender hepatomegaly with very elevated LFTs (AST & ALT > 1,000 U/L)? Acute hepa
+1504653399932 - Indications for vaccination against hepatitis A for adults who are not immunized may be remembered with the mnemonic " A MILE H igh" Exposure to hepatitis A M en who have sex with men I V drug users L
+1504653399933 - Indications for vaccination against hepatitis A for adults who are not immunized may be remembered with the mnemonic " A MILE H igh"
+1506557605208 2-RelativelyHighYield Does hepatitis A have an envelope ? No (naked)
+1506608955267 1-HighYield What family of viruses does HAV belong to? Picornaviridae
+1506609015968 1-HighYield What type of virus is hepatitis A ? Positive sense RNA
+1506609946404 1-HighYield Which picornavirus can cause hepatosplenomegaly ? Hepatitis A virus (HAV)
+1506610615157 1-HighYield Hepatitis A virus is acid-stable
+1506610869302 2-RelativelyHighYield Developed countries purify their water supply, eliminating hepatitis A virus infection risk (fecal-oral transmission)
+1506611093570 1-HighYield What is a common source of hepatitis A virus in developing countries ? Contaminated water
+1506611185401 2-RelativelyHighYield What is a common source of hepatitis A virus in developed countries ? Contaminated shellfish
+1506611271271 1-HighYield Hepatitis A virus infection is commonly seen in travelers to endemic areas
+1506611338753 3-HighYield-temporary What cutaneous complication arises with hepatitis A virus infection? Jaundice
+1506611586959 1-HighYield Hepatitis A infection symptoms typically last < 2 months
+1506611712544 1-HighYield Which viral hepatitis infection(s) is/are often self-limiting ? HAV and HEV
+1506611793478 1-HighYield Does hepatitis A have a vaccine ? Yes
+1506611843004 2-RelativelyHighYield What type of vaccine is the hepatitis A virus vaccine ? Inactivated / killed
+1506628692802 1-HighYield Which two viruses classically present with Councilman bodies on liver biopsy ? Hepatitis A virus, yellow fever
+1552265426510 - Postexposure prophylaxis is recommended for unvaccinated close personal contacts of those with hepatitis A T
+1691516524185 1-HighYield Inactivated / killed vaccines may be remembered with the mnemonic " A TRIP could kill Y ou": Hepatitis A T yphoid fever ( Salmonella T yphi ) R abies I nfluenza (IM) P olio (Salk) Y ersinia pestis
+1691516524186 1-HighYield Inactivated / killed vaccines may be remembered with the mnemonic " A TRIP could kill Y ou"

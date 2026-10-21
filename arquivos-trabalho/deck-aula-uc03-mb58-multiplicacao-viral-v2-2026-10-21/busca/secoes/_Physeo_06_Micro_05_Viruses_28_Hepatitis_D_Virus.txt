@@ -1,0 +1,10 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::28_Hepatitis_D_Virus (9 notas)
+1506554724323 1-HighYield Hepatitis D virus cannot cause disease without hepatitis B HBsAg
+1506554798856 1-HighYield What type of virus is hepatitis D ? Negative sense RNA
+1506554854732 3-HighYield-temporary Hepatitis D is from the deltaviridae family
+1506554886218 1-HighYield Does hepatitis D virus have an envelope ? Yes
+1506554995533 2-RelativelyHighYield What is the shape of the hepatitis D virus genome? Circular
+1506555009044 1-HighYield What serologic marker must be present for hepatitis D virus infection ? HBsAg
+1506555110318 1-HighYield Which hepatitis D virus infection has a worse outcome? Superinfection with HBV
+1520351217376 2-RelativelyHighYield Hepatitis D virus receives a(n) viral coat from HBsAg in order to penetrate the hepatocyte
+1523806372994 4-LowerYield Which viral genetic phenomenon is exhibited by HBV providing HBsAg for HDV ? Complementation

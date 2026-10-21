@@ -1,0 +1,11 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::07_Viruses-DNA_Viruses::10_Hepadnavirus (10 notas)
+1471806240278 1-HighYield Polyarteritis nodosa (PAN) is a necrotizing vasculitis that is associated with positive serum HBsAg in 30% of patients
+1506551225497 1-HighYield Hepatitis B is from the hepadnaviridae family
+1506551385636 1-HighYield What type of virus is hepatitis B ? DNA
+1506551427767 1-HighYield Does hepatitis B have an envelope ? Yes
+1506551469394 1-HighYield Where does hepatitis B virus replicate ? Both nucleus and cytoplasm :)
+1506551550710 1-HighYield Hepatitis B virus is partially double -stranded
+1506551930834 3-HighYield-temporary After mRNA is produced, HBV reverse transcriptase produces progeny dsDNA from mRNA
+1506552739959 1-HighYield Polyarteritis nodosa associated with hepatitis B virus can affect the vessels of the kidney, resulting in hypertension and decreased GFR
+1506552876137 2-RelativelyHighYield Hepatitis B virus results in membranous glomerulonephropathy transitioning to membranoproliferative glomerulonephropathy
+1506554976089 2-RelativelyHighYield What is the shape of the hepatitis B virus genome? Circular

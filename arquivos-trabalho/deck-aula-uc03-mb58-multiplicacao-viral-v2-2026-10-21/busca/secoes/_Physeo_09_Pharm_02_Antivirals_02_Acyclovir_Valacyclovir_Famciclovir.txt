@@ -1,0 +1,30 @@
+# #AK_Step1_v12::#Physeo::09_Pharm::02_Antivirals::02_Acyclovir,_Valacyclovir,_&_Famciclovir (29 notas)
+1403635238503 2-RelativelyHighYield Which viral enzyme monophosphorylates acyclovir/famciclovir/valacyclovir , thereby activating it? Thymidine kinase
+1403635898739 3-HighYield-temporary What is the mechanism of resistance to acyclovir / famciclovir / valacyclovir ? Mutated / absent thymidine kinase
+1480876355789 3-HighYield-temporary Treatment for facial nerve palsy may include corticosteroids and acyclovir
+1502154755688 1-HighYield What drugs are used to prevent breakouts of herpes simplex virus ? Acyclovir and valacyclovir
+1506290994674 1-HighYield What is the drug of choice for severe chickenpox ? IV acyclovir
+1506723403021 3-HighYield-temporary Acyclovir , famciclovir , and valacyclovir are all guanosine analogs
+1506723660731 2-RelativelyHighYield Acyclovir , famciclovir , and valacyclovir are used to treat active VZV and HSV infections
+1506723704374 3-HighYield-temporary Acyclovir is converted to acyclovir monophosphate by thymidine kinase in virus-infected cells
+1506723958257 4-LowerYield Acyclovir must be phosphorylated three times by intracellular enzymes to reach its activated nucleo tide form
+1506724024237 4-LowerYield Acyclovir monophosphate is eventually converted to acyclovir triphosphate by cellular kinases
+1506724128411 3-HighYield-temporary Acyclovir triphosphate is incorporated into replicating viral DNA , inhibiting viral DNA polymerase
+1506724299597 2-RelativelyHighYield What is the rate-limiting step of acyclovir activation? Thymidine kinase phosphorylation to acyclovir mono phosphate
+1506724412716 3-HighYield-temporary Virus-encoded thymidine kinase phosphorylation is the rate-determining activation step of acyclovir
+1506724515933 3-HighYield-temporary Lack of thymidine kinase to phosphorylate acyclovir explains why the drug is not effective in CMV and EBV
+1506724574195 4-LowerYield Absence of thymidine kinase confers resistance to acyclovir in HSV
+1506724806509 2-RelativelyHighYield What is the treatment of choice for multiple yearly episodes of HSV recurrence ? Once daily oral valacyclovir
+1506725542995 3-HighYield-temporary Which acyclovir prodrug has improved oral bioavailability ? Valacyclovir
+1506725730548 1-HighYield What is the treatment of serious HSV and VZV infections? IV acyclovir
+1506725963193 1-HighYield What is the treatment of neonatal HSV infection? IV acyclovir
+1506725995852 1-HighYield What is the treatment of HSV encephalitis ? IV acyclovir
+1506726146461 3-HighYield-temporary During active shingles infection (herpes zoster), valacyclovir and famciclovir are most effective if given within 3 days of symptom onset
+1506726210693 3-HighYield-temporary Prophylaxis of HSV with acyclovir is important in immunocompromised patients
+1506726348707 2-RelativelyHighYield Pregnant patients with recurrent genital herpes should receive prophylactic acyclovir
+1506726438486 3-HighYield-temporary Acyclovir can cause crystalline nephropathy (renal side effect)
+1506726560736 3-HighYield-temporary Renal complications of acyclovir can be avoided with adequate hydration
+1506726612181 4-LowerYield Uncommon side-effects of acyclovir include delirium, confusion , vertigo , and hallucinations
+1522035146116 3-HighYield-temporary Will a short (7-10 day) course of treatment with acyclovir during the primary genital HSV infection alter recurrence rates? No
+1523153962275 4-LowerYield Sulfonamides , methotrexate , IV acyclovir , and triamterene are agents that can precipitate in renal tubules, causing renal failure
+1557010792347 2-RelativelyHighYield Initial treatment of uncomplicated shingles (herpes zoster) is with oral acyclovir, valacyclovir, or famciclovir

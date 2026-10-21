@@ -1,0 +1,10 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::07_Viruses-DNA_Viruses::11_Adenovirus (9 notas)
+1484603457857 1-HighYield What virus commonly causes conjunctivitis ? Adenovirus
+1516929695700 2-RelativelyHighYield Adenovirus is the most common cause of infection of the tonsils and adenoids
+1516929856097 2-RelativelyHighYield Is adenovirus enveloped ? No (naked)
+1516929926653 1-HighYield Transmission of adenovirus includes respiratory droplets, fecal-oral route, or direct contact
+1516930064039 2-RelativelyHighYield Demographics affected by adenovirus include children, military recruits, and swimmers in public pools
+1516930208305 2-RelativelyHighYield Adenovirus has a(n) linear DNA genome
+1516930287625 3-HighYield-temporary What is a genitourinary complication of adenovirus ? Hemorrhagic cystitis
+1516930348175 2-RelativelyHighYield Which linear DNA virus causes hemorrhagic cystitis ? Adenovirus
+1516930744047 1-HighYield Adenovirus commonly causes the common cold , which will present with pharyngitis, rhinitis, and cough

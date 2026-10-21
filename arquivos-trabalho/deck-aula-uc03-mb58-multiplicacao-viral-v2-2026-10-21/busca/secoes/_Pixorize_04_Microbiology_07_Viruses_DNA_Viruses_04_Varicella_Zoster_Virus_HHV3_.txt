@@ -1,0 +1,17 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::07_Viruses-DNA_Viruses::04_Varicella-Zoster_Virus_(HHV3) (16 notas)
+1506289803741 1-HighYield Which family of viruses does varicella-zoster virus (VZV) belong to? Herpesviridae family (HHV-3)
+1506289877609 3-HighYield-temporary Does VZV have an envelope ? Yes
+1506289961398 2-RelativelyHighYield What is the etiology of chickenpox ? Varicella-zoster virus (VZV)
+1506290032333 1-HighYield What is the etiology of shingles ? Varicella-zoster virus (VZV)
+1506290110292 1-HighYield What is the route of transmission of VZV ? Airborne transmission
+1506290279507 1-HighYield Which two viruses are said to have a "dew drops on a rose petal" appearance? VZV and HSV
+1506290419188 2-RelativelyHighYield What viruses can be diagnosed with a Tzanck smear ? VZV, HSV, and CMV
+1506290631012 3-HighYield-temporary Adults and immunocompromised patients with chickenpox are at a greater risk of developing pneumonia
+1506290756911 2-RelativelyHighYield Adults and immunocompromised patients with chickenpox are at a greater risk of developing encephalitis
+1506290888004 2-RelativelyHighYield Which CNS complication of chickenpox commonly affects unimmunized adolescents and the immunocompromised ? Encephalitis
+1506290994674 1-HighYield What is the drug of choice for severe chickenpox ? IV acyclovir
+1506291111598 1-HighYield Where does varicella zoster virus (VZV) remain latent ? Dorsal root ganglia (DRG)
+1506291250234 2-RelativelyHighYield Which two demographics are commonly affected by herpes zoster (shingles)? Elderly and immunocompromised
+1506291332792 1-HighYield Reactivation of VZV results in herpes zoster (shingles)
+1506291680194 1-HighYield Is the herpes zoster (shingles) rash painful ? Extremely!
+1506291770254 2-RelativelyHighYield Pain after the rash of herpes zoster (shingles) has cleared is known as postherpetic neuralgia

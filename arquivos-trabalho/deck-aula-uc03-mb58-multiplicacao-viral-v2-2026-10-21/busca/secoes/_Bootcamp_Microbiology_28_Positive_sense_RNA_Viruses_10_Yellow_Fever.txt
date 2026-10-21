@@ -1,0 +1,10 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::10_Yellow_Fever (9 notas)
+1506628170585 4-LowerYield What family of viruses does Yellow fever belong to? Flaviviridae
+1506628336655 2-RelativelyHighYield Which vector transmits Yellow fever ? Mosquito , specifically the Aedes
+1506628403819 3-HighYield-temporary What is a cutaneous complication of Yellow fever ? Jaundice
+1506628436392 3-HighYield-temporary Yellow fever classically causes an aching back
+1506628478878 2-RelativelyHighYield What changes in stool are seen with Yellow fever ? Bloody diarrhea
+1506628520779 3-HighYield-temporary What type of vomiting is seen with Yellow fever ? Black (bloody) vomiting
+1506628555418 4-LowerYield What type of vaccine is available for Yellow fever ? Live attenuated
+1506628588384 2-RelativelyHighYield What is seen on liver biopsy in Yellow fever ? Councilman bodies
+1506628692802 1-HighYield Which two viruses classically present with Councilman bodies on liver biopsy ? Hepatitis A virus, yellow fever

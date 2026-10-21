@@ -1,0 +1,278 @@
+{
+ "ciclo": "básico",
+ "justificativa": "Mecanismos do ciclo viral e da ação de cada classe de antiviral, que dão a base para a patologia e a clínica das viroses; sem esquemas terapêuticos, efeitos adversos nem indicações.",
+ "clinica_lateral": [
+  "ak1506783017772",
+  "ak1506783163535",
+  "ak1502069492941"
+ ],
+ "clinica_e_tema": false,
+ "motivo_tema": "",
+ "ordem_da_fala": [],
+ "historia": "A aula conta como um vírus se multiplica, já que ele não cresce nem se divide: é montado dentro de uma célula suscetível e permissiva. Percorre as etapas do ciclo (fixação, penetração, desnudamento), mostra onde e com que polimerase cada genoma é copiado e como mRNAs precoces e tardios aparecem, e organiza isso por tipo de genoma: os vírus de DNA, pequenos que dependem da célula e grandes que trazem a própria polimerase, e os de RNA, de polaridade positiva ou negativa, com RdRp ou transcriptase reversa. Depois mostra o que sai da célula (mutação, reassortment, inclusões e liberação) e fecha com os antivirais, cada um agindo em um ponto desse mesmo ciclo.",
+ "linha_logica": [
+  {
+   "passo": "O vírion é montado e não cresce nem se divide; só infecta a célula suscetível e permissiva, e a infecção produtiva faz novos vírions",
+   "mecanismo": false,
+   "liga_ao_proximo": "A infecção passa por uma sequência de etapas do ciclo, da fixação ao desnudamento",
+   "cards": [
+    "ak1502063041178",
+    "au-permissiva",
+    "au-produtiva",
+    "sh-1792243070220"
+   ]
+  },
+  {
+   "passo": "Etapas do ciclo: fixação por receptor, penetração (endocitose, fusão) e desnudamento",
+   "mecanismo": true,
+   "liga_ao_proximo": "Dentro da célula o genoma precisa ser copiado e transcrito no local e com a polimerase certa",
+   "cards": [
+    "au-etapas",
+    "ak1502063688789",
+    "ak1502066766747",
+    "ak1516222322469",
+    "au-penetracao",
+    "ak1516323635408",
+    "ak1502066667272",
+    "au-desnud"
+   ]
+  },
+  {
+   "passo": "Local e polimerase: DNA no núcleo e RNA no citoplasma (com exceções), mRNAs precoces antes dos tardios, caminho de Baltimore",
+   "mecanismo": true,
+   "liga_ao_proximo": "Cada família de DNA resolve a replicação de um jeito, conforme dependa da célula ou traga a própria polimerase",
+   "cards": [
+    "au-precoces",
+    "ak1502152021975",
+    "ak1516321076508",
+    "ak1483913062659",
+    "sh-1792243072244"
+   ]
+  },
+  {
+   "passo": "Vírus de DNA: os pequenos dependem da célula e os grandes trazem a polimerase; primers, E6 e E7, adenovírus, herpesvírus, poxvírus e parvovírus mostram as variações",
+   "mecanismo": true,
+   "liga_ao_proximo": "Nos vírus de RNA a célula não tem enzima para copiar RNA, então o vírus traz a RdRp ou a transcriptase reversa",
+   "cards": [
+    "au-pequenos-dna",
+    "au-prot-dna",
+    "au-primers",
+    "au-polyoma-t",
+    "ak1463105909117",
+    "ak1463105915437",
+    "au-adeno-pol",
+    "au-adeno-primer",
+    "au-herpes-circ",
+    "ak1502570386887",
+    "ak1502570452327",
+    "au-pox-precoces",
+    "ak1516927536764",
+    "au-resumo-dna"
+   ]
+  },
+  {
+   "passo": "Vírus de RNA: a polaridade define se o RNA é traduzido logo ou precisa virar mRNA; a RdRp é a peça central e os retrovírus usam a transcriptase reversa",
+   "mecanismo": true,
+   "liga_ao_proximo": "A cópia de RNA sem revisão produz mutação e rearranjo de segmentos, que fecham o ciclo com a progênie",
+   "cards": [
+    "ak1502064066857",
+    "ak1502064208990",
+    "ak1502064281478",
+    "ak1506627151740",
+    "ak1502064367585",
+    "ak1516320850504",
+    "au-retro-rt",
+    "ak1502069441823",
+    "ak1506551930834",
+    "ak1608910179425",
+    "au-rdrp-todos",
+    "ak1502065503059",
+    "au-reo-pol"
+   ]
+  },
+  {
+   "passo": "Montagem e saída: mutação e reassortment, inclusões, formas de liberação e o envelope da célula",
+   "mecanismo": true,
+   "liga_ao_proximo": "Conhecido o ciclo, cada antiviral é um ponto de ataque nele",
+   "cards": [
+    "au-mutacao",
+    "ak1523806216737",
+    "ak1516323064948",
+    "au-inclusoes",
+    "ak1516475620459",
+    "ak1516475827100",
+    "au-liberacao",
+    "sh-1791984888354",
+    "ak1502063659167"
+   ]
+  },
+  {
+   "passo": "Antivirais: cada classe age em um ponto do ciclo (fusão, desnudamento, polimerase, protease, neuraminidase) e só vale se o vírus tiver aquela enzima",
+   "mecanismo": true,
+   "liga_ao_proximo": "",
+   "cards": [
+    "au-antiv-mec",
+    "ak1506806715774",
+    "ak1516324096049",
+    "au-antiv-pol-propria",
+    "ak1506723403021",
+    "ak1506784777103",
+    "ak1506807835841",
+    "ak1502070156173",
+    "ak1516324778471"
+   ]
+  }
+ ],
+ "cards_de_conexao": [
+  "au-etapas",
+  "au-antiv-mec"
+ ],
+ "provas": [
+  {
+   "id": "2025 P3 2.1",
+   "cards": [
+    "au-etapas",
+    "au-penetracao",
+    "au-desnud",
+    "au-precoces",
+    "ak1502152021975"
+   ]
+  },
+  {
+   "id": "2024 P3 1.1",
+   "cards": [
+    "au-rdrp-todos",
+    "au-prot-dna",
+    "ak1502065503059"
+   ]
+  },
+  {
+   "id": "2018 P3 1.3",
+   "cards": [
+    "ak1502064066857",
+    "ak1502064208990",
+    "ak1502064281478",
+    "ak1506627151740",
+    "au-rdrp-todos"
+   ]
+  },
+  {
+   "id": "2015 P2 2.3",
+   "cards": [
+    "au-etapas",
+    "sh-1792243072244"
+   ]
+  },
+  {
+   "id": "2015 P2 4.3",
+   "cards": [
+    "sh-1791984888354",
+    "au-liberacao"
+   ]
+  },
+  {
+   "id": "2015 P2 4.8",
+   "cards": [
+    "au-inclusoes",
+    "ak1502570605009",
+    "ak1516475620459",
+    "ak1516475827100"
+   ]
+  },
+  {
+   "id": "2017 P3 4.2",
+   "cards": [
+    "ak1489970693302"
+   ]
+  },
+  {
+   "id": "2024 P3 2.6",
+   "fora": "Fora do recorte desta aula: diferenças entre fungo e dermatófito; é da micologia."
+  },
+  {
+   "id": "2024 P4 2.13",
+   "fora": "Fora do recorte desta aula: vírus tumorigênicos e evasão imune; é a aula 78 Agentes carcinogênicos biológicos."
+  },
+  {
+   "id": "2024 P4 2.10",
+   "fora": "Fora do recorte desta aula: oncogenes de vírus tumorigênicos; é a aula 78."
+  },
+  {
+   "id": "2024 P4 2.9",
+   "fora": "Fora do recorte desta aula: transformação por retrovírus animais; é a aula 78."
+  },
+  {
+   "id": "2017 P4 2.2",
+   "fora": "Fora do recorte desta aula: mecanismos direto e indireto de câncer por vírus; é a aula 78."
+  },
+  {
+   "id": "2016 P2 2.12",
+   "fora": "Fora do recorte desta aula: preenchimento da declaração de óbito; é da patologia."
+  },
+  {
+   "id": "2019 P4 2.16",
+   "fora": "Fora do recorte desta aula: choque cardiogênico × séptico; é da patologia."
+  },
+  {
+   "id": "2025 P3 2.5",
+   "fora": "Fora do recorte desta aula: imunidade inata antiviral; é a aula 63 Resposta imune a vírus e fungos."
+  },
+  {
+   "id": "2025 P3 3.4",
+   "fora": "Fora do recorte desta aula: influenza e asma; é das aulas de imunidade e hipersensibilidade."
+  },
+  {
+   "id": "2024 P3 1.7",
+   "fora": "Fora do recorte desta aula: IgA e resposta adaptativa antiviral; é a aula 63."
+  },
+  {
+   "id": "2019 P1 3.3",
+   "fora": "Fora do recorte desta aula: organização do linfonodo na resposta imune; é de imunologia."
+  },
+  {
+   "id": "2018 P3 1.7",
+   "fora": "Fora do recorte desta aula: como o vírus dispara a resposta imune; é a aula 63."
+  },
+  {
+   "id": "2018 P3 5.3",
+   "fora": "Fora do recorte desta aula: formação da resposta imune à influenza; é a aula 63."
+  },
+  {
+   "id": "2017 P3 1.6",
+   "fora": "Fora do recorte desta aula: mecanismos efetores antivirais de anticorpos; é a aula 63."
+  },
+  {
+   "id": "2017 P3 4.3",
+   "fora": "Fora do recorte desta aula: evasão do HCV; é a aula 63 (evasão viral)."
+  }
+ ],
+ "uso_das_fontes": {
+  "aula": [
+   "au-etapas",
+   "au-permissiva",
+   "au-rdrp-todos",
+   "au-antiv-mec",
+   "au-precoces"
+  ],
+  "prova": [
+   "au-rdrp-todos",
+   "au-penetracao",
+   "au-inclusoes",
+   "ak1502064066857",
+   "au-etapas"
+  ],
+  "bibliografia": [
+   "au-produtiva",
+   "ak1502063688789",
+   "au-resumo-dna",
+   "ak1506723403021"
+  ],
+  "apostila": [
+   "au-pequenos-dna",
+   "au-prot-dna",
+   "au-retro-rt",
+   "au-mutacao",
+   "au-liberacao"
+  ]
+ }
+}

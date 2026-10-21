@@ -1,0 +1,21 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::07_Viruses-DNA_Viruses::12_Papillomavirus_(HPV) (20 notas)
+1394068322402 1-HighYield Condylomata acuminata are most commonly caused by HPV 6 or HPV 11
+1394068945521 3-HighYield-temporary What type(s) of HPV are the cause of HPV-related vulvar carcinoma ? High-risk HPVs (16, 18, 31, 33)
+1394069562561 2-RelativelyHighYield Which type of vulvar carcinoma is typically seen in women of reproductive age ? HPV-related
+1394134318361 1-HighYield What is the most common cause of vaginal carcinoma? High-risk HPV subtypes (16, 18, 31, 33)
+1394239958498 1-HighYield What are the most common types of high-risk HPV ? HPV 16, HPV 18
+1394240219632 1-HighYield What are the most common types of low-risk HPV ? HPV 6, HPV 11
+1394242887061 1-HighYield What urogenital disorders are associated with low-risk HPV subtypes? Condylomata / warts
+1395340470032 1-HighYield Cutaneous warts (verrucae vulgaris) are soft, flesh-colored, cauliflower-like papules that appear on the skin due to HPV infection of keratinocytes
+1403398790620 2-RelativelyHighYield Condylomata acuminata is an STI caused by HPV 6 or HPV 11 that presents with anogenital warts and koilocytes
+1463093999696 2-RelativelyHighYield Condylomata acuminata are warty neoplasms of genital skin, often caused by low-risk HPV strains , and are often large
+1463094128418 3-HighYield-temporary Condylomata rarely progress to carcinoma
+1463105896827 1-HighYield What are the high-risk strains of HPV ? 16, 18, 31, 33
+1482692038702 3-HighYield-temporary What viruses fall under Papillomaviruses ? HPV
+1482695309037 1-HighYield A buzz phrase for cervical cancer is postcoital bleeding
+1493398712106 1-HighYield What are four characteristics of human papillomavirus (HPV) itself? Non-enveloped (naked) Icosahedral Circular dsDNA
+1493400683960 2-RelativelyHighYield Which type of genome do papilloma viruses have? Circular
+1494087380814 3-HighYield-temporary What type(s) of HPV encode for the proteins E6 and E7? High-risk HPVs (16, 18, 31, 33)
+1496159486876 2-RelativelyHighYield Which oncogenic microbe is associated with cervical and penile/anal carcinoma and head and neck cancer ? HPV
+1546545292523 - High-risk HPV (oncogenic virus) is associated with adenocarcinoma of the cervix and squamous cell carcinoma of the vulva , vagina , anus , and cervix
+1547916083609 - What is the likely diagnosis in a young sexually active patient that presents with multiple papular lesions around the anus? Some lesions bleed with manipulation Condylomata acuminata (genital warts)

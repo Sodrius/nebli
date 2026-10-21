@@ -1,0 +1,18 @@
+# #AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::06_HIV::Extra (17 notas)
+1500235389271 3-HighYield-temporary Candida albicans that extends from the mouth to the esophagus is known as candidal esophagitis , which is a(n) AIDS-defining illness
+1502067560663 1-HighYield The clinical latency period of HIV infection can last up to 10 years
+1502067814114 1-HighYield Stage 2 HIV is characterized by clinical latency . CD4+ count drops to < 500 cells/mm 3
+1502070230172 1-HighYield Maraviroc is a(n) CCR5 inhibitor that inhibits HIV entrance into macrophages early in the disease course
+1503861132678 1-HighYield AIDS patients are at risk for CMV infections (e.g., retinitis, colitis, esophagitis) when their CD4+ count is < 50 cells/mm 3
+1506534677170 4-LowerYield p17 is the matrix protein of HIV
+1506535107169 1-HighYield What is the confirmatory test for HIV ? HIV-1/2 antibody differentiation immunoassay
+1506783017772 1-HighYield Highly active antiretroviral therapy (HAART) consists of a minimum of 3 drugs to prevent resistance
+1506783163535 1-HighYield HAART therapy consists of 2 NRTIs plus 1 of either a(n) NNRTI , protease inhibitor , or integrase inhibitor
+1506795763113 1-HighYield Which gene is mutated in HIV protease inhibitor resistance ? pol gene
+1506806433678 1-HighYield Maraviroc inhibits gp120 of HIV binding to the chemokine receptor CCR5 (macrophages and T-cells)
+1506806776715 2-RelativelyHighYield HIV env encoded gp160 is first sent to the endoplasmic reticulum of the cell for processing
+1509813045719 1-HighYield Toxoplasmosis prophylaxis with TMP-SMX is initiated in HIV patients with a CD4 count ≤ 100 cells/mm 3 and positive T. gondii IgG serology
+1522432485269 1-HighYield Histoplasmosis prophylaxis in HIV/AIDS patients is started at CD4+ counts < 150 /mm 3 , using itraconazole
+1523730337655 4-LowerYield HIV-associated dementia can result in activation of microglial cells that form nodules
+1544195435929 - Concerning HIV serology , the CD4 cell count represents the current immune function , while the viral load represents the rate of disease progression
+1547902187372 2-RelativelyHighYield Rapid Diagnosis HIV / AIDS screening in infants < 18 months → HIV-1 NAT (viral load) ≥ 18 months → 4th generation antigen/antibody immunoassay

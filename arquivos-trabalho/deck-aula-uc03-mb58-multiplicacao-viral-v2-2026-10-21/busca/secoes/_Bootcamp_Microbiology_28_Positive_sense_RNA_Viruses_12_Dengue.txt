@@ -1,0 +1,15 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::12_Dengue (14 notas)
+1506627645671 2-RelativelyHighYield What family of viruses does Dengue virus belong to? Flaviviridae
+1506627695686 1-HighYield Which vector transmits Dengue ? Mosquitos; most commonly the Aedes
+1506627749912 4-LowerYield Dengue fever infects the bone marrow
+1506627894996 1-HighYield What is the most common type of Dengue fever ? Type 2
+1506627942152 3-HighYield-temporary How does Dengue fever affect bleeding time ? Increased
+1506628001384 2-RelativelyHighYield Dengue fever is a type of hemorrhagic fever due to it causing thrombocytopenia
+1506628062025 2-RelativelyHighYield Dengue fever can result in renal failure
+1506628115053 4-LowerYield What is the treatment of Dengue fever ? Supportive (no treatment at this time)*
+1520087988222 2-RelativelyHighYield Dengue fever has 4 different serotypes
+1520088241785 4-LowerYield Which flavivirus commonly presents with retro-orbital pain? Dengue fever
+1520088417035 4-LowerYield Dengue fever is associated with a positive tourniquet test , which results in petechiae after blood pressure cuff inflation
+1520088493022 4-LowerYield Primary infection with dengue fever is asymptomatic or self-limited
+1520088551261 4-LowerYield Secondary infection with dengue fever is associated with severe illness
+1522430399029 4-LowerYield Dengue fever and chikungunya viral infections typically occur simultaneously, as both are transmitted by the Aedes mosquito

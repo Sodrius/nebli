@@ -1,0 +1,31 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::37_Rotavirus_&_Colorado_Tick_Fever (30 notas)
+1482289615950 1-HighYield In children with a recent history of rotavirus or adenovirus infection, a common cause of intussusception is lymphoid hyperplasia
+1516237532611 1-HighYield Viral gastroenteritis is most commonly caused by norovirus and rotavirus
+1516321085226 1-HighYield Which RNA virus family is double-stranded ? Reoviridae
+1516665187703 2-RelativelyHighYield What type of viruses are reoviruses ? Double-stranded RNA
+1516665343741 3-HighYield-temporary Are reoviruses enveloped ? No (naked)
+1516665391803 5-LowYield Reoviruses have 10 - 12 segments
+1516665586644 3-HighYield-temporary Reoviruses include rotavirus and coltivirus
+1516665596498 1-HighYield What is the transmission of rotavirus ? Fecal-oral
+1516665721192 1-HighYield What is the most common symptom of rotavirus ? Watery diarrhea
+1516665751235 1-HighYield Rotavirus contains the NSP4 enterotoxin , causing watery diarrhea
+1516665846802 3-HighYield-temporary What is a complication of rotavirus diarrhea ? Dehydration
+1516665872787 2-RelativelyHighYield Rotavirus causes villous destruction and atrophy , resulting in decreased serum Na + and K +
+1516665990169 3-HighYield-temporary The NSP4 enterotoxin of rotavirus increases Cl - permeability
+1516666059911 1-HighYield Rotavirus infection commonly occurs during the winter season
+1516666107599 3-HighYield-temporary What demographic is at high risk of rotavirus infection? Children
+1516666167898 1-HighYield What is the most common cause of severe diarrhea in children ? Rotavirus
+1516666216326 1-HighYield In which settings can rotavirus infection commonly be found? Kindergartens and daycares
+1516666378248 2-RelativelyHighYield Which two causes of viral gastroenteritis are associated with daycares and kindergartens ? - Rotavirus - Norovirus
+1516666476206 4-LowerYield Coltivirus is also known as Colorado tick virus
+1516666651267 1-HighYield Which virus is said to be wheel-shaped ? Rotavirus
+1516666695540 2-RelativelyHighYield Which cause of viral gastroenteritis does the CDC recommend vaccination against ? Rotavirus
+1516666766803 2-RelativelyHighYield Rotavirus has a(n) live attenuated vaccine that is administered orally
+1516666812794 4-LowerYield Intussusception is associated with the rotavirus vaccine due to enlargement of Peyer's patches which act as a lead point
+1516666902436 1-HighYield Rotavirus gastroenteritis can result in a secondary lactase deficiency
+1516666961676 4-LowerYield Symptoms of coltivirus (Colorado tick virus) include fevers , vomiting , and myalgia
+1516667142242 3-HighYield-temporary What is the treatment for rotavirus ? Oral rehydration therapy
+1516667209562 1-HighYield When should the first rotavirus vaccination be given? Within the first 3 months of birth
+1517598229958 - When is the rotavirus vaccine typically administered (three doses)? 2 months, 4 months, and 6 months
+1525354034637 1-HighYield What is the most common cause of viral gastroenteritis in developing countries ? Rotavirus
+1581619827487 - In an unimmunized infant , acute diarrhea is more likely due to rotavirus

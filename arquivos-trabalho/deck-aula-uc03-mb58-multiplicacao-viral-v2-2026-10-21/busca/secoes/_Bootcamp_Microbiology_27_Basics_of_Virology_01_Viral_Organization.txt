@@ -1,0 +1,21 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::01_Viral_Organization (20 notas)
+1467683646912 3-HighYield-temporary What process takes RNA and makes DNA ? Reverse transcription
+1500738380739 3-HighYield-temporary A(n) bacteriophage is a virus that infects bacteria
+1502062962846 3-HighYield-temporary Viruses contain either DNA or RNA surrounded by a(n) capsid
+1502063041178 3-HighYield-temporary Do viruses have metabolic activity ? No
+1502063077047 3-HighYield-temporary The two most common shapes of viral capsids are icosahedral and helical
+1502063631440 2-RelativelyHighYield All naked viruses have icosahedral capsids
+1502063652542 3-HighYield-temporary Enveloped viruses can have either an icosahedral or helical shape (whereas naked viruses are all icosahedral)
+1502063659167 4-LowerYield The lipid membrane of a host cell can be acquired by the virus and is used as the viral envelope
+1502063688789 4-LowerYield Viral glycoproteins embedded in the surface of the envelope can be used to bind to host cells ; are also antigens for the immune system
+1502063700798 1-HighYield Most RNA virus genomes are single-stranded and linear
+1502064066857 3-HighYield-temporary RNA viruses can be distinguished via their polarity , either (+) sense or (-) sense
+1502064208990 3-HighYield-temporary Positive sense RNA viruses carry RNA that is structurally similar to mRNA
+1502065388242 1-HighYield DNA viral genomes can either be circular or linear and are usually double-stranded
+1502065503059 3-HighYield-temporary Which type of viral genome is not infectious by itself ? (-) RNA
+1516320850504 2-RelativelyHighYield Negative sense RNA viruses produce their own RNA polymerase to transcribe into positive sense RNA
+1516320933265 1-HighYield Most RNA viruses are single* -stranded
+1523806216737 2-RelativelyHighYield Which viral genetic phenomenon is characterized by virus A and virus B exchanging genomic segments intracellularly ? Reassortment
+1523806616492 3-HighYield-temporary During viral reassortment , will the viral progeny display changes? Yes
+1523926575639 1-HighYield Which viral genetic phenomenon occurs in segmented viruses ? Reassortment
+1525619441985 3-HighYield-temporary Alcohol disrupts the envelope of viruses

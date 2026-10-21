@@ -1,0 +1,3135 @@
+{
+ "aula": "Multiplicação viral e antivirais (UC03 P3; Microbiologia; Prof. Enrique Boccardo)",
+ "lido_antes_da_selecao": true,
+ "slides": [
+  {
+   "numero": 1,
+   "classe": "capa",
+   "titulo": "Capa",
+   "justificativa": "capa sem conteúdo"
+  },
+  {
+   "numero": 2,
+   "classe": "logistica",
+   "titulo": "Leitura recomendada (Fields, Flint)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 3,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 3",
+   "itens": [
+    {
+     "id": "mb58-s03-i3-1",
+     "texto": "Vírions são montados, não crescem nem se dividem",
+     "card": "sh-1792243070220"
+    },
+    {
+     "id": "mb58-s03-i3-2",
+     "texto": "Vírus sem atividade metabólica",
+     "card": "sh-1792243070545"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 4",
+   "itens": [
+    {
+     "id": "mb58-s04-i4-1",
+     "texto": "Célula suscetível × permissiva",
+     "card": "au-permissiva"
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "classe": "logistica",
+   "titulo": "Divisória: mecanismos de replicação viral",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 6,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 6",
+   "itens": [
+    {
+     "id": "mb58-s06-i6-1",
+     "texto": "Infecção produtiva × abortiva",
+     "card": "au-produtiva"
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "classe": "conteudo",
+   "titulo": "Esquema do ciclo do influenza em três fases (entrada, síntese, saída)",
+   "itens": [
+    {
+     "id": "mb58-s07-i7-1",
+     "texto": "Fases do ciclo",
+     "card": "au-etapas"
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 8",
+   "itens": [
+    {
+     "id": "mb58-s08-i8-1",
+     "texto": "As etapas do ciclo de replicação, em ordem",
+     "card": "au-etapas"
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 9",
+   "itens": [
+    {
+     "id": "mb58-s09-i9-1",
+     "texto": "Glicoproteínas do envelope: ligam a célula e são antígenos",
+     "card": "sh-1792243082496"
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 10",
+   "itens": [
+    {
+     "id": "mb58-s10-i10-1",
+     "texto": "gp120 é a glicoproteína externa do HIV",
+     "card": "ak1502066766747"
+    },
+    {
+     "id": "mb58-s10-i10-2",
+     "texto": "gp120 permite a ligação do HIV ao CD4",
+     "card": "ak1506805847290"
+    },
+    {
+     "id": "mb58-s10-i10-3",
+     "texto": "Início da infecção: HIV entra em macrófagos por CCR5",
+     "card": "ak1502068331161"
+    },
+    {
+     "id": "mb58-s10-i10-4",
+     "texto": "Fase tardia: HIV entra em linfócitos T por CXCR4",
+     "card": "ak1502068440036"
+    },
+    {
+     "id": "mb58-s10-i10-5",
+     "texto": "Rinovírus entra pelo ICAM-1",
+     "card": "ak1516222322469"
+    },
+    {
+     "id": "mb58-s10-i10-6",
+     "texto": "gp120 liga CD4 e os correceptores CCR5 e CXCR4",
+     "card": "sh-1792166995490"
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 11",
+   "itens": [
+    {
+     "id": "mb58-s11-i11-1",
+     "texto": "Penetração: endocitose, translocação ou fusão",
+     "card": "au-penetracao"
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "classe": "conteudo",
+   "titulo": "Penetração do poliovírus por endocitose",
+   "itens": [
+    {
+     "id": "mb58-s12-i12-1",
+     "texto": "Endocitose como via de entrada",
+     "card": "au-penetracao"
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "classe": "conteudo",
+   "titulo": "Via endocítica × fusão na membrana celular",
+   "itens": [
+    {
+     "id": "mb58-s13-i13-1",
+     "texto": "Duas vias de penetração",
+     "card": "au-penetracao"
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 14",
+   "itens": [
+    {
+     "id": "mb58-s14-i14-1",
+     "texto": "Hemaglutinina promove a endocitose do influenza",
+     "card": "ak1516323635408"
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 15",
+   "itens": [
+    {
+     "id": "mb58-s15-i15-1",
+     "texto": "gp41 do HIV medeia a fusão",
+     "card": "ak1502066667272"
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 16: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 17,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 17",
+   "itens": [
+    {
+     "id": "mb58-s17-i17-1",
+     "texto": "Desnudamento: três locais",
+     "card": "au-desnud"
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 18: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 19,
+   "classe": "conteudo",
+   "titulo": "Desnudamento do vírus da raiva",
+   "itens": [
+    {
+     "id": "mb58-s19-i19-1",
+     "texto": "Desnudamento após endocitose",
+     "card": "au-desnud"
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 20",
+   "itens": [
+    {
+     "id": "mb58-s20-i20-1",
+     "texto": "mRNAs precoces × tardios",
+     "card": "au-precoces"
+    },
+    {
+     "id": "mb58-s20-i20-2",
+     "texto": "A maioria dos vírus de DNA replica no núcleo",
+     "card": "ak1502152021975"
+    },
+    {
+     "id": "mb58-s20-i20-3",
+     "texto": "Vírus de RNA em geral replicam no citoplasma",
+     "card": "ak1516321076508"
+    },
+    {
+     "id": "mb58-s20-i20-4",
+     "texto": "Exceções: orthomyxovírus e retrovírus replicam no núcleo",
+     "card": "ak1483913062659"
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "classe": "logistica",
+   "titulo": "Divisória: replicação do material genético",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 22,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 22",
+   "itens": [
+    {
+     "id": "mb58-s22-i22-1",
+     "texto": "Baltimore: caminho do genoma até o mRNA",
+     "card": "sh-1792243072244"
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "classe": "conteudo",
+   "titulo": "A replicação de ácidos nucleicos depende de polimerase, iniciador e molde",
+   "itens": [
+    {
+     "id": "mb58-s23-i23-1",
+     "texto": "Polimerase, iniciador e molde",
+     "card": "au-primers"
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "classe": "conteudo",
+   "titulo": "Separação das fitas, síntese do primer e extensão",
+   "itens": [
+    {
+     "id": "mb58-s24-i24-1",
+     "texto": "Primer e molde",
+     "card": "au-primers"
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "classe": "fora_do_recorte",
+   "titulo": "Forquilha de replicação do DNA celular (Biologia Molecular)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 26,
+   "classe": "logistica",
+   "titulo": "Divisória: vírus de DNA",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 27,
+   "classe": "conteudo",
+   "titulo": "Baltimore grupo I: famílias de DNA; replicação nuclear, exceto poxvírus",
+   "itens": [
+    {
+     "id": "mb58-s27-i27-1",
+     "texto": "DNA no núcleo",
+     "card": "ak1502152021975"
+    },
+    {
+     "id": "mb58-s27-i27-2",
+     "texto": "Baltimore",
+     "card": "sh-1792243072244"
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "classe": "conteudo",
+   "titulo": "Replicação do DNA viral exige ao menos uma proteína viral; simples × complexos",
+   "itens": [
+    {
+     "id": "mb58-s28-i28-1",
+     "texto": "Dependência da célula",
+     "card": "au-pequenos-dna"
+    },
+    {
+     "id": "mb58-s28-i28-2",
+     "texto": "Vírus complexos codificam muitas proteínas",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 29",
+   "itens": [
+    {
+     "id": "mb58-s29-i29-1",
+     "texto": "Vírus de DNA pequenos dependem da célula",
+     "card": "au-pequenos-dna"
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 30",
+   "itens": [
+    {
+     "id": "mb58-s30-i30-1",
+     "texto": "Proteínas virais da replicação do DNA",
+     "card": "au-prot-dna"
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "classe": "fora_do_recorte",
+   "titulo": "Diversas estruturas genômicas (esquemas de cinco vírus)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 32,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 32",
+   "itens": [
+    {
+     "id": "mb58-s32-i32-1",
+     "texto": "Dois mecanismos de síntese de DNA e seus iniciadores",
+     "card": "au-primers"
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 33: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 34,
+   "classe": "fora_do_recorte",
+   "titulo": "Microscopia eletrônica de papilomavírus e SV40",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 35,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 35: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 36,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 36",
+   "itens": [
+    {
+     "id": "mb58-s36-i36-1",
+     "texto": "Antígeno T: reconhece a origem e é helicase",
+     "card": "au-polyoma-t"
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "classe": "conteudo",
+   "titulo": "Reconhecimento e desenovelamento da origem do SV40",
+   "itens": [
+    {
+     "id": "mb58-s37-i37-1",
+     "texto": "Antígeno T abre a origem",
+     "card": "au-polyoma-t"
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "classe": "conteudo",
+   "titulo": "Síntese das fitas líder e retardada no SV40",
+   "itens": [
+    {
+     "id": "mb58-s38-i38-1",
+     "texto": "Primase e polimerases da célula",
+     "card": "au-polyoma-t"
+    }
+   ]
+  },
+  {
+   "numero": 39,
+   "classe": "conteudo",
+   "titulo": "Síntese das fitas, RNase H, Fen1 e DNA ligase",
+   "itens": [
+    {
+     "id": "mb58-s39-i39-1",
+     "texto": "Replicação do DNA pela maquinaria da célula",
+     "card": "au-polyoma-t"
+    }
+   ]
+  },
+  {
+   "numero": 40,
+   "classe": "conteudo",
+   "titulo": "Funções das topoisomerases",
+   "itens": [
+    {
+     "id": "mb58-s40-i40-1",
+     "texto": "Topoisomerases relaxam o superenovelamento",
+     "card": "au-polyoma-t"
+    }
+   ]
+  },
+  {
+   "numero": 41,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 41",
+   "itens": [
+    {
+     "id": "mb58-s41-i41-1",
+     "texto": "HPV: nu, icosaédrico, DNA circular de fita dupla",
+     "card": "ak1493398712106"
+    }
+   ]
+  },
+  {
+   "numero": 42,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 42: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 43,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 43",
+   "itens": [
+    {
+     "id": "mb58-s43-i43-1",
+     "texto": "E6 do HPV de alto risco leva à destruição de p53",
+     "card": "ak1463105909117"
+    },
+    {
+     "id": "mb58-s43-i43-2",
+     "texto": "E7 do HPV de alto risco leva à destruição de Rb",
+     "card": "ak1463105915437"
+    }
+   ]
+  },
+  {
+   "numero": 44,
+   "classe": "conteudo",
+   "titulo": "E7 e a regulação do ciclo celular",
+   "itens": [
+    {
+     "id": "mb58-s44-i44-1",
+     "texto": "E7 induz síntese de DNA não programada",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 45,
+   "classe": "conteudo",
+   "titulo": "Características da estratégia de poliomavírus e papilomavírus",
+   "itens": [
+    {
+     "id": "mb58-s45-i45-1",
+     "texto": "Funções precoces e tardias",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    },
+    {
+     "id": "mb58-s45-i45-2",
+     "texto": "Proteínas multifuncionais",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    },
+    {
+     "id": "mb58-s45-i45-3",
+     "texto": "Célula fornece a maquinaria",
+     "card": "au-pequenos-dna"
+    }
+   ]
+  },
+  {
+   "numero": 46,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 46",
+   "itens": [
+    {
+     "id": "mb58-s46-i46-1",
+     "texto": "Adenovírus: RNA pol da célula, DNA pol própria",
+     "card": "au-adeno-pol"
+    }
+   ]
+  },
+  {
+   "numero": 47,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 47",
+   "itens": [
+    {
+     "id": "mb58-s47-i47-1",
+     "texto": "Adenovírus tem genoma de DNA linear",
+     "card": "ak1516930208305"
+    },
+    {
+     "id": "mb58-s47-i47-2",
+     "texto": "Adenovírus: o primer é uma proteína",
+     "card": "au-adeno-primer"
+    }
+   ]
+  },
+  {
+   "numero": 48,
+   "classe": "conteudo",
+   "titulo": "Adenovírus: fase tardia por deslocamento de fita",
+   "itens": [
+    {
+     "id": "mb58-s48-i48-1",
+     "texto": "Proteína liga dCMP e fornece 3′-OH",
+     "card": "au-adeno-primer"
+    },
+    {
+     "id": "mb58-s48-i48-2",
+     "texto": "Deslocamento de fita",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 49,
+   "classe": "conteudo",
+   "titulo": "O primer dos adenovírus é uma proteína (esquema)",
+   "itens": [
+    {
+     "id": "mb58-s49-i49-1",
+     "texto": "Primer proteico",
+     "card": "au-adeno-primer"
+    }
+   ]
+  },
+  {
+   "numero": 50,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 50: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 51,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 51",
+   "itens": [
+    {
+     "id": "mb58-s51-i51-1",
+     "texto": "Herpesvírus: circulariza e replica por círculo rolante",
+     "card": "au-herpes-circ"
+    }
+   ]
+  },
+  {
+   "numero": 52,
+   "classe": "conteudo",
+   "titulo": "Início da replicação do herpesvírus: circularização",
+   "itens": [
+    {
+     "id": "mb58-s52-i52-1",
+     "texto": "Circularização por proteínas do hospedeiro",
+     "card": "au-herpes-circ"
+    }
+   ]
+  },
+  {
+   "numero": 53,
+   "classe": "conteudo",
+   "titulo": "Círculo rolante (esquema)",
+   "itens": [
+    {
+     "id": "mb58-s53-i53-1",
+     "texto": "Círculo rolante",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 54,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 54",
+   "itens": [
+    {
+     "id": "mb58-s54-i54-1",
+     "texto": "Poxvírus: único DNA vírus que replica só no citoplasma",
+     "card": "ak1502570386887"
+    }
+   ]
+  },
+  {
+   "numero": 55,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 55",
+   "itens": [
+    {
+     "id": "mb58-s55-i55-1",
+     "texto": "Poxvírus tem a própria RNA polimerase dependente de DNA",
+     "card": "ak1502570452327"
+    },
+    {
+     "id": "mb58-s55-i55-2",
+     "texto": "Poxvírus: mRNAs precoces pela polimerase do vírion",
+     "card": "au-pox-precoces"
+    }
+   ]
+  },
+  {
+   "numero": 56,
+   "classe": "conteudo",
+   "titulo": "Ciclo de replicação do poxvírus na ME",
+   "itens": [
+    {
+     "id": "mb58-s56-i56-1",
+     "texto": "Replicação citoplasmática",
+     "card": "ak1502570386887"
+    }
+   ]
+  },
+  {
+   "numero": 57,
+   "classe": "conteudo",
+   "titulo": "Poxvírus: replicam no citoplasma",
+   "itens": [
+    {
+     "id": "mb58-s57-i57-1",
+     "texto": "Replicação citoplasmática",
+     "card": "ak1502570386887"
+    }
+   ]
+  },
+  {
+   "numero": 58,
+   "classe": "conteudo",
+   "titulo": "Replicação do DNA do poxvírus: extremidades em grampo",
+   "itens": [
+    {
+     "id": "mb58-s58-i58-1",
+     "texto": "Sem problema 5′",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 59,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 59",
+   "itens": [
+    {
+     "id": "mb58-s59-i59-1",
+     "texto": "Parvoviridae: únicos vírus de DNA de fita simples",
+     "card": "sh-1792243075743"
+    }
+   ]
+  },
+  {
+   "numero": 60,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 60: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 61,
+   "classe": "conteudo",
+   "titulo": "O primer dos parvovírus é DNA (esquema)",
+   "itens": [
+    {
+     "id": "mb58-s61-i61-1",
+     "texto": "Primer em grampo",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 62,
+   "classe": "logistica",
+   "titulo": "Divisória: vírus de RNA",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 63,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 63: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 64,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 64: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 65,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 65",
+   "itens": [
+    {
+     "id": "mb58-s65-i65-1",
+     "texto": "RNA viral tem polaridade + ou −",
+     "card": "sh-1792243072575"
+    },
+    {
+     "id": "mb58-s65-i65-2",
+     "texto": "RNA + tem a estrutura do mRNA",
+     "card": "sh-1792243072820"
+    }
+   ]
+  },
+  {
+   "numero": 66,
+   "classe": "conteudo",
+   "titulo": "Vírus de RNA: do genoma à proteína (RNA dupla fita)",
+   "itens": [
+    {
+     "id": "mb58-s66-i66-1",
+     "texto": "Polaridade do RNA e mRNA",
+     "card": "sh-1792243072575"
+    }
+   ]
+  },
+  {
+   "numero": 67,
+   "classe": "conteudo",
+   "titulo": "Lembrar: o vírus fornece o que a célula não tem; polimerase depende da topologia do genoma",
+   "itens": [
+    {
+     "id": "mb58-s67-i67-1",
+     "texto": "Polimerase no vírion conforme o genoma",
+     "card": "au-reo-pol"
+    }
+   ]
+  },
+  {
+   "numero": 68,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 68",
+   "itens": [
+    {
+     "id": "mb58-s68-i68-1",
+     "texto": "Picornavírus fazem poliproteína clivada por protease viral",
+     "card": "ak1506627151740"
+    },
+    {
+     "id": "mb58-s68-i68-2",
+     "texto": "RNA + é traduzido de imediato",
+     "card": "sh-1792243073069"
+    }
+   ]
+  },
+  {
+   "numero": 69,
+   "classe": "fora_do_recorte",
+   "titulo": "Ciclo do vírus da hepatite C (esquema)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 70,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 70",
+   "itens": [
+    {
+     "id": "mb58-s70-i70-1",
+     "texto": "Orthomyxoviridae: único RNA − que replica no núcleo",
+     "card": "ak1516320980606"
+    },
+    {
+     "id": "mb58-s70-i70-2",
+     "texto": "RNA − precisa virar + antes de ser usado",
+     "card": "sh-1792243073320"
+    },
+    {
+     "id": "mb58-s70-i70-3",
+     "texto": "RNA − produz a própria RNA polimerase",
+     "card": "sh-1792243073569"
+    }
+   ]
+  },
+  {
+   "numero": 71,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 71",
+   "itens": [
+    {
+     "id": "mb58-s71-i71-1",
+     "texto": "Transcrição reversa: RNA → DNA",
+     "card": "sh-1792243074070"
+    },
+    {
+     "id": "mb58-s71-i71-2",
+     "texto": "Retrovírus: genoma diploide",
+     "card": "sh-1792243083345"
+    }
+   ]
+  },
+  {
+   "numero": 72,
+   "classe": "conteudo",
+   "titulo": "Ciclo do retrovírus: entrada e saída",
+   "itens": [
+    {
+     "id": "mb58-s72-i72-1",
+     "texto": "Retrovírus",
+     "card": "au-retro-rt"
+    }
+   ]
+  },
+  {
+   "numero": 73,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 73",
+   "itens": [
+    {
+     "id": "mb58-s73-i73-1",
+     "texto": "Retrovírus: transcriptase reversa no vírion e provírus",
+     "card": "au-retro-rt"
+    },
+    {
+     "id": "mb58-s73-i73-2",
+     "texto": "env codifica gp120 e gp41",
+     "card": "sh-1792243081124"
+    },
+    {
+     "id": "mb58-s73-i73-3",
+     "texto": "pol codifica transcriptase reversa, protease e integrase",
+     "card": "sh-1792243081596"
+    }
+   ]
+  },
+  {
+   "numero": 74,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 74",
+   "itens": [
+    {
+     "id": "mb58-s74-i74-1",
+     "texto": "Transcriptase reversa gera dsDNA que a integrase insere",
+     "card": "ak1502069441823"
+    }
+   ]
+  },
+  {
+   "numero": 75,
+   "classe": "conteudo",
+   "titulo": "Transcrição reversa (continuação do esquema)",
+   "itens": [
+    {
+     "id": "mb58-s75-i75-1",
+     "texto": "Transcrição reversa",
+     "card": "au-retro-rt"
+    }
+   ]
+  },
+  {
+   "numero": 76,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 76",
+   "itens": [
+    {
+     "id": "mb58-s76-i76-1",
+     "texto": "Hepatite B: DNA parcialmente de fita dupla",
+     "card": "ak1506551550710"
+    }
+   ]
+  },
+  {
+   "numero": 77,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 77",
+   "itens": [
+    {
+     "id": "mb58-s77-i77-1",
+     "texto": "No núcleo, a DNA polimerase do HBV completa a fita dupla",
+     "card": "ak1506551774430"
+    },
+    {
+     "id": "mb58-s77-i77-2",
+     "texto": "Transcriptase reversa do HBV faz o DNA da progênie a partir do RNA",
+     "card": "sh-1791984892677"
+    }
+   ]
+  },
+  {
+   "numero": 78,
+   "classe": "conteudo",
+   "titulo": "Os sete grupos de Baltimore convergem para o mRNA",
+   "itens": [
+    {
+     "id": "mb58-s78-i78-1",
+     "texto": "Baltimore",
+     "card": "sh-1792243072244"
+    }
+   ]
+  },
+  {
+   "numero": 79,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 79",
+   "itens": [
+    {
+     "id": "mb58-s79-i79-1",
+     "texto": "A RdRp é a peça central do complexo de replicação",
+     "card": "ak1608910179425"
+    },
+    {
+     "id": "mb58-s79-i79-2",
+     "texto": "Todo vírus de RNA, menos retrovírus, codifica RdRp",
+     "card": "au-rdrp-todos"
+    }
+   ]
+  },
+  {
+   "numero": 80,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 80",
+   "itens": [
+    {
+     "id": "mb58-s80-i80-1",
+     "texto": "Vírus de RNA − e dsRNA trazem a polimerase",
+     "card": "au-reo-pol"
+    },
+    {
+     "id": "mb58-s80-i80-2",
+     "texto": "Genoma RNA − sozinho não é infeccioso",
+     "card": "sh-1792243073819"
+    }
+   ]
+  },
+  {
+   "numero": 81,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 81: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 82,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 82: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 83,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 83",
+   "itens": [
+    {
+     "id": "mb58-s83-i83-1",
+     "texto": "Alta taxa de mutação dos vírus de RNA",
+     "card": "au-mutacao"
+    },
+    {
+     "id": "mb58-s83-i83-2",
+     "texto": "Segmentados: mnemônico BOAR",
+     "card": "ak1516321532745"
+    },
+    {
+     "id": "mb58-s83-i83-3",
+     "texto": "Reassortment: troca de segmentos do genoma",
+     "card": "ak1523806216737"
+    },
+    {
+     "id": "mb58-s83-i83-4",
+     "texto": "Antigenic shift: reassortment de HA e NA entre espécies",
+     "card": "ak1516323064948"
+    },
+    {
+     "id": "mb58-s83-i83-5",
+     "texto": "Reassortment ocorre em vírus segmentados",
+     "card": "sh-1792243076571"
+    }
+   ]
+  },
+  {
+   "numero": 84,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 84: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 85,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 85",
+   "itens": [
+    {
+     "id": "mb58-s85-i85-1",
+     "texto": "Corpúsculos de inclusão: citoplasmáticos × nucleares",
+     "card": "au-inclusoes"
+    },
+    {
+     "id": "mb58-s85-i85-2",
+     "texto": "Guarnieri: inclusões citoplasmáticas do poxvírus",
+     "card": "ak1502570605009"
+    },
+    {
+     "id": "mb58-s85-i85-3",
+     "texto": "Corpos de Negri: inclusões citoplasmáticas da raiva",
+     "card": "ak1516475620459"
+    },
+    {
+     "id": "mb58-s85-i85-4",
+     "texto": "Corpos de Cowdry: inclusões nucleares dos herpesvírus",
+     "card": "ak1516475827100"
+    },
+    {
+     "id": "mb58-s85-i85-5",
+     "texto": "Inclusões: acúmulos de proteínas ou partículas no local de montagem",
+     "card": "sh-1791984887454"
+    }
+   ]
+  },
+  {
+   "numero": 86,
+   "classe": "conteudo",
+   "titulo": "Corpúsculos de inclusão em imunofluorescência e ME",
+   "itens": [
+    {
+     "id": "mb58-s86-i86-1",
+     "texto": "Inclusões",
+     "card": "au-inclusoes"
+    }
+   ]
+  },
+  {
+   "numero": 87,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 87",
+   "itens": [
+    {
+     "id": "mb58-s87-i87-1",
+     "texto": "Formas de liberação do vírus",
+     "card": "au-liberacao"
+    },
+    {
+     "id": "mb58-s87-i87-2",
+     "texto": "Sincícios: células multinucleadas por fusão",
+     "card": "sh-1791984888354"
+    }
+   ]
+  },
+  {
+   "numero": 88,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 88",
+   "itens": [
+    {
+     "id": "mb58-s88-i88-1",
+     "texto": "Envelope vem da membrana da célula",
+     "card": "sh-1792243082169"
+    }
+   ]
+  },
+  {
+   "numero": 89,
+   "classe": "conteudo",
+   "titulo": "Brotamento na ME",
+   "itens": [
+    {
+     "id": "mb58-s89-i89-1",
+     "texto": "Brotamento",
+     "card": "sh-1792243082169"
+    }
+   ]
+  },
+  {
+   "numero": 90,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 90: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 91,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 91",
+   "itens": [
+    {
+     "id": "mb58-s91-i91-1",
+     "texto": "Resumo: polimerase celular × viral nos vírus de DNA",
+     "card": "au-resumo-dna"
+    }
+   ]
+  },
+  {
+   "numero": 92,
+   "classe": "logistica",
+   "titulo": "Agradecimento",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 93,
+   "classe": "capa",
+   "titulo": "Capa: Antivirais",
+   "justificativa": "capa sem conteúdo"
+  },
+  {
+   "numero": 94,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 94: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 95,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 95",
+   "itens": [
+    {
+     "id": "mb58-s95-i95-1",
+     "texto": "Pontos do ciclo onde o antiviral age",
+     "card": "au-antiv-mec"
+    }
+   ]
+  },
+  {
+   "numero": 96,
+   "classe": "conteudo",
+   "titulo": "Etapas comuns do ciclo dos diferentes vírus",
+   "itens": [
+    {
+     "id": "mb58-s96-i96-1",
+     "texto": "Etapas do ciclo",
+     "card": "au-etapas"
+    }
+   ]
+  },
+  {
+   "numero": 97,
+   "classe": "conteudo",
+   "titulo": "Ciclo do HIV: características próprias",
+   "itens": [
+    {
+     "id": "mb58-s97-i97-1",
+     "texto": "Alvos dos antivirais no ciclo",
+     "card": "au-antiv-mec"
+    }
+   ]
+  },
+  {
+   "numero": 98,
+   "classe": "conteudo",
+   "titulo": "Ciclo do influenza: características próprias",
+   "itens": [
+    {
+     "id": "mb58-s98-i98-1",
+     "texto": "Alvos dos antivirais no ciclo",
+     "card": "au-antiv-mec"
+    }
+   ]
+  },
+  {
+   "numero": 99,
+   "classe": "conteudo",
+   "titulo": "Ciclo do HCV: características próprias",
+   "itens": [
+    {
+     "id": "mb58-s99-i99-1",
+     "texto": "Alvos dos antivirais no ciclo",
+     "card": "au-antiv-mec"
+    }
+   ]
+  },
+  {
+   "numero": 100,
+   "classe": "logistica",
+   "titulo": "Divisória: inibidores de adsorção e fusão",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 101,
+   "classe": "conteudo",
+   "titulo": "Inibidores de fusão no ciclo do HIV",
+   "itens": [
+    {
+     "id": "mb58-s101-i101-1",
+     "texto": "Fusão como alvo",
+     "card": "ak1506806715774"
+    }
+   ]
+  },
+  {
+   "numero": 102,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 102",
+   "itens": [
+    {
+     "id": "mb58-s102-i102-1",
+     "texto": "Enfuvirtida liga gp41 e impede a fusão",
+     "card": "ak1506806715774"
+    }
+   ]
+  },
+  {
+   "numero": 103,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 103",
+   "itens": [
+    {
+     "id": "mb58-s103-i103-1",
+     "texto": "Maraviroque inibe a ligação da gp120 ao CCR5",
+     "card": "ak1506806433678"
+    }
+   ]
+  },
+  {
+   "numero": 104,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 104",
+   "itens": [
+    {
+     "id": "mb58-s104-i104-1",
+     "texto": "Canal M2 garante o pH para o desnudamento do influenza",
+     "card": "ak1516324096049"
+    }
+   ]
+  },
+  {
+   "numero": 105,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 105",
+   "itens": [
+    {
+     "id": "mb58-s105-i105-1",
+     "texto": "Amantadina e rimantadina inibem o canal M2 do influenza A",
+     "card": "ak1516324301529"
+    }
+   ]
+  },
+  {
+   "numero": 106,
+   "classe": "logistica",
+   "titulo": "Divisória: inibidores das polimerases virais",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 107,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 107",
+   "itens": [
+    {
+     "id": "mb58-s107-i107-1",
+     "texto": "Inibidores de polimerase: só para vírus com polimerase própria",
+     "card": "au-antiv-pol-propria"
+    }
+   ]
+  },
+  {
+   "numero": 108,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 108",
+   "itens": [
+    {
+     "id": "mb58-s108-i108-1",
+     "texto": "Nucleosídeo = base + açúcar",
+     "card": "ak1467683788745"
+    },
+    {
+     "id": "mb58-s108-i108-2",
+     "texto": "Nucleotídeo = base + açúcar + fosfato",
+     "card": "ak1467683795991"
+    }
+   ]
+  },
+  {
+   "numero": 109,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 109",
+   "itens": [
+    {
+     "id": "mb58-s109-i109-1",
+     "texto": "Aciclovir, famciclovir e valaciclovir são análogos da guanosina",
+     "card": "ak1506723403021"
+    }
+   ]
+  },
+  {
+   "numero": 110,
+   "classe": "conteudo",
+   "titulo": "Análogos de nucleosídeos: AZT, estavudina, 3TC, trifluridina",
+   "itens": [
+    {
+     "id": "mb58-s110-i110-1",
+     "texto": "NRTIs e análogos",
+     "card": "ak1506784318198"
+    }
+   ]
+  },
+  {
+   "numero": 111,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 111",
+   "itens": [
+    {
+     "id": "mb58-s111-i111-1",
+     "texto": "Timidina quinase viral monofosforila o aciclovir",
+     "card": "ak1506723704374"
+    },
+    {
+     "id": "mb58-s111-i111-2",
+     "texto": "Aciclovir trifosfato entra no DNA viral e inibe a polimerase",
+     "card": "ak1506724128411"
+    },
+    {
+     "id": "mb58-s111-i111-3",
+     "texto": "Resistência ao aciclovir: timidina quinase mutada ou ausente",
+     "card": "ak1403635898739"
+    },
+    {
+     "id": "mb58-s111-i111-4",
+     "texto": "Sem timidina quinase viral, o aciclovir não age em CMV e EBV",
+     "card": "ak1506724515933"
+    }
+   ]
+  },
+  {
+   "numero": 112,
+   "classe": "conteudo",
+   "titulo": "Ativação do cidofovir e do adefovir",
+   "itens": [
+    {
+     "id": "mb58-s112-i112-1",
+     "texto": "Fosforilação dos análogos",
+     "card": "ak1506784514467"
+    }
+   ]
+  },
+  {
+   "numero": 113,
+   "classe": "logistica",
+   "titulo": "Divisória: inibidores da DNA polimerase de herpesvírus",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 114,
+   "classe": "conteudo",
+   "titulo": "Forquilha de replicação do herpesvírus e proteínas do complexo",
+   "itens": [
+    {
+     "id": "mb58-s114-i114-1",
+     "texto": "Replicação de herpesvírus",
+     "card": "au-prot-dna"
+    }
+   ]
+  },
+  {
+   "numero": 115,
+   "classe": "conteudo",
+   "titulo": "Aciclovir ativado pela timidina quinase viral",
+   "itens": [
+    {
+     "id": "mb58-s115-i115-1",
+     "texto": "Ativação do aciclovir",
+     "card": "ak1506723704374"
+    }
+   ]
+  },
+  {
+   "numero": 116,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 116: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 117,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 117",
+   "itens": [
+    {
+     "id": "mb58-s117-i117-1",
+     "texto": "Cidofovir e foscarnet não precisam de timidina quinase",
+     "card": "ak1506724662638"
+    },
+    {
+     "id": "mb58-s117-i117-2",
+     "texto": "Foscarnet liga o sítio do pirofosfato da polimerase",
+     "card": "ak1403636336526"
+    }
+   ]
+  },
+  {
+   "numero": 118,
+   "classe": "logistica",
+   "titulo": "Divisória: inibidores da DNA polimerase de retrovírus",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 119,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 119",
+   "itens": [
+    {
+     "id": "mb58-s119-i119-1",
+     "texto": "Inibidores da transcriptase reversa impedem o RNA virar DNA",
+     "card": "ak1506784777103"
+    },
+    {
+     "id": "mb58-s119-i119-2",
+     "texto": "NRTIs não têm hidroxila 3′",
+     "card": "ak1506784318198"
+    }
+   ]
+  },
+  {
+   "numero": 120,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 120",
+   "itens": [
+    {
+     "id": "mb58-s120-i120-1",
+     "texto": "Tenofovir é nucleotídeo, não nucleosídeo",
+     "card": "ak1506785118508"
+    }
+   ]
+  },
+  {
+   "numero": 121,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 121: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 122,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 122",
+   "itens": [
+    {
+     "id": "mb58-s122-i122-1",
+     "texto": "NRTIs terminam a cadeia de DNA precocemente",
+     "card": "ak1506784353867"
+    },
+    {
+     "id": "mb58-s122-i122-2",
+     "texto": "A maioria dos NRTIs precisa ser fosforilada",
+     "card": "ak1506784514467"
+    }
+   ]
+  },
+  {
+   "numero": 123,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 123",
+   "itens": [
+    {
+     "id": "mb58-s123-i123-1",
+     "texto": "NNRTIs ligam a transcriptase reversa em sítio diferente do NRTI",
+     "card": "ak1506789392960"
+    },
+    {
+     "id": "mb58-s123-i123-2",
+     "texto": "NNRTIs não precisam de fosforilação",
+     "card": "ak1506789263570"
+    }
+   ]
+  },
+  {
+   "numero": 124,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 124: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 125,
+   "classe": "logistica",
+   "titulo": "Divisória: inibidores da RNA polimerase de flavivírus",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 126,
+   "classe": "conteudo",
+   "titulo": "Ativação de nucleosídeos análogos e a RdRp (NS5B)",
+   "itens": [
+    {
+     "id": "mb58-s126-i126-1",
+     "texto": "NS5B",
+     "card": "ak1461797689978"
+    }
+   ]
+  },
+  {
+   "numero": 127,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 127",
+   "itens": [
+    {
+     "id": "mb58-s127-i127-1",
+     "texto": "Sofosbuvir é um análogo de nucleotídeo que inibe a NS5B do HCV",
+     "card": "ak1461797689978"
+    },
+    {
+     "id": "mb58-s127-i127-2",
+     "texto": "Ribavirina é um análogo da guanosina que inibe a IMP desidrogenase",
+     "card": "ak1514740864172"
+    }
+   ]
+  },
+  {
+   "numero": 128,
+   "classe": "fora_do_recorte",
+   "titulo": "Inibidores não análogos da NS5B (estruturas químicas)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 129,
+   "classe": "fora_do_recorte",
+   "titulo": "Sítios de ligação dos inibidores da replicase (estrutura cristalográfica)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 130,
+   "classe": "logistica",
+   "titulo": "Divisória: inibidores de outras enzimas virais",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 131,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 131",
+   "itens": [
+    {
+     "id": "mb58-s131-i131-1",
+     "texto": "Qual enzima integra o dsDNA do HIV ao genoma da célula? Integrase",
+     "card": "ak1506807161520"
+    },
+    {
+     "id": "mb58-s131-i131-2",
+     "texto": "Inibidores da integrase bloqueiam a inserção do dsDNA no genoma",
+     "card": "ak1506807835841"
+    }
+   ]
+  },
+  {
+   "numero": 132,
+   "classe": "fora_do_recorte",
+   "titulo": "Inibidores experimentais de helicase-primase de herpesvírus",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 133,
+   "classe": "fora_do_recorte",
+   "titulo": "Inibidores experimentais da interação proteica (ribonucleotídeo redutase)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 134,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 134",
+   "itens": [
+    {
+     "id": "mb58-s134-i134-1",
+     "texto": "Zanamivir e oseltamivir inibem a neuraminidase do influenza A e B",
+     "card": "ak1516324778471"
+    }
+   ]
+  },
+  {
+   "numero": 135,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 135",
+   "itens": [
+    {
+     "id": "mb58-s135-i135-1",
+     "texto": "Neuraminidase cliva a ligação entre HA e ácido siálico",
+     "card": "ak1516323747313"
+    },
+    {
+     "id": "mb58-s135-i135-2",
+     "texto": "Neuraminidase libera o vírion maduro",
+     "card": "sh-1792243080522"
+    },
+    {
+     "id": "mb58-s135-i135-3",
+     "texto": "Hemaglutinina liga o ácido siálico",
+     "card": "sh-1792243080096"
+    }
+   ]
+  },
+  {
+   "numero": 136,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 136: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 137,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 137",
+   "itens": [
+    {
+     "id": "mb58-s137-i137-1",
+     "texto": "Inibidores da protease bloqueiam o corte das proteínas virais",
+     "card": "ak1502070156173"
+    }
+   ]
+  },
+  {
+   "numero": 138,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 138",
+   "itens": [
+    {
+     "id": "mb58-s138-i138-1",
+     "texto": "Inibidores da protease impedem o vírion maduro a partir de poliproteínas",
+     "card": "ak1506795652147"
+    }
+   ]
+  },
+  {
+   "numero": 139,
+   "classe": "conteudo",
+   "titulo": "Montagem e maturação do HIV: Gag, Env e protease",
+   "itens": [
+    {
+     "id": "mb58-s139-i139-1",
+     "texto": "Protease na maturação",
+     "card": "ak1502070156173"
+    }
+   ]
+  },
+  {
+   "numero": 140,
+   "classe": "conteudo",
+   "titulo": "Substrato natural da protease do HIV e inibidores (saquinavir, darunavir)",
+   "itens": [
+    {
+     "id": "mb58-s140-i140-1",
+     "texto": "Inibidores de protease",
+     "card": "ak1506795652147"
+    }
+   ]
+  },
+  {
+   "numero": 141,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 141: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 142,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 142: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 143,
+   "classe": "conteudo",
+   "titulo": "Resumindo: onde cada inibidor age no ciclo",
+   "itens": [
+    {
+     "id": "mb58-s143-i143-1",
+     "texto": "Alvos dos antivirais no ciclo",
+     "card": "au-antiv-mec"
+    }
+   ]
+  },
+  {
+   "numero": 144,
+   "classe": "logistica",
+   "titulo": "Divisória: outros inibidores",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 145,
+   "classe": "fora_do_recorte",
+   "titulo": "Favipiravir: antiviral de amplo espectro",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 146,
+   "classe": "fora_do_recorte",
+   "titulo": "LJ001: tabela de atividade",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 147,
+   "classe": "fora_do_recorte",
+   "titulo": "LJ001: micrografias",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 148,
+   "classe": "fora_do_recorte",
+   "titulo": "Antiviral de amplo espectro: esquema",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 149,
+   "classe": "logistica",
+   "titulo": "Divisória: duas histórias de sucesso",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 150,
+   "classe": "conteudo",
+   "titulo": "Vírus da hepatite C: atividades enzimáticas da poliproteína",
+   "itens": [
+    {
+     "id": "mb58-s150-i150-1",
+     "texto": "Alvos dos antivirais de ação direta",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 151,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 151",
+   "itens": [
+    {
+     "id": "mb58-s151-i151-1",
+     "texto": "Hepatite C é tratada com inibidores de protease e de polimerase",
+     "card": "ak1506631004332"
+    }
+   ]
+  },
+  {
+   "numero": 152,
+   "classe": "fora_do_recorte",
+   "titulo": "Tabela de fármacos contra proteínas do HCV",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 153,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 153: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 154,
+   "classe": "conteudo",
+   "titulo": "Terapias da hepatite C: menor tempo",
+   "itens": [
+    {
+     "id": "mb58-s154-i154-1",
+     "texto": "Cura com antivirais de ação direta",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 155,
+   "classe": "logistica",
+   "titulo": "Divisória: HAART",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 156,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 156",
+   "itens": [
+    {
+     "id": "mb58-s156-i156-1",
+     "texto": "HAART usa no mínimo três fármacos para evitar resistência",
+     "card": "ak1506783017772"
+    }
+   ]
+  },
+  {
+   "numero": 157,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 157",
+   "itens": [
+    {
+     "id": "mb58-s157-i157-1",
+     "texto": "O alicerce do HAART são os NRTIs",
+     "card": "ak1502069492941"
+    }
+   ]
+  },
+  {
+   "numero": 158,
+   "classe": "conteudo",
+   "titulo": "HAART no ciclo do HIV: alvos das classes",
+   "itens": [
+    {
+     "id": "mb58-s158-i158-1",
+     "texto": "Classes do HAART",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 159,
+   "classe": "fora_do_recorte",
+   "titulo": "Tabela de aprovação de antirretrovirais",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 160,
+   "classe": "fora_do_recorte",
+   "titulo": "Linha do tempo de aprovação de fármacos para o HIV",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 161,
+   "classe": "conteudo",
+   "titulo": "Monoterapia, terapia dupla e tripla",
+   "itens": [
+    {
+     "id": "mb58-s161-i161-1",
+     "texto": "Três fármacos evitam progressão e resistência",
+     "card": "ak1506783017772"
+    }
+   ]
+  },
+  {
+   "numero": 162,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 162: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 163,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 163",
+   "itens": [
+    {
+     "id": "mb58-s163-i163-1",
+     "texto": "HAART: dois NRTIs mais NNRTI, inibidor de protease ou da integrase",
+     "card": "ak1506783163535"
+    }
+   ]
+  },
+  {
+   "numero": 164,
+   "classe": "logistica",
+   "titulo": "Divisória: por que apenas duas histórias de sucesso",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 165,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 165: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 166,
+   "classe": "conteudo",
+   "titulo": "Desenvolvimento de antivirais: funil de compostos rejeitados",
+   "itens": [
+    {
+     "id": "mb58-s166-i166-1",
+     "texto": "Desenvolvimento lento e caro",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 167,
+   "classe": "conteudo",
+   "titulo": "Fases do desenvolvimento: segurança e eficácia",
+   "itens": [
+    {
+     "id": "mb58-s167-i167-1",
+     "texto": "Desenvolvimento lento e caro",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 168,
+   "classe": "conteudo",
+   "titulo": "Poucos fármacos antivirais disponíveis (gráfico)",
+   "itens": [
+    {
+     "id": "mb58-s168-i168-1",
+     "texto": "Poucos antivirais",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 169,
+   "classe": "conteudo",
+   "titulo": "Poucos fármacos antivirais disponíveis (alvos por vírus)",
+   "itens": [
+    {
+     "id": "mb58-s169-i169-1",
+     "texto": "Poucos antivirais",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 170,
+   "classe": "logistica",
+   "titulo": "Divisória: e a COVID-19?",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 171,
+   "classe": "fora_do_recorte",
+   "titulo": "Fármacos para COVID-19: camostat, cloroquina, remdesivir, lopinavir",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 172,
+   "classe": "conteudo",
+   "titulo": "Fármacos aprovados: tocilizumabe, remdesivir, baricitinibe",
+   "itens": [
+    {
+     "id": "mb58-s172-i172-1",
+     "texto": "Remdesivir",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    },
+    {
+     "id": "mb58-s172-i172-2",
+     "texto": "Tocilizumabe",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 173,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 173: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 174,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 174: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 175,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 175: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 176,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 176",
+   "itens": [
+    {
+     "id": "mb58-s176-i176-1",
+     "texto": "Interferon α e β: glicoproteínas que preparam as células vizinhas",
+     "card": "sh-1791984890453"
+    }
+   ]
+  },
+  {
+   "numero": 177,
+   "classe": "conteudo",
+   "titulo": "Entender o ciclo permite desenvolver fármacos mais eficientes",
+   "itens": [
+    {
+     "id": "mb58-s177-i177-1",
+     "texto": "Alvos dos antivirais no ciclo",
+     "card": "au-antiv-mec"
+    }
+   ]
+  },
+  {
+   "numero": 178,
+   "classe": "logistica",
+   "titulo": "Agradecimento",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 179,
+   "classe": "logistica",
+   "titulo": "Capa (repete a lâmina 1)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 180,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 3 (repete a lâmina 3)",
+   "itens": [
+    {
+     "id": "mb58-s180-b180-1",
+     "texto": "Vírions são montados, não crescem nem se dividem",
+     "card": "sh-1792243070220"
+    },
+    {
+     "id": "mb58-s180-b180-2",
+     "texto": "Vírus sem atividade metabólica",
+     "card": "sh-1792243070545"
+    }
+   ]
+  },
+  {
+   "numero": 181,
+   "classe": "conteudo",
+   "titulo": "Esquema do ciclo do influenza em três fases (entrada, síntese, saída) (repete a lâmina 7)",
+   "itens": [
+    {
+     "id": "mb58-s181-b181-1",
+     "texto": "Fases do ciclo",
+     "card": "au-etapas"
+    }
+   ]
+  },
+  {
+   "numero": 182,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 8 (repete a lâmina 8)",
+   "itens": [
+    {
+     "id": "mb58-s182-b182-1",
+     "texto": "As etapas do ciclo de replicação, em ordem",
+     "card": "au-etapas"
+    }
+   ]
+  },
+  {
+   "numero": 183,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 9 (repete a lâmina 9)",
+   "itens": [
+    {
+     "id": "mb58-s183-b183-1",
+     "texto": "Glicoproteínas do envelope: ligam a célula e são antígenos",
+     "card": "sh-1792243082496"
+    }
+   ]
+  },
+  {
+   "numero": 184,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 10 (repete a lâmina 10)",
+   "itens": [
+    {
+     "id": "mb58-s184-b184-1",
+     "texto": "gp120 é a glicoproteína externa do HIV",
+     "card": "ak1502066766747"
+    },
+    {
+     "id": "mb58-s184-b184-2",
+     "texto": "gp120 permite a ligação do HIV ao CD4",
+     "card": "ak1506805847290"
+    },
+    {
+     "id": "mb58-s184-b184-3",
+     "texto": "Início da infecção: HIV entra em macrófagos por CCR5",
+     "card": "ak1502068331161"
+    },
+    {
+     "id": "mb58-s184-b184-4",
+     "texto": "Fase tardia: HIV entra em linfócitos T por CXCR4",
+     "card": "ak1502068440036"
+    },
+    {
+     "id": "mb58-s184-b184-5",
+     "texto": "Rinovírus entra pelo ICAM-1",
+     "card": "ak1516222322469"
+    },
+    {
+     "id": "mb58-s184-b184-6",
+     "texto": "gp120 liga CD4 e os correceptores CCR5 e CXCR4",
+     "card": "sh-1792166995490"
+    }
+   ]
+  },
+  {
+   "numero": 185,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 11 (repete a lâmina 11)",
+   "itens": [
+    {
+     "id": "mb58-s185-b185-1",
+     "texto": "Penetração: endocitose, translocação ou fusão",
+     "card": "au-penetracao"
+    }
+   ]
+  },
+  {
+   "numero": 186,
+   "classe": "conteudo",
+   "titulo": "Via endocítica × fusão na membrana celular (repete a lâmina 13)",
+   "itens": [
+    {
+     "id": "mb58-s186-b186-1",
+     "texto": "Duas vias de penetração",
+     "card": "au-penetracao"
+    }
+   ]
+  },
+  {
+   "numero": 187,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 17 (repete a lâmina 17)",
+   "itens": [
+    {
+     "id": "mb58-s187-b187-1",
+     "texto": "Desnudamento: três locais",
+     "card": "au-desnud"
+    }
+   ]
+  },
+  {
+   "numero": 188,
+   "classe": "conteudo",
+   "titulo": "Penetração do poliovírus por endocitose (repete a lâmina 12)",
+   "itens": [
+    {
+     "id": "mb58-s188-b188-1",
+     "texto": "Endocitose como via de entrada",
+     "card": "au-penetracao"
+    }
+   ]
+  },
+  {
+   "numero": 189,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 18: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 18)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 190,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 20 (repete a lâmina 20)",
+   "itens": [
+    {
+     "id": "mb58-s190-b190-1",
+     "texto": "mRNAs precoces × tardios",
+     "card": "au-precoces"
+    },
+    {
+     "id": "mb58-s190-b190-2",
+     "texto": "A maioria dos vírus de DNA replica no núcleo",
+     "card": "ak1502152021975"
+    },
+    {
+     "id": "mb58-s190-b190-3",
+     "texto": "Vírus de RNA em geral replicam no citoplasma",
+     "card": "ak1516321076508"
+    },
+    {
+     "id": "mb58-s190-b190-4",
+     "texto": "Exceções: orthomyxovírus e retrovírus replicam no núcleo",
+     "card": "ak1483913062659"
+    }
+   ]
+  },
+  {
+   "numero": 191,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 22 (repete a lâmina 22)",
+   "itens": [
+    {
+     "id": "mb58-s191-b191-1",
+     "texto": "Baltimore: caminho do genoma até o mRNA",
+     "card": "sh-1792243072244"
+    }
+   ]
+  },
+  {
+   "numero": 192,
+   "classe": "logistica",
+   "titulo": "Divisória: vírus de DNA (repete a lâmina 26)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 193,
+   "classe": "conteudo",
+   "titulo": "Baltimore grupo I: famílias de DNA; replicação nuclear, exceto poxvírus (repete a lâmina 27)",
+   "itens": [
+    {
+     "id": "mb58-s193-b193-1",
+     "texto": "DNA no núcleo",
+     "card": "ak1502152021975"
+    },
+    {
+     "id": "mb58-s193-b193-2",
+     "texto": "Baltimore",
+     "card": "sh-1792243072244"
+    }
+   ]
+  },
+  {
+   "numero": 194,
+   "classe": "fora_do_recorte",
+   "titulo": "Diversas estruturas genômicas (esquemas de cinco vírus) (repete a lâmina 31)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 195,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 32 (repete a lâmina 32)",
+   "itens": [
+    {
+     "id": "mb58-s195-b195-1",
+     "texto": "Dois mecanismos de síntese de DNA e seus iniciadores",
+     "card": "au-primers"
+    }
+   ]
+  },
+  {
+   "numero": 196,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 33: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 33)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 197,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 29 (repete a lâmina 29)",
+   "itens": [
+    {
+     "id": "mb58-s197-b197-1",
+     "texto": "Vírus de DNA pequenos dependem da célula",
+     "card": "au-pequenos-dna"
+    }
+   ]
+  },
+  {
+   "numero": 198,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 30 (repete a lâmina 30)",
+   "itens": [
+    {
+     "id": "mb58-s198-b198-1",
+     "texto": "Proteínas virais da replicação do DNA",
+     "card": "au-prot-dna"
+    }
+   ]
+  },
+  {
+   "numero": 199,
+   "classe": "conteudo",
+   "titulo": "Baltimore grupo I: famílias de DNA; replicação nuclear, exceto poxvírus (repete a lâmina 27)",
+   "itens": [
+    {
+     "id": "mb58-s199-b199-1",
+     "texto": "DNA no núcleo",
+     "card": "ak1502152021975"
+    },
+    {
+     "id": "mb58-s199-b199-2",
+     "texto": "Baltimore",
+     "card": "sh-1792243072244"
+    }
+   ]
+  },
+  {
+   "numero": 200,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 35: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 35)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 201,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 36 (repete a lâmina 36)",
+   "itens": [
+    {
+     "id": "mb58-s201-b201-1",
+     "texto": "Antígeno T: reconhece a origem e é helicase",
+     "card": "au-polyoma-t"
+    }
+   ]
+  },
+  {
+   "numero": 202,
+   "classe": "conteudo",
+   "titulo": "Funções das topoisomerases (repete a lâmina 40)",
+   "itens": [
+    {
+     "id": "mb58-s202-b202-1",
+     "texto": "Topoisomerases relaxam o superenovelamento",
+     "card": "au-polyoma-t"
+    }
+   ]
+  },
+  {
+   "numero": 203,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 47 (repete a lâmina 47)",
+   "itens": [
+    {
+     "id": "mb58-s203-b203-1",
+     "texto": "Adenovírus tem genoma de DNA linear",
+     "card": "ak1516930208305"
+    },
+    {
+     "id": "mb58-s203-b203-2",
+     "texto": "Adenovírus: o primer é uma proteína",
+     "card": "au-adeno-primer"
+    }
+   ]
+  },
+  {
+   "numero": 204,
+   "classe": "conteudo",
+   "titulo": "Adenovírus: fase tardia por deslocamento de fita (repete a lâmina 48)",
+   "itens": [
+    {
+     "id": "mb58-s204-b204-1",
+     "texto": "Proteína liga dCMP e fornece 3′-OH",
+     "card": "au-adeno-primer"
+    },
+    {
+     "id": "mb58-s204-b204-2",
+     "texto": "Deslocamento de fita",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 205,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 51 (repete a lâmina 51)",
+   "itens": [
+    {
+     "id": "mb58-s205-b205-1",
+     "texto": "Herpesvírus: circulariza e replica por círculo rolante",
+     "card": "au-herpes-circ"
+    }
+   ]
+  },
+  {
+   "numero": 206,
+   "classe": "conteudo",
+   "titulo": "Início da replicação do herpesvírus: circularização (repete a lâmina 52)",
+   "itens": [
+    {
+     "id": "mb58-s206-b206-1",
+     "texto": "Circularização por proteínas do hospedeiro",
+     "card": "au-herpes-circ"
+    }
+   ]
+  },
+  {
+   "numero": 207,
+   "classe": "conteudo",
+   "titulo": "Círculo rolante (esquema) (repete a lâmina 53)",
+   "itens": [
+    {
+     "id": "mb58-s207-b207-1",
+     "texto": "Círculo rolante",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 208,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 54 (repete a lâmina 54)",
+   "itens": [
+    {
+     "id": "mb58-s208-b208-1",
+     "texto": "Poxvírus: único DNA vírus que replica só no citoplasma",
+     "card": "ak1502570386887"
+    }
+   ]
+  },
+  {
+   "numero": 209,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 55 (repete a lâmina 55)",
+   "itens": [
+    {
+     "id": "mb58-s209-b209-1",
+     "texto": "Poxvírus tem a própria RNA polimerase dependente de DNA",
+     "card": "ak1502570452327"
+    },
+    {
+     "id": "mb58-s209-b209-2",
+     "texto": "Poxvírus: mRNAs precoces pela polimerase do vírion",
+     "card": "au-pox-precoces"
+    }
+   ]
+  },
+  {
+   "numero": 210,
+   "classe": "conteudo",
+   "titulo": "Ciclo de replicação do poxvírus na ME (repete a lâmina 56)",
+   "itens": [
+    {
+     "id": "mb58-s210-b210-1",
+     "texto": "Replicação citoplasmática",
+     "card": "ak1502570386887"
+    }
+   ]
+  },
+  {
+   "numero": 211,
+   "classe": "conteudo",
+   "titulo": "Replicação do DNA do poxvírus: extremidades em grampo (repete a lâmina 58)",
+   "itens": [
+    {
+     "id": "mb58-s211-b211-1",
+     "texto": "Sem problema 5′",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 212,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 59 (repete a lâmina 59)",
+   "itens": [
+    {
+     "id": "mb58-s212-b212-1",
+     "texto": "Parvoviridae: únicos vírus de DNA de fita simples",
+     "card": "sh-1792243075743"
+    }
+   ]
+  },
+  {
+   "numero": 213,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 60: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 60)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 214,
+   "classe": "conteudo",
+   "titulo": "O primer dos parvovírus é DNA (esquema) (repete a lâmina 61)",
+   "itens": [
+    {
+     "id": "mb58-s214-b214-1",
+     "texto": "Primer em grampo",
+     "exclusao_permitida": true,
+     "exclusao": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+    }
+   ]
+  },
+  {
+   "numero": 215,
+   "classe": "logistica",
+   "titulo": "Divisória: vírus de RNA (repete a lâmina 62)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 216,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 63: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 63)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 217,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 65 (repete a lâmina 65)",
+   "itens": [
+    {
+     "id": "mb58-s217-b217-1",
+     "texto": "RNA viral tem polaridade + ou −",
+     "card": "sh-1792243072575"
+    },
+    {
+     "id": "mb58-s217-b217-2",
+     "texto": "RNA + tem a estrutura do mRNA",
+     "card": "sh-1792243072820"
+    }
+   ]
+  },
+  {
+   "numero": 218,
+   "classe": "conteudo",
+   "titulo": "Vírus de RNA: do genoma à proteína (RNA dupla fita) (repete a lâmina 66)",
+   "itens": [
+    {
+     "id": "mb58-s218-b218-1",
+     "texto": "Polaridade do RNA e mRNA",
+     "card": "sh-1792243072575"
+    }
+   ]
+  },
+  {
+   "numero": 219,
+   "classe": "conteudo",
+   "titulo": "Lembrar: o vírus fornece o que a célula não tem; polimerase depende da topologia do genoma (repete a lâmina 67)",
+   "itens": [
+    {
+     "id": "mb58-s219-b219-1",
+     "texto": "Polimerase no vírion conforme o genoma",
+     "card": "au-reo-pol"
+    }
+   ]
+  },
+  {
+   "numero": 220,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 64: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 64)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 221,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 68 (repete a lâmina 68)",
+   "itens": [
+    {
+     "id": "mb58-s221-b221-1",
+     "texto": "Picornavírus fazem poliproteína clivada por protease viral",
+     "card": "ak1506627151740"
+    },
+    {
+     "id": "mb58-s221-b221-2",
+     "texto": "RNA + é traduzido de imediato",
+     "card": "sh-1792243073069"
+    }
+   ]
+  },
+  {
+   "numero": 222,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 70 (repete a lâmina 70)",
+   "itens": [
+    {
+     "id": "mb58-s222-b222-1",
+     "texto": "Orthomyxoviridae: único RNA − que replica no núcleo",
+     "card": "ak1516320980606"
+    },
+    {
+     "id": "mb58-s222-b222-2",
+     "texto": "RNA − precisa virar + antes de ser usado",
+     "card": "sh-1792243073320"
+    },
+    {
+     "id": "mb58-s222-b222-3",
+     "texto": "RNA − produz a própria RNA polimerase",
+     "card": "sh-1792243073569"
+    }
+   ]
+  },
+  {
+   "numero": 223,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 71 (repete a lâmina 71)",
+   "itens": [
+    {
+     "id": "mb58-s223-b223-1",
+     "texto": "Transcrição reversa: RNA → DNA",
+     "card": "sh-1792243074070"
+    },
+    {
+     "id": "mb58-s223-b223-2",
+     "texto": "Retrovírus: genoma diploide",
+     "card": "sh-1792243083345"
+    }
+   ]
+  },
+  {
+   "numero": 224,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 79 (repete a lâmina 79)",
+   "itens": [
+    {
+     "id": "mb58-s224-b224-1",
+     "texto": "A RdRp é a peça central do complexo de replicação",
+     "card": "ak1608910179425"
+    },
+    {
+     "id": "mb58-s224-b224-2",
+     "texto": "Todo vírus de RNA, menos retrovírus, codifica RdRp",
+     "card": "au-rdrp-todos"
+    }
+   ]
+  },
+  {
+   "numero": 225,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 80 (repete a lâmina 80)",
+   "itens": [
+    {
+     "id": "mb58-s225-b225-1",
+     "texto": "Vírus de RNA − e dsRNA trazem a polimerase",
+     "card": "au-reo-pol"
+    },
+    {
+     "id": "mb58-s225-b225-2",
+     "texto": "Genoma RNA − sozinho não é infeccioso",
+     "card": "sh-1792243073819"
+    }
+   ]
+  },
+  {
+   "numero": 226,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 81: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 81)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 227,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 82: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 82)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 228,
+   "classe": "fora_do_recorte",
+   "titulo": "Ciclo do vírus da hepatite C (esquema) (repete a lâmina 69)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 229,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 71 (repete a lâmina 71)",
+   "itens": [
+    {
+     "id": "mb58-s229-b229-1",
+     "texto": "Transcrição reversa: RNA → DNA",
+     "card": "sh-1792243074070"
+    },
+    {
+     "id": "mb58-s229-b229-2",
+     "texto": "Retrovírus: genoma diploide",
+     "card": "sh-1792243083345"
+    }
+   ]
+  },
+  {
+   "numero": 230,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 71 (repete a lâmina 71)",
+   "itens": [
+    {
+     "id": "mb58-s230-b230-1",
+     "texto": "Transcrição reversa: RNA → DNA",
+     "card": "sh-1792243074070"
+    },
+    {
+     "id": "mb58-s230-b230-2",
+     "texto": "Retrovírus: genoma diploide",
+     "card": "sh-1792243083345"
+    }
+   ]
+  },
+  {
+   "numero": 231,
+   "classe": "conteudo",
+   "titulo": "Ciclo do retrovírus: entrada e saída (repete a lâmina 72)",
+   "itens": [
+    {
+     "id": "mb58-s231-b231-1",
+     "texto": "Retrovírus",
+     "card": "au-retro-rt"
+    }
+   ]
+  },
+  {
+   "numero": 232,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 76 (repete a lâmina 76)",
+   "itens": [
+    {
+     "id": "mb58-s232-b232-1",
+     "texto": "Hepatite B: DNA parcialmente de fita dupla",
+     "card": "ak1506551550710"
+    }
+   ]
+  },
+  {
+   "numero": 233,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 77 (repete a lâmina 77)",
+   "itens": [
+    {
+     "id": "mb58-s233-b233-1",
+     "texto": "No núcleo, a DNA polimerase do HBV completa a fita dupla",
+     "card": "ak1506551774430"
+    },
+    {
+     "id": "mb58-s233-b233-2",
+     "texto": "Transcriptase reversa do HBV faz o DNA da progênie a partir do RNA",
+     "card": "sh-1791984892677"
+    }
+   ]
+  },
+  {
+   "numero": 234,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 84: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 84)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 235,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 85 (repete a lâmina 85)",
+   "itens": [
+    {
+     "id": "mb58-s235-b235-1",
+     "texto": "Corpúsculos de inclusão: citoplasmáticos × nucleares",
+     "card": "au-inclusoes"
+    },
+    {
+     "id": "mb58-s235-b235-2",
+     "texto": "Guarnieri: inclusões citoplasmáticas do poxvírus",
+     "card": "ak1502570605009"
+    },
+    {
+     "id": "mb58-s235-b235-3",
+     "texto": "Corpos de Negri: inclusões citoplasmáticas da raiva",
+     "card": "ak1516475620459"
+    },
+    {
+     "id": "mb58-s235-b235-4",
+     "texto": "Corpos de Cowdry: inclusões nucleares dos herpesvírus",
+     "card": "ak1516475827100"
+    },
+    {
+     "id": "mb58-s235-b235-5",
+     "texto": "Inclusões: acúmulos de proteínas ou partículas no local de montagem",
+     "card": "sh-1791984887454"
+    }
+   ]
+  },
+  {
+   "numero": 236,
+   "classe": "conteudo",
+   "titulo": "Corpúsculos de inclusão em imunofluorescência e ME (repete a lâmina 86)",
+   "itens": [
+    {
+     "id": "mb58-s236-b236-1",
+     "texto": "Inclusões",
+     "card": "au-inclusoes"
+    }
+   ]
+  },
+  {
+   "numero": 237,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 87 (repete a lâmina 87)",
+   "itens": [
+    {
+     "id": "mb58-s237-b237-1",
+     "texto": "Formas de liberação do vírus",
+     "card": "au-liberacao"
+    },
+    {
+     "id": "mb58-s237-b237-2",
+     "texto": "Sincícios: células multinucleadas por fusão",
+     "card": "sh-1791984888354"
+    }
+   ]
+  },
+  {
+   "numero": 238,
+   "classe": "fora_do_recorte",
+   "titulo": "Fotografia de lise de células Vero com poliovírus (card cortado no enxugamento de 21/10; FORA_DO_RECORTE)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 239,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 88 (repete a lâmina 88)",
+   "itens": [
+    {
+     "id": "mb58-s239-b239-1",
+     "texto": "Envelope vem da membrana da célula",
+     "card": "sh-1792243082169"
+    }
+   ]
+  },
+  {
+   "numero": 240,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 90: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 90)",
+   "justificativa": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 241,
+   "classe": "conteudo",
+   "titulo": "Conteúdo da lâmina 91 (repete a lâmina 91)",
+   "itens": [
+    {
+     "id": "mb58-s241-b241-1",
+     "texto": "Resumo: polimerase celular × viral nos vírus de DNA",
+     "card": "au-resumo-dna"
+    }
+   ]
+  },
+  {
+   "numero": 242,
+   "classe": "logistica",
+   "titulo": "Agradecimento (repete a lâmina 92)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  }
+ ],
+ "capitulo": [
+  {
+   "secao": "Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)",
+   "itens": [
+    {
+     "id": "mb58-cap-j1",
+     "texto": "Etapas gerais: fixação, penetração, desnudamento",
+     "card": [
+      "au-penetracao",
+      "au-desnud"
+     ]
+    },
+    {
+     "id": "mb58-cap-j2",
+     "texto": "Infecção produtiva × abortiva",
+     "card": "au-produtiva"
+    },
+    {
+     "id": "mb58-cap-j3",
+     "texto": "Expressão dos genomas virais e síntese dos componentes",
+     "card": [
+      "au-precoces",
+      "au-rdrp-todos"
+     ]
+    },
+    {
+     "id": "mb58-cap-j4",
+     "texto": "Período de eclipse e duração do ciclo",
+     "exclusao_permitida": true,
+     "exclusao": "detalhe do livro sem cobrança na aula nem em prova (FORA_DO_RECORTE)"
+    },
+    {
+     "id": "mb58-cap-j6",
+     "texto": "Efeito citopático: lista de alterações da transcrição Ib (pp. 95–96)",
+     "card": "sh-1791984887204"
+    },
+    {
+     "id": "mb58-cap-j7",
+     "texto": "Efeito lítico do poliovírus em células Vero (transcrição Ib, pp. 98–100)",
+     "card": "sh-1791984887204"
+    },
+    {
+     "id": "mb58-cap-j8",
+     "texto": "Efeito citopático de adenovírus, herpesvírus, sarampo, vaccínia, raiva, rotavírus, HBV, VSR e HPV (transcrição Ib, pp. 101–124)",
+     "exclusao_permitida": true,
+     "exclusao": "estudo dirigido da aula prática: aula 60 Prática de virologia (FORA_DO_RECORTE)"
+    },
+    {
+     "id": "mb58-cap-j5",
+     "texto": "Análogos e inibidores de enzimas virais",
+     "card": [
+      "ak1506724128411",
+      "au-antiv-pol-propria"
+     ]
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "fonte": "Provas UC03 (índice micro-14 e busca por termo)",
+   "itens": [
+    {
+     "id": "mb58-prova-p1",
+     "texto": "Ciclo de multiplicação de um vírus de RNA (+) e suas etapas (2025 P3 2.1)",
+     "card": [
+      "au-etapas",
+      "sh-1792243073069"
+     ]
+    },
+    {
+     "id": "mb58-prova-p2",
+     "texto": "Proteína de replicação: RdRp, transcriptase reversa ou integrase (2024 P3 1.1)",
+     "card": [
+      "au-rdrp-todos",
+      "au-retro-rt",
+      "ak1506807161520"
+     ]
+    },
+    {
+     "id": "mb58-prova-p3",
+     "texto": "Replicação de um vírus do grupo IV com compartimento celular (2018 P3 1.3)",
+     "card": [
+      "au-etapas",
+      "sh-1792243072820",
+      "sh-1792243073069"
+     ]
+    },
+    {
+     "id": "mb58-prova-p4",
+     "texto": "Câncer por vírus como evento acidental da estratégia de replicação (2024 P4 2.13)",
+     "card": [
+      "ak1463105909117",
+      "ak1463105915437"
+     ]
+    },
+    {
+     "id": "mb58-prova-p5",
+     "texto": "Sincícios e lise celular no efeito citopático (2015 P2 4.3)",
+     "card": [
+      "au-liberacao",
+      "sh-1791984888354"
+     ]
+    },
+    {
+     "id": "mb58-prova-p6",
+     "texto": "Corpúsculos de inclusão: local de montagem (2015 P2 4.8)",
+     "card": "au-inclusoes"
+    }
+   ]
+  },
+  {
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "itens": [
+    {
+     "id": "mb58-prova-m1",
+     "texto": "Sistemas de classificação: hierárquico e Baltimore",
+     "card": "sh-1792243072244",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m2",
+     "texto": "Susceptibilidade, permissividade, acessibilidade e resposta imune",
+     "card": "au-permissiva",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m3",
+     "texto": "Infecção produtiva e abortiva",
+     "card": "au-produtiva",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m4",
+     "texto": "Etapas da replicação viral",
+     "card": "au-etapas",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m5",
+     "texto": "Adsorção e penetração do HIV (gp120, gp41, CD4, correceptor)",
+     "card": [
+      "ak1506805847290",
+      "ak1502066667272",
+      "sh-1792166995490"
+     ],
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m6",
+     "texto": "Desnudamento do adenovírus (endossomo, dineína, NLS, poro nuclear)",
+     "card": "au-desnud",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m7",
+     "texto": "Proteínas precoces, intermediárias e tardias",
+     "card": "au-precoces",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m8",
+     "texto": "Montagem e corpúsculos de inclusão",
+     "card": "au-inclusoes",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m9",
+     "texto": "Liberação: lise, brotamento, passagem entre células, sincícios",
+     "card": "au-liberacao",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m10",
+     "texto": "Vírus de DNA: polimerases, primers e proteínas virais",
+     "card": [
+      "au-primers",
+      "au-prot-dna",
+      "au-pequenos-dna"
+     ],
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m11",
+     "texto": "Poliomavírus, papilomavírus (E1, E2, E6, E7), adenovírus, herpesvírus, poxvírus, parvovírus",
+     "card": [
+      "au-polyoma-t",
+      "au-adeno-primer",
+      "au-herpes-circ"
+     ],
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m12",
+     "texto": "Vírus de RNA: polaridade, RdRp, retrovírus, hepatite B",
+     "card": [
+      "au-rdrp-todos",
+      "au-reo-pol",
+      "au-retro-rt",
+      "sh-1791984892677"
+     ],
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m13",
+     "texto": "Taxa de mutação e reordenamento",
+     "card": "au-mutacao",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m14",
+     "texto": "Efeito citopático: alterações e exemplos (poliovírus, adenovírus, sarampo, herpes, vaccínia)",
+     "card": "sh-1791984887204",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m15",
+     "texto": "Antivirais: mecanismos de ação e dificuldades",
+     "card": "au-antiv-mec",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m16",
+     "texto": "Inibidores: fusão, desnudamento, polimerases, protease, brotamento, integrase",
+     "card": [
+      "ak1506806715774",
+      "ak1516324301529",
+      "au-antiv-pol-propria",
+      "ak1502070156173",
+      "ak1516324778471",
+      "ak1506807835841"
+     ],
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-m17",
+     "texto": "Aciclovir, foscarnet, NRTIs, NNRTIs e HAART",
+     "card": [
+      "ak1506724128411",
+      "ak1403636336526",
+      "ak1506784353867",
+      "ak1506789392960"
+     ],
+     "apoio": true
+    }
+   ]
+  },
+  {
+   "fonte": "Apostila guia de Micro, aula 13 (sistemas de classificação, etapas, vírus de DNA e RNA, efeito citopático, antivirais)",
+   "itens": [
+    {
+     "id": "mb58-prova-g1",
+     "texto": "Baltimore: grupos I a VII",
+     "card": "sh-1792243072244",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-g2",
+     "texto": "Etapas da replicação",
+     "card": "au-etapas",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-g3",
+     "texto": "Vírus de DNA e RNA por estratégia",
+     "card": "au-resumo-dna",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-g4",
+     "texto": "Efeito citopático e poliovírus",
+     "card": "sh-1791984887204",
+     "apoio": true
+    },
+    {
+     "id": "mb58-prova-g5",
+     "texto": "Antivirais: amantadina, aciclovir, inibidores de protease e de brotamento, HIV",
+     "card": [
+      "ak1516324301529",
+      "ak1506724128411",
+      "ak1502070156173",
+      "ak1516324778471"
+     ],
+     "apoio": true
+    }
+   ]
+  }
+ ]
+}

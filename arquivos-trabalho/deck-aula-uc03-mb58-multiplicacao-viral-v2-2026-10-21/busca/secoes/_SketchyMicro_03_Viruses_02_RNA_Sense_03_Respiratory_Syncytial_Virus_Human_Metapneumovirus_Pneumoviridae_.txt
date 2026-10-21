@@ -1,0 +1,15 @@
+# #AK_Step1_v12::#SketchyMicro::03_Viruses::02_RNA_(-)_Sense::03_Respiratory_Syncytial_Virus_&_Human_Metapneumovirus_(Pneumoviridae) (14 notas)
+1496494702502 - Infants age < 2 months with bronchiolitis are at high risk of developing apnea and/or respiratory failure
+1506297222604 1-HighYield Which family of viruses does respiratory syncytial virus (RSV) belong to? Pneumoviridae* (negative sense RNA)
+1506297227729 4-LowerYield Which family of viruses does human metapneumovirus belong to? Pneumoviridae (negative sense RNA)
+1506457318835 1-HighYield Respiratory syncytial virus (RSV) is typically seen in children < 2 years of age
+1506457483328 1-HighYield RSV uses the G protein in order to infect respiratory epithelial cells
+1506457525828 1-HighYield What is the most common cause of pneumonia in infants ? Respiratory syncytial virus (RSV)
+1506457578924 1-HighYield What is the most common cause of bronchiolitis in infants ? Respiratory syncytial virus (RSV)
+1506457588894 1-HighYield RSV contains the virulence factor F (fusion) protein, which allows the production of multinucleated giant cells
+1506457768755 2-RelativelyHighYield What is the treatment of respiratory syncytial virus (RSV) in adults ? Ribavirin
+1506457874779 2-RelativelyHighYield What is used for prevention of respiratory syncytial virus (RSV) in preterm infants ? Nirsevimab or palivizumab
+1506457932361 1-HighYield Nirsevimab and palivizumab are monoclonal antibodies against the fusion (F) protein of RSV
+1514740606355 3-HighYield-temporary Ribavirin is an antiviral that works by inhibiting the synthesis of guanine nucleotides
+1537632149338 - Inflammation of the small airways / bronchioles usually caused by RSV is suggestive of bronchiolitis
+1539215598919 - Child < 2 years old with recent viral URI and wheezing/dyspnea in the winter months is suggestive of bronchiolitis

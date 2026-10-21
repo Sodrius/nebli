@@ -1,0 +1,22 @@
+# #AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::08_Antiviral_Drugs::Extra (21 notas)
+1403636336526 2-RelativelyHighYield Foscarnet is an antiviral agent that acts as a viral DNA/RNA polymerase inhibitor by binding to the pyrophosphate -binding site of the enzyme
+1461794607480 1-HighYield Interferon α may be used in the treatment of hepatitis B and C infections
+1467683795991 - A(n) nucleoTide is a base plus a sugar (ribose or deoxyribose) plus phosphate
+1476496198826 2-RelativelyHighYield Mycophenolate mofetil and ribavirin inhibit IMP dehydrogenase , preventing conversion of IMP to GMP (purine synthesis)
+1503860841762 1-HighYield Reactivation of CMV occurs in the immunosuppressed, such as organ transplant and AIDS patients
+1504365294081 1-HighYield Which gout drug prevents renal excretion of drugs (e.g., penicillin, cidofovir)? Probenecid
+1506723958257 4-LowerYield Acyclovir must be phosphorylated three times by intracellular enzymes to reach its activated nucleo tide form
+1506724024237 4-LowerYield Acyclovir monophosphate is eventually converted to acyclovir triphosphate by cellular kinases
+1506724662638 2-RelativelyHighYield Which viral DNA-polymerase inhibitors do not require thymidine kinase to become active? Cidofovir, foscarnet
+1506726146461 3-HighYield-temporary During active shingles infection (herpes zoster), valacyclovir and famciclovir are most effective if given within 3 days of symptom onset
+1506726210693 3-HighYield-temporary Prophylaxis of HSV with acyclovir is important in immunocompromised patients
+1506726438486 3-HighYield-temporary Acyclovir can cause crystalline nephropathy (renal side effect)
+1506727367546 4-LowerYield Ganciclovir must be phosphorylated three times by intracellular enzymes to reach its activated nucleo tide form
+1506727458246 4-LowerYield Ganciclovir is converted to ganciclovir monophosphate by virus-encoded kinases via the UL-97 gene
+1506727517347 4-LowerYield Ganciclovir monophosphate is eventually converted to ganciclovir tri phosphate by cellular kinases
+1506728026109 1-HighYield Which antivirals are used during solid-organ and bone marrow transplant ? Ganciclovir or valganciclovir
+1506728145227 3-HighYield-temporary Ganciclovir and valganciclovir are used as prophylaxis of CMV retinitis in immunocompromised patients
+1506728477701 4-LowerYield CMV can gain resistance to ganciclovir via mutations in the UL-97 gene
+1506729713312 3-HighYield-temporary Resistance to cidofovir and foscarnet occurs with mutations to viral DNA polymerase
+1506729756413 2-RelativelyHighYield Cidofovir is an antiviral drug that is nephro toxic
+1516324301529 2-RelativelyHighYield Amantadine and rimantadine are drugs that inhibit the M2 protein channels of influenza A

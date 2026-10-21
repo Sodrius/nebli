@@ -1,0 +1,5 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::20_Retrovirus (4 notas)
+1483913062659 1-HighYield All RNA viruses replicate in the cytoplasm except for orthomyxovirus and retroviruses
+1502064775742 2-RelativelyHighYield Retroviruses (e.g., HIV) are diploid single-stranded RNA viruses
+1502066128205 2-RelativelyHighYield HIV is a retrovirus , which is a(n) diploid single-stranded positive sense RNA virus
+1593878731477 - HIV and HTLV-1 are both retroviruses

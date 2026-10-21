@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::04_Picornavirus_Overview (5 notas)
+1506609085427 2-RelativelyHighYield What type of viruses are picornaviruses ? Positive sense RNA
+1506609314164 1-HighYield Do picornaviruses have an envelope ? No (naked)
+1506609368498 1-HighYield What is the route of transmission of most picornaviruses ? Fecal-oral
+1506609599866 2-RelativelyHighYield Picornaviruses produce a large polyprotein product (inactive) that is cleaved into smaller subunits (active)
+1506627151740 3-HighYield-temporary Picornaviruses have viral proteases which cleave the large translated polypeptide into functional viral proteins

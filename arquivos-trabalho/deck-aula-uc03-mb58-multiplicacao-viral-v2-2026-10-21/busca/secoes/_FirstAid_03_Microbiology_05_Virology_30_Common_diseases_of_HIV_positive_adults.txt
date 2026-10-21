@@ -1,0 +1,29 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::30_Common_diseases_of_HIV-positive_adults (28 notas)
+1403292900993 1-HighYield CMV (HHV-5) is a herpesvirus that causes retinitis in HIV patients that presents with cotton-wool spots on fundoscopy
+1403295597194 1-HighYield Squamous cell carcinoma is a cancer caused by HPV in HIV patients that often presents at the anus (in MSMs) or the cervix
+1403296022011 1-HighYield Cytomegalovirus (CMV) is a herpesvirus that causes interstitial pneumonia in patients with HIV
+1493401106064 3-HighYield-temporary HPV-related cervical cancer is more common in patients with what other disease ? HIV / AIDS
+1499810433560 1-HighYield Cryptosporidium is a parasite that causes chronic watery diarrhea in immunocompromised/suppressed (e.g., HIV/AIDS) patients
+1500058721659 2-RelativelyHighYield Cryptosporidium spp. infections are often found in HIV+ patients with CD4+ cell counts < 100/mm 3
+1500233417765 2-RelativelyHighYield Candida albicans is the most common cause of opportunistic mycoses
+1500235389271 3-HighYield-temporary Candida albicans that extends from the mouth to the esophagus is known as candidal esophagitis , which is a(n) AIDS-defining illness
+1500235550523 1-HighYield What is the CD4+ count threshold for the development of candidal esophagitis ? < 100 cells/mm 3
+1500240180987 1-HighYield Invasive aspergillosis occurs due to Aspergillus fumigatus infection in immunocompromised patients
+1500244855818 3-HighYield-temporary Cryptococcus is a(n) opportunistic infection, with most symptoms occurring in immunocompromised patients (e.g., HIV+ patients, those with malignancies, high-dose steroid therapy, etc.)
+1500336907300 2-RelativelyHighYield Pneumocystis pneumonia is a(n) AIDS-defining illness that presents with a CD4+ count < 200 cells/mm 3
+1502068052536 1-HighYield The criteria for AIDS is a CD4 count < 200 cells/mm 3 or confirmed HIV status with AIDS-defining opportunistic infections such as Pneumocystis pneumonia (PCP) or Candida esophagitis
+1502068121454 1-HighYield Which AIDS-defining illness is caused directly by HIV ? Diffuse large B-cell lymphoma* (DLBCL)
+1503252081815 1-HighYield Paths of progression after primary Mycobacterium tuberculosis infection: Secondary infection, which occurs by reactivated infection due to immunosuppression ( HIV, old age, cancer, etc. )
+1503253558548 1-HighYield Exposure to Mycobacterium tuberculosis will always* result in a positive PPD test
+1503861132678 1-HighYield AIDS patients are at risk for CMV infections (e.g., retinitis, colitis, esophagitis) when their CD4+ count is < 50 cells/mm 3
+1503876044883 1-HighYield Which herpesvirus infection can result in cauda equina syndrome in HIV/AIDS patients ? CMV
+1508365955974 1-HighYield Pneumocystis jirovecii prophylaxis in HIV patients should be started at CD4 counts < 200 /mm 3 with TMP-SMX
+1509811126496 2-RelativelyHighYield Immunocompromised (e.g., HIV) and pregnant individuals are at risk of Toxoplasma gondii infection
+1516039780219 2-RelativelyHighYield Bacillary angiomatosis is a complication of Bartonella henselae in immuno compromised patients
+1516758615385 1-HighYield HHV-8 infection is common in immunocompromised patients
+1516850609790 4-LowerYield JC virus presents in immunocompromised (HIV/AIDS) patients
+1522431494251 1-HighYield Which bacterial AIDS opportunistic infection stains acid-fast ? Mycobacterium avium complex (MAC)
+1522432485269 1-HighYield Histoplasmosis prophylaxis in HIV/AIDS patients is started at CD4+ counts < 150 /mm 3 , using itraconazole
+1584730700987 4-LowerYield Microsporidium is an opportunistic cause of diarrhea in HIV patients due to distortion of villous architecture without inflammation
+1584731176047 5-LowYield Histopathologic findings of Microsporidium include small spores with a(n) diagonal or equatorial belt-like structure
+1584731244356 4-LowerYield Microsporidium is treated with albendazole for diarrhea or topical fumagillin for keratoconjunctivitis

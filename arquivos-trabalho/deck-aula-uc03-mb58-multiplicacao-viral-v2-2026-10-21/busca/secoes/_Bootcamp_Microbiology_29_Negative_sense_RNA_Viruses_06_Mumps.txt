@@ -1,0 +1,19 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::29_Negative-sense_RNA_Viruses::06_Mumps (18 notas)
+1463334113471 1-HighYield Orchitis is an inflammation of the testicle
+1463334134563 2-RelativelyHighYield What is a possible viral cause of orchitis in teenage males ? Mumps virus
+1482191438195 2-RelativelyHighYield In addition to parotitis , mumps may also present with orchitis, pancreatitis, and aseptic meningitis
+1482191440593 3-HighYield-temporary What enzyme is elevated in mumps patients due to involvement of the pancreatic or salivary glands ? α-amylase
+1482191442957 3-HighYield-temporary Orchitis due to mumps infection carries risk of sterility , especially in teenagers
+1482971327560 2-RelativelyHighYield One criteria for diagnosis of acute pancreatitis is increased serum amylase or lipase
+1506297199835 1-HighYield Which family of viruses is mumps a member of? Paramyxoviridae
+1506297317271 1-HighYield What type of vaccine is the MMR vaccine ? Live attenuated
+1506299399230 1-HighYield What are the 4 places that mumps is known to replicate? Parotid gland, testes, CNS, pancreas
+1506299510551 1-HighYield Which paramyxovirus can result in parotitis ? Mumps
+1506299652364 1-HighYield Which paramyxovirus can result in orchitis ( unilaterally )? Mumps
+1506299798295 1-HighYield Which paramyxovirus can result in aseptic meningitis ? Mumps
+1506299817676 1-HighYield Which paramyxovirus can result in pancreatitis ? Mumps
+1506299907967 1-HighYield Which viral virulence factors is mumps associated with? Hemagglutinin, F (fusion) protein, and neuraminidase
+1517182331172 - What is the likely diagnosis in an unvaccinated child that presents with fever and bilateral parotitis ? Mumps
+1517182412642 - What mumps complication occurs predominantly in post-pubertal males ? Orchitis
+1525397303331 4-LowerYield Parotitis usually presents with acute onset of firm and erythematous preauricular / postauricular swelling
+1538476945016 - Parotitis is a feature of mumps that presents with a swollen neck and parotid glands

@@ -1,0 +1,509 @@
+===== página 1 =====
+Antivirais
+Enrique Boccardo
+Depto. de Microbiologia 
+ICB/USP.
+eboccardo@usp.br
+
+===== página 2 =====
+Existem
+relativamente
+poucas
+doenças
+para
+as
+quais
+tem
+sido
+desenvolvidas drogas antivirais eficientes.
+▪Existem menos alvos “óbvios” para vírus do que para bactérias.
+▪Os diferentes tipos de vírus apresentam um conjunto próprio de
+proteínas e estratégias de replicação variadas.
+▪Alguns vírus estabelecem latência e tratamento da infecção produtiva
+não cura a doença.
+▪Diferentes vírus podem causar sintomas semelhantes, dificultando o
+diagnóstico.
+▪Para muitos vírus o tratamento só é eficiente se aplicado na fase
+inicial da infecção (quando muitas vezes não há sintomas...)
+Desenvolvimento de antivirais
+
+===== página 3 =====
+Uma molécula pode agir como antiviral se inibe alguma etapa da 
+replicação viral sem ser tóxica demais para o hospedeiro. 
+Os possíveis mecanismos de ação incluem:
+▪
+A capacidade de inativar partículas virais extracelulares.
+▪
+Prevenir a união do vírus à célula e/ou sua entrada.
+▪
+Prevenir a replicação do genoma viral.
+▪
+Prevenir a síntese/função de proteínas virais específicas.
+▪
+Prevenir a montagem e/ou liberação de novos vírions.
+Desenvolvimento de antivirais
+
+===== página 4 =====
+O ciclo dos diferentes vírus apresenta 
+etapas comuns
+▪
+Adsorção
+▪
+Penetração
+▪
+Desnudamento
+▪
+Síntese dos componentes virais:
+▪Proteínas
+▪Ácido nucléico
+▪
+Montagem
+▪
+Maturação
+▪
+Liberação
+
+===== página 5 =====
+O ciclo de cada tipo viral apresenta 
+características próprias
+HIV
+
+===== página 6 =====
+O ciclo de cada tipo viral apresenta 
+características próprias
+Influenza
+
+===== página 7 =====
+O ciclo de cada tipo viral apresenta 
+características próprias
+
+===== página 8 =====
+Inibidores de 
+adsorção e fusão
+
+===== página 9 =====
+Inibidores de fusão
+
+===== página 10 =====
+Inibidores de fusão
+Enfuvirtide
+
+===== página 11 =====
+Inibidor de entrada
+Maraviroc: inibidor de CCR5
+
+===== página 12 =====
+Inibidor do desnudamento
+
+===== página 13 =====
+Inibidor do desnudamento
+
+===== página 14 =====
+Inibidores das 
+polimerases virais
+
+===== página 15 =====
+Inibidores das polimerases virais
+Análogos de nucleotídeos 
+o de nucleosídeos.
+Não análogos de nucleotídeos 
+o de nucleosídeos.
+▪
+Servem, exclusivamente, para tipos virias que codificam 
+polimerases próprias. 
+
+===== página 16 =====
+Nucleosídeo
+Inibidores das polimerases virais
+
+===== página 17 =====
+Inibidores das polimerases virais
+Análogos de Nucleosídeos
+
+===== página 18 =====
+Inibidores das polimerases virais
+Análogos de Nucleosídeos
+
+===== página 19 =====
+Inibidores das polimerases virais
+Análogos de Nucleosídeos
+
+===== página 20 =====
+Inibidores das polimerases virais
+Análogos de Nucleosídeos
+
+===== página 21 =====
+Inibidores da DNA polimerase de 
+Herpesvírus
+
+===== página 22 =====
+Inibidores da replicação de Herpesvírus
+
+===== página 23 =====
+Inibidores das polimerases virais
+Inibidores da replicação de Herpesvírus
+
+===== página 24 =====
+Inibidores das polimerases virais
+Inibidores da replicação de Herpesvírus
+
+===== página 25 =====
+Inibidores das polimerases virais
+Inibidores da replicação de Herpesvírus
+Foscarnet
+
+===== página 26 =====
+Inibidores da DNA polimerase de 
+Retrovírus
+
+===== página 27 =====
+Análogos de nucleosídeos.
+Inibidores da transcriptase reversa
+Inibidores da replicação de Retrovírus
+
+===== página 28 =====
+Análogos de nucleosídeos.
+Inibidores da transcriptase reversa
+Inibidores da replicação de Retrovírus
+
+===== página 29 =====
+Análogos de nucleosídeos.
+Inibidores da transcriptase reversa
+Inibidores da replicação de Retrovírus
+
+===== página 30 =====
+Inibidores da transcriptase reversa
+Inibidores da replicação de Retrovírus
+
+===== página 31 =====
+Não análogos de nucleosídeos.
+Inibidores da transcriptase reversa
+Inibidores da replicação de Retrovírus
+
+===== página 32 =====
+Inibidores da transcriptase reversa
+Inibidores da replicação de Retrovírus
+
+===== página 33 =====
+Inibidores da RNA polimerase de 
+flavivírus
+
+===== página 34 =====
+Inibidores da RNA polimerase dependente de RNA 
+(replicase inhibitors)
+Inibidores da NS5B de HCV
+
+===== página 35 =====
+Inibidores da NS5B de HCV análogos de nucleosídeos
+Inibidores da RNA polimerase dependente de RNA 
+(replicase inhibitors)
+Ribavirina
+
+===== página 36 =====
+Inibidores da NS5B de HCV NÃO análogos de nucleosídeos
+Inibidores da RNA polimerase dependente de RNA 
+(replicase inhibitors)
+
+===== página 37 =====
+Único sítio de ligação de 
+inibidores da replicase 
+análogos de nucleosídeos
+Existem 4 sítios de ligação de 
+inibidores da replicase NÃO 
+análogos de nucleosídeos
+Inibidores da RNA polimerase dependente de RNA 
+(replicase inhibitors)
+
+===== página 38 =====
+Inibidores de outras 
+enzimas virais
+
+===== página 39 =====
+Inibidores da integrase de HIV
+
+===== página 40 =====
+Inibidores da replicação de Herpesvírus
+
+===== página 41 =====
+Inibidores da replicação de Herpesvírus
+RIBONUCLEOTIDE 
+REDUCTASE
+
+===== página 42 =====
+Inibidores do brotamento
+Influenza
+
+===== página 43 =====
+Inibidores do brotamento
+HA
+NA
+Influenza
+
+===== página 44 =====
+Inibidores da endonuclease de influenza
+▪
+Baloxavir (aprovado em 2018)
+
+===== página 45 =====
+Inibidores de proteases
+
+===== página 46 =====
+Inibidores de Protease
+▪
+Alguns vírus, por exemplo Retrovírus e Flavivírus produzem poliproteínas 
+que precisam ser processadas.
+HCV
+
+===== página 47 =====
+doi:10.1038/nrmicro3490 
+HIV
+
+===== página 48 =====
+Inibidores de Protease 
+
+===== página 49 =====
+Inibidores de Protease
+
+===== página 50 =====
+Inibidores de Protease
+darunavir
+
+===== página 51 =====
+Resumindo...
+
+===== página 52 =====
+Outros inibidores...
+
+===== página 53 =====
+É possível criar um antiviral de amplo espectro?
+
+===== página 54 =====
+LJ001
+É possível criar um antiviral de amplo espectro?
+
+===== página 55 =====
+LJ001
+É possível criar um antiviral de amplo espectro?
+
+===== página 56 =====
+É possível criar um antiviral de amplo espectro?
+Molecules 2022, 27(23), 8353;https://doi.org/10.3390/molecules27238353
+
+===== página 57 =====
+Duas histórias de 
+sucesso.
+
+===== página 58 =====
+▪
+Várias atividades enzimáticas.
+Vírus da Hepatite C
+
+===== página 59 =====
+Gastroenterol Hepatol (N Y). 2017 Jan;13(1):22-31.
+Vírus da Hepatite C
+
+===== página 60 =====
+Vírus da Hepatite C
+
+===== página 61 =====
+Evolução das terapias: Maior eficâcia.
+sustained virologic response (SVR) – RNA de HCV não detectável 
+após 24 semanas de finalizado o tratamento.
+dx.doi.org/10.5772/66719
+Vírus da Hepatite C
+
+===== página 62 =====
+Evolução das terapias: menor tempo.
+Vírus da Hepatite C
+
+===== página 63 =====
+HAART Highly active antiretroviral therapy
+HIV
+
+===== página 64 =====
+▪
+Drogas anti-retrovirais que inibem a reprodução do HIV no
+sangue;
+▪
+Terapia anti-retroviral, também chamada de coquetel;
+▪
+Atualmente, são dezenas de medicamentos divididos em
+cinco classes.
+HAART Highly active antiretroviral therapy
+
+===== página 65 =====
+▪
+inibidores
+de
+transcriptase
+reversa
+análogos
+de
+nucleosídeos
+▪
+inibidores de transcriptase reversa não análogos de
+nucleosídeos
+▪
+Inibidores de protease
+▪
+Inibidores de fusão
+▪
+Inibidores da integrase
+HAART Highly active antiretroviral therapy
+
+===== página 66 =====
+HAART Highly active antiretroviral therapy
+
+===== página 67 =====
+HAART Highly active antiretroviral therapy
+
+===== página 68 =====
+
+===== página 69 =====
+HAART Highly active antiretroviral therapy
+
+===== página 70 =====
+CD4+
+HAART
+HAART Highly active antiretroviral therapy
+
+===== página 71 =====
+Terapia combinada:
+▪
+três inibidores da transcriptase reversa;
+▪
+dois inibidores da transcriptase reversa e um inibidor de
+protease.
+HAART Highly active antiretroviral therapy
+Terapia combinada
+PrEP e PEP
+
+===== página 72 =====
+Duas Histórias de 
+sucesso...
+Por quê apenas 
+duas?
+
+===== página 73 =====
+O desenvolvimento de Antivirais é lento e caro
+▪
+Não existem modelos experimentais para alguns vírus.
+▪
+Alguns vírus são muito perigosos para trabalhar.
+▪
+O antiviral precisa ser potente (atividade parcial não é aceitável).
+▪
+Biodisponibilidade.
+▪
+Farmacocinética.
+▪
+Segurança.
+Prova de conceito
+
+===== página 74 =====
+O desenvolvimento de Antivirais é lento e caro
+
+===== página 75 =====
+O desenvolvimento de Antivirais é lento e caro
+Segurança
+Eficácia
+Efeitos colaterais, 
+superioridade
+
+===== página 76 =====
+O desenvolvimento de Antivirais é lento e caro
+▪
+Poucos fármacos antivirais disponíveis.
+
+===== página 77 =====
+O desenvolvimento de Antivirais é lento e caro
+▪
+Poucos fármacos antivirais disponíveis.
+
+===== página 78 =====
+Duas Histórias de 
+sucesso...
+E a Covid-19?
+
+===== página 79 =====
+17/10/2023 --- 9585 clinical trials registrados 
+(finalizados, em andamento, etc).
+Fármacos para tratamento de 
+covid-19
+
+===== página 80 =====
+Approved Drugs
+Actemra (Tocilizumab) is approved for the treatment of COVID-19 in hospitalized 
+adults who are receiving systemic corticosteroids and require supplemental oxygen, 
+non-invasive or invasive mechanical ventilation, or extracorporeal membrane 
+oxygenation (ECMO).
+Veklury (Remdesivir) is approved for the treatment of COVID-19 in adults and 
+pediatric patients (28 days of age and older and weighing at least 3 kilograms) with 
+positive results of direct SARS-CoV-2 viral testing, who are: hospitalized, or not 
+hospitalized and have mild-to-moderate COVID-19 and are at high risk for 
+progression to severe COVID-19, including hospitalization or death.
+• Health care Provider Preparation and Storage Information (PDF - 359 KB)
+Olumiant (baricitinib) is approved for the treatment of COVID-19 in hospitalized 
+adults requiring supplemental oxygen, non-invasive or invasive mechanical 
+ventilation, or extracorporeal membrane oxygenation (ECMO).
+Fármacos aprovados para tratamento de covid-19
+https://www.fda.gov/drugs/emergency-preparedness-drugs/coronavirus-covid-19-drugs
+
+===== página 81 =====
+Fármacos aprovados para tratamento de covid-19
+https://doi.org/10.1186/s12967-020-02339-3
+
+===== página 82 =====
+Fármacos aprovados para tratamento de covid-19
+https://doi.org/10.3389/fimmu.2022.830990
+
+===== página 83 =====
+Fármacos aprovados para tratamento de covid-19
+Cells 2020, 9(8), 1876; https://doi.org/10.3390/cells9081876
+
+===== página 84 =====
+Fármacos aprovados para uso emergencial no 
+tratamento de covid-19
+Antiviral Drugs
+Antiviral drugs are prescription medicines (pills, liquid, an inhaled powder, or an intravenous solution) that 
+fight against viruses in your body.
+•Paxlovid (nirmatrelvir and ritonavir)
+•Lagevrio (molnupiravir)
+As noted above, Veklury (remdesivir) is approved for the treatment of COVID-19 in adults and pediatric 
+patients (28 days of age and older and weighing at least 3 kilograms) with positive results of direct SARS-
+CoV-2 viral testing, who are: hospitalized, or not hospitalized and have mild-to-moderate COVID-19 and are 
+at high risk for progression to severe COVID-19, including hospitalization or death.
+Immune Modulators
+Immune modulators are a category of drugs that help activate, boost, or suppress the immune function. In 
+the case of COVID-19 infection, the immune system can become hyperactive which may result in worsening 
+of disease. Immune modulators can help suppress this hyperinflammation. 
+•Kineret (anakinra) is authorized for the treatment of COVID-19 in hospitalized adults with pneumonia 
+requiring supplemental oxygen (low- or high-flow oxygen) who are at risk of progressing to severe 
+respiratory failure and likely to have an elevated plasma soluble urokinase plasminogen activator receptor 
+(suPAR).
+•Olumiant (baricitinib) is authorized for the treatment of COVID-19 in pediatric patients 2 to less than 18 
+years of age requiring supplemental oxygen, invasive mechanical ventilation, or extracorporeal membrane 
+oxygen (ECMO).
+•Actemra (tocilizumab) is authorized for the treatment of COVID-19 in hospitalized pediatric patients 2 to 
+less than 18 years of age who are receiving systemic corticosteroids and require supplemental oxygen, non-
+invasive or invasive mechanical ventilation, or extracorporeal membrane oxygenation (ECMO).
+As noted above, Olumiant (baricitinib) is approved for the same indication for hospitalized adult patients.
+
+===== página 85 =====
+▪
+Novas drogas devem ser desenvolvidas.
+▪
+Novas estratégias devem ser implementadas.
+▪
+Medidas “simples”, porém efetivas podem ser aplicadas.
+▪
+Imiquimod, Interferon...
+PREVENÇÃO
+ANTIVIRAIS
+
+===== página 86 =====
+Entender melhor o ciclo viral e seus componentes em termos 
+moleculares permitirá desenvolver drogas mais eficientes
+
+===== página 87 =====
+Obrigado!!!

@@ -1,0 +1,47 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::07_Herpesvirus_Family_Overview (46 notas)
+1403140255270 1-HighYield Infectious mononucleosis due to EBV infection presents with fever , hepatosplenomegaly , pharyngitis , and lymphadenopathy
+1403140930710 1-HighYield Which herpesvirus is associated with nasopharyngeal carcinoma ? EBV (HHV-4)
+1403140946098 1-HighYield Which herpesvirus causes mononucleosis with a negative monospot test ? CMV (HHV-5)
+1403141234206 1-HighYield Which herpesvirus is associated with causing retinitis in immunocompromised patients? CMV (HHV-5)
+1403141305744 1-HighYield CMV is a herpesvirus that is latent in mononuclear cells
+1480564049214 1-HighYield What initial test is commonly used to diagnose infectious mononucleosis ? Monospot test
+1480564116452 2-RelativelyHighYield Epstein-Barr virus (EBV) remains dormant in B cells , which increases risk for lymphoma , especially if immunodeficiency develops (e.g., HIV )
+1480876352406 3-HighYield-temporary Ramsay Hunt syndrome is a combination of herpes zoster (shingles) and facial nerve palsy
+1481335625688 1-HighYield Reed-Sternberg cells are large B cells with multilobed nuclei and prominent nucleoli ("owl eye" appearance)
+1488680064613 - Erythema multiforme is a blistering skin disorder most commonly associated with HSV infection
+1489345373426 1-HighYield Aminopenicillins can cause a(n) maculopapular rash if given in the setting of viral illnesses , such as EBV infectious mononucleosis
+1502151766002 3-HighYield-temporary Herpes simplex virus (HSV) is a(n) icosahedral linear enveloped dsDNA virus
+1502152318872 1-HighYield Cowdry bodies are eosino philic intra nuclear inclusions found in cells infected with organisms within the herpesviridae family
+1502152518263 1-HighYield Transmission of herpes simplex virus (HSV) typically occurs via direct contact (e.g., saliva , sex ), but can rarely be transmitted vertically through the placenta
+1502153188370 1-HighYield HSV-1 is associated with temporal lobe encephalitis
+1502153397982 1-HighYield HSV-1 remains latent in the trigeminal ganglion
+1502154338212 1-HighYield HSV-2 remains latent in the sacral ganglia
+1502154470259 1-HighYield HSV-2 commonly causes herpes genitalis
+1503853224031 1-HighYield Epstein-Barr virus is part of the herpesviridae family
+1503853375663 2-RelativelyHighYield Epstein-Barr virus is icosahedral
+1503853483744 1-HighYield Epstein-Barr virus causes monospot positive infectious mononucleosis
+1503854748516 1-HighYield Epstein-Barr virus remains latent in B cells
+1503857897067 1-HighYield Cytomegalovirus (CMV) is part of the herpesviridae family
+1503858297868 3-HighYield-temporary Cytomegalovirus (CMV) is icosahedral
+1503858318113 3-HighYield-temporary Cytomegalovirus (CMV) is enveloped
+1503858331520 3-HighYield-temporary Cytomegalovirus (CMV) is linear
+1503858394947 1-HighYield Which herpesvirus remains latent in mononuclear cells (e.g., macrophages)? CMV
+1503861947945 1-HighYield CMV can present with basophilic intranuclear inclusion bodies said to look like a(n) "owl's eye"
+1506289803741 1-HighYield Which family of viruses does varicella-zoster virus (VZV) belong to? Herpesviridae family (HHV-3)
+1506289877609 3-HighYield-temporary Does VZV have an envelope ? Yes
+1506289961398 2-RelativelyHighYield What is the etiology of chickenpox ? Varicella-zoster virus (VZV)
+1506290032333 1-HighYield What is the etiology of shingles ? Varicella-zoster virus (VZV)
+1506290110292 1-HighYield What is the route of transmission of VZV ? Airborne transmission
+1506290563519 5-LowYield A(n) Tzanck smear showing multinucleated giant cells is characteristic of infections with VZV, HSV, and CMV
+1506291111598 1-HighYield Where does varicella zoster virus (VZV) remain latent ? Dorsal root ganglia (DRG)
+1506291332792 1-HighYield Reactivation of VZV results in herpes zoster (shingles)
+1506291800608 2-RelativelyHighYield Which cranial nerve is classically affected by VZV ? Trigeminal (CN V), specifically ophthalmic (V 1 ) branch
+1506292648156 3-HighYield-temporary What complication can occur with VZV infection in pregnancy ? Congenital varicella syndrome
+1516754449460 1-HighYield HHV-6 is part of the herpesviridae family
+1516754501339 1-HighYield Which herpesviruses can cause roseola ? HHV-6, HHV-7
+1516754883827 1-HighYield Roseola is the most common cause of febrile seizures in children
+1516755333581 1-HighYield Roseola is caused by a DNA virus and presents with a rash that starts on the trunk and sometimes spreads to the face and/or extremities
+1516758512785 1-HighYield HHV-8 is part of the herpesviridae family
+1516758615385 1-HighYield HHV-8 infection is common in immunocompromised patients
+1516758767964 2-RelativelyHighYield Kaposi sarcoma presents with violaceous lesions on the lower extremities, face (especially the nose), and oral mucosa
+1517087377439 - Patients with infectious mononucleosis often develop a maculopapular rash after administration of ampicillin or amoxicillin

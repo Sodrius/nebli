@@ -1,0 +1,30 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::15_Cytomegalovirus_Diagnostics_and_Management (29 notas)
+1403141269124 1-HighYield Which herpesvirus is associated with characteristic owl's eye inclusions in infected cells? CMV (HHV-5)
+1480564059776 4-LowerYield A(n) negative monospot test with symptoms of infectious mononucleosis suggests CMV infection
+1503858897040 1-HighYield CMV is the most common congenital infection (developed world)
+1503859400556 1-HighYield Severe, permanent symptoms of congenital CMV infection are remembered via the mnemonic MR DICS
+1503859471229 1-HighYield Severe, permanent symptoms of congenital CMV infection are remembered via the mnemonic " MR DICS ": M icrocephaly R estricted intellectual ability (intellectual disability) D eafness (sensorineural) I
+1503859783856 1-HighYield Congenital CMV can result in ventriculo megaly on head CT scans
+1503860252510 1-HighYield What percentage of neonates congenitally infected with CMV are asymptomatic ? 80 - 90%
+1503860387956 1-HighYield Which trimester is associated with the highest risk of congenital CMV ? 1 st trimester*
+1503860698382 1-HighYield What is the most common cause of viral-associated intellectual disability (in the US)? CMV
+1503860790725 1-HighYield CMV is the most common cause of sensorineural hearing loss in neonates
+1503860997330 4-LowerYield How is CMV detected in organ transplant patients? Buffy coat culture (WBCs)
+1503861947945 1-HighYield CMV can present with basophilic intranuclear inclusion bodies said to look like a(n) "owl's eye"
+1503862129351 1-HighYield Treatment for CMV includes ganciclovir, valganciclovir, or foscarnet / cidofovir
+1503862237067 1-HighYield Foscarnet or cidofovir are used to treat ganciclovir-resistant CMV infections
+1506727458246 4-LowerYield Ganciclovir is converted to ganciclovir monophosphate by virus-encoded kinases via the UL-97 gene
+1506727517347 4-LowerYield Ganciclovir monophosphate is eventually converted to ganciclovir tri phosphate by cellular kinases
+1506727932519 1-HighYield Ganciclovir and valganciclovir are commonly used to treat CMV
+1506728026109 1-HighYield Which antivirals are used during solid-organ and bone marrow transplant ? Ganciclovir or valganciclovir
+1506728145227 3-HighYield-temporary Ganciclovir and valganciclovir are used as prophylaxis of CMV retinitis in immunocompromised patients
+1506728477701 4-LowerYield CMV can gain resistance to ganciclovir via mutations in the UL-97 gene
+1506728618047 3-HighYield-temporary What drugs do not require phosphorylation via CMV viral kinase ? Foscarnet, cidofovir
+1509812407208 1-HighYield Congenital toxoplasmosis presents as chorioretinitis , hydrocephalus, and diffuse intracranial calcifications
+1509812483336 2-RelativelyHighYield Congenital toxoplasmosis presents with chorioretinitis , characterized by white/yellow scars on the retina
+1509812536651 4-LowerYield Congenital toxoplasmosis presents with hydrocephalus , characterized by seizures
+1509812584503 2-RelativelyHighYield Congenital toxoplasmosis presents with diffuse intracranial calcifications , characterized by ring-enhancing lesions
+1516240784064 1-HighYield Which congenital DNA viral infection can present with blueberry muffin rash ? Congenital CMV
+1516557104772 2-RelativelyHighYield Transplacental transmission of Zika virus can result in miscarriage or congenital Zika syndrome , which is characterized by microcephaly , ocular anomalies , and motor abnormalities (e.g., spasticity,
+1523302570736 - What is the most commonly acquired congenital infection ? Cytomegalovirus (CMV)
+1548548479271 - Severe microcephaly with thin cerebral cortices and multiple intracranial calcifications is suggestive of congenital Zika syndrome

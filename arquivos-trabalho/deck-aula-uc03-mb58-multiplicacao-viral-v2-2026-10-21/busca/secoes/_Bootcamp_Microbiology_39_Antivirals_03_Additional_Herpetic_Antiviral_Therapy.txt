@@ -1,0 +1,29 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::03_Additional_Herpetic_Antiviral_Therapy (28 notas)
+1403635898739 3-HighYield-temporary What is the mechanism of resistance to acyclovir / famciclovir / valacyclovir ? Mutated / absent thymidine kinase
+1403636336526 2-RelativelyHighYield Foscarnet is an antiviral agent that acts as a viral DNA/RNA polymerase inhibitor by binding to the pyrophosphate -binding site of the enzyme
+1403636599345 3-HighYield-temporary What is the mechanism of action of cidofovir ? Preferential direct inhibition of viral DNA polymerase
+1503862129351 1-HighYield Treatment for CMV includes ganciclovir, valganciclovir, or foscarnet / cidofovir
+1503862237067 1-HighYield Foscarnet or cidofovir are used to treat ganciclovir-resistant CMV infections
+1506724574195 4-LowerYield Absence of thymidine kinase confers resistance to acyclovir in HSV
+1506724662638 2-RelativelyHighYield Which viral DNA-polymerase inhibitors do not require thymidine kinase to become active? Cidofovir, foscarnet
+1506726911137 3-HighYield-temporary Ganciclovir and valganciclovir are guanosine analogs
+1506727367546 4-LowerYield Ganciclovir must be phosphorylated three times by intracellular enzymes to reach its activated nucleo tide form
+1506727458246 4-LowerYield Ganciclovir is converted to ganciclovir monophosphate by virus-encoded kinases via the UL-97 gene
+1506727517347 4-LowerYield Ganciclovir monophosphate is eventually converted to ganciclovir tri phosphate by cellular kinases
+1506727746723 3-HighYield-temporary Ganciclovir triphosphate incorporates into viral DNA, inhibiting viral DNA-dependent DNA polymerase
+1506727932519 1-HighYield Ganciclovir and valganciclovir are commonly used to treat CMV
+1506728026109 1-HighYield Which antivirals are used during solid-organ and bone marrow transplant ? Ganciclovir or valganciclovir
+1506728145227 3-HighYield-temporary Ganciclovir and valganciclovir are used as prophylaxis of CMV retinitis in immunocompromised patients
+1506728209338 3-HighYield-temporary Leukopenia (neutropenia), anemia , and thrombocytopenia are hematological complications of ganciclovir
+1506728275842 3-HighYield-temporary Ganciclovir and valganciclovir are associated with bone marrow suppression
+1506728366567 4-LowerYield The myelosuppression of ganciclovir may be additive in patients receiving zidovudine
+1506728477701 4-LowerYield CMV can gain resistance to ganciclovir via mutations in the UL-97 gene
+1506728618047 3-HighYield-temporary What drugs do not require phosphorylation via CMV viral kinase ? Foscarnet, cidofovir
+1506728737669 2-RelativelyHighYield What drug is a pyrophosphate analog that directly inhibits viral DNA polymerase ? Foscarnet
+1506728778366 1-HighYield Foscarnet may induce renal insufficiency
+1506729142794 2-RelativelyHighYield Which ion imbalances are associated with foscarnet administration? Hypomagnesemia Hypokalemia Hypocalcemia
+1506729447433 1-HighYield Which antiviral can cause seizures due to electrolyte disturbances ? Foscarnet
+1506729713312 3-HighYield-temporary Resistance to cidofovir and foscarnet occurs with mutations to viral DNA polymerase
+1506729756413 2-RelativelyHighYield Cidofovir is an antiviral drug that is nephro toxic
+1506729916529 4-LowerYield What is administered with cidofovir to reduce its nephrotoxicity ? IV saline; probenecid
+1506729986793 3-HighYield-temporary What drug blocks tubular secretion of cidofovir ? Probenecid

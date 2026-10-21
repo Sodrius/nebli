@@ -1,0 +1,37 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::21_Rubella (36 notas)
+1403393439364 2-RelativelyHighYield Rubella , Toxoplasma , and CMV are three ToRCHHeS VP infections that are associated with a " blueberry muffin " rash
+1503859164364 2-RelativelyHighYield The blueberry muffin rash of CMV and rubella is due to dermal erythropoiesis
+1516237632309 2-RelativelyHighYield What type of viruses are togaviruses ? Positive sense RNA
+1516237852309 3-HighYield-temporary Arboviruses are a class of viruses that have arthropod vectors
+1516238131776 3-HighYield-temporary Any virus that is transmitted by mosquitoes , fleas , or ticks is said to be a(n) arbovirus
+1516238226677 2-RelativelyHighYield Arboviruses all cause encephalitis and fever
+1516238643613 4-LowerYield Arboviruses present with symptoms such as fever , altered mental status , seizures, and cranial nerve palsies
+1516238912777 2-RelativelyHighYield Rubella is part of the Matonaviridae* family
+1516239091577 2-RelativelyHighYield Which virus is also known as German measles (3-day measles)? Rubella
+1516239124209 1-HighYield Which matonavirus is a childhood exanthem ? Rubella
+1516239246402 2-RelativelyHighYield Is rubella enveloped ? Yes
+1516239274326 3-HighYield-temporary Are togaviruses enveloped ? Yes
+1516239291731 1-HighYield Rubella is a positive-sense RNA virus that causes tender posterior auricular and suboccipital lymphadenopathy
+1516239548476 1-HighYield Rubella is a positive sense RNA virus that presents with a rash that starts on the face and moves down wards
+1516239698761 2-RelativelyHighYield Which RNA virus presents with rash of 3-days duration? Rubella
+1516239790788 1-HighYield What is the mode of transmission of rubella ? Respiratory droplets, transplacentally
+1516239825098 1-HighYield Which matonavirus can travel transplacentally ? Rubella
+1516239955276 1-HighYield Congenital rubella infection is characterized by a classic triad of cataracts, patent ductus arteriosus, and sensorineural hearing loss
+1516240153580 3-HighYield-temporary Congenital rubella cardiac symptoms are characterized by patent ductus arteriosus (PDA) and/or pulmonary artery stenosis
+1516240313855 2-RelativelyHighYield Congenital rubella is characterized by a(n) "blueberry muffin" rash
+1516240829751 3-HighYield-temporary Congenital rubella is characterized by jaundice of the skin
+1516240905557 3-HighYield-temporary Which form of rubella presents with cataracts ? Congenital
+1516240977236 3-HighYield-temporary Which form of rubella presents with sensorineural deafness ? Congenital
+1516240991503 3-HighYield-temporary Which form of rubella presents with valvular pathologies ? Congenital
+1516241020438 3-HighYield-temporary Which form of rubella presents with arthritis ? Adult
+1516241054704 1-HighYield What vaccine is available for rubella ? MMR (live attenuated)
+1516241149541 1-HighYield The MMR vaccine can be given to HIV+ patients with CD4 counts ≥ 200 cells/mm 3
+1516241378011 1-HighYield What demographic should increase your suspicion of possible rubella infection? Patients without vaccinations (e.g., immigrants, anti-vaxxers)
+1516241552626 2-RelativelyHighYield What is the incubation period of rubella ? 2 - 3 weeks
+1516241643109 1-HighYield Congenital rubella occurs with infection during the first trimester(s)
+1516317291494 4-LowerYield Congenital rubella is characterized by intellectual disability
+1516317335536 2-RelativelyHighYield Congenital rubella is characterized by microcephaly
+1516317385436 4-LowerYield Congenital rubella is characterized by radiolucent bone lesions
+1516755493601 1-HighYield Does the rash of rubella affect the face ? Yes
+1516757959004 1-HighYield Which childhood exanthem is known as third disease ? Rubella
+1537381761281 2-RelativelyHighYield MMRV and influenza ( intranasal ) vaccines are contraindicated in immunodeficient and pregnant patients

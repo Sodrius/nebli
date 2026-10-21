@@ -1,0 +1,29 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::04_Poliovirus (28 notas)
+1480549830807 1-HighYield Poliovirus infection causes selective destruction of lower motor neurons
+1480549839004 1-HighYield Which horn of the spinal cord is most affected by poliovirus infection ? Ventral (anterior) horn
+1480549844650 1-HighYield Which spinal cord levels are most commonly affected by poliovirus ? Lumbar levels
+1480549851019 1-HighYield Does poliomyelitis present with symmetric or asymmetric weakness ? Asymmetric
+1480549859622 1-HighYield Poliomyelitis presents with bi lateral weakness
+1480549863644 2-RelativelyHighYield What infection can cause this spinal cord lesion ? Poliovirus
+1480549867867 2-RelativelyHighYield Poliovirus may be recovered from the stool or throat , even before the onset of illness
+1481771666061 2-RelativelyHighYield Viral meningitis is associated with increased lymphocytes in the CSF
+1481771670798 2-RelativelyHighYield Viral meningitis is associated with normal or increased protein in the CSF
+1481771676213 2-RelativelyHighYield Viral meningitis is associated with normal glucose in the CSF
+1516217887063 2-RelativelyHighYield Poliovirus is part of the picornaviridae family
+1516218038369 2-RelativelyHighYield What type of virus is poliovirus ? Positive sense RNA
+1516218073027 2-RelativelyHighYield Is poliovirus enveloped ? No (naked)
+1516218404816 3-HighYield-temporary Poliovirus is acid-stable
+1516218470870 1-HighYield What is the route of transmission of poliovirus ? Fecal-oral
+1516218603898 2-RelativelyHighYield Poliovirus replicates in the tonsils of the oropharynx
+1516218816170 2-RelativelyHighYield Poliovirus replication within lymphoid tissue takes 2 - 3 weeks
+1516218866700 1-HighYield Which virus affects LMNs of the anterior horn ? Poliovirus
+1516219145757 3-HighYield-temporary Poliovirus can cause respiratory insufficiency
+1516219245653 1-HighYield Poliovirus causes decreased deep tendon reflexes
+1516219290703 1-HighYield Which virus can cause respiratory insufficiency and decreased DTRs ? Poliovirus
+1516219383663 2-RelativelyHighYield Poliovirus is a rare cause of aseptic (viral) meningitis
+1516219470210 1-HighYield Which poliovirus vaccine is inactivated / killed ? Salk
+1516219553378 1-HighYield Which poliovirus vaccine is live attenuated ? Sabin
+1516219597269 1-HighYield What is the method of administration of the Salk vaccine ? Intramuscular (injection)
+1516219693333 1-HighYield What is the route of administration of the Sabin vaccine ? Orally
+1516219902653 3-HighYield-temporary Which form of poliovirus vaccine is administered in the U.S. ? Inactivated Polio vaccine (IPV)
+1691516524186 1-HighYield Inactivated / killed vaccines may be remembered with the mnemonic " A TRIP could kill Y ou"

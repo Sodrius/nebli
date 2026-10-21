@@ -1,0 +1,46 @@
+# #AK_Step1_v12::#SketchyMicro::03_Viruses::03_DNA::08_Human_Papillomavirus_(Papillomaviridae) (45 notas)
+1385334070939 5-LowYield A(n) sinonasal papilloma is a benign tumor of the squamous mucosa of the sinuses that is thought to be due to HPV infection
+1385335260100 1-HighYield Laryngeal papillomas are benign papillary squamous proliferations commonly found on the true vocal cords ; they are associated with HPV 6 and HPV 11
+1385335604751 1-HighYield Koilocytes have characteristic perinuclear halos that are hallmarks of HPV infections
+1394068322402 1-HighYield Condylomata acuminata are most commonly caused by HPV 6 or HPV 11
+1394068945521 3-HighYield-temporary What type(s) of HPV are the cause of HPV-related vulvar carcinoma ? High-risk HPVs (16, 18, 31, 33)
+1394069562561 2-RelativelyHighYield Which type of vulvar carcinoma is typically seen in women of reproductive age ? HPV-related
+1394134318361 1-HighYield What is the most common cause of vaginal carcinoma? High-risk HPV subtypes (16, 18, 31, 33)
+1394239349572 1-HighYield Cervical intraepithelial neoplasia (CIN) is a dysplastic pre-cancerous lesion of the cervix that commonly manifests following the loss of the tumor suppressors p53 and Rb following HPV infection
+1394239958498 1-HighYield What are the most common types of high-risk HPV ? HPV 16, HPV 18
+1394240219632 1-HighYield What are the most common types of low-risk HPV ? HPV 6, HPV 11
+1394240399533 1-HighYield What is the most common type of cervical carcinoma ? Squamous cell carcinoma (80%)
+1394240523986 1-HighYield What is the gold standard procedure for screening for cervical carcinoma ? Pap smear
+1394240978725 1-HighYield Which major subtypes of HPV are covered by the current vaccine (Gardasil 9)? HPV 6, 11, 16, 18, 31, 33
+1394241705535 3-HighYield-temporary What are the 4 most common HPV subtypes that cause CIN and cervical carcinoma ? HPV 16, 18, 31, 33 (high-risk HPV)
+1394242185928 3-HighYield-temporary What is the cancer risk associated with HPV 42-44 ? Low
+1394242887061 1-HighYield What urogenital disorders are associated with low-risk HPV subtypes? Condylomata / warts
+1394242914870 1-HighYield Koilocytes are a cytologic feature of HPV infected cells and involve a nucleus with a ' raisin-like ' shape
+1394388562593 1-HighYield What is the most common risk factor for squamous cell carcinoma of the penis ? High-risk HPV [16, 18, 31, 33] (66% of cases)
+1394388597280 2-RelativelyHighYield Besides high-risk HPV, what is the second greatest risk factor for squamous cell carcinoma of the penis ? Lack of circumcision and poorly maintained foreskin
+1395340470032 1-HighYield Cutaneous warts (verrucae vulgaris) are soft, flesh-colored, cauliflower-like papules that appear on the skin due to HPV infection of keratinocytes
+1395340559909 1-HighYield What is the cause of cutaneous warts (verruca vulgaris) ? HPV 1 - 4 infection of keratinocytes
+1403295597194 1-HighYield Squamous cell carcinoma is a cancer caused by HPV in HIV patients that often presents at the anus (in MSMs) or the cervix
+1403398790620 2-RelativelyHighYield Condylomata acuminata is an STI caused by HPV 6 or HPV 11 that presents with anogenital warts and koilocytes
+1405375421095 3-HighYield-temporary Which strains of HPV are most associated with cervical dysplasia or carcinoma in situ ? HPV 16 and HPV 18
+1463093999696 2-RelativelyHighYield Condylomata acuminata are warty neoplasms of genital skin, often caused by low-risk HPV strains , and are often large
+1463094113348 1-HighYield The following image shows koilocytic change , which appears as a wrinkled nucleus and is characteristic of HPV infection
+1463105909117 1-HighYield High-risk HPV strains produce E6 protein, which increases destruction of p53
+1463105915437 1-HighYield High-risk HPV strains produce E7 protein, which increases destruction of Rb (specifically p105-Rb)
+1473536901570 2-RelativelyHighYield Laryngeal papillomas are usually multiple lesions in children
+1473536917642 2-RelativelyHighYield Laryngeal papillomas may have a(n) koilocytic change on biopsy
+1474503557098 1-HighYield What virus is oropharyngeal carcinoma associated with? HPV-16
+1482692038702 3-HighYield-temporary What viruses fall under Papillomaviruses ? HPV
+1482695309037 1-HighYield A buzz phrase for cervical cancer is postcoital bleeding
+1488680609189 - Which infectious skin disorder presents as flesh-colored papules with a rough surface ? Cutaneous warts (verruca vulgaris)
+1488983947990 1-HighYield What are the three distinct etiologies of oral cancer ? Tobacco, alcohol use, human papilloma virus (HPV)
+1488984010465 3-HighYield-temporary What infection is associated with cancer of the tonsil, base of the tongue , and oropharynx ? HPV
+1493217821853 1-HighYield HPV has a predilection for what type of epithelium ? Stratified squamous epithelium
+1493218180866 3-HighYield-temporary HPV infects the true vocal cords in the respiratory tract which causes laryngeal papillomatosis
+1493398712106 1-HighYield What are four characteristics of human papillomavirus (HPV) itself? Non-enveloped (naked) Icosahedral Circular dsDNA
+1493400683960 2-RelativelyHighYield Which type of genome do papilloma viruses have? Circular
+1493401106064 3-HighYield-temporary HPV-related cervical cancer is more common in patients with what other disease ? HIV / AIDS
+1493401263241 1-HighYield What do the vaccines for HPV 6, 11, 16, 18, target? Capsid proteins of the virus
+1494087380814 3-HighYield-temporary What type(s) of HPV encode for the proteins E6 and E7? High-risk HPVs (16, 18, 31, 33)
+1502718274711 1-HighYield Which layer of the epithelium does HPV infect? Stratum basale
+1546545292523 - High-risk HPV (oncogenic virus) is associated with adenocarcinoma of the cervix and squamous cell carcinoma of the vulva , vagina , anus , and cervix

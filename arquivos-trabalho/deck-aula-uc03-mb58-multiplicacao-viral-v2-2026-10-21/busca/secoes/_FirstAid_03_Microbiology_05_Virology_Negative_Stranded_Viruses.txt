@@ -1,0 +1,11 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::*Negative-Stranded_Viruses (10 notas)
+1506297103030 2-RelativelyHighYield What type of viruses are paramyxoviruses ? Negative sense RNA
+1506297222604 1-HighYield Which family of viruses does respiratory syncytial virus (RSV) belong to? Pneumoviridae* (negative sense RNA)
+1516320758799 2-RelativelyHighYield What type of viruses are orthomyxoviruses ? Negative sense RNA
+1516320850504 2-RelativelyHighYield Negative sense RNA viruses produce their own RNA polymerase to transcribe into positive sense RNA
+1516473067952 2-RelativelyHighYield What type of virus is rhabdovirus ? Negative sense RNA
+1516557238677 4-LowerYield What type of viruses are filoviruses ? Negative sense RNA
+1516558391491 4-LowerYield What type of viruses are bunyaviruses? Negative sense RNA
+1516663616586 5-LowYield Which group of viruses have a single strand of RNA that is both positive and negative (ambisense) ? Arenaviruses
+1516663723276 4-LowerYield Arenaviruses are classified as negative* sense RNA viruses
+1516665187703 2-RelativelyHighYield What type of viruses are reoviruses ? Double-stranded RNA

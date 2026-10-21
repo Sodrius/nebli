@@ -1,0 +1,121 @@
+# #AK_Step1_v12::#OME::PreClinical::Microbiology::Microbiology_3::Viruses::DNA_Viruses (120 notas)
+1385334070939 5-LowYield A(n) sinonasal papilloma is a benign tumor of the squamous mucosa of the sinuses that is thought to be due to HPV infection
+1385335260100 1-HighYield Laryngeal papillomas are benign papillary squamous proliferations commonly found on the true vocal cords ; they are associated with HPV 6 and HPV 11
+1394068322402 1-HighYield Condylomata acuminata are most commonly caused by HPV 6 or HPV 11
+1394068945521 3-HighYield-temporary What type(s) of HPV are the cause of HPV-related vulvar carcinoma ? High-risk HPVs (16, 18, 31, 33)
+1394069562561 2-RelativelyHighYield Which type of vulvar carcinoma is typically seen in women of reproductive age ? HPV-related
+1394134318361 1-HighYield What is the most common cause of vaginal carcinoma? High-risk HPV subtypes (16, 18, 31, 33)
+1394242185928 3-HighYield-temporary What is the cancer risk associated with HPV 42-44 ? Low
+1394242887061 1-HighYield What urogenital disorders are associated with low-risk HPV subtypes? Condylomata / warts
+1395340470032 1-HighYield Cutaneous warts (verrucae vulgaris) are soft, flesh-colored, cauliflower-like papules that appear on the skin due to HPV infection of keratinocytes
+1395340559909 1-HighYield What is the cause of cutaneous warts (verruca vulgaris) ? HPV 1 - 4 infection of keratinocytes
+1403295597194 1-HighYield Squamous cell carcinoma is a cancer caused by HPV in HIV patients that often presents at the anus (in MSMs) or the cervix
+1403398790620 2-RelativelyHighYield Condylomata acuminata is an STI caused by HPV 6 or HPV 11 that presents with anogenital warts and koilocytes
+1482692038702 3-HighYield-temporary What viruses fall under Papillomaviruses ? HPV
+1488983947990 1-HighYield What are the three distinct etiologies of oral cancer ? Tobacco, alcohol use, human papilloma virus (HPV)
+1488984010465 3-HighYield-temporary What infection is associated with cancer of the tonsil, base of the tongue , and oropharynx ? HPV
+1493218180866 3-HighYield-temporary HPV infects the true vocal cords in the respiratory tract which causes laryngeal papillomatosis
+1493400683960 2-RelativelyHighYield Which type of genome do papilloma viruses have? Circular
+1493401106064 3-HighYield-temporary HPV-related cervical cancer is more common in patients with what other disease ? HIV / AIDS
+1502151766002 3-HighYield-temporary Herpes simplex virus (HSV) is a(n) icosahedral linear enveloped dsDNA virus
+1502152053718 3-HighYield-temporary Herpes simplex virus (HSV) replicates in the nucleus
+1502152099123 1-HighYield Cowdry bodies are located in the nucleus
+1502152318872 1-HighYield Cowdry bodies are eosino philic intra nuclear inclusions found in cells infected with organisms within the herpesviridae family
+1502152518263 1-HighYield Transmission of herpes simplex virus (HSV) typically occurs via direct contact (e.g., saliva , sex ), but can rarely be transmitted vertically through the placenta
+1502152587839 2-RelativelyHighYield HSV-1 is usually confined to the upper half of the body
+1502152765034 2-RelativelyHighYield HSV-2 is usually confined to the lower half of the body
+1502152777535 1-HighYield Gingivostomatitis is the first sign of HSV-1
+1502152875721 3-HighYield-temporary After primary infection, stress can reactivate HSV-1, which can result in herpes labialis (cold sores)
+1502152990415 2-RelativelyHighYield Keratoconjunctivitis is an ophthalmic complication of HSV-1
+1502153076967 2-RelativelyHighYield " Serpiginous " or " dendritic " corneal ulcers are seen in fluorescein slit lamp exam of keratoconjunctivitis from HSV-1
+1502153188370 1-HighYield HSV-1 is associated with temporal lobe encephalitis
+1502153296503 1-HighYield What is the most common cause of fatal sporadic encephalitis in the United States? HSV-1
+1502153345652 3-HighYield-temporary HSV-1 induced temporal lobe encephalitis can present as seizures, aphasia, and altered mental status
+1502153397982 1-HighYield HSV-1 remains latent in the trigeminal ganglion
+1502153535789 1-HighYield The herpes rash is said to have a(n) " dew drops on a rose petal " appearance
+1502153655230 1-HighYield Herpetic whitlow is a painful hand vesicle that occurs when the skin comes in contact with HSV-1 or HSV-2 (common in dentists )
+1502153845710 1-HighYield Erythema multiforme may appear 1 - 2 weeks after herpes simplex virus (HSV) infection
+1502154090551 1-HighYield Painful inguinal lymphadenopathy is classically associated with HSV- 2
+1502154338212 1-HighYield HSV-2 remains latent in the sacral ganglia
+1502154470259 1-HighYield HSV-2 commonly causes herpes genitalis
+1502154562602 1-HighYield HSV- 2 commonly causes neonatal herpes
+1502154620704 1-HighYield HSV- 2 can cause aseptic meningitis in adolescents and adults
+1502154870583 1-HighYield PCR is the gold standard used in the diagnosis of herpes simplex virus (HSV)
+1502570163043 2-RelativelyHighYield Poxvirus is a(n) linear enveloped dsDNA virus
+1502570324908 2-RelativelyHighYield Which virus makes its own envelope , unlike most viruses? Poxvirus
+1502570386887 1-HighYield Poxvirus is the only DNA virus that completely replicates in the cytoplasm
+1502570452327 1-HighYield Poxvirus has its own DNA-dependent RNA polymerase which allows it to replicate in the cytoplasm
+1502570605009 2-RelativelyHighYield Intracytoplasmic inclusions , known as Guarnieri bodies AKA B-type inclusions, are diagnostic of Poxvirus
+1502570911606 4-LowerYield Poxvirus has a "dumbell-shaped" core
+1502570964320 2-RelativelyHighYield Which virus is the largest DNA virus ? Poxvirus
+1502571002064 2-RelativelyHighYield Smallpox is also known as variola virus and is part of the Poxviridae family
+1502571059951 2-RelativelyHighYield Smallpox viral lesions are all the same age
+1502571144912 1-HighYield Chickenpox viral lesions are different ages
+1502571240402 1-HighYield Chickenpox viral lesions are superficial
+1502571248245 2-RelativelyHighYield Smallpox viral lesions are deep
+1502571267854 2-RelativelyHighYield Smallpox viral lesions affect the face and palms
+1502571280454 1-HighYield Chickenpox viral lesions initially affect the trunk
+1502571339484 3-HighYield-temporary The Cowpox virus is transmitted through contact with infected cow udders
+1502571454317 1-HighYield Molluscum contagiosum is a(n) poxvirus that causes localized skin infections
+1502571707340 1-HighYield Umbilicated lesions on the trunk of children are diagnostic of molluscum contagiosum
+1502571767123 2-RelativelyHighYield Diffuse molluscum contagiosum infection in adults suggests HIV infection and/or immuno suppression
+1502571905507 1-HighYield Single or multiple small ( localized ) molluscum contagiosum infection in adults is most commonly due to sexually transmitted infection
+1502571972870 1-HighYield Molluscum contagiosum can present with histologic eosinophilic cytoplasmic inclusion bodies within keratinocytes known as " molluscum bodies "
+1502572145985 2-RelativelyHighYield Transmission of smallpox occurs via inhalation of respiratory secretions
+1502572273268 2-RelativelyHighYield Poxviruses are the only DNA viruses without icosahedral symmetry , and instead have a(n) "box" or "brick" shape
+1506290563519 5-LowYield A(n) Tzanck smear showing multinucleated giant cells is characteristic of infections with VZV, HSV, and CMV
+1516758092008 1-HighYield Which childhood exanthem is known as fifth disease ? Erythema infectiosum (parvovirus B19)
+1516849870270 2-RelativelyHighYield What type of viruses are polyomaviruses? Double-stranded DNA
+1516850223865 2-RelativelyHighYield Are polyomaviruses enveloped ? No (naked)
+1516850243224 5-LowYield Polyomaviruses include JC virus and BK virus
+1516850294247 4-LowerYield Polyomaviruses have circular DNA genomes
+1516850367033 4-LowerYield JC virus causes progressive multifocal leukoencephalopathy (PML) in immunocompromised individuals
+1516850484033 4-LowerYield JC virus presents when CD4+ count is < 200 cells/mm 3 or with immunosuppressants
+1516850609790 4-LowerYield JC virus presents in immunocompromised (HIV/AIDS) patients
+1516850699884 2-RelativelyHighYield Progressive multifocal leukoencephalopathy (PML) presents with non-enhancing brain lesions in white matter
+1516850848620 2-RelativelyHighYield Progressive multifocal leukoencephalopathy results in death of oligodendrocytes in the CNS
+1516850915117 2-RelativelyHighYield Progressive multifocal leukoencephalopathy presents with many lesion(s)
+1516851016626 2-RelativelyHighYield Progressive multifocal leukoencephalopathy (PML) presents with normal intracranial pressure (ICP)
+1516851064454 4-LowerYield Which DNA viruses are ubiquitous in humans ? Polyomaviruses (JC, BK)
+1516851235515 4-LowerYield Polyomavirus (JC, BK) transmission occurs via respiratory exposure during childhood
+1516851354128 4-LowerYield Polyomaviruses (JC, BK) are hypothesized to seed the kidney resulting in a clinically latent infection
+1516851459784 4-LowerYield Which polyomavirus can cause nephropathy ? BK virus
+1516851616023 4-LowerYield BK virus is a virus associated with hemorrhagic cystitis in bone marrow and kidney transplant patients
+1516851757119 4-LowerYield BK virus can result in ureteral stenosis
+1516851784167 3-HighYield-temporary Hemorrhagic cystitis can present with fever and gross hematuria
+1516927232077 1-HighYield Does the rash of erythema infectiosum (parvovirus B19) affect the face ? Yes
+1516927290535 2-RelativelyHighYield Is parvovirus B19 enveloped ? No (naked)
+1516927385593 1-HighYield Parvovirus B19 is the smallest DNA virus
+1516927428917 1-HighYield What type of virus is parvovirus B19 ? Single-stranded DNA
+1516927536764 1-HighYield Parvoviridae are the only single-stranded DNA viruses
+1516927574271 1-HighYield Parvovirus B19 is primarily transmitted via respiratory droplets
+1516927642869 3-HighYield-temporary Besides respiratory droplets, parvovirus B19 can be transmitted vertically (transplacentally) and through blood products
+1516927848240 1-HighYield Which virus causes slapped-cheek fever ? Parvovirus B19
+1516927952591 2-RelativelyHighYield Parvovirus B19 (erythema infectiosum) is a DNA virus that presents with a rash that starts on the face and moves down wards
+1516928179894 1-HighYield The fever of erythema infectiosum (parvovirus) is mild
+1516928314242 1-HighYield The fever of roseola is very high (> 104 °F = 40 °C)
+1516928411748 1-HighYield The rash of erythema infectiosum develops after the fever
+1516928451566 1-HighYield Parvovirus B19 infection in adults can result in small-joint arthritis, myocarditis, and edema
+1516928686348 1-HighYield Parvovirus B19 commonly causes aplastic crisis in patients with sickle cell, thalassemias, and hereditary spherocytosis
+1516928855943 2-RelativelyHighYield Parvovirus B19 infection during the 1st and 2nd trimester(s) can result in hydrops fetalis
+1516929130673 2-RelativelyHighYield The rash of erythema infectiosum is said to have a red, "lacy" appearance
+1516929150126 1-HighYield Which DNA virus preferentially infects erythroid progenitors ? Parvovirus B19
+1516929251589 3-HighYield-temporary Parvovirus B19 binds P blood group antigen , expressed in high levels by erythroid progenitor cells
+1516929406860 2-RelativelyHighYield What is the treatment of parvovirus B19 in the immunocompetent ? Supportive
+1516929455561 2-RelativelyHighYield What is the treatment of parvovirus B19 in the immuno compromised ? IVIG and RBC transfusion
+1516929523053 2-RelativelyHighYield Which two viruses can result in hydrops fetalis ? CMV; parvovirus B19
+1516929695700 2-RelativelyHighYield Adenovirus is the most common cause of infection of the tonsils and adenoids
+1516929856097 2-RelativelyHighYield Is adenovirus enveloped ? No (naked)
+1516929926653 1-HighYield Transmission of adenovirus includes respiratory droplets, fecal-oral route, or direct contact
+1516930064039 2-RelativelyHighYield Demographics affected by adenovirus include children, military recruits, and swimmers in public pools
+1516930208305 2-RelativelyHighYield Adenovirus has a(n) linear DNA genome
+1516930287625 3-HighYield-temporary What is a genitourinary complication of adenovirus ? Hemorrhagic cystitis
+1516930348175 2-RelativelyHighYield Which linear DNA virus causes hemorrhagic cystitis ? Adenovirus
+1516930367817 5-LowYield Which circular DNA virus causes hemorrhagic cystitis ? BK virus
+1516930661526 1-HighYield What are the two most common causes of bacterial conjunctivitis in children ? - S. pneumoniae - H. influenzae
+1516930744047 1-HighYield Adenovirus commonly causes the common cold , which will present with pharyngitis, rhinitis, and cough
+1516930966434 4-LowerYield Adenovirus can bind cells via hemagglutinin
+1516931046562 3-HighYield-temporary Adenovirus will enter and lyse mucosal cells
+1516931076187 2-RelativelyHighYield Diagnosis of adenovirus is made via serology or viral culture
+1516932723120 1-HighYield Other names for parvovirus B19 include erythema infectiosum, slapped cheek fever, and fifth disease
+1516933445754 1-HighYield CMV infection during the 1st trimester (only) can result in hydrops fetalis

@@ -1,0 +1,7 @@
+# #AK_Step1_v12::#OME::PreClinical::Microbiology::Microbiology_3::Viruses::Hepatitis_Viruses (6 notas)
+1506551930834 3-HighYield-temporary After mRNA is produced, HBV reverse transcriptase produces progeny dsDNA from mRNA
+1521838639712 2-RelativelyHighYield Do infants who acquire HBV during birth have elevated liver enzymes ? Minimally (due to underdeveloped immune system)
+1523915429557 3-HighYield-temporary Upon cellular entry, partially dsDNA of HBV is repaired and used for transcription
+1523915541724 3-HighYield-temporary The genome of the HBV intermediate from dsDNA is + ssRNA
+1582854828887 3-HighYield-temporary Hepatitis B infections are more likely to cause membranous glomerulonephritis
+1582854847320 3-HighYield-temporary Hepatitis C infections are more likely to cause membranoproliferative glomerulonephritis (MPGN)

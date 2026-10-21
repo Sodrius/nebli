@@ -1,0 +1,19 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::27_Hepatitis_serologic_markers (18 notas)
+1502066053913 1-HighYield The vaccine for hepatitis B virus uses recombinant HBsAg
+1506553260599 1-HighYield What is the first marker that appears in HBV infection? HBsAg
+1506553475687 1-HighYield What is the second marker that appears in HBV infection? HBeAg
+1506553575196 1-HighYield What markers are in the blood during early symptomatic HBV infection ? HBsAg, HBeAg
+1506553790829 1-HighYield What is the first detectable antibody in HBV infection? Anti-HBc IgM
+1506553996386 1-HighYield Which serologic marker is detectable during the window period of HBV infection ? Anti-HBc IgM
+1506554058351 1-HighYield Which serologic markers are detectable during the recovery period of HBV infection ? Anti-HB s IgG Anti-HB e IgG Anti-HB c IgG
+1506554138567 1-HighYield Which serologic marker is detectable due to immunization to HBV ? Anti-HBs IgG
+1506554724323 1-HighYield Hepatitis D virus cannot cause disease without hepatitis B HBsAg
+1506555009044 1-HighYield What serologic marker must be present for hepatitis D virus infection ? HBsAg
+1506630386378 3-HighYield-temporary Hepatitis C RNA is found in the serum for < 6 months in the acute stage
+1506630504581 3-HighYield-temporary Hepatitis C RNA is found in the serum for ≥ 6 months in the chronic stage
+1520351217376 2-RelativelyHighYield Hepatitis D virus receives a(n) viral coat from HBsAg in order to penetrate the hepatocyte
+1521044225681 1-HighYield What does the presence of only anti-HBs indicate? Vaccination
+1521044243769 1-HighYield What does the presence of persistent (> 6 months) HBsAg and HBV DNA indicate? Chronic HBV infection
+1521044306629 1-HighYield Which serum HBV marker predicts infectivity ? HBeAg
+1521838951245 2-RelativelyHighYield What HBV antigen is positive in neonates with infection acquired at birth ? HBeAg
+1523806372994 4-LowerYield Which viral genetic phenomenon is exhibited by HBV providing HBsAg for HDV ? Complementation

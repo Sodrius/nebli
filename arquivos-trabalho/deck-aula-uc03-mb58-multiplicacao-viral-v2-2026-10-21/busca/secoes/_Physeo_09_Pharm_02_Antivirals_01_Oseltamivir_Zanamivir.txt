@@ -1,0 +1,8 @@
+# #AK_Step1_v12::#Physeo::09_Pharm::02_Antivirals::01_Oseltamivir_&_Zanamivir (7 notas)
+1516321589458 1-HighYield Antigenic variation of influenza viruses occurs with changes to viral hemagglutinin (HA) and neuraminidase (NA)
+1516322946030 3-HighYield-temporary Antigenic drift explains why we need a flu shot each year
+1516323747313 2-RelativelyHighYield Neuraminidase is a viral envelope protein that cleaves the HA-sialic acid interaction
+1516323825251 1-HighYield Which envelope protein of Influenza facilitates viral spread from cells? Neuraminidase (NA)
+1516324778471 1-HighYield Zanamivir and oseltamivir are drugs that inhibit neuraminidase of influenza A and B
+1516324960043 1-HighYield Which two anti-influenza drugs inhibit virion release ? Zanamivir, oseltamivir
+1516401726231 2-RelativelyHighYield Neuraminidase is a viral envelope protein that allows for mature virion release

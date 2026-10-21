@@ -1,0 +1,9 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::04_HIV_Antiretroviral_Pharmacology (8 notas)
+1502066667272 1-HighYield gp41 is the transmembrane protein of HIV , mediating viral-cell fusion and syncytia formation
+1502066766747 1-HighYield gp120 is the outer glycoprotein of HIV
+1502066834360 1-HighYield gp120 of HIV binds {{c2}} and the co-receptors CCR5 (primarily on macrophages ) and CXCR4 (primarily on T cells )
+1502069441823 2-RelativelyHighYield Once HIV is inside a cell, viral reverse transcriptase converts viral RNA to double-stranded DNA (dsDNA) This double-stranded DNA is inserted into the host cell genome by integrase, another viral enzy
+1506805786448 3-HighYield-temporary HIV infects CD4+ helper T-cells, macrophages, and dendritic cells
+1506805847290 1-HighYield Which envelope protein on HIV functions to allow attachment to host CD4+ T cells ? gp120
+1506806776715 2-RelativelyHighYield HIV env encoded gp160 is first sent to the endoplasmic reticulum of the cell for processing
+1506807161520 1-HighYield Which enzyme allows for HIV dsDNA to integrate with host cell DNA ? Integrase

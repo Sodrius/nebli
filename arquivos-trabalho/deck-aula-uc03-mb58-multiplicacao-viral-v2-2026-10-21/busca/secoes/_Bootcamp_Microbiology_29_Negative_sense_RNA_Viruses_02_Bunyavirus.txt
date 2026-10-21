@@ -1,0 +1,21 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::29_Negative-sense_RNA_Viruses::02_Bunyavirus (20 notas)
+1516321532745 1-HighYield The segmented virus families may be remembered with the mnemonic " BOAR ": B unyavirus O rthomyxovirus A renavirus R eovirus
+1516321532746 1-HighYield The segmented virus families may be remembered with the mnemonic " BOAR "
+1516558391491 4-LowerYield What type of viruses are bunyaviruses? Negative sense RNA
+1516558470012 5-LowYield Are bunyaviruses enveloped ? Yes
+1516558572168 5-LowYield Bunyaviruses have 3 circular segments
+1516558668778 5-LowYield Most of the bunyaviruses are also arboviruses*
+1516558985565 5-LowYield What is the reservoir for Hantavirus (sin nombre)? Deer mouse
+1516559030641 5-LowYield Hantavirus (Sin nombre) is transmitted through rodent urine/feces
+1516559070982 4-LowerYield Which virus causes hemorrhagic fever with renal syndrome (HFRS)? Hantavirus
+1516559313602 4-LowerYield Which virus causes cardiopulmonary syndrome (HCPS)? Hantavirus (sin nombre)
+1516559348444 4-LowerYield Hantavirus can result in pulmonary capillary leak
+1516559423452 4-LowerYield Pulmonary capillary leak of the virus Hantavirus (sin nombre) is radiographically similar to acute respiratory distress syndrome (ARDS)
+1516559573641 4-LowerYield Hantavirus is a virus that causes prerenal azotemia
+1516559707782 4-LowerYield Hantavirus (HFRS) results in capillary leak , causing hypotension and ultimately renal failure
+1516559803599 4-LowerYield Hantavirus can result in hemorrhagic fever with renal syndrome
+1516559881375 5-LowYield Hantavirus (Sin nombre) belongs to the bunyaviridae family
+1516559998491 4-LowerYield Bunyaviruses that are also arboviruses include: - California encephalitis - Sandfly fever - Rift Valley fever - Crimean-Congo hemorrhagic fever
+1516560132835 4-LowerYield Manifestations of California encephalitis and Rift Valley fever include seizures and encephalitis
+1516560223191 5-LowYield California encephalitis is transmitted via the Aedes mosquito vector
+1516560251252 4-LowerYield Rift Valley fever is transmitted via the Aedes mosquito vector

@@ -1,0 +1,15 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::40_Rhinovirus (14 notas)
+1502063631440 2-RelativelyHighYield All naked viruses have icosahedral capsids
+1506609368498 1-HighYield What is the route of transmission of most picornaviruses ? Fecal-oral
+1506609599866 2-RelativelyHighYield Picornaviruses produce a large polyprotein product (inactive) that is cleaved into smaller subunits (active)
+1506609930801 1-HighYield What family of viruses do rhinoviruses belong to? Picornaviridae
+1506627151740 3-HighYield-temporary Picornaviruses have viral proteases which cleave the large translated polypeptide into functional viral proteins
+1516222066430 2-RelativelyHighYield What type of virus is rhinovirus ? Positive sense RNA
+1516222094329 3-HighYield-temporary Is rhinovirus enveloped ? No (naked)
+1516222135232 1-HighYield Rhinovirus is acid-labile
+1516222208131 2-RelativelyHighYield What is the route of transmission of rhinovirus ? Respiratory droplets, fomites
+1516222286888 1-HighYield What is the most common cause of the common cold ? Rhinovirus
+1516222322469 3-HighYield-temporary Rhinovirus is a virus that enters host cells by attaching to ICAM-1
+1516222409950 1-HighYield Rhinovirus grows best at 33 °C
+1516222636401 2-RelativelyHighYield Rhinovirus causes a(n) upper respiratory tract infection
+1516222746893 4-LowerYield Rhinovirus has > 100 different serotypes

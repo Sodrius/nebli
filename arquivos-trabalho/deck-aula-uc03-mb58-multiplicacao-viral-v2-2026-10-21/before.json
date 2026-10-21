@@ -1,0 +1,833 @@
+{
+ "decks_uc08": [
+  "NEBLI::UC08",
+  "NEBLI::UC08::P1",
+  "NEBLI::UC08::P1::Anatomia",
+  "NEBLI::UC08::P1::Anatomia::Esôfago, estômago e intestino delgado",
+  "NEBLI::UC08::P1::Anatomia::Intestino grosso e canal anal",
+  "NEBLI::UC08::P1::Anatomia::Vascularização das vísceras",
+  "NEBLI::UC08::P1::Biologia Tecidual",
+  "NEBLI::UC08::P1::Biologia Tecidual::Estrutura do estômago",
+  "NEBLI::UC08::P1::Biologia Tecidual::Intestinos",
+  "NEBLI::UC08::P1::Fisiologia",
+  "NEBLI::UC08::P1::Fisiologia::Motilidade I",
+  "NEBLI::UC08::P1::Fisiologia::Motilidade II",
+  "NEBLI::UC08::P2",
+  "NEBLI::UC08::P2::Fisiologia",
+  "NEBLI::UC08::P2::Fisiologia::Digestão e absorção dos nutrientes",
+  "NEBLI::UC08::P2::Fisiologia::Secreção gástrica"
+ ],
+ "compartilhados": {
+  "1792243070220": {
+   "tags": [
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::author::uc03-mb57n-au-definicao",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::A-definicao-comparacao",
+    "NEBLI::ordem::mb57n-03",
+    "NEBLI::origem::Autoral",
+    "NEBLI::run::uc03-mb57-20261017a"
+   ],
+   "cards": {
+    "1792243070220": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243070545": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Etc::Boards_and_Beyond_Micro::Virus_Structure_B&B",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::01_Viral_Organization",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::01_Viral_structure-general_features",
+    "#AK_Step1_v12::#Low/HighYield::3-HighYield-temporary",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "#AK_Step1_v12::#Pathoma::17_Neuro::03_Meningitis",
+    "#AK_Step1_v12::#Physeo::06_Micro::01_Fundamentals::06_Viral_Structures",
+    "#AK_Step2_v12::#B&B::08_Infectious_Disease::04_Other::03_Meningitis::Extra",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::azul",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::A-definicao-comparacao",
+    "NEBLI::ordem::mb57n-04",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1502063041178"
+   ],
+   "cards": {
+    "1792243070546": 4
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243082496": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Etc::Boards_and_Beyond_Micro::Virus_Structure_B&B",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::Dka1Jk",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::01_Viral_Organization",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::02_Mechanisms_of_Viral_Infectivity",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::01_Viral_structure-general_features",
+    "#AK_Step1_v12::#Low/HighYield::4-LowerYield",
+    "#AK_Step1_v12::#NinjaNerd::02_Immunology::01_Physiology::01_Inflammation:_Vascular_Events_(Part_1)",
+    "#AK_Step1_v12::#NinjaNerd::08_Gastrointestinal::03_Pathology::01_Hepatitis_(Pathophysiology_of_Viral_Hepatitis)",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "#AK_Step1_v12::#Physeo::06_Micro::01_Fundamentals::06_Viral_Structures",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::E-envelope-componentes",
+    "NEBLI::ordem::mb57n-46",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1502063688789"
+   ],
+   "cards": {
+    "1792243082496": 3,
+    "1792243082497": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792166995490": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+    "#AK_Other::AnKing_Image::!Subjects::Microbiology::HIV_Life_Cycle",
+    "#AK_Other::AnKing_Image::AhmedA::HIV_Life_Cycle",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::HQaKx4",
+    "#AK_Step1_v12::#AMBOSS::Ujab-4",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::06_HIV",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::20_HIV_Pathogenesis",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::04_HIV_Antiretroviral_Pharmacology",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::08_Receptors_used_by_viruses",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::09_RNA_viruses",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::28_HIV",
+    "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+    "#AK_Step1_v12::#NinjaNerd::03_Microbiology::03_Pathology::01_Antivirals_(HIV,_Hepatitis,_Influenza,_Herpes_Treatment)",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease::HIV_and_AIDS",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::14_Human_Immunodeficiency_Virus_(HIV)",
+    "#AK_Step1_v12::#Physeo::09_Pharm::02_Antivirals::09_Fusion_Inhibitors",
+    "#AK_Step1_v12::#Physeo::^physeo_image_update",
+    "#AK_Step1_v12::#Pixorize::04_Microbiology::03_Antivirals::10_Entry_Inhibitors_Enfuvirtide/Maraviroc",
+    "#AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::01_HIV:_Microbiology_&_Characteristics",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::01_RNA_(+)_Sense::12_HIV_Overview_(Retroviridae)",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::01_RNA_(+)_Sense::13_HIV_Life_Cycle_(Retroviridae)",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::04_Retired_Lessons::08_Human_Immunodeficiency_Virus_(Retroviridae)_[Retired_Video]",
+    "#AK_Step1_v12::#UWorld::COMLEX::26108",
+    "#AK_Step1_v12::#UWorld::Step::15107",
+    "#AK_Step2_v12::#B&B::08_Infectious_Disease::03_HIV::01_HIV_Infection",
+    "NEBLI::2026-uc03-imunologia-51-disturbios-sistema-imune",
+    "NEBLI::cor::2026-uc03-imunologia-51-disturbios-sistema-imune::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::C-imunodeficiencias",
+    "NEBLI::ordem::im51-125",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-im51-20261016a",
+    "NEBLI::source::nid-1502066834360"
+   ],
+   "cards": {
+    "1792166995490": 3,
+    "1792166995491": 3,
+    "1792166995492": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Imunologia::Distúrbios do sistema imune"
+   ]
+  },
+  "1792243072244": {
+   "tags": [
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::author::uc03-mb57n-au-baltimore",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::C-classificacao",
+    "NEBLI::ordem::mb57n-14",
+    "NEBLI::origem::Autoral",
+    "NEBLI::run::uc03-mb57-20261017a"
+   ],
+   "cards": {
+    "1792243072244": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243075743": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::01_Virus_Structure",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::02_DNA_Viruses",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::26_Approach_to_Virology::02_Comprehensive_Virus_Diagrams",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::01_Parvovirus_B19",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::05_DNA_viruses::*Parvovirus_B19",
+    "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+    "#AK_Step1_v12::#OME::PreClinical::Microbiology::Microbiology_3::Viruses::DNA_Viruses",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::12_Parvovirus_B19",
+    "#AK_Step1_v12::#Physeo::^physeo_image_update",
+    "#AK_Step1_v12::#Pixorize::04_Microbiology::07_Viruses-DNA_Viruses::14_Parvovirus",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::03_DNA::09_Parvovirus_B19_(Parvoviridae)",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::D-estrutura",
+    "NEBLI::ordem::mb57n-27",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1516927536764"
+   ],
+   "cards": {
+    "1792243075744": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243072575": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Etc::Boards_and_Beyond_Micro::Virus_Structure_B&B",
+    "#AK_Other::AnKing_Image::!Subjects::Microbiology::RNA_Viruses",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::01_Virus_Structure",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::04_RNA_Viruses",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::26_Approach_to_Virology::01_Approach_to_Virology",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::01_Viral_Organization",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::03_Viral_genomes::*RNA_Viral_Genomes",
+    "#AK_Step1_v12::#Low/HighYield::3-HighYield-temporary",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "#AK_Step1_v12::#Physeo::06_Micro::01_Fundamentals::08_Viral_Genomes_&_Replication",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::C-classificacao",
+    "NEBLI::ordem::mb57n-15",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1502064066857"
+   ],
+   "cards": {
+    "1792243072575": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243072820": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Etc::Boards_and_Beyond_Micro::Virus_Structure_B&B",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::GNaBcO",
+    "#AK_Step1_v12::#AMBOSS::lNavYO",
+    "#AK_Step1_v12::#AMBOSS::wBah1M",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::01_Virus_Structure",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::26_Approach_to_Virology::01_Approach_to_Virology",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::01_Viral_Organization",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::03_Viral_genomes::*RNA_Viral_Genomes",
+    "#AK_Step1_v12::#Low/HighYield::3-HighYield-temporary",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::azul",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::C-classificacao",
+    "NEBLI::ordem::mb57n-16",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1502064208990"
+   ],
+   "cards": {
+    "1792243072821": 4
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243073069": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Etc::Boards_and_Beyond_Micro::Virus_Structure_B&B",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::01_Virus_Structure",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::26_Approach_to_Virology::02_Comprehensive_Virus_Diagrams",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::03_Viral_genomes::*RNA_Viral_Genomes",
+    "#AK_Step1_v12::#Low/HighYield::3-HighYield-temporary",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "#AK_Step1_v12::#Physeo::06_Micro::01_Fundamentals::08_Viral_Genomes_&_Replication",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::azul",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::C-classificacao",
+    "NEBLI::ordem::mb57n-17",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1502064281478"
+   ],
+   "cards": {
+    "1792243073069": 4
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243073320": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Etc::Boards_and_Beyond_Micro::Virus_Structure_B&B",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::lNavYO",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::01_Virus_Structure",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::26_Approach_to_Virology::02_Comprehensive_Virus_Diagrams",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::03_Viral_genomes::*RNA_Viral_Genomes",
+    "#AK_Step1_v12::#Low/HighYield::3-HighYield-temporary",
+    "#AK_Step1_v12::#NinjaNerd::08_Gastrointestinal::03_Pathology::01_Hepatitis_(Pathophysiology_of_Viral_Hepatitis)",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "#AK_Step1_v12::#Physeo::06_Micro::01_Fundamentals::08_Viral_Genomes_&_Replication",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::azul",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::C-classificacao",
+    "NEBLI::ordem::mb57n-18",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1502064367585"
+   ],
+   "cards": {
+    "1792243073320": 4
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243073569": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::lNavYO",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::01_Virus_Structure",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::26_Approach_to_Virology::01_Approach_to_Virology",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::01_Viral_Organization",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::*Negative-Stranded_Viruses",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::09_RNA_viruses",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::13_Influenza_viruses",
+    "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+    "#AK_Step1_v12::#NBME::22",
+    "#AK_Step1_v12::#NinjaNerd::08_Gastrointestinal::03_Pathology::01_Hepatitis_(Pathophysiology_of_Viral_Hepatitis)",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::26_Influenza_Virus",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::02_RNA_(-)_Sense::01_Influenzavirus_(Orthomyxoviridae)",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::C-classificacao",
+    "NEBLI::ordem::mb57n-19",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1516320850504"
+   ],
+   "cards": {
+    "1792243073569": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243074070": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Biochemistry::Molecular,_Cellular,_Genetics",
+    "#AK_Other::AnKing_Image::AhmedA",
+    "#AK_Other::Only_Step_1&2_Overlap",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::01_Virus_Structure",
+    "#AK_Step1_v12::#Bootcamp::Genetics::02_DNA_Replication_Transcription_and_Translation::01_DNA_Replication",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::01_Viral_Organization",
+    "#AK_Step1_v12::#FirstAid::01_Biochem::01_Molecular::06_DNA_replication::*Basics",
+    "#AK_Step1_v12::#Low/HighYield::3-HighYield-temporary",
+    "#AK_Step1_v12::#NinjaNerd::08_Gastrointestinal::03_Pathology::01_Hepatitis_(Pathophysiology_of_Viral_Hepatitis)",
+    "#AK_Step1_v12::#OME_banner",
+    "#AK_Step1_v12::^Systems::Biochem::Molecular",
+    "#AK_Step2_v12::#B&B::08_Infectious_Disease::03_HIV::01_HIV_Infection",
+    "#AK_Step2_v12::#B&B::08_Infectious_Disease::03_HIV::02_HIV_Drugs",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::azul",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::C-classificacao",
+    "NEBLI::ordem::mb57n-21",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1467683646912"
+   ],
+   "cards": {
+    "1792243074070": 4
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243083345": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Etc::Boards_and_Beyond_Micro::Virus_Structure_B&B",
+    "#AK_Other::AnKing_Image::!Subjects::Microbiology::HIV_Life_Cycle",
+    "#AK_Other::AnKing_Image::!Subjects::Microbiology::RNA_Viruses",
+    "#AK_Other::AnKing_Image::AhmedA::HIV_Life_Cycle",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::01_Virus_Structure::Extra",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::04_RNA_Viruses::Extra",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::06_HIV",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::20_HIV_Pathogenesis",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::25_HTLV-1",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::03_Viral_genomes::*RNA_Viral_Genomes",
+    "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+    "#AK_Step1_v12::#NBME::22",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::14_Human_Immunodeficiency_Virus_(HIV)",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::15_Human_T-lymphotropic_Virus_(HTLV)",
+    "#AK_Step1_v12::#Physeo::^physeo_image_update",
+    "#AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::01_HIV:_Microbiology_&_Characteristics",
+    "#AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::20_Retrovirus",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::01_RNA_(+)_Sense::12_HIV_Overview_(Retroviridae)",
+    "#AK_Step2_v12::#B&B::08_Infectious_Disease::03_HIV::01_HIV_Infection",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::E-envelope-componentes",
+    "NEBLI::ordem::mb57n-51",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1502064775742"
+   ],
+   "cards": {
+    "1792243083345": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243081124": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+    "#AK_Other::AnKing_Image::!Subjects::Microbiology::HIV_Life_Cycle",
+    "#AK_Other::AnKing_Image::AhmedA::HIV_Life_Cycle",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::Qkaunk",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::06_HIV",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::20_HIV_Pathogenesis",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::09_RNA_viruses",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::28_HIV",
+    "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+    "#AK_Step1_v12::#NBME::16",
+    "#AK_Step1_v12::#NBME::21",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease::HIV_and_AIDS",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::14_Human_Immunodeficiency_Virus_(HIV)",
+    "#AK_Step1_v12::#Physeo::^physeo_image_update",
+    "#AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::01_HIV:_Microbiology_&_Characteristics",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::01_RNA_(+)_Sense::12_HIV_Overview_(Retroviridae)",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::01_RNA_(+)_Sense::13_HIV_Life_Cycle_(Retroviridae)",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::04_Retired_Lessons::08_Human_Immunodeficiency_Virus_(Retroviridae)_[Retired_Video]",
+    "#AK_Step1_v12::#UWorld::COMLEX::24786",
+    "#AK_Step1_v12::#UWorld::Step::1675",
+    "#AK_Step2_v12::#FirstAid::16_Multisystem::05_Human_Immunodeficiency_Virus::02_Viral_Anatomy_and_Pathophysiology",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::E-envelope-componentes",
+    "NEBLI::ordem::mb57n-43",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1502066575758"
+   ],
+   "cards": {
+    "1792243081124": 3,
+    "1792243081125": 3,
+    "1792243081126": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243081596": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+    "#AK_Other::AnKing_Image::!Subjects::Microbiology::HIV_Life_Cycle",
+    "#AK_Other::AnKing_Image::AhmedA::HIV_Life_Cycle",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::dkao5k",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::06_HIV",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::20_HIV_Pathogenesis",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::06_Antiretroviral_Nucleoside_Reverse_Transcriptase_Inhibitors",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::07_Additional_Antiretroviral_Therapies",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::09_RNA_viruses",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::28_HIV",
+    "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease::HIV_and_AIDS",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::14_Human_Immunodeficiency_Virus_(HIV)",
+    "#AK_Step1_v12::#Physeo::^physeo_image_update",
+    "#AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::01_HIV:_Microbiology_&_Characteristics",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::01_RNA_(+)_Sense::13_HIV_Life_Cycle_(Retroviridae)",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::04_Retired_Lessons::08_Human_Immunodeficiency_Virus_(Retroviridae)_[Retired_Video]",
+    "#AK_Step1_v12::#UWorld::COMLEX::24833",
+    "#AK_Step1_v12::#UWorld::Step::1722",
+    "#AK_Step2_v12::#B&B::08_Infectious_Disease::03_HIV::01_HIV_Infection",
+    "#AK_Step2_v12::#B&B::08_Infectious_Disease::03_HIV::02_HIV_Drugs::Extra",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::E-envelope-componentes",
+    "NEBLI::ordem::mb57n-44",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1502066968224"
+   ],
+   "cards": {
+    "1792243081598": 3,
+    "1792243081599": 3,
+    "1792243081597": 3,
+    "1792243081596": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1791984892677": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Etc::UW_Micro_(do_this_one_last)",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::aSaQyP",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::02_DNA_Viruses",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::05_Viral_Hepatitis",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::19_Hepatitis_B_Virus_Pathogenesis_and_Clinical_Manifestations",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::09_Hepatitis_B_Antiviral_Therapy",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::25_Hepatitis_viruses::*Hepatitis_B",
+    "#AK_Step1_v12::#Low/HighYield::3-HighYield-temporary",
+    "#AK_Step1_v12::#NinjaNerd::03_Microbiology::03_Pathology::01_Antivirals_(HIV,_Hepatitis,_Influenza,_Herpes_Treatment)",
+    "#AK_Step1_v12::#NinjaNerd::08_Gastrointestinal::03_Pathology::01_Hepatitis_(Pathophysiology_of_Viral_Hepatitis)",
+    "#AK_Step1_v12::#OME::PreClinical::Microbiology::Microbiology_3::Viruses::Hepatitis_Viruses",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::07_Hepatitis_B_Virus",
+    "#AK_Step1_v12::#Physeo::^physeo_image_update",
+    "#AK_Step1_v12::#Pixorize::04_Microbiology::07_Viruses-DNA_Viruses::10_Hepadnavirus",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::03_DNA::13_Hepatitis_B_Viral_Life_Cycle_(Hepadnaviridae)",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::04_Retired_Lessons::02_Hepatitis_B_Virus_(HepaDNAviridae)_[Old_Version]",
+    "#AK_Step1_v12::#SketchyMicro::uw_micro_(do_this_one_last)",
+    "#AK_Step1_v12::#UWorld::COMLEX::26128",
+    "#AK_Step1_v12::#UWorld::Step::15169",
+    "NEBLI::2026-uc03-patologia-61-patologia-infeccao-viral",
+    "NEBLI::cor::2026-uc03-patologia-61-patologia-infeccao-viral::azul",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::D-hbv",
+    "NEBLI::ordem::pt61-24",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-pt61-20261014a",
+    "NEBLI::source::nid-1506551930834"
+   ],
+   "cards": {
+    "1791984892677": 4
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Patologia::Patologia da infecção viral"
+   ]
+  },
+  "1792243073819": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Etc::Boards_and_Beyond_Micro::Virus_Structure_B&B",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::01_Virus_Structure",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::01_Viral_Organization",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::03_Viral_genomes::*DNA_Viral_Genomes",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::05_DNA_viruses::*DNA_Virus_Characteristics",
+    "#AK_Step1_v12::#Low/HighYield::3-HighYield-temporary",
+    "#AK_Step1_v12::#NinjaNerd::08_Gastrointestinal::03_Pathology::01_Hepatitis_(Pathophysiology_of_Viral_Hepatitis)",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::azul",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::C-classificacao",
+    "NEBLI::ordem::mb57n-20",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1502065503059"
+   ],
+   "cards": {
+    "1792243073819": 4
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243076571": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Etc::UW_Micro_(do_this_one_last)",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS",
+    "#AK_Step1_v12::#AMBOSS::06aejl",
+    "#AK_Step1_v12::#AMBOSS::_Ya57Q",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::01_Virus_Structure",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::01_Viral_Organization",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::03_Viral_Genetics",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::02_Viral_genetics",
+    "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+    "#AK_Step1_v12::#OME_banner",
+    "#AK_Step1_v12::#Physeo::06_Micro::01_Fundamentals::02_Virulence",
+    "#AK_Step1_v12::#Physeo::06_Micro::01_Fundamentals::07_Viral_Genetics",
+    "#AK_Step1_v12::#SketchyMicro::uw_micro_(do_this_one_last)",
+    "#AK_Step1_v12::#UWorld::#UWSA2",
+    "#AK_Step1_v12::#UWorld::COMLEX::24572",
+    "#AK_Step1_v12::#UWorld::COMLEX::24580",
+    "#AK_Step1_v12::#UWorld::COMLEX::25856",
+    "#AK_Step1_v12::#UWorld::Step::12707",
+    "#AK_Step1_v12::#UWorld::Step::12708",
+    "#AK_Step1_v12::#UWorld::Step::1461",
+    "#AK_Step1_v12::#UWorld::Step::1469",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::D-estrutura",
+    "NEBLI::ordem::mb57n-30",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1523926575639"
+   ],
+   "cards": {
+    "1792243076571": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1791984887454": {
+   "tags": [
+    "NEBLI::2026-uc03-patologia-61-patologia-infeccao-viral",
+    "NEBLI::author::uc03-pt61-b-inclusao",
+    "NEBLI::cor::2026-uc03-patologia-61-patologia-infeccao-viral::azul",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::B-efeitos-celulares",
+    "NEBLI::ordem::pt61-06",
+    "NEBLI::origem::Autoral",
+    "NEBLI::run::uc03-pt61-20261014a"
+   ],
+   "cards": {
+    "1791984887454": 4
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Patologia::Patologia da infecção viral"
+   ]
+  },
+  "1791984888354": {
+   "tags": [
+    "NEBLI::2026-uc03-patologia-61-patologia-infeccao-viral",
+    "NEBLI::author::uc03-pt61-b-sincicio",
+    "NEBLI::cor::2026-uc03-patologia-61-patologia-infeccao-viral::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::B-efeitos-celulares",
+    "NEBLI::ordem::pt61-09",
+    "NEBLI::origem::Autoral",
+    "NEBLI::run::uc03-pt61-20261014a"
+   ],
+   "cards": {
+    "1791984888354": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Patologia::Patologia da infecção viral"
+   ]
+  },
+  "1792243082169": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Etc::Boards_and_Beyond_Micro::Virus_Structure_B&B",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::01_Virus_Structure",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::01_Viral_Organization",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::01_Viral_structure-general_features",
+    "#AK_Step1_v12::#Low/HighYield::4-LowerYield",
+    "#AK_Step1_v12::#Low/HighYield::5-LowYield",
+    "#AK_Step1_v12::#NinjaNerd::08_Gastrointestinal::03_Pathology::01_Hepatitis_(Pathophysiology_of_Viral_Hepatitis)",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "#AK_Step1_v12::#Physeo::06_Micro::01_Fundamentals::06_Viral_Structures",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::azul",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::E-envelope-componentes",
+    "NEBLI::ordem::mb57n-45",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1502063659167"
+   ],
+   "cards": {
+    "1792243082169": 4
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243080522": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::Tca6bj",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::29_Negative-sense_RNA_Viruses::04_Parainfluenza",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::29_Negative-sense_RNA_Viruses::09_Influenza_(Pathogenesis)",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::01_Respiratory_Antiviral_Therapy",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::09_RNA_viruses",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::13_Influenza_viruses",
+    "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+    "#AK_Step1_v12::#NBME::13",
+    "#AK_Step1_v12::#NBME::29",
+    "#AK_Step1_v12::#NBME::32",
+    "#AK_Step1_v12::#NinjaNerd::03_Microbiology::03_Pathology::01_Antivirals_(HIV,_Hepatitis,_Influenza,_Herpes_Treatment)",
+    "#AK_Step1_v12::#OME::PreClinical::Microbiology::Microbiology_3::Viruses::Antiviral_Medications",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::26_Influenza_Virus",
+    "#AK_Step1_v12::#Physeo::09_Pharm::02_Antivirals::01_Oseltamivir_&_Zanamivir",
+    "#AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::22_Orthomyxovirus",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::02_RNA_(-)_Sense::01_Influenzavirus_(Orthomyxoviridae)",
+    "#AK_Step1_v12::#UWorld::#UWSA1",
+    "#AK_Step1_v12::#UWorld::COMLEX::24759",
+    "#AK_Step1_v12::#UWorld::Step::1648",
+    "#AK_Step1_v12::#UWorld::Step::6456",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::E-envelope-componentes",
+    "NEBLI::ordem::mb57n-41",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1516401726231"
+   ],
+   "cards": {
+    "1792243080522": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792243080096": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::Dka1Jk",
+    "#AK_Step1_v12::#AMBOSS::p5aLOO",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::02_Mechanisms_of_Viral_Infectivity",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::29_Negative-sense_RNA_Viruses::04_Parainfluenza",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::29_Negative-sense_RNA_Viruses::09_Influenza_(Pathogenesis)",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::01_Respiratory_Antiviral_Therapy",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::09_RNA_viruses",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::13_Influenza_viruses",
+    "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+    "#AK_Step1_v12::#NinjaNerd::03_Microbiology::03_Pathology::01_Antivirals_(HIV,_Hepatitis,_Influenza,_Herpes_Treatment)",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::26_Influenza_Virus",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::02_RNA_(-)_Sense::01_Influenzavirus_(Orthomyxoviridae)",
+    "#AK_Step1_v12::#UWorld::COMLEX::24577",
+    "#AK_Step1_v12::#UWorld::COMLEX::24760",
+    "#AK_Step1_v12::#UWorld::Step::1466",
+    "#AK_Step1_v12::#UWorld::Step::1649",
+    "NEBLI::2026-uc03-microbiologia-57-principios-gerais-virus",
+    "NEBLI::cor::2026-uc03-microbiologia-57-principios-gerais-virus::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::E-envelope-componentes",
+    "NEBLI::ordem::mb57n-40",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb57-20261017a",
+    "NEBLI::source::nid-1516323222471"
+   ],
+   "cards": {
+    "1792243080096": 3,
+    "1792243080097": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+   ]
+  },
+  "1792240189993": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Pharmacology",
+    "#AK_Other::^EXPN",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::aj0Q_f",
+    "#AK_Step1_v12::#FirstAid::02_Immunology::04_Immunosuppressants::03_Therapeutic_antibodies",
+    "#AK_Step1_v12::#FirstAid::02_Immunology::04_Immunosuppressants::03_Therapeutic_antibodies::01_Autoimmune_disease_therapy::*Tocilizumab",
+    "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+    "#AK_Step1_v12::#OME::PreClinical::Immunology",
+    "#AK_Step1_v12::#Pixorize::02_Immunology::05_Cytokines::07_IL-6",
+    "#AK_Step1_v12::#SketchyPharm::Immunology-&-Biochemistry-Pharmacology::Immuno-suppressives::General-Immunotherapy",
+    "#AK_Step1_v12::#UWorld::COMLEX::25661",
+    "#AK_Step1_v12::#UWorld::Step::11770",
+    "#AK_Step2_v12::#SketchyIM::07_Rheumatology::Retired_Lessons::02_Systemic_Rheumatic_Diseases::01_Rheumatoid_Arthritis_SOAP_[OLD_VERSION]",
+    "#AK_Step2_v12::#SketchyPeds::14_Rheumatology::03_Retired_Lessons::03_Juvenile_Idiopathic_Arthritis_SOAP_[OLD_VERSION]",
+    "#PANCE::CARDIO::vascular_disease",
+    "#PANCE::EOR::IM",
+    "NEBLI::2026-uc03-imunologia-08-reconhecimento-inato",
+    "NEBLI::cor::2026-uc03-imunologia-08-reconhecimento-inato::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::C-mediadores",
+    "NEBLI::ordem::im08n-31",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-im08-20261016a",
+    "NEBLI::source::nid-1497205557686"
+   ],
+   "cards": {
+    "1792240189994": 3,
+    "1792240189995": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P1::Imunologia::Reconhecimento imune inato"
+   ]
+  },
+  "1791984890453": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Immunology_+_General_Pathology::Immunology",
+    "#AK_Other::^EXPN::BGedit",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::04_Host_Defense",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::09_Hepatitis_B_Antiviral_Therapy",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::10_Hepatitis_C_Antiviral_Therapy",
+    "#AK_Step1_v12::#FirstAid::02_Immunology::03_Immune_Responses::08_Interferons",
+    "#AK_Step1_v12::#FirstAid::02_Immunology::03_Immune_Responses::08_Interferons::02_Clinical_Use::*IFN-a",
+    "#AK_Step1_v12::#FirstAid::02_Immunology::03_Immune_Responses::08_Interferons::02_Clinical_Use::*IFN-B",
+    "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+    "#AK_Step1_v12::#NinjaNerd::08_Gastrointestinal::03_Pathology::01_Hepatitis_(Pathophysiology_of_Viral_Hepatitis)",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "#AK_Step1_v12::#Pixorize::02_Immunology::05_Cytokines::12_IFN-alpha_&_IFN-beta",
+    "#AK_Step1_v12::#SketchyImmunology::02_Innate_Immune_System::04_Response_to_Viruses::01_The_Innate_Immune_System's_Response_to_Viruses",
+    "#AK_Step1_v12::#UWorld::COMLEX::24579",
+    "#AK_Step1_v12::#UWorld::Step::1468",
+    "#AK_Step1_v12::^Systems::Immunology::IL/Cytokine/SurfaceProtein",
+    "NEBLI::2026-uc03-imunologia-08-reconhecimento-inato",
+    "NEBLI::2026-uc03-patologia-61-patologia-infeccao-viral",
+    "NEBLI::compartilhado::im08n",
+    "NEBLI::cor::2026-uc03-imunologia-08-reconhecimento-inato::verde",
+    "NEBLI::cor::2026-uc03-patologia-61-patologia-infeccao-viral::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::C-resposta-do-hospedeiro",
+    "NEBLI::ordem::im08n-15",
+    "NEBLI::ordem::pt61-16",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-pt61-20261014a",
+    "NEBLI::source::nid-1489970693302"
+   ],
+   "cards": {
+    "1791984890453": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Patologia::Patologia da infecção viral"
+   ]
+  },
+  "1791984887204": {
+   "tags": [
+    "NEBLI::2026-uc03-patologia-61-patologia-infeccao-viral",
+    "NEBLI::author::uc03-pt61-b-cpe",
+    "NEBLI::cor::2026-uc03-patologia-61-patologia-infeccao-viral::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::B-efeitos-celulares",
+    "NEBLI::ordem::pt61-05",
+    "NEBLI::origem::Autoral",
+    "NEBLI::run::uc03-pt61-20261014a"
+   ],
+   "cards": {
+    "1791984887204": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Patologia::Patologia da infecção viral"
+   ]
+  }
+ },
+ "at": "2026-10-21T18:00:30.540262+00:00"
+}

@@ -1,0 +1,15 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::03_Human_Papillomavirus_Pathogenesis (14 notas)
+1385335604751 1-HighYield Koilocytes have characteristic perinuclear halos that are hallmarks of HPV infections
+1394240219632 1-HighYield What are the most common types of low-risk HPV ? HPV 6, HPV 11
+1394242914870 1-HighYield Koilocytes are a cytologic feature of HPV infected cells and involve a nucleus with a ' raisin-like ' shape
+1395340470032 1-HighYield Cutaneous warts (verrucae vulgaris) are soft, flesh-colored, cauliflower-like papules that appear on the skin due to HPV infection of keratinocytes
+1463093999696 2-RelativelyHighYield Condylomata acuminata are warty neoplasms of genital skin, often caused by low-risk HPV strains , and are often large
+1463105896827 1-HighYield What are the high-risk strains of HPV ? 16, 18, 31, 33
+1463105909117 1-HighYield High-risk HPV strains produce E6 protein, which increases destruction of p53
+1463105915437 1-HighYield High-risk HPV strains produce E7 protein, which increases destruction of Rb (specifically p105-Rb)
+1482692038702 3-HighYield-temporary What viruses fall under Papillomaviruses ? HPV
+1493398712106 1-HighYield What are four characteristics of human papillomavirus (HPV) itself? Non-enveloped (naked) Icosahedral Circular dsDNA
+1493400683960 2-RelativelyHighYield Which type of genome do papilloma viruses have? Circular
+1493401106064 3-HighYield-temporary HPV-related cervical cancer is more common in patients with what other disease ? HIV / AIDS
+1494087380814 3-HighYield-temporary What type(s) of HPV encode for the proteins E6 and E7? High-risk HPVs (16, 18, 31, 33)
+1502718274711 1-HighYield Which layer of the epithelium does HPV infect? Stratum basale

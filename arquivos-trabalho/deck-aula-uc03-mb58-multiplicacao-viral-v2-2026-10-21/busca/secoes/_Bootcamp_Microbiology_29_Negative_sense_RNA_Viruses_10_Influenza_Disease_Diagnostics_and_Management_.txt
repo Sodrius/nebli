@@ -1,0 +1,26 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::29_Negative-sense_RNA_Viruses::10_Influenza_(Disease,_Diagnostics,_and_Management) (25 notas)
+1473548369834 1-HighYield Viral pneumonia may damage the mucociliary escalator, which consequently predisposes to superimposed bacterial pneumonia
+1484872778380 1-HighYield S. aureus pneumonia most commonly occurs following Influenza infection (post-viral)
+1486591251230 1-HighYield What viruses classically cause Reye syndrome when treated with aspirin ? Influenza B, VZV
+1487122056375 1-HighYield What type of vaccine is the intranasal influenza vaccine ? Live attenuated
+1503966481068 - What is the likely diagnosis in a patient who presents in the winter with abrupt onset of high-grade fever , headache , and severe myalgias ? No lymphadenopathy or abnormal lung sounds are appreciated
+1503966673528 - What is the recommended treatment for a middle-aged patient that presents with symptoms related to influenza for 4 days? Symptomatic treatment
+1516324301529 2-RelativelyHighYield Amantadine and rimantadine are drugs that inhibit the M2 protein channels of influenza A
+1516324529716 1-HighYield Which two anti-influenza drugs inhibit the M2 channels ? Amantadine, rimantadine
+1516324579285 1-HighYield Which two anti-influenza drugs have a high rate of resistance (no longer recommended)? Amantadine and rimantadine
+1516324778471 1-HighYield Zanamivir and oseltamivir are drugs that inhibit neuraminidase of influenza A and B
+1516324960043 1-HighYield Which two anti-influenza drugs inhibit virion release ? Zanamivir, oseltamivir
+1516325270266 1-HighYield What type of influenza vaccine is injected intramuscularly ? Inactivated / killed
+1516325456216 1-HighYield What is the most common complication of influenza ? Secondary bacterial pneumonia
+1516325574181 1-HighYield Secondary bacterial pneumonia is typically Strep pneumoniae , Staph aureus , or Haemophilus influenzae superimposed on influenza
+1516326164084 1-HighYield Influenza is associated with Guillain-Barré syndrome
+1516401763134 1-HighYield Which two anti-influenza drugs inhibit viral uncoating ? Amantadine and rimantadine
+1517598271560 - Healthy patients age ≥ 6 months should receive annual influenza vaccine
+1523127399647 2-RelativelyHighYield The inactivated influenza vaccine results in humoral (antibody) response to the hemagglutinin antigen
+1523127679930 3-HighYield-temporary The inactivated influenza vaccine results in antibody production that inhibits viral entry (into host cells) via binding to hemagglutinin
+1523127993738 2-RelativelyHighYield The intranasal influenza vaccine induces a(n) humoral and cell-mediated response
+1525619441985 3-HighYield-temporary Alcohol disrupts the envelope of viruses
+1550712327436 - Severe fever, cough, and myalgias is suggestive of influenza
+1552731758547 - Influenza pneumonia creates bilateral, diffuse interstitial infiltrates on chest x-ray
+1584403486656 - The influenza vaccine is recommended during flu season, from October - May in the northern hemisphere and May - October in the southern hemisphere
+1691516524186 1-HighYield Inactivated / killed vaccines may be remembered with the mnemonic " A TRIP could kill Y ou"

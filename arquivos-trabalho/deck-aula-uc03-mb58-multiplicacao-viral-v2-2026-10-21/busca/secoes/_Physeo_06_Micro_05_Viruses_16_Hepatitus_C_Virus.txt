@@ -1,0 +1,30 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::16_Hepatitus_C_Virus (29 notas)
+1461797595100 5-LowYield What traditional treatment for hepatitis C is no longer used? Interferon α and ribavirin
+1461797767925 5-LowYield Mainstay of treatment for hepatitis C infection includes NS3/NS4A protease inhibitors and NS5A inhibitors which should be administered together
+1475363911361 2-RelativelyHighYield Which infectious diseases are membranous nephropathy associated with? HBV, HCV, and syphilis
+1478995527343 4-LowerYield The cause of aplastic anemia may be immune -mediated and sometimes follows acute hepatitis
+1486591284504 2-RelativelyHighYield Risk factors for hepatocellular carcinoma include chronic hepatitis (e.g., HBV, HCV)
+1488502641435 - Lichen planus is an inflammatory dermatitis associated with chronic hepatitis C infection
+1503965930531 - What is the likely underlying infection in a patient with recurrent blisters on sun-exposed areas with fatigue , nausea , and elevated LFTs ? Chronic hepatitis C infection
+1506627350233 4-LowerYield What type of viruses are flaviviruses ? Positive sense RNA
+1506627488843 4-LowerYield Do flaviviruses have an envelope ? Yes
+1506627521051 1-HighYield What family of viruses does hepatitis C virus (HCV) belong to? Flaviviridae
+1506627592347 5-LowYield Are flaviviruses segmented or non-segmented ? Non-segmented
+1506629145354 1-HighYield What type of virus is hepatitis C virus ? Positive sense RNA
+1506629328611 1-HighYield Hepatitis C virus is most commonly transmitted through blood
+1506629569529 1-HighYield Hepatitis C virus can be transmitted through needle sticking or sharing
+1506629766099 2-RelativelyHighYield Hepatitis C virus displays antigenic variability of its envelope proteins
+1506629798167 2-RelativelyHighYield What is the mechanism for antigenic variation of envelope proteins in hepatitis C virus ? Lack of 3'-5' exonuclease → lack of proofreading → antigenic variation
+1506629961596 2-RelativelyHighYield Which hepatitis virus lacks 3'-5' exonuclease activity? Hepatitis C virus
+1506630060423 1-HighYield Hepatitis C infections become chronic in 60 - 80% of cases
+1506630386378 3-HighYield-temporary Hepatitis C RNA is found in the serum for < 6 months in the acute stage
+1506630461508 2-RelativelyHighYield The acute phase of both hepatitis B & C virus infections are marked by a rise and fall of ALT in 6 months
+1506630504581 3-HighYield-temporary Hepatitis C RNA is found in the serum for ≥ 6 months in the chronic stage
+1506630621596 1-HighYield Which hepatitis virus is associated with cryoglobulins ? Hepatitis C virus
+1506630702445 1-HighYield Hepatitis C virus is associated with cryoglobulins, which are IgM immunoglobulins that precipitate out of the blood at cool temperatures
+1506630733850 1-HighYield Older treatments that can be used for hepatitis C virus infection include IFN-α and ribavirin
+1506631004332 1-HighYield Hepatitis C virus infections can be treated with protease and polymerase inhibitors
+1514738701137 4-LowerYield HCV therapeutics with the suffix - asvir work by inhibiting the NS5A protein, which plays an integral role in viral replication
+1514739659474 4-LowerYield HCV therapeutics with the suffix - previr work by inhibiting the NS3/4A protease
+1522419532686 4-LowerYield Cryoglobulinemic vasculitis is a(n) small-vessel vasculitis that can be seen in patients with HCV
+1556707648463 - IFN-α can be used to treat which hepatitis infections? Hepatitis B and C

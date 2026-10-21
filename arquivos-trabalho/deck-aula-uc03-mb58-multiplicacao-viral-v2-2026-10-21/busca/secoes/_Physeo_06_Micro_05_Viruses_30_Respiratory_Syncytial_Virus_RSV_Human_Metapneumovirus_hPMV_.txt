@@ -1,0 +1,18 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::30_Respiratory_Syncytial_Virus_(RSV)_&_Human_Metapneumovirus_(hPMV) (17 notas)
+1506297103030 2-RelativelyHighYield What type of viruses are paramyxoviruses ? Negative sense RNA
+1506297222604 1-HighYield Which family of viruses does respiratory syncytial virus (RSV) belong to? Pneumoviridae* (negative sense RNA)
+1506297227729 4-LowerYield Which family of viruses does human metapneumovirus belong to? Pneumoviridae (negative sense RNA)
+1506297239258 1-HighYield Do paramyxoviruses have an envelope ? Yes
+1506297282227 1-HighYield What is the route of transmission of most* paramyxoviruses ? Respiratory droplets
+1506298553385 2-RelativelyHighYield Paramyxoviruses can express the virulence factor hemagglutinin which binds sialic acid, promoting viral entry into cells
+1506298786823 2-RelativelyHighYield Paramyxoviruses contain surface F (fusion) proteins that cause respiratory epithelial cells to fuse and form multinucleated giant cells
+1506457318835 1-HighYield Respiratory syncytial virus (RSV) is typically seen in children < 2 years of age
+1506457483328 1-HighYield RSV uses the G protein in order to infect respiratory epithelial cells
+1506457525828 1-HighYield What is the most common cause of pneumonia in infants ? Respiratory syncytial virus (RSV)
+1506457578924 1-HighYield What is the most common cause of bronchiolitis in infants ? Respiratory syncytial virus (RSV)
+1506457588894 1-HighYield RSV contains the virulence factor F (fusion) protein, which allows the production of multinucleated giant cells
+1506457768755 2-RelativelyHighYield What is the treatment of respiratory syncytial virus (RSV) in adults ? Ribavirin
+1506457874779 2-RelativelyHighYield What is used for prevention of respiratory syncytial virus (RSV) in preterm infants ? Nirsevimab or palivizumab
+1506457932361 1-HighYield Nirsevimab and palivizumab are monoclonal antibodies against the fusion (F) protein of RSV
+1506459892639 1-HighYield Which viral virulence factor causes respiratory cell fusion and multinucleated giant cell production? F (fusion) protein
+1537632149338 - Inflammation of the small airways / bronchioles usually caused by RSV is suggestive of bronchiolitis

@@ -1,0 +1,48 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::13_Epstein-Barr_Virus_Diagnostics_and_Management (47 notas)
+1403140930710 1-HighYield Which herpesvirus is associated with nasopharyngeal carcinoma ? EBV (HHV-4)
+1403140946098 1-HighYield Which herpesvirus causes mononucleosis with a negative monospot test ? CMV (HHV-5)
+1403149724209 1-HighYield Which serological antigen from Epstein-Barr virus (EBV) is produced if the infection is active and productive ? Viral capsid antigen (VCA)
+1403149942402 1-HighYield Which serological antigen from EBV is seen in latent infection? Epstein-Barr nuclear antigen (EBNA)
+1403149965943 1-HighYield Epstein-Barr nuclear antigen (EBNA) is a serological antigen from EBV that contributes to Hodgkin or Burkitt lymphoma
+1403294217650 2-RelativelyHighYield Primary CNS lymphoma is a lymphoma often associated with EBV that can present as focal/solitary lesions, thereby differentiating it from toxoplasmosis
+1473536793729 3-HighYield-temporary Nasopharyngeal carcinoma is a malignant tumor of nasopharyngeal epithelium
+1473536801482 2-RelativelyHighYield Nasopharyngeal carcinoma is classically seen in Chinese adults
+1480564049214 1-HighYield What initial test is commonly used to diagnose infectious mononucleosis ? Monospot test
+1480564052470 1-HighYield The monospot test detects IgM heterophile antibodies that cross-react with horse or sheep RBCs
+1480564059776 4-LowerYield A(n) negative monospot test with symptoms of infectious mononucleosis suggests CMV infection
+1480564063016 2-RelativelyHighYield A definitive diagnosis of infectious mononucleosis is made by serologic testing for the EBV viral capsid antigen
+1480564116452 2-RelativelyHighYield Epstein-Barr virus (EBV) remains dormant in B cells , which increases risk for lymphoma , especially if immunodeficiency develops (e.g., HIV )
+1481335525711 1-HighYield Endemic Burkitt lymphoma is associated with Epstein-Barr virus (EBV) infection
+1481335541845 1-HighYield Burkitt lymphoma is driven by a t( 8 ; 14 ) translocation
+1481335558657 1-HighYield Burkitt lymphoma is characterized by a high mitotic index and " starry-sky " appearance on microscopy
+1481335598266 2-RelativelyHighYield Primary CNS lymphoma typically presents in adults with confusion , memory loss , and seizures (variable presentation)
+1481335601785 1-HighYield Primary CNS lymphoma typically presents as a single , solid brain lesion on MRI
+1481335618613 1-HighYield Hodgkin lymphoma is a neoplastic proliferation of Reed-Sternberg cells
+1481335625688 1-HighYield Reed-Sternberg cells are large B cells with multilobed nuclei and prominent nucleoli ("owl eye" appearance)
+1481335636086 1-HighYield Reed-Sternberg cells are classically positive for CD 15 and CD 30
+1481335641858 1-HighYield Reed-Sternberg cells secrete cytokines, which attract other inflammatory cells
+1481335649637 1-HighYield Reed-Sternberg cells occasionally result in "B" symptoms (fever, weight loss, night sweats)
+1481335799700 2-RelativelyHighYield Hodgkin lymphoma has a bimodal distribution : common in young adults and adults > 55 years
+1482191378467 3-HighYield-temporary Oral leukoplakia and erythroplakia are precursor lesions to squamous cell carcinoma
+1482191380555 1-HighYield Oral leukoplakia is a white deposit on the tongue that cannot be easily scraped away
+1482191393787 2-RelativelyHighYield Hairy leukoplakia is a white, rough patch that arises on the lateral tongue
+1482191400858 3-HighYield-temporary Is hairy leukoplakia pre-malignant for oral squamous cell carcinoma? No
+1496159344591 2-RelativelyHighYield Which oncogenic microbe is associated with nasopharyngeal carcinoma , post-transplant lymphoproliferative disease , and certain lymphomas (e.g., endemic Burkitt, primary CNS)? Epstein-Barr virus (EBV)
+1500235087296 2-RelativelyHighYield Candida albicans results in white patches in the oral cavity that can be scraped away
+1503853483744 1-HighYield Epstein-Barr virus causes monospot positive infectious mononucleosis
+1503853789736 1-HighYield Epstein-Barr virus is associated with Downey type II atypical CD8+ cytotoxic T cells on blood smear
+1503854191836 1-HighYield Atypical ( Downey type II ) T cells are unusually large T cells with baso philic , vacuolated cytoplasm and a lobulated nucleus
+1503856230733 1-HighYield Epstein-Barr virus is strongly associated with the mixed cellularity and lymphocyte-depleted subtypes of Hodgkin lymphoma
+1503856659741 4-LowerYield Which subtype of Hodgkin lymphoma has the most Reed-Sternberg cells ? Mixed cellularity Hodgkin lymphoma (MCHL)
+1503856727554 2-RelativelyHighYield Hodgkin lymphoma may present as a(n) mediastinal mass or nontender cervical / supraclavicular and/or axillary lymphadenopathy
+1503856816924 1-HighYield Epstein-Barr virus is associated with the endemic (African) form of Burkitt lymphoma
+1503857084845 2-RelativelyHighYield Which form of Burkitt lymphoma presents as an abdominal mass ? Non-endemic (sporadic form)
+1503857167545 1-HighYield Nasopharyngeal carcinoma is a complication of Epstein-Barr virus in patients of Asian descent
+1503857420915 1-HighYield What demographic is associated with nasopharyngeal carcinoma that arises from EBV ? Asians
+1503857456202 1-HighYield What virus causes agglutination of sheep or horse RBCs ? Epstein-Barr virus
+1555459854187 - Primary CNS lymphoma is typically characterized by the presence of EBV DNA in the CSF and a single ring-enhancing lesion on MRI in an HIV-infected patient
+1555873099151 - Painless lymphadenopathy, B symptoms, and pruritus are seen in Hodgkin lymphoma
+1556984581057 - Infectious mononucleosis may present with increased LFTs due to hepatitis and lympho cytosis
+1577804124702 1-HighYield Immunodeficiency (e.g., HIV) increases the risk for non-Hodgkin lymphoma , which presents as diffuse lymphadenopathy and B symptoms
+1580615127083 2-RelativelyHighYield Which virus may cause gastric lymphomas ( marginal zone or diffuse large B-cell lymphomas )? Epstein-Barr virus
+1582742798420 2-RelativelyHighYield Primary CNS lymphoma is a form of non-Hodgkin lymphoma that may present with headache, seizure, or behavioral changes

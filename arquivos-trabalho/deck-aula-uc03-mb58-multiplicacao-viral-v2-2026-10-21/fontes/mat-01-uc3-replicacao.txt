@@ -1,0 +1,476 @@
+
+=== p.387
+387 
+ 
+ 
+ 
+ 
+Replicação Viral  
+Sistemas de Classificação  
+Existem dois sistemas de classificação viral atualmente: O sistema hierárquico e o sistema de 
+Baltimore.  
+Sistema hierárquico 
+O sistema hierárquico de classificação dos vírus segue o seguinte princípio: os vírus devem ser 
+agrupados em função de suas características em comum e não em função das características das 
+células que infectam. Esse sistema foi criado em 1962 por Lwoff, Horne e Tourier e seu principal 
+contexto envolve a estrutura viral. Nesse sistema, as quatro características fundamentais são: 
+➢ Tipo de ácido nucleico (DNA ou RNA);  
+➢ Simetria do capsídeo (icosaédrica, helicoidal ou complexa);  
+➢ Presença ou não de envelope;  
+➢ Dimensões do vírion ou capsídeo.  
+Sistema de Baltimore 
+Princípio: todos os vírus devem produzir mRNA a partir do genoma para sintetizar proteínas e 
+replicar seu material genético. O mecanismo usado varia entre os diferentes tipos de vírus. Isso 
+baseia-se nas diferentes estratégias de replicação viral e na dependência absoluta dos vírus do 
+sistema de tradução proteica da célula.  
+O sistema de Baltimore é pautado no modo como o vírus em questão produzirá o RNAm viral 
+necessário para produzir proteínas na célula hospedeira. Esse sistema permite prever de maneira 
+prática, de certo modo, a maneira como o vírus tende a se comportar ou como opera, assim como 
+permite deduzir alguns tipos de proteínas virais que o vírus trás consigo ou produz.  
+
+=== p.388
+388 
+ 
+ 
+ 
+ 
+Os vírus do grupo I possuem DNA próprio e, dessa maneira, codificam diretamente o mRNA na 
+célula. Alguns se replicam no núcleo celular utilizando enzimas celulares. Outros replicam no 
+citoplasma utilizando enzimas próprias. Exemplos: Adenovírus, herpesvírus, papilomavírus, 
+poliomavírus.  
+Os vírus do grupo II possuem DNA próprio de fita simples e, para produzirem o mRNA estes vírus 
+devem antes produzir o DNA de dupla fita. Assim, a replicação nuclear depende de enzimas celulares. 
+Exemplo: Parvovírus.  
+Os vírus do grupo III possuem RNA próprio de fita dupla e, consequentemente, detém a habilidade 
+de transcrever os próprios RNAs em mRNA se utilizando de enzimas próprias que utilizem RNA 
+como molde (a RNApol celular utiliza DNA como molde). Aqui temos um genoma segmentado, sendo 
+cada segmento transcrito para produzir um mRNA monocistrônico. A replicação é citoplasmática. 
+Exemplo: Reovírus.  
+Os vírus do grupo IV possuem RNA próprio de fita simples e polaridade positiva. O genoma de 
+polaridade positiva desses vírus funciona como um próprio mRNA e, nesse sentido, podem ocasionar 
+uma produção direta, sem a necessidade de uma maquinaria prévia. A replicação é citoplasmática. 
+Vale dizer, no entanto, que para produzir outros mRNA esse vírus primeiro deve converter a polaridade 
+positiva em um RNA de polaridade negativa (molde). Exemplos: Coronavírus e flavivírus.  
+Os vírus do grupo V possuem RNA próprio de fita simples e polaridade negativa. O RNA 
+negativo deve ser transcrito por uma RNApol dependente de RNA, de origem viral. Aqueles com 
+genoma não segmentado replicam no citoplasma, enquanto aqueles com genoma segmentado 
+replicam no núcleo. Exemplo desse vírus é o arenavírus.  
+Os vírus do grupo VI possuem RNA próprio de fita simples e polaridade positiva. Diferentemente do 
+grupo IV, no entanto, esses vírus utilizam seu material genético para codificar um DNA que, por sua 
+vez, irá codificar o mRNA. Aqui, existe então uma transcrição reversa de RNA para DNA e uma 
+etapa obrigatória de integração no genoma da célula hospedeira. Exemplo desse vírus é o retrovírus.  
+Vale dizer que o vírus da hepatite B é um caso diferente, integrando um grupo VII. Esse vírus possui 
+um DNA de dupla fita parcial circular. Ou seja, há regiões do DNA circular que apresentam fita 
+simples, visto que uma das fitas de DNA desse vírus é completa e a outra é incompleta. Nesse sentido, 
+quando inserido dentro de uma célula, esta possui mecanismos de reparo de DNA simples fita que irá 
+atuar sobre o genoma do vírus. Após isso ocorrer, o DNA dupla fita formará RNAs de modo a codificar 
+as partículas virais e outro RNA maior que será o novo material genético inserido na nova partícula 
+viral. No entanto, esse novo RNA será antes convertido em DNA e, assim, o ciclo se repete.  
+ 
+
+=== p.389
+389 
+ 
+ 
+ 
+ 
+Etapas de Replicação Viral  
+Os mecanismos da replicação viral envolvem alguns conceitos importantes. O estabelecimento de 
+uma infecção viral produtiva depende de:  
+➢ Susceptibilidade: existência de receptores para o vírus;  
+➢ Permissividade: presença de fatores celulares que permitem a replicação viral eficiente;  
+➢ Acessibilidade à célula-alvo;  
+➢ Resposta imune: pode determinar o estabelecimento, eliminação ou persistência da infecção.  
+No contexto viral, infecção é o mecanismo pelo qual o vírus introduz seu material genético na célula. 
+Pode ser classificada em produtiva (com a produção de novas partículas virais) ou abortiva (sem a 
+produção de novas partículas virais).  
+Vale dizer que no ciclo de replicação, primeiramente é necessário ao vírus localizar os receptores 
+celulares, os quais serão utilizados como entrada no hospedeiro. Num segundo momento é necessária 
+sua entrada e sua exposição de seu material genético. Consequentemente há a montagem de novas 
+partículas virais e a liberação destas. Ou seja, segue-se o seguinte roteiro: Adsorção → Penetração 
+→ Desnudamento → Síntese dos componentes virais (proteínas e ácidos nucleicos) → Montagem → 
+Maturação → Liberação.  
+Uma das estratégias de entrada viral é a sua compactação em endossomos. Nessas vesículas há 
+grande variação de pH, que, consequentemente, são usadas a favor do vírion de modo a ocasionar a 
+liberação de seu material genético no citoplasma antes da fusão do endossomo com o lisossomo. Isso 
+ocorre, por exemplo, com os picornavírus.  
+A adsorção consiste na interação com receptores presentes na membrana celular. Esses 
+receptores são proteínas de membrana que são reconhecidas por determinado tipo viral de maneira 
+específica. No caso do HIV, este possui em seu envelope moléculas denominadas gp41 e gp120. A 
+gp120, especificamente, irá interagir com co-receptores CD4 e CCR5. Essa interação irá permitir uma 
+mudança conformacional da gp120 que, desse modo, irá exibir um domínio hidrofóbico na superfície 
+da molécula de gp41, que pode se inserir na bicamada lipídica da membrana. Isso, portanto, permite 
+sua integração e acoplamento.  
+
+=== p.390
+390 
+ 
+ 
+ 
+ 
+A penetração pode ocorrer, em geral, por endocitose, translocação ou fusão de membranas.  
+Quando o vírus penetra no endossomo, há alteração da conformação das proteínas presentes no 
+envelope. O reconhecimento do receptor na adsorção inicia a mudanças conformacionais, que podem 
+ser aumentadas pela entrada no endossomo, devido à alteração do pH do meio. 
+O desnudamento é o desmantelamento parcial ou total do capsídeo viral e consequente liberação 
+do ácido nucleico. Isso pode ocorrer direto no citoplasma; após acidificação da vesícula endossômica; 
+ou no poro nuclear. O desnudamento consiste na separação do ácido nucleico viral de seu envoltório 
+proteico. 
+
+=== p.391
+391 
+ 
+ 
+ 
+ 
+Um exemplo consiste nos adenovírus, que se ligam à receptores de adesão CAR e integrinas na 
+membrana celular, induzindo assim a formação de endossomos. A mudança de pH desse ambiente 
+degrada parcialmente o capsídeo e permite a sua saída do endossomo por meio de mecanismos mais 
+complexos. Com sua saída, há o engate no transporte via dineínas e dinactina acopladas aos 
+microtúbulos, transportando o vírion ao poro nuclear, onde então há a liberação do material viral. Isso 
+ocorre pelo intermédio de proteínas virais que possuem em sua sequência sinais de localização 
+nuclear (NLS – nuclear localization signal).  
+Uma vez que o material genético do vírus se encontra dentro da célula, ocorrerão diferentes etapas 
+de síntese dos componentes virais (proteínas e ácido nucleico). No contexto proteico, há a transcrição 
+dos mRNA. Alguns vírus codificam todas as suas proteínas já nesse processo, enquanto outros 
+compartimentalizam em etapas a produção de suas proteínas, possuindo proteínas precoces, 
+intermediárias e tardias em todo o seu processo replicativo. A síntese proteica pode ser ocasionada 
+nos ribossomos ou no retículo endoplasmático. No contexto dos vírus de replicação citoplasmática, 
+exemplos de proteínas precoces são aquelas que bloqueiam as vias de apoptose celular e as vias de 
+IFN-I. Vale dizer que a presença de corpúsculos de inclusão – estruturas que se formam no interior de 
+células infectadas durante a multiplicação viral – pode levar a um raciocínio de infecção viral em 
+indivíduos. É importante lembrar que apenas alguns vírus ocasionam a aparição de corpúsculos de 
+inclusão, sendo um deles o vírus da raiva.  
+Em geral, vírus de DNA replicam no núcleo e vírus de RNA replicam no citoplasma. No 
+entanto, há exceções, como o vírus da varíola, que é de DNA e se replica no citoplasma, além do 
+influenza, que é de RNA, mas se replica no núcleo. 
+
+=== p.392
+392 
+ 
+ 
+ 
+ 
+Obs.: Como a RNA polimerase celular se encontra no núcleo, em vírus de replicação 
+citoplasmática, é necessário que o vírus tenha sua própria RNA polimerase dentro do 
+nucleocapsídeo. 
+A replicação dos ácidos nucleicos das células normais é realizada por polimerases. Nesse sentido 
+há a necessidade de um molde e de um sítio iniciador.  
+
+=== p.393
+393 
+ 
+ 
+ 
+ 
+Então, num primeiro momento, há a separação das fitas do DNA e síntese do primer, que será o 
+sítio de engate, para DNApol para propiciar a extensão dessa fita. A sequência de nucleotídeos 
+acrescentada será determinada pela fita molde. Isso é apenas uma visão simplificada do processo, 
+visto que este é muito mais complexo. Muitos vírus irão se aproveitar dessa complexidade e utilizar 
+de artifícios para promover a própria replicação. Outros vírus, no entanto, se utilizam de uma 
+maquinaria paralela, ou então de uma maquinaria integrada com esta. É importante ressaltar que, 
+para vírus que se utilizam de uma maquinaria própria é mais facilitador para a indústria química 
+produzir fármacos que atuem em seu ciclo, visto que há uma maior diferença entre self e non-self 
+neste ciclo.  
+A estratégia de replicação dos vírus depende da natureza do genoma:  
+Mecanismos de Replicação de Vírus de DNA  
+A maioria dos vírus de DNA replica-se no núcleo, usando a maquinaria da célula. Aqueles que se 
+replicam no citoplasma precisam de enzimas próprias para tal. A menor dependência da célula 
+para realizar suas funções é tida como indício de maior complexidade do vírus. A replicação do DNA 
+viral sempre requer a síntese de pelo menos uma proteína viral, às vezes várias. Vírus simples 
+dependem mais das proteínas da célula hospedeira. Vírus complexos codificam muitas das proteínas 
+necessárias para sua replicação (mas não todas). 
+Algumas proteínas virais que devem ser produzidas são: DNA polimerase e proteínas acessórias; 
+Proteínas que reconhecem à origem de replicação e proteínas acessórias; Exonucleases; Enzimas 
+para o metabolismo de ácidos nucleicos. 
+
+=== p.394
+394 
+ 
+ 
+ 
+ 
+Caso a replicação seja feita por meio de forquilhas, os primers usados são de RNA, como 
+acontece normalmente em eucariotos. Se qualquer outra estratégia for usada, os primers serão 
+de proteína ou de DNA. Para que a maquinaria replique genoma viral em detrimento do celular é 
+preciso que ocorra a expressão de determinadas proteínas.  
+Assim como nos eucariotos, os vírus também perderiam parte de suas extremidades 5’ do DNA no 
+contexto da replicação do material genético, o que é extremamente significativo para genomas tão 
+pequenos. Eles, porém, têm estratégias para driblar isso e manter seu material genético íntegro 
+(desconsiderando-se mutações e afins).  
+Vale dizer que quanto menor o vírus, mais simples este pode ser considerado. Algumas 
+características importantes da estratégia de replicação são: apresentarem funções precoces e tardias; 
+utilizarem proteínas multifuncionais (como antígeno T, E6 e E7) e a célula hospedeira proporcionar a 
+maquinaria para síntese de RNA/DNA e modificação do RNA, além de histonas para o empacotamento 
+de DNA. Alguns exemplos desses vírus são os poliomavírus e papilomavírus, os quais serão 
+abordados a seguir:  
+Os poliomavírus possuem DNA circular de fita dupla, evitando que haja a perda de extremidades 
+do material genético. Eles expressam antígenos T, que reconhecem a origem de replicação. Os 
+antígenos T têm função semelhante à enzima helicase, presente na nossa maquinaria genética, e, ao 
+abrirem o genoma, recrutam a maquinaria de replicação da célula. O antígeno liga-se 
+ininterruptamente, visto que o objetivo dessa ação viral é produzir um grande número de cópias de si. 
+Isso, porém, provoca grande torção das fitas de DNA da célula. Essa torção é corrigida pela enzima 
+topoisomerase por meio de cortes nas fitas de DNA, que, consequentemente, irão induzir a maquinaria 
+de reparo celular, a qual possui uma alta competência e pouca margem mutagênica.  
+ 
+
+=== p.395
+395 
+ 
+ 
+ 
+ 
+ 
+
+=== p.396
+396 
+ 
+ 
+ 
+ 
+O papiloma vírus humano (HPV) possui DNA circular de fita dupla e infecta principalmente 
+queratinócitos do epitélio estratificado em sua camada basal, chegando ao local por meio de lesões 
+externas no epitélio. O vírus possui preferência por esse local por ser uma região de atividade intensa 
+e constante da maquinaria de replicação celular. Depois de infectar as células-alvo da camada basal, 
+o vírus, posteriormente, consegue migrar para estratos superiores do epitélio.  
+Como a amplificação do genoma do HPV ocorre nas camadas diferenciadas do epitélio, ele deve 
+induzir a síntese de DNA em células comprometidas em diferenciação terminal. Para isso ele ativa a 
+maquinaria das células por meio das proteínas pleiotrópicas E6 e E7, as quais promovem aumento do 
+tempo de vida celular, replicação de DNA não programada, resistência a apoptose e evasão da 
+resposta imune. Existem diferenças funcionais entre E6 e E7 de HPV que conferem diferentes níveis 
+de risco oncogênico.  
+Essas proteínas têm como alvo o p53 e a proteína do retinoblastoma, ambas reguladoras do 
+ciclo celular. Por essa razão esse vírus pode causar câncer.  
+Características importantes da estratégia de replicação dos poliomavírus e papilomavírus: 
+➢ Funções precoces e tardias; 
+➢ Proteínas multifuncionais (ex., Antígeno T, E6 e E7); 
+➢ A célula hospedeira proporciona a maquinaria para síntese de RNA, modificação do RNA, 
+síntese de DNA e histonas para o empacotamento do DNA. 
+Seguindo a lógica exposta acima, os vírus de DNA maiores são mais complexos. Alguns exemplos 
+desses vírus são os adenovírus, herpes vírus, poxvírus e parvovírus, os quais serão abordados a 
+seguir:  
+
+=== p.397
+397 
+ 
+ 
+ 
+ 
+• Os adenovírus possuem DNA linear de fita dupla. Eles utilizam a RNA polimerase da célula 
+hospedeira para realizar a replicação viral, contudo codificam a própria DNA polimerase (proteína 
+precoce), a qual utiliza uma proteína como “primer”. O DNA é replicado, numa fase tardia, por 
+deslocamento de fita (strand displacement mechanism), visto que as origens de replicação estão 
+localizadas nas extremidades da fita dupla de DNA. A característica desse tipo de replicação é que a 
+replicação de cada fita é iniciada separadamente, em momentos sucessivos. Vale notar que a 
+replicação é realizada sem a formação de fragmentos de Okazaki, pois as duas fitas são sintetizadas 
+em forma contínua.  
+• Os herpes vírus possuem DNA linear de dupla fita, o qual se torna circular assim que se infiltra na 
+célula-alvo, essa circularização é provocada por proteínas da célula hospedeira.  
+Para replicar-se, utiliza a estratégia do círculo rolante (rolling circle), que consiste em deixar uma 
+das fitas do DNA viral circular fixa e enquanto se desenrola a outra. Conforme ocorre esse 
+desenrolamento, a fita circular fixa é replicada por uma síntese contínua de DNA e a fita “desenrolada”, 
+por uma síntese descontínua. Essa estratégia elimina o problema da perda de informação genética na 
+extremidade do gene. Vale notar que esse processo de síntese, por ocorrer continuamente, produz 
+múltiplas cópias de DNA viral.  
+
+=== p.398
+398 
+ 
+ 
+ 
+ 
+• Os poxvírus são vírions grandes, envelopados e com morfologia complexa. Seu DNA é linear de 
+dupla fita, com as extremidades unidas. No contexto da replicação, o vírus induz um corte para 
+desfazer essa união. As fitas, então, são reparadas e forma-se uma alça. Nesse sentido a extremidade 
+do material genético também é preservada.  
+Um fato importante é que se replicam no citoplasma celular, portanto devem produzir a própria 
+maquinaria para a síntese de mRNA e DNA, e, para isso, a RNA Polimerase viral já vem pronta no 
+vírion. Imediatamente após a infecção, eles perdem seu envelope e sintetizam somente um pouco 
+mRNA, apenas limitando-se a produzir os mRNA denominados mRNA precoces (essenciais para 
+infecção). Assim, o DNA de vaccinia, após a remoção de todas as proteínas não é infeccioso uma vez 
+que não tem a RNA polimerase.  
+
+=== p.399
+399 
+ 
+ 
+ 
+ 
+• Os parvovírus possuem DNA linear de fita simples. Suas extremidades gênicas possuem 
+repetidas sequências nucleotídicas, as quais se dobram formam uma extremidade 3’-OH que possuirá 
+função de primer de DNA, iniciando, assim, a replicação viral.  
+
+=== p.400
+400 
+ 
+ 
+ 
+ 
+Mecanismos de Replicação de Vírus de RNA  
+Os vírus de RNA são classificados quanto ao tipo de RNA que possuem em sua composição: RNA 
+de polaridade positiva, RNA de polaridade negativa e RNA dupla-fita.  
+O RNA de polaridade positiva possui estrutura semelhante a um mRNA e, portanto, pode ser 
+transcrito imediatamente após sua entrada na célula alvo (a isso denominou-se genoma infeccioso). 
+O RNA de polaridade negativa, por outro lado, necessita da atividade de uma RNApol própria para 
+convertê-lo em mRNA. O RNA dupla-fita, por fim, também possui uma polimerase própria e a utiliza 
+para copiar a fita de polaridade positiva.  
+
+=== p.401
+401 
+ 
+ 
+ 
+ 
+Os retrovírus pertencem a uma classe especial de vírus. Eles possuem genoma de RNA, realizam 
+transcrição reversa e integram o DNA no genoma da célula, que passa a ser transcrito junto com ele.  
+Todos os vírus que possuem enzimas próprias têm maior taxa de mutação. Isso pode ser visto 
+como uma tática para evasão do sistema imune, visto que a recorrente mutação desses vírus propicia 
+um maior trabalho para o sistema imune produzir, recorrentemente, respostas específicas ao 
+patógeno.  
+
+=== p.402
+402 
+ 
+ 
+ 
+ 
+No contexto geral de todos os vírus, a montagem da partícula viral pode acontecer em qualquer 
+local na célula. Onde a montagem estiver ocorrendo pode haver a formação dos chamados 
+corpúsculos de inclusão. A liberação das partículas virais pode ocorrer por meio de lise, brotamento, 
+passagem do vírion para células vizinhas ou formação de sincícios (células multinucleadas fundidas 
+mediante a atividade viral). Vale dizer que a fusão de células é um efeito citopático frequente nos 
+vírus envelopados, resultante da fusão de membranas (sincícios) e permite passagem dos vírus 
+de uma célula a outra.  
+
+=== p.403
+403 
+ 
+ 
+ 
+ 
+ 
+
+=== p.404
+404 
+ 
+ 
+ 
+ 
+ 
+
+=== p.405
+405 
+ 
+ 
+ 
+ 
+Efeito Citopático -  ver imagens no ppt! 
+A presença de vírus em células em cultura pode induzir alterações visíveis ao microscópio. Estas 
+alterações são conhecidas como conjuntamente como efeito citopático. Estas alterações são 
+resultantes das alterações fisiológicas da célula hospedeira por interferência dos vírus. O efeito 
+citopático não permite, no entanto, a identificação do vírus, mas fornece uma base para um 
+agrupamento preliminar destes. Efeito citopático refere-se a alterações degenerativas em células 
+(especialmente em cultura) associadas à multiplicação de certos vírus. 
+As alterações celulares incluem:  
+➢ forma alterada;  
+➢ perda de adesão ao substrato;  
+➢ lise;  
+➢ fusão de membrana (sincícios);  
+➢ presença de corpos de inclusão;  
+➢ apoptose.  
+Cultura de epitélio normal:  
+Poliovírus podem ocasionar células pequenas e arredondadas, com citoplasma eosinófilo e núcleo 
+picnótico. Há uma lise rápida do tapete celular e seu tempo de incubação varia de 2 a 7 dias.  
+Adenovírus podem ocasionar células arredondadas e aumentadas em tamanho, com núcleo 
+alterado e com a presença de corpúsculo de inclusão nuclear, basófilo. Há descolamento do tapete e 
+há grande quantidade de lise celular, mas também há a presença de células em formação de “cachos 
+de uva” sem lise. O tempo de incubação do vírus varia de 4 a 21 dias.  
+
+=== p.406
+406 
+ 
+ 
+ 
+ 
+O vírus do sarampo é característico por ocasionar sincícios gigantes, com 30 a 100 núcleos, além 
+da formação de pontes citoplasmáticas e corpúsculos de inclusão citoplasmáticos, mas mantendo os 
+núcleos celulares íntegros. O tempo de incubação varia 7 a 21 dias.  
+O vírus herpes é característico por ocasionar sincícios com forma estrelada – pontes 
+citoplasmáticas; núcleo com corpúsculo de inclusão eosinófilo, circundado por halo claro. O tempo de 
+incubação do vírus varia de 7 a 21 dias.  
+O vírus vaccínia provoca sincícios pequenos e arredondados, com núcleos íntegros com 
+visualização dos nucléolos, além de corpúsculos de inclusão citoplasmáticos. O tempo de incubação 
+varia de 4 a 21 dias.  
+ 
+Antivirais  
+Há poucas patologias virais para as quais temos tratamentos eficazes, pois além da alta 
+dependência da maquinaria celular do hospedeiro, os vírus possuem estratégias e proteínas muito 
+variadas, dificultando o desenvolvimento de um antiviral que possa atingir mais de um tipo de vírus. A 
+melhor forma de combater o vírus é, portanto, a profilaxia (vacina).  
+Outra dificuldade no trabalho com viroses é seu diagnóstico, uma vez que a infecção tende a evoluir 
+depressa e possuem, em geral, sintomas semelhantes.  
+Para funcionar como antiviral, o medicamento precisa agir em alguma etapa do ciclo viral, ou seja, 
+da adsorção à liberação.  
+Os inibidores de fusão funcionam apenas para vírus que se fundem à membrana celular. Um 
+exemplo é o enfuvirtida, que impede alteração conformacional da gp120 do vírus HIV (graças a essa 
+glicoproteína, presente na camada externa do vírus HIV, ele é capaz de se fundir à membrana da 
+célula TCD4), evitando fusão do domínio hidrofóbico com a membrana. Este fármaco possui muitos 
+efeitos colaterais.  
+Os inibidores de desnudamento evitam que o material infeccioso do vírus seja exposto na célula. 
+Um exemplo disso é a amantidina, a qual bloqueia a entrada de prótons no endossomo celular 
+e prende, por exemplo, o vírus influenza. Ele, então, será levado aos endossomos e, visto que não 
+conseguirá escapar do mesmo, destruído.  
+Os inibidores de polimerases virais podem ou não ser análogos de nucleotídeos/nucleosídeos. O 
+aciclovir é um exemplo de antiviral análogo, que consegue pausar a síntese de DNA do vírus 
+herpes assim que é incorporado na molécula viral. A grande desvantagem desse medicamento é 
+que uma única mutação no sítio de ligação ao vírus é suficiente para diminuir sua eficácia. Os antivirais 
+
+=== p.407
+407 
+ 
+ 
+ 
+ 
+não análogos inibem diretamente a enzima polimerase viral com alterações de conformação. Os 
+antivirais utilizados para retrovírus também podem ser desses tipos descritos.  
+Os inibidores de protease atuam nas enzimas responsáveis pelo processamento de proteínas virais 
+transcritas para torná-las maduras. Isso impede a formação de novos vírions e é uma alternativa para 
+tratamento da hepatite C.  
+Os inibidores de brotamento impedem que os vírus saiam da célula. É um tratamento válido para 
+o vírus da gripe, no qual os inibidores impedem que a neuroaminidase clive a ligação da 
+hemaglutinina com o ácido siálico, deixando o vírus preso na célula. Esta é engolida junto com 
+o vírus e ambos são destruídos no estômago.  
+A terapia antirretroviral para o vírus HIV é responsável pelo aumento na qualidade de vida dos 
+indivíduos soropositivos, pois evita que o vírus diminua a contagem de linfócitos T CD4+. Porém, 
+indivíduos portadores do vírus têm maior chance de desenvolver demência precoce e problemas 
+digestivos importantes, uma vez que o vírus infecta quase qualquer célula do organismo.  
+Os fármacos disponíveis para o tratamento do HIV são inibidores da transcriptase reversa (análogos 
+de nucleotídeos/nucleosídeos ou não), inibidores da protease, inibidores de fusão e inibidores da 
+integrase. Usa-se, em geral, três fármacos ao mesmo tempo para evitar resistência.  
+Se há conhecimento de que houve aparecimento de uma variedade resistente do vírus, pausa-se 
+o tratamento, pois os vírus resistentes geralmente replicam-se mais. Sem o tratamento, não há seleção 
+da variedade resistente e, portanto, a variedade sensível volta a ser predominante e pode ser 
+combatida.  
+Após a infecção pelo vírus a carga viral sobe rapidamente e, posteriormente, cai. Esse ponto de 
+queda é chamado set point e determina o quão rápido a doença irá evoluir sem tratamento. Caso caia 
+pouco, a evolução será mais rápida. Com a terapia, a carga viral é mantida baixa, evitando evolução 
+para AIDS. Atualmente, não há uma cura para AIDS, pois o vírus integra-se no genoma. 
+ 
+ 
+ 
+ 
+
+=== p.408
+408 
+ 
+ 
+ 
+ 
+Aplicações Radiológicas – Meios de Contraste  
+Introdução  
+Os meios de contraste são utilizados nos exames de imagem para realce de cavidades (alças 
+intestinais, articulações), realce vascular, realce de estruturas normais parenquimatosas, realce de 
+lesões (ex: fígado e baço), ou mesmo para estudo hemodinâmico de lesões. Os itens que serão 
+abordados nessa aula envolvem a utilização de contraste intracavitário, contraste intravascular e as 
+reações adversas desses métodos.  
+Contrastes Intracavitários  

@@ -1,0 +1,454 @@
+Aula 14 – Multiplicação viral I 
+ 
+3. Considerações iniciais 
+ 
+• Existem dois sistemas de classificação de vírus, o hierárquico e o de 
+Baltimore. O primeiro foi proposto na década de 60 e considera é 
+fundamentado de maneira semelhante à dos seres vivos (classe, ordem...), 
+em que os vírus são agrupados de acordo com suas características em 
+comum e não em função das características das células infectadas. As 4 
+características fundamentais são o tipo de ácido nucleico, a simetria do 
+capsídeo, a presença de envelope e as dimensões do vírion ou capsídeo; 
+• O Sistema de Baltimore, por sua vez, é baseado 
+nas diferentes estratégias de replicação viral e 
+na dependência viral em relação à tradução 
+proteica celular. De acordo com esse sistema, 
+todos os vírus devem produzir RNAm em algum 
+momento a partir de seu genoma e, portanto, o 
+número de etapas para a produção desse RNAm 
+representa o critério de divisão. Nesse último 
+sistema, os vírus são agrupados em sete grupos; 
+• PS: somente os retrovírus apresentam a capacidade de integração 
+obrigatória com a célula hospedeira.  
+ 
+3.1 Mecanismos de replicação viral 
+ 
+• O estabelecimento de uma infecção viral ocorre em etapas, que são: 
+o Susceptibilidade: presença de receptores (ex: uma glicoproteína) no 
+hospedeiro para o vírus; 
+o Permissividade: presença de fatores celulares (ex: ribossomos para 
+a síntese proteica) que permitem a replicação viral eficiente; 
+o Acessibilidade ou capacidade de chegada à célula alvo; 
+o Resposta imune permissiva que favorece estabelecimento e até a 
+persistência da infecção. 
+ 
+3.2 Etapas da replicação viral 
+ 
+• Infecção é um mecanismo pelo qual o vírus introduz seu material genético 
+na célula. Infecções produtivas levam à produção de novas partículas virais 
+infecciosas, enquanto as abortivas não levam à produção dessas partículas 
+(podem causar problemas eventualmente); 
+• Antes de replicar seu material, o vírus necessita encontrar seus receptores, 
+entrar na célula e expor seu próprio material genético. Uma das conhecidas 
+estratégias de entrada é a infiltração em endossomos. Após a replicação e 
+síntese proteica, o vírus pode sair e infectar outra célula; 
+• De modo aprofundado, o conjunto de etapas da replicação viral consiste de: 
+
+=== p.44
+• Adsorção: interação com receptores/proteínas da membrana do 
+hospedeiro. O HIV, por exemplo, é um vírus envelopado com dois tipos de 
+glicoproteína na superfície, gp41 e gp120, essa última interagindo com o 
+receptor CD4 no hospedeiro. Será ativada então uma interação entre gp120 
+e um co-receptor, visando à mudança de conformação de gp120 e 
+exposição de domínio hidrofóbico 
+em gp41, que permitirá a passagem 
+pela membrana plasmática; 
+• Penetração: entrada no meio 
+intracelular por endocitose (vírus 
+HCV – Hepatite C), translocação ou 
+fusão de membranas. O HIV, por 
+exemplo, realiza fusão das 
+bicamadas lipídicas e introduz seu 
+capsídeo no hospedeiro; 
+• Desnudamento: desmantelamento parcial ou total do capsídeo viral, 
+visando à liberação do ácido nucleico no citoplasma, no poro nuclear ou 
+após acidificação da vesícula endossômica.  
+o A estratégia de liberação no poro nuclear se dá pois 
+a presença de DNA no citoplasma é estranha para o 
+hospedeiro. No caso do adenovírus, por exemplo, o 
+receptor CAR da célula reconhece espículas do 
+patógeno, enquanto integrinas interagem com 
+proteínas do capsídeo, promovendo a formação de 
+uma vesícula endocítica; 
+o O endossomo sofre uma mudança de pH, que 
+leva a um desmantelamento parcial do vírion e 
+facilita sua saída antes da fusão com o lisossomo. 
+Após a saída, o vírion interage com moléculas de 
+actina e dineína acopladas aos microtúbulos, 
+podendo chegar à vizinhança no poro nuclear; 
+o Uma proteína com NLS, complexada ao DNA do 
+adenovírus, entrará no núcleo e arrastará consigo 
+o material genético viral. 
+• Síntese dos componentes virais: alguns vírus 
+expressam seus genes numa única etapa, enquanto 
+outros apresentam proteínas de expressão precoce 
+(proteínas não estruturais), intermediária e tardia 
+(proteínas estruturais). Esse último fenômeno se dá 
+pois a replicação genômica é priorizada, haja vista 
+que uma eventual produção excessiva de proteínas 
+do capsídeo sem material genético para 
+empacotamento pode ativar uma resposta imune. 
+Lembrando que a síntese proteica se dá nos ribossomos livres ou do RE 
+rugoso (redução da dispersão de proteínas), enquanto a síntese de ácido 
+nucleico se dá no citoplasma (RNA) ou núcleo (DNA); 
+
+=== p.45
+• Montagem: após a replicação do genoma, a montagem da 
+partícula viral pode ocorrer em diversos locais da célula 
+(citosol, associada à membrana plasmática, RE e Golgi ou 
+até mesmo no núcleo). Corpúsculos de inclusão podem 
+(acúmulos de estruturas virais) se formar nos locais de 
+montagem; 
+• Liberação: ocorre por lise, brotamento (visando à obtenção 
+de envelope), passagem para as células vizinhas (ex: 
+sinapse imunológica) ou formação de sincícios (célula 
+multinucleada resultantes de fusão. 
+ 
+ 
+ 
+ 
+
+=== p.46
+Aula 15 – Multiplicação viral II 
+ 
+4. Mecanismos de replicação de vírus de DNA 
+ 
+• Como a replicação muitas vezes utiliza a maquinaria 
+da célula hospedeira, esse processo será bastante 
+semelhante ao já estudado, em que uma polimerase 
+necessita de um molde e de um primer para a 
+realização de sua função. A dupla-fita é separada, o 
+primer é sintetizado e a polimerase adiciona uma sequência de 
+nucleotídeos baseada numa fita molde; 
+• Alguns vírus, contudo, podem utilizar também enzimas próprias, o que 
+facilita o direcionamento terapêutico na clínica (ex: inibição da transcriptase 
+reversa, não presente originalmente em humanos); 
+• A estratégia de replicação depende da natureza e 
+organização do genoma viral (RNA ou DNA, simples ou 
+dupla fita). Vírus de DNA replicam no núcleo (exceto 
+poxvírus), enquanto os de RNA replicam no citoplasma; 
+• Lembrando que as proteínas virais utilizadas na replicação são DNA-pol, 
+helicases, exonucleases, proteínas acessórias e até enzimas associadas ao 
+metabolismo de ácidos nucleicos; 
+• Alguns vírus replicam segundo a forquilha de replicação celular, 
+utilizando uma DNA-pol que necessita um primer de RNA. Outros 
+não utilizam primer de RNA, mas proteínas ou até DNA; 
+• O problema da extremidade 5’ é solucionado nos humanos pela 
+telomerase, que evita o encurtamento progressivo. Os vírus não 
+podem sofrer encurtamento, solucionando tal problema com a 
+maquinaria celular de reparo de danos, por exemplo. 
+• Os poliomavírus possuem DNA circular de dupla fita, o que evita 
+morfologicamente o encurtamento. Eles expressam antígenos T, 
+reconhecedores da origem de replicação e com 
+função semelhante à helicase humano. Tais 
+antígenos realizam a abertura do genoma e 
+recrutamento da maquinaria de replicação celular, em 
+processo intenso e que produz um grande número de 
+cópias do genoma viral. Essa intensidade tem como 
+consequência a torção das fitas de DNA, que é 
+corrigida pela topoisomerase; 
+• Os papilomavírus como o vírus do HPV, por outro 
+lado, apresentam DNA pequeno e de dupla-fita. 
+Afetam preferencialmente queratinócitos da camada 
+basal do epitélio estratificado, chegando nessa 
+região através de lesões. Após a cicatrização, os 
+vírus realizam sua expansão exponencial nos 
+estratos superiores que, mesmo não possuindo maquinaria de replicação, 
+recebem um ambiente propício para esse fenômeno: os papilomavírus 
+
+=== p.47
+expressam uma proteína precoce E2, que reconhece sequências em volta 
+da origem de replicação e favorece o posicionamento de uma proteína E1. 
+E1 tem atividade de helicase e recrutamento de DNA-pol e topoisomerase; 
+• O HPV também expressa proteínas 
+pleiotrópicas (várias funções), E6 e E7, que 
+colaboram para a imortalização de queratinócitos, 
+através do aumento do tempo de vida celular, 
+replicação não programada de DNA, resistência à 
+apoptose e evasão da resposta imune. E6 e E7 
+atuam sobre p53 e pRb (proteína do 
+retinoblastoma), ambas reguladoras do ciclo 
+celular, podendo causar câncer; 
+o Como mencionado, os vírus de DNA maiores são 
+mais complexos. Os adenovírus apresentam essa 
+característica e possuem DNA linear de fita dupla. 
+Eles utilizam a RNA polimerase da célula 
+hospedeira para realizar a replicação viral, mas 
+codificam a própria DNA polimerase (proteína 
+precoce), a qual utiliza uma proteína como “primer”; 
+o O DNA é replicado numa fase tardia por 
+deslocamento de fita (strand displacement mechanism), 
+visto que as origens de replicação estão localizadas 
+nas extremidades da fita dupla de DNA. A característica 
+desse tipo de replicação é que a replicação de cada fita 
+é iniciada separadamente, em momentos sucessivos. 
+Vale notar que a replicação é realizada sem a formação 
+de fragmentos de Okazaki, pois as duas fitas são 
+sintetizadas em forma contínua; 
+o Os herpesvírus apresentam outra estratégia, 
+denominada (círculo rolante). Tais agentes 
+apresenta genoma linear dupla-fita, que se 
+circulariza após a entrada na célula através de 
+enzimas. O processo de replicação é rápido e 
+consiste em deixar uma das fitas do DNA viral 
+circular fixa enquanto se desenrola a outra. 
+Conforme ocorre esse desenrolamento, a fita 
+circular fixa é replicada por uma polimerase 
+especial, numa síntese contínua de DNA, enquanto a fita “desenrolada” é 
+replicada por uma síntese descontínua. Essa estratégia elimina o problema 
+da perda de informação genética na extremidade do gene. Vale notar que 
+esse processo de síntese, por ocorrer continuamente, produz múltiplas 
+cópias de DNA viral; 
+
+=== p.48
+o Os poxvírus apresentam vírions grandes e são 
+envelopados, com DNA linear dupla fita de 
+extremidades unidas. No contexto da replicação, o 
+vírus induz um corte para desfazer essa união. As 
+fitas, então, são reparadas e forma-se uma alça, o 
+que também preserva a extremidade do material 
+genético. Os poxvírus se replicam no citoplasma 
+celular e, portanto, devem produzir a própria 
+maquinaria para a síntese de mRNA e DNA (RNA-pol 
+viral já vem pronta no vírion). Imediatamente após a 
+infecção, eles perdem seu envelope e sintetizam 
+somente um pouco de mRNA, os mRNA precoces 
+(essenciais para infecção); 
+o Enfim, os parvovírus possuem DNA linear de fita 
+simples. Suas extremidades gênicas possuem repetidas 
+sequências nucleotídicas, as quais se dobram e formam 
+uma extremidade 3’-OH que possuirá função de primer 
+de DNA, iniciando assim a replicação viral. 
+ 
+5. Mecanismos de replicação de vírus de RNA 
+ 
+• Como mencionado, os vírus de RNA apresentam diferentes 
+características morfológicas e de polaridade; 
+• O RNA de polaridade positiva possui estrutura semelhante a 
+um mRNA e, portanto, pode ser transcrito imediatamente 
+após sua entrada na célula alvo (a isso denominou-se genoma infeccioso). 
+O RNA de polaridade negativa, por outro lado, necessita da atividade de 
+uma RNA-pol própria para convertê-lo em mRNA. O RNA dupla-fita, por fim, 
+também possui uma polimerase própria e a utiliza para copiar a fita de 
+polaridade positiva. Os dois últimos apresentam genoma não0infeccioso; 
+• Vale mencionar a exceção de que vírus com RNA de polaridade negativa e 
+genoma segmentado realizam replicação no núcleo; 
+• Os retrovírus pertencem a uma classe especial de vírus. Eles possuem 
+genoma de RNA, realizam transcrição reversa e integram o DNA no 
+genoma da célula, que passa a ser transcrito junto com ele; 
+• Enfim, os vírus da hepatite B (grupo VII de Baltimore) 
+apresentam DNA dupla fita parcial circular com um 
+fragmento de RNA. O vírus entra na célula e vai para o 
+núcleo, onde a maquinaria de reparo do hospedeiro 
+transforma a dupla fita parcial numa dupla fita completa. Os 
+genes são transcritos e um RNA pré-genômico é gerado. 
+Esse último sairá do núcleo e entrará num nucleocapsídeo, 
+onde sofrerá transcrição reversa e irá gerar uma novo DNA 
+dupla fita parcial circular; 
+• Em resumo, o genoma de todos os vírus de RNA (com exceção dos 
+retrovírus) codifica uma RNA polimerase dependente de RNA. Vírus de 
+
+=== p.49
+polaridade positiva podem copiar RNA livre e realizar 
+tradução direta. Vírus de polaridade negativa apresentam 
+RNA complexado com proteínas virais como a própria RNA-
+pol, o que possibilita a transcrição logo após a infecção; 
+• PS: os vírus de RNA devem decidir entre a geração de 
+novos genomas completos ou produção de RNAm. Além 
+disso, a incapacidade de correção de erros por parte da 
+polimerase e o reordenamento de segmentos em vírus com genomas 
+segmentados resultam em altas taxas de mutação. 
+ 
+6. Efeito Citopático 
+ 
+• A presença de vírus em células em cultura pode 
+induzir alterações visíveis ao microscópio. Estas 
+alterações são conhecidas como conjuntamente 
+como efeito citopático. Estas alterações são 
+resultantes das alterações fisiológicas da célula 
+hospedeira por interferência dos vírus. O efeito 
+citopático não permite, no entanto, a identificação do 
+vírus, mas fornece uma base para um agrupamento preliminar destes. As 
+alterações celulares incluem: 
+o Forma alterada; 
+o Perda de adesão ao substrato; 
+o Lise; 
+o Fusão de membrana (sincícios); 
+o Presença de corpos de inclusão; 
+o Apoptose; 
+• Cultura de epitélio normal: 
+ 
+• Poliovírus podem ocasionar células pequenas e 
+arredondadas, com citoplasma eosinófilo e núcleo 
+picnótico. Há uma lise rápida do tapete celular e 
+seu tempo de incubação varia de 2 a 7 dias; 
+• Adenovírus podem ocasionar células 
+arredondadas e aumentadas em tamanho, com 
+núcleo alterado e com a presença de corpúsculo de 
+inclusão nuclear, basófilo. Há descolamento do 
+tapete e há grande quantidade de lise celular, mas 
+também há a presença de células em formação de 
+“cachos de uva” sem lise. O tempo de incubação 
+do vírus varia de 4 a 21 dias; 
+• O vírus do sarampo é característico por ocasionar sincícios 
+gigantes, com 30 a 100 núcleos, além da formação de pontes 
+citoplasmáticas e corpúsculos de inclusão citoplasmáticos, 
+mas mantendo os núcleos celulares íntegros. O tempo de 
+incubação varia 7 a 21 dias; 
+
+=== p.50
+• O vírus herpes é característico por ocasionar sincícios com 
+forma estrelada – pontes citoplasmáticas; núcleo com corpúsculo 
+de inclusão eosinófilo, circundado por halo claro. O tempo de 
+incubação do vírus varia de 7 a 21 dias; 
+• O vírus vaccínia provoca sincícios pequenos e arredondados, 
+com núcleos íntegros com visualização dos nucléolos, além de corpúsculos 
+de inclusão citoplasmáticos. O tempo de incubação varia de 4 a 21 dias.  
+ 
+ 
+ 
+ 
+ 
+7. Antivirais 
+ 
+• Existem menos alvos óbvios em vírus para as drogas, o que diminui a 
+eficiência desses fármacos. Além disso, os vírus apresentam um conjunto 
+próprio de proteínas e estratégias de replicação, bem como a capacidade 
+de estabelecimento de latência. Enfim, diferentes vírus podem causar 
+sintomas semelhantes; 
+• Uma molécula age como antiviral ao inibir alguma etapa do ciclo de 
+replicação sem ser tóxica demais ao hospedeiro. Os possíveis mecanismos 
+de ação incluem a inativação de partículas virais extracelulares, a 
+prevenção da entrada do vírus, de sua replicação, de sua síntese proteínas 
+ou da montagem/liberação de novos vírions; 
+• Cada ciclo viral apresenta características próprias: a atuação 
+sobre a transcriptase reversa do vírus HIV, por exemplo, é um 
+potencial inibidor do ciclo desse vírus. 
+ 
+7.1 Tipos de inibidores 
+ 
+• Inibidores de fusão: impossibilitam a entrada do vírus por 
+fusão de membrana com a célula. Enfuvirtide é um desses 
+fármacos, capaz de se complexar com a proteína gp41 e 
+impedir sua inserção na bicamada; 
+• Inibidores do desnudamento: impossibilitam a exposição do 
+genoma do patógeno. O fármaco Amantidina, por exemplo, 
+evita a acidificação dos endossomos e inibe a alteração 
+conformacional de proteínas de fusão do vírus Influenza, que 
+fica preso até a degradação no lisossomo; 
+• Inibidores de polimerases virais: podem ser análogos de 
+nucleotídeos ou nucleosídeos ou não análogos desses dois. 
+A especificidade de algumas polimerases permite a ação 
+direcionada de fármacos (não serve para papilomavírus ou 
+poliomavírus, que utilizam a maquinaria celular); 
+o Inibidores da replicação de herpes vírus: Aciclovir é 
+um análogo de nucleosídeo reconhecido e priorizado 
+
+=== p.51
+pela timidina-quinase viral, que fosforila o Aciclovir e o transforma em 
+um composto trifosfato. A polimerase viral incorpora essa molécula 
+ao DNA viral crescente, bloqueando sua síntese pela ausência de 
+extremidade 3-OH; 
+o O Foscarnet, por outro lado, é um não análogo que se parece 
+estruturalmente com um aminoácido, sendo responsável pela 
+alteração da conformação e da função das proteínas virais; 
+o Além desses dois, existem ainda inibidores de helicase e de 
+interação proteica dos herpes vírus. 
+Þ Inibidores da replicação de retrovírus: atuam principalmente sobre a 
+transcriptase reversa e apresentam caráter análogo (ex: carbovir) ou 
+não análogo de nucleosídeos (ex: etravirina); 
+Þ Inibidores da replicação de flavivírus: análogos (um sítio alvo) ou não 
+análogos (quatro sítios alvo) que agem sobre a enzima replicase; 
+• Inibidores de protease: muito utilizados contra o vírus da hepatite C 
+(flavivírus), esses fármacos impedem o processamento e maturação de 
+proteínas virais novas, o que consequentemente compromete a produção 
+de novas partículas virais; 
+• Os inibidores de brotamento impedem que os vírus saiam da célula. É um 
+tratamento válido para o vírus da gripe, no qual os inibidores impedem que 
+a neuroaminidase clive a ligação da hemaglutinina com o ácido siálico, 
+deixando o vírus preso na célula. Esta é engolida junto com o vírus e 
+ambos são destruídos no estômago. 
+• A terapia antirretroviral para o vírus HIV é responsável pelo aumento na 
+qualidade de vida dos indivíduos soropositivos, pois evita que o vírus 
+diminua a contagem de linfócitos T CD4+. Porém, indivíduos portadores do 
+vírus têm maior chance de desenvolver demência precoce e problemas 
+digestivos importantes, uma vez que o vírus infecta quase qualquer célula 
+do organismo; 
+Os fármacos disponíveis para o tratamento do HIV são inibidores da 
+transcriptase reversa (análogos de nucleotídeos/nucleosídeos ou não), 
+inibidores da protease, inibidores de fusão e inibidores da integrase. Usa-
+se, em geral, três fármacos ao mesmo tempo para evitar resistência. 
+• Se há conhecimento de que houve aparecimento de uma variedade 
+resistente do vírus, pausa-se o tratamento, pois os vírus resistentes 
+geralmente replicam-se mais. A variedade sensível volta a ser 
+predominante posteriormente e pode ser combatida; 
+Após a infecção pelo vírus, a carga viral sobe rapidamente e, 
+posteriormente, cai. Esse ponto de queda é chamado set point e determina 
+o quão rápido a doença irá evoluir sem tratamento. Caso caia pouco, a 
+evolução será mais rápida. Com a terapia, a carga viral é mantida baixa, 
+evitando evolução para AIDS. Atualmente, não há uma cura para AIDS, 
+pois o vírus integra-se no genoma. 
+ 
+ 
+ 
+
+=== p.52
+Aula 16 – Patogênese da infecção viral 
+ 
+1. Considerações iniciais 
+ 
+• Como sabido, os vírus são parasitas intracelulares obrigatórios. A 
+patogênese viral representa o estudo da relação entre vírus e organismo 
+infectado, sendo que o termo patogênese representa não somente a 
+infecção, mas também a indução de doença pelo patógeno (os vírus podem 
+estar presentes nos portadores sem manifestação clínica); 
+• Tanto a patogênese viral como a severidade de uma doença dependem do 
+tipo de vírus, via de infecção, diferenças de virulência numa mesma família, 
+espécie afetada e características do próprio indivíduo afetado; 
+• A patogênese viral se manifesta pela destruição de tecidos (vírus da raiva), 
+indução e secreção de citocinas inflamatórias, disfunção celular, efeito 
+parácrino (atuação sobre células vizinhas) e/ou indução de tumores. 
+ 
+2. Entrada e disseminação viral 
+ 
+• Portas de entrada: mucosa dos sistemas respiratório, 
+digestório e urinário; conjuntiva/córnea; pele; sangue 
+(agulhas, picadas, transfusão) e ato sexual. O trato 
+respiratório é a principal porta de entrada, através de 
+aerossóis/gotículas/fluidos (presença de envelope – 
+influenza) ou de contato direto (rinovírus). As infecções 
+causadas podem ser localizadas (rinovírus) ou sistêmicas (influenza). 
+Epitélio mucociliar, secreção de IgA e leucócitos são estratégias de defesa; 
+o Vírus que realizam entrada via trato 
+alimentar devem resistir a variações de 
+pH, enzimas digestivas e condições 
+extremas. Alguns vírus se replicam muito 
+bem no epitélio intestinal (células 
+polarizadas, colunares e com 
+microvilosidades). Vírus não envelopados são mais comuns, devido 
+à maior resistência às condições do ambiente. Rotavírus (infecção 
+localizada) e enterovírus (infecção sistêmica) são exemplos; 
+• Disseminação viral: muitos receptores virais são moléculas 
+de adesão. ICAM-1, por exemplo, é um receptor para 
+rinovírus, enquanto CAR interage com adenovírus. Os vírus 
+podem realizar replicação logo no epitélio junto à porta de 
+entrada (sítio primário). Posteriormente, podem se difundir 
+para o sistema linfático, o que promoverá amplificação. A 
+passagem para o sangue é denominada viremia e resulta 
+na chegada a um sítio secundário de multiplicação (órgão 
+alvo ou infecção sistêmica); 
+• PS: viremia ativa é causada pela replicação viral, enquanto 
+a passiva é ocasionada pela injeção direta do vírus na corrente sanguínea.  
+
+=== p.53
+3. Padrões de infecção viral 
+ 
+• Os dois principais padrões de infecção viral são agudo 
+(aumento e queda rápidos de carga viral, de acordo 
+com as características do vírus) e crônico; 
+• Esse último se configura de 4 diferentes maneiras, que 
+são: latente (uma manifestação intensa e outras 
+manifestações esporádicas menos intensas), 
+progressiva (aumento e queda, seguida de aumento 
+progressivo), persistente (aumento, queda parcial e 
+manutenção de carga viral) e falha de eliminação total da 

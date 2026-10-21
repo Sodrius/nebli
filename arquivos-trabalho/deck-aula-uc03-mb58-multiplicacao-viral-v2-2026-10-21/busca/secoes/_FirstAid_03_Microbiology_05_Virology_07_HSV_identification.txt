@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::07_HSV_identification (5 notas)
+1502152099123 1-HighYield Cowdry bodies are located in the nucleus
+1502152318872 1-HighYield Cowdry bodies are eosino philic intra nuclear inclusions found in cells infected with organisms within the herpesviridae family
+1502154870583 1-HighYield PCR is the gold standard used in the diagnosis of herpes simplex virus (HSV)
+1506290419188 2-RelativelyHighYield What viruses can be diagnosed with a Tzanck smear ? VZV, HSV, and CMV
+1506290563519 5-LowYield A(n) Tzanck smear showing multinucleated giant cells is characteristic of infections with VZV, HSV, and CMV

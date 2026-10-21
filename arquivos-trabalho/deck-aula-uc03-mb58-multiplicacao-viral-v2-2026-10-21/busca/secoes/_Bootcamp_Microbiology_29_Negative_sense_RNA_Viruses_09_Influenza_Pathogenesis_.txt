@@ -1,0 +1,24 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::29_Negative-sense_RNA_Viruses::09_Influenza_(Pathogenesis) (23 notas)
+1516319192868 1-HighYield Which family of viruses includes influenza ? Orthomyxoviridae
+1516320758799 2-RelativelyHighYield What type of viruses are orthomyxoviruses ? Negative sense RNA
+1516320980606 1-HighYield Orthomyxoviridae is the only family of negative sense RNA viruses to replicate in the nucleus
+1516321146201 1-HighYield Are orthomyxoviruses enveloped ? Yes
+1516321367173 3-HighYield-temporary Orthomyxovirus has 8 segments
+1516321532745 1-HighYield The segmented virus families may be remembered with the mnemonic " BOAR ": B unyavirus O rthomyxovirus A renavirus R eovirus
+1516321532746 1-HighYield The segmented virus families may be remembered with the mnemonic " BOAR "
+1516321589458 1-HighYield Antigenic variation of influenza viruses occurs with changes to viral hemagglutinin (HA) and neuraminidase (NA)
+1516322197499 1-HighYield Influenza viruses are named based on hemagglutinin (HA) and neuraminidase (NA) types (e.g., H1N1 )
+1516322271299 1-HighYield Antigenic variation can be due to antigenic drift or antigenic shift
+1516322855117 1-HighYield Antigenic drift occurs when there are point mutations in hemagglutinin or neuraminidase
+1516322946030 3-HighYield-temporary Antigenic drift explains why we need a flu shot each year
+1516323022237 1-HighYield Antigenic drift is associated with epi demics
+1516323064948 1-HighYield Antigenic shift occurs with HA/NA reassortment amongst different species
+1516323168130 1-HighYield Antigenic shift is associated with pan demics
+1516323222471 1-HighYield Hemagglutinin is a viral envelope protein that binds sialic acid
+1516323635408 1-HighYield Which envelope protein of Influenza facilitates viral endocytosis into cells? Hemagglutinin (HA)
+1516323747313 2-RelativelyHighYield Neuraminidase is a viral envelope protein that cleaves the HA-sialic acid interaction
+1516323825251 1-HighYield Which envelope protein of Influenza facilitates viral spread from cells? Neuraminidase (NA)
+1516324044281 1-HighYield Which envelope protein of Influenza determines cell tropism ? Hemagglutinin (HA)
+1516324096049 1-HighYield M2 channel proteins are influenza viral proteins that ensure proper intracellular pH for viral uncoating
+1516325251980 1-HighYield What is the route of transmission of influenza ? Respiratory droplets
+1516401726231 2-RelativelyHighYield Neuraminidase is a viral envelope protein that allows for mature virion release

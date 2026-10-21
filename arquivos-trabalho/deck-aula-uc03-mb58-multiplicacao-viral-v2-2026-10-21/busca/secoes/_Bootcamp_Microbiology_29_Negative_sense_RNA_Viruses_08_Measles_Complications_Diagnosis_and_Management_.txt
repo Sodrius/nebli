@@ -1,0 +1,16 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::29_Negative-sense_RNA_Viruses::08_Measles_(Complications,_Diagnosis,_and_Management) (15 notas)
+1481836431395 5-LowYield Subacute sclerosing panencephalitis (SSPE) is due to slowly progressing, persistent infection of the brain by measles virus
+1481836434092 5-LowYield Does subacute sclerosing panencephalitis (SSPE) affect gray matter or white matter ? Both :)
+1484184161767 4-LowerYield Acute disseminated encephalomyelitis (ADEM) is a multifocal inflammation and demyelination of the CNS after infection or vaccination
+1484188550848 5-LowYield Acute disseminated encephalomyelitis (ADEM) presents with rapidly progressive multifocal neurologic symptoms and altered mental status
+1506297317271 1-HighYield What type of vaccine is the MMR vaccine ? Live attenuated
+1506298052294 3-HighYield-temporary What is a rare respiratory complication of measles (rubeola) seen typically in immunosuppressed individuals? Giant cell pneumonia
+1506298427891 1-HighYield Subacute sclerosing panencephalitis (SSPE) is diagnosed with presence of anti-measles antibodies in CSF
+1506298973285 1-HighYield Which virus produces Warthin-Finkeldey cells due to its surface fusion (F) proteins ? Measles (rubeola)
+1506299172244 1-HighYield Measles virus commonly presents with Warthin-Finkeldey giant cells
+1506299214372 1-HighYield Warthin-Finkeldey giant cells result from measles virus surface F (fusion) proteins acting on lymphocytes
+1506299289407 1-HighYield Lymphadenitis with Warthin-Finkeldey giant cells is diagnostic of measles (rubeola)
+1506299351809 1-HighYield Treatment of which virus can benefit from vitamin A supplementation ? Measles
+1517177408776 - What is the next step in management for a child that develops a fever and mild rash one week after receiving the MMR vaccine ? Reassurance
+1517885888593 5-LowYield Acute disseminated encephalomyelitis (ADEM) can be seen after infection by chickenpox / measles, or vaccination for rabies / smallpox
+1539445977219 - What is the cause of a fever and rash 1-3 weeks after administration of MMR vaccine ? Mild form of the disease

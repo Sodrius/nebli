@@ -1,0 +1,21 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::01_Respiratory_Antiviral_Therapy (20 notas)
+1467819801792 2-RelativelyHighYield Which base excision repair enzyme is responsible for removing nucleotides at the 5' end ? AP-endonuclease
+1485227016301 2-RelativelyHighYield Adverse effects associated with amantadine include ataxia, livedo reticularis, peripheral edema, and orthostatic dysregulation
+1503966673528 - What is the recommended treatment for a middle-aged patient that presents with symptoms related to influenza for 4 days? Symptomatic treatment
+1516320758799 2-RelativelyHighYield What type of viruses are orthomyxoviruses ? Negative sense RNA
+1516321208433 5-LowYield How many strains of influenza are there? Three (A, B, C)
+1516323222471 1-HighYield Hemagglutinin is a viral envelope protein that binds sialic acid
+1516323635408 1-HighYield Which envelope protein of Influenza facilitates viral endocytosis into cells? Hemagglutinin (HA)
+1516323747313 2-RelativelyHighYield Neuraminidase is a viral envelope protein that cleaves the HA-sialic acid interaction
+1516323825251 1-HighYield Which envelope protein of Influenza facilitates viral spread from cells? Neuraminidase (NA)
+1516324096049 1-HighYield M2 channel proteins are influenza viral proteins that ensure proper intracellular pH for viral uncoating
+1516324301529 2-RelativelyHighYield Amantadine and rimantadine are drugs that inhibit the M2 protein channels of influenza A
+1516324529716 1-HighYield Which two anti-influenza drugs inhibit the M2 channels ? Amantadine, rimantadine
+1516324579285 1-HighYield Which two anti-influenza drugs have a high rate of resistance (no longer recommended)? Amantadine and rimantadine
+1516324675489 2-RelativelyHighYield Which anti-influenza drug can be used to treat Parkinson disease ? Amantadine
+1516324744658 2-RelativelyHighYield Which anti-influenza drug increases dopamine synthesis/release and inhibits reuptake ? Amantadine
+1516324778471 1-HighYield Zanamivir and oseltamivir are drugs that inhibit neuraminidase of influenza A and B
+1516324960043 1-HighYield Which two anti-influenza drugs inhibit virion release ? Zanamivir, oseltamivir
+1516325251980 1-HighYield What is the route of transmission of influenza ? Respiratory droplets
+1516401726231 2-RelativelyHighYield Neuraminidase is a viral envelope protein that allows for mature virion release
+1516401763134 1-HighYield Which two anti-influenza drugs inhibit viral uncoating ? Amantadine and rimantadine

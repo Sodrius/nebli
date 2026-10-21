@@ -1,0 +1,22 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::06_Kaposi_Sarcoma_(HHV-8) (21 notas)
+1488680746086 1-HighYield What vascular tumor is associated with HHV-8 and HIV ? Kaposi sarcoma
+1516758492209 3-HighYield-temporary What type of virus is HHV-8? Double-stranded DNA
+1516758512785 1-HighYield HHV-8 is part of the herpesviridae family
+1516758549723 1-HighYield What is the most common cancer in AIDS patients ? Kaposi sarcoma
+1516758615385 1-HighYield HHV-8 infection is common in immunocompromised patients
+1516758648261 1-HighYield What is the initial presentation of Kaposi sarcoma ? Cutaneous disease
+1516758767964 2-RelativelyHighYield Kaposi sarcoma presents with violaceous lesions on the lower extremities, face (especially the nose), and oral mucosa
+1516758856359 2-RelativelyHighYield HHV- 8 induces VEGF , resulting in proliferation of vascular endothelial cells
+1516759003698 1-HighYield HHV-8 inactivates the Rb tumor suppressor protein
+1516759055685 1-HighYield The Rb tumor suppressor protein is located on chromosome 13
+1516759087870 1-HighYield What viral manifestation is seen below? Kaposi sarcoma (HHV-8)
+1516759229282 1-HighYield Which bacterial manifestation can present similarly to Kaposi sarcoma ? Bacillary angiomatosis ( Bartonella henselae )
+1516759301573 1-HighYield Lesions of Kaposi sarcoma may be seen on endoscopic examination of the GI tract
+1516759418001 1-HighYield Where do the lesions of Kaposi sarcoma most commonly occur ? Skin (e.g., face and chest)
+1516759496797 5-LowYield HHV-8 is associated with primary effusion lymphoma
+1516759627203 2-RelativelyHighYield HHV-8 has a higher incidence in Russian or Mediterranean males , as well as African populations
+1516759877149 2-RelativelyHighYield Is the African form of Kaposi sarcoma associated with immunodeficiency ? No
+1516759912872 1-HighYield Which recombinant cytokine can be used to treat Kaposi sarcoma ? IFN-α
+1516759951022 3-HighYield-temporary Which cutaneous manifestation is associated with lymphocytic infiltrate ? Kaposi sarcoma
+1516760157874 3-HighYield-temporary Which cutaneous manifestation is associated with neutrophilic infiltrate ? Bacillary angiomatosis
+1516760189817 4-LowerYield Primary effusion lymphoma is also known as body cavity-based lymphoma and is a(n) B-cell lymphoma

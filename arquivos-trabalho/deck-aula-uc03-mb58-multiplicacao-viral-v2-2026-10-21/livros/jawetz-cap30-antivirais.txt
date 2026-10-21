@@ -1,0 +1,706 @@
+===== pdf p. 450 =====
+442 
+SEÇÃO IV Virologia 
+Sinais e sintomas: Manifestações clínicas 
+típicas da infecção virai podem ser observadas 
+no paciente. Nesse caso, a figura revela lesões 
+típicas do vírus herpes 
+simples tipo 1 .  
+Embrião 
+Cultivo celular 
+Técnicas de cultivo. Os vírus requerem 
+um hospedeiro vivo para se multiplicar. 
+,..,_,. 
+9· 
+] 
+o· i 
+"'-/ 
+,.._,. 
+,...._,-
+o 
+,..._, 
+] 
+\ 
+--.r 
+.-....; 
+,..,_,. 
+ɒ-
+,.._,. 
+,..._, 
+9 
+,,..,_,. 
+һ 
+Sondas 
+w 
+o 
+-e 
+,. º>Z 
+Oi.?; 
+r 
+û 
+Reação 
+positiva 
+Análise genética da reação em cadeia da polimerase (PCR): 
+detecção do ácido nucleico virai usando sondas específicas. 
+-
+I 
+1 
+(1) Células infectadas com 
+o vírus herpes simples 
+tipo 1 
+(2) Células infectadas 
+com o vírus influenza 
+Células coletados do paciente (espécime clínico) 
+são examinadas buscando evidências de infecção 
+virai, tais como efeito citopático ( 1) ou detecção 
+de antígenos vírais na superfíce da célula 
+hospedeira (p. ex., por imunofluorescência) (2). 
+Rotavírus 
+Hepatite B 
+Partícula 
+Filamento 
+de Dane 
+A microscopia eletrônica é usada para observação 
+direta do vírus. Os vírus apresentam uma estrutura 
+única que pode ser usada na sua diferenciação 
+em família ou gênero. 
+Western Blot para HIV 
+Testes sorológicos para detecção de anticorpos específicos. 
+FIGURA 30.7 Sumário dos métodos usados no diagnóstico das infecções virais. Testes de detecção de antígenos e ensaios de ácido nucleicos 
+estão entre os testes mais comuns usados no diagnóstico laboratorial, uma vez que os resultados podem ser obtidos de forma rápida. (Reproduzido, 
+com autorização, de Talaro KP: Foundations in Microbiology: Basic Principies, 6th ed. McGraw-Hill, 2008. © The McGraw-Hill Companies, lnc.) 
+
+===== pdf p. 451 =====
+CAPÍTULO 30 
+Patogênese e controle das doenças virais 
+QUADRO 30.6 
+Exemplos de compostos antivirais usados no tratamento de infecções virais 
+Fármaco 
+Análogo do nucleosídeo 
+Aciclovir 
+Sim 
+Amantadina 
+Não 
+Mecanismo de ação 
+Espectro virai 
+Herpes simples, varicela-zóster 
+Influenza A 
+443 
+Cidofovir 
+Não 
+Inibidor da polimerase virai 
+Bloqueio do desnudamento virai 
+Inibidor da polimerase virai 
+Inibidor da transcriptase reversa 
+Inibidor da transcriptase reversa 
+Inibidor da polimerase virai 
+Citomegalovírus, herpes simples, poliomavírus 
+Didanosina (ddl) 
+Entecavir 
+Foscarnete 
+Fuzeon 
+Ganciclovir 
+lndinavir 
+Lamivudina (3TC) 
+Lopinavir 
+Maraviroc 
+Nevirapina 
+Oseltamivir 
+Raltegravir 
+Ribavirina 
+Ritonavir 
+Saquinavir 
+Estavudina (d4TI 
+Trifluridina 
+Valaciclovir 
+Vidarabina 
+Zalcitabina (ddC) 
+Zidovudina (AZT) 
+Sim 
+Sim 
+Não 
+Não 
+Sim 
+Não 
+Sim 
+Não 
+Não 
+Não 
+Não 
+Não 
+Sim 
+Não 
+Não 
+Sim 
+Sim 
+Sim 
+Sim 
+Sim 
+Sim 
+Inibidor da fusão do HIV (bloqueia a 
+entrada virai) 
+Inibidor da polimerase virai 
+Inibidor da protease do HIV 
+Inibidor da transcriptase reversa 
+Inibidor da protease do HIV 
+Inibidor de entrada (bloqueia a ligação 
+com CCRS) 
+Inibidor da transcriptase reversa 
+Inibidor da neuraminidase virai 
+Inibidor da integrase 
+Talvez bloqueie a corbertura do RNAm 
+virai 
+Inibidor da protease do HIV 
+Inibidor da protease do HIV 
+Inibidor da transcriptase reversa 
+Inibidor da polimerase virai 
+Inibidor da polimerase virai 
+Inibidor da polimerase virai 
+Inibidor da transcriptase reversa 
+Inibidor da transcriptase reversa 
+HIV-1, HIV-2 
+HBV 
+Herpes-vírus, HIV-1, HBV 
+HIV-1 
+Citomegalovírus 
+HIV-1, HIV-2 
+HIV-1, HIV-2, HBV 
+HIV-1 
+HIV-1 
+HIV-1 
+Influenza A e B 
+HIV-1 
+Vírus sincicial respiratório, influenza A e B, febre 
+de Lassa, hepatite C, outros 
+HIV-1, HIV-2 
+HIV-1, HIV-2 
+HIV-1, HIV-2 
+Herpes simples, citomegalovírus, vacínia 
+Herpes-vírus 
+Herpes-vírus, vacínia, HBV 
+HIV-1, HIV-2, HBV 
+HIV-1, HIV-2, HTLV-1 
+HBV, vírus da hepatite B; HIV-1, HIV-2, vírus da imunodeficiência humana tipos 1 e 2; HTLV-1, vírus da leucemia de células T humanas tipo 1. 
+Há necessidade de antivirais ativos contra vírus para os quais 
+não existem vacinas, ou as existentes não são altamente eficazes 
+- talvez devido à multiplicidade de sorotipos (p. ex., rinovírus) 
+ou a uma mudança constante do vírus (p. ex., vírus influenza, 
+HIV). Os antivirais podem ser empregados para tratar infecções 
+bem caracterizadas quando as vacinas contra esses patógenos 
+não se mostram eficazes. São necessários antivirais para reduzir 
+a morbidade e a perda econômica associadas às infecções virais, 
+bem como tratar o crescente número de pacientes imunossupri­
+midos que correm risco elevado de infecção. 
+Os estudos de virologia molecular estão tendo sucesso na 
+identificação das funções específicas dos vírus, que podem atuar 
+como alvos para a terapia antivira!. Os estágios mais apropriados 
+como alvos nas infecções virais são a fixação do vírus à célula 
+hospedeira; o desnudamento do genoma viral; a síntese do áci­
+do nucleico viral; a tradução de proteínas virais; a organização e 
+liberação de partículas virais da progênie. Na verdade, tem sido 
+muito difícil desenvolver antivirais capazes de distinguir os pro­
+cessos de multiplicação virais daqueles do hospedeiro. 
+Entretanto, foram desenvolvidos vários compostos que se 
+mostraram valiosos no tratamento de certas doenças virais, 
+particularmente o herpes-vírus e as infecções pelo HIV (Qua­
+dro 30.6). São fornecidos alguns exemplos adiante. Os meca­
+nismos de ação variam entre os agentes virais. Com frequência, 
+o fármaco deve ser ativado por enzimas na célula antes de po­
+der atuar como inibidor da replicação viral; os agentes mais 
+seletivos são ativados por uma enzima codificada pelo vírus no 
+interior da célula infectada. 
+São necessárias pesquisas futuras para se aprender como 
+minimizar o aparecimento de vírus resistentes a fármacos, re­
+duzir a citotoxicidade e planejar antivirais mais específicos com 
+base nos conhecimentos moleculares da estrutura e replicação 
+dos agentes virais, bem como desenvolver fármacos contra in­
+fecções virais, as quais ainda não possuem tratamento efetivo. 
+A. Análogos dos nucleosídeos 
+A maioria dos antivirais disponíveis consiste em análogos dos 
+nucleosídeos. Estes fármacos inibem a replicação das polime­
+rases essenciais necessárias à replicação do ácido nucleico. 
+Além disso, alguns análogos podem ser incorporados ao ácido 
+nucleico e bloquear sua síntese ou alterar sua função. 
+
+===== pdf p. 452 =====
+444 
+SEÇÃO IV Virologia 
+Os análogos podem inibir as enzimas celulares, bem como 
+as enzimas codificadas pelo vírus. Os análogos mais efetivos são 
+aqueles capazes de inibir especificamente enzimas codificadas 
+pelo vírus, com a mínima inibição das enzimas análogas das cé­
+lulas do hospedeiro. Em geral, surgem variantes virais resistentes 
+ao fármaco com o decorrer do tempo, algumas vezes de maneira 
+muito rápida. O uso de combinações de antivirais pode retardar 
+o aparecimento de variantes resistentes (p. ex., a "terapia trípli­
+ce" utilizada no tratamento da infecção pelo HIV). 
+São exemplos de análogos dos nucleosídeos o aciclovir (aci­
+cloguanosina), lamivudina (3TC), ribavirina, vidarabina (ade­
+nina arabinosídeo) e zidovudina (azidotimidina; AZT). 
+Os análogos dos nucleosídeos diferem pela presença de um 
+grupo fosfato. A capacidade de permanecer nas células por lon­
+gos períodos aumenta sua potência. O cidofovir é um exemplo. 
+B. Inibidores da transcriptase reversa 
+A nevirapina foi o primeiro membro da classe dos inibido­
+res não nucleosídeos da transcriptase reversa. Não exige fos­
+forilação para sua atividade nem compete com os trifosfatos 
+de nucleosídeo. O fármaco atua mediante sua ligação direta à 
+transcriptase reversa, rompendo o local catalítico da enzima. 
+Mutantes resistentes surgem rapidamente. 
+C. Inibidores da protease 
+O saquinavir foi o primeiro inibidor da protease a ser aprovado 
+para o tratamento da infecção pelo HIV. Consiste em um agente 
+peptideomimético desenvolvido por um modelo computadoriza­
+do como molécula capaz de se encaixar no local ativo da enzima 
+protease do HIV. Esses fármacos inibem a protease viral neces­
+sária no estágio avançado do ciclo de replicação para clivar os 
+precursores do polipeptídeo gag e gag-pol, formando o cerne do 
+virion maduro e ativando a transcriptase reversa que será utilizada 
+no ciclo de infecção seguinte. A inibição da protease produz partí­
+culas virais não infecciosas. Os inibidores da protease abrangem o 
+indinavir e o ritonavir, bem como outros fármacos não citados. 
+D. Outros tipos de agentes antivirais 
+Constatou-se que vários outros tipos de composto possuem al­
+guma atividade antivira! em certas condições. 
+O fuzeon é um grande peptídeo que bloqueia a etapa de 
+fusão da membrana celular com o vírus envolvido na entrada 
+do HIV-1 nas células. As aminas sintéticas, como a amanta­
+dina e a rimantadina, que inibem especificamente os vírus 
+influenza A, ao bloquear o desnudamento viral, devem ser ad­
+ministradas de modo profilático para exercer um efeito pro­
+tetor significativo. 
+O foscarnete (ácido fosfonofórmico) é um análogo or­
+gânico do pirofosfato inorgânico, que inibe seletivamente as 
+DNA-polimerases e as transcriptases reversas virais no local de 
+ligação do pirofosfato. 
+A metisazona tem interesse histórico como inibidor dos 
+poxvírus. Foi o primeiro antivira! a ser descrito e teve contri­
+buição na campanha de erradicação da varíola. O fármaco blo­
+queia um estágio avançado da replicação viral, resultando na 
+formação de partículas virais imaturas não infecciosas. 
+lnterferons 
+Os interferons (IFNs) são proteínas codificadas pelo hospedei­
+ro, membros da grande família das citocinas, as quais inibem a 
+QUADRO 30.7 
+Propriedades dos interferons 
+humanos 
+Propriedade 
+Nomenclatura corrente 
+Designação antiga 
+Alfa 
+IFN-a 
+Leucócito 
+Designação do tipo 
+Tipo 1 
+Número de genes que 
+> 20 
+codificam para a família 
+Principal fonte celular 
+Agente indutor 
+Estabilidade a pH de 2,0 
+Glicosilação 
+f ntrons nos genes 
+Homologia com o IFN-a 
+Localização cromossômica 
+dos genes 
+A maioria 
+dos tipos 
+celulares 
+Vírus; RNAfd 
+Estável 
+Não 
+Não 
+soa 95% 
+9 
+Tamanho da proteína 
+165 
+secretada (número de 
+aminoácidos) 
+Receptor de IFN 
+IFNAR 
+Localização cromossômica 
+21 
+dos genes receptores 
+de IFN 
+IFN, interferon. 
+Tipo 
+Beta 
+IFN-É 
+Fibroblasto 
+Tipo 1 
+1 
+A maioria 
+dos tipos 
+celulares 
+Vírus; RNAfd 
+Estável 
+Sim 
+Não 
+30% 
+9 
+166 
+IFNAR 
+21 
+Gama 
+IFN-y 
+lnterferon 
+imune 
+Tipo li 
+1 
+Linfócitos 
+Mitógenos 
+Lábil 
+Sim 
+Sim 
+< 10% 
+12 
+143 
+IFNGR 
+6 
+replicação viral. São produzidos muito rapidamente (em horas) 
+em resposta à infecção viral ou a outros indutores e fazem parte 
+da primeira linha de defesa do organismo contra a infecção vi­
+ral. O IFN-a foi a primeira citocina a ser identificada. Os IFNs 
+têm papel fundamental na resposta imunológica inata antivira!. 
+Também modulam a imunidade humoral e a celular, e exercem 
+amplas atividades reguladoras relacionadas com o crescimento 
+celular, mas o foco aqui são seus efeitos antivirais. 
+A. Propriedades dos IFNs 
+Existem várias espécies de IFN s, classificadas em três grupos gerais, 
+designados por IFN-a, IFN-Ñ e IFN-y (Quadro 30.7). Os IFN-a 
+e Ñ são considerados de tipo I ou interferons virais, enquanto o 
+IFN-y é considerado de tipo II ou imune. A família do IFN-a é 
+grande e codificada, no mínimo, por 20 genes do genoma huma­
+no. As famílias dos IFN-Ñ e y são codificadas por um de cada gene. 
+As três famílias de genes divergiram, de modo que as sequências 
+da codificação não estão mais estreitamente relacionadas. 
+Os diferentes IFNs assemelham-se quanto ao tamanho, 
+porém as três classes são antigenicamente distintas. Os IFN-a 
+e Ñ são resistentes a pH baixo. Os IFN-Ñ e y são glicosilados, 
+porém os açúcares não são necessários à atividade biológica, 
+de modo que os IFNs clonados, produzidos em bactérias, são 
+biologicamente ativos. 
+B. Síntese dos IFNs 
+Os IFN s são produzidos por todas as espécies de vertebrados. 
+Em geral, as células normais não sintetizam IFN até que sejam 
+
+===== pdf p. 453 =====
+induzidas a fazê-lo. A infecção por vírus constitui um potente 
+estímulo que leva à indução; os vírus do RNA são indutores 
+mais fortes de IFNs do que os vírus do DNA. Os IFNs também 
+podem ser induzidos pelo RNA de filamento duplo, por endo­
+toxina bacteriana e por pequenas moléculas, como a tilorona. 
+O IFN-y não é produzido em resposta à maioria dos vírus, mas 
+é induzido por estimulação de mitógenos. 
+As diferentes classes de IFN são produzidas por diferentes 
+tipos de célula. Os IFN-a e ¥ são sintetizados por vários tipos 
+celulares, enquanto o IFN-y é produzido principalmente por 
+linfócitos, especialmente células T e  células destruidoras natu­
+rais (natural killer [NK]). As células dentríticas são potentes 
+produtoras de IFN; sob as mesmas condições em um desafio 
+viral, as células dendríticas podem secretar até 1000 vezes mais 
+IFNs que os fibroblastos. 
+C. Atividade antivirai e outros efeitos biológicos 
+Os IFN s foram reconhecidos pela primeira vez em virtude da 
+sua capacidade de interferir na infecção viral em culturas de 
+células. São rapidamente detectados após infecção viral em ani­
+mais sadios quanto aos demais aspectos; em seguida, observa-se 
+uma diminuição da produção viral (Fig. 30.8). Os anticorpos só 
+aparecem no sangue do animal vários dias após a redução da 
+produção do vírus. Essa relação temporal sugere que o IFN de­
+sempenha um papel primário na defesa não específica do hospe­
+deiro contra infecções virais. Tal conclusão também é apoiada 
+por observações de que os indivíduos com agamaglobulinemia 
+em geral se recuperam de infecções virais primárias quase tão 
+bem quanto as pessoas sadias. 
+Os IFNs não protegem as células infectadas por vírus que as 
+produziram, também não são um agente antivira! para a pró­
+pria célula produtora; movem-se para outras células, em que in­
+duzem um estado antivira!, desencadeando a síntese de outras 
+proteínas que inibem a replicação viral. As moléculas de IFN 
+ligam-se a receptores específicos da superfície celular nas célu­
+las-alvo. Os IFN-a e ¥ possuem o mesmo receptor, ao passo que 
+o IFN-y reconhece um receptor diferente. A ligação dos recepto­
+res desencadeia a fosforilação da tirosina e a ativação dos fatores 
+de transcrição (signal transducer nad activator of transcription 
+Título virai 
+- / 
+Título de interferon 
+.
+· · ·· 
+.. / 
+ɑ r' 
+. 
+. 
+, 
+: 
+•• Título de anticorpos r' 
+:· 
+·. 
+""'-
+, , 
+. 
+މ 
+ˏ , 
+. 
+. 
+, 
+: 
+·•• 
+,ɐ ɏ 
+: 
+·. 
+, 
+. 
+. 
+, 
+. 
+. 
+, 
+., 
+;. 
+˼ 
+. 
+. 
+- - - - -
+. 
+- - - -
+. 
+• 
+• 
+• 
+• 
+/ 
+LL----
+---'
+'----
+--'
+LI-ދ/ 
+1 / / 1 /!-'
+--' 
+rr 1 
+o 
+5 
+10 
+14 
+21 
+Dias após a infecção 
+28 
+FIGURA 30.8 Ilustração da cinética do interferon (IFN) e da síntese 
+dos anticorpos após infecção virai respiratória. As relações temporais 
+sugerem que os IFNs estão envolvidos na resposta precoce do sistema 
+de defesa do hospedeiro contra infecções virais. 
+CAPÍTULO 30 
+Patogênese e controle das doenças virais 
+445 
+[STAT]) no citoplasma, que, em seguida, transloca-se no núcleo 
+e faz a mediação da transcrição de genes por interferon - indu­
+tíveis (o que ocorre minutos após a ligação com o interferon), 
+resultando na síntese de diversas enzimas que se acredita sejam 
+instrumentais no desenvolvimento de um estado antivira!. Di­
+versas vias parecem envolvidas, tais como as seguintes: ( 1) uma 
+proteinoquinase dependente de RNA de fita dupla, PKR, que 
+fosforila e inativa o fator de iniciação celular eIF-2, prevenindo, 
+assim, a formação do complexo de iniciação necessário à sínte­
+se das proteínas virais; (2) uma oligonucleotídeo sintetase, 2-5A 
+sintetase, que ativa a endonuclease celular, RNase L, a qual de­
+grada o RNAm; (3) uma fosfodiesterase, que inibe a elongação 
+da cadeia peptídica; e ( 4) uma óxido nítrico sintetase, induzida 
+pelo IFN-y em macrófagos. Entretanto, estas explanações não 
+revelam por que o estado antivira! atua seletivamente contra os 
+RNAms virais e não contra os RNAms celulares. Outras etapas 
+na replicação viral também podem ser inibidas pelos IFNs. 
+Os IFNs são quase sempre específicos de espécie em função, 
+mas não específicos para um determinado vírus. A replicação 
+de uma ampla variedade de vírus de DNA e RNA pode ser ini­
+bida. Quando o IFN é adicionado às células antes da infecção, 
+ocorre acentuada inibição da replicação viral, mas próxima da 
+função celular normal. Os IFNs são extremamente potentes; 
+assim, são necessárias quantidades muito pequenas para seu 
+funcionamento. Estimou-se que menos de 50 moléculas de IFN 
+por célula são suficientes para induzir um estado antivira!. 
+D. Mecanismos virais para anular a ação dos IFNs 
+Os vírus exibem diferentes mecanismos que bloqueiam as ati­
+vidades inibidoras dos IFN s sobre a replicação viral, processo 
+necessário para transpor tal linha de defesa do hospedeiro. Os 
+exemplos incluem as proteínas virais específicas que podem 
+bloquear a indução da expressão dos IFNs (herpes-vírus, pa­
+pilomavírus, ftlovírus, vírus da hepatite e, rotavírus), podem 
+bloquear a ativação da proteinoquinase PKR essencial ( adeno­
+vírus, herpes-vírus), podem ativar um inibidor celular da PKR 
+(vírus influenza, poliovírus), podem bloquear a transdução de 
+sinais induzidos pelos IFNs (adenovírus, herpes-vírus, vírus da 
+hepatite B), ou podem neutralizar o IFN-y ao atuarem como 
+receptores da IFN solúvel (vírus do mixoma). 
+E. Estudos clínicos 
+Originalmente, esperava-se que os IFN s pudessem ser a solução 
+para a prevenção de muitas doenças virais, como as infecções res­
+piratórias nas quais podem estar envolvidos muitos vírus diferen­
+tes. Entretanto, seu uso mostrou-se pouco prático, visto que, para 
+serem eficazes, é necessário que se administrem altas doses antes 
+da exposição ao vírus ou no início da infecção, antes do apare­
+cimento dos sinais clínicos da doença. O IFN-a recombinante é 
+benéfico no controle das infecções virais do fígado pelas hepatites 
+B e C ( Cap. 35), apesar da ocorrência comum de recidiva após 
+a suspensão do tratamento. A aplicação tópica de IFN aos olhos 
+pode suprimir a ceratite herpética e acelerar a cicatrização . 
+Diversas preparações de IFN estão aprovadas para uso clí­
+nico. Os IFNs exibem muitos efeitos colaterais tóxicos, a maior 
+parte por manifestações sistêmicas e hematológicas. 
+Vacinas virais 
+O propósito das vacinas virais é utilizar a resposta imunoló­
+gica do hospedeiro para evitar a ocorrência de doença viral. 
+
+===== pdf p. 454 =====
+446 
+SEÇÃO IV Virologia 
+ø ø 
+40 
+30 
+-
+20 
+cn 
+Q) 
+... 
+ro 
+5 
+10 
+E 
+E 
+Q) 
+-
+o 
+cn 
+o 
+ǐ 
+u 
+70 
+Q) 
+"O 
+o 
+... 
+Q) 
+60 
+E 
+•::J 
+50 
+z 
+40 
+30 
+20 
+10 
+o 
+1950 
+Poliomielite 
+Rubéola 
+1960 
+1970 
+1980 1950 
+Sarampo 
+800 
+700 
+600 
+500 
+400 
+-
+300 
+cn 
+Q) 
+... 
+200 
+ro 
+5 
+100 
+E 
+E 
+Q) 
+o 
+-
+cn 
+o 
+Caxumba 
+ǐ 
+160 
+u 
+Q) 
+"O 
+140 
+o 
+... 
+Q) 
+120 
+E 
+•::J 
+z 
+100 
+80 
+60 
+40 
+20 
+o 
+1960 
+1970 
+1980 
+FIGURA 30.9 Incidência anual de várias doenças virais nos EUA. A data da introdução da vacina é indicada pelas setas. (Dados dos Centers for 
+Disease Control and Prevention.) 
+Diversas vacinas mostraram-se notavelmente eficazes ao redu­
+zir a incidência anual de doenças virais (Fig. 30.9). A vacina­
+ção constitui o método de prevenção de infecções virais graves 
+mais eficaz em termos de custo. 
+A. Princípios gerais 
+A imunidade à infecção viral baseia-se no desenvolvimento de 
+resposta imunológica contra antígenos específicos localizados 
+na superfície das partículas virais ou das células infectadas por 
+vírus. No caso dos vírus com envelope, os antígenos impor­
+tantes consistem nas glicoproteínas de superfície. Embora os 
+animais infectados possam desenvolver anticorpos contra pro­
+teínas do cerne do virion ou contra proteínas não estruturais 
+envolvidas na replicação viral, acredita-se que a resposta imu­
+nológica desempenhe um papel pequeno ou mesmo nenhum 
+papel no desenvolvimento da resistência à infecção. 
+Existem vacinas para a prevenção de várias doenças humanas 
+importantes. As vacinas atualmente disponíveis (Quadro 30.8) 
+são descritas de modo pormenorizado nos capítulos que tratam 
+de cada família de vírus e das doenças causadas por eles. 
+A patogênese de determinada infecção viral influi nos ob­
+jetivos da imunoproftlaxia. A imunidade das mucosas (IgA 
+local) é importante na resistência a infecções por vírus que se 
+replicam nas mucosas (rinovírus, vírus influenza, rotavírus) ou 
+invadem pela mucosa (papilomavírus). Os vírus cuja propaga­
+ção é virêmica (poliovírus, das hepatites A e B, febre amarela, 
+varicela, caxumba e sarampo) são controlados por anticorpos 
+séricos. A imunidade celular também está envolvida na prote­
+ção contra as infecções sistêmicas (sarampo, herpes). 
+Certas características de um vírus ou de uma doença viral 
+podem complicar o desenvolvimento de uma vacina eficaz. A 
+existência de vários sorotipos, conforme se observa com os ri­
+novírus, e a ocorrência de um grande número de reservatórios 
+animais, como no caso do vírus influenza, dificultam a produção 
+de vacinas. A integração do DNA viral no DNA cromossômi­
+co do hospedeiro (retrovírus) e a infecção de células do sistema 
+imunológico do hospedeiro (HIV) são outros obstáculos. 
+B. Vacinas com vírus mortos 
+As vacinas inativadas (de vírus mortos) são produzidas mediante 
+a purificação de preparações virais e, em seguida, inativação da 
+infecciosidade viral, de modo que haja lesão mínima das proteí­
+nas estruturais do vírus; com frequência, utiliza-se o tratamento 
+com formol diluído (Quadro 30.9). Para algumas doenças, as va­
+cinas feitas a partir de vírus mortos são as únicas disponíveis. 
+As vacinas com vírus mortos, preparadas a partir de virions 
+completos, em geral estimulam a produção de anticorpos cir­
+culantes contra as proteínas de revestimento do vírus, confe­
+rindo certo grau de resistência. 
+As vantagens das vacinas inativadas são a ausência de re­
+versão para a virulência pelo vírus da vacina e possibilidade 
+de produzir vacinas quando não se dispõe de vírus atenuados 
+aceitáveis. 
+As vacinas com vírus mortos apresentam as seguintes des­
+vantagens: 
+1. É necessário ter extremo cuidado na sua fabricação, a frrn de 
+certificar-se de que não haja vírus virulento vivo residual na 
+• 
+vacma. 
+2. A imunidade conferida é frequentemente de curta dura­
+ção, precisando ser reforçada, o que não apenas envolve 
+o problema logístico de encontrar repetidamente as pes­
+soas que necessitam de imunização, mas também gera 

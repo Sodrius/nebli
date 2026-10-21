@@ -1,0 +1,3 @@
+# #AK_Step1_v12::#SketchyPharm::07_Antimicrobials::06_HIV_Antivirals::00_HAART_overview (2 notas)
+1506783017772 1-HighYield Highly active antiretroviral therapy (HAART) consists of a minimum of 3 drugs to prevent resistance
+1506783163535 1-HighYield HAART therapy consists of 2 NRTIs plus 1 of either a(n) NNRTI , protease inhibitor , or integrase inhibitor

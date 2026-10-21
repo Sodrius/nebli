@@ -1,0 +1,40 @@
+# #AK_Step1_v12::#Physeo::09_Pharm::02_Antivirals::05_NRTIs (39 notas)
+1461797775253 2-RelativelyHighYield Which NRTI(s)/NtRTI(s) is/are recommended for the treatment of chronic active hepatitis B ? Entecavir, tenofovir
+1502069492941 1-HighYield The backbone of highly active antiretroviral therapy ( HAART ) are NRTIs such as zidovudine
+1502069963668 3-HighYield-temporary NRTIs insert themselves into the DNA strand being synthesized by reverse transcriptase , halting further elongation
+1502070062514 2-RelativelyHighYield NRTIs and NNRTIs both are reverse transcriptase inhibitors used in the treatment of HIV
+1506728366567 4-LowerYield The myelosuppression of ganciclovir may be additive in patients receiving zidovudine
+1506783017772 1-HighYield Highly active antiretroviral therapy (HAART) consists of a minimum of 3 drugs to prevent resistance
+1506783163535 1-HighYield HAART therapy consists of 2 NRTIs plus 1 of either a(n) NNRTI , protease inhibitor , or integrase inhibitor
+1506783296016 2-RelativelyHighYield Which type of HAART drug is abacavir (ABC)? NRTI
+1506783462443 3-HighYield-temporary Which type of HAART drug is didanosine (ddl)? NRTI
+1506783471847 1-HighYield Which type of HAART drug is emtricitabine (FTC)? NRTI
+1506783486518 1-HighYield Which type of HAART drug is lamivudine (3TC)? NRTI
+1506783497051 4-LowerYield Which type of HAART drug is stavudine (d4T) ? NRTI
+1506783511355 1-HighYield Which type of HAART drug is tenofovir (TDF)? NtRTI
+1506783521685 1-HighYield Which type of HAART drug is zidovudine ( ZDV , formerly AZT )? NRTI
+1506784318198 3-HighYield-temporary NRTIs are nucleosides or nucleotides that have an absent 3' hydroxyl group
+1506784353867 3-HighYield-temporary NRTIs are incorporated into viral DNA , causing premature chain termination
+1506784467378 2-RelativelyHighYield NRTIs inhibit formation of 3' to 5' phosphodiester bonds
+1506784514467 3-HighYield-temporary Most NRTIs are nucleosides that must undergo phosphorylation in order to be active
+1506784610676 2-RelativelyHighYield NRTIs lack a 3’ hydroxyl group , causing strand termination when binding to HIV reverse transcriptase
+1506784777103 1-HighYield Reverse transcriptase inhibitors prevent transcription of ssRNA into dsDNA thereby inhibiting viral replication
+1506784835221 1-HighYield NRTIs are associated with mitochondrial toxicity, lactic acidosis , and peripheral neuropathy
+1506784980543 1-HighYield Which HAART drug class is associated with peripheral neuropathy ? NRTIs
+1506785118508 2-RelativelyHighYield Which NRTI is a nucleo t ide and not a nucleo s ide? Tenofovir
+1506785242535 2-RelativelyHighYield Which NRTI requires only 2 phosphorylations to become active ? Tenofovir
+1506785348651 1-HighYield Which NRTI is used to reduce vertical transmission of HIV ? Zidovudine
+1506785417562 1-HighYield Which NRTI is used during pregnancy and breastfeeding ? Zidovudine
+1506785457319 1-HighYield Which NRTI is associated with myelosuppression ? Zidovudine
+1506785509437 1-HighYield Zidovudine is associated with myelosuppression, which can result in anemia and granulocytopenia
+1506785534996 3-HighYield-temporary Which NRTI is associated with anemia and granulocytopenia ? Zidovudine
+1506785609205 1-HighYield Zidovudine and stavudine are associated with lipodystrophy
+1506785755779 3-HighYield-temporary Bone marrow suppression caused by zidovudine can be reversed with G-CSF and erythropoietin (EPO)
+1506785872219 2-RelativelyHighYield Which NRTI is associated with dose-dependent pancreatitis ? Didanosine
+1506786339931 2-RelativelyHighYield Which NRTI is associated with a hypersensitivity reaction in patients with the HLA-B 57:01 allele ? Abacavir
+1506786378158 2-RelativelyHighYield Which NRTI may cause hyperpigmentation of palms and soles ? Emtricitabine
+1506789316317 1-HighYield Which NRTI is associated with Fanconi syndrome ? Tenofovir
+1506807069336 1-HighYield What classes of drugs inhibit HIV RNA to dsDNA formation? NRTIs and NNRTIs
+1514664090379 2-RelativelyHighYield Emtricitabine (FTC) and tenofovir (TDF) are given as a combination drug for pre-exposure prophylaxis (PrEP) of HIV
+1514665641707 1-HighYield Zidovudine (ZDV/AZT) can cause a(n) megaloblastic anemia and agranulo cytosis
+1514672013629 2-RelativelyHighYield Highly active anti-retroviral therapy (HAART) is often initiated at the time of HIV diagnosis

@@ -1,0 +1,17 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::14_Hepatitis_C_Part_2_(Diagnostics_and_Management) (16 notas)
+1461794607480 1-HighYield Interferon α may be used in the treatment of hepatitis B and C infections
+1461797583285 5-LowYield The goal of treatment of hepatitis C is to completely cure the patient, which is now possible with the advent of direct-acting antivirals
+1461797595100 5-LowYield What traditional treatment for hepatitis C is no longer used? Interferon α and ribavirin
+1486522630094 1-HighYield Chronic hepatitis is associated with inflammation that primarily involves the portal tracts
+1495729572613 - Should patients with cirrhosis undergo a screening endoscopy for varices? Yes
+1495729974126 - All patients with cirrhosis should have a screening ultrasound every 6 months ± alpha-fetoprotein
+1506630733850 1-HighYield Older treatments that can be used for hepatitis C virus infection include IFN-α and ribavirin
+1506631004332 1-HighYield Hepatitis C virus infections can be treated with protease and polymerase inhibitors
+1514736654381 4-LowerYield Is therapy for hepatitis viruses indicated for acute, chronic, or both infections? Chronic*
+1514737162457 2-RelativelyHighYield The goal of chronic HCV therapy is to establish a sustained virologic response ; meaning that HCV RNA is not detected by PCR for 12 weeks
+1514738701137 4-LowerYield HCV therapeutics with the suffix - asvir work by inhibiting the NS5A protein, which plays an integral role in viral replication
+1514739659474 4-LowerYield HCV therapeutics with the suffix - previr work by inhibiting the NS3/4A protease
+1523888002813 - What is the next step in management for a patient found to have HCV antibodies ? HCV RNA testing
+1580013594763 - All patients with cirrhosis should be regularly screened for major complications , in particular, esophageal varices and hepatocellular carcinoma (HCC)
+1580014252557 - What is the primary screening tool for early detection of hepatocellular carcinoma (HCC) in patients with cirrhosis ? Abdominal ultrasound
+1580153102510 - An active hepatitis C diagnosis requires both a serologic test for the HCV antibody and a confirmatory molecular test for the presence of HCV RNA

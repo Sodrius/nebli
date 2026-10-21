@@ -1,0 +1,39 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::35_Opportunistic_Infections::07_Cytomegalovirus,_Disseminated_Mycobacterial_Non-Tuberculous_Disease (38 notas)
+1403140946098 1-HighYield Which herpesvirus causes mononucleosis with a negative monospot test ? CMV (HHV-5)
+1403141234206 1-HighYield Which herpesvirus is associated with causing retinitis in immunocompromised patients? CMV (HHV-5)
+1403141269124 1-HighYield Which herpesvirus is associated with characteristic owl's eye inclusions in infected cells? CMV (HHV-5)
+1403141305744 1-HighYield CMV is a herpesvirus that is latent in mononuclear cells
+1403292900993 1-HighYield CMV (HHV-5) is a herpesvirus that causes retinitis in HIV patients that presents with cotton-wool spots on fundoscopy
+1403292961137 1-HighYield Esophagitis and colitis are GI complications that are often seen alongside CMV retinitis in immunosuppressed patients
+1403296022011 1-HighYield Cytomegalovirus (CMV) is a herpesvirus that causes interstitial pneumonia in patients with HIV
+1480564012664 2-RelativelyHighYield Infectious mononucleosis less commonly occurs due to a(n) CMV infection
+1480564049214 1-HighYield What initial test is commonly used to diagnose infectious mononucleosis ? Monospot test
+1480564052470 1-HighYield The monospot test detects IgM heterophile antibodies that cross-react with horse or sheep RBCs
+1480564059776 4-LowerYield A(n) negative monospot test with symptoms of infectious mononucleosis suggests CMV infection
+1486522599412 3-HighYield-temporary In addition to hepatitis virus , viral hepatitis may also be caused by EBV and CMV
+1500402778103 1-HighYield Mycobacteria cell walls contain mycolic acid ; therefore, a special Ziehl-Neelsen (acid-fast) stain is used to visualize them
+1503264058312 3-HighYield-temporary Mycobacterium avium complex (MAC) is a non-TB disease that causes disseminated infection in the late stages of AIDS
+1503264288335 4-LowerYield Mycobacterium avium complex (MAC) includes Mycobacterium avium and Mycobacterium intracellulare
+1503264360860 5-LowYield Mycobacterium avium complex (MAC) is treated with clarithromycin and ethambutol (± rifabutin)
+1503853483744 1-HighYield Epstein-Barr virus causes monospot positive infectious mononucleosis
+1503857897067 1-HighYield Cytomegalovirus (CMV) is part of the herpesviridae family
+1503858394947 1-HighYield Which herpesvirus remains latent in mononuclear cells (e.g., macrophages)? CMV
+1503858692391 2-RelativelyHighYield Reactivation of CMV from mononuclear cells occurs after immunosuppression
+1503861132678 1-HighYield AIDS patients are at risk for CMV infections (e.g., retinitis, colitis, esophagitis) when their CD4+ count is < 50 cells/mm 3
+1503861467989 1-HighYield Cotton wool spots and a " pizza pie " description on fundoscopy are characteristic of what viral infection complication ? CMV retinitis
+1503861887862 1-HighYield Esophagitis with linear ulcerations is characteristic of CMV
+1503861910369 1-HighYield Esophagitis with "punched-out" ulcerations is characteristic of HSV-1
+1503861947945 1-HighYield CMV can present with basophilic intranuclear inclusion bodies said to look like a(n) "owl's eye"
+1503880470705 1-HighYield What herpesvirus can result in colitis with ulcerated walls ? CMV
+1504221691763 - What is the likely causative organism in an HIV patient with a CD4 + count of 30/mm 3 that presents with one month of low-grade fevers , intermittent bloody diarrhea , abdominal pain , and weight loss
+1504223265364 - Antibiotic prophylaxis in HIV patients starting ART with CD4 + count < 50/mm 3 should include TMP-SMX*
+1504642690770 - What prophylactic medications should be initiated in a patient who is beginning high-dose immunosuppression therapy following a renal transplant? 1. TMP-SMX (for PCP) 2. Ganciclovir or valganciclovir 
+1504736584894 - What is the likely diagnosis in an HIV patient with a CD4 + count of 25/mm 3 that presents with 3 weeks of high fever , night sweats , abdominal pain , watery diarrhea , and weight loss ? CXR and PPD 
+1505746233593 - What is the likely diagnosis in a patient with a history of poorly controlled HIV that presents with eye pain , conjunctivitis , keratitis , and vision loss ? Fundoscopy shows widespread, pale , perip
+1514576041266 2-RelativelyHighYield What is the recommended primary prophylaxis against Mycobacterium avium complex (MAC) for HIV patients with CD4 count < 50/mm 3 ? Patient on or starting cART: None :) Patient NOT on cART: Macrolide (a
+1522431494251 1-HighYield Which bacterial AIDS opportunistic infection stains acid-fast ? Mycobacterium avium complex (MAC)
+1544195344521 - Mycobacterium avium-intracellulare complex (MAC) is most common in HIV patients with CD4 counts < 50/mm 3
+1552737781454 - HIV patient with CD4 count < 50/mm 3 , systemic symptoms, hepatosplenomegaly , and elevated alkaline phosphatase level is suggestive of Mycobacterium avium complex
+1555459603894 - HIV with CD4 count < 50 , high fever , and watery diarrhea is suggestive of Mycobacterium avium complex (MAC)
+1581259369271 - Patients with HIV and viral esophagitis more commonly present with odynophagia
+1584302274494 - Is primary prophylaxis against CMV recommended for patients with HIV ? No

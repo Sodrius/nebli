@@ -1,0 +1,15 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::29_Negative-sense_RNA_Viruses::04_Parainfluenza (14 notas)
+1506297161449 1-HighYield Which family of viruses does parainfluenza (croup) belong to? Paramyxoviridae
+1506458538360 2-RelativelyHighYield Which virus classically causes croup ? Parainfluenza virus
+1506458587499 1-HighYield What viral complication is characterized by a seal-bark cough and inspiratory stridor ? Croup (laryngotracheobronchitis)
+1506458681232 1-HighYield Which virulence factors is parainfluenza (croup) associated with? Hemagglutinin, F (fusion) protein, neuraminidase
+1506459192137 1-HighYield Narrowing of the trachea and subglottic region produces the "steeple sign" on CXR of croup (parainfluenza virus)
+1506459340614 1-HighYield What is another name for croup ? Laryngotracheobronchitis
+1506459892639 1-HighYield Which viral virulence factor causes respiratory cell fusion and multinucleated giant cell production? F (fusion) protein
+1515892012639 1-HighYield Epiglottitis with a(n) " thumbprint " sign on imaging is classic for Haemophilus influenzae infection
+1516323222471 1-HighYield Hemagglutinin is a viral envelope protein that binds sialic acid
+1516323747313 2-RelativelyHighYield Neuraminidase is a viral envelope protein that cleaves the HA-sialic acid interaction
+1516401726231 2-RelativelyHighYield Neuraminidase is a viral envelope protein that allows for mature virion release
+1537572523060 - Croup is a viral respiratory infection commonly caused by parainfluenza virus that involves a seal-like barking cough
+1537573188069 - Which upper airway condition classically improves with racemic epinephrine ? Croup
+1539440684816 - Croup may present with inspiratory stridor due to subglottic narrowing

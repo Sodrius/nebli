@@ -1,0 +1,41 @@
+# #AK_Step1_v12::#SketchyMicro::03_Viruses::04_Retired_Lessons::06_Flaviviridae_Overview_[Retired_Video] (40 notas)
+1506627350233 4-LowerYield What type of viruses are flaviviruses ? Positive sense RNA
+1506627488843 4-LowerYield Do flaviviruses have an envelope ? Yes
+1506627521051 1-HighYield What family of viruses does hepatitis C virus (HCV) belong to? Flaviviridae
+1506627592347 5-LowYield Are flaviviruses segmented or non-segmented ? Non-segmented
+1506627645671 2-RelativelyHighYield What family of viruses does Dengue virus belong to? Flaviviridae
+1506627695686 1-HighYield Which vector transmits Dengue ? Mosquitos; most commonly the Aedes
+1506627749912 4-LowerYield Dengue fever infects the bone marrow
+1506627894996 1-HighYield What is the most common type of Dengue fever ? Type 2
+1506627942152 3-HighYield-temporary How does Dengue fever affect bleeding time ? Increased
+1506628001384 2-RelativelyHighYield Dengue fever is a type of hemorrhagic fever due to it causing thrombocytopenia
+1506628062025 2-RelativelyHighYield Dengue fever can result in renal failure
+1506628115053 4-LowerYield What is the treatment of Dengue fever ? Supportive (no treatment at this time)*
+1506628170585 4-LowerYield What family of viruses does Yellow fever belong to? Flaviviridae
+1506628287189 2-RelativelyHighYield Which zone of the liver is affected by Yellow fever ? Zone II (intermediate zone)
+1506628336655 2-RelativelyHighYield Which vector transmits Yellow fever ? Mosquito , specifically the Aedes
+1506628403819 3-HighYield-temporary What is a cutaneous complication of Yellow fever ? Jaundice
+1506628436392 3-HighYield-temporary Yellow fever classically causes an aching back
+1506628478878 2-RelativelyHighYield What changes in stool are seen with Yellow fever ? Bloody diarrhea
+1506628520779 3-HighYield-temporary What type of vomiting is seen with Yellow fever ? Black (bloody) vomiting
+1506628555418 4-LowerYield What type of vaccine is available for Yellow fever ? Live attenuated
+1506628588384 2-RelativelyHighYield What is seen on liver biopsy in Yellow fever ? Councilman bodies
+1506628692802 1-HighYield Which two viruses classically present with Councilman bodies on liver biopsy ? Hepatitis A virus, yellow fever
+1506628724617 4-LowerYield What family of viruses does West Nile virus belong to? Flaviviridae
+1506628804534 3-HighYield-temporary What is the reservoir of West Nile virus ? Birds
+1506628849279 2-RelativelyHighYield West Nile virus vector(s) : Mosquito ( Culex )
+1506628890385 2-RelativelyHighYield A serious complication of West Nile virus is meningoencephalitis
+1506629001514 3-HighYield-temporary West Nile virus can result in a(n) asymmetric flaccid paralysis
+1506629122636 4-LowerYield What is the treatment of West Nile virus ? Supportive
+1516556891495 4-LowerYield What family of viruses does Zika virus belong to? Flaviviridae
+1516556937003 4-LowerYield Zika virus is commonly transmitted by the Aedes mosquito vector
+1516557048514 2-RelativelyHighYield Zika virus can cause fever, rash, and conjunctivitis in 20% of cases
+1516557104772 2-RelativelyHighYield Transplacental transmission of Zika virus can result in miscarriage or congenital Zika syndrome , which is characterized by microcephaly , ocular anomalies , and motor abnormalities (e.g., spasticity,
+1516557147157 3-HighYield-temporary In addition to vector-borne transmission, how can Zika virus be transmitted ? Sexual; vertical (transplacentally)
+1516557177048 2-RelativelyHighYield Outbreaks of Zika virus are more common in tropical climates
+1516557199738 3-HighYield-temporary Diagnosis of Zika virus is made via RT-PCR or serology
+1520087988222 2-RelativelyHighYield Dengue fever has 4 different serotypes
+1520088241785 4-LowerYield Which flavivirus commonly presents with retro-orbital pain? Dengue fever
+1520088417035 4-LowerYield Dengue fever is associated with a positive tourniquet test , which results in petechiae after blood pressure cuff inflation
+1520088493022 4-LowerYield Primary infection with dengue fever is asymptomatic or self-limited
+1520088551261 4-LowerYield Secondary infection with dengue fever is associated with severe illness

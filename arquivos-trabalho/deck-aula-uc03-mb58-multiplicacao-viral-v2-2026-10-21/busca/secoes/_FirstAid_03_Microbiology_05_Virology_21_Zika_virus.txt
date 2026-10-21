@@ -1,0 +1,11 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::21_Zika_virus (10 notas)
+1506627350233 4-LowerYield What type of viruses are flaviviruses ? Positive sense RNA
+1506627488843 4-LowerYield Do flaviviruses have an envelope ? Yes
+1506627592347 5-LowYield Are flaviviruses segmented or non-segmented ? Non-segmented
+1516556891495 4-LowerYield What family of viruses does Zika virus belong to? Flaviviridae
+1516556937003 4-LowerYield Zika virus is commonly transmitted by the Aedes mosquito vector
+1516557048514 2-RelativelyHighYield Zika virus can cause fever, rash, and conjunctivitis in 20% of cases
+1516557104772 2-RelativelyHighYield Transplacental transmission of Zika virus can result in miscarriage or congenital Zika syndrome , which is characterized by microcephaly , ocular anomalies , and motor abnormalities (e.g., spasticity,
+1516557147157 3-HighYield-temporary In addition to vector-borne transmission, how can Zika virus be transmitted ? Sexual; vertical (transplacentally)
+1516557177048 2-RelativelyHighYield Outbreaks of Zika virus are more common in tropical climates
+1516557199738 3-HighYield-temporary Diagnosis of Zika virus is made via RT-PCR or serology

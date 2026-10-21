@@ -1,0 +1,16 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::24_HIV_Diagnosis_and_Management (15 notas)
+1402963462795 1-HighYield What medication(s) is/are first-line for prophylaxis and treatment for Pneumocystis jirovecii pneumonia? TMP-SMX
+1502069492941 1-HighYield The backbone of highly active antiretroviral therapy ( HAART ) are NRTIs such as zidovudine
+1504223265364 - Antibiotic prophylaxis in HIV patients starting ART with CD4 + count < 50/mm 3 should include TMP-SMX*
+1506535107169 1-HighYield What is the confirmatory test for HIV ? HIV-1/2 antibody differentiation immunoassay
+1506535130975 1-HighYield What test determines the amount of viral RNA in plasma ? Viral load
+1506783017772 1-HighYield Highly active antiretroviral therapy (HAART) consists of a minimum of 3 drugs to prevent resistance
+1506783163535 1-HighYield HAART therapy consists of 2 NRTIs plus 1 of either a(n) NNRTI , protease inhibitor , or integrase inhibitor
+1509813045719 1-HighYield Toxoplasmosis prophylaxis with TMP-SMX is initiated in HIV patients with a CD4 count ≤ 100 cells/mm 3 and positive T. gondii IgG serology
+1509813091692 1-HighYield What drug is used in prophylaxis of toxoplasmosis ( Toxoplasma gondii )? TMP-SMX
+1514664090379 2-RelativelyHighYield Emtricitabine (FTC) and tenofovir (TDF) are given as a combination drug for pre-exposure prophylaxis (PrEP) of HIV
+1514671566113 3-HighYield-temporary Enfuvirtide and maraviroc are used in patients with treatment-resistant HIV
+1514672013629 2-RelativelyHighYield Highly active anti-retroviral therapy (HAART) is often initiated at the time of HIV diagnosis
+1544195435929 - Concerning HIV serology , the CD4 cell count represents the current immune function , while the viral load represents the rate of disease progression
+1552864003514 - The treatment guideline for HIV is: 2 NRTIs and either : NNRTI Protease inhibitor (+ ritonavir boosting) Integrase inhibitor
+1552864862676 - What is the best diagnostic test for HIV before seroconversion? HIV-1 NAT (viral load)

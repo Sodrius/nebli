@@ -1,0 +1,1130 @@
+===== página 1 =====
+Multiplicação Viral
+Enrique Boccardo
+Depto. Microbiologia – ICB/USP
+eboccardo@usp.br
+
+===== página 2 =====
+Leitura recomendada:
+Fields Virology – Fifth Edition
+Capítulo 5: Virus replication strategies
+Capítulo 14: Antiviral Agents
+Principles of Virology – Flint, Enquist, Racaniello, Skalka (3rd Edition)
+Capítulos 6, 7 e 9 – Vol I
+Capítulo 9 – Vol II
+
+===== página 3 =====
+▪As
+partículas
+virais
+são
+montadas
+a
+partir
+de
+componentes
+preexistentes (outros agentes crescem pelo aumento do número de
+seus componentes e se reproduzem por divisão).
+▪As partículas virais (vírions) não “crescem” nem se dividem.
+▪Os vírus carecem da informação genética para geração de energia
+metabólica ou para síntese de proteínas (ribossomos).
+DEFINIÇÃO
+▪Os
+vírus
+são
+parasitas
+sub-microscópicos,
+intracelulares obrigatórios
+
+===== página 4 =====
+Alguns fatos...
+▪
+Todos os genomas virais são empacotados dentro de
+partículas que permitem a transmissão entre hospedeiros.
+▪
+O genoma apresenta informação para iniciar e completar o
+ciclo infeccioso em células permissivas (desde a entrada
+até a formação de novas partículas virais).
+▪
+Todos
+os
+vírus
+são
+capazes
+de
+se
+estabelecer
+na
+população de hospedeiro para garantir a supervivência.
+
+===== página 5 =====
+Mecanismos de replicação 
+viral
+
+===== página 6 =====
+Infecção - mecanismo pelo qual o vírus introduz seu material genético
+na célula.
+Infecção
+Produtiva
+Abortiva
+Novos vírus infecciosos
+Novos vírus infecciosos
+X
+REPLICAÇÃO VIRAL
+
+===== página 7 =====
+REPLICAÇÃO VIRAL
+1
+2
+3
+
+===== página 8 =====
+▪
+Adsorção
+▪
+Penetração
+▪
+Desnudamento
+▪
+Síntese dos componentes virais:
+▪
+Proteínas
+▪
+Ácido nucléico
+▪
+Montagem
+▪
+Maturação
+▪
+Liberação
+REPLICAÇÃO VIRAL
+
+===== página 9 =====
+▪Interação com receptores presentes na membrana 
+celular.
+▪Receptores: proteínas de membrana que são reconhecidas por 
+determinado tipo viral de maneira específica.
+REPLICAÇÃO VIRAL
+Adsorção
+
+===== página 10 =====
+REPLICAÇÃO VIRAL
+Adsorção
+
+===== página 11 =====
+▪Por endocitose
+▪Por translocação
+▪Por fusão de membranas
+REPLICAÇÃO VIRAL
+Penetração
+
+===== página 12 =====
+REPLICAÇÃO VIRAL
+Penetração
+
+===== página 13 =====
+REPLICAÇÃO VIRAL
+Penetração
+
+===== página 14 =====
+Penetração
+REPLICAÇÃO VIRAL
+
+===== página 15 =====
+REPLICAÇÃO VIRAL
+Penetração
+doi:10.1038/nrd2424
+
+===== página 16 =====
+Flavivírus
+40 a 60 nm
+Envelope
+Virion intracelular
+Virion extracelular
+E
+prM
+E dimer
+M
+Nucleocapsid
++RNA
+Penetração e adsorção
+REPLICAÇÃO VIRAL
+
+===== página 17 =====
+Penetração
+REPLICAÇÃO VIRAL
+
+===== página 18 =====
+▪
+Desmantelamento parcial ou total do capsídeo viral e 
+conseqüente liberação do ácido nucléico:
+▪
+direto no citoplasma
+▪
+após acidificação da vesícula endossômica
+▪
+no poro nuclear
+REPLICAÇÃO VIRAL
+Desnudamento
+
+===== página 19 =====
+REPLICAÇÃO VIRAL
+Desnudamento
+
+===== página 20 =====
+REPLICAÇÃO VIRAL
+Desnudamento
+Vírus da Raiva
+
+===== página 21 =====
+▪Síntese de proteínas:
+▪Transcrição dos RNAs mensageiros
+• precoces – proteínas não estruturais
+• tardios – proteínas estruturais
+▪Síntese nos ribossomos
+▪ou no retículo endoplasmático
+▪Ácido nucléico – genômico
+▪RNA – no citoplasma
+▪DNA – no núcleo
+REPLICAÇÃO VIRAL
+Síntese dos componentes virais
+
+===== página 22 =====
+REPLICAÇÃO VIRAL
+poxvírus
+Síntese dos componentes virais
+
+===== página 23 =====
+Mecanismos de replicação 
+do material genético viral
+
+===== página 24 =====
+A estratégia de replicação dos vírus depende da 
+natureza do genoma!!! 
+REPLICAÇÃO VIRAL
+
+===== página 25 =====
+A replicação dos ácidos 
+nucléicos é realizada por
+polimerases
+Iniciador
+Molde
+REPLICAÇÃO DOS ÁCIDOS NUCLÉICOS
+
+===== página 26 =====
+5’
+3’OH
+5’
+OH-3’
+5’
+3’
+5’
+3’
+5’
+5’
+3’OH
+OH-3’
+primer
+primer
+Separação das fitas 
+e síntese do primer
+5’
+3’
+5’
+3’
+5’
+5’
+3’OH
+OH-3’
+primer
+primer
+Extensão
+Molde
+REPLICAÇÃO DOS ÁCIDOS NUCLÉICOS
+
+===== página 27 =====
+REPLICAÇÃO DO DNA
+
+===== página 28 =====
+MECANISMOS DE 
+REPLICAÇÃO VIRAL: 
+VÍRUS DE DNA
+
+===== página 29 =====
+Sistema de Baltimore
+Adenoviridae 
+Baculoviridae
+Hepadnaviridae 
+Herpesviridae 
+Iridoviridae
+Papillomaviridae
+Polyomaviridae 
+Poxviridae 
+Alguns (ex. adenoviridae) replicam no núcleo
+celular utilizando enzimas celulares. Outros
+(ex.
+poxviridae)
+replicam
+no
+citoplasma
+utilizando enzimas próprias.
+REPLICAÇÃO VIRAL
+
+===== página 30 =====
+▪A replicação do DNA viral sempre requer a síntese de pelo 
+menos uma proteína viral, às vezes várias. 
+▪Vírus simples dependem mais das proteínas da célula 
+hospedeira.
+▪Vírus complexos codificam muitas das proteínas necessárias 
+para sua replicação (pero não todas).
+REPLICAÇÃO VIRAL
+
+===== página 31 =====
+A origem da polimerase
+▪Vírus pequenos de DNA não codificam um sistema de 
+replicação completo.
+▪Codificam proteínas que manipulam a célula hospedeira.
+▪Papillomaviridae, Polyomaviridae, Parvoviridae
+▪Vírus complexos codificam boa parte do seu sistema de 
+replicação.
+▪Herpesviridae, Adenoviridae, Poxviridae
+REPLICAÇÃO VIRAL
+
+===== página 32 =====
+Proteínas virais
+▪DNA polimerase e proteínas acessórias.
+▪Proteínas que reconhecem à origem de replicação e proteínas 
+acessórias.
+▪Exonucleases
+▪Enzimas para o metabolismo de ácidos nucléicos
+REPLICAÇÃO VIRAL
+
+===== página 33 =====
+REPLICAÇÃO VIRAL
+Diversas estruturas genômicas
+
+===== página 34 =====
+REPLICAÇÃO VIRAL
+Dois mecanismos de síntese de dsDNA
+
+===== página 35 =====
+REPLICAÇÃO VIRAL
+O problema da extremidade 5’
+
+===== página 36 =====
+Papilomavírus 
+vírus SV40 
+POLIOMAVÍRUS E PAPILOMAVÍRUS
+REPLICAÇÃO VIRAL
+
+===== página 37 =====
+POLIOMAVÍRUS
+Genes precoces
+Genes Tardios
+REPLICAÇÃO VIRAL
+
+===== página 38 =====
+O antígeno T tem atividade de 
+helicase.
+AgT reconhece a origem de 
+replicação
+A síntese de DNA é realizada
+REPLICAÇÃO VIRAL
+POLIOMAVÍRUS
+
+===== página 39 =====
+REPLICAÇÃO VIRAL
+POLIOMAVÍRUS
+
+===== página 40 =====
+REPLICAÇÃO VIRAL
+POLIOMAVÍRUS
+
+===== página 41 =====
+REPLICAÇÃO VIRAL
+POLIOMAVÍRUS
+
+===== página 42 =====
+REPLICAÇÃO VIRAL
+POLIOMAVÍRUS
+
+===== página 43 =====
+PAPILOMAVÍRUS
+REPLICAÇÃO VIRAL
+
+===== página 44 =====
+DNA 
+polimerase
+LCR
+E2
+E2
+E1
+topo
+topo
+PAPILOMAVÍRUS
+Ação combinada de proteínas virais e celulares
+REPLICAÇÃO VIRAL
+
+===== página 45 =====
+E6
+E7
+Pequenas proteínas pleiotrópicas.
+•Colaboram para imortalizar queratinócitos humanos.
+•Promovem:
+- aumento do tempo de vida celular
+- replicação de DNA não programada
+- resistência a apoptose
+- evasão da resposta imune 
+▪
+A amplificação do genoma do HPV occure nas camadas diferenciadas do
+epítelio. Portanto, o HPV deve induzir a síntese de DNA em células
+comprometidas em diferenciação terminal.
+▪Existem diferenças funcionais entre E6 e E7 de HPV de alto e
+baixo risco oncogênico.
+E6 E7
+p53
+pRb
+REPLICAÇÃO VIRAL
+
+===== página 46 =====
+E7 e a regulação do ciclo celular
+▪
+A expressão de E7 induz a síntese não programada de DNA
+e desacopla este processo da diferenciação celular
+BrdU/K1
+E7
+
+===== página 47 =====
+Características importantes da estratégia de replicação dos 
+poliomavírus e papilomavírus
+▪Funções precoces e tardias
+▪Proteínas multifuncionais (ex., Antígeno T, E6 e E7)
+▪A célula hospedeira proporciona a maquinaria para
+síntese de RNA, modificação do RNA, síntese de DNA e
+histonas para o empacotamento do DNA.
+REPLICAÇÃO VIRAL
+
+===== página 48 =====
+▪Os
+adenovírus
+utilizam
+a
+RNA
+polimerase
+da
+célula
+hospedeira.
+▪Os adenovírus codificam a própria DNA polimerase (proteína
+precoce).
+▪Utiliza uma proteína como “primer”
+▪O DNA é replicado pelo “strand displacement mechanism”.
+▪Não existem fragmentos de Okazaki e as duas fitas são
+sintetizadas em forma contínua.
+ADENOVÍRUS
+REPLICAÇÃO VIRAL
+
+===== página 49 =====
+REPLICAÇÃO VIRAL
+O “primer” dos adenovírus é uma proteína
+▪
+Origens de replicação nas duas extremidades
+▪
+Replicação semiconservativa por deslocamento de fita
+
+===== página 50 =====
+ADENOVÍRUS
+▪
+FASE TARDIA: Replicação por “strand displacement”
+Proteína que liga a dCMP e fornece 3’-OH (primer)
+REPLICAÇÃO VIRAL
+Polimerase viral
+
+===== página 51 =====
+REPLICAÇÃO VIRAL
+O “primer” dos adenovírus é uma proteína
+
+===== página 52 =====
+▪A replicação acontece pelo mecanismo de “rolling
+circle” formando repetições em tandem.
+▪Finalmente estes repetidos são clivados.
+HERPESVÍRUS 
+REPLICAÇÃO VIRAL
+
+===== página 53 =====
+REPLICAÇÃO VIRAL
+▪
+Duas origens de replicação S e uma L
+▪
+O DNA entra como molécula linear e circulariza
+▪
+Replicação por círculo rolante “rolling circle”.
+
+===== página 54 =====
+REPLICAÇÃO VIRAL
+
+===== página 55 =====
+Rolling Circle
+HERPESVÍRUS 
+REPLICAÇÃO VIRAL
+
+===== página 56 =====
+VÍRUS DE DNA QUE REPLICAM NO CITOPLASMA
+POXVÍRUS
+▪Vírions grandes
+▪Morfologia complexa
+▪Envelopados
+▪Genoma de DNA, dupla fita (130-375x105 pb)
+▪
+Os Poxvírus se replicam no citoplasma, portanto devem produzir 
+a própria maquinaria para a síntese de mRNA e DNA. 
+REPLICAÇÃO VIRAL
+
+===== página 57 =====
+▪Após a perda do envelope o vírus pode produzir um número
+limitado de mRNAs (mRNAs precoces imediatos).
+▪RNA polimerase do hospedeiro encontra-se no núcleo. Assim, os
+poxvírus codificam uma RNA polimerase dependente de DNA para
+a síntese de seus RNAs.
+▪Esta polimerase é necessária logo após a infecção. Portanto,
+encontra-se presente nos vírions.
+▪O DNA de vaccinia, após a remoção de todas as proteínas não é
+infeccioso uma vez que não tem a RNA polimerase.
+POXVÍRUS 
+REPLICAÇÃO VIRAL
+
+===== página 58 =====
+POXVÍRUS 
+REPLICAÇÃO VIRAL
+
+===== página 59 =====
+REPLICAÇÃO VIRAL
+▪Replicam no citoplasma
+
+===== página 60 =====
+REPLICAÇÃO VIRAL
+
+===== página 61 =====
+Sistema de Baltimore
+Parvoviridae
+Replicação nuclear dependentes de enzimas 
+celulares. 
+±
+REPLICAÇÃO VIRAL
+
+===== página 62 =====
+REPLICAÇÃO VIRAL
+O “primer” dos parvovírus vírus é DNA
+
+===== página 63 =====
+O “primer” dos parvovírus 
+vírus é DNA
+REPLICAÇÃO VIRAL
+Sem problemas 
+para replicar as 
+terminações
+
+===== página 64 =====
+MECANISMOS DE 
+REPLICAÇÃO VIRAL: 
+VÍRUS DE RNA
+
+===== página 65 =====
+Vírus de RNA
+Genoma
+Poliovírus
+Simples fita (+)
+Reovírus
+Dupla fita segmentado
+Influenza
+Simples fita (-) segmentado
+Rhabdovírus
+Simples fita (-)
+Retrovírus
+Simples fita (+) diplóide
+Hepatite Delta
+Simples fita (-) circular
+REPLICAÇÃO VIRAL
+
+===== página 66 =====
+Sistema de Baltimore
+Reoviridae 
+Birnaviridae
+Genoma segmentado. Cada segmento é
+transcrito
+para
+produzir
+um
+mRNA
+monocistrônico. Replicação citoplasmática.
+REPLICAÇÃO VIRAL
+
+===== página 67 =====
+5’-CAP
+AAAAAAA
+5’-CAP
+AAAAAAA
+RNA polaridade +
+RNA polaridade -
+Proteína
+Proteína
+5’-CAP
+AAAAAAA
+mRNA
+5’-CAP
+AAAAAAA
+mRNA
+Vírus de RNA: do genoma à proteína
+
+===== página 68 =====
+5’-CAP
+AAAAAAA
+Proteína
+5’-CAP
+AAAAAAA
+mRNA
+Vírus de RNA: do genoma à proteína
+RNA dupla fita
+Fita +
+Fita -
+
+===== página 69 =====
+Lembrar:
+▪Se o vírus “quiser” fazer uma coisa que a célula não pode fazer
+ele terá que fornecer a informação.
+▪A necessidade do vírus carregar uma polimerase no momento da
+infecção (para transcrever e/ou replicar seu genoma) vai depender
+da topologia do genoma:
+▪Pode ser traduzido diretamente?
+▪É um retrovírus?
+
+===== página 70 =====
+Sistema de Baltimore
+Astroviridae
+Caliciviridae 
+Coronaviridae
+Flaviviridae 
+Picornaviridae
+Togaviridae
+Replicação citoplasmática.
+a) Genoma = mRNA. mRNA é infeccioso!!!
+Produção direta de uma poliproteína (vírus da
+hepatite A, Picornaviridae).
+b) Padrão complexo de transcrição e tradução
+(ex. Togaviridae)
+REPLICAÇÃO VIRAL
+
+===== página 71 =====
+Vírus da hepatite C (HCV)
+
+===== página 72 =====
+Sistema de Baltimore
+Filoviridae
+Rhabdoviridae 
+Bunyaviridae
+Orthomyxoviridae 
+Paramyxoviridae
+Arenaviridae
+O RNA (-) deve ser transcrito  por uma RNA 
+polimerase dependente de RNA, de 
+origem viral.
+a) Àqueles com genoma não segmentado 
+replicam no citoplasma.
+b) Àqueles com genoma segmentado 
+replicam no núcleo
+REPLICAÇÃO VIRAL
+
+===== página 73 =====
+Sistema de Baltimore
+Retroviridae
+Genoma DIPLOIDE, não serve como mRNA.
+Existe transcrição reversa de RNA para DNA
+e uma etapa obrigatória de integração no
+genoma da célula hospdeira.
+REPLICAÇÃO VIRAL
+
+===== página 74 =====
+RETROVÍRUS
+REPLICAÇÃO VIRAL
+
+===== página 75 =====
+Genoma de um retrovírus
+DNA da forma proviral de um retrovírus
+RETROVÍRUS
+REPLICAÇÃO VIRAL
+
+===== página 76 =====
+RETROVÍRUS: Transcriptase reversa
+REPLICAÇÃO VIRAL
+
+===== página 77 =====
+
+===== página 78 =====
+DNA dupla fita com intermediário de RNA (Hepadnavírus )
+REPLICAÇÃO VIRAL
+
+===== página 79 =====
+▪
+DNA dupla fita com intermediário
+de RNA (Hepadnavírus).
+REPLICAÇÃO VIRAL
+
+===== página 80 =====
+REPLICAÇÃO VIRAL
+
+===== página 81 =====
+▪
+O genoma de todos os vírus de RNA (com exceção dos
+retrovírus) codifica uma RNA polimerase dependente de
+RNA.
+▪
+Esta enzima catalisa a síntese de novos genomas e de
+mRNA
+REPLICAÇÃO VIRAL
+
+===== página 82 =====
+▪Não carregam polimerase. 
+▪Esta enzima pode ser traduzida 
+diretamente a partir do RNA viral.
+▪Genoma infeccioso.
+Vírus de 
+RNA 
+Genomas simples 
+fita (-) ou dupla fita 
+Genoma simples 
+fita (+)
+▪Carregam polimerase no vírion
+(seus genomas não podem ser
+transcritos
+ou
+traduzidos
+pela
+maquinaria celular).
+▪Genomas NÃO são infecciosos.
+REPLICAÇÃO VIRAL
+
+===== página 83 =====
+RNA polimerase 
+dependente de 
+RNA
+Vírus de RNA (+)
+Vírus de RNA (-)
+▪Organizados em nucleocapsídeos
+que incluem a polimerase
+▪A
+polimerase
+só
+copia
+o
+RNA
+quando o mesmo está associado a
+proteínas.
+▪Possibilita
+transcrição
+logo
+após
+infecção.
+▪RNA livre
+▪Possibilita tradução direta
+▪Exceção: Retrovírus
+REPLICAÇÃO VIRAL
+
+===== página 84 =====
+Geração de novos 
+genomas completos
+Produção de mRNA
+Vírus de 
+RNA 
+▪Discriminar o RNA viral dos RNA da célula (estrutura interna do
+RNA viral).
+▪Decidir se será produzido um genoma ou RNA mensageiro
+(RNA segmentado, síntese de poliproteína, seqüências internas)
+REPLICAÇÃO VIRAL
+
+===== página 85 =====
+Os vírus de RNA 
+apresentam alta 
+taxa de mutação
+▪
+Polimerase incapaz 
+de corrigir erros.
+▪
+Reordenamento de 
+segmentos em vírus com 
+genomas segmentados 
+Exemplo: Vírus influenza
+REPLICAÇÃO VIRAL
+
+===== página 86 =====
+▪Localização – Montagem - Maturação
+▪citosol
+▪retículo endoplasmático – Golgi
+▪membrana celular
+▪núcleo
+Montagem
+REPLICAÇÃO VIRAL
+
+===== página 87 =====
+CORPÚSCULOS DE INCLUSÃO
+▪Intracitoplasmáticos
+▪Poxvírus
+▪Reovírus
+▪Paramyxovirus
+▪Vírus da raiva
+▪
+Intranucleares
+▪
+Herpesvírus
+▪
+Adenovírus
+▪
+Parvovírus
+Montagem
+REPLICAÇÃO VIRAL
+
+===== página 88 =====
+B
+C
+imunofluorescência
+microscopia eletrônica
+CORPÚSCULOS DE INCLUSÃO
+Montagem
+REPLICAÇÃO VIRAL
+
+===== página 89 =====
+▪Lise
+▪Brotamento
+▪Passagem para as células vizinhas
+▪Formação de sincícios
+REPLICAÇÃO VIRAL
+Liberação
+
+===== página 90 =====
+Brotamento
+REPLICAÇÃO VIRAL
+Liberação
+
+===== página 91 =====
+Brotamento
+REPLICAÇÃO VIRAL
+Liberação
+
+===== página 92 =====
+Masao Matsuoka & Kuan-Teh Jeang. Nature Reviews Cancer 7, 270-280, 2007
+Transmissão do HTLV-1
+Passagem para as células vizinhas
+REPLICAÇÃO VIRAL
+Liberação
+
+===== página 93 =====
+RESUMÃO: REPLICAÇÃO VIRAL
+Vírus DNA
+Replicação Nuclear (regra):
+▪Polimerase celular (poliomavírus, 
+papilomavírus). Replicação semelhante à 
+do DNA celular.
+▪Polimerase viral (adenovírus, herpesvírus) 
+(deslocamento de fita e “rolling circle”)
+Replicação no citoplasma:
+▪Polimerase viral (poxvírus)
+Replicação no citoplasma (regra):
+▪Polimerase viral (RdRp) (poliovírus, 
+flavivírus, etc.)
+Replicação no núcleo:
+▪Polimerase viral (RdRp) (influenza)
+Casos Particulares:
+• Retrovírus
+• Hepatite Delta
+Vírus RNA
+Casos Particulares:
+• Hepadnavírus
+
+===== página 94 =====
+REPLICAÇÃO VIRAL E 
+EFEITO CITOPÁTICO
+(Estudo dirigido para a aula 
+prática)
+
+===== página 95 =====
+Efeito citopático
+▪
+A presença de vírus em células em cultura pode induzir
+alterações visíveis ao microscópio.
+▪
+Estas alterações são conhecidas como conjuntamente
+como efeito citopático
+▪
+Estas
+alterações
+são
+resultantes
+das
+alterações
+fisiológicas da célula hospedeira por interferência do vírus.
+▪
+O efeito citopático não permite a identificação do vírus,
+mas fornece uma base para um agrupamento preliminar
+destes.
+Alterações celulares após a infecção viral
+
+===== página 96 =====
+Efeito
+citopático
+refere-se
+a
+alterações
+degenerativas em células (especialmente em cultura)
+associadas à multiplicação de certos vírus.
+As alterações incluem:
+●
+Forma alterada
+Perda de adesão ao substrato
+Lise
+Fusão de membrana (sinsícios)
+Presença de corpos de inclusão
+Apoptose
+Alterações celulares após a infecção viral
+
+===== página 97 =====
+•
+células confluentes
+•
+morfologia esperada:
+–
+poligonais - epiteliais
+–
+fusiformes - fibroblastos
+•
+citoplasma eosinófilo
+•
+núcleo basófilo
+•
+presença de dois a três 
+nucléolos
+A cultura normal
+Alterações celulares após a infecção viral
+
+===== página 98 =====
+O efeito lítico
+▪
+arredondamento celular
+▪
+perda da adesão
+▪
+perda de material citoplasmático
+▪
+alterações nucleares
+▪
+lise celular
+Alterações celulares após a infecção viral
+
+===== página 99 =====
+Células Vero antes e após infecção com poliovírus tipo 1
+Alterações celulares após a infecção viral
+
+===== página 100 =====
+▪
+células pequenas, arredondadas
+▪
+citoplasma eosinófilo
+▪
+núcleo picnótico
+▪
+lise rápida do tapete celular
+▪
+tempo de incubação: de 2 a 7 dias
+Alterações celulares após a infecção viral
+Poliovírus
+
+===== página 101 =====
+
+===== página 102 =====
+
+===== página 103 =====
+▪
+células arredondadas
+▪
+aumentadas em tamanho
+▪
+núcleo alterado
+▪
+corpúsculo de inclusão nuclear, 
+basófilo
+▪
+descolamento do tapete
+▪
+lise celular
+▪
+formação de “cachos de uva” sem 
+lise
+▪
+tempo de incubação: de 4 a 21 dias
+Adenovírus
+Alterações celulares após a infecção viral
+
+===== página 104 =====
+Normal                    Poliovírus               Adenovírus
+
+===== página 105 =====
+Células epiteliais antes e após infecção HSV-1 (0-8-12-24hs)
+Alterações celulares após a infecção viral
+
+===== página 106 =====
+Corpos de inclusão em glândula salival infectada por CMV (olho de coruja)
+Alterações celulares após a infecção viral
+
+===== página 107 =====
+▪
+frequente nos vírus envelopados
+▪
+formação de sincícios
+▪
+resultante da fusão das membranas
+▪
+passagem dos vírus de uma célula a outra
+▪
+presença ou não de alterações nucleares
+Alterações celulares após a infecção viral
+Fusão celular
+
+===== página 108 =====
+Sincícios gerados por vírus do 
+Sarampo e por HSV
+Alterações celulares após a infecção viral
+
+===== página 109 =====
+Sincício gerados por vírus do Sarampo
+Corpos de 
+inclusão
+Alterações celulares após a infecção viral
+
+===== página 110 =====
+▪
+células mono ou multinucleadas
+▪
+sincícios com forma estrelada –
+pontes citoplasmáticas
+▪
+núcleo com corpúsculo de 
+inclusão eosinófilo, circundado 
+por halo claro
+▪
+tempo de incubação: de 7 a 21 
+dias
+Herpesvírus
+Alterações celulares após a infecção viral
+
+===== página 111 =====
+▪
+sincícios gigantes, com 30 a 100 
+núcleos
+▪
+formação de pontes citoplasmáticas
+▪
+núcleos íntegros
+▪
+corpúsculos de inclusão 
+citoplasmáticos
+▪
+tempo de incubação: de 7 a 21 dias
+Sarampo
+Alterações celulares após a infecção viral
+
+===== página 112 =====
+▪
+sincícios pequenos
+▪
+arredondados
+▪
+núcleos íntegros com 
+visualização dos nucléolos
+▪
+corpúsculos de inclusão 
+citoplasmáticos
+▪
+tempo de incubação: de 4 a 21 
+dias
+Vaccini
+a
+Alterações celulares após a infecção viral
+
+===== página 113 =====
+Alterações celulares após a infecção viral
+
+===== página 114 =====
+Alterações celulares após a infecção viral
+
+===== página 115 =====
+Corpos de Negri em neurônios infectados pelo vírus da raiva (lissavírus)
+Alterações celulares após a infecção viral
+
+===== página 116 =====
+Rotavírus
+Alterações celulares após a infecção viral
+
+===== página 117 =====
+Vírus de Wallal: Síndrome de cegueira em cangurus (Reoviridae) 
+Alterações celulares após a infecção viral
+
+===== página 118 =====
+Amostras de fígado de paciente com 
+vírus Ebola, Zaire.
+Alterações celulares 
+após a infecção viral
+
+===== página 119 =====
+The Journal of Pathology, Volume: 235, Issue: 2, Pages: 153-174, First published: 09 October 2014, DOI: (10.1002/path.4456) 
+Alterações celulares após a infecção viral
+
+===== página 120 =====
+HBV
+Alterações celulares após a infecção viral
+
+===== página 121 =====
+Modern Pathology volume 20, pages108–119 (2007)
+RSV
+Alterações celulares após a infecção viral
+
+===== página 122 =====
+Epitélio da cérvice uterina normal e 
+infectado por HPV.
+Coilócitos
+Normal
+Infectado
+Alterações celulares após a infecção viral
+
+===== página 123 =====
+Alterações celulares após a infecção viral
+
+===== página 124 =====
+EFEITO CITOPÁTICO
+Efeito citopático
+Tipo de vírus
+Retração e adensamento do núcleo (picnose), 
+“proliferação” da membrana nuclear
+Picornavírus
+“proliferação” da membrana nuclear
+Alfavírus, Herpesvírus
+Vacúolos no citoplasma
+Poliomavírus
+Sincícios
+Paramixovírus, Coronavírus
+Quebras cromossômicas
+Herpesvírus
+Arredondamento celular e perda de adesão ao 
+substrato
+Herpesvírus, Rabdovírus, Adenovírus, 
+Picornavírus
+Corpos de inclusão
+Vírions no núcleo
+Adenovírus
+Vírions no citoplasma (corpos de Neri)
+Vírus da raiva
+“Fábricas” no citoplasma (corpos de Guarnieri)
+Poxvírus
+Agregados de ribossomos em vírions
+Arenavírus
+Agregados de cromatina no núcleo
+Herpesvírus
+
+===== página 125 =====
+Obrigado!!!

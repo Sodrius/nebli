@@ -1,0 +1,26 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::12_Parvovirus_B19 (25 notas)
+1516758092008 1-HighYield Which childhood exanthem is known as fifth disease ? Erythema infectiosum (parvovirus B19)
+1516927232077 1-HighYield Does the rash of erythema infectiosum (parvovirus B19) affect the face ? Yes
+1516927290535 2-RelativelyHighYield Is parvovirus B19 enveloped ? No (naked)
+1516927385593 1-HighYield Parvovirus B19 is the smallest DNA virus
+1516927428917 1-HighYield What type of virus is parvovirus B19 ? Single-stranded DNA
+1516927536764 1-HighYield Parvoviridae are the only single-stranded DNA viruses
+1516927574271 1-HighYield Parvovirus B19 is primarily transmitted via respiratory droplets
+1516927642869 3-HighYield-temporary Besides respiratory droplets, parvovirus B19 can be transmitted vertically (transplacentally) and through blood products
+1516927848240 1-HighYield Which virus causes slapped-cheek fever ? Parvovirus B19
+1516927952591 2-RelativelyHighYield Parvovirus B19 (erythema infectiosum) is a DNA virus that presents with a rash that starts on the face and moves down wards
+1516928179894 1-HighYield The fever of erythema infectiosum (parvovirus) is mild
+1516928314242 1-HighYield The fever of roseola is very high (> 104 °F = 40 °C)
+1516928411748 1-HighYield The rash of erythema infectiosum develops after the fever
+1516928451566 1-HighYield Parvovirus B19 infection in adults can result in small-joint arthritis, myocarditis, and edema
+1516928686348 1-HighYield Parvovirus B19 commonly causes aplastic crisis in patients with sickle cell, thalassemias, and hereditary spherocytosis
+1516928855943 2-RelativelyHighYield Parvovirus B19 infection during the 1st and 2nd trimester(s) can result in hydrops fetalis
+1516929130673 2-RelativelyHighYield The rash of erythema infectiosum is said to have a red, "lacy" appearance
+1516929150126 1-HighYield Which DNA virus preferentially infects erythroid progenitors ? Parvovirus B19
+1516929251589 3-HighYield-temporary Parvovirus B19 binds P blood group antigen , expressed in high levels by erythroid progenitor cells
+1516929406860 2-RelativelyHighYield What is the treatment of parvovirus B19 in the immunocompetent ? Supportive
+1516929455561 2-RelativelyHighYield What is the treatment of parvovirus B19 in the immuno compromised ? IVIG and RBC transfusion
+1516929523053 2-RelativelyHighYield Which two viruses can result in hydrops fetalis ? CMV; parvovirus B19
+1516932723120 1-HighYield Other names for parvovirus B19 include erythema infectiosum, slapped cheek fever, and fifth disease
+1516933445754 1-HighYield CMV infection during the 1st trimester (only) can result in hydrops fetalis
+1578887638763 2-RelativelyHighYield Behçet syndrome can be precipitated by HSV or parvovirus

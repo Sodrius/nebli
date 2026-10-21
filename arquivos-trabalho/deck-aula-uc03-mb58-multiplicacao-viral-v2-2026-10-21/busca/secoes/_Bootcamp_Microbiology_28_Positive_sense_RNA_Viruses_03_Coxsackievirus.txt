@@ -1,0 +1,22 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::03_Coxsackievirus (21 notas)
+1472078786108 1-HighYield Myocarditis , secondary to coxsackie B infection, is characterized by a(n) lymphocytic infiltrate in the myocardium
+1506610455254 1-HighYield What demographic is most susceptible to viral (aseptic) meningitis caused by enteroviruses ? Children
+1516220203631 1-HighYield Coxsackievirus is part of the picornaviridae family
+1516220472046 2-RelativelyHighYield What type of virus is coxsackievirus ? Positive sense RNA
+1516220529085 3-HighYield-temporary Is coxsackievirus enveloped ? No (naked)
+1516220567288 2-RelativelyHighYield What is the route of transmission of coxsackievirus ? Fecal-oral
+1516220596529 1-HighYield Coxsackie A is a virus that causes hand, foot, and mouth disease
+1516220717469 1-HighYield What type of rash is seen in hand-foot-and-mouth disease (HFMD)? Maculopapular and partially vesicular
+1516220775551 3-HighYield-temporary Coxsackievirus is a common cause of aseptic (viral) meningitis
+1516221010327 2-RelativelyHighYield Coxsackievirus infection commonly occurs during the summer months
+1516221057616 1-HighYield Coxsackie B is a virus that causes myocarditis which progresses to dilated cardiomyopathy
+1516221192461 2-RelativelyHighYield Coxsackie B is a virus that causes Bornholm disease
+1516221259059 5-LowYield Bornholm disease is also known as devil's grip or pleurodynia
+1516221296414 3-HighYield-temporary Bornholm disease is characterized by sharp pain in the lower chest uni laterally
+1516221410740 1-HighYield Four causes of rash on the palms and soles may be remembered with the mnemonic " R ash C overing T he S oles": R ickettsia rickettsii C oxsackievirus A T oxic shock syndrome S econdary S yphilis
+1516221410741 1-HighYield Four causes of rash on the palms and soles may be remembered with the mnemonic " R ash C overing T he S oles"
+1516221557330 1-HighYield Coxsackie A is associated with herpangina ( mouth blisters )
+1516221646605 1-HighYield Coxsackie B is associated with hepatitis
+1517170465040 - What is the likely diagnosis in a child that presents with fever, pharyngitis, and gray vesicles/ulcers on the posterior oropharynx? Herpangina secondary to Coxsackie A virus infection
+1582422612583 - Herpetic gingivostomatitis causes multiple small vesicles in the anterior pharynx/lips
+1582422780360 - Hand, foot, and mouth disease (HFMD), caused by the coxsackie A virus , can manifest as herpangina (multiple small vesicles) in the posterior pharynx

@@ -1,0 +1,10 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::07_Viruses-DNA_Viruses::13_Polyomavirus (9 notas)
+1516849870270 2-RelativelyHighYield What type of viruses are polyomaviruses? Double-stranded DNA
+1516850223865 2-RelativelyHighYield Are polyomaviruses enveloped ? No (naked)
+1516850243224 5-LowYield Polyomaviruses include JC virus and BK virus
+1516850294247 4-LowerYield Polyomaviruses have circular DNA genomes
+1516850367033 4-LowerYield JC virus causes progressive multifocal leukoencephalopathy (PML) in immunocompromised individuals
+1516850609790 4-LowerYield JC virus presents in immunocompromised (HIV/AIDS) patients
+1516851064454 4-LowerYield Which DNA viruses are ubiquitous in humans ? Polyomaviruses (JC, BK)
+1516851354128 4-LowerYield Polyomaviruses (JC, BK) are hypothesized to seed the kidney resulting in a clinically latent infection
+1516851459784 4-LowerYield Which polyomavirus can cause nephropathy ? BK virus

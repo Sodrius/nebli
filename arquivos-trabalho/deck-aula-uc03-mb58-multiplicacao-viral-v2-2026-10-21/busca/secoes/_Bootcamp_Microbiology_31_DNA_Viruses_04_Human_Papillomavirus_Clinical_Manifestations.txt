@@ -1,0 +1,43 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::04_Human_Papillomavirus_Clinical_Manifestations (42 notas)
+1385335260100 1-HighYield Laryngeal papillomas are benign papillary squamous proliferations commonly found on the true vocal cords ; they are associated with HPV 6 and HPV 11
+1394068322402 1-HighYield Condylomata acuminata are most commonly caused by HPV 6 or HPV 11
+1394134318361 1-HighYield What is the most common cause of vaginal carcinoma? High-risk HPV subtypes (16, 18, 31, 33)
+1394239349572 1-HighYield Cervical intraepithelial neoplasia (CIN) is a dysplastic pre-cancerous lesion of the cervix that commonly manifests following the loss of the tumor suppressors p53 and Rb following HPV infection
+1394241705535 3-HighYield-temporary What are the 4 most common HPV subtypes that cause CIN and cervical carcinoma ? HPV 16, 18, 31, 33 (high-risk HPV)
+1394242887061 1-HighYield What urogenital disorders are associated with low-risk HPV subtypes? Condylomata / warts
+1394388562593 1-HighYield What is the most common risk factor for squamous cell carcinoma of the penis ? High-risk HPV [16, 18, 31, 33] (66% of cases)
+1395340470032 1-HighYield Cutaneous warts (verrucae vulgaris) are soft, flesh-colored, cauliflower-like papules that appear on the skin due to HPV infection of keratinocytes
+1395340559909 1-HighYield What is the cause of cutaneous warts (verruca vulgaris) ? HPV 1 - 4 infection of keratinocytes
+1403295597194 1-HighYield Squamous cell carcinoma is a cancer caused by HPV in HIV patients that often presents at the anus (in MSMs) or the cervix
+1403398790620 2-RelativelyHighYield Condylomata acuminata is an STI caused by HPV 6 or HPV 11 that presents with anogenital warts and koilocytes
+1405375421095 3-HighYield-temporary Which strains of HPV are most associated with cervical dysplasia or carcinoma in situ ? HPV 16 and HPV 18
+1463093999696 2-RelativelyHighYield Condylomata acuminata are warty neoplasms of genital skin, often caused by low-risk HPV strains , and are often large
+1463094113348 1-HighYield The following image shows koilocytic change , which appears as a wrinkled nucleus and is characteristic of HPV infection
+1463094362852 4-LowerYield HPV-related vulvar carcinoma arises from vulvar intraepithelial neoplasia (VIN) , a dysplastic precursor lesion characterized by koilocytic change, disordered cellular maturation, nuclear atypia, and 
+1463105881914 2-RelativelyHighYield Persistent HPV infection leads to risk for cervical dysplasia , also known as cervical intraepithelial neoplasia (CIN)
+1463105924097 2-RelativelyHighYield Cervical intraepithelial neoplasia (CIN) is characterized by koilocytic change, nuclear atypia, and increased mitotic activity of cervical epithelium ( dysplasia )
+1463106007081 3-HighYield-temporary Which subtype of cervical carcinoma is associated with HPV ? Both :)
+1463106062110 2-RelativelyHighYield High-grade dysplasia on Pap smear is characterized by dark nuclei with a(n) high nuclear:cytoplasmic ratio
+1463331318605 4-LowerYield One precursor lesion of penile SCC is Bowen disease , which is the in situ carcinoma of the penile shaft or scrotum that presents as leukoplakia
+1463331321726 4-LowerYield One precursor lesion of penile SCC is erythroplasia of Queyrat , which is the in situ carcinoma of the glans of the penis that presents as erythroplakia
+1463331324884 4-LowerYield One precursor lesion of penile SCC is Bowenoid papulosis , which is an in situ carcinoma of the penis that presents as reddish papules
+1463331331641 4-LowerYield Which precursor lesion to penile SCC is more commonly seen in younger patients (20s - 40s)? Bowenoid papulosis
+1463331334214 4-LowerYield Which precursor lesion to penile SCC does not progress to invasive carcinoma? Bowenoid papulosis
+1473536888096 2-RelativelyHighYield Laryngeal papillomas are usually single lesions in adults
+1473536901570 2-RelativelyHighYield Laryngeal papillomas are usually multiple lesions in children
+1473536917642 2-RelativelyHighYield Laryngeal papillomas may have a(n) koilocytic change on biopsy
+1488984010465 3-HighYield-temporary What infection is associated with cancer of the tonsil, base of the tongue , and oropharynx ? HPV
+1493217821853 1-HighYield HPV has a predilection for what type of epithelium ? Stratified squamous epithelium
+1493218180866 3-HighYield-temporary HPV infects the true vocal cords in the respiratory tract which causes laryngeal papillomatosis
+1496159486876 2-RelativelyHighYield Which oncogenic microbe is associated with cervical and penile/anal carcinoma and head and neck cancer ? HPV
+1502041783034 1-HighYield Secondary syphilis presents with condylomata lata , which are raised, infectious gray-white wart-like lesions on mucous membranes (mouth, perineum)
+1535323805793 - Most common laryngeal tumor in children with stridor : Laryngeal papilloma
+1535845261462 - Which demographics are more commonly affected by squamous cell carcinoma of the anus ? HIV+ individuals and men who have sex with men (MSM)
+1545328205702 - What is the likely diagnosis in a young adult patient that presents with the foot rash below? The lesions are painful with walking and standing Plantar warts (due to HPV infection)
+1546545292523 - High-risk HPV (oncogenic virus) is associated with adenocarcinoma of the cervix and squamous cell carcinoma of the vulva , vagina , anus , and cervix
+1547916083609 - What is the likely diagnosis in a young sexually active patient that presents with multiple papular lesions around the anus? Some lesions bleed with manipulation Condylomata acuminata (genital warts)
+1549585194792 - Condylomata acuminata in children are concerning for sexual abuse
+1557244901142 - A nonhealing tonsillar ulcer in the absence of smoking/alcohol is suggestive of HNSCC caused by HPV
+1579385969068 3-HighYield-temporary Men who have sex with men , HIV , HPV (16,18), smoking , and immunocompromised state are risk factors for squamous cell carcinoma of the anus
+1584019152987 - Squamous cell carcinoma in situ is also called Bowen disease
+1584019894177 - What is the appearance of Bowen disease on physical exam ? Well -defined, erythematous , scaly/crusting plaque

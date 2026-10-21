@@ -1,0 +1,25 @@
+# #AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::01_Virus_Structure::Extra (24 notas)
+1467683837488 4-LowerYield Generally, the 5' end of DNA or RNA has a(n) phosphate group attached
+1467683840789 4-LowerYield Generally, the 3' end of DNA or RNA is a(n) hydroxyl group
+1487122023570 1-HighYield Live attenuated vaccines are often contraindicated in pregnancy and immunodeficiency
+1487122032935 1-HighYield Do live attenuated vaccines induce cellular or humoral responses? Both cellular and humoral :)
+1487122048949 1-HighYield What type of vaccine is the varicella vaccine (chickenpox)? Live-attenuated
+1487122067345 1-HighYield What is an advantage of inactivated vaccines compared to live attenuated? Inactivated vaccines are safer
+1502064775742 2-RelativelyHighYield Retroviruses (e.g., HIV) are diploid single-stranded RNA viruses
+1502065688092 1-HighYield The vaccines for HBV and HPV are recombinant (subunit) vaccines
+1502066053913 1-HighYield The vaccine for hepatitis B virus uses recombinant HBsAg
+1502570324908 2-RelativelyHighYield Which virus makes its own envelope , unlike most viruses? Poxvirus
+1502570452327 1-HighYield Poxvirus has its own DNA-dependent RNA polymerase which allows it to replicate in the cytoplasm
+1502572211906 4-LowerYield What type of vaccine is used for smallpox ? What is its name? Live attenuated; Vaccinia
+1506297239258 1-HighYield Do paramyxoviruses have an envelope ? Yes
+1516219470210 1-HighYield Which poliovirus vaccine is inactivated / killed ? Salk
+1516241054704 1-HighYield What vaccine is available for rubella ? MMR (live attenuated)
+1516473321006 2-RelativelyHighYield Rhabdovirus has a(n) helical capsid
+1516557320825 5-LowYield Filoviruses have a(n) helical capsid
+1516663797512 5-LowYield Arenavirus has a(n) helical capsid
+1516663881703 2-RelativelyHighYield The six negative sense RNA virus families with helical capsids include: Arenavirus Bunyavirus Paramyxovirus Orthomyxovirus Filovirus Rhabdovirus
+1516927385593 1-HighYield Parvovirus B19 is the smallest DNA virus
+1520349496885 1-HighYield Which types of vaccines usually require booster shots ? Inactivated / killed vaccine
+1524752474746 5-LowYield Ether and other organic solvents can disrupt the envelope of a virus , resulting in loss of infectivity
+1691516524185 1-HighYield Inactivated / killed vaccines may be remembered with the mnemonic " A TRIP could kill Y ou": Hepatitis A T yphoid fever ( Salmonella T yphi ) R abies I nfluenza (IM) P olio (Salk) Y ersinia pestis
+1691516524186 1-HighYield Inactivated / killed vaccines may be remembered with the mnemonic " A TRIP could kill Y ou"

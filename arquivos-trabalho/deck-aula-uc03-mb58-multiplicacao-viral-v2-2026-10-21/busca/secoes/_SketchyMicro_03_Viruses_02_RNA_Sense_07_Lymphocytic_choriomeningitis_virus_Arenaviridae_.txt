@@ -1,0 +1,17 @@
+# #AK_Step1_v12::#SketchyMicro::03_Viruses::02_RNA_(-)_Sense::07_Lymphocytic_choriomeningitis_virus_(Arenaviridae) (16 notas)
+1516663616586 5-LowYield Which group of viruses have a single strand of RNA that is both positive and negative (ambisense) ? Arenaviruses
+1516663668993 5-LowYield Are arenaviruses enveloped ? Yes
+1516663723276 4-LowerYield Arenaviruses are classified as negative* sense RNA viruses
+1516663797512 5-LowYield Arenavirus has a(n) helical capsid
+1516663881703 2-RelativelyHighYield The six negative sense RNA virus families with helical capsids include: Arenavirus Bunyavirus Paramyxovirus Orthomyxovirus Filovirus Rhabdovirus
+1516664064296 5-LowYield Arenaviruses have 2 circular segments
+1516664117965 4-LowerYield Which viruses have a grainy (sand) appearance on electron microscopy? Arenaviruses
+1516664211475 3-HighYield-temporary The grainy particles within arenaviruses on microscopy are host cell ribosomes
+1516664270981 5-LowYield What is the reservoir of arenaviruses ? Rodents (mice, hamsters)
+1516664409922 4-LowerYield The arenaviruses include lymphocytic choriomeningitis virus (LCMV) and lassa fever
+1516664461821 4-LowerYield The arenaviruses include lymphocytic choriomeningitis virus (LCMV) and Lassa virus
+1516664522905 4-LowerYield Lymphocytic choriomeningitis virus (LCMV) presents with fever and meningoencephalitis
+1516664642294 4-LowerYield Lymphocytic choriomeningitis virus (LCMV) can be inactivated by heat and irradiation
+1516664745638 4-LowerYield Lymphocytic choriomeningitis virus (LCMV) can be inactivated by heat and irradiation
+1516664761501 4-LowerYield Lassa fever is associated with fever and encephalitis
+1516664940367 4-LowerYield Lassa fever is endemic to West Africa

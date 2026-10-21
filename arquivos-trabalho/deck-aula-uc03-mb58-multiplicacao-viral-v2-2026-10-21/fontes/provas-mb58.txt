@@ -1,0 +1,42 @@
+# micro-14-multiplicacao-viral — Multiplicação viral
+# componente: Microbiologia (MB) · prova: P3 · CRONOGRAMA PROVISÓRIO
+# Régua de calibração — nada daqui vai colado no PDF. O slide manda no ESCOPO;
+# estas questões dizem o TETO histórico, e a E1 fica um degrau acima dele.
+
+── [2025 P3] 2.1 (MB) | chaves: ciclo de multiplicação
+   P: Considerando as características estruturais do vírus explique o ciclo de multiplicação deste tipo de vírus, descrevendo as principais etapas do processo e as estruturas essenciais à sua replicação.
+   G: Por ser um vírus de RNA de fita simples com senso positivo, o ciclo de replicação deste vírus ocorre inteiramente no citoplasma da célula hospedeira e envolve: a) Adsorção e penetração: Ocorre ligação específica da proteína do capsídeo VP1 a receptores na superfície das células que permite a entrada do vírus. b) Desnudamento (uncoating): O capsídeo é removido, liberando o genoma de RNA de fita positiva no citoplasma. c) Tradução imediata: Como o RNA viral é de senso positivo, funciona diretamente como mRNA, sendo traduzido por ribossomos celulares em uma poliproteína viral que inclui proteínas de replicação (RNA polimerase dependente de RNA – RdRp). d) Replicação do genoma viral: A RNA polimerase RNA dependente sintetiza uma fita intermediária de RNA negativa (ssRNA–) que serve de molde para novas cópias de RNA positivo genômico. e) Síntese das proteínas estruturais (VP1 e VP2): A tradu
+
+── [2024 P3] 1.1 (MB) | chaves: replicação viral
+   P: 0,6 pontos - Conhecendo a estrutura do vírus, e que a proteína Q está envolvida no processo de replicação viral, que tipo de proteína seria a proteína Q e qual sua função mais provável na replicação do vírus?
+   G: Esta proteína, envolvida diretamente na replicação viral pode ser qualquer uma das seguintes: 1 - RNA-polimerase RNA-dependente (RdRp): Enzima central na replicação de vírus de RNA. Ela sintetiza uma nova fita de RNA viral usando o RNA genômico como molde. É encontrada em todos os vírus de RNA, pois as células hospedeiras não possuem essa enzima. ova P3 – 2024 - Pág 3 2 – Transcriptase reversa: Enzima característica dos retrovírus, que converte o RNA viral em DNA (transcrição reversa). Esse DNA complementar (cDNA) é então integrado ao genoma da célula hospedeira. 3 – Integrase: Após a síntese de cDNA pela transcriptase reversa, a integrase é responsável por inserir esse DNA viral no genoma do hospedeiro, o que permite que o vírus use a maquinaria celular para se replicar.
+
+── [2024 P3] 2.6 (MB) | chaves: brotamento
+   P: 0,6 pontos - Aponte diferenças estruturais e funcionais entre este fungo e um dermatófito ova P3 – 2024 - Pág 11 cassexuadamente por brotamento, mas também pode formar estruturas de reprodução se xuada em condições específicas. Já os dermatófitos apresentam morfologia filamentosa (hifas) e formam micélios multicelulares, que podem ser septados ou não septados. Não possuem cápsula e em geral se reproduzem assexuadamente por conídios (esporos). Adiconalmente os fungos leveduriformes como o criptococo preferem ambientes ricos em matéria orgânica, como solo e excrementos . Enquanto os dermatófit
+   G: itos são encontrados em ambientes terrestres e associados a superfícies cutâneas, como pele, cabelo e unhas de humanos e animais.
+
+── [2024 P4] 2.13 (MB) | chaves: replicação viral
+   P: 0,25 pontos –No caso dos vírus tumorigênicos em humanos o desenvolvimento do câncer: a) é um evento causado pelo vírus para evadir a resposta imunológica e persistir. b) é um evento acidental que ocorre como consequência das diferentes estratégias de replicação viral. c) é um evento causado pelo vírus para produzir mais partículas infecciosas. d) é parte essencial do ciclo viral. e) é um evento causado pelo vírus para aumentar sua variabilidade genética e favorecer sua propagação.
+   G: o.
+
+── [2018 P3] 1.3 (MB) | chaves: replicação viral
+   P: 0,6 pontos –Represente esquematicamente o mecanismo de replicação viral de vírus da Febre Amarela ( Grupo IV da classificação de Baltimore ), a pontando as diferentes etapas do processo de multiplicação viral e indicando o compartimento celular onde eles acontecem.
+   G: Para um vírus desta categoria uma representação esquemática possível da replicação seria: Formação do complexo de replicação  Recrutamento da SS-RNA fita positiva  SS-RNA – Fita Negativa é sintetizada pela RNA polimerase dependente de RNA  SS-RNA fita positiva é produzida. O processo ocorre no citoplasma da célula infectada.
+
+── [2017 P2] 1.7 (MB) | chaves: montagem  [eco — a chave só aparece no gabarito; confira se a subquestão é mesmo desta aula]
+   P: 0,5 pontos – Qual o principal mecanismo que poderia explicar este resultado do antibiograma? Explique o mecanismo de seu desenvolvimento.
+   G: O hemograma mostra resistência ao Ácido Nalidixico que vem sendo administrado à paciente, o que significa que a Bactéria, de alguma forma, adquiriu resistência a este antibiótico. Diversos processos podem estar envolvidos no desenvolvimento desta resistência incluindo: 1 – Presença de mutações no genoma bacteriano que confiram resistência 2 – Aquisição, pela bactéria, de plasmídeos de resistência Estas mutações e/ou a presença de plasmídeos podem gerar resistência pelos seguintes mecanismos: - Diminuição da permeabilidade da bactéria ao antibiótico - Montagem de bomba de efluxo de antibiótico que o retira da bactéria - Desenvolvimento de enzima que degrada o antibiótico no interior da bactéria - Alteração alostéca do sitio de ação A cultura de fezes também foi positiva para Escherichia coli.
+
+── [2017 P2] 2.4 (MB) | chaves: brotamento  [eco — a chave só aparece no gabarito; confira se a subquestão é mesmo desta aula]
+   P: 0,3 pontos – O que representam as estruturas marcadas pela setas? Qual sua importância para o fungo?
+   G: Representam brotamentos – forma de reprodução assexuada das leveduras
+
+── [2015 P2] 4.3 (MB) | chaves: efeito citopático
+   P: No efeito citopático observado nas culturas celulares inoculadas e coradas: a.a formação de sincícios é devida à fusão das células infectada com as células vizinhas b.a fusão das membranas celulares é facilitada por proteínas virais c.a lise celular é conseqüência da excessiva multiplicação viral e esgotamento da célula d.a lise celular é conseqüência da fusão das células infectadas e.as alternativas a e b estão corretas
+   G: as
+
+── [2015 P2] 4.8 (MB) | chaves: brotamento
+   P: A presença de corpúsculos de inclusão indica que: a.as novas partículas virais são montadas no núcleo da célula infectada. b.as partículas virais são liberadas por brotamento. c.os novos vírus são montados no núcleo e depois no citoplasma da célula infectada. d.as novas partículas virais são montadas no citoplasma da célula infectada.
+   G: a.
+
+# 9 subquestões · anos: 2025, 2024, 2018, 2017, 2015

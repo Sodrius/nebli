@@ -1,0 +1,1224 @@
+===== pdf p. 428 =====
+420 
+SEÇÃO IV Virologia 
+mesmo à temperatura ambiente. Os vírus que resistem à liofili­
+zação são mais termorresistentes quando aquecidos no estado 
+seco. Os vírus com envelope tendem a perder a infecciosidade 
+após armazenamento prolongado mesmo a 90ºC, mostrando­
+se, desse modo, particularmente sensíveis ao congelamento e 
+descongelamento repetidos. 
+Estabilização dos vírus por sais 
+Muitos vírus podem ser estabilizados por sais em concentra­
+ções de 1 moVL, isto é, os vírus não são inativados nem mes­
+mo por aquecimento a SOºC durante 1 hora. Desconhece-se o 
+mecanismo pelo qual os sais estabilizam as preparações virais. 
+Os vírus são preferencialmente estabilizados por determinados 
+sais. O MgC12, 1 moVL, estabiliza os picornavírus e os reovírus; 
+o MgSO 4, 1 mol/L, estabiliza os ortomixovírus e os paramixo­
+vírus; e o Na2S04, 1 moVL, estabiliza os herpes-vírus. 
+A estabilidade dos vírus é importante na preparação das vaci­
+nas. A vacina antipólio oral comum não estabilizada deve ser con­
+servada a temperaturas de congelamento para se preservar a sua 
+potência. Todavia, com o acréscimo de sais para a estabilização do 
+vírus, a potência pode ser mantida durante semanas à temperatu­
+ra ambiente, mesmo às altas temperaturas dos trópicos. 
+pH 
+Em geral, os vírus são estáveis entre valores de pH de 5,0 a 
+9,0. Alguns vírus (p. ex., enterovírus) mostram-se resistentes a 
+condições ácidas. Todos os vírus são destruídos por condições 
+alcalinas. Nas reações de hemaglutinação, variações inferiores 
+a 1 unidade de pH podem influir no resultado. 
+Radiação 
+A luz UV, os raios X e as partículas de alta energia inativam 
+os vírus. A dose varia de acordo com os diferentes vírus. A in­
+fecciosidade constitui a propriedade mais sensível à radiação, 
+visto que a replicação requer a expressão de todo o conteúdo 
+genético. As partículas irradiadas incapazes de sofrer replica­
+ção ainda podem ter a capacidade de expressar algumas fun­
+ções específicas nas células do hospedeiro. 
+Suscetibilidade ao éter 
+Pode-se utilizar a suscetibilidade ao éter para distinguir os ví­
+rus que têm envelope daqueles que não o possuem. A sensibi­
+lidade de diferentes grupos de vírus ao éter é apresentada no 
+Quadro 29 .1. 
+Detergentes 
+Os detergentes não iônicos - como, por exemplo, Nonidet 
+P40 e Triton X-100 - solubilizam os componentes lipídicos 
+das membranas virais. As proteínas virais do envelope são libe­
+radas (não desnaturadas). Os detergentes aniônicos - como, 
+por exemplo, o dodecil sulfato de sódio - também solubilizam 
+o envelope viral; além disso, rompem os capsídeos em polipep­
+tídeos distintos. 
+Formaldeído 
+O formaldeído destrói a infecciosidade viral ao reagir com 
+o ácido nucleico. Os vírus com genomas de fita simples são 
+inativados muito mais rapidamente do que os que apresentam 
+genomas de fita dupla. O formaldeído exerce efeitos adversos 
+mínimos sobre a antigenicidade das proteínas, e por isso tem 
+sido utilizado com frequência na produção de vacinas com ví­
+rus inativados. 
+1 nativação fotodinâmica 
+Os vírus deixam-se penetrar em graus variáveis por corantes 
+vitais, como o azul de toluidina, vermelho neutro e proflavi­
+na. Esses corantes ligam-se ao ácido nucleico viral, de modo 
+que o vírus se torna suscetível à inativação pela luz visível. O 
+vermelho-neutro costuma ser utilizado para corar ensaios de 
+placa, de modo que as placas possam ser mais facilmente visua­
+lizadas. Adicionado o vermelho-neutro, as placas do ensaio 
+devem ser protegidas da luz brilhante; caso contrário, existe 
+o risco de a progênie viral ser inativada, com a interrupção do 
+desenvolvimento da placa. 
+Antibióticos e outros antibacterianos 
+Os antibióticos antibacterianos e as sulfonamidas não exercem 
+efeito algum sobre os vírus. Entretanto, alguns antivirais estão 
+disponíveis (ver Cap. 30). 
+Em geral, os compostos de amônio quaternário não são efi­
+cazes contra os vírus. Os compostos de iodo orgânico também 
+são ineficazes. São necessárias concentrações maiores de cloro 
+para destruir os vírus do que para matar as bactérias, sobretudo 
+na presença de proteínas estranhas. Por exemplo, o tratamento 
+das fezes com cloro, adequado para inativar os bacilos da febre 
+tifoide, mostra-se inadequado para destruir os vírus da polio­
+mielite presentes nas fezes. Os alcoóis, como o isopropanol e o 
+etanol, são relativamente ineficazes contra determinados vírus, 
+em particular os picornavírus. 
+Métodos comuns de inativação dos vírus 
+para várias finalidades 
+Os vírus podem ser inativados por várias razões: para esterilizar 
+materiais de laboratório e equipamentos, desinfetar superfícies 
+ou a pele, tornar a água potável segura e produzir vacinas com 
+vírus inativados. São utilizados diferentes métodos e substân­
+cias químicas para essas finalidades. 
+A esterilização pode ser alcançada por meio de vapor sob 
+pressão, calor seco, óxido de etileno e irradiação gama (y). A 
+desinfecção de superfícies inclui o emprego de hipoclorito de 
+sódio, glutaraldeído, formaldeído e ácido peracético. Entre os 
+desinfetantes da pele incluem-se a clorexidina, o etanol a 70% 
+e os iodóforos. A produção de vacinas pode envolver o uso de 
+formaldeído, Â-propiolactona, psoraleno mais irradiação UV 
+ou detergentes (vacinas de subunidades) para inativar os vírus 
+• 
+• 
+vacmais. 
+REPLICAÇÃO DOS VÍRUS: UM RESUMO 
+Os vírus só se multiplicam em células vivas. A célula hospe­
+deira deve fornecer a energia e o mecanismo de síntese, bem 
+como os precursores de baixo peso molecular para síntese das 
+proteínas e dos ácidos nucleicos virais. O ácido nucleico viral 
+transporta a especificidade genética para codificar todas as 
+
+===== pdf p. 429 =====
+macromoléculas específicas do vírus de uma forma altamente 
+organizada. 
+Para que ocorra a replicação do vírus, é necessária a sínte­
+se das proteínas virais pelo mecanismo de síntese proteica da 
+célula hospedeira. Por conseguinte, o genoma do vírus deve 
+ser capaz de produzir um RNAm. Foram identificados vários 
+mecanismos que permitem aos RNA virais competir de for­
+ma bem-sucedida com os RNAm celulares, a fim de produzir 
+quantidades adequadas de proteínas virais. 
+A característica da multiplicação viral é que, logo após a 
+interação com a célula hospedeira, o virion infectante se rompe 
+e perde sua infecciosidade detectável. Essa fase do ciclo de cres­
+cimento é denominada período de eclipse, cuja duração varia 
+de acordo com o vírus e a célula hospedeira, sendo seguida de 
+um intervalo de rápido acúmulo de uma progênie infectante 
+de partículas virais. Na verdade, o período de eclipse é de in­
+tensa atividade de síntese, visto que a célula é redirecionada 
+para suprir as necessidades do "pirata" viral. Em alguns casos, 
+assim que o ácido nucleico viral penetra na célula hospedeira, 
+o metabolismo celular é redirecionado exclusivamente para a 
+síntese de novas partículas virais, com a subsequente destrui­
+ção da célula. Em outros casos, os processos metabólicos da 
+célula hospedeira não são significativamente alterados, apesar 
+de a célula sintetizar proteínas e ácidos nucleicos virais, não 
+ocorrendo a morte da célula. 
+Após a síntese do ácido nucleico e das proteínas virais, os 
+componentes organizam-se para formar novos virions infec­
+ciosos. A produção de vírus infecciosos por célula varia ampla­
+mente: desde números moderados a mais de 100.000 partículas. 
+A duração do ciclo de replicação do vírus também varia ampla­
+mente: desde 6 a 8 horas (picornavírus) até mais de 40 horas 
+(alguns herpes-vírus). 
+Nem todas as infecções resultam em nova progênie de ví­
+rus. Ocorrem infecções produtivas em células permissivas, 
+resultando na produção de vírus infecciosos. As infecções 
+abortivas não produzem progênie infecciosa, visto que a célula 
+pode ser não permissiva e incapaz de sustentar a expressão de 
+todos os genes virais, ou que o vírus infectante pode ser defei­
+tuoso, apresentando carência de algum gene viral funcional. 
+Pode ocorrer infecção latente, com a persistência dos genomas 
+virais, expressão de nenhum ou de alguns genes virais, e sobre­
+vida da célula infectada. O padrão de replicação pode variar 
+para um determinado vírus, dependendo do tipo de célula hos­
+pedeira infectada. 
+Etapas gerais nos ciclos de replicação virai 
+Os vírus desenvolveram uma variedade de estratégias para a 
+sua multiplicação nas células parasitadas do hospedeiro. Ape­
+sar de os detalhes variarem de um grupo para outro, o perfil 
+geral dos ciclos de replicação é semelhante. Os ciclos de cresci­
+mento de um vírus de DNA de fita dupla e de um vírus de RNA 
+de fita simples, de polaridade positiva, estão esquematizados 
+na Figura 29.5. Nos próximos capítulos estão inclusos detalhes 
+dedicados a grupos específicos de vírus. 
+A. Fixação, penetração e desnudamento 
+A primeira etapa na infecção viral consiste na fixação ou in­
+teração de um virion com um local receptor específico sobre a 
+CAPÍTULO 29 
+Propriedades gerais dos vírus 
+421 
+superfície da célula. As moléculas receptoras diferem para di­
+ferentes vírus; porém, trata-se em geral de glicoproteínas. Em 
+alguns casos, o vírus liga-se a sequências de proteína (p. ex., 
+picornavírus) e, em outros, a oligossacarídeos (p. ex., ortomi­
+xovírus e paramixovírus). Acredita-se que a ligação ao receptor 
+possa refletir homologias de configuração casuais entre a es­
+trutura da superfície do virion e um componente da superfí­
+cie celular. Por exemplo, o vírus da imunodeficiência humana 
+liga-se ao receptor CD4 sobre células do sistema imunológico, 
+os rinovírus ligam-se à molécula de adesão intracelular 1 (in­
+tercellular adhesion molecule 1 [ICAM-1]), e o vírus Epstein­
+Barr reconhece o receptor CD21 nas células B. A presença ou 
+ausência de receptores desempenham papel determinante no 
+tropismo celular e na patogênese viral. Nem todas as células 
+em um hospedeiro suscetível irão expressar os receptores ne­
+cessários; por exemplo, o poliovírus é capaz de ligar-se apenas 
+a células do sistema nervoso central e do trato intestinal de 
+primatas. Cada célula suscetível pode conter até 100.000 locais 
+receptores para determinado vírus. A etapa de fixação pode 
+iniciar alterações estruturais irreversíveis no virion. 
+Após ocorrer a ligação, a partícula viral é captada no inte­
+rior da célula. Essa etapa é denominada penetração ou engol­
+famento, sendo, em alguns sistemas, efetuada pelo processo de 
+endocitose mediada por receptores, com a captação das partí­
+culas virais ingeridas no interior de endossomos. Existem tam­
+bém exemplos de penetração direta de partículas virais através 
+da membrana plasmática. Em outros casos, ocorre a fusão do 
+envelope do virion com a membrana plasmática da célula. Es­
+tes sistemas envolvem a interação de uma proteína de fusão 
+do vírus com um segundo receptor celular ou "correceptor" 
+(p. ex., receptores de quimiocinas para o vírus da imunodefi­
+ciência humana). 
+Ocorre desnudamento concomitantemente com a penetra­
+ção, ou pouco depois desta. O desnudamento refere-se à separação 
+física do ácido nucleico viral dos outros componentes estruturais 
+do virion, de modo que possa funcionar. O genoma pode ser li­
+berado em forma de ácido nucleico livre (picornavírus) ou como 
+nucleocapsídeo (reovírus). Em geral, os nucleocapsídeos contêm 
+polimerases. O desnudamento pode exigir a presença de pH ácido 
+no endossomo. No estágio de desnudamento, ocorre a perda da 
+infecciosidade do vírus original. Os vírus são os únicos agentes in­
+fecciosos em que a dissolução do agente infectante constitui uma 
+etapa obrigatória na via de replicação. 
+B. Expressão de genomas virais e síntese dos 
+componentes virais 
+A fase de síntese do ciclo de replicação viral ocorre após o desnu­
+damento do genoma viral. O tema essencial na replicação viral 
+consiste na transcrição de RNAm específicos a partir do ácido 
+nucleico viral para a expressão e duplicação bem-sucedidas da 
+informação genética. Uma vez concluída essa etapa, os vírus uti­
+lizam componentes celulares para a tradução do RNAm. Várias 
+classes de vírus utilizam diferentes vias para sintetizar os RNAm, 
+dependendo da estrutura do ácido nucleico viral. O Quadro 29.2, 
+fornece um resumo das diversas vias de transcrição (mas não ne­
+cessariamente as da replicação) dos ácidos nucleicos de diferen­
+tes classes de vírus. Alguns vírus (p. ex., rabdovírus) transportam 
+RNA polimerases para sintetizar os RNAm. Os vírus de RNA 
+desse tipo são denominados vírus de fita negativa (polaridade 
+
+===== pdf p. 430 =====
+422 
+SEÇÃO IV Virologia 
+A 
+B 
+Vírus___,. 
+maduro 
+DNA do ----4 
+hospedeiro 
+'l 'l Proteínas virais 
+Citoplasma 
+DNA virai 
+) 
+Núcleo 
+' 
+RNAm virai 
+,.._, --"-DNA virai 
+replicado 
+ANA virai 
+(+) 
+(+) 
+/) 
+(-) 
+@ 
+y 
+e 
+(+) 
+(+) ® z:\. 
+® 
+- (+) 
+ː 
+غ "to 
+ޑ 
+-
+Proteínas 
+virais 
+6, "'-ɖh Capsídeo 
+ސ{ " 
+) 
+Citoplasma 
+Núcleo 
+FIGURA 29.5 Exemplo do ciclo de crescimento virai. (A) Ciclo de crescimento de um vírus de DNA de fita dupla, sem envelope. Nesse exemplo, 
+múltiplas etapas do ciclo de replicação ocorrem no núcleo da célula hospedeira. (1) Após penetração, o vírus é desnudado e o DNA virai é introdu­
+zido no citoplasma. (2) Os genes virais são transcritos. (3) Os RNAms são traduzidos no citoplasma e as proteínas recém sintetizadas voltam para o 
+núcleo. (4) O DNA virai é replicado no núcleo, em alguns casos com a ajuda das proteínas virais recém-sintetizadas. (5) As proteínas virais se unem 
+formando o capsídeo, envolvendo o DNA virai e constituindo o núcleocapsídeo. (6) Em raras ocasiões, o DNA virai pode se integrar ao DNA da célula 
+hospedeira como consequência do processo infeccioso. (8) Ciclo de crescimento de um vírus de RNA de fita simples, de polaridade positiva. Nesse 
+exemplo, todo o ciclo replicativo ocorre no citoplasma. (1) A partícula virai se adere à celula hospedeira e o RNA virai é introduzido no citoplasma. 
+(2) Sendo de sentido positivo e de fita simples, o RNA virai é diretamente traduzido (funciona como RNAm), produzindo proteínas virais. (3) Uma 
+cópia de RNA de sentido negativo é sintetizada, usando a fita de RNA de sentido positivo como molde. (4) Essa fita negativa é usada como molde 
+para síntese de múltiplas cópias de RNA de fita simples de sentido positivo. (5) As moléculas de RNA de fita simples de sentido positivo são montadas 
+com as proteínas virais, produzindo novos virions (Reproduzida, com autorização, de Talaro KP: Foundations in Microbiology: Basic Principies, 6th ed. 
+McGraw-Hill, 2008. © The McGraw-Hill Companies, lnc.) 
+negativa), visto que o genoma de RNA de fita simples é comple­
+mentar ao RNAm, convencionalmente designado de fita positi­
+va (polaridade positiva). Os vírus de fita negativa devem dispor 
+de sua própria RNA polimerase, visto que as células eucarióticas 
+carecem de enzimas capazes de sintetizar o RNAm na ausência 
+de um modelo de RNA. 
+Durante a replicação virai, todas as macromoléculas especí­
+ficas do vírus são sintetizadas em uma sequência altamente or­
+ganizada. Em algumas infecções virais, principalmente as que 
+envolvem vírus que contenham DNA de fita dupla, as proteí­
+nas virais iniciais são sintetizadas logo após a infecção, enquan­
+to as proteínas tardias formam-se apenas mais tarde durante a 
+infecção, após ocorrer síntese do DNA virai. Os genes iniciais 
+podem ou não ser desligados quando os produtos tardios são 
+sintetizados. Já a maior parte (senão toda a) da informação ge­
+nética dos vírus contendo RNA é expressa ao mesmo tempo. 
+Além desses controles temporais, existem também contro­
+les quantitativos, visto que nem todas as proteínas virais são 
+
+===== pdf p. 431 =====
+CAPÍTULO 29 
+Propriedades gerais dos vírus 
+423 
+QUADRO 29.2 
+Vias de transcrição do ácido nucleico de várias classes de vírus 
+Tipo de ácido 
+nucleico virai 
+Intermediários 
+Tipo de RNAm 
+Exemplo 
+Comentários 
+DNA defd ± 
+Nenhum 
+RNAm + 
+A maioria dos vírus 
+de DNA (p. ex., 
+herpes-vírus, adenovírus) 
+DNAdefs+ 
+RNA defd + 
+DNAdefd + 
+RNAm + 
+RNAm + 
+Parvovírus 
+Nenhum 
+Reovírus 
+O virion contém RNA polimerase que transcreve 
+cada segmento do RNAm 
+RNAdefs + 
+RNA de fd ± 
+RNAm + 
+Picornavírus, togavírus, 
+flavivírus 
+O ácido nucleico virai é infeccioso e serve como 
+RNAm. Quanto aos togavírus, o menor RNAm + 
+também é formado para certas proteínas 
+RNAm defs-
+Nenhum 
+RNAm + 
+Rabdovírus, 
+O ácido nucleico virai não é infeccioso; o virion 
+contém RNA polimerase que forma RNAms 
++ menores que o genoma. Quanto aos 
+ortomixovírus, os RNAms + são transcritos a 
+partir de cada segmento 
+• 
+• 
+param1xov1rus, 
+ortomixovírus 
+RNAdefd + 
+DNA-, DNA± 
+RNAm + 
+Retrovírus 
+O virion contém a transcriptase reversa; o RNA virai 
+não é infeccioso, mas o DNA complementar a 
+partir da célula transformada é 
+- indica fita negativa; + indica fita positiva; ± indica uma hélice contendo uma fita positiva e uma negativa; fs, fita simples; fd, fita dupla. 
+sintetizadas nas mesmas quantidades. As proteínas específicas 
+do vírus ou micro-RNA podem regular a extensão da transcri­
+ção do genoma ou da tradução do RNAm viral. 
+Os pequenos vírus animais e os bacteriófagos são modelos 
+adequados aos estudos da expressão gênica. Foram elucidadas 
+as sequências totais de nucleotídeos de vários vírus, levando à 
+descoberta de genes superpostos, em que algumas sequências 
+no DNA são utilizadas na síntese de dois polipeptídeos dife­
+rentes pelo uso de duas estruturas distintas de leitura ou por 
+duas moléculas de RNAm por meio da mesma estrutura de lei­
+tura, porém com diferentes fontes de início. Um sistema viral 
+( adenovírus) revelou pela primeira vez o fenômeno de proces­
+samento do RNAm, denominado "junção" (splicing), pelo qual 
+as sequências do RNAm que codificam determinada proteína 
+são geradas a partir de sequências distintas no modelo, com 
+a excisão das sequências interpostas não codificadas na trans­
+crição. Recentemente, foi demonstrado que diversos vírus de 
+DNA (herpes-vírus, e poliomavírus) codificam micro-RNAs; 
+esses pequenos RNAs (com cerca de 22 nucleotídeos) funcio­
+nam em um novo nível de regulação gênica pós-transcricional, 
+mediando a degradação dos RNAms-alvo ou por indução da 
+inibição da tradução de tais RNAms. 
+A maior variação nas estratégias da expressão gênica é ob­
+servada entre vírus que contenham RNA (Quadro 29.3). Alguns 
+virions possuem polimerases (ortomixovírus, reovírus); certos 
+sistemas utilizam mensagens subgenômicas, algumas geradas 
+por junção (ortomixovírus, retrovírus); e determinados vírus 
+sintetizam grandes precursores poliproteicos processados e 
+clivados para formar os produtos gênicos finais (picornavírus, 
+retrovírus). A protease viral do vírus da imunodeficiência hu­
+mana é inibida por uma classe de fármacos antivirais chama­
+dos inibidores de protease. 
+O grau de atuação das enzimas específicas dos vírus nes­
+ses processos varia de um grupo para outro. Os vírus de DNA 
+que se replicam no núcleo em geral utilizam DNA e RNA 
+polimerases, bem como enzimas de processamento da célula 
+hospedeira. Os vírus maiores (herpes-vírus, poxvírus) são mais 
+independentes das funções celulares que os vírus menores, ra­
+zão pela qual os vírus maiores são mais suscetíveis à quimiote­
+rapia antivira! (ver Cap. 30), visto que existem mais processos 
+específicos dos vírus à disposição como alvos para a ação far­
+macológica. 
+Os locais intracelulares em que ocorrem os diferentes even­
+tos da replicação viral variam de um grupo para outro (Qua­
+dro 29.4). Entretanto, é possível formular algumas generalizações. 
+A proteína viral é sintetizada no citoplasma, em polirribossomos 
+constituídos de RNAm específico do vírus e ribossomos da cé­
+lula hospedeira. Muitas proteínas virais sofrem modificações 
+(glicosilação, acilação, clivagem, etc.). Em geral, o DNA viral é 
+replicado no núcleo. O RNA do genoma viral costuma ser dupli­
+cado no citoplasma da célula, embora haja exceções. 
+C. Morfogênese e liberação 
+Os genomas virais recém-sintetizados e polipeptídeos do cap­
+sídeo unem-se para formar a progênie de vírus. Os capsídeos 
+icosaédricos podem condensar-se na ausência de ácido nuclei­
+co, enquanto os nucleocapsídeos dos vírus com simetria he­
+licoidal não podem se formar na ausência de RNA viral. Em 
+geral, os vírus sem envelope acumulam-se em células infecta­
+das, as quais eventualmente sofrem um processo de lise e libe­
+ração de partículas virais. 
+Os vírus com envelope amadurecem por um processo de 
+brotamento. As glicoproteínas do envelope específicas do vírus 
+são introduzidas nas membranas celulares; em seguida, os nu­
+cleocapsídeos virais brotam através da membrana nesses locais 
+modificados e, ao fazê-lo, adquirem um envelope. Com frequ­
+ência, o brotamento ocorre na membrana plasmática, embora 
+possa envolver outras membranas da célula. Os vírus com en­
+velope não são infecciosos até o adquirirem. Por conseguinte, a 
+progênie de virions infecciosos tipicamente não se acumula no 
+interior da célula infectada. 
+
+===== pdf p. 432 =====
+424 
+SEÇÃO IV Virologia 
+QUADRO 29.3 
+Comparação de estratégias de replicação de diversas famílias importantes de vírus de RNA 
+Característica 
+Estrutura do RNA do 
+genoma 
+Polaridade do RNA 
+• 
+• 
+genom1co 
+Genoma segmentado 
+RNA genômico 
+infeccioso 
+RNA genômico atua 
+como mensageiro 
+Polimerase associada 
+ao virion 
+Mensagens 
+subgenômicas 
+Precursores de 
+poli proteína 
+Vírus de fita positiva 
+Picornaviridae 
+Togaviridae 
+f s 
+f s 
+Positivo 
+Positivo 
+o 
+o 
++ 
++ 
++ 
++ 
+o 
+o 
+o 
++ 
++ 
++ 
+Agrupamento baseado no RNA genômicoª 
+Retroviridae 
+f s 
+Positivo 
+o 
++ 
++ 
++ 
+Vírus de fita negativa 
+Orthomyxoviridae 
+f s 
+Negativo 
++ 
+o 
+o 
++ 
++ 
+o 
+Paramyxoviridae e 
+Rhabdoviridae 
+f s 
+Negativo 
+o 
+o 
+o 
++ 
++ 
+o 
+Vírus de fita 
+dupla 
+Reoviridae 
+f d 
++ 
+o 
+o 
++ 
++ 
+o 
+•+, a propriedade indicada aplica-se à família virai; O, a propriedade indicada não se aplica à família virai; fd, fita dupla; negativa, complementar ao RNAm; positiva, mesma 
+polaridade que o RNAm; fs, fita simples. 
+bOs retrovírus contêm um genoma diploide (duas cópias de genoma RNA não segmentado). 
+cos retrovírus contêm uma transcriptase reversa (DNA polimerase dependente de RNA). 
+QUADR0 29.4 
+Resumo dos ciclos de replicação das principais famílias de vírus 
+Família de vírus 
+Vírus deDNA 
+Parvoviridae 
+Polyomaviridae 
+Adenoviridae 
+Hepadnaviridae 
+Herpesviridae 
+Poxviridae 
+Vírus de RNA 
+Picornavi ridae 
+Reoviridae 
+Togaviridae 
+Flaviviridae 
+Retroviridae 
+Bunyaviridae 
+Orthomyxoviridae 
+Paramyxoviridae 
+Rhabdoviridae 
+Presença 
+de envelope 
+• 
+• 
+no v1r1on 
+o 
+o 
+o 
++ 
++ 
+o 
+o 
+o 
++ 
++ 
++ 
++ 
++ 
++ 
++ 
+Localização intracelularª 
+Replicação do 
+Formação do 
+Maturação 
+genoma 
+nucleocapsídeob 
+do virion 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+e 
+M-E 
+N 
+N 
+M 
+e 
+e 
+e 
+e 
+e 
+e 
+e 
+e 
+e 
+e 
+e 
+M-P 
+e 
+e 
+M-E 
+N 
+e 
+M-P 
+e 
+e 
+M-G 
+N 
+N 
+M-P 
+e 
+e 
+M-P 
+e 
+e 
+M-P 
+Ciclo de 
+multiplicação 
+(horas)c 
+48 
+25 
+15 a 72 
+20 
+6 a 8  
+15 
+l O a  24 
+24 
+15 a 30 
+1 0 a 48 
+6 a 10 
+ªC, citoplasma; M, membranas; M-E, membranas do retículo endoplasmático; M-G, membranas do aparelho de Golgi, M-P, membranas plasmáticas; N, núcleo. 
+bA síntese das proteínas virais sempre ocorre no citoplasma. 
+'Os valores apresentados para a duração do ciclo de multiplicação são aproximados; as faixas indicam que vários membros de uma família replicam com cinéticas diferentes. 
+Os diferentes tipos de células hospedeiras também influenciam a cinética da replicação virai. 
+
+===== pdf p. 433 =====
+Algumas vezes, a maturação viral é um processo ineficaz. 
+Quantidades excessivas de componentes virais podem acumu­
+lar-se e envolver-se na formação de corpúsculos de inclusão 
+no interior da célula. Em consequência dos profundos efeitos 
+deletérios da replicação viral, verifica-se o desenvolvimento 
+subsequente de efeitos citopáticos celulares, ocorrendo mor­
+te da célula. Entretanto, existem casos em que a célula não é 
+lesada pelo vírus, verificando-se a ocorrência de infecções per­
+sistentes a longo prazo (ver Cap. 30). A apoptose, um evento 
+geneticamente programado que leva a autodestruição das cé­
+lulas, pode ser regulada por mecanismos induzidos por vírus. 
+Algumas infecções virais retardam a apoptose precoce, dando 
+tempo suficiente para a produção de grande quantidade de 
+progênie viral. Além disso, alguns vírus induzem ativamente 
+a apoptose em estágios tardios, facilitando a propagação dos 
+vírus para novas células. 
+GENÉTICA DOS VÍRUS ANIMAIS 
+A análise genética proporciona uma poderosa ferramenta para 
+se elucidarem a estrutura e a função do genoma viral, seus pro­
+dutos gênicos, bem como seu papel na infecção e na doença. Va­
+riantes virais podem ocorrer naturalmente, com alterações nas 
+propriedades biológicas como resultado de mutações genéticas. 
+A variação nas propriedades virais é de suma importância para 
+a medicina humana. Os vírus que possuem antígenos estáveis 
+em sua superfície (poliovírus, vírus do sarampo) podem ser con­
+trolados por vacinação. Outros vírus que existem em forma de 
+muitos tipos antigênicos (rinovírus) ou que sofrem alterações 
+frequentes (vírus influenza A) são de difícil controle por vaci­
+nação. A genética viral pode favorecer o desenvolvimento de 
+vacinas mais eficazes. Alguns tipos de infecção viral sofrem repe­
+tidas recidivas (vírus parainfluenza) ou persistem (retrovírus) na 
+presença de anticorpos, podendo ser mais bem controlados pelo 
+uso de antivirais. A análise genética irá ajudar na identificação 
+dos processos específicos dos vírus passíveis de atuar como alvos 
+apropriados ao desenvolvimento da terapia antivira!. 
+Os seguintes termos são básicos para uma discussão da 
+genética: o genótipo refere-se à constituição genética de um 
+microrganismo; o fenótipo relaciona-se com as propriedades 
+observadas de um microrganismo, produzidas pelo fenótipo 
+em cooperação com o meio ambiente; a mutação é uma alte­
+ração do genótipo passível de ser herdada; o genoma é a soma 
+dos genes de um microrganismo; o vírus tipo selvagem refere­
+se ao vírus original a partir do qual são produzidos mutantes 
+e com o qual os mutantes são comparados; a expressão pode 
+não caracterizar exatamente o vírus em sua forma isolada na 
+natureza; os vírus isolados do hospedeiro natural são descritos 
+como vírus isolados de campo ou isolados primários. 
+Mapeamento dos genomas virais 
+As técnicas rápidas e precisas de biologia molecular facilitaram a 
+identificação dos produtos gênicos virais e o mapeamento desses 
+produtos no genoma viral. Os mapeamentos bioquímico e físico 
+podem ser efetuados muito mais rapidamente do que o mapea­
+mento genético, por meio de técnicas genéticas clássicas. 
+Para os isolados que podem ser clonados, a análise da se­
+quência e comparação com vírus conhecidos é usada com 
+CAPÍTULO 29 
+Propriedades gerais dos vírus 
+425 
+frequência em vez das abordagens descritas a seguir para o ma­
+peamento de genomas virais. 
+A técnica de mapeamento recombinante foi utilizada com 
+os vírus influenza A, que possuem um genoma de oito seg­
+mentos de RNA, cada qual codificando uma proteína viral. Em 
+condições apropriadas, os segmentos do genoma de RNA e os 
+polipeptídeos de diferentes vírus influenza A migram a velo­
+cidades diversas em géis de poliacrilamida, permitindo a dife­
+renciação das cepas. Pela análise dos produtos recombinantes 
+formados entre diferentes vírus influenza, foi determinado o 
+segmento de RNA que codifica cada proteína. 
+As endonucleases de restrição podem ser utilizadas para 
+identificação de cepas específicas de vírus do DNA. O DNA 
+viral é isolado e incubado com uma endonuclease específica até 
+haver a clivagem de sequências de DNA suscetíveis a nuclea­
+se. Em seguida, os fragmentos são separados, de acordo com o 
+tamanho, por eletroforese em gel. Os fragmentos grandes têm 
+sua migração retardada pelo efeito de filtração do gel, de modo 
+que se observa uma relação inversa entre o tamanho e a migra­
+ção. A posição dos segmentos de DNA pode ser determinada 
+por autorradiografia ou por técnicas de coloração especializa­
+das. Essas técnicas de mapeamento físico são úteis na diferen­
+ciação de tipos virais em sistemas nos quais os vírus não podem 
+ser cultivados (p. ex., papilomavírus). 
+É possível correlacionar os mapas físicos com os genéticos, 
+o que permite que os produtos dos genes virais sejam mapea­
+dos em regiões do genoma, defmidas pelos fragmentos das 
+enzimas de restrição. A transcrição de RNAm durante o ciclo 
+de replicação pode ser atribuída a fragmentos específicos de 
+DNA. Com o uso da mutagênese, mutações podem ser intro­
+duzidas em regiões defmidas do genoma. Podem ser utilizados 
+fragmentos do genoma viral produzidos pela reação em cadeia 
+da polimerase, em vez dos fragmentos das enzimas de restri­
+ção, em estudos de mapeamento e mutagênese. 
+Tipos de vírus mutantes 
+Os estudos genéticos clássicos com vírus animais exigem a dis­
+ponibilidade de um método de ensaio quantitativo sensível e 
+preciso, como o ensaio em placa para infecciosidade viral, e bons 
+mutantes (resultantes de mutações isoladas) facilmente marca­
+dos e de estabilidade razoável. Alguns marcadores comumente 
+utilizados são a morfologia da placa, o escape a anticorpos ou a 
+resistência a antissoros neutralizantes, a perda de proteína viral, 
+a resistência a fármacos, a variedade de hospedeiros e a incapaci­
+dade de crescer a temperaturas baixas ou altas. Os mutantes com 
+esses marcadores são obtidos após tratamento com mutágeno, 
+pela criação de uma mutação pelo emprego de técnicas molecu­
+lares ou após mutação espontânea. 
+Sequências virais clonadas são usadas atualmente para aná­
+lise genética molecular. Os genomas dos vírus de RNA são clo­
+nados como cópias de cDNA, o que permite a análise genética 
+de vírus que não podem ser cultivados e de vírus de RNA. Na 
+atualidade, diferentes tipos de mutação podem ser introduzi­
+dos em DNAs virais clonados para a análise funcional de se­
+quências de codificação e elementos de ação eis virais. 
+Os mutantes condicional-letais são mutantes letais (no 
+sentido de não haver a produção de qualquer vírus infeccioso) 
+em um conjunto de condições - denominadas condições não 
+permissivas - mas que produzem uma progênie infecciosa 
+
+===== pdf p. 434 =====
+426 
+SEÇÃO IV Virologia 
+normal em outras condições - denominadas condições per­
+missivas. Os mutantes termossensíveis crescem a temperatu­
+ras baixas (permissivas), mas não a temperaturas altas (não 
+permissivas). Os mutantes com variedade de hospedeiros são 
+capazes de crescer em um tipo de célula (célula permissiva), 
+enquanto ocorre infecção abortiva em outro tipo de célula ( cé­
+lula não permissiva). Os estudos de infecção mista com pares 
+de mutantes em condições permissivas e não permissivas po­
+dem fornecer informações sobre a função dos genes e os meca­
+nismos de replicação viral em nível molecular. 
+Vírus defeituosos 
+Um vírus defeituoso é aquele que carece de um ou mais genes 
+funcionais necessários para a replicação viral. Os vírus defei­
+tuosos necessitam da atividade auxiliar de outro vírus para al­
+guma etapa do processo de replicação ou maturação. 
+Um tipo de vírus defeituoso é composto por vírus que ca­
+recem de parte do seu genoma (i. e., mutante por deleção). A 
+extensão da perda por deleção pode variar de uma curta sequên­
+cia de bases até uma grande porção do genoma. Os mutantes 
+por deleção espontânea podem interferir na replicação de vírus 
+homólogos, sendo denominados partículas virais de inter­
+ferência defeituosa. As partículas de interferência defeituosa 
+perderam segmentos essenciais do genoma, porém contêm 
+proteínas normais do capsídeo. Necessitam de vírus homólogo 
+infeccioso como auxiliar para sua replicação e interferem na 
+multiplicação desse vírus homólogo. 
+Outra categoria de vírus defeituosos exige um vírus não re­
+lacionado e competente para replicação como vírus auxiliar. 
+São exemplos os vírus-satélites associados a adenovírus e o 
+vírus da hepatite D (agente delta), que só se replicam na pre­
+sença de adenovírus humano coinfectante ou vírus da hepatite 
+B, respectivamente. Ainda não foi recuperado qualquer vírus 
+não defeituoso isolado desse tipo de vírus defeituoso. A função 
+auxiliar essencial desempenhada pelo vírus auxiliar varia con­
+forme o sistema. 
+Os pseudovirions, um tipo diferente de partícula defei­
+tuosa, contêm DNA celular em vez do genoma viral. Durante 
+a replicação viral, o capsídeo, algumas vezes, engloba porções 
+aleatórias do ácido nucleico do hospedeiro em vez do ácido nu­
+cleico viral. Essas partículas assemelham-se a partículas virais 
+comuns quando observadas à microscopia eletrônica, porém 
+não se replicam. Teoricamente, os pseudovirions poderiam 
+transduzir o ácido nucleico celular de uma célula para outra. 
+Em geral, os retrovírus transformadores são defeituosos. 
+Uma porção do genoma viral sofreu deleção e foi substituída por 
+um fragmento de DNA de origem celular, que codifica uma pro­
+teína transformadora. Esses vírus permitiram a identificação de 
+oncogenes celulares (ver Cap. 43). É necessário outro retrovírus 
+como auxiliar para a replicação do vírus transformador. 
+Interações entre vírus 
+Quando duas ou mais partículas infectam a mesma célula hos­
+pedeira, podem interagir de diversas maneiras. Elas podem 
+estar estreitamente relacionadas, em geral dentro da mesma 
+família, o suficiente para que a maior parte das interações 
+ocorra. A interação genética resulta em alguma progênie gene­
+ticamente diferente de ambas as células originais. A progênie 
+produzida em consequência de interação não genética é seme­
+lhante aos vírus originais. Nas interações genéticas, as próprias 
+moléculas de ácido nucleico interagem, enquanto os produtos 
+dos genes estão envolvidos em interações não genéticas. 
+A. Recombinação 
+Resulta na produção de uma progênie viral (recombinante) 
+com traços não encontrados em qualquer dos vírus parentais. 
+O mecanismo clássico consiste em ruptura das fitas de ácido 
+nucleico, de modo que parte do genoma de um vírus original 
+se une a uma parte do genoma do segundo vírus. O vírus re­
+combinante é geneticamente estável, produzindo uma progê­
+nie igual a ele próprio durante a replicação. Os vírus variam 
+amplamente quanto à frequência com que sofrem recombina­
+ção. No caso de vírus com genomas segmentados - como, por 
+exemplo, o vírus influenza -, a formação de recombinantes é 
+decorrente de recombinação de fragmentos do genoma mais 
+que a um verdadeiro evento de permuta (crossing-over) e ocor­
+re com facilidade. (Ver Cap. 39.) 
+B. Complementação 
+Refere-se à interação de produtos gênicos virais em células 
+infectadas por dois vírus, podendo um deles ou ambos serem 
+defeituosos, o que resulta em replicação de um ou ambos em 
+condições nas quais ocorreria normalmente a replicação. A 
+base para complementação é a de que um vírus fornece um 
+produto gênico para o qual o segundo é defeituoso, permitin­
+do o crescimento desse segundo vírus. Os genótipos de ambos 
+os vírus permanecem inalterados. Se ambos os mutantes fo­
+rem defeituosos no mesmo produto gênico, serão incapazes de 
+complementar o crescimento do outro. 
+C. Mistura fenotípica 
+Uma mistura fenotípica, ou associação de um genótipo com 
+um fenótipo heterólogo, constitui um caso especial de comple­
+mentação, processo que ocorre quando o genoma de um vírus 
+se torna incorporado aleatoriamente a proteínas dos capsídeos 
+especificadas por um vírus diferente ou por um capsídeo, consis­
+tindo em componentes de ambos os vírus. Se o genoma estiver 
+envolto por um envelope proteico totalmente heterólogo, esse 
+exemplo extremo de mistura fenotípica poderá ser denominado 
+"mascaramento fenotípico" ou "transcapsidação". Tal mistura 
+não constitui alteração genética estável, visto que, durante a re­
+plicação, o vírus parenteral fenotipicamente misturado irá pro­
+duzir uma progênie com capsídeos homólogos ao genótipo. 
+Em geral, a mistura fenotípica ocorre entre membros diferen­
+tes da mesma família de vírus; as proteínas do capsídeo intermis­
+turadas devem ser capazes de interagir corretamente para formar 
+um capsídeo intacto em nível estrutural. Todavia, a mistura fe­
+notípica também pode ser observada entre vírus com envelope 
+e, nesse caso, os vírus não precisam estar estreitamente relacio­
+nados. O nucleocapsídeo de um vírus torna-se revestido por um 
+envelope especificado por outro vírus, fenômeno denominado 
+"formação de pseudotipo". Existem muitos exemplos de forma­
+ção de pseudotipo entre os vírus de DNA tumorais (ver Cap. 43). 
+O nucleocapsídeo do vírus da estomatite vesiculosa, um rabdoví­
+rus, tem uma propensão incomum a ser envolvido na formação de 
+pseudotipo com material do envelope não relacionado. 
+
+===== pdf p. 435 =====
+D. Interferência 
+A infecção de culturas de células ou de animais por dois vírus 
+frequentemente resulta em inibição da multiplicação de um 
+deles - efeito denominado interferência. A interferência em 
+animais é distinta da imunidade específica. Além disso, não 
+ocorre interferência com todas as combinações virais; dois ví­
+rus podem infectar e multiplicar-se na mesma célula com tanta 
+eficiência quanto em infecções isoladas. 
+Diversos mecanismos já foram elucidados como causas 
+de interferência: (1) um vírus pode inibir a capacidade de ad­
+sorção do segundo à célula, bloqueando seus receptores (re­
+trovírus, enterovírus) ou destruindo-os (ortomixovírus); (2) 
+um vírus pode competir com o segundo por componentes do 
+aparelho de replicação (p. ex., polimerase, fator de iniciação da 
+tradução); (3) o primeiro vírus pode fazer que a célula infecta­
+da produza um inibidor (interferon; ver Cap. 30), impedindo a 
+replicação do segundo vírus. 
+Vetores virais 
+A tecnologia do DNA recombinante revolucionou a produção 
+de materiais biológicos, hormônios, vacinas, interferon e outros 
+produtos gênicos. Os genomas virais vêm sendo manipulados 
+de modo a servirem como vetores de replicação e de expressão 
+para genes tanto virais quanto celulares. Praticamente qual­
+quer vírus pode ser convertido em vetor se houver conheci­
+mento suficiente sobre as suas funções de replicação, controles 
+de transcrição e sinais de empacotamento. A atual tecnologia 
+de vetores virais está baseada em vírus do DNA (p. ex., o SV 40, 
+parvovírus, papilomavírus bovino, adenovírus, herpes-vírus, 
+vírus da vacínia) e em vírus do RNA (p. ex., poliovírus, vírus 
+Sindbis e retro vírus). Cada sistema apresenta vantagens e des­
+vantagens distintas. 
+Os vetores de expressão eucariótica típicos contêm elementos 
+reguladores virais (promotores ou intensificadores) que contro­
+lam a transcrição do gene clonado desejado, colocado em posi­
+ção adjacente, sinais para terminação e poliadenilação eficientes 
+de transcrições, bem como sequência intrônica delimitada por 
+locais doadores e aceptores. Pode haver sequências que aumen­
+tam a tradução ou que afetam a expressão em determinado tipo 
+celular. Os princípios da tecnologia do DNA recombinante são 
+descritos e ilustrados no Capítulo 7. Essa abordagem oferece a 
+possibilidade de se produzirem grandes quantidades de antígeno 
+puro para estudos estruturais e para vacinas. 
+HISTÓRIA NATURAL (ECOLOGIA) E MODOS 
+DE TRANSMISSÃO DOS VÍRUS 
+Ecologia é o estudo das interações entre os organismos vivos e 
+seu ambiente. Os diferentes vírus desenvolveram mecanismos 
+engenhosos e frequentemente complicados para sua sobrevivên­
+cia na natureza e para sua transmissão de um hospedeiro para 
+outro. O modo de transmissão utilizado por determinado vírus 
+depende da natureza da interação entre o vírus e o hospedeiro. 
+Os vírus podem ser transmitidos das seguintes maneiras: 
+1. Transmissão direta de uma pessoa para outra por contato; 
+os principais meios de transmissão incluem perdigotos ou 
+aerossóis (p. ex., influenza, sarampo, varíola); por contato 
+CAPÍTULO 29 
+Propriedades gerais dos vírus 
+427 
+sexual (p. ex., papilomavírus, hepatite B, herpes simples 
+tipo 2, vírus da imunodeficiência humana); por contato 
+mão-boca, mão-olhos ou boca-boca (p. ex., herpes simples, 
+rinovírus, vírus Epstein-Barr); ou por sangue contaminado 
+(p. ex., hepatite B, vírus da imunodeficiência humana). 
+2. Transmissão indireta pela via orofecal (p. ex., enterovírus, 
+rotavírus, hepatite A infecciosa) ou por fômites (p. ex., ví­
+rus Norwalk, rinovírus). 
+3. Transmissão de um animal para outro, sendo o ser huma­
+no um hospedeiro acidental. A transmissão pode ocorrer 
+através de mordida (raiva) ou perdigotos ou aerossóis de 
+locais contaminados por roedores (p. ex., arenavírus, an­
+tavírus). 
+4. Transmissão por um vetor artrópode (p. ex., arbovírus, 
+hoje classificados principalmente como togavírus, flaviví­
+rus e buniavírus). 
+Foram reconhecidos pelo menos três diferentes padrões de 
+transmissão entre os vírus transmitidos por artrópodes: 
+1. Ciclo artrópode humano. Exemplos: febre amarela urba­
+na, dengue. 
+Artrópode 
+/ 
+"' 
+Ser humano 
+Ser humano 
+'x Artrópode / 
+2. Ciclo artrópode vertebrado inferior com infecção tan­
+gencial de seres humanos. Exemplos: febre amarela da 
+selva, encefalite de St. Louis. O ser humano infectado é um 
+hospedeiro "terminal". Trata-se do mecanismo de trans­
+missão mais comum. 
+Artrópode 
+/ 
+"' 
+Vertebrado 
+Vertebrado 
+inferior 
+inferior 
+'x Artrópode / Ser humano 
+3. Ciclo artrópode-artrópode com infecção ocasional de 
+seres humanos e vertebrados inferiores. Exemplos: febre 
+do carrapato do Colorado, encefalite de La Crosse. 
+Artrópode 
+/ 
+" 
+Ser humano 
+)t 
+Artrópode 
+Vertebrado 
+inferior 
+, 
+, 
+, 
+Neste ciclo, o vírus pode ser transmitido do artrópode adul­
+to para a sua progênie através dos ovos (passagem transovaria­
+na). Em consequência, o ciclo pode prosseguir com ou sem a 
+intervenção de um hospedeiro vertebrado com viremia. 
+Nos vertebrados, a invasão da maioria dos vírus provoca 
+uma reação violenta, em geral de curta duração. O resultado 
+é decisivo. Ou o hospedeiro morre, ou sobrevive, mediante 
+a produção de anticorpos que neutralizam o vírus. Seja qual 
+
+===== pdf p. 436 =====
+428 
+SEÇÃO IV Virologia 
+for a evolução, a permanência do vírus ativo é em geral curta, 
+embora possam ocorrer infecções persistentes ou latentes que 
+duram meses a anos (hepatite B, herpes simples, citomegaloví­
+rus, retrovírus). Nos vetores artrópodes dos vírus, a relação é 
+em geral muito diferente. Os vírus exercem pouco ou nenhum 
+efeito deletério e permanecem ativos no artrópode durante to­
+da a vida natural do animal. Por conseguinte, os artrópodes, 
+diferente dos vertebrados, atuam como hospedeiros perma­
+nentes e reservatórios. 
+Doenças virais emergentes 
+Devido a mudanças de longo alcance nas atitudes sociais, na 
+tecnologia e no ambiente - associadas à reduzida eficácia das 
+abordagens anteriores no controle das doenças -, o espectro 
+das doenças infecciosas está se expandindo atualmente. Novos 
+agentes estão surgindo, e a incidência de doenças antes con­
+sideradas sob controle vem aumentando com a evolução e a 
+propagação dos patógenos. A expressão "doenças infecciosas 
+emergentes" descreve esses fenômenos. 
+As doenças virais emergentes surgem após a ocorrência de 
+um de três padrões gerais: reconhecimento de um novo agente, 
+aumento abrupto de doenças causadas por um agente endêmi­
+co e invasão de uma nova população de hospedeiros. 
+Combinações de fatores contribuem para o aparecimento 
+de doenças. Alguns fatores aumentam a exposição humana a 
+patógenos antes obscuros, enquanto outros propiciam a dis­
+seminação de infecções anteriormente localizadas. Outros fa­
+tores ainda induzem alterações nas propriedades virais e nas 
+respostas do hospedeiro à infecção. Esses fatores incluem: (1) 
+alterações ambientais ( desflorestamento, represamento ou 
+outras alterações em ecossistemas aquáticos, enchentes ou 
+secas, fome), (2) comportamento humano (comportamento 
+sexual, uso de drogas, lazer ao ar livre); (3) fenômenos socio­
+econômicos e demográficos (guerra, pobreza, crescimento da 
+população e migração, deterioração das condições urbanas), 
+( 4) viagens e comércio (estradas de rodagem, viagens aéreas 
+internacionais), (5) produção de alimentos (globalização dos 
+suprimentos de alimentos, mudanças nos métodos de pro­
+cessamento e acondicionamento dos produtos), (6) assistên­
+cia à saúde (novos aparelhos médicos, transfusões de sangue, 
+transplante de órgãos e tecidos, fármacos que causam imu­
+nossupressão, uso disseminado de antibióticos), (7) adapta­
+ção microbiana (alterações na virulência, desenvolvimento 
+de resistência a fármacos, cofatores em doenças crônicas) 
+e (8) medidas de saúde pública (condições sanitárias e me­
+didas de controle de vetores inadequadas, restrição de pro­
+gramas de prevenção, falta de pessoas treinadas em números 
+suficientes). 
+São exemplos de infecções virais emergentes em diferen­
+tes regiões do mundo o vírus Ebola, o vírus Nipah, a doença 
+pulmonar por hantavírus, a infecção pelo vírus da imunodefi­
+ciência humana, a febre hemorrágica da dengue, o vírus do 
+Nilo Ocidental, a febre do Vale do Rift e a encefalopatia espon­
+giforme bovina (uma doença causada por príon). 
+O possível uso de órgãos animais como xenoenxertos em 
+seres humanos também está sendo objeto de muita preocupa­
+ção. Como o número de doadores humanos de órgãos dispo­
+níveis pode não suprir as necessidades de todos os pacientes 
+que necessitam de transplante, o xenotransplante de órgãos de 
+primatas não humanos e porcos está sendo considerado uma 
+alternativa. Há preocupação quanto à possível introdução aci­
+dental de novos patógenos virais em seres humanos a partir das 
+espécies doadoras. 
+Agentes de bioterrorismo 
+Os agentes de bioterrorismo são microrganismos (ou toxinas) 
+que podem ser usados para causar morte e doenças em seres 
+humanos, animais ou plantas, com finalidades de terrorismo. 
+Tais microrganismos podem ser geneticamente modificados 
+para se ter sua virulência aumentada, torná-los resistentes a 
+fármacos ou vacinas, ou reforçar sua capacidade de dissemi­
+nação no ambiente. 
+Os agentes com uso potencial para fins de bioterrorismo 
+são classificados em categorias de risco baseadas na facilida­
+de de disseminação ou transmissão de pessoa para pessoa, nas 
+taxas de mortalidade, na capacidade de causar pânico na po­
+pulação e na necessidade de capacitação dos órgãos de saúde 
+pública. Os agentes virais da categoria de mais alto risco são 
+o vírus da varíola e os das febres hemorrágicas; as bactérias de 
+maior risco são o antraz (carbúnculo), o botulismo, a praga 
+(peste bubônica) e a tularemia. 
+RESUMO DO CAPÍTULO 
+• 
+Os vírus são os menores agentes infecciosos conhecidos, 
+contendo somente um tipo de material nucleico (DNA ou 
+RNA). 
+• 
+Os vírus conhecidos são bastante diversos variando em ta­
+manho, forma, material genético e pela presença ou ausên­
+cia de envelope. 
+• 
+Os vírus são classificados em grupos (denominados fa­
+mílias) baseados em propriedades em comum, tais como 
+morfologia do virion, estrutura genômica e estratégias de 
+replicação. 
+• 
+Os vírus são agentes infecciosos intracelulares, sendo mul­
+tiplicados pela maquinária da célula hospedeira. O material 
+nucleico viral codifica para proteínas virais, enquanto a cé­
+lula hospedeira fornece energia, precursores bioquímicos e 
+sua maquinária de biossíntese. 
+• 
+Os passos de replicação viral incluem aderência à célula 
+hospedeira (via receptores específicos), entrada na célula, 
+desnudamento do genoma viral, regulação da transcrição 
+viral, síntese das proteínas virais, replicação do ácido nu­
+cleico, montagem das novas partículas virais e liberação 
+dos novos virions. A duração da replicação varia conforme 
+o tipo do vírus. Durante a fase de liberação, pode ocorrer a 
+morte ou danos à célula hospedeira. Nem todas as infec­
+ções levam uma nova progênie viral. 
+• 
+Novas doenças virais podem ser consideradas como doen­
+ças infecciosas emergentes. Esses novos agentes podem ter 
+evoluído a partir de mutações e se disseminado, infectando 
+novos hospedeiros em potencial. 
+• 
+Alguns vírus são agentes potenciais de bioterrorismo, ba­
+seados na facilidade de transmissão hospedeiro-hospedeiro 
+e nas altas taxas de mortalidade. 
+
+===== pdf p. 437 =====
+QUESTÕES DE REVISÃO 
+1. Alguns vírus são caracterizados pela simetria helicoidal do nu­
+cleocapsídeo viral. Qual das seguintes afirmativas sobre vírus 
+com simetria helicoidal é a mais correta? 
+(A) Todos os vírus com envelope e com simetria helicoidal são 
+classificados na mesma família viral 
+(B) Os nucleocapsídeos helicoidais são encontrados principal­
+mente em vírus de DNA 
+(C) Todos os vírus humanos com nucleocapsídeo helicoidal 
+possuem envelope 
+(D) Um excesso de partículas helicoidais vazias sem ácido nu­
+cleico é produzido normalmente em células infectadas 
+2. Células infectadas por vírus com frequência desenvolvem mu­
+danças morfológicas conhecidas como efeitos citopáticos. Qual 
+das seguintes afirmativas sobre mudanças citopáticas induzidas 
+por vírus é a mais correta? 
+(A) São patognomônicas para um vírus infectante 
+(B) Raramente estão associadas a morte celular 
+(C) Podem incluir a formação de células gigantes 
+(D) Podem ser vistas somente por microscopia eletrônica 
+3. Os vírus em geral iniciam uma infecção por uma interação inicial 
+com receptores na superfície das células. Qual das seguintes afir­
+mativas é a mais correta sobre receptores celulares para vírus? 
+(A) Os receptores celulares para vírus não têm função celular 
+conhecida 
+(B) Todos os vírus pertencentes a uma mesma família usam um 
+mesmo receptor celular 
+(C) Todas as células em um hospedeiro suscetível irão expressar 
+o receptor viral 
+(D) Infecções sucessivas de uma célula por um vírus podem en­
+volver a interação com mais de um tipo de receptor 
+4. Qual das seguintes alternativas indica o procedimento que pode 
+ser usado para quantificar os títulos infecciosos de vírus? 
+(A) Teste de placa 
+(B) Microscopia eletrônica 
+(C) Hemaglutinação 
+(D) Reação em cadeia da polimerase 
+(E) Ensaio imunoenzimático 
+5. Qual das seguintes alternativas denota um princípio em relação 
+ao ácido nucleico viral? 
+(A) Os vírus contêm DNA e RNA 
+(B) Alguns vírus contêm um genoma segmentado 
+(C) O ácido nucleico viral purificado de alguns vírus geralmente 
+é infeccioso 
+(D) Os tamanhos dos genomas virais são similares entre os ví­
+rus humanos conhecidos 
+6. Dois mutantes de poliovírus foram isolados: um (MutX) com 
+mutação no gene X e um segundo (MutY) com mutação no gene 
+Y. Se células forem infectadas com cada mutante isoladamente, 
+não ocorre a produção de novos vírus. Se uma célula for coin­
+fectada com MutX e MutY, qual das seguintes alternativas terá a 
+maior probabilidade de ocorrer? 
+(A) Poderá ocorrer um rearranjo dos segmentos genômicos, ori­
+ginando um vírus tipo selvagem viável 
+(B) Os genomas poderão ser transcritos reversamente para o 
+DNA, e ambos os mutantes poderão ser produzidos 
+(C) Poderá ocorrer complementação entre os produtos gênicos 
+mutantes 
+CAPÍTULO 29 
+Propriedades gerais dos vírus 
+429 
+(D) As células irão transformar-se em alta frequência e não po­
+derão ser mortas por mutantes de poliovírus 
+7. Qual dos seguintes vírus possui um genoma RNA infeccioso 
+quando purificado? 
+(A) Vírus influenza 
+(B) Poliovírus 
+(C) Papilomavírus 
+(D) Vírus do sarampo 
+(E) Rotavírus 
+8. Qual dos seguintes grupos de vírus é capaz de estabelecer infec­
+ções latentes? 
+(A) Poxvírus 
+(B) Filovírus 
+(C) Herpes-vírus 
+(D) Vírus influenza 
+(E) Calicivírus 
+9. Alguns vírus codificam uma RNA polimerase viral dependente 
+de RNA. Qual das seguintes afirmativas denota um princípio so­
+bre as RNAs polimerases virais? 
+(A) Todos os vírus de RNA portam moléculas de RNA polime­
+rase no interior da partícula viral, pois são necessárias para 
+iniciar o próximo ciclo infeccioso 
+(B) Anticorpos contra a RNA polimerase viral neutralizam a 
+infectividade viral 
+(C) Os vírus de RNA de polaridade negativa fornecem sua pró­
+pria RNA polimerase dependente de RNA, pois as células 
+. , 
+. 
+-
+. 
+. 
+eucarioticas nao possuem tais enzimas 
+(D) A proteína da RNA polimerase viral também serve como a 
+principal proteína do cerne da partícula viral 
+10. Qual das seguintes afirmativas sobre a morfologia viral é verda­
+deira? 
+(A) Todos os vírus de RNA têm forma esférica 
+(B) Alguns vírus contêm flagelos 
+(C) Algum vírus com genoma DNA contêm um núcleo primi­
+tivo 
+(D) As proteínas de superfície virais protegem o genoma viral 
+das endonucleases 
+(E) Os nucleocapsídeos helicoidais são encontrados em vírus de 
+DNA de fita simples 
+11. Muitos vírus podem ser cultivados em laboratório. Qual das se­
+guintes afirmativas sobre a propagação viral não é verdadeira? 
+(A) Alguns vírus podem propagar-se em meios livres de células 
+(B) Alguns vírus de mamíferos podem ser cultivados em ovos 
+de galinha 
+(C) Alguns vírus com grande variedade de hospedeiros podem 
+multiplicar-se em muitos tipos de células 
+(D) Alguns vírus humanos podem crescer em camundongos 
+(E) A maioria das preparações virais tem uma relação partícula: 
+unidade infecciosa maior que um 
+12. Infecções laboratoriais podem ser adquiridas quando se trabalha 
+com vírus, a menos que sejam seguidas as boas práticas labora­
+toriais de biossegurança. Qual das seguintes alternativas não é 
+uma boa prática de biossegurança? 
+(A) Usar cabines de biossegurança 
+(B) Usar equipamento pessoal de proteção (p. ex., jalecos, más-
+caras e luvas) 
+(C) Não pipetar com a boca 
+(D) Derramar resíduos experimentais na pia do laboratório 
+(E) Não comer nem beber no laboratório 

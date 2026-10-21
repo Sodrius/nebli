@@ -1,0 +1,25 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::05_DNA_viruses::*Poxvirus (24 notas)
+1502570163043 2-RelativelyHighYield Poxvirus is a(n) linear enveloped dsDNA virus
+1502570324908 2-RelativelyHighYield Which virus makes its own envelope , unlike most viruses? Poxvirus
+1502570386887 1-HighYield Poxvirus is the only DNA virus that completely replicates in the cytoplasm
+1502570452327 1-HighYield Poxvirus has its own DNA-dependent RNA polymerase which allows it to replicate in the cytoplasm
+1502570605009 2-RelativelyHighYield Intracytoplasmic inclusions , known as Guarnieri bodies AKA B-type inclusions, are diagnostic of Poxvirus
+1502570911606 4-LowerYield Poxvirus has a "dumbell-shaped" core
+1502570964320 2-RelativelyHighYield Which virus is the largest DNA virus ? Poxvirus
+1502571002064 2-RelativelyHighYield Smallpox is also known as variola virus and is part of the Poxviridae family
+1502571059951 2-RelativelyHighYield Smallpox viral lesions are all the same age
+1502571144912 1-HighYield Chickenpox viral lesions are different ages
+1502571240402 1-HighYield Chickenpox viral lesions are superficial
+1502571248245 2-RelativelyHighYield Smallpox viral lesions are deep
+1502571267854 2-RelativelyHighYield Smallpox viral lesions affect the face and palms
+1502571280454 1-HighYield Chickenpox viral lesions initially affect the trunk
+1502571339484 3-HighYield-temporary The Cowpox virus is transmitted through contact with infected cow udders
+1502571454317 1-HighYield Molluscum contagiosum is a(n) poxvirus that causes localized skin infections
+1502571560356 1-HighYield Flesh-colored , dome-shaped , umbilicated skin lesions are diagnostic of molluscum contagiosum
+1502571707340 1-HighYield Umbilicated lesions on the trunk of children are diagnostic of molluscum contagiosum
+1502571767123 2-RelativelyHighYield Diffuse molluscum contagiosum infection in adults suggests HIV infection and/or immuno suppression
+1502571905507 1-HighYield Single or multiple small ( localized ) molluscum contagiosum infection in adults is most commonly due to sexually transmitted infection
+1502571972870 1-HighYield Molluscum contagiosum can present with histologic eosinophilic cytoplasmic inclusion bodies within keratinocytes known as " molluscum bodies "
+1502572145985 2-RelativelyHighYield Transmission of smallpox occurs via inhalation of respiratory secretions
+1502572211906 4-LowerYield What type of vaccine is used for smallpox ? What is its name? Live attenuated; Vaccinia
+1502572273268 2-RelativelyHighYield Poxviruses are the only DNA viruses without icosahedral symmetry , and instead have a(n) "box" or "brick" shape

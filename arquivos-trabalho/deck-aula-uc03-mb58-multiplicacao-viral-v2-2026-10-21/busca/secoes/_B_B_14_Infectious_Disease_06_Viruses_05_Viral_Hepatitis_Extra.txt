@@ -1,0 +1,12 @@
+# #AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::05_Viral_Hepatitis::Extra (11 notas)
+1461797786977 2-RelativelyHighYield What is the traditional standard treatment for hepatitis B ? Interferon α + lamivudine
+1471806231010 2-RelativelyHighYield Polyarteritis nodosa (PAN) may present with polyneuropathy and/or stroke
+1471806235020 2-RelativelyHighYield Polyarteritis nodosa (PAN) may present with skin lesions in up to 1/3rd of patients
+1476669563594 1-HighYield Most (80%) of urobilinogen is excreted in feces as stercobilin , which gives stool its brown color
+1486522390591 1-HighYield Jaundice is due to increased serum bilirubin, typically > 2.5 mg/dL
+1506552739959 1-HighYield Polyarteritis nodosa associated with hepatitis B virus can affect the vessels of the kidney, resulting in hypertension and decreased GFR
+1506554058351 1-HighYield Which serologic markers are detectable during the recovery period of HBV infection ? Anti-HB s IgG Anti-HB e IgG Anti-HB c IgG
+1506555240421 1-HighYield What is the treatment for acute cases of HBV ? Supportive
+1506610869302 2-RelativelyHighYield Developed countries purify their water supply, eliminating hepatitis A virus infection risk (fecal-oral transmission)
+1506611271271 1-HighYield Hepatitis A virus infection is commonly seen in travelers to endemic areas
+1582854828887 3-HighYield-temporary Hepatitis B infections are more likely to cause membranous glomerulonephritis

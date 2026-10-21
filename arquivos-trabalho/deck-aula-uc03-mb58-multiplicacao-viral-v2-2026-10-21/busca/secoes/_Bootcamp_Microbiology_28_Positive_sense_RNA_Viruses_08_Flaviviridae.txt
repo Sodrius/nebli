@@ -1,0 +1,19 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::08_Flaviviridae (18 notas)
+1506627350233 4-LowerYield What type of viruses are flaviviruses ? Positive sense RNA
+1506627488843 4-LowerYield Do flaviviruses have an envelope ? Yes
+1506627521051 1-HighYield What family of viruses does hepatitis C virus (HCV) belong to? Flaviviridae
+1506627645671 2-RelativelyHighYield What family of viruses does Dengue virus belong to? Flaviviridae
+1506627695686 1-HighYield Which vector transmits Dengue ? Mosquitos; most commonly the Aedes
+1506628170585 4-LowerYield What family of viruses does Yellow fever belong to? Flaviviridae
+1506628336655 2-RelativelyHighYield Which vector transmits Yellow fever ? Mosquito , specifically the Aedes
+1506628724617 4-LowerYield What family of viruses does West Nile virus belong to? Flaviviridae
+1506628849279 2-RelativelyHighYield West Nile virus vector(s) : Mosquito ( Culex )
+1506628890385 2-RelativelyHighYield A serious complication of West Nile virus is meningoencephalitis
+1506629328611 1-HighYield Hepatitis C virus is most commonly transmitted through blood
+1516237852309 3-HighYield-temporary Arboviruses are a class of viruses that have arthropod vectors
+1516238131776 3-HighYield-temporary Any virus that is transmitted by mosquitoes , fleas , or ticks is said to be a(n) arbovirus
+1516556891495 4-LowerYield What family of viruses does Zika virus belong to? Flaviviridae
+1516556937003 4-LowerYield Zika virus is commonly transmitted by the Aedes mosquito vector
+1522430399029 4-LowerYield Dengue fever and chikungunya viral infections typically occur simultaneously, as both are transmitted by the Aedes mosquito
+1548548479271 - Severe microcephaly with thin cerebral cortices and multiple intracranial calcifications is suggestive of congenital Zika syndrome
+1552733743729 - "Breakbone fever" (muscle pain / fever), retroorbital pain, and hemorrhage (skin / nose) = dengue fever transmitted by the Aedes aegypti mosquito

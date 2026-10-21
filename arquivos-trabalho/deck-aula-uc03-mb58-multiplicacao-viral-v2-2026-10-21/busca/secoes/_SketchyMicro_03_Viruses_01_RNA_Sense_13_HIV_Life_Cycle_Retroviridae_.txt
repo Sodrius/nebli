@@ -1,0 +1,16 @@
+# #AK_Step1_v12::#SketchyMicro::03_Viruses::01_RNA_(+)_Sense::13_HIV_Life_Cycle_(Retroviridae) (15 notas)
+1502066412218 1-HighYield The gag gene of HIV encodes p24 and p17
+1502066575758 1-HighYield The env gene of HIV encodes gp120 and gp41
+1502066667272 1-HighYield gp41 is the transmembrane protein of HIV , mediating viral-cell fusion and syncytia formation
+1502066834360 1-HighYield gp120 of HIV binds {{c2}} and the co-receptors CCR5 (primarily on macrophages ) and CXCR4 (primarily on T cells )
+1502066968224 1-HighYield The pol gene of HIV encodes the enzymes reverse transcriptase , aspartate protease , and integrase
+1502069185038 2-RelativelyHighYield Rev is a regulatory protein of HIV that regulates transport of unspliced viral RNA transcripts out of the nucleus
+1502069270600 3-HighYield-temporary Tat is a regulatory protein of HIV that transcriptionally activates other viral genes
+1502069311820 4-LowerYield Which two regulatory proteins of HIV are required for viral replication ? Rev and Tat
+1502069364234 2-RelativelyHighYield Nef is a cytoplasmic accessory protein of HIV that enhances viral replication through downregulation of CD4 and MHC I expression
+1502069441823 2-RelativelyHighYield Once HIV is inside a cell, viral reverse transcriptase converts viral RNA to double-stranded DNA (dsDNA) This double-stranded DNA is inserted into the host cell genome by integrase, another viral enzy
+1506805786448 3-HighYield-temporary HIV infects CD4+ helper T-cells, macrophages, and dendritic cells
+1506806776715 2-RelativelyHighYield HIV env encoded gp160 is first sent to the endoplasmic reticulum of the cell for processing
+1506807161520 1-HighYield Which enzyme allows for HIV dsDNA to integrate with host cell DNA ? Integrase
+1506807414184 1-HighYield Which enzyme is responsible for mature HIV virion formation from a large polypeptide ? Aspartate protease
+1523566648949 4-LowerYield Mutations in the env gene enable HIV to escape from host neutralizing antibodies

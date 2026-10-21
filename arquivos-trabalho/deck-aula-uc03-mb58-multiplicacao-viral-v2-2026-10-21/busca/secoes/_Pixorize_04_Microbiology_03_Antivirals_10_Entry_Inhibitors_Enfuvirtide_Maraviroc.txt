@@ -1,0 +1,9 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::03_Antivirals::10_Entry_Inhibitors_Enfuvirtide/Maraviroc (8 notas)
+1502066766747 1-HighYield gp120 is the outer glycoprotein of HIV
+1502066834360 1-HighYield gp120 of HIV binds {{c2}} and the co-receptors CCR5 (primarily on macrophages ) and CXCR4 (primarily on T cells )
+1502070230172 1-HighYield Maraviroc is a(n) CCR5 inhibitor that inhibits HIV entrance into macrophages early in the disease course
+1506783569000 1-HighYield Which type of HAART drug is maraviroc? Entry inhibitor (CCR5 antagonist)
+1506789859053 4-LowerYield Which HAART drugs are hepatotoxic ? NNRTIs, maraviroc
+1506806433678 1-HighYield Maraviroc inhibits gp120 of HIV binding to the chemokine receptor CCR5 (macrophages and T-cells)
+1506806663801 1-HighYield Which HAART drug binds to gp41 ? Enfuvirtide
+1506806715774 1-HighYield Enfuvirtide binds gp41 of HIV, inhibiting viral cell fusion with host cells

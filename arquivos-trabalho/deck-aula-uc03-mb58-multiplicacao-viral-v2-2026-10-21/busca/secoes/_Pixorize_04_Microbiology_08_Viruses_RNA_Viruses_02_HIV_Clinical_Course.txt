@@ -1,0 +1,12 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::02_HIV:_Clinical_Course (11 notas)
+1502044611963 1-HighYield A mnemonic used to remember the infectious agents which may cross the placenta and cause congenital infection is ToRCHHeS VP : T oxoplasmosis R ubella C MV H IV H erpes virus S yphilis ( Treponema pal
+1502044611964 1-HighYield A mnemonic used to remember the infectious agents which may cross the placenta and cause congenital infection is ToRCHHeS VP
+1502067509832 2-RelativelyHighYield The acute phase of HIV consists of flu or mono -like symptoms with generalized lymphadenopathy and fever
+1502067560663 1-HighYield The clinical latency period of HIV infection can last up to 10 years
+1502067746680 1-HighYield Stage 1 HIV is characterized by wide dissemination to lymphoid organs
+1502067814114 1-HighYield Stage 2 HIV is characterized by clinical latency . CD4+ count drops to < 500 cells/mm 3
+1502067896713 1-HighYield Stage 3 HIV is characterized by recurrent bacterial infections. CD4+ count drops to < 350 cells/mm 3
+1502068052536 1-HighYield The criteria for AIDS is a CD4 count < 200 cells/mm 3 or confirmed HIV status with AIDS-defining opportunistic infections such as Pneumocystis pneumonia (PCP) or Candida esophagitis
+1502068621967 2-RelativelyHighYield Transmission of HIV occurs via bodily fluids
+1544195435929 - Concerning HIV serology , the CD4 cell count represents the current immune function , while the viral load represents the rate of disease progression
+1547902187372 2-RelativelyHighYield Rapid Diagnosis HIV / AIDS screening in infants < 18 months → HIV-1 NAT (viral load) ≥ 18 months → 4th generation antigen/antibody immunoassay

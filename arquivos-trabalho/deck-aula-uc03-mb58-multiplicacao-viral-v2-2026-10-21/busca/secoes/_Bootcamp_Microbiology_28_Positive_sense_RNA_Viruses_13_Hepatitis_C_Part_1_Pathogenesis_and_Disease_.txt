@@ -1,0 +1,35 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::13_Hepatitis_C_Part_1_(Pathogenesis_and_Disease) (34 notas)
+1473995765528 1-HighYield The effects of liver failure on coagulation are followed using PT
+1486522586117 3-HighYield-temporary Does viral hepatitis result in unconjugated or conjugated hyperbilirubinemia ? Both :)
+1486522611061 3-HighYield-temporary Viral hepatitis is characterized by elevated liver enzymes with ALT > AST
+1486522667060 3-HighYield-temporary Cirrhosis is often complicated by portal hypertension
+1486522681611 3-HighYield-temporary Portal hypertension can lead to ascites, which is fluid in the peritoneal cavity
+1486522684741 2-RelativelyHighYield Portal hypertension may lead to portosystemic shunts , which can result in esophageal varices, gastric varices, anorectal varices, and caput medusae
+1486522695665 1-HighYield Cirrhosis may present with neuropsychiatric symptoms due to increased serum ammonia (NH 3 )
+1486522702734 2-RelativelyHighYield Neuropsychiatric symptoms of cirrhosis include hepatic encephalopathy and asterixis ("flapping tremor")
+1486522750998 1-HighYield How do levels of estrogen change in cirrhosis ? Increased
+1486522767302 1-HighYield Cirrhosis may present with peripheral edema secondary to hypoalbuminemia
+1486591284504 2-RelativelyHighYield Risk factors for hepatocellular carcinoma include chronic hepatitis (e.g., HBV, HCV)
+1486591331907 2-RelativelyHighYield What is the serum tumor marker for hepatocellular carcinoma ? Alpha-fetoprotein (AFP)
+1486591400578 1-HighYield How does prothrombin time (PT) change with advanced liver disease ? Increased
+1486591406864 1-HighYield How do platelet levels change with advanced liver disease ? Decreased
+1488502641435 - Lichen planus is an inflammatory dermatitis associated with chronic hepatitis C infection
+1503619773147 - What two viruses should be tested for in all adult patients with immune thrombocytopenia (ITP)? HIV and HCV
+1506557679434 1-HighYield Does hepatitis C have an envelope ? Yes
+1506627521051 1-HighYield What family of viruses does hepatitis C virus (HCV) belong to? Flaviviridae
+1506629145354 1-HighYield What type of virus is hepatitis C virus ? Positive sense RNA
+1506629328611 1-HighYield Hepatitis C virus is most commonly transmitted through blood
+1506629569529 1-HighYield Hepatitis C virus can be transmitted through needle sticking or sharing
+1506629766099 2-RelativelyHighYield Hepatitis C virus displays antigenic variability of its envelope proteins
+1506629798167 2-RelativelyHighYield What is the mechanism for antigenic variation of envelope proteins in hepatitis C virus ? Lack of 3'-5' exonuclease → lack of proofreading → antigenic variation
+1506629961596 2-RelativelyHighYield Which hepatitis virus lacks 3'-5' exonuclease activity? Hepatitis C virus
+1506630060423 1-HighYield Hepatitis C infections become chronic in 60 - 80% of cases
+1506630386378 3-HighYield-temporary Hepatitis C RNA is found in the serum for < 6 months in the acute stage
+1506630461508 2-RelativelyHighYield The acute phase of both hepatitis B & C virus infections are marked by a rise and fall of ALT in 6 months
+1506630504581 3-HighYield-temporary Hepatitis C RNA is found in the serum for ≥ 6 months in the chronic stage
+1506630621596 1-HighYield Which hepatitis virus is associated with cryoglobulins ? Hepatitis C virus
+1521501908794 3-HighYield-temporary Patients with acute viral hepatitis present with a(n) prodrome of fever, malaise, anorexia, nausea, and vomiting
+1522419532686 4-LowerYield Cryoglobulinemic vasculitis is a(n) small-vessel vasculitis that can be seen in patients with HCV
+1581024685048 4-LowerYield What commonly presents as acute liver decompensation (e.g., encephalopathy, worsening or bloody ascites, spontaneous bacterial peritonitis, fever, etc.)? Hepatocellular carcinoma
+1581189645300 3-HighYield-temporary Chronic viral hepatitis (HBV, HCV) and autoimmune diseases (PSC, PBC, autoimmune hepatitis) may cause cirrhosis of the liver , which is irreversible scarring/fibrosis
+1582854847320 3-HighYield-temporary Hepatitis C infections are more likely to cause membranoproliferative glomerulonephritis (MPGN)

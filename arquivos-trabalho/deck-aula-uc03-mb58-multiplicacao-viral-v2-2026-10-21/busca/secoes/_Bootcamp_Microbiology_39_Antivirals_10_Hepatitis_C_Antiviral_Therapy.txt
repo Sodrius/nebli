@@ -1,0 +1,27 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::10_Hepatitis_C_Antiviral_Therapy (26 notas)
+1461794607480 1-HighYield Interferon α may be used in the treatment of hepatitis B and C infections
+1461794689858 2-RelativelyHighYield Which hepatitis drug causes flu-like symptoms as a possible side effect? Interferon-α
+1461794728973 2-RelativelyHighYield Which hepatitis drug has myelosuppression as a possible side effect? Interferon-α
+1461797583285 5-LowYield The goal of treatment of hepatitis C is to completely cure the patient, which is now possible with the advent of direct-acting antivirals
+1461797595100 5-LowYield What traditional treatment for hepatitis C is no longer used? Interferon α and ribavirin
+1461797649771 2-RelativelyHighYield A major side effect of ribavirin is that it may cause dose-dependent hemolytic anemia
+1461797689978 5-LowYield Sofosbuvir is a nucleotide analog that inhibits the HCV NS5B RNA-dependent RNA polymerase
+1461797701666 5-LowYield Adverse effects associated with sofosbuvir include fatigue and nausea
+1461797734146 3-HighYield-temporary Simeprevir is a NS3/4A protease inhibitor that may be used for the treatment of hepatitis C genotype 1
+1461797752804 5-LowYield Adverse effects of simeprevir include photosensitivity and rash
+1461797767925 5-LowYield Mainstay of treatment for hepatitis C infection includes NS3/NS4A protease inhibitors and NS5A inhibitors which should be administered together
+1487117310594 1-HighYield Which interferon(s) enhance(s) activity of natural killer cells ? Interferon-α and interferon-β
+1489970693302 1-HighYield Interferon-α and -β are glycoproteins synthesized by virus-infected cells that act locally on uninfected cells , "priming" them for viral defense
+1497440201761 4-LowerYield Chronic use of interferon- α is associated with patients experiencing flu-like symptoms; as well as depression , neutro penia , and myopathy
+1506629145354 1-HighYield What type of virus is hepatitis C virus ? Positive sense RNA
+1506630733850 1-HighYield Older treatments that can be used for hepatitis C virus infection include IFN-α and ribavirin
+1506631004332 1-HighYield Hepatitis C virus infections can be treated with protease and polymerase inhibitors
+1514736654381 4-LowerYield Is therapy for hepatitis viruses indicated for acute, chronic, or both infections? Chronic*
+1514738701137 4-LowerYield HCV therapeutics with the suffix - asvir work by inhibiting the NS5A protein, which plays an integral role in viral replication
+1514739659474 4-LowerYield HCV therapeutics with the suffix - previr work by inhibiting the NS3/4A protease
+1514739756145 3-HighYield-temporary Which HCV therapies are generally well tolerated and occasionally present with fatigue, headache , and nausea ? Ledipasvir, sofosbuvir
+1514740282011 3-HighYield-temporary Which HCV therapies are generally well tolerated and occasionally present with photosensitivity reactions and rash ? Simeprevir
+1514740606355 3-HighYield-temporary Ribavirin is an antiviral that works by inhibiting the synthesis of guanine nucleotides
+1514740864172 4-LowerYield Ribavirin is a(n) guanosine nucleoside analog that acts by competitively inhibiting inosine monophosphate (IMP) dehydrogenase
+1514740967212 3-HighYield-temporary Ribavirin is extremely contraindicated in what patient population? Pregnant patients
+1556707648463 - IFN-α can be used to treat which hepatitis infections? Hepatitis B and C

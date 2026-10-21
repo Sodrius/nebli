@@ -1,0 +1,16 @@
+# #AK_Step1_v12::#Physeo::09_Pharm::02_Antivirals::04_Foscarnet_&_Cidofovir (15 notas)
+1403636336526 2-RelativelyHighYield Foscarnet is an antiviral agent that acts as a viral DNA/RNA polymerase inhibitor by binding to the pyrophosphate -binding site of the enzyme
+1403636599345 3-HighYield-temporary What is the mechanism of action of cidofovir ? Preferential direct inhibition of viral DNA polymerase
+1503862129351 1-HighYield Treatment for CMV includes ganciclovir, valganciclovir, or foscarnet / cidofovir
+1503862237067 1-HighYield Foscarnet or cidofovir are used to treat ganciclovir-resistant CMV infections
+1506724662638 2-RelativelyHighYield Which viral DNA-polymerase inhibitors do not require thymidine kinase to become active? Cidofovir, foscarnet
+1506728618047 3-HighYield-temporary What drugs do not require phosphorylation via CMV viral kinase ? Foscarnet, cidofovir
+1506728737669 2-RelativelyHighYield What drug is a pyrophosphate analog that directly inhibits viral DNA polymerase ? Foscarnet
+1506728778366 1-HighYield Foscarnet may induce renal insufficiency
+1506729142794 2-RelativelyHighYield Which ion imbalances are associated with foscarnet administration? Hypomagnesemia Hypokalemia Hypocalcemia
+1506729447433 1-HighYield Which antiviral can cause seizures due to electrolyte disturbances ? Foscarnet
+1506729713312 3-HighYield-temporary Resistance to cidofovir and foscarnet occurs with mutations to viral DNA polymerase
+1506729756413 2-RelativelyHighYield Cidofovir is an antiviral drug that is nephro toxic
+1506729916529 4-LowerYield What is administered with cidofovir to reduce its nephrotoxicity ? IV saline; probenecid
+1506729986793 3-HighYield-temporary What drug blocks tubular secretion of cidofovir ? Probenecid
+1514908377683 3-HighYield-temporary Foscarnet inhibits HIV reverse transcriptase

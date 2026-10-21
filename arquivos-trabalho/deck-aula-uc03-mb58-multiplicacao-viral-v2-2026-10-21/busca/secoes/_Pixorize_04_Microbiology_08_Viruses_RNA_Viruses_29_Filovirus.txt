@@ -1,0 +1,10 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::29_Filovirus (9 notas)
+1516557238677 4-LowerYield What type of viruses are filoviruses ? Negative sense RNA
+1516557320825 5-LowYield Filoviruses have a(n) helical capsid
+1516557388594 5-LowYield Are filoviruses enveloped ? Yes
+1516557435778 4-LowerYield Ebola and Marburg virus both belong to the filoviridae family
+1516557533616 4-LowerYield Filoviruses (Ebola, Marburg) cause petechial rash and fever
+1516557597122 5-LowYield Filoviruses (Ebola, Marburg) cause acute hemorrhagic fever that can progress to end-organ failure
+1516557819198 4-LowerYield Death from filoviruses (e.g., Ebola, Marburg, etc.) results from hemorrhagic (hypovolemic) shock
+1516558174789 4-LowerYield Which filovirus can result in disseminated intravascular coagulation (DIC)? Ebola
+1516663881703 2-RelativelyHighYield The six negative sense RNA virus families with helical capsids include: Arenavirus Bunyavirus Paramyxovirus Orthomyxovirus Filovirus Rhabdovirus

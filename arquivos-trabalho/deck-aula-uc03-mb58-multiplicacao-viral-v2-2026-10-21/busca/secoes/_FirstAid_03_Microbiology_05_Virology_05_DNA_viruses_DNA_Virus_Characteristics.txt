@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::05_DNA_viruses::*DNA_Virus_Characteristics (5 notas)
+1502065388242 1-HighYield DNA viral genomes can either be circular or linear and are usually double-stranded
+1502065503059 3-HighYield-temporary Which type of viral genome is not infectious by itself ? (-) RNA
+1502065688092 1-HighYield The vaccines for HBV and HPV are recombinant (subunit) vaccines
+1502066053913 1-HighYield The vaccine for hepatitis B virus uses recombinant HBsAg
+1502152021975 2-RelativelyHighYield Most DNA viruses replicate in the nucleus

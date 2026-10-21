@@ -1,0 +1,25 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::22_Orthomyxovirus (24 notas)
+1483913062659 1-HighYield All RNA viruses replicate in the cytoplasm except for orthomyxovirus and retroviruses
+1487122056375 1-HighYield What type of vaccine is the intranasal influenza vaccine ? Live attenuated
+1503966673528 - What is the recommended treatment for a middle-aged patient that presents with symptoms related to influenza for 4 days? Symptomatic treatment
+1516320758799 2-RelativelyHighYield What type of viruses are orthomyxoviruses ? Negative sense RNA
+1516320980606 1-HighYield Orthomyxoviridae is the only family of negative sense RNA viruses to replicate in the nucleus
+1516321146201 1-HighYield Are orthomyxoviruses enveloped ? Yes
+1516321367173 3-HighYield-temporary Orthomyxovirus has 8 segments
+1516321532745 1-HighYield The segmented virus families may be remembered with the mnemonic " BOAR ": B unyavirus O rthomyxovirus A renavirus R eovirus
+1516321589458 1-HighYield Antigenic variation of influenza viruses occurs with changes to viral hemagglutinin (HA) and neuraminidase (NA)
+1516322271299 1-HighYield Antigenic variation can be due to antigenic drift or antigenic shift
+1516322855117 1-HighYield Antigenic drift occurs when there are point mutations in hemagglutinin or neuraminidase
+1516323064948 1-HighYield Antigenic shift occurs with HA/NA reassortment amongst different species
+1516323635408 1-HighYield Which envelope protein of Influenza facilitates viral endocytosis into cells? Hemagglutinin (HA)
+1516324044281 1-HighYield Which envelope protein of Influenza determines cell tropism ? Hemagglutinin (HA)
+1516324301529 2-RelativelyHighYield Amantadine and rimantadine are drugs that inhibit the M2 protein channels of influenza A
+1516324529716 1-HighYield Which two anti-influenza drugs inhibit the M2 channels ? Amantadine, rimantadine
+1516324778471 1-HighYield Zanamivir and oseltamivir are drugs that inhibit neuraminidase of influenza A and B
+1516324960043 1-HighYield Which two anti-influenza drugs inhibit virion release ? Zanamivir, oseltamivir
+1516325270266 1-HighYield What type of influenza vaccine is injected intramuscularly ? Inactivated / killed
+1516401726231 2-RelativelyHighYield Neuraminidase is a viral envelope protein that allows for mature virion release
+1516663881703 2-RelativelyHighYield The six negative sense RNA virus families with helical capsids include: Arenavirus Bunyavirus Paramyxovirus Orthomyxovirus Filovirus Rhabdovirus
+1523127399647 2-RelativelyHighYield The inactivated influenza vaccine results in humoral (antibody) response to the hemagglutinin antigen
+1523127679930 3-HighYield-temporary The inactivated influenza vaccine results in antibody production that inhibits viral entry (into host cells) via binding to hemagglutinin
+1523127993738 2-RelativelyHighYield The intranasal influenza vaccine induces a(n) humoral and cell-mediated response

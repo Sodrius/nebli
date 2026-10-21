@@ -1,0 +1,18 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::05_Roseola_(HHV-6) (17 notas)
+1516754306881 3-HighYield-temporary What type of virus is HHV-6? Double-stranded DNA
+1516754449460 1-HighYield HHV-6 is part of the herpesviridae family
+1516754501339 1-HighYield Which herpesviruses can cause roseola ? HHV-6, HHV-7
+1516754531571 2-RelativelyHighYield HHV-6 infects CD4+ T cells
+1516754735427 1-HighYield The fever of roseola lasts 3 - 5 days
+1516754883827 1-HighYield Roseola is the most common cause of febrile seizures in children
+1516755037580 2-RelativelyHighYield What demographic is at risk of roseola? Children 6 - 24 months old
+1516755244093 1-HighYield The rash of roseola infection develops after the fever
+1516755333581 1-HighYield Roseola is caused by a DNA virus and presents with a rash that starts on the trunk and sometimes spreads to the face and/or extremities
+1516755433632 1-HighYield Does the rash of roseola affect the face ? Sometimes :)
+1516757784363 1-HighYield What is the treatment for roseola ? Supportive (infection is self-limiting)
+1516758158825 1-HighYield Which childhood exanthem is known as sixth disease ? Roseola infantum
+1516758215612 2-RelativelyHighYield Which childhood exanthemata ( rashes ) arise from herpesviruses ? Roseola (exanthem subitum); chickenpox (varicella)
+1516841864735 2-RelativelyHighYield The rash of roseola is said to have a red, "lacy" appearance
+1516841909946 1-HighYield Roseola is also known as exanthema subitum
+1516928314242 1-HighYield The fever of roseola is very high (> 104 °F = 40 °C)
+1519740968607 1-HighYield Does the rash of Scarlet fever affect the face ? Yes*

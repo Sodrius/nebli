@@ -1,0 +1,7 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::39_Antivirals::08_HIV_Antiretroviral_Management (6 notas)
+1502069492941 1-HighYield The backbone of highly active antiretroviral therapy ( HAART ) are NRTIs such as zidovudine
+1506783017772 1-HighYield Highly active antiretroviral therapy (HAART) consists of a minimum of 3 drugs to prevent resistance
+1506783163535 1-HighYield HAART therapy consists of 2 NRTIs plus 1 of either a(n) NNRTI , protease inhibitor , or integrase inhibitor
+1514664090379 2-RelativelyHighYield Emtricitabine (FTC) and tenofovir (TDF) are given as a combination drug for pre-exposure prophylaxis (PrEP) of HIV
+1514672013629 2-RelativelyHighYield Highly active anti-retroviral therapy (HAART) is often initiated at the time of HIV diagnosis
+1552864003514 - The treatment guideline for HIV is: 2 NRTIs and either : NNRTI Protease inhibitor (+ ritonavir boosting) Integrase inhibitor

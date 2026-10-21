@@ -1,0 +1,162 @@
+# #AK_Step1_v12::#NinjaNerd::03_Microbiology::03_Pathology::01_Antivirals_(HIV,_Hepatitis,_Influenza,_Herpes_Treatment) (161 notas)
+1403292900993 1-HighYield CMV (HHV-5) is a herpesvirus that causes retinitis in HIV patients that presents with cotton-wool spots on fundoscopy
+1403635238503 2-RelativelyHighYield Which viral enzyme monophosphorylates acyclovir/famciclovir/valacyclovir , thereby activating it? Thymidine kinase
+1403635898739 3-HighYield-temporary What is the mechanism of resistance to acyclovir / famciclovir / valacyclovir ? Mutated / absent thymidine kinase
+1403636336526 2-RelativelyHighYield Foscarnet is an antiviral agent that acts as a viral DNA/RNA polymerase inhibitor by binding to the pyrophosphate -binding site of the enzyme
+1403636599345 3-HighYield-temporary What is the mechanism of action of cidofovir ? Preferential direct inhibition of viral DNA polymerase
+1461797649771 2-RelativelyHighYield A major side effect of ribavirin is that it may cause dose-dependent hemolytic anemia
+1461797689978 5-LowYield Sofosbuvir is a nucleotide analog that inhibits the HCV NS5B RNA-dependent RNA polymerase
+1461797701666 5-LowYield Adverse effects associated with sofosbuvir include fatigue and nausea
+1461797734146 3-HighYield-temporary Simeprevir is a NS3/4A protease inhibitor that may be used for the treatment of hepatitis C genotype 1
+1461797767925 5-LowYield Mainstay of treatment for hepatitis C infection includes NS3/NS4A protease inhibitors and NS5A inhibitors which should be administered together
+1461797775253 2-RelativelyHighYield Which NRTI(s)/NtRTI(s) is/are recommended for the treatment of chronic active hepatitis B ? Entecavir, tenofovir
+1461797786977 2-RelativelyHighYield What is the traditional standard treatment for hepatitis B ? Interferon α + lamivudine
+1468549176064 3-HighYield-temporary What class of enzymes cleaves nucleotides in the middle of a DNA strand? Endonucleases
+1475703988155 2-RelativelyHighYield What renal tubular disorder may be caused by nephrotoxins/drugs (e.g., ifosfamide, cisplatin, tenofovir, expired tetracyclines)? Fanconi syndrome
+1484603759930 5-LowYield What class of microorganism is often the cause of retinitis ? Viruses (e.g., CMV, HSV, VZV)
+1485227016301 2-RelativelyHighYield Adverse effects associated with amantadine include ataxia, livedo reticularis, peripheral edema, and orthostatic dysregulation
+1489970960324 1-HighYield Which immune cell has the cell surface protein CXCR4 ? Helper T cells (late HIV infection)
+1489971140322 1-HighYield Which immune cells have the cell surface protein CCR5 ? Macrophages (early HIV infection), helper T cells
+1496625246893 - What is the likely cause of acute kidney injury in patients receiving IV acyclovir ? Renal tubular obstruction (crystal-induced AKI)
+1502066766747 1-HighYield gp120 is the outer glycoprotein of HIV
+1502066834360 1-HighYield gp120 of HIV binds {{c2}} and the co-receptors CCR5 (primarily on macrophages ) and CXCR4 (primarily on T cells )
+1502068331161 3-HighYield-temporary In early HIV infection, HIV gains entry into macrophages via binding to CD4 plus the coreceptor CCR5
+1502068440036 3-HighYield-temporary In late HIV infection, HIV gains entry into helper T-cells via binding to CD4 plus the coreceptor CXCR4
+1502069441823 2-RelativelyHighYield Once HIV is inside a cell, viral reverse transcriptase converts viral RNA to double-stranded DNA (dsDNA) This double-stranded DNA is inserted into the host cell genome by integrase, another viral enzy
+1502069492941 1-HighYield The backbone of highly active antiretroviral therapy ( HAART ) are NRTIs such as zidovudine
+1502069963668 3-HighYield-temporary NRTIs insert themselves into the DNA strand being synthesized by reverse transcriptase , halting further elongation
+1502070062514 2-RelativelyHighYield NRTIs and NNRTIs both are reverse transcriptase inhibitors used in the treatment of HIV
+1502070156173 3-HighYield-temporary Protease inhibitors inhibit the enzyme responsible for cleaving proteins during viral replication
+1502070230172 1-HighYield Maraviroc is a(n) CCR5 inhibitor that inhibits HIV entrance into macrophages early in the disease course
+1502152021975 2-RelativelyHighYield Most DNA viruses replicate in the nucleus
+1502152053718 3-HighYield-temporary Herpes simplex virus (HSV) replicates in the nucleus
+1502153188370 1-HighYield HSV-1 is associated with temporal lobe encephalitis
+1502154755688 1-HighYield What drugs are used to prevent breakouts of herpes simplex virus ? Acyclovir and valacyclovir
+1503862129351 1-HighYield Treatment for CMV includes ganciclovir, valganciclovir, or foscarnet / cidofovir
+1503862237067 1-HighYield Foscarnet or cidofovir are used to treat ganciclovir-resistant CMV infections
+1506290032333 1-HighYield What is the etiology of shingles ? Varicella-zoster virus (VZV)
+1506291332792 1-HighYield Reactivation of VZV results in herpes zoster (shingles)
+1506298553385 2-RelativelyHighYield Paramyxoviruses can express the virulence factor hemagglutinin which binds sialic acid, promoting viral entry into cells
+1506551469394 1-HighYield Where does hepatitis B virus replicate ? Both nucleus and cytoplasm :)
+1506551550710 1-HighYield Hepatitis B virus is partially double -stranded
+1506551774430 2-RelativelyHighYield Upon entry into the cell nucleus, HBV DNA-polymerase completes the partially dsDNA
+1506551855396 3-HighYield-temporary Once the dsDNA of HBV is complete, host RNA polymerase transcribes mRNA from the dsDNA
+1506551930834 3-HighYield-temporary After mRNA is produced, HBV reverse transcriptase produces progeny dsDNA from mRNA
+1506630733850 1-HighYield Older treatments that can be used for hepatitis C virus infection include IFN-α and ribavirin
+1506631004332 1-HighYield Hepatitis C virus infections can be treated with protease and polymerase inhibitors
+1506723403021 3-HighYield-temporary Acyclovir , famciclovir , and valacyclovir are all guanosine analogs
+1506723660731 2-RelativelyHighYield Acyclovir , famciclovir , and valacyclovir are used to treat active VZV and HSV infections
+1506723704374 3-HighYield-temporary Acyclovir is converted to acyclovir monophosphate by thymidine kinase in virus-infected cells
+1506724128411 3-HighYield-temporary Acyclovir triphosphate is incorporated into replicating viral DNA , inhibiting viral DNA polymerase
+1506724299597 2-RelativelyHighYield What is the rate-limiting step of acyclovir activation? Thymidine kinase phosphorylation to acyclovir mono phosphate
+1506724515933 3-HighYield-temporary Lack of thymidine kinase to phosphorylate acyclovir explains why the drug is not effective in CMV and EBV
+1506724574195 4-LowerYield Absence of thymidine kinase confers resistance to acyclovir in HSV
+1506724662638 2-RelativelyHighYield Which viral DNA-polymerase inhibitors do not require thymidine kinase to become active? Cidofovir, foscarnet
+1506725542995 3-HighYield-temporary Which acyclovir prodrug has improved oral bioavailability ? Valacyclovir
+1506725730548 1-HighYield What is the treatment of serious HSV and VZV infections? IV acyclovir
+1506725995852 1-HighYield What is the treatment of HSV encephalitis ? IV acyclovir
+1506726348707 2-RelativelyHighYield Pregnant patients with recurrent genital herpes should receive prophylactic acyclovir
+1506726438486 3-HighYield-temporary Acyclovir can cause crystalline nephropathy (renal side effect)
+1506726560736 3-HighYield-temporary Renal complications of acyclovir can be avoided with adequate hydration
+1506726911137 3-HighYield-temporary Ganciclovir and valganciclovir are guanosine analogs
+1506727367546 4-LowerYield Ganciclovir must be phosphorylated three times by intracellular enzymes to reach its activated nucleo tide form
+1506727458246 4-LowerYield Ganciclovir is converted to ganciclovir monophosphate by virus-encoded kinases via the UL-97 gene
+1506727517347 4-LowerYield Ganciclovir monophosphate is eventually converted to ganciclovir tri phosphate by cellular kinases
+1506727731928 3-HighYield-temporary Valganciclovir is the prodrug form of ganciclovir that has better oral bioavailability
+1506727746723 3-HighYield-temporary Ganciclovir triphosphate incorporates into viral DNA, inhibiting viral DNA-dependent DNA polymerase
+1506727932519 1-HighYield Ganciclovir and valganciclovir are commonly used to treat CMV
+1506728209338 3-HighYield-temporary Leukopenia (neutropenia), anemia , and thrombocytopenia are hematological complications of ganciclovir
+1506728275842 3-HighYield-temporary Ganciclovir and valganciclovir are associated with bone marrow suppression
+1506728366567 4-LowerYield The myelosuppression of ganciclovir may be additive in patients receiving zidovudine
+1506728477701 4-LowerYield CMV can gain resistance to ganciclovir via mutations in the UL-97 gene
+1506728618047 3-HighYield-temporary What drugs do not require phosphorylation via CMV viral kinase ? Foscarnet, cidofovir
+1506728737669 2-RelativelyHighYield What drug is a pyrophosphate analog that directly inhibits viral DNA polymerase ? Foscarnet
+1506728778366 1-HighYield Foscarnet may induce renal insufficiency
+1506729142794 2-RelativelyHighYield Which ion imbalances are associated with foscarnet administration? Hypomagnesemia Hypokalemia Hypocalcemia
+1506729447433 1-HighYield Which antiviral can cause seizures due to electrolyte disturbances ? Foscarnet
+1506729713312 3-HighYield-temporary Resistance to cidofovir and foscarnet occurs with mutations to viral DNA polymerase
+1506729756413 2-RelativelyHighYield Cidofovir is an antiviral drug that is nephro toxic
+1506729916529 4-LowerYield What is administered with cidofovir to reduce its nephrotoxicity ? IV saline; probenecid
+1506783163535 1-HighYield HAART therapy consists of 2 NRTIs plus 1 of either a(n) NNRTI , protease inhibitor , or integrase inhibitor
+1506783296016 2-RelativelyHighYield Which type of HAART drug is abacavir (ABC)? NRTI
+1506783462443 3-HighYield-temporary Which type of HAART drug is didanosine (ddl)? NRTI
+1506783471847 1-HighYield Which type of HAART drug is emtricitabine (FTC)? NRTI
+1506783486518 1-HighYield Which type of HAART drug is lamivudine (3TC)? NRTI
+1506783497051 4-LowerYield Which type of HAART drug is stavudine (d4T) ? NRTI
+1506783511355 1-HighYield Which type of HAART drug is tenofovir (TDF)? NtRTI
+1506783521685 1-HighYield Which type of HAART drug is zidovudine ( ZDV , formerly AZT )? NRTI
+1506783569000 1-HighYield Which type of HAART drug is maraviroc? Entry inhibitor (CCR5 antagonist)
+1506783654169 5-LowYield Which type of HAART drug is dolutegravir? Integrase inhibitor
+1506783676307 5-LowYield Which type of HAART drug is elvitegravir? Integrase inhibitor
+1506783685484 4-LowerYield Which type of HAART drug is raltegravir? Integrase inhibitor
+1506783697218 5-LowYield Which type of HAART drug is atazanavir? Protease inhibitor
+1506783727082 5-LowYield Which type of HAART drug is darunavir? Protease inhibitor
+1506783796073 5-LowYield Which type of HAART drug is fosamprenavir? Protease inhibitor
+1506783803525 1-HighYield Which type of HAART drug is indinavir ? Protease inhibitor
+1506783808800 4-LowerYield Which type of HAART drug is lopinavir? Protease inhibitor
+1506783814346 1-HighYield Which type of HAART drug is ritonavir? Protease inhibitor
+1506783819179 1-HighYield Which type of HAART drug is saquinavir? Protease inhibitor
+1506783836022 3-HighYield-temporary Which type of HAART drug is delavirdine ? NNRTI
+1506783854533 3-HighYield-temporary Which type of HAART drug is efavirenz? NNRTI
+1506783862734 1-HighYield Which type of HAART drug is nevirapine? NNRTI
+1506784353867 3-HighYield-temporary NRTIs are incorporated into viral DNA , causing premature chain termination
+1506784777103 1-HighYield Reverse transcriptase inhibitors prevent transcription of ssRNA into dsDNA thereby inhibiting viral replication
+1506784835221 1-HighYield NRTIs are associated with mitochondrial toxicity, lactic acidosis , and peripheral neuropathy
+1506784980543 1-HighYield Which HAART drug class is associated with peripheral neuropathy ? NRTIs
+1506785118508 2-RelativelyHighYield Which NRTI is a nucleo t ide and not a nucleo s ide? Tenofovir
+1506785609205 1-HighYield Zidovudine and stavudine are associated with lipodystrophy
+1506785872219 2-RelativelyHighYield Which NRTI is associated with dose-dependent pancreatitis ? Didanosine
+1506786339931 2-RelativelyHighYield Which NRTI is associated with a hypersensitivity reaction in patients with the HLA-B 57:01 allele ? Abacavir
+1506789316317 1-HighYield Which NRTI is associated with Fanconi syndrome ? Tenofovir
+1506789392960 1-HighYield Non-nucleoside RTIs ( NNRTIs ) directly inhibit HIV reverse transcriptase by binding to a different site from NRTIs
+1506789519603 3-HighYield-temporary Do NNRTIs compete with nucleotides for binding to reverse transcriptase ? No
+1506789859053 4-LowerYield Which HAART drugs are hepatotoxic ? NNRTIs, maraviroc
+1506789899586 4-LowerYield Which NNRTI is associated with vivid dreams and CNS symptoms (psychosis, drowsiness, headache)? Efavirenz
+1506790052664 5-LowYield Which NNRTIs are teratogenic ? Delavirdine, efavirenz
+1506790313094 3-HighYield-temporary NNRTIs are associated with rash, that can manifest as a more severe pathology such as Stevens-Johnson syndrome
+1506795652147 1-HighYield Which HAART drugs prevent mature virion formation from large polypeptides ? Protease inhibitors
+1506795763113 1-HighYield Which gene is mutated in HIV protease inhibitor resistance ? pol gene
+1506796068456 1-HighYield Which class of HAART drugs can result in hyperglycemia due to insulin resistance ? Protease inhibitors
+1506796332132 3-HighYield-temporary Which HAART drugs can result in hyperlipidemia ? Protease inhibitors
+1506796584685 1-HighYield Which HAART drug classes commonly cause lipodystrophy ? Protease inhibitors & NRTIs
+1506796713223 1-HighYield Which HIV protease inhibitor can result in nephrolithiasis ? Indinavir
+1506796830726 1-HighYield HIV protease inhibitors inhibit cytochrome P-450
+1506796939961 1-HighYield Which HIV protease inhibitor displays the most potent inhibition of CYP450 ? Ritonavir
+1506805847290 1-HighYield Which envelope protein on HIV functions to allow attachment to host CD4+ T cells ? gp120
+1506806433678 1-HighYield Maraviroc inhibits gp120 of HIV binding to the chemokine receptor CCR5 (macrophages and T-cells)
+1506806663801 1-HighYield Which HAART drug binds to gp41 ? Enfuvirtide
+1506806715774 1-HighYield Enfuvirtide binds gp41 of HIV, inhibiting viral cell fusion with host cells
+1506807069336 1-HighYield What classes of drugs inhibit HIV RNA to dsDNA formation? NRTIs and NNRTIs
+1506807161520 1-HighYield Which enzyme allows for HIV dsDNA to integrate with host cell DNA ? Integrase
+1506807294544 1-HighYield What class of drugs inhibits HIV DNA integration into host cell genomes ? Integrase inhibitors
+1506807534113 1-HighYield What class of HAART drugs inhibits HIV mRNA formation? Integrase inhibitors
+1506807904457 1-HighYield Which HAART drugs can result in rhabdomyolysis ? Integrase inhibitors
+1506807973686 1-HighYield Integrase inhibitors can result in rhabdomyolysis , which will appear with elevated creatine kinase levels
+1514666847402 2-RelativelyHighYield Rash and hepatotoxicity are common to which NNRTIs ? All :) Delavirdine, efavirenz and nevirapine
+1514738701137 4-LowerYield HCV therapeutics with the suffix - asvir work by inhibiting the NS5A protein, which plays an integral role in viral replication
+1514739659474 4-LowerYield HCV therapeutics with the suffix - previr work by inhibiting the NS3/4A protease
+1514739756145 3-HighYield-temporary Which HCV therapies are generally well tolerated and occasionally present with fatigue, headache , and nausea ? Ledipasvir, sofosbuvir
+1514740282011 3-HighYield-temporary Which HCV therapies are generally well tolerated and occasionally present with photosensitivity reactions and rash ? Simeprevir
+1514740606355 3-HighYield-temporary Ribavirin is an antiviral that works by inhibiting the synthesis of guanine nucleotides
+1514740864172 4-LowerYield Ribavirin is a(n) guanosine nucleoside analog that acts by competitively inhibiting inosine monophosphate (IMP) dehydrogenase
+1514740967212 3-HighYield-temporary Ribavirin is extremely contraindicated in what patient population? Pregnant patients
+1514900969301 4-LowerYield Which step of the viral life cycle does ribavirin target? E (guanine nucleotide synthesis)
+1514908377683 3-HighYield-temporary Foscarnet inhibits HIV reverse transcriptase
+1516321589458 1-HighYield Antigenic variation of influenza viruses occurs with changes to viral hemagglutinin (HA) and neuraminidase (NA)
+1516322197499 1-HighYield Influenza viruses are named based on hemagglutinin (HA) and neuraminidase (NA) types (e.g., H1N1 )
+1516323222471 1-HighYield Hemagglutinin is a viral envelope protein that binds sialic acid
+1516323635408 1-HighYield Which envelope protein of Influenza facilitates viral endocytosis into cells? Hemagglutinin (HA)
+1516323747313 2-RelativelyHighYield Neuraminidase is a viral envelope protein that cleaves the HA-sialic acid interaction
+1516323825251 1-HighYield Which envelope protein of Influenza facilitates viral spread from cells? Neuraminidase (NA)
+1516324096049 1-HighYield M2 channel proteins are influenza viral proteins that ensure proper intracellular pH for viral uncoating
+1516324301529 2-RelativelyHighYield Amantadine and rimantadine are drugs that inhibit the M2 protein channels of influenza A
+1516324529716 1-HighYield Which two anti-influenza drugs inhibit the M2 channels ? Amantadine, rimantadine
+1516324778471 1-HighYield Zanamivir and oseltamivir are drugs that inhibit neuraminidase of influenza A and B
+1516324960043 1-HighYield Which two anti-influenza drugs inhibit virion release ? Zanamivir, oseltamivir
+1516401726231 2-RelativelyHighYield Neuraminidase is a viral envelope protein that allows for mature virion release
+1516401763134 1-HighYield Which two anti-influenza drugs inhibit viral uncoating ? Amantadine and rimantadine
+1523915429557 3-HighYield-temporary Upon cellular entry, partially dsDNA of HBV is repaired and used for transcription
+1523915541724 3-HighYield-temporary The genome of the HBV intermediate from dsDNA is + ssRNA
+1552864003514 - The treatment guideline for HIV is: 2 NRTIs and either : NNRTI Protease inhibitor (+ ritonavir boosting) Integrase inhibitor
+1608908726392 - After viral uncoating , the positive-sense genomic RNA of coronavirus can be translated into 2 long polyproteins
+1608910000343 - After cleavage of the coronavirus long polyprotein by viral protease , these proteins assemble into the replication-transcription complex

@@ -1,0 +1,18 @@
+# #AK_Step1_v12::#Physeo::09_Pharm::02_Antivirals::06_NNRTIs (17 notas)
+1502070062514 2-RelativelyHighYield NRTIs and NNRTIs both are reverse transcriptase inhibitors used in the treatment of HIV
+1506783017772 1-HighYield Highly active antiretroviral therapy (HAART) consists of a minimum of 3 drugs to prevent resistance
+1506783163535 1-HighYield HAART therapy consists of 2 NRTIs plus 1 of either a(n) NNRTI , protease inhibitor , or integrase inhibitor
+1506783836022 3-HighYield-temporary Which type of HAART drug is delavirdine ? NNRTI
+1506783854533 3-HighYield-temporary Which type of HAART drug is efavirenz? NNRTI
+1506783862734 1-HighYield Which type of HAART drug is nevirapine? NNRTI
+1506789263570 1-HighYield Do NNRTIs require phosphorylation to be activated? No
+1506789392960 1-HighYield Non-nucleoside RTIs ( NNRTIs ) directly inhibit HIV reverse transcriptase by binding to a different site from NRTIs
+1506789519603 3-HighYield-temporary Do NNRTIs compete with nucleotides for binding to reverse transcriptase ? No
+1506789593161 3-HighYield-temporary NNRTIs can cause liver failure , with resulting jaundice cutaneously
+1506789859053 4-LowerYield Which HAART drugs are hepatotoxic ? NNRTIs, maraviroc
+1506789899586 4-LowerYield Which NNRTI is associated with vivid dreams and CNS symptoms (psychosis, drowsiness, headache)? Efavirenz
+1506790052664 5-LowYield Which NNRTIs are teratogenic ? Delavirdine, efavirenz
+1506790116654 4-LowerYield NNRTIs have varying effects on CYP450 and thus may have many drug interactions
+1506790215427 2-RelativelyHighYield NNRTIs are associated with Stevens-Johnson syndrome, a severe cutaneous pathology associated with the sloughing of skin
+1506790313094 3-HighYield-temporary NNRTIs are associated with rash, that can manifest as a more severe pathology such as Stevens-Johnson syndrome
+1514666847402 2-RelativelyHighYield Rash and hepatotoxicity are common to which NNRTIs ? All :) Delavirdine, efavirenz and nevirapine

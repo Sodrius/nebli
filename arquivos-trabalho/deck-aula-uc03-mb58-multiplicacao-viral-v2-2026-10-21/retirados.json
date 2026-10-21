@@ -1,0 +1,577 @@
+[
+ {
+  "key": "au-receptor",
+  "nid": 1792605632051,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1489971140322",
+  "nid": 1792605632802,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1489970960324",
+  "nid": 1792605633052,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1502068458514",
+  "nid": 1792605634076,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1502068584028",
+  "nid": 1792605634324,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-fusao-env",
+  "nid": 1792605635747,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-adeno-desnud",
+  "nid": 1792605636249,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-extremidade5",
+  "nid": 1792605638971,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1516850294247",
+  "nid": 1792605639282,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1493400683960",
+  "nid": 1792605640147,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-polyoma-genes",
+  "nid": 1792605639547,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-hpv-e1e2",
+  "nid": 1792605640648,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1494087380814",
+  "nid": 1792605641772,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-hpv-efeitos",
+  "nid": 1792605642025,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-hpv-diferenciado",
+  "nid": 1792605642271,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1502718274711",
+  "nid": 1792605642526,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-adeno-sd",
+  "nid": 1792605643126,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-herpes-tandem",
+  "nid": 1792605644048,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1502152053718",
+  "nid": 1792605644649,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-pox-dna-nu",
+  "nid": 1792605646026,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-rna-genomas",
+  "nid": 1792605646522,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-reo-mono",
+  "nid": 1792605647549,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1608908726392",
+  "nid": 1792605648049,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1608909035503",
+  "nid": 1792605648396,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1608909367152",
+  "nid": 1792605648647,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506554976089",
+  "nid": 1792605650275,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506551855396",
+  "nid": 1792605650870,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506551469394",
+  "nid": 1792605651279,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506554798856",
+  "nid": 1792605646973,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506554995533",
+  "nid": 1792605647285,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-neg-pol-proteina",
+  "nid": 1792605652553,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-discrimina",
+  "nid": 1792605652798,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-mutacao",
+  "nid": 1792605653049,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1523915429557",
+  "nid": 1792605651547,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1516321532746",
+  "nid": 1792605653623,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1523806616492",
+  "nid": 1792605654122,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1523806341324",
+  "nid": 1792605654823,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506806776715",
+  "nid": 1792605655391,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1608910407576",
+  "nid": 1792605655749,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1608910298755",
+  "nid": 1792605655998,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1502152318872",
+  "nid": 1792605657651,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-polio-lise",
+  "nid": 1792605688024,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-htlv",
+  "nid": 1792605658350,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-antiv-poucos",
+  "nid": 1792605658947,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506806663801",
+  "nid": 1792605659849,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1502070230172",
+  "nid": 1792605660348,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783569000",
+  "nid": 1792605660700,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1516324529716",
+  "nid": 1792605661823,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1516401763134",
+  "nid": 1792605662072,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1516324579285",
+  "nid": 1792605662322,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506724412716",
+  "nid": 1792605663898,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506724574195",
+  "nid": 1792605664147,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506727367546",
+  "nid": 1792605666574,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506727517347",
+  "nid": 1792605666825,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506728477701",
+  "nid": 1792605667074,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783462443",
+  "nid": 1792605663388,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1403635238503",
+  "nid": 1792605664748,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506723958257",
+  "nid": 1792605664997,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506724024237",
+  "nid": 1792605665310,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506724299597",
+  "nid": 1792605665825,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506723660731",
+  "nid": 1792605667388,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506726911137",
+  "nid": 1792605667748,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506727746723",
+  "nid": 1792605668000,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506727458246",
+  "nid": 1792605668249,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506727932519",
+  "nid": 1792605668500,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1403636599345",
+  "nid": 1792605668748,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506728618047",
+  "nid": 1792605669310,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506728737669",
+  "nid": 1792605670024,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506729713312",
+  "nid": 1792605670273,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506784467378",
+  "nid": 1792605673623,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506785242535",
+  "nid": 1792605672198,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783521685",
+  "nid": 1792605671125,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783486518",
+  "nid": 1792605671443,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783296016",
+  "nid": 1792605672448,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783511355",
+  "nid": 1792605672702,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783497051",
+  "nid": 1792605671699,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783471847",
+  "nid": 1792605672950,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506789519603",
+  "nid": 1792605675549,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783862734",
+  "nid": 1792605674724,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783854533",
+  "nid": 1792605674973,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783836022",
+  "nid": 1792605675282,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1514740606355",
+  "nid": 1792605676598,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1476496198826",
+  "nid": 1792605676847,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506807294544",
+  "nid": 1792605677502,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506807534113",
+  "nid": 1792605677746,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783685484",
+  "nid": 1792605678246,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783654169",
+  "nid": 1792605678498,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783676307",
+  "nid": 1792605678751,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1516324960043",
+  "nid": 1792605679417,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1516323825251",
+  "nid": 1792605680024,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-baloxavir",
+  "nid": 1792605680272,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1514739659474",
+  "nid": 1792605681023,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1461797734146",
+  "nid": 1792605681446,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783819179",
+  "nid": 1792605681802,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783814346",
+  "nid": 1792605682048,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783803525",
+  "nid": 1792605682299,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783808800",
+  "nid": 1792605682547,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783697218",
+  "nid": 1792605682798,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783796073",
+  "nid": 1792605683048,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506783727082",
+  "nid": 1792605683360,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1514738701137",
+  "nid": 1792605683623,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1461797767925",
+  "nid": 1792605683974,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1506630733850",
+  "nid": 1792605684474,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1461797583285",
+  "nid": 1792605684726,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1514664090379",
+  "nid": 1792605686599,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1514672013629",
+  "nid": 1792605685799,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "ak1461794607480",
+  "nid": 1792605687675,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-lento-caro",
+  "nid": 1792605686849,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-remdesivir",
+  "nid": 1792605687100,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-nirmatrelvir",
+  "nid": 1792605687416,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-permissiva",
+  "nid": 1792605630928,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-montagem",
+  "nid": 1792605655072,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-haart-classes",
+  "nid": 1792605685550,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-parvo-hairpin",
+  "nid": 1792605646274,
+  "motivo": "enxuga-feedback-21-10"
+ },
+ {
+  "key": "au-grandes-dna",
+  "nid": 1792605638023,
+  "motivo": "enxuga-feedback-21-10"
+ }
+]

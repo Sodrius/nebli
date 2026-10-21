@@ -1,0 +1,14 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::07_Viruses-DNA_Viruses::08_Human_Herpesviruses_8_(HHV8) (13 notas)
+1488680746086 1-HighYield What vascular tumor is associated with HHV-8 and HIV ? Kaposi sarcoma
+1496159409280 2-RelativelyHighYield Which oncogenic microbe causes Kaposi sarcoma ? HHV-8 *Bonus: common in what 3 populations?
+1504656941699 - What is the likely diagnosis in a patient with poorly controlled HIV that develops multiple violaceous papules in the groin region? Kaposi sarcoma (HHV-8 infection)
+1516758492209 3-HighYield-temporary What type of virus is HHV-8? Double-stranded DNA
+1516758512785 1-HighYield HHV-8 is part of the herpesviridae family
+1516758549723 1-HighYield What is the most common cancer in AIDS patients ? Kaposi sarcoma
+1516758615385 1-HighYield HHV-8 infection is common in immunocompromised patients
+1516758648261 1-HighYield What is the initial presentation of Kaposi sarcoma ? Cutaneous disease
+1516758767964 2-RelativelyHighYield Kaposi sarcoma presents with violaceous lesions on the lower extremities, face (especially the nose), and oral mucosa
+1516758856359 2-RelativelyHighYield HHV- 8 induces VEGF , resulting in proliferation of vascular endothelial cells
+1516759087870 1-HighYield What viral manifestation is seen below? Kaposi sarcoma (HHV-8)
+1516759418001 1-HighYield Where do the lesions of Kaposi sarcoma most commonly occur ? Skin (e.g., face and chest)
+1524249176243 2-RelativelyHighYield Microscopic evaluation of Kaposi sarcoma will reveal highly vascular tissue with elongated spindle cells

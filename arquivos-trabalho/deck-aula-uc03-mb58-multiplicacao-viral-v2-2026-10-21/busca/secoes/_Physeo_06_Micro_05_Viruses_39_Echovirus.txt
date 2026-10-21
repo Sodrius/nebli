@@ -1,0 +1,12 @@
+# #AK_Step1_v12::#Physeo::06_Micro::05_Viruses::39_Echovirus (11 notas)
+1502063631440 2-RelativelyHighYield All naked viruses have icosahedral capsids
+1506609085427 2-RelativelyHighYield What type of viruses are picornaviruses ? Positive sense RNA
+1506609314164 1-HighYield Do picornaviruses have an envelope ? No (naked)
+1506609368498 1-HighYield What is the route of transmission of most picornaviruses ? Fecal-oral
+1506609599866 2-RelativelyHighYield Picornaviruses produce a large polyprotein product (inactive) that is cleaved into smaller subunits (active)
+1506609811863 1-HighYield What family of viruses do enteroviruses belong to? Picornaviridae
+1506610040227 1-HighYield What are the three common enteroviruses (picornaviridae family)? Coxsackie A/B, echovirus, and poliovirus*
+1506610241044 1-HighYield What group of viruses are the most common cause of aseptic meningitis ? Enteroviruses (picornaviridae family)
+1506610455254 1-HighYield What demographic is most susceptible to viral (aseptic) meningitis caused by enteroviruses ? Children
+1506627151740 3-HighYield-temporary Picornaviruses have viral proteases which cleave the large translated polypeptide into functional viral proteins
+1516220927111 1-HighYield What are the three most common causes of aseptic meningitis ? Coxsackievirus, echovirus ( enteroviruses ), and HSV

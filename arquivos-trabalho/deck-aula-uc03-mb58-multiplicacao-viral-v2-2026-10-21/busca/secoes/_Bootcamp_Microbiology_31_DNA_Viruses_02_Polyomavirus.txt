@@ -1,0 +1,25 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::02_Polyomavirus (24 notas)
+1481836445545 5-LowYield Progressive multifocal leukoencephalopathy (PML) is characterized by destruction of oligodendrocytes and astrocytes ; typically in the parietal and occipital lobes
+1481836455873 5-LowYield Progressive multifocal leukoencephalopathy (PML) is rapidly progressive and usually fatal
+1481836462671 5-LowYield There is increased risk of progressive multifocal leukoencephalopathy in patients taking natalizumab and rituximab
+1504741628717 - What is the likely diagnosis in a patient with HIV and a CD4 + count of < 200 cells/mm 3 that presents with altered mental status and motor deficits ? Brain MRI reveals non -enhancing, focal white mat
+1509300354802 2-RelativelyHighYield Which antitumor monoclonal antibody can cause progressive multifocal leukoencephalopathy (PML)? Rituximab
+1509318103283 2-RelativelyHighYield Which CNS adverse effect is associated with rituximab ? Progressive multifocal leukoencephalopathy (PML)
+1516849870270 2-RelativelyHighYield What type of viruses are polyomaviruses? Double-stranded DNA
+1516850223865 2-RelativelyHighYield Are polyomaviruses enveloped ? No (naked)
+1516850243224 5-LowYield Polyomaviruses include JC virus and BK virus
+1516850294247 4-LowerYield Polyomaviruses have circular DNA genomes
+1516850367033 4-LowerYield JC virus causes progressive multifocal leukoencephalopathy (PML) in immunocompromised individuals
+1516850484033 4-LowerYield JC virus presents when CD4+ count is < 200 cells/mm 3 or with immunosuppressants
+1516850609790 4-LowerYield JC virus presents in immunocompromised (HIV/AIDS) patients
+1516850699884 2-RelativelyHighYield Progressive multifocal leukoencephalopathy (PML) presents with non-enhancing brain lesions in white matter
+1516850848620 2-RelativelyHighYield Progressive multifocal leukoencephalopathy results in death of oligodendrocytes in the CNS
+1516850915117 2-RelativelyHighYield Progressive multifocal leukoencephalopathy presents with many lesion(s)
+1516851064454 4-LowerYield Which DNA viruses are ubiquitous in humans ? Polyomaviruses (JC, BK)
+1516851235515 4-LowerYield Polyomavirus (JC, BK) transmission occurs via respiratory exposure during childhood
+1516851354128 4-LowerYield Polyomaviruses (JC, BK) are hypothesized to seed the kidney resulting in a clinically latent infection
+1516851459784 4-LowerYield Which polyomavirus can cause nephropathy ? BK virus
+1516851616023 4-LowerYield BK virus is a virus associated with hemorrhagic cystitis in bone marrow and kidney transplant patients
+1516851757119 4-LowerYield BK virus can result in ureteral stenosis
+1516851784167 3-HighYield-temporary Hemorrhagic cystitis can present with fever and gross hematuria
+1516930367817 5-LowYield Which circular DNA virus causes hemorrhagic cystitis ? BK virus

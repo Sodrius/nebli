@@ -1,0 +1,207 @@
+{
+ "nome": "Multiplicação viral e antivirais",
+ "escopo": "cards",
+ "drive_pasta": "UC03/Microbiologia/58 - Multiplicação viral e antivirais",
+ "pasta_turma": "/Users/davisousa/Library/CloudStorage/GoogleDrive-davi.sousa@fm.usp.br/Drive partagés/TURMA 114/1º ano/UC03 - Princípios do Desenvolvimento de Doenças/Microbiologia/Aula 18 - Multiplicação Viral",
+ "turma_lidos": [
+  "Multiplicação Viral Ia.pdf",
+  "Multiplicação Viral Ib.pdf",
+  "Multiplicação Viral II.pdf",
+  "Material Complementar II - Transcrição da Aula Ia.pdf",
+  "Material Complementar III - Transcrição da Aula Ib.pdf"
+ ],
+ "turma_descartados": {
+  "Material Complementar I - Videoaula Assíncrona.mp4": "vídeo dispensado por Davi (F-20261010-CLAUDE-06)"
+ },
+ "slides": "fontes/slides.pdf",
+ "n_laminas": 242,
+ "familias": {
+  "slides": [
+   {
+    "arquivo": "fontes/slides.pdf",
+    "localizador": "Ia (1–92), Ib/Antivirais (93–178) e II (179–242, repetição condensada), 242 lâminas vistas em visual/folha-01…41 (21/10)",
+    "contribuicao": "Inventário e ordem",
+    "alvos": "slides"
+   }
+  ],
+  "veteranos": [
+   {
+    "arquivo": "fontes/transcricao.txt",
+    "localizador": "'Transcrição da Aula Ia' da turma, lida inteira: é só o texto das 87 lâminas de Antivirais, sem fala",
+    "contribuicao": "Confirma o texto das lâminas de antivirais",
+    "alvos": "todos"
+   },
+   {
+    "arquivo": "fontes/mat-01-uc3-replicacao.txt",
+    "localizador": "Apostila UC3, Replicação Viral I e II (pp. 386 em diante), lida",
+    "contribuicao": "Etapas, vírus de DNA e RNA, antivirais",
+    "alvos": "todos"
+   },
+   {
+    "arquivo": "fontes/mat-02-apostila-micro-replicacao.txt",
+    "localizador": "Apostila guia de Micro, Aula 13: Replicação Viral (caps. 1–6), lida",
+    "contribuicao": "Baltimore, etapas, mecanismos de DNA e RNA, efeito citopático, antivirais",
+    "alvos": "todos"
+   },
+   {
+    "arquivo": "fontes/mat-03-monitoria-p3-multiplicacao.txt",
+    "localizador": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II), lida",
+    "contribuicao": "Susceptibilidade e permissividade, desnudamento do adenovírus, antivirais por classe",
+    "alvos": "todos"
+   }
+  ],
+  "provas": [
+   {
+    "arquivo": "fontes/provas-mb58.txt",
+    "localizador": "Índice micro-14 (9 itens; 2 ecos marcados), lido",
+    "contribuicao": "Ciclo de multiplicação, RdRp, replicação de vírus do grupo IV, corpúsculos e sincícios",
+    "alvos": "prova"
+   },
+   {
+    "arquivo": "fontes/provas-termos-mb58.txt",
+    "localizador": "Busca por Baltimore, aciclovir, transcriptase reversa, corpúsculo, retrovírus, antiviral e sincício, lida",
+    "contribuicao": "Itens de prova sobre efeito citopático e retrovírus",
+    "alvos": "prova"
+   }
+  ],
+  "bibliografia": [
+   {
+    "arquivo": "livros/jawetz-cap29-replicacao.txt",
+    "localizador": "Jawetz 26ª ed., cap. 29 (replicação dos vírus: resumo; pdf pp. 428–437), lido",
+    "contribuicao": "Etapas gerais, infecção produtiva e abortiva",
+    "alvos": "cap"
+   },
+   {
+    "arquivo": "livros/jawetz-cap30-antivirais.txt",
+    "localizador": "Jawetz 26ª ed., cap. 30 (quimioterapia antiviral; pdf pp. 450–454), lido",
+    "contribuicao": "Análogos e inibidores de enzimas virais",
+    "alvos": "cap"
+   },
+   {
+    "arquivo": "fontes/mat-01-uc3-replicacao.txt",
+    "localizador": "Apostila UC3 (Trabulsi como base), replicação viral",
+    "contribuicao": "Etapas e estratégias",
+    "alvos": "todos"
+   }
+  ],
+  "youtube": [
+   {
+    "arquivo": "canais/osmosis-estrutura-funcao-virus.txt",
+    "localizador": "Osmosis, Viral Structure and Functions (transcrição inteira)",
+    "contribuicao": "Estrutura viral, ciclo e tipos de genoma",
+    "alvos": "todos",
+    "canal": "Osmosis",
+    "url": "https://youtu.be/O1TetEto1Is"
+   }
+  ],
+  "caoc": {
+   "estado": "não localizada",
+   "busca": "pasta da aula sem CAOC",
+   "impacto": "nenhum"
+  },
+  "exercicios": [
+   {
+    "arquivo": "fontes/provas-mb58.txt",
+    "localizador": "sem lista de exercícios nem palavras-cruzadas da aula; itens de prova acima",
+    "contribuicao": "—",
+    "alvos": "todos"
+   }
+  ]
+ },
+ "livros": [
+  {
+   "livro": "Apostila UC3 (Trabulsi como base), Replicação Viral I e II",
+   "texto": "fontes/mat-01-uc3-replicacao.txt"
+  },
+  {
+   "livro": "Jawetz, Microbiologia Médica (26ª ed.), caps. 29 e 30",
+   "texto": "livros/jawetz-cap29-replicacao.txt"
+  }
+ ],
+ "materiais_uc": {
+  "Grand round 1.pdf": {
+   "descartado": "apostila do GR1 (esquizofrenia)"
+  },
+  "Grand Round 1 - slides.pptx": {
+   "descartado": "lâminas do GR1"
+  },
+  "Apostila Ilustrativa Radiologia.pdf": {
+   "descartado": "apostila de Radiologia; TC × RM do GR é revisão das aulas 05/12"
+  },
+  "Cópia de Cópia de UC03 - Apostila Guia de Imunologia.pdf": {
+   "descartado": "apostila de Imuno; interferon e imunidade antiviral são outras aulas (63 Resposta imune a vírus e fungos)"
+  },
+  "Cópia de Cópia de UC03 - Apostila Guia de Microbiologia.pdf": {
+   "texto": "fontes/mat-02-apostila-micro-replicacao.txt",
+   "secao": "Aula 13: Replicação Viral (caps. 1–6: classificação, etapas, vírus de DNA e RNA, efeito citopático, antivirais)",
+   "linhas": "arquivos-trabalho/materiais-uc03/apostila - Cópia de Cópia de UC03 - Apostila Guia de Microbiologia.txt:2864-3330"
+  },
+  "Cópia de Cópia de UC03 - Apostila Guia de Patologia.pdf": {
+   "descartado": "apostila de Patologia; a patologia da infecção viral é a aula 61 (cópias por sh)"
+  },
+  "UC03 - Apostila Guia de Biologia Molecular.pdf": {
+   "descartado": "apostila de Biomol; replicação do DNA celular é de outras aulas (enzimas da forquilha entram por busca)"
+  },
+  "radiologia.pdf": {
+   "descartado": "apostila de Radiologia"
+  },
+  "Tudo que você precisa saber de RD - UC3.pdf": {
+   "descartado": "apostila de Radiologia"
+  },
+  "Grand Round 2.pdf": {
+   "descartado": "apostila do GR2"
+  },
+  "UC3.pdf": {
+   "texto": "fontes/mat-01-uc3-replicacao.txt",
+   "secao": "Replicação Viral I e II: etapas, vírus de DNA e RNA, antivirais",
+   "linhas": "arquivos-trabalho/materiais-uc03/apostila - UC3.txt:10425-10900"
+  },
+  "O GRANDE RESUMO DA P1 UC3.pdf": {
+   "descartado": "resumo da P1 (esta aula é da P3)"
+  },
+  "O GRANDE RESUMO DA P2 UC3.pdf": {
+   "descartado": "mesmo arquivo da Monitoria - Resumo da P2 (33.304.311 bytes); P2 é outra prova (bactérias e micoses)"
+  },
+  "O GRANDE RESUMO DA P3 UC3.pdf": {
+   "descartado": "mesmo arquivo da Monitoria - Resumo da P3 (53.161.785 bytes nas duas pastas); a seção de multiplicação viral foi lida em mat-03"
+  },
+  "Monitoria - Resumo da P2.pdf": {
+   "descartado": "monitoria P2 (bactérias e micoses; outra prova)"
+  },
+  "Monitoria - Resumo da P1.pdf": {
+   "descartado": "monitoria da P1 (outra prova)"
+  },
+  "Monitoria - Resumo da P3.pdf": {
+   "texto": "fontes/mat-03-monitoria-p3-multiplicacao.txt",
+   "secao": "Aulas 14 e 15 – Multiplicação viral I e II (classificação, etapas, DNA, RNA, efeito citopático, antivirais)",
+   "linhas": "arquivos-trabalho/materiais-uc03/Microbiologia - Monitoria - Resumo da P3.txt:1762-2215"
+  },
+  "C - ApresentaÃ§Ã£o em PDF da Video Aula - IM - OrganizaÃ§Ã£o da Resposta Imune aos VÃ­rus.pdf": {
+   "descartado": "material da aula 63 (Organização da resposta imune aos vírus), arquivado nesta pasta; vira deck na aula 63"
+  },
+  "C - ApresentaÃ§Ã£o em PDF da Video Aula - MB - MultiplicaÃ§Ã£o Viral.pdf": {
+   "texto": "fontes/slides.txt",
+   "secao": "Replicação viral II (64 lâminas, 179–242), mesmo PDF que Multiplicação Viral II.pdf da turma (3.483.739 bytes)"
+  },
+  "D - TranscriÃ§Ã£o da Aula em PDF - IM - OrganizaÃ§Ã£o da Resposta Imune aos VÃ­rus.pdf": {
+   "descartado": "material da aula 63 (Organização da resposta imune aos vírus), arquivado nesta pasta; vira deck na aula 63"
+  },
+  "D - TranscriÃ§Ã£o da Aula em PDF - MB - MultiplicaÃ§Ã£o Viral.pdf": {
+   "texto": "fontes/transcricao-ib.txt",
+   "secao": "Transcrição da Aula Ib: Multiplicação viral (125 páginas; efeito citopático nas pp. 94–124 é da prática, aula 60)"
+  },
+  "E - TranscriÃ§Ã£o da Aula em PDF - MB - Antivirais.pdf": {
+   "texto": "fontes/transcricao.txt",
+   "secao": "Transcrição da Aula Ia: Antivirais (87 páginas, texto das lâminas 93–178)"
+  }
+ },
+ "canais": [
+  {
+   "canal": "Osmosis",
+   "url": "https://youtu.be/O1TetEto1Is",
+   "transcricao": "canais/osmosis-estrutura-funcao-virus.txt",
+   "lido": "integral",
+   "calibracao": "Confirmou a ordem do ciclo (fixação, entrada, replicação, montagem, saída) e o papel de cada tipo de genoma; sustenta a linha lógica do deck."
+  }
+ ]
+}
