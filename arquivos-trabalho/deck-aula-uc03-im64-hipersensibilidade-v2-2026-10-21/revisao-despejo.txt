@@ -6,208 +6,127 @@
     F: Which hypersensitivity reaction(s) are antibody-mediated? / / [I, II, and III] /
     V: In contrast to Type IV hypersensitivity reactions, which are mediated by T-cells / /  / /   /  / Each
     IMG: a80f3b267d2602619a54f6b5, ed972b9dc4842f6b98c4e0e8, 6888f0dac919a11c8b6521d0
-002 ak1487207102783 | AnKing | Vs | Slide 3
-    F: Which type of hypersensitivity reaction is mediated by binding of antibodies to cell-surface antigens? / / [Type II HSR] /
-    V: This can either result in cell destruction, inflammation, or cellular dysfunction / /
-    IMG: a80f3b267d2602619a54f6b5
-003 ak1487207122541 | AnKing | Vs | Slide 3
-    F: Which immunoglobulin(s) mediate type II hypersensitivity reactions? / / [IgM and IgG] /
-    V: / / - IgE is type I; IgM and IgG act in types II and III
-    IMG: a80f3b267d2602619a54f6b5
-004 ak1487207105743 | AnKing | Vs | Slide 3
-    F: Type II HSRs can cause pathology by inducing [cellular destruction] by opsonizing the target with antibodies /
-    V: - e.g., autoimmune hemolytic anemia, ITP, transfusion reactions, hemolytic disease of the newborn / / - Can lead to phagocytosis or MAC mediated destruction, or NK antibody-depende
-    IMG: a80f3b267d2602619a54f6b5
-005 ak1487207112553 | AnKing | Vs | Slide 3
-    F: Type II HSRs can cause pathology by inducing [cellular dysfunction], causing abnormal blockade or activation/inactivation of downstream cellular processes /
-    V: - e.g., myasthenia gravis, Graves disease, pemphigus vulgaris / / - In pemphigus vulgaris, autoantibodies against desmoglein-1 (αDsg1) / -3 (αDsg3) inactivate these proteins, resul
-    IMG: a80f3b267d2602619a54f6b5, eda572d34c6bfaad40792f90
-006 ak1487207119666 | AnKing | Vs | Slide 3
-    F: Type II HSRs can cause pathology by inducing [inflammation] by antibodies depositing on cell surfaces, which in turn activates complement / /
-    V: - e.g., Goodpasture syndrome, rheumatic fever, hyperacute transplant rejection, bullous pemphigoid / / - Leads to generation of C3a/C5a to attract neutrophils and other proinflamma
-    IMG: a80f3b267d2602619a54f6b5, eda572d34c6bfaad40792f90
-007 ak1487207160372 | AnKing | Vs | Slide 6
-    F: What type of hypersensitivity reaction is pemphigus vulgaris? / / [Type II HSR (cellular dysfunction)] / /
-    V: / / - The antibodies block desmoglein, which holds epidermal cells together
-    IMG: a80f3b267d2602619a54f6b5
-008 ak1487207142388 | AnKing | Vs | Slide 9
-    F: What type of hypersensitivity reaction are immune thrombocytopenia and autoimmune-hemolytic anemia? / / [Type II HSR (cellular destruction)] / /
-    V: / /  / / - Antibodies against platelets or red cells mark them for removal
-    IMG: a80f3b267d2602619a54f6b5, 753d443cb002375ee5a7936c
-009 ak1487207145930 | AnKing | Vs | Slide 9
-    F: What type of hypersensitivity reaction are hemolytic disease of the newborn and transfusion reactions? / / [Type II HSR (cellular destruction)] / /
-    V: / /  / / - Antibodies against Rh or ABO antigens destroy the red cells
-    IMG: a80f3b267d2602619a54f6b5, c44aa200e0ab215b6c9da718
-010 ak1475376572176 | AnKing | Vs | Slide 10
-    F: What type of hypersensitivity reaction is Goodpasture syndrome? / / [Type II HSR] /
-    V: Think "Goodpas-TWO-re" / /
-    IMG: a80f3b267d2602619a54f6b5
-011 ak1487207158134 | AnKing | Vs | Slide 10
-    F: What type of hypersensitivity reaction is Graves disease and myasthenia gravis? / / [Type II HSR (cellular dysfunction)] / /
-    V: / /  / /  / / - The antibodies bind the TSH receptor or the acetylcholine receptor and change its function
-    IMG: a80f3b267d2602619a54f6b5, 102dfc79376f17f2912bfab2, a2b3d9d25d062edce0a16f70
-012 ak1503089762191 | AnKing | Vs | Slide 10
-    F: What type of hypersensitivity reaction is rheumatic fever? / / [Type II HSR (inflammation)]
-    V: Antibodies binding to cell surface antigens (M protein mimics myosin) / /  / /  / /
-    IMG: 4ded4948655d790c2facf094, a80f3b267d2602619a54f6b5, da1c31d63317bafeafae91fc
-013 ak1501511684746 | AnKing | Vs | Slide 10
-    F: What type of hypersensitivity reaction is pernicious anemia? / / [Type II HSR] /
-    V: Due to autoantibodies attacking gastric parietal cells, which leads to deficit in intrinsic factor, and thus ↓ absorption of B12 / /
-    IMG: a80f3b267d2602619a54f6b5
-014 ak1516061921946 | AnKing | Vs | Slide 13
-    F: Rh hemolytic disease of the newborn has the potential to occur when a Rh[-] mother has a Rh[+] fetus
-    V: Because the Rh- mother has not developed immune tolerance to the D antigen, exposure can cause immune sensitization to D antigen
-    IMG: —
-015 ak1487207162179 | AnKing | Vs | Slide 14
-    F: Which type of hypersensitivity reaction is characterized by circulating immune complexes? / / [Type III HSR] / /
-    V: Commonly associated with vasculitis and systemic manifestations / /
-    IMG: a80f3b267d2602619a54f6b5
-016 au-liga-ii-iii | Autora | AsAs | Slide 14
-    F: Type II targets antigen on the [cell], while type III forms complexes with [soluble] antigen
-    V: - Both use IgG or IgM and complement / - That is why the damage in III depends on where the complexes deposit
-    IMG: —
-017 ak1487207184256 | AnKing | Vs | Slide 15
-    F: A(n) [hapten] is a small molecule that may conjugate with larger proteins to elicit an immune response
-    V: e.g., penicillin may act as a hapten and bind to RBCs, causing immune hemolytic anemia
-    IMG: —
-018 ak1487207216546 | AnKing | Vs | Slide 15
-    F: What type of hypersensitivity reaction is post-streptococcal glomerulonephritis (PSGN)? / / [Type III] / /
-    V: Immunofluorescence demonstrates a granular ("lumpy bumpy") pattern due to the deposition of subepithelial immune complexes (IgG, IgM, C3) / /
-    IMG: a80f3b267d2602619a54f6b5
-019 ak1583964087768 | AnKing | Vs | Slide 15
-    F: Rheumatoid arthritis is a type [III] hypersensitivity reaction
-    V: - Because rheumatoid factor (IgM) forms large complexes that deposit in tissues / / - ArTHREEitis = type 3 HSR / /
-    IMG: a80f3b267d2602619a54f6b5
-020 ak1474132602716 | AnKing | Vs | Slide 15
-    F: What type of hypersensitivity reaction occurs in polyarteritis nodosa (PAN)? / / [Type III (immune-complex mediated)] /
-    V: / /  / / - Immune complexes deposit in medium-sized vessel walls and cause vasculitis
-    IMG: b8a0e7c925c689e8fee37388, a80f3b267d2602619a54f6b5
-021 ak1503091131993 | AnKing | Vs | Slide 15
-    F: Circulating [immune complex] deposition causes glomerular damage and subsequent nephritic syndrome in post-streptococcal glomerulonephritis (PSGN)
-    V: - Antigen-antibody complexes (type III hypersensitivity reaction) / / - Immunofluorescence shows a granular ("lumpy bumpy") pattern due to the deposition of subepithelial immune co
-    IMG: a80f3b267d2602619a54f6b5
-022 ak1487207167794 | AnKing | VsVs | Slide 17
-    F: In type III HSRs, antigen-antibody complexes activate [complement], which attracts [neutrophils] /
-    V: Neutrophils then release lysosomal enzymes / /   /
-    IMG: b951b543cbdb05f7acf06045, a80f3b267d2602619a54f6b5
-023 ak1487207194698 | AnKing | Vs | Slide 17
-    F: [Arthus reaction] is a local subacute immune complex-mediated HSR to antigen in intradermal injection /
-    V: - Occurs in pre-sensitized individuals (have circulating IgG) / / - Leads to immune complex formation in the skin (e.g., enhanced local reaction to a booster vaccination) / /
-    IMG: a80f3b267d2602619a54f6b5
-024 ak1487207200447 | AnKing | Vs | Slide 17
-    F: Arthus reaction leads to immune complex formation in the [skin]; characterized by edema, necrosis, and activation of complement /
-    V: / / - Preformed IgG meets the injected antigen in the skin; the complexes fix complement and neutrophils cause the necrosis
-    IMG: a80f3b267d2602619a54f6b5
-025 ak1487207175248 | AnKing | Vs | Slide 19
-    F: [Serum sickness] is an immune complex disease in which antibodies to foreign serum proteins are produced /
-    V: - Immune complexes form and are deposited in membranes, where they fix complement (leading to tissue damage) / / - Cleared by mononuclear phagocytes / /
-    IMG: a80f3b267d2602619a54f6b5
-    COMENTÁRIO: faltou nesse deck de reação de hipersensibilidade cards sobre o mecanismo de cada forma de reação
-026 ak1487207192567 | AnKing | Vs | Slide 19
-    F: What type of hypersensitivity reaction is serum sickness? / / [Type III HSR (immune complexes)] /
-    V: Immune complexes deposit in vessels → activate complement → neutrophils → vasculitis and fibrinoid necrosis / /
-    IMG: a80f3b267d2602619a54f6b5
-027 ak1487207190223 | AnKing | Vs | Slide 19
-    F: Serum sickness presents with fever, urticaria, arthralgia, proteinuria, and lymphadenopathy [1] - [2] weeks after antigen exposure /
-    V: - These patients have low serum C3 and C4 levels / / - Most commonly caused by β-lactams and sulfa drugs / / - Symptoms typically resolve with withdrawal of the offending agent / /
-    IMG: a80f3b267d2602619a54f6b5
-028 ak1487815313912 | AnKing | Vs | Slide 22
-    F: What type of hypersensitivity reaction is systemic lupus erythematosus (SLE)? / / [Type III* HSR (immune complex deposition)] /
-    V: *Exception: the hematologic complications (e.g., anemia, thrombocytopenia, leukopenia) that occur with lupus are type II hypersensitivity reactions / /
-    IMG: a80f3b267d2602619a54f6b5
-029 ak1487207218837 | AnKing | Vs | Slide 27
-    F: Which type of hypersensitivity reaction is T-cell mediated? / / [Type IV] /
-    V: Delayed-type hypersensitivity / /
-    IMG: a80f3b267d2602619a54f6b5
-030 ak1487207220752 | AnKing | Vs | Slide 27
-    F: Type [IV] HSRs may occur via direct cell cytotoxicity, which involves CD8+ T cells /
-    V: / /  / / - CD8 T cells kill the target cell directly
-    IMG: a80f3b267d2602619a54f6b5, 075aa85beb288f3ca73ad0a7
-031 au-liga-iv | Autora | AsAs | Slide 27
-    F: Types I to III need [antibodies], but type IV is mediated by [T cells]
-    V: - That is why the reaction is delayed: T cells and macrophages must arrive and be activated
-    IMG: —
-032 ak1487207238825 | AnKing | Vs | Slide 28
-    F: What type of hypersensitivity reaction is allergic contact dermatitis (e.g., poison ivy, nickel allergy)? / / [Type IV HSR (CD4 & CD8 mediated)]
-    V: - Poison ivy produces urushiol, which covalently binds to proteins on keratinocytes / / - Sensitization phase: Langerhans cells uptake haptens (random skin proteins covalently bind
-    IMG: 5ed6c455d6681b6311af3602, 0bb4014fa72fcd9380f8cde9, a80f3b267d2602619a54f6b5
-033 ak1462326990404 | AnKing | Vs | Slide 28
-    F: What type of hypersensitivity is type 1 diabetes mellitus? / / [Type IV HSR (direct cell cytotoxicity)] / /
-    V: / /  / / - CD8 T cells destroy the insulin-producing beta cells
-    IMG: a80f3b267d2602619a54f6b5, 22993d36835f411dc6956c53
-034 au-dth-fases | Autora | AsAsAs | Slide 29
-    F: Delayed hypersensitivity: / - sensitization: dendritic cells prime [naive T] cells / - re-exposure: [Th1] cells release IFN-γ / - IFN-γ activates [macrophages], which damage tissue /
-    V: - The reaction takes about 48 h to peak because T cells and macrophages must be recruited / - CD8 T cells can instead kill the target directly
-    IMG: —
-035 au-tempo | Autora | AsAsAs | Slide 41
-    F: Skin reaction time: / - type I: [minutes] / - type III: [hours] / - type IV: about [48 h] /
-    V: - Type I uses pre-formed IgE on mast cells / - Type III needs immune complexes and complement to recruit neutrophils / - Type IV needs T cells and macrophages to arrive
-    IMG: —
-036 ak1487206917325 | AnKing | Vs | Slide 43
+002 ak1487206917325 | AnKing | Vs | Slide 44
     F: Which type of hypersensitivity reaction is mediated by cross-linking IgE on presensitized mast cells and basophils? / / [Type I HSR] / / /
     V: / / - Presensitized means IgE already sits on the mast cell receptors
     IMG: a80f3b267d2602619a54f6b5
-037 au-liga-i | Autora | AsAs | Slide 43
-    F: In type I, [IgE] arms the [mast cell] at first contact, so the reaction starts at the second
-    V: - Unlike II and III, no antibody has to be made after the second contact / - That explains the speed of minutes
+003 au-sensib-cadeia | Autora | VsVsVs | Slide 54
+    F: Type I sensitization: / - allergen activates [Th2] cells / - IL-4 makes B cells secrete [IgE] / - IgE arms the [mast cell] /
+    V: - The reaction appears only at the next contact with the allergen / - IgE binds to the Fc receptors of the mast cell
     IMG: —
-038 ak1487207079363 | AnKing | VsVs | Slide 44
-    F: Type I HSR occurs due to cross-linking of Ig[E] on presensitized [mast cells] and [basophils] by antigens, leading to receptor aggregation / /
-    V: - e.g., anaphylaxis, allergic asthma / - This aggregates the FcεRI (high affinity) receptors on the mast cell, leading to the activation of non-receptor tyrosine kinases and down s
-    IMG: a80f3b267d2602619a54f6b5
-039 ak1473628085810 | AnKing | VsVs | Slide 50
-    F: Asthma is most often due to [allergic stimuli] (type [I] HSR), but may also be triggered by viral URIs and stress /
-    V: / / - Allergic asthma shows an early bronchoconstriction and a late inflammatory phase
-    IMG: a80f3b267d2602619a54f6b5
-040 ak1487207094725 | AnKing | Vs | Slide 50
-    F: Which type of hypersensitivity mediates anaphylaxis (e.g., food, drug, or bee sting allergies)? / / [Type I HSR]
-    V: If severe enough, can lead to death with laryngeal edema and lung hyperinflation (due to air being trapped from airway obstruction) / /
-    IMG: a80f3b267d2602619a54f6b5
-041 au-sensibil | Autora | AsAs | Slide 53
-    F: At the first contact with an allergen, IgE only [sensitizes] the mast cells, with [no] clinical reaction
-    V: - Th2 and IL-4 drive B cells to make IgE, which arms the mast cell Fc receptors / - The reaction appears at later contacts
-    IMG: —
-042 ak1474580620228 | AnKing | Vs | Slide 60
+004 ak1474580620228 | AnKing | Vs | Slide 60
     F: Once produced, IgE binds to [high affinity (FcεR1)] receptors on mast cells in the airway mucosa / /
-    V: Triggers mast cell degranulation on re-exposure to the antigen
+    V: Triggers mast cell degranulation on re-exposure to the antigen / / - IgE lasts 2-3 days in serum but weeks on the mast cell, which keeps it ready to degranulate
     IMG: —
-043 ak1473628107938 | AnKing | Vs | Slide 66
-    F: In an asthmatic response, mast cells release preformed [histamine] granules (early-phase reaction) /
-    V: - Histamine acts within minutes: vasodilation, permeability and bronchoconstriction
-    IMG: —
-044 ak1473628116213 | AnKing | Vs | Slide 68
-    F: In an asthmatic response, mast cells lead to generation of leukotrienes [C4], [D4], and [E4] (early-phase reaction) /
-    V: - Leukotrienes are made from arachidonic acid after activation, so they follow the preformed histamine
-    IMG: —
-045 au-mediadores | Autora | AsAs | Slide 70
-    F: Mast cell mediators: / - [histamine]: vasodilation and permeability / - [prostaglandins and leukotrienes]: smooth muscle contraction /
-    V: - In the airway: bronchoconstriction; in the gut: hypermotility / - Cytokines come later and promote inflammation
-    IMG: —
-046 ak1474571583341 | AnKing | Vs | Slide 70
+005 ak1474571583341 | AnKing | Vs | Slide 70
     F: Allergic inflammation is mediated by histamine, which acts on the [H1] histamine receptor / /
     V: - Histamine causes vasodilation, more permeability and smooth muscle contraction
     IMG: —
-047 ak1474571606722 | AnKing | Vs | Slide 70
-    F: Histamine causes [increased] nasal and bronchial mucus production (H1 receptor activation) / /
-    V: - Mucus and vascular leak add to the airway obstruction in asthma and the runny nose in rhinitis
+006 ak1473628116213 | AnKing | Vs | Slide 73
+    F: In an asthmatic response, mast cells lead to generation of leukotrienes [C4], [D4], and [E4] (early-phase reaction) /
+    V: - Leukotrienes are made from arachidonic acid after activation, so they follow the preformed histamine
     IMG: —
-048 ak1474571636173 | AnKing | As | Slide 70
+007 ak1474571636173 | AnKing | As | Slide 73
     F: Histamine causes [constriction] of bronchial smooth muscle, especially in patients with asthma (H1 receptor activation) / /
-    V: - Smooth muscle contraction narrows the airway within minutes
+    V: - Prostaglandins and leukotrienes also contract smooth muscle: bronchoconstriction in the lung, hypermotility in the gut
     IMG: —
-049 ak1473628119069 | AnKing | Vs | Slide 78
+008 ak1473628119069 | AnKing | Vs | Slide 78
     F: In an asthmatic response, inflammatory mediators, especially [major basic protein] from eosinophils, damage cells and perpetuate bronchoconstriction (late-phase reaction) /
     V: - Eosinophils arrive hours later, so the late phase keeps the inflammation going after histamine is gone
     IMG: —
-050 au-th2-alergia | Autora | AsAsAs | Slide 87
-    F: In allergy, Th2 IL-4 makes [IgE], IL-5 recruits [eosinophils] and IL-13 makes [mucus]
-    V: - The same Th2 package defends against helminths: IgE, mucus, eosinophils and smooth muscle contraction
+009 ak1474571606722 | AnKing | Vs | Slide 85
+    F: Histamine causes [increased] nasal and bronchial mucus production (H1 receptor activation) / /
+    V: - Mucus and vascular leak add to the airway obstruction
     IMG: —
-051 ak1473628097990 | AnKing | VsVs | Slide 87
+010 ak1473628137176 | AnKing | Vs | Slide 86
+    F: Asthma is associated with bronchial smooth muscle [hypertrophy] /
+    V: - Leads to bronchiole spasms / / - Due to the allergic reaction causing inflammation, which releases chemical mediators from mast cells that stimulate mucous secretion and contract
+    IMG: —
+011 ak1473628097990 | AnKing | VsVs | Slide 87
     F: Asthma pathogenesis: Th2 cells secrete IL-[4], which mediates class switching to [IgE] /
     V: IL-4 also stimulates Th2 and inhibits Th1
     IMG: —
-052 ak1473628101206 | AnKing | VsVs | Slide 87
+012 ak1473628101206 | AnKing | VsVs | Slide 87
     F: Asthma pathogenesis: Th2 cells secrete IL-[5] which attracts [eosinophils] /
     V: Think "eo5inophils"
     IMG: —
+013 ak1487207102783 | AnKing | Vs | Slide 3
+    F: Which type of hypersensitivity reaction is mediated by binding of antibodies to cell-surface antigens? / / [Type II HSR] /
+    V: This can either result in cell destruction, inflammation, or cellular dysfunction / /
+    IMG: a80f3b267d2602619a54f6b5
+014 ak1487207122541 | AnKing | Vs | Slide 3
+    F: Which immunoglobulin(s) mediate type II hypersensitivity reactions? / / [IgM and IgG] /
+    V: / / - IgE is type I; IgM and IgG act in types II and III
+    IMG: a80f3b267d2602619a54f6b5
+015 ak1487207105743 | AnKing | Vs | Slide 3
+    F: Type II HSRs can cause pathology by inducing [cellular destruction] by opsonizing the target with antibodies /
+    V: - e.g., autoimmune hemolytic anemia, ITP, transfusion reactions, hemolytic disease of the newborn / / - Can lead to phagocytosis or MAC mediated destruction, or NK antibody-depende
+    IMG: a80f3b267d2602619a54f6b5
+016 ak1487207119666 | AnKing | Vs | Slide 3
+    F: Type II HSRs can cause pathology by inducing [inflammation] by antibodies depositing on cell surfaces, which in turn activates complement / /
+    V: - e.g., Goodpasture syndrome, rheumatic fever, hyperacute transplant rejection, bullous pemphigoid / / - Leads to generation of C3a/C5a to attract neutrophils and other proinflamma
+    IMG: a80f3b267d2602619a54f6b5, eda572d34c6bfaad40792f90
+017 ak1487207112553 | AnKing | Vs | Slide 3
+    F: Type II HSRs can cause pathology by inducing [cellular dysfunction], causing abnormal blockade or activation/inactivation of downstream cellular processes /
+    V: - e.g., myasthenia gravis, Graves disease, pemphigus vulgaris / / - In pemphigus vulgaris, autoantibodies against desmoglein-1 (αDsg1) / -3 (αDsg3) inactivate these proteins, resul
+    IMG: a80f3b267d2602619a54f6b5, eda572d34c6bfaad40792f90
+018 ak1462038209306 | AnKing | As | Slide 10
+    F: What is the result when thyroid-stimulating immunoglobulins (in Graves disease) bind to TSH receptors of the thyroid gland? / / [They stimulate secretion of T3 and T4] /
+    V: - Thyroid-stimulating immunoglobulins (TSI) are autoantibodies that bind to and activate TSH receptors on thyroid epithelial cells / / - This leads to increased secretion of thyroi
+    IMG: a2b3d9d25d062edce0a16f70
+019 ak1489972384117 | AnKing | Vs | Slide 12
+    F: Which blood transfusion reaction is caused by host antibodies against donor ABO blood groups or foreign antigen on donor RBCs? / / [Acute hemolytic transfusion reaction (AHTR)] / /
+    V: - IgM isohemagglutinins formed naturally in response to bacterial flora cause opsonization and complement activation on donor RBCs, leading to hemolysis / / - ABO incompatibility i
+    IMG: c44aa200e0ab215b6c9da718
+020 ak1516062859864 | AnKing | Vs | Slide 13
+    F: Will Rh hemolytic disease of the newborn occur on the first pregnancy? / / [No] /
+    V: Rh+ antibodies must develop in the Rh- mother / /  / / - In the second Rh+ pregnancy, maternal IgG anti-Rh crosses the placenta and attacks fetal red cells
+    IMG: ea7e85830a08ecdce8884c20
+021 ak1516062099732 | AnKing | Vs | Slide 13
+    F: Assuming RhoGAM is not given, the first time an Rh- mother delivers an Rh+ fetus, the mother will form what substance? / / [ [IMG ec84f6c4f2d1afb8ee5c02a1663e3fdd.png] ] /
+    V: - Exposure to fetal blood (often during delivery) initially results in the formation of maternal anti-D IgM antibodies which then seroconvert into anti-D IgG antibodies / / - Subsq
+    IMG: ea7e85830a08ecdce8884c20
+022 ak1487207162179 | AnKing | Vs | Slide 14
+    F: Which type of hypersensitivity reaction is characterized by circulating immune complexes? / / [Type III HSR] / /
+    V: Commonly associated with vasculitis and systemic manifestations / /
+    IMG: a80f3b267d2602619a54f6b5
+023 au-liga-ii-iii | Autora | AsAs | Slide 14
+    F: Type II targets antigen on the [cell], while type III forms complexes with [soluble] antigen
+    V: - Both use IgG or IgM / - That is why in III the damage depends on where the complexes deposit
+    IMG: —
+024 ak1487207167794 | AnKing | VsVs | Slide 17
+    F: In type III HSRs, antigen-antibody complexes activate [complement], which attracts [neutrophils] /
+    V: Neutrophils then release lysosomal enzymes / /   /
+    IMG: b951b543cbdb05f7acf06045, a80f3b267d2602619a54f6b5
+025 ak1487207194698 | AnKing | Vs | Slide 17
+    F: [Arthus reaction] is a local subacute immune complex-mediated HSR to antigen in intradermal injection /
+    V: - Occurs in pre-sensitized individuals (have circulating IgG) / / - Leads to immune complex formation in the skin (e.g., enhanced local reaction to a booster vaccination) / /  / / 
+    IMG: a80f3b267d2602619a54f6b5
+026 au-soro | Autora | AsAsAs | Slide 19
+    F: Serum sickness: / - antibodies against [horse] serum proteins / - complexes peak at [equivalence] / - complexes deposit in [vessel] walls /
+    V: - The foreign serum protein is slowly cleared while antibodies rise / - At equivalence the soluble complexes are largest and deposit
+    IMG: —
+027 ak1487207218837 | AnKing | Vs | Slide 27
+    F: Which type of hypersensitivity reaction is T-cell mediated? / / [Type IV] /
+    V: Delayed-type hypersensitivity / /
+    IMG: a80f3b267d2602619a54f6b5
+028 au-liga-iv | Autora | AsAs | Slide 27
+    F: Types I to III need [antibodies], but type IV is mediated by [T cells]
+    V: - CD4 or CD8 T cells are involved / - That is why the reaction is delayed
+    IMG: —
+029 ak1487207238825 | AnKing | Vs | Slide 28
+    F: What type of hypersensitivity reaction is allergic contact dermatitis (e.g., poison ivy, nickel allergy)? / / [Type IV HSR (CD4 & CD8 mediated)]
+    V: - Poison ivy produces urushiol, which covalently binds to proteins on keratinocytes / / - Sensitization phase: Langerhans cells uptake haptens (random skin proteins covalently bind
+    IMG: 5ed6c455d6681b6311af3602, 0bb4014fa72fcd9380f8cde9, a80f3b267d2602619a54f6b5
+030 au-dth-fases | Autora | AsAsAs | Slide 29
+    F: Delayed hypersensitivity: / - sensitization: dendritic cells prime [naive T] cells / - re-exposure: [Th1] cells release IFN-γ / - IFN-γ activates [macrophages], which damage tissue /
+    V: - The reaction takes about 48 h to peak because T cells and macrophages must be recruited / - CD8 T cells can instead kill the target directly
+    IMG: —
+031 au-tempo | Autora | AsAsAs | Slide 41
+    F: Skin reaction time: / - type I: [minutes] / - type III: [hours] / - type IV: about [48 h] /
+    V: - Type I uses pre-formed IgE on mast cells / - Type III needs immune complexes and complement to recruit neutrophils / - Type IV needs T cells and macrophages to arrive
+    IMG: —
+032 ak1487207220752 | AnKing | Vs | Slide 43
+    F: Type [IV] HSRs may occur via direct cell cytotoxicity, which involves CD8+ T cells /
+    V: / /  / / - CD8 T cells kill the target cell directly
+    IMG: a80f3b267d2602619a54f6b5, 075aa85beb288f3ca73ad0a7

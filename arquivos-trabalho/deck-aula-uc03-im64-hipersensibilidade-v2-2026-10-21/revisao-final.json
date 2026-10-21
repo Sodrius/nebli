@@ -3,11 +3,11 @@
  "feita_depois_de_instalar": true,
  "cobertura_item_a_item": {
   "ok": true,
-  "evidencia": "cobertura.json: 167 itens; exclusões com motivo no inventário"
+  "evidencia": "cobertura.json: 149 itens; exclusões com motivo no inventário"
  },
  "ordem_estrita_dos_slides": {
   "ok": true,
-  "evidencia": "NEBLI::2026-uc03-imunologia-64-hipersensibilidade: 76 notas, prefixo 'im64'"
+  "evidencia": "NEBLI::2026-uc03-imunologia-64-hipersensibilidade: 49 notas, prefixo 'im64'"
  },
  "imagens_vistas": {
   "ok": true,
@@ -35,7 +35,7 @@
  },
  "hy_verde": {
   "ok": true,
-  "evidencia": "43 AnKing HY 1–2: verdes ou com hy_repete/clinica_lateral justificado"
+  "evidencia": "24 AnKing HY 1–2: verdes ou com hy_repete/clinica_lateral justificado"
  },
  "tab_lido_por_amostra": {
   "ok": false,
@@ -54,6 +54,50 @@
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
+  "ak1487206917325": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "au-sensib-cadeia": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1474580620228": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1474571583341": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1473628116213": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1474571636173": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1473628119069": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1474571606722": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1473628137176": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1473628097990": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1473628101206": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
   "ak1487207102783": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
@@ -66,43 +110,27 @@
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1487207112553": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
   "ak1487207119666": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1487207160372": {
+  "ak1487207112553": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1487207142388": {
+  "ak1462038209306": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1487207145930": {
+  "ak1489972384117": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1475376572176": {
+  "ak1516062859864": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1487207158134": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1503089762191": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1501511684746": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1516061921946": {
+  "ak1516062099732": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
@@ -114,26 +142,6 @@
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1487207184256": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1487207216546": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1583964087768": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1474132602716": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1503091131993": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
   "ak1487207167794": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
@@ -142,31 +150,11 @@
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1487207200447": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1487207175248": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1487207192567": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1487207190223": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1487815313912": {
+  "au-soro": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
   "ak1487207218837": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1487207220752": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
@@ -178,10 +166,6 @@
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1462326990404": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
   "au-dth-fases": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
@@ -190,71 +174,43 @@
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1487206917325": {
+  "ak1487207220752": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "au-liga-i": {
+  "sh-1791625432133": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1487207079363": {
+  "sh-1792241808513": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1473628085810": {
+  "sh-1791667097788": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1487207094725": {
+  "sh-1791629596497": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "au-sensibil": {
+  "sh-1791743342082": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1474580620228": {
+  "sh-1791169089858": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1473628107938": {
+  "sh-1791983686483": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1473628116213": {
+  "sh-1791780353397": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "au-mediadores": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1474571583341": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1474571606722": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1474571636173": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1473628119069": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "au-th2-alergia": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1473628097990": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1473628101206": {
+  "sh-1791629596247": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
@@ -262,31 +218,7 @@
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1791629595447": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791667094087": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1792166976595": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791667097538": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
   "sh-1791625436408": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791625427059": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791625425478": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
@@ -306,47 +238,7 @@
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1791625426657": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
   "sh-1791625429957": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791625430882": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1792241811997": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791625432133": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1792241808513": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791743342082": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791629596497": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791169089858": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791983686483": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791780353397": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   }

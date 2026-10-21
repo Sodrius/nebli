@@ -1,8 +1,9 @@
-# 2026-uc03-imunologia-64-hipersensibilidade — v3 (mecanismo, história e provas), instalada 21/10 (Claude)
+# 2026-uc03-imunologia-64-hipersensibilidade — v4 (acompanha a aula), reinstalada 21/10 (Claude)
 
-**Deck:** `NEBLI::UC03::P3::Imunologia::Reações de hipersensibilidade`; 72 cards (53 notas novas + 23 compartilhadas). Suspensa. Sem Tab.
-**Refeito por F-20261021-CLAUDE-02 e -03:** a v2 (47 cards) cobria a classificação e pouco o mecanismo. Agora cada tipo tem a cadeia causal: tipo II (opsonização, complemento, disfunção de receptor), tipo III (complexo, depósito, complemento, neutrófilo), tipo IV (sensibilização, Th1, IFN-γ, macrófago, CD8, granuloma), tipo I (Th2, IL-4/IL-13, IgE, FcεRI, ligação cruzada, histamina e leucotrienos, fase tardia com IL-5 e eosinófilo).
-**História (escopo.json `historia` e `linha_logica`):** classificação → II → III → (tira o anticorpo) IV → I; três cards de conexão autorais ligam II–III, I–III–IV e fecham em I (≈6% dos cards).
-**Provas calibradas (`provas` no escopo.json):** 13 de 20 questões ligadas a cards (tipo I mecanismo e fase tardia, asma, PPD, artrite reumatoide, complemento, IgE); 3 ecos ignorados; 4 fora, justificadas (imunidade inata, IgA e HBV, que são das aulas de vírus).
-**Fontes usadas:** 90 lâminas, transcrição inteira, apostila guia (aula 10), monitoria P3 (aula 13), Abbas (livro) e provas imuno-12.
-**Ciclo básico:** clínica lateral 1 card (asma); sem diagnóstico, tratamento nem fármaco. Autoral 9 notas/23 cards (exceção declarada).
+**Deck:** `NEBLI::UC03::P3::Imunologia::Reações de hipersensibilidade`; 49 cards novos (33 notas) + 19 compartilhados. Suspensa. Sem Tab. Refeita depois que Davi apagou a v3 (“ficaram zuados… um deck que acompanha a aula”).
+**Acompanha a aula:** a ordem é a da fala (transcrição): introdução e os quatro tipos → tipo I (sensibilização, FcεRI, desencadeamento, mediadores, fase tardia, eosinófilos, Th2) → tipo II → tipo III → tipo IV e comparação das reações cutâneas (escopo.json `ordem_da_fala`).
+**Mecanismo, não doença:** a cadeia causal de cada tipo (opsonização e complemento; complexo, depósito e neutrófilo; sensibilização, Th1, IFN-γ e macrófago; Th2, IL-4, IgE, mastócito) é o centro; doença só como exemplo (Graves, Rh, soro, dermatite de contato).
+**História:** 6 passos encadeados, 2 notas de conexão (tipo II × III pelo antígeno fixo ou solúvel; anticorpo × célula T), tudo em escopo.json.
+**Provas calibradas:** 13 questões não-eco do índice ligadas a cards (tipo I e fase tardia, PPD, asma, tipo III, complemento, IgE) ou com “fora” justificado.
+**Fontes lidas:** 90 lâminas, transcrição inteira, Abbas cap. 11, apostila guia de Imuno (aula 10), monitoria P3 (aula 13), provas imuno-12 e vídeo da Osmosis (tipo I).
+**Ciclo básico:** clínica lateral 1 card; sem diagnóstico, tratamento nem fármaco; doenças no alvo abaixo de 10%.

@@ -1,0 +1,146 @@
+{"op": "createDeck", "deck": "NEBLI::UC03::P3::Imunologia::Reações de hipersensibilidade", "at": "2026-10-21T19:05:16.639270+00:00"}
+{"op": "preset", "decks": ["NEBLI::UC03::P3::Imunologia::Reações de hipersensibilidade"], "at": "2026-10-21T19:05:16.939121+00:00"}
+{"op": "addNote", "key": "au-gell", "nid": 1792609516973, "at": "2026-10-21T19:05:16.988964+00:00"}
+{"op": "addNote", "key": "ak1487207248593", "nid": 1792609517602, "at": "2026-10-21T19:05:17.617583+00:00"}
+{"op": "addNote", "key": "ak1487207102783", "nid": 1792609517848, "at": "2026-10-21T19:05:17.863992+00:00"}
+{"op": "addNote", "key": "ak1487207122541", "nid": 1792609518100, "at": "2026-10-21T19:05:18.114853+00:00"}
+{"op": "addNote", "key": "ak1487207105743", "nid": 1792609518348, "at": "2026-10-21T19:05:18.363485+00:00"}
+{"op": "addNote", "key": "ak1487207112553", "nid": 1792609518598, "at": "2026-10-21T19:05:18.613686+00:00"}
+{"op": "addNote", "key": "ak1487207119666", "nid": 1792609518848, "at": "2026-10-21T19:05:18.865303+00:00"}
+{"op": "addNote", "key": "ak1487207160372", "nid": 1792609519100, "at": "2026-10-21T19:05:19.115678+00:00"}
+{"op": "addNote", "key": "ak1487207142388", "nid": 1792609519413, "at": "2026-10-21T19:05:19.434912+00:00"}
+{"op": "addNote", "key": "ak1487207145930", "nid": 1792609519674, "at": "2026-10-21T19:05:19.688615+00:00"}
+{"op": "addNote", "key": "ak1475376572176", "nid": 1792609519924, "at": "2026-10-21T19:05:19.939983+00:00"}
+{"op": "addNote", "key": "ak1487207158134", "nid": 1792609520174, "at": "2026-10-21T19:05:20.190490+00:00"}
+{"op": "addNote", "key": "ak1503089762191", "nid": 1792609520422, "at": "2026-10-21T19:05:20.439798+00:00"}
+{"op": "addNote", "key": "ak1501511684746", "nid": 1792609520675, "at": "2026-10-21T19:05:20.689420+00:00"}
+{"op": "addNote", "key": "ak1516061921946", "nid": 1792609520924, "at": "2026-10-21T19:05:20.940424+00:00"}
+{"op": "addNote", "key": "ak1487207162179", "nid": 1792609521173, "at": "2026-10-21T19:05:21.190123+00:00"}
+{"op": "addNote", "key": "ak1487207184256", "nid": 1792609521494, "at": "2026-10-21T19:05:21.512705+00:00"}
+{"op": "addNote", "key": "ak1487207216546", "nid": 1792609521745, "at": "2026-10-21T19:05:21.765546+00:00"}
+{"op": "addNote", "key": "ak1583964087768", "nid": 1792609521999, "at": "2026-10-21T19:05:22.015556+00:00"}
+{"op": "addNote", "key": "ak1474132602716", "nid": 1792609522250, "at": "2026-10-21T19:05:22.264076+00:00"}
+{"op": "addNote", "key": "ak1487207167794", "nid": 1792609522496, "at": "2026-10-21T19:05:22.515582+00:00"}
+{"op": "addNote", "key": "ak1487207194698", "nid": 1792609522847, "at": "2026-10-21T19:05:22.865729+00:00"}
+{"op": "addNote", "key": "ak1487207175248", "nid": 1792609523099, "at": "2026-10-21T19:05:23.114103+00:00"}
+{"op": "addNote", "key": "ak1487207192567", "nid": 1792609523413, "at": "2026-10-21T19:05:23.432511+00:00"}
+{"op": "addNote", "key": "ak1487815313912", "nid": 1792609523671, "at": "2026-10-21T19:05:23.690227+00:00"}
+{"op": "addNote", "key": "ak1487207218837", "nid": 1792609523921, "at": "2026-10-21T19:05:23.938851+00:00"}
+{"op": "addNote", "key": "ak1487207220752", "nid": 1792609524174, "at": "2026-10-21T19:05:24.189400+00:00"}
+{"op": "addNote", "key": "ak1487207238825", "nid": 1792609524423, "at": "2026-10-21T19:05:24.438942+00:00"}
+{"op": "addNote", "key": "ak1462326990404", "nid": 1792609524673, "at": "2026-10-21T19:05:24.690344+00:00"}
+{"op": "addNote", "key": "ak1487206917325", "nid": 1792609524924, "at": "2026-10-21T19:05:24.940273+00:00"}
+{"op": "addNote", "key": "ak1487207079363", "nid": 1792609525176, "at": "2026-10-21T19:05:25.189876+00:00"}
+{"op": "addNote", "key": "ak1473628085810", "nid": 1792609525598, "at": "2026-10-21T19:05:25.614316+00:00"}
+{"op": "addNote", "key": "ak1487207094725", "nid": 1792609525947, "at": "2026-10-21T19:05:25.964915+00:00"}
+{"op": "addNote", "key": "au-sensibil", "nid": 1792609526199, "at": "2026-10-21T19:05:26.213916+00:00"}
+{"op": "addNote", "key": "au-mediadores", "nid": 1792609526547, "at": "2026-10-21T19:05:26.565427+00:00"}
+{"op": "addNote", "key": "ak1474571583341", "nid": 1792609526900, "at": "2026-10-21T19:05:26.915146+00:00"}
+{"op": "addNote", "key": "au-th2-alergia", "nid": 1792609527150, "at": "2026-10-21T19:05:27.164525+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791629595996, "cor": "verde", "ordem": "NEBLI::ordem::im64-08", "at": "2026-10-21T19:05:28.092233+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625436408, "cor": "verde", "ordem": "NEBLI::ordem::im64-29", "at": "2026-10-21T19:05:28.241261+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625427059, "cor": "verde", "ordem": "NEBLI::ordem::im64-30", "at": "2026-10-21T19:05:28.389421+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625436533, "cor": "verde", "ordem": "NEBLI::ordem::im64-33", "at": "2026-10-21T19:05:28.539433+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625426657, "cor": "verde", "ordem": "NEBLI::ordem::im64-34", "at": "2026-10-21T19:05:28.692269+00:00"}
+{"op": "addTags-compartilhado", "nid": 1792241811997, "cor": "verde", "ordem": "NEBLI::ordem::im64-37", "at": "2026-10-21T19:05:28.841306+00:00"}
+{"op": "flag-compartilhado", "card": 1791743342083, "de": 4, "para": 3, "at": "2026-10-21T19:05:29.039997+00:00"}
+{"op": "flag-compartilhado", "card": 1791743342082, "de": 5, "para": 3, "at": "2026-10-21T19:05:29.090147+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791743342082, "cor": "verde", "ordem": "NEBLI::ordem::im64-41", "at": "2026-10-21T19:05:29.090281+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791983686483, "cor": "verde", "ordem": "NEBLI::ordem::im64-44", "at": "2026-10-21T19:05:29.305498+00:00"}
+{"op": "sync-solicitado-pelo-escrita", "at": "2026-10-21T19:05:35.614795+00:00"}
+{"op": "delta-inicio", "plano": "e7496f274485551f", "at": "2026-10-21T19:41:02.284334+00:00"}
+{"op": "addNote", "key": "au-gell", "nid": 1792611663508, "at": "2026-10-21T19:41:03.528627+00:00"}
+{"op": "ordem", "key": "ak1487207248593", "de": ["NEBLI::ordem::im64-01"], "para": "NEBLI::ordem::im64-02", "at": "2026-10-21T19:41:04.254215+00:00"}
+{"op": "ordem", "key": "ak1487207102783", "de": ["NEBLI::ordem::im64-02"], "para": "NEBLI::ordem::im64-03", "at": "2026-10-21T19:41:04.554958+00:00"}
+{"op": "ordem", "key": "ak1487207122541", "de": ["NEBLI::ordem::im64-03"], "para": "NEBLI::ordem::im64-04", "at": "2026-10-21T19:41:04.853649+00:00"}
+{"op": "ordem", "key": "ak1487207105743", "de": ["NEBLI::ordem::im64-04"], "para": "NEBLI::ordem::im64-05", "at": "2026-10-21T19:41:05.154498+00:00"}
+{"op": "ordem", "key": "ak1487207112553", "de": ["NEBLI::ordem::im64-05"], "para": "NEBLI::ordem::im64-06", "at": "2026-10-21T19:41:05.529645+00:00"}
+{"op": "ordem", "key": "ak1487207119666", "de": ["NEBLI::ordem::im64-06"], "para": "NEBLI::ordem::im64-07", "at": "2026-10-21T19:41:05.829324+00:00"}
+{"op": "ordem", "key": "ak1487207160372", "de": ["NEBLI::ordem::im64-08"], "para": "NEBLI::ordem::im64-11", "at": "2026-10-21T19:41:06.129090+00:00"}
+{"op": "ordem", "key": "ak1487207142388", "de": ["NEBLI::ordem::im64-09"], "para": "NEBLI::ordem::im64-12", "at": "2026-10-21T19:41:06.429385+00:00"}
+{"op": "ordem", "key": "ak1487207145930", "de": ["NEBLI::ordem::im64-10"], "para": "NEBLI::ordem::im64-13", "at": "2026-10-21T19:41:06.729095+00:00"}
+{"op": "ordem", "key": "ak1475376572176", "de": ["NEBLI::ordem::im64-11"], "para": "NEBLI::ordem::im64-14", "at": "2026-10-21T19:41:07.028896+00:00"}
+{"op": "ordem", "key": "ak1487207158134", "de": ["NEBLI::ordem::im64-12"], "para": "NEBLI::ordem::im64-15", "at": "2026-10-21T19:41:07.404319+00:00"}
+{"op": "ordem", "key": "ak1503089762191", "de": ["NEBLI::ordem::im64-13"], "para": "NEBLI::ordem::im64-16", "at": "2026-10-21T19:41:07.704460+00:00"}
+{"op": "ordem", "key": "ak1501511684746", "de": ["NEBLI::ordem::im64-14"], "para": "NEBLI::ordem::im64-17", "at": "2026-10-21T19:41:08.004020+00:00"}
+{"op": "ordem", "key": "ak1516061921946", "de": ["NEBLI::ordem::im64-15"], "para": "NEBLI::ordem::im64-19", "at": "2026-10-21T19:41:08.303839+00:00"}
+{"op": "ordem", "key": "ak1487207162179", "de": ["NEBLI::ordem::im64-16"], "para": "NEBLI::ordem::im64-20", "at": "2026-10-21T19:41:08.604818+00:00"}
+{"op": "addNote", "key": "au-liga-ii-iii", "nid": 1792611668787, "at": "2026-10-21T19:41:08.804214+00:00"}
+{"op": "ordem", "key": "ak1487207184256", "de": ["NEBLI::ordem::im64-17"], "para": "NEBLI::ordem::im64-22", "at": "2026-10-21T19:41:09.373213+00:00"}
+{"op": "ordem", "key": "ak1487207216546", "de": ["NEBLI::ordem::im64-18"], "para": "NEBLI::ordem::im64-23", "at": "2026-10-21T19:41:09.679451+00:00"}
+{"op": "ordem", "key": "ak1583964087768", "de": ["NEBLI::ordem::im64-19"], "para": "NEBLI::ordem::im64-24", "at": "2026-10-21T19:41:09.978916+00:00"}
+{"op": "ordem", "key": "ak1474132602716", "de": ["NEBLI::ordem::im64-20"], "para": "NEBLI::ordem::im64-25", "at": "2026-10-21T19:41:10.278594+00:00"}
+{"op": "addNote", "key": "ak1503091131993", "nid": 1792611670464, "at": "2026-10-21T19:41:10.479023+00:00"}
+{"op": "ordem", "key": "ak1487207167794", "de": ["NEBLI::ordem::im64-21"], "para": "NEBLI::ordem::im64-27", "at": "2026-10-21T19:41:10.879252+00:00"}
+{"op": "ordem", "key": "ak1487207194698", "de": ["NEBLI::ordem::im64-22"], "para": "NEBLI::ordem::im64-28", "at": "2026-10-21T19:41:11.295212+00:00"}
+{"op": "addNote", "key": "ak1487207200447", "nid": 1792611671488, "at": "2026-10-21T19:41:11.504266+00:00"}
+{"op": "ordem", "key": "ak1487207175248", "de": ["NEBLI::ordem::im64-23"], "para": "NEBLI::ordem::im64-31", "at": "2026-10-21T19:41:11.903569+00:00"}
+{"op": "ordem", "key": "ak1487207192567", "de": ["NEBLI::ordem::im64-24"], "para": "NEBLI::ordem::im64-32", "at": "2026-10-21T19:41:12.203834+00:00"}
+{"op": "addNote", "key": "ak1487207190223", "nid": 1792611672388, "at": "2026-10-21T19:41:12.403547+00:00"}
+{"op": "ordem", "key": "ak1487815313912", "de": ["NEBLI::ordem::im64-25"], "para": "NEBLI::ordem::im64-34", "at": "2026-10-21T19:41:12.804497+00:00"}
+{"op": "ordem", "key": "ak1487207218837", "de": ["NEBLI::ordem::im64-26"], "para": "NEBLI::ordem::im64-35", "at": "2026-10-21T19:41:13.103920+00:00"}
+{"op": "ordem", "key": "ak1487207220752", "de": ["NEBLI::ordem::im64-27"], "para": "NEBLI::ordem::im64-36", "at": "2026-10-21T19:41:13.477394+00:00"}
+{"op": "addNote", "key": "au-liga-iv", "nid": 1792611673662, "at": "2026-10-21T19:41:13.678889+00:00"}
+{"op": "ordem", "key": "ak1487207238825", "de": ["NEBLI::ordem::im64-30"], "para": "NEBLI::ordem::im64-40", "at": "2026-10-21T19:41:14.179020+00:00"}
+{"op": "ordem", "key": "ak1462326990404", "de": ["NEBLI::ordem::im64-31"], "para": "NEBLI::ordem::im64-41", "at": "2026-10-21T19:41:14.478616+00:00"}
+{"op": "addNote", "key": "au-dth-fases", "nid": 1792611674665, "at": "2026-10-21T19:41:14.678550+00:00"}
+{"op": "addNote", "key": "au-tempo", "nid": 1792611675163, "at": "2026-10-21T19:41:15.178512+00:00"}
+{"op": "ordem", "key": "ak1487206917325", "de": ["NEBLI::ordem::im64-34"], "para": "NEBLI::ordem::im64-50", "at": "2026-10-21T19:41:15.878807+00:00"}
+{"op": "addNote", "key": "au-liga-i", "nid": 1792611676062, "at": "2026-10-21T19:41:16.079029+00:00"}
+{"op": "ordem", "key": "ak1487207079363", "de": ["NEBLI::ordem::im64-35"], "para": "NEBLI::ordem::im64-54", "at": "2026-10-21T19:41:16.579742+00:00"}
+{"op": "ordem", "key": "ak1473628085810", "de": ["NEBLI::ordem::im64-37"], "para": "NEBLI::ordem::im64-56", "at": "2026-10-21T19:41:16.928535+00:00"}
+{"op": "ordem", "key": "ak1487207094725", "de": ["NEBLI::ordem::im64-38"], "para": "NEBLI::ordem::im64-57", "at": "2026-10-21T19:41:17.349367+00:00"}
+{"op": "ordem", "key": "au-sensibil", "de": ["NEBLI::ordem::im64-39"], "para": "NEBLI::ordem::im64-58", "at": "2026-10-21T19:41:17.654647+00:00"}
+{"op": "addNote", "key": "ak1474580620228", "nid": 1792611677886, "at": "2026-10-21T19:41:17.903062+00:00"}
+{"op": "addNote", "key": "ak1473628107938", "nid": 1792611678185, "at": "2026-10-21T19:41:18.203583+00:00"}
+{"op": "addNote", "key": "ak1473628116213", "nid": 1792611678487, "at": "2026-10-21T19:41:18.504208+00:00"}
+{"op": "ordem", "key": "au-mediadores", "de": ["NEBLI::ordem::im64-41"], "para": "NEBLI::ordem::im64-66", "at": "2026-10-21T19:41:18.903699+00:00"}
+{"op": "ordem", "key": "ak1474571583341", "de": ["NEBLI::ordem::im64-42"], "para": "NEBLI::ordem::im64-67", "at": "2026-10-21T19:41:19.320085+00:00"}
+{"op": "addNote", "key": "ak1474571606722", "nid": 1792611679511, "at": "2026-10-21T19:41:19.527031+00:00"}
+{"op": "addNote", "key": "ak1474571636173", "nid": 1792611679817, "at": "2026-10-21T19:41:19.828753+00:00"}
+{"op": "addNote", "key": "ak1473628119069", "nid": 1792611680116, "at": "2026-10-21T19:41:20.128330+00:00"}
+{"op": "ordem", "key": "au-th2-alergia", "de": ["NEBLI::ordem::im64-45"], "para": "NEBLI::ordem::im64-74", "at": "2026-10-21T19:41:20.528427+00:00"}
+{"op": "addNote", "key": "ak1473628097990", "nid": 1792611680813, "at": "2026-10-21T19:41:20.828389+00:00"}
+{"op": "addNote", "key": "ak1473628101206", "nid": 1792611681271, "at": "2026-10-21T19:41:21.294009+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791629595996", "para": "NEBLI::ordem::im64-08", "at": "2026-10-21T19:41:21.804400+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791629595447", "para": "NEBLI::ordem::im64-09", "at": "2026-10-21T19:41:21.904096+00:00"}
+{"op": "associa-compartilhado", "nid": "1791629595447", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::verde"], "at": "2026-10-21T19:41:21.954654+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791667094087", "para": "NEBLI::ordem::im64-10", "at": "2026-10-21T19:41:22.204460+00:00"}
+{"op": "associa-compartilhado", "nid": "1791667094087", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::azul"], "at": "2026-10-21T19:41:22.254223+00:00"}
+{"op": "ordem-compartilhado", "nid": "1792166976595", "para": "NEBLI::ordem::im64-18", "at": "2026-10-21T19:41:22.453796+00:00"}
+{"op": "associa-compartilhado", "nid": "1792166976595", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::verde"], "at": "2026-10-21T19:41:22.504162+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791667097538", "para": "NEBLI::ordem::im64-29", "at": "2026-10-21T19:41:22.704079+00:00"}
+{"op": "associa-compartilhado", "nid": "1791667097538", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::azul"], "at": "2026-10-21T19:41:22.754149+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791625436408", "para": "NEBLI::ordem::im64-37", "at": "2026-10-21T19:41:23.004126+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791625427059", "para": "NEBLI::ordem::im64-38", "at": "2026-10-21T19:41:23.153445+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791625425478", "para": "NEBLI::ordem::im64-42", "at": "2026-10-21T19:41:23.319658+00:00"}
+{"op": "associa-compartilhado", "nid": "1791625425478", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::verde"], "at": "2026-10-21T19:41:23.371611+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791625422657", "para": "NEBLI::ordem::im64-43", "at": "2026-10-21T19:41:23.578517+00:00"}
+{"op": "associa-compartilhado", "nid": "1791625422657", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::verde"], "at": "2026-10-21T19:41:23.629214+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791625430208", "para": "NEBLI::ordem::im64-44", "at": "2026-10-21T19:41:23.829472+00:00"}
+{"op": "associa-compartilhado", "nid": "1791625430208", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::verde"], "at": "2026-10-21T19:41:23.879154+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791625436658", "para": "NEBLI::ordem::im64-46", "at": "2026-10-21T19:41:24.079134+00:00"}
+{"op": "associa-compartilhado", "nid": "1791625436658", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::verde"], "at": "2026-10-21T19:41:24.128299+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791625436533", "para": "NEBLI::ordem::im64-47", "at": "2026-10-21T19:41:24.378442+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791625426657", "para": "NEBLI::ordem::im64-49", "at": "2026-10-21T19:41:24.528886+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791625429957", "para": "NEBLI::ordem::im64-51", "at": "2026-10-21T19:41:24.629672+00:00"}
+{"op": "associa-compartilhado", "nid": "1791625429957", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::verde"], "at": "2026-10-21T19:41:24.678587+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791625430882", "para": "NEBLI::ordem::im64-52", "at": "2026-10-21T19:41:24.879011+00:00"}
+{"op": "associa-compartilhado", "nid": "1791625430882", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::verde"], "at": "2026-10-21T19:41:24.929316+00:00"}
+{"op": "ordem-compartilhado", "nid": "1792241811997", "para": "NEBLI::ordem::im64-55", "at": "2026-10-21T19:41:25.178500+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791625432133", "para": "NEBLI::ordem::im64-59", "at": "2026-10-21T19:41:25.347073+00:00"}
+{"op": "associa-compartilhado", "nid": "1791625432133", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::verde"], "at": "2026-10-21T19:41:25.399335+00:00"}
+{"op": "ordem-compartilhado", "nid": "1792241808513", "para": "NEBLI::ordem::im64-60", "at": "2026-10-21T19:41:25.602974+00:00"}
+{"op": "associa-compartilhado", "nid": "1792241808513", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::verde"], "at": "2026-10-21T19:41:25.653562+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791743342082", "para": "NEBLI::ordem::im64-62", "at": "2026-10-21T19:41:26.004743+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791629596497", "para": "NEBLI::ordem::im64-63", "at": "2026-10-21T19:41:26.103432+00:00"}
+{"op": "associa-compartilhado", "nid": "1791629596497", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::verde"], "at": "2026-10-21T19:41:26.156897+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791169089858", "para": "NEBLI::ordem::im64-68", "at": "2026-10-21T19:41:26.354097+00:00"}
+{"op": "associa-compartilhado", "nid": "1791169089858", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::verde"], "at": "2026-10-21T19:41:26.403981+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791983686483", "para": "NEBLI::ordem::im64-71", "at": "2026-10-21T19:41:26.653807+00:00"}
+{"op": "ordem-compartilhado", "nid": "1791780353397", "para": "NEBLI::ordem::im64-73", "at": "2026-10-21T19:41:26.754867+00:00"}
+{"op": "associa-compartilhado", "nid": "1791780353397", "tags": ["NEBLI::2026-uc03-imunologia-64-hipersensibilidade", "NEBLI::compartilhado::im64", "NEBLI::cor::2026-uc03-imunologia-64-hipersensibilidade::verde"], "at": "2026-10-21T19:41:26.804242+00:00"}
+{"op": "delta-fim", "cards": 72, "problemas": 1, "at": "2026-10-21T19:41:32.631334+00:00"}
+{"op": "delta-inicio", "plano": "e7496f274485551f", "at": "2026-10-21T19:42:41.983859+00:00"}
+{"op": "cor", "key": "ak1487207160372", "ord": 0, "de": 0, "para": 3, "at": "2026-10-21T19:42:45.704300+00:00"}
+{"op": "delta-fim", "cards": 72, "problemas": 0, "at": "2026-10-21T19:43:03.764332+00:00"}
