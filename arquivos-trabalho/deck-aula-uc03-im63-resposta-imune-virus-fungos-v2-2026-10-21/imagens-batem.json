@@ -1,0 +1,18 @@
+{
+ "ak1503254160003": {
+  "veredito": "ok",
+  "porque": "Esquema da formação do granuloma (IL-12, Th1, IFN-γ, macrófago ativado, TNF); bate com o cloze TNF-α como necessário ao granuloma."
+ },
+ "ak1516321589458": {
+  "veredito": "ok",
+  "porque": "Esquema de deriva e virada antigênicas com hemaglutinina e neuraminidase nos vírions; bate com o cloze HA e NA."
+ },
+ "ak1516322271299": {
+  "veredito": "ok",
+  "porque": "O mesmo esquema, com deriva (a) e virada (b) rotuladas; bate com o cloze drift ou shift."
+ },
+ "ak1516322855117": {
+  "veredito": "ok",
+  "porque": "Painel (a) do esquema mostra a hemaglutinina mutada na deriva; bate com o cloze point mutations."
+ }
+}

@@ -157,6 +157,7 @@ for _k, _v in DUPLICACAO.items():
     if _c:
         _c["duplicacao_ok"] = _v
 IMAGENS_VISTAS = {}
+STRIP_IMG = {"ak1487207112553": ["eda572d34c6bfaad40792f9033512cb1.png"], "ak1487207220752": ["075aa85beb288f3ca73ad0a7a5517a33.png"], "ak1516062859864": ["ea7e85830a08ecdce8884c2055cfe823.webp"], "ak1516062099732": ["ea7e85830a08ecdce8884c2055cfe823.webp"]}  # figuras que não batem com o cloze do card
 REVISAO = {}
 ESCOPO = {
     "objetivo": "Distinguir os quatro tipos de hipersensibilidade de Gell e Coombs pelo mecanismo imunológico e reconhecer os exemplos que a aula nomeia.",

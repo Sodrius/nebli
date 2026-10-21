@@ -1,0 +1,126 @@
+{
+ "ak1502066766747": {
+  "veredito": "ok",
+  "porque": "Esquema do ciclo do HIV em célula hospedeira (gp120, CD4 e correceptor, transcrição reversa, integração) e animação da célula com o vírion; bate com o cloze sobre a proteína e a entrada do HIV."
+ },
+ "ak1506805847290": {
+  "veredito": "ok",
+  "porque": "Animação da célula com o vírion e a estrutura do HIV rotulando gp120 e gp41 do complexo env; bate com o cloze gp120."
+ },
+ "ak1502068331161": {
+  "veredito": "ok",
+  "porque": "Animação do vírion HIV chegando à célula e esquema do ciclo com CD4 e correceptor CCR5 ou CXCR4; bate com o cloze de macrófagos e CCR5."
+ },
+ "ak1502068440036": {
+  "veredito": "ok",
+  "porque": "Esquema do ciclo do HIV com os correceptores CCR5 e CXCR4 e animação da célula; bate com o cloze de linfócitos T e CXCR4."
+ },
+ "ak1502066667272": {
+  "veredito": "ok",
+  "porque": "Esquema do ciclo do HIV e animação de fusão do envelope na célula; bate com o cloze de gp41 na fusão."
+ },
+ "ak1483913062659": {
+  "veredito": "ok",
+  "porque": "Mapa das famílias de vírus de RNA (negativo e positivo, nus e envelopados), com Orthomyxoviridae e Retroviridae; bate com o cloze das exceções de replicação."
+ },
+ "ak1502069441823": {
+  "veredito": "ok",
+  "porque": "Animação do vírion e do DNA viral sendo integrado ao DNA da célula; bate com o cloze transcriptase reversa e integrase."
+ },
+ "ak1516321532745": {
+  "veredito": "ok",
+  "porque": "Mapa das famílias de vírus de RNA com as famílias segmentadas marcadas; ajuda o mnemônico BOAR do cloze."
+ },
+ "ak1516323064948": {
+  "veredito": "ok",
+  "porque": "Esquema de deriva e virada antigênicas com reassortment entre vírus A e B; bate com o cloze shift."
+ },
+ "ak1502570605009": {
+  "veredito": "ok",
+  "porque": "Corte histológico de epitélio com inclusões citoplasmáticas eosinofílicas do poxvírus; bate com o cloze Guarnieri."
+ },
+ "ak1516475620459": {
+  "veredito": "ok",
+  "porque": "Fotos de neurônio com corpo de Negri citoplasmático eosinofílico; bate com o cloze da raiva."
+ },
+ "ak1516475827100": {
+  "veredito": "ok",
+  "porque": "Cortes com inclusões nucleares eosinofílicas e halo claro de herpesvírus; bate com o cloze Cowdry."
+ },
+ "ak1506806715774": {
+  "veredito": "ok",
+  "porque": "Animação da célula com o vírion e esquema com os inibidores de fusão marcados; bate com o cloze da enfuvirtida."
+ },
+ "ak1506806433678": {
+  "veredito": "ok",
+  "porque": "Animação da célula e esquema com o antagonista de CCR5 (maraviroque) marcado; bate com o cloze."
+ },
+ "ak1467683788745": {
+  "veredito": "ok",
+  "porque": "Estrutura de nucleosídeo, monofosfato, difosfato e trifosfato (base, pentose, fosfatos); bate com o cloze nucleosídeo."
+ },
+ "ak1467683795991": {
+  "veredito": "ok",
+  "porque": "A mesma estrutura mostrando o nucleotídeo como base mais açúcar mais fosfato; bate com o cloze nucleotídeo."
+ },
+ "ak1506784777103": {
+  "veredito": "ok",
+  "porque": "Esquema do ciclo do HIV com a transcrição reversa e os inibidores marcados e animação do vírion; bate com o cloze dos inibidores da transcriptase reversa."
+ },
+ "ak1506784318198": {
+  "veredito": "ok",
+  "porque": "Esquema do ciclo do HIV com as classes de antivirais marcadas em cada etapa (fusão, CCR5, NRTI, NNRTI, integrase, protease); bate com o cloze da classe de fármaco."
+ },
+ "ak1506785118508": {
+  "veredito": "ok",
+  "porque": "Esquema do ciclo do HIV com as classes de antivirais marcadas em cada etapa (fusão, CCR5, NRTI, NNRTI, integrase, protease); bate com o cloze da classe de fármaco."
+ },
+ "ak1506784353867": {
+  "veredito": "ok",
+  "porque": "Animação do DNA viral em síntese e esquema das classes de antivirais; bate com a terminação de cadeia dos NRTIs."
+ },
+ "ak1506784514467": {
+  "veredito": "ok",
+  "porque": "Esquema do ciclo do HIV com as classes de antivirais marcadas em cada etapa (fusão, CCR5, NRTI, NNRTI, integrase, protease); bate com o cloze da classe de fármaco."
+ },
+ "ak1506789392960": {
+  "veredito": "ok",
+  "porque": "Esquema do ciclo do HIV com as classes de antivirais marcadas em cada etapa (fusão, CCR5, NRTI, NNRTI, integrase, protease); bate com o cloze da classe de fármaco."
+ },
+ "ak1506789263570": {
+  "veredito": "ok",
+  "porque": "Esquema do ciclo do HIV com as classes de antivirais marcadas em cada etapa (fusão, CCR5, NRTI, NNRTI, integrase, protease); bate com o cloze da classe de fármaco."
+ },
+ "ak1461797689978": {
+  "veredito": "ok",
+  "porque": "Tabela dos antivirais de ação direta da hepatite C, com a polimerase NS5B e o sofosbuvir; bate com o cloze."
+ },
+ "ak1506807161520": {
+  "veredito": "ok",
+  "porque": "Animação do DNA viral próximo ao DNA da célula, etapa da integração; bate com o cloze integrase."
+ },
+ "ak1506807835841": {
+  "veredito": "ok",
+  "porque": "A mesma animação do DNA viral e esquema com os inibidores de integrase marcados; bate com o cloze."
+ },
+ "ak1502070156173": {
+  "veredito": "ok",
+  "porque": "Esquema com os inibidores de protease marcados e animação da protease cortando a poliproteína; bate com o cloze."
+ },
+ "ak1506795652147": {
+  "veredito": "ok",
+  "porque": "Animação da protease na poliproteína e esquema com os inibidores de protease; bate com o cloze."
+ },
+ "ak1506631004332": {
+  "veredito": "ok",
+  "porque": "Tabela dos antivirais da hepatite C com inibidores de protease NS3/4A e de polimerase NS5B; bate com o cloze."
+ },
+ "ak1506783017772": {
+  "veredito": "ok",
+  "porque": "Esquema do ciclo do HIV com as classes de antivirais marcadas em cada etapa (fusão, CCR5, NRTI, NNRTI, integrase, protease); bate com o cloze da classe de fármaco."
+ },
+ "ak1506783163535": {
+  "veredito": "ok",
+  "porque": "Esquema do ciclo do HIV com as classes de antivirais marcadas em cada etapa (fusão, CCR5, NRTI, NNRTI, integrase, protease); bate com o cloze da classe de fármaco."
+ }
+}

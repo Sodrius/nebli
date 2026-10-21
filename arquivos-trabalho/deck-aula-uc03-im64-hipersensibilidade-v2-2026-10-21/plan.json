@@ -1528,7 +1528,7 @@
    ],
    "fields": {
     "Text": "<div><u>Type II HSRs</u> can cause pathology by inducing {{c1::cellular dysfunction}}, causing <i>abnormal</i><b> blockade</b> or <b>activation/inactivation</b> of downstream cellular processes</div>",
-    "Extra": "<div>- e.g., myasthenia gravis, Graves disease, pemphigus vulgaris</div><br><div>- In <b>pemphigus vulgaris</b>, autoantibodies against desmoglein-1 (αDsg1) / -3 (αDsg3) <b>inactivate </b>these proteins, resulting in <u>loss of cell-cell adhesion</u> </div><br><div><img src=\"a80f3b267d2602619a54f6b55ec55750.webp\" width=\"800px\"><br></div><br><img src=\"eda572d34c6bfaad40792f9033512cb1.png\">",
+    "Extra": "<div>- e.g., myasthenia gravis, Graves disease, pemphigus vulgaris</div><br><div>- In <b>pemphigus vulgaris</b>, autoantibodies against desmoglein-1 (αDsg1) / -3 (αDsg3) <b>inactivate </b>these proteins, resulting in <u>loss of cell-cell adhesion</u> </div><br><div><img src=\"a80f3b267d2602619a54f6b55ec55750.webp\" width=\"800px\"><br></div><br>",
     "Lecture Notes": "",
     "Missed Questions": "",
     "Pathoma": "",
@@ -1548,7 +1548,7 @@
     "NEBLI_Resposta": "",
     "ankihub_id": ""
    },
-   "fields_hash": "d201725e76d1a018",
+   "fields_hash": "4a6d3b4e5e800ae5",
    "cards": [
     {
      "n": 1,
@@ -1790,7 +1790,7 @@
    ],
    "fields": {
     "Text": "Will <b>Rh hemolytic disease of the newborn</b> occur on the first pregnancy?<br><br><div>{{c1::No}}</div>",
-    "Extra": "Rh+ antibodies must develop in the Rh- mother<br><br><img src=\"ea7e85830a08ecdce8884c2055cfe823.webp\" width=\"900px\"><br><br>- In the second Rh+ pregnancy, maternal IgG anti-Rh crosses the placenta and attacks fetal red cells",
+    "Extra": "Rh+ antibodies must develop in the Rh- mother<br><br><br><br>- In the second Rh+ pregnancy, maternal IgG anti-Rh crosses the placenta and attacks fetal red cells",
     "Lecture Notes": "",
     "Missed Questions": "",
     "Pathoma": "",
@@ -1810,7 +1810,7 @@
     "NEBLI_Resposta": "",
     "ankihub_id": ""
    },
-   "fields_hash": "31863233539bf734",
+   "fields_hash": "1368dfb4ac12c064",
    "cards": [
     {
      "n": 1,
@@ -1878,7 +1878,7 @@
    ],
    "fields": {
     "Text": "Assuming <i>RhoGAM</i> is not given, the first time an <b>Rh-</b> <u>mother</u> delivers an <b>Rh+</b> <u>fetus</u>, the mother will form what substance?<br><br><div>{{c1::<img src=\"ec84f6c4f2d1afb8ee5c02a1663e3fdd.png\" width=\"200\">}}</div>",
-    "Extra": "- Exposure to fetal blood (often during delivery) initially results in the formation of maternal anti-D IgM antibodies which then seroconvert into anti-D IgG antibodies<br><br><div>- Subsquent pregnancies with Rh+ babies will be affected as <u>anti-D IgG can cross the placenta</u></div><br><div><img src=\"ea7e85830a08ecdce8884c2055cfe823.webp\" width=\"900px\"><br></div><br><br>- At delivery fetal blood reaches the mother, who makes anti-Rh antibodies and memory cells",
+    "Extra": "- Exposure to fetal blood (often during delivery) initially results in the formation of maternal anti-D IgM antibodies which then seroconvert into anti-D IgG antibodies<br><br><div>- Subsquent pregnancies with Rh+ babies will be affected as <u>anti-D IgG can cross the placenta</u></div><br><div><br></div><br><br>- At delivery fetal blood reaches the mother, who makes anti-Rh antibodies and memory cells",
     "Lecture Notes": "",
     "Missed Questions": "",
     "Pathoma": "",
@@ -1898,7 +1898,7 @@
     "NEBLI_Resposta": "",
     "ankihub_id": ""
    },
-   "fields_hash": "cb48e273854e1337",
+   "fields_hash": "16667af64d3b4e10",
    "cards": [
     {
      "n": 1,
@@ -2804,7 +2804,7 @@
    ],
    "fields": {
     "Text": "<div><b>Type </b>{{c2::<b>IV</b>}}<b> HSRs</b> may occur via <u>direct cell cytotoxicity</u>, which involves <b>CD8<sup>+</sup> T cells </b></div>",
-    "Extra": "<img src=\"a80f3b267d2602619a54f6b55ec55750.webp\" width=\"800px\"><br><br><img src=\"075aa85beb288f3ca73ad0a7a5517a33.png\"><br><br>- CD8 T cells kill the target cell directly",
+    "Extra": "<img src=\"a80f3b267d2602619a54f6b55ec55750.webp\" width=\"800px\"><br><br><br><br>- CD8 T cells kill the target cell directly",
     "Lecture Notes": "",
     "Missed Questions": "",
     "Pathoma": "",
@@ -2824,7 +2824,7 @@
     "NEBLI_Resposta": "",
     "ankihub_id": ""
    },
-   "fields_hash": "265f2dccb7c02cf3",
+   "fields_hash": "0e02e54d585cdb3b",
    "cards": [
     {
      "n": 2,
@@ -3290,5 +3290,5 @@
   "compartilhados_associados": 16,
   "creditos_removidos": 6
  },
- "selection_hash": "b266fba379585ed8"
+ "selection_hash": "19f18d7043ac7c8b"
 }

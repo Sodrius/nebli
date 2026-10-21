@@ -1,0 +1,66 @@
+{
+ "ak1503861947945": {
+  "veredito": "ok",
+  "porque": "Frente: corte de tecido com célula grande e inclusão nuclear basofílica com halo claro (olho de coruja); o verso rotula inclusão, halo e núcleo. Bate com o cloze 'owl's eye'."
+ },
+ "ak1506290563519": {
+  "veredito": "ok",
+  "porque": "Esfregaço com célula gigante multinucleada de núcleos moldados, que é o achado do cloze Tzanck/multinucleated giant cells."
+ },
+ "ak1506299172244": {
+  "veredito": "ok",
+  "porque": "Corte linfoide com célula gigante multinucleada em destaque; é a célula de Warthin-Finkeldey do cloze, no sarampo."
+ },
+ "ak1468605640090": {
+  "veredito": "ok",
+  "porque": "Esquema em 3 passos do ELISA (antígeno, anticorpo-enzima, reação de cor); bate com a definição do cloze."
+ },
+ "ak1468549297186": {
+  "veredito": "ok",
+  "porque": "Esquema de Southern blot com gel, membrana e sonda marcada; ilustra a sonda do cloze."
+ },
+ "ak1468605428299": {
+  "veredito": "ok",
+  "porque": "Animação de PCR no frame de desnaturação (90–95 °C) e ciclo de 4 passos; bate com o primeiro passo do cloze."
+ },
+ "ak1468605437554": {
+  "veredito": "ok",
+  "porque": "Animação no frame de anelamento (50–60 °C) e ciclo; bate com o segundo passo, primers anelando."
+ },
+ "ak1468605447110": {
+  "veredito": "ok",
+  "porque": "Animação no frame de alongamento com a polimerase e ciclo; bate com o passo final, Taq alongando."
+ },
+ "ak1468605460088": {
+  "veredito": "ok",
+  "porque": "Frame de anelamento e ciclo com primer 1 e primer 2; mostra os dois primers do cloze."
+ },
+ "ak1468605476084": {
+  "veredito": "ok",
+  "porque": "Frame de anelamento e ciclo com primers de DNA; ilustra o tipo de primer do cloze."
+ },
+ "ak1468605486456": {
+  "veredito": "ok",
+  "porque": "Ciclo de PCR com primers anelando e a polimerase estendendo a partir do extremo 3'; ilustra o cloze 3' end."
+ },
+ "ak1468605494779": {
+  "veredito": "ok",
+  "porque": "Frame de alongamento e molécula de dNTP (três fosfatos, açúcar, base); bate com os quatro dNTPs do cloze."
+ },
+ "ak1468605422972": {
+  "veredito": "ok",
+  "porque": "Frame de ciclos de PCR com a contagem de cópias e esquema dos ciclos; ilustra a amplificação do cloze."
+ },
+ "ak1468549222931": {
+  "veredito": "ok",
+  "porque": "Gel com marcador e curva distância × tamanho do fragmento; bate com 'separa por tamanho'. A segunda figura (eletroforese de hemoglobina, por carga) foi retirada por não bater com o card."
+ },
+ "ak1468549231401": {
+  "veredito": "ok",
+  "porque": "Quadro Southern, Northern e Western com sonda por tipo de molécula; bate com o cloze 'o probe define o que é detectado'."
+ },
+ "ak1506535107169": {
+  "veredito": "ok",
+  "porque": "Fluxograma de diagnóstico do HIV com imunoensaio de diferenciação como teste confirmatório; bate com o cloze."
+ }
+}

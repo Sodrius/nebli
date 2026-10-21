@@ -158,6 +158,7 @@ for _k, _v in DUPLICACAO.items():
     if _c:
         _c["duplicacao_ok"] = _v
 IMAGENS_VISTAS = {}
+STRIP_IMG = {"ak1468549222931": ["ece3397fa60cc33547c289651dedcfa0.webp"]}  # eletroforese de hemoglobina: tema de outra aula, não bate com o card
 REVISAO = {}
 ESCOPO = {
     "objetivo": "Reconhecer os métodos de estudo e diagnóstico de vírus: o que cada um detecta, para que serve e que limite tem.",

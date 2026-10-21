@@ -38,3 +38,6 @@
 {"op": "addTags-compartilhado", "nid": 1791984889104, "cor": "verde", "ordem": "NEBLI::ordem::mb60-12", "at": "2026-10-21T21:07:03.968074+00:00"}
 {"op": "addTags-compartilhado", "nid": 1792044821879, "cor": "verde", "ordem": "NEBLI::ordem::mb60-18", "at": "2026-10-21T21:07:04.118914+00:00"}
 {"op": "sync-solicitado-pelo-escrita", "at": "2026-10-21T21:07:10.443659+00:00"}
+{"op": "delta-inicio", "plano": "c0d13406b8284cbb", "at": "2026-10-21T22:04:24.582576+00:00"}
+{"op": "campos", "key": "ak1468549222931", "campos": ["Extra"], "at": "2026-10-21T22:04:34.203399+00:00"}
+{"op": "delta-fim", "cards": 50, "problemas": 0, "at": "2026-10-21T22:04:39.236510+00:00"}

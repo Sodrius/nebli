@@ -50,3 +50,9 @@
 {"op": "addTags-compartilhado", "nid": 1791625436533, "cor": "verde", "ordem": "NEBLI::ordem::im64-47", "at": "2026-10-21T21:11:42.815496+00:00"}
 {"op": "addTags-compartilhado", "nid": 1791625429957, "cor": "verde", "ordem": "NEBLI::ordem::im64-48", "at": "2026-10-21T21:11:42.966940+00:00"}
 {"op": "sync-solicitado-pelo-escrita", "at": "2026-10-21T21:11:48.140051+00:00"}
+{"op": "delta-inicio", "plano": "19f18d7043ac7c8b", "at": "2026-10-21T22:06:40.307815+00:00"}
+{"op": "campos", "key": "ak1487207112553", "campos": ["Extra"], "at": "2026-10-21T22:06:46.951325+00:00"}
+{"op": "campos", "key": "ak1516062859864", "campos": ["Extra"], "at": "2026-10-21T22:06:48.145265+00:00"}
+{"op": "campos", "key": "ak1516062099732", "campos": ["Extra"], "at": "2026-10-21T22:06:48.639701+00:00"}
+{"op": "campos", "key": "ak1487207220752", "campos": ["Extra"], "at": "2026-10-21T22:06:52.127577+00:00"}
+{"op": "delta-fim", "cards": 49, "problemas": 0, "at": "2026-10-21T22:06:56.933295+00:00"}

@@ -2330,7 +2330,7 @@
    ],
    "fields": {
     "Text": "<div><div><b>Gel electrophoresis </b>separates fragments on the basis of {{c1::size}} </div></div>",
-    "Extra": "All DNA/RNA/protein fragments used are negatively charged<br><br><img alt=\"File:Gel Electrophoresis.svg\" src=\"862286cbf5012e33f51d340c2e19136f.webp\" style=\"background-color: white;\"><img src=\"ece3397fa60cc33547c289651dedcfa0.webp\" width=\"650px\"><br><br>- Proteins and nucleic acids are separated by size before transfer to the membrane",
+    "Extra": "All DNA/RNA/protein fragments used are negatively charged<br><br><img alt=\"File:Gel Electrophoresis.svg\" src=\"862286cbf5012e33f51d340c2e19136f.webp\" style=\"background-color: white;\"><br><br>- Proteins and nucleic acids are separated by size before transfer to the membrane",
     "Lecture Notes": "",
     "Missed Questions": "",
     "Pathoma": "",
@@ -2350,7 +2350,7 @@
     "NEBLI_Resposta": "",
     "ankihub_id": ""
    },
-   "fields_hash": "321a1ab403f2032c",
+   "fields_hash": "5962a77f237265ed",
    "cards": [
     {
      "n": 1,
@@ -2802,5 +2802,5 @@
   "compartilhados_associados": 4,
   "creditos_removidos": 16
  },
- "selection_hash": "dcc565e0491a839e"
+ "selection_hash": "c0d13406b8284cbb"
 }

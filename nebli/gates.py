@@ -620,6 +620,16 @@ def images_checked(plan):
             ("figura de livro recortada, só a imagem (sem título nem legenda ao lado)" + (f": {sorted(raw)[:3]}" if raw else ""), not raw)]
 
 
+def imagens_batem(run, plan):
+    """F-20261022-CLAUDE-01: a imagem de cada card bate com a pergunta/cloze dele? Toda imagem de card (AnKing, externa ou da
+    aula) é vista em visual/imagens-cards-NN.png (nebli.imagens_cards folha) e julgada em imagens-batem.json."""
+    from nebli import imagens_cards
+    falta, v = imagens_cards.pendentes(run, plan)
+    ruins = [k for k, x in v.items() if isinstance(x, dict) and x.get("veredito") in ("trocar", "retirar")]
+    return [(f"[duro] imagem de cada card confere com a pergunta/cloze (imagens-batem.json)" +
+             (f": faltam {len(falta)} ({falta[:3]})" if falta else "") + (f"; a trocar {ruins[:3]}" if ruins else ""), not falta and not ruins)]
+
+
 def plan_checks(run, plan):
     from nebli import lint_cards
     out = []
@@ -642,6 +652,7 @@ def plan_checks(run, plan):
         out += escopo_basico(run, plan)  # F-20261021-CLAUDE-01
         out += linha_e_provas(run, plan)  # F-20261021-CLAUDE-02
         out += exemplares_lidos(run)  # F-20261021-CLAUDE-06
+        out += imagens_batem(run, plan)  # F-20261022-CLAUDE-01
     else:
         out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
     if "biologia-tecidual" in plan.get("lesson_id", ""):  # F-20261003-CLAUDE-13: aprender, não visualizar em excesso

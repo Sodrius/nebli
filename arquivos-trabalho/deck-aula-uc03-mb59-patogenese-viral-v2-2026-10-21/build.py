@@ -83,6 +83,8 @@ def build():
                 if base.get("Header", "").strip() and "Header" not in tf:  # 16/10: AnatoKing põe pergunta e imagem no Header; o modelo NEBLI não tem o campo
                     fields["Text"] = base["Header"] + "<br><br>" + fields["Text"]
                 fields["Extra"], removed = strip_credit(WHITE.sub("", KHAN.sub("", base.get("Extra", ""))))
+                for _f in getattr(spec, "STRIP_IMG", {}).get(c["key"], []):  # F-20261022-CLAUDE-01: imagem do Extra que não bate com o card
+                    fields["Extra"] = re.sub(r'<img[^>]*src="%s"[^>]*>' % re.escape(_f), "", fields["Extra"])
                 if c.get("uncloze"): fields["Text"] = uncloze(fields["Text"], set(c["uncloze"]))
                 if c.get("manter"):  # nota original do acervo: só os clozes do plano ficam (F-20261003-CLAUDE-13)
                     fields["Text"] = uncloze(fields["Text"], set(clozes(fields["Text"])) - set(c["flags"]))

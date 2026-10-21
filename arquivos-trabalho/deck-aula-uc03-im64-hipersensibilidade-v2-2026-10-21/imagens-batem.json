@@ -1,0 +1,70 @@
+{
+ "ak1487207248593": {
+  "veredito": "ok",
+  "porque": "O quadro dos quatro tipos mostra IgE, IgG/IgM e imunocomplexo como mediados por anticorpo e T no tipo IV; as figuras de mastócito, tipo II e tipo III também batem com o cloze I, II e III."
+ },
+ "ak1487206917325": {
+  "veredito": "ok",
+  "porque": "Quadro dos quatro tipos com o tipo I (IgE em mastócitos e basófilos) em destaque; bate com o cloze Type I."
+ },
+ "ak1487207102783": {
+  "veredito": "ok",
+  "porque": "Quadro dos quatro tipos com o tipo II (anticorpo contra antígeno de superfície celular); bate com o cloze Type II."
+ },
+ "ak1487207122541": {
+  "veredito": "ok",
+  "porque": "Quadro dos quatro tipos mostrando IgG ou IgM como mediador do tipo II; bate com o cloze IgM and IgG."
+ },
+ "ak1487207105743": {
+  "veredito": "ok",
+  "porque": "Quadro dos quatro tipos com destruição por opsonização no tipo II; bate com o cloze cellular destruction."
+ },
+ "ak1487207119666": {
+  "veredito": "ok",
+  "porque": "Quadro do tipo II com ativação do complemento e figura de anticorpo, complemento e célula alvo; bate com o cloze inflammation."
+ },
+ "ak1487207112553": {
+  "veredito": "ok",
+  "porque": "Quadro dos quatro tipos bate com a disfunção celular do tipo II; a figura de NK e complemento (destruição, não disfunção) foi retirada."
+ },
+ "ak1462038209306": {
+  "veredito": "ok",
+  "porque": "Esquema de Graves: autoanticorpo anti-TSHR estimula a tireoide, exoftalmia e bócio; bate com o cloze de estimulação da secreção de T3 e T4."
+ },
+ "ak1489972384117": {
+  "veredito": "ok",
+  "porque": "Linha do tempo das reações transfusionais com a hemolítica aguda (ABO) em segundos a 1 hora; bate com o cloze AHTR."
+ },
+ "ak1516062859864": {
+  "veredito": "ok",
+  "porque": "A figura de manejo da aloimunização Rh foi retirada por tratar de conduta e não da primeira gravidez; o card fica sem imagem."
+ },
+ "ak1516062099732": {
+  "veredito": "ok",
+  "porque": "Frente com a imagem do anticorpo Anti-D IgG, que é a resposta do cloze; a figura de manejo no verso foi retirada."
+ },
+ "ak1487207162179": {
+  "veredito": "ok",
+  "porque": "Quadro dos quatro tipos com o tipo III (imunocomplexos IgG-antígeno); bate com o cloze Type III."
+ },
+ "ak1487207167794": {
+  "veredito": "ok",
+  "porque": "Esquema do imunocomplexo depositado no tecido com neutrófilo e enzimas lisossômicas, e quadro do tipo III; bate com complemento e neutrófilos."
+ },
+ "ak1487207194698": {
+  "veredito": "ok",
+  "porque": "Quadro dos quatro tipos com o tipo III (reação de Arthus é de imunocomplexo); bate com o cloze."
+ },
+ "ak1487207218837": {
+  "veredito": "ok",
+  "porque": "Quadro dos quatro tipos com o tipo IV mediado por células T; bate com o cloze Type IV."
+ },
+ "ak1487207238825": {
+  "veredito": "ok",
+  "porque": "Fotografias de dermatite de contato alérgica (vesículas lineares e eritema) e quadro dos tipos com contact dermatitis no tipo IV; bate com o cloze."
+ },
+ "ak1487207220752": {
+  "veredito": "ok",
+  "porque": "Quadro dos quatro tipos com o tipo IV por linfócitos T citotóxicos; a figura do tipo IV mediado por CD4 foi retirada por não ilustrar a citotoxicidade por CD8."
+ }
+}
