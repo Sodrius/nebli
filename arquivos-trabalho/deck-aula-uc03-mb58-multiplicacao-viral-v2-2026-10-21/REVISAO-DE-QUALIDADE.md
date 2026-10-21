@@ -1,0 +1,9 @@
+# 2026-uc03-microbiologia-58-multiplicacao-viral-antivirais — v2 (pipeline AnKing-primeiro v4), instalada 21/10 (Claude)
+
+**Deck:** `NEBLI::UC03::P3::Microbiologia::Multiplicação viral e antivirais`; 258 cards novos (196 notas: 147 de AnKing/192 cards, 49 autorais/66 cards) + 26 notas compartilhadas das aulas 57, 61 e 51. Verde 136 · azul 93 · rosa 29. Instalada **suspensa** (pedido de Davi em 21/10). Sem Tab.
+**Fontes:** 242 lâminas (Multiplicação viral Ia 1–92, Antivirais 93–178, Replicação viral II 179–242), apostila UC3 e apostila guia de Micro (aula 13), monitoria P3 (aulas 14 e 15), provas (micro-14), Jawetz caps. 29–30 e as transcrições Ia e Ib. A Transcrição Ib traz 31 páginas de efeito citopático (“estudo dirigido para a aula prática”) que não estão nas lâminas: ficam para a aula 60 Prática de virologia; entram só o conceito (cópia da 61) e a lise do poliovírus da lâmina 238.
+**Origens:** AnKing (replicação e genética viral, receptores, antivirais de Bootcamp 39 e B&B); autoral só para o que a aula ensina e o AnKing não tem (etapas, primers e extremidade 5′, antígeno T, E1/E2, proteína iniciadora do adenovírus, círculo rolante, inclusões, antivirais por classe). Autoral 25,6% com AUTORAL_EXCECAO.
+**Fora do deck, com motivo:** 133 notas das seções declaradas (efeitos adversos, indicação clínica, oncogênese viral, genética viral além do reordenamento, estrutura do poxvírus que já está na 57); estruturas químicas, tabelas de fármacos e gráficos de desenvolvimento (FORA_DO_RECORTE).
+**Divergência de fonte:** a apostila guia diz que o foscarnet “se parece com um aminoácido”; o card do AnKing e o livro dizem que é análogo do pirofosfato, e o card segue esta formulação.
+**Lido no deck instalado:** despejo inteiro lido (196 notas). Corrigido: metatexto “lâmina N” nos versos de 3 autorais e uma frase de baloxavir que generalizava demais. Ordem conferida.
+**Pendências:** Tab (Codex); entrega do PDF das lâminas ao Drive e pacote da UC03.
