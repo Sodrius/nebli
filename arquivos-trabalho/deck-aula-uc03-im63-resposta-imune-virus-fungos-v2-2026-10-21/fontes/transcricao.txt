@@ -1,0 +1,569 @@
+===== página 1 =====
+
+===== página 2 =====
+Hoje vamos falar sobre infecções por vírus, será a nossa última
+aula síncrona, depois teremos uma aula assíncrona, uma discussão
+novamente dos exercícios e ﬁnalizamos. Vamos revisitar algumas
+informações da aula passada, frente a fungos e também frente ao
+que já falamos sobre bactérias. Revisamos um pouquinho e depois
+entramos especiﬁcamente na informação sobre as infecções virais, o
+que tem de diferente numa infecção viral.
+
+===== página 3 =====
+
+===== página 4 =====
+Como conversamos anteriormente, o resultado da infecção, a
+severidade do quadro clínico que um paciente vai ter, será resultado
+desse balanço entre a patogenicidade do vírus e a capacidade do
+nosso sistema imune em responder a esse agente agressor, a esse
+patógeno. Se respondemos de forma muito agressiva, podemos causar
+dano tecidual e se não respondemos, muitas vezes o patógeno ﬁca em
+latência no tecido e alguns desses patógenos podem ter componentes
+que desencadeiam a resposta tumoral, aumentando o risco de uma
+infecção crônica, mesmo que latente, se associar ao desenvolvimento
+de um tumor, então é necessário um balanço nessa resposta, que seja
+eﬁcaz para eliminar o vírus, mas que não cause dano tecidual, ou que
+cause o mínimo de dano possível.
+Logicamente, esses patógenos, e o vírus é um exemplo muito bom
+disso, têm uma capacidade de evadir o sistema imune. Ao longo dos
+anos, os vírus aprenderam a mudar o genoma, a eliminar algumas
+proteínas de superfície, a produzir moléculas que têm uma capacidade
+de modular negativamente a resposta imune como mecanismo de
+evasão, ou seja, de fugir dessa resposta imune eﬁcaz. Essa talvez a
+maior novidade da aula de hoje seja mostrar alguns dos mecanismos
+de evasão para o vírus.
+
+===== página 5 =====
+
+===== página 6 =====
+Explicamos antes que, se você tem uma infecção por um patógeno, e
+esse patógeno pode causar um dano direto no hospedeiro, precisamos
+ter mecanismos para diminuir, para amenizar esses danos causados
+pelo patógeno e isso foi chamado de tolerância e muitos desses
+mecanismos são relacionados à resposta imune.
+Por outro lado, como hospedeiros, temos mecanismos de resistência
+a infecções, mecanismos naturais que fazem parte da imunidade inata,
+aquela imunidade que já temos, as moléculas, as barreiras, os fatores,
+as células, naturalmente no nosso organismo, que dão resistência
+à infecção por esses patógenos, mas essa resistência natural pode
+ocasionar um dano no próprio hospedeiro, por causa da resposta do
+sistema imune.
+Se montamos uma resposta imune muito agressiva para eliminar
+esse patógeno de forma rápida e eﬁciente, essa própria resposta
+pode causar dano, um exemplo seria a hepatite, quando montamos
+uma resposta contra um vírus da hepatite, acabamos fazendo lesão
+hepática, lesão de hepatócito. A lesão do hepatócito é pelo sistema
+imune. O vírus estava ali latente, sem fazer grandes coisas, mas na
+hora que montamos a resposta, acabamos fazendo uma inﬂamação no
+fígado.
+Então, também precisamos ter mecanismos que diminuam, que
+amenizem essa capacidade do nosso próprio sistema imune de causar
+dano e isso é chamado de hipersensibilidade e é objeto de uma aula
+do professor José Maria.
+
+===== página 7 =====
+
+===== página 8 =====
+Numa resposta imune contra um vírus, vamos pensar de forma
+didática em todas as possibilidades de como o sistema imune pode
+agir. Então, você vai pensar sempre que a imunidade inata tem um
+efeito, a adaptativa, alguns elementos um pouco mais efetivos do que
+outros. Dependendo do patógeno, a resposta é diferenciada, hoje, é
+uma resposta especiﬁcamente contra o vírus. Esses patógenos tentam
+evadir o sistema imune e podemos causar lesão tecidual se fazemos
+uma resposta imune exagerada. Isso é o que vimos para fungo, para
+bactéria, e isso encaixa perfeitamente na aula de vírus.
+
+===== página 9 =====
+
+===== página 10 =====
+Esses patógenos podem causar dano tecidual de diversas formas,
+alguns produzem toxinas, outros têm moléculas na própria superfície
+que causam ativação e dano celular, outros conseguem entrar na
+célula e causar um efeito direto. A presença desses antígenos desses
+patógenos, também pode causar dano tecidual, seja pela formação
+de imunocomplexos, formação de alguns anticorpos que têm reação
+cruzada com antígenos do próprio hospedeiro, ou como no caso da
+hepatite, causando dano por causa de uma própria célula, e também
+nos exemplos dos granulomas.
+
+===== página 11 =====
+
+===== página 12 =====
+Alguns desses patógenos têm ação no extracelular ou no intracelular,
+se vamos montar uma resposta contra eles, precisamos pensar em
+receptores que os reconheçam quando estão do lado de fora e quando
+estão dentro da célula, pois se não houver esse tipo de reconhecimento
+no sistema imune, não conseguimos montar uma resposta efetiva
+contra este vírus.
+
+===== página 13 =====
+
+===== página 14 =====
+Normalmente, se pensamos numa infecção, mesmo uma infecção
+viral, e poderíamos fazer uma tradução com o novo coronavírus,
+na Covid-19, se temos uma infecção no epitélio respiratório, esse
+vírus infectaria os pneumócitos, alguns pneumócitos iriam morrer,
+poderiam ser captados por células dendríticas e macrófagos que
+estão no parênquima pulmonar, isso migra para um linfonodo de
+drenagem daquela região, no caso mediastinal, região torácica, onde
+ele vai apresentar pedaços daquele patógeno, daquele vírus que foi
+processado, fragmentado e apresentado dentro de moléculas de MHC.
+Aqui entraria muito a apresentação cruzada, tanto para CD4 como
+para CD8, levando à diferenciação de linfócito T. O linfócito T faria
+helper para o linfócito B, que se diferenciaria em plasmócito, iria
+produzir anticorpos, isso cai na circulação e tanto os anticorpos como
+as células voltam para o local, agora com receptores especíﬁcos de
+quimiocina para voltar para o local da infecção, que era o alvéolo
+pulmonar. Isso acontece em todas as possibilidades de infecção, seja
+por vírus, bactéria, fungo, seria um exemplo de como seria a resposta.
+
+===== página 15 =====
+
+===== página 16 =====
+Novamente, se estamos pensando em montar uma resposta imune,
+seja inata ou adaptativa, partimos do pressuposto que precisamos
+reconhecer esse agente agressor, reconhecer fragmentos na superfície
+de uma bactéria gram-positiva, de um vírus, de uma bactéria
+gram-negativa, de uma bactéria que tem ﬂagelo, alguns compostos
+químicos, regiões de DNA que têm alteração de metilação, tudo isso
+faz com que percebamos que aquilo não é normal, e aí passamos a
+reconhecer e montamos uma resposta.
+
+===== página 17 =====
+
+===== página 18 =====
+Existem também receptores que estão dentro da célula, os chamados
+Nod-like receptors, que vão formar uma plataforma multi proteica
+chamada de inﬂamassoma, responsável pela produção da IL-1-beta na
+sua forma ativa.
+
+===== página 19 =====
+
+===== página 20 =====
+Esses inﬂamassomas podem reconhecer, sentir a presença de
+bactérias, vírus, fungos, protozoários e também de elementos não
+patogênicos, como os cristais de ácido úrico, cristal de colesterol,
+alteração em ATP, proteína beta-amiloide, sílica etc. Então, há uma
+capacidade de desencadear a formação desse inﬂamassoma por
+diferentes formas e a consequência disso é a produção de uma citocina
+chamada IL-1-beta.
+A IL-1-beta é importante para ter resistência a uma infecção e pode
+até fazer com que a célula que montou esse inﬂamassoma morra e
+essa morte induzida por IL-1-beta é chamada de piroptose. Também
+pode ajudar estimulando outras células, para que venham e consigam
+matar o patógeno e eliminar, fazer o que chamamos de clearance do
+patógeno.
+
+===== página 21 =====
+
+===== página 22 =====
+Então, esses complexos de inﬂamassoma e os receptores que ﬁcam na
+superfície estão integrados numa resposta imune contra um patógeno.
+Os primeiros receptores na superfície vão dar o primeiro sinal, isso
+faz com que haja a transcrição de determinados genes, entre eles
+das moléculas que fazem o inﬂamassoma, os genes da Pro-IL-1-beta,
+para que, na hora que haja o segundo sinal, vindo de alterações do
+extracelular ou da presença de material viral, como RNA viral, por
+exemplo, haja um segundo sinal para oligomerizar e formar essas
+inﬂamassomas que vão levar à produção da IL-1-beta madura.
+
+===== página 23 =====
+
+===== página 24 =====
+Entrando agora especiﬁcamente em vírus, essa introdução já foi falada
+na aula anterior, é mais para revisitar e dizer que se aplica a qualquer
+tipo de patógeno.
+
+===== página 25 =====
+
+===== página 26 =====
+Na infecção imune para o vírus, eles são patogênicos porque são
+obrigatoriamente patógenos intracelulares, eles colocam seu material
+genético na célula e usam a maquinaria da célula para proliferar,
+produzir capsídeos e levar à infecção de outras células. Alguns vírus
+ﬁcam na célula na forma latente, onde têm um efeito citotóxico, outros
+não, pois já matam diretamente a célula, no efeito que chamamos de
+citolítico. Então, a imunidade inata é extremamente importante na
+infecção por esses vírus e também a imunidade adquirida.
+Na imunidade inata, e vocês devem ter ouvido falar muito na
+infecção pelo COVID, a principal citocina que causa resistência e
+ajuda a diminuir a replicação viral são os interferons do tipo 1 ou
+interferon alfa e beta, esses interferons alfa e beta são extremamente
+importantes para ativar as células natural killer, que são aqueles
+linfócitos T’s de imunidade inata que não têm TCR, mas que são
+citotóxicos, ou seja, não precisam que ninguém faça apresentação
+de antígeno para eles, porque não têm TCR, mas uma vez ativados,
+conseguem matar uma célula infectada por um vírus, principalmente
+se essa célula infectada tiver perdido as moléculas de MHC de classe 1.
+Depois que há uma infecção, morte de células, há a captura
+por células apresentadoras de antígeno, migração para linfonodo,
+migração para o baço, apresentação por linfócito e o desencadeamento
+da imunidade adquirida. E nela, há dois grandes braços numa
+infecção pelo vírus: a formação de linfócito TCD8 citotóxico, que é
+extremamente efetivo para matar uma célula infectada por vírus, e a
+formação de anticorpos, porque sabemos que esses anticorpos podem
+neutralizar os vírus quando estão na fase extracelular, eliminando
+esses vírus diretamente. Podem ajudar a fazer a aproximação entre
+uma célula natural killer, um CD8, e uma célula alvo infectada,
+naquela citotoxicidade celular dependente de anticorpo. Além disso,
+poderiam aumentar a fagocitose na forma de uma opsonização, não é
+tão evidente para vírus, mas poderia, e poderia desencadear o sistema
+complemento, se esse anticorpo fosse da classe IgG ou da classe IgM,
+principalmente IgG, se estou falando na circulação, pela característica
+do anticorpo.
+
+===== página 27 =====
+
+===== página 28 =====
+Mas eu só consigo fazer isso, logicamente, se reconheço o vírus,
+então precisa fazer o reconhecimento e existem Toll-like Receptors
+especíﬁcos que reconhecem vírus, como o Toll-like Receptor 3, o Toll-
+like Receptor 7, o Toll-like Receptor 8, o Toll-like Receptor 9. Existem
+Nod-like receptors, que são aqueles receptores intracitoplasmáticos,
+que também reconhecem vírus. Falamos muito pouco deles, mas um
+exemplo seria o RIG 1. Uma vez que reconheço esse vírus, a célula
+infectada vai produzir interferon alfa-beta, esses interferon alfa-beta
+são importantes para que as outras células que ainda não foram
+infectadas criem uma resistência à infecção, então eu faço com que as
+células ali do lado, que ainda não infectaram, tenham uma atividade
+antiviral aumentada, mas também estimulo a célula natural killer e
+essa célula natural killer, uma vez ativada por interferon do tipo
+alfa-beta, pode produzir uma citocina super importante, que são os
+interferons do tipo 2 ou interferon gama. Nesse aspecto, ela vai ser
+ativada e terá uma capacidade citotóxica aumentada.
+
+===== página 29 =====
+
+===== página 30 =====
+No início de uma infecção pelo vírus, temos que pensar no braço
+da imunidade natural, da imunidade inata. Poderia haver ação
+de neutróﬁlos e macrófagos, mas aparentemente eles não são tão
+determinantes nesse primeiro momento de uma infecção viral, porque
+olhamos para os pacientes que têm algum grau de imunodeﬁciência
+nessas células e eles não têm uma incidência aumentada de infecções
+virais. É relevante? Sim, deve haver fagocitose em algum grau por
+essas células, mas não de forma signiﬁcativa, o que teremos é a
+produção desses interferons de tipo alfa-beta, que serão importantes
+na replicação, para inibir a replicação viral, e na ativação pelas células
+natural killer.
+
+===== página 31 =====
+
+===== página 32 =====
+Novamente, há reconhecimento por esses Toll, que é importante,
+produção de alfa-beta e a ativação de célula natural killer. Um vírus,
+quando está no extracelular, poderia ser alvo do sistema complemento
+pela via alternativa, lembra? Há hidrólise espontânea da molécula C3
+e na hora que quebrou o C3, formou aquele C3B, então se houver
+algo estranho ali do lado, aquele C3B pode aderir e uma vez que faça
+adesão, se ninguém inibir pelas moléculas reguladoras inibitórias do
+complemento, vai desencadear a via e vou até o MAC. Então, haveria
+ali, sem a necessidade ainda de produção de anticorpos, a ativação da
+via alternativa do complemento.
+Depois que ativa a imunidade adquirida e há a formação de
+plasmócitos, esses anticorpos, pensando em IgA, IgG, que fazem
+neutralização, IgG que faz ativação do complemento, citotoxicidade
+celular dependente de anticorpo e opsonização, se tornam mais
+relevantes. A ativação de linfócito TCD4 e TCD8, via apresentação
+cruzada, será determinante, porque esse CD4 vai ajudar o CD8 a ﬁcar
+citotóxico e ele vai lá reconhecer as células que estão infectadas pelo
+vírus.
+
+===== página 33 =====
+
+===== página 34 =====
+Os interferons do tipo alfa-beta agem em receptores especíﬁcos e têm
+inúmeras ações, tanto no vírus como na célula que está infectada
+ou na célula que está ali próxima, para aumentar aquele estado de
+resistência à infecção viral. Basicamente, o que ele vai fazer é regular
+a síntese proteica, então, vai diminuir a síntese proteica. Existem
+inúmeras vias de sinalização, uma delas é essa PKR aqui, que eu
+coloquei no quadradinho para lembrar que lá na frente existem vírus
+que regulam essa PKR.
+
+===== página 35 =====
+
+===== página 36 =====
+Então, se você tem uma infecção por um vírus, vocês precisam pensar
+que em um primeiro momento a imunidade inata vai ser super
+importante, seja pela produção de interferon tipo 1 alfa-beta e a
+ativação de células NK que vão levar a morte desta célula infectada.
+posteriormente, com a ativação da imunidade adaptativa, você terá a
+formação de plasmócitos, com produção de anticorpos e ativação de
+células TCD 1.
+
+===== página 37 =====
+
+===== página 38 =====
+Então, essa célula natural killer, uma vez ativada por esses interferons
+do tipo 1, acaba produzindo interferons do tipo 2, que é o interferon
+gama, que é importante para a ativação de um CD8, para a ativação
+de macrófagos e para fazer a troca de isotipo da imunoglobulina do
+tipo M, que é a primeira imunoglobulina que o plasmócito vai sempre
+produzir, para o tipo IgG, que é uma imunoglobulina importante para
+a opsonização, ativação do sistema complemento e neutralização, ou
+seja, uma imunoglobulina super importante para conter uma infecção
+por vírus.Então, se eu tenho essa imunoglobulina, devo pensar que o
+interferon gama seria extremamente importante e aí já sinaliza que
+a participação do linfócito TCD4 nessa jogada deve ser um linfócito
+TCD4 de padrão TH1.
+
+===== página 39 =====
+
+===== página 40 =====
+Nos primeiros momentos de uma infecção viral, quando você tem uma
+carga viral alta, há a participação dessas citocinas de imunidade inata,
+como interferon alfa-beta, TNF, IL-12, ativação de células natural
+killer e, posteriormente, o desencadeamento de uma imunidade
+adquirida, muito mais especíﬁca, pelos linfócitos TCD8.
+
+===== página 41 =====
+
+===== página 42 =====
+Esses linfócitos de CD8 vão ser basicamente citotóxicos e ativados
+por uma célula apresentadora de antígeno, a gente imagina com a
+apresentação cruzada, porque eu tenho um CD4 ajudando o CD8.
+Então, parto do princípio que essa célula apresentadora de antígeno
+colocou um peptídeo do vírus no MHC de classe 1 e no MHC de classe
+2. Uma vez que esse TCD8 está ativado, ele volta a migrar para o tecido
+onde tem o vírus, vamos supor, ali no pulmão, nos pneumócitos e ele
+tem que reconhecer nos pneumócitos o peptídeo de novo dentro da
+sua molécula de MHC de classe 1.
+Então, existe um reconhecimento que é duplo: primeiro, quando ele
+está aprendendo a ser ativado pela célula apresentadora de antígeno
+e depois ele tem que reconhecer aquele MHC com peptídeo na célula
+infectada pelo vírus e aí ele libera granzima, perforina, Fas-ligante e
+mata essa célula infectada pelo vírus.
+O que é importante nisso? O vírus, sabendo que a presença de
+MHC de classe 1 era determinante para a citotoxicidade pelo CD8,
+ele pode ter como mecanismo de evasão a eliminação do MHC de
+classe 1 e com isso, o CD8 não conseguiria fazer a ligação e não
+seria citotóxico. Logicamente, perder MHC de classe 1 signiﬁca ser
+alvo da célula natural killer. Então, você perde em um e ganha no
+outro. Por outro lado, quando produz anticorpos, como a fase humoral
+da resposta imune adquirida contra vírus, esses anticorpos podem
+neutralizar, ativar complementos, mas lembra que CD8 também pode
+fazer citotoxicidade celular dependente de anticorpos.
+
+===== página 43 =====
+
+===== página 44 =====
+Então, o CD8, eminentemente citotóxico, faz a sinapse imunológica,
+você pega os grânulos, onde tem granzima e perforina e migram para
+essa região. Os grânulos de perforina vão abrir poros na membrana
+da célula infectada, vai passar a granzima, a granzima quebra o DNA
+e a célula entra em apoptose. Depois que faz isso, o CD8 acaba nem
+morrendo, ele se dissocia e vai embora, porque ele é sabido.
+
+===== página 45 =====
+
+===== página 46 =====
+Essa célula infectada por um vírus, o vírus entrou, infectou, ela vai
+produzir os interferons, que vão ajudar as células que estão ali do
+lado a aumentar a sua resistência à infecção, esses interferons vão
+ajudar o NK a ﬁcar ativado, e esse NK pode matar essas células. Essa
+célula pode ser alvo de anticorpos do sistema complemento ou de
+citotoxicidade celular dependente de anticorpo, fazendo com que as
+células natural killer consigam se aproximar e liberar também seus
+grânulos de citotoxicidade. A CD8 pode matar, ela pode ser alvo do
+sistema complemento pela via clássica. O que acontece é que muitas
+vezes essa célula morre e pode liberar vírus que esperamos que as
+células ao redor sejam mais resistentes e não permitam a replicação
+deste vírus, conseguindo conter a infecção viral.
+
+===== página 47 =====
+
+===== página 48 =====
+Logicamente, os vírus têm capacidade de evadir, isso é muito relevante
+porque está presente em quase todos os vírus que conhecemos nas
+infecções virais. O interessante é que cada tipo de vírus possui
+mecanismos mais próprios ou especíﬁcos de evasão.
+Cito aqui alguns que estão nos livros-texto que vocês têm acesso: a
+variação antigênica, a capacidade de mutar ao longo do tempo, então,
+você tem o mesmo vírus, mas ele tem expressões de antígeno na
+superfície diferentes e meu sistema imune, cada vez que ele muda o
+antígeno, tem que recomeçar a resposta imune.
+O mais clássico é a inﬂuenza, por isso que todo ano você vacina para
+o vírus da gripe daquele ano, porque o vírus vai mutando e aí você
+precisaria montar uma resposta contra aquele vírus, mas com aquela
+nova roupagem, com aqueles novos antígenos.
+Alguns vírus conseguem inibir os mecanismos de processamento
+de antígenos, como ele sabe que o MHC de classe 1 é relevante para
+a citotoxicidade por CD8, vírus como herpes e citomegalo acabam
+eliminando parte daquele processamento de classe 1 para que você
+não tenha os MHCs na superfície. Alguns vírus possuem receptores
+homólogos de citocina, e isso é interessante, chamamos isso de decoy,
+ele produz uma molécula que parece um receptor de citocina, ele
+secreta, então essa citocina gruda na fase solúvel nesse receptor e não
+age na célula, o citomegalo faz isso.
+Tem outros vírus que produzem moléculas muito semelhantes às
+nossas citocinas imunomoduladoras ou imunossupressoras, como o
+vírus do Epstein-Barr. O vírus do Epstein-Barr produz uma molécula
+que é parecidíssima com a IL-10, na verdade, só descobrimos a IL-10
+porque descobrimos primeiro essa molécula no vírus Epstein-Barr. A
+IL-10 está associada à diminuição da função de linfócito, de célula
+dendrítica e de macrófago. Alguns vírus como HIV, vocês sabem,
+infectam uma célula que é o CD4, que sempre colocamos no centro
+da resposta imune.
+
+===== página 49 =====
+
+===== página 50 =====
+Esse tipo de mecanismo de evasão pode ser extremamente soﬁsticado
+e relevante para vários vírus, é super interessante ver como eles foram
+evoluindo ao longo do tempo, provavelmente por pressão evolutiva,
+para sobreviver, e foram modiﬁcando etapas importantes da resposta
+imune.
+Então, existem vírus que inibem a molécula de MHC de classe 1 e se
+eu inibir qualquer fase do processamento da apresentação, não vou ter
+MHC de classe 1 na superfície. Eles podem inibir o proteassoma, TAP,
+reter MHC de classe 1 no retículo, mandar isso para ser degradado e
+não ir para a superfície. E aqui estão os herpes vírus como exemplo. A
+diminuição de MHC de classe 1 tira o CD8 da jogada, mas aí ﬁco visível
+para o NK. Posso também diminuir MHC de classe 2 que é relevante
+se pensarmos que o CD8 está sendo ativado por apresentação cruzada
+e que ele precisa do CD4 para produzir citocinas para ativar o CD8.
+O citomegalovírus inibe tanto classe 1 como classe 2. HIV, vírus
+do sarampo, todos eles também têm a capacidade de diminuir ou
+diﬁcultar a apresentação para o MHC de classe 2.
+
+===== página 51 =====
+
+===== página 52 =====
+Se você lembra do processamento de proteínas citoplasmáticas
+que vão para o MHC de classe 1, que é relevante para fazer
+a ativação do CD8, alguns vírus podem inibir o proteassoma,
+como citomegalovírus e Epstein-Barr. Podem remover classe 1 do
+retículo, como citomegalovírus. Podem bloquear a síntese de MHC,
+como adenovirus e citomegalovirus. E podem inibir ou diﬁcultar a
+apresentação dos peptídeos por MHC classiﬁcados já na superfície.
+
+===== página 53 =====
+
+===== página 54 =====
+Outros vírus conseguem produzir aqueles decoy ou citocinas,
+moléculas que têm características imunomoduladoras, muito
+parecidas com citocinas do nosso organismo. O exemplo clássico
+é o Epstein-Barr vírus. Outros podem interferir com alguns
+mecanismos efetores, eles podem interferir com a ativação do sistema
+complemento, ligando algumas proteínas do sistema complemento,
+impedindo que a via ande e chegue até o ﬁnal. Outros podem inibir
+granzima, que é relevante.
+Vemos agora no coronavírus uma modulação negativa na produção
+de interferon alfa-beta. Então, ele tem uma maquinaria que diﬁculta
+a célula a produzir interferon alfa-beta e isso foi relacionado à maior
+gravidade e risco de morte. O vírus da hepatite C bloqueia aquela
+sinalização PKR que mostrei no início, quando o interferon alfa-beta
+sinaliza no seu receptor. E há muitas outras ferramentas que alguns
+tipos de vírus podem usar, sempre pensando em que a resposta imune
+não seja efetiva.
+
+===== página 55 =====
+
+===== página 56 =====
+Alguns vírus causam imunossupressão, o clássico seria o HIV,
+que destroi os linfócitos CD4, mas destroi todas as células que
+expressam CD4. No trato gastrointestinal, temos células dendríticas
+que são CD4 positivas, e aí o vírus também poderia infectar essas
+células dendríticas, e essa célula dendrítica perderia sua função de
+homeostasia no trato gastrointestinal. O Epstein-Barr, já falei, produz
+aquela citocina semelhante à IL-10. Alguns vírus, como o da hepatite,
+são citopáticos, ﬁcam lá, não fazem nada, mas na hora que você monta
+uma resposta, causam dano tecidual.
+
+===== página 57 =====
+
+===== página 58 =====
+Outros vírus, como o da inﬂuenza, mudam seu material genético em
+uma velocidade muito grande. Isso faz com que tenhamos diﬁculdade
+de montar resposta, ou demora, montamos a resposta, mas demora
+para montar a resposta. E nessa demora, há o risco de morte, como
+aconteceu com a gripe espanhola e estamos vendo agora com o novo
+coronavírus.
+Não sei se vocês vão lembrar, mas tivemos algumas epidemias de
+vírus H1N1, H5N1, quando ele vinha de porco, vinha de galinha. O que
+percebemos é que esses vírus conseguiam trocar material genético
+entre vírus que infectavam outros animais e por conta disso, passava
+para o ser humano e não tínhamos uma resposta imune eﬁcaz contra
+aquilo.
+
+===== página 59 =====
+
+===== página 60 =====
+Esses vírus e o vírus da inﬂuenza, que é o mais clássico, podem,
+ao longo da infecção, trocar antígenos. Isso faz com que aqueles
+anticorpos, aquele reconhecimento que foi feito para aquele antígeno
+não funcione mais, porque agora tenho um antígeno novo, e esse
+antígeno novo não é inibido pelos anticorpos que eu tinha, e aí o vírus
+consegue infectar a célula. Ou posso trocar material genético com
+outros tipos de inﬂuenza que infectariam outros animais, e vimos isso
+nesses surtos de infecções que vieram da Ásia, com porco, galinha e
+por aí vai.
+
+===== página 61 =====
+
+===== página 62 =====
+Esses vírus que têm essa capacidade de mutar, como inﬂuenza,
+rinovírus, HIV, o próprio vírus da dengue, têm essa capacidade de ter
+sorotipos diferentes e aí você tem que montar a resposta para cada
+um ou cada vez que ele é infectado.
+
+===== página 63 =====
+
+===== página 64 =====
+O vírus da inﬂuenza, só para mostrar, tem no seu capsídeo proteínas
+que estão ao redor, entre elas a neuraminidase e a hemaglutinina.
+Essas são as duas moléculas que têm a maior variação antigênica, que
+são o H e o N, que chamamos H1, N2, H1, N5, H5, N1.
+
+===== página 65 =====
+
+===== página 66 =====
+Dentro dessa hemaglutinina e neuraminidase, você tem as maiores
+possibilidades de alteração de alguns aminoácidos e aí você tem que
+montar sua resposta novamente.
+
+===== página 67 =====
+
+===== página 68 =====
+Para ﬁnalizar a aula de hoje, só para deixar um resumo, que acho
+que é o mais relevante para vocês, para terem uma ideia de que
+consigo montar resposta, mas o vírus consegue evadir dessa resposta
+porque quer sobreviver. A prova disso é que temos infecções hoje e
+recrudescência de infecções que não tínhamos antes. Lembre-se que
+perdemos o status de país com proteção ao sarampo e o sarampo
+voltou.
+
+===== página 69 =====
+
+===== página 70 =====
+Então, você tem vírus que têm uma capacidade de inibir a imunidade
+humoral, e ele faz isso por vários mecanismos, seja via complemento,
+receptor FC, ele pode inibir uma resposta inﬂamatória.Falamos
+eminentemente do Epstein-Barr vírus que produz aquela IL-10. Posso
+bloquear a apresentação antigênica, falamos tanto de classe 1 como
+de classe 2. O herpes vírus e o citomegalo, são os grandes exemplos.
+Eles podem causar imunossupressão, o herpesvírus faz a IL-10, o HIV
+inibe CD4.
+Essa tabela que tem todos os elementos, são exemplos de como esses
+vírus podem tanto causar um dano na célula e, por conta disso, evadir,
+como o HIV, por exemplo, podem ativamente produzir moléculas que
+inibem o sistema imune, produzindo IL-10 ou uma proteína decoy
+de citocina e quimiocina, ou podem inibir processamento antigênico,
+classe 1, classe 2.
+
+===== página 71 =====
+
+===== página 72 =====
+Por ﬁm, só lembrar que alguns vírus se integram, ﬁcam ali dentro
+da célula e estão associados na sua forma latente a processos
+tumorigênicos. Os HTLV estão relacionados a leucemia e linfoma, o
+herpesvírus 8 à formação de sarcoma de Kaposi, HPV ao câncer de
+colo uterino, hepatite B e hepatite C ao hepatocarcinoma, o Epstein-
+Barr vírus a um tipo de linfoma e carcinoma nasofaríngeo. Existe uma
+correlação importante entre infecção viral e tumorigênese que merece
+um dia ser discutida, acho que é discutida na aula de imunidade.
+Espero que tenhamos passado as informações mais relevantes para
+vocês e discutiremos pessoalmente na próxima sexta-feira. Abraço
+para todo mundo.

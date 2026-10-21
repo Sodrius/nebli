@@ -1,0 +1,24 @@
+# #AK_Step1_v12::#SketchyPharm::Immunology-&-Biochemistry-Pharmacology::Immuno-stimulants-&-Biochemistry-Pharmacology::Immunostimulants-(Interferons,Cytokine-Therapy) (23 notas)
+1489967811254 4-LowerYield Aldesleukin is a recombinant form of IL-2 used to treat renal cell carcinoma and metastatic melanoma
+1489967981462 2-RelativelyHighYield Epoetin alfa is a recombinant form of erythropoietin (EPO) used to treat anemias
+1489967982654 2-RelativelyHighYield Filgrastim is a recombinant form of G-CSF
+1489968039360 4-LowerYield Sargramostim is a recombinant form of GM-CSF
+1489968217760 2-RelativelyHighYield Romiplostim is a(n) thrombopoietin (TPO) analog used to treat thrombocytopenia
+1489968246742 2-RelativelyHighYield Eltrombopag is a(n) thrombopoietin receptor agonist used to treat thrombocytopenia
+1489968269053 4-LowerYield Oprelvekin is a recombinant form of IL-11 used to treat thrombocytopenia
+1497199898456 2-RelativelyHighYield Sargramostim can be used for rebuilding the bone marrow in patients who have aplastic anemia
+1497202157450 1-HighYield The anemia in chronic kidney disease can be treated with epoetin alfa
+1497203002753 1-HighYield Interferons stimulate antitumor activity by activating natural killer & CD8+ T cells
+1497307489656 4-LowerYield The most common side effect of filgrastim is bone pain
+1497439509366 3-HighYield-temporary PEGylation of interferons allows what pharmacological property to be extended? Half-life
+1497439750290 4-LowerYield Chronic use of IFN-α is also associated with CNS toxicity and profound fatigue
+1497440201761 4-LowerYield Chronic use of interferon- α is associated with patients experiencing flu-like symptoms; as well as depression , neutro penia , and myopathy
+1497440307298 2-RelativelyHighYield IFN-γ is important for activating the respiratory burst in phagocytes
+1497440851060 3-HighYield-temporary When viruses enter cells, they can trigger the host ( via capsule / viral products ) to produce type I interferons by activation of cytosolic pattern recognition receptors
+1497441651476 3-HighYield-temporary IFN-α and IFN-β can cause a(n) flu-like syndrome that can be symptomatically taken care of with ibuprofen
+1497450277629 4-LowerYield Upon cytosolic recognition of viral dsRNA, enzymes upregulated by IFN-α / IFN-β presensitization lead to apoptosis of the virus infected cell
+1497450573028 3-HighYield-temporary IFN-α acts to stimulate an anticancer immune environment in three ways - Inhibit the proliferation of cancer cells - Activating lymphocytes - Enhancing expression of MHC I
+1497450824677 4-LowerYield Interferon- β protects the blood-brain barrier by preventing extravasation of lymphocytes
+1497451553581 4-LowerYield IFN-γ upregulates production of inducible nitric oxide synthase (iNOS) which is involved in the generation of ONOO- ( a powerful free radical )
+1524259129270 2-RelativelyHighYield The most common side effect of erythropoietin stimulating agents is hypertension
+1524259325560 1-HighYield Patients on erythropoiesis-stimulating agents are associated with increased risk for thromboembolic events due to increased blood viscosity

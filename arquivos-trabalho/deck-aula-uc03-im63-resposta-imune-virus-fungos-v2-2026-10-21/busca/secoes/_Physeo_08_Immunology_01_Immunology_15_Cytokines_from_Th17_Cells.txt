@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#Physeo::08_Immunology::01_Immunology::15_Cytokines_from_Th17_Cells (5 notas)
+1487116975048 5-LowYield Differentiation of helper T cells to Th 17 is induced by IL-1 , IL-6 , and TGF-β
+1487116982311 1-HighYield Which class of helper T cells is believed to play a role in tissue damage associated with autoimmune disease ? Th 17 cells
+1520300013308 4-LowerYield What class of helper T cell secretes IL-17, -21, and -22 ? Th 17
+1520300296240 3-HighYield-temporary What class of helper T cell promotes immunity against extracellular microbes via neutrophil recruitment ? Th 17
+1520300403523 5-LowYield Differentiation of helper T cells to Th 17 is inhibited by IFN-γ and IL-4

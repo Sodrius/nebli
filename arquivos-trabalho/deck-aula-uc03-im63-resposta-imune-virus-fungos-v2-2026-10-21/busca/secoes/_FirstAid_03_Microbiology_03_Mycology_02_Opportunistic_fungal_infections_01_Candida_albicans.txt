@@ -1,0 +1,35 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::03_Mycology::02_Opportunistic_fungal_infections::01_Candida_albicans (34 notas)
+1500233417765 2-RelativelyHighYield Candida albicans is the most common cause of opportunistic mycoses
+1500233665851 1-HighYield Candida albicans is dimorphic*, meaning it assumes different forms depending on the temperature of its environment
+1500234023725 1-HighYield Candida albicans forms germ tubes (true hyphae) at 37ºC
+1500234149130 2-RelativelyHighYield Candida albicans is in the yeast form with pseudo- hyphae formation at 20 ºC
+1500234258289 4-LowerYield Which fungus reverses the dimorphic adage , with yeast in the cold and mold in the heat ? Candida albicans
+1500234392681 2-RelativelyHighYield Individuals with chronic granulomatous disease are susceptible to colonization by catalase -positive organisms such as Candida and Aspergillus
+1500234684400 1-HighYield Candida albicans is normal flora of the GI tract, including the oral cavity
+1500234787599 2-RelativelyHighYield Which fungus commonly contaminates sputum cultures ? Candida albicans
+1500234829361 1-HighYield Candida albicans commonly causes a(n) diaper rash in infants due to heat and humidity
+1500234954735 2-RelativelyHighYield Oral and esophageal candidiasis may be seen in the immuno compromised or those using oral steroids
+1500235087296 2-RelativelyHighYield Candida albicans results in white patches in the oral cavity that can be scraped away
+1500235281810 3-HighYield-temporary Leukoplakia results in white patches in the oral cavity that cannot be scraped away
+1500235321247 1-HighYield Potassium hydroxide (KOH) is used to prep oral , skin , or genital scrapings when attempting to diagnose candidiasis
+1500235389271 3-HighYield-temporary Candida albicans that extends from the mouth to the esophagus is known as candidal esophagitis , which is a(n) AIDS-defining illness
+1500235550523 1-HighYield What is the CD4+ count threshold for the development of candidal esophagitis ? < 100 cells/mm 3
+1500235637454 1-HighYield Diabetes mellitus predisposes individuals to Candida albicans infection
+1500235811939 2-RelativelyHighYield Which 4 classes of medications can predispose individuals to vaginal yeast infections ? - Antibiotics - Oral contraceptives (OCPs) - Corticosteroids (topical or systemic) - SGLT-2 inhibitors
+1500236178883 1-HighYield Candida albicans does not change the vaginal pH
+1500236384725 1-HighYield Gardnerella vaginalis does change the vaginal pH
+1500236404263 2-RelativelyHighYield In females, vaginal Candida infections do not occur when the vaginal pH is > 4.5
+1500236481845 1-HighYield Candidal endocarditis is commonly seen in IV drug users
+1500236847040 1-HighYield IV drug users are at an increased risk for candidal endocarditis , most commonly of the tricuspid valve
+1500236922530 2-RelativelyHighYield Systemic (disseminated) infections of Candida albicans are treated with caspofungin (first-line) or amphotericin B (second-line)
+1500237000985 2-RelativelyHighYield Local , mild infections of Candida albicans (e.g., candidal diaper rash) are treated with topical azoles
+1500237136393 2-RelativelyHighYield Oral candidiasis can be treated with nystatin
+1500243540399 1-HighYield A positive germ tube test is strongly indicative of Candida albicans
+1500243661654 1-HighYield Oral thrush of the mouth that appears as a white exudate on mucous membranes is due to Candida albicans
+1500243739726 2-RelativelyHighYield Vaginitis that presents with itching , copious secretion , and “ cottage cheese ” appearing clumps are signs of vaginal candidiasis
+1502224452270 3-HighYield-temporary T cell deficient patients are more likely to get superficial Candida infections
+1502224462650 3-HighYield-temporary Neutropenic patients are more likely to have disseminated candidiasis ( hematogenous )
+1516128968450 1-HighYield Alterations in natural vaginal bacterial flora can lead to overgrowth of Candida spp. and Gardnerella vaginalis
+1522516244657 2-RelativelyHighYield Adults receiving parenteral nutrition are at high risk for fungal infection with Candida (candidemia)
+1556238737112 1-HighYield Which fungus is shown below? Candida albicans (germ tubes)
+1556238830946 1-HighYield Which fungus is shown below? Candida albicans

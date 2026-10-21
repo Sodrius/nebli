@@ -1,0 +1,12 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::02_Antifungals::06_Echinocandins (11 notas)
+1500241142268 2-RelativelyHighYield Local , mild infections of Aspergillus fumigatus are treated with azoles (e.g., voriconazole ) or echinocandins (caspofungin)
+1509742036852 1-HighYield Echinocandins are a class of antifungals that inhibit the enzyme 1,3-β-glucan synthase
+1509742141238 1-HighYield What class of antifungals inhibit synthesis of β-glucan ? Echinocandins (-fungin)
+1509742717818 1-HighYield What class of antifungals inhibits cell wall synthesis ? Echinocandins (-fungin)
+1509751863667 1-HighYield What drug class does caspofungin belong to? Echinocandins (-fungin)
+1509751930175 1-HighYield The antifungal class echinocandins can be recognized via the suffix "- fungin "
+1509751969962 1-HighYield Echinocandins are antifungal agents that act at the cell wall
+1509752199075 3-HighYield-temporary Amphotericin B or echinocandins can be used for systemic candidal infections
+1509752272021 5-LowYield Echinocandins are administered IV for systemic candidiasis
+1509752299783 4-LowerYield What class of antifungals treats invasive aspergillosis that is refractory to voriconazole? Echinocandins (-fungin)
+1509752522497 3-HighYield-temporary Echinocandins are primarily metabolized via the liver

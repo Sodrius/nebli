@@ -1,0 +1,140 @@
+Aula 12 – Organização da resposta imune aos vírus 
+ 
+1. Considerações iniciais 
+ 
+• Qualquer ser vivo pode ser infectado por vírus, inclusive as bactérias. 
+Frente a isso, os organismos devem se defender desses patógenos: as 
+bactérias utilizam o mecanismo CRISP-CAS, enquanto plantas e 
+invertebrados utilizam RNA de interferência (RNAi). 
+ 
+2. Mecanismos de imunidade inata contra vírus 
+ 
+• A capacidade de replicação viral é enorme, o que exige atuação rápida do 
+metabolismo. A primeira reação é proporcionada pela imunidade inata, que 
+identifica PAMPs presentes no vírus, reconhecidos por receptores TLR 
+(TLR3 à dsRNA, TLR7 e TLR8 à ssRNA, TLR9 à CpGs), RLRs 
+(detectores citoplasmáticos como RIG-1 à RNA e DNA viral) e NLRs 
+(formação do complexo inflamassoma); 
+• Vale lembrar que somente os NLRs dos endossomos são ativados, haja 
+vista que o vírus não apresenta padrões reconhecíveis na superfície para 
+serem reconhecidos por NLRs de superfície. Células NK participam no 
+reconhecimento de células infectadas por vírus, que apresentam algumas 
+diferenciações como a diminuição da expressão de MHC na membrana; 
+• Em alguns casos, pode haver ativação da via alternativa do complemento. 
+Essa ativação ainda é pouco compreendida, haja vista que as proteínas 
+virais são codificadas no interior da célula humana; 
+• Após o reconhecimento, uma resposta efetora é 
+fundamentada numa ativação gênica, que 
+culmina principalmente na liberação das citocinas 
+IFNa e IFNb. Essas citocinas podem provocar 
+estado antiviral ao interagir com receptores na 
+própria célula produtora, além de aumentar o 
+potencial citotóxico das células NK e alertar 
+células não-infectadas que estejam ao redor;  
+• PS: inicialmente, a ausência de ativação dos receptores de membrana 
+praticamente inibe a ativação de fagócitos. 
+• PS2: muitas vezes a lesão tecidual resulta da ação excessiva do sistema 
+imune (Hepatite B). 
+ 
+2.1 Análise aprofundada do IFNa e IFNb 
+ 
+• O IFNa é estimulado por RNA dupla fita (TLR3) ou 
+DNA (CpG não metilado) (TLR9), assim como por 
+RNA/DNA no citosol (RIG-1 e outros RLRs). Tal 
+citocina inibe a replicação dos vírus. Além disso, 
+tanto IFNa como IFNb induzem os genes ISGs, 
+que visam a: 
+
+=== p.70
+o Ação direta sobre os vírus, através do comprometimento da 
+replicação viral, por exemplo; 
+o Ativação de sensores de detecção de vírus (RIG1, PKR, IFI16); 
+o Reprogramação metabólica pela atuação na síntese de colesterol 
+(enzima CH25H promove redução do acúmulo, o que prejudica a 
+formação de vírus envelopados), diminuição de poliaminas 
+fundamentais ao vírus (enzima SAT1), depleção de triptofano 
+(enzima IDO1) e redução do pool intracelular de dNTPs (SAMHD1); 
+• PS: ISGs também podem ser induzidos em células epiteliais e fibroblastos. 
+ 
+3. Mecanismos da imunidade adquirida contra vírus 
+ 
+• Os linfócitos B e T atuarão na resposta antiviral. Os linfócitos T CD8 serão 
+ativados por MHC classe I e promoverão apoptose da célula infectada por 
+mecanismos como granzima-perforina. Além disso, os TCD8 também 
+realizarão a produção de IFNg; 
+• Os linfócitos B serão ativados após a interação de suas Igs de membrana 
+com partículas virais do meio extracelular. Essas células se transformarão 
+em plasmócitos, que produzirão anticorpos específicos. Esses últimos 
+serão responsáveis pela neutralização do vírus (bloqueio ou inibição da 
+penetração), ativação da via clássica do complemento (provocará lise viral) 
+e opsonização; 
+• Enfim, os linfócitos TCD4 serão ativados por MHC Classe II e atuarão 
+auxiliando linfócitos B (mudança de classe de IgM para IgG ou IgA), além 
+de promover a produção de IFNg e IL2; 
+• As vacinas induzem principalmente a produção de anticorpos IgG contra o 
+vírus, o que promove a formação de uma imunidade basal. 
+ 
+4. Mecanismos de escape viral 
+ 
+• Durante a evolução, alguns vírus sofreram mutações genômicas que 
+promoveram resistência aos mecanismos de defesa do hospedeiro. Essa 
+resistência pode ser feita por: 
+o Inibição da apresentação de MHC Classe I (expressa por quase 
+todas as células): bloqueio da ativação de células TCD8 por 
+diferentes formas, dentre as quais se destacam o bloqueio do 
+proteossomo, bloqueio da proteína TAP (pelas proteínas ICP47), 
+retenção do MHC Classe I no RE ou redirecionamento dessas 
+moléculas para degradação no citosol. CMV é um exemplo de vírus; 
+o Inibição da apresentação de MHC Classe II (expressas por células 
+APC): bloqueio da ativação de células TCD4 pela interferência no 
+efeito do IFNg, no tráfego de vesículas e/ou processamento 
+endocítico. HIV e vírus do sarampo são exemplos; 
+o Produção de homólogos de citocinas, quimiocinas e receptores. 
+Herpes vírus Epstein-Barr produz homólogo de IL10, uma citocina 
+reguladora que diminui/desfaz a resposta imunológica; 
+
+=== p.71
+o Interferência nos mecanismos efetores: inibição da ativação de 
+complemento, uso de receptores celulares de complemento para 
+penetração nas células (herpesvírus Epstein-Barr), bloqueio de 
+granzima e inibição da apoptose da célula infectada; 
+o Produção de imunossupressão: vírus da caxumba, HIV (destruição 
+de linfócitos TCD4), sarampo; 
+o Diversidade e variação: mutações dificultam o reconhecimento pelos 
+anticorpos do sistema imune; 
+o Latência. 
+ 
+5. Análise do escape de alguns tipos virais 
+ 
+• Vírus da Influenza: escape viral por variação antigênica. Em sua superfície, 
+encontram-se hemaglutininas e neuraminidases, proteínas da superfície 
+viral envolvidas na penetração celular; 
+o A geração de diversidade por deriva/drift é 
+menor e se dá principalmente por 
+mutações nos antígenos virais, sobretudo 
+nos aminoácidos que compõem a 
+hemaglutinina. Tal fenômeno gera 
+somente queda parcial de imunidade, pois 
+alguns anticorpos mantêm-se reativos; 
+o A geração de diversidade por 
+câmbio/virada/shift é maior e se dá 
+quando o vírus realiza troca genética na 
+célula infectada com vírus de outras espécies animais, sendo que 
+muitos segmentos do genoma viral são completamente substituídos 
+e os epítopos reconhecidos anteriormente são removidos do vírus; 
+• Rinovírus (vírus do resfriado comum): grande diversidade de sorotipos. Os 
+anticorpos, ao agirem sobre os clones não mutados, favorecem a 
+proliferação dos clones mutados; 
+• HIV: a maior taxa de mutação (em um mesmo indivíduo se tem 
+demonstrado vírus diferentes em fases diferentes); 
+• Vírus da dengue: 4 sorotipos e a presença de anticorpos frente a 
+um deles não protege, mas atrapalha quem se infecta por um 
+outro sorotipo, o que resulta em dengue hemorrágica; 
+• Herpes vírus simples e zoster: permanência em estado latente 
+no gânglio do nervo trigêmeo. Em contexto de imunossupressão, 
+o vírus provoca lesões na boca.  
+ 
+ 
+ 
+
+=== p.72

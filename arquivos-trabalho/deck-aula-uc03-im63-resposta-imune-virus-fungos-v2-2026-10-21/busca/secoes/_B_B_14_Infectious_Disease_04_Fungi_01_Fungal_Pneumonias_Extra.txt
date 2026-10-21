@@ -1,0 +1,16 @@
+# #AK_Step1_v12::#B&B::14_Infectious_Disease::04_Fungi::01_Fungal_Pneumonias::Extra (15 notas)
+1488680686459 - Erythema nodosum is a painful , raised inflammatory lesion of subcutaneous fat (panniculitis), usually on the anterior shins
+1499970027867 2-RelativelyHighYield Serum and urine rapid antigen tests can also be used to detect Histoplasma
+1499970710382 1-HighYield Histoplasmosis can also cause erythema nodosum, characterized by painful red nodules , typically on the shins
+1499970930064 2-RelativelyHighYield Histoplasma targets the reticuloendothelial system, ultimately resulting in dissemination to the liver and spleen
+1499971032936 2-RelativelyHighYield Dissemination of histoplasmosis to the liver and spleen occurs in immunocompromised patients
+1499971504390 1-HighYield Great Lakes and Ohio River valley are buzzwords for which fungal infection ? Blastomycosis
+1499971602400 2-RelativelyHighYield Blastomycosis can also appear on the East coast
+1499972467707 2-RelativelyHighYield A(n) patchy alveolar infiltrate is characteristic of Blastomycosis on CXR, along with lesions or cavities in the lungs
+1499972637785 3-HighYield-temporary Dissemination of blastomycosis commonly occurs in immunocompromised patients
+1499972726166 2-RelativelyHighYield Blastomycosis commonly occurs near the Great Lakes and also in the eastern and southern US
+1499972793734 3-HighYield-temporary Systemic effects of blastomycosis typically occur when patients are in an immunocompromised state
+1499973865397 3-HighYield-temporary Earthquakes are a risk factor for the spread of coccidioidomycosis infection due to their ability to kick up dust and their high prevalence in the Southwestern U.S. due to the San Andreas Fault
+1499974928695 2-RelativelyHighYield Erythema nodosum symbolizes a robust immune response , therefore this symptom of coccidioidomycosis and histoplasmosis typically occurs in otherwise healthy patients
+1499975030908 2-RelativelyHighYield Coccidioidomycosis occurs commonly in the skin and lungs , with dissemination to bone and meninges
+1545332909427 - Inflammation of subcutaneous fat → painful , erythematous nodules on the shins is suggestive of erythema nodosum

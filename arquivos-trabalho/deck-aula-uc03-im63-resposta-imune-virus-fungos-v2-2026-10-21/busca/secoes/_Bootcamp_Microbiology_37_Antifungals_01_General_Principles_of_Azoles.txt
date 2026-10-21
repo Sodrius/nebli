@@ -1,0 +1,19 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::37_Antifungals::01_General_Principles_of_Azoles (18 notas)
+1462050602375 4-LowerYield Ketoconazole is a drug that inhibits glucocorticoid biosynthesis via inhibition of the enzyme cholesterol desmolase
+1468250158738 1-HighYield What do fungal plasma membranes contain that others lack? Ergosterol
+1499971065440 2-RelativelyHighYield Local , mild infections of histoplasmosis are treated with azoles (e.g., fluconazole, itraconazole)
+1509741728595 1-HighYield Which two classes of antifungals inhibit synthesis of ergosterol from squalene ? Azoles, allylamines (i.e. terbinafine)
+1509742000812 1-HighYield Azoles are a class of antifungals that inhibit the enzyme 14α-demethylase
+1509742814980 3-HighYield-temporary Ergosterol is a component of the fungal cell membrane
+1509745062370 1-HighYield Azoles inhibit the conversion of lanosterol to ergosterol
+1509745235242 3-HighYield-temporary Which azole antifungal is especially prone to inhibiting human CYP450 ? Voriconazole
+1509745317318 3-HighYield-temporary Adverse effects of the antifungal voriconazole includes blurry vision , changes in color vision , and flashes of light
+1509746626962 1-HighYield The azole ketoconazole inhibits the adrenal enzyme 17,20-lyase (17,20-desmolase)
+1509746740874 1-HighYield Which antifungal inhibits androgen and estrogen synthesis? Ketoconazole
+1509746770370 1-HighYield Which antifungal inhibits cortisol production? Ketoconazole
+1509746838075 3-HighYield-temporary Which antifungal is used in the treatment of Cushing syndrome ? Ketoconazole
+1509746910437 1-HighYield Ketoconazole has anti-androgenic effects and thus can cause gynecomastia in males
+1509747054868 3-HighYield-temporary Which class of antifungals prolongs the QT interval ? Azoles
+1509747105213 4-LowerYield Azoles can cause GI distress
+1509747115807 1-HighYield Azoles are a class of antifungals that can cause hepato toxicity
+1509747259788 2-RelativelyHighYield Should azoles (e.g., ketoconazole ) be avoided during pregnancy ? Yes*

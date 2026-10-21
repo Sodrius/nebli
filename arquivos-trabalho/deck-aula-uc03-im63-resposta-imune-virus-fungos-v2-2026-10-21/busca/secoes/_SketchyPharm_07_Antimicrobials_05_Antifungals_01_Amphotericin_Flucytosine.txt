@@ -1,0 +1,38 @@
+# #AK_Step1_v12::#SketchyPharm::07_Antimicrobials::05_Antifungals::01_Amphotericin_&_Flucytosine (37 notas)
+1475704774908 2-RelativelyHighYield Which renal tubular acidosis may be caused by amphotericin B toxicity ? Type 1 (distal) RTA
+1499971295935 3-HighYield-temporary Systemic (disseminated) infections of histoplasmosis are treated with amphotericin B
+1499973243446 3-HighYield-temporary Systemic (disseminated) infections of Blastomycosis are treated with amphotericin B
+1499975518179 3-HighYield-temporary Systemic (disseminated) infections of coccidioidomycosis are treated with amphotericin B
+1499976938219 3-HighYield-temporary Systemic (disseminated) infections of paracoccidioidomycosis are treated with amphotericin B
+1500236922530 2-RelativelyHighYield Systemic (disseminated) infections of Candida albicans are treated with caspofungin (first-line) or amphotericin B (second-line)
+1500237136393 2-RelativelyHighYield Oral candidiasis can be treated with nystatin
+1509742201770 1-HighYield Polyenes (e.g. nystatin, amphotericin B) are a class of antifungals that bind ergosterol , creating pores in the fungal cell membranes
+1509742361304 4-LowerYield Flucytosine (5-FC) is metabolized to 5-fluorouracil (5-FU) in fungal cells
+1509742443199 3-HighYield-temporary Which antifungal is metabolized to 5-fluorouracil in fungal cells ? Flucytosine
+1509742489846 1-HighYield Which antifungal inhibits fungal DNA and RNA / protein synthesis ? Flucytosine
+1509742586045 4-LowerYield Which enzyme converts flucytosine to 5-fluorouracil ? Cytosine deaminase
+1509742681361 1-HighYield Which antifungal can result in bone marrow suppression ? Flucytosine
+1509742814980 3-HighYield-temporary Ergosterol is a component of the fungal cell membrane
+1509743058195 1-HighYield Which two drugs bind ergosterol and form holes in the fungal cell membrane? Amphotericin B, nystatin (polyenes)
+1509743161238 2-RelativelyHighYield Polyenes result in leakage of electrolytes from the cell
+1509743217032 1-HighYield Which antifungal is used in severe, systemic fungal infections? Amphotericin B
+1509743284999 4-LowerYield How is amphotericin B administered? IV
+1509743336397 5-LowYield Liposomal amphotericin B is less toxic
+1509743373899 3-HighYield-temporary Toxicity of amphotericin B results from non-selective binding on mammalian cholesterol membranes
+1509743451213 2-RelativelyHighYield Acute toxicities of amphotericin B administration include fever, chills, headache, and hypotension
+1509743517947 4-LowerYield How is amphotericin B administered for fungal CNS infections? Intrathecally
+1509743634123 4-LowerYield Intrathecal administration of amphotericin B can result in seizures and other CNS side effects
+1509743670062 3-HighYield-temporary Which antifungal can result in thrombophlebitis ? Amphotericin B
+1509743767890 2-RelativelyHighYield Which renal tubular acidosis may be caused by amphotericin B use? Type 1 (distal) RTA
+1509743833529 1-HighYield Electrolyte abnormalities, such as hypokalemia and hypomagnesemia , can result from amphotericin B use
+1509743957410 3-HighYield-temporary How is amphotericin B associated nephrotoxicity prevented ? Hydration w/ IV saline
+1509744002911 1-HighYield Amphotericin B use is associated with renal toxicity
+1509744066944 2-RelativelyHighYield Amphotericin B related renal toxicity results in anemia due to decreased erythropoietin production
+1509744422330 1-HighYield Nystatin is active against Candida spp.
+1509744598051 1-HighYield Which polyene can treat oral and vaginal candidiasis ? Nystatin
+1509744667080 2-RelativelyHighYield Which two ions should be supplemented with amphotericin B use? K + and Mg 2+
+1509744794419 1-HighYield Which antifungal can result in arrhythmia due to hypokalemia ? Amphotericin B
+1509752199075 3-HighYield-temporary Amphotericin B or echinocandins can be used for systemic candidal infections
+1509753380809 1-HighYield Polyenes are a class of antifungals that include amphotericin B and nystatin
+1509755342899 1-HighYield Which antifungal agent can result in hypomagnesemia and hypokalemia ? Amphotericin B
+1509755647704 2-RelativelyHighYield Which antifungal can result in anemia due to decreased EPO production? Amphotericin B

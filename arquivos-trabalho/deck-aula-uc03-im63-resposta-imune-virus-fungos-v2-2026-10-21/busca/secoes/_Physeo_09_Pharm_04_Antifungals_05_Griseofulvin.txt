@@ -1,0 +1,15 @@
+# #AK_Step1_v12::#Physeo::09_Pharm::04_Antifungals::05_Griseofulvin (14 notas)
+1500053600334 2-RelativelyHighYield For more severe tinea infections or persistent onychomycosis (manifestations of dermatophytes ), oral griseofulvin is used
+1500053746842 1-HighYield Griseofulvin deposits in keratin -containing tissues, such as skin and nails , and is therefore used for severe dermatophyte infections
+1500053847214 2-RelativelyHighYield Griseofulvin is associated with GI side-effects
+1509742310437 1-HighYield Which antifungal works by disrupting mitotic spindles ? Griseofulvin
+1509747453719 3-HighYield-temporary Griseofulvin is used to treat superficial dermatophyte infections
+1509750504912 2-RelativelyHighYield Griseofulvin inhibits the function of microtubules , resulting in arrest of cellular division at metaphase
+1509750647708 3-HighYield-temporary Griseofulvin induces cytochrome p450
+1509750735578 4-LowerYield Which antifungal has a cross-reactivity with penicillin hypersensitivity ? Griseofulvin
+1509750774216 3-HighYield-temporary Which antifungal is contraindicated in patients with porphyrias ? Griseofulvin
+1509750799655 3-HighYield-temporary Use of griseofulvin is contraindicated in pregnant and/or breastfeeding women
+1509750939218 3-HighYield-temporary Griseofulvin will decrease serum levels of warfarin
+1509750990065 3-HighYield-temporary Which antifungal can cause a disulfiram-like reaction ? Griseofulvin
+1509751158016 1-HighYield Tinea capitis in children is treated with oral griseofulvin or oral terbinafine
+1509751239610 1-HighYield Which fungi static agent is used to treat onychomycosis ? Griseofulvin

@@ -1,0 +1,15 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::07_Antimicrobials::30_Antifungal_therapy (14 notas)
+1509741728595 1-HighYield Which two classes of antifungals inhibit synthesis of ergosterol from squalene ? Azoles, allylamines (i.e. terbinafine)
+1509741919338 1-HighYield Allylamines (e.g., terbinafine) are a class of antifungals that inhibit the enzyme squalene epoxidase
+1509742000812 1-HighYield Azoles are a class of antifungals that inhibit the enzyme 14α-demethylase
+1509742036852 1-HighYield Echinocandins are a class of antifungals that inhibit the enzyme 1,3-β-glucan synthase
+1509742141238 1-HighYield What class of antifungals inhibit synthesis of β-glucan ? Echinocandins (-fungin)
+1509742201770 1-HighYield Polyenes (e.g. nystatin, amphotericin B) are a class of antifungals that bind ergosterol , creating pores in the fungal cell membranes
+1509742310437 1-HighYield Which antifungal works by disrupting mitotic spindles ? Griseofulvin
+1509742361304 4-LowerYield Flucytosine (5-FC) is metabolized to 5-fluorouracil (5-FU) in fungal cells
+1509742443199 3-HighYield-temporary Which antifungal is metabolized to 5-fluorouracil in fungal cells ? Flucytosine
+1509742489846 1-HighYield Which antifungal inhibits fungal DNA and RNA / protein synthesis ? Flucytosine
+1509742586045 4-LowerYield Which enzyme converts flucytosine to 5-fluorouracil ? Cytosine deaminase
+1509742681361 1-HighYield Which antifungal can result in bone marrow suppression ? Flucytosine
+1509742717818 1-HighYield What class of antifungals inhibits cell wall synthesis ? Echinocandins (-fungin)
+1509753380809 1-HighYield Polyenes are a class of antifungals that include amphotericin B and nystatin

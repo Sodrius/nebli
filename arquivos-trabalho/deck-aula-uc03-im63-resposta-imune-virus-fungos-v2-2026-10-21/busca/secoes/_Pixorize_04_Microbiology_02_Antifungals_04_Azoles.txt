@@ -1,0 +1,8 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::02_Antifungals::04_Azoles (7 notas)
+1509741728595 1-HighYield Which two classes of antifungals inhibit synthesis of ergosterol from squalene ? Azoles, allylamines (i.e. terbinafine)
+1509745062370 1-HighYield Azoles inhibit the conversion of lanosterol to ergosterol
+1509745235242 3-HighYield-temporary Which azole antifungal is especially prone to inhibiting human CYP450 ? Voriconazole
+1509746740874 1-HighYield Which antifungal inhibits androgen and estrogen synthesis? Ketoconazole
+1509746910437 1-HighYield Ketoconazole has anti-androgenic effects and thus can cause gynecomastia in males
+1509747105213 4-LowerYield Azoles can cause GI distress
+1509747115807 1-HighYield Azoles are a class of antifungals that can cause hepato toxicity

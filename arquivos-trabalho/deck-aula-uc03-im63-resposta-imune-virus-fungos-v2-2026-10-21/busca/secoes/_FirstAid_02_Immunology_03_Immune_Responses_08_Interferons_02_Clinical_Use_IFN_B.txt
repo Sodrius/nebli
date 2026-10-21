@@ -1,0 +1,9 @@
+# #AK_Step1_v12::#FirstAid::02_Immunology::03_Immune_Responses::08_Interferons::02_Clinical_Use::*IFN-B (8 notas)
+1489970693302 1-HighYield Interferon-α and -β are glycoproteins synthesized by virus-infected cells that act locally on uninfected cells , "priming" them for viral defense
+1497439509366 3-HighYield-temporary PEGylation of interferons allows what pharmacological property to be extended? Half-life
+1497440851060 3-HighYield-temporary When viruses enter cells, they can trigger the host ( via capsule / viral products ) to produce type I interferons by activation of cytosolic pattern recognition receptors
+1497441651476 3-HighYield-temporary IFN-α and IFN-β can cause a(n) flu-like syndrome that can be symptomatically taken care of with ibuprofen
+1497450277629 4-LowerYield Upon cytosolic recognition of viral dsRNA, enzymes upregulated by IFN-α / IFN-β presensitization lead to apoptosis of the virus infected cell
+1497450824677 4-LowerYield Interferon- β protects the blood-brain barrier by preventing extravasation of lymphocytes
+1520301328706 5-LowYield Type I interferons downregulate protein synthesis to resist potential viral replication
+1520301453074 1-HighYield Type I interferons (IFN- α and IFN-β) increase cell surface expression of MHC I proteins to facilitate recognition of infected cells

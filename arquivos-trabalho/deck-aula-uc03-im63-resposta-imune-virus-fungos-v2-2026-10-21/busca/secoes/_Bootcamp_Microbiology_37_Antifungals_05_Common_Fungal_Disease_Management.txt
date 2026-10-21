@@ -1,0 +1,39 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::37_Antifungals::05_Common_Fungal_Disease_Management (38 notas)
+1402963462795 1-HighYield What medication(s) is/are first-line for prophylaxis and treatment for Pneumocystis jirovecii pneumonia? TMP-SMX
+1487642773652 4-LowerYield Myeloperoxidase deficiency is associated with increased risk for Candida infection; however, most patients are asymptomatic
+1499971065440 2-RelativelyHighYield Local , mild infections of histoplasmosis are treated with azoles (e.g., fluconazole, itraconazole)
+1499971295935 3-HighYield-temporary Systemic (disseminated) infections of histoplasmosis are treated with amphotericin B
+1499973190228 2-RelativelyHighYield Local , mild infections of Blastomycosis are treated with azoles (e.g., itraconazole)
+1499973243446 3-HighYield-temporary Systemic (disseminated) infections of Blastomycosis are treated with amphotericin B
+1499975518179 3-HighYield-temporary Systemic (disseminated) infections of coccidioidomycosis are treated with amphotericin B
+1499976865408 2-RelativelyHighYield Local , mild infections of Paracoccidioidomycosis are treated with azoles (e.g., itraconazole)
+1499976938219 3-HighYield-temporary Systemic (disseminated) infections of paracoccidioidomycosis are treated with amphotericin B
+1500053322321 1-HighYield What is the first-line treatment for localized tinea infections? Topical antifungals (e.g., clotrimazole, terbinafine)
+1500055896708 2-RelativelyHighYield What is the drug of choice for treatment of sporotrichosis / Sporothrix schenckii infection? Itraconazole
+1500233417765 2-RelativelyHighYield Candida albicans is the most common cause of opportunistic mycoses
+1500234392681 2-RelativelyHighYield Individuals with chronic granulomatous disease are susceptible to colonization by catalase -positive organisms such as Candida and Aspergillus
+1500236922530 2-RelativelyHighYield Systemic (disseminated) infections of Candida albicans are treated with caspofungin (first-line) or amphotericin B (second-line)
+1500237000985 2-RelativelyHighYield Local , mild infections of Candida albicans (e.g., candidal diaper rash) are treated with topical azoles
+1500237136393 2-RelativelyHighYield Oral candidiasis can be treated with nystatin
+1500241142268 2-RelativelyHighYield Local , mild infections of Aspergillus fumigatus are treated with azoles (e.g., voriconazole ) or echinocandins (caspofungin)
+1500241367077 1-HighYield Invasive aspergillosis is treated with IV voriconazole
+1500245993331 1-HighYield Treatment of cryptococcal meningitis consists of a joint therapy of amphotericin B and flucytosine followed by maintenance therapy with fluconazole
+1500335290166 3-HighYield-temporary What is the pharmacological treatment of Mucormycosis ? Amphotericin B
+1500494924084 4-LowerYield Thayer-Martin media contains nystatin to kill fungi
+1504045576164 - What is the recommended treatment for patients with disseminated histoplasmosis ? IV amphotericin B (1 - 2 weeks), followed by oral itraconazole (≥ 1 year)
+1509743284999 4-LowerYield How is amphotericin B administered? IV
+1509744422330 1-HighYield Nystatin is active against Candida spp.
+1509744598051 1-HighYield Which polyene can treat oral and vaginal candidiasis ? Nystatin
+1509745493345 2-RelativelyHighYield Which azole is used to treat invasive aspergillosis ? Voriconazole
+1509745802661 2-RelativelyHighYield Which oral azole is used in the treatment of mucocutaneous candidiasis ? Fluconazole
+1509745961686 2-RelativelyHighYield Which oral azole is used in the treatment of vaginal candidiasis ? Fluconazole
+1509746017401 1-HighYield Which azoles can treat candidal esophagitis in AIDS patients ? Oral or IV fluconazole, voriconazole
+1509746332128 1-HighYield Which antifungal is used to treat local infections of dimorphic fungi ? Itraconazole
+1509746438483 2-RelativelyHighYield What are the three topical azoles ? Clotrimazole, miconazole, ketoconazole
+1509746577022 1-HighYield Which azoles are used for treatment of localized tinea infections ? Clotrimazole, miconazole
+1509746740874 1-HighYield Which antifungal inhibits androgen and estrogen synthesis? Ketoconazole
+1509747124822 3-HighYield-temporary What is the treatment of vaginal candidiasis in pregnancy ? Topical azole (e.g., miconazole, clotrimazole)
+1509747259788 2-RelativelyHighYield Should azoles (e.g., ketoconazole ) be avoided during pregnancy ? Yes*
+1509747380121 1-HighYield What is the treatment for local histoplasmosis , blastomycosis , and coccidioidomycosis infections? Itraconazole
+1509751158016 1-HighYield Tinea capitis in children is treated with oral griseofulvin or oral terbinafine
+1638738986293 - Vulvovaginal candidiasis unresponsive to azoles is usually due to Candida glabrata

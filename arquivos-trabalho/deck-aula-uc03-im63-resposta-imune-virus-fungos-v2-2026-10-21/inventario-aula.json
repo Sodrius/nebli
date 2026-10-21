@@ -1,0 +1,937 @@
+{
+ "aula": "Organização da resposta imune aos vírus e fungos (UC03 P3; Imunologia)",
+ "lido_antes_da_selecao": true,
+ "slides": [
+  {
+   "numero": 1,
+   "classe": "capa",
+   "titulo": "Capa",
+   "justificativa": "capa sem conteúdo"
+  },
+  {
+   "numero": 2,
+   "classe": "conteudo",
+   "titulo": "Lâmina 2",
+   "itens": [
+    {
+     "id": "im63-s02-i2-1",
+     "texto": "Infecção: patogenicidade × resposta imune",
+     "card": "au-balanca"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "classe": "fora_do_recorte",
+   "titulo": "Figura de abertura",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 4,
+   "classe": "conteudo",
+   "titulo": "Lâmina 4",
+   "itens": [
+    {
+     "id": "im63-s04-i4-a1",
+     "texto": "Apoio ao card au-balanca",
+     "card": "au-balanca"
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "classe": "conteudo",
+   "titulo": "Lâmina 5",
+   "itens": [
+    {
+     "id": "im63-s05-i5-a1",
+     "texto": "Apoio ao card au-balanca",
+     "card": "au-balanca"
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "classe": "conteudo",
+   "titulo": "Lâmina 6",
+   "itens": [
+    {
+     "id": "im63-s06-i6-1",
+     "texto": "Imunidade celular defende contra agentes intracelulares",
+     "card": "sh-1791625429833"
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "classe": "conteudo",
+   "titulo": "Lâmina 7",
+   "itens": [
+    {
+     "id": "im63-s07-i7-a1",
+     "texto": "Apoio ao card au-balanca",
+     "card": "au-balanca"
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 8: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 9,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 9: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 10,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 10: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 11,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 11: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 12,
+   "classe": "logistica",
+   "titulo": "Divisória: vírus",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 13,
+   "classe": "conteudo",
+   "titulo": "Lâmina 13",
+   "itens": [
+    {
+     "id": "im63-s13-i13-1",
+     "texto": "Interferons: citocinas liberadas por células infectadas por vírus",
+     "card": "ak1461792762468"
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "classe": "conteudo",
+   "titulo": "Lâmina 14",
+   "itens": [
+    {
+     "id": "im63-s14-i14-1",
+     "texto": "TLRs que reconhecem vírus",
+     "card": "au-tlr-virus"
+    },
+    {
+     "id": "im63-s14-i14-2",
+     "texto": "Vírus no citosol disparam interferon tipo I por receptores citosólicos",
+     "card": "sh-1792240189143"
+    },
+    {
+     "id": "im63-s14-i14-3",
+     "texto": "NK: linfócito da imunidade inata",
+     "card": "sh-1792242116526"
+    },
+    {
+     "id": "im63-s14-i14-4",
+     "texto": "NK induz apoptose por perforina e granzima",
+     "card": "sh-1791984891827"
+    },
+    {
+     "id": "im63-s14-i14-5",
+     "texto": "NK mata células sem MHC I",
+     "card": "sh-1791984891454"
+    },
+    {
+     "id": "im63-s14-i14-6",
+     "texto": "IFN α e β ativam as NK",
+     "card": "sh-1791984891204"
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "classe": "conteudo",
+   "titulo": "Lâmina 15",
+   "itens": [
+    {
+     "id": "im63-s15-i15-1",
+     "texto": "Via alternativa do complemento: ativação espontânea",
+     "card": "sh-1791667094738"
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "classe": "conteudo",
+   "titulo": "Lâmina 16",
+   "itens": [
+    {
+     "id": "im63-s16-i16-a1",
+     "texto": "Apoio ao card au-tlr-virus",
+     "card": "au-tlr-virus"
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "classe": "conteudo",
+   "titulo": "Lâmina 17",
+   "itens": [
+    {
+     "id": "im63-s17-i17-1",
+     "texto": "IFN tipo I reduz a síntese proteica",
+     "card": "ak1520301328706"
+    },
+    {
+     "id": "im63-s17-i17-2",
+     "texto": "Interleucinas aumentam a síntese de interferon",
+     "card": "ak1461794583601"
+    },
+    {
+     "id": "im63-s17-i17-3",
+     "texto": "RNA dupla fita no citosol leva à apoptose via IFN",
+     "card": "ak1497450277629"
+    },
+    {
+     "id": "im63-s17-i17-4",
+     "texto": "IFN α/β preparam as células vizinhas",
+     "card": "sh-1791984890453"
+    },
+    {
+     "id": "im63-s17-i17-5",
+     "texto": "IFN tipo I aumenta o MHC I da célula",
+     "card": "sh-1791984890952"
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 18: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 19,
+   "classe": "conteudo",
+   "titulo": "Lâmina 19",
+   "itens": [
+    {
+     "id": "im63-s19-i19-1",
+     "texto": "IL-2 e IL-12 ativam as NK",
+     "card": "sh-1792242117020"
+    },
+    {
+     "id": "im63-s19-i19-2",
+     "texto": "NK mata por CD16 ligado ao Fc do IgG",
+     "card": "sh-1792242116095"
+    },
+    {
+     "id": "im63-s19-i19-3",
+     "texto": "A imunoglobulina da ADCC é IgG",
+     "card": "sh-1791629595996"
+    },
+    {
+     "id": "im63-s19-i19-4",
+     "texto": "Quem secreta IFN-γ: NK e Th1",
+     "card": "sh-1791625433908"
+    },
+    {
+     "id": "im63-s19-i19-5",
+     "texto": "IFN-γ ativa macrófagos para matar o que fagocitaram",
+     "card": "sh-1791625430208"
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 20: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 21,
+   "classe": "conteudo",
+   "titulo": "Lâmina 21",
+   "itens": [
+    {
+     "id": "im63-s21-i21-1",
+     "texto": "CD8 T mata células infectadas por apoptose",
+     "card": "sh-1791625429957"
+    },
+    {
+     "id": "im63-s21-i21-2",
+     "texto": "MHC I apresenta antígenos endógenos ao CD8",
+     "card": "sh-1791625426657"
+    },
+    {
+     "id": "im63-s21-i21-3",
+     "texto": "Anticorpos neutralizantes bloqueiam a ligação aos receptores",
+     "card": "sh-1791629595197"
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 22: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 23,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 23: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 24,
+   "classe": "conteudo",
+   "titulo": "Lâmina 24",
+   "itens": [
+    {
+     "id": "im63-s24-i24-a1",
+     "texto": "Apoio ao card au-evasao-mhc",
+     "card": "au-evasao-mhc"
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "classe": "conteudo",
+   "titulo": "Lâmina 25",
+   "itens": [
+    {
+     "id": "im63-s25-i25-1",
+     "texto": "Escape viral: queda do MHC I",
+     "card": "au-evasao-mhc"
+    },
+    {
+     "id": "im63-s25-i25-2",
+     "texto": "CMV inibe a expressão de MHC I",
+     "card": "ak1503876244084"
+    },
+    {
+     "id": "im63-s25-i25-3",
+     "texto": "CMV bloqueia o MHC I e a morte pelo CD8",
+     "card": "ak1503876156644"
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "classe": "conteudo",
+   "titulo": "Lâmina 26",
+   "itens": [
+    {
+     "id": "im63-s26-i26-a1",
+     "texto": "Apoio ao card au-evasao-mhc",
+     "card": "au-evasao-mhc"
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "classe": "conteudo",
+   "titulo": "Lâmina 27",
+   "itens": [
+    {
+     "id": "im63-s27-i27-1",
+     "texto": "Escape viral: homólogos de citocinas e receptores",
+     "card": "au-evasao-citocinas"
+    },
+    {
+     "id": "im63-s27-i27-2",
+     "texto": "IL-10 atenua a resposta inflamatória",
+     "card": "sh-1791625435657"
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "classe": "conteudo",
+   "titulo": "Lâmina 28",
+   "itens": [
+    {
+     "id": "im63-s28-i28-1",
+     "texto": "HIV infecta linfócitos T CD4, macrófagos e células dendríticas",
+     "card": "ak1506805786448"
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "classe": "conteudo",
+   "titulo": "Lâmina 29",
+   "itens": [
+    {
+     "id": "im63-s29-i29-1",
+     "texto": "Variação antigênica do influenza: HA e NA",
+     "card": "ak1516321589458"
+    },
+    {
+     "id": "im63-s29-i29-2",
+     "texto": "Virada: pandemias",
+     "card": "ak1516323168130"
+    },
+    {
+     "id": "im63-s29-i29-3",
+     "texto": "Virada: reassortment de HA e NA entre espécies",
+     "card": "sh-1792605654373"
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "classe": "conteudo",
+   "titulo": "Lâmina 30",
+   "itens": [
+    {
+     "id": "im63-s30-i30-1",
+     "texto": "Variação antigênica: deriva ou virada",
+     "card": "ak1516322271299"
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "classe": "conteudo",
+   "titulo": "Lâmina 31",
+   "itens": [
+    {
+     "id": "im63-s31-i31-1",
+     "texto": "Deriva: mutações pontuais em HA ou NA",
+     "card": "ak1516322855117"
+    },
+    {
+     "id": "im63-s31-i31-2",
+     "texto": "Deriva: epidemias",
+     "card": "ak1516323022237"
+    },
+    {
+     "id": "im63-s31-i31-3",
+     "texto": "Dengue: quatro sorotipos",
+     "card": "ak1520087988222"
+    },
+    {
+     "id": "im63-s31-i31-4",
+     "texto": "Segunda infecção por dengue: quadro mais grave",
+     "card": "ak1520088551261"
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 32: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 33,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 33: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 34,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 34: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 35,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 35: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 36,
+   "classe": "fora_do_recorte",
+   "titulo": "Figura de livro",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 37,
+   "classe": "fora_do_recorte",
+   "titulo": "Figura de livro",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 38,
+   "classe": "fora_do_recorte",
+   "titulo": "Figura de livro",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 39,
+   "classe": "fora_do_recorte",
+   "titulo": "Figura de livro",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 40,
+   "classe": "fora_do_recorte",
+   "titulo": "Vírus e câncer: aula 78",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 41,
+   "classe": "capa",
+   "titulo": "Capa: fungos",
+   "justificativa": "capa sem conteúdo"
+  },
+  {
+   "numero": 42,
+   "classe": "conteudo",
+   "titulo": "Lâmina 42",
+   "itens": [
+    {
+     "id": "im63-s42-i42-a1",
+     "texto": "Apoio ao card au-balanca",
+     "card": "au-balanca"
+    }
+   ]
+  },
+  {
+   "numero": 43,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 43: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 44,
+   "classe": "conteudo",
+   "titulo": "Lâmina 44",
+   "itens": [
+    {
+     "id": "im63-s44-i44-a1",
+     "texto": "Apoio ao card au-balanca",
+     "card": "au-balanca"
+    }
+   ]
+  },
+  {
+   "numero": 45,
+   "classe": "conteudo",
+   "titulo": "Lâmina 45",
+   "itens": [
+    {
+     "id": "im63-s45-i45-a1",
+     "texto": "Apoio ao card au-balanca",
+     "card": "au-balanca"
+    }
+   ]
+  },
+  {
+   "numero": 46,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 46: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 47,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 47: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 48,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 48: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 49,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 49: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 50,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 50: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 51,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 51: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 52,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 52: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 53,
+   "classe": "logistica",
+   "titulo": "Divisória: fungos",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 54,
+   "classe": "conteudo",
+   "titulo": "Lâmina 54",
+   "itens": [
+    {
+     "id": "im63-s54-i54-a1",
+     "texto": "Apoio ao card au-fungos-tipos",
+     "card": "au-fungos-tipos"
+    }
+   ]
+  },
+  {
+   "numero": 55,
+   "classe": "conteudo",
+   "titulo": "Lâmina 55",
+   "itens": [
+    {
+     "id": "im63-s55-i55-1",
+     "texto": "Fungos oportunistas × primários",
+     "card": "au-fungos-tipos"
+    }
+   ]
+  },
+  {
+   "numero": 56,
+   "classe": "conteudo",
+   "titulo": "Lâmina 56",
+   "itens": [
+    {
+     "id": "im63-s56-i56-a1",
+     "texto": "Apoio ao card au-fungos-protecao",
+     "card": "au-fungos-protecao"
+    }
+   ]
+  },
+  {
+   "numero": 57,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 57: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 58,
+   "classe": "conteudo",
+   "titulo": "Lâmina 58",
+   "itens": [
+    {
+     "id": "im63-s58-i58-1",
+     "texto": "Parede do fungo: açúcares como PAMPs",
+     "card": "au-fungos-pamps"
+    }
+   ]
+  },
+  {
+   "numero": 59,
+   "classe": "conteudo",
+   "titulo": "Lâmina 59",
+   "itens": [
+    {
+     "id": "im63-s59-i59-1",
+     "texto": "β-glucana do fungo é reconhecida pela Dectin-1",
+     "card": "sh-1791743340332"
+    }
+   ]
+  },
+  {
+   "numero": 60,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 60: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 61,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 61: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 62,
+   "classe": "conteudo",
+   "titulo": "Lâmina 62",
+   "itens": [
+    {
+     "id": "im63-s62-i62-1",
+     "texto": "NETs: redes de cromatina com proteínas antimicrobianas",
+     "card": "sh-1791743344060"
+    }
+   ]
+  },
+  {
+   "numero": 63,
+   "classe": "conteudo",
+   "titulo": "Lâmina 63",
+   "itens": [
+    {
+     "id": "im63-s63-i63-1",
+     "texto": "Inflamassoma: IL-1β para Th17 e IL-18 para Th1",
+     "card": "au-fungos-il1"
+    },
+    {
+     "id": "im63-s63-i63-2",
+     "texto": "Inflamassoma aumenta IL-1β e IL-18",
+     "card": "sh-1791743339860"
+    }
+   ]
+  },
+  {
+   "numero": 64,
+   "classe": "conteudo",
+   "titulo": "Lâmina 64",
+   "itens": [
+    {
+     "id": "im63-s64-i64-a1",
+     "texto": "Apoio ao card au-fungos-il1",
+     "card": "au-fungos-il1"
+    }
+   ]
+  },
+  {
+   "numero": 65,
+   "classe": "conteudo",
+   "titulo": "Lâmina 65",
+   "itens": [
+    {
+     "id": "im63-s65-i65-a1",
+     "texto": "Apoio ao card au-fungos-protecao",
+     "card": "au-fungos-protecao"
+    }
+   ]
+  },
+  {
+   "numero": 66,
+   "classe": "conteudo",
+   "titulo": "Lâmina 66",
+   "itens": [
+    {
+     "id": "im63-s66-i66-1",
+     "texto": "Th1 e Th17 protegem; Th2 e Treg pioram",
+     "card": "au-fungos-protecao"
+    },
+    {
+     "id": "im63-s66-i66-a1",
+     "texto": "Apoio ao card au-fungos-protecao",
+     "card": "au-fungos-protecao"
+    }
+   ]
+  },
+  {
+   "numero": 67,
+   "classe": "conteudo",
+   "titulo": "Lâmina 67",
+   "itens": [
+    {
+     "id": "im63-s67-i67-a1",
+     "texto": "Apoio ao card au-fungos-protecao",
+     "card": "au-fungos-protecao"
+    }
+   ]
+  },
+  {
+   "numero": 68,
+   "classe": "conteudo",
+   "titulo": "Lâmina 68",
+   "itens": [
+    {
+     "id": "im63-s68-i68-a1",
+     "texto": "Apoio ao card au-fungos-protecao",
+     "card": "au-fungos-protecao"
+    }
+   ]
+  },
+  {
+   "numero": 69,
+   "classe": "conteudo",
+   "titulo": "Lâmina 69",
+   "itens": [
+    {
+     "id": "im63-s69-i69-1",
+     "texto": "Th1 ativa macrófagos M1",
+     "card": "sh-1791625434032"
+    },
+    {
+     "id": "im63-s69-i69-2",
+     "texto": "Th2 ativa macrófagos M2",
+     "card": "sh-1791625434457"
+    }
+   ]
+  },
+  {
+   "numero": 70,
+   "classe": "conteudo",
+   "titulo": "Lâmina 70",
+   "itens": [
+    {
+     "id": "im63-s70-i70-1",
+     "texto": "Sem TNF-α não há granuloma e a infecção reativa",
+     "card": "ak1503254160003"
+    },
+    {
+     "id": "im63-s70-i70-2",
+     "texto": "Granuloma: IL-12 dos macrófagos",
+     "card": "sh-1791716421256"
+    },
+    {
+     "id": "im63-s70-i70-3",
+     "texto": "Granuloma: IFN-γ do Th1 gera histiócitos epitelioides",
+     "card": "sh-1791625436658"
+    }
+   ]
+  },
+  {
+   "numero": 71,
+   "classe": "conteudo",
+   "titulo": "Lâmina 71",
+   "itens": [
+    {
+     "id": "im63-s71-i71-1",
+     "texto": "Th17 recruta neutrófilos",
+     "card": "sh-1791625422039"
+    },
+    {
+     "id": "im63-s71-i71-2",
+     "texto": "Th17 secreta IL-17, IL-21 e IL-22",
+     "card": "sh-1791625422173"
+    }
+   ]
+  },
+  {
+   "numero": 72,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 72: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 73,
+   "classe": "conteudo",
+   "titulo": "Lâmina 73",
+   "itens": [
+    {
+     "id": "im63-s73-i73-a1",
+     "texto": "Apoio ao card au-fungos-protecao",
+     "card": "au-fungos-protecao"
+    }
+   ]
+  },
+  {
+   "numero": 74,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 74: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 75,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 75: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 76,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 76: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 77,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 77: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 78,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 78: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 79,
+   "classe": "fora_do_recorte",
+   "titulo": "Paracoccidioidomicose: GR4",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 80,
+   "classe": "fora_do_recorte",
+   "titulo": "Paracoccidioidomicose: GR4",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 81,
+   "classe": "fora_do_recorte",
+   "titulo": "Paracoccidioidomicose: GR4",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  }
+ ],
+ "capitulo": [
+  {
+   "secao": "Apostila guia de Imuno (aula 8: fungos; aula 9: vírus) e monitoria P3 (aula 12)",
+   "itens": [
+    {
+     "id": "im63-cap-l1",
+     "texto": "PAMPs de fungos e lectinas tipo C",
+     "card": "au-fungos-pamps"
+    },
+    {
+     "id": "im63-cap-l2",
+     "texto": "Treg por TLR2 prejudica a resposta antifúngica",
+     "card": "au-fungos-protecao"
+    },
+    {
+     "id": "im63-cap-l3",
+     "texto": "Inflamassoma: IL-1β para Th17 e IL-18 para Th1",
+     "card": "au-fungos-il1"
+    },
+    {
+     "id": "im63-cap-l4",
+     "texto": "TLRs, RLRs e NLRs reconhecem vírus; IFN α/β e NK",
+     "card": "au-tlr-virus"
+    },
+    {
+     "id": "im63-cap-l5",
+     "texto": "Escape: MHC I, MHC II, homólogos de citocinas",
+     "card": "au-evasao-mhc"
+    },
+    {
+     "id": "im63-cap-l6",
+     "texto": "ISGs induzidos por IFN: ação direta sobre o vírus e reprogramação metabólica",
+     "card": "ak1520301328706"
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "fonte": "Provas UC03 (índice imuno-11)",
+   "itens": [
+    {
+     "id": "im63-prova-p1",
+     "texto": "Fatores da imunidade inata antiviral (2025 P3 2.5)",
+     "card": [
+      "au-tlr-virus",
+      "sh-1791984890453",
+      "sh-1791984891454"
+     ]
+    },
+    {
+     "id": "im63-prova-p2",
+     "texto": "Como os vírus disparam a resposta imune e formas ativadas (2018 P3 1.7)",
+     "card": [
+      "au-tlr-virus",
+      "sh-1792240189143"
+     ]
+    },
+    {
+     "id": "im63-prova-p3",
+     "texto": "Interferon como medida de controle (2017 P3 4.2)",
+     "card": "sh-1791984890453"
+    }
+   ]
+  }
+ ]
+}

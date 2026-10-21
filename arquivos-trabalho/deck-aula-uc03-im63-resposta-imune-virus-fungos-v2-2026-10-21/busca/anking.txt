@@ -1,0 +1,101 @@
+### interferon | AnKing | (interferon AND (viral OR virus)) | 20 notas
+  1461792762468 [AnKingOverhaul] 1-HighYield {{c1:: Interferons }} are immunomodulatory {{c2:: cytokines }} that are released from virus-infected host cells
+  1461794607480 [AnKingOverhaul] 1-HighYield Interferon {{c2:: α }} may be used in the treatment of hepatitis {{c1:: B }} and {{c1:: C }} infections
+  1461794652364 [AnKingOverhaul] 1-HighYield Interferon- α may be used to treat {{c1::Kaposi sarcoma}} caused by HHV-8
+  1461794689858 [AnKingOverhaul] 2-RelativelyHighYield Which hepatitis drug causes flu-like symptoms as a possible side effect? {{c1::Interferon-α}}
+  1461794711294 [AnKingOverhaul] 3-HighYield-temporary Chronic therapy of interferon-α may result in {{c1::neurotoxicity}}, causing mood disorders (e.g., depression ) and confusion
+  1461794728973 [AnKingOverhaul] 2-RelativelyHighYield Which hepatitis drug has myelosuppression as a possible side effect? {{c1::Interferon-α}}
+  1461797595100 [AnKingOverhaul] 5-LowYield What traditional treatment for hepatitis C is no longer used? {{c1:: Interferon α and ribavirin ::2}}
+  1461797786977 [AnKingOverhaul] 2-RelativelyHighYield What is the traditional standard treatment for hepatitis B ? {{c1::Interferon α + lamivudine}}
+  1487117310594 [AnKingOverhaul] 1-HighYield Which interferon(s) enhance(s) activity of natural killer cells ? {{c1::Interferon-α and interferon-β}}
+  1489970516941 [AnKingOverhaul] 1-HighYield Which cytokine increases MHC class II expression and antigen presentation on all cells? {{c1::IFN-γ}}
+  1489970693302 [AnKingOverhaul] 1-HighYield {{c1:: Interferon-α }} and {{c1:: -β }} are glycoproteins synthesized by virus-infected cells that act locally on uninfected cells , "priming" them for viral defense
+  1495632714029 [AnKingOverhaul] 1-HighYield All-trans retinoic acid (ATRA) can be used to treat the {{c1::measles}} virus
+  1497203002753 [AnKingOverhaul] 1-HighYield Interferons stimulate antitumor activity by activating {{c1:: natural killer & CD8+ T ::2}} cells
+  1497440201761 [AnKingOverhaul] 4-LowerYield Chronic use of interferon- α is associated with patients experiencing flu-like symptoms; as well as {{c1:: depression }}, {{c2:: neutro }} penia , and myopathy
+  1497440851060 [AnKingOverhaul] 3-HighYield-temporary When viruses enter cells, they can trigger the host ( via capsule / viral products ) to produce type I interferons by activation of cytosolic {{c1:: pattern recognition receptors }}
+  1497441651476 [AnKingOverhaul] 3-HighYield-temporary IFN-α and IFN-β can cause a(n) {{c1:: flu-like syndrome }} that can be symptomatically taken care of with ibuprofen
+  1516759912872 [AnKingOverhaul] 1-HighYield Which recombinant cytokine can be used to treat Kaposi sarcoma ? {{c1::IFN-α}}
+  1520301328706 [AnKingOverhaul] 5-LowYield Type I interferons downregulate {{c1::protein synthesis}} to resist potential viral replication
+  1520301453074 [AnKingOverhaul] 1-HighYield Type I interferons (IFN- α and IFN-β) increase cell surface expression of {{c1::MHC I}} proteins to facilitate recognition of infected cells
+  1556707648463 [AnKingOverhaul]  IFN-α can be used to treat which hepatitis infections? {{c1::Hepatitis B and C}}
+### interferon | Externos | (interferon AND (viral OR virus)) | 3 notas
+  1556144067381 [AnKingMCAT (An]  A/an {{c1::interferon::type of protein}} interferes with {{c2:: viral replication and dispersion}}.
+  1701946117619 [Cloze-AnKingMa]  Antimicrobial Chemicals in Innate Immunity Leukocytes and specific tissue barrier cells produce a range of antimicrobial chemicals, which are key components of innate immunity. These include
+  1701956192577 [Cloze-AnKingMa]  Antigen-Presenting Cells (APCs) in Adaptive Immunity Professional vs. Nonprofessional APCs Professional APCs : Include {{c1::dendritic}} cells, many {{c1::monocyte}}-derived cells like {{c1:
+### nk | AnKing | ("natural killer" AND (virus OR viral OR MHC)) | 6 notas
+  1487117308213 [AnKingOverhaul] 2-RelativelyHighYield Natural killer cells may induce apoptosis of virally infected cells and tumor cells via release of {{c1:: perforins }} and {{c1:: granzymes }}
+  1487117310594 [AnKingOverhaul] 1-HighYield Which interferon(s) enhance(s) activity of natural killer cells ? {{c1::Interferon-α and interferon-β}}
+  1487117314403 [AnKingOverhaul] 1-HighYield {{c2:: Natural killer }} cells are induced to kill cells that have an absence of {{c1:: MHC I }} on their cell surface
+  1489970456186 [AnKingOverhaul] 1-HighYield Which immune cells secrete IFN-γ ? {{c1::Natural killer (NK) cells and Th 1 cells::2}}
+  1497203002753 [AnKingOverhaul] 1-HighYield Interferons stimulate antitumor activity by activating {{c1:: natural killer & CD8+ T ::2}} cells
+  1518053116398 [AnKingOverhaul] 2-RelativelyHighYield Tumor cells that downregulate MHC class I can be detected and destroyed by {{c1::natural killer}} cells
+### nk | Externos | ("natural killer" AND (virus OR viral OR MHC)) | 8 notas
+  1556145810087 [AnKingMCAT (An]  {{c1::Natural killer cells}} are a type of {{c2::lymphocyte}} that can {{c2:: recognize and kill cancer cells or other cells that have been infected::do what?}} without the need for antigens
+  1701945102581 [Cloze-AnKingMa]  Innate Immunity and Its Mechanisms Innate immunity involves {{c1::immediate::timing}}, nonspecific defenses against pathogens. Physical barriers , such as the {{c2:: skin }} and {{c2::mucous
+  1701945299901 [Cloze-AnKingMa]  Primary Defense Mechanisms in Innate Immunity Physical Barriers Skin and mucous membranes act as the first line of defense to block pathogen entry. Cellular Defenses - Innate Immunity If pat
+  1701953676207 [Cloze-AnKingMa]  Functions of {{c1::IgG::x}} and {{c1::IgA::x}} Antibodies Antigen-Binding Sites {{c2::Neutraliza}}tion : Ig{{c1::G}} and Ig{{c1::A}} antibodies can bind to and {{c2:: neutralize ::x}} viral 
+  1701953769955 [Cloze-AnKingMa]  Fc Portion Functions in Innate Immunity Complement Activation Antigen-antibody complexes containing Ig{{c1::G}} or Ig{{c1::M}} activate the complement system . Complement activation leads to
+  1701953888050 [Cloze-AnKingMa]  {{c1::Fc::x}} Portion Functions in Innate Immunity {{c1:: Opsonization }} = process where pathogens are marked ( by antibodies or complement proteins ) for destruction by {{c2::phagocytes::g
+  1701954484374 [Cloze-AnKingMa]  Fc Portion Functions in Innate Immunity {{c3::NK Cell::x}} Activation Antibodies (IgG) bound to antigens on {{c2::virus}}-infected cells (and certain {{c2::tumor}} cells) are recognized by {
+  1701955861364 [Cloze-AnKingMa]  {{c1::Antigen-Presenting Cells (APCs)::x}} in Adaptive Immunity Role in Adaptive Immune Responses {{c1:: APCs }} are crucial in the adaptive immune system , working alongside {{c1::(T & B) l
+### mhc | AnKing | ("MHC I" AND (virus OR viral OR CMV)) | 6 notas
+  1487117314403 [AnKingOverhaul] 1-HighYield {{c2:: Natural killer }} cells are induced to kill cells that have an absence of {{c1:: MHC I }} on their cell surface
+  1502069364234 [AnKingOverhaul] 2-RelativelyHighYield {{c1:: Nef }} is a cytoplasmic accessory protein of HIV that enhances viral replication through downregulation of {{c2:: CD4 }} and {{c2:: MHC I }} expression
+  1503876156644 [AnKingOverhaul] 3-HighYield-temporary CMV infects white blood cells and blocks expression of {{c1::MHC I}}, inhibiting cytotoxic T-cell killing
+  1503876244084 [AnKingOverhaul] 1-HighYield Which herpesvirus inhibits expression of MHC I in infected cells? {{c1::CMV}}
+  1518053116398 [AnKingOverhaul] 2-RelativelyHighYield Tumor cells that downregulate MHC class I can be detected and destroyed by {{c1::natural killer}} cells
+  1520301453074 [AnKingOverhaul] 1-HighYield Type I interferons (IFN- α and IFN-β) increase cell surface expression of {{c1::MHC I}} proteins to facilitate recognition of infected cells
+### mhc | Externos | ("MHC I" AND (virus OR viral OR CMV)) | 0 notas
+### il10 | AnKing | ("IL-10" AND EBV) | 0 notas
+### il10 | Externos | ("IL-10" AND EBV) | 0 notas
+### fungos | AnKing | (fungal AND (immun* OR Th17 OR Th1 OR beta-glucan)) | 53 notas
+  1402961229963 [AnKingOverhaul] 2-RelativelyHighYield {{c1::Mucormycosis}} is an opportunistic fungal infection that is mostly seen in DKA and leukemic patients
+  1402962164915 [AnKingOverhaul] 2-RelativelyHighYield {{c1::Mucormycosis}} is an opportunistic fungal infection that presents with headache , facial pain , and a black necrotic eschar on the face
+  1462327377004 [AnKingOverhaul] 1-HighYield What fungal infection is a feared complication in diabetic ketoacidosis (DKA)? {{c1::Mucormycosis}}
+  1481771519577 [AnKingOverhaul] 4-LowerYield What is a common cause of fungal meningitis in an HIV+ individual ? {{c1:: Cryptococcus species}}
+  1482191403303 [AnKingOverhaul] 3-HighYield-temporary Oral candidiasis and hairy leukoplakia are usually seen in {{c1::immunocompromised}} individuals
+  1487469962274 [AnKingOverhaul] 2-RelativelyHighYield Which type of necrosis is characteristic of tuberculosis and fungal infections ? {{c1::Caseous necrosis}}
+  1487470255062 [AnKingOverhaul] 1-HighYield What enzymes reduce hydrogen peroxide ( H 2 O 2 ) to O 2 and H 2 O ? {{c1::Catalase}} and {{c1::glutathione peroxidase}}
+  1487727508642 [AnKingOverhaul] 3-HighYield-temporary DiGeorge syndrome is characterized by {{c1:: decreased }} number of T cells
+  1487727546252 [AnKingOverhaul] 1-HighYield Which immunodeficiency presents with recurrent infection , failure to thrive , chronic diarrhea , and thrush ? {{c1::Severe combined immunodeficiency (SCID)}}
+  1487727725918 [AnKingOverhaul] 5-LowYield IL- {{c1:: 12 }} receptor deficiency is characterized by a decreased Th 1 response
+  1487727777884 [AnKingOverhaul] 4-LowerYield Immunodeficiencies with decreased {{c1:: B }} cells tend to present with recurrent {{c2:: bacterial }}, {{c3:: enterovirus }}, and {{c4:: Giardia }} infections
+  1487727785545 [AnKingOverhaul] 4-LowerYield Immunodeficiencies with decreased {{c1:: T }} cells tend to cause recurrent {{c2:: viral }} and {{c3:: fungal }} infections
+  1489966943274 [AnKingOverhaul] 1-HighYield Are calcineurin inhibitors (e.g., cyclosporine and tacrolimus ) nephrotoxic ? {{c1::Yes (highly)}}
+  1496187577429 [AnKingOverhaul]  What is the likely diagnosis in a patient with previous TB infection who presents with months of weight loss , fatigue , and hemoptysis without night sweats, fever, or chest pain (imaging be
+  1499968803765 [AnKingOverhaul] 5-LowYield Most often, severe fungal infections occur in {{c1::immunocompromised/suppressed}} patients
+  1499970467218 [AnKingOverhaul] 1-HighYield Chronic {{c1:: Histoplasmosis ::fungal infection}} can look similar to {{c2:: tuberculosis (TB)}}, with cavitary lesions in the upper lobes of the lungs and {{c2:: calcified }} nodules with 
+  1499970816194 [AnKingOverhaul] 2-RelativelyHighYield Dissemination of {{c2:: Histoplasmosis ::which fungal infection}} in immunocompromised patients to the {{c3:: liver }} and {{c3:: spleen }} results in {{c3:: hepatospleno }} megaly , with gr
+  1499974928695 [AnKingOverhaul] 2-RelativelyHighYield {{c1:: Erythema nodosum }} symbolizes a robust immune response , therefore this symptom of {{c2:: coccidioidomycosis and histoplasmosis ::which two fungal infections}} typically occurs in ot
+  1500051342572 [AnKingOverhaul] 5-LowYield Malassezia furfur can cause many more problems, other than just pityriasis versicolor , in {{c1::immunocompromised}} patients
+  1500152247775 [AnKingOverhaul] 2-RelativelyHighYield Tinea capitis is a dermatophyte infection of the scalp, often caused by Trichophyton spp. , and almost always occurs in {{c1::young children::age group}}
+  1500233417765 [AnKingOverhaul] 2-RelativelyHighYield {{c1:: Candida albicans ::Which fungus}} is the most common cause of opportunistic mycoses
+  1500234392681 [AnKingOverhaul] 2-RelativelyHighYield Individuals with {{c3:: chronic granulomatous }} disease are susceptible to colonization by {{c2:: catalase }} -positive organisms such as {{c1:: Candida and Aspergillus ::which fungi (2)}}
+  1500234684400 [AnKingOverhaul] 1-HighYield Candida albicans is normal flora of the {{c1::GI}} tract, including the {{c1::oral}} cavity
+  1500234954735 [AnKingOverhaul] 2-RelativelyHighYield {{c3:: Oral and esophageal ::Which location(s) of the body}} {{c2:: candidiasis ::fungal infection}} may be seen in the immuno {{c1:: compromised }} or those using oral {{c1:: steroids }}
+  1500238441939 [AnKingOverhaul] 1-HighYield {{c1:: Aspergillus ::Which fungus}} has {{c2:: acute (< 45°) }}-{{c2:: angle }} branching hyphae with {{c3:: septations }}
+  1500239144039 [AnKingOverhaul] 1-HighYield {{c1:: Allergic bronchopulmonary aspergillosis (ABPA) }} is a type {{c2:: I }} hypersensitivity reaction caused by Aspergillus fumigatus
+  1500240180987 [AnKingOverhaul] 1-HighYield {{c1:: Invasive aspergillosis }} occurs due to Aspergillus fumigatus infection in {{c2:: immunocompromised }} patients
+  1500241012890 [AnKingOverhaul] 1-HighYield {{c1:: Mucormycosis and Aspergillus fumigatus ::Which two fungal infections}} can spread to the {{c2:: paranasal }} sinuses and result in necrosis around the {{c2:: nose }}
+  1500243661654 [AnKingOverhaul] 1-HighYield Oral thrush of the mouth that appears as a white exudate on mucous membranes is due to {{c1:: Candida albicans ::which fungus}}
+  1500244855818 [AnKingOverhaul] 3-HighYield-temporary Cryptococcus is a(n) {{c1::opportunistic}} infection, with most symptoms occurring in immunocompromised patients (e.g., {{c1::HIV}}+ patients, those with malignancies, high-dose steroid ther
+### fungos | Externos | (fungal AND (immun* OR Th17 OR Th1 OR beta-glucan)) | 0 notas
+### dectin | AnKing | (dectin OR "C-type lectin" OR beta-glucan) | 0 notas
+### dectin | Externos | (dectin OR "C-type lectin" OR beta-glucan) | 1 notas
+  1559363129582 [AnKingMCAT (An]  {{c1::Langerhans cells}} are a type of {{c2::dendritic}} cells found in the {{c2:: skin }}. They present {{c2::antigens}} to {{c2::T cells}}.
+### inflam | AnKing | (inflammasome AND (IL-1 OR IL-18)) | 5 notas
+  1497215299862 [AnKingOverhaul] 4-LowerYield Canakinumab is a biologic that binds and prevents the activity of IL-{{c1:: 1β }}
+  1497215831699 [AnKingOverhaul] 4-LowerYield Periodic fever syndromes can be treated with {{c1:: canakinumab }}
+  1497310326771 [AnKingOverhaul] 3-HighYield-temporary In gout / pseudogout , pattern recognition receptors detect {{c3:: crystalline deposits }} in joints leading to an inflammatory cascade mediated by {{c2:: IL-1 }}, which causes joints to be 
+  1520715624658 [AnKingOverhaul] 5-LowYield The {{c1::inflammasome}} is a cytoplasmic protein complex that recognizes products of dead cells , microbial products, and crystals
+  1520715849479 [AnKingOverhaul] 3-HighYield-temporary Activation of the inflammasome leads to increased production of {{c1::IL-1β}} and IL-18
+### inflam | Externos | (inflammasome AND (IL-1 OR IL-18)) | 0 notas
+### tlr | AnKing | (TLR3 OR TLR7 OR TLR9) | 0 notas
+### tlr | Externos | (TLR3 OR TLR7 OR TLR9) | 0 notas
+### antigenic | AnKing | ("antigenic drift" OR "antigenic shift") | 4 notas
+  1516323022237 [AnKingOverhaul] 1-HighYield Antigenic drift is associated with {{c2:: epi }} demics
+  1516323064948 [AnKingOverhaul] 1-HighYield Antigenic {{c1:: shift }} occurs with HA/NA {{c2:: reassortment }} amongst different {{c3:: species }}
+  1516323168130 [AnKingOverhaul] 1-HighYield Antigenic shift is associated with {{c2:: pan }} demics
+  1523806341324 [AnKingOverhaul] 1-HighYield Which viral genetic phenomenon can cause antigenic shift ? {{c1::Reassortment}}
+### antigenic | Externos | ("antigenic drift" OR "antigenic shift") | 0 notas

@@ -1,0 +1,5 @@
+# #AK_Step1_v12::#FirstAid::04_Pathology::02_Inflammation::04_Acute_inflammation::*Toll_Like_Receptors (4 notas)
+1487639996379 4-LowerYield Pattern recognition receptors (PRRs) on cells of the immune system are activated by pathogen-associated molecular patterns (PAMPs) that are commonly shared by microbes
+1487640013531 5-LowYield Are toll-like receptors (TLRs) found on cells of the innate or adaptive immune system? Both :)
+1487640028986 3-HighYield-temporary CD 14 is a co-receptor for TLR4 found on macrophages that recognizes lipopolysaccharide (LPS) on gram- negative bacteria
+1487640050564 - Toll-like receptor (TLR) activation results in upregulation of NF-κB , a nuclear transcription factor that activates immune response genes

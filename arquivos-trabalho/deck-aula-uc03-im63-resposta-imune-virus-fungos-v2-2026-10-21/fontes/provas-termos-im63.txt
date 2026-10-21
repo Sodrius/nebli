@@ -1,0 +1,148 @@
+# provas imuno/vírus/fungos por termo (consultar.py --termo: fung, evas, antiviral, Th17, inflamassoma, natural killer, citotóxic, interferon, vírus), 21/10
+
+── [2018 P2] 1.5 (PT/IM/MB)
+   P: 0,5 pontos – Aponte os principais elementos morfológicos do processo inflamatório apresentado na lesão, correlacionando -os com os processos imunológicos envolvidos na formação deste tipo de resposta e os elementos estruturais fúngicos importantes na sua deflagração. 2
+   G: A formação deste tipo de padrão de resposta inicia -se com o reconhecimento de elementos superficiais dos fungos pelos sistema imune inato; os elementos mais importantes estão na parede celular e membrana dos fungos – os diferentes açúcares (como beta glucanas, mananas, glicosaminoglicanos e outros) presentes na parede celular são potentes estimuladores dos PRRs, em especial Dectin-1, Receptor de manose, Mincle, TLR4, TLR2 e etc. Este processo pode ativar o inflamassoma e consequentemente a produção de IL -1 beta e IL-18 os mecanismos efetores da imunidade inata e adaptativa. Associado a isso o reconhecimento dos ova P2 – Pág5 fungos por PRRs de APCs, no contexto da secreção de IL-18 pelo inflamassoma, favorece o desenvolvimento de resposta imune adaptativa, de padrão Th1. Este padrão de resposta adaptativa levará ao recrutamento de monócitos, ativação destes pelas células Th1 (especial
+
+
+── [2018 P2] 2.1 (IM)
+   P: 0,7 pontos – Sabe-se que na resposta a estes agentes, além da formação do padrão inflamatório anteriormente apresentado, é possível encontrar neutrófilos como importantes efetor es da resposta. Explique os mecanismos imunológicos que determinam o recrutamento deste padrão de resposta a agentes como o Sporothrix spp.
+   G: Um dos aspectos centrais da resposta imune aos fungos é ativação do inflamassoma (através do reconhecimento de PAMPs pelos PRRs. Uma das vias efetoras deste processo inclui a liberação de IL -18 (que ativa a resposta Th1) e também IL -1beta que pode ativar um padrão de resposta Th17. Particularmente a resposta Th17, tem como característica a liberaç ão de IL-17 que por sua vez estimula a liberação local de TNF, IL -1 e IL -6 e da quimiocina IL -8 (humanos) ou KC (camundongos) que têm papel fundamental no recrutamento e ativação de neutrófilos que têm papel fundamental no recrutamento de neutrófilos como importante mecanismo efetor deste padrão de resposta, neutrófilos estes com maior capacidade oxidativa. Além disso a ativação de células apresentadoras de antígeno podem ter papel importante não apenas através da liberação de TNF mas também através da liberação de leucotrienos, important
+
+
+── [2017 P2] 2.8 (IM)
+   P: 1,0 ponto – Explique, de forma geral, como se dá a montagem da resposta imune inata a este tipo de microorganismo. Descreva os padrões e mecanismos de ação de respostas imunes adaptativas que estão associados à imunoproteção ou forma branda da doença e aqueles associados a casos graves, agudos da doença.
+   G: Inicialmente há o reconhecimento de PAMPs expressos pelo microorganismo (os PAMPS podem ser açucares como b-glicana, manose, quitina entre outros), por PRRs na células do sistema imune residentes nos tecidos como macrófagos e células dendríti cas (os principais PRRs são TLR4, TLR2, MR e dectinapor exemplo). Coroa linfocitária Células epitelióides com ou sem células gigantes Centro necrótico com restos celulares e microorganismos va P2 – Pág13 Esta sinalização leva à ativação das células da imunidade inata incluindo ativação da fagoc itose, produção de espécies reativas de oxigênio e ativação do inflamassomoque resulta na secreção de IL-1beta, e IL-18. Neste sentido as células apresentadoras de antígeno também fagocitarão o fungo (por este reconhecimento ou por opsonização pelo complemento), processando antígenos do fungo e apresentando -os através de moléculas do HLA/ MHC bem como moléc
+
+
+── [2017 P2] 2.9 (IM)
+   P: 0,6 pontos – Como um fungo patogênico que infecta macrófagos e células dendríticas através da fagocitose (via endocítica) pode induzir a diferenciação e expansão de linfócitos específicos T CD8+?
+   G: Considerando as etapas já anteriormente descritas – isto é – o reconhecimento PAMP / PRR, fagocitose e apresentação dos antígenos do fungos no contexto de moléculas do HLA / MHC IIe do reconhecimento destas pelos linfócitos T (acoplamento TCR / MHC+peptídeo e moléculas co-estimulatórias) e a liberação de IL-12 haverá a ativação de um perfil Th1 nestes linfócitos que redundará, como já visto, na aumento da atividade fagocíticae microbicida dos macrófagos eAPCs. Este processo não apenas possibilitará a expressão de peptídeos em moléculas de MHC IIcomo também poderá haver expressão de alguns peptídeos de componentes fúngicos translocados para o citoplasma que serão processados pela via exocítica e apresentados no contexto do MHC-I. Na realidade sabe-se pouco como os antígenos do fungo alcançam o citosol, mas a presença constante de respostas T CD8+ na imunidade contra fungos demonstram que
+
+
+── [2016 P3] 3.3 (IM)
+   P: 3,0 pts – Fungos como o H. capsulatum desencadeiam respostas complexas do sistema imune. Descreva as diferentes etapas desta resposta, partindo do reconhecimento inicial do agente infeccioso (por mecanismos inatos) e chegando até os possíveis mecanismos efetores (da imunidade adquirida) que p odem agir ova P3 – Pág 10 contra o mesmo. Mencione em sua resposta as principais categorias de moléculas de membrana, os tipos celulares e suas interações no correr da resposta.
+   G: a.
+
+
+── [2016 P3] 3.4 (IM)
+   P: 2,0 pts – Em infecções fúngicas, muitas vezes, os níveis de anticorpos contra antígenos do fungo são tanto mais altos quanto menos controlada estiver a doença. Como explicar este fenômeno? Se você quisesse desenvolver uma forma de intervenção imunológica para tratar tais infecções, que indicadores imunológicos de eficiência de sua intervenção você proporia? Explique sua resposta. QUESTÕES INDEPENDENTES 4 (PT) – 0,66 pt – Associe a fase da carcinogênese química (direita) com os eventos relacionados (esquerda): a) Iniciação 1 - ( a ) Hidrocarbonetos policíclicos aromáticos b) Promoção 2 - ( a
+   G: Na fase de iniciação carcinógenos químicos como os Hidrocarbonetos Policíclicos aromáticos (1) podem ter ação direta sobre as células ou sofrer ativação metabólica (4) favorecendo o desenvolvimento de lesão permanente no DNA (2). Esta lesão porém precisa ser passada à frente. Aí entra a segunda fase, na fase de promoção elementos não necessariamente mutagênicos (7) como os hormônios (6) favorecem a proliferação celular (3) e o acúmulo de mutações adicionais (5) que culminarão no desenvolvimento da neoplasia 5 (PT) – 0,66 pt – Aponte esquematicamente o principal gene envolvido na carcinogênese sequencial do cólon, nas etapas abaixo: ova P3 – Pág 11 Comentário: Na carcinogênese sequencial do cólon há mutações iniciais no gene da APC ou no sistema WNT-Beta-Catenina que favorecem o desenvolvimento de adenomas intraepiteliais e lesões de baixo grau. A mutação adicional do K-ras (um oncogene)
+
+
+── [2015 P2] 3.2 (IM)
+   P: Em respostas a fungos, muitas vezes participa um componente celular da resposta inata, que caracteristicamente é o primeiro a infiltrar sítios inflamatórios, mas cujo recrutamento, na infecção fúngica, é favorecido pela resposta imune adaptativa. Como isso acon tece e que célula estão envolvidas. Nesta questão espera-se que o aluno reconheça os neutrófilos como as células recrutadas,por modificações nas células endoteliais do sítio da infecção, com exposição de moléculas de adesão seletivas para tais células e secreção local de fatores quimiotáticos (principalmente quimiocinas), não só como
+   G: mo parte da resposta inflamatória aguda, mas também como consequência do desenvolver-se uma resposta imune adaptativa com predomínio de linfócitos T de padrão Th17.
+
+
+── [2015 P2] 3.3 (IM)
+   P: Descreva, desde o contato inicial com o fungo, as etapas necessárias, desde o processamento intracelular do fungo até as moléculas de membrana envolvidas, para que linfócitos específicos contra o fungo sejam ativados. Nesta questão espera-se que o aluno descreva: a captura de antígenos por células apresentadoras de antígenos profissionais(preferencialmente células dendríticas), potencialmente facilitado por mecanismos de opsonizacão, mas que pode ocorrer por receptores de fagocitose do tipo "scavenger”, seu processamento intracelular, com geração de peptídeos em vesículas endossômicas e asso
+   G: sociação destes a moléculas de classe II do complexo principal de histocompatibilidade, que são transportadas para a membrana. Uma vez na membrana celular da APC, a interação desta APC com um linfócito T expressando um TCR específico para o peptídeo gerado, no contexto daquela molécula de classe II, e a interação demoléculas co- estimuladoras da APC (CD40, CD80, CD86, etc) com seus ligantes na membrana do linfócito T (CD28, CD40L CTLA-4, etc), aliada à ação de citocinas secretadas no microambiente levarão a ativação e diferenciação do linfócitos T para um determinado padrão de resposta. A paciente foi tratada com antifúngicos evoluindo com melhora do quadro
+
+# 33 subquestões · anos: 2025, 2024, 2019, 2018, 2017, 2016, 2015
+
+── [2017 P3] 4.3 (IM)
+   P: 0,2 pontos – Sugira 2 (dois) mecanismos de evasão usado por vírus como o HCV para resistir a resposta imune e permanecer cronicamente nos tecidos, e até se associarem a tumorigênese.
+   G: Degradação de MHC I, retenção de MHC I, variabilidade genômica (variabilidade das regiões NS3 e NS5A do genoma do VHC), integração de proteínas virais ao hospedeiro (algumas proteínas do VHC teriam capacidade de disparar um sinal iniciador de processos celulares como proliferação, diferenciação ou apoptose). O VHC atenua a resposta inata antiviral de várias formas, ao nível da resposta IFN mediante a ação das proteínas virais: a protease NS3/NS4A inibe a ação de TRIF e IPS-1, bloqueando a sinalização desencadeada por TLR3 e RIG-1. Devido àelevada taxa de inserção de erros por parte da RNA polimerase dependente de RNA, quando ocorre a replicação, o escape mutacional do vírus à resposta imune adaptativa torna-se uma das principais estratégias de evasão da resposta imune pelo VHC. Além disso, as alterações ao nível da sequência da região hipervariável da glicopoteína E2 resultam no escape
+
+
+── [2024 P3] 1.7 (IM)
+   P: 0,8 pontos - Considerando seus con hecimentos de Imunologia sobre a resposta imune adaptativa antiviral, levando-se em consideração a presença de anticorpos na mucosa pulmonar do tipo IgA, explique detalhadamente como esta resposta imune culminou na geração deste subtipo de anticorpo, iniciando com a infecção numa célula epitelial pulmonar.
+   G: Apresentamos a seguir o processo detalhado, para conhecimento e aprimoramento formativo. Na avaliação da questão da prova, pelas limitações de espaço e tempo, este processo resumido será con siderado como correto. 1. Infecção Inicial e Ativação da Resposta Imune Inata Quando um vírus invade o trato respiratório, ele entra em contato com células epiteliais das vias aéreas. Ao infectar essas células, o vírus ativa a resposta imune inata: as células epiteliais reconhecem o patógeno através de receptores de reconhecimento de padrões (PRRs), como os Toll -like receptors (TLRs). A ativação dos PRRs gera sinais intracelulares que levam à produção de citocinas pró -inflamatórias e quimiocinas (ex.: IL -6, IL-8 e IFN tipo I), recrutando células imunes inatas como neutrófilos, macrófagos e células dendríticas para o local da infecção. 2. Processamento e Apresentação do Antígeno As células dendrít
+
+
+── [2018 P3] 1.7 (GR/MB/PT/IM/RD/BQ/BM)
+   P: 0,5 pontos – Explique como os vírus (e seus possíveis elementos estruturais) devem ter disparado a resposta imune, quais formas de resposta são ativadas e as eventuais repercussões patológicas destas repostas.
+   G: Os V írus como o da febre amarela podem ser reconhecidos atrav és de Padr ões Moleculares presentes no envelope viral – como por receptores destes padr ões (PRR) em c élulas da imunidade inata como macrófagos e células de Kupfer (macr ófagos hepáticos). Um dos mecanismos efetores importante na resposta imune inata nestas situações é a produção de interferon Alfa e Beta que podem ter efeito antiviral importante – reduzindo a ocorr ência de novas infecç ões nas c élulas vizinhas. Adicionalmente, componentes vir ais como material gen ético (fragmentos de RNA), prote ínas do caps ídeo, e prote ínas do envelope E e PrM podem ser processadas e apresentadas por células apresentadoras de antígenos infectadas, ou apresentadas no MHC I dos próprios hepatócitos. A ativação de células apresentadoras de antígeno e o reconhecimento destes por células T CD4+ poderão disparar uma resposta de padrão Th1
+
+
+── [2018 P3] 5.3 (PT/IM)
+   P: 0,4 pontos – Explique o mecanismo de formação da resposta imune neste caso e sua correlação com os potenciais achados patológicos neste caso, que justifiquem a dispneia progressiva.
+   G: O vírus da Influenza pode ser reconhecido através de Padrões Moleculares presentes no envelope viral – como por receptores destes padrões (PRR – como o TLR -3) em células da imunidade inata como macrófagos. Proteínas da superf ície como Hemaglutinina e Neuraminidase podem ser elementos importantes da deflagração da resposta imune. Um dos mecanismos efetores importante na resposta imune inata nestas situações é a produção de interferon Alfa e Beta que podem ter efeito antiviral importante – reduzindo a ocorrência de novas infecções nas células vizinhas. A ativação de células apresentadoras de antígeno e o reconhecimento destes por células T CD4+ poderão disparar uma resposta de padrão Th1 com liberação de IFN -gama – que tem maior efetividade na eliminação de vírus – tendo como mecanismos efetores, entre outros, a ativação de linfócitos T citotóxicos (CD8+). Além disso, os li nfócitos T
+
+
+── [2017 P3] 1.6 (IM)
+   P: 0,2 pontos – Considerando ainda a importância de anticorpos na resposta imune antiviral, quais são mecanismos efetores antivirais dependente de Fab e Fc (cite pelo menos dois para cada fator)?
+   G: Fc: ADCC, Sistema complemento e ativar/regular função celular via FcR Fab: neutralizar e eliminar o vírus A criança evoluiu bem e a mbas as crianças cresce ram com saúde e chegaram aos quatro anos sem apresentar outros problemas, porém, Pedro passou a apresentar constantemente tosse, chiado no peito, dificuldade de respirar, respiração ofegante após correr e secreção nas vias áreas superiores. Nos antecedente s familiares, Maria informou que apresentou quadro semelhante ao de Pedro quando era criança, tendo ficado internada por 5 dias na UTI, evoluindo com melhora.
+
+
+── [2017 P3] 4.2 (PT/IM)
+   P: 0,2 pontos – Explique o possível papel do Interferon como medida terapêutica / de controle da doença
+   G: O Interferon tem um papel importante nas infecções virais por ter um efeito limitador da infecção em células vizinhas (de forma parácrina). Uma célula infectada por vírus pode levar à ativação da expressão do gene do interferon. Este, sendo liberado pela célula infectada, atuará em células vizinhas através de segundos mensageiros levando à produção de proteínas antivirais (AVP por exemplo) que dificultam a infecção pelo vírus nestas células. Além disso o interferon tem capacidade de ativar células efetoras do sistema imune como as células NK, linfócitos T citotóxicos e macrófagos, além de aumentar a expressão de moléculas do MHC de Classe 1. Desta forma o uso terapêutico de interferon tem como base: 1) a ativação da resposta inflamatória / efetora antiviral e 2) estimular um status “anti-viral” nas células ainda não infectadas. Sabe-se adicionalmente que a hepatite C pode ter fases de r
+
+
+── [2017 P1] 4.3 (IM)
+   P: 0,33 pontos – Descreva dois mecanismos pelos quais os anticorpos podem proteger os indivíduos nas infecções virais. R: Os anticorpos podem proteger os indivíduos de infecções virais através de diferentes mecanismos efetores incluindo: 1 – Reconhecimento e opsonização do vírus – o que facilita seu reconhecimento e destruição por fagócitos – este é um mecanismo de evitar a infecção da célula. 2 – Ativação de citotoxicidade celular dependente de anticorpos (ADCC) – onde pode acontecer a lise de células infectadas por vírus que expressem o componente viral na superfície celular que são reconheci
+   G: cidos pelos anticorpos e células NK. As células NK (“natural killer”) que têm receptores de membrana para a região Fc dos anticorpos, são capazes de induzir a apoptose da célula infectada impedindo o crescimento viral e posterior infecção de células adjacentes.
+
+# 2 subquestões · anos: 2025, 2017
+
+── [2015 P2] 2.6 (IM)
+   P: Anticorpos contra o HBV são detectados no curso da infecção pelo vírus. Qual o seu papel na doença? Que outros componentes da imunidade participam da resposta efetora contra o vírus e como o fazem? Nessa questão a aluno deveria mencionar que: Anticorpos contra o HBV participam do controle da doença através da neutralização e eliminação do vírus. Contudo, podem também gerar destruição de tecidos, um processo que depende de mecanismos de hipersensibilidade com formação e deposição de imunecomplexos,. (O aluno poderia ainda citar outras atividades dos anticorpos, como a ADCC, ativação de comple
+   G: lemento e opsonização). O outro componente da imunidade que se espera que o aluno cite são os linfócitos T CD8+ cuja participação se dá pela citotoxicidade celular contra células infectadas, mas também pela secreção de citocinas (IFN-gama e TNF-alfa, principalmente) capazes de modificar as células infectadas de modo a torna - las capazes de se livrar do vírus. (O aluno poderia ainda citar as células NK, cuja participação se dá por mecanismos semelhantes aos de linfócitos T CD8+).
+
+# 15 subquestões · anos: 2025, 2024, 2018, 2017, 2016, 2015
+
+── [2025 P3] 2.2 (IM)
+   P: Descreva o papel da imunidade de mucosas, especialmente da IgA secretora e das células dendríticas intestinais, na contenção das infecções virais do trato digestivo.
+   G: A imunidade de mucosas é a principal barreira protetora contra vírus entéricos e como salientado no enunciado tem dois componentes importantes do sistema imune envolvidos a saber: 1 - IgA secretora (sIgA): É produzida por plasmócitos na lâmina própria e transportada para a luz e tem como funções: a) neutralizar vírus antes que estes infectem as células; ou b) aglutinar partículas virais e favorecer sua eliminação pelas fezes. 2 – Células dendríticas intestinais: Localizadas nas placas de Peyer e na lâmina própria, tem como funções: a) captação, processamento e apresentação de antígenos virais para células T para estimular o desenvolvimento da imunidade adaptativa; b) produzir citocinas antivirais (IL-12, IFN-α/β) e c) Participar na co-ativação de células B para a produção de plasmócitos secretores de IgA. Observação adicional: Algumas subpopulações de células dendríticas podem atravessa
+
+
+── [2023 P1] 2.7 (IM)
+   P: 0,5 pontos – Considerando que a resposta de longo prazo aos vírus, que tem potencial de reduzir as reinfecções, é dada fundamentalme nte por anticorpos, porque neste caso ela poderia ter novamente a doença, considerando que um vírus é composto por múltiplas estruturas lipídicas, açúcares e proteínas passíveis de serem reconhecidas pelo sistema imune?
+   G: De forma muito simplificada, podemos dizer que os anticorpos produzidos durante um quadro de infecção viral, são montados a partir de fragmentos virais apresentados no contexto do MHC / HLA e não do vírus olvido anticorpos contra alguns epítopos virais e não outros. Como os vírus sofrem mutações constantes, uma mutação naquele epítopo pode fazer com que aquela resposta inicial não seja mais eficiente. Da mesma forma outros componentes como açúcares são reconhecidos “muito frequentemente” pelos linfócitos B, sem serem reconhecidos pelos linfócitos T (que, quase sempre, “preferem” reconhecer antígenos protéicos). Com isto, embora o caráter repetitivo das moléculas de carboidratos seja capaz de estimular a resposta dos linfócitos B, a ausência da “ajuda” dos linfócitos T faz que a resposta fique restrita à produção de IgM e não gere memória. Outros aspectos que estão envolvidos neste quadr
+
+
+── [2019 P3] 3.4 (IM)
+   P: 0,3 pontos Que tipo de resposta de linfócitos B é a prevalente para os antígenos do vírus em questão? Explique brevemente o seu mecanismo de ativação. Como a IgG, no curso da resposta imune, pode adquirir maior atividade protetora?
+   G: a?
+
+
+── [2018 P1] 1.10 (IM)
+   P: 0,2 pontos - Considerando o vírus da Hepatite B, como se dá o seu reconhecimento pelos hepatócitos?
+   G: A ser disponibilizado em breve
+
+
+── [2018 P1] 1.11 (IM)
+   P: 0,2 pontos - Uma vez infectado pelo vírus da Hepatite B, como é montada uma resposta imune adquirida T CD8+ específica contra uma proteína do capsídeo (CORE) viral? Seja o mais especifico possível na sua resposta.
+   G: A lesão hepatocitária causada pelo vírus d a hepatite B leva à extrusão de componentes celulares e virais no meio externo. Estes componentes podem ser fagocitados por fagócitos locais , processados e apresentados no contexto de moléculas do HLA / MHC II nos linfonodos. Estes epitopos podem ser posteriormente reconhecidos por linfócitos T CD4+ que, na presença de um sinal coestimulatório são ativados (e ativam as próprias APCs) com produção de IL12 favorecendo a ativação de perfil de resposta TH1. É preciso falar adicionalmente da apresentação cruzada por células dendríticas! Os hepatócitos expõem os antígenos virais no contexto de moléculas de classe I, mas as outras APC, que não as DC, capturando os antígenos do meio extracelular, o exporão no contexto do MHC de classe II. Só a DC, realizando a apresentação cruzad a, apresentará no contexto de classe I e poderá, portanto, sensibilizar
+
+
+── [2018 P1] 1.12 (IM)
+   P: 0,3 pontos - Como a resposta imune adquirida pode positivamente influenciar a resposta imune inata contra o vírus da Hepatite B, e como a resposta imune inata pode negativamente influenciar a resposta imune adquirida contra o mesmo vírus?
+   G: A ser disponibilizado em breve
+
+
+── [2018 P1] 1.13 (IM)
+   P: 0,2 pontos - O equilíbrio entre o vírus e as células parenquimatosas hepáticas pode ser “quebrado” pelo sistema imune. Da mesma forma, este próprio equilibro pode ser realizado pelo sistema imune. Explique detalhadam ente esta dualidade do sistema , dando nomes e citando as características das células, dos órgãos e das moléculas que o compõem ova P1 – 2018 – Pág 7
+   G: A ser disponibilizado em breve Você teve acesso adicionalmente a avaliação do perfil de imunoglobulinas dest a paciente e você observou a presença de IgM contra o antígeno HBc, IgG contra o antígeno HBc, e IgG contra o antígeno HBe. Um exemplo da curva do perfil sorológico do paciente com Hepatite B crônica é apresentado na imagem a seguir, onde HBc, HBe e HBs são antígenos diferentes do vírus da hepatite B. O processo de recombinação V(D)J é fundamental no desenvolvimento de anticorpos contra diferentes epitopos e faz parte das respostas imunes a vírus e outros microrganismos. Este sistema porém não é exclusivo de humanos e pode acontecer também[em em outros animais.
+
+
+── [2018 P3] 5.4 (MB)
+   P: 0,4 pontos – O paciente refere que havia tomado já a vacina contra o vírus da influenza há 2 anos. Explique, em termos moleculares, por que a vacina não foi efetiva? ova P3 – Pág 16
+   G: A vacina pode não ter sido efetiva fundamentalmente por alteraç ões / mutações das proteínas vacinais. Neste caso, se houve uma mudança antigência exatamente nas proteínas com as quais a vacina foi preparada ela não será tão efetiva, ou at é inefetiva. Como o reconhecimento por anticorpos é uma resposta muito espec ífica, mesmo pequenas modificaç ões nas prote ínas – como nas variantes epid êmicas – podem levar à falha do reconhecimento por anticorpos, motivo pel o qual as vacinas contra influenza costumam ser sazonais e repetidas a cada ano.
+
+
+── [2018 P3] 5.5 (MB)
+   P: 0,5 pontos – Os vírus da Influenza podem estar envolvidos em epidemias e pandemias. Explique quais são as modificações virais envolvidas no surgimento de tipos pandêmicos do vírus.
+   G: As epidemias estão associadas geralmente a mudanças menores nos antígenos da hemaglutinina e neuraminidse, já nas pandemias, o que ocorre em geral é o surgimento de um novo tipo de hemaglutinina oriundas de um processo de antigenic shift. Esta alteração / mutação resulta em antígenos de superfície diferentes de forma que a população, mesmo vacinada, não terá imunidade a esta nova cepa viral. Cabe ressaltar que isso pode acontecer também através da troca entre vírus de diferentes espécies como aves e porcos gerando uma nova cepa patogênica. O papel da imunidade das mucosas em quadros virais respiratórios ainda não é completamente compreendida, embora certamente possa ter seu papel, assim como outros mecanismos de defesa importantes dos pulmões. O modelo mais didático para estudo da imunidade de mucosas está relacionado à mucosa do aparelho digestivo. Neste sentido:
+
+
+── [2017 P3] 1.4 (IM)
+   P: 0,2 pontos – Explique como os componentes celulares e acelulares da imunidade inata atuam na mucosa do trato respiratório para reconhecer e eliminar vírus como este.
+   G: Componentes acelulares: muco, cílios, defensinas, tosse, IgA de mucosa Celulares: macrófagos alveolares, NK, células dendríticas No pronto socorro foi solicitado também um exame de dosagem de IgG contra antígenos do vírus no sangue de Maria (a mãe) e de Pedro (filho). Os resultados são mostrados abaixo. ova P3 – Pág 4
+
+
+── [2016 P2] 1.1 (IM)
+   P: 1,1 pt – Após dois meses de infecção, a resposta imune adquirida já deve ter se estabelecido na paciente, mas no contato inicial com o agente infeccioso a resposta inata é o que predomina. Como se estabelece esta resposta aos vírus e de que maneira a resposta inata controla o desenvolvimento da resposta adquirida? Mencione o tipo celular (funcional), cuja participação desencadeada pela imunidade inata, é central no desencadear da resposta adquirida e descreva como este tipo celular o faz.
+   G: z.
+
+
+── [2016 P2] 1.5 (IM)
+   P: 1,1 pt – A produção de anticorpos após uma infecção atinge determinado nível e deixa de aumentar. Discuta os mecanismos que explicam este fenômeno. Considerando a evolução do quadro da paciente, com recuperação total, inferimos que o processo de resposta inflamatória ao vírus foi efetiva. Tendo estes aspectos em mente responda:
+   G: a:
+
+
+── [2015 P2] 5.5 (IM)
+   P: Quais os seus (IgW) mecanismos efetores numa infecção por um vírus entérico como o vírus da Polio? Nesta questão o aluno deve escrever que: A IgA neutraliza vírus entéricos como o da poliomielite, impedindo que infectem suas células-alvo. 6 (IM) - (ENUNCIADO PARA AS QUESTÕES 6.1 A 6.3) Na geração tímica do repertório de linfócitos T são conhecidos dois processos de seleção.
+   G: o.

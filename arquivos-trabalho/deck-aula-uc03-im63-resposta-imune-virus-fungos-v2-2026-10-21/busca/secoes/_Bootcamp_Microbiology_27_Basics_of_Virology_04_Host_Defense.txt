@@ -1,0 +1,15 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::04_Host_Defense (14 notas)
+1461792762468 1-HighYield Interferons are immunomodulatory cytokines that are released from virus-infected host cells
+1461794583601 2-RelativelyHighYield Upregulation of interferon synthesis in infected cells is accomplished by interleukins
+1487117288751 1-HighYield Cell-mediated immunity is used to defend against intra cellular agents
+1487117293576 1-HighYield Cytotoxic ( CD8 + ) T-cells kill virus infected, neoplastic, and donor graft cells by inducing apoptosis
+1487117308213 2-RelativelyHighYield Natural killer cells may induce apoptosis of virally infected cells and tumor cells via release of perforins and granzymes
+1487117310594 1-HighYield Which interferon(s) enhance(s) activity of natural killer cells ? Interferon-α and interferon-β
+1487117314403 1-HighYield Natural killer cells are induced to kill cells that have an absence of MHC I on their cell surface
+1487117321802 4-LowerYield Natural killer cells may kill cells via binding between CD16 (NK cells) and the Fc region of IgG-bound antigen
+1487117328797 1-HighYield Which immunoglobulin typically mediates antibody-dependent cellular cytotoxicity (ADCC)? IgG*
+1489970693302 1-HighYield Interferon-α and -β are glycoproteins synthesized by virus-infected cells that act locally on uninfected cells , "priming" them for viral defense
+1497440851060 3-HighYield-temporary When viruses enter cells, they can trigger the host ( via capsule / viral products ) to produce type I interferons by activation of cytosolic pattern recognition receptors
+1497450277629 4-LowerYield Upon cytosolic recognition of viral dsRNA, enzymes upregulated by IFN-α / IFN-β presensitization lead to apoptosis of the virus infected cell
+1520301328706 5-LowYield Type I interferons downregulate protein synthesis to resist potential viral replication
+1520301453074 1-HighYield Type I interferons (IFN- α and IFN-β) increase cell surface expression of MHC I proteins to facilitate recognition of infected cells

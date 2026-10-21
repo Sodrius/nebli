@@ -1,0 +1,95 @@
+# #AK_Step1_v12::#Bootcamp::Dermatology::02_Infectious_Diseases_of_the_Skin::05_Fungal_Infectious_Conditions (94 notas)
+1402961229963 2-RelativelyHighYield Mucormycosis is an opportunistic fungal infection that is mostly seen in DKA and leukemic patients
+1402962164915 2-RelativelyHighYield Mucormycosis is an opportunistic fungal infection that presents with headache , facial pain , and a black necrotic eschar on the face
+1462327377004 1-HighYield What fungal infection is a feared complication in diabetic ketoacidosis (DKA)? Mucormycosis
+1500050017109 2-RelativelyHighYield The fungus Malassezia spp. ( globosa, furfur) causes pityriasis versicolor
+1500050268188 1-HighYield Which fungus has a " spaghetti and meatball " appearance on KOH prep ? Malassezia furfur
+1500050370771 2-RelativelyHighYield Malassezia furfur is a fungus that is part of normal skin flora, thriving in hot and humid conditions
+1500050525224 1-HighYield Pityriasis versicolor is characterized by hyper or hypo pigmented patches on a patient's skin
+1500050773382 2-RelativelyHighYield Hyper / hypopigmented patches of pityriasis versicolor on the skin commonly occur on the chest and back , especially in individuals who spend a lot of time in the sun
+1500050853067 2-RelativelyHighYield Lipid degradation produces acid that damages melanocytes in pityriasis versicolor (results in hypopigmentation)
+1500051071890 2-RelativelyHighYield Malassezia furfur (M. furfur) produces melanocyte damaging acids via lipid degradation
+1500051183614 4-LowerYield Which layer of the skin does the fungus Malassezia furfur reside? Stratum corneum
+1500051342572 5-LowYield Malassezia furfur can cause many more problems, other than just pityriasis versicolor , in immunocompromised patients
+1500051897611 1-HighYield Selenium sulfide is used as treatment for the fungus Malassezia furfur due to it promoting shedding of the stratum corneum
+1500051969973 2-RelativelyHighYield Dermatophytes are responsible for rashes known as tinea (ringworm)
+1500052207462 3-HighYield-temporary Where do the fungi Dermatophytes reside in the body? Skin
+1500052358184 4-LowerYield The 3 dermatophytes are: 1. Trichophyton 2. Epidermophyton 3. Microsporum
+1500052444077 1-HighYield Tinea is commonly referred to as " ringworm "
+1500052605836 3-HighYield-temporary Tinea corporis affects the body
+1500052626060 3-HighYield-temporary Tinea cruris affects the groin
+1500052763799 3-HighYield-temporary What demographic of adults are at risk for tinea (ringworm) infections? Athletes
+1500052841281 3-HighYield-temporary Animals / pets can be a source of dermatophytes and, therefore, tinea infection , especially in younger individuals
+1500052912297 1-HighYield Dermatophytes cause tinea lesions that are often pruritic (itchy)
+1500052968870 3-HighYield-temporary Hyphae of tinea lesions due to dermatophytes are seen with KOH prep of skin scrapings
+1500053129177 4-LowerYield The dermatophyte Microsporum can be identified via Wood lamp examination
+1500053322321 1-HighYield What is the first-line treatment for localized tinea infections? Topical antifungals (e.g., clotrimazole, terbinafine)
+1500053417089 1-HighYield Onychomycosis describes dermatophyte infection of the nails
+1500053449197 1-HighYield The oral antifungal drug terbinafine is used to treat onychomycosis ( dermatophyte infection of nails) and tinea capitis
+1500053600334 2-RelativelyHighYield For more severe tinea infections or persistent onychomycosis (manifestations of dermatophytes ), oral griseofulvin is used
+1500053746842 1-HighYield Griseofulvin deposits in keratin -containing tissues, such as skin and nails , and is therefore used for severe dermatophyte infections
+1500054558583 3-HighYield-temporary A(n) Sporothrix schenckii infection is called sporotrichosis
+1500054719314 1-HighYield Sporothrix schenckii is classically contracted via cuts from rose thorns , as well as tree bark , bushes , and plants
+1500054777136 2-RelativelyHighYield Sporothrix schenckii is dimorphic, meaning it assumes different forms depending on the temperature of its environment
+1500054938635 5-LowYield Branching hyphae of Sporothrix schenckii can be grown at 25ºC
+1500055049050 4-LowerYield Branching hyphae similar to that of rose bushes are classically seen in Sporothrix schenckii
+1500055361936 3-HighYield-temporary The yeast of Sporothrix schenckii takes on a(n) cigar shape under microscope
+1500055367426 2-RelativelyHighYield Sporothrix schenckii spreads in a(n) ascend ing pattern along the path of lymphatic drainage
+1500055544157 2-RelativelyHighYield Sporothrix schenckii will result in a local pustule , or ulcer , at the site of trauma and first entry and nodules along draining lymphatics
+1500055687581 3-HighYield-temporary Sporotrichosis diagnosis is confirmed via fungal culture (aspirate, tissue biopsy)
+1500055726473 2-RelativelyHighYield A biopsy of a patient with sporotrichosis ( Sporothrix schenckii ) will reveal granulomas consisting of histiocytes , multinucleated giant cells , and cigar-shaped budding yeast
+1500055896708 2-RelativelyHighYield What is the drug of choice for treatment of sporotrichosis / Sporothrix schenckii infection? Itraconazole
+1500056127804 2-RelativelyHighYield What is the solution of choice for treatment of Sporotrichosis/Sporothrix schenckii infection? Saturated solution of potassium iodide (SSKI)
+1500056181436 1-HighYield Ascending lymphangitis and cigar -shaped yeasts are classic manifestations of Sporotrichosis ( Sporothrix schenckii infection)
+1500151811249 2-RelativelyHighYield Sporothrix schenckii is a dimorphic yeast with a cigar -shaped, unequal budding yeast in human tissue , and a(n) mold form in plants (commonly rose thorns )
+1500151965518 2-RelativelyHighYield Sporothrix schenckii lesions are granulomas made of histiocytes and giant cells
+1500152000410 4-LowerYield Dermatophytes contain keratinase , allowing them to subsist off keratin , a protein resistant to most organisms
+1500152247775 2-RelativelyHighYield Tinea capitis is a dermatophyte infection of the scalp, often caused by Trichophyton spp. , and almost always occurs in young children
+1500241012890 1-HighYield Mucormycosis and Aspergillus fumigatus can spread to the paranasal sinuses and result in necrosis around the nose
+1500333026450 1-HighYield Mucormycosis is caused primarily by Mucor spp. and Rhizopus
+1500333577879 1-HighYield Immunocompromised (e.g., those on glucocorticoids , HIV+/AIDS ) patients and patients with diabetes are especially susceptible to Mucormycosis infections
+1500333766310 1-HighYield Rhizopus is a(n) bread mold , and is one of the major causes of Mucormycosis
+1500333824319 1-HighYield Transmission of mucormycosis infection occurs via spore inhalation
+1500333904310 1-HighYield What is the most common predisposing factor to mucormycosis ? Diabetic ketoacidosis
+1500334133616 2-RelativelyHighYield Mucor / Rhizopus spp . hyphae are non-septated with wide-angled (90°) branching
+1500334485985 1-HighYield Mucormycosis will penetrate the cribriform plate of the skull, entering the brain
+1500334725654 3-HighYield-temporary After penetrating the cribriform plate , mucormycosis continues to proliferate in the blood vessels, causing necrosis of tissues
+1500335229019 3-HighYield-temporary Surgical excision of necrotic tissues is an important step in the treatment of Mucormycosis
+1500335290166 3-HighYield-temporary What is the pharmacological treatment of Mucormycosis ? Amphotericin B
+1500335501179 1-HighYield Patients with Mucormycosis can present with rhinocerebral and frontal lobe abscesses
+1500335644882 1-HighYield Cavernous sinus thrombosis is a serious complication of Mucormycosis infection
+1503960067023 - What is the likely diagnosis in a landscaper with a finger ulceration , draining an odorless, nonpurulent discharge , that spread to include similar nodules along the forearm? There is no lymphadenopa
+1504219941063 - How is mucormycosis diagnosed ? Sinus endoscopy with biopsy & culture
+1504829332498 - What is the likely diagnosis in a patient that noticed hypopigmented skin lesions on her trunk after returning from a summer vacation in Florida (pictured below)? Pityriasis versicolor (due to Malasse
+1505160761819 - What is the likely diagnosis in an adult patient that presents with a pruritic rash for 6 weeks (pictured below)? Tinea corporis (ringworm)
+1505163427176 - What is the likely diagnosis in a middle-aged patient that presents with an itchy, greasy , yellowish , scaly facial rash (pictured below) and increased dandruff ? Seborrheic dermatitis
+1509746332128 1-HighYield Which antifungal is used to treat local infections of dimorphic fungi ? Itraconazole
+1509747453719 3-HighYield-temporary Griseofulvin is used to treat superficial dermatophyte infections
+1509751158016 1-HighYield Tinea capitis in children is treated with oral griseofulvin or oral terbinafine
+1509751239610 1-HighYield Which fungi static agent is used to treat onychomycosis ? Griseofulvin
+1509751339127 1-HighYield Which fungi cidal agent is used to treat onychomycosis ? Oral terbinafine
+1516577924078 - What is the likely diagnosis in an infant that presents with erythematous plaques with yellow , greasy scale on the scalp, eyelids, nasolabial folds, and postauricular area ? Seborrheic dermatitis ("c
+1516579288623 - What is the likely diagnosis in an African American child that presents with pruritic , erythematous plaque on the scalp that resulted in patchy hair loss with residual " black dots "? Lymphadenopathy
+1516579387663 - What demographic is most commonly affected by Tinea capitis ? African American children
+1516587677463 - What is the likely diagnosis in an athlete that presents with a scaly , erythematous , pruritic plaque with a raised border and central clearing on their leg? Tinea corporis (ringworm) caused by derma
+1517328960209 - Seborrheic dermatitis is a common, chronic inflammatory disease that presents with a flaky , scaling , rash involving the scalp and eyebrows
+1517329246255 - Seborrheic dermatitis in adults most commonly presents as dandruff
+1523809934747 3-HighYield-temporary What is the diagnostic test of choice for diagnosing mucormycosis ? Mucosal biopsy
+1539532978728 - What microorganism is most commonly involved in the pathogenesis of tinea capitis ? Trichophyton tonsurans
+1543421392197 - Oral antifungals are generally required for which cutaneous mycoses? Tinea capitis and onychomycosis
+1544385358722 - What is the likely diagnosis in a child that notices multiple, pruritic hypopigmented skin lesions on the face and trunk after beginning summer camp ? Pityriasis versicolor (AKA tinea versicolor*)
+1546271297640 - Suspected onychomycosis is confirmed with KOH prep
+1555800414777 - What is the likely reason for recurrence of tinea cruris ? Foot examination shows tinea pedis Autoinfection
+1556238870116 1-HighYield Which fungus is shown below? Rhizopus
+1556238897815 1-HighYield Which fungus is shown below? Malassezia furfur
+1578250038837 - Alopecia areata is an autoimmune disorder against hair follicles that presents clinically with well-defined, circular bald spots
+1578250039053 - Pruritic, scaly, and circular bald spot with all hairs at equal length : Diagnosis? Tinea capitis Etiology? Trichophyton tonsurans Diagnostics (initial, confirmatory)? KOH prep, fungal culture Treatme
+1578250039059 - How to distinguish trichotillomania from other diseases? Patchy alopecia with hair regrowth at different lengths Diagnostics? Shaving a scalp "window" and assessing for equal hair growth within it
+1581260145423 - Patients with tinea pedis may develop cellulitis as a complication
+1582144175845 - Below is a patient with tinea corporis
+1582314365673 5-LowYield Trichotillomania is compulsively pulling out one's hair which causes significant distress but persists despite attempts to stop
+1584725712974 - Below is a patient with pityriasis versicolor
+1588611563868 - What is the diagnosis in a patient with patches of hair loss on the scalp without scarring ? Alopecia areata
+1638738986293 - Vulvovaginal candidiasis unresponsive to azoles is usually due to Candida glabrata
+1669737153829 - What demographic is at risk for widespread Tinea infection? Immunosuppressed patients
+1692574789340 - What is the most appropriate next step in management for a patient with recurrent tinea cruris? Perform thorough skin inspection & treat other sites of infection

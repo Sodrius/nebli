@@ -1,0 +1,5 @@
+# #AK_Step1_v12::#OME::PreClinical::Microbiology::Microbiology_4::Fungi::Antifungal_Medications (4 notas)
+1475704774908 2-RelativelyHighYield Which renal tubular acidosis may be caused by amphotericin B toxicity ? Type 1 (distal) RTA
+1509746910437 1-HighYield Ketoconazole has anti-androgenic effects and thus can cause gynecomastia in males
+1509816632405 2-RelativelyHighYield What is the treatment of choice for Naegleria fowleri ? Amphotericin B or miltefosine
+1509842279645 4-LowerYield What is the treatment for visceral leishmaniasis ? Amphotericin B

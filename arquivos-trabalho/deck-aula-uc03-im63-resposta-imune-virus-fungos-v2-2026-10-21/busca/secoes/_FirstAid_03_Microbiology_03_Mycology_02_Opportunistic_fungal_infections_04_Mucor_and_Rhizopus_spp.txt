@@ -1,0 +1,20 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::03_Mycology::02_Opportunistic_fungal_infections::04_Mucor_and_Rhizopus_spp (19 notas)
+1402961229963 2-RelativelyHighYield Mucormycosis is an opportunistic fungal infection that is mostly seen in DKA and leukemic patients
+1402962164915 2-RelativelyHighYield Mucormycosis is an opportunistic fungal infection that presents with headache , facial pain , and a black necrotic eschar on the face
+1500238441939 1-HighYield Aspergillus has acute (< 45°) - angle branching hyphae with septations
+1500333026450 1-HighYield Mucormycosis is caused primarily by Mucor spp. and Rhizopus
+1500333577879 1-HighYield Immunocompromised (e.g., those on glucocorticoids , HIV+/AIDS ) patients and patients with diabetes are especially susceptible to Mucormycosis infections
+1500333766310 1-HighYield Rhizopus is a(n) bread mold , and is one of the major causes of Mucormycosis
+1500333824319 1-HighYield Transmission of mucormycosis infection occurs via spore inhalation
+1500333904310 1-HighYield What is the most common predisposing factor to mucormycosis ? Diabetic ketoacidosis
+1500333974625 1-HighYield In Mucormycosis , the fungus has a predilection to proliferate in blood vessel walls , especially where there is excess glucose and ketone bodies
+1500334133616 2-RelativelyHighYield Mucor / Rhizopus spp . hyphae are non-septated with wide-angled (90°) branching
+1500334485985 1-HighYield Mucormycosis will penetrate the cribriform plate of the skull, entering the brain
+1500334725654 3-HighYield-temporary After penetrating the cribriform plate , mucormycosis continues to proliferate in the blood vessels, causing necrosis of tissues
+1500335229019 3-HighYield-temporary Surgical excision of necrotic tissues is an important step in the treatment of Mucormycosis
+1500335290166 3-HighYield-temporary What is the pharmacological treatment of Mucormycosis ? Amphotericin B
+1500335381221 2-RelativelyHighYield Deferoxamine acts as a siderophore for the species Rhizopus , enhancing its growth and pathogenicity . This leads to an increased risk for Mucormycosis
+1500335501179 1-HighYield Patients with Mucormycosis can present with rhinocerebral and frontal lobe abscesses
+1500335644882 1-HighYield Cavernous sinus thrombosis is a serious complication of Mucormycosis infection
+1523809934747 3-HighYield-temporary What is the diagnostic test of choice for diagnosing mucormycosis ? Mucosal biopsy
+1556238870116 1-HighYield Which fungus is shown below? Rhizopus

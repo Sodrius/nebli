@@ -1,0 +1,67 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::37_Antifungals::03_Allylamines,_Echinocandins,_and_Polyenes (66 notas)
+1468250158738 1-HighYield What do fungal plasma membranes contain that others lack? Ergosterol
+1489966943274 1-HighYield Are calcineurin inhibitors (e.g., cyclosporine and tacrolimus ) nephrotoxic ? Yes (highly)
+1499971295935 3-HighYield-temporary Systemic (disseminated) infections of histoplasmosis are treated with amphotericin B
+1499973243446 3-HighYield-temporary Systemic (disseminated) infections of Blastomycosis are treated with amphotericin B
+1499975518179 3-HighYield-temporary Systemic (disseminated) infections of coccidioidomycosis are treated with amphotericin B
+1499976938219 3-HighYield-temporary Systemic (disseminated) infections of paracoccidioidomycosis are treated with amphotericin B
+1500053322321 1-HighYield What is the first-line treatment for localized tinea infections? Topical antifungals (e.g., clotrimazole, terbinafine)
+1500053449197 1-HighYield The oral antifungal drug terbinafine is used to treat onychomycosis ( dermatophyte infection of nails) and tinea capitis
+1500236922530 2-RelativelyHighYield Systemic (disseminated) infections of Candida albicans are treated with caspofungin (first-line) or amphotericin B (second-line)
+1500237136393 2-RelativelyHighYield Oral candidiasis can be treated with nystatin
+1500241142268 2-RelativelyHighYield Local , mild infections of Aspergillus fumigatus are treated with azoles (e.g., voriconazole ) or echinocandins (caspofungin)
+1500241367077 1-HighYield Invasive aspergillosis is treated with IV voriconazole
+1500245993331 1-HighYield Treatment of cryptococcal meningitis consists of a joint therapy of amphotericin B and flucytosine followed by maintenance therapy with fluconazole
+1500335229019 3-HighYield-temporary Surgical excision of necrotic tissues is an important step in the treatment of Mucormycosis
+1500335290166 3-HighYield-temporary What is the pharmacological treatment of Mucormycosis ? Amphotericin B
+1504045576164 - What is the recommended treatment for patients with disseminated histoplasmosis ? IV amphotericin B (1 - 2 weeks), followed by oral itraconazole (≥ 1 year)
+1509741728595 1-HighYield Which two classes of antifungals inhibit synthesis of ergosterol from squalene ? Azoles, allylamines (i.e. terbinafine)
+1509741919338 1-HighYield Allylamines (e.g., terbinafine) are a class of antifungals that inhibit the enzyme squalene epoxidase
+1509742000812 1-HighYield Azoles are a class of antifungals that inhibit the enzyme 14α-demethylase
+1509742036852 1-HighYield Echinocandins are a class of antifungals that inhibit the enzyme 1,3-β-glucan synthase
+1509742141238 1-HighYield What class of antifungals inhibit synthesis of β-glucan ? Echinocandins (-fungin)
+1509742201770 1-HighYield Polyenes (e.g. nystatin, amphotericin B) are a class of antifungals that bind ergosterol , creating pores in the fungal cell membranes
+1509742717818 1-HighYield What class of antifungals inhibits cell wall synthesis ? Echinocandins (-fungin)
+1509742814980 3-HighYield-temporary Ergosterol is a component of the fungal cell membrane
+1509743058195 1-HighYield Which two drugs bind ergosterol and form holes in the fungal cell membrane? Amphotericin B, nystatin (polyenes)
+1509743161238 2-RelativelyHighYield Polyenes result in leakage of electrolytes from the cell
+1509743217032 1-HighYield Which antifungal is used in severe, systemic fungal infections? Amphotericin B
+1509743284999 4-LowerYield How is amphotericin B administered? IV
+1509743336397 5-LowYield Liposomal amphotericin B is less toxic
+1509743373899 3-HighYield-temporary Toxicity of amphotericin B results from non-selective binding on mammalian cholesterol membranes
+1509743451213 2-RelativelyHighYield Acute toxicities of amphotericin B administration include fever, chills, headache, and hypotension
+1509743517947 4-LowerYield How is amphotericin B administered for fungal CNS infections? Intrathecally
+1509743634123 4-LowerYield Intrathecal administration of amphotericin B can result in seizures and other CNS side effects
+1509743670062 3-HighYield-temporary Which antifungal can result in thrombophlebitis ? Amphotericin B
+1509743833529 1-HighYield Electrolyte abnormalities, such as hypokalemia and hypomagnesemia , can result from amphotericin B use
+1509743957410 3-HighYield-temporary How is amphotericin B associated nephrotoxicity prevented ? Hydration w/ IV saline
+1509744002911 1-HighYield Amphotericin B use is associated with renal toxicity
+1509744066944 2-RelativelyHighYield Amphotericin B related renal toxicity results in anemia due to decreased erythropoietin production
+1509744422330 1-HighYield Nystatin is active against Candida spp.
+1509744598051 1-HighYield Which polyene can treat oral and vaginal candidiasis ? Nystatin
+1509744667080 2-RelativelyHighYield Which two ions should be supplemented with amphotericin B use? K + and Mg 2+
+1509744794419 1-HighYield Which antifungal can result in arrhythmia due to hypokalemia ? Amphotericin B
+1509745062370 1-HighYield Azoles inhibit the conversion of lanosterol to ergosterol
+1509745493345 2-RelativelyHighYield Which azole is used to treat invasive aspergillosis ? Voriconazole
+1509746577022 1-HighYield Which azoles are used for treatment of localized tinea infections ? Clotrimazole, miconazole
+1509751339127 1-HighYield Which fungi cidal agent is used to treat onychomycosis ? Oral terbinafine
+1509751441530 1-HighYield What class of drugs results in an accumulation of squalene intracellularly? Allylamines (e.g., terbinafine)
+1509751663968 1-HighYield The antifungal class allylamines can be recognized via the suffix "- fine "
+1509751728071 5-LowYield Which of the allylamines is associated with GI upset ? Terbinafine
+1509751792392 2-RelativelyHighYield The allylamine terbinafine is associated with hepato toxicity
+1509751863667 1-HighYield What drug class does caspofungin belong to? Echinocandins (-fungin)
+1509751930175 1-HighYield The antifungal class echinocandins can be recognized via the suffix "- fungin "
+1509751969962 1-HighYield Echinocandins are antifungal agents that act at the cell wall
+1509752199075 3-HighYield-temporary Amphotericin B or echinocandins can be used for systemic candidal infections
+1509752272021 5-LowYield Echinocandins are administered IV for systemic candidiasis
+1509752299783 4-LowerYield What class of antifungals treats invasive aspergillosis that is refractory to voriconazole? Echinocandins (-fungin)
+1509752432085 4-LowerYield What class of antifungals can result in histamine -mediated hypersensitivity reactions? Echinocandins (-fungin)
+1509752522497 3-HighYield-temporary Echinocandins are primarily metabolized via the liver
+1509752552972 5-LowYield Which antifungal prevents candidiasis in patients undergoing hematopoietic stem cell transplant ? Micafungin
+1509752610104 5-LowYield Specific indications for caspofungin include RACE : R efractory aspergillosis A zole-resistant Candida C andidemia E mpiric treatment in a(n) febrile, neutropenic patient
+1509753380809 1-HighYield Polyenes are a class of antifungals that include amphotericin B and nystatin
+1509755342899 1-HighYield Which antifungal agent can result in hypomagnesemia and hypokalemia ? Amphotericin B
+1509755647704 2-RelativelyHighYield Which antifungal can result in anemia due to decreased EPO production? Amphotericin B
+1509842279645 4-LowerYield What is the treatment for visceral leishmaniasis ? Amphotericin B
+1510010851169 4-LowerYield Which antimicrobial can result in a metallic taste in mouth? Metronidazole
+1514583111655 4-LowerYield Terbinafine is associated with side effects of GI upset, headaches, hepatotoxicity, and taste disturbance

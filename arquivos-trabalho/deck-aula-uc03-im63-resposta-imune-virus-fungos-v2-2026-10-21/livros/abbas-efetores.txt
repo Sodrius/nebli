@@ -1,0 +1,3942 @@
+=== p.26
+24	
+Capítulo 2 – Imunidade Inata
+2.	 Como os diversos componentes do sis-
+tema imunológico inato combatem os 
+diversos tipos de microrganismos?
+3.	 Como as reações imunológicas inatas 
+estimulam a resposta imunológica ad-
+quirida?
+ASPECTOS GERAIS E ESPECIFICIDADE 
+DAS RESPOSTAS IMUNES INATAS
+O sistema imunológico inato desempenha 
+suas funções de defesa com um conjunto 
+restrito de reações, que são mais limitadas 
+que as respostas mais variadas e especiali-
+zadas da imunidade adquirida. A especifici-
+dade da imunidade inata também difere da 
+especificidade dos linfócitos, o sistema de 
+reconhecimento da imunidade adquirida, 
+em vários aspectos (Fig. 2-1).
+Os dois principais tipos de reações 
+do sistema imunológico inato são a in-
+flamação e a defesa antiviral. A inflama-
+ção consiste no acúmulo e na ativação de 
+leucócitos e proteínas plasmáticas em locais 
+de infecção ou lesão tecidual. Essas células 
+e proteínas atuam em conjunto para matar, 
+sobretudo, microrganismos extracelulares e 
+para eliminar tecidos danificados. A defesa 
+imunológica inata contra vírus intracelulares 
+é mediada principalmente por células natural 
+killer (NK), que matam células infectadas por 
+vírus, e por citocinas chamadas interferons 
+tipo I, que bloqueiam a replicação viral den-
+tro das células do hospedeiro.
+O sistema imunológico inato normal-
+mente responde da mesma maneira em 
+FIGURA 2-1  A especificidade das imunidades inata e adquirida. A tabela resume as características importantes 
+da especificidade e dos receptores das imunidades inata e adquirida, com exemplos selecionados ilustrados. Ig, Imunoglobulina 
+(anticorpo); TCR, receptor de célula T.
+
+
+=== p.27
+	
+Capítulo 2 – Imunidade Inata	
+25
+encontros subsequentes com um pató-
+geno, enquanto o sistema imunológico 
+adquirido responde de maneira mais 
+eficaz a cada encontro sucessivo com 
+um patógeno. Em outras palavras, o sis-
+tema imunológico inato não se lembra de 
+encontros anteriores com microrganismos e 
+redefine a linha basal após cada encontro, ao 
+passo que o sistema imunológico adquirido 
+se lembra de encontros com microrganis-
+mos e reage de maneira mais intensa após 
+cada encontro. Esse fenômeno da memória 
+imunológica no sistema imunológico ad-
+quirido assegura que as reações de defesa 
+do hospedeiro sejam altamente eficazes 
+contra infecções repetidas ou persistentes, 
+e a memória é a base para o modo como a 
+vacina atua.
+O sistema imunológico inato reco-
+nhece estruturas que são comuns a 
+diversas classes de microrganismos e 
+que não estão presentes nas células 
+normais do hospedeiro. Os mecanismos 
+da imunidade inata reconhecem e respon-
+dem a um número limitado de moléculas 
+microbianas, muito menores que o número 
+quase ilimitado de antígenos microbianos 
+e não microbianos que são reconhecidos 
+pelo sistema imunológico adquirido. Cada 
+componente do sistema imunológico inato 
+pode reconhecer muitas bactérias, vírus ou 
+fungos. Por exemplo, os fagócitos expressam 
+receptores para o lipopolissacarídeo bacteria-
+no (LPS), e outros receptores para peptido-
+glicanos, cada qual presente em muitas es-
+pécies bacterianas, mas não produzido pelas 
+células dos mamíferos. Outros receptores de 
+fagócitos reconhecem resíduos manoses ter-
+minais, que são típicos de bactérias, mas não 
+de glicoproteínas dos mamíferos. As células 
+dos mamíferos reconhecem e respondem ao 
+ácido ribonucleico de dupla-hélice (dsRNA) 
+encontrado em muitos vírus, mas não em 
+células dos mamíferos, e aos nucleotídios 
+(CpG) ricos em CG não metilados, que são 
+comuns no DNA bacteriano, mas não são 
+encontrados no DNA dos mamíferos. As 
+moléculas microbianas que estimulam a 
+imunidade inata são muitas vezes chamadas 
+de padrões moleculares associados ao 
+patógeno (PAMP, do inglês, pathogen-as-
+sociated molecular patterns), para indicar que 
+elas estão presentes em agentes infecciosos 
+(patógenos) e são compartilhadas por mi-
+cróbios do mesmo tipo (i.e., eles são padrões 
+moleculares). Os receptores da imunidade 
+inata que reconhecem essas estruturas com-
+partilhadas são chamados de receptores de 
+reconhecimento de padrões.
+Os componentes da imunidade inata 
+evoluíram para reconhecer estruturas 
+que geralmente são essenciais para a 
+sobrevivência e a infectividade dos mi-
+crorganismos. Esta característica da imuni-
+dade inata a torna um mecanismo de defesa 
+altamente eficaz, pois um patógeno não pode 
+escapar da imunidade inata simplesmente 
+pela mutação ou por não expressar os alvos 
+de reconhecimento: os microrganismos que 
+não expressam formas funcionais dessas es-
+truturas perdem sua capacidade de infectar e 
+colonizar o hospedeiro. Por sua vez, os pató-
+genos frequentemente escapam da imunida-
+de adquirida pela mutação dos antígenos que 
+são reconhecidos pelos linfócitos, pois tais 
+antígenos normalmente não são essenciais 
+para a sobrevivência dos patógenos.
+O sistema imunológico inato também 
+reconhece moléculas que são liberadas 
+das células danificadas ou necróticas. 
+Essas moléculas são chamadas de padrões 
+moleculares associados ao dano (DAMP, 
+do inglês, damage-associated molecular pat-
+terns). As respostas subsequentes aos DAMP 
+servem para eliminar as células danificadas e 
+para iniciar os processos de reparo tecidual.
+Os receptores do sistema imunológi-
+co inato estão codificados na linhagem 
+germinativa, não sendo produzidos pela 
+recombinação somática dos genes. Esses 
+receptores de reconhecimento de padrão co-
+dificados na linhagem germinativa evoluíram 
+como uma adaptação protetora dos organis-
+mos multicelulares contra microrganismos 
+potencialmente danosos. Em contraste, os 
+receptores de antígenos dos linfócitos, ou 
+seja, anticorpos e receptores das células T, 
+são produzidos pela recombinação somáti-
+ca dos genes do receptor durante a fase de 
+amadurecimento dessas células (Cap. 4). A 
+recombinação genética pode gerar muito 
+mais receptores estruturalmente diferentes 
+do que os que podem ser produzidos pelos 
+genes herdados naturalmente, mas esses 
+receptores diferentes não podem apresentar 
+uma especificidade predeterminada para os 
+microrganismos. Consequentemente, a es-
+pecificidade da imunidade adquirida é muito 
+mais diversa do que a da imunidade inata, e 
+o sistema imunológico adquirido é capaz de 
+reconhecer muito mais estruturas quimica-
+mente distintas. Estima-se que a população 
+total de linfócitos possa reconhecer até um 
+bilhão de antígenos diferentes; em outras 
+
+
+=== p.28
+26	
+Capítulo 2 – Imunidade Inata
+palavras, esses linfócitos expressam até um 
+bilhão de receptores de antígenos, cada qual 
+com uma especificidade única. Em contra-
+partida, todos os receptores da imunidade 
+inata reconhecem menos de mil padrões 
+microbianos. Além disso, os receptores do sis-
+tema imunológico adquirido são distribuídos 
+clonalmente, ou seja, cada clone de linfócitos 
+(células B e células T) tem um receptor es-
+pecífico para um determinado antígeno. Em 
+contraste, no sistema imunológico inato os 
+receptores não são distribuídos clonalmente; 
+ou seja, receptores idênticos são expressos 
+em todas as células de um determinado tipo, 
+como os macrófagos. Consequentemente, 
+muitas células da imunidade inata podem 
+reconhecer e responder ao mesmo micror­
+ganismo.
+O sistema imunológico inato não 
+reage contra o hospedeiro. Essa inca-
+pacidade do sistema imunológico inato de 
+reagir contra as células e moléculas do hos-
+pedeiro, ou “próprias”, resulta em parte da 
+especificidade inerente da imunidade inata 
+para estruturas microbianas e em parte do 
+fato de a expressão das células dos mamífe-
+ros de moléculas reguladoras evitar reações 
+imunológicas inatas. O sistema imunológico 
+adquirido também discrimina entre próprio 
+e não próprio; no sistema imunológico ad-
+quirido são produzidos linfócitos capazes 
+de reconhecer autoantígenos, mas eles são 
+destruídos ou desativados ao se encontrarem 
+com os autoantígenos.
+A resposta imunológica inata pode ser 
+considerada como uma série de reações que 
+proporcionam defesa nos seguintes estágios 
+de infecções microbianas:
+●	 Nos portais de entrada para microrganis-
+mos: a maior parte das infecções micro-
+bianas é adquirida através do epitélio da 
+pele e dos sistemas gastrointestinal e res-
+piratório. Os primeiros mecanismos de 
+defesa ativos nesses locais são epitélios 
+oferecendo barreiras físicas e moléculas 
+antimicrobianas e células linfoides nesses 
+epitélios.
+●	 Nos tecidos: microrganismos que rompem 
+o epitélio, bem como células mortas em 
+tecidos, são detectados por macrófagos 
+residentes, células dendríticas e outras 
+células sentinelas. Algumas dessas células 
+reagem principalmente a citocinas secreto-
+ras, que iniciam o processo de inflamação, 
+e fagócitos destroem os microrganismos e 
+eliminam as células danificadas.
+●	 No sangue: proteínas plasmáticas, incluin-
+do proteínas do sistema complemento, 
+reagem contra microrganismos e promo-
+vem sua destruição.
+●	 Vírus promovem reações especiais, in-
+cluindo a produção de interferons em 
+células infectadas que inibem a infecção 
+de outras células e a morte de células in-
+fectadas pelas células NK.
+Discutiremos de maneira mais detalhada 
+esses componentes da imunidade natural e 
+suas reações posteriormente neste capítulo. 
+Começamos com uma consideração de como 
+microrganismos, células danificadas e outras 
+substâncias estranhas são detectados e de co-
+mo as respostas imunes são desencadeadas.
+RECEPTORES CELULARES  
+PARA OS MICRORGANISMOS  
+E CÉLULAS DANIFICADAS
+Os receptores usados pelo sistema imunoló-
+gico inato para reagir contra os microrganis-
+mos e células danificadas são expressos nos 
+fagócitos, células dendríticas e muitos outros 
+tipos celulares, incluindo os linfócitos e as cé-
+lulas epiteliais e endoteliais. Esses receptores 
+são expressos em diferentes compartimentos 
+celulares onde os microrganismos podem 
+estar localizados. Muitos estão presentes na 
+superfície celular; outros estão presentes no 
+retículo endoplasmático e são rapidamen-
+te recrutados para as vesículas (endossomas) 
+dentro das quais os produtos microbianos 
+são ingeridos; e ainda outros estão no cito-
+sol, onde eles funcionam como sensores dos 
+microrganismos citoplasmáticos (Fig. 2-2). 
+Alguns desses receptores respondem aos 
+produtos de células danificadas e a uma va-
+riedade de substâncias estranhas, como cris-
+tais depositados em células e tecidos. Esses 
+receptores para PAMP e DAMP pertencem a 
+várias famílias de proteína.
+Receptores Tipo Toll
+Os receptores tipo Toll (TLR, do inglês, 
+Toll-like receptors) são homólogos a uma pro-
+teína da Drosophila, chamada Toll, que foi 
+descoberta por sua participação no desenvol-
+vimento da mosca e mais tarde mostrou ser 
+essencial para a proteção das moscas contra 
+as infecções. Diferentes receptores são espe-
+cíficos para diferentes componentes dos mi-
+crorganismos (Fig. 2-3). O TLR-2 reconhece 
+
+
+=== p.29
+	
+Capítulo 2 – Imunidade Inata	
+27
+vários lipoglicanos bacterianos; os TLR-3, 7 e 
+8 são específicos para ácidos nucleicos virais 
+(p. ex., dsRNA); o TLR-4 é específico para o 
+LPS (endotoxina), o TLR-5, para uma pro-
+teína flagelar bacteriana chamada flagelina, 
+e o TLR-9, para oligonucleotídios CpG não 
+metilados, que são mais abundantes no DNA 
+microbiano do que no DNA dos mamíferos. 
+Muitos TLR estão presentes na superfície 
+celular, onde reconhecem os produtos dos 
+microrganismos extracelulares, e outros TLR 
+estão nos endossomas, para dentro dos quais 
+os microrganismos são ingeridos.
+Os sinais gerados pela ligação dos re-
+ceptores tipo Toll ativam fatores de trans-
+crição que estimulam a produção de genes 
+que codificam citocinas, enzimas e outras 
+proteínas envolvidas nas funções antimi-
+crobianas dos fagócitos ativados e das outras 
+células (Fig. 2-4). Entre os mais importantes 
+fatores de transcrição ativados pelos sinais 
+dos TLR estão o kB (NF-kB), que promove 
+a expressão de várias citocinas e moléculas 
+de adesão endotelial, e os fatores de resposta 
+ao interferon (IRF, do inglês, interferon regu-
+latory factors), que estimulam a produção das 
+citocinas antivirais, interferons tipo 1.
+Raras mutações herdadas das moléculas 
+de sinalização dos TLR estão associadas a in-
+fecções recorrentes e graves, em particular a 
+pneumonia bacteriana, destacando a impor-
+tância dessas vias na defesa do hospedeiro 
+contra microrganismos.
+Receptores Tipo NOD e o Inflamassoma
+Os receptores tipo NOD (NLR, do inglês, 
+NOD-like receptors) são uma grande família de 
+receptores citosólicos que detectam DAMP 
+e PAMP no citoplasma. Todos os NLR com-
+partilham aspectos estruturais, incluindo 
+um domínio chamado NOD (domínio de 
+oligomerização nucleotídica). Alguns NLR 
+reconhecem uma ampla variedade de subs-
+tâncias não relacionadas estruturalmente e 
+utilizam um mecanismo de sinalização especial 
+(Fig. 2-5). Um dos NLR mais bem caracteriza-
+dos e prototípicos, chamado NLRP-3 (famí-
+FIGURA 2-2  Localizações celulares dos receptores do sistema imune inato. Alguns receptores, como 
+certos receptores tipo Toll (TLR) e lectinas, localizam-se nas superfícies das células; outros TLR ficam em endossomas. Alguns 
+receptores para ácidos nucleicos virais, peptídeos bacterianos e produtos de células danificadas ficam no citoplasma. O NOD 
+e a RIG referem-se aos membros fundadores das famílias de receptores citosólicos estruturalmente homólogos para produtos 
+bacterianos e virais, respectivamente. (Seus nomes completos são históricos e não refletem suas funções.) Existem quatro 
+famílias principais de receptores celulares na imunidade inata: TLR, CLR (receptores de lectina tipo C), NLR (receptores tipo 
+NOD) e RLR (receptores tipo RIG).
+
+
+=== p.30
+28	
+Capítulo 2 – Imunidade Inata
+lia do receptor tipo NOD, domínio de pirina 
+contendo 3), detecta a presença de produtos 
+microbianos; substâncias que indicam dano e 
+morte celulares, incluindo o trifosfato de ade-
+nosina (ATP) liberado, cristais de ácido úrico 
+derivados de ácidos nucleicos e alterações no 
+íon potássio intracelular (K+); e substâncias 
+endógenas que são depositadas em células e 
+tecidos em quantidades excessivas (p. ex., cris-
+tais de colesterol, ácidos graxos livres).
+Após o reconhecimento dessas substân-
+cias variadas, ou talvez de alguma alteração 
+química induzida por essas substâncias, o 
+NLRP-3 oligomeriza-se com uma proteína 
+adaptadora e uma (pró) forma inativa da 
+enzima caspase-1. Uma vez recrutada, a cas-
+pase-1 é ativada e cliva uma forma precur-
+sora da citocina interleucina-1b (IL-1b) para 
+gerar a IL-1b biologicamente ativa. Confor-
+me será discutido posteriormente, a IL-1 in-
+duz inflamação aguda e causa febre; provém 
+daí o nome domínio de pirina na proteína 
+NLRP-3 (do grego, pyro = queimar). Esse 
+complexo citosólico de NLRP-3 (o sensor), 
+FIGURA 2-3  Estrutura e especificidades de receptores tipo Toll. Diferentes TLR respondem a muitos produtos 
+diferentes e estruturalmente diversos dos microrganismos. Os TLR endossomais respondem apenas aos ácidos nucleicos. Todos 
+os TLR contêm um domínio de ligação ao ligante composto por motivos ricos em leucina e uma sinalização citoplasmática, 
+domínio do receptor de interleucina-1 tipo Toll (IL-1).ds, cadeia dupla; LPS, lipossacarídeo; ss, cadeia simples.
+
+
+=== p.31
+	
+Capítulo 2 – Imunidade Inata	
+29
+um adaptador, e a caspase-1 é conhecido 
+como inflamassoma. O inflamassoma é 
+importante não apenas para a defesa do 
+hospedeiro, mas também por causa de seu 
+papel em várias doenças. Mutações de ga-
+nho de função nos componentes sensoriais 
+do inflamassoma são a causa de doenças 
+raras, porém graves, chamadas síndromes 
+autoinflamatórias, caracterizadas por in-
+flamação descontrolada e espontânea. Os 
+antagonistas de IL-1 são tratamentos eficazes 
+para essas doenças. A gota, uma doença co-
+mum das articulações, é causada pela depo-
+sição de cristais de urato e acredita-se que a 
+subsequente inflamação seja mediada pelo 
+reconhecimento por parte do inflamassoma 
+dos cristais e pela produção de IL-1b. O in-
+flamassoma também pode contribuir para a 
+aterosclerose, na qual a inflamação causada 
+pelos cristais de colesterol pode desempe-
+nhar um papel, e também para o diabetes 
+tipo 2 associado à obesidade, no qual a IL-1 
+produzida no reconhecimento de lipídios 
+pode contribuir para a resistência de tecidos 
+à insulina.
+O NOD-2 é um NLR específico para pep-
+tídeos bacterianos que entraram no citosol. 
+Ele ativa o fator de transcrição NF-kB, mas 
+não sinaliza através do inflamassoma. Al-
+guns polimorfismos do gene NOD2 estão as-
+sociados à doença intestinal inflamatória; os 
+mecanismos subjacentes permanecem pouco 
+compreendidos. Sabe-se menos ainda a res-
+peito de outros membros da família do NLR.
+Outros Receptores Celulares  
+da Imunidade Inata
+Muitos outros tipos de receptores estão 
+envolvidos na resposta imunológica inata 
+aos microrganismos (Fig. 2-2). Vários re-
+ceptores citoplasmáticos reconhecem ácidos 
+nucleicos virais ou peptídeos bacterianos; 
+por exemplo, a família do receptor tipo RIG 
+(RLR, do inglês, RIG-like receptor) reconhece 
+o RNA viral. Um receptor de superfície ce-
+lular expresso principalmente em fagócitos 
+reconhece peptídeos que iniciam com a 
+N-formilmetionina, que é específica para 
+proteínas bacterianas e promove a migração, 
+bem como as atividades antimicrobianas dos 
+fagócitos. Os receptores de lectina (que reco-
+nhecem carboidrato) são específicos para 
+glicanos fúngicos (esses receptores são cha-
+mados dectinas) e para resíduos de manose 
+terminal (chamados receptores de manose); 
+eles estão envolvidos na fagocitose de fungos 
+e bactérias e em respostas inflamatórias para 
+esses patógenos.
+Embora nossa ênfase até agora tenha sido 
+nos receptores celulares, o sistema imunoló-
+gico inato também contém várias moléculas 
+circulantes que reconhecem e oferecem de-
+fesa contra microrganismos, conforme será 
+discutido posteriormente.
+COMPONENTES DA IMUNIDADE INATA
+Os componentes do sistema imunológico 
+inato incluem células epiteliais, as células 
+sentinelas em tecidos (macrófagos, células 
+dendríticas e outros), células NK e uma sé-
+rie de proteínas plasmáticas. Discutiremos a 
+FIGURA 2-4  Funções de sinalização dos recep-
+tores tipo Toll. Os TLR ativam mecanismos de sinalização 
+similares, que envolvem proteínas de adaptação e levam à 
+ativação de fatores de transcrição. Esses fatores de trans-
+crição estimulam a produção de proteínas que medeiam a 
+inflamação e a defesa antiviral. NF-kB, Fator nuclear kB.
+
+
+=== p.32
+30	
+Capítulo 2 – Imunidade Inata
+seguir as propriedades dessas células e pro-
+teínas solúveis e seus papéis nas respostas 
+imunológicas inatas.
+Barreiras Epiteliais
+As portas de entrada frequentes dos 
+microrganismos – a pele, o trato gas-
+trointestinal e o trato respiratório – são 
+protegidas por um epitélio contínuo 
+que fornece barreiras físicas e químicas 
+contra as infecções (Fig. 2-6). A pele, o 
+trato gastrointestinal e o trato respiratório 
+são as três principais interfaces entre o corpo 
+e o ambiente externo. Os microrganismos do 
+ambiente externo podem entrar por meio 
+dessas interfaces pelo contato físico exter-
+no, ingestão e inalação. Todas as três portas 
+de entrada são revestidas por um epitélio 
+contínuo que interfere fisicamente na en-
+trada dos patógenos. As células epiteliais 
+também produzem antibióticos peptídicos, 
+chamados defensinas e catelicidinas, que 
+destroem as bactérias. Além disso, o epitélio 
+contém linfócitos chamados de linfócitos T 
+intraepiteliais, que pertencem à linhagem 
+das células T, mas expressam receptores de 
+antígenos de diversidade limitada. Algumas 
+dessas células T expressam receptores com-
+postos de duas cadeias, g e d, que são seme-
+lhantes, mas não idênticas, aos receptores 
+das células T ab altamente diversos, ex-
+pressos na maioria dos linfócitos T (Caps. 4 
+e 5). Os linfócitos intraepiteliais, incluindo 
+as células T gd, geralmente reconhecem os 
+lipídios microbianos e outras estruturas que 
+FIGURA 2-5  O inflamassoma. É mostrada a ativação do inflamassoma NLRP-3, que processa a pró-interleucina-1b (pró
+-IL-1b) para ativar a IL-1. A síntese da pró-IL-1b é induzida por diversos PAMP ou DAMP através da sinalização do receptor de 
+reconhecimento de padrões. A produção subsequente de IL-1b biologicamente ativa é mediada pelo inflamassoma. Note que o 
+inflamassoma consiste em várias moléculas de NLRP-3, no adaptador e na caspase-1; é mostrado apenas um de cada. ATP, Trifos-
+fato de adenosina; NLRP-3, família do receptor tipo NOD, domínio de pirina contendo 3; TLR, receptores tipo Toll.
+
+
+=== p.33
+	
+Capítulo 2 – Imunidade Inata	
+31
+são compartilhadas por microrganismos do 
+mesmo tipo. Esses linfócitos T intraepiteliais 
+presumivelmente reagem contra agentes in-
+fecciosos que tentam romper o epitélio, mas 
+a especificidade e a função dessas células 
+ainda são pouco conhecidas.
+Fagócitos: Neutrófilos e Monócitos/
+Macrófagos
+Os dois tipos de fagócitos circulantes, os 
+neutrófilos e os monócitos, são células 
+sanguíneas recrutadas para locais de 
+infecção, onde reconhecem e ingerem 
+os microrganismos para que sejam 
+destruídos. Os neutrófilos, também cha-
+mados de leucócitos polimorfonucleares 
+(PMN), são os leucócitos mais abundantes 
+no sangue, totalizando entre 4.000 e 10.000 
+por milímetro (Fig. 2-7, A). Em resposta às 
+infecções, a produção dos neutrófilos na 
+medula óssea cresce rapidamente, e seu 
+número pode aumentar para 20.000 por 
+mL de sangue. A produção de neutrófilos é 
+estimulada pelas citocinas, conhecidas como 
+fatores estimulantes de colônias (CSF, do 
+inglês, colony-stimulating factors), que são 
+produzidas por muitos tipos celulares em 
+resposta às infecções e que atuam nas célu-
+las-tronco hematopoiéticas para estimular 
+a proliferação e o amadurecimento dos pre-
+cursores dos neutrófilos. Os neutrófilos são 
+o primeiro tipo celular a responder à maioria 
+das infecções, particularmente às infecções 
+bacterianas e fúngicas e, portanto, são as 
+células dominantes da inflamação aguda, 
+conforme será discutido posteriormente. Os 
+neutrófilos ingerem os microrganismos na 
+circulação e entram rapidamente nos tecidos 
+extravasculares nos locais de infecção, onde 
+também ingerem e destroem microrganis-
+mos. Essas células também são recrutadas 
+a locais de dano tecidual na ausência de in-
+fecção, onde iniciam a depuração de detritos 
+celulares. Os neutrófilos vivem por apenas 
+algumas horas nos tecidos, sendo, assim, 
+os primeiros agentes de socorro, mas não 
+oferecem defesa prolongada.
+Os monócitos são menos abundantes do 
+que os neutrófilos, totalizando 500 a 1.000 
+células por mL de sangue (Fig. 2-7, B). Eles 
+também ingerem microrganismos no sangue 
+e nos tecidos. Os monócitos que entram nos 
+tecidos extravasculares diferenciam-se em 
+células chamadas macrófagos, que, dife-
+rentemente dos neutrófilos, sobrevivem por 
+longos períodos nesses locais. Os monóci-
+tos sanguíneos e os macrófagos dos tecidos 
+representam dois estágios de uma mesma 
+linhagem celular, geralmente chamada de 
+sistema fagocitário mononuclear (Fig. 2-8). 
+(Este também é chamado de sistema reti-
+culoendotelial, por razões históricas, mas 
+esse nome é inadequado e deve ser evitado.) 
+Macrófagos residentes são encontrados no 
+tecido conjuntivo saudável e em todos os 
+órgãos do corpo.
+Os macrófagos desempenham vá-
+rios papéis importantes na defesa do 
+hospedeiro – eles produzem citocinas 
+FIGURA 2-6  Funções do epitélio na imunidade 
+inata. Os epitélios presentes nos portais de entrada de 
+microrganismos oferecem barreiras físicas formadas por 
+queratina (na pele) ou muco secretado (nos sistemas gas-
+trointestinal e broncopulmonar) e por junções de oclusão entre 
+células epiteliais. Os epitélios também produzem substâncias 
+antimicrobianas (p. ex., defensinas) e linfócitos que matam 
+microrganismos e células infectadas.
+FIGURA 2-7  Morfologia dos neutrófilos e monó-
+citos. A, Microfotografia óptica de um neutrófilo sanguíneo 
+mostrando o núcleo multilobulado, razão pela qual essas célu-
+las são também chamadas de leucócitos polimorfonucleares, 
+e os grânulos citoplasmáticos pálidos, cuja maioria é composta 
+de lisossomas. B, A micrografia óptica do monócito sanguíneo 
+mostra o típico núcleo em formato de ferradura.
+
+
+=== p.34
+32	
+Capítulo 2 – Imunidade Inata
+que iniciam e regulam a inflamação, 
+ingerem e destroem microrganismos, 
+além de limpar tecidos mortos e ini-
+ciar o processo de reparação tecidual 
+(Fig. 2-9). Microrganismos e produtos de 
+células danificadas ativam macrófagos a fim 
+de desempenhar essas funções ligando-se 
+aos receptores de reconhecimento de pa-
+drão discutidos anteriormente, incluindo 
+TLR e NLR. As funções fagocíticas dos 
+FIGURA 2-9  Ativação e funções dos macrófagos. Nas respostas imunes inatas, os macrófagos são ativados por 
+produtos microbianos de ligação aos TLR e por citocinas como o interferon-g (IFN-g) derivado da célula NK, que leva à produção de 
+proteínas que medeiam as funções inflamatórias e microbicidas dessas células. Os receptores do complemento da superfície celular 
+promovem a fagocitose dos microrganismos revestidos pelo complemento, assim como a ativação dos macrófagos. (Os receptores do 
+Fc dos macrófagos para a IgG [não mostrada] ligam-se aos microrganismos revestidos do anticorpo e realizam funções semelhantes 
+às funções dos receptores do complemento.) IL, Interleucina; iNOS, óxido nítrico sintase induzível; TNF, fator de necrose tumoral.
+FIGURA 2-8  Estágios do amadurecimento dos fagócitos mononucleares. Os fagócitos mononucleares 
+originam-se de precursores na medula óssea. O estágio do sangue circulante é o monócito. Nos tecidos, essas células se 
+tornam macrófagos; elas podem ser ativadas por microrganismos e se diferenciar em formas especializadas residentes. SNC, 
+Sistema nervoso central.
+
+
+=== p.35
+	
+Capítulo 2 – Imunidade Inata	
+33
+macrófagos são mediadas pelos receptores 
+de superfície da célula, como receptores de 
+manose e receptores necrófagos, que se li-
+gam diretamente a microrganismos (e outras 
+partículas) e a receptores de produtos de 
+ativação do complemento e anticorpos que 
+revestem microrganismos. Os neutrófilos 
+utilizam muitos dos mesmos receptores pa-
+ra reconhecer e ingerir microrganismos. O 
+complemento e os receptores de anticorpos 
+também transduzem sinais de ativação que 
+intensificam a capacidade dos fagócitos de 
+matar microrganismos ingeridos. Os proces-
+sos de fagocitose e exterminação microbiana 
+são descritos posteriormente, no contexto 
+da inflamação.
+Os macrófagos podem ser ativados por 
+duas vias diferentes que desempenham 
+funções distintas (Fig. 2-10). Essas vias 
+de ativação foram denominadas clássica e 
+alternativa. A ativação clássica de ma-
+crófagos é induzida por sinais imunoló-
+gicos inatos, como aqueles dos TLR, e pela 
+citocina IFN-y, que pode ser produzida nas 
+respostas imunes inata e adquirida. Os ma-
+crófagos ativados classicamente, também 
+denominados M1, estão envolvidos na 
+destruição de micróbios e na ativação da 
+inflamação. A ativação alternativa de 
+macrófagos ocorre na ausência de sinais 
+fortes do TLR e é induzida pelas citocinas 
+IL-4 e IL-13; esses macrófagos, chamados 
+M2, parecem ser mais importantes para 
+a reparação tecidual e para o controle da 
+inflamação. A abundância relativa dessas 
+duas formas de macrófagos ativados pode 
+influenciar o resultado das reações do hos-
+pedeiro e contribuir para diversos distúrbios. 
+Retornaremos às funções dessas populações 
+de macrófagos no Capítulo 6, quando dis-
+cutiremos a imunidade celular.
+Embora nossa discussão tenha-se limitado 
+ao papel dos fagócitos na imunidade inata, 
+os macrófagos também são células efetoras 
+importantes tanto no braço celular quanto 
+no braço humoral da imunidade adquirida, 
+conforme será discutido nos Capítulos 6 e 8, 
+respectivamente.
+FIGURA 2-10  Ativação clássica e alternativa dos macrófagos. Os macrófagos classicamente ativados (M1) são 
+induzidos por produtos microbianos e por citocinas, particularmente o interferon-g (IFN-g), e são microbicidas e pró-inflamatórios. 
+Os macrófagos alternativamente ativados (M2) são induzidos pela interleucina-4 (IL-4) e pela IL-13 produzidas por subtipos 
+de linfócitos T e outros leucócitos e são importantes no reparo dos tecidos e fibrose. ON, Óxido nítrico; ROS, espécies reativas de 
+oxigênio; TGF-b, fator transformante de crescimento-b.
+
+
+=== p.36
+34	
+Capítulo 2 – Imunidade Inata
+Células Dendríticas
+As células dendríticas respondem aos mi-
+crorganismos por meio da produção de 
+numerosas citocinas que desempenham 
+duas funções: elas iniciam a inflamação e 
+estimulam as respostas imunes adquiridas. 
+Ao detectar microrganismos e interagir com 
+linfócitos, especialmente células T, as células 
+dendríticas constituem uma ponte impor-
+tante entre a imunidade inata e a adquirida. 
+Discutiremos propriedades e funções des-
+sas células no Capítulo 3, no contexto do 
+painel antigênico, que é a principal função 
+das células dendríticas.
+Mastócitos
+Os mastócitos são células derivadas da me-
+dula óssea com grânulos citoplasmáticos 
+abundantes que estão presentes na pele e 
+no epitélio mucoso. Os mastócitos podem 
+ser ativados por produtos microbianos li-
+gando-se aos TLR, como parte da imunidade 
+inata, ou por um mecanismo dependente 
+de um anticorpo especial. Os grânulos dos 
+mastócitos contêm aminas vasoativas, como 
+a histamina, que causam vasodilatação e 
+aumento da permeabilidade dos capilares, 
+bem como enzimas proteolíticas que podem 
+matar bactérias ou toxinas microbianas ina-
+tivas. Os mastócitos também sintetizam e 
+secretam mediadores lipídicos (p. ex., pros-
+taglandinas) e citocinas (p. ex., TNF), que 
+estimulam a inflamação. Os produtos dos 
+mastócitos também oferecem defesa contra 
+helmintos e são responsáveis pelos sintomas 
+das doenças alérgicas (Cap. 11).
+Células Natural Killer
+As células natural killer (NK), ou exter-
+minadoras naturais, são uma classe de 
+linfócitos que reconhecem células in-
+fectadas e estressadas e respondem des-
+truindo essas células e produzindo uma 
+citocina que ativa os macrófagos, o IFN-g 
+(Fig. 2-11). As células NK representam cerca 
+de 10% dos linfócitos do sangue e dos órgãos 
+linfoides periféricos. As células NK contêm 
+uma grande quantidade de grânulos citoplas-
+máticos e expressam algumas proteínas de su-
+perfície únicas, mas não expressam receptores 
+de imunoglobulinas ou de células T, os recep-
+tores dos linfócitos B e T, respectivamente.
+Na ativação por células infectadas, as 
+células NK esvaziam os conteúdos de seus 
+grânulos citoplasmáticos no espaço extrace-
+lular no ponto de contato com a célula in-
+fectada. As proteínas do grânulo, então, en-
+tram nas células infectadas e ativam enzimas 
+que induzem a apoptose. Os mecanismos 
+citotóxicos das células NK, que são os mes-
+mos mecanismos usados pelos linfócitos T 
+citotóxicos (CTL; Cap. 6), resultam na morte 
+de células infectadas. Portanto, assim como 
+com os CTL, as células NK funcionam para 
+eliminar reservatórios celulares de infec-
+ções e erradicar as infecções causadas pelos 
+microrganismos intracelulares obrigatórios, 
+como os vírus.
+As células NK ativadas também sinteti-
+zam e secretam a citocina interferon-g. O 
+IFN-g ativa macrófagos para se tornarem 
+mais efetivos na morte de microrganismos 
+fagocitados. As citocinas secretadas pelos 
+macrófagos e as células dendríticas que en-
+contraram microrganismos aumentam a ca-
+pacidade de células NK para proteger contra 
+infecções. Três dessas citocinas ativadoras de 
+células NK são a interleucina-15 (IL-15), os 
+interferons tipo 1 (IFN tipo 1) e a interleuci-
+na-12 (IL-12). A IL-15 é importante para o 
+desenvolvimento e a maturação das células 
+NK, e os IFN tipo I e a IL-12 reforçam as 
+FIGURA 2-11  Funções das células natural killer 
+(NK). A, As células NK destroem as células do hospedeiro 
+infectadas por microrganismos intracelulares, eliminando, 
+assim, os reservatórios de infecção. B, As células NK res-
+pondem à interleucina-12 (IL-12) produzida pelos macrófagos 
+e secretam interferon-g (IFN-g), que ativa os macrófagos para 
+que destruam os microrganismos que foram fagocitados.
+
+
+=== p.37
+	
+Capítulo 2 – Imunidade Inata	
+35
+funções das células NK. Então as células NK 
+e os macrófagos são exemplos de dois tipos 
+de células que funcionam cooperativamente 
+para eliminar microrganismos intracelulares: 
+os macrófagos ingerem os microrganismos e 
+produzem IL-12, a IL-12 ativa as células NK 
+a secretar IFN-g, e este ativa os macrófagos 
+para matar os microrganismos ingeridos. Co-
+mo discutido no Capítulo 6, essencialmente 
+a mesma sequência de reações envolvendo 
+macrófagos e linfócitos T é central no me-
+canismo mediado por célula da imunidade 
+adaptativa.
+A ativação de células NK é determi-
+nante para um balanço entre o compro-
+metimento da ativação e dos receptores 
+inibitórios (Fig. 2-12). Os receptores de 
+ativação reconhecem moléculas de superfí-
+cie celular expressas tipicamente em células 
+infectadas com vírus e bactérias intracelula-
+res, bem como células estressadas pelo dano 
+ao DNA e transformação maligna. Assim 
+sendo, as células NK eliminam as células 
+infectadas com microrganismos intracelu-
+lares, bem como células irreparavelmente 
+lesionadas e células tumorais. Um dos bem 
+caracterizados receptores de ativação é cha-
+mado de NKG2D; ele reconhece moléculas 
+que pertencem ao complexo principal de 
+histocompatibilidade (MHC, do inglês, major 
+histocompatibility complex) classe 1.e é expres-
+so em resposta a vários tipos de estresses 
+celulares. Um outro receptor de ativação, 
+chamado CD16, é específico para anticorpos 
+imunoglobulina G (IgG) ligados a células. O 
+reconhecimento das células cobertas com 
+o anticorpo resulta em morte dessas células, 
+um fenômeno chamado de citotoxicida-
+de celular dependente de anticorpo 
+(ADCC, do inglês, antibody-dependent cellular 
+cytotoxicity). As células NK são os principais 
+mediadores da ADCC. O papel dessa reação 
+na imunidade mediada por anticorpos é des-
+crito no Capítulo 8. Receptores de ativação 
+em células NK possuem subunidades de si-
+nalização que contêm motivos de ativação 
+de imunorreceptores via tirosina (ITAM, do 
+inglês, immunoreceptor tyrosine-based activa-
+tion motifs) em suas caudas citoplasmáticas. 
+Os ITAM, que também estão presentes em 
+subunidades das moléculas de sinalização 
+associadas aos receptores antigênicos dos 
+linfócitos, tornam-se fosforilados nos resí-
+duos de tirosina quando os receptores reco-
+nhecem seus ligantes de ativação. Os ITAM 
+forforilados ligam e promovem a ativação de 
+proteínas tirosina quinases citoplasmáticas, 
+e essas enzimas fosforilam e ativam outros 
+substratos em diferentes vias de transdução 
+do sinal, eventualmente levando à exocitose 
+FIGURA 2-12  Receptores ativadores e inibidores das células natural killer (NK). A, A célula de um hos-
+pedeiro normal expressa moléculas do complexo principal de histocompatibilidade (MHC), que são reconhecidas pelos receptores 
+inibitórios, assegurando, então, que as células NK não ataquem as células normais do hospedeiro. Note que as células saudáveis 
+expressam ligantes para a ativação dos receptores (como mostrado) ou podem não expressar tais ligantes, mas eles não são 
+atacados pelas células NK, porque eles ocupam os receptores inibitórios. B, As células NK são ativadas por células infectadas 
+em que o ligante para ativação dos receptores são expressos (frequentemente em altos níveis) e a expressão do MHC classe I 
+é reduzida, assim os receptores inibitórios não são ocupados. O resultado é que as células infectadas são mortas.
+
+
+=== p.38
+36	
+Capítulo 2 – Imunidade Inata
+de grânulos citotóxicos e à produção de 
+IFN-g.
+Os receptores inibidores de células 
+NK, que bloqueiam a sinalização pelos 
+receptores de ativação, são específicos 
+para moléculas de MHC classe I pró-
+prias, que são expressas em todas as 
+células nucleadas saudáveis. Portanto, a 
+expressão do MHC classe I protege célu-
+las saudáveis da destruição por células 
+NK. (No Cap. 3, descrevemos a importante 
+função das moléculas de MHC na apresen-
+tação de antígenos peptídicos a linfócitos 
+T.) Duas famílias principais de receptores 
+inibitórios de células NK são os receptores 
+de células NK tipo imunoglobulinas (KIR, do 
+inglês, killer cell immunoglobulin-like receptors), 
+assim chamados porque eles apresentam 
+homologia estrutural com moléculas de Ig 
+(Cap. 4), e receptores consistindo em uma 
+proteína chamada CD94 e uma subunidade 
+de lectina chamada NKG2. Ambas as famí-
+lias de receptores inibitórios contêm no seu 
+citoplasma domínios estruturais chamados 
+de imunorreceptor de tirosina baseado em 
+motivos inibitórios (ITIM, do inglês, immuno-
+receptor tyrosine-based inhibitory motifs), que se 
+tornam fosforilados nos resíduos de tirosina 
+quando os receptores se ligam a moléculas 
+de MHC classe I. Os ITIM fosforilados ligam 
+e promovem a ativação de proteínas tirosina 
+fosfatases citoplasmáticas. Essas fosfatases re-
+movem grupos de fosfatases dos resíduos de 
+tirosina de várias moléculas de sinalização, 
+neutralizando, assim, a função dos ITAM e 
+bloqueando a ativação das células NK através 
+dos receptores de ativação. Por esse motivo, 
+quando os receptores inibitórios das células 
+NK encontram moléculas de MHC próprias 
+em células normais do hospedeiro, as células 
+NK são desligadas (Fig. 2-12). Muitos vírus 
+desenvolveram mecanismos para bloquear 
+a expressão das moléculas de classe 1 nas 
+células infectadas, as quais permitem a eles 
+escapar da morte pelos CLT CD8+ especí-
+ficos para vírus. Quando isso acontece, os 
+receptores inibitórios das células NK não 
+são ocupados, e se o vírus induzir ao mesmo 
+tempo a expressão de ligantes ativadores, as 
+células NK se tornam ativadas e eliminam as 
+células infectadas com vírus.
+O papel das células NK e dos CTL na de-
+fesa ilustra como hospedeiros e microrganis-
+mos se engajam em uma luta constante para 
+sobreviver. O hospedeiro utiliza os CTL para 
+reconhecer antígenos virais apresentados 
+por MHC, os vírus inibem a expressão de 
+MHC para escapar do extermínio das células 
+infectadas pelos CTL, e as células NK podem 
+compensar a resposta deficiente do CTL pelo 
+fato de as células NK serem mais eficazes na 
+ausência das moléculas de MHC. O vencedor 
+dessa luta, o hospedeiro ou o microrganis-
+mo, determina o resultado da infecção. O 
+mesmo princípio pode ser aplicado às fun-
+ções das células NK em erradicar tumores, 
+muitos dos quais tentam fugir da morte 
+mediada pelos CTL reduzindo a expressão 
+das moléculas de MHC classe I.
+Outras Classes de Linfócitos
+Muitos tipos de linfócitos que têm caracte-
+rísticas de linfócitos T e B também funcio-
+nam na defesa inicial contra microrganis-
+mos e podem ser considerados como parte 
+do sistema imunológico inato. Uma das 
+características que unifica esses linfócitos é 
+que eles expressam receptores antigênicos 
+rearranjados somaticamente (tipo células T 
+e B clássicas), mas os receptores têm diver-
+sidade limitada. Como mencionado ante-
+riormente, as células Tgd estão presentes 
+no epitélio. As células T NK, muitas das 
+quais expressam moléculas de superfície 
+encontradas tipicamente nas células NK, 
+estão presentes no epitélio e nos órgãos 
+linfoides. Elas reconhecem lipídios micro-
+bianos ligados às moléculas relatadas como 
+MHC classe 1, chamadas de CD1. As células 
+B-1 são populações de linfócitos B que são 
+encontrados principalmente na cavidade 
+peritoneal e em tecidos mucosos, onde elas 
+produzem anticorpos em resposta aos mi-
+crorganismos e às toxinas microbianas que 
+passam através das paredes do intestino. 
+A maioria dos anticorpos IgM circulantes 
+encontrados no sangue de indivíduos nor-
+mais, chamados de anticorpos naturais, 
+consiste em produtos das células B-1, e 
+muitos desses anticorpos são específicos 
+para carboidratos que estão presentes nas 
+paredes celulares de muitas bactérias. Um 
+outro tipo de linfócito B, chamado célula B 
+da zona marginal, está presente nas termi-
+nações dos folículos linfoides no baço e em 
+outros órgãos, e também está envolvido na 
+rápida resposta do anticorpo aos microrga-
+nismos ricos em polissacarídeos e nascidos 
+no sangue.
+Assim, essas populações de linfócitos 
+executam respostas que são características 
+da imunidade adquirida (p. ex., produção de 
+anticorpos), mas têm aspecto de imunidade 
+
+
+=== p.39
+	
+Capítulo 2 – Imunidade Inata	
+37
+inata (resposta rápida, diversidade limitada 
+ao reconhecimento do antígeno).
+Sistema Complemento
+O sistema complemento é uma coleção de 
+proteínas presentes na circulação e liga-
+das à membrana que são importantes na 
+defesa contra os microrganismos. Muitas 
+proteínas do complemento são enzimas 
+proteolíticas, e sua ativação envolve a ati-
+vação sequencial dessas enzimas, algumas 
+vezes chamada de cascata enzimática. A cas-
+cata do complemento pode ser ativada por 
+três vias (Fig. 2-13). A via alternativa é 
+desencadeada quando algumas proteínas 
+do complemento são ativadas na superfície 
+dos microrganismos e não podem ser con-
+troladas, porque as proteínas reguladoras 
+do complemento não estão presentes nos 
+patógenos (mas estão presentes nas células 
+do hospedeiro). A via alternativa é um com-
+ponente da imunidade inata. A via clássica 
+é desencadeada com mais frequência depois 
+FIGURA 2-13  Vias de ativação do complemento. A ativação do sistema complemento pode ser iniciada por três 
+vias distintas, todas levando à produção de C3b (as etapas iniciais). O C3b inicia as últimas etapas da ativação do complemento, 
+culminando na formação de um complexo multiproteico chamado de complexo do ataque à membrana (MAC), que inclui C5b, 
+C6, C7, C8 e C9, e causa lise dos microrganismos de parede fina. Os subprodutos peptídicos liberados durante a ativação do 
+complemento são C3a e C5a indutores da inflamação. São exibidas as principais funções das proteínas produzidas nas diversas 
+etapas. A ativação, as funções e a regulação do sistema do complemento são abordadas com mais detalhes no Capítulo 8.
+
+
+=== p.40
+38	
+Capítulo 2 – Imunidade Inata
+que anticorpos se ligam a microrganismos ou 
+a outros antígenos, sendo um componente 
+do braço humoral da imunidade adquirida. 
+A via da lectina é ativada quando uma 
+proteína plasmática ligante de carboidrato, 
+a lectina ligante de manose (MBL, do in-
+glês, mannose-binding lectin), liga-se à manose 
+terminal nas glicoproteínas da superfície dos 
+microrganismos. A lectina ativa proteínas 
+da via clássica, mas como é iniciada por um 
+produto bacteriano na ausência de anticor-
+pos, é um componente da imunidade ina-
+ta. As proteínas ativadas do complemento 
+são enzimas proteolíticas que lisam outras 
+proteínas do complemento, em uma cas-
+cata enzimática que pode ser rapidamente 
+ampliada. O componente central do com-
+plemento é uma proteína plasmática chama-
+da C3, que é clivada pelas enzimas geradas 
+nas etapas iniciais. O principal fragmento 
+proteolítico de C3, chamado C3b, se liga de 
+maneira covalente a microrganismos, sendo 
+capaz de ativar proteínas do complemento 
+presentes na superfície bacteriana. As três 
+vias de ativação do complemento diferem 
+em como são iniciadas, mas compartilham 
+as etapas finais, desempenhando as mesmas 
+funções efetoras.
+O sistema do complemento tem três fun-
+ções na defesa do hospedeiro. Em primeiro 
+lugar, o C3b reveste os microrganismos, 
+ligando-os às células fagocitárias por meio 
+de receptores para o C3b expresso nos fa-
+gócitos. Assim, os microrganismos que são 
+revestidos com as proteínas do complemen-
+to são ingeridos rapidamente e destruídos 
+pelos fagócitos. Esse processo de revestir 
+um microrganismo com moléculas que são 
+reconhecidas por receptores em fagócitos 
+é chamado de opsonização. Em segundo 
+lugar, alguns fragmentos proteolíticos das 
+proteínas do complemento, em especial C5a 
+e C3a, são quimioatrativos para leucócitos 
+(sobretudo neutrófilos e monócitos), pro-
+movendo o recrutamento dos leucócitos 
+(inflamação) no local da ativação do com-
+plemento. Em terceiro lugar, a ativação 
+do complemento culmina na formação de 
+um complexo proteico polimérico que se 
+insere na membrana celular microbiana, 
+perturbando a permeabilidade da barreira 
+que leva à lise osmótica ou à apoptose do 
+microrganismo. O Capítulo 8 apresenta 
+uma discussão mais detalhada da ativação 
+e das funções do complemento, abordan-
+do os mecanismos efetores da imunidade 
+humoral.
+Outras Proteínas Plasmáticas  
+da Imunidade Inata
+Além do complemento, diversas proteínas 
+circulantes estão envolvidas na defesa con-
+tra as infecções. A MBL plasmática reconhe-
+ce carboidratos microbianos e pode recobrir 
+os microrganismos para que sejam fagoci-
+tados, ou ativar a cascata do complemento 
+pela via da lectina, conforme discutido an-
+teriormente. A MBL pertence a uma família 
+de proteínas chamadas colectinas, por serem 
+estruturalmente semelhantes ao colágeno e 
+conterem um domínio que liga carboidratos 
+(lectina). O surfactante pulmonar também 
+pertence à família das colectinas, protegen-
+do as vias aéreas das infecções. A proteína 
+C-reativa (CRP, do inglês, C-reactive protein) é 
+uma pentraxina (molécula de cinco cabeças) 
+que se liga à fosforilcolina dos microrganis-
+mos e opsoniza os microrganismos para que 
+sejam fagocitados pelos macrófagos, que 
+expressam um receptor para a CRP. A CRP 
+também pode ativar proteínas da via clássica 
+do complemento.
+Os níveis circulantes de muitas dessas 
+proteínas plasmáticas aumentam rapida-
+mente após a instalação de uma infecção. 
+Essa resposta protetora é chamada de res-
+posta da fase aguda à infecção.
+Citocinas da Imunidade Inata
+Em resposta aos patógenos, as células 
+dendríticas, os macrófagos e outras cé-
+lulas secretam citocinas, que são inter-
+mediárias em muitas reações celulares 
+da imunidade inata (Fig. 2-14). Como 
+dito, as citocinas são proteínas solúveis que 
+servem de mediadoras nas reações imuno-
+lógicas e inflamatórias, sendo responsáveis 
+pela comunicação entre leucócitos e entre 
+os leucócitos e outras células. A maioria 
+das citocinas cuja estrutura molecular es-
+tá definida é chamada, por convenção, de 
+interleucina, o que significa que essas 
+moléculas são produzidas pelos leucócitos e 
+atuam nos leucócitos. (Na realidade, esta é 
+uma definição muito limitada, pois muitas 
+citocinas são produzidas por células e atuam 
+sobre elas em vez de leucócitos, e muitas 
+citocinas que medeiam comunicações en-
+tre leucócitos recebem outros nomes por 
+razões históricas.) Na imunidade inata, as 
+principais fontes de citocinas são as células 
+dendríticas e os macrófagos ativados pelo 
+reconhecimento de microrganismos, embora 
+
+
+=== p.41
+	
+Capítulo 2 – Imunidade Inata	
+39
+FIGURA 2-14  As citocinas da imunidade inata. A, Os macrófagos e as células dendríticas que respondem aos 
+patógenos produzem citocinas que estimulam a inflamação (recrutamento dos leucócitos) e ativam as células natural killer 
+(NK), que produzem o interferon-g (IFN-g), uma citocina que ativa os macrófagos. B, São enumeradas algumas características 
+importantes das principais citocinas da imunidade inata. Observe que o IFN-g e o fator transformante de crescimento-b (TGF-b) 
+são citocinas de imunidade inata e adaptativa (Cap. 5). O nome fator de necrose tumoral (TNF) originou-se de uma experiência 
+que demonstrou que uma citocina induzida pelo LPS destruía tumores em ratos. Atualmente sabemos que esse efeito resulta 
+da trombose dos vasos sanguíneos do tumor induzida pelo TNF, que é uma forma exagerada de uma reação que ocorre na 
+inflamação. O nome interferon refere-se à capacidade de essas citocinas “interferirem” na infecção viral. O IFN-g apresenta 
+uma reação antiviral fraca quando comparado com os IFN tipo I. Mais informações sobre essas citocinas e seus receptores são 
+dadas no Apêndice II. MHC, Complexo principal de histocompatibilidade.
+
+
+=== p.42
+40	
+Capítulo 2 – Imunidade Inata
+as células epiteliais e outros tipos de células 
+também possam secretar citocinas. O reco-
+nhecimento de componentes bacterianos, 
+como o LPS, ou moléculas virais, como o 
+dsRNA pelos TLR e outros sensores micro-
+bianos, é um estímulo poderoso para a se-
+creção de citocina por células dendríticas e 
+macrófagos. Na imunidade adquirida, uma 
+importante fonte de citocinas são os linfóci-
+tos T auxiliares (Cap. 5).
+As citocinas são produzidas em peque-
+nas quantidades em resposta a um estímu-
+lo externo e se ligam a receptores de alta 
+afinidade nas células-alvo. A maioria das 
+citocinas age nas células que as produzem 
+(ações autócrinas) ou nas células adjacentes 
+(ações parácrinas). Na reação imunológica 
+inata contra as infecções, pode ser ativado 
+um grande número de macrófagos e células 
+dendríticas, de forma que são produzidas 
+grandes quantidades de citocinas que podem 
+atuar em locais distantes de onde foram se-
+cretadas (ações endócrinas).
+As citocinas da imunidade inata desem-
+penham várias funções na defesa do hos-
+pedeiro. O fator de necrose tumoral (TNF, 
+do inglês, tumor necrosis factor), a interleu-
+cina-1 (IL-1) e as quimiocinas (citocinas 
+quimioatrativas) são as principais citocinas 
+envolvidas no recrutamento de neutrófilos 
+no sangue e monócitos aos locais de in-
+fecção (descritos posteriormente). O TNF 
+e a IL-1 também têm efeitos sistêmicos, 
+incluindo a indução da febre pela atuação 
+no hipotálamo, e, assim como a IL-6, eles 
+estimulam células do fígado a produzirem 
+diversas proteínas chamadas reagentes de 
+fase aguda, como a proteína C-reativa e o 
+fibrinogênio, que contribuem para o exter-
+mínio microbiano. Em altas concentrações 
+o TNF produz trombos no endotélio e reduz 
+a pressão arterial por meio de uma combi-
+nação de contratilidade miocárdica reduzida 
+e vasodilatação e drenagem. Infecções bac-
+terianas disseminadas graves podem levar a 
+uma síndrome clínica potencialmente fatal, 
+chamada de choque séptico, que se carac-
+teriza por hipotensão arterial (o aspecto que 
+define o choque), coagulação intravascular 
+disseminada e distúrbios metabólicos. As 
+manifestações clínicas e patológicas iniciais 
+do choque séptico são causadas por níveis 
+elevados de TNF, que são produzidos em 
+resposta à bactéria. Os macrófagos e as cé-
+lulas dendríticas também produzem IL-12 
+em resposta ao lipopolissacarídeo e outras 
+moléculas microbianas. O papel da IL-12 
+na ativação das células NK, levando à ativa-
+ção dos macrófagos, já foi mencionado. As 
+células natural killer produzem IFN-g, cuja 
+função como uma citocina ativadora dos 
+macrófagos também já foi descrita. Como 
+o IFN-g também é produzido pelas células 
+T, ele é considerado uma citocina tanto da 
+imunidade inata quanto da imunidade ad-
+quirida. Nas infecções virais, um subcon-
+junto de células dendríticas e, em menor 
+escala, outras células infectadas produzem 
+IFN tipo 1, que inibem a replicação viral e 
+evitam a disseminação da infecção para as 
+células sadias.
+REAÇÕES IMUNES INATAS
+As principais reações do sistema imune 
+inato que atuam para eliminar micror­
+ganismos são a resposta inflamatória 
+aguda e os mecanismos de defesa an-
+tiviral. Agora que já abordamos como o 
+sistema imune inato reconhece os micro-
+rganismos e as propriedades e funções dos 
+principais componentes proteicos e celula-
+res da imunidade inata, discutiremos mais 
+detalhadamente essas respostas imunes 
+inatas. Diferentes tipos de reações podem 
+ocorrer com diferentes microrganismos, com 
+cada tipo sendo particularmente eficaz na 
+eliminação do tipo de microrganismo que 
+estimula a reação. As principais respostas 
+imunes inatas protetoras a diferentes tipos 
+de microrganismos são as seguintes:
+●	 Bactérias extracelulares e fungos são 
+combatidos, sobretudo pela resposta in-
+flamatória aguda, na qual neutrófilos e 
+monócitos são recrutados ao local de in-
+fecção e pelo sistema do complemento.
+●	 A defesa contra bactérias fagocitadas e 
+intracelulares é mediada por macrófagos, 
+que são ativados por receptores tipo Toll 
+e outros sensores, bem como citocinas.
+●	 A defesa contra vírus é oferecida por in-
+terferons tipo I e células natural killer.
+Inflamação
+A inflamação é uma reação tecidual que rapi-
+damente envia mediadores da defesa do hos-
+pedeiro – células e proteínas circulantes – às 
+localizações onde eles são necessários, os locais 
+de infecção e dano ao tecido (Fig. 2-15). O 
+processo de inflamação consiste em múltiplas 
+etapas, incluindo o recrutamento de células e 
+
+
+=== p.43
+	
+Capítulo 2 – Imunidade Inata	
+41
+o vazamento de proteínas plasmáticas através 
+dos vasos sanguíneos, ingestão de microrga-
+nismos e material morto por fagócitos, e des-
+truição dessas substâncias potencialmente 
+prejudiciais.
+Recrutamento de Fagócitos aos Locais  
+de Infecção e Dano Tecidual
+Os neutrófilos e os monócitos migram 
+para os locais de infecção extravascular 
+ou dano tecidual ligando-se às molécu-
+las de adesão endotelial e em resposta 
+a estímulos quimioatrativos produzi-
+dos por células teciduais em resposta a 
+PAMP e DAMP. A migração dos leucócitos 
+do sangue para os tecidos é um processo com 
+múltiplos passos que consiste em interações 
+adesivas fracas dos leucócitos às células en-
+doteliais, seguidas por uma adesão firme e, 
+então, pela transmigração através do endo-
+télio (Fig. 2-16).
+Se um agente infeccioso penetra em um 
+epitélio e entra no tecido subepitelial, os ma-
+crófagos residentes e outras células reconhe-
+cem o patógeno e respondem produzindo ci-
+tocinas. Duas dessas citocinas, o TNF e a IL-1, 
+atuam no endotélio de vênulas próximas ao 
+local de infecção. Essas citocinas estimulam 
+as células endoteliais para que expressem 
+duas moléculas de adesão da família selec-
+tina, chamadas de E-selectina e P-selectina 
+(selectina refere-se às propriedades de essas 
+moléculas ligarem carboidrato ou lectina). 
+Os neutrófilos e os monócitos circulantes 
+expressam carboidratos de superfície que se 
+ligam fracamente às selectinas. Os neutrófi-
+los ligam-se ao endotélio, o fluxo de sangue 
+destrói essa ligação, e a ligação se forma 
+novamente mais adiante, e assim suces-
+sivamente, resultando no “rolamento” dos 
+leucócitos ao longo da superfície endotelial.
+Os leucócitos expressam outro conjunto 
+de moléculas de adesão, chamadas de in-
+tegrinas, porque elas integram sinais ex-
+trínsecos nas alterações do citoesqueleto. 
+As integrinas estão presentes em um estado 
+de baixa afinidade nos leucócitos que não 
+foram ativados. No interior do local da in-
+fecção, macrófagos teciduais e células endo-
+teliais produzem quimiocinas, que se ligam 
+às glicoproteínas na superfície luminal das 
+células endoteliais, sendo apresentadas em 
+altas concentrações aos leucócitos que estão 
+rolando pelo endotélio. Essas quimiocinas 
+FIGURA 2-15  Resposta de inflamação aguda. As citocinas e outros mediadores são produzidos por macrófagos, 
+células dendríticas (não mostradas), mastócitos e outras células nos tecidos em resposta aos produtos microbianos e às células 
+danificadas do hospedeiro. Esses mediadores aumentam a permeabilidade dos vasos sanguíneos, levando à entrada de proteí-
+nas plasmáticas (p. ex., proteínas complementares) nos tecidos, e promovem o movimento dos leucócitos do sangue para os 
+tecidos, onde os leucócitos destroem os microrganismos, limpam as células danificadas e promovem mais inflamação e reparo.
+
+
+=== p.44
+42	
+Capítulo 2 – Imunidade Inata
+estimulam um rápido aumento na afinidade 
+das integrinas dos leucócitos pelos ligantes 
+presentes no endotélio. Ao mesmo tempo, 
+o TNF e a IL-1 estimulam o endotélio a 
+expressar os ligantes para as integrinas. A 
+forte ligação das integrinas aos seus ligantes 
+interrompe o rolamento dos leucócitos no 
+endotélio. O citoesqueleto dos leucócitos 
+é reorganizado e as células se espalham na 
+superfície endotelial. As quimiocinas tam-
+bém estimulam a motilidade dos leucócitos, 
+assim como produtos bacterianos e produtos 
+de ativação do complemento. Com isso, os 
+leucócitos começam a migrar entre as célu-
+las endoteliais, através da parede do vaso, 
+seguindo o gradiente de concentração desses 
+quimioatrativos até o local da infecção.
+A sequência de rolamento mediada pela 
+selectina, a firme adesão mediada pela in-
+tegrina dependente de quimiocina e a mo-
+tilidade mediada pela quimiocina levam à 
+migração dos leucócitos do sangue para um 
+local de infecção extravascular em questão 
+de minutos após a infecção. (Conforme dis-
+cutido no Cap. 6, a mesma sequência de 
+eventos é responsável pela migração de lin-
+fócitos T ativados para os tecidos infectados.) 
+Deficiências hereditárias nas integrinas e nos 
+ligantes de selectina levam ao recrutamento 
+deficiente de leucócitos aos locais de infecção 
+e à maior suscetibilidade a infecções. Essas 
+disfunções são chamadas de deficiências 
+de adesão leucocitária (LAD, do inglês, 
+leukocyte adhesion deficiencies).
+Produtos microbianos e citocinas inflama-
+tórias como o TNF fazem com que os capila-
+res tornem-se permeáveis, permitindo que 
+proteínas circulantes, incluindo proteínas e 
+anticorpos do complemento, saiam dos vasos 
+sanguíneos e entrem no sítio tecidual de infec-
+ção. Essas proteínas atuam juntamente com 
+fagócitos para destruir os agentes ofensivos. 
+Em algumas infecções, leucócitos sanguíneos 
+que não neutrófilos e macrófagos, como eo-
+sinófilos, podem ser recrutados a locais de in-
+fecção e oferecem defesa contra os patógenos.
+Fagocitose e Destruição de Microrganismos
+Os neutrófilos e os macrófagos ingerem 
+(fagocitam) patógenos e destroem os 
+FIGURA 2-16  Sequência de eventos na migração dos leucócitos para os locais de infecção. Os ma-
+crófagos que encontram os microrganismos nos locais de infecção produzem citocinas (p. ex., fator de necrose tumoral (TNF) 
+e interleucina-1 [IL-1]) que ativam as células endoteliais das vênulas próximas a produzir selectinas, ligantes para as integrinas e 
+para secretar quimiocinas. As selectinas são intermediárias na fraca ligação ao endotélio e no rolamento dos neutrófilos; as 
+integrinas estimulam a forte adesão dos neutrófilos; e as quimiocinas ativam os neutrófilos, estimulando sua migração por meio 
+do endotélio para o local da infecção. Os monócitos e os linfócitos T ativados usam os mesmos mecanismos para migrar para 
+os locais de infecção.
+
+
+=== p.45
+	
+Capítulo 2 – Imunidade Inata	
+43
+microrganismos ingeridos em vesículas 
+intracelulares (Fig. 2-17). Fagocitose é 
+um processo de ingestão de partículas com 
+mais de 0,5 mm de diâmetro. Ela tem início 
+com receptores de membrana ligando-se 
+ao microrganismo. Os principais receptores 
+fagocíticos são alguns receptores de reco-
+nhecimento de padrões, como receptores 
+de manose e outras lectinas, e receptores 
+para anticorpos e complemento. Micror­
+ganismos opsonizados com anticorpos e 
+fragmentos do complemento são capazes de 
+ligar-se avidamente a receptores específicos 
+em fagócitos, resultando em uma interna-
+lização muito maior (Cap. 8). A ligação do 
+microrganismo à célula é seguida pela ex-
+tensão da membrana plasmática do fagócito 
+ao redor da partícula. A membrana se fe-
+cha, e a partícula é internalizada em uma 
+vesícula ligada à membrana, chamada de 
+fagossoma. Os fagossomas se fundem com 
+os lisossomas, formando os fagolisossomas. 
+Ao mesmo tempo que o microrganismo está 
+sendo ligado pelos receptores de fagócitos e 
+ingerido, o fagócito recebe sinais de diversos 
+receptores que ativam diversas enzimas no 
+fagolisossoma. Uma dessas enzimas, cha-
+mada de oxidase fagocitária, converte ra-
+pidamente o oxigênio molecular em ânion 
+superóxido e radicais livres, um processo 
+chamado surto oxidativo (ou surto respira-
+tório). Esses radicais livres são chamados 
+de intermediários reativos do oxigênio 
+(ROS, do inglês, reactive oxygen species), sendo 
+tóxicos para os microrganismos ingeridos. 
+Uma segunda enzima, chamada de óxido 
+nítrico sintase induzida (iNOS), catalisa a 
+conversão da arginina em óxido nítrico 
+FIGURA 2-17  Fagocitose e destruição intracelular dos microrganismos. Os macrófagos e os neutrófilos 
+expressam muitos receptores em sua superfície que podem ligar-se aos microrganismos para fagocitá-los; são exibidos 
+alguns exemplos desses receptores. Os microrganismos são ingeridos nos fagossomas, que se fundem com lisossomas, e os 
+microrganismos são destruídos pelas enzimas e por diversas substâncias tóxicas produzidas nos fagolisossomas. As mesmas 
+substâncias podem ser liberadas dos fagócitos e podem eliminar os microrganismos extracelulares (não mostrados). iNOS, óxido 
+nítrico sintase induzível; ON, óxido nítrico; ROS, espécies reativas do oxigênio.
+
+
+=== p.46
+44	
+Capítulo 2 – Imunidade Inata
+(ON), que também é uma substância micro-
+bicida. O terceiro conjunto de enzimas, as 
+proteases lisossômicas, quebra as proteínas 
+microbianas. Todas essas substâncias mi-
+crobicidas são produzidas principalmente 
+nos lisossomas e fagolisossomas, agindo nos 
+microrganismos ingeridos sem danificar os 
+fagócitos.
+Além da exterminação intracelular, os 
+neutrófilos utilizam mecanismos adicionais 
+para destruir microrganismos. Eles podem 
+liberar conteúdos de grânulos microbicidas 
+no ambiente extracelular. Em resposta a 
+patógenos e mediadores inflamatórios, os 
+neutrófilos morrem, e durante esse proces-
+so eles expelem seus conteúdos nucleares 
+para formar redes de histonas (poderosas 
+proteínas antimicrobianas) e outros com-
+ponentes, que são chamados de Redes Ex-
+tracelulares de Neutrófilos (NET, do inglês, 
+Neutrophil Extracellular Traps). Essas NET 
+interceptam bactérias e fungos e matam os 
+organismos. Em alguns casos, as enzimas 
+e ROS liberados no espaço extracelular 
+podem causar lesão nos tecidos do hos-
+pedeiro. É por essa razão que a inflamação, 
+normalmente uma resposta de proteção do 
+hospedeiro contra as infecções, pode causar 
+lesão tecidual.
+A deficiência hereditária da oxidase fago-
+citária é a causa de uma imunodeficiência 
+chamada de doença granulomatosa crô-
+nica (CGD, do inglês, chronic granulomatous 
+disease). Na CGD, os fagócitos são incapazes 
+de erradicar patógenos intracelulares, e o 
+hospedeiro tenta conter a infecção atraindo 
+mais macrófagos e linfócitos, resultando em 
+conjuntos de células em torno dos microrga-
+nismos que são chamados de granulomas.
+Defesa Antiviral
+A defesa contra vírus é um tipo especial de 
+resposta que envolve interferons, células NK 
+e outros mecanismos.
+Interferons tipo I induzem a resis-
+tência a infecção e replicação virais, 
+chamada de estado antiviral. IFN tipo I, 
+que incluem várias formas de IFN-a e um 
+IFN-b, são secretados por muitos tipos de 
+células infectadas por vírus. Uma fonte im-
+portante dessas citocinas é um tipo de cé-
+lula dendrítica chamada célula dendrítica 
+plasmacitoide (Cap. 3). Quando IFN tipo I 
+secretados de células dendríticas ou outras 
+células infectadas se ligam ao receptor IFN 
+em células não infectadas adjacentes, são 
+ativadas vias de sinalização que inibem a 
+replicação viral e destroem genomas virais 
+(Fig. 2-18). Essa ação é a base para o uso do 
+IFN-a para tratar algumas formas de hepa-
+tite viral crônica.
+Células infectadas por vírus podem ser 
+destruídas por células NK, conforme des-
+crito anteriormente. IFN tipo I aumentam a 
+capacidade das células NK de matar células 
+infectadas. Além disso, parte da resposta 
+inata a infecções virais inclui maior apoptose 
+FIGURA 2-18  Ações antivirais dos interferons 
+tipo I. Os interferons tipo I (IFN-a, IFN-b) são produzidos 
+pelas células infectadas pelo vírus em resposta à sinalização 
+TLR intracelular e outros sensores do RNA viral. Os interferons 
+tipo I ligam-se aos receptores nas células não infectadas próxi-
+mas e ativam as vias de sinalização que induzem a expressão 
+de diversas enzimas que interferem na replicação viral em 
+diferentes etapas, incluindo inibição da tradução proteica 
+viral, aumento da degradação do RNA viral e inibição da 
+expressão genética viral e reunião do vírion. Os IFN tipo I 
+também ligam-se aos receptores nas células infectadas e 
+induzem a expressão dos genes cujos produtos aumentam 
+a suscetibilidade das células para a eliminação mediada pelo 
+CTL (não mostrada).
+
+
+=== p.47
+	
+Capítulo 2 – Imunidade Inata	
+45
+de células infectadas. A morte das células in-
+fectadas elimina o reservatório de infecção.
+Regulação das Respostas Imunes Inatas
+Respostas imunes inatas são reguladas 
+por uma variedade de mecanismos que 
+são desenvolvidos para prevenir o dano 
+excessivo aos tecidos. Esses mecanismos 
+reguladores incluem a produção de citocinas 
+anti-inflamatórias por macrófagos e células 
+dendríticas, incluindo a interleucina-10 
+(IL-10), que inibe as funções microbicidas e 
+pró-inflamatórias de macrófagos (via clás-
+sica de ativação de macrófagos) e o receptor 
+antagonista de IL-1, que bloqueia as ações da 
+IL-1. Existem muitos mecanismos de retro-
+alimentação nos quais sinais que induzem 
+a produção de citocina pró-inflamatória 
+também induzem a expressão de inibidores 
+da sinalização da citocina. Por exemplo, a 
+sinalização do TLR estimula a expressão de 
+proteínas chamadas supressores da sina-
+lização de citocina (SOCS, do inglês, sup-
+pressors of cytokine signaling), que bloqueiam 
+as respostas de células a diversas citocinas, 
+incluindo IFN.
+EVASÃO MICROBIANA DA IMUNIDADE 
+INATA
+Os patógenos evoluíram de forma a resistir 
+contra os mecanismos da imunidade inata, 
+sendo, consequentemente, capazes de entrar 
+e colonizar seus hospedeiros (Fig. 2-19). 
+Algumas bactérias intracelulares resistem à 
+destruição no interior dos fagócitos. A Lis-
+teria monocytogenes produz uma proteína que 
+lhe permite escapar das vesículas fagocitárias 
+e entrar no citoplasma das células infectadas, 
+onde não é mais suscetível aos ROS ou ON 
+(que são produzidos principalmente nos fa-
+golisossomas). A parede celular das micobac-
+térias contém um lipídio que inibe a fusão 
+das vesículas contendo bactérias ingeridas 
+com os lisossomas. Outros patógenos pos-
+suem uma parede celular resistente à ação 
+das proteínas do complemento. Como será 
+abordado nos Capítulos 6 e 8, esses mecanis-
+mos também permitem que os microrganis-
+mos resistam aos mecanismos efetores das 
+imunidades celular e humoral, os dois braços 
+da imunidade adquirida.
+O PAPEL DA IMUNIDADE INATA  
+NA ESTIMULAÇÃO DAS RESPOSTAS  
+DA IMUNIDADE ADQUIRIDA
+Até o momento, demos maior atenção a 
+como o sistema imunológico inato reco-
+nhece os microrganismos e combate as 
+infecções. Mencionamos no início des-
+te capítulo que, além de suas funções de 
+defesa, a resposta imunológica inata tem 
+a importante função de alertar o sistema 
+imunológico adquirido de que é necessária 
+uma resposta imunológica eficaz. Nesta se-
+ção final do capítulo, são resumidos alguns 
+FIGURA 2-19  Evasão do sistema imunológico inato pelos microrganismos. Esta tabela oferece os exemplos 
+selecionados pelos quais os microrganismos podem evadir ou resistir à imunidade inata. LPS, Lipopolissacarídeo.
+
+
+=== p.48
+46	
+Capítulo 2 – Imunidade Inata
+dos mecanismos pelos quais as respostas 
+imunológicas inatas estimulam as respostas 
+imunológicas adquiridas.
+A resposta imunológica inata gera 
+moléculas que emitem sinais, além dos 
+antígenos, que são necessários para 
+ativar os linfócitos T e B virgens. No 
+Capítulo 1, introduzimos o conceito de que 
+a total ativação de linfócitos específicos ao 
+antígeno requer dois sinais. O antígeno pode 
+ser chamado de sinal 1 e a resposta imune 
+inata para microrganismos e para células 
+do hospedeiro danificadas pelos microrga-
+nismos pode emitir o sinal 2 (Fig. 2-20). 
+Os estímulos que avisam o sistema imune 
+adquirido de que ele precisa reagir também 
+foram chamados de sinais de perigo. Essa 
+necessidade de um segundo sinal dependen-
+te dos patógenos garante que os linfócitos 
+respondam a agentes infecciosos e não a 
+substâncias inofensivas, não infecciosas. Em 
+situações experimentais ou nas vacinações, 
+as respostas imunológicas adquiridas podem 
+ser induzidas por antígenos sem a presença 
+dos microrganismos. Em todos esses casos os 
+antígenos têm de ser administrados associa-
+dos a substâncias chamadas de adjuvantes, 
+que desencadeiam as mesmas reações imu-
+nológicas inatas que os patógenos. De fato, 
+muitos adjuvantes potentes são produtos dos 
+microrganismos. A natureza e o mecanismo 
+de ação do segundo sinal são descritos na 
+discussão sobre a ativação dos linfócitos T 
+e B (Caps. 5 e 7, respectivamente). Aqui, 
+descrevemos dois exemplos para ilustrar o 
+segundo sinal gerado durante as reações 
+imunológicas inatas.
+Os microrganismos (ou o IFN-g produ-
+zido pelas células NK em resposta aos pa-
+tógenos) estimulam as células dendríticas 
+e os macrófagos a produzirem dois tipos de 
+segundo sinal que podem ativar os linfócitos 
+T. Em primeiro lugar, as células dendríticas 
+aumentam sua expressão de moléculas de 
+superfície chamadas de coestimuladores, 
+que se ligam a receptores nas células T vir-
+gens e, juntamente com o reconhecimento 
+do antígeno, ativam as células T. Em segundo 
+lugar, as células dendríticas e os macrófagos 
+secretam citocinas como a IL-12, IL-1 e IL-6, 
+que estimulam a diferenciação das células 
+T virgens em células efetoras da imunidade 
+adquirida celular.
+Os patógenos no sangue ativam o sistema 
+do complemento pela via alternativa. Uma das 
+proteínas produzidas durante a ativação do 
+complemento, chamada de C3d, se liga de 
+forma covalente ao microrganismo. Ao mes-
+mo tempo que linfócitos B reconhecem os 
+antígenos microbianos por meio de seus re-
+ceptores antigênicos, as células B reconhecem 
+o C3d ligado ao patógeno por meio de um 
+receptor para essa proteína. A combinação 
+do reconhecimento do antígeno e do C3d 
+inicia o processo de diferenciação das células 
+secretoras de anticorpos. Assim, um produto 
+do complemento atua como um segundo 
+sinal para a resposta humoral.
+Esses exemplos ilustram as características 
+importantes dos segundos sinais: esses sinais 
+não só estimulam a imunidade adquirida, 
+como direcionam a natureza da resposta 
+imunológica adquirida. Os microrganismos 
+intracelulares e aqueles que foram fagocita-
+dos precisam ser eliminados pela imunidade 
+celular, a resposta imunológica adquirida 
+mediada pelos linfócitos T. Os patógenos que 
+foram encontrados e ingeridos por células 
+dendríticas ou macrófagos induzem os se-
+gundos sinais – ou seja, os coestimuladores 
+FIGURA 2-20  O requerimento de dois sinais para 
+a ativação de linfócito. O reconhecimento do antígeno 
+pelos linfócitos fornece sinal 1 para a ativação dos linfócitos 
+e componentes dos microrganismos, e substâncias produzi-
+das durante as respostas imunes inatas aos microrganismos 
+fornecem o sinal 2. Nesta ilustração, os linfócitos poderiam 
+ser as células T ou B. Por convenção, os principais sinais 
+secundários para células T são chamados de coestimuladores 
+porque suas funções junto com os antígenos estimulam as 
+células. A natureza dos segundos sinais para linfócitos T ou B 
+está descrita mais detalhadamente em capítulos posteriores.
+
+
+=== p.49
+	
+Capítulo 2 – Imunidade Inata	
+47
+e a IL-12 – os quais estimulam a resposta da 
+célula T. Em contraste, os microrganismos 
+no sangue precisam ser combatidos pelos an-
+ticorpos, que são produzidos pelos linfócitos 
+B durante a resposta humoral. Esses micror­
+ganismos ativam o sistema complemento 
+que, por sua vez, estimula a ativação das 
+células B e a produção de anticorpos. Assim, 
+os diversos tipos de patógenos induzem tipos 
+de respostas imunológicas inatas diferentes 
+que, por sua vez, estimulam tipos de respos-
+ta imunológica adquirida mais adequados 
+para combater os diversos patógenos.
+RESUMO
+✹ Todos os microrganismos multicelu-
+lares contêm mecanismos intrínsecos 
+de defesa contra as infecções, que 
+constituem a imunidade inata.
+✹ Os mecanismos da imunidade inata 
+respondem aos microrganismos e não 
+a substâncias não microbianas, são 
+específicos para estruturas presentes 
+nas diversas classes de patógenos, são 
+intermediados por receptores codi-
+ficados na linhagem germinativa e 
+não são acentuados por exposições 
+repetidas.
+✹ Os receptores tipo Toll (TLR), expres-
+sos nas membranas plasmáticas e nos 
+endossomas de diversos tipos celulares, 
+são a maior classe de sistemas de re-
+ceptores da imunidade inata que reco-
+nhecem diferentes produtos microbia-
+nos, incluindo constituintes da parede 
+celular bacteriana e ácidos nucleicos 
+virais. Alguns receptores da família 
+do NLR reconhecem microrganismos, 
+produtos de células danificadas e ou-
+tras substâncias, e esses receptores 
+sinalizam através de um complexo de 
+multiproteína citosólica, o inflamas-
+soma, para induzir a secreção da inter-
+leucina-1 de citocina pró-inflamatória.
+✹ Os principais componentes da imuni-
+dade inata são o epitélio, os fagócitos, 
+as células dendríticas, as células na-
+tural killer, as citocinas e as proteínas 
+plasmáticas, incluindo as proteínas do 
+sistema complemento.
+✹ O epitélio fornece barreiras físicas 
+contra os microrganismos, produz 
+antibióticos e contém linfócitos que 
+podem prevenir infecções.
+✹ Os principais fagócitos – neutrófilos e 
+monócitos/macrófagos – são células 
+sanguíneas que são recrutadas aos lo-
+cais de infecção, onde são ativadas pelo 
+envolvimento de diferentes receptores. 
+Os macrófagos ativados destroem mi-
+crorganismos e células mortas e ini-
+ciam o reparo tecidual; essas funções 
+podem ser executadas por diferentes 
+populações de macrófagos.
+✹ As células natural killer (NK) destroem 
+as células do hospedeiro infectadas 
+com patógenos intracelulares e pro-
+duzem interferon-g, uma citocina 
+que ativa os macrófagos para que des-
+truam os microrganismos fagocitados.
+✹ O sistema complemento é uma família 
+de proteínas que são ativadas sequen-
+cialmente por alguns tipos de micror­
+ganismos e pelos anticorpos (no braço 
+humoral da imunidade adquirida). As 
+proteínas do complemento cobrem 
+(opsonizam) os microrganismos para 
+que sejam fagocitados, estimulam a 
+inflamação e destroem os patógenos.
+✹ As citocinas da imunidade inata es-
+timulam a inflamação (TNF, IL-1, 
+quimiocinas), ativam as células NK 
+(IL-12) e os macrófagos (IFNg) e pre-
+vinem as infecções virais (IFN tipo I).
+✹ A inflamação consiste no recrutamen-
+to de fagócitos aos locais de infecção e 
+dano tecidual, um processo mediado 
+pela ligação a moléculas de adesão 
+endotelial que são induzidas pelas 
+citocinas TNF e IL-1 e pela resposta 
+a quimioatraentes solúveis, incluindo 
+as quimiocinas, fragmentos do com-
+plemento e peptídeos bacterianos. A 
+isto se segue a ingestão e destruição de 
+microrganismos e células danificadas.
+✹ A defesa antiviral é mediada por 
+interferons tipo I, que inibem a re-
+plicação viral, e por células NK, que 
+matam células infectadas.
+✹ Além da defesa inicial contra as infec-
+ções, as respostas imunológicas inatas 
+fornecem sinais que atuam em con-
+junto com antígenos para a ativação 
+dos linfócitos B e T. Essa exigência de 
+um segundo sinal garante que a imu-
+nidade adquirida seja desencadeada 
+por microrganismos (os indutores das 
+reações imunológicas inatas) e não 
+por substâncias não bacterianas.
+
+
+=== p.50
+48	
+Capítulo 2 – Imunidade Inata
+PERGUNTAS DE REVISÃO
+1.	 Como a especificidade da imunidade ina-
+ta difere da especificidade da imunidade 
+adquirida?
+2.	 Dê exemplos de substâncias microbianas 
+reconhecidas pelo sistema imunológico 
+inato, e quais são os receptores para essas 
+substâncias?
+3.	 O que é inflamassoma e como ele é es-
+timulado?
+4.	 Quais são os mecanismos pelos quais o 
+epitélio da pele previne a entrada dos 
+microrganismos?
+5.	 Como os fagócitos ingerem e destroem os 
+microrganismos?
+6.	 Qual o papel das moléculas do MHC no 
+reconhecimento das células infectadas 
+pelas células NK e qual o significado fi-
+siológico desse reconhecimento?
+7.	 Qual o papel das citocinas TNF, IL-12 e 
+interferons tipo I na defesa contra infec-
+ções?
+8.	 Como as respostas imunológicas inatas 
+acentuam a imunidade adquirida?
+As respostas e as discussões das Perguntas de Re-
+visão estão disponíveis em studentconsult.com.br.
+
+
+=== p.120
+118	
+Capítulo 6 – Mecanismos Efetores da Imunidade Mediada por Células T
+infecciosos são capazes de infectar células do 
+hospedeiro e de viver dentro delas. Os micror­
+ganismos patogênicos que infectam células 
+do hospedeiro e sobrevivem no interior de-
+las incluem (1) muitas bactérias, fungos e 
+alguns protozoários que são ingeridos por 
+fagócitos, mas resistem aos mecanismos de 
+destruição desses fagócitos e, por isso, sobre-
+vivem em vesículas ou no citoplasma, e (2) 
+vírus que infectam células fagocitárias e não 
+fagocitárias e vivem e se replicam no cito-
+plasma dessas células (Cap. 5, Fig. 5-1). As 
+diferentes classes de células T diferem quanto 
+à localização celular dos microrganismos por 
+elas reconhecidos e à natureza das reações 
+por elas evocadas. De modo geral, as células 
+T CD4+ reconhecem antígenos de microrga-
+nismos em vesículas fagocitárias e secretam 
+citocinas que recrutam e ativam leucócitos 
+que matam os microrganismos, enquanto as 
+células CD8+ reconhecem antígenos de mi-
+crorganismos que estão presentes no citosol 
+e destroem as células infectadas.
+As reações imunes mediadas por células 
+T consistem em múltiplas etapas (Cap. 5, 
+Fig. 5-2). As células T virgens são estimu-
+ladas por antígenos microbianos nos linfo-
+nodos e no baço, dando origem a células T 
+efetoras cuja função é a de erradicar micror­
+ganismos intracelulares. As células T efetoras 
+diferenciadas migram então para o local da 
+infecção. Nesses locais, os fagócitos que in-
+geriram os microrganismos para vesículas 
+intracelulares apresentam fragmentos pep-
+tídicos de proteínas microbianas ligados a 
+moléculas MHC classe II na superfície celular 
+para reconhecimento pelas células T efetoras 
+CD4+. Os antígenos peptídicos derivados de 
+microrganismos vivendo no citosol de células 
+infectadas são apresentados por moléculas 
+MHC classe I para o reconhecimento por 
+células T efetoras CD8+. O reconhecimento 
+de antígenos ativa as células T efetoras a 
+executar sua tarefa de eliminar os patógenos 
+infecciosos. Portanto, na CMI, as células T 
+reconhecem antígenos proteicos em dois es-
+tágios. Em primeiro lugar, células T virgens 
+reconhecem antígenos em tecidos linfoides 
+e respondem proliferando e se diferencian-
+do em células efetoras (Cap. 5). Segundo, 
+células T efetoras reconhecem os mesmos 
+antígenos em qualquer lugar do corpo e res-
+pondem eliminando esses microrganismos.
+Este capítulo descreve inicialmente como 
+as células T efetoras diferenciadas localizam 
+microrganismos nos tecidos e depois como 
+FIGURA 6-1  Imunidade mediada por células contra microrganismos intracelulares. A, Células T auxiliares 
+efetoras dos subgrupos CD4+ TH1 e TH17 reconhecem antígenos microbianos e secretam citocinas que recrutam leucócitos 
+(inflamação) e ativam fagócitos para matar os microrganismos. As células T CD8+ também produzem citocinas que induzem 
+inflamação e ativam macrófagos (não mostrados). B, Os linfócitos T citotóxicos (CTL) CD8+ destroem células infectadas por 
+microrganismos no citoplasma.
+
+
+=== p.121
+	
+Capítulo 6 – Mecanismos Efetores da Imunidade Mediada por Células T	
+119
+as células T CD4+ e CD8+ eliminam esses 
+microrganismos.
+MIGRAÇÃO DE LINFÓCITOS T EM REAÇÕES 
+IMUNES MEDIADAS POR CÉLULAS
+Para que venham a ocorrer as respostas imu-
+nes mediadas por células T a uma infecção, 
+as células T têm de tomar parte em dois tipos 
+de atividade migratória. Em primeiro lugar, 
+células T virgens têm de migrar entre o san-
+gue e os tecidos linfoides em todo o corpo até 
+encontrar células dendríticas em um linfono-
+do ou no baço que apresentem os antígenos 
+reconhecidos por células T (Cap. 3). Segundo, 
+depois que as células T virgens são ativadas 
+e se diferenciam em clones expandidos de 
+células T efetoras, essas células T têm de mi-
+grar de volta aos locais de infecção, nos quais 
+elas funcionam destruindo microrganismos. 
+A migração das células T virgens e das células 
+T efetoras é controlada por três famílias de 
+proteínas – selectinas, integrinas e quimiocinas 
+– que regulam a migração de todos os leucóci-
+tos, conforme descrito no Capítulo 2. As vias 
+de migração de células T virgens e de células 
+T efetoras diferem significativamente devido à 
+expressão seletiva de diferentes moléculas de 
+adesão e receptores para quimiocinas em cé-
+lulas T virgens versus células T efetoras, junta-
+mente com a expressão seletiva de moléculas 
+de adesão endotelial e quimiocinas em tecidos 
+linfoides e em locais de inflamação (Fig. 6-2).
+As células T virgens expressam a 
+molécula de adesão celular L-selectina 
+(CD62L) e o receptor para quimiocinas 
+CCR7, que medeiam sua migração seleti-
+va para os linfonodos por vasos especia-
+lizados designados como vênulas endo-
+teliais altas (HEV, do inglês, high endothelial 
+venules) (Fig. 6-2). Essas HEV estão localizadas 
+nas zonas de células T dos tecidos linfoides e 
+são revestidas por células endoteliais especia-
+lizadas, que expressam ligantes carboidratos 
+que se ligam à L-selectina. As HEV também 
+apresentam quimiocinas produzidas unica-
+mente em tecidos linfoides que fixam CCR7. 
+As células T virgens no sangue executam in-
+terações de rolagem mediadas por L-seletina 
+com a HEV, possibilitando que as quimiocinas 
+se liguem a CCR7 sobre a célula T. O receptor 
+CCR7 transduz sinais intracelulares que ati-
+vam a integrina LFA-1 (antígeno associado 
+à função leucocitária-1) na célula T virgem 
+a se ligar firmemente a seu ligante ICAM-1 
+(molécula de adesão intercelular-1) na HEV, 
+ocasionando a parada das células T em rola-
+gem. Essas células T saem, então, do vaso pelas 
+junções endoteliais e permanecem na zona de 
+células T do linfonodo devido às quimiocinas 
+aí presentes. Em consequência disso, muitas 
+células T virgens transportadas pelo sangue 
+em uma HEV migram para a zona de células 
+T do estroma linfonodal. Isso acontece cons-
+tantemente em todos os linfonodos e tecidos 
+linfoides de mucosa no corpo. As células T 
+efetoras não expressam CCR7 nem L-selectina 
+e por isso não são atraídas para os linfonodos.
+O fosfolípide esfingosina 1-fosfato 
+(S1P) desempenha um papel-chave na 
+entrada e na saída de células T pelos 
+linfonodos. Os níveis de S1P no sangue e 
+na linfa são mais altos que no interior dos 
+linfonodos. S1P se liga a seu receptor e reduz 
+assim a expressão deste, o que mantém baixa 
+a expressão do receptor em células T virgens 
+circulantes. Uma célula T virgem que entre no 
+linfonodo é exposta a concentrações mais bai-
+xas de S1P, e a expressão do receptor começa 
+a aumentar. Caso não reconheça nenhum 
+antígeno, a célula T sai do linfonodo por vasos 
+linfáticos eferentes, seguindo o gradiente de 
+S1P do linfonodo para a linfa. Se a célula T 
+encontrar efetivamente antígenos específicos 
+e for ativada, a expressão na superfície do 
+receptor para S1P é suprimida por vários dias. 
+Em consequência disso, células T ativadas 
+recentemente permanecem no linfonodo 
+por um tempo suficiente para apresentar ex-
+pansão clonal e diferenciação. Quando esse 
+processo se completa, o receptor para S1P é 
+novamente expresso na superfície celular; ao 
+mesmo tempo, as células perdem a expres-
+são de L-selectina e de CCR7, que atraíram 
+as células T virgens para os linfonodos. As 
+células T ativadas, portanto, são levadas para 
+fora dos linfonodos na linfa de drenagem, que 
+transporta então as células para a circulação. 
+A consequência final dessas alterações é que 
+células T efetoras diferenciadas saem dos lin-
+fonodos e passam à circulação. A importância 
+da via do S1P foi destacada pelo desenvolvi-
+mento de um fármaco (fingolimod) que se 
+liga ao receptor para S1P e bloqueia a saída 
+de células T dos linfonodos. Esse fármaco foi 
+aprovado para o tratamento da doença in-
+flamatória esclerose múltipla.
+As células T efetoras migram para 
+locais de infecção, porque essas células 
+expressam moléculas de adesão e re-
+ceptores para quimiocinas que se ligam 
+aos ligantes expressos ou apresentados 
+no endotélio vascular como resultado 
+
+
+=== p.122
+120	
+Capítulo 6 – Mecanismos Efetores da Imunidade Mediada por Células T
+FIGURA 6-2  Migração de linfócitos T virgens e efetores. A, Os linfócitos T virgens se dirigem aos linfonodos 
+em consequência da ligação de L-selectina e de integrina a seus ligantes em vênulas endoteliais altas (HEV). As quimiocinas 
+expressas nos linfonodos se ligam a receptores nas células T virgens, estimulando a adesão dependente da integrina e a 
+migração através da HEV. O fosfolipídio esfingosina 1-fosfato (S1P) contribui para a saída das células T dos linfonodos, por se 
+ligar ao receptor, designado como S1PR1 (receptor para esfingosina 1-fosfato tipo 1). Os linfócitos T ativados, incluindo células 
+efetoras, se dirigem aos locais de infecção em tecidos periféricos e essa migração é mediada por E-selectina e P-selectina, por 
+integrinas e por quimiocinas secretadas nos locais de inflamação. B, Essa tabela resume as funções dos principais receptores 
+para o direcionamento das células T e seus ligantes. ICAM-1, Molécula de adesão intercelular-1; LFA-1, antígeno associado à 
+função dos leucócitos 1; VCAM-1, molécula de adesão a células vasculares-1; VLA-4, antígeno muito tardio-4.
+
+
+=== p.123
+	
+Capítulo 6 – Mecanismos Efetores da Imunidade Mediada por Células T	
+121
+das respostas imunes inatas contra 
+microrganismos. O processo de diferenciação 
+dos linfócitos T virgens em células efetoras, 
+descrito no Capítulo 5, se acompanha de al-
+terações nas coleções de moléculas de adesão 
+e de receptores para quimiocinas expressos 
+sobre essas células (Fig. 6-2). A migração de 
+células T ativadas para os tecidos periféricos 
+é controlada pelas mesmas interações envol-
+vidas na migração de outros leucócitos para 
+os tecidos (Cap. 2, Fig. 2-16). Resumindo, 
+as células T ativadas expressam altos níveis 
+dos ligantes glicoproteicos para E-selectinas e 
+P-selectinas e das integrinas LFA-1 e VLA-4 
+(antígeno muito tardio 4). O endotélio, no local 
+da infecção, é exposto a citocinas como o fator 
+de necrose tumoral (TNF) e a interleucina-1 
+(IL-1), que agem sobre as células endote-
+liais no sentido de aumentar a expressão de 
+E-selectnas e de P-selectinas, assim como de li-
+gantes para integrinas, especialmente ICAM-1 
+e a molécula de adesão a células vasculares 1 
+(VCAM-1), o ligante para a integrina VLA-
+4. As células T efetoras que estão passando 
+pelos vasos sanguíneos no local de infecção 
+se ligam inicialmente a selectinas endoteliais, 
+ocasionando interações de rolagem. As células 
+T efetoras também expressam receptores para 
+quimiocinas que são produzidas por macrófa-
+gos e por células endoteliais nesses locais infla-
+matórios e são apresentadas sobre a superfície 
+do endotélio. As células T em rolagem reco-
+nhecem essas quimiocinas, ocasionando maior 
+afinidade de ligação das integrinas por seus 
+ligantes e uma adesão firme das células T ao 
+endotélio. Depois que estão paradas no endo-
+télio, as células T efetoras ocupam outras molé-
+culas de aderência nas junções entre as células 
+endoteliais, passando através dessas junções 
+para o tecido. Quimiocinas que foram produ-
+zidas por macrófagos e por outras células nos 
+tecidos estimulam a motilidade das células T 
+em transmigração. A consequência final dessas 
+interações moleculares entre as células T e as 
+células endoteliais é que as células T migram 
+para fora dos vasos sanguíneos para o local de 
+infecção. As células T virgens não expressam 
+ligantes para E-selectina ou para P-selectina e 
+não expressam receptores para quimiocinas 
+produzidas em locais inflamatórios. Portanto, 
+as células T virgens não migram para locais de 
+infecção ou de lesão tecidual.
+O direcionamento das células T efeto-
+ras a um local de infecção é independente 
+do reconhecimento de antígenos, mas 
+linfócitos que reconhecem antígenos 
+microbianos são retidos e ativados 
+preferencialmente no local. O direciona-
+mento das células T efetoras a locais de infec-
+ção depende principalmente de moléculas de 
+adesão e de quimiocinas. Por esta razão, toda e 
+qualquer célula T presente no sangue, indepen-
+dentemente da especificidade antigênica, pode 
+entrar no local de qualquer infecção. Essa mi-
+gração não seletiva aumenta presumivelmente 
+ao máximo as chances de linfócitos efetores 
+entrarem em tecidos em que possam encon-
+trar os microrganismos que eles reconhecem. 
+As células T efetoras que saem da circulação 
+e que reconhecem especificamente antígenos 
+microbianos apresentados especificamente por 
+células apresentadoras de antígenos (APC, do 
+inglês, antigen-presenting cells) teciduais locais 
+se tornam reativadas e contribuem para a des-
+truição do microrganismo na APC. Uma das 
+consequências dessa reativação é um aumen-
+to na expressão de integrinas VLA sobre as 
+células T. Algumas dessas integrinas se ligam 
+especificamente a moléculas presentes na 
+matriz extracelular, como ácido hialurônico 
+e fibronectina. Em consequência disso, os 
+linfócitos estimulados por antígenos aderem 
+firmemente às proteínas da matriz tecidual 
+próximas ao antígeno, o que pode servir para 
+manter as células nos locais de inflamação. 
+Essa retenção seletiva contribui para o acú-
+mulo de mais e mais células T específicas dos 
+antígenos microbianos no local de infecção.
+Devido a essa sequência de eventos de mi-
+gração de células T, as respostas imunes me-
+diadas por células T a infecções são iniciadas 
+e executadas com eficiência, independente-
+mente do local da infecção. Em contraste com 
+a ativação de células T virgens, que requer a 
+apresentação de antígenos e a coestimulação 
+por células dendríticas, as células efetoras di-
+ferenciadas são menos dependentes da coes-
+timulação. Portanto, a proliferação e a diferen-
+ciação de células T virgens se limitam a órgãos 
+linfoides, em que as células dendríticas (que 
+expressam coestimuladores em abundância) 
+apresentam antígenos, mas as funções das 
+células T efetoras podem ser reativadas por 
+qualquer célula do hospedeiro apresentando 
+pepídeos microbianos ligados a moléculas 
+MHC, não apenas por células dendríticas.
+Como os linfócitos T auxiliares CD4+ e os 
+CTL CD8+ empregam mecanismos distintos 
+para combater infecções, vamos discutir 
+individualmente os mecanismos efetores 
+dessas classes de linfócitos. Concluímos des-
+crevendo como as duas classes de linfócitos 
+podem cooperar para eliminar microrganis-
+mos intracelulares.
+
+
+=== p.124
+122	
+Capítulo 6 – Mecanismos Efetores da Imunidade Mediada por Células T
+FUNÇÕES EFETORAS DE LINFÓCITOS 
+T AUXILIRES CD4+
+A imunidade mediada por células contra 
+patógenos foi descoberta como uma forma 
+de imunidade a uma infecção bacteriana in-
+tracelular que podia ser transferida de células 
+de animais imunes para aqueles não expos-
+tos anteriormente (reconhecidas atualmente 
+como sendo linfócitos T), porém não por 
+anticorpos séricos (Fig. 6-3). Sabe-se desde 
+os primeiros estudos que a especificidade da 
+CMI contra diferentes microrganismos é uma 
+função dos linfócitos, mas a eliminação dos 
+micróbios é uma função dos macrófagos ativa-
+dos. Os papéis dos linfócitos T e dos fagócitos 
+na CMI já estão atualmente bem esclarecidos.
+Os linfócitos T CD4+ do subgrupo TH1 
+aumentam a capacidade dos fagócitos 
+em destruir microrganismos, as células 
+TH17 promovem o recrutamento de 
+leucócitos para o local da infecção, e 
+as células TH2 ativam eosinófilos a des-
+truir parasitas helmínticos. Embora mui-
+tas dessas reações, como o recrutamento de 
+leucócitos e a ativação de fagócitos, possam 
+ocorrer ao mesmo tempo e na mesma infec-
+ção, é conveniente descrever separadamente 
+as funções efetoras dessas células T.
+Papel das Células TH1 na Defesa 
+do Hospedeiro
+A principal função das células TH1 é a 
+ativação dos macrófagos, que é critica-
+mente importante para a eliminação 
+eficiente dos microrganismos ingeridos 
+(Cap. 5, Fig. 5-15). Essa reação era a base da 
+definição original da imunidade mediada por 
+células e continua a ser talvez a função mais 
+bem esclarecida das células T CD4+.
+Os linfócitos T efetores do subgrupo 
+TH1 que reconhecem antígenos associa-
+dos a macrófagos ativam os macrófagos 
+por interações ligante de CD40-CD40 e 
+pela secreção da citocina interferon-g 
+(IFN-g) (Fig. 6-4). Conforme discutido 
+no Capítulo 3, os macrófagos ingerem mi-
+crorganismos nas vesículas intracelulares, 
+designadas como fagossomos, que se fundem 
+aos lisossomos para formar fagolisossomos. 
+As proteínas microbianas nessas vesículas são 
+processadas e alguns peptídeos microbianos 
+são apresentados por moléculas MHC clas-
+se II na superfície dos macrófagos. Células T 
+efetoras CD4+ com especificidade para esses 
+FIGURA 6-3  Imunidade mediada por células a 
+uma bactéria intracelular, Listeria monocytoge-
+nes. Nesses experimentos, uma amostra de linfócitos ou de 
+soro (uma fonte de anticorpos) foi retirada de um camundongo 
+que havia sido exposto anteriormente a uma dose subletal de 
+organismos Listeria (camundongo imune) e transferida para 
+um camundongo normal (não imune), e o receptor da trans-
+ferência adotiva recebeu uma carga da bactéria. Mediu-se o 
+número de bactérias no baço do camundongo receptor para 
+se determinar se a transferência conferiu a imunidade. A 
+proteção contra a carga bacteriana (vista pela recuperação 
+reduzida de bactérias vivas) foi induzida pela transferência 
+de células imunes linfoides, reconhecidas atualmente como 
+sendo células T (A), porém não pela transferência de soro 
+(B). As bactérias foram destruídas in vitro por macrófagos 
+ativados, porém não por células T (C). Portanto, a proteção 
+depende de linfócitos T com especificidade antigênica, mas a 
+destruição das bactérias é a função de macrófagos ativados.
+
+
+=== p.125
+	
+Capítulo 6 – Mecanismos Efetores da Imunidade Mediada por Células T	
+123
+peptídeos reconhecem os peptídeos associados 
+à classe II. As células T respondem expres-
+sando em sua superfície a molécula efetora 
+ligante de CD40 (CD40L ou CD154), que se 
+liga ao receptor CD40 que é expresso nos ma-
+crófagos. Ao mesmo tempo, as células TH1 se-
+cretam IFN-g, que é um potente ativador dos 
+macrófagos. A ligação do IFN-g a seu receptor 
+nos macrófagos funciona conjuntamente à 
+ligação de CD40L a CD40, desencadeando 
+vias sinalizadoras bioquímicas que acarretam a 
+ativação de vários fatores de transcrição. Esses 
+fatores induzem a expressão de genes que co-
+dificam proteases lisossômicas e enzimas que 
+estimulam a síntese de espécies de oxigênio 
+reativas microbicidas e de óxido nítrico. O re-
+sultado final da ativação mediada por CD40L 
+e por IFN-g é que os macrófagos se tornam 
+fortemente microbicidas e conseguem des-
+truir muitos dos microrganismos ingeridos. Os 
+macrófagos que respondem dessa maneira ao 
+CD40L e ao IFN-g são designados classicamen-
+te como macrófagos ativados. O papel critica-
+mente importante das células TH1 na defesa 
+contra microrganismos intracelulares cons-
+titui a razão pela qual indivíduos portadores 
+de defeitos hereditários no desenvolvimen-
+to ou no funcionamento desse subgrupo se 
+mostram suscetíveis a infecções por esses 
+microrganismos, especialmente micobactérias 
+atípicas normalmente inofensivas. As células T 
+CD8+ também secretam IFN-g e podem con-
+tribuir para a ativação dos macrófagos e para 
+destruição dos microrganismos ingeridos.
+Embora a ativação dos macrófagos faça par-
+te da resposta imune inata a microrganismos 
+FIGURA 6-4  Ativação de macrófagos por linfócitos TH1. Os linfócitos T efetores do subgrupo TH1 reconhecem os 
+antígenos de microrganismos ingeridos em macrófagos. Em resposta a esse reconhecimento, os linfócitos T expressam CD40L, que 
+engaja CD40 nos macrófagos, e as células T secretam interferon-g (IFN-g), que se liga a receptores para IFN-g nos macrófagos. Essa 
+combinação de sinais ativa os macrófagos a produzir substâncias microbicidas que matam os microrganismos ingeridos. Os macrófagos 
+ativados também secretam citocinas que induzem inflamação – fator de necrose tumoral (TNF), interleucina-1 (IL-1) e quimiocinas – e 
+ativam células T (IL-12), e eles expressam mais moléculas do complexo principal de histocompatibilidade (MHC) e coestimuladores, 
+que aumentam as respostas das células T. A, A ilustração mostra uma célula T CD4+ reconhecendo peptídeos associados ao MHC 
+classe II e ativando os macrófagos. B, A tabela resume as respostas dos macrófagos e seu papel na imunidade mediada por células.
+
+
+=== p.126
+124	
+Capítulo 6 – Mecanismos Efetores da Imunidade Mediada por Células T
+(Cap. 2, Fig. 2-10), a magnitude da resposta é 
+maior nas reações imunes mediadas por célu-
+las, em que estão envolvidas as células T. Isso 
+explica porque a resposta imune adaptativa 
+pode erradicar patógenos que evoluíram de 
+modo a resistir à imunidade inata. A neces-
+sidade de reconhecimento de antígenos es-
+pecíficos pelas células T assegura que a res-
+posta imune mediada por células seja dirigida 
+a macrófagos portadores de microrganismos 
+e que haja pouca ou nenhuma ativação de 
+macrófagos não infectados (transeuntes). 
+Os macrófagos apresentando antígenos de 
+microrganismos fagocitados para células T 
+são aqueles com microrganismos intracelu-
+lares que precisam ser destruídos e são estes 
+os fagócitos que ativam células T efetoras e 
+estão em posição para receber ajuda (sinais 
+de ativação) das células TH1 que respondem.
+A interação entre os macrófagos e as células 
+T é um excelente exemplo de interações bidi-
+recionais entre células do sistema imune inato 
+(macrófagos) e do sistema imune adaptativo 
+(linfócitos T) (Fig. 6-5). Os macrófagos apre-
+sentam antígenos microbianos a células TH1 
+CD4+, o que estimula a expressão de CD40L 
+e de IFN-g nas células T. Essas quimiocinas 
+ativam então os fagócitos a destruir os micror­
+ganismos ingeridos, completando assim o ci-
+clo. Ao mesmo tempo, os macrófagos ativados 
+produzem IL-12 e essa citocina estimula a 
+diferenciação de células T CD4+ virgens em 
+células TH1, amplificando assim a resposta.
+Praticamente a mesma reação, consistin-
+do em recrutamento e ativação de leucócitos, 
+pode ser evocada pela injeção de uma pro-
+teína microbiana na pele de um indivíduo 
+que foi imunizado contra o microrganismo 
+por uma infecção anterior ou por vacinação. 
+Essa reação é designada como hipersensi-
+bilidade do tipo tardio (DTH, do inglês, 
+delayed-type hypersensitivity) e é descrita no 
+Capítulo 11 ao discutirmos as reações imu-
+nes nocivas.
+Papel das Células TH17 na Defesa 
+do Hospedeiro
+As células TH17 induzem outras células 
+a secretar citocinas, que são importantes 
+para o recrutamento de neutrófilos e, 
+em escala menor, de monócitos (Cap. 5, 
+Fig. 5-17). Em consequência disso, os leucó-
+citos são levados até o local da infecção para 
+ajudar a erradicar a infecção. Essa infiltração 
+celular estimulada pelas células T, juntamente 
+com a reação vascular associada, é típica da 
+inflamação. A inflamação é um componente 
+das reações mediadas por células T na defesa 
+normal do hospedeiro e em muitas doenças 
+imunológicas (de hipersensibilidade) (Cap. 11). 
+Lembre-se de que a inflamação também é uma 
+das principais reações da imunidade inata 
+(Cap. 2). Tipicamente, quando as células T esti-
+mulam uma inflamação, a reação é mais forte e 
+mais prolongada do que quando ela é evocada 
+por respostas imunes inatas a micorganismos.
+Além da inflamação, as células TH17 es-
+timulam a produção de substâncias antimi-
+crobianas, designadas como defensinas, que 
+funcionam como antibióticos endógenos lo-
+calmente produzidos. Algumas citocinas pro-
+duzidas por células TH17 ajudam igualmente 
+na manutenção da integridade funcional das 
+barreiras epiteliais. Essas reações das células 
+TH17 são criticamente importantes para a defe-
+sa contra infecções fúngicas e bacterianas. Os 
+raros indivíduos que apresentam defeitos he-
+reditários nas respostas de TH17 são suscetíveis 
+ao desenvolvimento de abscessos bacterianos 
+e da candidíase mucocutânea crônica.
+Papel das Células TH2 na Defesa 
+do Hospedeiro
+O subgrupo TH2 de linfócitos T CD4+ esti-
+mula uma inflamação rica em eosinófilos, 
+FIGURA 6-5  Interações mediadas por citocinas 
+entre linfócitos T e macrófagos na imunidade 
+mediada por células.  As células apresentadoras de 
+antígenos que encontram microrganismos secretam a citocina 
+interleucina-12 (IL-12), que estimula células T CD4+ virgens 
+a se diferenciar em células TH1 secretoras de interferon-g 
+(IFN-g) e aumenta a produção de IFN-g. O IFN-g ativa os ma-
+crófagos a matar os microganismos ingeridos e a produzir 
+mais IL-12, amplificando assim a reação.
+
+
+=== p.127
+	
+Capítulo 6 – Mecanismos Efetores da Imunidade Mediada por Células T	
+125
+que é importante na defesa contra para-
+sitas helmínticos. Quando reconhecem an-
+tígenos, as células TH2 diferenciadas produzem 
+as citocinas interleucina-4 e interleucina-5 
+(assim como IL-10, que é também produzi-
+da por muitas outras populações celulares). 
+IL-4 estimula a produção do anticorpo IgE, 
+que se fixa a receptores Fc em mastócitos 
+e em eosinófilos, e IL-5 ativa os eosinófilos 
+(Fig. 5-16). Essa reação é importante para a 
+defesa contra infecções helmínticas, porque 
+os helmintos são mortos pelas proteínas dos 
+grânulos de eosinófilos ativados (Cap. 8). As 
+citocinas produzidas por células TH2, assim 
+como pela ativação de mastócitos mediada 
+pela IgE, estimulam a secreção de muco e o 
+peristaltismo no trato intestinal, promovendo 
+a expulsão dos parasitas do intestino.
+As células TH2 secretam citocinas que 
+inibem a ativação clássica dos macrófa-
+gos e estimulam a via alternativa de ati-
+vação dos macrófagos. IL-4 e IL-10 inibem 
+a via clássica de ativação dos macrófagos. IL-4 
+e IL-13 podem ativar os macrófagos a ex-
+pressar receptores para manose e a secretar 
+fatores de crescimento que agem sobre os fi-
+broblastos, aumentando a síntese de colágeno 
+e a fibrose. Esse tipo de resposta dos macró-
+fagos é designado como ativação alternativa 
+dos macrófagos, para distingui-la da ativação 
+clássica, que estimula funções microbicidas 
+(Cap. 2, Fig. 2-10). A ativação alternativa 
+dos macrófagos mediada pelas citocinas TH2 
+pode participar do reparo tecidual após uma 
+lesão e pode contribuir para a fibrose e os 
+danos teciduais em pacientes com infecções 
+parasitárias crônicas ou doenças alérgicas.
+A ativação relativa de células TH1 e TH2 
+em resposta a um microrganismo infeccioso 
+pode determinar a evolução final da infecção 
+(Fig. 6-6). Como exemplo, o protozoário pa-
+rasita Leishmania major vive no interior dos 
+macrófagos e sua eliminação requer a ativa-
+ção dos macrófagos por células TH1 específicas 
+para L. major. Muitas cepas de camundongos 
+endogâmicos produzem uma resposta TH1 
+efetiva ao parasita e são, portanto, capazes 
+de erradicar a infecção. Em algumas cepas de 
+camundongos endogâmicos, porém, a res-
+posta a L. major é dominada por células TH2 
+e esses camundongos sucumbem à infecção. 
+A bactéria que causa a hanseníase, Mycobacte-
+rium leprae, é um patógeno para seres huma-
+nos que também vive no interior de macró-
+fagos, e pode ser eliminado por mecanismos 
+imunes mediados por células. Algumas das 
+pessoas infectadas por M. leprae são incapazes 
+de erradicar a infecção, que vai evoluir para 
+as lesões destrutivas clássicas da hanseníase 
+lepromatosa caso não sejam tratadas. Em ou-
+tros pacientes, em contraste, as bactérias in-
+duzem fortes respostas imunes mediadas por 
+células, com células T ativadas e macrófagos 
+em torno da infecção e poucos micróbios 
+sobreviventes; essa forma de doença menos 
+destrutiva é designada como hanseníase tu-
+berculoide. A forma tuberculoide se associa 
+à ativação de células TH1 específicas para M. 
+leprae, enquanto a forma lepromatosa des-
+trutiva se associa a um defeito na ativação de 
+células TH1. O mesmo princípio, de que a res-
+posta das citocinas de células T a um patógeno 
+infeccioso constitui um determinante impor-
+tante da evolução final da infecção, pode ser 
+válido para outras doenças infecciosas.
+Conforme referido anteriormente, os ma-
+crófagos ativados funcionam melhor na des-
+truição de microrganismos que se limitam a 
+vesículas, e os microrganismos que entram 
+diretamente no citoplasma (p. ex., vírus) 
+ou escapam dos fagossomos para o citoplas-
+ma (p. ex., algumas bactérias fagocitadas) 
+se mostram relativamente resistentes aos 
+mecanismos microbicidas dos fagócitos. A 
+erradicação desses patógenos requer outro 
+mecanismo efetor da imunidade mediada 
+por células, os CTL CD8+.
+FUNÇÕES EFETORAS DOS LINFÓCITOS T 
+CITOTÓXICOS CD8+
+Os linfócitos T citotóxicos CD8+ reconhecem 
+peptídeos associados ao MHC classe I sobre 
+células infectadas e destroem essas células, 
+eliminando assim o reservatório da infecção 
+(Fig. 6-7). As fontes de origem dos peptídeos 
+associados à classe I são antígenos proteicos sin-
+tetizados no citosol e antígenos proteicos de 
+microrganismos fagocitados que escapam 
+de vesículas fagocíticas para o citosol (Cap. 3). 
+Os CTL CD8+ reconhecem complexos 
+peptídeo-MHC classe I na superfície das células 
+infectadas por seu receptor de célula T (TCR) 
+e pelo seu correceptor CD8. (Essas células in-
+fectadas também são designadas como alvos 
+de CTL, porque elas estão destinadas a ser des-
+truídas pelos CTL.) O TCR e o CD8, assim como 
+outras proteínas sinalizadoras, aglomeram-se 
+na membrana dos CTL no local de contato com 
+a célula-alvo e são circundados pela integrina 
+LFA-1. Essas moléculas fixam seus ligantes 
+sobre a célula-alvo, o que mantém as duas 
+células unidas firmemente, formando uma 
+
+
+=== p.128
+126	
+Capítulo 6 – Mecanismos Efetores da Imunidade Mediada por Células T
+sinapse imunológica (Cap. 5) em que os CTL 
+secretam proteínas citotóxicas.
+O reconhecimento de antígenos pelos CTL 
+acarreta a ativação de vias de transdução de 
+sinais que ocasionam a exocitose do conteúdo 
+dos grânulos dos CTL para a sinapse imune 
+entre o CTL e a célula-alvo. Por não necessitar 
+de coestimulação ou da ajuda das células T 
+para sua ativação, os CTL podem ser ativados 
+por qualquer célula infectada em qualquer 
+tecido e são capazes de destruir essas células. 
+Os CTL destroem células-alvo principalmente 
+em consequência do aporte de proteínas dos 
+grânulos às células-alvo. Dois tipos de proteí-
+nas dos grânulos que são importantes para 
+a destruição são as granzimas (enzimas dos 
+grânulos) e perforina. A granzima B efetua 
+a clivagem de enzimas denominadas caspases 
+(cisteína proteases que efetuam a clivagem de 
+proteínas após resíduos de ácido aspártico), 
+que estão presentes no citosol das células-alvo 
+e cuja principal função é induzir a apoptose, 
+ativando assim essas enzimas. A perforina 
+desfaz a integridade da membrana plas-
+mática e das membranas endossômicas das 
+células-alvo, facilitando, assim, o aporte de 
+granzimas ao citosol e a iniciação da apoptose.
+Os CTL ativados também expressam uma 
+proteína da membrana designada como li-
+gante Fas, que se liga a um receptor indutor 
+de morte, designado como Fas (CD95), sobre 
+as células-alvo. O engajamento de Fas ativa 
+caspases e induz a apoptose das células-alvo; 
+essa via não requer a exocitose dos grânulos 
+e provavelmente tem apenas um papel me-
+nor na destruição por CTL CD8+.
+A consequência final desses mecanismos 
+efetores dos CTL é que as células infectadas 
+são destruídas. As células que apresenta-
+ram apoptose são rapidamente fagocitadas 
+e eliminadas. Os mecanismos que induzem 
+a fragmentação do DNA das células-alvo, 
+que é a característica típica da apoptose, 
+podem decompor também o DNA de mi­
+crorganismos vivendo no interior das célu-
+las infectadas. Cada CTL pode destruir uma 
+FIGURA 6-6  O equilíbrio entre a ativação de células TH1 e TH2 determina a resolução das infecções 
+intracelulares.  Os linfócitos T CD4+ virgens podem-se diferenciar em células TH1, que ativam fagócitos a matar os micro-
+rganismos ingeridos, e a células TH2, que inibem a ativação clássica dos macrófagos. O equilíbrio entre esses dois subgrupos 
+pode influenciar a resolução das infecções, conforme ilustrado pela infecção por Leishmania em camundongos e a hanseníase 
+em seres humanos. IFN, interferon; IL, interleucina; TNF, fator de necrose tumoral.
+
+
+=== p.129
+	
+Capítulo 6 – Mecanismos Efetores da Imunidade Mediada por Células T	
+127
+célula-alvo, desprender-se e seguir adiante 
+para destruir outros alvos.
+Embora tenhamos descrito separadamen-
+te as funções efetoras das células T CD4+ e 
+das células T CD8+, esses tipos de linfócitos 
+T claramente funcionam em cooperação na 
+erradicação de microrganismos intracelulares 
+(Fig. 6-8). Se os microrganismos forem fagoci-
+tados e permanecerem sequestrados em vesí-
+culas nos macrófagos, as células T CD4+ podem 
+ser adequadas na erradicação dessas infecções 
+por secretar IFN-g e ativar os mecanismos mi-
+crobicidas dos macrófagos. Se conseguirem es-
+capar das vesículas para o citoplasma, porém, 
+os microrganismos deixam de ser suscetíveis à 
+ativação dos macrófagos mediada por células 
+T e sua eliminação requer a destruição das 
+células infectadas por CTL CD8+.
+RESISTÊNCIA DE MICRORGANISMOS 
+PATOGÊNICOS À IMUNIDADE MEDIADA 
+POR CÉLULAS
+Diferentes microrganismos desenvol-
+veram mecanismos diversos para resis-
+tir à defesa do hospedeiro mediada 
+por linfócitos T (Fig. 6-9). Muitas bac-
+térias intracelulares, como Mycobacterium 
+FIGURA 6-7  Mecanismos da destruição de células infectadas por linfócitos T citotóxicos CD8+.  Os CTL 
+reconhecem peptídeos associados ao MHC classe I de microrganismos citoplasmáticos em células infectadas e formam adesões 
+firmes (conjugados) com essas células. Moléculas de adesão como as integrinas estabilizam a ligação dos CTL a células infectadas 
+(não mostradas). Os CTL são ativados a liberar (por exocitose) o conteúdo de seus grânulos (perforina e granzimas) na célula infectada, 
+designada como célula-alvo. As granzimas são levadas até o citosol da célula-alvo por um mecanismo dependente da perforina. As 
+granzimas induzem então a apoptose. ICAM-1, molécula de adesão intercelular-1; LFA-1, antígeno associado à função dos leucócitos-1.
+FIGURA 6-8  Cooperação entre células T CD4+ e 
+CD8+ na erradicação de infecções intracelulares. 
+Em um macrófago infectado por uma bactéria intracelular, algu­
+mas das bactérias são sequestradas em vesículas (fagossomos) 
+e outras podem escapar para o citoplasma. As células T CD4+ 
+reconhecem antígenos derivados dos microrganismos vesicu-
+lares e ativam os macrófagos a matar os microrganismos nas 
+vesículas. As células T CD8+ reconhecem antígenos derivados 
+das bactérias citoplasmáticas e são necessárias para destruir a 
+célula infectada, eliminando assim o reservatório de infecção. 
+CTL, Linfócito T citotóxico; IFN, interferon.
+
+
+=== p.130
+128	
+Capítulo 6 – Mecanismos Efetores da Imunidade Mediada por Células T
+tuberculosis, Legionella pneumophila e Listeria 
+monocytogenes, inibem a fusão de fagossomos 
+a lisossomos ou criam poros na membrana 
+dos fagossomos, permitindo que esses or-
+ganismos escapem para o citosol. Com isso, 
+esses microrganismos conseguem resistir 
+aos mecanismos microbicidas dos fagóci-
+tos e sobrevivem e até mesmo se replicam 
+FIGURA 6-9  Evasão da imunidade mediada por células pelos microrganismos. Exemplos selecionados de 
+diferentes mecanismos pelos quais bactérias e vírus resistem aos mecanismos efetores da CMI. RE, Retículo endoplasmático; 
+IFN, interferon; IL- interleucina, TAP, transportador associado ao processamento de antígenos.
+
+
+=== p.131
+	
+Capítulo 6 – Mecanismos Efetores da Imunidade Mediada por Células T	
+129
+no interior dos fagócitos. Muitos vírus ini­
+bem a apresentação de antígenos associa-
+da ao MHC classe I, por inibir a produção 
+ou a expressão de moléculas classe I, por 
+bloquear o transporte de peptídeos antigê-
+nicos do citosol para o retículo endoplas-
+mático (RE) e por remover do RE as mo-
+léculas MHC classe I recém-sintetizadas. 
+Todos esses mecanismos virais reduzem o 
+carregamento de moléculas MHC classe I 
+por peptídeos virais. A consequência des-
+se carregamento deficiente é a redução 
+da expressão na superfície das moléculas 
+MHC classe I, porque as moléculas classe I 
+vazias são instáveis e não são expressas 
+na superfície celular. É de interesse que 
+as células natural killer (NK – destruidoras 
+naturais) são ativadas por células deficientes 
+em classe I (Cap. 2). Portanto, as defesas do 
+hospedeiro evoluíram para combater os 
+mecanismos de evasão imune dos microrga-
+nismos: os CTL reconhecem peptídeos virais 
+associados ao MHC classe I e as células NK 
+reconhecem a ausência de moléculas MHC 
+classe I.
+Outros vírus produzem citocinas inibi-
+tórias ou receptores para citocinas solúveis 
+(isca) que se ligam a e neutralizam citocinas 
+como IFN-g, reduzindo a quantidade de 
+citocinas disponíveis para desencadear rea-
+ções imunes mediadas por células. Alguns 
+vírus escapam à eliminação e estabelecem 
+infecções crônicas por estimular a expres-
+são do receptor inibitório PD-1 (proteína de 
+morte [celular] programada 1; ver Cap. 9) 
+em células T CD8+, inibindo assim as fun-
+ções efetoras dos CTL. Ainda outros vírus 
+infectam diretamente e destroem linfócitos 
+T, sendo o melhor exemplo o vírus da imu-
+nodeficiência humana (HIV), que é capaz de 
+sobreviver em pessoas infectadas destruindo 
+células T CD4+.
+A evolução final das infecções é influen-
+ciada pela potência das defesas do hospe-
+deiro e pela capacidade dos patógenos em 
+resistir a essas defesas. O mesmo princípio 
+fica evidente ao se considerar os mecanis-
+mos efetores da imunidade humoral. Uma 
+abordagem para se deslocar o equilíbrio 
+entre o hospedeiro e os microrganismos 
+a favor da imunidade protetora consiste 
+em vacinar os indivíduos para estimular 
+as respostas imunes mediadas por células. 
+Os princípios subjacentes às estratégias de 
+vacinação são descritos ao final do Capí-
+tulo 8, depois da discussão da imunidade 
+humoral.
+RESUMO
+✹ A imunidade mediada por células é 
+a alça da imunidade adaptativa que 
+erradica infecções por microrganismos 
+associados a células e utiliza dois ti-
+pos de células T. As células T auxiliares 
+CD4+ recrutam e ativam fagócitos para 
+destruir microrganismos ingeridos e 
+alguns microrganismos extracelula-
+res, e os linfócitos T citotóxicos (CTL) 
+CD8+ destroem células portadoras de 
+microrganismos em seu citosol, elimi-
+nando reservatórios de infecção.
+✹ As células T efetoras são geradas em 
+órgãos linfoides periféricos, princi-
+palmente linfonodos drenando locais 
+de entrada de microrganismos, pela 
+ativação de linfócitos T virgens. As 
+células T efetoras são capazes de mi-
+grar para qualquer local de infecção.
+✹ A migração das células T efetoras é 
+controlada por moléculas de adesão 
+e por quimiocinas. Várias moléculas 
+de adesão são induzidas nas células 
+T após a ativação e se ligam a seus 
+ligantes, que são eles próprios in-
+duzidos sobre as células endoteliais 
+por microrganismos e por citocinas 
+produzidas durante as respostas imu-
+nes inatas aos microrganismos. A mi-
+gração das células T é independente 
+do antígeno, mas células que reco-
+nhecem antígenos microbianos nos 
+tecidos são mantidas nesses locais.
+✹ As células efetoras do subgrupo TH1 das 
+células T auxiliares CD4+ reconhecem 
+os antígenos dos microrganismos que 
+foram ingeridos por macrófagos. Essas 
+células T expressam o ligante CD40 e 
+secretam IFN-g, que funcionam de for-
+ma cooperativa ativando macrófagos.
+✹ Os macrófagos ativados produzem 
+substâncias, incluindo espécies de 
+oxigênio reativas, óxido nítrico e 
+enzimas lisossômicas, que destroem 
+microrganismos ingeridos. Os ma-
+crófagos também produzem citoci-
+nas que induzem inflamação e alguns 
+macrófagos produzem citocinas que 
+promovem fibrose e reparo de tecidos.
+✹ As células TH17 estimulam o recruta-
+mento de neutrófilos e de monócitos 
+e a inflamação aguda, que são es-
+senciais para a defesa contra certas 
+bactérias extracelulares e fungos.
+
+
+=== p.132
+130	
+Capítulo 6 – Mecanismos Efetores da Imunidade Mediada por Células T
+✹ As células T auxiliares CD4+ efetoras 
+do subgrupo TH2 estimulam a inflama-
+ção eosinofílica e inibem as funções 
+microbicidas dos macrófagos ativados. 
+Os eosinófilos são importantes para a 
+defesa do hospedeiro contra parasitas 
+helmínticos. O equilíbrio entre a ati-
+vação de células TH1 e TH2 determina 
+a evolução final de muitas infecções, 
+com as células TH1 promovendo e as 
+células TH2 suprimindo a defesa con-
+tra microrganismos intracelulares.
+✹ As células T CD8+ se diferenciam em 
+CTL que destroem células infectadas, 
+principalmente por induzir a frag-
+mentação do DNA e a apoptose. As 
+células T CD4+ e CD8+ com frequência 
+funcionam em cooperação para erra-
+dicar infecções intracelulares.
+✹ Muitos microrganismos patogênicos 
+desenvolveram mecanismos para 
+resistir à imunidade mediada por 
+células. Esses mecanismos incluem 
+inibição da fusão de fagolisossomos, 
+escape das vesículas dos fagócitos, 
+inibição da montagem de complexos 
+peptídeo-MHC classe I e produção de 
+citocinas inibitórias ou de receptores 
+para citocinas iscas (decoy).
+PERGUNTAS DE REVISÃO
+1.	 Quais são os tipos de reações imunes 
+mediadas por linfócitos T que eliminam 
+microrganismos que estão sequestrados 
+nas vesículas de fagócitos e microrganis-
+mos que vivem no citoplasma de células 
+do hospedeiro infectadas?
+2.	 Por que as células T efetoras diferenciadas 
+(que foram ativadas por antígenos) mi-
+gram preferencialmente para tecidos que 
+são locais de infecção e não para linfono-
+dos?
+3.	 Quais são os mecanismos pelos quais as 
+células T ativam os macrófagos e quais 
+são as respostas dos macrófagos que acar-
+retam a destruição dos microrganismos 
+ingeridos?
+4.	 Quais são os papéis das células TH1, TH17 
+e TH2 na defesa contra os microrganismos 
+intracelulares e parasitas helmínticos?
+5.	 Como os CTL CD8+ destroem células in-
+fectadas por vírus?
+6.	 Quais são alguns dos mecanismos pelos 
+quais os microrganismos intracelulares 
+resistem aos mecanismos efetores da 
+imunidade mediada por células?
+As respostas e as discussões das Perguntas de Re-
+visão estão disponíveis em studentconsult.com.br.
+
+
+=== p.154
+152	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 
+Antes de descrever os mecanismos de 
+funcionamento dos anticorpos na defesa do 
+hospedeiro, vamos resumir as caracterís-
+ticas das moléculas de anticorpos que são 
+importantes para essas funções.
+PROPRIEDADES DE ANTICORPOS QUE 
+DETERMINAM A FUNÇÃO EFETORA
+Diversas características da produção e es-
+trutura dos anticorpos contribuem de ma-
+neiras importantes com as funções dessas 
+moléculas na defesa do hospedeiro.
+Os anticorpos agem por todo o corpo 
+e nos lúmens dos órgãos da mucosa. Os 
+anticorpos são produzidos após a estimu-
+lação dos linfócitos B pelos antígenos nos 
+órgãos linfoides periféricos (linfonodos, baço 
+e tecidos linfoides mucosos) e nos locais te-
+ciduais da inflamação. Muitos dos linfócitos 
+B estimulados por antígenos diferenciam-se 
+em plasmócitos secretores de anticorpos, al-
+guns dos quais permanecem nos órgãos lin-
+foides ou nos tecidos inflamados, enquanto 
+outros migram e residem na medula óssea. 
+Os plasmócitos sintetizam e secretam an-
+ticorpos de diferentes isótipos (classes) de 
+cadeia pesada. Esses anticorpos secretados 
+entram no sangue, de onde podem atingir 
+qualquer local de infecção periférico e nas 
+secreções mucosas, onde previnem infecções 
+pelos microrganismos que tentam penetrar 
+pelo epitélio. Assim, os anticorpos são capa-
+zes de realizar suas funções por todo o corpo.
+Os anticorpos protetores são pro-
+duzidos durante a primeira resposta 
+(resposta primária) a um microrganis-
+mo e em maiores quantidades durante 
+respostas subsequentes (resposta se-
+cundárias) (Cap. 7; Fig. 7-3). A produção 
+de anticorpos se inicia durante a primeira 
+semana após infecção ou vacinação. Os plas-
+mócitos que migram para a medula óssea 
+continuam a produzir anticorpos por meses 
+ou anos. Se o microrganismo tentar infectar 
+novamente o hospedeiro, os anticorpos se-
+cretados anteriormente fornecem proteção 
+imediata. Alguns dos linfócitos B estimula-
+dos por antígenos se diferenciam em células 
+de memória, que não secretam anticorpos, 
+mas ficam esperando pelo antígeno. Em 
+um segundo contato com o microrganismo, 
+essas células de memória rapidamente se 
+diferenciam em células produtoras de anti-
+corpos, fornecendo uma grande quantidade 
+de anticorpos para uma defesa mais eficaz 
+contra a infecção. Um objetivo da vacinação 
+é estimular o desenvolvimento de plasmóci-
+tos de longa duração e células de memória.
+Os anticorpos utilizam suas regiões de 
+ligação de antígenos (Fab) para ligar-se a 
+e bloquear os efeitos nocivos dos micror­
+ganismos e toxinas, e usam suas regiões 
+Fc para ativar diversos mecanismos efe-
+tores que eliminam esses microrganis-
+mos e toxinas (Fig. 8-1). Essa segregação 
+espacial do reconhecimento antigênico e 
+funções efetoras das moléculas do anticorpo 
+foram apresentadas no Capítulo 4. Os anti-
+corpos bloqueiam estericamente a ineficácia 
+dos microrganismos e os efeitos prejudiciais 
+das toxinas microbianas simplesmente por 
+estarem ligados aos microrganismos e toxinas, 
+utilizando apenas suas regiões Fab para fazer 
+isso. Outras funções dos anticorpos requerem 
+a participação de diversos componentes da 
+defesa do hospedeiro, como os fagócitos e o 
+sistema complemento. As porções Fc das mo-
+léculas das imunoglobulinas (Ig), formadas 
+pelas regiões constantes das cadeias pesadas, 
+contêm os locais de ligação para os fagócitos e 
+proteínas do complemento. A ligação dos 
+anticorpos ao Fc e aos receptores do comple-
+mento com os anticorpos só ocorre depois que 
+diversas moléculas Ig identificam e se ligam a 
+um microrganismo ou antígeno microbiano. 
+Portanto, até mesmo as funções do anticorpo 
+dependentes de Fc requerem a identificação 
+dos antígenos pelas regiões Fab. Essa caracte-
+rística dos anticorpos garante que a ativação 
+dos mecanismos efetores ocorra apenas quan-
+do houver necessidade, ou seja, quando seus 
+antígenos-alvo forem identificados.
+A troca de isótipo (classe) de cadeia 
+pesada e a maturação da afinidade au-
+mentam as funções protetoras dos anti-
+corpos. A troca de isótipo e a maturação da 
+afinidade são duas mudanças que ocorrem 
+nos anticorpos produzidos pelos linfócitos 
+B estimulados por antígenos, especialmente 
+durante respostas aos antígenos proteicos 
+(Cap. 7). A troca de isótipo de cadeia pesa-
+da resulta na produção de anticorpos com 
+regiões Fc distintas, capazes de funções efe-
+toras diferentes (Fig. 8-1). Com a troca de 
+diferentes classes de anticorpos em resposta 
+a diversos microrganismos, o sistema imune 
+humoral é capaz de ativar mecanismos de 
+excelência do hospedeiro para o seu combate. 
+A maturação da afinidade é induzida pelo es-
+tímulo prolongado ou repetido com antígenos 
+proteicos, e isso leva à produção de anticor-
+pos com afinidades cada vez maiores por esse 
+
+
+=== p.155
+	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 	
+153
+FIGURA 8-1  As funções efetoras dos anticorpos. Os anticorpos são produzidos por meio da ativação dos linfócitos B 
+pelos antígenos e por outros sinais (não mostrados). Os anticorpos de diferentes classes de cadeias pesadas (isótipos) desempe-
+nham diferentes funções efetoras, que são ilustradas esquematicamente no painel A e resumidas no painel B. (Algumas das 
+propriedades dos anticorpos estão relacionadas na Fig. 4-3.) Ig, Imunoglobulina; NK, natural killer.
+
+
+=== p.156
+154	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 
+antígeno. Essa mudança aumenta a capacida-
+de de ligação dos anticorpos e de neutralizar 
+ou eliminar microrganismos, especialmente 
+se os microrganismos forem persistentes ou 
+capazes de infecções recorrentes. Essa é uma 
+das razões para a prática recomendada de dar 
+múltiplas séries de imunizações com o mesmo 
+antígeno para gerar a imunidade protetora.
+A troca para o isótipo IgG prolonga a 
+duração de um anticorpo no sangue e, 
+portanto, aumenta a atividade funcional 
+do anticorpo. Um receptor de Fc neonatal 
+(FcRn) é expresso na placenta, no endotélio e 
+em alguns outros tipos celulares. No endoté-
+lio, o FcRn tem uma participação especial na 
+proteção dos anticorpos IgG do catabolismo in-
+tracelular (Fig. 8-2). O FcRn é encontrado nos 
+endossomas das células endoteliais, onde se 
+liga à IgG que foi capturada pelas células. Uma 
+vez ligada ao FcRn, a IgG é reciclada de volta à 
+circulação, evitando assim a degradação lisos-
+somal. Esse mecanismo único de proteção de 
+uma proteína sanguínea é a razão pela qual os 
+anticorpos IgG têm meias-vidas em torno de 3 
+semanas, muito maiores do que as meias-vidas 
+de outros isótipos de Ig e da maioria das outras 
+proteínas plasmáticas. Essa propriedade das 
+regiões Fc da IgG tem sido explorada para au-
+mentar a meia-vida de outras proteínas através 
+do acoplamento de proteínas às regiões Fc de 
+uma Ig. Um dos muitos agentes terapêuticos 
+baseados nesse princípio é a proteína da fusão 
+Fc do receptor do fator de necrose tumoral 
+(TNF) usada para tratar várias doenças infla-
+matórias. Através do acoplamento do receptor 
+solúvel à porção Fc de uma molécula de IgG 
+humana, a meia-vida da proteína aumenta 
+muito mais do que aquela do receptor sozinho.
+Com essa introdução, a discussão segue para 
+os mecanismos usados pelos anticorpos para 
+combater as infecções. Grande parte do capí-
+tulo está voltada para os mecanismos efetores 
+que não são influenciados por considerações 
+anatômicas; ou seja, eles podem ser ativos 
+em qualquer local do organismo. No final 
+do capítulo vamos descrever as caracterís-
+ticas especiais das funções dos anticorpos em 
+localizações anatômicas especiais.
+NEUTRALIZAÇÃO DE MICRORGANISMOS 
+E TOXINAS MICROBIANAS
+Os anticorpos são capazes de ligar, blo-
+quear ou neutralizar a infectividade dos 
+microrganismos e as interações das toxi-
+nas microbianas com as células hospedei-
+ras (Fig. 8-3). A maioria dos microrganismos 
+FIGURA 8-2  O receptor Fc 
+neonatal (FcRn) contribui 
+com as moléculas IgG de 
+meia-vida longa. As molé-
+culas circulantes de IgG são in-
+geridas pelas células endoteliais 
+e ligam-se ao FcRn, um receptor 
+de ligação da IgG presente no 
+ambiente ácido dos endossomas. 
+Nas células endoteliais, o FcRn 
+sequestra as moléculas de IgG 
+nas vesículas endossomais (pH 
+∼4). Os complexos de FcRn-IgG 
+reciclam de volta à superfície 
+celular, onde eles ficam expos-
+tos ao pH neutro (∼7) do sangue, 
+que libera o anticorpo de ligação 
+de volta para circulação.
+
+
+=== p.157
+	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 	
+155
+utiliza as moléculas de seu envelope ou das 
+paredes celulares para se ligar e penetrar nas 
+células do hospedeiro. Os anticorpos podem 
+ligar-se a essas moléculas da superfície micro-
+biana, impedindo assim a infecção microbia-
+na no hospedeiro. As vacinas mais eficazes 
+disponíveis atualmente funcionam estimulan-
+do a produção de anticorpos neutralizantes, 
+que se ligam aos microrganismos impedindo 
+uma infecção subsequente das células. Os 
+microrganismos que conseguem entrar nas 
+células do hospedeiro podem ser liberados 
+FIGURA 8-3  Neutralização de microrganismos e toxinas pelos anticorpos. A, Os anticorpos nas superfícies 
+epiteliais, como nos tratos gastrointestinal e respiratório, bloqueiam a entrada dos microrganismos ingeridos e inalados, res-
+pectivamente. B, Os anticorpos impedem que os microrganismos se liguem às células e, dessa maneira, bloqueiam a sua 
+capacidade de infectar as células do hospedeiro. C, Os anticorpos inibem a disseminação dos microrganismos de uma célula 
+infectada para uma célula adjacente não infectada. D, Os anticorpos bloqueiam a ligação das toxinas às células, portanto, inibem 
+os efeitos patológicos das toxinas.
+
+
+=== p.158
+156	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 
+dessas células infectadas e afetar outras cé-
+lulas vizinhas. Os anticorpos podem neu-
+tralizar os microrganismos durante sua pas-
+sagem de célula para célula, e dessa maneira 
+limitam a disseminação da infecção. Quando 
+um microrganismo infeccioso coloniza um 
+hospedeiro, seus efeitos nocivos podem ser 
+causados por endotoxinas ou exotoxinas que 
+com frequência se ligam aos receptores especí-
+ficos nas células hospedeiras e, desse modo, 
+medeiam seus efeitos. Os anticorpos contra as 
+toxinas impedem sua ligação com as toxinas 
+nas células do hospedeiro e bloqueiam seus 
+efeitos. A demonstração realizada por Emil 
+von Behring desse tipo de proteção mediada 
+pela administração de anticorpos contra a 
+toxina da difteria foi a primeira demonstra-
+ção formal de imunidade terapêutica contra 
+um microrganismos ou sua toxina, chamada, 
+então, de terapia sérica, e foi a base para a 
+concessão a seu autor do primeiro Prêmio 
+Nobel de Medicina em 1901.
+OPSONIZAÇÃO E FAGOCITOSE
+Os anticorpos revestem microrganismos 
+e promovem sua ingestão pelos fagócitos 
+(Fig. 8-4). O processo de revestimento das 
+partículas para uma subsequente fagocitose 
+é chamado de opsonização, e as moléculas 
+que revestem microrganismos e aumentam 
+sua fagocitose são chamadas de opsoninas. 
+Quando diversas moléculas de anticorpos 
+se ligam a um microrganismo, forma-se um 
+conjunto de regiões Fc que se projetam além 
+da superfície microbiana. Se os anticorpos 
+pertencem a certos isótipos (IgG1 e IgG3 nos 
+FIGURA 8-4  Opsonização mediada por anticorpos e fagocitose de microrganismos. A, Anticorpos de 
+algumas subclasses de IgG se ligam aos microrganismos e, então, são reconhecidos pelos receptores Fc nos fagócitos. Os 
+sinais dos receptores Fc promovem a fagocitose dos microrganismos opsonizados e ativam os fagócitos para destruir esses 
+microrganismos. B, Os diferentes tipos de receptores Fc humanos, a sua distribuição celular e suas funções estão relacionados. 
+DC, Células dendríticas; Ig, imunoglobulina; NK, natural killer.
+
+
+=== p.159
+	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 	
+157
+seres humanos), suas regiões Fc se ligam a 
+um receptor de alta afinidade para as regiões 
+Fc das cadeias pesadas g, chamadas de FcgRI 
+(CD64), que se expressam nos neutrófilos e 
+macrófagos. O fagócito estende a sua mem-
+brana plasmática em volta do microrganis-
+mo opsonizado e envolve o microrganismo 
+em uma vesícula chamada fagossoma, que 
+se funde com os lisossomas. A ligação da ex-
+tremidade Fc do anticorpo com FcgRI também 
+ativa os fagócitos, pois o FcgRI contém uma 
+cadeia de sinalização que desencadeia diversas 
+vias bioquímicas nos fagócitos. Os neutrófilos 
+ou os macrófagos ativados produzem grandes 
+quantidades de intermediários reativos de oxi-
+gênio, óxido nítrico e enzimas proteolíticas em 
+seus lisossomas, e todos se associam para des-
+truir o microrganismo ingerido. A fagocitose 
+mediada por anticorpos é o principal mecanis-
+mo de defesa contra as bactérias encapsuladas, 
+como os pneumococos. As cápsulas dessas 
+bactérias ricas em polissacarídeos protegem 
+os organismos da fagocitose na ausência de 
+anticorpos, mas a opsonização pelos anticor-
+pos promove a fagocitose e a destruição das 
+bactérias. O baço contém grandes quantidades 
+de fagócitos, e é um local importante de eli-
+minação fagocítica de bactérias opsonizadas. 
+Isso explica por que os pacientes submetidos 
+à esplenectomia em uma ruptura traumática 
+do órgão são suscetíveis às infecções dissemi-
+nadas pelas bactérias encapsuladas.
+Um dos receptores de Fcg, o FcgRIIB, é 
+importante não pela função efetora dos 
+anticorpos, mas por encerrar a produção 
+de anticorpos e reduzir a inflamação. O 
+papel do FcgRIIB em inibir a retroalimentação 
+da ativação da célula B foi discutido no Capí-
+tulo 7 (Fig. 7-15). O FcgRIIB também inibe a 
+ativação de macrófagos e células dendríticas e 
+pode, assim, ter uma função anti-inflamatória 
+também. A IgG agrupada de doadores saudá-
+veis é dada por via intravenosa aos pacientes 
+com diversas doenças inflamatórias. Essa 
+preparação é chamada de imunoglobulina 
+intravenosa (IVIG, do inglês, intravenous 
+immune globulin), e seu efeito benéfico nes-
+sas doenças pode ser parcialmente mediado 
+por sua ligação ao FcgRIIB em várias células.
+CITOTOXICIDADE CELULAR DEPENDENTE 
+DE ANTICORPOS
+As células natural killer (NK) e outros leu-
+cócitos podem ligar-se às células revesti-
+das por anticorpos e destruí-las (Fig. 8-5). 
+As células NK expressam um receptor de Fcg 
+chamado FcgRIII (CD16), que é um dos diver-
+sos tipos de receptores ativadores da célula NK 
+(Cap. 2). O FcgRIII liga-se aos arranjos de an-
+ticorpos IgG presos à superfície de uma célula, 
+gerando sinais que fazem com que a célula NK 
+descarregue suas proteínas granulosas, que 
+eliminam a célula opsonizada. Esse processo 
+é chamado de citotoxicidade mediada por 
+células dependente de anticorpos (ADCC, 
+do inglês, antibody-dependent cellular cytoxicity). 
+As células infectadas com vírus envelopados 
+normalmente expressam glicoproteínas virais 
+em sua superfície, que podem ser reconheci-
+das por determinados anticorpos, e isso pode 
+facilitar a destruição mediada pela ADCC das 
+células infectadas. A ADCC também é um 
+dos mecanismos pelos quais os anticorpos 
+terapêuticos utilizados para tratar cânceres 
+eliminam as células tumorais.
+REAÇÕES MEDIADAS  
+POR IMUNOGLOBULINA  
+E EOSINÓFILOS/MASTÓCITOS
+Os anticorpos de imunoglobulina E ati-
+vam reações mediadas por mastócitos 
+e eosinófilos, que proporcionam defesa 
+contra parasitas helmínticos e estão en-
+volvidos em doenças alérgicas. A maio-
+ria dos helmintos é grande demais para ser 
+fagocitada e apresenta integumentos que os 
+tornam resistentes a muitas das substâncias 
+microbicidas produzidas por neutrófilos e 
+macrófagos. A resposta imune humoral aos 
+helmintos é dominada pelos anticorpos IgE. 
+O anticorpo IgE pode ligar-se aos vermes e 
+promover a ligação de eosinófilos via recepto-
+res de alta afinidade Fc para a IgE, chamados 
+de FcεRI, que são expressos nos eosinófilos 
+FIGURA 8-5  Citotoxicidade celular dependente 
+de anticorpos (ADCC). Anticorpos de algumas sub-
+classes de IgG se ligam a células (p. ex., células infectadas), 
+e as regiões Fc dos anticorpos ligados são reconhecidas por 
+um receptor Fcg nas células natural killer (NK). Essas células 
+são ativadas e destroem as células revestidas por anticorpos.
+
+
+=== p.160
+158	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 
+(e mastócitos). A ativação do FcεRI, junta-
+mente com a citocina interleucina-5 (IL-5) 
+produzida pelas células T auxiliares TH2 que 
+reagem contra os helmintos, leva à ativação 
+dos eosinófilos, que liberam seus conteúdos 
+granulares, incluindo proteínas que podem 
+eliminar os vermes (Fig. 8-6). Os anticorpos 
+IgE também podem ativar mastócitos, que 
+secretam citocinas, incluindo quimiocinas, 
+que atraem mais leucócitos que agem para 
+destruir os helmintos.
+Essa reação mediada por IgE ilustra como 
+o isótipo Ig otimiza a defesa do hospedeiro. 
+As células B respondem aos helmintos por 
+meio da troca por IgE, que é útil contra os 
+helmintos, mas as células B respondem à 
+maioria das bactérias e vírus por meio da 
+troca por anticorpos IgG que promovem a 
+fagocitose via FcgRI. Como foi discutido nos 
+Capítulos 5 e 7, esses padrões de troca de 
+isótipo são determinados por citocinas pro-
+duzidas pelas células T auxiliares estimula-
+das por diferentes tipos de microrganismos.
+Os anticorpos IgE também estão envolvi-
+dos em doenças alérgicas (Cap.11).
+O SISTEMA COMPLEMENTO
+O sistema complemento é um conjunto de 
+proteínas circulantes e de membrana celular 
+que desempenham papéis importantes na 
+defesa do hospedeiro contra microrganismos 
+e na lesão tecidual mediada por anticorpos. 
+O termo complemento refere-se à capaci-
+dade de estas proteínas auxiliarem ou com-
+plementarem a atividade antimicrobiana dos 
+anticorpos. O sistema complemento pode ser 
+ativado pelos microrganismos na ausência 
+de anticorpos, como parte da resposta imune 
+inata à infecção, e pelos anticorpos ligados 
+aos microrganismos, como parte da imuni-
+dade adquirida (Fig. 2-13).
+A ativação das proteínas do complemento 
+envolve a clivagem proteolítica sequencial 
+dessas proteínas e leva à geração de moléculas 
+efetoras que participam de diferentes maneiras 
+na eliminação dos microrganismos. Essa cas-
+cata de ativação de proteínas do complemen-
+to, como todas as cascatas enzimáticas, é capaz 
+de obter uma amplificação enorme, motivo 
+pelo qual um pequeno número de moléculas 
+de complemento ativadas precocemente na 
+cascata é capaz de produzir um grande nú-
+mero de moléculas efetoras. As proteínas do 
+complemento ativadas passam a apresentar 
+ligação covalente com as superfícies celulares 
+onde ocorre a ativação, garantindo que as 
+funções efetoras fiquem restritas aos locais 
+corretos. O sistema complemento é rigorosa-
+mente regulado por moléculas presentes nas 
+células normais do hospedeiro, e essa regu-
+lação impede uma ativação descontrolada e 
+potencialmente nociva do complemento.
+Vias de Ativação do Complemento
+Das três principais vias de ativação do 
+complemento, duas, chamadas de via 
+alternativa e via da lectina, são iniciadas 
+por microrganismos na ausência do anti-
+corpo, e a terceira, chamada de via clás-
+sica, é iniciada por alguns tipos de isóti-
+pos de anticorpos ligados aos antígenos 
+(Fig. 8-7). Diversas proteínas de cada via in-
+teragem em uma sequência exata. A proteína 
+do complemento mais abundante no plasma, 
+chamada de C3, desempenha um papel central 
+em todas as três vias. A C3 é hidrolisada espon-
+taneamente no plasma em baixo nível, mas os 
+seus produtos são instáveis e rapidamente se 
+fragmentam e se perdem.
+A via alternativa da ativação do comple-
+mento é desencadeada quando um produto 
+de ruptura da hidrólise de C3, chamado de 
+C3b, é depositado na superfície de um mi-
+crorganismo. Aí, a C3b forma ligações cova-
+lentes estáveis com proteínas microbianas ou 
+polissacarídeos, protegendo-se de uma maior 
+degradação. (Como descrito a seguir, a C3b 
+é impedida de se ligar de maneira estável às 
+células do hospedeiro normais por diversas 
+proteínas reguladoras presentes nas células 
+do hospedeiro, mas ausentes nos microrga-
+nismos.) A C3b ligada ao microrganismo 
+liga-se a outra proteína chamada de fator B, 
+que é quebrado por uma protease plasmática 
+FIGURA 8-6  Eliminação de helmintos mediada 
+por IgE e eosinófilos. O anticorpo IgE liga-se aos helmin-
+tos e recruta e ativa os eosinófilos via FcεRI, levando à des-
+granulação das células e à liberação dos mediadores tóxicos. 
+A IL-5 secretada pelas células TH2 aumenta a capacidade dos 
+helmintos de matar os parasitas.
+
+
+=== p.161
+	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 	
+159
+FIGURA 8-7  Etapas iniciais da ativação do complemento. A, A tabela ilustra as etapas na ativação das vias 
+alternativa, clássica e da lectina. Embora a sequência dos eventos seja semelhante, as três vias diferem na sua necessidade de 
+anticorpos e nas proteínas utilizadas.
+(Continua)
+
+
+=== p.162
+160	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 
+para gerar o fragmento Bb. Esse fragmento 
+continua ligado à C3b, e o complexo C3bBb 
+se rompe enzimaticamente em mais proteí-
+nas C3, que funcionam como a “via da C3 
+convertase alternativa”. Como consequência 
+dessa atividade convertase, mais moléculas 
+de C3b e de C3bBb são produzidas e se ligam 
+ao microrganismo. Algumas das moléculas 
+de C3bBb ligam uma molécula adicional 
+C3b, e o complexo C3bBb3b funciona como 
+FIGURA 8-7, (cont.) B, A tabela resume as importantes propriedades das proteínas envolvidas nas etapas iniciais da via 
+alternativa da ativação do complemento. C, A tabela resume as importantes propriedades das proteínas envolvidas nas etapas 
+iniciais das vias clássica e da lectina. Observe que C3, que está relacionada entre as proteínas da via alternativa (B), é também 
+o componente central da via clássica e da lectina.
+
+
+=== p.163
+	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 	
+161
+C5 convertase, para causar a ruptura da pro-
+teína C5 do complemento e iniciar as etapas 
+finais da ativação do complemento.
+A via clássica da ativação do complemen-
+to é desencadeada quando a IgM ou algumas 
+subclasses de IgG (IgG1 e IgG3 nos seres hu-
+manos) se ligam aos antígenos (p. ex., em 
+uma superfície celular microbiana). Como re-
+sultado dessa ligação, as regiões adjacentes do 
+Fc tornam-se acessíveis e ligam a proteína 
+do complemento C1 (que é composta por 
+um componente de ligação chamado de C1q 
+e duas proteases chamadas de C1r e C1s). 
+O C1 ligado torna-se ativo como enzima, 
+resultando, então, na ligação e na clivagem 
+sequencial de duas outras proteínas, C4 e C2. 
+C4b (um dos fragmentos da C4) fica ligada de 
+maneira covalente ao anticorpo e à superfície 
+microbiana, onde o anticorpo está ligado, em 
+seguida liga a C2, que é clivada pela C1 ativa 
+para produzir o complexo C4b2a. Este com-
+plexo é a via da C3 convertase clássica, que 
+funciona para quebrar a C3, e o C3b gerado se 
+liga novamente ao microrganismo. Parte de 
+C3b se liga ao complexo C4b2b, e o complexo 
+C4b2a3b funciona como C5 convertase, que 
+cliva a proteína do complemento C5.
+A via da lectina da ativação do com-
+plemento não é iniciada por anticorpos, mas 
+pela ligação da lectina ligante da manose 
+plasmática (MBL, do inglês, mannose-binding 
+lectin) aos microrganismos. A MBL é estrutu-
+ralmente similar a um componente de C1 da 
+via clássica e serve para ativar C4. As etapas 
+subsequentes são, em essência, as mesmas 
+encontradas na via clássica.
+O resultado líquido dessas etapas 
+iniciais da ativação do complemento é 
+que os microrganismos adquirem um 
+revestimento com ligação covalente a 
+C3b. Devemos observar que a via da lectina 
+e a via alternativa são mecanismos efetores 
+da imunidade inata, e que a via clássica é um 
+mecanismo da imunidade humoral adaptati-
+va. Essas vias diferem em sua iniciação, mas 
+depois que são desencadeadas, suas etapas 
+posteriores são as mesmas.
+As etapas posteriores da ativação do com-
+plemento são iniciadas pela ligação de C5 a 
+C5 convertase, e pela proteólise de C5, que 
+dá origem a C5b (Fig. 8-8). Os componentes 
+restantes, C6, C7, C8 e C9, ligam-se na se-
+quência a um complexo nucleado pelo C5b. 
+A proteína final na via, C9, polimeriza-se 
+para formar um poro na membrana celular, 
+permitindo a passagem de água e íons, o 
+que causa a morte do microrganismo. Este 
+poli-C9 é o componente-chave do complexo 
+de ataque de membrana (MAC, do inglês, 
+membrane attack complex), e sua formação é o 
+resultado final da ativação do complemento.
+Funções do Sistema Complemento
+O sistema complemento desempenha 
+um papel importante na eliminação de 
+microrganismos durante as respostas 
+imunes inatas e adaptativas. As princi-
+pais funções efetoras do sistema comple-
+mento encontram-se na Figura 8-9.
+Os microrganismos revestidos por C3b são 
+fagocitados, porque C3b é reconhecido pelo 
+receptor do complemento tipo 1 (CR1 ou 
+CD35) expresso pelos fagócitos. Assim, C3b 
+funciona como uma opsonina. A opsonização 
+é provavelmente a função mais importante do 
+complemento na defesa contra microrganis-
+mos. O MAC pode induzir uma lise celular 
+osmótica, inclusive de microrganismos. A lise 
+induzida por MAC é efetiva somente contra 
+microrganismos que têm paredes celulares 
+finas e pouco ou nenhum glicocálice, como 
+bactéria da espécie Neisseria. Os pequenos frag-
+mentos de peptídeos de C3, C4 e, sobretudo, 
+C5, que são produzidos por meio de proteólise, 
+são quimiotáticos para neutrófilos, estimulam 
+a liberação de mediadores inflamatórios de 
+diversos leucócitos e agem nas células endo-
+teliais para aumentar o movimento dos leucó-
+citos e das proteínas plasmáticas nos tecidos. 
+Dessa forma, os fragmentos do complemento 
+induzem reações inflamatórias que também 
+servem para eliminar os microrganismos.
+Além de suas funções efetoras anti-
+microbianas, o sistema complemento 
+fornece estímulos para o desenvolvi-
+mento de respostas imunes humorais. 
+Quando C3 é ativado por um microrganismo 
+pela via alternativa, um de seus produtos de 
+ruptura, o C3d, é identificado pelo receptor 
+do complemento tipo 2 (CR2) nos linfócitos 
+B. Os sinais enviados por esse receptor es-
+timulam as respostas das células B contra os 
+microrganismos. Esse processo foi descrito 
+no Capítulo 7 (Fig. 7-5) e é um exemplo de 
+resposta imune inata a um microrganismo 
+(ativação do complemento), aumentando 
+uma resposta imune adquirida ao mesmo mi-
+crorganismo (ativação da célula B e produção 
+de anticorpos). As proteínas do complemento 
+ligadas ao complexo antígeno-anticorpo são 
+identificadas pelas células dendríticas folicu-
+lares nos centros germinativos, o que permite 
+a exibição dos antígenos para continuar a 
+
+
+=== p.164
+162	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 
+ativação das células B e para uma seleção de 
+células B de alta afinidade. Essa exibição do 
+complemento dependente de antígeno é ou-
+tra maneira pela qual o sistema complemento 
+promove a produção de anticorpos.
+As deficiências hereditárias das pro-
+teínas do complemento são causas de 
+doenças em seres humanos. A deficiência 
+de C3 resulta em uma profunda suscetibilida-
+de a infecções e, geralmente, é fatal no início 
+da vida. As deficiências das proteínas iniciais da 
+via clássica, C2 e C4, podem não apresentar 
+nenhuma consequência clínica, ou podem 
+resultar na suscetibilidade a infecções, ou 
+são associadas a uma incidência elevada de 
+lúpus eritematoso sistêmico, uma doença 
+do complexo imune. A incidência elevada 
+de lúpus pode ocorrer em virtude de a via 
+clássica funcionar para eliminar os comple-
+xos imunes da circulação, e esse processo é 
+comprometido nos indivíduos que não pos-
+suem C2 nem C4. As deficiências de C9 e 
+a formação do MAC resultam no aumento 
+da suscetibilidade a infecções por Neisseria. 
+FIGURA 8-8  As etapas finais da ativação do complemento. A, As etapas finais da ativação do complemento são 
+iniciadas após a formação da C5 convertase e são idênticas nas vias alternativa e clássica. Os produtos gerados nas etapas finais 
+induzem inflamação (C5a) e lise celular (complexo de ataque à membrana). B, A tabela resume as propriedades das proteínas 
+envolvidas nas etapas iniciais da ativação do complemento.
+
+
+=== p.165
+	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 	
+163
+Alguns indivíduos herdam o polimorfismo 
+no gene que codifica a MBL, levando à pro-
+dução de uma proteína que é funcionalmen-
+te defeituosa; tais defeitos estão associados 
+ao aumento da suscetibilidade a infecções. 
+A deficiência hereditária da properdina pro-
+teica de via alternativa também provoca sus-
+cetibilidade elevada à infecção bacteriana.
+Regulação da Ativação do Complemento
+As células dos mamíferos expressam 
+proteínas regulatórias que inibem a 
+ativação do complemento, impedindo, 
+assim, uma lesão das células do hos-
+pedeiro mediada pelo complemento 
+(Fig. 8-10). Muitas dessas proteínas regulató-
+rias foram descritas. O fator de aceleração do 
+decaimento (DAF, do inglês, decay-accelerating 
+factor) é uma proteína da superfície celular 
+ligada ao lipídio que interrompe a ligação 
+do fator Bb com C3b ou a ligação de C4b 
+com C2a, bloqueando assim a formação 
+da C3 convertase e terminando a ativação 
+do complemento tanto pela via alternativa 
+como pela via clássica. O cofator proteico de 
+membrana (MCP, do inglês, membrane cofator 
+protein) serve como cofator para a proteólise 
+FIGURA 8-9  As funções do complemento. A, A C3b opsoniza os microrganismos e é identificada pelo receptor do 
+complemento tipo 1 (CR1) dos fagócitos, resultando em ingestão e destruição intracelular dos microrganismos opsonizados. 
+Assim, a C3b é uma opsonina. O CR1 também identifica C4b, que pode desempenhar a mesma função. Outros produtos do 
+complemento, como a forma inativada de C3b (iC3b), também se ligam aos microrganismos e são identificados por outros 
+receptores nos fagócitos (p. ex., o receptor do complemento tipo 3, que é um membro da família integrina de proteínas). B, O 
+complexo de ataque à membrana cria poros nas membranas celulares e induz a lise osmótica das células. C, Pequenos peptídeos 
+liberados durante a ativação do complemento se ligam aos receptores nos neutrófilos e estimulam reações inflamatórias. Os 
+peptídeos que servem a essa função são C5a, C3a e C4a (em ordem decrescente de potência).
+
+
+=== p.166
+164	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 
+de C3b em fragmentos inativos, um processo 
+que é mediado por uma enzima plasmática 
+chamada de fator I. O CR1 pode deslocar o 
+C3b e promover sua degradação. Uma pro-
+teína regulatória chamada de inibidor C1 
+(C1 INH) suspende precocemente a ativação 
+do complemento, no estágio da ativação de 
+C1. As proteínas regulatórias adicionais limi-
+tam a ativação do complemento nas últimas 
+etapas, como a formação do MAC.
+A presença dessas proteínas regulatórias 
+é uma adaptação dos mamíferos. Os micror­
+ganismos não apresentam proteínas regula-
+doras e são, consequentemente, suscetíveis 
+ao complemento. Até mesmo nas células 
+dos mamíferos, a regulação pode ser sobre-
+pujada por uma ativação cada vez maior do 
+complemento. Portanto, até as células dos 
+mamíferos podem-se tornar alvo do com-
+plemento se estiverem revestidas por gran-
+des quantidades de anticorpos, como ocorre 
+em algumas doenças de hipersensibilidade 
+(Cap. 11).
+As deficiências hereditárias das proteínas 
+regulatórias causam uma ativação excessiva 
+e patológica do complemento. A deficiência 
+de C1 INH é a causa de uma doença chama-
+da edema angioneurótico hereditário, 
+na qual uma ativação excessiva de C1 e a 
+produção de fragmentos proteicos vasoativos 
+levam a um escape de líquido (edema) na 
+laringe e em muitos outros tecidos. Uma 
+doença chamada hemoglobinúria paro-
+xística noturna resulta da deficiência ad-
+quirida nas células-tronco hematopoiéticas 
+de uma enzima que sintetiza a âncora glico-
+lipídica de diversas proteínas da superfície 
+celular, incluindo as proteínas regulatórias 
+de complemento, DAF e CD59. Nesses pa-
+cientes, a ativação descontrolada do com-
+plemento ocorre nos eritrócitos, levando 
+à sua lise. A deficiência dos fatores H e I 
+da proteína regulatória resulta na ativação 
+aumentada do complemento e nos níveis 
+reduzidos de C3, provocando aumento de 
+suscetibilidade à infecção.
+C3bBb
+C3b
+Bb
+C3b
+Formação do
+complexo C3bBb
+ (via alternativa
+da convertase C3 )
+CR1
+Fator I
+Proteólise
+de C3b
+C3f
+MCP (ou CR1) age
+como cofator para
+a clivagem protelítica 
+de C3b mediado pelo Fator I
+iC3b
+MCP
+DAF
+C1q liga-se aos
+anticorpos complexados
+pelo antígeno, resultando
+na ativação de C1r2s2 
+Anticorpo
+C1q
+C1r2s2
+C1 INH
+C1 INH previne
+C1r2s2 de se tornar
+ proteoliticamente
+ ativa
+DAF (ou CR1)
+desloca Bb
+de C3b
+C1r2s2
+A
+B
+FIGURA 8-10  Regulação da ativação do complemento. A, O fator de aceleração do decaimento (DAF) das proteínas 
+da superfície celular ligadas ao lipídio e o receptor de complemento tipo 1 (CR1) interferem com a formação da C3 convertase 
+por meio da remoção da Bb (na via alternativa) ou C4b (na via clássica, não exibida). A proteína cofator de membrana (MCP, ou 
+CD46) e CR1 agem como cofatores na clivagem de C3b por meio de uma enzima plasmática chamada de fator I, destruindo 
+assim qualquer C3b que possa ser formado. B, O inibidor C1 (C1 INH) impede a reunião do complexo C1, que consiste nas 
+proteínas C1q, C1r e C1s, e bloqueia a ativação do complemento pela via clássica.
+
+
+=== p.167
+	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 	
+165
+FIGURA 8-10, (cont.) C, A tabela lista as principais proteínas regulatórias do sistema complemento e suas funções. FDC, 
+Células dendríticas foliculares; MAC, complexo de ataque à membrana.
+
+
+=== p.168
+166	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 
+FUNÇÕES DOS ANTICORPOS EM LOCAIS 
+ANATÔMICOS ESPECIAIS
+Os mecanismos efetores da imunidade hu-
+moral que foram descritos até agora podem 
+ser ativos em qualquer local do corpo onde 
+chegam os anticorpos. Como mencionado, 
+os anticorpos são produzidos nos órgãos 
+linfoides periféricos e na medula óssea e 
+entram imediatamente no sangue, de onde 
+eles podem ir para qualquer lugar. Os anti-
+corpos também possuem funções protetoras 
+em dois locais anatômicos especiais: os ór-
+gãos da mucosa e o feto. Contudo, existem 
+mecanismos especiais para transportar an-
+ticorpos através do epitélio e da placenta, e 
+os anticorpos desempenham papéis vitais na 
+defesa dessas localizações.
+Imunidade da Mucosa
+A imunoglobulina IgA é produzida nos 
+tecidos linfoides mucosos e é ativamente 
+transportada através dos epitélios, ligando- 
+se a e neutralizando os microrganismos 
+que entram nos lúmens dos órgãos mu-
+cosos (Fig. 8-11). Os microrganismos são com 
+frequência inalados ou ingeridos, e os anticor-
+pos que são secretados nos lúmens dos tratos 
+respiratório e gastrointestinal se ligam aos mi-
+crorganismos e impedem que colonizem o hos-
+pedeiro. Este tipo de imunidade é chamado de 
+imunidade da mucosa (ou imunidade secreto-
+ra). A principal classe de anticorpos produzida 
+nos tecidos mucosos é a IgA. De fato, devido 
+à grande área de superfície dos intestinos, a 
+IgA corresponde 60% a 70% dos cerca de 3 g 
+de anticorpos produzidos diariamente por um 
+adulto saudável. A propensão das células B nos 
+tecidos epiteliais mucosos para produzir IgA é 
+decorrente do fato de a principal citocina que 
+induz a troca para este isótipo, ou seja, o fator 
+transformante de crescimento-b (TGF-b), ser 
+produzida em altos níveis nos tecidos linfoides 
+associados à mucosa, e as células B produtoras 
+de IgA são predispostas a armazenar de volta 
+para os tecidos da mucosa. Também parte da 
+IgA pode ser produzida por um subgrupo 
+de células B, chamadas de células B-1, que 
+também têm a propensão de migrar para os 
+tecidos mucosos; elas secretam IgA em respos-
+ta aos antígenos não proteicos sem necessidade 
+de células T auxiliares.
+As células B da mucosa intestinal estão 
+localizadas na lâmina própria, sob a barreira 
+epitelial, e a IgA é produzida nesta região. 
+Para ligar e neutralizar os patógenos micro-
+bianos no lúmen antes que eles invadam, a 
+IgA deve ser transportada pela barreira epi-
+telial para o lúmen. O transporte pelo epité-
+lio é realizado por um receptor Fc especial, 
+chamado de receptor poli-Ig, que se expressa 
+na superfície basal das células epiteliais. Esse 
+receptor se liga à IgA, realiza a sua endocitose 
+nas vesículas e a transporta para a superfície 
+do lúmen. Neste local, o receptor sofre cliva-
+gem por meio de uma protease e a IgA é libe-
+rada no lúmen, portando ainda a porção do 
+receptor ligada ao poli-Ig (o componente se-
+FIGURA 8-11  Transporte de IgA pelo epitélio. Na mucosa dos tratos gastrointestinal e respiratório, a IgA é produzida 
+pelos plasmócitos na lâmina própria e é ativamente transportada pelas células epiteliais por meio de um receptor Fc específico para 
+IgA (chamado de receptor poli-Ig, porque também identifica a IgM). A IgA é liberada na superfície luminal, junto com uma porção 
+da ligação do receptor. Aí, o anticorpo identifica os microrganismos ingeridos ou inalados e bloqueia a sua entrada pelo epitélio.
+
+
+=== p.169
+	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 	
+167
+cretor). O componente secretor ligado protege 
+o anticorpo da degradação pelas proteases 
+no intestino. O anticorpo pode, então, reco-
+nhecer os microrganismos no lúmen do órgão 
+e bloquear as suas ligações e a sua entrada 
+pelo epitélio. A imunidade da mucosa é o 
+mecanismo de imunidade protetora contra a 
+infecção pelo vírus da pólio que se estabelece 
+pela imunização oral com o vírus atenuado.
+Imunidade Neonatal
+Os anticorpos maternos são ativamen-
+te transportados através da placenta 
+para o feto e através do epitélio intes-
+tinal dos recém-nascidos, protegendo 
+os bebês contra infecções. Os mamíferos 
+recém-nascidos apresentam sistemas imunes 
+com desenvolvimento incompleto, e não 
+são capazes de preparar respostas imunes 
+adequadas contra diversos microrganis-
+mos. Durante o início de suas vidas eles são 
+protegidos contra as infecções pelos anti-
+corpos adquiridos da mãe. Este é o único 
+exemplo de imunidade passiva que ocorre 
+naturalmente. Os recém-nascidos adquirem 
+anticorpos maternos por meio de duas vias, 
+ambas baseadas em um receptor Fc neo-
+natal (FcRn). Durante a gestação, algumas 
+classes de IgG materna se ligam ao FcRn 
+expresso na placenta, e a IgG é ativamente 
+transportada para a circulação fetal. Após o 
+parto, os recém-nascidos ingerem anticorpos 
+maternos no colostro e no leite. Os anticor-
+pos IgA ingeridos oferecem proteção imune 
+da mucosa ao neonato. As células epiteliais 
+intestinais do neonato também expressam o 
+FcRn, que se liga à IgG e a transporta através 
+do epitélio. Assim, os recém-nascidos adqui-
+rem os perfis de anticorpos IgG da mãe e são 
+protegidos dos microrganismos infecciosos 
+que sua mãe foi exposta ou vacinada.
+EVASÃO DA IMUNIDADE HUMORAL 
+PELOS MICRORGANISMOS
+Os microrganismos desenvolveram diversos 
+mecanismos para escapar da imunidade 
+humoral (Fig. 8-12). Diversas bactérias e 
+vírus modificam suas moléculas de su-
+perfície antigênicas e não podem mais ser 
+identificados pelos anticorpos produzidos 
+em resposta a infecções prévias. A variação 
+antigênica é vista com maior frequência nos 
+vírus, como o vírus da influenza, o vírus da 
+FIGURA 8-12  Evasão da imunidade humoral pelos microrganismos. Os principais mecanismos pelos quais os mi­
+crorganismos escapam da imunidade humoral estão relacionados com exemplos ilustrativos. HIV, Vírus da imunodeficiência humana.
+
+
+=== p.170
+168	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 
+imunodeficiência humana (HIV) e rinovírus. 
+Existem tantas variantes da principal glico-
+proteína antigênica de superfície do HIV, 
+chamada de gp120, que os anticorpos contra 
+um HIV isolado podem não proteger contra 
+outros HIV isolados. Este é um motivo pelo 
+qual as vacinas gp120 têm pouca ou nenhu-
+ma eficácia na proteção individual contra a 
+infecção. Bactérias, como a Escherichia coli, 
+variam os antígenos contidos em seus flage-
+los e também se evadem da defesa mediada 
+por anticorpos. O parasita tripanossoma, 
+que causam doença do sono, expressa no-
+vas glicoproteínas de superfície sempre que 
+encontra anticorpos contra a glicoproteína 
+original. Como resultado, a infecção por esse 
+protozoário parasita se caracteriza por ondas 
+de parasitemia, cada onda sendo constituída 
+antigenicamente por um novo parasita que 
+não é identificado pelos anticorpos produzi-
+dos contra os parasitas na onda precedente. 
+Outros microrganismos inibem a ativação do 
+complemento ou resistem à fagocitose.
+VACINAÇÃO
+A vacinação é o processo que estimula 
+as respostas imunes adaptativas pro-
+tetoras contra os microrganismos por 
+meio da exposição a formas ou compo-
+nentes não patogênicos de microrganis-
+mos. O desenvolvimento de vacinas contra 
+as infecções foi um dos grandes sucessos da 
+imunologia. A única doença humana a ser 
+intencionalmente erradicada da população 
+foi a varíola, e isso se deu por meio de um 
+programa mundial de vacinação. A pólio é 
+talvez a segunda doença a ser erradicada 
+completamente, e como mencionado no 
+Capítulo 1, muitas outras doenças foram 
+amplamente controladas com a vacinação 
+(Fig. 1-2).
+Diversos tipos de vacinas estão em uso e 
+sendo desenvolvidas (Fig. 8-13). Algumas das 
+vacinas mais eficazes são compostas por mi-
+crorganismos atenuados, que são tratados pa-
+ra perder sua infectividade e patogenicidade 
+FIGURA 8-13  Estratégias de vacinação. Essa tabela lista os diferentes tipos de vacinas em uso ou testadas, assim 
+como a natureza das respostas imunes protetoras induzidas por essas vacinas. BCG, Bacilo de Calmette-Guérin; HIV, vírus da 
+imunodeficiência humana.
+
+
+=== p.171
+	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 	
+169
+ao mesmo tempo que mantêm sua antige-
+nicidade. A imunização com esses microrga-
+nismos atenuados estimula a produção de 
+anticorpos neutralizantes contra antígenos 
+microbianos que protegem os indivíduos 
+vacinados de infecções subsequentes. No 
+caso de algumas infecções, como a pólio, as 
+vacinas são administradas pela via oral, para 
+estimular as respostas de IgA nas mucosas, 
+que protegem os indivíduos da infecção 
+natural que incide pela via oral. As vacinas 
+formadas por proteínas microbianas e por 
+polissacarídeos, chamadas de vacina tipo 
+subunidade, trabalham da mesma maneira. 
+Alguns antígenos microbianos polissacarí-
+dicos (que não são capazes de estimular as 
+células T auxiliares) estão quimicamente as-
+sociados a proteínas, de modo que as células 
+T auxiliares são ativadas e são produzidos 
+anticorpos de alta afinidade contra os polis-
+sacarídeos. Essas vacinas são chamadas de 
+conjugadas e são excelentes exemplos da 
+aplicação prática de nosso conhecimento 
+sobre as interações entre as células T au-
+xiliares e as células B. A imunização com 
+toxinas microbianas inativadas e com pro-
+teínas microbianas sintetizadas em labora-
+tório estimula os anticorpos que se ligam e 
+neutralizam as toxinas e os microrganismos 
+nativos, respectivamente.
+Um dos desafios contínuos na vacinação 
+é o desenvolvimento de vacinas que es-
+timulem a imunidade mediada por células 
+(CMI, do inglês, cell-mediated immunity) con-
+tra microrganismos intracelulares. Os antíge-
+nos injetados ou administrados via oral são 
+antígenos extracelulares, e eles induzem, 
+sobretudo, respostas de anticorpos. Para 
+dar origem a respostas imunes mediadas 
+por células T (p. ex., linfócito T citotóxico), 
+pode ser necessário levar os antígenos para 
+o interior das células, especialmente células 
+apresentadoras de antígeno (APC) profis-
+sionais, particularmente as células den-
+dríticas. Os vírus atenuados podem atingir 
+esse objetivo, mas existem poucos exemplos 
+de vírus que foram tratados com sucesso, de 
+modo que permaneçam capazes de infectar 
+células, reter a imunogenicidade e ainda 
+ser seguros. Muitas abordagens novas estão 
+sendo tentadas para estimular a CMI por 
+meio da vacinação. Uma dessas abordagens 
+é incorporar os antígenos microbianos em 
+“vetores” virais, que vão infectar as células 
+do hospedeiro e produzir os antígenos den-
+tro das células. Outra técnica é imunizar in-
+divíduos com DNA codificando um antígeno 
+microbiano em um plasmídeo bacteriano. 
+O plasmídeo é ingerido pelas APC do hos-
+pedeiro, e o antígeno é produzido dentro 
+das células. Ainda outra abordagem é ligar 
+os antígenos proteicos aos anticorpos mono-
+clonais que direcionam os antígenos para as 
+células dendríticas, que são particularmente 
+eficientes na apresentação cruzada e podem, 
+assim, induzir a ativação de CTL. Muitas des-
+sas estratégias estão agora sendo submetidas 
+a pesquisas clínicas para diferentes infecções.
+RESUMO
+✹ A imunidade humoral é o tipo de 
+imunidade adaptativa que é mediada 
+por anticorpos. Os anticorpos impe-
+dem infecções ao bloquear a capaci-
+dade dos microrganismos de invadir 
+as células do hospedeiro, e eliminam 
+microrganismos quando ativam di-
+versos mecanismos efetores.
+✹ Nas moléculas dos anticorpos, as re-
+giões de ligação dos antígenos (Fab) 
+estão espacialmente separadas das 
+regiões efetoras (Fc). A capacidade 
+dos anticorpos de neutralizar micror­
+ganismos e toxinas é uma função in-
+teiramente das regiões de ligação dos 
+antígenos. Até mesmo as funções efe-
+toras dependentes de Fc são ativadas 
+depois que os anticorpos se ligam aos 
+antígenos.
+✹ Os anticorpos são produzidos nos 
+tecidos linfoides e na medula óssea, 
+mas eles entram na circulação e são 
+capazes de atingir qualquer local de 
+infecção. A troca de cadeias pesadas e 
+a maturação da afinidade aumentam 
+as funções de proteção dos anticorpos.
+✹ Os anticorpos neutralizam a infecti-
+vidade dos microrganismos e a pato-
+genicidade das toxinas microbianas 
+ligando-se a e interferindo na capaci-
+dade desses microrganismos e toxinas 
+de se ligar às células hospedeiras.
+✹ Os anticorpos revestem (opsonizam) 
+os microrganismos e promovem sua 
+fagocitose quando se ligam aos re-
+ceptores Fc nos fagócitos. A ligação 
+das regiões Fc dos anticorpos com os 
+receptores Fc também estimula as 
+atividades microbicidas dos fagócitos.
+✹ O sistema complemento é um con-
+junto de proteínas circulantes e de 
+
+
+=== p.172
+170	
+Capítulo 8 – Mecanismos Efetores da Imunidade Humoral 
+superfície celular que desempenha um 
+papel importante na defesa do hos-
+pedeiro. O sistema complemento pode 
+ser ativado nas superfícies microbianas 
+sem anticorpos (o que é chamado de 
+via alternativa, um componente da 
+imunidade inata) e após a ligação de 
+anticorpos aos antígenos (a via clássica, 
+componente da imunidade humoral 
+adaptativa). As proteínas do comple-
+mento são clivadas sequencialmente, e 
+os componentes ativos, sobretudo C4 
+e C3b, se ligam de modo covalente às 
+superfícies nas quais o complemento 
+é ativado. As etapas finais da ativação  
+do complemento levam à formação do  
+complexo citolítico de ataque de mem-
+brana. Produtos diferentes da ativação 
+do complemento promovem a fago-
+citose dos microrganismos, induzem 
+lise celular e estimulam a inflamação. 
+Os mamíferos expressam as proteínas 
+reguladoras circulantes e de superfí-
+cie celular que previnem a ativação 
+inadequada do complemento sobre as 
+células do hospedeiro.
+✹ O anticorpo IgA é produzido na lâmina 
+própria dos órgãos mucosos e é ativa-
+mente transportado por um receptor 
+Fc especial pelo epitélio para o lúmen, 
+onde bloqueia a capacidade de invasão 
+do epitélio pelos microrganismos.
+✹ Os recém-nascidos adquirem anticor-
+pos IgG de sua mãe pela placenta e do 
+leite materno pelo epitélio intestinal, 
+utilizando um receptor Fc neonatal 
+para capturar e transportar os anti-
+corpos maternos.
+✹ Os microrganismos desenvolveram 
+estratégias para resistir e escapar da 
+imunidade humoral, como a variação 
+dos antígenos e a aquisição de resis-
+tência ao complemento e à fagocitose.
+✹ A maioria das vacinas em uso age por 
+meio da estimulação da produção de 
+anticorpos neutralizantes. Muitas 
+abordagens estão sendo testadas para 
+desenvolver vacinas capazes de es-
+timular respostas imunes mediadas 
+por células protetoras.
+PERGUNTAS DE REVISÃO
+1.	 Quais são as regiões das moléculas dos 
+anticorpos envolvidas nas funções dos an-
+ticorpos?
+2.	 Como a troca de isótipos de cadeias pesa-
+das (classes) e a maturação da afinidade 
+aumentam a possibilidade dos anticorpos 
+para combater patógenos infecciosos?
+3.	 Em que situações a capacidade dos an-
+ticorpos de neutralizar microrganismos 
+protege o hospedeiro contra infecções?
+4.	 Como os anticorpos ajudam na elimina-
+ção dos microrganismos pelos fagócitos?
+5.	 Como o sistema complemento é ativado?
+6.	 Como o sistema complemento é eficaz 
+contra microrganismos, mas não contra 
+as células do hospedeiro e os tecidos?
+7.	 Quais são as funções do sistema com-
+plemento e quais são os componentes do 
+complemento que regulam essas funções?
+8.	 Como os anticorpos impedem infecções 
+por microrganismos inalados e ingeridos?
+9.	 Como os neonatos são protegidos contra 
+infecção antes de seu sistema imune ter 
+atingido a maturidade?
+As respostas e as discussões das Perguntas de Re-
+visão estão disponíveis em studentconsult.com.br.
+
+

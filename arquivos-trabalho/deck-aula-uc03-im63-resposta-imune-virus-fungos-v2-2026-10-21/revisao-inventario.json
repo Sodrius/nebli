@@ -1,0 +1,558 @@
+{
+ "feita_depois_de_instalar": true,
+ "itens": {
+  "im63-s01": {
+   "veredito": "ok",
+   "card_visto": "exclusão: capa sem conteúdo"
+  },
+  "im63-s02-i2-1": {
+   "veredito": "ok",
+   "card_visto": "au-balanca (1792608685648)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s03": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s04-i4-a1": {
+   "veredito": "ok",
+   "card_visto": "au-balanca (1792608685648)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s05-i5-a1": {
+   "veredito": "ok",
+   "card_visto": "au-balanca (1792608685648)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s06-i6-1": {
+   "veredito": "ok",
+   "card_visto": "sh-1791625429833 (1791625429833)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s07-i7-a1": {
+   "veredito": "ok",
+   "card_visto": "au-balanca (1792608685648)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s08": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s09": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s10": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s11": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s12": {
+   "veredito": "ok",
+   "card_visto": "exclusão: divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  "im63-s13-i13-1": {
+   "veredito": "ok",
+   "card_visto": "ak1461792762468 (1792608686003)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s14-i14-1": {
+   "veredito": "ok",
+   "card_visto": "au-tlr-virus (1792608686351)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s14-i14-2": {
+   "veredito": "ok",
+   "card_visto": "sh-1792240189143 (1792240189143)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s14-i14-3": {
+   "veredito": "ok",
+   "card_visto": "sh-1792242116526 (1792242116526)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s14-i14-4": {
+   "veredito": "ok",
+   "card_visto": "sh-1791984891827 (1791984891827)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s14-i14-5": {
+   "veredito": "ok",
+   "card_visto": "sh-1791984891454 (1791984891454)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s14-i14-6": {
+   "veredito": "ok",
+   "card_visto": "sh-1791984891204 (1791984891204)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s15-i15-1": {
+   "veredito": "ok",
+   "card_visto": "sh-1791667094738 (1791667094738)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s16-i16-a1": {
+   "veredito": "ok",
+   "card_visto": "au-tlr-virus (1792608686351)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s17-i17-1": {
+   "veredito": "ok",
+   "card_visto": "ak1520301328706 (1792608686703)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s17-i17-2": {
+   "veredito": "ok",
+   "card_visto": "ak1461794583601 (1792608686950)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s17-i17-3": {
+   "veredito": "ok",
+   "card_visto": "ak1497450277629 (1792608687203)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s17-i17-4": {
+   "veredito": "ok",
+   "card_visto": "sh-1791984890453 (1791984890453)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s17-i17-5": {
+   "veredito": "ok",
+   "card_visto": "sh-1791984890952 (1791984890952)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s18": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s19-i19-1": {
+   "veredito": "ok",
+   "card_visto": "sh-1792242117020 (1792242117020)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s19-i19-2": {
+   "veredito": "ok",
+   "card_visto": "sh-1792242116095 (1792242116095)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s19-i19-3": {
+   "veredito": "ok",
+   "card_visto": "sh-1791629595996 (1791629595996)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s19-i19-4": {
+   "veredito": "ok",
+   "card_visto": "sh-1791625433908 (1791625433908)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s19-i19-5": {
+   "veredito": "ok",
+   "card_visto": "sh-1791625430208 (1791625430208)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s20": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s21-i21-1": {
+   "veredito": "ok",
+   "card_visto": "sh-1791625429957 (1791625429957)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s21-i21-2": {
+   "veredito": "ok",
+   "card_visto": "sh-1791625426657 (1791625426657)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s21-i21-3": {
+   "veredito": "ok",
+   "card_visto": "sh-1791629595197 (1791629595197)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s22": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s23": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s24-i24-a1": {
+   "veredito": "ok",
+   "card_visto": "au-evasao-mhc (1792608687500)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s25-i25-1": {
+   "veredito": "ok",
+   "card_visto": "au-evasao-mhc (1792608687500)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s25-i25-2": {
+   "veredito": "ok",
+   "card_visto": "ak1503876244084 (1792608687864)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s25-i25-3": {
+   "veredito": "ok",
+   "card_visto": "ak1503876156644 (1792608688129)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s26-i26-a1": {
+   "veredito": "ok",
+   "card_visto": "au-evasao-mhc (1792608687500)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s27-i27-1": {
+   "veredito": "ok",
+   "card_visto": "au-evasao-citocinas (1792608688376)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s27-i27-2": {
+   "veredito": "ok",
+   "card_visto": "sh-1791625435657 (1791625435657)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s28-i28-1": {
+   "veredito": "ok",
+   "card_visto": "ak1506805786448 (1792608688732)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s29-i29-1": {
+   "veredito": "ok",
+   "card_visto": "ak1516321589458 (1792608688976)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s29-i29-2": {
+   "veredito": "ok",
+   "card_visto": "ak1516323168130 (1792608689284)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s29-i29-3": {
+   "veredito": "ok",
+   "card_visto": "sh-1792605654373 (1792605654373)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s30-i30-1": {
+   "veredito": "ok",
+   "card_visto": "ak1516322271299 (1792608689551)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s31-i31-1": {
+   "veredito": "ok",
+   "card_visto": "ak1516322855117 (1792608689900)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s31-i31-2": {
+   "veredito": "ok",
+   "card_visto": "ak1516323022237 (1792608690250)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s31-i31-3": {
+   "veredito": "ok",
+   "card_visto": "ak1520087988222 (1792608690499)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s31-i31-4": {
+   "veredito": "ok",
+   "card_visto": "ak1520088551261 (1792608690753)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s32": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s33": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s34": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s35": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s36": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s37": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s38": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s39": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s40": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s41": {
+   "veredito": "ok",
+   "card_visto": "exclusão: capa sem conteúdo"
+  },
+  "im63-s42-i42-a1": {
+   "veredito": "ok",
+   "card_visto": "au-balanca (1792608685648)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s43": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s44-i44-a1": {
+   "veredito": "ok",
+   "card_visto": "au-balanca (1792608685648)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s45-i45-a1": {
+   "veredito": "ok",
+   "card_visto": "au-balanca (1792608685648)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s46": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s47": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s48": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s49": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s50": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s51": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s52": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s53": {
+   "veredito": "ok",
+   "card_visto": "exclusão: divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  "im63-s54-i54-a1": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-tipos (1792608690999)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s55-i55-1": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-tipos (1792608690999)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s56-i56-a1": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-protecao (1792608692101)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s57": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s58-i58-1": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-pamps (1792608691404)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s59-i59-1": {
+   "veredito": "ok",
+   "card_visto": "sh-1791743340332 (1791743340332)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s60": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s61": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s62-i62-1": {
+   "veredito": "ok",
+   "card_visto": "sh-1791743344060 (1791743344060)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s63-i63-1": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-il1 (1792608691750)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s63-i63-2": {
+   "veredito": "ok",
+   "card_visto": "sh-1791743339860 (1791743339860)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s64-i64-a1": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-il1 (1792608691750)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s65-i65-a1": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-protecao (1792608692101)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s66-i66-1": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-protecao (1792608692101)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s66-i66-a1": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-protecao (1792608692101)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s67-i67-a1": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-protecao (1792608692101)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s68-i68-a1": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-protecao (1792608692101)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s69-i69-1": {
+   "veredito": "ok",
+   "card_visto": "sh-1791625434032 (1791625434032)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s69-i69-2": {
+   "veredito": "ok",
+   "card_visto": "sh-1791625434457 (1791625434457)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s70-i70-1": {
+   "veredito": "ok",
+   "card_visto": "ak1503254160003 (1792608692457)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s70-i70-2": {
+   "veredito": "ok",
+   "card_visto": "sh-1791716421256 (1791716421256)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s70-i70-3": {
+   "veredito": "ok",
+   "card_visto": "sh-1791625436658 (1791625436658)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s71-i71-1": {
+   "veredito": "ok",
+   "card_visto": "sh-1791625422039 (1791625422039)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s71-i71-2": {
+   "veredito": "ok",
+   "card_visto": "sh-1791625422173 (1791625422173)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s72": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s73-i73-a1": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-protecao (1792608692101)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-s74": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s75": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s76": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s77": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s78": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s79": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s80": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-s81": {
+   "veredito": "ok",
+   "card_visto": "exclusão: figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  "im63-cap-l1": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-pamps (1792608691404)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-cap-l2": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-protecao (1792608692101)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-cap-l3": {
+   "veredito": "ok",
+   "card_visto": "au-fungos-il1 (1792608691750)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-cap-l4": {
+   "veredito": "ok",
+   "card_visto": "au-tlr-virus (1792608686351)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-cap-l5": {
+   "veredito": "ok",
+   "card_visto": "au-evasao-mhc (1792608687500)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-cap-l6": {
+   "veredito": "ok",
+   "card_visto": "ak1520301328706 (1792608686703)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-prova-p1": {
+   "veredito": "ok",
+   "card_visto": "au-tlr-virus (1792608686351), sh-1791984890453 (1791984890453), sh-1791984891454 (1791984891454)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-prova-p2": {
+   "veredito": "ok",
+   "card_visto": "au-tlr-virus (1792608686351), sh-1792240189143 (1792240189143)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "im63-prova-p3": {
+   "veredito": "ok",
+   "card_visto": "sh-1791984890453 (1791984890453)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  }
+ }
+}

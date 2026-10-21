@@ -1,0 +1,363 @@
+{
+ "ciclo": "básico",
+ "justificativa": "Princípios do reconhecimento e da defesa imune a fungos e a vírus e dos mecanismos de evasão, como base para a micologia, a virologia e a patologia; sem clínica das doenças nem fármacos.",
+ "clinica_lateral": [],
+ "clinica_e_tema": false,
+ "motivo_tema": "",
+ "ordem_da_fala": [
+  [
+   41,
+   81
+  ],
+  [
+   1,
+   40
+  ]
+ ],
+ "historia": "As duas aulas contam como o sistema imune decide o resultado de uma infecção, sempre como um balanço entre o patógeno e a resposta. Primeiro vem o reconhecimento, comum a todo patógeno: PRRs e TLRs ativam NF-κB e o inflamassoma, em dois sinais, libera IL-1β. Nos fungos, os açúcares da parede disparam os receptores e o padrão de citocinas decide o Th: IL-1β leva ao Th17 e IL-18 e IL-12 ao Th1, que protegem, enquanto Th2 e Treg pioram; Th1 ativa o macrófago M1 e o granuloma, Th17 recruta neutrófilos. Nos vírus, intracelulares, a defesa inata é TLR3/7/9, interferon tipo I e NK; depois o CD8 é primado e mata a célula infectada e os anticorpos neutralizam; e o vírus escapa baixando o MHC I, imitando citocinas, bloqueando o interferon e mudando os antígenos.",
+ "linha_logica": [
+  {
+   "passo": "O resultado da infecção é o balanço entre patogenicidade e resposta imune; a resposta exagerada também lesa o tecido",
+   "mecanismo": false,
+   "liga_ao_proximo": "Para responder, o primeiro passo é reconhecer o patógeno por PRRs e pelo inflamassoma",
+   "cards": [
+    "au-balanca"
+   ]
+  },
+  {
+   "passo": "Reconhecimento: o TLR ativa NF-κB e o inflamassoma, por dois sinais e caspase-1, libera IL-1β ativa",
+   "mecanismo": true,
+   "liga_ao_proximo": "Nos fungos o que dispara esses receptores são os açúcares da parede",
+   "cards": [
+    "ak1487640050564",
+    "ak1520715624658",
+    "au-inflam-sinais"
+   ]
+  },
+  {
+   "passo": "Fungos: a parede de açúcares (β-glucana, mananas) é reconhecida por dectina e TLR e os neutrófilos matam com NETs",
+   "mecanismo": true,
+   "liga_ao_proximo": "O padrão de citocinas gerado nesse reconhecimento decide qual Th será formado",
+   "cards": [
+    "au-fungos-pamps",
+    "sh-1791743340332",
+    "sh-1791743344060"
+   ]
+  },
+  {
+   "passo": "O padrão inato decide o Th: IL-1β induz Th17 e IL-18 e IL-12 induzem Th1; Th1 e Th17 protegem e Th2 e Treg pioram",
+   "mecanismo": true,
+   "liga_ao_proximo": "Th1 e Th17 executam a defesa por macrófagos, neutrófilos e CD8",
+   "cards": [
+    "ak1487116831797",
+    "ak1487116849895",
+    "ak1520715849479",
+    "au-fungos-il1",
+    "ak1487116888778",
+    "ak1487116975048",
+    "au-fungos-protecao",
+    "ak1487116895205"
+   ]
+  },
+  {
+   "passo": "Efetores contra fungos: Th1 ativa o macrófago M1 e mantém o granuloma com TNF, Th17 recruta neutrófilos, CD8 mata e o complemento e os anticorpos ajudam",
+   "mecanismo": true,
+   "liga_ao_proximo": "Os mesmos princípios valem para os vírus, que são intracelulares e pedem outros efetores",
+   "cards": [
+    "ak1487116928027",
+    "ak1520716108281",
+    "ak1487643795892",
+    "ak1520300296240",
+    "ak1487117295752",
+    "ak1487116971703",
+    "ak1487640169311"
+   ]
+  },
+  {
+   "passo": "Vírus, defesa inata: TLR3/7/8/9 e receptores citosólicos induzem interferon tipo I, que cria estado antiviral nas vizinhas e ativa as NK",
+   "mecanismo": true,
+   "liga_ao_proximo": "Passada a fase inata, a imunidade adaptativa específica entra",
+   "cards": [
+    "ak1461792762468",
+    "au-tlr-virus",
+    "ak1497440851060",
+    "ak1489970693302",
+    "ak1520301328706",
+    "ak1487117314403",
+    "ak1487117310594"
+   ]
+  },
+  {
+   "passo": "Vírus, defesa adaptativa: o CD8 é primado pela dendrítica e depois reconhece o peptídeo no MHC I da célula infectada; anticorpos neutralizam e fazem ADCC e complemento",
+   "mecanismo": true,
+   "liga_ao_proximo": "Cada passo dessa defesa é alvo de um mecanismo de evasão do vírus",
+   "cards": [
+    "au-ctl-duplo",
+    "ak1487117293576",
+    "au-ac-fab-fc",
+    "ak1487117328797"
+   ]
+  },
+  {
+   "passo": "Evasão viral: baixar o MHC I, imitar citocinas, bloquear o interferon, variar os antígenos e destruir o CD4",
+   "mecanismo": true,
+   "liga_ao_proximo": "",
+   "cards": [
+    "au-evasao-mhc",
+    "ak1503876156644",
+    "au-evasao-ifn",
+    "ak1489970615786",
+    "ak1506805786448",
+    "ak1516321589458",
+    "ak1516322855117"
+   ]
+  }
+ ],
+ "cards_de_conexao": [
+  "au-fungos-il1",
+  "au-ctl-duplo",
+  "au-evasao-mhc"
+ ],
+ "provas": [
+  {
+   "id": "2018 P2 1.5",
+   "cards": [
+    "au-fungos-pamps",
+    "sh-1791743340332",
+    "ak1487643795892",
+    "ak1487116928027"
+   ]
+  },
+  {
+   "id": "2018 P2 2.1",
+   "cards": [
+    "au-inflam-sinais",
+    "au-fungos-il1",
+    "ak1520300296240"
+   ]
+  },
+  {
+   "id": "2017 P2 2.8",
+   "cards": [
+    "au-fungos-pamps",
+    "au-fungos-il1",
+    "au-fungos-protecao",
+    "ak1487643795892"
+   ]
+  },
+  {
+   "id": "2017 P2 2.9",
+   "cards": [
+    "ak1487116831797",
+    "ak1487116849895",
+    "ak1487116888778",
+    "ak1487117295752"
+   ]
+  },
+  {
+   "id": "2016 P3 3.3",
+   "cards": [
+    "au-fungos-pamps",
+    "au-inflam-sinais",
+    "au-fungos-il1",
+    "ak1487116928027",
+    "ak1520716108281"
+   ]
+  },
+  {
+   "id": "2016 P3 3.4",
+   "cards": [
+    "au-fungos-protecao",
+    "ak1487116895205"
+   ]
+  },
+  {
+   "id": "2015 P2 3.2",
+   "cards": [
+    "ak1520300296240",
+    "ak1520300013308",
+    "au-fungos-il1"
+   ]
+  },
+  {
+   "id": "2015 P2 3.3",
+   "cards": [
+    "ak1487116831797",
+    "ak1487116849895"
+   ]
+  },
+  {
+   "id": "2017 P3 4.3",
+   "cards": [
+    "au-evasao-mhc",
+    "au-evasao-ifn"
+   ]
+  },
+  {
+   "id": "2024 P3 1.7",
+   "cards": [
+    "ak1487117255825",
+    "ak1487117156031"
+   ]
+  },
+  {
+   "id": "2018 P3 1.7",
+   "cards": [
+    "au-tlr-virus",
+    "ak1489970693302",
+    "ak1487117293576"
+   ]
+  },
+  {
+   "id": "2018 P3 5.3",
+   "cards": [
+    "au-tlr-virus",
+    "ak1489970693302",
+    "ak1487117293576",
+    "ak1516321589458"
+   ]
+  },
+  {
+   "id": "2018 P3 5.4",
+   "cards": [
+    "ak1516321589458",
+    "ak1516322855117"
+   ]
+  },
+  {
+   "id": "2018 P3 5.5",
+   "cards": [
+    "ak1516322271299",
+    "ak1516323064948"
+   ]
+  },
+  {
+   "id": "2017 P3 1.6",
+   "cards": [
+    "au-ac-fab-fc",
+    "ak1487117328797"
+   ]
+  },
+  {
+   "id": "2017 P3 4.2",
+   "cards": [
+    "ak1489970693302",
+    "ak1520301328706",
+    "ak1520301453074",
+    "ak1487117310594"
+   ]
+  },
+  {
+   "id": "2017 P3 1.4",
+   "cards": [
+    "au-tlr-virus",
+    "ak1487117304665",
+    "ak1489970693302"
+   ]
+  },
+  {
+   "id": "2017 P1 4.3",
+   "cards": [
+    "au-ac-fab-fc",
+    "ak1487117328797"
+   ]
+  },
+  {
+   "id": "2015 P2 2.6",
+   "cards": [
+    "au-ac-fab-fc",
+    "ak1487117293576"
+   ]
+  },
+  {
+   "id": "2015 P2 5.5",
+   "cards": [
+    "ak1487117255825"
+   ]
+  },
+  {
+   "id": "2018 P1 1.11",
+   "cards": [
+    "au-ctl-duplo",
+    "ak1487115889320"
+   ]
+  },
+  {
+   "id": "2018 P1 1.12",
+   "cards": [
+    "ak1489970364081",
+    "ak1489970456186"
+   ]
+  },
+  {
+   "id": "2018 P1 1.13",
+   "cards": [
+    "au-balanca",
+    "ak1487117293576"
+   ]
+  },
+  {
+   "id": "2023 P1 2.7",
+   "cards": [
+    "ak1516321589458",
+    "ak1516322855117"
+   ]
+  },
+  {
+   "id": "2025 P3 2.2",
+   "cards": [
+    "ak1487117255825",
+    "ak1487117156031"
+   ]
+  },
+  {
+   "id": "2016 P2 1.1",
+   "cards": [
+    "au-tlr-virus",
+    "ak1489970693302",
+    "ak1487117314403"
+   ]
+  },
+  {
+   "id": "2018 P1 1.10",
+   "fora": "Fora do recorte desta aula: reconhecimento do vírus da hepatite B pelos hepatócitos (receptor de entrada); é da microbiologia de vírus."
+  },
+  {
+   "id": "2019 P3 3.4",
+   "fora": "Fora do recorte desta aula: resposta de linfócitos B ao vírus do sarampo e maturação da afinidade da IgG; é da aula de ativação de linfócitos B."
+  },
+  {
+   "id": "2016 P2 1.5",
+   "fora": "Fora do recorte desta aula: platô da produção de anticorpos e retroalimentação; é da aula de resposta humoral."
+  }
+ ],
+ "uso_das_fontes": {
+  "aula": [
+   "au-balanca",
+   "au-inflam-sinais",
+   "au-fungos-pamps",
+   "au-fungos-protecao",
+   "au-tlr-virus"
+  ],
+  "prova": [
+   "au-fungos-il1",
+   "au-ac-fab-fc",
+   "au-evasao-ifn",
+   "ak1489970693302",
+   "ak1516322855117"
+  ],
+  "bibliografia": [
+   "ak1487117293576",
+   "ak1487117314403",
+   "ak1487116928027",
+   "ak1487117328797"
+  ],
+  "apostila": [
+   "au-fungos-il1",
+   "au-ctl-duplo",
+   "au-evasao-mhc",
+   "ak1520300296240",
+   "ak1487640169311"
+  ]
+ }
+}

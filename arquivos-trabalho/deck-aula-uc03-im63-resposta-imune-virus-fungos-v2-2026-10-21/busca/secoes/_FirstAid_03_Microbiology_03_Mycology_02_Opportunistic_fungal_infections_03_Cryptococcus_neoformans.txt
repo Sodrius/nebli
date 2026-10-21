@@ -1,0 +1,22 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::03_Mycology::02_Opportunistic_fungal_infections::03_Cryptococcus_neoformans (21 notas)
+1500243301914 1-HighYield Which fungus is encapsulated ? Cryptococcus neoformans
+1500244315193 2-RelativelyHighYield The Cryptococcus capsule is comprised of repeating polysaccharide capsular antigens
+1500244482455 3-HighYield-temporary The repeating polysaccharide capsular antigens of the Cryptococci capsule are the main virulence factor of the fungus, making it anti-phagocytic
+1500244584091 1-HighYield Cryptococcus is found mainly in pigeon droppings and soil
+1500244699744 1-HighYield Cryptococci enter the body via inhalation, therefore the primary infection resides in the lungs
+1500244771798 1-HighYield Which fungus is urease -positive? Cryptococcus neoformans
+1500244855818 3-HighYield-temporary Cryptococcus is a(n) opportunistic infection, with most symptoms occurring in immunocompromised patients (e.g., HIV+ patients, those with malignancies, high-dose steroid therapy, etc.)
+1500244913534 2-RelativelyHighYield Cryptococcus is the most common cause of fungal meningitis
+1500245231306 2-RelativelyHighYield The 2 most common complications of Cryptococcal infection are pneumonia and meningitis
+1500245338136 1-HighYield Bronchopulmonary washings can be used to diagnose Cryptococcal infection
+1500245435059 3-HighYield-temporary The bronchopulmonary washing of tissue samples for diagnosis of Cryptococcus utilizes the mucicarmine (red) or methenamine (silver) stains
+1500245573893 1-HighYield India ink stain outlines the heavy capsule that surrounds Cryptococci fungi, giving it a unique " halo " appearance
+1500245756888 2-RelativelyHighYield Latex agglutination test is used to detect the polysaccharide capsular antigen present in Cryptococci
+1500245900584 1-HighYield Brain MRI of Cryptococcus infection appears as " soap-bubble " lesions mainly in the gray matter of the brain
+1500245993331 1-HighYield Treatment of cryptococcal meningitis consists of a joint therapy of amphotericin B and flucytosine followed by maintenance therapy with fluconazole
+1500246246409 2-RelativelyHighYield Cryptococcus neoformans is 5 - 10 micrometers in diameter and its morphology can be described as narrow-based , with unequal budding
+1500246326159 2-RelativelyHighYield Cryptococcal meningoencephalitis has a(n) indolent course that occurs over a period of 1 - 2 weeks . The most common symptoms are fever , malaise , and headache
+1500246419118 1-HighYield Cryptococcus neoformans (along with other fungi ) can be cultured on Sabouraud agar
+1525446605993 1-HighYield Cryptococcus neoformans assumes a(n) yeast form (with a polysaccharide capsule)
+1552904531628 - The most sensitive test to perform on CSF to identify Cryptococcus is a(n) latex agglutination test (identifies fungal antigen)
+1556238884073 1-HighYield Which fungus is shown below? Cryptococcus — in India ink

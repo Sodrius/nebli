@@ -1,0 +1,17 @@
+# #AK_Step1_v12::#SketchyMicro::02_Fungi::03_Opportunistic_Fungal_Infections::05_Pneumocystis_jirovecii (16 notas)
+1402963462795 1-HighYield What medication(s) is/are first-line for prophylaxis and treatment for Pneumocystis jirovecii pneumonia? TMP-SMX
+1500335727221 2-RelativelyHighYield Pneumocystis jirovecii is a fungus responsible for causing Pneumocystic pneumonia
+1500336632240 1-HighYield Pneumocystis jirovecii has a(n) respiratory transmission
+1500336706894 2-RelativelyHighYield What are the symptoms of Pneumocystis jirovecii in the immuno competent ? None - asymptomatic :)
+1500336907300 2-RelativelyHighYield Pneumocystis pneumonia is a(n) AIDS-defining illness that presents with a CD4+ count < 200 cells/mm 3
+1500337179628 2-RelativelyHighYield Pneumocystis pneumonia is a(n) interstitial (atypical) pneumonia
+1500337281256 4-LowerYield Does Pneumocystis pneumonia have a productive cough ? No
+1500337313991 4-LowerYield Does Pneumocystis pneumonia show consolidations on chest x-ray ? No
+1500337338985 1-HighYield Pneumocystis pneumonia can present with a(n) " ground-glass " appearance on chest X-ray
+1500337500929 1-HighYield Pneumocystis jirovecii causes interstitial pneumonia with a ground-glass appearance on chest X-ray
+1500337548236 1-HighYield Bronchoalveolar lavage is used to confirm diagnosis of Pneumocystis pneumonia
+1500337725366 1-HighYield The bronchoalveolar lavage (BAL) sample is stained with methenamine silver to identify the fungus Pneumocystis jirovecii in Pneumocystis pneumonia
+1500419514988 2-RelativelyHighYield Silver (methenamine) stain is used to stain: Fungi Pneumocystis jirovecii Cryptococcus neoformans Coccidioides Bacteria Legionella H. pylori
+1508365955974 1-HighYield Pneumocystis jirovecii prophylaxis in HIV patients should be started at CD4 counts < 200 /mm 3 with TMP-SMX
+1509665063755 1-HighYield Bronchoalveolar lavage of Pneumocystis jirovecii infection will reveal " disc-shaped yeast " or cysts containing dark oval bodies
+1514587038741 2-RelativelyHighYield Dapsone or atovaquone are second-line for Pneumocystis jirovecii pneumonia prophylaxis in patients with HIV/AIDS

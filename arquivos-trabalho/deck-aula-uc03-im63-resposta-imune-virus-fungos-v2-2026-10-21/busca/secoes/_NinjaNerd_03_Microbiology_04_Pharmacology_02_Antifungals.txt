@@ -1,0 +1,73 @@
+# #AK_Step1_v12::#NinjaNerd::03_Microbiology::04_Pharmacology::02_Antifungals (72 notas)
+1462327377004 1-HighYield What fungal infection is a feared complication in diabetic ketoacidosis (DKA)? Mucormycosis
+1468250158738 1-HighYield What do fungal plasma membranes contain that others lack? Ergosterol
+1490137955804 2-RelativelyHighYield Metronidazole is a(n) inhibitor of CYP-450
+1499973040733 2-RelativelyHighYield Besides histoplasmosis , which other fungal infection can be detected through urine antigen testing ? Blastomycosis
+1499975518179 3-HighYield-temporary Systemic (disseminated) infections of coccidioidomycosis are treated with amphotericin B
+1500053322321 1-HighYield What is the first-line treatment for localized tinea infections? Topical antifungals (e.g., clotrimazole, terbinafine)
+1500053449197 1-HighYield The oral antifungal drug terbinafine is used to treat onychomycosis ( dermatophyte infection of nails) and tinea capitis
+1500236922530 2-RelativelyHighYield Systemic (disseminated) infections of Candida albicans are treated with caspofungin (first-line) or amphotericin B (second-line)
+1500237000985 2-RelativelyHighYield Local , mild infections of Candida albicans (e.g., candidal diaper rash) are treated with topical azoles
+1500237136393 2-RelativelyHighYield Oral candidiasis can be treated with nystatin
+1500241367077 1-HighYield Invasive aspergillosis is treated with IV voriconazole
+1500245993331 1-HighYield Treatment of cryptococcal meningitis consists of a joint therapy of amphotericin B and flucytosine followed by maintenance therapy with fluconazole
+1500333904310 1-HighYield What is the most common predisposing factor to mucormycosis ? Diabetic ketoacidosis
+1500335290166 3-HighYield-temporary What is the pharmacological treatment of Mucormycosis ? Amphotericin B
+1504216929510 - What is the likely diagnosis in a patient with pneumonia symptoms , violaceous / verrucous skin lesions , and bone lesions ? The patient works as a construction worker in Wisconsin Blastomycosis
+1509741728595 1-HighYield Which two classes of antifungals inhibit synthesis of ergosterol from squalene ? Azoles, allylamines (i.e. terbinafine)
+1509741919338 1-HighYield Allylamines (e.g., terbinafine) are a class of antifungals that inhibit the enzyme squalene epoxidase
+1509742000812 1-HighYield Azoles are a class of antifungals that inhibit the enzyme 14α-demethylase
+1509742036852 1-HighYield Echinocandins are a class of antifungals that inhibit the enzyme 1,3-β-glucan synthase
+1509742141238 1-HighYield What class of antifungals inhibit synthesis of β-glucan ? Echinocandins (-fungin)
+1509742201770 1-HighYield Polyenes (e.g. nystatin, amphotericin B) are a class of antifungals that bind ergosterol , creating pores in the fungal cell membranes
+1509742310437 1-HighYield Which antifungal works by disrupting mitotic spindles ? Griseofulvin
+1509742361304 4-LowerYield Flucytosine (5-FC) is metabolized to 5-fluorouracil (5-FU) in fungal cells
+1509742443199 3-HighYield-temporary Which antifungal is metabolized to 5-fluorouracil in fungal cells ? Flucytosine
+1509742489846 1-HighYield Which antifungal inhibits fungal DNA and RNA / protein synthesis ? Flucytosine
+1509742586045 4-LowerYield Which enzyme converts flucytosine to 5-fluorouracil ? Cytosine deaminase
+1509742681361 1-HighYield Which antifungal can result in bone marrow suppression ? Flucytosine
+1509742717818 1-HighYield What class of antifungals inhibits cell wall synthesis ? Echinocandins (-fungin)
+1509742814980 3-HighYield-temporary Ergosterol is a component of the fungal cell membrane
+1509743058195 1-HighYield Which two drugs bind ergosterol and form holes in the fungal cell membrane? Amphotericin B, nystatin (polyenes)
+1509743217032 1-HighYield Which antifungal is used in severe, systemic fungal infections? Amphotericin B
+1509743670062 3-HighYield-temporary Which antifungal can result in thrombophlebitis ? Amphotericin B
+1509743833529 1-HighYield Electrolyte abnormalities, such as hypokalemia and hypomagnesemia , can result from amphotericin B use
+1509744422330 1-HighYield Nystatin is active against Candida spp.
+1509744598051 1-HighYield Which polyene can treat oral and vaginal candidiasis ? Nystatin
+1509745062370 1-HighYield Azoles inhibit the conversion of lanosterol to ergosterol
+1509745235242 3-HighYield-temporary Which azole antifungal is especially prone to inhibiting human CYP450 ? Voriconazole
+1509745317318 3-HighYield-temporary Adverse effects of the antifungal voriconazole includes blurry vision , changes in color vision , and flashes of light
+1509745493345 2-RelativelyHighYield Which azole is used to treat invasive aspergillosis ? Voriconazole
+1509745802661 2-RelativelyHighYield Which oral azole is used in the treatment of mucocutaneous candidiasis ? Fluconazole
+1509745961686 2-RelativelyHighYield Which oral azole is used in the treatment of vaginal candidiasis ? Fluconazole
+1509746438483 2-RelativelyHighYield What are the three topical azoles ? Clotrimazole, miconazole, ketoconazole
+1509746577022 1-HighYield Which azoles are used for treatment of localized tinea infections ? Clotrimazole, miconazole
+1509746740874 1-HighYield Which antifungal inhibits androgen and estrogen synthesis? Ketoconazole
+1509746770370 1-HighYield Which antifungal inhibits cortisol production? Ketoconazole
+1509746910437 1-HighYield Ketoconazole has anti-androgenic effects and thus can cause gynecomastia in males
+1509747054868 3-HighYield-temporary Which class of antifungals prolongs the QT interval ? Azoles
+1509747115807 1-HighYield Azoles are a class of antifungals that can cause hepato toxicity
+1509747124822 3-HighYield-temporary What is the treatment of vaginal candidiasis in pregnancy ? Topical azole (e.g., miconazole, clotrimazole)
+1509747259788 2-RelativelyHighYield Should azoles (e.g., ketoconazole ) be avoided during pregnancy ? Yes*
+1509747380121 1-HighYield What is the treatment for local histoplasmosis , blastomycosis , and coccidioidomycosis infections? Itraconazole
+1509747453719 3-HighYield-temporary Griseofulvin is used to treat superficial dermatophyte infections
+1509750504912 2-RelativelyHighYield Griseofulvin inhibits the function of microtubules , resulting in arrest of cellular division at metaphase
+1509750647708 3-HighYield-temporary Griseofulvin induces cytochrome p450
+1509750939218 3-HighYield-temporary Griseofulvin will decrease serum levels of warfarin
+1509751239610 1-HighYield Which fungi static agent is used to treat onychomycosis ? Griseofulvin
+1509751339127 1-HighYield Which fungi cidal agent is used to treat onychomycosis ? Oral terbinafine
+1509751441530 1-HighYield What class of drugs results in an accumulation of squalene intracellularly? Allylamines (e.g., terbinafine)
+1509751663968 1-HighYield The antifungal class allylamines can be recognized via the suffix "- fine "
+1509751792392 2-RelativelyHighYield The allylamine terbinafine is associated with hepato toxicity
+1509751930175 1-HighYield The antifungal class echinocandins can be recognized via the suffix "- fungin "
+1509751969962 1-HighYield Echinocandins are antifungal agents that act at the cell wall
+1509752199075 3-HighYield-temporary Amphotericin B or echinocandins can be used for systemic candidal infections
+1509752299783 4-LowerYield What class of antifungals treats invasive aspergillosis that is refractory to voriconazole? Echinocandins (-fungin)
+1509752432085 4-LowerYield What class of antifungals can result in histamine -mediated hypersensitivity reactions? Echinocandins (-fungin)
+1509752522497 3-HighYield-temporary Echinocandins are primarily metabolized via the liver
+1509753380809 1-HighYield Polyenes are a class of antifungals that include amphotericin B and nystatin
+1509755342899 1-HighYield Which antifungal agent can result in hypomagnesemia and hypokalemia ? Amphotericin B
+1509755647704 2-RelativelyHighYield Which antifungal can result in anemia due to decreased EPO production? Amphotericin B
+1514583111655 4-LowerYield Terbinafine is associated with side effects of GI upset, headaches, hepatotoxicity, and taste disturbance
+1514584507672 4-LowerYield Isavuconazole is used for serious Aspergillus and Mucor infections
+1543421392197 - Oral antifungals are generally required for which cutaneous mycoses? Tinea capitis and onychomycosis

@@ -1,0 +1,29 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::03_Mycology::02_Opportunistic_fungal_infections::02_Aspergillus_fumigatus (28 notas)
+1473628203353 1-HighYield Allergic bronchopulmonary aspergillosis (ABPA) is usually seen in individuals with asthma or cystic fibrosis
+1486591290032 2-RelativelyHighYield Aflatoxins derived from Aspergillus are a risk factor for hepatocellular carcinoma
+1500238441939 1-HighYield Aspergillus has acute (< 45°) - angle branching hyphae with septations
+1500238914091 1-HighYield Aspergillus forms conidiophores with fruiting bodies
+1500239016754 2-RelativelyHighYield How is Aspergillus transmitted ? Inhalation
+1500239144039 1-HighYield Allergic bronchopulmonary aspergillosis (ABPA) is a type I hypersensitivity reaction caused by Aspergillus fumigatus
+1500239294238 1-HighYield Allergic bronchopulmonary aspergillosis (ABPA) is a result of inhalation of the Aspergillus fumigatus fungus and presents with wheezing , fever, and migratory pulmonary infiltrate
+1500239431365 5-LowYield Blood tests of patients with allergic bronchopulmonary aspergillosis (ABPA) will show in creased Ig E
+1500239542254 2-RelativelyHighYield Aspergillomas are solid balls of fungus present in the lungs that result from Aspergillus fumigatus infection
+1500239949484 1-HighYield Aspergillomas are associated with Tuberculosis or Klebsiella , as both pathologies have pre-existing cavities within the lungs
+1500240071916 2-RelativelyHighYield When a patient with aspergillomas takes an upright chest X-ray , the fungal balls will be in the inferior part of the cavity , as they are gravity dependent
+1500240180987 1-HighYield Invasive aspergillosis occurs due to Aspergillus fumigatus infection in immunocompromised patients
+1500240292507 1-HighYield Invasive aspergillosis invades blood vessels , disseminating rapidly throughout the body
+1500240575751 2-RelativelyHighYield Invasive aspergillosis will present with cough, fever , pleuritic chest pain , and hemoptysis
+1500240651633 1-HighYield Invasive aspergillosis disseminates upon reaching the blood vessels , resulting in kidney failure
+1500240763879 1-HighYield Invasive aspergillosis disseminates upon reaching the blood vessels , resulting in endocarditis
+1500240778971 1-HighYield Invasive aspergillosis disseminates upon reaching the blood vessels , resulting in ring enhancing brain lesions
+1500240842441 1-HighYield Which fungal complication can present with ring-enhancing lesions on CT scan? Invasive aspergillosis
+1500241012890 1-HighYield Mucormycosis and Aspergillus fumigatus can spread to the paranasal sinuses and result in necrosis around the nose
+1500241142268 2-RelativelyHighYield Local , mild infections of Aspergillus fumigatus are treated with azoles (e.g., voriconazole ) or echinocandins (caspofungin)
+1500241228484 2-RelativelyHighYield In addition to medical treatment, aspergillomas will need to be surgically removed
+1500241367077 1-HighYield Invasive aspergillosis is treated with IV voriconazole
+1500243882463 1-HighYield Aspergillus fumigatus is not dimorphic and occurs only as molds
+1500244106481 3-HighYield-temporary Increased levels of IgE in allergic bronchopulmonary aspergillosis (ABPA) leads to eosinophilia , causing intense inflammation of airways and mucus plugs in terminal bronchioles . Repeated attacks may
+1500244288943 5-LowYield Allergic bronchopulmonary aspergillosis (ABPA) can be treated with corticosteroids to reduce Ig E response
+1509655369769 2-RelativelyHighYield Which two fungi are catalase positive ? Candida and Aspergillus
+1523815745597 3-HighYield-temporary Which invasive infection can present similarly to mucormycosis (paranasal sinus necrosis)? Invasive aspergillosis
+1556238807061 1-HighYield Which fungus is shown below? Aspergillus fumigatus

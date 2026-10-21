@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::02_Antifungals::02_Nystatin (5 notas)
+1500237136393 2-RelativelyHighYield Oral candidiasis can be treated with nystatin
+1509742201770 1-HighYield Polyenes (e.g. nystatin, amphotericin B) are a class of antifungals that bind ergosterol , creating pores in the fungal cell membranes
+1509743058195 1-HighYield Which two drugs bind ergosterol and form holes in the fungal cell membrane? Amphotericin B, nystatin (polyenes)
+1509744422330 1-HighYield Nystatin is active against Candida spp.
+1509744598051 1-HighYield Which polyene can treat oral and vaginal candidiasis ? Nystatin

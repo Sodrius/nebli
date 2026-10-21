@@ -1,0 +1,9 @@
+# #AK_Step1_v12::#FirstAid::02_Immunology::02_Cellular_Components::05_Functions_of_natural_killer_cells (8 notas)
+1487117304665 1-HighYield Which immune cell is a lymphocyte member of the innate immune system ? Natural killer (NK) cells
+1487117308213 2-RelativelyHighYield Natural killer cells may induce apoptosis of virally infected cells and tumor cells via release of perforins and granzymes
+1487117310594 1-HighYield Which interferon(s) enhance(s) activity of natural killer cells ? Interferon-α and interferon-β
+1487117312582 2-RelativelyHighYield Which interleukins enhance activity of natural killer cells ? IL-2 and IL-12
+1487117314403 1-HighYield Natural killer cells are induced to kill cells that have an absence of MHC I on their cell surface
+1487117321802 4-LowerYield Natural killer cells may kill cells via binding between CD16 (NK cells) and the Fc region of IgG-bound antigen
+1497203002753 1-HighYield Interferons stimulate antitumor activity by activating natural killer & CD8+ T cells
+1518053116398 2-RelativelyHighYield Tumor cells that downregulate MHC class I can be detected and destroyed by natural killer cells

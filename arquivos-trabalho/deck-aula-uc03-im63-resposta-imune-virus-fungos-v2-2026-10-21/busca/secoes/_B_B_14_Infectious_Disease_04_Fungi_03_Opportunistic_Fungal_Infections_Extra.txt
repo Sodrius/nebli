@@ -1,0 +1,20 @@
+# #AK_Step1_v12::#B&B::14_Infectious_Disease::04_Fungi::03_Opportunistic_Fungal_Infections::Extra (19 notas)
+1474580722813 2-RelativelyHighYield The risk of oropharyngeal candidiasis following inhaled corticosteroids is reduced by gargling water and spitting after each treatment
+1500234023725 1-HighYield Candida albicans forms germ tubes (true hyphae) at 37ºC
+1500234258289 4-LowerYield Which fungus reverses the dimorphic adage , with yeast in the cold and mold in the heat ? Candida albicans
+1500235087296 2-RelativelyHighYield Candida albicans results in white patches in the oral cavity that can be scraped away
+1500239294238 1-HighYield Allergic bronchopulmonary aspergillosis (ABPA) is a result of inhalation of the Aspergillus fumigatus fungus and presents with wheezing , fever, and migratory pulmonary infiltrate
+1500239431365 5-LowYield Blood tests of patients with allergic bronchopulmonary aspergillosis (ABPA) will show in creased Ig E
+1500239949484 1-HighYield Aspergillomas are associated with Tuberculosis or Klebsiella , as both pathologies have pre-existing cavities within the lungs
+1500240071916 2-RelativelyHighYield When a patient with aspergillomas takes an upright chest X-ray , the fungal balls will be in the inferior part of the cavity , as they are gravity dependent
+1500244699744 1-HighYield Cryptococci enter the body via inhalation, therefore the primary infection resides in the lungs
+1500245573893 1-HighYield India ink stain outlines the heavy capsule that surrounds Cryptococci fungi, giving it a unique " halo " appearance
+1500245756888 2-RelativelyHighYield Latex agglutination test is used to detect the polysaccharide capsular antigen present in Cryptococci
+1500333577879 1-HighYield Immunocompromised (e.g., those on glucocorticoids , HIV+/AIDS ) patients and patients with diabetes are especially susceptible to Mucormycosis infections
+1500333766310 1-HighYield Rhizopus is a(n) bread mold , and is one of the major causes of Mucormycosis
+1500334133616 2-RelativelyHighYield Mucor / Rhizopus spp . hyphae are non-septated with wide-angled (90°) branching
+1500334485985 1-HighYield Mucormycosis will penetrate the cribriform plate of the skull, entering the brain
+1500335644882 1-HighYield Cavernous sinus thrombosis is a serious complication of Mucormycosis infection
+1514587038741 2-RelativelyHighYield Dapsone or atovaquone are second-line for Pneumocystis jirovecii pneumonia prophylaxis in patients with HIV/AIDS
+1517779158524 2-RelativelyHighYield Patients get exposed to aflatoxins produced by Aspergillus by way of eating improperly stored grains and nuts
+1584393298504 4-LowerYield Chronic diabetes predisposes patients to recurrent infection due to poor wound healing , urinary retention , neutrophil dysfunction , and hyperglycemia

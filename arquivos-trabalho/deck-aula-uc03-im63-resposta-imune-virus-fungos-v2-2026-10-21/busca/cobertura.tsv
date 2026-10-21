@@ -1,0 +1,24 @@
+chave	conceito	fonte_aula	veredito	lidos	decora	decisao
+au-balanca	Infecção: patogenicidade × resposta imune	Slide 2	lacuna	1479430568786 1482359358577 1485804778061	pathogenicity	Os candidatos tratam de interferon, NK e CMV; nenhum card traz o balanço entre patogenicidade e resposta imune que a aula usa como princípio.
+ak1461792762468	Interferons: citocinas liberadas por células infectadas por vírus	Slide 13	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-tlr-virus	TLRs que reconhecem vírus	Slide 14	parcial	1497450277629 1520299451730 1487639996379	TLR3	Há PRRs em geral e RIG/citosólicos; nenhum card liga TLR3, TLR7/8 e TLR9 aos ácidos nucleicos virais.
+ak1520301328706	IFN tipo I reduz a síntese proteica	Slide 17	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1461794583601	Interleucinas aumentam a síntese de interferon	Slide 17	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1497450277629	RNA dupla fita no citosol leva à apoptose via IFN	Slide 17	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-evasao-mhc	Escape viral: queda do MHC I	Slide 25	parcial	1487116826422 1503876156644 1487115889320	proteasome	O CMV inibe o MHC I (ak); nenhum card traz os pontos do bloqueio (proteassoma, TAP, RE).
+ak1503876244084	CMV inibe a expressão de MHC I	Slide 25	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1503876156644	CMV bloqueia o MHC I e a morte pelo CD8	Slide 25	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-evasao-citocinas	Escape viral: homólogos de citocinas e receptores	Slide 27	lacuna	1487116971703 1489968446315 1489970615786	IL-10	Há IL-10 geral e EBV latente; nenhum card traz o homólogo viral de IL-10 nem os receptores decoy.
+ak1506805786448	HIV infecta linfócitos T CD4, macrófagos e células dendríticas	Slide 28	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516321589458	Variação antigênica do influenza: HA e NA	Slide 29	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516323168130	Virada: pandemias	Slide 29	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516322271299	Variação antigênica: deriva ou virada	Slide 30	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516322855117	Deriva: mutações pontuais em HA ou NA	Slide 31	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1516323022237	Deriva: epidemias	Slide 31	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1520087988222	Dengue: quatro sorotipos	Slide 31	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1520088551261	Segunda infecção por dengue: quadro mais grave	Slide 31	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-fungos-tipos	Fungos oportunistas × primários	Slide 55	lacuna	1499972321019 1499970409878 1499970198666	Aspergillus	Há cards de fungos isolados por doença; nenhum separa oportunistas de primários como a lâmina 55.
+au-fungos-pamps	Parede do fungo: açúcares como PAMPs	Slide 58	lacuna	1509742141238 1509742717818 1509751969962	β-glucan	Há ergosterol e equinocandinas, mas nenhum card diz que os açúcares da parede são PAMPs.
+au-fungos-il1	Inflamassoma: IL-1β para Th17 e IL-18 para Th1	Slide 63	lacuna	1520715849479 1520715624658 1497310326771	Th17	Há inflamassoma e IL-1β em geral; nenhum card liga IL-1β a Th17 e IL-18 a Th1 nos fungos.
+au-fungos-protecao	Th1 e Th17 protegem; Th2 e Treg pioram	Slide 66	parcial	1520300460306 1476583926797 1499975410107	Th2	Há Th17 recrutando neutrófilos e M1/M2 (ak); nenhum card resume Th1 e Th17 como protetores e Th2 e Treg como deletérios.
+ak1503254160003	Sem TNF-α não há granuloma e a infecção reativa	Slide 70	coberto			card de acervo achado por seção, palavra-chave ou significado

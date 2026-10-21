@@ -1,0 +1,983 @@
+# Monitoria — Mapas imunológicos 1 a 3 (trechos de vírus, NK, IFN e fungos)
+== Mapa 1
+=== p.1
+Sitema 
+Imunológico
+Células
+Moléculas
+Órgãos
+Tecidos
+Citocinas
+Receptores
+Sistema Complemento
+Quimiocinas
+Receptores 
+Reconhecedores de 
+Padrões
+Receptores de 
+Complemento
+Receptores 
+Clonais
+Receptores de 
+Células T (TCR)
+Receptores de 
+Células B (BCR)
+Brônquios
+Trato Gastrointestinal
+Pele
+Tecido Linfóide Associado 
+à Mucosa
+Primários
+Baço
+Secundários
+Medula 
+Óssea 
+Linfonodos
+Timo
+Mastócitos
+Imunidade 
+Adaptativa
+Imunidade 
+Inata
+Basófilos
+Eosinófilos
+Neutrófilos
+Outras 
+Células
+Linfócitos NK
+Macrófagos
+Células 
+Dendríticas
+Linfócitos B
+Linfócitos T
+Células 
+Apresentadoras 
+de Antígeno
+Sistema Complemento
+Inflamação
+Ativação
+Funções
+Lívia Moor Pinheiro Braz (N.o USP: 14615332) 
+Lucas Batini Araujo (N.o USP: 14590652)
+Remoção de Corpos 
+Apoptóticos
+Remoção de 
+Imunocomplexos
+Opsonização
+Lise Celular
+Promoção de 
+Inflamação
+Complexo de Ataque 
+à Membrana
+C1q, MBL,
+C3b, iC3b, C4b
+C3a, C5a,
+C4a
+C1q, iC3b,
+C4b, MBL
+C3b, C4b
+Via Alternativa
+Via Clássica
+Via das Lectinas
+Sintomas
+Calor
+Estimulação de 
+terminações nervosas
+Hiperemia e Degranulação 
+de Mastócitos
+Congestão, aumento de 
+permeabilidade e vasodilatação
+Congestão, Degranulação de 
+Mastócitos e mediadores inflamatórios
+Dor
+Rubor
+Tumor
+Gruda C1q
+1IgM ou 2 IgG na 
+Superfície do Patógeno
+Grudam 2 
+C1r e 2 C1s
+Clivagem de C4 
+em C4a e C4b
+Formação de 
+C1qr2s2
+C4b Gruda 
+em C2
+Clivagem de C3 
+em C3a e C3b
+C3b Gruda na 
+C3 Convertase
+Clivagem de C2 
+em C2a e C2b
+Formação da C3 
+Convertase (C4bC2a)
+Clivagem de C5 
+em C5a e C5b
+Formação de C5 
+Convertase (C4bC2aC3b)
+Fator D cliva 
+Fator B em Ba e 
+Bb
+Liberação de 
+C3a e C3b
+C3b se Liga 
+ao Fator B
+C3b gruda na C3 
+Convertase
+Clivagem de C5 
+em C5a e C5b
+Formação da C5 
+Convertase 
+(C3bBbC3b)
+Clivagem de C3 
+em C3a e C3b
+Formação da C3 
+Convertase (C3bBb)
+Hidrólise 
+Espontânea de C3
+Formação do Complexo 
+MBL/MASP1/MASP2
+MBL em 
+Manose
+MASP 1 e MASP 
+2 se Ligam à 
+MBL
+Clivagem de C3 
+em C3a e C3b
+Clivagem de C5 em 
+C5a e C5b
+Clivagem de C4 em 
+C4a e C4b e de C2 em 
+C2a e C2b
+Formação da C5 
+Convertase (C4bC2aC3b)
+Formação da C3 
+Convertase (C4bC2a)
+C5b Gruda na 
+Superfície do 
+Patógeno
+C6, C7 e C8 se 
+Aderem a C5
+Formação do 
+Complexo 
+C5b678
+Várias Moléculas de 
+C9 se Ligam ao 
+complexo C5b678
+Formação do 
+Complexo de Ataque 
+à Membrana (MAC)
+Entrada de Água e 
+Lise Celular
+Rolamento
+Desaceleração mediada 
+por selectinas
+Mecanismo
+Vasodilatação
+Recrutamento 
+de Leucócitos
+Aumento de 
+permeabilidade
+Proteínas
+Ativação do 
+Endotélio
+Aumento do 
+espaço 
+intercelular
+TNF-a e IL-1b
+SC', Ig, PCR
+Contração do 
+endotélio
+Células
+Pró-Coagulação
+Aumento de 
+afinidade
+Transmigração
+Retenção estável
+Integrinas + Selectinas
+Integrinas em alta 
+quantidade
+Diapedese mediada por rompimento 
+da ligação VE-Caderina
+Vasodilatação
+Recrutamento 
+de Leucócitos
+Aumento de 
+permeabilidade
+Proteínas
+Ativação do 
+Endotélio
+Aumento do 
+espaço 
+intercelular
+TNF-a e IL-1b
+SC', Ig, PCR
+Contração do 
+endotélio
+Células
+Pró-Coagulação
+Aumento de 
+afinidade
+Transmigração
+Retenção estável
+Integrinas + Selectinas
+Integrinas em alta 
+quantidade
+Diapedese mediada por rompimento 
+da ligação VE-Caderina
+Mecanismo
+Vasodilatação
+Recrutamento 
+de Leucócitos
+Aumento de 
+permeabilidade
+Proteínas
+Ativação do 
+Endotélio
+Aumento do 
+espaço 
+intercelular
+TNF-a e IL-1b
+SC', Ig, PCR
+Contração do 
+endotélio
+Células
+Pró-Coagulação
+Aumento de 
+afinidade
+Transmigração
+Retenção estável
+Integrinas + Selectinas
+Integrinas em alta 
+quantidade
+Diapedese mediada por rompimento 
+da ligação VE-Caderina
+Rolamento
+Desaceleração mediada 
+por selectinas
+Mecanismo
+Vasodilatação
+Recrutamento 
+de Leucócitos
+Aumento de 
+permeabilidade
+Proteínas
+Ativação do 
+Endotélio
+Aumento do 
+espaço 
+intercelular
+TNF-a e IL-1b
+SC', Ig, PCR
+Contração do 
+endotélio
+Células
+Pró-Coagulação
+Aumento de 
+afinidade
+Transmigração
+Retenção estável
+Integrinas + Selectinas
+Integrinas em alta 
+quantidade
+Diapedese mediada por rompimento 
+da ligação VE-Caderina
+Imunidade de Mucosas 
+(MALT)
+Receptores Nod-Like 
+(Citoplasmáticos)
+Produção e Liberação 
+de Muco no Lúmen
+Macrófagos
+Célular 
+Caliceformes
+Células 
+Epiteliais
+Receptores Toll-Like na 
+Membrana Baso-Lateral
+Produção da citocina IL-6 
+mediante a ligação de 
+antígenos a TLRs ou NLRs
+Células 
+Dendríticas
+IL-6 e TGF-
+Beta
+Secreção das Citocinas 
+BAFF e APRIL
+Secreção Constitutiva 
+da citocina TGF-Beta
+Apresentação 
+de Antígeno
+Diferenciação de 
+Linfócitos TCD4 no 
+subtipo Th17
+Migração e Ativação 
+de Neutrófilos
+Produção da 
+citocina IL-17
+Combate ao Patógeno: EROs e 
+ERNs, Fagocitose, NET, Liberação 
+de Grânulos enzimáticos
+Auxilia na diferenciação de 
+Linfócitos TCD4 em Linfócitos 
+T reguladores
+Mucosas ricas em 
+células T reguladoras
+Células de 
+Paneth
+Linfócitos 
+TCD8
+Linfócitos 
+TCD4
+Linfócitos B
+Mastócitos e 
+Alguns Eosinófilos
+Produção e secreção de 
+Defensinas Anti-
+Microbianas
+Citotoxicidade
+Ativação T-
+dependente
+Plasmócitos 
+produtores de IgA de 
+alta afinidade
+Liberação e transporte 
+de IgA para o Lúmen
+Plasmócitos 
+produtores de IgA 
+de baixa afinidade
+Ativação T-
+Independente
+Citocinas
+IFN
+TNF
+Quimiocinas
+IL-1b
+IL-6
+IL-15, 1L-18 e 
+IL-27
+IL-10
+Ativação de NK e LT CD8
+Aumenta expressão de MHC I, 
+estado antiviral, ativação de NK
+Recrutamento de 
+leucócitos
+Ativação de endotélio, febre, 
+proteína de fase aguda
+Proteína de fase aguda, 
+proliferação de LB, Th17
+Regulação da resposta
+Ativação de endotélio e 
+Neutrófilos, febre
+Citocinas
+IFN
+TNF
+Quimiocinas
+IL-1b
+IL-6
+IL-15, 1L-18 e 
+IL-27
+IL-10
+Ativação de NK e LT CD8
+Aumenta expressão de MHC I, 
+estado antiviral, ativação de NK
+Recrutamento de 
+leucócitos
+Ativação de endotélio, febre, 
+proteína de fase aguda
+Proteína de fase aguda, 
+proliferação de LB, Th17
+Regulação da resposta
+Ativação de endotélio e 
+Neutrófilos, febre
+Killing
+iNOs gera NO
+Fagócitos
+Fagocitose
+Enzimas 
+lisossomais
+ROS
+pH ácido
+Hipersensibilidade e 
+Doenças Autoimunes
+== Mapa 2
+=== p.1
+  Mapa imunológico 
+Gabrielle Velloso Kalicki (n°: 14573698)
+Giulia Harumi dos Santos Nakayama (n°: 14614348)
+Sistema
+Imunológico
+Integração
+Imunidade adaptativa
+Imunidade Inata
+Órgãos
+Células
+fagócitos
+Regulação
+Citocinas 
+células 
+células
+dendríticas
+neutrófilos
+M2
+(reparo)
+M1
+(pró-inflamatório)
+macrófagos
+mastócitos
+células NK
+outros 
+componentes
+barreiras
+epiteliais
+sistema
+complemento
+via clássica
+(ligação do anticorpo ao
+antígeno)
+via alternativa
+(superfície do m.o na
+ausência de anticorpo)
+via das
+lectinas
+(MBL se liga a manose
+da superfície do m.o)
+obs: mais
+relacionada a
+imunidade
+adaptativa
+citocinas
+IL-12
+IFNg
+IFNa
+IL-1
+IL-10
+IFNb
+TNFa
+IL-6
+mecanismos
+nos tecidos
+(invasores detectados
+por macrófagos
+residentes e DC)
+barreiras
+contra entrada
+(defesa nos epitélios)
+no sangue
+(proteínas plasmáticas,
+p.e sistema
+complemento)
+receptores
+para PAMP e
+DAMP
+(PRRs)
+NLR
+TLR
+TLR2
+TLR4
+Linfócito B
+(Célula apresentadora
+de antígeno) 
+Linfocito T 
+Plasmócito
+(produtor de
+anticorpo)
+IgG 
+(memória de
+longo prazo)
+IgA
+(Imunização
+de mucosa) 
+IgM
+(primeiro
+anticorpo
+produzido)
+IgD
+(membrana
+linf naive)
+Linfocito
+TCD4+
+(auxiliar)
+Linfocito
+TCD8+
+(citotóxico -
+CTL)
+Linfocito
+Th17
+(produz IL-17 e
+ativa neutrófilos)
+Linfocito
+Th1
+ (ativa M1, produz
+IFNg, linf B - IgG)
+Linfocito
+Th2
+(ativa M2,ativa
+eosinófilo, linf B-
+IgE
+Linfocito T
+regulador
+ (produz citocinas
+inibidoras- IL-10)
+IL-2
+IL-4
+IL-5
+IFNg
+IL-17
+Mecanismos
+Primários
+(Timo e Medula Óssea)
+Secundários
+(baço e linfonodos)
+eficiência da
+resposta
+seleção na
+medula
+seleção de
+repertório de
+LT
+Anatomia
+(ex barreira
+hematoencefálica)
+seleção
+negativa
+(afinidade)
+seleção
+positiva
+(especificidade)
+apoptose de
+plasmócitos produtores
+de anticorpos que
+reconhecem com alta
+afinidade elementos self
+fagocitose
+(induz a redução da
+intensidade da
+resposta)
+regulação por
+IgG
+interações
+celulares
+(ativação de células)
+Treg
+(produção de IL10 e
+TGFb)
+Exemplo de
+resposta
+(bactéria extracelular)
+imunidade
+adaptativa
+imunidade
+inata
+IL-13
+IL-22
+Receptores:
+TCR e BCR 
+MHC-II
+apresenta para
+CD4+ naive
+(+ co-estimuladores)
+MHC-I
+apresenta para
+CD8+ naive 
+(+ co-estimuladores)
+Sinapse
+Imunológica
+(entra APC e linf T) 
+imunidade
+humoral
+ativação de LT
+CD4+
+ativação do
+complemento
+ativação de
+fagocitose e
+inflamação
+(produtos bacterianos
+ativam Toll)
+neutralização
+(IgG, IgM e IgA)
+ativação via clássica do
+complemento
+(subclasses de IgG)
+produção de
+citocinas
+(atividade fagocítica de
+neutrófilos e
+macrófagos e estímulo a
+produção de anticorpos
+indução de
+resposta Th17
+indução de
+resposta Th1
+IgE
+(anti-
+parasitaria)
+ expansão
+clonal
+(IL-2)
+ expansão
+clonal
+(IL-2)
+ 
+diferencia
+-ção 
+Produção de
+citocinas
+Potencialização
+da atividade das
+células inata 
+Linfocito T
+citotóxico
+(CLT)
+TGF-B
+IL-10
+Respostas a
+patógenos
+celulares 
+Leva a
+apoptose -
+Fas/Fas ligante
+MHC-I: membrana de
+células nucleadas 
+MHC-II:  membrana
+de APC
+Apresentação
+cruzada 
+(mesma APC
+apresenta para CD8+
+e CD4+
+Células de memória -
+respondem
+rapidamente a
+reinfecção pelo
+mesmo patógeno 
+exocitose de
+grânulos-
+perforina: leva
+a apoptose
+apoptose de
+células
+infectadas
+intracelulares
+efeito
+citotóxico 
+Ativação de linf B 
+( que ja reconheceu o
+patogéno e apresentou no
+MHC-II)
+Linf TCD4+ ativado
+reconhece MHC-II
+do linf B (+co-
+estimuladores)
+Proliferação e
+diferenciação das
+células B  em
+plasmocitos
+Secreção de
+anticorpos IgM 
+Troca de isotipo
+passa a produzir
+IgG 
+Maturação da
+afinidade 
+Células de
+memória 
+ quando ativada por linfocito
+TCD4+se diferencia em 
+Célula plástica que se diferencia a depender das 
+citocinas no ambiente 
+desencadeamento 
+da resposta
+desenvolvimento
+ e maturação
+podem se diferenciar em 
+Resposta imune celular 
+Resposta imune
+humoral 
+exemplo de estrutura de um anticorpo
+== Mapa 3
+=== p.1
+SISTEMA 
+IMUNOLÓGICO
+IMUNIDADE
+INATA
+BARREIRAS
+FÍSICAS
+PELE
+EPITÉLIO
+DAS
+MUCOSAS
+Produzem peptídeos
+antimicrobianos: as 
+defensinas
+BARREIRAS
+QUÍMICAS
+PH ÁCIDO 
+DO SUCO 
+GÁSTRICO
+ENZIMAS 
+PRESENTES 
+NA SALIVA
+BARREIRAS 
+CELULARES
+CÉLULAS
+FAGOCÍTICAS
+NEUTRÓFILOS
+MACRÓFAGOS
+CÉLULAS-​
+SENTINELAS
+CÉLULULAS
+DENDRÍTICAS
+MACRÓFAGOS
+MASTÓCITOS
+CÉLULAS
+NK
+INFLAMAÇÃO
+IMUNIDADE
+ADAPTATIVA
+IMUNIDADE
+CELULAR
+IMNUNIDA
+DE
+HUMORAL
+VIA 
+ALTERNATIVA
+VIA DA LECTINA
+VIA CLÁSSICA
+complexo 
+antígeno-​anticorpo
+lectina ligadora de 
+manose se liga a 
+manose na superfície 
+de patógenos
+superfície de 
+patógenos
+C1
+C4
+C2
+MLB-​MASP
+C4
+C2
+C3
+B
+D
+C3 
+CONVERTASE
+C4a+
+C3a
+C5a
+C3b
+Peptídeos mediadores 
+de inflamação, 
+recrutamento de 
+fagócitos
+Se liga ao receptor do 
+complemento em 
+fagócitos
+C5b
+C6
+C7
+C8
+C9
+Complexo de ataque a 
+membrana, lise de certos 
+patógenos e células
+Opsonização de 
+patógenos,
+Remoção de 
+imunocomplexos 
+A inflamação é o processo que se 
+desenvolve como resposta a dano ou 
+estímulo patológico pelo acúmulo de 
+leucócitos e proteínas plasmáticas no 
+local de infecção/lesão
+Linfócitos 
+T
+Linfócitos 
+B
+Os precursores linfóides da medula óssea migram através da 
+circulação sanguínea para o timo, onde se multiplicam, diferenciam e 
+maturam. Os linfócitos T maduros tornam-​se imunocompetentes e 
+apresentam um receptor clonal de membrana (TCR)  que reconhece 
+certo determinante antigênico ou epítopo derivado de moléculas do 
+patógeno. No timo os linfócitos se diferenciam em duas principais 
+subpopulações
+Linfócitos T auxiliares 
+(TCD4+)
+Linfócitos T 
+citotóxicos 
+(TCD8+)
+Apresentação 
+do antígeno 
+via MHC2
+Apresentação 
+do antígeno 
+via MHC1
+Na presença de 
+IL-12 e IFN-​
+GAMA
+Th1
+produção de
+INF-​gama (ativação de 
+macrófagos)
+TNF (inflamação)
+Na presença 
+de IL-4
+Th2
+produção de
+IL-4 ( ativação de 
+mastócitos)
+IL-5 (ativação de 
+eosinófilos)
+IL-13 (estimula e 
+regula a produção 
+de muco e 
+peristaltismo)
+Na presença 
+de IL-6 e TGF-​
+BETA
+TH 17
+produção de
+IL-23 (Inflamação)
+IL-17 ( ativação de 
+neutrófilos)
+Na presença 
+de TGF-​BETA
+TH 23 ou 
+Treg
+produção de
+IL-10
+TFG-​beta
+Bloqueiam a ativação de 
+células dendríticas, 
+macrófagos e Th1
+Liberam grânulos
+Secretam citocinas
+Perforina
+Granzima (cliva a 
+substância)
+Proteínas catiônicas
+Enzimas lisossômicas
+NO
+ROI
+TGF-​BETA
+PDGF
+VEGF (síntese de 
+colágeno, 
+fibronectina, 
+proteoglicanos
+NO
+ROI
+Eliminação do 
+microrganismo
+ou
+Lesão tecidual
+Reparo tecidual
+ou
+Cronificação (lesão 
+tecidual)
+EPO
+MBP
+Eliminação de 
+vermes
+Lesão tecidual
+EOSINÓFILO
+Participam dos fenômenos de 
+imunidade natural e têm sua 
+ação dirigida principalmente 
+contra células infectadas por 
+vírus ou células tumorais
+São as APCs mais importantes na ativação de células T naive e 
+desempenham grande papel na resposta imune inata contra as 
+infecções e na ligação entre imunidade inata e adquirida. Possui longas 
+projeções membranosas e capacidade fagocítica, e são amplamente 
+distribuídas nos tecidos linfoides, no epitélio das mucosas e 
+parênquima dos órgãos. Expressam receptores que reconhecem 
+moléculas produzidas pelos microrganismos e respondem com a 
+produção de citocinas. Em resposta a ativação por patógenos tornam-​se 
+móveis, migram para os gânglios linfáticos e apresentam os antígenos 
+aos linfócitos T
+Mastócitos são células inatas, sentinelas do 
+sistema imunológico. Possuem localização 
+tecidual e marginal a vasos sanguíneos, sendo 
+capazes de responder rapidamente a agente 
+agressores. Essas células liberam uma série de 
+fatores inflamatórios, como TNF-α, e medeiam 
+alterações vasculares observadas nos processos 
+inflamatórios, além de contribuírem com o 
+recrutamento e migração de leucócitos.
+M2
+M1
+Os macrófagos M1 são 
+pró-​inflamatórios e 
+especializados no 
+combate às infecções
+Os macrófagos M2 são antiinflamatórios e estão 
+relacionados ao reparo tecidual.
+Plasmócito
+IgM
+pentamérica
+Plasmócito
+Na presença 
+de INF-​Gama
+Na presença de 
+IL-4
+Na presença 
+de TGF-​BETA
+IgG
+IgE
+IgA
+Receptor de antígeno 
+do linfócito B virgem, 
+ativação do sistema 
+complemento
+Opsonização, ativação 
+do sistema 
+complemento, 
+citotoxicidade mediada 
+por células 
+dependentes de 
+anticorpo, imunidade 
+neonatal, auto inibição 
+do linfócito B
+Defesa contra parasitas 
+helmintos, 
+hipersensibilidade 
+imediata
+Imunidade de mucosa
+SISTEMA
+COMPLEMENTO
+Ativação de 
+LB - T 
+independente
+Ligação 
+Antígeno/
+BCR
+MAPA 
+IMUNOLÓGICO
+DISCENTES:
+Caique Tabata Arai (14563168)
+Guilherme Cavalari Ladeia (14575745)
+Na presença 
+de IFN-​gama
+Na presença 
+de IL-4
+Ativação de 
+LB - T 
+Dependente
+No timo, 
+Ligação 
+Antígeno/BCR
+No timo, Ativação e 
+migração dos 
+linfócitos T e B
+Interação 
+célula T/B
+Retorno ao 
+folículo
+Célula B de 
+memória
+Anticorpos da 
+membrana (IgM 
+e IgD)

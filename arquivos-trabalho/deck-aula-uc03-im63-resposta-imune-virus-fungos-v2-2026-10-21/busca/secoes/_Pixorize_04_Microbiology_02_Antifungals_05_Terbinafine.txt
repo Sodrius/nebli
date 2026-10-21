@@ -1,0 +1,12 @@
+# #AK_Step1_v12::#Pixorize::04_Microbiology::02_Antifungals::05_Terbinafine (11 notas)
+1500053322321 1-HighYield What is the first-line treatment for localized tinea infections? Topical antifungals (e.g., clotrimazole, terbinafine)
+1500053449197 1-HighYield The oral antifungal drug terbinafine is used to treat onychomycosis ( dermatophyte infection of nails) and tinea capitis
+1509741728595 1-HighYield Which two classes of antifungals inhibit synthesis of ergosterol from squalene ? Azoles, allylamines (i.e. terbinafine)
+1509741919338 1-HighYield Allylamines (e.g., terbinafine) are a class of antifungals that inhibit the enzyme squalene epoxidase
+1509751158016 1-HighYield Tinea capitis in children is treated with oral griseofulvin or oral terbinafine
+1509751339127 1-HighYield Which fungi cidal agent is used to treat onychomycosis ? Oral terbinafine
+1509751441530 1-HighYield What class of drugs results in an accumulation of squalene intracellularly? Allylamines (e.g., terbinafine)
+1509751663968 1-HighYield The antifungal class allylamines can be recognized via the suffix "- fine "
+1509751728071 5-LowYield Which of the allylamines is associated with GI upset ? Terbinafine
+1509751792392 2-RelativelyHighYield The allylamine terbinafine is associated with hepato toxicity
+1514583111655 4-LowerYield Terbinafine is associated with side effects of GI upset, headaches, hepatotoxicity, and taste disturbance

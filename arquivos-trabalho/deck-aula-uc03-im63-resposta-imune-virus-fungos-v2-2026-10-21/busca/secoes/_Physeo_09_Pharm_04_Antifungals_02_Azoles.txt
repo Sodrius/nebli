@@ -1,0 +1,28 @@
+# #AK_Step1_v12::#Physeo::09_Pharm::04_Antifungals::02_Azoles (27 notas)
+1475803214768 1-HighYield What adverse anti-androgenic effect may be caused by spironolactone use in males ? Gynecomastia
+1500053322321 1-HighYield What is the first-line treatment for localized tinea infections? Topical antifungals (e.g., clotrimazole, terbinafine)
+1500237000985 2-RelativelyHighYield Local , mild infections of Candida albicans (e.g., candidal diaper rash) are treated with topical azoles
+1500241142268 2-RelativelyHighYield Local , mild infections of Aspergillus fumigatus are treated with azoles (e.g., voriconazole ) or echinocandins (caspofungin)
+1509745062370 1-HighYield Azoles inhibit the conversion of lanosterol to ergosterol
+1509745235242 3-HighYield-temporary Which azole antifungal is especially prone to inhibiting human CYP450 ? Voriconazole
+1509745317318 3-HighYield-temporary Adverse effects of the antifungal voriconazole includes blurry vision , changes in color vision , and flashes of light
+1509745493345 2-RelativelyHighYield Which azole is used to treat invasive aspergillosis ? Voriconazole
+1509745802661 2-RelativelyHighYield Which oral azole is used in the treatment of mucocutaneous candidiasis ? Fluconazole
+1509745961686 2-RelativelyHighYield Which oral azole is used in the treatment of vaginal candidiasis ? Fluconazole
+1509746017401 1-HighYield Which azoles can treat candidal esophagitis in AIDS patients ? Oral or IV fluconazole, voriconazole
+1509746332128 1-HighYield Which antifungal is used to treat local infections of dimorphic fungi ? Itraconazole
+1509746438483 2-RelativelyHighYield What are the three topical azoles ? Clotrimazole, miconazole, ketoconazole
+1509746577022 1-HighYield Which azoles are used for treatment of localized tinea infections ? Clotrimazole, miconazole
+1509746626962 1-HighYield The azole ketoconazole inhibits the adrenal enzyme 17,20-lyase (17,20-desmolase)
+1509746740874 1-HighYield Which antifungal inhibits androgen and estrogen synthesis? Ketoconazole
+1509746770370 1-HighYield Which antifungal inhibits cortisol production? Ketoconazole
+1509746838075 3-HighYield-temporary Which antifungal is used in the treatment of Cushing syndrome ? Ketoconazole
+1509746910437 1-HighYield Ketoconazole has anti-androgenic effects and thus can cause gynecomastia in males
+1509747054868 3-HighYield-temporary Which class of antifungals prolongs the QT interval ? Azoles
+1509747105213 4-LowerYield Azoles can cause GI distress
+1509747115807 1-HighYield Azoles are a class of antifungals that can cause hepato toxicity
+1509747124822 3-HighYield-temporary What is the treatment of vaginal candidiasis in pregnancy ? Topical azole (e.g., miconazole, clotrimazole)
+1509747259788 2-RelativelyHighYield Should azoles (e.g., ketoconazole ) be avoided during pregnancy ? Yes*
+1509747300037 4-LowerYield Which antifungal is used to treat prostate cancer ? Ketoconazole
+1509747380121 1-HighYield What is the treatment for local histoplasmosis , blastomycosis , and coccidioidomycosis infections? Itraconazole
+1514584507672 4-LowerYield Isavuconazole is used for serious Aspergillus and Mucor infections

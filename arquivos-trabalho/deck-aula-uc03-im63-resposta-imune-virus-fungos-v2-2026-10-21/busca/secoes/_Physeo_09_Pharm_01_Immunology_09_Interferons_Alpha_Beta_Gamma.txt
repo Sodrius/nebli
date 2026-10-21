@@ -1,0 +1,17 @@
+# #AK_Step1_v12::#Physeo::09_Pharm::01_Immunology::09_Interferons_Alpha,_Beta,_&_Gamma (16 notas)
+1461792762468 1-HighYield Interferons are immunomodulatory cytokines that are released from virus-infected host cells
+1461794583601 2-RelativelyHighYield Upregulation of interferon synthesis in infected cells is accomplished by interleukins
+1461794607480 1-HighYield Interferon α may be used in the treatment of hepatitis B and C infections
+1461794637459 1-HighYield Interferon α may be used in the treatment of neoplasms, including hairy cell leukemia and malignant melanoma
+1461794652364 1-HighYield Interferon- α may be used to treat Kaposi sarcoma caused by HHV-8
+1461794663555 3-HighYield-temporary Interferon-α may be used to treat condylomata acuminata caused by HPV
+1461794674850 2-RelativelyHighYield Interferon- α may be used to treat renal cell carcinoma
+1461794689858 2-RelativelyHighYield Which hepatitis drug causes flu-like symptoms as a possible side effect? Interferon-α
+1461794711294 3-HighYield-temporary Chronic therapy of interferon-α may result in neurotoxicity, causing mood disorders (e.g., depression ) and confusion
+1461794728973 2-RelativelyHighYield Which hepatitis drug has myelosuppression as a possible side effect? Interferon-α
+1461794778292 2-RelativelyHighYield Which type of interferon is associated with drug-induced lupus ? Interferon-α
+1461794779174 1-HighYield Interferon- β may be used to treat multiple sclerosis
+1461794791535 1-HighYield Interferon γ (IFN-γ) may be used to treat chronic granulomatous disease (CGD)
+1487117310594 1-HighYield Which interferon(s) enhance(s) activity of natural killer cells ? Interferon-α and interferon-β
+1497203002753 1-HighYield Interferons stimulate antitumor activity by activating natural killer & CD8+ T cells
+1497440201761 4-LowerYield Chronic use of interferon- α is associated with patients experiencing flu-like symptoms; as well as depression , neutro penia , and myopathy

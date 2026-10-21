@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::06_Systems::06_Cerebrospinal_fluid_findings_in_meningitis::*Fungal_TB (5 notas)
+1481771635988 4-LowerYield What opening pressure (lumbar puncture) is associated with fungal / TB meningitis ? Increased pressure
+1481771641808 2-RelativelyHighYield Fungal / TB meningitis is associated with increased lymphocytes in the CSF
+1481771646669 2-RelativelyHighYield Fungal / TB meningitis is associated with increased protein in the CSF
+1481771651177 2-RelativelyHighYield Fungal / TB meningitis is associated with decreased glucose in the CSF
+1481771655873 2-RelativelyHighYield Which type of meningitis presents with decreased glucose and increased lymphocytes in the CSF? Fungal / TB meningitis

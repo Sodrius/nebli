@@ -1,0 +1,602 @@
+===== página 1 =====
+
+===== página 2 =====
+Hoje a gente vai falar um pouquinho sobre a imunidade contra um
+patógeno, especiﬁcamente contra fungos. Depois a gente tem mais
+uma aula sobre imunidade contra vírus e aí a gente ﬁnaliza essa parte
+do curso.
+A aula de hoje é sobre resposta imune contra fungos. Pedi ajuda
+a uma professora aqui do departamento de imunologia, que é a
+professora Vera Calich, que tem mais de 30 anos de trabalho e
+expertise dentro dessa área. Ela me ajudou com alguns slides que vou
+compartilhar aqui com vocês.
+
+===== página 3 =====
+
+===== página 4 =====
+Toda vez que a gente for falar de resposta imune a um patógeno,
+é importante perceber que temos uma balança. Temos um patógeno
+tentando sobreviver, utilizando inúmeros mecanismos de virulência e
+patogenicidade, e o nosso sistema imune tentando reconhecer aquele
+patógeno, montar uma resposta e tentar não fazer dano tecidual.
+Então, você tem esses dois lados. Logicamente, os patógenos têm
+inúmeros outros mecanismos para tentar evadir o sistema imune e
+tentar sobreviver. E eles conseguem.
+Temos inúmeros exemplos, o principal deles talvez seja as infecções
+pelo mycobacterium tuberculosis, onde mantemos esse patógeno
+latente no nosso organismo e percebemos que quando alguns
+indivíduos são imunossuprimidos, a doença volta. Então, eles têm
+essa capacidade de evadir e de se manter ali em latência, silenciosos,
+e nosso sistema imune não consegue eliminar esse patógeno, mas
+ao mesmo tempo consegue restringi-lo sem que eles façam grandes
+danos ao tecido.
+
+===== página 5 =====
+
+===== página 6 =====
+Sempre vai existir uma relação entre o hospedeiro e o patógeno.
+Esse tipo de relação está baseado em como eu monto uma resposta
+a esse patógeno, mas ao mesmo tempo eu não quero sofrer dano por
+essa resposta. Como eu montar uma resposta onde eu quero que o
+patógeno não me cause dano.
+O dano pode tanto vir do bicho, do patógeno, como da resposta
+imune que eu faço contra o bicho. Um exemplo disso é a hepatite. O
+vírus da hepatite é um vírus citopático, que causa uma lesão no meu
+hepatócito, mas a hepatite mesmo é desencadeada quando eu monto
+a resposta ao vírus. Então, é a partir da minha resposta imune que eu
+gero toda a minha lesão com dano tecidual. É importante perceber o
+papel do sistema imune nessa relação patógeno-hospedeiro.
+
+===== página 7 =====
+
+===== página 8 =====
+Como qualquer patógeno, e eu vou entrar em fungo de forma
+especíﬁca, a gente sempre pensa que essa resposta vai envolver
+elementos da imunidade inata como adaptativa. Ela é muito
+típica para determinados patógenos. Comentamos várias vezes:
+se eu tenho uma bactéria extracelular, eu tenho que pensar em
+opsonização, fagocitose; se eu tenho vírus, eu quero neutralizar.
+Então, minha resposta é especíﬁca para cada bicho. Esses patógenos
+têm mecanismos de evasão. Eu posso montar uma resposta, mas eu
+não quero que seja exacerbada e cause dano tecidual, porque seriam
+as minhas hipersensibilidades, como agora falei da hepatite. Então, eu
+tenho que controlar de que forma eu reconheço e monto a resposta
+sem que eu saia prejudicado.
+
+===== página 9 =====
+
+===== página 10 =====
+Dependendo do tipo de patógeno ou da forma como eles causam
+doença, seja a produção de toxina, exo ou endotoxina, seja um vírus
+citopático, seja porque eles fazem a produção de anticorpos, esses
+anticorpos geram imunocomplexos, se depositam, dependendo do
+tipo de bicho, e aqui estão os exemplos, eu tenho que montar respostas
+que sejam especíﬁcas para cada um desse tipo de agente agressor.
+
+===== página 11 =====
+
+===== página 12 =====
+Comentamos muitas vezes com a bactéria extracelular: minha forma
+de reconhecimento e minha forma de induzir uma resposta é
+diferente. Aqui eu quero aumentar a minha fagocitose, aqui eu
+quero neutralizar para que ela não adira, não faça essa adesão ao
+meu epitélio. Se a célula entra diretamente no citoplasma, ela tem
+que ser reconhecida por alguns receptores e vai ser alvo de células
+como CD8 e NK, mas se eu fagocitei, provavelmente eu vou tentar
+matar por mecanismos microbicidas, de espécies reativas de oxigênio,
+nitrogênio.
+
+===== página 13 =====
+
+===== página 14 =====
+Normalmente, quando você tem uma infecção e o patógeno está
+presente na superfície de um órgão, aqui está exempliﬁcado a pele,
+ele é capturado por células apresentadoras de antígenos. Essas células
+apresentadoras de antígenos migram até o órgão linfóide secundário
+mais próximo. Se for pele, seriam linfonodos; se estiver na corrente
+sanguínea, o baço. Lá eu vou estimular elementos da imunidade
+adaptativa e eles voltam, agora como células efetoras, para o meu
+local da infecção. Isso aqui é o que já discutimos antes e vai acontecer
+sempre quando você tiver uma infecção por algum desses patógenos.
+
+===== página 15 =====
+
+===== página 16 =====
+No primeiro momento, eu preciso reconhecer os patógenos e isso
+também discutimos. Não consigo montar nenhum tipo de resposta se
+não houver primeiro um reconhecimento. Esse reconhecimento pode
+ser feito pelos receptores do tipo Toll, que podem reconhecer bactérias
+gram-positivas, material ácido nucleico de alguns patógenos, como
+vírus, LPS, bactéria gram-negativa, um ﬂagelo, a caldinha de algumas
+bactérias e outras regiões de ácido nucleico dessas células.
+
+===== página 17 =====
+
+===== página 18 =====
+Também, se esse patógeno consegue entrar no citoplasma, eu tenho
+receptores citoplasmáticos, chamados de NOD-like receptor. Tem
+vários desses receptores, costumamos falar do NOD-1 e do NOD-2,
+que têm a capacidade de reconhecer produtos de bactérias gram-
+negativas e gram-positivas e induzir uma ativação.
+
+===== página 19 =====
+
+===== página 20 =====
+Por último, você tem aquele inﬂamassoma, aquele complexo
+multiprotéico formado por dois receptores do tipo NOD, uma proteína
+adaptadora e uma enzima, que é a caspase 1.
+
+===== página 21 =====
+
+===== página 22 =====
+Quando ele é ativado, seja por um patógeno, e aqui está o nosso
+fungo, ou por moléculas não patogênicas, não relacionadas a micro-
+organismo, como o ácido úrico, que foi o principal que falei para
+vocês, ele é oligomerizado, forma esse complexo multiproteico e gera
+a formação de uma citocina super pró-inﬂamatória, que é a IL-1-beta
+e a IL-18. Na hora que entra um patógeno, esse patógeno pode ser
+reconhecido por receptores dentro do citoplasma, como os NODs, ou
+eles podem induzir a formação daquele complexo multiproteico do
+inﬂamassoma, que vai produzir a interleucina 1-beta.
+O que quero mostrar aqui nesse slide é que uma única bactéria
+que está aqui pode ser reconhecida de duas formas dentro do meu
+citoplasma. Essas duas formas, os NOD-like e o inﬂamassoma, vão
+agir de forma sinérgica para induzir a formação, a translocação de um
+fator de transcrição, que é o NF-kB, extremamente importante para
+gerar, transcrever várias citocinas pró-inﬂamatórias.
+
+===== página 23 =====
+
+===== página 24 =====
+Na hora que eu gerar pró-IL-1-beta, eu preciso clivá-la para gerar
+a IL-1-beta ativa, e isso é feito pelo inﬂamassoma. Esse complexo
+multiproteico do inﬂamassoma precisa ter um sinal inicial que é
+relacionado com a presença do bicho, o reconhecimento do bicho
+via Toll-like ou alguma citocina. Depois, um sinal secundário, que
+geralmente falamos que é um sinal de alteração de homeostasia e ﬂuxo
+de potássio. Por exemplo, o ATP, que algumas células conseguem
+jogar para fora.
+
+===== página 25 =====
+
+===== página 26 =====
+Na hora que você tem esse segundo sinal, você acaba oligomerizando
+esse complexo multiproteico, gerando a formação da interleucina 1-
+beta.
+Agora, em relação a fungo, aquilo tudo a gente vai rever em outras
+aulas de imunidade a patógeno.
+
+===== página 27 =====
+
+===== página 28 =====
+Eles funcionam para todos esses patógenos, mas alguns patógenos
+têm algumas especiﬁcidades. Hoje é sobre fungos. O que sabemos
+sobre o fungo? Existem muitos fungos, mais de 5 mil espécies, mas
+somente de 100 a 200 são considerados patogênicos para o homem.
+Eles podem infectar pele, mucosa, alguns órgãos como o pulmão. Eles
+podem estar tanto no intra como no extracelular. Isso é importante
+porque vai ditar o tipo de resposta imune contra aqueles fungos. Eu
+vou montar uma resposta imune que seja a mais adequada e a mais
+especíﬁca para reconhecer e eliminar aquele fungo.
+De forma didática, a gente sempre vai pensar na participação
+de imunidade inata, que envolve o reconhecimento por aqueles
+receptores de padrão, Toll-like, receptores do tipo C, o inﬂamassoma,
+produção de mediadores e ativação de células. Neutróﬁlos e
+macrófagos, que são diferenciados a partir de monócitos. Depois, você
+vai ter ajuda da imunidade adaptativa. Todos os subtipos de linfócito
+T, de alguma forma, ajudam na imunidade contra fungos. Alguns de
+forma protetora, outros de forma deletéria.
+
+===== página 29 =====
+
+===== página 30 =====
+Apesar de a gente sempre comentar da participação do linfócito TCD8
+como um linfócito para infecção por vírus ou tumor, ele tem uma
+participação também no fungo e aqui também as células reguladoras.
+Os fungos podem ser oportunistas, o que signiﬁca que
+vão causar doenças somente em determinadas condições, como
+indivíduos imunodeprimidos, pós-quimioterapia, transplante que
+são imunossuprimidos, algumas imunodeﬁciências, algumas doenças
+hematológicas que naturalmente cursam com imunodeﬁciência.
+Aqui o exemplo do Aspergillus, Pneumocystis, muito comum em
+pacientes transplantados, Cryptococcus, quando ele abre um quadro
+cerebral. A gente acaba vendo isso em indivíduos que chamamos de
+imunodeprimidos. Ou você tem outros fungos, como o Histoplasma,
+o Paracoccidioides, o Blastomyces, que causam doença em indivíduos
+normais, sem imunodeﬁciência aparente. A gente não sabe se esses
+indivíduos que têm essas infecções por esses fungos não possam
+ter uma outra imunodeﬁciência que nunca foi diagnosticada. Mas,
+aparentemente, são indivíduos, até então, saudáveis.
+Dependendo do tipo de fungo, você tem localizações muito
+mais relacionadas a esse tipo de infecção. Como falei para
+vocês, sistema nervoso central, você pode encontrar muita lesão,
+infecção por Cryptococcus; trato respiratório, classicamente vemos
+Paracoccidioidomicose, Pneumocystis, Blastomycosis; a Candida
+relacionada à orofaringe, geniturinário; pele, você tem alguns tipos de
+fungo como a Candida e então dependendo a esporotricose.
+
+===== página 31 =====
+
+===== página 32 =====
+Dependendo do tipo de fungo, você tem algumas regiões que são
+muito mais afetadas, muito mais acometidas por essas infecções
+fúngicas.
+Nessa imunidade contra fungo, é importante perceber que como
+eles podem estar tanto no intra como no extracelular, a minha
+resposta, o meu sistema imune tem que ser capaz de reconhecer
+das duas formas e montar respostas para essas duas possibilidades.
+Os neutróﬁlos são células super importantes na imunidade contra o
+fungo. Eles têm a capacidade de matar o fungo tanto por espécies
+reativas de oxigênio como também por algumas enzimas. Quando
+ele está dentro da célula, aí você vai ter a participação de linfócitos
+que vão produzir citocinas ou vão ser citotóxicos para aumentar a
+capacidade daquela célula de matar aquele próprio fungo, seja por
+aumentar essas espécies reativas e outros mecanismos microbicidas.
+Como disse, todos os subtipos de linfócito T, de uma certa forma,
+participam da imunidade contra fungo. Alguns fungos, a resposta de
+CD4 de padrão Th2, é até protetora, mas no geral, quando você monta
+uma resposta de padrão Th2, você ajuda o fungo a se disseminar
+e você restringe ele muito pouco. Então, isso seria uma resposta
+desfavorável. Você tem produção de anticorpos e esses anticorpos
+também são importantes na infecção contra fungo. Percebemos
+isso quando tratamos, vemos pacientes que têm imunodeﬁciência
+combinada, não conseguem produzir alguns tipos de anticorpos e têm
+imunodeﬁciência celular também.
+
+===== página 33 =====
+
+===== página 34 =====
+E aí vemos uma suscetibilidade aumentada a fungos.
+Na imunidade inata contra fungos, você tem a participação das
+principais células da imunidade inata: os monócitos, macrófagos,
+células dendríticas e neutróﬁlos.
+
+===== página 35 =====
+
+===== página 36 =====
+Lembrar que todas elas vão ter receptores de padrão que vão
+reconhecer moléculas associadas ao fungo. Os fungos possuem
+inúmeros açúcares nas suas superfícies. É uma característica
+extremamente interessante desse tipo de patógeno. Eles têm essas
+beta-glucanas, manoses que estão na sua superfície. Isso faz com que
+o sistema imune olhe para esses açúcares e reconheça aquilo como
+estranho.
+
+===== página 37 =====
+
+===== página 38 =====
+Aqui tem a Candida e o Paracoccidioides mostrando que na sua
+membrana, tanto externa como interna, existem diferentes tipos de
+açúcares. Todos esses subtipos de fungos e esses açúcares que estão
+nos subtipos de fungos podem ser reconhecidos por receptores de
+imunidade inata.
+Os Toll-like receptors, a dectina, que reconhece beta-glucana, que
+está exempliﬁcado na Candida, receptor do tipo Toll-4, reconhece
+LPS de bactérias, sem dúvida, mas também reconhece alguns fungos,
+a manose de fungos, e o Toll-9, que reconheceria especiﬁcamente
+alguns ácidos nucleicos de alguns patógenos, também reconhece
+fungo.
+
+===== página 39 =====
+
+===== página 40 =====
+Essa sinalização, esses receptores sinalizam na célula para produzir
+citocinas pró-inﬂamatórias e gerar uma ativação da célula
+apresentadora de antígeno que culmina em uma subpopulação de
+linfócitos T que sejam especíﬁcos para esse fungo.
+O interessante é que se você pegar um único fungo, ele tem
+diferentes moléculas, como quitina, beta-glucana, mannosídeos e
+tudo mais. Num único fungo, essas diferentes estruturas podem ser
+reconhecidas por diferentes receptores na superfície da célula. Esse
+reconhecimento combinado de diferentes estruturas de um mesmo
+fungo pode fazer com que eu produza citocinas, melhore a fagocitose,
+produza quimiocinas e faça com que a minha resposta seja a mais
+complexa e completa possível contra aquele fungo.
+
+===== página 41 =====
+
+===== página 42 =====
+Então, um único fungo tem inúmeras moléculas na sua superfície e
+pode ser reconhecido por diferentes receptores de imunidade.
+Por outro lado, o mesmo fungo, e aqui está a Candida, pode ser
+reconhecido por dectina, ela pode ser reconhecida por dectina 2,
+por esse Mincle, receptor de manose, por Toll-like, ou seja, várias
+moléculas no mesmo fungo podem ser reconhecidas por diferentes
+receptores ou diferentes receptores reconhecerem diferentes fungos.
+A importância disso é que dependendo do tipo de receptor que esses
+fungos estão sendo reconhecidos, basicamente o reconhecimento aqui
+é de açúcares, que vocês estão vendo, e pode também ter DNA e
+RNA não metilados, eles vão gerar sinalizações intracelulares, seja
+por ativação de inﬂamação ou não, que vai culminar na produção
+de citocinas, como IL-10, IL-12, TNF, IL-6, que vai gerar subtipos de
+linfócitos T que podem ser protetores ou não.
+Geralmente, os subtipos de linfócitos T que têm uma função
+protetora contra fungo são o linfócito de padrão Th1 e Th17, que
+vamos discutir daqui a pouco. Esses subtipos são extremamente
+efetivos em induzir uma resposta imune protetora contra fungo. O
+reconhecimento de fungo pelo toll-like receptor do tipo 2 favorece a
+diferenciação de CD4 para um padrão de célula T reguladora, que é
+desfavorável em uma resposta imune a fungo.
+
+===== página 43 =====
+
+===== página 44 =====
+Então, como funcionam esses tipos de respostas?
+Uma das principais células da imunidade inata contra fungo são
+os neutróﬁlos. O neutróﬁlo é muito bem ativado por uma citocina
+chamada IL-17. A produção de IL-17 por linfócitos T, que acontecem
+em órgãos linfóides secundários, acaba estimulando a ativação e a
+migração dessas células, dos neutróﬁlos, para responderem a fungos.
+Esses neutróﬁlos vão usar tanto espécies reativas de oxigênio como
+aquelas NETs, lembra? Que são aquelas redes de material nuclear que
+são jogadas para fora da célula, contendo inúmeras enzimas, elastase,
+mieloperoxidase, catepsinas, que funcionam como uma barreira ou até
+uma forma de guiar outras células para que possam eliminar aquele
+fungo. Então, neutróﬁlo é super importante numa resposta imune
+contra fungo. Aqui está exempliﬁcada a Candida, mas para qualquer
+um desses fungos, neutróﬁlos seriam importantes.
+
+===== página 45 =====
+
+===== página 46 =====
+Nesses neutróﬁlos, você tem o reconhecimento do fungo. Esse
+reconhecimento pode ser por diferentes receptores de imunidade
+inata, com ação de moléculas no intracitoplasmático, como o
+inﬂamassoma, que vai gerar moléculas como a IL-1-beta. Essa IL-1-
+beta é extremamente importante para induzir uma ativação de
+neutróﬁlo via promoção da citocina chamada IL-17, que favorece a
+diferenciação de CD4 em Th17. Então, quando eu tenho ativação do
+inﬂamassoma, estou favorecendo a minha resposta de padrão Th1-
+Th17, que é extremamente eﬁciente para fungo.
+
+===== página 47 =====
+
+===== página 48 =====
+Esse tipo de reconhecimento dos fungos pelos receptores de
+imunidade inata vai determinar o padrão de citocinas que vou
+produzir e, dentro daquela apresentação e diferenciação dos linfócitos,
+os subtipos de linfócito T. Isso faz com que eu monte uma resposta
+que seja extremamente eﬁciente para matar aquele fungo. Vimos isso
+nas primeiras aulas, quando falei que o reconhecimento da imunidade
+inata dita o padrão de ativação e subtipos da imunidade adaptativa.
+Aqui estou exempliﬁcando isso na infecção por um fungo.
+Se eu quero montar uma resposta onde meu neutróﬁlo seja eﬁciente,
+então tenho que montar uma resposta de padrão Th17, para que eu
+possa responder a esse fungo. Se sei que fungo morre por espécies
+reativas de oxigênio, e sei que isso é induzido por interferon gama,
+então tenho que montar uma resposta de padrão Th1. Como monto
+Th1, Th17? Basta que eu tenha no meu meio ambiente, durante a
+ativação do linfócito TCD4, citocinas como IL-6, TGF-beta, para a
+diferenciação de Th17, e IL-12 para a diferenciação de padrão Th1. De
+onde vem essa citocina? A partir do reconhecimento de imunidade
+inata pelas células apresentadoras de antígenos.
+
+===== página 49 =====
+
+===== página 50 =====
+Quando há uma infecção por um fungo, esse fungo é reconhecido por
+esses receptores de padrão. Meus anticorpos e sistema complemento
+também vão reconhecer esse fungo, induzindo uma ativação de
+neutróﬁlo e macrófago, que vão produzir citocinas. Minhas células
+apresentadoras de antígeno vão capturar fragmentos desse fungo, vão
+para o órgão linfóide secundário, o linfonodo que drena a região onde
+houve a infecção pelo fungo. Vamos supor que aqui seja a pele. Vou
+induzir uma ativação de linfócito T e, dependendo das citocinas que
+tenho, vou me diferenciar no padrão Th1, no padrão Th17, e isso
+retorna a induzir uma ativação dessas células que vão ser efetivas para
+matar o fungo.
+
+===== página 51 =====
+
+===== página 52 =====
+Normalmente, as respostas de padrão Th1, produtoras de interferon
+e TNF, são protetoras contra fungo. Quando monto uma resposta de
+padrão Th2, no caso IL-10, IL-4, IL-5, elas são deletérias, promovendo
+a disseminação do fungo, em parte porque essas citocinas produzidas
+por linfócito de padrão Th2 inibem as ações das citocinas de padrão
+Th1, como ativação de neutróﬁlos e macrófagos. Lembre-se sempre
+que Th1 e Th2 é uma balança: quando aumento Th1, Th1 inibe Th2;
+quando aumento Th2, Th2 inibe Th1.
+
+===== página 53 =====
+
+===== página 54 =====
+Especiﬁcamente, dados experimentais mostram que a ativação de toll-
+like receptor do tipo 2 leva à produção de células T reguladoras ou
+linfócito de padrão Th2, que é extremamente deletéria numa infecção
+por fungo, porque inibe tanto Th1 como Th17, que seriam os dois
+principais subtipos de linfócito T relacionados à proteção a fungo.
+Quando tenho ativação de TLR-4, por exemplo, e dectina, levando a
+um padrão de Th1, e a dectina levando a um padrão de Th17, tenho
+respostas protetoras.
+Isso é super interessante, porque mostra que o reconhecimento da
+imunidade inata dita o subtipo de linfócito T da imunidade adquirida
+e de que forma isso é mais protetor ou não na infecção por fungo.
+
+===== página 55 =====
+
+===== página 56 =====
+Meus linfócitos T de padrão Th1 vão ser protetores na infecção pelo
+fungo, em parte porque ativam o macrófago e fazem o macrófago ser
+capaz de matar essa célula, ativam o neutróﬁlo, e fazem com que os
+linfócitos B produzam anticorpos que são eﬁcientes para opsonizar e
+fagocitar, e ativam o neutróﬁlo, que é uma célula super importante
+para fungo.
+
+===== página 57 =====
+
+===== página 58 =====
+Esses linfócitos de padrão Th1 também ajudam a diferenciar o
+macrófago em subtipo M1, que é o principal tipo de macrófago capaz
+de conter a infecção fúngica.
+Os macrófagos são células plásticas, podendo se diferenciar em
+inúmeros subtipos. Os macrófagos do tipo M1, chamados ativados,
+são aqueles que produzem mais espécies reativas de oxigênio, de
+nitrogênio e citocinas pró-inﬂamatórias. Os macrófagos do tipo M2
+são chamados alternativos. Eles produzem mais citocinas de resposta
+anti-inﬂamatória, estando relacionados à cicatrização e ﬁbrose. No
+caso do fungo, é preciso conter a infecção, então seria ideal ter
+diferenciação para macrófagos do tipo M1. Isso vem com a produção
+de citocinas de padrão de linfócito do tipo Th1.
+
+===== página 59 =====
+
+===== página 60 =====
+Aqui é um exemplo: quando você consegue formar macrófagos do
+tipo M1, você contém os fungos. Estes são três granulomas. Você
+vê uma formação arredondada, não enxerga o fungo porque foi
+marcado com hematoxilina e eosina, mas é no pulmão a formação de
+granulomas. Estes são macrófagos que estão ali contendo o fungo e
+são macrófagos do tipo M1. Quando faço uma coloração especíﬁca,
+consigo ver todos os fungos dentro do granuloma e as células ao redor
+mostrando a capacidade. Se por acaso esse paciente, por alguma razão,
+precisar ser imunossuprimido, seja por alguma doença ou ele tiver
+que usar um imunobiológico direcionado ao TNF, o que sabemos é
+que esses granulomas se dissociam e os fungos caem na circulação e
+se disseminam. Então, esse granuloma é mantido deste jeito por ação
+de citocina de padrão Th1 e TNF, sempre mantendo os macrófagos
+polarizados para esse tipo M1.
+
+===== página 61 =====
+
+===== página 62 =====
+A outra resposta que é protetora contra fungo são os linfócitos
+de padrão Th17. Sabemos que a citocina IL-17 é extremamente
+importante para a integridade de epitélio e para ativação de neutróﬁlo.
+As outras citocinas que essas células produzem, como a IL-12,
+induzem a formação daqueles peptídeos antimicrobianos, que são
+peptídeos produzidos tanto por neutróﬁlo como célula epitelial, que
+têm a capacidade de formar poros na superfície do fungo e matar esses
+fungos. Então, a diferenciação de linfócitos por um padrão Th17, por
+várias razões, seria protetora no caso do fungo.
+
+===== página 63 =====
+
+===== página 64 =====
+Existe, como disse no início, uma participação também de linfócito
+TCD8 contra infecção fúngica. Sabemos que o CD8 é citotóxico via
+granzima, perfurina e Fas-Fas ligante.
+
+===== página 65 =====
+
+===== página 66 =====
+Por outro lado, a participação de células T reguladoras, que são células
+que têm a capacidade de suprimir a resposta imune, são aquelas
+células chamadas FoxP3 positivas. Elas têm um efeito contrário,
+deletério, podendo favorecer a proliferação e disseminação do fungo.
+Sabemos que essas células reguladoras têm inúmeras formas de
+regular a resposta imune, produzindo citocinas como TGF-beta,
+podendo até matar, sendo CD4 citotóxicas, e inibir a função de células
+dendríticas.
+
+===== página 67 =====
+
+===== página 68 =====
+Então, elas são deletérias na infecção por fungo.
+Dependendo do tipo de fungo e do tipo de reconhecimento do fungo
+na imunidade inata, a célula dendrítica, quando vai para um órgão
+linfóide secundário, induz a ativação de uma célula TCD4 naïve, que se
+diferencia em subtipos. Alguns subtipos são relacionados à proteção,
+como Th1 e Th17, outros são relacionados à progressão da doença,
+como Th2 e célula T reguladora.
+
+===== página 69 =====
+
+===== página 70 =====
+E tem também a participação da citotoxicidade.
+Por outro lado, é importante dizer que determinados tipos de fungo
+montam respostas um pouco diferentes, provavelmente porque são
+reconhecidos desde o início de forma diferente. Até o momento,
+falei que Th2 e Treg são deletérios contra fungo. Mas, por exemplo,
+pensando em Pneumocystis, que é um fungo que faz muita lesão
+pulmonar, aparentemente a resposta de padrão Th2 pode ser
+protetora. Então, nem sempre ela é deletéria, como na Candida,
+Histoplasma, Paracoccidioides, Aspergillus. Em alguns fungos, ela
+pode ser protetora.
+CD8, que também tem uma participação com fungo, parece ser
+importante em todos os ensaios experimentais para induzir uma
+vacina contra o fungo. Se você pega algumas proteínas desse fungo
+e imuniza animais com essas proteínas, percebe-se que a geração de
+linfócito TCD8 especíﬁco contra aquele fungo existe, muito do ponto
+de vista experimental. Alguns outros fungos respondem muito bem a
+Th1, outros a Th17. Alguns fungos também induzem a estimulação de
+linfócitos B e produção de plasmócitos produtores de anticorpos.
+
+===== página 71 =====
+
+===== página 72 =====
+Então, existe também um componente humoral na resposta imune
+contra fungos. Esses anticorpos que produzo vão ter os mecanismos
+efetores que discutimos nas aulas anteriores. Eles podem ter um efeito
+especíﬁco contra o fungo, grudar no fungo e, a partir daí, ativar a via
+clássica do complemento.
+
+===== página 73 =====
+
+===== página 74 =====
+Eles podem neutralizar toxinas, complementar, ajudar na opsonização
+de determinados fungos, a montar aqueles granulomas pela
+citotoxicidade celular dependente de anticorpos. Então, esses
+anticorpos têm inúmeras funções dentro da imunidade contra fungos.
+Só para lembrar, um fungo consegue ativar as três vias do
+sistema complemento. Como eles têm açúcares, posso ativar via das
+lectinas. Como eles são organismos, posso ativar via alternativa. E,
+logicamente, posso ativar via clássica se tiver anticorpos direcionados
+contra esses fungos.
+
+===== página 75 =====
+
+===== página 76 =====
+Então, o linfócito B, que se diferencia em plasmócito, pode produzir
+inúmeras imunoglobulinas, os cinco subtipos. Já foi demonstrado que
+cada imunoglobulina tem determinadas funções contra determinados
+fungos. Então, esse tipo de anticorpo que o fungo induz participa
+dos seus mecanismos efetores. Se determinados fungos como a
+Candida, Aspergillus, Histoplasma, Cryptococcus podem induzir a
+formação de IgG, isso é importante tanto na citotoxicidade, ativação
+de complemento, ativação de neutróﬁlo contra esses patógenos. Da
+mesma forma, a indução da produção de IgM ajuda também com
+a atividade efetora contra o fungo. Em alguns, como na região
+orofaríngea, que você tem infecção por Candida, a geração de IgA
+ajuda no mecanismo de proteção na mucosa.
+
+===== página 77 =====
+
+===== página 78 =====
+Então, esses subtipos de imunoglobulina já foram descritos na
+imunidade contra fungo.
+Para ﬁnalizar, vou mostrar alguns dados interessantes sobre
+uma infecção fúngica, que é o Paracoccidioides, causada por esse
+fungo dimórﬁco que tem inúmeras apresentações: pulmonar, órgãos
+linfóides secundários, cutâneo, de mucosa ocular.
+
+===== página 79 =====
+
+===== página 80 =====
+Sabemos que o Paracoccidioides foi descrito no Brasil por Adolfo Lutz,
+e está disseminado em toda a América como uma região endêmica.
+Sabemos que alguns pacientes têm infecções pelo Paracoccidioides,
+mas são assintomáticos, enquanto outros desenvolvem a doença.
+Acreditamos que essa diferença entre ser um portador do fungo e
+não desenvolver a doença, e o outro desenvolver a doença, está
+relacionada com a resposta de padrão Th1, Th2, Th17. Mesmo assim,
+os indivíduos podem desenvolver uma forma linfática disseminada,
+uma forma cutânea ou uma forma cutânea disseminada. Achamos que
+tudo isso é a forma como reconhecemos e montamos a resposta.
+
+===== página 81 =====
+
+===== página 82 =====
+Clinicamente, a doença pode ter diferentes apresentações, que
+chamamos de forma juvenil, forma adulta, ou ser uma infecção
+assintomática. Quando observamos o padrão de resposta Th1, aquele
+indivíduo que conseguiu montar uma resposta de Th1 conseguiu
+conter o fungo e não desenvolver apresentação clínica. Quando fez
+uma resposta muito mais humoral, isso está mais relacionado com
+as apresentações clínicas, juvenil e adulto, e menos com a infecção.
+Dependendo do tipo de citocinas, e aqui estão as citocinas de padrão
+Th2, faço formas graves, como a forma juvenil, enquanto que com
+citocinas de padrão mais Th1, como interferon gama e TNF, consigo
+fazer aquela forma mais circunscrita. Dependendo do tipo de balanço
+de resposta que montei, se mais Th1 ou mais Th2, relaciono isso com
+a apresentação clínica contra o fungo.

@@ -1,0 +1,14 @@
+# #AK_Step1_v12::#FirstAid::02_Immunology::03_Immune_Responses::08_Interferons::02_Clinical_Use::*IFN-a (13 notas)
+1461792762468 1-HighYield Interferons are immunomodulatory cytokines that are released from virus-infected host cells
+1461794583601 2-RelativelyHighYield Upregulation of interferon synthesis in infected cells is accomplished by interleukins
+1461794607480 1-HighYield Interferon α may be used in the treatment of hepatitis B and C infections
+1489970693302 1-HighYield Interferon-α and -β are glycoproteins synthesized by virus-infected cells that act locally on uninfected cells , "priming" them for viral defense
+1497439509366 3-HighYield-temporary PEGylation of interferons allows what pharmacological property to be extended? Half-life
+1497439750290 4-LowerYield Chronic use of IFN-α is also associated with CNS toxicity and profound fatigue
+1497440201761 4-LowerYield Chronic use of interferon- α is associated with patients experiencing flu-like symptoms; as well as depression , neutro penia , and myopathy
+1497440851060 3-HighYield-temporary When viruses enter cells, they can trigger the host ( via capsule / viral products ) to produce type I interferons by activation of cytosolic pattern recognition receptors
+1497441651476 3-HighYield-temporary IFN-α and IFN-β can cause a(n) flu-like syndrome that can be symptomatically taken care of with ibuprofen
+1497450277629 4-LowerYield Upon cytosolic recognition of viral dsRNA, enzymes upregulated by IFN-α / IFN-β presensitization lead to apoptosis of the virus infected cell
+1497450573028 3-HighYield-temporary IFN-α acts to stimulate an anticancer immune environment in three ways - Inhibit the proliferation of cancer cells - Activating lymphocytes - Enhancing expression of MHC I
+1520301328706 5-LowYield Type I interferons downregulate protein synthesis to resist potential viral replication
+1520301453074 1-HighYield Type I interferons (IFN- α and IFN-β) increase cell surface expression of MHC I proteins to facilitate recognition of infected cells

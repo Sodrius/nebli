@@ -1,0 +1,514 @@
+===== página 1 =====
+Resposta Imune
+a Infecções Virais
+
+===== página 2 =====
+Infecção
+Patogenicidade 
+vs. 
+Resposta imune
+Evasão do sistema imune
+
+===== página 3 =====
+
+===== página 4 =====
+Características gerais
+• Imunidade inata e adaptativa
+• Resposta é diferenciada dependo do patógeno
+• Sobrevivência e patogenicidade dos microorganismos 
+dependende da EVASÃO
+• Lesão tecidual como resposta “exagerada” às infecções
+
+===== página 5 =====
+Mecanismos de desenvolvimento de patologias associadas às 
+infecções
+
+===== página 6 =====
+Localização X Imunidade
+
+===== página 7 =====
+Mecanismos Gerais de Defesa
+
+===== página 8 =====
+
+===== página 9 =====
+
+===== página 10 =====
+
+===== página 11 =====
+
+===== página 12 =====
+Vírus
+
+===== página 13 =====
+Imunidade aos Vírus
+•Obrigatoriamente intracelulares
+•Inibição da replicação viral por interferons a e b
+Imunidade Inata
+•Citotoxicidade mediada por células NK
+•Anticorpos - neutralização durante a fase extracelular
+•Complemento - fagocitose
+Imunidade Adquirida
+•Citotoxicidade mediada por células CTL
+
+===== página 14 =====
+MECANISMOS DE DEFESA FRENTE A VÍRUS
+- reconhecimento: TLRs (TLR3 dsRNA, TLR7 e TLR8 ssRNA, TLR9 CpGs) e NLRs
+- IFNa/b
+- Células NK
+- Complemento pela via alternativa
+TLRs
+IFNa/b
+NK
+Ativação: citotoxicidade 
+para células infectadas
+Estado 
+anti-viral
+Cel. não 
+infectada
+
+===== página 15 =====
+Que mecanismos efetores do sistema imune podem atuar 
+no início da infecção?
+- Tem pouca fagocitose por neutrófilos e
+macrófagos (não ativa o complemento e os
+macrófagos
+não
+tem
+receptores
+de
+membrana
+específicos
+que
+possam
+reconhecê-los)
+- IFN-a estimulado por RNA dupla fita
+(TLR3) ou DNA (CpG não metilado)
+(TLR9) inibe a replicação dos viral
+- Citotoxicidade pelas células NK (se
+houver reconhecimento)
+
+===== página 16 =====
+MECANISMOS DE DEFESA FRENTE A VÍRUS
+-
+Reconhecimento: TLRs (TLR3 dsRNA, TLR7 e TLR8 ssRNA, TLR9 CpGs) e NLRs
+-
+IFNa/b
+-
+Células NK
+-
+Complemento pela via alternativa (?)
+- Anticorpos (neutralização; ativação de complemento; ADCC e opsonização)
+- Células CD8+: CTLs e produção de IFNg
+- Células CD4+: IFNg e IL-2
+
+===== página 17 =====
+Ação antiviral do IFNa/b
+
+===== página 18 =====
+Imunidade a Vírus
+
+===== página 19 =====
+Type I interferons
+IFN-g
+IL-12
+ADCC
+Imunidade
+Inata
+
+===== página 20 =====
+
+===== página 21 =====
+Que mecanismos efetores do sistema imune podem 
+atuar na infecção tardia?
+- Neutralização ou inibição da
+penetração por anticorpos IgG
+ou IgA de alta afinidade
+- Citotoxicidade por linfócitos
+Tc1 (via MHC classe I)
+Tc1
+-
+Lise
+por
+IgG
+mais
+complemento (via clássica)
+
+===== página 22 =====
+
+===== página 23 =====
+Imunidade a Vírus:
+
+===== página 24 =====
+MECANISMOS DE EVASÃO
+
+===== página 25 =====
+MECANISMOS DE ESCAPE DOS VÍRUS
+Inibição de apresentação por classe I / inibição do processamento do antígeno:
+- Bloqueio do proteossoma
+- Bloqueio do TAP (por proteína ICP47 do HSV1 e HSV2)
+- Retenção de classe I no RE
+- Re-direcionamento da classe I para degradação (do RE para o citosol)
+Consequências da diminuição de classe I (o jogo CTL/NK)
+Inibição de apresentação por classe II
+- Interferência no efeito do IFNg aumentando classe II
+- Interferência no tráfego de vesículas e processamento endocítico
+Os CMV inibem expressão de classe I 
+Os vírus CMV, sarampo e HIV reduzem expressão de classe II 
+
+===== página 26 =====
+MECANISMOS DE EVASÃO
+
+===== página 27 =====
+MECANISMOS DE ESCAPE DOS VÍRUS
+Produção de homólogos de citocinas, quimiocinas e receptores:
+Homólogo de IL-10 (EBV)
+Homólogos solúveis de IFNa/b receptor e IFNg receptor
+Homólogos de quimiocinas e receptores de quimiocinas (HIV sarcoma de Kaposi)
+Interferência nos mecanismos efetores:
+Uso de CRs para penetrar nas células (ex. EBV pelo CR2)
+Inibição da ativação de C`: vaccinia secreta proteína que liga C4b
+HSV tem componente que liga C3b 
+Bloqueio de granzima
+Bloqueio do sinal JAK/STAT do IFNa (vírus da hepatite C bloqueia indução de PKR)
+Produção de homólogos de IKB
+Ligação e bloqueio de IL-18
+Produção de análogo de semaforina
+Inibição da apoptose na célula alvo infectada
+Ligante e inibidor de caspase 8
+Produção de homólogo de BCL2
+
+===== página 28 =====
+MECANISMOS DE ESCAPE DOS VÍRUS
+Imunossupressão (caxumba, sarampo, EBV, CMV, HIV)
+-HIV: por destruição de linfócitos CD4+:
+-efeito citopático direto, 
+-destruição por CTLs, 
+-distúrbio funcional.
+-desequilíbrio da resposta imune (EBV: homólogo de IL-10)
+Os vírus não citopáticos ficam latentes (com maior ou menor alteração funcional). 
+Lesão tissular por conta do sistema imune (Hepatite B).
+
+===== página 29 =====
+Alteração genética: troca de material genético com outros vírus que 
+parasitam espécies diferentes, como aves, cavalos, porcos = gera 
+epidemia 
+-Gripe espanhola em 1918-1919 matou 20-50 milhões; - 1957-58; 
+1968-1969; 
+- em 2006 teve ameaça de pandemia pelo H5N1 (gripe aviária) com 
+cerca de 100 mortos entre criadores de aves, mas pouca passagem 
+homem-homem. 
+- Dois anos atrás surgiu a gripe do porco (H1N1). 
+Tipos: H0N1, H1N1 surgiu 2 vezes e 1947 e 1977, H2N2.... 
+
+===== página 30 =====
+Mecanismos para a variação nos antígenos de 
+superfície do vírus da Influenza 
+
+===== página 31 =====
+ESCAPE POR MUTAÇÕES
+- Influenza
+- Rinovírus (vírus do resfriado comum): grande diversidade de sorotipos. Os 
+anticorpos, ao agirem sobre os clones não mutados, favorecem a proliferação 
+dos clones mutados. 
+-HIV se observa a maior taxa de mutação (em um mesmo indivíduo se tem 
+demonstrado vírus diferentes em fases diferentes).
+- Vírus da dengue, onde há 4 sorotipos e a presença de anticorpos frente a um 
+deles, não protege (mas atrapalha) quem se infecta por um outro sorotipo ----
+dengue hemorrágico (provavelmente por hipersensibilidade tipo III, como no 
+caso de doença do soro).
+
+===== página 32 =====
+Vírus da Influenza
+
+===== página 33 =====
+Vírus da Influenza
+
+===== página 34 =====
+Variabilidade da sequência de aminoácidos de 
+diversas proteínas do vírus da Influenza 
+
+===== página 35 =====
+Um resumo da Evasão
+
+===== página 36 =====
+Figure 11-5
+
+===== página 37 =====
+Figure 11-5 part 3 of 3
+
+===== página 38 =====
+Figure 11-5 part 1 of 3
+
+===== página 39 =====
+Figure 11-5 part 2 of 3
+
+===== página 40 =====
+Vírus e Câncer
+- Leucemia/linfoma de células T --------------------------------- HTLV-1
+- Sarcoma de Kaposi ------------------------------------------------ HHV-8
+- Carcinoma de colo uterino ----------------------------------------- HPV
+- Hepatocarcinoma ---------------------------------------------------- HBV
+- Linfoma de Burkitt ---------------------------------------------------- EBV
+- Carcinoma nasofaringeo ------------------------------------------- EBV
+
+===== página 41 =====
+Resposta Imune
+Contra Fungos
+Niels Olsen
+Com participação especial Profa. Vera Calich
+
+===== página 42 =====
+Infecção
+Patogenicidade 
+vs. 
+Resposta imune
+Evasão do sistema imune
+
+===== página 43 =====
+
+===== página 44 =====
+Características gerais
+• Imunidade inata e adaptativa
+• Resposta é diferenciada dependo do patógeno
+• Sobrevivência e patogenicidade dos microorganismos 
+dependende da EVASÃO
+• Lesão tecidual como resposta “exagerada” às infecções
+
+===== página 45 =====
+Mecanismos de desenvolvimento de patologias 
+associadas às infecções
+
+===== página 46 =====
+Localização X Imunidade
+
+===== página 47 =====
+Mecanismos Gerais da Resposta Imune
+
+===== página 48 =====
+
+===== página 49 =====
+
+===== página 50 =====
+
+===== página 51 =====
+
+===== página 52 =====
+
+===== página 53 =====
+Fungos
+
+===== página 54 =====
+Imunidade contra os Fungos
+RESPOSTA IMUNE
+Imunidade Inata: 
+Ativação de PRRs (TLRs, CLRs, Inflamassoma), 
+Síntese de mediadores inflamatórios 
+Inflamação aguda por PMN seguida de Monócitos
+Imunidade Adaptativa: 
+Várias subpopulações de Linfócitos T CD4 (Th1, Th2, Th9,Th17)
+Linfócitos T CD8  
+Células T reguladoras (Treg)
+ü Mais de 5.000 espécies, mas somente cerca de 100-200 são patogênicas
+ü Podem infectar a pele, mucosas, ou órgãos/sistemas
+ü Podem ser predominantemente intra ou extracelulares
+ü Resposta imune adequada a cada tipo de infeção
+
+===== página 55 =====
+Fungos:  Oportunistas ou Patógenos Primários
+Oportunistas : 
+Aspergillus, Cryptococcus, Pneumocystis
+Doença em indivíduos imunodeprimidos
+(Quimioterapia, Transplantes, IDs,  DGC, Doenças
+Hematológicas)
+Primários ou Endêmicos: Histoplasma, 
+Blastomyces, P. brasiliensis, Coccidioides
+Causam doença somente em alguns
+indivíduos sem aparente imunodeficiência
+
+===== página 56 =====
+Imunidade a Fungos:
+•
+Por haver várias localizações diferentes de fungos em processos infecciosos, a 
+resposta é uma mescla das caracterı́sticas de processos tı́picos para agentes 
+intra e extracelulares
+•
+Importante resposta mediada por neutróhilos (ROIs, enzimas lisossomais) e 
+também macrófagos
+•
+Importante mecanismo celular em fungos que habitam dentro de células do 
+hospedeiro – importante participação da interação Th-Tc (CD4-CD8)
+•
+Respostas Tipo Th2 geralmente são desfavoráveis – desvio da resposta como 
+mecanismo de evasão em alguns fungos
+•
+Produção de anticorpos opsonizantes – importante para a defesa, ação de 
+complemento importante, mas este é frequentemente inativado por alguns 
+fungos
+
+===== página 57 =====
+Resposta Inata contra Fungos
+Monócitos
+Células Dendríticas
+Neutrófilos
+PAMPs
+Padrões Moleculares 
+Associados a Patógenos
+PRRs
+Receptores de 
+Reconhecimento de Padrão
+
+===== página 58 =====
+Os Fungos são “Doces”: Composição da Parede (PAMPs)
+Candida albicans
+Paracoccidioides brasiliensis
+(Alpha-1,3 glucana)
+(Beta-1,3 glucana)
+
+===== página 59 =====
+Reconhecimento de estruturas de fungos e ativação do sistema 
+imune
+
+===== página 60 =====
+Cunha et al, Frontiers in Immunol, 2012
+Reconhecimento de estruturas de fungos e ativação do sistema 
+imune
+
+===== página 61 =====
+Wüthrich et al. Annu Rev Immunol . 2012 ; 30: 115–148
+Reconhecimento de estruturas de fungos e ativação do sistema 
+imune
+
+===== página 62 =====
+Produção de NETs contra Fungos: Ex: Imunidade contra C. albicans, P. brasiliensis
+NETs (Neutrophils Extracellular Traps, Armadilhas extracelulares de Neutrófilos
+Fibrilas de DNA contendo enzimas (elastase, mieloperoxidade, catepsina G, 
+gelatinase e etc) de grânulos de neutrófilos. Barreira física para patógenos)
+
+===== página 63 =====
+Fungos (ex: Candida, P. brasiliensis, Aspergillus, etc)  ativam o Inflamassoma
+NLRP3 e induzem a síntese de IL-1b e IL-18.
+(Proteases extracelulares de Fungos também o fazem)
+IL-1b ativa Th17
+IL-18 ativa Th1
+
+===== página 64 =====
+A Imunidade Inata Determina o Padrão de Imunidade Celular
+TGF-b
+
+===== página 65 =====
+Resposta Inata e Adaptativa a Fungos
+
+===== página 66 =====
+Nas Infecções por Fungos: Respostas Th1 são protetoras
+e Th2 exacerbadoras da doença
+
+===== página 67 =====
+Nas Infecções Fúngicas a Ativação de TLR2 Induz a Diferenciação
+de Cels Treg
+Manicassamy, S, & Bali Pulendran ;
+Nature Medicine, 15: 401-409, April 2009
+Protective
+Protective
++ Inflammation
+Deleterious
+Intracellular 
+Infections
+
+===== página 68 =====
+A  Imunoproteção por Células Th1
++ APC
+
+===== página 69 =====
+Th1 e Macrófagos M1 
+X  
+Th2 e Macrófagos M2
+
+===== página 70 =====
+Histologia: granulomas de pulmão infectado com fungo
+Importância das células Th1 e do TNF-a
+HE
+Grocott
+
+===== página 71 =====
+A Imunidade Th17 é Protetora contra os Fungos
+
+===== página 72 =====
+Linfócitos T CD8+ Conferem Imunoproteção contra Fungos
+
+===== página 73 =====
+Nas Infecções por Fungos as Células Treg podem ser 
+Deletérias por  Inibir Imunidade ou
+Protetoras por Reduzir Patologia Inhlamatória
+Consumo de IL-2
+Geração de cAMP ou Adenosina (anti-
+inflamatória) 
+a partir de ADP/ATP (pró-inflamatórios) pelas
+Ectonucleotidases CD39/CD73
+Indução de IDO via CTLA4/B7, 
+Depleção de Triptofano
+Produção de Kinureninas supressoras
+
+===== página 74 =====
+Subpopulações de Linfócitos T e Imunoproteção contra os
+Fungos
+
+===== página 75 =====
+Verma et al. Cold Spring Harb Perspect Med
+2015;5:a019612
+As Subpopulações de Linfócitos T e a Imunoproteção contra Fungos
+
+===== página 76 =====
+As Infecções Fúngicas induzem diversos isótipos de Igs
+
+===== página 77 =====
+(Fungos ativam as 3 vias do Sistema complemento)
+
+===== página 78 =====
+Verma et al. Cold Spring Harb Perspect. 
+2015;5:a019612
+Função dos Diferentes Isótipos nas Infecções por Fungos
+
+===== página 79 =====
+Paracoccidioidomicose
+
+===== página 80 =====
+PARACOCCIDIOIDOMYCOSIS (Adolpho Lutz, 1908)
+Paracoccidioides brasiliensis
+Thermally dimorphic fungus
+Infection route: inhalation of air-borne spores  
+PCM-infection
+asymptomatic pulmonary infection
+(Th1 pole of Immunity)
+PCM Disease: 
+wide spectrum of clinical manifestations
+Severe (Th2), Benign (Prevalent Th1/Th17) 
+Lymphatic 
+Disseminated Form
+Cutaneous Lesion
+Cutaneous 
+Disseminated Lesions
+Endemic Regions
+
+===== página 81 =====
+Th1
+Th2
+Linfoproliferação
+baixa                       variável                  alta
+HTT (Th1)
+negativo                    variável                positivo
+Anticorpos
+­IgG4, IgE
++ IgG1                  ausentes
+Citocinas
+IL-4, IL-5,                 IFN-g, IL-10,          IFN-g, IL-2
+IL-10, TGF-b
+IL-8, TNF-a,
+TNF-a
+Nº  Eosinófilos
+aumentado                normal               normal
+Forma  Juvenil
+Forma  Adulta
+Infecção
+Isótipos e Subpopulações de Cels T na PCM humana
+Mamoni et al, 2001; Mamoni et al, 2002; Oliveira et al, 2002

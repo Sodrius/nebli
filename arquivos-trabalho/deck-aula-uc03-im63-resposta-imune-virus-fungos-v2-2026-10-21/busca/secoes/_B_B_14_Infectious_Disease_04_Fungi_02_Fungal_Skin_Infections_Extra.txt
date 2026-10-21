@@ -1,0 +1,11 @@
+# #AK_Step1_v12::#B&B::14_Infectious_Disease::04_Fungi::02_Fungal_Skin_Infections::Extra (10 notas)
+1500052207462 3-HighYield-temporary Where do the fungi Dermatophytes reside in the body? Skin
+1500052841281 3-HighYield-temporary Animals / pets can be a source of dermatophytes and, therefore, tinea infection , especially in younger individuals
+1500052968870 3-HighYield-temporary Hyphae of tinea lesions due to dermatophytes are seen with KOH prep of skin scrapings
+1500054719314 1-HighYield Sporothrix schenckii is classically contracted via cuts from rose thorns , as well as tree bark , bushes , and plants
+1500055367426 2-RelativelyHighYield Sporothrix schenckii spreads in a(n) ascend ing pattern along the path of lymphatic drainage
+1500055544157 2-RelativelyHighYield Sporothrix schenckii will result in a local pustule , or ulcer , at the site of trauma and first entry and nodules along draining lymphatics
+1500151811249 2-RelativelyHighYield Sporothrix schenckii is a dimorphic yeast with a cigar -shaped, unequal budding yeast in human tissue , and a(n) mold form in plants (commonly rose thorns )
+1509744422330 1-HighYield Nystatin is active against Candida spp.
+1544385358722 - What is the likely diagnosis in a child that notices multiple, pruritic hypopigmented skin lesions on the face and trunk after beginning summer camp ? Pityriasis versicolor (AKA tinea versicolor*)
+1556238897815 1-HighYield Which fungus is shown below? Malassezia furfur

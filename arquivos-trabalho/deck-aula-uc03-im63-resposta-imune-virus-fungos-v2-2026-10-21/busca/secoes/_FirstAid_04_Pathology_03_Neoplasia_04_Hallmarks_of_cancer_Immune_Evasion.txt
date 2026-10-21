@@ -1,0 +1,4 @@
+# #AK_Step1_v12::#FirstAid::04_Pathology::03_Neoplasia::04_Hallmarks_of_cancer::*Immune_Evasion (3 notas)
+1496163155030 1-HighYield Genetic mutations often result in the cellular production of abnormal proteins , which are expressed on MHC class I molecules
+1496163225363 2-RelativelyHighYield Tumor cells can evade apoptosis / immune surveillance by downregulating expression of MHC class I or alternative splicing of the Fas receptor
+1518053116398 2-RelativelyHighYield Tumor cells that downregulate MHC class I can be detected and destroyed by natural killer cells

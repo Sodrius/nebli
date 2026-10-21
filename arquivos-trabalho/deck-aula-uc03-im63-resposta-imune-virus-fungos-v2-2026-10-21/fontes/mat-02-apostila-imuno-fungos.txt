@@ -1,0 +1,157 @@
+UC03 – Apostila Guia de Imunologia | Aula 8: Resposta Imune Contra Fungos 
+51 
+ 
+Aula 8: Resposta Imune Contra Fungos 
+Capítulo 1: Resposta Inata Contra Fungos 
+A imunidade contra os fungos encontra-se concentrada em aproximadamente 200 espécies patogênicas que podem infectar 
+pele, mucosas ou órgãos e sistemas. O parasitismo destes fungos pode ser de natureza intracelular ou extracelular, sendo que 
+cada tipo de infecção deflagra uma resposta imune adequada. 
+Dentre os fungos oportunistas (infecção secundária) encontram-se Candida albicans, que interage com o sistema complemento; 
+Aspergillus fumigatus, que ocasiona trombose de vasos sanguíneos; e Histoplasma capsulatum, que ocasiona infecção granu-
+lomatosa pulmonar. 
+De maneira semelhante à manifestação contra outros tipos de patógenos, a resposta anti-fúngica se inicia com o reconhecimen-
+to de padrões moleculares (PAMPs) pelos receptores PRR de células da imunidade inata. A parede celular fúngica e muito rica 
+em açúcares, que são bastante reconhecidos por receptores de Lectina Tipo-C, com alguma participação dos TLR e de recepto-
+res de reconhecimento de lesão tecidual. 
+Além disso, o fungo ativa diversos PRRs, o que resulta em diferentes padrões de ativação das células da imunidade inata. Nesse 
+contexto, Th1 e Th17 são alguns dos linfócitos futuramente ativados. A ativação excessiva de receptores que levarão a produção 
+de Treg pode inibir ou diminuir a resposta imune e ser prejudicial ao indivíduo. 
+ 
+Na imagem acima, todos os PRRs evidenciados são ativados 
+pela Candida albicans. Vale dizer que a única via ativadora 
+de Treg, aqui, é pelo reconhecimento de fosfolipomananas 
+pelos heterodímeros TLR-1 e TLR-2 ou TLR-2 e TLR-6. Ocor-
+rerá estimulo à liberação do fator de transcrição MAPKs 
+que irá estimular a expressão de IL-10 e TGF-β. As outras 
+vias irão estimular as linhagens Th17 e Th1 por meio do 
+fator de transcrição NF-ƙB. 
+Vale mencionar também o envolvimento do inflamassoma 
+na imunoproteção contra infecções fúngicas. Nesse contex-
+to, o estimulo do receptor NLR ocorre por vias de entrada 
+de ATP, efluxo de K+ ou principalmente por dano por espé-
+cies reativas de oxigênio (ROS). Essa via, nesse contexto, irá 
+estimular a linhagem Th17 via IL-1β e Th1 via IL-18. 
+Capítulo 2: Resposta Adaptativa Contra Fungos 
+A resposta imune pode se dar contra carboidratos do fun-
+go. Esses carboidratos, em geral, são antígenos T-
+independentes que induzem produção de IgM, sem induzir 
+a produção de células de memória. No entanto, é possível a 
+resposta imune também se dar contra proteínas do fungo. 
+Nesse caso, as proteínas são antígenos T-dependentes que 
+induzem as células de memória e especificidade alguma 
+imunoglobulina. 
+
+=== p.56
+Lembrando que, para antígenos T-independentes, os linfó-
+citos B se comportam como uma APC, que irá interagir por 
+pares coestimulatórios (CD40/CD40L) e MHC com os T-
+helpers. O isótipo específico de anticorpo produzido de-
+penderá da citocina gerada e secretada pelo T-helper. 
+ 
+Em geral, o primeiro anticorpo formado será o isótipo IgM. 
+Posteriormente, com a produção de IFN-γ, será produzido 
+IgG1 e IgG3. Os isótipos IgE e IgA são induzidos por outros 
+fatores (IL-4 e TGF-β, respectivamente). A imunidade do 
+tipo Th2 (ativada por IL-4) desativa fagócitos e facilita o 
+crescimento fúngico. 
+Ao contrário das células Th2, responsáveis indiretas pela 
+intensificação da infecção fúngica, as células Th1 protegem 
+o organismo. Essa proteção encontra-se pautada na libera-
+ção de IFN-γ, capaz de ativar macrófagos (interação 
+CD40/CD40L), responsáveis pela fagocitose e atividade 
+microbicida contra os patógenos. No caso, a linhagem Th2 
+libera as citocinas IL-4 e IL-10, que inibem essa função pro-
+tetora dos macrófagos da via clássica (M1) e estimulam a 
+função reparatória da via de ativação alternativa (M2). 
+Outras funções desempenhadas pelas Th1 envolvem a 
+ativação de opsoninas por IFN-γ (fragmentos do sistema 
+complemento e anticorpos) e ativação ou potencialização 
+dos neutrófilos por TNF-α e LTs. 
+ 
+A linhagem Th17 é responsável pela liberação de IL-17 e IL-
+22, sendo a primeira responsável pela indução de resposta 
+inflamatória mediada por neutrófilos, e a segunda pelo 
+aumento da barreira tecidual (restabelecimento da integri-
+dade do epitélio de mucosa). Além disso, tanto IL-17 como 
+IL-22 induzem a produção de peptídeos anti-microbianos 
+pelo epitélio de mucosa ativado. 
+ 
+Os CTL, por sua vez, atuam na promoção de citotoxicidade 
+por apoptose, sobretudo em micoses sistêmicas. Tal ativi-
+dade é realizada pela liberação de granzimas B e perforinas 
+ou pelo mecanismo Fas-FasL que induz apoptose. Vale 
+lembrar que todas as células possuem Fas em suas mem-
+branas e, com a ligação desta molécula com a FasL, há in-
+dução de apoptose. 
+Por fim, As células Treg, por outro lado, regulam a resposta 
+imune por meio de produção de citocinas TGF-β, IL-10 e IL-
+35, sendo as três inibidoras da resposta imune. 
+
+=== p.57
+UC03 – Apostila Guia de Imunologia | Aula 8: Resposta Imune Contra Fungos 
+53 
+ 
+ 
+Palavras-Chave: 
+ 
+Infecção secundária 
+ 
+Candida albicans 
+ 
+Aspergillus fumigatus 
+ 
+Histoplasma capsulatum 
+ 
+Imunidade contra os fungos 
+ 
+Resposta Inata 
+ 
+Receptores de Lectina Tipo-C 
+ 
+Via ativadora de Treg 
+ 
+Fosfolipomananas 
+ 
+Heterodímeros 
+ 
+MAPKs 
+ 
+NF-ƙB 
+ 
+Inflamassoma 
+ 
+Resposta adaptativa 
+ 
+Carboidratos 
+ 
+Antígenos T-independentes 
+ 
+Proteínas 
+ 
+Antígenos T-dependentes 
+ 
+Células Th1 
+ 
+Linhagem Th17 
+ 
+CTL 
+ 
+Células Treg 
+ 
+ 
+
+=== p.58
+Aula 9: Resposta Imune Contra Infecções Virais 
+Capítulo 1: Introdução 
+Diferentes organismos, evolutivamente, desenvolveram 
+mecanismos distintos de defesa a infecções virais: bacté-
+rias possuem o mecanismo de CRISP-CAS; enquanto plan-
+tas e invertebrados possuem o mecanismo do RNA de 
+interferência (RNAi). No entanto, abordaremos apenas os 
+princípios gerais da imunidade às infecções virais em hu-
+manos nesta aula. 
+Capítulo 2: A Imunidade Inata e Adquirida 
+No contexto da imunidade inata, diversos PRRs possuem a 
+habilidade de reconhecer características virais – TLRs (Toll-
+like receptors), RLRs (RIG-like receptors) e NLRs (NOD-like 
+receptors). Os TLRs atuantes no reconhecimento viral são 

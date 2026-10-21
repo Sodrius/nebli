@@ -1,0 +1,7 @@
+# #AK_Step1_v12::#FirstAid::02_Immunology::03_Immune_Responses::08_Interferons::01_Mechanism::*IFN-Y (6 notas)
+1489970364081 1-HighYield Which cytokine is primarily responsible for stimulating monocytes / macrophages to kill the microbes they ingest ( macrophage-lymphocyte interaction )? IFN-γ
+1489970456186 1-HighYield Which immune cells secrete IFN-γ ? Natural killer (NK) cells and Th 1 cells
+1489970516941 1-HighYield Which cytokine increases MHC class II expression and antigen presentation on all cells? IFN-γ
+1497440307298 2-RelativelyHighYield IFN-γ is important for activating the respiratory burst in phagocytes
+1497451553581 4-LowerYield IFN-γ upregulates production of inducible nitric oxide synthase (iNOS) which is involved in the generation of ONOO- ( a powerful free radical )
+1578537487044 4-LowerYield Which cytokines utilize non-receptor tyrosine kinase signaling pathways? IL-2, IL-6, and IFN
