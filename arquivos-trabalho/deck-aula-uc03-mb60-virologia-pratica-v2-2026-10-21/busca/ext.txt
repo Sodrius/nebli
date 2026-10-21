@@ -1,0 +1,69 @@
+### diag | Externos | (viral AND (diagnosis OR culture)) | 0 notas
+### pcr | Externos | (PCR OR RT-PCR) | 21 notas
+  1555120957463 [AnKingMCAT (An]  {{c1::G-Protein Coupled Receptor (GPCR)}} is a membrane receptor with 7 transmembrane domains that {{c2:: transfers a signal from outside the cell to the inside of the cell ::does what?}}.
+  1555121880412 [AnKingMCAT (An]  GPCRs are {{c2::integral membrane proteins}} that possess {{c1::seven::#}} {{c3:: membrane-spanning domains or transmembrane helices ::what?}}.
+  1555125022835 [AnKingMCAT (An]  Give the steps in the GPCR sequence: 1 - {{c1::Ligand binds to GPCR}} 2 - {{c1::GPCR undergoes conformational change}} 3 - {{c1::Alpha subunit exchanges GDP for GTP}} 4 - {{c1::Alpha subunit
+  1555162926440 [AnKingMCAT (An]  In the GPCR sequence, {{c2:: cAMP ::ATP derivative}} functions as a second messenger, which {{c1::triggers a response inside the cell}}.
+  1558185806883 [AnKingMCAT (An]  Rhodopsin is a biological pigment found in the {{c1::rods}} of the retina.
+  1560394911447 [AnKingMCAT (An]  Gel electrophoresis is a technique commonly used in laboratories to separate charged molecules like DNA, RNA and proteins according to their {{c1::size}} and {{c1::charge}}.
+  1560434370076 [AnKingMCAT (An]  In gel electrophoresis: Small molecules move {{c1::fast::fast or slow}}. Large molecules move {{c1::slow::fast or slow}}.
+  1560444388485 [AnKingMCAT (An]  {{c1::Polymerase chain reaction (PCR)}} is a {{c2::fast}} and {{c2::inexpensive}} technique used to {{c3:: amplify , or make many copies of, a specific target region of DNA in the lab}}.
+  1560444530195 [AnKingMCAT (An]  {{c3::PCR}} relies on a {{c2:: thermostable }} DNA polymerase called {{c1::Taq polymerase::... polymerase}}.
+  1560444861974 [AnKingMCAT (An]  Give the three steps and the temperatures of each step in a PCR cycle : 1. {{c1::Denaturation}} at {{c1::96::#}}°C 2. {{c1::Annealing}} at {{c1::55 - 65::#}}°C 3. {{c1::Extension}} at {{c1::
+  1586797234036 [Image Occlusio]  ea0b99a1fac44e6cb725061dee505857-ao-1
+  1586797234037 [Image Occlusio]  ea0b99a1fac44e6cb725061dee505857-ao-2
+  1586797234046 [Image Occlusio]  ea0b99a1fac44e6cb725061dee505857-ao-3
+  1586819892525 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-1
+  1586819892531 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-2
+  1586819892535 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-3
+  1586819892539 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-4
+  1586819892542 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-5
+  1586819892545 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-6
+  1586819892548 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-7
+  1586819892552 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-8
+### elisa | Externos | ELISA | 1 notas
+  1719431529479 [AnKingMCAT (An]  An enzyme-linked immunosorbent assays (ELISA) can be used to measure the concentration of a/an {{c1::antigen}} in a solution.
+### western | Externos | (Western AND blot) | 4 notas
+  1560440009197 [AnKingMCAT (An]  {{c1::Blotting}} is a method of {{c2::transferring fragments of protein, DNA, or RNA}} that have been separated via {{c2::gel electrophoresis}} and applying them to a {{c2:: blotting membran
+  1560441528072 [AnKingMCAT (An]  {{c1::Southern blotting::... blotting}} is used to detect {{c2::a specific DNA sequence}}.
+  1560441678110 [AnKingMCAT (An]  {{c1::Northern blotting::... blotting}} is used to detect {{c2::a specific RNA sequence}}.
+  1560441755267 [AnKingMCAT (An]  {{c1::Western blotting::... blotting}} is used to detect {{c2::a specific protein in a sample}}.
+### cpe | Externos | (inclusion OR syncytia OR cytopathic) | 3 notas
+  1701368045609 [Cloze-AnKingMa]  White Adipose Tissue Structure Adipocytes in white adipose tissue specialize in long-term energy storage . These cells are spherical when isolated , but {{c1:: polyhedral }} when packed in t
+  1701418142687 [Cloze-AnKingMa]  Characteristics of Brown Adipose Tissue Brown adipose tissue makes up 2%-5% of a newborn's body weight , primarily located in the {{c1::back}}, {{c1::neck}}, and {{c1::shoulders}}. This tiss
+  1701789700099 [Cloze-AnKingMa]  Perikarya (Neuronal Cell Bodies) {{c1::Micro}}tubules, {{c1::Actin}} Filaments, and {{c1:: Intermediate ::s }} Filaments are abundant in perikarya. {{c2:: Neurofilaments }}: {{c1::Intermedia
+### sero | Externos | (seroconversion OR IgM OR neutralization) | 197 notas
+  1349476586507 [Anatomy]  Abdominal Wall and Viscera: Median (Sagittal) Section
+  1349477488369 [Anatomy]  Arteries of Large Intestine
+  1349477488408 [Anatomy]  Dural Venous Sinuses
+  1349477488414 [Anatomy]  Eyeball: Horizontal Section
+  1349477488417 [Anatomy]  Female Pelvic Contents: Superior View
+  1349477488426 [Anatomy]  Foramina of Cranial Base: Superior View
+  1349477488437 [Anatomy]  Gallbladder and Extrahepatic Bile Ducts
+  1349477488494 [Anatomy]  Male Pelvic Contents: Superior View
+  1349477488508 [Anatomy]  Mucosa and Musculature of Large Intestine
+  1461962631680 [Cloze deletion]  The left colic, sigmoidal and superior rectal arteries arise from the {{c1::IMA}}.
+  1473200627356 [LabValue]  IgM, serum
+  1527677238248 [Cloze-b12d6]  Cecum = {{c1::mid}}gut Sigmoid colon = {{c1::hind}}gut
+  1527678903182 [Cloze-b12d6]  Where does volvulus most commonly occur? {{c1:: Midgut (infants) }} {{c2:: Sigmoid (elderly Mr Siegman) }}
+  1542147295985 [AnatoKingOverh]  {{c1::Sigmoid colon}}
+  1546961507420 [AnatoKingOverh]  Intraperitoneal: {{c1::cecum, appendix, transverse colon, sigmoid colon}} Secondarily retroperitoneal: {{c1::ascending colon, descending colon}}
+  1546962005677 [AnatoKingOverh]  {{c1::Sigmoid arteries (faint in this image)}}
+  1548191824371 [AnatoKingOverh]  {{c1::Condylar (condyloid) canal of the occipital bone [Canalis condylaris]}}
+  1548823154911 [AnatoKingOverh]  {{c1::Transverse (Basilar) sinus [Sinus transversus]}}
+  1548823695341 [AnatoKingOverh]  {{c1::Sigmoid (venous) sinus [Sinus sigmoideus]}}
+  1550357451208 [AnatoKingOverh]  {{c1::Groove for sigmoid sinus of occipital bone [Sulcus sinus sigmoidei]}}
+  1550376544070 [AnatoKingOverh]  {{c1::Groove for sigmoid sinus of parietal bone [Sulcus sinus sigmoidei]}}
+  1553887042532 [AnKingMCAT (An]  {{c1::Sigma}} bonds are formed by {{c2:: head-on overlapping}} between atomic orbitals.
+  1554079027568 [AnKingMCAT (An]  A/an {{c1::kinase::type of enzyme}} {{c2:: adds a phosphate group from ATP to a substrate::does what?}}.
+  1554089562589 [AnKingMCAT (An]  {{c2:: Positive cooperative }} enzymes display a {{c1::sigmoidal::shape}} curve.
+  1554089858860 [AnKingMCAT (An]  {{c1::Cooperative binding}} is when the binding of the first molecule of B to A {{c2:: changes A's binding affinity for the second B molecule::does what?}}, making it {{c2::more or less}} li
+  1554094176747 [AnKingMCAT (An]  A/an {{c1::homotropic effector::... effector}} is {{c2::an allosteric regulator}} that is also the {{c2:: substrate }}.
+  1554094334542 [AnKingMCAT (An]  A/an {{c1::heterotropic effector::... effector}} is {{c2::an allosteric regulator}} molecule that is {{c2:: different from the substrate }} .
+  1554094374277 [AnKingMCAT (An]  {{c1::Phosphorylation}} is the {{c3:: covalent ::type of bond}} binding of a {{c2:: phosphoryl group (PO 3 - )}} to an organic molecule.
+  1554152624521 [AnKingMCAT (An]  Give the equation for electric field strength in a capacitor : {{c1::\(E_{cap} = \frac{Q}{\epsilon_0A} = \frac{\Delta V}{d}\)}}
+  1554170514479 [AnKingMCAT (An]  A/an {{c1::neutralization}} reaction is when {{c2::an acid and base}} react to form {{c2::water and salt}}.
+_Bootcamp_Genetics_05_Laboratory_Techniques_01_Polymerase_Chain_Reaction.txt
+_Bootcamp_Genetics_05_Laboratory_Techniques_03_Southern_Western_and_Northern_Blots.txt
+_Bootcamp_Genetics_05_Laboratory_Techniques_05_ELISA.txt
+_FirstAid_01_Biochem_03_Laboratory_Techniques_01_PCR_Polymerase_Chain_Reaction.txt

@@ -1,0 +1,13 @@
+{
+ "exemplares_sha256": "aa7d4f21afe3dbdccad07c68cd4cdcc1a24b3a5e7c315d78d63208167db7cadf",
+ "anti_exemplares_sha256": "c978ca717d4ec23916b4c9d8ed1195f4e9bed0b42a045a19a84368ff19186e74",
+ "lido_em": "2026-10-21",
+ "aprendizados": [
+  "Frase afirma um fato concreto e o cloze esconde o nome que se decora (método, sigla, estrutura), nunca verbo nem adjetivo genérico.",
+  "Organizador em tópicos verticais com clozes distintos nos nomes recuperáveis; contraste complementar usa um único índice.",
+  "Card ruim: conceito solto, curiosidade numérica e decorar sem entender; o Extra traz o porquê em uma linha (por que a placa exige monocamada).",
+  "Linguagem de livro: PFU, TCID50, ELISA, RT-PCR no lugar de palavras vagas; cloze curto de até três palavras, resposta em negrito.",
+  "Autoral varia entre 1, 2 e 3 clozes conforme o que se quer lembrar; o AnKing é a referência de forma e o autoral só cobre lacuna.",
+  "Imagem que ensina vai no verso quando entregaria a resposta; aqui as figuras são culturas e géis, sem equivalente nos acervos."
+ ]
+}

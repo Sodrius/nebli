@@ -1,0 +1,5 @@
+# #AK_Step1_v12::#Physeo::05_Biochem::03_Lab_Techniques::03_Flow_Cytometry (4 notas)
+1468605505369 1-HighYield Flow cytometry is a laboratory technique used to assess size, granularity, and protein expression of individual cells in a sample
+1468605516940 1-HighYield What laboratory technique is useful in determining CD4 cell count in HIV patients? Flow cytometry
+1468605522020 2-RelativelyHighYield In flow cytometry , cells are tagged with antibodies specific to surface or intracellular proteins
+1468605530742 2-RelativelyHighYield In flow cytometry , antibodies are tagged with a unique fluorescent dye, which is detected and counted during analysis

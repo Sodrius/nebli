@@ -1,0 +1,12 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::18_Mumps_virus (11 notas)
+1482191438195 2-RelativelyHighYield In addition to parotitis , mumps may also present with orchitis, pancreatitis, and aseptic meningitis
+1506297103030 2-RelativelyHighYield What type of viruses are paramyxoviruses ? Negative sense RNA
+1506297199835 1-HighYield Which family of viruses is mumps a member of? Paramyxoviridae
+1506298553385 2-RelativelyHighYield Paramyxoviruses can express the virulence factor hemagglutinin which binds sialic acid, promoting viral entry into cells
+1506298786823 2-RelativelyHighYield Paramyxoviruses contain surface F (fusion) proteins that cause respiratory epithelial cells to fuse and form multinucleated giant cells
+1506299399230 1-HighYield What are the 4 places that mumps is known to replicate? Parotid gland, testes, CNS, pancreas
+1506299510551 1-HighYield Which paramyxovirus can result in parotitis ? Mumps
+1506299652364 1-HighYield Which paramyxovirus can result in orchitis ( unilaterally )? Mumps
+1506299798295 1-HighYield Which paramyxovirus can result in aseptic meningitis ? Mumps
+1506299817676 1-HighYield Which paramyxovirus can result in pancreatitis ? Mumps
+1506299907967 1-HighYield Which viral virulence factors is mumps associated with? Hemagglutinin, F (fusion) protein, and neuraminidase

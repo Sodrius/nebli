@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::*Other_Viruses::Eastern_Western_Venezuelan_Equine_Encephalitis_Virus (5 notas)
+1516237852309 3-HighYield-temporary Arboviruses are a class of viruses that have arthropod vectors
+1516238131776 3-HighYield-temporary Any virus that is transmitted by mosquitoes , fleas , or ticks is said to be a(n) arbovirus
+1516238226677 2-RelativelyHighYield Arboviruses all cause encephalitis and fever
+1516238372967 5-LowYield The togavirus family includes Eastern equine encephalitis, Western equine encephalitis, Venezuelan equine encephalitis, and Chikungunya virus
+1516238643613 4-LowerYield Arboviruses present with symptoms such as fever , altered mental status , seizures, and cranial nerve palsies

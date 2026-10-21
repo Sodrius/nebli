@@ -1045,12 +1045,16 @@ def author_volume_supported(plan):
         for e in authored)
 
 
-def live_checks(plan):
+def live_checks(plan, run=None):
     from nebli import ordem, rotulos
     from nebli.decks import Anki
     call = Anki()
     tag = f"NEBLI::{plan['lesson_id']}"
     notes, others = ordem._live(tag)
+    try:
+        plan = dict(plan, _faixas=json.loads((Path(run) / "escopo.json").read_text(encoding="utf-8")).get("ordem_da_fala") or [])
+    except (OSError, ValueError, NameError):
+        pass
     problems, _, _ = ordem.check(tag, notes, others, plan)
     out = [("ordem no Anki confere com o plano (coluna 'Ordem da aula')", bool(notes) and not problems)]
     # 11/10: gates passaram com Extras do plano que a delta recusou gravar; texto visível vivo tem de bater com o plano
@@ -1120,7 +1124,7 @@ def main(argv=None):
         RUN["dir"] = run
         plan = json.loads((run / "plan.json").read_text(encoding="utf-8")); checks += plan_checks(run, plan)
         if not args.sem_anki:
-            checks += live_checks(plan)
+            checks += live_checks(plan, run)
     if data and not args.sem_drive:
         checks += drive_checks(data)
     for label, ok in checks:

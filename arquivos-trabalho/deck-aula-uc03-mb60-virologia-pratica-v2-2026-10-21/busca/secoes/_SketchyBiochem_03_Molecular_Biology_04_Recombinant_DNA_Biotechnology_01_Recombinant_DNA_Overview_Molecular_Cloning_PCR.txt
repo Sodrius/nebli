@@ -1,0 +1,8 @@
+# #AK_Step1_v12::#SketchyBiochem::03_Molecular_Biology::04_Recombinant_DNA_&_Biotechnology::01_Recombinant_DNA_(Overview)_Molecular_Cloning_&_PCR (7 notas)
+1468549189226 4-LowerYield The first step of cloning is to isolate the eukaryotic mRNA of interest
+1468549196500 4-LowerYield Cloning : After cDNA is produced, cDNA fragments are inserted into bacterial plasmids , which contain antibiotic resistance genes
+1468549202187 4-LowerYield Cloning : After the recombinant plasmid has been produced, it is transformed into bacteria
+1468605422972 2-RelativelyHighYield Polymerase chain reaction (PCR) is a powerful diagnostic tool used to amplify a desired fragment of DNA
+1468605428299 2-RelativelyHighYield In the first step of PCR , DNA is denatured by using heat to separate the strands
+1468605437554 2-RelativelyHighYield In the second step of PCR , DNA primers anneal to specific sequences on each DNA strand to be amplified
+1468605447110 2-RelativelyHighYield In the final step of PCR , heat-stable Taq DNA polymerase elongates the DNA sequence following each primer

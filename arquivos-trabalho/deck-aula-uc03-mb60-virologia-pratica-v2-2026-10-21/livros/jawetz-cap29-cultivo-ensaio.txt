@@ -1,0 +1,402 @@
+===== pdf p. 425 =====
+anticorpo específico. As estruturas tridimensionais das regiões 
+externas expostas das glicoproteínas da membrana do vírus in­
+fluenza (hemaglutinina, neuraminidase) foram determinadas 
+por cristalografia de raios X (ver Fig. 39.2). Esses estudos pro­
+porcionam uma melhor compreensão da estrutura antigênica e 
+das atividades funcionais das glicoproteínas virais. 
+CULTURA E ENSAIO DOS VÍRUS 
+Cultura dos vírus 
+Muitos vírus podem crescer em culturas de células ou em ovos 
+férteis em condições estritamente controladas. O crescimento 
+dos vírus em animais ainda é utilizado no isolamento primário 
+de determinados vírus e para o estudo da patogênese das doen­
+ças virais e da oncogênese viral. Os laboratórios de diagnósti­
+co tentam isolar vírus de amostras clínicas para estabelecer as 
+causas das doenças (ver Cap. 47). Os laboratórios de pesquisa 
+cultivam o vírus visando as análises detalhadas da expressão e 
+replicação dos vírus. 
+O crescimento celular in vitro é central para a cultura e ca­
+racterização dos vírus. Existem três tipos básicos de cultura ce­
+lular. As culturas primárias são efetuadas com células dispersas 
+CAPÍTULO 29 
+Propriedades gerais dos vírus 
+417 
+(geralmente com tripsina) derivadas de tecidos removidos do 
+hospedeiro. Em geral, são incapazes de crescer durante mais 
+de algumas passagens. As linhagens de células diploides são 
+culturas secundárias que sofreram alteração, permitindo uma 
+cultura limitada (até 50 passagens), mas que retêm seu padrão 
+cromossômico normal. As linhagens celulares contínuas são 
+culturas capazes de crescimento mais prolongado - e talvez 
+indefinido -provenientes de linhagens de células diploides ou 
+de tecidos malignos. De forma invariável, apresentam números 
+alterados ou irregulares de cromossomos. O tipo de cultura ce­
+lular utilizado para cultura de vírus depende da sensibilidade 
+das células a determinado vírus. 
+A. Detecção de células infectadas por vírus 
+A multiplicação de um vírus pode ser monitorada de diversas 
+• 
+maneiras: 
+1. Desenvolvimento de efeitos citopáticos, isto é, alterações 
+morfológicas nas células. Os tipos de efeitos citopáticos in­
+duzidos por vírus incluem lise ou necrose celular, formação 
+de inclusões, formação de células gigantes e vacuolização 
+citoplasmática (Fig. 29.4A, B e C). A maioria dos vírus tem 
+algum efeito citopático óbvio nas células infectadas. 
+rJ 
+.. . 
+J. ... 
+,.,1 
+• 
+FIGURA 29.4 Efeitos citopáticos produzidos em monocamadas de células cultivadas por diferentes vírus. As culturas são mostradas como nor­
+malmente seriam visualizadas no laboratório, sem fixador nem corante (ampliada 60 vezes). (A) Enterovírus - rápido arredondamento das células, 
+progredindo para a destruição celular completa. (8) Herpes-vírus -áreas focais de células arredondadas e intumescidas. (C) Paramixovírus -áreas 
+focais de células fundidas (sincícios). (D) Hemadsorção. Os eritrócitos aderem a células na monocamada infectada por um vírus que induz a incor­
+poração de uma hemaglutinina na membrana plasmática. Muitos vírus com envelope que amadurecem por brotamento, a partir de membranas 
+citoplasmáticas, produzem hemadsorção. (Reproduzida, com autorização, de 1 Jack.) 
+
+===== pdf p. 426 =====
+418 
+SEÇÃO IV Virologia 
+2. Aparecimento de uma proteína codificada pelo vírus, co­
+mo a hemaglutinina do vírus influenza. Podem-se utilizar 
+antissoros específicos para detectar a síntese das proteínas 
+virais nas células infectadas. 
+3. Detecção de ácidos nucleicos específicos de vírus. Ensaios 
+moleculares, tais como a reação em cadeia da polimerase, 
+proporcionam métodos de detecção rápidos, sensíveis e 
+específicos. 
+4. Adsorção de eritrócitos às células infectadas, denominada 
+hemadsorção, devido à presença de hemaglutinina codifi­
+cada pelo vírus (parainfluenza, influenza) nas membranas 
+celulares. Essa reação torna-se positiva antes de as altera­
+ções citopáticas serem visíveis e, em alguns casos, ocorre 
+na ausência de efeitos citopáticos (Fig. 29.4D). 
+5. O crescimento do vírus em ovo de galinha embrionado 
+pode resultar em morte do embrião (p. ex., vírus da en­
+cefalite), produção de pústulas ou placas na membrana 
+corioalantoide (p. ex., herpes, varíola, vacínia), ou desen­
+volvimento de hemaglutininas nos líquidos ou tecidos em­
+brionários (p. ex., influenza). 
+B. Formação de corpúsculos de inclusão 
+Durante a multiplicação dos vírus no interior das células, po­
+de-se verificar a presença de estruturas específicas do vírus, 
+denominadas corpúsculos de inclusão, que se tornam muito 
+maiores do que cada partícula viral e com frequência exibem 
+afmidade por corantes ácidos (p. ex., eosina), podendo loca­
+lizar-se no núcleo (herpes-vírus; ver Fig. 33.3), no citoplasma 
+(poxvírus) ou em ambos (vírus do sarampo; ver Fig. 40.5). Em 
+muitas infecções virais os corpúsculos de inclusão são locais de 
+desenvolvimento de virions (as fábricas virais). As variações no 
+aspecto do material de inclusão dependem, em grande parte, 
+do fixador tecidual empregado. 
+A presença de corpúsculos de inclusão pode ser de conside­
+rável ajuda para o estabelecimento do diagnóstico. A inclusão 
+intracitoplasmática observada em células nervosas - denomi­
+nada corpúsculo de Negri - é patognomônica da raiva. 
+Quantificação dos vírus 
+A. Métodos físicos 
+Os testes quantitativos baseados em ácidos nucleicos, como a 
+reação em cadeia da polimerase (PCR), podem determinar o nú­
+mero de cópias do genoma viral em uma amostra. Os genomas 
+infecciosos e os não infecciosos são detectados. A variação da 
+sequência viral pode reduzir a detecção viral e a quantificação 
+por esses métodos. 
+Diversos testes sorológicos, como os radioimunoensaios e 
+os ensaios imunoenzimáticos (ver Cap. 47), podem ser padro­
+nizados para quantificar o número de partículas virais em uma 
+amostra. Esses testes não distinguem as partículas infecciosas 
+das não infecciosas e algumas vezes detectam proteínas virais 
+não reunidas nas partículas. 
+Certos vírus contêm uma proteína (hemaglutinina) que 
+tem a capacidade de aglutinar os eritrócitos dos seres humanos 
+ou de alguns animais. Os ensaios de hemaglutinação consti­
+tuem um método fácil e rápido para quantificação desses tipos 
+de vírus (ver Cap. 47). As partículas tanto infecciosas quanto 
+não infecciosas apresentam essa reação, de modo que a hema­
+glutinação mede a quantidade total de vírus presentes. 
+As partículas virais podem ser contadas diretamente em 
+microscopia eletrônica para comparação com uma suspensão­
+padrão de partículas de látex de tamanho similar. Entretanto, 
+para esse procedimento é necessária uma preparação relativa­
+mente concentrada de vírus, e as partículas virais infecciosas 
+não podem ser distinguidas das não infecciosas. 
+B. Métodos biológicos 
+Os ensaios biológicos com parâmetros de avaliação final de­
+pendem da morte e da infecção do animal, ou dos efeitos cito­
+páticos em cultura de tecido em uma série de diluições do vírus 
+que está sendo testado. O título é expresso como 50% da dose 
+infecciosa (Dl50), recíproca da diluição do vírus que produz o 
+efeito em 50% das células ou animais inoculados. Os ensaios 
+precisos exigem o uso de grande número de testes. 
+O ensaio mais amplamente utilizado na pesquisa de vírus in­
+fecciosos é o ensaio em placa, porém somente pode ser usado para 
+vírus que seja replicado em cultura de tecidos. Monocamadas de 
+células hospedeiras são inoculadas com diluições apropriadas do 
+vírus e, após adsorção, são recobertas com meio contendo ágar ou 
+carboximetilcelulose, a fim de evitar a propagação do vírus pela 
+cultura. Depois de alguns dias, as células inicialmente infectadas 
+produzem vírus que só se propagam para as células circundan­
+tes. Vários ciclos de replicação e a morte celular produzem uma 
+pequena área de infecção ou placa. O intervalo de tempo desde 
+a infecção até o momento em que as placas possam ser visua1iza­
+das para contagem depende do ciclo de replicação viral, que po­
+de variar de alguns dias (p. ex., poliovírus) a 2 semanas ou mais 
+(p. ex., SV 40). Em condições controladas, uma placa isolada pode 
+originar-se de uma única partícula viral infecciosa, denominada 
+unidade formadora de placa. O efeito citopático das células in­
+fectadas no interior da placa pode ser distinguido das células não 
+infectadas da monocamada com ou sem coloração apropriada, e 
+as placas em geral podem ser contadas macroscopicamente. A re­
+lação entre o número de partículas infecciosas e o número total 
+de partículas varia amplamente, desde quase a unidade até menos 
+de 1 por 1.000, mas com frequência pode ser de uma para alguns 
+milhares. Há testes mais rápidos baseados na determinação do 
+número de células infectadas produtoras de partículas virais, que 
+são detectadas por técnicas de imunofluorescência*. 
+Alguns vírus (p. ex., o herpes-vírus e o vírus da vacínia) 
+formam pústulas quando inoculados na membrana corioalan­
+toide de um ovo embrionado. Esses vírus podem ser quantifi­
+cados ao se relacionar o número de pústulas contadas com a 
+diluição do vírus inoculado. 
+PURIFICAÇÃOEIDENTIFICAÇÃODOSVÍRUS 
+Purificação das partículas virais 
+É necessário dispor de vírus purificados para efetuar certos ti­
+pos de estudo sobre as propriedades e a biologia molecular do 
+agente. Para estudos de purificação, o material inicial consiste, 
+* N. de R.T. O cultivo virai por técnica de shell vial consiste na centrifuga­
+ção do material, contendo as partículas virais sobre as células permissivas 
+ao virus a ser pesquisado (fibroblastos humanos), para acelerar a entrada 
+dos mesmos nas células e encurtar o tempo do ciclo virai. A etapa seguinte 
+consiste na revelação de proteínas virais pelo emprego de anticorpos mo­
+noclonais marcados, dirigidos contra essas proteínas e que se expressam 
+muito tempo antes do estabelecimento de efeitos citopáticos. 
+
+===== pdf p. 427 =====
+em geral, em grandes volumes de meio de cultura de tecido, 
+líquidos orgânicos ou células infectadas. Com frequência, a 
+primeira etapa envolve a concentração das partículas virais por 
+precipitação com sulfato de amônio, etanol ou polietilenogli­
+col, ou por ultraftltração. A hemaglutinação e a elução podem 
+ser utilizadas para concentrar os ortomixovírus (ver Cap. 39). 
+Uma vez concentrados, os vírus podem ser então separados dos 
+materiais do hospedeiro por meio de centrifugação diferencial, 
+centrifugação com gradiente de densidade, cromatografia em 
+coluna e eletroforese. 
+Em geral, é necessária mais de uma etapa para se obter 
+uma purificação adequada. A purificação preliminar remove 
+a maior parte do material não viral. Essa primeira etapa pode 
+incluir centrifugação; a etapa final de purificação quase sempre 
+envolve centrifugação com gradiente de densidade. Na centri­
+fugação zonal, coloca-se uma amostra de vírus concentrado 
+em um gradiente de densidade linear pré-formado de sacarose 
+ou glicerol, e durante a centrifugação, o vírus sedimenta-se em 
+forma de banda, a uma velocidade determinada principalmen­
+te pelo tamanho e pelo peso da partícula viral. 
+Os vírus também podem ser purificados por centrifugação 
+em alta velocidade, em gradientes de densidade de cloreto de 
+césio, tartarato de potássio, citrato de potássio ou sacarose. O 
+material de escolha para o gradiente deve ser o menos tóxico 
+para o vírus. As partículas virais migram para uma posição de 
+equilíbrio, em que a densidade da solução é igual à sua densi­
+dade de flutuação, formando uma banda visível. 
+Outros métodos de purificação baseiam-se nas propriedades 
+químicas da superfície do vírus. Na cromatografia em coluna, o 
+vírus liga-se a uma substância, como o dietilaminoetil ou a fos­
+focelulose, e, em seguida, sofre elução por alterações no pH e 
+na concentração de sal. A eletroforese zonal permite a separação 
+das partículas virais de contaminantes com base na carga elé­
+trica. Além disso, podem-se utilizar antissoros específicos para 
+remover partículas virais do material do hospedeiro. 
+É mais fácil purificar os vírus icosaédricos do que os vírus 
+com envelope. Como os últimos em geral contêm quantidades 
+variáveis de envelope por partícula, a população viral é hetero­
+gênea tanto no seu tamanho quanto na sua densidade. 
+É muito difícil obter a purificação completa dos vírus. Peque­
+nas quantidades de material celular tendem a sofrer adsorção às 
+partículas com a consequente copurificação. Os critérios mínimos 
+de pureza consistem no aspecto homogêneo em micrografias ele­
+trônicas e na impossibilidade de outros métodos de purificação 
+de remover "contaminantes" sem reduzir a infecciosidade. 
+Identificação de uma partícula como vírus 
+Uma vez obtida uma partícula física típica, ela deve preencher 
+os seguintes critérios para que seja identificada como partícula 
+viral: 
+1. A partícula só pode ser obtida de células ou tecidos infec­
+tados. 
+2. As partículas obtidas de várias fontes são idênticas inde­
+pendentemente da origem celular em que o vírus está cres­
+cendo. 
+3. As partículas contêm ácido nucleico (DNA ou RNA), e a 
+sequência não é a mesma das espécies das células do hos­
+pedeiro de onde as partículas foram obtidas. 
+4. O grau de atividade infecciosa da preparação varia direta­
+mente com o número de partículas presentes. 
+CAPÍTULO 29 
+Propriedades gerais dos vírus 
+419 
+5. A destruição da partícula física por meios químicos ou fí­
+sicos está associada a perda da atividade viral. 
+6. É necessário demonstrar que certas propriedades das partí­
+culas e da infecciosidade são idênticas, como, por exemplo, 
+o seu comportamento de sedimentação na ultracentrífuga e 
+suas curvas de estabilidade em pH. 
+7. Os antissoros preparados contra o vírus infeccioso devem 
+reagir com a partícula característica e vice-versa. A obser­
+vação direta de um vírus desconhecido deve ser efetua­
+da por exame ao microscópio eletrônico da formação de 
+agregado em uma mistura de antissoros e suspensão viral 
+não purificada. 
+8. As partículas devem ser capazes de induzir a doença carac­
+terística in vivo (se tal experimento for possível). 
+9. A passagem das partículas em cultura de tecido deve re­
+sultar na produção de uma progênie com propriedades 
+biológicas e antigênicas do vírus. 
+SEGURANÇA NO LABORATÓRIO 
+Muitos vírus são patógenos humanos; por conseguinte, podem 
+ocorrer infecções adquiridas em laboratório. Com frequência, 
+os procedimentos laboratoriais são potencialmente perigosos 
+se não forem adotadas técnicas apropriadas. Entre os riscos co­
+muns que podem expor a equipe do laboratório ao risco de infec­
+ção destacam-se os seguintes: (1) aerossóis - produzidos com a 
+homogeneização de tecidos infectados, centrifugação, vibração 
+ultrassônica ou vidraria quebrada; (2) ingestão - ao pipetar-se 
+a amostra com a boca, alimentar-se ou fumar no laboratório ou 
+lavar de modo inadequado as mãos; (3) penetração através da 
+pele - por picadas de agulha, vidraria quebrada, contaminação 
+das mãos por recipientes que vazam, manipulação de tecidos in­
+fectados ou picadas de animais; e ( 4) salpicos nos olhos. 
+As boas práticas de biossegurança consistem em: (1) treina­
+mento e uso de técnicas assépticas; (2) proibição de pipetar com 
+a boca; (3) proibição de alimentar-se, ingerir líquidos ou fumar 
+no laboratório; ( 4) uso de equipamento protetor (p. ex., roupas, 
+luvas e máscaras), que não deve ser utilizado fora do laboratório; 
+(5) esterilização de restos de material experimental; (6) uso de 
+cabines de biossegurança; e (7) imunização, se houver vacinas 
+disponíveis. Outras preparações e dispositivos especiais de segu­
+rança (nível de biossegurança 4) tornam-se necessários quando 
+os profissionais estão trabalhando com agentes de alto risco, co­
+mo os ftlovírus (ver Cap. 38) e o vírus da raiva. 
+REAÇÃO A AGENTES FÍSICOS E QUÍMICOS 
+Calor e frio 
+Os diferentes vírus exibem grande variabilidade na sua termo­
+estabilidade. Os vírus icosaédricos tendem a ser estáveis, com 
+pouca perda da infecciosidade depois de algumas horas a 37ºC. 
+Os vírus com envelope são muito mais termolábeis, com rápi­
+da queda dos títulos a 37ºC. Em geral, a infecciosidade do vírus 
+é destruída por aquecimento a 50 a 60ºC durante 30 minutos, 
+embora existam algumas exceções notáveis (p. ex., vírus da he­
+patite B, poliomavírus). 
+Os vírus podem ser preservados por armazenamento a 
+temperaturas de subcongelamento, e alguns podem resistir à 
+liofilização, podendo ser preservados no estado seco a 4 ºC ou 
+
+===== pdf p. 428 =====
+420 
+SEÇÃO IV Virologia 
+mesmo à temperatura ambiente. Os vírus que resistem à liofili­
+zação são mais termorresistentes quando aquecidos no estado 
+seco. Os vírus com envelope tendem a perder a infecciosidade 
+após armazenamento prolongado mesmo a 90ºC, mostrando­
+se, desse modo, particularmente sensíveis ao congelamento e 
+descongelamento repetidos. 
+Estabilização dos vírus por sais 
+Muitos vírus podem ser estabilizados por sais em concentra­
+ções de 1 moVL, isto é, os vírus não são inativados nem mes­
+mo por aquecimento a SOºC durante 1 hora. Desconhece-se o 
+mecanismo pelo qual os sais estabilizam as preparações virais. 
+Os vírus são preferencialmente estabilizados por determinados 
+sais. O MgC12, 1 moVL, estabiliza os picornavírus e os reovírus; 
+o MgSO 4, 1 mol/L, estabiliza os ortomixovírus e os paramixo­
+vírus; e o Na2S04, 1 moVL, estabiliza os herpes-vírus. 
+A estabilidade dos vírus é importante na preparação das vaci­
+nas. A vacina antipólio oral comum não estabilizada deve ser con­
+servada a temperaturas de congelamento para se preservar a sua 
+potência. Todavia, com o acréscimo de sais para a estabilização do 
+vírus, a potência pode ser mantida durante semanas à temperatu­
+ra ambiente, mesmo às altas temperaturas dos trópicos. 
+pH 
+Em geral, os vírus são estáveis entre valores de pH de 5,0 a 
+9,0. Alguns vírus (p. ex., enterovírus) mostram-se resistentes a 
+condições ácidas. Todos os vírus são destruídos por condições 
+alcalinas. Nas reações de hemaglutinação, variações inferiores 
+a 1 unidade de pH podem influir no resultado. 
+Radiação 
+A luz UV, os raios X e as partículas de alta energia inativam 
+os vírus. A dose varia de acordo com os diferentes vírus. A in­
+fecciosidade constitui a propriedade mais sensível à radiação, 
+visto que a replicação requer a expressão de todo o conteúdo 
+genético. As partículas irradiadas incapazes de sofrer replica­
+ção ainda podem ter a capacidade de expressar algumas fun­
+ções específicas nas células do hospedeiro. 
+Suscetibilidade ao éter 
+Pode-se utilizar a suscetibilidade ao éter para distinguir os ví­
+rus que têm envelope daqueles que não o possuem. A sensibi­
+lidade de diferentes grupos de vírus ao éter é apresentada no 
+Quadro 29 .1. 
+Detergentes 
+Os detergentes não iônicos - como, por exemplo, Nonidet 
+P40 e Triton X-100 - solubilizam os componentes lipídicos 
+das membranas virais. As proteínas virais do envelope são libe­
+radas (não desnaturadas). Os detergentes aniônicos - como, 
+por exemplo, o dodecil sulfato de sódio - também solubilizam 
+o envelope viral; além disso, rompem os capsídeos em polipep­
+tídeos distintos. 
+Formaldeído 
+O formaldeído destrói a infecciosidade viral ao reagir com 
+o ácido nucleico. Os vírus com genomas de fita simples são 
+inativados muito mais rapidamente do que os que apresentam 
+genomas de fita dupla. O formaldeído exerce efeitos adversos 
+mínimos sobre a antigenicidade das proteínas, e por isso tem 
+sido utilizado com frequência na produção de vacinas com ví­
+rus inativados. 
+1 nativação fotodinâmica 
+Os vírus deixam-se penetrar em graus variáveis por corantes 
+vitais, como o azul de toluidina, vermelho neutro e proflavi­
+na. Esses corantes ligam-se ao ácido nucleico viral, de modo 
+que o vírus se torna suscetível à inativação pela luz visível. O 
+vermelho-neutro costuma ser utilizado para corar ensaios de 
+placa, de modo que as placas possam ser mais facilmente visua­
+lizadas. Adicionado o vermelho-neutro, as placas do ensaio 
+devem ser protegidas da luz brilhante; caso contrário, existe 
+o risco de a progênie viral ser inativada, com a interrupção do 
+desenvolvimento da placa. 
+Antibióticos e outros antibacterianos 
+Os antibióticos antibacterianos e as sulfonamidas não exercem 
+efeito algum sobre os vírus. Entretanto, alguns antivirais estão 
+disponíveis (ver Cap. 30). 
+Em geral, os compostos de amônio quaternário não são efi­
+cazes contra os vírus. Os compostos de iodo orgânico também 
+são ineficazes. São necessárias concentrações maiores de cloro 
+para destruir os vírus do que para matar as bactérias, sobretudo 
+na presença de proteínas estranhas. Por exemplo, o tratamento 
+das fezes com cloro, adequado para inativar os bacilos da febre 
+tifoide, mostra-se inadequado para destruir os vírus da polio­
+mielite presentes nas fezes. Os alcoóis, como o isopropanol e o 
+etanol, são relativamente ineficazes contra determinados vírus, 
+em particular os picornavírus. 
+Métodos comuns de inativação dos vírus 
+para várias finalidades 
+Os vírus podem ser inativados por várias razões: para esterilizar 
+materiais de laboratório e equipamentos, desinfetar superfícies 
+ou a pele, tornar a água potável segura e produzir vacinas com 
+vírus inativados. São utilizados diferentes métodos e substân­
+cias químicas para essas finalidades. 
+A esterilização pode ser alcançada por meio de vapor sob 
+pressão, calor seco, óxido de etileno e irradiação gama (y). A 
+desinfecção de superfícies inclui o emprego de hipoclorito de 
+sódio, glutaraldeído, formaldeído e ácido peracético. Entre os 
+desinfetantes da pele incluem-se a clorexidina, o etanol a 70% 
+e os iodóforos. A produção de vacinas pode envolver o uso de 
+formaldeído, Â-propiolactona, psoraleno mais irradiação UV 
+ou detergentes (vacinas de subunidades) para inativar os vírus 
+• 
+• 
+vacmais. 
+REPLICAÇÃO DOS VÍRUS: UM RESUMO 
+Os vírus só se multiplicam em células vivas. A célula hospe­
+deira deve fornecer a energia e o mecanismo de síntese, bem 
+como os precursores de baixo peso molecular para síntese das 
+proteínas e dos ácidos nucleicos virais. O ácido nucleico viral 
+transporta a especificidade genética para codificar todas as 

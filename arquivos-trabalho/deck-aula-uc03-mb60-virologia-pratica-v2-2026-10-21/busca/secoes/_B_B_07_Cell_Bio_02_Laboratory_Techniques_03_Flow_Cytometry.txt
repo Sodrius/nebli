@@ -1,0 +1,5 @@
+# #AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::03_Flow_Cytometry (4 notas)
+1468605505369 1-HighYield Flow cytometry is a laboratory technique used to assess size, granularity, and protein expression of individual cells in a sample
+1468605522020 2-RelativelyHighYield In flow cytometry , cells are tagged with antibodies specific to surface or intracellular proteins
+1468605530742 2-RelativelyHighYield In flow cytometry , antibodies are tagged with a unique fluorescent dye, which is detected and counted during analysis
+1478995034893 - Paroxysmal nocturnal hemoglobinuria (PNH) may be confirmed via flow cytometry , which detects a lack of CD 55 and CD 59

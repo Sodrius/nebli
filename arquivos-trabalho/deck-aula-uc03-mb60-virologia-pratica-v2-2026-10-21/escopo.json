@@ -1,0 +1,166 @@
+{
+ "ciclo": "básico",
+ "justificativa": "Princípios dos métodos de estudo e diagnóstico viral (o que cada método detecta, para que serve e seu limite), como base para a virologia clínica; sem protocolo de bancada, clínica ou tratamento.",
+ "clinica_lateral": [],
+ "clinica_e_tema": false,
+ "motivo_tema": "",
+ "ordem_da_fala": [
+  [
+   1,
+   38
+  ],
+  [
+   90,
+   120
+  ],
+  [
+   39,
+   77
+  ]
+ ],
+ "historia": "A aula mostra como se estuda e se diagnostica um vírus. Primeiro separa os métodos em diretos, que acham o vírus, seu antígeno ou seu ácido nucleico, e indiretos, que acham anticorpos. Depois segue o caminho do vírus no laboratório: ele é cultivado em células, ovos ou animais; conta-se por placas de lise, ou pelo ponto final (TCID50) quando não forma placas; e o efeito citopático (arredondamento, lise, sincícios, inclusões) só agrupa os vírus, sem identificá-los. A sorologia procura os anticorpos, por hemaglutinação e sua inibição, neutralização e ELISA, e a soroconversão confirma a infecção; por fim os métodos moleculares (hibridação, PCR, western blot) detectam o genoma e as proteínas e quantificam a carga viral.",
+ "linha_logica": [
+  {
+   "passo": "Os métodos de estudo de vírus são diretos (acham o vírus, o antígeno ou o ácido nucleico) ou indiretos (acham anticorpos)",
+   "mecanismo": false,
+   "liga_ao_proximo": "O método direto clássico é cultivar o vírus e contá-lo",
+   "cards": [
+    "au-metodos"
+   ]
+  },
+  {
+   "passo": "Cultivo: o vírus cresce em células, ovos ou animais; uma partícula gera uma placa de lise e o ponto final (TCID50) vale para quem não forma placa",
+   "mecanismo": true,
+   "liga_ao_proximo": "O que se vê na célula infectada é o efeito citopático",
+   "cards": [
+    "au-placa",
+    "au-tcid50"
+   ]
+  },
+  {
+   "passo": "Efeito citopático: a célula muda de forma, perde adesão, lisa, funde (sincícios) ou forma inclusões; só agrupa os vírus, sem identificá-los",
+   "mecanismo": true,
+   "liga_ao_proximo": "Para identificar o vírus ou a resposta do paciente, a sorologia procura anticorpos",
+   "cards": [
+    "au-cpe-def",
+    "au-cpe-tipos",
+    "ak1506298786823",
+    "ak1506299172244",
+    "ak1503861947945",
+    "ak1516475827100",
+    "ak1506290563519",
+    "ak1516475620459",
+    "ak1385335604751"
+   ]
+  },
+  {
+   "passo": "Sorologia: hemaglutinação titula o vírus e sua inibição identifica o tipo; neutralização e ELISA acham anticorpos; soroconversão confirma a infecção",
+   "mecanismo": true,
+   "liga_ao_proximo": "Os métodos moleculares dispensam o cultivo e detectam o genoma e as proteínas",
+   "cards": [
+    "au-soroconversao",
+    "au-igm",
+    "au-ha",
+    "au-neut",
+    "ak1468605640090",
+    "ak1468605649044",
+    "ak1520277897542"
+   ]
+  },
+  {
+   "passo": "Moleculares: hibridação com sonda, PCR em tempo real (carga viral) e western blot detectam o genoma e as proteínas virais",
+   "mecanismo": true,
+   "liga_ao_proximo": "",
+   "cards": [
+    "ak1468549239653",
+    "ak1468549248441",
+    "ak1468549297186",
+    "ak1468605422972",
+    "ak1468605428299",
+    "ak1468605437554",
+    "ak1468605447110",
+    "ak1506535130975",
+    "ak1468549285757",
+    "ak1468549288868"
+   ]
+  }
+ ],
+ "cards_de_conexao": [
+  "au-metodos",
+  "au-soroconversao"
+ ],
+ "provas": [
+  {
+   "id": "2025 P3 3.3",
+   "cards": [
+    "au-metodos",
+    "ak1468605422972",
+    "au-ha",
+    "ak1468605640090"
+   ]
+  },
+  {
+   "id": "2015 P2 4.7",
+   "cards": [
+    "au-soroconversao",
+    "au-igm"
+   ]
+  },
+  {
+   "id": "2015 P2 4.3",
+   "cards": [
+    "au-cpe-def",
+    "ak1506298786823"
+   ]
+  },
+  {
+   "id": "2024 P3 1.6",
+   "cards": [
+    "au-igm",
+    "au-ha",
+    "ak1468605640090"
+   ]
+  },
+  {
+   "id": "2018 P3 1.2",
+   "cards": [
+    "au-ha"
+   ]
+  },
+  {
+   "id": "2018 P3 1.6",
+   "cards": [
+    "au-soroconversao",
+    "au-ha"
+   ]
+  }
+ ],
+ "uso_das_fontes": {
+  "aula": [
+   "au-metodos",
+   "au-placa",
+   "au-cpe-def",
+   "au-neut",
+   "ak1468605422972"
+  ],
+  "prova": [
+   "au-ha",
+   "au-soroconversao",
+   "au-igm",
+   "ak1468605640090",
+   "ak1506298786823"
+  ],
+  "bibliografia": [
+   "au-cpe-def",
+   "ak1516475620459",
+   "ak1506535130975",
+   "au-placa"
+  ],
+  "apostila": [
+   "au-cpe-tipos",
+   "ak1506299172244",
+   "ak1516475827100",
+   "au-tcid50"
+  ]
+ }
+}

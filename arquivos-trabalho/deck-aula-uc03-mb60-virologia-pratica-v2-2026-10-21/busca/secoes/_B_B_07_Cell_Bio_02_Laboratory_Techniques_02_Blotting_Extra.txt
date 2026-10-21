@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::02_Blotting::Extra (5 notas)
+1468549213267 3-HighYield-temporary DNA requires fragmentation for analysis , RNA and proteins do not (analyzed directly)
+1468549269015 2-RelativelyHighYield A Northern blot is useful for studying gene expression
+1468549318455 2-RelativelyHighYield A(n) Southwestern blot is used to identify DNA-binding proteins using labeled oligonucleotide probes
+1468597206819 3-HighYield-temporary RFLP analysis analyzes DNA using variations in restriction enzyme sites between homologous DNA strands
+1550834594078 - Sickle cell anemia

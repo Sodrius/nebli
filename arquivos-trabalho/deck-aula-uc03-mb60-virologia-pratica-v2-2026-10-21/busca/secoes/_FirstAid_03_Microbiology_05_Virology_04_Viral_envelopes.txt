@@ -1,0 +1,32 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::04_Viral_envelopes (31 notas)
+1502063652542 3-HighYield-temporary Enveloped viruses can have either an icosahedral or helical shape (whereas naked viruses are all icosahedral)
+1502066300073 1-HighYield Does HIV have an envelope ? Yes
+1502570324908 2-RelativelyHighYield Which virus makes its own envelope , unlike most viruses? Poxvirus
+1503853445009 2-RelativelyHighYield Epstein-Barr virus is enveloped
+1503858318113 3-HighYield-temporary Cytomegalovirus (CMV) is enveloped
+1506289877609 3-HighYield-temporary Does VZV have an envelope ? Yes
+1506297239258 1-HighYield Do paramyxoviruses have an envelope ? Yes
+1506551427767 1-HighYield Does hepatitis B have an envelope ? Yes
+1506554886218 1-HighYield Does hepatitis D virus have an envelope ? Yes
+1506557605208 2-RelativelyHighYield Does hepatitis A have an envelope ? No (naked)
+1506557676034 2-RelativelyHighYield Does hepatitis E have an envelope ? No (naked)
+1506557679434 1-HighYield Does hepatitis C have an envelope ? Yes
+1506609314164 1-HighYield Do picornaviruses have an envelope ? No (naked)
+1506627488843 4-LowerYield Do flaviviruses have an envelope ? Yes
+1516218073027 2-RelativelyHighYield Is poliovirus enveloped ? No (naked)
+1516220529085 3-HighYield-temporary Is coxsackievirus enveloped ? No (naked)
+1516222094329 3-HighYield-temporary Is rhinovirus enveloped ? No (naked)
+1516236783990 2-RelativelyHighYield Are caliciviruses enveloped ? No (naked)
+1516239246402 2-RelativelyHighYield Is rubella enveloped ? Yes
+1516239274326 3-HighYield-temporary Are togaviruses enveloped ? Yes
+1516242033603 1-HighYield Is coronavirus enveloped ? Yes
+1516321146201 1-HighYield Are orthomyxoviruses enveloped ? Yes
+1516473150103 2-RelativelyHighYield Is rhabdovirus enveloped ? Yes
+1516557388594 5-LowYield Are filoviruses enveloped ? Yes
+1516558470012 5-LowYield Are bunyaviruses enveloped ? Yes
+1516558496972 4-LowerYield Bunyaviruses are a class of RNA viruses that obtain their envelope from host cell's Golgi apparatus (Golgi body complex)
+1516663668993 5-LowYield Are arenaviruses enveloped ? Yes
+1516665343741 3-HighYield-temporary Are reoviruses enveloped ? No (naked)
+1516850223865 2-RelativelyHighYield Are polyomaviruses enveloped ? No (naked)
+1516927290535 2-RelativelyHighYield Is parvovirus B19 enveloped ? No (naked)
+1516929856097 2-RelativelyHighYield Is adenovirus enveloped ? No (naked)

@@ -1,0 +1,11 @@
+# #AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::01_Polymerase_Chain_Reaction (10 notas)
+1467771853847 2-RelativelyHighYield DNA polymerase must see a(n) RNA primer to bind, which is complementary and antiparallel to the template strand
+1468549192518 4-LowerYield Cloning : Isolated mRNA is exposed to reverse transcriptase to produce cDNA (lacks introns)
+1468605422972 2-RelativelyHighYield Polymerase chain reaction (PCR) is a powerful diagnostic tool used to amplify a desired fragment of DNA
+1468605428299 2-RelativelyHighYield In the first step of PCR , DNA is denatured by using heat to separate the strands
+1468605437554 2-RelativelyHighYield In the second step of PCR , DNA primers anneal to specific sequences on each DNA strand to be amplified
+1468605447110 2-RelativelyHighYield In the final step of PCR , heat-stable Taq DNA polymerase elongates the DNA sequence following each primer
+1468605460088 2-RelativelyHighYield How many primers are needed for polymerase chain reaction (PCR)? Two (one for the 3' end of each DNA strand)
+1468605476084 2-RelativelyHighYield What type of primer is used in a polymerase chain reaction (PCR)? DNA primer
+1468605486456 2-RelativelyHighYield Which end of the DNA strand does the DNA primer bind to during PCR? 3' end
+1468605494779 2-RelativelyHighYield PCR requires the addition of all four deoxyribonucleotide triphosphates (dNTPs) for DNA synthesis

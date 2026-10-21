@@ -1,0 +1,34 @@
+chave	conceito	fonte_aula	veredito	lidos	decora	decisao
+au-metodos	Métodos diretos × indiretos	Slide 3	lacuna	1520277897542 1552864862676 1487207141168	virus	Há cards de PCR, ELISA e blots isolados; nenhum separa métodos diretos (vírus, antígeno, ácido nucleico) de indiretos (anticorpos), organização de abertura da aula.
+au-placa	Ensaio de placas de lise	Slide 21	lacuna	1516930966434 1475966884086 1501984013065	one	O AnKing não traz o ensaio de placas de lise: uma partícula infecciosa gera uma placa, contada como PFU.
+au-tcid50	Endpoint: TCID50	Slide 37	lacuna	1582847241587 1503876156644 1490066320396	cytopathic effect	O AnKing não traz o método do ponto final e a dose infecciosa em cultura (TCID50) para vírus que não formam placa.
+au-cpe-def	Efeito citopático: agrupamento preliminar	Slide 91	lacuna	1516321076508 1502063631440 1502152053718	preliminary	O AnKing traz inclusões e sincícios por vírus; nenhum diz que o efeito citopático só agrupa preliminarmente os vírus, sem identificá-los.
+au-cpe-tipos	Efeito citopático por vírus	Slide 96	lacuna	1506299172244 1506299214372 1506299289407	rounding	Nenhum card compara a morfologia do efeito citopático entre poliovírus, adenovírus e sarampo, tabela da aula.
+ak1503861947945	CMV: inclusão nuclear em olho de coruja	Slide 102	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506298786823	Paramixovírus: proteína F funde células	Slide 103	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506290563519	Esfregaço de Tzanck: células gigantes de VZV, HSV e CMV	Slide 106	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506299172244	Sarampo: células gigantes de Warthin-Finkeldey	Slide 107	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-soroconversao	Soroconversão: soro agudo × convalescente	Slide 40	lacuna	1577977582892 1500670402362 1487207240713	titer	Há cards de IgM e IgG e de HIV; nenhum define soroconversão como aumento de título entre soro agudo e convalescente, cobrado em prova.
+au-igm	IgM × IgG na sorologia viral	Slide 40	lacuna	1478995247466 1487207122541 1487117187498	recent	Não há card com IgM como infecção recente e IgG como exposição passada ou memória na sorologia viral.
+au-ha	Hemaglutinação e inibição da hemaglutinação	Slide 42	lacuna	1506551385636 1593878223549 1487121958371	inhibition	Não há card de hemaglutinação para titular o vírus e de sua inibição por anticorpo para identificar o tipo, cobrado em prova.
+au-neut	Neutralização de vírus	Slide 48	lacuna	1503857456202 1480564052470 1502041177498	infectivity	Não há card do teste de neutralização por anticorpos que bloqueiam a infectividade do vírus.
+ak1468605640090	ELISA detecta antígeno ou anticorpo específico	Slide 53	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1520277897542	ELISA direto detecta antígeno; indireto, anticorpo	Slide 54	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468549239653	Southern blot analisa DNA	Slide 57	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468549248441	Northern blot analisa RNA	Slide 57	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468549297186	Southern e Northern: sonda de oligonucleotídeo marcado	Slide 58	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468605428299	PCR, 1º passo: calor desnatura as fitas	Slide 61	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468605437554	PCR, 2º passo: primers se ligam às fitas	Slide 61	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468605447110	PCR, passo final: Taq alonga após cada primer	Slide 61	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468605460088	PCR usa dois primers	Slide 61	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468605476084	O primer da PCR é de DNA	Slide 61	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468605486456	O primer da PCR liga ao extremo 3'	Slide 61	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468605494779	A PCR usa os quatro dNTPs	Slide 61	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468605422972	PCR amplifica um fragmento de DNA	Slide 62	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506535130975	Carga viral: quantifica o RNA viral no plasma	Slide 66	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468549285757	Western blot analisa proteína	Slide 67	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468549222931	Eletroforese separa fragmentos pelo tamanho	Slide 67	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468549213267	DNA precisa de fragmentação; RNA e proteína não	Slide 67	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468549231401	Nos blots a sonda define o que é detectado	Slide 67	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1468549288868	Western blot: sonda é anticorpo marcado	Slide 68	coberto			card de acervo achado por seção, palavra-chave ou significado
+ak1506535107169	HIV: teste confirmatório por imunoensaio de diferenciação	Slide 69	coberto			card de acervo achado por seção, palavra-chave ou significado

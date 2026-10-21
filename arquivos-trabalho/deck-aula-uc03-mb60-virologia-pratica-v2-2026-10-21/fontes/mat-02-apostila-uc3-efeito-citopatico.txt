@@ -1,0 +1,48 @@
+=== p.405
+405 
+ 
+ 
+ 
+ 
+Efeito Citopático -  ver imagens no ppt! 
+A presença de vírus em células em cultura pode induzir alterações visíveis ao microscópio. Estas 
+alterações são conhecidas como conjuntamente como efeito citopático. Estas alterações são 
+resultantes das alterações fisiológicas da célula hospedeira por interferência dos vírus. O efeito 
+citopático não permite, no entanto, a identificação do vírus, mas fornece uma base para um 
+agrupamento preliminar destes. Efeito citopático refere-se a alterações degenerativas em células 
+(especialmente em cultura) associadas à multiplicação de certos vírus. 
+As alterações celulares incluem:  
+➢ forma alterada;  
+➢ perda de adesão ao substrato;  
+➢ lise;  
+➢ fusão de membrana (sincícios);  
+➢ presença de corpos de inclusão;  
+➢ apoptose.  
+Cultura de epitélio normal:  
+Poliovírus podem ocasionar células pequenas e arredondadas, com citoplasma eosinófilo e núcleo 
+picnótico. Há uma lise rápida do tapete celular e seu tempo de incubação varia de 2 a 7 dias.  
+Adenovírus podem ocasionar células arredondadas e aumentadas em tamanho, com núcleo 
+alterado e com a presença de corpúsculo de inclusão nuclear, basófilo. Há descolamento do tapete e 
+há grande quantidade de lise celular, mas também há a presença de células em formação de “cachos 
+de uva” sem lise. O tempo de incubação do vírus varia de 4 a 21 dias.  
+
+=== p.406
+406 
+ 
+ 
+ 
+ 
+O vírus do sarampo é característico por ocasionar sincícios gigantes, com 30 a 100 núcleos, além 
+da formação de pontes citoplasmáticas e corpúsculos de inclusão citoplasmáticos, mas mantendo os 
+núcleos celulares íntegros. O tempo de incubação varia 7 a 21 dias.  
+O vírus herpes é característico por ocasionar sincícios com forma estrelada – pontes 
+citoplasmáticas; núcleo com corpúsculo de inclusão eosinófilo, circundado por halo claro. O tempo de 
+incubação do vírus varia de 7 a 21 dias.  
+O vírus vaccínia provoca sincícios pequenos e arredondados, com núcleos íntegros com 
+visualização dos nucléolos, além de corpúsculos de inclusão citoplasmáticos. O tempo de incubação 
+varia de 4 a 21 dias.  
+ 
+Antivirais  
+Há poucas patologias virais para as quais temos tratamentos eficazes, pois além da alta 
+dependência da maquinaria celular do hospedeiro, os vírus possuem estratégias e proteínas muito 
+variadas, dificultando o desenvolvimento de um antiviral que possa atingir mais de um tipo de vírus. A 

@@ -1,0 +1,175 @@
+{
+ "decks_uc08": [
+  "NEBLI::UC08",
+  "NEBLI::UC08::P1",
+  "NEBLI::UC08::P1::Anatomia",
+  "NEBLI::UC08::P1::Anatomia::Esôfago, estômago e intestino delgado",
+  "NEBLI::UC08::P1::Anatomia::Intestino grosso e canal anal",
+  "NEBLI::UC08::P1::Anatomia::Vascularização das vísceras",
+  "NEBLI::UC08::P1::Biologia Tecidual",
+  "NEBLI::UC08::P1::Biologia Tecidual::Estrutura do estômago",
+  "NEBLI::UC08::P1::Biologia Tecidual::Intestinos",
+  "NEBLI::UC08::P1::Fisiologia",
+  "NEBLI::UC08::P1::Fisiologia::Motilidade I",
+  "NEBLI::UC08::P1::Fisiologia::Motilidade II",
+  "NEBLI::UC08::P2",
+  "NEBLI::UC08::P2::Fisiologia",
+  "NEBLI::UC08::P2::Fisiologia::Digestão e absorção dos nutrientes",
+  "NEBLI::UC08::P2::Fisiologia::Secreção gástrica"
+ ],
+ "compartilhados": {
+  "1792605657387": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#Bootcamp::Dermatology::02_Infectious_Diseases_of_the_Skin::02_Herpes_Simplex_and_Varicella_Infections",
+    "#AK_Step1_v12::#Bootcamp::Gastroenterology::03_Esophagus::07_Esophagitis",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::09_Herpes_Simplex_Virus_Diagnostics_and_Management",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::11_Varicella-Zoster_Virus_Diagnostics_and_Management",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::09_RNA_viruses",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::22_Rabies_virus",
+    "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "#AK_Step1_v12::#Physeo::06_Micro::01_Fundamentals::08_Viral_Genomes_&_Replication",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::33_Rabies_Virus",
+    "#AK_Step1_v12::#Physeo::^physeo_image_update",
+    "#AK_Step1_v12::#Pixorize::04_Microbiology::07_Viruses-DNA_Viruses::01_Herpesvirus_Overview",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::03_DNA::01_Herpes_Simplex_Virus_Types_1_&_2_(Herpesviridae)",
+    "NEBLI::2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+    "NEBLI::cor::2026-uc03-microbiologia-58-multiplicacao-viral-antivirais::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::G-montagem-liberacao",
+    "NEBLI::ordem::mb58-66",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb58-20261021a",
+    "NEBLI::source::nid-1516475827100"
+   ],
+   "cards": {
+    "1792605657387": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Multiplicação viral e antivirais"
+   ]
+  },
+  "1792605657078": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::29_Negative-sense_RNA_Viruses::12_Rabies",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::33_Infectious_Neuropathology::09_Infectious_Spinal_Cord_and_Neuromuscular_Junction",
+    "#AK_Step1_v12::#DirtyMedicine::20_High_Yield_Images::03_High_Yield_USMLE/COMLEX_Images_(pt._3)",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::09_RNA_viruses",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::22_Rabies_virus",
+    "#AK_Step1_v12::#Low/HighYield::3-HighYield-temporary",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "#AK_Step1_v12::#Physeo::06_Micro::01_Fundamentals::08_Viral_Genomes_&_Replication",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::33_Rabies_Virus",
+    "#AK_Step1_v12::#Physeo::^physeo_image_update",
+    "#AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::28_Rhabdovirus",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::02_RNA_(-)_Sense::04_Rabies_virus_(Rhabdoviridae)",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::04_Retired_Lessons::05_Rabies_Virus_(Rhabdoviridae)_[Old_Version]",
+    "NEBLI::2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+    "NEBLI::cor::2026-uc03-microbiologia-58-multiplicacao-viral-antivirais::azul",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::G-montagem-liberacao",
+    "NEBLI::ordem::mb58-65",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb58-20261021a",
+    "NEBLI::source::nid-1516475620459"
+   ],
+   "cards": {
+    "1792605657078": 4
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Multiplicação viral e antivirais"
+   ]
+  },
+  "1791984889104": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+    "#AK_Other::^EXPN::BGedit",
+    "#AK_Other::^EXPN::Uworld",
+    "#AK_Other::AnKing_Image::!Subjects::Microbiology::HPV_koilocytes",
+    "#AK_Other::AnKing_Image::Victor::hpv_koilocytes",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#B&B::08_Derm::01_General::03_Skin_Disorders_I",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::02_DNA_Viruses",
+    "#AK_Step1_v12::#B&B::22_Repro::03_Vagina_Cervix_Uterus::02_Cervical_Cancer::Extra",
+    "#AK_Step1_v12::#B&B::22_Repro::06_Male_Disorders::01_Penile_Disorders",
+    "#AK_Step1_v12::#Bootcamp::Dermatology::02_Infectious_Diseases_of_the_Skin::03_Viral_Infectious_Conditions",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::03_Human_Papillomavirus_Pathogenesis",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::05_Human_Papillomavirus_Diagnostics_and_Management",
+    "#AK_Step1_v12::#Bootcamp::Reproduction::04_Female_Pathology::08_Cervical_Pathology",
+    "#AK_Step1_v12::#DirtyMedicine::20_High_Yield_Images::06_High_Yield_USMLE/COMLEX_Images_(pt._6)",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::05_DNA_viruses::*HPV",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::06_Systems::12_Sexually_transmitted_infections",
+    "#AK_Step1_v12::#FirstAid::15_Repro::04_Pathology::21_Cervical_pathology::*Condyloma",
+    "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+    "#AK_Step1_v12::#OME::Clinical::Ob/Gyn::Gynecology:_Gynecology_Oncology::Cervical_Cancer",
+    "#AK_Step1_v12::#Pathoma::13_Female::01_Vulva",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::09_Human_Papillomavirus",
+    "#AK_Step1_v12::#Physeo::11_Pathology::09_Reproductive_Pathology::08_Vulva",
+    "#AK_Step1_v12::#Physeo::^physeo_image_update",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::03_DNA::08_Human_Papillomavirus_(Papillomaviridae)",
+    "#AK_Step1_v12::#SketchyPath::08_Repro_&_GU::01_Uterine_&_Vulvovaginal_Disorders::02_Cervical_Neoplasia",
+    "#AK_Step1_v12::#UWorld::#UWSA3",
+    "#AK_Step1_v12::#UWorld::COMLEX::24126",
+    "#AK_Step1_v12::#UWorld::COMLEX::26151",
+    "#AK_Step1_v12::#UWorld::Step::1015",
+    "#AK_Step1_v12::#UWorld::Step::15203",
+    "#AK_Step1_v12::^Systems::Reproductive::Pathology",
+    "#AK_Step2_v12::!Shelf::ObGyn::no_dupes",
+    "#AK_Step2_v12::#B&B::11_Obstetrics_and_Gynecology::02_Gynecology::09_Cervical_Cancer::Extra",
+    "#AK_Step2_v12::#Resources_by_rotation::ObGyn::step1_obgyn_zanki",
+    "#AK_Step2_v12::Original_decks::Zanki_Step_2::ObGyn::Uwise_&_Step_1",
+    "NEBLI::2026-uc03-patologia-61-patologia-infeccao-viral",
+    "NEBLI::cor::2026-uc03-patologia-61-patologia-infeccao-viral::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::B-efeitos-celulares",
+    "NEBLI::ordem::pt61-12",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-pt61-20261014a",
+    "NEBLI::source::nid-1385335604751"
+   ],
+   "cards": {
+    "1791984889104": 3,
+    "1791984889105": 3,
+    "1791984889106": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Patologia::Patologia da infecção viral"
+   ]
+  },
+  "1792044821879": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Biochemistry::Molecular,_Cellular,_Genetics",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::04_ELISA",
+    "#AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::05_ELISA",
+    "#AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::06_Enzyme-linked_immunosorbent_assay",
+    "#AK_Step1_v12::#Low/HighYield::2-RelativelyHighYield",
+    "#AK_Step1_v12::#OME_banner",
+    "#AK_Step1_v12::#Physeo::05_Biochem::03_Lab_Techniques::04_Microarrays_&_ELISA",
+    "#AK_Step1_v12::#UWorld::#UWSA1",
+    "#AK_Step1_v12::#UWorld::Step::6522",
+    "#AK_Step1_v12::^Systems::Biochem::Labs",
+    "NEBLI::2026-uc03-microbiologia-40-pratica-3",
+    "NEBLI::cor::2026-uc03-microbiologia-40-pratica-3::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::E-sorologia-e-sensibilidade",
+    "NEBLI::ordem::mb40-33",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb40-20261015a",
+    "NEBLI::source::nid-1468605649044"
+   ],
+   "cards": {
+    "1792044821880": 3,
+    "1792044821879": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P2::Microbiologia::Prática 3 — identificação bacteriana"
+   ]
+  }
+ },
+ "at": "2026-10-21T21:06:52.770828+00:00"
+}

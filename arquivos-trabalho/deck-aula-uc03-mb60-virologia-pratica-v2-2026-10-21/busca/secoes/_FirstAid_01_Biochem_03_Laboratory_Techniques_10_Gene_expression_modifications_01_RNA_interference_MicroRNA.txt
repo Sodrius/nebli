@@ -1,0 +1,4 @@
+# #AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::10_Gene_expression_modifications::01_RNA_interference::*MicroRNA (3 notas)
+1467927177492 3-HighYield-temporary microRNAs are small, noncoding RNA molecules that post-transcriptionally regulate protein expression
+1467927184068 3-HighYield-temporary microRNA often leads to the silencing/inactivation of target mRNA , thus causing decreased translation into protein
+1467927192491 3-HighYield-temporary Abnormal expression of miRNAs contributes to certain malignancies (e.g., by silencing an mRNA from a tumor suppressor gene)

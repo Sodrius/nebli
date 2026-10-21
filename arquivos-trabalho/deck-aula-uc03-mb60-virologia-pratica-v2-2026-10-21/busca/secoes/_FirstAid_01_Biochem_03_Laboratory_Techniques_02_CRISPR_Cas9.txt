@@ -1,0 +1,5 @@
+# #AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::02_CRISPR/Cas9 (4 notas)
+1519849478653 3-HighYield-temporary CRISPR/Cas9 is a genome editing tool that is derived from bacteria to knock in / out any DNA sequence
+1519849576725 3-HighYield-temporary At its core, CRISPR/Cas9 utilizes an endonuclease (Cas9) and a(n) guide RNA that binds to a complementary target DNA sequence
+1519849762394 3-HighYield-temporary When using CRISPR/Cas9 that introduce a double strand break to knock-out target DNA, nonhomologous end joining (NHEJ) enzymes repair the gap introduced by this Cas9 variant
+1519850675647 3-HighYield-temporary When using CRISPR/Cas9 to knock-in DNA, a(n) repair template must be added to guide insertion of a construct

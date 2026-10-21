@@ -1,0 +1,22 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::03_Viral_Genetics (21 notas)
+1506554724323 1-HighYield Hepatitis D virus cannot cause disease without hepatitis B HBsAg
+1516321532745 1-HighYield The segmented virus families may be remembered with the mnemonic " BOAR ": B unyavirus O rthomyxovirus A renavirus R eovirus
+1516321532746 1-HighYield The segmented virus families may be remembered with the mnemonic " BOAR "
+1516321589458 1-HighYield Antigenic variation of influenza viruses occurs with changes to viral hemagglutinin (HA) and neuraminidase (NA)
+1516322271299 1-HighYield Antigenic variation can be due to antigenic drift or antigenic shift
+1516322855117 1-HighYield Antigenic drift occurs when there are point mutations in hemagglutinin or neuraminidase
+1516322946030 3-HighYield-temporary Antigenic drift explains why we need a flu shot each year
+1516323022237 1-HighYield Antigenic drift is associated with epi demics
+1516323064948 1-HighYield Antigenic shift occurs with HA/NA reassortment amongst different species
+1516323168130 1-HighYield Antigenic shift is associated with pan demics
+1523805515855 2-RelativelyHighYield Which viral genetic phenomenon is characterized by virus A receiving nucleocapsid proteins from virus B intracellularly ? Phenotypic mixing
+1523806102995 2-RelativelyHighYield Which viral genetic phenomenon is characterized by virus A and virus B exchanging genes between two chromosomes ? Recombination
+1523806216737 2-RelativelyHighYield Which viral genetic phenomenon is characterized by virus A and virus B exchanging genomic segments intracellularly ? Reassortment
+1523806268806 3-HighYield-temporary Which viral genetic phenomenon is characterized by virus A providing a functional protein to replace the nonfunctional virus B protein? Complementation
+1523806341324 1-HighYield Which viral genetic phenomenon can cause antigenic shift ? Reassortment
+1523806372994 4-LowerYield Which viral genetic phenomenon is exhibited by HBV providing HBsAg for HDV ? Complementation
+1523806413782 3-HighYield-temporary During viral phenotypic mixing , will the viral progeny display changes? No
+1523806572714 3-HighYield-temporary During viral recombination , will the viral progeny display changes? Yes
+1523806616492 3-HighYield-temporary During viral reassortment , will the viral progeny display changes? Yes
+1523806626724 2-RelativelyHighYield Which viral genetic phenomenon is exhibited by acquisition of a new viral surface protein (e.g., sialic acid receptors)? Phenotypic mixing
+1523926575639 1-HighYield Which viral genetic phenomenon occurs in segmented viruses ? Reassortment

@@ -1,0 +1,198 @@
+{
+ "aula": "2026-uc03-microbiologia-60-virologia-pratica",
+ "feita_depois_de_instalar": true,
+ "cobertura_item_a_item": {
+  "ok": true,
+  "evidencia": "cobertura.json: 170 itens; exclusões com motivo no inventário"
+ },
+ "ordem_estrita_dos_slides": {
+  "ok": true,
+  "evidencia": "NEBLI::2026-uc03-microbiologia-60-virologia-pratica: 37 notas, prefixo 'mb60'"
+ },
+ "imagens_vistas": {
+  "ok": true,
+  "evidencia": "sem figura fora do AnKing"
+ },
+ "autorais_conferidos_no_livro": {
+  "ok": true,
+  "evidencia": "autorais conferidos contra as fontes de fontes-decl.json"
+ },
+ "autoral_sem_duplicar_alvo": {
+  "ok": true,
+  "evidencia": "0 compartilhados por sh(); coincidências de resposta com duplicacao_ok"
+ },
+ "dope_so_sem_alternativa": {
+  "ok": true,
+  "evidencia": "sem Dope"
+ },
+ "sem_credito_visivel": {
+  "ok": true,
+  "evidencia": "créditos AnKing removidos pelo build"
+ },
+ "ingles_nos_cards": {
+  "ok": true,
+  "evidencia": "frentes e Extras em inglês; lint 0 reprovação dura"
+ },
+ "hy_verde": {
+  "ok": true,
+  "evidencia": "17 AnKing HY 1–2: verdes ou com hy_repete/clinica_lateral justificado"
+ },
+ "tab_lido_por_amostra": {
+  "ok": false,
+  "pendente": "Tab não gerado nesta corrida (Codex depois); nada foi lido"
+ },
+ "erros_anteriores_do_memory": {
+  "ok": true,
+  "evidencia": "escopo pela regra de 12/10 (sem coleção de exemplos), cor justificada, pistas fora da figura"
+ },
+ "cards": {
+  "au-metodos": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "au-placa": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "au-tcid50": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "au-cpe-def": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "au-cpe-tipos": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1503861947945": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1506298786823": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1506290563519": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1506299172244": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "au-soroconversao": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "au-igm": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "au-ha": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "au-neut": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468605640090": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1520277897542": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468549239653": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468549248441": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468549297186": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468605428299": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468605437554": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468605447110": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468605460088": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468605476084": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468605486456": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468605494779": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468605422972": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1506535130975": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468549285757": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468549222931": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468549213267": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468549231401": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1468549288868": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "ak1506535107169": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1792605657387": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1792605657078": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791984889104": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1792044821879": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  }
+ }
+}

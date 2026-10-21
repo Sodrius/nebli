@@ -1,0 +1,1152 @@
+{
+ "aula": "Virologia prática: métodos de estudo e diagnóstico (UC03 P3; Microbiologia)",
+ "feito_antes_de_montar": true,
+ "alvos": [
+  {
+   "id": "mb60-s03-i3-1",
+   "slide": "3",
+   "alvo": "Métodos diretos × indiretos",
+   "fontes": [
+    "slide 3"
+   ],
+   "origem_prevista": "au-metodos"
+  },
+  {
+   "id": "mb60-s04-i4-a1",
+   "slide": "4",
+   "alvo": "Apoio ao card au-metodos",
+   "fontes": [
+    "slide 4"
+   ],
+   "origem_prevista": "au-metodos"
+  },
+  {
+   "id": "mb60-s05-i5-a1",
+   "slide": "5",
+   "alvo": "Apoio ao card au-metodos",
+   "fontes": [
+    "slide 5"
+   ],
+   "origem_prevista": "au-metodos"
+  },
+  {
+   "id": "mb60-s06-i6-a1",
+   "slide": "6",
+   "alvo": "Apoio ao card au-metodos",
+   "fontes": [
+    "slide 6"
+   ],
+   "origem_prevista": "au-metodos"
+  },
+  {
+   "id": "mb60-s07-i7-a1",
+   "slide": "7",
+   "alvo": "Apoio ao card au-metodos",
+   "fontes": [
+    "slide 7"
+   ],
+   "origem_prevista": "au-metodos"
+  },
+  {
+   "id": "mb60-s08-i8-a1",
+   "slide": "8",
+   "alvo": "Apoio ao card au-metodos",
+   "fontes": [
+    "slide 8"
+   ],
+   "origem_prevista": "au-metodos"
+  },
+  {
+   "id": "mb60-s09-i9-a1",
+   "slide": "9",
+   "alvo": "Apoio ao card au-metodos",
+   "fontes": [
+    "slide 9"
+   ],
+   "origem_prevista": "au-metodos"
+  },
+  {
+   "id": "mb60-s10-i10-a1",
+   "slide": "10",
+   "alvo": "Apoio ao card au-metodos",
+   "fontes": [
+    "slide 10"
+   ],
+   "origem_prevista": "au-metodos"
+  },
+  {
+   "id": "mb60-s11-i11-a1",
+   "slide": "11",
+   "alvo": "Apoio ao card au-metodos",
+   "fontes": [
+    "slide 11"
+   ],
+   "origem_prevista": "au-metodos"
+  },
+  {
+   "id": "mb60-s12-i12-a1",
+   "slide": "12",
+   "alvo": "Apoio ao card au-metodos",
+   "fontes": [
+    "slide 12"
+   ],
+   "origem_prevista": "au-metodos"
+  },
+  {
+   "id": "mb60-s13-i13-a1",
+   "slide": "13",
+   "alvo": "Apoio ao card au-metodos",
+   "fontes": [
+    "slide 13"
+   ],
+   "origem_prevista": "au-metodos"
+  },
+  {
+   "id": "mb60-s14-i14-a1",
+   "slide": "14",
+   "alvo": "Apoio ao card au-metodos",
+   "fontes": [
+    "slide 14"
+   ],
+   "origem_prevista": "au-metodos"
+  },
+  {
+   "id": "mb60-s16-i16-a1",
+   "slide": "16",
+   "alvo": "Apoio ao card au-soroconversao",
+   "fontes": [
+    "slide 16"
+   ],
+   "origem_prevista": "au-soroconversao"
+  },
+  {
+   "id": "mb60-s17-i17-a1",
+   "slide": "17",
+   "alvo": "Apoio ao card au-soroconversao",
+   "fontes": [
+    "slide 17"
+   ],
+   "origem_prevista": "au-soroconversao"
+  },
+  {
+   "id": "mb60-s18-i18-a1",
+   "slide": "18",
+   "alvo": "Apoio ao card au-soroconversao",
+   "fontes": [
+    "slide 18"
+   ],
+   "origem_prevista": "au-soroconversao"
+  },
+  {
+   "id": "mb60-s19-i19-a1",
+   "slide": "19",
+   "alvo": "Apoio ao card au-soroconversao",
+   "fontes": [
+    "slide 19"
+   ],
+   "origem_prevista": "au-soroconversao"
+  },
+  {
+   "id": "mb60-s20-i20-a1",
+   "slide": "20",
+   "alvo": "Apoio ao card au-soroconversao",
+   "fontes": [
+    "slide 20"
+   ],
+   "origem_prevista": "au-soroconversao"
+  },
+  {
+   "id": "mb60-s21-i21-1",
+   "slide": "21",
+   "alvo": "Ensaio de placas de lise",
+   "fontes": [
+    "slide 21"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s22-i22-a1",
+   "slide": "22",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 22"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s23-i23-a1",
+   "slide": "23",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 23"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s24-i24-a1",
+   "slide": "24",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 24"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s25-i25-a1",
+   "slide": "25",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 25"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s26-i26-a1",
+   "slide": "26",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 26"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s27-i27-a1",
+   "slide": "27",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 27"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s28-i28-a1",
+   "slide": "28",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 28"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s29-i29-a1",
+   "slide": "29",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 29"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s30-i30-a1",
+   "slide": "30",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 30"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s31-i31-a1",
+   "slide": "31",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 31"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s32-i32-a1",
+   "slide": "32",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 32"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s33-i33-a1",
+   "slide": "33",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 33"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s34-i34-a1",
+   "slide": "34",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 34"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s35-i35-a1",
+   "slide": "35",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 35"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s36-i36-a1",
+   "slide": "36",
+   "alvo": "Apoio ao card au-placa",
+   "fontes": [
+    "slide 36"
+   ],
+   "origem_prevista": "au-placa"
+  },
+  {
+   "id": "mb60-s37-i37-1",
+   "slide": "37",
+   "alvo": "Endpoint: TCID50",
+   "fontes": [
+    "slide 37"
+   ],
+   "origem_prevista": "au-tcid50"
+  },
+  {
+   "id": "mb60-s38-i38-a1",
+   "slide": "38",
+   "alvo": "Apoio ao card au-tcid50",
+   "fontes": [
+    "slide 38"
+   ],
+   "origem_prevista": "au-tcid50"
+  },
+  {
+   "id": "mb60-s39-i39-a1",
+   "slide": "39",
+   "alvo": "Apoio ao card au-tcid50",
+   "fontes": [
+    "slide 39"
+   ],
+   "origem_prevista": "au-tcid50"
+  },
+  {
+   "id": "mb60-s40-i40-1",
+   "slide": "40",
+   "alvo": "Soroconversão: soro agudo × convalescente",
+   "fontes": [
+    "slide 40"
+   ],
+   "origem_prevista": "au-soroconversao"
+  },
+  {
+   "id": "mb60-s40-i40-2",
+   "slide": "40",
+   "alvo": "IgM × IgG na sorologia viral",
+   "fontes": [
+    "slide 40"
+   ],
+   "origem_prevista": "au-igm"
+  },
+  {
+   "id": "mb60-s41-i41-a1",
+   "slide": "41",
+   "alvo": "Apoio ao card au-igm",
+   "fontes": [
+    "slide 41"
+   ],
+   "origem_prevista": "au-igm"
+  },
+  {
+   "id": "mb60-s42-i42-1",
+   "slide": "42",
+   "alvo": "Hemaglutinação e inibição da hemaglutinação",
+   "fontes": [
+    "slide 42"
+   ],
+   "origem_prevista": "au-ha"
+  },
+  {
+   "id": "mb60-s43-i43-a1",
+   "slide": "43",
+   "alvo": "Apoio ao card au-ha",
+   "fontes": [
+    "slide 43"
+   ],
+   "origem_prevista": "au-ha"
+  },
+  {
+   "id": "mb60-s44-i44-a1",
+   "slide": "44",
+   "alvo": "Apoio ao card au-ha",
+   "fontes": [
+    "slide 44"
+   ],
+   "origem_prevista": "au-ha"
+  },
+  {
+   "id": "mb60-s45-i45-a1",
+   "slide": "45",
+   "alvo": "Apoio ao card au-ha",
+   "fontes": [
+    "slide 45"
+   ],
+   "origem_prevista": "au-ha"
+  },
+  {
+   "id": "mb60-s46-i46-a1",
+   "slide": "46",
+   "alvo": "Apoio ao card au-ha",
+   "fontes": [
+    "slide 46"
+   ],
+   "origem_prevista": "au-ha"
+  },
+  {
+   "id": "mb60-s47-i47-a1",
+   "slide": "47",
+   "alvo": "Apoio ao card au-ha",
+   "fontes": [
+    "slide 47"
+   ],
+   "origem_prevista": "au-ha"
+  },
+  {
+   "id": "mb60-s48-i48-1",
+   "slide": "48",
+   "alvo": "Neutralização de vírus",
+   "fontes": [
+    "slide 48"
+   ],
+   "origem_prevista": "au-neut"
+  },
+  {
+   "id": "mb60-s49-i49-a1",
+   "slide": "49",
+   "alvo": "Apoio ao card au-neut",
+   "fontes": [
+    "slide 49"
+   ],
+   "origem_prevista": "au-neut"
+  },
+  {
+   "id": "mb60-s50-i50-a1",
+   "slide": "50",
+   "alvo": "Apoio ao card au-neut",
+   "fontes": [
+    "slide 50"
+   ],
+   "origem_prevista": "au-neut"
+  },
+  {
+   "id": "mb60-s51-i51-a1",
+   "slide": "51",
+   "alvo": "Apoio ao card au-neut",
+   "fontes": [
+    "slide 51"
+   ],
+   "origem_prevista": "au-neut"
+  },
+  {
+   "id": "mb60-s52-i52-a1",
+   "slide": "52",
+   "alvo": "Apoio ao card au-neut",
+   "fontes": [
+    "slide 52"
+   ],
+   "origem_prevista": "au-neut"
+  },
+  {
+   "id": "mb60-s53-i53-1",
+   "slide": "53",
+   "alvo": "ELISA detecta antígeno ou anticorpo específico",
+   "fontes": [
+    "slide 53"
+   ],
+   "origem_prevista": "ak1468605640090"
+  },
+  {
+   "id": "mb60-s53-i53-2",
+   "slide": "53",
+   "alvo": "ELISA: detecção por anticorpo ligado a enzima",
+   "fontes": [
+    "slide 53"
+   ],
+   "origem_prevista": "sh-1792044821879"
+  },
+  {
+   "id": "mb60-s54-i54-1",
+   "slide": "54",
+   "alvo": "ELISA direto detecta antígeno; indireto, anticorpo",
+   "fontes": [
+    "slide 54"
+   ],
+   "origem_prevista": "ak1520277897542"
+  },
+  {
+   "id": "mb60-s55-i55-a1",
+   "slide": "55",
+   "alvo": "Apoio ao card ak1520277897542",
+   "fontes": [
+    "slide 55"
+   ],
+   "origem_prevista": "ak1520277897542"
+  },
+  {
+   "id": "mb60-s56-i56-a1",
+   "slide": "56",
+   "alvo": "Apoio ao card ak1520277897542",
+   "fontes": [
+    "slide 56"
+   ],
+   "origem_prevista": "ak1520277897542"
+  },
+  {
+   "id": "mb60-s57-i57-1",
+   "slide": "57",
+   "alvo": "Southern blot analisa DNA",
+   "fontes": [
+    "slide 57"
+   ],
+   "origem_prevista": "ak1468549239653"
+  },
+  {
+   "id": "mb60-s57-i57-2",
+   "slide": "57",
+   "alvo": "Northern blot analisa RNA",
+   "fontes": [
+    "slide 57"
+   ],
+   "origem_prevista": "ak1468549248441"
+  },
+  {
+   "id": "mb60-s58-i58-1",
+   "slide": "58",
+   "alvo": "Southern e Northern: sonda de oligonucleotídeo marcado",
+   "fontes": [
+    "slide 58"
+   ],
+   "origem_prevista": "ak1468549297186"
+  },
+  {
+   "id": "mb60-s59-i59-a1",
+   "slide": "59",
+   "alvo": "Apoio ao card ak1468549297186",
+   "fontes": [
+    "slide 59"
+   ],
+   "origem_prevista": "ak1468549297186"
+  },
+  {
+   "id": "mb60-s60-i60-a1",
+   "slide": "60",
+   "alvo": "Apoio ao card ak1468549297186",
+   "fontes": [
+    "slide 60"
+   ],
+   "origem_prevista": "ak1468549297186"
+  },
+  {
+   "id": "mb60-s61-i61-1",
+   "slide": "61",
+   "alvo": "PCR, 1º passo: calor desnatura as fitas",
+   "fontes": [
+    "slide 61"
+   ],
+   "origem_prevista": "ak1468605428299"
+  },
+  {
+   "id": "mb60-s61-i61-2",
+   "slide": "61",
+   "alvo": "PCR, 2º passo: primers se ligam às fitas",
+   "fontes": [
+    "slide 61"
+   ],
+   "origem_prevista": "ak1468605437554"
+  },
+  {
+   "id": "mb60-s61-i61-3",
+   "slide": "61",
+   "alvo": "PCR, passo final: Taq alonga após cada primer",
+   "fontes": [
+    "slide 61"
+   ],
+   "origem_prevista": "ak1468605447110"
+  },
+  {
+   "id": "mb60-s61-i61-4",
+   "slide": "61",
+   "alvo": "PCR usa dois primers",
+   "fontes": [
+    "slide 61"
+   ],
+   "origem_prevista": "ak1468605460088"
+  },
+  {
+   "id": "mb60-s61-i61-5",
+   "slide": "61",
+   "alvo": "O primer da PCR é de DNA",
+   "fontes": [
+    "slide 61"
+   ],
+   "origem_prevista": "ak1468605476084"
+  },
+  {
+   "id": "mb60-s61-i61-6",
+   "slide": "61",
+   "alvo": "O primer da PCR liga ao extremo 3'",
+   "fontes": [
+    "slide 61"
+   ],
+   "origem_prevista": "ak1468605486456"
+  },
+  {
+   "id": "mb60-s61-i61-7",
+   "slide": "61",
+   "alvo": "A PCR usa os quatro dNTPs",
+   "fontes": [
+    "slide 61"
+   ],
+   "origem_prevista": "ak1468605494779"
+  },
+  {
+   "id": "mb60-s62-i62-1",
+   "slide": "62",
+   "alvo": "PCR amplifica um fragmento de DNA",
+   "fontes": [
+    "slide 62"
+   ],
+   "origem_prevista": "ak1468605422972"
+  },
+  {
+   "id": "mb60-s63-i63-a1",
+   "slide": "63",
+   "alvo": "Apoio ao card ak1468605422972",
+   "fontes": [
+    "slide 63"
+   ],
+   "origem_prevista": "ak1468605422972"
+  },
+  {
+   "id": "mb60-s64-i64-a1",
+   "slide": "64",
+   "alvo": "Apoio ao card ak1468605422972",
+   "fontes": [
+    "slide 64"
+   ],
+   "origem_prevista": "ak1468605422972"
+  },
+  {
+   "id": "mb60-s65-i65-a1",
+   "slide": "65",
+   "alvo": "Apoio ao card ak1468605422972",
+   "fontes": [
+    "slide 65"
+   ],
+   "origem_prevista": "ak1468605422972"
+  },
+  {
+   "id": "mb60-s66-i66-1",
+   "slide": "66",
+   "alvo": "Carga viral: quantifica o RNA viral no plasma",
+   "fontes": [
+    "slide 66"
+   ],
+   "origem_prevista": "ak1506535130975"
+  },
+  {
+   "id": "mb60-s67-i67-1",
+   "slide": "67",
+   "alvo": "Western blot analisa proteína",
+   "fontes": [
+    "slide 67"
+   ],
+   "origem_prevista": "ak1468549285757"
+  },
+  {
+   "id": "mb60-s67-i67-2",
+   "slide": "67",
+   "alvo": "Eletroforese separa fragmentos pelo tamanho",
+   "fontes": [
+    "slide 67"
+   ],
+   "origem_prevista": "ak1468549222931"
+  },
+  {
+   "id": "mb60-s67-i67-3",
+   "slide": "67",
+   "alvo": "DNA precisa de fragmentação; RNA e proteína não",
+   "fontes": [
+    "slide 67"
+   ],
+   "origem_prevista": "ak1468549213267"
+  },
+  {
+   "id": "mb60-s67-i67-4",
+   "slide": "67",
+   "alvo": "Nos blots a sonda define o que é detectado",
+   "fontes": [
+    "slide 67"
+   ],
+   "origem_prevista": "ak1468549231401"
+  },
+  {
+   "id": "mb60-s68-i68-1",
+   "slide": "68",
+   "alvo": "Western blot: sonda é anticorpo marcado",
+   "fontes": [
+    "slide 68"
+   ],
+   "origem_prevista": "ak1468549288868"
+  },
+  {
+   "id": "mb60-s69-i69-1",
+   "slide": "69",
+   "alvo": "HIV: teste confirmatório por imunoensaio de diferenciação",
+   "fontes": [
+    "slide 69"
+   ],
+   "origem_prevista": "ak1506535107169"
+  },
+  {
+   "id": "mb60-s70-i70-a1",
+   "slide": "70",
+   "alvo": "Apoio ao card ak1506535107169",
+   "fontes": [
+    "slide 70"
+   ],
+   "origem_prevista": "ak1506535107169"
+  },
+  {
+   "id": "mb60-s71-i71-a1",
+   "slide": "71",
+   "alvo": "Apoio ao card ak1506535107169",
+   "fontes": [
+    "slide 71"
+   ],
+   "origem_prevista": "ak1506535107169"
+  },
+  {
+   "id": "mb60-s72-i72-a1",
+   "slide": "72",
+   "alvo": "Apoio ao card ak1506535107169",
+   "fontes": [
+    "slide 72"
+   ],
+   "origem_prevista": "ak1506535107169"
+  },
+  {
+   "id": "mb60-s73-i73-a1",
+   "slide": "73",
+   "alvo": "Apoio ao card ak1506535107169",
+   "fontes": [
+    "slide 73"
+   ],
+   "origem_prevista": "ak1506535107169"
+  },
+  {
+   "id": "mb60-s74-i74-a1",
+   "slide": "74",
+   "alvo": "Apoio ao card ak1506535107169",
+   "fontes": [
+    "slide 74"
+   ],
+   "origem_prevista": "ak1506535107169"
+  },
+  {
+   "id": "mb60-s75-i75-a1",
+   "slide": "75",
+   "alvo": "Apoio ao card ak1506535107169",
+   "fontes": [
+    "slide 75"
+   ],
+   "origem_prevista": "ak1506535107169"
+  },
+  {
+   "id": "mb60-s76-i76-a1",
+   "slide": "76",
+   "alvo": "Apoio ao card ak1506535107169",
+   "fontes": [
+    "slide 76"
+   ],
+   "origem_prevista": "ak1506535107169"
+  },
+  {
+   "id": "mb60-s91-i91-1",
+   "slide": "91",
+   "alvo": "Efeito citopático: agrupamento preliminar",
+   "fontes": [
+    "slide 91"
+   ],
+   "origem_prevista": "au-cpe-def"
+  },
+  {
+   "id": "mb60-s92-i92-a1",
+   "slide": "92",
+   "alvo": "Apoio ao card au-cpe-def",
+   "fontes": [
+    "slide 92"
+   ],
+   "origem_prevista": "au-cpe-def"
+  },
+  {
+   "id": "mb60-s93-i93-a1",
+   "slide": "93",
+   "alvo": "Apoio ao card au-cpe-def",
+   "fontes": [
+    "slide 93"
+   ],
+   "origem_prevista": "au-cpe-def"
+  },
+  {
+   "id": "mb60-s94-i94-a1",
+   "slide": "94",
+   "alvo": "Apoio ao card au-cpe-def",
+   "fontes": [
+    "slide 94"
+   ],
+   "origem_prevista": "au-cpe-def"
+  },
+  {
+   "id": "mb60-s95-i95-a1",
+   "slide": "95",
+   "alvo": "Apoio ao card au-cpe-def",
+   "fontes": [
+    "slide 95"
+   ],
+   "origem_prevista": "au-cpe-def"
+  },
+  {
+   "id": "mb60-s96-i96-1",
+   "slide": "96",
+   "alvo": "Efeito citopático por vírus",
+   "fontes": [
+    "slide 96"
+   ],
+   "origem_prevista": "au-cpe-tipos"
+  },
+  {
+   "id": "mb60-s97-i97-a1",
+   "slide": "97",
+   "alvo": "Apoio ao card au-cpe-tipos",
+   "fontes": [
+    "slide 97"
+   ],
+   "origem_prevista": "au-cpe-tipos"
+  },
+  {
+   "id": "mb60-s98-i98-a1",
+   "slide": "98",
+   "alvo": "Apoio ao card au-cpe-tipos",
+   "fontes": [
+    "slide 98"
+   ],
+   "origem_prevista": "au-cpe-tipos"
+  },
+  {
+   "id": "mb60-s99-i99-a1",
+   "slide": "99",
+   "alvo": "Apoio ao card au-cpe-tipos",
+   "fontes": [
+    "slide 99"
+   ],
+   "origem_prevista": "au-cpe-tipos"
+  },
+  {
+   "id": "mb60-s100-i100-a1",
+   "slide": "100",
+   "alvo": "Apoio ao card au-cpe-tipos",
+   "fontes": [
+    "slide 100"
+   ],
+   "origem_prevista": "au-cpe-tipos"
+  },
+  {
+   "id": "mb60-s101-i101-a1",
+   "slide": "101",
+   "alvo": "Apoio ao card au-cpe-tipos",
+   "fontes": [
+    "slide 101"
+   ],
+   "origem_prevista": "au-cpe-tipos"
+  },
+  {
+   "id": "mb60-s102-i102-1",
+   "slide": "102",
+   "alvo": "CMV: inclusão nuclear em olho de coruja",
+   "fontes": [
+    "slide 102"
+   ],
+   "origem_prevista": "ak1503861947945"
+  },
+  {
+   "id": "mb60-s103-i103-1",
+   "slide": "103",
+   "alvo": "Paramixovírus: proteína F funde células",
+   "fontes": [
+    "slide 103"
+   ],
+   "origem_prevista": "ak1506298786823"
+  },
+  {
+   "id": "mb60-s104-i104-a1",
+   "slide": "104",
+   "alvo": "Apoio ao card ak1506298786823",
+   "fontes": [
+    "slide 104"
+   ],
+   "origem_prevista": "ak1506298786823"
+  },
+  {
+   "id": "mb60-s105-i105-a1",
+   "slide": "105",
+   "alvo": "Apoio ao card ak1506298786823",
+   "fontes": [
+    "slide 105"
+   ],
+   "origem_prevista": "ak1506298786823"
+  },
+  {
+   "id": "mb60-s106-i106-1",
+   "slide": "106",
+   "alvo": "Esfregaço de Tzanck: células gigantes de VZV, HSV e CMV",
+   "fontes": [
+    "slide 106"
+   ],
+   "origem_prevista": "ak1506290563519"
+  },
+  {
+   "id": "mb60-s106-i106-2",
+   "slide": "106",
+   "alvo": "Herpesvírus: inclusões nucleares eosinofílicas (Cowdry)",
+   "fontes": [
+    "slide 106"
+   ],
+   "origem_prevista": "sh-1792605657387"
+  },
+  {
+   "id": "mb60-s107-i107-1",
+   "slide": "107",
+   "alvo": "Sarampo: células gigantes de Warthin-Finkeldey",
+   "fontes": [
+    "slide 107"
+   ],
+   "origem_prevista": "ak1506299172244"
+  },
+  {
+   "id": "mb60-s108-i108-a1",
+   "slide": "108",
+   "alvo": "Apoio ao card ak1506299172244",
+   "fontes": [
+    "slide 108"
+   ],
+   "origem_prevista": "ak1506299172244"
+  },
+  {
+   "id": "mb60-s109-i109-a1",
+   "slide": "109",
+   "alvo": "Apoio ao card ak1506299172244",
+   "fontes": [
+    "slide 109"
+   ],
+   "origem_prevista": "ak1506299172244"
+  },
+  {
+   "id": "mb60-s110-i110-a1",
+   "slide": "110",
+   "alvo": "Apoio ao card ak1506299172244",
+   "fontes": [
+    "slide 110"
+   ],
+   "origem_prevista": "ak1506299172244"
+  },
+  {
+   "id": "mb60-s111-i111-1",
+   "slide": "111",
+   "alvo": "Raiva: corpos de Negri no citoplasma",
+   "fontes": [
+    "slide 111"
+   ],
+   "origem_prevista": "sh-1792605657078"
+  },
+  {
+   "id": "mb60-s112-i112-a1",
+   "slide": "112",
+   "alvo": "Apoio ao card sh-1792605657078",
+   "fontes": [
+    "slide 112"
+   ],
+   "origem_prevista": "sh-1792605657078"
+  },
+  {
+   "id": "mb60-s113-i113-a1",
+   "slide": "113",
+   "alvo": "Apoio ao card sh-1792605657078",
+   "fontes": [
+    "slide 113"
+   ],
+   "origem_prevista": "sh-1792605657078"
+  },
+  {
+   "id": "mb60-s114-i114-a1",
+   "slide": "114",
+   "alvo": "Apoio ao card sh-1792605657078",
+   "fontes": [
+    "slide 114"
+   ],
+   "origem_prevista": "sh-1792605657078"
+  },
+  {
+   "id": "mb60-s115-i115-a1",
+   "slide": "115",
+   "alvo": "Apoio ao card sh-1792605657078",
+   "fontes": [
+    "slide 115"
+   ],
+   "origem_prevista": "sh-1792605657078"
+  },
+  {
+   "id": "mb60-s116-i116-a1",
+   "slide": "116",
+   "alvo": "Apoio ao card sh-1792605657078",
+   "fontes": [
+    "slide 116"
+   ],
+   "origem_prevista": "sh-1792605657078"
+  },
+  {
+   "id": "mb60-s117-i117-a1",
+   "slide": "117",
+   "alvo": "Apoio ao card sh-1792605657078",
+   "fontes": [
+    "slide 117"
+   ],
+   "origem_prevista": "sh-1792605657078"
+  },
+  {
+   "id": "mb60-s118-i118-1",
+   "slide": "118",
+   "alvo": "Coilócitos: halo perinuclear do HPV",
+   "fontes": [
+    "slide 118"
+   ],
+   "origem_prevista": "sh-1791984889104"
+  },
+  {
+   "id": "mb60-s119-i119-a1",
+   "slide": "119",
+   "alvo": "Apoio ao card sh-1791984889104",
+   "fontes": [
+    "slide 119"
+   ],
+   "origem_prevista": "sh-1791984889104"
+  },
+  {
+   "id": "mb60-s120-i120-a1",
+   "slide": "120",
+   "alvo": "Apoio ao card sh-1791984889104",
+   "fontes": [
+    "slide 120"
+   ],
+   "origem_prevista": "sh-1791984889104"
+  },
+  {
+   "id": "mb60-cap-l1",
+   "slide": "livro",
+   "alvo": "Métodos diretos × indiretos de estudo do vírus",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 29 (cultura e ensaio dos vírus); apostila UC3 (efeito citopático); monitoria P3"
+   ],
+   "origem_prevista": "au-metodos"
+  },
+  {
+   "id": "mb60-cap-l2",
+   "slide": "livro",
+   "alvo": "Cultivo, placa de lise e endpoint (TCID50)",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 29 (cultura e ensaio dos vírus); apostila UC3 (efeito citopático); monitoria P3"
+   ],
+   "origem_prevista": "au-placa, au-tcid50"
+  },
+  {
+   "id": "mb60-cap-l3",
+   "slide": "livro",
+   "alvo": "Efeito citopático: agrupamento preliminar, sincícios e corpos de inclusão",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 29 (cultura e ensaio dos vírus); apostila UC3 (efeito citopático); monitoria P3"
+   ],
+   "origem_prevista": "au-cpe-def, au-cpe-tipos, ak1506298786823, sh-1792605657078"
+  },
+  {
+   "id": "mb60-cap-l4",
+   "slide": "livro",
+   "alvo": "Sorologia: hemaglutinação, neutralização, ELISA, soroconversão",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 29 (cultura e ensaio dos vírus); apostila UC3 (efeito citopático); monitoria P3"
+   ],
+   "origem_prevista": "au-ha, au-neut, au-soroconversao, ak1468605640090"
+  },
+  {
+   "id": "mb60-cap-l5",
+   "slide": "livro",
+   "alvo": "Métodos moleculares: PCR e carga viral, western blot",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 29 (cultura e ensaio dos vírus); apostila UC3 (efeito citopático); monitoria P3"
+   ],
+   "origem_prevista": "ak1468605422972, ak1506535130975, ak1468549285757"
+  },
+  {
+   "id": "mb60-prova-p1",
+   "slide": "prova",
+   "alvo": "Confirmação diagnóstica: RT-PCR, antígeno, imunofluorescência, hemaglutinação e inibição (2025 P3 3.3; 2018 P3 1.2)",
+   "fontes": [
+    "Provas UC03 (índice micro-16 e termos RT-PCR, soroconversão, efeito citopático)"
+   ],
+   "origem_prevista": "au-metodos, ak1468605422972, au-ha, ak1468605640090"
+  },
+  {
+   "id": "mb60-prova-p2",
+   "slide": "prova",
+   "alvo": "Soroconversão e sorologia (2018 P3 1.6; 2024 P3 1.6; 2015 P2 4.7)",
+   "fontes": [
+    "Provas UC03 (índice micro-16 e termos RT-PCR, soroconversão, efeito citopático)"
+   ],
+   "origem_prevista": "au-soroconversao, au-igm"
+  },
+  {
+   "id": "mb60-prova-p3",
+   "slide": "prova",
+   "alvo": "Efeito citopático em culturas e sincícios (2015 P2 4.3)",
+   "fontes": [
+    "Provas UC03 (índice micro-16 e termos RT-PCR, soroconversão, efeito citopático)"
+   ],
+   "origem_prevista": "au-cpe-def, ak1506298786823"
+  }
+ ],
+ "fontes": {
+  "slides": {
+   "estado": "consultada",
+   "contribuicao": "Inventário e ordem"
+  },
+  "bibliografia": {
+   "estado": "consultada",
+   "contribuicao": "Efeito citopático, corpúsculos de inclusão, hemaglutinação, hemadsorção e quantificação"
+  },
+  "caoc": {
+   "estado": "não localizada",
+   "contribuicao": "nenhum"
+  },
+  "youtube": {
+   "estado": "consultada",
+   "contribuicao": "IgM e IgG, PCR"
+  },
+  "veteranos": {
+   "estado": "consultada",
+   "contribuicao": "Poliovírus, adenovírus, sarampo, herpes e vaccínia em cultura; Definição e alterações celulares"
+  },
+  "provas": {
+   "estado": "consultada",
+   "contribuicao": "PCR (ecos); Calibragem de métodos diretos, sorologia e efeito citopático"
+  },
+  "exercicios": {
+   "estado": "não localizada",
+   "contribuicao": "nenhum"
+  }
+ }
+}

@@ -1,0 +1,170 @@
+{
+ "nome": "Virologia prática",
+ "escopo": "cards",
+ "drive_pasta": "UC03/Microbiologia/60 - Prática de virologia — drylab",
+ "pasta_turma": "/Users/davisousa/Library/CloudStorage/GoogleDrive-davi.sousa@fm.usp.br/Drive partagés/TURMA 114/1º ano/UC03 - Princípios do Desenvolvimento de Doenças/Microbiologia/Aula 20 - Virologia Prática",
+ "turma_lidos": [
+  "Virologia Prática Ia.pdf",
+  "Virologia Prática Ib.pdf"
+ ],
+ "turma_descartados": {
+  "Material Complementar I - Videoaula Assíncrona I.mp4": "videoaula assíncrona (sem transcrição disponível; o conteúdo está nas lâminas)",
+  "Material Complementar II - Videoaula Assíncrona II.mp4": "videoaula assíncrona (sem transcrição disponível)",
+  "Material Complementar III - Videoaula Assíncrona III.mp4": "videoaula assíncrona (sem transcrição disponível)"
+ },
+ "slides": "fontes/slides.pdf",
+ "n_laminas": 149,
+ "familias": {
+  "slides": [
+   {
+    "arquivo": "fontes/slides.pdf",
+    "localizador": "Ia (1–77) e Ib (78–149), 149 lâminas lidas; as videoaulas assíncronas não têm transcrição (21/10)",
+    "contribuicao": "Inventário e ordem",
+    "alvos": "slides"
+   }
+  ],
+  "veteranos": [
+   {
+    "arquivo": "fontes/mat-02-apostila-uc3-efeito-citopatico.txt",
+    "localizador": "Apostila UC3, efeito citopático (pp. 405–406), lida",
+    "contribuicao": "Poliovírus, adenovírus, sarampo, herpes e vaccínia em cultura",
+    "alvos": "todos"
+   },
+   {
+    "arquivo": "fontes/mat-03-monitoria-p3-efeito-citopatico.txt",
+    "localizador": "Monitoria P3 de Micro, seção 6 Efeito citopático, lida",
+    "contribuicao": "Definição e alterações celulares",
+    "alvos": "todos"
+   }
+  ],
+  "provas": [
+   {
+    "arquivo": "fontes/provas-mb60.txt",
+    "localizador": "Índice micro-16 (3 itens, todos ecos), lido",
+    "contribuicao": "PCR (ecos)",
+    "alvos": "prova"
+   },
+   {
+    "arquivo": "fontes/provas-termos-mb60.txt",
+    "localizador": "6 questões por termo (RT-PCR, soroconversão, efeito citopático), lidas",
+    "contribuicao": "Calibragem de métodos diretos, sorologia e efeito citopático",
+    "alvos": "prova"
+   }
+  ],
+  "bibliografia": [
+   {
+    "arquivo": "livros/jawetz-cap29-cultivo-ensaio.txt",
+    "localizador": "Jawetz, cap. 29, pp. 416–420 (cultura e ensaio dos vírus), lido",
+    "contribuicao": "Efeito citopático, corpúsculos de inclusão, hemaglutinação, hemadsorção e quantificação",
+    "alvos": "todos"
+   }
+  ],
+  "youtube": [
+   {
+    "arquivo": "canais/ninja-hepatites-diagnostico.txt",
+    "localizador": "Ninja Nerd, Diagnosis of Viral Hepatitis (6.083 palavras, inteiro)",
+    "contribuicao": "IgM e IgG, PCR",
+    "alvos": "todos",
+    "canal": "Ninja Nerd",
+    "url": "https://youtu.be/B0pFnLbo6eM"
+   }
+  ],
+  "caoc": {
+   "estado": "não localizada",
+   "busca": "pasta da aula sem CAOC",
+   "impacto": "nenhum"
+  },
+  "exercicios": {
+   "estado": "não localizada",
+   "busca": "pasta da aula e do componente sem lista de exercícios de patogênese viral",
+   "impacto": "nenhum"
+  }
+ },
+ "livros": [
+  {
+   "livro": "Jawetz, Microbiologia Médica, cap. 29 (cultura e ensaio dos vírus, pp. 416–420)",
+   "texto": "livros/jawetz-cap29-cultivo-ensaio.txt"
+  }
+ ],
+ "materiais_uc": {
+  "Grand round 1.pdf": {
+   "descartado": "apostila do GR1 (esquizofrenia)"
+  },
+  "Grand Round 1 - slides.pptx": {
+   "descartado": "lâminas do GR1"
+  },
+  "Apostila Ilustrativa Radiologia.pdf": {
+   "descartado": "apostila de Radiologia; TC × RM do GR é revisão das aulas 05/12"
+  },
+  "Cópia de Cópia de UC03 - Apostila Guia de Imunologia.pdf": {
+   "descartado": "apostila de Imuno; a imunidade a vírus é a aula 63"
+  },
+  "Cópia de Cópia de UC03 - Apostila Guia de Microbiologia.pdf": {
+   "descartado": "apostila guia de Micro: a seção desta aula (virologia prática) não existe; a patogênese viral é a aula 59 e o efeito citopático foi lido na apostila UC3"
+  },
+  "Cópia de Cópia de UC03 - Apostila Guia de Patologia.pdf": {
+   "descartado": "apostila de Patologia; a patologia da infecção viral é a aula 61"
+  },
+  "UC03 - Apostila Guia de Biologia Molecular.pdf": {
+   "descartado": "apostila de Biomol; replicação do DNA celular é de outras aulas (enzimas da forquilha entram por busca)"
+  },
+  "radiologia.pdf": {
+   "descartado": "apostila de Radiologia"
+  },
+  "Tudo que você precisa saber de RD - UC3.pdf": {
+   "descartado": "apostila de Radiologia"
+  },
+  "Grand Round 2.pdf": {
+   "descartado": "apostila do GR2"
+  },
+  "UC3.pdf": {
+   "texto": "fontes/mat-02-apostila-uc3-efeito-citopatico.txt",
+   "secao": "Efeito citopático (pp. 405–406)",
+   "linhas": "arquivos-trabalho/materiais-uc03/apostila - UC3.txt:10785-10832"
+  },
+  "O GRANDE RESUMO DA P1 UC3.pdf": {
+   "descartado": "resumo da P1 (esta aula é da P3)"
+  },
+  "O GRANDE RESUMO DA P2 UC3.pdf": {
+   "descartado": "mesmo arquivo da Monitoria - Resumo da P2 (33.304.311 bytes); P2 é outra prova (bactérias e micoses)"
+  },
+  "O GRANDE RESUMO DA P3 UC3.pdf": {
+   "descartado": "mesmo arquivo da Monitoria - Resumo da P3; a seção de patogênese viral foi lida em mat-03"
+  },
+  "Monitoria - Resumo da P2.pdf": {
+   "descartado": "monitoria P2 (bactérias e micoses; outra prova)"
+  },
+  "Monitoria - Resumo da P1.pdf": {
+   "descartado": "monitoria da P1 (outra prova)"
+  },
+  "Monitoria - Resumo da P3.pdf": {
+   "texto": "fontes/mat-03-monitoria-p3-efeito-citopatico.txt",
+   "secao": "6. Efeito Citopático",
+   "linhas": "arquivos-trabalho/materiais-uc03/Microbiologia - Monitoria - Resumo da P3.txt:2015-2060"
+  },
+  "C - ApresentaÃ§Ã£o em PDF da Video Aula - IM - OrganizaÃ§Ã£o da Resposta Imune aos VÃ­rus.pdf": {
+   "descartado": "material de outra aula arquivado em pasta pessoal"
+  },
+  "C - ApresentaÃ§Ã£o em PDF da Video Aula - MB - MultiplicaÃ§Ã£o Viral.pdf": {
+   "descartado": "material de outra aula arquivado em pasta pessoal"
+  },
+  "D - TranscriÃ§Ã£o da Aula em PDF - IM - OrganizaÃ§Ã£o da Resposta Imune aos VÃ­rus.pdf": {
+   "descartado": "material de outra aula arquivado em pasta pessoal"
+  },
+  "D - TranscriÃ§Ã£o da Aula em PDF - MB - MultiplicaÃ§Ã£o Viral.pdf": {
+   "descartado": "material de outra aula arquivado em pasta pessoal"
+  },
+  "E - TranscriÃ§Ã£o da Aula em PDF - MB - Antivirais.pdf": {
+   "descartado": "material de outra aula arquivado em pasta pessoal"
+  }
+ },
+ "canais": [
+  {
+   "canal": "Ninja Nerd",
+   "url": "https://youtu.be/B0pFnLbo6eM",
+   "transcricao": "canais/ninja-hepatites-diagnostico.txt",
+   "lido": "integral",
+   "calibracao": "Confirmou o uso de IgM (infecção recente) e IgG (exposição passada) e de PCR no diagnóstico viral; sustenta os cards de sorologia."
+  }
+ ]
+}

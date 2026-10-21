@@ -1,0 +1,132 @@
+000 au-metodos | Autora | VsVs | Slide 3
+    F: Viral diagnosis: / - direct: finds the [virus], its antigen or nucleic acid / - indirect: finds [antibodies] /
+    V: - Direct: electron microscopy, culture, antigen and nucleic acid tests / - Indirect: serology, which shows exposure and immune status
+    IMG: —
+001 au-placa | Autora | VsVs | Slide 21
+    F: In a plaque assay each lysis plaque comes from [one] infectious particle and is counted as [PFU]
+    V: - It needs cells that grow in a monolayer and are lysed by the virus / - A semisolid medium keeps the virus from spreading beyond neighboring cells
+    IMG: —
+002 au-tcid50 | Autora | As | Slide 37
+    F: TCID50 is the dilution that causes [cytopathic effect] in half of the cell cultures
+    V: - LD50 is the dilution at which half of the animals die / - It is used for viruses that do not form plaques or foci
+    IMG: —
+003 au-cpe-def | Autora | Vs | Slide 91
+    F: The cytopathic effect gives only a [preliminary] grouping of viruses, not their identification
+    V: - It is a change visible under the microscope in cultured cells / - It results from changes in the host cell caused by the virus
+    IMG: —
+004 au-cpe-tipos | Autora | AsAsAs | Slide 96
+    F: Cytopathic effect: / - poliovirus: cell [rounding] and rapid lysis / - adenovirus: [grape-like] clusters / - measles: [giant] syncytia /
+    V: - HSV makes star-shaped syncytia with a nuclear inclusion and clear halo / - Vaccinia makes small round syncytia with cytoplasmic inclusions
+    IMG: —
+005 ak1503861947945 | AnKing | Vs | Slide 10
+    F: CMV can present with basophilic intranuclear inclusion bodies said to look like a(n) ["owl's eye"] / / [IMG big_58cbadce63b88.jpg]
+    V: -   / / - Inclusion body in infected salivary gland cells
+    IMG: ed2d6ac2a23fa71e36197baa, 04df0bf69154f44ed8c21def
+006 ak1506298786823 | AnKing | VsVsVs | Slide 10
+    F: Paramyxoviruses contain surface [F (fusion) proteins] that cause [respiratory] epithelial cells to fuse and form [multinucleated giant] cells
+    V: Not to be confounded with Warthin-Finkeldey giant cells, which are multinucleated giant cells typically found in lymphoid tissues and characterized by numerous clustered nuclei and
+    IMG: —
+007 ak1506290563519 | AnKing | AsAs | Slide 10
+    F: A(n) [Tzanck] smear showing [multinucleated giant] cells is characteristic of infections with VZV, HSV, and CMV
+    V: / / - Syncytia with star-shaped cytoplasmic bridges
+    IMG: 117e8b1afeca58f80ae90a36
+008 ak1506299172244 | AnKing | Vs | Slide 10
+    F: Measles virus commonly presents with [Warthin-Finkeldey] giant cells
+    V: Multinucleated giant cells with eosinophilic inclusion bodies / /  / / - Giant cells with 30 to 100 nuclei and cytoplasmic inclusions
+    IMG: b51d80296c3a83681a4794dd
+009 au-soroconversao | Autora | VsVs | Slide 40
+    F: Seroconversion is a rising antibody [titer] between the [acute] and convalescent sera
+    V: - A fourfold rise in titer is the usual criterion / - Hemagglutination inhibition can be used to compare the two sera
+    IMG: —
+010 au-igm | Autora | AsAs | Slide 40
+    F: IgM against the virus indicates [recent] infection, while IgG indicates past exposure or [memory]
+    V: - ELISA detects and quantifies specific IgM and IgG in the serum
+    IMG: —
+011 au-ha | Autora | AsAs | Slide 42
+    F: Hemagglutination titrates the virus, and its [inhibition] by antibody identifies the virus [type]
+    V: - The virus agglutinates red blood cells / - It is a quick and cheap assay
+    IMG: —
+012 au-neut | Autora | As | Slide 48
+    F: A neutralization test detects antibodies that block the [infectivity] of the virus in cell culture
+    V: - The antibody binds the virus and prevents it from infecting the cells / - It indicates protective antibodies
+    IMG: —
+013 ak1468605640090 | AnKing | Vs | Slide 53
+    F: [Enzyme-linked immunosorbent assay (ELISA)] is an immunologic test used to detect the presence of either a specific antigen or antibody in a patient's blood sample /
+    V: Major ELISA variations include direct, sandwich, and competitive; can have high sensitivity and specificity / /  / / / - A color reaction shows the antigen-antibody complex (influe
+    IMG: 512af56d047ecb48d5c1d72a
+014 ak1520277897542 | AnKing | AsAs | Slide 54
+    F: A direct ELISA tests for a(n) [antigen] / / An indirect ELISA tests for a(n) [antibody against an antigen]
+    V: The antibodies for an indirect ELISA are easier to acquire / / - Direct: finds viral antigen in secretions; indirect: finds antibodies in the serum
+    IMG: —
+015 ak1468549239653 | AnKing | VsVs | Slide 57
+    F: A(n) [Southern] blot is used to analyze [DNA] /
+    V: - Used in genetic testing of diseases, forensics (DNA identification - microsatellite analysis can also be used here) / / - Can use to observe inheritance of RFLP markers / / SNoW 
+    IMG: —
+016 ak1468549248441 | AnKing | VsVs | Slide 57
+    F: A(n) [Northern] blot is used to analyze [RNA] /
+    V: - Measure mRNA levels (gene expression) / / SNoW DRoP: / - Southern = DNA / - Northern = RNA / - Western = Protein / / - Northern blot also studies gene expression
+    IMG: —
+017 ak1468549297186 | AnKing | As | Slide 58
+    F: What type of probe is used to bind DNA/RNA when using a Southern/Northern blot? / / [Labeled single-stranded DNA / RNA oligonucleotide] / / /
+    V: This can be radioactive or fluorescently labeled / /  / / - The probe is complementary to the viral sequence it must find
+    IMG: 1eb3d21936773afae9b7d424
+018 ak1468605428299 | AnKing | VsVs | Slide 61
+    F: In the first step of PCR, DNA is [denatured] by using [heat] to separate the strands / / /
+    V: Temperature is approximately 95 °C (203 °F) / / /  / / /  / / / / - Heat at about 95 °C separates the strands
+    IMG: f81e50d98cf7035ed53c2e17, c12605afa99beb4eaaf7b865
+019 ak1468605437554 | AnKing | VsVs | Slide 61
+    F: In the second step of PCR, [DNA primers] [anneal] to specific sequences on each DNA strand to be amplified / / /
+    V: Temperature is approximately 55 °C (131 °F) / / /  / / / /  / / / / - Each primer anneals to one strand, flanking the viral sequence
+    IMG: 78efcd90c4d807d78068872a, c12605afa99beb4eaaf7b865
+020 ak1468605447110 | AnKing | VsVs | Slide 61
+    F: In the final step of PCR, heat-stable [Taq DNA polymerase] [elongates] the DNA sequence following each primer / / /
+    V: Temperature is approximately 72 °C (161.6 °F) / /  / /  / / / / - Taq polymerase is heat stable, so it survives each cycle
+    IMG: fd44e6bb1f503f5fe84e0d5f, c12605afa99beb4eaaf7b865
+021 ak1468605460088 | AnKing | Vs | Slide 61
+    F: How many primers are needed for polymerase chain reaction (PCR)? / / [Two (one for the 3' end of each DNA strand)] / / /
+    V: / / /  / / / / - One primer for each strand, at the 3' end of the target
+    IMG: 78efcd90c4d807d78068872a, c12605afa99beb4eaaf7b865
+022 ak1468605476084 | AnKing | Vs | Slide 61
+    F: What type of primer is used in a polymerase chain reaction (PCR)? / / [DNA primer] / / /
+    V: In the body, RNA primers are used; in the test tube, DNA primers are used / /  / /  / / / / - The primer is a short DNA oligonucleotide complementary to the target
+    IMG: 78efcd90c4d807d78068872a, c12605afa99beb4eaaf7b865
+023 ak1468605486456 | AnKing | Vs | Slide 61
+    F: Which end of the DNA strand does the DNA primer bind to during PCR? / / [3' end] / / /
+    V: / / / / - DNA polymerase adds nucleotides to the 3' end of the primer
+    IMG: c12605afa99beb4eaaf7b865
+024 ak1468605494779 | AnKing | Vs | Slide 61
+    F: PCR requires the addition of all four [deoxyribonucleotide triphosphates (dNTPs)] for DNA synthesis / / /
+    V: - Also requires DNA polymerase and primers / - PCR is repeated until DNA sample size is sufficient / / /  / / /  / / / - dATP, dCTP, dGTP and dTTP are the building blocks of the ne
+    IMG: fd44e6bb1f503f5fe84e0d5f, 1d23858b59062e41245cb0ca
+025 ak1468605422972 | AnKing | Vs | Slide 62
+    F: [Polymerase chain reaction (PCR)] is a powerful diagnostic tool used to amplify a desired fragment of DNA / / /
+    V: vs RT-PCR which is used for the detection and quantification of mRNA / /  / /  / / - For RNA viruses, RT-PCR first makes cDNA with reverse transcriptase
+    IMG: 4ef579f938aec0135457c536, c12605afa99beb4eaaf7b865
+026 ak1506535130975 | AnKing | Vs | Slide 66
+    F: What test determines the amount of viral RNA in plasma? / / [Viral load] /
+    V: - In real-time PCR, the lower the Ct (cycle threshold), the higher the amount of viral genome in the sample
+    IMG: —
+027 ak1468549285757 | AnKing | VsVs | Slide 67
+    F: A(n) [Western] blot is used to analyze [protein] /
+    V: SNoW DRoP: / - Southern = DNA / - Northern = RNA / - Western = Protein / / - The patient serum detects antibodies against viral proteins separated in the gel (seroconversion in HIV
+    IMG: —
+028 ak1468549222931 | AnKing | As | Slide 67
+    F: Gel electrophoresis separates fragments on the basis of [size] / /
+    V: All DNA/RNA/protein fragments used are negatively charged / /   / / - Proteins and nucleic acids are separated by size before transfer to the membrane
+    IMG: 862286cbf5012e33f51d340c, ece3397fa60cc33547c28965
+029 ak1468549213267 | AnKing | As | Slide 67
+    F: DNA requires [fragmentation] for analysis, RNA and proteins do not (analyzed directly) / /
+    V: - DNA is cut into fragments first, while RNA and proteins go directly
+    IMG: —
+030 ak1468549231401 | AnKing | As | Slide 67
+    F: When using blotting procedures, the [probe] determines what sequences are detected / /
+    V: The probe is complementary to the gene sequence of interest / / /  / / / - Southern uses a DNA probe, Northern an RNA or DNA probe and Western an antibody
+    IMG: 7ec22a40bfa0f13d45d97b96
+031 ak1468549288868 | AnKing | As | Slide 68
+    F: What type of probe is used to bind protein when using a Western blot? / / [Labeled antibody] / /
+    V: Binds protein that has been separated by gel electrophoresis and transferred to a membrane / / / - A labeled antibody binds the protein after it is transferred to the membrane
+    IMG: —
+032 ak1506535107169 | AnKing | Vs | Slide 69
+    F: What is the confirmatory test for HIV? / / [HIV-1/2 antibody differentiation immunoassay]
+    V: - HIV-1 is more commonly the cause of AIDS worldwide while HIV-2 is endemic to West Africa / / - Do this if the 4th generation assay returns positive / / - If the HIV-1/2 antibody 
+    IMG: 57d95833821c63272c399d0d

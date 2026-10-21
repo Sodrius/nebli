@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::08_Fluorescence_in_situ_hybridization (5 notas)
+1468605672126 2-RelativelyHighYield Fluorescence in situ hybridization (FISH) uses a fluorescent DNA/RNA probe to bind to a specific gene of interest on chromosomes
+1468605679141 2-RelativelyHighYield Fluorescence in situ hybridization (FISH) is a laboratory technique used for specific localization of genes and direct visualization of chromosomal anomalies
+1468605683908 2-RelativelyHighYield A(n) microdeletion is detected with FISH as no fluorescence on a chromosome compared to fluorescence at the same locus on the second copy of that chromosome
+1468605700819 2-RelativelyHighYield A(n) translocation is detected with FISH as fluorescence of the target gene outside the original chromosome
+1468605710555 2-RelativelyHighYield A(n) duplication is detected with FISH as an extra site of fluorescence on one chromosome relative to its homologous chromosome

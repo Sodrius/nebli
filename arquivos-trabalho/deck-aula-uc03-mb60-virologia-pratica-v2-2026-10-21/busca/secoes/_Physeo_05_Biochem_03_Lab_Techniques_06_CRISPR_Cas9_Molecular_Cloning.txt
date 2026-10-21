@@ -1,0 +1,11 @@
+# #AK_Step1_v12::#Physeo::05_Biochem::03_Lab_Techniques::06_CRISPR_Cas9_&_Molecular_Cloning (10 notas)
+1468549155531 4-LowerYield A(n) palindrome is a DNA sequence which reads the same backwards and forwards on opposite strands of DNA (usually 4 or 6 bp)
+1468549185535 3-HighYield-temporary Cloning is the production of a recombinant DNA molecule that is self-perpetuating
+1468549189226 4-LowerYield The first step of cloning is to isolate the eukaryotic mRNA of interest
+1468549192518 4-LowerYield Cloning : Isolated mRNA is exposed to reverse transcriptase to produce cDNA (lacks introns)
+1468549196500 4-LowerYield Cloning : After cDNA is produced, cDNA fragments are inserted into bacterial plasmids , which contain antibiotic resistance genes
+1468549202187 4-LowerYield Cloning : After the recombinant plasmid has been produced, it is transformed into bacteria
+1519849478653 3-HighYield-temporary CRISPR/Cas9 is a genome editing tool that is derived from bacteria to knock in / out any DNA sequence
+1519849576725 3-HighYield-temporary At its core, CRISPR/Cas9 utilizes an endonuclease (Cas9) and a(n) guide RNA that binds to a complementary target DNA sequence
+1519849762394 3-HighYield-temporary When using CRISPR/Cas9 that introduce a double strand break to knock-out target DNA, nonhomologous end joining (NHEJ) enzymes repair the gap introduced by this Cas9 variant
+1519850675647 3-HighYield-temporary When using CRISPR/Cas9 to knock-in DNA, a(n) repair template must be added to guide insertion of a construct

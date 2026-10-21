@@ -1,0 +1,5 @@
+# #AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::05_Microarrays (4 notas)
+1468605614335 3-HighYield-temporary Microarrays analyze thousands of nucleic acid sequences arranged in grids on glass or silicon
+1468605624923 3-HighYield-temporary Microarrays are a laboratory technique used to profile gene expression levels of thousands of genes simultaneously to study certain diseases and treatments
+1468605629127 3-HighYield-temporary Microarrays use a(n) labeled DNA/RNA probe, which is hybridized to the chip, and a scanner detects the relative amounts of complementary binding
+1468605635616 3-HighYield-temporary What two types of variations in DNA are detected when using microarrays ? (DNA markers) - Single nucleotide polymorphisms (SNPs) - Copy number variations (CNVs)

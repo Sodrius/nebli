@@ -92,7 +92,9 @@ def check(lesson_tag, notes, others, plan=None):
         seen = [s for _, s in first if s]
         if len(seen) < len(first):
             warnings.append(f"{len(first) - len(seen)} entrada(s) do plano sem slide em 'evid'")
-        back = [(o, s) for (o, s), (_, prev) in zip(first[1:], first) if s and prev and s < prev]
+        faixas = plan.get("_faixas") or []  # F-20261021-CLAUDE-05: ordem da fala declarada em escopo.json › ordem_da_fala
+        key = lambda s: (next((i for i, f in enumerate(faixas) if f[0] <= s <= f[1]), len(faixas)), s)
+        back = [(o, s) for (o, s), (_, prev) in zip(first[1:], first) if s and prev and key(s) < key(prev)]
         if back:
             # Gate duro (F-20261002-CLAUDE-09): o Browser tem de seguir os slides do primeiro ao último, sem voltar.
             problems.append(f"{len(back)} recuo(s) de slide na sequência (ordenar as entradas pelo slide; card que ilustra "
@@ -126,6 +128,11 @@ def main(argv=None):
     args = parser.parse_args(argv)
     notes, others = _live(args.lesson_tag)
     plan = json.loads(Path(args.plan).read_text(encoding="utf-8")) if args.plan else None
+    if plan:
+        try:
+            plan["_faixas"] = json.loads((Path(args.plan).parent / "escopo.json").read_text(encoding="utf-8")).get("ordem_da_fala") or []
+        except (OSError, ValueError):
+            pass
     problems, warnings, main_prefix = check(args.lesson_tag, notes, others, plan)
     print(f"{args.lesson_tag}: {len(notes)} notas, prefixo '{main_prefix}'")
     for text in warnings:

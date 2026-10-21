@@ -1,0 +1,36 @@
+# provas por termo (RT-PCR, soroconversão, efeito citopático, cultivo celular, diagnóstico laboratorial), 21/10
+
+── [2025 P3] 3.3 (MB)
+   P: Considerando a estrutura viral e seus conhecimentos de virologia, quais estratégias poderiam ser melhor utilizadas para a confirmação diagnóstica da infecção por este vírus neste caso?
+   G: Neste tipo de vírus as principais estratégias diagnósticas utilizam detecção direta do RNA viral, identificação de antígenos estruturais ou reconhecimento da atividade de hemaglutinação: Portanto, podem ser utilizados: - PCR (mais especificamente RT-PCR) para detecção do RNA viral - Testes de antígeno (imunocromatográficos ou ELISA) para detectar proteínas de superfície viral - Imunofluorescência direta (DFA/IFA): Identifica antígenos virais em células epiteliais respiratórias por anticorpos fluorescentes específicos. - Hemaglutinação (HA) e Inibição da Hemaglutinação (HI): para detectar respectivamente a capacidade do vírus de aglutinar hemácias via proteína hemaglutinina ou detectar anticorpos específicos anti-Hemaglutinina - Sorologia: Detecção de aumento de títulos de anticorpos contra proteínas virais. Critério de Correção – Total 0,6 ponto Considerar os seguintes tipos de testes d
+
+# 1 subquestões · anos: 2025
+
+── [2015 P2] 4.7 (MB)
+   P: O resultado da análise dos anticorpos presentes no soro indica que: a.a infecção é aguda, no entanto o aumento de título de anticorpos é discreto. b.a infecção é aguda, com boa resposta de anticorpos e que houve soroconversão c.a infecção é crônica e houve soroconversão d.a infecção é crônica e não houve aumento no título de anticorpos
+   G: os
+
+# 1 subquestões · anos: 2015
+
+── [2015 P2] 4.3 (MB)
+   P: No efeito citopático observado nas culturas celulares inoculadas e coradas: a.a formação de sincícios é devida à fusão das células infectada com as células vizinhas b.a fusão das membranas celulares é facilitada por proteínas virais c.a lise celular é conseqüência da excessiva multiplicação viral e esgotamento da célula d.a lise celular é conseqüência da fusão das células infectadas e.as alternativas a e b estão corretas
+   G: as
+
+# 3 subquestões · anos: 2024, 2017, 2015
+(nenhuma subquestão no acervo 2015-2025 — aula sem evidência direta; calibrar pelo teto da componente em CALIBRACAO.md)
+(nenhuma subquestão no acervo 2015-2025 — aula sem evidência direta; calibrar pelo teto da componente em CALIBRACAO.md)
+(nenhuma subquestão no acervo 2015-2025 — aula sem evidência direta; calibrar pelo teto da componente em CALIBRACAO.md)
+
+── [2024 P3] 1.6 (MB)
+   P: 0,6 pontos - Do ponto de vista laboratorial microbiológico, explique uma estratégia pa ra avaliar se já foi ativada a imunidade adaptativa a este vírus.
+   G: Existem várias estratégias possíveis – apresentamos abaixo algumas opções 1. Detecção de Anticorpos Específicos contra o Vírus Ensaio de Imunoabsorção Enzimática (ELISA): Detecta e quantifica anticorpos específicos (IgM, IgG) no soro. A presença de IgM indica infecção recente, enquanto IgG indica uma resposta imunológica adaptativa mais estabelecida e de memória. Teste de Inibição da Hemaglutinação (HI): Utilizado quando o vírus possui proteínas de hemaglutinina. No teste HI, o soro do paciente é incubado com o vírus e, em seguida, eritrócitos são adicionados à mistura. Se houver anticorpos específicos no soro, eles se ligarão ao vírus e inibirão a hemaglutinação dos eritrócitos. A ausência de hemaglutinação indica a presença de anticorpos, evidenciando que o paciente possui imunidade adaptativa contra o vírus. A hemaglutinação (aglutinamento dos eritrócitos) indica ausência ou níveis i
+
+
+── [2018 P3] 1.2 (MB)
+   P: 0,3 pontos – Qual o nome desse teste e qual a sua importância na virologia médica?
+   G: Trata-se de um teste de inibição da hemaglutinação. Para informação mas não precisava estar na resposta: No teste de inibição da hemaglutinação (HI) a capacidade de hemaglutinação de um vírus é bloqueada quando um vírus reage com o anticorpo específico. O te ste de HI é executado em dois estágios. No primeiro estágio, o vírus hemaglutinante é misturado com o anticorpo. Se o anticorpo for específico para o vírus, haverá ligação e esta ligação inibirá a capacidade de produzir hemaglutinação. No segundo estágio, são adicionadas hemácias à mistura do primeiro estágio; o vírus complexado ao anticorpo não tem a capacidade de produzir a hemaglutinação. Quando o anticorpo, no primeiro estágio, não é específico para o vírus, não há formação do complexo vírus-anticorpo, e o vírus mantém a sua capacidade de induzir hemaglutinação. Do ponto de vista de importância médica o teste detecta anticorpos
+
+
+── [2018 P3] 1.6 (MB)
+   P: 0,3 pontos – Quais conclusões podem ser tiradas a partir desse exame considerando o resultado anterior obtido com a amostra de sangue colhida inicialmente?
+   G: O paciente soroconverteu, ou seja, há uma maior quantidade de anticorpos, o que faz com que mesmo em concentrações mais diluídas do soro, ainda haja hemaglutinação. Em um paciente com a mesma doença, mas numa forma grave que levasse a óbito, poderia ter uma amostra de tecido do fígado submetido a reações imunohistoquímicas revelando os achados na figura da página seguinte. Os marcadores para cada imagem são: A – caspase, B – CD4, C – CD8, D – CD20 (linfócitos B) ova P3 – Pág 5 Felizmente, o nosso paciente evoluiu bem se recuperando adequadamente. Para o nosso paciente:

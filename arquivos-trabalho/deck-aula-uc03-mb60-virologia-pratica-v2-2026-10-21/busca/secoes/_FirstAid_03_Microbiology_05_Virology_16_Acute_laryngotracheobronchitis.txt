@@ -1,0 +1,8 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::16_Acute_laryngotracheobronchitis (7 notas)
+1506297161449 1-HighYield Which family of viruses does parainfluenza (croup) belong to? Paramyxoviridae
+1506458538360 2-RelativelyHighYield Which virus classically causes croup ? Parainfluenza virus
+1506458587499 1-HighYield What viral complication is characterized by a seal-bark cough and inspiratory stridor ? Croup (laryngotracheobronchitis)
+1506458681232 1-HighYield Which virulence factors is parainfluenza (croup) associated with? Hemagglutinin, F (fusion) protein, neuraminidase
+1506459192137 1-HighYield Narrowing of the trachea and subglottic region produces the "steeple sign" on CXR of croup (parainfluenza virus)
+1506459340614 1-HighYield What is another name for croup ? Laryngotracheobronchitis
+1506459442241 1-HighYield Severe croup (laryngotracheobronchitis) can result in pulsus paradoxus secondary to upper airway obstruction

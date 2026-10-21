@@ -1,0 +1,17 @@
+# #AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::03_Southern,_Western,_and_Northern_Blots (16 notas)
+1467683661152 4-LowerYield Are RNA and protein typically fragmented before analysis ? No
+1467683666150 4-LowerYield Is DNA typically fragmented before analysis ? Yes
+1468549213267 3-HighYield-temporary DNA requires fragmentation for analysis , RNA and proteins do not (analyzed directly)
+1468549216900 3-HighYield-temporary All RNA/DNA is negatively charged
+1468549219948 3-HighYield-temporary Most proteins are negatively charged
+1468549222931 3-HighYield-temporary Gel electrophoresis separates fragments on the basis of size
+1468549231401 3-HighYield-temporary When using blotting procedures , the probe determines what sequences are detected
+1468549239653 2-RelativelyHighYield A(n) Southern blot is used to analyze DNA
+1468549248441 2-RelativelyHighYield A(n) Northern blot is used to analyze RNA
+1468549256100 2-RelativelyHighYield Does a Southern blot require gel electrophoresis before analysis? Yes
+1468549263734 2-RelativelyHighYield Does a Northern blot require gel electrophoresis before analysis? Yes
+1468549269015 2-RelativelyHighYield A Northern blot is useful for studying gene expression
+1468549285757 2-RelativelyHighYield A(n) Western blot is used to analyze protein
+1468549288868 3-HighYield-temporary What type of probe is used to bind protein when using a Western blot ? Labeled antibody
+1468549297186 3-HighYield-temporary What type of probe is used to bind DNA/RNA when using a Southern/Northern blot ? Labeled single-stranded DNA / RNA oligonucleotide
+1468549318455 2-RelativelyHighYield A(n) Southwestern blot is used to identify DNA-binding proteins using labeled oligonucleotide probes

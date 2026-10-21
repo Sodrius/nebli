@@ -1,0 +1,4 @@
+# #AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::06_Enzyme-linked_immunosorbent_assay (3 notas)
+1468605640090 2-RelativelyHighYield Enzyme-linked immunosorbent assay (ELISA) is an immunologic test used to detect the presence of either a specific antigen or antibody in a patient's blood sample
+1468605649044 2-RelativelyHighYield When using ELISA , detection involves the use of a(n) antibody linked to a(n) enzyme
+1520277897542 4-LowerYield A direct ELISA tests for a(n) antigen An indirect ELISA tests for a(n) antibody against an antigen

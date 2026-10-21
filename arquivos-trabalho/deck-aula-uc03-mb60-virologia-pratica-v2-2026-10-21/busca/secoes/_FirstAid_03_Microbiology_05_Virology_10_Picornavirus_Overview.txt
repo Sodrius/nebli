@@ -1,0 +1,13 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::10_Picornavirus::*Overview (12 notas)
+1506609085427 2-RelativelyHighYield What type of viruses are picornaviruses ? Positive sense RNA
+1506609314164 1-HighYield Do picornaviruses have an envelope ? No (naked)
+1506609368498 1-HighYield What is the route of transmission of most picornaviruses ? Fecal-oral
+1506609599866 2-RelativelyHighYield Picornaviruses produce a large polyprotein product (inactive) that is cleaved into smaller subunits (active)
+1506609811863 1-HighYield What family of viruses do enteroviruses belong to? Picornaviridae
+1506609930801 1-HighYield What family of viruses do rhinoviruses belong to? Picornaviridae
+1506609946404 1-HighYield Which picornavirus can cause hepatosplenomegaly ? Hepatitis A virus (HAV)
+1506610040227 1-HighYield What are the three common enteroviruses (picornaviridae family)? Coxsackie A/B, echovirus, and poliovirus*
+1506610101347 1-HighYield Which type of meningitis is caused by a non-bacterial organism ? Aseptic meningitis
+1506610241044 1-HighYield What group of viruses are the most common cause of aseptic meningitis ? Enteroviruses (picornaviridae family)
+1506610455254 1-HighYield What demographic is most susceptible to viral (aseptic) meningitis caused by enteroviruses ? Children
+1506627151740 3-HighYield-temporary Picornaviruses have viral proteases which cleave the large translated polypeptide into functional viral proteins

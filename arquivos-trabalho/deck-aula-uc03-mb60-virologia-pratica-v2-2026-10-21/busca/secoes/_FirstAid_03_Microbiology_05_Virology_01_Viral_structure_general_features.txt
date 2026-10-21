@@ -1,0 +1,8 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::01_Viral_structure-general_features (7 notas)
+1502062962846 3-HighYield-temporary Viruses contain either DNA or RNA surrounded by a(n) capsid
+1502063041178 3-HighYield-temporary Do viruses have metabolic activity ? No
+1502063077047 3-HighYield-temporary The two most common shapes of viral capsids are icosahedral and helical
+1502063631440 2-RelativelyHighYield All naked viruses have icosahedral capsids
+1502063652542 3-HighYield-temporary Enveloped viruses can have either an icosahedral or helical shape (whereas naked viruses are all icosahedral)
+1502063659167 4-LowerYield The lipid membrane of a host cell can be acquired by the virus and is used as the viral envelope
+1502063688789 4-LowerYield Viral glycoproteins embedded in the surface of the envelope can be used to bind to host cells ; are also antigens for the immune system

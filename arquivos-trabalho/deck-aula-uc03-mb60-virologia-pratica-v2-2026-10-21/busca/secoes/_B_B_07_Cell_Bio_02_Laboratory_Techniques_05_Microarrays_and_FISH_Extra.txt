@@ -1,0 +1,3 @@
+# #AK_Step1_v12::#B&B::07_Cell_Bio::02_Laboratory_Techniques::05_Microarrays_and_FISH::Extra (2 notas)
+1468605614335 3-HighYield-temporary Microarrays analyze thousands of nucleic acid sequences arranged in grids on glass or silicon
+1468605679141 2-RelativelyHighYield Fluorescence in situ hybridization (FISH) is a laboratory technique used for specific localization of genes and direct visualization of chromosomal anomalies

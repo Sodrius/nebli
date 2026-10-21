@@ -1,0 +1,5 @@
+# #AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::05_ELISA (4 notas)
+1468605640090 2-RelativelyHighYield Enzyme-linked immunosorbent assay (ELISA) is an immunologic test used to detect the presence of either a specific antigen or antibody in a patient's blood sample
+1468605649044 2-RelativelyHighYield When using ELISA , detection involves the use of a(n) antibody linked to a(n) enzyme
+1506535107169 1-HighYield What is the confirmatory test for HIV ? HIV-1/2 antibody differentiation immunoassay
+1520277897542 4-LowerYield A direct ELISA tests for a(n) antigen An indirect ELISA tests for a(n) antibody against an antigen

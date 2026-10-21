@@ -1,0 +1,222 @@
+### diag | AnKing | (viral AND (diagnosis OR culture)) | 58 notas
+  1480564063016 [AnKingOverhaul] 2-RelativelyHighYield A definitive diagnosis of infectious mononucleosis is made by serologic testing for the EBV {{c1::viral capsid}} antigen
+  1481836431395 [AnKingOverhaul] 5-LowYield {{c2:: Subacute sclerosing panencephalitis (SSPE)}} is due to slowly progressing, persistent infection of the brain by {{c1:: measles }} virus
+  1481836434092 [AnKingOverhaul] 5-LowYield Does subacute sclerosing panencephalitis (SSPE) affect gray matter or white matter ? {{c1::Both :)}}
+  1486591331907 [AnKingOverhaul] 2-RelativelyHighYield What is the serum tumor marker for hepatocellular carcinoma ? {{c1::Alpha-fetoprotein (AFP)}}
+  1495632714029 [AnKingOverhaul] 1-HighYield All-trans retinoic acid (ATRA) can be used to treat the {{c1::measles}} virus
+  1497822053732 [AnKingOverhaul]  What is the likely diagnosis in a young adult with a month-long history of fever and malaise who develops symptoms of CHF with cardiomegaly on imaging? {{c1::Viral myocarditis}}
+  1502069492941 [AnKingOverhaul] 1-HighYield The backbone of highly active antiretroviral therapy ( HAART ) are {{c1::NRTIs}} such as zidovudine
+  1502153188370 [AnKingOverhaul] 1-HighYield {{c3::HSV-1::What virus}} is associated with {{c2::temporal}} lobe {{c1::encephalitis}}
+  1502154870583 [AnKingOverhaul] 1-HighYield {{c1::PCR}} is the gold standard used in the diagnosis of herpes simplex virus (HSV)
+  1503619347970 [AnKingOverhaul]  What is the likely diagnosis in an adult African-American patient that presents with splenomegaly and scleral icterus two weeks after having a URI treated with amoxicillin? Peripheral blood 
+  1503859471229 [AnKingOverhaul] 1-HighYield Severe, permanent symptoms of congenital {{c1:: CMV }} infection are remembered via the mnemonic " MR DICS ": {{c1:: M icrocephaly::M}} {{c1:: R estricted intellectual ability (intellectual 
+  1504220979797 [AnKingOverhaul]  What is the likely diagnosis in a young patient that presents with two days of fever , altered mental status , seizures , and the lumbar puncture findings below? Opening pressure : normal Pr
+  1505767103299 [AnKingOverhaul]  What is the likely diagnosis in a patient with a gritty sensation and watery discharge from the right eye for 3 days? The patient also has rhinorrhea, mild sore throat, and low-grade fever. 
+  1506298427891 [AnKingOverhaul] 1-HighYield Subacute sclerosing panencephalitis (SSPE) is diagnosed with presence of {{c1:: anti-measles antibodies }} in {{c2:: CSF }}
+  1506535107169 [AnKingOverhaul] 1-HighYield What is the confirmatory test for HIV ? {{c1::HIV-1/2 antibody differentiation immunoassay}}
+  1506535130975 [AnKingOverhaul] 1-HighYield What test determines the amount of viral RNA in plasma ? {{c1::Viral load}}
+  1506783017772 [AnKingOverhaul] 1-HighYield Highly active antiretroviral therapy (HAART) consists of a minimum of {{c1::3}} drugs to prevent resistance
+  1506783163535 [AnKingOverhaul] 1-HighYield HAART therapy consists of {{c4::2 NRTIs}} plus 1 of either a(n) {{c1:: NNRTI }}, {{c2:: protease inhibitor }}, or {{c3:: integrase inhibitor }}
+  1512748306709 [AnKingOverhaul]  What is the likely diagnosis in an afebrile patient that presents with rapid, progressive (within hours) ascending flaccid paralysis and normal sensation after returning from a hiking trip i
+  1514664090379 [AnKingOverhaul] 2-RelativelyHighYield Emtricitabine (FTC) and tenofovir (TDF) are given as a combination drug for {{c1:: pre-exposure prophylaxis (PrEP)}} of HIV
+  1514671566113 [AnKingOverhaul] 3-HighYield-temporary Enfuvirtide and maraviroc are used in patients with {{c1::treatment-resistant}} HIV
+  1514672013629 [AnKingOverhaul] 2-RelativelyHighYield Highly active anti-retroviral therapy (HAART) is often initiated at the time of {{c1::HIV diagnosis}}
+  1516928451566 [AnKingOverhaul] 1-HighYield Parvovirus B19 infection in {{c5:: adults }} can result in small-joint {{c1::arthritis}}, {{c2::myocarditis}}, and {{c3::edema}}
+  1516931076187 [AnKingOverhaul] 2-RelativelyHighYield Diagnosis of adenovirus is made via {{c1::serology}} or {{c2::viral culture}}
+  1517073518199 [AnKingOverhaul]  What is the likely diagnosis in a patient that presents with worsening purulent nasal discharge and facial pain one week after a viral URI ? {{c1::Acute bacterial rhinosinusitis}}
+  1517082029385 [AnKingOverhaul]  What is the likely diagnosis in a child with a pruritic rash with clusters of vesicles in different stages of healing? {{c1::Varicella zoster infection (chickenpox)}}
+  1517249029650 [AnKingOverhaul]  What is the recommended treatment for transient synovitis ? {{c1::Rest and NSAIDs}}
+  1517436373860 [AnKingOverhaul] 1-HighYield What is the likely diagnosis in a child that presents with fever and signs of heart failure after several days of a URI (runny nose and nasal congestion)? {{c1::Viral myocarditis}}
+  1523240302504 [AnKingOverhaul] 3-HighYield-temporary What flow-volume pattern would diffuse intraalveolar hemorrhage cause? {{c1::Restrictive}}
+  1531525557195 [AnKingOverhaul]  What is the likely diagnosis in an elderly patient with a burning sensation around the left eye and decreased vision for the past 5 days? Physical exam is remarkable for a vesicular rash ove
+### diag | Externos | (viral AND (diagnosis OR culture)) | 0 notas
+### pcr | AnKing | (PCR OR RT-PCR) | 43 notas
+  1461884982922 [AnKingOverhaul] 2-RelativelyHighYield Through which secondary messenger(s) does the ADH-bound V 1 receptor propagate its signal? {{c1::IP 3 /Ca 2+ }}
+  1463951489067 [AnKingOverhaul] 2-RelativelyHighYield What level of proteinuria is diagnostic of preeclampsia ? {{c1::≥ 300 mg/day}}
+  1467771853847 [AnKingOverhaul] 2-RelativelyHighYield {{c2:: DNA }} polymerase must see a(n) {{c1:: RNA primer }} to bind, which is complementary and antiparallel to the template strand
+  1468549189226 [AnKingOverhaul] 4-LowerYield The first step of cloning is to isolate the eukaryotic {{c1::mRNA}} of interest
+  1468549196500 [AnKingOverhaul] 4-LowerYield Cloning : After cDNA is produced, cDNA fragments are inserted into {{c1:: bacterial plasmids }}, which contain {{c2::antibiotic resistance}} genes
+  1468549202187 [AnKingOverhaul] 4-LowerYield Cloning : After the recombinant plasmid has been produced, it is transformed into {{c1::bacteria}}
+  1468605422972 [AnKingOverhaul] 2-RelativelyHighYield {{c1:: Polymerase chain reaction (PCR)}} is a powerful diagnostic tool used to amplify a desired fragment of DNA
+  1468605428299 [AnKingOverhaul] 2-RelativelyHighYield In the first step of PCR , DNA is {{c1::denatured}} by using {{c2::heat}} to separate the strands
+  1468605437554 [AnKingOverhaul] 2-RelativelyHighYield In the second step of PCR , {{c2:: DNA primers}} {{c1:: anneal }} to specific sequences on each DNA strand to be amplified
+  1468605447110 [AnKingOverhaul] 2-RelativelyHighYield In the final step of PCR , heat-stable {{c2::Taq DNA polymerase}} {{c1:: elongates }} the DNA sequence following each primer
+  1468605460088 [AnKingOverhaul] 2-RelativelyHighYield How many primers are needed for polymerase chain reaction (PCR)? {{c1::Two (one for the 3' end of each DNA strand)}}
+  1468605476084 [AnKingOverhaul] 2-RelativelyHighYield What type of primer is used in a polymerase chain reaction (PCR)? {{c1::DNA primer}}
+  1468605486456 [AnKingOverhaul] 2-RelativelyHighYield Which end of the DNA strand does the DNA primer bind to during PCR? {{c1::3' end}}
+  1468605494779 [AnKingOverhaul] 2-RelativelyHighYield PCR requires the addition of all four {{c1::deoxyribonucleotide triphosphates (dNTPs)}} for DNA synthesis
+  1474580773841 [AnKingOverhaul] 4-LowerYield Leukotriene D 4 exerts its effects by binding to the {{c1:: Cysteinyl leukotriene 1 (CysLT1)}} receptor
+  1499806740474 [AnKingOverhaul] 2-RelativelyHighYield What diagnostic tests are run to test for Giardia ? {{c1::PCR, stool O&P, ELISA stool antigen::3}}
+  1499808826912 [AnKingOverhaul] 4-LowerYield What tests are used to diagnose Entamoeba histolytica ? 1) {{c2::Stool antigen (e.g., PCR/ELISA)}} 2) {{c3::Serology to detect Entamoeba antibodies}} 3) {{c1::Stool O&P}}
+  1500151168012 [AnKingOverhaul] 4-LowerYield Entamoeba histolytica is most common in {{c1::developing::developed or developing}} countries
+  1501984455901 [AnKingOverhaul] 2-RelativelyHighYield {{c2:: Chlamydia and gonorrhea ::Which STIs (2)}} are commonly diagnosed via {{c1:: nucleic-acid amplification }} test
+  1502153188370 [AnKingOverhaul] 1-HighYield {{c3::HSV-1::What virus}} is associated with {{c2::temporal}} lobe {{c1::encephalitis}}
+  1502154870583 [AnKingOverhaul] 1-HighYield {{c1::PCR}} is the gold standard used in the diagnosis of herpes simplex virus (HSV)
+  1503859308013 [AnKingOverhaul] 1-HighYield Sensorineural deafness is a complication of which congenital (ToRCHHeS VP) infections? {{c1::Rubella, CMV*, Syphilis*, Toxoplasmosis*::4}}
+  1504720349150 [AnKingOverhaul]  What screening test(s) for STIs should be offered to an asymptomatic 22-year-old that is not yet sexually active ? {{c1::HIV screening ( p24 antigen and HIV antibody tests)}}
+  1506180946304 [AnKingOverhaul] 2-RelativelyHighYield Clostridioides difficile is diagnosed via enzyme immunoassay to detect {{c1:: toxins (A & B) }} in stool or via {{c2:: PCR }}
+  1513034403955 [AnKingOverhaul]  What is the gold standard for diagnosis of HSV encephalitis ? {{c1::HSV PCR analysis of CSF}}
+  1514737162457 [AnKingOverhaul] 2-RelativelyHighYield The goal of chronic HCV therapy is to establish a sustained virologic response ; meaning that HCV RNA is not detected by PCR for {{c1::12 weeks}}
+  1515895493029 [AnKingOverhaul] 1-HighYield What are two rapid tests for diagnosing Legionnaires' disease (Legionella pneumophila) ? {{c1::PCR or urine antigen test (fastest)}}
+  1516131223371 [AnKingOverhaul] 1-HighYield {{c3:: Mycoplasma pneumoniae }} is a bacteria associated with Ig {{c1:: M }} {{c1:: cold }} agglutination of {{c2:: RBCs }}
+  1516131381906 [AnKingOverhaul] 1-HighYield What is the most specific test for Mycoplasma pneumoniae ? {{c1::PCR}}
+  1516557199738 [AnKingOverhaul] 3-HighYield-temporary Diagnosis of Zika virus is made via {{c1::RT-PCR}} or serology
+### pcr | Externos | (PCR OR RT-PCR) | 21 notas
+  1555120957463 [AnKingMCAT (An]  {{c1::G-Protein Coupled Receptor (GPCR)}} is a membrane receptor with 7 transmembrane domains that {{c2:: transfers a signal from outside the cell to the inside of the cell ::does what?}}.
+  1555121880412 [AnKingMCAT (An]  GPCRs are {{c2::integral membrane proteins}} that possess {{c1::seven::#}} {{c3:: membrane-spanning domains or transmembrane helices ::what?}}.
+  1555125022835 [AnKingMCAT (An]  Give the steps in the GPCR sequence: 1 - {{c1::Ligand binds to GPCR}} 2 - {{c1::GPCR undergoes conformational change}} 3 - {{c1::Alpha subunit exchanges GDP for GTP}} 4 - {{c1::Alpha subunit
+  1555162926440 [AnKingMCAT (An]  In the GPCR sequence, {{c2:: cAMP ::ATP derivative}} functions as a second messenger, which {{c1::triggers a response inside the cell}}.
+  1558185806883 [AnKingMCAT (An]  Rhodopsin is a biological pigment found in the {{c1::rods}} of the retina.
+  1560394911447 [AnKingMCAT (An]  Gel electrophoresis is a technique commonly used in laboratories to separate charged molecules like DNA, RNA and proteins according to their {{c1::size}} and {{c1::charge}}.
+  1560434370076 [AnKingMCAT (An]  In gel electrophoresis: Small molecules move {{c1::fast::fast or slow}}. Large molecules move {{c1::slow::fast or slow}}.
+  1560444388485 [AnKingMCAT (An]  {{c1::Polymerase chain reaction (PCR)}} is a {{c2::fast}} and {{c2::inexpensive}} technique used to {{c3:: amplify , or make many copies of, a specific target region of DNA in the lab}}.
+  1560444530195 [AnKingMCAT (An]  {{c3::PCR}} relies on a {{c2:: thermostable }} DNA polymerase called {{c1::Taq polymerase::... polymerase}}.
+  1560444861974 [AnKingMCAT (An]  Give the three steps and the temperatures of each step in a PCR cycle : 1. {{c1::Denaturation}} at {{c1::96::#}}°C 2. {{c1::Annealing}} at {{c1::55 - 65::#}}°C 3. {{c1::Extension}} at {{c1::
+  1586797234036 [Image Occlusio]  ea0b99a1fac44e6cb725061dee505857-ao-1
+  1586797234037 [Image Occlusio]  ea0b99a1fac44e6cb725061dee505857-ao-2
+  1586797234046 [Image Occlusio]  ea0b99a1fac44e6cb725061dee505857-ao-3
+  1586819892525 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-1
+  1586819892531 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-2
+  1586819892535 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-3
+  1586819892539 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-4
+  1586819892542 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-5
+  1586819892545 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-6
+  1586819892548 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-7
+  1586819892552 [Image Occlusio]  3065162b21a54f49a348dc60fbf99eaf-ao-8
+### elisa | AnKing | ELISA | 13 notas
+  1468605640090 [AnKingOverhaul] 2-RelativelyHighYield {{c1::Enzyme-linked immunosorbent assay (ELISA)::not Coombs}} is an immunologic test used to detect the presence of either a specific antigen or antibody in a patient's blood sample
+  1468605649044 [AnKingOverhaul] 2-RelativelyHighYield When using ELISA , detection involves the use of a(n) {{c1::antibody}} linked to a(n) {{c2::enzyme}}
+  1487207100136 [AnKingOverhaul] 2-RelativelyHighYield {{c1::Skin prick}} tests or {{c2::blood (ELISA)}} tests for allergen-specific IgE are typically used to diagnose type I hypersensitivity reactions
+  1499806740474 [AnKingOverhaul] 2-RelativelyHighYield What diagnostic tests are run to test for Giardia ? {{c1::PCR, stool O&P, ELISA stool antigen::3}}
+  1499806848824 [AnKingOverhaul] 2-RelativelyHighYield What is an ELISA looking for when testing for Giardia ? {{c1::Stool antigens}}
+  1499808826912 [AnKingOverhaul] 4-LowerYield What tests are used to diagnose Entamoeba histolytica ? 1) {{c2::Stool antigen (e.g., PCR/ELISA)}} 2) {{c3::Serology to detect Entamoeba antibodies}} 3) {{c1::Stool O&P}}
+  1506535107169 [AnKingOverhaul] 1-HighYield What is the confirmatory test for HIV ? {{c1::HIV-1/2 antibody differentiation immunoassay}}
+  1509811289984 [AnKingOverhaul] 3-HighYield-temporary What is used to differentiate between primary CNS lymphoma and toxoplasmosis ? {{c1::Brain biopsy}}
+  1520277897542 [AnKingOverhaul] 4-LowerYield A direct ELISA tests for a(n) {{c1::antigen}} An indirect ELISA tests for a(n) {{c2::antibody against an antigen}}
+  1536092360903 [AnKingOverhaul]  What is the most accurate test of cardiac ejection fraction ? {{c1::Radionuclide ventriculography (multigated acquisition ( MUGA ) scan)}}
+  1554315343710 [AnKingOverhaul]  Diagnosis of early disseminated / late Lyme disease = {{c1::ELISA then Western if confirmation is needed}}
+  1580153102510 [AnKingOverhaul]  An active hepatitis C diagnosis requires both a serologic test for the HCV antibody and a confirmatory {{c1::molecular test}} for the presence of {{c1::HCV RNA}}
+  1583446174662 [AnKingOverhaul]  Early localized Lyme disease is diagnosed through {{c1::clinical signs}}
+### elisa | Externos | ELISA | 1 notas
+  1719431529479 [AnKingMCAT (An]  An enzyme-linked immunosorbent assays (ELISA) can be used to measure the concentration of a/an {{c1::antigen}} in a solution.
+### western | AnKing | (Western AND blot) | 18 notas
+  1467683661152 [AnKingOverhaul] 4-LowerYield Are RNA and protein typically fragmented before analysis ? {{c1::No}}
+  1467683666150 [AnKingOverhaul] 4-LowerYield Is DNA typically fragmented before analysis ? {{c1::Yes}}
+  1468549213267 [AnKingOverhaul] 3-HighYield-temporary DNA requires {{c1::fragmentation}} for analysis , RNA and proteins do not (analyzed directly)
+  1468549216900 [AnKingOverhaul] 3-HighYield-temporary All RNA/DNA is {{c1::negatively}} charged
+  1468549219948 [AnKingOverhaul] 3-HighYield-temporary Most proteins are {{c1::negatively}} charged
+  1468549222931 [AnKingOverhaul] 3-HighYield-temporary Gel electrophoresis separates fragments on the basis of {{c1::size}}
+  1468549231401 [AnKingOverhaul] 3-HighYield-temporary When using blotting procedures , the {{c1::probe}} determines what sequences are detected
+  1468549239653 [AnKingOverhaul] 2-RelativelyHighYield A(n) {{c2:: Southern }} blot is used to analyze {{c1::DNA}}
+  1468549248441 [AnKingOverhaul] 2-RelativelyHighYield A(n) {{c2:: Northern }} blot is used to analyze {{c1::RNA}}
+  1468549256100 [AnKingOverhaul] 2-RelativelyHighYield Does a Southern blot require gel electrophoresis before analysis? {{c1::Yes}}
+  1468549263734 [AnKingOverhaul] 2-RelativelyHighYield Does a Northern blot require gel electrophoresis before analysis? {{c1::Yes}}
+  1468549269015 [AnKingOverhaul] 2-RelativelyHighYield A Northern blot is useful for studying gene {{c1::expression}}
+  1468549285757 [AnKingOverhaul] 2-RelativelyHighYield A(n) {{c2:: Western }} blot is used to analyze {{c1::protein}}
+  1468549288868 [AnKingOverhaul] 3-HighYield-temporary What type of probe is used to bind protein when using a Western blot ? {{c1::Labeled antibody}}
+  1468549297186 [AnKingOverhaul] 3-HighYield-temporary What type of probe is used to bind DNA/RNA when using a Southern/Northern blot ? {{c1::Labeled single-stranded DNA / RNA oligonucleotide}}
+  1468549318455 [AnKingOverhaul] 2-RelativelyHighYield A(n) {{c1:: Southwestern }} blot is used to identify {{c2:: DNA-binding }} proteins using labeled oligonucleotide probes
+  1554315343710 [AnKingOverhaul]  Diagnosis of early disseminated / late Lyme disease = {{c1::ELISA then Western if confirmation is needed}}
+  1583446174662 [AnKingOverhaul]  Early localized Lyme disease is diagnosed through {{c1::clinical signs}}
+### western | Externos | (Western AND blot) | 4 notas
+  1560440009197 [AnKingMCAT (An]  {{c1::Blotting}} is a method of {{c2::transferring fragments of protein, DNA, or RNA}} that have been separated via {{c2::gel electrophoresis}} and applying them to a {{c2:: blotting membran
+  1560441528072 [AnKingMCAT (An]  {{c1::Southern blotting::... blotting}} is used to detect {{c2::a specific DNA sequence}}.
+  1560441678110 [AnKingMCAT (An]  {{c1::Northern blotting::... blotting}} is used to detect {{c2::a specific RNA sequence}}.
+  1560441755267 [AnKingMCAT (An]  {{c1::Western blotting::... blotting}} is used to detect {{c2::a specific protein in a sample}}.
+### cpe | AnKing | (inclusion OR syncytia OR cytopathic) | 65 notas
+  1403141269124 [AnKingOverhaul] 1-HighYield Which herpesvirus is associated with characteristic owl's eye inclusions in infected cells? {{c1::CMV (HHV-5)}}
+  1403292961137 [AnKingOverhaul] 1-HighYield {{c1:: Esophagitis }} and {{c2:: colitis }} are GI complications that are often seen alongside CMV retinitis in immunosuppressed patients
+  1403296022011 [AnKingOverhaul] 1-HighYield {{c1:: Cytomegalovirus (CMV)}} is a herpesvirus that causes interstitial pneumonia in patients with HIV
+  1462228925054 [AnKingOverhaul] 1-HighYield In addition to "Orphan Annie eye" nuclei, papillary thyroid carcinoma may have cells with intranuclear {{c1:: grooves }} and inclusions
+  1463340121839 [AnKingOverhaul] 1-HighYield {{c2::Leydig cell}} tumor is a sex cord-stromal tumor associated with characteristic {{c1::Reinke crystals}} (eosinophilic cytoplasmic inclusion) on histology
+  1468180498878 [AnKingOverhaul] 2-RelativelyHighYield Which enzyme phosphorylates mannose in the Golgi apparatus , facilitating protein trafficking? {{c1::Phosphotransferase}}
+  1468180513115 [AnKingOverhaul] 2-RelativelyHighYield What pathology is associated with a defect in the enzyme N-acetylglucosaminyl-1-phosphotransferase ? {{c1::I-cell disease (inclusion cell disease / mucolipidosis type II)}}
+  1468180544636 [AnKingOverhaul] 2-RelativelyHighYield What differentiates I-cell disease from other inclusion body diseases? {{c1::I-cell has a mixed accumulation of junk forming the inclusion bodies}}
+  1473638595730 [AnKingOverhaul] 1-HighYield Granulomas due to sarcoidosis often have characteristic {{c1:: stellate }} -shaped inclusions ('{{c2:: asteroid }} bodies ') within giant cells
+  1473638601304 [AnKingOverhaul] 4-LowerYield Granulomas due to sarcoidosis may have {{c1:: Schaumann }} bodies , which are calcium and protein inclusions inside of giant cells
+  1474509469020 [AnKingOverhaul] 4-LowerYield {{c1:: Bronchogenic cyst }} is a congenital lung malformation that typically presents as discrete, round, sharply defined and fluid -filled densities on CXR
+  1475891003010 [AnKingOverhaul] 1-HighYield What inclusion body may be seen inside the RBCs of patients with G6PD deficiency ? {{c1::Heinz bodies}}
+  1478834579253 [AnKingOverhaul] 3-HighYield-temporary In β-thalassemia major , {{c1::α 4 }} tetramers precipitate and damage RBCs
+  1480564230781 [AnKingOverhaul] 1-HighYield Myeloblasts may have crystal aggregates of {{c2:: myeloperoxidase (MPO)}}, which are seen on blood smear as {{c1:: Auer rods }}
+  1481857815448 [AnKingOverhaul] 5-LowYield Frontotemporal dementia (Pick disease) may have ubiquitinated {{c1::TDP-43}} inclusions seen on histology
+  1481857869104 [AnKingOverhaul] 5-LowYield {{c3:: Parkinson disease and Lewy body dementia ::2}} are characterized histologically by {{c1:: Lewy bodies }}, which are round, eosinophilic inclusions composed of {{c2:: α-synuclein }}
+  1481857873469 [AnKingOverhaul] 5-LowYield What feature of Parkinson disease is represented in the image below? {{c1::Lewy body}}
+  1482978622860 [AnKingOverhaul] 4-LowerYield {{c1:: Acalculous }} cholecystitis is due to gallbladder stasis, hypoperfusion, or infection ( no obstruction ); seen in critically ill patients
+  1482978625107 [AnKingOverhaul] 5-LowYield What infection is associated with acalculous cholecystitis ? {{c1::CMV}}
+  1486522818318 [AnKingOverhaul] 1-HighYield {{c3:: Alcoholic hepatitis }} is characterized histologically by {{c1:: Mallory bodies }}, which are intracytoplasmic eosinophilic inclusions of damaged {{c2:: keratin ( intermediate )}} fil
+  1488680628736 [AnKingOverhaul]  Molluscum contagiosum is characterized histologically by {{c1:: cytoplasmic }} inclusions (molluscum bodies)
+  1496494279566 [AnKingOverhaul]  What is the likely diagnosis in an infant with upper respiratory symptoms , wheezing / crackles , and respiratory distress ? {{c1::Bronchiolitis}}
+  1496494702502 [AnKingOverhaul]  Infants age < 2 months with bronchiolitis are at high risk of developing {{c1:: apnea }} and/or respiratory failure
+  1501984223104 [AnKingOverhaul] 3-HighYield-temporary Cells infected with Chlamydia spp. will show cytoplasmic {{c1::inclusion/reticulate bodies}} under microscope
+  1502066667272 [AnKingOverhaul] 1-HighYield {{c1::gp41}} is the transmembrane protein of HIV , mediating viral-cell fusion and syncytia formation
+  1502152099123 [AnKingOverhaul] 1-HighYield Cowdry bodies are located in the {{c1::nucleus::what part of the cell?}}
+  1502152318872 [AnKingOverhaul] 1-HighYield {{c3:: Cowdry bodies }} are {{c2:: eosino }} philic intra nuclear inclusions found in cells infected with organisms within the {{c1:: herpesviridae }} family
+  1502154870583 [AnKingOverhaul] 1-HighYield {{c1::PCR}} is the gold standard used in the diagnosis of herpes simplex virus (HSV)
+  1502570605009 [AnKingOverhaul] 2-RelativelyHighYield Intra{{c2::cytoplasmic}} inclusions , known as {{c1:: Guarnieri bodies }} AKA {{c1::B}}-type inclusions, are diagnostic of {{c3:: Poxvirus }}
+  1502571972870 [AnKingOverhaul] 1-HighYield Molluscum contagiosum can present with histologic {{c1::eosino}}philic {{c1::cytoplasmic::location}} inclusion bodies within {{c1::keratino}}cytes known as " molluscum bodies "
+### cpe | Externos | (inclusion OR syncytia OR cytopathic) | 3 notas
+  1701368045609 [Cloze-AnKingMa]  White Adipose Tissue Structure Adipocytes in white adipose tissue specialize in long-term energy storage . These cells are spherical when isolated , but {{c1:: polyhedral }} when packed in t
+  1701418142687 [Cloze-AnKingMa]  Characteristics of Brown Adipose Tissue Brown adipose tissue makes up 2%-5% of a newborn's body weight , primarily located in the {{c1::back}}, {{c1::neck}}, and {{c1::shoulders}}. This tiss
+  1701789700099 [Cloze-AnKingMa]  Perikarya (Neuronal Cell Bodies) {{c1::Micro}}tubules, {{c1::Actin}} Filaments, and {{c1:: Intermediate ::s }} Filaments are abundant in perikarya. {{c2:: Neurofilaments }}: {{c1::Intermedia
+### sero | AnKing | (seroconversion OR IgM OR neutralization) | 366 notas
+  1403140946098 [AnKingOverhaul] 1-HighYield Which herpesvirus causes mononucleosis with a negative monospot test ? {{c1::CMV (HHV-5)}}
+  1461634740442 [AnKingOverhaul] 1-HighYield Chronic use of {{c2:: senna }} causes brown pigmentation of the colon , known as {{c1:: melanosis coli }}
+  1461871756747 [AnKingOverhaul] 1-HighYield {{c2:: Melanocyte-stimulating hormone (MSH)}} is found in POMC and its fragments; thus, increased levels of POMC and ACTH may lead to {{c1:: skin/mucosal hyperpigmentation }} (e.g., Addison 
+  1462066758910 [AnKingOverhaul] 2-RelativelyHighYield What is the level of ACTH in secondary adrenal insufficiency ? Why? {{c1::Decreased; the disease is a result of decreased ACTH secretion}}
+  1462066785696 [AnKingOverhaul] 1-HighYield Does secondary adrenal insufficiency present with hyperpigmentation? Why? {{c1::No; ACTH levels are low therefore there is no increased melanocyte-stimulating hormone (MSH)}}
+  1462390543517 [AnKingOverhaul] 1-HighYield One clinical feature of Addison disease is {{c1:: hyperpigmentation }}, due to increased levels of {{c2:: MSH }} secondary to elevated ACTH
+  1462812278781 [AnKingOverhaul] 4-LowerYield What are the two main areas that experience hyperpigmentation due to Addison disease ? {{c1::Skin and mucous membranes}}
+  1462832298366 [AnKingOverhaul] 4-LowerYield {{c1:: Nelson }} syndrome is an enlargement of existing ACTH-secreting pituitary adenoma after bilateral {{c2:: adrenalectomy }} for refractory Cushing syndrome
+  1462832617984 [AnKingOverhaul] 4-LowerYield Postadrenalectomy syndrome (Nelson syndrome) presents with symptoms of both mass effect and elevated ACTH , including {{c1:: hyperpigmentation }}, {{c2:: headaches }}, and {{c3:: bitemporal 
+  1467819685605 [AnKingOverhaul] 1-HighYield What form of DNA repair fixes mutations induced by UV radiation ? {{c1::Nucleotide excision repair}}
+  1467819699712 [AnKingOverhaul] 1-HighYield The enzyme that recognizes and excises pyrimidine dimer mutations is {{c1::excision endonuclease}}
+  1467819717437 [AnKingOverhaul] 1-HighYield Xeroderma pigmentosum is an inherited pathology due to a defective {{c1::nucleotide excision repair}} pathway
+  1467833441597 [AnKingOverhaul] 2-RelativelyHighYield In eukaryotes , each gene has its own {{c1::promoter}}, to which RNA polymerase II may bind
+  1467833788256 [AnKingOverhaul] 3-HighYield-temporary {{c1:: Waardenburg }} syndrome is associated with mutations in the PAX gene , leading to impaired differentiation of {{c2:: neural crest }} cells
+  1471466751292 [AnKingOverhaul] 2-RelativelyHighYield The Starling equation is used to determine fluid flow (J v ) and states that J v = {{c1::\(K_{f}[(P_{c}-P_{i}) - \sigma(\pi_{c}-\pi_{i})]\)}}
+  1471466759963 [AnKingOverhaul] 3-HighYield-temporary When J v (fluid flow) is {{c1::positive}} , there is net fluid movement out of the capillary (filtration)
+  1471466769282 [AnKingOverhaul] 3-HighYield-temporary When J v (fluid flow) is {{c1:: negative }}, there is net fluid movement into the capillary (absorption)
+  1471914979068 [AnKingOverhaul] 1-HighYield {{c3:: Left ::Left or Right}} heart failure may present with {{c1:: hemosiderin-laden macrophages }}, known as {{c2:: heart failure }} cells , in the lungs
+  1472426633744 [AnKingOverhaul] 4-LowerYield While most enzymatic reactions follow a hyperbolic curve (Michaelis-Menten kinetics), {{c2::allosteric}} kinetics follow a(n) {{c1:: sigmoidal }} curve
+  1473382505498 [AnKingOverhaul] 1-HighYield The {{c2:: sigmoidal }} shape of the oxygen-hemoglobin dissociation curve is due to {{c1:: positive cooperativity }} (increased affinity for each successive O 2 bound)
+  1473384994044 [AnKingOverhaul] 2-RelativelyHighYield Does the oxygen-myoglobin dissociation curve have a sigmoidal shape? Why? {{c1::No, myoglobin is monomeric (no positive cooperativity)}}
+  1473548667856 [AnKingOverhaul] 2-RelativelyHighYield One complication of Mycoplasma pneumoniae is autoimmune {{c1:: hemolytic anemia }} due to high concentrations of cold agglutinins ( IgM )
+  1473638455081 [AnKingOverhaul] 2-RelativelyHighYield Mild exposure to carbon (e.g., pollution) results in {{c1::anthracosis}} , which is an asymptomatic condition characterized by collections of carbon-laden macrophages
+  1474666092796 [AnKingOverhaul] 2-RelativelyHighYield {{c2::Dextromethorphan}} is an antitussive that exerts its effects via antagonism of {{c1:: NMDA glutamate }} receptors and stimulation of {{c1:: sigma }} receptors
+  1475363863959 [AnKingOverhaul] 1-HighYield What immunofluorescence findings are usually associated with focal segmental glomerulosclerosis (FSGS)? {{c1::None (no immune complex deposits)}}
+  1475376486636 [AnKingOverhaul] 1-HighYield {{c3:: Post-streptococcal glomerulonephritis (PSGN) }} is characterized by a(n) {{c1:: granular ("lumpy bumpy") ::specific}} immunofluorescence pattern due to {{c2:: immune complex depositio
+  1475376496099 [AnKingOverhaul] 2-RelativelyHighYield The granular (" lumpy bumpy ") appearance of PSGN on immunofluorescence is due to deposits with immune complexes consisting of {{c1:: IgG }} / {{c1:: IgM }} and {{c2:: C3 }}
+  1476328246316 [AnKingOverhaul] 1-HighYield Phenylketonuria may present with {{c1:: hypopigmented }} skin , eczema, {{c2:: intellectual }} disability , growth retardation, and seizures
+  1476583132273 [AnKingOverhaul] 2-RelativelyHighYield The {{c1:: retinal }} form of vitamin A is a constituent of {{c2:: visual }} pigments
+  1476583135570 [AnKingOverhaul] 2-RelativelyHighYield Vitamin {{c2:: A }} is a co-factor for the synthesis of the visual pigment {{c1:: rhodopsin }}
+### sero | Externos | (seroconversion OR IgM OR neutralization) | 197 notas
+  1349476586507 [Anatomy]  Abdominal Wall and Viscera: Median (Sagittal) Section
+  1349477488369 [Anatomy]  Arteries of Large Intestine
+  1349477488408 [Anatomy]  Dural Venous Sinuses
+  1349477488414 [Anatomy]  Eyeball: Horizontal Section
+  1349477488417 [Anatomy]  Female Pelvic Contents: Superior View
+  1349477488426 [Anatomy]  Foramina of Cranial Base: Superior View
+  1349477488437 [Anatomy]  Gallbladder and Extrahepatic Bile Ducts
+  1349477488494 [Anatomy]  Male Pelvic Contents: Superior View
+  1349477488508 [Anatomy]  Mucosa and Musculature of Large Intestine
+  1461962631680 [Cloze deletion]  The left colic, sigmoidal and superior rectal arteries arise from the {{c1::IMA}}.
+  1473200627356 [LabValue]  IgM, serum
+  1527677238248 [Cloze-b12d6]  Cecum = {{c1::mid}}gut Sigmoid colon = {{c1::hind}}gut
+  1527678903182 [Cloze-b12d6]  Where does volvulus most commonly occur? {{c1:: Midgut (infants) }} {{c2:: Sigmoid (elderly Mr Siegman) }}
+  1542147295985 [AnatoKingOverh]  {{c1::Sigmoid colon}}
+  1546961507420 [AnatoKingOverh]  Intraperitoneal: {{c1::cecum, appendix, transverse colon, sigmoid colon}} Secondarily retroperitoneal: {{c1::ascending colon, descending colon}}
+  1546962005677 [AnatoKingOverh]  {{c1::Sigmoid arteries (faint in this image)}}
+  1548191824371 [AnatoKingOverh]  {{c1::Condylar (condyloid) canal of the occipital bone [Canalis condylaris]}}
+  1548823154911 [AnatoKingOverh]  {{c1::Transverse (Basilar) sinus [Sinus transversus]}}
+  1548823695341 [AnatoKingOverh]  {{c1::Sigmoid (venous) sinus [Sinus sigmoideus]}}
+  1550357451208 [AnatoKingOverh]  {{c1::Groove for sigmoid sinus of occipital bone [Sulcus sinus sigmoidei]}}
+  1550376544070 [AnatoKingOverh]  {{c1::Groove for sigmoid sinus of parietal bone [Sulcus sinus sigmoidei]}}
+  1553887042532 [AnKingMCAT (An]  {{c1::Sigma}} bonds are formed by {{c2:: head-on overlapping}} between atomic orbitals.
+  1554079027568 [AnKingMCAT (An]  A/an {{c1::kinase::type of enzyme}} {{c2:: adds a phosphate group from ATP to a substrate::does what?}}.
+  1554089562589 [AnKingMCAT (An]  {{c2:: Positive cooperative }} enzymes display a {{c1::sigmoidal::shape}} curve.
+  1554089858860 [AnKingMCAT (An]  {{c1::Cooperative binding}} is when the binding of the first molecule of B to A {{c2:: changes A's binding affinity for the second B molecule::does what?}}, making it {{c2::more or less}} li
+  1554094176747 [AnKingMCAT (An]  A/an {{c1::homotropic effector::... effector}} is {{c2::an allosteric regulator}} that is also the {{c2:: substrate }}.
+  1554094334542 [AnKingMCAT (An]  A/an {{c1::heterotropic effector::... effector}} is {{c2::an allosteric regulator}} molecule that is {{c2:: different from the substrate }} .
+  1554094374277 [AnKingMCAT (An]  {{c1::Phosphorylation}} is the {{c3:: covalent ::type of bond}} binding of a {{c2:: phosphoryl group (PO 3 - )}} to an organic molecule.
+  1554152624521 [AnKingMCAT (An]  Give the equation for electric field strength in a capacitor : {{c1::\(E_{cap} = \frac{Q}{\epsilon_0A} = \frac{\Delta V}{d}\)}}
+  1554170514479 [AnKingMCAT (An]  A/an {{c1::neutralization}} reaction is when {{c2::an acid and base}} react to form {{c2::water and salt}}.

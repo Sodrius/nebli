@@ -1,0 +1,14 @@
+# #AK_Step1_v12::#Bootcamp::Genetics::05_Laboratory_Techniques::04_Microarray,_GWAS,_Karyotype,_FISH (13 notas)
+1468605614335 3-HighYield-temporary Microarrays analyze thousands of nucleic acid sequences arranged in grids on glass or silicon
+1468605624923 3-HighYield-temporary Microarrays are a laboratory technique used to profile gene expression levels of thousands of genes simultaneously to study certain diseases and treatments
+1468605629127 3-HighYield-temporary Microarrays use a(n) labeled DNA/RNA probe, which is hybridized to the chip, and a scanner detects the relative amounts of complementary binding
+1468605635616 3-HighYield-temporary What two types of variations in DNA are detected when using microarrays ? (DNA markers) - Single nucleotide polymorphisms (SNPs) - Copy number variations (CNVs)
+1468605658460 2-RelativelyHighYield Karyotyping is a process in which metaphase chromosomes are stained, ordered, and numbered according to morphology, size, arm-length ratio, and banding pattern
+1468605668123 2-RelativelyHighYield What laboratory technique is used to diagnose chromosomal imbalances ? Karyotyping
+1468605672126 2-RelativelyHighYield Fluorescence in situ hybridization (FISH) uses a fluorescent DNA/RNA probe to bind to a specific gene of interest on chromosomes
+1468605679141 2-RelativelyHighYield Fluorescence in situ hybridization (FISH) is a laboratory technique used for specific localization of genes and direct visualization of chromosomal anomalies
+1468605683908 2-RelativelyHighYield A(n) microdeletion is detected with FISH as no fluorescence on a chromosome compared to fluorescence at the same locus on the second copy of that chromosome
+1468605700819 2-RelativelyHighYield A(n) translocation is detected with FISH as fluorescence of the target gene outside the original chromosome
+1468605710555 2-RelativelyHighYield A(n) duplication is detected with FISH as an extra site of fluorescence on one chromosome relative to its homologous chromosome
+1516928687769 - What is the next step in management for an adolescent girl with primary amenorrhea with a uterus present on ultrasound and high FSH levels ? Karyotyping
+1549111729466 - What is the next step in management of a patient with primary amenorrhea who has an intact endocrine axis but no uterus ? Karyotyping

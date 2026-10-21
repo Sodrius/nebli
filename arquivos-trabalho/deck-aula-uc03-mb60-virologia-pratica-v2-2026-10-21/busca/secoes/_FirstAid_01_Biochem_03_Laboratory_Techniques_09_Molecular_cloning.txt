@@ -1,0 +1,10 @@
+# #AK_Step1_v12::#FirstAid::01_Biochem::03_Laboratory_Techniques::09_Molecular_cloning (9 notas)
+1468548523778 3-HighYield-temporary Recombinant DNA is DNA spliced together from two sources (usually human gene + bacterial vector)
+1468549155531 4-LowerYield A(n) palindrome is a DNA sequence which reads the same backwards and forwards on opposite strands of DNA (usually 4 or 6 bp)
+1468549172824 3-HighYield-temporary What class of enzymes cleaves nucleotides at the ends of a DNA strand? Exonucleases
+1468549176064 3-HighYield-temporary What class of enzymes cleaves nucleotides in the middle of a DNA strand? Endonucleases
+1468549185535 3-HighYield-temporary Cloning is the production of a recombinant DNA molecule that is self-perpetuating
+1468549189226 4-LowerYield The first step of cloning is to isolate the eukaryotic mRNA of interest
+1468549192518 4-LowerYield Cloning : Isolated mRNA is exposed to reverse transcriptase to produce cDNA (lacks introns)
+1468549196500 4-LowerYield Cloning : After cDNA is produced, cDNA fragments are inserted into bacterial plasmids , which contain antibiotic resistance genes
+1468549202187 4-LowerYield Cloning : After the recombinant plasmid has been produced, it is transformed into bacteria

@@ -1,0 +1,7 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::13_Influenza_viruses::*Segmented_Viruses (6 notas)
+1516321367173 3-HighYield-temporary Orthomyxovirus has 8 segments
+1516321532745 1-HighYield The segmented virus families may be remembered with the mnemonic " BOAR ": B unyavirus O rthomyxovirus A renavirus R eovirus
+1516321532746 1-HighYield The segmented virus families may be remembered with the mnemonic " BOAR "
+1516558572168 5-LowYield Bunyaviruses have 3 circular segments
+1516664064296 5-LowYield Arenaviruses have 2 circular segments
+1516665391803 5-LowYield Reoviruses have 10 - 12 segments
