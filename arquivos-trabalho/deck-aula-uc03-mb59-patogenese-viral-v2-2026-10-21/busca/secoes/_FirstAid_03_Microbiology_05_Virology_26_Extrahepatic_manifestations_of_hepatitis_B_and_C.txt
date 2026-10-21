@@ -1,0 +1,13 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::26_Extrahepatic_manifestations_of_hepatitis_B_and_C (12 notas)
+1506552454301 2-RelativelyHighYield Hepatitis B virus can present similar to serum sickness , with fever , rash , and arthralgias
+1506552739959 1-HighYield Polyarteritis nodosa associated with hepatitis B virus can affect the vessels of the kidney, resulting in hypertension and decreased GFR
+1506552876137 2-RelativelyHighYield Hepatitis B virus results in membranous glomerulonephropathy transitioning to membranoproliferative glomerulonephropathy
+1506553067473 1-HighYield Which demographic will show normal ALT levels in viral hepatitis ? Neonates (neonatal hepatitis)
+1506554186856 3-HighYield-temporary Chronic HBV infection can result in cirrhosis
+1506630386378 3-HighYield-temporary Hepatitis C RNA is found in the serum for < 6 months in the acute stage
+1506630461508 2-RelativelyHighYield The acute phase of both hepatitis B & C virus infections are marked by a rise and fall of ALT in 6 months
+1506630504581 3-HighYield-temporary Hepatitis C RNA is found in the serum for ≥ 6 months in the chronic stage
+1506630621596 1-HighYield Which hepatitis virus is associated with cryoglobulins ? Hepatitis C virus
+1506630702445 1-HighYield Hepatitis C virus is associated with cryoglobulins, which are IgM immunoglobulins that precipitate out of the blood at cool temperatures
+1582854828887 3-HighYield-temporary Hepatitis B infections are more likely to cause membranous glomerulonephritis
+1582854847320 3-HighYield-temporary Hepatitis C infections are more likely to cause membranoproliferative glomerulonephritis (MPGN)

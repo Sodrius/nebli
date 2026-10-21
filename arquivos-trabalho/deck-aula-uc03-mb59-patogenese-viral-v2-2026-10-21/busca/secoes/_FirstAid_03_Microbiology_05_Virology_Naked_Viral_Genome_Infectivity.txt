@@ -1,0 +1,4 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::*Naked_Viral_Genome_Infectivity (3 notas)
+1500673513536 1-HighYield Addition of DNAse will degrade any naked DNA present in a culture medium, inhibiting any bacterial transformation
+1502063631440 2-RelativelyHighYield All naked viruses have icosahedral capsids
+1502063652542 3-HighYield-temporary Enveloped viruses can have either an icosahedral or helical shape (whereas naked viruses are all icosahedral)

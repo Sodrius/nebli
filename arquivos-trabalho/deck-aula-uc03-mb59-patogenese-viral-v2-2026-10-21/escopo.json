@@ -1,0 +1,191 @@
+{
+ "ciclo": "básico",
+ "justificativa": "Princípios da patogênese viral (entrada, disseminação, padrões de infecção, determinantes da doença, virulência, tropismo e evasão) como base para a virologia e a patologia; vírus e doenças só como exemplo de um princípio; sem diagnóstico, tratamento nem clínica detalhada.",
+ "clinica_lateral": [
+  "ak1608908651007"
+ ],
+ "clinica_e_tema": false,
+ "motivo_tema": "",
+ "ordem_da_fala": [
+  [
+   120,
+   178
+  ]
+ ],
+ "historia": "A aula conta como um vírus consegue infectar e, às vezes, adoecer o hospedeiro suscetível. Começa pela definição: o vírus é parasita intracelular obrigatório e infecção, produtiva ou abortiva, não é sinônimo de doença. Depois segue o caminho do vírus: entra por uma porta (respiratória ou digestiva), replica no sítio primário e, se for sistêmico, passa à linfa e ao sangue (viremia) até o sítio secundário. O desfecho forma os padrões de infecção (aguda, latente, persistente e progressiva), que dependem do vírus, do tropismo, da via e da resposta do hospedeiro. A doença depende de suscetibilidade, permissividade e acessibilidade e da virulência (rotavírus, influenza e HPV), o tropismo explica diferenças como rinovírus e poliovírus, e a persistência exige evasão ativa ou passiva da resposta imune.",
+ "linha_logica": [
+  {
+   "passo": "Infecção produtiva ou abortiva não é doença: o vírus é parasita intracelular obrigatório",
+   "mecanismo": false,
+   "liga_ao_proximo": "Para infectar, o vírus precisa entrar por uma porta e achar a célula com receptor",
+   "cards": [
+    "au-infecao-def"
+   ]
+  },
+  {
+   "passo": "Portas de entrada: a via respiratória (escada mucociliar, receptores como ICAM-1) e a digestiva (resistir a ácido, enzimas e bile)",
+   "mecanismo": true,
+   "liga_ao_proximo": "Depois de replicar no sítio primário o vírus pode se espalhar pelo sangue",
+   "cards": [
+    "ak1473289461901",
+    "ak1516325251980",
+    "ak1506297282227",
+    "ak1516222322469",
+    "ak1608908651007",
+    "ak1506610615157",
+    "ak1516237532611",
+    "ak1516665596498",
+    "ak1516218470870"
+   ]
+  },
+  {
+   "passo": "Disseminação: sítio primário, linfa e sangue (viremia ativa ou passiva) e sítio secundário",
+   "mecanismo": true,
+   "liga_ao_proximo": "O resultado da replicação e da resposta define o padrão de infecção",
+   "cards": [
+    "au-viremia"
+   ]
+  },
+  {
+   "passo": "Padrões: aguda tem começo e fim, latente liga e desliga o ciclo, persistente replica sem parar e progressiva aumenta até o dano; latência viral não é latência clínica",
+   "mecanismo": true,
+   "liga_ao_proximo": "O que decide se há doença é um conjunto de fatores do vírus, da célula e do hospedeiro",
+   "cards": [
+    "ak1506291152635",
+    "ak1503860841762",
+    "ak1503858394947",
+    "ak1506291111598",
+    "ak1502154338212",
+    "ak1502153397982",
+    "ak1502152875721",
+    "ak1503854748516",
+    "ak1506552065089",
+    "ak1506552371527",
+    "ak1506552205472",
+    "ak1506630060423",
+    "ak1502067560663",
+    "au-latencia-vs",
+    "au-padroes"
+   ]
+  },
+  {
+   "passo": "Patogênese: destruição, citocinas e disfunção celular; a infecção produtiva exige receptor, célula permissiva e acesso",
+   "mecanismo": true,
+   "liga_ao_proximo": "Cada vírus tem uma capacidade relativa de causar doença, a virulência",
+   "cards": [
+    "au-patogenese",
+    "au-3-fatores"
+   ]
+  },
+  {
+   "passo": "Virulência: fatores como a NSP4 do rotavírus, o tipo de influenza e o tipo de HPV mudam a gravidade",
+   "mecanismo": true,
+   "liga_ao_proximo": "O tropismo por receptor e por ambiente mostra por que vírus parecidos causam doenças diferentes",
+   "cards": [
+    "au-virulencia",
+    "ak1516665751235",
+    "ak1516665990169",
+    "ak1516666902436",
+    "ak1516323168130",
+    "ak1394068322402",
+    "ak1493218180866",
+    "ak1405375421095"
+   ]
+  },
+  {
+   "passo": "Tropismo: rinovírus (33 °C, lábil ao ácido) × poliovírus (estável ao ácido, fecal-oral, chega ao sistema nervoso)",
+   "mecanismo": true,
+   "liga_ao_proximo": "Para persistir, o vírus ainda precisa driblar a resposta imune",
+   "cards": [
+    "ak1516222409950",
+    "ak1516222135232",
+    "ak1516218404816",
+    "ak1516219553378"
+   ]
+  },
+  {
+   "passo": "Evasão: ativa (E6 e E7, latência) exige proteínas virais; passiva usa inóculo, tropismo, via e variabilidade",
+   "mecanismo": true,
+   "liga_ao_proximo": "",
+   "cards": [
+    "au-evasao",
+    "ak1463105909117",
+    "ak1463105915437",
+    "ak1502718274711",
+    "ak1516474304091",
+    "ak1506629766099"
+   ]
+  }
+ ],
+ "cards_de_conexao": [
+  "au-viremia",
+  "au-latencia-vs"
+ ],
+ "provas": [
+  {
+   "id": "2015 P1sub 3.3",
+   "fora": "Fora do recorte desta aula: curva de crescimento bacteriano (item que só ecoa 'latência'); é da aula de fisiologia bacteriana."
+  },
+  {
+   "id": "2019 P3 3.3",
+   "cards": [
+    "au-3-fatores",
+    "ak1608908651007",
+    "au-viremia"
+   ]
+  },
+  {
+   "id": "2015 P2 2.4",
+   "cards": [
+    "au-padroes",
+    "ak1506552205472",
+    "ak1506552371527"
+   ]
+  },
+  {
+   "id": "2025 P3 3.6",
+   "cards": [
+    "au-viremia",
+    "ak1516325251980",
+    "ak1506297282227",
+    "au-3-fatores"
+   ]
+  },
+  {
+   "id": "2015 P2sub 2.5",
+   "cards": [
+    "au-padroes",
+    "au-latencia-vs",
+    "ak1502067560663"
+   ]
+  }
+ ],
+ "uso_das_fontes": {
+  "aula": [
+   "au-infecao-def",
+   "au-viremia",
+   "au-padroes",
+   "au-evasao",
+   "ak1473289461901"
+  ],
+  "prova": [
+   "au-3-fatores",
+   "au-viremia",
+   "au-padroes",
+   "ak1506552205472",
+   "ak1506297282227"
+  ],
+  "bibliografia": [
+   "ak1516222322469",
+   "au-patogenese",
+   "au-virulencia",
+   "ak1516665751235"
+  ],
+  "apostila": [
+   "au-3-fatores",
+   "au-latencia-vs",
+   "ak1516222135232",
+   "ak1405375421095"
+  ]
+ }
+}

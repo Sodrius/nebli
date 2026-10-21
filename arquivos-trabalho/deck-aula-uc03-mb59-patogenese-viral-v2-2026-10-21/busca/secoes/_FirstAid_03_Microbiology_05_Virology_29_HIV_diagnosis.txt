@@ -1,0 +1,9 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::29_HIV_diagnosis (8 notas)
+1502067746680 1-HighYield Stage 1 HIV is characterized by wide dissemination to lymphoid organs
+1502067814114 1-HighYield Stage 2 HIV is characterized by clinical latency . CD4+ count drops to < 500 cells/mm 3
+1502067896713 1-HighYield Stage 3 HIV is characterized by recurrent bacterial infections. CD4+ count drops to < 350 cells/mm 3
+1502068052536 1-HighYield The criteria for AIDS is a CD4 count < 200 cells/mm 3 or confirmed HIV status with AIDS-defining opportunistic infections such as Pneumocystis pneumonia (PCP) or Candida esophagitis
+1506535107169 1-HighYield What is the confirmatory test for HIV ? HIV-1/2 antibody differentiation immunoassay
+1506535130975 1-HighYield What test determines the amount of viral RNA in plasma ? Viral load
+1547902187372 2-RelativelyHighYield Rapid Diagnosis HIV / AIDS screening in infants < 18 months → HIV-1 NAT (viral load) ≥ 18 months → 4th generation antigen/antibody immunoassay
+1552864862676 - What is the best diagnostic test for HIV before seroconversion? HIV-1 NAT (viral load)

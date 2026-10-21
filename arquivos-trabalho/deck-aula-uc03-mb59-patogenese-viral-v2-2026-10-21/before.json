@@ -1,0 +1,191 @@
+{
+ "decks_uc08": [
+  "NEBLI::UC08",
+  "NEBLI::UC08::P1",
+  "NEBLI::UC08::P1::Anatomia",
+  "NEBLI::UC08::P1::Anatomia::Esôfago, estômago e intestino delgado",
+  "NEBLI::UC08::P1::Anatomia::Intestino grosso e canal anal",
+  "NEBLI::UC08::P1::Anatomia::Vascularização das vísceras",
+  "NEBLI::UC08::P1::Biologia Tecidual",
+  "NEBLI::UC08::P1::Biologia Tecidual::Estrutura do estômago",
+  "NEBLI::UC08::P1::Biologia Tecidual::Intestinos",
+  "NEBLI::UC08::P1::Fisiologia",
+  "NEBLI::UC08::P1::Fisiologia::Motilidade I",
+  "NEBLI::UC08::P1::Fisiologia::Motilidade II",
+  "NEBLI::UC08::P2",
+  "NEBLI::UC08::P2::Fisiologia",
+  "NEBLI::UC08::P2::Fisiologia::Digestão e absorção dos nutrientes",
+  "NEBLI::UC08::P2::Fisiologia::Secreção gástrica"
+ ],
+ "compartilhados": {
+  "1791147098269": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Respiratory::Respiratory_Physiology",
+    "#AK_Other::Card_Features::Needs_Histology_Image",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::4la3Ck",
+    "#AK_Step1_v12::#AMBOSS::ZTaZ6P",
+    "#AK_Step1_v12::#B&B::20_Pulm::01_Embryology_Anatomy_and_Physiology::02_Pulmonary_Anatomy_I",
+    "#AK_Step1_v12::#Bootcamp::Pulmonology::01_Introduction_to_the_Respiratory_System::01_Pulmonology_System_Function,_Anatomy,_and_Histology",
+    "#AK_Step1_v12::#Costanzo::Respiratory::01_Structure_of_the_Respiratory_System",
+    "#AK_Step1_v12::#FirstAid::16_Respiratory::02_Anatomy::01_Respiratory_tree::01_Conducting_zone",
+    "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+    "#AK_Step1_v12::#NinjaNerd::15_Respiratory::03_Pathology::03_Pneumonia",
+    "#AK_Step1_v12::#NinjaNerd::15_Respiratory::03_Pathology::10_Bronchiectasis",
+    "#AK_Step1_v12::#OME::PreClinical::Pulmonary::Pulmonary_1:_Lung::Obstructive_Lung_Disease",
+    "#AK_Step1_v12::#Physeo::02_Anatomy::02_Pulmonology::01_Overview_of_Respiratory_Anatomy",
+    "#AK_Step1_v12::^Systems::Respiratory::Anatomy",
+    "#AK_Step1_v12::^Systems::Respiratory::Physiology",
+    "#AK_Step2_v12::#B&B::14_Pulmonary_Critical_Care::01_Pulmonary_Disease::08_Bronchiectasis::Extra",
+    "NEBLI::2026-uc03-patologia-24-patologia-ambiental",
+    "NEBLI::cor::2026-uc03-patologia-24-patologia-ambiental::azul",
+    "NEBLI::cor::2026-uc03-patologia-24-patologia-ambiental::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::C-particulado",
+    "NEBLI::ordem::pat06-25",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-pat06-20261004a",
+    "NEBLI::run::uc03-pat06-20261009a",
+    "NEBLI::source::nid-1473289461901"
+   ],
+   "cards": {
+    "1791147098270": 3,
+    "1791147098269": 4
+   },
+   "decks": [
+    "NEBLI::UC03::P2::Patologia::Patologia ambiental"
+   ]
+  },
+  "1792605634577": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Lolnotacop::Bugs",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS",
+    "#AK_Step1_v12::#AMBOSS::Xu09p3",
+    "#AK_Step1_v12::#B&B::14_Infectious_Disease::06_Viruses::04_RNA_Viruses::Extra",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::28_Positive-sense_RNA_Viruses::02_Rhinovirus",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::08_Receptors_used_by_viruses",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::09_RNA_viruses",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::10_Picornavirus::*Rhinovirus",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::11_Rhinovirus",
+    "#AK_Step1_v12::#Low/HighYield::3-HighYield-temporary",
+    "#AK_Step1_v12::#OME::Clinical::Internal_Medicine::Infectious_Disease",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::40_Rhinovirus",
+    "#AK_Step1_v12::#Physeo::^physeo_image_update",
+    "#AK_Step1_v12::#Pixorize::04_Microbiology::08_Viruses-RNA_Viruses::07_Rhinovirus",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::01_RNA_(+)_Sense::04_Rhinovirus_(PicoRNAviridae)",
+    "NEBLI::2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+    "NEBLI::cor::2026-uc03-microbiologia-58-multiplicacao-viral-antivirais::azul",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::C-adsorcao-penetracao",
+    "NEBLI::ordem::mb58-12",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb58-20261021a",
+    "NEBLI::source::nid-1516222322469"
+   ],
+   "cards": {
+    "1792605634577": 4,
+    "1792605634578": 4
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Multiplicação viral e antivirais"
+   ]
+  },
+  "1792605641002": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Reproductive::Reproductive_Pathology",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::L0awgQ",
+    "#AK_Step1_v12::#AMBOSS::qKaChl",
+    "#AK_Step1_v12::#B&B::22_Repro::03_Vagina_Cervix_Uterus::02_Cervical_Cancer",
+    "#AK_Step1_v12::#Bootcamp::Dermatology::02_Infectious_Diseases_of_the_Skin::03_Viral_Infectious_Conditions",
+    "#AK_Step1_v12::#Bootcamp::Hematology_and_Oncology::08_Principles_of_Oncology_and_Therapeutics::07_Apoptotic_Pathways",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::03_Human_Papillomavirus_Pathogenesis",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::05_DNA_viruses::*HPV",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::06_Systems::12_Sexually_transmitted_infections",
+    "#AK_Step1_v12::#FirstAid::15_Repro::04_Pathology::21_Cervical_pathology::01_Dysplasia_and_carcinoma_in_situ",
+    "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+    "#AK_Step1_v12::#NBME::Free120",
+    "#AK_Step1_v12::#OME::Clinical::Ob/Gyn::Gynecology:_Gynecology_Oncology::Cervical_Cancer",
+    "#AK_Step1_v12::#Pathoma::13_Female::03_Cervix",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::09_Human_Papillomavirus",
+    "#AK_Step1_v12::#Physeo::11_Pathology::09_Reproductive_Pathology::10_Cervix",
+    "#AK_Step1_v12::#Physeo::^physeo_image_update",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::03_DNA::08_Human_Papillomavirus_(Papillomaviridae)",
+    "#AK_Step1_v12::#SketchyPath::08_Repro_&_GU::01_Uterine_&_Vulvovaginal_Disorders::02_Cervical_Neoplasia",
+    "#AK_Step1_v12::#UWorld::COMLEX::25779",
+    "#AK_Step1_v12::#UWorld::COMLEX::26721",
+    "#AK_Step1_v12::#UWorld::Step::11929",
+    "#AK_Step1_v12::#UWorld::Step::18628",
+    "#AK_Step1_v12::^Systems::Reproductive::Pathology",
+    "#AK_Step2_v12::!Shelf::ObGyn::no_dupes",
+    "#AK_Step2_v12::#Resources_by_rotation::ObGyn::step1_obgyn_zanki",
+    "#AK_Step2_v12::Original_decks::Zanki_Step_2::ObGyn::Uwise_&_Step_1",
+    "#AK_Step3_v12::#UWorld::112930",
+    "NEBLI::2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+    "NEBLI::cor::2026-uc03-microbiologia-58-multiplicacao-viral-antivirais::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::E-virus-de-dna",
+    "NEBLI::ordem::mb58-27",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb58-20261021a",
+    "NEBLI::source::nid-1463105909117"
+   ],
+   "cards": {
+    "1792605641004": 3,
+    "1792605641003": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Multiplicação viral e antivirais"
+   ]
+  },
+  "1792605641420": {
+   "tags": [
+    "#AK_Other::#AK_Original_Decks::Step_1::Zanki_Step_Decks::Zanki_Reproductive::Reproductive_Pathology",
+    "#AK_Other::Only_Step_1",
+    "#AK_Step1_v12::#AMBOSS::L0awgQ",
+    "#AK_Step1_v12::#AMBOSS::qKaChl",
+    "#AK_Step1_v12::#B&B::07_Cell_Bio::03_Cellular_Biology::01_Cell_Cycle::Extra",
+    "#AK_Step1_v12::#B&B::22_Repro::03_Vagina_Cervix_Uterus::02_Cervical_Cancer",
+    "#AK_Step1_v12::#Bootcamp::Dermatology::02_Infectious_Diseases_of_the_Skin::03_Viral_Infectious_Conditions",
+    "#AK_Step1_v12::#Bootcamp::Microbiology::31_DNA_Viruses::03_Human_Papillomavirus_Pathogenesis",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::05_DNA_viruses::*HPV",
+    "#AK_Step1_v12::#FirstAid::03_Microbiology::06_Systems::12_Sexually_transmitted_infections",
+    "#AK_Step1_v12::#FirstAid::15_Repro::04_Pathology::21_Cervical_pathology::01_Dysplasia_and_carcinoma_in_situ",
+    "#AK_Step1_v12::#Low/HighYield::1-HighYield",
+    "#AK_Step1_v12::#OME::Clinical::Ob/Gyn::Gynecology:_Gynecology_Oncology::Cervical_Cancer",
+    "#AK_Step1_v12::#Pathoma::13_Female::03_Cervix",
+    "#AK_Step1_v12::#Physeo::06_Micro::05_Viruses::09_Human_Papillomavirus",
+    "#AK_Step1_v12::#Physeo::11_Pathology::09_Reproductive_Pathology::10_Cervix",
+    "#AK_Step1_v12::#Physeo::^physeo_image_update",
+    "#AK_Step1_v12::#SketchyMicro::03_Viruses::03_DNA::08_Human_Papillomavirus_(Papillomaviridae)",
+    "#AK_Step1_v12::#SketchyPath::08_Repro_&_GU::01_Uterine_&_Vulvovaginal_Disorders::02_Cervical_Neoplasia",
+    "#AK_Step1_v12::#UWorld::COMLEX::25779",
+    "#AK_Step1_v12::#UWorld::COMLEX::26721",
+    "#AK_Step1_v12::#UWorld::Step::11929",
+    "#AK_Step1_v12::#UWorld::Step::18628",
+    "#AK_Step1_v12::^Systems::Reproductive::Pathology",
+    "#AK_Step2_v12::!Shelf::ObGyn::no_dupes",
+    "#AK_Step2_v12::#Resources_by_rotation::ObGyn::step1_obgyn_zanki",
+    "#AK_Step2_v12::Original_decks::Zanki_Step_2::ObGyn::Uwise_&_Step_1",
+    "#AK_Step3_v12::#UWorld::112930",
+    "NEBLI::2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+    "NEBLI::cor::2026-uc03-microbiologia-58-multiplicacao-viral-antivirais::verde",
+    "NEBLI::escopo::aula",
+    "NEBLI::objetivo::E-virus-de-dna",
+    "NEBLI::ordem::mb58-28",
+    "NEBLI::origem::AnKing",
+    "NEBLI::run::uc03-mb58-20261021a",
+    "NEBLI::source::nid-1463105915437"
+   ],
+   "cards": {
+    "1792605641421": 3,
+    "1792605641422": 3
+   },
+   "decks": [
+    "NEBLI::UC03::P3::Microbiologia::Multiplicação viral e antivirais"
+   ]
+  }
+ },
+ "at": "2026-10-21T20:45:18.923314+00:00"
+}

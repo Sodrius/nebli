@@ -1,0 +1,218 @@
+### infeccao | AnKing | (viral AND (infection OR pathogenesis)) | 343 notas
+  1385335604751 [AnKingOverhaul] 1-HighYield {{c1:: Koilocytes }} have characteristic {{c2:: perinuclear }} halos that are hallmarks of {{c3:: HPV }} infections
+  1394068322402 [AnKingOverhaul] 1-HighYield Condylomata acuminata are most commonly caused by {{c1::HPV 6 or HPV 11::2}}
+  1394068945521 [AnKingOverhaul] 3-HighYield-temporary What type(s) of HPV are the cause of HPV-related vulvar carcinoma ? {{c1::High-risk HPVs (16, 18, 31, 33)}}
+  1394134318361 [AnKingOverhaul] 1-HighYield What is the most common cause of vaginal carcinoma? {{c1::High-risk HPV subtypes (16, 18, 31, 33)}}
+  1394239958498 [AnKingOverhaul] 1-HighYield What are the most common types of high-risk HPV ? {{c1::HPV 16, HPV 18::2}}
+  1394240219632 [AnKingOverhaul] 1-HighYield What are the most common types of low-risk HPV ? {{c1::HPV 6, HPV 11}}
+  1394242887061 [AnKingOverhaul] 1-HighYield What urogenital disorders are associated with low-risk HPV subtypes? {{c1::Condylomata / warts}}
+  1394242914870 [AnKingOverhaul] 1-HighYield {{c1::Koilocytes}} are a cytologic feature of HPV infected cells and involve a nucleus with a ' raisin-like ' shape
+  1395340470032 [AnKingOverhaul] 1-HighYield {{c1:: Cutaneous warts (verrucae vulgaris) }} are soft, flesh-colored, cauliflower-like papules that appear on the skin due to HPV infection of keratinocytes
+  1403149724209 [AnKingOverhaul] 1-HighYield Which serological antigen from Epstein-Barr virus (EBV) is produced if the infection is active and productive ? {{c1::Viral capsid antigen (VCA)}}
+  1461794607480 [AnKingOverhaul] 1-HighYield Interferon {{c2:: α }} may be used in the treatment of hepatitis {{c1:: B }} and {{c1:: C }} infections
+  1461794652364 [AnKingOverhaul] 1-HighYield Interferon- α may be used to treat {{c1::Kaposi sarcoma}} caused by HHV-8
+  1461797767925 [AnKingOverhaul] 5-LowYield Mainstay of treatment for hepatitis C infection includes NS3/NS4A protease inhibitors and NS5A inhibitors which should be administered {{c1::together::separately/together}}
+  1461797775253 [AnKingOverhaul] 2-RelativelyHighYield Which NRTI(s)/NtRTI(s) is/are recommended for the treatment of chronic active hepatitis B ? {{c1::Entecavir, tenofovir::2}}
+  1462223933107 [AnKingOverhaul] 1-HighYield Subacute granulomatous thyroiditis (de Quervain) is a self-limited disease often following {{c1:: viral infection }}
+  1463105909117 [AnKingOverhaul] 1-HighYield High-risk HPV strains produce {{c2:: E6 }} protein, which increases destruction of {{c1:: p53 }}
+  1463105915437 [AnKingOverhaul] 1-HighYield High-risk HPV strains produce {{c1:: E7 }} protein, which increases destruction of {{c2:: Rb (specifically p105-Rb)}}
+  1471806240278 [AnKingOverhaul] 1-HighYield {{c2:: Polyarteritis nodosa (PAN)}} is a necrotizing vasculitis that is associated with positive serum {{c1:: HBsAg }} in 30% of patients
+  1472078786108 [AnKingOverhaul] 1-HighYield Myocarditis , secondary to coxsackie B infection, is characterized by a(n) {{c1::lymphocytic}} infiltrate in the myocardium
+  1472161209479 [AnKingOverhaul] 3-HighYield-temporary Acute {{c1::pericarditis}} is defined as inflammation of the pericardium
+  1472161233950 [AnKingOverhaul] 1-HighYield What is the most common cause of acute pericarditis ? {{c1::Idiopathic (presumed viral)}}
+  1473548369834 [AnKingOverhaul] 1-HighYield Viral pneumonia may damage the {{c1::mucociliary escalator}}, which consequently predisposes to superimposed bacterial pneumonia
+  1473548706867 [AnKingOverhaul] 1-HighYield {{c1:: Influenza }} is a common viral cause of atypical pneumonia in the elderly
+  1473986202821 [AnKingOverhaul] 1-HighYield Immune thrombocytopenia (ITP) commonly follows {{c1::viral infection}}
+  1473986205568 [AnKingOverhaul] 4-LowerYield The acute form of immune thrombocytopenia (ITP) commonly arises in {{c1:: children ::age group}} weeks after a viral infection or immunization
+  1474503474661 [AnKingOverhaul] 1-HighYield Rhinosinusitis is most commonly caused by a(n) {{c1::viral::bacterial or viral}} upper respiratory infection (URI)
+  1478995270283 [AnKingOverhaul] 3-HighYield-temporary What is the most common cause of IgG-mediated immune hemolytic anemia ? {{c1::Systemic lupus erythematosus (SLE)}}
+  1478995272978 [AnKingOverhaul] 2-RelativelyHighYield Which form of immune hemolytic anemia is associated with SLE ? {{c1::IgG::IgG or IgM}}
+  1478995281604 [AnKingOverhaul] 2-RelativelyHighYield Which form of immune hemolytic anemia may be caused by drugs ? {{c1::IgG::IgG or IgM}}
+  1478995290503 [AnKingOverhaul] 3-HighYield-temporary Certain drugs (e.g., {{c1:: α-methyldopa }}) induce production of autoantibodies against RBCs (IgG-mediated hemolytic anemia)
+### infeccao | Externos | (viral AND (infection OR pathogenesis)) | 10 notas
+  1554006318499 [AnKingMCAT (An]  In a {{c1::lytic}} bacteriophage life cycle, {{c2::virions are made until the cell lyses::this happens}}.
+  1556153744256 [AnKingMCAT (An]  {{c1::Mast cells}} release {{c2:: cytokines }} and {{c2:: granules }} that create a/an {{c2:: inflammatory cascade }}.
+  1609365416496 [Cloze-Lightyea]  During an initial childhood chickenpox infection , the varicella-zoster virus (VZV) infects {{c1::dorsal root ganglia}}, where it remains latent until reactivation.
+  1609365501603 [Cloze-Lightyea]  Acute herpes zoster , which represents VZV reactivation, manifests as an erythematous vesicular rash in a {{c1::dermatomal}} distribution that is usually associated with severe pain.
+  1610837459940 [Cloze-Lightyea]  A viral infection in children within {{c1::2 to 4 weeks::weeks}} of general anesthesia and intubation appears toincrease the risk for perioperative pulmonary complications.
+  1611603046561 [Cloze-Lightyea]  Acute hepatitis is usually the result of a {{c1:: viral infection, drug reaction, or exposure to a hepatotoxin }} (3 common causes).
+  1611603147890 [Cloze-Lightyea]  Viral hepatitis is commonly due to {{c1::hepatitis A, B, or C viral}} infection
+  1611603408568 [Cloze-Lightyea]  Approximately 0.5% to 1% of patients with hepatitis {{c1::C}} infection become asymptomatic infectious carriers.
+  1701946117619 [Cloze-AnKingMa]  Antimicrobial Chemicals in Innate Immunity Leukocytes and specific tissue barrier cells produce a range of antimicrobial chemicals, which are key components of innate immunity. These include
+  1701956192577 [Cloze-AnKingMa]  Antigen-Presenting Cells (APCs) in Adaptive Immunity Professional vs. Nonprofessional APCs Professional APCs : Include {{c1::dendritic}} cells, many {{c1::monocyte}}-derived cells like {{c1:
+### viremia | AnKing | (viremia OR bloodstream) AND virus | 1 notas
+  1584230461040 [AnKingOverhaul]  What is the most likely diagnosis in a patient with the following serology: - HBeAg : + - Anti-HBc IgG : + - HBsAg : + - LFTs : mild ↑ {{c1::Active chronic HBV}}
+### viremia | Externos | (viremia OR bloodstream) AND virus | 0 notas
+### latencia | AnKing | (latent OR latency) AND (virus OR herpes OR HIV) | 26 notas
+  1403141305744 [AnKingOverhaul] 1-HighYield {{c1:: CMV }} is a herpesvirus that is latent in mononuclear cells
+  1403149942402 [AnKingOverhaul] 1-HighYield Which serological antigen from EBV is seen in latent infection? {{c1::Epstein-Barr nuclear antigen (EBNA)}}
+  1403149965943 [AnKingOverhaul] 1-HighYield {{c1::Epstein-Barr nuclear antigen (EBNA)}} is a serological antigen from EBV that contributes to Hodgkin or Burkitt lymphoma
+  1468605516940 [AnKingOverhaul] 1-HighYield What laboratory technique is useful in determining CD4 cell count in HIV patients? {{c1::Flow cytometry}}
+  1502067509832 [AnKingOverhaul] 2-RelativelyHighYield The {{c3:: acute }} phase of HIV consists of flu or {{c1:: mono }} -like symptoms with {{c2:: generalized }} lymphadenopathy and {{c2:: fever }}
+  1502067560663 [AnKingOverhaul] 1-HighYield The clinical latency period of HIV infection can last up to {{c1::10}} years
+  1502067746680 [AnKingOverhaul] 1-HighYield Stage {{c1:: 1 }} HIV is characterized by wide dissemination to lymphoid organs
+  1502067814114 [AnKingOverhaul] 1-HighYield Stage {{c1:: 2 }} HIV is characterized by clinical latency . CD4+ count drops to < {{c2::500}} cells/mm 3
+  1502067896713 [AnKingOverhaul] 1-HighYield Stage {{c1:: 3 }} HIV is characterized by recurrent bacterial infections. CD4+ count drops to < {{c2::350}} cells/mm 3
+  1502068052536 [AnKingOverhaul] 1-HighYield The criteria for AIDS is a CD4 count < {{c3:: 200 cells/mm 3 }} or confirmed HIV status with {{c1:: AIDS-defining opportunistic }} infections such as Pneumocystis pneumonia (PCP) or Candida 
+  1502152318872 [AnKingOverhaul] 1-HighYield {{c3:: Cowdry bodies }} are {{c2:: eosino }} philic intra nuclear inclusions found in cells infected with organisms within the {{c1:: herpesviridae }} family
+  1502152875721 [AnKingOverhaul] 3-HighYield-temporary After primary infection, stress can reactivate HSV-1, which can result in {{c2:: herpes labialis (cold sores)}}
+  1502153397982 [AnKingOverhaul] 1-HighYield HSV-1 remains latent in the {{c2:: trigeminal }} ganglion
+  1502154338212 [AnKingOverhaul] 1-HighYield HSV-2 remains latent in the {{c2:: sacral }} ganglia
+  1503252081815 [AnKingOverhaul] 1-HighYield Paths of progression after primary Mycobacterium tuberculosis infection: {{c1:: Secondary }} infection, which occurs by reactivated infection due to {{c2::immunosuppression ( HIV, old age, c
+  1503854748516 [AnKingOverhaul] 1-HighYield Epstein-Barr virus remains latent in {{c1::B cells}}
+  1503858394947 [AnKingOverhaul] 1-HighYield Which herpesvirus remains latent in mononuclear cells (e.g., macrophages)? {{c1::CMV}}
+  1503858692391 [AnKingOverhaul] 2-RelativelyHighYield Reactivation of CMV from mononuclear cells occurs after {{c1::immunosuppression}}
+  1504218424673 [AnKingOverhaul]  Patients with HIV who present with an AIDS-defining illness secondary to lack of anti-retroviral therapy should be initiated on HAART {{c1::2 weeks::when}} after initiating treatment of the 
+  1504735977255 [AnKingOverhaul]  What is the next step in management for an HIV patient who has an 8-mm induration at 48 hours following PPD testing and a normal chest X-ray ? {{c1::9 months of isoniazid and pyridoxine (B 6
+  1506291111598 [AnKingOverhaul] 1-HighYield Where does varicella zoster virus (VZV) remain latent ? {{c1::Dorsal root ganglia (DRG)}}
+  1506723660731 [AnKingOverhaul] 2-RelativelyHighYield Acyclovir , famciclovir , and valacyclovir are used to treat {{c1::active::active or latent}} {{c2:: VZV }} and {{c2:: HSV }} infections
+  1516851354128 [AnKingOverhaul] 4-LowerYield Polyomaviruses (JC, BK) are hypothesized to seed the {{c1::kidney::organ}} resulting in a clinically latent infection
+  1523377868136 [AnKingOverhaul]  DRESS syndrome is most commonly precipitated by {{c1::allopurinol}} and antiepileptics (e.g., phenytoin, carbamazepine)
+  1579822414309 [AnKingOverhaul]  What is the first-line treatment for latent tuberculosis ? {{c1::Isoniazid + rifapentine, once weekly for 3 months}}
+  1584061437456 [AnKingOverhaul]  What is the next step in management for a healthy patient with 16 mm induration at 48 hours following PPD testing, normal chest X-ray , and no acid-fast bacilli ? {{c1::Isoniazid + rifapenti
+### latencia | Externos | (latent OR latency) AND (virus OR herpes OR HIV) | 1 notas
+  1609365416496 [Cloze-Lightyea]  During an initial childhood chickenpox infection , the varicella-zoster virus (VZV) infects {{c1::dorsal root ganglia}}, where it remains latent until reactivation.
+### padroes | AnKing | (chronic OR acute) AND (hepatitis OR virus) | 229 notas
+  1461794711294 [AnKingOverhaul] 3-HighYield-temporary Chronic therapy of interferon-α may result in {{c1::neurotoxicity}}, causing mood disorders (e.g., depression ) and confusion
+  1461797573387 [AnKingOverhaul] 5-LowYield All patients with virologic evidence of chronic HCV infection should be considered for treatment, except those with {{c1::limited life expectancy}}
+  1461797775253 [AnKingOverhaul] 2-RelativelyHighYield Which NRTI(s)/NtRTI(s) is/are recommended for the treatment of chronic active hepatitis B ? {{c1::Entecavir, tenofovir::2}}
+  1463105881914 [AnKingOverhaul] 2-RelativelyHighYield Persistent HPV infection leads to risk for cervical dysplasia , also known as {{c1::cervical intraepithelial neoplasia (CIN)}}
+  1468531890730 [AnKingOverhaul] 1-HighYield Elastin is broken down by the enzyme {{c2:: elastase }}, which is normally inhibited by {{c1:: α 1 -antitrypsin }}
+  1468531923039 [AnKingOverhaul] 1-HighYield {{c1::Emphysema}} may be caused by a(n) {{c2:: α 1 -antitrypsin }} deficiency , resulting in excess elastase activity in alveoli
+  1468605516940 [AnKingOverhaul] 1-HighYield What laboratory technique is useful in determining CD4 cell count in HIV patients? {{c1::Flow cytometry}}
+  1472091184661 [AnKingOverhaul] 1-HighYield Amiodarone , a class III antiarrhythmic, can cause hypersensitivity {{c1::hepatitis}}
+  1472161209479 [AnKingOverhaul] 3-HighYield-temporary Acute {{c1::pericarditis}} is defined as inflammation of the pericardium
+  1473548750523 [AnKingOverhaul] 4-LowerYield {{c1:: Coxiella burnetii }} infection is a cause of atypical pneumonia with high fever (Q fever)
+  1473627969067 [AnKingOverhaul] 1-HighYield {{c1:: α 1 -antitrypsin }} is an enzyme that neutralizes {{c2:: proteases (e.g., elastase) }} in the lung
+  1473627972140 [AnKingOverhaul] 1-HighYield Emphysema may be caused by excessive {{c1:: inflammation / proteases ::general (2)}} or lack of {{c2:: α 1 -antitrypsin }}
+  1473995765528 [AnKingOverhaul] 1-HighYield The effects of liver failure on coagulation are followed using {{c1::PT::PT or PTT}}
+  1474503616777 [AnKingOverhaul] 4-LowerYield {{c4:: Restrictive }} lung disease may be caused by poor muscular effort , seen with {{c1:: polio ::viral}}, {{c2:: myasthenia gravis ::autoimmune}}, and {{c3:: Guillain-Barré }} syndrome
+  1478834069400 [AnKingOverhaul] 3-HighYield-temporary Serum {{c1:: ferritin }} is a reflection of iron stores in macrophages and the liver
+  1478995527343 [AnKingOverhaul] 4-LowerYield The cause of aplastic anemia may be {{c1:: immune }} -mediated and sometimes follows acute {{c2:: hepatitis }}
+  1479430579711 [AnKingOverhaul] 1-HighYield {{c1:: Microglia }} fuse to form multinucleated giant cells in the CNS when infected by {{c2:: HIV }}
+  1480564052470 [AnKingOverhaul] 1-HighYield The {{c2:: monospot }} test detects IgM {{c1::heterophile}} antibodies that cross-react with horse or sheep RBCs
+  1480647024386 [AnKingOverhaul] 2-RelativelyHighYield Adult T-cell leukemia/lymphoma (ATLL) is a neoplastic proliferation of {{c1::mature::mature/immature}} {{c1:: CD4 + T ::specific}} cells
+  1480647026937 [AnKingOverhaul] 1-HighYield {{c2:: Adult T-cell }} leukemia/lymphoma is caused by {{c1:: HTLV-1 }}
+  1480647032473 [AnKingOverhaul] 2-RelativelyHighYield The HTLV-1 virus (cause of ATLL) is associated with {{c1::IV drug}} users
+  1480647044946 [AnKingOverhaul] 2-RelativelyHighYield What regions are most commonly affected by adult T-cell leukemia/lymphoma (ATLL)? {{c1::Japan}}, {{c2::West Africa}}, and the {{c3::Caribbean}}
+  1480647048466 [AnKingOverhaul] 1-HighYield Adult T-cell leukemia/lymphoma (ATLL) may present with {{c1:: cutaneous lesions (rash)}} due to skin infiltration
+  1480647054826 [AnKingOverhaul] 2-RelativelyHighYield {{c3:: Adult T-cell }} leukemia/lymphoma may present with {{c1:: lytic (punched-out)}} bone lesions and hypercalcemia
+  1480647061759 [AnKingOverhaul] 1-HighYield What clinical finding can distinguish adult T-cell leukemia/lymphoma (ATLL) from multiple myeloma ? {{c1::ATLL causes a rash}}
+  1481335224891 [AnKingOverhaul] 1-HighYield {{c1::Lymphadenopathy (LAD)}} refers to enlarged lymph nodes
+  1481335233468 [AnKingOverhaul] 1-HighYield {{c1:: Painful :: Painful or Painless }} lymphadenopathy is usually seen in lymph nodes that are draining a region of acute infection
+  1481836431395 [AnKingOverhaul] 5-LowYield {{c2:: Subacute sclerosing panencephalitis (SSPE)}} is due to slowly progressing, persistent infection of the brain by {{c1:: measles }} virus
+  1481836434092 [AnKingOverhaul] 5-LowYield Does subacute sclerosing panencephalitis (SSPE) affect gray matter or white matter ? {{c1::Both :)}}
+  1482191380555 [AnKingOverhaul] 1-HighYield Oral {{c2::leukoplakia}} is a white deposit on the tongue that cannot be easily scraped away
+### padroes | Externos | (chronic OR acute) AND (hepatitis OR virus) | 9 notas
+  1349477488415 [Anatomy]  Facial Nerve Branches
+  1609365416496 [Cloze-Lightyea]  During an initial childhood chickenpox infection , the varicella-zoster virus (VZV) infects {{c1::dorsal root ganglia}}, where it remains latent until reactivation.
+  1611603046561 [Cloze-Lightyea]  Acute hepatitis is usually the result of a {{c1:: viral infection, drug reaction, or exposure to a hepatotoxin }} (3 common causes).
+  1611604643150 [Cloze-Lightyea]  Patients with acute hepatitis should have elective surgery postponed until the illness has resolved, as indicated by{{c1:: the normalization of liver tests}}
+  1611606041921 [Cloze-Lightyea]  If a patient with acute hepatitis must undergo an emergent operation, the preanesthetic evaluation should focus on {{c1::determining the cause and the degree of hepatic impairment}}.
+  1611606374813 [Cloze-Lightyea]  In patients with acute hepatitis, {{c1::fresh frozen plasma}} may be necessary to correct coagulopathy.
+  1611606970323 [Cloze-Lightyea]  Chronic hepatitis is defined as persistent hepatic inflammation for longer than {{c1::6 months}}, as evidenced by elevated serum aminotransferases.
+  1611607175537 [Cloze-Lightyea]  In evaluating patients for chronic hepatitis, laboratory test results may show {{c1:: only a mild elevation in serum aminotransferase activity}} and often correlate poorly with disease sever
+  1611607293851 [Cloze-Lightyea]  Patients with chronic {{c1::persistent}} or chronic {{c1::lobular}} hepatitis should be treated similarly to those with acute hepatitis
+### tropismo | AnKing | (tropism OR receptor) AND virus | 22 notas
+  1486591284504 [AnKingOverhaul] 2-RelativelyHighYield Risk factors for {{c1:: hepatocellular }} carcinoma include chronic hepatitis (e.g., HBV, HCV)
+  1486591331907 [AnKingOverhaul] 2-RelativelyHighYield What is the serum tumor marker for hepatocellular carcinoma ? {{c1::Alpha-fetoprotein (AFP)}}
+  1487117197858 [AnKingOverhaul] 1-HighYield Which immunoglobulin(s) opsonize bacteria ? {{c1::IgG}}
+  1487639996379 [AnKingOverhaul] 4-LowerYield {{c1:: Pattern recognition receptors (PRRs)}} on cells of the immune system are activated by {{c2:: pathogen-associated molecular patterns (PAMPs)}} that are commonly shared by microbes
+  1493218180866 [AnKingOverhaul] 3-HighYield-temporary HPV infects the {{c1:: true vocal cords }} in the respiratory tract which causes {{c1:: laryngeal papillomatosis }}
+  1495632714029 [AnKingOverhaul] 1-HighYield All-trans retinoic acid (ATRA) can be used to treat the {{c1::measles}} virus
+  1497440851060 [AnKingOverhaul] 3-HighYield-temporary When viruses enter cells, they can trigger the host ( via capsule / viral products ) to produce type I interferons by activation of cytosolic {{c1:: pattern recognition receptors }}
+  1502066834360 [AnKingOverhaul] 1-HighYield {{c1:: gp120 }} of HIV binds {{c3::{{c2:: CD4 }}}} and the co-receptors {{c2:: CCR5 }} (primarily on macrophages ) and {{c3:: CXCR4 }} (primarily on T cells )
+  1502068331161 [AnKingOverhaul] 3-HighYield-temporary In {{c2:: early ::early or late}} HIV infection, HIV gains entry into {{c1:: macrophages ::what cells}} via binding to CD4 plus the coreceptor {{c1:: CCR5 }}
+  1502068440036 [AnKingOverhaul] 3-HighYield-temporary In {{c2:: late ::early or late}} HIV infection, HIV gains entry into {{c1:: helper T-cells ::what cells}} via binding to CD4 plus the coreceptor {{c1:: CXCR4 }}
+  1502068458514 [AnKingOverhaul] 3-HighYield-temporary Individuals with {{c1:: homo }} zygous CCR5 allele mutations are resistant to HIV infection
+  1502068584028 [AnKingOverhaul] 3-HighYield-temporary Individuals with {{c1:: hetero }} zygous CCR5 allele mutations display a slower rate of progression of HIV infection
+  1503855029259 [AnKingOverhaul] 2-RelativelyHighYield Epstein-Barr virus (EBV) binds to {{c1:: CD21 (C3d receptor; CR2) ::3 names}} on B-cells , causing B-cell proliferation and {{c2:: heterophile antibody }} production
+  1503855271322 [AnKingOverhaul] 4-LowerYield The B-cell CD21 is the receptor for complement protein {{c1::C3d}}
+  1506806433678 [AnKingOverhaul] 1-HighYield Maraviroc inhibits {{c1:: gp120 }} of HIV binding to the chemokine receptor {{c1:: CCR5 (macrophages and T-cells)}}
+  1516324044281 [AnKingOverhaul] 1-HighYield Which envelope protein of Influenza determines cell tropism ? {{c1::Hemagglutinin (HA)}}
+  1516473678124 [AnKingOverhaul] 1-HighYield {{c2::Rabies}} virus binds to {{c1:: nicotinic ACh :: specific }} receptors in the post-synaptic membrane of the neuromuscular junction
+  1516473893262 [AnKingOverhaul] 1-HighYield Rabies virus binds to nicotinic ACh receptors in the {{c1::post}}-synaptic membrane of the {{c1::neuromuscular}} junction
+  1516473945645 [AnKingOverhaul] 2-RelativelyHighYield Infection of Rabies virus occurs within {{c1::striated muscle}} cells
+  1516929150126 [AnKingOverhaul] 1-HighYield Which DNA virus preferentially infects erythroid progenitors ? {{c1::Parvovirus B19}}
+  1580587134001 [AnKingOverhaul] 2-RelativelyHighYield {{c1:: Hepatitis B virus ::Infection}} may cause hepatocellular carcinoma without cirrhosis , but usually occurs via progression from cirrhosis
+  1608908651007 [AnKingOverhaul]  Coronavirus binds to the {{c1:: angiotensin-converting enzyme 2 (ACE2) receptor}} on {{c2::type II alveolar}} cells in the respiratory tract via the {{c3:: S glycoprotein }}
+### tropismo | Externos | (tropism OR receptor) AND virus | 13 notas
+  1556145810087 [AnKingMCAT (An]  {{c1::Natural killer cells}} are a type of {{c2::lymphocyte}} that can {{c2:: recognize and kill cancer cells or other cells that have been infected::do what?}} without the need for antigens
+  1701945102581 [Cloze-AnKingMa]  Innate Immunity and Its Mechanisms Innate immunity involves {{c1::immediate::timing}}, nonspecific defenses against pathogens. Physical barriers , such as the {{c2:: skin }} and {{c2::mucous
+  1701945299901 [Cloze-AnKingMa]  Primary Defense Mechanisms in Innate Immunity Physical Barriers Skin and mucous membranes act as the first line of defense to block pathogen entry. Cellular Defenses - Innate Immunity If pat
+  1701952598221 [Cloze-AnKingMa]  Immunoglobulin A (IgA) Location : Predominantly found in {{c1::exo}} crine secretions . Structure : Exists in a {{c3::di::s}} meric form , with the {{c3::heavy}} chains of {{c3::two::s}} mon
+  1701952674784 [Cloze-AnKingMa]  Immunoglobulin M (IgM) Blood Concentration : Constitutes about {{c1::5 - 10::apprx. 10 50 90}}%* of blood immunoglobulin. Structure : Typically in a {{c2::penta}} meric form , united by a {{
+  1701952972904 [Cloze-AnKingMa]  Immunoglobulin E (IgE) Form : Typically a {{c1:: monomer }}. Abundance : Much {{c1::less::more or less}}* abundant in circulation compared to other immunoglobulin classes. Binding : Exists b
+  1701953543099 [Cloze-AnKingMa]  Immunoglobulin D (IgD) Abundance : The {{c1:: least }} abundant immunoglobulin in plasma. Understanding : Relatively less understood compared to other antibody classes. Structure and Locatio
+  1701953888050 [Cloze-AnKingMa]  {{c1::Fc::x}} Portion Functions in Innate Immunity {{c1:: Opsonization }} = process where pathogens are marked ( by antibodies or complement proteins ) for destruction by {{c2::phagocytes::g
+  1701957977658 [Cloze-AnKingMa]  Types and Functions of {{c1::T Lymphocytes::x}} {{c1::Helper T}} Cells ({{c1::Th}} Cells) Characterization : Identified by the presence of {{c2:: CD4 }}, a coreceptor that works with the {{c
+  1701958111687 [Cloze-AnKingMa]  Cytotoxic T Lymphocytes (CTLs) Characteristics {{c1:: CD8 +::x}}: CTLs are characterized by the presence of {{c1:: CD8 ::s}}, a coreceptor . Function : Their T-cell receptors (TCRs), along w
+  1701964014407 [Cloze-AnKingMa]  Cytotoxic T Lymphocytes (CTLs) Activation and {{c3::Proliferation::x}} CTLs are activated in the presence of {{c1:: interleukin-2 (IL-2) ::cytokine}}, which is typically produced by {{c1::Th
+  1701964073186 [Cloze-AnKingMa]  Cytotoxic T Lymphocytes (CTLs) Role in Immune Response Function as {{c1::Killer T}} Cells : CTLs attach to cells presenting the antigens (such as virus-infected cells) and initiate their {{c
+  1701964112186 [Cloze-AnKingMa]  Cytotoxic T Lymphocytes (CTLs) {{c1::Memory::x}} Cytotoxic T Cells Activation of CTLs also results in the formation of {{c1::memory}} cytotoxic T cells , which remain in the body to respond 
+### virulencia | AnKing | (virulence OR attenuated) AND virus | 33 notas
+  1487122020805 [AnKingOverhaul] 1-HighYield Which type of vaccine has the potential to revert to a virulent form ? {{c1::Live attenuated vaccines}}
+  1487122023570 [AnKingOverhaul] 1-HighYield Live attenuated vaccines are often contraindicated in {{c1:: pregnancy }} and {{c2:: immunodeficiency }}
+  1487122048949 [AnKingOverhaul] 1-HighYield What type of vaccine is the varicella vaccine (chickenpox)? {{c1::Live-attenuated}}
+  1487122056375 [AnKingOverhaul] 1-HighYield What type of vaccine is the intranasal influenza vaccine ? {{c1::Live attenuated}}
+  1502572211906 [AnKingOverhaul] 4-LowerYield What type of vaccine is used for smallpox ? What is its name? {{c1::Live attenuated; Vaccinia}}
+  1503966992630 [AnKingOverhaul]  What are the recommendations regarding live attenuated virus vaccination (e.g., MMR, varicella) in HIV patients ? {{c1::Vaccinate if CD4 + counts ≥ 200/mm 3 and antibody titers are low}}
+  1506292159429 [AnKingOverhaul] 1-HighYield What type of vaccine is the zoster vaccine ? {{c1::Recombinant (Shingrix)}}
+  1506292202420 [AnKingOverhaul] 1-HighYield Which demographic is the recombinant zoster vaccine (Shingrix) recommended for? {{c1::Adults ≥ 50}}
+  1506292221714 [AnKingOverhaul] 1-HighYield At what CD4+ count can patients with HIV receive herpes-zoster vaccine? {{c1::Any :)}}
+  1506297317271 [AnKingOverhaul] 1-HighYield What type of vaccine is the MMR vaccine ? {{c1::Live attenuated}}
+  1506298553385 [AnKingOverhaul] 2-RelativelyHighYield Paramyxoviruses can express the virulence factor {{c1::hemagglutinin}} which binds sialic acid, promoting viral entry into cells
+  1506299842245 [AnKingOverhaul] 1-HighYield Which viral virulence factors is measles associated with? {{c1::Hemagglutinin, F (fusion) protein::2}}
+  1506299907967 [AnKingOverhaul] 1-HighYield Which viral virulence factors is mumps associated with? {{c1::Hemagglutinin, F (fusion) protein, and neuraminidase}}
+  1506457588894 [AnKingOverhaul] 1-HighYield RSV contains the virulence factor {{c1::F (fusion) protein}}, which allows the production of multinucleated giant cells
+  1506458681232 [AnKingOverhaul] 1-HighYield Which virulence factors is parainfluenza (croup) associated with? {{c1::Hemagglutinin, F (fusion) protein, neuraminidase}}
+  1506459892639 [AnKingOverhaul] 1-HighYield Which viral virulence factor causes respiratory cell fusion and multinucleated giant cell production? {{c1::F (fusion) protein}}
+  1506628555418 [AnKingOverhaul] 4-LowerYield What type of vaccine is available for Yellow fever ? {{c1::Live attenuated}}
+  1516219553378 [AnKingOverhaul] 1-HighYield Which poliovirus vaccine is live attenuated ? {{c1::Sabin}}
+  1516219693333 [AnKingOverhaul] 1-HighYield What is the route of administration of the Sabin vaccine ? {{c1::Orally}}
+  1516219843437 [AnKingOverhaul] 3-HighYield-temporary Which form of poliovirus vaccine forms IgG and IgA antibodies ? {{c1::Oral polio vaccine (Sabin)}}
+  1516219994099 [AnKingOverhaul] 3-HighYield-temporary Which form of poliovirus vaccine provides group immunity with person-to-person contact ? {{c1::Sabin}}
+  1516241054704 [AnKingOverhaul] 1-HighYield What vaccine is available for rubella ? {{c1::MMR (live attenuated)}}
+  1516241149541 [AnKingOverhaul] 1-HighYield The MMR vaccine can be given to HIV+ patients with CD4 counts {{c1::≥ 200 cells/mm 3 }}
+  1516666695540 [AnKingOverhaul] 2-RelativelyHighYield Which cause of viral gastroenteritis does the CDC recommend vaccination against ? {{c1::Rotavirus}}
+  1516666766803 [AnKingOverhaul] 2-RelativelyHighYield Rotavirus has a(n) {{c1::live attenuated}} vaccine that is administered {{c2:: orally ::route}}
+  1516666812794 [AnKingOverhaul] 4-LowerYield {{c1:: Intussusception }} is associated with the {{c2::rotavirus}} vaccine due to enlargement of Peyer's patches which act as a lead point
+  1516667209562 [AnKingOverhaul] 1-HighYield When should the first rotavirus vaccination be given? {{c1::Within the first 3 months of birth}}
+  1516930619054 [AnKingOverhaul] 4-LowerYield What type of vaccine is available for adenovirus ? {{c1::Live attenuated vaccine}}
+  1523127993738 [AnKingOverhaul] 2-RelativelyHighYield The intranasal influenza vaccine induces a(n) {{c1::humoral and cell-mediated::humoral and/or cell-mediated}} response
+  1537381761281 [AnKingOverhaul] 2-RelativelyHighYield MMRV and influenza ( intranasal ) vaccines are contraindicated in {{c1::immunodeficient}} and {{c1::pregnant}} patients
+### virulencia | Externos | (virulence OR attenuated) AND virus | 0 notas
+### evasao | AnKing | (evasion OR immune evasion) AND virus | 0 notas
+### evasao | Externos | (evasion OR immune evasion) AND virus | 0 notas
+### rota | AnKing | (rotavirus OR NSP4) | 38 notas
+  1474165280493 [AnKingOverhaul] 2-RelativelyHighYield Secondary lactase deficiency occurs due to loss of the intestinal {{c1::brush border}}
+  1482289615950 [AnKingOverhaul] 1-HighYield In children with a recent history of rotavirus or adenovirus infection, a common cause of intussusception is {{c1:: lymphoid hyperplasia }}
+  1516237532611 [AnKingOverhaul] 1-HighYield Viral {{c3:: gastroenteritis }} is most commonly caused by {{c1:: norovirus }} and {{c2:: rotavirus }}
+  1516321085226 [AnKingOverhaul] 1-HighYield Which RNA virus family is double-stranded ? {{c1::Reoviridae}}
+  1516321532745 [AnKingOverhaul] 1-HighYield The {{c1:: segmented }} virus families may be remembered with the mnemonic " BOAR ": {{c1:: B unyavirus::B}} {{c1:: O rthomyxovirus::O}} {{c1:: A renavirus::A}} {{c1:: R eovirus::R}}
+  1516321532746 [AnKingOverhaul] 1-HighYield The segmented virus families may be remembered with the mnemonic "{{c1:: BOAR }}"
+  1516665187703 [AnKingOverhaul] 2-RelativelyHighYield What type of viruses are reoviruses ? {{c1:: Double-stranded RNA::DNA, RNA (sense), etc.}}
+  1516665343741 [AnKingOverhaul] 3-HighYield-temporary Are reoviruses enveloped ? {{c1::No (naked)}}
+  1516665391803 [AnKingOverhaul] 5-LowYield Reoviruses have {{c1::10 - 12::#}} segments
+  1516665586644 [AnKingOverhaul] 3-HighYield-temporary Reoviruses include {{c1::rotavirus}} and {{c1::coltivirus}}
+  1516665596498 [AnKingOverhaul] 1-HighYield What is the transmission of rotavirus ? {{c1::Fecal-oral}}
+  1516665721192 [AnKingOverhaul] 1-HighYield What is the most common symptom of rotavirus ? {{c1::Watery diarrhea}}
+  1516665751235 [AnKingOverhaul] 1-HighYield {{c2::Rotavirus}} contains the {{c1::NSP4}} enterotoxin , causing watery diarrhea
+  1516665846802 [AnKingOverhaul] 3-HighYield-temporary What is a complication of rotavirus diarrhea ? {{c1::Dehydration}}
+  1516665872787 [AnKingOverhaul] 2-RelativelyHighYield Rotavirus causes {{c2::villous}} destruction and atrophy , resulting in decreased serum {{c1:: Na + }} and {{c1:: K + }}
+  1516665990169 [AnKingOverhaul] 3-HighYield-temporary The NSP4 enterotoxin of rotavirus increases {{c1::Cl - }} permeability
+  1516666059911 [AnKingOverhaul] 1-HighYield Rotavirus infection commonly occurs during the {{c1:: winter }} season
+  1516666107599 [AnKingOverhaul] 3-HighYield-temporary What demographic is at high risk of rotavirus infection? {{c1::Children}}
+  1516666167898 [AnKingOverhaul] 1-HighYield What is the most common cause of severe diarrhea in children ? {{c1::Rotavirus}}
+  1516666216326 [AnKingOverhaul] 1-HighYield In which settings can rotavirus infection commonly be found? {{c1::Kindergartens and daycares}}
+  1516666378248 [AnKingOverhaul] 2-RelativelyHighYield Which two causes of viral gastroenteritis are associated with daycares and kindergartens ? - {{c1::Rotavirus}} - {{c1::Norovirus}}
+  1516666476206 [AnKingOverhaul] 4-LowerYield Coltivirus is also known as {{c1::Colorado tick}} virus
+  1516666651267 [AnKingOverhaul] 1-HighYield Which virus is said to be wheel-shaped ? {{c1::Rotavirus}}
+  1516666695540 [AnKingOverhaul] 2-RelativelyHighYield Which cause of viral gastroenteritis does the CDC recommend vaccination against ? {{c1::Rotavirus}}
+  1516666766803 [AnKingOverhaul] 2-RelativelyHighYield Rotavirus has a(n) {{c1::live attenuated}} vaccine that is administered {{c2:: orally ::route}}
+  1516666812794 [AnKingOverhaul] 4-LowerYield {{c1:: Intussusception }} is associated with the {{c2::rotavirus}} vaccine due to enlargement of Peyer's patches which act as a lead point
+  1516666902436 [AnKingOverhaul] 1-HighYield Rotavirus gastroenteritis can result in a secondary {{c1::lactase}} deficiency
+  1516666961676 [AnKingOverhaul] 4-LowerYield Symptoms of coltivirus (Colorado tick virus) include fevers , vomiting , and {{c1:: myalgia }}
+  1516667142242 [AnKingOverhaul] 3-HighYield-temporary What is the treatment for rotavirus ? {{c1::Oral rehydration therapy}}
+  1516667209562 [AnKingOverhaul] 1-HighYield When should the first rotavirus vaccination be given? {{c1::Within the first 3 months of birth}}
+### rota | Externos | (rotavirus OR NSP4) | 0 notas

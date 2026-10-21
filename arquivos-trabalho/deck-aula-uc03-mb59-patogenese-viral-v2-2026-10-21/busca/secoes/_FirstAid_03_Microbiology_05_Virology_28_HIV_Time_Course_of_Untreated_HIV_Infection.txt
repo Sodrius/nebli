@@ -1,0 +1,12 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::28_HIV::*Time_Course_of_Untreated_HIV_Infection (11 notas)
+1502067509832 2-RelativelyHighYield The acute phase of HIV consists of flu or mono -like symptoms with generalized lymphadenopathy and fever
+1502067560663 1-HighYield The clinical latency period of HIV infection can last up to 10 years
+1502067746680 1-HighYield Stage 1 HIV is characterized by wide dissemination to lymphoid organs
+1502067814114 1-HighYield Stage 2 HIV is characterized by clinical latency . CD4+ count drops to < 500 cells/mm 3
+1502067896713 1-HighYield Stage 3 HIV is characterized by recurrent bacterial infections. CD4+ count drops to < 350 cells/mm 3
+1502068052536 1-HighYield The criteria for AIDS is a CD4 count < 200 cells/mm 3 or confirmed HIV status with AIDS-defining opportunistic infections such as Pneumocystis pneumonia (PCP) or Candida esophagitis
+1502068121454 1-HighYield Which AIDS-defining illness is caused directly by HIV ? Diffuse large B-cell lymphoma* (DLBCL)
+1502068331161 3-HighYield-temporary In early HIV infection, HIV gains entry into macrophages via binding to CD4 plus the coreceptor CCR5
+1502068440036 3-HighYield-temporary In late HIV infection, HIV gains entry into helper T-cells via binding to CD4 plus the coreceptor CXCR4
+1502068458514 3-HighYield-temporary Individuals with homo zygous CCR5 allele mutations are resistant to HIV infection
+1502068584028 3-HighYield-temporary Individuals with hetero zygous CCR5 allele mutations display a slower rate of progression of HIV infection

@@ -1,0 +1,34 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::27_Basics_of_Virology::02_Mechanisms_of_Viral_Infectivity (33 notas)
+1403140930710 1-HighYield Which herpesvirus is associated with nasopharyngeal carcinoma ? EBV (HHV-4)
+1403141269124 1-HighYield Which herpesvirus is associated with characteristic owl's eye inclusions in infected cells? CMV (HHV-5)
+1480647026937 1-HighYield Adult T-cell leukemia/lymphoma is caused by HTLV-1
+1481335525711 1-HighYield Endemic Burkitt lymphoma is associated with Epstein-Barr virus (EBV) infection
+1483826505573 2-RelativelyHighYield Hodgkin lymphoma is associated with EBV infection
+1483913062659 1-HighYield All RNA viruses replicate in the cytoplasm except for orthomyxovirus and retroviruses
+1496159344591 2-RelativelyHighYield Which oncogenic microbe is associated with nasopharyngeal carcinoma , post-transplant lymphoproliferative disease , and certain lymphomas (e.g., endemic Burkitt, primary CNS)? Epstein-Barr virus (EBV)
+1496159468936 4-LowerYield Which oncogenic microbe is associated with adult T-cell leukemia/lymphoma (ATLL)? HTLV-1
+1496159486876 2-RelativelyHighYield Which oncogenic microbe is associated with cervical and penile/anal carcinoma and head and neck cancer ? HPV
+1502063688789 4-LowerYield Viral glycoproteins embedded in the surface of the envelope can be used to bind to host cells ; are also antigens for the immune system
+1502068331161 3-HighYield-temporary In early HIV infection, HIV gains entry into macrophages via binding to CD4 plus the coreceptor CCR5
+1502068440036 3-HighYield-temporary In late HIV infection, HIV gains entry into helper T-cells via binding to CD4 plus the coreceptor CXCR4
+1502152021975 2-RelativelyHighYield Most DNA viruses replicate in the nucleus
+1502152318872 1-HighYield Cowdry bodies are eosino philic intra nuclear inclusions found in cells infected with organisms within the herpesviridae family
+1502570386887 1-HighYield Poxvirus is the only DNA virus that completely replicates in the cytoplasm
+1502570452327 1-HighYield Poxvirus has its own DNA-dependent RNA polymerase which allows it to replicate in the cytoplasm
+1506298553385 2-RelativelyHighYield Paramyxoviruses can express the virulence factor hemagglutinin which binds sialic acid, promoting viral entry into cells
+1516321076508 2-RelativelyHighYield RNA viruses usually replicate in the cytoplasm
+1516323222471 1-HighYield Hemagglutinin is a viral envelope protein that binds sialic acid
+1516323635408 1-HighYield Which envelope protein of Influenza facilitates viral endocytosis into cells? Hemagglutinin (HA)
+1516325251980 1-HighYield What is the route of transmission of influenza ? Respiratory droplets
+1516473678124 1-HighYield Rabies virus binds to nicotinic ACh receptors in the post-synaptic membrane of the neuromuscular junction
+1516473893262 1-HighYield Rabies virus binds to nicotinic ACh receptors in the post-synaptic membrane of the neuromuscular junction
+1516474304091 3-HighYield-temporary Rabies virus travels retrograde along peripheral nerves
+1516474508193 2-RelativelyHighYield Rabies virus travels retrograde to the dorsal root ganglia before spreading to the CNS
+1516474771301 2-RelativelyHighYield Negri bodies of rabies virus can be found in the cytoplasm of the hippocampal pyramidal cells and cerebellar Purkinje cells
+1516475256424 1-HighYield Negri bodies (rabies virus) are found within the cytoplasm
+1516758512785 1-HighYield HHV-8 is part of the herpesviridae family
+1522891177685 5-LowYield Time elapsed from initial exposure or pathogenic insult to clinical manifestation of disease is known as: - incubation period in infectious disease - latent period in noncommunicable chronic diseases
+1522891468642 5-LowYield In infectious diseases, the incubation period is generally short
+1523127679930 3-HighYield-temporary The inactivated influenza vaccine results in antibody production that inhibits viral entry (into host cells) via binding to hemagglutinin
+1525115814354 3-HighYield-temporary Treating patients affected by microbial infections that can be aerosolized and remain suspended in air for extended periods requires a(n) respirator
+1525116016140 3-HighYield-temporary Treating patients with microbial infections that are transmitted by droplets and remain suspended in air for limited periods requires a(n) simple facemask

@@ -1,0 +1,200 @@
+Aula 16 – Patogênese da infecção viral 
+ 
+1. Considerações iniciais 
+ 
+• Como sabido, os vírus são parasitas intracelulares obrigatórios. A 
+patogênese viral representa o estudo da relação entre vírus e organismo 
+infectado, sendo que o termo patogênese representa não somente a 
+infecção, mas também a indução de doença pelo patógeno (os vírus podem 
+estar presentes nos portadores sem manifestação clínica); 
+• Tanto a patogênese viral como a severidade de uma doença dependem do 
+tipo de vírus, via de infecção, diferenças de virulência numa mesma família, 
+espécie afetada e características do próprio indivíduo afetado; 
+• A patogênese viral se manifesta pela destruição de tecidos (vírus da raiva), 
+indução e secreção de citocinas inflamatórias, disfunção celular, efeito 
+parácrino (atuação sobre células vizinhas) e/ou indução de tumores. 
+ 
+2. Entrada e disseminação viral 
+ 
+• Portas de entrada: mucosa dos sistemas respiratório, 
+digestório e urinário; conjuntiva/córnea; pele; sangue 
+(agulhas, picadas, transfusão) e ato sexual. O trato 
+respiratório é a principal porta de entrada, através de 
+aerossóis/gotículas/fluidos (presença de envelope – 
+influenza) ou de contato direto (rinovírus). As infecções 
+causadas podem ser localizadas (rinovírus) ou sistêmicas (influenza). 
+Epitélio mucociliar, secreção de IgA e leucócitos são estratégias de defesa; 
+o Vírus que realizam entrada via trato 
+alimentar devem resistir a variações de 
+pH, enzimas digestivas e condições 
+extremas. Alguns vírus se replicam muito 
+bem no epitélio intestinal (células 
+polarizadas, colunares e com 
+microvilosidades). Vírus não envelopados são mais comuns, devido 
+à maior resistência às condições do ambiente. Rotavírus (infecção 
+localizada) e enterovírus (infecção sistêmica) são exemplos; 
+• Disseminação viral: muitos receptores virais são moléculas 
+de adesão. ICAM-1, por exemplo, é um receptor para 
+rinovírus, enquanto CAR interage com adenovírus. Os vírus 
+podem realizar replicação logo no epitélio junto à porta de 
+entrada (sítio primário). Posteriormente, podem se difundir 
+para o sistema linfático, o que promoverá amplificação. A 
+passagem para o sangue é denominada viremia e resulta 
+na chegada a um sítio secundário de multiplicação (órgão 
+alvo ou infecção sistêmica); 
+• PS: viremia ativa é causada pela replicação viral, enquanto 
+a passiva é ocasionada pela injeção direta do vírus na corrente sanguínea.  
+
+=== p.53
+3. Padrões de infecção viral 
+ 
+• Os dois principais padrões de infecção viral são agudo 
+(aumento e queda rápidos de carga viral, de acordo 
+com as características do vírus) e crônico; 
+• Esse último se configura de 4 diferentes maneiras, que 
+são: latente (uma manifestação intensa e outras 
+manifestações esporádicas menos intensas), 
+progressiva (aumento e queda, seguida de aumento 
+progressivo), persistente (aumento, queda parcial e 
+manutenção de carga viral) e falha de eliminação total da 
+infecção (baixíssima quantidade de partículas virais); 
+• Infecção latente: estado transcricional e traducional único 
+do vírus, em que o ciclo viral não funciona mas pode ser 
+ativado a qualquer momento. Somente os herpes vírus 
+realmente estabelecem latência viral, essa última localizada 
+no neurônio, que apresenta longo tempo de vida (o retorno 
+ao epitélio nasofaríngeo restabelece o ciclo lítico); 
+• O vírus da Hepatite B pode se manifestar de forma aguda 
+ou crônica. Diferentemente dos herpes vírus, o ciclo viral 
+nunca deixa de funcionar no quadro crônico; 
+• Infecção progressiva (HIV): característica dos lentivírus, 
+retrovírus com baixa taxa de replicação. Inicialmente 
+ocorre um aumento progressivo com pico de carga viral, 
+seguido de uma queda e aumento bastante lento da 
+carga viral. Esse aumento bastante lento é denominado 
+latência clínica e resulta do combate progressivo com a 
+resposta adaptativa (a maquinaria de replicação e a 
+expressão genética não deixam de funcionar); 
+• Infecção persistente: pode se configurar sem aumento progressivo após a 
+queda da carga viral ou falha na eliminação total do patógeno; 
+• PS: os padrões de infecção viral dependem da eficiência da resposta do 
+hospedeiro (respostas eficientes contra vírus da hepatite B geram infecção 
+aguda, por exemplo), da virulência (capacidade viral de causar doença) e 
+do tropismo (preferências virais por determinados tipos celulares). 
+Normalmente as infecções agudas são controladas pela resposta inata, 
+enquanto as crônicas são controladas pela resposta adaptativa. 
+ 
+3.1 Análise do conceito de virulência 
+ 
+• Capacidade relativa de um vírus causar doenças. Pode se manifestar pela 
+morte rápida, falência de órgãos, indução de tumores, entre outras coisas. 
+De modo geral, a virulência encontra-se associada à capacidade replicativa 
+do vírus, mas também pode ser influenciada pelo tropismo e resposta do 
+hospedeiro. Estirpes virulentas causam doença, enquanto estirpes 
+avirulentas/atenuadas somente infectam o organismo; 
+
+=== p.54
+• A virulência depende ainda da variante do vírus, da carga viral recebida, da 
+via de inoculação e da susceptibilidade do hospedeiro; 
+• Fatores de virulência são moléculas expressas pelo vírus que permitem 
+maior capacidade replicativa, colonização do hospedeiro, transmissão a 
+outros indivíduos, combate ou evasão ao sistema imune (latência, 
+persistência) e/ou promoção de toxicidade (ex: proteína NSP4 do rotavírus); 
+• Os rotavírus apresentam RNA dupla fita segmentado e 
+representa o principal causador de diarreia em 
+crianças. Sua proteína NSP4 apresenta caráter não 
+estrutural e tem ação semelhante à das enterotoxinas, 
+desencadeando uma via de sinalização na mucosa 
+intestinal que eleva o potencial de Ca2+ e aumenta a 
+secreção de Cl-, resultando em diarreia. Enfim, o 
+rotavírus ataca as células produtoras de lactase, o que 
+pode piorar a diarreia se houver ingestão de leite; 
+• Os vírus Influenza causam epidemias quando ocorrem 
+mudanças menores nas hemaglutininas e 
+neuraminidases (mutações induzidas por correção de 
+erros deficiente). As pandemias, por sua vez, são 
+desencadeadas quando um novo tipo de hemaglutinina 
+surge, o que resulta em antígenos de superfície 
+diferentes. 15 subtipos de hemaglutinina e 9 subtipos 
+de neuraminidase foram descobertos até hoje. 
+ 
+3.2 Análise do conceito de tropismo e mecanismos de evasão 
+ 
+• HPV apresenta tropismo anatômico evidente, sobretudo as células das 
+mucosas anogenitais; 
+• O rinovírus é um vírus não envelopado de RNA positivo. Esse patógeno 
+causa aproximadamente 50% dos resfriados no mundo todo. Transmitem-
+se de pessoa a pessoa por via aérea e por contato com superfícies 
+contaminadas. São termoestáveis e resistentes a solventes como éter e 
+etanol e são inativados por ácidos; 
+• Dentre os mecanismos de evasão virais podem ser de dois 
+grandes tipos: ativos ou passivos. Os mecanismos ativos 
+(ex: E6 e E7 do HPV) requerem a síntese de proteínas 
+virais que possam conferir resistência à apoptose, 
+modulação da resposta imune ou latência. Os mecanismos 
+passivos não requerem síntese de proteínas virais e, 
+portanto, se relacionam ao tamanho do inóculo, tropismo, 
+via de infecção e variabilidade; 
+• Em resumo, existem diferentes padrões de infecção. Os 
+mesmos dependem do tipo de vírus e de fatores do hospedeiro. O 
+desenvolvimento de doença depende de fatores virais, do hospedeiro e do 
+ambiente. O deslocamento do balanço existente entre o vírus e o 
+hospedeiro determina o destino da infecção. 
+ 
+
+=== p.55
+ 
+Fisiologia 
+ 
+ 
+PATOLOGIA 
+Notas: 
+• A principal fonte utilizada foram os vídeos de aula 
+disponibilizados no Google Drive; 
+• As imagens foram reduzidas na edição por conta da 
+necessidade de encurtamento do resumo e a 
+possibilidade de ampliação nos dispositivos eletrônicos; 
+• Anotações e textos elaborados pelo aluno João Taba  
+(especialmente a aula 12) foram incluídos nesse resumo; 
+• Os textos escritos não apresentam nenhum propósito 
+comercial. 
+
+=== p.56
+Aula 9 – Patologia das infecções virais 
+ 
+1. Considerações iniciais 
+ 
+• Os vírus podem causar quadros agudos, subagudos ou crônicos. Tais 
+quadros podem provocar doenças sistêmicas, imunocomprometimento (HIV 
+promove destruição de TCD4), teratogênese (anomalias uterinas – zika 
+vírus) e neoplasias (HPV); 
+• Os agentes etiológicos provocam quadros iniciais inespecíficos, 
+caracterizados por febre, mialgia, sintomas respiratórios, diarreia, tosse... 
+Dentre os órgãos afetados encontram-se o fígado, 
+pulmões e o encéfalo; 
+• O diagnóstico se dá por análise de cultura viral, 
+biologia molecular, detecção de antígenos, sorologia 
+(análise de anticorpos) e histopatologia. Essa última 
+pode ser realizada tanto na fase inicial como na tardia, 
+sendo que numa fase aguda o agente e o efeito citopático 
+viral são visualizados, enquanto numa fase crônica o agente 
+nem sempre é visualizado, somente lesões sequelares; 
+• Do ponto de vista imunológico, vale destacar a participação 
+da imunidade inata num momento inicial (destaque para 
+IFN1 das células NK), seguida da participação da resposta 
+adaptativa se não houver resolução.  
+ 
+2. Análise do diagnóstico de infecção viral nos tecidos 
+ 
+• Efeito citopático: mudança de conformação celular e 
+formação de inclusões. Presença de inclusões 
+citoplasmáticas e/ou intranucleares. Uma inclusão inicial 
+importante é o Corpúsculo de Cowdry tipo-A 
+(eosinofílico/rosa, pequeno e de fase aguda). Uma inclusão 
+tardia importante é o Corpúsculo de Cowdry tipo B (grande, 
+basofílico/roxo, difuso e de fase tardia); 
+• O vírus pode causar lesões, induzir neoplasia, induzir 
+depleção linfoide ou desencadear resposta inflamatória 
+intensa. Métodos auxiliares ao diagnóstico de infecção viral 
+nos tecidos são análise da PCR, microscopia eletrônica 
+e/ou imunohistoquímica; 

@@ -1,0 +1,1595 @@
+{
+ "aula": "Patogênese da infecção viral (UC03 P3; Microbiologia)",
+ "lido_antes_da_selecao": true,
+ "slides": [
+  {
+   "numero": 1,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 2,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 3,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 4,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 5,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 6,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 7,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 8,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 9,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 10,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 11,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 12,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 13,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 14,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 15,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 16,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 17,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 18,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 19,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 20,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 21,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 22,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 23,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 24,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 25,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 26,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 27,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 28,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 29,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 30,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 31,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 32,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 33,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 34,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 35,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 36,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 37,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 38,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 39,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 40,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 41,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 42,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 43,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 44,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 45,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 46,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 47,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 48,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 49,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 50,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 51,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 52,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 53,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 54,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 55,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 56,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 57,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 58,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 59,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 60,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 61,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 62,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 63,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 64,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 65,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 66,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 67,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 68,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 69,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 70,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 71,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 72,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 73,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 74,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 75,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 76,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 77,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 78,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 79,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 80,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 81,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 82,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 83,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 84,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 85,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 86,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 87,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 88,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 89,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 90,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 91,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 92,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 93,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 94,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 95,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 96,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 97,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 98,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 99,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 100,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 101,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 102,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 103,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 104,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 105,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 106,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 107,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 108,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 109,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 110,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 111,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 112,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 113,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 114,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 115,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 116,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 117,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 118,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 119,
+   "classe": "logistica",
+   "titulo": "Versões I e II da mesma aula (repetem a versão III, lâminas 120–178)",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 120,
+   "classe": "capa",
+   "titulo": "Capa: Infecção do hospedeiro suscetível",
+   "justificativa": "capa sem conteúdo"
+  },
+  {
+   "numero": 121,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 121: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 122,
+   "classe": "conteudo",
+   "titulo": "Lâmina 122",
+   "itens": [
+    {
+     "id": "mb59-s122-i122-1",
+     "texto": "Infecção produtiva × abortiva",
+     "card": "au-infecao-def"
+    }
+   ]
+  },
+  {
+   "numero": 123,
+   "classe": "logistica",
+   "titulo": "Divisória: entrada e disseminação viral",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 124,
+   "classe": "conteudo",
+   "titulo": "Lâmina 124",
+   "itens": [
+    {
+     "id": "mb59-s124-i124-1",
+     "texto": "Influenza: transmissão por gotículas respiratórias",
+     "card": "ak1516325251980"
+    },
+    {
+     "id": "mb59-s124-i124-2",
+     "texto": "Paramixovírus (sarampo): gotículas respiratórias",
+     "card": "ak1506297282227"
+    },
+    {
+     "id": "mb59-s124-i124-3",
+     "texto": "Epitélio respiratório: escada mucociliar",
+     "card": "sh-1791147098269"
+    }
+   ]
+  },
+  {
+   "numero": 125,
+   "classe": "conteudo",
+   "titulo": "Lâmina 125",
+   "itens": [
+    {
+     "id": "mb59-s125-i125-a1",
+     "texto": "Apoio ao card ak1516325251980",
+     "card": "ak1516325251980"
+    }
+   ]
+  },
+  {
+   "numero": 126,
+   "classe": "conteudo",
+   "titulo": "Lâmina 126",
+   "itens": [
+    {
+     "id": "mb59-s126-i126-a1",
+     "texto": "Apoio ao card ak1516325251980",
+     "card": "ak1516325251980"
+    }
+   ]
+  },
+  {
+   "numero": 127,
+   "classe": "conteudo",
+   "titulo": "Lâmina 127",
+   "itens": [
+    {
+     "id": "mb59-s127-i127-1",
+     "texto": "Coronavírus liga ACE2 nos pneumócitos tipo II",
+     "card": "ak1608908651007"
+    },
+    {
+     "id": "mb59-s127-i127-2",
+     "texto": "Rinovírus entra por ICAM-1",
+     "card": "sh-1792605634577"
+    }
+   ]
+  },
+  {
+   "numero": 128,
+   "classe": "conteudo",
+   "titulo": "Lâmina 128",
+   "itens": [
+    {
+     "id": "mb59-s128-i128-1",
+     "texto": "Hepatite A: estável ao ácido",
+     "card": "ak1506610615157"
+    },
+    {
+     "id": "mb59-s128-i128-2",
+     "texto": "Gastroenterite viral: norovírus e rotavírus",
+     "card": "ak1516237532611"
+    },
+    {
+     "id": "mb59-s128-i128-3",
+     "texto": "Rotavírus: via fecal-oral",
+     "card": "ak1516665596498"
+    },
+    {
+     "id": "mb59-s128-i128-4",
+     "texto": "Poliovírus: via fecal-oral",
+     "card": "ak1516218470870"
+    }
+   ]
+  },
+  {
+   "numero": 129,
+   "classe": "conteudo",
+   "titulo": "Lâmina 129",
+   "itens": [
+    {
+     "id": "mb59-s129-i129-a1",
+     "texto": "Apoio ao card ak1506610615157",
+     "card": "ak1506610615157"
+    }
+   ]
+  },
+  {
+   "numero": 130,
+   "classe": "conteudo",
+   "titulo": "Lâmina 130",
+   "itens": [
+    {
+     "id": "mb59-s130-i130-1",
+     "texto": "Viremia ativa × passiva",
+     "card": "au-viremia"
+    }
+   ]
+  },
+  {
+   "numero": 131,
+   "classe": "conteudo",
+   "titulo": "Lâmina 131",
+   "itens": [
+    {
+     "id": "mb59-s131-i131-a1",
+     "texto": "Apoio ao card au-viremia",
+     "card": "au-viremia"
+    }
+   ]
+  },
+  {
+   "numero": 132,
+   "classe": "conteudo",
+   "titulo": "Lâmina 132",
+   "itens": [
+    {
+     "id": "mb59-s132-i132-a1",
+     "texto": "Apoio ao card au-viremia",
+     "card": "au-viremia"
+    }
+   ]
+  },
+  {
+   "numero": 133,
+   "classe": "conteudo",
+   "titulo": "Lâmina 133",
+   "itens": [
+    {
+     "id": "mb59-s133-i133-a1",
+     "texto": "Apoio ao card au-viremia",
+     "card": "au-viremia"
+    }
+   ]
+  },
+  {
+   "numero": 134,
+   "classe": "conteudo",
+   "titulo": "Lâmina 134",
+   "itens": [
+    {
+     "id": "mb59-s134-i134-a1",
+     "texto": "Apoio ao card au-viremia",
+     "card": "au-viremia"
+    }
+   ]
+  },
+  {
+   "numero": 135,
+   "classe": "conteudo",
+   "titulo": "Lâmina 135",
+   "itens": [
+    {
+     "id": "mb59-s135-i135-1",
+     "texto": "VZV: reativação por estresse, idade ou imunossupressão",
+     "card": "ak1506291152635"
+    },
+    {
+     "id": "mb59-s135-i135-2",
+     "texto": "CMV: reativação em imunossuprimidos",
+     "card": "ak1503860841762"
+    },
+    {
+     "id": "mb59-s135-i135-3",
+     "texto": "CMV: latente em células mononucleares",
+     "card": "ak1503858394947"
+    },
+    {
+     "id": "mb59-s135-i135-4",
+     "texto": "VZV: latente nos gânglios da raiz dorsal",
+     "card": "ak1506291111598"
+    }
+   ]
+  },
+  {
+   "numero": 136,
+   "classe": "conteudo",
+   "titulo": "Lâmina 136",
+   "itens": [
+    {
+     "id": "mb59-s136-i136-1",
+     "texto": "HSV-1: latente no gânglio trigeminal",
+     "card": "ak1502153397982"
+    },
+    {
+     "id": "mb59-s136-i136-2",
+     "texto": "Estresse reativa o HSV-1",
+     "card": "ak1502152875721"
+    },
+    {
+     "id": "mb59-s136-i136-3",
+     "texto": "HSV-2: latente nos gânglios sacrais",
+     "card": "ak1502154338212"
+    }
+   ]
+  },
+  {
+   "numero": 137,
+   "classe": "conteudo",
+   "titulo": "Lâmina 137",
+   "itens": [
+    {
+     "id": "mb59-s137-i137-1",
+     "texto": "EBV: latente em linfócitos B",
+     "card": "ak1503854748516"
+    }
+   ]
+  },
+  {
+   "numero": 138,
+   "classe": "conteudo",
+   "titulo": "Lâmina 138",
+   "itens": [
+    {
+     "id": "mb59-s138-i138-a1",
+     "texto": "Apoio ao card ak1503854748516",
+     "card": "ak1503854748516"
+    }
+   ]
+  },
+  {
+   "numero": 139,
+   "classe": "conteudo",
+   "titulo": "Lâmina 139",
+   "itens": [
+    {
+     "id": "mb59-s139-i139-a1",
+     "texto": "Apoio ao card ak1503854748516",
+     "card": "ak1503854748516"
+    }
+   ]
+  },
+  {
+   "numero": 140,
+   "classe": "conteudo",
+   "titulo": "Lâmina 140",
+   "itens": [
+    {
+     "id": "mb59-s140-i140-1",
+     "texto": "HBV em recém-nascidos: 90% de infecção crônica",
+     "card": "ak1506552371527"
+    },
+    {
+     "id": "mb59-s140-i140-2",
+     "texto": "HBV: transmissão da mãe para o bebê no parto",
+     "card": "ak1506552065089"
+    }
+   ]
+  },
+  {
+   "numero": 141,
+   "classe": "conteudo",
+   "titulo": "Lâmina 141",
+   "itens": [
+    {
+     "id": "mb59-s141-i141-1",
+     "texto": "HBV é menos crônica que o HCV",
+     "card": "ak1506552205472"
+    }
+   ]
+  },
+  {
+   "numero": 142,
+   "classe": "conteudo",
+   "titulo": "Lâmina 142",
+   "itens": [
+    {
+     "id": "mb59-s142-i142-1",
+     "texto": "HCV: 60–80% evoluem para infecção crônica",
+     "card": "ak1506630060423"
+    }
+   ]
+  },
+  {
+   "numero": 143,
+   "classe": "conteudo",
+   "titulo": "Lâmina 143",
+   "itens": [
+    {
+     "id": "mb59-s143-i143-a1",
+     "texto": "Apoio ao card ak1506630060423",
+     "card": "ak1506630060423"
+    }
+   ]
+  },
+  {
+   "numero": 144,
+   "classe": "conteudo",
+   "titulo": "Lâmina 144",
+   "itens": [
+    {
+     "id": "mb59-s144-i144-1",
+     "texto": "HIV: latência clínica por até 10 anos",
+     "card": "ak1502067560663"
+    },
+    {
+     "id": "mb59-s144-i144-2",
+     "texto": "Conexão: latência viral × latência clínica",
+     "card": "au-latencia-vs"
+    }
+   ]
+  },
+  {
+   "numero": 145,
+   "classe": "conteudo",
+   "titulo": "Lâmina 145",
+   "itens": [
+    {
+     "id": "mb59-s145-i145-1",
+     "texto": "Padrões de infecção viral e vírus típicos",
+     "card": "au-padroes"
+    }
+   ]
+  },
+  {
+   "numero": 146,
+   "classe": "conteudo",
+   "titulo": "Lâmina 146",
+   "itens": [
+    {
+     "id": "mb59-s146-i146-a1",
+     "texto": "Apoio ao card au-padroes",
+     "card": "au-padroes"
+    }
+   ]
+  },
+  {
+   "numero": 147,
+   "classe": "conteudo",
+   "titulo": "Lâmina 147",
+   "itens": [
+    {
+     "id": "mb59-s147-i147-a1",
+     "texto": "Apoio ao card au-padroes",
+     "card": "au-padroes"
+    }
+   ]
+  },
+  {
+   "numero": 148,
+   "classe": "conteudo",
+   "titulo": "Lâmina 148",
+   "itens": [
+    {
+     "id": "mb59-s148-i148-a1",
+     "texto": "Apoio ao card au-padroes",
+     "card": "au-padroes"
+    }
+   ]
+  },
+  {
+   "numero": 149,
+   "classe": "conteudo",
+   "titulo": "Lâmina 149",
+   "itens": [
+    {
+     "id": "mb59-s149-i149-a1",
+     "texto": "Apoio ao card au-padroes",
+     "card": "au-padroes"
+    }
+   ]
+  },
+  {
+   "numero": 150,
+   "classe": "conteudo",
+   "titulo": "Lâmina 150",
+   "itens": [
+    {
+     "id": "mb59-s150-i150-1",
+     "texto": "Patogênese: destruição, citocinas e disfunção celular",
+     "card": "au-patogenese"
+    }
+   ]
+  },
+  {
+   "numero": 151,
+   "classe": "conteudo",
+   "titulo": "Lâmina 151",
+   "itens": [
+    {
+     "id": "mb59-s151-i151-a1",
+     "texto": "Apoio ao card au-patogenese",
+     "card": "au-patogenese"
+    }
+   ]
+  },
+  {
+   "numero": 152,
+   "classe": "conteudo",
+   "titulo": "Lâmina 152",
+   "itens": [
+    {
+     "id": "mb59-s152-i152-1",
+     "texto": "Infecção produtiva: suscetibilidade, permissividade e acessibilidade",
+     "card": "au-3-fatores"
+    }
+   ]
+  },
+  {
+   "numero": 153,
+   "classe": "conteudo",
+   "titulo": "Lâmina 153",
+   "itens": [
+    {
+     "id": "mb59-s153-i153-a1",
+     "texto": "Apoio ao card au-3-fatores",
+     "card": "au-3-fatores"
+    }
+   ]
+  },
+  {
+   "numero": 154,
+   "classe": "conteudo",
+   "titulo": "Lâmina 154",
+   "itens": [
+    {
+     "id": "mb59-s154-i154-a1",
+     "texto": "Apoio ao card au-3-fatores",
+     "card": "au-3-fatores"
+    }
+   ]
+  },
+  {
+   "numero": 155,
+   "classe": "conteudo",
+   "titulo": "Lâmina 155",
+   "itens": [
+    {
+     "id": "mb59-s155-i155-1",
+     "texto": "Fatores de virulência",
+     "card": "au-virulencia"
+    }
+   ]
+  },
+  {
+   "numero": 156,
+   "classe": "conteudo",
+   "titulo": "Lâmina 156",
+   "itens": [
+    {
+     "id": "mb59-s156-i156-a1",
+     "texto": "Apoio ao card au-virulencia",
+     "card": "au-virulencia"
+    }
+   ]
+  },
+  {
+   "numero": 157,
+   "classe": "conteudo",
+   "titulo": "Lâmina 157",
+   "itens": [
+    {
+     "id": "mb59-s157-i157-1",
+     "texto": "Rotavírus: enterotoxina NSP4 causa diarreia aquosa",
+     "card": "ak1516665751235"
+    },
+    {
+     "id": "mb59-s157-i157-2",
+     "texto": "NSP4 aumenta a permeabilidade ao Cl−",
+     "card": "ak1516665990169"
+    },
+    {
+     "id": "mb59-s157-i157-3",
+     "texto": "Rotavírus causa deficiência secundária de lactase",
+     "card": "ak1516666902436"
+    }
+   ]
+  },
+  {
+   "numero": 158,
+   "classe": "conteudo",
+   "titulo": "Lâmina 158",
+   "itens": [
+    {
+     "id": "mb59-s158-i158-a1",
+     "texto": "Apoio ao card ak1516665751235",
+     "card": "ak1516665751235"
+    }
+   ]
+  },
+  {
+   "numero": 159,
+   "classe": "conteudo",
+   "titulo": "Lâmina 159",
+   "itens": [
+    {
+     "id": "mb59-s159-i159-1",
+     "texto": "Virada antigênica: pandemias de influenza",
+     "card": "ak1516323168130"
+    }
+   ]
+  },
+  {
+   "numero": 160,
+   "classe": "conteudo",
+   "titulo": "Lâmina 160",
+   "itens": [
+    {
+     "id": "mb59-s160-i160-a1",
+     "texto": "Apoio ao card ak1516323168130",
+     "card": "ak1516323168130"
+    }
+   ]
+  },
+  {
+   "numero": 161,
+   "classe": "conteudo",
+   "titulo": "Lâmina 161",
+   "itens": [
+    {
+     "id": "mb59-s161-i161-1",
+     "texto": "Condiloma acuminado: HPV 6 ou 11",
+     "card": "ak1394068322402"
+    }
+   ]
+  },
+  {
+   "numero": 162,
+   "classe": "conteudo",
+   "titulo": "Lâmina 162",
+   "itens": [
+    {
+     "id": "mb59-s162-i162-1",
+     "texto": "HPV nas cordas vocais: papilomatose laríngea",
+     "card": "ak1493218180866"
+    }
+   ]
+  },
+  {
+   "numero": 163,
+   "classe": "conteudo",
+   "titulo": "Lâmina 163",
+   "itens": [
+    {
+     "id": "mb59-s163-i163-1",
+     "texto": "HPV 16 e 18: principais causas de câncer cervical",
+     "card": "ak1405375421095"
+    }
+   ]
+  },
+  {
+   "numero": 164,
+   "classe": "conteudo",
+   "titulo": "Lâmina 164",
+   "itens": [
+    {
+     "id": "mb59-s164-i164-a1",
+     "texto": "Apoio ao card ak1405375421095",
+     "card": "ak1405375421095"
+    }
+   ]
+  },
+  {
+   "numero": 165,
+   "classe": "conteudo",
+   "titulo": "Lâmina 165",
+   "itens": [
+    {
+     "id": "mb59-s165-i165-a1",
+     "texto": "Apoio ao card ak1405375421095",
+     "card": "ak1405375421095"
+    }
+   ]
+  },
+  {
+   "numero": 166,
+   "classe": "conteudo",
+   "titulo": "Lâmina 166",
+   "itens": [
+    {
+     "id": "mb59-s166-i166-1",
+     "texto": "Rinovírus cresce melhor a 33 °C",
+     "card": "ak1516222409950"
+    },
+    {
+     "id": "mb59-s166-i166-2",
+     "texto": "Rinovírus é lábil ao ácido",
+     "card": "ak1516222135232"
+    }
+   ]
+  },
+  {
+   "numero": 167,
+   "classe": "conteudo",
+   "titulo": "Lâmina 167",
+   "itens": [
+    {
+     "id": "mb59-s167-i167-1",
+     "texto": "Poliovírus é estável ao ácido",
+     "card": "ak1516218404816"
+    },
+    {
+     "id": "mb59-s167-i167-2",
+     "texto": "Vacina Sabin: poliovírus vivo atenuado",
+     "card": "ak1516219553378"
+    }
+   ]
+  },
+  {
+   "numero": 168,
+   "classe": "conteudo",
+   "titulo": "Lâmina 168",
+   "itens": [
+    {
+     "id": "mb59-s168-i168-1",
+     "texto": "Evasão ativa × passiva",
+     "card": "au-evasao"
+    }
+   ]
+  },
+  {
+   "numero": 169,
+   "classe": "conteudo",
+   "titulo": "Lâmina 169",
+   "itens": [
+    {
+     "id": "mb59-s169-i169-1",
+     "texto": "HPV de alto risco: E6 destrói p53",
+     "card": "sh-1792605641002"
+    },
+    {
+     "id": "mb59-s169-i169-2",
+     "texto": "HPV de alto risco: E7 destrói Rb",
+     "card": "sh-1792605641420"
+    }
+   ]
+  },
+  {
+   "numero": 170,
+   "classe": "conteudo",
+   "titulo": "Lâmina 170",
+   "itens": [
+    {
+     "id": "mb59-s170-i170-a1",
+     "texto": "Apoio ao card sh-1792605641002",
+     "card": "sh-1792605641002"
+    }
+   ]
+  },
+  {
+   "numero": 171,
+   "classe": "conteudo",
+   "titulo": "Lâmina 171",
+   "itens": [
+    {
+     "id": "mb59-s171-i171-a1",
+     "texto": "Apoio ao card sh-1792605641002",
+     "card": "sh-1792605641002"
+    }
+   ]
+  },
+  {
+   "numero": 172,
+   "classe": "conteudo",
+   "titulo": "Lâmina 172",
+   "itens": [
+    {
+     "id": "mb59-s172-i172-a1",
+     "texto": "Apoio ao card sh-1792605641002",
+     "card": "sh-1792605641002"
+    }
+   ]
+  },
+  {
+   "numero": 173,
+   "classe": "conteudo",
+   "titulo": "Lâmina 173",
+   "itens": [
+    {
+     "id": "mb59-s173-i173-1",
+     "texto": "HPV infecta o estrato basal",
+     "card": "ak1502718274711"
+    }
+   ]
+  },
+  {
+   "numero": 174,
+   "classe": "conteudo",
+   "titulo": "Lâmina 174",
+   "itens": [
+    {
+     "id": "mb59-s174-i174-1",
+     "texto": "Raiva: viaja retrógrado pelos nervos periféricos",
+     "card": "ak1516474304091"
+    }
+   ]
+  },
+  {
+   "numero": 175,
+   "classe": "conteudo",
+   "titulo": "Lâmina 175",
+   "itens": [
+    {
+     "id": "mb59-s175-i175-1",
+     "texto": "HCV: variabilidade antigênica do envelope",
+     "card": "ak1506629766099"
+    }
+   ]
+  },
+  {
+   "numero": 176,
+   "classe": "conteudo",
+   "titulo": "Lâmina 176",
+   "itens": [
+    {
+     "id": "mb59-s176-i176-a1",
+     "texto": "Apoio ao card ak1506629766099",
+     "card": "ak1506629766099"
+    }
+   ]
+  },
+  {
+   "numero": 177,
+   "classe": "conteudo",
+   "titulo": "Lâmina 177",
+   "itens": [
+    {
+     "id": "mb59-s177-i177-a1",
+     "texto": "Apoio ao card ak1506629766099",
+     "card": "ak1506629766099"
+    }
+   ]
+  },
+  {
+   "numero": 178,
+   "classe": "logistica",
+   "titulo": "Agradecimento",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  }
+ ],
+ "capitulo": [
+  {
+   "secao": "Jawetz, Microbiologia Médica, cap. 30 (patogênese); apostila guia de Micro (aula 14); monitoria P3 (aula 16)",
+   "itens": [
+    {
+     "id": "mb59-cap-l1",
+     "texto": "Infecção produtiva × abortiva; infecção não é doença",
+     "card": "au-infecao-def"
+    },
+    {
+     "id": "mb59-cap-l2",
+     "texto": "Portas de entrada e receptores (respiratória e digestiva)",
+     "card": [
+      "sh-1791147098269",
+      "ak1516325251980",
+      "sh-1792605634577",
+      "ak1516665596498"
+     ]
+    },
+    {
+     "id": "mb59-cap-l3",
+     "texto": "Disseminação: sítio primário, viremia e sítio secundário",
+     "card": "au-viremia"
+    },
+    {
+     "id": "mb59-cap-l4",
+     "texto": "Padrões de infecção: aguda, latente, persistente e progressiva",
+     "card": [
+      "au-padroes",
+      "au-latencia-vs",
+      "ak1502153397982",
+      "ak1506552371527",
+      "ak1506552205472",
+      "ak1502067560663"
+     ]
+    },
+    {
+     "id": "mb59-cap-l5",
+     "texto": "Patogênese: destruição, citocinas, disfunção e efeito parácrino",
+     "card": "au-patogenese"
+    },
+    {
+     "id": "mb59-cap-l6",
+     "texto": "Suscetibilidade, permissividade e acessibilidade",
+     "card": "au-3-fatores"
+    },
+    {
+     "id": "mb59-cap-l7",
+     "texto": "Virulência e fatores de virulência (rotavírus NSP4)",
+     "card": [
+      "au-virulencia",
+      "ak1516665751235",
+      "ak1516665990169"
+     ]
+    },
+    {
+     "id": "mb59-cap-l8",
+     "texto": "Tropismo: rinovírus × poliovírus",
+     "card": [
+      "ak1516222409950",
+      "ak1516222135232",
+      "ak1516218404816"
+     ]
+    },
+    {
+     "id": "mb59-cap-l9",
+     "texto": "Evasão ativa × passiva",
+     "card": [
+      "au-evasao",
+      "sh-1792605641002",
+      "ak1502718274711"
+     ]
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "fonte": "Provas UC03 (índice micro-15 e termos viremia, latência, tropismo, permissividade)",
+   "itens": [
+    {
+     "id": "mb59-prova-p1",
+     "texto": "Susceptibilidade, permissividade e quadro sistêmico do sarampo (2019 P3 3.3; 2025 P3 3.6)",
+     "card": [
+      "au-3-fatores",
+      "au-viremia",
+      "ak1506297282227"
+     ]
+    },
+    {
+     "id": "mb59-prova-p2",
+     "texto": "Padrões de infecção viral e exemplos (2015 P2sub 2.5; 2015 P2 2.4)",
+     "card": [
+      "au-padroes",
+      "ak1506552205472",
+      "ak1506552371527"
+     ]
+    }
+   ]
+  }
+ ]
+}

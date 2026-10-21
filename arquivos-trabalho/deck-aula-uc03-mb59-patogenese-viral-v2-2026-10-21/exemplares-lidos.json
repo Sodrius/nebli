@@ -1,0 +1,13 @@
+{
+ "exemplares_sha256": "aa7d4f21afe3dbdccad07c68cd4cdcc1a24b3a5e7c315d78d63208167db7cadf",
+ "anti_exemplares_sha256": "c978ca717d4ec23916b4c9d8ed1195f4e9bed0b42a045a19a84368ff19186e74",
+ "lido_em": "2026-10-21",
+ "aprendizados": [
+  "Frase afirma um fato concreto e o cloze esconde o nome que se decora (vírus, molécula, estrutura), nunca verbo nem adjetivo genérico.",
+  "Organizador em tópicos verticais com clozes distintos nos nomes recuperáveis; contraste complementar usa um único índice.",
+  "Card ruim: conceito solto, probabilidade ou curiosidade numérica, e decorar sem entender; o Extra traz o porquê em uma linha (ex.: por que o rotavírus pede dieta sem lactose).",
+  "Linguagem de livro: nomes reais (NSP4, ICAM-1, HPV 16) no lugar de palavras vagas; cloze curto de até três palavras, resposta em negrito.",
+  "Autoral varia entre 1, 2 e 3 clozes conforme o que se quer lembrar; o AnKing é a referência de forma e o autoral só cobre lacuna.",
+  "Contraste em que um lado entrega o outro é anti-exemplar: no mesmo índice ou fora; latência viral × clínica usa um só cloze."
+ ]
+}

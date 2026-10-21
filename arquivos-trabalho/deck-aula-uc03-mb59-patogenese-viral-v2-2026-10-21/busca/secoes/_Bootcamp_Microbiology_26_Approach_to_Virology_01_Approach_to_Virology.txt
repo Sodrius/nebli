@@ -1,0 +1,16 @@
+# #AK_Step1_v12::#Bootcamp::Microbiology::26_Approach_to_Virology::01_Approach_to_Virology (15 notas)
+1502063631440 2-RelativelyHighYield All naked viruses have icosahedral capsids
+1502063652542 3-HighYield-temporary Enveloped viruses can have either an icosahedral or helical shape (whereas naked viruses are all icosahedral)
+1502063700798 1-HighYield Most RNA virus genomes are single-stranded and linear
+1502064066857 3-HighYield-temporary RNA viruses can be distinguished via their polarity , either (+) sense or (-) sense
+1502064208990 3-HighYield-temporary Positive sense RNA viruses carry RNA that is structurally similar to mRNA
+1502065388242 1-HighYield DNA viral genomes can either be circular or linear and are usually double-stranded
+1502152021975 2-RelativelyHighYield Most DNA viruses replicate in the nucleus
+1503857897067 1-HighYield Cytomegalovirus (CMV) is part of the herpesviridae family
+1506297430747 1-HighYield Measles is also known as rubeola
+1506299172244 1-HighYield Measles virus commonly presents with Warthin-Finkeldey giant cells
+1506299351809 1-HighYield Treatment of which virus can benefit from vitamin A supplementation ? Measles
+1516239674955 1-HighYield Measles (rubeola) is a negative-sense RNA virus that presents with a rash that starts on the face and moves downwards
+1516320850504 2-RelativelyHighYield Negative sense RNA viruses produce their own RNA polymerase to transcribe into positive sense RNA
+1516320933265 1-HighYield Most RNA viruses are single* -stranded
+1516321076508 2-RelativelyHighYield RNA viruses usually replicate in the cytoplasm

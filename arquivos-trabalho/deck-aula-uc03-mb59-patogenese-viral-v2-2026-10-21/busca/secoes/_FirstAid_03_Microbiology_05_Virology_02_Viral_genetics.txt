@@ -1,0 +1,17 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::02_Viral_genetics (16 notas)
+1500738431745 2-RelativelyHighYield Transduction describes the transfer of DNA from one bacteria to another via a bacteriophage
+1500739563441 2-RelativelyHighYield The lytic cycle is when a phage injects nuclear material into preexisting bacterial DNA, multiplies, and then lyses the cell , releasing the new viruses
+1500739784197 2-RelativelyHighYield The lysogenic cycle is when a phage injects nuclear material into preexisting bacterial DNA and it is incorporated into the host DNA
+1500739908171 5-LowYield Phages that only replicate via the lytic cycle are known as virulent
+1500739979224 5-LowYield Phages that replicate via both the lytic and lysogenic cycle are known as temperate
+1523805515855 2-RelativelyHighYield Which viral genetic phenomenon is characterized by virus A receiving nucleocapsid proteins from virus B intracellularly ? Phenotypic mixing
+1523806102995 2-RelativelyHighYield Which viral genetic phenomenon is characterized by virus A and virus B exchanging genes between two chromosomes ? Recombination
+1523806216737 2-RelativelyHighYield Which viral genetic phenomenon is characterized by virus A and virus B exchanging genomic segments intracellularly ? Reassortment
+1523806268806 3-HighYield-temporary Which viral genetic phenomenon is characterized by virus A providing a functional protein to replace the nonfunctional virus B protein? Complementation
+1523806341324 1-HighYield Which viral genetic phenomenon can cause antigenic shift ? Reassortment
+1523806372994 4-LowerYield Which viral genetic phenomenon is exhibited by HBV providing HBsAg for HDV ? Complementation
+1523806413782 3-HighYield-temporary During viral phenotypic mixing , will the viral progeny display changes? No
+1523806572714 3-HighYield-temporary During viral recombination , will the viral progeny display changes? Yes
+1523806616492 3-HighYield-temporary During viral reassortment , will the viral progeny display changes? Yes
+1523806626724 2-RelativelyHighYield Which viral genetic phenomenon is exhibited by acquisition of a new viral surface protein (e.g., sialic acid receptors)? Phenotypic mixing
+1523926575639 1-HighYield Which viral genetic phenomenon occurs in segmented viruses ? Reassortment

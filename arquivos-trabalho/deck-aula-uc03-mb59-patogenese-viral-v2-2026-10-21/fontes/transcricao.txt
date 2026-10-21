@@ -1,0 +1,1053 @@
+===== página 1 =====
+
+===== página 2 =====
+Vamos começar com a segunda metade do nosso curso e iniciar a falar
+sobre as infecções virais e as consequências das infecções, como, por
+exemplo, causar doença. Hoje vamos falar um pouco sobre a infecção
+do hospedeiro suscetível.
+
+===== página 3 =====
+
+===== página 4 =====
+Nesse momento, é muito bom relembrar a deﬁnição de vírus. Lembrar
+que os vírus são parasitas intracelulares obrigatórios e, portanto, são
+parasitas obrigatórios de tecidos e órgãos dentro de um organismo
+multicelular.
+
+===== página 5 =====
+
+===== página 6 =====
+Nesse momento, também é importante introduzir o conceito de
+infecção. Infecção é o mecanismo através do qual o vírus introduz seu
+material genético na célula.
+Dessa maneira, reconhecemos dois tipos principais de infecção: a
+infecção produtiva, na qual novos vírus infecciosos são produzidos, e a
+infecção abortiva, na qual não são produzidos novos vírus infecciosos,
+embora o vírus tenha conseguido penetrar na célula-alvo.
+É importante introduzir um princípio importante: a infecção
+não é sempre equivalente à doença. Muitos processos infecciosos
+acontecem sem que existam manifestações clínicas de tal infecção.
+
+===== página 7 =====
+
+===== página 8 =====
+Então, vamos começar falando um pouco sobre as portas de entrada
+e disseminação viral, dessa maneira complementar com a informação
+dos capítulos que vocês vão ler no livro.
+
+===== página 9 =====
+
+===== página 10 =====
+A principal porta de entrada, deﬁnitivamente, é a mucosa do sistema
+respiratório. Mas existem várias portas de entrada, certo? Temos a
+mucosa do sistema respiratório, a mucosa do sistema digestório e
+urinário, a conjuntiva e a córnea. A pele é potencialmente uma porta
+de entrada principal de vírus, sangue através do seu acesso por
+agulhas, picada de insetos, transfusões, etc. E a via sexual como outra
+via alternativa de transmissão de patógenos virais.
+
+===== página 11 =====
+
+===== página 12 =====
+A via respiratória, no entanto, é a mais comum, como já dissemos.
+Isso tem a ver com o fato de a via respiratória compor uma superfície
+muito grande. Se esticássemos a superfície do pulmão, ela equivaleria
+a uma área de 140 metros quadrados. Para vocês terem uma ideia, seria
+uma área de 14 metros por 10 metros, uma área muito grande.
+No entanto, nessas regiões existem mecanismos de defesa muito
+aprimorados, como, por exemplo, a existência de um epitélio
+mucociliar com células ciliadas, células que secretam muco, linfócitos,
+macrófagos. Nosso sistema imune também produz imunoglobulina A,
+que é um tipo de imunoglobulina muito abundante nas mucosas e que
+tem a função de nos proteger contra patógenos.
+No entanto, muitos vírus utilizam a via respiratória como principal
+via de acesso ao organismo. Então, por exemplo, muitos vírus são
+transmitidos a partir de aerossóis, como, por exemplo, o vírus
+inﬂuenza ou coronavírus, que hoje estão em evidência, ou através de
+contatos diretos, como através de, por exemplo, mãos contaminadas,
+fômites contaminados, como, por exemplo, os rinovírus.
+A infecção causada pelos vírus que entram pelo trato respiratório
+pode ser uma infecção localizada, como típica dos rinovírus, que é o
+vírus do resfriado, e que tem um tropismo, que vamos deﬁnir mais
+para frente, por células da mucosa das vias respiratórias superiores,
+causando uma infecção localizada, ou infecções sistêmicas, como, por
+exemplo, o vírus inﬂuenza, que além de entrar pelo trato respiratório,
+é capaz de se espalhar a outros órgãos do corpo.
+Outro vírus que é transmitido pela via respiratória e se espalha para
+outros órgãos do corpo é o vírus do sarampo, por exemplo, que tem
+transmissão respiratória, mas tem manifestações em outros órgãos,
+como, por exemplo, o rash cutâneo causado pela multiplicação do
+vírus na periferia do organismo.
+
+===== página 13 =====
+
+===== página 14 =====
+Então, dizemos que a entrada pela via do trato respiratório é uma
+das mais comumente utilizadas pelos vírus. O trato respiratório
+pode ser dividido em trato respiratório superior, médio ou inferior,
+e dependendo da região anatômica do trato respiratório que
+considerarmos, temos diferentes vírus que têm tropismo por essas
+diferentes regiões.
+Por exemplo, o trato respiratório superior é colonizado
+por rinovírus, coronavírus, vírus parainﬂuenza, vírus sincicial
+respiratório, vírus inﬂuenza, adenovírus, herpesvírus, vírus Epstein-
+Barr. Já as vias intermediárias ou inferiores são alvo de infecção
+por outros vírus, como, por exemplo, também parainﬂuenza, vírus
+sincicial respiratório, vírus inﬂuenza e adenovírus.
+Vocês podem observar que, dependendo da região onde o vírus
+causa infecção, teremos manifestações clínicas diferentes, como
+rinite, faringite, laringite, se o vírus replica na região do epitélio da
+nasofaringe, da faringe, da laringe. E, na medida que vamos afundando
+no sistema respiratório, temos quadros clínicos um pouco mais
+severos, como traqueíte, bronquite, bronquiolite e broncopneumonia.
+
+===== página 15 =====
+
+===== página 16 =====
+A disseminação viral através da via respiratória se dá pela utilização
+de receptores, que são moléculas muito expressas nos epitélios
+respiratórios, como as moléculas de ICAM, que são moléculas de
+adesão entre as células epiteliais, utilizadas pelos rinovírus, ou as
+moléculas CAR, que se localizam também na região basolateral desse
+epitélio ciliado.
+Essa molécula CAR, que leva o nome de Coxsackie-Adenovirus
+Receptor, é precisamente utilizada por Coxsackie vírus, que são tipos
+de enterovírus, e adenovírus, que utilizam esses componentes dessas
+uniões de tipo tight para acessar a célula-alvo.
+
+===== página 17 =====
+
+===== página 18 =====
+Imaginem que um adenovírus interage com essas moléculas e o
+que pode acontecer é a desestruturação do epitélio, nesse caso do
+epitélio respiratório, e dessa maneira a perda de função desse epitélio,
+causando os sintomas característicos, normalmente leves, mas que
+podem evoluir para sintomas severos dependendo do vírus.
+Outra via de entrada ao organismo muito utilizada por vírus é a via
+do trato alimentar. É uma via extremamente utilizada porque é uma
+via que utilizamos para nosso contato permanente com o exterior.
+Falamos da via respiratória. Se vocês pensarem, respiramos muitas
+vezes por minuto ao longo do dia. Mas a via do trato alimentar
+também é importante porque nos comunicamos muito com o exterior
+através dessa via, ingerimos alimentos, bebemos água todos os dias e
+por isso é uma via importante de acesso de agentes patogênicos ou de
+infecções virais de maneira geral.
+Uma consideração importante é que os vírus que penetram e se
+multiplicam no trato alimentar precisam ser resistentes a variações de
+pH, à ação de enzimas digestivas e às condições ambientais extremas
+que existem dentro da nossa via digestiva.
+Por exemplo, temos um estômago que tem um pH extremamente
+ácido e, de repente, passamos para o intestino delgado, onde os sais
+biliares e os sucos digestivos que se encontram ali conferem um
+ambiente com um pH extremamente básico. Então, esses vírus têm
+que estar extremamente adaptados a esse tipo de mudanças e ser
+extremamente resistentes às condições do ambiente.
+O epitélio intestinal é recoberto por células polarizadas de maneira
+semelhante ao que vimos para o trato respiratório, que são colunares
+e com microvilosidades e são uma excelente barreira. No entanto,
+muitos vírus utilizam esse local como local primário de replicação.
+Da mesma maneira que acontecia para os vírus que entravam
+pelas vias respiratórias, os vírus que entram pela via digestiva,
+chamados coletivamente de vírus entéricos, podem causar infecções
+localizadas, como, por exemplo, rotavírus, norovírus e coronavírus,
+que estão associados a diarreias, ou infecções sistêmicas, como, por
+exemplo, alguns enterovírus, como o vírus da poliomielite e o vírus
+da hepatite A, que utilizam o epitélio intestinal como via primária de
+entrada, local primário de replicação, mas que depois se propagam
+via hematogênica a outros órgãos do corpo, no caso do vírus da
+poliomielite, para o sistema nervoso central, e no caso do vírus da
+hepatite A, para o fígado.
+
+===== página 19 =====
+
+===== página 20 =====
+Outros vírus, como o reovírus e o adenovírus, também podem causar
+infecções sistêmicas, ou seja, utilizam o epitélio intestinal como local
+primário de replicação, mas depois podem se propagar e replicar em
+outros órgãos do corpo.
+Isso está resumido nessa ﬁgura, onde é mostrado o sítio inicial de
+replicação, por exemplo, na pele, nas mucosas, no trato respiratório,
+no sistema gastrointestinal. Esse pode ser o local de entrada de muitos
+vírus que utilizam esse local como sítio de replicação primária. Alguns
+vírus causam infecções localizadas, replicam ali e são liberados.
+Por exemplo, se pensarmos em papilomavírus, os papilomavírus
+infectam pele e mucosa, replicam ali e são liberados ao exterior.
+Se pensarmos em rinovírus, vírus do resfriado, eles também entram
+em contato com a mucosa respiratória, replicam ali e são liberados
+para o exterior. O mesmo acontece com vírus associados a diarreias,
+como rotavírus e norovírus, que são capazes de replicar no epitélio
+intestinal e são liberados pelas fezes ao exterior, contaminando outros
+indivíduos.
+Mas há outros vírus que utilizam os epitélios como local inicial
+de infecção, replicam ali e passam para a corrente sanguínea,
+dispersando-se para outros órgãos do corpo, onde acontece uma
+segunda onda de replicação.
+A pele, nesse caso, ou as mucosas, seria um sítio primário de
+replicação e, através do sangue, eles chegariam aos outros órgãos,
+onde seria o sítio secundário de replicação. Daí, esses vírus podem ser
+liberados ao exterior ou, de novo, entrar na corrente sanguínea e ir
+aos locais ﬁnais de replicação, onde exercerão seu efeito e a partir dos
+quais serão liberados.
+Por exemplo, o vírus varicela-zóster entra pela via respiratória, mas
+acaba tendo manifestações cutâneas. Outros vírus vão replicar nos
+pulmões, outros nos rins e serão liberados pela urina, outros vão para
+o sistema gastrointestinal e são eliminados pelas fezes, outros vão para
+o sistema nervoso central.
+A trajetória, desde o local inicial de infecção até o local ﬁnal, que
+pode ser o mesmo, vai depender do tipo viral. Alguns vírus causam
+infecções localizadas, outros causam infecções sistêmicas.
+Quando um vírus ganha a corrente sanguínea e conseguimos
+detectá-lo no sangue, chamamos esse processo de viremia.
+
+===== página 21 =====
+
+===== página 22 =====
+Então, quando falamos que o vírus causou uma viremia, signiﬁca que
+o vírus entrou no sangue e se espalhou por via hematogênica a outros
+locais do organismo.
+Após a entrada na corrente sanguínea, os vírus são capazes de se
+disseminar por via hematogênica. Isso é especíﬁco para alguns vírus.
+A presença de vírus no sangue, chamada viremia, pode ser causada
+por vírus livres no soro ou que estão dentro de células, comumente
+linfócitos, monócitos ou outros leucócitos que podem estar na
+corrente sanguínea. Os vírus, nesse caso, passam do epitélio para o
+sangue via sistema linfático.
+A viremia, ou seja, a detecção dos vírus no sangue, pode ser ativa
+como consequência da replicação do vírus nos órgãos e a chegada
+na corrente sanguínea, ou passiva, causada pela injeção do vírus no
+sangue.
+Temos, por exemplo, viremia passiva quando recebemos uma
+transfusão contaminada, quando utilizamos drogas injetáveis
+contaminadas e o vírus ganha o sangue, ou quando somos picados
+por um mosquito transmissor da dengue, febre amarela, zika,
+chikungunya ou qualquer outro vírus que possa ser transmitido por
+vetores artrópodes.
+Esse é um tipo de viremia passiva. A viremia passiva também pode
+ocorrer pela entrada na nossa corrente sanguínea por mordida de
+cachorro com raiva. Esses são os tipos de viremia passiva, ou seja, não
+é consequência da replicação do vírus, mas sim da injeção do vírus
+dentro do nosso organismo.
+
+===== página 23 =====
+
+===== página 24 =====
+
+===== página 25 =====
+Nesse momento, é interessante falar um pouco sobre os padrões de
+infecção viral para introduzir esse conceito que será explorado em
+maior detalhe nas próximas aulas. As infecções, como já falamos,
+podem ser produtivas ou abortivas. Dentro das infecções produtivas,
+ou seja, aquelas que vão gerar a produção de novas partículas virais,
+temos dois tipos de infecções: as infecções agudas e as infecções
+crônicas.
+As infecções agudas se diferenciam das crônicas principalmente
+pela duração. As infecções agudas são restritas no tempo, enquanto
+nas infecções crônicas, como o nome bem diz, a infecção é persistente
+e dura muito tempo. Essa infecção persistente pode ser caracterizada
+por replicação viral contínua ou pelo estabelecimento de latência viral
+em alguns casos, particularmente na família dos herpesvírus, com
+alguns eventos de reativação da replicação viral.
+Mas o ponto é que as infecções agudas têm um começo, meio
+e ﬁm, caracterizado geralmente pela eliminação do vírus, mas pode
+ser pela eliminação do hospedeiro também. As infecções crônicas são
+caracterizadas pela coexistência entre o vírus e o hospedeiro.
+
+===== página 26 =====
+
+===== página 27 =====
+São infecções caracterizadas pela sua duração, durando por longos
+períodos, muitas vezes a duração inteira da vida do indivíduo.
+Aqui temos alguns exemplos de padrões de infecção viral. Temos
+a infecção aguda, caracterizada por um início, um aumento de carga
+viral e a queda posterior de carga viral até a eliminação da infecção
+ou a eliminação do indivíduo.
+Depois temos quatro tipos de padrões de infecção viral que
+podemos chamar de crônicos: as infecções latentes, características
+dos herpesvírus, onde existe um evento inicial de infecção, muito
+parecido com a infecção aguda, depois essa carga viral cai até níveis
+indetectáveis, ou seja, aqui não existe replicação viral, e existem
+eventos esporádicos de reativação dessa replicação, que normalmente
+atingem carga viral muito menor que a infecção inicial, precisamente
+porque agora nosso sistema imune já é capaz de controlar essa
+infecção. Quem já teve herpes labial, ou conhece alguém que teve
+herpes labial, tem uma visão muito ilustrativa desses eventos. Tem
+a infecção inicial com manifestações esporádicas desse processo de
+replicação.
+Temos também o padrão conhecido como padrão progressivo,
+onde acontece uma infecção inicial com aumento de carga viral.
+Vocês podem observar que todas as primeiras infecções, as infecções
+iniciadas por qualquer tipo de vírus, têm um padrão parecido à
+infecção aguda. O que acontece depois é o que diferencia os padrões
+de infecção.
+No caso da infecção progressiva, temos esse evento inicial,
+aumento de carga viral, posteriormente queda de carga viral até um
+determinado momento, essa carga viral se mantém mais ou menos
+constante por um tempo, mas progressivamente vai aumentando,
+aumentando, até que ﬁnalmente o vírus ganha e acaba matando o
+hospedeiro.
+Temos outro padrão de infecção chamado crônico persistente, onde
+também começa tudo com um pico de carga viral, depois essa carga
+viral cai um pouco, mas estabiliza e ﬁca mais ou menos constante por
+longos períodos sem aumento progressivo. É mais ou menos uma taxa
+de replicação constante.
+Finalmente, temos esse padrão, que talvez seja mais difícil
+de explicar, mas que também inicia como uma infecção inicial
+caracterizada por uma alta carga viral, depois essa carga viral cai, mas
+não detectamos a replicação viral, mas se procurarmos, o material
+genético do vírus se encontra ali.
+É uma clara indicação de que o vírus não foi eliminado
+completamente, no entanto, não se observa nenhuma atividade
+do vírus. Isso é caracterizado, às vezes, por algumas infecções
+persistentes, por alguns papilomavírus humanos que ﬁcam de
+maneira… eu não gosto de falar latente, porque latência é uma
+característica dos herpesvírus, mas ﬁcam, de alguma maneira,
+inibidos, presos dentro da partícula dentro do organismo e não
+conseguem ser eliminados, mas também não conseguem produzir
+novas partículas virais.
+Todos esses padrões, particularmente esses daqui e aqui, podem
+acontecer na ausência de sintomas, tá?
+
+===== página 28 =====
+
+===== página 29 =====
+Muito bem, então vamos falar um pouquinho sobre esses padrões e as
+suas características.
+As infecções agudas são caracterizadas pela sua restrição no tempo.
+Todo mundo já esteve resfriado alguma vez, mas sabe que o resfriado
+dura poucos dias. O rinovírus, inﬂuenza, diarreia por rotavírus,
+meningite causada por enterovírus são infecções de curta duração, e
+geralmente são ﬁnalizadas com a eliminação do vírus.
+
+===== página 30 =====
+
+===== página 31 =====
+Já as infecções crônicas têm um perﬁl diferente, duram no tempo.
+Aqui temos o padrão latente de infecção característico dos herpes
+vírus, do herpes simplex, do vírus Epstein-Barr, o citomegalovírus,
+do vírus da varicela. São caracterizados pelo estabelecimento de
+um processo chamado latência viral, que representa o estado
+transcricional e traducional único do vírus. O ciclo produtivo não
+funciona, mas pode ser ativado a qualquer momento.
+Se eu perguntar na prova, por favor, façam um desenho do padrão
+latente de infecção característica dos herpesvírus. Quero que vocês
+desenhem esses picos de replicação viral, mas sempre voltando ao
+basal, zero, onde não existe replicação viral. Caracterizado esses
+intervalos por eventos eventuais de reativação, depois um intervalo
+novamente de quiescência, de latência viral, e reativação e assim por
+diante ao longo do tempo.
+
+===== página 32 =====
+
+===== página 33 =====
+Esse é o padrão característico, como já disse, dos herpesvírus. Por
+exemplo, o herpes simples inicia sua infecção através da mucosa da
+região oral, transmitido por via respiratória, por via bucal.
+O vírus infecta o epitélio, estabelece ciclo lítico ali, e dali passa para
+os neurônios que inervam esses epitélios. No neurônio, ele muda o
+programa viral e, ao invés de estabelecer ciclo lítico, estabelece um
+ciclo de latência, e ele ﬁca latente dentro dos neurônios por muito
+tempo.
+Eventualmente, existe um processo de reativação por estímulos
+ainda não muito bem compreendidos, mas muitas vezes relacionados
+ao estresse do hospedeiro e da célula hospedeira. O vírus é reativado,
+começa a expressar uma série particular de genes, produz algumas
+partículas virais que agora voltam, fazem o caminho inverso através
+do axônio, pulam para a célula epitelial e, nessa célula epitelial,
+estabelecem ciclo lítico e são liberados para o exterior.
+
+===== página 34 =====
+
+===== página 35 =====
+Esse padrão pode ser muito mais complexo, dependendo do tipo viral.
+Para o herpes simples, é relativamente fácil. Para o vírus Epstein-
+Barr, ele é muito mais complicado. O vírus Epstein-Barr é também um
+herpesvírus, transmitido pela saliva, e é causador de doenças como
+a mononucleose infecciosa, mas pode estar associado a carcinoma
+nasofaríngeo, linfoma de Burkitt, doença de Hodgkin.
+Como falei, é um vírus transmitido pela saliva e, de maneira
+semelhante ao herpes simples, inicia seu processo infeccioso
+infectando as células do epitélio da nasofaringe e da mucosa da
+orofaringe. A partir dali, estabelece ciclo lítico nas células epiteliais,
+mas depois infecta outro tipo celular.
+Essa é a característica dos herpesvírus: estabelecer ciclo lítico em
+um tipo celular e latência em um segundo tipo celular. Nesse caso, o
+segundo tipo celular são linfócitos B de memória.
+Quem estuda imunologia sabe que, independentemente de qualquer
+coisa, um linfócito vai se comportar de maneira diferente dependendo
+da região do organismo em que estiver. Se ele está no linfonodo,
+na circulação periférica, no centro germinativo, esses linfócitos B,
+embora sejam linfócitos B, têm características um pouco diferentes.
+Aparentemente, o vírus Epstein-Barr é capaz de perceber essas
+alterações ao ponto de que não estabelece um único tipo de latência,
+mas quatro tipos de latência.
+Quando a célula B está proliferando, o vírus estabelece latência 3,
+caracterizada pela expressão desses genes virais. Quando o linfócito
+B está diferenciando, o vírus estabelece um tipo de latência chamado
+latência 2, caracterizada pela expressão desses genes.
+Quando o linfócito B está na circulação sanguínea, dependendo
+do estado em que o linfócito se encontrar, o vírus pode estabelecer
+latência tipo 1, onde são expressadas essas proteínas virais, ou latência
+0, quando a célula de memória, aquela responsável por nos proteger
+por longos períodos de tempo, encontra o vírus, estabelece um tipo
+de latência chamada latência zero, caracterizada pela ausência de
+expressão de qualquer proteína viral. Apenas são expressos alguns
+RNAs virais. Nesse contexto, o vírus é literalmente invisível ao
+sistema imune, um mecanismo importante para a persistência do
+vírus dentro do organismo.
+
+===== página 36 =====
+
+===== página 37 =====
+Os padrões de infecção aguda e crônica se diferenciam pela sua
+duração. A infecção latente dura por longos períodos. Normalmente,
+quando adquirimos uma infecção por herpesvírus, a adquirimos no
+começo das nossas vidas e morremos com essas infecções virais
+muitas décadas depois.
+Outro padrão de infecção crônico ou persistente é precisamente
+esse conhecido como padrão crônico ou persistente, onde não
+existem esses eventos de reativação, caracterizado por uma produção
+relativamente constante de partículas virais.
+
+===== página 38 =====
+
+===== página 39 =====
+Esse é um padrão que caracteriza alguns vírus, como por exemplo o
+vírus da hepatite B. O vírus da hepatite B é extremamente interessante
+porque pode estabelecer dois padrões de infecção.
+Normalmente, nos indivíduos adultos expostos a esse vírus, o vírus
+da hepatite B tem um padrão de infecção aguda. Em 90% dos casos, o
+vírus infecta o indivíduo, replica, e depois de um período de tempo, o
+sistema imune começa a controlar essa infecção e a carga viral começa
+a cair até ser eliminada. Esse período normalmente demora uns seis
+meses.
+Vejam como o padrão agudo varia em duração de vírus para vírus.
+Ninguém ﬁca resfriado por seis meses, mas podemos ﬁcar com uma
+hepatite aguda por seis meses. Quando o sistema imune começa a
+reagir e a causar o dano hepático tentando eliminar a partícula viral,
+enzimas hepáticas são detectadas no sangue, temos todo o quadro
+clínico da icterícia, a prostração, características desse vírus, mas acaba
+com a eliminação do vírus e com a recuperação do indivíduo.
+Em 10% dos indivíduos adultos infectados pelo vírus da hepatite B,
+e em quase 90% das crianças que nascem de mães infectadas com o
+vírus da hepatite B, o padrão estabelecido é outro, o padrão crônico.
+E vejam como mudou a janela de tempo aqui. Estamos falando em
+meses, agora estamos falando em anos.
+
+===== página 40 =====
+
+===== página 41 =====
+Vejam a carga viral mais ou menos existindo uma replicação constante
+do vírus, com oscilações, sim, mas vejam essas oscilações como
+são dadas. Aumento de lesão hepática, caracterizado pela presença
+das transaminases hepáticas no sangue. Existe um balanço entre a
+produção viral e a resposta imune do hospedeiro. Mas vejam que essa
+é uma infecção que dura décadas. Essa é a hepatite crônica, típica e
+característica desse padrão de infecção.
+Outro vírus da hepatite, o vírus da hepatite C, também é capaz
+de causar infecções com padrão agudo, mas na grande maioria dos
+casos ele causa infecções crônicas, caracterizadas pela detecção do
+genoma viral de maneira persistente e constante por longos períodos
+de tempo.
+
+===== página 42 =====
+
+===== página 43 =====
+
+===== página 44 =====
+Vou acabar de falar dos padrões de infecção falando do padrão de
+infecção progressiva. O padrão de infecção progressiva é outro padrão
+crônico de infecção que se inicia também com um perﬁl semelhante
+à infecção aguda, uma queda da carga viral e depois a replicação
+constante do vírus que vai aumentando ao longo do tempo até
+ocasionar a morte do indivíduo.
+
+===== página 45 =====
+
+===== página 46 =====
+O padrão de infecção progressiva é característico do vírus HIV. Não
+vou entrar em muito detalhe nisso agora, porque teremos nossa aula
+especíﬁca sobre patogênese do HIV.
+Resumidamente, aqui em vermelho, temos as cópias do genoma de
+HIV. Após a infecção inicial, veja a janela de tempo em semanas,
+após a exposição inicial, a carga viral aumenta, em paralelo com
+isso, o número de células-alvo de linfócitos TCD4 cai, mas existe um
+controle inicial por parte do nosso sistema imune e a carga viral cai
+com recuperação parcial dos níveis de linfócitos TCD4. Estabelece-se,
+por um bom tempo, um processo chamado de latência clínica. Esse
+conceito de latência clínica está aqui para complicar a vida de vocês,
+porque falei de latência viral quando falei dos herpesvírus.
+A latência viral, vocês lembram o que era? O herpesvírus
+ligava ou desligava a sua capacidade de replicar, dependendo das
+circunstâncias. Isso é muito diferente do que está acontecendo aqui.
+A latência clínica é caracterizada por ausência de sintomas, mas
+o vírus, vejam vocês, primeiro em semanas, depois em anos, está
+replicando constantemente durante esse processo de latência clínica.
+Não há sintomas característicos, mas há replicação viral constante.
+Até que, em um determinado momento, a queda de braço entre o
+sistema imune e a replicação viral é vencida pelo vírus. A carga
+viral aumenta muito porque os linfócitos TCD4 caem abaixo de um
+determinado patamar. Estabelece-se a síndrome de imunodeﬁciência
+adquirida, acontecem infecções oportunistas e isso leva à morte do
+indivíduo.
+Na etapa ﬁnal da fase aguda da infecção, existe esse ponto que tem
+relevância clínica, que é o set point, que determina o nível até o qual a
+carga viral cai após a infecção inicial. Dependendo da magnitude desse
+set point, quanto mais baixo for, quanto menor for a carga residual
+após a infecção inicial, quanto melhor for a resposta do nosso sistema
+imune, mais o indivíduo vai demorar em evoluir para a síndrome de
+deﬁciência adquirida.
+
+===== página 47 =====
+
+===== página 48 =====
+Esse é o padrão de infecção progressiva característica do vírus da
+imunodeﬁciência humana.
+Esse slide é simplesmente para mostrar que existem diferentes
+padrões de infecção viral, como por exemplo o padrão agudo aqui
+no pontilhado, o padrão latente aqui em amarelo com a reativação, o
+padrão persistente, aqui em roxo, com carga viral mantida por muito
+tempo, e o padrão progressivo, aqui nessa cor marrom alaranjado,
+característico do vírus inﬂuenza, que vai ﬁcar controlado por muito
+tempo, mas que depois vai começar a subir gradativamente.
+O padrão de infecção é característico de cada tipo viral. Nenhum
+vírus inﬂuenza causa padrão crônico de infecção, tá bom? E,
+basicamente, todos os herpesvírus causam padrão de infecção latente.
+O padrão de infecção é característica de cada família viral, de cada
+tipo viral.
+
+===== página 49 =====
+
+===== página 50 =====
+Do que dependem esses padrões? Do tipo de vírus. Tem vírus mais
+virulentos, que tendem, muitas vezes, ou têm a capacidade de persistir
+por mais tempo. Depende do tropismo. Diﬁcilmente um vírus que
+infecta uma célula epitelial do intestino, que vai descamar e ser
+eliminada periodicamente, pode persistir por muito tempo.
+Mas, por exemplo, a persistência do vírus em um neurônio ou em
+uma célula B de memória que vive muito tempo faz com que o vírus
+estabeleça um padrão de infecção viral que pode se croniﬁcar.
+A via de transmissão também determina o padrão de infecção.
+Falamos, por exemplo, no caso do vírus da hepatite B. A infecção
+de indivíduos adultos por via hematogênica ou por acidentes com
+material pérfuro-cortante contaminado causa infecções agudas em
+90% dos indivíduos e crônicas em 10% dos indivíduos. Já quando a
+transmissão acontece pela via vertical, de mãe para ﬁlho, há uma
+maior proporção de indivíduos com infecções crônicas.
+A resposta do hospedeiro vai determinar se uma infecção vai se
+estabelecer e tem o potencial de croniﬁcar e se manifestar.
+
+===== página 51 =====
+
+===== página 52 =====
+Normalmente, as infecções agudas são controladas pela nossa
+resposta imune inata, enquanto as infecções crônicas são controladas
+pela resposta adaptativa. Quando o sistema imune não consegue
+eliminar a infecção viral, adaptamo-nos a conviver com essa infecção.
+Para estabelecer uma infecção crônica, os vírus têm que ter
+mecanismos de evasão.
+
+===== página 53 =====
+
+===== página 54 =====
+É importante diferenciar a infecção do potencial patogênico de um
+vírus. Podemos passar muito tempo sendo infectados por vírus e não
+ter qualquer manifestação clínica. O que vai determinar a existência
+de patogênese viral ou a capacidade de um vírus causar doença? O
+tipo de vírus.
+Não adianta entrar em exemplos muito elaborados nesse momento,
+mas é bom que saibam que hoje em dia, na cidade de São Paulo,
+até dezembro do ano passado, existiam quatro tipos de coronavírus
+circulando de maneira sazonal, causando resfriados. Normalmente,
+ninguém dava a mínima por esses vírus. Hoje em dia, temos o
+SARS-CoV-2, causando a COVID-19, que é um coronavírus também,
+mas com um potencial patogênico muito maior do que os outros
+coronavírus que estão circulando por aí. O tipo de vírus tem a ver com
+o potencial patogênico e a severidade da doença causada.
+Outros exemplos são os papilomavírus humanos. Alguns causam
+verrugas e outros tipos causam câncer. Outra questão importante é
+o efeito do vírus em diferentes espécies. Por exemplo, há muitos
+morcegos infectados pelo vírus da raiva ou por outros vírus muito
+virulentos para os seres humanos, mas que aparentemente não têm
+efeito deletério ou muito patogênico nos morcegos.
+Cada indivíduo tem uma particularidade que pode ter um papel
+importante nessa tríade entre a infecção viral, o indivíduo e a doença
+e sua severidade. 80% dos indivíduos infectados pelo SARS-CoV-2
+não têm sintomas. Obviamente, existe alguma diferença entre esses
+indivíduos e os 20% que manifestam sintomas.
+A via de infecção pode ser determinante em alguns casos para a
+doença e a severidade causada por um tipo viral.
+
+===== página 55 =====
+
+===== página 56 =====
+Infecção não é sinônimo de doença, mas mecanismos importantes
+podem 
+ser 
+elucidados 
+ao 
+comparar 
+indivíduos 
+infectados
+assintomáticos com indivíduos infectados que têm manifestação
+clínica.
+
+===== página 57 =====
+
+===== página 58 =====
+A patogênese viral pode se manifestar de diferentes maneiras, como
+destruição do tecido infectado, indução e secreção de citocinas
+inﬂamatórias, o que pode causar um quadro inﬂamatório severo, como
+pode ser visto em alguns casos na COVID-19, mas também em casos
+graves de inﬂuenza e outras infecções virais, que podem dar passo a
+eventos imunopatogênicos, onde a resposta inﬂamatória é a que causa
+o grande problema.
+Alguns vírus não chegam a destruir os tecidos, mas podem alterar
+a função celular da célula que estão infectando.
+Por exemplo, alguns vírus do sistema digestivo infectam as células
+do epitélio intestinal, alterando sua função e causando diarréias.
+Existe pelo menos um caso de efeito parácrino descrito para vírus, por
+exemplo, nos rotavírus. As células infectadas por rotavírus produzem
+uma proteína viral que tem efeito nas células vizinhas que são
+saudáveis, que não estão infectadas.
+E alguns vírus podem causar a indução de tumores, ou seja, um
+em cada seis, um em cada cinco tumores em humanos é causado
+por infecção por alguns tipos virais. Então, quando a gente estuda a
+patogênese viral, procura deﬁnir em termos moleculares a diferença
+entre infecção e doença. Já falamos sobre a deﬁnição de infecção,
+então não vou me deter nesse slide, mas lembrar que existem esses
+dois tipos e que o estabelecimento de uma infecção em um indivíduo
+vai depender da susceptibilidade.
+
+===== página 59 =====
+
+===== página 60 =====
+O que é a susceptibilidade? Bom, a existência de receptores para
+o vírus. Então, os vírus, vocês sabem que para causar infecção,
+eles precisam atravessar pelo menos uma membrana. Pode ser a
+membrana plasmática, pode ser a membrana do endossomo. Mas eles
+só vão fazer isso nas células-alvo. E quais são as células-alvo? As
+células-alvo são aquelas que expressam receptores precedidos. Além
+disso, não adianta entrar em uma célula se essa célula não tiver um
+ambiente apropriado para replicação viral.
+Então, imagine um vírus entrando numa hemácia. A hemácia tem
+uma riqueza de moléculas na sua superfície muito grande. E alguns
+vírus podem reconhecer moléculas na superfície das hemácias e
+eventualmente entrar numa hemácia. Mas dentro das hemácias só tem
+hemoglobina. Então, como o vírus vai replicar seu material genético?
+Como o vírus vai sintetizar suas proteínas? Ele não pode. Por quê?
+Porque essa célula não é permissiva. Então, a permissividade é outro
+fator importante que vai determinar o sucesso da infecção viral.
+E como é deﬁnida a permissividade? Como a presença de fatores
+celulares que permitam a replicação viral eﬁciente.
+Pensando em replicação viral em termos gerais, não apenas de
+replicação do ácido nucleico, mas em multiplicação da partícula viral
+com síntese dos componentes virais. Obviamente, a infecção viral vai
+ser determinada pela acessibilidade à célula-alvo.
+Então, vamos pensar no vírus da febre amarela, um vírus que causa
+uma infecção extremamente grave. Mas se eu colocar uma preparação
+desse vírus em cima da minha mão, na forma da minha mão, ele não
+vai me causar problemas. Agora, se um mosquito vier e me picar e
+injetar esse vírus na minha corrente sanguínea, vai tornar as células-
+alvo desse vírus acessíveis, permitindo o início de uma infecção.
+E, obviamente, a resposta imune, como a gente já mencionou, tem
+um papel extremamente importante no controle das infecções e na
+determinação do destino das infecções. De maneira geral, indivíduos
+imunossuprimidos têm infecções mais severas. Então, a resposta
+imune vai determinar o estabelecimento, eliminação ou persistência
+da infecção.
+
+===== página 61 =====
+
+===== página 62 =====
+Outra característica que é importante quando a gente fala de infecção
+de indivíduos susceptíveis é a virulência do vírus, que é a capacidade
+relativa de causar doença e que normalmente está associada à
+capacidade replicativa do vírus.
+Existem diferentes tipos de se manifestar virulência, como, por
+exemplo, morte rápida, falência de órgãos, indução de tumores,
+indução de supressão, indução de diarréia, de resfriados, de meningite,
+e encefalite, de inﬂamações em diferentes tipos de tecidos. Então,
+a virulência se manifesta de diferentes maneiras e essas maneiras
+dependem de cada tipo viral.
+
+===== página 63 =====
+
+===== página 64 =====
+Dessa maneira, existem estirpes virulentas que causam doenças,
+como, por exemplo, a gripe espanhola, mas também como, por
+exemplo, o SARS-CoV-2, que são estirpes muito mais virulentas que
+os coronavírus que circulam habitualmente nas populações humanas.
+E existem estirpes virulentas ou atenuadas, que não causam
+doenças, mas são capazes de infectar organismos.
+Esses vírus atenuados muitas vezes são utilizados para criar vacinas
+contra tipos virais, e a gente vai discutir isso na aula de vacinas.
+A virulência vai depender do vírus, algumas variantes virais são
+mais virulentas que outras, exemplo o SARS-CoV-2, comparado com
+os outros coronavírus, a dose ou carga viral recebida pelo hospedeiro.
+Existem já estudos mostrando que dependendo da carga viral recebida
+por um indivíduo, o quadro causado pelo SARS-CoV-2 pode ser mais
+severo do que no caso de cargas virais menores recebidas.
+A via de inoculação, então a gente falou da via de transmissão do
+vírus de hepatite B, então na via vertical de mãe para ﬁlho, ele tem
+maior tendência a causar infecções crônicas, portanto mais virulento,
+e da susceptibilidade do hospedeiro, pode ser pela imunossupressão
+ou por algum fator genético que predisponha o indivíduo à infecção
+por esse vírus.
+
+===== página 65 =====
+
+===== página 66 =====
+A virulência normalmente é manifestada através da expressão de
+fatores de virulência, que são moléculas expressas por vírus que
+permitem que os mesmos tenham maior capacidade replicativa,
+sejam capazes de colonizar um nicho no hospedeiro e possam ser
+transmitidos a outros indivíduos com maior eﬁciência, que evadam
+ou inibam o sistema imune, por exemplo, estabelecendo latência
+ou persistência viral. Ou que sejam diretamente tóxicos, como por
+exemplo a proteína não estrutural 4 dos rotavírus.
+
+===== página 67 =====
+
+===== página 68 =====
+E aqui o exemplo dos rotavírus, são vírus da família Reoviridae, vírus
+não envelopados, com genoma de RNA dupla ﬁta segmentada. O
+rotavírus é a principal causa de diarreia em crianças. A proteína viral
+não estrutural 4, como eu já falei, tem ação semelhante à enterotoxina.
+E esse vírus é capaz de desencadear uma alteração nas células da
+mucosa intestinal, que leva a aumento de cálcio intracelular. Isso leva
+a um aumento da secreção de cloro, e isso está associado à diarreia.
+
+===== página 69 =====
+
+===== página 70 =====
+Então, veja um exemplo aqui, nós temos o vírus, o rotavírus que chega,
+infecta uma célula-alvo, começa a replicar, a presença do rotavírus
+causa um aumento de cálcio intracelular, intracitoplasmático, liberado
+normalmente a partir do retículo endoplasmático.
+Aqui temos a produção da proteína não estrutural 4, que são essas
+coisinhas azuis aqui. Essa proteína não estrutural 4 pode ser liberada
+para a luz do intestino e agir sobre células ainda não infectadas.
+Então, em conjunto, o que acontece? Uma célula infectada e as células
+vizinhas sob a ação da proteína não estrutural 4 aumentam o seu
+potencial interno de cálcio. Esse aumento de cálcio leva à excreção de
+cloro. E quando sai cloro, perdão, quando sai cloro para o exterior da
+célula, esse aumento de pressão osmótica na luz do intestino vai levar
+à saída de água também. E isso vai levar à diarreia.
+Outro efeito da infecção pelo rotavírus é a destruição das células
+produtoras de lactase. E essas células produtoras de lactase agora não
+vão produzir essa enzima que é a que degrada a lactose do leite. Por
+isso que não se pode dar leite para crianças com rotavírus, porque se
+tomarem leite, a lactose do leite vai acumular na luz do intestino, e
+como não vai poder ser degradada, não pode ser absorvida, e ela vai
+ﬁcar ali e vai atrair mais água, piorando o caso de diarreia, causando
+a chamada diarréia osmótica.
+
+===== página 71 =====
+
+===== página 72 =====
+Outro exemplo de virulência é causada pelo vírus inﬂuenza.
+Vocês sabem que a cada ano a gente tem que tomar vacina nova
+contra o vírus inﬂuenza. Por quê? Porque ele é um vírus que varia
+muito.
+Existem diferentes tipos de vírus inﬂuenza, A, B, C, e recentemente
+identiﬁcado o tipo D. Os humanos somos infectados principalmente
+pelos tipos A e B, e quando a gente toma a vacina, toma a vacina
+contra esses dois tipos de vírus.
+Essa aqui é mais ou menos a cara do vírus, com um genoma
+segmentado, vários segmentos de RNA, que compõem o genoma, um
+vírus envelopado, e na superfície tem duas proteínas principais, a
+hemaglutinina, que é em azul, e a neuraminidase, que é em amarelo.
+
+===== página 73 =====
+
+===== página 74 =====
+Periodicamente a gente ouve falar de pandemias de inﬂuenza. Hoje em
+dia, com a pandemia do coronavírus, a gente esquece um pouco das
+pandemias de inﬂuenza, mas vejam que só no século passado foram
+cinco pandemias bem documentadas, a de 1918 a mais severa da gripe
+espanhola com dezenas de milhões de mortes, mas periodicamente
+pandemias causadas por novos tipos de vírus inﬂuenza. A mais
+recente, em 2009, a gripe suína, que é o vírus que circula hoje em dia
+principalmente.
+
+===== página 75 =====
+
+===== página 76 =====
+Mas vocês podem observar que claramente existem diferenças na
+virulência entre os vírus que circulam anualmente e os vírus que
+causam essas pandemias. Um vírus que mata milhões de pessoas,
+obviamente ele tem um potencial patogênico ou de virulência muito
+maior que os vírus sazonais.
+Outro exemplo de diferença de virulência de acordo ao tipo
+de vírus são os papilomavírus humanos. Hoje em dia, mais ou
+menos uns 220 tipos de papilomavírus humanos têm se identiﬁcado,
+aproximadamente uns 40 tipos infectam a mucosa anogenital,
+sobretudo em mulheres, mas também em homens. E dentro desses
+tipos, eles podem ser divididos em duas categorias: os de baixo risco
+oncogênico, que estão associados a lesões de baixo grau e verrugas
+genitais, e os de alto risco oncogênico, que estão associados a lesões de
+alto grau e carcinoma invasivo. Então, claramente, existem diferenças
+de virulência entre esses vírus e esses outros.
+
+===== página 77 =====
+
+===== página 78 =====
+Aqui temos alguns exemplos de verrugas genitais, aqui de
+papilomatoses respiratórias, ou seja, verrugas nas vias aéreas
+causadas por HPV 6 e 11, mostrando que a virulência pode depender
+um pouco da região anatômica infectada pelo vírus.
+Uma verruga genital não causa tanto problema, mas uma verruga
+nas vias aéreas respiratórias pode causar obstrução das vias
+respiratórias e o indivíduo ter que ser submetido à cirurgia para
+eliminar esse papiloma que, caso contrário, ia matar o indivíduo por
+asﬁxia.
+
+===== página 79 =====
+
+===== página 80 =====
+Mas o caso mais típico de manifestação de virulência dos
+papilomavírus é sua associação com o câncer, particularmente com o
+câncer da cérvice uterina. A cérvice uterina é essa região anatômica,
+também chamada colo uterino, que é o que comunica a transição entre
+o canal vaginal e o útero.
+Então, as infecções por alguns tipos de papilomavírus são a
+principal causa etiológica, ou seja, de fato, são a causa etiológica do
+desenvolvimento do carcinoma da cérvice uterina.
+
+===== página 81 =====
+
+===== página 82 =====
+E vejam, existe claramente, mesmo dentro dos tipos associados a
+câncer, uma diferença de virulência. Então, aqui vocês têm mais ou
+menos 12 ou 14 tipos de papilomavírus, que são basicamente os
+causadores de 100% dos cânceres de colo uterino.
+Mas quando a gente vai ver a contribuição relativa de cada um
+desses vírus para o câncer, a gente vê que papilomavírus 16 causa mais
+da metade e que papilomavírus tipo 18 causa mais de 15%. E eles dois
+sozinhos causam 70% de todos os cânceres. Então, obviamente, existe
+alguma diferença de virulência entre esses dois tipos e os outros tipos
+que, embora sejam de alto risco, contribuem com uma fração menor
+dos tumores.
+
+===== página 83 =====
+
+===== página 84 =====
+Outra questão importante no processo de infecção de indivíduos
+por diferentes tipos virais é o tropismo que cada um desses vírus
+possui. Então, a gente começou falando hoje sobre a rota de infecção
+dos vírus respiratórios, mas a gente também parou para pensar que
+existem vírus que se replicam em diferentes regiões do nosso sistema
+respiratório.
+Então, temos os vírus associados a resfriados, faringites, traqueítes,
+pneumonia, bronquiolite, bronquite, dependendo do local onde eles
+repliquem. E alguns vírus podem mudar a sua virulência, por
+exemplo, alguns vírus inﬂuenza mudam a sua virulência por passar
+de utilizar receptores presentes nas vias aéreas superiores para usar
+preferencialmente receptores presentes nas vias aéreas inferiores.
+
+===== página 85 =====
+
+===== página 86 =====
+Então, por exemplo, um exemplo muito interessante de determinismo,
+determinação de tropismo, é o tropismo dos rinovírus.
+Os rinovírus são vírus não envelopados de RNA que pertencem
+à família Picornaviridae e causam mais de 50% dos resfriados no
+mundo todo. Eles se transmitem de pessoa a pessoa por via aérea
+ou muitas vezes por contato com superfícies contaminadas. Eles
+são termoestáveis e resistentes a solventes como éter e etanol. Por
+exemplo, pelo fato de não serem envelopados, não adianta a gente
+passar álcool-gel na mão. Não vai ser isso que vai inativar esses
+vírus. No entanto, esses vírus são inativados pelo ácido no estômago.
+Então, esses vírus, se engolidos, vão ser inativados. Por isso que eles
+replicam melhor no epitélio respiratório. Se forem engolidos, vão,
+dessa maneira, serem impossibilitados de causar infecção.
+Outra característica interessante desses vírus é que eles replicam
+de maneira mais eﬁciente uma temperatura média de 32 a 33 graus.
+Então, isso quer dizer que na região da rinofaringe, onde entra o ar
+mais frio e tem uma temperatura local, microambiente, mais favorável
+para a replicação desses vírus.
+
+===== página 87 =====
+
+===== página 88 =====
+Mas veja que interessante, um vírus da mesma família que os
+picornavírus é o vírus da poliomielite, que ele também é um parente
+próximo dos vírus do resfriado, só que agora por pequenas alterações
+na constituição das proteínas do capsídeo, ele se tornou extremamente
+resistente ao ácido do estômago.
+Então, ele é um vírus que é transmitido pela via fecal-oral. Então,
+ele entra através da boca, ele passa pelo estômago, ele é resistente
+ao ácido do estômago, ele é resistente às bases do intestino delgado.
+De fato, ele precisa passar nesses ambientes tão extremos para sofrer
+pequenas alterações que vão possibilitar que ele infecte as células
+do intestino. E a partir das células do intestino, utilizando o epitélio
+intestinal como sítio primário de replicação, ele vai passar para o
+sangue para causar uma viremia, vai replicar em outros órgãos e
+ﬁnalmente vai chegar ao sistema nervoso central.
+Então vejam, vírus muito parecidos como o resfriado e a
+poliomielite têm tropismos totalmente diferentes, determinados por
+pequenas substituições em aminoácidos das proteínas do capsídeo.
+Outra questão importante, vocês todos devem ter tomado alguma
+vez a vacina da gotinha, a única vacina que ninguém tem medo.
+Bom, a vacina da gotinha contém um vírus, um poliovírus, o vírus da
+poliomielite, só que uma versão atenuada. Essa versão atenuada, ela é
+resistente ao ácido do estômago, ela é capaz de replicar no intestino,
+mas por alterações adquiridas que atenuaram esse vírus, ele não é
+capaz de passar a corrente sanguínea e chegar ao sistema nervoso
+central. Portanto, ele não causa poliomielite. Mas causa todo esse
+processo infeccioso.
+Então, mostrando que uma pequena mutação, algum conjunto
+de mutações no poliovírus, a termo esse vírus mudou o potencial
+patogênico desse vírus, mudou a sua virulência, fazendo com que a
+replicação fosse restrita a uma região anatômica especíﬁca, impedindo
+que ele chegue a outras regiões do organismo, onde poderia causar
+manifestações clínicas mais severas.
+
+===== página 89 =====
+
+===== página 90 =====
+Agora, todo vírus que se orgulha de ser um vírus, apresenta
+mecanismos de evasão do sistema imune. E esses mecanismos de
+evasão podem ser divididos em duas grandes categorias. E eles vão
+ser combinados para garantir o sucesso da infecção viral.
+Então, alguns vírus apresentam mecanismos ativos de evasão que
+requerem a síntese de proteínas virais, como, por exemplo, para causar
+resistência à apoptose, e medir alguns componentes da resposta
+imune, ou estabelecer latência. Então, a gente já falou que estabelecer
+latência é um bom mecanismo de evasão da resposta imune.
+E alguns vírus evadem o sistema imune através de mecanismos
+passivos que não requerem a síntese de proteínas. Por exemplo, um
+inóculo muito grande produzido por um vírus, o tropismo, o fato
+de ele ter um tropismo por um determinado tipo celular não é um
+mecanismo ativo de evasão, mas pode ser muito bem-sucedido. Um
+vírus que infecta o sistema nervoso central vai evadir o sistema imune.
+A via de infecção, a acessibilidade é passiva. Às vezes, um vírus que é
+injetado na corrente sanguínea, ele passou já pela barreira de proteção
+do epitélio e das mucosas e fez isso de maneira passiva. E foi injetado,
+por exemplo, por um inseto, por uma seringa. E a variabilidade viral.
+Então, alguns vírus, pela sua estratégia de replicação, variam muito.
+Isso causou um grande problema na hora de montar uma resposta
+contra eles, mas fazem isso de maneira natural, não é uma coisa
+premeditada por parte deles.
+
+===== página 91 =====
+
+===== página 92 =====
+Então, a evasão ativa, como a gente falou, requer a síntese de proteínas
+virais. E aqui eu dou dois exemplos: nas proteínas E6 e E7 de HPV, que
+são proteínas expressas pelo papilomavírus humano e que, de alguma
+maneira, interagem com diferentes proteínas celulares, alterando a
+resposta ao interferon. Tanto o E6 quanto o E7, por exemplo, alteram
+a resposta inata da célula à infecção pelo vírus. Isso é um exemplo
+clássico de evasão ativa.
+
+===== página 93 =====
+
+===== página 94 =====
+O estabelecimento de latência, já falamos para o vírus Epstein-Barr, os
+diferentes tipos de latência, dependendo do tipo celular, associado a
+um padrão de expressão gênica especíﬁco, é outro exemplo de evasão
+ativa. Aqui o vírus está evadindo o sistema imune através da expressão
+de genes especíﬁcos ou, inclusive, através da inibição de seus próprios
+genes para não ser enxergado pelo sistema imune.
+
+===== página 95 =====
+
+===== página 96 =====
+A evasão passiva, bom, tamanho de inóculo, rinovírus, vírus hepatite
+B, vírus HIV, é uma questão de quantidade que vai levar a driblar
+a resposta imune. Não é a mesma coisa se o indivíduo espirra a 5
+metros de mim do que se o indivíduo espirra bem na minha frente. A
+quantidade de vírus que eu vou receber é diferente.
+O vírus de hepatite B: não é a mesma coisa receber uma transfusão
+de meio litro de sangue contaminado do que receber uma picada com
+material perfurocortante.
+O tropismo: herpes vírus infectando o sistema nervoso central,
+papilomavírus infectando a epiderme, mas afastado da resposta
+imunológica, vírus da raiva transitando dentro dos axônios, são
+mecanismos de evasão passiva.
+A via de infecção e a acessibilidade, como a gente já falou para vírus
+da pólio, vírus HIV, herpes simples, vírus de hepatite B, também são
+mecanismos de evasão passiva.
+E a variabilidade: os vírus de RNA, em geral, variam muito mais.
+Dentro deles, temos alguns vírus que variam muito, como o vírus
+inﬂuenza e, particularmente, o vírus HIV. Mas a gente vai ver isso na
+aula especíﬁca.
+
+===== página 97 =====
+
+===== página 98 =====
+Para vocês terem uma ideia de como o tamanho de inóculo impacta
+a transmissão, aqui nós temos, de novo, o padrão de infecção crônica
+do HIV, o progressivo, com infecção inicial, a carga viral aqui, e o
+estabelecimento da latência clínica, e de novo aqui o aumento da
+carga viral para estabelecimento da síndrome da imunodeﬁciência
+adquirida.
+Aqui o que está graﬁcado é a quantidade de partículas virais
+circulantes no indivíduo. E vejam o risco de transmissão: é bem
+maior quanto maior o número de partículas, quando comparado com
+a transmissão quando tem menos partículas. Então, ﬁca claro que
+a quantidade de vírus é muito importante para estabelecimento ou
+transmissão de infecção.
+
+===== página 99 =====
+
+===== página 100 =====
+Então, tropismo: a gente falava, dei de novo o exemplo do
+papilomavírus humano. Aqui temos a camada basal do epitélio, o
+sistema imune estaria agindo aqui embaixo, e aqui o vírus estabelece
+seu ciclo nas camadas suprabasais do epitélio e diﬁcilmente é
+enxergado pelo sistema imune. Seu tropismo é um mecanismo de
+evasão passiva.
+
+===== página 101 =====
+
+===== página 102 =====
+Mais um exemplo: vemos que o ciclo viral, que as alterações que ele
+causa no epitélio, acontecem todas para cima da camada basal, longe
+da derme, longe de onde estariam os mecanismos de resposta ativos
+do nosso sistema imune.
+
+===== página 103 =====
+
+===== página 104 =====
+E a variabilidade, como a gente falou, vírus inﬂuenza, vírus HIV, são
+dois grandes exemplos de vírus que variam muito.
+
+===== página 105 =====
+
+===== página 106 =====
+E simplesmente para ﬁnalizar, a gente pensa no seguinte: quando um
+vírus entra no nosso organismo, seja ele um patógeno ou não, ele vai
+ser detectado por diferentes sistemas que existem dentro do nosso
+organismo, seja a resposta inata ou seja a resposta adaptativa. Uma
+resposta inata que é uma resposta geral, porém muito eﬁciente e que
+vai ser a nossa primeira barreira de defesa contra o organismo que
+está nos invadindo. E que vai agir de maneira inicial, mas em conjunto
+posteriormente com a resposta adaptativa, ou seja, a resposta mediada
+por anticorpos, a resposta mediada por células, que vai levar à
+produção de uma resposta bem especíﬁca contra esse agente.
+Então, o vírus que entra nos nossos organismos, além de ter que
+ser capaz de colonizar uma célula, vai ter que ser capaz de superar
+barreiras de defesa intrínsecas, como, por exemplo, barreiras físicas,
+que são a pele e as mucosas. Tem que encontrar o receptor da sua
+célula, ser capaz de entrar dentro da célula, agir contra os mecanismos
+de resposta inata que toda célula tem para se proteger das infecções
+virais. Isso é uma outra barreira que o vírus vai ter que passar.
+E depois vai ter que driblar, se quer permanecer dentro do
+organismo, quer replicar, a resposta adaptativa, que é uma outra
+barreira formidável que o vírus vai ter que driblar.
+E se o vírus conseguiu passar por todos esses pontos de defesa
+do nosso organismo, bom, eu acho que a essa altura do campeonato
+merece estabelecer uma infecção produtiva dentro do organismo e
+infectar o indivíduo suscetível.
+
+===== página 107 =====
+
+===== página 108 =====
+Então, lembrar que existem diferentes padrões de infecção, que os
+mesmos dependem do tipo do vírus e dos fatores do hospedeiro, que o
+desenvolvimento de doenças depende de fatores virais, do hospedeiro
+e do ambiente, e que o deslocamento do balanço existente entre o vírus
+e o hospedeiro vai determinar o destino da infecção.
+Muito obrigado.

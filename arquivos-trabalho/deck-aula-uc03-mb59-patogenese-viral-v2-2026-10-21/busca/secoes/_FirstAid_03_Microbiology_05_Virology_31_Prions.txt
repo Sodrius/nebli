@@ -1,0 +1,12 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::31_Prions (11 notas)
+1481933566186 5-LowYield Spongiform encephalopathy is a degenerative disease due to the aggregation and intracellular spread of abnormal prion proteins
+1481934292871 5-LowYield Prion protein is normally expressed in CNS neurons in a(n) α-helical conformation, known as PrP c
+1481934295557 5-LowYield Prion disease arises with conversion to a(n) β-pleated conformation, known as PrP sc
+1481934297610 5-LowYield The conversion of prions from PrP c (normal) to PrP sc (diseased) can be sporadic, inherited, or transmitted
+1481934300762 5-LowYield Are pathologic prion proteins degradable? No (resistant to proteases)
+1481934303408 5-LowYield Can pathologic prions convert normal prions into pathologic prions? Yes
+1481934305475 5-LowYield Spongiform encephalopathy is characterized histologically by intracellular vacuoles due to damage to neurons and glial cells
+1481934313853 5-LowYield Creutzfeldt-Jakob disease (CJD) is usually sporadic, but rarely can arise due to exposure to prion-infected human tissue
+1481934380432 5-LowYield Fatal familial insomnia is an inherited form of a prion disease characterized by severe insomnia and an exaggerated startle response
+1484104012082 4-LowerYield Creutzfeldt-Jakob disease is associated with increased 14-3-3 protein in CSF
+1520355448386 3-HighYield-temporary Are autoclaves reliable for inactivating prions ? No

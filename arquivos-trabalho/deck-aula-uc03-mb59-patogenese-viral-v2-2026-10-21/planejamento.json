@@ -1,0 +1,792 @@
+{
+ "aula": "Patogênese da infecção viral (UC03 P3; Microbiologia)",
+ "feito_antes_de_montar": true,
+ "alvos": [
+  {
+   "id": "mb59-s122-i122-1",
+   "slide": "122",
+   "alvo": "Infecção produtiva × abortiva",
+   "fontes": [
+    "slide 122"
+   ],
+   "origem_prevista": "au-infecao-def"
+  },
+  {
+   "id": "mb59-s124-i124-1",
+   "slide": "124",
+   "alvo": "Influenza: transmissão por gotículas respiratórias",
+   "fontes": [
+    "slide 124"
+   ],
+   "origem_prevista": "ak1516325251980"
+  },
+  {
+   "id": "mb59-s124-i124-2",
+   "slide": "124",
+   "alvo": "Paramixovírus (sarampo): gotículas respiratórias",
+   "fontes": [
+    "slide 124"
+   ],
+   "origem_prevista": "ak1506297282227"
+  },
+  {
+   "id": "mb59-s124-i124-3",
+   "slide": "124",
+   "alvo": "Epitélio respiratório: escada mucociliar",
+   "fontes": [
+    "slide 124"
+   ],
+   "origem_prevista": "sh-1791147098269"
+  },
+  {
+   "id": "mb59-s125-i125-a1",
+   "slide": "125",
+   "alvo": "Apoio ao card ak1516325251980",
+   "fontes": [
+    "slide 125"
+   ],
+   "origem_prevista": "ak1516325251980"
+  },
+  {
+   "id": "mb59-s126-i126-a1",
+   "slide": "126",
+   "alvo": "Apoio ao card ak1516325251980",
+   "fontes": [
+    "slide 126"
+   ],
+   "origem_prevista": "ak1516325251980"
+  },
+  {
+   "id": "mb59-s127-i127-1",
+   "slide": "127",
+   "alvo": "Coronavírus liga ACE2 nos pneumócitos tipo II",
+   "fontes": [
+    "slide 127"
+   ],
+   "origem_prevista": "ak1608908651007"
+  },
+  {
+   "id": "mb59-s127-i127-2",
+   "slide": "127",
+   "alvo": "Rinovírus entra por ICAM-1",
+   "fontes": [
+    "slide 127"
+   ],
+   "origem_prevista": "sh-1792605634577"
+  },
+  {
+   "id": "mb59-s128-i128-1",
+   "slide": "128",
+   "alvo": "Hepatite A: estável ao ácido",
+   "fontes": [
+    "slide 128"
+   ],
+   "origem_prevista": "ak1506610615157"
+  },
+  {
+   "id": "mb59-s128-i128-2",
+   "slide": "128",
+   "alvo": "Gastroenterite viral: norovírus e rotavírus",
+   "fontes": [
+    "slide 128"
+   ],
+   "origem_prevista": "ak1516237532611"
+  },
+  {
+   "id": "mb59-s128-i128-3",
+   "slide": "128",
+   "alvo": "Rotavírus: via fecal-oral",
+   "fontes": [
+    "slide 128"
+   ],
+   "origem_prevista": "ak1516665596498"
+  },
+  {
+   "id": "mb59-s128-i128-4",
+   "slide": "128",
+   "alvo": "Poliovírus: via fecal-oral",
+   "fontes": [
+    "slide 128"
+   ],
+   "origem_prevista": "ak1516218470870"
+  },
+  {
+   "id": "mb59-s129-i129-a1",
+   "slide": "129",
+   "alvo": "Apoio ao card ak1506610615157",
+   "fontes": [
+    "slide 129"
+   ],
+   "origem_prevista": "ak1506610615157"
+  },
+  {
+   "id": "mb59-s130-i130-1",
+   "slide": "130",
+   "alvo": "Viremia ativa × passiva",
+   "fontes": [
+    "slide 130"
+   ],
+   "origem_prevista": "au-viremia"
+  },
+  {
+   "id": "mb59-s131-i131-a1",
+   "slide": "131",
+   "alvo": "Apoio ao card au-viremia",
+   "fontes": [
+    "slide 131"
+   ],
+   "origem_prevista": "au-viremia"
+  },
+  {
+   "id": "mb59-s132-i132-a1",
+   "slide": "132",
+   "alvo": "Apoio ao card au-viremia",
+   "fontes": [
+    "slide 132"
+   ],
+   "origem_prevista": "au-viremia"
+  },
+  {
+   "id": "mb59-s133-i133-a1",
+   "slide": "133",
+   "alvo": "Apoio ao card au-viremia",
+   "fontes": [
+    "slide 133"
+   ],
+   "origem_prevista": "au-viremia"
+  },
+  {
+   "id": "mb59-s134-i134-a1",
+   "slide": "134",
+   "alvo": "Apoio ao card au-viremia",
+   "fontes": [
+    "slide 134"
+   ],
+   "origem_prevista": "au-viremia"
+  },
+  {
+   "id": "mb59-s135-i135-1",
+   "slide": "135",
+   "alvo": "VZV: reativação por estresse, idade ou imunossupressão",
+   "fontes": [
+    "slide 135"
+   ],
+   "origem_prevista": "ak1506291152635"
+  },
+  {
+   "id": "mb59-s135-i135-2",
+   "slide": "135",
+   "alvo": "CMV: reativação em imunossuprimidos",
+   "fontes": [
+    "slide 135"
+   ],
+   "origem_prevista": "ak1503860841762"
+  },
+  {
+   "id": "mb59-s135-i135-3",
+   "slide": "135",
+   "alvo": "CMV: latente em células mononucleares",
+   "fontes": [
+    "slide 135"
+   ],
+   "origem_prevista": "ak1503858394947"
+  },
+  {
+   "id": "mb59-s135-i135-4",
+   "slide": "135",
+   "alvo": "VZV: latente nos gânglios da raiz dorsal",
+   "fontes": [
+    "slide 135"
+   ],
+   "origem_prevista": "ak1506291111598"
+  },
+  {
+   "id": "mb59-s136-i136-1",
+   "slide": "136",
+   "alvo": "HSV-1: latente no gânglio trigeminal",
+   "fontes": [
+    "slide 136"
+   ],
+   "origem_prevista": "ak1502153397982"
+  },
+  {
+   "id": "mb59-s136-i136-2",
+   "slide": "136",
+   "alvo": "Estresse reativa o HSV-1",
+   "fontes": [
+    "slide 136"
+   ],
+   "origem_prevista": "ak1502152875721"
+  },
+  {
+   "id": "mb59-s136-i136-3",
+   "slide": "136",
+   "alvo": "HSV-2: latente nos gânglios sacrais",
+   "fontes": [
+    "slide 136"
+   ],
+   "origem_prevista": "ak1502154338212"
+  },
+  {
+   "id": "mb59-s137-i137-1",
+   "slide": "137",
+   "alvo": "EBV: latente em linfócitos B",
+   "fontes": [
+    "slide 137"
+   ],
+   "origem_prevista": "ak1503854748516"
+  },
+  {
+   "id": "mb59-s138-i138-a1",
+   "slide": "138",
+   "alvo": "Apoio ao card ak1503854748516",
+   "fontes": [
+    "slide 138"
+   ],
+   "origem_prevista": "ak1503854748516"
+  },
+  {
+   "id": "mb59-s139-i139-a1",
+   "slide": "139",
+   "alvo": "Apoio ao card ak1503854748516",
+   "fontes": [
+    "slide 139"
+   ],
+   "origem_prevista": "ak1503854748516"
+  },
+  {
+   "id": "mb59-s140-i140-1",
+   "slide": "140",
+   "alvo": "HBV em recém-nascidos: 90% de infecção crônica",
+   "fontes": [
+    "slide 140"
+   ],
+   "origem_prevista": "ak1506552371527"
+  },
+  {
+   "id": "mb59-s140-i140-2",
+   "slide": "140",
+   "alvo": "HBV: transmissão da mãe para o bebê no parto",
+   "fontes": [
+    "slide 140"
+   ],
+   "origem_prevista": "ak1506552065089"
+  },
+  {
+   "id": "mb59-s141-i141-1",
+   "slide": "141",
+   "alvo": "HBV é menos crônica que o HCV",
+   "fontes": [
+    "slide 141"
+   ],
+   "origem_prevista": "ak1506552205472"
+  },
+  {
+   "id": "mb59-s142-i142-1",
+   "slide": "142",
+   "alvo": "HCV: 60–80% evoluem para infecção crônica",
+   "fontes": [
+    "slide 142"
+   ],
+   "origem_prevista": "ak1506630060423"
+  },
+  {
+   "id": "mb59-s143-i143-a1",
+   "slide": "143",
+   "alvo": "Apoio ao card ak1506630060423",
+   "fontes": [
+    "slide 143"
+   ],
+   "origem_prevista": "ak1506630060423"
+  },
+  {
+   "id": "mb59-s144-i144-1",
+   "slide": "144",
+   "alvo": "HIV: latência clínica por até 10 anos",
+   "fontes": [
+    "slide 144"
+   ],
+   "origem_prevista": "ak1502067560663"
+  },
+  {
+   "id": "mb59-s144-i144-2",
+   "slide": "144",
+   "alvo": "Conexão: latência viral × latência clínica",
+   "fontes": [
+    "slide 144"
+   ],
+   "origem_prevista": "au-latencia-vs"
+  },
+  {
+   "id": "mb59-s145-i145-1",
+   "slide": "145",
+   "alvo": "Padrões de infecção viral e vírus típicos",
+   "fontes": [
+    "slide 145"
+   ],
+   "origem_prevista": "au-padroes"
+  },
+  {
+   "id": "mb59-s146-i146-a1",
+   "slide": "146",
+   "alvo": "Apoio ao card au-padroes",
+   "fontes": [
+    "slide 146"
+   ],
+   "origem_prevista": "au-padroes"
+  },
+  {
+   "id": "mb59-s147-i147-a1",
+   "slide": "147",
+   "alvo": "Apoio ao card au-padroes",
+   "fontes": [
+    "slide 147"
+   ],
+   "origem_prevista": "au-padroes"
+  },
+  {
+   "id": "mb59-s148-i148-a1",
+   "slide": "148",
+   "alvo": "Apoio ao card au-padroes",
+   "fontes": [
+    "slide 148"
+   ],
+   "origem_prevista": "au-padroes"
+  },
+  {
+   "id": "mb59-s149-i149-a1",
+   "slide": "149",
+   "alvo": "Apoio ao card au-padroes",
+   "fontes": [
+    "slide 149"
+   ],
+   "origem_prevista": "au-padroes"
+  },
+  {
+   "id": "mb59-s150-i150-1",
+   "slide": "150",
+   "alvo": "Patogênese: destruição, citocinas e disfunção celular",
+   "fontes": [
+    "slide 150"
+   ],
+   "origem_prevista": "au-patogenese"
+  },
+  {
+   "id": "mb59-s151-i151-a1",
+   "slide": "151",
+   "alvo": "Apoio ao card au-patogenese",
+   "fontes": [
+    "slide 151"
+   ],
+   "origem_prevista": "au-patogenese"
+  },
+  {
+   "id": "mb59-s152-i152-1",
+   "slide": "152",
+   "alvo": "Infecção produtiva: suscetibilidade, permissividade e acessibilidade",
+   "fontes": [
+    "slide 152"
+   ],
+   "origem_prevista": "au-3-fatores"
+  },
+  {
+   "id": "mb59-s153-i153-a1",
+   "slide": "153",
+   "alvo": "Apoio ao card au-3-fatores",
+   "fontes": [
+    "slide 153"
+   ],
+   "origem_prevista": "au-3-fatores"
+  },
+  {
+   "id": "mb59-s154-i154-a1",
+   "slide": "154",
+   "alvo": "Apoio ao card au-3-fatores",
+   "fontes": [
+    "slide 154"
+   ],
+   "origem_prevista": "au-3-fatores"
+  },
+  {
+   "id": "mb59-s155-i155-1",
+   "slide": "155",
+   "alvo": "Fatores de virulência",
+   "fontes": [
+    "slide 155"
+   ],
+   "origem_prevista": "au-virulencia"
+  },
+  {
+   "id": "mb59-s156-i156-a1",
+   "slide": "156",
+   "alvo": "Apoio ao card au-virulencia",
+   "fontes": [
+    "slide 156"
+   ],
+   "origem_prevista": "au-virulencia"
+  },
+  {
+   "id": "mb59-s157-i157-1",
+   "slide": "157",
+   "alvo": "Rotavírus: enterotoxina NSP4 causa diarreia aquosa",
+   "fontes": [
+    "slide 157"
+   ],
+   "origem_prevista": "ak1516665751235"
+  },
+  {
+   "id": "mb59-s157-i157-2",
+   "slide": "157",
+   "alvo": "NSP4 aumenta a permeabilidade ao Cl−",
+   "fontes": [
+    "slide 157"
+   ],
+   "origem_prevista": "ak1516665990169"
+  },
+  {
+   "id": "mb59-s157-i157-3",
+   "slide": "157",
+   "alvo": "Rotavírus causa deficiência secundária de lactase",
+   "fontes": [
+    "slide 157"
+   ],
+   "origem_prevista": "ak1516666902436"
+  },
+  {
+   "id": "mb59-s158-i158-a1",
+   "slide": "158",
+   "alvo": "Apoio ao card ak1516665751235",
+   "fontes": [
+    "slide 158"
+   ],
+   "origem_prevista": "ak1516665751235"
+  },
+  {
+   "id": "mb59-s159-i159-1",
+   "slide": "159",
+   "alvo": "Virada antigênica: pandemias de influenza",
+   "fontes": [
+    "slide 159"
+   ],
+   "origem_prevista": "ak1516323168130"
+  },
+  {
+   "id": "mb59-s160-i160-a1",
+   "slide": "160",
+   "alvo": "Apoio ao card ak1516323168130",
+   "fontes": [
+    "slide 160"
+   ],
+   "origem_prevista": "ak1516323168130"
+  },
+  {
+   "id": "mb59-s161-i161-1",
+   "slide": "161",
+   "alvo": "Condiloma acuminado: HPV 6 ou 11",
+   "fontes": [
+    "slide 161"
+   ],
+   "origem_prevista": "ak1394068322402"
+  },
+  {
+   "id": "mb59-s162-i162-1",
+   "slide": "162",
+   "alvo": "HPV nas cordas vocais: papilomatose laríngea",
+   "fontes": [
+    "slide 162"
+   ],
+   "origem_prevista": "ak1493218180866"
+  },
+  {
+   "id": "mb59-s163-i163-1",
+   "slide": "163",
+   "alvo": "HPV 16 e 18: principais causas de câncer cervical",
+   "fontes": [
+    "slide 163"
+   ],
+   "origem_prevista": "ak1405375421095"
+  },
+  {
+   "id": "mb59-s164-i164-a1",
+   "slide": "164",
+   "alvo": "Apoio ao card ak1405375421095",
+   "fontes": [
+    "slide 164"
+   ],
+   "origem_prevista": "ak1405375421095"
+  },
+  {
+   "id": "mb59-s165-i165-a1",
+   "slide": "165",
+   "alvo": "Apoio ao card ak1405375421095",
+   "fontes": [
+    "slide 165"
+   ],
+   "origem_prevista": "ak1405375421095"
+  },
+  {
+   "id": "mb59-s166-i166-1",
+   "slide": "166",
+   "alvo": "Rinovírus cresce melhor a 33 °C",
+   "fontes": [
+    "slide 166"
+   ],
+   "origem_prevista": "ak1516222409950"
+  },
+  {
+   "id": "mb59-s166-i166-2",
+   "slide": "166",
+   "alvo": "Rinovírus é lábil ao ácido",
+   "fontes": [
+    "slide 166"
+   ],
+   "origem_prevista": "ak1516222135232"
+  },
+  {
+   "id": "mb59-s167-i167-1",
+   "slide": "167",
+   "alvo": "Poliovírus é estável ao ácido",
+   "fontes": [
+    "slide 167"
+   ],
+   "origem_prevista": "ak1516218404816"
+  },
+  {
+   "id": "mb59-s167-i167-2",
+   "slide": "167",
+   "alvo": "Vacina Sabin: poliovírus vivo atenuado",
+   "fontes": [
+    "slide 167"
+   ],
+   "origem_prevista": "ak1516219553378"
+  },
+  {
+   "id": "mb59-s168-i168-1",
+   "slide": "168",
+   "alvo": "Evasão ativa × passiva",
+   "fontes": [
+    "slide 168"
+   ],
+   "origem_prevista": "au-evasao"
+  },
+  {
+   "id": "mb59-s169-i169-1",
+   "slide": "169",
+   "alvo": "HPV de alto risco: E6 destrói p53",
+   "fontes": [
+    "slide 169"
+   ],
+   "origem_prevista": "sh-1792605641002"
+  },
+  {
+   "id": "mb59-s169-i169-2",
+   "slide": "169",
+   "alvo": "HPV de alto risco: E7 destrói Rb",
+   "fontes": [
+    "slide 169"
+   ],
+   "origem_prevista": "sh-1792605641420"
+  },
+  {
+   "id": "mb59-s170-i170-a1",
+   "slide": "170",
+   "alvo": "Apoio ao card sh-1792605641002",
+   "fontes": [
+    "slide 170"
+   ],
+   "origem_prevista": "sh-1792605641002"
+  },
+  {
+   "id": "mb59-s171-i171-a1",
+   "slide": "171",
+   "alvo": "Apoio ao card sh-1792605641002",
+   "fontes": [
+    "slide 171"
+   ],
+   "origem_prevista": "sh-1792605641002"
+  },
+  {
+   "id": "mb59-s172-i172-a1",
+   "slide": "172",
+   "alvo": "Apoio ao card sh-1792605641002",
+   "fontes": [
+    "slide 172"
+   ],
+   "origem_prevista": "sh-1792605641002"
+  },
+  {
+   "id": "mb59-s173-i173-1",
+   "slide": "173",
+   "alvo": "HPV infecta o estrato basal",
+   "fontes": [
+    "slide 173"
+   ],
+   "origem_prevista": "ak1502718274711"
+  },
+  {
+   "id": "mb59-s174-i174-1",
+   "slide": "174",
+   "alvo": "Raiva: viaja retrógrado pelos nervos periféricos",
+   "fontes": [
+    "slide 174"
+   ],
+   "origem_prevista": "ak1516474304091"
+  },
+  {
+   "id": "mb59-s175-i175-1",
+   "slide": "175",
+   "alvo": "HCV: variabilidade antigênica do envelope",
+   "fontes": [
+    "slide 175"
+   ],
+   "origem_prevista": "ak1506629766099"
+  },
+  {
+   "id": "mb59-s176-i176-a1",
+   "slide": "176",
+   "alvo": "Apoio ao card ak1506629766099",
+   "fontes": [
+    "slide 176"
+   ],
+   "origem_prevista": "ak1506629766099"
+  },
+  {
+   "id": "mb59-s177-i177-a1",
+   "slide": "177",
+   "alvo": "Apoio ao card ak1506629766099",
+   "fontes": [
+    "slide 177"
+   ],
+   "origem_prevista": "ak1506629766099"
+  },
+  {
+   "id": "mb59-cap-l1",
+   "slide": "livro",
+   "alvo": "Infecção produtiva × abortiva; infecção não é doença",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 30 (patogênese); apostila guia de Micro (aula 14); monitoria P3 (aula 16)"
+   ],
+   "origem_prevista": "au-infecao-def"
+  },
+  {
+   "id": "mb59-cap-l2",
+   "slide": "livro",
+   "alvo": "Portas de entrada e receptores (respiratória e digestiva)",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 30 (patogênese); apostila guia de Micro (aula 14); monitoria P3 (aula 16)"
+   ],
+   "origem_prevista": "sh-1791147098269, ak1516325251980, sh-1792605634577, ak1516665596498"
+  },
+  {
+   "id": "mb59-cap-l3",
+   "slide": "livro",
+   "alvo": "Disseminação: sítio primário, viremia e sítio secundário",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 30 (patogênese); apostila guia de Micro (aula 14); monitoria P3 (aula 16)"
+   ],
+   "origem_prevista": "au-viremia"
+  },
+  {
+   "id": "mb59-cap-l4",
+   "slide": "livro",
+   "alvo": "Padrões de infecção: aguda, latente, persistente e progressiva",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 30 (patogênese); apostila guia de Micro (aula 14); monitoria P3 (aula 16)"
+   ],
+   "origem_prevista": "au-padroes, au-latencia-vs, ak1502153397982, ak1506552371527, ak1506552205472, ak1502067560663"
+  },
+  {
+   "id": "mb59-cap-l5",
+   "slide": "livro",
+   "alvo": "Patogênese: destruição, citocinas, disfunção e efeito parácrino",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 30 (patogênese); apostila guia de Micro (aula 14); monitoria P3 (aula 16)"
+   ],
+   "origem_prevista": "au-patogenese"
+  },
+  {
+   "id": "mb59-cap-l6",
+   "slide": "livro",
+   "alvo": "Suscetibilidade, permissividade e acessibilidade",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 30 (patogênese); apostila guia de Micro (aula 14); monitoria P3 (aula 16)"
+   ],
+   "origem_prevista": "au-3-fatores"
+  },
+  {
+   "id": "mb59-cap-l7",
+   "slide": "livro",
+   "alvo": "Virulência e fatores de virulência (rotavírus NSP4)",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 30 (patogênese); apostila guia de Micro (aula 14); monitoria P3 (aula 16)"
+   ],
+   "origem_prevista": "au-virulencia, ak1516665751235, ak1516665990169"
+  },
+  {
+   "id": "mb59-cap-l8",
+   "slide": "livro",
+   "alvo": "Tropismo: rinovírus × poliovírus",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 30 (patogênese); apostila guia de Micro (aula 14); monitoria P3 (aula 16)"
+   ],
+   "origem_prevista": "ak1516222409950, ak1516222135232, ak1516218404816"
+  },
+  {
+   "id": "mb59-cap-l9",
+   "slide": "livro",
+   "alvo": "Evasão ativa × passiva",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 30 (patogênese); apostila guia de Micro (aula 14); monitoria P3 (aula 16)"
+   ],
+   "origem_prevista": "au-evasao, sh-1792605641002, ak1502718274711"
+  },
+  {
+   "id": "mb59-prova-p1",
+   "slide": "prova",
+   "alvo": "Susceptibilidade, permissividade e quadro sistêmico do sarampo (2019 P3 3.3; 2025 P3 3.6)",
+   "fontes": [
+    "Provas UC03 (índice micro-15 e termos viremia, latência, tropismo, permissividade)"
+   ],
+   "origem_prevista": "au-3-fatores, au-viremia, ak1506297282227"
+  },
+  {
+   "id": "mb59-prova-p2",
+   "slide": "prova",
+   "alvo": "Padrões de infecção viral e exemplos (2015 P2sub 2.5; 2015 P2 2.4)",
+   "fontes": [
+    "Provas UC03 (índice micro-15 e termos viremia, latência, tropismo, permissividade)"
+   ],
+   "origem_prevista": "au-padroes, ak1506552205472, ak1506552371527"
+  }
+ ],
+ "fontes": {
+  "slides": {
+   "estado": "consultada",
+   "contribuicao": "Inventário e ordem"
+  },
+  "bibliografia": {
+   "estado": "consultada",
+   "contribuicao": "Confirma entrada, viremia, tropismo por receptor e infecção localizada × sistêmica"
+  },
+  "caoc": {
+   "estado": "não localizada",
+   "contribuicao": "nenhum"
+  },
+  "youtube": {
+   "estado": "consultada",
+   "contribuicao": "Padrão agudo e crônico, vertical e lesão imunomediada"
+  },
+  "veteranos": {
+   "estado": "consultada",
+   "contribuicao": "Entrada, disseminação, padrões, determinantes, virulência, tropismo e evasão, na ordem da fala; Suscetibilidade, permissividade, acessibilidade e padrões; Latência viral × clínica, virulência e evasão"
+  },
+  "provas": {
+   "estado": "consultada",
+   "contribuicao": "Latência (item bacteriano fora); Calibragem de susceptibilidade, padrões e disseminação"
+  },
+  "exercicios": {
+   "estado": "não localizada",
+   "contribuicao": "nenhum"
+  }
+ }
+}

@@ -1,0 +1,1581 @@
+===== pdf p. 439 =====
+Patogênese e controle 
+das doenças virais 
+PRINCÍPIOS DAS DOENÇAS VIRAIS 
+O processo fundamental da infecção viral consiste no ciclo de 
+replicação do vírus. A resposta celular à infecção pode variar 
+de efeitos não aparentes a efeitos citopatológicos, com a conse­
+quente morte celular, até hiperplasia ou câncer. 
+Doença virai refere-se a alguma anormalidade prejudicial 
+decorrente de infecção do hospedeiro por vírus. A doença clí­
+nica em um hospedeiro consiste em sinais e sintomas mani­
+festos. A síndrome refere-se a um grupo específico de sinais e 
+sintomas. As infecções virais que não produzem sintomas no 
+hospedeiro são conhecidas como inaparentes (infecções sub­
+clínicas). Com efeito, a maioria das infecções virais não leva à 
+produção de doença (Fig. 30.1). 
+Os princípios importantes relacionados com as doenças virais 
+compreendem os seguintes: (1) muitas infecções virais são subclí­
+nicas; (2) a mesma doença pode ser causada por uma variedade de 
+vírus; (3) o mesmo vírus pode causar uma variedade de doenças; 
+( 4) a doença não tem relação com a morfologia viral; e ( 5) a evolu­
+ção de qualquer caso específico é determinada pelos fatores virais 
+e do hospedeiro, sendo influenciada pela genética de ambos. 
+Patogênese virai é o processo que ocorre quando um vírus 
+infecta um hospedeiro. A patogênese da doença é um subcon­
+junto de eventos durante uma infecção que resultam em mani­
+festação de doença no hospedeiro. Um vírus é patogênico para 
+determinado hospedeiro quando se mostra capaz de infectar e 
+desencadear sinais de doença nesse hospedeiro. Uma cepa de 
+determinado vírus é mais virulenta que outra quando costuma 
+induzir doença mais grave em um hospedeiro suscetível. A vi­
+rulência viral em animais sadios não deve ser confundida com 
+a citopatogenicidade de células cultivadas; vírus altamente ci­
+tocidas in vitro podem ser inócuos in vivo e, ao contrário, vírus 
+não citocidas podem causar doença grave. 
+No Quadro 30.1, fornecemos uma comparação sobre as 
+importantes características das duas categorias gerais de doen­
+ças virais agudas (locais e sistêmicas). 
+PATOGÊNESE DAS DOENÇAS VIRAIS 
+Para provocar doença, é necessário que os vírus penetrem em 
+um hospedeiro, entrem em contato com células suscetíveis, 
+sofram replicação e causem lesão celular. A compreensão dos 
+mecanismos da patogênese viral em nível molecular é neces­
+sária para o planejamento de estratégias antivirais específicas 
+e eficazes. Grande parte dos nossos conhecimentos acerca da 
+C
+A
+P
+Í
+T
+U
+L
+O
+ 
+patogênese viral baseia-se em modelos animais, visto que tais 
+sistemas podem ser mais facilmente manipulados e estudados. 
+Etapas da patogênese virai 
+As etapas específicas que a patogênese viral implica são as se­
+guintes: penetração do vírus no hospedeiro, replicação viral 
+primária, disseminação do vírus, lesão celular, resposta imuno­
+lógica do hospedeiro, eliminação do vírus ou estabelecimento 
+de infecção persistente, e disseminação viral. 
+A. Penetração e replicação primária 
+Para que ocorra infecção em um hospedeiro, é necessário que o 
+vírus se fixe inicialmente às células de uma das superfícies cor­
+porais - pele, tratos respiratório, gastrintestinal e urogenital 
+ou conjuntiva - e penetre nelas. A maioria dos vírus penetra 
+em seus hospedeiros através da mucosa dos tratos respiratórios 
+ou gastrintestinal (Quadro 30.2). As principais exceções são os 
+vírus introduzidos diretamente na corrente sanguínea por agu­
+lhas (vírus da hepatite B, vírus da imunodeficiência humana 
+[HIV]), transfusões sanguíneas ou insetos vetores (arbovírus). 
+Em geral, os vírus replicam-se no local primário de entra­
+da. Alguns, como o vírus influenza (infecções respiratórias) e 
+os norovírus (infecções gastrintestinais), provocam doença na 
+porta de entrada e não necessitam sofrer disseminação sistêmi­
+ca adicional. Propagam-se localmente nas superfícies epiteliais, 
+sem que haja a disseminação para locais distantes. 
+B. Propagação virai e tropismo celular 
+Muitos vírus provocam doenças em locais distantes do seu pon­
+to de entrada (p. ex., enterovírus, que penetram através do trato 
+gastrintestinal, mas causam doença do sistema nervoso central 
+[SNC]). Após ocorrer replicação primária no local de entrada, 
+esses vírus propagam-se no hospedeiro (Fig. 30.2). Os mecanis­
+mos de propagação viral são variáveis, porém a via mais comum 
+é observada através da corrente sanguínea e dos vasos linfáticos. 
+A presença do vírus no sangue é denominada viremia. Os virions 
+podem estar livres no citoplasma (p. ex., enterovírus, toga vírus) ou 
+associados a tipos celulares específicos (p. ex., vírus do sarampo) 
+(Quadro 30.3). Alguns vírus multiplicam-se mesmo no interior 
+dessas células. A fase de viremia é curta em muitas infecções virais. 
+Em alguns casos, ocorre propagação neuronal; esta aparentemente 
+constitui o mecanismo pelo qual o vírus da raiva atinge o cérebro, 
+provocando doença, e pelo qual o herpes-vírus simples segue seu 
+trajeto até os gânglios, em que inicia infecções latentes. 
+
+===== pdf p. 440 =====
+432 
+SEÇÃO IV Virologia 
+e: 
+... 
+Q) 
+(.) 
+cn 
+·-
+"O 
+o 
+:t= 
+ޏ 
+w 
+ca 
+:::J 
+cn 
+"> 
+ca 
+°' 
+e: 
+ca 
+"O 
+:::J 
+E 
+ca 
+"O 
+o 
+>< 
+ca 
+.o 
+<( 
+Resposta da célula 
+Lise celular 
+Formação de corpo de inclusão 
+ou 
+Transformação celular 
+ou 
+Disfunção celular 
+Multiplicação virai 
+sem mudança visível 
+ou maturação virai 
+incompleta 
+Exposição sem 
+ligação e/ou 
+entrada celular 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+Resposta do hospedeiro 
+Morte do organismo 
+Doença clássica 
+e grave 
+Gravidade moderada 
+Doença leve 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+Infecção sem doença 
+clínica (infecção 
+assintomática) 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+\ 
+Exposição 
+sem 
+infecção 
+ca 
+(.) 
+·-e: 
+,_ (.) 
+ca 
+°' 
+e: 
+Q) 
+8 
+ca 
+. (.) 
+e: 
+,_ (.) 
+.o 
+:::J 
+cn 
+ca 
+°' 
+e: 
+Q) 
+o 
+o 
+Conceito de iceberg do processo infeccioso 
+FIGURA 30.1 Tipos de resposta celular e do hospedeiro à infecção virai. (Reproduzida, com autorização, de Evans AS: Epidemiological concepts. 
+ln: Evans AS, Brachman PS [editors.]: Bacterial lnfections of Humans, 3rd ed. Plenum, 1998. Reproduzida, com autorização, de Springer Science + 
+Business Media.) 
+Os vírus tendem a exibir especificidades de órgãos e células. 
+Dessa forma, o tropismo determina o padrão de doença sistê­
+mica produzida durante uma infecção viral. O vírus da hepatite 
+B, por exemplo, possui um tropismo por hepatócitos, sendo a 
+hepatite a principal doença causada pelo vírus. 
+O tropismo celular e tecidual exibido por determinado ví­
+rus reflete, em geral, a presença de receptores específicos na 
+superfície celular para tal vírus. Os receptores são componen­
+tes da superfície celular com os quais uma região da superfície 
+viral (capsídeo ou envelope) pode interagir especificamente, 
+iniciando a infecção. Os receptores são componentes celulares 
+que atuam no metabolismo normal da célula, mas que também 
+exibem afmidade por determinado vírus. A identidade de um 
+QUADRO 30.1 
+Características importantes de 
+doenças virais agudas 
+Exemplo de doença 
+específica 
+Local da patologia 
+Período de incubação 
+Virem ia 
+Duração da imunidade 
+Papel de anticorpos 
+secretores (lgA) 
+na resistência 
+Infecções locais 
+Respiratório 
+(rinovírus) 
+Porta de entrada 
+Relativa mente 
+curto 
+Ausente 
+Variável - pode 
+ser curta 
+Geralmente 
+importante 
+Infecções 
+sistêmicas 
+Sarampo 
+Local distante 
+Relativamente 
+longo 
+Presente 
+Geralmente 
+longa 
+Geralmente sem 
+importância 
+receptor celular específico é conhecida para alguns vírus, mas 
+em muitos casos é desconhecida. 
+Os fatores que afetam a expressão dos genes virais consti­
+tuem importantes determinantes do tropismo celular. As re­
+giões de intensificação que exibem alguma especificidade para 
+determinado tipo celular podem regular a transcrição de genes 
+virais. Assim, por exemplo, o intensificador do poliomavírus 
+JC é muito mais ativo nas células gliais do que em outros tipos 
+celulares. 
+Outro mecanismo responsável pelo tropismo tecidual en­
+volve enzimas proteolíticas. Certos paramixovírus não são 
+infecciosos até que uma glicoproteína do envelope sofra cli­
+vagem proteolítica. Vários ciclos de replicação viral não irão 
+ocorrer nos tecidos que não expressam as enzimas ativadoras 
+apropriadas. 
+A propagação dos vírus pode ser determinada, em parte, 
+por genes virais específicos. Estudos realizados com reovírus 
+mostraram que a extensão da propagação a partir do trato gas­
+trintestinal é determinada por uma das proteínas externas do 
+capsídeo. 
+C. Dano celular e doença clínica 
+A destruição das células infectadas por vírus nos tecidos-alvo 
+e as alterações fisiológicas induzidas no hospedeiro pela lesão 
+tecidual são, em parte, responsáveis pelo desenvolvimento de 
+doença. Alguns tecidos, como o epitélio intestinal, têm a capa­
+cidade de sofrer rápida regeneração e suportar lesões extensas 
+muito mais do que outros, como o cérebro. Alguns efeitos fi­
+siológicos podem resultar do comprometimento não letal de 
+funções celulares especializadas, como a perda de produção 
+de hormônios. A doença clínica decorrente de infecção viral 
+
+===== pdf p. 441 =====
+CAPÍTULO 30 
+Patogênese e controle das doenças virais 
+433 
+QUADRO 30.2 
+Vias comuns das infecções virais em seres humanos 
+Via de entrada 
+Grupo virai 
+Produção de sintomas locais 
+na porta de entrada 
+Produção de infecção generalizada 
+mais doença específica nos órgãos 
+Trato respiratório 
+Parvovírus 
+B19 
+Adenovírus 
+Herpes-vírus 
+Maioria dos tipos 
+Vírus Epstein-Barr, herpes-vírus 
+simples 
+Vírus da varicela 
+Poxvírus 
+Picornavírus 
+Rinovírus 
+Vírus da varíola 
+Alguns enterovírus 
+Vírus da rubéola 
+Togavírus 
+Coronavírus 
+Ortomixovírus 
+Paramixovírus 
+Maioria dos tipos 
+Vírus influenza 
+Vírus parainfluenza, vírus sincicial 
+Vírus da caxumba, vírus do sarampo 
+Boca, trato intestinal 
+respiratório 
+Alguns tipos 
+Norovírus 
+Adenovírus 
+Calicivírus 
+Herpes-vírus 
+Vírus Epstein-Barr, herpes-vírus 
+simples 
+Citomega loví rus 
+Picornavírus 
+Reovírus 
+Pele 
+Rota vírus 
+Alguns enterovírus, inclusive poliovírus e 
+vírus da hepatite A 
+Traumatismo leve 
+Papilomavírus 
+Herpes-vírus 
+Poxvírus 
+Maioria dos tipos 
+Herpes-vírus simples 
+Vírus do molusco contagioso, 
+vírus orf 
+Injeção 
+Mordidas 
+Hepadnavírus 
+Herpes-vírus 
+Retrovírus 
+Togavírus 
+Flavivírus 
+Rabdovírus 
+resulta de uma complexa série de eventos, e muitos dos fato­
+res que determinam a gravidade da doença permanecem des­
+conhecidos. Os elementos da resposta do hospedeiro, como a 
+produção de citocinas, podem resultar em sintomas generali­
+zados associados a muitas infecções virais, como mal-estar e 
+anorexia. A doença clínica é um indicador insensível de infec­
+ção viral, sendo as infecções virais inaparentes muito comuns. 
+D. Recuperação da infecção 
+O hospedeiro irá sucumbir à infecção viral ou recuperar-se 
+dela. Os mecanismos de recuperação incluem as respostas 
+imunológicas inata e adaptativa. O interferon (IFN) e outras 
+citocinas, a imunidade humoral e a imunidade mediada por 
+células, e possivelmente outros fatores de defesa do hospedeiro 
+estão envolvidos. A importância relativa de cada componente 
+difere de acordo com o vírus e a doença. 
+A importância dos fatores do hospedeiro na evolução 
+das infecções virais é ilustrada por um incidente ocorrido na 
+Hepatite B 
+Vírus Epstein-Barr, citomegalovírus 
+Vírus da imunodeficiência humana 
+Muitas espécies, inclusive o vírus da 
+encefalite equina ocidental 
+Muitas espécies, inclusive o vírus da febre 
+amarela 
+Vírus da raiva 
+década de 1940, em que 45.000 militares foram vacinados com 
+a vacina do vírus da febre amarela contaminada pelo vírus da 
+hepatite B. Embora esses indivíduos presumivelmente tenham 
+sido submetidos a exposições comparáveis, ocorreu hepatite 
+clínica em apenas 2% (914 casos), dos quais apenas 4% desen­
+volveram doença grave. As bases genéticas da suscetibilidade 
+do hospedeiro continuam a ser determinadas para a maior 
+parte das infecções. 
+Nas infecções agudas, a recuperação está associada à elimi­
+nação do vírus. Entretanto, existem circunstâncias em que o 
+hospedeiro permanece persistentemente infectado pelo vírus. 
+Essas infecções prolongadas são descritas adiante. 
+E. Disseminação do vírus 
+O último estágio da patogênese consiste em disseminação do 
+vírus infeccioso no ambiente. Trata-se de uma etapa necessária 
+para manter a infecção viral em populações de hospedeiros. Em 
+geral, ocorre disseminação a partir das superfícies corporais 
+
+===== pdf p. 442 =====
+434 
+SEÇÃO IV Virologia 
+Infecção 
+Superfície corporal + 
+t 
+Mucosas 
+nasal e 
+oral + 
+Varicela 
+Sarampo 
+Rubéola 
+óssea + 
+o 
+o o 
+o 
+o 
+--= 
+Linfonodo + 
+Sangue t 
+(viremia primária) ý 
+Fígado + 
+Baço + 
+Sangue 
+(viremia secundária) 
+Pele + 
+n 
+Zóster 
+Poliovírus 
+= 
+Cérebro + 
+Semüdisseminação 
+Poliovírus 
+Raiva 
+Sarampo (SSPE) 
+Influenza (respiratório) 
+Rotavírus (intestinal) 
+Verrugas (pele) 
+-• Movimento dos virions 
+ь Locais de disseminação 
++ Possíveis locais 
+de replicação 
+Vaso sanguíneo 
++ (endotélio) 
+Hepatite B 
+Arbovírus 
+Pulmão +, glândula salivar +, 
+• nns + 
+Caxumba 
+Citomegalovírus 
+Sarampo 
+FIGURA 30.2 Mecanismos de propagação dos vírus através do corpo nas infecções virais humanas. O sinal + indica os possíveis locais de repli­
+cação virai e as setas grandes indicam os locais de disseminação do vírus, com exemplos ilustrativos de doenças nas quais essa via de excreção é 
+importante. A transferência a partir do sangue ocorre por transfusão nos casos de hepatite B e por picada de mosquito em certas infecções por 
+arbovírus. SSPE, panencefalite subaguda esclerosante. (Reproduzida, com autorização, de Mims CA, White DO: Virai Pathogenesis and lmmunology. 
+Blackwell, 1984.) 
+envolvidas na penetração do vírus (Fig. 30.2). A disseminação 
+é observada em diferentes estágios da doença, dependendo do 
+agente específico envolvido. Representa o período em que o 
+indivíduo infectado torna-se infeccioso para os contatos. Em 
+algumas infecções virais, como a raiva, os seres humanos re­
+presentam infecções terminais, não havendo disseminação. 
+
+===== pdf p. 443 =====
+QUADRO 30.3 
+Disseminação virai via corrente 
+sanguíneaª 
+Tipo celular 
+associado 
+Linfócitos 
+Monócitos­
+macrófagos 
+Neutrófilos 
+Hemácias 
+Nenhum (livre 
+no plasma) 
+Exemplos 
+Vírusde DNA 
+Vírus Epstein-Barr, 
+citomega loví rus, 
+vírus da hepatite 
+B, vírus JC, vírus BK 
+Citomegalovírus 
+Parvovírus B19 
+Vírus de RNA 
+Caxumba, sarampo, 
+rubéola, vírus da 
+imunodeficiência 
+humana 
+Poliovírus, vírus da 
+imunodeficiência 
+humana, vírus do 
+sarampo 
+Vírus influenza 
+Vírus da febre do 
+carrapato do 
+Colorado 
+Togavírus, 
+picornavírus 
+ª Reproduzida, com autorização, de Tyler KL, Fields BN: Pathogenesis of virai 
+infections. ln Fields BN, Knipe DM, Howley PM et ai {editors). Fiefds Viro/ogy, 3rd ed. 
+Lippincott-Raven, 1996. 
+Resposta imunológica do hospedeiro 
+O resultado das infecções virais reflete a interação entre o vírus 
+e os fatores do hospedeiro. Os mecanismos não específicos de 
+resposta imunológica do hospedeiro em geral são estimulados 
+logo após a ocorrência de uma infecção viral. Entre as respostas 
+da imunidade inata, a mais proeminente é a indução de IFN 
+(ver adiante). Essas respostas auxiliam na inibição do cresci­
+mento viral no momento em que o microrganismo induz a res­
+posta imunológica humoral e mediada por células. 
+Tanto os componentes humorais quanto os celulares dares­
+posta imunológica estão envolvidos no controle das infecções 
+virais. Os vírus desencadeiam uma resposta tecidual diferente 
+da resposta às bactérias patogênicas. Enquanto os leucócitos 
+polimorfonucleares (PMN) constituem a principal resposta 
+celular à inflamação aguda causada por bactérias piogênicas, a 
+infiltração por células mononucleares e linfócitos caracteriza a 
+reação inflamatória das lesões virais sem complicações. 
+As proteínas codificadas pelos vírus atuam como alvos da 
+resposta imunológica. As células infectadas por vírus podem 
+ser lisadas por linfócitos T citotóxicos em consequência do 
+reconhecimento dos polipeptídeos virais na superfície celular. 
+A imunidade humoral protege o hospedeiro contra reinfecção 
+pelo mesmo vírus. Os anticorpos neutralizantes dirigidos con­
+tra as proteínas do capsídeo bloqueiam o desencadeamento da 
+infecção viral, provavelmente no estágio de fixação, entrada ou 
+desnudamento do vírus. O anticorpo IgA secretor é importan­
+te na proteção contra infecção por vírus através do trato respi­
+ratório ou gastrintestinal. 
+As características específicas de determinados vírus podem 
+ter profundos efeitos sobre a resposta imunológica do hos­
+pedeiro. Alguns vírus infectam e lesam as células do sistema 
+imunológico. O exemplo mais notável é o retrovírus humano 
+associado à síndrome da imunodeficiência adquirida (Aids), 
+que infecta os linfócitos T e destrói sua capacidade funcional 
+(ver Cap. 44). 
+CAPÍTULO 30 
+Patogênese e controle das doenças virais 
+435 
+A suscetibilidade do hospedeiro e a resposta à infecção são 
+determinadas geneticamente; essas diferenças são frequentes 
+nos genes da resposta imunológica. Por exemplo, a suscetibi­
+lidade à bronquiolite desencadeada por meio de infecção pelo 
+vírus sincicial respiratório foi associada aos genes da resposta 
+imune inata. 
+Os vírus desenvolveram diversas maneiras que servem pa­
+ra suprimir a resposta imunológica do hospedeiro ou escapar 
+dela, evitando, desta maneira, sua erradicação. Frequentemen­
+te, as proteínas virais envolvidas na modulação da resposta do 
+hospedeiro não são essenciais para o crescimento do vírus em 
+cultura de tecidos, sendo suas propriedades percebidas somen­
+te em experimentos de patogênese em modelos animais. Além 
+de infectar células do sistema imunológico e inibir sua fun­
+ção (HIV), os vírus podem infectar neurônios que expressam 
+pouco ou nenhuma molécula do complexo principal de his­
+tocompatibilidade classe I (major histocompatibility complex I 
+[MHC I]) (herpes-vírus), ou podem codificar proteínas imu­
+nomodulatórias que inibem a função dos MHC (adenovírus, 
+herpes-vírus), ou inibir a atividade das citocinas (sarampo, va­
+ríola). Os vírus podem sofrer mutações e modificar seus locais 
+antigênicos ou proteínas do virion (vírus influenza, HIV), ou 
+podem atenuar o nível de expressão de proteínas da superfície 
+viral (herpes-vírus). Diferentes microRNAs virais podem di­
+recionar transcrições celulares específicas, reprimindo, assim, 
+diferentes proteínas integrais importantes na resposta imune 
+inata do hospedeiro. A maioria dos vírus possui estratégias 
+anti-IFN (ver adiante). 
+Foi observado outro tipo de distúrbio imunopatológico em 
+seres humanos imunizados com vacinas contendo vírus mortos 
+do sarampo ou vírus sincicial respiratório (não mais utilizadas). 
+Alguns indivíduos desenvolveram respostas imunológicas sin­
+gulares que trouxeram graves consequências quando mais tarde 
+foram expostos ao vírus infectante de ocorrência natural. A febre 
+hemorrágica da dengue com a síndrome do choque, a qual se 
+desenvolve em indivíduos que já apresentaram pelo menos uma 
+infecção anterior por outro soro tipo da dengue, pode representar 
+uma manifestação natural do mesmo tipo de imunopatologia. 
+Outro efeito adverso potencial da resposta imunológica 
+consiste no desenvolvimento de autoanticorpos. Se o antíge­
+no viral induzir a produção de anticorpos que fortuitamente 
+reconhecem um determinante antigênico sobre uma proteína 
+celular nos tecidos normais, podem ocorrer lesão celular ou 
+perda da função, sem qualquer relação com a infecção viral. Na 
+atualidade, desconhece-se a magnitude deste problema poten­
+cial na doença humana. 
+Comparação entre a patogênese de uma 
+doença virai cutânea e a de uma doença 
+do sistema nervoso central 
+A Figura 30.3 ilustra a patogênese da varíola do camundongo, 
+uma doença da pele, e a da poliomielite humana, uma doença do 
+SNC. Ambos os vírus multiplicam-se no local primário de entra­
+da, antes de sofrer disseminação sistêmica para os órgãos-alvo. 
+No camundongo, o vírus da varíola penetra no corpo 
+através de minúsculas escoriações da pele e multiplica-se nas 
+células epidérmicas. Ao mesmo tempo, é transportado pelos 
+vasos linfáticos até os linfonodos regionais, onde também 
+ocorre a multiplicação do vírus. As poucas partículas virais que 
+
+===== pdf p. 444 =====
+436 
+SEÇÃO IV Virologia 
+Pele: 
+. 
+-
+1nvasao e 
+multiplicação 
+Linfonodos regionais: 
+multiplicação 
+Corrente sanguínea: 
+viremia primária 
+Baço e fígado: 
+multiplicação 
+Corrente sanguínea: 
+viremia secundária 
+Pele: 
+multiplicação focal 
+Dia 
+o 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+Anticorpos------
+no som 
+8 
+9 
+. 
+' 
+: : t 
+• •  
+• •  
+• • 
+• • 
+• • 
+• 
+• 
+• • 
+" 
+" 
+• •  
+• •  .. 
+, : ' 
+• 
+_,Intestino delgado: 
+. 
+-
+1nvasao e 
+multiplicação 
+Linfonodos mesentéricos: 
+multiplicação 
+1 
+Corrente sanguínea: 
+. 
+. 
+. 
+, . 
+v1rem1a pnmana 
+1 
+Foco central da 
+multiplicação 
+1 
+Aparecimento inicial 
+de anticorpos 
+1 
+SNC: 
+invasão, 
+multiplicação, 
+disseminação intraneural 
+Erupções cutâneas iniciais 
+1 O ------1-1-+- Altos níveis de 
+Contaminação 
+do ambiente 
+anticorpos no soro 
+11 -----+- Paralisia 
+Erupções cutâneas 
+graves, ulceração 
+Varíola murina 
+12 
+Excreção 
+nas fezes 
+Poliomielite humana 
+FIGURA 30.3 Ilustrações esquemáticas da patogênese da varíola murina e da poliomielite. SNC, sistema nervoso central. (Cortesia de F. Fenner.) 
+penetram no sangue através dos vasos linfáticos eferentes são 
+capturadas pelos macrófagos do fígado e do baço, órgãos em 
+que os vírus se multiplicam rapidamente. Após a liberação do 
+fígado e do baço, o vírus segue seu trajeto através da corrente 
+sanguínea e passa a localizar-se na camada epidérmica basal da 
+pele, nas células da conjuntiva e próximo aos folículos linfáti­
+cos no intestino. Em certas ocasiões, também pode localizar-se 
+nas células epiteliais dos rins, pulmões, glândulas submaxilares 
+e pâncreas. Ocorre lesão primária no local de entrada do vírus, 
+que se manifesta em forma de intumescimento localizado que 
+aumenta rapidamente de tamanho, torna-se edematoso, sofre 
+ulceração e prossegue até a formação de cicatriz. Em seguida, 
+surge uma erupção generalizada, responsável pela liberação de 
+grandes quantidades de vírus no ambiente. 
+Na poliomielite, o vírus penetra pelo trato alimentar, mul­
+tiplica-se localmente nos locais iniciais de implantação viral 
+(tonsilas, placas de Peyer) ou nos linfonodos que drenam esses 
+tecidos, começando a aparecer na garganta e nas fezes. Ocor­
+re propagação viral secundária, através da corrente sanguínea, 
+para outros tecidos suscetíveis - especificamente outros linfo­
+nodos e o SNC, no interior do qual o vírus se propaga ao longo 
+das fibras nervosas. Se houver uma elevada taxa de multiplica­
+ção quando o vírus se propagar através do SNC, os neurônios 
+motores serão destruídos, e ocorrerá paralisia. A disseminação 
+do vírus no ambiente não depende da propagação viral secun­
+dária para o SNC. A propagação para o SNC é facilmente in­
+terrompida pela presença de anticorpos induzidos por infecção 
+anterior ou vacinação. 
+Persistência virai: infecções virais crônicas 
+e latentes 
+As infecções são agudas quando um vírus infecta pela primeira 
+vez um hospedeiro suscetível. Em geral, as infecções virais são 
+autolimitadas. Todavia, algumas vezes o vírus persiste por lon­
+go tempo no hospedeiro. A interação prolongada entre vírus 
+e hospedeiro pode assumir várias formas. As infecções crôni­
+cas (também chamadas infecções persistentes) são aquelas em 
+que o vírus replicante pode ser continuamente detectado, qua­
+se sempre em níveis baixos, podendo haver ou não sintomas 
+clínicos leves. As infecções latentes são aquelas em que o vírus 
+persiste em uma forma oculta (escondida ou críptica) na maior 
+
+===== pdf p. 445 =====
+parte do tempo quando não são produzidas novas partículas 
+virais. Ocorrem exacerbações intermitentes da doença clínica, 
+podendo o vírus infeccioso ser isolado durante essas exacerba­
+ções. As sequências virais podem ser detectadas por técnicas 
+moleculares em tecidos com infecções latentes. As infecções 
+inaparentes ou subclínicas são aquelas que não produzem si­
+nais manifestos da presença do vírus. 
+Diversos vírus de animais provocam infecções crônicas, e a 
+persistência, em certos casos, depende da idade do hospedeiro 
+quando é infectado. Nos seres humanos, por exemplo, a infecção 
+pelo vírus da rubéola e a infecção pelo citomegalovírus, quando 
+contraídas in utero, caracteristicamente resultam em persistên­
+cia limitada do vírus, provavelmente devido ao desenvolvimento 
+da capacidade imunológica de reagir à infecção à medida que o 
+lactente amadurece. Os lactentes infectados pelo vírus da hepa­
+tite B com frequência apresentam infecção persistente (portado­
+res crônicos), sendo a maioria dos portadores assintomática (ver 
+Cap. 35). Nas infecções crônicas por vírus do RNA, a população 
+viral às vezes sofre várias alterações genéticas e antigênicas. 
+Em geral, os herpes-vírus provocam infecções latentes. Os 
+herpes-vírus simples penetram nos gânglios sensoriais e per­
+sistem em um estado não infeccioso (Fig. 30.4). Podem ocor­
+rer reativações periódicas, durante as quais surgem lesões que 
+contêm vírus infecciosos em locais periféricos (p. ex., vesículas 
+Herpes-vírus simples 1 
+• 
+• • 
+.. •...•. 
+'--" . ·ލ··· 
+•• 
+Vírus da varicela 
+CAPÍTULO 30 
+Patogênese e controle das doenças virais 
+437 
+febris). O vírus da varicela (varicela-zóster) também se torna 
+latente nos gânglios sensoriais. As recidivas, que são raras, 
+ocorrem depois de vários anos, seguindo habitualmente a dis­
+tribuição de um nervo periférico (zóster). Outros membros 
+da família dos herpes-vírus também estabelecem infecções la­
+tentes, como o citomegalovírus e o vírus Epstein-Barr. Todos 
+esses vírus podem ser reativados por imunossupressão. Por 
+conseguinte, as infecções reativadas por herpes-vírus podem 
+representar uma grave complicação em indivíduos submetidos 
+à terapia imunossupressora. 
+As infecções virais persistentes podem desempenhar um 
+papel muito importante na doença humana. As infecções virais 
+persistentes estão associadas a certos tipos de câncer nos seres 
+humanos (ver Cap. 43), bem como a doenças degenerativas pro­
+gressivas do SNC de seres humanos (ver Cap. 42). A Figura 30.5 
+traz exemplos de diferentes tipos de infecção viral persistente. 
+As encefalopatias espongiformes formam um grupo de 
+infecções crônicas, progressivas e fatais do SNC causadas por 
+agentes não convencionais transmissíveis, denominados príons 
+(ver Cap. 42) e que não são considerados vírus. Os melhores 
+exemplos desse tipo de infecção por vírus "lento" são o distúr­
+bio degenerativo do SNC (scrapie) em carneiros, a encefalopa­
+tia espongiforme bovina no gado, bem como o kuru e a doença 
+de Creutzfeldt-Jakob que ocorrem em seres humanos. 
+1 l 
+r 
+-
+Neurônio no gânglio 
+da raiz dorsal 
+Cordão espinal 
+•!• • •  
+•••• 
+Infecção 
+primária 
+Trânsito virai para 
+o nervo periférico 
+• 
+Faringite leve ou 
+estomatite 
+Febre 
+Face rosada 
+Menstruação 
+Secção do nervo em * 
+.. 
+Herpes simples 
+Varicela 
+Idade 
+Irradiação por raios X 
+Ativação do vírus 
+(ação por depressão da IMC) 
+.. 
+, 
+A 
+• 
+no neuron10 
+Recorrência 
+Herpes-zóster 
+, ' 
+. 
+' 
+- D 
+D 
+'I 
+\ 
+C7 
+1 '  
+ɀ 
+,, 
+" 
+• 
+• 
+ɔ--=ɕ=--,._, 
+...._ 
+Trânsito virai para 
+os nervos periféricos 
+Cordão espinal 
+• 
+FIGURA 30.4 Infecções latentes por herpes-vírus. São apresentados exemplos do herpes-vírus simples e do vírus varicela-zóster. Ocorrem in­
+fecções primárias na infância ou na adolescência, seguidas pelo estabelecimento do vírus latente em gânglios cerebrais ou espinhais. A ativação 
+subsequente provoca herpes simples ou herpes-zóster recorrente. As recidivas são raras no caso do zóster. IMC, imunidade mediada por células. 
+(Reproduzida, com autorização, de Mims CA, White DO: Virai Pathogenesis and lmmunology. Blackwell, 1984.) 
+
+===== pdf p. 446 =====
+438 
+SEÇÃO IV Virologia 
+1 .  Sarampo 
+2. Panencefalite esclerosante 
+subaguda 
+3. Influenza, 
+febre amarela 
+t 
+= Limiar da infecção aparente 
+(doença clínica) 
+= Ativação da produção do vírus 
+no hospedeiro original 
+4. Hepatite B 
+5. EEL em aves 
+6. Papiloma 
+humano 
+-- - Evolução da doença 
+= Presença de vírus oculto 
+7. Adenovírus 
+8. Herpes simples 
+9. Scrapie 
+1 O. Gripe suína a 
+partir de ne­
+matódeos 
+1 1 .  Vírus da CML em 
+camundongos 
+recém-nascidos 
+12. Vírus da CML em 
+camunɓ 
+dongos adultos 
+13. 
+? 
+• 
+FIGURA 30.5 Diferentes tipos de interação entre vírus e hospedeiro: infecção aparente (doença clínica), inaparente (subclínica), crônica, la­
+tente, oculta e lenta. (1) O sarampo segue uma evolução aguda e quase sempre clinicamente aparente, que resulta em imunidade duradoura. 
+(2) O sarampo também pode estar associado à persistência de infecção latente na panencefalite esclerosante subaguda (ver Cap. 40). (3) A febre 
+amarela e a influenza obedecem a um padrão semelhante ao do sarampo, exceto quanto ao fato de que a infecção pode ser com mais frequência 
+subclínica, do que clínica. (4) Na hepatite virai tipo B, a recuperação da doença clínica pode estar associada à infecção crônica, caracterizada 
+por persistência do vírus totalmente ativo no sangue. (5) Algumas infecções são, em determinadas espécies, sempre subclínicas, como a ence­
+falomielite equina do leste (EEL) em algumas espécies de aves, que funcionam então como reservatório do vírus. (6) No papiloma humano, a 
+evolução da infecção é crônica, quando o câncer cervical se desenvolve e o vírus está oculto (não replicante). (7) A infecção de seres humanos 
+por determinados adenovírus pode ser clínica ou subclínica. Pode ocorrer infecção latente prolongada, durante a qual o vírus é encontrado em 
+pequenas quantidades; os vírus também podem persistir após a doença. (8) A reativação periódica do herpes-vírus simples latente, que pode 
+sofrer recidiva durante toda a vida nos seres humanos, ocorre com frequência depois de um episódio agudo inicial de estomatite na infância. 
+(9) A infecção pode permanecer latente durante longo tempo, antes de ser ativada. São exemplos dessas infecções "lentas", caracterizadas 
+por longos períodos de incubação, o scrapie em carneiros e o kuru em seres humanos (que se acredita que sejam causados por príons, não por 
+vírus). (10) Em suínos que ingeriram nematódeos pulmonares contendo vírus, a gripe suína permanece oculta até que o estímulo apropriado 
+induza a produção de vírus e, por sua vez, doença clínica. (11) O vírus da coriomeningite linfocítica (CML) pode estabelecer-se em camundongos 
+mediante infecção in utero. Verifica-se o desenvolvimento de uma forma de tolerância imunológica, em que não ocorre a ativação das células T 
+específicas do vírus. Ocorre a produção de anticorpos contra as proteínas virais; esses anticorpos e o vírus da CML circulante formam complexos 
+de antígeno-anticorpo, que provocam doença por imunocomplexos no hospedeiro. A presença do vírus da CML em tal infecção crônica (vírus 
+circulante com doença leve ou inaparente) pode ser revelada por transmissão a um hospedeiro indicador, como, por exemplo, camundongos 
+adultos isentos de vírus. (12) Todos os camundongos adultos desenvolvem os sintomas agudos clássicos da CML e com frequência morrem. (13) 
+Possibilidade de infecção latente por vírus oculto não facilmente ativado. A prova da presença desses vírus continua sendo uma tarefa difícil que, 
+entretanto, está atraindo a atenção de pesquisadores do câncer (ver Cap. 43). 
+Resumo das infecções respiratórias virais 
+agudas 
+Muitos tipos de vírus têm acesso ao corpo humano através do 
+trato respiratório, principalmente em forma de perdigotos ou 
+saliva. Trata-se da via mais frequente de entrada dos vírus no 
+hospedeiro. Ocorre infecção bem-sucedida apesar dos meca­
+nismos protetores normais do hospedeiro, inclusive o muco 
+que recobre a maioria das superfícies, a ação ciliar, as coleções 
+de células linfoides, os macrófagos alveolares e a IgA secretora. 
+Muitas infecções permanecem localizadas no trato respirató­
+rio, embora alguns vírus provoquem sintomas característicos 
+de doença após disseminação sistêmica (p. ex., varicela, saram­
+po, rubéola; Quadro 30.2, Figura 30.2). 
+As infecções respiratórias impõem grande impacto nega­
+tivo em todo o mundo, sendo uma das principais causas de 
+morbidade e de mortalidade em crianças menores de 5 anos, 
+superando o percentual das doenças gastrintestinais (segunda 
+causa mundial). 
+Os sintomas de doença exibidos pelo hospedeiro dependem de 
+a infecção estar concentrada no trato respiratório superior ou no 
+inferior (Quadro 30.4). Apesar de o diagnóstico definitivo exigir 
+isolamento do vírus, a identificação de uma sequência gênica viral 
+ou a demonstração de elevação nos títulos de anticorpos, frequen­
+temente se pode deduzir a doença viral específica com base nos 
+principais sintomas observados, na idade do paciente, na época do 
+ano e em qualquer padrão da doença na comunidade. 
+A gravidade da infecção respiratória pode variar desde ina­
+parente até fulminante. Em geral, a doença mais grave é obser­
+vada em lactentes infectados por determinados paramixovírus 
+e em indivíduos idosos ou adultos cronicamente doentes infec­
+tados pelo vírus influenza. 
+Resumo das infecções virais do trato 
+gastri ntesti na 1 
+Muitos vírus iniciam a infecção através do trato alimentar. Al­
+guns poucos agentes, como o herpes-vírus simples e o vírus 
+
+===== pdf p. 447 =====
+CAPÍTULO 30 
+Patogênese e controle das doenças virais 
+439 
+QUADRO 30.4 
+Infecções virais do trato respiratório 
+Síndromes 
+Resfriado comum 
+Faringite 
+Laringite/crupe 
+Traqueobronquite 
+Bronquiolite 
+Pneumonia 
+Principais sintomas 
+Obstrução nasal, 
+corrimento nasal 
+Dor de garganta 
+Rouquidão, tosse 
+"de cachorro" 
+Tosse 
+Tosse, dispneia 
+Tosse, dor no peito 
+Causas virais mais comunsª 
+Ri no 
+Ade no 
+Ade no 
+Bebês 
+Herpes simples 
+Parainfluenza 
+Influenza 
+Parainfluenza 
+Influenza 
+Sincicial respiratório 
+Parainfluenza 
+Sincicial respiratório 
+Influenza 
+Crianças 
+Ri no 
+Ade no 
+Ade no 
+Coxsackie 
+Parainfluenza 
+Influenza 
+Parainfluenza 
+Influenza 
+Rara 
+Influenza 
+Para influenza 
+Adultos 
+Ri no 
+Coro na 
+Ade no 
+Coxsackie 
+Parainfluenza 
+Influenza 
+Influenza 
+Ade no 
+Rara 
+Influenza 
+Ade no 
+ªVírus respiratórios mais comumente reportados variam, dependendo do tipo de estudo, da população estudada, dos métodos de detecção e 
+de outros fatores {p. ex., época do ano). 
+Epstein-Barr, provavelmente infectam as células da boca. Os 
+vírus no trato intestinal são expostos a elementos adstringen­
+tes envolvidos na digestão dos alimentos - ácido, sais biliares 
+(detergentes) e enzimas proteolíticas. Em consequência, todos 
+os vírus capazes de iniciar uma infecção por essa via mostram­
+se resistentes aos ácidos e sais biliares. Além disso, os vírus 
+também podem deparar-se com a presença da IgA secretora 
+específica do vírus e com inibidores inespecíficos da replicação 
+viral. 
+Gastrenterite aguda é a expressão utilizada para designar 
+uma doença gastrintestinal de curta duração com sintomas 
+que variam desde diarreia aquosa leve até doença febril grave, 
+caracterizada por vômitos, diarreia e prostração. Os rotavírus, 
+o norovírus e os calicivírus constituem as principais causas da 
+gastrenterite. Lactentes e crianças em geral são acometidos com 
+maior frequência. 
+Alguns vírus causadores de infecções entéricas utilizam 
+proteases do hospedeiro para facilitar a infecção. Em geral, a 
+digestão proteolítica altera o capsídeo viral por clivagem par­
+cial de uma proteína de superfície viral, que facilita a ocorrên­
+cia de um evento específico, como a fixação do vírus ou a fusão 
+com a membrana. 
+Os enterovírus, os coronavírus e os adenovírus também in­
+fectam o trato gastrintestinal, todavia, essas infecções com fre­
+quência são assintomáticas. Alguns enterovírus, especialmente 
+os poliovírus e o vírus da hepatite A, constituem importantes 
+causas de doença sistêmica, mas não acarretam sintomas in­
+testinais. 
+Resumo das infecções cutâneas virais 
+A pele atua como barreira firme e impermeável à entrada de ví­
+rus. Todavia, alguns vírus são capazes de romper essa barreira 
+e iniciar uma infecção no hospedeiro (Quadro 30.2). Certos ví­
+rus penetram no corpo através de pequenas escoriações da pele 
+(poxvírus, papilomavírus, herpes-vírus simples), enquanto ou­
+tros são introduzidos pela picada de artrópodes vetores ( arbo­
+vírus) ou hospedeiros vertebrados infectados (vírus da raiva, 
+vírus da hepatite B), e outros, ainda, são inoculados durante 
+transfusões sanguíneas ou outras manipulações que envolvem 
+agulhas contaminadas, como acupuntura e tatuagem (vírus da 
+hepatite B, HIV). Várias espécies de poliomavírus, incluindo o 
+vírus das células de Merkel, têm sido detectadas na pele. Con­
+tudo, é ainda desconhecido como esses poliomavírus iniciam 
+um processo infeccioso. 
+Alguns poucos agentes permanecem localizados e causam 
+lesões no local de entrada (papilomavírus e molusco conta­
+gioso); contudo, a maioria propaga-se para outros locais. A 
+camada epidérmica é destituída de vasos sanguíneos e fibras 
+nervosas, de modo que os vírus que infectam células epidér­
+micas tendem a permanecer localizados. Os vírus introduzidos 
+mais profundamente na derme têm acesso aos vasos sanguí­
+neos, linfáticos, células dendríticas e macrófagos, e em geral se 
+propagam, causando infecções sistêmicas. 
+Muitas das erupções cutâneas generalizadas, associadas a 
+infecções virais, surgem em consequência da propagação do 
+vírus para a pele através da corrente sanguínea, após sua repli­
+cação em algum outro local. Essas infecções originam-se por 
+outra via (p. ex., as infecções pelo vírus do sarampo ocorrem 
+através do trato respiratório), de modo que a pele se torna in­
+fectada a partir do meio interno. 
+As lesões nas erupções cutâneas são denominadas máculas, 
+pápulas, vesículas ou pústulas. As máculas, causadas por dilata­
+ção local de vasos sanguíneos da derme, evoluirão para pápulas 
+se houver edema e infiltração celular na área. Ocorrem vesícu­
+las quando a epiderme é afetada; as vesículas se transformarão 
+em pústulas se a reação inflamatória atrair leucócitos PMN 
+para a lesão. Em seguida, verifica-se a formação de úlceras e 
+crostas. Ocorrem erupções hemorrágicas e petequiais quando 
+há o comprometimento mais grave dos vasos da derme. 
+Com frequência, as lesões cutâneas não desempenham pa­
+pel algum na transmissão dos vírus. O vírus infeccioso não é 
+eliminado a partir da erupção maculopapular do sarampo ou 
+das erupções associadas às infecções por arbovírus. Já as lesões 
+cutâneas são importantes na disseminação dos poxvírus e do 
+herpes-vírus simples. Verifica-se a presença de partículas vi­
+rais infecciosas em títulos elevados no líquido dessas erupções 
+vesicopustulares, sendo tais partículas capazes de dar início à 
+
+===== pdf p. 448 =====
+440 
+SEÇÃO IV Virologia 
+infecção por contato direto com outros hospedeiros. Todavia, 
+mesmo nesses casos, acredita-se que os virions nas secreções 
+orofaríngeas podem ser mais importantes para a transmissão 
+da doença do que as lesões cutâneas. 
+Resumo das infecções virais do sistema 
+nervoso central 
+A invasão do SNC por vírus é sempre um problema grave. Os 
+vírus podem alcançar o cérebro por duas vias: pela corrente 
+sanguínea (disseminação hematogênica) e pelas fibras nervosas 
+periféricas (disseminação neuronal). Pode ocorrer o acesso do 
+vírus, a partir do sangue, por crescimento no endotélio dos pe­
+quenos vasos cerebrais, transporte passivo através do endotélio 
+vascular, passagem para o líquido cerebrospinal (LCS) através 
+do plexo coroide ou transporte no interior de monócitos, leu­
+cócitos ou linfócitos infectados. Uma vez rompida a barreira 
+hematoencefálica, é possível ocorrer disseminação mais exten­
+sa por todo o cérebro e a medula espinal. Existe tendência a 
+haver uma correlação entre o nível de viremia alcançado por 
+um vírus neurotrópico transportado pelo sangue e a sua capa­
+cidade de invasão neural. 
+A outra via de acesso ao SNC é fornecida pelos nervos pe­
+riféricos. Os virions podem ser captados nas terminações mo­
+toras ou nervosas sensoriais e transportados no interior dos 
+axônios, através dos espaços endoneurais, ou por infecção das 
+células de Schwann. Os herpes-vírus são transportados em 
+axônios, sendo liberados nos neurônios dos gânglios das raízes 
+dorsais. 
+As vias de propagação não se mostram mutuamente ex­
+cludentes, de modo que um vírus pode utilizar mais de uma 
+dessas vias. Muitos vírus, como o herpes-vírus, togavírus, 
+flavivírus, enterovírus, rabdovírus, paramixovírus e buniaví­
+rus, podem infectar o SNC e provocar meningite, encefalite 
+ou ambas. A encefalite provocada pelo herpes-vírus simples 
+constitui a causa mais comum de encefalite esporádica em 
+seres humanos. 
+As reações patológicas a infecções virais por citocidas do 
+SNC consistem em necrose, inflamação e fagocitose por célu­
+las gliais. A causa dos sintomas em algumas outras infecções 
+do SNC, como a raiva, não está bem elucidada. A encefalite 
+pós-infecciosa, que ocorre após o sarampo (cerca de 1 em 
+1.000 casos) e, mais raramente, após a rubéola, caracteriza-se 
+por desmielinização sem degeneração neuronal, constituindo 
+provavelmente doença autoimune. 
+Existem vários distúrbios neurodegenerativos raros, de­
+nominados infecções por vírus lentos, que são uniforme­
+mente fatais. Essas infecções caracterizam-se por um longo 
+período de incubação (meses a anos), seguido de início da 
+doença clínica e deterioração progressiva, resultando em 
+morte em semanas a meses. Em geral, apenas o SNC é aco­
+metido. Algumas infecções por vírus lento, como a leuco­
+encefalopatia multifocal progressiva (poliomavírus JC) e a 
+panencefalite esclerosante subaguda (vírus do sarampo), são 
+provocadas por vírus típicos. Diferentemente, as encefalopa­
+tias espongiformes subagudas, exemplificadas pelo scrapie, 
+são as doenças priônicas, causadas por agentes não conven­
+cionais conhecidos como príons. Nessas infecções, ocorrem 
+alterações neuropatológicas características, porém não se 
+observa qualquer resposta inflamatória ou imunológica. O 
+poliomavírus JC causa infecções sintomáticas, assintomáticas 
+e crônicas, que são normalmente controladas pelo sistema 
+imunológico competente. Contudo, em condições de imu­
+nossupressão, devido ao tratamento médico, ou por infecção 
+por HIV, por exemplo, esse vírus escapa do controle imune, 
+causando doença neurológica grave. 
+Resumo das infecções virais congênitas 
+Poucos vírus causam doença no feto humano. A maioria das 
+infecções virais maternas não resulta em viremia e compro­
+metimento fetal. Entretanto, se o vírus atravessar a placenta e 
+ocorrer infecção in utero, o feto poderá sofrer lesão grave. 
+Os três princípios envolvidos na produção de defeitos con­
+gênitos são: (1) a capacidade do vírus de infectar a mulher grá­
+vida e ser transmitido ao feto; (2) o estágio da gestação em que 
+ocorre a infecção; e (3) a capacidade do vírus de causar lesão 
+diretamente ao feto (por infecção fetal) ou indiretamente, (por 
+infecção da mãe) com a consequente alteração do ambiente fe­
+tal (p. ex., febre). A Figura 30.6 mostra a sequência dos eventos 
+que podem ocorrer antes e depois da invasão viral do feto. 
+Na atualidade, o vírus da rubéola e o citomegalovírus cons­
+tituem os agentes primários responsáveis por defeitos congêni­
+tos em seres humanos (ver Caps. 33 e 40). Além disso, podem 
+ocorrer infecções congênitas pelo herpes-vírus simples, vírus 
+varicela-zóster, vírus da hepatite B, vírus do sarampo, vírus da 
+caxumba e HIV, parvovírus e alguns enterovírus (Quadro 30.5). 
+As infecções in utero podem resultar em morte fetal, 
+nascimento prematuro, atraso do crescimento intrauterino 
+ou infecção pós-natal persistente. Em consequência, podem 
+ocorrer malformações de desenvolvimento, como defeitos 
+cardíacos congênitos, catarata, surdez, microcefalia e hipo­
+plasia dos membros. O tecido fetal prolifera rapidamente. A 
+Vírus 1 
+Mulher grávida 
+suscetível 
+Aborto 
+..,
+._
+..,_
+ _
+_
+_
+ --.) 1 Í---)lo Feto 
+espontâneo 
+normal 
+Infecção do 
+líquido amniótico 
+Feto 
+normal 
+Feto 
+infectado 
+(doença±) 
+Infecção 
+materna 
+óvulos 
+Infecção 
+fetal 
+Morte fetal 
+(aborto; 
+natimorto) 
+Infecção 
+placentária 
+Malformação 
+(± morte) 
+FIGURA 30.6 Infecção virai do feto. (Cortesia de L Catalano e J Sever.) 
+
+===== pdf p. 449 =====
+QUADRO 30.5 
+Aquisição de infecções perinatais 
+importantes 
+Frequência do tempo de infecção 
+Incidência 
+neonatal 
+Pré-natal 
+Natal 
+Pós-natal 
+(por 1.000 
+(no 
+(durante o 
+(após o 
+nascidos 
+Vírus 
+útero) 
+nascimento) 
+nascimento) 
+vivos) 
+Rubéola 
++ 
+Rara 
+0,1 a 0,7 
+Citomegalovírus 
++ 
+++ 
++ 
+5 a 25 
+Herpes simples 
++ 
+++ 
++ 
+0,03 a 0,5 
+Varicela-zóster 
++ 
+Rara 
+Rara 
+Rara 
+Hepatite B 
++ 
+++ 
++ 
+O a 7  
+Enterovírus 
++ 
+++ 
++ 
+Incomum 
+HIV 
++ 
+++ 
+Rara 
+Variável 
+Parvovírus Bl 9 
++ 
+Rara 
+Rara 
+infecção e a multiplicação do vírus podem destruir as células 
+ou alterar sua função. Os vírus líticos, como o herpes-vírus 
+simples, podem resultar em morte fetal. Os vírus menos ci­
+tolíticos, como o da rubéola, podem reduzir a velocidade de 
+divisão celular. Se isso ocorrer durante uma fase crítica do 
+desenvolvimento dos órgãos, poderão surgir defeitos estrutu­
+rais e anomalias congênitas. 
+Muitos desses vírus podem provocar doença grave em 
+recém-nascidos (Quadro 30.5). Tais infecções podem ser con­
+traídas da mãe, durante o parto (natais), a partir de secreções 
+genitais, fezes ou sangue contaminados. Com menor frequên­
+cia, as infecções podem ser adquiridas, durante as primeiras se­
+manas após o parto (pós-natais), de fontes maternas, membros 
+da família, da equipe hospitalar ou de transfusões de sangue. 
+O HIV pode ser transmitido pelo leite materno produzido por 
+mães infectadas. 
+Efeito da idade do hospedeiro 
+A idade do hospedeiro representa um fator na patogenicida­
+de viral. As formas mais graves de doença são com frequência 
+induzidas em recém-nascidos. Além da maturação da resposta 
+imunológica com a idade, parecem existir alterações relacio­
+nadas com a idade na suscetibilidade de determinados tipos 
+de célula à infecção viral. Em geral, podem ocorrer infecções 
+virais em todos os grupos etários, embora possam ter maior 
+impacto em diferentes momentos da vida. São exemplos a ru­
+béola, que é mais grave durante a gestação; a infecção por ro­
+tavírus, de maior gravidade em lactentes; e a encefalite de St. 
+Louis, mais grave no idoso. 
+Diagnóstico das infecções virais 
+Há diferentes modos nos quais as infecções virais podem ser 
+diagnosticadas (Fig. 30.7) (ver Cap. 47). Os principais méto­
+dos usados hoje são os métodos rápidos. Esses métodos in­
+cluem a detecção de antígenos, usando anticorpos monoclonais 
+CAPÍTULO 30 Patogênese e controle das doenças virais 
+441 
+específicos para diferentes antígenos virais*, testes de reação de 
+cadeia polimerase (polymerase chain reaction [PCR]) e sondas 
+genéticas para a detecção de sequências específicas no genoma 
+viral. Os testes de PCR podem ser multiplex, permitindo a de­
+tecção de múltiplos vírus simultaneamente. A cultura das partí­
+culas virais e os testes sorológicos clássicos fornecem resultados 
+de forma mais demorada, porém são úteis no estudo epidemio­
+lógico. Em um futuro próximo, tecnologias baseadas no ácido 
+nucleico, usando, por exemplo, técnica de microarranjo de alta 
+densidade (microarray)**, provavelmente mudarão a abordagem 
+do diagnóstico viral. Nesse momento, o conhecimento do espe­
+cífico agente viral associado a uma determinada patologia em 
+geral não altera a conduta terapêutica preconizada. 
+PREVENÇÃO E TRATAMENTO DAS 
+INFECÇÕES VIRAIS 
+Quimioterapia antivirai 
+Diferente dos vírus, as bactérias e os protozoários não dependem 
+do mecanismo celular do hospedeiro para sua multiplicação, 
+de modo que os processos específicos desses microrganismos 
+provêm alvos fáceis para o desenvolvimento de antibacterianos 
+e antiprotozoários. Como os vírus são parasitos intracelulares 
+obrigatórios, os antivirais devem ser capazes de inibir seleti­
+vamente as funções virais sem lesar o hospedeiro, tornando o 
+desenvolvimento de tais fármacos bastante difícil. Outra limi­
+tação é que muitos ciclos de replicação viral ocorrem durante o 
+período de incubação, e o vírus dissemina-se antes de surgirem 
+os sintomas, tornando o tratamento com fármacos relativa­
+mente ineficaz. 
+* N. de R.T. Uma técnica importante é a imunocromatografia, que está 
+sendo utilizada como alternativa aos métodos tradicionais, pois concentra 
+a reação Ag-Ac em uma única fase sólida, que é mantida e utilizada em 
+temperatura ambiente, proporcionando melhor praticidade no seu uso. 
+Além disso, ao contrário dos testes convencionais que em geral levam ho­
+ras, a imunocromatografia produz um resultado em geral entre 10 e 30 
+minutos, sendo assim, um teste rápido, podendo ser utilizado como teste 
+de rastreamento. Outra vantagem é a alta sensibi lidade e especificidade 
+semelhantes aos testes de Elisa de 3ª geração e com o custo mais baixo. 
+Estes testes também não exigem equipamento ou treinamento específico 
+complicado para sua realização ou interpretação. Isso significa que o teste 
+muitas vezes pode ser realizado pelo próprio agente de saúde, dispensan­
+do o envio do material biológico para centros de saúde especializados. O 
+teste de imunocromatografia para HIV, por exemplo, usa uma combina­
+ção de proteínas recombinantes dos vírus HIV-1 e HIV-2, imobilizada 
+na nitrocelulose (região teste) para detecção de anticorpos anti-HIV em 
+sangue ou soro do indivíduo. Os anticorpos presentes nas amostras se li­
+gam a anticorpos monoclonais anti-IgG e anti-IgM humanas marcados. O 
+complexo, que flui pela membrana, se liga aos antígenos (gp41 e gp36) na 
+área T, formando uma banda rosa clara. 
+** N. de R T. Microaranjo, é uma técnica que detecta os níveis de expressão de 
+transcritos em larga escala, ou seja, medindo muitos (em alguns casos todos 
+os) transcritos simultaneamente. Um microaranjo, ou DNA-chip, consiste 
+em um arranjo pré-definido de moléculas de DNA (fragmentos de DNA ge­
+nôrnico, cDNAs ou oligonucleotídeos) quimicamente ligadas à uma super­
+fície sólida, usualmente lâminas de microscópio revestidas com compostos 
+que conferem carga positiva. Os microarranjos também podem ser prepara­
+dos em membranas de náilon positivamente carregadas. Esses rnicroarranjos 
+são utilizados na detecção e quantificação de ácidos nucleicos (RNAm na 
+forma de cDNA ou DNA genômico) provenientes de amostras biológicas, as 
+quais são postas para hibridar com o DNA fixado no array (hibridação por 
+complementariedade de bases). A detecção é possível pois as amostras são 
+marcadas com fluorocromos cianina 3 (Cy3) ou cianina 5 (CyS). 
+
+===== pdf p. 450 =====
+442 
+SEÇÃO IV Virologia 
+Sinais e sintomas: Manifestações clínicas 
+típicas da infecção virai podem ser observadas 
+no paciente. Nesse caso, a figura revela lesões 
+típicas do vírus herpes 
+simples tipo 1 .  
+Embrião 
+Cultivo celular 
+Técnicas de cultivo. Os vírus requerem 
+um hospedeiro vivo para se multiplicar. 
+,..,_,. 
+9· 
+] 
+o· i 
+"'-/ 
+,.._,. 
+,...._,-
+o 
+,..._, 
+] 
+\ 
+--.r 
+.-....; 
+,..,_,. 
+ɒ-
+,.._,. 
+,..._, 
+9 
+,,..,_,. 
+һ 
+Sondas 
+w 
+o 
+-e 
+,. º>Z 
+Oi.?; 
+r 
+û 
+Reação 
+positiva 
+Análise genética da reação em cadeia da polimerase (PCR): 
+detecção do ácido nucleico virai usando sondas específicas. 
+-
+I 
+1 
+(1) Células infectadas com 
+o vírus herpes simples 
+tipo 1 
+(2) Células infectadas 
+com o vírus influenza 
+Células coletados do paciente (espécime clínico) 
+são examinadas buscando evidências de infecção 
+virai, tais como efeito citopático ( 1) ou detecção 
+de antígenos vírais na superfíce da célula 
+hospedeira (p. ex., por imunofluorescência) (2). 
+Rotavírus 
+Hepatite B 
+Partícula 
+Filamento 
+de Dane 
+A microscopia eletrônica é usada para observação 
+direta do vírus. Os vírus apresentam uma estrutura 
+única que pode ser usada na sua diferenciação 
+em família ou gênero. 
+Western Blot para HIV 
+Testes sorológicos para detecção de anticorpos específicos. 
+FIGURA 30.7 Sumário dos métodos usados no diagnóstico das infecções virais. Testes de detecção de antígenos e ensaios de ácido nucleicos 
+estão entre os testes mais comuns usados no diagnóstico laboratorial, uma vez que os resultados podem ser obtidos de forma rápida. (Reproduzido, 
+com autorização, de Talaro KP: Foundations in Microbiology: Basic Principies, 6th ed. McGraw-Hill, 2008. © The McGraw-Hill Companies, lnc.) 
+
+===== pdf p. 451 =====
+CAPÍTULO 30 
+Patogênese e controle das doenças virais 
+QUADRO 30.6 
+Exemplos de compostos antivirais usados no tratamento de infecções virais 
+Fármaco 
+Análogo do nucleosídeo 
+Aciclovir 
+Sim 
+Amantadina 
+Não 
+Mecanismo de ação 
+Espectro virai 
+Herpes simples, varicela-zóster 
+Influenza A 
+443 
+Cidofovir 
+Não 
+Inibidor da polimerase virai 
+Bloqueio do desnudamento virai 
+Inibidor da polimerase virai 
+Inibidor da transcriptase reversa 
+Inibidor da transcriptase reversa 
+Inibidor da polimerase virai 
+Citomegalovírus, herpes simples, poliomavírus 
+Didanosina (ddl) 
+Entecavir 
+Foscarnete 
+Fuzeon 
+Ganciclovir 
+lndinavir 
+Lamivudina (3TC) 
+Lopinavir 
+Maraviroc 
+Nevirapina 
+Oseltamivir 
+Raltegravir 
+Ribavirina 
+Ritonavir 
+Saquinavir 
+Estavudina (d4TI 
+Trifluridina 
+Valaciclovir 
+Vidarabina 
+Zalcitabina (ddC) 
+Zidovudina (AZT) 
+Sim 
+Sim 
+Não 
+Não 
+Sim 
+Não 
+Sim 
+Não 
+Não 
+Não 
+Não 
+Não 
+Sim 
+Não 
+Não 
+Sim 
+Sim 
+Sim 
+Sim 
+Sim 
+Sim 
+Inibidor da fusão do HIV (bloqueia a 
+entrada virai) 
+Inibidor da polimerase virai 
+Inibidor da protease do HIV 
+Inibidor da transcriptase reversa 
+Inibidor da protease do HIV 
+Inibidor de entrada (bloqueia a ligação 
+com CCRS) 
+Inibidor da transcriptase reversa 
+Inibidor da neuraminidase virai 
+Inibidor da integrase 
+Talvez bloqueie a corbertura do RNAm 
+virai 
+Inibidor da protease do HIV 
+Inibidor da protease do HIV 
+Inibidor da transcriptase reversa 
+Inibidor da polimerase virai 
+Inibidor da polimerase virai 
+Inibidor da polimerase virai 
+Inibidor da transcriptase reversa 
+Inibidor da transcriptase reversa 
+HIV-1, HIV-2 
+HBV 
+Herpes-vírus, HIV-1, HBV 
+HIV-1 
+Citomegalovírus 
+HIV-1, HIV-2 
+HIV-1, HIV-2, HBV 
+HIV-1 
+HIV-1 
+HIV-1 
+Influenza A e B 
+HIV-1 
+Vírus sincicial respiratório, influenza A e B, febre 
+de Lassa, hepatite C, outros 
+HIV-1, HIV-2 
+HIV-1, HIV-2 
+HIV-1, HIV-2 
+Herpes simples, citomegalovírus, vacínia 
+Herpes-vírus 
+Herpes-vírus, vacínia, HBV 
+HIV-1, HIV-2, HBV 
+HIV-1, HIV-2, HTLV-1 
+HBV, vírus da hepatite B; HIV-1, HIV-2, vírus da imunodeficiência humana tipos 1 e 2; HTLV-1, vírus da leucemia de células T humanas tipo 1. 
+Há necessidade de antivirais ativos contra vírus para os quais 
+não existem vacinas, ou as existentes não são altamente eficazes 
+- talvez devido à multiplicidade de sorotipos (p. ex., rinovírus) 
+ou a uma mudança constante do vírus (p. ex., vírus influenza, 
+HIV). Os antivirais podem ser empregados para tratar infecções 
+bem caracterizadas quando as vacinas contra esses patógenos 
+não se mostram eficazes. São necessários antivirais para reduzir 
+a morbidade e a perda econômica associadas às infecções virais, 
+bem como tratar o crescente número de pacientes imunossupri­
+midos que correm risco elevado de infecção. 
+Os estudos de virologia molecular estão tendo sucesso na 
+identificação das funções específicas dos vírus, que podem atuar 
+como alvos para a terapia antivira!. Os estágios mais apropriados 
+como alvos nas infecções virais são a fixação do vírus à célula 
+hospedeira; o desnudamento do genoma viral; a síntese do áci­
+do nucleico viral; a tradução de proteínas virais; a organização e 
+liberação de partículas virais da progênie. Na verdade, tem sido 
+muito difícil desenvolver antivirais capazes de distinguir os pro­
+cessos de multiplicação virais daqueles do hospedeiro. 
+Entretanto, foram desenvolvidos vários compostos que se 
+mostraram valiosos no tratamento de certas doenças virais, 
+particularmente o herpes-vírus e as infecções pelo HIV (Qua­
+dro 30.6). São fornecidos alguns exemplos adiante. Os meca­
+nismos de ação variam entre os agentes virais. Com frequência, 
+o fármaco deve ser ativado por enzimas na célula antes de po­
+der atuar como inibidor da replicação viral; os agentes mais 
+seletivos são ativados por uma enzima codificada pelo vírus no 
+interior da célula infectada. 
+São necessárias pesquisas futuras para se aprender como 
+minimizar o aparecimento de vírus resistentes a fármacos, re­
+duzir a citotoxicidade e planejar antivirais mais específicos com 
+base nos conhecimentos moleculares da estrutura e replicação 
+dos agentes virais, bem como desenvolver fármacos contra in­
+fecções virais, as quais ainda não possuem tratamento efetivo. 
+A. Análogos dos nucleosídeos 
+A maioria dos antivirais disponíveis consiste em análogos dos 
+nucleosídeos. Estes fármacos inibem a replicação das polime­
+rases essenciais necessárias à replicação do ácido nucleico. 
+Além disso, alguns análogos podem ser incorporados ao ácido 
+nucleico e bloquear sua síntese ou alterar sua função. 

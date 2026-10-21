@@ -1,0 +1,517 @@
+Aula 14: Patogênese Viral 
+Capítulo 1: Introdução 
+A patogênese viral é o estudo da relação entre o vírus e o 
+organismo infectado. O termo patogênese descreve a indu-
+ção de doença pelo vírus e não apenas a infecção. Nesse 
+sentido, infecção não é sinônimo de doença, visto que 
+continuamente os indivíduos apresentam espécies virais 
+em sua microbiota e a transmissão destas, porém de modo 
+assintomático. 
+Vale dizer que o conceito de patogenicidade e virulência 
+também se enquadram no contexto dos vírus. Convencio-
+na-se que o número de indivíduos infectados é sempre 
+maior que o número de indivíduos que apresentam qua-
+dros clínicos. Alguns vírus, como o sarampo, apresentam 
+uma alta patogenicidade e nesse sentido muitas das pesso-
+as que entram em contato com esse agente irão expressar 
+a doença. Isso não é uma regra, no entanto, e pode, por-
+tanto, haver infecção sem necessariamente ocasionar em 
+sintomas. 
+No âmbito da patogênese viral, esta vai depender de al-
+guns fatores distintos, tal como o tipo de vírus, a espécie 
+afetada e o próprio indivíduo afetado desta espécie. Esses 
+fatores irão confluir para a manifestação da doença e sua 
+severidade. Por exemplo, a parvovirose canina é um vírus 
+derivado das espécies felinas. Em caninos essa doença é 
+muito grave, diferentemente do quadro clínico que ocorre 
+com os felinos. Ainda, os morcegos são vetores virais de 
+diversas doenças, como o ebola, que são assintomáticas 
+para eles, mas letais para o homem. Já no contexto indivi-
+dual para a mesma espécie, é muito comum diferentes 
+organismos apresentarem diferentes severidades para a 
+mesma doença. Numa família hipotética, imaginativamen-
+te, é fácil visualizar que caso estes sejam todos infectados, 
+é possível que apenas alguns componentes dessa família 
+apresentem um quadro grave, outros um quadro mediano 
+e alguns se mostrem assintomáticos. 
+A via de transmissão também é igualmente importante e 
+definidora da patogênese: O vírus da hepatite B pode ser 
+transmitido por meio de duas vias de infecção – contato 
+sexual ou de modo vertical. A depender da via de infecção 
+os sintomas, sinais clínicos e o modo de progresso do qua-
+dro patológico são distintos. 
+A patogênese viral pode se manifestar de diferentes manei-
+ras: pela destruição de tecidos; indução de citocinas infla-
+matórias; disfunção celular; efeito parácrino; indução de 
+tumores etc. 
+As infecções são classificadas em produtivas ou abortivas. 
+Infecções produtivas apresentam a produção de novas 
+partículas virais; enquanto infecções abortivas não apresen-
+tam quaisquer sinais de produção de novas partículas virais. 
+Não necessariamente, no entanto, um tipo é mais grave 
+que o outro. 
+Capítulo 2: Entrada e disseminação viral 
+O estabelecimento de uma infecção viral produtiva depen-
+de de: 
+ 
+Susceptibilidade: existência de receptores para o vírus 
+ 
+Permissividade: presença de fatores celulares que 
+permitam a replicação viral eficiente 
+ 
+Acessibilidade: à célula-alvo 
+ 
+Resposta imune: pode determinar o estabelecimento, 
+eliminação ou persistência da infecção 
+Embora algumas portas de entrada para a disseminação 
+viral envolvam mucosas, córnea, pele, sangue e contato 
+sexual, a principal e mais utilizada pelos patógenos é a via 
+respiratória. 
+No caso do trato respiratório, este apresenta alguns meca-
+nismos de defesa, tal como o epitélio mucociliar e a pre-
+sença de IgA. Para a transmissão ocorrer é necessário o 
+vírus ultrapassar esses mecanismos. Essas transmissões 
+ocorrem via aerossóis (vírus influenza) ou contato direto 
+(rinovírus) e as infecções podem ser localizadas (rinovírus) 
+ou sistêmicas (vírus influenza). 
+Muitos receptores virais são moléculas de adesão. Dessa 
+maneira eles podem interferir com a adesão das células de 
+diversas maneiras, ocasionando a disfunção celular. A mo-
+lécula ICAM-1 é muito visada por rinovírus e a molécula 
+CAR – componente das tight junctions – são visadas por 
+adenovírus. 
+Vírus envelopados normalmente inferem sensibilidade às 
+modificações do ambiente. Portanto, os vírus transmitidos 
+por intercâmbio de fluidos geralmente são envelopados, 
+visto que estes são muito sensíveis a dessecação. O álcool-
+gel, nesse sentido, é uma ferramenta para inativação des-
+ses organismos. É importante levar em conta, também, que 
+essa ferramenta não é útil sempre, visto que alguns vírus 
+não envelopados podem sobreviver nestes ambientes da 
+mesma maneira. Os vírus não envelopados estão mais 
+relacionados pelas vias de infecção por contato em superfí-
+cies e pela via fecal-oral. 
+Quanto a entrada via trato alimentar, os vírus que pene-
+tram e se multiplicam no trato alimentar precisam ser resis-
+tentes a variações de pH, ação de enzimas digestivas e a 
+condições ambientais extremas. O epitélio intestinal é 
+recoberto por células polarizadas, colunares, com microvi-
+losidades. Mesmo nessas condições, no entanto, diversas 
+espécies virais são capazes de se replicar nesse epitélio, 
+principalmente espécies não envelopadas, visto que as 
+espécies envelopadas podem sofrer emulsificação pela 
+bile. 
+No contexto entérico, portanto, as infecções localizadas 
+envolvem rotavírus, norovírus e coronavírus, que são cau-
+sadores de diarreia; enquanto infecções sistêmicas envol-
+vem enterovírus (poliomielite e hepatite A), reovírus e ade-
+novírus. 
+
+=== p.59
+UC03 – Apostila Guia de Microbiologia | Aula 14: Patogênese Viral 
+53 
+ 
+Como visto acima, a infecção pode ser localizada ou sistê-
+mica. O sítio primário de replicação é tido junto à porta de 
+entrada do patógeno. Pode ocorrer sua migração para o 
+sistema linfático e consequentemente para o sangue (vi-
+remia) – os vírus passam do epitélio para o sangue via sis-
+tema linfático – ocasionando uma amplificação por outros 
+locais do corpo. Nesse sentido, o sítio secundário de multi-
+plicação é um ou mais órgãos-alvo. Dificilmente uma infec-
+ção será sistêmica quando é abortiva. 
+ 
+Capítulo 3: Padrões de infecção 
+Quanto aos padrões de infecção viral, há cinco classificações: aguda, latente, progressiva, crônica e quando há falha para eli-
+minar os sinais de infecção. 
+ 
+
+=== p.60
+ 
+ 
+Quanto a infecção aguda, não necessariamente esta deve 
+apresentar um quadro rápido. Para um rinovírus isto pode 
+significar um período de dias; enquanto que para um vírus 
+da hepatite isso pode significar um período de meses; por 
+fim, para um papilomavírus isso pode ainda significar um 
+período de mais de um ano. O que caracteriza de fato a 
+infecção aguda é que esta possui um início e um fim bem 
+determinados. 
+Os únicos vírus com latência-viral são os herpes-vírus. 
+Nesse sentido latência representa um estado transcricional 
+e traducional único do vírus. O ciclo produtivo pode não 
+funcionar necessariamente, mas pode ser ativado a qual-
+quer momento. 
+É importantíssimo ressaltar que latência clínica e latência 
+viral são conceitos distintos. Vale dizer que a latência clíni-
+ca envolve ainda replicação viral, como ocorre com o HIV – 
+que na realidade se caracteriza por uma infecção-
+progressiva. Nesse caso a replicação viral líquida pode ser 
+reduzida ou inerte visto que há recorrente combate por 
+meio do sistema imune (não há multiplicação aparente). 
+No caso da latência-viral não há qualquer replicação viral 
+por certo tempo. 
+Ainda quanto a latência, vale dizer que do ponto de vista 
+do patógeno, é muito mais estratégico e vantajoso que este 
+se aloje num tipo celular duradouro para iniciar sua fase 
+latente. Isso ocorre, por exemplo, em neurônios para a 
+herpes-simples ou mesmo em células B de memória para a 
+herpes-Epstein-Barr (VEB ou HHV-4). 
+Alguns vírus podem se manifestar tanto de modo agudo 
+quanto crônico, a depender do perfil e eficiência da respos-
+ta imune de cada indivíduo. Nesse sentido uma infecção 
+aguda é mais caracterizada por uma resposta inata, en-
+quanto uma infecção crônica é mais relacionada a respos-
+tas adaptativas. 
+Capítulo 4: Virulência 
+Na virologia, virulência é a capacidade relativa de um vírus 
+causar doenças. Em geral, esse conceito está associado à 
+capacidade replicativa do vírus. No entanto, fatores como 
+tropismo e a resposta do hospedeiro são também impor-
+tantes. Nesse sentido, estirpes virulentas causam doenças, 
+enquanto estirpes não virulentas ou atenuadas não cau-
+sam doenças, embora sejam capazes de infectar organis-
+mos. 
+A virulência depende, dentre outros fatores, do vírus, da 
+dose recebida pelo hospedeiro, da via de inoculação, da 
+suscetibilidade do hospedeiro. 
+No mesmo contexto, fatores de virulência são moléculas 
+expressas por vírus que permitem que os mesmos tenham 
+maior capacidade replicativa, colonizem um nicho do hos-
+pedeiro e possam ser transmitidos, evadam ou inibam o 
+sistema imune e causem as lesões. 
+O rotavírus é um vírus não envelopado de RNAds segmen-
+tado. Esse patógeno possui sete variantes (A, B, C, D, E, F, 
+G) e é o principal vírus causador de diarreia em crianças. 
+ 
+O rotavírus possui uma proteína viral não estrutural deno-
+minada NSP4, a qual possui ação semelhante às enteroto-
+xinas bacterianas. 
+Esse patógeno num primeiro momento infecta as células 
+do epitélio intestinal e replica dentro destas mesmas célu-
+las, induzindo uma lise. Além disso, produzem a NSP4 que 
+alteram as vias de sinalização por Ca2+, alterando, portanto, 
+o metabolismo deste íon. Vale dizer que com a secreção de 
+NSP4 há também o comprometimento da via metabólica 
+de células vizinhas não infectadas. Nesse sentido, a altera-
+ção metabólica de Ca2+ irá induzir sua liberação na luz do 
+
+=== p.61
+UC03 – Apostila Guia de Microbiologia | Aula 14: Patogênese Viral 
+55 
+ 
+intestino e, consequentemente, irá corroborar com a libe-
+ração concomitante de Cl- também. Devido ao aumento de 
+concentração destes íons, há a tendência de um maior 
+acúmulo de água na luz, o que caracteriza a diarreia. 
+Não obstante, o rotavírus ainda replica-se e lisa células 
+produtoras de lactase. Assim, pacientes infectados devem 
+cortar qualquer alimentação abundante em lactose, como o 
+leite. Isso evita seu acúmulo no intestino e o aumento da 
+diferença de pressão osmótica que possa vir a piorar o 
+quadro clínico. 
+O vírus da gripe é um vírus envelopado de RNA negativo 
+segmentado. Esse patógeno possui três variantes (A, B e C), 
+sendo o tipo A infectante de equinos, suínos, aves e huma-
+nos. Aqui, há uma grande presença de proteínas virais 
+denominadas hemaglutinina (HA) e neuraminidase (NA), o 
+qual caracteriza o nome de alguns desses vírus (H1N1, por 
+exemplo). A hemaglutinina é responsável por reconhecer 
+os receptores no hospedeiro enquanto a neuraminidase 
+possui importante papel na saída celular do vírion. 
+ 
+O vírus influenza causa epidemias todos os anos e pande-
+mias de tempos em tempos atualmente. As epidemias de 
+influenza A e B acontecem por mudanças menores nos 
+antígenos virais HA e NA. A principal base molecular das 
+epidemias é o que se denominou antigenic drift – pequenas 
+mutações nos antígenos de superfície do vírus. Esse vírus 
+tem um alto perfil mutagênico por ser um vírus de RNA 
+que replica com uma enzima RNApol dependente de RNA 
+sem correção de erros. 
+As pandemias de influenza A se dão quando um vírus com 
+um novo tipo de hemaglutinina surge como resultado de 
+mudança de antígenos (antigenic shift). Como resultado, a 
+população não possui imunidade contra a nova cepa viral. 
+O mecanismo que explica isso é devido à Influenza apresen-
+tar material genético de RNA segmentado. Nesse sentido, 
+quando duas cepas distintas infectam uma mesma célula, é 
+possível que durante a montagem de um novo vírion recu-
+pere-se segmentos misturados das duas cepas, formando 
+uma nova. É ainda possível a antigenic shift ocorrer entre 
+diferentes espécies (p.e. o intercâmbio entre aves, huma-
+nos e porcos). 
+O papilomavírus humano (HPV) possui cerca de 200 tipos 
+distintos, sendo 40 destes infectantes de mucosas anogeni-
+tais. Alguns poucos representam baixo risco (lesões de 
+baixo grau e verrugas genitais) enquanto muitos outros 
+representam alto risco (lesões de alto grau e carcinoma 
+invasivo). Vale dizer que o HPV16 e HPV18 são as cepas de 
+maior risco para câncer de colo uterino. 
+O rinovírus é um vírus não envelopado de RNA positivo. 
+Esse patógeno causa aproximadamente 50% dos resfriados 
+no mundo todo. Transmitem-se de pessoa a pessoa por via 
+aérea e por contato com superfícies contaminadas. São 
+termoestáveis e resistentes a solventes como éter e etanol 
+e são inativados por ácidos. 
+Dentre os mecanismos de evasão virais podem ser de dois 
+grandes tipos: ativos ou passivos. Os mecanismos ativos 
+requerem a síntese de proteínas virais que possam conferir 
+resistência à apoptose, modulação da resposta imune ou 
+latência. Os mecanismos passivos não requerem síntese de 
+proteínas virais e, portanto, se relacionam ao tamanho do 
+inóculo, tropismo, via de infecção e variabilidade. 
+ 
+Em resumo, existem diferentes padrões de infecção. Os 
+mesmos dependem do tipo de vírus e de fatores do hos-
+pedeiro. O desenvolvimento de doença depende de fato-
+res virais, do hospedeiro e do ambiente. O deslocamento 
+do balanço existente entre o vírus e o hospedeiro determi-
+na o destino da infecção. 
+Palavras-Chave: 
+ 
+Patogênese viral  
+ 
+Tipo de vírus 
+ 
+Espécie afetada  
+ 
+Indivíduo afetado  
+ 
+Manifestação da doença  
+ 
+Severidade 
+ 
+Diferentes organismos  
+ 
+Diferentes severidades 
+ 
+Via de transmissão  
+ 
+Definidora da patogênese 
+ 
+Infecção (produtiva ou abortiva) 
+ 
+Via de infecção 
+ 
+Envelopados (intercâmbio de fluidos) 
+ 
+Não envelopados (contato e fecal-oral) 
+
+=== p.62
+ 
+ 
+Infecção viral produtiva 
+ 
+Susceptibilidade 
+ 
+Permissividade 
+ 
+Acessibilidade 
+ 
+Resposta imune 
+ 
+Portas de entrada para a disseminação viral 
+ 
+Via respiratória (principal) 
+ 
+Trato respiratório 
+ 
+Mecanismos de defesa 
+ 
+Epitélio mucociliar 
+ 
+Presença de IgA 
+ 
+Transmissões (aerossóis ou contato direto) 
+ 
+Infecções (localizadas ou sistêmicas) 
+ 
+Receptores virais 
+ 
+Moléculas de adesão (ICAM-1 e CAR) 
+ 
+Disfunção celular 
+ 
+Vírus envelopados 
+ 
+Sensibilidade às modificações do ambiente 
+ 
+Inativação desses organismos 
+ 
+Álcool-gel 
+ 
+Via trato alimentar 
+ 
+Não envelopados 
+ 
+Envelopados (emulsificação) 
+ 
+Resistentes a variações de pH, ação de enzimas diges-
+tivas e a condições ambientais extremas 
+ 
+Epitélio intestinal  
+ 
+Células polarizadas, colunares, com microvilosidades 
+ 
+Sítio primário de replicação  
+ 
+Porta de entrada do patógeno 
+ 
+Migração  
+ 
+Sistema linfático  
+ 
+Sangue (viremia) 
+ 
+Sítio secundário de multiplicação  
+ 
+Órgãos-alvo 
+ 
+Padrões de infecção viral (aguda, latente, progressiva, 
+crônica e quando há falha para eliminar os sinais de in-
+fecção) 
+ 
+Infecção aguda  
+ 
+Início e um fim bem determinados 
+ 
+Não necessariamente quadro rápido 
+ 
+Resposta inata 
+ 
+Latência-viral (herpes-vírus) 
+ 
+Não há qualquer replicação viral por certo tempo 
+ 
+Ciclo produtivo  
+ 
+Pode ser ativado a qualquer momento 
+ 
+Patógeno se aloja num tipo celular duradouro (neurô-
+nios e células B de memória) 
+ 
+Latência clínica 
+ 
+Recorrente combate por meio do sistema imune (não 
+há multiplicação aparente) 
+ 
+Replicação viral 
+ 
+Infecção progressiva 
+ 
+Infecção crônica  
+ 
+Respostas adaptativas 
+ 
+Virulência (depende do vírus, da dose recebida pelo 
+hospedeiro, da via de inoculação, da suscetibilidade 
+do hospedeiro) 
+ 
+Capacidade de causar doenças 
+ 
+Fatores de virulência  
+ 
+Capacidade replicativa do vírus 
+ 
+Estirpes virulentas causam doenças 
+ 
+Estirpes não virulentas ou atenuadas não causam 
+doenças 
+ 
+Mecanismos de evasão virais  
+ 
+Ativos 
+ 
+Síntese de proteínas virais 
+ 
+Resistência à apoptose, modulação da resposta imune 
+ou latência 
+ 
+Passivos 
+ 
+Se relacionam ao tamanho do inóculo, tropismo, via 
+de infecção e variabilidade 
+ 
+Rotavírus  
+ 
+Não envelopado 
+ 
+Sete variantes 
+ 
+Diarreia em crianças 
+ 
+Proteína viral (NSP4) 
+ 
+Ação semelhante às enterotoxinas bacterianas 
+ 
+Comprometimento da via metabólica de células vizi-
+nhas não infectadas 
+ 
+Infecta as células do epitélio intestinal 
+ 
+Lisa células produtoras de lactase 
+ 
+Vírus da gripe  
+ 
+Envelopado  
+ 
+Variantes 
+ 
+Alto perfil mutagênico 
+ 
+Proteínas virais  
+ 
+Hemaglutinina (HA)  
+ 
+Reconhecer os receptores no hospedeiro 
+ 
+Neuraminidase (NA) 
+ 
+Papel na saída celular do vírion 
+ 
+Duas cepas distintas na mesma célula 
+ 
+Segmentos misturados das duas cepas 
+ 
+Novo tipo de hemaglutinina surge 
+ 
+Pandemias de influenza A  
+ 
+Papilomavírus humano (HPV)  
+ 
+200 tipos distintos 
+ 
+Câncer de colo uterino (HPV16 e HPV18) 
+ 
+Rinovírus  
+ 
+Não envelopado de RNA positivo 
+ 
+dos resfriados no mundo todo 
+ 
+Termoestáveis  
+Resistentes a solventes como éter e etanol e são inativados 
+por ácidos 
+ 
+ 
+
+=== p.63
+UC03 – Apostila Guia de Microbiologia | Bibliografia 
+57 
+ 
+Bibliografia 
+ 
+ALTERTHUM, Flavio; TRABULSI, Luiz R. (2004). Microbiologia. Brasil:Atheneu (4ª edição), cap. 1: ”Classificação dos Seres 
+Vivos e Abrangência da Microbiologia”, p. 3-5; cap. 2: ”Morfologia e Estrutura da Célula Bacteriana”, p.7-19; cap. 4: 
+“Crescimento Bacteriano”, p. 31-36; cap. 5: “Genética Bacteriana”, p. 37, 38, 42-46; cap. 7: “Controle dos Microorga-
+nismos”, p. 57-65; cap. 12: “Microbiota ou Flora Normal do Corpo Humano”, p. 101-109; cap. 64: “Biologia Geral dos 
+Fungos”, p. 451-459; cap. 65: “Características Gerais das Micoses”, p. 461; cap. 66: “Micoses Superficiais”, p. 473-475; 
+cap. 67: “Micoses Cutâneas”, p. 477-480; cap. 68: “Micoses Subcutâneas”, p. 481-483; cap. 69: “Micoses Sistêmicas”, p. 
+487-491. 
+ 
+FERREIRA, Henrique B.; PASSAGLIA Luiane M. P.; ZAHA, Arnaldo (2014). Biologia Molecular Básica. Brasil:Artmed (5ª 
+edição), cap. 7: “Mutação e Reparação do DNA”,  p. 140-142, 146-147, 149. 
+ 
+CASE, Christine L.; FUNKE, Berdell R.; TORTORA, Gerard J. (2000). Microbiologia. Brasil:Artmed (6ª edição), cap. 15: 
+“Mecanismos Microbianos de Patogenicidade”, p.421-431. 

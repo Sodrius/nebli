@@ -1,0 +1,24 @@
+# provas por termo (viremia, latência, tropismo, virulência, permissividade, padrões de infecção), 21/10
+
+── [2025 P3] 3.6 (GR)
+   P: O vírus do Sarampo e da Influenza são vírus semelhantes do ponto de vista estrutural, mas têm comportamento diferente em relação a patogênese e contagiosidade, veja as curvas abaixo Neste sentido e considerando seus conhecimentos de patogênese da infecção viral, discuta os motivos pelos quais, na ausência de vacina numa população não previamente exposta, um surto de infecção por sarampo poderia ser muito mais letal do que um surto de infecção por Influenza H1N1
+   G: Os aspectos que definem a maior gravidade de um surto de sarampo neste caso estão relacionados aos seguintes aspectos: a) Tropismo e disseminação – O vírus do sarampo pode infectar além das vias aéreas, outros órgãos e especialmente células do sistema imune, enquanto que o influenza se restringe ao epitélio respiratórios b) Tempo de incubação – O vírus do sarampo só leva a manifestações clínicas depois de 14 dias de infecção (como mostra o gráfico 1) enquanto o vírus da influenza leva 3 dias apenas para dar manifestações. Isso significa que há mais tempo para o vírus do sarampo se disseminar e ser transmitido para outras pessoas ANTES da manifestação clínica, aumentando a taxa de contageio e transmissão (R0). c) Efeito imunossupressor – O vírus do sarampo tem efeito imunossupressor conforme mostrado no gráfico 1 (associado a infecção das próprias células do sistema imune), o que comprom
+
+
+── [2019 P3] 3.3 (MB)
+   P: 0,6 pontos – Defina susceptibilidade e permissividade. Explique brevemente como essas propriedades podem explicar o quadro sistêmico causado pelo vírus do Sarampo.
+   G: o.
+
+# 1 subquestões · anos: 2019
+
+── [2015 P2] 2.4 (MB)
+   P: Descreva o padrão de infecção característico deste agente. As curvas destes antígenos e anticorpos conforme a evol ução da doença são mostrados no gráfico a seguir. Sabendo que o HBc é um antígeno presente em uma parte deste vírus Anti-­‐HBc Total Anti-­‐HBc IgM
+   G: gM
+
+# 1 subquestões · anos: 2015
+
+── [2015 P2sub] 2.5 (MB)
+   P: Descreva e explique brevemente os principais padrões de infecção viral. Cite exemplos de 3 (três) vírus que apresentem padrões de infecção diferentes (estes vírus não precisam estar re lacionados ao caso clínico descrito anteriormente). Caso Clínico 3 Paciente do sexo masculino, 55 anos diabético com quadro de insuficiência renal crônica dialítica foi submetido a um transplante renal intervivos (a irmã do paciente, previamente hígida, foi doadora). O procedimento cirúrgico foi bem sucedido, o rim do paciente foi retirado e encaminhado para estudo anatomo - patológico. O rim transplantado, ap
+   G: após algum tempo também passou a ter função normal. Após 10 dias a doadora está em boas condições e receberá alta hospitalar.
+
+# 1 subquestões · anos: 2015

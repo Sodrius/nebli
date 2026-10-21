@@ -1,0 +1,1786 @@
+===== página 1 =====
+Patogênese Viral
+Depto. Microbiologia – ICB/USP
+pzanotto@usp.br
+
+===== página 2 =====
+▪Os vírus são parasitas intracelulares obrigatórios.
+▪Portanto, são parasitas obrigatórios de tecidos
+dentro do organismo.
+Definição
+
+===== página 3 =====
+Infecção - mecanismo pelo qual o vírus introduz seu material genético na célula.
+Infecção
+Produtiva
+Abortiva
+Novos vírus infecciosos
+Novos vírus infecciosos
+X
+Infecção
+Infecção ≠doença
+
+===== página 4 =====
+ENTRADA E 
+DISSEMINAÇÃO VIRAL
+
+===== página 5 =====
+◼Portas de Entrada = 
+▪Mucosa do sistema respiratório, 
+digestório, urinário, 
+▪conjuntiva/córnea
+▪Pele
+▪Sangue: agulhas, picadas, 
+transfusão, 
+▪sexual
+From Flint et al  Principles of Virology ASM Press
+A via respiratória é a mais comum.
+Disseminação Viral - Entrada
+
+===== página 6 =====
+◼
+A infecção pode ser 
+localizada ou 
+sistêmica. 
+◼
+Sítio primário de 
+replicação - junto à 
+porta de entrada
+◼
+Passagem para o 
+sistema linfático, 
+amplificação.
+◼
+Passagem para o 
+sangue - viremia
+◼
+Sítio secundário de 
+multiplicação -
+órgãos alvo ou 
+sistêmica, vários 
+órgãos envolvidos
+From Flint et al  Principles of 
+Virology ASM Press
+Disseminação viral
+
+===== página 7 =====
+◼Área, superfície, do pulmão humano = 140 m2
+◼Mecanismos de defesa:
+▪Epitélio mucociliar, (células ciliadas, células que secretam muco, 
+linfócitos, macrófagos) 
+▪Secreção de IgA
+◼A transmissão respiratória ocorre por:
+▪Aerosóis - vírus influenza
+▪Contato direto – rinovírus
+◼A infecção pode ser
+▪localizada – rinovírus
+▪sistêmica – vírus influenza
+Entrada via trato respiratório
+
+===== página 8 =====
+From Flint et al  Principles of Virology ASM Press
+Entrada via trato respiratório
+
+===== página 9 =====
+Vírus entéricos
+Infecções localizadas: Rotavírus, Norovírus e Coronavírus causam diarreias.
+Infecções sistêmicas: Enterovírus (vírus da poliomielite, hepatite A, etc.), Reovírus e 
+Adenovírus.
+◼
+Virus que penetram e se multiplicam no trato alimentar precisam ser resistentes a
+variações de pH, ação de enzimas digestivas e a condições ambientais extremas.
+◼
+O
+epitelio
+intestinal
+é
+recoberto
+por
+células
+polarizadas,
+colunares,
+com
+microvilosidades.
+◼
+Parece uma excelente barreira, no entanto vários tipos de vírus replicam muito bem
+neste epitélio.
+Entrada via trato alimentar
+
+===== página 10 =====
+◼Presença de vírus no sangue = viremia
+◼Vírus livres no soro ou dentro de linfócitos.
+◼Os vírus passam do epitélio para o sangue via sistema linfático.
+▪
+Viremia:
+• Ativa - produzida pela replicação do vírus
+• Passiva - causada pela injeção de vírus direto na
+corrente sangüínea.
+Após entrada na corrente sangüínea os vírus se disseminam por via 
+hematogênica.
+Disseminação viral hematogênica
+
+===== página 11 =====
+PADRÕES DE 
+INFECÇÃO VIRAL
+
+===== página 12 =====
+Infecção
+Aguda
+Crônica (persistente)
+Infecção de hóspede suscetível
+A infecção continua por 
+longos períodos.
+Replicação 
+contínua
+Latência
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 13 =====
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 14 =====
+PADRÕES DE INFECÇÃO VIRAL
+▪
+Infecção restrita no tempo.
+▪
+Rinovírus
+▪
+Influenza
+▪
+Rotavírus
+▪
+Enterovírus
+
+===== página 15 =====
+Latência - Estado transcricional e traducional único do vírus. O ciclo produtivo não
+funciona mas pode ser ativado a qualquer momento.
+HERPESVÍRUS: INFECÇÃO LATENTE
+Padrões de infecção
+▪Padrão CRÔNICO.
+
+===== página 16 =====
+Latência
+Reativação
+INFECÇÃO LATENTE
+HSV
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 17 =====
+Nature Reviews Clinical Oncology 9, 510-519 doi:10.1038/nrclinonc.2012.111
+INFECÇÃO LATENTE
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 18 =====
+1 | Ciclo do EBV, Estados de Latência e Linfoma
+O ciclo de vida do EBV inclui cinco estágios, quatro associados a doenças. Durante a infecção primária, o 
+EBV infecta células B naive, expressando todas as 10 proteínas de latência e dois RNAs pequenos 
+(latência tipo III), promovendo transformação e proliferação das células B. 
+Essas células imunogênicas são rapidamente eliminadas por células T específicas para EBV. 
+O vírus sobrevive reduzindo suas proteínas imunogênicas em duas fases: nas centros germinativos dos 
+linfonodos, as células B proliferam com três proteínas (latência tipo II), depois saem, reduzindo todas as 
+proteínas (latência tipo 0) para evitar a imunidade. 
+Na circulação periférica, células B em divisão expressam uma proteína (EBNA1, latência tipo I) para 
+manter o genoma viral. 
+Na orofaringe, o EBV se replica em células epiteliais, espalhando-se pela saliva e infectando novas 
+células B. 
+Todos os tipos de latência, exceto o tipo I, estão associados a linfomas (ex.: BL, HL, NHL).
+Abreviações: BL, linfoma de Burkitt; EBNA, antígeno nuclear de Epstein-Barr; EBV, vírus de Epstein-Barr; 
+HL, linfoma de Hodgkin; LMP, proteína de membrana latente; NHL, linfoma não Hodgkin.
+
+===== página 19 =====
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 20 =====
+Hepatite B (aguda)
+INFECÇÃO AGUDA
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 21 =====
+Progression of a Hepatitis B Virus (HBV) acute infection over time (in months) 
+and immune response. 
+X-axis (Time, months): 0-8, with phases: Incubation (0-1), Acute disease (1-3), 
+Recovery (4-8). 
+Y-axis (Increase of maximum, %): Shows marker peaks at 100%. 
+Key trends: Serum HBV DNA (purple) peaks early (1-2 months), then falls; 
+Serum ALT (teal) rises sharply (3-4 months), then drops; 
+Serum HBsAg (purple) declines as HBsAg-specific antibodies (teal) rise; 
+Serum HBeAg (purple) decreases as HBeAg-specific antibodies (teal) increase; 
+HBcAg-specific antibodies (teal) rise in the acute phase.
+Outcome: The graph shows a typical case of clinical recovery, with protective 
+immunity developing by 6-8 months as antibody levels stabilize and viral markers 
+(HBV DNA, HBsAg, HBeAg) decrease.
+
+===== página 22 =====
+Hepatite B (crônica)
+INFECÇÃO CRÔNICA
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 23 =====
+Long-term progression of chronic Hepatitis B Virus (HBV) infection over 50 years, with x-axis (time in years) 
+and y-axis (marker increase %). 
+Key phases: Immuno-tolerance (0-20 years): HBV DNA rises, ALT low; Immunoactive (20-30 years): HBV 
+DNA peaks, ALT rises; Low replicative (30-40 years): HBV DNA drops, ALT stabilizes; High replicative (40-50 
+years): HBV DNA and ALT rise. 
+Markers: HBsAg (purple) persists; HBeAg (purple) declines as HBeAg antibodies (teal) appear; HBcAg 
+antibodies (teal) rise. Outcome: Chronic hepatitis with fluctuating levels, risking severe liver disease.
+
+===== página 24 =====
+Hepatite C (aguda)
+INFECÇÃO AGUDA
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 25 =====
+Hepatite C (crônica)
+INFECÇÃO CRÔNICA
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 26 =====
+INFECÇÃO PROGRESSIVA
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 27 =====
+“Set point”
+INFECÇÃO PROGRESSIVA
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 28 =====
+PADRÕES DE INFECÇÃO VIRAL
+Aguda
+Persistente
+Latente
+
+===== página 29 =====
+Padrões de 
+infecção viral
+▪Tipo de vírus
+▪Via de 
+transmissão
+▪Resposta do 
+hospedeiro
+Virulência
+Tropismo
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 30 =====
+Resposta do 
+hospedeiro:
+Infecção crônica
+Infecção aguda
+Resposta 
+inata
+Resposta 
+adaptativa
+Mecanismos de Evasão
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 31 =====
+Patogênese viral
+Tipo de 
+vírus
+Espécie
+Indivíduo
+Doença e sua 
+severidade
+▪
+da via de infecção
+Infecção vs. Patogênese Viral
+
+===== página 32 =====
+▪Infecção não é sinônimo de doença que
+nem sempre é causada pelo vírus sómente.
+▪Mecanismos
+importantes
+podem
+ser
+elucidados
+ao
+comparar
+indivíduos
+infectados assintomáticos e indivíduos com
+doença.
+Infecção vs. Patogênese Viral
+
+===== página 33 =====
+Patogênese viral
+Destruição de tecidos
+Indução e secreção de 
+citocinas inflamatórias
+Disfunção celular
+Efeito parâcrino
+Indução de tumores
+▪
+Definir em termos moleculares a diferença entre infecção e doença
+
+===== página 34 =====
+Infecção - mecanismo pelo qual o vírus introduz seu material genético na célula.
+Infecção
+Produtiva
+Abortiva
+Novos vírus infecciosos
+Novos vírus infecciosos
+X
+Infecção ≠doença ≠vírus sómente
+INFECÇÃO VIRAL
+
+===== página 35 =====
+O estabelecimento de uma infecção viral produtiva depende de: 
+Resposta imune: pode determinara o estabelecimento, eliminação ou
+persistência da infecção.
+Susceptibilidade: existência de receptores para o vírus.
+Permissividade: presença de fatores celulares que permitam a replicação
+viral eficiente.
+Acessibilidade à célula alvo.
+INFECÇÃO VIRAL
+
+===== página 36 =====
+VIRULÊNCIA
+É a capacidade relativa de 
+um vírus causar doença.
+Existem diferentes tipos:
+• Morte rápida
+• Falência de orgãos
+• Indução de tumores
+Em geral, está associada à capacidade replicativa do vírus. No entanto, 
+fatores como tropismo e a resposta do hospedeiro são importantes.
+
+===== página 37 =====
+VIRULÊNCIA
+Estirpes virulentas causam doença – gripe espanhola
+Estirpes avirulentas ou atenuadas não causam doença, mas são 
+capazes de infectar organismos - vacinas
+A virulência depende:
+do vírus (alguns variantes são mais virulentos que outros)
+da dose ou carga viral recebida pelo hospedeiro
+da via de inoculação
+da suscetibilidade do hospedeiro
+
+===== página 38 =====
+Fatores de Virulência são moléculas expressas por vírus que permitem
+que os mesmos:
+➢Tenham maior capacidade replicativa
+➢Colonizem um nicho no hospedeiro e possam ser 
+transmitidos a outros indivíduos (incluindo adesão, entrada e 
+saída de células e do organismo) 
+➢Evadam ou inibam o sistema imune (latência, persistência)
+➢Diretamente tóxicos (proteína NSP4 de rotavírus) 
+VIRULÊNCIA
+
+===== página 39 =====
+▪O rotavírus é o principal vírus causador de diarréia em crianças.
+▪A proteína viral não estrutural NSP4, tem ação semelhante às enterotoxinas.
+▪Desencadeia uma via de sinalização na mucosa intestinal que leva à elevação
+do potencial de Ca2+ que aumenta a secreção de Cloro = diarréia
+▪Família : Reoviridae
+▪Vírus não envelopado de 60-80 nm
+▪Genoma de RNA (ds) segmentado
+▪Sete tipos: A-G
+Rotavírus 
+VIRULÊNCIA
+
+===== página 40 =====
+Rotavírus 
+Segunda etapa: lise das células em escova, do epitelio intestinal, isto é, 
+as células produtoras de lactase.
+Consequente, acúmulo de lactose no lúmem que é compensado pela 
+liberação de água = diarréia osmótica
+VIRULÊNCIA
+
+===== página 41 =====
+HA (H)
+Hemaglutinina
+M2
+Envelope
+Genoma
+Família : Orthomyxoviridae
+▪Vírus envelopado de 100 nm
+▪Genoma de RNA (-) segmentado
+▪Três tipos: A, B, C
+- 8 segmentos em influenza A e B
+- 7 segmentos em influenza C
+Vírus influenza 
+Tipo A: Eqüinos, suínos, aves 
+e humanos
+NA (N)
+Neuraminidase 
+VIRULÊNCIA
+
+===== página 42 =====
+1918
+H1N1
+Gripe Espanhola
+20-40 milhões de 
+mortes
+1957
+H2N2
+Gripe Asiática
+1-2 milhões de 
+mortes
+1968
+H3N2
+Gripe de Hong-Kong
+700,000 mortes
+1977
+H1N1
+Re-aparição
+Sem pandemia
+1997
+H5N1
+Gripe aviária
+poucos mortos, mas...
+2009
+H1N1
+Gripe suína
+milhares de mortos
+Pandemias por influenza
+VIRULÊNCIA
+
+===== página 43 =====
+~ 200 Tipos
+~ 40 INFECTAM MUCOSA ANOGENITAL 
+BAIXO RISCO
+(HPV 6, 11, 42, 43, 44)
+ALTO RISCO
+(HPV16, 18, 31, 33, 35, 39, 45, 51, 
+52, 56, 58, 59 e 66)
+LESÕES DE BAIXO GRAU
+E VERRUGAS GENITAIS
+LESÕES DE ALTO GRAU
+CARCINOMA INVASIVO
+Papilomavírus humano
+VIRULÊNCIA
+
+===== página 44 =====
+Verrugas genitais causadas por HPV
+VIRULÊNCIA
+
+===== página 45 =====
+Epiglote
+Cordas vocais
+Traquéia
+Entrada 
+de ar
+Papiloma
+Papilomatose de Laringe (HPV-6/11)
+VIRULÊNCIA
+
+===== página 46 =====
+HPV e Câncer Cervical
+VIRULÊNCIA
+
+===== página 47 =====
+15
+R. Roden & T.-C. Wu. Nature Reviews Cancer 6, 753-763 (2006)
+HPV e Câncer Cervical
+~70%
+VIRULÊNCIA
+
+===== página 48 =====
+Rota de infecção dos vírus respiratórios 
+Fossas nasais
+Cavidade bucal
+Faringe
+Laringe
+Traquéia
+Pulmões
+Lobo superior
+Lobo inferior
+Lobo médio
+Bronquíolos
+Alvéolos
+Brônquios
+Pleura
+gotículas de saliva
+ou secreção nasal
+vírus
++
+Superfícies contaminadas
+TROPISMO
+
+===== página 49 =====
+Rinovírus
+Família : Picornaviridae
+▪Vírus não envelopado
+▪Genoma de RNA (+) 
+▪Mais de 100 sorotipos
+▪Receptor: ácido siálico
+▪Causam ~50% dos resfriados no mundo todo.
+▪Se transmitem de pessoa a pessoa por via aérea e por contato com
+superfícies contaminadas.
+▪Termoestáveis e resistentes a solventes como éter e etanol
+▪São inativados por ácido.
+▪Replicação mais eficiente a 32-33 °C
+TROPISMO
+
+===== página 50 =====
+Poliovírus
+Resistentes ao ácido.
+TROPISMO
+
+===== página 51 =====
+Mecanismos de evasão
+Ativos
+Passivos
+Requer síntese de proteínas virais
+▪Resistência à apoptose
+▪Modulação da resposta imune.
+▪Latência
+Não requer síntese de proteínas virais
+▪Tamanho do inoculo:
+▪Tropismo:
+▪Via de infecção (acessibilidade)
+▪Variabilidade
+
+===== página 52 =====
+Proteínas E6 e E7 de HPV
+https://doi.org/10.1016/j.mrrev.2016.08.001
+Evasão Ativa
+
+===== página 53 =====
+INFECÇÃO LATENTE: EBV
+Evasão Ativa
+
+===== página 54 =====
+Tamanho do inóculo:
+▪Rinovírus, HBV, HIV
+Tropismo:
+▪Herpesvírus, PVs, vírus da raiva
+Via de infecção (acessibilidade):
+▪Vírus da Pólio, HSV, HIV
+Variabilidade:
+▪Vírus de RNA em geral
+Evasão Passiva
+
+===== página 55 =====
+Tamanho do inoculo
+▪HIV
+Evasão Passiva
+
+===== página 56 =====
+Tropismo
+Evasão Passiva
+
+===== página 57 =====
+Tropismo
+Evasão Passiva
+
+===== página 58 =====
+▪Vírus influenza
+▪Vírus HIV 
+▪SARS-CoV-2
+Variabilidade
+Evasão Passiva
+
+===== página 59 =====
+INFECÇÃO VIRAL
+
+===== página 60 =====
+▪Existem diferentes padrões de infecção.
+▪Os mesmos dependem do tipo de vírus e de fatores do
+hospedeiro.
+▪O desenvolvimento de doença depende de fatores virais, do
+hospedeiro e do ambiente.
+▪O deslocamento do balanço existente entre o vírus e o
+hospedeiro determina o destino da infecção.
+INFECÇÃO VIRAL
+
+===== página 61 =====
+Obrigado!!!
+
+===== página 62 =====
+Patogênese Viral
+Enrique Boccardo
+Depto. Microbiologia – ICB/USP
+eboccardo@usp.br
+
+===== página 63 =====
+▪Os
+vírus
+são
+parasitas
+intracelulares
+obrigatórios.
+▪Portanto,
+são
+parasitas
+obrigatórios
+de
+tecidos dentro do organismo.
+Definição
+
+===== página 64 =====
+Infecção - mecanismo pelo qual o vírus introduz seu material genético
+na célula.
+Infecção
+Produtiva
+Abortiva
+Novos vírus infecciosos
+Novos vírus infecciosos
+X
+Infecção
+Infecção ≠doença
+
+===== página 65 =====
+ENTRADA E 
+DISSEMINAÇÃO VIRAL
+
+===== página 66 =====
+◼Portas de Entrada = 
+▪Mucosa do sistema respiratório, 
+digestório, urinário, 
+▪conjuntiva/córnea
+▪Pele
+▪Sangue: agulhas, picadas, 
+transfusão, 
+▪sexual
+From Flint et al  Principles of Virology ASM Press
+A via respiratória é a mais comum.
+Disseminação Viral - Entrada
+
+===== página 67 =====
+◼
+A infecção pode 
+ser localizada ou 
+sistêmica. 
+◼
+Sítio primário de 
+replicação - junto 
+à porta de entrada
+◼
+Passagem para o 
+sistema linfático, 
+amplificação.
+◼
+Passagem para o 
+sangue - viremia
+◼
+Sítio secundário 
+de multiplicação - 
+órgãos alvo ou 
+sistêmica, vários 
+órgãos envolvidos
+From Flint et al  Principles of 
+Virology ASM Press
+Disseminação viral
+
+===== página 68 =====
+◼Área, superfície, do pulmão humano = 140 m2
+◼Mecanismos de defesa:
+▪Epitélio mucociliar, (células ciliadas, células que secretam 
+muco, linfócitos, macrófagos) 
+▪Secreção de IgA
+◼A transmissão respiratória ocorre por:
+▪Aerosóis -  vírus influenza
+▪Contato direto – rinovírus
+◼A infecção pode ser
+▪localizada – rinovírus
+▪sistêmica – vírus influenza
+Entrada via trato respiratório
+
+===== página 69 =====
+From Flint et al  Principles of Virology ASM Press
+Entrada via trato respiratório
+
+===== página 70 =====
+Vírus entéricos
+Infecções localizadas: Rotavírus, Norovírus e Coronavírus causam diarreias.
+Infecções sistêmicas: Enterovírus (vírus da poliomielite, hepatite A, etc.), 
+Reovírus e Adenovírus.
+◼
+Virus que penetram e se multiplicam no trato alimentar precisam ser resistentes
+a variações de pH, ação de enzimas digestivas e a condições ambientais
+extremas.
+◼
+O epitelio intestinal é recoberto por células polarizadas, colunares, com
+microvilosidades.
+◼
+Parece uma excelente barreira, no entanto vários tipos de vírus replicam muito
+bem neste epitélio.
+Entrada via trato alimentar
+
+===== página 71 =====
+◼ Presença de vírus no sangue = viremia
+◼ Vírus livres no soro ou dentro de linfócitos.
+◼ Os vírus passam do epitélio para o sangue via sistema linfático.
+▪ Viremia:
+•
+Ativa - produzida pela replicação do vírus
+•
+Passiva - causada pela injeção de vírus direto 
+na corrente sangüínea.
+Após entrada na corrente sangüínea os vírus se disseminam por via 
+hematogênica.
+Disseminação viral hematogênica
+
+===== página 72 =====
+PADRÕES DE 
+INFECÇÃO VIRAL
+
+===== página 73 =====
+Infecção
+Aguda
+Crônica 
+(persistente)
+Infecção de hóspede suscetível
+A infecção continua por 
+longos períodos.
+Replicação 
+contínua
+Latência
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 74 =====
+PADRÕES DE INFECÇÃO VIRAL
+▪
+Infecção não é sinônimo de doença.
+
+===== página 75 =====
+PADRÕES DE INFECÇÃO VIRAL
+▪
+Infecção restrita no tempo.
+▪
+Rinovírus
+▪
+Influenza
+▪
+Rotavírus
+▪
+Enterovírus
+
+===== página 76 =====
+Latência - Estado transcricional e traducional único do vírus. O ciclo produtivo
+não funciona mas pode ser ativado a qualquer momento.
+HERPESVÍRUS: INFECÇÃO LATENTE
+Padrões de infecção
+▪Padrão CRÔNICO.
+
+===== página 77 =====
+Latência
+Reativação
+INFECÇÃO LATENTE
+HSV
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 78 =====
+Nature Reviews Clinical Oncology 9, 510-519 doi:10.1038/nrclinonc.2012.111
+INFECÇÃO LATENTE
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 79 =====
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 80 =====
+Hepatite B (aguda)
+INFECÇÃO AGUDA
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 81 =====
+Hepatite B (crônica)
+INFECÇÃO CRÔNICA
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 82 =====
+Hepatite C (aguda)
+INFECÇÃO AGUDA
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 83 =====
+Hepatite C (crônica)
+INFECÇÃO CRÔNICA
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 84 =====
+INFECÇÃO PROGRESSIVA
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 85 =====
+“Set point”
+INFECÇÃO PROGRESSIVA
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 86 =====
+PADRÕES DE INFECÇÃO VIRAL
+Aguda
+Persistente
+Latente
+
+===== página 87 =====
+Padrões de 
+infecção viral
+▪Tipo de vírus
+▪Via de 
+transmissão
+▪Resposta do 
+hospedeiro
+Virulência
+Tropismo
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 88 =====
+Resposta do 
+hospedeiro:
+Infecção crônica
+Infecção aguda
+Resposta 
+inata
+Resposta 
+adaptativa
+Mecanismos de Evasão
+PADRÕES DE INFECÇÃO VIRAL
+
+===== página 89 =====
+Patogênese viral
+Tipo de 
+vírus
+Espécie
+Indivíduo
+Doença e sua 
+severidade
+▪
+da via de infecção
+Infecção vs. Patogênese Viral
+
+===== página 90 =====
+▪Infecção não é sinônimo de doença.
+▪Mecanismos
+importantes
+podem
+ser
+elucidados
+ao
+comparar
+indivíduos
+infectados assintomáticos e indivíduos com
+doença.
+Infecção vs. Patogênese Viral
+
+===== página 91 =====
+Patogênese viral
+Destruição de tecidos
+Indução e secreção de 
+citocinas inflamatórias
+Disfunção celular
+Efeito parâcrino
+Indução de tumores
+▪
+Definir em termos moleculares a diferença entre infecção e doença
+
+===== página 92 =====
+Infecção - mecanismo pelo qual o vírus introduz seu material genético na
+célula.
+Infecção
+Produtiva
+Abortiva
+Novos vírus infecciosos
+Novos vírus infecciosos
+X
+Infecção ≠doença
+INFECÇÃO VIRAL
+
+===== página 93 =====
+O estabelecimento de uma infecção viral produtiva depende de: 
+Resposta imune: pode determinara o estabelecimento, eliminação ou
+persistência da infecção.
+Susceptibilidade: existência de receptores para o vírus.
+Permissividade: presença de fatores celulares que permitam a replicação
+viral eficiente.
+Acessibilidade à célula alvo.
+INFECÇÃO VIRAL
+
+===== página 94 =====
+VIRULÊNCIA
+É a capacidade relativa de 
+um vírus causar doença.
+Existem diferentes tipos:
+• Morte rápida
+• Falência de orgãos
+• Indução de tumores
+Em geral, está associada à capacidade replicativa do vírus. No entanto, 
+fatores como tropismo e a resposta do hospedeiro são importantes.
+
+===== página 95 =====
+VIRULÊNCIA
+Estirpes virulentas causam doença – gripe espanhola
+Estirpes avirulentas ou atenuadas não causam doença, mas são 
+capazes de infectar organismos - vacinas
+A virulência depende:
+ 
+do vírus (alguns variantes são mais virulentos que outros)
+ 
+da dose ou carga viral recebida pelo hospedeiro
+ 
+da via de inoculação
+ 
+da suscetibilidade do hospedeiro
+
+===== página 96 =====
+Fatores de Virulência são moléculas expressas por vírus que permitem
+que os mesmos:
+➢Tenham maior capacidade replicativa
+➢Colonizem um nicho no hospedeiro e possam ser 
+transmitidos a outros indivíduos (incluindo adesão, entrada e 
+saída de células e do organismo) 
+➢Evadam ou inibam o sistema imune (latência, persistência)
+➢Diretamente tóxicos (proteína NSP4 de rotavírus) 
+VIRULÊNCIA
+
+===== página 97 =====
+▪O rotavírus é o principal vírus causador de diarréia em crianças.
+▪A proteína viral não estrutural NSP4, tem ação semelhante às enterotoxinas.
+ 
+▪Desencadeia uma via de sinalização na mucosa intestinal que leva à elevação 
+do potencial de Ca2+ que aumenta a secreção de Cloro  = diarréia
+▪Família : Reoviridae
+▪Vírus não envelopado de 60-80 nm
+▪Genoma de RNA (ds) segmentado
+▪Sete tipos: A-G
+Rotavírus 
+VIRULÊNCIA
+
+===== página 98 =====
+Rotavírus 
+Segunda etapa: lise das células em escova, do epitelio intestinal, isto é, 
+as células produtoras de lactase.
+Consequente, acúmulo de lactose no lúmem que é compensado pela 
+liberação de água = diarréia osmótica
+VIRULÊNCIA
+
+===== página 99 =====
+HA (H)
+Hemaglutinina 
+M2
+Envelope
+Genoma
+Família : Orthomyxoviridae
+▪Vírus envelopado de 100 nm
+▪Genoma de RNA (-) segmentado
+▪Três tipos: A, B, C
+ 
+- 8 segmentos em influenza A e B
+ 
+- 7 segmentos em influenza C
+Vírus influenza 
+Tipo A: Eqüinos, suínos, aves 
+e humanos
+NA (N)
+Neuraminidase 
+VIRULÊNCIA
+
+===== página 100 =====
+1918
+H1N1
+Gripe Espanhola
+20-40 milhões de 
+mortes
+1957
+H2N2
+Gripe Asiática
+1-2 milhões de 
+mortes
+1968
+H3N2
+Gripe de Hong-Kong
+700,000 mortes
+1977
+H1N1
+Re-aparição
+Sem pandemia
+1997
+H5N1
+Gripe aviária
+poucos mortos, mas...
+2009
+H1N1
+Gripe suína
+milhares de mortos
+Pandemias por influenza
+VIRULÊNCIA
+
+===== página 101 =====
+~ 200 Tipos
+~ 40 INFECTAM MUCOSA ANOGENITAL 
+BAIXO RISCO
+(HPV 6, 11, 42, 43, 44)
+ALTO RISCO
+(HPV16, 18, 31, 33, 35, 39, 45, 51, 
+52, 56, 58, 59 e 66)
+LESÕES DE BAIXO GRAU
+E VERRUGAS GENITAIS
+LESÕES DE ALTO GRAU
+CARCINOMA INVASIVO
+Papilomavírus humano
+VIRULÊNCIA
+
+===== página 102 =====
+Verrugas genitais causadas por HPV
+VIRULÊNCIA
+
+===== página 103 =====
+Epiglote
+Cordas vocais
+Traquéia
+Entrada 
+de ar
+Papiloma
+Papilomatose de Laringe (HPV-6/11)
+VIRULÊNCIA
+
+===== página 104 =====
+HPV e Câncer Cervical
+VIRULÊNCIA
+
+===== página 105 =====
+15
+R. Roden & T.-C. Wu. Nature Reviews Cancer 6, 753-763 (2006)
+HPV e Câncer Cervical
+~70%
+VIRULÊNCIA
+
+===== página 106 =====
+Rota de infecção dos vírus respiratórios 
+Fossas nasais
+Cavidade bucal
+Faringe
+Laringe
+Traquéia
+Pulmões
+Lobo superior
+Lobo inferior
+Lobo médio
+Bronquíolos
+Alvéolos
+Brônquios
+Pleura
+gotículas de saliva
+ou secreção nasal
+vírus
++
+Superfícies contaminadas
+TROPISMO
+
+===== página 107 =====
+Rinovírus
+Família : Picornaviridae
+▪Vírus não envelopado
+▪Genoma de RNA (+) 
+▪Mais de 100 sorotipos
+▪Receptor: ácido siálico
+▪Causam ~50% dos resfriados no mundo todo.
+▪Se transmitem de pessoa a pessoa por via aérea e por contato com
+superfícies contaminadas.
+▪Termoestáveis e resistentes a solventes como éter e etanol
+▪São inativados por ácido.
+▪Replicação mais eficiente a 32-33 °C
+TROPISMO
+
+===== página 108 =====
+Poliovírus
+Resistentes ao ácido.
+TROPISMO
+
+===== página 109 =====
+Mecanismos de evasão
+Ativos
+Passivos
+Requer síntese de proteínas virais
+▪Resistência à apoptose
+▪Modulação da resposta imune.
+▪Latência
+Não requer síntese de proteínas virais
+▪Tamanho do inoculo:
+▪Tropismo:
+▪Via de infecção (acessibilidade)
+▪Variabilidade
+
+===== página 110 =====
+Proteínas E6 e E7 de HPV
+https://doi.org/10.1016/j.mrrev.2016.08.001
+Evasão Ativa
+
+===== página 111 =====
+INFECÇÃO LATENTE: EBV
+Evasão Ativa
+
+===== página 112 =====
+Tamanho do inóculo:
+▪Rinovírus, HBV, HIV
+Tropismo:
+▪Herpesvírus, PVs, vírus da raiva
+Via de infecção (acessibilidade):
+▪Vírus da Pólio, HSV, HIV
+Variabilidade:
+▪Vírus de RNA em geral
+Evasão Passiva
+
+===== página 113 =====
+Tamanho do inoculo
+▪HIV
+Evasão Passiva
+
+===== página 114 =====
+Tropismo
+Evasão Passiva
+
+===== página 115 =====
+Tropismo
+Evasão Passiva
+
+===== página 116 =====
+▪Vírus influenza
+▪Vírus HIV 
+▪SARS-CoV-2
+Variabilidade
+Evasão Passiva
+
+===== página 117 =====
+INFECÇÃO VIRAL
+
+===== página 118 =====
+▪Existem diferentes padrões de infecção.
+▪Os mesmos dependem do tipo de vírus e de fatores do
+hospedeiro.
+▪O desenvolvimento de doença depende de fatores virais, do
+hospedeiro e do ambiente.
+▪O deslocamento do balanço existente entre o vírus e o
+hospedeiro determina o destino da infecção.
+INFECÇÃO VIRAL
+
+===== página 119 =====
+Obrigado!!!
+
+===== página 120 =====
+Infecção do hospedeiro 
+suscetível 
+ 
+Enrique Boccardo 
+ 
+Depto. Microbiologia – ICB/USP 
+ 
+eboccardo@usp.br 
+
+===== página 121 =====
+Os 
+vírus 
+são 
+parasitas 
+intracelulares 
+obrigatórios. 
+ 
+ 
+Portanto, são parasitas obrigatórios de 
+tecidos dentro do organismo. 
+Definição 
+
+===== página 122 =====
+Infecção - mecanismo pelo qual o vírus introduz seu material genético 
+na célula. 
+Infecção 
+Produtiva 
+Abortiva 
+Novos vírus infecciosos 
+Novos vírus infecciosos 
+X 
+Infecção 
+Infecção ≠ doença 
+
+===== página 123 =====
+ENTRADA E 
+DISSEMINAÇÃO VIRAL 
+
+===== página 124 =====
+Portas de Entrada =  
+Mucosa do sistema respiratório, 
+digestório, urinário,  
+ 
+conjuntiva/córnea 
+ 
+Pele 
+ 
+Sangue: agulhas, picadas, 
+transfusão,  
+ 
+sexual 
+ 
+From Flint et al  Principles of Virology ASM Press 
+A via respiratória é a mais comum. 
+Disseminação Viral - Entrada 
+
+===== página 125 =====
+Área, superfície, do pulmão humano = 140 m2 
+ 
+Mecanismos de defesa: 
+Epitélio mucociliar, (células ciliadas, células que secretam 
+muco, linfócitos, macrófagos)  
+Secreção de IgA 
+ 
+A transmissão respiratória ocorre por: 
+Aerosóis -  vírus influenza 
+Contato direto – rinovírus 
+ 
+A infecção pode ser 
+localizada – rinovírus 
+sistêmica – vírus influenza 
+Entrada via trato respiratório 
+
+===== página 126 =====
+From Flint et al  Principles of Virology ASM Press 
+Entrada via trato respiratório 
+
+===== página 127 =====
+Muitos receptores virais são moléculas de adesão: 
+ICAM - 1 para Rhinovírus 
+CAR- Coxsackie, Adenovirus- Receptor - 
+componente das “tight junctions” 
+From Spear: Dev Cell 3:462-464 (2002) 
+From Walters et al Cell 110:789-799 (2002) 
+Disseminação Viral - Entrada 
+
+===== página 128 =====
+Vírus entéricos 
+  
+Infecções localizadas: Rotavírus, Norovírus e Coronavírus causam diarreias. 
+ 
+Infecções sistêmicas: Enterovírus (vírus da poliomielite, hepatite A, etc.), 
+Reovírus e Adenovírus. 
+
+Virus que penetram e se multiplicam no trato alimentar precisam ser resistentes 
+a variações de pH, ação de enzimas digestivas e a condições ambientais 
+extremas.  
+ 
+
+O epitelio intestinal é recoberto por células polarizadas, colunares, com 
+microvilosidades.  
+ 
+
+Parece uma excelente barreira, no entanto vários tipos de vírus replicam muito 
+bem neste epitélio.  
+Entrada via trato alimentar 
+
+===== página 129 =====
+
+A infecção pode 
+ser localizada ou 
+sistêmica.  
+ 
+
+Sítio primário de 
+replicação - junto 
+à porta de entrada 
+ 
+
+Passagem para o 
+sistema linfático, 
+amplificação. 
+ 
+
+Passagem para o 
+sangue - viremia 
+ 
+ 
+
+Sítio secundário 
+de multiplicação - 
+órgãos alvo ou 
+sistêmica, vários 
+órgãos envolvidos 
+From Flint et al  Principles of 
+Virology ASM Press 
+Disseminação viral 
+
+===== página 130 =====
+ Presença de vírus no sangue = viremia 
+ 
+ Vírus livres no soro ou dentro de linfócitos. 
+ 
+ Os vírus passam do epitélio para o sangue via sistema linfático. 
+ Viremia: 
+ 
+•
+Ativa - produzida pela replicação do vírus 
+ 
+•
+Passiva - causada pela injeção de vírus direto 
+na corrente sangüínea. 
+Após entrada na corrente sangüínea os vírus se disseminam por via 
+hematogênica. 
+Disseminação viral hematogênica 
+
+===== página 131 =====
+PADRÕES DE  
+INFECÇÃO VIRAL 
+
+===== página 132 =====
+Infecção 
+Aguda 
+Crônica 
+(persistente) 
+Infecção de hóspede suscetível 
+A infecção continua por 
+longos períodos. 
+Replicação 
+contínua 
+Latência 
+PADRÕES DE INFECÇÃO VIRAL 
+
+===== página 133 =====
+PADRÕES DE INFECÇÃO VIRAL 
+
+Infecção não é sinônimo de doença.  
+
+===== página 134 =====
+PADRÕES DE INFECÇÃO VIRAL 
+
+Infecção restrita no tempo. 
+ 
+
+Rinovírus 
+
+Influenza 
+
+Rotavírus 
+
+Enterovírus 
+
+===== página 135 =====
+INFECÇÃO LATENTE 
+PADRÕES DE INFECÇÃO VIRAL 
+Latência – representa um estado transcricional e traducional único do vírus. O 
+ciclo produtivo não funciona mas pode ser ativado a qualquer 
+momento. 
+
+===== página 136 =====
+Latência 
+Reativação 
+INFECÇÃO LATENTE 
+HSV 
+PADRÕES DE INFECÇÃO VIRAL 
+
+===== página 137 =====
+Nature Reviews Clinical Oncology 9, 510-519 doi:10.1038/nrclinonc.2012.111 
+INFECÇÃO LATENTE 
+PADRÕES DE INFECÇÃO VIRAL 
+
+===== página 138 =====
+PADRÕES DE INFECÇÃO VIRAL 
+
+===== página 139 =====
+Hepatite B (aguda) 
+INFECÇÃO AGUDA 
+PADRÕES DE INFECÇÃO VIRAL 
+
+===== página 140 =====
+Hepatite B (crônica) 
+INFECÇÃO CRÔNICA 
+PADRÕES DE INFECÇÃO VIRAL 
+
+===== página 141 =====
+Hepatite C (aguda) 
+INFECÇÃO AGUDA 
+PADRÕES DE INFECÇÃO VIRAL 
+
+===== página 142 =====
+Hepatite C (crônica) 
+INFECÇÃO CRÔNICA 
+PADRÕES DE INFECÇÃO VIRAL 
+
+===== página 143 =====
+INFECÇÃO PROGRESSIVA 
+PADRÕES DE INFECÇÃO VIRAL 
+
+===== página 144 =====
+“Set point” 
+INFECÇÃO PROGRESSIVA 
+PADRÕES DE INFECÇÃO VIRAL 
+
+===== página 145 =====
+PADRÕES DE INFECÇÃO VIRAL 
+Aguda 
+Persistente 
+Latente 
+
+===== página 146 =====
+Padrões de 
+infecção viral 
+Tipo de vírus 
+ 
+ 
+Via de 
+transmissão 
+ 
+ 
+Resposta do 
+hospedeiro 
+Virulência 
+ 
+Tropismo 
+PADRÕES DE INFECÇÃO VIRAL 
+
+===== página 147 =====
+Resposta do 
+hospedeiro: 
+Infecção crônica 
+Infecção aguda 
+Resposta 
+inata 
+Resposta 
+adaptativa 
+Mecanismos de Evasão 
+PADRÕES DE INFECÇÃO VIRAL 
+
+===== página 148 =====
+Patogênese viral 
+Tipo de 
+vírus 
+Espécie 
+Indivíduo 
+Doença e sua 
+severidade 
+
+da via de infecção 
+Infecção vs. Patogênese Viral 
+
+===== página 149 =====
+Infecção não é sinônimo de doença.  
+ 
+ 
+Mecanismos 
+importantes 
+podem 
+ser 
+elucidados 
+ao 
+comparar 
+indivíduos 
+infectados assintomáticos e indivíduos com 
+doença. 
+Infecção vs. Patogênese Viral 
+
+===== página 150 =====
+Patogênese viral 
+Destruição de tecidos 
+Indução e secreção de 
+citocinas inflamatórias 
+Disfunção celular 
+Efeito parâcrino 
+Indução de tumores 
+
+Definir em termos moleculares a diferença entre infecção e doença 
+
+===== página 151 =====
+Infecção - mecanismo pelo qual o vírus  introduz seu material genético na 
+célula. 
+Infecção 
+Produtiva 
+Abortiva 
+Novos vírus infecciosos 
+Novos vírus infecciosos 
+X 
+Infecção ≠ doença 
+INFECÇÃO VIRAL 
+
+===== página 152 =====
+O estabelecimento de uma infecção viral produtiva depende de:  
+Resposta imune: pode determinara o estabelecimento, eliminação ou 
+persistência da infecção. 
+Susceptibilidade: existência de receptores para o vírus. 
+Permissividade: presença de fatores celulares que permitam a replicação 
+viral eficiente. 
+Acessibilidade à célula alvo. 
+INFECÇÃO VIRAL 
+
+===== página 153 =====
+VIRULÊNCIA 
+É a capacidade relativa de 
+um vírus causar doença. 
+Existem diferentes tipos: 
+• Morte rápida 
+• Falência de orgãos 
+• Indução de tumores 
+Em geral, está associada à capacidade replicativa do vírus. No entanto, 
+fatores como tropismo e a resposta do hospedeiro são importantes. 
+
+===== página 154 =====
+VIRULÊNCIA 
+Estirpes virulentas causam doença – gripe espanhola 
+ 
+Estirpes avirulentas ou atenuadas não causam doença, mas são 
+capazes de infectar organismos - vacinas 
+ 
+A virulência depende: 
+ 
+ 
+do vírus (alguns variantes são mais virulentos que outros) 
+ 
+ 
+da dose ou carga viral recebida pelo hospedeiro 
+ 
+ 
+da via de inoculação 
+ 
+ 
+da suscetibilidade do hospedeiro 
+
+===== página 155 =====
+Fatores de Virulência são moléculas expressas por vírus que permitem 
+que os mesmos:  
+Tenham maior capacidade replicativa 
+ 
+Colonizem um nicho no hospedeiro e possam ser 
+transmitidos a outros indivíduos (incluindo adesão, entrada e 
+saída de células e do organismo)  
+ 
+Evadam ou inibam o sistema imune (latência, persistência) 
+ 
+Diretamente tóxicos (proteína NSP4 de rotavírus)  
+VIRULÊNCIA 
+
+===== página 156 =====
+O rotavírus é o principal vírus causador de diarréia em crianças. 
+ 
+A proteína viral não estrutural NSP4, tem ação semelhante às enterotoxinas. 
+  
+Desencadeia uma via de sinalização na mucosa intestinal que leva à elevação 
+do potencial de Ca2+ que aumenta a secreção de Cloro  = diarréia 
+Família : Reoviridae 
+Vírus não envelopado de 60-80 nm 
+Genoma de RNA (ds) segmentado 
+Sete tipos: A-G 
+Rotavírus  
+VIRULÊNCIA 
+
+===== página 157 =====
+Rotavírus  
+Segunda etapa: lise das células em escova, do epitelio intestinal, isto é, 
+as células produtoras de lactase. 
+ 
+Consequente, acúmulo de lactose no lúmem que é compensado pela 
+liberação de água = diarréia osmótica 
+VIRULÊNCIA 
+
+===== página 158 =====
+HA (H) 
+Hemaglutinina  
+M2 
+Envelope 
+Genoma 
+Família : Orthomyxoviridae 
+Vírus envelopado de 100 nm 
+Genoma de RNA (-) segmentado 
+Três tipos: A, B, C 
+ 
+- 8 segmentos em influenza A e B 
+ 
+- 7 segmentos em influenza C 
+Vírus influenza  
+Tipo A: Eqüinos, suínos, aves 
+e humanos 
+NA (N) 
+Neuraminidase  
+VIRULÊNCIA 
+
+===== página 159 =====
+1918 
+H1N1 Gripe Espanhola 
+20-40 milhões de  
+ 
+ 
+ 
+ 
+ 
+mortes 
+ 
+1957 
+H2N2 Gripe Asiática  
+1-2 milhões de   
+ 
+ 
+ 
+ 
+ 
+mortes 
+ 
+1968 
+H3N2 Gripe de Hong-Kong 
+700,000 mortes 
+ 
+1977 
+H1N1  Re-aparição 
+ 
+Sem pandemia 
+ 
+1997 
+H5N1 Gripe aviária 
+ 
+poucos mortos, mas... 
+ 
+2009 
+H1N1 Gripe suína 
+ 
+milhares de mortos 
+Pandemias por influenza 
+VIRULÊNCIA 
+
+===== página 160 =====
+~ 200 Tipos 
+~ 40 INFECTAM MUCOSA ANOGENITAL  
+BAIXO RISCO 
+(HPV 6, 11, 42, 43, 44) 
+ALTO RISCO 
+(HPV16, 18, 31, 33, 35, 39, 45, 51, 
+52, 56, 58, 59 e 66) 
+LESÕES DE BAIXO GRAU 
+E VERRUGAS GENITAIS 
+LESÕES DE ALTO GRAU 
+CARCINOMA INVASIVO 
+Papilomavírus humano 
+VIRULÊNCIA 
+
+===== página 161 =====
+Verrugas genitais causadas por HPV 
+VIRULÊNCIA 
+
+===== página 162 =====
+Epiglote 
+Cordas vocais 
+Traquéia 
+Entrada 
+de ar 
+Papiloma 
+Papilomatose de Laringe (HPV-6/11) 
+VIRULÊNCIA 
+
+===== página 163 =====
+HPV e Câncer Cervical 
+VIRULÊNCIA 
+
+===== página 164 =====
+15 
+R. Roden & T.-C. Wu. Nature Reviews Cancer 6, 753-763 (2006) 
+HPV e Câncer Cervical 
+~70% 
+VIRULÊNCIA 
+
+===== página 165 =====
+Rota de infecção dos vírus respiratórios  
+Fossas nasais 
+Cavidade bucal 
+Faringe 
+Laringe 
+Traquéia 
+Pulmões 
+Lobo superior 
+Lobo inferior 
+Lobo médio 
+Bronquíolos 
+Alvéolos 
+Brônquios 
+Pleura 
+gotículas de saliva 
+ou secreção nasal 
+vírus 
++ 
+Superfícies contaminadas 
+TROPISMO 
+
+===== página 166 =====
+Rinovírus 
+Família : Picornaviridae 
+Vírus não envelopado 
+Genoma de RNA (+)  
+Mais de 100 sorotipos 
+Receptor: ácido siálico 
+Causam ~50% dos resfriados no mundo todo. 
+Se transmitem de pessoa a pessoa por via aérea e por contato com 
+superfícies contaminadas. 
+Termoestáveis e resistentes a solventes como éter e etanol 
+São inativados por ácido. 
+Replicação mais eficiente a 32-33 °C 
+TROPISMO 
+
+===== página 167 =====
+Poliovírus 
+Resistentes ao ácido. 
+TROPISMO 
+
+===== página 168 =====
+Mecanismos de evasão 
+Ativos 
+Passivos 
+Requer síntese de proteínas virais 
+ 
+Resistência à apoptose 
+ 
+Modulação da resposta imune. 
+ 
+Latência 
+Não requer síntese de proteínas virais 
+ 
+Tamanho do inoculo: 
+ 
+Tropismo: 
+ 
+Via de infecção (acessibilidade) 
+ 
+Variabilidade 
+
+===== página 169 =====
+Proteínas E6 e E7 de HPV 
+https://doi.org/10.1016/j.mrrev.2016.08.001 
+Evasão Ativa 
+
+===== página 170 =====
+INFECÇÃO LATENTE: EBV 
+Evasão Ativa 
+
+===== página 171 =====
+Tamanho do inóculo: 
+Rinovírus, HBV, HIV 
+ 
+Tropismo: 
+Herpesvírus, PVs, vírus da raiva 
+ 
+Via de infecção (acessibilidade): 
+Vírus da Pólio, HSV, HIV 
+ 
+Variabilidade: 
+Vírus de RNA em geral 
+Evasão Passiva 
+
+===== página 172 =====
+Tamanho do inoculo 
+HIV 
+Evasão Passiva 
+
+===== página 173 =====
+Tropismo 
+Evasão Passiva 
+
+===== página 174 =====
+Tropismo 
+Evasão Passiva 
+
+===== página 175 =====
+Vírus influenza 
+ 
+Vírus HIV  
+  
+Variabilidade 
+Evasão Passiva 
+
+===== página 176 =====
+INFECÇÃO VIRAL 
+
+===== página 177 =====
+Existem diferentes padrões de infecção. 
+ 
+Os mesmos dependem do tipo de vírus e de fatores do 
+hospedeiro. 
+ 
+O desenvolvimento de doença depende de fatores virais, do 
+hospedeiro e do ambiente. 
+ 
+O deslocamento do balanço existente entre o vírus e o 
+hospedeiro determina o destino da infecção. 
+INFECÇÃO VIRAL 
+
+===== página 178 =====
+Obrigado!!! 

@@ -1,0 +1,168 @@
+000 au-infecao-def | Autora | Vs | Slide 12
+    F: In [productive] infection the virus makes new infectious virions, while in [abortive] infection it does not
+    V: - Infection is not the same as disease: many infections are subclinical / - The virus is an obligate intracellular parasite
+    IMG: —
+001 ak1516325251980 | AnKing | Vs | Slide 12
+    F: What is the route of transmission of influenza? / / [Respiratory droplets] /
+    V: - Aerosols spread influenza and coronavirus; contaminated hands and fomites spread rhinovirus
+    IMG: —
+002 ak1506297282227 | AnKing | Vs | Slide 12
+    F: What is the route of transmission of most* paramyxoviruses? / / [Respiratory droplets] /
+    V: *Except measles, which is by airborne transmission / / - Measles enters by the respiratory route, then reaches other organs and immune cells (viremia), with the rash in the periphe
+    IMG: —
+003 ak1608908651007 | AnKing | AsAsAs | Slide 12
+    F: Coronavirus binds to the [angiotensin-converting enzyme 2 (ACE2) receptor] on [type II alveolar] cells in the respiratory tract via the [S glycoprotein]
+    V: Type II alveolar cells = type II pneumocytes / / - Susceptibility needs the receptor; permissiveness needs the cell machinery for replication
+    IMG: —
+004 ak1506610615157 | AnKing | Vs | Slide 12
+    F: Hepatitis A virus is acid-[stable]
+    V: Allows for fecal-oral transmission; not broken down by stomach acid / / / - Enteric viruses face the acid stomach, digestive enzymes and bile salts
+    IMG: —
+005 ak1516237532611 | AnKing | VsVsVs | Slide 12
+    F: Viral [gastroenteritis] is most commonly caused by [norovirus] and [rotavirus]
+    V: - They are non-enveloped, resist the gut environment and are shed in the stool
+    IMG: —
+006 ak1516665596498 | AnKing | Vs | Slide 12
+    F: What is the transmission of rotavirus? / / [Fecal-oral] /
+    V: Most common cause of diarrhea in children / / / - Localized enteric infection: replication in the intestinal epithelium and release in the stool
+    IMG: —
+007 ak1516218470870 | AnKing | Vs | Slide 12
+    F: What is the route of transmission of poliovirus? / / [Fecal-oral] /
+    V: As with all picornaviruses (except rhinovirus) / / - It replicates in the intestine, reaches the blood (viremia) and then the central nervous system
+    IMG: —
+008 au-viremia | Autora | VsVs | Slide 13
+    F: Viremia is [active] if the virus replicated in organs and [passive] if injected (insect, transfusion)
+    V: - Primary site of replication at the portal of entry; secondary site in the target organs / - Passive viremia: mosquito bite, contaminated needle or transfusion, dog bite
+    IMG: —
+009 ak1506291152635 | AnKing | As | Slide 13
+    F: Reactivation of VZV occurs with [stress], [aging], or an immunocompromised state
+    V: / / - Reactivation can be triggered by stress, aging or immunosuppression
+    IMG: b3c0ed89d9ad2043749dc9c5
+010 ak1503860841762 | AnKing | Vs | Slide 13
+    F: Reactivation of CMV occurs in the immunosuppressed, such as [organ transplant] and AIDS patients
+    V: - Reactivation is seen in organ transplant and AIDS patients
+    IMG: —
+011 ak1503858394947 | AnKing | Vs | Slide 13
+    F: Which herpesvirus remains latent in mononuclear cells (e.g., macrophages)? / / [CMV] /
+    V: Latent in mononuclear cells (Not B or T cells though. EBV is just B cells) / Location of Latency / HSV-1Trigeminal nerve ganglion HSV-2Sacral nerve ganglionVZVDorsal root or trigem
+    IMG: —
+012 ak1506291111598 | AnKing | Vs | Slide 13
+    F: Where does varicella zoster virus (VZV) remain latent? / / [Dorsal root ganglia (DRG)] /
+    V: / / - Latency: the productive cycle is off, but it can be reactivated
+    IMG: b3c0ed89d9ad2043749dc9c5
+013 ak1502153397982 | AnKing | Vs | Slide 13
+    F: HSV-1 remains latent in the [trigeminal] ganglion
+    V: - Makes sense as HSV-1 is normally confined to the face / / / - Reactivated by stress or immunocompromization / / / - The virus infects the epithelium, goes up the neuron and switc
+    IMG: —
+014 ak1502152875721 | AnKing | As | Slide 13
+    F: After primary infection, stress can reactivate HSV-1, which can result in [herpes labialis (cold sores)]
+    V: - Most common viral infection of the mouth / / - Remains dormant in the trigeminal ganglion / / / - After 2-3 weeks, initial infection resolves and the virus can enter sensory nerv
+    IMG: 36d2429ec9072bdbd3a06d16, 0c707c5265210a5848f59986
+015 ak1502154338212 | AnKing | Vs | Slide 13
+    F: HSV-2 remains latent in the [sacral] ganglia
+    V: - Reactivated genital herpes returns along the sensory nerves
+    IMG: —
+016 ak1503854748516 | AnKing | Vs | Slide 13
+    F: Epstein-Barr virus remains latent in [B cells]
+    V: EBV infects B cells / / - EBV has a lytic cycle in the epithelium and latency in memory B cells, where it is invisible to the immune system
+    IMG: —
+017 ak1506552371527 | AnKing | VsVs | Slide 14
+    F: [Newborns] infected with HBV have a(n) [90]% chance of developing chronic infection
+    V: Whereas adults with the disease only develop chronic infection 5-10% / / / - Infection by the vertical route becomes chronic more often than infection in adults
+    IMG: —
+018 ak1506552065089 | AnKing | Vs | Slide 14
+    F: Hepatitis B can be transmitted from mother to baby during [delivery]
+    V: - As well as through sex and blood (e.g., IVDU, needle sticks) / / - Large virus, therefore does not normally cross the placenta; usually transmitted during mixing of blood during 
+    IMG: —
+019 ak1506552205472 | AnKing | Vs | Slide 14
+    F: When compared to HCV, HBV is [less] likely to become a chronic infection
+    V: - In HBV, only 5 - 10% of adult cases develop chronic infection; younger children are at higher risk / / - In HCV, infections become chronic in 60 - 80% of cases / / - The most com
+    IMG: —
+020 ak1506630060423 | AnKing | Vs | Slide 14
+    F: Hepatitis C infections become chronic in [60] - [80]% of cases
+    V: - As opposed to HBV where typically 5 - 10% become chronic in adults / / - Hepatitis C = Chronic / / - Hepatitis C is chronic in most cases, with the viral genome detected for more
+    IMG: —
+021 ak1502067560663 | AnKing | Vs | Slide 14
+    F: The clinical latency period of HIV infection can last up to [10] years
+    V: / / - Viral load set point after the acute phase predicts how fast AIDS develops
+    IMG: 95385e87a01a4428955d4f08
+022 au-latencia-vs | Autora | As | Slide 14
+    F: In HIV clinical latency the virus [replicates] constantly, unlike the latency of herpesviruses
+    V: - Herpesvirus latency: the productive cycle is off and can be reactivated / - HIV clinical latency: no symptoms but constant replication until CD4 T cells fall
+    IMG: —
+023 au-padroes | Autora | AsAsAs | Slide 14
+    F: Infection patterns: / - HSV and EBV: [latent] / - HBV and HCV: [persistent] / - HIV: [progressive] /
+    V: - Acute infection has a clear start and end, even if it lasts months (HBV) / - The pattern depends on the virus, tropism, route, host response and immune evasion
+    IMG: —
+024 au-patogenese | Autora | AsAsAs | Slide 15
+    F: Viral pathogenesis: / - tissue [destruction] / - inflammatory [cytokines] / - cell [dysfunction] /
+    V: - Some viruses also induce tumors / - Severe cases of influenza and COVID-19 can be immunopathology, in which the inflammatory response causes the damage
+    IMG: —
+025 au-3-fatores | Autora | VsVsVs | Slide 15
+    F: Productive infection needs: / - [susceptibility]: receptor / - [permissiveness]: cell factors for replication / - [accessibility] to the target cell /
+    V: - The immune response also decides whether the infection is established, eliminated or persists / - A red cell may bind the virus but has no machinery to replicate it
+    IMG: —
+026 au-virulencia | Autora | As | Slide 15
+    F: Viral virulence factors, such as the rotavirus [NSP4], favor replication, spread, immune evasion or direct toxicity
+    V: - Virulence is the relative capacity of a virus to cause disease / - It depends on the viral variant, the dose, the route and host susceptibility
+    IMG: —
+027 ak1516665751235 | AnKing | VsVs | Slide 15
+    F: [Rotavirus] contains the [NSP4] enterotoxin, causing watery diarrhea
+    V: Increases Cl- permeability → Na+ follows Cl- → H2O follows Na+ → watery diarrhea with loss of Na+ and K+ / (increased water → increased K+ excretion in the large intestine) / / / -
+    IMG: —
+028 ak1516665990169 | AnKing | As | Slide 15
+    F: The NSP4 enterotoxin of rotavirus increases [Cl-] permeability
+    V: Increases Cl- permeability → Na+ follows Cl- → H2O follows Na+ → watery diarrhea with loss of Na+ and K+ / / / - NSP4 raises intracellular calcium, chloride leaves the cell and wat
+    IMG: —
+029 ak1516666902436 | AnKing | Vs | Slide 15
+    F: Rotavirus gastroenteritis can result in a secondary [lactase] deficiency
+    V: Due to villous destruction / / / - Undigested lactose draws water into the gut: osmotic diarrhea, so milk worsens it
+    IMG: —
+030 ak1516323168130 | AnKing | Vs | Slide 15
+    F: Antigenic shift is associated with [pan]demics /
+    V: - Pandemics span over continents/worldwide / / - HA and NA undergo antigenic variation which allow for outbreaks resistant to previous vaccination / - Influenza viruses are named b
+    IMG: —
+031 ak1394068322402 | AnKing | Vs | Slide 16
+    F: Condylomata acuminata are most commonly caused by [HPV 6 or HPV 11]
+    V: / / - Low-risk HPV types cause warts and low-grade lesions
+    IMG: af57488e270884011aa31a09
+032 ak1493218180866 | AnKing | As | Slide 16
+    F: HPV infects the [true vocal cords] in the respiratory tract which causes [laryngeal papillomatosis]
+    V: - HPV has a tropism for stratified squamous epithelium / / - The true vocal cords are the only part of the URT with stratified squamous epithelium / Laryngeal papillomatosis: /  / 
+    IMG: 6a35732bbf382f9af9b2ae99
+033 ak1405375421095 | AnKing | As | Slide 16
+    F: Which strains of HPV are most associated with cervical dysplasia or carcinoma in situ? / / [HPV 16 and HPV 18] /
+    V: Also 31 and 33 (high-risk HPV) / / - High-risk types cause nearly all cervical cancers; HPV 16 and 18 together about 70%
+    IMG: —
+034 ak1516222409950 | AnKing | Vs | Slide 16
+    F: Rhinovirus grows best at [33 °C]
+    V: Cooler than normal body temperature, for instance, in the upper respiratory tract / / / - The cooler nasopharynx is a favorable microenvironment
+    IMG: —
+035 ak1516222135232 | AnKing | Vs | Slide 16
+    F: Rhinovirus is acid-[labile]
+    V: Unlike other picornaviruses; thus, does not have fecal-oral transmission / / / - If swallowed, it is inactivated by the stomach acid, so it replicates in the respiratory epithelium
+    IMG: —
+036 ak1516218404816 | AnKing | As | Slide 16
+    F: Poliovirus is acid-[stable]
+    V: As it is transmitted fecal-orally (must be able to withstand acid in stomach) / / / - A poliovirus close relative of rhinovirus can cross the acid stomach and bile because of small
+    IMG: —
+037 ak1516219553378 | AnKing | Vs | Slide 16
+    F: Which poliovirus vaccine is live attenuated? / / [Sabin] /
+    V: This vaccine is "Sabin" lives (live attenuated vaccine) / / - The attenuated strain replicates in the gut but does not reach the central nervous system
+    IMG: —
+038 au-evasao | Autora | AsAsAs | Slide 16
+    F: Viral immune evasion: / - active: needs viral [proteins] / - passive: [inoculum], tropism, route / - passive: [variability] /
+    V: - Active: HPV E6 and E7 alter the interferon response; latency in EBV / - Passive: a large inoculum, a tropism far from the immune response, the route of infection
+    IMG: —
+039 ak1502718274711 | AnKing | Vs | Slide 17
+    F: Which layer of the epithelium does HPV infect? / / [Stratum basale] / /
+    V: Basal layer where new epithelial cells are replicating / /  / / / / - The virus cycle occurs in suprabasal layers, away from the dermis where the immune response acts
+    IMG: 2b5e7156d2ac6df8a3aaf0a7
+040 ak1516474304091 | AnKing | As | Slide 17
+    F: Rabies virus travels [retro]grade along peripheral nerves
+    V: - Towards the CNS / - 1 - 3 mm/day / / - Inside axons the virus is far from the immune response
+    IMG: —
+041 ak1506629766099 | AnKing | VsVs | Slide 17
+    F: Hepatitis C virus displays [antigenic] variability of its [envelope] proteins
+    V: - HCV lacks 3'-5' exonuclease activity → no proofreading ability → variation in antigenic structures of HCV envelope proteins / / - Production of new mutant HCV >> host antibody pr
+    IMG: —

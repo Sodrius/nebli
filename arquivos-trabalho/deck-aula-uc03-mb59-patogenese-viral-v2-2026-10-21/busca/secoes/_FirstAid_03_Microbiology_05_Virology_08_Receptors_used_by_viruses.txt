@@ -1,0 +1,14 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::08_Receptors_used_by_viruses (13 notas)
+1502066766747 1-HighYield gp120 is the outer glycoprotein of HIV
+1502066834360 1-HighYield gp120 of HIV binds {{c2}} and the co-receptors CCR5 (primarily on macrophages ) and CXCR4 (primarily on T cells )
+1502068331161 3-HighYield-temporary In early HIV infection, HIV gains entry into macrophages via binding to CD4 plus the coreceptor CCR5
+1502068440036 3-HighYield-temporary In late HIV infection, HIV gains entry into helper T-cells via binding to CD4 plus the coreceptor CXCR4
+1502068458514 3-HighYield-temporary Individuals with homo zygous CCR5 allele mutations are resistant to HIV infection
+1502068584028 3-HighYield-temporary Individuals with hetero zygous CCR5 allele mutations display a slower rate of progression of HIV infection
+1503855029259 2-RelativelyHighYield Epstein-Barr virus (EBV) binds to CD21 (C3d receptor; CR2) on B-cells , causing B-cell proliferation and heterophile antibody production
+1503855271322 4-LowerYield The B-cell CD21 is the receptor for complement protein C3d
+1516222322469 3-HighYield-temporary Rhinovirus is a virus that enters host cells by attaching to ICAM-1
+1516473678124 1-HighYield Rabies virus binds to nicotinic ACh receptors in the post-synaptic membrane of the neuromuscular junction
+1516473893262 1-HighYield Rabies virus binds to nicotinic ACh receptors in the post-synaptic membrane of the neuromuscular junction
+1516929251589 3-HighYield-temporary Parvovirus B19 binds P blood group antigen , expressed in high levels by erythroid progenitor cells
+1516929341135 2-RelativelyHighYield CMV is a virus that binds to cellular integrins (heparan sulfate)

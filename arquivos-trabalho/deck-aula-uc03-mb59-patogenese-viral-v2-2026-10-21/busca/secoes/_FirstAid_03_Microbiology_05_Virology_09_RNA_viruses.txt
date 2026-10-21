@@ -1,0 +1,460 @@
+# #AK_Step1_v12::#FirstAid::03_Microbiology::05_Virology::09_RNA_viruses (459 notas)
+1480549851019 1-HighYield Does poliomyelitis present with symmetric or asymmetric weakness ? Asymmetric
+1487122056375 1-HighYield What type of vaccine is the intranasal influenza vaccine ? Live attenuated
+1502066128205 2-RelativelyHighYield HIV is a retrovirus , which is a(n) diploid single-stranded positive sense RNA virus
+1502066300073 1-HighYield Does HIV have an envelope ? Yes
+1502066412218 1-HighYield The gag gene of HIV encodes p24 and p17
+1502066575758 1-HighYield The env gene of HIV encodes gp120 and gp41
+1502066667272 1-HighYield gp41 is the transmembrane protein of HIV , mediating viral-cell fusion and syncytia formation
+1502066766747 1-HighYield gp120 is the outer glycoprotein of HIV
+1502066834360 1-HighYield gp120 of HIV binds {{c2}} and the co-receptors CCR5 (primarily on macrophages ) and CXCR4 (primarily on T cells )
+1502066968224 1-HighYield The pol gene of HIV encodes the enzymes reverse transcriptase , aspartate protease , and integrase
+1502067509832 2-RelativelyHighYield The acute phase of HIV consists of flu or mono -like symptoms with generalized lymphadenopathy and fever
+1502067560663 1-HighYield The clinical latency period of HIV infection can last up to 10 years
+1502067746680 1-HighYield Stage 1 HIV is characterized by wide dissemination to lymphoid organs
+1502067814114 1-HighYield Stage 2 HIV is characterized by clinical latency . CD4+ count drops to < 500 cells/mm 3
+1502067896713 1-HighYield Stage 3 HIV is characterized by recurrent bacterial infections. CD4+ count drops to < 350 cells/mm 3
+1502068052536 1-HighYield The criteria for AIDS is a CD4 count < 200 cells/mm 3 or confirmed HIV status with AIDS-defining opportunistic infections such as Pneumocystis pneumonia (PCP) or Candida esophagitis
+1502068121454 1-HighYield Which AIDS-defining illness is caused directly by HIV ? Diffuse large B-cell lymphoma* (DLBCL)
+1502068331161 3-HighYield-temporary In early HIV infection, HIV gains entry into macrophages via binding to CD4 plus the coreceptor CCR5
+1502068440036 3-HighYield-temporary In late HIV infection, HIV gains entry into helper T-cells via binding to CD4 plus the coreceptor CXCR4
+1502068458514 3-HighYield-temporary Individuals with homo zygous CCR5 allele mutations are resistant to HIV infection
+1502068584028 3-HighYield-temporary Individuals with hetero zygous CCR5 allele mutations display a slower rate of progression of HIV infection
+1502068621967 2-RelativelyHighYield Transmission of HIV occurs via bodily fluids
+1502069185038 2-RelativelyHighYield Rev is a regulatory protein of HIV that regulates transport of unspliced viral RNA transcripts out of the nucleus
+1502069270600 3-HighYield-temporary Tat is a regulatory protein of HIV that transcriptionally activates other viral genes
+1502069311820 4-LowerYield Which two regulatory proteins of HIV are required for viral replication ? Rev and Tat
+1502069364234 2-RelativelyHighYield Nef is a cytoplasmic accessory protein of HIV that enhances viral replication through downregulation of CD4 and MHC I expression
+1502069441823 2-RelativelyHighYield Once HIV is inside a cell, viral reverse transcriptase converts viral RNA to double-stranded DNA (dsDNA) This double-stranded DNA is inserted into the host cell genome by integrase, another viral enzy
+1502069492941 1-HighYield The backbone of highly active antiretroviral therapy ( HAART ) are NRTIs such as zidovudine
+1502069963668 3-HighYield-temporary NRTIs insert themselves into the DNA strand being synthesized by reverse transcriptase , halting further elongation
+1502070062514 2-RelativelyHighYield NRTIs and NNRTIs both are reverse transcriptase inhibitors used in the treatment of HIV
+1502070156173 3-HighYield-temporary Protease inhibitors inhibit the enzyme responsible for cleaving proteins during viral replication
+1502070230172 1-HighYield Maraviroc is a(n) CCR5 inhibitor that inhibits HIV entrance into macrophages early in the disease course
+1502147310499 2-RelativelyHighYield p24 is the HIV capsid protein
+1502150081645 5-LowYield HIV-associated lipodystrophy can be treated by the GHRH analog tesamorelin
+1503859164364 2-RelativelyHighYield The blueberry muffin rash of CMV and rubella is due to dermal erythropoiesis
+1506297103030 2-RelativelyHighYield What type of viruses are paramyxoviruses ? Negative sense RNA
+1506297161449 1-HighYield Which family of viruses does parainfluenza (croup) belong to? Paramyxoviridae
+1506297199835 1-HighYield Which family of viruses is mumps a member of? Paramyxoviridae
+1506297205410 1-HighYield Which family of viruses includes measles ? Paramyxoviridae
+1506297222604 1-HighYield Which family of viruses does respiratory syncytial virus (RSV) belong to? Pneumoviridae* (negative sense RNA)
+1506297227729 4-LowerYield Which family of viruses does human metapneumovirus belong to? Pneumoviridae (negative sense RNA)
+1506297239258 1-HighYield Do paramyxoviruses have an envelope ? Yes
+1506297282227 1-HighYield What is the route of transmission of most* paramyxoviruses ? Respiratory droplets
+1506297317271 1-HighYield What type of vaccine is the MMR vaccine ? Live attenuated
+1506297430747 1-HighYield Measles is also known as rubeola
+1506297574155 1-HighYield What are the 4 C's of measles? Cough Coryza Conjunctivitis Koplik spots
+1506297740188 1-HighYield Koplik spots are bright red spots with a(n) blue-white center on buccal mucosa
+1506297810556 1-HighYield A(n) maculopapular rash develops 3 - 7 days following the prodromal symptoms of measles
+1506297998636 1-HighYield The measles rash starts on the face and moves down wards
+1506298052294 3-HighYield-temporary What is a rare respiratory complication of measles (rubeola) seen typically in immunosuppressed individuals? Giant cell pneumonia
+1506298427891 1-HighYield Subacute sclerosing panencephalitis (SSPE) is diagnosed with presence of anti-measles antibodies in CSF
+1506298553385 2-RelativelyHighYield Paramyxoviruses can express the virulence factor hemagglutinin which binds sialic acid, promoting viral entry into cells
+1506298786823 2-RelativelyHighYield Paramyxoviruses contain surface F (fusion) proteins that cause respiratory epithelial cells to fuse and form multinucleated giant cells
+1506298973285 1-HighYield Which virus produces Warthin-Finkeldey cells due to its surface fusion (F) proteins ? Measles (rubeola)
+1506299172244 1-HighYield Measles virus commonly presents with Warthin-Finkeldey giant cells
+1506299214372 1-HighYield Warthin-Finkeldey giant cells result from measles virus surface F (fusion) proteins acting on lymphocytes
+1506299289407 1-HighYield Lymphadenitis with Warthin-Finkeldey giant cells is diagnostic of measles (rubeola)
+1506299351809 1-HighYield Treatment of which virus can benefit from vitamin A supplementation ? Measles
+1506299399230 1-HighYield What are the 4 places that mumps is known to replicate? Parotid gland, testes, CNS, pancreas
+1506299510551 1-HighYield Which paramyxovirus can result in parotitis ? Mumps
+1506299652364 1-HighYield Which paramyxovirus can result in orchitis ( unilaterally )? Mumps
+1506299798295 1-HighYield Which paramyxovirus can result in aseptic meningitis ? Mumps
+1506299817676 1-HighYield Which paramyxovirus can result in pancreatitis ? Mumps
+1506299842245 1-HighYield Which viral virulence factors is measles associated with? Hemagglutinin, F (fusion) protein
+1506299907967 1-HighYield Which viral virulence factors is mumps associated with? Hemagglutinin, F (fusion) protein, and neuraminidase
+1506457318835 1-HighYield Respiratory syncytial virus (RSV) is typically seen in children < 2 years of age
+1506457483328 1-HighYield RSV uses the G protein in order to infect respiratory epithelial cells
+1506457525828 1-HighYield What is the most common cause of pneumonia in infants ? Respiratory syncytial virus (RSV)
+1506457578924 1-HighYield What is the most common cause of bronchiolitis in infants ? Respiratory syncytial virus (RSV)
+1506457588894 1-HighYield RSV contains the virulence factor F (fusion) protein, which allows the production of multinucleated giant cells
+1506457768755 2-RelativelyHighYield What is the treatment of respiratory syncytial virus (RSV) in adults ? Ribavirin
+1506457874779 2-RelativelyHighYield What is used for prevention of respiratory syncytial virus (RSV) in preterm infants ? Nirsevimab or palivizumab
+1506457932361 1-HighYield Nirsevimab and palivizumab are monoclonal antibodies against the fusion (F) protein of RSV
+1506458538360 2-RelativelyHighYield Which virus classically causes croup ? Parainfluenza virus
+1506458587499 1-HighYield What viral complication is characterized by a seal-bark cough and inspiratory stridor ? Croup (laryngotracheobronchitis)
+1506458681232 1-HighYield Which virulence factors is parainfluenza (croup) associated with? Hemagglutinin, F (fusion) protein, neuraminidase
+1506459192137 1-HighYield Narrowing of the trachea and subglottic region produces the "steeple sign" on CXR of croup (parainfluenza virus)
+1506459340614 1-HighYield What is another name for croup ? Laryngotracheobronchitis
+1506459442241 1-HighYield Severe croup (laryngotracheobronchitis) can result in pulsus paradoxus secondary to upper airway obstruction
+1506459892639 1-HighYield Which viral virulence factor causes respiratory cell fusion and multinucleated giant cell production? F (fusion) protein
+1506534677170 4-LowerYield p17 is the matrix protein of HIV
+1506535107169 1-HighYield What is the confirmatory test for HIV ? HIV-1/2 antibody differentiation immunoassay
+1506535130975 1-HighYield What test determines the amount of viral RNA in plasma ? Viral load
+1506608955267 1-HighYield What family of viruses does HAV belong to? Picornaviridae
+1506609015968 1-HighYield What type of virus is hepatitis A ? Positive sense RNA
+1506609085427 2-RelativelyHighYield What type of viruses are picornaviruses ? Positive sense RNA
+1506609314164 1-HighYield Do picornaviruses have an envelope ? No (naked)
+1506609368498 1-HighYield What is the route of transmission of most picornaviruses ? Fecal-oral
+1506609599866 2-RelativelyHighYield Picornaviruses produce a large polyprotein product (inactive) that is cleaved into smaller subunits (active)
+1506609811863 1-HighYield What family of viruses do enteroviruses belong to? Picornaviridae
+1506609930801 1-HighYield What family of viruses do rhinoviruses belong to? Picornaviridae
+1506609946404 1-HighYield Which picornavirus can cause hepatosplenomegaly ? Hepatitis A virus (HAV)
+1506610040227 1-HighYield What are the three common enteroviruses (picornaviridae family)? Coxsackie A/B, echovirus, and poliovirus*
+1506610101347 1-HighYield Which type of meningitis is caused by a non-bacterial organism ? Aseptic meningitis
+1506610241044 1-HighYield What group of viruses are the most common cause of aseptic meningitis ? Enteroviruses (picornaviridae family)
+1506610455254 1-HighYield What demographic is most susceptible to viral (aseptic) meningitis caused by enteroviruses ? Children
+1506610615157 1-HighYield Hepatitis A virus is acid-stable
+1506610844450 3-HighYield-temporary Hepatitis E virus is acid-stable
+1506610869302 2-RelativelyHighYield Developed countries purify their water supply, eliminating hepatitis A virus infection risk (fecal-oral transmission)
+1506611093570 1-HighYield What is a common source of hepatitis A virus in developing countries ? Contaminated water
+1506611185401 2-RelativelyHighYield What is a common source of hepatitis A virus in developed countries ? Contaminated shellfish
+1506611271271 1-HighYield Hepatitis A virus infection is commonly seen in travelers to endemic areas
+1506611338753 3-HighYield-temporary What cutaneous complication arises with hepatitis A virus infection? Jaundice
+1506611437184 1-HighYield Which demographic(s) can commonly display anicteric hepatitis A infection ? Children
+1506611528549 5-LowYield Smokers with hepatitis A virus will develop an aversion to tobacco products
+1506611586959 1-HighYield Hepatitis A infection symptoms typically last < 2 months
+1506611712544 1-HighYield Which viral hepatitis infection(s) is/are often self-limiting ? HAV and HEV
+1506611752239 1-HighYield Does hepatitis A virus induce a carrier state in infected individuals? No
+1506611793478 1-HighYield Does hepatitis A have a vaccine ? Yes
+1506611843004 2-RelativelyHighYield What type of vaccine is the hepatitis A virus vaccine ? Inactivated / killed
+1506627151740 3-HighYield-temporary Picornaviruses have viral proteases which cleave the large translated polypeptide into functional viral proteins
+1506627350233 4-LowerYield What type of viruses are flaviviruses ? Positive sense RNA
+1506627488843 4-LowerYield Do flaviviruses have an envelope ? Yes
+1506627521051 1-HighYield What family of viruses does hepatitis C virus (HCV) belong to? Flaviviridae
+1506627592347 5-LowYield Are flaviviruses segmented or non-segmented ? Non-segmented
+1506627645671 2-RelativelyHighYield What family of viruses does Dengue virus belong to? Flaviviridae
+1506627695686 1-HighYield Which vector transmits Dengue ? Mosquitos; most commonly the Aedes
+1506627749912 4-LowerYield Dengue fever infects the bone marrow
+1506627894996 1-HighYield What is the most common type of Dengue fever ? Type 2
+1506627942152 3-HighYield-temporary How does Dengue fever affect bleeding time ? Increased
+1506628001384 2-RelativelyHighYield Dengue fever is a type of hemorrhagic fever due to it causing thrombocytopenia
+1506628062025 2-RelativelyHighYield Dengue fever can result in renal failure
+1506628115053 4-LowerYield What is the treatment of Dengue fever ? Supportive (no treatment at this time)*
+1506628170585 4-LowerYield What family of viruses does Yellow fever belong to? Flaviviridae
+1506628287189 2-RelativelyHighYield Which zone of the liver is affected by Yellow fever ? Zone II (intermediate zone)
+1506628336655 2-RelativelyHighYield Which vector transmits Yellow fever ? Mosquito , specifically the Aedes
+1506628403819 3-HighYield-temporary What is a cutaneous complication of Yellow fever ? Jaundice
+1506628436392 3-HighYield-temporary Yellow fever classically causes an aching back
+1506628478878 2-RelativelyHighYield What changes in stool are seen with Yellow fever ? Bloody diarrhea
+1506628520779 3-HighYield-temporary What type of vomiting is seen with Yellow fever ? Black (bloody) vomiting
+1506628555418 4-LowerYield What type of vaccine is available for Yellow fever ? Live attenuated
+1506628588384 2-RelativelyHighYield What is seen on liver biopsy in Yellow fever ? Councilman bodies
+1506628692802 1-HighYield Which two viruses classically present with Councilman bodies on liver biopsy ? Hepatitis A virus, yellow fever
+1506628724617 4-LowerYield What family of viruses does West Nile virus belong to? Flaviviridae
+1506628804534 3-HighYield-temporary What is the reservoir of West Nile virus ? Birds
+1506628849279 2-RelativelyHighYield West Nile virus vector(s) : Mosquito ( Culex )
+1506628890385 2-RelativelyHighYield A serious complication of West Nile virus is meningoencephalitis
+1506629001514 3-HighYield-temporary West Nile virus can result in a(n) asymmetric flaccid paralysis
+1506629122636 4-LowerYield What is the treatment of West Nile virus ? Supportive
+1506629145354 1-HighYield What type of virus is hepatitis C virus ? Positive sense RNA
+1506629328611 1-HighYield Hepatitis C virus is most commonly transmitted through blood
+1506629569529 1-HighYield Hepatitis C virus can be transmitted through needle sticking or sharing
+1506629766099 2-RelativelyHighYield Hepatitis C virus displays antigenic variability of its envelope proteins
+1506629798167 2-RelativelyHighYield What is the mechanism for antigenic variation of envelope proteins in hepatitis C virus ? Lack of 3'-5' exonuclease → lack of proofreading → antigenic variation
+1506629961596 2-RelativelyHighYield Which hepatitis virus lacks 3'-5' exonuclease activity? Hepatitis C virus
+1506630060423 1-HighYield Hepatitis C infections become chronic in 60 - 80% of cases
+1506630386378 3-HighYield-temporary Hepatitis C RNA is found in the serum for < 6 months in the acute stage
+1506630461508 2-RelativelyHighYield The acute phase of both hepatitis B & C virus infections are marked by a rise and fall of ALT in 6 months
+1506630504581 3-HighYield-temporary Hepatitis C RNA is found in the serum for ≥ 6 months in the chronic stage
+1506630621596 1-HighYield Which hepatitis virus is associated with cryoglobulins ? Hepatitis C virus
+1506630702445 1-HighYield Hepatitis C virus is associated with cryoglobulins, which are IgM immunoglobulins that precipitate out of the blood at cool temperatures
+1506630733850 1-HighYield Older treatments that can be used for hepatitis C virus infection include IFN-α and ribavirin
+1506631004332 1-HighYield Hepatitis C virus infections can be treated with protease and polymerase inhibitors
+1516217887063 2-RelativelyHighYield Poliovirus is part of the picornaviridae family
+1516218038369 2-RelativelyHighYield What type of virus is poliovirus ? Positive sense RNA
+1516218073027 2-RelativelyHighYield Is poliovirus enveloped ? No (naked)
+1516218404816 3-HighYield-temporary Poliovirus is acid-stable
+1516218470870 1-HighYield What is the route of transmission of poliovirus ? Fecal-oral
+1516218603898 2-RelativelyHighYield Poliovirus replicates in the tonsils of the oropharynx
+1516218740374 2-RelativelyHighYield Poliovirus replicates in the Peyer's patches of the ileum
+1516218760271 2-RelativelyHighYield Which virus replicates in ileal Peyer's patches and oropharyngeal tonsils ? Poliovirus
+1516218816170 2-RelativelyHighYield Poliovirus replication within lymphoid tissue takes 2 - 3 weeks
+1516218866700 1-HighYield Which virus affects LMNs of the anterior horn ? Poliovirus
+1516219145757 3-HighYield-temporary Poliovirus can cause respiratory insufficiency
+1516219245653 1-HighYield Poliovirus causes decreased deep tendon reflexes
+1516219290703 1-HighYield Which virus can cause respiratory insufficiency and decreased DTRs ? Poliovirus
+1516219383663 2-RelativelyHighYield Poliovirus is a rare cause of aseptic (viral) meningitis
+1516219470210 1-HighYield Which poliovirus vaccine is inactivated / killed ? Salk
+1516219553378 1-HighYield Which poliovirus vaccine is live attenuated ? Sabin
+1516219597269 1-HighYield What is the method of administration of the Salk vaccine ? Intramuscular (injection)
+1516219693333 1-HighYield What is the route of administration of the Sabin vaccine ? Orally
+1516219750211 3-HighYield-temporary Which form of poliovirus vaccine forms IgG antibodies , only ? Inactivated polio vaccine (Salk)
+1516219843437 3-HighYield-temporary Which form of poliovirus vaccine forms IgG and IgA antibodies ? Oral polio vaccine (Sabin)
+1516219902653 3-HighYield-temporary Which form of poliovirus vaccine is administered in the U.S. ? Inactivated Polio vaccine (IPV)
+1516219994099 3-HighYield-temporary Which form of poliovirus vaccine provides group immunity with person-to-person contact ? Sabin
+1516220099300 4-LowerYield Which cause of meningitis can also lead to myalgia and paralysis ? Poliovirus
+1516220203631 1-HighYield Coxsackievirus is part of the picornaviridae family
+1516220472046 2-RelativelyHighYield What type of virus is coxsackievirus ? Positive sense RNA
+1516220529085 3-HighYield-temporary Is coxsackievirus enveloped ? No (naked)
+1516220567288 2-RelativelyHighYield What is the route of transmission of coxsackievirus ? Fecal-oral
+1516220596529 1-HighYield Coxsackie A is a virus that causes hand, foot, and mouth disease
+1516220717469 1-HighYield What type of rash is seen in hand-foot-and-mouth disease (HFMD)? Maculopapular and partially vesicular
+1516220775551 3-HighYield-temporary Coxsackievirus is a common cause of aseptic (viral) meningitis
+1516220927111 1-HighYield What are the three most common causes of aseptic meningitis ? Coxsackievirus, echovirus ( enteroviruses ), and HSV
+1516221010327 2-RelativelyHighYield Coxsackievirus infection commonly occurs during the summer months
+1516221057616 1-HighYield Coxsackie B is a virus that causes myocarditis which progresses to dilated cardiomyopathy
+1516221192461 2-RelativelyHighYield Coxsackie B is a virus that causes Bornholm disease
+1516221259059 5-LowYield Bornholm disease is also known as devil's grip or pleurodynia
+1516221296414 3-HighYield-temporary Bornholm disease is characterized by sharp pain in the lower chest uni laterally
+1516221410740 1-HighYield Four causes of rash on the palms and soles may be remembered with the mnemonic " R ash C overing T he S oles": R ickettsia rickettsii C oxsackievirus A T oxic shock syndrome S econdary S yphilis
+1516221410741 1-HighYield Four causes of rash on the palms and soles may be remembered with the mnemonic " R ash C overing T he S oles"
+1516221557330 1-HighYield Coxsackie A is associated with herpangina ( mouth blisters )
+1516221613110 2-RelativelyHighYield Coxsackie A is associated with acute hemorrhagic conjunctivitis
+1516221646605 1-HighYield Coxsackie B is associated with hepatitis
+1516222066430 2-RelativelyHighYield What type of virus is rhinovirus ? Positive sense RNA
+1516222094329 3-HighYield-temporary Is rhinovirus enveloped ? No (naked)
+1516222135232 1-HighYield Rhinovirus is acid-labile
+1516222208131 2-RelativelyHighYield What is the route of transmission of rhinovirus ? Respiratory droplets, fomites
+1516222286888 1-HighYield What is the most common cause of the common cold ? Rhinovirus
+1516222322469 3-HighYield-temporary Rhinovirus is a virus that enters host cells by attaching to ICAM-1
+1516222409950 1-HighYield Rhinovirus grows best at 33 °C
+1516222636401 2-RelativelyHighYield Rhinovirus causes a(n) upper respiratory tract infection
+1516222746893 4-LowerYield Rhinovirus has > 100 different serotypes
+1516222858044 1-HighYield What is the second most common cause of the common cold ? Coronavirus
+1516236588521 2-RelativelyHighYield What type of viruses are caliciviruses ? Positive sense RNA
+1516236783990 2-RelativelyHighYield Are caliciviruses enveloped ? No (naked)
+1516236837815 5-LowYield Caliciviruses produce one polypeptide product that is cleaved via viral proteases
+1516236968579 1-HighYield Norovirus (norwalk virus) is the most common caliciviridae
+1516237107417 1-HighYield Which virus is associated with outbreaks on cruise ships ? Norovirus (norwalk virus)
+1516237230019 1-HighYield Aside from cruises, norovirus infection is associated with daycare centers and schools
+1516237285255 3-HighYield-temporary Norovirus is associated with consumption of shellfish (e.g., oysters)
+1516237399621 1-HighYield What is the most common symptom of norovirus infection? Watery diarrhea
+1516237532611 1-HighYield Viral gastroenteritis is most commonly caused by norovirus and rotavirus
+1516237632309 2-RelativelyHighYield What type of viruses are togaviruses ? Positive sense RNA
+1516237852309 3-HighYield-temporary Arboviruses are a class of viruses that have arthropod vectors
+1516238131776 3-HighYield-temporary Any virus that is transmitted by mosquitoes , fleas , or ticks is said to be a(n) arbovirus
+1516238226677 2-RelativelyHighYield Arboviruses all cause encephalitis and fever
+1516238372967 5-LowYield The togavirus family includes Eastern equine encephalitis, Western equine encephalitis, Venezuelan equine encephalitis, and Chikungunya virus
+1516238643613 4-LowerYield Arboviruses present with symptoms such as fever , altered mental status , seizures, and cranial nerve palsies
+1516238912777 2-RelativelyHighYield Rubella is part of the Matonaviridae* family
+1516239091577 2-RelativelyHighYield Which virus is also known as German measles (3-day measles)? Rubella
+1516239124209 1-HighYield Which matonavirus is a childhood exanthem ? Rubella
+1516239246402 2-RelativelyHighYield Is rubella enveloped ? Yes
+1516239274326 3-HighYield-temporary Are togaviruses enveloped ? Yes
+1516239291731 1-HighYield Rubella is a positive-sense RNA virus that causes tender posterior auricular and suboccipital lymphadenopathy
+1516239548476 1-HighYield Rubella is a positive sense RNA virus that presents with a rash that starts on the face and moves down wards
+1516239674955 1-HighYield Measles (rubeola) is a negative-sense RNA virus that presents with a rash that starts on the face and moves downwards
+1516239698761 2-RelativelyHighYield Which RNA virus presents with rash of 3-days duration? Rubella
+1516239790788 1-HighYield What is the mode of transmission of rubella ? Respiratory droplets, transplacentally
+1516239825098 1-HighYield Which matonavirus can travel transplacentally ? Rubella
+1516239955276 1-HighYield Congenital rubella infection is characterized by a classic triad of cataracts, patent ductus arteriosus, and sensorineural hearing loss
+1516240153580 3-HighYield-temporary Congenital rubella cardiac symptoms are characterized by patent ductus arteriosus (PDA) and/or pulmonary artery stenosis
+1516240313855 2-RelativelyHighYield Congenital rubella is characterized by a(n) "blueberry muffin" rash
+1516240784064 1-HighYield Which congenital DNA viral infection can present with blueberry muffin rash ? Congenital CMV
+1516240829751 3-HighYield-temporary Congenital rubella is characterized by jaundice of the skin
+1516240905557 3-HighYield-temporary Which form of rubella presents with cataracts ? Congenital
+1516240977236 3-HighYield-temporary Which form of rubella presents with sensorineural deafness ? Congenital
+1516240991503 3-HighYield-temporary Which form of rubella presents with valvular pathologies ? Congenital
+1516241020438 3-HighYield-temporary Which form of rubella presents with arthritis ? Adult
+1516241054704 1-HighYield What vaccine is available for rubella ? MMR (live attenuated)
+1516241149541 1-HighYield The MMR vaccine can be given to HIV+ patients with CD4 counts ≥ 200 cells/mm 3
+1516241294618 3-HighYield-temporary Togaviruses produce one polypeptide product that is cleaved via viral proteases
+1516241378011 1-HighYield What demographic should increase your suspicion of possible rubella infection? Patients without vaccinations (e.g., immigrants, anti-vaxxers)
+1516241552626 2-RelativelyHighYield What is the incubation period of rubella ? 2 - 3 weeks
+1516241643109 1-HighYield Congenital rubella occurs with infection during the first trimester(s)
+1516241721026 1-HighYield What type of virus is coronavirus ? Positive sense RNA
+1516242033603 1-HighYield Is coronavirus enveloped ? Yes
+1516242070729 1-HighYield Coronavirus is a positive-sense RNA virus with a(n) helical - shaped capsid
+1516242261236 1-HighYield Coronavirus is a virus that can cause acute bronchitis , eventually leading to acute respiratory distress syndrome (ARDS)
+1516317291494 4-LowerYield Congenital rubella is characterized by intellectual disability
+1516317335536 2-RelativelyHighYield Congenital rubella is characterized by microcephaly
+1516317385436 4-LowerYield Congenital rubella is characterized by radiolucent bone lesions
+1516319192868 1-HighYield Which family of viruses includes influenza ? Orthomyxoviridae
+1516320758799 2-RelativelyHighYield What type of viruses are orthomyxoviruses ? Negative sense RNA
+1516320850504 2-RelativelyHighYield Negative sense RNA viruses produce their own RNA polymerase to transcribe into positive sense RNA
+1516320933265 1-HighYield Most RNA viruses are single* -stranded
+1516320980606 1-HighYield Orthomyxoviridae is the only family of negative sense RNA viruses to replicate in the nucleus
+1516321076508 2-RelativelyHighYield RNA viruses usually replicate in the cytoplasm
+1516321085226 1-HighYield Which RNA virus family is double-stranded ? Reoviridae
+1516321146201 1-HighYield Are orthomyxoviruses enveloped ? Yes
+1516321208433 5-LowYield How many strains of influenza are there? Three (A, B, C)
+1516321367173 3-HighYield-temporary Orthomyxovirus has 8 segments
+1516321532745 1-HighYield The segmented virus families may be remembered with the mnemonic " BOAR ": B unyavirus O rthomyxovirus A renavirus R eovirus
+1516321532746 1-HighYield The segmented virus families may be remembered with the mnemonic " BOAR "
+1516321589458 1-HighYield Antigenic variation of influenza viruses occurs with changes to viral hemagglutinin (HA) and neuraminidase (NA)
+1516322197499 1-HighYield Influenza viruses are named based on hemagglutinin (HA) and neuraminidase (NA) types (e.g., H1N1 )
+1516322271299 1-HighYield Antigenic variation can be due to antigenic drift or antigenic shift
+1516322855117 1-HighYield Antigenic drift occurs when there are point mutations in hemagglutinin or neuraminidase
+1516322946030 3-HighYield-temporary Antigenic drift explains why we need a flu shot each year
+1516323022237 1-HighYield Antigenic drift is associated with epi demics
+1516323064948 1-HighYield Antigenic shift occurs with HA/NA reassortment amongst different species
+1516323168130 1-HighYield Antigenic shift is associated with pan demics
+1516323222471 1-HighYield Hemagglutinin is a viral envelope protein that binds sialic acid
+1516323635408 1-HighYield Which envelope protein of Influenza facilitates viral endocytosis into cells? Hemagglutinin (HA)
+1516323747313 2-RelativelyHighYield Neuraminidase is a viral envelope protein that cleaves the HA-sialic acid interaction
+1516323825251 1-HighYield Which envelope protein of Influenza facilitates viral spread from cells? Neuraminidase (NA)
+1516323861384 2-RelativelyHighYield Hemagglutinin (HA) antigens are designated H1, H2, H3, etc.
+1516324044281 1-HighYield Which envelope protein of Influenza determines cell tropism ? Hemagglutinin (HA)
+1516324096049 1-HighYield M2 channel proteins are influenza viral proteins that ensure proper intracellular pH for viral uncoating
+1516324301529 2-RelativelyHighYield Amantadine and rimantadine are drugs that inhibit the M2 protein channels of influenza A
+1516324529716 1-HighYield Which two anti-influenza drugs inhibit the M2 channels ? Amantadine, rimantadine
+1516324579285 1-HighYield Which two anti-influenza drugs have a high rate of resistance (no longer recommended)? Amantadine and rimantadine
+1516324675489 2-RelativelyHighYield Which anti-influenza drug can be used to treat Parkinson disease ? Amantadine
+1516324744658 2-RelativelyHighYield Which anti-influenza drug increases dopamine synthesis/release and inhibits reuptake ? Amantadine
+1516324778471 1-HighYield Zanamivir and oseltamivir are drugs that inhibit neuraminidase of influenza A and B
+1516324960043 1-HighYield Which two anti-influenza drugs inhibit virion release ? Zanamivir, oseltamivir
+1516325251980 1-HighYield What is the route of transmission of influenza ? Respiratory droplets
+1516325270266 1-HighYield What type of influenza vaccine is injected intramuscularly ? Inactivated / killed
+1516325456216 1-HighYield What is the most common complication of influenza ? Secondary bacterial pneumonia
+1516325574181 1-HighYield Secondary bacterial pneumonia is typically Strep pneumoniae , Staph aureus , or Haemophilus influenzae superimposed on influenza
+1516325875017 1-HighYield Reye syndrome can present with liver failure and encephalopathy
+1516325899890 1-HighYield In Reye syndrome , aspirin can act as a(n) uncoupling agent in oxidative phosphorylation
+1516326012819 1-HighYield CSF analysis in Guillain-Barré syndrome will reveal albuminocytologic dissociation
+1516326164084 1-HighYield Influenza is associated with Guillain-Barré syndrome
+1516401726231 2-RelativelyHighYield Neuraminidase is a viral envelope protein that allows for mature virion release
+1516401763134 1-HighYield Which two anti-influenza drugs inhibit viral uncoating ? Amantadine and rimantadine
+1516473010523 1-HighYield Rhabdovirus is the virus that causes rabies
+1516473067952 2-RelativelyHighYield What type of virus is rhabdovirus ? Negative sense RNA
+1516473150103 2-RelativelyHighYield Is rhabdovirus enveloped ? Yes
+1516473172527 1-HighYield Which virus is said to be 'bullet-shaped' ? Rabies virus (rhabdovirus)
+1516473280578 1-HighYield Which virus is displayed below? Rhabdovirus (rabies)
+1516473321006 2-RelativelyHighYield Rhabdovirus has a(n) helical capsid
+1516473412823 4-LowerYield Which animal is the most common carrier of rabies virus (rhabdovirus) in the United States ? Bats
+1516473494830 5-LowYield Which animal is the most common carrier of rabies virus (rhabdovirus) in developing countries ? Dogs
+1516473523667 4-LowerYield Along with bats , rabies virus is also commonly carried by skunks in the western U.S.
+1516473638614 4-LowerYield Along with bats , rabies virus is also commonly carried by raccoons and foxes in the eastern U.S.
+1516473678124 1-HighYield Rabies virus binds to nicotinic ACh receptors in the post-synaptic membrane of the neuromuscular junction
+1516473893262 1-HighYield Rabies virus binds to nicotinic ACh receptors in the post-synaptic membrane of the neuromuscular junction
+1516473945645 2-RelativelyHighYield Infection of Rabies virus occurs within striated muscle cells
+1516474085854 3-HighYield-temporary What is the incubation period of rabies virus ? 1 - 3 months
+1516474120085 3-HighYield-temporary Incubation of rabies virus takes longer when infection occurs in the lower extremities
+1516474178334 4-LowerYield After motor endplate infection, Rabies virus crosses the synaptic cleft by binding neural cell adhesion molecules (NCAMs), entering neurons
+1516474304091 3-HighYield-temporary Rabies virus travels retrograde along peripheral nerves
+1516474369826 2-RelativelyHighYield Replication of Rabies virus occurs within striated muscle and motor neuronal cells
+1516474508193 2-RelativelyHighYield Rabies virus travels retrograde to the dorsal root ganglia before spreading to the CNS
+1516474665512 2-RelativelyHighYield Rabies virus replication occurs in eosinophilic cytoplasmic inclusions called Negri bodies
+1516474771301 2-RelativelyHighYield Negri bodies of rabies virus can be found in the cytoplasm of the hippocampal pyramidal cells and cerebellar Purkinje cells
+1516475081349 1-HighYield Rabies virus can spread to the peripheral neurons and enter salivary glands
+1516475256424 1-HighYield Negri bodies (rabies virus) are found within the cytoplasm
+1516475366919 2-RelativelyHighYield Neurologic manifestations of rabies virus include hydrophobia and aerophobia , both pathognomonic signs
+1516475524371 1-HighYield Rabies virus can present with pharyngeal muscle spasms , causing dysphagia
+1516475620459 3-HighYield-temporary Which virus/viral family will have cytoplasmic, eosinophilic inclusions within neuronal cells ? Rabies virus Negri bodies
+1516475827100 1-HighYield Which virus/viral family will have nuclear , eosinophilic inclusions within cells ? Herpesviridae family (Cowdry bodies)
+1516475896541 3-HighYield-temporary Treatment of rabies virus includes wound cleaning
+1516476112831 1-HighYield Post-exposure prophylaxis (PEP) for rabies virus includes administration of killed rabies vaccine ( active immunization) and rabies immunoglobulin ( passive immunization)
+1516476215012 3-HighYield-temporary Treatment of rabies virus is known as passive-active immunity
+1516491933738 1-HighYield Transmission of rabies virus occurs via animal bites or aerosol transmission
+1516556891495 4-LowerYield What family of viruses does Zika virus belong to? Flaviviridae
+1516556937003 4-LowerYield Zika virus is commonly transmitted by the Aedes mosquito vector
+1516557048514 2-RelativelyHighYield Zika virus can cause fever, rash, and conjunctivitis in 20% of cases
+1516557104772 2-RelativelyHighYield Transplacental transmission of Zika virus can result in miscarriage or congenital Zika syndrome , which is characterized by microcephaly , ocular anomalies , and motor abnormalities (e.g., spasticity,
+1516557147157 3-HighYield-temporary In addition to vector-borne transmission, how can Zika virus be transmitted ? Sexual; vertical (transplacentally)
+1516557177048 2-RelativelyHighYield Outbreaks of Zika virus are more common in tropical climates
+1516557199738 3-HighYield-temporary Diagnosis of Zika virus is made via RT-PCR or serology
+1516557238677 4-LowerYield What type of viruses are filoviruses ? Negative sense RNA
+1516557320825 5-LowYield Filoviruses have a(n) helical capsid
+1516557388594 5-LowYield Are filoviruses enveloped ? Yes
+1516557435778 4-LowerYield Ebola and Marburg virus both belong to the filoviridae family
+1516557533616 4-LowerYield Filoviruses (Ebola, Marburg) cause petechial rash and fever
+1516557597122 5-LowYield Filoviruses (Ebola, Marburg) cause acute hemorrhagic fever that can progress to end-organ failure
+1516557819198 4-LowerYield Death from filoviruses (e.g., Ebola, Marburg, etc.) results from hemorrhagic (hypovolemic) shock
+1516557863803 4-LowerYield Filoviruses (Ebola, Marburg) may be transmitted via primates (apes) or bats
+1516557963247 2-RelativelyHighYield What is the reservoir of Ebola and Marburg viruses (filoviruses)? Bats
+1516558003491 3-HighYield-temporary Risk factors for Ebola and Marburg virus infection include recent travel to Africa
+1516558065788 4-LowerYield Ebola virus is diagnosed via RT-PCR of blood or other bodily fluids
+1516558174789 4-LowerYield Which filovirus can result in disseminated intravascular coagulation (DIC)? Ebola
+1516558391491 4-LowerYield What type of viruses are bunyaviruses? Negative sense RNA
+1516558470012 5-LowYield Are bunyaviruses enveloped ? Yes
+1516558496972 4-LowerYield Bunyaviruses are a class of RNA viruses that obtain their envelope from host cell's Golgi apparatus (Golgi body complex)
+1516558572168 5-LowYield Bunyaviruses have 3 circular segments
+1516558668778 5-LowYield Most of the bunyaviruses are also arboviruses*
+1516558873712 4-LowerYield Which bunyavirus is also a robovirus ? Hantavirus (Sin nombre)
+1516558985565 5-LowYield What is the reservoir for Hantavirus (sin nombre)? Deer mouse
+1516559030641 5-LowYield Hantavirus (Sin nombre) is transmitted through rodent urine/feces
+1516559070982 4-LowerYield Which virus causes hemorrhagic fever with renal syndrome (HFRS)? Hantavirus
+1516559313602 4-LowerYield Which virus causes cardiopulmonary syndrome (HCPS)? Hantavirus (sin nombre)
+1516559348444 4-LowerYield Hantavirus can result in pulmonary capillary leak
+1516559423452 4-LowerYield Pulmonary capillary leak of the virus Hantavirus (sin nombre) is radiographically similar to acute respiratory distress syndrome (ARDS)
+1516559573641 4-LowerYield Hantavirus is a virus that causes prerenal azotemia
+1516559707782 4-LowerYield Hantavirus (HFRS) results in capillary leak , causing hypotension and ultimately renal failure
+1516559803599 4-LowerYield Hantavirus can result in hemorrhagic fever with renal syndrome
+1516559881375 5-LowYield Hantavirus (Sin nombre) belongs to the bunyaviridae family
+1516559998491 4-LowerYield Bunyaviruses that are also arboviruses include: - California encephalitis - Sandfly fever - Rift Valley fever - Crimean-Congo hemorrhagic fever
+1516560132835 4-LowerYield Manifestations of California encephalitis and Rift Valley fever include seizures and encephalitis
+1516560223191 5-LowYield California encephalitis is transmitted via the Aedes mosquito vector
+1516560251252 4-LowerYield Rift Valley fever is transmitted via the Aedes mosquito vector
+1516663616586 5-LowYield Which group of viruses have a single strand of RNA that is both positive and negative (ambisense) ? Arenaviruses
+1516663668993 5-LowYield Are arenaviruses enveloped ? Yes
+1516663723276 4-LowerYield Arenaviruses are classified as negative* sense RNA viruses
+1516663797512 5-LowYield Arenavirus has a(n) helical capsid
+1516663881703 2-RelativelyHighYield The six negative sense RNA virus families with helical capsids include: Arenavirus Bunyavirus Paramyxovirus Orthomyxovirus Filovirus Rhabdovirus
+1516664064296 5-LowYield Arenaviruses have 2 circular segments
+1516664117965 4-LowerYield Which viruses have a grainy (sand) appearance on electron microscopy? Arenaviruses
+1516664211475 3-HighYield-temporary The grainy particles within arenaviruses on microscopy are host cell ribosomes
+1516664270981 5-LowYield What is the reservoir of arenaviruses ? Rodents (mice, hamsters)
+1516664409922 4-LowerYield The arenaviruses include lymphocytic choriomeningitis virus (LCMV) and lassa fever
+1516664461821 4-LowerYield The arenaviruses include lymphocytic choriomeningitis virus (LCMV) and Lassa virus
+1516664522905 4-LowerYield Lymphocytic choriomeningitis virus (LCMV) presents with fever and meningoencephalitis
+1516664642294 4-LowerYield Lymphocytic choriomeningitis virus (LCMV) can be inactivated by heat and irradiation
+1516664745638 4-LowerYield Lymphocytic choriomeningitis virus (LCMV) can be inactivated by heat and irradiation
+1516664761501 4-LowerYield Lassa fever is associated with fever and encephalitis
+1516664940367 4-LowerYield Lassa fever is endemic to West Africa
+1516665187703 2-RelativelyHighYield What type of viruses are reoviruses ? Double-stranded RNA
+1516665343741 3-HighYield-temporary Are reoviruses enveloped ? No (naked)
+1516665391803 5-LowYield Reoviruses have 10 - 12 segments
+1516665586644 3-HighYield-temporary Reoviruses include rotavirus and coltivirus
+1516665596498 1-HighYield What is the transmission of rotavirus ? Fecal-oral
+1516665721192 1-HighYield What is the most common symptom of rotavirus ? Watery diarrhea
+1516665751235 1-HighYield Rotavirus contains the NSP4 enterotoxin , causing watery diarrhea
+1516665846802 3-HighYield-temporary What is a complication of rotavirus diarrhea ? Dehydration
+1516665872787 2-RelativelyHighYield Rotavirus causes villous destruction and atrophy , resulting in decreased serum Na + and K +
+1516665990169 3-HighYield-temporary The NSP4 enterotoxin of rotavirus increases Cl - permeability
+1516666059911 1-HighYield Rotavirus infection commonly occurs during the winter season
+1516666107599 3-HighYield-temporary What demographic is at high risk of rotavirus infection? Children
+1516666167898 1-HighYield What is the most common cause of severe diarrhea in children ? Rotavirus
+1516666216326 1-HighYield In which settings can rotavirus infection commonly be found? Kindergartens and daycares
+1516666378248 2-RelativelyHighYield Which two causes of viral gastroenteritis are associated with daycares and kindergartens ? - Rotavirus - Norovirus
+1516666476206 4-LowerYield Coltivirus is also known as Colorado tick virus
+1516666651267 1-HighYield Which virus is said to be wheel-shaped ? Rotavirus
+1516666695540 2-RelativelyHighYield Which cause of viral gastroenteritis does the CDC recommend vaccination against ? Rotavirus
+1516666766803 2-RelativelyHighYield Rotavirus has a(n) live attenuated vaccine that is administered orally
+1516666812794 4-LowerYield Intussusception is associated with the rotavirus vaccine due to enlargement of Peyer's patches which act as a lead point
+1516666902436 1-HighYield Rotavirus gastroenteritis can result in a secondary lactase deficiency
+1516666961676 4-LowerYield Symptoms of coltivirus (Colorado tick virus) include fevers , vomiting , and myalgia
+1516667142242 3-HighYield-temporary What is the treatment for rotavirus ? Oral rehydration therapy
+1516667209562 1-HighYield When should the first rotavirus vaccination be given? Within the first 3 months of birth
+1516755493601 1-HighYield Does the rash of rubella affect the face ? Yes
+1516755523901 1-HighYield Does the rash of measles (rubeola) affect the face ? Yes
+1516757841599 1-HighYield Which childhood exanthem is known as first disease ? Measles (rubeola)
+1516757959004 1-HighYield Which childhood exanthem is known as third disease ? Rubella
+1520087988222 2-RelativelyHighYield Dengue fever has 4 different serotypes
+1520088241785 4-LowerYield Which flavivirus commonly presents with retro-orbital pain? Dengue fever
+1520088417035 4-LowerYield Dengue fever is associated with a positive tourniquet test , which results in petechiae after blood pressure cuff inflation
+1520088493022 4-LowerYield Primary infection with dengue fever is asymptomatic or self-limited
+1520088551261 4-LowerYield Secondary infection with dengue fever is associated with severe illness
+1521659526736 4-LowerYield West Nile virus is associated with confusion resulting from encephalitis
+1521660791114 4-LowerYield Arboviruses, including West Nile virus , most commonly occur in the summer months
+1522430399029 4-LowerYield Dengue fever and chikungunya viral infections typically occur simultaneously, as both are transmitted by the Aedes mosquito
+1525353933227 1-HighYield What cause of viral gastroenteritis is more commonly seen in adults ? Norovirus
+1525353985903 1-HighYield What is the most common cause of viral gastroenteritis in developed countries ? Norovirus
+1537381761281 2-RelativelyHighYield MMRV and influenza ( intranasal ) vaccines are contraindicated in immunodeficient and pregnant patients
+1547902187372 2-RelativelyHighYield Rapid Diagnosis HIV / AIDS screening in infants < 18 months → HIV-1 NAT (viral load) ≥ 18 months → 4th generation antigen/antibody immunoassay
+1552864862676 - What is the best diagnostic test for HIV before seroconversion? HIV-1 NAT (viral load)
+1587426861915 5-LowYield The hallmark of Chikungunya fever is severe joint symptoms
+1593878223549 - What type of virus is HTLV-1 ? Positive sense RNA
+1593878731477 - HIV and HTLV-1 are both retroviruses
+1593879155083 - HTLV-1 is icosahedral
+1593879324758 - Human T-cell lymphotrophic virus-1 (HTLV-1) is enveloped
+1608907758096 - Coronavirus is a(n) positive -sense RNA virus that is enveloped
+1608907893953 - Low -pathogenicity coronavirus strains can cause the common cold
+1608907939580 - High -pathogenicity strains of coronavirus can cause MERS, SARS, and COVID-19
+1608908025916 - High -pathogenicity strains of coronavirus have zoonotic origins
+1608908079380 - Low -pathogenicity strains of coronavirus that cause the common cold are transmitted solely by humans
+1608908135312 - SARS-CoV is the cause of severe acute respiratory syndrome (SARS)
+1608908237186 - MERS-CoV is the cause of Middle East respiratory syndrome (MERS)
+1608908268526 - SARS-CoV-2 is the cause of COVID-19
+1608908406631 - The helical nucleocapsid of coronavirus is a(n) N protein bound to RNA genome
+1608908466625 - Major structural proteins of coronavirus include S , M , E , and N
+1608908508501 - The S glycoprotein of coronavirus is heavily glycosylated
+1608908651007 - Coronavirus binds to the angiotensin-converting enzyme 2 (ACE2) receptor on type II alveolar cells in the respiratory tract via the S glycoprotein
+1608908726392 - After viral uncoating , the positive-sense genomic RNA of coronavirus can be translated into 2 long polyproteins
+1608909035503 - After the replication-transcription complex is assembled, the positive-sense genomic RNA of coronavirus can be transcribed into negative -sense RNA
+1608909322339 - Subgenomic RNA of coronavirus can be used to make S, M, E, and N proteins
+1608909367152 - Full-length negative-sense RNA (template) is used to make new positive-sense RNA (progeny) of coronavirus
+1608909487566 - After translation , the S , M , and E proteins of coronavirus are transported to the Golgi apparatus
+1608909572651 - The N protein of coronavirus forms the nucleocapsid in the cytoplasm after associating with newly synthesized genomic RNA
+1608910000343 - After cleavage of the coronavirus long polyprotein by viral protease , these proteins assemble into the replication-transcription complex
+1608910179425 - The key member of the replication-transcription complex of coronavirus is the RNA-dependent RNA polymerase (RDRP)
+1608910298755 - The newly synthesized coronavirus viral proteins , nucleocapsid , and positive-sense progeny RNA bud from the Golgi apparatus
+1608910407576 - The fully functional virions of coronavirus from the Golgi are transported through a series of membranous vesicles to the cell membrane where they are released via exocytosis
+1608910462723 - Coronavirus is transmitted by airborne or droplet transmission
+1608910550129 - High -pathogenicity strains of coronaviruses can cause potentially fatal pneumonia
+1608910881828 - Patients who develop ARDS may require mechanical ventilation
+1608911149178 - The immune overdrive seen in ARDS in patients with coronavirus may be related to cytokine storm
+1608911203560 - Active coronavirus infection is detected using nucleic acid amplification testing (NAAT)
+1608911304571 - Previous coronavirus infections are detected using serologic assays
+1608911444935 - Active coronavirus infection can be diagnosed by detecting antigens (e.g., nucleocapsid proteins)
+1691516524185 1-HighYield Inactivated / killed vaccines may be remembered with the mnemonic " A TRIP could kill Y ou": Hepatitis A T yphoid fever ( Salmonella T yphi ) R abies I nfluenza (IM) P olio (Salk) Y ersinia pestis
+1691516524186 1-HighYield Inactivated / killed vaccines may be remembered with the mnemonic " A TRIP could kill Y ou"

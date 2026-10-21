@@ -1,0 +1,174 @@
+{
+ "nome": "Patogênese da infecção viral",
+ "escopo": "cards",
+ "drive_pasta": "UC03/Microbiologia/59 - Patogênese da infecção viral",
+ "pasta_turma": "/Users/davisousa/Library/CloudStorage/GoogleDrive-davi.sousa@fm.usp.br/Drive partagés/TURMA 114/1º ano/UC03 - Princípios do Desenvolvimento de Doenças/Microbiologia/Aula 19 - Patogênese da Infecção Viral",
+ "turma_lidos": [
+  "Patogênese da Infecção Viral I.pdf",
+  "Patogênese da Infecção Viral II.pdf",
+  "Patogênse da Infecção Viral III.pdf",
+  "Material Complementar I - Transcrição da Aula .pdf"
+ ],
+ "turma_descartados": {},
+ "slides": "fontes/slides.pdf",
+ "n_laminas": 178,
+ "familias": {
+  "slides": [
+   {
+    "arquivo": "fontes/slides.pdf",
+    "localizador": "Versões I (1–61), II (62–119) e III (120–178), 178 lâminas lidas; a fala acompanha a versão III (21/10)",
+    "contribuicao": "Inventário e ordem",
+    "alvos": "slides"
+   }
+  ],
+  "veteranos": [
+   {
+    "arquivo": "fontes/transcricao.txt",
+    "localizador": "Transcrição da aula (108 páginas, 8.539 palavras), lida inteira",
+    "contribuicao": "Entrada, disseminação, padrões, determinantes, virulência, tropismo e evasão, na ordem da fala",
+    "alvos": "todos"
+   },
+   {
+    "arquivo": "fontes/mat-02-apostila-micro-patogenese.txt",
+    "localizador": "Apostila guia de Micro, aula 14: Patogênese Viral, lida",
+    "contribuicao": "Suscetibilidade, permissividade, acessibilidade e padrões",
+    "alvos": "todos"
+   },
+   {
+    "arquivo": "fontes/mat-03-monitoria-p3-patogenese.txt",
+    "localizador": "Monitoria P3 de Micro, aula 16 Patogênese da infecção viral, lida",
+    "contribuicao": "Latência viral × clínica, virulência e evasão",
+    "alvos": "todos"
+   }
+  ],
+  "provas": [
+   {
+    "arquivo": "fontes/provas-mb59.txt",
+    "localizador": "Índice micro-15 (3 itens, 2 ecos), lido",
+    "contribuicao": "Latência (item bacteriano fora)",
+    "alvos": "prova"
+   },
+   {
+    "arquivo": "fontes/provas-termos-mb59.txt",
+    "localizador": "4 questões por termo (permissividade, padrões de infecção, sarampo × influenza), lidas",
+    "contribuicao": "Calibragem de susceptibilidade, padrões e disseminação",
+    "alvos": "prova"
+   }
+  ],
+  "bibliografia": [
+   {
+    "arquivo": "livros/jawetz-cap30-patogenese.txt",
+    "localizador": "Jawetz, cap. 30, pp. 431–441 (princípios, etapas da patogênese, propagação e tropismo), lido",
+    "contribuicao": "Confirma entrada, viremia, tropismo por receptor e infecção localizada × sistêmica",
+    "alvos": "todos"
+   }
+  ],
+  "youtube": [
+   {
+    "arquivo": "canais/ninja-hepatites-fisiopatologia.txt",
+    "localizador": "Ninja Nerd, Pathophysiology of Viral Hepatitis (7.392 palavras, inteiro)",
+    "contribuicao": "Padrão agudo e crônico, vertical e lesão imunomediada",
+    "alvos": "todos",
+    "canal": "Ninja Nerd",
+    "url": "https://youtu.be/R4OG0wHkPcM"
+   }
+  ],
+  "caoc": {
+   "estado": "não localizada",
+   "busca": "pasta da aula sem CAOC",
+   "impacto": "nenhum"
+  },
+  "exercicios": {
+   "estado": "não localizada",
+   "busca": "pasta da aula e do componente sem lista de exercícios de patogênese viral",
+   "impacto": "nenhum"
+  }
+ },
+ "livros": [
+  {
+   "livro": "Jawetz, Microbiologia Médica, cap. 30 (patogênese e controle das doenças virais, pp. 431–441)",
+   "texto": "livros/jawetz-cap30-patogenese.txt"
+  }
+ ],
+ "materiais_uc": {
+  "Grand round 1.pdf": {
+   "descartado": "apostila do GR1 (esquizofrenia)"
+  },
+  "Grand Round 1 - slides.pptx": {
+   "descartado": "lâminas do GR1"
+  },
+  "Apostila Ilustrativa Radiologia.pdf": {
+   "descartado": "apostila de Radiologia; TC × RM do GR é revisão das aulas 05/12"
+  },
+  "Cópia de Cópia de UC03 - Apostila Guia de Imunologia.pdf": {
+   "descartado": "apostila de Imuno; a imunidade a vírus é a aula 63"
+  },
+  "Cópia de Cópia de UC03 - Apostila Guia de Microbiologia.pdf": {
+   "texto": "fontes/mat-02-apostila-micro-patogenese.txt",
+   "secao": "Aula 14: Patogênese Viral (caps. 1–6)",
+   "linhas": "arquivos-trabalho/materiais-uc03/apostila - Cópia de Cópia de UC03 - Apostila Guia de Microbiologia.txt:3338-3854"
+  },
+  "Cópia de Cópia de UC03 - Apostila Guia de Patologia.pdf": {
+   "descartado": "apostila de Patologia; a patologia da infecção viral é a aula 61"
+  },
+  "UC03 - Apostila Guia de Biologia Molecular.pdf": {
+   "descartado": "apostila de Biomol; replicação do DNA celular é de outras aulas (enzimas da forquilha entram por busca)"
+  },
+  "radiologia.pdf": {
+   "descartado": "apostila de Radiologia"
+  },
+  "Tudo que você precisa saber de RD - UC3.pdf": {
+   "descartado": "apostila de Radiologia"
+  },
+  "Grand Round 2.pdf": {
+   "descartado": "apostila do GR2"
+  },
+  "UC3.pdf": {
+   "descartado": "apostila UC3: a seção de patogênese viral foi coberta pela apostila guia e pela monitoria; conferida por busca, sem seção própria desta aula"
+  },
+  "O GRANDE RESUMO DA P1 UC3.pdf": {
+   "descartado": "resumo da P1 (esta aula é da P3)"
+  },
+  "O GRANDE RESUMO DA P2 UC3.pdf": {
+   "descartado": "mesmo arquivo da Monitoria - Resumo da P2 (33.304.311 bytes); P2 é outra prova (bactérias e micoses)"
+  },
+  "O GRANDE RESUMO DA P3 UC3.pdf": {
+   "descartado": "mesmo arquivo da Monitoria - Resumo da P3; a seção de patogênese viral foi lida em mat-03"
+  },
+  "Monitoria - Resumo da P2.pdf": {
+   "descartado": "monitoria P2 (bactérias e micoses; outra prova)"
+  },
+  "Monitoria - Resumo da P1.pdf": {
+   "descartado": "monitoria da P1 (outra prova)"
+  },
+  "Monitoria - Resumo da P3.pdf": {
+   "texto": "fontes/mat-03-monitoria-p3-patogenese.txt",
+   "secao": "Aula 16 – Patogênese da infecção viral",
+   "linhas": "arquivos-trabalho/materiais-uc03/Microbiologia - Monitoria - Resumo da P3.txt:2157-2356"
+  },
+  "C - ApresentaÃ§Ã£o em PDF da Video Aula - IM - OrganizaÃ§Ã£o da Resposta Imune aos VÃ­rus.pdf": {
+   "descartado": "material de outra aula arquivado em pasta pessoal"
+  },
+  "C - ApresentaÃ§Ã£o em PDF da Video Aula - MB - MultiplicaÃ§Ã£o Viral.pdf": {
+   "descartado": "material de outra aula arquivado em pasta pessoal"
+  },
+  "D - TranscriÃ§Ã£o da Aula em PDF - IM - OrganizaÃ§Ã£o da Resposta Imune aos VÃ­rus.pdf": {
+   "descartado": "material de outra aula arquivado em pasta pessoal"
+  },
+  "D - TranscriÃ§Ã£o da Aula em PDF - MB - MultiplicaÃ§Ã£o Viral.pdf": {
+   "descartado": "material de outra aula arquivado em pasta pessoal"
+  },
+  "E - TranscriÃ§Ã£o da Aula em PDF - MB - Antivirais.pdf": {
+   "descartado": "material de outra aula arquivado em pasta pessoal"
+  }
+ },
+ "canais": [
+  {
+   "canal": "Ninja Nerd",
+   "url": "https://youtu.be/R4OG0wHkPcM",
+   "transcricao": "canais/ninja-hepatites-fisiopatologia.txt",
+   "lido": "integral",
+   "calibracao": "Confirmou os padrões agudo e crônico da hepatite B, a transmissão vertical e a lesão mediada pela resposta imune; sustenta os cards de padrão de infecção."
+  }
+ ]
+}
