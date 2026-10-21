@@ -245,7 +245,7 @@ SLIDES = [
  (235, 'conteudo', 'Conteúdo da lâmina 85 (repete a lâmina 85)', [('b235-1', 'Corpúsculos de inclusão: citoplasmáticos × nucleares', 'au-inclusoes'), ('b235-2', 'Guarnieri: inclusões citoplasmáticas do poxvírus', 'ak1502570605009'), ('b235-3', 'Corpos de Negri: inclusões citoplasmáticas da raiva', 'ak1516475620459'), ('b235-4', 'Corpos de Cowdry: inclusões nucleares dos herpesvírus', 'ak1516475827100'), ('b235-5', 'Inclusões: acúmulos de proteínas ou partículas no local de montagem', 'sh-1791984887454')]),
  (236, 'conteudo', 'Corpúsculos de inclusão em imunofluorescência e ME (repete a lâmina 86)', [('b236-1', 'Inclusões', 'au-inclusoes')]),
  (237, 'conteudo', 'Conteúdo da lâmina 87 (repete a lâmina 87)', [('b237-1', 'Formas de liberação do vírus', 'au-liberacao'), ('b237-2', 'Sincícios: células multinucleadas por fusão', 'sh-1791984888354')]),
- (238, 'conteudo', 'Lise de células Vero após infecção com poliovírus tipo 1', [('i238-1', 'Poliovírus: lise da cultura', 'au-polio-lise')]),
+ (238, 'fora_do_recorte', 'Fotografia de lise de células Vero com poliovírus (card cortado no enxugamento de 21/10; FORA_DO_RECORTE)', []),
  (239, 'conteudo', 'Conteúdo da lâmina 88 (repete a lâmina 88)', [('b239-1', 'Envelope vem da membrana da célula', 'sh-1792243082169')]),
  (240, 'fora_do_recorte', 'Lâmina 90: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 90)', []),
  (241, 'conteudo', 'Conteúdo da lâmina 91 (repete a lâmina 91)', [('b241-1', 'Resumo: polimerase celular × viral nos vírus de DNA', 'au-resumo-dna')]),

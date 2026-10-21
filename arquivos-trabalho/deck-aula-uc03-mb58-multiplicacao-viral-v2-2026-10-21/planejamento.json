@@ -1,0 +1,2529 @@
+{
+ "aula": "Multiplicação viral e antivirais (UC03 P3; Microbiologia; Prof. Enrique Boccardo)",
+ "feito_antes_de_montar": true,
+ "alvos": [
+  {
+   "id": "mb58-s03-i3-1",
+   "slide": "3",
+   "alvo": "Vírions são montados, não crescem nem se dividem",
+   "fontes": [
+    "slide 3"
+   ],
+   "origem_prevista": "sh-1792243070220"
+  },
+  {
+   "id": "mb58-s03-i3-2",
+   "slide": "3",
+   "alvo": "Vírus sem atividade metabólica",
+   "fontes": [
+    "slide 3"
+   ],
+   "origem_prevista": "sh-1792243070545"
+  },
+  {
+   "id": "mb58-s04-i4-1",
+   "slide": "4",
+   "alvo": "Célula suscetível × permissiva",
+   "fontes": [
+    "slide 4"
+   ],
+   "origem_prevista": "au-permissiva"
+  },
+  {
+   "id": "mb58-s06-i6-1",
+   "slide": "6",
+   "alvo": "Infecção produtiva × abortiva",
+   "fontes": [
+    "slide 6"
+   ],
+   "origem_prevista": "au-produtiva"
+  },
+  {
+   "id": "mb58-s07-i7-1",
+   "slide": "7",
+   "alvo": "Fases do ciclo",
+   "fontes": [
+    "slide 7"
+   ],
+   "origem_prevista": "au-etapas"
+  },
+  {
+   "id": "mb58-s08-i8-1",
+   "slide": "8",
+   "alvo": "As etapas do ciclo de replicação, em ordem",
+   "fontes": [
+    "slide 8"
+   ],
+   "origem_prevista": "au-etapas"
+  },
+  {
+   "id": "mb58-s09-i9-1",
+   "slide": "9",
+   "alvo": "Glicoproteínas do envelope: ligam a célula e são antígenos",
+   "fontes": [
+    "slide 9"
+   ],
+   "origem_prevista": "sh-1792243082496"
+  },
+  {
+   "id": "mb58-s10-i10-1",
+   "slide": "10",
+   "alvo": "gp120 é a glicoproteína externa do HIV",
+   "fontes": [
+    "slide 10"
+   ],
+   "origem_prevista": "ak1502066766747"
+  },
+  {
+   "id": "mb58-s10-i10-2",
+   "slide": "10",
+   "alvo": "gp120 permite a ligação do HIV ao CD4",
+   "fontes": [
+    "slide 10"
+   ],
+   "origem_prevista": "ak1506805847290"
+  },
+  {
+   "id": "mb58-s10-i10-3",
+   "slide": "10",
+   "alvo": "Início da infecção: HIV entra em macrófagos por CCR5",
+   "fontes": [
+    "slide 10"
+   ],
+   "origem_prevista": "ak1502068331161"
+  },
+  {
+   "id": "mb58-s10-i10-4",
+   "slide": "10",
+   "alvo": "Fase tardia: HIV entra em linfócitos T por CXCR4",
+   "fontes": [
+    "slide 10"
+   ],
+   "origem_prevista": "ak1502068440036"
+  },
+  {
+   "id": "mb58-s10-i10-5",
+   "slide": "10",
+   "alvo": "Rinovírus entra pelo ICAM-1",
+   "fontes": [
+    "slide 10"
+   ],
+   "origem_prevista": "ak1516222322469"
+  },
+  {
+   "id": "mb58-s10-i10-6",
+   "slide": "10",
+   "alvo": "gp120 liga CD4 e os correceptores CCR5 e CXCR4",
+   "fontes": [
+    "slide 10"
+   ],
+   "origem_prevista": "sh-1792166995490"
+  },
+  {
+   "id": "mb58-s11-i11-1",
+   "slide": "11",
+   "alvo": "Penetração: endocitose, translocação ou fusão",
+   "fontes": [
+    "slide 11"
+   ],
+   "origem_prevista": "au-penetracao"
+  },
+  {
+   "id": "mb58-s12-i12-1",
+   "slide": "12",
+   "alvo": "Endocitose como via de entrada",
+   "fontes": [
+    "slide 12"
+   ],
+   "origem_prevista": "au-penetracao"
+  },
+  {
+   "id": "mb58-s13-i13-1",
+   "slide": "13",
+   "alvo": "Duas vias de penetração",
+   "fontes": [
+    "slide 13"
+   ],
+   "origem_prevista": "au-penetracao"
+  },
+  {
+   "id": "mb58-s14-i14-1",
+   "slide": "14",
+   "alvo": "Hemaglutinina promove a endocitose do influenza",
+   "fontes": [
+    "slide 14"
+   ],
+   "origem_prevista": "ak1516323635408"
+  },
+  {
+   "id": "mb58-s15-i15-1",
+   "slide": "15",
+   "alvo": "gp41 do HIV medeia a fusão",
+   "fontes": [
+    "slide 15"
+   ],
+   "origem_prevista": "ak1502066667272"
+  },
+  {
+   "id": "mb58-s17-i17-1",
+   "slide": "17",
+   "alvo": "Desnudamento: três locais",
+   "fontes": [
+    "slide 17"
+   ],
+   "origem_prevista": "au-desnud"
+  },
+  {
+   "id": "mb58-s19-i19-1",
+   "slide": "19",
+   "alvo": "Desnudamento após endocitose",
+   "fontes": [
+    "slide 19"
+   ],
+   "origem_prevista": "au-desnud"
+  },
+  {
+   "id": "mb58-s20-i20-1",
+   "slide": "20",
+   "alvo": "mRNAs precoces × tardios",
+   "fontes": [
+    "slide 20"
+   ],
+   "origem_prevista": "au-precoces"
+  },
+  {
+   "id": "mb58-s20-i20-2",
+   "slide": "20",
+   "alvo": "A maioria dos vírus de DNA replica no núcleo",
+   "fontes": [
+    "slide 20"
+   ],
+   "origem_prevista": "ak1502152021975"
+  },
+  {
+   "id": "mb58-s20-i20-3",
+   "slide": "20",
+   "alvo": "Vírus de RNA em geral replicam no citoplasma",
+   "fontes": [
+    "slide 20"
+   ],
+   "origem_prevista": "ak1516321076508"
+  },
+  {
+   "id": "mb58-s20-i20-4",
+   "slide": "20",
+   "alvo": "Exceções: orthomyxovírus e retrovírus replicam no núcleo",
+   "fontes": [
+    "slide 20"
+   ],
+   "origem_prevista": "ak1483913062659"
+  },
+  {
+   "id": "mb58-s22-i22-1",
+   "slide": "22",
+   "alvo": "Baltimore: caminho do genoma até o mRNA",
+   "fontes": [
+    "slide 22"
+   ],
+   "origem_prevista": "sh-1792243072244"
+  },
+  {
+   "id": "mb58-s23-i23-1",
+   "slide": "23",
+   "alvo": "Polimerase, iniciador e molde",
+   "fontes": [
+    "slide 23"
+   ],
+   "origem_prevista": "au-primers"
+  },
+  {
+   "id": "mb58-s24-i24-1",
+   "slide": "24",
+   "alvo": "Primer e molde",
+   "fontes": [
+    "slide 24"
+   ],
+   "origem_prevista": "au-primers"
+  },
+  {
+   "id": "mb58-s27-i27-1",
+   "slide": "27",
+   "alvo": "DNA no núcleo",
+   "fontes": [
+    "slide 27"
+   ],
+   "origem_prevista": "ak1502152021975"
+  },
+  {
+   "id": "mb58-s27-i27-2",
+   "slide": "27",
+   "alvo": "Baltimore",
+   "fontes": [
+    "slide 27"
+   ],
+   "origem_prevista": "sh-1792243072244"
+  },
+  {
+   "id": "mb58-s28-i28-1",
+   "slide": "28",
+   "alvo": "Dependência da célula",
+   "fontes": [
+    "slide 28"
+   ],
+   "origem_prevista": "au-pequenos-dna"
+  },
+  {
+   "id": "mb58-s28-i28-2",
+   "slide": "28",
+   "alvo": "Vírus complexos codificam muitas proteínas",
+   "fontes": [
+    "slide 28"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s29-i29-1",
+   "slide": "29",
+   "alvo": "Vírus de DNA pequenos dependem da célula",
+   "fontes": [
+    "slide 29"
+   ],
+   "origem_prevista": "au-pequenos-dna"
+  },
+  {
+   "id": "mb58-s30-i30-1",
+   "slide": "30",
+   "alvo": "Proteínas virais da replicação do DNA",
+   "fontes": [
+    "slide 30"
+   ],
+   "origem_prevista": "au-prot-dna"
+  },
+  {
+   "id": "mb58-s32-i32-1",
+   "slide": "32",
+   "alvo": "Dois mecanismos de síntese de DNA e seus iniciadores",
+   "fontes": [
+    "slide 32"
+   ],
+   "origem_prevista": "au-primers"
+  },
+  {
+   "id": "mb58-s36-i36-1",
+   "slide": "36",
+   "alvo": "Antígeno T: reconhece a origem e é helicase",
+   "fontes": [
+    "slide 36"
+   ],
+   "origem_prevista": "au-polyoma-t"
+  },
+  {
+   "id": "mb58-s37-i37-1",
+   "slide": "37",
+   "alvo": "Antígeno T abre a origem",
+   "fontes": [
+    "slide 37"
+   ],
+   "origem_prevista": "au-polyoma-t"
+  },
+  {
+   "id": "mb58-s38-i38-1",
+   "slide": "38",
+   "alvo": "Primase e polimerases da célula",
+   "fontes": [
+    "slide 38"
+   ],
+   "origem_prevista": "au-polyoma-t"
+  },
+  {
+   "id": "mb58-s39-i39-1",
+   "slide": "39",
+   "alvo": "Replicação do DNA pela maquinaria da célula",
+   "fontes": [
+    "slide 39"
+   ],
+   "origem_prevista": "au-polyoma-t"
+  },
+  {
+   "id": "mb58-s40-i40-1",
+   "slide": "40",
+   "alvo": "Topoisomerases relaxam o superenovelamento",
+   "fontes": [
+    "slide 40"
+   ],
+   "origem_prevista": "au-polyoma-t"
+  },
+  {
+   "id": "mb58-s41-i41-1",
+   "slide": "41",
+   "alvo": "HPV: nu, icosaédrico, DNA circular de fita dupla",
+   "fontes": [
+    "slide 41"
+   ],
+   "origem_prevista": "ak1493398712106"
+  },
+  {
+   "id": "mb58-s43-i43-1",
+   "slide": "43",
+   "alvo": "E6 do HPV de alto risco leva à destruição de p53",
+   "fontes": [
+    "slide 43"
+   ],
+   "origem_prevista": "ak1463105909117"
+  },
+  {
+   "id": "mb58-s43-i43-2",
+   "slide": "43",
+   "alvo": "E7 do HPV de alto risco leva à destruição de Rb",
+   "fontes": [
+    "slide 43"
+   ],
+   "origem_prevista": "ak1463105915437"
+  },
+  {
+   "id": "mb58-s44-i44-1",
+   "slide": "44",
+   "alvo": "E7 induz síntese de DNA não programada",
+   "fontes": [
+    "slide 44"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s45-i45-1",
+   "slide": "45",
+   "alvo": "Funções precoces e tardias",
+   "fontes": [
+    "slide 45"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s45-i45-2",
+   "slide": "45",
+   "alvo": "Proteínas multifuncionais",
+   "fontes": [
+    "slide 45"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s45-i45-3",
+   "slide": "45",
+   "alvo": "Célula fornece a maquinaria",
+   "fontes": [
+    "slide 45"
+   ],
+   "origem_prevista": "au-pequenos-dna"
+  },
+  {
+   "id": "mb58-s46-i46-1",
+   "slide": "46",
+   "alvo": "Adenovírus: RNA pol da célula, DNA pol própria",
+   "fontes": [
+    "slide 46"
+   ],
+   "origem_prevista": "au-adeno-pol"
+  },
+  {
+   "id": "mb58-s47-i47-1",
+   "slide": "47",
+   "alvo": "Adenovírus tem genoma de DNA linear",
+   "fontes": [
+    "slide 47"
+   ],
+   "origem_prevista": "ak1516930208305"
+  },
+  {
+   "id": "mb58-s47-i47-2",
+   "slide": "47",
+   "alvo": "Adenovírus: o primer é uma proteína",
+   "fontes": [
+    "slide 47"
+   ],
+   "origem_prevista": "au-adeno-primer"
+  },
+  {
+   "id": "mb58-s48-i48-1",
+   "slide": "48",
+   "alvo": "Proteína liga dCMP e fornece 3′-OH",
+   "fontes": [
+    "slide 48"
+   ],
+   "origem_prevista": "au-adeno-primer"
+  },
+  {
+   "id": "mb58-s48-i48-2",
+   "slide": "48",
+   "alvo": "Deslocamento de fita",
+   "fontes": [
+    "slide 48"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s49-i49-1",
+   "slide": "49",
+   "alvo": "Primer proteico",
+   "fontes": [
+    "slide 49"
+   ],
+   "origem_prevista": "au-adeno-primer"
+  },
+  {
+   "id": "mb58-s51-i51-1",
+   "slide": "51",
+   "alvo": "Herpesvírus: circulariza e replica por círculo rolante",
+   "fontes": [
+    "slide 51"
+   ],
+   "origem_prevista": "au-herpes-circ"
+  },
+  {
+   "id": "mb58-s52-i52-1",
+   "slide": "52",
+   "alvo": "Circularização por proteínas do hospedeiro",
+   "fontes": [
+    "slide 52"
+   ],
+   "origem_prevista": "au-herpes-circ"
+  },
+  {
+   "id": "mb58-s53-i53-1",
+   "slide": "53",
+   "alvo": "Círculo rolante",
+   "fontes": [
+    "slide 53"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s54-i54-1",
+   "slide": "54",
+   "alvo": "Poxvírus: único DNA vírus que replica só no citoplasma",
+   "fontes": [
+    "slide 54"
+   ],
+   "origem_prevista": "ak1502570386887"
+  },
+  {
+   "id": "mb58-s55-i55-1",
+   "slide": "55",
+   "alvo": "Poxvírus tem a própria RNA polimerase dependente de DNA",
+   "fontes": [
+    "slide 55"
+   ],
+   "origem_prevista": "ak1502570452327"
+  },
+  {
+   "id": "mb58-s55-i55-2",
+   "slide": "55",
+   "alvo": "Poxvírus: mRNAs precoces pela polimerase do vírion",
+   "fontes": [
+    "slide 55"
+   ],
+   "origem_prevista": "au-pox-precoces"
+  },
+  {
+   "id": "mb58-s56-i56-1",
+   "slide": "56",
+   "alvo": "Replicação citoplasmática",
+   "fontes": [
+    "slide 56"
+   ],
+   "origem_prevista": "ak1502570386887"
+  },
+  {
+   "id": "mb58-s57-i57-1",
+   "slide": "57",
+   "alvo": "Replicação citoplasmática",
+   "fontes": [
+    "slide 57"
+   ],
+   "origem_prevista": "ak1502570386887"
+  },
+  {
+   "id": "mb58-s58-i58-1",
+   "slide": "58",
+   "alvo": "Sem problema 5′",
+   "fontes": [
+    "slide 58"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s59-i59-1",
+   "slide": "59",
+   "alvo": "Parvoviridae: únicos vírus de DNA de fita simples",
+   "fontes": [
+    "slide 59"
+   ],
+   "origem_prevista": "sh-1792243075743"
+  },
+  {
+   "id": "mb58-s61-i61-1",
+   "slide": "61",
+   "alvo": "Primer em grampo",
+   "fontes": [
+    "slide 61"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s65-i65-1",
+   "slide": "65",
+   "alvo": "RNA viral tem polaridade + ou −",
+   "fontes": [
+    "slide 65"
+   ],
+   "origem_prevista": "sh-1792243072575"
+  },
+  {
+   "id": "mb58-s65-i65-2",
+   "slide": "65",
+   "alvo": "RNA + tem a estrutura do mRNA",
+   "fontes": [
+    "slide 65"
+   ],
+   "origem_prevista": "sh-1792243072820"
+  },
+  {
+   "id": "mb58-s66-i66-1",
+   "slide": "66",
+   "alvo": "Polaridade do RNA e mRNA",
+   "fontes": [
+    "slide 66"
+   ],
+   "origem_prevista": "sh-1792243072575"
+  },
+  {
+   "id": "mb58-s67-i67-1",
+   "slide": "67",
+   "alvo": "Polimerase no vírion conforme o genoma",
+   "fontes": [
+    "slide 67"
+   ],
+   "origem_prevista": "au-reo-pol"
+  },
+  {
+   "id": "mb58-s68-i68-1",
+   "slide": "68",
+   "alvo": "Picornavírus fazem poliproteína clivada por protease viral",
+   "fontes": [
+    "slide 68"
+   ],
+   "origem_prevista": "ak1506627151740"
+  },
+  {
+   "id": "mb58-s68-i68-2",
+   "slide": "68",
+   "alvo": "RNA + é traduzido de imediato",
+   "fontes": [
+    "slide 68"
+   ],
+   "origem_prevista": "sh-1792243073069"
+  },
+  {
+   "id": "mb58-s70-i70-1",
+   "slide": "70",
+   "alvo": "Orthomyxoviridae: único RNA − que replica no núcleo",
+   "fontes": [
+    "slide 70"
+   ],
+   "origem_prevista": "ak1516320980606"
+  },
+  {
+   "id": "mb58-s70-i70-2",
+   "slide": "70",
+   "alvo": "RNA − precisa virar + antes de ser usado",
+   "fontes": [
+    "slide 70"
+   ],
+   "origem_prevista": "sh-1792243073320"
+  },
+  {
+   "id": "mb58-s70-i70-3",
+   "slide": "70",
+   "alvo": "RNA − produz a própria RNA polimerase",
+   "fontes": [
+    "slide 70"
+   ],
+   "origem_prevista": "sh-1792243073569"
+  },
+  {
+   "id": "mb58-s71-i71-1",
+   "slide": "71",
+   "alvo": "Transcrição reversa: RNA → DNA",
+   "fontes": [
+    "slide 71"
+   ],
+   "origem_prevista": "sh-1792243074070"
+  },
+  {
+   "id": "mb58-s71-i71-2",
+   "slide": "71",
+   "alvo": "Retrovírus: genoma diploide",
+   "fontes": [
+    "slide 71"
+   ],
+   "origem_prevista": "sh-1792243083345"
+  },
+  {
+   "id": "mb58-s72-i72-1",
+   "slide": "72",
+   "alvo": "Retrovírus",
+   "fontes": [
+    "slide 72"
+   ],
+   "origem_prevista": "au-retro-rt"
+  },
+  {
+   "id": "mb58-s73-i73-1",
+   "slide": "73",
+   "alvo": "Retrovírus: transcriptase reversa no vírion e provírus",
+   "fontes": [
+    "slide 73"
+   ],
+   "origem_prevista": "au-retro-rt"
+  },
+  {
+   "id": "mb58-s73-i73-2",
+   "slide": "73",
+   "alvo": "env codifica gp120 e gp41",
+   "fontes": [
+    "slide 73"
+   ],
+   "origem_prevista": "sh-1792243081124"
+  },
+  {
+   "id": "mb58-s73-i73-3",
+   "slide": "73",
+   "alvo": "pol codifica transcriptase reversa, protease e integrase",
+   "fontes": [
+    "slide 73"
+   ],
+   "origem_prevista": "sh-1792243081596"
+  },
+  {
+   "id": "mb58-s74-i74-1",
+   "slide": "74",
+   "alvo": "Transcriptase reversa gera dsDNA que a integrase insere",
+   "fontes": [
+    "slide 74"
+   ],
+   "origem_prevista": "ak1502069441823"
+  },
+  {
+   "id": "mb58-s75-i75-1",
+   "slide": "75",
+   "alvo": "Transcrição reversa",
+   "fontes": [
+    "slide 75"
+   ],
+   "origem_prevista": "au-retro-rt"
+  },
+  {
+   "id": "mb58-s76-i76-1",
+   "slide": "76",
+   "alvo": "Hepatite B: DNA parcialmente de fita dupla",
+   "fontes": [
+    "slide 76"
+   ],
+   "origem_prevista": "ak1506551550710"
+  },
+  {
+   "id": "mb58-s77-i77-1",
+   "slide": "77",
+   "alvo": "No núcleo, a DNA polimerase do HBV completa a fita dupla",
+   "fontes": [
+    "slide 77"
+   ],
+   "origem_prevista": "ak1506551774430"
+  },
+  {
+   "id": "mb58-s77-i77-2",
+   "slide": "77",
+   "alvo": "Transcriptase reversa do HBV faz o DNA da progênie a partir do RNA",
+   "fontes": [
+    "slide 77"
+   ],
+   "origem_prevista": "sh-1791984892677"
+  },
+  {
+   "id": "mb58-s78-i78-1",
+   "slide": "78",
+   "alvo": "Baltimore",
+   "fontes": [
+    "slide 78"
+   ],
+   "origem_prevista": "sh-1792243072244"
+  },
+  {
+   "id": "mb58-s79-i79-1",
+   "slide": "79",
+   "alvo": "A RdRp é a peça central do complexo de replicação",
+   "fontes": [
+    "slide 79"
+   ],
+   "origem_prevista": "ak1608910179425"
+  },
+  {
+   "id": "mb58-s79-i79-2",
+   "slide": "79",
+   "alvo": "Todo vírus de RNA, menos retrovírus, codifica RdRp",
+   "fontes": [
+    "slide 79"
+   ],
+   "origem_prevista": "au-rdrp-todos"
+  },
+  {
+   "id": "mb58-s80-i80-1",
+   "slide": "80",
+   "alvo": "Vírus de RNA − e dsRNA trazem a polimerase",
+   "fontes": [
+    "slide 80"
+   ],
+   "origem_prevista": "au-reo-pol"
+  },
+  {
+   "id": "mb58-s80-i80-2",
+   "slide": "80",
+   "alvo": "Genoma RNA − sozinho não é infeccioso",
+   "fontes": [
+    "slide 80"
+   ],
+   "origem_prevista": "sh-1792243073819"
+  },
+  {
+   "id": "mb58-s83-i83-1",
+   "slide": "83",
+   "alvo": "Alta taxa de mutação dos vírus de RNA",
+   "fontes": [
+    "slide 83"
+   ],
+   "origem_prevista": "au-mutacao"
+  },
+  {
+   "id": "mb58-s83-i83-2",
+   "slide": "83",
+   "alvo": "Segmentados: mnemônico BOAR",
+   "fontes": [
+    "slide 83"
+   ],
+   "origem_prevista": "ak1516321532745"
+  },
+  {
+   "id": "mb58-s83-i83-3",
+   "slide": "83",
+   "alvo": "Reassortment: troca de segmentos do genoma",
+   "fontes": [
+    "slide 83"
+   ],
+   "origem_prevista": "ak1523806216737"
+  },
+  {
+   "id": "mb58-s83-i83-4",
+   "slide": "83",
+   "alvo": "Antigenic shift: reassortment de HA e NA entre espécies",
+   "fontes": [
+    "slide 83"
+   ],
+   "origem_prevista": "ak1516323064948"
+  },
+  {
+   "id": "mb58-s83-i83-5",
+   "slide": "83",
+   "alvo": "Reassortment ocorre em vírus segmentados",
+   "fontes": [
+    "slide 83"
+   ],
+   "origem_prevista": "sh-1792243076571"
+  },
+  {
+   "id": "mb58-s85-i85-1",
+   "slide": "85",
+   "alvo": "Corpúsculos de inclusão: citoplasmáticos × nucleares",
+   "fontes": [
+    "slide 85"
+   ],
+   "origem_prevista": "au-inclusoes"
+  },
+  {
+   "id": "mb58-s85-i85-2",
+   "slide": "85",
+   "alvo": "Guarnieri: inclusões citoplasmáticas do poxvírus",
+   "fontes": [
+    "slide 85"
+   ],
+   "origem_prevista": "ak1502570605009"
+  },
+  {
+   "id": "mb58-s85-i85-3",
+   "slide": "85",
+   "alvo": "Corpos de Negri: inclusões citoplasmáticas da raiva",
+   "fontes": [
+    "slide 85"
+   ],
+   "origem_prevista": "ak1516475620459"
+  },
+  {
+   "id": "mb58-s85-i85-4",
+   "slide": "85",
+   "alvo": "Corpos de Cowdry: inclusões nucleares dos herpesvírus",
+   "fontes": [
+    "slide 85"
+   ],
+   "origem_prevista": "ak1516475827100"
+  },
+  {
+   "id": "mb58-s85-i85-5",
+   "slide": "85",
+   "alvo": "Inclusões: acúmulos de proteínas ou partículas no local de montagem",
+   "fontes": [
+    "slide 85"
+   ],
+   "origem_prevista": "sh-1791984887454"
+  },
+  {
+   "id": "mb58-s86-i86-1",
+   "slide": "86",
+   "alvo": "Inclusões",
+   "fontes": [
+    "slide 86"
+   ],
+   "origem_prevista": "au-inclusoes"
+  },
+  {
+   "id": "mb58-s87-i87-1",
+   "slide": "87",
+   "alvo": "Formas de liberação do vírus",
+   "fontes": [
+    "slide 87"
+   ],
+   "origem_prevista": "au-liberacao"
+  },
+  {
+   "id": "mb58-s87-i87-2",
+   "slide": "87",
+   "alvo": "Sincícios: células multinucleadas por fusão",
+   "fontes": [
+    "slide 87"
+   ],
+   "origem_prevista": "sh-1791984888354"
+  },
+  {
+   "id": "mb58-s88-i88-1",
+   "slide": "88",
+   "alvo": "Envelope vem da membrana da célula",
+   "fontes": [
+    "slide 88"
+   ],
+   "origem_prevista": "sh-1792243082169"
+  },
+  {
+   "id": "mb58-s89-i89-1",
+   "slide": "89",
+   "alvo": "Brotamento",
+   "fontes": [
+    "slide 89"
+   ],
+   "origem_prevista": "sh-1792243082169"
+  },
+  {
+   "id": "mb58-s91-i91-1",
+   "slide": "91",
+   "alvo": "Resumo: polimerase celular × viral nos vírus de DNA",
+   "fontes": [
+    "slide 91"
+   ],
+   "origem_prevista": "au-resumo-dna"
+  },
+  {
+   "id": "mb58-s95-i95-1",
+   "slide": "95",
+   "alvo": "Pontos do ciclo onde o antiviral age",
+   "fontes": [
+    "slide 95"
+   ],
+   "origem_prevista": "au-antiv-mec"
+  },
+  {
+   "id": "mb58-s96-i96-1",
+   "slide": "96",
+   "alvo": "Etapas do ciclo",
+   "fontes": [
+    "slide 96"
+   ],
+   "origem_prevista": "au-etapas"
+  },
+  {
+   "id": "mb58-s97-i97-1",
+   "slide": "97",
+   "alvo": "Alvos dos antivirais no ciclo",
+   "fontes": [
+    "slide 97"
+   ],
+   "origem_prevista": "au-antiv-mec"
+  },
+  {
+   "id": "mb58-s98-i98-1",
+   "slide": "98",
+   "alvo": "Alvos dos antivirais no ciclo",
+   "fontes": [
+    "slide 98"
+   ],
+   "origem_prevista": "au-antiv-mec"
+  },
+  {
+   "id": "mb58-s99-i99-1",
+   "slide": "99",
+   "alvo": "Alvos dos antivirais no ciclo",
+   "fontes": [
+    "slide 99"
+   ],
+   "origem_prevista": "au-antiv-mec"
+  },
+  {
+   "id": "mb58-s101-i101-1",
+   "slide": "101",
+   "alvo": "Fusão como alvo",
+   "fontes": [
+    "slide 101"
+   ],
+   "origem_prevista": "ak1506806715774"
+  },
+  {
+   "id": "mb58-s102-i102-1",
+   "slide": "102",
+   "alvo": "Enfuvirtida liga gp41 e impede a fusão",
+   "fontes": [
+    "slide 102"
+   ],
+   "origem_prevista": "ak1506806715774"
+  },
+  {
+   "id": "mb58-s103-i103-1",
+   "slide": "103",
+   "alvo": "Maraviroque inibe a ligação da gp120 ao CCR5",
+   "fontes": [
+    "slide 103"
+   ],
+   "origem_prevista": "ak1506806433678"
+  },
+  {
+   "id": "mb58-s104-i104-1",
+   "slide": "104",
+   "alvo": "Canal M2 garante o pH para o desnudamento do influenza",
+   "fontes": [
+    "slide 104"
+   ],
+   "origem_prevista": "ak1516324096049"
+  },
+  {
+   "id": "mb58-s105-i105-1",
+   "slide": "105",
+   "alvo": "Amantadina e rimantadina inibem o canal M2 do influenza A",
+   "fontes": [
+    "slide 105"
+   ],
+   "origem_prevista": "ak1516324301529"
+  },
+  {
+   "id": "mb58-s107-i107-1",
+   "slide": "107",
+   "alvo": "Inibidores de polimerase: só para vírus com polimerase própria",
+   "fontes": [
+    "slide 107"
+   ],
+   "origem_prevista": "au-antiv-pol-propria"
+  },
+  {
+   "id": "mb58-s108-i108-1",
+   "slide": "108",
+   "alvo": "Nucleosídeo = base + açúcar",
+   "fontes": [
+    "slide 108"
+   ],
+   "origem_prevista": "ak1467683788745"
+  },
+  {
+   "id": "mb58-s108-i108-2",
+   "slide": "108",
+   "alvo": "Nucleotídeo = base + açúcar + fosfato",
+   "fontes": [
+    "slide 108"
+   ],
+   "origem_prevista": "ak1467683795991"
+  },
+  {
+   "id": "mb58-s109-i109-1",
+   "slide": "109",
+   "alvo": "Aciclovir, famciclovir e valaciclovir são análogos da guanosina",
+   "fontes": [
+    "slide 109"
+   ],
+   "origem_prevista": "ak1506723403021"
+  },
+  {
+   "id": "mb58-s110-i110-1",
+   "slide": "110",
+   "alvo": "NRTIs e análogos",
+   "fontes": [
+    "slide 110"
+   ],
+   "origem_prevista": "ak1506784318198"
+  },
+  {
+   "id": "mb58-s111-i111-1",
+   "slide": "111",
+   "alvo": "Timidina quinase viral monofosforila o aciclovir",
+   "fontes": [
+    "slide 111"
+   ],
+   "origem_prevista": "ak1506723704374"
+  },
+  {
+   "id": "mb58-s111-i111-2",
+   "slide": "111",
+   "alvo": "Aciclovir trifosfato entra no DNA viral e inibe a polimerase",
+   "fontes": [
+    "slide 111"
+   ],
+   "origem_prevista": "ak1506724128411"
+  },
+  {
+   "id": "mb58-s111-i111-3",
+   "slide": "111",
+   "alvo": "Resistência ao aciclovir: timidina quinase mutada ou ausente",
+   "fontes": [
+    "slide 111"
+   ],
+   "origem_prevista": "ak1403635898739"
+  },
+  {
+   "id": "mb58-s111-i111-4",
+   "slide": "111",
+   "alvo": "Sem timidina quinase viral, o aciclovir não age em CMV e EBV",
+   "fontes": [
+    "slide 111"
+   ],
+   "origem_prevista": "ak1506724515933"
+  },
+  {
+   "id": "mb58-s112-i112-1",
+   "slide": "112",
+   "alvo": "Fosforilação dos análogos",
+   "fontes": [
+    "slide 112"
+   ],
+   "origem_prevista": "ak1506784514467"
+  },
+  {
+   "id": "mb58-s114-i114-1",
+   "slide": "114",
+   "alvo": "Replicação de herpesvírus",
+   "fontes": [
+    "slide 114"
+   ],
+   "origem_prevista": "au-prot-dna"
+  },
+  {
+   "id": "mb58-s115-i115-1",
+   "slide": "115",
+   "alvo": "Ativação do aciclovir",
+   "fontes": [
+    "slide 115"
+   ],
+   "origem_prevista": "ak1506723704374"
+  },
+  {
+   "id": "mb58-s117-i117-1",
+   "slide": "117",
+   "alvo": "Cidofovir e foscarnet não precisam de timidina quinase",
+   "fontes": [
+    "slide 117"
+   ],
+   "origem_prevista": "ak1506724662638"
+  },
+  {
+   "id": "mb58-s117-i117-2",
+   "slide": "117",
+   "alvo": "Foscarnet liga o sítio do pirofosfato da polimerase",
+   "fontes": [
+    "slide 117"
+   ],
+   "origem_prevista": "ak1403636336526"
+  },
+  {
+   "id": "mb58-s119-i119-1",
+   "slide": "119",
+   "alvo": "Inibidores da transcriptase reversa impedem o RNA virar DNA",
+   "fontes": [
+    "slide 119"
+   ],
+   "origem_prevista": "ak1506784777103"
+  },
+  {
+   "id": "mb58-s119-i119-2",
+   "slide": "119",
+   "alvo": "NRTIs não têm hidroxila 3′",
+   "fontes": [
+    "slide 119"
+   ],
+   "origem_prevista": "ak1506784318198"
+  },
+  {
+   "id": "mb58-s120-i120-1",
+   "slide": "120",
+   "alvo": "Tenofovir é nucleotídeo, não nucleosídeo",
+   "fontes": [
+    "slide 120"
+   ],
+   "origem_prevista": "ak1506785118508"
+  },
+  {
+   "id": "mb58-s122-i122-1",
+   "slide": "122",
+   "alvo": "NRTIs terminam a cadeia de DNA precocemente",
+   "fontes": [
+    "slide 122"
+   ],
+   "origem_prevista": "ak1506784353867"
+  },
+  {
+   "id": "mb58-s122-i122-2",
+   "slide": "122",
+   "alvo": "A maioria dos NRTIs precisa ser fosforilada",
+   "fontes": [
+    "slide 122"
+   ],
+   "origem_prevista": "ak1506784514467"
+  },
+  {
+   "id": "mb58-s123-i123-1",
+   "slide": "123",
+   "alvo": "NNRTIs ligam a transcriptase reversa em sítio diferente do NRTI",
+   "fontes": [
+    "slide 123"
+   ],
+   "origem_prevista": "ak1506789392960"
+  },
+  {
+   "id": "mb58-s123-i123-2",
+   "slide": "123",
+   "alvo": "NNRTIs não precisam de fosforilação",
+   "fontes": [
+    "slide 123"
+   ],
+   "origem_prevista": "ak1506789263570"
+  },
+  {
+   "id": "mb58-s126-i126-1",
+   "slide": "126",
+   "alvo": "NS5B",
+   "fontes": [
+    "slide 126"
+   ],
+   "origem_prevista": "ak1461797689978"
+  },
+  {
+   "id": "mb58-s127-i127-1",
+   "slide": "127",
+   "alvo": "Sofosbuvir é um análogo de nucleotídeo que inibe a NS5B do HCV",
+   "fontes": [
+    "slide 127"
+   ],
+   "origem_prevista": "ak1461797689978"
+  },
+  {
+   "id": "mb58-s127-i127-2",
+   "slide": "127",
+   "alvo": "Ribavirina é um análogo da guanosina que inibe a IMP desidrogenase",
+   "fontes": [
+    "slide 127"
+   ],
+   "origem_prevista": "ak1514740864172"
+  },
+  {
+   "id": "mb58-s131-i131-1",
+   "slide": "131",
+   "alvo": "Qual enzima integra o dsDNA do HIV ao genoma da célula? Integrase",
+   "fontes": [
+    "slide 131"
+   ],
+   "origem_prevista": "ak1506807161520"
+  },
+  {
+   "id": "mb58-s131-i131-2",
+   "slide": "131",
+   "alvo": "Inibidores da integrase bloqueiam a inserção do dsDNA no genoma",
+   "fontes": [
+    "slide 131"
+   ],
+   "origem_prevista": "ak1506807835841"
+  },
+  {
+   "id": "mb58-s134-i134-1",
+   "slide": "134",
+   "alvo": "Zanamivir e oseltamivir inibem a neuraminidase do influenza A e B",
+   "fontes": [
+    "slide 134"
+   ],
+   "origem_prevista": "ak1516324778471"
+  },
+  {
+   "id": "mb58-s135-i135-1",
+   "slide": "135",
+   "alvo": "Neuraminidase cliva a ligação entre HA e ácido siálico",
+   "fontes": [
+    "slide 135"
+   ],
+   "origem_prevista": "ak1516323747313"
+  },
+  {
+   "id": "mb58-s135-i135-2",
+   "slide": "135",
+   "alvo": "Neuraminidase libera o vírion maduro",
+   "fontes": [
+    "slide 135"
+   ],
+   "origem_prevista": "sh-1792243080522"
+  },
+  {
+   "id": "mb58-s135-i135-3",
+   "slide": "135",
+   "alvo": "Hemaglutinina liga o ácido siálico",
+   "fontes": [
+    "slide 135"
+   ],
+   "origem_prevista": "sh-1792243080096"
+  },
+  {
+   "id": "mb58-s137-i137-1",
+   "slide": "137",
+   "alvo": "Inibidores da protease bloqueiam o corte das proteínas virais",
+   "fontes": [
+    "slide 137"
+   ],
+   "origem_prevista": "ak1502070156173"
+  },
+  {
+   "id": "mb58-s138-i138-1",
+   "slide": "138",
+   "alvo": "Inibidores da protease impedem o vírion maduro a partir de poliproteínas",
+   "fontes": [
+    "slide 138"
+   ],
+   "origem_prevista": "ak1506795652147"
+  },
+  {
+   "id": "mb58-s139-i139-1",
+   "slide": "139",
+   "alvo": "Protease na maturação",
+   "fontes": [
+    "slide 139"
+   ],
+   "origem_prevista": "ak1502070156173"
+  },
+  {
+   "id": "mb58-s140-i140-1",
+   "slide": "140",
+   "alvo": "Inibidores de protease",
+   "fontes": [
+    "slide 140"
+   ],
+   "origem_prevista": "ak1506795652147"
+  },
+  {
+   "id": "mb58-s143-i143-1",
+   "slide": "143",
+   "alvo": "Alvos dos antivirais no ciclo",
+   "fontes": [
+    "slide 143"
+   ],
+   "origem_prevista": "au-antiv-mec"
+  },
+  {
+   "id": "mb58-s150-i150-1",
+   "slide": "150",
+   "alvo": "Alvos dos antivirais de ação direta",
+   "fontes": [
+    "slide 150"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s151-i151-1",
+   "slide": "151",
+   "alvo": "Hepatite C é tratada com inibidores de protease e de polimerase",
+   "fontes": [
+    "slide 151"
+   ],
+   "origem_prevista": "ak1506631004332"
+  },
+  {
+   "id": "mb58-s154-i154-1",
+   "slide": "154",
+   "alvo": "Cura com antivirais de ação direta",
+   "fontes": [
+    "slide 154"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s156-i156-1",
+   "slide": "156",
+   "alvo": "HAART usa no mínimo três fármacos para evitar resistência",
+   "fontes": [
+    "slide 156"
+   ],
+   "origem_prevista": "ak1506783017772"
+  },
+  {
+   "id": "mb58-s157-i157-1",
+   "slide": "157",
+   "alvo": "O alicerce do HAART são os NRTIs",
+   "fontes": [
+    "slide 157"
+   ],
+   "origem_prevista": "ak1502069492941"
+  },
+  {
+   "id": "mb58-s158-i158-1",
+   "slide": "158",
+   "alvo": "Classes do HAART",
+   "fontes": [
+    "slide 158"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s161-i161-1",
+   "slide": "161",
+   "alvo": "Três fármacos evitam progressão e resistência",
+   "fontes": [
+    "slide 161"
+   ],
+   "origem_prevista": "ak1506783017772"
+  },
+  {
+   "id": "mb58-s163-i163-1",
+   "slide": "163",
+   "alvo": "HAART: dois NRTIs mais NNRTI, inibidor de protease ou da integrase",
+   "fontes": [
+    "slide 163"
+   ],
+   "origem_prevista": "ak1506783163535"
+  },
+  {
+   "id": "mb58-s166-i166-1",
+   "slide": "166",
+   "alvo": "Desenvolvimento lento e caro",
+   "fontes": [
+    "slide 166"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s167-i167-1",
+   "slide": "167",
+   "alvo": "Desenvolvimento lento e caro",
+   "fontes": [
+    "slide 167"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s168-i168-1",
+   "slide": "168",
+   "alvo": "Poucos antivirais",
+   "fontes": [
+    "slide 168"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s169-i169-1",
+   "slide": "169",
+   "alvo": "Poucos antivirais",
+   "fontes": [
+    "slide 169"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s172-i172-1",
+   "slide": "172",
+   "alvo": "Remdesivir",
+   "fontes": [
+    "slide 172"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s172-i172-2",
+   "slide": "172",
+   "alvo": "Tocilizumabe",
+   "fontes": [
+    "slide 172"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s176-i176-1",
+   "slide": "176",
+   "alvo": "Interferon α e β: glicoproteínas que preparam as células vizinhas",
+   "fontes": [
+    "slide 176"
+   ],
+   "origem_prevista": "sh-1791984890453"
+  },
+  {
+   "id": "mb58-s177-i177-1",
+   "slide": "177",
+   "alvo": "Alvos dos antivirais no ciclo",
+   "fontes": [
+    "slide 177"
+   ],
+   "origem_prevista": "au-antiv-mec"
+  },
+  {
+   "id": "mb58-s180-b180-1",
+   "slide": "180",
+   "alvo": "Vírions são montados, não crescem nem se dividem",
+   "fontes": [
+    "slide 180"
+   ],
+   "origem_prevista": "sh-1792243070220"
+  },
+  {
+   "id": "mb58-s180-b180-2",
+   "slide": "180",
+   "alvo": "Vírus sem atividade metabólica",
+   "fontes": [
+    "slide 180"
+   ],
+   "origem_prevista": "sh-1792243070545"
+  },
+  {
+   "id": "mb58-s181-b181-1",
+   "slide": "181",
+   "alvo": "Fases do ciclo",
+   "fontes": [
+    "slide 181"
+   ],
+   "origem_prevista": "au-etapas"
+  },
+  {
+   "id": "mb58-s182-b182-1",
+   "slide": "182",
+   "alvo": "As etapas do ciclo de replicação, em ordem",
+   "fontes": [
+    "slide 182"
+   ],
+   "origem_prevista": "au-etapas"
+  },
+  {
+   "id": "mb58-s183-b183-1",
+   "slide": "183",
+   "alvo": "Glicoproteínas do envelope: ligam a célula e são antígenos",
+   "fontes": [
+    "slide 183"
+   ],
+   "origem_prevista": "sh-1792243082496"
+  },
+  {
+   "id": "mb58-s184-b184-1",
+   "slide": "184",
+   "alvo": "gp120 é a glicoproteína externa do HIV",
+   "fontes": [
+    "slide 184"
+   ],
+   "origem_prevista": "ak1502066766747"
+  },
+  {
+   "id": "mb58-s184-b184-2",
+   "slide": "184",
+   "alvo": "gp120 permite a ligação do HIV ao CD4",
+   "fontes": [
+    "slide 184"
+   ],
+   "origem_prevista": "ak1506805847290"
+  },
+  {
+   "id": "mb58-s184-b184-3",
+   "slide": "184",
+   "alvo": "Início da infecção: HIV entra em macrófagos por CCR5",
+   "fontes": [
+    "slide 184"
+   ],
+   "origem_prevista": "ak1502068331161"
+  },
+  {
+   "id": "mb58-s184-b184-4",
+   "slide": "184",
+   "alvo": "Fase tardia: HIV entra em linfócitos T por CXCR4",
+   "fontes": [
+    "slide 184"
+   ],
+   "origem_prevista": "ak1502068440036"
+  },
+  {
+   "id": "mb58-s184-b184-5",
+   "slide": "184",
+   "alvo": "Rinovírus entra pelo ICAM-1",
+   "fontes": [
+    "slide 184"
+   ],
+   "origem_prevista": "ak1516222322469"
+  },
+  {
+   "id": "mb58-s184-b184-6",
+   "slide": "184",
+   "alvo": "gp120 liga CD4 e os correceptores CCR5 e CXCR4",
+   "fontes": [
+    "slide 184"
+   ],
+   "origem_prevista": "sh-1792166995490"
+  },
+  {
+   "id": "mb58-s185-b185-1",
+   "slide": "185",
+   "alvo": "Penetração: endocitose, translocação ou fusão",
+   "fontes": [
+    "slide 185"
+   ],
+   "origem_prevista": "au-penetracao"
+  },
+  {
+   "id": "mb58-s186-b186-1",
+   "slide": "186",
+   "alvo": "Duas vias de penetração",
+   "fontes": [
+    "slide 186"
+   ],
+   "origem_prevista": "au-penetracao"
+  },
+  {
+   "id": "mb58-s187-b187-1",
+   "slide": "187",
+   "alvo": "Desnudamento: três locais",
+   "fontes": [
+    "slide 187"
+   ],
+   "origem_prevista": "au-desnud"
+  },
+  {
+   "id": "mb58-s188-b188-1",
+   "slide": "188",
+   "alvo": "Endocitose como via de entrada",
+   "fontes": [
+    "slide 188"
+   ],
+   "origem_prevista": "au-penetracao"
+  },
+  {
+   "id": "mb58-s190-b190-1",
+   "slide": "190",
+   "alvo": "mRNAs precoces × tardios",
+   "fontes": [
+    "slide 190"
+   ],
+   "origem_prevista": "au-precoces"
+  },
+  {
+   "id": "mb58-s190-b190-2",
+   "slide": "190",
+   "alvo": "A maioria dos vírus de DNA replica no núcleo",
+   "fontes": [
+    "slide 190"
+   ],
+   "origem_prevista": "ak1502152021975"
+  },
+  {
+   "id": "mb58-s190-b190-3",
+   "slide": "190",
+   "alvo": "Vírus de RNA em geral replicam no citoplasma",
+   "fontes": [
+    "slide 190"
+   ],
+   "origem_prevista": "ak1516321076508"
+  },
+  {
+   "id": "mb58-s190-b190-4",
+   "slide": "190",
+   "alvo": "Exceções: orthomyxovírus e retrovírus replicam no núcleo",
+   "fontes": [
+    "slide 190"
+   ],
+   "origem_prevista": "ak1483913062659"
+  },
+  {
+   "id": "mb58-s191-b191-1",
+   "slide": "191",
+   "alvo": "Baltimore: caminho do genoma até o mRNA",
+   "fontes": [
+    "slide 191"
+   ],
+   "origem_prevista": "sh-1792243072244"
+  },
+  {
+   "id": "mb58-s193-b193-1",
+   "slide": "193",
+   "alvo": "DNA no núcleo",
+   "fontes": [
+    "slide 193"
+   ],
+   "origem_prevista": "ak1502152021975"
+  },
+  {
+   "id": "mb58-s193-b193-2",
+   "slide": "193",
+   "alvo": "Baltimore",
+   "fontes": [
+    "slide 193"
+   ],
+   "origem_prevista": "sh-1792243072244"
+  },
+  {
+   "id": "mb58-s195-b195-1",
+   "slide": "195",
+   "alvo": "Dois mecanismos de síntese de DNA e seus iniciadores",
+   "fontes": [
+    "slide 195"
+   ],
+   "origem_prevista": "au-primers"
+  },
+  {
+   "id": "mb58-s197-b197-1",
+   "slide": "197",
+   "alvo": "Vírus de DNA pequenos dependem da célula",
+   "fontes": [
+    "slide 197"
+   ],
+   "origem_prevista": "au-pequenos-dna"
+  },
+  {
+   "id": "mb58-s198-b198-1",
+   "slide": "198",
+   "alvo": "Proteínas virais da replicação do DNA",
+   "fontes": [
+    "slide 198"
+   ],
+   "origem_prevista": "au-prot-dna"
+  },
+  {
+   "id": "mb58-s199-b199-1",
+   "slide": "199",
+   "alvo": "DNA no núcleo",
+   "fontes": [
+    "slide 199"
+   ],
+   "origem_prevista": "ak1502152021975"
+  },
+  {
+   "id": "mb58-s199-b199-2",
+   "slide": "199",
+   "alvo": "Baltimore",
+   "fontes": [
+    "slide 199"
+   ],
+   "origem_prevista": "sh-1792243072244"
+  },
+  {
+   "id": "mb58-s201-b201-1",
+   "slide": "201",
+   "alvo": "Antígeno T: reconhece a origem e é helicase",
+   "fontes": [
+    "slide 201"
+   ],
+   "origem_prevista": "au-polyoma-t"
+  },
+  {
+   "id": "mb58-s202-b202-1",
+   "slide": "202",
+   "alvo": "Topoisomerases relaxam o superenovelamento",
+   "fontes": [
+    "slide 202"
+   ],
+   "origem_prevista": "au-polyoma-t"
+  },
+  {
+   "id": "mb58-s203-b203-1",
+   "slide": "203",
+   "alvo": "Adenovírus tem genoma de DNA linear",
+   "fontes": [
+    "slide 203"
+   ],
+   "origem_prevista": "ak1516930208305"
+  },
+  {
+   "id": "mb58-s203-b203-2",
+   "slide": "203",
+   "alvo": "Adenovírus: o primer é uma proteína",
+   "fontes": [
+    "slide 203"
+   ],
+   "origem_prevista": "au-adeno-primer"
+  },
+  {
+   "id": "mb58-s204-b204-1",
+   "slide": "204",
+   "alvo": "Proteína liga dCMP e fornece 3′-OH",
+   "fontes": [
+    "slide 204"
+   ],
+   "origem_prevista": "au-adeno-primer"
+  },
+  {
+   "id": "mb58-s204-b204-2",
+   "slide": "204",
+   "alvo": "Deslocamento de fita",
+   "fontes": [
+    "slide 204"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s205-b205-1",
+   "slide": "205",
+   "alvo": "Herpesvírus: circulariza e replica por círculo rolante",
+   "fontes": [
+    "slide 205"
+   ],
+   "origem_prevista": "au-herpes-circ"
+  },
+  {
+   "id": "mb58-s206-b206-1",
+   "slide": "206",
+   "alvo": "Circularização por proteínas do hospedeiro",
+   "fontes": [
+    "slide 206"
+   ],
+   "origem_prevista": "au-herpes-circ"
+  },
+  {
+   "id": "mb58-s207-b207-1",
+   "slide": "207",
+   "alvo": "Círculo rolante",
+   "fontes": [
+    "slide 207"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s208-b208-1",
+   "slide": "208",
+   "alvo": "Poxvírus: único DNA vírus que replica só no citoplasma",
+   "fontes": [
+    "slide 208"
+   ],
+   "origem_prevista": "ak1502570386887"
+  },
+  {
+   "id": "mb58-s209-b209-1",
+   "slide": "209",
+   "alvo": "Poxvírus tem a própria RNA polimerase dependente de DNA",
+   "fontes": [
+    "slide 209"
+   ],
+   "origem_prevista": "ak1502570452327"
+  },
+  {
+   "id": "mb58-s209-b209-2",
+   "slide": "209",
+   "alvo": "Poxvírus: mRNAs precoces pela polimerase do vírion",
+   "fontes": [
+    "slide 209"
+   ],
+   "origem_prevista": "au-pox-precoces"
+  },
+  {
+   "id": "mb58-s210-b210-1",
+   "slide": "210",
+   "alvo": "Replicação citoplasmática",
+   "fontes": [
+    "slide 210"
+   ],
+   "origem_prevista": "ak1502570386887"
+  },
+  {
+   "id": "mb58-s211-b211-1",
+   "slide": "211",
+   "alvo": "Sem problema 5′",
+   "fontes": [
+    "slide 211"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s212-b212-1",
+   "slide": "212",
+   "alvo": "Parvoviridae: únicos vírus de DNA de fita simples",
+   "fontes": [
+    "slide 212"
+   ],
+   "origem_prevista": "sh-1792243075743"
+  },
+  {
+   "id": "mb58-s214-b214-1",
+   "slide": "214",
+   "alvo": "Primer em grampo",
+   "fontes": [
+    "slide 214"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-s217-b217-1",
+   "slide": "217",
+   "alvo": "RNA viral tem polaridade + ou −",
+   "fontes": [
+    "slide 217"
+   ],
+   "origem_prevista": "sh-1792243072575"
+  },
+  {
+   "id": "mb58-s217-b217-2",
+   "slide": "217",
+   "alvo": "RNA + tem a estrutura do mRNA",
+   "fontes": [
+    "slide 217"
+   ],
+   "origem_prevista": "sh-1792243072820"
+  },
+  {
+   "id": "mb58-s218-b218-1",
+   "slide": "218",
+   "alvo": "Polaridade do RNA e mRNA",
+   "fontes": [
+    "slide 218"
+   ],
+   "origem_prevista": "sh-1792243072575"
+  },
+  {
+   "id": "mb58-s219-b219-1",
+   "slide": "219",
+   "alvo": "Polimerase no vírion conforme o genoma",
+   "fontes": [
+    "slide 219"
+   ],
+   "origem_prevista": "au-reo-pol"
+  },
+  {
+   "id": "mb58-s221-b221-1",
+   "slide": "221",
+   "alvo": "Picornavírus fazem poliproteína clivada por protease viral",
+   "fontes": [
+    "slide 221"
+   ],
+   "origem_prevista": "ak1506627151740"
+  },
+  {
+   "id": "mb58-s221-b221-2",
+   "slide": "221",
+   "alvo": "RNA + é traduzido de imediato",
+   "fontes": [
+    "slide 221"
+   ],
+   "origem_prevista": "sh-1792243073069"
+  },
+  {
+   "id": "mb58-s222-b222-1",
+   "slide": "222",
+   "alvo": "Orthomyxoviridae: único RNA − que replica no núcleo",
+   "fontes": [
+    "slide 222"
+   ],
+   "origem_prevista": "ak1516320980606"
+  },
+  {
+   "id": "mb58-s222-b222-2",
+   "slide": "222",
+   "alvo": "RNA − precisa virar + antes de ser usado",
+   "fontes": [
+    "slide 222"
+   ],
+   "origem_prevista": "sh-1792243073320"
+  },
+  {
+   "id": "mb58-s222-b222-3",
+   "slide": "222",
+   "alvo": "RNA − produz a própria RNA polimerase",
+   "fontes": [
+    "slide 222"
+   ],
+   "origem_prevista": "sh-1792243073569"
+  },
+  {
+   "id": "mb58-s223-b223-1",
+   "slide": "223",
+   "alvo": "Transcrição reversa: RNA → DNA",
+   "fontes": [
+    "slide 223"
+   ],
+   "origem_prevista": "sh-1792243074070"
+  },
+  {
+   "id": "mb58-s223-b223-2",
+   "slide": "223",
+   "alvo": "Retrovírus: genoma diploide",
+   "fontes": [
+    "slide 223"
+   ],
+   "origem_prevista": "sh-1792243083345"
+  },
+  {
+   "id": "mb58-s224-b224-1",
+   "slide": "224",
+   "alvo": "A RdRp é a peça central do complexo de replicação",
+   "fontes": [
+    "slide 224"
+   ],
+   "origem_prevista": "ak1608910179425"
+  },
+  {
+   "id": "mb58-s224-b224-2",
+   "slide": "224",
+   "alvo": "Todo vírus de RNA, menos retrovírus, codifica RdRp",
+   "fontes": [
+    "slide 224"
+   ],
+   "origem_prevista": "au-rdrp-todos"
+  },
+  {
+   "id": "mb58-s225-b225-1",
+   "slide": "225",
+   "alvo": "Vírus de RNA − e dsRNA trazem a polimerase",
+   "fontes": [
+    "slide 225"
+   ],
+   "origem_prevista": "au-reo-pol"
+  },
+  {
+   "id": "mb58-s225-b225-2",
+   "slide": "225",
+   "alvo": "Genoma RNA − sozinho não é infeccioso",
+   "fontes": [
+    "slide 225"
+   ],
+   "origem_prevista": "sh-1792243073819"
+  },
+  {
+   "id": "mb58-s229-b229-1",
+   "slide": "229",
+   "alvo": "Transcrição reversa: RNA → DNA",
+   "fontes": [
+    "slide 229"
+   ],
+   "origem_prevista": "sh-1792243074070"
+  },
+  {
+   "id": "mb58-s229-b229-2",
+   "slide": "229",
+   "alvo": "Retrovírus: genoma diploide",
+   "fontes": [
+    "slide 229"
+   ],
+   "origem_prevista": "sh-1792243083345"
+  },
+  {
+   "id": "mb58-s230-b230-1",
+   "slide": "230",
+   "alvo": "Transcrição reversa: RNA → DNA",
+   "fontes": [
+    "slide 230"
+   ],
+   "origem_prevista": "sh-1792243074070"
+  },
+  {
+   "id": "mb58-s230-b230-2",
+   "slide": "230",
+   "alvo": "Retrovírus: genoma diploide",
+   "fontes": [
+    "slide 230"
+   ],
+   "origem_prevista": "sh-1792243083345"
+  },
+  {
+   "id": "mb58-s231-b231-1",
+   "slide": "231",
+   "alvo": "Retrovírus",
+   "fontes": [
+    "slide 231"
+   ],
+   "origem_prevista": "au-retro-rt"
+  },
+  {
+   "id": "mb58-s232-b232-1",
+   "slide": "232",
+   "alvo": "Hepatite B: DNA parcialmente de fita dupla",
+   "fontes": [
+    "slide 232"
+   ],
+   "origem_prevista": "ak1506551550710"
+  },
+  {
+   "id": "mb58-s233-b233-1",
+   "slide": "233",
+   "alvo": "No núcleo, a DNA polimerase do HBV completa a fita dupla",
+   "fontes": [
+    "slide 233"
+   ],
+   "origem_prevista": "ak1506551774430"
+  },
+  {
+   "id": "mb58-s233-b233-2",
+   "slide": "233",
+   "alvo": "Transcriptase reversa do HBV faz o DNA da progênie a partir do RNA",
+   "fontes": [
+    "slide 233"
+   ],
+   "origem_prevista": "sh-1791984892677"
+  },
+  {
+   "id": "mb58-s235-b235-1",
+   "slide": "235",
+   "alvo": "Corpúsculos de inclusão: citoplasmáticos × nucleares",
+   "fontes": [
+    "slide 235"
+   ],
+   "origem_prevista": "au-inclusoes"
+  },
+  {
+   "id": "mb58-s235-b235-2",
+   "slide": "235",
+   "alvo": "Guarnieri: inclusões citoplasmáticas do poxvírus",
+   "fontes": [
+    "slide 235"
+   ],
+   "origem_prevista": "ak1502570605009"
+  },
+  {
+   "id": "mb58-s235-b235-3",
+   "slide": "235",
+   "alvo": "Corpos de Negri: inclusões citoplasmáticas da raiva",
+   "fontes": [
+    "slide 235"
+   ],
+   "origem_prevista": "ak1516475620459"
+  },
+  {
+   "id": "mb58-s235-b235-4",
+   "slide": "235",
+   "alvo": "Corpos de Cowdry: inclusões nucleares dos herpesvírus",
+   "fontes": [
+    "slide 235"
+   ],
+   "origem_prevista": "ak1516475827100"
+  },
+  {
+   "id": "mb58-s235-b235-5",
+   "slide": "235",
+   "alvo": "Inclusões: acúmulos de proteínas ou partículas no local de montagem",
+   "fontes": [
+    "slide 235"
+   ],
+   "origem_prevista": "sh-1791984887454"
+  },
+  {
+   "id": "mb58-s236-b236-1",
+   "slide": "236",
+   "alvo": "Inclusões",
+   "fontes": [
+    "slide 236"
+   ],
+   "origem_prevista": "au-inclusoes"
+  },
+  {
+   "id": "mb58-s237-b237-1",
+   "slide": "237",
+   "alvo": "Formas de liberação do vírus",
+   "fontes": [
+    "slide 237"
+   ],
+   "origem_prevista": "au-liberacao"
+  },
+  {
+   "id": "mb58-s237-b237-2",
+   "slide": "237",
+   "alvo": "Sincícios: células multinucleadas por fusão",
+   "fontes": [
+    "slide 237"
+   ],
+   "origem_prevista": "sh-1791984888354"
+  },
+  {
+   "id": "mb58-s239-b239-1",
+   "slide": "239",
+   "alvo": "Envelope vem da membrana da célula",
+   "fontes": [
+    "slide 239"
+   ],
+   "origem_prevista": "sh-1792243082169"
+  },
+  {
+   "id": "mb58-s241-b241-1",
+   "slide": "241",
+   "alvo": "Resumo: polimerase celular × viral nos vírus de DNA",
+   "fontes": [
+    "slide 241"
+   ],
+   "origem_prevista": "au-resumo-dna"
+  },
+  {
+   "id": "mb58-cap-j1",
+   "slide": "livro",
+   "alvo": "Etapas gerais: fixação, penetração, desnudamento",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)"
+   ],
+   "origem_prevista": "au-penetracao, au-desnud"
+  },
+  {
+   "id": "mb58-cap-j2",
+   "slide": "livro",
+   "alvo": "Infecção produtiva × abortiva",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)"
+   ],
+   "origem_prevista": "au-produtiva"
+  },
+  {
+   "id": "mb58-cap-j3",
+   "slide": "livro",
+   "alvo": "Expressão dos genomas virais e síntese dos componentes",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)"
+   ],
+   "origem_prevista": "au-precoces, au-rdrp-todos"
+  },
+  {
+   "id": "mb58-cap-j4",
+   "slide": "livro",
+   "alvo": "Período de eclipse e duração do ciclo",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-cap-j6",
+   "slide": "livro",
+   "alvo": "Efeito citopático: lista de alterações da transcrição Ib (pp. 95–96)",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)"
+   ],
+   "origem_prevista": "sh-1791984887204"
+  },
+  {
+   "id": "mb58-cap-j7",
+   "slide": "livro",
+   "alvo": "Efeito lítico do poliovírus em células Vero (transcrição Ib, pp. 98–100)",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)"
+   ],
+   "origem_prevista": "sh-1791984887204"
+  },
+  {
+   "id": "mb58-cap-j8",
+   "slide": "livro",
+   "alvo": "Efeito citopático de adenovírus, herpesvírus, sarampo, vaccínia, raiva, rotavírus, HBV, VSR e HPV (transcrição Ib, pp. 101–124)",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)"
+   ],
+   "origem_prevista": "exclusão"
+  },
+  {
+   "id": "mb58-cap-j5",
+   "slide": "livro",
+   "alvo": "Análogos e inibidores de enzimas virais",
+   "fontes": [
+    "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)"
+   ],
+   "origem_prevista": "ak1506724128411, au-antiv-pol-propria"
+  },
+  {
+   "id": "mb58-prova-p1",
+   "slide": "prova",
+   "alvo": "Ciclo de multiplicação de um vírus de RNA (+) e suas etapas (2025 P3 2.1)",
+   "fontes": [
+    "Provas UC03 (índice micro-14 e busca por termo)"
+   ],
+   "origem_prevista": "au-etapas, sh-1792243073069"
+  },
+  {
+   "id": "mb58-prova-p2",
+   "slide": "prova",
+   "alvo": "Proteína de replicação: RdRp, transcriptase reversa ou integrase (2024 P3 1.1)",
+   "fontes": [
+    "Provas UC03 (índice micro-14 e busca por termo)"
+   ],
+   "origem_prevista": "au-rdrp-todos, au-retro-rt, ak1506807161520"
+  },
+  {
+   "id": "mb58-prova-p3",
+   "slide": "prova",
+   "alvo": "Replicação de um vírus do grupo IV com compartimento celular (2018 P3 1.3)",
+   "fontes": [
+    "Provas UC03 (índice micro-14 e busca por termo)"
+   ],
+   "origem_prevista": "au-etapas, sh-1792243072820, sh-1792243073069"
+  },
+  {
+   "id": "mb58-prova-p4",
+   "slide": "prova",
+   "alvo": "Câncer por vírus como evento acidental da estratégia de replicação (2024 P4 2.13)",
+   "fontes": [
+    "Provas UC03 (índice micro-14 e busca por termo)"
+   ],
+   "origem_prevista": "ak1463105909117, ak1463105915437"
+  },
+  {
+   "id": "mb58-prova-p5",
+   "slide": "prova",
+   "alvo": "Sincícios e lise celular no efeito citopático (2015 P2 4.3)",
+   "fontes": [
+    "Provas UC03 (índice micro-14 e busca por termo)"
+   ],
+   "origem_prevista": "au-liberacao, sh-1791984888354"
+  },
+  {
+   "id": "mb58-prova-p6",
+   "slide": "prova",
+   "alvo": "Corpúsculos de inclusão: local de montagem (2015 P2 4.8)",
+   "fontes": [
+    "Provas UC03 (índice micro-14 e busca por termo)"
+   ],
+   "origem_prevista": "au-inclusoes"
+  },
+  {
+   "id": "mb58-prova-m1",
+   "slide": "prova",
+   "alvo": "Sistemas de classificação: hierárquico e Baltimore",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "sh-1792243072244"
+  },
+  {
+   "id": "mb58-prova-m2",
+   "slide": "prova",
+   "alvo": "Susceptibilidade, permissividade, acessibilidade e resposta imune",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "au-permissiva"
+  },
+  {
+   "id": "mb58-prova-m3",
+   "slide": "prova",
+   "alvo": "Infecção produtiva e abortiva",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "au-produtiva"
+  },
+  {
+   "id": "mb58-prova-m4",
+   "slide": "prova",
+   "alvo": "Etapas da replicação viral",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "au-etapas"
+  },
+  {
+   "id": "mb58-prova-m5",
+   "slide": "prova",
+   "alvo": "Adsorção e penetração do HIV (gp120, gp41, CD4, correceptor)",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "ak1506805847290, ak1502066667272, sh-1792166995490"
+  },
+  {
+   "id": "mb58-prova-m6",
+   "slide": "prova",
+   "alvo": "Desnudamento do adenovírus (endossomo, dineína, NLS, poro nuclear)",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "au-desnud"
+  },
+  {
+   "id": "mb58-prova-m7",
+   "slide": "prova",
+   "alvo": "Proteínas precoces, intermediárias e tardias",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "au-precoces"
+  },
+  {
+   "id": "mb58-prova-m8",
+   "slide": "prova",
+   "alvo": "Montagem e corpúsculos de inclusão",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "au-inclusoes"
+  },
+  {
+   "id": "mb58-prova-m9",
+   "slide": "prova",
+   "alvo": "Liberação: lise, brotamento, passagem entre células, sincícios",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "au-liberacao"
+  },
+  {
+   "id": "mb58-prova-m10",
+   "slide": "prova",
+   "alvo": "Vírus de DNA: polimerases, primers e proteínas virais",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "au-primers, au-prot-dna, au-pequenos-dna"
+  },
+  {
+   "id": "mb58-prova-m11",
+   "slide": "prova",
+   "alvo": "Poliomavírus, papilomavírus (E1, E2, E6, E7), adenovírus, herpesvírus, poxvírus, parvovírus",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "au-polyoma-t, au-adeno-primer, au-herpes-circ"
+  },
+  {
+   "id": "mb58-prova-m12",
+   "slide": "prova",
+   "alvo": "Vírus de RNA: polaridade, RdRp, retrovírus, hepatite B",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "au-rdrp-todos, au-reo-pol, au-retro-rt, sh-1791984892677"
+  },
+  {
+   "id": "mb58-prova-m13",
+   "slide": "prova",
+   "alvo": "Taxa de mutação e reordenamento",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "au-mutacao"
+  },
+  {
+   "id": "mb58-prova-m14",
+   "slide": "prova",
+   "alvo": "Efeito citopático: alterações e exemplos (poliovírus, adenovírus, sarampo, herpes, vaccínia)",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "sh-1791984887204"
+  },
+  {
+   "id": "mb58-prova-m15",
+   "slide": "prova",
+   "alvo": "Antivirais: mecanismos de ação e dificuldades",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "au-antiv-mec"
+  },
+  {
+   "id": "mb58-prova-m16",
+   "slide": "prova",
+   "alvo": "Inibidores: fusão, desnudamento, polimerases, protease, brotamento, integrase",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "ak1506806715774, ak1516324301529, au-antiv-pol-propria, ak1502070156173, ak1516324778471, ak1506807835841"
+  },
+  {
+   "id": "mb58-prova-m17",
+   "slide": "prova",
+   "alvo": "Aciclovir, foscarnet, NRTIs, NNRTIs e HAART",
+   "fontes": [
+    "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)"
+   ],
+   "origem_prevista": "ak1506724128411, ak1403636336526, ak1506784353867, ak1506789392960"
+  },
+  {
+   "id": "mb58-prova-g1",
+   "slide": "prova",
+   "alvo": "Baltimore: grupos I a VII",
+   "fontes": [
+    "Apostila guia de Micro, aula 13 (sistemas de classificação, etapas, vírus de DNA e RNA, efeito citopático, antivirais)"
+   ],
+   "origem_prevista": "sh-1792243072244"
+  },
+  {
+   "id": "mb58-prova-g2",
+   "slide": "prova",
+   "alvo": "Etapas da replicação",
+   "fontes": [
+    "Apostila guia de Micro, aula 13 (sistemas de classificação, etapas, vírus de DNA e RNA, efeito citopático, antivirais)"
+   ],
+   "origem_prevista": "au-etapas"
+  },
+  {
+   "id": "mb58-prova-g3",
+   "slide": "prova",
+   "alvo": "Vírus de DNA e RNA por estratégia",
+   "fontes": [
+    "Apostila guia de Micro, aula 13 (sistemas de classificação, etapas, vírus de DNA e RNA, efeito citopático, antivirais)"
+   ],
+   "origem_prevista": "au-resumo-dna"
+  },
+  {
+   "id": "mb58-prova-g4",
+   "slide": "prova",
+   "alvo": "Efeito citopático e poliovírus",
+   "fontes": [
+    "Apostila guia de Micro, aula 13 (sistemas de classificação, etapas, vírus de DNA e RNA, efeito citopático, antivirais)"
+   ],
+   "origem_prevista": "sh-1791984887204"
+  },
+  {
+   "id": "mb58-prova-g5",
+   "slide": "prova",
+   "alvo": "Antivirais: amantadina, aciclovir, inibidores de protease e de brotamento, HIV",
+   "fontes": [
+    "Apostila guia de Micro, aula 13 (sistemas de classificação, etapas, vírus de DNA e RNA, efeito citopático, antivirais)"
+   ],
+   "origem_prevista": "ak1516324301529, ak1506724128411, ak1502070156173, ak1516324778471"
+  }
+ ],
+ "fontes": {
+  "slides": {
+   "estado": "consultada",
+   "contribuicao": "Inventário e ordem"
+  },
+  "bibliografia": {
+   "estado": "consultada",
+   "contribuicao": "Etapas gerais, infecção produtiva e abortiva; Análogos e inibidores de enzimas virais; Etapas e estratégias"
+  },
+  "caoc": {
+   "estado": "não localizada",
+   "contribuicao": "nenhum"
+  },
+  "youtube": {
+   "estado": "não aplicável",
+   "contribuicao": "nenhum"
+  },
+  "veteranos": {
+   "estado": "consultada",
+   "contribuicao": "Confirma o texto das lâminas de antivirais; Etapas, vírus de DNA e RNA, antivirais; Baltimore, etapas, mecanismos de DNA e RNA, efeito citopático, antivirais; Susceptibilidade e permissividade, desnudamento do adenovírus, antivirais por classe"
+  },
+  "provas": {
+   "estado": "consultada",
+   "contribuicao": "Ciclo de multiplicação, RdRp, replicação de vírus do grupo IV, corpúsculos e sincícios; Itens de prova sobre efeito citopático e retrovírus"
+  },
+  "exercicios": {
+   "estado": "consultada",
+   "contribuicao": "—"
+  }
+ }
+}

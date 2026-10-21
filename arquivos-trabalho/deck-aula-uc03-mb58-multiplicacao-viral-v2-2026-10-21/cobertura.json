@@ -1,0 +1,2783 @@
+{
+ "aula": "Multiplicação viral e antivirais (UC03 P3; Microbiologia; Prof. Enrique Boccardo)",
+ "conferido_depois_de_instalar": true,
+ "como": "inventário atômico (nebli.inventario): cada ideia das lâminas, do livro e das provas/monitoria ligada a um card que a recupera",
+ "itens": [
+  {
+   "id": "mb58-s01",
+   "fonte": "slide 1",
+   "item": "Capa",
+   "cards": [],
+   "excluido": "capa sem conteúdo"
+  },
+  {
+   "id": "mb58-s02",
+   "fonte": "slide 2",
+   "item": "Leitura recomendada (Fields, Flint)",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s03-i3-1",
+   "fonte": "slide 3",
+   "item": "Vírions são montados, não crescem nem se dividem",
+   "cards": [
+    "sh-1792243070220"
+   ]
+  },
+  {
+   "id": "mb58-s03-i3-2",
+   "fonte": "slide 3",
+   "item": "Vírus sem atividade metabólica",
+   "cards": [
+    "sh-1792243070545"
+   ]
+  },
+  {
+   "id": "mb58-s04-i4-1",
+   "fonte": "slide 4",
+   "item": "Célula suscetível × permissiva",
+   "cards": [
+    "au-permissiva"
+   ]
+  },
+  {
+   "id": "mb58-s05",
+   "fonte": "slide 5",
+   "item": "Divisória: mecanismos de replicação viral",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s06-i6-1",
+   "fonte": "slide 6",
+   "item": "Infecção produtiva × abortiva",
+   "cards": [
+    "au-produtiva"
+   ]
+  },
+  {
+   "id": "mb58-s07-i7-1",
+   "fonte": "slide 7",
+   "item": "Fases do ciclo",
+   "cards": [
+    "au-etapas"
+   ]
+  },
+  {
+   "id": "mb58-s08-i8-1",
+   "fonte": "slide 8",
+   "item": "As etapas do ciclo de replicação, em ordem",
+   "cards": [
+    "au-etapas"
+   ]
+  },
+  {
+   "id": "mb58-s09-i9-1",
+   "fonte": "slide 9",
+   "item": "Glicoproteínas do envelope: ligam a célula e são antígenos",
+   "cards": [
+    "sh-1792243082496"
+   ]
+  },
+  {
+   "id": "mb58-s10-i10-1",
+   "fonte": "slide 10",
+   "item": "gp120 é a glicoproteína externa do HIV",
+   "cards": [
+    "ak1502066766747"
+   ]
+  },
+  {
+   "id": "mb58-s10-i10-2",
+   "fonte": "slide 10",
+   "item": "gp120 permite a ligação do HIV ao CD4",
+   "cards": [
+    "ak1506805847290"
+   ]
+  },
+  {
+   "id": "mb58-s10-i10-3",
+   "fonte": "slide 10",
+   "item": "Início da infecção: HIV entra em macrófagos por CCR5",
+   "cards": [
+    "ak1502068331161"
+   ]
+  },
+  {
+   "id": "mb58-s10-i10-4",
+   "fonte": "slide 10",
+   "item": "Fase tardia: HIV entra em linfócitos T por CXCR4",
+   "cards": [
+    "ak1502068440036"
+   ]
+  },
+  {
+   "id": "mb58-s10-i10-5",
+   "fonte": "slide 10",
+   "item": "Rinovírus entra pelo ICAM-1",
+   "cards": [
+    "ak1516222322469"
+   ]
+  },
+  {
+   "id": "mb58-s10-i10-6",
+   "fonte": "slide 10",
+   "item": "gp120 liga CD4 e os correceptores CCR5 e CXCR4",
+   "cards": [
+    "sh-1792166995490"
+   ]
+  },
+  {
+   "id": "mb58-s11-i11-1",
+   "fonte": "slide 11",
+   "item": "Penetração: endocitose, translocação ou fusão",
+   "cards": [
+    "au-penetracao"
+   ]
+  },
+  {
+   "id": "mb58-s12-i12-1",
+   "fonte": "slide 12",
+   "item": "Endocitose como via de entrada",
+   "cards": [
+    "au-penetracao"
+   ]
+  },
+  {
+   "id": "mb58-s13-i13-1",
+   "fonte": "slide 13",
+   "item": "Duas vias de penetração",
+   "cards": [
+    "au-penetracao"
+   ]
+  },
+  {
+   "id": "mb58-s14-i14-1",
+   "fonte": "slide 14",
+   "item": "Hemaglutinina promove a endocitose do influenza",
+   "cards": [
+    "ak1516323635408"
+   ]
+  },
+  {
+   "id": "mb58-s15-i15-1",
+   "fonte": "slide 15",
+   "item": "gp41 do HIV medeia a fusão",
+   "cards": [
+    "ak1502066667272"
+   ]
+  },
+  {
+   "id": "mb58-s16",
+   "fonte": "slide 16",
+   "item": "Lâmina 16: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s17-i17-1",
+   "fonte": "slide 17",
+   "item": "Desnudamento: três locais",
+   "cards": [
+    "au-desnud"
+   ]
+  },
+  {
+   "id": "mb58-s18",
+   "fonte": "slide 18",
+   "item": "Lâmina 18: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s19-i19-1",
+   "fonte": "slide 19",
+   "item": "Desnudamento após endocitose",
+   "cards": [
+    "au-desnud"
+   ]
+  },
+  {
+   "id": "mb58-s20-i20-1",
+   "fonte": "slide 20",
+   "item": "mRNAs precoces × tardios",
+   "cards": [
+    "au-precoces"
+   ]
+  },
+  {
+   "id": "mb58-s20-i20-2",
+   "fonte": "slide 20",
+   "item": "A maioria dos vírus de DNA replica no núcleo",
+   "cards": [
+    "ak1502152021975"
+   ]
+  },
+  {
+   "id": "mb58-s20-i20-3",
+   "fonte": "slide 20",
+   "item": "Vírus de RNA em geral replicam no citoplasma",
+   "cards": [
+    "ak1516321076508"
+   ]
+  },
+  {
+   "id": "mb58-s20-i20-4",
+   "fonte": "slide 20",
+   "item": "Exceções: orthomyxovírus e retrovírus replicam no núcleo",
+   "cards": [
+    "ak1483913062659"
+   ]
+  },
+  {
+   "id": "mb58-s21",
+   "fonte": "slide 21",
+   "item": "Divisória: replicação do material genético",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s22-i22-1",
+   "fonte": "slide 22",
+   "item": "Baltimore: caminho do genoma até o mRNA",
+   "cards": [
+    "sh-1792243072244"
+   ]
+  },
+  {
+   "id": "mb58-s23-i23-1",
+   "fonte": "slide 23",
+   "item": "Polimerase, iniciador e molde",
+   "cards": [
+    "au-primers"
+   ]
+  },
+  {
+   "id": "mb58-s24-i24-1",
+   "fonte": "slide 24",
+   "item": "Primer e molde",
+   "cards": [
+    "au-primers"
+   ]
+  },
+  {
+   "id": "mb58-s25",
+   "fonte": "slide 25",
+   "item": "Forquilha de replicação do DNA celular (Biologia Molecular)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s26",
+   "fonte": "slide 26",
+   "item": "Divisória: vírus de DNA",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s27-i27-1",
+   "fonte": "slide 27",
+   "item": "DNA no núcleo",
+   "cards": [
+    "ak1502152021975"
+   ]
+  },
+  {
+   "id": "mb58-s27-i27-2",
+   "fonte": "slide 27",
+   "item": "Baltimore",
+   "cards": [
+    "sh-1792243072244"
+   ]
+  },
+  {
+   "id": "mb58-s28-i28-1",
+   "fonte": "slide 28",
+   "item": "Dependência da célula",
+   "cards": [
+    "au-pequenos-dna"
+   ]
+  },
+  {
+   "id": "mb58-s28-i28-2",
+   "fonte": "slide 28",
+   "item": "Vírus complexos codificam muitas proteínas",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s29-i29-1",
+   "fonte": "slide 29",
+   "item": "Vírus de DNA pequenos dependem da célula",
+   "cards": [
+    "au-pequenos-dna"
+   ]
+  },
+  {
+   "id": "mb58-s30-i30-1",
+   "fonte": "slide 30",
+   "item": "Proteínas virais da replicação do DNA",
+   "cards": [
+    "au-prot-dna"
+   ]
+  },
+  {
+   "id": "mb58-s31",
+   "fonte": "slide 31",
+   "item": "Diversas estruturas genômicas (esquemas de cinco vírus)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s32-i32-1",
+   "fonte": "slide 32",
+   "item": "Dois mecanismos de síntese de DNA e seus iniciadores",
+   "cards": [
+    "au-primers"
+   ]
+  },
+  {
+   "id": "mb58-s33",
+   "fonte": "slide 33",
+   "item": "Lâmina 33: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s34",
+   "fonte": "slide 34",
+   "item": "Microscopia eletrônica de papilomavírus e SV40",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s35",
+   "fonte": "slide 35",
+   "item": "Lâmina 35: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s36-i36-1",
+   "fonte": "slide 36",
+   "item": "Antígeno T: reconhece a origem e é helicase",
+   "cards": [
+    "au-polyoma-t"
+   ]
+  },
+  {
+   "id": "mb58-s37-i37-1",
+   "fonte": "slide 37",
+   "item": "Antígeno T abre a origem",
+   "cards": [
+    "au-polyoma-t"
+   ]
+  },
+  {
+   "id": "mb58-s38-i38-1",
+   "fonte": "slide 38",
+   "item": "Primase e polimerases da célula",
+   "cards": [
+    "au-polyoma-t"
+   ]
+  },
+  {
+   "id": "mb58-s39-i39-1",
+   "fonte": "slide 39",
+   "item": "Replicação do DNA pela maquinaria da célula",
+   "cards": [
+    "au-polyoma-t"
+   ]
+  },
+  {
+   "id": "mb58-s40-i40-1",
+   "fonte": "slide 40",
+   "item": "Topoisomerases relaxam o superenovelamento",
+   "cards": [
+    "au-polyoma-t"
+   ]
+  },
+  {
+   "id": "mb58-s41-i41-1",
+   "fonte": "slide 41",
+   "item": "HPV: nu, icosaédrico, DNA circular de fita dupla",
+   "cards": [
+    "ak1493398712106"
+   ]
+  },
+  {
+   "id": "mb58-s42",
+   "fonte": "slide 42",
+   "item": "Lâmina 42: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s43-i43-1",
+   "fonte": "slide 43",
+   "item": "E6 do HPV de alto risco leva à destruição de p53",
+   "cards": [
+    "ak1463105909117"
+   ]
+  },
+  {
+   "id": "mb58-s43-i43-2",
+   "fonte": "slide 43",
+   "item": "E7 do HPV de alto risco leva à destruição de Rb",
+   "cards": [
+    "ak1463105915437"
+   ]
+  },
+  {
+   "id": "mb58-s44-i44-1",
+   "fonte": "slide 44",
+   "item": "E7 induz síntese de DNA não programada",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s45-i45-1",
+   "fonte": "slide 45",
+   "item": "Funções precoces e tardias",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s45-i45-2",
+   "fonte": "slide 45",
+   "item": "Proteínas multifuncionais",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s45-i45-3",
+   "fonte": "slide 45",
+   "item": "Célula fornece a maquinaria",
+   "cards": [
+    "au-pequenos-dna"
+   ]
+  },
+  {
+   "id": "mb58-s46-i46-1",
+   "fonte": "slide 46",
+   "item": "Adenovírus: RNA pol da célula, DNA pol própria",
+   "cards": [
+    "au-adeno-pol"
+   ]
+  },
+  {
+   "id": "mb58-s47-i47-1",
+   "fonte": "slide 47",
+   "item": "Adenovírus tem genoma de DNA linear",
+   "cards": [
+    "ak1516930208305"
+   ]
+  },
+  {
+   "id": "mb58-s47-i47-2",
+   "fonte": "slide 47",
+   "item": "Adenovírus: o primer é uma proteína",
+   "cards": [
+    "au-adeno-primer"
+   ]
+  },
+  {
+   "id": "mb58-s48-i48-1",
+   "fonte": "slide 48",
+   "item": "Proteína liga dCMP e fornece 3′-OH",
+   "cards": [
+    "au-adeno-primer"
+   ]
+  },
+  {
+   "id": "mb58-s48-i48-2",
+   "fonte": "slide 48",
+   "item": "Deslocamento de fita",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s49-i49-1",
+   "fonte": "slide 49",
+   "item": "Primer proteico",
+   "cards": [
+    "au-adeno-primer"
+   ]
+  },
+  {
+   "id": "mb58-s50",
+   "fonte": "slide 50",
+   "item": "Lâmina 50: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s51-i51-1",
+   "fonte": "slide 51",
+   "item": "Herpesvírus: circulariza e replica por círculo rolante",
+   "cards": [
+    "au-herpes-circ"
+   ]
+  },
+  {
+   "id": "mb58-s52-i52-1",
+   "fonte": "slide 52",
+   "item": "Circularização por proteínas do hospedeiro",
+   "cards": [
+    "au-herpes-circ"
+   ]
+  },
+  {
+   "id": "mb58-s53-i53-1",
+   "fonte": "slide 53",
+   "item": "Círculo rolante",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s54-i54-1",
+   "fonte": "slide 54",
+   "item": "Poxvírus: único DNA vírus que replica só no citoplasma",
+   "cards": [
+    "ak1502570386887"
+   ]
+  },
+  {
+   "id": "mb58-s55-i55-1",
+   "fonte": "slide 55",
+   "item": "Poxvírus tem a própria RNA polimerase dependente de DNA",
+   "cards": [
+    "ak1502570452327"
+   ]
+  },
+  {
+   "id": "mb58-s55-i55-2",
+   "fonte": "slide 55",
+   "item": "Poxvírus: mRNAs precoces pela polimerase do vírion",
+   "cards": [
+    "au-pox-precoces"
+   ]
+  },
+  {
+   "id": "mb58-s56-i56-1",
+   "fonte": "slide 56",
+   "item": "Replicação citoplasmática",
+   "cards": [
+    "ak1502570386887"
+   ]
+  },
+  {
+   "id": "mb58-s57-i57-1",
+   "fonte": "slide 57",
+   "item": "Replicação citoplasmática",
+   "cards": [
+    "ak1502570386887"
+   ]
+  },
+  {
+   "id": "mb58-s58-i58-1",
+   "fonte": "slide 58",
+   "item": "Sem problema 5′",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s59-i59-1",
+   "fonte": "slide 59",
+   "item": "Parvoviridae: únicos vírus de DNA de fita simples",
+   "cards": [
+    "sh-1792243075743"
+   ]
+  },
+  {
+   "id": "mb58-s60",
+   "fonte": "slide 60",
+   "item": "Lâmina 60: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s61-i61-1",
+   "fonte": "slide 61",
+   "item": "Primer em grampo",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s62",
+   "fonte": "slide 62",
+   "item": "Divisória: vírus de RNA",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s63",
+   "fonte": "slide 63",
+   "item": "Lâmina 63: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s64",
+   "fonte": "slide 64",
+   "item": "Lâmina 64: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s65-i65-1",
+   "fonte": "slide 65",
+   "item": "RNA viral tem polaridade + ou −",
+   "cards": [
+    "sh-1792243072575"
+   ]
+  },
+  {
+   "id": "mb58-s65-i65-2",
+   "fonte": "slide 65",
+   "item": "RNA + tem a estrutura do mRNA",
+   "cards": [
+    "sh-1792243072820"
+   ]
+  },
+  {
+   "id": "mb58-s66-i66-1",
+   "fonte": "slide 66",
+   "item": "Polaridade do RNA e mRNA",
+   "cards": [
+    "sh-1792243072575"
+   ]
+  },
+  {
+   "id": "mb58-s67-i67-1",
+   "fonte": "slide 67",
+   "item": "Polimerase no vírion conforme o genoma",
+   "cards": [
+    "au-reo-pol"
+   ]
+  },
+  {
+   "id": "mb58-s68-i68-1",
+   "fonte": "slide 68",
+   "item": "Picornavírus fazem poliproteína clivada por protease viral",
+   "cards": [
+    "ak1506627151740"
+   ]
+  },
+  {
+   "id": "mb58-s68-i68-2",
+   "fonte": "slide 68",
+   "item": "RNA + é traduzido de imediato",
+   "cards": [
+    "sh-1792243073069"
+   ]
+  },
+  {
+   "id": "mb58-s69",
+   "fonte": "slide 69",
+   "item": "Ciclo do vírus da hepatite C (esquema)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s70-i70-1",
+   "fonte": "slide 70",
+   "item": "Orthomyxoviridae: único RNA − que replica no núcleo",
+   "cards": [
+    "ak1516320980606"
+   ]
+  },
+  {
+   "id": "mb58-s70-i70-2",
+   "fonte": "slide 70",
+   "item": "RNA − precisa virar + antes de ser usado",
+   "cards": [
+    "sh-1792243073320"
+   ]
+  },
+  {
+   "id": "mb58-s70-i70-3",
+   "fonte": "slide 70",
+   "item": "RNA − produz a própria RNA polimerase",
+   "cards": [
+    "sh-1792243073569"
+   ]
+  },
+  {
+   "id": "mb58-s71-i71-1",
+   "fonte": "slide 71",
+   "item": "Transcrição reversa: RNA → DNA",
+   "cards": [
+    "sh-1792243074070"
+   ]
+  },
+  {
+   "id": "mb58-s71-i71-2",
+   "fonte": "slide 71",
+   "item": "Retrovírus: genoma diploide",
+   "cards": [
+    "sh-1792243083345"
+   ]
+  },
+  {
+   "id": "mb58-s72-i72-1",
+   "fonte": "slide 72",
+   "item": "Retrovírus",
+   "cards": [
+    "au-retro-rt"
+   ]
+  },
+  {
+   "id": "mb58-s73-i73-1",
+   "fonte": "slide 73",
+   "item": "Retrovírus: transcriptase reversa no vírion e provírus",
+   "cards": [
+    "au-retro-rt"
+   ]
+  },
+  {
+   "id": "mb58-s73-i73-2",
+   "fonte": "slide 73",
+   "item": "env codifica gp120 e gp41",
+   "cards": [
+    "sh-1792243081124"
+   ]
+  },
+  {
+   "id": "mb58-s73-i73-3",
+   "fonte": "slide 73",
+   "item": "pol codifica transcriptase reversa, protease e integrase",
+   "cards": [
+    "sh-1792243081596"
+   ]
+  },
+  {
+   "id": "mb58-s74-i74-1",
+   "fonte": "slide 74",
+   "item": "Transcriptase reversa gera dsDNA que a integrase insere",
+   "cards": [
+    "ak1502069441823"
+   ]
+  },
+  {
+   "id": "mb58-s75-i75-1",
+   "fonte": "slide 75",
+   "item": "Transcrição reversa",
+   "cards": [
+    "au-retro-rt"
+   ]
+  },
+  {
+   "id": "mb58-s76-i76-1",
+   "fonte": "slide 76",
+   "item": "Hepatite B: DNA parcialmente de fita dupla",
+   "cards": [
+    "ak1506551550710"
+   ]
+  },
+  {
+   "id": "mb58-s77-i77-1",
+   "fonte": "slide 77",
+   "item": "No núcleo, a DNA polimerase do HBV completa a fita dupla",
+   "cards": [
+    "ak1506551774430"
+   ]
+  },
+  {
+   "id": "mb58-s77-i77-2",
+   "fonte": "slide 77",
+   "item": "Transcriptase reversa do HBV faz o DNA da progênie a partir do RNA",
+   "cards": [
+    "sh-1791984892677"
+   ]
+  },
+  {
+   "id": "mb58-s78-i78-1",
+   "fonte": "slide 78",
+   "item": "Baltimore",
+   "cards": [
+    "sh-1792243072244"
+   ]
+  },
+  {
+   "id": "mb58-s79-i79-1",
+   "fonte": "slide 79",
+   "item": "A RdRp é a peça central do complexo de replicação",
+   "cards": [
+    "ak1608910179425"
+   ]
+  },
+  {
+   "id": "mb58-s79-i79-2",
+   "fonte": "slide 79",
+   "item": "Todo vírus de RNA, menos retrovírus, codifica RdRp",
+   "cards": [
+    "au-rdrp-todos"
+   ]
+  },
+  {
+   "id": "mb58-s80-i80-1",
+   "fonte": "slide 80",
+   "item": "Vírus de RNA − e dsRNA trazem a polimerase",
+   "cards": [
+    "au-reo-pol"
+   ]
+  },
+  {
+   "id": "mb58-s80-i80-2",
+   "fonte": "slide 80",
+   "item": "Genoma RNA − sozinho não é infeccioso",
+   "cards": [
+    "sh-1792243073819"
+   ]
+  },
+  {
+   "id": "mb58-s81",
+   "fonte": "slide 81",
+   "item": "Lâmina 81: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s82",
+   "fonte": "slide 82",
+   "item": "Lâmina 82: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s83-i83-1",
+   "fonte": "slide 83",
+   "item": "Alta taxa de mutação dos vírus de RNA",
+   "cards": [
+    "au-mutacao"
+   ]
+  },
+  {
+   "id": "mb58-s83-i83-2",
+   "fonte": "slide 83",
+   "item": "Segmentados: mnemônico BOAR",
+   "cards": [
+    "ak1516321532745"
+   ]
+  },
+  {
+   "id": "mb58-s83-i83-3",
+   "fonte": "slide 83",
+   "item": "Reassortment: troca de segmentos do genoma",
+   "cards": [
+    "ak1523806216737"
+   ]
+  },
+  {
+   "id": "mb58-s83-i83-4",
+   "fonte": "slide 83",
+   "item": "Antigenic shift: reassortment de HA e NA entre espécies",
+   "cards": [
+    "ak1516323064948"
+   ]
+  },
+  {
+   "id": "mb58-s83-i83-5",
+   "fonte": "slide 83",
+   "item": "Reassortment ocorre em vírus segmentados",
+   "cards": [
+    "sh-1792243076571"
+   ]
+  },
+  {
+   "id": "mb58-s84",
+   "fonte": "slide 84",
+   "item": "Lâmina 84: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s85-i85-1",
+   "fonte": "slide 85",
+   "item": "Corpúsculos de inclusão: citoplasmáticos × nucleares",
+   "cards": [
+    "au-inclusoes"
+   ]
+  },
+  {
+   "id": "mb58-s85-i85-2",
+   "fonte": "slide 85",
+   "item": "Guarnieri: inclusões citoplasmáticas do poxvírus",
+   "cards": [
+    "ak1502570605009"
+   ]
+  },
+  {
+   "id": "mb58-s85-i85-3",
+   "fonte": "slide 85",
+   "item": "Corpos de Negri: inclusões citoplasmáticas da raiva",
+   "cards": [
+    "ak1516475620459"
+   ]
+  },
+  {
+   "id": "mb58-s85-i85-4",
+   "fonte": "slide 85",
+   "item": "Corpos de Cowdry: inclusões nucleares dos herpesvírus",
+   "cards": [
+    "ak1516475827100"
+   ]
+  },
+  {
+   "id": "mb58-s85-i85-5",
+   "fonte": "slide 85",
+   "item": "Inclusões: acúmulos de proteínas ou partículas no local de montagem",
+   "cards": [
+    "sh-1791984887454"
+   ]
+  },
+  {
+   "id": "mb58-s86-i86-1",
+   "fonte": "slide 86",
+   "item": "Inclusões",
+   "cards": [
+    "au-inclusoes"
+   ]
+  },
+  {
+   "id": "mb58-s87-i87-1",
+   "fonte": "slide 87",
+   "item": "Formas de liberação do vírus",
+   "cards": [
+    "au-liberacao"
+   ]
+  },
+  {
+   "id": "mb58-s87-i87-2",
+   "fonte": "slide 87",
+   "item": "Sincícios: células multinucleadas por fusão",
+   "cards": [
+    "sh-1791984888354"
+   ]
+  },
+  {
+   "id": "mb58-s88-i88-1",
+   "fonte": "slide 88",
+   "item": "Envelope vem da membrana da célula",
+   "cards": [
+    "sh-1792243082169"
+   ]
+  },
+  {
+   "id": "mb58-s89-i89-1",
+   "fonte": "slide 89",
+   "item": "Brotamento",
+   "cards": [
+    "sh-1792243082169"
+   ]
+  },
+  {
+   "id": "mb58-s90",
+   "fonte": "slide 90",
+   "item": "Lâmina 90: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s91-i91-1",
+   "fonte": "slide 91",
+   "item": "Resumo: polimerase celular × viral nos vírus de DNA",
+   "cards": [
+    "au-resumo-dna"
+   ]
+  },
+  {
+   "id": "mb58-s92",
+   "fonte": "slide 92",
+   "item": "Agradecimento",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s93",
+   "fonte": "slide 93",
+   "item": "Capa: Antivirais",
+   "cards": [],
+   "excluido": "capa sem conteúdo"
+  },
+  {
+   "id": "mb58-s94",
+   "fonte": "slide 94",
+   "item": "Lâmina 94: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s95-i95-1",
+   "fonte": "slide 95",
+   "item": "Pontos do ciclo onde o antiviral age",
+   "cards": [
+    "au-antiv-mec"
+   ]
+  },
+  {
+   "id": "mb58-s96-i96-1",
+   "fonte": "slide 96",
+   "item": "Etapas do ciclo",
+   "cards": [
+    "au-etapas"
+   ]
+  },
+  {
+   "id": "mb58-s97-i97-1",
+   "fonte": "slide 97",
+   "item": "Alvos dos antivirais no ciclo",
+   "cards": [
+    "au-antiv-mec"
+   ]
+  },
+  {
+   "id": "mb58-s98-i98-1",
+   "fonte": "slide 98",
+   "item": "Alvos dos antivirais no ciclo",
+   "cards": [
+    "au-antiv-mec"
+   ]
+  },
+  {
+   "id": "mb58-s99-i99-1",
+   "fonte": "slide 99",
+   "item": "Alvos dos antivirais no ciclo",
+   "cards": [
+    "au-antiv-mec"
+   ]
+  },
+  {
+   "id": "mb58-s100",
+   "fonte": "slide 100",
+   "item": "Divisória: inibidores de adsorção e fusão",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s101-i101-1",
+   "fonte": "slide 101",
+   "item": "Fusão como alvo",
+   "cards": [
+    "ak1506806715774"
+   ]
+  },
+  {
+   "id": "mb58-s102-i102-1",
+   "fonte": "slide 102",
+   "item": "Enfuvirtida liga gp41 e impede a fusão",
+   "cards": [
+    "ak1506806715774"
+   ]
+  },
+  {
+   "id": "mb58-s103-i103-1",
+   "fonte": "slide 103",
+   "item": "Maraviroque inibe a ligação da gp120 ao CCR5",
+   "cards": [
+    "ak1506806433678"
+   ]
+  },
+  {
+   "id": "mb58-s104-i104-1",
+   "fonte": "slide 104",
+   "item": "Canal M2 garante o pH para o desnudamento do influenza",
+   "cards": [
+    "ak1516324096049"
+   ]
+  },
+  {
+   "id": "mb58-s105-i105-1",
+   "fonte": "slide 105",
+   "item": "Amantadina e rimantadina inibem o canal M2 do influenza A",
+   "cards": [
+    "ak1516324301529"
+   ]
+  },
+  {
+   "id": "mb58-s106",
+   "fonte": "slide 106",
+   "item": "Divisória: inibidores das polimerases virais",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s107-i107-1",
+   "fonte": "slide 107",
+   "item": "Inibidores de polimerase: só para vírus com polimerase própria",
+   "cards": [
+    "au-antiv-pol-propria"
+   ]
+  },
+  {
+   "id": "mb58-s108-i108-1",
+   "fonte": "slide 108",
+   "item": "Nucleosídeo = base + açúcar",
+   "cards": [
+    "ak1467683788745"
+   ]
+  },
+  {
+   "id": "mb58-s108-i108-2",
+   "fonte": "slide 108",
+   "item": "Nucleotídeo = base + açúcar + fosfato",
+   "cards": [
+    "ak1467683795991"
+   ]
+  },
+  {
+   "id": "mb58-s109-i109-1",
+   "fonte": "slide 109",
+   "item": "Aciclovir, famciclovir e valaciclovir são análogos da guanosina",
+   "cards": [
+    "ak1506723403021"
+   ]
+  },
+  {
+   "id": "mb58-s110-i110-1",
+   "fonte": "slide 110",
+   "item": "NRTIs e análogos",
+   "cards": [
+    "ak1506784318198"
+   ]
+  },
+  {
+   "id": "mb58-s111-i111-1",
+   "fonte": "slide 111",
+   "item": "Timidina quinase viral monofosforila o aciclovir",
+   "cards": [
+    "ak1506723704374"
+   ]
+  },
+  {
+   "id": "mb58-s111-i111-2",
+   "fonte": "slide 111",
+   "item": "Aciclovir trifosfato entra no DNA viral e inibe a polimerase",
+   "cards": [
+    "ak1506724128411"
+   ]
+  },
+  {
+   "id": "mb58-s111-i111-3",
+   "fonte": "slide 111",
+   "item": "Resistência ao aciclovir: timidina quinase mutada ou ausente",
+   "cards": [
+    "ak1403635898739"
+   ]
+  },
+  {
+   "id": "mb58-s111-i111-4",
+   "fonte": "slide 111",
+   "item": "Sem timidina quinase viral, o aciclovir não age em CMV e EBV",
+   "cards": [
+    "ak1506724515933"
+   ]
+  },
+  {
+   "id": "mb58-s112-i112-1",
+   "fonte": "slide 112",
+   "item": "Fosforilação dos análogos",
+   "cards": [
+    "ak1506784514467"
+   ]
+  },
+  {
+   "id": "mb58-s113",
+   "fonte": "slide 113",
+   "item": "Divisória: inibidores da DNA polimerase de herpesvírus",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s114-i114-1",
+   "fonte": "slide 114",
+   "item": "Replicação de herpesvírus",
+   "cards": [
+    "au-prot-dna"
+   ]
+  },
+  {
+   "id": "mb58-s115-i115-1",
+   "fonte": "slide 115",
+   "item": "Ativação do aciclovir",
+   "cards": [
+    "ak1506723704374"
+   ]
+  },
+  {
+   "id": "mb58-s116",
+   "fonte": "slide 116",
+   "item": "Lâmina 116: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s117-i117-1",
+   "fonte": "slide 117",
+   "item": "Cidofovir e foscarnet não precisam de timidina quinase",
+   "cards": [
+    "ak1506724662638"
+   ]
+  },
+  {
+   "id": "mb58-s117-i117-2",
+   "fonte": "slide 117",
+   "item": "Foscarnet liga o sítio do pirofosfato da polimerase",
+   "cards": [
+    "ak1403636336526"
+   ]
+  },
+  {
+   "id": "mb58-s118",
+   "fonte": "slide 118",
+   "item": "Divisória: inibidores da DNA polimerase de retrovírus",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s119-i119-1",
+   "fonte": "slide 119",
+   "item": "Inibidores da transcriptase reversa impedem o RNA virar DNA",
+   "cards": [
+    "ak1506784777103"
+   ]
+  },
+  {
+   "id": "mb58-s119-i119-2",
+   "fonte": "slide 119",
+   "item": "NRTIs não têm hidroxila 3′",
+   "cards": [
+    "ak1506784318198"
+   ]
+  },
+  {
+   "id": "mb58-s120-i120-1",
+   "fonte": "slide 120",
+   "item": "Tenofovir é nucleotídeo, não nucleosídeo",
+   "cards": [
+    "ak1506785118508"
+   ]
+  },
+  {
+   "id": "mb58-s121",
+   "fonte": "slide 121",
+   "item": "Lâmina 121: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s122-i122-1",
+   "fonte": "slide 122",
+   "item": "NRTIs terminam a cadeia de DNA precocemente",
+   "cards": [
+    "ak1506784353867"
+   ]
+  },
+  {
+   "id": "mb58-s122-i122-2",
+   "fonte": "slide 122",
+   "item": "A maioria dos NRTIs precisa ser fosforilada",
+   "cards": [
+    "ak1506784514467"
+   ]
+  },
+  {
+   "id": "mb58-s123-i123-1",
+   "fonte": "slide 123",
+   "item": "NNRTIs ligam a transcriptase reversa em sítio diferente do NRTI",
+   "cards": [
+    "ak1506789392960"
+   ]
+  },
+  {
+   "id": "mb58-s123-i123-2",
+   "fonte": "slide 123",
+   "item": "NNRTIs não precisam de fosforilação",
+   "cards": [
+    "ak1506789263570"
+   ]
+  },
+  {
+   "id": "mb58-s124",
+   "fonte": "slide 124",
+   "item": "Lâmina 124: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s125",
+   "fonte": "slide 125",
+   "item": "Divisória: inibidores da RNA polimerase de flavivírus",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s126-i126-1",
+   "fonte": "slide 126",
+   "item": "NS5B",
+   "cards": [
+    "ak1461797689978"
+   ]
+  },
+  {
+   "id": "mb58-s127-i127-1",
+   "fonte": "slide 127",
+   "item": "Sofosbuvir é um análogo de nucleotídeo que inibe a NS5B do HCV",
+   "cards": [
+    "ak1461797689978"
+   ]
+  },
+  {
+   "id": "mb58-s127-i127-2",
+   "fonte": "slide 127",
+   "item": "Ribavirina é um análogo da guanosina que inibe a IMP desidrogenase",
+   "cards": [
+    "ak1514740864172"
+   ]
+  },
+  {
+   "id": "mb58-s128",
+   "fonte": "slide 128",
+   "item": "Inibidores não análogos da NS5B (estruturas químicas)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s129",
+   "fonte": "slide 129",
+   "item": "Sítios de ligação dos inibidores da replicase (estrutura cristalográfica)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s130",
+   "fonte": "slide 130",
+   "item": "Divisória: inibidores de outras enzimas virais",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s131-i131-1",
+   "fonte": "slide 131",
+   "item": "Qual enzima integra o dsDNA do HIV ao genoma da célula? Integrase",
+   "cards": [
+    "ak1506807161520"
+   ]
+  },
+  {
+   "id": "mb58-s131-i131-2",
+   "fonte": "slide 131",
+   "item": "Inibidores da integrase bloqueiam a inserção do dsDNA no genoma",
+   "cards": [
+    "ak1506807835841"
+   ]
+  },
+  {
+   "id": "mb58-s132",
+   "fonte": "slide 132",
+   "item": "Inibidores experimentais de helicase-primase de herpesvírus",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s133",
+   "fonte": "slide 133",
+   "item": "Inibidores experimentais da interação proteica (ribonucleotídeo redutase)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s134-i134-1",
+   "fonte": "slide 134",
+   "item": "Zanamivir e oseltamivir inibem a neuraminidase do influenza A e B",
+   "cards": [
+    "ak1516324778471"
+   ]
+  },
+  {
+   "id": "mb58-s135-i135-1",
+   "fonte": "slide 135",
+   "item": "Neuraminidase cliva a ligação entre HA e ácido siálico",
+   "cards": [
+    "ak1516323747313"
+   ]
+  },
+  {
+   "id": "mb58-s135-i135-2",
+   "fonte": "slide 135",
+   "item": "Neuraminidase libera o vírion maduro",
+   "cards": [
+    "sh-1792243080522"
+   ]
+  },
+  {
+   "id": "mb58-s135-i135-3",
+   "fonte": "slide 135",
+   "item": "Hemaglutinina liga o ácido siálico",
+   "cards": [
+    "sh-1792243080096"
+   ]
+  },
+  {
+   "id": "mb58-s136",
+   "fonte": "slide 136",
+   "item": "Lâmina 136: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s137-i137-1",
+   "fonte": "slide 137",
+   "item": "Inibidores da protease bloqueiam o corte das proteínas virais",
+   "cards": [
+    "ak1502070156173"
+   ]
+  },
+  {
+   "id": "mb58-s138-i138-1",
+   "fonte": "slide 138",
+   "item": "Inibidores da protease impedem o vírion maduro a partir de poliproteínas",
+   "cards": [
+    "ak1506795652147"
+   ]
+  },
+  {
+   "id": "mb58-s139-i139-1",
+   "fonte": "slide 139",
+   "item": "Protease na maturação",
+   "cards": [
+    "ak1502070156173"
+   ]
+  },
+  {
+   "id": "mb58-s140-i140-1",
+   "fonte": "slide 140",
+   "item": "Inibidores de protease",
+   "cards": [
+    "ak1506795652147"
+   ]
+  },
+  {
+   "id": "mb58-s141",
+   "fonte": "slide 141",
+   "item": "Lâmina 141: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s142",
+   "fonte": "slide 142",
+   "item": "Lâmina 142: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s143-i143-1",
+   "fonte": "slide 143",
+   "item": "Alvos dos antivirais no ciclo",
+   "cards": [
+    "au-antiv-mec"
+   ]
+  },
+  {
+   "id": "mb58-s144",
+   "fonte": "slide 144",
+   "item": "Divisória: outros inibidores",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s145",
+   "fonte": "slide 145",
+   "item": "Favipiravir: antiviral de amplo espectro",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s146",
+   "fonte": "slide 146",
+   "item": "LJ001: tabela de atividade",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s147",
+   "fonte": "slide 147",
+   "item": "LJ001: micrografias",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s148",
+   "fonte": "slide 148",
+   "item": "Antiviral de amplo espectro: esquema",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s149",
+   "fonte": "slide 149",
+   "item": "Divisória: duas histórias de sucesso",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s150-i150-1",
+   "fonte": "slide 150",
+   "item": "Alvos dos antivirais de ação direta",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s151-i151-1",
+   "fonte": "slide 151",
+   "item": "Hepatite C é tratada com inibidores de protease e de polimerase",
+   "cards": [
+    "ak1506631004332"
+   ]
+  },
+  {
+   "id": "mb58-s152",
+   "fonte": "slide 152",
+   "item": "Tabela de fármacos contra proteínas do HCV",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s153",
+   "fonte": "slide 153",
+   "item": "Lâmina 153: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s154-i154-1",
+   "fonte": "slide 154",
+   "item": "Cura com antivirais de ação direta",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s155",
+   "fonte": "slide 155",
+   "item": "Divisória: HAART",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s156-i156-1",
+   "fonte": "slide 156",
+   "item": "HAART usa no mínimo três fármacos para evitar resistência",
+   "cards": [
+    "ak1506783017772"
+   ]
+  },
+  {
+   "id": "mb58-s157-i157-1",
+   "fonte": "slide 157",
+   "item": "O alicerce do HAART são os NRTIs",
+   "cards": [
+    "ak1502069492941"
+   ]
+  },
+  {
+   "id": "mb58-s158-i158-1",
+   "fonte": "slide 158",
+   "item": "Classes do HAART",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s159",
+   "fonte": "slide 159",
+   "item": "Tabela de aprovação de antirretrovirais",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s160",
+   "fonte": "slide 160",
+   "item": "Linha do tempo de aprovação de fármacos para o HIV",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s161-i161-1",
+   "fonte": "slide 161",
+   "item": "Três fármacos evitam progressão e resistência",
+   "cards": [
+    "ak1506783017772"
+   ]
+  },
+  {
+   "id": "mb58-s162",
+   "fonte": "slide 162",
+   "item": "Lâmina 162: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s163-i163-1",
+   "fonte": "slide 163",
+   "item": "HAART: dois NRTIs mais NNRTI, inibidor de protease ou da integrase",
+   "cards": [
+    "ak1506783163535"
+   ]
+  },
+  {
+   "id": "mb58-s164",
+   "fonte": "slide 164",
+   "item": "Divisória: por que apenas duas histórias de sucesso",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s165",
+   "fonte": "slide 165",
+   "item": "Lâmina 165: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s166-i166-1",
+   "fonte": "slide 166",
+   "item": "Desenvolvimento lento e caro",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s167-i167-1",
+   "fonte": "slide 167",
+   "item": "Desenvolvimento lento e caro",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s168-i168-1",
+   "fonte": "slide 168",
+   "item": "Poucos antivirais",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s169-i169-1",
+   "fonte": "slide 169",
+   "item": "Poucos antivirais",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s170",
+   "fonte": "slide 170",
+   "item": "Divisória: e a COVID-19?",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s171",
+   "fonte": "slide 171",
+   "item": "Fármacos para COVID-19: camostat, cloroquina, remdesivir, lopinavir",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s172-i172-1",
+   "fonte": "slide 172",
+   "item": "Remdesivir",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s172-i172-2",
+   "fonte": "slide 172",
+   "item": "Tocilizumabe",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s173",
+   "fonte": "slide 173",
+   "item": "Lâmina 173: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s174",
+   "fonte": "slide 174",
+   "item": "Lâmina 174: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s175",
+   "fonte": "slide 175",
+   "item": "Lâmina 175: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s176-i176-1",
+   "fonte": "slide 176",
+   "item": "Interferon α e β: glicoproteínas que preparam as células vizinhas",
+   "cards": [
+    "sh-1791984890453"
+   ]
+  },
+  {
+   "id": "mb58-s177-i177-1",
+   "fonte": "slide 177",
+   "item": "Alvos dos antivirais no ciclo",
+   "cards": [
+    "au-antiv-mec"
+   ]
+  },
+  {
+   "id": "mb58-s178",
+   "fonte": "slide 178",
+   "item": "Agradecimento",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s179",
+   "fonte": "slide 179",
+   "item": "Capa (repete a lâmina 1)",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s180-b180-1",
+   "fonte": "slide 180",
+   "item": "Vírions são montados, não crescem nem se dividem",
+   "cards": [
+    "sh-1792243070220"
+   ]
+  },
+  {
+   "id": "mb58-s180-b180-2",
+   "fonte": "slide 180",
+   "item": "Vírus sem atividade metabólica",
+   "cards": [
+    "sh-1792243070545"
+   ]
+  },
+  {
+   "id": "mb58-s181-b181-1",
+   "fonte": "slide 181",
+   "item": "Fases do ciclo",
+   "cards": [
+    "au-etapas"
+   ]
+  },
+  {
+   "id": "mb58-s182-b182-1",
+   "fonte": "slide 182",
+   "item": "As etapas do ciclo de replicação, em ordem",
+   "cards": [
+    "au-etapas"
+   ]
+  },
+  {
+   "id": "mb58-s183-b183-1",
+   "fonte": "slide 183",
+   "item": "Glicoproteínas do envelope: ligam a célula e são antígenos",
+   "cards": [
+    "sh-1792243082496"
+   ]
+  },
+  {
+   "id": "mb58-s184-b184-1",
+   "fonte": "slide 184",
+   "item": "gp120 é a glicoproteína externa do HIV",
+   "cards": [
+    "ak1502066766747"
+   ]
+  },
+  {
+   "id": "mb58-s184-b184-2",
+   "fonte": "slide 184",
+   "item": "gp120 permite a ligação do HIV ao CD4",
+   "cards": [
+    "ak1506805847290"
+   ]
+  },
+  {
+   "id": "mb58-s184-b184-3",
+   "fonte": "slide 184",
+   "item": "Início da infecção: HIV entra em macrófagos por CCR5",
+   "cards": [
+    "ak1502068331161"
+   ]
+  },
+  {
+   "id": "mb58-s184-b184-4",
+   "fonte": "slide 184",
+   "item": "Fase tardia: HIV entra em linfócitos T por CXCR4",
+   "cards": [
+    "ak1502068440036"
+   ]
+  },
+  {
+   "id": "mb58-s184-b184-5",
+   "fonte": "slide 184",
+   "item": "Rinovírus entra pelo ICAM-1",
+   "cards": [
+    "ak1516222322469"
+   ]
+  },
+  {
+   "id": "mb58-s184-b184-6",
+   "fonte": "slide 184",
+   "item": "gp120 liga CD4 e os correceptores CCR5 e CXCR4",
+   "cards": [
+    "sh-1792166995490"
+   ]
+  },
+  {
+   "id": "mb58-s185-b185-1",
+   "fonte": "slide 185",
+   "item": "Penetração: endocitose, translocação ou fusão",
+   "cards": [
+    "au-penetracao"
+   ]
+  },
+  {
+   "id": "mb58-s186-b186-1",
+   "fonte": "slide 186",
+   "item": "Duas vias de penetração",
+   "cards": [
+    "au-penetracao"
+   ]
+  },
+  {
+   "id": "mb58-s187-b187-1",
+   "fonte": "slide 187",
+   "item": "Desnudamento: três locais",
+   "cards": [
+    "au-desnud"
+   ]
+  },
+  {
+   "id": "mb58-s188-b188-1",
+   "fonte": "slide 188",
+   "item": "Endocitose como via de entrada",
+   "cards": [
+    "au-penetracao"
+   ]
+  },
+  {
+   "id": "mb58-s189",
+   "fonte": "slide 189",
+   "item": "Lâmina 18: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 18)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s190-b190-1",
+   "fonte": "slide 190",
+   "item": "mRNAs precoces × tardios",
+   "cards": [
+    "au-precoces"
+   ]
+  },
+  {
+   "id": "mb58-s190-b190-2",
+   "fonte": "slide 190",
+   "item": "A maioria dos vírus de DNA replica no núcleo",
+   "cards": [
+    "ak1502152021975"
+   ]
+  },
+  {
+   "id": "mb58-s190-b190-3",
+   "fonte": "slide 190",
+   "item": "Vírus de RNA em geral replicam no citoplasma",
+   "cards": [
+    "ak1516321076508"
+   ]
+  },
+  {
+   "id": "mb58-s190-b190-4",
+   "fonte": "slide 190",
+   "item": "Exceções: orthomyxovírus e retrovírus replicam no núcleo",
+   "cards": [
+    "ak1483913062659"
+   ]
+  },
+  {
+   "id": "mb58-s191-b191-1",
+   "fonte": "slide 191",
+   "item": "Baltimore: caminho do genoma até o mRNA",
+   "cards": [
+    "sh-1792243072244"
+   ]
+  },
+  {
+   "id": "mb58-s192",
+   "fonte": "slide 192",
+   "item": "Divisória: vírus de DNA (repete a lâmina 26)",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s193-b193-1",
+   "fonte": "slide 193",
+   "item": "DNA no núcleo",
+   "cards": [
+    "ak1502152021975"
+   ]
+  },
+  {
+   "id": "mb58-s193-b193-2",
+   "fonte": "slide 193",
+   "item": "Baltimore",
+   "cards": [
+    "sh-1792243072244"
+   ]
+  },
+  {
+   "id": "mb58-s194",
+   "fonte": "slide 194",
+   "item": "Diversas estruturas genômicas (esquemas de cinco vírus) (repete a lâmina 31)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s195-b195-1",
+   "fonte": "slide 195",
+   "item": "Dois mecanismos de síntese de DNA e seus iniciadores",
+   "cards": [
+    "au-primers"
+   ]
+  },
+  {
+   "id": "mb58-s196",
+   "fonte": "slide 196",
+   "item": "Lâmina 33: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 33)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s197-b197-1",
+   "fonte": "slide 197",
+   "item": "Vírus de DNA pequenos dependem da célula",
+   "cards": [
+    "au-pequenos-dna"
+   ]
+  },
+  {
+   "id": "mb58-s198-b198-1",
+   "fonte": "slide 198",
+   "item": "Proteínas virais da replicação do DNA",
+   "cards": [
+    "au-prot-dna"
+   ]
+  },
+  {
+   "id": "mb58-s199-b199-1",
+   "fonte": "slide 199",
+   "item": "DNA no núcleo",
+   "cards": [
+    "ak1502152021975"
+   ]
+  },
+  {
+   "id": "mb58-s199-b199-2",
+   "fonte": "slide 199",
+   "item": "Baltimore",
+   "cards": [
+    "sh-1792243072244"
+   ]
+  },
+  {
+   "id": "mb58-s200",
+   "fonte": "slide 200",
+   "item": "Lâmina 35: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 35)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s201-b201-1",
+   "fonte": "slide 201",
+   "item": "Antígeno T: reconhece a origem e é helicase",
+   "cards": [
+    "au-polyoma-t"
+   ]
+  },
+  {
+   "id": "mb58-s202-b202-1",
+   "fonte": "slide 202",
+   "item": "Topoisomerases relaxam o superenovelamento",
+   "cards": [
+    "au-polyoma-t"
+   ]
+  },
+  {
+   "id": "mb58-s203-b203-1",
+   "fonte": "slide 203",
+   "item": "Adenovírus tem genoma de DNA linear",
+   "cards": [
+    "ak1516930208305"
+   ]
+  },
+  {
+   "id": "mb58-s203-b203-2",
+   "fonte": "slide 203",
+   "item": "Adenovírus: o primer é uma proteína",
+   "cards": [
+    "au-adeno-primer"
+   ]
+  },
+  {
+   "id": "mb58-s204-b204-1",
+   "fonte": "slide 204",
+   "item": "Proteína liga dCMP e fornece 3′-OH",
+   "cards": [
+    "au-adeno-primer"
+   ]
+  },
+  {
+   "id": "mb58-s204-b204-2",
+   "fonte": "slide 204",
+   "item": "Deslocamento de fita",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s205-b205-1",
+   "fonte": "slide 205",
+   "item": "Herpesvírus: circulariza e replica por círculo rolante",
+   "cards": [
+    "au-herpes-circ"
+   ]
+  },
+  {
+   "id": "mb58-s206-b206-1",
+   "fonte": "slide 206",
+   "item": "Circularização por proteínas do hospedeiro",
+   "cards": [
+    "au-herpes-circ"
+   ]
+  },
+  {
+   "id": "mb58-s207-b207-1",
+   "fonte": "slide 207",
+   "item": "Círculo rolante",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s208-b208-1",
+   "fonte": "slide 208",
+   "item": "Poxvírus: único DNA vírus que replica só no citoplasma",
+   "cards": [
+    "ak1502570386887"
+   ]
+  },
+  {
+   "id": "mb58-s209-b209-1",
+   "fonte": "slide 209",
+   "item": "Poxvírus tem a própria RNA polimerase dependente de DNA",
+   "cards": [
+    "ak1502570452327"
+   ]
+  },
+  {
+   "id": "mb58-s209-b209-2",
+   "fonte": "slide 209",
+   "item": "Poxvírus: mRNAs precoces pela polimerase do vírion",
+   "cards": [
+    "au-pox-precoces"
+   ]
+  },
+  {
+   "id": "mb58-s210-b210-1",
+   "fonte": "slide 210",
+   "item": "Replicação citoplasmática",
+   "cards": [
+    "ak1502570386887"
+   ]
+  },
+  {
+   "id": "mb58-s211-b211-1",
+   "fonte": "slide 211",
+   "item": "Sem problema 5′",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s212-b212-1",
+   "fonte": "slide 212",
+   "item": "Parvoviridae: únicos vírus de DNA de fita simples",
+   "cards": [
+    "sh-1792243075743"
+   ]
+  },
+  {
+   "id": "mb58-s213",
+   "fonte": "slide 213",
+   "item": "Lâmina 60: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 60)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s214-b214-1",
+   "fonte": "slide 214",
+   "item": "Primer em grampo",
+   "cards": [],
+   "excluido": "cortado no enxugamento de 21/10 (ciclo básico e deck enxuto; FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-s215",
+   "fonte": "slide 215",
+   "item": "Divisória: vírus de RNA (repete a lâmina 62)",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-s216",
+   "fonte": "slide 216",
+   "item": "Lâmina 63: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 63)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s217-b217-1",
+   "fonte": "slide 217",
+   "item": "RNA viral tem polaridade + ou −",
+   "cards": [
+    "sh-1792243072575"
+   ]
+  },
+  {
+   "id": "mb58-s217-b217-2",
+   "fonte": "slide 217",
+   "item": "RNA + tem a estrutura do mRNA",
+   "cards": [
+    "sh-1792243072820"
+   ]
+  },
+  {
+   "id": "mb58-s218-b218-1",
+   "fonte": "slide 218",
+   "item": "Polaridade do RNA e mRNA",
+   "cards": [
+    "sh-1792243072575"
+   ]
+  },
+  {
+   "id": "mb58-s219-b219-1",
+   "fonte": "slide 219",
+   "item": "Polimerase no vírion conforme o genoma",
+   "cards": [
+    "au-reo-pol"
+   ]
+  },
+  {
+   "id": "mb58-s220",
+   "fonte": "slide 220",
+   "item": "Lâmina 64: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 64)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s221-b221-1",
+   "fonte": "slide 221",
+   "item": "Picornavírus fazem poliproteína clivada por protease viral",
+   "cards": [
+    "ak1506627151740"
+   ]
+  },
+  {
+   "id": "mb58-s221-b221-2",
+   "fonte": "slide 221",
+   "item": "RNA + é traduzido de imediato",
+   "cards": [
+    "sh-1792243073069"
+   ]
+  },
+  {
+   "id": "mb58-s222-b222-1",
+   "fonte": "slide 222",
+   "item": "Orthomyxoviridae: único RNA − que replica no núcleo",
+   "cards": [
+    "ak1516320980606"
+   ]
+  },
+  {
+   "id": "mb58-s222-b222-2",
+   "fonte": "slide 222",
+   "item": "RNA − precisa virar + antes de ser usado",
+   "cards": [
+    "sh-1792243073320"
+   ]
+  },
+  {
+   "id": "mb58-s222-b222-3",
+   "fonte": "slide 222",
+   "item": "RNA − produz a própria RNA polimerase",
+   "cards": [
+    "sh-1792243073569"
+   ]
+  },
+  {
+   "id": "mb58-s223-b223-1",
+   "fonte": "slide 223",
+   "item": "Transcrição reversa: RNA → DNA",
+   "cards": [
+    "sh-1792243074070"
+   ]
+  },
+  {
+   "id": "mb58-s223-b223-2",
+   "fonte": "slide 223",
+   "item": "Retrovírus: genoma diploide",
+   "cards": [
+    "sh-1792243083345"
+   ]
+  },
+  {
+   "id": "mb58-s224-b224-1",
+   "fonte": "slide 224",
+   "item": "A RdRp é a peça central do complexo de replicação",
+   "cards": [
+    "ak1608910179425"
+   ]
+  },
+  {
+   "id": "mb58-s224-b224-2",
+   "fonte": "slide 224",
+   "item": "Todo vírus de RNA, menos retrovírus, codifica RdRp",
+   "cards": [
+    "au-rdrp-todos"
+   ]
+  },
+  {
+   "id": "mb58-s225-b225-1",
+   "fonte": "slide 225",
+   "item": "Vírus de RNA − e dsRNA trazem a polimerase",
+   "cards": [
+    "au-reo-pol"
+   ]
+  },
+  {
+   "id": "mb58-s225-b225-2",
+   "fonte": "slide 225",
+   "item": "Genoma RNA − sozinho não é infeccioso",
+   "cards": [
+    "sh-1792243073819"
+   ]
+  },
+  {
+   "id": "mb58-s226",
+   "fonte": "slide 226",
+   "item": "Lâmina 81: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 81)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s227",
+   "fonte": "slide 227",
+   "item": "Lâmina 82: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 82)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s228",
+   "fonte": "slide 228",
+   "item": "Ciclo do vírus da hepatite C (esquema) (repete a lâmina 69)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s229-b229-1",
+   "fonte": "slide 229",
+   "item": "Transcrição reversa: RNA → DNA",
+   "cards": [
+    "sh-1792243074070"
+   ]
+  },
+  {
+   "id": "mb58-s229-b229-2",
+   "fonte": "slide 229",
+   "item": "Retrovírus: genoma diploide",
+   "cards": [
+    "sh-1792243083345"
+   ]
+  },
+  {
+   "id": "mb58-s230-b230-1",
+   "fonte": "slide 230",
+   "item": "Transcrição reversa: RNA → DNA",
+   "cards": [
+    "sh-1792243074070"
+   ]
+  },
+  {
+   "id": "mb58-s230-b230-2",
+   "fonte": "slide 230",
+   "item": "Retrovírus: genoma diploide",
+   "cards": [
+    "sh-1792243083345"
+   ]
+  },
+  {
+   "id": "mb58-s231-b231-1",
+   "fonte": "slide 231",
+   "item": "Retrovírus",
+   "cards": [
+    "au-retro-rt"
+   ]
+  },
+  {
+   "id": "mb58-s232-b232-1",
+   "fonte": "slide 232",
+   "item": "Hepatite B: DNA parcialmente de fita dupla",
+   "cards": [
+    "ak1506551550710"
+   ]
+  },
+  {
+   "id": "mb58-s233-b233-1",
+   "fonte": "slide 233",
+   "item": "No núcleo, a DNA polimerase do HBV completa a fita dupla",
+   "cards": [
+    "ak1506551774430"
+   ]
+  },
+  {
+   "id": "mb58-s233-b233-2",
+   "fonte": "slide 233",
+   "item": "Transcriptase reversa do HBV faz o DNA da progênie a partir do RNA",
+   "cards": [
+    "sh-1791984892677"
+   ]
+  },
+  {
+   "id": "mb58-s234",
+   "fonte": "slide 234",
+   "item": "Lâmina 84: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 84)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s235-b235-1",
+   "fonte": "slide 235",
+   "item": "Corpúsculos de inclusão: citoplasmáticos × nucleares",
+   "cards": [
+    "au-inclusoes"
+   ]
+  },
+  {
+   "id": "mb58-s235-b235-2",
+   "fonte": "slide 235",
+   "item": "Guarnieri: inclusões citoplasmáticas do poxvírus",
+   "cards": [
+    "ak1502570605009"
+   ]
+  },
+  {
+   "id": "mb58-s235-b235-3",
+   "fonte": "slide 235",
+   "item": "Corpos de Negri: inclusões citoplasmáticas da raiva",
+   "cards": [
+    "ak1516475620459"
+   ]
+  },
+  {
+   "id": "mb58-s235-b235-4",
+   "fonte": "slide 235",
+   "item": "Corpos de Cowdry: inclusões nucleares dos herpesvírus",
+   "cards": [
+    "ak1516475827100"
+   ]
+  },
+  {
+   "id": "mb58-s235-b235-5",
+   "fonte": "slide 235",
+   "item": "Inclusões: acúmulos de proteínas ou partículas no local de montagem",
+   "cards": [
+    "sh-1791984887454"
+   ]
+  },
+  {
+   "id": "mb58-s236-b236-1",
+   "fonte": "slide 236",
+   "item": "Inclusões",
+   "cards": [
+    "au-inclusoes"
+   ]
+  },
+  {
+   "id": "mb58-s237-b237-1",
+   "fonte": "slide 237",
+   "item": "Formas de liberação do vírus",
+   "cards": [
+    "au-liberacao"
+   ]
+  },
+  {
+   "id": "mb58-s237-b237-2",
+   "fonte": "slide 237",
+   "item": "Sincícios: células multinucleadas por fusão",
+   "cards": [
+    "sh-1791984888354"
+   ]
+  },
+  {
+   "id": "mb58-s238",
+   "fonte": "slide 238",
+   "item": "Fotografia de lise de células Vero com poliovírus (card cortado no enxugamento de 21/10; FORA_DO_RECORTE)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s239-b239-1",
+   "fonte": "slide 239",
+   "item": "Envelope vem da membrana da célula",
+   "cards": [
+    "sh-1792243082169"
+   ]
+  },
+  {
+   "id": "mb58-s240",
+   "fonte": "slide 240",
+   "item": "Lâmina 90: conteúdo cortado no enxugamento de 21/10 (detalhe específico ou clínica lateral; FORA_DO_RECORTE) (repete a lâmina 90)",
+   "cards": [],
+   "excluido": "figura, tabela ou estrutura química de exemplo; o conceito está no card da lâmina de texto vizinha ou no FORA_DO_RECORTE"
+  },
+  {
+   "id": "mb58-s241-b241-1",
+   "fonte": "slide 241",
+   "item": "Resumo: polimerase celular × viral nos vírus de DNA",
+   "cards": [
+    "au-resumo-dna"
+   ]
+  },
+  {
+   "id": "mb58-s242",
+   "fonte": "slide 242",
+   "item": "Agradecimento (repete a lâmina 92)",
+   "cards": [],
+   "excluido": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "id": "mb58-cap-j1",
+   "fonte": "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)",
+   "item": "Etapas gerais: fixação, penetração, desnudamento",
+   "cards": [
+    "au-penetracao",
+    "au-desnud"
+   ]
+  },
+  {
+   "id": "mb58-cap-j2",
+   "fonte": "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)",
+   "item": "Infecção produtiva × abortiva",
+   "cards": [
+    "au-produtiva"
+   ]
+  },
+  {
+   "id": "mb58-cap-j3",
+   "fonte": "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)",
+   "item": "Expressão dos genomas virais e síntese dos componentes",
+   "cards": [
+    "au-precoces",
+    "au-rdrp-todos"
+   ]
+  },
+  {
+   "id": "mb58-cap-j4",
+   "fonte": "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)",
+   "item": "Período de eclipse e duração do ciclo",
+   "cards": [],
+   "excluido": "detalhe do livro sem cobrança na aula nem em prova (FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-cap-j6",
+   "fonte": "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)",
+   "item": "Efeito citopático: lista de alterações da transcrição Ib (pp. 95–96)",
+   "cards": [
+    "sh-1791984887204"
+   ]
+  },
+  {
+   "id": "mb58-cap-j7",
+   "fonte": "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)",
+   "item": "Efeito lítico do poliovírus em células Vero (transcrição Ib, pp. 98–100)",
+   "cards": [
+    "sh-1791984887204"
+   ]
+  },
+  {
+   "id": "mb58-cap-j8",
+   "fonte": "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)",
+   "item": "Efeito citopático de adenovírus, herpesvírus, sarampo, vaccínia, raiva, rotavírus, HBV, VSR e HPV (transcrição Ib, pp. 101–124)",
+   "cards": [],
+   "excluido": "estudo dirigido da aula prática: aula 60 Prática de virologia (FORA_DO_RECORTE)"
+  },
+  {
+   "id": "mb58-cap-j5",
+   "fonte": "livro Jawetz, Microbiologia Médica, cap. 29 (replicação dos vírus: resumo) e cap. 30 (antivirais)",
+   "item": "Análogos e inibidores de enzimas virais",
+   "cards": [
+    "ak1506724128411",
+    "au-antiv-pol-propria"
+   ]
+  },
+  {
+   "id": "mb58-prova-p1",
+   "fonte": "Provas UC03 (índice micro-14 e busca por termo)",
+   "item": "Ciclo de multiplicação de um vírus de RNA (+) e suas etapas (2025 P3 2.1)",
+   "cards": [
+    "au-etapas",
+    "sh-1792243073069"
+   ]
+  },
+  {
+   "id": "mb58-prova-p2",
+   "fonte": "Provas UC03 (índice micro-14 e busca por termo)",
+   "item": "Proteína de replicação: RdRp, transcriptase reversa ou integrase (2024 P3 1.1)",
+   "cards": [
+    "au-rdrp-todos",
+    "au-retro-rt",
+    "ak1506807161520"
+   ]
+  },
+  {
+   "id": "mb58-prova-p3",
+   "fonte": "Provas UC03 (índice micro-14 e busca por termo)",
+   "item": "Replicação de um vírus do grupo IV com compartimento celular (2018 P3 1.3)",
+   "cards": [
+    "au-etapas",
+    "sh-1792243072820",
+    "sh-1792243073069"
+   ]
+  },
+  {
+   "id": "mb58-prova-p4",
+   "fonte": "Provas UC03 (índice micro-14 e busca por termo)",
+   "item": "Câncer por vírus como evento acidental da estratégia de replicação (2024 P4 2.13)",
+   "cards": [
+    "ak1463105909117",
+    "ak1463105915437"
+   ]
+  },
+  {
+   "id": "mb58-prova-p5",
+   "fonte": "Provas UC03 (índice micro-14 e busca por termo)",
+   "item": "Sincícios e lise celular no efeito citopático (2015 P2 4.3)",
+   "cards": [
+    "au-liberacao",
+    "sh-1791984888354"
+   ]
+  },
+  {
+   "id": "mb58-prova-p6",
+   "fonte": "Provas UC03 (índice micro-14 e busca por termo)",
+   "item": "Corpúsculos de inclusão: local de montagem (2015 P2 4.8)",
+   "cards": [
+    "au-inclusoes"
+   ]
+  },
+  {
+   "id": "mb58-prova-m1",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Sistemas de classificação: hierárquico e Baltimore",
+   "cards": [
+    "sh-1792243072244"
+   ]
+  },
+  {
+   "id": "mb58-prova-m2",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Susceptibilidade, permissividade, acessibilidade e resposta imune",
+   "cards": [
+    "au-permissiva"
+   ]
+  },
+  {
+   "id": "mb58-prova-m3",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Infecção produtiva e abortiva",
+   "cards": [
+    "au-produtiva"
+   ]
+  },
+  {
+   "id": "mb58-prova-m4",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Etapas da replicação viral",
+   "cards": [
+    "au-etapas"
+   ]
+  },
+  {
+   "id": "mb58-prova-m5",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Adsorção e penetração do HIV (gp120, gp41, CD4, correceptor)",
+   "cards": [
+    "ak1506805847290",
+    "ak1502066667272",
+    "sh-1792166995490"
+   ]
+  },
+  {
+   "id": "mb58-prova-m6",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Desnudamento do adenovírus (endossomo, dineína, NLS, poro nuclear)",
+   "cards": [
+    "au-desnud"
+   ]
+  },
+  {
+   "id": "mb58-prova-m7",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Proteínas precoces, intermediárias e tardias",
+   "cards": [
+    "au-precoces"
+   ]
+  },
+  {
+   "id": "mb58-prova-m8",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Montagem e corpúsculos de inclusão",
+   "cards": [
+    "au-inclusoes"
+   ]
+  },
+  {
+   "id": "mb58-prova-m9",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Liberação: lise, brotamento, passagem entre células, sincícios",
+   "cards": [
+    "au-liberacao"
+   ]
+  },
+  {
+   "id": "mb58-prova-m10",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Vírus de DNA: polimerases, primers e proteínas virais",
+   "cards": [
+    "au-primers",
+    "au-prot-dna",
+    "au-pequenos-dna"
+   ]
+  },
+  {
+   "id": "mb58-prova-m11",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Poliomavírus, papilomavírus (E1, E2, E6, E7), adenovírus, herpesvírus, poxvírus, parvovírus",
+   "cards": [
+    "au-polyoma-t",
+    "au-adeno-primer",
+    "au-herpes-circ"
+   ]
+  },
+  {
+   "id": "mb58-prova-m12",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Vírus de RNA: polaridade, RdRp, retrovírus, hepatite B",
+   "cards": [
+    "au-rdrp-todos",
+    "au-reo-pol",
+    "au-retro-rt",
+    "sh-1791984892677"
+   ]
+  },
+  {
+   "id": "mb58-prova-m13",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Taxa de mutação e reordenamento",
+   "cards": [
+    "au-mutacao"
+   ]
+  },
+  {
+   "id": "mb58-prova-m14",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Efeito citopático: alterações e exemplos (poliovírus, adenovírus, sarampo, herpes, vaccínia)",
+   "cards": [
+    "sh-1791984887204"
+   ]
+  },
+  {
+   "id": "mb58-prova-m15",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Antivirais: mecanismos de ação e dificuldades",
+   "cards": [
+    "au-antiv-mec"
+   ]
+  },
+  {
+   "id": "mb58-prova-m16",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Inibidores: fusão, desnudamento, polimerases, protease, brotamento, integrase",
+   "cards": [
+    "ak1506806715774",
+    "ak1516324301529",
+    "au-antiv-pol-propria",
+    "ak1502070156173",
+    "ak1516324778471",
+    "ak1506807835841"
+   ]
+  },
+  {
+   "id": "mb58-prova-m17",
+   "fonte": "Monitoria P3 de Micro, aulas 14 e 15 (multiplicação viral I e II)",
+   "item": "Aciclovir, foscarnet, NRTIs, NNRTIs e HAART",
+   "cards": [
+    "ak1506724128411",
+    "ak1403636336526",
+    "ak1506784353867",
+    "ak1506789392960"
+   ]
+  },
+  {
+   "id": "mb58-prova-g1",
+   "fonte": "Apostila guia de Micro, aula 13 (sistemas de classificação, etapas, vírus de DNA e RNA, efeito citopático, antivirais)",
+   "item": "Baltimore: grupos I a VII",
+   "cards": [
+    "sh-1792243072244"
+   ]
+  },
+  {
+   "id": "mb58-prova-g2",
+   "fonte": "Apostila guia de Micro, aula 13 (sistemas de classificação, etapas, vírus de DNA e RNA, efeito citopático, antivirais)",
+   "item": "Etapas da replicação",
+   "cards": [
+    "au-etapas"
+   ]
+  },
+  {
+   "id": "mb58-prova-g3",
+   "fonte": "Apostila guia de Micro, aula 13 (sistemas de classificação, etapas, vírus de DNA e RNA, efeito citopático, antivirais)",
+   "item": "Vírus de DNA e RNA por estratégia",
+   "cards": [
+    "au-resumo-dna"
+   ]
+  },
+  {
+   "id": "mb58-prova-g4",
+   "fonte": "Apostila guia de Micro, aula 13 (sistemas de classificação, etapas, vírus de DNA e RNA, efeito citopático, antivirais)",
+   "item": "Efeito citopático e poliovírus",
+   "cards": [
+    "sh-1791984887204"
+   ]
+  },
+  {
+   "id": "mb58-prova-g5",
+   "fonte": "Apostila guia de Micro, aula 13 (sistemas de classificação, etapas, vírus de DNA e RNA, efeito citopático, antivirais)",
+   "item": "Antivirais: amantadina, aciclovir, inibidores de protease e de brotamento, HIV",
+   "cards": [
+    "ak1516324301529",
+    "ak1506724128411",
+    "ak1502070156173",
+    "ak1516324778471"
+   ]
+  }
+ ]
+}
