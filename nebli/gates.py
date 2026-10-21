@@ -563,9 +563,20 @@ def past_errors(plan):
     big = [e["key"] for e in entries if e.get("origin") != "AnKing" and e.get("kind") in ("text", "autoral") and len(visible(e)) > MAX_TEXTO]
     hxlong = [e["key"] for e in entries if e.get("origin") == "Histology" and e.get("manter")]
     badcz = [e["key"] for e in entries if bad_cloze(e)]
+    # F-20261020-CODEX-03: "negrito" em todos os autorais, conferido card a card.
+    sem_negrito = []
+    for e in entries:
+        if e.get("origin") != "Autoral" and e.get("kind") != "autoral":
+            continue
+        txt = (e.get("fields") or {}).get("Text", "") or ""
+        clozes = CLOZE_RE.findall(txt)
+        if any(not re.search(r"<(?:b|strong)>", c, re.I) for c in clozes):
+            sem_negrito.append(e["key"])
     extra += [(f"card curto: texto visível ≤ {MAX_TEXTO} caracteres fora do AnKing" + (f" (longos: {big[:4]})" if big else ""), not big),
               ("nota do Histology entra recortada em cards de uma frase (nebli.hx_cortes)" + (f": {hxlong[:4]}" if hxlong else ""), not hxlong),
               ("cloze de palavra inteira, sem 'x ou y' nem dica '::s/::x/::related/::all/::número' fora do AnKing" + (f": {badcz[:4]}" if badcz else ""), not badcz)]
+    extra += [("[duro] toda resposta de cloze autoral está em negrito, conferida card a card"
+               + (f": {sem_negrito[:6]}" if sem_negrito else ""), not sem_negrito)]
     # F-20261003-CLAUDE-15: "tá faltando comentário": todo card tem no verso uma explicação curta, não só figura
     def back_text(e):
         f = e.get("fields") or {}
@@ -634,6 +645,7 @@ def plan_checks(run, plan):
     if pipeline_novo(run, plan):  # F-20261015-CLAUDE-06: exceções de completude não valem; vale a prova de lacuna por autoral
         out += cobertura_anking(run, plan)
         out += cores_rubrica(plan) + inducao_clozes(plan)  # F-20261016-CLAUDE-01
+        out += escopo_basico(run, plan)  # F-20261021-CLAUDE-01
     else:
         out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
     if "biologia-tecidual" in plan.get("lesson_id", ""):  # F-20261003-CLAUDE-13: aprender, não visualizar em excesso
@@ -701,6 +713,34 @@ LEGADO_V2 = {"deck-aula-uc03-pt09-lesao-celular-v2-2026-10-15", "deck-aula-uc03-
              "deck-aula-uc03-pt03-diagnostico-patologico-v2-2026-10-16"}  # entregues antes do teto
 
 
+def escopo_basico(run, plan):
+    """F-20261021-CLAUDE-01 (feedback do deck 58): (1) “isso é ciclo básico ou clínico?” = básico, declarado em escopo.json;
+    (2) clínica lateral (ajuda, mas não é da aula) ≤ 7% dos cards, ≤ 5% se só ilustra princípios, salvo clínica como tema da aula
+    (apostila e livro); (3) autoral com cloze único ≤ 50% dos autorais (excesso = escrita fraca, longe dos EXEMPLARES)."""
+    run = Path(run)
+    out = []
+    path = run / "escopo.json"
+    d = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    out.append(("[duro] escopo.json: ciclo = 'básico' com justificativa (a aula cria a base para a patologia, não o contrário)",
+                str(d.get("ciclo", "")).strip().lower() in ("básico", "basico") and len(str(d.get("justificativa", "")).strip()) >= 40))
+    entries = plan.get("entries", [])
+    n = lambda e: len(e.get("cards", [])) or 1
+    total = sum(n(e) for e in entries) + sum(v.get("n_cards", 1) for v in (plan.get("compartilhados") or {}).values())
+    lat = set(d.get("clinica_lateral", []))
+    desconhecidas = [k for k in lat if k not in {e["key"] for e in entries} and k not in (plan.get("compartilhados") or {}) and not str(k).startswith("sh-")]
+    cl = sum(n(e) for e in entries if e["key"] in lat) + sum(v.get("n_cards", 1) for k, v in (plan.get("compartilhados") or {}).items() if f"sh-{k}" in lat)
+    tema = bool(d.get("clinica_e_tema")) and len(str(d.get("motivo_tema", "")).strip()) >= 40
+    teto = 0.07 if tema else 0.05
+    share = cl / max(1, total)
+    out.append((f"[duro] clínica lateral = {share:.0%} dos cards (teto {teto:.0%}; 7% só se a clínica é tema da aula, com motivo em escopo.json)" +
+                (f"; chaves desconhecidas {desconhecidas[:3]}" if desconhecidas else ""), share <= teto and not desconhecidas and "clinica_lateral" in d))
+    aut = [e for e in entries if e.get("origin") == "Autoral"]
+    unico = [e for e in aut if len(e.get("cards", [])) <= 1]
+    out.append((f"[duro] autoral com cloze único {len(unico)}/{len(aut)} (máximo 50%: o padrão AnKing/EXEMPLARES tem mais de um cloze em boa parte)",
+                not aut or len(unico) / len(aut) <= 0.5))
+    return out
+
+
 def cobertura_anking(run, plan):
     from nebli import semantica
     run = Path(run)
@@ -766,12 +806,15 @@ def cobertura_anking(run, plan):
             ruins[k] = prob
     out.append((f"[duro] cada autoral ({len(autorais)}) prova lacuna: busca nos 3 caminhos, 3+ candidatos lidos, fonte da aula, cloze no nome decorado"
                 + (f": {dict(list(ruins.items())[:3])}" if ruins else ""), not ruins))
-    # Rechecagem dos autorais contra os anti-exemplares
+    # Rechecagem dos autorais contra as referências boas e ruins; decisão
+    # explícita sobre organizadores, como Davi pediu nos comentários de 20/10.
     rev = run / "REVISAO-AUTORAIS.md"
     rtxt = rev.read_text(encoding="utf-8") if rev.exists() else ""
     sem_rev = [e["key"] for e in autorais if not re.search(re.escape(e["key"]) + r".*par:", rtxt)]
-    out.append(("[duro] REVISAO-AUTORAIS.md: cada autoral relido contra o par dos ANTI-EXEMPLARES ('<chave> … par: …')"
+    out.append(("[duro] REVISAO-AUTORAIS.md: cada autoral relido contra EXEMPLARES e ANTI-EXEMPLARES ('<chave> … par: …')"
                 + (f": faltam {sem_rev[:4]}" if sem_rev else ""), not autorais or (rev.exists() and not sem_rev)))
+    org_decidido = bool(re.search(r"(?im)^Organizadores necessários:\s*(sim|não)\s*[—:-]\s*\S+", rtxt))
+    out.append(("[duro] revisão final responde 'Organizadores necessários: sim|não — motivo'", org_decidido))
     # Irmãos: nota de acervo entra com todos os clozes (Davi suspende)
     irm = []
     for e in entries:
@@ -861,6 +904,7 @@ def cores_rubrica(plan):
 
 def inducao_clozes(plan):
     ruins = []
+    organizadores_ruins = []
     for e in plan.get("entries", []):
         if e.get("origin") == "AnKing":
             continue
@@ -877,8 +921,21 @@ def inducao_clozes(plan):
                 dica = partes[1].strip() if len(partes) > 1 else ""
                 if not dica or (resp and dica[0].lower() != resp[0].lower()):
                     ruins.append(f"{e['key']}/c{n}"); break
+        # F-20261020-CODEX-05: organizadores são listas verticais e economizam notas
+        # usando irmãos (índices diferentes). Contrastes complementares são a exceção:
+        # usam o mesmo índice para um lado não entregar o outro.
+        if e.get("organizador"):
+            itens = _CLOZE_FULL.findall(txt)
+            indices = {n for n, _ in itens}
+            vertical = len(re.findall(r"<br\s*/?>", txt, re.I)) >= max(1, len(itens) - 1)
+            contraste = bool(e.get("contraste_complementar"))
+            indices_ok = len(indices) == 1 if contraste else len(indices) >= min(2, len(itens))
+            if len(itens) < 2 or not vertical or not indices_ok:
+                organizadores_ruins.append(e["key"])
     return [("[duro] indução: card que esconde 3+ itens tem dica com a 1ª letra em cada lacuna ({{c1::Coagulative::C…}})"
-             + (f": {ruins[:4]}" if ruins else ""), not ruins)]
+             + (f": {ruins[:4]}" if ruins else ""), not ruins),
+            ("[duro] organizador: tópicos verticais e clozes distintos; contraste complementar usa um só índice"
+             + (f": {organizadores_ruins[:4]}" if organizadores_ruins else ""), not organizadores_ruins)]
 
 
 def author_volume_supported(plan):
