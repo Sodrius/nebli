@@ -1,0 +1,14 @@
+# #AK_Step1_v12::#OME::Clinical::Internal_Medicine::Dermatology::Hypersensitivity_Skin_Eruptions (13 notas)
+1487207100136 2-RelativelyHighYield Skin prick tests or blood (ELISA) tests for allergen-specific IgE are typically used to diagnose type I hypersensitivity reactions
+1487207122541 1-HighYield Which immunoglobulin(s) mediate type II hypersensitivity reactions ? IgM and IgG
+1487207141168 1-HighYield What test is used to diagnose type II hypersensitivity reactions against RBCs ? Coombs test
+1487207160372 1-HighYield What type of hypersensitivity reaction is pemphigus vulgaris ? Type II HSR (cellular dysfunction)
+1487207175248 1-HighYield Serum sickness is an immune complex disease in which antibodies to foreign serum proteins are produced
+1487207181602 1-HighYield Serum sickness-like reactions (SSLRs) are associated with infections (e.g., HBV) and some drugs acting as haptens (e.g., penicillin)
+1487207184256 1-HighYield A(n) hapten is a small molecule that may conjugate with larger proteins to elicit an immune response
+1487207190223 1-HighYield Serum sickness presents with fever , urticaria , arthralgia , proteinuria , and lymphadenopathy 1 - 2 weeks after antigen exposure
+1487207192567 1-HighYield What type of hypersensitivity reaction is serum sickness ? Type III HSR (immune complexes)
+1487207210931 1-HighYield Which is more common , serum sickness or arthus reaction ? Serum sickness
+1487207244285 1-HighYield What type of hypersensitivity reaction is a patch test ? Type IV HSR (CD4-mediated)
+1502153970488 1-HighYield Erythema multiforme is a result of HSV infection and appears as a " target lesion " with a pink-red ring around a pale center
+1545258923097 - What is the likely diagnosis ? Erythema multiforme

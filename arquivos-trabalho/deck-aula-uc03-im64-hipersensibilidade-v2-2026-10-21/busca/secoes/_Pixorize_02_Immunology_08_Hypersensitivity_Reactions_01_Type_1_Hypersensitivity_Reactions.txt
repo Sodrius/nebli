@@ -1,0 +1,7 @@
+# #AK_Step1_v12::#Pixorize::02_Immunology::08_Hypersensitivity_Reactions::01_Type_1_Hypersensitivity_Reactions (6 notas)
+1487117263860 1-HighYield IgE cross-links when exposed to allergen , mediating type I hypersensitivity reactions
+1487206917325 1-HighYield Which type of hypersensitivity reaction is mediated by cross-linking IgE on presensitized mast cells and basophils ? Type I HSR
+1487207079363 1-HighYield Type I HSR occurs due to cross-linking of Ig E on presensitized mast cells and basophils by antigens, leading to receptor aggregation
+1487207094725 1-HighYield Which type of hypersensitivity mediates anaphylaxis (e.g., food, drug, or bee sting allergies)? Type I HSR
+1487207097572 1-HighYield Which type of hypersensitivity mediates atopic reactions (e.g., asthma, allergic rhinitis)? Type I HSR
+1487207248593 1-HighYield Which hypersensitivity reaction(s) are antibody-mediated ? I, II, and III

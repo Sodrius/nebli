@@ -1,0 +1,15 @@
+# #AK_Step1_v12::#Bootcamp::Endocrinology::07_Pancreas::08_Diabetes_Type_I_Management (14 notas)
+1462844554684 1-HighYield What is the effect of insulin on Na + -K + ATPase activity? Increased (thus causing increased K + uptake into cells)
+1462845596752 1-HighYield When insulin acts on liver tissue, it causes increased glycogenesis and decreased glycogenolysis
+1462849092193 1-HighYield When insulin acts on muscle tissue, it causes in creased glycogen storage and in creased protein synthesis
+1462849100249 1-HighYield When insulin acts on adipose tissue, it causes in creased triglyceride storage and de creased lipolysis
+1462849107376 1-HighYield Insulin glulisine , aspart , and lispro are characterized by rapid action and duration
+1462849116753 1-HighYield Glulisine , aspart , and lispro are useful for controlling the postprandial glucose spike
+1462849123696 1-HighYield Regular insulin is characterized by short action and duration
+1462849133349 2-RelativelyHighYield Regular insulin is the only insulin that can be administered IV
+1462849140370 1-HighYield IV regular insulin is useful in management of diabetic ketoacidosis (type 1 DM complication)
+1462849149554 1-HighYield IV regular insulin is useful in the management of hyper kalemia
+1462849159965 1-HighYield Neutral Protamine Hagedorn (NPH) insulin is characterized by intermediate action and duration
+1462849196492 1-HighYield Insulin detemir, degludec, and glargine are characterized by long action and duration
+1462849213386 3-HighYield-temporary The most common complication of insulin therapy is hypoglycemia; may also experience lipodystrophy and hypersensitivity reaction (rare)
+1462849233061 2-RelativelyHighYield Which type(s) of diabetes mellitus may be treated with insulin therapy ? Type 1, type 2, and gestational DM (exogenous therefore doesn't require β cell activity)

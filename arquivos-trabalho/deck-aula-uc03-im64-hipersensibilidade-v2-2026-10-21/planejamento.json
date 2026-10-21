@@ -1,0 +1,1287 @@
+{
+ "aula": "Reações de hipersensibilidade (UC03 P3; Imunologia)",
+ "feito_antes_de_montar": true,
+ "alvos": [
+  {
+   "id": "im64-s02-i2-1",
+   "slide": "2",
+   "alvo": "Gell e Coombs: os quatro tipos",
+   "fontes": [
+    "slide 2"
+   ],
+   "origem_prevista": "au-gell"
+  },
+  {
+   "id": "im64-s02-i2-2",
+   "slide": "2",
+   "alvo": "Antes de IV: tipos mediados por anticorpo são I, II e III",
+   "fontes": [
+    "slide 2"
+   ],
+   "origem_prevista": "ak1487207248593"
+  },
+  {
+   "id": "im64-s03-i3-1",
+   "slide": "3",
+   "alvo": "Tipo II: anticorpos contra antígenos de superfície celular",
+   "fontes": [
+    "slide 3"
+   ],
+   "origem_prevista": "ak1487207102783"
+  },
+  {
+   "id": "im64-s03-i3-2",
+   "slide": "3",
+   "alvo": "Tipo II: mediado por IgM e IgG",
+   "fontes": [
+    "slide 3"
+   ],
+   "origem_prevista": "ak1487207122541"
+  },
+  {
+   "id": "im64-s03-i3-3",
+   "slide": "3",
+   "alvo": "Tipo II destrói a célula por opsonização",
+   "fontes": [
+    "slide 3"
+   ],
+   "origem_prevista": "ak1487207105743"
+  },
+  {
+   "id": "im64-s03-i3-4",
+   "slide": "3",
+   "alvo": "Tipo II causa disfunção: bloqueio ou ativação de receptor",
+   "fontes": [
+    "slide 3"
+   ],
+   "origem_prevista": "ak1487207112553"
+  },
+  {
+   "id": "im64-s03-i3-5",
+   "slide": "3",
+   "alvo": "Tipo II causa inflamação por complemento e fagócitos",
+   "fontes": [
+    "slide 3"
+   ],
+   "origem_prevista": "ak1487207119666"
+  },
+  {
+   "id": "im64-s03-i3-6",
+   "slide": "3",
+   "alvo": "ADCC: IgG liga a NK por CD16",
+   "fontes": [
+    "slide 3"
+   ],
+   "origem_prevista": "sh-1791629595996"
+  },
+  {
+   "id": "im64-s03-i3-7",
+   "slide": "3",
+   "alvo": "IgG opsonina: fagocitose por receptor de Fc ou complemento",
+   "fontes": [
+    "slide 3"
+   ],
+   "origem_prevista": "sh-1791629595447"
+  },
+  {
+   "id": "im64-s03-i3-8",
+   "slide": "3",
+   "alvo": "Via clássica do complemento começa em C1, ativado por IgM ou IgG",
+   "fontes": [
+    "slide 3"
+   ],
+   "origem_prevista": "sh-1791667094087"
+  },
+  {
+   "id": "im64-s03-i3-a1",
+   "slide": "3",
+   "alvo": "Apoio ao card ak1487207119666",
+   "fontes": [
+    "slide 3"
+   ],
+   "origem_prevista": "ak1487207119666"
+  },
+  {
+   "id": "im64-s04-i4-a1",
+   "slide": "4",
+   "alvo": "Apoio ao card ak1500404728172",
+   "fontes": [
+    "slide 4"
+   ],
+   "origem_prevista": "sh-1791629595447"
+  },
+  {
+   "id": "im64-s05-i5-a1",
+   "slide": "5",
+   "alvo": "Apoio ao card ak1487207102783",
+   "fontes": [
+    "slide 5"
+   ],
+   "origem_prevista": "ak1487207102783"
+  },
+  {
+   "id": "im64-s06-i6-1",
+   "slide": "6",
+   "alvo": "Pênfigo: tipo II (desmossomos)",
+   "fontes": [
+    "slide 6"
+   ],
+   "origem_prevista": "ak1487207160372"
+  },
+  {
+   "id": "im64-s06-i6-a1",
+   "slide": "6",
+   "alvo": "Apoio ao card ak1487207160372",
+   "fontes": [
+    "slide 6"
+   ],
+   "origem_prevista": "ak1487207160372"
+  },
+  {
+   "id": "im64-s09-i9-1",
+   "slide": "9",
+   "alvo": "Trombocitopenia imune e anemia hemolítica autoimune: tipo II",
+   "fontes": [
+    "slide 9"
+   ],
+   "origem_prevista": "ak1487207142388"
+  },
+  {
+   "id": "im64-s09-i9-2",
+   "slide": "9",
+   "alvo": "Doença hemolítica do RN e reações transfusionais: tipo II",
+   "fontes": [
+    "slide 9"
+   ],
+   "origem_prevista": "ak1487207145930"
+  },
+  {
+   "id": "im64-s10-i10-1",
+   "slide": "10",
+   "alvo": "Goodpasture: tipo II (membrana basal)",
+   "fontes": [
+    "slide 10"
+   ],
+   "origem_prevista": "ak1475376572176"
+  },
+  {
+   "id": "im64-s10-i10-2",
+   "slide": "10",
+   "alvo": "Graves e miastenia gravis: tipo II com disfunção celular",
+   "fontes": [
+    "slide 10"
+   ],
+   "origem_prevista": "ak1487207158134"
+  },
+  {
+   "id": "im64-s10-i10-3",
+   "slide": "10",
+   "alvo": "Febre reumática: tipo II",
+   "fontes": [
+    "slide 10"
+   ],
+   "origem_prevista": "ak1503089762191"
+  },
+  {
+   "id": "im64-s10-i10-4",
+   "slide": "10",
+   "alvo": "Anemia perniciosa: tipo II",
+   "fontes": [
+    "slide 10"
+   ],
+   "origem_prevista": "ak1501511684746"
+  },
+  {
+   "id": "im64-s10-i10-5",
+   "slide": "10",
+   "alvo": "Miastenia: autoanticorpo contra receptor de acetilcolina",
+   "fontes": [
+    "slide 10"
+   ],
+   "origem_prevista": "sh-1792166976595"
+  },
+  {
+   "id": "im64-s12-i12-a1",
+   "slide": "12",
+   "alvo": "Apoio ao card ak1487207145930",
+   "fontes": [
+    "slide 12"
+   ],
+   "origem_prevista": "ak1487207145930"
+  },
+  {
+   "id": "im64-s13-i13-1",
+   "slide": "13",
+   "alvo": "Doença hemolítica Rh: mãe Rh− e feto Rh+",
+   "fontes": [
+    "slide 13"
+   ],
+   "origem_prevista": "ak1516061921946"
+  },
+  {
+   "id": "im64-s14-i14-1",
+   "slide": "14",
+   "alvo": "Tipo III: imunocomplexos circulantes",
+   "fontes": [
+    "slide 14"
+   ],
+   "origem_prevista": "ak1487207162179"
+  },
+  {
+   "id": "im64-s14-i14-2",
+   "slide": "14",
+   "alvo": "Conexão: tipo II (antígeno fixo) e tipo III (antígeno solúvel)",
+   "fontes": [
+    "slide 14"
+   ],
+   "origem_prevista": "au-liga-ii-iii"
+  },
+  {
+   "id": "im64-s14-i14-a1",
+   "slide": "14",
+   "alvo": "Apoio ao card au-liga-ii-iii",
+   "fontes": [
+    "slide 14"
+   ],
+   "origem_prevista": "au-liga-ii-iii"
+  },
+  {
+   "id": "im64-s15-i15-1",
+   "slide": "15",
+   "alvo": "Hapteno: molécula pequena que se liga a proteína e induz resposta",
+   "fontes": [
+    "slide 15"
+   ],
+   "origem_prevista": "ak1487207184256"
+  },
+  {
+   "id": "im64-s15-i15-2",
+   "slide": "15",
+   "alvo": "Glomerulonefrite pós-estreptocócica: tipo III",
+   "fontes": [
+    "slide 15"
+   ],
+   "origem_prevista": "ak1487207216546"
+  },
+  {
+   "id": "im64-s15-i15-3",
+   "slide": "15",
+   "alvo": "Artrite reumatoide: componente tipo III",
+   "fontes": [
+    "slide 15"
+   ],
+   "origem_prevista": "ak1583964087768"
+  },
+  {
+   "id": "im64-s15-i15-4",
+   "slide": "15",
+   "alvo": "Poliarterite nodosa: tipo III",
+   "fontes": [
+    "slide 15"
+   ],
+   "origem_prevista": "ak1474132602716"
+  },
+  {
+   "id": "im64-s15-i15-5",
+   "slide": "15",
+   "alvo": "Imunocomplexos circulantes depositam no glomérulo na GNPE",
+   "fontes": [
+    "slide 15"
+   ],
+   "origem_prevista": "ak1503091131993"
+  },
+  {
+   "id": "im64-s17-i17-1",
+   "slide": "17",
+   "alvo": "Tipo III: imunocomplexos ativam o complemento e atraem neutrófilos",
+   "fontes": [
+    "slide 17"
+   ],
+   "origem_prevista": "ak1487207167794"
+  },
+  {
+   "id": "im64-s17-i17-2",
+   "slide": "17",
+   "alvo": "Reação de Arthus: tipo III local",
+   "fontes": [
+    "slide 17"
+   ],
+   "origem_prevista": "ak1487207194698"
+  },
+  {
+   "id": "im64-s17-i17-3",
+   "slide": "17",
+   "alvo": "Arthus: imunocomplexos na pele com edema, necrose e complemento",
+   "fontes": [
+    "slide 17"
+   ],
+   "origem_prevista": "ak1487207200447"
+  },
+  {
+   "id": "im64-s17-i17-4",
+   "slide": "17",
+   "alvo": "C3b ajuda a limpar imunocomplexos",
+   "fontes": [
+    "slide 17"
+   ],
+   "origem_prevista": "sh-1791667097538"
+  },
+  {
+   "id": "im64-s17-i17-a1",
+   "slide": "17",
+   "alvo": "Apoio ao card ak1487207167794",
+   "fontes": [
+    "slide 17"
+   ],
+   "origem_prevista": "ak1487207167794"
+  },
+  {
+   "id": "im64-s18-i18-a1",
+   "slide": "18",
+   "alvo": "Apoio ao card ak1487207200447",
+   "fontes": [
+    "slide 18"
+   ],
+   "origem_prevista": "ak1487207200447"
+  },
+  {
+   "id": "im64-s19-i19-1",
+   "slide": "19",
+   "alvo": "Doença do soro: anticorpos contra proteínas séricas estranhas",
+   "fontes": [
+    "slide 19"
+   ],
+   "origem_prevista": "ak1487207175248"
+  },
+  {
+   "id": "im64-s19-i19-2",
+   "slide": "19",
+   "alvo": "Doença do soro: tipo III",
+   "fontes": [
+    "slide 19"
+   ],
+   "origem_prevista": "ak1487207192567"
+  },
+  {
+   "id": "im64-s19-i19-3",
+   "slide": "19",
+   "alvo": "Doença do soro: sintomas 1–2 semanas depois do antígeno",
+   "fontes": [
+    "slide 19"
+   ],
+   "origem_prevista": "ak1487207190223"
+  },
+  {
+   "id": "im64-s22-i22-1",
+   "slide": "22",
+   "alvo": "Lúpus: tipo III (imunocomplexos)",
+   "fontes": [
+    "slide 22"
+   ],
+   "origem_prevista": "ak1487815313912"
+  },
+  {
+   "id": "im64-s27-i27-1",
+   "slide": "27",
+   "alvo": "Tipo IV: mediado por células T",
+   "fontes": [
+    "slide 27"
+   ],
+   "origem_prevista": "ak1487207218837"
+  },
+  {
+   "id": "im64-s27-i27-2",
+   "slide": "27",
+   "alvo": "Tipo IV por citotoxicidade direta: CD8",
+   "fontes": [
+    "slide 27"
+   ],
+   "origem_prevista": "ak1487207220752"
+  },
+  {
+   "id": "im64-s27-i27-3",
+   "slide": "27",
+   "alvo": "Conexão: do anticorpo ao linfócito T",
+   "fontes": [
+    "slide 27"
+   ],
+   "origem_prevista": "au-liga-iv"
+  },
+  {
+   "id": "im64-s27-i27-4",
+   "slide": "27",
+   "alvo": "Tipo IV tardio: CD4 (DTH)",
+   "fontes": [
+    "slide 27"
+   ],
+   "origem_prevista": "sh-1791625436408"
+  },
+  {
+   "id": "im64-s27-i27-5",
+   "slide": "27",
+   "alvo": "MHC II apresenta antígenos exógenos ao CD4",
+   "fontes": [
+    "slide 27"
+   ],
+   "origem_prevista": "sh-1791625427059"
+  },
+  {
+   "id": "im64-s27-i27-a1",
+   "slide": "27",
+   "alvo": "Apoio ao card au-liga-iv",
+   "fontes": [
+    "slide 27"
+   ],
+   "origem_prevista": "au-liga-iv"
+  },
+  {
+   "id": "im64-s28-i28-1",
+   "slide": "28",
+   "alvo": "Dermatite de contato alérgica: tipo IV",
+   "fontes": [
+    "slide 28"
+   ],
+   "origem_prevista": "ak1487207238825"
+  },
+  {
+   "id": "im64-s28-i28-2",
+   "slide": "28",
+   "alvo": "Diabetes tipo 1: tipo IV por citotoxicidade",
+   "fontes": [
+    "slide 28"
+   ],
+   "origem_prevista": "ak1462326990404"
+  },
+  {
+   "id": "im64-s28-i28-3",
+   "slide": "28",
+   "alvo": "Células de Langerhans apresentam antígeno ao T virgem",
+   "fontes": [
+    "slide 28"
+   ],
+   "origem_prevista": "sh-1791625425478"
+  },
+  {
+   "id": "im64-s28-i28-a1",
+   "slide": "28",
+   "alvo": "Apoio ao card ak1481335976660",
+   "fontes": [
+    "slide 28"
+   ],
+   "origem_prevista": "sh-1791625425478"
+  },
+  {
+   "id": "im64-s29-i29-1",
+   "slide": "29",
+   "alvo": "Hipersensibilidade tardia: da sensibilização ao dano",
+   "fontes": [
+    "slide 29"
+   ],
+   "origem_prevista": "au-dth-fases"
+  },
+  {
+   "id": "im64-s29-i29-2",
+   "slide": "29",
+   "alvo": "Th1 ativa macrófagos e T citotóxicos",
+   "fontes": [
+    "slide 29"
+   ],
+   "origem_prevista": "sh-1791625422657"
+  },
+  {
+   "id": "im64-s29-i29-3",
+   "slide": "29",
+   "alvo": "IFN-γ é o sinal que ativa o macrófago",
+   "fontes": [
+    "slide 29"
+   ],
+   "origem_prevista": "sh-1791625430208"
+  },
+  {
+   "id": "im64-s29-i29-a1",
+   "slide": "29",
+   "alvo": "Apoio ao card au-dth-fases",
+   "fontes": [
+    "slide 29"
+   ],
+   "origem_prevista": "au-dth-fases"
+  },
+  {
+   "id": "im64-s30-i30-a1",
+   "slide": "30",
+   "alvo": "Apoio ao card ak1487116928027",
+   "fontes": [
+    "slide 30"
+   ],
+   "origem_prevista": "sh-1791625422657"
+  },
+  {
+   "id": "im64-s31-i31-a1",
+   "slide": "31",
+   "alvo": "Apoio ao card ak1489970364081",
+   "fontes": [
+    "slide 31"
+   ],
+   "origem_prevista": "sh-1791625430208"
+  },
+  {
+   "id": "im64-s36-i36-1",
+   "slide": "36",
+   "alvo": "Granuloma: Th1 e IFN-γ transformam macrófagos em epitelioides",
+   "fontes": [
+    "slide 36"
+   ],
+   "origem_prevista": "sh-1791625436658"
+  },
+  {
+   "id": "im64-s36-i36-a1",
+   "slide": "36",
+   "alvo": "Apoio ao card ak1487643795892",
+   "fontes": [
+    "slide 36"
+   ],
+   "origem_prevista": "sh-1791625436658"
+  },
+  {
+   "id": "im64-s37-i37-a1",
+   "slide": "37",
+   "alvo": "Apoio ao card ak1487643795892",
+   "fontes": [
+    "slide 37"
+   ],
+   "origem_prevista": "sh-1791625436658"
+  },
+  {
+   "id": "im64-s38-i38-a1",
+   "slide": "38",
+   "alvo": "Apoio ao card ak1487643795892",
+   "fontes": [
+    "slide 38"
+   ],
+   "origem_prevista": "sh-1791625436658"
+  },
+  {
+   "id": "im64-s40-i40-a1",
+   "slide": "40",
+   "alvo": "Apoio ao card au-tempo",
+   "fontes": [
+    "slide 40"
+   ],
+   "origem_prevista": "au-tempo"
+  },
+  {
+   "id": "im64-s41-i41-1",
+   "slide": "41",
+   "alvo": "Tempo da reação cutânea por tipo",
+   "fontes": [
+    "slide 41"
+   ],
+   "origem_prevista": "au-tempo"
+  },
+  {
+   "id": "im64-s41-i41-2",
+   "slide": "41",
+   "alvo": "Teste do PPD: tipo IV mediado por Th1",
+   "fontes": [
+    "slide 41"
+   ],
+   "origem_prevista": "sh-1791625436533"
+  },
+  {
+   "id": "im64-s41-i41-a1",
+   "slide": "41",
+   "alvo": "Apoio ao card au-tempo",
+   "fontes": [
+    "slide 41"
+   ],
+   "origem_prevista": "au-tempo"
+  },
+  {
+   "id": "im64-s42-i42-a1",
+   "slide": "42",
+   "alvo": "Apoio ao card au-tempo",
+   "fontes": [
+    "slide 42"
+   ],
+   "origem_prevista": "au-tempo"
+  },
+  {
+   "id": "im64-s43-i43-1",
+   "slide": "43",
+   "alvo": "Tipo I: IgE ligada a mastócitos e basófilos",
+   "fontes": [
+    "slide 43"
+   ],
+   "origem_prevista": "ak1487206917325"
+  },
+  {
+   "id": "im64-s43-i43-2",
+   "slide": "43",
+   "alvo": "Conexão: o tipo I fecha a história (IgE no mastócito)",
+   "fontes": [
+    "slide 43"
+   ],
+   "origem_prevista": "au-liga-i"
+  },
+  {
+   "id": "im64-s43-i43-3",
+   "slide": "43",
+   "alvo": "MHC I apresenta antígenos endógenos ao CD8",
+   "fontes": [
+    "slide 43"
+   ],
+   "origem_prevista": "sh-1791625426657"
+  },
+  {
+   "id": "im64-s43-i43-4",
+   "slide": "43",
+   "alvo": "CD8 citotóxico mata por apoptose",
+   "fontes": [
+    "slide 43"
+   ],
+   "origem_prevista": "sh-1791625429957"
+  },
+  {
+   "id": "im64-s43-i43-5",
+   "slide": "43",
+   "alvo": "CD8 induz apoptose por Fas ligante e Fas",
+   "fontes": [
+    "slide 43"
+   ],
+   "origem_prevista": "sh-1791625430882"
+  },
+  {
+   "id": "im64-s43-i43-a1",
+   "slide": "43",
+   "alvo": "Apoio ao card au-liga-i",
+   "fontes": [
+    "slide 43"
+   ],
+   "origem_prevista": "au-liga-i"
+  },
+  {
+   "id": "im64-s44-i44-1",
+   "slide": "44",
+   "alvo": "Tipo I: ligação cruzada de IgE por antígeno",
+   "fontes": [
+    "slide 44"
+   ],
+   "origem_prevista": "ak1487207079363"
+  },
+  {
+   "id": "im64-s44-i44-2",
+   "slide": "44",
+   "alvo": "IgE faz ligação cruzada ao alérgeno",
+   "fontes": [
+    "slide 44"
+   ],
+   "origem_prevista": "sh-1792241811997"
+  },
+  {
+   "id": "im64-s44-i44-a1",
+   "slide": "44",
+   "alvo": "Apoio ao card ak1487206917325",
+   "fontes": [
+    "slide 44"
+   ],
+   "origem_prevista": "ak1487206917325"
+  },
+  {
+   "id": "im64-s45-i45-a1",
+   "slide": "45",
+   "alvo": "Apoio ao card au-sensibil",
+   "fontes": [
+    "slide 45"
+   ],
+   "origem_prevista": "au-sensibil"
+  },
+  {
+   "id": "im64-s46-i46-a1",
+   "slide": "46",
+   "alvo": "Apoio ao card au-sensibil",
+   "fontes": [
+    "slide 46"
+   ],
+   "origem_prevista": "au-sensibil"
+  },
+  {
+   "id": "im64-s47-i47-a1",
+   "slide": "47",
+   "alvo": "Apoio ao card au-sensibil",
+   "fontes": [
+    "slide 47"
+   ],
+   "origem_prevista": "au-sensibil"
+  },
+  {
+   "id": "im64-s48-i48-a1",
+   "slide": "48",
+   "alvo": "Apoio ao card au-gell",
+   "fontes": [
+    "slide 48"
+   ],
+   "origem_prevista": "au-gell"
+  },
+  {
+   "id": "im64-s49-i49-a1",
+   "slide": "49",
+   "alvo": "Apoio ao card au-gell",
+   "fontes": [
+    "slide 49"
+   ],
+   "origem_prevista": "au-gell"
+  },
+  {
+   "id": "im64-s50-i50-1",
+   "slide": "50",
+   "alvo": "Asma: em geral tipo I",
+   "fontes": [
+    "slide 50"
+   ],
+   "origem_prevista": "ak1473628085810"
+  },
+  {
+   "id": "im64-s50-i50-2",
+   "slide": "50",
+   "alvo": "Anafilaxia: tipo I",
+   "fontes": [
+    "slide 50"
+   ],
+   "origem_prevista": "ak1487207094725"
+  },
+  {
+   "id": "im64-s51-i51-a1",
+   "slide": "51",
+   "alvo": "Apoio ao card au-mediadores",
+   "fontes": [
+    "slide 51"
+   ],
+   "origem_prevista": "au-mediadores"
+  },
+  {
+   "id": "im64-s53-i53-1",
+   "slide": "53",
+   "alvo": "Primeiro contato: sensibilização sem clínica",
+   "fontes": [
+    "slide 53"
+   ],
+   "origem_prevista": "au-sensibil"
+  },
+  {
+   "id": "im64-s53-i53-a1",
+   "slide": "53",
+   "alvo": "Apoio ao card au-sensibil",
+   "fontes": [
+    "slide 53"
+   ],
+   "origem_prevista": "au-sensibil"
+  },
+  {
+   "id": "im64-s54-i54-a1",
+   "slide": "54",
+   "alvo": "Apoio ao card au-sensibil",
+   "fontes": [
+    "slide 54"
+   ],
+   "origem_prevista": "au-sensibil"
+  },
+  {
+   "id": "im64-s55-i55-1",
+   "slide": "55",
+   "alvo": "Th2 promove a produção de IgE",
+   "fontes": [
+    "slide 55"
+   ],
+   "origem_prevista": "sh-1791625432133"
+  },
+  {
+   "id": "im64-s55-i55-2",
+   "slide": "55",
+   "alvo": "IL-4 e IL-13 promovem a troca de classe para IgE",
+   "fontes": [
+    "slide 55"
+   ],
+   "origem_prevista": "sh-1792241808513"
+  },
+  {
+   "id": "im64-s55-i55-a1",
+   "slide": "55",
+   "alvo": "Apoio ao card ak1487117161213",
+   "fontes": [
+    "slide 55"
+   ],
+   "origem_prevista": "sh-1792241808513"
+  },
+  {
+   "id": "im64-s56-i56-a1",
+   "slide": "56",
+   "alvo": "Apoio ao card ak1487116878738",
+   "fontes": [
+    "slide 56"
+   ],
+   "origem_prevista": "sh-1791625432133"
+  },
+  {
+   "id": "im64-s59-i59-a1",
+   "slide": "59",
+   "alvo": "Apoio ao card au-mediadores",
+   "fontes": [
+    "slide 59"
+   ],
+   "origem_prevista": "au-mediadores"
+  },
+  {
+   "id": "im64-s60-i60-1",
+   "slide": "60",
+   "alvo": "IgE se liga ao receptor de alta afinidade FcεRI do mastócito",
+   "fontes": [
+    "slide 60"
+   ],
+   "origem_prevista": "ak1474580620228"
+  },
+  {
+   "id": "im64-s60-i60-a1",
+   "slide": "60",
+   "alvo": "Apoio ao card ak1474580620228",
+   "fontes": [
+    "slide 60"
+   ],
+   "origem_prevista": "ak1474580620228"
+  },
+  {
+   "id": "im64-s61-i61-a1",
+   "slide": "61",
+   "alvo": "Apoio ao card ak1474580620228",
+   "fontes": [
+    "slide 61"
+   ],
+   "origem_prevista": "ak1474580620228"
+  },
+  {
+   "id": "im64-s62-i62-1",
+   "slide": "62",
+   "alvo": "Resposta imediata: histamina e triptase pré-formadas",
+   "fontes": [
+    "slide 62"
+   ],
+   "origem_prevista": "sh-1791743342082"
+  },
+  {
+   "id": "im64-s62-i62-2",
+   "slide": "62",
+   "alvo": "Ligação cruzada de IgE agrega FcεRI e inicia a degranulação",
+   "fontes": [
+    "slide 62"
+   ],
+   "origem_prevista": "sh-1791629596497"
+  },
+  {
+   "id": "im64-s62-i62-a1",
+   "slide": "62",
+   "alvo": "Apoio ao card ak1487640136892",
+   "fontes": [
+    "slide 62"
+   ],
+   "origem_prevista": "sh-1791629596497"
+  },
+  {
+   "id": "im64-s66-i66-1",
+   "slide": "66",
+   "alvo": "Resposta imediata: mastócito libera histamina pré-formada",
+   "fontes": [
+    "slide 66"
+   ],
+   "origem_prevista": "ak1473628107938"
+  },
+  {
+   "id": "im64-s66-i66-a1",
+   "slide": "66",
+   "alvo": "Apoio ao card ak1473628107938",
+   "fontes": [
+    "slide 66"
+   ],
+   "origem_prevista": "ak1473628107938"
+  },
+  {
+   "id": "im64-s67-i67-a1",
+   "slide": "67",
+   "alvo": "Apoio ao card ak1473628116213",
+   "fontes": [
+    "slide 67"
+   ],
+   "origem_prevista": "ak1473628116213"
+  },
+  {
+   "id": "im64-s68-i68-1",
+   "slide": "68",
+   "alvo": "Mastócito gera os leucotrienos C4, D4 e E4",
+   "fontes": [
+    "slide 68"
+   ],
+   "origem_prevista": "ak1473628116213"
+  },
+  {
+   "id": "im64-s68-i68-a1",
+   "slide": "68",
+   "alvo": "Apoio ao card ak1473628116213",
+   "fontes": [
+    "slide 68"
+   ],
+   "origem_prevista": "ak1473628116213"
+  },
+  {
+   "id": "im64-s70-i70-1",
+   "slide": "70",
+   "alvo": "Mediadores do mastócito e seus efeitos",
+   "fontes": [
+    "slide 70"
+   ],
+   "origem_prevista": "au-mediadores"
+  },
+  {
+   "id": "im64-s70-i70-2",
+   "slide": "70",
+   "alvo": "Inflamação alérgica: histamina no receptor H1",
+   "fontes": [
+    "slide 70"
+   ],
+   "origem_prevista": "ak1474571583341"
+  },
+  {
+   "id": "im64-s70-i70-3",
+   "slide": "70",
+   "alvo": "Histamina aumenta o muco nasal e brônquico",
+   "fontes": [
+    "slide 70"
+   ],
+   "origem_prevista": "ak1474571606722"
+  },
+  {
+   "id": "im64-s70-i70-4",
+   "slide": "70",
+   "alvo": "Histamina contrai o músculo liso brônquico",
+   "fontes": [
+    "slide 70"
+   ],
+   "origem_prevista": "ak1474571636173"
+  },
+  {
+   "id": "im64-s70-i70-5",
+   "slide": "70",
+   "alvo": "Histamina aumenta a permeabilidade vascular",
+   "fontes": [
+    "slide 70"
+   ],
+   "origem_prevista": "sh-1791169089858"
+  },
+  {
+   "id": "im64-s70-i70-a1",
+   "slide": "70",
+   "alvo": "Apoio ao card au-mediadores",
+   "fontes": [
+    "slide 70"
+   ],
+   "origem_prevista": "au-mediadores"
+  },
+  {
+   "id": "im64-s71-i71-1",
+   "slide": "71",
+   "alvo": "Resposta tardia: quimiocinas e citocinas",
+   "fontes": [
+    "slide 71"
+   ],
+   "origem_prevista": "sh-1791983686483"
+  },
+  {
+   "id": "im64-s71-i71-a1",
+   "slide": "71",
+   "alvo": "Apoio ao card ak1487207091819",
+   "fontes": [
+    "slide 71"
+   ],
+   "origem_prevista": "sh-1791983686483"
+  },
+  {
+   "id": "im64-s72-i72-a1",
+   "slide": "72",
+   "alvo": "Apoio ao card ak1487207091819",
+   "fontes": [
+    "slide 72"
+   ],
+   "origem_prevista": "sh-1791983686483"
+  },
+  {
+   "id": "im64-s73-i73-a1",
+   "slide": "73",
+   "alvo": "Apoio ao card au-mediadores",
+   "fontes": [
+    "slide 73"
+   ],
+   "origem_prevista": "au-mediadores"
+  },
+  {
+   "id": "im64-s78-i78-1",
+   "slide": "78",
+   "alvo": "Fase tardia: proteína básica maior perpetua o dano",
+   "fontes": [
+    "slide 78"
+   ],
+   "origem_prevista": "ak1473628119069"
+  },
+  {
+   "id": "im64-s78-i78-a1",
+   "slide": "78",
+   "alvo": "Apoio ao card ak1473628119069",
+   "fontes": [
+    "slide 78"
+   ],
+   "origem_prevista": "ak1473628119069"
+  },
+  {
+   "id": "im64-s79-i79-a1",
+   "slide": "79",
+   "alvo": "Apoio ao card ak1473628119069",
+   "fontes": [
+    "slide 79"
+   ],
+   "origem_prevista": "ak1473628119069"
+  },
+  {
+   "id": "im64-s80-i80-1",
+   "slide": "80",
+   "alvo": "Eosinófilo produz proteína básica maior",
+   "fontes": [
+    "slide 80"
+   ],
+   "origem_prevista": "sh-1791780353397"
+  },
+  {
+   "id": "im64-s80-i80-a1",
+   "slide": "80",
+   "alvo": "Apoio ao card ak1479267436105",
+   "fontes": [
+    "slide 80"
+   ],
+   "origem_prevista": "sh-1791780353397"
+  },
+  {
+   "id": "im64-s81-i81-a1",
+   "slide": "81",
+   "alvo": "Apoio ao card ak1479267436105",
+   "fontes": [
+    "slide 81"
+   ],
+   "origem_prevista": "sh-1791780353397"
+  },
+  {
+   "id": "im64-s82-i82-a1",
+   "slide": "82",
+   "alvo": "Apoio ao card ak1487207091819",
+   "fontes": [
+    "slide 82"
+   ],
+   "origem_prevista": "sh-1791983686483"
+  },
+  {
+   "id": "im64-s83-i83-a1",
+   "slide": "83",
+   "alvo": "Apoio ao card au-th2-alergia",
+   "fontes": [
+    "slide 83"
+   ],
+   "origem_prevista": "au-th2-alergia"
+  },
+  {
+   "id": "im64-s84-i84-a1",
+   "slide": "84",
+   "alvo": "Apoio ao card au-th2-alergia",
+   "fontes": [
+    "slide 84"
+   ],
+   "origem_prevista": "au-th2-alergia"
+  },
+  {
+   "id": "im64-s85-i85-a1",
+   "slide": "85",
+   "alvo": "Apoio ao card ak1474571606722",
+   "fontes": [
+    "slide 85"
+   ],
+   "origem_prevista": "ak1474571606722"
+  },
+  {
+   "id": "im64-s86-i86-a1",
+   "slide": "86",
+   "alvo": "Apoio ao card ak1474571636173",
+   "fontes": [
+    "slide 86"
+   ],
+   "origem_prevista": "ak1474571636173"
+  },
+  {
+   "id": "im64-s87-i87-1",
+   "slide": "87",
+   "alvo": "Th2: IL-4, IL-5 e IL-13",
+   "fontes": [
+    "slide 87"
+   ],
+   "origem_prevista": "au-th2-alergia"
+  },
+  {
+   "id": "im64-s87-i87-2",
+   "slide": "87",
+   "alvo": "Th2 secreta IL-4, que leva à troca para IgE",
+   "fontes": [
+    "slide 87"
+   ],
+   "origem_prevista": "ak1473628097990"
+  },
+  {
+   "id": "im64-s87-i87-3",
+   "slide": "87",
+   "alvo": "Th2 secreta IL-5, que atrai eosinófilos",
+   "fontes": [
+    "slide 87"
+   ],
+   "origem_prevista": "ak1473628101206"
+  },
+  {
+   "id": "im64-s87-i87-a1",
+   "slide": "87",
+   "alvo": "Apoio ao card ak1473628101206",
+   "fontes": [
+    "slide 87"
+   ],
+   "origem_prevista": "ak1473628101206"
+  },
+  {
+   "id": "im64-s88-i88-a1",
+   "slide": "88",
+   "alvo": "Apoio ao card au-th2-alergia",
+   "fontes": [
+    "slide 88"
+   ],
+   "origem_prevista": "au-th2-alergia"
+  },
+  {
+   "id": "im64-s89-i89-a1",
+   "slide": "89",
+   "alvo": "Apoio ao card au-th2-alergia",
+   "fontes": [
+    "slide 89"
+   ],
+   "origem_prevista": "au-th2-alergia"
+  },
+  {
+   "id": "im64-cap-l1",
+   "slide": "livro",
+   "alvo": "Os quatro tipos de hipersensibilidade e o mecanismo de cada um",
+   "fontes": [
+    "livro Apostila guia de Imuno (aula 10) e monitoria P3 (aula 13)"
+   ],
+   "origem_prevista": "au-gell"
+  },
+  {
+   "id": "im64-cap-l2",
+   "slide": "livro",
+   "alvo": "Tipo I: Th2, IL-4, troca para IgE, FcεRI, sensibilização e desencadeamento",
+   "fontes": [
+    "livro Apostila guia de Imuno (aula 10) e monitoria P3 (aula 13)"
+   ],
+   "origem_prevista": "au-sensibil, sh-1792241808513, ak1474580620228, sh-1791629596497"
+  },
+  {
+   "id": "im64-cap-l3",
+   "slide": "livro",
+   "alvo": "Tipo II: opsonização, complemento e inflamação, e interferência com receptores",
+   "fontes": [
+    "livro Apostila guia de Imuno (aula 10) e monitoria P3 (aula 13)"
+   ],
+   "origem_prevista": "ak1487207105743, ak1487207112553, ak1487207119666, sh-1791629595447"
+  },
+  {
+   "id": "im64-cap-l4",
+   "slide": "livro",
+   "alvo": "Tipo III: depósito de imunocomplexos, complemento e neutrófilos",
+   "fontes": [
+    "livro Apostila guia de Imuno (aula 10) e monitoria P3 (aula 13)"
+   ],
+   "origem_prevista": "ak1487207162179, ak1487207167794"
+  },
+  {
+   "id": "im64-cap-l5",
+   "slide": "livro",
+   "alvo": "Tipo IV: sensibilização, Th1, IFN-γ, macrófago e T citotóxico",
+   "fontes": [
+    "livro Apostila guia de Imuno (aula 10) e monitoria P3 (aula 13)"
+   ],
+   "origem_prevista": "au-dth-fases, sh-1791625436408, sh-1791625429957"
+  },
+  {
+   "id": "im64-prova-p1",
+   "slide": "prova",
+   "alvo": "Mecanismo da hipersensibilidade tipo I: sensibilização e resposta tardia (2025 P3 3.2; 2019 P3 4.1; 2017 P3 1.7)",
+   "fontes": [
+    "Provas UC03 (índice imuno-12)"
+   ],
+   "origem_prevista": "au-sensibil, sh-1792241808513, sh-1791983686483, au-th2-alergia"
+  },
+  {
+   "id": "im64-prova-p2",
+   "slide": "prova",
+   "alvo": "Reação ao PPD: tipo IV mediada por Th1 (2023 P2 3.1)",
+   "fontes": [
+    "Provas UC03 (índice imuno-12)"
+   ],
+   "origem_prevista": "sh-1791625436533, au-dth-fases"
+  },
+  {
+   "id": "im64-prova-p3",
+   "slide": "prova",
+   "alvo": "Hipersensibilidade tipo III na artrite reumatoide (2018 P3 4.1)",
+   "fontes": [
+    "Provas UC03 (índice imuno-12)"
+   ],
+   "origem_prevista": "ak1583964087768, ak1487207167794"
+  },
+  {
+   "id": "im64-prova-p4",
+   "slide": "prova",
+   "alvo": "Tipo de reação e mecanismo em casos (2016 P2 1.2; 2019 P3 4.5)",
+   "fontes": [
+    "Provas UC03 (índice imuno-12)"
+   ],
+   "origem_prevista": "au-gell, ak1487207248593"
+  }
+ ],
+ "fontes": {
+  "slides": {
+   "estado": "consultada",
+   "contribuicao": "Inventário e ordem"
+  },
+  "bibliografia": {
+   "estado": "consultada",
+   "contribuicao": "Resposta e evasão; Confirma interferons e NK"
+  },
+  "caoc": {
+   "estado": "não localizada",
+   "contribuicao": "nenhum"
+  },
+  "youtube": {
+   "estado": "não aplicável",
+   "contribuicao": "nenhum"
+  },
+  "veteranos": {
+   "estado": "consultada",
+   "contribuicao": "Mecanismo de cada tipo, exemplos, sensibilização e desencadeamento; Classificação e mecanismos; Tipos I a IV e exemplos"
+  },
+  "provas": {
+   "estado": "consultada",
+   "contribuicao": "Tipo I, PPD, classificação de caso"
+  },
+  "exercicios": {
+   "estado": "consultada",
+   "contribuicao": "—"
+  }
+ }
+}

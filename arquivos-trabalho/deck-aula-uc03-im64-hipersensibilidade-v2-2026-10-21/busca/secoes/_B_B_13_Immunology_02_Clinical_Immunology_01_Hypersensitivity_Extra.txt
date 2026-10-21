@@ -1,0 +1,28 @@
+# #AK_Step1_v12::#B&B::13_Immunology::02_Clinical_Immunology::01_Hypersensitivity::Extra (27 notas)
+1471806188325 3-HighYield-temporary Polyarteritis nodosa (PAN) is a(n) medium-vessel vasculitis
+1473638702772 2-RelativelyHighYield Hypersensitivity pneumonitis is an autoimmune reaction that generates noncaseating granulomas in response to inhaled organic antigens (e.g., pigeon breeder's lung)
+1473638705750 2-RelativelyHighYield Hypersensitivity pneumonitis is a mixed type III / IV hypersensitivity reaction
+1473638710349 2-RelativelyHighYield Hypersensitivity pneumonitis presents with fever, cough , and dyspnea hours after exposure; resolves with removal of exposure
+1474132602716 1-HighYield What type of hypersensitivity reaction occurs in polyarteritis nodosa (PAN)? Type III (immune-complex mediated)
+1478995286449 - Certain drugs (e.g., penicillin ), bind to RBC membranes, leading to formation of antibodies against the drug-RBC complex (IgG-mediated hemolytic anemia)
+1478995290503 3-HighYield-temporary Certain drugs (e.g., α-methyldopa ) induce production of autoantibodies against RBCs (IgG-mediated hemolytic anemia)
+1487117321802 4-LowerYield Natural killer cells may kill cells via binding between CD16 (NK cells) and the Fc region of IgG-bound antigen
+1487207158134 1-HighYield What type of hypersensitivity reaction is Graves disease and myasthenia gravis ? Type II HSR (cellular dysfunction)
+1487207181602 1-HighYield Serum sickness-like reactions (SSLRs) are associated with infections (e.g., HBV) and some drugs acting as haptens (e.g., penicillin)
+1487207190223 1-HighYield Serum sickness presents with fever , urticaria , arthralgia , proteinuria , and lymphadenopathy 1 - 2 weeks after antigen exposure
+1487207192567 1-HighYield What type of hypersensitivity reaction is serum sickness ? Type III HSR (immune complexes)
+1487640101055 1-HighYield Arachidonic acids are converted to leukotrienes via the enzyme 5-lipoxygenase
+1487640261037 2-RelativelyHighYield The key mediators of redness and warmth in inflammation are histamine , prostaglandins , bradykinin , and NO
+1487640276680 4-LowerYield The key mediators of pain in inflammation are bradykinin , PGE 2 , and histamine which sensitize nerve endings
+1487815313912 1-HighYield What type of hypersensitivity reaction is systemic lupus erythematosus (SLE)? Type III* HSR (immune complex deposition)
+1488854891621 3-HighYield-temporary What is the precursor molecule to prostanoids and leukotrienes ? Arachidonic acid
+1499356681150 1-HighYield COX-1 and COX-2 are enzymes that produce prostanoids (e.g., prostaglandins )
+1503091131993 1-HighYield Circulating immune complex deposition causes glomerular damage and subsequent nephritic syndrome in post-streptococcal glomerulonephritis (PSGN)
+1503253636167 1-HighYield The BCG vaccine can result in a false positive PPD test
+1506552739959 1-HighYield Polyarteritis nodosa associated with hepatitis B virus can affect the vessels of the kidney, resulting in hypertension and decreased GFR
+1509300563305 2-RelativelyHighYield Chimeric monoclonal antibodies can sometimes cause a(n) serum sickness within 5-14 days of administration
+1509300714526 1-HighYield Which reaction to monoclonal antibodies includes skin rash, fever, and arthralgias ? Serum sickness
+1509301502004 3-HighYield-temporary Both rituximab and cetuximab are antitumor chimeric antibodies associated with serum sickness
+1523390260119 2-RelativelyHighYield CD4 + Th cell response to M. tuberculosis is most likely to occur 2 - 4 week(s) after exposure
+1579989200419 - The severity of previous allergic reactions predicts the severity of future reactions F
+1581890934727 1-HighYield Autoantibodies form complexes with antigens , which activate the classical complement pathway and induce tissue damage in SLE

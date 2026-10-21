@@ -1,0 +1,46 @@
+# #AK_Step1_v12::#Bootcamp::Dermatology::03_Inflammatory_Diseases_of_the_Skin::03_Atopic_and_Allergic_Diseases (45 notas)
+1474571606722 2-RelativelyHighYield Histamine causes increased nasal and bronchial mucus production (H 1 receptor activation)
+1474571630796 2-RelativelyHighYield Histamine increases vascular permeability , which is responsible for urticaria/hives (H 1 receptor activation)
+1474571685484 1-HighYield Histamine mediates type I hypersensitivity reactions via activation of H 1 receptors
+1474571783356 2-RelativelyHighYield What drug class does cetirizine belong to? 2nd generation H 1 receptor antagonists
+1481335976660 2-RelativelyHighYield Langerhans cells present antigen to naive T cells
+1487117263860 1-HighYield IgE cross-links when exposed to allergen , mediating type I hypersensitivity reactions
+1487207079363 1-HighYield Type I HSR occurs due to cross-linking of Ig E on presensitized mast cells and basophils by antigens, leading to receptor aggregation
+1487207238825 1-HighYield What type of hypersensitivity reaction is allergic contact dermatitis (e.g., poison ivy, nickel allergy)? Type IV HSR (CD4 & CD8 mediated)
+1487207244285 1-HighYield What type of hypersensitivity reaction is a patch test ? Type IV HSR (CD4-mediated)
+1488502448299 - What dermatologic lesion is a transient smooth papule or plaque ? Wheal
+1488502480485 - Spongiosis is defined as epidermal accumulation of edematous fluid in intercellular spaces
+1488502491982 - Atopic dermatitis presents with an intensely pruritic , oozing rash with vesicles and edema due to a type I HSR
+1488502510409 - Atopic dermatitis (eczematous) usually appears on the extensor surfaces and face in infancy
+1488502514188 - Atopic dermatitis ( eczematous ) often manifests as lichenification on flexor surfaces in children and adults
+1488502523510 - Atopic dermatitis (eczema) is associated with increased serum Ig E
+1488502525511 - Allergic contact dermatitis presents with a pruritic , oozing rash with vesicles and edema due to a type IV HSR
+1488502527762 - Allergic contact dermatitis arises upon exposure to allergens (e.g., nickel, poison ivy, neomycin)
+1488502533406 - Treatment of contact dermatitis involves removal of the offending agent and topical glucocorticoids if needed
+1490137883537 2-RelativelyHighYield What toxin is found in spoiled dark-meat fish (e.g., tuna , mahi-mahi , mackerel, bonito)? Histamine (scombroid poisoning)
+1490137886640 4-LowerYield Scombroid poisoning mimics anaphylaxis
+1490137893253 4-LowerYield What is the treatment for scombroid poisoning ? Antihistamines (also may use albuterol and epinephrine if needed)
+1496035182976 4-LowerYield Dupilumab is indicated for asthma and atopic dermatitis (eczema)
+1504816908652 - What metal most likely caused the contact dermatitis pictured below? Nickel
+1504824269861 - What is the recommended treatment for a patient that develops rapid -onset pruritus and urticaria after taking amoxicillin for a sore throat? The lungs are clear to auscultation and there is no strido
+1504827892285 - What is the likely diagnosis in a patient with well-circumscribed and raised erythematous plaques with intense pruritus (pictured below)? The rash occurs episodically > 6 weeks, approximately 2 - 3x/d
+1505158085865 - What is the likely diagnosis in a patient that presents with diffusely rough , dry , and scaly skin ? The symptoms are worse in the winter , and symptoms of dry skin have been present for most of the 
+1505249015747 - Chronic spontaneous urticaria is treated with a(n) 2nd generation H 1 blocker (e.g., cetirizine)
+1505776108422 - What is the likely diagnosis in a healthcare worker that presents with itchy , dry skin on the hands for the past month? Examination shows dry and irritated skin with erythema at the fingers, finger w
+1508366989049 1-HighYield Hypersensitivity reactions are common with sulfa drug use; resulting in fever, hypotension, urticaria, and rash
+1516576752772 - What is/are the first-line treatment(s) for mild-moderate atopic dermatitis ( eczema )? Topical emollients ± topical steroids or calcineurin inhibitors
+1516590087104 - What is the likely diagnosis in an infant with an erythematous rash in the diaper region that spares skin folds ? Irritant (contact) diaper dermatitis
+1519852451482 - Infectious complications of atopic dermatitis (eczema) may be remembered with the mnemonic " TIME ": T inea corporis I mpetigo M olluscum contagiosum E czema herpeticum
+1519852451483 - Infectious complications of atopic dermatitis (eczema) may be remembered with the mnemonic TIME
+1520905749524 5-LowYield Patients with systemic mastocytosis have clonal mast cell proliferation in the bone marrow, skin, and other organs
+1520906322080 5-LowYield Patients with systemic mastocytosis can present with syncope, flushing, hypotension, pruritus, and urticaria due to massive histamine release
+1537560680041 - Erythema and wheals without hypotension is suggestive of urticaria
+1543418914741 - Atopic dermatitis (eczema)
+1545258451697 - Localized pruritic erythematous rash after contact with allergen is most likely allergic contact dermatitis (ACD)
+1545268100346 - What is the likely diagnosis ? Urticaria
+1555761434577 - What is the likely diagnosis in a patient presenting with rash that began as pruritic papules and progressed to linear, erythematous plaques with overlying vesicles oozing yellow fluid ? The patient w
+1579988455367 - The patch test is considered the gold standard method for the diagnosis of allergic contact dermatitis (type IV HSR)
+1582068541475 1-HighYield Vancomycin, opioids, and radiocontrast dye can cause IgE- in dependent mast cell degranulation
+1584230195535 - Patients with a history of atopic dermatitis (eczema) are particularly susceptible to HSV conjunctivitis
+1587686717801 - Ichthyosis vulgaris is caused by a mutation in the filaggrin gene, resulting in dry, scaly skin
+1657742750698 - Treatment for ichthyosis vulgaris includes the following measures: Periodic long baths to remove the scales Frequent use of moisturizers Topical keratolytics

@@ -1,0 +1,8 @@
+# #AK_Step1_v12::#Pixorize::01_Biochemistry::07_Glycogen_Storage_Diseases::03_Cori_Disease_(Type_III) (7 notas)
+1474253778040 1-HighYield What is the mode of inheritance of glycogen storage diseases ? Autosomal recessive
+1474253831255 1-HighYield Cori disease is also known as glycogen storage disease type III
+1474253835007 1-HighYield Cori disease is caused by a deficiency of the glycogen debranching enzyme (α-1,6-glucosidase and 4-α-D-glucanotransferase)
+1474253837734 1-HighYield Cori disease is associated with accumulation of limit dextrin -like structures in the cytosol
+1474253842437 1-HighYield Cori disease presents as a milder form of Von Gierke with normal blood lactate levels
+1474253845687 1-HighYield Cori disease is characterized by functional gluconeogenesis and impaired glycogenolysis
+1474253905130 1-HighYield Which glycogen storage disorder is associated with accumulation of limit dextrin-like structures ? Cori disease

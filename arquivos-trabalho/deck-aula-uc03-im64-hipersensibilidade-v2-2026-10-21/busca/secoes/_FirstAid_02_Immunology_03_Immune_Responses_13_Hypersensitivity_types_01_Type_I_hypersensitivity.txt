@@ -1,0 +1,10 @@
+# #AK_Step1_v12::#FirstAid::02_Immunology::03_Immune_Responses::13_Hypersensitivity_types::01_Type_I_hypersensitivity (9 notas)
+1487206917325 1-HighYield Which type of hypersensitivity reaction is mediated by cross-linking IgE on presensitized mast cells and basophils ? Type I HSR
+1487207079363 1-HighYield Type I HSR occurs due to cross-linking of Ig E on presensitized mast cells and basophils by antigens, leading to receptor aggregation
+1487207084334 1-HighYield The immediate response of mast cell and basophil activation is release of preformed histamine granules and tryptase
+1487207091819 1-HighYield The delayed response of mast cell and basophil activation involves production of chemokines (e.g., to attract eosinophils) and other proinflammatory mediators from mast cells
+1487207094725 1-HighYield Which type of hypersensitivity mediates anaphylaxis (e.g., food, drug, or bee sting allergies)? Type I HSR
+1487207097572 1-HighYield Which type of hypersensitivity mediates atopic reactions (e.g., asthma, allergic rhinitis)? Type I HSR
+1487207100136 2-RelativelyHighYield Skin prick tests or blood (ELISA) tests for allergen-specific IgE are typically used to diagnose type I hypersensitivity reactions
+1487207248593 1-HighYield Which hypersensitivity reaction(s) are antibody-mediated ? I, II, and III
+1489972338045 1-HighYield What type of hypersensitivity is allergic transfusion reaction ? Type I HSR

@@ -1,0 +1,31 @@
+# #AK_Step1_v12::#B&B::09_Endocrinology::03_Pancreas::03_Type_I_Diabetes::Extra (30 notas)
+1402961229963 2-RelativelyHighYield Mucormycosis is an opportunistic fungal infection that is mostly seen in DKA and leukemic patients
+1462128231420 2-RelativelyHighYield Insulin decreases blood glucose concentration by downregulating gluconeogenesis via increased production of fructose-2,6-bisphosphate
+1462128264089 2-RelativelyHighYield Insulin inhibits ketoacid formation in the liver because decreased fatty acid degradation provides less acetyl-CoA substrate for ketoacid formation
+1462131726115 3-HighYield-temporary The major factor that stimulates glucagon secretion is hypoglycemia
+1462327073683 2-RelativelyHighYield Why does type 1 diabetes mellitus present with weight loss and decreased muscle mass? Increased lipolysis and proteolysis due to unopposed glucagon from lack of insulin
+1462327127564 4-LowerYield What is the most common type of diabetes mellitus ? Type 2
+1462327346466 4-LowerYield What is the intracellular potassium level in a patient with T1DM ? Decreased
+1462327641370 4-LowerYield Non-enzymatic glycation of hemoglobin leads to HbA 1c
+1462849149554 1-HighYield IV regular insulin is useful in the management of hyper kalemia
+1462849213386 3-HighYield-temporary The most common complication of insulin therapy is hypoglycemia; may also experience lipodystrophy and hypersensitivity reaction (rare)
+1474922422436 2-RelativelyHighYield In adults, glucosuria begins ( threshold ) at a plasma glucose of ~ 200 mg/dL
+1475203846579 1-HighYield The range of normal values for the plasma anion gap is 8 to 12 mEq/L
+1475203858939 1-HighYield If the "lost" HCO 3 - in metabolic acidosis is replaced by Cl - , the anion gap is normal
+1475203864870 1-HighYield If the "lost" HCO 3 - in metabolic acidosis is replaced by unmeasured anions , the anion gap is increased
+1475704618622 1-HighYield The causes of high anion gap metabolic acidosis may be remembered with the mnemonic MUDPILES
+1475704618623 1-HighYield The causes of high anion gap metabolic acidosis may be remembered with the mnemonic MUDPILES : M ethanol (→ formic acid) U remia D iabetic ketoacidosis P ropylene glycol I ron tablets or I soniazid L 
+1476154118823 3-HighYield-temporary Acetoacetate may spontaneously be converted to acetone , which is expired in the lungs
+1476652222871 3-HighYield-temporary Increased NADH/NAD + (e.g., due to ethanol) causes decreased TCA activity, thus increasing utilization of acetyl-CoA for ketogenesis and lipogenesis
+1487207229813 1-HighYield Type IV HSRs may occur via delayed-type hypersensitivity , which involves CD4 + T-cells
+1502845294644 - How do total body K + levels typically change in patients with diabetic ketoacidosis (DKA) or hyperosmolar hyperglycemic state (HHS)? Decreased
+1525305295646 1-HighYield Severe diabetic ketoacidosis (DKA) can cause respiratory failure
+1525307702827 2-RelativelyHighYield Patients with diabetic ketoacidosis have increased bicarbonate reuptake
+1550626495694 - (-) ketones or acidosis and glucose > 600 mg/dL is suggestive of hyperosmolar hyperglycemic state (HHS)
+1552260881200 - What is the treatment regimen for diabetic ketoacidosis ? - IV fluids, IV insulin, and potassium (if ≤ 5.2) - Once the anion gap closes : subQ insulin - Once blood glucose reaches 200 - 250 mg/dL: D5W
+1555534044594 - Metabolic acidosis is managed by checking the anion gap
+1570740458445 2-RelativelyHighYield Uncontrolled diabetes (HHS, DKA) will cause a(n) hyperosmotic volume contraction
+1584133678687 4-LowerYield Which diabetes type (1 or 2) is associated with other autoimmune diseases? Type 1 DM
+1584368449213 2-RelativelyHighYield What is the total body phosphate level in a patient with type 1 diabetes ? Decreased
+1584375808030 1-HighYield Stress causes increased secretion of epinephrine and cortisol , particularly in the absence of insulin
+1584393298504 4-LowerYield Chronic diabetes predisposes patients to recurrent infection due to poor wound healing , urinary retention , neutrophil dysfunction , and hyperglycemia

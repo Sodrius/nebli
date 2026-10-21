@@ -1,0 +1,179 @@
+Aula 10: Reações de Hipersensibilidade 
+Capítulo 1: Introdução 
+Os distúrbios causados pela resposta imunológica são chamados de doenças de hipersensibilidade. Em alguns casos as respos-
+tas imunes são controladas de forma inadequada, direcionadas inapropriadamente para os tecidos do hospedeiro ou desenca-
+deadas de microrganismos comensais ou antígenos ambientais que, em geral, são inofensivos. 
+Dentre as causas para o desencadeamento de doenças de hipersensibilidade há quadros de autoimunidade; quadros de reações 
+contra microrganismos; e quadros de reações contra antígenos ambientais. Nesse sentido, o debilitante das doenças de hiper-
+sensibilidade é o desencadeamento e a manutenção inadequada da resposta imunológica, ocasionando estímulos difíceis ou 
+impossíveis de serem eliminadas (p.e. autoantígenos, microrganismos comensais e antígenos ambientais). Nesse contexto o 
+próprio sistema imunológico irá apresentar mecanismos de retroalimentação positiva para si mesmo, amplificando a resposta 
+hipersensível. Assim, uma vez que o quadro se inicia é difícil este ser controlado ou interrompido, podendo ocasionar quadros 
+crônicos. 
+As doenças de hipersensibilidade são comumente classificadas de acordo com o tipo de resposta imunológica e o mecanismo 
+efetor responsável pela lesão celular e tecidual. 
+A hipersensibilidade imediata, denominada hipersensibilidade do tipo-I, é causada por anticorpos IgE específicos para antíge-
+nos ambientais e mastócitos. Em geral, a hipersensibilidade imediata também é descrita como uma alergia ou desordem atópi-
+ca. Esse quadro é o quadro mais prevalente de hipersensibilidade. 
+Anticorpos IgG e IgM podem causar lesão tecidual por meio da ativação do sistema complemento, pelo recrutamento de células 
+inflamatórias e por interferir em funções celulares normais. Alguns desses anticorpos são específicos para elementos self, sendo 
+encontrados ligados a células ou tecidos do próprio organismo. Nesse caso a reação de hipersensibilidade é classificada como 
+sendo do tipo-II. Não obstante, estes anticorpos podem também formar imunocomplexos na circulação, os quais são subse-
+quentemente depositados nos tecidos, em particular, nos vasos sanguíneos, causando lesão. Nesse caso a reação de hipersensi-
+bilidade é classificada como sendo do tipo-III. 
+Por fim, a lesão tecidual pode ocorrer devido à indução de inflamação pelos linfócitos T ou diretamente pela morte das células-
+alvo. Nesse caso a reação de hipersensibilidade é classificada como sedo do tipo-IV. 
+ 
+Capítulo 2: Hipersensibilidade tipo-II e III - Doenças 
+Causadas por Anticorpos 
+Como dito anteriormente, as doenças mediadas por anti-
+corpos são produzidas tanto por anticorpos que se ligam a 
+antígenos em determinadas células ou em tecidos extrace-
+lulares como por complexos antígeno-anticorpo que se 
+formam na circulação e são depositados nas paredes dos 
+vasos sanguíneos. 
+
+=== p.61
+UC03 – Apostila Guia de Imunologia | Aula 10: Reações de Hipersensibilidade 
+57 
+ 
+ 
+Quanto aos quadros de hipersensibilidade tipo-II, estes, em 
+geral, não são sistêmicos. Os anticorpos contra antígenos 
+teciduais causam doenças por meio de três mecanismos 
+principais: opsonização direta ou ativação do complemen-
+to – fagocitose por fagócitos que expressam receptores 
+para Fc de IgG e receptores para complemento; recruta-
+mento de neutrófilos e macrófagos, que, pelo mesmo 
+reconhecimento via receptores Fc ou de complemento, irão 
+secretar enzimas lisossomais e ROS (Reactive oxygen speci-
+es); ligação a receptores celulares normais ou outras pro-
+teínas, o que irá ocasionar interferência na função destas 
+estruturas sem a presença de inflamação ou dano tecidual. 
+ 
+Os quadros de hipersensibilidade tipo-II, em geral, são pro-
+duzidos como parte de uma reação autoimune contra antí-
+genos nessas células ou tecidos. Estes anticorpos, no entan-
+to, podem também serem produzidos contra antígenos 
+estranhos imunologicamente cruzados com um componen-
+te self, embora seja raro. 
+No contexto dos quadros de hipersensibilidade tipo-III, suas 
+características patológicas refletem o local da deposição 
+dos imunocomplexos e não são determinadas pela fonte 
+celular do antígeno e, portanto, são de caráter mais sistê-
+mico. Quando há a formação dos imunocomplexos na circu-
+lação, estes são eliminados por macrófagos no fígado e 
+baço. No entanto, à medida que mais e mais imunocomple-
+xos são formados, alguns são depositados no leito vascular. 
+Aqui, pode haver a ativação do complemento e ativação de 
+células inflamatórias com predominância de neutrófilos. Os 
+complexos são depositados principalmente em artérias 
+pequenas e podem ocasionar vasculites, nefrites e artrites. 
+Os sintomas clínicos são de curta duração e as lesões são 
+reversíveis quando não há re-exposição ao antígeno. Os 
+complexos pequenos, muitas vezes, não são fagocitados e 
+tendem a ser depositados nos vasos mais do que comple-
+xos grandes, que, em geral, são eliminados por fagócitos. 
+Tais complexos normalmente produzem lesões teciduais 
+graves e de longo prazo. 
+Muitas doenças imunológicas sistêmicas em humanos são 
+causadas pela deposição de complexos imunes nos vasos 
+sanguíneos – lúpus eritematoso sistêmico (SLE) e várias 
+formas de nefrites e vasculites. 
+O Lúpus Eritematoso Sistêmico (SLE) é uma doença crônica 
+autoimune multissistêmica, remitente e recidivante, que 
+afeta predominantemente mulheres. As principais manifes-
+tações clínicas são erupções, artrite e glomerulonefrite, 
+mas também são comuns anemina hemolítica, trombocito-
+penia e envolvimento do SNC. Essa doença propicia uma 
+hipersensibilidade do tipo-III por meio de imunocomplexos 
+de anticorpos antinucleares. O LES é uma doença complexa 
+na qual fatores genéticos e ambientais contribuem para a 
+quebra de tolerância de linfócitos T e B autorreativos. 
+Capítulo 3: Hipersensibilidade tipo-IV – Doenças Cau-
+sadas por Linfócitos T 
+Os linfócitos T lesam tecidos tanto por desencadear infla-
+mação como por eliminar diretamente células-alvo. A hi-
+persensibilidade do tipo-IV também é conhecida como 
+hipersensibilidade do tipo tardia (DTH) – visto que o qua-
+dro se desenvolve após 24 e 48h – que, em geral, pode 
+instalar um quadro inflamatório crônico (ou uma série de 
+quadros agudos recorrentes). As reações de DHT crônicas 
+podem se desenvolver se a resposta de Th1 a uma infecção 
+
+=== p.62
+ativar macrófagos, mas falhar ao eliminar os microrganis-
+mos fagocitados. 
+Muitas doenças autoimunes específicas de órgãos são cau-
+sadas pela interação de células T autorreativas com antíge-
+nos próprios, levando libração de citocinas e inflamação. 
+Acredita-se que esse seja o mecanismo subjacente principal 
+da artrite reumatoide, da esclerose múltipla, do diabetes 
+tipo 1, da psoríase e outra doenças autoimunes. 
+As doenças cutâneas resultantes de exposição tópica e 
+substâncias químicas e antígenos ambientais, denominadas 
+sensibilidade de contato, devem-se a reações inflamató-
+rias, presumivelmente desencadeadas por neoantígenos 
+formados pela ligação de substâncias químicas com proteí-
+nas próprias. Em termos clínicos, isso pode incluir quadros 
+de rash cutâneo. 
+No contexto da DHT, primeiramente, num primeiro contato 
+com o antígeno não há a instalação de um quadro de hiper-
+sensibilidade. Essa fase é denominada fase de sensibiliza-
+ção. Durante um segundo contato, uma reinfecção, há a o 
+desencadear do quadro. 
+ 
+A artrite reumatoide (AR) é uma doença inflamatória que 
+envolve pequenas e grandes articulações das extremidades, 
+incluindo dedos, ombros, cotovelos, joelhos e tornozelos. A 
+doença caracteriza-se pela inflamação da sinóvia associada 
+à destruição da cartilagem articular e osso, apresentando 
+um quadro morfológico indicativo de resposta imunológica 
+local. É também caracterizada por quadros de hipersensibi-
+lidade do tipo-IV, visto que é mediada por populações de 
+Th1. 
+A esclerose múltipla (EM) é uma doença autoimune do SNC 
+na qual células dos subgrupos Th1 e Th17 reagem contra 
+antígenos próprios da mielina, resultando em inflamação 
+do SNC com ativação de macrófagos ao redor dos nervos, 
+cérebro e medula espinal. Além da destruição da mielina, 
+anormalidades na condução nervosa e defeitos neurológi-
+cos. A EM também é caracterizada por quadros de hiper-
+sensibilidade do tipo-IV. 
+Capítulo 4: Hipersensibilidade do Tipo-I 
+Uma variedade de doenças humanas são causadas por 
+respostas imunes a antígenos ambientais não microbianos 
+que envolvem células Th2, IgE, mastócitos e eosinófilos. As 
+IgE se ligam a receptores Fc de mastócitos e eosinófilos, o 
+que irá desencadear uma reação cruzada com antígenos e, 
+consequentemente, liberar diversos mediadores pró-
+inflamatórios. Essa reação é chamada de hipersensibilida-
+de imediata ou do tipo-I. Após a resposta imediata, há um 
+componente inflamatório que se desenvolve de forma mais 
+lenta chamada reação de fase tardia caracterizada pelo 
+acúmulo de neutrófilos, eosinófilos, macrófagos e Th2. Em 
+termos clínicos, essas reações são chamadas alergia ou 
+atopia (embora no cotidiano aquilo que chama-se alergia 
+nem sempre é uma reação de hipersensibilidade tipo-I). 
+Repetidos ataques destas doenças podem ocasionar um 
+caso crônico com lesão tecidual e remodelamento. 
+As marcas características das doenças alérgicas são a ativa-
+ção das células Th2 e a produção de anticorpo IgE. A se-
+quência típica de eventos da hipersensibilidade imediata 
+consiste na exposição a um antígeno, a ativação das células 
+Th2 e células B específicas para o antígeno, produção de 
+IgE, ligação deste em receptores Fc de mastócitos, desen-
+cadeamento dos mastócitos através da reexposição ao 
+antígeno, resultando na liberação de mediadores dos mas-
+tócitos e subsequente reação patológica. 
+Vale dizer que os antígenos que provocam hipersensibilida-
+de imediata também são denominados alérgenos, e são 
+geralmente proteínas ambientais ou substâncias químicas 
+que podem modificar proteínas de alguma maneira. 
+As manifestações clínicas e patológicas da hipersensibilida-
+de imediata consistem na reação vascular e do músculo liso 
+que se desenvolvem rapidamente após a exposição repeti-
+da ao alérgeno e uma reação inflamatória tardia. 
+Reações de hipersensibilidade imediata se manifestam de 
+diferentes maneiras, dependendo dos tecidos afetados, 
+incluindo erupções cutâneas, sinusite, constrição dos brôn-

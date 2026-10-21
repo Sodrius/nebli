@@ -1,0 +1,5 @@
+# #AK_Step1_v12::#Pixorize::02_Immunology::08_Hypersensitivity_Reactions::04_Type_4_Hypersensitivity_Reactions (4 notas)
+1487207218837 1-HighYield Which type of hypersensitivity reaction is T-cell mediated ? Type IV
+1487207220752 1-HighYield Type IV HSRs may occur via direct cell cytotoxicity , which involves CD8 + T cells
+1487207229813 1-HighYield Type IV HSRs may occur via delayed-type hypersensitivity , which involves CD4 + T-cells
+1487207240713 1-HighYield What type of hypersensitivity reaction is graft-versus-host disease ? Type IV HSR (delayed-type hypersensitivity)

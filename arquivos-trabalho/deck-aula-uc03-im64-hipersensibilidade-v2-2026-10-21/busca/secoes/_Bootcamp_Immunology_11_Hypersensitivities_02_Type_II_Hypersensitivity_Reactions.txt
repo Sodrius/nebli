@@ -1,0 +1,26 @@
+# #AK_Step1_v12::#Bootcamp::Immunology::11_Hypersensitivities::02_Type_II_Hypersensitivity_Reactions (25 notas)
+1475376572176 1-HighYield What type of hypersensitivity reaction is Goodpasture syndrome ? Type II HSR
+1478995359420 3-HighYield-temporary The direct Coombs test answers the question: "Are the patient's RBCs already bound by immunoglobulin (or complement)?"
+1478995378594 3-HighYield-temporary The indirect Coombs test answers the question: "Does the patient have antibodies in their serum ?"
+1487117328797 1-HighYield Which immunoglobulin typically mediates antibody-dependent cellular cytotoxicity (ADCC)? IgG*
+1487207102783 1-HighYield Which type of hypersensitivity reaction is mediated by binding of antibodies to cell-surface antigens ? Type II HSR
+1487207105743 1-HighYield Type II HSRs can cause pathology by inducing cellular destruction by opsonizing the target with antibodies
+1487207112553 1-HighYield Type II HSRs can cause pathology by inducing cellular dysfunction, causing abnormal blockade or activation/inactivation of downstream cellular processes
+1487207119666 1-HighYield Type II HSRs can cause pathology by inducing inflammation by antibodies depositing on cell surfaces, which in turn activates complement
+1487207122541 1-HighYield Which immunoglobulin(s) mediate type II hypersensitivity reactions ? IgM and IgG
+1487207141168 1-HighYield What test is used to diagnose type II hypersensitivity reactions against RBCs ? Coombs test
+1487207142388 1-HighYield What type of hypersensitivity reaction are immune thrombocytopenia and autoimmune-hemolytic anemia? Type II HSR (cellular destruction)
+1487207145930 1-HighYield What type of hypersensitivity reaction are hemolytic disease of the newborn and transfusion reactions ? Type II HSR (cellular destruction)
+1487207156353 1-HighYield What type of hypersensitivity reaction is hyperacute transplant rejection ? Type II HSR (inflammation)
+1487207158134 1-HighYield What type of hypersensitivity reaction is Graves disease and myasthenia gravis ? Type II HSR (cellular dysfunction)
+1487207160372 1-HighYield What type of hypersensitivity reaction is pemphigus vulgaris ? Type II HSR (cellular dysfunction)
+1487207248593 1-HighYield Which hypersensitivity reaction(s) are antibody-mediated ? I, II, and III
+1488418525490 1-HighYield Myasthenia gravis is caused by autoantibodies to post synaptic ACh receptors at the NMJ
+1488679982353 - What type of hypersensitivity reaction is pemphigus vulgaris and bullous pemphigoid ? Type II HSR
+1489972348185 1-HighYield A febrile nonhemolytic transfusion reaction (FNHTR) can exhibit what type of hypersensitivity reaction? Type II HSR
+1489972385073 1-HighYield What type of hypersensitivity is acute hemolytic transfusion reaction (AHTR)? Type II HSR
+1501511684746 1-HighYield What type of hypersensitivity reaction is pernicious anemia ? Type II HSR
+1503089762191 1-HighYield What type of hypersensitivity reaction is rheumatic fever ? Type II HSR (inflammation)
+1516061921946 1-HighYield Rh hemolytic disease of the newborn has the potential to occur when a Rh - mother has a Rh + fetus
+1516062222140 1-HighYield If an Rh- mother with anti-D IgG antibodies has a subsequent pregnancy with an Rh+ fetus , the fetus can develop hydrops fetalis
+1516062395011 1-HighYield If an Rh- mother with anti-D IgG antibodies has a subsequent pregnancy with an Rh+ fetus and the baby survives to delivery, the newborn can develop jaundice , which in serious cases can also manifest 

@@ -1,0 +1,8 @@
+# #AK_Step1_v12::#Pixorize::01_Biochemistry::07_Glycogen_Storage_Diseases::01_Pompe_Disease_(Type_II) (7 notas)
+1474253778040 1-HighYield What is the mode of inheritance of glycogen storage diseases ? Autosomal recessive
+1474253812426 1-HighYield Pompe disease is also known as glycogen storage disease type II
+1474253815146 1-HighYield Pompe disease is caused by a deficiency of the enzyme lysosomal α-1,4-glucosidase (acid maltase)
+1474253818543 1-HighYield Pompe disease is characterized by cardio megaly
+1474253821570 1-HighYield Pompe disease is a glycogen storage disease associated with hypertrophic cardiomyopathy
+1474253824779 1-HighYield Pompe disease is associated with exercise intolerance
+1497307205371 1-HighYield Enzyme replacement therapy for Pompe disease requires replacement of α-1,4-glucosidase (AKA acid maltase )

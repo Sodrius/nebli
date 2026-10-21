@@ -1,0 +1,227 @@
+Aula 13 – Reações de hipersensibilidade 
+ 
+ 
+1. Considerações iniciais 
+ 
+• Hipersensibilidade é um conceito elaborado pelos 
+pesquisadores Gell e Coombs e diz respeito a um dano 
+tecidual mediado pelo sistema imunológico. Tal dano 
+ocorre num contexto de resposta a um patógeno, a um 
+antígeno não patogênico ou até mesmo um antígeno 
+próprio (reação autoimune); 
+• De modo geral, o tipo I ocorre frente a antígenos 
+ambientais não patogênicos e é mediado por IgE, o tipo II ocorre frente a 
+processos autoimunes e é dirigido contra a superfície ou matriz extracelular, 
+o tipo III ocorre frente a antígenos solúveis e gera imunocomplexos, o tipo 
+IV é mediado por linfócitos T. Esses tipos serão estudados profundamente. 
+ 
+2. Hipersensibilidade tipo I ou imediata 
+ 
+• Processo de resposta a alérgenos (principalmente antígenos inoculados 
+não patogênicos) e mediado por IgE. Essa reação se dá pela substituição 
+da produção de IgM ou IgG para esses antígenos; 
+• Dentre os alérgenos mais frequentes encontram-se pólen, drogas, 
+alimentos (frutos do mar, leite), produtos de artrópodes (veneno, fezes), 
+esporos fúngicos e pelos de animais; 
+• Além do IgE, também participam dessa resposta os linfócitos Th2 (padrão 
+de resposta característico para IgE), basófilos, mastócitos, eosinófilos e 
+receptores FceR1; 
+• O processo de produção de IgE se inicia 
+com a ativação de linfócitos TCD4 por 
+células APC. O linfócito TCD4 assumirá 
+o padrão Th2 e auxiliará o linfócito B, 
+que se transformará em plasmócito. 
+Esse último produzirá IgE. Nesse 
+processo, algumas citocinas ativarão 
+basófilos e mastócitos; 
+• Após algum tempo, uma nova 
+inoculação do alérgeno resulta no 
+contato desse com mastócitos que 
+apresentavam alta afinidade por IgE específica. 
+Esses mastócitos sofrerão degranulação, liberando 
+aminas vasoativas; 
+• Dessa maneira, o quadro clínico do primeiro contato 
+com o alérgeno é inexistente, pois somente a 
+sensibilização é provocada (especificação das IgE 
+às quais se ligam os mastócitos). Posteriormente, a 
+ocorrência de um segundo contato promove uma 
+
+=== p.73
+reação conhecida como desencadeamento, em que o mastócito ligado à 
+IgE específico libera aminas vasoativas e enzimas por degranulação, 
+mediadores lipídicos das vias do ácido aracdônico e citocinas (produzidas 
+numa fase mais tardia devido à necessidade de transcrição); 
+• As aminas vasoativas e os mediadores lipídicos atuarão provocando 
+vasodilatação, aumento de permeabilidade, contração da musculatura lisa 
+(broncoconstrição no caso de asma brônquica), aumento da motilidade 
+intestinal (eventualmente provoca diarreia). Citocinas e mediadores lipídicos 
+provocam inflamação. Enzimas provocam dano tecidual, que pode ser 
+intensificado pela ação de eosinófilos; 
+• Alguns exemplos de quadros clínicos são: rinite crônica, asma brônquica, 
+choque anafilático e eczema atópico. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.1 Análise de quadros clínicos da hipersensibilidade tipo I 
+ 
+• Asma brônquica: no desencadeamento, a fase imediata 
+se estabelece em minutos, sendo caracterizada pela 
+liberação de histamina (vasodilatação e edema), PGs 
+(vasodilatação, edema e broncoconstrição) e LTs 
+(broncoconstrição). A fase tardia se estabelece após 
+algumas horas e pode perdurar por muitos dias, sendo 
+caracterizada pela liberação de citocinas (IL4, IL5, IL6, 
+TNFa), que recrutam eosinófilos e neutrófilos; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== p.74
+• Choque anafilático: fenômeno sistêmico que ocorre 
+após a entrada do antígeno via circulação (ex: 
+penicilina) ou absorção por pele ou intestino, sendo 
+caracterizado pela vasodilatação generalizada 
+(choque) e broncoconstrição com asfixia. O tratamento 
+se dá pela injeção de epinefrina, que relaxa músculos, 
+diminui a permeabilidade, melhora o ritmo cardíaco e 
+bloqueia a degranulação adicional; 
+• Alergia alimentar: em geral provoca prejuízos locais 
+como vômito e diarreia, mas também pode provocar reações sistêmicas 
+(geralmente na pele); 
+• Rinite alérgica: alérgeno se infiltra pela via respiratória 
+e afeta conjuntiva e mucosa nasal. Isso provoca a 
+formação de exsudato nasal, conjuntival e nas vias 
+aéreas superiores, além de espirro e tosse; 
+• PS: o diagnóstico desses quadros se dá pela realização de teste cutâneo 
+com dosagem de IgE total e/ou específica. O tratamento pode ser realizado 
+com inibidores do metabolismo do ácico araquidônico, corticoides (inibem 
+produção de citocinas) e cromolina (inibe degranulação dos mastócitos).  
+ 
+3. Hipersensibilidade tipo II 
+ 
+• Como mencionado, a hipersensibilidade tipo II é dirigida 
+frente a estruturas da superfície ou matriz extracelular. Tal 
+processo é mediado por anticorpos IgM ou IgG e afeta 
+tanto a fisiologia celular como a tecidual; 
+• Tais anticorpos são revelados com a incubação do soro do 
+paciente com tecido obtido em autópsia. Esse corte 
+histológico será “alvejado” pelos anticorpos, que 
+geralmente bloquearão uma estrutura ou uma função. 
+Posteriormente, adiciona-se anti-IgG e anti-IgM com 
+marcadores, o que permite a conclusão a respeito da 
+presença dos anticorpos; 
+• Doenças como Lupus e Granulomatose de Wegener 
+provocam, por exemplo, a formação de anticorpos anti-
+neutrófilo, enquanto a Diabetes Mellitus provoca a formação de anticorpos 
+anti-ilhotas pancreáticas; 
+• A maioria das doenças 
+conhecidas é provocada por 
+antígenos do próprio 
+organismo. Contudo, a 
+doença hemolítica do RN e 
+algumas reações 
+transfusionais ocorrem 
+contra antígenos inoculados 
+(Rh+ e A/B, respectivamente). Ambas atingem as hemácias. 
+
+=== p.75
+4. Hipersensibilidade tipo III 
+ 
+• Processo mediado por anticorpos IgM ou IgG e dirigido contra antígenos 
+solúveis (estranhos ou próprios). Esses antígenos juntam-se a anticorpos 
+nos imunocomplexos, que podem ativar complementos. A lesão nesse caso 
+se dá pelo depósito de um grande número de imunocomplexos 
+principalmente nas paredes dos vasos (ação local ou sistêmica); 
+• Doença do soro, glomerulonefrite pós-estreptocócica e elefantíase 
+decorrente de filariose são exemplos de casos que ocorrem frente a 
+antígenos inoculados, enquanto lúpus eritematosos disseminados e artrite 
+reumatoide são exemplos de casos que 
+ocorrem frente a antígenos próprios; 
+• A descoberta do quadro clínico, nesse 
+caso, se dá pela análise de depósitos na 
+parede do corte histológico através de anti-
+Imunoglobulina; 
+• A imagem ao lado, por exemplo, apresenta 
+a deposição de imunocomplexos para IgG 
+no glomérulo renal; 
+• Ação local: resposta restrita em que os 
+imunocomplexos formados frente a antígenos solúveis 
+ativam a via clássica do complemento, atraindo 
+neutrófilos e posteriormente mastócitos e outros 
+polimorfonucleares; 
+• Ação sistêmica: imunocomplexos formados se 
+difundem pela corrente sanguínea, provocando 
+vasculites, por exemplo. Na doença do soro, a 
+inoculação de níveis altos de anticorpos para um 
+veneno, por exemplo, provoca a formação de outros 
+anticorpos frente a proteínas do animal que forneceu 
+os anticorpos contra o veneno. Os imunocomplexos 
+provocarão vasculites e eventualmente hemorragias; 
+• No caso do lúpus eritematoso disseminado, o 
+indivíduo desenvolve anticorpos contra DNA, 
+histonas, nucleoproteínas e RNA nuclear. Os 
+imunocomplexos poderão se depositar em vasos, 
+pele, cavidade articular e glomérulo renal. A ativação 
+do complemento também provoca a atração de polimorfonucleares. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== p.76
+5. Hipersensibilidade tipo IV ou Tardia 
+ 
+• Reação desencadeada frente a antígenos próprios, inoculados sem efeito 
+patogênico e antígenos de patógenos. A lesão nesse caso é mediada pela 
+atividade exacerbada dos linfócitos T (CD4 e CD8), que ativam outros 
+leucócitos para realização de dano celular direto; 
+• Exemplos de doenças ocasionadas por antígenos 
+patogênicos são doenças granulomatosas 
+decorrentes de herpesvírus ou vírus do sarampo; 
+dermatites de contato ocorrem frente a antígenos não 
+patogênicos; esclerose múltipla e artrite reumatoide 
+são doenças autoimunes; 
+• As dermatites de contato podem ser ocasionadas por 
+respostas mais exacerbadas de padrão Th2 e/ou 
+Th17. Se o caso se torna crônica, a denominação 
+correta é eczema; 
+• A esclerose múltipla ocorre por uma resposta 
+exacerbada de Th1 e Th17, que atraem células 
+inflamatórias para ataques conjuntos contra a bainha 
+de mielina. A artrite reumatoide decorre do ataque de 
+linfócitos T no espaço articular. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== p.77

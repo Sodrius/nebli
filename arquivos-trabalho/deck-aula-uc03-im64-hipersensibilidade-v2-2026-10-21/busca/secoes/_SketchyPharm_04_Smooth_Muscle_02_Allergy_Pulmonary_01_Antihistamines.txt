@@ -1,0 +1,29 @@
+# #AK_Step1_v12::#SketchyPharm::04_Smooth_Muscle::02_Allergy_&_Pulmonary::01_Antihistamines (28 notas)
+1474571583341 1-HighYield Allergic inflammation is mediated by histamine , which acts on the H 1 histamine receptor
+1474571586703 2-RelativelyHighYield What G protein is the H 1 histamine receptor coupled to? G q
+1474571591865 2-RelativelyHighYield What G protein is the H 2 histamine receptor coupled to? G s
+1474571606722 2-RelativelyHighYield Histamine causes increased nasal and bronchial mucus production (H 1 receptor activation)
+1474571612120 2-RelativelyHighYield Activation of the H 1 histamine receptor may cause pain , pruritus , and vasodilation
+1474571630796 2-RelativelyHighYield Histamine increases vascular permeability , which is responsible for urticaria/hives (H 1 receptor activation)
+1474571636173 3-HighYield-temporary Histamine causes constriction of bronchial smooth muscle , especially in patients with asthma (H 1 receptor activation)
+1474571653671 3-HighYield-temporary In the brain , histamine may regulate sleep and arousal via its H 1 receptor
+1474571658398 3-HighYield-temporary Which generation of H 1 histamine receptor antagonists are used to treat allergies ? Both 1 st and 2 nd generation :)
+1474571667626 2-RelativelyHighYield What drug class do diphenhydramine and dimenhydrinate belong to? 1st generation H 1 receptor antagonists
+1474571672988 4-LowerYield What drug class does chlorpheniramine belong to? 1st generation H 1 receptor antagonist
+1474571677535 2-RelativelyHighYield What drug class do hydroxyzine , meclizine , and promethazine belong to? 1st generation H 1 receptor antagonists
+1474571685484 1-HighYield Histamine mediates type I hypersensitivity reactions via activation of H 1 receptors
+1474571698024 1-HighYield 1st generation H 1 histamine receptor antagonists may be used to treat vestibular nausea and motion sickness
+1474571703670 2-RelativelyHighYield Do 1st generation H 1 receptor antagonists cross the blood-brain barrier ? Yes (lipophilic)
+1474571708813 3-HighYield-temporary Are 1st generation H 1 receptor antagonists associated with drowsiness ? Yes (cross BBB and have central effects)
+1474571715642 1-HighYield 1st generation H 1 receptor antagonists , especially diphenhydramine , may be used as a(n) sleep aid
+1474571737889 2-RelativelyHighYield 1st generation H 1 receptor antagonists may antagonize muscarinic receptors , leading to significant anticholinergic effects
+1474571746097 2-RelativelyHighYield 1st generation H 1 receptor antagonists may acutely suppress the extrapyramidal side effects associated with certain antipsychotic drugs
+1474571753825 2-RelativelyHighYield 1st generation H 1 receptor antagonists may stimulate appetite and cause weight gain due to anti- serotonergic effects
+1474571758433 2-RelativelyHighYield 1st generation H 1 receptor antagonists may cause dizziness and hypotension due to anti -α 1 -adrenergic effects
+1474571762838 2-RelativelyHighYield 1st generation H 1 receptor antagonists may cause cognitive impairment and delirium , especially in the elderly
+1474571774976 3-HighYield-temporary Adverse effects of 1st generation H 1 receptor antagonists may be more common and more severe in elderly patients
+1474571779170 2-RelativelyHighYield What drug class does fexofenadine belong to? 2nd generation H 1 receptor antagonist
+1474571783356 2-RelativelyHighYield What drug class does cetirizine belong to? 2nd generation H 1 receptor antagonists
+1474571788333 2-RelativelyHighYield What drug class does loratadine belong to? 2nd generation H 1 receptor antagonists
+1474571793623 2-RelativelyHighYield Do 2nd generation H 1 receptor antagonists cross the blood-brain barrier ? No
+1474571803096 2-RelativelyHighYield Are 2nd generation H 1 receptor antagonists associated with drowsiness ? No (do not cross BBB therefore less sedation)

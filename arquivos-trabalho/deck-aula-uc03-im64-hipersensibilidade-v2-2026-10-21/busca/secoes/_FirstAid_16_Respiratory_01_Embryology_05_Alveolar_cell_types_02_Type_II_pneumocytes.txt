@@ -1,0 +1,7 @@
+# #AK_Step1_v12::#FirstAid::16_Respiratory::01_Embryology::05_Alveolar_cell_types::02_Type_II_pneumocytes (6 notas)
+1473289602247 1-HighYield The alveolar walls are lined with epithelial cells called type I and type II pneumocytes
+1473289611174 1-HighYield Type II pneumocytes are responsible for synthesis of pulmonary surfactant
+1473289619233 1-HighYield Type II pneumocytes have regenerative capacity for both type I and type II pneumocytes
+1474509484893 1-HighYield Type II pneumocytes are clustered, cuboidal cells
+1474509488862 1-HighYield Type II pneumocytes proliferate during lung damage
+1486857214573 1-HighYield Lamellar bodies are secretory organelles found in type II pneumocytes that release surfactant

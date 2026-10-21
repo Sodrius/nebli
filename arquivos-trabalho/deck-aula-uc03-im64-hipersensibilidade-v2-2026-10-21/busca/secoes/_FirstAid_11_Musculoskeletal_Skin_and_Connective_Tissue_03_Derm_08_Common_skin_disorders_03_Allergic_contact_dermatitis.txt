@@ -1,0 +1,4 @@
+# #AK_Step1_v12::#FirstAid::11_Musculoskeletal_Skin_and_Connective_Tissue::03_Derm::08_Common_skin_disorders::03_Allergic_contact_dermatitis (3 notas)
+1488502525511 - Allergic contact dermatitis presents with a pruritic , oozing rash with vesicles and edema due to a type IV HSR
+1488502527762 - Allergic contact dermatitis arises upon exposure to allergens (e.g., nickel, poison ivy, neomycin)
+1488502533406 - Treatment of contact dermatitis involves removal of the offending agent and topical glucocorticoids if needed

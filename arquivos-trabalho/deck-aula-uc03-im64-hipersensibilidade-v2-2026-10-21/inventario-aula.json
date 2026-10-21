@@ -1,0 +1,1348 @@
+{
+ "aula": "Reações de hipersensibilidade (UC03 P3; Imunologia)",
+ "lido_antes_da_selecao": true,
+ "slides": [
+  {
+   "numero": 1,
+   "classe": "capa",
+   "titulo": "Capa",
+   "justificativa": "capa sem conteúdo"
+  },
+  {
+   "numero": 2,
+   "classe": "conteudo",
+   "titulo": "Lâmina 2",
+   "itens": [
+    {
+     "id": "im64-s02-i2-1",
+     "texto": "Gell e Coombs: os quatro tipos",
+     "card": "au-gell"
+    },
+    {
+     "id": "im64-s02-i2-2",
+     "texto": "Antes de IV: tipos mediados por anticorpo são I, II e III",
+     "card": "ak1487207248593"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "classe": "conteudo",
+   "titulo": "Lâmina 3",
+   "itens": [
+    {
+     "id": "im64-s03-i3-1",
+     "texto": "Tipo II: anticorpos contra antígenos de superfície celular",
+     "card": "ak1487207102783"
+    },
+    {
+     "id": "im64-s03-i3-2",
+     "texto": "Tipo II: mediado por IgM e IgG",
+     "card": "ak1487207122541"
+    },
+    {
+     "id": "im64-s03-i3-3",
+     "texto": "Tipo II destrói a célula por opsonização",
+     "card": "ak1487207105743"
+    },
+    {
+     "id": "im64-s03-i3-4",
+     "texto": "Tipo II causa disfunção: bloqueio ou ativação de receptor",
+     "card": "ak1487207112553"
+    },
+    {
+     "id": "im64-s03-i3-5",
+     "texto": "Tipo II causa inflamação por complemento e fagócitos",
+     "card": "ak1487207119666"
+    },
+    {
+     "id": "im64-s03-i3-6",
+     "texto": "ADCC: IgG liga a NK por CD16",
+     "card": "sh-1791629595996"
+    },
+    {
+     "id": "im64-s03-i3-7",
+     "texto": "IgG opsonina: fagocitose por receptor de Fc ou complemento",
+     "card": "sh-1791629595447"
+    },
+    {
+     "id": "im64-s03-i3-8",
+     "texto": "Via clássica do complemento começa em C1, ativado por IgM ou IgG",
+     "card": "sh-1791667094087"
+    },
+    {
+     "id": "im64-s03-i3-a1",
+     "texto": "Apoio ao card ak1487207119666",
+     "card": "ak1487207119666"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "classe": "conteudo",
+   "titulo": "Lâmina 4",
+   "itens": [
+    {
+     "id": "im64-s04-i4-a1",
+     "texto": "Apoio ao card ak1500404728172",
+     "card": "sh-1791629595447"
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "classe": "conteudo",
+   "titulo": "Lâmina 5",
+   "itens": [
+    {
+     "id": "im64-s05-i5-a1",
+     "texto": "Apoio ao card ak1487207102783",
+     "card": "ak1487207102783"
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "classe": "conteudo",
+   "titulo": "Lâmina 6",
+   "itens": [
+    {
+     "id": "im64-s06-i6-1",
+     "texto": "Pênfigo: tipo II (desmossomos)",
+     "card": "ak1487207160372"
+    },
+    {
+     "id": "im64-s06-i6-a1",
+     "texto": "Apoio ao card ak1487207160372",
+     "card": "ak1487207160372"
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 7: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 8,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 8: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 9,
+   "classe": "conteudo",
+   "titulo": "Lâmina 9",
+   "itens": [
+    {
+     "id": "im64-s09-i9-1",
+     "texto": "Trombocitopenia imune e anemia hemolítica autoimune: tipo II",
+     "card": "ak1487207142388"
+    },
+    {
+     "id": "im64-s09-i9-2",
+     "texto": "Doença hemolítica do RN e reações transfusionais: tipo II",
+     "card": "ak1487207145930"
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "classe": "conteudo",
+   "titulo": "Lâmina 10",
+   "itens": [
+    {
+     "id": "im64-s10-i10-1",
+     "texto": "Goodpasture: tipo II (membrana basal)",
+     "card": "ak1475376572176"
+    },
+    {
+     "id": "im64-s10-i10-2",
+     "texto": "Graves e miastenia gravis: tipo II com disfunção celular",
+     "card": "ak1487207158134"
+    },
+    {
+     "id": "im64-s10-i10-3",
+     "texto": "Febre reumática: tipo II",
+     "card": "ak1503089762191"
+    },
+    {
+     "id": "im64-s10-i10-4",
+     "texto": "Anemia perniciosa: tipo II",
+     "card": "ak1501511684746"
+    },
+    {
+     "id": "im64-s10-i10-5",
+     "texto": "Miastenia: autoanticorpo contra receptor de acetilcolina",
+     "card": "sh-1792166976595"
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 11: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 12,
+   "classe": "conteudo",
+   "titulo": "Lâmina 12",
+   "itens": [
+    {
+     "id": "im64-s12-i12-a1",
+     "texto": "Apoio ao card ak1487207145930",
+     "card": "ak1487207145930"
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "classe": "conteudo",
+   "titulo": "Lâmina 13",
+   "itens": [
+    {
+     "id": "im64-s13-i13-1",
+     "texto": "Doença hemolítica Rh: mãe Rh− e feto Rh+",
+     "card": "ak1516061921946"
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "classe": "conteudo",
+   "titulo": "Lâmina 14",
+   "itens": [
+    {
+     "id": "im64-s14-i14-1",
+     "texto": "Tipo III: imunocomplexos circulantes",
+     "card": "ak1487207162179"
+    },
+    {
+     "id": "im64-s14-i14-2",
+     "texto": "Conexão: tipo II (antígeno fixo) e tipo III (antígeno solúvel)",
+     "card": "au-liga-ii-iii"
+    },
+    {
+     "id": "im64-s14-i14-a1",
+     "texto": "Apoio ao card au-liga-ii-iii",
+     "card": "au-liga-ii-iii"
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "classe": "conteudo",
+   "titulo": "Lâmina 15",
+   "itens": [
+    {
+     "id": "im64-s15-i15-1",
+     "texto": "Hapteno: molécula pequena que se liga a proteína e induz resposta",
+     "card": "ak1487207184256"
+    },
+    {
+     "id": "im64-s15-i15-2",
+     "texto": "Glomerulonefrite pós-estreptocócica: tipo III",
+     "card": "ak1487207216546"
+    },
+    {
+     "id": "im64-s15-i15-3",
+     "texto": "Artrite reumatoide: componente tipo III",
+     "card": "ak1583964087768"
+    },
+    {
+     "id": "im64-s15-i15-4",
+     "texto": "Poliarterite nodosa: tipo III",
+     "card": "ak1474132602716"
+    },
+    {
+     "id": "im64-s15-i15-5",
+     "texto": "Imunocomplexos circulantes depositam no glomérulo na GNPE",
+     "card": "ak1503091131993"
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 16: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 17,
+   "classe": "conteudo",
+   "titulo": "Lâmina 17",
+   "itens": [
+    {
+     "id": "im64-s17-i17-1",
+     "texto": "Tipo III: imunocomplexos ativam o complemento e atraem neutrófilos",
+     "card": "ak1487207167794"
+    },
+    {
+     "id": "im64-s17-i17-2",
+     "texto": "Reação de Arthus: tipo III local",
+     "card": "ak1487207194698"
+    },
+    {
+     "id": "im64-s17-i17-3",
+     "texto": "Arthus: imunocomplexos na pele com edema, necrose e complemento",
+     "card": "ak1487207200447"
+    },
+    {
+     "id": "im64-s17-i17-4",
+     "texto": "C3b ajuda a limpar imunocomplexos",
+     "card": "sh-1791667097538"
+    },
+    {
+     "id": "im64-s17-i17-a1",
+     "texto": "Apoio ao card ak1487207167794",
+     "card": "ak1487207167794"
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "classe": "conteudo",
+   "titulo": "Lâmina 18",
+   "itens": [
+    {
+     "id": "im64-s18-i18-a1",
+     "texto": "Apoio ao card ak1487207200447",
+     "card": "ak1487207200447"
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "classe": "conteudo",
+   "titulo": "Lâmina 19",
+   "itens": [
+    {
+     "id": "im64-s19-i19-1",
+     "texto": "Doença do soro: anticorpos contra proteínas séricas estranhas",
+     "card": "ak1487207175248"
+    },
+    {
+     "id": "im64-s19-i19-2",
+     "texto": "Doença do soro: tipo III",
+     "card": "ak1487207192567"
+    },
+    {
+     "id": "im64-s19-i19-3",
+     "texto": "Doença do soro: sintomas 1–2 semanas depois do antígeno",
+     "card": "ak1487207190223"
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 20: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 21,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 21: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 22,
+   "classe": "conteudo",
+   "titulo": "Lâmina 22",
+   "itens": [
+    {
+     "id": "im64-s22-i22-1",
+     "texto": "Lúpus: tipo III (imunocomplexos)",
+     "card": "ak1487815313912"
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 23: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 24,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 24: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 25,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 25: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 26,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 26: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 27,
+   "classe": "conteudo",
+   "titulo": "Lâmina 27",
+   "itens": [
+    {
+     "id": "im64-s27-i27-1",
+     "texto": "Tipo IV: mediado por células T",
+     "card": "ak1487207218837"
+    },
+    {
+     "id": "im64-s27-i27-2",
+     "texto": "Tipo IV por citotoxicidade direta: CD8",
+     "card": "ak1487207220752"
+    },
+    {
+     "id": "im64-s27-i27-3",
+     "texto": "Conexão: do anticorpo ao linfócito T",
+     "card": "au-liga-iv"
+    },
+    {
+     "id": "im64-s27-i27-4",
+     "texto": "Tipo IV tardio: CD4 (DTH)",
+     "card": "sh-1791625436408"
+    },
+    {
+     "id": "im64-s27-i27-5",
+     "texto": "MHC II apresenta antígenos exógenos ao CD4",
+     "card": "sh-1791625427059"
+    },
+    {
+     "id": "im64-s27-i27-a1",
+     "texto": "Apoio ao card au-liga-iv",
+     "card": "au-liga-iv"
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "classe": "conteudo",
+   "titulo": "Lâmina 28",
+   "itens": [
+    {
+     "id": "im64-s28-i28-1",
+     "texto": "Dermatite de contato alérgica: tipo IV",
+     "card": "ak1487207238825"
+    },
+    {
+     "id": "im64-s28-i28-2",
+     "texto": "Diabetes tipo 1: tipo IV por citotoxicidade",
+     "card": "ak1462326990404"
+    },
+    {
+     "id": "im64-s28-i28-3",
+     "texto": "Células de Langerhans apresentam antígeno ao T virgem",
+     "card": "sh-1791625425478"
+    },
+    {
+     "id": "im64-s28-i28-a1",
+     "texto": "Apoio ao card ak1481335976660",
+     "card": "sh-1791625425478"
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "classe": "conteudo",
+   "titulo": "Lâmina 29",
+   "itens": [
+    {
+     "id": "im64-s29-i29-1",
+     "texto": "Hipersensibilidade tardia: da sensibilização ao dano",
+     "card": "au-dth-fases"
+    },
+    {
+     "id": "im64-s29-i29-2",
+     "texto": "Th1 ativa macrófagos e T citotóxicos",
+     "card": "sh-1791625422657"
+    },
+    {
+     "id": "im64-s29-i29-3",
+     "texto": "IFN-γ é o sinal que ativa o macrófago",
+     "card": "sh-1791625430208"
+    },
+    {
+     "id": "im64-s29-i29-a1",
+     "texto": "Apoio ao card au-dth-fases",
+     "card": "au-dth-fases"
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "classe": "conteudo",
+   "titulo": "Lâmina 30",
+   "itens": [
+    {
+     "id": "im64-s30-i30-a1",
+     "texto": "Apoio ao card ak1487116928027",
+     "card": "sh-1791625422657"
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "classe": "conteudo",
+   "titulo": "Lâmina 31",
+   "itens": [
+    {
+     "id": "im64-s31-i31-a1",
+     "texto": "Apoio ao card ak1489970364081",
+     "card": "sh-1791625430208"
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 32: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 33,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 33: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 34,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 34: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 35,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 35: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 36,
+   "classe": "conteudo",
+   "titulo": "Lâmina 36",
+   "itens": [
+    {
+     "id": "im64-s36-i36-1",
+     "texto": "Granuloma: Th1 e IFN-γ transformam macrófagos em epitelioides",
+     "card": "sh-1791625436658"
+    },
+    {
+     "id": "im64-s36-i36-a1",
+     "texto": "Apoio ao card ak1487643795892",
+     "card": "sh-1791625436658"
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "classe": "conteudo",
+   "titulo": "Lâmina 37",
+   "itens": [
+    {
+     "id": "im64-s37-i37-a1",
+     "texto": "Apoio ao card ak1487643795892",
+     "card": "sh-1791625436658"
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "classe": "conteudo",
+   "titulo": "Lâmina 38",
+   "itens": [
+    {
+     "id": "im64-s38-i38-a1",
+     "texto": "Apoio ao card ak1487643795892",
+     "card": "sh-1791625436658"
+    }
+   ]
+  },
+  {
+   "numero": 39,
+   "classe": "logistica",
+   "titulo": "Figura sem texto",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 40,
+   "classe": "conteudo",
+   "titulo": "Lâmina 40",
+   "itens": [
+    {
+     "id": "im64-s40-i40-a1",
+     "texto": "Apoio ao card au-tempo",
+     "card": "au-tempo"
+    }
+   ]
+  },
+  {
+   "numero": 41,
+   "classe": "conteudo",
+   "titulo": "Lâmina 41",
+   "itens": [
+    {
+     "id": "im64-s41-i41-1",
+     "texto": "Tempo da reação cutânea por tipo",
+     "card": "au-tempo"
+    },
+    {
+     "id": "im64-s41-i41-2",
+     "texto": "Teste do PPD: tipo IV mediado por Th1",
+     "card": "sh-1791625436533"
+    },
+    {
+     "id": "im64-s41-i41-a1",
+     "texto": "Apoio ao card au-tempo",
+     "card": "au-tempo"
+    }
+   ]
+  },
+  {
+   "numero": 42,
+   "classe": "conteudo",
+   "titulo": "Lâmina 42",
+   "itens": [
+    {
+     "id": "im64-s42-i42-a1",
+     "texto": "Apoio ao card au-tempo",
+     "card": "au-tempo"
+    }
+   ]
+  },
+  {
+   "numero": 43,
+   "classe": "conteudo",
+   "titulo": "Lâmina 43",
+   "itens": [
+    {
+     "id": "im64-s43-i43-1",
+     "texto": "Tipo I: IgE ligada a mastócitos e basófilos",
+     "card": "ak1487206917325"
+    },
+    {
+     "id": "im64-s43-i43-2",
+     "texto": "Conexão: o tipo I fecha a história (IgE no mastócito)",
+     "card": "au-liga-i"
+    },
+    {
+     "id": "im64-s43-i43-3",
+     "texto": "MHC I apresenta antígenos endógenos ao CD8",
+     "card": "sh-1791625426657"
+    },
+    {
+     "id": "im64-s43-i43-4",
+     "texto": "CD8 citotóxico mata por apoptose",
+     "card": "sh-1791625429957"
+    },
+    {
+     "id": "im64-s43-i43-5",
+     "texto": "CD8 induz apoptose por Fas ligante e Fas",
+     "card": "sh-1791625430882"
+    },
+    {
+     "id": "im64-s43-i43-a1",
+     "texto": "Apoio ao card au-liga-i",
+     "card": "au-liga-i"
+    }
+   ]
+  },
+  {
+   "numero": 44,
+   "classe": "conteudo",
+   "titulo": "Lâmina 44",
+   "itens": [
+    {
+     "id": "im64-s44-i44-1",
+     "texto": "Tipo I: ligação cruzada de IgE por antígeno",
+     "card": "ak1487207079363"
+    },
+    {
+     "id": "im64-s44-i44-2",
+     "texto": "IgE faz ligação cruzada ao alérgeno",
+     "card": "sh-1792241811997"
+    },
+    {
+     "id": "im64-s44-i44-a1",
+     "texto": "Apoio ao card ak1487206917325",
+     "card": "ak1487206917325"
+    }
+   ]
+  },
+  {
+   "numero": 45,
+   "classe": "conteudo",
+   "titulo": "Lâmina 45",
+   "itens": [
+    {
+     "id": "im64-s45-i45-a1",
+     "texto": "Apoio ao card au-sensibil",
+     "card": "au-sensibil"
+    }
+   ]
+  },
+  {
+   "numero": 46,
+   "classe": "conteudo",
+   "titulo": "Lâmina 46",
+   "itens": [
+    {
+     "id": "im64-s46-i46-a1",
+     "texto": "Apoio ao card au-sensibil",
+     "card": "au-sensibil"
+    }
+   ]
+  },
+  {
+   "numero": 47,
+   "classe": "conteudo",
+   "titulo": "Lâmina 47",
+   "itens": [
+    {
+     "id": "im64-s47-i47-a1",
+     "texto": "Apoio ao card au-sensibil",
+     "card": "au-sensibil"
+    }
+   ]
+  },
+  {
+   "numero": 48,
+   "classe": "conteudo",
+   "titulo": "Lâmina 48",
+   "itens": [
+    {
+     "id": "im64-s48-i48-a1",
+     "texto": "Apoio ao card au-gell",
+     "card": "au-gell"
+    }
+   ]
+  },
+  {
+   "numero": 49,
+   "classe": "conteudo",
+   "titulo": "Lâmina 49",
+   "itens": [
+    {
+     "id": "im64-s49-i49-a1",
+     "texto": "Apoio ao card au-gell",
+     "card": "au-gell"
+    }
+   ]
+  },
+  {
+   "numero": 50,
+   "classe": "conteudo",
+   "titulo": "Lâmina 50",
+   "itens": [
+    {
+     "id": "im64-s50-i50-1",
+     "texto": "Asma: em geral tipo I",
+     "card": "ak1473628085810"
+    },
+    {
+     "id": "im64-s50-i50-2",
+     "texto": "Anafilaxia: tipo I",
+     "card": "ak1487207094725"
+    }
+   ]
+  },
+  {
+   "numero": 51,
+   "classe": "conteudo",
+   "titulo": "Lâmina 51",
+   "itens": [
+    {
+     "id": "im64-s51-i51-a1",
+     "texto": "Apoio ao card au-mediadores",
+     "card": "au-mediadores"
+    }
+   ]
+  },
+  {
+   "numero": 52,
+   "classe": "logistica",
+   "titulo": "Figura sem texto",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  },
+  {
+   "numero": 53,
+   "classe": "conteudo",
+   "titulo": "Lâmina 53",
+   "itens": [
+    {
+     "id": "im64-s53-i53-1",
+     "texto": "Primeiro contato: sensibilização sem clínica",
+     "card": "au-sensibil"
+    },
+    {
+     "id": "im64-s53-i53-a1",
+     "texto": "Apoio ao card au-sensibil",
+     "card": "au-sensibil"
+    }
+   ]
+  },
+  {
+   "numero": 54,
+   "classe": "conteudo",
+   "titulo": "Lâmina 54",
+   "itens": [
+    {
+     "id": "im64-s54-i54-a1",
+     "texto": "Apoio ao card au-sensibil",
+     "card": "au-sensibil"
+    }
+   ]
+  },
+  {
+   "numero": 55,
+   "classe": "conteudo",
+   "titulo": "Lâmina 55",
+   "itens": [
+    {
+     "id": "im64-s55-i55-1",
+     "texto": "Th2 promove a produção de IgE",
+     "card": "sh-1791625432133"
+    },
+    {
+     "id": "im64-s55-i55-2",
+     "texto": "IL-4 e IL-13 promovem a troca de classe para IgE",
+     "card": "sh-1792241808513"
+    },
+    {
+     "id": "im64-s55-i55-a1",
+     "texto": "Apoio ao card ak1487117161213",
+     "card": "sh-1792241808513"
+    }
+   ]
+  },
+  {
+   "numero": 56,
+   "classe": "conteudo",
+   "titulo": "Lâmina 56",
+   "itens": [
+    {
+     "id": "im64-s56-i56-a1",
+     "texto": "Apoio ao card ak1487116878738",
+     "card": "sh-1791625432133"
+    }
+   ]
+  },
+  {
+   "numero": 57,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 57: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 58,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 58: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 59,
+   "classe": "conteudo",
+   "titulo": "Lâmina 59",
+   "itens": [
+    {
+     "id": "im64-s59-i59-a1",
+     "texto": "Apoio ao card au-mediadores",
+     "card": "au-mediadores"
+    }
+   ]
+  },
+  {
+   "numero": 60,
+   "classe": "conteudo",
+   "titulo": "Lâmina 60",
+   "itens": [
+    {
+     "id": "im64-s60-i60-1",
+     "texto": "IgE se liga ao receptor de alta afinidade FcεRI do mastócito",
+     "card": "ak1474580620228"
+    },
+    {
+     "id": "im64-s60-i60-a1",
+     "texto": "Apoio ao card ak1474580620228",
+     "card": "ak1474580620228"
+    }
+   ]
+  },
+  {
+   "numero": 61,
+   "classe": "conteudo",
+   "titulo": "Lâmina 61",
+   "itens": [
+    {
+     "id": "im64-s61-i61-a1",
+     "texto": "Apoio ao card ak1474580620228",
+     "card": "ak1474580620228"
+    }
+   ]
+  },
+  {
+   "numero": 62,
+   "classe": "conteudo",
+   "titulo": "Lâmina 62",
+   "itens": [
+    {
+     "id": "im64-s62-i62-1",
+     "texto": "Resposta imediata: histamina e triptase pré-formadas",
+     "card": "sh-1791743342082"
+    },
+    {
+     "id": "im64-s62-i62-2",
+     "texto": "Ligação cruzada de IgE agrega FcεRI e inicia a degranulação",
+     "card": "sh-1791629596497"
+    },
+    {
+     "id": "im64-s62-i62-a1",
+     "texto": "Apoio ao card ak1487640136892",
+     "card": "sh-1791629596497"
+    }
+   ]
+  },
+  {
+   "numero": 63,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 63: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 64,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 64: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 65,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 65: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 66,
+   "classe": "conteudo",
+   "titulo": "Lâmina 66",
+   "itens": [
+    {
+     "id": "im64-s66-i66-1",
+     "texto": "Resposta imediata: mastócito libera histamina pré-formada",
+     "card": "ak1473628107938"
+    },
+    {
+     "id": "im64-s66-i66-a1",
+     "texto": "Apoio ao card ak1473628107938",
+     "card": "ak1473628107938"
+    }
+   ]
+  },
+  {
+   "numero": 67,
+   "classe": "conteudo",
+   "titulo": "Lâmina 67",
+   "itens": [
+    {
+     "id": "im64-s67-i67-a1",
+     "texto": "Apoio ao card ak1473628116213",
+     "card": "ak1473628116213"
+    }
+   ]
+  },
+  {
+   "numero": 68,
+   "classe": "conteudo",
+   "titulo": "Lâmina 68",
+   "itens": [
+    {
+     "id": "im64-s68-i68-1",
+     "texto": "Mastócito gera os leucotrienos C4, D4 e E4",
+     "card": "ak1473628116213"
+    },
+    {
+     "id": "im64-s68-i68-a1",
+     "texto": "Apoio ao card ak1473628116213",
+     "card": "ak1473628116213"
+    }
+   ]
+  },
+  {
+   "numero": 69,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 69: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 70,
+   "classe": "conteudo",
+   "titulo": "Lâmina 70",
+   "itens": [
+    {
+     "id": "im64-s70-i70-1",
+     "texto": "Mediadores do mastócito e seus efeitos",
+     "card": "au-mediadores"
+    },
+    {
+     "id": "im64-s70-i70-2",
+     "texto": "Inflamação alérgica: histamina no receptor H1",
+     "card": "ak1474571583341"
+    },
+    {
+     "id": "im64-s70-i70-3",
+     "texto": "Histamina aumenta o muco nasal e brônquico",
+     "card": "ak1474571606722"
+    },
+    {
+     "id": "im64-s70-i70-4",
+     "texto": "Histamina contrai o músculo liso brônquico",
+     "card": "ak1474571636173"
+    },
+    {
+     "id": "im64-s70-i70-5",
+     "texto": "Histamina aumenta a permeabilidade vascular",
+     "card": "sh-1791169089858"
+    },
+    {
+     "id": "im64-s70-i70-a1",
+     "texto": "Apoio ao card au-mediadores",
+     "card": "au-mediadores"
+    }
+   ]
+  },
+  {
+   "numero": 71,
+   "classe": "conteudo",
+   "titulo": "Lâmina 71",
+   "itens": [
+    {
+     "id": "im64-s71-i71-1",
+     "texto": "Resposta tardia: quimiocinas e citocinas",
+     "card": "sh-1791983686483"
+    },
+    {
+     "id": "im64-s71-i71-a1",
+     "texto": "Apoio ao card ak1487207091819",
+     "card": "sh-1791983686483"
+    }
+   ]
+  },
+  {
+   "numero": 72,
+   "classe": "conteudo",
+   "titulo": "Lâmina 72",
+   "itens": [
+    {
+     "id": "im64-s72-i72-a1",
+     "texto": "Apoio ao card ak1487207091819",
+     "card": "sh-1791983686483"
+    }
+   ]
+  },
+  {
+   "numero": 73,
+   "classe": "conteudo",
+   "titulo": "Lâmina 73",
+   "itens": [
+    {
+     "id": "im64-s73-i73-a1",
+     "texto": "Apoio ao card au-mediadores",
+     "card": "au-mediadores"
+    }
+   ]
+  },
+  {
+   "numero": 74,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 74: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 75,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 75: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 76,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 76: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 77,
+   "classe": "fora_do_recorte",
+   "titulo": "Lâmina 77: figura ou detalhe sem card próprio (FORA_DO_RECORTE)",
+   "justificativa": "figura ou detalhe sem card próprio; o conceito está no card vizinho ou no FORA_DO_RECORTE"
+  },
+  {
+   "numero": 78,
+   "classe": "conteudo",
+   "titulo": "Lâmina 78",
+   "itens": [
+    {
+     "id": "im64-s78-i78-1",
+     "texto": "Fase tardia: proteína básica maior perpetua o dano",
+     "card": "ak1473628119069"
+    },
+    {
+     "id": "im64-s78-i78-a1",
+     "texto": "Apoio ao card ak1473628119069",
+     "card": "ak1473628119069"
+    }
+   ]
+  },
+  {
+   "numero": 79,
+   "classe": "conteudo",
+   "titulo": "Lâmina 79",
+   "itens": [
+    {
+     "id": "im64-s79-i79-a1",
+     "texto": "Apoio ao card ak1473628119069",
+     "card": "ak1473628119069"
+    }
+   ]
+  },
+  {
+   "numero": 80,
+   "classe": "conteudo",
+   "titulo": "Lâmina 80",
+   "itens": [
+    {
+     "id": "im64-s80-i80-1",
+     "texto": "Eosinófilo produz proteína básica maior",
+     "card": "sh-1791780353397"
+    },
+    {
+     "id": "im64-s80-i80-a1",
+     "texto": "Apoio ao card ak1479267436105",
+     "card": "sh-1791780353397"
+    }
+   ]
+  },
+  {
+   "numero": 81,
+   "classe": "conteudo",
+   "titulo": "Lâmina 81",
+   "itens": [
+    {
+     "id": "im64-s81-i81-a1",
+     "texto": "Apoio ao card ak1479267436105",
+     "card": "sh-1791780353397"
+    }
+   ]
+  },
+  {
+   "numero": 82,
+   "classe": "conteudo",
+   "titulo": "Lâmina 82",
+   "itens": [
+    {
+     "id": "im64-s82-i82-a1",
+     "texto": "Apoio ao card ak1487207091819",
+     "card": "sh-1791983686483"
+    }
+   ]
+  },
+  {
+   "numero": 83,
+   "classe": "conteudo",
+   "titulo": "Lâmina 83",
+   "itens": [
+    {
+     "id": "im64-s83-i83-a1",
+     "texto": "Apoio ao card au-th2-alergia",
+     "card": "au-th2-alergia"
+    }
+   ]
+  },
+  {
+   "numero": 84,
+   "classe": "conteudo",
+   "titulo": "Lâmina 84",
+   "itens": [
+    {
+     "id": "im64-s84-i84-a1",
+     "texto": "Apoio ao card au-th2-alergia",
+     "card": "au-th2-alergia"
+    }
+   ]
+  },
+  {
+   "numero": 85,
+   "classe": "conteudo",
+   "titulo": "Lâmina 85",
+   "itens": [
+    {
+     "id": "im64-s85-i85-a1",
+     "texto": "Apoio ao card ak1474571606722",
+     "card": "ak1474571606722"
+    }
+   ]
+  },
+  {
+   "numero": 86,
+   "classe": "conteudo",
+   "titulo": "Lâmina 86",
+   "itens": [
+    {
+     "id": "im64-s86-i86-a1",
+     "texto": "Apoio ao card ak1474571636173",
+     "card": "ak1474571636173"
+    }
+   ]
+  },
+  {
+   "numero": 87,
+   "classe": "conteudo",
+   "titulo": "Lâmina 87",
+   "itens": [
+    {
+     "id": "im64-s87-i87-1",
+     "texto": "Th2: IL-4, IL-5 e IL-13",
+     "card": "au-th2-alergia"
+    },
+    {
+     "id": "im64-s87-i87-2",
+     "texto": "Th2 secreta IL-4, que leva à troca para IgE",
+     "card": "ak1473628097990"
+    },
+    {
+     "id": "im64-s87-i87-3",
+     "texto": "Th2 secreta IL-5, que atrai eosinófilos",
+     "card": "ak1473628101206"
+    },
+    {
+     "id": "im64-s87-i87-a1",
+     "texto": "Apoio ao card ak1473628101206",
+     "card": "ak1473628101206"
+    }
+   ]
+  },
+  {
+   "numero": 88,
+   "classe": "conteudo",
+   "titulo": "Lâmina 88",
+   "itens": [
+    {
+     "id": "im64-s88-i88-a1",
+     "texto": "Apoio ao card au-th2-alergia",
+     "card": "au-th2-alergia"
+    }
+   ]
+  },
+  {
+   "numero": 89,
+   "classe": "conteudo",
+   "titulo": "Lâmina 89",
+   "itens": [
+    {
+     "id": "im64-s89-i89-a1",
+     "texto": "Apoio ao card au-th2-alergia",
+     "card": "au-th2-alergia"
+    }
+   ]
+  },
+  {
+   "numero": 90,
+   "classe": "logistica",
+   "titulo": "Encerramento",
+   "justificativa": "divisória, leitura recomendada, agradecimento ou repetição"
+  }
+ ],
+ "capitulo": [
+  {
+   "secao": "Apostila guia de Imuno (aula 10) e monitoria P3 (aula 13)",
+   "itens": [
+    {
+     "id": "im64-cap-l1",
+     "texto": "Os quatro tipos de hipersensibilidade e o mecanismo de cada um",
+     "card": "au-gell"
+    },
+    {
+     "id": "im64-cap-l2",
+     "texto": "Tipo I: Th2, IL-4, troca para IgE, FcεRI, sensibilização e desencadeamento",
+     "card": [
+      "au-sensibil",
+      "sh-1792241808513",
+      "ak1474580620228",
+      "sh-1791629596497"
+     ]
+    },
+    {
+     "id": "im64-cap-l3",
+     "texto": "Tipo II: opsonização, complemento e inflamação, e interferência com receptores",
+     "card": [
+      "ak1487207105743",
+      "ak1487207112553",
+      "ak1487207119666",
+      "sh-1791629595447"
+     ]
+    },
+    {
+     "id": "im64-cap-l4",
+     "texto": "Tipo III: depósito de imunocomplexos, complemento e neutrófilos",
+     "card": [
+      "ak1487207162179",
+      "ak1487207167794"
+     ]
+    },
+    {
+     "id": "im64-cap-l5",
+     "texto": "Tipo IV: sensibilização, Th1, IFN-γ, macrófago e T citotóxico",
+     "card": [
+      "au-dth-fases",
+      "sh-1791625436408",
+      "sh-1791625429957"
+     ]
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "fonte": "Provas UC03 (índice imuno-12)",
+   "itens": [
+    {
+     "id": "im64-prova-p1",
+     "texto": "Mecanismo da hipersensibilidade tipo I: sensibilização e resposta tardia (2025 P3 3.2; 2019 P3 4.1; 2017 P3 1.7)",
+     "card": [
+      "au-sensibil",
+      "sh-1792241808513",
+      "sh-1791983686483",
+      "au-th2-alergia"
+     ]
+    },
+    {
+     "id": "im64-prova-p2",
+     "texto": "Reação ao PPD: tipo IV mediada por Th1 (2023 P2 3.1)",
+     "card": [
+      "sh-1791625436533",
+      "au-dth-fases"
+     ]
+    },
+    {
+     "id": "im64-prova-p3",
+     "texto": "Hipersensibilidade tipo III na artrite reumatoide (2018 P3 4.1)",
+     "card": [
+      "ak1583964087768",
+      "ak1487207167794"
+     ]
+    },
+    {
+     "id": "im64-prova-p4",
+     "texto": "Tipo de reação e mecanismo em casos (2016 P2 1.2; 2019 P3 4.5)",
+     "card": [
+      "au-gell",
+      "ak1487207248593"
+     ]
+    }
+   ]
+  }
+ ]
+}

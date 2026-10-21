@@ -1,0 +1,27 @@
+# #AK_Step1_v12::#Bootcamp::Immunology::11_Hypersensitivities::05_Type_IV_Hypersensitivity_Reactions (26 notas)
+1462326990404 1-HighYield What type of hypersensitivity is type 1 diabetes mellitus ? Type IV HSR (direct cell cytotoxicity)
+1482275928004 2-RelativelyHighYield What type of hypersensitivity reaction is chronic autoimmune gastritis ? Type IV (T-cell mediated)
+1485127168406 1-HighYield What is the most serious cutaneous adverse effect associated with lamotrigine use? Stevens-Johnson syndrome
+1486952670744 1-HighYield MHC II binds to the T-cell receptor (TCR) and CD 4
+1487115889320 1-HighYield MHC I presents endogenously synthesized antigens to CD8 + cytotoxic T cells
+1487116831797 1-HighYield MHC II presents exogenously synthesized antigens to CD4 + helper T cells
+1487207184256 1-HighYield A(n) hapten is a small molecule that may conjugate with larger proteins to elicit an immune response
+1487207218837 1-HighYield Which type of hypersensitivity reaction is T-cell mediated ? Type IV
+1487207220752 1-HighYield Type IV HSRs may occur via direct cell cytotoxicity , which involves CD8 + T cells
+1487207229813 1-HighYield Type IV HSRs may occur via delayed-type hypersensitivity , which involves CD4 + T-cells
+1487207238825 1-HighYield What type of hypersensitivity reaction is allergic contact dermatitis (e.g., poison ivy, nickel allergy)? Type IV HSR (CD4 & CD8 mediated)
+1487207240713 1-HighYield What type of hypersensitivity reaction is graft-versus-host disease ? Type IV HSR (delayed-type hypersensitivity)
+1487207242473 1-HighYield What type of hypersensitivity reaction is a tuberculin skin test (PPD)? Type IV HSR (Th 1 mediated)
+1487207244285 1-HighYield What type of hypersensitivity reaction is a patch test ? Type IV HSR (CD4-mediated)
+1487815446107 3-HighYield-temporary What type of hypersensitivity reaction is Sjögren syndrome ? Type IV HSR (lymphocyte-mediated damage)
+1488502525511 - Allergic contact dermatitis presents with a pruritic , oozing rash with vesicles and edema due to a type IV HSR
+1488502527762 - Allergic contact dermatitis arises upon exposure to allergens (e.g., nickel, poison ivy, neomycin)
+1488680084399 - Which blistering skin disorder is characterized by fever and sloughing of skin at the dermal-epidermal junction ? Stevens-Johnson syndrome
+1488680091101 - Stevens-Johnson syndrome typically arises as an adverse reaction to a(n) drug
+1508367148310 1-HighYield Sulfa drugs are associated with what rare cutaneous skin complication? Stevens-Johnson syndrome
+1520351135706 1-HighYield What type of hypersensitivity reaction is the Candida extract test ? Type IV HSR (CD4-mediated)
+1523377868136 - DRESS syndrome is most commonly precipitated by allopurinol and antiepileptics (e.g., phenytoin, carbamazepine)
+1523585012668 - Patients with DRESS syndrome present with eosinophilia, atypical lymphocytosis, and elevated ALT
+1545258451697 - Localized pruritic erythematous rash after contact with allergen is most likely allergic contact dermatitis (ACD)
+1555761434577 - What is the likely diagnosis in a patient presenting with rash that began as pruritic papules and progressed to linear, erythematous plaques with overlying vesicles oozing yellow fluid ? The patient w
+1579988455367 - The patch test is considered the gold standard method for the diagnosis of allergic contact dermatitis (type IV HSR)

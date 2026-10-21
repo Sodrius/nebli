@@ -1,0 +1,47 @@
+# #AK_Step1_v12::#B&B::09_Endocrinology::03_Pancreas::04_Type_II_Diabetes::Extra (46 notas)
+1462128243453 3-HighYield-temporary In adipose tissue, insulin stimulates fat deposition (increased triglyceride synthesis) and inhibits lipolysis
+1462128264089 2-RelativelyHighYield Insulin inhibits ketoacid formation in the liver because decreased fatty acid degradation provides less acetyl-CoA substrate for ketoacid formation
+1462327161497 2-RelativelyHighYield The diagnosis for diabetes mellitus may be made using HbA 1c which reflects average blood glucose over 3 prior months
+1462327211125 2-RelativelyHighYield One of the most feared complications of type 1 diabetes is diabetic ketoacidosis (DKA)
+1462327224889 4-LowerYield Diabetic ketoacidosis often arises with stress (e.g., infection)
+1462327370877 3-HighYield-temporary Will a diabetic ketoacidosis patient present with hyper- or hypoglycemia ? Hyperglycemia (usually < 600 mg/dL)
+1462327461738 2-RelativelyHighYield Does hyperosmolar hyperglycemic state (HHS) present with ketoacidosis? Why? No, ketone production is inhibited by presence of insulin
+1462327651340 1-HighYield In diabetes , osmotic damage may occur when glucose in tissue is converted to sorbitol by the enzyme aldose reductase
+1462913584874 1-HighYield Amylin analogues (e.g., pramlintide) cause decreased gastric emptying
+1462913605177 1-HighYield Amylin analogues (e.g., pramlintide) decrease glucagon secretion
+1462913613399 2-RelativelyHighYield Which type(s) of diabetes mellitus may be treated with pramlintide (amylin analogs)? Type 1 and type 2
+1463176792455 1-HighYield Polycystic ovary syndrome (PCOS) is associated with insulin resistance , which may cause type 2 diabetes mellitus 10-15 years later
+1471811875076 3-HighYield-temporary Atherosclerosis is a form of arteriosclerosis that damages large- and medium-sized vessels due to buildup of cholesterol plaques
+1471812042722 1-HighYield One complication of atherosclerosis is peripheral vascular disease, which may result from stenosis of the peripheral arteries (e.g., popliteal artery)
+1471812074715 2-RelativelyHighYield Atherosclerosis may cause weakening of the blood vessel wall, which can result in aneurysm
+1471817954249 3-HighYield-temporary Arteriolosclerosis is a form of arteriosclerosis that damages small arteries and arterioles
+1471819191084 1-HighYield Hyaline arteriolosclerosis results in reduced vessel caliber with end-organ ischemia , which classically produces glomerular scarring
+1474165395458 2-RelativelyHighYield The tissues/organs that have only aldose reductase (no sorbitol dehydrogenase) may be remembered with the mnemonic LARKS
+1474686354906 2-RelativelyHighYield ACE inhibitors slow the progression of diabetic nephropathy
+1475364110524 1-HighYield Which renal arteriole is initially affected by non-enzymatic glycation ? Efferent arteriole
+1475364115656 2-RelativelyHighYield Initially , non-enzymatic glycation of the glomerular basement membrane ( diabetes mellitus ) causes hyperfiltration injury which leads to the development of microalbumin uria by promoting production 
+1475364120802 4-LowerYield Does untreated diabetic nephropathy cause nephrotic or nephritic syndrome? Can be both; it starts as nephrotic, but can progress to nephritic syndrome
+1484603673879 5-LowYield Nonproliferative diabetic retinopathy is characterized by leakage of blood from damaged capillaries, resulting in hemorrhages and macular edema
+1484603707033 3-HighYield-temporary Retinal detachment may be secondary to retinal breaks, diabetic traction, and inflammatory effusions
+1496712698985 - What is the likely underlying etiology of kidney disease with GBM thickening , mesangial expansion , and glomerular sclerosis ? Diabetic nephropathy
+1515811336226 5-LowYield Patients with hypertensive retinopathy will present on fundoscopy with flame -shaped retinal hemorrhages, arteriovenous nicking, microaneurysms, macular star , and cotton-wool spots
+1518964961692 1-HighYield Peripheral arterial disease (PAD) is most commonly caused by occlusion of the superficial femoral artery
+1524165085062 2-RelativelyHighYield Infection , pain , and sleep deprivation can precipitate hyperglycemia in patients with insulin-treated diabetes
+1532377338312 3-HighYield-temporary A patient with intermittent claudication secondary to peripheral arterial disease is at the greatest risk of developing what complication? Myocardial infarction
+1554073481113 - Neuropathy usually presents with distal weakness , absent DTRs, and can have sensory loss
+1557514414936 - Painless blurring of bilateral vision and halos around lights is suggestive of cataracts
+1570740458445 2-RelativelyHighYield Uncontrolled diabetes (HHS, DKA) will cause a(n) hyperosmotic volume contraction
+1578293118238 4-LowerYield Retinal blood vessel rupture leads to " flame " hemorrhages in both hypertensive and nonproliferative diabetic retinopathy
+1579580270963 - A(n) oral glucose tolerance test is used to diagnose diabetes mellitus and impaired glucose tolerance in patients with insulin resistance
+1581704501877 3-HighYield-temporary Myocardial infarction and thrombus formation is a complication of diabetes mellitus due to chronic hyperglycemia
+1584134575365 1-HighYield Intracellular accumulation of triglycerides and FFAs contributes to insulin resistance in obesity via inhibition of insulin signaling
+1584134939832 4-LowerYield Excess glucose and free fatty acids (FFAs) may contribute to β cell dysfunction
+1584136093433 5-LowYield What is a non-modifiable risk factor for metabolic syndrome ? Family history
+1584374402105 2-RelativelyHighYield What is the effect of hyperglycemia (e.g., DKA/HHS) on serum sodium levels? Decreased (hyponatremia)
+1584392259000 4-LowerYield Unperceived joint damage due to diabetic neuropathy may lead to formation of {{c1:: charcot joint (neurogenic arthropathy)}}, which is managed with casting and orthotic footwear
+1584393298504 4-LowerYield Chronic diabetes predisposes patients to recurrent infection due to poor wound healing , urinary retention , neutrophil dysfunction , and hyperglycemia
+1584394820483 4-LowerYield Microaneurysms are a sign of early nonproliferative diabetic retinopathy
+1584395283495 4-LowerYield Neovascularization in proliferative diabetic retinopathy may cause secondary closed-angle glaucoma
+1584395533879 2-RelativelyHighYield Proliferative diabetic retinopathy is prone to hemorrhage due to disorganized neovascularization
+1584446910693 3-HighYield-temporary Diabetes is a risk factor for atherosclerosis due to chronic inflammation , lipid oxidation , and advanced glycation end products
+1588632141576 4-LowerYield Secondary infection of diabetic foot ulcers may lead to gangrene requiring amputation

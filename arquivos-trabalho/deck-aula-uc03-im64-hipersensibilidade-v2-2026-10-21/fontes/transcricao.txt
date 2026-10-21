@@ -1,0 +1,781 @@
+===== página 1 =====
+
+===== página 2 =====
+Bom, a aula de hoje é sobre hipersensibilidade. Esse termo pode
+parecer um tanto estranho. Foi cunhado por dois pesquisadores, Gell
+e Coombs, que constataram que, em muitos processos, como resposta
+a infecções, antígenos inócuos e autoimunidade, ocorria uma lesão no
+organismo devido à ação do sistema imune. Eles distinguiram quatro
+tipos de hipersensibilidade, chamados de 1, 2, 3 e 4, que vou explicar
+de forma resumida.
+
+===== página 3 =====
+
+===== página 4 =====
+As hipersensibilidades são danos teciduais imunologicamente
+mediados e os quatro tipos se distinguem pelo tipo de processo
+imunológico envolvido.
+No tipo 1, o elemento central é a IgE, que age sobre o mastócito,
+ancorando-se na superfície desta célula. Quando o antígeno entra
+em contato, ocorre um crosslink entre dois receptores FC para IgE,
+levando à degranulação do mastócito. A lesão é devida à degranulação
+do mastócito, envolvendo a IgE, o mastócito e o receptor do mastócito
+para IgE.
+No tipo 2, um anticorpo, geralmente da classe IgG, age sobre uma
+célula alvo, causando dano. Isso pode ocorrer por bloqueio de uma
+estrutura ou ativação do complemento, como levar à destruição da
+célula alvo. Outra possibilidade é a destruição por uma célula com
+receptor para FC, como a célula NK que poderia também acabar com
+a célula alvo. Aqui, a mediação é pela IgG, que age sobre antígenos na
+superfície celular.
+O tipo 3 também é mediado por anticorpos IgG, mas o antígeno é
+solúvel, não está associado a uma membrana celular, por exemplo, e
+é encontrado em grande quantidade. A ligação do anticorpo IgG com
+o antígeno forma imunocomplexos, que se depositam em superfícies
+vasculares, como o glomérulo renal, causando lesão, por atrair, por
+exemplo, polimorfonucleares. Nesse caso, a patologia é por depósito
+de imunocomplexos.
+Por último, o tipo 4 não é mediado por anticorpos, mas por células
+T que reagem a um antígeno. As células T produzem citocinas
+que ativam macrófagos, causando inﬂamação local. Então, o dano é
+mediado por células T através do eixo T-macrófago.
+
+===== página 5 =====
+
+===== página 6 =====
+Vamos falar primeiro de hipersensibilidade 1, imediata. Essa
+hipersensibilidade é uma resposta a antígenos, chamados de
+alérgenos, mediada pela IgE. É conhecida como alergia, embora outros
+processos também sejam chamados assim. Popularmente, alergia
+refere-se à hipersensibilidade tipo 1, mediada por IgE e mastócitos.
+
+===== página 7 =====
+
+===== página 8 =====
+O interessante aqui é que frequentemente, os antígenos que causam
+essa hipersensibilidade são geralmente inócuos, como pólen, pêlos de
+animais, alimentos, etc. A reação não ocorre na maioria das pessoas,
+mas uma porcentagem faz anticorpos IgE frente a antígenos inócuos.
+Nos Estados Unidos, a alergia afeta cerca de 20% da população.
+
+===== página 9 =====
+
+===== página 10 =====
+Os alérgenos mais comuns incluem pólen, drogas como penicilina,
+alimentos como nozes e frutos do mar, venenos de insetos, esporos de
+fungos e pelos de animais. Um indivíduo alérgico pode ser alérgico a
+um ou vários desses alérgenos.
+
+===== página 11 =====
+
+===== página 12 =====
+As estrelas da hipersensibilidade tipo 1 são a IgE, células Th2 (As
+células Th2 são necessárias para a produção de IL-4, que ajuda
+na mudança de classe para IgE), os mastócitos e basóﬁlos são
+importantes, assim como os eosinóﬁlos e os receptores na superfície
+dos mastócitos.
+
+===== página 13 =====
+
+===== página 14 =====
+Os antígenos que desencadeiam a hipersensibilidade imediata são
+chamados de alérgenos, e os quadros de hipersensibilidade tipo 1
+são conhecidos como alergia. Isso é popularmente aceito, mas a
+hipersensibilidade tipo 4 também pode ser chamada de alergia.
+
+===== página 15 =====
+
+===== página 16 =====
+A IgE é importante para a hipersensibilidade tipo 1.
+
+===== página 17 =====
+
+===== página 18 =====
+Aqui temos como ocorre esse processo. Então, imagine que entrou
+um alérgeno (representado aqui na parte esquerda do slide), e ele está
+interagindo com o linfócito B e a célula TCD4 e Th2 vai colaborar
+esse reconhecimento do antígeno com o MHC-2 e quando se ativa a
+célula T-Helper 2 haverá a produção de IL-4, levando à proliferação
+de células B e produção de IgE. A IgE se ancora nos receptores Fc dos
+mastócitos, armando-os. Essa é a fase de sensibilização, sem dano ao
+indivíduo.
+Na fase de desencadeamento, o alérgeno entra novamente em
+contato com os mastócitos armados, causando degranulação e
+liberação de aminas vasoativas. Isso afeta células musculares lisas,
+vasos e glândulas mucosas, recrutando eosinóﬁlos. E essa fase de
+desencadeamento é extremamente rápida.
+
+===== página 19 =====
+
+===== página 20 =====
+Esse 
+é 
+o 
+nosso 
+mastócito, 
+cheio 
+de 
+aminas 
+vasoativas.
+———————————
+Essa é uma pergunta boba, “qual é a clínica do primeiro contato com
+o alérgeno?” Zero, pois o que vai acontecer é a produção de IgE na
+superfície dos mastócitos, IgE especíﬁcos para esse alérgeno, mas até
+aí não há sinais clínicos.
+———————————
+Aqui em um esquema da fase de sensibilização, essa célula cheia
+de bolinhas é o nosso mastócito. Então, entrou um antígeno, ativou
+linfócitos B para fazer IgE, a IgE sai dos vasos e chega aos tecidos e
+vão se encaixar no receptor Fc dos mastócitos.
+———————————
+E agora ocorre o desencadeamento que tem duas etapas. Primeiro,
+temos nosso mastócito com as IgE, vai entrar os antígenos que
+vão fazer um crosslink e degranular esse mastócito. Quando esse
+mastócito degranula, além de liberar as aminas vasoativas ele
+promove alterações vasculares, como a vasodilatação.
+———————————
+Aqui temos uma fotograﬁa do mastócito antes e do mastócito
+depois.
+
+===== página 21 =====
+
+===== página 22 =====
+A degranulação a partir da ligação de IgE com antígeno não é
+a única causa para a degradação do mastócito. Essa degranulação
+do mastócito pode ser causada por traumatismo, anaﬁlotoxinas
+do complemento e neuropeptídeos. A IgE tem vida curta no
+soro, mas perdura semanas no mastócito, mantendo-o suscetível à
+degranulação.
+
+===== página 23 =====
+
+===== página 24 =====
+
+===== página 25 =====
+Aqui temos um esquema dos principais pontos, mas não vou entrar
+muito nisso.
+O principal elemento, principal conteúdo dos grânulos é a
+histamina, a grande amina vasoativa é a histamina. Também ocorre a
+ativação de genes que vão fazer citocinas, como o TNF. Isso demora
+mais tempo, a degradação é imediata.
+
+===== página 26 =====
+
+===== página 27 =====
+
+===== página 28 =====
+Aqui tem um resumo das ações realizadas pelos mediadores liberados
+pelos mastócitos na parte superior e na parte inferior pelos
+eosinóﬁlos.
+Começando pelos mastócitos. Dentre as principais aminas
+vasoativas temos a histamina que vai levar a vasodilatação e aumento
+da permeabilidade. Dos mediadores lipídicos, prostaglandinas e
+leucotrienos vão fazer principalmente contração de musculatura lisa,
+então se ocorre no aparelho respiratório, vai levar a broncoconstrição,
+se é no intestino esses mediadores vão gerar hipermotilidade
+intestinal. E as citocinas, obviamente, vão promover inﬂamação. A
+mediação será mediada pelo ácido araquidônico também.
+Já os eosinóﬁlos são células especializadas, possuem um conteúdo
+que é muito lesivo para helmintos, mas também acaba sendo
+lesivo para estruturas do organismo quando liberada em grandes
+quantidades.
+Esse esquema é muito bom para aprender e decorar pois em outras
+aulas isso vai aparecer novamente.
+
+===== página 29 =====
+
+===== página 30 =====
+
+===== página 31 =====
+
+===== página 32 =====
+
+===== página 33 =====
+
+===== página 34 =====
+Esses são quadros frequentes da alergia devido à hipersensibilidade
+tipo 1, com a famosa rinite crônica, que afeta muitíssima gente. Asma
+brônquica, que também afeta, estava escrito, 20% dos americanos.
+Alergia aos alimentos e a drogas, é um pouco mais raro. O eczema
+atópico, que são lesões de pele, que são típicos de algumas alergias de
+pele. E outras alergias de pele a gente vai ver que não são desse tipo.
+E, por ﬁm, todos esses são processos localizados, mas temos o choque
+anaﬁlático, que é sistêmico.
+Então, quando o meu alérgeno penetra no organismo, ele se difunde
+facilmente e cria uma reação sistêmica de vasodilatação e aumento de
+permeabilidade que o indivíduo entra em choque e vocês vão ter que
+lidar bastante, principalmente quem vai trabalhar em urgências.
+
+===== página 35 =====
+
+===== página 36 =====
+Bom, aqui simplesmente para mostrar que os asmáticos, como os
+indivíduos que têm hipersensibilidade tipo 1. Aqui tem febre do
+feno, rinite crônica, asma e eczema atópico, eles fazem mais IgE,
+normalmente, que outras pessoas, colocando o limite normal, o que
+está dentro dessa caixa azul. Então, vocês veem que isso aqui é log,
+log decimal, então, é uma quantidade muito, muito maior.
+Depois, isso aqui é para mostrar, digamos, diversas quantidades de
+IgE na circulação por ml de soro e a gente vê que os pacientes atópicos
+têm níveis muito elevados, enquanto que os indivíduos normais, a
+população geral, frequentemente têm níveis muito baixos.
+
+===== página 37 =====
+
+===== página 38 =====
+Outra coisa importante é você saber que tem um componente
+hereditário, que é de provavelmente de 50%. Então, quando ambos
+os pais têm alergia, então, tem 50% de chance de qualquer ﬁlho
+desenvolver alergia também. Então, com um já se reduz a 30% e em
+nenhum, então, algo menos de 20%.
+Se você tem gêmeos que são monozigóticos, ou seja, os dois são
+iguais, gêmeos idênticos, então é por volta de 50%. Se um tem, o
+outro tem 50% de chance que tem. Já nos dizigóticos, então é menor
+a frequência.
+
+===== página 39 =====
+
+===== página 40 =====
+Em relação à asma brônquica, que vou falar um pouco, e obviamente
+não dá para esgotar esse tópico aqui. Então, lembrem de uma coisa,
+que quando degranulam o nosso mastócito, logo, em seguida, já tinha
+a liberação da histamina e as ações da histamina acima do indivíduo
+e logo em seguida, produção do metabólito de ácido araquidônico.
+E depois, mais tarde, em uma fase tardia, que começa horas e pode
+durar até dias, seria pela produção de citocina, que, como precisa de
+transcrição gênica, leva mais tempo para acontecer.
+
+===== página 41 =====
+
+===== página 42 =====
+Bom, então, na reação imediata, quem está participando é a histamina,
+as prostaglandinas e as leucotrieno, sendo que no caso da histamina há
+vasodilatação e edema, e no caso das prostaglandinas e leucotrienos,
+por outro lado, levam a broncoconstrição, supondo que estamos
+falando de asma brônquica. E na fase tardia temos todas essas
+citocinas que são principalmente de tipo TH2, IL-4 e IL-5 e da
+imunidade inata como o TNF-alfa, mas também tem outros elementos,
+o metabólico de ácido araquidônico como o TAF que é secretado mais
+rápido. Então tudo isso vai levar ao recrutamento de eosinóﬁlos e
+neutróﬁlos e ﬁnalmente à lesão tisular. Então temos um efeito rápido,
+principalmente por prostaglandinas e leucotrienos logo depois da
+secreção de histamina e uma fase tardia que é principalmente por
+citocina.
+
+===== página 43 =====
+
+===== página 44 =====
+Bom, para mostrar as alterações vasculares, então temos nosso
+mastócito aqui com a IgE ancorada na sua superfície, no receptor
+FC, e entrou o antígeno, então, a histamina é produzida e vai fazer
+essa vasodilatação e aumenta a permeabilidade. Enquanto que na fase
+tardia da resposta, o que acontece é migração de células com produção
+de citocina.
+
+===== página 45 =====
+
+===== página 46 =====
+Então, esse é um esquema bem simples e eu estou colocando aqui,
+células, a princípio podemos dizer que as populações recrutadas
+principalmente são eosinóﬁlos e neutróﬁlos. Então, provavelmente
+esses são os neutróﬁlos e esses aqui são os eosinóﬁlos.
+
+===== página 47 =====
+
+===== página 48 =====
+Veja aqui um inﬁltrado por eosinóﬁlo e um eosinóﬁlo do sangue.
+
+===== página 49 =====
+
+===== página 50 =====
+Isso aqui é para ilustrar a reação imediata e a tardia. Lembrem-se que
+na fase imediata, minutos depois de entrar em contato, é vasodilatação
+e aumento de permeabilidade, que é o que a gente vê nesse teste aqui.
+Então, ele tem o famoso eritema edema, uma área eritematosa em
+volta e no meio uma área inchada. E depois a coisa ﬁca mais difundida
+e pode ser até dolorosa que por ação da citocina e isso pode durar,
+então, mais de um dia, mas perdeu esse caráter que tinha no começo.
+
+===== página 51 =====
+
+===== página 52 =====
+Bom, isso aqui em relação à asma brônquica, que é um quadro grave,
+a gente vê inﬁltrado inﬂamatório, que é de linfócitos, de eosinóﬁlos, e
+também vê, por exemplo, os brônquios que podem ﬁcar ocluídos por
+mucos, por tecidos mortos e pelo inﬁltrado. Então, isso faz parte do
+quadro da inﬂamação crônica do paciente asmático.
+
+===== página 53 =====
+
+===== página 54 =====
+Aqui vemos também o quadro crônico, como vai ﬁcando o pulmão.
+Acima seria um brônquio normal e aqui é o que a gente está vendo
+tudo cheio de muco ocupando a via aérea, a gente vê, o inﬁltrado
+muito intenso, a membrana basal, que é isso aqui, engrossada. E uma
+hipertroﬁa de musculatura lisa, por quê? Porque ele tem diﬁculdade
+de respiração, tem que ﬁcar exercitando para fazer como uma bomba,
+para que entre o ar.
+
+===== página 55 =====
+
+===== página 56 =====
+Aqui também um esqueminha aqui para terminar, onde tem
+uma fase inicial de vasodilatação, broncoconstrição e aumento de
+permeabilidade e pelos leucotrienos também ocorre a produção de
+ativação das glândulas mucosas e produção de muco. Então, o muco se
+acumula aqui dentro do brônquio. Então, a gente tem recrutamento de
+células inﬂamatórias, que principalmente, volto a falar, são eosinóﬁlo
+e neutróﬁlo. Então, tudo isso aqui vai levar à injúria, à lesão.
+Lembrem-se que é uma hipersensibilidade, um estado de lesão,
+no caso mediado por IgE. Então isso vai daniﬁcar esse tecido
+bronquial e acaba engrossando a membrana basal. Junto com o muco,
+determinando a punção bronquial e a broncoconstrição e por isso
+que os indivíduos têm falta de ar e com o tempo, a hipertroﬁa da
+musculatura brônquica.
+
+===== página 57 =====
+
+===== página 58 =====
+Aqui algumas palavrinhas sobre outros quadros que não sejam
+pulmonares. O choque anaﬁlático acontece pouco tempo depois da
+entrada do antígeno nos indivíduos sensibilizados.
+Vamos imaginar um quadro muito frequente, porque é muito
+grave, que vocês erraram e injetaram penicilina que entrou pela via
+endovenosa e, incluso pela via intramuscular se difundiu rapidamente
+pelo organismo e determinou os indivíduos alérgicos e degranulou os
+mastócitos que estavam armados com IgE especíﬁco para a penicilina.
+Também pode acontecer nos casos de, por exemplo, um indivíduo
+que tem alergia a algum alimento, como fruto do mar, e gera muitos
+antígenos que passam para a circulação, então, se o indivíduo tem
+muitos mastócitos armados com essas IgEs, também pode granular e
+levar a um choque anaﬁlático.
+Bom, então, consiste em quê? Em uma vasodilatação generalizada
+e também, ao mesmo tempo, contração de musculatura lisa. E isso
+vai dar constrição bronquiolar com asﬁxia. Podemos ter também os
+venenos de abelha, vespa, picada de formiga, nozes que também
+podem trazer esse tipo de quadro. O tratamento é com adrenalina.
+
+===== página 59 =====
+
+===== página 60 =====
+Às vezes a alergia alimentar se limita a um problema local em
+que tem vômito e diarreia. Vômito e diarreia são consequências da
+vasodilatação e aumento de permeabilidade. Mas às vezes, como
+acabei de falar antes, se absorve e tem uma reação sistêmica que
+às vezes se limita só à pele, o paciente aparece pipocado, porque se
+granula os mastócitos da pele. Agora, em outros casos, então, pode
+chegar a causar uma vasodilatação generalizada com queda da pressão
+arterial e choque.
+
+===== página 61 =====
+
+===== página 62 =====
+Aqui estão fotograﬁas de uma criança alérgica a arroz e ovos, vejam
+o eritema.
+
+===== página 63 =====
+
+===== página 64 =====
+Veja aqui, numa rinite alérgica, como ﬁca a quantidade dessas células
+vermelhas, que são os eosinóﬁlos, que a gente dá para ver que o
+conteúdo parece que são pontinhos, porque são grânulos. Então, no
+caso da rinite alérgica, a alergia também entra pela via respiratória,
+mas se limita normalmente à conjuntiva e mucosa nasal, como o
+exsudato nasal, conjuntival, e vias aéreas superiores, espirro e tosse.
+
+===== página 65 =====
+
+===== página 66 =====
+Aqui é um teste, estão sendo injetadas umas concentrações diferentes
+de um determinado alérgeno e pouco tempo depois, em questão de
+minutos, 10 ou 15 minutos, já se vê esse edema e com eritema, que
+está se vendo na dose maior. Já vai diluindo aqui para baixo e na fase
+tardia pode ﬁcar uma inﬂamação com uma induração.
+
+===== página 67 =====
+
+===== página 68 =====
+O diagnóstico é dosagem de IgE total, dosagem de IgE especíﬁca para
+saber exatamente quem é o antígeno responsável por essa alergia.
+
+===== página 69 =====
+
+===== página 70 =====
+Aqui eu quero deixar pendurado essa pergunta que não tem nada a
+ver com a aula de hoje.
+“Será que o pacote funcional Th2 surgiu para o controle de parasitas
+(vermes) intestinais?
+
+===== página 71 =====
+
+===== página 72 =====
+Então, guardem isso aqui, IgE, muco, recrutamento de eosinóﬁlo e
+contração da musculatura lisa em função de uma série de citocinas de
+derivados do ácido araquidônico que aparecem no quadro de alergia
+respiratória tipo asma, tipo 1, mas vão aparecer também na defesa
+contra helmintos.
+
+===== página 73 =====
+
+===== página 74 =====
+Agora vamos falar sobre a hipersensibilidade tipo 2 é mediada por
+anticorpos, agora são IgM ou IgG, e isso é dirigido frente a estruturas
+que estão ou na parede celular ou na matriz extracelular.
+Imaginem que você tem uma célula e tem uma determinada
+molécula na superfície que tem uma determinada função, se tem IgM
+ou IgG acima dela, você bloqueou a ação dessa determinada molécula
+e isso acaba afetando a função dessa determinada população celular,
+própria de um órgão ou o que for. Então, afetam a ﬁsiologia celular
+ou tisular.
+
+===== página 75 =====
+
+===== página 76 =====
+Isso muitas vezes se revela por imunoﬂuorescência, se pega o soro
+do paciente que deve ter essa IgM e IgG, se incuba com o tecido que
+você acredita que seja o alvo, deixa incubando para que se grude no
+antígeno do tecido, caso seja verdade a tua previsão. E aí depois você
+lava para tirar o anticorpo que não gruda e entra com um anti-IgM
+ou anti-IgG marcado com ﬂuoresceína e você vai ver ﬂorescente o
+depósito na superfície desse corte de tecido que não precisa ser do
+indivíduo, são cortes de tecido retirados de uma autópsia.
+
+===== página 77 =====
+
+===== página 78 =====
+Veja aqui, por exemplo, isso aqui é um caso de pénﬁgo, o indivíduo
+que tem pênﬁgo tem anticorpos frente aos desmossomas da pele, que
+ﬁcam unindo as células do epitélio da pele.
+Então, vejam aqui, foi incubado o soro com um tecido de pele
+de cadáver e, depois de lavar, se entrou com um anticorpo anti-IgG
+ou anti-IgM, não sei qual era aqui no caso, provavelmente anti-IgG,
+marcado com ﬂuoresceína, e aparece todo o contorno das células
+epiteliais, epidérmicas. Obviamente, qual é o problema que têm essas
+pessoas? Elas perdem a junção entre as células da pele.
+
+===== página 79 =====
+
+===== página 80 =====
+Aqui seria um indivíduo que tem, além de ter o diabetes normal, ele
+fez anticorpos anti-ilhota do pâncreas, então aqui dá para ver uma
+ilhota sendo reconhecida pelo soro do paciente.
+
+===== página 81 =====
+
+===== página 82 =====
+E aqui eu deixei em amarelo, os quadros que são contra antígenos não
+próprios. Isso vai acontecer, vocês vão ver, nas reações transfusionais
+e na doença hemolítica do recém-nascido.
+E os outros são todos quadros de autoimunidade. Anemia
+hemolítica, tem o anticorpo anti-hemácia. Púrpura trombocitopênica
+autoimune, quadro bastante grave, tem anticorpos antiplaquetas.
+Pénﬁgo, que a gente já viu, tem o anticorpo anti desmossoma,
+antiproteína e a desmogleína. Síndrome de Goodpasture, contra a
+membrana basal. E aí pela frente.
+Então, todos esses anticorpos que são frente a isso, o que estão
+fazendo é bloqueando uma função dessa determinada população
+celular que está sendo reconhecida e essa ação não somente pode
+levar, às vezes, digamos, à eliminação dessa população celular, como
+é o caso de quem faz anticorpos na púrpura trombocitopênica
+autoimune, que faz anticorpos anti-plaqueta, e as plaquetas passam a
+ser eliminadas, então o indivíduo ﬁca com o sangue coagulado. Então,
+todos esses aqui têm uma limitação de função.
+Mas nesse caso aqui, que é a doença de Graves, ele faz um anticorpo,
+que são chamados de LATs, que é frente ao receptor na célula da
+tireoide, mas em vez de bloquear esse receptor, o que faz é mimetizar
+o TSH. Então, ele age estimulando a tireoide e esses indivíduos têm
+hipertireoidismo.
+
+===== página 83 =====
+
+===== página 84 =====
+E eu coloquei um exemplo de um personagem, um cômico que eu
+gosto bastante, que fez um ﬁlme que se chama O Jovem Frankenstein,
+que é esse aqui, o Marty Feldman. E vejam a exoftalmia, ele
+não está fazendo careta, ele tem os olhos assim porque ele tem
+hipertireoidismo. E ele pode ter esse tipo de doença por qualquer outra
+causa diferente, mas tem essa exoftalmia, esses olhos arregalados.
+
+===== página 85 =====
+
+===== página 86 =====
+Bom, em relação às reações transfusionais, no sistema primeiro ABO,
+vocês sabem que as glicosilações são diferentes entre as pessoas, isso
+segue as leis da genética, então o indivíduo pode ser A, B, AB e O, e
+quem é A tem anticorpos anti-B, quem é B tem anticorpos anti-A, e
+quem é AB não tem nenhum dos dois, e quem é O tem anti-A e anti-
+B. E esses são anticorpos do tipo IgM.
+
+===== página 87 =====
+
+===== página 88 =====
+Já a eritroblastose fetal é a reação frente ao fator RH. Então,
+imaginemos uma mãe que é RH negativa, o pai é RH positivo e vamos
+supor que a criança, nessa primeira gravidez, ele é RH positivo. Então,
+na primeira gravidez não tem nenhum problema, porque os grupos,
+as hemácias da criança não entram em contato durante todo o período
+dos nove meses da gravidez, não entram em contato com o sistema
+imune da mãe. Entretanto, quando acontece o parto, quando contrai a
+placenta para se soltar do útero, uma quantidade enorme de sangue do
+ﬁlho entra em contato com o sistema imune do indivíduo. Então, isso
+vai determinar que se façam anticorpos anti-RH e tem uma memória
+anti-RH.
+E quando acontece uma segunda gravidez e, de novo, o ﬁlho é
+RH positivo. Então, agora, eu tenho anticorpos pré-formados anti-
+RH, ou células de memória que se ativam e, de alguma forma,
+passam a produzir anticorpos. Então, no ﬁnalzinho da gravidez,
+esses plasmócitos fazem IgG, que podem cruzar a placenta e podem
+causar essa eritroblastose fetal com dano à criança, porque afetaria, a
+princípio, as hemácias do feto. Isso tem uma forma de evitar, não vou
+entrar em detalhes, com um medicamento que se chama Rhogan, que
+vai bloquear esses antígenos RH positivo.
+
+===== página 89 =====
+
+===== página 90 =====
+Hipersensibilidade tipo 3. Na hipersensibilidade tipo 2, vimos que
+era IgM e IgG contra estruturas celulares. Na tipo 3 é IgM e IgG
+contra antígenos solúveis que podem ser estranhos ou próprios.
+Então, a lesão do paciente ocorre pelo depósito do imunocomplexo,
+não é pelo antígeno que é ligado, aqui o imunocomplexo deposita, se
+encontra em grande quantidade e isso vai atrapalhar muito a função.
+Frequentemente a do rim é uma das principais.
+
+===== página 91 =====
+
+===== página 92 =====
+Aqui em amarelo eu coloquei quadros que são frente a coisas que
+não são próprias. Então tem a doença do soro, que ocorre quando
+tem muito antígeno de plasmódio, também se fazem anticorpos anti-
+plasmódios que podem depositar na parede dos vasos dando uma
+síndrome nefrótica.Poliarterite nodosa, que se vê em algumas viroses,
+de novo, anticorpo frente a antígenos dos vírus. E na ﬁlariose também
+se faz uma grande quantidade de anticorpos e a ﬁlária é muito massiva
+na sua presença e isso determina uma vasodilatação muito forte, com
+bloqueio da drenagem, e o paciente tem o que se chama elefantíase,
+com membros inferiores e sacro escrotal, tudo muito dilatado por
+conta desse processo de reação.
+Depois temos quadros que são autoimunes, como o lúpus
+eritematoso disseminado, que a gente vai ver com mais detalhes.
+A artrite reumatoide, apesar de ser um processo tipo alergia de
+hipersensibilidade tipo 4, também tem um componente tipo 3. O
+mesmo ocorre na espondilite anquilosante, que é uma doença bastante
+grave também.
+
+===== página 93 =====
+
+===== página 94 =====
+Aqui é simplesmente para mostrar a IgG grudada no glomérulo renal,
+dá para ver os depósitos aqui ﬂuorescentes nesse glomérulo.
+
+===== página 95 =====
+
+===== página 96 =====
+E como acontece a ação? O imunocomplexo é formado, ativa
+complemento que degranula mastócitos, então às vezes tem um
+componente também de granulação. Então, essa ativação de
+complemento atrai neutróﬁlos, e os neutróﬁlos vão chegar nesse lugar
+onde estão os depósitos imunocomplexos e vão produzir a lesão.
+Aqui está escrito como se fosse na pele, mas podem imaginar que
+isso aqui é um glomérulo ou um vaso do indivíduo. Os depósitos
+imunocomplexos se depositariam lá, principalmente em superfícies
+onde existe uma pressão positiva para sair o líquido e depois
+chegariam os neutróﬁlos, que se ativando frente ao fragmento FC
+da IgG, frequentemente, vão degranular. E vai determinar que o
+conteúdo lítico dos grânulos dos neutróﬁlos cause lesão acima desse
+determinado local onde se oculta o imunocomplexo.
+
+===== página 97 =====
+
+===== página 98 =====
+Então, como afeta muito a parede dos vasos, frequentemente os
+processos são vasculites, que tomam nomes diferentes, dependendo
+de onde acontece.
+
+===== página 99 =====
+
+===== página 100 =====
+Aqui vou mostrar somente uma coisa que, frequentemente, vocês
+vão ver logo depois, vou falar um pouco do lúpus eritematoso
+disseminado, que é uma doença autoimune muito grave, porque se
+fazem imunocomplexos de anticorpos frente a DNA, RNA, histonas e
+coisas assim.
+Mas a maioria desses processos de reação tipo 3 podem ser quadros
+autoimunes, mas existem outros quadros que são independentes,
+digamos assim, que acontecem por formação de imunocomplexos
+frente a antígenos externos. Por exemplo, um indivíduo que foi ao
+Instituto Butantan porque foi picado por uma jararaca. Aí, no Instituto
+Butantan, vão colocar nele soro anti-veneno de jararaca, só que esse
+soro foi feito em cavalo. Então, ele é inoculado para evitar que o
+indivíduo morra por ação do veneno. Esse é o anticorpo do cavalo,
+sendo anti-jararaca, vai bloquear o veneno da jararaca.
+Mas veja como a quantidade de plasma aumentou essas proteínas
+do soro de cavalo. Aí então, essa proteína do soro de cavalo, ela teve
+sua ação bloqueando o veneno, mas ela é diferente do indivíduo que
+foi picado, não foi um cavalo, era uma pessoa. Então, ele vai fazer
+anticorpos anti-imunoglobulina de cavalo. E, então, devagarinho,
+ele começa a fazer esses anticorpos e chega um momento em que
+essa quantidade de proteína desce e acontece em um ponto de
+equivalência, onde tem formação de complexo antígeno-anticorpo.
+Então, esses complexos antígeno-anticorpo vão depositar na parede
+dos vasos e vão dar vasculite, artrite, nefrite, inﬂamação pelas diversas
+células que vão degranular lá.
+
+===== página 101 =====
+
+===== página 102 =====
+E vejam, por exemplo, escolhi uma fotograﬁa aqui de um indivíduo
+que tem todas essas hemorragias na pele, por conta do depósito dos
+imunocomplexos, em um indivíduo que entrou em doença do soro,
+e que causou lesões com hemorragia múltipla. Então, é um quadro
+grave, ele está hospitalizado, e indicando, digamos assim, que o
+tratamento com um soro que é heterólogo, não é da mesma espécie,
+traz um problema para o indivíduo também, quando o sistema imune
+dele reage e se forma um imunocomplexo.
+
+===== página 103 =====
+
+===== página 104 =====
+Bom, e aqui agora passamos ao quadro de lúpus eritematoso
+disseminado, que é um quadro de hipersensibilidade tipo 3, mas frente
+a antígenos próprios. Então, eles chamaram, os antigos chamaram de
+lúpus, porque achavam que esse eritema que tem essa menina aqui
+lembrava a face de um lobo.
+E por que acontece frequentemente nesse local? Porque é um local
+muito exposto aos raios UV do sol. E a grande maioria, senão todas,
+as pessoas que têm lúpus eritematoso, eles fazem anticorpos dirigidos
+frente à DNA, RNA. E quando os raios UV quebram as células da face,
+arrebentam, queimam as células da face, então o anticorpo age e vai
+causar toda essa lesão eritematosa.
+
+===== página 105 =====
+
+===== página 106 =====
+Não é somente na pele, a vasculite acontece em muitos lugares, o
+lugar mais importante é no rim. Então, aqui temos um engrossamento
+da membrana basal pelo depósito de imunocomplexos, aqui corado
+com um anti, não sei se IgM ou IgG, e dá para ver que aqui já é de
+uma biópsia do paciente. E aqui, com certeza, vejam uma autópsia,
+é que nesse local aqui do glomérulo renal, eles têm uma inﬁltração
+de polimorfonucleares neutrofílicos, que são responsáveis por grande
+parte da lesão.
+
+===== página 107 =====
+
+===== página 108 =====
+Bom, no lúpus, o indivíduo tem anticorpos anti-DNA, anti-histonas,
+anti-nucleoproteínas e anti-GNA nucleares.
+
+===== página 109 =====
+
+===== página 110 =====
+E o depósito de imunocomplexos acontece nos vasos, e também no
+glomérulo renal, que não deixa de ser um vaso, cavidade articular e
+pele.
+
+===== página 111 =====
+
+===== página 112 =====
+Hipersensibilidade tipo 4 ou hipersensibilidade tardia que é mediada
+por células T ou células que podem ser tanto CD4 ou CD8.
+
+===== página 113 =====
+
+===== página 114 =====
+Em amarelo estão as reações que acontecem frente ao antígeno
+externo, então, em doença granulomatosa, que acontece na
+tuberculose, na lepra, e em algumas viroses, como varicela, herpes e
+sarampo, que são as doenças exantemáticas.
+E depois, em processos autoimunes, como o diabetes mellitus
+insulino-dependente, a esclerose múltipla, artrite reumatoide, a
+doença de Crohn e a cirrose biliar primária.
+Quando se faz algum tipo de teste para saber se o indivíduo tem,
+por exemplo, uma reação frente à tuberculose, se injeta um antígeno
+que se chama PPD, e aí acontece a reação. Em vez de ser imediata,
+esse eritema ou edema demora 48 horas para acontecer e é uma lesão
+da pele mais dura.
+
+===== página 115 =====
+
+===== página 116 =====
+Bom, aqui um exemplo de uma coisa que muita gente chama alergia,
+mas que não é tipo 1. Então, é mediada por linfócitos T e, é o que
+se chama dermatite por contato. Aqui vocês têm um indivíduo, por
+exemplo, que é alérgico a ﬁvela, e então ele está fazendo essa lesão aí
+no lugar de contato.
+
+===== página 117 =====
+
+===== página 118 =====
+Aqui, uma outra, é meio cômico, porque o indivíduo tem alergia às
+havaianas e ao elástico da cueca.
+
+===== página 119 =====
+
+===== página 120 =====
+Aqui há um pingente que recebeu no dia dos namorados, e o cara
+acabou fazendo essa lesão no lugar onde ﬁcava paradinho o pingente
+lá dentro.
+
+===== página 121 =====
+
+===== página 122 =====
+Bom, depois temos as doenças que são autoimunes, como por
+exemplo a esclerose múltipla, que é um quadro que vai determinando
+paralisias. E é por agressão da medula espinhal, por ação das células T
+destruindo a bainha de mielina. Então, a bainha de mielina é destruída,
+o indivíduo perde a inervação, que é como ter um ﬁo desencapado.
+E aí, então, depois, no lugar da lesão pode acontecer paralisia e
+uma série de coisas. Mas o que a gente encontra é o responsável
+por essa destruição, que são linfócitos T e macrófagos ou monócitos
+recrutados, que também contribuem para essa perda dessa bainha de
+mielina.
+
+===== página 123 =====
+
+===== página 124 =====
+Então, os responsáveis são a formação de células anti-mielina,
+processo autoimune, que no Brasil acontece pouco, curiosamente
+aumenta mais à medida que a gente vai longe do Equador, tudo isso
+aqui tem gravidade, e aqui começa aqui embaixo, mas não se sabe
+muito bem por quê.
+
+===== página 125 =====
+
+===== página 126 =====
+Depois, artrite reumatoide, quadro também muito doloroso, muito
+grave, que causa grande deformidade, e onde o indivíduo vai fazer
+linfócitos T ou contra a cápsula articular, ou contra a sinovial, e isso
+ﬁca então inﬁltrado de linfócitos e macrófagos e acabam destruindo a
+cartilagem e trazendo problemas de muita dor, acontecem em várias
+articulações do organismo e altamente limitantes.
+
+===== página 127 =====
+
+===== página 128 =====
+Aqui temos casos de infecções, como por exemplo, a tuberculose. O
+indivíduo faz o que se chama granuloma, que faz parte da reação
+do sistema imune à tuberculose, que é mediada por linfócito T,
+não tem anticorpos aqui. Mas onde o linfócito T, às vezes, não
+consegue eliminar totalmente a micobactéria. Então, acontece uma
+coisa que se chama formação de um granuloma, que ao redor de
+uma área de necrose, que é chamada necrose caseosa, onde o tecido
+tem uma aparência de queijo branco e se vê que tem em volta
+um inﬁltrado linfocitário muito grande, e aqui dentro tem muitos
+macrófagos, sendo que alguns dos macrófagos viram células gigantes
+multinucleares, que nessa distribuição periférica se chamam células
+de Langhans, que são típicas da tuberculose e talvez da lepra também.
+Então, aqui o que a gente tem é essa necrose, apesar de provocada
+pela micobactéria, em parte também é provocada pelo próprio sistema
+imune reagindo frente à tuberculose.
+
+===== página 129 =====
+
+===== página 130 =====
+Aqui estão os aspectos das três principais reações cutâneas. Tipo 1:
+eritema e edema, reação imediata pela IgE. Tipo 3: imunocomplexo,
+vemos em 5 ou 12 horas isso acontecer. Tipo 4: que é a tardia, um
+exemplo é a reação ao PPD da Mycobacterium tuberculosis, onde a
+lesão é dura e demora umas 48 horas para acontecer e tem uma área
+avermelhada mais endurecida, porque na verdade não tem aumento
+de permeabilidade, tem inﬁltração de células T e macrófagos.

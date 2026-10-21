@@ -1,0 +1,11 @@
+# #AK_Step1_v12::#FirstAid::02_Immunology::03_Immune_Responses::13_Hypersensitivity_types::04_Type_IV_hypersensitivity (10 notas)
+1462326990404 1-HighYield What type of hypersensitivity is type 1 diabetes mellitus ? Type IV HSR (direct cell cytotoxicity)
+1487207218837 1-HighYield Which type of hypersensitivity reaction is T-cell mediated ? Type IV
+1487207220752 1-HighYield Type IV HSRs may occur via direct cell cytotoxicity , which involves CD8 + T cells
+1487207229813 1-HighYield Type IV HSRs may occur via delayed-type hypersensitivity , which involves CD4 + T-cells
+1487207238825 1-HighYield What type of hypersensitivity reaction is allergic contact dermatitis (e.g., poison ivy, nickel allergy)? Type IV HSR (CD4 & CD8 mediated)
+1487207240713 1-HighYield What type of hypersensitivity reaction is graft-versus-host disease ? Type IV HSR (delayed-type hypersensitivity)
+1487207242473 1-HighYield What type of hypersensitivity reaction is a tuberculin skin test (PPD)? Type IV HSR (Th 1 mediated)
+1487207244285 1-HighYield What type of hypersensitivity reaction is a patch test ? Type IV HSR (CD4-mediated)
+1487207248593 1-HighYield Which hypersensitivity reaction(s) are antibody-mediated ? I, II, and III
+1520351135706 1-HighYield What type of hypersensitivity reaction is the Candida extract test ? Type IV HSR (CD4-mediated)

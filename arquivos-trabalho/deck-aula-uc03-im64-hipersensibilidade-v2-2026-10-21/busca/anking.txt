@@ -1,0 +1,246 @@
+### tipo1 | AnKing | (hypersensitivity AND (IgE OR mast)) | 44 notas
+  1473638702772 [AnKingOverhaul] 2-RelativelyHighYield {{c1:: Hypersensitivity pneumonitis }} is an autoimmune reaction that generates {{c2:: noncaseating granulomas ::histological finding}} in response to inhaled organic antigens (e.g., pigeon 
+  1473638705750 [AnKingOverhaul] 2-RelativelyHighYield Hypersensitivity pneumonitis is a mixed type {{c1::III}} / {{c1::IV}} hypersensitivity reaction
+  1473638707900 [AnKingOverhaul] 2-RelativelyHighYield Hypersensitivity pneumonitis is often seen in {{c1::farmers::demographic}} and those exposed to {{c2::birds}}
+  1473638710349 [AnKingOverhaul] 2-RelativelyHighYield Hypersensitivity pneumonitis presents with {{c1::fever}}, cough , and dyspnea hours after exposure; resolves with removal of exposure
+  1473638717615 [AnKingOverhaul] 2-RelativelyHighYield Hypersensitivity pneumonitis can lead to interstitial fibrosis and {{c1:: restrictive }} lung disease with chronic exposure to the inhaled antigen
+  1479267461227 [AnKingOverhaul] 1-HighYield Mast cells mediate {{c1::allergic}} reactions in local tissues
+  1482275928004 [AnKingOverhaul] 2-RelativelyHighYield What type of hypersensitivity reaction is chronic autoimmune gastritis ? {{c1::Type IV (T-cell mediated)}}
+  1486952670744 [AnKingOverhaul] 1-HighYield MHC {{c2:: II }} binds to the T-cell receptor (TCR) and CD {{c1:: 4 }}
+  1487115889320 [AnKingOverhaul] 1-HighYield MHC {{c2:: I }} presents {{c1:: endogenously }} synthesized antigens to CD8 + cytotoxic T cells
+  1487116831797 [AnKingOverhaul] 1-HighYield MHC {{c2:: II }} presents {{c1:: exogenously }} synthesized antigens to CD4 + helper T cells
+  1487117263860 [AnKingOverhaul] 1-HighYield IgE cross-links when exposed to allergen , mediating type {{c1:: I }} hypersensitivity reactions
+  1487117328797 [AnKingOverhaul] 1-HighYield Which immunoglobulin typically mediates antibody-dependent cellular cytotoxicity (ADCC)? {{c1::IgG*}}
+  1487206917325 [AnKingOverhaul] 1-HighYield Which type of hypersensitivity reaction is mediated by cross-linking IgE on presensitized mast cells and basophils ? {{c1::Type I HSR}}
+  1487207079363 [AnKingOverhaul] 1-HighYield Type I HSR occurs due to cross-linking of Ig {{c1:: E }} on presensitized {{c3:: mast cells }} and {{c3:: basophils }} by antigens, leading to receptor aggregation
+  1487207084334 [AnKingOverhaul] 1-HighYield The immediate response of mast cell and basophil activation is release of preformed {{c1:: histamine }} granules and {{c2:: tryptase ::marker of activation}}
+  1487207091819 [AnKingOverhaul] 1-HighYield The delayed response of mast cell and basophil activation involves production of {{c2:: chemokines }} (e.g., to attract eosinophils) and other proinflammatory mediators from mast cells
+  1487207100136 [AnKingOverhaul] 2-RelativelyHighYield {{c1::Skin prick}} tests or {{c2::blood (ELISA)}} tests for allergen-specific IgE are typically used to diagnose type I hypersensitivity reactions
+  1487207102783 [AnKingOverhaul] 1-HighYield Which type of hypersensitivity reaction is mediated by binding of antibodies to cell-surface antigens ? {{c1::Type II HSR}}
+  1487207167794 [AnKingOverhaul] 1-HighYield In type III HSRs , antigen-antibody complexes activate {{c1:: complement }}, which attracts {{c2:: neutrophils }}
+  1487207190223 [AnKingOverhaul] 1-HighYield Serum sickness presents with fever , urticaria , arthralgia , proteinuria , and lymphadenopathy {{c1::1}} - {{c1::2}} weeks after antigen exposure
+  1487207194698 [AnKingOverhaul] 1-HighYield {{c1:: Arthus reaction }} is a local subacute immune complex-mediated HSR to antigen in intradermal injection
+  1487207203586 [AnKingOverhaul] 1-HighYield What type of hypersensitivity reaction is the Arthus reaction ? {{c1::Type III HSR}}
+  1487207229813 [AnKingOverhaul] 1-HighYield Type {{c2:: IV }} HSRs may occur via delayed-type hypersensitivity , which involves CD4 + T-cells
+  1487214797652 [AnKingOverhaul] 1-HighYield Which type of transplant rejection is due to pre-existing recipient antibodies to donor antigen ? {{c1::Hyperacute}}
+  1487640136892 [AnKingOverhaul] 2-RelativelyHighYield Mast cells may be activated by cross-linking of cell-surface {{c1:: IgE }} by antigen
+  1489970582544 [AnKingOverhaul] 1-HighYield Which immune cell(s) secrete(s) IL-4 ? {{c1::Th 2 cells}}
+  1495907226760 [AnKingOverhaul]  What is the likely diagnosis in a patient with repeated episodes of fever , dyspnea , and cough after exposure to environmental antigens (e.g., farmers, bird droppings, molds)? {{c1::Hyperse
+  1495907511695 [AnKingOverhaul]  What is the best treatment for hypersensitivity pneumonitis ? {{c1::Avoidance of the responsible antigen}}
+  1500239431365 [AnKingOverhaul] 5-LowYield Blood tests of patients with allergic bronchopulmonary aspergillosis (ABPA) will show {{c1:: in }} creased Ig {{c1:: E }}
+  1503089762191 [AnKingOverhaul] 1-HighYield What type of hypersensitivity reaction is rheumatic fever ? {{c1::Type II HSR (inflammation)}}
+### tipo1 | Externos | (hypersensitivity AND (IgE OR mast)) | 3 notas
+  1701281668409 [Cloze-AnKingMa]  {{c3::Mast Cell}} Distribution and Function {{c3:: Mast cells }} are found in the connective tissue of many organs, especially: near small blood vessels in skin and mesenteries ({{c1::periva
+  1701281743553 [Cloze-AnKingMa]  Mast Cells in Allergic Reactions The release of chemical mediators from mast cells promotes allergic reactions , known as {{c1::immediate}} {{c1::hypersensitivity}} reactions , occurring wit
+  1733686097647 [AnKingMCAT (An]  Hypersensitivity reactions are extreme/unnecessary {{c1::immune responses}} that the body has to an antigen
+### tipo2 | AnKing | (hypersensitivity AND (antibod* OR cytotoxic)) | 38 notas
+  1462326990404 [AnKingOverhaul] 1-HighYield What type of hypersensitivity is type 1 diabetes mellitus ? {{c1::Type IV HSR (direct cell cytotoxicity)}}
+  1478995351309 [AnKingOverhaul] 3-HighYield-temporary The {{c1:: direct }} Coombs test adds {{c2:: anti-human globulin (Coombs reagent)}} to a sample of a patient's {{c3:: RBCs }}
+  1478995359420 [AnKingOverhaul] 3-HighYield-temporary The {{c1:: direct }} Coombs test answers the question: "Are the patient's RBCs already bound by immunoglobulin (or complement)?"
+  1478995369644 [AnKingOverhaul] 3-HighYield-temporary The {{c1:: indirect }} Coombs test adds {{c2:: donor RBCs }} and {{c3:: anti-human globulin (Coombs reagent)}} to the patient's {{c4:: serum }}
+  1478995378594 [AnKingOverhaul] 3-HighYield-temporary The {{c1:: indirect }} Coombs test answers the question: "Does the patient have antibodies in their serum ?"
+  1482275928004 [AnKingOverhaul] 2-RelativelyHighYield What type of hypersensitivity reaction is chronic autoimmune gastritis ? {{c1::Type IV (T-cell mediated)}}
+  1487115889320 [AnKingOverhaul] 1-HighYield MHC {{c2:: I }} presents {{c1:: endogenously }} synthesized antigens to CD8 + cytotoxic T cells
+  1487117263860 [AnKingOverhaul] 1-HighYield IgE cross-links when exposed to allergen , mediating type {{c1:: I }} hypersensitivity reactions
+  1487117328797 [AnKingOverhaul] 1-HighYield Which immunoglobulin typically mediates antibody-dependent cellular cytotoxicity (ADCC)? {{c1::IgG*}}
+  1487207102783 [AnKingOverhaul] 1-HighYield Which type of hypersensitivity reaction is mediated by binding of antibodies to cell-surface antigens ? {{c1::Type II HSR}}
+  1487207105743 [AnKingOverhaul] 1-HighYield Type II HSRs can cause pathology by inducing {{c1::cellular destruction}} by opsonizing the target with antibodies
+  1487207112553 [AnKingOverhaul] 1-HighYield Type II HSRs can cause pathology by inducing {{c1::cellular dysfunction}}, causing abnormal blockade or activation/inactivation of downstream cellular processes
+  1487207119666 [AnKingOverhaul] 1-HighYield Type II HSRs can cause pathology by inducing {{c1::inflammation}} by antibodies depositing on cell surfaces, which in turn activates complement
+  1487207141168 [AnKingOverhaul] 1-HighYield What test is used to diagnose type II hypersensitivity reactions against RBCs ? {{c1::Coombs test}}
+  1487207167794 [AnKingOverhaul] 1-HighYield In type III HSRs , antigen-antibody complexes activate {{c1:: complement }}, which attracts {{c2:: neutrophils }}
+  1487207175248 [AnKingOverhaul] 1-HighYield {{c1:: Serum sickness }} is an immune complex disease in which antibodies to foreign serum proteins are produced
+  1487207190223 [AnKingOverhaul] 1-HighYield Serum sickness presents with fever , urticaria , arthralgia , proteinuria , and lymphadenopathy {{c1::1}} - {{c1::2}} weeks after antigen exposure
+  1487207203586 [AnKingOverhaul] 1-HighYield What type of hypersensitivity reaction is the Arthus reaction ? {{c1::Type III HSR}}
+  1487207220752 [AnKingOverhaul] 1-HighYield Type {{c2:: IV }} HSRs may occur via direct cell cytotoxicity , which involves CD8 + T cells
+  1487207248593 [AnKingOverhaul] 1-HighYield Which hypersensitivity reaction(s) are antibody-mediated ? {{c1::I, II, and III}}
+  1487214797652 [AnKingOverhaul] 1-HighYield Which type of transplant rejection is due to pre-existing recipient antibodies to donor antigen ? {{c1::Hyperacute}}
+  1487640136892 [AnKingOverhaul] 2-RelativelyHighYield Mast cells may be activated by cross-linking of cell-surface {{c1:: IgE }} by antigen
+  1488418525490 [AnKingOverhaul] 1-HighYield {{c2:: Myasthenia gravis }} is caused by autoantibodies to {{c1:: post }} synaptic {{c1:: ACh receptors }} at the NMJ
+  1488679982353 [AnKingOverhaul]  What type of hypersensitivity reaction is pemphigus vulgaris and bullous pemphigoid ? {{c1::Type II HSR}}
+  1496865067791 [AnKingOverhaul] 2-RelativelyHighYield Serum sickness can be treated with pulsed {{c1:: corticosteroid }} therapy
+  1501511684746 [AnKingOverhaul] 1-HighYield What type of hypersensitivity reaction is pernicious anemia ? {{c1::Type II HSR}}
+  1503089762191 [AnKingOverhaul] 1-HighYield What type of hypersensitivity reaction is rheumatic fever ? {{c1::Type II HSR (inflammation)}}
+  1503091131993 [AnKingOverhaul] 1-HighYield Circulating {{c1:: immune complex }} deposition causes glomerular damage and subsequent nephritic syndrome in post-streptococcal glomerulonephritis (PSGN)
+  1509290379106 [AnKingOverhaul] 5-LowYield Which of the cytotoxic microtubule inhibitors is associated with hypersensitivity reaction ? {{c1::Paclitaxel (taxanes)}}
+  1509300563305 [AnKingOverhaul] 2-RelativelyHighYield Chimeric monoclonal antibodies can sometimes cause a(n) {{c1:: serum sickness }} within {{c2:: 5-14 }} days of administration
+### tipo2 | Externos | (hypersensitivity AND (antibod* OR cytotoxic)) | 2 notas
+  1695595771222 [Cloze-Lightyea]  Hypersensitivity reactions: ABCD Type I - {{c1:: A naphylaxis and A topic}} Type II - {{c1::Anti B ody-mediated}} Type III - {{c1::Immune C omplex mediated}} Type IV - {{c1:: D irect (cell-m
+  1701281743553 [Cloze-AnKingMa]  Mast Cells in Allergic Reactions The release of chemical mediators from mast cells promotes allergic reactions , known as {{c1::immediate}} {{c1::hypersensitivity}} reactions , occurring wit
+### tipo3 | AnKing | ("immune complex" OR "serum sickness") | 52 notas
+  1471806671662 [AnKingOverhaul] 1-HighYield IgA vasculitis (Henoch-Schönlein purpura) is a vasculitis that occurs secondary to {{c1:: IgA immune complex}} deposition
+  1471899439284 [AnKingOverhaul] 1-HighYield {{c1:: Dressler }} syndrome is a(n) {{c2:: autoimmune }} phenomenon that results in fibrinous pericarditis following a myocardial infarction (MI) (2 - 10 weeks)
+  1472161149689 [AnKingOverhaul] 1-HighYield What kidney complication may be associated with infective endocarditis ? {{c1::Glomerulonephritis}}
+  1475363825579 [AnKingOverhaul] 1-HighYield What immunofluorescence findings are associated with minimal change disease ? {{c1::None (no immune complex deposits)}}
+  1475363863959 [AnKingOverhaul] 1-HighYield What immunofluorescence findings are usually associated with focal segmental glomerulosclerosis (FSGS)? {{c1::None (no immune complex deposits)}}
+  1475363999923 [AnKingOverhaul] 1-HighYield What immunofluorescence findings are associated with membranous nephropathy ? {{c1::Granular deposits (immune complex deposition)}}
+  1475364023607 [AnKingOverhaul] 1-HighYield {{c3:: Membranous }} nephropathy is characterized by {{c2:: subepithelial ::location}} deposits with a(n) '{{c1:: spike and dome }}' appearance on electron microscopy
+  1475364032274 [AnKingOverhaul] 2-RelativelyHighYield Membranoproliferative glomerulonephritis (MPGN) is associated with {{c1:: basement membrane }} {{c2:: thickening }} and {{c2:: splitting }} on light microscopy
+  1475364042912 [AnKingOverhaul] 1-HighYield What immunofluorescence findings are associated with membranoproliferative glomerulonephritis ? {{c1::Granular deposits (immune complex deposition)}}
+  1475364052433 [AnKingOverhaul] 4-LowerYield MPGN type {{c2:: I }} is associated with {{c1:: subendothelial ::location}} immune complex deposits
+  1475376433919 [AnKingOverhaul] 1-HighYield PSGN may present with peripheral and periorbital {{c1:: edema }}
+  1475376486636 [AnKingOverhaul] 1-HighYield {{c3:: Post-streptococcal glomerulonephritis (PSGN) }} is characterized by a(n) {{c1:: granular ("lumpy bumpy") ::specific}} immunofluorescence pattern due to {{c2:: immune complex depositio
+  1475376496099 [AnKingOverhaul] 2-RelativelyHighYield The granular (" lumpy bumpy ") appearance of PSGN on immunofluorescence is due to deposits with immune complexes consisting of {{c1:: IgG }} / {{c1:: IgM }} and {{c2:: C3 }}
+  1475376498638 [AnKingOverhaul] 1-HighYield PSGN is characterized by {{c1:: subepithelial :: location }} immune complex "{{c2:: humps }}" on electron microscopy
+  1475376529252 [AnKingOverhaul] 1-HighYield {{c2:: Rapidly progressive glomerulonephritis (RPGN)}} is characterized by {{c1:: crescents }} in Bowman space of the glomeruli ( light microscopy )
+  1475376612128 [AnKingOverhaul] 2-RelativelyHighYield Diffuse proliferative glomerulonephritis (DPGN) is characterized by {{c1:: subendothelial }} and sometimes {{c2:: intramembranous }} immune complexes on electron microscopy
+  1475376614336 [AnKingOverhaul] 1-HighYield The immune complexes in diffuse proliferative glomerulonephritis (DPGN) are Ig {{c1:: G }} -based and often have deposition of {{c2:: C3 ::specific}}
+  1475376654031 [AnKingOverhaul] 2-RelativelyHighYield IgA nephropathy is characterized by {{c1::mesangial::location}} immune complex deposits on electron microscopy
+  1475376667877 [AnKingOverhaul] 2-RelativelyHighYield Berger disease is characterized by Ig {{c1:: A }} -based immune complex deposits in the {{c2:: mesangium }} (seen with immunofluorescence )
+  1482359386135 [AnKingOverhaul] 1-HighYield {{c2:: Celiac }} disease is associated with {{c1:: dermatitis herpetiformis }}, which are small, herpes-like vesicles on the skin
+  1484704987455 [AnKingOverhaul] 1-HighYield {{c1:: Post-streptococcal glomerulonephritis (PSGN)}} is a complication of GAS pharyngitis or skin infection that presents with hematuria (cola-colored urine) and facial swelling
+  1487207162179 [AnKingOverhaul] 1-HighYield Which type of hypersensitivity reaction is characterized by circulating immune complexes ? {{c1::Type III HSR}}
+  1487207175248 [AnKingOverhaul] 1-HighYield {{c1:: Serum sickness }} is an immune complex disease in which antibodies to foreign serum proteins are produced
+  1487207181602 [AnKingOverhaul] 1-HighYield Serum sickness-like reactions (SSLRs) are associated with {{c2:: infections (e.g., HBV)}} and some drugs acting as {{c1::haptens (e.g., penicillin)}}
+  1487207190223 [AnKingOverhaul] 1-HighYield Serum sickness presents with fever , urticaria , arthralgia , proteinuria , and lymphadenopathy {{c1::1}} - {{c1::2}} weeks after antigen exposure
+  1487207192567 [AnKingOverhaul] 1-HighYield What type of hypersensitivity reaction is serum sickness ? {{c1::Type III HSR (immune complexes)}}
+  1487207194698 [AnKingOverhaul] 1-HighYield {{c1:: Arthus reaction }} is a local subacute immune complex-mediated HSR to antigen in intradermal injection
+  1487207200447 [AnKingOverhaul] 1-HighYield Arthus reaction leads to immune complex formation in the {{c1:: skin }}; characterized by edema , necrosis , and activation of complement
+  1487207210931 [AnKingOverhaul] 1-HighYield Which is more common , serum sickness or arthus reaction ? {{c1::Serum sickness}}
+  1487207216546 [AnKingOverhaul] 1-HighYield What type of hypersensitivity reaction is post-streptococcal glomerulonephritis (PSGN)? {{c1::Type III}}
+### tipo3 | Externos | ("immune complex" OR "serum sickness") | 1 notas
+  1695595771222 [Cloze-Lightyea]  Hypersensitivity reactions: ABCD Type I - {{c1:: A naphylaxis and A topic}} Type II - {{c1::Anti B ody-mediated}} Type III - {{c1::Immune C omplex mediated}} Type IV - {{c1:: D irect (cell-m
+### tipo4 | AnKing | (hypersensitivity AND (T-cell OR delayed OR contact)) | 23 notas
+  1482275928004 [AnKingOverhaul] 2-RelativelyHighYield What type of hypersensitivity reaction is chronic autoimmune gastritis ? {{c1::Type IV (T-cell mediated)}}
+  1486952670744 [AnKingOverhaul] 1-HighYield MHC {{c2:: II }} binds to the T-cell receptor (TCR) and CD {{c1:: 4 }}
+  1487115889320 [AnKingOverhaul] 1-HighYield MHC {{c2:: I }} presents {{c1:: endogenously }} synthesized antigens to CD8 + cytotoxic T cells
+  1487116831797 [AnKingOverhaul] 1-HighYield MHC {{c2:: II }} presents {{c1:: exogenously }} synthesized antigens to CD4 + helper T cells
+  1487116873670 [AnKingOverhaul] 1-HighYield What class of helper T cell recruits eosinophils for parasite defense ? {{c1::Th 2 }}
+  1487207091819 [AnKingOverhaul] 1-HighYield The delayed response of mast cell and basophil activation involves production of {{c2:: chemokines }} (e.g., to attract eosinophils) and other proinflammatory mediators from mast cells
+  1487207218837 [AnKingOverhaul] 1-HighYield Which type of hypersensitivity reaction is T-cell mediated ? {{c1::Type IV}}
+  1487207229813 [AnKingOverhaul] 1-HighYield Type {{c2:: IV }} HSRs may occur via delayed-type hypersensitivity , which involves CD4 + T-cells
+  1487207238825 [AnKingOverhaul] 1-HighYield What type of hypersensitivity reaction is allergic contact dermatitis (e.g., poison ivy, nickel allergy)? {{c1::Type IV HSR (CD4 & CD8 mediated)}}
+  1487207240713 [AnKingOverhaul] 1-HighYield What type of hypersensitivity reaction is graft-versus-host disease ? {{c1::Type IV HSR (delayed-type hypersensitivity)}}
+  1487207244285 [AnKingOverhaul] 1-HighYield What type of hypersensitivity reaction is a patch test ? {{c1::Type IV HSR (CD4-mediated)}}
+  1487207248593 [AnKingOverhaul] 1-HighYield Which hypersensitivity reaction(s) are antibody-mediated ? {{c1::I, II, and III}}
+  1487727707397 [AnKingOverhaul] 4-LowerYield Which immunodeficiency is always caused by failure to repair DNA double strand breaks ? {{c1::Ataxia-telangiectasia}}
+  1488502525511 [AnKingOverhaul]  {{c1:: Allergic contact }} dermatitis presents with a pruritic , oozing rash with vesicles and edema due to a type {{c2:: IV }} HSR
+  1488502527762 [AnKingOverhaul]  {{c1:: Allergic contact }} dermatitis arises upon exposure to allergens (e.g., nickel, poison ivy, neomycin)
+  1489970582544 [AnKingOverhaul] 1-HighYield Which immune cell(s) secrete(s) IL-4 ? {{c1::Th 2 cells}}
+  1504364623371 [AnKingOverhaul] 3-HighYield-temporary Which gout drug can result in rash , eosinophilia , and systemic symptoms ? {{c1::Allopurinol}}
+  1506786339931 [AnKingOverhaul] 2-RelativelyHighYield Which NRTI is associated with a hypersensitivity reaction in patients with the HLA-B 57:01 allele ? {{c1::Abacavir}}
+  1520351135706 [AnKingOverhaul] 1-HighYield What type of hypersensitivity reaction is the Candida extract test ? {{c1::Type IV HSR (CD4-mediated)}}
+  1525092846013 [AnKingOverhaul] 1-HighYield The pruritus of scabies is worse at night due to a(n) {{c1:: delayed , type IV}} hypersensitivity reaction
+  1545258451697 [AnKingOverhaul]  Localized pruritic erythematous rash after contact with allergen is most likely {{c1::allergic contact dermatitis (ACD)::condition}}
+  1555761434577 [AnKingOverhaul]  What is the likely diagnosis in a patient presenting with rash that began as pruritic papules and progressed to linear, erythematous plaques with overlying vesicles oozing yellow fluid ? The
+  1579988455367 [AnKingOverhaul]  The patch test is considered the gold standard method for the diagnosis of {{c1:: allergic contact dermatitis (type IV HSR)}}
+### tipo4 | Externos | (hypersensitivity AND (T-cell OR delayed OR contact)) | 1 notas
+  1561729185206 [AnKingMCAT (An]  {{c1::Avoidant}} personality disorder is characterized by feelings of extreme social inhibition , inadequacy, and sensitivity to negative criticism and rejection.
+### th2 | AnKing | (Th2 AND (IL-4 OR IL-5 OR IL-13)) | 14 notas
+  1473628097990 [AnKingOverhaul] 1-HighYield Asthma pathogenesis : Th 2 cells secrete IL- {{c1:: 4 }}, which mediates class switching to {{c2:: IgE }}
+  1473628101206 [AnKingOverhaul] 1-HighYield Asthma pathogenesis : Th 2 cells secrete IL- {{c1:: 5 }} which attracts {{c2:: eosinophils }}
+  1473628103469 [AnKingOverhaul] 1-HighYield Asthma pathogenesis : Th 2 cells secrete IL- {{c1:: 4 }} and IL- {{c1:: 10 }} which stimulate Th 2 cells and inhibit Th 1 cells
+  1487116858814 [AnKingOverhaul] 4-LowerYield Differentiation of helper T cells to {{c2:: Th 2 }} is induced by {{c1:: IL-2 }} and {{c1:: IL-4 }}
+  1487116864321 [AnKingOverhaul] 4-LowerYield Differentiation of helper T cells to {{c2:: Th 2 }} is inhibited by {{c1:: IFN-γ }}
+  1487116869316 [AnKingOverhaul] 5-LowYield What class of helper T cell secretes IL-4 , -5 , -6 , -10 , and -13 ? {{c1::Th 2 }}
+  1487116873670 [AnKingOverhaul] 1-HighYield What class of helper T cell recruits eosinophils for parasite defense ? {{c1::Th 2 }}
+  1487116895205 [AnKingOverhaul] 4-LowerYield Differentiation of helper T cells to {{c2:: Th 1 }} is inhibited by {{c1:: IL-4 }} and {{c1:: IL-10 }}
+  1487117161213 [AnKingOverhaul] 5-LowYield Class switching to Ig {{c2:: E }} is promoted by {{c1:: IL-4 }} and {{c1:: IL-13 }}
+  1489970519207 [AnKingOverhaul] 4-LowerYield Which interleukin is primarily responsible for stimulating IgE production ? {{c1::IL-4}}
+  1489970582544 [AnKingOverhaul] 1-HighYield Which immune cell(s) secrete(s) IL-4 ? {{c1::Th 2 cells}}
+  1489970595226 [AnKingOverhaul] 3-HighYield-temporary Which interleukin is primarily responsible for stimulating IgA production ? {{c1::IL-5}}
+  1489970609617 [AnKingOverhaul] 1-HighYield Which immune cell(s) secrete(s) IL-5 ? {{c1::Th 2 cells & mast cells::2}}
+  1520717070355 [AnKingOverhaul] 3-HighYield-temporary In the setting of chronic inflammation , macrophages can be activated to M2 macrophages by stimulation from {{c2::Th 2 }} cells, resulting in a(n) {{c1::anti-inflammatory}} phenotype
+### th2 | Externos | (Th2 AND (IL-4 OR IL-5 OR IL-13)) | 0 notas
+### ige | AnKing | (IgE AND (half OR serum OR FcεRI OR Fc)) | 365 notas
+  1402676915794 [AnKingOverhaul] 1-HighYield Neisseria {{c1:: gonorrhoeae }} has no {{c3:: vaccine }} due to rapid antigenic variation of {{c2:: pilus }} proteins
+  1461634682247 [AnKingOverhaul] 5-LowYield Psyllium and methylcellulose are {{c1:: bulk-forming }} laxatives
+  1462140548057 [AnKingOverhaul] 5-LowYield Hypoparathyroidism is most commonly a result of {{c1:: thyroid surgery }}, or less commonly may be {{c3:: autoimmune }} or {{c2:: congenital }}
+  1462219774801 [AnKingOverhaul] 1-HighYield Which thyroid imbalance presents with decreased heat production ( cold intolerance ) and decreased sweating ? {{c1::Hypothyroidism}}
+  1462219782959 [AnKingOverhaul] 1-HighYield Which thyroid imbalance presents with increased heat production ( heat intolerance ) and increased sweating ? {{c1::Hyperthyroidism}}
+  1462913732310 [AnKingOverhaul] 2-RelativelyHighYield α -glucosidase inhibitors (e.g., acarbose, miglitol) are infrequently prescribed due to their ability to cause {{c1::diarrhea}}, {{c1::flatulence}}, and abdominal pain as side effects
+  1463334171326 [AnKingOverhaul] 1-HighYield {{c2:: Varicocele }} presents as scrotal swelling with a palpable "{{c1:: bag of worms }}" while standing
+  1463345977335 [AnKingOverhaul] 1-HighYield The total PSA level in benign prostatic hyperplasia is often {{c1::slightly}} elevated due to hyperplasia of prostatic glands
+  1463346053358 [AnKingOverhaul] 2-RelativelyHighYield PSA > {{c1::10}} ng/mL is worrisome at any age and may indicate prostatic adenocarcinoma
+  1463346056481 [AnKingOverhaul] 2-RelativelyHighYield A decreased % of which form of PSA is suggestive of prostatic adenocarcinoma ? {{c1::Free PSA (cancer makes bound PSA)}}
+  1463346085076 [AnKingOverhaul] 1-HighYield Which two serum markers are often elevated in prostatic adenocarcinoma ? {{c1::PSA (prostate-specific antigen)}} {{c1::PAP (prostatic acid phosphatase)}}
+  1463845129097 [AnKingOverhaul] 1-HighYield In addition to central diabetes insipidus , desmopressin (DDAVP) may be used to treat nocturnal enuresis , {{c1:: hemophilia A }}, and von Willebrand disease
+  1467682246440 [AnKingOverhaul] 1-HighYield Histone {{c1:: acetylation }} usually {{c2:: activates }} DNA transcription
+  1467927138618 [AnKingOverhaul] 1-HighYield Antibodies to spliceosomal snRNPs , also known as {{c2:: anti-Smith }} antibodies , are highly specific for {{c1:: systemic lupus erythematosus (SLE)}}
+  1468605672126 [AnKingOverhaul] 2-RelativelyHighYield {{c1::Fluorescence in situ hybridization (FISH)}} uses a fluorescent DNA/RNA probe to bind to a specific gene of interest on chromosomes
+  1468605679141 [AnKingOverhaul] 2-RelativelyHighYield {{c1::Fluorescence in situ hybridization (FISH)}} is a laboratory technique used for specific localization of genes and direct visualization of chromosomal anomalies
+  1468605683908 [AnKingOverhaul] 2-RelativelyHighYield A(n) {{c1::microdeletion}} is detected with FISH as no fluorescence on a chromosome compared to fluorescence at the same locus on the second copy of that chromosome
+  1471806240278 [AnKingOverhaul] 1-HighYield {{c2:: Polyarteritis nodosa (PAN)}} is a necrotizing vasculitis that is associated with positive serum {{c1:: HBsAg }} in 30% of patients
+  1471806541451 [AnKingOverhaul] 1-HighYield Which serum immunoglobulin is elevated in eosinophilic granulomatosis with polyangiitis (EGPA)? {{c1::IgE}}
+  1471806647224 [AnKingOverhaul] 1-HighYield What significant laboratory finding is associated with eosinophilic granulomatosis with polyangiitis (EGPA)? {{c1::Positive p-ANCA::Not eosinophilia or IgE}}
+  1473548476620 [AnKingOverhaul] 2-RelativelyHighYield The final phase of lobar pneumonia is {{c1:: resolution }} with regeneration of tissue via type {{c2:: II }} pneumocytes
+  1473628007883 [AnKingOverhaul] 2-RelativelyHighYield Mutant α 1 -antitrypsin polymerizes and accumulates in the {{c1:: endoplasmic reticulum }} of hepatocytes , resulting in liver damage (e.g., cirrhosis)
+  1473628105781 [AnKingOverhaul] 1-HighYield Re-exposure to an allergen in asthmatics leads to IgE-mediated activation of {{c1::mast}} cells
+  1473638710349 [AnKingOverhaul] 2-RelativelyHighYield Hypersensitivity pneumonitis presents with {{c1::fever}}, cough , and dyspnea hours after exposure; resolves with removal of exposure
+  1473995583272 [AnKingOverhaul] 1-HighYield Which coagulation disorder presents with recurrent hemarthroses , spontaneous / easy bruising , and bleeding after surgery ? {{c1::Hemophilia (A, B, C)}}
+  1474164990441 [AnKingOverhaul] 2-RelativelyHighYield Lactase deficiency may present with {{c1:: diarrhea }} due to the osmotic effects of undigested lactose
+  1474580620228 [AnKingOverhaul] 2-RelativelyHighYield Once produced, IgE binds to {{c1:: high affinity (FcεR1) ::specific}} receptors on mast cells in the airway mucosa
+  1474580948335 [AnKingOverhaul] 2-RelativelyHighYield {{c1:: Omalizumab }} is a monoclonal antibody directed against the {{c2:: Fc }} portion of {{c3:: IgE }}, preventing mast cell sensitization
+  1475376417766 [AnKingOverhaul] 1-HighYield PSGN occurs with nephritogenic strains of group A β-hemolytic streptococcus , which carry the {{c1:: M protein }} virulence factor, and is caused by glomerular deposition of nephritogenic an
+  1475896634888 [AnKingOverhaul] 5-LowYield Is glycerol polar or non-polar? {{c1::Polar}}
+### ige | Externos | (IgE AND (half OR serum OR FcεRI OR Fc)) | 170 notas
+  1473200535621 [LabValue]  IgE, serum
+  1540252022970 [AnatoKingOverh]  {{c1::Trigeminal nerve (V)}}
+  1540252028138 [AnatoKingOverh]  {{c1::Opthalmic nerve (V1)}}
+  1540252036921 [AnatoKingOverh]  {{c1::Maxillary nerve (V2)}}
+  1540252043801 [AnatoKingOverh]  {{c1::Mandibular nerve (V3)}}
+  1548817469321 [AnatoKingOverh]  {{c1::Hyaloid canal of eye [Canalis hyaloideus]}}
+  1549127246264 [AnatoKingOverh]  {{c1::Tunica vaginalis of testis [Tunica vaginalis testis]}}
+  1554094708656 [AnKingMCAT (An]  Zymogens are inactive enzymes precursors that must be {{c1::biochemically changed}} to become active.
+  1556141306722 [AnKingMCAT (An]  {{c2:: Innate }} immunity are defenses that are always active and are {{c1::non-specific::specific or non-specific}}.
+  1556143563699 [AnKingMCAT (An]  {{c1::Lysozyme}} is a/an {{c2:: antimicrobial }} enzyme that forms part of the {{c2::innate}} immune system .
+  1556144450034 [AnKingMCAT (An]  {{c1::MHC I}} glycoproteins are present on {{c2:: all nucleated cells }}. {{c1::MHC-II}} glycoproteins are present on {{c2:: antigen-presenting cells (APCs) , including macrophages, dendriti
+  1556145503289 [AnKingMCAT (An]  The main function of {{c1::professional antigen-presenting cells::...cells}} is to {{c2::process antigen material and present it on the cell surface to the T cells of the immune system}}. Th
+  1556146651641 [AnKingMCAT (An]  {{c2:: Humoral }} immunity is provided by {{c1::antibodies}} which assist in destroying {{c3:: extracellular }} pathogens.
+  1556147713698 [AnKingMCAT (An]  Part of the {{c2:: adaptive }} immune system, specifically the {{c2:: humoral }} immunity, {{c1::B cells}} are responsible for {{c3:: generating antibodies to specific antigens}}.
+  1556149308803 [AnKingMCAT (An]  {{c1::Cell-mediated (cytotoxic) immunity::component of adaptive immunity}} produces an immune response that does not involve {{c2:: antibodies }}.
+  1556152718642 [AnKingMCAT (An]  {{c1::Memory T-cells}} serve a similar function to {{c1::memory B-cells}} and, at a {{c2:: second }} encounter with a pathogen , will work to {{c2::mount a faster and stronger cellular and h
+  1557601105690 [AnatoKingOverh]  {{c1::Mesencephalic trigeminal nucleus & tract}}
+  1558904705840 [AnatoKingOverh]  {{c1:: Mylohyoid muscle [M. mylohyoideus] ::Name}} Origin. {{c2:: Mylohyoid line of mandible }} Insertion. {{c2:: Median raphe and body of hyoid bone ::2x}} Action. {{c2:: Elevates hyoid bon
+  1560035434628 [AnKingMCAT (An]  The bulk of chemical lipid digestion occurs in the {{c1::small intestine}} due to {{c2:: pancreatic lipase }}.
+  1560533683967 [AnKingMCAT (An]  {{c1::Social stratification}} is the system by which {{c2::society ranks categories of people into a hierarchy }}.
+  1560874169573 [AnKingMCAT (An]  {{c1::Crystallized intelligence}} is defined as the ability to {{c2::use learned knowledge and experience }}.
+  1577143829076 [AnatoKingOverh]  {{c1::Spinal Tract of CN V (Spinal trigeminal tract)}}
+  1577143837133 [AnatoKingOverh]  {{c1::Spinal Nucleus of CN V / Spinal trigeminal nucleus}}
+  1661650460351 [AnKingOverhaul]  This is a gross image of {{c1::elastic cartilige}}
+  1701193904371 [Cloze-AnKingMa]  Secretory Cells in Various Glands Secretory cells can {{c1:: synthesize }}, {{c1:: store }}, and release proteins (e.g., in the pancreas ), lipids (e.g., adrenal , sebaceous glands ), or {{c
+  1701194026557 [Cloze-AnKingMa]  {{c1::Unicellular}} Glands {{c1::Unicellular}} glands , like {{c2::goblet}} cells , are found in {{c4:: simple cuboidal ::types }}, {{c4:: simple columnar }}, and {{c4::pseudostratified}} ep
+  1701199795805 [Cloze-AnKingMa]  {{c1:: Endocrine }} glands lack myoepithelial cells and specialize in synthesizing either {{c2:: protein ::1}} {{c2:: hormones }} or {{c2:: steroid ::2}} {{c2:: hormones }}. Cytoplasmic stai
+  1701200056883 [Cloze-AnKingMa]  {{c1:: Protein }} hormones are released by {{c2:: exocytosis }}, while {{c1::lipophilic steroids }} {{c2:: diffuse }} through the cell membrane and are taken up by {{c2:: binding }} proteins
+  1701208197363 [Cloze-AnKingMa]  Transformation from Monocytes to {{c1::Macrophages}} The transformation of monocytes into {{c1:: macrophages }} in connective tissue involves {{c1:: increases ::s }} in cell size and protein
+  1701341841089 [Cloze-AnKingMa]  Elastic Properties of Fibers and Lamellae The elastic properties of fibers and lamellae arise from the structure of elastin subunits and their unique {{c1:: cross - links }}. Elastin molecul
+### mast | AnKing | ("mast cell" AND (histamine OR leukotriene OR prostaglandin)) | 21 notas
+  1462061251872 [AnKingOverhaul] 4-LowerYield Glucocorticoids may have anti-inflammatory effects via the inhibition of the release of {{c1:: histamine }} and {{c1:: serotonin }} from mast cells and platelets
+  1473628107938 [AnKingOverhaul] 1-HighYield In an asthmatic response , mast cells release preformed {{c1::histamine}} granules (early-phase reaction)
+  1473628116213 [AnKingOverhaul] 1-HighYield In an asthmatic response , mast cells lead to generation of leukotrienes {{c1::C 4 }} , {{c1::D 4 }} , and {{c1::E 4 }} (early-phase reaction)
+  1481330858659 [AnKingOverhaul] 2-RelativelyHighYield {{c2:: Polycythemia vera }} classically presents with intense {{c1:: pruritus }}, especially after a hot shower
+  1484603441997 [AnKingOverhaul] 5-LowYield {{c1::Allergic}} conjunctivitis is characterized by bilateral itchy eyes
+  1487207084334 [AnKingOverhaul] 1-HighYield The immediate response of mast cell and basophil activation is release of preformed {{c1:: histamine }} granules and {{c2:: tryptase ::marker of activation}}
+  1503602428756 [AnKingOverhaul] 1-HighYield Penicillins can result in type {{c1::I}} hypersensitivity reactions , mediated by Ig{{c2::E}} causing {{c2::anaphylaxis}}
+  1504824269861 [AnKingOverhaul]  What is the recommended treatment for a patient that develops rapid -onset pruritus and urticaria after taking amoxicillin for a sore throat? The lungs are clear to auscultation and there is
+  1505343399768 [AnKingOverhaul] 1-HighYield Which antibiotic causes an infusion reaction characterized by red skin flushing ? {{c1::Vancomycin}}
+  1505343486874 [AnKingOverhaul] 1-HighYield {{c2:: Vancomycin infusion }} reaction results from direct activation of {{c1:: mast cells }} leading to {{c1:: histamine }} release upon vancomycin administration
+  1505343622984 [AnKingOverhaul] 1-HighYield Vancomycin infusion reaction is characterized by erythema, pruritus, and widespread {{c1::flushing}}
+  1505343825105 [AnKingOverhaul] 1-HighYield Vancomycin infusion reaction is characterized by histamine release with possible {{c1:: hypo }} tension
+  1505343884890 [AnKingOverhaul] 1-HighYield Vancomycin infusion reaction can be avoided by {{c1::slowing}} the infusion of vancomycin
+  1505343931425 [AnKingOverhaul] 1-HighYield Vancomycin infusion reaction can be avoided by pre-treating with {{c1::antihistamines}}
+  1505767459732 [AnKingOverhaul]  What are the recommended treatments for viral conjunctivitis ? {{c1::Warm or cold compresses}} ± {{c1::Antihistamine / decongestant drops}}
+  1518568398211 [AnKingOverhaul]  Superficial burns are {{c1:: blanchable ::blanchable / not blanchable}} and {{c2:: painful ::painful / not painful}}
+  1520905749524 [AnKingOverhaul] 5-LowYield Patients with {{c1:: systemic mastocytosis }} have clonal mast cell proliferation in the bone marrow, skin, and other organs
+  1520906322080 [AnKingOverhaul] 5-LowYield Patients with systemic mastocytosis can present with syncope, flushing, hypotension, pruritus, and urticaria due to massive {{c1::histamine}} release
+  1545258451697 [AnKingOverhaul]  Localized pruritic erythematous rash after contact with allergen is most likely {{c1::allergic contact dermatitis (ACD)::condition}}
+  1584573202327 [AnKingOverhaul]  What are the pharmacologic options for treatment of allergic conjunctivitis ? First-line : {{c1::Topical antihistamines}} Persistent/refractory symptoms : {{c1::Oral antihistamines, topical 
+  1741089617635 [AnKingOverhaul]  {{c1:: Allergen immunotherapy (desensitization) }} involves exposing patients to gradually increasing doses of an allergen , leading to production of Ig {{c2:: G }} antibodies instead of IgE
+### mast | Externos | ("mast cell" AND (histamine OR leukotriene OR prostaglandin)) | 17 notas
+  1556153744256 [AnKingMCAT (An]  {{c1::Mast cells}} release {{c2:: cytokines }} and {{c2:: granules }} that create a/an {{c2:: inflammatory cascade }}.
+  1556153903790 [AnKingMCAT (An]  Histamine is released by {{c1:: mast }} cells and causes blood vessels to dilate , thereby {{c2:: increasing ::increasing or decreasing}} blood flow and cell trafficking to an area of infect
+  1609188166555 [Cloze-Lightyea]  {{c2::Substance P}} facilitates transmission in pain pathways via {{c1::neurokinin-1}} receptor activation
+  1609188253119 [Cloze-Lightyea]  Substance P sensitizes {{c1::nociceptors}}, degranulates {{c2::histamine}} from mast cells and {{c2::5-HT (Serotonin)}} from platelets , and is a potent {{c3::vasodilator}} and {{c3::chemoat
+  1609188631064 [Cloze-Lightyea]  {{c1::Bradykinin}} is released from tissues following activation of {{c2::factor XII}} . It activates free nerve endings via specific {{c3::β1 and β2 receptors}}.
+  1701205197125 [Cloze-AnKingMa]  Cells of Connective Tissue {{c1::Fibroblasts}} are the primary cells in connective tissue {{c2::proper}}, originating locally from mesenchymal cells . They are {{c2::permanent}} residents of
+  1701279374751 [Cloze-AnKingMa]  {{c2::Mast}} Cell Functions: Bioactive Substance Release {{c2::Mast}} cells are crucial for localized release of bioactive substances in local {{c1::inflammatory}} response , {{c1::innate}} 
+  1701280069196 [Cloze-AnKingMa]  Specific Substances Released by Mast Cells Heparin is a sulfated glycosaminoglycan (GAG) acting as a local {{c1:: anticoagulant }}. Histamine promotes increased vascular {{c2:: permeability 
+  1701281743553 [Cloze-AnKingMa]  Mast Cells in Allergic Reactions The release of chemical mediators from mast cells promotes allergic reactions , known as {{c1::immediate}} {{c1::hypersensitivity}} reactions , occurring wit
+  1701281910663 [Cloze-AnKingMa]  Anaphylaxis: Sequence of Events Anaphylaxis starts with the first exposure to an allergen (e.g., bee venom), leading to the production of {{c1::IgE}} antibodies by antibody-producing cells. 
+  1701532324709 [Cloze-AnKingMa]  Basophil Characteristics and Abundance Basophils are {{c1::12}}-{{c1::15}} μm in diameter but constitute less than {{c2::1}}% of circulating leukocytes . They are {{c2::rare::frequency}} in 
+  1701532447117 [Cloze-AnKingMa]  Basophilic Granules The specific granules of basophils typically stain purple with {{c2::bas}} ic dyes and are {{c1::fewer::quantity}}, {{c1::larg::size}}er, and more irregular than other gr
+  1701532569811 [Cloze-AnKingMa]  Basophil Function and Relation to Mast Cells Basophils migrate into connective tissues , supplementing the functions of {{c1::mast}} cells . Both basophils and {{c1:: mast ::s}} cells have: 
+  1701952598221 [Cloze-AnKingMa]  Immunoglobulin A (IgA) Location : Predominantly found in {{c1::exo}} crine secretions . Structure : Exists in a {{c3::di::s}} meric form , with the {{c3::heavy}} chains of {{c3::two::s}} mon
+  1701952674784 [Cloze-AnKingMa]  Immunoglobulin M (IgM) Blood Concentration : Constitutes about {{c1::5 - 10::apprx. 10 50 90}}%* of blood immunoglobulin. Structure : Typically in a {{c2::penta}} meric form , united by a {{
+  1701952972904 [Cloze-AnKingMa]  Immunoglobulin E (IgE) Form : Typically a {{c1:: monomer }}. Abundance : Much {{c1::less::more or less}}* abundant in circulation compared to other immunoglobulin classes. Binding : Exists b
+  1701953543099 [Cloze-AnKingMa]  Immunoglobulin D (IgD) Abundance : The {{c1:: least }} abundant immunoglobulin in plasma. Understanding : Relatively less understood compared to other antibody classes. Structure and Locatio

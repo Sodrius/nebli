@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#FirstAid::07_Cardiovascular::04_Pathology::24_Conduction_blocks::Second-degree_AV_block_type_II (5 notas)
+1472147731220 2-RelativelyHighYield 2nd degree Mobitz type II AV block is characterized by dropped beats that are not preceded by a change in length of the PR interval on ECG
+1472147778461 2-RelativelyHighYield 2nd degree Mobitz type II AV block may progress to 3rd-degree block
+1472147788517 2-RelativelyHighYield 2nd degree Mobitz type II AV block is often treated with a(n) cardiac pacemaker
+1472147916281 3-HighYield-temporary What pathology is indicated on the ECG below? 2nd degree AV block, Mobitz type II
+1497300146982 - At what level does a 2nd degree, Mobitz type II heart block typically occur? Below the AV node (e.g., bundle of His)

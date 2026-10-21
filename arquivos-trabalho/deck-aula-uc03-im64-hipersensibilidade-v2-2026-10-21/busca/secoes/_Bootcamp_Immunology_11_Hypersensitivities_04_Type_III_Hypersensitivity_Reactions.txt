@@ -1,0 +1,24 @@
+# #AK_Step1_v12::#Bootcamp::Immunology::11_Hypersensitivities::04_Type_III_Hypersensitivity_Reactions (23 notas)
+1474132602716 1-HighYield What type of hypersensitivity reaction occurs in polyarteritis nodosa (PAN)? Type III (immune-complex mediated)
+1487207162179 1-HighYield Which type of hypersensitivity reaction is characterized by circulating immune complexes ? Type III HSR
+1487207167794 1-HighYield In type III HSRs , antigen-antibody complexes activate complement , which attracts neutrophils
+1487207175248 1-HighYield Serum sickness is an immune complex disease in which antibodies to foreign serum proteins are produced
+1487207181602 1-HighYield Serum sickness-like reactions (SSLRs) are associated with infections (e.g., HBV) and some drugs acting as haptens (e.g., penicillin)
+1487207184256 1-HighYield A(n) hapten is a small molecule that may conjugate with larger proteins to elicit an immune response
+1487207190223 1-HighYield Serum sickness presents with fever , urticaria , arthralgia , proteinuria , and lymphadenopathy 1 - 2 weeks after antigen exposure
+1487207192567 1-HighYield What type of hypersensitivity reaction is serum sickness ? Type III HSR (immune complexes)
+1487207194698 1-HighYield Arthus reaction is a local subacute immune complex-mediated HSR to antigen in intradermal injection
+1487207200447 1-HighYield Arthus reaction leads to immune complex formation in the skin ; characterized by edema , necrosis , and activation of complement
+1487207203586 1-HighYield What type of hypersensitivity reaction is the Arthus reaction ? Type III HSR
+1487207210931 1-HighYield Which is more common , serum sickness or arthus reaction ? Serum sickness
+1487207216546 1-HighYield What type of hypersensitivity reaction is post-streptococcal glomerulonephritis (PSGN)? Type III
+1487207248593 1-HighYield Which hypersensitivity reaction(s) are antibody-mediated ? I, II, and III
+1487815313912 1-HighYield What type of hypersensitivity reaction is systemic lupus erythematosus (SLE)? Type III* HSR (immune complex deposition)
+1496865067791 2-RelativelyHighYield Serum sickness can be treated with pulsed corticosteroid therapy
+1509300563305 2-RelativelyHighYield Chimeric monoclonal antibodies can sometimes cause a(n) serum sickness within 5-14 days of administration
+1509300714526 1-HighYield Which reaction to monoclonal antibodies includes skin rash, fever, and arthralgias ? Serum sickness
+1509301502004 3-HighYield-temporary Both rituximab and cetuximab are antitumor chimeric antibodies associated with serum sickness
+1514438709754 4-LowerYield What is the likely diagnosis in a patient who recently finished taking penicillin that presents with mild fever , myalgias or arthralgias , and painful violaceous rash ? Hypersensitivity vasculitis (c
+1517254540516 - What drug classes are most commonly associated with serum sickness-like reaction (SSLR)? β-lactams and sulfa drugs
+1556395773720 - Fever, urticaria, and polyarthralgia 1-2 weeks after taking β -lactams or TMP-SMX is suggestive of serum sickness-like reaction (SSLR)
+1583964087768 1-HighYield Rheumatoid arthritis is a type III hypersensitivity reaction

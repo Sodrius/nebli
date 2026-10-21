@@ -1,0 +1,170 @@
+{
+ "nome": "Reações de hipersensibilidade",
+ "escopo": "cards",
+ "drive_pasta": "UC03/Imunologia/64 - Hipersensibilidade",
+ "pasta_turma": "/Users/davisousa/Library/CloudStorage/GoogleDrive-davi.sousa@fm.usp.br/Drive partagés/TURMA 114/1º ano/UC03 - Princípios do Desenvolvimento de Doenças/Imunologia/Aula 12 - Reações de Hipersensibilidade",
+ "turma_lidos": [
+  "Reações de Hipersensibilidade.pdf",
+  "Material Complementar I - Transcrição da Aula.pdf"
+ ],
+ "turma_descartados": {
+  "Material Complementar I - Videoaula Assíncrona.mp4": "vídeo dispensado por Davi (F-20261010-CLAUDE-06)"
+ },
+ "slides": "fontes/slides.pdf",
+ "n_laminas": 90,
+ "familias": {
+  "slides": [
+   {
+    "arquivo": "fontes/slides.pdf",
+    "localizador": "90 lâminas (tipo II, III, IV e I), texto lido inteiro e figuras de apoio por texto (21/10)",
+    "contribuicao": "Inventário e ordem",
+    "alvos": "slides"
+   }
+  ],
+  "veteranos": [
+   {
+    "arquivo": "fontes/transcricao.txt",
+    "localizador": "Transcrição da aula (130 páginas, fala do professor), lida inteira",
+    "contribuicao": "Mecanismo de cada tipo, exemplos, sensibilização e desencadeamento",
+    "alvos": "todos"
+   },
+   {
+    "arquivo": "fontes/mat-02-apostila-imuno-hipersens.txt",
+    "localizador": "Apostila guia de Imuno, aula 10, lida",
+    "contribuicao": "Classificação e mecanismos",
+    "alvos": "todos"
+   },
+   {
+    "arquivo": "fontes/mat-03-monitoria-p3-hipersens.txt",
+    "localizador": "Monitoria P3 de Imuno, aula 13, lida",
+    "contribuicao": "Tipos I a IV e exemplos",
+    "alvos": "todos"
+   }
+  ],
+  "provas": [
+   {
+    "arquivo": "fontes/provas-im64.txt",
+    "localizador": "Índice imuno-12 (11 itens, ecos marcados), lido",
+    "contribuicao": "Tipo I, PPD, classificação de caso",
+    "alvos": "prova"
+   }
+  ],
+  "bibliografia": [
+   {
+    "arquivo": "fontes/slides.pdf",
+    "localizador": "Figuras de livro nas lâminas (Abbas)",
+    "contribuicao": "Resposta e evasão",
+    "alvos": "cap"
+   },
+   {
+    "arquivo": "livros/abbas-basica.txt",
+    "localizador": "Abbas, Imunologia Básica (cap. 3 e imunidade a microrganismos, extraído em materiais-uc03)",
+    "contribuicao": "Confirma interferons e NK",
+    "alvos": "todos"
+   }
+  ],
+  "youtube": {
+   "estado": "não aplicável",
+   "busca": "vídeos dispensados por Davi (F-20261010-CLAUDE-06)",
+   "impacto": "nenhum"
+  },
+  "caoc": {
+   "estado": "não localizada",
+   "busca": "pasta da aula sem CAOC",
+   "impacto": "nenhum"
+  },
+  "exercicios": [
+   {
+    "arquivo": "fontes/provas-im64.txt",
+    "localizador": "sem lista de exercícios; itens de prova acima",
+    "contribuicao": "—",
+    "alvos": "todos"
+   }
+  ]
+ },
+ "livros": [
+  {
+   "livro": "Abbas, Imunologia Básica",
+   "texto": "livros/abbas-basica.txt"
+  }
+ ],
+ "ninja_nerd_busca": "não aplicável: vídeos dispensados por Davi (F-20261010-CLAUDE-06)",
+ "materiais_uc": {
+  "Grand round 1.pdf": {
+   "descartado": "apostila do GR1 (esquizofrenia)"
+  },
+  "Grand Round 1 - slides.pptx": {
+   "descartado": "lâminas do GR1"
+  },
+  "Apostila Ilustrativa Radiologia.pdf": {
+   "descartado": "apostila de Radiologia; TC × RM do GR é revisão das aulas 05/12"
+  },
+  "Cópia de Cópia de UC03 - Apostila Guia de Imunologia.pdf": {
+   "texto": "fontes/mat-02-apostila-imuno-hipersens.txt",
+   "secao": "Aula 10: Reações de Hipersensibilidade",
+   "linhas": "arquivos-trabalho/materiais-uc03/apostila - Cópia de Cópia de UC03 - Apostila Guia de Imunologia.txt:3292-3470"
+  },
+  "Cópia de Cópia de UC03 - Apostila Guia de Microbiologia.pdf": {
+   "descartado": "apostila de Micro; virologia é da 58/59"
+  },
+  "Cópia de Cópia de UC03 - Apostila Guia de Patologia.pdf": {
+   "descartado": "apostila de Patologia; a patologia da infecção viral é a aula 61 (cópias por sh)"
+  },
+  "UC03 - Apostila Guia de Biologia Molecular.pdf": {
+   "descartado": "apostila de Biomol; replicação do DNA celular é de outras aulas (enzimas da forquilha entram por busca)"
+  },
+  "radiologia.pdf": {
+   "descartado": "apostila de Radiologia"
+  },
+  "Tudo que você precisa saber de RD - UC3.pdf": {
+   "descartado": "apostila de Radiologia"
+  },
+  "Grand Round 2.pdf": {
+   "descartado": "apostila do GR2"
+  },
+  "UC3.pdf": {
+   "descartado": "conferido por busca: texto de imunidade a vírus e fungos coincide com a apostila guia de Imuno e a monitoria"
+  },
+  "O GRANDE RESUMO DA P1 UC3.pdf": {
+   "descartado": "resumo da P1 (esta aula é da P3)"
+  },
+  "O GRANDE RESUMO DA P2 UC3.pdf": {
+   "descartado": "mesmo arquivo da Monitoria - Resumo da P2 (33.304.311 bytes); P2 é outra prova (bactérias e micoses)"
+  },
+  "O GRANDE RESUMO DA P3 UC3.pdf": {
+   "descartado": "mesmo arquivo da Monitoria - Resumo da P3 (53.161.785 bytes); seção lida em mat-03"
+  },
+  "Monitoria - Resumo da P2.pdf": {
+   "descartado": "monitoria P2 (bactérias e micoses; outra prova)"
+  },
+  "Monitoria - Resumo da P1.pdf": {
+   "descartado": "monitoria da P1 (outra prova)"
+  },
+  "Monitoria - Resumo da P3.pdf": {
+   "texto": "fontes/mat-03-monitoria-p3-hipersens.txt",
+   "secao": "Aula 13 – Reações de hipersensibilidade",
+   "linhas": "arquivos-trabalho/materiais-uc03/Imunologia - Monitoria - Resumo da P3.txt:3022-3248"
+  },
+  "E - TranscriÃ§Ã£o da Aula em PDF - MB - Antivirais.pdf": {
+   "texto": "fontes/transcricao.txt",
+   "secao": "Transcrição da Aula Ia: Antivirais (87 páginas, texto das lâminas 93–178)"
+  },
+  "Monitoria - Mapa Imunológico 1.pdf": {
+   "descartado": "mapas de Imuno sem seção de hipersensibilidade (conferido por busca nas três): 63 usou os trechos de vírus e fungos"
+  },
+  "Monitoria - Mapa Imunológico 2.pdf": {
+   "descartado": "mapas de Imuno sem seção de hipersensibilidade (conferido por busca nas três): 63 usou os trechos de vírus e fungos"
+  },
+  "Monitoria - Mapa Imunológico 3.pdf": {
+   "descartado": "mapas de Imuno sem seção de hipersensibilidade (conferido por busca nas três): 63 usou os trechos de vírus e fungos"
+  },
+  "C - ApresentaÃ§Ã£o em PDF da Video Aula - IM - ReaÃ§Ãµes de HIpersensibilidade.pdf": {
+   "texto": "fontes/slides.txt",
+   "secao": "Aula de hipersensibilidade (lâminas e transcrição)"
+  },
+  "D - TranscriÃ§Ã£o da Aula em PDF - IM - ReaÃ§Ãµes de HIpersensibilidade_transcrita.pdf": {
+   "texto": "fontes/transcricao.txt",
+   "secao": "Aula de hipersensibilidade (lâminas e transcrição)"
+  }
+ }
+}

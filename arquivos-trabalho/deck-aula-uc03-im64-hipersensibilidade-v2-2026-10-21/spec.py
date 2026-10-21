@@ -7,7 +7,7 @@ from nebli.spec_lib import ak, au, sh, ORG, finalizar, acervo
 
 PIPELINE_VERSAO = 4
 SECOES_DA_AULA = [l for l in (HERE / "busca" / "secoes-da-aula.txt").read_text(encoding="utf-8").split() if l]
-AUTORAL_EXCECAO = ""
+AUTORAL_EXCECAO = "Mecanismo causa→efeito da aula (sensibilização ao efetor de cada tipo e tempos), que o AnKing traz como classificação; exigido pela linha lógica de F-20261021-CLAUDE-02."
 PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-im64-20261021a"
 SHORT = "im64"
@@ -86,6 +86,47 @@ CARDS = [
        extra="- The same Th2 package defends against helminths: IgE, mucus, eosinophils and smooth muscle contraction"),
     K(1473628085810, "R-detalhe", T1_, "Asma: em geral tipo I", 50, "lâminas 50 e 82–86 (asma brônquica); seção Bootcamp"),
     K(1487207094725, "A-aula", T1_, "Anafilaxia: tipo I", 50, "lâmina 50 (choque anafilático); seção FirstAid"),
+    K(1500404728172, "A-aula", T2_, "IgG opsonina: fagocitose por receptor de Fc ou complemento", 3, "lâmina 3 e apostila (opsonização por Fc e complemento); seção de imunologia"),
+    K(1487640151914, "A-aula", T2_, "Via clássica do complemento começa em C1, ativado por IgM ou IgG", 3, "lâmina 3 e apostila (ativação do complemento por anticorpo ligado)"),
+    K(1488418525490, "A-aula", T2_, "Miastenia: autoanticorpo contra receptor de acetilcolina", 10, "lâmina 10 (disfunção por bloqueio de receptor); seção Bootcamp"),
+    K(1487640222923, "A-aula", T3_, "C3b ajuda a limpar imunocomplexos", 17, "lâmina 17 e apostila (complemento e remoção de imunocomplexos)"),
+    K(1487207200447, "A-aula", T3_, "Arthus: imunocomplexos na pele com edema, necrose e complemento", 17, "lâmina 17 (ação local de imunocomplexos); seção FirstAid"),
+    K(1503091131993, "A-aula", T3_, "Imunocomplexos circulantes depositam no glomérulo na GNPE", 15, "lâmina 15 (glomerulonefrite pós-estreptocócica); seção B&B"),
+    K(1487207190223, "A-aula", T3_, "Doença do soro: sintomas 1–2 semanas depois do antígeno", 19, "lâmina 19 (tempo para formar anticorpo e imunocomplexo); seção FirstAid"),
+    K(1481335976660, "A-aula", T4_, "Células de Langerhans apresentam antígeno ao T virgem", 28, "lâminas 28–31 (sensibilização na dermatite de contato)"),
+    K(1487116928027, "V-pilar", T4_, "Th1 ativa macrófagos e T citotóxicos", 29, "lâminas 29–31 (hipersensibilidade tardia); seção Bootcamp"),
+    K(1489970364081, "A-aula", T4_, "IFN-γ é o sinal que ativa o macrófago", 29, "lâminas 29–31 (macrófago ativado causa a lesão tardia)"),
+    K(1487117293576, "A-aula", T4_, "CD8 citotóxico mata por apoptose", 43, "lâmina 43 (citotoxicidade direta do tipo IV)"),
+    K(1487117300306, "R-detalhe", T4_, "CD8 induz apoptose por Fas ligante e Fas", 43, "lâmina 43 (mecanismo da morte celular pelo T citotóxico)"),
+    K(1487643795892, "A-aula", T4_, "Granuloma: Th1 e IFN-γ transformam macrófagos em epitelioides", 36, "lâminas 36–38 (granuloma da hipersensibilidade tardia crônica); seção Bootcamp"),
+    K(1487116878738, "V-pilar", T1_, "Th2 promove a produção de IgE", 55, "lâmina 55 (como a IgE é produzida); seção Bootcamp"),
+    K(1487117161213, "V-pilar", T1_, "IL-4 e IL-13 promovem a troca de classe para IgE", 55, "lâmina 55 e transcrição (troca de classe do B pela IL-4)"),
+    K(1474580620228, "V-pilar", T1_, "IgE se liga ao receptor de alta afinidade FcεRI do mastócito", 60, "lâmina 60 (FcεRI); seção Bootcamp"),
+    K(1487640136892, "V-pilar", T1_, "Ligação cruzada de IgE agrega FcεRI e inicia a degranulação", 62, "lâmina 62 (desencadeamento da reação); seção B&B"),
+    K(1473628107938, "A-aula", T1_, "Resposta imediata: mastócito libera histamina pré-formada", 66, "lâmina 66 (reação imediata); seção Bootcamp"),
+    K(1473628116213, "A-aula", T1_, "Mastócito gera os leucotrienos C4, D4 e E4", 68, "lâmina 68 (mediadores lipídicos); seção Bootcamp"),
+    K(1474571630796, "A-aula", T1_, "Histamina aumenta a permeabilidade vascular", 70, "lâmina 70 (vasodilatação e aumento de permeabilidade); seção Bootcamp"),
+    K(1474571606722, "A-aula", T1_, "Histamina aumenta o muco nasal e brônquico", 70, "lâmina 70 e 85 (muco); seção Bootcamp"),
+    K(1474571636173, "A-aula", T1_, "Histamina contrai o músculo liso brônquico", 70, "lâminas 70 e 86 (broncoconstrição); seção Bootcamp"),
+    K(1473628097990, "A-aula", T1_, "Th2 secreta IL-4, que leva à troca para IgE", 87, "lâmina 87 (Th2 e IgE)"),
+    K(1473628101206, "A-aula", T1_, "Th2 secreta IL-5, que atrai eosinófilos", 87, "lâminas 80 e 87 (eosinófilos na fase tardia); seção Bootcamp"),
+    K(1479267436105, "A-aula", T1_, "Eosinófilo produz proteína básica maior", 80, "lâminas 80–81 (eosinófilo e lesão epitelial); seção FirstAid"),
+    K(1473628119069, "A-aula", T1_, "Fase tardia: proteína básica maior perpetua o dano", 78, "lâmina 78 (fase tardia da resposta); seção Bootcamp"),
+    au("au-dth-fases", ORG("<b>Delayed hypersensitivity</b>:<br>- sensitization: dendritic cells prime {{c1::naive T}} cells<br>- re-exposure: {{c2::Th1}} cells release IFN-γ<br>- IFN-γ activates {{c3::macrophages}}, which damage tissue"),
+       "A-aula", T4_, "Hipersensibilidade tardia: da sensibilização ao dano", 29, "lâminas 29–31; transcrição (Th1, IFN-γ e macrófago)",
+       extra="- The reaction takes about 48 h to peak because T cells and macrophages must be recruited<br>- CD8 T cells can instead kill the target directly"),
+    au("au-tempo", ORG("<b>Skin reaction time</b>:<br>- type I: {{c1::minutes}}<br>- type III: {{c2::hours}}<br>- type IV: about {{c3::48 h}}"),
+       "A-aula", G_, "Tempo da reação cutânea por tipo", 41, "lâminas 41–42 (aspecto das três reações); transcrição (imediata, 5–12 h e 48 h)",
+       extra="- Type I uses pre-formed IgE on mast cells<br>- Type III needs immune complexes and complement to recruit neutrophils<br>- Type IV needs T cells and macrophages to arrive"),
+    au("au-liga-ii-iii", "Type II targets antigen on the {{c1::cell}}, while type III forms complexes with {{c2::soluble}} antigen",
+       "A-aula", T3_, "Conexão: tipo II (antígeno fixo) e tipo III (antígeno solúvel)", 14, "lâmina 14 e transcrição (diferença entre II e III pelo antígeno)",
+       extra="- Both use IgG or IgM and complement<br>- That is why the damage in III depends on where the complexes deposit"),
+    au("au-liga-iv", "Types I to III need {{c1::antibodies}}, but type IV is mediated by {{c2::T cells}}",
+       "A-aula", T4_, "Conexão: do anticorpo ao linfócito T", 27, "lâmina 27 e transcrição (tipo IV não depende de anticorpo)",
+       extra="- That is why the reaction is delayed: T cells and macrophages must arrive and be activated"),
+    au("au-liga-i", "In type I, {{c1::IgE}} arms the {{c2::mast cell}} at first contact, so the reaction starts at the second",
+       "A-aula", T1_, "Conexão: o tipo I fecha a história (IgE no mastócito)", 43, "lâmina 43 e transcrição (primeiro contato só sensibiliza)",
+       extra="- Unlike II and III, no antibody has to be made after the second contact<br>- That explains the speed of minutes"),
 ]
 
 _CZ = _re.compile(r"\{\{c(\d+)::((?:(?!\}\}).)*?)(::(?:(?!\}\}).)*?)?\}\}", _re.S)
@@ -103,6 +144,12 @@ for _c in CARDS:
 finalizar(CARDS, HERE, BUSCA)
 
 VERSO = {
+ "ak1487207200447": "- Preformed IgG meets the injected antigen in the skin; the complexes fix complement and neutrophils cause the necrosis",
+ "ak1473628107938": "- Histamine acts within minutes: vasodilation, permeability and bronchoconstriction",
+ "ak1473628116213": "- Leukotrienes are made from arachidonic acid after activation, so they follow the preformed histamine",
+ "ak1474571606722": "- Mucus and vascular leak add to the airway obstruction in asthma and the runny nose in rhinitis",
+ "ak1474571636173": "- Smooth muscle contraction narrows the airway within minutes",
+ "ak1473628119069": "- Eosinophils arrive hours later, so the late phase keeps the inflammation going after histamine is gone",
  "ak1487207122541": "- IgE is type I; IgM and IgG act in types II and III",
  "ak1487207160372": "- The antibodies block desmoglein, which holds epidermal cells together",
  "ak1487207142388": "- Antibodies against platelets or red cells mark them for removal",
@@ -125,7 +172,7 @@ for c in CARDS:
     blob = c.get("text", "") + c.get("extra", "") + c.get("extra_add", "")
     if c["kind"] in ("text", "autoral") and "<img" not in blob:
         c["sem_imagem"] = SEM_IMAGEM
-DUPLICACAO = {"au-gell": "IgE, imunocomplexos e células T aparecem nos cards de cada tipo; aqui é o quadro dos quatro tipos pelo mecanismo"}
+DUPLICACAO = {"au-liga-i": "au-sensibil diz que o primeiro contato não dá clínica; este fecha a história da classificação ligando IgE, mastócito e segundo contato", "au-mediadores": "histamina, leucotrienos e proteína básica têm cards próprios; aqui o organizador junta os três mediadores com o efeito de cada um", "au-th2-alergia": "IL-4 e IL-5 têm cards próprios; aqui o organizador junta IL-4, IL-5 e IL-13 (muco), que o AnKing traz separadas", "au-gell": "IgE, imunocomplexos e células T aparecem nos cards de cada tipo; aqui é o quadro dos quatro tipos pelo mecanismo"}
 for _k, _v in DUPLICACAO.items():
     _c = next((c for c in CARDS if c["key"] == _k), None)
     if _c:

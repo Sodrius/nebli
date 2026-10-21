@@ -1,0 +1,34 @@
+# #AK_Step1_v12::#DirtyMedicine::04_Pathology::06_Hypersensitivity (33 notas)
+1462326990404 1-HighYield What type of hypersensitivity is type 1 diabetes mellitus ? Type IV HSR (direct cell cytotoxicity)
+1473536756997 1-HighYield Allergic rhinitis is a subtype of rhinitis due to a type I hypersensitivity reaction (e.g., to pollen)
+1473628085810 1-HighYield Asthma is most often due to allergic stimuli (type I HSR), but may also be triggered by viral URIs and stress
+1475376486636 1-HighYield Post-streptococcal glomerulonephritis (PSGN) is characterized by a(n) granular ("lumpy bumpy") immunofluorescence pattern due to immune complex deposition
+1475376496099 2-RelativelyHighYield The granular (" lumpy bumpy ") appearance of PSGN on immunofluorescence is due to deposits with immune complexes consisting of IgG / IgM and C3
+1475376552582 1-HighYield Goodpasture syndrome is a form of rapidly progressive glomerulonephritis (RPGN) that presents with a(n) linear pattern on immunofluorescence
+1475376572176 1-HighYield What type of hypersensitivity reaction is Goodpasture syndrome ? Type II HSR
+1479267461227 1-HighYield Mast cells mediate allergic reactions in local tissues
+1487117263860 1-HighYield IgE cross-links when exposed to allergen , mediating type I hypersensitivity reactions
+1487206917325 1-HighYield Which type of hypersensitivity reaction is mediated by cross-linking IgE on presensitized mast cells and basophils ? Type I HSR
+1487207079363 1-HighYield Type I HSR occurs due to cross-linking of Ig E on presensitized mast cells and basophils by antigens, leading to receptor aggregation
+1487207084334 1-HighYield The immediate response of mast cell and basophil activation is release of preformed histamine granules and tryptase
+1487207094725 1-HighYield Which type of hypersensitivity mediates anaphylaxis (e.g., food, drug, or bee sting allergies)? Type I HSR
+1487207097572 1-HighYield Which type of hypersensitivity mediates atopic reactions (e.g., asthma, allergic rhinitis)? Type I HSR
+1487207102783 1-HighYield Which type of hypersensitivity reaction is mediated by binding of antibodies to cell-surface antigens ? Type II HSR
+1487207105743 1-HighYield Type II HSRs can cause pathology by inducing cellular destruction by opsonizing the target with antibodies
+1487207119666 1-HighYield Type II HSRs can cause pathology by inducing inflammation by antibodies depositing on cell surfaces, which in turn activates complement
+1487207122541 1-HighYield Which immunoglobulin(s) mediate type II hypersensitivity reactions ? IgM and IgG
+1487207158134 1-HighYield What type of hypersensitivity reaction is Graves disease and myasthenia gravis ? Type II HSR (cellular dysfunction)
+1487207162179 1-HighYield Which type of hypersensitivity reaction is characterized by circulating immune complexes ? Type III HSR
+1487207167794 1-HighYield In type III HSRs , antigen-antibody complexes activate complement , which attracts neutrophils
+1487207216546 1-HighYield What type of hypersensitivity reaction is post-streptococcal glomerulonephritis (PSGN)? Type III
+1487207218837 1-HighYield Which type of hypersensitivity reaction is T-cell mediated ? Type IV
+1487207220752 1-HighYield Type IV HSRs may occur via direct cell cytotoxicity , which involves CD8 + T cells
+1487207229813 1-HighYield Type IV HSRs may occur via delayed-type hypersensitivity , which involves CD4 + T-cells
+1487207238825 1-HighYield What type of hypersensitivity reaction is allergic contact dermatitis (e.g., poison ivy, nickel allergy)? Type IV HSR (CD4 & CD8 mediated)
+1487207242473 1-HighYield What type of hypersensitivity reaction is a tuberculin skin test (PPD)? Type IV HSR (Th 1 mediated)
+1487640136892 2-RelativelyHighYield Mast cells may be activated by cross-linking of cell-surface IgE by antigen
+1487815313912 1-HighYield What type of hypersensitivity reaction is systemic lupus erythematosus (SLE)? Type III* HSR (immune complex deposition)
+1489972338045 1-HighYield What type of hypersensitivity is allergic transfusion reaction ? Type I HSR
+1503091131993 1-HighYield Circulating immune complex deposition causes glomerular damage and subsequent nephritic syndrome in post-streptococcal glomerulonephritis (PSGN)
+1503602428756 1-HighYield Penicillins can result in type I hypersensitivity reactions , mediated by IgE causing anaphylaxis
+1514437669394 4-LowerYield What is the likely diagnosis in a patient who is taking penicillin that presents with nausea , hives , or wheezing , and the rash below? Type I hypersensitivity

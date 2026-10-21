@@ -646,6 +646,7 @@ def plan_checks(run, plan):
         out += cobertura_anking(run, plan)
         out += cores_rubrica(plan) + inducao_clozes(plan)  # F-20261016-CLAUDE-01
         out += escopo_basico(run, plan)  # F-20261021-CLAUDE-01
+        out += linha_e_provas(run, plan)  # F-20261021-CLAUDE-02
     else:
         out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
     if "biologia-tecidual" in plan.get("lesson_id", ""):  # F-20261003-CLAUDE-13: aprender, não visualizar em excesso
@@ -738,6 +739,79 @@ def escopo_basico(run, plan):
     unico = [e for e in aut if len(e.get("cards", [])) <= 1]
     out.append((f"[duro] autoral com cloze único {len(unico)}/{len(aut)} (máximo 50%: o padrão AnKing/EXEMPLARES tem mais de um cloze em boa parte)",
                 not aut or len(unico) / len(aut) <= 0.5))
+    return out
+
+
+def linha_e_provas(run, plan):
+    """F-20261021-CLAUDE-02: (1) todas as fontes (aula, prova, bibliografia, apostila) alimentam cards declarados em escopo.json;
+    (2) o deck explica a aula numa linha lógica, com progressão do mecanismo (passos em ordem, cada um com cards, na ordem do deck);
+    (3) calibrado com as provas: toda questão não-eco do índice da aula liga a cards ou tem motivo de ficar fora."""
+    run = Path(run)
+    path = run / "escopo.json"
+    d = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    entries = {e["key"]: e for e in plan.get("entries", [])}
+    comp = plan.get("compartilhados") or {}
+    alias = {f"ak{v.get('source_nid')}": f"sh-{k}" for k, v in comp.items() if v.get("source_nid")}  # card compartilhado também por ak<nid original>
+    def ordem(k):
+        k = alias.get(k, k)
+        if k in entries:
+            return int(entries[k].get("order", 0))
+        m = re.search(r"(\d+)$", str((comp.get(str(k)[3:]) or {}).get("ordem_tag", "")))
+        return int(m.group(1)) if m else None
+    valido = lambda k: k in entries or (alias.get(k, k).startswith("sh-") and alias.get(k, k)[3:] in comp)
+    out = []
+    uso = d.get("uso_das_fontes", {})
+    faltam = [f for f in ("aula", "prova", "bibliografia", "apostila")
+              if not (isinstance(uso.get(f), list) and uso[f] and all(valido(k) for k in uso[f]))]
+    out.append((f"[duro] fontes usadas nos cards (aula, prova, bibliografia, apostila), cada uma com cards válidos em escopo.json 'uso_das_fontes'" +
+                (f": faltam {faltam}" if faltam else ""), not faltam))
+    passos = d.get("linha_logica", [])
+    ok = isinstance(passos, list) and len(passos) >= 4
+    pos = []
+    for p_ in passos if ok else []:
+        ks = p_.get("cards") if isinstance(p_, dict) else None
+        if not (isinstance(ks, list) and ks and all(valido(k) for k in ks) and len(str(p_.get("passo", "")).strip()) >= 25):
+            ok = False
+            break
+        pos.append(min(o for o in (ordem(k) for k in ks) if o is not None) if any(ordem(k) is not None for k in ks) else None)
+    ok = ok and None not in pos and pos == sorted(pos)
+    mecan = sum(1 for p_ in passos if isinstance(p_, dict) and p_.get("mecanismo") is True) if ok else 0
+    out.append((f"[duro] linha lógica: a aula explicada em ≥4 passos encadeados (causa→efeito), cada um com cards, em ordem no deck; {mecan} passos de mecanismo (mín. 3)",
+                ok and mecan >= 3))
+    hist_ok = len(str(d.get("historia", "")).strip()) >= 200 and isinstance(passos, list) and all(
+        isinstance(p_, dict) and (i == len(passos) - 1 or len(str(p_.get("liga_ao_proximo", "")).strip()) >= 20) for i, p_ in enumerate(passos))
+    conex = d.get("cards_de_conexao", [])
+    total = sum(len(e.get("cards", [])) or 1 for e in entries.values()) + sum(v.get("n_cards", 1) for v in comp.values())
+    ncon = sum((len(entries[k].get("cards", [])) or 1) for k in conex if k in entries) if isinstance(conex, list) else 0
+    no_passo = {k for p_ in passos if isinstance(p_, dict) for k in p_.get("cards", [])} if isinstance(passos, list) else set()
+    con_ok = (isinstance(conex, list) and len(conex) >= 2 and all(k in entries and entries[k].get("origin") == "Autoral" and k in no_passo for k in conex)
+              and 0.02 <= ncon / max(1, total) <= 0.10)
+    out.append((f"[duro] o deck conta uma história: 'historia' (≥200 caracteres), 'liga_ao_proximo' em cada passo e cards de conexão autorais (2–10%, hoje {ncon}/{total}) dentro dos passos",
+                bool(hist_ok and con_ok)))
+    arquivos = sorted((run / "fontes").glob("provas*"))
+    texto = "\n".join(a.read_text(encoding="utf-8", errors="ignore") for a in arquivos)
+    ids, eco = [], set()
+    for m in re.finditer(r"^── \[([^\]]+)\] (\S+)([^\n]*)", texto, re.M):
+        i = f"{m.group(1).strip()} {m.group(2)}"
+        ids.append(i)
+        if "[eco" in m.group(3):
+            eco.add(i)
+    ids = list(dict.fromkeys(ids))
+    reg = {str(x.get("id")): x for x in d.get("provas", []) if isinstance(x, dict)}
+    pend = []
+    for i in ids:
+        r = reg.get(i)
+        if r is None:
+            if i in eco:
+                continue
+            pend.append(i); continue
+        if r.get("cards"):
+            if not all(valido(k) for k in r["cards"]):
+                pend.append(i)
+        elif len(str(r.get("fora", "")).strip()) < 30:
+            pend.append(i)
+    out.append((f"[duro] calibrado com as provas: {len(ids)} questões do índice, cada uma (menos ecos) com cards ou 'fora' justificado em escopo.json 'provas'" +
+                (f"; pendentes {pend[:4]}" if pend else ""), bool(ids) and not pend))
     return out
 
 

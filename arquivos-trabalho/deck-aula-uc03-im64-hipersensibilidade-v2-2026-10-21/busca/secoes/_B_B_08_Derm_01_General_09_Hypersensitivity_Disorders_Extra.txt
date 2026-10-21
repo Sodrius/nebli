@@ -1,0 +1,13 @@
+# #AK_Step1_v12::#B&B::08_Derm::01_General::09_Hypersensitivity_Disorders::Extra (12 notas)
+1471541327679 2-RelativelyHighYield Histamine causes arteriolar dilation and venous constriction
+1487207238825 1-HighYield What type of hypersensitivity reaction is allergic contact dermatitis (e.g., poison ivy, nickel allergy)? Type IV HSR (CD4 & CD8 mediated)
+1487207244285 1-HighYield What type of hypersensitivity reaction is a patch test ? Type IV HSR (CD4-mediated)
+1488680059805 - The targetoid appearance of erythema multiforme is due to central epidermal necrosis, surrounded by erythema
+1488680064613 - Erythema multiforme is a blistering skin disorder most commonly associated with HSV infection
+1501450803928 2-RelativelyHighYield A positive Nikolsky sign is when minor pressure induces skin separation
+1503615577801 2-RelativelyHighYield Aminopenicillins (amoxicillin) causing a maculopapular rash in EBV infection is a type IV hypersensitivity reaction
+1506790215427 2-RelativelyHighYield NNRTIs are associated with Stevens-Johnson syndrome, a severe cutaneous pathology associated with the sloughing of skin
+1508366989049 1-HighYield Hypersensitivity reactions are common with sulfa drug use; resulting in fever, hypotension, urticaria, and rash
+1537560680041 - Erythema and wheals without hypotension is suggestive of urticaria
+1545258451697 - Localized pruritic erythematous rash after contact with allergen is most likely allergic contact dermatitis (ACD)
+1587686717801 - Ichthyosis vulgaris is caused by a mutation in the filaggrin gene, resulting in dry, scaly skin

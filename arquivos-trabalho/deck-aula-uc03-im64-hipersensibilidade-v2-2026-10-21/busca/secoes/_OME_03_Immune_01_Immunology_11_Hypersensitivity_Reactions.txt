@@ -1,0 +1,27 @@
+# #AK_Step1_v12::#OME::03_Immune::01_Immunology::11_Hypersensitivity_Reactions (26 notas)
+1487206917325 1-HighYield Which type of hypersensitivity reaction is mediated by cross-linking IgE on presensitized mast cells and basophils ? Type I HSR
+1487207079363 1-HighYield Type I HSR occurs due to cross-linking of Ig E on presensitized mast cells and basophils by antigens, leading to receptor aggregation
+1487207084334 1-HighYield The immediate response of mast cell and basophil activation is release of preformed histamine granules and tryptase
+1487207091819 1-HighYield The delayed response of mast cell and basophil activation involves production of chemokines (e.g., to attract eosinophils) and other proinflammatory mediators from mast cells
+1487207094725 1-HighYield Which type of hypersensitivity mediates anaphylaxis (e.g., food, drug, or bee sting allergies)? Type I HSR
+1487207097572 1-HighYield Which type of hypersensitivity mediates atopic reactions (e.g., asthma, allergic rhinitis)? Type I HSR
+1487207102783 1-HighYield Which type of hypersensitivity reaction is mediated by binding of antibodies to cell-surface antigens ? Type II HSR
+1487207105743 1-HighYield Type II HSRs can cause pathology by inducing cellular destruction by opsonizing the target with antibodies
+1487207112553 1-HighYield Type II HSRs can cause pathology by inducing cellular dysfunction, causing abnormal blockade or activation/inactivation of downstream cellular processes
+1487207119666 1-HighYield Type II HSRs can cause pathology by inducing inflammation by antibodies depositing on cell surfaces, which in turn activates complement
+1487207142388 1-HighYield What type of hypersensitivity reaction are immune thrombocytopenia and autoimmune-hemolytic anemia? Type II HSR (cellular destruction)
+1487207145930 1-HighYield What type of hypersensitivity reaction are hemolytic disease of the newborn and transfusion reactions ? Type II HSR (cellular destruction)
+1487207156353 1-HighYield What type of hypersensitivity reaction is hyperacute transplant rejection ? Type II HSR (inflammation)
+1487207158134 1-HighYield What type of hypersensitivity reaction is Graves disease and myasthenia gravis ? Type II HSR (cellular dysfunction)
+1487207162179 1-HighYield Which type of hypersensitivity reaction is characterized by circulating immune complexes ? Type III HSR
+1487207167794 1-HighYield In type III HSRs , antigen-antibody complexes activate complement , which attracts neutrophils
+1487207194698 1-HighYield Arthus reaction is a local subacute immune complex-mediated HSR to antigen in intradermal injection
+1487207200447 1-HighYield Arthus reaction leads to immune complex formation in the skin ; characterized by edema , necrosis , and activation of complement
+1487207203586 1-HighYield What type of hypersensitivity reaction is the Arthus reaction ? Type III HSR
+1487207216546 1-HighYield What type of hypersensitivity reaction is post-streptococcal glomerulonephritis (PSGN)? Type III
+1487207218837 1-HighYield Which type of hypersensitivity reaction is T-cell mediated ? Type IV
+1487207220752 1-HighYield Type IV HSRs may occur via direct cell cytotoxicity , which involves CD8 + T cells
+1487207229813 1-HighYield Type IV HSRs may occur via delayed-type hypersensitivity , which involves CD4 + T-cells
+1487207238825 1-HighYield What type of hypersensitivity reaction is allergic contact dermatitis (e.g., poison ivy, nickel allergy)? Type IV HSR (CD4 & CD8 mediated)
+1487207242473 1-HighYield What type of hypersensitivity reaction is a tuberculin skin test (PPD)? Type IV HSR (Th 1 mediated)
+1487207248593 1-HighYield Which hypersensitivity reaction(s) are antibody-mediated ? I, II, and III

@@ -1,0 +1,40 @@
+# #AK_Step1_v12::#Physeo::08_Immunology::01_Immunology::20_Hypersensitivity_Reactions (39 notas)
+1462326990404 1-HighYield What type of hypersensitivity is type 1 diabetes mellitus ? Type IV HSR (direct cell cytotoxicity)
+1487207079363 1-HighYield Type I HSR occurs due to cross-linking of Ig E on presensitized mast cells and basophils by antigens, leading to receptor aggregation
+1487207084334 1-HighYield The immediate response of mast cell and basophil activation is release of preformed histamine granules and tryptase
+1487207091819 1-HighYield The delayed response of mast cell and basophil activation involves production of chemokines (e.g., to attract eosinophils) and other proinflammatory mediators from mast cells
+1487207094725 1-HighYield Which type of hypersensitivity mediates anaphylaxis (e.g., food, drug, or bee sting allergies)? Type I HSR
+1487207100136 2-RelativelyHighYield Skin prick tests or blood (ELISA) tests for allergen-specific IgE are typically used to diagnose type I hypersensitivity reactions
+1487207102783 1-HighYield Which type of hypersensitivity reaction is mediated by binding of antibodies to cell-surface antigens ? Type II HSR
+1487207105743 1-HighYield Type II HSRs can cause pathology by inducing cellular destruction by opsonizing the target with antibodies
+1487207112553 1-HighYield Type II HSRs can cause pathology by inducing cellular dysfunction, causing abnormal blockade or activation/inactivation of downstream cellular processes
+1487207119666 1-HighYield Type II HSRs can cause pathology by inducing inflammation by antibodies depositing on cell surfaces, which in turn activates complement
+1487207122541 1-HighYield Which immunoglobulin(s) mediate type II hypersensitivity reactions ? IgM and IgG
+1487207141168 1-HighYield What test is used to diagnose type II hypersensitivity reactions against RBCs ? Coombs test
+1487207142388 1-HighYield What type of hypersensitivity reaction are immune thrombocytopenia and autoimmune-hemolytic anemia? Type II HSR (cellular destruction)
+1487207145930 1-HighYield What type of hypersensitivity reaction are hemolytic disease of the newborn and transfusion reactions ? Type II HSR (cellular destruction)
+1487207156353 1-HighYield What type of hypersensitivity reaction is hyperacute transplant rejection ? Type II HSR (inflammation)
+1487207158134 1-HighYield What type of hypersensitivity reaction is Graves disease and myasthenia gravis ? Type II HSR (cellular dysfunction)
+1487207160372 1-HighYield What type of hypersensitivity reaction is pemphigus vulgaris ? Type II HSR (cellular dysfunction)
+1487207162179 1-HighYield Which type of hypersensitivity reaction is characterized by circulating immune complexes ? Type III HSR
+1487207167794 1-HighYield In type III HSRs , antigen-antibody complexes activate complement , which attracts neutrophils
+1487207175248 1-HighYield Serum sickness is an immune complex disease in which antibodies to foreign serum proteins are produced
+1487207181602 1-HighYield Serum sickness-like reactions (SSLRs) are associated with infections (e.g., HBV) and some drugs acting as haptens (e.g., penicillin)
+1487207184256 1-HighYield A(n) hapten is a small molecule that may conjugate with larger proteins to elicit an immune response
+1487207190223 1-HighYield Serum sickness presents with fever , urticaria , arthralgia , proteinuria , and lymphadenopathy 1 - 2 weeks after antigen exposure
+1487207192567 1-HighYield What type of hypersensitivity reaction is serum sickness ? Type III HSR (immune complexes)
+1487207194698 1-HighYield Arthus reaction is a local subacute immune complex-mediated HSR to antigen in intradermal injection
+1487207200447 1-HighYield Arthus reaction leads to immune complex formation in the skin ; characterized by edema , necrosis , and activation of complement
+1487207203586 1-HighYield What type of hypersensitivity reaction is the Arthus reaction ? Type III HSR
+1487207210931 1-HighYield Which is more common , serum sickness or arthus reaction ? Serum sickness
+1487207216546 1-HighYield What type of hypersensitivity reaction is post-streptococcal glomerulonephritis (PSGN)? Type III
+1487207218837 1-HighYield Which type of hypersensitivity reaction is T-cell mediated ? Type IV
+1487207220752 1-HighYield Type IV HSRs may occur via direct cell cytotoxicity , which involves CD8 + T cells
+1487207229813 1-HighYield Type IV HSRs may occur via delayed-type hypersensitivity , which involves CD4 + T-cells
+1487207238825 1-HighYield What type of hypersensitivity reaction is allergic contact dermatitis (e.g., poison ivy, nickel allergy)? Type IV HSR (CD4 & CD8 mediated)
+1487207240713 1-HighYield What type of hypersensitivity reaction is graft-versus-host disease ? Type IV HSR (delayed-type hypersensitivity)
+1487207242473 1-HighYield What type of hypersensitivity reaction is a tuberculin skin test (PPD)? Type IV HSR (Th 1 mediated)
+1487207244285 1-HighYield What type of hypersensitivity reaction is a patch test ? Type IV HSR (CD4-mediated)
+1487207248593 1-HighYield Which hypersensitivity reaction(s) are antibody-mediated ? I, II, and III
+1503089762191 1-HighYield What type of hypersensitivity reaction is rheumatic fever ? Type II HSR (inflammation)
+1520351135706 1-HighYield What type of hypersensitivity reaction is the Candida extract test ? Type IV HSR (CD4-mediated)

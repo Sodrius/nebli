@@ -1,0 +1,69 @@
+# #AK_Step1_v12::#SketchyPharm::04_Smooth_Muscle::02_Allergy_&_Pulmonary::02_Asthma_Therapy (68 notas)
+1462061188088 2-RelativelyHighYield Glucocorticoids may have anti-inflammatory effects by inducing the synthesis of lipocortin-1 , an inhibitor of phospholipase A 2
+1463883746350 2-RelativelyHighYield What is the effect of glucocorticoids on phospholipase A 2 ? Inhibition
+1463883753623 1-HighYield Glucocorticoids prevent production of arachidonic acid by inhibiting phospholipase A 2
+1463883777608 2-RelativelyHighYield Glucocorticoids inhibit NF-κB, which is a transcription factor that regulates the production of proinflammatory cytokines (e.g., IL-2, TNF-α)
+1463883894010 3-HighYield-temporary Glucocorticoids are useful for treating inflammatory disorders (e.g., gout, rheumatoid arthritis, asthma, IBD)
+1472435600503 3-HighYield-temporary Methylxanthines (e.g., caffeine) are inhibitors of the enzyme phosphodiesterase (PDE), which normally degrades cAMP into 5' AMP
+1473628105781 1-HighYield Re-exposure to an allergen in asthmatics leads to IgE-mediated activation of mast cells
+1473628116213 1-HighYield In an asthmatic response , mast cells lead to generation of leukotrienes C 4 , D 4 , and E 4 (early-phase reaction)
+1474574725887 2-RelativelyHighYield Asthmatic bronchoconstriction is mediated by inflammatory processes and parasympathetic tone
+1474580613274 1-HighYield Classic allergic asthma is mediated by IgE , produced in response to exposure to foreign antigens (i.e. dust, dander, pollen)
+1474580620228 2-RelativelyHighYield Once produced, IgE binds to high affinity (FcεR1) receptors on mast cells in the airway mucosa
+1474580639757 2-RelativelyHighYield Albuterol , pirbuterol , and metaproterenol are short -acting β 2 agonists
+1474580646802 2-RelativelyHighYield Terbutaline is a selective β 2 agonist
+1474580657593 1-HighYield Short -acting β 2 agonists (e.g., albuterol) are administered as metered-dose inhalers for acute relief of symptoms
+1474580668732 3-HighYield-temporary More severe forms of asthma are associated with more frequent and severe symptoms , especially during nighttime
+1474580671870 1-HighYield Inhaled corticosteroids (e.g., desonide, fluticasone) can be added as daily maintenance therapy for persistent asthma
+1474580678183 1-HighYield Corticosteroids treat asthma by blocking inflammation and cellular infiltration
+1474580686903 3-HighYield-temporary Inhaled corticosteroids (e.g., asthma therapy) inhibit the synthesis of virtually all cytokines
+1474580694965 2-RelativelyHighYield Inhaled corticosteroids inactivate NF-κB , the transcription factor that induces production of TNF-α and other inflammatory agents
+1474580700023 1-HighYield Inhaled corticosteroids are the first-line therapy for chronic asthma
+1474580710779 2-RelativelyHighYield Do inhaled corticosteroids present with the typical adverse effects of corticosteroid therapy? No
+1474580716506 2-RelativelyHighYield What adverse effect is associated with inhaled corticosteroids ? Oropharyngeal candidiasis
+1474580722813 2-RelativelyHighYield The risk of oropharyngeal candidiasis following inhaled corticosteroids is reduced by gargling water and spitting after each treatment
+1474580731345 3-HighYield-temporary What drug class do fluticasone, budesonide, and beclomethasone belong to? Inhaled corticosteroids (ICS)
+1474580736503 2-RelativelyHighYield A major step in the production of leukotrienes is the conversion from arachidonic acid (AA) to 5-HPETE by the enzyme 5-lipoxygenase
+1474580745605 2-RelativelyHighYield Leukotriene B 4 and 5-HPETE are potent chemoattractants for numerous inflammatory cells (particularly neutrophils )
+1474580751548 2-RelativelyHighYield Leukotrienes C 4 , D 4 , and E 4 increase airway vascular permeability, mucus production, and bronchoconstriction ( bronchospasm )
+1474580768287 2-RelativelyHighYield Leukotriene D 4 is the most potent bronchoconstrictor
+1474580773841 4-LowerYield Leukotriene D 4 exerts its effects by binding to the Cysteinyl leukotriene 1 (CysLT1) receptor
+1474580780060 1-HighYield What drug class do montelukast and zafirlukast belong to? Leukotriene D 4 -receptor antagonists (LTRA)
+1474580787193 3-HighYield-temporary What is the route of administration of leukotriene D 4 -receptor antagonists (e.g., montelukast, zafirlukast)? Oral administration
+1474580796645 2-RelativelyHighYield What is the effect of COX inhibition (e.g., aspirin) on production of leukotrienes ? Increased
+1474580803822 2-RelativelyHighYield Montelukast and zafirlukast are especially effective at treating aspirin-exacerbated respiratory disease
+1474580819655 2-RelativelyHighYield What is the mechanism of action of zileuton (asthma treatment)? 5-lipoxygenase inhibitor
+1474580830221 4-LowerYield What adverse effect is associated with zileuton ? Hepatotoxicity
+1474580850378 2-RelativelyHighYield Salmeterol and formoterol are long -acting β 2 agonists
+1474580865425 2-RelativelyHighYield Long-acting β 2 agonists are used for prophylaxis in moderate or severe persistent asthma
+1474580870148 2-RelativelyHighYield Long-acting β 2 agonists (e.g., salmeterol, formoterol) achieve their long duration due to high lipid solubility
+1474580874963 1-HighYield Long-acting β 2 agonists (e.g., salmeterol) are given as a daily inhaler and are always combined with a regimen of inhaled corticosteroids (ICS)
+1474580882205 2-RelativelyHighYield Adverse effects of long-acting β 2 agonists (e.g., salmeterol, formoterol) include tremor and arrhythmia
+1474580885688 3-HighYield-temporary A(n) increased dose of inhaled corticosteroids may be useful for treatment of moderate or severe persistent asthma
+1474580890382 1-HighYield Theophylline is a methylxanthine that may be used for asthma therapy
+1474580895509 2-RelativelyHighYield Theophylline causes broncho dilation by inhibiting phosphodiesterase
+1474580900802 1-HighYield What effect does theophylline have on levels of cAMP ? Increased cAMP
+1474580908969 3-HighYield-temporary What is the route of administration of theophylline (asthma therapy)? Oral administration
+1474580915632 3-HighYield-temporary Theophylline use is limited due to its narrow therapeutic index
+1474580923255 2-RelativelyHighYield Theophylline may have CNS side effects including nervousness and tremor
+1474580928334 2-RelativelyHighYield Theophylline can cause tachycardia
+1474580933087 2-RelativelyHighYield Theophylline is metabolized by cytochrome P-450
+1474580948335 2-RelativelyHighYield Omalizumab is a monoclonal antibody directed against the Fc portion of IgE , preventing mast cell sensitization
+1474580958073 2-RelativelyHighYield Omalizumab is used in allergic asthma with increased IgE levels and resistance to inhaled steroids and long-acting β 2 agonists
+1474580971787 1-HighYield What is the treatment for an acute, severe asthma exacerbation ? SABA + SAMA + corticosteroids + supplemental O 2
+1474580978865 3-HighYield-temporary In acute, severe asthma exacerbation , corticosteroids are administered IV or orally
+1474580987952 1-HighYield Nebulized ipratropium is a muscarinic antagonist that may be used to treat acute, severe asthma exacerbation
+1474580993401 1-HighYield Ipratropium is a competitive M 3 receptor antagonist that is used to prevent bronchoconstriction in asthmatic and COPD patients
+1474580997112 1-HighYield In addition to asthma , ipratropium may also be used to treat COPD
+1474580999867 1-HighYield Tiotropium is a(n) long -acting M 3 antagonist
+1474581002805 1-HighYield What catecholamine may be administered to treat acute, severe asthma exacerbation ? Epinephrine
+1474581011591 2-RelativelyHighYield Adenosine causes broncho constriction
+1474581028905 1-HighYield Increased cAMP causes broncho dilation
+1474651327123 1-HighYield What classes of drugs are used to treat asthma by blocking inflammation (late response)? - Inhaled corticosteroids - Anti-leukotrienes (montelukast/zileuton) - Anti-IL-5 monoclonal antibodies
+1474651458513 1-HighYield What classes of drugs are used to treat asthma by blocking bronchoconstriction (early response)? β 2 agonists Theophylline (methylxanthine) Muscarinic antagonists
+1479267465747 2-RelativelyHighYield Cromolyn sodium and nedocromil prevent mast cell degranulation (used for asthma prophylaxis)
+1487640108934 4-LowerYield Which leukotrienes mediate vasoconstriction , bronchospasm , and increased vascular permeability ? Leukotrienes C 4 , D 4 , and E 4
+1497107684861 2-RelativelyHighYield Mesalamine ( 5-ASA ) works by inhibiting the synthesis of proinflammatory eicosanoids and cytokines
+1523302344176 3-HighYield-temporary To prevent the development of oral thrush after using inhaled corticosteroids, what two interventions can be used? Spacer, rinsing mouth
+1539204159804 - Treatment of Asthma (NAEPP 2020 Guidelines) Intermittent = SABA Mild persistent = SABA + ICS Moderate persistent = SABA + ICS + LABA Severe persistent = SABA + ICS + LABA ± oral corticosteroids *Add o
+1575595510943 - Cromolyn sodium is used for acute bronchodilation F

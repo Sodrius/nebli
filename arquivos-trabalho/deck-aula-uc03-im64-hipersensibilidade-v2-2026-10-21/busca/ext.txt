@@ -1,0 +1,67 @@
+### tipo1 | Externos | (hypersensitivity AND (IgE OR mast)) | 3 notas
+  1701281668409 [Cloze-AnKingMa]  {{c3::Mast Cell}} Distribution and Function {{c3:: Mast cells }} are found in the connective tissue of many organs, especially: near small blood vessels in skin and mesenteries ({{c1::periva
+  1701281743553 [Cloze-AnKingMa]  Mast Cells in Allergic Reactions The release of chemical mediators from mast cells promotes allergic reactions , known as {{c1::immediate}} {{c1::hypersensitivity}} reactions , occurring wit
+  1733686097647 [AnKingMCAT (An]  Hypersensitivity reactions are extreme/unnecessary {{c1::immune responses}} that the body has to an antigen
+### tipo2 | Externos | (hypersensitivity AND (antibod* OR cytotoxic)) | 2 notas
+  1695595771222 [Cloze-Lightyea]  Hypersensitivity reactions: ABCD Type I - {{c1:: A naphylaxis and A topic}} Type II - {{c1::Anti B ody-mediated}} Type III - {{c1::Immune C omplex mediated}} Type IV - {{c1:: D irect (cell-m
+  1701281743553 [Cloze-AnKingMa]  Mast Cells in Allergic Reactions The release of chemical mediators from mast cells promotes allergic reactions , known as {{c1::immediate}} {{c1::hypersensitivity}} reactions , occurring wit
+### tipo3 | Externos | ("immune complex" OR "serum sickness") | 1 notas
+  1695595771222 [Cloze-Lightyea]  Hypersensitivity reactions: ABCD Type I - {{c1:: A naphylaxis and A topic}} Type II - {{c1::Anti B ody-mediated}} Type III - {{c1::Immune C omplex mediated}} Type IV - {{c1:: D irect (cell-m
+### tipo4 | Externos | (hypersensitivity AND (T-cell OR delayed OR contact)) | 1 notas
+  1561729185206 [AnKingMCAT (An]  {{c1::Avoidant}} personality disorder is characterized by feelings of extreme social inhibition , inadequacy, and sensitivity to negative criticism and rejection.
+### th2 | Externos | (Th2 AND (IL-4 OR IL-5 OR IL-13)) | 0 notas
+### ige | Externos | (IgE AND (half OR serum OR FcεRI OR Fc)) | 170 notas
+  1473200535621 [LabValue]  IgE, serum
+  1540252022970 [AnatoKingOverh]  {{c1::Trigeminal nerve (V)}}
+  1540252028138 [AnatoKingOverh]  {{c1::Opthalmic nerve (V1)}}
+  1540252036921 [AnatoKingOverh]  {{c1::Maxillary nerve (V2)}}
+  1540252043801 [AnatoKingOverh]  {{c1::Mandibular nerve (V3)}}
+  1548817469321 [AnatoKingOverh]  {{c1::Hyaloid canal of eye [Canalis hyaloideus]}}
+  1549127246264 [AnatoKingOverh]  {{c1::Tunica vaginalis of testis [Tunica vaginalis testis]}}
+  1554094708656 [AnKingMCAT (An]  Zymogens are inactive enzymes precursors that must be {{c1::biochemically changed}} to become active.
+  1556141306722 [AnKingMCAT (An]  {{c2:: Innate }} immunity are defenses that are always active and are {{c1::non-specific::specific or non-specific}}.
+  1556143563699 [AnKingMCAT (An]  {{c1::Lysozyme}} is a/an {{c2:: antimicrobial }} enzyme that forms part of the {{c2::innate}} immune system .
+  1556144450034 [AnKingMCAT (An]  {{c1::MHC I}} glycoproteins are present on {{c2:: all nucleated cells }}. {{c1::MHC-II}} glycoproteins are present on {{c2:: antigen-presenting cells (APCs) , including macrophages, dendriti
+  1556145503289 [AnKingMCAT (An]  The main function of {{c1::professional antigen-presenting cells::...cells}} is to {{c2::process antigen material and present it on the cell surface to the T cells of the immune system}}. Th
+  1556146651641 [AnKingMCAT (An]  {{c2:: Humoral }} immunity is provided by {{c1::antibodies}} which assist in destroying {{c3:: extracellular }} pathogens.
+  1556147713698 [AnKingMCAT (An]  Part of the {{c2:: adaptive }} immune system, specifically the {{c2:: humoral }} immunity, {{c1::B cells}} are responsible for {{c3:: generating antibodies to specific antigens}}.
+  1556149308803 [AnKingMCAT (An]  {{c1::Cell-mediated (cytotoxic) immunity::component of adaptive immunity}} produces an immune response that does not involve {{c2:: antibodies }}.
+  1556152718642 [AnKingMCAT (An]  {{c1::Memory T-cells}} serve a similar function to {{c1::memory B-cells}} and, at a {{c2:: second }} encounter with a pathogen , will work to {{c2::mount a faster and stronger cellular and h
+  1557601105690 [AnatoKingOverh]  {{c1::Mesencephalic trigeminal nucleus & tract}}
+  1558904705840 [AnatoKingOverh]  {{c1:: Mylohyoid muscle [M. mylohyoideus] ::Name}} Origin. {{c2:: Mylohyoid line of mandible }} Insertion. {{c2:: Median raphe and body of hyoid bone ::2x}} Action. {{c2:: Elevates hyoid bon
+  1560035434628 [AnKingMCAT (An]  The bulk of chemical lipid digestion occurs in the {{c1::small intestine}} due to {{c2:: pancreatic lipase }}.
+  1560533683967 [AnKingMCAT (An]  {{c1::Social stratification}} is the system by which {{c2::society ranks categories of people into a hierarchy }}.
+  1560874169573 [AnKingMCAT (An]  {{c1::Crystallized intelligence}} is defined as the ability to {{c2::use learned knowledge and experience }}.
+  1577143829076 [AnatoKingOverh]  {{c1::Spinal Tract of CN V (Spinal trigeminal tract)}}
+  1577143837133 [AnatoKingOverh]  {{c1::Spinal Nucleus of CN V / Spinal trigeminal nucleus}}
+  1661650460351 [AnKingOverhaul]  This is a gross image of {{c1::elastic cartilige}}
+  1701193904371 [Cloze-AnKingMa]  Secretory Cells in Various Glands Secretory cells can {{c1:: synthesize }}, {{c1:: store }}, and release proteins (e.g., in the pancreas ), lipids (e.g., adrenal , sebaceous glands ), or {{c
+  1701194026557 [Cloze-AnKingMa]  {{c1::Unicellular}} Glands {{c1::Unicellular}} glands , like {{c2::goblet}} cells , are found in {{c4:: simple cuboidal ::types }}, {{c4:: simple columnar }}, and {{c4::pseudostratified}} ep
+  1701199795805 [Cloze-AnKingMa]  {{c1:: Endocrine }} glands lack myoepithelial cells and specialize in synthesizing either {{c2:: protein ::1}} {{c2:: hormones }} or {{c2:: steroid ::2}} {{c2:: hormones }}. Cytoplasmic stai
+  1701200056883 [Cloze-AnKingMa]  {{c1:: Protein }} hormones are released by {{c2:: exocytosis }}, while {{c1::lipophilic steroids }} {{c2:: diffuse }} through the cell membrane and are taken up by {{c2:: binding }} proteins
+  1701208197363 [Cloze-AnKingMa]  Transformation from Monocytes to {{c1::Macrophages}} The transformation of monocytes into {{c1:: macrophages }} in connective tissue involves {{c1:: increases ::s }} in cell size and protein
+  1701341841089 [Cloze-AnKingMa]  Elastic Properties of Fibers and Lamellae The elastic properties of fibers and lamellae arise from the structure of elastin subunits and their unique {{c1:: cross - links }}. Elastin molecul
+### mast | Externos | ("mast cell" AND (histamine OR leukotriene OR prostaglandin)) | 17 notas
+  1556153744256 [AnKingMCAT (An]  {{c1::Mast cells}} release {{c2:: cytokines }} and {{c2:: granules }} that create a/an {{c2:: inflammatory cascade }}.
+  1556153903790 [AnKingMCAT (An]  Histamine is released by {{c1:: mast }} cells and causes blood vessels to dilate , thereby {{c2:: increasing ::increasing or decreasing}} blood flow and cell trafficking to an area of infect
+  1609188166555 [Cloze-Lightyea]  {{c2::Substance P}} facilitates transmission in pain pathways via {{c1::neurokinin-1}} receptor activation
+  1609188253119 [Cloze-Lightyea]  Substance P sensitizes {{c1::nociceptors}}, degranulates {{c2::histamine}} from mast cells and {{c2::5-HT (Serotonin)}} from platelets , and is a potent {{c3::vasodilator}} and {{c3::chemoat
+  1609188631064 [Cloze-Lightyea]  {{c1::Bradykinin}} is released from tissues following activation of {{c2::factor XII}} . It activates free nerve endings via specific {{c3::β1 and β2 receptors}}.
+  1701205197125 [Cloze-AnKingMa]  Cells of Connective Tissue {{c1::Fibroblasts}} are the primary cells in connective tissue {{c2::proper}}, originating locally from mesenchymal cells . They are {{c2::permanent}} residents of
+  1701279374751 [Cloze-AnKingMa]  {{c2::Mast}} Cell Functions: Bioactive Substance Release {{c2::Mast}} cells are crucial for localized release of bioactive substances in local {{c1::inflammatory}} response , {{c1::innate}} 
+  1701280069196 [Cloze-AnKingMa]  Specific Substances Released by Mast Cells Heparin is a sulfated glycosaminoglycan (GAG) acting as a local {{c1:: anticoagulant }}. Histamine promotes increased vascular {{c2:: permeability 
+  1701281743553 [Cloze-AnKingMa]  Mast Cells in Allergic Reactions The release of chemical mediators from mast cells promotes allergic reactions , known as {{c1::immediate}} {{c1::hypersensitivity}} reactions , occurring wit
+  1701281910663 [Cloze-AnKingMa]  Anaphylaxis: Sequence of Events Anaphylaxis starts with the first exposure to an allergen (e.g., bee venom), leading to the production of {{c1::IgE}} antibodies by antibody-producing cells. 
+  1701532324709 [Cloze-AnKingMa]  Basophil Characteristics and Abundance Basophils are {{c1::12}}-{{c1::15}} μm in diameter but constitute less than {{c2::1}}% of circulating leukocytes . They are {{c2::rare::frequency}} in 
+  1701532447117 [Cloze-AnKingMa]  Basophilic Granules The specific granules of basophils typically stain purple with {{c2::bas}} ic dyes and are {{c1::fewer::quantity}}, {{c1::larg::size}}er, and more irregular than other gr
+  1701532569811 [Cloze-AnKingMa]  Basophil Function and Relation to Mast Cells Basophils migrate into connective tissues , supplementing the functions of {{c1::mast}} cells . Both basophils and {{c1:: mast ::s}} cells have: 
+  1701952598221 [Cloze-AnKingMa]  Immunoglobulin A (IgA) Location : Predominantly found in {{c1::exo}} crine secretions . Structure : Exists in a {{c3::di::s}} meric form , with the {{c3::heavy}} chains of {{c3::two::s}} mon
+  1701952674784 [Cloze-AnKingMa]  Immunoglobulin M (IgM) Blood Concentration : Constitutes about {{c1::5 - 10::apprx. 10 50 90}}%* of blood immunoglobulin. Structure : Typically in a {{c2::penta}} meric form , united by a {{
+  1701952972904 [Cloze-AnKingMa]  Immunoglobulin E (IgE) Form : Typically a {{c1:: monomer }}. Abundance : Much {{c1::less::more or less}}* abundant in circulation compared to other immunoglobulin classes. Binding : Exists b
+  1701953543099 [Cloze-AnKingMa]  Immunoglobulin D (IgD) Abundance : The {{c1:: least }} abundant immunoglobulin in plasma. Understanding : Relatively less understood compared to other antibody classes. Structure and Locatio
+_Bootcamp_Immunology_11_Hypersensitivities_01_Type_I_Hypersensitivity_Reactions.txt
+_Bootcamp_Immunology_11_Hypersensitivities_03_Type_II_Receptor_Binding_Hypersensitivity_Reactions_and_Coombs_Test.txt
+_FirstAid_02_Immunology_03_Immune_Responses_13_Hypersensitivity_types_01_Type_I_hypersensitivity.txt
+_FirstAid_02_Immunology_03_Immune_Responses_13_Hypersensitivity_types_02_Type_II_hypersensitivity.txt
+_FirstAid_02_Immunology_03_Immune_Responses_13_Hypersensitivity_types_03_Type_III_hypersensitivity.txt
+_FirstAid_02_Immunology_03_Immune_Responses_13_Hypersensitivity_types_04_Type_IV_hypersensitivity.txt

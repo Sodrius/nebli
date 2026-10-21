@@ -1,0 +1,6 @@
+# #AK_Step1_v12::#Bootcamp::Pulmonology::06_Restrictive_Lung_Disease::04_Hypersensitivity_Pneumonitis (5 notas)
+1473638702772 2-RelativelyHighYield Hypersensitivity pneumonitis is an autoimmune reaction that generates noncaseating granulomas in response to inhaled organic antigens (e.g., pigeon breeder's lung)
+1473638705750 2-RelativelyHighYield Hypersensitivity pneumonitis is a mixed type III / IV hypersensitivity reaction
+1473638707900 2-RelativelyHighYield Hypersensitivity pneumonitis is often seen in farmers and those exposed to birds
+1473638710349 2-RelativelyHighYield Hypersensitivity pneumonitis presents with fever, cough , and dyspnea hours after exposure; resolves with removal of exposure
+1473638717615 2-RelativelyHighYield Hypersensitivity pneumonitis can lead to interstitial fibrosis and restrictive lung disease with chronic exposure to the inhaled antigen

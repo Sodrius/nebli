@@ -1,0 +1,30 @@
+# #AK_Step1_v12::#Bootcamp::Immunology::11_Hypersensitivities::01_Type_I_Hypersensitivity_Reactions (29 notas)
+1471541327679 2-RelativelyHighYield Histamine causes arteriolar dilation and venous constriction
+1473536756997 1-HighYield Allergic rhinitis is a subtype of rhinitis due to a type I hypersensitivity reaction (e.g., to pollen)
+1473628085810 1-HighYield Asthma is most often due to allergic stimuli (type I HSR), but may also be triggered by viral URIs and stress
+1474571583341 1-HighYield Allergic inflammation is mediated by histamine , which acts on the H 1 histamine receptor
+1474571606722 2-RelativelyHighYield Histamine causes increased nasal and bronchial mucus production (H 1 receptor activation)
+1474571630796 2-RelativelyHighYield Histamine increases vascular permeability , which is responsible for urticaria/hives (H 1 receptor activation)
+1474571636173 3-HighYield-temporary Histamine causes constriction of bronchial smooth muscle , especially in patients with asthma (H 1 receptor activation)
+1487117263860 1-HighYield IgE cross-links when exposed to allergen , mediating type I hypersensitivity reactions
+1487206917325 1-HighYield Which type of hypersensitivity reaction is mediated by cross-linking IgE on presensitized mast cells and basophils ? Type I HSR
+1487207079363 1-HighYield Type I HSR occurs due to cross-linking of Ig E on presensitized mast cells and basophils by antigens, leading to receptor aggregation
+1487207084334 1-HighYield The immediate response of mast cell and basophil activation is release of preformed histamine granules and tryptase
+1487207091819 1-HighYield The delayed response of mast cell and basophil activation involves production of chemokines (e.g., to attract eosinophils) and other proinflammatory mediators from mast cells
+1487207094725 1-HighYield Which type of hypersensitivity mediates anaphylaxis (e.g., food, drug, or bee sting allergies)? Type I HSR
+1487207097572 1-HighYield Which type of hypersensitivity mediates atopic reactions (e.g., asthma, allergic rhinitis)? Type I HSR
+1487207100136 2-RelativelyHighYield Skin prick tests or blood (ELISA) tests for allergen-specific IgE are typically used to diagnose type I hypersensitivity reactions
+1487207248593 1-HighYield Which hypersensitivity reaction(s) are antibody-mediated ? I, II, and III
+1488502491982 - Atopic dermatitis presents with an intensely pruritic , oozing rash with vesicles and edema due to a type I HSR
+1489972338045 1-HighYield What type of hypersensitivity is allergic transfusion reaction ? Type I HSR
+1500239144039 1-HighYield Allergic bronchopulmonary aspergillosis (ABPA) is a type I hypersensitivity reaction caused by Aspergillus fumigatus
+1503602428756 1-HighYield Penicillins can result in type I hypersensitivity reactions , mediated by IgE causing anaphylaxis
+1505343399768 1-HighYield Which antibiotic causes an infusion reaction characterized by red skin flushing ? Vancomycin
+1505343486874 1-HighYield Vancomycin infusion reaction results from direct activation of mast cells leading to histamine release upon vancomycin administration
+1505343622984 1-HighYield Vancomycin infusion reaction is characterized by erythema, pruritus, and widespread flushing
+1505343825105 1-HighYield Vancomycin infusion reaction is characterized by histamine release with possible hypo tension
+1505343884890 1-HighYield Vancomycin infusion reaction can be avoided by slowing the infusion of vancomycin
+1505343931425 1-HighYield Vancomycin infusion reaction can be avoided by pre-treating with antihistamines
+1514429990469 2-RelativelyHighYield Upon rapid infusion of vancomycin , if a patient presents like the following image - what side effect is occurring? Vancomycin infusion reaction
+1514437669394 4-LowerYield What is the likely diagnosis in a patient who is taking penicillin that presents with nausea , hives , or wheezing , and the rash below? Type I hypersensitivity
+1582068541475 1-HighYield Vancomycin, opioids, and radiocontrast dye can cause IgE- in dependent mast cell degranulation

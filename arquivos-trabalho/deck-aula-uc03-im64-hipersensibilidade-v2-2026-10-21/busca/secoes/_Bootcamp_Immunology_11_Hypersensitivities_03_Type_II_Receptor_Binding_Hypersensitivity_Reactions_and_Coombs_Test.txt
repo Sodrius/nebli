@@ -1,0 +1,14 @@
+# #AK_Step1_v12::#Bootcamp::Immunology::11_Hypersensitivities::03_Type_II_Receptor_Binding_Hypersensitivity_Reactions_and_Coombs_Test (13 notas)
+1478995345984 - What test is used to diagnose autoimmune hemolytic anemia ? Direct antiglobulin test (Coombs)
+1478995351309 3-HighYield-temporary The direct Coombs test adds anti-human globulin (Coombs reagent) to a sample of a patient's RBCs
+1478995359420 3-HighYield-temporary The direct Coombs test answers the question: "Are the patient's RBCs already bound by immunoglobulin (or complement)?"
+1478995369644 3-HighYield-temporary The indirect Coombs test adds donor RBCs and anti-human globulin (Coombs reagent) to the patient's serum
+1478995378594 3-HighYield-temporary The indirect Coombs test answers the question: "Does the patient have antibodies in their serum ?"
+1487207112553 1-HighYield Type II HSRs can cause pathology by inducing cellular dysfunction, causing abnormal blockade or activation/inactivation of downstream cellular processes
+1487207119666 1-HighYield Type II HSRs can cause pathology by inducing inflammation by antibodies depositing on cell surfaces, which in turn activates complement
+1487207141168 1-HighYield What test is used to diagnose type II hypersensitivity reactions against RBCs ? Coombs test
+1487207158134 1-HighYield What type of hypersensitivity reaction is Graves disease and myasthenia gravis ? Type II HSR (cellular dysfunction)
+1488418525490 1-HighYield Myasthenia gravis is caused by autoantibodies to post synaptic ACh receptors at the NMJ
+1488679982353 - What type of hypersensitivity reaction is pemphigus vulgaris and bullous pemphigoid ? Type II HSR
+1547916046967 - What screening test is used to determine if an Rh(D)- pregnant patient has already alloimmunized ? Antibody screen (indirect Coombs test)
+1549800055025 - What test is used for Rh typing and antibody screening ? Indirect Coombs test

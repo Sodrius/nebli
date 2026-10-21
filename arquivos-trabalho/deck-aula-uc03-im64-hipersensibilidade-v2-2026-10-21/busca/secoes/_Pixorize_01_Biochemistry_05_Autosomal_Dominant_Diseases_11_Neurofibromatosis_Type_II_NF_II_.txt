@@ -1,0 +1,7 @@
+# #AK_Step1_v12::#Pixorize::01_Biochemistry::05_Autosomal_Dominant_Diseases::11_Neurofibromatosis_Type_II_(NF_II) (6 notas)
+1484188823256 1-HighYield What is the mode of inheritance of neurofibromatosis I and II ? Autosomal dominant
+1484188884728 3-HighYield-temporary Neurofibromatosis II is associated with mutations in the NF2 tumor suppressor gene on chromosome 22
+1484188887101 1-HighYield Neurofibromatosis II is a neurocutaneous disorder associated with bilateral acoustic neuroma (vestibular schwannomas)
+1484188889387 2-RelativelyHighYield Neurofibromatosis II is associated with juvenile cataracts
+1484188892249 2-RelativelyHighYield What CNS tumors are associated with neurofibromatosis type II (NF2)? - Meningioma - Ependymoma
+1508799500223 1-HighYield NF2 is a tumor suppressor gene that encodes for the protein Merlin (schwannomin)
