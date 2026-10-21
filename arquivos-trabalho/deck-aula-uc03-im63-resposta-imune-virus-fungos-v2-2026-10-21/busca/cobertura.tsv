@@ -1,24 +1,20 @@
 chave	conceito	fonte_aula	veredito	lidos	decora	decisao
-au-balanca	Infecção: patogenicidade × resposta imune	Slide 2	lacuna	1479430568786 1482359358577 1485804778061	pathogenicity	Os candidatos tratam de interferon, NK e CMV; nenhum card traz o balanço entre patogenicidade e resposta imune que a aula usa como princípio.
+au-balanca	Infecção: patogenicidade × resposta imune	Slide 42	lacuna	1479430568786 1550840966085 1503263010001	pathogenicity	Há cards de interferon, NK e CTL; nenhum diz que o resultado da infecção é o balanço entre a patogenicidade e a resposta imune, ideia de abertura das duas aulas.
+au-inflam-sinais	Inflamassoma: dois sinais e caspase-1	Slide 52	lacuna	1520715849479 1497310326771 1520715624658	NF-κB	O AnKing traz o inflamassoma como complexo que aumenta IL-1β e IL-18; nenhum card traz os dois sinais (NF-κB e ATP/K+) e a caspase-1 que a aula ensina.
+au-fungos-pamps	Parede do fungo: açúcares como PAMPs	Slide 58	lacuna	1509742141238 1509742814980 1509751969962	β-glucan	Há cards de dectina e de NET; nenhum diz que a parede do fungo é rica em açúcares (β-glucana e mananas) que atuam como PAMPs.
+au-fungos-il1	Inflamassoma: IL-1β para Th17 e IL-18 para Th1	Slide 63	parcial	1520715849479 1520715624658 1497310326771	Th17	Há card do inflamassoma (IL-1β e IL-18) e cards de Th1 e Th17 em separado; nenhum liga IL-1β a Th17 e IL-18 a Th1 como a aula.
+au-fungos-protecao	Th1 e Th17 protegem; Th2 e Treg pioram	Slide 66	lacuna	1520300460306 1487727785545 1487727546252	Th2	Há cards de Th1 e Th17 como células; nenhum afirma que Th1 e Th17 protegem contra fungos e que Th2 e Treg pioram a doença, tese da aula.
+ak1503254160003	Sem TNF-α não há granuloma e a infecção reativa	Slide 70	coberto			card de acervo achado por seção, palavra-chave ou significado
 ak1461792762468	Interferons: citocinas liberadas por células infectadas por vírus	Slide 13	coberto			card de acervo achado por seção, palavra-chave ou significado
-au-tlr-virus	TLRs que reconhecem vírus	Slide 14	parcial	1497450277629 1520299451730 1487639996379	TLR3	Há PRRs em geral e RIG/citosólicos; nenhum card liga TLR3, TLR7/8 e TLR9 aos ácidos nucleicos virais.
+au-tlr-virus	TLRs que reconhecem vírus	Slide 14	lacuna	1502063700798 1516758492209 1516320933265	TLR3	Os cards de RNA viral e interferon não nomeiam os TLRs; nenhum liga TLR3, TLR7/8 e TLR9 aos ácidos nucleicos virais.
 ak1520301328706	IFN tipo I reduz a síntese proteica	Slide 17	coberto			card de acervo achado por seção, palavra-chave ou significado
-ak1461794583601	Interleucinas aumentam a síntese de interferon	Slide 17	coberto			card de acervo achado por seção, palavra-chave ou significado
 ak1497450277629	RNA dupla fita no citosol leva à apoptose via IFN	Slide 17	coberto			card de acervo achado por seção, palavra-chave ou significado
-au-evasao-mhc	Escape viral: queda do MHC I	Slide 25	parcial	1487116826422 1503876156644 1487115889320	proteasome	O CMV inibe o MHC I (ak); nenhum card traz os pontos do bloqueio (proteassoma, TAP, RE).
-ak1503876244084	CMV inibe a expressão de MHC I	Slide 25	coberto			card de acervo achado por seção, palavra-chave ou significado
+au-ac-fab-fc	Anticorpos: neutralização (Fab) e ADCC e complemento (Fc)	Slide 19	parcial	1486867696248 1500404728172 1503855271322	neutralization	Há ADCC e IgG em separado; nenhum card junta neutralização (Fab) e ADCC e complemento (Fc) como mecanismos antivirais dos anticorpos, cobrados em prova.
+au-ctl-duplo	CD8: primado pela dendrítica, reconhece o peptídeo na célula infectada	Slide 21	lacuna	1486952670744 1486952638474 1487115889320	dendritic	Há cards de CD8, MHC I e apoptose; nenhum traz o reconhecimento duplo do CD8 (primado pela dendrítica e depois reconhecendo o peptídeo na célula infectada).
+au-evasao-mhc	Escape viral: queda do MHC I	Slide 25	parcial	1487116826422 1503876156644 1487115889320	proteasome	Há cards do CMV que reduz o MHC I; nenhum nomeia as três etapas bloqueadas (proteassoma, TAP e retenção no RE).
 ak1503876156644	CMV bloqueia o MHC I e a morte pelo CD8	Slide 25	coberto			card de acervo achado por seção, palavra-chave ou significado
-au-evasao-citocinas	Escape viral: homólogos de citocinas e receptores	Slide 27	lacuna	1487116971703 1489968446315 1489970615786	IL-10	Há IL-10 geral e EBV latente; nenhum card traz o homólogo viral de IL-10 nem os receptores decoy.
+au-evasao-ifn	Escape viral: bloqueio da resposta de interferon	Slide 27	lacuna	1461794607480 1506629766099 1461797595100	PKR	Os cards de interferon descrevem a ação antiviral; nenhum traz a evasão da resposta de interferon (HCV e PKR, coronavírus e IFN α/β), perguntada em prova.
 ak1506805786448	HIV infecta linfócitos T CD4, macrófagos e células dendríticas	Slide 28	coberto			card de acervo achado por seção, palavra-chave ou significado
 ak1516321589458	Variação antigênica do influenza: HA e NA	Slide 29	coberto			card de acervo achado por seção, palavra-chave ou significado
-ak1516323168130	Virada: pandemias	Slide 29	coberto			card de acervo achado por seção, palavra-chave ou significado
 ak1516322271299	Variação antigênica: deriva ou virada	Slide 30	coberto			card de acervo achado por seção, palavra-chave ou significado
 ak1516322855117	Deriva: mutações pontuais em HA ou NA	Slide 31	coberto			card de acervo achado por seção, palavra-chave ou significado
-ak1516323022237	Deriva: epidemias	Slide 31	coberto			card de acervo achado por seção, palavra-chave ou significado
-ak1520087988222	Dengue: quatro sorotipos	Slide 31	coberto			card de acervo achado por seção, palavra-chave ou significado
-ak1520088551261	Segunda infecção por dengue: quadro mais grave	Slide 31	coberto			card de acervo achado por seção, palavra-chave ou significado
-au-fungos-tipos	Fungos oportunistas × primários	Slide 55	lacuna	1499972321019 1499970409878 1499970198666	Aspergillus	Há cards de fungos isolados por doença; nenhum separa oportunistas de primários como a lâmina 55.
-au-fungos-pamps	Parede do fungo: açúcares como PAMPs	Slide 58	lacuna	1509742141238 1509742717818 1509751969962	β-glucan	Há ergosterol e equinocandinas, mas nenhum card diz que os açúcares da parede são PAMPs.
-au-fungos-il1	Inflamassoma: IL-1β para Th17 e IL-18 para Th1	Slide 63	lacuna	1520715849479 1520715624658 1497310326771	Th17	Há inflamassoma e IL-1β em geral; nenhum card liga IL-1β a Th17 e IL-18 a Th1 nos fungos.
-au-fungos-protecao	Th1 e Th17 protegem; Th2 e Treg pioram	Slide 66	parcial	1520300460306 1476583926797 1499975410107	Th2	Há Th17 recrutando neutrófilos e M1/M2 (ak); nenhum card resume Th1 e Th17 como protetores e Th2 e Treg como deletérios.
-ak1503254160003	Sem TNF-α não há granuloma e a infecção reativa	Slide 70	coberto			card de acervo achado por seção, palavra-chave ou significado

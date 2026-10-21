@@ -1,54 +1,63 @@
-{"op": "createDeck", "deck": "NEBLI::UC03::P3::Imunologia::Resposta imune a vírus e fungos", "at": "2026-10-21T18:51:25.307382+00:00"}
-{"op": "preset", "decks": ["NEBLI::UC03::P3::Imunologia::Resposta imune a vírus e fungos"], "at": "2026-10-21T18:51:25.616649+00:00"}
-{"op": "addNote", "key": "au-balanca", "nid": 1792608685648, "at": "2026-10-21T18:51:25.664333+00:00"}
-{"op": "addNote", "key": "ak1461792762468", "nid": 1792608686003, "at": "2026-10-21T18:51:26.019366+00:00"}
-{"op": "addNote", "key": "au-tlr-virus", "nid": 1792608686351, "at": "2026-10-21T18:51:26.366372+00:00"}
-{"op": "addNote", "key": "ak1520301328706", "nid": 1792608686703, "at": "2026-10-21T18:51:26.714996+00:00"}
-{"op": "addNote", "key": "ak1461794583601", "nid": 1792608686950, "at": "2026-10-21T18:51:26.963568+00:00"}
-{"op": "addNote", "key": "ak1497450277629", "nid": 1792608687203, "at": "2026-10-21T18:51:27.271091+00:00"}
-{"op": "addNote", "key": "au-evasao-mhc", "nid": 1792608687500, "at": "2026-10-21T18:51:27.516168+00:00"}
-{"op": "addNote", "key": "ak1503876244084", "nid": 1792608687864, "at": "2026-10-21T18:51:27.890169+00:00"}
-{"op": "addNote", "key": "ak1503876156644", "nid": 1792608688129, "at": "2026-10-21T18:51:28.143151+00:00"}
-{"op": "addNote", "key": "au-evasao-citocinas", "nid": 1792608688376, "at": "2026-10-21T18:51:28.395584+00:00"}
-{"op": "addNote", "key": "ak1506805786448", "nid": 1792608688732, "at": "2026-10-21T18:51:28.741007+00:00"}
-{"op": "addNote", "key": "ak1516321589458", "nid": 1792608688976, "at": "2026-10-21T18:51:28.992787+00:00"}
-{"op": "addNote", "key": "ak1516323168130", "nid": 1792608689284, "at": "2026-10-21T18:51:29.309894+00:00"}
-{"op": "addNote", "key": "ak1516322271299", "nid": 1792608689551, "at": "2026-10-21T18:51:29.565453+00:00"}
-{"op": "addNote", "key": "ak1516322855117", "nid": 1792608689900, "at": "2026-10-21T18:51:29.915856+00:00"}
-{"op": "addNote", "key": "ak1516323022237", "nid": 1792608690250, "at": "2026-10-21T18:51:30.266027+00:00"}
-{"op": "addNote", "key": "ak1520087988222", "nid": 1792608690499, "at": "2026-10-21T18:51:30.514724+00:00"}
-{"op": "addNote", "key": "ak1520088551261", "nid": 1792608690753, "at": "2026-10-21T18:51:30.764060+00:00"}
-{"op": "addNote", "key": "au-fungos-tipos", "nid": 1792608690999, "at": "2026-10-21T18:51:31.015028+00:00"}
-{"op": "addNote", "key": "au-fungos-pamps", "nid": 1792608691404, "at": "2026-10-21T18:51:31.417897+00:00"}
-{"op": "addNote", "key": "au-fungos-il1", "nid": 1792608691750, "at": "2026-10-21T18:51:31.767724+00:00"}
-{"op": "addNote", "key": "au-fungos-protecao", "nid": 1792608692101, "at": "2026-10-21T18:51:32.118933+00:00"}
-{"op": "addNote", "key": "ak1503254160003", "nid": 1792608692457, "at": "2026-10-21T18:51:32.467578+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791625429833, "cor": "verde", "ordem": "NEBLI::ordem::im63-02", "at": "2026-10-21T18:51:32.814582+00:00"}
-{"op": "addTags-compartilhado", "nid": 1792240189143, "cor": "azul", "ordem": "NEBLI::ordem::im63-05", "at": "2026-10-21T18:51:32.965982+00:00"}
-{"op": "addTags-compartilhado", "nid": 1792242116526, "cor": "verde", "ordem": "NEBLI::ordem::im63-06", "at": "2026-10-21T18:51:33.115078+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791984891827, "cor": "verde", "ordem": "NEBLI::ordem::im63-07", "at": "2026-10-21T18:51:33.321145+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791984891454, "cor": "verde", "ordem": "NEBLI::ordem::im63-08", "at": "2026-10-21T18:51:33.467248+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791984891204, "cor": "verde", "ordem": "NEBLI::ordem::im63-09", "at": "2026-10-21T18:51:33.616737+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791667094738, "cor": "azul", "ordem": "NEBLI::ordem::im63-10", "at": "2026-10-21T18:51:33.766715+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791984890453, "cor": "verde", "ordem": "NEBLI::ordem::im63-11", "at": "2026-10-21T18:51:33.917150+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791984890952, "cor": "verde", "ordem": "NEBLI::ordem::im63-15", "at": "2026-10-21T18:51:34.066678+00:00"}
-{"op": "addTags-compartilhado", "nid": 1792242117020, "cor": "verde", "ordem": "NEBLI::ordem::im63-16", "at": "2026-10-21T18:51:34.215391+00:00"}
-{"op": "addTags-compartilhado", "nid": 1792242116095, "cor": "rosa", "ordem": "NEBLI::ordem::im63-17", "at": "2026-10-21T18:51:34.367511+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791629595996, "cor": "verde", "ordem": "NEBLI::ordem::im63-18", "at": "2026-10-21T18:51:34.516753+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791625433908, "cor": "verde", "ordem": "NEBLI::ordem::im63-19", "at": "2026-10-21T18:51:34.667622+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791625430208, "cor": "verde", "ordem": "NEBLI::ordem::im63-20", "at": "2026-10-21T18:51:34.816497+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791625429957, "cor": "verde", "ordem": "NEBLI::ordem::im63-21", "at": "2026-10-21T18:51:34.966103+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791625426657, "cor": "verde", "ordem": "NEBLI::ordem::im63-22", "at": "2026-10-21T18:51:35.117590+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791629595197, "cor": "azul", "ordem": "NEBLI::ordem::im63-23", "at": "2026-10-21T18:51:35.324086+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791625435657, "cor": "verde", "ordem": "NEBLI::ordem::im63-28", "at": "2026-10-21T18:51:35.468849+00:00"}
-{"op": "addTags-compartilhado", "nid": 1792605654373, "cor": "verde", "ordem": "NEBLI::ordem::im63-31", "at": "2026-10-21T18:51:35.619200+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791743340332, "cor": "azul", "ordem": "NEBLI::ordem::im63-40", "at": "2026-10-21T18:51:35.764459+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791743344060, "cor": "azul", "ordem": "NEBLI::ordem::im63-41", "at": "2026-10-21T18:51:35.916900+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791743339860, "cor": "azul", "ordem": "NEBLI::ordem::im63-42", "at": "2026-10-21T18:51:36.066931+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791625434032, "cor": "azul", "ordem": "NEBLI::ordem::im63-45", "at": "2026-10-21T18:51:36.217487+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791625434457, "cor": "azul", "ordem": "NEBLI::ordem::im63-46", "at": "2026-10-21T18:51:36.368000+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791716421256, "cor": "verde", "ordem": "NEBLI::ordem::im63-47", "at": "2026-10-21T18:51:36.516641+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791625436658, "cor": "verde", "ordem": "NEBLI::ordem::im63-48", "at": "2026-10-21T18:51:36.666331+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791625422039, "cor": "azul", "ordem": "NEBLI::ordem::im63-50", "at": "2026-10-21T18:51:36.817714+00:00"}
-{"op": "addTags-compartilhado", "nid": 1791625422173, "cor": "azul", "ordem": "NEBLI::ordem::im63-51", "at": "2026-10-21T18:51:36.966431+00:00"}
-{"op": "sync-solicitado-pelo-escrita", "at": "2026-10-21T18:51:41.715103+00:00"}
+{"op": "createDeck", "deck": "NEBLI::UC03::P3::Imunologia::Resposta imune a vírus e fungos", "at": "2026-10-21T21:18:50.563649+00:00"}
+{"op": "preset", "decks": ["NEBLI::UC03::P3::Imunologia::Resposta imune a vírus e fungos"], "at": "2026-10-21T21:18:50.863209+00:00"}
+{"op": "addNote", "key": "au-balanca", "nid": 1792617530895, "at": "2026-10-21T21:18:50.913655+00:00"}
+{"op": "addNote", "key": "au-inflam-sinais", "nid": 1792617531248, "at": "2026-10-21T21:18:51.265573+00:00"}
+{"op": "addNote", "key": "au-fungos-pamps", "nid": 1792617531756, "at": "2026-10-21T21:18:51.781830+00:00"}
+{"op": "addNote", "key": "au-fungos-il1", "nid": 1792617532121, "at": "2026-10-21T21:18:52.138810+00:00"}
+{"op": "addNote", "key": "au-fungos-protecao", "nid": 1792617532473, "at": "2026-10-21T21:18:52.489908+00:00"}
+{"op": "addNote", "key": "ak1503254160003", "nid": 1792617532823, "at": "2026-10-21T21:18:52.840035+00:00"}
+{"op": "addNote", "key": "ak1461792762468", "nid": 1792617533073, "at": "2026-10-21T21:18:53.090262+00:00"}
+{"op": "addNote", "key": "au-tlr-virus", "nid": 1792617533423, "at": "2026-10-21T21:18:53.440099+00:00"}
+{"op": "addNote", "key": "ak1520301328706", "nid": 1792617533833, "at": "2026-10-21T21:18:53.854530+00:00"}
+{"op": "addNote", "key": "ak1497450277629", "nid": 1792617534099, "at": "2026-10-21T21:18:54.114831+00:00"}
+{"op": "addNote", "key": "au-ac-fab-fc", "nid": 1792617534350, "at": "2026-10-21T21:18:54.363096+00:00"}
+{"op": "addNote", "key": "au-ctl-duplo", "nid": 1792617534798, "at": "2026-10-21T21:18:54.814885+00:00"}
+{"op": "addNote", "key": "au-evasao-mhc", "nid": 1792617535146, "at": "2026-10-21T21:18:55.163900+00:00"}
+{"op": "addNote", "key": "ak1503876156644", "nid": 1792617535499, "at": "2026-10-21T21:18:55.514765+00:00"}
+{"op": "addNote", "key": "au-evasao-ifn", "nid": 1792617535812, "at": "2026-10-21T21:18:55.834598+00:00"}
+{"op": "addNote", "key": "ak1506805786448", "nid": 1792617536173, "at": "2026-10-21T21:18:56.189989+00:00"}
+{"op": "addNote", "key": "ak1516321589458", "nid": 1792617536423, "at": "2026-10-21T21:18:56.438668+00:00"}
+{"op": "addNote", "key": "ak1516322271299", "nid": 1792617536673, "at": "2026-10-21T21:18:56.690358+00:00"}
+{"op": "addNote", "key": "ak1516322855117", "nid": 1792617537020, "at": "2026-10-21T21:18:57.038481+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791743339611, "cor": "azul", "ordem": "NEBLI::ordem::im63-02", "at": "2026-10-21T21:18:57.491226+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791743339740, "cor": "azul", "ordem": "NEBLI::ordem::im63-03", "at": "2026-10-21T21:18:57.640673+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791743340332, "cor": "azul", "ordem": "NEBLI::ordem::im63-06", "at": "2026-10-21T21:18:57.856931+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791743344060, "cor": "azul", "ordem": "NEBLI::ordem::im63-07", "at": "2026-10-21T21:18:58.013849+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791743339860, "cor": "azul", "ordem": "NEBLI::ordem::im63-08", "at": "2026-10-21T21:18:58.166927+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625432383, "cor": "azul", "ordem": "NEBLI::ordem::im63-10", "at": "2026-10-21T21:18:58.316183+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625432733, "cor": "azul", "ordem": "NEBLI::ordem::im63-11", "at": "2026-10-21T21:18:58.466110+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625427059, "cor": "verde", "ordem": "NEBLI::ordem::im63-12", "at": "2026-10-21T21:18:58.615704+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625428533, "cor": "verde", "ordem": "NEBLI::ordem::im63-13", "at": "2026-10-21T21:18:58.763557+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625433608, "cor": "azul", "ordem": "NEBLI::ordem::im63-15", "at": "2026-10-21T21:18:58.916918+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625422657, "cor": "verde", "ordem": "NEBLI::ordem::im63-16", "at": "2026-10-21T21:18:59.066148+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625434032, "cor": "azul", "ordem": "NEBLI::ordem::im63-17", "at": "2026-10-21T21:18:59.215626+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625434457, "cor": "azul", "ordem": "NEBLI::ordem::im63-18", "at": "2026-10-21T21:18:59.364457+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791716421256, "cor": "verde", "ordem": "NEBLI::ordem::im63-19", "at": "2026-10-21T21:18:59.515462+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625436658, "cor": "verde", "ordem": "NEBLI::ordem::im63-20", "at": "2026-10-21T21:18:59.664943+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625422039, "cor": "azul", "ordem": "NEBLI::ordem::im63-22", "at": "2026-10-21T21:18:59.871408+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625422173, "cor": "azul", "ordem": "NEBLI::ordem::im63-23", "at": "2026-10-21T21:19:00.015700+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791593462592, "cor": "azul", "ordem": "NEBLI::ordem::im63-24", "at": "2026-10-21T21:19:00.163586+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625430882, "cor": "verde", "ordem": "NEBLI::ordem::im63-25", "at": "2026-10-21T21:19:00.315210+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625435233, "cor": "azul", "ordem": "NEBLI::ordem::im63-26", "at": "2026-10-21T21:19:00.466369+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791667096688, "cor": "azul", "ordem": "NEBLI::ordem::im63-27", "at": "2026-10-21T21:19:00.615567+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791667094087, "cor": "azul", "ordem": "NEBLI::ordem::im63-28", "at": "2026-10-21T21:19:00.765552+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625429833, "cor": "verde", "ordem": "NEBLI::ordem::im63-29", "at": "2026-10-21T21:19:00.915252+00:00"}
+{"op": "addTags-compartilhado", "nid": 1792240189143, "cor": "azul", "ordem": "NEBLI::ordem::im63-32", "at": "2026-10-21T21:19:01.064542+00:00"}
+{"op": "addTags-compartilhado", "nid": 1792242116526, "cor": "verde", "ordem": "NEBLI::ordem::im63-33", "at": "2026-10-21T21:19:01.215274+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791984891204, "cor": "verde", "ordem": "NEBLI::ordem::im63-34", "at": "2026-10-21T21:19:01.366142+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791984891454, "cor": "verde", "ordem": "NEBLI::ordem::im63-35", "at": "2026-10-21T21:19:01.515835+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791984891827, "cor": "verde", "ordem": "NEBLI::ordem::im63-36", "at": "2026-10-21T21:19:01.666177+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791667094738, "cor": "azul", "ordem": "NEBLI::ordem::im63-37", "at": "2026-10-21T21:19:01.881996+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791984890453, "cor": "verde", "ordem": "NEBLI::ordem::im63-38", "at": "2026-10-21T21:19:02.038131+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791984890952, "cor": "verde", "ordem": "NEBLI::ordem::im63-41", "at": "2026-10-21T21:19:02.190804+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625433908, "cor": "verde", "ordem": "NEBLI::ordem::im63-42", "at": "2026-10-21T21:19:02.340852+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625430208, "cor": "verde", "ordem": "NEBLI::ordem::im63-43", "at": "2026-10-21T21:19:02.491001+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791629595996, "cor": "verde", "ordem": "NEBLI::ordem::im63-45", "at": "2026-10-21T21:19:02.641073+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625426657, "cor": "verde", "ordem": "NEBLI::ordem::im63-46", "at": "2026-10-21T21:19:02.790604+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625429957, "cor": "verde", "ordem": "NEBLI::ordem::im63-48", "at": "2026-10-21T21:19:02.941455+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791629595197, "cor": "azul", "ordem": "NEBLI::ordem::im63-49", "at": "2026-10-21T21:19:03.090574+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791629597045, "cor": "verde", "ordem": "NEBLI::ordem::im63-50", "at": "2026-10-21T21:19:03.240492+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791629594773, "cor": "rosa", "ordem": "NEBLI::ordem::im63-51", "at": "2026-10-21T21:19:03.391023+00:00"}
+{"op": "addTags-compartilhado", "nid": 1791625435657, "cor": "verde", "ordem": "NEBLI::ordem::im63-54", "at": "2026-10-21T21:19:03.540453+00:00"}
+{"op": "addTags-compartilhado", "nid": 1792605654373, "cor": "verde", "ordem": "NEBLI::ordem::im63-58", "at": "2026-10-21T21:19:03.751530+00:00"}
+{"op": "sync-solicitado-pelo-escrita", "at": "2026-10-21T21:19:09.963295+00:00"}

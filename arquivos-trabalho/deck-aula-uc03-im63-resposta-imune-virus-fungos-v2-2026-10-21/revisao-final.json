@@ -3,11 +3,11 @@
  "feita_depois_de_instalar": true,
  "cobertura_item_a_item": {
   "ok": true,
-  "evidencia": "cobertura.json: 119 itens; exclusões com motivo no inventário"
+  "evidencia": "cobertura.json: 124 itens; exclusões com motivo no inventário"
  },
  "ordem_estrita_dos_slides": {
   "ok": true,
-  "evidencia": "NEBLI::2026-uc03-imunologia-63-resposta-imune-virus-fungos: 51 notas, prefixo 'im63'"
+  "evidencia": "NEBLI::2026-uc03-imunologia-63-resposta-imune-virus-fungos: 60 notas, prefixo 'im63'"
  },
  "imagens_vistas": {
   "ok": true,
@@ -35,7 +35,7 @@
  },
  "hy_verde": {
   "ok": true,
-  "evidencia": "10 AnKing HY 1–2: verdes ou com hy_repete/clinica_lateral justificado"
+  "evidencia": "5 AnKing HY 1–2: verdes ou com hy_repete/clinica_lateral justificado"
  },
  "tab_lido_por_amostra": {
   "ok": false,
@@ -50,75 +50,7 @@
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "ak1461792762468": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "au-tlr-virus": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1520301328706": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1461794583601": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1497450277629": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "au-evasao-mhc": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1503876244084": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1503876156644": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "au-evasao-citocinas": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1506805786448": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1516321589458": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1516323168130": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1516322271299": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1516322855117": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1516323022237": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1520087988222": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "ak1520088551261": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "au-fungos-tipos": {
+  "au-inflam-sinais": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
@@ -138,79 +70,63 @@
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1791625429833": {
+  "ak1461792762468": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1792240189143": {
+  "au-tlr-virus": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1792242116526": {
+  "ak1520301328706": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1791984891827": {
+  "ak1497450277629": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1791984891454": {
+  "au-ac-fab-fc": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1791984891204": {
+  "au-ctl-duplo": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1791667094738": {
+  "au-evasao-mhc": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1791984890453": {
+  "ak1503876156644": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1791984890952": {
+  "au-evasao-ifn": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1792242117020": {
+  "ak1506805786448": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1792242116095": {
+  "ak1516321589458": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1791629595996": {
+  "ak1516322271299": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1791625433908": {
+  "ak1516322855117": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1791625430208": {
+  "sh-1791743339611": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
-  "sh-1791625429957": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791625426657": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791629595197": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1791625435657": {
-   "veredito": "ok",
-   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
-  },
-  "sh-1792605654373": {
+  "sh-1791743339740": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
@@ -223,6 +139,30 @@
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
   "sh-1791743339860": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625432383": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625432733": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625427059": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625428533": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625433608": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625422657": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
@@ -247,6 +187,102 @@
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   },
   "sh-1791625422173": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791593462592": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625430882": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625435233": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791667096688": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791667094087": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625429833": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1792240189143": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1792242116526": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791984891204": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791984891454": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791984891827": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791667094738": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791984890453": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791984890952": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625433908": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625430208": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791629595996": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625426657": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625429957": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791629595197": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791629597045": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791629594773": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1791625435657": {
+   "veredito": "ok",
+   "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+  },
+  "sh-1792605654373": {
    "veredito": "ok",
    "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
   }

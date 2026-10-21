@@ -1,11 +1,11 @@
 {
- "aula": "Organização da resposta imune aos vírus e fungos (UC03 P3; Imunologia)",
+ "aula": "Resposta imune a fungos e a vírus (UC03 P3; Imunologia)",
  "feito_antes_de_montar": true,
  "alvos": [
   {
-   "id": "im63-s02-i2-1",
+   "id": "im63-s02-i2-a1",
    "slide": "2",
-   "alvo": "Infecção: patogenicidade × resposta imune",
+   "alvo": "Apoio ao card au-balanca",
    "fontes": [
     "slide 2"
    ],
@@ -41,11 +41,11 @@
   {
    "id": "im63-s07-i7-a1",
    "slide": "7",
-   "alvo": "Apoio ao card au-balanca",
+   "alvo": "Apoio ao card ak1487117288751",
    "fontes": [
     "slide 7"
    ],
-   "origem_prevista": "au-balanca"
+   "origem_prevista": "sh-1791625429833"
   },
   {
    "id": "im63-s13-i13-1",
@@ -86,11 +86,11 @@
   {
    "id": "im63-s14-i14-4",
    "slide": "14",
-   "alvo": "NK induz apoptose por perforina e granzima",
+   "alvo": "IFN α e β ativam as NK",
    "fontes": [
     "slide 14"
    ],
-   "origem_prevista": "sh-1791984891827"
+   "origem_prevista": "sh-1791984891204"
   },
   {
    "id": "im63-s14-i14-5",
@@ -104,11 +104,11 @@
   {
    "id": "im63-s14-i14-6",
    "slide": "14",
-   "alvo": "IFN α e β ativam as NK",
+   "alvo": "NK induz apoptose por perforina e granzima",
    "fontes": [
     "slide 14"
    ],
-   "origem_prevista": "sh-1791984891204"
+   "origem_prevista": "sh-1791984891827"
   },
   {
    "id": "im63-s15-i15-1",
@@ -140,15 +140,6 @@
   {
    "id": "im63-s17-i17-2",
    "slide": "17",
-   "alvo": "Interleucinas aumentam a síntese de interferon",
-   "fontes": [
-    "slide 17"
-   ],
-   "origem_prevista": "ak1461794583601"
-  },
-  {
-   "id": "im63-s17-i17-3",
-   "slide": "17",
    "alvo": "RNA dupla fita no citosol leva à apoptose via IFN",
    "fontes": [
     "slide 17"
@@ -156,7 +147,7 @@
    "origem_prevista": "ak1497450277629"
   },
   {
-   "id": "im63-s17-i17-4",
+   "id": "im63-s17-i17-3",
    "slide": "17",
    "alvo": "IFN α/β preparam as células vizinhas",
    "fontes": [
@@ -165,7 +156,7 @@
    "origem_prevista": "sh-1791984890453"
   },
   {
-   "id": "im63-s17-i17-5",
+   "id": "im63-s17-i17-4",
    "slide": "17",
    "alvo": "IFN tipo I aumenta o MHC I da célula",
    "fontes": [
@@ -174,34 +165,25 @@
    "origem_prevista": "sh-1791984890952"
   },
   {
+   "id": "im63-s18-i18-a1",
+   "slide": "18",
+   "alvo": "Apoio ao card ak1489970693302",
+   "fontes": [
+    "slide 18"
+   ],
+   "origem_prevista": "sh-1791984890453"
+  },
+  {
    "id": "im63-s19-i19-1",
    "slide": "19",
-   "alvo": "IL-2 e IL-12 ativam as NK",
+   "alvo": "Anticorpos: neutralização (Fab) e ADCC e complemento (Fc)",
    "fontes": [
     "slide 19"
    ],
-   "origem_prevista": "sh-1792242117020"
+   "origem_prevista": "au-ac-fab-fc"
   },
   {
    "id": "im63-s19-i19-2",
-   "slide": "19",
-   "alvo": "NK mata por CD16 ligado ao Fc do IgG",
-   "fontes": [
-    "slide 19"
-   ],
-   "origem_prevista": "sh-1792242116095"
-  },
-  {
-   "id": "im63-s19-i19-3",
-   "slide": "19",
-   "alvo": "A imunoglobulina da ADCC é IgG",
-   "fontes": [
-    "slide 19"
-   ],
-   "origem_prevista": "sh-1791629595996"
-  },
-  {
-   "id": "im63-s19-i19-4",
    "slide": "19",
    "alvo": "Quem secreta IFN-γ: NK e Th1",
    "fontes": [
@@ -210,7 +192,7 @@
    "origem_prevista": "sh-1791625433908"
   },
   {
-   "id": "im63-s19-i19-5",
+   "id": "im63-s19-i19-3",
    "slide": "19",
    "alvo": "IFN-γ ativa macrófagos para matar o que fagocitaram",
    "fontes": [
@@ -219,13 +201,22 @@
    "origem_prevista": "sh-1791625430208"
   },
   {
+   "id": "im63-s19-i19-4",
+   "slide": "19",
+   "alvo": "A imunoglobulina da ADCC é IgG",
+   "fontes": [
+    "slide 19"
+   ],
+   "origem_prevista": "sh-1791629595996"
+  },
+  {
    "id": "im63-s21-i21-1",
    "slide": "21",
-   "alvo": "CD8 T mata células infectadas por apoptose",
+   "alvo": "CD8: primado pela dendrítica, reconhece o peptídeo na célula infectada",
    "fontes": [
     "slide 21"
    ],
-   "origem_prevista": "sh-1791625429957"
+   "origem_prevista": "au-ctl-duplo"
   },
   {
    "id": "im63-s21-i21-2",
@@ -239,11 +230,56 @@
   {
    "id": "im63-s21-i21-3",
    "slide": "21",
+   "alvo": "CD8 T mata células infectadas por apoptose",
+   "fontes": [
+    "slide 21"
+   ],
+   "origem_prevista": "sh-1791625429957"
+  },
+  {
+   "id": "im63-s21-i21-4",
+   "slide": "21",
    "alvo": "Anticorpos neutralizantes bloqueiam a ligação aos receptores",
    "fontes": [
     "slide 21"
    ],
    "origem_prevista": "sh-1791629595197"
+  },
+  {
+   "id": "im63-s21-i21-5",
+   "slide": "21",
+   "alvo": "IgA secretora: componente secretor protege no lúmen",
+   "fontes": [
+    "slide 21"
+   ],
+   "origem_prevista": "sh-1791629597045"
+  },
+  {
+   "id": "im63-s21-i21-6",
+   "slide": "21",
+   "alvo": "IL-5 e TGF-β promovem a troca para IgA",
+   "fontes": [
+    "slide 21"
+   ],
+   "origem_prevista": "sh-1791629594773"
+  },
+  {
+   "id": "im63-s22-i22-a1",
+   "slide": "22",
+   "alvo": "Apoio ao card ak1487117293576",
+   "fontes": [
+    "slide 22"
+   ],
+   "origem_prevista": "sh-1791625429957"
+  },
+  {
+   "id": "im63-s23-i23-a1",
+   "slide": "23",
+   "alvo": "Apoio ao card ak1487117293576",
+   "fontes": [
+    "slide 23"
+   ],
+   "origem_prevista": "sh-1791625429957"
   },
   {
    "id": "im63-s24-i24-a1",
@@ -266,15 +302,6 @@
   {
    "id": "im63-s25-i25-2",
    "slide": "25",
-   "alvo": "CMV inibe a expressão de MHC I",
-   "fontes": [
-    "slide 25"
-   ],
-   "origem_prevista": "ak1503876244084"
-  },
-  {
-   "id": "im63-s25-i25-3",
-   "slide": "25",
    "alvo": "CMV bloqueia o MHC I e a morte pelo CD8",
    "fontes": [
     "slide 25"
@@ -293,11 +320,11 @@
   {
    "id": "im63-s27-i27-1",
    "slide": "27",
-   "alvo": "Escape viral: homólogos de citocinas e receptores",
+   "alvo": "Escape viral: bloqueio da resposta de interferon",
    "fontes": [
     "slide 27"
    ],
-   "origem_prevista": "au-evasao-citocinas"
+   "origem_prevista": "au-evasao-ifn"
   },
   {
    "id": "im63-s27-i27-2",
@@ -329,15 +356,6 @@
   {
    "id": "im63-s29-i29-2",
    "slide": "29",
-   "alvo": "Virada: pandemias",
-   "fontes": [
-    "slide 29"
-   ],
-   "origem_prevista": "ak1516323168130"
-  },
-  {
-   "id": "im63-s29-i29-3",
-   "slide": "29",
    "alvo": "Virada: reassortment de HA e NA entre espécies",
    "fontes": [
     "slide 29"
@@ -363,31 +381,49 @@
    "origem_prevista": "ak1516322855117"
   },
   {
-   "id": "im63-s31-i31-2",
-   "slide": "31",
-   "alvo": "Deriva: epidemias",
+   "id": "im63-s32-i32-a1",
+   "slide": "32",
+   "alvo": "Apoio ao card ak1516321589458",
    "fontes": [
-    "slide 31"
+    "slide 32"
    ],
-   "origem_prevista": "ak1516323022237"
+   "origem_prevista": "ak1516321589458"
   },
   {
-   "id": "im63-s31-i31-3",
-   "slide": "31",
-   "alvo": "Dengue: quatro sorotipos",
+   "id": "im63-s33-i33-a1",
+   "slide": "33",
+   "alvo": "Apoio ao card ak1516321589458",
    "fontes": [
-    "slide 31"
+    "slide 33"
    ],
-   "origem_prevista": "ak1520087988222"
+   "origem_prevista": "ak1516321589458"
   },
   {
-   "id": "im63-s31-i31-4",
-   "slide": "31",
-   "alvo": "Segunda infecção por dengue: quadro mais grave",
+   "id": "im63-s34-i34-a1",
+   "slide": "34",
+   "alvo": "Apoio ao card ak1516321589458",
    "fontes": [
-    "slide 31"
+    "slide 34"
    ],
-   "origem_prevista": "ak1520088551261"
+   "origem_prevista": "ak1516321589458"
+  },
+  {
+   "id": "im63-s35-i35-a1",
+   "slide": "35",
+   "alvo": "Apoio ao card au-evasao-mhc",
+   "fontes": [
+    "slide 35"
+   ],
+   "origem_prevista": "au-evasao-mhc"
+  },
+  {
+   "id": "im63-s42-i42-1",
+   "slide": "42",
+   "alvo": "Infecção: patogenicidade × resposta imune",
+   "fontes": [
+    "slide 42"
+   ],
+   "origem_prevista": "au-balanca"
   },
   {
    "id": "im63-s42-i42-a1",
@@ -395,6 +431,15 @@
    "alvo": "Apoio ao card au-balanca",
    "fontes": [
     "slide 42"
+   ],
+   "origem_prevista": "au-balanca"
+  },
+  {
+   "id": "im63-s43-i43-a1",
+   "slide": "43",
+   "alvo": "Apoio ao card au-balanca",
+   "fontes": [
+    "slide 43"
    ],
    "origem_prevista": "au-balanca"
   },
@@ -417,22 +462,94 @@
    "origem_prevista": "au-balanca"
   },
   {
+   "id": "im63-s46-i46-a1",
+   "slide": "46",
+   "alvo": "Apoio ao card au-balanca",
+   "fontes": [
+    "slide 46"
+   ],
+   "origem_prevista": "au-balanca"
+  },
+  {
+   "id": "im63-s47-i47-1",
+   "slide": "47",
+   "alvo": "TLR ativa NF-κB e a resposta imune",
+   "fontes": [
+    "slide 47"
+   ],
+   "origem_prevista": "sh-1791743339611"
+  },
+  {
+   "id": "im63-s48-i48-a1",
+   "slide": "48",
+   "alvo": "Apoio ao card ak1520715624658",
+   "fontes": [
+    "slide 48"
+   ],
+   "origem_prevista": "sh-1791743339740"
+  },
+  {
+   "id": "im63-s49-i49-a1",
+   "slide": "49",
+   "alvo": "Apoio ao card ak1520715624658",
+   "fontes": [
+    "slide 49"
+   ],
+   "origem_prevista": "sh-1791743339740"
+  },
+  {
+   "id": "im63-s50-i50-a1",
+   "slide": "50",
+   "alvo": "Apoio ao card ak1520715624658",
+   "fontes": [
+    "slide 50"
+   ],
+   "origem_prevista": "sh-1791743339740"
+  },
+  {
+   "id": "im63-s51-i51-a1",
+   "slide": "51",
+   "alvo": "Apoio ao card ak1520715624658",
+   "fontes": [
+    "slide 51"
+   ],
+   "origem_prevista": "sh-1791743339740"
+  },
+  {
+   "id": "im63-s52-i52-1",
+   "slide": "52",
+   "alvo": "Inflamassoma: dois sinais e caspase-1",
+   "fontes": [
+    "slide 52"
+   ],
+   "origem_prevista": "au-inflam-sinais"
+  },
+  {
+   "id": "im63-s52-i52-2",
+   "slide": "52",
+   "alvo": "Inflamassoma: complexo citoplasmático que reconhece produtos microbianos",
+   "fontes": [
+    "slide 52"
+   ],
+   "origem_prevista": "sh-1791743339740"
+  },
+  {
    "id": "im63-s54-i54-a1",
    "slide": "54",
-   "alvo": "Apoio ao card au-fungos-tipos",
+   "alvo": "Apoio ao card au-fungos-protecao",
    "fontes": [
     "slide 54"
    ],
-   "origem_prevista": "au-fungos-tipos"
+   "origem_prevista": "au-fungos-protecao"
   },
   {
-   "id": "im63-s55-i55-1",
+   "id": "im63-s55-i55-a1",
    "slide": "55",
-   "alvo": "Fungos oportunistas × primários",
+   "alvo": "Apoio ao card au-fungos-protecao",
    "fontes": [
     "slide 55"
    ],
-   "origem_prevista": "au-fungos-tipos"
+   "origem_prevista": "au-fungos-protecao"
   },
   {
    "id": "im63-s56-i56-a1",
@@ -442,6 +559,15 @@
     "slide 56"
    ],
    "origem_prevista": "au-fungos-protecao"
+  },
+  {
+   "id": "im63-s57-i57-a1",
+   "slide": "57",
+   "alvo": "Apoio ao card au-fungos-pamps",
+   "fontes": [
+    "slide 57"
+   ],
+   "origem_prevista": "au-fungos-pamps"
   },
   {
    "id": "im63-s58-i58-1",
@@ -458,6 +584,24 @@
    "alvo": "β-glucana do fungo é reconhecida pela Dectin-1",
    "fontes": [
     "slide 59"
+   ],
+   "origem_prevista": "sh-1791743340332"
+  },
+  {
+   "id": "im63-s60-i60-a1",
+   "slide": "60",
+   "alvo": "Apoio ao card sh-1791743340332",
+   "fontes": [
+    "slide 60"
+   ],
+   "origem_prevista": "sh-1791743340332"
+  },
+  {
+   "id": "im63-s61-i61-a1",
+   "slide": "61",
+   "alvo": "Apoio ao card sh-1791743340332",
+   "fontes": [
+    "slide 61"
    ],
    "origem_prevista": "sh-1791743340332"
   },
@@ -489,22 +633,40 @@
    "origem_prevista": "sh-1791743339860"
   },
   {
-   "id": "im63-s64-i64-a1",
+   "id": "im63-s64-i64-1",
    "slide": "64",
-   "alvo": "Apoio ao card au-fungos-il1",
+   "alvo": "IFN-γ e IL-12 induzem Th1",
    "fontes": [
     "slide 64"
    ],
-   "origem_prevista": "au-fungos-il1"
+   "origem_prevista": "sh-1791625432383"
   },
   {
-   "id": "im63-s65-i65-a1",
+   "id": "im63-s64-i64-2",
+   "slide": "64",
+   "alvo": "IL-1, IL-6 e TGF-β induzem Th17",
+   "fontes": [
+    "slide 64"
+   ],
+   "origem_prevista": "sh-1791625432733"
+  },
+  {
+   "id": "im63-s65-i65-1",
    "slide": "65",
-   "alvo": "Apoio ao card au-fungos-protecao",
+   "alvo": "MHC II apresenta antígenos exógenos ao CD4",
    "fontes": [
     "slide 65"
    ],
-   "origem_prevista": "au-fungos-protecao"
+   "origem_prevista": "sh-1791625427059"
+  },
+  {
+   "id": "im63-s65-i65-2",
+   "slide": "65",
+   "alvo": "Segundo sinal do T: B7 liga CD28",
+   "fontes": [
+    "slide 65"
+   ],
+   "origem_prevista": "sh-1791625428533"
   },
   {
    "id": "im63-s66-i66-1",
@@ -516,13 +678,13 @@
    "origem_prevista": "au-fungos-protecao"
   },
   {
-   "id": "im63-s66-i66-a1",
+   "id": "im63-s66-i66-2",
    "slide": "66",
-   "alvo": "Apoio ao card au-fungos-protecao",
+   "alvo": "IL-4 e IL-10 inibem Th1",
    "fontes": [
     "slide 66"
    ],
-   "origem_prevista": "au-fungos-protecao"
+   "origem_prevista": "sh-1791625433608"
   },
   {
    "id": "im63-s67-i67-a1",
@@ -534,13 +696,13 @@
    "origem_prevista": "au-fungos-protecao"
   },
   {
-   "id": "im63-s68-i68-a1",
+   "id": "im63-s68-i68-1",
    "slide": "68",
-   "alvo": "Apoio ao card au-fungos-protecao",
+   "alvo": "Th1 ativa macrófagos e T citotóxicos",
    "fontes": [
     "slide 68"
    ],
-   "origem_prevista": "au-fungos-protecao"
+   "origem_prevista": "sh-1791625422657"
   },
   {
    "id": "im63-s69-i69-1",
@@ -606,94 +768,193 @@
    "origem_prevista": "sh-1791625422173"
   },
   {
-   "id": "im63-s73-i73-a1",
+   "id": "im63-s72-i72-1",
+   "slide": "72",
+   "alvo": "CD8 induz apoptose por perforinas e granzimas",
+   "fontes": [
+    "slide 72"
+   ],
+   "origem_prevista": "sh-1791593462592"
+  },
+  {
+   "id": "im63-s72-i72-2",
+   "slide": "72",
+   "alvo": "CD8 induz apoptose por Fas ligante e Fas",
+   "fontes": [
+    "slide 72"
+   ],
+   "origem_prevista": "sh-1791625430882"
+  },
+  {
+   "id": "im63-s73-i73-1",
    "slide": "73",
-   "alvo": "Apoio ao card au-fungos-protecao",
+   "alvo": "Treg produz IL-10, IL-35 e TGF-β",
    "fontes": [
     "slide 73"
    ],
+   "origem_prevista": "sh-1791625435233"
+  },
+  {
+   "id": "im63-s74-i74-a1",
+   "slide": "74",
+   "alvo": "Apoio ao card au-fungos-protecao",
+   "fontes": [
+    "slide 74"
+   ],
    "origem_prevista": "au-fungos-protecao"
+  },
+  {
+   "id": "im63-s75-i75-a1",
+   "slide": "75",
+   "alvo": "Apoio ao card au-fungos-protecao",
+   "fontes": [
+    "slide 75"
+   ],
+   "origem_prevista": "au-fungos-protecao"
+  },
+  {
+   "id": "im63-s76-i76-a1",
+   "slide": "76",
+   "alvo": "Apoio ao card ak1487640151914",
+   "fontes": [
+    "slide 76"
+   ],
+   "origem_prevista": "sh-1791667094087"
+  },
+  {
+   "id": "im63-s77-i77-1",
+   "slide": "77",
+   "alvo": "Via das lectinas: manose na superfície do micróbio",
+   "fontes": [
+    "slide 77"
+   ],
+   "origem_prevista": "sh-1791667096688"
+  },
+  {
+   "id": "im63-s77-i77-2",
+   "slide": "77",
+   "alvo": "Via clássica começa em C1, ativado por IgM ou IgG",
+   "fontes": [
+    "slide 77"
+   ],
+   "origem_prevista": "sh-1791667094087"
+  },
+  {
+   "id": "im63-s78-i78-a1",
+   "slide": "78",
+   "alvo": "Apoio ao card ak1487640151914",
+   "fontes": [
+    "slide 78"
+   ],
+   "origem_prevista": "sh-1791667094087"
   },
   {
    "id": "im63-cap-l1",
    "slide": "livro",
-   "alvo": "PAMPs de fungos e lectinas tipo C",
+   "alvo": "Balanço entre patogenicidade e resposta imune",
    "fontes": [
-    "livro Apostila guia de Imuno (aula 8: fungos; aula 9: vírus) e monitoria P3 (aula 12)"
+    "livro Abbas, Imunologia Básica (cap. 2, 6 e 8); apostila guia de Imuno (aula 8); monitoria P3 (aula 12)"
    ],
-   "origem_prevista": "au-fungos-pamps"
+   "origem_prevista": "au-balanca"
   },
   {
    "id": "im63-cap-l2",
    "slide": "livro",
-   "alvo": "Treg por TLR2 prejudica a resposta antifúngica",
+   "alvo": "Reconhecimento por TLR e inflamassoma (dois sinais, IL-1β e IL-18)",
    "fontes": [
-    "livro Apostila guia de Imuno (aula 8: fungos; aula 9: vírus) e monitoria P3 (aula 12)"
+    "livro Abbas, Imunologia Básica (cap. 2, 6 e 8); apostila guia de Imuno (aula 8); monitoria P3 (aula 12)"
    ],
-   "origem_prevista": "au-fungos-protecao"
+   "origem_prevista": "au-inflam-sinais, sh-1791743339611, sh-1791743339860"
   },
   {
    "id": "im63-cap-l3",
    "slide": "livro",
-   "alvo": "Inflamassoma: IL-1β para Th17 e IL-18 para Th1",
+   "alvo": "Fungos: PAMPs de açúcar, dectina e NET",
    "fontes": [
-    "livro Apostila guia de Imuno (aula 8: fungos; aula 9: vírus) e monitoria P3 (aula 12)"
+    "livro Abbas, Imunologia Básica (cap. 2, 6 e 8); apostila guia de Imuno (aula 8); monitoria P3 (aula 12)"
    ],
-   "origem_prevista": "au-fungos-il1"
+   "origem_prevista": "au-fungos-pamps, sh-1791743340332, sh-1791743344060"
   },
   {
    "id": "im63-cap-l4",
    "slide": "livro",
-   "alvo": "TLRs, RLRs e NLRs reconhecem vírus; IFN α/β e NK",
+   "alvo": "O padrão inato decide o Th: Th1 e Th17 protegem, Th2 e Treg pioram",
    "fontes": [
-    "livro Apostila guia de Imuno (aula 8: fungos; aula 9: vírus) e monitoria P3 (aula 12)"
+    "livro Abbas, Imunologia Básica (cap. 2, 6 e 8); apostila guia de Imuno (aula 8); monitoria P3 (aula 12)"
    ],
-   "origem_prevista": "au-tlr-virus"
+   "origem_prevista": "au-fungos-il1, au-fungos-protecao, sh-1791625432383, sh-1791625432733"
   },
   {
    "id": "im63-cap-l5",
    "slide": "livro",
-   "alvo": "Escape: MHC I, MHC II, homólogos de citocinas",
+   "alvo": "Efetores contra fungos: macrófago M1, granuloma, neutrófilo e CD8",
    "fontes": [
-    "livro Apostila guia de Imuno (aula 8: fungos; aula 9: vírus) e monitoria P3 (aula 12)"
+    "livro Abbas, Imunologia Básica (cap. 2, 6 e 8); apostila guia de Imuno (aula 8); monitoria P3 (aula 12)"
    ],
-   "origem_prevista": "au-evasao-mhc"
+   "origem_prevista": "sh-1791625422657, sh-1791625434032, sh-1791625436658, sh-1791625422039, sh-1791593462592"
   },
   {
    "id": "im63-cap-l6",
    "slide": "livro",
-   "alvo": "ISGs induzidos por IFN: ação direta sobre o vírus e reprogramação metabólica",
+   "alvo": "Vírus: TLR, interferon tipo I e NK",
    "fontes": [
-    "livro Apostila guia de Imuno (aula 8: fungos; aula 9: vírus) e monitoria P3 (aula 12)"
-   ],
-   "origem_prevista": "ak1520301328706"
-  },
-  {
-   "id": "im63-prova-p1",
-   "slide": "prova",
-   "alvo": "Fatores da imunidade inata antiviral (2025 P3 2.5)",
-   "fontes": [
-    "Provas UC03 (índice imuno-11)"
+    "livro Abbas, Imunologia Básica (cap. 2, 6 e 8); apostila guia de Imuno (aula 8); monitoria P3 (aula 12)"
    ],
    "origem_prevista": "au-tlr-virus, sh-1791984890453, sh-1791984891454"
   },
   {
+   "id": "im63-cap-l7",
+   "slide": "livro",
+   "alvo": "Adaptativa antiviral: CD8 em duas etapas e anticorpos",
+   "fontes": [
+    "livro Abbas, Imunologia Básica (cap. 2, 6 e 8); apostila guia de Imuno (aula 8); monitoria P3 (aula 12)"
+   ],
+   "origem_prevista": "au-ctl-duplo, sh-1791625429957, au-ac-fab-fc"
+  },
+  {
+   "id": "im63-cap-l8",
+   "slide": "livro",
+   "alvo": "Evasão viral: MHC I, citocinas, interferon, variação antigênica",
+   "fontes": [
+    "livro Abbas, Imunologia Básica (cap. 2, 6 e 8); apostila guia de Imuno (aula 8); monitoria P3 (aula 12)"
+   ],
+   "origem_prevista": "au-evasao-mhc, au-evasao-ifn, sh-1791625435657, ak1516322271299"
+  },
+  {
+   "id": "im63-prova-p1",
+   "slide": "prova",
+   "alvo": "Papel do interferon como controle da infecção viral (2017 P3 4.2)",
+   "fontes": [
+    "Provas UC03 (imuno-12 ... 2017 P3 4.2 e termos fungo/antiviral)"
+   ],
+   "origem_prevista": "sh-1791984890453, ak1520301328706, sh-1791984890952"
+  },
+  {
    "id": "im63-prova-p2",
    "slide": "prova",
-   "alvo": "Como os vírus disparam a resposta imune e formas ativadas (2018 P3 1.7)",
+   "alvo": "Resposta inata e adaptativa a fungos: PAMP, inflamassoma, Th1 e Th17 (2018 P2 1.5 e 2.1; 2017 P2 2.8; 2016 P3 3.3)",
    "fontes": [
-    "Provas UC03 (índice imuno-11)"
+    "Provas UC03 (imuno-12 ... 2017 P3 4.2 e termos fungo/antiviral)"
    ],
-   "origem_prevista": "au-tlr-virus, sh-1792240189143"
+   "origem_prevista": "au-fungos-pamps, au-inflam-sinais, au-fungos-il1, au-fungos-protecao"
   },
   {
    "id": "im63-prova-p3",
    "slide": "prova",
-   "alvo": "Interferon como medida de controle (2017 P3 4.2)",
+   "alvo": "Resposta antiviral: reconhecimento, interferon, CD8 e anticorpos (2018 P3 1.7 e 5.3; 2017 P3 1.6)",
    "fontes": [
-    "Provas UC03 (índice imuno-11)"
+    "Provas UC03 (imuno-12 ... 2017 P3 4.2 e termos fungo/antiviral)"
    ],
-   "origem_prevista": "sh-1791984890453"
+   "origem_prevista": "au-tlr-virus, sh-1791984890453, au-ctl-duplo, au-ac-fab-fc"
+  },
+  {
+   "id": "im63-prova-p4",
+   "slide": "prova",
+   "alvo": "Evasão viral e variação do influenza (2017 P3 4.3; 2018 P3 5.4 e 5.5)",
+   "fontes": [
+    "Provas UC03 (imuno-12 ... 2017 P3 4.2 e termos fungo/antiviral)"
+   ],
+   "origem_prevista": "au-evasao-mhc, au-evasao-ifn, ak1516322271299"
   }
  ],
  "fontes": {
@@ -703,15 +964,15 @@
   },
   "bibliografia": {
    "estado": "consultada",
-   "contribuicao": "Resposta e evasão; Confirma interferons e NK"
+   "contribuicao": "Interferons, NK, inflamassoma, Th1, Th17, CTL, anticorpos e complemento"
   },
   "caoc": {
    "estado": "não localizada",
    "contribuicao": "nenhum"
   },
   "youtube": {
-   "estado": "não aplicável",
-   "contribuicao": "nenhum"
+   "estado": "consultada",
+   "contribuicao": "Th1, Th17, Treg e CD8; TLR, NF-κB, interferons e NK"
   },
   "veteranos": {
    "estado": "consultada",
@@ -719,7 +980,7 @@
   },
   "provas": {
    "estado": "consultada",
-   "contribuicao": "Imunidade inata antiviral, interferon"
+   "contribuicao": "Papel do interferon; Calibragem de fungos, resposta antiviral e evasão"
   },
   "exercicios": {
    "estado": "consultada",

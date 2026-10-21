@@ -1,92 +1,76 @@
-000 au-balanca | Autora | VsVs | Slide 2
+000 au-balanca | Autora | VsVs | Slide 42
     F: The outcome of an infection is the balance between pathogen [pathogenicity] and host immune [response]
-    V: - An exaggerated response can itself damage tissue, as in hepatitis B / - Pathogens survive by evading the immune response
+    V: - An exaggerated response can itself damage tissue, as in hepatitis, where the immune response injures hepatocytes / - Pathogens survive by evading the immune response
     IMG: —
-001 ak1461792762468 | AnKing | VsVs | Slide 13
-    F: [Interferons] are immunomodulatory [cytokines] that are released from virus-infected host cells /
-    V: - They signal neighboring cells to resist viral replication
+001 au-inflam-sinais | Autora | VsVsVs | Slide 52
+    F: Inflammasome: / - signal 1: [NF-κB] makes pro-IL-1β / - signal 2: [ATP] or K+ efflux assembles it / - [caspase-1] makes active IL-1β /
+    V: - IL-1β is made as an inactive precursor and must be cleaved / - The same pathway releases active IL-18
     IMG: —
-002 au-tlr-virus | Autora | VsVs | Slide 14
-    F: Viral nucleic acids are sensed by [TLR3] (dsRNA), [TLR7 and TLR8] (ssRNA) and [TLR9] (CpG DNA)
-    V: - Cytosolic RNA sensors, such as RIG-I, and NLRs also detect viruses
-    IMG: —
-003 ak1520301328706 | AnKing | As | Slide 17
-    F: Type I interferons downregulate [protein synthesis] to resist potential viral replication
-    V: - Less protein synthesis in the cell means less viral protein
-    IMG: —
-004 ak1461794583601 | AnKing | Vs | Slide 17
-    F: Upregulation of interferon synthesis in infected cells is accomplished by [interleukins] /
-    V: - Interleukins such as IL-1 and TNF amplify the interferon response
-    IMG: —
-005 ak1497450277629 | AnKing | Ps | Slide 17
-    F: Upon cytosolic recognition of viral [dsRNA], enzymes upregulated by IFN-α/IFN-β presensitization lead to apoptosis of the virus infected cell /
-    V: - Enzymes such as PKR and RNase L stop translation and trigger apoptosis
-    IMG: —
-006 au-evasao-mhc | Autora | VsVs | Slide 25
-    F: Viruses lower MHC I by blocking the [proteasome], [TAP] or MHC I export from the [ER]
-    V: - HSV blocks TAP with ICP47; CMV also lowers MHC I / - Low MHC I protects from CD8 cells but exposes the cell to NK cells
-    IMG: —
-007 ak1503876244084 | AnKing | Vs | Slide 25
-    F: Which herpesvirus inhibits expression of MHC I in infected cells? / / [CMV] /
-    V: Therefore inhibits killing by CD8+ cytotoxic T-cells
-    IMG: —
-008 ak1503876156644 | AnKing | As | Slide 25
-    F: CMV infects white blood cells and blocks expression of [MHC I], inhibiting cytotoxic T-cell killing
-    V: - Without MHC I on the surface, CD8 cells cannot recognize the infected cell
-    IMG: —
-009 au-evasao-citocinas | Autora | AsAs | Slide 27
-    F: EBV makes a homolog of [IL-10], and some viruses secrete soluble [decoy] receptors for cytokines
-    V: - IL-10 lowers the function of lymphocytes, dendritic cells and macrophages
-    IMG: —
-010 ak1506805786448 | AnKing | As | Slide 28
-    F: HIV infects CD4+ helper T-cells, macrophages, and [dendritic cells]
-    V: - Losing CD4 cells removes the help that CD8 cells and B cells need
-    IMG: —
-011 ak1516321589458 | AnKing | Vs | Slide 29
-    F: Antigenic variation of influenza viruses occurs with changes to viral [hemagglutinin (HA)] and [neuraminidase (NA)]
-    V: - This is also how influenza viruses are named / / - Antigenic shifts: exchange of RNA segments between humans and animals → radically new HA or NA types → pandemics / - Antigenic 
-    IMG: 350b8ed063c11cbc75773490
-012 ak1516323168130 | AnKing | Vs | Slide 29
-    F: Antigenic shift is associated with [pan]demics /
-    V: - Pandemics span over continents/worldwide / / - HA and NA undergo antigenic variation which allow for outbreaks resistant to previous vaccination / - Influenza viruses are named b
-    IMG: —
-013 ak1516322271299 | AnKing | VsVs | Slide 30
-    F: Antigenic variation can be due to antigenic [drift] or antigenic [shift]
-    V: - Antigenic shifts: exchange of RNA segments between humans and animals → radically new HA or NA types → pandemics / / / - Antigenic drifts: spontaneous mutations → slightly altere
-    IMG: 350b8ed063c11cbc75773490
-014 ak1516322855117 | AnKing | VsVs | Slide 31
-    F: Antigenic [drift] occurs when there are [point mutations] in hemagglutinin or neuraminidase
-    V: - Antigenic drifts: spontaneous mutations → slightly altered HA or NA types → epidemics / - Antigenic shifts: exchange of RNA segments between humans and animals → radically new HA
-    IMG: 350b8ed063c11cbc75773490
-015 ak1516323022237 | AnKing | Vs | Slide 31
-    F: Antigenic drift is associated with [epi]demics /
-    V: - Large spread within a given population (disease outbreaks limited to one area) / / / - HA and NA undergo antigenic variation which allow for outbreaks resistant to previous vacci
-    IMG: —
-016 ak1520087988222 | AnKing | Vs | Slide 31
-    F: Dengue fever has [4] different serotypes
-    V: ssRNA from flaviviridae family /
-    IMG: —
-017 ak1520088551261 | AnKing | Ps | Slide 31
-    F: [Secondary] infection with dengue fever is associated with severe illness
-    V: Due to infection with a different viral serotype (4 total serotypes) /
-    IMG: —
-018 au-fungos-tipos | Autora | AsAs | Slide 55
-    F: Fungi: / - opportunistic: [Aspergillus], [Cryptococcus], [Pneumocystis] / - primary: [Histoplasma], [Blastomyces], [Paracoccidioides] /
-    V: - Opportunists cause disease in immunosuppressed people; primary fungi also in people with no apparent immunodeficiency / - Coccidioides is also primary
-    IMG: —
-019 au-fungos-pamps | Autora | VsVs | Slide 58
+002 au-fungos-pamps | Autora | VsVs | Slide 58
     F: The fungal wall is rich in sugars, such as [β-glucan] and mannans, that act as [PAMPs]
-    V: - C-type lectin receptors recognize them, with help from TLRs
+    V: - C-type lectin receptors recognize them, with help from TLRs / - Several receptors recognize different molecules of the same fungus
     IMG: —
-020 au-fungos-il1 | Autora | AsAs | Slide 63
+003 au-fungos-il1 | Autora | AsAs | Slide 63
     F: Fungi activate NLRP3, and IL-1β drives [Th17] while IL-18 drives [Th1]
-    V: - Innate recognition dictates the pattern of adaptive immunity
+    V: - Innate recognition dictates the pattern of adaptive immunity / - IL-12 from the antigen-presenting cell also induces Th1
     IMG: —
-021 au-fungos-protecao | Autora | VsVs | Slide 66
+004 au-fungos-protecao | Autora | VsVs | Slide 66
     F: Th1 and Th17 responses protect against fungi, whereas [Th2] and [Treg] responses make the disease worse
     V: - TLR2 signaling favors Treg, which is deleterious in fungal infection / - Exception: in Pneumocystis a Th2 response may protect
     IMG: —
-022 ak1503254160003 | AnKing | Vs | Slide 70
+005 ak1503254160003 | AnKing | Vs | Slide 70
     F: Inhibition of [TNF-α] (e.g., immunosuppression, drugs) results in lack of granuloma formation and resultant reactivation of tuberculosis
     V: - Individuals who are to be started on a TNF-α inhibitor (e.g., infliximab) should receive a PPD test / / - Lack of TNF-α = lack of granuloma = lack of containment of tuberculosis 
     IMG: a2f815940023792a9b2b0b62
+006 ak1461792762468 | AnKing | VsVs | Slide 13
+    F: [Interferons] are immunomodulatory [cytokines] that are released from virus-infected host cells /
+    V: - Interferons signal neighboring cells to resist viral replication
+    IMG: —
+007 au-tlr-virus | Autora | VsVs | Slide 14
+    F: Viral nucleic acids are sensed by [TLR3] (dsRNA), [TLR7 and TLR8] (ssRNA) and [TLR9] (CpG DNA)
+    V: - Cytosolic RNA sensors, such as RIG-I, and NLRs also detect viruses
+    IMG: —
+008 ak1520301328706 | AnKing | As | Slide 17
+    F: Type I interferons downregulate [protein synthesis] to resist potential viral replication
+    V: - Less protein synthesis in the cell means less viral protein
+    IMG: —
+009 ak1497450277629 | AnKing | Ps | Slide 17
+    F: Upon cytosolic recognition of viral [dsRNA], enzymes upregulated by IFN-α/IFN-β presensitization lead to apoptosis of the virus infected cell /
+    V: - Enzymes such as PKR and RNase L stop translation and trigger apoptosis
+    IMG: —
+010 au-ac-fab-fc | Autora | AsAsAs | Slide 19
+    F: Antibodies protect against viruses by [neutralization] (Fab) and, through Fc, by [ADCC] and [complement]
+    V: - IgA and IgG neutralize the virus before it enters the cell / - Fc also allows opsonization, which matters less for viruses
+    IMG: —
+011 au-ctl-duplo | Autora | VsVs | Slide 21
+    F: A CD8 T cell primed by a [dendritic] cell must find the peptide on [MHC I] of the infected cell
+    V: - CD4 help and cross-presentation prime the CD8 cell / - Then it releases perforin, granzyme and Fas ligand and survives to kill again
+    IMG: —
+012 au-evasao-mhc | Autora | AsAs | Slide 25
+    F: Viruses lower MHC I by blocking the [proteasome], [TAP] or MHC I export from the [ER]
+    V: - HSV blocks TAP with ICP47; CMV also lowers MHC I / - Low MHC I protects from CD8 cells but exposes the cell to NK cells
+    IMG: —
+013 ak1503876156644 | AnKing | As | Slide 25
+    F: CMV infects white blood cells and blocks expression of [MHC I], inhibiting cytotoxic T-cell killing
+    V: - Without MHC I on the surface, CD8 cells cannot recognize the infected cell
+    IMG: —
+014 au-evasao-ifn | Autora | AsAs | Slide 27
+    F: HCV blocks interferon signaling through [PKR], and SARS-CoV-2 lowers [IFN α/β] production
+    V: - IFN α/β is the main early antiviral cytokine / - Lower IFN α/β has been linked to more severe COVID-19
+    IMG: —
+015 ak1506805786448 | AnKing | As | Slide 28
+    F: HIV infects CD4+ helper T-cells, macrophages, and [dendritic cells]
+    V: - Losing CD4 cells removes the help that CD8 cells and B cells need
+    IMG: —
+016 ak1516321589458 | AnKing | Vs | Slide 29
+    F: Antigenic variation of influenza viruses occurs with changes to viral [hemagglutinin (HA)] and [neuraminidase (NA)]
+    V: - This is also how influenza viruses are named / / - Antigenic shifts: exchange of RNA segments between humans and animals → radically new HA or NA types → pandemics / - Antigenic 
+    IMG: 350b8ed063c11cbc75773490
+017 ak1516322271299 | AnKing | VsVs | Slide 30
+    F: Antigenic variation can be due to antigenic [drift] or antigenic [shift]
+    V: - Antigenic shifts: exchange of RNA segments between humans and animals → radically new HA or NA types → pandemics / / / - Antigenic drifts: spontaneous mutations → slightly altere
+    IMG: 350b8ed063c11cbc75773490
+018 ak1516322855117 | AnKing | VsVs | Slide 31
+    F: Antigenic [drift] occurs when there are [point mutations] in hemagglutinin or neuraminidase
+    V: - Antigenic drifts: spontaneous mutations → slightly altered HA or NA types → epidemics / - Antigenic shifts: exchange of RNA segments between humans and animals → radically new HA
+    IMG: 350b8ed063c11cbc75773490

@@ -134,6 +134,7 @@ for _c in CARDS:
 finalizar(CARDS, HERE, BUSCA)
 
 VERSO = {
+ "ak1461792762468": "- Interferons signal neighboring cells to resist viral replication",
  "ak1487640050564": "- TLR signaling is the first signal that makes the cell produce pro-IL-1β and other cytokines",
  "ak1520715624658": "- It senses microbial products, dead-cell products and crystals",
  "ak1487116831797": "- The antigen-presenting cell phagocytoses the fungus, processes it in the endosome and loads MHC II",
