@@ -200,3 +200,7 @@ P1: rd02 Diagnóstico radiológico · pt03 Diagnóstico patológico · rd04 Radi
 - Micoses subcutâneas: cards de imagem G8 (linfocutânea, corpos escleróticos) exigem recortar lâminas, se Davi quiser.
 - 113 comentários antigos aparecem como “pendentes” no canal por causa de marcadores CORRIGIDO antigos.
 - Ideias de melhoria de 11/10 (add-on de um clique, estudo autorais × AnKing, pesquisa de ciência cognitiva para o Tab): `arquivo/2026-10-13-reorganizacao/PLANO-MELHORIAS-2026-10-11.md`; executar só sob pedido.
+
+## 21/10 (noite) — UC19-02 Farmacocinética I entregue (Claude)
+`arquivos-trabalho/deck-aula-uc19-fc02-farmacocinetica-i-2026-10-21`: 103 cards (verde 64 · azul 30 · rosa 9), suspensa, gates 83/83, slides no Drive pessoal. Autoral ≈29% com `AUTORAL_EXCECAO` (aula quantitativa). Figuras dos slides não vistas (sem conversor). UC19 03–06 sem material.
+**Em andamento:** UC08-BC10 (Fígado, pâncreas e embriologia do digestório) aberta em `arquivos-trabalho/deck-aula-uc08-bc10-figado-pancreas-embriologia-2026-10-21` (92 lâminas lidas; Langman cap. do trato digestório como bibliografia); falta escopo, spec e instalação. Antes: reler EXEMPLARES/ANTI-EXEMPLARES (Davi pediu).
