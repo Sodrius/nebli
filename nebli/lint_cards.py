@@ -33,6 +33,7 @@ MAX_EXTRA_HARD = 51     # p90
 PT = re.compile(r"\b(que|não|são|está|pelo|pela|uma|um|dos|das|com|para|da|de|na|em|é|e|o|os|ao|tem|células?)\b", re.I)
 EN = re.compile(r"\b(the|of|and|is|which|with|to|in|by|a|an)\b", re.I)
 CLOZE = re.compile(r"\{\{c(\d+)::(.*?)(?:::.*?)?\}\}", re.S)
+VAZIAS = {"this", "that", "with", "from", "into", "they", "their", "them", "have", "only", "also", "when", "which", "where", "while", "more", "most", "than", "each", "both"}
 GENERICOS = {"encode", "encodes", "toxic", "dna", "rna", "protein", "proteins", "virus", "viruses", "cell", "cells", "host", "enzyme",
              "enzymes", "step", "steps", "their own", "own", "process", "function", "structure", "change", "molecule"}
 
@@ -95,6 +96,11 @@ def check(key, text_html, extra_html=""):
     genericos = [a for a in (plain(m.group(2)).lower().strip(" .") for m in CLOZE.finditer(text_html)) if a in GENERICOS]
     if genericos:
         problems.append(("dura", f"cloze em palavra genérica ({', '.join(genericos)}): esconder o termo específico que se decora"))
+    # F-20261022-CLAUDE-08: verso autoral tem de ensinar algo além da frente, não repeti-la
+    palavras = lambda t: {w for w in re.findall(r"[a-z][a-z'-]{3,}", t.lower()) if w not in VAZIAS}
+    ext, fre = palavras(extra), palavras(text)
+    if len(ext) >= 3 and len(ext & fre) / len(ext) >= 0.7:
+        problems.append(("dura", "Extra repete a frente: o verso tem de trazer o porquê, a consequência ou o contraste"))
     if re.search(r"\b(whereas|while|but)\b.*\{\{c\d+::", text_html) and len(clozes) >= 2:
         problems.append(("aviso", "contraste com 2+ clozes: conferir se não são dois cards"))
         # F-20261015-CLAUDE-05 (onicomicose: “já pontuei 300 cards nesse estilo, que são ruins”): par complementar em

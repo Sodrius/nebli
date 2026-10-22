@@ -84,3 +84,13 @@ class LintCardsTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CausalExtraTest(unittest.TestCase):
+    def test_extra_must_teach_why(self):
+        from nebli import lint_cards as l
+        bad = l.check("k", "<b>Adenovirus</b> uses a terminal protein {{c1::<b>primer</b>}} linked to dCMP", "- Adenovirus uses a terminal protein primer")
+        self.assertTrue(any("repete a frente" in p for _, p in bad))
+        good = l.check("k", "<b>Adenovirus</b> uses a terminal protein {{c1::<b>primer</b>}} linked to dCMP", "- No 5' gap is left, so the genome is never shortened")
+        self.assertFalse(any("repete a frente" in p for _, p in good))
+
