@@ -320,6 +320,39 @@
     }
    ],
    "teste": "teste_gates: manifesto vazio e card ativo sem evidência reprovam; após aplicação o estado vivo é comparado por card ID"
+  },
+  {
+   "id": "F-20261022-CLAUDE-09",
+   "data": "22/10/2026",
+   "literal": "o problema maior é falta de estruturas com card, falta de cards anking, falta de cobertura da aula como um todo / se baseia na apostila e volta complementando os decks com os detalhes que faltam / preferência para anking + kenhub / quero que o deck seja completo e siga uma linha de raciocínio / quero anking + kenhub nesses decks + bandeira de forma correta + consertar os ankihubs que vieram zuados",
+   "regra": "Deck por aula do cronograma em seções na ordem da aula (plano em nebli/uc07_aula.py): todo termo do texto da apostila/transcrição com card; Kenhub e AnKing traduzido antes de autoral (autoral com busca e motivo); toda carta com bandeira, uma verde por estrutura; AnKing traduzido com a figura do próprio AnKing ou escolha registrada; o que não é da aula vai para a aula certa ou é retirado (suspenso, etiquetado, Reserva).",
+   "gates": [
+    {
+     "codigo": "[termo-sem-card]",
+     "arquivo": "nebli/uc07_aula.py"
+    },
+    {
+     "codigo": "[bandeira]",
+     "arquivo": "nebli/uc07_aula.py"
+    },
+    {
+     "codigo": "[verde-única]",
+     "arquivo": "nebli/uc07_aula.py"
+    },
+    {
+     "codigo": "[figura-ankihub]",
+     "arquivo": "nebli/uc07_aula.py"
+    },
+    {
+     "codigo": "GATE plano-cobre-tudo",
+     "arquivo": "nebli/uc07_aula.py"
+    },
+    {
+     "codigo": "G2 verso sem a figura com o rótulo",
+     "arquivo": "nebli/kenhub/render.py"
+    }
+   ],
+   "teste": "nebli/tests/test_uc07_aula.py: autoral sem busca/negrito/figura, lacuna genérica, verso repetido, duas verdes, plano vazio e termo sem card reprovam"
   }
  ]
 }

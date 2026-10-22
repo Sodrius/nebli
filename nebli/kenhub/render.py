@@ -95,6 +95,7 @@ def renderizar(consulta: str, saida: Path, nids_esperados):
             mod = c["modelName"]
             css.setdefault(mod, _anki("modelStyling", modelName=mod)["css"])
             io = mod == modelo.NOME
+            ref = mod == "NEBLI Kenhub Referência v1"
             f = c["fields"]
             fonte = f.get("Fonte", {}).get("value", "")
             pergunta = f.get("Pergunta", {}).get("value", "").strip() if io else ""
@@ -137,9 +138,12 @@ def renderizar(consulta: str, saida: Path, nids_esperados):
                                 reg["falhas"].append(f"G2 nome em cima com seta apontando ({tela}) — o nome fica só na figura")
                             if not pergunta and m["sobre"] < 1:
                                 reg["falhas"].append(f"G11 verso sem a figura com o nome no lugar da pergunta ({tela})")
+                    elif ref:  # Referência Kenhub: a resposta é o rótulo na figura do verso (F-20261022-CLAUDE-09)
+                        if lado == "answer" and not any(i["ok"] and i["visivel"] and "-back" in i["src"] for i in m["imgs"]):
+                            reg["falhas"].append(f"G2 verso sem a figura com o rótulo ({tela})")
                     elif lado == "answer" and (not m["cloze"] or m["cloze"]["bottom"] > m["vh"]):
                         reg["falhas"].append(f"G2 lacuna revelada ausente ou fora da primeira tela ({tela})")
-            if io and fonte == "Kenhub":
+            if (io or ref) and fonte == "Kenhub":
                 for tela in TELAS:
                     a = _verde(np.asarray(Image.open(fotos[(tela, "answer")]).convert("RGB")))
                     qv = _verde(np.asarray(Image.open(fotos[(tela, "question")]).convert("RGB")))
