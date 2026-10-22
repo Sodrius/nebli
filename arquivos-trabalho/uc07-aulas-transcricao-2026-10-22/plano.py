@@ -187,7 +187,7 @@ A02 = {
             KH(1792328824811, "verde", "sulco-mediano-posterior"),
             KH(1792328855780, "verde", "sulco-anterolateral"),
             KH(1792328860896, "verde", "sulco-posterolateral"),
-            KH(1792328858194, "azul", "sulco-intermedio-posterior"),
+            KH(1792328858194, "azul", "sulco-intermedio-posterior", nome_pt="Sulco intermédio posterior da medula espinal"),
             KH(1792328935668, "azul"),
             AU("med-funiculos", "verde",
                "<b>Funículos</b> da substância branca: 1. funículo {{c1::anterior}}: da fissura mediana anterior ao sulco lateral anterior 2. funículo {{c2::lateral}}: entre os sulcos laterais 3. funículo {{c3::posterior}}: do sulco lateral posterior ao sulco mediano posterior",
@@ -199,7 +199,7 @@ A02 = {
             AS(1792572870641), AS(1792572870640),
         ]),
         ("Nervos espinais: raízes, gânglio e arco reflexo", [
-            KH(1792328863217, "verde", "radiculas"),
+            KH(1792328863217, "verde", "radiculas", nome_pt="Filamentos radiculares do nervo espinal"),
             KH(1792328932797, "azul"),
             KH(1792328934711, "azul"),
             KH(1792264998014, "verde", "raiz-anterior"),
@@ -309,7 +309,7 @@ A03 = {
                IMG(1792261734342), TRO),
             K(1792244862143, "azul", "forame-magno"),
             KH(1792332218601, "azul"),
-            KH(1792244771792, "verde", "piramides"),
+            KH(1792244771792, "verde", "piramides", nome_pt="Pirâmide do bulbo"),
             AU("tr-piramides", "verde",
                "As <b>pirâmides</b> do bulbo são formadas pelo trato {{c1::corticoespinal}}, que leva comandos motores do córtex à medula",
                "- Ficam ao lado da fissura mediana anterior: achar a fissura é achar as pirâmides",
@@ -320,13 +320,13 @@ A03 = {
                "Pela <b>decussação das pirâmides</b>, uma lesão motora alta no lado direito do encéfalo causa fraqueza no lado {{c1::esquerdo}}",
                "- As fibras motoras cruzam a linha média na parte baixa do bulbo, antes de descer pela medula",
                "kh-pyramidal-decussation.jpg", TRO),
-            KH(1792244773770, "azul", "sulco-pre-olivar"),
-            KH(1792244775742, "azul", "sulco-retro-olivar"),
+            KH(1792244773770, "azul", "sulco-pre-olivar", nome_pt="Sulco lateral anterior do bulbo"),
+            KH(1792244775742, "azul", "sulco-retro-olivar", nome_pt="Sulco lateral posterior do bulbo"),
             AU("tr-sulcos-bulbo", "azul",
                "No <b>bulbo</b>, o sulco lateral anterior também se chama sulco {{c1::pré-olivar}}, e o lateral posterior, sulco {{c2::retro-olivar}}",
                "- São os mesmos sulcos laterais da medula; no bulbo a oliva fica entre eles",
                IMG(1792244773770), "apostila guia (sulco lateral anterior/posterior) × Kenhub (pré/retro-olivar): o card liga os nomes"),
-            K(1792572870655, "verde", "oliva"),
+            K(1792572870655, "verde", "oliva", nome_pt="Núcleo olivar (oliva)"),
             KH(1792332219100, "azul", img=IMG(1792244773770)),
             AU("tr-nc-bulbo", "verde",
                "Do sulco lateral <u>anterior</u> do <b>bulbo</b> sai o nervo {{c1::XII}}; do sulco lateral <u>posterior</u>, os nervos {{c2::IX, X e XI}}",
@@ -366,7 +366,7 @@ A03 = {
                "O <b>quarto ventrículo</b> continua para cima com o {{c1::aqueduto cerebral}} (até o III ventrículo) e para baixo com o {{c2::canal central}} do bulbo e da medula",
                "- As cavidades do SNC são contínuas e todas contêm líquor",
                IMG(1792338033014), TRO),
-            KH(1792338033014, "verde", "aqueduto"),
+            KH(1792338033014, "verde", "aqueduto", nome_pt="Aqueduto cerebral"),
             K(1792588686980, "azul"),
             KH(1792440397044, "azul", "recesso-lateral"),
             KH(1792446784067, "azul", "abertura-lateral"),
@@ -453,8 +453,8 @@ A03 = {
         ("Outros marcos já estudados e cortes do tronco", [
             K(1792258811404, "rosa"),
             K(1792258825530, "rosa"),
-            K(1792244863022, "azul"), K(1792244863368, "azul"), K(1792244864091, "azul"),
-            K(1792244863743, "azul"), K(1792244864518, "azul"), K(1792244864867, "azul"),
+            K(1792244863022, "azul", nome_pt="Porção fechada do bulbo (metade caudal)"), K(1792244863368, "azul", nome_pt="Porção aberta do bulbo (metade rostral)"), K(1792244864091, "azul", nome_pt="Ponte (metade caudal)"),
+            K(1792244863743, "azul", nome_pt="Ponte (metade rostral)"), K(1792244864518, "azul", nome_pt="Mesencéfalo (metade caudal)"), K(1792244864867, "azul", nome_pt="Mesencéfalo (metade rostral)"),
         ]),
     ],
     "mover": [MOV(1792244858168, "06 ", "27-10-diencefalo"), MOV(1792258845028, "06 ", "27-10-diencefalo"),
@@ -761,4 +761,11 @@ A05 = {
     ],
 }
 
+_F = ["arquivos-trabalho/uc07-profundidade-2026-10-22/fontes/Co-pia-de-UC07-Apostila-Guia-de-Neuroanatomia-pdf.txt",
+      "arquivos-trabalho/uc07-fontes-veteranos-2026-10-19/apostila-neuroanato-veteranos-ocr.txt",
+      "arquivos-trabalho/uc07-profundidade-2026-10-22/fontes/Base-do-ence-falo-aula-pra-tica-pdf.txt"]
+_T = "Aulas UC07/transcricoes/MSP2061 - {} .txt"
+for _a, _t in ((A02, "04 - Topografia da Medula Espinhal (2)"), (A03, "01 - Topografia do Tronco Cerebral (1)"),
+               (A04, "02 - Topografia do Nervos Cranianos (1)"), (A05, "03 - Topografia do Cerebelo (1)")):
+    _a["fontes_texto"] = _F + [_T.format(_t).replace(" .txt", ".txt")]
 AULAS = {"02": A02, "03": A03, "04": A04, "05": A05}

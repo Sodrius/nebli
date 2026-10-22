@@ -252,6 +252,31 @@ def _nota_nova(A, e, deck, tag, run):
             "options": {"allowDuplicate": True}}
 
 
+def _renomear(A, campos, nome):
+    """Troca o Nome PT; numa nota de estrutura do Kenhub com o nome desenhado na figura, regera seta e rótulo (frente e verso)."""
+    import base64
+    import hashlib
+    from PIL import Image
+    from nebli.kenhub import mascara
+    novos = {"Nome PT": nome}
+    antigo = re.sub(r"<[^>]+>", "", campos.get("Nome PT", "")).strip()
+    sin = [s.strip() for s in campos.get("Sinonimos", "").split(";") if s.strip()]
+    if antigo and antigo not in sin and "Sinonimos" in campos:
+        novos["Sinonimos"] = "; ".join([antigo] + sin)
+    if not imagens(campos.get("MascaraR", "")):
+        return novos
+    base = imagens(campos.get("Imagem", ""))[0]
+    pasta = Path(A("getMediaDirPath"))
+    m = mascara.regiao(str(pasta / base))
+    q, r, _ = mascara.overlays(Image.open(pasta / base).size, m, nome, cobrir=False)
+    h = hashlib.sha1(nome.encode()).hexdigest()[:8]
+    for lado, dado in (("Q", q), ("R", r)):
+        arq = f"u7-{Path(base).stem}-{lado}-{h}.png"
+        A("storeMediaFile", filename=arq, data=base64.b64encode(dado).decode())
+        novos["MascaraP" if lado == "Q" else "MascaraR"] = f'<img src="{arq}">'
+    return novos
+
+
 def aplicar(caminho, chave, aplicar_de_fato=False):
     from nebli.decks import escrita, em_tela
     from nebli.rotulos import canonical
@@ -325,6 +350,8 @@ def aplicar(caminho, chave, aplicar_de_fato=False):
             if o["tipo"] in ("au", "ak") and o["acao"] == "atualizar":  # o plano é a fonte dos autorais e das traduções
                 alvo = _nota_nova(A, o, deck, tag, run)["fields"]
                 novos.update({k: v for k, v in alvo.items() if k in ("Text", "Extra") and v != campos.get(k)})
+            if o.get("nome_pt") and campos.get("Nome PT") != o["nome_pt"]:  # F-20261022-CLAUDE-10: nome oficial da aula
+                novos.update(_renomear(A, campos, o["nome_pt"]))
             if o.get("resposta"):
                 coment = campos.get("NEBLI_Comentario", "")
                 if "CORRIGIDO 22/10/26" not in coment:
@@ -413,6 +440,13 @@ def gates(caminho, chave):
     assoc |= set(A("findNotes", query=f'"tag:NEBLI::uc07::assoc::{tag}"'))
     for n in A("notesInfo", notes=sorted(assoc)) if assoc else []:
         textos.append(norm(" ".join(_campos(n).get(k, "") for k in ("Text", "Nome PT", "Sinonimos"))))
+    if aula.get("fontes_texto"):  # F-20261022-CLAUDE-10: nome de estrutura = nome da aula ou de livro brasileiro (Kenhub não atesta)
+        from nebli import nomenclatura
+        corpus = [Path(f).expanduser().read_text(errors="ignore") for f in aula["fontes_texto"]]
+        nomes = [(str(nid), re.sub(r"<[^>]+>", "", _campos(n).get("Nome PT", "")).strip(),
+                  [s.strip() for s in re.split(r"[;,]", re.sub(r"<[^>]+>", "", _campos(n).get("Sinonimos", ""))) if s.strip()])
+                 for nid, n in vivas.items() if _campos(n).get("Nome PT")]
+        p += nomenclatura.conferir(nomes, corpus)
     falta = checar_termos(aula.get("termos", []), textos)
     p += [f"[termo-sem-card] {t}" for t in falta]
     return p

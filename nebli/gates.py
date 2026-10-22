@@ -880,6 +880,19 @@ def compreensao_aula(run, plan):
              "deck nos blocos, exemplo depois do princípio" + (f"; {'; '.join(probs[:5])}" if probs else ""), not probs)]
 
 
+
+def nomenclatura_oficial(run, plan):
+    """F-20261022-CLAUDE-10: deck de anatomia confere se o nome de cada estrutura bate com a nomenclatura oficial (nome da aula ou de
+    livro brasileiro; Kenhub não atesta). Correção no spec: NOMENCLATURA = {nome do deck: nome da aula} (vira fields_override)."""
+    from nebli import nomenclatura
+    if "anatomia" not in (plan.get("deck", "") + plan.get("lesson_id", "")).lower():
+        return []
+    nomes = nomenclatura.nomes_do_plano(plan.get("entries", []))
+    textos = [f.read_text(errors="ignore") for pat in ("fontes/*.txt", "fontes/transcricao*") for f in sorted(run.glob(pat))]
+    probs = nomenclatura.conferir(nomes, textos) if textos else ["[nomenclatura] sem texto da aula em fontes/ (gate nunca passa no vazio)"]
+    return [(f"nomenclatura oficial em {len(nomes)} nomes de estrutura (aula ou livro brasileiro)"
+             + (f": {len(probs)} fora — " + "; ".join(probs[:4]) if probs else ""), not probs)]
+
 def fidelidade_ao_slide(run, plan):
     """F-20261022-CLAUDE-06: ao fechar o deck, revisar se ele bate em ordem e conteúdo com o slide — bloco a bloco, o que o professor
     ensina tem card, nada fora da aula entrou e nenhum exemplo virou carro-chefe. `compreensao-aula.json` › `fidelidade`."""
@@ -921,6 +934,7 @@ def plan_checks(run, plan):
         out += autorais_com_motivo(run, plan)  # F-20261022-CLAUDE-04
         if _novo_06(run, plan):
             out += compreensao_aula(run, plan)  # F-20261022-CLAUDE-06
+        out += nomenclatura_oficial(run, plan)  # F-20261022-CLAUDE-10
     else:
         out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
     if "biologia-tecidual" in plan.get("lesson_id", ""):  # F-20261003-CLAUDE-13: aprender, não visualizar em excesso

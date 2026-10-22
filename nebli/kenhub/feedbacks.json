@@ -353,6 +353,23 @@
     }
    ],
    "teste": "nebli/tests/test_uc07_aula.py: autoral sem busca/negrito/figura, lacuna genérica, verso repetido, duas verdes, plano vazio e termo sem card reprovam"
+  },
+  {
+   "id": "F-20261022-CLAUDE-10",
+   "data": "22/10/2026",
+   "literal": "gate-hard: deck de anatomia sempre checar se a nomenclatura oficial está batendo com a do deck",
+   "regra": "Nome de estrutura no deck = nome da aula ou de livro brasileiro (Moore, Gray, Machado); Kenhub não atesta; grafia da aula prevalece.",
+   "gates": [
+    {
+     "codigo": "[nomenclatura]",
+     "arquivo": "nebli/nomenclatura.py"
+    },
+    {
+     "codigo": "def nomenclatura_oficial",
+     "arquivo": "nebli/gates.py"
+    }
+   ],
+   "teste": "nebli/tests/test_nomenclatura.py: sinônimo do Kenhub quando a aula usa outro nome, nome inventado e qualificador de Portugal reprovam"
   }
  ]
 }

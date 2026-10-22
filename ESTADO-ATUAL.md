@@ -111,6 +111,7 @@ Ao concluir cada deck: atualizar **Retomar aqui**, **Quem está com o quê**, a 
 
 | Executor | Trabalho | Estado |
 |---|---|---|
+| Claude | UC08 Anatomia 11 Fígado, pâncreas e vias biliares (Kenhub + AnKing; gate de nomenclatura oficial) | **EM ANDAMENTO 22/10** |
 | Claude | UC07 — aulas com transcrição (02 Medula, 03 Tronco, 04 Nervos cranianos, 05 Cerebelo) refeitas por aula, AnKing + Kenhub, comentários e AnKing traduzidos consertados (F-20261022-CLAUDE-09); demais aulas ficam | **ENTREGUE 22/10** (gates e render ok) |
 | Codex | Recura UC07 por aula + separação do corpus Kenhub para Referências Externas | **CONCLUÍDO E AUDITADO 21/10:** 2.282 originais/2.325 cards, 51 unidades, na Referência Kenhub; UC07 com 366 notas/394 cards em 13 aulas (90 V/292 A/12 R), 280 cópias Kenhub e zero original; sem sync. |
 | Codex | UC07 Kenhub — 51 unidades, seleção longitudinal, Tabs e comentários | **CONCLUÍDO 20/10:** 51/51, 836 ativos, Tabs 836/836 atuais, 0 comentário acionável. Próximo: cronograma normal fora da UC07 + Referência Externa Kenhub. |
