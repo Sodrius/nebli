@@ -294,6 +294,8 @@ def aplicar(caminho, chave, aplicar_de_fato=False):
             if o["acao"] == "mover":
                 destino = _deck_da_aula(A, {"prefixo": o["para"]})
                 info = A("notesInfo", notes=[nid])[0]
+                if f"NEBLI::2026-uc07::{o['tag_destino']}" in info["tags"]:
+                    continue  # já movida numa aplicação anterior: não desfazer a ordem que a aula de destino deu
                 velhas = [x for x in info["tags"] if x.startswith(("NEBLI::2026-uc07::", "NEBLI::cor::", "NEBLI::ordem::"))]
                 if velhas:
                     A("removeTags", notes=[nid], tags=" ".join(velhas))
