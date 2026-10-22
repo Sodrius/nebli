@@ -6,7 +6,7 @@ Todo comando com `/usr/bin/python3` (tem PyMuPDF e fastembed). Gates com `NEBLI_
 
 ## 0. Abrir (5 min)
 1. ESTADO-ATUAL › Retomar aqui: qual aula, quem está com ela. Registrar “Com Claude: <aula>”.
-2. FEEDBACKS: ler só as entradas novas. ANTI-EXEMPLARES-CARDS: reler os pares (§1–§15).
+2. FEEDBACKS: ler só as entradas novas. `EXEMPLARES-CARDS.md` + `ANTI-EXEMPLARES-CARDS.md`: procurar os casos reais mais parecidos e tentar ficar semelhante aos bons, evitando os ruins.
 3. Ritmo (F-20261016-CLAUDE-11): **um deck por vez, inteiro, e em seguida o próximo da fila, até Davi pedir para parar** (nunca parar no meio de um deck).
 4. Corrida nova `arquivos-trabalho/deck-aula-<uc>-<curto>-<slug>-v2-<data>`; se existe corrida antiga da aula, copiar `fontes/ livros/ visual/ fontes-decl.json` (fontes já extraídas), nunca o spec. `python3 -m nebli.corrida molde <corrida>` (o molde já traz `PIPELINE_VERSAO = 4`: teto de autoral e todo AnKing das seções da aula, gates duros). Prefixo `<curto>` livre (`"tag:NEBLI::ordem::<curto>-*"` vazio; se só restam tags de compartilhados antigos, removê-las por `nebli.decks.escrita`). **Refação de aula em estudo** (F-20261016-CLAUDE-08; modelo: 43 Fungos v2): ler os comentários de Davi nas notas antigas; no spec, `sh()` das notas antigas que ficam; antes do apply, `nebli.retira <corrida antiga> --recibo <cópia do receipt> chave:refacao-v2 …` para as que saem (exceto as usadas por outra aula, que só perdem as tags desta) e remover das mantidas as tags antigas `ordem::<curto>-*` e `cor::<lesson>::*` — tudo isso num só comando: `python3 -m nebli.refacao <corrida nova>` (logo antes do apply). No spec, `acervo(nid, …, lesson=LESSON, run_id=RUN_ID)` usa a cópia NEBLI viva quando existe (histórico) e `ak()` quando não; imagens pedidas por Davi no verso de notas mantidas: `EXTRA_VIVO` no spec + `python3 -m nebli.extra_vivo <corrida>` depois do apply. Ao fim, `python3 -m nebli.apaga_retirados refacao-v2` (backup em `arquivos-trabalho/backups-apagadas/`).
 
@@ -21,6 +21,12 @@ Todo comando com `/usr/bin/python3` (tem PyMuPDF e fastembed). Gates com `NEBLI_
 3. `percurso-aula.md` com blocos e **Casos de fronteira**.
 4. Imagens que ensinam: recortar das lâminas para `img/` (sem título/legenda que entregue), ver o recorte.
 
+5. **Mapa de profundidade (gate duro, F-20261022-CLAUDE-04), antes de buscar e escrever.** `mapa-de-profundidade.json`:
+   `{"objetivos_da_aula": "...", "cronograma": {"aulas_vizinhas": [...], "conferido": "como verifiquei que nada é de outra aula"},
+   "passos": [{"passo": "...", "itens": [{"id": "p1-1", "tipo": "decorar|explicar|distinguir|e-se|organizar", "o_que": "...", "fonte": "lâmina 12 / transcrição / Machado p. 40", "termos": ["termo que o card tem de conter"], "cards": ["chave"]}]}],
+   "fora": [{"o_que": "...", "motivo": "ilustrativo / outra aula: X"}], "extras_fora_da_aula": [{"o_que": "...", "cards": [...], "por_que_essencial": "...", "nao_e_de_outra_aula": "aula conferida no cronograma"}]}`.
+   Pensar como professor e aluno: o que Davi tem de **lembrar para a vida** desta aula (nomes, locais, números ditos), **explicar** (cadeia causal), **distinguir** (pares confundíveis), **prever** (e-se) e **organizar** (conjuntos). Ilustração não vira item. Cada passo tem explicar e e-se/distinguir. Os cards nascem do mapa: um card pode cumprir vários itens (vários clozes, Extra com o porquê, imagem, ligação ao conceito anterior), sem virar Frankenstein.
+
 ## 3. Buscar com afinco — três caminhos, todos os acervos (gates duros)
 1. Seções de recurso: `python3 -m nebli.semantica secoes <corrida> "<tag>" …` (FirstAid, Pathoma, B&B, Bootcamp, Sketchy, OME, NinjaNerd) e **ler cada `busca/secoes/*.txt`**.
 2. Palavra-chave: `python3 -m nebli.busca_acervos <corrida>/busca/anking.txt "rótulo=termos" …` (AnKing **e** Referências Externas).
@@ -31,7 +37,7 @@ Todo comando com `/usr/bin/python3` (tem PyMuPDF e fastembed). Gates com `NEBLI_
 ## 4. Escrever o spec (`nebli.spec_lib`, já importado pelo molde)
 1. Ordem = lâminas. `ak(chave, nid, código, bloco, alvo, slide, motivo, origin=…)` para acervo — **todos os irmãos entram**; `au(chave, texto, código, …, extra=…)` para autoral; `sh(nid, cor, …)` para compartilhado. `finalizar(CARDS, HERE, BUSCA)` no fim da lista.
 2. **Código de cor** (MEMORY §8): V-hy (automático: **todo HY 1–2 do AnKing é verde**), V-pilar, V-prova, A-aula, A-step, R-detalhe, R-org. Organizador verde só se for pilar; os demais azul/rosa.
-3. **Autoral só para lacuna provada, ≤ 20% dos cards** (até 30% só com `AUTORAL_EXCECAO`, com reticência; “aula introdutória” não basta; sem card de acervo, preferir pôr o conceito no Extra de um card de acervo a criar autoral) e no padrão dos anti-exemplares: frase AnKing de **≤ 16 palavras (máximo 20)**, um nome decorado no cloze, contexto concreto, 1–2 trechos em negrito, sem “;”, sem “x ou y” no cloze; organizador em pé, uma linha curta por item (**máximo 26 palavras**), cloze nos nomes; índice que esconde 3+ itens recebe a 1ª letra como dica (automático). Contraste complementar no mesmo índice.
+3. **Autoral só para lacuna provada, ≤ 20% dos cards** (até 30% só com `AUTORAL_EXCECAO`, com reticência; “aula introdutória” não basta; sem card de acervo, preferir pôr o conceito no Extra de um card de acervo a criar autoral) e no padrão dos exemplares/anti-exemplares: frase AnKing de **≤ 16 palavras (máximo 20)**, um nome decorado no cloze, contexto concreto, 1–2 trechos em negrito, sem “;”, sem “x ou y” no cloze; organizador em pé, uma linha curta por item (**máximo 26 palavras**), marcado `organizador=True`, com índices diferentes para itens independentes; contraste complementar marcado e no mesmo índice. Índice que esconde 3+ itens recebe a 1ª letra como dica.
 4. Verso: cada card com uma linha de porquê (`VERSO`/`extra`); verso herdado ruim de acervo é trocado com `extra=`.
 5. `IMAGENS_VISTAS` (toda imagem fora do AnKing, depois de ver), `DUPLICACAO` (ganho quando a resposta coincide), `ESCOPO` (centrais com o princípio antes dos detalhes), `EXCLUIDOS`, `FORA_DO_RECORTE`.
 
@@ -41,9 +47,10 @@ Todo comando com `/usr/bin/python3` (tem PyMuPDF e fastembed). Gates com `NEBLI_
 3. `python3 build.py` de novo; `NEBLI_SEM_TAB=1 python3 -m nebli.artefatos pre <corrida>` → só podem faltar os passos pós-instalação.
 
 ## 6. Instalar e ler o deck vivo
-1. Conferir que o Anki aceita escrita (editor aberto bloqueia; nunca fechar a tela de Davi — esperar). `python3 <corrida>/apply.py`; aula antiga: `python3 -m nebli.artefatos suspender <corrida>`; `python3 -m nebli.ordem verificar NEBLI::<lesson> --plan <corrida>/plan.json`.
+1. Preparar fora do Anki o lote inteiro (mídia, campos, IDs, destinos, backup e ações). Conferir que o Anki aceita escrita (editor aberto bloqueia; nunca fechar a tela de Davi — esperar) e então aplicar tudo em **uma única janela curta** de `nebli.decks.escrita()`, com ações vetorizadas/`multi`, nenhuma escrita por card e um readback final. `python3 <corrida>/apply.py`; aula antiga: `python3 -m nebli.artefatos suspender <corrida>`; `python3 -m nebli.ordem verificar NEBLI::<lesson> --plan <corrida>/plan.json`.
 2. `python3 -m nebli.artefatos despejo <corrida>` e **ler o despejo inteiro**: frente sem campo perdido, cloze certo, imagem certa, verso útil, cor. Corrigir no spec → `build.py --delta` → `python3 -m nebli.delta <corrida>`.
-3. `REVISAO` no spec; `REVISAO-DE-QUALIDADE.md`; `NEBLI_SEM_TAB=1 python3 -m nebli.artefatos pos <corrida> --li-despejo [--corrigidos …]`; no `revisao-final.json`, marcar o Tab como pendente (nunca afirmar Tab lido).
+3. **Revisão com raciocínio (gate duro `revisao_raciocinio`)**, no `mapa-de-profundidade.json` › `revisao`: `passos` = para cada passo, `explicacao_com_os_cards` (≥ 300 caracteres, explicando o passo só com o que os cards vivos dizem) e `cards_usados`; `perguntas_teste` (≥ 2 por passo: perguntas da aula, das provas e de um aluno curioso, cada uma com os cards que respondem); `releitura_da_transcricao` (reli a transcrição/apostila do começo ao fim: o que conferi e o que acrescentei). Onde a explicação trava, falta card: criar e reinstalar.
+4. `REVISAO` no spec; `REVISAO-DE-QUALIDADE.md`; `NEBLI_SEM_TAB=1 python3 -m nebli.artefatos pos <corrida> --li-despejo [--corrigidos …]`; no `revisao-final.json`, marcar o Tab como pendente (nunca afirmar Tab lido).
 
 ## 7. Entregar e fechar
 1. Pacote: `python3 -m nebli.package_uc --uc UCxx --output arquivos-trabalho/pacote-ucxx-<data>[b]/NEBLI - UCxx.apkg` + `python3 -m nebli.entrega "<UC>/<Comp>/<NN - Aula>" --nome "<Aula>" --uc-apkg <apkg>`; sync se Davi não estiver revisando.

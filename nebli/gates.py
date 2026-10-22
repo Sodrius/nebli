@@ -620,6 +620,168 @@ def images_checked(plan):
             ("figura de livro recortada, só a imagem (sem título nem legenda ao lado)" + (f": {sorted(raw)[:3]}" if raw else ""), not raw)]
 
 
+def _norm(t):
+    import unicodedata
+    t = html.unescape(re.sub(r"<[^>]+>", " ", str(t or "")))
+    t = re.sub(r"\{\{c\d+::(.*?)(::[^}]*)?\}\}", r"\1", t)
+    t = unicodedata.normalize("NFD", t.lower())
+    return re.sub(r"\s+", " ", "".join(c for c in t if unicodedata.category(c) != "Mn"))
+
+
+def _mapa(run):
+    path = Path(run) / "mapa-de-profundidade.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
+
+
+def _itens(m):
+    return [i for p_ in (m or {}).get("passos", []) if isinstance(p_, dict) for i in p_.get("itens", []) if isinstance(i, dict)]
+
+
+def _autorais_no_mapa(run, plan):
+    m = _mapa(run)
+    if not m:
+        return False
+    no_mapa = {k for i in _itens(m) for k in i.get("cards", [])}
+    aut = [e["key"] for e in plan.get("entries", []) if e.get("origin") == "Autoral"]
+    return bool(aut) and all(k in no_mapa for k in aut)
+
+
+def _textos_vivos(nids):
+    try:
+        from nebli.decks import Anki
+        A = Anki()
+        return {str(n["noteId"]): " ".join(f["value"] for f in n["fields"].values()) for n in A("notesInfo", notes=[int(x) for x in nids])}
+    except Exception:
+        return {}
+
+
+TIPOS_MAPA = ("decorar", "explicar", "distinguir", "e-se", "organizar")
+
+
+def profundidade(run, plan):
+    """F-20261022-CLAUDE-04: PROFUNDIDADE é gate duro. `mapa-de-profundidade.json` (feito antes dos cards) diz, por passo da linha
+    lógica, o que Davi tem de decorar, explicar, distinguir, prever (e-se) e organizar, com a fonte textual e os termos; cada item liga a
+    cards que contêm esses termos. Cada passo tem por quê e e-se/distinguir; item fora da aula exige motivo e checagem do cronograma
+    (“TOMA CUIDADO PARA NÃO SAIR DA AULA”); profundidade não é clínica (itens de explicar/e-se não se cumprem só com clínica lateral)."""
+    run = Path(run)
+    m = _mapa(run)
+    if m is None:
+        return [("[duro] profundidade: mapa-de-profundidade.json (decorar/explicar/distinguir/e-se/organizar por passo, com fonte e termos) — ausente", False)]
+    entries = {e["key"]: e for e in plan.get("entries", [])}
+    comp = plan.get("compartilhados") or {}
+    alias = {f"ak{v.get('source_nid')}": f"sh-{k}" for k, v in comp.items() if v.get("source_nid")}
+    def resolve(k):
+        k = alias.get(k, k)
+        return k if (k in entries or (k.startswith("sh-") and k[3:] in comp)) else None
+    esc = json.loads((run / "escopo.json").read_text(encoding="utf-8")) if (run / "escopo.json").exists() else {}
+    lat = set(esc.get("clinica_lateral", []))
+    total = sum(len(e.get("cards", [])) or 1 for e in entries.values()) + sum(v.get("n_cards", 1) for v in comp.values())
+    passos = [p_ for p_ in m.get("passos", []) if isinstance(p_, dict)]
+    itens = _itens(m)
+    probs = []
+    if len(str(m.get("objetivos_da_aula", "")).strip()) < 80:
+        probs.append("objetivos_da_aula < 80 caracteres")
+    crono = m.get("cronograma") or {}
+    if len(crono.get("aulas_vizinhas", [])) < 2 or len(str(crono.get("conferido", "")).strip()) < 80:
+        probs.append("cronograma: ≥ 2 aulas vizinhas e 'conferido' ≥ 80 caracteres")
+    if len(passos) < max(4, len(esc.get("linha_logica", []))):
+        probs.append(f"{len(passos)} passos no mapa (mín. {max(4, len(esc.get('linha_logica', [])))})")
+    sem_porque = [i for i, p_ in enumerate(passos, 1) if not any(x.get("tipo") == "explicar" for x in p_.get("itens", []))]
+    sem_ese = [i for i, p_ in enumerate(passos, 1) if not any(x.get("tipo") in ("e-se", "distinguir") for x in p_.get("itens", []))]
+    if sem_porque: probs.append(f"passos sem 'explicar': {sem_porque}")
+    if sem_ese: probs.append(f"passos sem 'e-se' ou 'distinguir': {sem_ese}")
+    minimo = max(12, round(0.30 * total))
+    if len(itens) < minimo:
+        probs.append(f"{len(itens)} itens (mín. {minimo} para {total} cards)")
+    ruins, sem_card, sem_termo, so_clinica = [], [], [], []
+    vivos_pend = set()
+    for i in itens:
+        if i.get("tipo") not in TIPOS_MAPA or len(str(i.get("o_que", "")).strip()) < 15 or len(str(i.get("fonte", "")).strip()) < 5:
+            ruins.append(i.get("id", "?")); continue
+        ks = [resolve(k) for k in i.get("cards", [])]
+        if not ks or None in ks:
+            sem_card.append(i.get("id", "?")); continue
+        if i.get("tipo") in ("explicar", "e-se") and all(k in lat or k.replace("sh-", "ak", 1) in lat for k in i.get("cards", [])):
+            so_clinica.append(i.get("id", "?"))
+        for k in ks:
+            if k.startswith("sh-"): vivos_pend.add(k[3:])
+    vivos = _textos_vivos(vivos_pend) if vivos_pend else {}
+    for i in itens:
+        ks = [resolve(k) for k in i.get("cards", [])]
+        if not ks or None in ks: continue
+        blob = " ".join(_norm(" ".join((entries[k].get("fields") or {}).values())) if k in entries else _norm(vivos.get(k[3:], "")) for k in ks)
+        falta = [t for t in i.get("termos", []) if _norm(t) not in blob]
+        if not i.get("termos") or falta:
+            sem_termo.append(f"{i.get('id', '?')}:{(falta or ['sem termos'])[0]}")
+    if ruins: probs.append(f"itens sem tipo/o_que/fonte: {ruins[:4]}")
+    if sem_card: probs.append(f"itens sem card válido: {sem_card[:4]}")
+    if sem_termo: probs.append(f"termo ausente do card (cobertura textual): {sem_termo[:4]}")
+    if so_clinica: probs.append(f"explicar/e-se cumprido só por clínica lateral: {so_clinica[:4]}")
+    for x in m.get("extras_fora_da_aula", []):
+        if len(str(x.get("por_que_essencial", "")).strip()) < 60 or len(str(x.get("nao_e_de_outra_aula", "")).strip()) < 40:
+            probs.append(f"extra fora da aula sem motivo/checagem de cronograma: {str(x.get('o_que', ''))[:40]}")
+    for x in m.get("fora", []):
+        if len(str(x.get("motivo", "")).strip()) < 15:
+            probs.append(f"item fora sem motivo: {str(x.get('o_que', ''))[:40]}")
+    mapeados = {resolve(k) for i in itens for k in i.get("cards", [])} - {None}
+    cob = sum((len(entries[k].get("cards", [])) or 1) if k in entries else comp[k[3:]].get("n_cards", 1) for k in mapeados) / max(1, total)
+    if cob < 0.5:
+        probs.append(f"só {cob:.0%} dos cards ligados ao mapa (mín. 50%)")
+    return [(f"[duro] profundidade: mapa com {len(passos)} passos e {len(itens)} itens (decorar/explicar/distinguir/e-se/organizar), "
+             f"termos no texto dos cards, {cob:.0%} dos cards no mapa" + (f"; {'; '.join(probs)}" if probs else ""), not probs)]
+
+
+def revisao_raciocinio(run, plan):
+    """F-20261022-CLAUDE-04: a revisão é raciocínio, não checklist. Depois de instalar: (1) cada passo explicado só com os cards vivos
+    (≥ 300 caracteres, citando ≥ 3 cards do deck); (2) perguntas-teste da aula respondidas só com o deck (≥ 2 por passo, mín. 8);
+    (3) releitura da transcrição/apostila procurando o que faltou, com o que foi acrescentado."""
+    run = Path(run)
+    m = _mapa(run) or {}
+    r = m.get("revisao") or {}
+    entries = {e["key"] for e in plan.get("entries", [])} | {f"sh-{k}" for k in (plan.get("compartilhados") or {})}
+    alias = {f"ak{v.get('source_nid')}": f"sh-{k}" for k, v in (plan.get("compartilhados") or {}).items() if v.get("source_nid")}
+    ok_k = lambda k: alias.get(k, k) in entries
+    passos = m.get("passos", [])
+    exp = r.get("passos", [])
+    probs = []
+    if len(exp) < len(passos) or any(len(str(x.get("explicacao_com_os_cards", ""))) < 300
+                                     or sum(1 for k in x.get("cards_usados", []) if ok_k(k)) < 3 for x in exp):
+        probs.append("explicação por passo (≥ 300 caracteres e ≥ 3 cards do deck)")
+    pt = r.get("perguntas_teste", [])
+    if len(pt) < max(8, 2 * len(passos)) or any(not x.get("cards") or not all(ok_k(k) for k in x["cards"]) for x in pt):
+        probs.append(f"perguntas-teste respondidas pelo deck ({len(pt)}; mín. {max(8, 2 * len(passos))})")
+    if len(str(r.get("releitura_da_transcricao", "")).strip()) < 200:
+        probs.append("releitura da transcrição/apostila (≥ 200 caracteres: o que conferi e o que acrescentei)")
+    return [("[duro] revisão com raciocínio: passos explicados com os cards vivos, perguntas-teste e releitura da fonte" + (f"; falta {'; '.join(probs)}" if probs else ""), not probs)]
+
+
+def autorais_com_motivo(run, plan):
+    """F-20261022-CLAUDE-04: “garante que os autorais sairão anking like tb, com negrito como gate + ensinando algo + todos autorais tem que
+    ter motivos”. Todo autoral: resposta do cloze em negrito, Extra com o porquê (≥ 40 caracteres), motivo de lacuna em decisoes.json
+    (≥ 40 caracteres) e, havendo mapa, ligado a um item dele."""
+    run = Path(run)
+    dec = json.loads((run / "decisoes.json").read_text(encoding="utf-8")) if (run / "decisoes.json").exists() else {}
+    m = _mapa(run)
+    no_mapa = {k for i in _itens(m) for k in i.get("cards", [])} if m else None
+    probs = []
+    for e in plan.get("entries", []):
+        if e.get("origin") != "Autoral":
+            continue
+        f = e.get("fields") or {}
+        txt = f.get("Text", "")
+        czs = re.findall(r"\{\{c\d+::(.*?)(?:::[^}]*)?\}\}", txt)
+        if not czs or any("<b>" not in c and "<strong>" not in c for c in czs):
+            probs.append(f"{e['key']}: cloze sem negrito")
+        if len(_norm(f.get("Extra", "") or f.get("Back Extra", ""))) < 40:
+            probs.append(f"{e['key']}: Extra sem o porquê")
+        d = dec.get(e["key"])
+        if not d or len(str(d[-1] if isinstance(d, list) else d)) < 40:
+            probs.append(f"{e['key']}: sem motivo em decisoes.json")
+        if no_mapa is not None and e["key"] not in no_mapa:
+            probs.append(f"{e['key']}: fora do mapa-de-profundidade")
+    return [("[duro] autoral AnKing-like com motivo: negrito, Extra com o porquê, lacuna em decisoes.json e item do mapa" + (f": {probs[:4]}" if probs else ""), not probs)]
+
+
 def imagens_batem(run, plan):
     """F-20261022-CLAUDE-01: a imagem de cada card bate com a pergunta/cloze dele? Toda imagem de card (AnKing, externa ou da
     aula) é vista em visual/imagens-cards-NN.png (nebli.imagens_cards folha) e julgada em imagens-batem.json."""
@@ -653,6 +815,8 @@ def plan_checks(run, plan):
         out += linha_e_provas(run, plan)  # F-20261021-CLAUDE-02
         out += exemplares_lidos(run)  # F-20261021-CLAUDE-06
         out += imagens_batem(run, plan)  # F-20261022-CLAUDE-01
+        out += profundidade(run, plan)  # F-20261022-CLAUDE-04
+        out += autorais_com_motivo(run, plan)  # F-20261022-CLAUDE-04
     else:
         out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
     if "biologia-tecidual" in plan.get("lesson_id", ""):  # F-20261003-CLAUDE-13: aprender, não visualizar em excesso
@@ -698,6 +862,8 @@ def plan_checks(run, plan):
     out.append(specific_extras(plan))
     out.append(("cada cor justificada em 'motivo'", all(str(e.get("motivo", "")).strip() for e in entries)))
     out.append(("REVISAO-DE-QUALIDADE.md na corrida", (run / "REVISAO-DE-QUALIDADE.md").exists()))
+    if pipeline_novo(run, plan):
+        out += revisao_raciocinio(run, plan)  # F-20261022-CLAUDE-04
     return out
 
 
@@ -748,10 +914,10 @@ def escopo_basico(run, plan):
     desconhecidas = [k for k in lat if k not in {e["key"] for e in entries} and k not in (plan.get("compartilhados") or {}) and not str(k).startswith("sh-")]
     cl = sum(n(e) for e in entries if e["key"] in lat) + sum(v.get("n_cards", 1) for k, v in (plan.get("compartilhados") or {}).items() if f"sh-{k}" in lat)
     tema = bool(d.get("clinica_e_tema")) and len(str(d.get("motivo_tema", "")).strip()) >= 40
-    teto = 0.07 if tema else 0.05
+    teto = 1.0 if tema else 0.07  # F-20261022-CLAUDE-04: teto 7%; sem teto se a clínica é o tema da aula
     share = cl / max(1, total)
     lat_ok = share <= teto and not desconhecidas and "clinica_lateral" in d
-    lat_msg = f"clínica lateral {share:.0%} (teto {teto:.0%}; 7% só se a clínica é tema, com motivo)" + (f"; chaves desconhecidas {desconhecidas[:3]}" if desconhecidas else "")
+    lat_msg = f"clínica lateral {share:.0%} (teto {teto:.0%}; sem teto só se a clínica é o tema, com motivo)" + (f"; chaves desconhecidas {desconhecidas[:3]}" if desconhecidas else "")
     DOENCA = re.compile(r"pênfigo|goodpasture|graves|miastenia|l[úu]pus|artrite|poliarterite|febre reum|anemia pernic|glomerulonefrite|diabetes|asma|rinite|anafilaxia|dermatite|trombocitopenia|anemia hemol|doença hemol|transfus|esclerose|hepatite|tuberculose|psor[ií]ase|crohn|vasculite", re.I)
     nd = sum(n(e) for e in entries if DOENCA.search(str(e.get("alvo", "")))) + sum(v.get("n_cards", 1) for v in (plan.get("compartilhados") or {}).values() if DOENCA.search(str(v.get("alvo", ""))))
     out.append((f"[duro] ciclo básico (escopo.json: básico + justificativa; {lat_msg}; doenças no alvo {nd/max(1, total):.0%}, máx. 10%: mecanismo geral, não lista de doenças)",
@@ -940,8 +1106,9 @@ def cobertura_anking(run, plan):
     if run.name not in LEGADO_V2:
         out.append(("[duro] PIPELINE_VERSAO ≥ 4 (teto de autoral + todo AnKing das seções da aula) em toda corrida nova", versao >= 4))
     if versao >= 3 and run.name not in LEGADO_V2:
-        ok = share <= MAX_AUTORAL or (len(exc) >= 80 and share <= MAX_AUTORAL_EXCECAO)
-        out.append((f"[duro] autoral = {share:.0%} dos cards: até {MAX_AUTORAL:.0%}; até {MAX_AUTORAL_EXCECAO:.0%} só com AUTORAL_EXCECAO (≥ 80 caracteres); acima, nunca"
+        _mapa_ok = _autorais_no_mapa(run, plan)
+        ok = share <= MAX_AUTORAL or (len(exc) >= 80 and (share <= MAX_AUTORAL_EXCECAO or _mapa_ok))  # F-20261022-CLAUDE-04
+        out.append((f"[duro] autoral = {share:.0%} dos cards: até {MAX_AUTORAL:.0%}; até {MAX_AUTORAL_EXCECAO:.0%} só com AUTORAL_EXCECAO (≥ 80 caracteres); acima, só com todo autoral ligado ao mapa-de-profundidade"
                     + (" — exceção declarada" if share > MAX_AUTORAL and ok else ""), ok))
     else:
         out.append((f"autoral = {share:.0%} dos cards (corrida legada, entregue antes do teto)", True))
