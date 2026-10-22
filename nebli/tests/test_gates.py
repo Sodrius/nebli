@@ -42,6 +42,20 @@ class GatesTests(unittest.TestCase):
             (run / "compreensao-aula.json").write_text(json.dumps(comp))
             self.assertTrue(gates.fidelidade_ao_slide(run, plan)[0][1])
 
+    def test_compreensao_v6_requires_process_and_reconstructions(self):
+        with tempfile.TemporaryDirectory() as d:
+            run = Path(d)
+            (run / "fontes.json").write_text(json.dumps({"n_laminas": 2}))
+            comp = {"o_que_a_aula_ensina": "x" * 150, "onde_se_encaixa": "y" * 120, "o_que_lembrar": ["z" * 20] * 3,
+                    "blocos": [{"laminas": [1, 2], "papel": "principio", "o_que_o_professor_ensina": "p" * 40}]}
+            (run / "compreensao-aula.json").write_text(json.dumps(comp))
+            plan = {"pipeline_versao": 6, "entries": [{"key": "pr", "order": 1, "evid": "slide 1"}]}
+            self.assertFalse(gates.compreensao_aula(run, plan)[0][1])
+            comp["blocos"][0]["processo"] = "q" * 120
+            comp["reconstrucoes"] = [{"o_que": "r" * 60, "cards": ["pr"]}]
+            (run / "compreensao-aula.json").write_text(json.dumps(comp))
+            self.assertTrue(gates.compreensao_aula(run, plan)[0][1])
+
     def test_inventory_requires_atomic_card_mapping_visual_evidence_and_review(self):
         with tempfile.TemporaryDirectory() as d:
             run = Path(d)

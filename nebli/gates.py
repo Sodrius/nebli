@@ -864,6 +864,15 @@ def compreensao_aula(run, plan):
             if len(exs) > len(prs) and len(str(b.get("motivo_exemplos", "")).strip()) < 40:
                 probs.append(f"mais cards de exemplo que de princípio no bloco {b['laminas'][0]}-{b['laminas'][-1]} sem 'motivo_exemplos'")
     keys = {e["key"] for e in plan.get("entries", [])}
+    if int(plan.get("pipeline_versao") or 1) >= 6:  # F-20261022-CLAUDE-08: compreensão no nível do processo, não do título
+        rasos = [f"{b['laminas'][0]}-{b['laminas'][-1]}" for b in blocos if b.get("papel") in ("principio", "exemplo")
+                 and len(str(b.get("processo", "")).strip()) < 120]
+        if rasos:
+            probs.append(f"blocos sem 'processo' (como e por quê, ≥ 120 caracteres): {rasos[:5]}")
+        validos = keys | {f"sh-{k}" for k in (plan.get("compartilhados") or {})}
+        rec = [r for r in d.get("reconstrucoes", []) if isinstance(r, dict)]
+        if not rec or any(len(str(r.get("o_que", "")).strip()) < 60 or not r.get("cards") or not set(r["cards"]) <= validos for r in rec):
+            probs.append("'reconstrucoes': o que as provas pedem para Davi reconstruir (≥ 60 caracteres), cada uma com cards válidos")
     soltos = [k for b in blocos for k in b.get("cards_exemplo", []) if k not in keys]
     if soltos:
         probs.append(f"cards_exemplo que não estão no plano: {soltos[:4]}")

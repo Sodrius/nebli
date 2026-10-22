@@ -1,4 +1,4 @@
-# PIPELINE DE GERAÇÃO DE DECK — v5 (fixo desde 22/10/2026)
+# PIPELINE DE GERAÇÃO DE DECK — v6 (fixo desde 22/10/2026)
 
 **Este é o pipeline único e fixo de todo deck-aula** (Davi, 22/10: “deixa isso fixo como pipeline de geração de deck, daí quando formos mudar algo, mudamos um pipeline já estruturado”). Modelo vivo: 57 Princípios gerais dos vírus (`arquivos-trabalho/deck-aula-uc03-mb57-principios-virus-v2-2026-10-22`, gates 88/88). O **porquê** de cada regra está no [MEMORY](../../MEMORY.md); aqui está **o que fazer, em que ordem, e o que cada etapa entrega**. Versão anterior: `arquivo/2026-10-22-pipeline-v5/EXECUCAO-DECK-AULA-antes-2c0a75762f48.md`.
 
@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | E0 | Abrir | ESTADO-ATUAL, FEEDBACKS novos, EXEMPLARES/ANTI | corrida + molde, reivindicação, `exemplares-lidos.json` | `exemplares_lidos` |
 | E1 | Ler todo o material | lâminas, transcrição, apostilas, monitoria, provas, livro, ≥1 vídeo de canal de Davi | `fontes-decl.json`, `fontes/`, `livros/`, `canais/` | fontes (`sources`, `uc_materials`) |
-| E2 | **Compreender a aula** | todo o material lido | `compreensao-aula.json` (o que ensina, onde se encaixa, o que lembrar, blocos de lâminas com papel) + resumo no chat | `compreensao_aula` |
+| E2 | **Compreender a aula** | todo o material lido, relido com as provas e a bibliografia | `compreensao-aula.json` (o que ensina, onde se encaixa, o que lembrar, blocos com papel e **processo**, **reconstruções** pedidas pelas provas) + resumo no chat | `compreensao_aula` |
 | E3 | Planejar | compreensão | `inventario.py`, `mapa-de-profundidade.json`, `escopo.json` (história, linha lógica, provas, fontes) | `profundidade`, `linha_e_provas`, `escopo_basico` |
 | E4 | Buscar nos acervos | planejamento | `busca/` (seções, palavra-chave, significado por chave de card) | `cobertura_anking` (três caminhos, todos os acervos) |
 | E5 | Montar o deck | busca | `spec.py` → `plan.json`; `busca/cobertura.tsv`, `decisoes.json`, `REVISAO-AUTORAIS.md`, `imagens-batem.json` | lint, `autorais_com_motivo`, `imagens_batem`, cores, `artefatos pre` |
@@ -26,6 +26,7 @@ Princípios que atravessam todas as etapas: o deck **segue o slide** em ordem e 
 5. Nunca contornar um gate: se ele reprova um deck bom, muda-se o gate por pedido de Davi, não o deck nem o arquivo de evidência.
 
 ## Histórico de versões
+- **v6 (22/10, F-20261022-CLAUDE-08):** E2 no nível do processo (campo `processo` por bloco) e `reconstrucoes` das provas; casos que resolvem um problema são conteúdo, não exemplo; lint duro contra cloze genérico. Modelo: 58 refeita (`…mb58…-v3-2026-10-22`).
 - **v5 (22/10, F-20261022-CLAUDE-06):** etapa E2 (compreensão da aula) e E7 (fidelidade ao slide) como gates duros; autoral sem teto, só com lacuna provada em todos os acervos.
 - v4 (16/10): todo AnKing das seções da aula entra ou é excluído com motivo; deck sem teto de cards.
 - v3 (16/10): teto de autoral (removido na v5).
@@ -47,7 +48,7 @@ Todo comando com `/usr/bin/python3` (tem PyMuPDF e fastembed). Gates com `NEBLI_
 3. `fontes-decl.json` com `materiais_uc`: **cada** arquivo de `UCxx/Outros/Apostilas de veteranos`, da pasta pessoal da aula e de `Material para Estudos` lido (texto + seção) ou descartado com motivo. Nada declarado como lido sem ter sido lido nesta sessão.
 
 ## 1b. Compreensão da aula (gate duro `compreensao_aula`, F-20261022-CLAUDE-06) — antes de qualquer planejamento
-Com todo o material lido, responder em `compreensao-aula.json` a pergunta que a E1 fazia: **o que esta aula busca ensinar? o que o professor está ensinando com cada slide? onde ela se encaixa no todo (aulas antes e depois)? o que deve ser lembrado?** Dividir as lâminas em blocos (todas, inclusive repetição) e dar a cada bloco o papel — motivação, princípio, exemplo, resumo, repetição — e o que o professor ensina ali. Exemplo clínico fica marcado como exemplo (`cards_exemplo`): entra depois do princípio que ilustra, e não em maior número sem motivo. Postar no chat um resumo curto e seguir. Tudo o que vem depois (inventário, mapa, busca, cards) nasce daqui; o deck acompanha esses blocos em ordem e conteúdo. Curto e pensado, sem virar formulário.
+Com todo o material lido, responder em `compreensao-aula.json` a pergunta que a E1 fazia: **o que esta aula busca ensinar? o que o professor está ensinando com cada slide? onde ela se encaixa no todo (aulas antes e depois)? o que deve ser lembrado?** Dividir as lâminas em blocos (todas, inclusive repetição) e dar a cada bloco o papel — motivação, princípio, exemplo, resumo, repetição — e o que o professor ensina ali. Para cada bloco de princípio ou exemplo, escrever o **processo**: o que acontece, como, por quê e o que muda se falhar (não o título da lâmina); quando a aula apresenta casos que resolvem um problema (cada família de vírus, cada classe de fármaco numa etapa), os casos são conteúdo. Ler as provas e listar em `reconstrucoes` o que Davi tem de conseguir reconstruir só com o deck. Exemplo clínico fica marcado como exemplo (`cards_exemplo`): entra depois do princípio que ilustra, e não em maior número sem motivo. Postar no chat um resumo curto e seguir. Tudo o que vem depois (inventário, mapa, busca, cards) nasce daqui; o deck acompanha esses blocos em ordem e conteúdo. Curto e pensado, sem virar formulário.
 
 ## 2. Inventário e escopo (antes de buscar)
 1. `inventario.py`: cada lâmina → itens → chave do card (ou `EXC: motivo`); provas, cruzadas, apostilas e livro também. Item de prova nunca é excluído.

@@ -1,0 +1,59 @@
+# Revisão dos autorais — 58 v3 (22/10, refação após F-20261022-CLAUDE-08)
+
+Cada autoral relido contra EXEMPLARES e ANTI-EXEMPLARES e contra a crítica de Davi à v5 (raso, cloze genérico). Todo cloze esconde o termo específico; o lint novo reprova palavra genérica.
+
+- au-produtiva — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: productive — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-condicoes — par: EXEMPLAR 1792166970767 (lista em pé, índices deliberados) × ANTI 1791984889849 (tópicos deitados) — decora: susceptibility — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-etapas — par: EXEMPLAR 1792166970767 (lista em pé, índices deliberados) × ANTI 1791984889849 (tópicos deitados) — decora: adsorption — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-eclipse — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: eclipse — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-receptor — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: tropism — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-gp41 — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: gp41 — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-penetracao — par: EXEMPLAR 1792166970767 (lista em pé, índices deliberados) × ANTI 1791984889849 (tópicos deitados) — decora: endocytosis — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-endossomo-ph — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: pH — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-desnudamento — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: endosome acidification — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-adeno-poro — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: microtubules — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-precoce — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: nonstructural — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-re — par: EXEMPLAR 1791575690369 (contraste numa frase) × ANTI 1791626778904 (contraste mal construído) — decora: rough ER — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-por-que-nucleo — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: RNA polymerase — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-proteina-viral — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: origin — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-pequeno-grande — par: EXEMPLAR 1792166970767 (lista em pé, índices deliberados) × ANTI 1791984889849 (tópicos deitados) — decora: host DNA polymerase — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-enzimas-nucleotideo — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: ribonucleotide reductase — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-mecanismos — par: EXEMPLAR 1791575690369 (contraste numa frase) × ANTI 1791626778904 (contraste mal construído) — decora: RNA — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-5linha — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: shorten — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-solucoes-5 — par: EXEMPLAR 1792166970767 (lista em pé, índices deliberados) × ANTI 1791984889849 (tópicos deitados) — decora: polyoma — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-polioma-genes — par: EXEMPLAR 1791575690369 (contraste numa frase) × ANTI 1791626778904 (contraste mal construído) — decora: T antigens — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-antigeno-t — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: helicase — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-topoisomerase — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: topoisomerases — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-hpv-e1e2 — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: E2 — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-hpv-fase-s — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: S phase — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-cancer-acidental — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: accidental — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-polioma-papiloma — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: histones — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-adeno-pol — par: EXEMPLAR 1791575690369 (contraste numa frase) × ANTI 1791626778904 (contraste mal construído) — decora: DNA polymerase — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-adeno — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: dCMP — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-herpes-enzimas — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: helicase-primase — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-herpes — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: circularizes — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-pox-dna — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: infectious — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-parvo-fase-s — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: dividing — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-parvo — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: hairpins — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-reo — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: monocistronic — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-lembrar — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: RNA-dependent RNA polymerase — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-ciclo-mais — par: EXEMPLAR 1792166970767 (lista em pé, índices deliberados) × ANTI 1791984889849 (tópicos deitados) — decora: polyprotein — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-ciclo-menos — par: EXEMPLAR 1792166970767 (lista em pé, índices deliberados) × ANTI 1791984889849 (tópicos deitados) — decora: RdRp — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-cap-snatching — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: caps — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-retro — par: EXEMPLAR 1792166970767 (lista em pé, índices deliberados) × ANTI 1791984889849 (tópicos deitados) — decora: mRNA — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-rdrp — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: genomes — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-nucleoproteina — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: nucleoprotein — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-mutacao — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: proofreading — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-maturacao — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: protease — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-inclusao-local — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: assembly — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-inclusoes — par: EXEMPLAR 1792166970767 (lista em pé, índices deliberados) × ANTI 1791984889849 (tópicos deitados) — decora: herpes — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-liberacao — par: EXEMPLAR 1792166970767 (lista em pé, índices deliberados) × ANTI 1791984889849 (tópicos deitados) — decora: lysis — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-brotamento — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: glycoproteins — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-sinapse — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: virological synapse — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-poucos — par: EXEMPLAR 1792166970767 (lista em pé, índices deliberados) × ANTI 1791984889849 (tópicos deitados) — decora: latency — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-antiviral — par: EXEMPLAR 1792166970767 (lista em pé, índices deliberados) × ANTI 1791984889849 (tópicos deitados) — decora: virions — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-polimerase-propria — par: EXEMPLAR 1791575691218 (mecanismo geral que explica vários casos) × ANTI 1791628675323 (decora sem porquê) — decora: host — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-amplo-espectro — par: EXEMPLAR 1791625434983 (fato + consequência no verso) × ANTI 1791023270891 (ponto e vírgula) — decora: RdRp — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+- au-hcv-hiv — par: EXEMPLAR 1791575690369 (contraste numa frase) × ANTI 1791626778904 (contraste mal construído) — decora: provirus — ok: o cloze cai no termo que carrega o processo e o verso dá o porquê.
+
+Organizadores necessários: sim — a aula ensina conjuntos (etapas, condições, vias de entrada, soluções do problema 5', ciclos por tipo de genoma, inclusões, saídas, razões e mecanismos dos antivirais) que cards de fato isolado não reconstroem.

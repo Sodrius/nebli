@@ -3,9 +3,11 @@
  "o_que_a_aula_ensina": "<em prosa: o que o professor quer que o aluno saia sabendo, e por quê; ciclo básico>",
  "onde_se_encaixa": "<aulas antes (pré-requisitos) e depois (o que esta prepara) no cronograma; o que fica para elas>",
  "o_que_lembrar": ["<o que levar para a vida desta aula>", "<...>", "<...>"],
+ "reconstrucoes": [{"o_que": "<o que as provas pedem para Davi reconstruir só com o deck (ex.: o ciclo inteiro de um vírus de RNA +, com enzimas e compartimentos)>", "cards": []}],
  "blocos": [
   {"laminas": [1, 7], "titulo": "<título do bloco>", "papel": "motivacao|principio|exemplo|resumo|repeticao",
    "o_que_o_professor_ensina": "<o que ele está ensinando com estas lâminas; princípio antes do exemplo>",
+   "processo": "<o processo em si: o que acontece, como, por quê e o que muda se falhar — não o título da lâmina>",
    "principio": "<o princípio do bloco, se houver>", "exemplos": ["<exemplo usado para ilustrar>"],
    "cards_exemplo": [], "cards_associados": [], "sem_card": "", "motivo_exemplos": ""}
  ],
