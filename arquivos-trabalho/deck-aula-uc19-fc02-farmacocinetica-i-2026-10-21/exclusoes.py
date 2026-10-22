@@ -32,4 +32,6 @@ EXCLUIDOS.extend([
  (1490066323578, 'fora do recorte da aula (lista de fármacos, ordem zero, nefrologia ou exemplo clínico sem cobrança)'),
  (1490066326802, 'fora do recorte da aula (lista de fármacos, ordem zero, nefrologia ou exemplo clínico sem cobrança)'),
  (1490066326803, 'fora do recorte da aula (lista de fármacos, ordem zero, nefrologia ou exemplo clínico sem cobrança)'),
+ (1520710751756, 'fora do recorte da aula (lista de fármacos, ordem zero, nefrologia, fórmula isolada ou exemplo clínico sem cobrança)'),
+ (1474763204239, 'fora do recorte da aula (lista de fármacos, ordem zero, nefrologia, fórmula isolada ou exemplo clínico sem cobrança)'),
 ])
