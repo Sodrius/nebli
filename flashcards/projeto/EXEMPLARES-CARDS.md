@@ -1,78 +1,102 @@
-# Exemplares de cards autorais
+# Exemplares de cards
 
-Este arquivo não cria uma nova lista de regras. Ele guarda cards reais que Davi marcou com **X/gostei**, elogiou em comentário ou melhorou manualmente. Antes de montar qualquer deck autoral, ler este arquivo e `ANTI-EXEMPLARES-CARDS.md`, procurar as referências mais parecidas com o conteúdo novo e tentar produzir algo semelhante aos bons exemplos, evitando os ruins.
+Gerado por `python3 -m nebli.exemplares` a partir dos cards que Davi marcou com **X/gostei** (F-20261022-CLAUDE-05). Só entram cards marcados; nada é escrito à mão aqui. Antes de escrever autoral, ler este arquivo e o ANTI-EXEMPLARES, achar os casos parecidos e ficar semelhante a estes.
 
-## X/gostei vivos em 20/10/2026
-
-- card 1791983679331 / note 1791983679330 — tríade C/I/D da inflamação crônica, em tópicos.
-- card 1791625430208 — IFN-γ ativa macrófagos para matar micróbios fagocitados.
-- card 1791716422184 — TNF-α mantém granulomas na tuberculose.
-- card 1791625424957 — β2-microglobulina associada ao MHC I.
-- card 1792330247662 / note 1792330247661 — relação espacial cerebelo × lobo occipital.
-- card 1791629593673 — síndrome hiper-IgM ligada ao CD40L.
-- card 1792242322071 — reconhecimento visual de *Histoplasma capsulatum*.
-- card 1792328931895 / note 1792328931894 — fissura mediana anterior da medula.
-- card 1790981516405 — gastroduodenal origina as pancreaticoduodenais superiores.
-- card 1792261811402 / note 1792261811401 — giro pós-central e área somestésica primária.
-- card 1790999270833 — contrações fásicas do músculo liso gastrointestinal.
-- card 1790981523773 — reconhecimento visual da artéria cólica esquerda.
-- card 1791575690370 / note 1791575690369 — brotamento × fissão binária em leveduras, no mesmo índice.
-- card 1792166976595 — miastenia gravis e receptor de ACh pós-sináptico.
-- card 1792242322895 / note 1792242322894 — reconhecimento visual de *Rhizopus*.
-- card 1792166969765 — organizador imunodeficiência × autoimunidade × autoinflamação.
-- card 1792166978741 — padrões de infecção nas deficiências B × T.
-- card 1792166971544 — PD-1 e tolerância periférica.
-- card 1792166970767 — organizador dos mecanismos de tolerância periférica.
-- card 1791630906494 / note 1791630906493 — histoplasmose crônica comparada à tuberculose.
-- card 1791630904844 — α-glucano × β-glucano, contraste no mesmo índice.
-- card 1791762418274 — Vmax como medida de eficácia.
-- card 1790979869860 — grelina aumenta o apetite.
-- card 1791575024195 — limiar contrátil sem potenciais em espícula ainda causa contração fraca.
-- card 1791023354943 — glândula submandibular produz cerca de dois terços da saliva.
-- card 1791625434983 — Treg, CTLA-4 e remoção de B7 da APC.
-- card 1792166970015 / note 1792166970014 — autoimune/adaptativa × autoinflamatória/inata, no mesmo índice.
-- card 1791557942606 — azóis bloqueiam lanosterol → ergosterol.
-
-## Elogios e edições nos comentários de 20/10/2026
-
-- note 1790972067261 — “gostei dos cards bluelink”.
-- note 1790999833029 — “AJUSTEI o card para melhorá-lo anota no exemplares”; usar a versão viva editada por Davi.
-- note 1791631346842 — “card passa a informação que quer da melhor forma”.
-- note 1791631347092 — Davi melhorou o cloze; usar a versão viva como referência.
-- note 1791983679330 — organizador C/I/D elogiado; versão corrigida em inglês.
-- note 1792064618759 — ideia de organizador das micoses cutâneas aprovada; escrita corrigida.
-
-## Versões certas correspondentes aos anti-exemplares de 20/10
-
-- note 1791627549027 — “The Gal4 DNA-binding domain recognizes one to four copies of the {{c1::<b>upstream activating sequence (UAS)</b>}}”.
-- note 1791629594347 — “After B-cell activation, alternative RNA processing converts membrane immunoglobulin into {{c1::<b>secreted antibody</b>}}”.
-- note 1791631343592 — “Interactions between histone {{c1::<b>N-terminal tails</b>}} help compact nucleosomes into higher-order chromatin”.
-- note 1791631346967 — “Heritable gene-expression states that do not alter the DNA sequence are called {{c1::<b>epigenetic</b>}} states”.
-- note 1791762419949 — “A {{c1::<b>full agonist</b>}} has enough efficacy to produce the maximal response of its receptor system”.
-- note 1791664582151 — “Binding of the <b>Lac repressor</b> to the operator reduces transcription of the {{c1::<b>lac operon</b>}} by about 1000-fold”, com o mecanismo no Extra.
-- note 1791629595872 — “A single antigen-bound {{c1::<b>IgM pentamer</b>}} can recruit two C1q heads and activate the classical complement pathway”.
-- note 1791628676074 — Extra liga o baixo oxigênio do sulco gengival à invasão após ruptura da mucosa e ao abscesso cervicofacial.
-- note 1792261732797 — figura Kenhub específica do mesencéfalo + alvo “{{c1::<b>Mesencéfalo</b>}}”.
-- notes 1792487516279, 1792487516595 e 1792487516918 — organizadores corretos de maturação B, ativação da transcrição e reguladores da cromatina.
-- notes 1792064618759, 1792064698883 e 1792065183130 — versões vivas corrigidas em tópicos verticais, com categorias paralelas e clozes nos nomes recuperáveis.
-
-## Versões certas dos comentários novos de 20/10
-
-- note 1791628675824 — tríade do micetoma em três tópicos, com `c1/c2/c1` conforme a recuperação desejada.
-- note 1791762422823 — antagonismo competitivo × não competitivo organizado pela curva (EC50 × Emax), sem frase vaga.
-- note 1792330082411 — simpático, parassimpático e entérico em tópicos verticais com três clozes na mesma nota.
-- note 1792330092316 — raízes anterior/eferente × posterior/aferente no mesmo índice, para um lado não entregar o outro.
-- note 1792330093160 — “aferente” usado para direção periferia → SNC, com a modalidade explicada no Extra.
-- note 1792330094311 — corno anterior com figura específica da substância cinzenta medular.
-- notes 1792330246172 e 1792330249686 — divisões do encéfalo e do tronco em tópicos, com um cloze por item.
-
-
-## Edições e elogios de Davi até 22/10/2026 (usar a versão viva como referência)
-
-- note 1790981525201 — Sudeck (junção retossigmoide) “melhorei o card”: um cloze no nome do ponto (c2) e um índice para as duas artérias que não se anastomosam bem (c1).
-- note 1791023298343 — “melhorei o card, aprende”: dissacaridases e peptidases no mesmo índice, com o porquê (a digestão termina na borda em escova, onde ocorre a absorção).
-- note 1791762415623 — antiácido “mais atômico”: uma ideia só (neutraliza o ácido na luz, sem alvo), o contraste com o IBP no Extra.
-- notes 1792588686961, 1792588686968 e 1792588686971 — organizadores da UC07 editados por Davi: tópicos em pé, **vários clozes por card** e um índice só quando os itens formam um conjunto que se lembra junto.
-- note 1792588687023 — núcleos do cerebelo de medial para lateral com dois índices alternados (fastigial/emboliforme × globoso/denteado).
-- Deck de referência de profundidade: **09 Lesão celular** (“esse deck é referência”) e **inflamação granulomatosa** (“8/10”): cadeia de mecanismo contada card a card, Extra com duas linhas (o porquê + a nuance), cards de reconhecimento com imagem.
-- note 1792668502609 — organizador novo do diafragma (T8 IVC, T10 esôfago, T12 aorta), pedido por Davi: tabela vertical com clozes.
+- card 1791557942606 / note 1791557942606 (2026-uc03-microbiologia-43-biologia-fungos; 2026-10-17)
+  - Frente: Azoles inhibit the conversion of {{c1::lanosterol}} to {{c1::ergosterol}}
+  - Verso: [IMG 1208651b2b9faf1a6523a710eff3180c.jpg] / / - Less ergosterol, leaky membrane, growth stops
+- card 1792166970015 / note 1792166970014 (2026-uc03-imunologia-51-disturbios-sistema-imune; 2026-10-17)
+  - Frente: Autoimmune diseases come from {{c1::adaptive::innate/adaptive}} immunity, and autoinflammatory diseases from {{c1::innate::innate/adaptive}} immunity
+  - Verso: - Autoimmunity has a self antigen, autoantibodies and autoreactive T cells / - Autoinflammation has none of them: the inflammasome or cytokine brakes fail
+- card 1791625434983 / note 1791625434983 (2026-uc03-imunologia-45-ativacao-linfocitos-t; 2026-10-17)
+  - Frente: Tregs constitutively express {{c1::CTLA-4}}, which strips B7 from antigen-presenting cells
+  - Verso: - Without B7, APCs cannot activate effector T cells
+- card 1791023354943 / note 1791023354943 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-17)
+  - Frente: About two-thirds of all saliva comes from the {{c1::submandibular}} glands
+  - Verso: - Mixed gland, mostly serous / / [IMG 392281736e881dcc1c4cfebdbd375f80.jpg]
+- card 1791575024195 / note 1791575024195 (2026-uc08-fisiologia-09-motilidade-ii; 2026-10-17)
+  - Frente: A slow wave that reaches only the {{c1::contractile}} threshold, with no spike potentials, still causes a weak contraction
+  - Verso: - Contractile threshold: small Ca²⁺ rise, weak contraction / - Electrical threshold: spikes bring more Ca²⁺, strong contraction / / [IMG nebli-uc08-fi09-p03f.png]
+- card 1790979869860 / note 1790979869860 (2026-uc03-bioquimica-16-regulacao-hormonal-massa-corporea; 2026-10-17)
+  - Frente: Ghrelin is secreted by gastric cells and acts to {{c1::increase}} appetite
+  - Verso: - Rises before meals and falls after eating
+- card 1791762418274 / note 1791762418274 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-17)
+  - Frente: Vmax of a drug is indicative of {{c1::efficacy::potency or efficacy}}
+  - Verso: Directly related (efficacious drugs have high Vmax) / [IMG caa30be6e81384f2dbcbfc23e338d1c0.webp] / / [IMG c5f7510919d6ed56a5e37d7e87d1ded9.webp] /
+- card 1791630904844 / note 1791630904844 (2026-uc03-microbiologia-50-micoses-sistemicas; 2026-10-17)
+  - Frente: The yeast wall of Paracoccidioides is rich in {{c1::α-glucan::α-glucan or β-glucan}}, whereas the mold wall has mostly {{c1::β-glucan::α-glucan or β-glucan}}
+  - Verso: - α-glucan is the outer layer that resists phagocyte β-glucanase
+- card 1791630906494 / note 1791630906493 (2026-uc03-microbiologia-50-micoses-sistemicas; 2026-10-17)
+  - Frente: Chronic {{c1::Histoplasmosis::fungal infection}} can look similar to {{c2::tuberculosis (TB)}}, with cavitary lesions in the upper lobes of the lungs and {{c2::calcified}} nodules with fibrotic scarring
+  - Verso: - In general, systemic fungi are asymptomatic / / - Severe infections (for instance, those in immunocompromised patients) result in major symptoms / / - Calcifications common in the hilar regions
+- card 1792166970767 / note 1792166970767 (2026-uc03-imunologia-51-disturbios-sistema-imune; 2026-10-17)
+  - Frente: Peripheral tolerance of mature T cells: / 1. {{c1::Anergy::A…}} (antigen without costimulation) / 2. Suppression by {{c1::regulatory T::r…}} cells / 3. {{c1::Deletion::D…}} by apoptosis
+  - Verso: - Each mechanism has a single-gene disease when it fails: FOXP3 (IPEX) for Treg, FAS (ALPS) for deletion
+- card 1792166971544 / note 1792166971544 (2026-uc03-imunologia-51-disturbios-sistema-imune; 2026-10-17)
+  - Frente: The PD1 receptor is normally involved in the maintenance of {{c1::peripheral}} immunologic tolerance
+  - Verso: This "checkpoint" system is another line of defense against autoreactive immune cells that have escaped central tolerance / [IMG 836cf8aa3fa2d15146315deb6d782cfe.jpg]
+- card 1792166978741 / note 1792166978741 (2026-uc03-imunologia-51-disturbios-sistema-imune; 2026-10-17)
+  - Frente: {{c1::B}}-cell deficiencies cause recurrent bacterial infections / {{c1::T}}-cell deficiencies produce fungal and viral infections
+  - Verso: B-cell deficiency = Bacterial
+- card 1792242322895 / note 1792242322894 (2026-uc03-microbiologia-55-pratica-micologia; 2026-10-18)
+  - Frente: Which fungus is shown below? / / {{c7::Rhizopus}} / / [IMG ff499173bc4b9c7f680b74eedf7096ce.jpg] /
+  - Verso: [IMG cd6200e8803a0d87239c6f474ba9157d.webp][IMG 580a23effeb4178bbc2e9db2e63e2b7d.webp] / / - Nonseptate (coenocytic) hyphae, rhizoids and sporangia full of sporangiospores
+- card 1792166976595 / note 1792166976595 (2026-uc03-imunologia-51-disturbios-sistema-imune; 2026-10-18)
+  - Frente: {{c2::Myasthenia gravis}} is caused by autoantibodies to {{c1::post}}synaptic {{c1::ACh receptors}} at the NMJ
+  - Verso: - Importantly, these antibodies (IgM and/or IgG) block activation resulting in a reduced number of functional acetylcholine receptors at the neuromuscular junction / / - This results in a decreased end plate potential (not allowing muscle cells to depolarize) since there are fewer postsynaptic cation channels that can now open in response to acetylcholine / / [IMG 102dfc79376f17f2912bfab257713d25.
+- card 1791575690370 / note 1791575690369 (2026-uc03-microbiologia-43-biologia-fungos; 2026-10-18)
+  - Frente: Yeasts reproduce asexually mainly by {{c1::budding}}, which gives unequal cells, whereas {{c1::binary fission}} gives two equal cells
+  - Verso: - The bud is a blastoconidium / / [IMG nebli-trabulsi-fig-64-1-4.png]
+- card 1790981523773 / note 1790981523773 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-18)
+  - Frente: /* GENERAL CARD STYLE */ .card { font-family: "Helvetica LT Std", Helvetica, Arial, Sans; font-size: 150%; text-align: center; color: black; background-color: white; } /* OCCLUSION CSS START - don't edit this */ #io-overlay { position:absolute; top:0; width:100%; z-index:3 } #io-original { position:
+- card 1790999270833 / note 1790999270833 (2026-uc08-fisiologia-08-motilidade-i; 2026-10-18)
+  - Frente: {{c1::Phasic}} contractions of GI smooth muscle are periodic contractions followed by relaxation
+  - Verso: Occur in the esophagus, gastric antrum, small intestine
+- card 1792261811402 / note 1792261811401 (2026-uc07-telencefalo-e-cortex-cerebral-homunculo-motor-e-sensitivo; 2026-10-18)
+  - Frente: O giro {{c1::pós}}-central é a área {{c2::somestésica}} primária (lobo parietal)
+  - Verso: - Área somestésica: relativa à sensibilidade somática (tato, dor, temperatura e propriocepção); corresponde ao córtex somatossensitivo primário (áreas 3, 1 e 2 de Brodmann). / / [IMG e471a62e6fae4d390299a1d3bc903a36.png]
+- card 1790981516405 / note 1790981516405 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-18)
+  - Frente: The {{c1::gastroduodenal}} artery gives rise to the anterior superior and posterior superior pancreaticoduodenal arteries
+  - Verso: [IMG deea37ee076e159f96e016d0c783feec.png][IMG 043269e64d3dbcc7dea3b1d2af443703.jpg] / / Superior pancreaticoduodenals (celiac) meet the inferior ones (SMA) around the pancreatic head
+- card 1792328931895 / note 1792328931894 (29 Topografia e morfologia da medula espinal; 2026-10-18)
+  - Frente: A {{c1::fissura mediana anterior}} é um sulco profundo que divide incompletamente a medula em metades simétricas
+  - Verso: [IMG kh-anterior-median-fissure-of-medulla.jpg]
+- card 1792242322071 / note 1792242322071 (2026-uc03-microbiologia-55-pratica-micologia; 2026-10-18)
+  - Frente: Which fungus is shown below? / / {{c6::Histoplasma capsulatum}} / / [IMG 6af616c61c1792d42b22b250e5935f7d.jpg] /
+  - Verso: [IMG e5c31c52eba82f636f75ebb03182d46f.jpg][IMG b39abbbf00aa0b03a99911510c118e8c.webp] / / / - Tissue: small yeasts inside macrophages; culture at 25 °C: tuberculate macroconidia
+- card 1791629593673 / note 1791629593673 (2026-uc03-imunologia-49-ativacao-celulas-b; 2026-10-18)
+  - Frente: {{c2::Hyper-IgM}} syndrome is most commonly due to mutated {{c1::CD40L}} on Th cells
+  - Verso: Class-switching defect / / [IMG 8246e29ed402d1087af107a0c864d6c1.webp]
+- card 1792330247662 / note 1792330247661 (01 Sistema nervoso central: introdução ao encéfalo; 2026-10-18)
+  - Frente: O cerebelo fica abaixo do cérebro, inferior ao lobo {{c1::occipital}}
+  - Verso: [IMG kh-cerebellum.jpg]
+- card 1791625424957 / note 1791625424957 (2026-uc03-imunologia-20-mhc-apresentacao; 2026-10-19)
+  - Frente: What protein is associated with MHC I? / {{c1::β2-microglobulin}}
+  - Verso: Whereas MHC II is associated with invariant chain / / [IMG 6e345c353d9e220d52029fd44fc589eb.png]
+- card 1791716422184 / note 1791716422184 (2026-uc03-grand-round-03-espondilodiscite-tuberculosa; 2026-10-19)
+  - Frente: Which cytokine is responsible for maintaining granulomas in TB infection? / / {{c1::TNF-α (from macrophages)}}
+  - Verso: While IFN-y stimulates macrophages to kill phagocytosed pathogens / / [IMG 1eb2af7eda99066b2127c844e70c54f0.webp]
+- card 1791625430208 / note 1791625430208 (2026-uc03-imunologia-22-mecanismos-efetores; 2026-10-19)
+  - Frente: Which cytokine is primarily responsible for stimulating monocytes / macrophages to kill the microbes they ingest (macrophage-lymphocyte interaction)? / / {{c1::IFN-γ}}
+  - Verso: IFN-γ also inhibits differentiation into Th2 cells / [IMG 60704af48c483fd79792cca0f3460146.jpg][IMG paste-cb59b7ccab181ae788f4de3f994ee4bff549d7d1.jpg] /
+- card 1791983679331 / note 1791983679330 (2026-uc03-patologia-62-inflamacao-cronica; 2026-10-20)
+  - Frente: The characteristic triad of chronic inflammation is: / 1. {{c2::scarring}} / 2. {{c1::mononuclear infiltrate}} / 3. {{c2::tissue destruction}}
+- card 1791631345241 / note 1791631345241 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-20)
+  - Frente: At the yeast HO gene, Swi5 first opens chromatin, allowing the second activator {{c1::SBF}} to bind
+  - Verso: This is sequential recruitment: Swi5 recruits a remodeler and a HAT; only after chromatin opens can SBF recruit the transcription machinery.
+- card 1791762416971 / note 1791762416971 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-20)
+  - Frente: Benzodiazepines exert their effects via binding to an allosteric site on the {{c1::GABAA}} receptor /
+  - Verso: [IMG 911639beb5d525b2c181e5a04444613d.webp] / / - BZDs need GABA present; they do not open the channel alone
+- card 1791631347092 / note 1791631347092 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-20)
+  - Frente: After replication, a {{c1::maintenance DNA methyltransferase}} copies methylation onto the new strand
+  - Verso: - It recognizes hemimethylated CpG
+- card 1792350094380 / note 1792350094380 (26 Artérias do encéfalo; 2026-10-20)
+  - Frente: .card { font-family: Helvetica, Arial, sans-serif; text-align: center; color: black; background-color: white; margin: 0; padding: 4px; } .nightMode .card, .night_mode .card { color: #eee; background-color: #2b2b2b; } /* topo de altura fixa: a figura não pula ao virar o card e o nome nunca exige rola
+- card 1792166969765 / note 1792166969765 (2026-uc03-imunologia-51-disturbios-sistema-imune; 2026-10-20)
+  - Frente: How the immune system fails: / 1. Too weak a response: {{c1::immunodeficiency::i…}} / 2. Adaptive response against self: {{c1::autoimmunity::a…}} / 3. Innate inflammation with no trigger: {{c1::autoinflammatory::a…}} disease
+  - Verso: - Each group is a different failure: defense, self-tolerance, or the brake on inflammation / - An exaggerated response to a harmless foreign antigen is hypersensitivity (lesson 64)
+- card 1792328879263 / note 1792328879263 (29 Topografia e morfologia da medula espinal; 2026-10-20)
+  - Frente: .card { font-family: Helvetica, Arial, sans-serif; text-align: center; color: black; background-color: white; margin: 0; padding: 4px; } .nightMode .card, .night_mode .card { color: #eee; background-color: #2b2b2b; } /* topo de altura fixa: a figura não pula ao virar o card e o nome nunca exige rola
+- card 1791762418025 / note 1791762418025 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-20)
+  - Frente: Affinity is the ability to bind the target, whereas {{c1::intrinsic activity}} is the ability to activate it once bound
+  - Verso: - Antagonists have affinity but zero intrinsic activity

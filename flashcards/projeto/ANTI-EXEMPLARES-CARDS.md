@@ -1,158 +1,813 @@
-# Anti-exemplares de cards autorais (14/10/2026)
+# Anti-exemplares de cards
 
-Davi: “esses cards abstratos, com um conceito solto e cloze no lugar ruim são cards ruins / card bom ensina algo e cobra lembrar de algo específico, não uma possibilidade abstrata ou uma palavra que pode ter mais sinônimos / atômico, nuclear, não ambíguo é o melhor card / o autoral tem que me ajudar a decorar as coisas da forma como são, não uma maneira didática ruim sua”.
+Gerado por `python3 -m nebli.exemplares` a partir dos comentários negativos de Davi (F-20261022-CLAUDE-05). Cada item traz o card como estava quando ele comentou e o comentário literal. Só entra card comentado; nada é escrito à mão aqui. A versão boa, quando houver, aparece nos EXEMPLARES só se Davi a marcar com X.
 
-Isto não é lista de regras. Este arquivo guarda a **versão ruim** dos cards reais que Davi reprovou. A versão certa fica exclusivamente em `EXEMPLARES-CARDS.md`, formando a dicotomia ruim × bom. Antes de escrever um autoral, encontre aqui o erro mais parecido e depois procure o correspondente bom nos Exemplares.
-
-As referências positivas agora também ficam em `EXEMPLARES-CARDS.md`. Antes de qualquer autoria, ler os dois arquivos e tentar ficar semelhante aos bons exemplos; estes arquivos são o acervo de referências boas e ruins, não uma nova camada de análise.
-
-## Como o AnKing apresenta uma ideia (observado nos modelos abaixo)
-
-Uma frase afirma **um fato do jeito que ele é** e esconde **o nome que se decora**. O sujeito é concreto (uma célula, uma estrutura, uma doença); o verbo é factual (“are”, “secrete”, “converts”, “is characterized by”); a resposta é um termo técnico com uma única forma aceitável. Tem de 8 a 19 palavras. O contexto vem antes do cloze e basta para haver uma só resposta. Quando é pergunta, pergunta pela classe (“Which type of cell…?”, “What class of helper T cell…?”).
-
-- “Epithelioid histiocytes are {{c1::macrophages}} with abundant pink cytoplasm” (8 palavras)
-- “{{c1::Kupffer}} cells are specialized {{c2::macrophages}} that form the lining of hepatic sinusoids” (12)
-- “Granuloma formation: Th1 cells secrete {{c1::IFN-γ}}, which converts macrophages to epithelioid histiocytes and giant cells” (15)
-- “Natural killer cells are induced to kill cells that have an absence of {{c1::MHC I}} on their cell surface” (19)
-- “Which type of cell has a ‘clock-face’ chromatin distribution and an eccentric nucleus? {{c1::Plasma cell}}” (15)
-- “In severe cases of acute viral hepatitis, adjacent lobules are interconnected by swaths of dead hepatocytes called ‘{{c1::bridging necrosis}}’” (19)
-
-O que **não** aparece neles: frase sobre “papel”, “função”, “mecanismo” em geral; resposta que seja verbo, adjetivo de grau ou paráfrase; conceito sem o nome da coisa.
-
-## Pares reais
-
-### 1. Cloze no verbo, não no nome
-- ❌ “Foreign-body granulomas surround material that macrophages cannot readily {{c1::degrade}}”
-- ❌ “Neither caseous necrosis nor giant cells are {{c1::required}} to diagnose a granuloma”
-- Por quê: o que se decora é o tipo de granuloma e os achados, não “degrade” nem “required”, que qualquer um completa pela gramática.
-
-### 2. Conceito solto, sem dizer do que se fala
-- ❌ “The peripheral T-cell rim supports macrophages mainly through {{c1::cytokine signaling}}” (apagado)
-- Davi: “se pego ele para fazer do nada, nem sei do que fala… não ensina, não relembra e não decora”.
-- Por quê: o AnKing nomeia o contexto (granuloma), a célula (Th1) e cobra a molécula exata (IFN-γ). “Cytokine signaling” é categoria vaga, com mil respostas possíveis.
-
-### 3. Frase que não quer dizer nada concreto
-- ❌ “Fibrosis around a granuloma can impair organ function by replacing functional {{c1::parenchyma}}”
-- ❌ “Eukaryotic activators have separate {{c1::DNA-binding}} and activation domains”
-- Davi: “o que isso sequer quer dizer? … cria conceitos específicos e me joga como se decorar qualquer coisa servisse”.
-- Por quê: a frase precisa afirmar um fato que se possa visualizar (granuloma → cicatriz; ativador com duas partes, cada uma fazendo algo), com o nome no cloze.
-
-### 4. Probabilidade, número ou curiosidade que não forma
-- ❌ “In {{c1::sick building}} syndrome, indoor fungi cause fatigue, headache and airway irritation in more than 20% of occupants” (apagado)
-- Davi: “probabilidade zuada / em quê agrega na minha formação?”
-- Por quê: não ensina mecanismo nem nome que ele vá usar; é curiosidade com número.
-
-### 5. Decorar sem entender
-- ❌ “Chromoblastomycosis usually affects the {{c1::lower limbs}}”
-- Davi: “não ensina nada, só decora… seria a explicação do porquê é lower limbs + cloze em algo de decorar”.
-- Por quê: o mesmo nome decorado, agora preso a uma causa que o faz ser lembrado.
-
-### 6. Linguagem que não é de livro
-- ❌ “Once a helper subset is chosen, the cytokine genes of the other subsets are silenced by closing their {{c1::chromatin}}” (“subset????”)
-- Por quê: nomes reais (Th1, IL-4) no lugar de “subset”, “other subsets”.
-
-### 7. Contraste em que um lado entrega o outro
-- ❌ “{{c1::Yeasts}} form creamy colonies, whereas {{c2::molds}} form cottony ones”
-- Aplicado em 14/10 a: forma do Paracoccidioides (mold/yeast) e potência × eficácia (potency/efficacy).
-
-### 8. Organizador em prosa, com cloze no dado acessório
-- ❌ “Chronic inflammation lasts {{c1::weeks to months}}, with inflammation, tissue injury and attempted repair coexisting”
-- Davi: “era para o cloze ser aquilo que deve ser lembrado / também é essencial que fosse em tópicos / C I D”.
-
-### 9. Tabela ou árvore transformada em frase
-- ❌ “Trichophyton infects skin, hair and nails, {{c1::Microsporum}} spares the nails, and {{c2::Epidermophyton}} spares the hair”
-- ❌ “Mucor, Rhizopus and Lichtheimia now belong to the phylum {{c1::Mucoromycota}}” (sem a árvore)
-- Por quê: o que se decora é uma posição num quadro; o quadro é a forma natural de lembrar.
-
-### 10. Imagem acompanhada de texto que já responde
-- ❌ “The villi and plicae in this H&E section identify the {{c1::small intestine}}” + imagem
-- Davi: “acerto sem ver a imagem”.
-
-### 11. Afirmação que soa absoluta
-- ❌ “Mucus is secreted into the GI tract via {{c1::Brunner}} glands in the duodenum” (“dá a impressão de que é só assim”)
-
-### 12. Verso sem o porquê
-- Filiform papillae, iTreg + retinoic acid: Davi pediu o porquê no comentário. O Extra explica a razão em uma linha (mecânica × gustativa; ácido retinoico das dendríticas intestinais).
-
-### 13. Adjetivo ou palavra genérica no cloze (achados por Claude na 62/61, corrigidos em 14/10)
-- ❌ “Chronic inflammation is described as {{c1::non-resolving}} inflammation, because injured tissue keeps triggering new inflammation”.
-- ❌ “macrophages accumulate by continuous recruitment, local {{c1::proliferation}} and immobilization by {{c2::MIF}}”.
-- ❌ “Some viruses kill infected cells by triggering {{c1::apoptosis}}…” (a frase entrega).
-- Por quê: “non-resolving”, “proliferation” e “apoptosis” se completam pelo bom senso; o que vale decorar é o nome específico que explica (DAMPs, MIF, estresse do RE).
-
-### 14. Comentários de 15/10 (deck-a-deck da UC03)
-- **Contraste complementar em dois índices**: ❌ “Fungi that feed on dead organic matter are {{c1::saprobes}}, while those that feed on living hosts are {{c2::parasites}}”.
-- **Tópicos deitados**: ❌ “Host response to viruses: - acute phase: barriers, NK cells, macrophages, complement - subacute and chronic…”.
-- **Cloze no que se entende**: ❌ “Subcutaneous mycoses begin when … are {{c1::implanted}}”.
-- **Palavras abstratas**: ❌ “Foreign-body giant cells tend to have {{c1::irregularly scattered}} nuclei”.
-- **Verso sem o porquê / Tab sem o porquê**: α-glucano (“explicar que é o fator de virulência”), tropismo do *Cryptococcus* pelas meninges e urease (“o comentário deveria dar uma ideia do porquê”; “tab não explicou por que ele tem urease”) → o Extra diz a razão em uma linha.
-- **Imagem pedida**: estrato córneo, margarida do *Sporothrix*, cadeias da lobomicose, mitocôndria de fungo — imagem que ensina vai no verso quando na frente entregaria a resposta.
-- **Card no deck errado**: hipersensibilidade tipo IV e PPD na Ativação de linfócitos T (“card era para ser de outro deck”) → aula 64.
-- **Card repetido**: fosforilação × FOXO1 cobrando o mesmo “nucleus” → cada card esconde um nome diferente.
-- **Card que não ensina**: “Bound Lac repressor lowers lac operon transcription about {{c1::1000}}-fold” (“escrita estranha + sem negrito + faltou ensinar e colocar cloze que pede para lembrar algo”).
-
-### 15. Autoral onde não devia haver card (amostra medida em 15/10, F-20261015-CLAUDE-06)
-Davi: “em muitos cards de microbio você puxou cards nada a ver, de coisas que não eram importantes, de detalhes que você meio que inventou com base de algo que tinha no livro”.
-- ❌ Detalhe de livro sem alvo na aula: “Soil holds about {{c1::10⁷}} bacteria and 10⁵ fungi per gram…” · “Oomycetes… belong to the kingdom {{c1::Chromista}}” · “A {{c1::lichen}} is a mutualism…” · “Calico cats are almost always {{c1::female}}”.
-- ❌ Cloze que se completa pelo bom senso: “…favor invasion by {{c1::degrading host tissue}}” · “Infection is the contamination, penetration and {{c1::multiplication}}…” · “…prostration, {{c1::low fever}}, nausea…” · “Fungal cells are {{c1::nonmotile}}”.
-- ❌ Autoral com AnKing disponível: organizador de antifúngicos (AnKing tem 56 notas de *polyenes*), coagulase (13), toxina diftérica (7), conídios (6).
-
-### 16. Comentários de 16/10 (decks da P1/P2 da UC03: fisiologia, histologia, farmacologia, imunologia)
-- **Imagem desenhada por mim** (“imagem ruim” no jejuno/íleo e nas varicosidades; “imagem zuada”): esquemas e gráficos que eu gerei (`jej-ile.jpg`, `fi-varicosity.jpg`, `fa01-g-*.png`) parecem amadores e às vezes erram a anatomia.
-- **“imagem” / “faltou imagem” / “IMAGEM”** em card de anatomia, histologia ou de gráfico (curva dose-resposta, antagonismo): quando o conceito é visual, o card sai já com a figura do livro no verso. Eu não pus porque tratei a frase como suficiente; o padrão de Davi é que conceito visual sem figura está incompleto.
-- **Cloze só na sigla, com a resposta escrita ao lado**: ❌ “The {{c1::TBP}} (TATA-binding protein)…” (“de novo, sigla só o card”; “cloze é só a sigla e tá dada a resposta”).
-- **Expressão forte e ambígua**: ❌ “An antagonist has no {{c1::intrinsic activity}}” (“quem não tem intrinsic activity? receptor or antagonist”).
-- **Escrita estranha / “o que isso sequer quer dizer?”**: frase que cria conceito próprio e cobra como se qualquer palavra servisse.
-- **Muita informação num card** (“mt info num card só”) e **lista sequencial** (“poderia ser tópicos aqui, não sequencial só”) → uma ideia por card; quando são itens paralelos, tópicos em pé.
-- **Card parecido com outro** (varizes esofágicas: “tem um card mt parecido com esse, daí fico confundido / escreve diferente”) → cada card esconde algo diferente e começa diferente.
-- **Informação sem história** (Paneth: “não aprendo nada, só decoro algo meio inútil”) → o card diz a função que dá sentido ao dado.
-- **Verso sem o porquê ou sem tradução**: cadeia invariante sem dizer o que é; *India ink* sem “nanquim”; parótida-sublingual sem a tabela do card irmão → o verso responde a dúvida que o card provoca e reaproveita a tabela do irmão.
-- **Pergunta de Davi no comentário** (“isso é algo específico tb de subcutânea? cutânea não tem tb?”) → responder no Extra, em uma linha.
-- **Card HY rosa** (“card hy rosa, tem q ser verde”) → HY 1–2 sempre verde (já é gate).
-
-### 17. Referências negativas corrigidas em 20/10/2026
-
-Aqui fica somente o ruim; as versões corrigidas correspondentes estão em `EXEMPLARES-CARDS.md`.
-
-- note 1791627549027 — “Gal4 binds one to four sites in the {{c1::UAS (upstream activating sequence)}}...”: sigla e expansão mal apresentadas.
-- note 1791629594347 — “Plasma cells release antibody as a {{c1::secreted}} protein...”: cloze no adjetivo.
-- note 1791631343592 — “Histone N-terminal {{c1::tails}} are needed...”: cloze em local sem valor.
-- note 1791631346967 — “Epigenetic marks are passed on through cell {{c1::divisions}}”: cloze no efeito previsível.
-- note 1791762419949 — “A full agonist mimics the regulatory effect of the endogenous {{c1::signaling}} compound...”: frase vaga e cloze ruim.
-- note 1791664582151 — “Bound Lac repressor lowers lac operon transcription about {{c1::1000}}-fold”: número sem mecanismo, sem negrito.
-- note 1791631342791 — “the basal state of eukaryotic transcription is {{c1::restrictive}}”: termo abstrato sem explicar o processo.
-- note 1791629595872 — “C1q needs two Fc regions, so one bound {{c1::IgM}} pentamer...”: relação causal pouco clara.
-- note 1791628676074 — Extra “Actinomyces is an anaerobic bacterium, unlike the aerobic Nocardia”: apenas repete o contraste, sem explicar por quê ou utilidade.
-- note 1791631344241 — HDAC com Extra genérico: sigla fora do alvo e comentário com padrão de IA.
-- notes 1790974695882, 1791023298718 e 1791023357394 — imagens julgadas ruins.
-- notes 1791575026219, 1791628672497, 1791631345241 e 1791762425325 — imagem necessária ausente.
-- note 1792261732797 — imagem delimitava o tronco inteiro para cobrar “Mesencéfalo”.
-- notes 1791000310976, 1791625425207, 1791625434208, 1792082171335 e 1792082183634 — autorais sem o negrito do padrão AnKing.
-- notes 1791627549276, 1791629587272, 1791631343842 e 1792082183634 — sequências sem o card organizador necessário.
-- notes 1792064618759, 1792064698883 e 1792065183130 — organizadores com ideia aproveitável, mas execução ruim.
-- notes 1791716408660 e 1792241811997 — card instalado na aula errada.
-
-### 18. Comentários novos de 20/10 (somente as versões ruins)
-
-- note 1791625434632 — cloze autoral sem negrito.
-- note 1791628675824 — tríade do micetoma em frase corrida, sem tópicos nem índices deliberados.
-- note 1791762422823 — “card estranho”: antagonistas descritos sem organizar o efeito sobre EC50 e Emax.
-- note 1792330082411 — organizador do SNA com pouca recuperação por nota.
-- note 1792330092316 — raiz anterior/posterior escrita de modo que o texto visível entregava a resposta.
-- note 1792330093160 — “sensitivo” usado onde o conceito cobrado era a direção aferente.
-- note 1792330094311 — imagem fora do contexto do corno anterior da medula.
-- notes 1792330246172 e 1792330249686 — divisões anatômicas fragmentadas em cards demais, sem aproveitar tópicos e múltiplos clozes.
-
-### 19. Comentários de 22/10 (somente o ruim; corrigidos no Anki com “CORRIGIDO, 22, 10, 26.”)
-
-- note 1792588686964 — Extra “O mesmo índice oculta os dois lados do contraste, evitando que um entregue a resposta do outro” (“ESSE comentário é mt ruim”): o Extra fala do card, não do conteúdo. O Extra explica a anatomia (por que a raiz anterior é eferente), nunca a técnica do cloze.
-- note 1792339386764 — “Qual é a função do nervo craniano I? Olfato” (“card mt bobo”): pergunta cuja resposta está no nome.
-- note 1791630905768 — *Histoplasma* sem foto e pouco específico (“cadê a foto”): card de reconhecimento de microrganismo sai com a imagem do achado e o detalhe que distingue (tamanho, onde fica).
-- note 1791826292220 — imagem com dois gráficos para cobrar um só (“coloca só o gráfico que quiser cobrar, quebra ao meio a imagem”).
-- note 1791826294319 — “Which curves determine the therapeutic index?” (“mal pensado”): a resposta é o nome da razão (TD50/ED50), não “as curvas”.
-- note 1792083296387 — paracoccidioidomicose com a terceira parte da frase entregando o cloze e sem o porquê.
-- notes 1791762419700 e 1791762421022 — escrita estranha (“because the H1 receptor has constitutive activity”) e cloze no lugar ruim (o nome do conceito já posto como sujeito).
-- note 1790999272782 — Rho quinase “card estranho, poderia ensinar melhor”: o efeito final (mais força com o mesmo Ca²⁺) não aparecia.
-- notes 1790999833029 e 1792588686971 — **cloze apagado na edição deixa cartão vazio**: depois de qualquer edição que retire um índice, remover o cartão vazio (pedido `remover_vazios` ao add-on).
-- Decks inteiros: 46 Expressão gênica (autorais de baixa qualidade, cloze em palavra não específica, falta informação), FA01 (cards repetidos), 51 Distúrbios do SI (excesso de clínica: “quero aprender a base bem”), 08 Reconhecimento inato (incompleto) — fila de refação com o gate de profundidade.
-- Kenhub IO: cloze com mais de 4 palavras (“nova regra: se há mais de 4 palavras no cloze tem que mostrar uma ou o tanto que for para o cloze ser de no máximo 3”), seta errada, imagem errada (miótomos L4–L5), imagem ruim (cerebelo).
+- note 1784300091178 (?; 2026-10-03)
+  - Card: A forma combinatória diverticul/o refere-se a uma {{c1::evaginação sacular}} .
+  - Davi: “não sei o que é evaginação sacular”
+- note 1784308057250 (?; 2026-10-03)
+  - Card: Em disjunção , dis- indica {{c1::separação}} .
+  - Davi: “nesse tipo de card, é horrível que haja x ou y, o certo é que haja uma palavra só. duas palavras não aumentam o valor pedagógico, só atrapalham, porque dificultam a reter”
+- note 1784308057313 (?; 2026-10-03)
+  - Card: Em exocitose , exo- indica movimento para {{c1::fora}} da célula.
+  - Davi: “aqui valeria comparar ecto e exo, pra saber a diferença (esse tipo de coisa ajuda a reter). quando for ver os comentários, não apaga eles, vai mantendo, mesmo que estejam corrigidos, porque daí uma hora reúnos e vemos seus erros mais frequentes”
+- note 1784308057390 (?; 2026-10-03)
+  - Card: Em paratireoide , para- indica {{c1::adjacência}} à tireoide.
+  - Davi: “lado ou anormal? não sei e o card não explica, só confude. reveja todos os erros que aponto para todos os cards, não pode ter nenhum erro já cometido mantido quando for corrigir, porque se eu já te corrigi você tem que entender o padrão”
+- note 1784308059839 (?; 2026-10-03)
+  - Card: Em odinofagia , o elemento odino- indica {{c1::dor}} .
+  - Davi: “caard incoerente e incorret”
+- note 1784308059853 (?; 2026-10-03)
+  - Card: Em atresia esofágica , atresia indica {{c1::ausência congênita de luz}} .
+  - Davi: “muito avançado com comentário fraco. poderia decompôr a e tresia, para ficar mais didático (não sei se esse card existe no deck, mas o card que estamos conversando em cima apareceu logo no primeiro dia de estudo, então não consegui respondê-lo o cloze também tem muitas respostas”
+- note 1784308059925 (?; 2026-10-03)
+  - Card: Em eosinófilo , -filo indica {{c1::afinidade pela eosina}} ; eosinofilia indica {{c1::aumento de eosinófilos}} .
+  - Davi: “clozes com muitas palavras. conteúdo é importante, mas o card é ruim, vale reescrevê-lo”
+- note 1784308059948 (?; 2026-10-03)
+  - Card: Em litíase , lit/o = {{c1::cálculo}} ; -íase = {{c1::condição}} .
+  - Davi: “não compreendi esse”
+- note 1784308062198 (?; 2026-10-03)
+  - Card: Em hipertrofia , -trofia indica {{c1::crescimento}} .
+  - Davi: “trofia é desenvolvimento, não crescimento, porque atrofia não é crescimento”
+- note 1790974691830 (2026-uc08-anatomia-02-intestino-grosso-canal-anal; 2026-10-03)
+  - Card: The left colic flexure lies higher than the right one and is related to the {{c1:: spleen }}
+  - Davi: “imagem”
+- note 1790974692329 (?; 2026-10-03)
+  - Davi: “cloze zuado”
+- note 1790978724448 (2026-uc08-anatomia-02-intestino-grosso-canal-anal; 2026-10-03)
+  - Card: In the female, the rectum is related anteriorly to the {{c1:: vagina }}, with the rectouterine pouch above it
+  - Davi: “poderia ter imagem card sobre mulher e imagem de homem preciso esperar o claude para voltar aos bons cards SETAS ZUADAS”
+- note 1790980910230 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-03)
+  - Card: {{c1::Villi}} are small finger-like projections of tissue which {{c2:: increase the surface area of the intestine ::function as what?}}.
+  - Davi: “cloze mt grande: poderia ser só inscrease intestinal surface”
+- note 1790981527126 (2026-uc03-patologia-radiologia-19-correlacao-2; 2026-10-03)
+  - Card: {{c2:: Anorectal varices }} result from portosystemic shunting between the {{c1:: superior rectal }} (portal) and {{c1:: middle/inferior rectal }} (systemic) veins
+  - Davi: “depois que eu fizer um comentário e vc corrigir, é bom colocar o comentário como corrigido, só colocar assim, na linha de baixo após o comentário: CORRIGIDO, data. assim vou saber quais cards o chat já corrigiu”
+- note 1791023294146 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-03)
+  - Card: Permanent circular folds of mucosa and submucosa in the small intestine are the {{c1::plicae circulares}}
+  - Davi: “poderia ter imagem”
+- note 1791023351944 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-03)
+  - Card: The most numerous lingual papillae, conical and heavily keratinized, are the {{c1::filiform}} papillae
+  - Davi: “[nota original papilas-tipos, 03/10] card gigantesco, não dá poderia ter imagem”
+- note 1791023352068 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-03)
+  - Card: Mushroom-shaped, lightly keratinized papillae scattered among the filiform ones are the {{c1::fungiform}} papillae
+  - Davi: “imagem ficou zuada, não deu pra aprender bem com ela comentário também ficou ruim nesse tipo, cabe bem uma tabela com os tipos de papillae”
+- note 1791023352198 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-03)
+  - Card: The largest lingual papillae, lined up just in front of the sulcus terminalis, are the {{c1::vallate}} papillae
+  - Davi: “imagem zuada poderia ter uma tabela + algo pra ser visual na língua de forma fácil”
+- note 1791023355318 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-03)
+  - Card: The sublingual gland is made mostly of {{c1::mucous}} tubules
+  - Davi: “falta comentário com explicação imagem ruim AQUI tem que ter aquela tabela do outro card”
+- note 1791023363069 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-03)
+  - Card: Progenitor cells that migrate down into the gland become {{c1::secretory}} cells, renewed more slowly than surface cells
+  - Davi: “tá faltanod comentário de novo”
+- note 1791034105561 (2026-uc08-anatomia-02-intestino-grosso-canal-anal; 2026-10-03)
+  - Card: The projection of the terminal ileum into the cecum, closing the ileal orifice with two lips, is the {{c1::ileal papilla}}
+  - Davi: “[oclusão substituída io-papila-ileal, 03/10] cloze zuado”
+- note 1790980911405 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-03)
+  - Card: Cells born in the crypt differentiate as they migrate {{c1:: up the villus }}, except Paneth cells, which stay at the crypt base
+  - Davi: “card está bom, mas acho que o cloze poderia obrigar a relembrar uma parte mais central do processo”
+- note 1791023296668 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-03)
+  - Card: The apical {{c1::striated (brush) border}} of enterocytes is a dense layer of microvilli
+  - Davi: “cloze mt grande, ruim de lembrar”
+- note 1791023302118 (?; 2026-10-03)
+  - Card: The colon wall is puckered into sacs called {{c1::haustra}}
+  - Davi: “isso é mais de anato, não desse deck”
+- note 1790980916154 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-04)
+  - Card: Compare the mucosae: the left image with villi is {{c1::small intestine}}, while the right image with straight crypts is {{c1::colon}}
+  - Davi: “cloze de imagem tá vindo zuado no ankidroid do cell mt info no mesmo card tb imagens são ruins e nao aparecem no ankidroid”
+- note 1784308054026 (?; 2026-10-05)
+  - Card: -tripsia indica {{c1::fragmentação}} ; -clasia, {{c1::fratura}} .
+  - Davi: “cada um desses deveria ser um card só, fica confundido as duas infos”
+- note 1790972069711 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-05)
+  - Card: The duodenojejunal flexure is supported by the {{c1:: suspensory muscle }} of the duodenum (ligament of Treitz)
+  - Davi: “imagem aqui ficou ruim pra explicar o card”
+- note 1790973222133 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-05)
+  - Davi: “cards de estruturas muito similares em anatomia poderiam vir juntos, não sei como seria ao certo para isso ocrrer mas aqui, por exemplo, seria bom se logo em seguida eu fizesse o card de vasos curtos do íleo”
+- note 1790979864034 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: The {{c1:: submucosal (Meissner's) }} plexus of the gut wall primarily controls secretion and blood flow
+  - Davi: “imagem zuada, mas esse mnemônico é ótimo esses comentários, é bom que tenha aquele "CORRIGIDO, data.", porque daí daqui um tempo teremos uma base de dados boa para calibração fina de criação de cards com IA”
+- note 1790979866060 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: This is a magnified image of {{c1::antral/pyloric stomach}}
+  - Davi: “cloze com mt info, tem que ser específico pra decorar melhor”
+- note 1790980909978 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-05)
+  - Davi: “esse cloze poderia ser substituído por um feito de forma manual, só com "duodeno", para ficar mais atômico anotar feedback que isso é possível e arrumar aqui”
+- note 1790980912277 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-05)
+  - Davi: “imagens ruins para identificação. teria sido melhor puxar de algum livro ou do histology guide imagens melhores card mt estranho”
+- note 1790980916280 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-05)
+  - Card: In the colon, which lacks Paneth cells, the stem cell niche is supported by {{c1:: deep crypt secretory }} cells
+  - Davi: “ficou estranho esse cloze, não compreendi bem o que o card quer lembrar”
+- note 1791000309552 (2026-uc08-fisiologia-05-digestao-absorcao-nutrientes; 2026-10-05)
+  - Card: {{c1:: Colipase }} anchors pancreatic lipase to the bile salt-coated fat droplet
+  - Davi: “explicação do tab não didática (não sei bem o porquê) imagem zuada também”
+- note 1791014716874 (2026-uc08-fisiologia-06-secrecao-gastrica; 2026-10-05)
+  - Card: Pepsinogen is secreted in response to {{c1:: vagal stimulation }} and {{c2:: local H + }}
+  - Davi: “esse comentário do tab com 1, 2 3 e 4 não gostei dá para achar formas melhores de explicar com storytelling”
+- note 1791023352819 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: The only lingual papillae without taste buds are the keratinized {{c1::filiform}} papillae
+  - Davi: “imagem zuada faltou comentário do porquê”
+- note 1791023353318 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: The cheeks, soft palate and floor of the mouth have {{c1::lining}} mucosa, with nonkeratinized epithelium
+  - Davi: “IMAGEM RUIM”
+- note 1791023366868 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: In the fundus, enteroendocrine cells mainly secrete {{c1::serotonin}}
+  - Davi: “imagem ruim, esse tipo”
+- note 1791054012018 (2026-uc03-grand-round-21-diabetes; 2026-10-05)
+  - Card: Diabetic ketoacidosis (DKA) is associated with {{c1:: Kussmaul }} breathing, which is rapid/deep breathing to compensate for metabolic {{c2:: acidosis }}
+  - Davi: “card tem a resposta nele mesmo está bom, só há esse pequeníssimo problema, porque não tenho que lembrar tanto gostei do conteúdo, formatação”
+- note 1791054015697 (2026-uc03-grand-round-21-diabetes; 2026-10-05)
+  - Card: What is the first change that occurs in the kidney in a diabetes mellitus patient? {{c1::Non-enzymatic glycation of the GBM}}
+  - Davi: “cloze com muitas palavras (8), difícil de lembrar”
+- note 1790973210184 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-05)
+  - Davi: “faltou o cloze ter uma seta apontando para onde era pra ver nos irmãos tb”
+- note 1790979868887 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: When a parietal cell is stimulated, its {{c1:: tubulovesicles }} fuse with the canaliculus, expanding the membrane that carries the proton pumps
+  - Davi: “imagem poderia cobrar o processo melhor”
+- note 1791023270317 (2026-uc08-fisiologia-08-motilidade-i; 2026-10-05)
+  - Card: Varicosities release {{c1::acetylcholine}} or norepinephrine, which diffuse to many smooth muscle cells
+  - Davi: “imagem imagem ruim”
+- note 1791023270891 (2026-uc08-fisiologia-08-motilidade-i; 2026-10-05)
+  - Card: Smooth muscle actin filaments lack {{c1::troponin}}; contraction starts through calmodulin and MLCK
+  - Davi: “tipo de card ruim, com ponto e vírgula”
+- note 1791023353568 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: The ventral surface of the tongue is smooth and covered by {{c1::lining}} mucosa
+  - Davi: “imagem imagem zuada ainda”
+- note 1791023355818 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: Mucous cells stain poorly in H&E because their granules hold hydrophilic {{c1::mucins}}
+  - Davi: “imagem desse estilo é zuada tem várias, anota pra não ter mais imagem tem que ser mais direcionada pro card imagem ruim, também faltou explicar a diferença entre mucous cells e goblet cells”
+- note 1791023357918 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: Near the stomach, esophageal {{c1::cardiac}} glands in the lamina propria add mucus
+  - Davi: “imagem”
+- note 1791023364492 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: The apical membrane of the parietal cell folds inward to form an intracellular {{c1::canaliculus}} lined with microvilli
+  - Davi: “aqui, a imagem não me ajuda a entender o que é o canaliculus imagem + card estranho + card não claro + card não prende a atenção card não induz a resposta, nem explica bem”
+- note 1790979869685 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: Pepsinogen (inactive) is converted into {{c1:: pepsin }} (active) in the presence of {{c2:: H + }}
+  - Davi: “imagem inadequada comentário estranho”
+- note 1790999832528 (2026-uc08-fisiologia-09-motilidade-ii; 2026-10-05)
+  - Card: Slow waves originate in the {{c1:: interstitial cells of Cajal }}, which serve as the pacemaker for GI smooth muscle
+  - Davi: “imagem poderia ter aqui”
+- note 1790999833204 (2026-uc08-fisiologia-09-motilidade-ii; 2026-10-05)
+  - Card: A slow wave crossing the contractile threshold causes contraction, but spike potentials appear only above the {{c1::electrical}} threshold
+  - Davi: “IMAGEM RUIM card zuado cloze não num local bom de lembrar”
+- note 1790999835379 (2026-uc08-fisiologia-09-motilidade-ii; 2026-10-05)
+  - Card: In antral systole , the antrum contracts against a closed pylorus, causing {{c1::retropulsion}} of chyme into the body
+  - Davi: “IMAGEM ZUADA”
+- note 1790999838053 (2026-uc08-fisiologia-09-motilidade-ii; 2026-10-05)
+  - Card: {{c1::Mass movements}}, a few times a day, push feces from the colon into the rectum
+  - Davi: “cloze aqui poderia ter várias respostas não ficou um bom cloze, único ficou estranho o comentário aqui”
+- note 1791023270196 (2026-uc08-fisiologia-08-motilidade-i; 2026-10-05)
+  - Card: Autonomic axons in smooth muscle release transmitter from periodic swellings called {{c1::varicosities}}
+  - Davi: “imagem zuada alguns cards autorais faltam negrito e sublinhado como no anking tme poderia ter imagem card escrito de forma não clara faltou negrito”
+- note 1791023355444 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: Pyramidal protein-secreting salivary cells with round nuclei and apical granules are {{c1::serous}} cells
+  - Davi: “card mt denso imagem zuada não ficou bom pensa o porquê depois IMAGEM ZUADA coloquei um negrito, aprende isso para entender o que fiz e porquê melhora tanto o card toda mudança que eu fizer manualmente nos cards vc tem que perceber quando eu pedir para ver os comentários, porque assim você pode aprender a fazer cards melhores, já colocando os que mexi como bons exemplares”
+- note 1791023357394 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: The serosa is covered by a simple squamous epithelium called {{c1::mesothelium}}
+  - Davi: “imagem poderia ter imagem, nem que fosse gerada pelo chat IMAGEM RUIM”
+- note 1791023362817 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: Gastric stem cells sit in the {{c1::isthmus}}, between the pit and the gland
+  - Davi: “imagem inadequada, todas as desse livro”
+- note 1791023364242 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-05)
+  - Card: Parietal cells lie among {{c1::mucous neck}} cells and in the deeper part of the gland
+  - Davi: “imagem”
+- note 1791023819869 (2026-uc08-fisiologia-08-motilidade-i; 2026-10-05)
+  - Card: During peristalsis, the circular muscle on the oral side of the bolus {{c1::contracts}} while the segment just aboral to it relaxes
+  - Davi: “há a resposta por oposição aqui”
+- note 1791054012719 (2026-uc03-grand-round-21-diabetes; 2026-10-06)
+  - Card: Chronic hyperinsulinemia can {{c1:: downregulate }} insulin receptors.
+  - Davi: “muitas palavras no cloze”
+- note 1790972065436 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-13)
+  - Card: The esophageal hiatus is formed by the {{c1:: right crus }} of the diaphragm, which acts as an external lower esophageal sphincter
+  - Davi: “faltou uma explicação do que é esse right crus”
+- note 1790972067760 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-13)
+  - Card: What is the most common location for a gastric ulcer ? {{c1:: Lesser curvature }}
+  - Davi: “tab tem que explicar o h pylori”
+- note 1790972067861 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-13)
+  - Card: The anterior surface of the stomach is related to the diaphragm, the anterior abdominal wall and the {{c1:: left lobe }} of the liver
+  - Davi: “tamanho da imagem poderia ser reduzido, para caber sem eu ter que descer quando abrir o card”
+- note 1790972067961 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-13)
+  - Card: The posterior surface of the stomach forms most of the anterior wall of the {{c1:: omental bursa }}
+  - Davi: “imagem estranha não entendi bem o que porquê do card também”
+- note 1790972068062 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-13)
+  - Card: A posterior gastric ulcer may erode into the lesser sac , damaging the {{c1:: splenic }} artery
+  - Davi: “imagem não explica”
+- note 1790972068360 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-13)
+  - Card: Part of duodenum
+  - Davi: “poderia ter dica aqui: parte do duodeno part of the duodenum”
+- note 1790972069412 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-13)
+  - Card: Gallstones that reach the confluence of the common bile and pancreatic ducts at the {{c1:: hepatopancreatic ampulla }} can block both ducts (double-duct sign) causing cholangitis and pancreatitis
+  - Davi: “de novo, a imagem contém tudo que deveria ter aqui, mas está genérica o comentário também ficou abaixo da imagem, o que é ruim”
+- note 1790972069911 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-13)
+  - Card: The jejunum makes up the proximal {{c1:: two-fifths }} of the small intestine beyond the duodenum
+  - Davi: “bom exemplo de card que conjuga duas informações: não precisa de um card pro ileum ser distal three-fifths, porque se sei o card do jejunum já sei o outro”
+- note 1790972070612 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-13)
+  - Card: The {{c1:: jejunum }} has few, large arterial arcades and long vasa recta
+  - Davi: “resposta tava no card, então mudei poderia ter imagem aqui imagem ruim”
+- note 1790972070958 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-13)
+  - Card: Compared with the ileum , the jejunum has a {{c1:: thicker ::thicker / thinner}} wall and a larger caliber
+  - Davi: “imagem ruim mt info uma boa imagem tem pouco informação, mas direcionada em específico para o card que contribui excesso de ; e : no comentário”
+- note 1790972071259 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-13)
+  - Card: Meckel diverticulum arises due to persistence of the {{c1::vitelline duct}}
+  - Davi: “os cards de clínica desse deck de anato do esôfago, estômago e intestino delgado ficaram excedentes: é bom que seja um só card de clínica, com a principal informação do assunto. uma informação que vou me lembrar e associar sempre àquela doença. ex: resistência à insulina na DM, autoimunidade no lúpus, skip lesion em chrons... aqui, os cards eram coisas que seria bom ter estudado para realmente trazer. foram cards de clínica, não cards que me dão um conhecimento de uma patologia realmente associada ao conteúdo da aula só com o que poderia saber da aula o foco não é conhecer tudo de uma doença r”
+- note 1790973210308 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-13)
+  - Davi: “seta para o local errado”
+- note 1790973218382 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-13)
+  - Card: Part of duodenum + vertebral level
+  - Davi: “nesse tipo de cloze é bom que tenha dica no card virado antes em específico, algo direto no cloze, tipo: [part of duodenum and height related to the spine), mas mais curto duas ou três palavras para direcionar, porque se não fica mt genérico”
+- note 1790974689756 (2026-uc08-anatomia-02-intestino-grosso-canal-anal; 2026-10-13)
+  - Card: The ascending and descending colon are secondarily {{c1:: retroperitoneal ::peritoneal relation}}
+  - Davi: “acho que não era a aula para isso isso não veio da aula portanto, não sei o cronograma também consta uma aula disso por isso vou suspender e talvez possa voltar depois”
+- note 1790974691958 (2026-uc08-anatomia-02-intestino-grosso-canal-anal; 2026-10-13)
+  - Card: Behind the apex of the sigmoid mesocolon , on the left common iliac vessels, lies the {{c1:: left ureter }}
+  - Davi: “imagem poderia ser um pouco menor card escrito de forma estranha um pouco”
+- note 1790974697004 (2026-uc08-anatomia-02-intestino-grosso-canal-anal; 2026-10-13)
+  - Davi: “excesso de informações aqui, fica difícil identificar o que o card fala sobre anal valve seria bom achar outra imagem para cobrar isso card ficou estranho a IO”
+- note 1790974697406 (2026-uc08-anatomia-02-intestino-grosso-canal-anal; 2026-10-13)
+  - Davi: “esse card possui um excesso de informações, não fica claro o que tenho que saber ou não a imagem fica muito pequena e os detalhes se perdem”
+- note 1790978739486 (2026-uc08-anatomia-02-intestino-grosso-canal-anal; 2026-10-13)
+  - Card: The upper ends of the anal columns mark the {{c1:: anorectal }} junction, where the rectum becomes the anal canal
+  - Davi: “imagem com mt info”
+- note 1790979869136 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: Mucous neck cells secrete a mucin different from that of the surface cells, with {{c1:: antibiotic }} properties
+  - Davi: “imagem”
+- note 1790979869985 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: The gastric hormone that increases appetite is {{c1:: ghrelin }}
+  - Davi: “card estranho + comentário estranho esses estranhos não sei bem o que são, mas quero manter o conteúdo e trocar o card”
+- note 1790980015534 (2026-uc03-microbiologia-35-patogenicidade-bacteriana; 2026-10-13)
+  - Card: H. pylori produces {{c1::urease::enzyme}}, which alkalinizes the local environment, enabling bacterial survival
+  - Davi: “tab ficou ruim explicaçao zuada”
+- note 1790980913981 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-13)
+  - Card: Mucus is secreted into the GI tract via {{c1:: Brunner }} glands in the duodenum
+  - Davi: “card dá a impressão de que é só assim o que é errado há outras formas de secretar muco”
+- note 1790980914355 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-13)
+  - Card: The villi and plicae in this H&E section identify the {{c1:: small intestine }}
+  - Davi: “aqui não deveria ter descrição: acerto sem ver a imagem dá para ser um IO melhor sem texto”
+- note 1790981514202 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-13)
+  - Davi: “card não indica nada o cloze não tem seta apontando”
+- note 1790981514326 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-13)
+  - Davi: “MESMA coisa já comentada em outros cards desse slide”
+- note 1790981515925 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-13)
+  - Davi: “NÃO HÁ INDICAÇÃO DA ESTRUTURA NO CARD”
+- note 1790981519924 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-13)
+  - Card: From the lymph , chylomicrons reach the blood through the {{c1:: thoracic duct }}
+  - Davi: “card com cloze num lugar mt fácil o cloze cairia melhor em [thoracic duct]”
+- note 1790981522079 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-13)
+  - Card: The {{c1:: ileocolic ::SMA branch}} artery supplies the terminal ileum, the cecum and, through its appendicular branch, the appendix
+  - Davi: “aqui poderia ter dica também tipo branch of the SMA”
+- note 1790981522327 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-13)
+  - Card: The middle colic artery, a branch of the superior mesenteric artery, supplies the {{c1:: transverse }} colon
+  - Davi: “faltou negrito em superior mesenteric artery”
+- note 1790981524526 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-13)
+  - Card: Vessel · colonic arcade
+  - Davi: “aqui poderia ter uma dica, tipo: vaso”
+- note 1790981524777 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-13)
+  - Davi: “ficou ruim de ver tentar achar outro em deck extero, netter ou imagem da internet para cobrir essa informação melhor seta não aponta certo”
+- note 1790981524902 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-13)
+  - Card: The {{c1:: marginal artery }} (of Drummond) runs along the mesenteric border of the colon and joins the SMA and IMA territories
+  - Davi: “linguagme estranha, que não induz”
+- note 1790981526502 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-13)
+  - Card: The middle rectal artery is a branch of the {{c1:: internal iliac }} artery
+  - Davi: “imagem com mt info comentário com IA ; : ,”
+- note 1790981526625 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-13)
+  - Card: The inferior rectal artery is a branch of the {{c1::internal pudendal}} artery
+  - Davi: “imagem nada a ver aqui”
+- note 1790999837929 (2026-uc08-fisiologia-09-motilidade-ii; 2026-10-13)
+  - Card: {{c1:: Haustrations }} are slow segmental contractions of the proximal colon that mix contents and expose them to the mucosa for water absorption
+  - Davi: “outro exemplo de falta de negrito + falta de escrita que capta a atenção”
+- note 1790999838304 (2026-uc08-fisiologia-09-motilidade-ii; 2026-10-13)
+  - Card: Rectal distension triggers a sacral reflex through the {{c1:: pelvic }} nerves that contracts the rectum and relaxes the internal anal sphincter
+  - Davi: “imagem poderia ser memlhor e mais direcionada especificamente ao conteúdo do card”
+- note 1791000311952 (2026-uc08-fisiologia-05-digestao-absorcao-nutrientes; 2026-10-13)
+  - Card: Enterocytes absorb dietary {{c1:: heme }} intact, with its iron still inside the {{c2:: porphyrin }} ring
+  - Davi: “card estranho”
+- note 1791000315902 (2026-uc03-microbiologia-39-homem-ambiente-microrganismo; 2026-10-13)
+  - Card: What proteins are tight junctions composed of? {{c1::Claudins and occludins::2}}
+  - Davi: “esse tipo de card é para ser rosa”
+- note 1791014713674 (2026-uc08-fisiologia-06-secrecao-gastrica; 2026-10-13)
+  - Card: Acute gastritis may arise with {{c1:: NSAID }} use due to decreased {{c2:: PGE 2 }}
+  - Davi: “tab ruim”
+- note 1791014714650 (2026-uc08-fisiologia-06-secrecao-gastrica; 2026-10-13)
+  - Card: Of the three phases of gastric secretion, the {{c1::intestinal::phase}} phase accounts for only ~10% of gastric acid secretion and mostly brakes it
+  - Davi: “faltou uma dica no cloze tipo: fase intestinal reescreve o card e vê como poderia ser”
+- note 1791014717050 (2026-uc08-fisiologia-06-secrecao-gastrica; 2026-10-13)
+  - Card: In the duodenum, acid releases {{c1:: secretin }}, which also stimulates pepsinogen secretion by chief cells
+  - Davi: “comentário não anking card com escrita estranha: acid releases secretin”
+- note 1791023299366 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-13)
+  - Card: Paneth cells have large apical {{c1:: eosinophilic }} secretory granules
+  - Davi: “card com informação não storytelling: não aprendo nada, só decoro algo meio inutil”
+- note 1791023303193 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-13)
+  - Card: Goblet cells of the large intestine become more numerous toward the {{c1:: rectum }}
+  - Davi: “faltando negrito e itálico em card autoral NEGRITO E ITÁLICO”
+- note 1791023353192 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: The gingiva and hard palate have {{c1:: masticatory }} mucosa, with keratinized epithelium
+  - Davi: “IMAGEM”
+- note 1791023354693 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: The parotid gland has exclusively {{c1:: serous }} acini
+  - Davi: “poderia ter uma tabela comparando as glândulas aqui bom exemplo de tabela seria bom uma imagem com localização das glândulas imagem clara e bom”
+- note 1791023354943 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: About two-thirds of all saliva comes from the {{c1:: submandibular }} glands
+  - Davi: “imagem zuada em vários cards, vou pagar de avisar”
+- note 1791023355569 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: Serous cells are grouped into round secretory units called {{c1:: acini }}
+  - Davi: “imagem zuada card com escrita estranha”
+- note 1791023355691 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: Salivary cells with pale, foamy cytoplasm and flattened basal nuclei are {{c1:: mucous }} cells
+  - Davi: “card estranho ajustar esses cards estranhos para serem anking like melhor e realmente me ensinarem algo”
+- note 1791023355944 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: Contractile cells wrapped around acini, inside the basal lamina, are {{c1:: myoepithelial }} cells
+  - Davi: “cards autorais poderiam ter negrito + sublinhado no padrão anking”
+- note 1791023356892 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: The lamina propria is {{c1:: loose }} connective tissue rich in vessels, lymphatics and lymphocytes
+  - Davi: “imagem ruim”
+- note 1791023357519 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: Lymphoid nodules and free immune cells in the gut mucosa and submucosa form the {{c1:: MALT }}
+  - Davi: “imagem ruim + card com escrita estranha”
+- note 1791023357791 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: The esophageal glands , which secrete lubricating mucus, lie in the {{c1:: submucosa }}
+  - Davi: “comentário zuado nesse estilo”
+- note 1791023359842 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: The pyloric sphincter is a thickening of the {{c1:: middle circular }} layer of the gastric muscularis
+  - Davi: “imagem”
+- note 1791023360217 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: The gastric surface epithelium dips into the lamina propria to form the {{c1:: gastric pits }}
+  - Davi: “card estranho não ensina algo”
+- note 1791023365216 (2026-uc08-biologia-tecidual-03-estrutura-estomago; 2026-10-13)
+  - Card: In the neck of gastric glands, scattered among parietal cells, {{c1:: mucous neck }} cells secrete a less alkaline mucus
+  - Davi: “imagem zuada escrita estranha sem storytelling”
+- note 1791052257826 (2026-uc08-fisiologia-08-motilidade-i; 2026-10-13)
+  - Card: After contraction, {{c1:: SERCA }} pumps Ca²⁺ back into the sarcoplasmic reticulum
+  - Davi: “card sem negrito”
+- note 1791054016595 (2026-uc03-grand-round-21-diabetes; 2026-10-13)
+  - Card: Histology of type 1 diabetes mellitus demonstrates islets with {{c1:: leukocytic infiltrate }}
+  - Davi: “nesse caso, o (inflammation) pode vir no comentário a explicação no card não fica tão legal sei que é anking, mas é um padrão que gostaria de anotar pros autorais saberem”
+- note 1791557940633 (2026-uc03-microbiologia-43-biologia-fungos; 2026-10-13)
+  - Card: {{c1:: Yeasts::Yeasts/Molds }} form creamy, pasty colonies, whereas {{c1:: molds::ye asts/molds }} form cottony, velvety or powdery ones
+  - Davi: “card pode ter um só cloze e dica tipo yeast/mold no cloze antes de eu tentar acertar a dica guia assim o próprio card nn entrega a resposta tipo como deixei”
+- note 1791557945582 (2026-uc03-microbiologia-44-micoses-cutaneas; 2026-10-13)
+  - Card: {{c2::Dermatophytes::Which cutaneous fungi}} contain {{c1:: keratinase ::enzyme}}, allowing them to subsist off keratin , a protein resistant to most organisms
+  - Davi: “card no deck errado era para estar no deck de dermatoses cutâneas”
+- note 1791575024496 (2026-uc08-fisiologia-09-motilidade-ii; 2026-10-13)
+  - Card: {{c1::Acetylcholine}} and stretch of the gut wall raise slow-wave amplitude , so more spike potentials ride on each wave
+  - Davi: “FALTAM NEGRITOS voltar colocando negritos em todos os autorais que faltam, seguindo o padrão do anking em detalhes”
+- note 1791575029793 (2026-uc08-fisiologia-09-motilidade-ii; 2026-10-13)
+  - Card: Acid and digested nutrients in the duodenum release hormones that slow gastric emptying by relaxing the {{c1::stomach}} and contracting the {{c2::pylorus}}
+  - Davi: “negrito”
+- note 1791575032019 (2026-uc08-fisiologia-09-motilidade-ii; 2026-10-13)
+  - Card: Conditions that cause {{c1::vomiting}} include infection, medication, vestibular dysfunction, and chemoradiation
+  - Davi: “NEGRITO”
+- note 1791575683767 (2026-uc03-microbiologia-43-biologia-fungos; 2026-10-13)
+  - Card: In {{c1:: sick building }} syndrome, indoor fungi cause fatigue, headache and airway irritation in more than 20% of occupants
+  - Davi: “card mal feito probabilidade zuada em quê agrega na minha formação?”
+- note 1791575686544 (2026-uc03-microbiologia-43-biologia-fungos; 2026-10-13)
+  - Card: Fungal mitochondria have {{c1:: flattened }} (plate-like) cristae
+  - Davi: “poderai ter imagem aqui”
+- note 1791575690219 (2026-uc03-microbiologia-43-biologia-fungos; 2026-10-13)
+  - Card: Mucor , Rhizopus and Lichtheimia now belong to the phylum {{c1:: Mucoromycota }}
+  - Davi: “esse tipo de card é melhor com visualidade: mostrar a árvore genealógica”
+- note 1791625436408 (2026-uc03-imunologia-64-hipersensibilidade; 2026-10-13)
+  - Card: Type {{c2:: IV }} HSRs may occur via delayed-type hypersensitivity , which involves CD4 + T-cells
+  - Davi: “card do conteúdo errado”
+- note 1791625436533 (2026-uc03-grand-round-03-espondilodiscite-tuberculosa; 2026-10-13)
+  - Card: What type of hypersensitivity reaction is a tuberculin skin test (PPD)? {{c1::Type IV HSR (Th 1 mediated)}}
+  - Davi: “card era para ser de outro deck”
+- note 1791626776803 (2026-uc03-microbiologia-44-micoses-cutaneas; 2026-10-13)
+  - Card: Dermatophytes rarely invade below the {{c1::stratum corneum}}
+  - Davi: “imagem bela imagem”
+- note 1791626778904 (2026-uc03-microbiologia-44-micoses-cutaneas; 2026-10-13)
+  - Card: Dermatophyte onychomycosis usually starts at the {{c1::distal}} nail edge, whereas Candida starts at the proximal nail fold
+  - Davi: “já pontuei 300 cards nesse estilo, que são ruins ajustei”
+- note 1791627550702 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i; 2026-10-13)
+  - Card: Phosphorylation can switch a transcription factor off by blocking its {{c1::DNA binding}} or by keeping it out of the {{c2::nucleus}}
+  - Davi: “card repetido, não? card mal escrito não aparece nada”
+- note 1791628672372 (2026-uc03-microbiologia-48-micoses-subcutaneas; 2026-10-13)
+  - Card: Subcutaneous mycoses begin when saprobic fungi from soil or plants are {{c1::implanted}} through a skin wound
+  - Davi: “card com escrita estranha de novo, o card aqui ficou com cloze em algo que não é para ser decorado, mas entendido NEGRITO isso é algo específico tb de subcutânea? cutânea não tem tb?”
+- note 1791628674449 (2026-uc03-microbiologia-48-micoses-subcutaneas; 2026-10-13)
+  - Card: At 25ºC , Sporothrix conidia cluster at the tip of the conidiophore in a {{c1::daisy}}-like pattern
+  - Davi: “imagem”
+- note 1791648193118 (2026-uc03-microbiologia-28-pratica-1; 2026-10-13)
+  - Card: Cocci that stay together in cubic packets after dividing are called {{c1::sarcinae}}
+  - Davi: “poderia ter imagem boa disso”
+- note 1791664582151 (2026-uc03-biologia-molecular-29-operon-procariotos; 2026-10-13)
+  - Card: Bound Lac repressor lowers lac operon transcription about {{c1::1000}}-fold
+  - Davi: “escrita estranha + sem negrito + faltou ensinar e colocar cloze que pede para lembrar algo”
+- note 1791716411684 (2026-uc03-patologia-47-inflamacao-granulomatosa; 2026-10-13)
+  - Card: Granulomas expand partly through continued {{c1::monocyte recruitment}}
+  - Davi: “tab esquisito”
+- note 1791730463385 (2026-uc03-microbiologia-34-genetica-bacteriana; 2026-10-13)
+  - Card: The bacterial chromosome is packed into a compact {{c1::nucleoid}}, which has no membrane around it
+  - Davi: “detalhe deixou card mt grande sem necessidade "through DNA interaction with the proteins HU and H-NS" isso aqui é meio away”
+- note 1791762418521 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-13)
+  - Card: A drug whose curve is shifted right and has a lower plateau has lower potency and lower {{c1::efficacy}}
+  - Davi: “card mal feito cobra mal relembrar conceito é quase um card perdido: só gasta meu tempo um bom card cobraria diferença de potência e eficácia, relação de mover para direita ou para esquerda ou pra cima e pra baixo, tentando deixar intuitivo essa pegada de car”
+- note 1791762422573 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-13)
+  - Card: What effect does a competitive antagonist have on efficacy ? {{c1::No change}}
+  - Davi: “IMAGEM”
+- note 1791762424650 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-13)
+  - Card: In pharmacokinetic antagonism , one drug lowers the {{c1::concentration}} of another at its site of action
+  - Davi: “card escrito de forma estranha”
+- note 1791625431633 (2026-uc03-imunologia-45-ativacao-linfocitos-t; 2026-10-15)
+  - Card: A committed Th1 cell keeps the IL-4 gene silent by packing it into closed {{c1::chromatin}}
+  - Davi: “card estranho de linguagem linguagem autoral ainda não está 100% anking like tipo "subset????"”
+- note 1791625433083 (2026-uc03-imunologia-45-ativacao-linfocitos-t; 2026-10-15)
+  - Card: Induced Tregs develop from naive CD4+ T cells exposed to TGF-β plus {{c1::retinoic acid}}
+  - Davi: “um bom comentário explicaria o porquê ao invés de só falar que deriva”
+- note 1791626776253 (2026-uc03-microbiologia-44-micoses-cutaneas; 2026-10-15)
+  - Card: Sites infected by each dermatophyte genus: Skin Hair Nails Trichophyton ✓ ✓ ✓ Microsporum ✓ {{c1::✓}} {{c1::✗}} Epidermophyton ✓ {{c2::✗}} {{c2::✓}}
+  - Davi: “card deveria ser a tabela em IO assim fica ruim ajustei o card para ficar bom”
+- note 1791627549152 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i; 2026-10-15)
+  - Card: A eukaryotic activator binds DNA through one domain and recruits the transcription machinery through a separate {{c1::activation domain}}
+  - Davi: “o que isso sequer quer dizer? card bom explica algo e ajuda a decorar esse cria conceitos específicos e me joga como se decorar qualquer coisa servisse card mal escrito e sem negrito”
+- note 1791628675323 (2026-uc03-microbiologia-48-micoses-subcutaneas; 2026-10-15)
+  - Card: Because the fungus is implanted by minor trauma from soil and plants, chromoblastomycosis mostly affects the {{c1::lower limbs}}
+  - Davi: “card ruim não ensina nada, só decora para ser bom, seria a explicação do porquê é lower limbs que são afetados + clozem em algo de decorar”
+- note 1791716407251 (2026-uc03-patologia-47-inflamacao-granulomatosa; 2026-10-15)
+  - Card: {{c1::Foreign-body}} granulomas surround material that macrophages cannot readily degrade
+  - Davi: “fiz um ajuste no card aprende o que foi entende o que é assim fica melhor: cloze no que realmente é para decorar”
+- note 1791716425502 (2026-uc03-patologia-47-inflamacao-granulomatosa; 2026-10-15)
+  - Card: Foreign-body giant cells tend to have {{c1::irregularly scattered}} nuclei
+  - Davi: “palavras mt abstratas dif´ceis de lembrar para lembrar, simplicidade e rigor valem mais”
+- note 1791716425974 (2026-uc03-patologia-47-inflamacao-granulomatosa; 2026-10-15)
+  - Card: Neither {{c1::caseous necrosis}} nor {{c2::giant cells}} are required to diagnose a granuloma
+  - Davi: “ajeitei para ficar melhor o card aprende”
+- note 1791716432060 (2026-uc03-patologia-47-inflamacao-granulomatosa; 2026-10-15)
+  - Card: Granulomas heal by {{c1::fibrosis}}, which replaces functional parenchyma and can impair the organ
+  - Davi: “de novo: o que isso sequer quer dizer? card ruim conserta e grava como exemplo ruim para não ter mais às vezes vc fica só seguindo regra ao invés de fazer as coisas bem feitas aprende a fazer bons card, anking like em tamanho, linguagem, forma de apresentar e clareza”
+- note 1791716444100 (2026-uc03-patologia-47-inflamacao-granulomatosa; 2026-10-15)
+  - Card: Unlike immune granulomas, foreign-body granulomas (e.g., around sutures or talc) form without {{c1::T-cell}} activation
+  - Davi: “card ruim mts autorais desse não tem explicado bem não fica claro a explicação nem o que querem lembrar”
+- note 1791744435681 (2026-uc03-microbiologia-43-biologia-fungos; 2026-10-15)
+  - Card: Asexual spores formed freely on hyphae are {{c1::conidia}}, whereas spores formed inside a sac (sporangium) are sporangiospores
+  - Davi: “o card realmente não explica bem algo digo, não fica claro o conceito que ele tenta lembrar”
+- note 1791744812583 (2026-uc03-grand-round-04-paracoccidioidomicose; 2026-10-15)
+  - Card: In paracoccidioidomycosis , conidia from the environmental {{c1::mold::mold/yeast}} form are inhaled, and in tissue the fungus becomes a {{c1::yeast::mold/yeast}}
+  - Davi: “não seria mold phase? ficou top esse card”
+- note 1791762422450 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-15)
+  - Card: What effect does a competitive antagonist have on potency ? {{c1::Decrease (curve shifts right)}}
+  - Davi: “poderia ter uma imagem aqui”
+- note 1791983678232 (2026-uc03-patologia-62-inflamacao-cronica; 2026-10-15)
+  - Card: Chronic inflammation is inflammation that lasts {{c1::weeks to months}}
+  - Davi: “quando falei de card organizador, era para o cloze ser aquilo que deve ser lembrado também é essencial que fosse em tópicos C I D”
+- note 1790972065310 (2026-uc08-anatomia-01-esofago-estomago-delgado; 2026-10-22)
+  - Card: The {{c2:: aorta }}, thoracic duct , and azygos vein perforate the diaphragm at the level of {{c1:: T12 }}
+  - Davi: “falta um card organizador de atravessar o diafragma card novo em tabela com clozes”
+- note 1790974695882 (2026-uc08-anatomia-02-intestino-grosso-canal-anal; 2026-10-22)
+  - Card: In the male, the rectum is related anteriorly to the bladder, the seminal glands and the {{c1:: prostate }}
+  - Davi: “IMAGEM ruim”
+- note 1790981518578 (2026-uc03-patologia-radiologia-19-correlacao-2; 2026-10-22)
+  - Card: At the lower esophagus , the portal system meets the systemic system through the {{c1:: left gastric }} vein and the esophageal branches of the {{c1:: azygos }} vein
+  - Davi: “tem um card mt parecido com esse, daí fico confundido escreve diferente esse um pouco poderia ter uma foto melhor”
+- note 1790981525201 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-22)
+  - Card: The {{c2::rectosigmoid junction (Sudeck point)}} is a watershed region supplied by the last sigmoid arterial branch from the {{c1:: inferior mesenteric artery }} and the {{c1:: superior rectal artery
+  - Davi: “melhorei o card”
+- note 1790999272782 (2026-uc08-fisiologia-08-motilidade-i; 2026-10-22)
+  - Card: RhoA activates {{c1::Rho kinase}}, which inhibits myosin light chain phosphatase and raises the Ca 2+ sensitivity of smooth muscle
+  - Davi: “card estranho, poderia ensinar melhor”
+- note 1790999833029 (2026-uc08-fisiologia-09-motilidade-ii; 2026-10-22)
+  - Card: Slow waves of the GI tract are produced via cyclic opening of {{c1:: Ca 2+ }} channels (depolarization), followed by opening of {{c1:: K + }} channels (repolarization)
+  - Davi: “AJUSTEI o card para melhorá-lo anota no exemplares card sumiu, não compreendo”
+- note 1791000310976 (2026-uc08-fisiologia-05-digestao-absorcao-nutrientes; 2026-10-22)
+  - Card: The basolateral {{c1:: Na⁺/K⁺-ATPase }} maintains the Na⁺ gradient that drives nutrient cotransport in enterocytes
+  - Davi: “negrito”
+- note 1791000316027 (?; 2026-10-22)
+  - Card: Glucose uptake by SGLT1 activates myosin light chain kinase , which opens the {{c1:: paracellular }} pathway so water and nutrients follow
+  - Davi: “CARD com boa ideia, mas mal aplicada”
+- note 1791023298343 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-22)
+  - Card: Enterocytes keep {{c1:: disaccharidases }} and {{c1:: peptidases }} in the glycocalyx, finishing digestion at the brush border
+  - Davi: “melhorei o card, aprende”
+- note 1791023298718 (2026-uc08-biologia-tecidual-04-intestinos; 2026-10-22)
+  - Card: Enterocytes export triglycerides as {{c1:: chylomicrons }}, which enter the lacteal
+  - Davi: “imagem ruim”
+- note 1791557941879 (2026-uc03-microbiologia-43-biologia-fungos; 2026-10-22)
+  - Card: In dimorphic fungi, the yeast phase at 37 °C has more {{c1:: α-glucan }} in its wall than the mold phase
+  - Davi: “seria bom explicar no comentário que esse é o fator de virulência”
+- note 1791575026219 (2026-uc08-fisiologia-09-motilidade-ii; 2026-10-22)
+  - Card: In the pharyngeal phase , a peristaltic wave of the {{c1:: pharyngeal constrictors }} pushes the bolus toward the esophagus
+  - Davi: “faltou imagem do que é essa estrutura”
+- note 1791575691218 (2026-uc03-microbiologia-43-biologia-fungos; 2026-10-22)
+  - Card: Hyphae grow by elongating at their {{c1:: tips }}, and a hyphal fragment can start a new colony
+  - Davi: “isso é um bom exemplo de card de mecanismo, me ajuda a compreender coisas básicas de vários tipos de fungos assim, para aula de aspectos gerais dos fungos, é isso que espero coisas que me ajudam a compreender o fenômeno como um todo, para depois aprofundar em detalhes e minúcias da exceções”
+- note 1791625425207 (2026-uc03-imunologia-07-organizacao-sistema-imune; 2026-10-22)
+  - Card: Naive T cells recirculate through lymph nodes, whereas activated effector T cells home to the {{c1:: infected tissue }}
+  - Davi: “negrito”
+- note 1791625425333 (2026-uc03-imunologia-20-mhc-apresentacao; 2026-10-22)
+  - Card: As dendritic cells migrate to the lymph node they mature and raise MHC and the costimulatory molecule {{c1:: B7 }}
+  - Davi: “NEGRITO e sublinhado”
+- note 1791625426282 (2026-uc03-imunologia-20-mhc-apresentacao; 2026-10-22)
+  - Card: Antigens that lack a(n) {{c1:: peptide }} component are not recognizable by T cells and thus stimulate B cells directly
+  - Davi: “tab bom comentário ruim”
+- note 1791625427358 (2026-uc03-imunologia-20-mhc-apresentacao; 2026-10-22)
+  - Card: Antigen loading onto MHC II occurs following release of the {{c2:: invariant chain }} in a(n) {{c1:: acidified endosome }}
+  - Davi: “tab não fala o que é invariant chain corrigir isso”
+- note 1791625427531 (2026-uc03-imunologia-07-organizacao-sistema-imune; 2026-10-22)
+  - Card: In {{c1:: cross-presentation }}, dendritic cells load peptides from ingested antigens onto MHC I and activate CD8+ T cells
+  - Davi: “negrito”
+- note 1791625428782 (2026-uc03-imunologia-45-ativacao-linfocitos-t; 2026-10-22)
+  - Card: {{c1:: CTLA-4 }} is an inhibitory receptor , induced on activated T cells, that binds B7
+  - Davi: “negrito”
+- note 1791625434208 (2026-uc03-imunologia-45-ativacao-linfocitos-t; 2026-10-22)
+  - Card: IFN-γ from Th1 cells promotes B-cell class switching to {{c1:: IgG }}
+  - Davi: “negrito”
+- note 1791625434632 (2026-uc03-imunologia-45-ativacao-linfocitos-t; 2026-10-22)
+  - Card: {{c1:: Natural Tregs }} arise in the thymus, whereas induced Tregs develop from naive CD4+ T cells in the periphery
+  - Davi: “negrito”
+- note 1791627546300 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i; 2026-10-22)
+  - Card: Besides saving energy, regulating gene expression drives cell {{c1:: differentiation }} during development
+  - Davi: “NEGRITO”
+- note 1791627546552 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i; 2026-10-22)
+  - Card: Regulated genes, such as alcohol dehydrogenase in the liver, are expressed only in certain {{c1:: cell types }} or times
+  - Davi: “falando desse deck como um todo: excesso de cards autorais de baixa qualidade, com cloze em palavras que não são as mais específicas a serem decoradas sinto que faltou informação no deck como um todo, para cobrir a aula é necessário se perguntar, para um card autoral: isso aqui agrega algo no conhecimento ou está só para ficar bonito? existem formas boas e ruins de criar cards autorais os do anking são melhores”
+- note 1791627548276 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i; 2026-10-22)
+  - Card: The TATA-binding protein , which recognizes the TATA box, is a subunit of the general factor {{c1:: TFIID }}
+  - Davi: “de novo, sigla só o card”
+- note 1791627548403 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i; 2026-10-22)
+  - Card: In an RNA polymerase II promoter , the BRE beside the TATA box is recognized by {{c1:: TFIIB }}
+  - Davi: “COMENTÁRIO RUIM”
+- note 1791627548775 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i; 2026-10-22)
+  - Card: Several activators on one enhancer give more than the sum of their separate effects, which is called {{c1:: synergy }}
+  - Davi: “boa ideia de card bom comentário porém, o card em si está escrito de forma estranha”
+- note 1791627548902 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i; 2026-10-22)
+  - Card: The yeast activator {{c1:: Gal4 }} turns on the genes that metabolize galactose
+  - Davi: “negrito negrito e sublinhado tem que ser gate-hard dos autorais”
+- note 1791627549027 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i; 2026-10-22)
+  - Card: The Gal4 DNA-binding domain recognizes one to four copies of the {{c1:: upstream activating sequence (UAS) }}
+  - Davi: “card ruim: cloze é só a sigla e tá dada a resposta”
+- note 1791627549276 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i; 2026-10-22)
+  - Card: The Gal4 activation domain recruits TFIID, Mediator and {{c1:: chromatin-modifying proteins }}
+  - Davi: “falta um organizador dessa aula falta gate hard em negrito nos cards autorais”
+- note 1791627549902 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i; 2026-10-22)
+  - Card: Ways to switch on a eukaryotic transcription factor: 1. {{c1:: Ligand ::L…}} binding 2. {{c1:: Phosphorylation ::P…}} 3. Unmasking 4. {{c1:: Nuclear entry ::N…}}
+  - Davi: “poderia ser tópicos aqui, não sequencial só faltou negrito”
+- note 1791627550027 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i; 2026-10-22)
+  - Card: Steroid and thyroid hormones cross the membrane and bind {{c1:: nuclear }} receptors, which then act as transcription factors
+  - Davi: “CARD RUIM”
+- note 1791628672497 (2026-uc03-microbiologia-48-micoses-subcutaneas; 2026-10-22)
+  - Card: {{c1:: Madurella grisea }}, an agent of eumycetoma in Brazil, forms black grains
+  - Davi: “imagem no back”
+- note 1791628674574 (2026-uc03-microbiologia-48-micoses-subcutaneas; 2026-10-22)
+  - Card: Sporothrix is a a cigar-shaped budding {{c1::yeast::yeast/mold}} in tissue and a {{c1::mold::yeast/mold}} on plants and soil
+  - Davi: “melhorei o card falta só a imagem agora aprendi do que fiz”
+- note 1791628675824 (2026-uc03-microbiologia-48-micoses-subcutaneas; 2026-10-22)
+  - Card: A mycetoma is defined by: 1. Tumor-like {{c1:: swelling }} 2. Draining {{c2:: sinuses }} 3. {{c1:: Grains }}
+  - Davi: “tríade assim tem que vir em tópicos com c1 c2 c1”
+- note 1791628676074 (2026-uc03-microbiologia-48-micoses-subcutaneas; 2026-10-22)
+  - Card: {{c2:: Actinomyces }} is a(n) {{c1:: obligate anaerobe ::obligate aerobe or anaerobe}} that is typically found in the gums and causes dental abscesses
+  - Davi: “card hy rosa, tem q ser verde comentário só repete o card poderia ser tanta coisa: pq ele é assim, o que causa, alguma relação dele com qualquer coisa útil”
+- note 1791628676621 (2026-uc03-microbiologia-48-micoses-subcutaneas; 2026-10-22)
+  - Card: Jorge Lobo disease produces {{c1:: keloid }}-like skin nodules
+  - Davi: “imagem”
+- note 1791629587272 (2026-uc03-imunologia-49-ativacao-celulas-b; 2026-10-22)
+  - Card: The {{c1:: immature }} B cell is characterized by surface IgM , but no surface IgD
+  - Davi: “tem que ter um card que organiza isso progenitor immature naive ... mt nome sem agrupar eles”
+- note 1791629590097 (2026-uc03-imunologia-49-ativacao-celulas-b; 2026-10-22)
+  - Card: B-1 cells are marked by surface {{c1::CD5}}
+  - Davi: “faltou explicar o que é B1”
+- note 1791629592622 (2026-uc03-imunologia-49-ativacao-celulas-b; 2026-10-22)
+  - Card: Do thymus-independent antigens result in immunologic memory ? {{c1::No}}
+  - Davi: “tab bom”
+- note 1791629592997 (2026-uc03-imunologia-49-ativacao-celulas-b; 2026-10-22)
+  - Card: B-cell activation begins with presentation of foreign antigen on {{c1:: MHC II }}, which is recognized by a T-cell receptor
+  - Davi: “- CD28: receptor coestimulador dos linfócitos T. - CD40: receptor presente nos linfócitos B e em outras células apresentadoras de antígeno (APCs). - CD80/CD86 (B7): ligantes de CD28, expressos pelas APCs. - CD40L (CD154): ligante de CD40, expresso principalmente por linfócitos T CD4+ ativados”
+- note 1791629593422 (2026-uc03-imunologia-49-ativacao-celulas-b; 2026-10-22)
+  - Card: Pneumococcal conjugate vaccine for children produces an Ig{{c1::G}} response
+  - Davi: “tab ruim”
+- note 1791629593848 (2026-uc03-imunologia-07-organizacao-sistema-imune; 2026-10-22)
+  - Card: Which region of the lymph node enlarges and multiplies during humoral immune response (e.g., bacterial infection)? {{c1::Germinal centers}}
+  - Davi: “não tem um card igual a esse?”
+- note 1791629593971 (2026-uc03-imunologia-07-organizacao-sistema-imune; 2026-10-22)
+  - Card: Activated helper T cells and antigen-bearing B cells meet at the edge of the {{c1::follicle}}
+  - Davi: “FOTO”
+- note 1791629594347 (2026-uc03-imunologia-49-ativacao-celulas-b; 2026-10-22)
+  - Card: After B-cell activation, alternative RNA processing converts membrane immunoglobulin into {{c1:: secreted antibody }}
+  - Davi: “cloze num lugar ruim”
+- note 1791629595872 (2026-uc03-imunologia-31-sistema-complemento; 2026-10-22)
+  - Card: A single antigen-bound {{c1:: IgM pentamer }} can recruit two C1q heads and activate the classical complement pathway
+  - Davi: “estranho TAB RUIM card não ficou claro”
+- note 1791630905768 (2026-uc03-microbiologia-50-micoses-sistemicas; 2026-10-22)
+  - Card: {{c2:: Histoplasma capsulatum ::Which fungus}} characteristically presents on histology as {{c1:: macrophages }} containing {{c1:: oval }} bodies
+  - Davi: “cadê a foto card pouco específico também tem um card anking disso de demlhor qualidade se inspira e coloca nos anti exemplares”
+- note 1791630906668 (2026-uc03-microbiologia-50-micoses-sistemicas; 2026-10-22)
+  - Card: Because Histoplasma is hard to see on direct exam , diagnosis relies on fungal {{c1::culture}}
+  - Davi: “imagem”
+- note 1791630908168 (2026-uc03-microbiologia-50-micoses-sistemicas; 2026-10-22)
+  - Card: After a lung infection , Cryptococcus shows marked tropism for the {{c1::meninges}}
+  - Davi: “o comentário deveria dar uma ideia dar uma ideia do porquê todos os comentários que deixo aqui tem que ir para os exemplares e antiexemplares dos cards”
+- note 1791630910669 (2026-uc03-microbiologia-50-micoses-sistemicas; 2026-10-22)
+  - Card: {{c1:: India ink }} stain outlines the heavy capsule that surrounds {{c2:: Cryptococci }} fungi, giving it a unique "{{c1:: halo }}" appearance
+  - Davi: “tem que ter no comentário a tradução disso, que é outro nome (nanquim)”
+- note 1791630910843 (2026-uc03-microbiologia-50-micoses-sistemicas; 2026-10-22)
+  - Card: Which fungus is urease -positive? {{c1:: Cryptococcus neoformans }}
+  - Davi: “tab não explicou o porque ele tem urease, o que é um problema, porque não me ajuda a saber”
+- note 1791631342791 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
+  - Card: The basal state of eukaryotic transcription is {{c1:: restrictive }} because nucleosomes limit access to DNA
+  - Davi: “uso dsa palavras corretas aqui? essa é a melhor forma de fazer um card com essa info? autorais desse deck ficaram estranho”
+- note 1791631343592 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
+  - Card: Interactions between histone {{c1:: N-terminal tails }} help compact nucleosomes into higher-order chromatin
+  - Davi: “cloze num local terrível”
+- note 1791631343842 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
+  - Card: ATP-dependent nucleosome-remodeling complexes slide, eject or restructure nucleosomes using energy from {{c1:: ATP }}
+  - Davi: “falta um card organizador desse tipo de processo card organizador serve precisamente para isso: comparar coisas diferentes e organizar na minha cabeça as ideias adiciona nesse deck, coloca nos exemplares e coloca uma pergunta (há card organizadores onde deve-se no deck?) como gate-hard no fim da geração de todo deck”
+- note 1791631344117 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
+  - Card: {{c1:: Histone acetyltransferases (HATs) }} transfer acetyl groups to lysines in histone tails
+  - Davi: “quando for assim não dá para deixar sigla fora do card”
+- note 1791631344241 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
+  - Card: {{c1:: Histone deacetylases (HDACs) }} remove acetyl groups from lysines in histone tails
+  - Davi: “mesma coisa: sigla de fora nã odá comentário tá no padrão IA não didático tb”
+- note 1791631344666 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
+  - Card: Histone tails can be acetylated, methylated, ubiquitinated or {{c1:: phosphorylated }}
+  - Davi: “senti falta nesse deck de um pensamento contínuo para realmente passar por tudo ocm coerência e profundidade”
+- note 1791631345241 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
+  - Card: At the yeast HO gene , Swi5 first opens chromatin, allowing the second activator {{c1:: SBF }} to bind
+  - Davi: “imagem aqui, decoro o nome de algo, mas o card falta storytelling”
+- note 1791631346241 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
+  - Card: {{c1:: DNA methyltransferases }} use SAM to methylate cytosine at CpG sites, helping establish or maintain transcriptional silencing
+  - Davi: “card falta realmente ajudar num processo, onde isso se encaixa”
+- note 1791631346842 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
+  - Card: Methylated cytosines silence genes by recruiting histone deacetylases and nucleosome {{c1:: remodelers }}
+  - Davi: “card passa a informação que quer da melhor forma”
+- note 1791631346967 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
+  - Card: Heritable gene-expression states that do not alter the DNA sequence are called {{c1:: epigenetic }} states
+  - Davi: “cloze num local ruim arrumar”
+- note 1791631347092 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
+  - Card: After replication , a {{c1:: maintenance DNA methyltransferase }} copies methylation onto the new strand
+  - Davi: “comentário zuado veja como melhorei o cloze, entenda o padrçao e coloca nos exemplares”
+- note 1791716408660 (2026-uc03-patologia-47-inflamacao-granulomatosa; 2026-10-22)
+  - Card: T-cell–mediated immune granulomas involve {{c1::type IV}} hypersensitivity
+  - Davi: “aula errada para esse card”
+- note 1791762415623 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-22)
+  - Card: Antacids act without a drug target, by {{c1:: neutralizing }} gastric acid in the lumen
+  - Davi: “melhorei o card para ficar mais atômico”
+- note 1791762418150 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-22)
+  - Card: Because of signal amplification and {{c1:: spare receptors }}, EC 50 need not equal the dissociation constant K d
+  - Davi: “esse deck ficou com excesso de cards que cobram a mesma coisa”
+- note 1791762418773 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-22)
+  - Card: An antagonist occupies the receptor but has zero {{c1:: efficacy }}, so it blocks the agonist without a response
+  - Davi: “card de novo com padrão de usar uma expressão forte que fica estranha e ambígua quem não tem intrisic activity? receptor or antagonis”
+- note 1791762419322 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-22)
+  - Card: Pharmacological agonism includes full, partial, {{c1:: inverse }} and biased agonists
+  - Davi: “bom exemplo de card organizador de ideias”
+- note 1791762419700 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-22)
+  - Card: Many H1 antihistamines such as loratadine act as inverse agonists because the H1 receptor has {{c1:: constitutive }} activity
+  - Davi: “card escrito de forma estranha”
+- note 1791762419949 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-22)
+  - Card: A {{c1:: full agonist }} has enough efficacy to produce the maximal response of its receptor system
+  - Davi: “card ruim”
+- note 1791762421022 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-22)
+  - Card: A {{c1::biased agonist}} preferentially activates one signaling pathway, such as G protein over β-arrestin, through the same receptor
+  - Davi: “cloze estava num local ruim”
+- note 1791762422823 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-22)
+  - Card: Antagonism on the dose–response curve : 1. Competitive antagonist — {{c1:: increases EC50 }} without changing Emax 2. Noncompetitive antagonist — {{c2:: reduces Emax }}
+  - Davi: “card estranho não compreendi”
+- note 1791762425325 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-22)
+  - Card: Safer drugs generally have a {{c1:: higher therapeutic index }}
+  - Davi: “comentário ruim sem imagem”
+- note 1791762425949 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-22)
+  - Card: Quantal dose–response curves plot the percentage of individuals showing the therapeutic, toxic and {{c1:: lethal }} effect at each dose
+  - Davi: “faltou imagem”
+- note 1791826292220 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-22)
+  - Card: Which type of antagonism is shown in the lower graph? {{c1:: Noncompetitive }}
+  - Davi: “quando for assim, coloca só o gráfico que quiser cobrar, quebra ao meio a imagem assim fica mais atômico”
+- note 1791826294319 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-22)
+  - Card: Which curves determine the therapeutic index ? {{c1:: Therapeutic and toxic }}
+  - Davi: “CARD mal feito, mal epensando”
+- note 1791983684707 (2026-uc03-patologia-62-inflamacao-cronica; 2026-10-22)
+  - Card: In chronic inflammation , activated macrophages secrete {{c1:: IL-12 }}, which drives T cells toward Th1
+  - Davi: “mt info num card só”
+- note 1791984889849 (2026-uc03-patologia-61-patologia-infeccao-viral; 2026-10-22)
+  - Card: Which defenses act in each phase of a viral infection ? 1) acute phase: {{c1:: NK cells }}, {{c1:: macrophages }}, complement and barriers 2) subacute and chronic phases: {{c2:: T cells }}, {{c2:: B c
+  - Davi: “tópicos mal escritos, tem que ficar em pé, tipo os cards de constrição esofágica do deck de anato da p1 da uc08”
+- note 1792064698883 (2026-uc03-microbiologia-44-micoses-cutaneas; 2026-10-22)
+  - Card: Superficial × cutaneous mycoses : 1. Superficial — limited to the {{c1:: stratum corneum }} or hair surface, with little inflammation 2. Cutaneous — fungi digest {{c1:: keratin }} in skin, hair or nai
+  - Davi: “BOA IDEIa, mas mal aplicada”
+- note 1792065183130 (2026-uc03-microbiologia-50-micoses-sistemicas; 2026-10-22)
+  - Card: Agents of endemic systemic mycoses share three features: 1. Defined {{c1:: geographic distribution }} 2. Environmental reservoir in {{c2:: soil }} 3. Entry through the {{c3:: airways }}
+  - Davi: “card ruim”
+- note 1792082171335 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
+  - Card: Because chromatin already limits access to DNA, purely negative regulation is {{c1:: less common }} in eukaryotic transcription
+  - Davi: “NEGRITO passar card a card vendo negrito tem que ser gate-hard”
+- note 1792082183634 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
+  - Card: After replication, {{c1:: reader–writer complexes }} restore histone marks on new nucleosomes
+  - Davi: “FALTA UM CARD ORGANIZADOR DESSA AULA negrito estou marcando os cards que gosto com x, isso tem que virar exemplar, sempre lido antes de crira um deck fortalecer que autoral é só 30%”
+- note 1792083296387 (2026-uc03-grand-round-04-paracoccidioidomicose; 2026-10-22)
+  - Card: In paracoccidioidomycosis , protection depends on {{c1::cell-mediated}} immunity, while circulating antibodies are not protective
+  - Davi: “terceira parte do card entrega o cloze não há explicação do porquê também: o bom card tem o porquê no comentário”
+- note 1792166974340 (2026-uc03-imunologia-51-disturbios-sistema-imune; 2026-10-22)
+  - Card: {{c1:: Autoimmune }} disorders are associated with polymorphisms in the PTPN22 gene
+  - Davi: “comentário poderia mencionar o porquê, de forma sucinta, sem ser como foi”
+- note 1792166988890 (2026-uc03-imunologia-51-disturbios-sistema-imune; 2026-10-22)
+  - Card: What is the most common primary immunodeficiency ? {{c1::Selective IgA deficiency}}
+  - Davi: “excesso de card de clínica: isso aqui tudo é legal, mas eu vou aprender mais para frente no momento quero aprender a base bem”
+- note 1792175890985 (2026-uc03-microbiologia-48-micoses-subcutaneas; 2026-10-22)
+  - Card: A biopsy of a patient with {{c1::sporotrichosis ( Sporothrix schenckii )::what fungal infection}} will reveal {{c2:: granulomas }} consisting of histiocytes , multinucleated giant cells , and cigar-sh
+  - Davi: “foto”
+- note 1792176896207 (2026-uc03-microbiologia-50-micoses-sistemicas; 2026-10-22)
+  - Card: {{c2:: Coccidioides immitis ::Which fungus}} has a characteristic {{c3:: mold }} form containing {{c1:: barrel }} -shaped arthroconidia
+  - Davi: “FOTO”
+- note 1792240186582 (2026-uc03-imunologia-08-reconhecimento-inato; 2026-10-22)
+  - Card: LPS, bacterial flagellin, and viral nucleic acids are detected by the innate immune system via {{c1:: pattern-recognition }} receptors
+  - Davi: “esse deck de rec. imune inato ficou incompleto, faltou coisa para ele ficar completo de forma satisfatória (vê se outros da p1 tem o mesmo problema e complementa eles com os detalhes da aula que faltaram)”
+- note 1792241811997 (2026-uc03-imunologia-17-reconhecimento-adaptativo; 2026-10-22)
+  - Card: IgE cross-links when exposed to allergen , mediating type {{c1:: I }} hypersensitivity reactions
+  - Davi: “aula errada”
+- note 1792244803917 (?; 2026-10-22)
+  - Davi: “de novo, mesma coisa, quero que já puxa a imagem com o cloze no local que está verde também quero que tenha só o nome em português”
+- note 1792244819469 (?; 2026-10-22)
+  - Davi: “cloze me atrapalha de novo, não sei qual a estrutura que se trata”
+- note 1792244839896 (?; 2026-10-22)
+  - Davi: “exemplo claro: o cloze obstrui minha visualização da estrutura. o próprio kenhub deixa-a destacada de verde, basta colocar a seta e o cloze próximos”
+- note 1792244857819 (2026-uc07-telencefalo-e-cortex-cerebral-vista-inferior-do-encefalo; 2026-10-22)
+  - Davi: “quero que o IO fique já onde está ID, para eu não ter que olhar para outro lugar”
+- note 1792261732797 (2026-uc07-introducao-ao-sistema-nervoso-sistema-nervoso-central-introducao-ao-encefalo; 2026-10-22)
+  - Card: {{c1:: Mesencéfalo }}
+  - Davi: “card ficou zuado”
+- note 1792261811401 (2026-uc07-telencefalo-e-cortex-cerebral-homunculo-motor-e-sensitivo; 2026-10-22)
+  - Card: O giro {{c1::pós}}-central é a área {{c2::somestésica}} primária (lobo parietal)
+  - Davi: “num card assim, pode ter no comentário alguma informação dessa área, tipo o que é somestésica”
+- note 1792264998268 (2026-uc07-introducao-ao-sistema-nervoso-sistema-nervoso-periferico-nervos-ganglios-e-plexos; 2026-10-22)
+  - Card: Qual estrutura a seta indica? {{c1::Raiz posterior}}
+  - Davi: “faltou tirar uma image”
+- note 1792264999465 (?; 2026-10-22)
+  - Davi: “não precisa ter cloze escondendo a estrutura da imagem, basta que haja uma seta e um cloze no nome dela”
+- note 1792265022241 (2026-uc07-introducao-ao-sistema-nervoso-sistema-nervoso-periferico-nervos-ganglios-e-plexos; 2026-10-22)
+  - Card: Os ramos anteriores dos nervos espinais C5 a T1 formam o plexo {{c1::braquial}}
+  - Davi: “esse deck aqui não cobriu tudo do quiz, todos tem que cobrir o quiz todo da unidade”
+- note 1792328824811 (?; 2026-10-22)
+  - Davi: “mts palavras num só cloze”
+- note 1792328838620 (?; 2026-10-22)
+  - Card: Qual estrutura a seta indica? {{c1::Artérias vertebrais}}
+  - Davi: “seta ruim”
+- note 1792328894044 (?; 2026-10-22)
+  - Davi: “nova regra se há mais de 4 palavras no cloze tem que mostrar uma ou o tanto que for para o cloze ser de no máximo 3”
+- note 1792328896320 (2026-uc07-medula-espinal-nervos-espinais; 2026-10-22)
+  - Davi: “ficou mt zuado”
+- note 1792329457242 (?; 2026-10-22)
+  - Card: O espaço {{c1::subaracnóideo}} contém líquido cerebrospinal e separa a aracnoide da pia-máter
+  - Davi: “card fora da formatação anking clássico”
+- note 1792329943440 (2026-uc07-medula-espinal-nervos-espinais; 2026-10-22)
+  - Card: A síndrome da {{c1::cauda equina}} é uma lesão por compressão das raízes espinais de {{c2::L2}} para baixo
+  - Davi: “imagem boa para isso, mas ficou zuada”
+- note 1792329948440 (?; 2026-10-22)
+  - Card: O ramo {{c1::anterior}} do nervo espinal fornece inervação motora (somática ou visceral) ao resto do corpo do nível segmentar, incluindo os membros
+  - Davi: “cloze no local ruim”
+- note 1792329951089 (?; 2026-10-22)
+  - Card: Os nervos espinais C1–C7 saem do canal vertebral {{c1::acima}} das vértebras correspondentes
+  - Davi: “IMAGEM NO CLOZE”
+- note 1792330092316 (?; 2026-10-22)
+  - Card: Cada nervo espinal forma-se pela união de: 1. Raiz {{c1:: anterior }} — axônios {{c1:: eferentes }} 2. Raiz {{c1:: posterior }} — axônios {{c1:: aferentes }}
+  - Davi: “card entrega a resposta em si mesmo completando a ideia”
+- note 1792330093160 (?; 2026-10-22)
+  - Card: Os axônios aferentes entram na medula espinal pela raiz {{c1:: posterior }} do nervo espinal
+  - Davi: “ao invés de sensitivo é bom usar aferente”
+- note 1792330094311 (?; 2026-10-22)
+  - Card: Os corpos dos neurônios motores somáticos ficam no corno anterior da {{c1:: substância cinzenta }} da medula espinal
+  - Davi: “imagem fora de contexto”
+- note 1792330246172 (?; 2026-10-22)
+  - Card: As três partes principais do encéfalo são: 1. {{c1:: Cérebro }} 2. {{c2:: Cerebelo }} 3. {{c3:: Tronco encefálico }}
+  - Davi: “mesma coisa: pode ter mais coisa por card”
+- note 1792330249686 (?; 2026-10-22)
+  - Card: O tronco encefálico é formado por: 1. {{c1:: Mesencéfalo }} 2. {{c2:: Ponte }} 3. {{c3:: Bulbo }}
+  - Davi: “pode ter mais de um cloze por card estilo tópico assim economizamos cards”
+- note 1792338715108 (?; 2026-10-22)
+  - Davi: “seta errada”
+- note 1792339386764 (2026-uc07-nervos-cranianos-nervo-olfatorio-i; 2026-10-22)
+  - Card: Qual é a função do nervo craniano I (olfatório)? {{c1::Olfato}}
+  - Davi: “card mt bobo”
+- note 1792344677325 (2026-uc07-cerebelo-cortex-cerebelar; 2026-10-22)
+  - Card: A camada molecular do córtex cerebelar contém células {{c1:: em cesto }} e {{c2:: estreladas }}
+  - Davi: “faltou card organizador, com mais infos”
+- note 1792572870665 (2026-uc07-introducao-ao-sistema-nervoso-sistema-nervoso-periferico-nervos-ganglios-e-plexos; 2026-10-22)
+  - Davi: “não precisa ter cloze escondendo a estrutura da imagem, basta que haja uma seta e um cloze no nome dela”
+- note 1792588686964 (2026-uc07; 2026-10-22)
+  - Card: Cada nervo espinal forma-se pela união de: 1. Raiz {{c1:: anterior }} — axônios {{c1:: eferentes }} 2. Raiz {{c1:: posterior }} — axônios {{c1:: aferentes }}
+  - Davi: “card entrega a resposta em si mesmo completando a ideia ESSE comentário é mt ruim”
+- note 1792588686965 (2026-uc07; 2026-10-22)
+  - Card: Os axônios aferentes entram na medula espinal pela raiz {{c1:: posterior }} do nervo espinal
+  - Davi: “ao invés de sensitivo é bom usar aferente”
+- note 1792588686966 (2026-uc07; 2026-10-22)
+  - Card: Os corpos dos neurônios motores somáticos ficam no corno anterior da {{c1:: substância cinzenta }} da medula espinal
+  - Davi: “imagem fora de contexto”
+- note 1792588686968 (2026-uc07; 2026-10-22)
+  - Card: As três partes principais do encéfalo são: 1. {{c1:: Cérebro }} 2. Cerebelo 3. {{c1:: Tronco encefálico }}
+  - Davi: “mesma coisa: pode ter mais coisa por card MELHOREI”
+- note 1792588686971 (2026-uc07; 2026-10-22)
+  - Card: O tronco encefálico é formado por: 1. {{c1:: Mesencéfalo }} 2. {{c1:: Ponte }} 3. {{c1:: Bulbo }}
+  - Davi: “pode ter mais de um cloze por card estilo tópico assim economizamos cards melhorei o card, mas agora tem que sempre excluir quando fica assim faltando um dos clozes porque apaguei na edição”
+- note 1792588686986 (2026-uc07; 2026-10-22)
+  - Card: A dorsiflexão do tornozelo depende de L4 e {{c1::L5}}; a flexão plantar, de S1 e {{c2::S2}}
+  - Davi: “imagem errada”
+- note 1792588687006 (2026-uc07; 2026-10-22)
+  - Card: O gânglio vestibular tem uma parte superior e uma parte {{c1::inferior}}
+  - Davi: “DÁ PARA MELHORAR, FICOU MT RUIM”
+- note 1792588687018 (2026-uc07; 2026-10-22)
+  - Card: O cerebelo fica posterior à ponte e ao bulbo, na fossa {{c1::posterior}} do crânio
+  - Davi: “imagem ruim”
+- note 1792588687019 (2026-uc07; 2026-10-22)
+  - Card: O córtex cerebelar tem três camadas: {{c1::molecular}} (externa), de {{c2::Purkinje}} (média) e {{c1::granulosa}} (interna)
+  - Davi: “imagem ruim”
+- note 1792588687021 (2026-uc07; 2026-10-22)
+  - Card: As estruturas de substância cinzenta do cerebelo são o córtex cerebelar e os núcleos {{c1::cerebelares}}
+  - Davi: “imagem”
+- note 1792588687023 (2026-uc07; 2026-10-22)
+  - Card: Do medial para o lateral, os núcleos do cerebelo são o {{c2::fastigial}}, o {{c1::globoso}}, o {{c2::emboliforme}} e o {{c1::denteado}}
+  - Davi: “melhorei o card imagem zuada”
