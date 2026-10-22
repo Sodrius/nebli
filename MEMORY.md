@@ -2,6 +2,8 @@
 
 Reorganizada em 13/10/2026 (F-20261013-CLAUDE-02) a partir de todas as falas registradas em [FEEDBACKS](flashcards/projeto/FEEDBACKS.md). **Este é o único documento de preferências.** Procedimento: [EXECUCAO-DECK-AULA](flashcards/projeto/EXECUCAO-DECK-AULA.md). Estado e fila: [ESTADO-ATUAL](ESTADO-ATUAL.md). A versão anterior, em camadas, está em `arquivo/2026-10-13-reorganizacao/MEMORY.md` e **não é norma**.
 
+**Pipeline fixo (22/10: “deixa isso fixo como pipeline de geração de deck, daí quando formos mudar algo, mudamos um pipeline já estruturado”):** todo deck-aula passa pelo [PIPELINE DE GERAÇÃO DE DECK v5](flashcards/projeto/EXECUCAO-DECK-AULA.md), etapas E0–E8 com entrada, saída e gate; este MEMORY diz o porquê de cada etapa. Feedback que muda o jeito de fazer deck altera a etapa certa do pipeline (e sobe `PIPELINE_VERSAO` quando muda a estrutura), nunca cria processo paralelo.
+
 **Como manter:** feedback novo de Davi → literal em FEEDBACKS → a regra correspondente aqui é **reescrita no lugar** (não se acrescenta outra camada; o que ela substitui sai) → se for mecanizável, vira check no `lint_cards`/`gates`. A fala mais recente prevalece. Não pedir que Davi reensine nada que está aqui.
 
 ## 1. Como trabalhar com Davi

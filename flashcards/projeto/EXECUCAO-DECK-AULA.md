@@ -1,6 +1,37 @@
-# Como fazer um deck-aula — passos em ordem (vigente desde 16/10/2026)
+# PIPELINE DE GERAÇÃO DE DECK — v5 (fixo desde 22/10/2026)
 
-O **porquê** de cada regra está no [MEMORY](../../MEMORY.md); aqui está só **o que fazer, nesta ordem**. Modelos vivos: 09 Lesão celular (`arquivos-trabalho/deck-aula-uc03-pt09-lesao-celular-v2-2026-10-15`, aula rica em AnKing) e 02 Diagnóstico radiológico (`…-rd02-diagnostico-radiologico-v2-2026-10-16`, aula pobre em AnKing). Versão anterior: `arquivo/2026-10-16-roteiro/` (hash ed8d0087…).
+**Este é o pipeline único e fixo de todo deck-aula** (Davi, 22/10: “deixa isso fixo como pipeline de geração de deck, daí quando formos mudar algo, mudamos um pipeline já estruturado”). Modelo vivo: 57 Princípios gerais dos vírus (`arquivos-trabalho/deck-aula-uc03-mb57-principios-virus-v2-2026-10-22`, gates 88/88). O **porquê** de cada regra está no [MEMORY](../../MEMORY.md); aqui está **o que fazer, em que ordem, e o que cada etapa entrega**. Versão anterior: `arquivo/2026-10-22-pipeline-v5/EXECUCAO-DECK-AULA-antes-2c0a75762f48.md`.
+
+## Mapa das etapas
+
+| # | Etapa | Entrada | Saída (arquivo da corrida) | Gate duro |
+|---|---|---|---|---|
+| E0 | Abrir | ESTADO-ATUAL, FEEDBACKS novos, EXEMPLARES/ANTI | corrida + molde, reivindicação, `exemplares-lidos.json` | `exemplares_lidos` |
+| E1 | Ler todo o material | lâminas, transcrição, apostilas, monitoria, provas, livro, ≥1 vídeo de canal de Davi | `fontes-decl.json`, `fontes/`, `livros/`, `canais/` | fontes (`sources`, `uc_materials`) |
+| E2 | **Compreender a aula** | todo o material lido | `compreensao-aula.json` (o que ensina, onde se encaixa, o que lembrar, blocos de lâminas com papel) + resumo no chat | `compreensao_aula` |
+| E3 | Planejar | compreensão | `inventario.py`, `mapa-de-profundidade.json`, `escopo.json` (história, linha lógica, provas, fontes) | `profundidade`, `linha_e_provas`, `escopo_basico` |
+| E4 | Buscar nos acervos | planejamento | `busca/` (seções, palavra-chave, significado por chave de card) | `cobertura_anking` (três caminhos, todos os acervos) |
+| E5 | Montar o deck | busca | `spec.py` → `plan.json`; `busca/cobertura.tsv`, `decisoes.json`, `REVISAO-AUTORAIS.md`, `imagens-batem.json` | lint, `autorais_com_motivo`, `imagens_batem`, cores, `artefatos pre` |
+| E6 | Instalar e ler o vivo | plano aprovado no pre | deck suspenso, `revisao-despejo.txt` lido, revisão com raciocínio | `revisao_raciocinio`, ordem viva |
+| E7 | Fidelidade ao slide | deck vivo + lâminas | `compreensao-aula.json` › `fidelidade` | `fidelidade_ao_slide` |
+| E8 | Entregar | gates 100% | pacote da UC, slides no Drive, ESTADO-ATUAL, commit/push, sync, relato | `nebli.gates` 100% |
+
+Princípios que atravessam todas as etapas: o deck **segue o slide** em ordem e conteúdo; **princípio antes do exemplo**, exemplo clínico nunca é carro-chefe; ciclo básico; **acervo primeiro** (AnKing e todas as Referências Externas; autoral sem teto, só para lacuna provada e cards de conexão); deck sem teto de cards; Davi no Anki (uma janela curta de escrita, nada na tela dele).
+
+## Como mudar o pipeline (controle de mudança)
+1. Feedback de Davi → literal em FEEDBACKS.
+2. Identificar **qual etapa (E0–E8)** ele altera e reescrever essa etapa no lugar, aqui e na regra correspondente do MEMORY (sem acrescentar camada).
+3. Se for mecanizável, gate em `nebli/gates.py` (com teste em `nebli/tests/test_gates.py`) e, se mudar arquivos da corrida, o molde em `nebli/molde/`.
+4. Mudança de estrutura (etapa nova, arquivo novo, gate novo que corridas antigas não têm) → subir `PIPELINE_VERSAO` no molde, arquivar esta versão em `arquivo/` com hash e registrar no Histórico abaixo.
+5. Nunca contornar um gate: se ele reprova um deck bom, muda-se o gate por pedido de Davi, não o deck nem o arquivo de evidência.
+
+## Histórico de versões
+- **v5 (22/10, F-20261022-CLAUDE-06):** etapa E2 (compreensão da aula) e E7 (fidelidade ao slide) como gates duros; autoral sem teto, só com lacuna provada em todos os acervos.
+- v4 (16/10): todo AnKing das seções da aula entra ou é excluído com motivo; deck sem teto de cards.
+- v3 (16/10): teto de autoral (removido na v5).
+
+---
+Detalhe de cada etapa (os números abaixo são os passos do roteiro; E0 = passo 0, E1 = 1, E2 = 1b, E3 = 2, E4 = 3, E5 = 4–5, E6 = 6.1–6.3 e 6.5, E7 = 6.4, E8 = 7).
 
 Todo comando com `/usr/bin/python3` (tem PyMuPDF e fastembed). Gates com `NEBLI_SEM_TAB=1` (o Tab é do Codex). **Gates duros não se contornam: se um reprova, corrige-se o deck, não o gate.**
 
@@ -8,7 +39,7 @@ Todo comando com `/usr/bin/python3` (tem PyMuPDF e fastembed). Gates com `NEBLI_
 1. ESTADO-ATUAL › Retomar aqui: qual aula, quem está com ela. Registrar “Com Claude: <aula>”.
 2. FEEDBACKS: ler só as entradas novas. `EXEMPLARES-CARDS.md` + `ANTI-EXEMPLARES-CARDS.md`: procurar os casos reais mais parecidos e tentar ficar semelhante aos bons, evitando os ruins.
 3. Ritmo (F-20261016-CLAUDE-11): **um deck por vez, inteiro, e em seguida o próximo da fila, até Davi pedir para parar** (nunca parar no meio de um deck).
-4. Corrida nova `arquivos-trabalho/deck-aula-<uc>-<curto>-<slug>-v2-<data>`; se existe corrida antiga da aula, copiar `fontes/ livros/ visual/ fontes-decl.json` (fontes já extraídas), nunca o spec. `python3 -m nebli.corrida molde <corrida>` (o molde já traz `PIPELINE_VERSAO = 5` e `compreensao-aula.json`: compreensão da aula, todo AnKing das seções da aula e autoral sem teto mas com lacuna provada, gates duros). Prefixo `<curto>` livre (`"tag:NEBLI::ordem::<curto>-*"` vazio; se só restam tags de compartilhados antigos, removê-las por `nebli.decks.escrita`). **Refação de aula em estudo** (F-20261016-CLAUDE-08; modelo: 43 Fungos v2): ler os comentários de Davi nas notas antigas; no spec, `sh()` das notas antigas que ficam; antes do apply, `nebli.retira <corrida antiga> --recibo <cópia do receipt> chave:refacao-v2 …` para as que saem (exceto as usadas por outra aula, que só perdem as tags desta) e remover das mantidas as tags antigas `ordem::<curto>-*` e `cor::<lesson>::*` — tudo isso num só comando: `python3 -m nebli.refacao <corrida nova>` (logo antes do apply). No spec, `acervo(nid, …, lesson=LESSON, run_id=RUN_ID)` usa a cópia NEBLI viva quando existe (histórico) e `ak()` quando não; imagens pedidas por Davi no verso de notas mantidas: `EXTRA_VIVO` no spec + `python3 -m nebli.extra_vivo <corrida>` depois do apply. Ao fim, `python3 -m nebli.apaga_retirados refacao-v2` (backup em `arquivos-trabalho/backups-apagadas/`).
+4. Corrida nova `arquivos-trabalho/deck-aula-<uc>-<curto>-<slug>-v2-<data>`; se existe corrida antiga da aula, copiar `fontes/ livros/ visual/ fontes-decl.json` (fontes já extraídas), nunca o spec. `python3 -m nebli.corrida molde <corrida>` (o molde já traz `PIPELINE_VERSAO = 5` e `compreensao-aula.json`: compreensão da aula, todo AnKing das seções da aula e autoral sem teto mas com lacuna provada, gates duros). Prefixo `<curto>` livre (`"tag:NEBLI::ordem::<curto>-*"` vazio; se só restam tags de compartilhados antigos, removê-las por `nebli.decks.escrita`). **Refação de aula em estudo** (F-20261016-CLAUDE-08; modelo: 43 Fungos v2): ler os comentários de Davi nas notas antigas; no spec, `sh()` das notas antigas que ficam; antes do apply, `nebli.retira <corrida antiga> --recibo <cópia do receipt> chave:refacao-v2 …` para as que saem (exceto as usadas por outra aula, que só perdem as tags desta) e remover das mantidas as tags antigas `ordem::<curto>-*` e `cor::<lesson>::*` — tudo isso num só comando: `python3 -m nebli.refacao <corrida nova>` (logo antes do apply; ele só limpa o prefixo novo — tags `ordem::<curto antigo>-*` e `compartilhado::<curto antigo>` saem à mão numa janela de `nebli.decks.escrita`). No spec, `acervo(nid, …, lesson=LESSON, run_id=RUN_ID)` usa a cópia NEBLI viva quando existe (histórico) e `ak()` quando não; imagens pedidas por Davi no verso de notas mantidas: `EXTRA_VIVO` no spec + `python3 -m nebli.extra_vivo <corrida>` depois do apply. Ao fim, `python3 -m nebli.apaga_retirados refacao-v2` (backup em `arquivos-trabalho/backups-apagadas/`).
 
 ## 1. Ler TODO o material (gate duro de fontes)
 1. Lâminas como imagem (`visual/folha-NN.png`), todas. **Aula sem lâminas:** montar a lógica da aula (livro da UC + aulas vizinhas + resumos/monitoria + provas) em `percurso-aula.md` antes do inventário (MEMORY §4).
@@ -60,7 +91,7 @@ Com todo o material lido, responder em `compreensao-aula.json` a pergunta que a 
 1. Pacote: `python3 -m nebli.package_uc --uc UCxx --output arquivos-trabalho/pacote-ucxx-<data>[b]/NEBLI - UCxx.apkg` + `python3 -m nebli.entrega "<UC>/<Comp>/<NN - Aula>" --nome "<Aula>" --uc-apkg <apkg>`; sync se Davi não estiver revisando.
 2. `NEBLI_SEM_TAB=1 python3 -m nebli.gates <corrida>` = 100%.
 3. ESTADO-ATUAL, FEEDBACKS→MEMORY→gate de todo feedback novo, memória pessoal, commit e push.
-4. **Relato no chat** (formato que Davi aprovou): o que mudou com o feedback; tabela do deck (cards, origens, cores); o que entrou, o que ficou de fora, o que foi corrigido; gates; perguntas; e **o prompt do Codex com todas as aulas e contagens sem Tab** (`python3 -m nebli.explicacoes resumo '"tag:…"'`), salvo em `flashcards/projeto/PROMPT-CODEX-TABS-<data>.md`.
+4. **Relato no chat** (formato que Davi aprovou): o que mudou com o feedback; tabela do deck (cards, origens, cores); o que entrou, o que ficou de fora, o que foi corrigido; gates; perguntas. Sem prompt do Codex (F-20261021-CLAUDE-01: ele gera os Tabs por conta própria).
 
 ## Referência técnica
 - Delta: `build.py --delta` + `nebli.delta` (tolera editor aberto: pula e avisa; rodar de novo depois). `--sobrescrever-vivo <chave>` só quando a diferença viva não é edição de Davi (o `<tbody>` do editor já é ignorado).

@@ -2,7 +2,7 @@
 
 1. [ESTADO-ATUAL.md](ESTADO-ATUAL.md) › **Retomar aqui** e **Quem está com o quê**: o que fazer agora e o que outro executor já pegou.
 2. [MEMORY.md](MEMORY.md): **a regra única e vigente** do que Davi quer (reorganizada em 13/10; versões antigas em `arquivo/` não são norma). Das [FEEDBACKS](flashcards/projeto/FEEDBACKS.md), ler só as entradas novas desde a última sessão.
-3. Para fazer um deck: [EXECUCAO-DECK-AULA](flashcards/projeto/EXECUCAO-DECK-AULA.md) — **passos em ordem, do 0 ao 7, sem pular** (reescrito 16/10).
+3. Para fazer um deck: **[PIPELINE DE GERAÇÃO DE DECK v5](flashcards/projeto/EXECUCAO-DECK-AULA.md)** — pipeline único e fixo (E0 abrir → E1 ler todo o material → E2 compreender a aula → E3 planejar → E4 buscar nos acervos → E5 montar → E6 instalar e ler o vivo → E7 fidelidade ao slide → E8 entregar), sem pular etapa. Mudança no jeito de fazer deck = mudar a etapa certa desse pipeline (seção “Como mudar o pipeline”), nunca criar processo paralelo.
 
 ## Pedido curto
 
