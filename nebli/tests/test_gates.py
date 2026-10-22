@@ -22,6 +22,26 @@ class GatesTests(unittest.TestCase):
         plan.pop("busca_externos")
         self.assertFalse(gates.author_volume_supported(plan))
 
+    def test_compreensao_da_aula_blocks_example_before_principle_and_cards_outside_blocks(self):
+        with tempfile.TemporaryDirectory() as d:
+            run = Path(d)
+            (run / "fontes.json").write_text(json.dumps({"n_laminas": 4}))
+            comp = {"o_que_a_aula_ensina": "x" * 150, "onde_se_encaixa": "y" * 120, "o_que_lembrar": ["z" * 20] * 3,
+                    "blocos": [{"laminas": [1, 1], "papel": "motivacao", "o_que_o_professor_ensina": "m" * 40},
+                               {"laminas": [2, 4], "papel": "principio", "o_que_o_professor_ensina": "p" * 40, "cards_exemplo": ["ex"]}]}
+            (run / "compreensao-aula.json").write_text(json.dumps(comp))
+            plan = {"entries": [{"key": "pr", "order": 1, "evid": "slide 2"}, {"key": "ex", "order": 2, "evid": "slide 3"}]}
+            self.assertTrue(gates.compreensao_aula(run, plan)[0][1])
+            plan["entries"][1]["order"] = 0
+            self.assertFalse(gates.compreensao_aula(run, plan)[0][1])
+            plan["entries"][1].update(order=2, evid="slide 9")
+            self.assertFalse(gates.compreensao_aula(run, plan)[0][1])
+            self.assertFalse(gates.fidelidade_ao_slide(run, plan)[0][1])
+            comp["fidelidade"] = {"blocos": [{"laminas": [1, 1], "bate": True, "nota": "n" * 30},
+                                             {"laminas": [2, 4], "bate": True, "nota": "n" * 30}], "conclusao": "c" * 150}
+            (run / "compreensao-aula.json").write_text(json.dumps(comp))
+            self.assertTrue(gates.fidelidade_ao_slide(run, plan)[0][1])
+
     def test_inventory_requires_atomic_card_mapping_visual_evidence_and_review(self):
         with tempfile.TemporaryDirectory() as d:
             run = Path(d)

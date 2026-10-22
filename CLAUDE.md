@@ -8,6 +8,8 @@
 
 “Faz a aula X”, “continua”, `/deck-aula X` ou só o nome da aula = executar o roteiro inteiro até o deck entregue (instalado **sem Tab**, gates duros 100%, pacote da UC, sync) e relatar no formato do MEMORY §11. Sem agente, sem plano para aprovar, sem pedir permissão, sem parar no meio. **Desde 16/10 noite (F-20261016-CLAUDE-11): rodar as aulas em sequência, cada uma pelo pipeline inteiro, até Davi pedir para parar**; feedback que chegar é aplicado antes do deck seguinte. Plano vigente: [PLANO-ANKING-PRIMEIRO](flashcards/projeto/PLANO-ANKING-PRIMEIRO-2026-10-15.md).
 
+- **O deck segue o slide (F-20261022-CLAUDE-06, gate duro):** depois de ler todo o material e antes de buscar, responder em `compreensao-aula.json` o que a aula ensina, onde se encaixa, o que lembrar e o que o professor ensina em cada bloco de lâminas; o deck nasce disso, o exemplo clínico vem depois do princípio e nunca vira carro-chefe, e a revisão final confere bloco a bloco a fidelidade ao slide.
+
 ## Limites que não mudam
 
 - Davi estuda no Anki enquanto o executor trabalha: nunca tocar a nota em tela nem irmãos; escrita só por `nebli.decks.escrita()`; sync quando ele estiver ocioso.
@@ -15,7 +17,7 @@
 - Preservar originais AnKing, IDs/histórico, comentários, marcas e suspensões pessoais. Não apagar notas sem autorização de Davi e backup. Arquivar documentos superados em `arquivo/` com hash.
 - Feedback novo: literal em FEEDBACKS → regra **reescrita no lugar** no MEMORY (sem acrescentar camada) → check no lint/gate quando mecanizável.
 - Não fabricar leitura, busca, teste ou revisão. Gate aprovado não prova julgamento.
-- **AnKing-primeiro com gates duros** (MEMORY §5): busca nos três caminhos em todos os acervos, `busca/cobertura.tsv`, autoral só para lacuna provada, **no máximo 20% dos cards** (35% só com `AUTORAL_EXCECAO`), **todo AnKing do conteúdo da aula entra, sem teto de cards** (`PIPELINE_VERSAO = 4`, `SECOES_DA_AULA`) e relido contra os ANTI-EXEMPLARES. O `apply` recusa instalar sem isso.
+- **AnKing-primeiro com gates duros** (MEMORY §5): busca nos três caminhos em todos os acervos, `busca/cobertura.tsv`, autoral só para lacuna provada depois de buscar em AnKing e todas as Referências Externas (sem teto desde 22/10), **todo AnKing do conteúdo da aula entra, sem teto de cards** (`PIPELINE_VERSAO = 5`, `SECOES_DA_AULA`) e relido contra os ANTI-EXEMPLARES. O `apply` recusa instalar sem isso.
 
 ## UC07 / Kenhub (neuroanatomia)
 

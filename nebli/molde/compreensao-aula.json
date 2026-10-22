@@ -1,0 +1,15 @@
+{
+ "_como": "F-20261022-CLAUDE-06. Escrever DEPOIS de ler todo o material e ANTES de buscar cards. O deck segue estes blocos, em ordem e conteúdo. Apagar os <...>.",
+ "o_que_a_aula_ensina": "<em prosa: o que o professor quer que o aluno saia sabendo, e por quê; ciclo básico>",
+ "onde_se_encaixa": "<aulas antes (pré-requisitos) e depois (o que esta prepara) no cronograma; o que fica para elas>",
+ "o_que_lembrar": ["<o que levar para a vida desta aula>", "<...>", "<...>"],
+ "blocos": [
+  {"laminas": [1, 7], "titulo": "<título do bloco>", "papel": "motivacao|principio|exemplo|resumo|repeticao",
+   "o_que_o_professor_ensina": "<o que ele está ensinando com estas lâminas; princípio antes do exemplo>",
+   "principio": "<o princípio do bloco, se houver>", "exemplos": ["<exemplo usado para ilustrar>"],
+   "cards_exemplo": [], "cards_associados": [], "sem_card": "", "motivo_exemplos": ""}
+ ],
+ "fidelidade": {"_como": "preencher ao fechar o deck, relendo o slide bloco a bloco contra os cards vivos",
+  "blocos": [{"laminas": [1, 7], "bate": true, "nota": "<o que confere e o que foi corrigido>"}],
+  "conclusao": "<o deck acompanha a aula em ordem e conteúdo? algum exemplo virou carro-chefe? algo de fora entrou?>"}
+}

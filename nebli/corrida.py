@@ -8,7 +8,7 @@
     python3 -m nebli.corrida video <pasta> <url-youtube> <canal> <nome>        # transcrição → canais/<nome>.txt
     python3 -m nebli.corrida youtube "<busca>"                                # vídeos (id | título | canal) da busca do YouTube
     python3 -m nebli.corrida evidencias <pasta>                                # recalcula sha256 de fontes.json["evidencias"]
-    python3 -m nebli.corrida molde <pasta>                                     # copia spec/inventario/build/apply do molde (nebli/molde), sem sobrescrever
+    python3 -m nebli.corrida molde <pasta>                                     # copia spec/inventario/build/apply/compreensao-aula do molde (nebli/molde), sem sobrescrever
     python3 -m nebli.corrida fontes <pasta>                                    # fontes-decl.json (declaração curta, escrita depois de ler) → fontes.json com hashes e alvos
     python3 -m nebli.corrida cego <pasta> [n]                                  # amostra cega card-mirror: n autorais + n AnKing da aula (card-mirror/entrada.txt + gabarito.json)
     python3 -m nebli.corrida revisado <pasta> [--corrigidos k1,k2]             # revisao-inventario.json item a item a partir de cobertura.json + receipt.json
@@ -113,7 +113,7 @@ MOLDE = Path(__file__).parent / "molde"
 
 def molde(pasta: Path):
     pasta.mkdir(parents=True, exist_ok=True)
-    for f in ("spec.py", "inventario.py", "build.py", "apply.py"):
+    for f in ("spec.py", "inventario.py", "build.py", "apply.py", "compreensao-aula.json"):
         if not (pasta / f).exists():
             shutil.copy(MOLDE / f, pasta / f)
             print("copiado", f)

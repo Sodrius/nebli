@@ -792,6 +792,99 @@ def imagens_batem(run, plan):
              (f": faltam {len(falta)} ({falta[:3]})" if falta else "") + (f"; a trocar {ruins[:3]}" if ruins else ""), not falta and not ruins)]
 
 
+COMPREENSAO_DESDE = 20261023  # corridas posteriores (ou PIPELINE_VERSAO ≥ 5) exigem compreensão da aula e fidelidade ao slide
+
+
+def _novo_06(run, plan):
+    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", Path(run).name)
+    return int(plan.get("pipeline_versao") or 1) >= 5 or bool(m and int("".join(m.groups())) >= COMPREENSAO_DESDE)
+
+
+PAPEIS_BLOCO = ("motivacao", "principio", "exemplo", "resumo", "repeticao")
+
+
+def _compreensao(run):
+    path = Path(run) / "compreensao-aula.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
+
+
+def compreensao_aula(run, plan):
+    """F-20261022-CLAUDE-06: antes de planejar, a pergunta que a E1 fazia — o que esta aula busca ensinar e o que o professor ensina
+    em cada slide? `compreensao-aula.json` (escrito depois de ler todo o material e antes da busca) diz o que a aula ensina, onde se
+    encaixa, o que lembrar e, bloco a bloco das lâminas, o que o professor ensina ali e qual o papel do bloco (motivação, princípio,
+    exemplo, resumo, repetição). O deck segue esses blocos: todo card cai num bloco, todo bloco de princípio/exemplo tem card (ou motivo),
+    e exemplo clínico vem depois do princípio que ilustra e não o supera em número (“o básico, depois os exemplos, como é feito na aula”)."""
+    from nebli import ordem
+    d = _compreensao(run)
+    if d is None:
+        return [("[duro] compreensão da aula: compreensao-aula.json (o que a aula ensina, onde se encaixa, blocos de lâminas com o que o professor ensina) — ausente", False)]
+    probs = []
+    if len(str(d.get("o_que_a_aula_ensina", "")).strip()) < 150:
+        probs.append("o_que_a_aula_ensina < 150 caracteres")
+    if len(str(d.get("onde_se_encaixa", "")).strip()) < 120:
+        probs.append("onde_se_encaixa < 120 caracteres (aulas antes/depois e o que esta prepara)")
+    if sum(1 for x in d.get("o_que_lembrar", []) if len(str(x).strip()) >= 20) < 3:
+        probs.append("o_que_lembrar com < 3 itens")
+    blocos = [b for b in d.get("blocos", []) if isinstance(b, dict)]
+    n = 0
+    for f in ("fontes.json", "fontes-decl.json"):  # o número de lâminas é declarado no fontes-decl.json
+        try:
+            n = n or int(json.loads((Path(run) / f).read_text(encoding="utf-8")).get("n_laminas") or 0)
+        except (OSError, ValueError):
+            pass
+    cobertas = set()
+    for b in blocos:
+        a, z = (list(b.get("laminas") or [0, 0]) + [0, 0])[:2]
+        cobertas |= set(range(int(a), int(z) + 1))
+        if b.get("papel") not in PAPEIS_BLOCO or len(str(b.get("o_que_o_professor_ensina", "")).strip()) < 40:
+            probs.append(f"bloco {a}-{z} sem papel ({'|'.join(PAPEIS_BLOCO)}) ou sem o que o professor ensina (≥ 40)")
+    faltam = sorted(set(range(1, n + 1)) - cobertas)
+    if not n or faltam:
+        probs.append(f"lâminas fora dos blocos: {faltam[:8]}" if n else "fontes.json sem n_laminas")
+    def bloco(s):
+        return next((i for i, b in enumerate(blocos) if s and int(b["laminas"][0]) <= s <= int(b["laminas"][-1])), None)
+    por_bloco = {}
+    for e in plan.get("entries", []):
+        i = bloco(ordem.slide(e.get("evid")))
+        if i is None:
+            probs.append(f"card fora dos blocos da aula: {e['key']}")
+        else:
+            por_bloco.setdefault(i, []).append(e)
+    sh = {k for b in blocos for k in b.get("cards_associados", [])}
+    for i, b in enumerate(blocos):
+        if b.get("papel") in ("principio", "exemplo") and not por_bloco.get(i) and not (set(b.get("cards_associados", [])) & sh) \
+                and len(str(b.get("sem_card", "")).strip()) < 30:
+            probs.append(f"bloco {b['laminas'][0]}-{b['laminas'][-1]} ({b['papel']}) sem card nem motivo 'sem_card'")
+        ex = set(b.get("cards_exemplo", []))
+        es = por_bloco.get(i, [])
+        exs, prs = [e for e in es if e["key"] in ex], [e for e in es if e["key"] not in ex]
+        if exs and b.get("papel") == "principio":
+            if not prs or min(e.get("order") or 0 for e in exs) < min(e.get("order") or 0 for e in prs):
+                probs.append(f"exemplo antes do princípio no bloco {b['laminas'][0]}-{b['laminas'][-1]}")
+            if len(exs) > len(prs) and len(str(b.get("motivo_exemplos", "")).strip()) < 40:
+                probs.append(f"mais cards de exemplo que de princípio no bloco {b['laminas'][0]}-{b['laminas'][-1]} sem 'motivo_exemplos'")
+    keys = {e["key"] for e in plan.get("entries", [])}
+    soltos = [k for b in blocos for k in b.get("cards_exemplo", []) if k not in keys]
+    if soltos:
+        probs.append(f"cards_exemplo que não estão no plano: {soltos[:4]}")
+    return [(f"[duro] compreensão da aula: o que ensina, onde se encaixa, {len(blocos)} blocos de lâminas com o que o professor ensina; "
+             "deck nos blocos, exemplo depois do princípio" + (f"; {'; '.join(probs[:5])}" if probs else ""), not probs)]
+
+
+def fidelidade_ao_slide(run, plan):
+    """F-20261022-CLAUDE-06: ao fechar o deck, revisar se ele bate em ordem e conteúdo com o slide — bloco a bloco, o que o professor
+    ensina tem card, nada fora da aula entrou e nenhum exemplo virou carro-chefe. `compreensao-aula.json` › `fidelidade`."""
+    d = _compreensao(run) or {}
+    f = d.get("fidelidade") or {}
+    blocos = [b for b in d.get("blocos", []) if isinstance(b, dict) and b.get("papel") != "repeticao"]
+    vistos = {tuple(x.get("laminas") or []) for x in f.get("blocos", []) if isinstance(x, dict) and x.get("bate") is True
+              and len(str(x.get("nota", "")).strip()) >= 30}
+    falta = [b["laminas"] for b in blocos if tuple(b.get("laminas") or []) not in vistos]
+    ok = bool(blocos) and not falta and len(str(f.get("conclusao", "")).strip()) >= 150
+    return [("[duro] revisão final de fidelidade ao slide: cada bloco conferido (bate em ordem e conteúdo, exemplo no lugar de exemplo)"
+             + (f"; faltam blocos {falta[:4]}" if falta else "") + ("" if len(str(f.get("conclusao", "")).strip()) >= 150 else "; sem conclusão (≥ 150)"), ok)]
+
+
 def plan_checks(run, plan):
     from nebli import lint_cards
     out = []
@@ -817,6 +910,8 @@ def plan_checks(run, plan):
         out += imagens_batem(run, plan)  # F-20261022-CLAUDE-01
         out += profundidade(run, plan)  # F-20261022-CLAUDE-04
         out += autorais_com_motivo(run, plan)  # F-20261022-CLAUDE-04
+        if _novo_06(run, plan):
+            out += compreensao_aula(run, plan)  # F-20261022-CLAUDE-06
     else:
         out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
     if "biologia-tecidual" in plan.get("lesson_id", ""):  # F-20261003-CLAUDE-13: aprender, não visualizar em excesso
@@ -864,6 +959,8 @@ def plan_checks(run, plan):
     out.append(("REVISAO-DE-QUALIDADE.md na corrida", (run / "REVISAO-DE-QUALIDADE.md").exists()))
     if pipeline_novo(run, plan):
         out += revisao_raciocinio(run, plan)  # F-20261022-CLAUDE-04
+        if _novo_06(run, plan):
+            out += fidelidade_ao_slide(run, plan)  # F-20261022-CLAUDE-06
     return out
 
 
@@ -1108,8 +1205,12 @@ def cobertura_anking(run, plan):
     if versao >= 3 and run.name not in LEGADO_V2:
         _mapa_ok = _autorais_no_mapa(run, plan)
         ok = share <= MAX_AUTORAL or (len(exc) >= 80 and (share <= MAX_AUTORAL_EXCECAO or _mapa_ok))  # F-20261022-CLAUDE-04
-        out.append((f"[duro] autoral = {share:.0%} dos cards: até {MAX_AUTORAL:.0%}; até {MAX_AUTORAL_EXCECAO:.0%} só com AUTORAL_EXCECAO (≥ 80 caracteres); acima, só com todo autoral ligado ao mapa-de-profundidade"
-                    + (" — exceção declarada" if share > MAX_AUTORAL and ok else ""), ok))
+        if _novo_06(run, plan):  # F-20261022-CLAUDE-06: “pode tirar limite de autoral” — vale só a prova de lacuna em todos os acervos
+            out.append((f"autoral = {share:.0%} dos cards, sem teto (F-20261022-CLAUDE-06); cada autoral prova lacuna em AnKing e em todas as Referências Externas", True))
+            ok = None
+        if ok is not None:
+            out.append((f"[duro] autoral = {share:.0%} dos cards: até {MAX_AUTORAL:.0%}; até {MAX_AUTORAL_EXCECAO:.0%} só com AUTORAL_EXCECAO (≥ 80 caracteres); acima, só com todo autoral ligado ao mapa-de-profundidade"
+                        + (" — exceção declarada" if share > MAX_AUTORAL and ok else ""), ok))
     else:
         out.append((f"autoral = {share:.0%} dos cards (corrida legada, entregue antes do teto)", True))
     # F-20261016-CLAUDE-06: “se tiver um card anking daquele conteúdo, pode entrar, sem limite de quantos, quanto mais melhor, se

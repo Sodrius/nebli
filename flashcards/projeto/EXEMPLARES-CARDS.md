@@ -38,9 +38,6 @@ Gerado por `python3 -m nebli.exemplares` a partir dos cards que Davi marcou com 
 - card 1792166978741 / note 1792166978741 (2026-uc03-imunologia-51-disturbios-sistema-imune; 2026-10-17)
   - Frente: {{c1::B}}-cell deficiencies cause recurrent bacterial infections / {{c1::T}}-cell deficiencies produce fungal and viral infections
   - Verso: B-cell deficiency = Bacterial
-- card 1792242322895 / note 1792242322894 (2026-uc03-microbiologia-55-pratica-micologia; 2026-10-18)
-  - Frente: Which fungus is shown below? / / {{c7::Rhizopus}} / / [IMG ff499173bc4b9c7f680b74eedf7096ce.jpg] /
-  - Verso: [IMG cd6200e8803a0d87239c6f474ba9157d.webp][IMG 580a23effeb4178bbc2e9db2e63e2b7d.webp] / / - Nonseptate (coenocytic) hyphae, rhizoids and sporangia full of sporangiospores
 - card 1792166976595 / note 1792166976595 (2026-uc03-imunologia-51-disturbios-sistema-imune; 2026-10-18)
   - Frente: {{c2::Myasthenia gravis}} is caused by autoantibodies to {{c1::post}}synaptic {{c1::ACh receptors}} at the NMJ
   - Verso: - Importantly, these antibodies (IgM and/or IgG) block activation resulting in a reduced number of functional acetylcholine receptors at the neuromuscular junction / / - This results in a decreased end plate potential (not allowing muscle cells to depolarize) since there are fewer postsynaptic cation channels that can now open in response to acetylcholine / / [IMG 102dfc79376f17f2912bfab257713d25.
@@ -61,9 +58,6 @@ Gerado por `python3 -m nebli.exemplares` a partir dos cards que Davi marcou com 
 - card 1792328931895 / note 1792328931894 (29 Topografia e morfologia da medula espinal; 2026-10-18)
   - Frente: A {{c1::fissura mediana anterior}} é um sulco profundo que divide incompletamente a medula em metades simétricas
   - Verso: [IMG kh-anterior-median-fissure-of-medulla.jpg]
-- card 1792242322071 / note 1792242322071 (2026-uc03-microbiologia-55-pratica-micologia; 2026-10-18)
-  - Frente: Which fungus is shown below? / / {{c6::Histoplasma capsulatum}} / / [IMG 6af616c61c1792d42b22b250e5935f7d.jpg] /
-  - Verso: [IMG e5c31c52eba82f636f75ebb03182d46f.jpg][IMG b39abbbf00aa0b03a99911510c118e8c.webp] / / / - Tissue: small yeasts inside macrophages; culture at 25 °C: tuberculate macroconidia
 - card 1791629593673 / note 1791629593673 (2026-uc03-imunologia-49-ativacao-celulas-b; 2026-10-18)
   - Frente: {{c2::Hyper-IgM}} syndrome is most commonly due to mutated {{c1::CD40L}} on Th cells
   - Verso: Class-switching defect / / [IMG 8246e29ed402d1087af107a0c864d6c1.webp]
