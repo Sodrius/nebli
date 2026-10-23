@@ -1575,7 +1575,9 @@ def inducao_clozes(plan):
             indices = {n for n, _ in itens}
             vertical = len(re.findall(r"<br\s*/?>", txt, re.I)) >= max(1, len(itens) - 1)
             contraste = bool(e.get("contraste_complementar"))
-            indices_ok = len(indices) == 1 if contraste else len(indices) >= min(2, len(itens))
+            # F-20261023-CLAUDE-05 (v8): organizador com todos os clozes no mesmo índice (1 1 1), com a 1ª letra de dica
+            v8 = int(plan.get("pipeline_versao") or 1) >= 8
+            indices_ok = len(indices) == 1 if (contraste or v8) else len(indices) >= min(2, len(itens))
             if len(itens) < 2 or not vertical or not indices_ok:
                 organizadores_ruins.append(e["key"])
     return [("[duro] indução: card que esconde 3+ itens tem dica com a 1ª letra em cada lacuna ({{c1::Coagulative::C…}})"

@@ -25,7 +25,8 @@ RELACAO = re.compile(
     r"\b(?:acompanh\w*|aloj\w*|articul\w*|atravess\w*|conect\w*|continu\w*|cobr\w*|delimit\w*|desemboc\w*|dren\w*|"
     r"agreg\w*|ancor\w*|circund\w*|condu\w*|contribu\w*|cont[eéê]m|contendo|detect\w*|emerg\w*|envolv\w*|estend\w*|focaliz\w*|form\w*|inerv\w*|inser\w*|irrig\w*|lig\w*|ocup\w*|origin\w*|pass\w*|produ\w*|proteg\w*|recobr\w*|receb\w*|regul\w*|relacion\w*|retra\w*|secret\w*|separ\w*|"
     r"situ\w*|supr\w*|un\w*|continuação|accompanies|attaches|connects|contains|continues|covers|drains|"
-    r"forms|gives rise|innervates|is located|lies|opens|originates|passes|receives|"
+    r"amplific\w*|armazen\w*|ativ\w*|catalis\w*|caus\w*|classific\w*|compost\w*|control\w*|contrai\w*|converte\w*|define\w*|desencade\w*|execut\w*|facilit\w*|liber\w*|"
+    r"degrad\w*|direcion\w*|envi\w*|fornec\w*|mant[eé]\w*|modific\w*|modul\w*|orden\w*|permite\w*|process\w*|projet\w*|re[uú]ne\w*|regener\w*|result\w*|sintetiz\w*|transmit\w*|transport\w*|forms|gives rise|innervates|is located|lies|opens|originates|passes|receives|"
     r"separates|supplies|surrounds|traverses)\b",
     re.I,
 )

@@ -87,8 +87,6 @@ def check(key, text_html, extra_html=""):
         problems.append(("dura", f"Extra com {extra_words} palavras (AnKing: mediana 19, p90 {MAX_EXTRA_HARD})"))
     elif extra_words > MAX_EXTRA:
         problems.append(("aviso", f"Extra com {extra_words} palavras (AnKing p75 {MAX_EXTRA})"))
-    if extra_words > 15 and not re.search(r"(^|<br\s*/?>|<div>)\s*-\s", extra_html or ""):
-        problems.append(("aviso", "Extra em parágrafo: AnKing usa bullets '- ' curtos com termo em negrito"))
     if re.search(r"\b(the lecture|in the lecture|in the lesson|the lesson|the transcript|transcript cites|in the figure|exercise question|slide \d+|this card|these patterns)\b", extra, re.I):
         problems.append(("dura", "Extra com metacomentário de curadoria"))
     # F-20261022-CLAUDE-08 (58: “autorais de baixa qualidade”): o cloze esconde o termo específico que se decora, nunca uma palavra
@@ -136,6 +134,18 @@ def check_v7(text_html):
     return probs
 
 
+def check_v8(extra_html):
+    """F-20261023-CLAUDE-05: o comentário do verso do autoral não leva travessão nem tópico com hífen (“tira o travessão dos
+    comentários, não tem porquê”): frases curtas, uma por linha (<br>), sem “- ” no início e sem — ou –."""
+    probs = []
+    linhas = [plain(x).strip() for x in re.split(r"<br\s*/?>|</div>", extra_html or "") if plain(x).strip()]
+    if re.search(r"[—–]", plain(extra_html or "")):
+        probs.append(("dura", "travessão (— ou –) no comentário do verso: reescrever (faixa numérica com 'to'; aposto com vírgula)"))
+    if any(re.match(r"[-•*]\s", ln) for ln in linhas):
+        probs.append(("dura", "comentário do verso em tópicos com hífen: escrever frases curtas, uma por linha, sem '- '"))
+    return probs
+
+
 def justification(entry):
     """Autoral só para alvo central da aula ou cobrado em prova, sem AnKing/associado equivalente
     (F-20260930-CLAUDE-19: autoria excessiva em detalhes na Imuno P2)."""
@@ -163,9 +173,11 @@ def from_plan(path):
         yield ("plano", "", "", [("dura", "há autorais e o plano não aponta 'busca_externos': arquivo da corrida com a busca feita em "
                                          "Referências Externas (MCAT, AnatoKing, Dope etc.) antes de autorar")])
     v7 = int(plan.get("pipeline_versao") or 1) >= 7
+    v8 = int(plan.get("pipeline_versao") or 1) >= 8
     for entry in autorais:
         fields = entry["fields"]
-        yield entry["key"], fields.get("Text", ""), fields.get("Extra", ""), justification(entry) + (check_v7(fields.get("Text", "")) if v7 else [])
+        yield entry["key"], fields.get("Text", ""), fields.get("Extra", ""), (justification(entry) + (check_v7(fields.get("Text", "")) if v7 else [])
+                                                                               + (check_v8(fields.get("Extra", "")) if v8 else []))
 
 
 def from_anki(query):

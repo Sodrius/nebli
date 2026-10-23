@@ -70,6 +70,19 @@ class ExplicacoesTests(unittest.TestCase):
         self.assertEqual(payload["verso"], "Mesencéfalo")
         self.assertIn("identify the marked structure", payload["frente"])
 
+    def test_kenhub_reference_front_back_images_use_portuguese_name(self):
+        c = {"cardId": 7, "note": 8, "ord": 0, "deckName": "NEBLI::UC08::Anatomia",
+             "question": "<img src='front.jpg'>", "answer": "<img src='back.jpg'>",
+             "fields": {
+                 "Nome PT": {"value": "Lobo direito do fígado", "order": 0},
+                 "Imagem Frente": {"value": "<img src='front.jpg'>", "order": 1},
+                 "Imagem Verso": {"value": "<img src='back.jpg'>", "order": 2},
+             }}
+        payload, _, _ = explicacoes.item(None, c)
+        self.assertEqual(payload["alvo_oculto"], "Lobo direito do fígado")
+        self.assertEqual(payload["verso"], "Lobo direito do fígado")
+        self.assertIn("identify the marked structure", payload["frente"])
+
     def test_hash_matches_the_addon_formula(self):
         fields = ["a", "b<br>c"]
         addon = hashlib.sha1(("\x1f".join(fields) + "\x1e2").encode("utf-8")).hexdigest()
@@ -142,7 +155,7 @@ class ExplicacoesTests(unittest.TestCase):
         self.assertIsNone(explicacoes.problema_estilo(self.TAB_TEXT))
         self.assertIn("rótulos", explicacoes.problema_estilo(
             "Básico: Base.\n\nExplicação: Causa.\n\nNa aula: Contexto.\n\nNão confundir: Contraste."))
-        self.assertIn("um parágrafo", explicacoes.problema_estilo("O complemento opsoniza micróbios."))
+        self.assertIn("exatamente três", explicacoes.problema_estilo("O complemento opsoniza micróbios."))
         self.assertIn("lista", explicacoes.problema_estilo(self.TAB_TEXT + "\n\n- item solto"))
 
     def test_bad_tab_stays_pending_until_explanation_changes(self):

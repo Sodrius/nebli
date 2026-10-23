@@ -43,6 +43,7 @@ import subprocess
 import sys
 import tempfile
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from nebli.decks import Anki
@@ -179,7 +180,9 @@ def item(call, card):
         # Oclusão de imagem: o rótulo só existe nos pixels. As cópias NEBLI trazem o nome em negrito no início de Remarks.
         named = re.match(r"\s*<b>(.*?)</b>", fields.get("Remarks", {}).get("value", ""), flags=re.S)
         target = plain(named.group(1)) if named else None
-    if not target and "Nome PT" in fields and ("MascaraP" in fields or "Imagem" in fields):
+    image_model = any(name in fields for name in
+                      ("MascaraP", "Imagem", "Imagem Frente", "Imagem Verso"))
+    if not target and "Nome PT" in fields and image_model:
         # NEBLI Kenhub IO: o rótulo da estrutura fica no campo próprio; os pixels
         # da figura/seta não aparecem no texto renderizado entregue ao gerador.
         target = plain(fields["Nome PT"]["value"]) or None
@@ -187,7 +190,7 @@ def item(call, card):
         # Prancha numerada (modelo Anatomy): o card N cobra o rótulo do campo "Na".
         target = plain(fields[f"{card['ord'] + 1}a"]["value"]) or None
     front, back = card_text(card)
-    if target and ("Answer Mask" in fields or "MascaraP" in fields):
+    if target and ("Answer Mask" in fields or image_model):
         front, back = ("Image occlusion on a figure from the lecture (cadaver photo, histology slide or atlas plate): identify the marked "
                        "structure. The figure is never available as text and that is expected: do NOT mark this card 'revisar' for lack "
                        "of the image. Explain the hidden target itself: what it is, where it lies, how to recognize it and what it does."), target
@@ -213,7 +216,7 @@ def claude(system, payload):
     cmd = [exe, "-p", "Cards:\n" + json.dumps(payload, ensure_ascii=False, indent=1),
            "--system-prompt", system, "--tools", "", "--strict-mcp-config", "--setting-sources", "",
            "--no-session-persistence", "--output-format", "json", "--model", MODEL]
-    done = subprocess.run(cmd, stdin=subprocess.DEVNULL, capture_output=True, text=True, timeout=300)
+    done = subprocess.run(cmd, stdin=subprocess.DEVNULL, capture_output=True, text=True, timeout=600)
     if not done.stdout.strip():
         raise RuntimeError(f"Claude não devolveu JSON (exit {done.returncode}): {done.stderr[:300]}")
     envelope = json.loads(done.stdout)
@@ -237,7 +240,7 @@ def codex_cli(system, payload):
         cmd = [exe, "exec", "--ephemeral", "--sandbox", "read-only",
                "--skip-git-repo-check", "--output-last-message", str(output), "-"]
         done = subprocess.run(cmd, input=prompt, capture_output=True, text=True,
-                              cwd=tmp, timeout=300)
+                              cwd=tmp, timeout=600)
         if done.returncode or not output.is_file():
             raise RuntimeError(f"Codex CLI não devolveu JSON (exit {done.returncode}): {done.stderr[-500:]}")
         answer = output.read_text(encoding="utf-8").strip()
@@ -259,18 +262,16 @@ OLD_LABEL_RE = re.compile(r"(?m)^\s*(Básico|Explicação|Na aula|Não confundir
 
 
 def problema_estilo(text):
-    """F-20261013-CLAUDE-03: texto corrido, do princípio geral ao card, em 2–4 parágrafos, sem rótulos, listas ou passos."""
+    """F-20261022-CODEX-01: três parágrafos, do básico básico ao aprofundamento além do card."""
     if not text or not text.strip():
         return "texto vazio"
     if OLD_LABEL_RE.search(text):
         return "rótulos de bloco (estilo antigo); escrever texto corrido"
-    paras = [p for p in re.split(r"\n\s*\n", text.strip()) if p.strip()]
-    if len(paras) < 2:
-        return "um parágrafo só; descer do princípio ao card em 2–4 parágrafos"
-    if len(paras) > 5:
-        return "parágrafos demais"
     if len(NUMERADA.findall(text)) >= 2 or re.search(r"(?m)^\s*[-•*]\s", text):
         return "lista ou passos numerados"
+    paras = [p for p in re.split(r"\n\s*\n", text.strip()) if p.strip()]
+    if len(paras) != 3:
+        return f"usar exatamente três parágrafos (recebidos: {len(paras)})"
     if META.search(text):
         return "metacomentário sobre o card"
     return None
@@ -281,7 +282,8 @@ def drop_empty_link(text):
     return EMPTY_LINK.sub("", text).strip() if text else text
 
 
-def generate(call, query, limit=None, redo=False, simulate=False, db=None, backend="auto"):
+def generate(call, query, limit=None, redo=False, simulate=False, db=None, backend="auto",
+             workers=1, batch_size=BATCH):
     db = db or open_store()
     system = STYLE.read_text(encoding="utf-8")
     version = style_version(system)
@@ -292,6 +294,18 @@ def generate(call, query, limit=None, redo=False, simulate=False, db=None, backe
                "inclua sempre a função da estrutura e conecte essa função à sua "
                "posição ou às relações mostradas, sem inventar função quando o "
                "nome estiver ambíguo. A explicação não pode se limitar à identificação.")
+    positive = liked_examples(call, db)
+    if positive:
+        system += ("\n\nREFERÊNCIAS POSITIVAS REAIS MARCADAS COM X/GOSTEI PELO ESTUDANTE. "
+                   "Use-as para calibrar clareza, tom e progressão, sem copiar conteúdo entre assuntos. "
+                   "O terceiro parágrafo novo deve aprofundar um pouco além do nível destas referências:\n"
+                   + json.dumps(positive, ensure_ascii=False, indent=1))
+    system += ("\n\nREVISÃO ORQUESTRADA DE CARDS IMPRECISOS: se a formulação estiver desatualizada, "
+               "absoluta demais ou parcialmente incorreta, mas o conceito pretendido for identificável, "
+               "não devolva 'revisar'. Explique o fundamento correto, diga com clareza qual qualificação "
+               "falta e use o terceiro parágrafo para aprofundar a versão cientificamente rigorosa, como "
+               "no exemplo positivo de Emax versus Vmax. Use 'revisar' apenas quando não for possível "
+               "identificar com segurança nem o assunto ou o alvo que deveria ser explicado.")
     have = {cid: (h, style, status) for cid, h, style, status in
             db.execute("select card_id, hash, estilo, status from explicacoes")}
     todo = []
@@ -311,23 +325,29 @@ def generate(call, query, limit=None, redo=False, simulate=False, db=None, backe
             print(json.dumps(payload, ensure_ascii=False, indent=1))
         return
     cost, stamp = 0.0, time.strftime("%Y-%m-%d %H:%M:%S")
-    used = set()
-    for start in range(0, len(todo), BATCH):
-        chunk = todo[start:start + BATCH]
-        if backend == "auto":
+    used, completed = set(), 0
+    chunks = [(start, todo[start:start + batch_size])
+              for start in range(0, len(todo), batch_size)]
+
+    def produce(entry):
+        start, chunk = entry
+        choices = ("claude", "codex") if backend == "auto" else (
+            (backend, "claude" if backend == "codex" else "codex"))
+        errors = []
+        for producer in choices:
             try:
-                result, spent = claude(system, [payload for payload, _, _ in chunk])
-                producer = "claude"
-                used.add("claude")
-            except RuntimeError as error:
-                print(f"  Claude indisponível ({error}); tentando Codex CLI.", flush=True)
-                result, spent = codex_cli(system, [payload for payload, _, _ in chunk])
-                producer = "codex"
-                used.add("codex")
-        else:
-            result, spent = (codex_cli if backend == "codex" else claude)(system, [payload for payload, _, _ in chunk])
-            producer = backend
-            used.add(backend)
+                fn = codex_cli if producer == "codex" else claude
+                result, spent = fn(system, [payload for payload, _, _ in chunk])
+                return start, chunk, result, spent, producer
+            except Exception as error:
+                errors.append(f"{producer}: {error}")
+        raise RuntimeError("; ".join(errors))
+
+    executor = ThreadPoolExecutor(max_workers=max(1, workers))
+    futures = [executor.submit(produce, entry) for entry in chunks]
+    for future in as_completed(futures):
+        start, chunk, result, spent, producer = future.result()
+        used.add(producer)
         cost += spent or 0
         for payload, digest, note_id in chunk:
             answer = result.get(payload["id"]) or {"status": "revisar", "motivo": "sem resposta do modelo"}
@@ -341,7 +361,9 @@ def generate(call, query, limit=None, redo=False, simulate=False, db=None, backe
                         answer.get("texto"), answer.get("motivo"), version,
                         "codex-cli" if producer == "codex" else MODEL, stamp))
         db.commit()
-        print(f"  {min(start + BATCH, len(todo))}/{len(todo)}", flush=True)
+        completed += len(chunk)
+        print(f"  {completed}/{len(todo)} (worker concluiu lote {start // batch_size + 1})", flush=True)
+    executor.shutdown(wait=True)
     if used == {"claude"}:
         print(f"Pronto. Cota equivalente (não cobrada na assinatura): US$ {cost:.3f}.", flush=True)
     elif used:
@@ -445,7 +467,7 @@ def bad_tabs(log_path=None, db=None):
     return pending
 
 
-def liked_cards(log_path=None):
+def liked_cards(log_path=None, verbose=True):
     """Lista os cards cujo "gostei" continua ativo; X novamente desfaz a marca."""
     path = Path(log_path or store_path().parent / "tab-log.jsonl")
     if not path.is_file():
@@ -465,10 +487,38 @@ def liked_cards(log_path=None):
         elif event.get("evento") == "card_gostei_desfeito":
             marked.pop(cid, None)
     liked = sorted(marked.values(), key=lambda x: x.get("em", ""), reverse=True)
-    for event in liked:
-        print(f"{event.get('em', '?')} card {event['card']} nota {event.get('nota', '?')} — gostei")
-    print(f"{len(liked)} card(s) marcado(s) como gostei.")
+    if verbose:
+        for event in liked:
+            print(f"{event.get('em', '?')} card {event['card']} nota {event.get('nota', '?')} — gostei")
+        print(f"{len(liked)} card(s) marcado(s) como gostei.")
     return liked
+
+
+def liked_examples(call, db, limit=12):
+    """Amostra temporalmente distribuída das referências positivas; exclui Referências Externas."""
+    liked = liked_cards(verbose=False)
+    ids = [int(event["card"]) for event in liked]
+    if not ids:
+        return []
+    if len(ids) > limit:
+        positions = [round(i * (len(ids) - 1) / (limit - 1)) for i in range(limit)]
+        ids = [ids[index] for index in positions]
+    try:
+        cards = call("cardsInfo", cards=ids)
+    except Exception:
+        return []
+    by_id = {int(card["cardId"]): card for card in cards if isinstance(card, dict) and card.get("cardId") is not None}
+    examples = []
+    for cid in ids:
+        card = by_id.get(cid)
+        if not card or "Referências" in card.get("deckName", ""):
+            continue
+        row = db.execute("select texto from explicacoes where card_id=? and status='ok'", (cid,)).fetchone()
+        if not row or not (row[0] or "").strip():
+            continue
+        front, back = card_text(card)
+        examples.append({"frente": front[:500], "verso": back[:700], "tab_gostado": row[0]})
+    return examples
 
 
 def main():
@@ -480,6 +530,8 @@ def main():
     gen.add_argument("--refazer", action="store_true")
     gen.add_argument("--simular", action="store_true")
     gen.add_argument("--backend", choices=("auto", "claude", "codex"), default="auto")
+    gen.add_argument("--workers", type=int, default=1)
+    gen.add_argument("--lote", type=int, default=BATCH)
     sh = sub.add_parser("mostrar")
     sh.add_argument("ids", nargs="+")
     rs = sub.add_parser("resumo", help="totais da base; com busca, cobertura exata daqueles cards")
@@ -491,7 +543,8 @@ def main():
     if args.cmd == "instalar":
         install()
     elif args.cmd == "gerar":
-        generate(Anki(), args.busca, args.limite, args.refazer, args.simular, backend=args.backend)
+        generate(Anki(), args.busca, args.limite, args.refazer, args.simular,
+                 backend=args.backend, workers=args.workers, batch_size=args.lote)
     elif args.cmd == "mostrar":
         show(args.ids)
     elif args.cmd == "ruins":

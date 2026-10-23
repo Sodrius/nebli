@@ -5,6 +5,8 @@ estudar neuroanatomia a longo prazo e saber de verdade. O piloto (tronco encefá
 67/67 estruturas) foi aprovado: “é exatamente isso que quero”. Este plano replica o piloto 50 vezes, uma unidade por vez.
 Regras e limites: [PLANO-UC07-KENHUB](PLANO-UC07-KENHUB-2026-10-17.md), MEMORY §2/§6/§15. Depois da neuro: outros temas de anatomia (nome do deck a decidir).
 
+**Fechamento em 20/10/2026:** 51/51 unidades ENTREGUES; cobertura dos quizzes auditada sem falhas. A tabela preserva a data histórica de instalação nas primeiras linhas. O conjunto ativo foi calibrado depois pelas aulas e apostilas: 836 cards ativos e 2.048 em reserva suspensa.
+
 ## Como rodar uma unidade (um comando, gates duros)
 
 ```
@@ -84,22 +86,22 @@ O cronograma abaixo continua registrando quando o conteúdo aparece na UC07, mas
 | 35 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 3 | Telencéfalo e córtex cerebral | Visão geral do cérebro | `overview-of-the-cerebrum` | 23 | 22 | instalada (18/10) |
 | 36 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 4 | Telencéfalo e córtex cerebral | Vista lateral do encéfalo | `lateral-views-of-the-brain` | 36 | 36 | instalada (18/10) |
 | 37 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 5 | Telencéfalo e córtex cerebral | Vista medial do encéfalo | `medial-view-of-the-brain` | 45 | 45 | instalada (18/10) |
-| 38 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 6 | Telencéfalo e córtex cerebral | Vista inferior do encéfalo | `basal-view-of-the-brain` | 41 | 41 | a fazer |
-| 39 | 27/10 · Irrigação do SNC (Jácomo) | 26 | Vascularização do encéfalo | Artérias do encéfalo | `arteries-of-brain` | 42 | 49 | a fazer |
-| 40 | 27/10 · Irrigação do SNC (Jácomo) | 27 | Vascularização do encéfalo | Veias do encéfalo | `the-superficial-veins-of-the-brain` | 43 | 43 | a fazer |
-| 41 | 27/10 · Irrigação do SNC (Jácomo) | 28 | Vascularização do encéfalo | Seios venosos da dura-máter | `the-dural-venous-sinuses` | 21 | 34 | a fazer |
-| 42 | 27/10 · Irrigação do SNC (Jácomo) | 33 | Medula espinal | Vasos sanguíneos da medula espinal | `blood-vessels-of-spinal-cord` | 20 | 20 | a fazer |
-| 43 | 03/11 · Sistemas neurovegetativos (Britto) | 51 | Sistema nervoso periférico e autônomo | Sistema nervoso autônomo | `anatomy-pns-ans` | 55 | 54 | a fazer |
-| 44 | 04/11 · Meninges e líquor (Jácomo) | 23 | Meninges, ventrículos e líquor | Meninges cranianas | `the-brain-meninges-and-superficial-blood-vessels` | 21 | 26 | a fazer |
-| 45 | 04/11 · Meninges e líquor (Jácomo) | 24 | Meninges, ventrículos e líquor | Ventrículos do encéfalo | `the-ventricles-of-the-brain` | 16 | 16 | a fazer |
-| 46 | 04/11 · Meninges e líquor (Jácomo) | 25 | Meninges, ventrículos e líquor | Produção e circulação do líquor | `subarachnoid-cisterns-of-the-brain` | 34 | 39 | a fazer |
-| 47 | 04/11 · Cortes seriados do SNC (Gerson) | 11 | Estruturas subcorticais | Corte horizontal do encéfalo | `horizontal-section-brain-1` | 31 | 31 | a fazer |
-| 48 | 04/11 · Cortes seriados do SNC (Gerson) | 12 | Estruturas subcorticais | Corte coronal do encéfalo (nível do tálamo) | `coronal-section-brain-thalamus-level` | 26 | 26 | a fazer |
-| 49 | 18/11 · Sistema límbico (Jácomo) | 9 | Telencéfalo e córtex cerebral | Hipocampo, fórnice e corpo amigdaloide | `the-hippocampus-and-fornix` | 21 | 22 | a fazer |
-| 50 | 18/11 · Organização do córtex cerebral (Britto) | 7 | Telencéfalo e córtex cerebral | Áreas de Brodmann | `anatomy-brodmann-areas` | 41 | 41 | a fazer |
-| 51 | 18/11 · Organização do córtex cerebral (Britto) | 8 | Telencéfalo e córtex cerebral | Homúnculo motor e sensitivo | `cortical-homunculi` | 9 | 8 | a fazer |
+| 38 | 27/10 · Núcleos da base e telencéfalo (Jácomo) | 6 | Telencéfalo e córtex cerebral | Vista inferior do encéfalo | `basal-view-of-the-brain` | 41 | 41 | entregue 20/10 |
+| 39 | 27/10 · Irrigação do SNC (Jácomo) | 26 | Vascularização do encéfalo | Artérias do encéfalo | `arteries-of-brain` | 42 | 49 | entregue 20/10 |
+| 40 | 27/10 · Irrigação do SNC (Jácomo) | 27 | Vascularização do encéfalo | Veias do encéfalo | `the-superficial-veins-of-the-brain` | 43 | 43 | entregue 20/10 |
+| 41 | 27/10 · Irrigação do SNC (Jácomo) | 28 | Vascularização do encéfalo | Seios venosos da dura-máter | `the-dural-venous-sinuses` | 21 | 34 | entregue 20/10 |
+| 42 | 27/10 · Irrigação do SNC (Jácomo) | 33 | Medula espinal | Vasos sanguíneos da medula espinal | `blood-vessels-of-spinal-cord` | 20 | 20 | entregue 20/10 |
+| 43 | 03/11 · Sistemas neurovegetativos (Britto) | 51 | Sistema nervoso periférico e autônomo | Sistema nervoso autônomo | `anatomy-pns-ans` | 55 | 54 | entregue 20/10 |
+| 44 | 04/11 · Meninges e líquor (Jácomo) | 23 | Meninges, ventrículos e líquor | Meninges cranianas | `the-brain-meninges-and-superficial-blood-vessels` | 21 | 26 | entregue 20/10 |
+| 45 | 04/11 · Meninges e líquor (Jácomo) | 24 | Meninges, ventrículos e líquor | Ventrículos do encéfalo | `the-ventricles-of-the-brain` | 16 | 16 | entregue 20/10 |
+| 46 | 04/11 · Meninges e líquor (Jácomo) | 25 | Meninges, ventrículos e líquor | Produção e circulação do líquor | `subarachnoid-cisterns-of-the-brain` | 34 | 39 | entregue 20/10 |
+| 47 | 04/11 · Cortes seriados do SNC (Gerson) | 11 | Estruturas subcorticais | Corte horizontal do encéfalo | `horizontal-section-brain-1` | 31 | 31 | entregue 20/10 |
+| 48 | 04/11 · Cortes seriados do SNC (Gerson) | 12 | Estruturas subcorticais | Corte coronal do encéfalo (nível do tálamo) | `coronal-section-brain-thalamus-level` | 26 | 26 | entregue 20/10 |
+| 49 | 18/11 · Sistema límbico (Jácomo) | 9 | Telencéfalo e córtex cerebral | Hipocampo, fórnice e corpo amigdaloide | `the-hippocampus-and-fornix` | 21 | 22 | entregue 20/10 |
+| 50 | 18/11 · Organização do córtex cerebral (Britto) | 7 | Telencéfalo e córtex cerebral | Áreas de Brodmann | `anatomy-brodmann-areas` | 41 | 41 | entregue 20/10 |
+| 51 | 18/11 · Organização do córtex cerebral (Britto) | 8 | Telencéfalo e córtex cerebral | Homúnculo motor e sensitivo | `cortical-homunculi` | 9 | 8 | entregue 20/10 |
 
-## Trabalho a fazer antes/durante as próximas unidades
+## Trabalho incorporado ao pipeline durante as unidades
 1. **Cadastro único de estruturas** (`~/NEBLI-privado/kenhub/estruturas.json`: id Kenhub, nome PT/EN/latim, unidades em que aparece, nota do deck):
    a mesma estrutura aparece em várias unidades (1.398 entradas para bem menos estruturas). Regra: o card nasce na primeira unidade em que
    a estrutura aparece; as seguintes **associam** a nota existente se ela estiver ativa. Se todos os cards da nota estiverem suspensos,
@@ -113,7 +115,7 @@ O cronograma abaixo continua registrando quando o conteúdo aparece na UC07, mas
 5. **Fisiopatologia ligada à neuroanatomia**: só AnKing, nunca autoral (ex.: lesões de nervos cranianos, síndromes do tronco). Entra por
    unidade quando o AnKing tem o card; sem limite de cards.
 6. **Machado e veteranos**: ler o capítulo/apostila da unidade e acrescentar o que o Kenhub não traz (decisão por unidade, registrada na curadoria).
-7. **Carga**: decks entram dessuspensos (decisão de Davi 17/10); as estruturas distantes têm bandeira rosa para ele suspender depois.
+7. **Carga**: a cobertura integral fica instalada; após a conclusão, a camada ativa é filtrada pelas fontes da UC. Em 20/10, 836 cards ficaram ativos e 2.048 em reserva suspensa, com manifesto por card.
 
 ## Regras de operação (Davi está sempre no Anki — F-20261017-CLAUDE-03)
 - Navegador do Kenhub e renderização **sempre invisíveis**; nada abre janela na tela dele.
