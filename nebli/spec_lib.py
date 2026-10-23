@@ -34,9 +34,9 @@ def ak(key, src, cod, bloco, alvo, slide, motivo, origin=None, **kw):
 
 
 def au(key, text, cod, bloco, alvo, slide, motivo, extra="", cores=None, espelhos=(1487463871778, 1487470255062, 1487469931164),
-       autoria="central", duplicacao_ok=""):
+       autoria="central", duplicacao_ok="", **kw):
     return dict(key=key, kind="autoral", text=text, extra=extra, flags={}, cod=cod, cores=cores or {}, bloco=bloco, alvo=alvo,
-                evid=f"Slide {slide}", autoria=autoria, busca="", espelhos=list(espelhos), motivo=motivo, duplicacao_ok=duplicacao_ok)
+                evid=f"Slide {slide}", autoria=autoria, busca="", espelhos=list(espelhos), motivo=motivo, duplicacao_ok=duplicacao_ok, **kw)
 
 
 def kh(key, src, cod, bloco, alvo, slide, motivo, nome=None, **kw):
