@@ -94,3 +94,21 @@ Gerado por `python3 -m nebli.exemplares` a partir dos cards que Davi marcou com 
 - card 1791762418025 / note 1791762418025 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-20)
   - Frente: Affinity is the ability to bind the target, whereas {{c1::intrinsic activity}} is the ability to activate it once bound
   - Verso: - Antagonists have affinity but zero intrinsic activity
+- card 1790974689882 / note 1790974689880 (2026-uc08-anatomia-02-intestino-grosso-canal-anal; 2026-10-22)
+  - Frente: Three external features distinguish the large intestine from the small intestine / / - {{c1::haustra (sacculations)}}- {{c2::omental (epiploic) appendices}}- {{c3::taeniae coli}}
+  - Verso: - The rectum has none of them / / [IMG nebli-moore-fig-5-52.png]
+- card 1791629593848 / note 1791629593848 (2026-uc03-imunologia-07-organizacao-sistema-imune; 2026-10-22)
+  - Frente: Which region of the lymph node enlarges and multiplies during humoral immune response (e.g., bacterial infection)? / / {{c1::Germinal centers}}
+  - Verso: Increased number of germinal centers → lymphadenopathy / / [IMG a05cb5f548622083368e4ff1c9597f04.webp]
+- card 1790981523226 / note 1790981523225 (2026-uc08-anatomia-07-vascularizacao-visceras; 2026-10-22)
+  - Frente: {{c2::Acute}} mesenteric ischemia may occur due to a thrombotic or embolic occlusion of the {{c1::superior mesenteric}} artery
+  - Verso: [IMG ae426f51d894c4f87ff49e803f10956c.jpg] / / Classic picture: pain out of proportion to the exam
+- card 1792175047836 / note 1792175047836 (2026-uc03-microbiologia-44-micoses-cutaneas; 2026-10-22)
+  - Frente: Dermatophyte spores coating the outside of the hair shaft form an {{c1::ectothrix::ectothrix/endothrix}} infection, and spores inside it an {{c1::endothrix::ectothrix/endothrix}} infection
+  - Verso: - Microsporum canis is typically ectothrix; Trichophyton tonsurans is endothrix, giving the black-dot tinea capitis
+- card 1791000313955 / note 1791000313954 (2026-uc08-fisiologia-05-digestao-absorcao-nutrientes; 2026-10-22)
+  - Frente: Vitamin K deficiency may occur in {{c1::newborns}} due to lack of {{c2::colonic bacteria}} that normally synthesize vitamin K
+  - Verso: Vitamin K injection is given prophylactically to all newborns at birth to prevent hemorrhagic disease of the newborn
+- card 1792588686972 / note 1792588686964 (2026-uc07; 2026-10-22)
+  - Frente: Cada nervo espinal forma-se pela união de: / 1. Raiz {{c2::anterior}}— axônios {{c1::eferentes}} / 2. Raiz {{c2::posterior}} — axônios {{c1::aferentes}}
+  - Verso: O mesmo índice oculta os dois lados do contraste, evitando que um entregue a resposta do outro. / / [IMG kh-anterior-root-of-spinal-nerve.jpg]

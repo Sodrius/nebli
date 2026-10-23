@@ -1,44 +1,414 @@
-# Especificação curada — <AULA> (<UC> <Pn>, <componente>; <professor>; <N> lâminas). Gerada a partir de inventario.py (escrito antes).
-# Ordem = slides. AnKing → externos → autoral SÓ para lacuna provada em busca/cobertura.tsv (gate duro), último do último caso.
-# Modelo vivo: arquivos-trabalho/deck-aula-uc03-rd02-diagnostico-radiologico-v2-2026-10-16/spec.py (16/10).
+# Especificação curada — 59 Patogênese da infecção viral (UC03 P3, Microbiologia; Prof. Enrique Boccardo; 178 lâminas = versão I (1–61,
+# Zanotto), versão II (62–119) e versão III (120–178, "Infecção do hospedeiro suscetível", a da fala)). Pipeline v6 (23/10): o deck nasce de
+# compreensao-aula.json e segue a versão III; as versões I e II são repetição.
+# História: o vírus só vive em células, então a doença é uma questão de quais tecidos ele alcança → entra por uma porta (respiratória é a
+# maior; receptores são moléculas de adesão; o intestino exige resistência a ácido e bile) → espalha-se (sítio primário, linfa, viremia,
+# órgão-alvo) → depois do primeiro pico segue um padrão (aguda; latente, persistente, progressiva) que depende do vírus, da via e da resposta
+# → a doença depende de suscetibilidade, permissividade, acesso e resposta, e da virulência (rotavírus, influenza, HPV) e do tropismo
+# (rinovírus × poliovírus) → para ficar, o vírus precisa de evasão ativa ou passiva.
 import pathlib as _pl, re as _re, sys as _sys
 HERE = _pl.Path(__file__).parent
 _sys.path.insert(0, str(HERE.parents[1]))
-from nebli.spec_lib import ak, au, sh, ORG, finalizar  # todos os irmãos, cor pela rubrica, dica de 1ª letra, busca por autoral
+from nebli.spec_lib import ak, au, sh, ORG, finalizar, acervo
 
-PIPELINE_VERSAO = 5  # 4 = todo AnKing das SECOES_DA_AULA entra ou é excluído com motivo; 5 = compreensao-aula.json + fidelidade ao slide, autoral sem teto (F-20261022-CLAUDE-06)
-SECOES_DA_AULA = []  # arquivos de busca/secoes/ cujo assunto É o da aula (F-20261016-CLAUDE-06: todo AnKing do conteúdo entra, sem limite)
-AUTORAL_EXCECAO = ""  # só corridas com PIPELINE_VERSAO < 5; na 5 o autoral não tem teto, mas cada um prova lacuna em todos os acervos
-PIPELINE = "anking-primeiro"  # F-20261015-CLAUDE-06: liga os gates duros (cobertura_anking, cores_rubrica, inducao_clozes); não remover
-RUN_ID = "<ucNN-curto-AAAAMMDDa>"
-SHORT = "<curto>"
-LESSON = "2026-<ucNN>-<componente>-<NN>-<slug>"
-DECK = "NEBLI::<UC>::<Pn>::<Componente>::<Aula>"
-CRITERIOS = "MEMORY.md + FEEDBACKS (último lido) + PLANO-ANKING-PRIMEIRO, <data>"
-MEDIA = {}
-BUSCA = ("Três caminhos (<data>): seções de recurso do AnKing (busca/secoes); palavra-chave em AnKing e Referências Externas (busca/anking.txt); "
-         "significado em todos os acervos (busca/semantica.jsonl). ")
-EXCLUIDOS = []  # (nid, motivo) de candidatos lidos e recusados
-FORA_DO_RECORTE = []
-A_ = "A-<bloco>"
+PIPELINE_VERSAO = 6
+SECOES_DA_AULA = [l for l in (HERE / "busca" / "secoes-da-aula.txt").read_text(encoding="utf-8").split() if l]
+AUTORAL_EXCECAO = ""
+PIPELINE = "anking-primeiro"
+RUN_ID = "uc03-mb59-20261023a"
+SHORT = "mb59"
+LESSON = "2026-uc03-microbiologia-59-patogenese-viral"
+DECK = "NEBLI::UC03::P3::Microbiologia::Patogênese da infecção viral"
+CRITERIOS = "MEMORY.md + pipeline v6 (EXECUCAO-DECK-AULA) + FEEDBACKS até F-20261022-CLAUDE-10 + EXEMPLARES/ANTI-EXEMPLARES regenerados em 23/10"
+_IMGS = ("disseminacao", "padroes", "padroes-comp", "hsv-latencia", "ebv-latencia", "hbv-aguda", "hbv-cronica", "hiv-setpoint",
+         "rota-nsp4", "polio-trajeto", "hiv-inoculo", "hpv-tropismo", "resp-sitios")
+MEDIA = {f"mb59-{n}.png": f"img/mb59-{n}.png" for n in _IMGS}
+IMG = lambda n, w=460: f'<img src="mb59-{n}.png" width="{w}">'
+BUSCA = ("Três caminhos (23/10): seções de recurso do AnKing (rinovírus, rotavírus, poliovírus, influenza, herpes, HBV, HPV, mecanismos de "
+         "infectividade; busca/secoes); palavra-chave em AnKing e Referências Externas (busca/anking.txt); significado em AnKing, nos 9 acervos "
+         "externos e no NEBLI vivo, uma consulta por conceito do mapa (busca/semantica.jsonl). ")
+
+
+def K(nid, cod, bloco, alvo, slide, motivo, **kw):
+    return acervo(nid, cod, bloco, alvo, slide, motivo, lesson=LESSON, run_id=RUN_ID, **kw)
+
+
+_EPI = "epidemiologia ou clínica do rotavírus (estação, creche, faixa etária, complicação), fora do mecanismo que a aula ensina"
+_VAC = "vacina do rotavírus (esquema, contraindicação, efeito adverso): aula de vacinas"
+EXCLUIDOS = [
+ (1473536754044, "quadro clínico do resfriado: clínica, fora do recorte"),
+ (1537564104535, "conduta num caso de resfriado: clínica"),
+ (1502063631440, "todo vírus nu é icosaédrico: card da 57 Princípios gerais dos vírus"),
+ (1506609599866, "poliproteína dos picornavírus: ciclo, card da 58"),
+ (1506627151740, "protease dos picornavírus: ciclo, card da 58"),
+ (1516665187703, "reovírus de dupla fita: repete 1516321085226, que entra"),
+ (1516665846802, _EPI), (1516666059911, _EPI), (1516666107599, _EPI), (1516666216326, _EPI), (1516666378248, _EPI),
+ (1525354034637, _EPI), (1581619827487, _EPI), (1482289615950, _EPI),
+ (1516666476206, "coltivírus: outro vírus da família, fora da aula"), (1516666961676, "coltivírus: fora da aula"),
+ (1516667142242, "tratamento do rotavírus (reidratação): clínica"),
+ (1516666695540, _VAC), (1516666766803, _VAC), (1516666812794, _VAC), (1516667209562, _VAC), (1517013683033, _VAC), (1517598229958, _VAC),
+]
+FORA_DO_RECORTE = [
+ "Oncogênese viral (E6 ⊣ p53, E7 ⊣ pRb, latências do EBV e linfomas, HBV e carcinoma hepatocelular): Agentes carcinogênicos biológicos (P4); E6/E7 aqui só como evasão ativa e o HPV pelo risco de cada tipo.",
+ "Patogênese do HIV em detalhe (CD4, correceptores, fases clínicas): aula específica de HIV; aqui só o padrão progressivo, o set point e a latência clínica.",
+ "Resposta imune antiviral (IFN, NK, CTL, anticorpos): 63 Organização da resposta imune aos vírus; aqui só como determinante do padrão e da doença.",
+ "Efeito citopático e inclusões: 60 Virologia prática e 61 Patologia da infecção viral.",
+ "Sorologia completa das hepatites e manifestações extra-hepáticas: clínica; entram só o HBsAg > 6 meses (crônica) e o anti-HBs (recuperação), que as curvas das lâminas 139–140 mostram.",
+ "Vacinas (Salk × Sabin em detalhe, esquemas, rotavírus): aula de vacinas; entra só a vacina oral da pólio como exemplo de atenuação que muda o tropismo (lâmina 167).",
+ "Versões I (1–61) e II (62–119) repetem a versão III; os cards apontam para a III.",
+]
+A_, B_, C_, D_, E_, F_, G_, H_, I_ = ("A-infeccao", "B-entrada", "C-disseminacao", "D-padroes", "E-determinantes", "F-virulencia",
+                                       "G-tropismo", "H-evasao", "I-balanco")
 
 CARDS = [
- # Código de rubrica (MEMORY §8): V-pilar | V-prova | A-aula | A-step | R-detalhe | R-org — a cor sai daqui, não da tag HY.
- # ak("chave", nid, "A-step", A_, "alvo", slide, "por quê (lâmina/prova/HY)", origin="MCAT"|"Ankisthesia"|... se externo, extra_add="- linha"),
- # au("chave", "Frase AnKing com <b>contexto</b> e {{c1::nome}}", "A-aula", A_, "alvo", "slide; fonte", "por quê", extra="- porquê"),
- # sh(nid_nebli, "azul", A_, "alvo", slide, "motivo"),
+ # ---------- O vírus como parasita de tecidos; infecção ≠ doença (lâminas 120–122) ----------
+ sh(1792677732277, "verde", A_, "Vírus é parasita intracelular obrigatório", 121, "V-pilar: retoma a 57 (sem ribossomo nem ATP); é a premissa da aula"),
+ au("au-tecidos", "Because viruses are obligate <b>intracellular</b> parasites, inside an organism they are obligate parasites of {{c1::tissues}}",
+    "A-aula", A_, "Parasita de tecidos e órgãos", 121, "lâmina 121; transcrição (parasitas de tecidos e órgãos)",
+    extra="- So viral disease depends on which tissues the virus reaches and can use<br>- Entry, spread and tropism decide those tissues"),
+ sh(1792695018040, "verde", A_, "Infecção produtiva × abortiva", 122, "V-pilar: card da 58; a lâmina 122 retoma a definição"),
+ sh(1791746116702, "azul", A_, "Infecção ≠ doença (iceberg)", 122, "A-aula: card da 35, geral; a lâmina 122 fixa infecção ≠ doença"),
+ # ---------- Portas de entrada (lâminas 123–128) ----------
+ sh(1791780622904, "azul", B_, "Portas de entrada", 124, "A-aula: card da 39 (pele, mucosas, vias aéreas, fecal-oral); lâmina 124"),
+ au("au-resp-comum", "The most common portal of entry for viruses is the {{c1::respiratory}} tract",
+    "V-pilar", B_, "Via respiratória é a mais comum", 124, "lâminas 124–125; transcrição; Jawetz cap. 30",
+    extra="- Its epithelium covers about <b>140 m²</b>, and we breathe all day<br>- Defenses: mucociliary clearance and secretory IgA"),
+ K(1473289461901, "A-aula", B_, "Defesa respiratória: escada mucociliar", 125, "lâmina 125 (epitélio mucociliar como defesa)",
+   extra_add="- <b>Secretory IgA</b> is the other barrier a respiratory virus must overcome"),
+ K(1516325251980, "A-aula", B_, "Influenza: transmissão por gotículas/aerossol", 125, "lâmina 125 (aerossóis: influenza)"),
+ K(1516222208131, "A-aula", B_, "Rinovírus: gotículas e fômites", 125, "lâmina 125 (contato direto: rinovírus)"),
+ au("au-local-sist", "<b>Rhinovirus</b> stays at the portal of entry, a {{c1::localized::localized/systemic}} infection, whereas <b>measles</b> spreads {{c1::systemically::localized/systemic}}",
+    "A-aula", B_, "Infecção localizada × sistêmica", 125, "lâmina 125; transcrição (sarampo: entra pela via aérea, rash na periferia); Jawetz quadro 30.1",
+    extra="- Local infections need no viremia and have short incubation<br>- Systemic ones reach distant organs, like the measles rash in the skin"),
+ au("au-regiao", "In the respiratory tract, the {{c1::site of replication}} decides whether a virus causes rhinitis, laryngitis or pneumonia",
+    "R-detalhe", B_, "Região do trato define o quadro", 126, "lâmina 126; transcrição (rinite, faringite, laringite → bronquiolite, broncopneumonia)",
+    extra="- The deeper the virus replicates, the more severe the disease<br>" + IMG("resp-sitios")),
+ au("au-adesao", "Many viral <b>receptors</b> are cell {{c1::adhesion}} molecules, such as ICAM-1 and the CAR tight-junction protein",
+    "A-aula", B_, "Receptores virais são moléculas de adesão", 127, "lâmina 127; apostila guia de Micro; UC3.pdf",
+    extra="- Binding them can loosen the epithelium and impair its function"),
+ K(1516222322469, "A-aula", B_, "Rinovírus usa ICAM-1", 127, "lâmina 127 (ICAM-1 para rinovírus)"),
+ sh(1792695021541, "rosa", B_, "Adenovírus usa CAR", 127, "R-detalhe: card da 58 (CAR e integrinas); lâmina 127"),
+ sh(1792677742326, "azul", B_, "Entrada pelo trato alimentar: resistir a ácido e bile", 128, "A-aula: card da 57 (vírus nu resiste a ácido, bile e dessecação); lâmina 128"),
+ K(1516237532611, "A-aula", B_, "Entéricos localizados: rotavírus e norovírus", 128, "lâmina 128 (infecções localizadas: rotavírus, norovírus → diarreia)"),
+ au("au-entericos", ORG("<b>Enteric viruses</b>:<br>- localized, causing diarrhea: {{c1::rotavirus}}, norovirus<br>- systemic, reaching far organs: {{c2::poliovirus}} (CNS), hepatitis A (liver)"),
+    "A-aula", B_, "Entéricos localizados × sistêmicos", 128, "lâmina 128; transcrição (pólio → SNC, hepatite A → fígado)",
+    extra="- Both start in the intestinal epithelium, but only systemic ones go on to viremia"),
+ # ---------- Disseminação (lâminas 129–130) ----------
+ au("au-dissemina", ORG("<b>Systemic viral spread</b>:<br>- replication at {{c1::portal of entry}}<br>- lymph nodes<br>- {{c2::primary viremia}}<br>- liver, spleen<br>- secondary viremia to {{c3::target organ}}"),
+    "V-pilar", C_, "Sítio primário → linfa → viremia → órgão-alvo", 129, "lâmina 129; transcrição; Jawetz fig. 30.2",
+    extra="- From the target organ the virus is shed (skin, urine, feces) or causes the disease<br>" + IMG("disseminacao")),
+ au("au-viremia", "Virus in the blood, or {{c1::viremia}}, may circulate free in plasma or inside leukocytes",
+    "A-aula", C_, "Viremia: livre ou em leucócitos", 130, "lâmina 130; Jawetz quadro 30.3",
+    extra="- Viruses reach the blood from the epithelium through the lymphatics"),
+ au("au-viremia-passiva", "Viremia from viral <b>replication</b> is {{c1::active::active/passive}}, while virus injected by needle or mosquito causes {{c1::passive::active/passive}} viremia",
+    "A-aula", C_, "Viremia ativa × passiva", 130, "lâmina 130; transcrição (transfusão, droga injetável, mosquito, mordida)",
+    extra="- Passive viremia skips the epithelial barriers altogether"),
+ au("au-incubacao", "Localized viral infections have a {{c1::short::short/long}} incubation, whereas systemic ones, which must spread first, have a {{c1::long::short/long}} one",
+    "A-aula", C_, "Incubação curta (local) × longa (sistêmica)", 129, "Jawetz quadro 30.1; prova 2025 P3 3.6 (sarampo 14 dias × influenza 3 dias)",
+    extra="- A long incubation lets <b>measles</b> spread to others before symptoms appear"),
+ # ---------- Padrões de infecção (lâminas 131–145) ----------
+ au("au-padroes", ORG("<b>Viral infection patterns</b>:<br>- {{c1::acute}}: virus cleared<br>- {{c2::latent}}: silent, reactivates<br>- {{c3::persistent}}: steady replication<br>- {{c4::progressive}}: rising until death"),
+    "V-pilar", D_, "Padrões: aguda, latente, persistente, progressiva", 133, "lâminas 132–133 e 145; transcrição; prova 2015 P2sub 2.5",
+    extra="- Every infection starts with the same peak; what follows defines the pattern<br>- Pattern is typical of each virus: all herpesviruses become latent, influenza never chronic<br>" + IMG("padroes")),
+ au("au-aguda", "An <b>acute</b> viral infection is limited in time and ends with {{c1::clearance}} of the virus or death of the host",
+    "A-aula", D_, "Infecção aguda: começo, meio e fim", 134, "lâminas 132 e 134; transcrição; apostila guia (aguda ≠ rápida)",
+    extra="- Acute is not fast: a cold lasts days, acute hepatitis B about 6 months"),
+ au("au-latencia", "In viral <b>latency</b> the genome stays in the cell without making virions, but the cycle can be {{c1::reactivated}}",
+    "V-pilar", D_, "Latência viral: ciclo desligado e reativável", 135, "lâmina 135 (estado transcricional e traducional único)",
+    extra="- Between reactivations viral replication is zero<br>- True viral latency belongs to the <b>herpesviruses</b>"),
+ au("au-hsv-axonio", "<b>HSV</b> replicates lytically in mucosal epithelium, then travels up {{c1::sensory axons}} to lie latent in the ganglion",
+    "A-aula", D_, "HSV: lítico no epitélio, latente no neurônio", 136, "lâmina 136; transcrição; Jawetz fig. 30.4",
+    extra="- On reactivation it travels back down the axon to the epithelium<br>" + IMG("hsv-latencia")),
+ K(1502153397982, "A-aula", D_, "HSV-1 latente no gânglio trigeminal", 136, "lâmina 136; Jawetz (gânglios sensitivos)"),
+ K(1502154338212, "A-aula", D_, "HSV-2 latente nos gânglios sacrais", 136, "lâmina 136; Jawetz"),
+ K(1502152875721, "A-aula", D_, "Estresse reativa o HSV-1", 136, "transcrição (reativação por estresse do hospedeiro)"),
+ au("au-reativ", "Herpes <b>reactivations</b> reach lower viral loads than the primary infection because {{c1::immune memory}} already exists",
+    "A-aula", D_, "Reativação com pico menor", 136, "transcrição (padrão latente); UC3.pdf (segunda resposta mais branda)",
+    extra="- On a graph, each peak returns to zero: draw it this way"),
+ au("au-celula-longa", "Latency pays off in long-lived cells, such as neurons for HSV and {{c1::memory B cells}} for EBV",
+    "A-aula", D_, "Latência em célula de vida longa", 137, "lâmina 137; apostila guia e UC3.pdf; transcrição (lâmina 146)",
+    extra="- A virus in constantly shed intestinal epithelium is lost with the cells"),
+ K(1503853508872, "A-aula", D_, "EBV transmitido pela saliva", 137, "lâmina 137; transcrição"),
+ K(1503854280231, "R-detalhe", D_, "EBV infecta primeiro o epitélio da orofaringe", 137, "lâmina 137 (mucosa orofaríngea)"),
+ K(1503855029259, "A-aula", D_, "EBV entra na célula B pelo CD21", 137, "lâmina 137 (célula B naive infectada)"),
+ K(1503854748516, "A-aula", D_, "EBV latente na célula B", 137, "lâmina 137"),
+ au("au-ebv-0", "In memory B cells <b>EBV</b> expresses no viral protein, latency type {{c1::0}}, so it is invisible to T cells",
+    "A-aula", D_, "EBV: latência 0 invisível", 137, "lâmina 137; transcrição (quatro tipos de latência; latência 0 sem proteína)",
+    extra="- Proliferating B cells: latency III, many proteins, killed by T cells<br>- EBV fits its genes to the B-cell state<br>" + IMG("ebv-latencia")),
+ au("au-persistente", "A {{c1::persistent}} infection, unlike a <b>latent</b> one, keeps producing virions at a steady level for years",
+    "A-aula", D_, "Persistente: replicação contínua", 138, "lâminas 138–142; transcrição; monitoria (ciclo nunca para no crônico)",
+    extra="- Virus and host coexist in a balance, as in chronic hepatitis B and C"),
+ au("au-hbv-adulto", "About {{c1::90}}% of adults infected with <b>HBV</b> clear it in an acute infection lasting about 6 months",
+    "A-aula", D_, "HBV no adulto: 90% agudo", 139, "lâmina 139; transcrição; prova 2015 P2 2.4",
+    extra="- The other 10% become chronic carriers<br>- Clearing HBV takes a vigorous immune response, which also injures the liver<br>" + IMG("hbv-aguda")),
+ au("au-hbv-imune", "In acute <b>HBV</b> infection, liver injury comes mainly from {{c1::cytotoxic T cells}} killing infected hepatocytes",
+    "A-aula", D_, "HBV: lesão pela resposta imune", 139, "transcrição (o sistema imune causa o dano hepático tentando eliminar o vírus); Ninja Nerd",
+    extra="- Transaminases rise when the immune response begins, after the peak of viral DNA"),
+ K(1506552371527, "V-prova", D_, "HBV vertical: 90% crônico", 140, "lâmina 140; transcrição (90% das crianças de mães infectadas)",
+   extra_add=IMG("hbv-cronica")),
+ K(1521044243769, "A-aula", D_, "HBsAg > 6 meses = crônico", 140, "lâminas 139–140 (curvas); prova 2015 P2 2.4"),
+ K(1552683158377, "R-detalhe", D_, "Anti-HBs = recuperação", 139, "lâmina 139 (anticorpos anti-HBs na recuperação); prova 2015 P2 2.4"),
+ K(1506630060423, "A-aula", D_, "HCV cronifica na maioria", 142, "lâminas 141–142; transcrição; UC3.pdf"),
+ K(1506552205472, "A-aula", D_, "HBV cronifica menos que HCV", 142, "lâminas 139–142"),
+ au("au-progressiva", "In a {{c1::progressive}} infection such as <b>HIV</b>, replication never stops and finally overcomes the immune response",
+    "A-aula", D_, "Progressiva: o vírus vence aos poucos", 143, "lâminas 143–144; transcrição",
+    extra="- Viral load rises as CD4 T cells fall below a threshold, giving AIDS"),
+ au("au-setpoint", "After acute <b>HIV</b> infection, viral load settles at a {{c1::set point}} that predicts how fast AIDS develops",
+    "A-aula", D_, "Set point do HIV", 144, "lâmina 144; transcrição; UC3.pdf",
+    extra="- Lower set point, slower progression<br>- It reflects how well the immune response controls the virus<br>" + IMG("hiv-setpoint")),
+ au("au-lat-clin", "HIV <b>clinical latency</b> has no symptoms but continuous viral {{c1::replication}}, unlike herpesvirus latency",
+    "V-prova", D_, "Latência clínica × latência viral", 144, "lâmina 144; transcrição ('latência clínica está aqui para complicar a vida'); apostila e UC3.pdf",
+    extra="- Herpes latency: replication switched off<br>- HIV clinical latency: replication on, symptoms off"),
+ K(1502067560663, "A-step", D_, "Latência clínica do HIV dura até 10 anos", 144, "lâmina 144 (anos de latência clínica)"),
+ sh(1792166995969, "azul", D_, "AIDS: CD4 < 200", 144, "A-step: card da 51; lâmina 144 (CD4 abaixo de um patamar)"),
+ # ---------- Determinantes do padrão (lâminas 146–147) ----------
+ au("au-dep-padrao", ORG("<b>The pattern of a viral infection</b> depends on:<br>- the virus, its virulence and {{c1::tropism}}<br>- the {{c2::route}} of transmission<br>- the host {{c3::immune response}}"),
+    "V-pilar", E_, "Do que dependem os padrões", 146, "lâmina 146; transcrição; monitoria",
+    extra="- HBV by needle in adults: mostly acute<br>- HBV from mother to child: mostly chronic"),
+ au("au-inata-adapt", "Acute viral infections are mainly controlled by {{c1::innate::innate/adaptive}} immunity, and chronic ones by {{c1::adaptive::innate/adaptive}} immunity",
+    "A-aula", E_, "Aguda: inata; crônica: adaptativa", 147, "lâmina 147; transcrição; apostila guia",
+    extra="- When the adaptive response cannot clear the virus, the host learns to live with it"),
+ au("au-cronificar", "To establish a <b>chronic</b> infection, a virus needs mechanisms of immune {{c1::evasion}}",
+    "A-aula", E_, "Cronificar exige evasão", 147, "lâmina 147; transcrição",
+    extra="- Evasion can be active, with viral proteins, or passive, by where and how the virus is"),
+ # ---------- Infecção × patogênese (lâminas 148–150) ----------
+ au("au-doenca-dep", ORG("<b>Whether infection causes disease</b>, and how severe, depends on:<br>- the virus {{c1::type}}<br>- the host {{c2::species}}<br>- the {{c3::individual}}<br>- the route of infection"),
+    "A-aula", E_, "Doença depende de vírus, espécie, indivíduo, via", 148, "lâmina 148; transcrição; apostila guia",
+    extra="- Most SARS-CoV-2 infections are asymptomatic<br>- Bats carry rabies with little disease"),
+ K(1608907939580, "R-detalhe", E_, "Coronavírus de alta patogenicidade", 148, "transcrição (SARS-CoV-2 × coronavírus sazonais: o tipo de vírus define a severidade)",
+   extra_add="- Seasonal coronaviruses cause only colds"),
+ au("au-manifest", ORG("<b>Ways a virus causes disease</b>:<br>- tissue {{c1::destruction}}<br>- inflammatory {{c2::cytokines}}<br>- cell dysfunction<br>- {{c3::paracrine}} effect on uninfected cells<br>- tumor induction"),
+    "V-pilar", E_, "Manifestações da patogênese viral", 150, "lâmina 150; transcrição; monitoria",
+    extra="- Paracrine example: rotavirus NSP4 acting on neighboring cells"),
+ au("au-imunopatologia", "Tissue damage caused by the host's own inflammatory response to a virus is called {{c1::immunopathology}}",
+    "A-aula", E_, "Imunopatologia", 150, "transcrição (casos graves de COVID-19 e influenza: a resposta inflamatória é o grande problema)",
+    extra="- Hepatitis B is another example: T cells, not the virus, injure the liver"),
+ au("au-tumores", "Viral infections cause about {{c1::15–20}}% of human cancers",
+    "R-detalhe", E_, "Indução de tumores", 150, "UC3.pdf (15 a 20% dos tumores); transcrição (1 em cada 5 ou 6)",
+    extra="- Main examples: high-risk HPV, HBV, HCV and EBV"),
+ # ---------- Suscetibilidade, permissividade, acesso, resposta (lâminas 151–152) ----------
+ sh(1792695018289, "azul", E_, "Condições da infecção produtiva", 152, "A-aula: organizador da 58; a lâmina 152 é este quadro"),
+ au("au-susc-perm", "A cell with the viral receptor is {{c1::susceptible::susceptible/permissive}}, and one that also lets the virus replicate is {{c1::permissive::susceptible/permissive}}",
+    "V-prova", E_, "Suscetível × permissiva", 152, "lâmina 152; transcrição; prova 2019 P3 3.3",
+    extra="- A susceptible but nonpermissive cell gives an abortive infection"),
+ au("au-hemacia", "A <b>red blood cell</b> may bind a virus but is not {{c1::permissive}}, lacking machinery to copy a genome",
+    "A-aula", E_, "Hemácia: entra mas não replica", 152, "transcrição (exemplo da hemácia)",
+    extra="- No nucleus, no ribosomes: only hemoglobin inside"),
+ au("au-acess", "<b>Yellow fever</b> virus on intact skin is harmless, but a mosquito bite makes its target cells {{c1::accessible}}",
+    "A-aula", E_, "Acessibilidade à célula-alvo", 152, "lâmina 152; transcrição (exemplo da febre amarela)",
+    extra="- Infection needs receptor, permissive cell and access to it"),
+ au("au-sarampo", "<b>Measles</b> is systemic because many tissues, including {{c1::immune cells}}, are susceptible and permissive to it",
+    "V-prova", E_, "Sarampo sistêmico: muitas células suscetíveis e permissivas", 152, "prova 2019 P3 3.3 e 2025 P3 3.6; Jawetz quadro 30.3 (sarampo em linfócitos e monócitos)",
+    extra="- Infecting immune cells also makes measles <b>immunosuppressive</b><br>- Influenza, by contrast, stays in the respiratory epithelium"),
+ # ---------- Virulência (lâminas 153–155) ----------
+ au("au-virulencia", "<b>Virulence</b> is a virus's relative ability to cause disease and usually follows its {{c1::replicative capacity}}",
+    "V-pilar", F_, "Virulência", 153, "lâmina 153; apostila guia; monitoria",
+    extra="- Tropism and the host response also shape it<br>- It shows as rapid death, organ failure or tumors"),
+ au("au-atenuada", "Strains that still infect but no longer cause disease are called {{c1::attenuated}} and are used as live vaccines",
+    "A-aula", F_, "Estirpe virulenta × atenuada", 154, "lâmina 154; transcrição",
+    extra="- Virulent strain example: the 1918 influenza"),
+ au("au-vir-dep", ORG("<b>Virulence depends on</b>:<br>- the viral {{c1::variant}}<br>- the {{c2::dose}} received<br>- the {{c3::route}} of inoculation<br>- host susceptibility"),
+    "A-aula", F_, "Do que depende a virulência", 154, "lâmina 154; transcrição; apostila guia",
+    extra="- HBV acquired vertically is more often chronic, so the route matters"),
+ au("au-fatores", ORG("<b>Viral virulence factors</b> help a virus:<br>- replicate more<br>- {{c1::colonize}} and spread<br>- {{c2::evade}} immunity<br>- act as a toxin, like {{c3::NSP4}}"),
+    "A-aula", F_, "Fatores de virulência", 155, "lâmina 155; monitoria; apostila guia",
+    extra="- Spread includes adhesion, entry and exit from cells and from the body"),
+ # ---------- Rotavírus (lâminas 156–157) ----------
+ K(1516666167898, "A-aula", F_, "Rotavírus: principal diarreia grave infantil", 156, "lâmina 156"),
+ K(1516665586644, "R-detalhe", F_, "Rotavírus é um reovírus", 156, "lâmina 156 (família Reoviridae)"),
+ K(1516321085226, "A-aula", F_, "Reoviridae: RNA de dupla fita", 156, "lâmina 156 (RNA dupla fita)"),
+ K(1516665391803, "R-detalhe", F_, "Reovírus: genoma segmentado", 156, "lâmina 156 (segmentado)"),
+ K(1516665343741, "A-aula", F_, "Reovírus: não envelopado", 156, "lâmina 156 (não envelopado)"),
+ K(1516666651267, "R-detalhe", F_, "Rotavírus em forma de roda", 156, "lâmina 156 (micrografia)"),
+ K(1516665596498, "A-aula", F_, "Rotavírus: fecal-oral", 156, "lâmina 128 e 156"),
+ K(1516665721192, "A-aula", F_, "Rotavírus: diarreia aquosa", 156, "lâmina 156"),
+ K(1516665751235, "A-aula", F_, "NSP4: enterotoxina do rotavírus", 156, "lâmina 156 (NSP4 semelhante a enterotoxina)"),
+ au("au-nsp4-ca", "Rotavirus <b>NSP4</b> raises intracellular {{c1::Ca2+}}, which drives chloride secretion and watery diarrhea",
+    "A-aula", F_, "NSP4 → Ca2+ → Cl− → diarreia", 157, "lâminas 156–157; transcrição",
+    extra="- Water follows the chloride into the lumen<br>" + IMG("rota-nsp4")),
+ K(1516665990169, "A-aula", F_, "NSP4 aumenta a permeabilidade ao Cl−", 157, "lâmina 156 (aumenta a secreção de cloro)"),
+ au("au-paracrino", "Released <b>NSP4</b> also acts on {{c1::uninfected}} neighboring enterocytes, a paracrine effect",
+    "A-aula", F_, "NSP4: efeito parácrino", 157, "lâmina 157; transcrição; apostila guia",
+    extra="- So diarrhea is larger than the number of infected cells suggests"),
+ K(1516665872787, "R-detalhe", F_, "Destruição das vilosidades", 157, "lâmina 157 (lise das células da borda em escova)"),
+ K(1516666902436, "A-aula", F_, "Deficiência secundária de lactase", 157, "lâmina 157; transcrição"),
+ K(1474164990441, "A-aula", F_, "Lactose não digerida → diarreia osmótica", 157, "lâmina 157 (diarreia osmótica)"),
+ au("au-leite", "Children with rotavirus should avoid milk, because undigested {{c1::lactose}} worsens the osmotic diarrhea",
+    "R-detalhe", F_, "Rotavírus: evitar leite", 157, "transcrição (não se dá leite); apostila guia",
+    extra="- Lactase-producing brush-border cells were lysed in the second stage"),
+ # ---------- Influenza (lâminas 158–159) ----------
+ K(1516320758799, "A-aula", F_, "Ortomixovírus: RNA de sentido negativo", 158, "lâmina 158"),
+ K(1516321367173, "R-detalhe", F_, "Ortomixovírus: 8 segmentos", 158, "lâmina 158 (8 segmentos em A e B)"),
+ K(1516322197499, "A-aula", F_, "Influenza nomeado por HA e NA", 158, "lâmina 158 (HA e NA)"),
+ sh(1792695019915, "verde", F_, "HA liga ácido siálico", 158, "V-hy: card da 58; lâmina 158"),
+ sh(1792695056243, "azul", F_, "NA libera o vírion", 158, "A-aula: card da 58; lâmina 158"),
+ K(1516321589458, "A-aula", F_, "Variação antigênica em HA e NA", 158, "transcrição (varia muito, vacina anual); apostila guia"),
+ K(1516322271299, "A-aula", F_, "Drift ou shift", 158, "apostila guia e UC3.pdf (drift e shift)"),
+ K(1516322855117, "A-aula", F_, "Drift: mutações pontuais", 158, "apostila guia"),
+ K(1516323022237, "A-aula", F_, "Drift → epidemias", 158, "apostila guia (epidemias anuais)"),
+ K(1516322946030, "A-aula", F_, "Drift → vacina anual", 158, "transcrição (vacina nova a cada ano)"),
+ K(1516323064948, "A-aula", F_, "Shift: rearranjo entre espécies", 159, "lâmina 158 (tipo A em aves, suínos, humanos); apostila guia"),
+ sh(1792695053893, "verde", F_, "Rearranjo causa shift", 159, "V-hy: card da 58"),
+ K(1516323168130, "A-aula", F_, "Shift → pandemias", 159, "lâmina 159 (pandemias)",
+   extra_add="- Pandemic strains are far more virulent: 1918 H1N1 killed tens of millions"),
+ # ---------- HPV (lâminas 160–164) ----------
+ K(1394240219632, "A-aula", F_, "HPV baixo risco: 6 e 11", 160, "lâmina 160"),
+ K(1394068322402, "A-aula", F_, "Verrugas genitais: HPV 6/11", 161, "lâminas 160–161"),
+ K(1385335260100, "A-aula", F_, "Papilomatose laríngea: HPV 6/11", 162, "lâmina 162"),
+ au("au-papiloma-laringe", "A benign <b>HPV 6/11</b> papilloma becomes dangerous in the {{c1::larynx}}, where it can obstruct the airway",
+    "R-detalhe", F_, "Mesma lesão, gravidade conforme o local", 162, "lâmina 162; transcrição (asfixia, cirurgia)",
+    extra="- Virulence also depends on the anatomical site infected"),
+ K(1394239958498, "A-aula", F_, "HPV alto risco: 16 e 18", 160, "lâmina 160"),
+ K(1463105840341, "A-aula", F_, "HPV infecta a zona de transformação do colo", 163, "lâmina 163"),
+ au("au-hpv-70", "Among high-risk types, <b>HPV 16 and 18</b> together cause about {{c1::70}}% of cervical cancers",
+    "A-aula", F_, "HPV 16 + 18 ≈ 70%", 164, "lâmina 164; transcrição; apostila guia",
+    extra="- HPV 16 alone causes more than half<br>- Virulence differs even among high-risk types"),
+ # ---------- Tropismo (lâminas 165–167) ----------
+ sh(1792695019413, "verde", G_, "Receptor define o tropismo", 165, "V-pilar: card da 58; lâmina 165 abre o bloco de tropismo"),
+ K(1516324044281, "A-aula", G_, "HA define o tropismo do influenza", 165, "transcrição (influenza muda de receptor e de virulência)"),
+ au("au-influenza-inferior", "Influenza strains that bind receptors of the {{c1::lower::upper/lower}} airway cause more severe disease",
+    "R-detalhe", G_, "Influenza: receptor das vias inferiores", 165, "transcrição (mudar de receptores das vias superiores para as inferiores aumenta a virulência)",
+    extra="- Same virus, deeper site, worse disease: pneumonia instead of a cold"),
+ K(1506609930801, "A-aula", G_, "Rinovírus: Picornaviridae", 166, "lâmina 166"),
+ K(1516222066430, "A-aula", G_, "Rinovírus: RNA +", 166, "lâmina 166"),
+ K(1516222094329, "A-aula", G_, "Rinovírus: não envelopado", 166, "lâmina 166"),
+ K(1516222286888, "A-aula", G_, "Rinovírus: principal causa de resfriado", 166, "lâmina 166 (~50% dos resfriados)"),
+ K(1516222746893, "R-detalhe", G_, "Rinovírus: > 100 sorotipos", 166, "lâmina 166"),
+ K(1516222636401, "A-aula", G_, "Rinovírus: via aérea superior", 166, "lâmina 166; lâmina 125 (infecção localizada)"),
+ K(1516222135232, "A-aula", G_, "Rinovírus é ácido-lábil", 166, "lâmina 166 (inativado por ácido)"),
+ K(1516222409950, "A-aula", G_, "Rinovírus cresce melhor a 33 °C", 166, "lâmina 166 (32–33 °C)"),
+ au("au-rino-nariz", "Killed by stomach <b>acid</b> and favoring 33 °C, rhinovirus replicates only in the {{c1::nasal}} mucosa",
+    "A-aula", G_, "Por que o rinovírus fica no nariz", 166, "lâmina 166; transcrição (se engolido, é inativado; ar frio da rinofaringe)",
+    extra="- Tropism here comes from conditions the virus tolerates, not only from receptors"),
+ sh(1792677742080, "azul", G_, "Álcool rompe o envelope", 166, "A-aula: card da 57; transcrição (álcool-gel não inativa rinovírus)"),
+ au("au-alcool", "Alcohol gel inactivates enveloped viruses but not naked ones such as {{c1::rhinovirus}}",
+    "R-detalhe", G_, "Álcool-gel não inativa rinovírus", 166, "lâmina 166 (resistente a éter e etanol); transcrição",
+    extra="- Rhinovirus spreads on hands and fomites, so hand washing matters"),
+ K(1506609368498, "A-aula", G_, "Picornavírus: em geral fecal-oral", 167, "transcrição (pólio é transmitido pela via fecal-oral)"),
+ K(1516218404816, "A-aula", G_, "Poliovírus é ácido-estável", 167, "lâmina 167 (resistentes ao ácido)"),
+ au("au-polio-capsid", "Poliovirus and rhinovirus are close relatives whose different tropism comes from small changes in their {{c1::capsid}}",
+    "A-aula", G_, "Rinovírus × poliovírus: o capsídeo decide", 167, "transcrição (pequenas substituições de aminoácidos do capsídeo)",
+    extra="- Rhinovirus: acid-labile, nose<br>- Poliovirus: acid-stable, gut, then CNS"),
+ K(1516218760271, "A-aula", G_, "Pólio replica em tonsilas e placas de Peyer", 167, "lâmina 167 (intestino delgado, linfonodos mesentéricos)"),
+ au("au-polio-trajeto", "After replicating in the gut and its lymph nodes, poliovirus reaches the <b>CNS</b> through {{c1::viremia}}",
+    "A-aula", G_, "Trajeto do poliovírus", 167, "lâmina 167; transcrição; Jawetz fig. 30.3",
+    extra="- Only a minority of infections reach the CNS<br>" + IMG("polio-trajeto")),
+ K(1516218866700, "A-aula", G_, "Pólio atinge o neurônio motor do corno anterior", 167, "lâmina 167 (SNC, paralisia)"),
+ K(1516219553378, "A-aula", G_, "Sabin: vírus vivo atenuado", 167, "transcrição (vacina da gotinha)"),
+ au("au-sabin", "The oral <b>Sabin</b> vaccine replicates in the gut but cannot reach the {{c1::CNS}}, so it causes no paralysis",
+    "A-aula", G_, "Atenuação restringe o tropismo", 167, "transcrição (versão atenuada não passa ao sangue e ao SNC)",
+    extra="- A few mutations changed where it can go, and thus its virulence"),
+ K(1516219843437, "R-detalhe", G_, "Sabin induz IgG e IgA", 167, "transcrição (replica no intestino)"),
+ # ---------- Evasão (lâminas 168–175) ----------
+ au("au-evasao", ORG("<b>Viral immune evasion</b>:<br>- {{c1::active::active/passive}}: needs viral proteins (anti-apoptosis, immune modulation, latency)<br>- {{c1::passive::active/passive}}: no viral proteins (inoculum, tropism, route, variability)"),
+    "V-pilar", H_, "Evasão ativa × passiva", 168, "lâminas 168 e 171; transcrição; apostila guia; monitoria",
+    extra="- Viruses combine both to establish infection"),
+ au("au-e6e7", "HPV <b>E6 and E7</b> blunt the cell's interferon response, an example of {{c1::active::active/passive}} evasion",
+    "A-aula", H_, "E6/E7: evasão ativa", 169, "lâmina 169; transcrição (alteram a resposta ao interferon)",
+    extra="- Their effect on p53 and Rb belongs to viral oncogenesis"),
+ au("au-latencia-evasao", "Shutting down its own genes in latency is a form of {{c1::active::active/passive}} immune evasion",
+    "A-aula", H_, "Latência como evasão ativa", 170, "lâmina 170; transcrição (EBV inibe os próprios genes para não ser visto)",
+    extra="- EBV latency 0 in memory B cells is the extreme case"),
+ au("au-inoculo", "A large viral {{c1::inoculum}}, like a transfusion of HBV-infected blood, overwhelms defenses as passive evasion",
+    "A-aula", H_, "Tamanho do inóculo", 171, "lâminas 171–172; transcrição (espirro a 5 m × na frente; transfusão × picada)",
+    extra="- HIV transmission risk is highest when viral load peaks<br>" + IMG("hiv-inoculo")),
+ K(1517092173199, "R-detalhe", H_, "Carga viral alta e transmissão do HIV", 172, "lâmina 172 (risco de transmissão × carga viral)"),
+ au("au-hpv-suprabasal", "HPV completes its cycle in {{c1::suprabasal}} epithelial layers, far from dermal immune cells",
+    "A-aula", H_, "Tropismo do HPV como evasão passiva", 173, "lâminas 173–174; transcrição",
+    extra="- Its replication stays above the basal layer, away from the dermis<br>" + IMG("hpv-tropismo")),
+ sh(1792695028263, "verde", H_, "HPV infecta a camada basal", 173, "V-hy: card da 58; lâmina 173"),
+ K(1516474304091, "A-aula", H_, "Raiva viaja retrógrada nos nervos", 171, "lâmina 171 (raiva); transcrição (transitando dentro dos axônios)"),
+ K(1516474508193, "R-detalhe", H_, "Raiva chega ao gânglio da raiz dorsal", 171, "lâmina 171; Jawetz (propagação neural)"),
+ au("au-via-evasao", "Viruses injected into blood by needles or insects bypass {{c1::epithelial}} barriers, a passive evasion by route",
+    "A-aula", H_, "Via de infecção como evasão passiva", 171, "lâmina 171; transcrição",
+    extra="- Examples: poliovirus, HSV and HIV reaching tissues without crossing an epithelium"),
+ sh(1792695053292, "azul", H_, "RNA viral muta rápido", 175, "A-aula: card da 58; lâmina 175 (vírus de RNA variam mais)"),
+ au("au-variabilidade", "Antigenic {{c1::variability}} of RNA viruses such as influenza and HIV is passive evasion, needing no dedicated viral protein",
+    "A-aula", H_, "Variabilidade como evasão passiva", 175, "lâmina 175; transcrição",
+    extra="- Error-prone copying changes the antigens on its own"),
+ K(1506629798167, "V-prova", H_, "HCV: sem revisão → variação antigênica", 175, "prova 2017 P3 4.3 (variabilidade mantém o HCV crônico)"),
+ # ---------- Barreiras e destino (lâminas 176–178) ----------
+ au("au-barreiras", ORG("<b>Barriers a virus must cross</b> to infect:<br>- {{c1::intrinsic}}: skin, mucosa, receptor, cell defenses<br>- {{c2::innate}} immunity<br>- {{c3::adaptive}} immunity"),
+    "A-aula", I_, "Barreiras: intrínseca, inata, adaptativa", 176, "lâmina 176; transcrição",
+    extra="- Only a virus that crosses all of them establishes a productive infection"),
+ au("au-balanco", "The outcome of a viral infection is set by the {{c1::balance}} between viral and host factors",
+    "A-aula", I_, "Destino = balanço vírus × hospedeiro", 177, "lâmina 177; transcrição; apostila guia",
+    extra="- Shifting dose, route, immunity or variant changes the outcome"),
 ]
+
+# F-20261022-CLAUDE-04: a resposta do cloze autoral vai em negrito, como no AnKing
+for c in CARDS:
+    if c["kind"] == "autoral":
+        c["text"] = _re.sub(r"\{\{c(\d+)::(.*?)((?:::[^}]*)?)\}\}", lambda m: "{{c%s::<b>%s</b>%s}}" % (m.group(1), m.group(2), m.group(3)), c["text"])
 
 finalizar(CARDS, HERE, BUSCA)
 
-VERSO = {}  # chave: "- linha curta" para nota de acervo sem Extra (gate de verso)
+VERSO = {  # chave: "- linha curta" para nota de acervo sem Extra (gate de verso)
+ "ak1516325251980": "- Enveloped respiratory viruses spread in droplets and aerosols, not on dry surfaces for long",
+ "ak1516237532611": "- Both stay in the gut epithelium: a localized enteric infection",
+ "ak1502154338212": "- Sensory ganglia innervating the genital area, reached by axonal transport",
+ "ak1502067560663": "- No symptoms, but the virus keeps replicating the whole time",
+ "ak1516666167898": "- It also leads viral diarrhea worldwide in unvaccinated infants",
+ "ak1516665391803": "- A segmented genome allows reassortment between strains",
+ "ak1516665343741": "- No envelope, so it survives acid, bile and drying: fecal-oral spread",
+ "ak1516320758799": "- Like all negative-sense viruses, it carries its own RNA polymerase",
+ "ak1516321367173": "- Segments let two strains swap genes in one cell (antigenic shift)",
+ "ak1516322197499": "- HA and NA are the targets of neutralizing antibodies",
+ "ak1394240219632": "- Low-risk types cause benign warts and papillomas",
+ "ak1394239958498": "- High-risk types drive progression to high-grade lesions and invasive carcinoma",
+ "ak1394068322402": "- Benign lesions that rarely progress to cancer",
+ "ak1463105840341": "- The squamocolumnar junction, where reserve cells divide",
+ "ak1516474508193": "- Moving inside axons keeps the virus away from antibodies",
+ "ak1517092173199": "- The larger the inoculum, the higher the chance of infection",
+}
 for c in CARDS:
     if c["key"] in VERSO and c["kind"] != "autoral":
         c["extra_add"] = VERSO[c["key"]] + ("<br>" + c["extra_add"] if c.get("extra_add") else "")
-DUPLICACAO = {}  # chave autoral: "ganho: ..." quando a resposta coincide com outro card
+DUPLICACAO = {
+ "au-resp-comum": "ganho: o AnKing dá a via de cada vírus; aqui a via respiratória como a porta mais comum de todos",
+ "au-entericos": "ganho: o AnKing dá rotavírus como causa de gastroenterite; aqui o contraste entérico localizado × sistêmico",
+ "au-doenca-dep": "ganho: organizador do que decide a doença; a coincidência com um card AnKing é só a palavra 'type'",
+ "au-fatores": "ganho: organizador das funções dos fatores de virulência; o AnKing só dá a NSP4 como enterotoxina",
+ "au-alcool": "ganho: o AnKing dá rinovírus nu e álcool rompendo envelope; aqui a consequência prática (álcool-gel não o inativa)",
+ "au-susc-perm": "ganho: a 58 tem o organizador das quatro condições; aqui o contraste suscetível × permissiva que a prova 2019 P3 3.3 pede",
+ "au-latencia-evasao": "ganho: a latência aparece como padrão (au-latencia) e aqui como mecanismo de evasão ativa, como na lâmina 170",
+}
 for _k, _v in DUPLICACAO.items():
     next(c for c in CARDS if c["key"] == _k)["duplicacao_ok"] = _v
-IMAGENS_VISTAS = {}  # arquivo: "o que mostra e por que ensina" (toda imagem fora do AnKing, depois de ver)
+IMAGENS_VISTAS = {
+ "mb59-resp-sitios.png": "lâmina 126: epitélio mucociliar e sítios de replicação por região do trato com a síndrome de cada um",
+ "mb59-disseminacao.png": "lâmina 129: superfície → linfonodo → sangue → fígado/baço → viremia secundária → órgãos-alvo e eliminação",
+ "mb59-padroes.png": "lâmina 133: as cinco curvas (aguda, latente, progressiva, persistente, falha em eliminar)",
+ "mb59-padroes-comp.png": "lâmina 145: aguda (flu), persistente (HBV), latente (HSV) e HIV na mesma escala",
+ "mb59-hsv-latencia.png": "lâmina 136: HSV lítico no epitélio, latente no neurônio e reativado descendo o axônio",
+ "mb59-ebv-latencia.png": "lâmina 137: EBV da orofaringe às células B, latências III, II, 0 e I",
+ "mb59-hbv-aguda.png": "lâmina 139: DNA viral sobe e cai antes da ALT; anticorpos surgem; recuperação",
+ "mb59-hbv-cronica.png": "lâmina 140: HBsAg persiste décadas com DNA e ALT oscilando; hepatite crônica",
+ "mb59-hiv-setpoint.png": "lâmina 144: carga viral e CD4 no HIV, set point e latência clínica",
+ "mb59-rota-nsp4.png": "lâmina 157: NSP4 eleva Ca2+ na célula infectada e nas vizinhas; segundo ciclo lítico",
+ "mb59-polio-trajeto.png": "lâmina 167: intestino → linfonodos mesentéricos → viremia primária e secundária → SNC",
+ "mb59-hiv-inoculo.png": "lâmina 172: risco de transmissão do HIV acompanha a carga viral em cada fase",
+ "mb59-hpv-tropismo.png": "lâmina 173: HPV entra pela camada basal por microtrauma e completa o ciclo nas camadas suprabasais",
+}
 REVISAO = {}
-ESCOPO = {"objetivo": "", "centrais": [], "exemplos": [], "outras_aulas": []}
+ESCOPO_ = {"objetivo": "Entender o que decide se um vírus infecta, como se espalha, por quanto tempo fica e se causa doença: entrada, disseminação, padrões, determinantes (suscetibilidade, permissividade, acesso, resposta), virulência, tropismo e evasão.",
+          "centrais": ["au-resp-comum", "au-dissemina", "au-padroes", "au-latencia", "au-dep-padrao", "au-manifest", "au-virulencia", "au-evasao",
+                       "sh-1792677732277", "sh-1792695018040", "sh-1792695019413"],
+          "exemplos": ["ak1608907939580", "au-papiloma-laringe", "au-leite"],
+          "outras_aulas": ["57 Princípios gerais dos vírus", "58 Multiplicação viral", "61 Patologia da infecção viral", "63 Resposta imune aos vírus",
+                           "Agentes carcinogênicos biológicos"]}
+ESCOPO = dict(ESCOPO_, centrais=[
+ ["vírus é parasita de tecidos; produtiva × abortiva", "sh-1792677732277", "sh-1792695018040"],
+ ["via respiratória é a porta mais comum", "au-resp-comum"],
+ ["trajeto da disseminação", "au-dissemina"],
+ ["padrões de infecção", "au-padroes", "au-latencia"],
+ ["latência clínica × viral", "au-lat-clin"],
+ ["HBV vertical cronifica", "ak1506552371527"],
+ ["do que depende o padrão", "au-dep-padrao"],
+ ["modos de causar doença", "au-manifest"],
+ ["suscetível × permissiva; sarampo sistêmico", "au-susc-perm", "au-sarampo"],
+ ["virulência", "au-virulencia"],
+ ["receptor define tropismo", "sh-1792695019413"],
+ ["evasão ativa × passiva", "au-evasao"],
+ ["variabilidade do HCV", "ak1506629798167"]])
 CARDS.sort(key=lambda c: int(_re.search(r"\d+", c["evid"]).group()))
