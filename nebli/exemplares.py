@@ -138,6 +138,31 @@ def main():
         if verso:
             L.append(f"  - **Verso depois:** {verso[:300]}")
         L += [f"- **Análise:** {an.analise_anti(nid, ' '.join(t for _, _, t in rod))}", ""]
+    # F-20261023-CLAUDE-04: “analisa os decks, o que suspendi, para compreender o que estou dizendo”. Suspenso por Davi = card de deck
+    # NEBLI suspenso depois de estudado (reps > 0), fora de retirada do pipeline.
+    sus = A("findCards", query='"deck:NEBLI*" is:suspended -"tag:NEBLI::retirado::*" prop:reps>0') or []
+    sinfo = A("cardsInfo", cards=sus) if sus else []
+    snotes = {}
+    for c in sinfo:
+        snotes.setdefault(c["note"], c)
+    sn = {}
+    ids = list(snotes)
+    for i in range(0, len(ids), 200):
+        for n in A("notesInfo", notes=ids[i:i + 200]):
+            if n:
+                sn[n["noteId"]] = n
+    porau = {}
+    for nid, n in sn.items():
+        porau.setdefault(aula(n), []).append(n)
+    L += ["## Suspensos por Davi (cards que ele estudou e tirou)", "",
+          "- **Análise:** " + an.ANALISE_SUSPENSOS, ""]
+    for au_ in sorted(porau):
+        L.append(f"### {au_} — {len(porau[au_])} suspensos")
+        for n in sorted(porau[au_], key=lambda n: n["noteId"]):
+            orig = "autoral" if "NEBLI::origem::Autoral" in n["tags"] else "acervo"
+            frente, _ = _frente_verso(n)
+            L.append(f"- ({orig}) note {n['noteId']}: {frente[:220]}")
+        L.append("")
     from collections import Counter
     cont = Counter(an.familia(" ".join(t for _, _, t in _rodadas(hist[nid]))) for nid in ordem)
     fam = [f"- **{f}** ({cont.get(f, 0)} casos): {txt}" for f, txt in sorted(an.FAMILIAS.items(), key=lambda kv: -cont.get(kv[0], 0))]

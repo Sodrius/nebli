@@ -1,0 +1,13 @@
+{
+ "_como": "F-20261023-CLAUDE-04. Escrever na E3, DEPOIS da compreensão e do mapa e ANTES de buscar: cada conceito que Davi precisa manter a longo prazo. O nebli.etapa E3 congela este arquivo; autoral sem motivação congelada reprova. Depois da busca, preencher só 'atendida_por' (chaves do plano: acervo ou autoral).",
+ "motivacoes": [
+  {
+   "id": "m1",
+   "item_mapa": "p1-1",
+   "reconstruir": "<o que Davi tem de conseguir reconstruir/explicar só com o deck>",
+   "por_que_dura": "<por que precisa durar a longo prazo: onde volta (aula seguinte, prova, clínica)>",
+   "depois_de": "<chave do card que vem antes na sequência (opcional)>",
+   "atendida_por": []
+  }
+ ]
+}

@@ -937,6 +937,8 @@ def plan_checks(run, plan):
         out += nomenclatura_oficial(run, plan)  # F-20261022-CLAUDE-10
         if int(plan.get("pipeline_versao") or 1) >= 7:
             out += v7_pre(run, plan) + passo_a_passo_pre(run, plan)  # F-20261023-CLAUDE-01/02
+        if int(plan.get("pipeline_versao") or 1) >= 8:
+            out += motivacao_autorais(run, plan) + qualidade_autorais(run, plan)  # F-20261023-CLAUDE-04
     else:
         out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
     if "biologia-tecidual" in plan.get("lesson_id", ""):  # F-20261003-CLAUDE-13: aprender, não visualizar em excesso
@@ -1045,6 +1047,102 @@ def v7_pre(run, plan):
     out.append(("[duro] referência da aula consultada (fontes-decl.json 'referencia': livro, capítulo, indicada_por = bibliografia da aula, "
                 "MEMORY §4 ou resposta de Davi, texto lido ≥ 3000 caracteres); sem saber qual é, perguntar a Davi antes de rodar o deck", bool(ok)))
     return out
+
+
+# F-20261023-CLAUDE-04 — “identificação de motivação para existência de um card autoral → criação do card → garantia que está nos
+# padrões e com bom custo-efetividade”; “a necessidade de manter um conceito a longo prazo gera o autoral, o autoral não é justificado
+# depois de feito”; “análise de qualidade … escrita, didática, indução e quantidade de conteúdo … útil a longo prazo e encaixar no deck”.
+# Valem a partir do PIPELINE_VERSAO 8.
+CAUSAL = re.compile(r"\b(because|so|so that|thus|therefore|which|whereas|while|unlike|leads?|causes?|drives?|blocks?|prevents?|allows?|"
+                    r"lets|keeps|makes|without|instead|then|until|when|if)\b|→|←", re.I)
+CRITERIOS_QUALIDADE = ("escrita", "didatica", "inducao", "quantidade", "longo_prazo", "encaixe")
+
+
+def _txt(h):
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", h or ""))).strip()
+
+
+def motivacao_autorais(run, plan):
+    """Cada autoral aponta para uma motivação congelada na E3 (etapas/E3-motivacoes.json) e o texto dela não mudou depois; toda
+    motivação termina atendida no deck (por acervo ou autoral); o autoral entra logo depois do card que a motivação indica."""
+    run = Path(run)
+    probs = []
+    try:
+        cong = {x["id"]: x for x in json.loads((run / "etapas" / "E3-motivacoes.json").read_text(encoding="utf-8")).get("motivacoes", [])}
+        atual = {x["id"]: x for x in json.loads((run / "motivacoes.json").read_text(encoding="utf-8")).get("motivacoes", [])}
+    except (OSError, ValueError, KeyError):
+        return [("[duro] autoral nasce de motivação congelada na E3 (motivacoes.json + nebli.etapa E3)", False)]
+    entries = plan.get("entries", [])
+    keys = {e["key"]: e for e in entries} | {f"sh-{k}": {"key": f"sh-{k}"} for k in (plan.get("compartilhados") or {})}
+    comp = plan.get("compartilhados") or {}
+    alias = {f"ak{v.get('source_nid')}": f"sh-{k}" for k, v in comp.items() if v.get("source_nid")}
+    ordem = {e["key"]: int(e.get("order", 0)) for e in entries}
+    novas = sorted(set(atual) - set(cong))
+    if novas:
+        probs.append(f"motivações criadas depois da E3: {novas[:4]}")
+    mudadas = [i for i in cong if i in atual and any(str(atual[i].get(c, "")) != str(cong[i].get(c, "")) for c in ("item_mapa", "reconstruir", "por_que_dura"))]
+    if mudadas:
+        probs.append(f"motivação reescrita depois da E3: {mudadas[:4]}")
+    usadas = {}
+    for e in entries:
+        if e.get("origin") != "Autoral":
+            continue
+        mid = e.get("motivacao")
+        if mid not in cong:
+            probs.append(f"{e['key']}: sem motivação congelada")
+            continue
+        usadas.setdefault(mid, []).append(e["key"])
+        antes = alias.get(str(cong[mid].get("depois_de", "")), str(cong[mid].get("depois_de", "")))
+        if antes and antes in ordem and not (0 < ordem[e["key"]] - ordem[antes] <= 4):
+            probs.append(f"{e['key']}: fora da sequência (deveria vir logo depois de {antes})")
+    for mid, x in atual.items():
+        at = [alias.get(k, k) for k in x.get("atendida_por", [])]
+        if not at or not all(k in keys for k in at):
+            probs.append(f"{mid}: não atendida no deck ('atendida_por' com chaves do plano)")
+    for mid, ks in usadas.items():
+        if len(ks) > 2:
+            probs.append(f"{mid}: {len(ks)} autorais para uma motivação (máx. 2): cadeia picada")
+    return [("[duro] autoral nasce de motivação congelada na E3, não é justificado depois; toda motivação atendida; autoral na sequência"
+             + (f"; {'; '.join(probs[:5])}" if probs else ""), not probs)]
+
+
+def qualidade_autorais(run, plan):
+    """Análise de qualidade de cada autoral (qualidade-autorais.json: escrita, didática, indução, quantidade, longo prazo, encaixe,
+    cada uma com julgamento próprio ≥ 30 caracteres) e checagens mecânicas: resposta não vazada na frente, verso com consequência,
+    no máximo 2 índices fora de organizador, julgamentos não repetidos entre cards."""
+    run = Path(run)
+    try:
+        q = json.loads((run / "qualidade-autorais.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        q = {}
+    probs, vistos = [], {}
+    for e in plan.get("entries", []):
+        if e.get("origin") != "Autoral":
+            continue
+        k = e["key"]
+        f = e.get("fields") or {}
+        texto = f.get("Text", "")
+        x = q.get(k) or {}
+        falta = [c for c in CRITERIOS_QUALIDADE if len(str(x.get(c, "")).strip()) < 30]
+        if falta or x.get("veredito") != "aprovado":
+            probs.append(f"{k}: análise incompleta ({', '.join(falta) or 'veredito'})")
+        for c in CRITERIOS_QUALIDADE:
+            j = str(x.get(c, "")).strip()
+            if j and j in vistos and vistos[j] != k:
+                probs.append(f"{k}: julgamento de {c} copiado de {vistos[j]}")
+            vistos.setdefault(j, k)
+        respostas = [_txt(m.split("::")[0]).lower() for m in re.findall(r"\{\{c\d+::(.*?)\}\}", texto, re.S)]
+        fora = _txt(_CLOZE_TODO.sub(" ", texto)).lower()
+        vazou = [r for r in respostas if len(r) > 3 and re.search(r"\b" + re.escape(r) + r"\b", fora)]
+        if vazou:
+            probs.append(f"{k}: resposta visível na frente ({vazou[0]})")
+        if not CAUSAL.search(_txt(texto) + " " + _txt(f.get("Extra", ""))):
+            probs.append(f"{k}: nem a frente nem o verso dizem consequência ou porquê")
+        n_idx = len(set(re.findall(r"\{\{c(\d+)::", texto)))
+        if n_idx > 2 and 'data-nebli-organizacao' not in texto:
+            probs.append(f"{k}: {n_idx} índices fora de organizador")
+    return [("[duro] qualidade de cada autoral: escrita, didática, indução, quantidade, longo prazo e encaixe julgados um a um; "
+             "resposta não vazada; verso com consequência" + (f"; {'; '.join(probs[:5])}" if probs else ""), not probs)]
 
 
 def _bloco_de(blocos, s):

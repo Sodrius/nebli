@@ -6,7 +6,7 @@ HERE = _pl.Path(__file__).parent
 _sys.path.insert(0, str(HERE.parents[1]))
 from nebli.spec_lib import ak, au, sh, ORG, finalizar  # todos os irmãos, cor pela rubrica, dica de 1ª letra, busca por autoral
 
-PIPELINE_VERSAO = 7  # 6 = processo por bloco + reconstruções + cloze não genérico; 7 = passo a passo registrado (nebli.etapa), aprender por bloco, GUIA_CARDS, lint v7, figura em aula visual, referência consultada (F-20261023-CLAUDE-01/02/03)
+PIPELINE_VERSAO = 8  # 8 = autoral nasce de motivação congelada na E3 + qualidade-autorais.json (F-20261023-CLAUDE-04); 6 = processo por bloco + reconstruções + cloze não genérico; 7 = passo a passo registrado (nebli.etapa), aprender por bloco, GUIA_CARDS, lint v7, figura em aula visual, referência consultada (F-20261023-CLAUDE-01/02/03)
 SECOES_MOTIVO = ""  # v7: se a aula é de princípio geral e nenhuma seção de recurso é do seu assunto, SECOES_DA_AULA = [] e o motivo aqui (≥ 60 caracteres)
 SECOES_DA_AULA = []  # arquivos de busca/secoes/ cujo assunto É o da aula (F-20261016-CLAUDE-06: todo AnKing do conteúdo entra, sem limite)
 AUTORAL_EXCECAO = ""  # só corridas com PIPELINE_VERSAO < 5; na 5 o autoral não tem teto, mas cada um prova lacuna em todos os acervos
@@ -26,6 +26,7 @@ A_ = "A-<bloco>"
 CARDS = [
  # Código de rubrica (MEMORY §8): V-pilar | V-prova | A-aula | A-step | R-detalhe | R-org — a cor sai daqui, não da tag HY.
  # ak("chave", nid, "A-step", A_, "alvo", slide, "por quê (lâmina/prova/HY)", origin="MCAT"|"Ankisthesia"|... se externo, extra_add="- linha"),
+ # au("chave", "Frase AnKing com <b>contexto</b> e {{c1::nome}}", ..., motivacao="m1") — v8: todo autoral aponta para uma motivação congelada na E3
  # au("chave", "Frase AnKing com <b>contexto</b> e {{c1::nome}}", "A-aula", A_, "alvo", "slide; fonte", "por quê", extra="- porquê"),
  # sh(nid_nebli, "azul", A_, "alvo", slide, "motivo"),
 ]

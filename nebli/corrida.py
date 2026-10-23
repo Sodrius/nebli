@@ -113,7 +113,7 @@ MOLDE = Path(__file__).parent / "molde"
 
 def molde(pasta: Path):
     pasta.mkdir(parents=True, exist_ok=True)
-    for f in ("spec.py", "inventario.py", "build.py", "apply.py", "compreensao-aula.json"):
+    for f in ("spec.py", "inventario.py", "build.py", "apply.py", "compreensao-aula.json", "motivacoes.json", "qualidade-autorais.json"):
         if not (pasta / f).exists():
             shutil.copy(MOLDE / f, pasta / f)
             print("copiado", f)

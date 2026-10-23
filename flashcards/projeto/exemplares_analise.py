@@ -4,6 +4,7 @@ exige análise para todo exemplar e anti-exemplar (novos inclusive): ao aparecer
 
 # ---- EXEMPLARES (X de Davi): por que funciona e como usar ----
 EXEMPLARES = {
+ 1792588686980: "Organizador refeito pelo comentário de Davi: três destinos da cavidade do tubo neural, um por linha, no mesmo índice com dica da 1ª letra, e o verso completa o quadro (prosencéfalo). Modelo de como um pedido de 'um só card em tópicos' vira um organizador que se lembra inteiro.",
  1791557942606: "Função + consequência num card só: azol bloqueia lanosterol→ergosterol e o verso diz o efeito (membrana vaza, fungo para). Custo-efetividade alta: um card carrega o mecanismo de uma classe inteira. Usar para todo alvo de fármaco/enzima: passo bloqueado no cloze, efeito no verso.",
  1792166970014: "Contraste complementar no mesmo índice com dica innate/adaptive: um lado não entrega o outro e o par organiza um grupo inteiro de doenças. Verso explica o critério (antígeno próprio × freio da inflamação). Modelo para todo par confundível.",
  1791625434983: "Fato decorável (CTLA-4) dentro de um mecanismo (retira B7 da APC) e verso com a consequência (sem B7, não ativa efetora). Curto, uma lacuna, nome específico. Modelo de molécula + o que ela faz + por que importa.",
@@ -124,3 +125,16 @@ def analise_anti(nid: int, comentario: str) -> str:
     fam = familia(comentario)
     nota = NOTAS.get(nid)
     return f"[{fam}] {FAMILIAS[fam]}" + (f" Aqui: {nota}" if nota else "")
+
+
+# F-20261023-CLAUDE-04: o que Davi suspendeu nos decks de Biomol (46, 52) e por quê — vale para todo autoral.
+ANALISE_SUSPENSOS = ("Davi suspende o card que não o ajuda a gravar um mecanismo da aula a longo prazo. Os padrões: (1) moldura genérica sem "
+    "mecanismo ('fígado e neurônio têm o mesmo genoma', 'a expressão é controlada em vários níveis', 'a maior parte da regulação é na "
+    "iniciação', 'um gene tem dezenas de fatores'); (2) nome solto de uma cadeia picada em vários cards (TFIID, TFIIB, BRE, cauda da "
+    "RNA pol II, cada um num card), em vez de um card que conta o processo; (3) detalhe de experimento ou de organismo-modelo sem o "
+    "princípio que ele prova (Gal4/UAS, híbrido LexA, Pho4, geleia real, gêmeos, iPS); (4) número ou definição isolada (80% dos CpG, "
+    "'HATs transferem acetil', constitutiva × facultativa, HP1, bromodomínio); (5) repetidos e AnKing fora do recorte (RNA pol I/II/III "
+    "duplicados, 30 nm, lisina/arginina). O que ele mantém carrega função + consequência e se encaixa na história da aula: acetilação "
+    "abre a cromatina, inibidor de HDAC volta a transcrever supressores, metiltransferase de manutenção copia a marca, repressor recruta "
+    "HDAC, domínio de ligação × de ativação, FOXO1 fora do núcleo desliga a gliconeogênese. Regra: o autoral só nasce de um conceito "
+    "que precisa durar (motivação) e carrega o processo, não o nome.")

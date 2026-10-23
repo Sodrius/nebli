@@ -1,0 +1,12 @@
+{
+ "_como": "F-20261023-CLAUDE-04. Depois de escrever cada autoral, julgá-lo: escrita (frase natural, sem moldura), didática (ensina processo, não nome), indução (a frente leva à resposta sem entregá-la), quantidade (um conceito, sem excesso nem fragmento), longo_prazo (vai ajudar a lembrar o mecanismo daqui a meses?), encaixe (o que vem antes e depois no deck e por que ele está ali). Cada julgamento é próprio do card (≥ 30 caracteres); veredito 'aprovado' só se os seis passam.",
+ "au-exemplo": {
+  "escrita": "",
+  "didatica": "",
+  "inducao": "",
+  "quantidade": "",
+  "longo_prazo": "",
+  "encaixe": "",
+  "veredito": "reprovado"
+ }
+}

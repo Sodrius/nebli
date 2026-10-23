@@ -217,7 +217,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Análise:** Contraste ecto × endotrix no mesmo índice com dica e verso com exemplos de agentes. Modelo de par complementar.
 
 ### Exemplar · note 1791000313954 (2026-uc08-fisiologia-05-digestao-absorcao-nutrientes; X em 2026-10-22)
-- **Card:** Vitamin K deficiency may occur in {{c1::newborns}} due to lack of {{c2::colonic bacteria}} that normally synthesize vitamin K
+- **Card:** Vitamin K deficiency may occur in {{c1::newborns}} due to lack of {{c1::colonic bacteria}} that normally synthesize vitamin K
 - **Verso:** Vitamin K injection is given prophylactically to all newborns at birth to prevent hemorrhagic disease of the newborn
 - **Comentário de Davi (2026-10-13):** “isso é um bom card clínico + agrega conteúdo”
 - **Análise:** Deficiência + causa (falta de bactérias) com a conduta no verso. Card clínico que ensina fisiologia (quem produz vitamina K).
@@ -243,6 +243,12 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Verso:** [IMG a4794dc612338ff62357e1a81d0dea71.jpg] / / - Approved for some lymphomas and multiple myeloma
 - **Comentário de Davi (2026-10-23):** “isso é um bom exemplo de card que poderia ser simples, mas ensina e ajuda a decorar com extrema eficácia: poderia ser só um card perguntando o que faz HDAC, mas já há informação sobre inibidores dessa enzima e o resultado do que acontece ao inibi-lo + um comentário que aprofunda ainda mais ótimo card”
 - **Análise:** Modelo de custo-efetividade citado por Davi: em vez de só 'o que faz HDAC', cobra o efeito de inibi-la e a consequência (supressores voltam a ser transcritos), com verso que aprofunda (uso em linfoma/mieloma). Usar: função + o que acontece se bloqueada + consequência, num card só.
+
+### Exemplar · note 1792588686980 (2026-uc07; X em 2026-10-23)
+- **Card:** A cavidade do tubo neural origina, no tronco e na medula: / - mesencéfalo: {{c1::aqueduto cerebral::a…}} / - ponte e bulbo: {{c1::quarto ventrículo::q…}} / - medula espinal: {{c1::canal central::c…}}
+- **Verso:** - No prosencéfalo a mesma cavidade forma os ventrículos laterais e o terceiro ventrículo / [IMG kh-cap-3490.jpg]
+- **Comentário de Davi (2026-10-23):** “poderia ser com 3 clozes, um só card e tópicos”
+- **Análise:** Organizador refeito pelo comentário de Davi: três destinos da cavidade do tubo neural, um por linha, no mesmo índice com dica da 1ª letra, e o verso completa o quadro (prosencéfalo). Modelo de como um pedido de 'um só card em tópicos' vira um organizador que se lembra inteiro.
 
 ## Anti-exemplares (comentários de Davi, com o processo de ajuste)
 
@@ -487,8 +493,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 ### Anti-exemplar · note 1791000309552 (2026-uc08-fisiologia-05-digestao-absorcao-nutrientes)
 - **Card antes:** {{c1:: Colipase }} anchors pancreatic lipase to the bile salt-coated fat droplet
 - **Davi, rodada 1 (2026-10-05):** “explicação do tab não didática (não sei bem o porquê) imagem zuada também”
-- **Card depois (vivo):** {{c1::Colipase}} anchors pancreatic lipase to the bile salt-coated fat droplet
-  - **Verso depois:** - Bile salts coat the droplet and would otherwise keep lipase off it
+- **Card depois (vivo):** (nota apagada)
 - **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1791014716874 (2026-uc08-fisiologia-06-secrecao-gastrica)
@@ -2390,7 +2395,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 ### Anti-exemplar · note 1792659598777 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas)
 - **Card antes:** The duodenum swings right and carries the {{c1:: ventral }} pancreatic bud behind it to meet the dorsal bud
 - **Davi, rodada 1 (2026-10-23):** “card ficou zuado, mas a ideia foi boa”
-- **Card depois (vivo):** As the embryonic duodenum rotates, the {{c1::ventral}} pancreatic bud swings behind it and fuses with the dorsal bud
+- **Card depois (vivo):** As the embryonic duodenum rotates, the {{c1::ventral}} pancreatic bud swings behind it and fuses with the {{c1::dorsal}} bud
   - **Verso depois:** - The main pancreatic duct joins the ventral duct with the distal dorsal duct / - If the ducts fail to fuse, the result is pancreas divisum / [IMG langman-15-20.png]
 - **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 
@@ -2442,4 +2447,580 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Card depois (vivo):** Plexos por região da medula: / - cervical: plexos {{c1::cervical}} (pescoço) e {{c2::braquial}} (membro superior) / - lombossacral: plexo {{c3::lombossacral}} (membro inferior) / - torácica: {{c4::nenhum}}
   - **Verso depois:** - Os plexos se formam onde muitas raízes vão ao mesmo território; no tórax cada nervo intercostal segue sozinho / [IMG kh-brachial-plexus.jpg]
 - **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova). Aqui: Enumeração numerada em linha: devia ser organizador em pé (gate v7).
+
+## Suspensos por Davi (cards que ele estudou e tirou)
+
+- **Análise:** Davi suspende o card que não o ajuda a gravar um mecanismo da aula a longo prazo. Os padrões: (1) moldura genérica sem mecanismo ('fígado e neurônio têm o mesmo genoma', 'a expressão é controlada em vários níveis', 'a maior parte da regulação é na iniciação', 'um gene tem dezenas de fatores'); (2) nome solto de uma cadeia picada em vários cards (TFIID, TFIIB, BRE, cauda da RNA pol II, cada um num card), em vez de um card que conta o processo; (3) detalhe de experimento ou de organismo-modelo sem o princípio que ele prova (Gal4/UAS, híbrido LexA, Pho4, geleia real, gêmeos, iPS); (4) número ou definição isolada (80% dos CpG, 'HATs transferem acetil', constitutiva × facultativa, HP1, bromodomínio); (5) repetidos e AnKing fora do recorte (RNA pol I/II/III duplicados, 30 nm, lisina/arginina). O que ele mantém carrega função + consequência e se encaixa na história da aula: acetilação abre a cromatina, inibidor de HDAC volta a transcrever supressores, metiltransferase de manutenção copia a marca, repressor recruta HDAC, domínio de ligação × de ativação, FOXO1 fora do núcleo desliga a gliconeogênese. Regra: o autoral só nasce de um conceito que precisa durar (motivação) e carrega o processo, não o nome.
+
+### 2026-uc03-biologia-molecular-18-recombinacao — 1 suspensos
+- (acervo) note 1791629589372: The enzymes responsible for gene recombination in heavy and light chains are encoded by the genes {{c1::RAG1}} and {{c1::RAG2}}
+
+### 2026-uc03-biologia-molecular-29-operon-procariotos — 5 suspensos
+- (autoral) note 1791664577750: Some bacteria switch fimbriae on and off by {{c1::inverting}} their promoter through recombination
+- (autoral) note 1791664578043: Regulation by a repressor is called {{c1::negative}} control, whereas regulation by an activator is called {{c1::positive}} control
+- (autoral) note 1791664583970: X-gal does not bind the Lac repressor, so it reports β-galactosidase activity without {{c1::inducing}} the operon
+- (autoral) note 1791664584596: In a partial diploid, is an Oc mutation dominant or recessive? / / {{c1::Dominant}}
+- (autoral) note 1791664584721: An Oc mutation affects only the genes on its own DNA molecule, so it acts in {{c1::cis}}
+
+### 2026-uc03-biologia-molecular-46-expressao-eucariotos-i — 18 suspensos
+- (autoral) note 1791627546174: Most gene regulation happens at the {{c1::initiation}} of transcription
+- (autoral) note 1791627546802: Unlike bacterial regulators, eukaryotic activators and repressors mostly act on RNA polymerase II {{c1::indirectly}}
+- (acervo) note 1791627547776: Are enhancers/silencers close or far from the gene it regulates? / {{c1::May be close to, far from, or within the gene (in an intron)}}
+- (autoral) note 1791627548276: The TATA-binding protein, which recognizes the TATA box, is a subunit of the general factor {{c1::TFIID}}
+- (autoral) note 1791627548403: In an RNA polymerase II promoter, the BRE beside the TATA box is recognized by {{c1::TFIIB}}
+- (autoral) note 1791627548902: The yeast activator {{c1::Gal4}} turns on the genes that metabolize galactose
+- (autoral) note 1791627549276: The Gal4 activation domain recruits TFIID, Mediator and {{c1::chromatin-modifying proteins}}
+- (autoral) note 1791627549526: Expressing Gal4 under a tissue-specific enhancer turns on a UAS-linked {{c1::transgene}} only in that tissue
+- (autoral) note 1791627549777: In bacteria, the signal usually binds the transcription factor {{c1::directly}}, whereas eukaryotic signals often act through signaling pathways
+- (autoral) note 1791627549902: Ways to switch on a eukaryotic transcription factor: / 1. {{c1::Ligand::L…}} binding / 2. {{c1::Phosphorylation::P…}} / 3. Unmasking / 4. {{c1::Nuclear entry::N…}}
+- (autoral) note 1791627550027: Steroid and thyroid hormones cross the membrane and bind {{c1::nuclear}} receptors, which then act as transcription factors
+- (autoral) note 1791627550877: Cytokine-activated JAK kinases phosphorylate {{c1::STAT}} transcription factors
+- (autoral) note 1791627551003: High phosphate inactivates the yeast activator Pho4 by {{c1::phosphorylation}}
+- (acervo) note 1792082056485: RNA polymerase {{c1::II}} makes {{c2::m}}RNA
+- (acervo) note 1792082056911: RNA polymerase {{c1::I}} makes {{c2::r}}RNA
+- (acervo) note 1792082057314: RNA polymerase {{c1::III}} makes {{c2::t}}RNA and 5S rRNA
+- (autoral) note 1792082060658: The first general transcription factor to bind a TATA promoter is {{c1::TFIID}}, through its TBP subunit
+- (autoral) note 1792082060961: After the preinitiation complex forms, phosphorylation of the RNA polymerase II {{c1::tail}} releases it to elongate
+
+### 2026-uc03-biologia-molecular-52-expressao-eucariotos-ii — 18 suspensos
+- (acervo) note 1791631343090: With H1, the nucleosome exists as {{c1::30}} nm chromatin
+- (acervo) note 1791631343217: What classes of histones are found as a pair in the nucleosome? / {{c1::H2A, H2B, H3, and H4::4}}
+- (acervo) note 1791631343467: Histones are rich in the amino acids {{c1::lysine}} and {{c1::arginine}}
+- (autoral) note 1791631343592: Histone N-terminal tails stick out of the nucleosome, so enzymes can {{c1::acetylate}} them and loosen the chromatin
+- (autoral) note 1791631343715: Some activators bind closed chromatin and then recruit {{c1::remodeling}} complexes that expose nearby sites
+- (autoral) note 1791631344117: {{c1::Histone acetyltransferases (HATs)}} transfer acetyl groups to lysines in histone tails
+- (autoral) note 1791631344241: {{c1::Histone deacetylases (HDACs)}} remove acetyl groups from lysines in histone tails
+- (autoral) note 1791631344366: Acetylation neutralizes the positive charge of lysine, lowering histone affinity for {{c1::DNA}}
+- (autoral) note 1791631344792: Histone marks recruit {{c1::reader}} proteins that recognize specific modifications
+- (acervo) note 1791631345492: What form of chromatin is highly condensed? / {{c1::Heterochromatin}}
+- (autoral) note 1791631345616: {{c1::Constitutive}} heterochromatin stays condensed in every cell, as at centromeres and repeats
+- (autoral) note 1791631345741: Facultative heterochromatin depends on cell type or cycle phase, as in the inactive {{c1::X}} chromosome
+- (autoral) note 1791631346116: Methylated histone H3 recruits {{c1::HP1}}, which self-associates and packs chromatin into heterochromatin
+- (autoral) note 1791631346967: Epigenetic states are gene-expression patterns that persist through {{c1::cell division}} without changing the DNA sequence
+- (acervo) note 1791631347641: Panobinostat and vorinostat are antineoplastics that are nonselective {{c1::histone deacetylase (HDAC)}} inhibitors
+- (autoral) note 1791631347892: Therapeutic use of iPS cells is limited because two of the factors, c-Myc and Klf4, are {{c1::oncogenes}}
+- (autoral) note 1792082171335: Because chromatin already limits access to DNA, purely negative regulation is {{c1::less common}} in eukaryotic transcription
+- (autoral) note 1792082177137: Proteins with a {{c1::bromodomain}} read acetylated histone lysines and help open chromatin
+
+### 2026-uc03-bioquimica-10-acao-hormonal — 9 suspensos
+- (acervo) note 1791054008921: What peptide is packaged with insulin and may be used to monitor β cell function in patients receiving exogenous insulin? / {{c1::C-peptide (connecting peptide)}}
+- (acervo) note 1791054010097: In a nonmedical setting, severe hypoglycemia is ideally treated with intramuscular {{c1::glucagon}}
+- (acervo) note 1791054011246: Glucagon increases blood glucose concentration by increasing {{c1::glycogenolysis}} and gluconeogenesis, while simultaneously inhibiting {{c1::glycogen}} formation from glucose
+- (acervo) note 1791054011372: Insulin increases glucose transport to {{c1::muscle}} and {{c1::adipose}} tissue by directing the insertion of the {{c2::GLUT-4}} transporter into the cell membranes
+- (acervo) note 1791054013222: Glucagon, cortisol, and epinephrine induce {{c1::insulin resistance}} due to phosphorylation of {{c2::serine}} / {{c2::threonine}} residues of the insulin receptor and IRS-1
+- (acervo) note 1791054014146: {{c1::Sulfonylureas}} and {{c1::meglitinides}} bind the ATP-dependent {{c2::K+}} channels on pancreatic β cells, causing release of endogenous insulin
+- (acervo) note 1791054014447: GLP-1 stimulates {{c1::insulin}} secretion and inhibits {{c1::glucagon}} secretion.
+- (acervo) note 1791647354044: The major factor that stimulates glucagon secretion is {{c1::hypoglycemia}}
+- (acervo) note 1791762411098: {{c1::Receptor tyrosine kinases}} have intrinsic tyrosine kinase activity within the receptor molecule
+
+### 2026-uc03-bioquimica-16-regulacao-hormonal-massa-corporea — 6 suspensos
+- (acervo) note 1791054012719: Chronic hyperinsulinemia can {{c1::downregulate}} insulin receptors.
+- (acervo) note 1791054012972: Insulin resistance is particularly associated with excess {{c1::visceral}} adipose tissue.
+- (acervo) note 1791054013396: Adipocytes, β cells, and FFAs cause release of {{c1::adipokines}}, which contribute to insulin resistance in obesity
+- (acervo) note 1791054014570: GLP-1 analogs cause increased {{c1::insulin}} release and satiety /
+- (acervo) note 1791647352594: {{c1::Thermogenin (UCP-1)}} in brown fat may act as a(n) {{c2::uncoupling}} agent of oxidative phosphorylation
+- (acervo) note 1792241687923: GLP-1 analogs cause decreased {{c1::glucagon}} release and gastric emptying /
+
+### 2026-uc03-bioquimica-25-integracao-metabolica-i — 5 suspensos
+- (acervo) note 1791647346246: Which insulin-independent transporter is found in the brain, placenta, cornea, and RBCs? / / {{c1::GLUT-1}}
+- (acervo) note 1791647348120: Fructose-1,6-bisphosphatase is regulated via negative feedback by {{c1::fructose-2,6-bisphosphate}} and {{c1::AMP}}
+- (acervo) note 1791647348245: Muscle cannot release glucose into the blood because it lacks {{c1::glucose-6-phosphatase}}
+- (acervo) note 1791647351570: Pyruvate is converted to {{c2::lactate}} via the enzyme {{c1::lactate dehydrogenase (LDH)}} (Cori cycle)
+- (acervo) note 1791647352896: After three days of starvation, the main source of energy for the brain becomes {{c1::ketone bodies}} from {{c2::adipose}} stores
+
+### 2026-uc03-bioquimica-33-integracao-metabolica-ii — 8 suspensos
+- (autoral) note 1791054010222: Diabetes mellitus is chronic hyperglycemia caused by defective insulin secretion, defective insulin {{c1::action}}, or both
+- (acervo) note 1791054010873: One of the most feared complications of type 2 diabetes is {{c1::hyperosmolar hyperglycemic state}}
+- (acervo) note 1791054010997: Type 1 DM is caused by autoimmune destruction of β cells by {{c1::CD8+ T}} cells
+- (acervo) note 1791054011671: In T1DM, increased {{c2::lipolysis}} leads to an increase in free fatty acids, which the liver consumes to secrete {{c1::ketone bodies}}
+- (acervo) note 1791054012847: A major pathogenic factor underlying metabolic syndrome is {{c1::insulin}} resistance
+- (acervo) note 1791054013770: {{c1::Metformin}}, a biguanide, is the first-line oral agent for the management of type 2 diabetes
+- (acervo) note 1791054013895: Metformin modulates enzyme function to decrease hepatic {{c1::gluconeogenesis}} /
+- (acervo) note 1791054014020: Thiazolidinediones (glitazones) cause increased insulin {{c1::sensitivity}}, therefore enhancing glucose uptake in peripheral tissues
+
+### 2026-uc03-grand-round-03-espondilodiscite-tuberculosa — 4 suspensos
+- (acervo) note 1791054020796: What mode of imaging is the best for detecting acute osteomyelitis? / {{c1::MRI}}
+- (autoral) note 1791054020921: In osteomyelitis, the infected marrow is {{c1::hyperintense}} on fat-suppressed T2 MRI
+- (autoral) note 1791716431615: The absence of caseous necrosis on one biopsy does {{c1::not}} exclude tuberculosis
+- (autoral) note 1791716448950: A granuloma is a {{c1::dynamic}} cell network, not an impermeable wall
+
+### 2026-uc03-grand-round-04-paracoccidioidomicose — 4 suspensos
+- (acervo) note 1791557942007: {{c1::Echinocandins}} are a class of antifungals that inhibit the enzyme {{c2::1,3-β-glucan synthase}}
+- (acervo) note 1791557942183: {{c1::Polyenes (e.g. nystatin, amphotericin B)}} are a class of antifungals that bind {{c2::ergosterol}}, creating {{c2::pores}} in the fungal cell membranes
+- (acervo) note 1791557944405: Paracoccidioides brasiliensis is a {{c1::thermally dimorphic}} fungus that grows as a mold at 25 °C and as a yeast at 37 °C
+- (acervo) note 1792170505829: Which antifungal inhibits fungal DNA and RNA / protein synthesis? / / {{c1::Flucytosine}}
+
+### 2026-uc03-grand-round-21-diabetes — 65 suspensos
+- (acervo) note 1791054007644: Polyuria, polydipsia and unexplained weight loss suggest {{c1::DM1}}.
+- (acervo) note 1791054007769: With classic hyperglycemic symptoms, random plasma glucose ≥ {{c1::200}} mg/dL establishes diabetes.
+- (acervo) note 1791054007900: What is the typical serum potassium level in a patient with T1DM in diabetic ketoacidosis? / / {{c1::Increased::Increased or Decreased}}
+- (acervo) note 1791054008019: What is the intracellular potassium level in a patient with T1DM in diabetic ketoacidosis? / {{c1::Decreased::Increased or Decreased}}
+- (acervo) note 1791054008148: How does insulin cause K+ to shift into cells? / {{c1::Increased Na+-K+ ATPase}}
+- (acervo) note 1791054008544: What is the diagnostic cutoff for the 2-hour oral glucose tolerance test (OGTT) for a diagnosis of diabetes mellitus? / {{c1::≥ 200 mg/dL}}
+- (acervo) note 1791054008670: What is the diagnostic cutoff for HbA1c for a diagnosis of diabetes mellitus? / {{c1::≥ 6.5%}}
+- (autoral) note 1791054008796: Fructosamine measures glycated serum {{c1::albumin}} and reflects glucose control over the last 2–3 weeks
+- (acervo) note 1791054009046: An autoimmune marker of type 1 diabetes is the presence of {{c3::anti-GAD}} antibodies.
+- (autoral) note 1791054009345: Continuous glucose monitors measure glucose in {{c1::interstitial}} fluid rather than in blood
+- (acervo) note 1791054009472: Insulin detemir, degludec, and glargine are characterized by {{c1::long::rapid/short/intermediate/long}} action and duration
+- (acervo) note 1791054009721: The diagnosis for diabetes mellitus may be made using {{c1::HbA1c}} which reflects average blood glucose over 3 prior months
+- (autoral) note 1791054009969: The {{c1::honeymoon}} period of type 1 diabetes needs little insulin because some β cells still survive
+- (acervo) note 1791054010347: Compared with type 2 diabetes, type 1 diabetes has a {{c1::weaker}} genetic predisposition.
+- (acervo) note 1791054010623: What HLA subtypes are associated with type I diabetes mellitus? / {{c1::DR3}} and {{c1::DR4}}
+- (acervo) note 1791054011848: Diabetic ketoacidosis is associated with a(n) {{c1::fruity}} breath odor due to exhaled {{c2::acetone}}
+- (acervo) note 1791054012018: In uncontrolled diabetes mellitus, {{c1::Kussmaul}} breathing compensates for the metabolic {{c2::acidosis}} caused by ketone accumulation.
+- (acervo) note 1791054012198: Diabetic ketoacidosis causes metabolic acidosis with an {{c1::increased}} anion gap.
+- (acervo) note 1791054012447: In hyperosmolar hyperglycemic state, residual {{c1::insulin}} usually suppresses substantial ketone production.
+- (acervo) note 1791054013097: Excess glucose and free fatty acids (FFAs) may contribute to {{c1::β}} cell dysfunction
+- (acervo) note 1791054013522: The incretin {{c1::GLP}} may inadequately stimulate β cells and contribute to β cell dysfunction in type 2 diabetes mellitus
+- (acervo) note 1791054013647: {{c2::Exercise}} may increase the expression of the GLUT-4 receptor in muscle tissue only
+- (acervo) note 1791054014697: Do GLP-1 agonists and/or DPP-4 inhibitors cause hypoglycemia as a possible side effect? / / {{c1::No}}
+- (autoral) note 1791054014822: Nonenzymatic binding of glucose to protein amino groups first forms a reversible {{c1::Schiff base}}
+- (autoral) note 1791054014945: HbA1c is a stable {{c1::Amadori}} product formed when the Schiff base of glucose and hemoglobin rearranges
+- (autoral) note 1791054015070: Over months, Amadori products {{c1::cross-link}} proteins into irreversible advanced glycation end products
+- (acervo) note 1791054015322: One chronic complication of diabetes mellitus is {{c1::non-enzymatic glycation}} of vascular basement membranes
+- (acervo) note 1791054015447: Non-enzymatic glycation of medium and large-sized vessels leads to {{c1::atherosclerosis}} in patients with diabetes
+- (acervo) note 1791054015573: Diabetes is a risk factor for {{c1::atherosclerosis}} due to chronic inflammation, lipid oxidation, and advanced glycation end products
+- (acervo) note 1791054015697: Hyperglycemia damages the glomerular basement membrane through nonenzymatic {{c1::glycation}}.
+- (autoral) note 1791054015822: AGEs activate monocytes and endothelium through the receptor {{c1::RAGE}}
+- (acervo) note 1791054015947: Which renal arteriole is initially affected by non-enzymatic glycation? / {{c1::Efferent arteriole}}
+- (acervo) note 1791054016196: In diabetes, {{c1::osmotic}} damage may occur when glucose in tissue is converted to {{c2::sorbitol}} by the enzyme {{c3::aldose reductase}}
+- (acervo) note 1791054016421: In diabetes, osmotic damage to {{c2::Schwann}} cells causes {{c1::peripheral}} neuropathy and {{c1::autonomic}} neuropathy
+- (acervo) note 1791054016595: Histology of type 1 diabetes mellitus demonstrates islets with {{c1::leukocytic infiltrate}}
+- (acervo) note 1791054016721: Type 2 diabetes mellitus is associated with deposition of {{c1::amylin}} in the islets of the pancreas
+- (acervo) note 1791054016847: In patients with diabetes, blindness occurs as a result of osmotic damage to {{c1::pericytes::cell type}} of retinal blood vessels, weakening the vessel wall and causing aneurysm formation
+- (acervo) note 1791054016970: What is the likely diagnosis in a patient with diabetes that presents with decreased vision in both eyes? Ophthalmoscopy reveals microaneurysms, dot and blot hemorrhages, hard exudates, and macular edema / / {{c1::Nonpro
+- (acervo) note 1791054017097: {{c1::Proliferative}} diabetic retinopathy results in new blood vessel formation with resultant traction on the retina
+- (acervo) note 1791054017222: Proliferative diabetic retinopathy is prone to {{c1::hemorrhage}} due to disorganized neovascularization
+- (acervo) note 1791054017347: In diabetes, {{c1::cataracts}} occur as a result of osmotic damage to the lens
+- (acervo) note 1791054017471: Secondary closed-angle glaucoma is caused by {{c1::hypoxia}} from retinal disease, which induces vasoproliferation in the iris that contracts the angle (e.g., diabetes mellitus, vein occlusion)
+- (acervo) note 1791054017598: Microaneurysms are a sign of early {{c1::nonproliferative diabetic}} retinopathy
+- (acervo) note 1791054017721: Initially, non-enzymatic glycation of the glomerular basement membrane (diabetes mellitus) causes hyperfiltration injury which leads to the development of {{c1::microalbumin}}uria by promoting production of heparanase
+- (acervo) note 1791054017844: Diabetic glomerulonephropathy is associated with {{c1::mesangial}} expansion on light microscopy
+- (acervo) note 1791054017972: Non-enzymatic glycation of small vessels may cause nodular {{c1::glomerulosclerosis}} with Kimmelstiel-Wilson nodules; may cause chronic kidney disease
+- (acervo) note 1791054018093: The hyperfiltration in diabetic glomerulonephropathy can lead to eosinophilic nodular glomerulosclerosis, known as {{c1::Kimmelstiel-Wilson}} nodules
+- (acervo) note 1791054018222: Non-enzymatic glycation of small vessels can cause hyaline {{c1::arteriolosclerosis}} of the kidney, which may lead to chronic kidney disease
+- (acervo) note 1791054018344: What endocrine pathology is associated with UTI? / {{c1::Diabetes mellitus}}
+- (acervo) note 1791054018470: Non-enzymatic glycation of medium and large-sized vessels may cause {{c1::peripheral vascular disease}}, which is the leading cause of nontraumatic amputation in patients with diabetes
+- (acervo) note 1791054018596: What is the most important contributing factor for diabetic foot ulcers? / / {{c1::Diabetic neuropathy}}
+- (acervo) note 1791054018721: Patients with diabetic neuropathy present with a slowly progressive decrease in vibratory sensation, {{c1::proprioception}}, and {{c2::temperature}} sensation
+- (acervo) note 1791054018897: Chronic diabetes predisposes patients to recurrent {{c1::infection}} due to poor wound healing, urinary retention, neutrophil dysfunction, and hyperglycemia
+- (acervo) note 1791054019022: Secondary infection of diabetic foot ulcers may lead to gangrene requiring {{c1::amputation::treatment}}
+- (acervo) note 1791054019147: What is the leading cause of death in patients with diabetes mellitus? / {{c1::Heart attack (MI)}}
+- (acervo) note 1791054019271: Tight blood glucose control in patients with diabetes is most likely to decrease risk of {{c1::micro}}vascular complications
+- (autoral) note 1791054019396: Early diabetic nephropathy shows {{c1::enlarged}} kidneys on ultrasound
+- (autoral) note 1791054019520: End-stage diabetic nephropathy shows small kidneys with a thin {{c1::hyperechoic}} cortex on ultrasound
+- (acervo) note 1791054019772: Myocardial infarction is often due to rupture of an atherosclerotic plaque with thrombosis and {{c2::complete}} occlusion of a coronary artery
+- (autoral) note 1791054019897: The coronary calcium score on non-contrast CT is calculated by the {{c1::Agatston}} method
+- (acervo) note 1791054020395: Unperceived joint damage due to diabetic neuropathy may lead to formation of {{c1::charcot joint (neurogenic arthropathy)}}, which is managed with casting and orthotic footwear
+- (acervo) note 1791054020545: What is the likely diagnosis in a patient with diabetes who has a severely deformed foot? X-ray shows bony destruction, decreased bone mass, osteophytes, and loss of joint spaces / / {{c1::Charcot joint}}
+- (acervo) note 1791054020671: Osteomyelitis in patients with diabetes is typically preceded by a long-standing foot ulcer that spreads {{c1::contiguously}} to bone, causing a(n) {{c1::poly}}microbial infection
+- (acervo) note 1791054021044: Osteomyelitis may be seen on X-ray as a(n) {{c1::lytic}} focus (sequestrum) surrounded by sclerosis (involucrum)
+- (autoral) note 1791482469941: HbA1c reflects about 3 months of glycemia because glycated hemoglobin lasts as long as the {{c1::red blood cell}} that carries it
+
+### 2026-uc03-imunologia-07-organizacao-sistema-imune — 3 suspensos
+- (acervo) note 1791023357519: Lymphoid nodules and free immune cells in the gut mucosa and submucosa form the {{c1::MALT}}
+- (autoral) note 1791629597796: Compared with the primary response, the secondary antibody response has a shorter lag and a {{c1::higher}} peak
+- (autoral) note 1792166970267: Self-tolerance induced in the thymus or bone marrow is {{c1::central::central/peripheral}}, and in tissues is {{c1::peripheral::central/peripheral}}
+
+### 2026-uc03-imunologia-17-reconhecimento-adaptativo — 2 suspensos
+- (autoral) note 1791629588997: Unlike antibodies, the T-cell receptor is never {{c1::secreted}}
+- (acervo) note 1792241813320: Does IgA cross the placenta? / {{c1::No}}
+
+### 2026-uc03-imunologia-20-mhc-apresentacao — 1 suspensos
+- (acervo) note 1792241984143: Which MHC class is formed by 1 long chain and 1 short chain? / {{c1::MHC I}}
+
+### 2026-uc03-imunologia-22-mecanismos-efetores — 2 suspensos
+- (acervo) note 1791625430456: {{c1::Nitric oxide synthase}} cleaves the amino acid {{c2::arginine}} into citrulline and nitric oxide
+- (autoral) note 1791629596121: In ADCC, NK cells bind antibody-coated cells through the low-affinity receptor {{c1::FcγRIII}} (CD16)
+
+### 2026-uc03-imunologia-31-sistema-complemento — 2 suspensos
+- (autoral) note 1791629595622: Bound, but not free, IgM exposes its binding sites for {{c1::C1q}}
+- (autoral) note 1791667100388: MBL deficiency resembles classical-pathway deficiency, with infections and {{c1::lupus}}-like disease
+
+### 2026-uc03-imunologia-45-ativacao-linfocitos-t — 8 suspensos
+- (autoral) note 1791625423557: Double-positive thymocytes whose TCR cannot bind self-MHC die by {{c1::neglect}}
+- (acervo) note 1791625424057: Deficiency of {{c2::autoimmune regulator (AIRE)}} protein causes {{c1::autoimmune polyendocrine syndrome (APS) type 1}}
+- (autoral) note 1791625424356: Unlike single-chain CD4, the CD8 coreceptor is a {{c1::dimer}} of α and β chains
+- (autoral) note 1791625428283: In the immunological synapse, TCR–MHC contacts gather at the center, ringed by adhesion between {{c1::LFA-1}} and ICAM-1
+- (autoral) note 1791625429158: IL-2 acts mainly on the same T cell that secretes it, an {{c1::autocrine}} action
+- (autoral) note 1791625431633: A committed Th1 cell keeps the IL-4 gene silent by packing it into closed {{c1::chromatin}}
+- (autoral) note 1791625433083: Induced Tregs develop from naive CD4+ T cells exposed to TGF-β plus {{c1::retinoic acid}}
+- (autoral) note 1791625435406: Treg-derived {{c1::IL-10}} inhibits antigen-presenting cells and macrophages
+
+### 2026-uc03-imunologia-49-ativacao-celulas-b — 5 suspensos
+- (autoral) note 1791629590097: B-1 cells are marked by surface {{c1::CD5}}
+- (autoral) note 1791629590347: Conventional B-2 cells are continuously replenished from the {{c1::bone marrow}}
+- (acervo) note 1791629590597: What cellular organelle is abundant in mucus-secreting goblet cells (small intestine) and antibody-secreting plasma cells? / {{c1::Rough endoplasmic reticulum}}
+- (autoral) note 1791629591272: {{c1::CD19}} is the signaling chain of the B-cell coreceptor, together with CD21 and CD81
+- (autoral) note 1791629591522: {{c1::CD22}} is an inhibitory B-cell coreceptor that recruits the phosphatase SHP-1
+
+### 2026-uc03-imunologia-51-disturbios-sistema-imune — 17 suspensos
+- (acervo) note 1792166972544: What HLA subtype is associated with seronegative spondyloarthritis? / {{c1::HLA-B27}}
+- (acervo) note 1792166972789: What HLA subtypes are associated with Addison disease? / {{c1::DR3}} and {{c1::DR4}}
+- (acervo) note 1792166973044: What HLA subtypes are associated with celiac disease? / {{c1::DQ2}} and {{c1::DQ8}}
+- (acervo) note 1792166973339: What HLA subtypes are associated with SLE? / {{c1::DR2}} and {{c1::DR3}}
+- (acervo) note 1792166973591: What HLA subtype is associated with Goodpasture syndrome? / {{c1::HLA-DR2}}
+- (acervo) note 1792166973842: What HLA subtype is associated with pernicious anemia? / {{c1::DR5}}
+- (acervo) note 1792166974094: Myasthenia gravis is associated with HLA-{{c1::B8}}
+- (autoral) note 1792166976092: Autoimmune diseases are {{c1::organ-specific::organ-specific/systemic}} when one organ is attacked (Graves, type 1 diabetes) and {{c1::systemic::organ-specific/systemic}} when many are (SLE)
+- (acervo) note 1792166976344: TSH receptors on thyroid gland follicular cells may be activated by {{c1::TSH receptor antibodies (TRAbs)}} in Graves disease
+- (acervo) note 1792166977241: Which antibodies are specific, but not sensitive for SLE? / {{c1::anti-dsDNA and anti-Smith antibodies::2}}
+- (autoral) note 1792166977992: Immunodeficiencies are {{c1::primary::primary/secondary}} when inherited and {{c1::secondary::primary/secondary}} when acquired, as in HIV, malnutrition or chemotherapy
+- (acervo) note 1792166982191: {{c1::Adenosine deaminase}} deficiency results in buildup of dATP, which is toxic to lymphocytes; causes SCID
+- (acervo) note 1792166985287: {{c2::X-linked (Bruton) agammaglobulinemia}} is caused by a defect in the {{c1::Bruton tyrosine kinase (BTK)}} gene
+- (acervo) note 1792166986642: Which immunodeficiencies are characterized by absent / scanty lymph nodes and tonsils? / / {{c1::X-linked (Bruton) agammaglobulinemia}} and {{c1::severe combined immunodeficiency (SCID)}}
+- (acervo) note 1792166994690: Patients with Chédiak-Higashi syndrome have increased risk for {{c1::pyogenic}} infections (e.g., Staphylococci and Streptococci)
+- (acervo) note 1792166997066: Serum amyloid A (SAA) is an acute phase reactant that is increased in chronic inflammatory states, malignancy, and {{c1::familial Mediterranean fever (FMF)::inherited condition}}
+- (acervo) note 1792166997364: Familial Mediterranean fever is characterized by {{c1::AA amyloid (secondary)}} deposits in tissues during attacks
+
+### 2026-uc03-microbiologia-26-morfologia-estrutura-bacteriana — 23 suspensos
+- (autoral) note 1791163022242: Woese defined the three domains of life (Bacteria, Archaea, Eukarya) by comparing {{c1::ribosomal RNA}} sequences
+- (acervo) note 1791163027172: Peptidoglycan cell walls have repeating {{c1::D-alanyl-D-alanine}} oligopeptides
+- (acervo) note 1791163028321: What molecule present on the surface of gram positive bacteria drives immune response to the organism? / / {{c1::Lipoteichoic acid}}
+- (acervo) note 1791163030347: {{c1::Lipopolysaccharide}} is contained on the {{c2::outer membrane}} of gram {{c3::negative}} bacteria
+- (acervo) note 1791163033119: Which part of lipopolysaccharide is a target for antibodies? / / {{c1::O antigen}}
+- (acervo) note 1791163035024: Small DNA within the cells of bacteria that replicate independently are known as {{c1::plasmids}}
+- (acervo) note 1791163036170: Which structural component of bacterial flagella is responsible for generating torque and molecular motion? / / {{c1::The basal body}}
+- (acervo) note 1791163040622: A bacterial capsule increases virulence by inhibiting {{c1::phagocytosis}}
+- (autoral) note 1791576665465: Most bacteria that live with us are {{c1::commensal}} or mutualistic, and only a small minority cause disease
+- (autoral) note 1791576665990: {{c1::Differential}} solid media show colonies of different colors (e.g., lactose fermenters) or hemolysis patterns
+- (acervo) note 1791576666993: Bunches/clusters of cocci bacteria is characteristic of {{c1::Staphylococci}}
+- (autoral) note 1791576667142: Bacilli that stay in chains after division are called {{c1::streptobacilli}}
+- (acervo) note 1791576667293: Vibrio cholerae is a bacterium that has a(n) {{c1::comma}} shape
+- (acervo) note 1791576670517: Does inhibition of transpeptidases directly kill bacteria? / / {{c1::No}}
+- (autoral) note 1791576671341: Teichoic acids regulate {{c1::autolysins}}, letting the wall be remodeled during division without lysis
+- (acervo) note 1791576673767: Most rods (and coccobacillus) are gram {{c1::negative}}
+- (acervo) note 1791576675192: {{c1::Mycoplasma::Which bacteria}} does not {{c3::Gram}} stain because it lacks a cell wall; its cell membrane instead has {{c2::sterols}} for stability
+- (acervo) note 1791576675592: Prokaryotic cells have {{c1::circular}} DNA while eukaryotic cells have {{c2::linear}} DNA
+- (acervo) note 1791576676015: The two ribosomal subunits in bacteria/prokaryotes are {{c1::50}}S and {{c1::30}}S making {{c1::70}}S
+- (acervo) note 1791576678691: {{c1::Peptidoglycans}} make up the middle layer, or {{c2::cortex}}, of a bacterial spore
+- (acervo) note 1791576680065: Does E. coli have a capsule? / / {{c1::Yes}}
+- (acervo) note 1791576680215: Staphylococcus epidermidis forms a protective {{c1::biofilm}} that allows it to colonize prosthetic devices
+- (autoral) note 1791576680665: Bacteria inside a {{c1::biofilm}} resist biocides and antibiotics much better than free cells
+
+### 2026-uc03-microbiologia-27-fisiologia-bacteriana — 6 suspensos
+- (autoral) note 1791647812370: Bacteria multiply by {{c1::binary fission}}, so growth means an increase in cell number
+- (acervo) note 1791647812993: {{c2::Superoxide dismutase}} and {{c2::catalase}} are two enzymes contained in all {{c1::obligate aerobic}} organisms
+- (acervo) note 1791647813545: {{c2::Clostridioides}} difficile; botulinum; perfringens; tetani are all {{c1::obligate anaerobes::obligate aerobes or anaerobes}}
+- (acervo) note 1791647814920: {{c1::Obligate anaerobes::Obligate aerobes or Anaerobes}} use fermentation to generate ATP
+- (autoral) note 1791647815469: Bacterial growth in broth can be followed by the rise in {{c1::turbidity}} measured in a spectrophotometer
+- (acervo) note 1791647815720: The 3 phases of the bacterial growth curve are: / / {{c1::Lag}} phase / {{c1::Growth/log}} phase / {{c1::Stationary}} phase
+
+### 2026-uc03-microbiologia-28-pratica-1 — 2 suspensos
+- (autoral) note 1791648193118: Cocci that stay together in cubic packets after dividing are called {{c1::sarcinae}}
+- (autoral) note 1791648193993: A {{c1::minimal}} medium contains only mineral salts and a carbon source such as glucose
+
+### 2026-uc03-microbiologia-30-controle-microbiologico — 2 suspensos
+- (autoral) note 1791666340440: The microbial forms most resistant to disinfection and sterilization are bacterial {{c1::spores}}
+- (acervo) note 1791666343290: Autoclaves work to sterilize equipment by using {{c1::pressurized steam}}
+
+### 2026-uc03-microbiologia-32-antibioticos-resistencia — 1 suspensos
+- (acervo) note 1791668525764: {{c1::Vancomycin}} resistance occurs in Enterococcus spp. ({{c1::VRE}}) via amino acid modification of D-Ala-D-Ala to D-Ala-D-Lac
+
+### 2026-uc03-microbiologia-39-homem-ambiente-microrganismo — 1 suspensos
+- (autoral) note 1791014718900: Bacterial fermentation of fiber yields {{c1::butyrate}}, the short-chain fatty acid that nourishes colonocytes
+
+### 2026-uc03-microbiologia-43-biologia-fungos — 5 suspensos
+- (acervo) note 1791557940256: Patients get exposed to aflatoxins produced by Aspergillus by way of eating improperly stored {{c1::grains}} and {{c1::nuts}}
+- (acervo) note 1791557941081: {{c1::Eukaryotes::Prokaryotes or Eukaryotes}} include protozoa and fungi
+- (acervo) note 1791557941506: The two ribosomal subunits in eukaryotes are {{c1::60}}S and {{c1::40}}S making {{c1::80}}S
+- (autoral) note 1791557941879: In dimorphic fungi, the yeast phase at 37 °C has more {{c1::α-glucan}} in its wall than the mold phase
+- (acervo) note 1792170507325: Candida albicans is {{c1::dimorphic*}}, meaning it assumes different forms depending on the temperature of its environment
+
+### 2026-uc03-microbiologia-44-micoses-cutaneas — 7 suspensos
+- (autoral) note 1791626776427: Besides keratinases, dermatophytes secrete {{c1::elastases}}, collagenase and DNase
+- (acervo) note 1791626776929: What demographic of adults are at risk for tinea (ringworm) infections? / / {{c1::Athletes}}
+- (autoral) note 1791626778303: Trichophyton indotineae, an emerging dermatophyte, resists terbinafine through mutations in {{c1::squalene epoxidase}}
+- (autoral) note 1791626778603: A sterile eruption on the hands caused by an immune reaction to a distant dermatophyte focus is a {{c1::dermatophytid}}
+- (acervo) note 1791626781776: {{c2::Hyphae}} of tinea lesions due to {{c3::dermatophytes}} are seen with {{c1::KOH}} prep of {{c1::skin}} scrapings
+- (acervo) note 1792175046437: What microorganism is most commonly involved in the pathogenesis of tinea capitis? / / {{c1::Trichophyton tonsurans}}
+- (acervo) note 1792175046687: What is the likely diagnosis in an African American child that presents with pruritic, erythematous plaque on the scalp that resulted in patchy hair loss with residual "black dots"? Lymphadenopathy is present / / {{c1::T
+
+### 2026-uc03-microbiologia-48-micoses-subcutaneas — 5 suspensos
+- (acervo) note 1791628674273: The yeast of {{c1::Sporothrix schenckii::which fungus}} takes on a(n) {{c2::cigar}} shape under microscope
+- (acervo) note 1791628674948: What is the drug of choice for treatment of sporotrichosis / Sporothrix schenckii infection? / / {{c1::Itraconazole}}
+- (autoral) note 1791628675824: A mycetoma is defined by: / 1. Tumor-like {{c1::swelling}} / 2. Draining {{c2::sinuses}} / 3. {{c1::Grains}}
+- (acervo) note 1791628676247: What is the oxygen dependency of Nocardia spp.? / / {{c1::Obligate aerobe}}
+- (autoral) note 1791628676373: Jorge Lobo disease (lobomycosis) is caused by the fungus {{c1::Lacazia loboi}}
+
+### 2026-uc03-microbiologia-50-micoses-sistemicas — 5 suspensos
+- (autoral) note 1791630903393: The {{c1::armadillo}} is a suspected natural reservoir of Paracoccidioides
+- (autoral) note 1791630904844: The yeast wall of Paracoccidioides is rich in {{c1::α-glucan::α-glucan or β-glucan}}, whereas the mold wall has mostly {{c1::β-glucan::α-glucan or β-glucan}}
+- (autoral) note 1791630907794: An {{c1::auxanogram}} identifies yeasts by the carbon and nitrogen sources they assimilate
+- (autoral) note 1791630908043: Cryptococcus gattii (serotypes B and C) is linked to {{c1::eucalyptus}} trees
+- (autoral) note 1791744812082: The mold phase of Paracoccidioides is rich in immunogenic {{c1::galactomannan}}, which the yeast phase largely lacks
+
+### 2026-uc03-microbiologia-58-multiplicacao-viral-antivirais — 1 suspensos
+- (autoral) note 1792695030288: Adenovirus DNA synthesis starts at both ends from a terminal protein primer linked to {{c1::dCMP}}, by {{c2::strand displacement}}
+
+### 2026-uc03-microbiologia-59-patogenese-viral — 7 suspensos
+- (autoral) note 1792753605841: Enteric viruses: / - localized, causing diarrhea: {{c1::rotavirus}}, norovirus / - systemic, reaching far organs: {{c2::poliovirus}} (CNS), hepatitis A (liver)
+- (autoral) note 1792753609593: Herpes reactivations reach lower viral loads than the primary infection because {{c1::immune memory}} already exists
+- (autoral) note 1792753609843: Herpesviruses replicate lytically in one cell type and stay latent in a long-lived one, like {{c1::memory B cells}} for EBV
+- (autoral) note 1792753615465: To establish a chronic infection, a virus needs mechanisms of immune {{c1::evasion}}
+- (autoral) note 1792753617191: Viral infections cause about {{c1::15–20}}% of human cancers
+- (autoral) note 1792753617695: A red blood cell may bind a virus but is not {{c1::permissive}}, lacking machinery to copy a genome
+- (acervo) note 1792753636542: What is the mechanism for antigenic variation of envelope proteins in hepatitis C virus? / / {{c1::Lack of 3'-5' exonuclease}} → {{c1::lack of proofreading}} → antigenic variation
+
+### 2026-uc03-patologia-11-acumulos-adaptacao — 2 suspensos
+- (acervo) note 1791022171771: Which form of alcoholic liver disease may be reversible with abstinence? / {{c1::Hepatic steatosis}}
+- (acervo) note 1792240576568: Kwashiorkor may present as liver malfunction with fatty change due to decreased {{c1::apolipoprotein}} synthesis
+
+### 2026-uc03-patologia-13-envelhecimento — 1 suspensos
+- (acervo) note 1792240993866: Cancers may increase expression of {{c1::telomerase}} to prevent chromosome shortening and cell death
+
+### 2026-uc03-patologia-14-declaracao-obito — 1 suspensos
+- (acervo) note 1791022175426: Esophageal {{c2::varices}} are a common cause of death in patients with {{c1::cirrhosis}}
+
+### 2026-uc03-patologia-23-edema-congestao — 8 suspensos
+- (autoral) note 1791141188737: Edema is an abnormal accumulation of fluid in the {{c1::interstitial}} space
+- (acervo) note 1791141192064: When net fluid movement is out of the capillary into the interstitial fluid, it is called {{c1::filtration}}
+- (acervo) note 1791141198656: Edema may be caused by {{c1::sodium}} and {{c1::water}} retention
+- (acervo) note 1791169084658: Edema may be caused by {{c1::lymphatic}} disruption/obstruction
+- (acervo) note 1791169088281: Right heart failure is associated with a characteristic "{{c1::nutmeg}}" appearance of the liver
+- (acervo) note 1791169088580: Cirrhosis may lead to activation of {{c1::RAAS}} due to decreased intravascular volume which is complicated by impaired metabolism of aldosterone
+- (acervo) note 1791169089207: Damage to the alveolar-capillary interface leads to {{c1::increased}} alveolar-capillary permeability
+- (autoral) note 1791592962843: Edema worse in the {{c1::morning}}, around the eyes, suggests low oncotic pressure, while evening edema of the legs suggests a gravitational cause
+
+### 2026-uc03-patologia-24-patologia-ambiental — 2 suspensos
+- (autoral) note 1791592723419: Inhaled fine particles raise systemic {{c1::IL-6}} and TNF-α, promoting atherosclerosis and plaque rupture
+- (autoral) note 1791592724893: Chronic exposure to biomass smoke causes chronic airway inflammation that lowers lung function and leads to {{c1::COPD}}
+
+### 2026-uc03-patologia-47-inflamacao-granulomatosa — 9 suspensos
+- (autoral) note 1791716405167: When macrophages cannot eliminate a persistent stimulus, they may organize into a {{c1::granuloma}}
+- (autoral) note 1791716411025: Activated macrophages increase in {{c1::size}} and gain more {{c2::lysosomal enzymes}}
+- (autoral) note 1791716432060: Granulomas heal by {{c1::fibrosis}}, which replaces functional parenchyma and can impair the organ
+- (autoral) note 1791716447474: Material too large to engulf can cause {{c1::frustrated phagocytosis}}
+- (autoral) note 1791910083901: Granulomatous inflammation is an organized pattern of {{c1::chronic inflammation}}
+- (autoral) note 1791910084370: By concentrating macrophages around a persistent stimulus, granulomas help limit its {{c1::spread}}
+- (autoral) note 1791910084649: In immune granulomas, persistent antigen sustains macrophage activation through antigen-specific {{c1::T cells}}
+- (autoral) note 1791910085849: IFN-γ enhances macrophage {{c1::microbicidal activity}} against persistent intracellular pathogens
+- (autoral) note 1792081482263: Granulomas in the same lung may differ in their degree of necrosis and {{c1::fibrosis}}
+
+### 2026-uc03-patologia-62-inflamacao-cronica — 3 suspensos
+- (autoral) note 1791983680855: Blood monocytes live about {{c1::1 day}}, whereas tissue macrophages survive for {{c1::months}}
+- (autoral) note 1791983682157: M1 macrophages kill ingested microbes using reactive oxygen species and {{c1::nitric oxide}}
+- (autoral) note 1791983685881: Unlike tertiary follicles induced by inflammation, {{c1::MALT}} is constitutive lymphoid tissue beneath mucosal surfaces
+
+### 2026-uc03-patologia-radiologia-19-correlacao-2 — 9 suspensos
+- (acervo) note 1791022169576: Hepatic hemangiomas, hepatic adenomas, and focal nodular hyperplasias are most common in {{c1::reproductive-age women}}
+- (autoral) note 1791022169697: An incidental, well-defined hyperechoic liver nodule in a young asymptomatic woman is most likely a {{c1::hemangioma}}
+- (acervo) note 1791022170427: {{c1::Blood::Blood or Bile}} flows from the portal triad towards the central vein
+- (acervo) note 1791022172150: Alcoholic {{c2::hepatitis}} is characterized by {{c1::swelling}} of hepatocytes with necrosis and neutrophilic infiltration
+- (acervo) note 1791022173097: Within the space of Disse are {{c2::stellate (Ito)}} cells, which produce {{c1::extracellular matrix}} when activated
+- (acervo) note 1791022173674: All patients with cirrhosis should have a screening ultrasound every {{c1::6 months::duration}} ± alpha-fetoprotein
+- (acervo) note 1791022174254: Cirrhosis is often complicated by {{c1::portal}} hypertension
+- (autoral) note 1791022174376: On CT, portal hypertension shows a nodular liver, ascites, collateral veins and an enlarged {{c1::spleen}}
+- (acervo) note 1791022174502: Portal hypertension can lead to {{c1::ascites}}, which is fluid in the peritoneal cavity
+
+### 2026-uc03-radiologia-04-radiografia-ultrassom — 1 suspensos
+- (acervo) note 1792238912652: What is the appearance of calcium kidney stones on X-ray and CT? / {{c1::Radiopaque}}
+
+### 2026-uc07 — 4 suspensos
+- (acervo) note 1792588686975: O sulco {{c1::basilar}} da ponte aloja a artéria basilar
+- (acervo) note 1792588687021: As estruturas de substância cinzenta do cerebelo são o córtex cerebelar e os núcleos {{c1::cerebelares}}
+- (acervo) note 1792588687023: Do medial para o lateral, os núcleos do cerebelo são o {{c2::fastigial}}, o {{c1::globoso}}, o {{c2::emboliforme}} e o {{c1::denteado}}
+- (autoral) note 1792697127074: O canal vertebral começa na articulação {{c1::atlantoccipital}}, entre o osso occipital e o {{c2::atlas}} (C1)
+
+### 2026-uc07-cerebelo-cortex-cerebelar — 2 suspensos
+- (acervo) note 1792344675723: A camada média do córtex cerebelar é a camada {{c1::de Purkinje}}
+- (acervo) note 1792344676226: A camada externa do córtex cerebelar é a camada {{c1::molecular}}
+
+### 2026-uc08-anatomia-01-esofago-estomago-delgado — 33 suspensos
+- (autoral) note 1790972063767: The esophagus is a muscular tube about {{c1::25}} cm long that runs from the pharynx to the stomach
+- (acervo) note 1790972064487: On a CT of the thorax, the {{c1::trachea}} is a good landmark to localize the esophagus (located posteriorly) and the great vessels (located anteriorly)
+- (acervo) note 1790972064584: 
+- (autoral) note 1790972066262: What is the name of the notch between the left border of the esophagus and the fundus of the stomach? / / {{c1::Cardiac notch}}
+- (acervo) note 1790972066759: Identify the highlighted gastric region. / {{c1::Pylorus}}
+- (acervo) note 1790972067059: 
+- (acervo) note 1790972067359: 
+- (acervo) note 1790972068261: 
+- (acervo) note 1790972068360: 
+- (acervo) note 1790972068706: On an abdominal CT scan, the pancreas can be identified by: / / - Its head in close association with the {{c1::2nd}} part of the duodenum- Its body overlying the {{c1::abdominal aorta::vasculature}}
+- (acervo) note 1790972069210: The main pancreatic duct drains into the {{c1::major}} duodenal papilla
+- (autoral) note 1790972070012: The {{c1::mesentery}} is the fold of peritoneum that attaches the jejunum and ileum to the posterior abdominal wall
+- (acervo) note 1790972070110: 
+- (acervo) note 1790972070210: 
+- (acervo) note 1790972070410: 
+- (acervo) note 1790973209810: 
+- (acervo) note 1790973209933: 
+- (acervo) note 1790973210057: 
+- (acervo) note 1790973210184: 
+- (acervo) note 1790973210308: 
+- (acervo) note 1790973211156: 
+- (acervo) note 1790973211408: 
+- (acervo) note 1790973212607: 
+- (acervo) note 1790973213781: 
+- (acervo) note 1790973215632: 
+- (acervo) note 1790973215757: 
+- (acervo) note 1790973218132: 
+- (acervo) note 1790973218257: 
+- (acervo) note 1790973218382: 
+- (acervo) note 1790973218507: 
+- (acervo) note 1790973218633: 
+- (acervo) note 1790973220082: 
+- (acervo) note 1790973408235: 
+
+### 2026-uc08-anatomia-02-intestino-grosso-canal-anal — 19 suspensos
+- (acervo) note 1790974688878: 
+- (acervo) note 1790974689130: 
+- (acervo) note 1790974689253: 
+- (acervo) note 1790974689380: 
+- (acervo) note 1790974689504: 
+- (acervo) note 1790974690604: 
+- (acervo) note 1790974691531: Colonic diverticula containing mucosa and submucosa but not the full muscular wall are {{c1::false}} diverticula.
+- (autoral) note 1790974691958: Behind the apex of the sigmoid mesocolon, on the left common iliac vessels, lies the {{c1::left ureter}}
+- (acervo) note 1790974694628: 
+- (acervo) note 1790974695630: 
+- (acervo) note 1790974696004: 
+- (acervo) note 1790974696629: 
+- (acervo) note 1790974697004: 
+- (acervo) note 1790974698404: Which lymph nodes drain the rectum below the pectinate line? / {{c1::Superficial inguinal nodes}}
+- (acervo) note 1790974698531: {{c1::External}} hemorrhoids receive somatic innervation from the {{c2::pudendal}} nerve
+- (autoral) note 1790978722492: The rectum has {{c1::three}} transverse folds (superior, middle and inferior) that help support the fecal mass
+- (autoral) note 1790978739486: The upper ends of the anal columns mark the {{c1::anorectal}} junction, where the rectum becomes the anal canal
+- (autoral) note 1790978740593: The lower ends of the anal columns are joined by the anal {{c1::valves}}, whose free edges form the pectinate line
+- (autoral) note 1790980442408: The omental (epiploic) appendices of the colon are small pouches of peritoneum filled with {{c1::fat}}
+
+### 2026-uc08-anatomia-07-vascularizacao-visceras — 11 suspensos
+- (acervo) note 1790981514202: 
+- (acervo) note 1790981514577: 
+- (acervo) note 1790981515925: 
+- (acervo) note 1790981518203: 
+- (acervo) note 1790981519551: 
+- (acervo) note 1790981520301: 
+- (acervo) note 1790981521053: 
+- (autoral) note 1790981522826: The pre-aortic lymph nodes lie in three groups around the celiac, superior mesenteric and {{c1::inferior mesenteric}} arteries
+- (acervo) note 1790981522953: Which lymph node cluster drains the jejunum and ileum? / {{c1::Superior mesenteric}}
+- (autoral) note 1790981526502: The middle rectal artery is a branch of the {{c1::internal iliac}} artery
+- (autoral) note 1790981527427: Lymph from the upper rectum follows the superior rectal vessels to the {{c1::inferior mesenteric}} lymph nodes
+
+### 2026-uc08-anatomia-11-figado-pancreas-vias-biliares — 1 suspensos
+- (autoral) note 1792713397381: The lesser omentum runs from the lesser curvature of the stomach and the proximal {{c1::duodenum}} to the liver
+
+### 2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas — 8 suspensos
+- (autoral) note 1792659587805: The 90° turn of the stomach brings the left vagus to its {{c1::anterior}} wall and the right to the {{c1::posterior}}
+- (autoral) note 1792659591802: Primary loop of the midgut: / - cephalic limb forms {{c2::jejunum}} and {{c2::ileum}} / - caudal limb forms {{c1::cecum}} and {{c2::ascending colon}}
+- (autoral) note 1792659596102: In the embryo, the foregut endoderm buds out the {{c1::liver}} and the {{c1::pancreas}}
+- (autoral) note 1792659596852: The liver grew inside the ventral mesentery, so the lesser omentum and the falciform ligament are the {{c1::remnants}} around it
+- (autoral) note 1792659601722: Pancreatic acinar cells store enzymes in apical {{c1::zymogen}} granules
+- (autoral) note 1792659603225: The liver gets nutrient-rich blood from the {{c1::portal vein}} and oxygen-rich blood from the {{c1::hepatic artery}}
+- (autoral) note 1792659603475: In pig liver the lobules are clearly separated by connective tissue, whereas the human liver shows {{c1::no visible lobulation}}
+- (autoral) note 1792659606725: Bile canaliculi are grooves between neighboring {{c1::hepatocytes}} and get their own wall only in the portal space
+
+### 2026-uc08-biologia-tecidual-03-estrutura-estomago — 35 suspensos
+- (acervo) note 1790979862409: The mucosa of the gut wall consists of three layers: a(n) {{c1::epithelium}}, {{c2::lamina propria}}, and {{c3::muscularis mucosa}}
+- (acervo) note 1790979862760: External to the submucosal layer of the gut wall is the {{c1::muscularis externa}}
+- (acervo) note 1790979863534: 
+- (acervo) note 1790979864659: Which gut wall layer contains Auerbach's plexus? / {{c1::Muscularis externa}}
+- (acervo) note 1790979865684: This is a magnified image of {{c1::oxyntic/fundic stomach}} / / [IMG paste-285af7c65716abbec41ced6e635e74ff448f45f5.png] / [IMG paste-438815d1674aec9e56d5491223223627e1a70d65.png] / [IMG paste-5fd70752adbdef98c597af64c2c
+- (acervo) note 1790979866060: This is a magnified image of {{c1::pylorus}} / / [IMG paste-3c60c7c15a904453246835ff33ccaf3d3c6a6c83.png][IMG paste-d7c5ef5cd521a3cf957a7db2d65f6b58bfaa2489.png]
+- (acervo) note 1790979866434: 
+- (acervo) note 1790979867059: The gastric {{c1::glands}} of the stomach body contain the mucous cells, chief cells, and parietal cells
+- (acervo) note 1790979867308: 
+- (acervo) note 1790979867432: 
+- (autoral) note 1790980013307: In rodents, the gastric glands grow and the mucosa completes its maturation around {{c1::weaning}}, in the third postnatal week
+- (acervo) note 1791023352328: Parallel ridges on the lateral tongue, rudimentary in adults, are the {{c1::foliate}} papillae
+- (acervo) note 1791023352694: Taste buds lie within the epithelium of the lingual {{c1::papillae}}
+- (acervo) note 1791023353068: The oral cavity is lined by {{c1::stratified squamous}} epithelium, keratinized or not depending on the site
+- (acervo) note 1791023353443: The tongue is a mass of {{c1::striated muscle}} covered by mucosa
+- (acervo) note 1791023353568: The ventral surface of the tongue is smooth and covered by {{c1::lining}} mucosa
+- (acervo) note 1791023354443: The enamel matrix is secreted by {{c1::ameloblasts}} of the enamel organ
+- (acervo) note 1791023354569: The periodontal ligament anchors the {{c1::cementum}} to the alveolar bone
+- (acervo) note 1791023355569: Serous cells are grouped into round secretory units called {{c1::acini}}
+- (acervo) note 1791023355818: Mucous cells stain pale on H&E because their granules hold hydrophilic {{c1::mucins}}
+- (acervo) note 1791023357017: The thin smooth muscle layer that separates the mucosa from the submucosa is the {{c1::muscularis mucosae}}
+- (acervo) note 1791023357143: The submucosa is {{c1::denser}} connective tissue that carries the larger blood and lymph vessels
+- (acervo) note 1791023359842: The pyloric sphincter is a thickening of the {{c1::middle circular}} layer of the gastric muscularis
+- (acervo) note 1791023360742: Compared with fundic glands, typical mucous pyloric glands contain fewer {{c1::parietal}} and {{c2::chief}} cells
+- (acervo) note 1791023361941: The gastric lumen and pits are lined by surface {{c1::mucous}} cells
+- (acervo) note 1791023362067: Surface mucous cells coat the gastric mucosa with a thick, bicarbonate-rich {{c1::mucus layer}}
+- (acervo) note 1791023362817: Gastric stem cells sit in the {{c1::isthmus}}, between the pit and the gland
+- (acervo) note 1791023362943: Progenitor cells that move upward replace the surface mucous cells every {{c1::4–7}} days
+- (acervo) note 1791023364242: Parietal cells lie among {{c1::mucous neck}} cells and in the deeper part of the gland
+- (acervo) note 1791023364492: The deep, microvilli-lined channel that runs inside the parietal cell and receives its H⁺ is the {{c1::intracellular canaliculus}}
+- (acervo) note 1791023365216: In the neck of gastric glands, scattered among parietal cells, {{c1::mucous neck}} cells secrete a less alkaline mucus
+- (acervo) note 1791023365342: Unlike surface mucous cells, mucous neck cells have {{c1::round}} nuclei
+- (acervo) note 1791023366191: Chief cells secrete protein, so their basal cytoplasm is packed with {{c1::rough ER}}
+- (acervo) note 1791023366616: Scattered gastric cells with endocrine or paracrine function are the {{c1::enteroendocrine}} cells
+- (acervo) note 1791023366868: Gastrointestinal enterochromaffin (EC) cells release {{c1::serotonin}}.
+
+### 2026-uc08-biologia-tecidual-04-intestinos — 26 suspensos
+- (acervo) note 1790980909855: 
+- (acervo) note 1790980909978: 
+- (acervo) note 1790980910107: All three parts of the small intestine contain {{c1::villi}} and {{c1::microvilli}}, which increase absorptive surface area
+- (acervo) note 1790980910230: {{c1::Villi}} are small finger-like projections that increase the intestinal {{c2::surface area}}
+- (autoral) note 1790980911279: Epithelial cells die by apoptosis and are shed at the villus {{c1::tip}}, as shown by TUNEL staining
+- (autoral) note 1790980911405: Most intestinal epithelial cells arise in the {{c1::crypts}} and differentiate while migrating toward the villus tip.
+- (autoral) note 1790980911781: Active intestinal stem cells at the crypt base are identified by the marker {{c1::Lgr5}}
+- (acervo) note 1790980911905: 
+- (acervo) note 1790980912028: 
+- (acervo) note 1790980912155: 
+- (acervo) note 1790980912277: 
+- (autoral) note 1790980912831: The actin core of each microvillus is bundled by the structural protein {{c1::villin}}
+- (autoral) note 1790980913855: Villi are leaf-shaped in the {{c1::duodenum}} and become finger-shaped toward the ileum
+- (acervo) note 1790980914603: 
+- (acervo) note 1790980916154: This H&E mucosa belongs to the {{c1::small intestine}} / [IMG bt4-jejunum.jpg]
+- (autoral) note 1790980916280: The colon has no Paneth cells, so its crypt-base stem cells are supported by {{c1::deep crypt secretory}} cells
+- (acervo) note 1791023295067: Short tubular glands that open between the villi are the {{c1::crypts of Lieberkühn}}
+- (acervo) note 1791023296668: Dense microvilli on the apical surface of enterocytes form the {{c1::brush border}}
+- (acervo) note 1791023296918: Microvilli enlarge the intestinal surface about {{c1::20}}-fold, villi 10-fold and plicae 3-fold
+- (acervo) note 1791023297666: Goblet cells secrete glycoprotein {{c1::mucins}}, which hydrate into protective mucus
+- (acervo) note 1791023298092: Open-type enteroendocrine cells reach the lumen and carry {{c1::chemoreceptors}} that sense nutrients
+- (acervo) note 1791023298593: Inside the enterocyte, absorbed lipids are rebuilt into triglycerides in the {{c1::smooth ER}}
+- (acervo) note 1791023298992: Smooth muscle fibers in the villus core come from the {{c1::muscularis mucosae}}
+- (acervo) note 1791023299245: Paneth cells sit at the {{c1::base}} of the intestinal crypts
+- (acervo) note 1791023302244: The large intestine absorbs water and electrolytes and turns {{c1::indigestible}} material into feces
+- (acervo) note 1791023303318: Colonocytes have short irregular {{c1::microvilli}}, reflecting fluid absorption
+
+### 2026-uc08-fisiologia-05-digestao-absorcao-nutrientes — 11 suspensos
+- (acervo) note 1791000306302: Glucose and galactose are transported from the intestinal lumen into the cells by {{c1::Na+-dependent cotransport (SGLT1)}}
+- (acervo) note 1791000307927: {{c1::Chymotrypsinogen}} (inactive) is activated to chymotrypsin (active) via trypsin
+- (acervo) note 1791000308176: {{c1::Procarboxypeptidase}} (inactive) is activated to carboxypeptidase (active) via trypsin
+- (acervo) note 1791000308425: Dipeptides and tripeptides are transported from the intestinal lumen into the cells by {{c1::H+}}-mediated cotransport
+- (autoral) note 1791000309802: Pancreatic phospholipase A2 hydrolyzes phospholipids into a fatty acid and a {{c1::lysophospholipid}}
+- (autoral) note 1791000311226: {{c1::ENaC}} channels mediate Na+ absorption in the distal colon
+- (acervo) note 1791000313279: 1,25-dihydroxycholecalciferol increases {{c1::intestinal}} absorption of Ca2+ through synthesis of calbindin D-28K
+- (acervo) note 1791000313527: Absorption of fat-soluble vitamins is dependent on the intact {{c2::ileum}}, {{c2::pancreatic}} secretions, and {{c2::bile}} emulsification
+- (acervo) note 1791000313954: Vitamin K deficiency may occur in {{c1::newborns}} due to lack of {{c1::colonic bacteria}} that normally synthesize vitamin K
+- (acervo) note 1791000314976: In the duodenum, vitamin B12 is cleaved by {{c1::pancreatic proteases}} from R-binder and attaches to {{c1::intrinsic factor}}
+- (autoral) note 1791051794902: Maltose is split into two glucose molecules by the brush border enzyme {{c1::maltase}}
+
+### 2026-uc08-fisiologia-06-secrecao-gastrica — 4 suspensos
+- (acervo) note 1791014715994: Histamine, from ECL cells, activates {{c1::H2}} receptors (coupled to {{c1::Gs}}) on the basolateral membrane of parietal cells
+- (acervo) note 1791014716874: Pepsinogen is secreted in response to {{c1::vagal stimulation}} and {{c2::local H+}}
+- (autoral) note 1791014717050: In the duodenum, acid releases {{c1::secretin}}, which also stimulates pepsinogen secretion by chief cells
+- (autoral) note 1791014718401: Most gut bacteria belong to two phyla, Firmicutes and {{c1::Bacteroidetes}}
+
+### 2026-uc08-fisiologia-08-motilidade-i — 2 suspensos
+- (autoral) note 1790974699480: What type of muscle forms the external anal sphincter? / / {{c1::Skeletal muscle (voluntary)}}
+- (acervo) note 1791023270196: Autonomic axons in smooth muscle release transmitter from periodic swellings called {{c1::varicosities}}
+
+### 2026-uc08-fisiologia-09-motilidade-ii — 4 suspensos
+- (acervo) note 1790999833579: Which cranial nerve provides motor innervation to the muscles of mastication? / / {{c1::V3}}
+- (acervo) note 1790999833829: The {{c1::masseter}}, {{c2::temporalis}}, and {{c3::medial pterygoid}} muscles are responsible for {{c4::closing}} the jaw (muscles of mastication)
+- (autoral) note 1790999838304: Rectal distension triggers a sacral reflex through the {{c1::pelvic}} nerves that contracts the rectum and relaxes the internal anal sphincter
+- (autoral) note 1791575030295: Transit time is about {{c1::2–4 h}} in the small intestine and up to {{c2::48 h}} in the colon
+
+### 2026-uc19-farmacologia-01-introducao-mecanismos — 13 suspensos
+- (autoral) note 1791762409172: Medical pharmacology studies drugs used for the diagnosis, {{c1::prevention}} and treatment of disease
+- (autoral) note 1791762409550: Pharmacokinetics follows the drug through absorption, distribution, {{c1::metabolism}} and excretion
+- (autoral) note 1791762409674: Pharmacodynamics covers drug–target interactions, {{c1::dose–response}} phenomena and mechanisms of therapeutic and toxic action
+- (autoral) note 1791762409923: A drug can cause adverse effects by acting on its target in {{c1::other tissues}}
+- (acervo) note 1791762412401: {{c1::Tolerance}} is when the body becomes used to a drug so it needs more of it to achieve the same effect.
+- (autoral) note 1791762417222: An allosteric modulator that weakens the response to the endogenous agonist is a {{c1::negative}} allosteric modulator
+- (autoral) note 1791762418150: Because of signal amplification and {{c1::spare receptors}}, EC50 need not equal the dissociation constant Kd
+- (autoral) note 1791762418650: An agonist binds a receptor and {{c1::activates}} it, triggering a cellular response
+- (autoral) note 1791762418773: An antagonist occupies the receptor but has zero {{c1::efficacy}}, so it blocks the agonist without a response
+- (autoral) note 1791762421773: Antagonist drugs block or reduce the action of an {{c1::agonist}}
+- (autoral) note 1791762422823: Antagonism on the dose–response curve: / 1. Competitive antagonist — {{c1::increases EC50}} without changing Emax / 2. Noncompetitive antagonist — {{c2::reduces Emax}}
+- (autoral) note 1791762427174: Drugs act on ion channels either as blockers of permeation or as {{c1::modulators}} of opening probability
+- (autoral) note 1791826292220: [IMG fa01-g-antagonismo-nao-competitivo.png] / Which type of antagonism lowers the maximal response even at high agonist doses? {{c1::Noncompetitive}}
+
+### ? — 5 suspensos
+- (acervo) note 1784308059664: Em pluripotente, pluri- indica {{c1::vários}}.
+- (acervo) note 1784308059731: Em heterozigoto, hetero- indica {{c1::diferente}}.
+- (acervo) note 1790974692329: 
+- (autoral) note 1790999838179: Food entering the stomach triggers the {{c1::gastrocolic}} reflex, which increases colonic mass movements
+- (autoral) note 1791000308801: Absorbed monosaccharides and amino acids enter the {{c1::portal}} circulation and travel to the liver
 

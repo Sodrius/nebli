@@ -51,6 +51,31 @@ def problemas_compreensao(run: Path):
     return probs
 
 
+def problemas_motivacoes(run: Path):
+    """F-20261023-CLAUDE-04: “a necessidade de manter um conceito a longo prazo gera o autoral, o autoral não é justificado depois de
+    feito”. Cada motivação diz qual item do mapa ela serve, o que Davi tem de conseguir reconstruir e por que precisa durar."""
+    try:
+        d = json.loads((Path(run) / "motivacoes.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return ["motivacoes.json ausente"]
+    try:
+        m = json.loads((Path(run) / "mapa-de-profundidade.json").read_text(encoding="utf-8"))
+        itens = {i.get("id") for p in m.get("passos", []) for i in p.get("itens", [])}
+    except (OSError, ValueError):
+        itens = set()
+    mot = d.get("motivacoes", [])
+    probs = [] if mot else ["nenhuma motivação"]
+    ids = [x.get("id") for x in mot]
+    if len(set(ids)) != len(ids):
+        probs.append("ids de motivação repetidos")
+    for x in mot:
+        if x.get("item_mapa") not in itens:
+            probs.append(f"{x.get('id')}: item_mapa fora do mapa")
+        if len(str(x.get("reconstruir", "")).strip()) < 40 or len(str(x.get("por_que_dura", "")).strip()) < 40:
+            probs.append(f"{x.get('id')}: falta o que reconstruir ou por que precisa durar (≥ 40 caracteres cada)")
+    return probs
+
+
 def versao(run: Path) -> int:
     m = re.search(r"^PIPELINE_VERSAO\s*=\s*(\d+)", (Path(run) / "spec.py").read_text(encoding="utf-8"), re.M) if (Path(run) / "spec.py").exists() else None
     return int(m.group(1)) if m else 0
@@ -77,13 +102,20 @@ def registrar(run: Path, etapa: str, nota: str):
     anterior = ORDEM[ORDEM.index(etapa) - 1] if etapa != "E0" else None
     if anterior and anterior not in feitas:
         raise SystemExit(f"{etapa} antes de {anterior}: siga o passo a passo")
-    arts = {a: _sha(run / a) for a in ARTEFATOS[etapa]}
+    precisa = ARTEFATOS[etapa] + (["motivacoes.json"] if etapa == "E3" and versao(run) >= 8 else [])
+    arts = {a: _sha(run / a) for a in precisa}
     if any(v is None for v in arts.values()):
         raise SystemExit(f"{etapa} sem artefato: {[a for a, v in arts.items() if v is None]}")
     if etapa == "E2":
         probs = problemas_compreensao(run)
         if probs:
             raise SystemExit("compreensão incompleta: " + "; ".join(probs[:5]))
+    if etapa == "E3" and versao(run) >= 8:  # F-20261023-CLAUDE-04: a necessidade gera o autoral; congelar antes de buscar e escrever
+        probs = problemas_motivacoes(run)
+        if probs:
+            raise SystemExit("motivações incompletas: " + "; ".join(probs[:5]))
+        (run / "etapas").mkdir(exist_ok=True)
+        (run / "etapas" / "E3-motivacoes.json").write_bytes((run / "motivacoes.json").read_bytes())
     if len(nota.strip()) < 40:
         raise SystemExit("nota da etapa curta demais: diga o que foi feito e decidido (≥ 40 caracteres)")
     linha = {"etapa": etapa, "em": datetime.now(timezone.utc).isoformat(timespec="seconds"), "nota": nota.strip(), "artefatos": arts}

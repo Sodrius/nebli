@@ -237,6 +237,35 @@ class GatesTests(unittest.TestCase):
             Path(tmp, "REVISAO-AUTORAIS.md").write_text("## Revisão final no deck vivo\n- au-x — escrita: ok — cloze: ok — aprofundamento: ok — negrito: ok\n")
             self.assertTrue(gates.v7_pos(tmp, plan)[0][1])
 
+    def test_v8_motivacao_e_qualidade(self):
+        from nebli import etapa
+        with tempfile.TemporaryDirectory() as tmp:
+            run = Path(tmp)
+            (run / "spec.py").write_text("PIPELINE_VERSAO = 8\n")
+            (run / "mapa-de-profundidade.json").write_text(json.dumps({"passos": [{"itens": [{"id": "p1-1"}]}]}))
+            mot = {"motivacoes": [{"id": "m1", "item_mapa": "p1-1", "reconstruir": "how Dicer and RISC turn a dsRNA into silencing of one mRNA",
+                                   "por_que_dura": "RNA interference returns in pharmacology (siRNA drugs) and in viral defense", "depois_de": "ak1",
+                                   "atendida_por": ["au-a"]}]}
+            (run / "motivacoes.json").write_text(json.dumps(mot))
+            self.assertEqual(etapa.problemas_motivacoes(run), [])
+            plan = {"pipeline_versao": 8, "compartilhados": {}, "entries": [
+                {"key": "ak1", "order": 1, "origin": "AnKing", "fields": {"Text": "x"}},
+                {"key": "au-a", "order": 2, "origin": "Autoral", "motivacao": "m1",
+                 "fields": {"Text": "<b>Dicer</b> cuts long dsRNA into {{c1::<b>siRNAs</b>}}", "Extra": "- RISC then uses one strand, so the mRNA is cleaved"}}]}
+            res = gates.motivacao_autorais(run, plan)[0]
+            self.assertFalse(res[1]); self.assertIn("E3", res[0])  # sem congelar na E3 reprova
+            (run / "etapas").mkdir(); (run / "etapas" / "E3-motivacoes.json").write_text(json.dumps(mot))
+            self.assertTrue(gates.motivacao_autorais(run, plan)[0][1])
+            plan["entries"][1]["motivacao"] = "m9"  # justificado depois
+            self.assertFalse(gates.motivacao_autorais(run, plan)[0][1])
+            plan["entries"][1]["motivacao"] = "m1"
+            self.assertFalse(gates.qualidade_autorais(run, plan)[0][1])  # sem análise de qualidade
+            juiz = {c: f"{c}: julgamento próprio deste card sobre Dicer e siRNA" for c in gates.CRITERIOS_QUALIDADE}
+            (run / "qualidade-autorais.json").write_text(json.dumps({"au-a": dict(juiz, veredito="aprovado")}))
+            self.assertTrue(gates.qualidade_autorais(run, plan)[0][1])
+            plan["entries"][1]["fields"]["Text"] = "<b>siRNAs</b> come from Dicer cutting dsRNA into {{c1::<b>siRNAs</b>}}"
+            self.assertIn("visível", gates.qualidade_autorais(run, plan)[0][0])
+
 
 if __name__ == "__main__":
     unittest.main()
