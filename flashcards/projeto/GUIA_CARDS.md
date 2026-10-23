@@ -1697,15 +1697,15 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 ### Anti-exemplar · note 1791631342791 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
 - **Card antes:** The basal state of eukaryotic transcription is {{c1:: restrictive }} because nucleosomes limit access to DNA
 - **Davi, rodada 1 (2026-10-22):** “uso dsa palavras corretas aqui? essa é a melhor forma de fazer um card com essa info? autorais desse deck ficaram estranho”
-- **Card depois (vivo):** The basal state of eukaryotic transcription is {{c1::restrictive}} because nucleosomes limit access to DNA
-  - **Verso depois:** Transcription usually requires activators to expose regulatory DNA and recruit the transcription machinery.
+- **Card depois (vivo):** Because nucleosomes cover promoters, a eukaryotic gene is {{c1::off}} until activators open its chromatin
+  - **Verso depois:** - In bacteria the default is the opposite: RNA polymerase reaches naked DNA and repressors must stop it
 - **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 
 ### Anti-exemplar · note 1791631343592 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
 - **Card antes:** Interactions between histone {{c1:: N-terminal tails }} help compact nucleosomes into higher-order chromatin
 - **Davi, rodada 1 (2026-10-22):** “cloze num local terrível”
-- **Card depois (vivo):** Interactions between histone {{c1::N-terminal tails}} help compact nucleosomes into higher-order chromatin
-  - **Verso depois:** The positively charged tails contact DNA and neighboring nucleosomes; their modification changes how tightly chromatin is packed.
+- **Card depois (vivo):** Histone N-terminal tails stick out of the nucleosome, so enzymes can {{c1::acetylate}} them and loosen the chromatin
+  - **Verso depois:** - Acetylation neutralizes the lysine positive charge, so the tail grips the DNA less / - Tail-to-tail contacts are what compact nucleosomes into fibers
 - **Análise:** [cloze_local] Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso.
 
 ### Anti-exemplar · note 1791631343842 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
@@ -1732,8 +1732,8 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 ### Anti-exemplar · note 1791631344666 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
 - **Card antes:** Histone tails can be acetylated, methylated, ubiquitinated or {{c1:: phosphorylated }}
 - **Davi, rodada 1 (2026-10-22):** “senti falta nesse deck de um pensamento contínuo para realmente passar por tudo ocm coerência e profundidade”
-- **Card depois (vivo):** Histone tails can be acetylated, methylated, ubiquitinated or {{c1::phosphorylated}}
-  - **Verso depois:** These covalent marks form a regulatory vocabulary read by proteins that open, compact or repair chromatin.
+- **Card depois (vivo):** Histone tail marks and their effect: / - acetylation: {{c1::opens}} chromatin, gene active / - methylation: active or silent, depending on the {{c2::lysine}} marked / - the marks are read by proteins that recruit the next enzymes
+  - **Verso depois:** - So the same histone can carry an on or off message, which reader proteins translate
 - **Análise:** [cobertura] Deck incompleto ou com repetição no conjunto: faltou cobrir o que a aula/quiz ensina ou sobrou o mesmo fato várias vezes. Planejar a cobertura pelo slide antes de escolher cards (pipeline v7). Aqui: Lista de modificações de histona sem pensamento contínuo: nomes soltos, sem dizer o que cada marca faz.
 
 ### Anti-exemplar · note 1791631345241 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
@@ -1762,8 +1762,8 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 ### Anti-exemplar · note 1791631346967 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
 - **Card antes:** Heritable gene-expression states that do not alter the DNA sequence are called {{c1:: epigenetic }} states
 - **Davi, rodada 1 (2026-10-22):** “cloze num local ruim arrumar”
-- **Card depois (vivo):** Heritable gene-expression states that do not alter the DNA sequence are called {{c1::epigenetic}} states
-  - **Verso depois:** DNA methylation and histone marks can be restored after replication, allowing the state to persist through cell divisions.
+- **Card depois (vivo):** Epigenetic states are gene-expression patterns that persist through {{c1::cell division}} without changing the DNA sequence
+  - **Verso depois:** - They are copied by maintenance DNA methylation and by histone marks restored after replication / - This is how a liver cell keeps making liver cells
 - **Análise:** [cloze_local] Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso.
 
 ### Anti-exemplar · note 1791631347092 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
@@ -1901,8 +1901,8 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 ### Anti-exemplar · note 1792082183634 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
 - **Card antes:** After replication, {{c1:: reader–writer complexes }} restore histone marks on new nucleosomes
 - **Davi, rodada 1 (2026-10-22):** “FALTA UM CARD ORGANIZADOR DESSA AULA negrito estou marcando os cards que gosto com x, isso tem que virar exemplar, sempre lido antes de crira um deck fortalecer que autoral é só 30%”
-- **Card depois (vivo):** After replication, {{c1::reader–writer complexes}} restore histone marks on new nucleosomes
-  - **Verso depois:** Parental modified histones are divided between daughter DNA molecules. A reader recognizes the old mark and its linked writer copies that mark onto neighboring new histones.
+- **Card depois (vivo):** After replication, histone marks are restored because a {{c1::reader}} domain binds the old mark and a writer copies it to new nucleosomes
+  - **Verso depois:** - Old histones are split between the two daughter strands, so each daughter keeps a template of the marks
 - **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova).
 
 ### Anti-exemplar · note 1792083296387 (2026-uc03-grand-round-04-paracoccidioidomicose)
