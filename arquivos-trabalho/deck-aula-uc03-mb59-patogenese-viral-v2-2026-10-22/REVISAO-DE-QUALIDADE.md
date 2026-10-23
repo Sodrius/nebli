@@ -1,8 +1,17 @@
-# Revisão de qualidade — 59 Patogênese da infecção viral (23/10)
+# Revisão de qualidade — 59 Patogênese da infecção viral (refação v7, 23/10)
 
-- Despejo vivo lido inteiro (120 notas próprias + 19 associados, 139 na ordem das lâminas da versão III).
-- Antes de instalar: 2 versos com metatexto reescritos; clozes de 'progressiva' e 'persistente' passaram a esconder o nome do padrão; organizadores encurtados (≤ 26 palavras); 16 versos de AnKing sem Extra completados com o porquê.
-- Imagens: 22 do AnKing e 13 recortes das lâminas conferidos (imagens-batem.json).
-- Provas: 2019 P3 3.3, 2025 P3 3.6, 2015 P2 2.4, 2015 P2sub 2.5 e 2017 P3 4.3 respondidas só com o deck (mapa › revisao).
-- Divergências do slide: rinovírus 'receptor: ácido siálico' (lâmina 166) × ICAM-1 (lâmina 127 e fala): deck usa ICAM-1; influenza 'sistêmica' (lâmina 125) × Jawetz e prova 2025 (restrito ao epitélio respiratório): o exemplo sistêmico do deck é o sarampo.
+Davi (23/10): “ficou muito conteúdo lateral e faltou aprofundar no que realmente é o conteúdo da aula”. A v7 refez a corrida pelo passo a passo com gates (E0–E7 em etapas.jsonl) e respondeu à pergunta “o que esta aula ensina?” bloco a bloco antes de mexer em card.
+
+- **O que a aula é:** um mecanismo geral (o que decide se um vírus infecta, por onde se espalha, quanto tempo fica e se adoece). Os vírus são exemplos de mecanismo. A v6 tratou as seções de rinovírus e rotavírus do AnKing como “da aula” e puxou a ficha técnica inteira; a v7 declara `SECOES_DA_AULA = []` com motivo e só deixa o AnKing que responde a um item “aprender”.
+- **Saiu (35 notas apagadas, nenhuma estudada; 9 compartilhados desassociados):** família, segmentos, formato e Na/K do rotavírus; RNA negativo, 8 segmentos e mecanismo de drift do influenza; família, sorotipos, fecal-oral, Peyer, corno anterior e IgA da Sabin dos picornavírus; condiloma, zona de transformação e cordas vocais do HPV; CD21/heterófilo do EBV; HSV-2 sacral; duração da latência clínica e CD4 < 200 do HIV; coronavírus MERS/SARS; gânglio da raiz dorsal da raiva; cards da 57/58 associados só por tema; au-leite, au-rino-nariz, au-balanco.
+- **Ficou porque a aula usa:** sorologia do HBV (HBsAg > 6 meses e anti-HBs), porque a prova 2015 P2 2.4 pede o que as curvas das lâminas 139–140 mostram; rinovírus ácido-lábil e a 33 °C, com o porquê do nariz no verso.
+- **Aprofundou:** au-falha (quinta curva da lâmina 133 e “latência é só dos herpesvírus”), au-rota-duas (diarreia secretória × osmótica, a história da lâmina 157), au-resp-comum com o porquê (superfície), au-viremia pela rota linfática, au-celula-longa com a regra lítico/latente dos herpesvírus, au-imunopatologia pela causa e au-atenuada como contraste — as três últimas eram definições soltas (família “estranho” do GUIA).
+- **Volume por bloco:** nenhum bloco passa de 3 cards por item “aprender” sem motivo (rotavírus tem motivo escrito); cada exemplo tem no máximo os cards do princípio que ilustra; 100% dos cards num item do mapa.
+- **Autorais:** 57, cada um moldado num exemplar real e conferido contra um anti-exemplar real (REVISAO-AUTORAIS.md), com negrito de contexto em todos (lint v7 e conferência no vivo: 0 sem negrito).
+- **Despejo vivo** lido inteiro depois da delta (108 cards próprios + 12 compartilhados, ordem das lâminas da versão III conferida por `nebli.ordem`). Os 5 reescritos estavam com o texto antigo por causa do `correcoes-vivas.json` de negrito; regravados com o texto novo.
+- **Imagens:** 13 recortes das lâminas e as do AnKing que ficaram, conferidos em imagens-batem.json; nenhum card novo precisou de figura.
+- **Referência:** Jawetz cap. 30 (bibliografia da turma) e Trabulsi cap. 77 (livro da UC) lidos; o Trabulsi confirma os quatro parâmetros do tropismo da lâmina 152 e a incubação curta × longa.
+- **Divergências do slide (mantidas):** rinovírus “receptor: ácido siálico” (lâmina 166) × ICAM-1 (lâmina 127 e fala): o deck usa ICAM-1; influenza “sistêmica” (lâmina 125) × Jawetz e prova 2025: o exemplo sistêmico do deck é o sarampo.
 - Tab: pendente (Codex).
+
+Organizadores necessários: sim — a aula compara e enumera o que ela mesma nomeia: padrões (au-padroes), determinantes do padrão (au-dep-padrao) e da doença (au-doenca-dep), modos de lesar (au-manifest), virulência e fatores (au-vir-dep, au-fatores), trajeto (au-dissemina), entéricos (au-entericos), evasão (au-evasao), barreiras (au-barreiras) e, novo, as duas diarreias do rotavírus (au-rota-duas).

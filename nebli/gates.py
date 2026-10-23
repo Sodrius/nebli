@@ -1396,8 +1396,12 @@ def cobertura_anking(run, plan):
             f = run / "busca" / "secoes" / s
             nids = re.findall(r"(?m)^(\d{13})\b", f.read_text(encoding="utf-8")) if f.exists() else ["arquivo-ausente:" + s]
             faltam += [n for n in nids if n not in dentro and n not in fora]
+        # v7 (F-20261023-CLAUDE-02): aula de princípio geral pode não ter seção de recurso do seu assunto; então SECOES_DA_AULA fica
+        # vazia com SECOES_MOTIVO (≥ 60 caracteres) e entra só o AnKing que responde a um item 'aprender' (gate passo_a_passo).
+        sem_secao = versao >= 7 and not secs and len(str(plan.get("secoes_motivo", "")).strip()) >= 60
         out.append((f"[duro] todo AnKing das seções da aula ({len(secs)}) está no deck ou em EXCLUIDOS com motivo"
-                    + (f": faltam {sorted(set(faltam))[:6]}" if faltam else ""), bool(secs) and not faltam))
+                    + (" — aula de princípio geral sem seção própria (SECOES_MOTIVO)" if sem_secao else "")
+                    + (f": faltam {sorted(set(faltam))[:6]}" if faltam else ""), (bool(secs) or sem_secao) and not faltam))
     return out
 
 

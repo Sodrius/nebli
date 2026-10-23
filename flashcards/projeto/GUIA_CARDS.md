@@ -11,23 +11,23 @@ Gerado por `python3 -m nebli.exemplares` (F-20261023-CLAUDE-02/03). **Ler inteir
 
 Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que fazer e quantas vezes Davi apontou o erro. Os exemplares mostram o certo: modelo de função + consequência (azol, HDAC), contraste no mesmo índice com dica (inata/adaptativa, ecto/endotrix), organizador em pé com índices deliberados (tolerância periférica, falhas do sistema imune), verso com o porquê (CTLA-4, GLUT-2) e figura que ensina o que o card cobra.
 
-- **imagem** (73 casos): Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
-- **io** (47 casos): Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
-- **estranho** (29 casos): Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
+- **imagem** (86 casos): Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
+- **estranho** (39 casos): Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 - **negrito** (28 casos): Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7).
+- **porque** (26 casos): Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 - **elogio** (22 casos): Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo).
 - **cloze_local** (19 casos): Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso.
-- **etimologia** (17 casos): Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
-- **organizador** (15 casos): Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova).
-- **cloze_longo** (11 casos): Cloze com palavras demais: difícil de lembrar e de conferir. No máximo 3 palavras no cloze; o resto fica visível ou vai para o verso.
-- **porque** (10 casos): Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
-- **aula** (10 casos): Card da aula errada, fora do escopo ou clínica demais. Cada assunto mora numa aula; clínica lateral ≤ 7%; o deck é o que a aula ensina.
-- **tab** (8 casos): Comentário sobre o Tab (explicação do Codex): Tab vago, em lista ou sem o porquê. Vale para o Tab: do básico ao aprofundamento, em texto corrido.
+- **organizador** (18 casos): Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova).
+- **cloze_longo** (14 casos): Cloze com palavras demais: difícil de lembrar e de conferir. No máximo 3 palavras no cloze; o resto fica visível ou vai para o verso.
+- **aula** (14 casos): Card da aula errada, fora do escopo ou clínica demais. Cada assunto mora numa aula; clínica lateral ≤ 7%; o deck é o que a aula ensina.
+- **io** (13 casos): Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **tab** (9 casos): Comentário sobre o Tab (explicação do Codex): Tab vago, em lista ou sem o porquê. Vale para o Tab: do básico ao aprofundamento, em texto corrido.
 - **dica** (7 casos): Falta dica no cloze quando a pergunta é ambígua (parte do duodeno, fase, ramo de qual artéria). Dica curta no próprio cloze, sem entregar.
 - **repetido** (5 casos): Card repetido ou muito parecido com outro: confunde e gasta revisão. Um fato, um card; o outro aspecto vai no verso ou em card com ganho próprio.
 - **sigla** (4 casos): Sigla sozinha no card ou no cloze. Escrever o nome por extenso com a sigla junto; card tem de fazer sentido sozinho.
 - **cobertura** (3 casos): Deck incompleto ou com repetição no conjunto: faltou cobrir o que a aula/quiz ensina ou sobrou o mesmo fato várias vezes. Planejar a cobertura pelo slide antes de escolher cards (pipeline v7).
-- **cor** (1 casos): Cor errada para a importância (HY rosa, detalhe verde). A cor segue a rubrica: HY 1–2 e pilares verdes, detalhe rosa.
+- **cor** (2 casos): Cor errada para a importância (HY rosa, detalhe verde). A cor segue a rubrica: HY 1–2 e pilares verdes, detalhe rosa.
+- **etimologia** (0 casos): Card de etimologia (prefixo, sufixo, radical): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
 - **outro** (0 casos): Comentário pontual de Davi; ler o literal e aplicar a correção específica.
 
 ## Exemplares (X de Davi)
@@ -251,7 +251,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-03):** “não sei o que é evaginação sacular”
 - **Card depois (vivo):** Diverticul/o indica uma pequena {{c1::bolsa}} que se projeta para fora da parede de um órgão.
   - **Verso depois:** Evaginação sacular significa uma projeção para fora em forma de saco. Um divertículo intestinal comunica-se com o interior do intestino; diverticulite é sua inflamação.
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 
 ### Anti-exemplar · note 1784308057250 (?)
 - **Card antes:** Em disjunção , dis- indica {{c1::separação}} .
@@ -265,7 +265,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-03):** “aqui valeria comparar ecto e exo, pra saber a diferença (esse tipo de coisa ajuda a reter). quando for ver os comentários, não apaga eles, vai mantendo, mesmo que estejam corrigidos, porque daí uma hora reúnos e vemos seus erros mais frequentes”
 - **Card depois (vivo):** Em exocitose, exo- indica movimento para {{c1::fora}} da célula.
   - **Verso depois:** Contraste: exo- indica movimento ou relação para fora; ecto- indica posição/camada externa, como em ectoderma.
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1784308057390 (?)
 - **Card antes:** Em paratireoide , para- indica {{c1::adjacência}} à tireoide.
@@ -286,7 +286,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-03):** “muito avançado com comentário fraco. poderia decompôr a e tresia, para ficar mais didático (não sei se esse card existe no deck, mas o card que estamos conversando em cima apareceu logo no primeiro dia de estudo, então não consegui respondê-lo o cloze também tem muitas respostas”
 - **Card depois (vivo):** Em atresia, a- indica {{c1::ausência}} de uma abertura normal.
   - **Verso depois:** a- = ausência; trēsis = abertura/perfuração. A luz é o espaço interno de um órgão tubular. Na atresia esofágica, a passagem pelo esôfago não é contínua; estenose significa estreitamento.
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1784308059925 (?)
 - **Card antes:** Em eosinófilo , -filo indica {{c1::afinidade pela eosina}} ; eosinofilia indica {{c1::aumento de eosinófilos}} .
@@ -343,7 +343,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 2 (2026-10-05):** “depois que eu fizer um comentário e vc corrigir, é bom colocar o comentário como corrigido, só colocar assim, na linha de baixo após o comentário: CORRIGIDO, data. assim vou saber quais cards o chat já corrigiu”
 - **Card depois (vivo):** {{c2::Anorectal varices}} result from portosystemic shunting between the {{c1::superior rectal}} (portal) and {{c1::middle/inferior rectal}} (systemic) veins
   - **Verso depois:** Superior rectal (portal) meets middle and inferior rectal veins (systemic) / / [IMG nebli-moore-fig-5-75.png]
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1791023294146 (2026-uc08-biologia-tecidual-04-intestinos)
 - **Card antes:** Permanent circular folds of mucosa and submucosa in the small intestine are the {{c1::plicae circulares}}
@@ -390,7 +390,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-03):** “tá faltanod comentário de novo”
 - **Card depois (vivo):** Progenitor cells that migrate down into the gland become {{c1::secretory}} cells, renewed more slowly than surface cells
   - **Verso depois:** - They replace parietal, chief and enteroendocrine cells
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1791034105561 (2026-uc08-anatomia-02-intestino-grosso-canal-anal)
 - **Card antes:** The projection of the terminal ileum into the cecum, closing the ileal orifice with two lips, is the {{c1::ileal papilla}}
@@ -434,7 +434,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-05):** “cada um desses deveria ser um card só, fica confundido as duas infos”
 - **Card depois (vivo):** Em litotripsia, -tripsia indica {{c1::fragmentação}}.
   - **Verso depois:** Litotripsia fragmenta um cálculo em pedaços menores. O termo -clasia é estudado separadamente em osteoclasia.
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [cloze_longo] Cloze com palavras demais: difícil de lembrar e de conferir. No máximo 3 palavras no cloze; o resto fica visível ou vai para o verso.
 
 ### Anti-exemplar · note 1790972069711 (2026-uc08-anatomia-01-esofago-estomago-delgado)
 - **Card antes:** The duodenojejunal flexure is supported by the {{c1:: suspensory muscle }} of the duodenum (ligament of Treitz)
@@ -447,14 +447,14 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Card antes:** (sem texto: estrutura/imagem)
 - **Davi, rodada 1 (2026-10-05):** “cards de estruturas muito similares em anatomia poderiam vir juntos, não sei como seria ao certo para isso ocrrer mas aqui, por exemplo, seria bom se logo em seguida eu fizesse o card de vasos curtos do íleo”
 - **Card depois (vivo):** 
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [aula] Card da aula errada, fora do escopo ou clínica demais. Cada assunto mora numa aula; clínica lateral ≤ 7%; o deck é o que a aula ensina.
 
 ### Anti-exemplar · note 1790979864034 (2026-uc08-biologia-tecidual-03-estrutura-estomago)
 - **Card antes:** The {{c1:: submucosal (Meissner's) }} plexus of the gut wall primarily controls secretion and blood flow
 - **Davi, rodada 1 (2026-10-05):** “imagem zuada, mas esse mnemônico é ótimo esses comentários, é bom que tenha aquele "CORRIGIDO, data.", porque daí daqui um tempo teremos uma base de dados boa para calibração fina de criação de cards com IA”
 - **Card depois (vivo):** The {{c1::submucosal (Meissner's)}} plexus of the gut wall primarily controls secretion and blood flow
   - **Verso depois:** - Submucosal: Secretion / - Myenteric: Motility / / [IMG wl-meissner.jpg]
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1790979866060 (2026-uc08-biologia-tecidual-03-estrutura-estomago)
 - **Card antes:** This is a magnified image of {{c1::antral/pyloric stomach}}
@@ -467,7 +467,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Card antes:** (sem texto: estrutura/imagem)
 - **Davi, rodada 1 (2026-10-05):** “esse cloze poderia ser substituído por um feito de forma manual, só com "duodeno", para ficar mais atômico anotar feedback que isso é possível e arrumar aqui”
 - **Card depois (vivo):** 
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [cloze_longo] Cloze com palavras demais: difícil de lembrar e de conferir. No máximo 3 palavras no cloze; o resto fica visível ou vai para o verso.
 
 ### Anti-exemplar · note 1790980912277 (2026-uc08-biologia-tecidual-04-intestinos)
 - **Card antes:** (sem texto: estrutura/imagem)
@@ -496,7 +496,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-05):** “esse comentário do tab com 1, 2 3 e 4 não gostei dá para achar formas melhores de explicar com storytelling”
 - **Card depois (vivo):** Pepsinogen is secreted in response to {{c1::vagal stimulation}} and {{c2::local H+}}
   - **Verso depois:** - Vagal acetylcholine stimulates chief cells to release pepsinogen. / - Luminal acid also stimulates secretion through local reflexes and converts pepsinogen into pepsin.
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [tab] Comentário sobre o Tab (explicação do Codex): Tab vago, em lista ou sem o porquê. Vale para o Tab: do básico ao aprofundamento, em texto corrido.
 
 ### Anti-exemplar · note 1791023352819 (2026-uc08-biologia-tecidual-03-estrutura-estomago)
 - **Card antes:** The only lingual papillae without taste buds are the keratinized {{c1::filiform}} papillae
@@ -505,7 +505,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 2 (2026-10-15):** “faltou comentário do porquê”
 - **Card depois (vivo):** The only lingual papillae without taste buds are the {{c1::filiform}} papillae
   - **Verso depois:** [IMG tg-filiform.jpg] / - They are keratinized and roughen the tongue to grip and move food; their role is mechanical, so they need no taste buds
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1791023353318 (2026-uc08-biologia-tecidual-03-estrutura-estomago)
 - **Card antes:** The cheeks, soft palate and floor of the mouth have {{c1::lining}} mucosa, with nonkeratinized epithelium
@@ -579,7 +579,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 2 (2026-10-13):** “imagem ruim, também faltou explicar a diferença entre mucous cells e goblet cells”
 - **Card depois (vivo):** Mucous cells stain pale on H&E because their granules hold hydrophilic {{c1::mucins}}
   - **Verso depois:** - Intestinal goblet cells look the same, but each one is a single mucous cell scattered in an epithelium
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1791023357918 (2026-uc08-biologia-tecidual-03-estrutura-estomago)
 - **Card antes:** Near the stomach, esophageal {{c1::cardiac}} glands in the lamina propria add mucus
@@ -603,7 +603,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 2 (2026-10-13):** “comentário estranho”
 - **Card depois (vivo):** Pepsinogen (inactive) is converted into {{c1::pepsin}} (active) in the presence of {{c2::H+}}
   - **Verso depois:** - Pepsin then activates more pepsinogen (autocatalysis)
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1790999832528 (2026-uc08-fisiologia-09-motilidade-ii)
 - **Card antes:** Slow waves originate in the {{c1:: interstitial cells of Cajal }}, which serve as the pacemaker for GI smooth muscle
@@ -738,7 +738,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-13):** “de novo, a imagem contém tudo que deveria ter aqui, mas está genérica o comentário também ficou abaixo da imagem, o que é ruim”
 - **Card depois (vivo):** Gallstones that reach the confluence of the common bile and pancreatic ducts at the {{c1::hepatopancreatic ampulla}} can block both ducts (double-duct sign) causing cholangitis and pancreatitis
   - **Verso depois:** - Jaundice plus gallstone pancreatitis / / [IMG an-ampulla.jpg]
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1790972069911 (2026-uc08-anatomia-01-esofago-estomago-delgado)
 - **Card antes:** The jejunum makes up the proximal {{c1:: two-fifths }} of the small intestine beyond the duodenum
@@ -760,7 +760,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-13):** “imagem ruim mt info uma boa imagem tem pouco informação, mas direcionada em específico para o card que contribui excesso de ; e : no comentário”
 - **Card depois (vivo):** Compared with the ileum, the jejunum has a {{c1::thicker::thicker / thinner}} wall and a larger caliber
   - **Verso depois:** - Also taller plicae and redder color / - Ileum: thinner, paler, more mesenteric fat
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1790972071259 (2026-uc08-anatomia-01-esofago-estomago-delgado)
 - **Card antes:** Meckel diverticulum arises due to persistence of the {{c1::vitelline duct}}
@@ -826,7 +826,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-13):** “card estranho + comentário estranho esses estranhos não sei bem o que são, mas quero manter o conteúdo e trocar o card”
 - **Card depois (vivo):** The gastric hormone that increases appetite is {{c1::ghrelin}}
   - **Verso depois:** - Made by enteroendocrine cells of the gastric fundus/body / - Also stimulates GH release
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1790980015534 (2026-uc03-microbiologia-35-patogenicidade-bacteriana)
 - **Card antes:** H. pylori produces {{c1::urease::enzyme}}, which alkalinizes the local environment, enabling bacterial survival
@@ -840,7 +840,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-13):** “card dá a impressão de que é só assim o que é errado há outras formas de secretar muco”
 - **Card depois (vivo):** In the duodenum, submucosal {{c1::Brunner}} glands secrete alkaline mucus that neutralizes gastric acid
   - **Verso depois:** [IMG e4793eaf6f95edad5055c9014b757e35.png] / / Only the duodenum has glands in the submucosa (besides the esophagus) / - Mucus is also made by goblet cells along the intestine and by surface mucous cells in the stomach
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 
 ### Anti-exemplar · note 1790980914355 (2026-uc08-biologia-tecidual-04-intestinos)
 - **Card antes:** The villi and plicae in this H&E section identify the {{c1:: small intestine }}
@@ -932,7 +932,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-13):** “imagem poderia ser memlhor e mais direcionada especificamente ao conteúdo do card”
 - **Card depois (vivo):** Rectal distension triggers a sacral reflex through the {{c1::pelvic}} nerves that contracts the rectum and relaxes the internal anal sphincter
   - **Verso depois:** - External anal sphincter (pudendal, voluntary) decides when
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1791000311952 (2026-uc08-fisiologia-05-digestao-absorcao-nutrientes)
 - **Card antes:** Enterocytes absorb dietary {{c1:: heme }} intact, with its iron still inside the {{c2:: porphyrin }} ring
@@ -967,14 +967,14 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-13):** “comentário não anking card com escrita estranha: acid releases secretin”
 - **Card depois (vivo):** In the duodenum, acid releases {{c1::secretin}}, which also stimulates pepsinogen secretion by chief cells
   - **Verso depois:** - Minor route; secretin mainly inhibits acid secretion
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1791023299366 (2026-uc08-biologia-tecidual-04-intestinos)
 - **Card antes:** Paneth cells have large apical {{c1:: eosinophilic }} secretory granules
 - **Davi, rodada 1 (2026-10-13):** “card com informação não storytelling: não aprendo nada, só decoro algo meio inutil”
 - **Card depois (vivo):** Paneth cells at the crypt base store {{c1::lysozyme}} and defensins in large eosinophilic granules, protecting the stem cells
   - **Verso depois:** Granules hold lysozyme, phospholipase A2 and defensins / / / / [IMG bt04-paneth.png]
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 
 ### Anti-exemplar · note 1791023303193 (2026-uc08-biologia-tecidual-04-intestinos)
 - **Card antes:** Goblet cells of the large intestine become more numerous toward the {{c1:: rectum }}
@@ -1004,7 +1004,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-13):** “imagem zuada em vários cards, vou pagar de avisar”
 - **Card depois (vivo):** About two-thirds of all saliva comes from the {{c1::submandibular}} glands
   - **Verso depois:** - Mixed gland, mostly serous / / [IMG 392281736e881dcc1c4cfebdbd375f80.jpg]
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1791023355569 (2026-uc08-biologia-tecidual-03-estrutura-estomago)
 - **Card antes:** Serous cells are grouped into round secretory units called {{c1:: acini }}
@@ -1046,7 +1046,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-13):** “comentário zuado nesse estilo”
 - **Card depois (vivo):** The esophageal glands, which secrete lubricating mucus, lie in the {{c1::submucosa}}
   - **Verso depois:** [IMG wl-esoph-gland.jpg]
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1791023359842 (2026-uc08-biologia-tecidual-03-estrutura-estomago)
 - **Card antes:** The pyloric sphincter is a thickening of the {{c1:: middle circular }} layer of the gastric muscularis
@@ -1081,7 +1081,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-13):** “nesse caso, o (inflammation) pode vir no comentário a explicação no card não fica tão legal sei que é anking, mas é um padrão que gostaria de anotar pros autorais saberem”
 - **Card depois (vivo):** Histology of type 1 diabetes mellitus demonstrates islets with {{c1::leukocytic infiltrate}}
   - **Verso depois:** [IMG ba7dd1c2a1a69819d61732128b2ccec5.jpg][IMG 22993d36835f411dc6956c53337acb76.webp] / / T cells and macrophages invade the islets in type 1 / / [IMG nebli-robbins-fig-24-33a.png]
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1791557940633 (2026-uc03-microbiologia-43-biologia-fungos)
 - **Card antes:** {{c1:: Yeasts::Yeasts/Molds }} form creamy, pasty colonies, whereas {{c1:: molds::ye asts/molds }} form cottony, velvety or powdery ones
@@ -1253,7 +1253,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-15):** “um bom comentário explicaria o porquê ao invés de só falar que deriva”
 - **Card depois (vivo):** Induced Tregs develop from naive CD4+ T cells exposed to TGF-β plus {{c1::retinoic acid}}
   - **Verso depois:** - Retinoic acid derives from vitamin A / - Gut dendritic cells make retinoic acid, so induced Tregs arise mainly in the intestine and keep tolerance to food and commensal bacteria
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1791626776253 (2026-uc03-microbiologia-44-micoses-cutaneas)
 - **Card antes:** Sites infected by each dermatophyte genus: Skin Hair Nails Trichophyton ✓ ✓ ✓ Microsporum ✓ {{c1::✓}} {{c1::✗}} Epidermophyton ✓ {{c2::✗}} {{c2::✓}}
@@ -1397,7 +1397,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “CARD com boa ideia, mas mal aplicada”
 - **Card depois (vivo):** Glucose uptake by SGLT1 activates myosin light chain kinase, which opens the {{c1::paracellular}} pathway so water and nutrients follow
   - **Verso depois:** Glucose absorption opens the paracellular route, adding solvent drag / / [IMG nebli-uc08-fi05-s12.png] / - MLCK = myosin light chain kinase, which regulates the perijunctional actomyosin ring.
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 
 ### Anti-exemplar · note 1791023298343 (2026-uc08-biologia-tecidual-04-intestinos)
 - **Card antes:** Enterocytes keep {{c1:: disaccharidases }} and {{c1:: peptidases }} in the glycocalyx, finishing digestion at the brush border
@@ -1418,7 +1418,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “seria bom explicar no comentário que esse é o fator de virulência”
 - **Card depois (vivo):** In dimorphic fungi, the yeast phase at 37 °C has more {{c1::α-glucan}} in its wall than the mold phase
   - **Verso depois:** - Mold phase (25 °C): more β-glucan / - Virulence factor: the outer α-glucan layer hides β-glucan from the macrophage receptor dectin-1, so the yeast is recognized less
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1791575026219 (2026-uc08-fisiologia-09-motilidade-ii)
 - **Card antes:** In the pharyngeal phase , a peristaltic wave of the {{c1:: pharyngeal constrictors }} pushes the bolus toward the esophagus
@@ -1503,7 +1503,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “falando desse deck como um todo: excesso de cards autorais de baixa qualidade, com cloze em palavras que não são as mais específicas a serem decoradas sinto que faltou informação no deck como um todo, para cobrir a aula é necessário se perguntar, para um card autoral: isso aqui agrega algo no conhecimento ou está só para ficar bonito? existem formas boas e ruins de criar cards autorais os do anking são melhores”
 - **Card depois (vivo):** Regulated genes, such as alcohol dehydrogenase in the liver, are expressed only in certain {{c1::cell types}} or times
   - **Verso depois:** - They act as markers of differentiation
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 
 ### Anti-exemplar · note 1791627548276 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i)
 - **Card antes:** The TATA-binding protein , which recognizes the TATA box, is a subunit of the general factor {{c1:: TFIID }}
@@ -1517,14 +1517,14 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “COMENTÁRIO RUIM”
 - **Card depois (vivo):** In an RNA polymerase II promoter, the BRE beside the TATA box is recognized by {{c1::TFIIB}}
   - **Verso depois:** TFIIB binds the BRE and helps position RNA polymerase II at the transcription start site; INR and DPE are recognized by TFIID.
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1791627548775 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i)
 - **Card antes:** Several activators on one enhancer give more than the sum of their separate effects, which is called {{c1:: synergy }}
 - **Davi, rodada 1 (2026-10-22):** “boa ideia de card bom comentário porém, o card em si está escrito de forma estranha”
 - **Card depois (vivo):** Several activators on one enhancer give more than the sum of their separate effects, which is called {{c1::synergy}}
   - **Verso depois:** - Two activators together give far more than the sum of each alone
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1791627548902 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i)
 - **Card antes:** The yeast activator {{c1:: Gal4 }} turns on the genes that metabolize galactose
@@ -1587,7 +1587,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “card hy rosa, tem q ser verde comentário só repete o card poderia ser tanta coisa: pq ele é assim, o que causa, alguma relação dele com qualquer coisa útil”
 - **Card depois (vivo):** {{c2::Actinomyces}} is a(n) {{c1::obligate anaerobe::obligate aerobe or anaerobe}} that is typically found in the gums and causes dental abscesses
   - **Verso depois:** Actinomyces grows in low-oxygen gingival crevices; disruption of the mucosa lets it invade contiguous tissue and form dental or cervicofacial abscesses. Unlike Nocardia, it is anaerobic.
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [cor] Cor errada para a importância (HY rosa, detalhe verde). A cor segue a rubrica: HY 1–2 e pilares verdes, detalhe rosa.
 
 ### Anti-exemplar · note 1791628676621 (2026-uc03-microbiologia-48-micoses-subcutaneas)
 - **Card antes:** Jorge Lobo disease produces {{c1:: keloid }}-like skin nodules
@@ -1622,7 +1622,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “- CD28: receptor coestimulador dos linfócitos T. - CD40: receptor presente nos linfócitos B e em outras células apresentadoras de antígeno (APCs). - CD80/CD86 (B7): ligantes de CD28, expressos pelas APCs. - CD40L (CD154): ligante de CD40, expresso principalmente por linfócitos T CD4+ ativados”
 - **Card depois (vivo):** B-cell activation begins with presentation of foreign antigen on {{c1::MHC II}}, which is recognized by a T-cell receptor
   - **Verso depois:** - Signal 1 is TCR–MHC II; signal 2 is costimulation / - CD28: costimulatory receptor of T cells / - CD80/CD86 (B7): ligands of CD28, expressed by APCs / - CD40: receptor on B cells and other APCs / - CD40L (CD154): ligand of CD40, mainly on activated CD4+ T cells
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [cloze_longo] Cloze com palavras demais: difícil de lembrar e de conferir. No máximo 3 palavras no cloze; o resto fica visível ou vai para o verso.
 
 ### Anti-exemplar · note 1791629593422 (2026-uc03-imunologia-49-ativacao-celulas-b)
 - **Card antes:** Pneumococcal conjugate vaccine for children produces an Ig{{c1::G}} response
@@ -1678,14 +1678,14 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “o comentário deveria dar uma ideia dar uma ideia do porquê todos os comentários que deixo aqui tem que ir para os exemplares e antiexemplares dos cards”
 - **Card depois (vivo):** After a lung infection, Cryptococcus shows marked tropism for the {{c1::meninges}}
   - **Verso depois:** - Why the CNS: the capsule lets the yeast survive in the blood, it crosses the blood–brain barrier (directly or inside macrophages), and the CSF has little complement and few phagocytes / - Brain catecholamines also feed its melanin, which protects it from oxidative killing / - It causes meningitis 
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1791630910669 (2026-uc03-microbiologia-50-micoses-sistemicas)
 - **Card antes:** {{c1:: India ink }} stain outlines the heavy capsule that surrounds {{c2:: Cryptococci }} fungi, giving it a unique "{{c1:: halo }}" appearance
 - **Davi, rodada 1 (2026-10-22):** “tem que ter no comentário a tradução disso, que é outro nome (nanquim)”
 - **Card depois (vivo):** {{c1::India ink}} stain outlines the heavy capsule that surrounds {{c2::Cryptococci}} fungi, giving it a unique "{{c1::halo}}" appearance
   - **Verso depois:** [IMG 6844923e23e97a5afd182b9ea0b457d2.jpg][IMG 9d1788feb193de739c5a0e9be49e95f3.jpg][IMG f91dd421a8fdf654c5e3cfba6363525d.webp] / / - Used on CSF / - India ink is the same stain called nanquim (tinta da China) in Portuguese
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1791630910843 (2026-uc03-microbiologia-50-micoses-sistemicas)
 - **Card antes:** Which fungus is urease -positive? {{c1:: Cryptococcus neoformans }}
@@ -1748,7 +1748,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “card falta realmente ajudar num processo, onde isso se encaixa”
 - **Card depois (vivo):** {{c1::DNA methyltransferases}} use SAM to methylate cytosine at CpG sites, helping establish or maintain transcriptional silencing
   - **Verso depois:** Methylated CpGs recruit proteins that cooperate with HDACs and histone methyltransferases, linking the DNA mark to compact chromatin.
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 
 ### Anti-exemplar · note 1791631346842 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
 - **Card antes:** Methylated cytosines silence genes by recruiting histone deacetylases and nucleosome {{c1:: remodelers }}
@@ -1757,7 +1757,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 2 (2026-10-23):** “comentário poderia explicar o que é cada um dos clozes”
 - **Card depois (vivo):** Methylated cytosines silence genes by recruiting {{c1::histone deacetylases}} and nucleosome {{c1::remodelers}}
   - **Verso depois:** - Histone deacetylases remove acetyl groups, so histones grip the DNA tightly / - Nucleosome remodelers slide nucleosomes over the promoter and hide it / - Methylated CpG islands also attract histone methyltransferases
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1791631346967 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
 - **Card antes:** Heritable gene-expression states that do not alter the DNA sequence are called {{c1:: epigenetic }} states
@@ -1841,7 +1841,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “comentário ruim sem imagem”
 - **Card depois (vivo):** Safer drugs generally have a {{c1::higher therapeutic index}}
   - **Verso depois:** TI = TD₅₀/ED₅₀: a larger separation between toxic and effective doses gives a wider safety margin. / / [IMG Screen Shot 2022-06-26 at 12.49.57 PM.jpg]
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1791762425949 (2026-uc19-farmacologia-01-introducao-mecanismos)
 - **Card antes:** Quantal dose–response curves plot the percentage of individuals showing the therapeutic, toxic and {{c1:: lethal }} effect at each dose
@@ -1855,7 +1855,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “quando for assim, coloca só o gráfico que quiser cobrar, quebra ao meio a imagem assim fica mais atômico”
 - **Card depois (vivo):** [IMG fa01-g-antagonismo-nao-competitivo.png] / Which type of antagonism lowers the maximal response even at high agonist doses? {{c1::Noncompetitive}}
   - **Verso depois:** - The antagonist removes functional receptors, so adding agonist cannot restore the maximum (Emax falls) / - A competitive antagonist instead shifts the curve to the right and the maximum is reached again
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1791826294319 (2026-uc19-farmacologia-01-introducao-mecanismos)
 - **Card antes:** Which curves determine the therapeutic index ? {{c1:: Therapeutic and toxic }}
@@ -1869,7 +1869,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “mt info num card só”
 - **Card depois (vivo):** In chronic inflammation, activated macrophages secrete {{c1::IL-12}}, which drives T cells toward Th1
   - **Verso depois:** - Each cell keeps the other active, so immune-driven inflammation tends to be persistent and severe / [IMG pt62-macrofago-linfocito.png]
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 
 ### Anti-exemplar · note 1791984889849 (2026-uc03-patologia-61-patologia-infeccao-viral)
 - **Card antes:** Which defenses act in each phase of a viral infection ? 1) acute phase: {{c1:: NK cells }}, {{c1:: macrophages }}, complement and barriers 2) subacute and chronic phases: {{c2:: T cells }}, {{c2:: B c
@@ -1882,7 +1882,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “BOA IDEIa, mas mal aplicada”
 - **Card depois (vivo):** Superficial × cutaneous mycoses: / 1. Superficial — limited to the {{c1::stratum corneum}} or hair surface, with little inflammation / 2. Cutaneous — fungi digest {{c1::keratin}} in skin, hair or nails and provoke inflammation
   - **Verso depois:** Subcutaneous mycoses are implanted beneath the skin; systemic mycoses are usually acquired by inhalation.
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 
 ### Anti-exemplar · note 1792065183130 (2026-uc03-microbiologia-50-micoses-sistemicas)
 - **Card antes:** Agents of endemic systemic mycoses share three features: 1. Defined {{c1:: geographic distribution }} 2. Environmental reservoir in {{c2:: soil }} 3. Entry through the {{c3:: airways }}
@@ -1917,7 +1917,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “comentário poderia mencionar o porquê, de forma sucinta, sem ser como foi”
 - **Card depois (vivo):** {{c1::Autoimmune}} disorders are associated with polymorphisms in the PTPN22 gene
   - **Verso depois:** A gain-of-function PTPN22 variant dampens antigen-receptor signaling. Autoreactive lymphocytes may then receive too little signal for deletion or other tolerance checkpoints, increasing autoimmune risk.
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1792166988890 (2026-uc03-imunologia-51-disturbios-sistema-imune)
 - **Card antes:** What is the most common primary immunodeficiency ? {{c1::Selective IgA deficiency}}
@@ -1994,7 +1994,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “num card assim, pode ter no comentário alguma informação dessa área, tipo o que é somestésica”
 - **Card depois (vivo):** O giro {{c1::pós}}-central é a área {{c2::somestésica}} primária (lobo parietal)
   - **Verso depois:** - Área somestésica: relativa à sensibilidade somática (tato, dor, temperatura e propriocepção); corresponde ao córtex somatossensitivo primário (áreas 3, 1 e 2 de Brodmann). / / [IMG e471a62e6fae4d390299a1d3bc903a36.png]
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
 
 ### Anti-exemplar · note 1792264998268 (2026-uc07-introducao-ao-sistema-nervoso-sistema-nervoso-periferico-nervos-ganglios-e-plexos)
 - **Card antes:** Qual estrutura a seta indica? {{c1::Raiz posterior}}
@@ -2048,7 +2048,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “card fora da formatação anking clássico”
 - **Card depois (vivo):** O espaço {{c1::subaracnóideo}} contém líquido cerebrospinal e separa a aracnoide da pia-máter
   - **Verso depois:** [IMG kh-arachnoidea-mater-spinalis.jpg]
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 
 ### Anti-exemplar · note 1792329943440 (2026-uc07-medula-espinal-nervos-espinais)
 - **Card antes:** A síndrome da {{c1::cauda equina}} é uma lesão por compressão das raízes espinais de {{c2::L2}} para baixo
@@ -2083,7 +2083,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “ao invés de sensitivo é bom usar aferente”
 - **Card depois (vivo):** Os axônios aferentes entram na medula espinal pela raiz {{c1::posterior}} do nervo espinal
   - **Verso depois:** Aferente descreve a direção em relação ao SNC; essas fibras conduzem informação somática ou visceral da periferia ao sistema nervoso central. / / [IMG kh-nervus-spinalis.jpg]
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [aula] Card da aula errada, fora do escopo ou clínica demais. Cada assunto mora numa aula; clínica lateral ≤ 7%; o deck é o que a aula ensina.
 
 ### Anti-exemplar · note 1792330094311 (?)
 - **Card antes:** Os corpos dos neurônios motores somáticos ficam no corno anterior da {{c1:: substância cinzenta }} da medula espinal
@@ -2104,7 +2104,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “pode ter mais de um cloze por card estilo tópico assim economizamos cards”
 - **Card depois (vivo):** O tronco encefálico é formado por: / 1. {{c1::Mesencéfalo}} / 2. {{c2::Ponte}} / 3. {{c3::Bulbo}}
   - **Verso depois:** [IMG kh-brainstem.jpg]
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova).
 
 ### Anti-exemplar · note 1792338715108 (?)
 - **Card antes:** (sem texto: estrutura/imagem)
@@ -2150,7 +2150,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-22):** “ao invés de sensitivo é bom usar aferente”
 - **Card depois (vivo):** Os axônios aferentes entram na medula espinal pela raiz {{c1::posterior}} do nervo espinal
   - **Verso depois:** Aferente descreve a direção em relação ao SNC; essas fibras conduzem informação somática ou visceral da periferia ao sistema nervoso central. / / [IMG kh-nervus-spinalis.jpg]
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [aula] Card da aula errada, fora do escopo ou clínica demais. Cada assunto mora numa aula; clínica lateral ≤ 7%; o deck é o que a aula ensina.
 
 ### Anti-exemplar · note 1792588686966 (2026-uc07)
 - **Card antes:** Os corpos dos neurônios motores somáticos ficam no corno anterior da {{c1:: substância cinzenta }} da medula espinal
@@ -2193,7 +2193,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 2 (2026-10-23):** “(Claude): figura trocada por uma vista do encéfalo em que se vê o cerebelo atrás do tronco, na fossa posterior”
 - **Card depois (vivo):** O cerebelo fica posterior à ponte e ao bulbo, na fossa {{c1::posterior}} do crânio
   - **Verso depois:** [IMG kh-cerebellum.jpg]
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1792588687019 (2026-uc07)
 - **Card antes:** O córtex cerebelar tem três camadas: {{c1::molecular}} (externa), de {{c2::Purkinje}} (média) e {{c1::granulosa}} (interna)
@@ -2238,7 +2238,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-23):** “fazer uma lista dos inibidores e potenciadores da PCYP450, daí vira card conexão”
 - **Card depois (vivo):** Phenobarbital induces CYP enzymes and so {{c1::reduces}} the anticoagulant effect of warfarin
   - **Verso depois:** - Phenytoin and carbamazepine are also potent inducers
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova).
 
 ### Anti-exemplar · note 1792065187180 (2026-uc03-grand-round-04-paracoccidioidomicose)
 - **Card antes:** Clinical forms of paracoccidioidomycosis : - {{c1:: chronic adult }} form: about 90%, mostly men, lungs and mucosa - {{c2:: acute juvenile }} form: 3–5%, most severe, lymph nodes, liver and spleenc
@@ -2266,14 +2266,14 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-23):** “imagem (Claude): figura trocada pelos cortes da medula por nível (corno anterior grande nas intumescências)”
 - **Card depois (vivo):** Se o corno anterior é grande, o nível da medula espinal está entre {{c1::C5}} e {{c1::T1}} ou {{c1::L2}} e {{c1::S2}}
   - **Verso depois:** - C5–T1 e L2–S2 são as intumescências: neurônios motores dos membros / / [IMG 393da414ecb28c7a423c83bfa7a1ccea.jpg]
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Anti-exemplar · note 1792572870673 (2026-uc07-medula-espinal-nervos-espinais)
 - **Card antes:** (sem texto: estrutura/imagem)
 - **Davi, rodada 1 (2026-10-23):** “poderia colocar a altura aqui no cloze entre parênteses”
 - **Card depois (vivo):** [estrutura com seta] Intumescência cervical (C4–T1)
   - **Verso depois:** [IMG kh-cervical-enlargement.jpg]
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.
+- **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova).
 
 ### Anti-exemplar · note 1792588686967 (2026-uc07)
 - **Card antes:** A sinapse entre os neurônios pré e pós-ganglionares ocorre no gânglio {{c1::autônomo}}, onde ficam os corpos dos neurônios pós-ganglionares
@@ -2294,7 +2294,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-23):** “um card tem que fazer sentido sozinho isso do E não faz sentido sozinho”
 - **Card depois (vivo):** Hepatic clearance depends on the extraction ratio (fraction removed in one pass): / - high-extraction drugs (lidocaine): {{c1::blood flow}} / - low-extraction drugs (warfarin): {{c2::enzyme activity}}
   - **Verso depois:** - A high-extraction liver clears almost all that arrives, so only more flow clears more / - A low-extraction liver is limited by its enzymes and by the free fraction
-- **Análise:** [etimologia] Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter. Aqui: Símbolo 'E' sem definição: card não faz sentido sozinho (gate v7: símbolo de uma letra).
+- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares. Aqui: Símbolo 'E' sem definição: card não faz sentido sozinho (gate v7: símbolo de uma letra).
 
 ### Anti-exemplar · note 1792657543181 (2026-uc19-farmacologia-02-farmacocinetica-i)
 - **Card antes:** An organ cannot clear more than the blood that reaches it, so its clearance is capped by its {{c1:: blood flow }}
@@ -2315,7 +2315,7 @@ Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que faz
 - **Davi, rodada 1 (2026-10-23):** “faltou falar que era sobre embrio”
 - **Card depois (vivo):** Embryonic origin of the gut wall layers: / - epithelium and glands: {{c1::endoderm}} / - muscle, connective tissue, serosa: {{c1::splanchnic mesoderm}}
   - **Verso depois:** - Splanchnic mesoderm lines the gut, while somatic mesoderm lines the body wall / [IMG langman-15-3.png]
-- **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado. Aqui: Organizador de embriologia sem dizer que é embriologia na frente (gate v7: contexto embriológico).
+- **Análise:** [aula] Card da aula errada, fora do escopo ou clínica demais. Cada assunto mora numa aula; clínica lateral ≤ 7%; o deck é o que a aula ensina. Aqui: Organizador de embriologia sem dizer que é embriologia na frente (gate v7: contexto embriológico).
 
 ### Anti-exemplar · note 1792659587475 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas)
 - **Card antes:** The septum transversum is splanchnic mesoderm that forms the central tendon of the {{c1:: diaphragm }} and receives the {{c1:: liver }}

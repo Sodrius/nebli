@@ -49,7 +49,7 @@ EXEMPLARES = {
 
 # ---- ANTI-EXEMPLARES: famílias de erro (por que é ruim / o que fazer) ----
 FAMILIAS = {
- "etimologia": "Card de etimologia antigo (fora dos decks-aula): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.",
+ "etimologia": "Card de etimologia (prefixo, sufixo, radical): termo vago ou impreciso ('x ou y', definição errada, avançado sem explicação). Lição geral: uma palavra no cloze, definição exata e comparação quando ajuda a reter.",
  "imagem": "Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).",
  "negrito": "Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7).",
  "cloze_longo": "Cloze com palavras demais: difícil de lembrar e de conferir. No máximo 3 palavras no cloze; o resto fica visível ou vai para o verso.",
@@ -77,15 +77,20 @@ REGRAS = [  # (família, regex no comentário literal) — a primeira que casar
  ("cloze_longo", r"mt grande|mt info no mesmo|muitas palavras|mts palavras|cloze mt|com mt info|mais de 4 palavras"),
  ("cloze_local", r"cloze (num|no) (local|lugar)|cloze zuado|local terr|local ruim|resposta (nele|no card|por oposição|tava no card)|entrega|cloze aqui|cloze em algo|cloze .*fácil|abstrat"),
  ("dica", r"dica"),
- ("io", r"seta|cloze me atrapalha|cloze obstrui|IO|indicação da estrutura|cloze escondendo|cloze não tem seta"),
+ ("io", r"\bseta|cloze me atrapalha|cloze obstrui|(?-i:\bIO\b)|indicação da estrutura|cloze escondendo|cloze não tem seta"),
  ("imagem", r"imag|foto|IMAGEM|visual"),
  ("tab", r"\btab\b"),
  ("repetido", r"repetid|igual a esse|parecido|mesma coisa"),
  ("cor", r"rosa|verde"),
- ("porque", r"porqu|explica|comentário|explicação"),
+ ("porque", r"porqu|explica|\bcomentário|explicação|comparar"),
  ("cobertura", r"incompleto|não cobriu|faltou coisa|pensamento contínuo"),
  ("estranho", r"estranh|ruim|zuad|mal feito|mal escrito|não ensina|storytelling|não compreendi|o que isso|inutil|incoerente|melhorar|não ficou claro|bobo"),
- ("etimologia", r"."),
+ ("estranho", r"mal aplicada|pode melhorar|aprofundar|mais profundo|card que explica mais|mt info num card|fora da formatação|sentido sozinho|não compreendo|não sei o que é|avançado|baixa qualidade|ajudar num processo|impressão de que é só"),
+ ("aula", r"sobre embrio|ao invés de sensitivo|cloze de forma manual|vasos curtos"),
+ ("organizador", r"lista dos|card conexão|altura aqui no cloze|mais de um cloze por card"),
+ ("cloze_longo", r"deveria ser um card só|forma manual|receptor coestimulador"),
+ ("etimologia", r"\bx ou y\b|prefixo|sufixo|radical|-trofia|evaginação"),
+ ("outro", r"."),
 ]
 # Observação própria nos casos mais instrutivos (o literal de Davi está no arquivo gerado).
 NOTAS = {

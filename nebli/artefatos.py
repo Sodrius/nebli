@@ -241,6 +241,8 @@ def entrega(run: Path, pasta: str, nome: str, slides: str | None):
     uc = re.search(r"-(uc\d+)-", plan["lesson_id"]).group(1).upper()
     _run([PY, "-m", "nebli.entrega", pasta, "--nome", nome] + (["--slides", slides] if slides else []), keep=re.compile(r"ok:|erro|Error", re.I))
     out = ROOT / "arquivos-trabalho" / f"pacote-{uc.lower()}-{time.strftime('%Y-%m-%d')}" / f"NEBLI - {uc}.apkg"
+    if out.parent.exists() and any(out.parent.iterdir()):  # 23/10: segunda entrega no mesmo dia (package_uc exige pasta nova)
+        out = out.parent.with_name(out.parent.name + time.strftime("-%H%M")) / out.name
     out.parent.mkdir(parents=True, exist_ok=True)
     _run([PY, "-m", "nebli.package_uc", "--uc", uc, "--output", str(out)], keep=None)
     _run([PY, "-m", "nebli.entrega", pasta, "--nome", nome, "--uc-apkg", str(out)], keep=re.compile(r"erro|Error|apkg", re.I))
