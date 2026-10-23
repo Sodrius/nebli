@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1104" height="708">
+ <g>
+  <title>Labels</title>
+ </g>
+ <g>
+  <title>Masks</title>
+  <rect id="io-seg-1-o0" x="764.7" y="278.5" width="25.7" height="41.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-seg-1-o1" x="281.9" y="250.9" width="44.9" height="41.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-seg-1-o2" x="268.8" y="384.0" width="36.9" height="41.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-seg-1-o3" x="467.5" y="460.3" width="28.8" height="41.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-seg-1-o4" x="630.9" y="418.5" width="36.9" height="41.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-seg-1-o5" x="771.9" y="452.5" width="33.7" height="41.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-seg-1-o6" x="491.5" y="187.1" width="53.0" height="41.7" stroke="#2D2D2D" fill="#FFEBA2"/>
+  <rect id="io-seg-1-t0" x="540.0" y="619.2" width="184.8" height="43.2" stroke="#2D2D2D" fill="#FFEBA2"/>
+ </g>
+</svg>

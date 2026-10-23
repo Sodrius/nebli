@@ -1,0 +1,83 @@
+"""Inventário atômico de Fígado, pâncreas e vias biliares (UC08 P2, Anatomia; Profa. Patrícia Castelucci), escrito antes de escolher cards,
+a partir do material lido nesta sessão: 21 páginas de slide (2 lâminas cada, vistas em visual/grupo-1..6), roteiro da prática, perguntas
+orientadoras, P1 2026 (TA e TB), Moore cap. 5 e três vídeos. Blocos e papéis: compreensao-aula.json.
+"""
+PREFIXO = "an11"
+AULA = "Fígado, pâncreas e vias biliares (UC08 P2, Anatomia; Profa. Patrícia Castelucci)"
+EXC = "EXC: "
+_L, _C = "logistica", "conteudo"
+
+SLIDES = [
+ (1, "capa", "Capa e estratégias de ensino", []),
+ (2, _C, "Objetivos; fígado: peso, lobos, segmentação, pedículo", [("i2a", "Peso do fígado", "au-peso"), ("i2b", "Quatro lobos anatômicos", ["au-lobos"])]),
+ (3, _C, "Localização: hipocôndrios, epigástrio, quadrantes", [("i3", "Localização", "au-localizacao")]),
+ (4, _C, "Face anterior/diafragmática: lobos, falciforme, redondo, coronário, vesícula 30–50 ml",
+  [("i4a", "Lobos direito e esquerdo", ["kh-lobo-direito", "kh-lobo-esquerdo", "au-falciforme-lobos"]),
+   ("i4b", "Ligamento falciforme", ["kh-falciforme", "sh-1792659597350"]),
+   ("i4c", "Redondo = veia umbilical obliterada", ["kh-redondo", "ak1463946088920", "sh-1792659597673"]),
+   ("i4d", "Vesícula 30–50 ml", "au-vesicula-volume")]),
+ (5, _C, "Face visceral: caudado, quadrado, hilo (porta, artéria, ductos), ligamento venoso, VCI",
+  [("i5a", "Caudado e quadrado", ["kh-caudado", "kh-quadrado", "au-quadrado", "au-caudado"]),
+   ("i5b", "Ligamento venoso = ducto venoso", ["kh-venoso", "ak1472319986724"]),
+   ("i5c", "Hilo hepático e o que passa nele", ["kh-hilo", "au-hilo", "kh-a-hepatica-propria"])]),
+ (6, _C, "Pedículo hepático e veia porta (VMS, esplênica, VMI)",
+  [("i6a", "Tríade portal no hepatoduodenal", ["sh-1791022170201", "sh-1792659604301"]),
+   ("i6b", "Formação da veia porta", ["kh-veia-porta", "sh-1790981519128", "kh-vms", "kh-vmi", "sh-1790981519302"]),
+   ("i6c", "Destino do sangue: veias hepáticas → VCI", ["au-veias-hepaticas", "kh-veia-hepatica-direita"])]),
+ (7, _C, "Impressões no fígado", [("i7", "Impressões da face visceral", "au-impressoes")]),
+ (8, _C, "Ligamentos: falciforme, coronário, triangulares, área nua (roteiro)",
+  [("i8a", "Coronário e área nua", ["kh-area-nua", "au-coronario", "kh-coronario-posterior"]),
+   ("i8b", "Triangulares", ["au-triangulares", "kh-triangular-direito", "kh-triangular-esquerdo"])]),
+ (9, _C, "Ligamentos na peça; omento menor", [("i9", "Omento menor", ["kh-omento-menor", "sh-1792659588801", "au-omento"])]),
+ (10, _C, "Omento menor (hepatogástrico, hepatoduodenal); pâncreas: cabeça, corpo, cauda, uncinado",
+  [("i10a", "Hepatogástrico e hepatoduodenal", ["kh-hepatogastrico", "sh-1792659589565", "ak1486605743531", "kh-hepatoduodenal", "ak1486605714923"]),
+   ("i10b", "Partes do pâncreas", ["kh-cabeca-pancreas", "kh-processo-uncinado", "kh-colo-pancreas", "kh-corpo-pancreas", "kh-cauda-pancreas"]),
+   ("i10c", "Relações do pâncreas", ["au-pancreas-posicao", "ak1527682619601", "ak1527683341069", "ak1486605794937", "sh-1790972068706"])]),
+ (11, _C, "Pâncreas retroperitoneal, endócrino e exócrino; ductos e papila; posição das vias biliares (9ª costela)",
+  [("i11a", "Pâncreas misto e retroperitoneal", "au-pancreas"),
+   ("i11b", "Ductos e papilas", ["kh-ducto-pancreatico", "kh-ducto-acessorio", "kh-papila-maior", "sh-1790972069210", "sh-1790972069613"]),
+   ("i11c", "Projeção da vesícula", "au-fundo-costela")]),
+ (12, _C, "Vias biliares: ductos hepáticos, cístico, colédoco, ampola",
+  [("i12a", "Ductos", ["kh-hepatico-direito", "kh-hepatico-esquerdo", "kh-hepatico-comum", "kh-cistico", "kh-coledoco"]),
+   ("i12b", "Caminho da bile", ["au-fluxo-bile", "ak1486777451032", "au-coledoco-trajeto"]),
+   ("i12c", "Ampola hepatopancreática", ["kh-ampola", "sh-1790972068988", "sh-1790972068886"])]),
+ (13, _C, "Prega espiral; bile; vesícula (fundo, corpo, colo); dissecção do pedículo",
+  [("i13a", "Esfíncter e refluxo", ["sh-1790972069313", "au-esfincter-refluxo"]), ("i13b", "Prega espiral", "au-prega-espiral"),
+   ("i13c", "Partes da vesícula", ["kh-vesicula", "kh-fundo-vesicula", "kh-corpo-vesicula", "kh-colo-vesicula", "kh-infundibulo"]),
+   ("i13d", "Bile", ["sh-1792659606225", "ak1482115362763", "ak1482115393714"]), ("i13e", "Tronco celíaco na dissecção", "sh-1790981513725")]),
+ (14, _C, "Trígono cisto-hepático; baço",
+  [("i14a", "Trígono de Calot", ["au-calot", "kh-arteria-cistica", "au-arteria-cistica"]),
+   ("i14b", "Baço: margem denteada e pedículo", ["kh-baco", "kh-margem-superior-baco", "au-baco-margem", "kh-hilo-baco", "au-pediculo-esplenico"])]),
+ (15, _C, "Anastomoses porto-sistêmicas; hipertensão portal",
+  [("i15", "Definição e hipertensão portal", ["au-anastomoses", "au-hipertensao", "sh-1791022173774", "ak1611946820385"])]),
+ (16, _C, "Sítio esofágico e sítio retal",
+  [("i16a", "Esofágico", ["sh-1790981518578", "sh-1791022175002", "sh-1791022175254", "ak1521156441953"]),
+   ("i16b", "Retal", ["sh-1790981527126", "sh-1790974697781", "sh-1790974698282"])]),
+ (17, _C, "Sítio paraumbilical (cabeça de medusa) e retroperitoneal",
+  [("i17a", "Paraumbilical", ["sh-1791022173950", "au-medusa-vias"]), ("i17b", "Retroperitoneal", "ak1521156796178")]),
+ (18, _C, "Caso clínico (cirrose, hipertensão portal); tríade portal e segmentação",
+  [("i18", "Caso: varizes, cabeça de medusa, hemorroidas", ["ak1611946820385", "sh-1791022175254"])]),
+ (19, _C, "Fígado direito e esquerdo; caudado com segmentação própria; segmentos (Moore)",
+  [("i19a", "Partes funcionais", ["au-partes-funcionais", "au-cantlie"]), ("i19b", "Caudado = segmento I", "au-caudado-segmento")]),
+ (20, _C, "Segmentação funcional na peça (I–VIII); objetivos alcançados",
+  [("i20a", "Lobos × segmentos", ["au-segmento-iv", "au-oito-segmentos"]),
+   ("i20b", "Segmentos na peça", ["io-seg-1", "io-seg-2", "io-seg-3", "io-seg-4", "io-seg-5", "io-seg-6", "io-seg-7", "io-seg-8"])]),
+ (21, _L, "Bibliografia e agradecimento", []),
+]
+JUSTIFICATIVAS = {"capa": "capa e estratégias de ensino, sem conteúdo", "logistica": "bibliografia e agradecimento"}
+CAPITULO = [("Moore cap. 5 (baço, pâncreas, fígado, vias biliares, porta e anastomoses)", [
+ ("l1", "Lobos anatômicos × partes funcionais", ["au-lobos", "au-segmento-iv", "au-partes-funcionais"]),
+ ("l2", "Ligamentos e área nua", ["au-coronario", "au-triangulares"]),
+ ("l3", "Colédoco, ampola e esfíncteres", ["au-coledoco-trajeto", "au-esfincter-refluxo"]),
+ ("l4", "Trígono cisto-hepático e a. cística", ["au-calot", "au-arteria-cistica"]),
+ ("l5", "Veia porta e anastomoses", ["sh-1790981519128", "au-anastomoses"])])]
+EXERCICIOS = [("P1 2026 e perguntas orientadoras", [
+ ("p1", "Papila maior: o que desemboca (P1 2026)", ["kh-papila-maior", "sh-1790972068988"]),
+ ("p2", "Localização e divisões do fígado e vesícula (perg. 1)", ["au-localizacao", "au-lobos", "kh-fundo-vesicula"]),
+ ("p3", "Trígono de Calot (perg. 2)", "au-calot"),
+ ("p4", "Vias biliares, Vater e Oddi (perg. 3)", ["au-fluxo-bile", "sh-1790972069313"]),
+ ("p5", "Pâncreas: localização, divisões, relações (perg. 4)", ["au-pancreas-posicao", "kh-cabeca-pancreas"]),
+ ("p6", "Colédoco (perg. 5)", "au-coledoco-trajeto"), ("p7", "Pedículo hepático (perg. 6)", ["sh-1792659604301", "au-hilo"]),
+ ("p8", "Segmentação funcional (perg. 7)", ["au-partes-funcionais", "au-oito-segmentos"]),
+ ("p9", "Circulação porto-sistêmica (perg. 8–9)", ["au-anastomoses", "ak1611946820385"]),
+ ("p10", "Lobos × segmentos, pedículo, veia porta (perg. 10)", ["au-segmento-iv", "sh-1790981519128", "au-veias-hepaticas"])])]

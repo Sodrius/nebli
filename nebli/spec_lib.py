@@ -39,6 +39,13 @@ def au(key, text, cod, bloco, alvo, slide, motivo, extra="", cores=None, espelho
                 evid=f"Slide {slide}", autoria=autoria, busca="", espelhos=list(espelhos), motivo=motivo, duplicacao_ok=duplicacao_ok)
 
 
+def kh(key, src, cod, bloco, alvo, slide, motivo, nome=None, **kw):
+    """Nota do Kenhub (estrutura com figura e seta, ou texto em PT) copiada da Referência Externa como está; `nome` = nome oficial
+    da aula quando o do Kenhub difere (F-20261022-CLAUDE-10: o build regera a figura com o rótulo novo)."""
+    return dict(key=key, kind="kenhub", src=src, flags={}, cod=cod, bloco=bloco, alvo=alvo, evid=f"Slide {slide}", motivo=motivo,
+                origin="Kenhub", **({"nome": nome} if nome else {}), **kw)
+
+
 def sh(nid, cor, bloco, alvo, slide, motivo):
     return dict(key=f"sh-{nid}", kind="compartilhado", nid=nid, cor=cor, bloco=bloco, alvo=alvo, evid=f"Slide {slide}", motivo=motivo)
 
@@ -64,7 +71,7 @@ def dicas(t):
 
 def finalizar(cards, here: Path, busca_base: str):
     """Aplica as regras mecânicas do pipeline a CARDS, no lugar."""
-    ids = [c["src"] for c in cards if c["kind"] == "text"]
+    ids = [c["src"] for c in cards if c["kind"] in ("text", "kenhub")]
     infos = _call("notesInfo", notes=ids) if ids else []
     clozes = {n["noteId"]: sorted({int(x) for x in re.findall(r"\{\{c(\d+)::", n["fields"].get("Text", {}).get("value", ""))}) for n in infos}
     # F-20261016-CLAUDE-03: “deixa sempre todos os HY como verdes, mesmo que passe o limite de 50%”
@@ -84,6 +91,8 @@ def finalizar(cards, here: Path, busca_base: str):
         c["motivo"] = f"{cod}: {c['motivo']}"
         if c["kind"] == "text":
             c["flags"] = {n: COR[cod[0]] for n in clozes.get(c["src"], [1])}
+        elif c["kind"] == "kenhub":
+            c["flags"] = {1: COR[cod[0]]}
         else:
             cores = c.pop("cores")
             ns = sorted({int(n) for n, _ in CLOZE.findall(c["text"])})

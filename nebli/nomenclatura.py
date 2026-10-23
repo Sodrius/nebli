@@ -117,6 +117,6 @@ def nomes_do_plano(entries):
         if f.get("Nome PT"):
             sin = [s.strip() for s in re.split(r"[;,]", re.sub(r"<[^>]+>", "", f.get("Sinonimos", ""))) if s.strip()]
             out.append((e["key"], re.sub(r"<[^>]+>", "", f["Nome PT"]).strip(), sin))
-        elif e.get("kind") == "slideio" and e.get("rotulo"):
+        elif e.get("kind") == "slideio" and e.get("rotulo") and "(rect)" not in e["rotulo"]:
             out.append((e["key"], e["rotulo"], []))
     return out

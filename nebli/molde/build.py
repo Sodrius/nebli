@@ -70,7 +70,8 @@ def build():
                                     "deck_proprio": any(re.sub(r" \(\d+\|\d+\|\d+\)", "", x["deckName"]) == spec.DECK
                                                         for x in A("cardsInfo", cards=(_ni or {}).get("cards", [])))}
             continue
-        kind, model = c["kind"], MODEL[c["kind"]]
+        kind = c["kind"]
+        model = info[c["src"]]["modelName"] if kind == "kenhub" and info.get(c["src"]) else MODEL.get(kind)
         tf = fields_of(model); fields = {f: "" for f in tf}
         if "NEBLI_Comentario" not in tf: issues.append(f"{model} sem NEBLI_Comentario")
         tags = [LESSON_TAG, "NEBLI::escopo::aula", f"NEBLI::objetivo::{c['bloco']}", ordem.tag(spec.SHORT, order), f"NEBLI::run::{spec.RUN_ID}"]
@@ -80,7 +81,17 @@ def build():
             if not n: issues.append(f"fonte ausente {src}"); continue
             base = {k: v["value"] for k, v in n["fields"].items()}
             origin = c.get("origin") or ORIGIN.get(n["modelName"], "AnKing")
-            if kind == "text":
+            if kind == "kenhub":  # F-20261022-CLAUDE-10: cópia fiel; nome oficial da aula regera o rótulo da figura
+                for k in tf:
+                    if k in base and k != "NEBLI_Comentario": fields[k] = base[k]
+                if "ID (hidden)" in fields: fields["ID (hidden)"] = (fields["ID (hidden)"] or f"kh-{src}") + f"-{IDENTITY}"
+                if c.get("nome"):
+                    from nebli.kenhub.renomear import renomear
+                    novos, midia = renomear(base, c["nome"], HERE / "img", Path(A("getMediaDirPath")))
+                    fields.update(novos)
+                    spec.MEDIA.update({k: str(v.relative_to(HERE)) for k, v in midia.items()})
+                cards = [{"n": 1, "ord": 0, "flag": c["flags"][1]}]
+            elif kind == "text":
                 fields["Text"] = base["Text"]
                 if base.get("Header", "").strip() and "Header" not in tf:  # 16/10: AnatoKing põe pergunta e imagem no Header; o modelo NEBLI não tem o campo
                     fields["Text"] = base["Header"] + "<br><br>" + fields["Text"]
@@ -107,7 +118,9 @@ def build():
         if "extra" in c: fields["Extra"] = c["extra"]
         if c.get("extra_add"): fields["Extra"] = (fields["Extra"] + "<br><br>" if fields["Extra"] else "") + c["extra_add"]  # figura de livro/AnKing (F-15)
         for k, v in c.get("fields_override", {}).items(): fields[k] = v
-        if kind in ("text", "autoral", "anatoking"):
+        if kind == "kenhub":
+            pass
+        elif kind in ("text", "autoral", "anatoking"):
             want, got = sorted(c["flags"]), clozes(fields["Text"])
             if got != want: issues.append(f"{c['key']}: clozes {got} != plano {want}")
             cards = [{"n": k, "ord": k - 1, "flag": v} for k, v in sorted(c["flags"].items())]
