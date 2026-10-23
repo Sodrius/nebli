@@ -379,7 +379,7 @@ Gerado por `python3 -m nebli.exemplares` a partir dos comentários negativos de 
   - Davi: “já pontuei 300 cards nesse estilo, que são ruins ajustei”
 - note 1791627550702 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i; 2026-10-13)
   - Card: Phosphorylation can switch a transcription factor off by blocking its {{c1::DNA binding}} or by keeping it out of the {{c2::nucleus}}
-  - Davi: “card repetido, não? card mal escrito não aparece nada”
+  - Davi: “card repetido, não? card mal escrito não aparece nada exemplo de card que poderia ter uma consequência, já em sequência, sobre o que acontece quando ele não é transcrito, ajudando a decorar mais algo sem custo precisamos usar mais o conceito de custo-efetividade”
 - note 1791628672372 (2026-uc03-microbiologia-48-micoses-subcutaneas; 2026-10-13)
   - Card: Subcutaneous mycoses begin when saprobic fungi from soil or plants are {{c1::implanted}} through a skin wound
   - Davi: “card com escrita estranha de novo, o card aqui ficou com cloze em algo que não é para ser decorado, mas entendido NEGRITO isso é algo específico tb de subcutânea? cutânea não tem tb?”
@@ -484,7 +484,7 @@ Gerado por `python3 -m nebli.exemplares` a partir dos comentários negativos de 
   - Davi: “seria bom explicar no comentário que esse é o fator de virulência”
 - note 1791575026219 (2026-uc08-fisiologia-09-motilidade-ii; 2026-10-22)
   - Card: In the pharyngeal phase , a peristaltic wave of the {{c1:: pharyngeal constrictors }} pushes the bolus toward the esophagus
-  - Davi: “faltou imagem do que é essa estrutura”
+  - Davi: “faltou imagem do que é essa estrutura imagem zuada”
 - note 1791575691218 (2026-uc03-microbiologia-43-biologia-fungos; 2026-10-22)
   - Card: Hyphae grow by elongating at their {{c1:: tips }}, and a hyphal fragment can start a new colony
   - Davi: “isso é um bom exemplo de card de mecanismo, me ajuda a compreender coisas básicas de vários tipos de fungos assim, para aula de aspectos gerais dos fungos, é isso que espero coisas que me ajudam a compreender o fenômeno como um todo, para depois aprofundar em detalhes e minúcias da exceções”
@@ -625,7 +625,7 @@ Gerado por `python3 -m nebli.exemplares` a partir dos comentários negativos de 
   - Davi: “card falta realmente ajudar num processo, onde isso se encaixa”
 - note 1791631346842 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
   - Card: Methylated cytosines silence genes by recruiting histone deacetylases and nucleosome {{c1:: remodelers }}
-  - Davi: “card passa a informação que quer da melhor forma”
+  - Davi: “card passa a informação que quer da melhor forma comentário poderia explicar o que é cada um dos clozes”
 - note 1791631346967 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-22)
   - Card: Heritable gene-expression states that do not alter the DNA sequence are called {{c1:: epigenetic }} states
   - Davi: “cloze num local ruim arrumar”
@@ -772,10 +772,10 @@ Gerado por `python3 -m nebli.exemplares` a partir dos comentários negativos de 
   - Davi: “seta errada”
 - note 1792339386764 (2026-uc07-nervos-cranianos-nervo-olfatorio-i; 2026-10-22)
   - Card: Qual é a função do nervo craniano I (olfatório)? {{c1::Olfato}}
-  - Davi: “card mt bobo”
+  - Davi: “card mt bobo (Claude): card reescrito: em vez de perguntar a função (bobo), pergunta por onde o I sai e por que o trauma tira o olfato”
 - note 1792344677325 (2026-uc07-cerebelo-cortex-cerebelar; 2026-10-22)
   - Card: A camada molecular do córtex cerebelar contém células {{c1:: em cesto }} e {{c2:: estreladas }}
-  - Davi: “faltou card organizador, com mais infos”
+  - Davi: “faltou card organizador, com mais infos (Claude): organizador criado (ce-camadas: as três camadas e as células de cada uma)”
 - note 1792572870665 (2026-uc07-introducao-ao-sistema-nervoso-sistema-nervoso-periferico-nervos-ganglios-e-plexos; 2026-10-22)
   - Davi: “não precisa ter cloze escondendo a estrutura da imagem, basta que haja uma seta e um cloze no nome dela”
 - note 1792588686964 (2026-uc07; 2026-10-22)
@@ -801,13 +801,108 @@ Gerado por `python3 -m nebli.exemplares` a partir dos comentários negativos de 
   - Davi: “DÁ PARA MELHORAR, FICOU MT RUIM”
 - note 1792588687018 (2026-uc07; 2026-10-22)
   - Card: O cerebelo fica posterior à ponte e ao bulbo, na fossa {{c1::posterior}} do crânio
-  - Davi: “imagem ruim”
+  - Davi: “imagem ruim (Claude): figura trocada por uma vista do encéfalo em que se vê o cerebelo atrás do tronco, na fossa posterior”
 - note 1792588687019 (2026-uc07; 2026-10-22)
   - Card: O córtex cerebelar tem três camadas: {{c1::molecular}} (externa), de {{c2::Purkinje}} (média) e {{c1::granulosa}} (interna)
-  - Davi: “imagem ruim”
+  - Davi: “imagem ruim (Claude): figura trocada pela das camadas do córtex cerebelar (AnKing)”
 - note 1792588687021 (2026-uc07; 2026-10-22)
   - Card: As estruturas de substância cinzenta do cerebelo são o córtex cerebelar e os núcleos {{c1::cerebelares}}
-  - Davi: “imagem”
+  - Davi: “imagem (Claude): figura trocada pela do córtex cerebelar com camadas e núcleos profundos”
 - note 1792588687023 (2026-uc07; 2026-10-22)
   - Card: Do medial para o lateral, os núcleos do cerebelo são o {{c2::fastigial}}, o {{c1::globoso}}, o {{c2::emboliforme}} e o {{c1::denteado}}
-  - Davi: “melhorei o card imagem zuada”
+  - Davi: “melhorei o card imagem zuada (Claude): figura trocada pela dos quatro núcleos profundos lado a lado (AnKing)”
+- note 1791625435907 (2026-uc03-imunologia-45-ativacao-linfocitos-t; 2026-10-23)
+  - Card: Tregs survive on {{c1:: IL-2 }} made by activated conventional T cells
+  - Davi: “poderia ser um card que explica mais”
+- note 1791631347467 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-23)
+  - Card: HDAC inhibitors prevent histones from being {{c1:: deacetylated }} resulting in genes such as tumor suppressors being {{c2:: transcribed }}
+  - Davi: “isso é um bom exemplo de card que poderia ser simples, mas ensina e ajuda a decorar com extrema eficácia: poderia ser só um card perguntando o que faz HDAC, mas já há informação sobre inibidores dessa enzima e o resultado do que acontece ao inibi-lo + um comentário que aprofunda ainda mais ótimo card”
+- note 1791762424899 (2026-uc19-farmacologia-01-introducao-mecanismos; 2026-10-23)
+  - Card: Phenobarbital induces CYP enzymes and so {{c1:: reduces }} the anticoagulant effect of warfarin
+  - Davi: “fazer uma lista dos inibidores e potenciadores da PCYP450, daí vira card conexão”
+- note 1792065187180 (2026-uc03-grand-round-04-paracoccidioidomicose; 2026-10-23)
+  - Card: Clinical forms of paracoccidioidomycosis : - {{c1:: chronic adult }} form: about 90%, mostly men, lungs and mucosa - {{c2:: acute juvenile }} form: 3–5%, most severe, lymph nodes, liver and spleenc
+  - Davi: “pode melhorar ser mais profundo, ter um cloze num local melhor”
+- note 1792328913378 (2026-uc07-medula-espinal-topografia-e-morfologia-da-medula-espinal; 2026-10-23)
+  - Card: Se há corno lateral , a medula espinal está entre {{c2::T1}} e {{c2::L2}}
+  - Davi: “imagem zuada (Claude): figura trocada pelos cortes da medula por nível (a do Kenhub não mostrava o corno lateral no corte)”
+- note 1792328914296 (2026-uc07-medula-espinal-topografia-e-morfologia-da-medula-espinal; 2026-10-23)
+  - Card: Se não há corno lateral, a medula espinal está entre {{c1::C1}} e {{c1::C8}} ou {{c1::L3}} e {{c1::S5}}
+  - Davi: “imagem ruim, poderia ser outra (Claude): figura trocada pelos cortes da medula por nível, em que se vê onde há e onde não há corno lateral”
+- note 1792328916159 (2026-uc07-medula-espinal-topografia-e-morfologia-da-medula-espinal; 2026-10-23)
+  - Card: Se o corno anterior é grande, o nível da medula espinal está entre {{c1::C5}} e {{c1::T1}} ou {{c1::L2}} e {{c1::S2}}
+  - Davi: “imagem (Claude): figura trocada pelos cortes da medula por nível (corno anterior grande nas intumescências)”
+- note 1792572870673 (2026-uc07-medula-espinal-nervos-espinais; 2026-10-23)
+  - Davi: “poderia colocar a altura aqui no cloze entre parênteses”
+- note 1792588686967 (2026-uc07; 2026-10-23)
+  - Card: A sinapse entre os neurônios pré e pós-ganglionares ocorre no gânglio {{c1::autônomo}}, onde ficam os corpos dos neurônios pós-ganglionares
+  - Davi: “PODE MELHORAR ESSE CARD”
+- note 1792588686980 (2026-uc07; 2026-10-23)
+  - Card: A cavidade do tubo neural origina o {{c1::aqueduto cerebral}}, o {{c2::quarto ventrículo}} e o {{c3::canal central}} da medula espinal
+  - Davi: “poderia ser com 3 clozes, um só card e tópicos”
+- note 1792624465974 (2026-uc19-farmacologia-02-farmacocinetica-i; 2026-10-23)
+  - Card: The hepatic clearance of a drug with: - high E (lidocaine) depends on {{c1:: blood flow }} - low E (warfarin) depends on {{c2:: enzyme activity }}
+  - Davi: “um card tem que fazer sentido sozinho isso do E não faz sentido sozinho”
+- note 1792657543181 (2026-uc19-farmacologia-02-farmacocinetica-i; 2026-10-23)
+  - Card: An organ cannot clear more than the blood that reaches it, so its clearance is capped by its {{c1:: blood flow }}
+  - Davi: “card estranho”
+- note 1792659585105 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: Cephalocaudal and lateral folding pull the endoderm inside the embryo and close it into the {{c1:: primitive gut }} tube
+  - Davi: “negrito tem que ser gate hard, checado card a card”
+- note 1792659586974 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: Layers of the gut wall : - epithelium and gland cells: {{c1:: endoderm }} - muscle, connective tissue, serosa: {{c1:: splanchnic mesoderm }}
+  - Davi: “faltou falar que era sobre embrio”
+- note 1792659587475 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: The septum transversum is splanchnic mesoderm that forms the central tendon of the {{c1:: diaphragm }} and receives the {{c1:: liver }}
+  - Davi: “NEGRITO pode aprofundar e melhorar escrita gate-hard: cada autoral tem que ser inspirado num exemplar específico, para tentar sair como modelo, mas mudando o conteúdo gate-hard: cada autoral deve ser revisto no fim para boa escrita, cloze no local adequado, aprofundamento grande e negrito”
+- note 1792659588552 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: The rotation of the stomach pulls the dorsal mesogastrium to the left and opens the {{c1:: omental bursa }} behind it
+  - Davi: “IMAGEM”
+- note 1792659592051 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: After the return, the ascending and descending colon fuse to the posterior wall and become {{c1:: secondarily retroperitoneal }}
+  - Davi: “imagem”
+- note 1792659596102 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: The endoderm that was folded into the gut tube now buds out the {{c1:: liver }} and the {{c1:: pancreas }}
+  - Davi: “IMAGEM”
+- note 1792659596600 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: The liver starts as the {{c1:: hepatic bud }}, an outgrowth of the caudal foregut endoderm that invades the septum transversum
+  - Davi: “NEGRITO IMAGEM”
+- note 1792659597350 (2026-uc08-anatomia-11-figado-pancreas-vias-biliares; 2026-10-23)
+  - Card: Which GI ligament connects the liver to the anterior abdominal wall ? {{c1::Falciform ligament}}
+  - Davi: “IMAGEM”
+- note 1792659597673 (2026-uc08-anatomia-11-figado-pancreas-vias-biliares; 2026-10-23)
+  - Card: The remnant of the umbilical vein is the {{c1:: ligamentum teres hepatis }}, which is contained in the {{c2:: falciform ligament }}
+  - Davi: “IMAGEM”
+- note 1792659598025 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: The hepatic cords mix with the vitelline and umbilical veins, and these vessels become the {{c1:: sinusoids }}
+  - Davi: “IMAGEM + negrito pôr gate-hard nesses dois imagens tem que ter, baseando-se nos que já tem tem que ser feita fazer esse julgamento card poderia aprofundar mais”
+- note 1792659598275 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: The rotation of the stomach and duodenum places the liver on the {{c1:: right }} and the spleen on the {{c1:: left }}
+  - Davi: “esse deck tem coisa de embrio do foregut e hindgut tb? se não tiver, colocar alguns autorais com qualidade resolver negritos tb de todos os cards”
+- note 1792659598525 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: The pancreas forms from a {{c1:: dorsal }} and a {{c1::ventral}} bud of the duodenal endoderm
+  - Davi: “IMAGEM esse card poderia aprofundar um pouco mais na explicação cobrando o mesmo conceito”
+- note 1792659598777 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: The duodenum swings right and carries the {{c1:: ventral }} pancreatic bud behind it to meet the dorsal bud
+  - Davi: “card ficou zuado, mas a ideia foi boa”
+- note 1792659599275 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: Which embryological pancreatic bud(s) contribute to the uncinate process ? {{c1::Ventral pancreatic buds}}
+  - Davi: “imagem”
+- note 1792659600102 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: Which embryological pancreatic bud(s) contribute to the accessory pancreatic duct ? {{c1::Dorsal pancreatic buds}}
+  - Davi: “imagem”
+- note 1792659601153 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas; 2026-10-23)
+  - Card: The pancreas ends up {{c1:: retroperitoneal }} because the duodenum and its mesentery fuse with the posterior abdominal wall
+  - Davi: “imagem”
+- note 1792695019665 (2026-uc03-microbiologia-58-multiplicacao-viral-antivirais; 2026-10-23)
+  - Card: After HIV gp120 binds CD4 and the coreceptor, it changes shape and exposes {{c1:: gp41 }}, which inserts into the membrane
+  - Davi: “explicação ruim do mecanismo tem que cobrar decoreba num ou dois bons clozes E explicar um processo bem”
+- note 1792696993158 (2026-uc07; 2026-10-23)
+  - Card: O tronco encefálico vai do plano do {{c1::forame magno}} até os {{c2::pedúnculos cerebrais}}
+  - Davi: “imagem ruim”
+- note 1792697127074 (2026-uc07; 2026-10-23)
+  - Card: O canal vertebral começa na articulação {{c1::atlantoccipital}}, entre o osso occipital e o {{c2::atlas}} (C1)
+  - Davi: “IMAGEM”
+- note 1792697128629 (2026-uc07; 2026-10-23)
+  - Card: Plexos por região da medula: 1. cervical: plexo {{c1::cervical}} (pescoço) e plexo {{c2::braquial}} (membro superior) 2. lombossacral: plexo {{c3::lombossacral}} (membro inferior) 3. torácica: {{c4::n
+  - Davi: “escrita estranha AJUSTA PARA SER EM TÓPICOS”

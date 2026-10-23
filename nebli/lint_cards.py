@@ -110,6 +110,32 @@ def check(key, text_html, extra_html=""):
     return problems
 
 
+# F-20261023-CLAUDE-01 (comentários de 23/10): regras que valem a partir do PIPELINE_VERSAO 7.
+SIMBOLO = re.compile(r"(?<![\w-])(?!(?:A|I)\b)([A-Z])(?![\w+.'’-])(?!\s*(?:cells?|lymphocytes?|antigens?|phase|ring|wave|waves|=))")
+SIMBOLO_OK = re.compile(r"(?:vitamin|type|hepatitis|influenza|group|complex|phase|latency|class|factor|chain|zone|protein|band|line|segment|HLA|lane)\s*$", re.I)
+
+
+def check_v7(text_html):
+    """'dura': (1) negrito de contexto FORA do cloze (Davi: “NEGRITO … gate-hard, checado card a card”); (2) frase com 3+ lacunas ou
+    lista numerada em linha vira tópicos em pé (“AJUSTA PARA SER EM TÓPICOS”; “3 clozes, um só card e tópicos”); (3) símbolo de uma
+    letra sem definição no próprio card (“um card tem que fazer sentido sozinho / isso do E não faz sentido sozinho”)."""
+    probs = []
+    organizacao = 'data-nebli-organizacao="true"' in text_html
+    fora = CLOZE.sub(" ", text_html)
+    if not re.search(r"<(?:b|strong)\b", fora):
+        probs.append(("dura", "sem negrito de contexto fora do cloze: negritar 1–2 termos que situam o card (AnKing)"))
+    if not organizacao and (len(CLOZE.findall(text_html)) >= 3 or re.search(r"(?:^|\s)[1-3]\.\s", plain(text_html))):
+        probs.append(("dura", "enumeração de 3+ itens em frase: escrever como organizador em tópicos, um item por linha"))
+    txt = plain(CLOZE.sub(lambda m: m.group(2), text_html))
+    for m in SIMBOLO.finditer(txt):
+        antes = txt[:m.start()]
+        definido = re.search(rf"\({m.group(1)}\)|{m.group(1)}\s*=|\({m.group(1)},", txt)
+        if not SIMBOLO_OK.search(antes) and not definido:
+            probs.append(("dura", f"símbolo '{m.group(1)}' sem definição: o card tem de fazer sentido sozinho (escrever o nome)"))
+            break
+    return probs
+
+
 def justification(entry):
     """Autoral só para alvo central da aula ou cobrado em prova, sem AnKing/associado equivalente
     (F-20260930-CLAUDE-19: autoria excessiva em detalhes na Imuno P2)."""
@@ -136,9 +162,10 @@ def from_plan(path):
     if autorais and not (evidence and (Path(path).parent / evidence).exists()):
         yield ("plano", "", "", [("dura", "há autorais e o plano não aponta 'busca_externos': arquivo da corrida com a busca feita em "
                                          "Referências Externas (MCAT, AnatoKing, Dope etc.) antes de autorar")])
+    v7 = int(plan.get("pipeline_versao") or 1) >= 7
     for entry in autorais:
         fields = entry["fields"]
-        yield entry["key"], fields.get("Text", ""), fields.get("Extra", ""), justification(entry)
+        yield entry["key"], fields.get("Text", ""), fields.get("Extra", ""), justification(entry) + (check_v7(fields.get("Text", "")) if v7 else [])
 
 
 def from_anki(query):

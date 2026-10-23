@@ -227,6 +227,8 @@ def main(argv):
     k = int(argv[argv.index("--k") + 1]) if "--k" in argv else 12
     args = [a for i, a in enumerate(argv[2:]) if a != "--k" and (i == 0 or argv[2:][i - 1] != "--k")]
     run = Path(argv[1])
+    from nebli.etapa import exigir_planejamento
+    exigir_planejamento(run, "a busca nos acervos")  # F-20261023-CLAUDE-02
     if argv[0] == "buscar":
         buscar(run, [a for a in args if "=" in a], k)
     else:

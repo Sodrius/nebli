@@ -935,6 +935,8 @@ def plan_checks(run, plan):
         if _novo_06(run, plan):
             out += compreensao_aula(run, plan)  # F-20261022-CLAUDE-06
         out += nomenclatura_oficial(run, plan)  # F-20261022-CLAUDE-10
+        if int(plan.get("pipeline_versao") or 1) >= 7:
+            out += v7_pre(run, plan) + passo_a_passo_pre(run, plan)  # F-20261023-CLAUDE-01/02
     else:
         out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
     if "biologia-tecidual" in plan.get("lesson_id", ""):  # F-20261003-CLAUDE-13: aprender, não visualizar em excesso
@@ -984,7 +986,148 @@ def plan_checks(run, plan):
         out += revisao_raciocinio(run, plan)  # F-20261022-CLAUDE-04
         if _novo_06(run, plan):
             out += fidelidade_ao_slide(run, plan)  # F-20261022-CLAUDE-06
+        if int(plan.get("pipeline_versao") or 1) >= 7:
+            out += v7_pos(run, plan) + passo_a_passo_pos(run, plan)  # F-20261023-CLAUDE-01/02
     return out
+
+
+# F-20261023-CLAUDE-01 — comentários de 23/10 e “gate em consultar a referência (se não souber, perguntar antes de rodar o deck)”.
+# Valem a partir do PIPELINE_VERSAO 7.
+VISUAL = re.compile(r"anatomia|biocel|embrio|biologia-tecidual|histolog", re.I)
+EMBRIO_CTX = re.compile(r"embry|fetal|fetus|develop|primitive|\bbuds?\b|primordi|\bweek|gestation|septum transversum", re.I)
+_CLOZE_TODO = re.compile(r"\{\{c\d+::.*?\}\}", re.S)
+REF_INDICADA = re.compile(r"bibliografia da aula|bibliografia|MEMORY|Davi", re.I)
+
+
+def _nids(arquivo, tipo):
+    try:
+        return set(re.findall(rf"### {tipo} · note (\d{{13}})", Path(arquivo).read_text(encoding="utf-8")))
+    except OSError:
+        return set()
+
+
+def v7_pre(run, plan):
+    """Antes de instalar: imagem em aula visual, contexto embriológico, autoral moldado num exemplar real, referência consultada."""
+    run = Path(run)
+    out, entries = [], plan.get("entries", [])
+    aut = [e for e in entries if e.get("origin") == "Autoral"]
+    lesson = plan.get("lesson_id", "")
+    campo = lambda e, k: (e.get("fields") or {}).get(k, "") or ""
+    if VISUAL.search(lesson):  # “imagens tem que ter … pôr gate-hard” (BC10, 23/10)
+        falta = [e["key"] for e in entries if "<img" not in campo(e, "Text") + campo(e, "Extra") + campo(e, "Imagem")
+                 + campo(e, "Imagem Verso") and len(str(e.get("sem_imagem", "")).strip()) < 20]
+        out.append(("[duro] aula visual (anatomia, embriologia, histologia): todo card com figura real ou 'sem_imagem' com motivo"
+                    + (f": faltam {len(falta)} ({falta[:4]})" if falta else ""), not falta))
+    if "embrio" in lesson:  # “faltou falar que era sobre embrio”
+        sem = [e["key"] for e in aut if not EMBRIO_CTX.search(re.sub(r"<[^>]+>", " ", _CLOZE_TODO.sub(" ", campo(e, "Text"))))]
+        out.append(("[duro] autoral de embriologia diz na frente que é desenvolvimento (embryo, bud, week, primitive…)"
+                    + (f": {sem[:4]}" if sem else ""), not sem))
+    # “cada autoral tem que ser inspirado num exemplar específico, para tentar sair como modelo, mas mudando o conteúdo”
+    proj = Path(__file__).resolve().parents[1] / "flashcards" / "projeto"
+    ex, anti = _nids(proj / "GUIA_CARDS.md", "Exemplar"), _nids(proj / "GUIA_CARDS.md", "Anti-exemplar")
+    rev = (run / "REVISAO-AUTORAIS.md").read_text(encoding="utf-8") if (run / "REVISAO-AUTORAIS.md").exists() else ""
+    ruins = []
+    for e in aut:
+        linha = next((l for l in rev.splitlines() if re.search(re.escape(e["key"]) + r"\b.*par:", l)), "")
+        m_ex = re.search(r"EXEMPLAR\s+(\d{13})", linha); m_an = re.search(r"ANTI\s+(\d{13})", linha)
+        if not (m_ex and m_ex.group(1) in ex and m_an and m_an.group(1) in anti):
+            ruins.append(e["key"])
+    out.append(("[duro] cada autoral moldado num EXEMPLAR real e conferido contra um ANTI-EXEMPLAR real (nids dos arquivos gerados)"
+                + (f": {ruins[:4]}" if ruins else ""), not ruins))
+    # referência da aula consultada; desconhecida → perguntar a Davi antes de rodar o deck
+    try:
+        ref = json.loads((run / "fontes-decl.json").read_text(encoding="utf-8")).get("referencia") or {}
+    except (OSError, ValueError):
+        ref = {}
+    txt = run / str(ref.get("texto", ""))
+    ok = (all(str(ref.get(k, "")).strip() for k in ("livro", "capitulo")) and REF_INDICADA.search(str(ref.get("indicada_por", "")))
+          and txt.is_file() and len(txt.read_text(encoding="utf-8", errors="ignore")) >= 3000)
+    out.append(("[duro] referência da aula consultada (fontes-decl.json 'referencia': livro, capítulo, indicada_por = bibliografia da aula, "
+                "MEMORY §4 ou resposta de Davi, texto lido ≥ 3000 caracteres); sem saber qual é, perguntar a Davi antes de rodar o deck", bool(ok)))
+    return out
+
+
+def _bloco_de(blocos, s):
+    return next((i for i, b in enumerate(blocos) if s and int(b["laminas"][0]) <= s <= int(b["laminas"][-1])), None)
+
+
+def passo_a_passo_pre(run, plan):
+    """F-20261023-CLAUDE-02: “problema recorrente: não pensou sobre o que é a aula e nem seguiu o step by step com gates-hards”.
+    Etapas E0–E5 registradas em ordem; cada bloco diz o que se aprende nele; todo card ligado ao mapa; o exemplo não supera o princípio
+    que ilustra; nenhum bloco vira ficha técnica (até 3 cards por item 'aprender', salvo motivo)."""
+    from nebli import etapa, ordem
+    run = Path(run)
+    probs = []
+    falta, fora = etapa.ordem_ok(run, "E5")
+    if falta or fora:
+        probs.append(f"etapas {falta or ''} {('fora de ordem ' + str(fora)) if fora else ''} (nebli.etapa)".strip())
+    probs += etapa.problemas_compreensao(run)
+    d = _compreensao(run) or {}
+    blocos = [b for b in d.get("blocos", []) if isinstance(b, dict)]
+    comp = plan.get("compartilhados") or {}
+    cards_de = {}
+    for e in plan.get("entries", []):
+        i = _bloco_de(blocos, ordem.slide(e.get("evid")))
+        cards_de[i] = cards_de.get(i, 0) + (len(e.get("cards", [])) or 1)
+    for k, v in comp.items():
+        i = _bloco_de(blocos, ordem.slide(v.get("evid")))
+        cards_de[i] = cards_de.get(i, 0) + v.get("n_cards", 1)
+    for i, b in enumerate(blocos):
+        n = cards_de.get(i, 0)
+        apr = [x for x in b.get("aprender", []) if len(str(x).strip()) >= 15]
+        if apr and n > 3 * len(apr) and len(str(b.get("motivo_volume", "")).strip()) < 60:
+            probs.append(f"bloco {b['laminas']} com {n} cards para {len(apr)} itens a aprender (máx. 3 por item): ficha técnica, não a aula")
+        if b.get("papel") == "exemplo" and b.get("ilustra"):
+            j = _bloco_de(blocos, int(b["ilustra"]))
+            if j is not None and n > max(1, cards_de.get(j, 0)) and len(str(b.get("motivo_exemplos", "")).strip()) < 60:
+                probs.append(f"exemplo {b['laminas']} ({n} cards) supera o princípio que ilustra {blocos[j]['laminas']} ({cards_de.get(j, 0)})")
+    m = _mapa(run) or {}
+    alias = {f"ak{v.get('source_nid')}": f"sh-{k}" for k, v in comp.items() if v.get("source_nid")}
+    no_mapa = {alias.get(k, k) for i in _itens(m) for k in i.get("cards", [])}
+    todos = {e["key"] for e in plan.get("entries", [])} | {f"sh-{k}" for k in comp}
+    soltos = sorted(todos - no_mapa)
+    if soltos:
+        probs.append(f"{len(soltos)} card(s) fora de qualquer item do mapa (lateral sem motivo): {soltos[:5]}")
+    return [("[duro] passo a passo de verdade: etapas em ordem, o que aprender em cada bloco, todo card num item do mapa, exemplo ≤ princípio, "
+             "sem ficha técnica" + (f"; {'; '.join(probs[:5])}" if probs else ""), not probs)]
+
+
+def passo_a_passo_pos(run, plan):
+    """Revisão de verdade: E6 e E7 registradas; fidelidade com nota própria por bloco (≥ 80 caracteres, sem texto repetido) e os cards
+    conferidos de cada bloco de conteúdo."""
+    from nebli import etapa
+    run = Path(run)
+    probs = []
+    falta, fora = etapa.ordem_ok(run, "E7")
+    if falta or fora:
+        probs.append(f"etapas {falta} {fora}")
+    d = _compreensao(run) or {}
+    fb = (d.get("fidelidade") or {}).get("blocos", [])
+    notas = [str(x.get("nota", "")).strip() for x in fb]
+    if len(set(notas)) < len(notas):
+        probs.append("notas de fidelidade repetidas entre blocos: revisão genérica, não bloco a bloco")
+    keys = {e["key"] for e in plan.get("entries", [])} | {f"sh-{k}" for k in (plan.get("compartilhados") or {})}
+    conteudo = {tuple(b["laminas"]) for b in d.get("blocos", []) if b.get("papel") in ("principio", "exemplo")}
+    for x in fb:
+        if tuple(x.get("laminas", [])) in conteudo:
+            if len(str(x.get("nota", "")).strip()) < 80 or not x.get("cards_conferidos") or not set(x["cards_conferidos"]) <= keys:
+                probs.append(f"bloco {x.get('laminas')} sem nota própria (≥ 80) ou sem 'cards_conferidos' válidos")
+    return [("[duro] revisão de verdade: E6–E7 registradas e fidelidade bloco a bloco com nota própria e cards conferidos"
+             + (f"; {'; '.join(probs[:4])}" if probs else ""), not probs)]
+
+
+def v7_pos(run, plan):
+    """Depois de instalar: “cada autoral deve ser revisto no fim para boa escrita, cloze no local adequado, aprofundamento grande e negrito”."""
+    run = Path(run)
+    rev = (run / "REVISAO-AUTORAIS.md").read_text(encoding="utf-8") if (run / "REVISAO-AUTORAIS.md").exists() else ""
+    sec = rev.split("## Revisão final no deck vivo", 1)[1] if "## Revisão final no deck vivo" in rev else ""
+    falta = []
+    for e in (e for e in plan.get("entries", []) if e.get("origin") == "Autoral"):
+        l = next((l for l in sec.splitlines() if re.search(re.escape(e["key"]) + r"\b", l)), "")
+        if not all(re.search(rf"{p}\s*:\s*\S", l, re.I) for p in ("escrita", "cloze", "aprofundamento", "negrito")):
+            falta.append(e["key"])
+    return [("[duro] revisão final de cada autoral no deck vivo (REVISAO-AUTORAIS.md › '## Revisão final no deck vivo': escrita, cloze, "
+             "aprofundamento, negrito)" + (f": faltam {falta[:4]}" if falta else ""), bool(sec) and not falta)]
 
 
 # ---------------------------------------------------------------------------------------------------------------
@@ -1121,16 +1264,20 @@ def linha_e_provas(run, plan):
 
 
 def exemplares_lidos(run):
-    """F-20261021-CLAUDE-06: ler EXEMPLARES e ANTI-EXEMPLARES é gate duro. `exemplares-lidos.json` na corrida guarda o sha256 dos dois
-    arquivos vigentes (relidos nesta corrida) e ≥ 5 aprendizados concretos (≥ 50 caracteres) que vão orientar a escrita dos autorais."""
+    """F-20261021-CLAUDE-06 + F-20261023-CLAUDE-02/03: ler o GUIA_CARDS.md (exemplares, anti-exemplares com o processo de ajuste e a
+    análise de cada um) é gate duro. `exemplares-lidos.json` guarda o sha256 do guia vigente (relido nesta corrida) e ≥ 5 aprendizados
+    concretos; o guia não pode ter item sem análise. Corridas anteriores ao guia (chaves antigas) passam como legado."""
     import hashlib
     base = Path(__file__).resolve().parent.parent / "flashcards" / "projeto"
     path = Path(run) / "exemplares-lidos.json"
     d = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
-    sha = lambda f: hashlib.sha256((base / f).read_bytes()).hexdigest()
-    ok = (d.get("exemplares_sha256") == sha("EXEMPLARES-CARDS.md") and d.get("anti_exemplares_sha256") == sha("ANTI-EXEMPLARES-CARDS.md")
-          and isinstance(d.get("aprendizados"), list) and sum(1 for x in d["aprendizados"] if len(str(x).strip()) >= 50) >= 5)
-    return [("[duro] EXEMPLARES e ANTI-EXEMPLARES lidos nesta corrida (exemplares-lidos.json: sha256 vigente + ≥ 5 aprendizados)", bool(ok))]
+    apr = isinstance(d.get("aprendizados"), list) and sum(1 for x in d["aprendizados"] if len(str(x).strip()) >= 50) >= 5
+    guia = base / "GUIA_CARDS.md"
+    if "guia_sha256" not in d and d.get("exemplares_sha256"):
+        return [("EXEMPLARES/ANTI-EXEMPLARES lidos (corrida anterior ao GUIA_CARDS.md, legado)", bool(apr))]
+    txt = guia.read_text(encoding="utf-8") if guia.exists() else ""
+    ok = guia.exists() and d.get("guia_sha256") == hashlib.sha256(guia.read_bytes()).hexdigest() and apr and "SEM ANÁLISE" not in txt
+    return [("[duro] GUIA_CARDS.md lido nesta corrida (exemplares-lidos.json: sha256 vigente + ≥ 5 aprendizados; nenhum item sem análise)", bool(ok))]
 
 
 def cobertura_anking(run, plan):

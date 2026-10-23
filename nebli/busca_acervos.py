@@ -34,6 +34,9 @@ def frente(f):
 
 
 def main(argv):
+    from pathlib import Path
+    from nebli.etapa import exigir_planejamento
+    exigir_planejamento(Path(argv[0]).resolve().parents[1], "a busca por palavra")  # F-20261023-CLAUDE-02
     mx = int(argv[argv.index("--max") + 1]) if "--max" in argv else 30
     pares = [a for a in argv[1:] if "=" in a and not a.startswith("--")]
     out = []

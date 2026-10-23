@@ -112,3 +112,11 @@ Gerado por `python3 -m nebli.exemplares` a partir dos cards que Davi marcou com 
 - card 1792588686972 / note 1792588686964 (2026-uc07; 2026-10-22)
   - Frente: Cada nervo espinal forma-se pela união de: / 1. Raiz {{c2::anterior}}— axônios {{c1::eferentes}} / 2. Raiz {{c2::posterior}} — axônios {{c1::aferentes}}
   - Verso: O mesmo índice oculta os dois lados do contraste, evitando que um entregue a resposta do outro. / / [IMG kh-anterior-root-of-spinal-nerve.jpg]
+- card 1792572870692 / note 1792572870692 (2026-uc07-cerebelo-cortex-cerebelar; 2026-10-23)
+  - Frente: .card { font-family: Helvetica, Arial, sans-serif; text-align: center; color: black; background-color: white; margin: 0; padding: 4px; } .nightMode .card, .night_mode .card { color: #eee; background-color: #2b2b2b; } /* topo de altura fixa: a figura não pula ao virar o card e o nome nunca exige rola
+- card 1791000306802 / note 1791000306802 (2026-uc08-fisiologia-05-digestao-absorcao-nutrientes; 2026-10-23)
+  - Frente: Which monosaccharide(s) are extruded from the intestinal cell into the blood by GLUT-2? / {{c1::Glucose, galactose, and fructose}}
+  - Verso: [IMG 28f38c4892f40525fdb651ffa8badb2d.png] / / All three monosaccharides leave through the same basolateral carrier
+- card 1791631347467 / note 1791631347467 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; 2026-10-23)
+  - Frente: HDAC inhibitors prevent histones from being {{c1::deacetylated}} resulting in genes such as tumor suppressors being {{c2::transcribed}}
+  - Verso: [IMG a4794dc612338ff62357e1a81d0dea71.jpg] / / - Approved for some lymphomas and multiple myeloma

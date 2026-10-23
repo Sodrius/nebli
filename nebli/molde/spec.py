@@ -6,7 +6,7 @@ HERE = _pl.Path(__file__).parent
 _sys.path.insert(0, str(HERE.parents[1]))
 from nebli.spec_lib import ak, au, sh, ORG, finalizar  # todos os irmãos, cor pela rubrica, dica de 1ª letra, busca por autoral
 
-PIPELINE_VERSAO = 6  # 5 = compreensao-aula.json + fidelidade ao slide, autoral sem teto (F-20261022-CLAUDE-06); 6 = processo por bloco + reconstruções das provas + cloze não genérico (F-20261022-CLAUDE-08)
+PIPELINE_VERSAO = 7  # 6 = processo por bloco + reconstruções + cloze não genérico; 7 = passo a passo registrado (nebli.etapa), aprender por bloco, GUIA_CARDS, lint v7, figura em aula visual, referência consultada (F-20261023-CLAUDE-01/02/03)
 SECOES_DA_AULA = []  # arquivos de busca/secoes/ cujo assunto É o da aula (F-20261016-CLAUDE-06: todo AnKing do conteúdo entra, sem limite)
 AUTORAL_EXCECAO = ""  # só corridas com PIPELINE_VERSAO < 5; na 5 o autoral não tem teto, mas cada um prova lacuna em todos os acervos
 PIPELINE = "anking-primeiro"  # F-20261015-CLAUDE-06: liga os gates duros (cobertura_anking, cores_rubrica, inducao_clozes); não remover

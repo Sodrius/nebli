@@ -8,10 +8,11 @@
   {"laminas": [1, 7], "titulo": "<título do bloco>", "papel": "motivacao|principio|exemplo|resumo|repeticao",
    "o_que_o_professor_ensina": "<o que ele está ensinando com estas lâminas; princípio antes do exemplo>",
    "processo": "<o processo em si: o que acontece, como, por quê e o que muda se falhar — não o título da lâmina>",
+   "aprender": ["<o que o professor quer que se aprenda neste bloco, conferido no slide>"], "ilustra": "<só em bloco de exemplo: lâmina inicial do princípio que ele ilustra>",
    "principio": "<o princípio do bloco, se houver>", "exemplos": ["<exemplo usado para ilustrar>"],
    "cards_exemplo": [], "cards_associados": [], "sem_card": "", "motivo_exemplos": ""}
  ],
  "fidelidade": {"_como": "preencher ao fechar o deck, relendo o slide bloco a bloco contra os cards vivos",
-  "blocos": [{"laminas": [1, 7], "bate": true, "nota": "<o que confere e o que foi corrigido>"}],
+  "blocos": [{"laminas": [1, 7], "bate": true, "nota": "<nota própria do bloco (≥ 80): o que o slide ensina × o que os cards cobram, o que foi corrigido>", "cards_conferidos": []}],
   "conclusao": "<o deck acompanha a aula em ordem e conteúdo? algum exemplo virou carro-chefe? algo de fora entrou?>"}
 }

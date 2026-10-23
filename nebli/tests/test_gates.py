@@ -137,7 +137,7 @@ class GatesTests(unittest.TestCase):
             result = dict(gates.sources(run, data))
             self.assertFalse(result["caoc: consultado, ou busca no Drive registrada"])
             self.assertFalse(result["fonte obrigatória veteranos: leitura integral rastreável e contribuição ao plano"])
-            self.assertFalse(result["canais que Davi acompanha: pelo menos 3 aulas com transcrição lida"])
+            self.assertFalse(next(v for k, v in result.items() if k.startswith("canais que Davi acompanha")))
             data["canais"].pop(); data["livros"][0]["lido"] = False
             failed = [k for k, ok in gates.sources(run, data) if not ok]
             self.assertIn("bibliografia da UC: capítulo da aula extraído e lido", failed)
@@ -191,7 +191,7 @@ class GatesTests(unittest.TestCase):
                 "provas": {"estado": "consultada"}, "exercicios": {"estado": "consultada"}, "caoc": {"estado": "consultada"}
             }
             result = dict(gates.sources(run, data))
-            self.assertFalse(result["canais que Davi acompanha: pelo menos 3 aulas com transcrição lida"])
+            self.assertFalse(next(v for k, v in result.items() if k.startswith("canais que Davi acompanha")))
 
 
     def test_frontier_cases_required_only_with_percurso(self):
@@ -202,6 +202,40 @@ class GatesTests(unittest.TestCase):
             self.assertFalse(gates.frontier_cases(run)[1])
             (run / "percurso-aula.md").write_text("# Percurso\n\n## Casos de fronteira\n\nnenhum\n")
             self.assertTrue(gates.frontier_cases(run)[1])
+
+    def test_passo_a_passo_v7(self):
+        from nebli import etapa
+        with tempfile.TemporaryDirectory() as tmp:
+            run = Path(tmp)
+            comp = {"o_que_a_aula_ensina": "x" * 160, "blocos": [
+                {"laminas": [1, 5], "papel": "principio", "aprender": ["virulence is the relative ability to cause disease"]},
+                {"laminas": [6, 9], "papel": "exemplo", "ilustra": 1, "aprender": ["rotavirus NSP4 raises calcium and causes diarrhea"]}]}
+            (run / "compreensao-aula.json").write_text(json.dumps(comp))
+            ent = lambda k, s: {"key": k, "evid": f"Slide {s}", "cards": [{"n": 1}]}
+            plan = {"entries": [ent("a", 2)] + [ent(f"r{i}", 7) for i in range(5)], "compartilhados": {}}
+            (run / "mapa-de-profundidade.json").write_text(json.dumps({"passos": [{"itens": [{"cards": ["a", "r0"]}]}]}))
+            res = gates.passo_a_passo_pre(run, plan)[0]
+            self.assertFalse(res[1])
+            self.assertIn("supera o princípio", res[0]); self.assertIn("fora de qualquer item", res[0]); self.assertIn("etapas", res[0])
+            with self.assertRaises(SystemExit):
+                etapa.registrar(run, "E2", "compreensão escrita bloco a bloco conferindo cada lâmina")
+
+    def test_v7_comentarios_23_10(self):
+        from nebli import lint_cards
+        self.assertTrue(any("símbolo" in m for _, m in lint_cards.check_v7('<div data-nebli-organizacao="true"><b>Clearance</b>:<br>- high E: {{c1::<b>flow</b>}}</div>')))
+        self.assertTrue(any("negrito" in m for _, m in lint_cards.check_v7("The portal is the {{c1::<b>respiratory</b>}} tract")))
+        self.assertTrue(any("tópicos" in m for _, m in lint_cards.check_v7("<b>Tube</b> gives {{c1::a}}, {{c2::b}} and {{c3::c}}")))
+        self.assertEqual(lint_cards.check_v7("<b>Rotavirus</b> lowers Na+ and {{c1::<b>K+</b>}} in B cells of hepatitis B"), [])
+        plan = {"lesson_id": "2026-uc08-biocel-10-embriologia", "pipeline_versao": 7,
+                "entries": [{"key": "au-x", "origin": "Autoral", "fields": {"Text": "The <b>liver</b> forms the {{c1::<b>bud</b>}}", "Extra": "- x"}}]}
+        with tempfile.TemporaryDirectory() as tmp:
+            res = dict((m.split(":")[0], ok) for m, ok in gates.v7_pre(tmp, plan))
+            self.assertFalse(res["[duro] aula visual (anatomia, embriologia, histologia)"])
+            self.assertFalse(res["[duro] autoral de embriologia diz na frente que é desenvolvimento (embryo, bud, week, primitive…)"])
+            self.assertFalse(all(ok for _, ok in gates.v7_pre(tmp, plan)))
+            self.assertFalse(gates.v7_pos(tmp, plan)[0][1])
+            Path(tmp, "REVISAO-AUTORAIS.md").write_text("## Revisão final no deck vivo\n- au-x — escrita: ok — cloze: ok — aprofundamento: ok — negrito: ok\n")
+            self.assertTrue(gates.v7_pos(tmp, plan)[0][1])
 
 
 if __name__ == "__main__":

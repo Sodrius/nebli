@@ -27,7 +27,7 @@ def cobertura(run, dec):
     for l in (run / "busca" / "semantica.jsonl").read_text(encoding="utf-8").splitlines():
         d = json.loads(l); sem[d["chave"]] = d
     rows = ["chave\tconceito\tfonte_aula\tveredito\tlidos\tdecora\tdecisao"]
-    rev = [f"# Revisão dos autorais — {plan.get('lesson_id')}", "", "Cada autoral relido contra EXEMPLARES-CARDS e ANTI-EXEMPLARES-CARDS §1–16 (busca/cobertura.tsv: lacuna ou parcial).", ""]
+    rev = [f"# Revisão dos autorais — {plan.get('lesson_id')}", "", "Cada autoral relido contra GUIA_CARDS.md §1–16 (busca/cobertura.tsv: lacuna ou parcial).", ""]
     falta = []
     for e in plan["entries"]:
         k = e["key"]; base = [k, e.get("alvo") or k, e.get("evid") or ""]
@@ -39,7 +39,7 @@ def cobertura(run, dec):
             cl = [re.sub(r"::.*", "", c) for c in re.findall(r"\{\{c\d+::(.*?)\}\}", e["fields"]["Text"])]
             dec_txt = re.sub(r"<[^>]+>", "", cl[0]).strip()
             rows.append("\t".join(base + [v, lidos, dec_txt, dec_]))
-            rev.append(f"- {k} — par: ANTI-EXEMPLARES §1–16 e os clozes curtos e organizadores dos EXEMPLARES — decora: {dec_txt} — ok")
+            rev.append(f"- {k} — par: GUIA_CARDS.md (exemplar e anti do mesmo caso) — decora: {dec_txt} — ok")
         else:
             rows.append("\t".join(base + ["coberto", "", "", "card de acervo achado por seção, palavra-chave ou significado"]))
     if falta:
