@@ -22,6 +22,83 @@ class GatesTests(unittest.TestCase):
         plan.pop("busca_externos")
         self.assertFalse(gates.author_volume_supported(plan))
 
+    def test_tres_guias_lidos_inteiros_na_versao_vigente(self):
+        # F-20261029-CLAUDE-01: em corrida v9 a leitura obrigatória são os três guias, inteiros e na versão vigente.
+        with tempfile.TemporaryDirectory() as d:
+            run = Path(d)
+            (run / "spec.py").write_text("PIPELINE_VERSAO = 9\n")
+            base = Path(gates.__file__).resolve().parent.parent / "flashcards" / "projeto"
+            guia = base / "GUIA_CARDS.md"
+            ap = ["aprendizado concreto com mais de cinquenta caracteres de comprimento %d" % i for i in range(5)]
+            dados = {"guia_sha256": hashlib.sha256(guia.read_bytes()).hexdigest(), "aprendizados": ap}
+            (run / "exemplares-lidos.json").write_text(json.dumps(dados))
+            lido = lambda: next(ok for k, ok in gates.exemplares_lidos(run) if "três guias" in k)
+            self.assertFalse(lido())
+            dados["guias_sha256"] = {n: hashlib.sha256((base / n).read_bytes()).hexdigest() for n in gates.GUIAS}
+            dados["guias_aprendizados"] = {n: ap[:2] for n in gates.GUIAS}
+            (run / "exemplares-lidos.json").write_text(json.dumps(dados))
+            self.assertTrue(lido())
+            dados["guias_sha256"][gates.GUIAS[0]] = "0" * 64
+            (run / "exemplares-lidos.json").write_text(json.dumps(dados))
+            self.assertFalse(lido())
+
+    def test_leitura_obrigatoria_v10_exige_todos_os_arquivos_e_feedbacks_novos(self):
+        # F-20261029-CLAUDE-03: guias, guia da aula, MEMORY, pipeline, rubrica e calibração inteiros + FEEDBACKS até a mais recente.
+        with tempfile.TemporaryDirectory() as d:
+            run = Path(d)
+            (run / "spec.py").write_text("PIPELINE_VERSAO = 10\n")
+            raiz = Path(gates.__file__).resolve().parent.parent
+            ap = ["aprendizado concreto com mais de cinquenta caracteres de comprimento %d" % i for i in range(5)]
+            dados = {}
+            (run / "exemplares-lidos.json").write_text(json.dumps(dados))
+            lido = lambda: next(ok for k, ok in gates.exemplares_lidos(run) if "leitura obrigatória" in k)
+            self.assertFalse(lido())  # nunca passa no vazio
+            dados = {"guias_sha256": {n: hashlib.sha256((raiz / "flashcards/projeto" / n).read_bytes()).hexdigest() for n in gates.GUIAS},
+                     "guias_aprendizados": {n: ap[:2] for n in gates.GUIAS},
+                     "leitura_sha256": {r: hashlib.sha256((raiz / r).read_bytes()).hexdigest() for r in gates.LEITURA_OBRIGATORIA},
+                     "leitura_aprendizados": {r: ap[:2] for r in gates.LEITURA_OBRIGATORIA},
+                     "feedbacks_lidos_ate": gates.ultimo_feedback()}
+            (run / "exemplares-lidos.json").write_text(json.dumps(dados))
+            self.assertTrue(lido())
+            dados["leitura_sha256"]["MEMORY.md"] = "0" * 64
+            (run / "exemplares-lidos.json").write_text(json.dumps(dados))
+            self.assertFalse(lido())
+            dados["leitura_sha256"]["MEMORY.md"] = hashlib.sha256((raiz / "MEMORY.md").read_bytes()).hexdigest()
+            dados["feedbacks_lidos_ate"] = "F-20261001-CLAUDE-01"
+            (run / "exemplares-lidos.json").write_text(json.dumps(dados))
+            self.assertFalse(lido())
+
+    def test_exemplo_do_professor_nao_vira_principio_nem_carro_chefe(self):
+        # F-20261029-CLAUDE-03: a 61 v2 marcou “o exemplo da hepatite” como princípio e o deck virou de hepatite.
+        with tempfile.TemporaryDirectory() as d:
+            run = Path(d)
+            (run / "spec.py").write_text("PIPELINE_VERSAO = 10\n")
+            (run / "fontes").mkdir()
+            (run / "fontes" / "slides.txt").write_text(
+                "===== página 1 =====\nx@usp.br\nEfeitos dos vírus sobre a célula\n\n"
+                "===== página 2 =====\nx@usp.br\nA combinação de tudo… o exemplo da hepatite\n• Efeito Citopático\n")
+            (run / "fontes" / "transcricao.txt").write_text("o professor fala da hepatite como caso para juntar tudo")
+            pr = {"laminas": [1, 1], "papel": "principio", "aprender": ["efeito direto do vírus sobre a célula"]}
+            ruim = {"laminas": [2, 2], "papel": "principio", "aprender": ["vidro fosco é HBsAg acumulado"]}
+            comp = {"o_que_a_aula_ensina": "x" * 160, "blocos": [pr, ruim]}
+            (run / "compreensao-aula.json").write_text(json.dumps(comp))
+            from nebli import etapa
+            self.assertTrue(any("exemplo" in p for p in etapa.problemas_compreensao(run)))  # a E2 recusa
+            bom = {"laminas": [2, 2], "papel": "exemplo", "ilustra": 1, "aprender": ["proteína viral acumulada é efeito citopático"],
+                   "principios_ilustrados": [{"principio": "componente viral feito em excesso se acumula na célula (efeito citopático)",
+                                              "cards": ["au-vidro"]}]}
+            comp["blocos"] = [pr, bom]
+            (run / "compreensao-aula.json").write_text(json.dumps(comp))
+            self.assertEqual(etapa.problemas_compreensao(run), [])
+            plan = {"entries": [{"key": "au-ef", "evid": "slide 1"}, {"key": "au-ef2", "evid": "slide 1"},
+                                {"key": "au-vidro", "evid": "slide 2"}]}
+            self.assertTrue(gates.exemplo_da_aula(run, plan)[0][1])
+            plan["entries"].append({"key": "ak-hbv", "evid": "slide 2"})  # ficha da doença sem princípio, e o exemplo empata
+            msg, ok = gates.exemplo_da_aula(run, plan)[0]
+            self.assertFalse(ok)
+            self.assertIn("ak-hbv", msg)
+            self.assertFalse(gates.exemplo_da_aula(run, {"entries": []})[0][1])
+
     def test_compreensao_da_aula_blocks_example_before_principle_and_cards_outside_blocks(self):
         with tempfile.TemporaryDirectory() as d:
             run = Path(d)

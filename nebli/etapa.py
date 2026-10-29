@@ -48,6 +48,57 @@ def problemas_compreensao(run: Path):
                 probs.append(f"bloco {b.get('laminas')} sem 'aprender' (o que o professor quer que se aprenda ali, conferido no slide)")
             if b.get("papel") == "exemplo" and not b.get("ilustra"):
                 probs.append(f"bloco de exemplo {b.get('laminas')} sem 'ilustra' (a lâmina inicial do bloco de princípio que ele ilustra)")
+    if versao(run) >= 10:
+        probs += problemas_exemplo_da_aula(run)
+    return probs
+
+
+ROTULO_EXEMPLO = re.compile(r"\bexemplo|\bexemplifica|\bilustra|caso cl[ií]nico|combina[çc][ãa]o de tudo", re.I)
+
+
+def _paginas_slides(run: Path):
+    try:
+        txt = (Path(run) / "fontes" / "slides.txt").read_text(encoding="utf-8")
+    except OSError:
+        return None
+    pags = {}
+    for m in re.finditer(r"=+\s*p[áa]gina\s+(\d+)\s*=+\n(.*?)(?=\n=+\s*p[áa]gina|\Z)", txt, re.S | re.I):
+        pags[int(m.group(1))] = "\n".join(l for l in m.group(2).splitlines() if "@" not in l)
+    return pags
+
+
+def problemas_exemplo_da_aula(run: Path):
+    """F-20261029-CLAUDE-03 (61 virou deck de hepatite): “VIROU UM DECK DE HEPATITE, MAS ISSO ERA SÓ PARA ILUSTRAR / O COMEÇO DA AULA
+    É MAIS IMPORTANTE”. Lâmina que o próprio professor chama de exemplo (“o exemplo da hepatite”, “caso clínico”, “combinação de
+    tudo”) é bloco de papel 'exemplo', nunca 'principio'. Só sai disso com `rotulo_exemplo_e_conteudo` (≥ 80 caracteres) MAIS
+    `trecho_transcricao` literal da transcrição mostrando que o professor trata os casos como o conteúdo (58: cada família resolve um
+    problema). Todo bloco de exemplo declara `principios_ilustrados`: o princípio geral (≥ 40 caracteres) que cada card carrega."""
+    run = Path(run)
+    try:
+        d = json.loads((run / "compreensao-aula.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return ["compreensao-aula.json ausente"]
+    pags = _paginas_slides(run)
+    if not pags:
+        return ["fontes/slides.txt ausente ou sem '===== página N =====': o rótulo de exemplo do professor não pôde ser conferido"]
+    try:
+        transc = re.sub(r"\s+", " ", (run / "fontes" / "transcricao.txt").read_text(encoding="utf-8")).lower()
+    except OSError:
+        transc = ""
+    probs = []
+    for b in d.get("blocos", []):
+        a, z = (list(b.get("laminas") or [0, 0]) + [0, 0])[:2]
+        rot = sorted({ROTULO_EXEMPLO.search(pags.get(p, "")).group(0) for p in range(int(a), int(z) + 1)
+                      if ROTULO_EXEMPLO.search(pags.get(p, ""))})
+        if rot and b.get("papel") not in ("exemplo", "motivacao", "resumo", "repeticao"):
+            trecho = re.sub(r"\s+", " ", str(b.get("trecho_transcricao", ""))).strip().lower()
+            if not (len(str(b.get("rotulo_exemplo_e_conteudo", "")).strip()) >= 80 and len(trecho) >= 40 and trecho in transc):
+                probs.append(f"lâminas {a}-{z}: o slide diz '{rot[0]}', mas o bloco está como '{b.get('papel')}' (exemplo do professor "
+                             "é papel 'exemplo'; F-20261029-CLAUDE-03)")
+        if b.get("papel") == "exemplo":
+            pis = [p for p in b.get("principios_ilustrados", []) if isinstance(p, dict)]
+            if not pis or any(len(str(p.get("principio", "")).strip()) < 40 for p in pis):
+                probs.append(f"bloco de exemplo {a}-{z} sem 'principios_ilustrados' (o princípio geral, ≥ 40 caracteres, que cada card carrega)")
     return probs
 
 
@@ -106,6 +157,11 @@ def registrar(run: Path, etapa: str, nota: str):
     arts = {a: _sha(run / a) for a in precisa}
     if any(v is None for v in arts.values()):
         raise SystemExit(f"{etapa} sem artefato: {[a for a, v in arts.items() if v is None]}")
+    if etapa == "E0" and versao(run) >= 10:  # F-20261029-CLAUDE-03: sem a leitura obrigatória inteira, a corrida não abre
+        from nebli import gates
+        ruins = [k for k, ok in gates.exemplares_lidos(run) if not ok]
+        if ruins:
+            raise SystemExit("leitura obrigatória incompleta: " + "; ".join(ruins[:3]))
     if etapa == "E2":
         probs = problemas_compreensao(run)
         if probs:

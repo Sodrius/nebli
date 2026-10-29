@@ -1,4 +1,31 @@
 # Feedbacks — registro único e testes de regressão
+
+## F-20261027-CODEX-02 — novos comentários, cards próximos, guias e sync
+
+Pedido literal: “tem novos comentários / ajusta, ajusta os cards próximos, coloca nos guias, não comete os mesmos erros, entende o pq do erro e dá sync”. Vale também o pedido anterior: “revisa, corrige, corrige os cards que tiverem o mesmo erro, coloca no exemplares e anti-exemplares (gostei vira exemplar, com elogio) também / já deixa na memória isso como pipeline de correção de cards / já aprende para não ter os mesmos erros”.
+
+Aplicação: 32 comentários novos coletados, 35 notas tratadas (34 com campos alterados) incluindo próximos e respostas, 7 redundâncias suspensas sem exclusão, 33 Tabs refeitos, 4 figuras novas. Um card próximo de tronco encefálico tinha limite superior impreciso e foi corrigido durante a revisão da Tab. Dois cards redundantes receberam resposta explícita antes de serem suspensos. Fonte, comentário literal, antes/depois e motivo em [CORRECOES-COMENTADAS-2026-10-27-TARDE.md](CORRECOES-COMENTADAS-2026-10-27-TARDE.md). A interface de atalhos foi instalada em disco e exige reiniciar o Anki para valer; por isso os comentários sobre ela não recebem marcador de conclusão. Sync concluída via AnkiConnect após confirmar ausência de card em revisão; retorno sem erro registrado no recibo da corrida. Coletor corrigido para não registrar os marcadores de correção como 33 comentários novos; entradas duplicadas retiradas do registro e guardadas na corrida para auditoria. Nova coleta: 0 comentários novos.
+
+## F-20261025-CODEX-01 — pesquisa, perguntas com exemplos e plano posterior para qualidade duradoura
+
+Pedido recebido em 24/10 e retomado em 25/10. Literal:
+
+> então faz o seguinte:
+> organiza essas ideias em uma série de perguntas já com exemplos para me fazer, de forma que fique fácil de eu responder e que vá poder gerar um exemplar extenso para melhorarmos a qualidade dos cards
+> daí, organiza essas ideias para serem sempre aplicadas
+> ou seja, me faz perguntas para asjutar aquelas coisas em que há dúvida (ttipo melhores posições do negrito)
+> depois que eu resopnder, monta um plano para ajustarmos e corrigirmos esse probleam
+>
+> quero que você pesquise estudos sobre estudos em medicina, anki, elite acadêmica... + reddit + yt + git
+> com isso tudo, vamos ajustar o pipelien para ficar mais útil, conforme vocÊ colocou
+> vários desses problemas concordo, quero que aderecemos todos
+> gostei do 1 ao 7
+> não sei a ordem que devemos fazer, que foi o final da sua msg, mas gostei das ideias
+> vamos seguri
+> quero realmente conseguir estudar com flashcard para aprender a longo prazo
+
+Aplicação nesta etapa: pesquisa dirigida e 20 perguntas comparativas registradas em `PESQUISA-APRENDIZAGEM-2026-10-25.md` e `CALIBRACAO-QUALIDADE-2026-10-25.md`. Os sete pontos são: compreensão da aula, limites dos gates, autoria, contradições normativas, aprendizado dos feedbacks, profundidade/continuidade e imagens. Respostas pendentes; plano posterior; nenhum card, preset ou gate alterado. Integrar depois os exemplos aprovados e casos-limite ao mecanismo existente do GUIA_CARDS, preservando literal e estado de aprovação. Pesquisa não equivale a norma aceita.
+
 Atualizado em 29/09/2026. Ler antes de produzir e antes de fechar. Preferências vigentes no MEMORY.md da raiz; aqui ficam **problema, caso e comportamento que não pode regredir**. Não apagar feedback ao corrigir um card. Corrigido localmente não significa resolvido em todo o acervo.
 
 ## Como registrar
@@ -642,3 +669,186 @@ ficaram coisas away, faltaram outro conceitos centrais, não excluiu os cards, s
 - **F-20261023-CLAUDE-04 — autoral só nasce de uma motivação (necessidade de manter um conceito a longo prazo); qualidade rigorosa; refazer os três de Biomol, começando pelo de RNA.** Literal (23/10): “autorais ainda estão fracos, vários / a sequência de cada deck, quando há mts autorais, tem sofrido / decks de biomol são exemplo / há cards avulsos. suspendi boa parte do deck por serem card ruins, que não me ajudam a gravar os mecanismos da aula a longo prazo / queria consertar isso: que cada autoral tivesse uma motivação para existir (a ordem é: identificação de motivação para existência de um card autoral → criação do card → garantia que está nos padrões e com bom custo-efetividade). (ISSO TEM QUE VIRAR GATE-HARD, não termina sm) / a necessidade de manter um conceito a longo prazo gera o autoral, o autoral não é justificado depois de feito (ISSO É GATE-HARD TAMBÉM) / também a análise de qualidade do autoral deve ser rigorosa, passando por gate de escrita, didática, indução e quantidade de conteúdo. ele tem que realmente ser útil a longo prazo e encaixar no deck (ISSO É GATE-HARD TAMBÉM) (todo card, na realidade, vem de uma demanda da aula, mas no anking há mais flexibilidade, SEM SAIR DO ESCOPO DA AULA ou NÃO ENTENDER DO QUE A AULA SE TRATA, CLARO) / analisa os decks, o que suspendi, para compreender o que estou dizendo. ficaram decks fraquíssimos / o claude tem que ser proativo e, seguindo o passo a passo, identificar, definir e cumprir no deck o que realmente preciso seguir de conteúdo / isso para os três de biomol / refaz os de biomol, começando pelo de RNA e implementa essas mudanças no pipeline” e “GOstei mt do deck de patologia novo!!!!!!”. **Análise dos suspensos (46 e 52):** Davi suspendeu moldura genérica sem mecanismo (mesmo genoma, níveis de controle, regulação na iniciação, dezenas de fatores), nomes soltos de uma cadeia picada em vários cards (TFIID, TFIIB, BRE, cauda), detalhe de experimento (Gal4/UAS, LexA, Pho4, geleia real, gêmeos, iPS), número ou definição isolada (80% CpG, HAT/HDAC como definição, constitutiva × facultativa, HP1, bromodomínio) e repetidos; manteve o que carrega mecanismo com consequência e se encaixa na história (acetilação abre, inibidor de HDAC, metiltransferase de manutenção, repressor recruta HDAC, domínios do ativador, FOXO1 com desfecho). **Aplicação:** pipeline v8 — `motivacoes.json` na E3 (congelado pelo `nebli.etapa`), cada autoral aponta para uma motivação congelada; toda motivação é atendida no deck (AnKing ou autoral); `qualidade-autorais.json` com escrita, didática, indução, quantidade de conteúdo, longo prazo e encaixe, mais checagens mecânicas; suspensos de Davi entram no GUIA_CARDS. A 61 nova é o modelo positivo.
 
 - **F-20261023-CLAUDE-05 — verso do autoral melhor, sem travessão; organizador com todos os clozes no mesmo índice.** Literal (23/10): “gostei, só sinto que os comentários do verso ainda não vem tão bons / tira o travessão dos comentários também, não tem porquê / tem como pôr mais clozes por autoral organizador (1 1 1 ao invés de 1 2 3) / arruma isso e continua no que estava fazendo, ficou bom”. **Aplicação:** (1) lint v8 `check_v8`: o Extra do autoral não leva “—”, “–” nem tópico com “- ”; escreve-se em frases curtas, uma por linha, com o porquê, a consequência ou um gancho (analogia, prova, aula vizinha) que a frente não tem; (2) gate `inducao_clozes` v8: organizador com todos os clozes no índice 1, com a 1ª letra de dica em cada lacuna, em vez de c1, c2, c3; (3) refeitos o verso e o organizador da 54, e tirados travessão e índices das 59 e 61 por delta (nota já estudada fica como está).
+# F-20261024-CODEX-01 — comentários primeiro, correção por família, mega add-on e zoom
+
+Literal de Davi: “faz um plano para eu conseguir upar tudo dos add-ons que usamos num mega add-on de forma fácil para alguém só baixar do git ou ela usar um código / mínimo de trabalho possível / pesquisa no git e no reddit como fazer / também ajusta todos os comentários com mt qualidade, anota os erros e arruma os cards similares que tem o mesmo tipo de problema, para termos um deck de alto nível / faz primiero esse segundo pedido com qualidade / estou usando mt o anki, não fica mexendo / também adiciona no add-on para eu mudar o zoom do anki com ctrl + ou ctrl -”.
+
+Aplicação: comentários acionáveis serão agrupados por família, corrigidos junto dos similares e gravados numa única janela curta por `nebli.decks.escrita()`, excluindo nota em tela e irmãos, sem sync. `Ctrl +` e `Ctrl -` passam a controlar o zoom da revisão no add-on consolidável. Depois da correção, pesquisa GitHub + Reddit fundamentará um plano de instalação do conjunto de add-ons com o menor atrito possível.
+
+# F-20261024-CODEX-02 — comentários novos, revisão dos similares, Tabs profundos e autorais AnKing-like
+
+Literal de Davi: “olha os novos, ajeita tudo, deixa guardado nos exemplares, faz a análise para o tipo de erro que está acontecendo, corrige os outros cards do mesmo deck que tem o mesmo defeito ou que vc vê que pode melhorar e aplica / já regera o tab para cada uma das modificações / também sinto que os tabs ficaram pouco aprofundados / o principal erro dos autorais é não serem anking like”.
+
+Aplicação: a unidade de correção é a família no deck, não só a nota comentada. Todo autoral dos decks atingidos será revisto contra o gesto AnKing (contexto discriminante, alvo atômico, indução única, linguagem natural e Extra que aprofunda sem repetir); os erros e versões ruins vão para ANTI-EXEMPLARES, as boas e corrigidas para EXEMPLARES. Toda nota modificada invalida e regenera todos os seus Tabs, com terceiro parágrafo mais aprofundado e mecanismo/relação além da resposta. Escrita em uma única janela curta, sem sync e excluindo a nota em tela e irmãos.
+
+
+## F-20261025-CODEX-02 — calibração, revisor e correção ampla
+
+Fala literal de Davi:
+
+> 1 C, fica bem melhor
+> 2 A
+> 3 C
+> 4 C
+> 5 C
+> 6 B, a c facilita demais
+> 7 B, mas os organizadores tem variado em qualidade, observa nos próprios cards que marquei e fiz
+> 8 A
+> 9 C, no geral; para esse caso específico seria A, porque explica mais informações
+> 10 B, depois A
+> 11 B
+> 12 tudo isso
+> 13 B e C. às vezes A (isso é bem importante de resolver, mas não sei como)
+> 14 não entendi a pergunta e nem sei a respsota. acho que essa pergunta é ruim, porque não é clara
+> 15 B e C
+> 16 A
+> 17 A, no geral. excesso de informação só me faz não olhar a imagem
+> 18 A
+> 19 D
+> 20 A e C
+>
+> faz um estudo de tudo que já deixei de feedback no anki + meus dados sobre os cards, para compreender como fazer bons cards
+> aprende também com as melhoras que fiz nos cards
+> monta um agente que avalia o card autoral para ver se tá com a qualidade que quero (faz teste cego para treiná-lo e calibrá-lo). assim, ele pode entrar no pipelien como revisor dos autorais todos, para subir o nível de qualidade deles
+> estamos melhorando os autorais, mas lembra que anking e referências externas são PRIORIDADE SUPREMA (GATE HARD DISSO É ESSENCIAL, SEMPRE CONFERIR ESSES DECKS COM AMPLITUDE)
+> também deixei vários comentários no anki para serem corrigidos. corrige o que deixei + todos os cards com o mesmo defeito, faz uma busca ampla
+> deixa evidente nos exemplares, anti-exemplares e comentários sobre eles o que está funcionado e o que não está
+> pode fazer uma organização na memória conflitante para parar de ser conflitante
+> não fica mexendo no anki, porque estou usando
+> mexe só uma vez, no final
+>
+> com tudo isso, depois termina o que estávamso fazendo para realmente suprir os defeitos que conversamos no início
+
+Aplicação em andamento, sem declarar correções vivas antes de readback. Q14 não é decisão; corrigido pelo executor não equivale a aprovado por Davi. Memória §1/5/6/7/10 e pipeline v9. Pesquisa distingue estudos, relatos e material de implementação; calibração do agente ajusta rubrica, não pesos de modelo.
+
+
+## F-20261026-CODEX-01 — comentários novos durante a revisão
+
+Falas literais do campo NEBLI_Comentario, com histórico preservado; corte de coleta em 26/10. Não indicam aplicação concluída.
+
+### note 1791625429033
+TEM UM CARD PARA IL2 E UM PARA IL12 QUE FICAM SE CONFUNDIDO, ALTERA OS DOIS PARA FAZEREM MAIS SENTIDO<br><br>OS CARDS AUTORAIS PODEM IR MAIS PROFUNDOS TAMBÉM
+
+### note 1791625431383
+MELHOREI O CARD
+
+### note 1791625435907
+poderia ser um card que explica mais<br>CORRIGIDO, 23, 10, 26.<br><br>card obviamente dá a resopsta nela mesma<br>ficou mal escrito<br>tirar esses travessões de todos os comentários e deixra eles diretos<br>CORRIGIDO, 24, 10, 26.<br>cloze mt grande<br><br>card mal escrito
+
+### note 1791628675198
+COMENTÁRIO PODE AGREGAR ALGO SOBRE A DOENÇA REALMENTE
+
+### note 1791629587148
+tem que ter um card detalhado com toda a sequeência do que tem numa cél b e o que não tem, para aposentar esse tanto de card avulso sobre isso
+
+### note 1791629593971
+FOTO<br>CORRIGIDO, 22, 10, 26.<br><br>falta mencionar a diferença de folículo e germinal center
+
+### note 1792487516279
+FALTA QUE ESSE CARD TENHA MAIS DETALHES DE CADA TIPO, PODE REALMENTE SER DIFERENTE + FALTA COMENTÁRIO QUE AGREGUE
+
+### note 1792659587475
+NEGRITO<br>pode aprofundar e melhorar escrita<br><br>gate-hard: cada autoral tem que ser inspirado num exemplar específico, para tentar sair como modelo, mas mudando o conteúdo<br>gate-hard: cada autoral deve ser revisto no fim para boa escrita, cloze no local adequado, aprofundamento grande e negrito<br>CORRIGIDO, 23, 10, 26.<br><br>CARD mal escrito<br>imagem pequena, arruma toda as imagens desse tamanho<br>tá faltando renderizar o card após fazê-lo<br><br>aumentar imagem
+
+### note 1792659588301
+melhorei o negrito<br>imagem
+
+### note 1792659591802
+IMAGEM<br>CORRIGIDO, 24, 10, 26.<br><br>aumenta as imagens e dá um espaço entre comentário e imagem
+
+### note 1792659592051
+imagem<br>CORRIGIDO, 23, 10, 26.<br><br>imagens podem aumentar<br>CORRIGIDO, 24, 10, 26.<br><br>ESSE DECK DE EMBRIO DO INTESTINO E ESTÔMAGO TÁ TOP!!!
+
+### note 1792659592302
+IMAGEM
+
+### note 1792659597673
+IMAGEM<br>CORRIGIDO, 23, 10, 26.<br><br>imagem pequena<br>CORRIGIDO, 24, 10, 26.<br><br>imagem tem que aumentar e ter espaço
+
+### note 1792659600805
+imagem
+
+### note 1792659606977
+ficou mt simples e bobo<br>o que esse card quer ensinar
+
+### note 1792695034865
+imagem
+
+
+## F-20261026-CODEX-02 — correção por família e exemplares comentados
+
+Literal de Davi: “arruma os comentários que tem no anki seguimos o que já conversamos: tudo vira exemplar comentado e cards similares também são corrigidos + gate para aquilo que for mensurável”.
+
+Aplicação: reconciliar propostas anteriores com a coleção viva, analisar cada feedback e os similares; registrar antes/depois e a razão da correção sem confundir proposta com aprovação. Gate duro para propriedades objetivamente verificáveis; julgamento pedagógico continua por leitura.
+
+## F-20261027-CODEX-01 — pipeline de correção e elogios
+
+Fala literal de Davi:
+
+> revisa, corrige, corrige os cards que tiverem o mesmo erro, coloca no exemplares e anti-exemplares (gostei vira exemplar, com elogio) também
+> já deixa na memória isso como pipeline de correção de cards
+> já aprende para não ter os mesmos erros
+
+Aplicação: MEMORY §10 e E0 exigem consulta dos comentários/X, busca e correção de similares, registro do antes/depois e aprendizado antes do próximo deck. O `GUIA_CARDS.md` passa a mostrar explicitamente “gostei” nos 75 exemplares vivos marcados com X; outros quatro X históricos ficam identificados, sem inventar análise para cards ausentes. Na consulta de 27/10 após este pedido, zero comentários novos desde a coleta das 08h48; o lote anterior de 14 notas já tinha readback sem divergências.
+
+## F-20261028-CLAUDE-01 — embriologia do digestório é a referência; verso dos autorais com profundidade
+
+Fala literal de Davi:
+
+> deck de embrio do digestório é referência, ficou ótimo!!!!!!
+> faltou só falar um pouquinho de hormônios
+> faltou ajustar algumas imagens e uns engritos também, mas isso vamos ajustando aos poucos
+> estuda o deck e entende o que deu certo, para guardarmos para as próximas
+> pode aprofundar mais nos autorais, em especial no verso. isso digo para todos os decks. não é sobre tamanho, mas sobre profundidade
+> não muda no anki ainda, só deixa pronto para gerarmos depois os próximos decks
+
+Aplicação: referência = `NEBLI::UC08::P2::Biologia Celular::Embriologia do digestório, fígado e pâncreas` (corrida `deck-aula-uc08-bc10-figado-pancreas-embriologia-2026-10-21`). Funcionou: ordem da aula, cadeia causal entre cards (rotação do estômago → fígado/baço → bolsa omental), porquê em duas camadas (herniação do intestino médio porque o abdome é pequeno e o fígado é grande; fígado grande porque é hematopoético), verso que liga ao adulto (vago esquerdo anterior; septo transverso → tendão central e área nua), figura real do Langman. Lacuna: hormônios das ilhotas. Nenhuma alteração no Anki.
+
+## F-20261028-CLAUDE-02 — revisor aprova 90%; economia de tokens sem sair do pipeline
+
+Fala literal de Davi (28/10, depois do deck 60):
+
+> deixa o que foi aprendido na memória de forma exemplificada, para ficar mais fácil nas próximas
+> sinto que foi gasto mts tokens, ainda que a qualidade tenha ficado ótima
+> foi basicamente 10% do limite semanal para um só deck, acho que é viável diminuir isso, de alguma maneira, mas sem sair do pipeline
+> coloca que o revisor tem que aprovar 90%. então instala e pronto, fechamos
+
+Aplicação: gate `revisor_autorais.verificar` exige ≥ 90% dos autorais aprovados (`MIN_APROVACAO`); os demais ficam com problema acionável e o executor os julga em `revisao-executor-autorais.json`. Economia: gravar `fontes` (trecho + localizador) em todo `au()`, um script único para os arquivos de evidência, um só ciclo de revisor e não editar mapa/compreensão depois de preparar o pacote (o hash inclui esses arquivos). Lições com antes/depois na memória pessoal (`nebli-licoes-deck-60-e-economia-de-tokens`).
+
+## F-20261029-CLAUDE-01 — ler o guia inteiro; guia em três arquivos; deck da FC03 incompleto
+
+Fala literal de Davi (29/10):
+
+> leia sempre o guia cards inteiro, é das coisas mais importantes
+> depois vamos agrupar os exemplares para o guia ficar melhor, sem repetição e guiando mais diretamente
+> sinto que faltou buscar anking e que ficou incompleto o deck
+> pode colocar no anki: quando for assim, coloca no anki e se eu quiser trocar peço, para economizar token de ter que pedir para vc continuar
+> seguinte, você tá preguiçoso / vamos arrumar o guia cards e revisar o deck, porque faltou coisa / você não vestiu a camisa, poderia ter trabalhado melhor / O deck ainda não está bom, o guia cards pode melhorar (transforma em 3 arquivos mais direcionados diretamente para o que quero)
+
+Aplicação: `GUIA-1-REGRAS.md` (regras com a fala literal e exemplo real), `GUIA-2-EXEMPLARES.md` (modelos por padrão) e `GUIA-3-ANTI.md` (erros por família, antes → depois), escritos a partir das 418 falas únicas de `comentarios-cards.jsonl` e dos X. Gate `exemplares_lidos` (v9): sha256 de cada um dos três + aprendizados por guia. Quando só o julgamento do revisor reprova, instalar e Davi pede a troca.
+
+## F-20261029-CLAUDE-02 — cobertura da aula vem antes do teto de 30%; gravar os erros
+
+Fala literal de Davi (29/10, depois da entrega da FC03):
+
+> grava para não ter os mesmos erros e avalia se a aula toda tá coberta, que é mais importante que o teto de 30%
+
+Aplicação: MEMORY §5 (0), EXECUCAO, AGENTS e GUIA-1 reescritos: o teto (20%, 30% com exceção) nunca corta conteúdo; ordem = nova busca com sinônimos em todos os acervos → organizador → autoral, acima de 30% se preciso. Gate `autoral = X% dos cards` (v9) aceita acima de 30% com `AUTORAL_EXCECAO` ≥ 80 caracteres e todo autoral ligado a item do mapa. Erros gravados: busca curta, corte de conteúdo pelo teto, repetição (três cards de estudo cruzado), parar antes da E8.
+
+## F-20261029-CLAUDE-03 — 61 virou deck de hepatite; deck completo DA AULA; leitura obrigatória ampliada como gate duro
+
+Fala literal de Davi (29/10), feedback da sessão anterior sobre a 61 Patologia da infecção viral:
+
+> VIROU UM DECK DE HEPATITE, MAS ISSO ERA SÓ PARA ILUSRTAR
+> AJUSTA O DECK INTEIRO PARA DEIXAR DE SER DE HEPATITE E VIRAR REALMENTE DE PATOLOGIA DA INFECÇÃO VIRAL
+> O COMEÇO DA AULA É MAIS IMPORTANTE
+> decks não tem entendido o que é realmente a aula, patologia e patogênese da infecção viral são exemplos
+
+E nesta sessão:
+
+> vc também não tem entendido bem o que quero: quero que vc faça um deck completo DA AULA, sem torcar de conteúdo. para isso, precisa entender bem a aula antes, por isso o pipeline todo criado, porém muitas vezes vc nn entende
+> entenda o que quero e ajusta isso, tambêm coloca como gate-hard ler os exemplares, anti-exemplares e mais coisas que tiver nos arquivos e forem importantes para o padrão de qualidade alta
+
+Diagnóstico: na 61 v2 (23/10) as lâminas 14–29, que o professor intitula "A combinação de tudo… o exemplo da hepatite", foram marcadas como `principio` em `compreensao-aula.json`; por isso o gate "exemplo ≤ princípio" nunca disparou e metade dos cards saiu com hepatite B na frente. A lição do deck 60 ("reclassificar os vírus do estudo dirigido como princípio") foi generalizada errado. Os GUIAS 1–3 só ensinam o card, nenhum arquivo ensinava o deck.
+
+Aplicação: pipeline v10. (1) `GUIA-4-AULA.md`: compreensão da aula com exemplares e anti-exemplares de deck inteiro. (2) Gate `exemplo_da_aula` + `nebli.etapa E2` recusa: lâmina rotulada como exemplo pelo slide é papel `exemplo` (saída só com trecho literal da transcrição); cada card de bloco de exemplo declara o princípio geral que carrega (`principios_ilustrados`); blocos de princípio com mais cards que os de exemplo. (3) Leitura obrigatória v10 (`LEITURA_OBRIGATORIA`): GUIA-1 a 4, MEMORY, EXECUCAO-DECK-AULA, rubrica do revisor e CALIBRACAO-QUALIDADE inteiros (sha256 + aprendizados) e FEEDBACKS até a mais recente; `nebli.etapa E0` recusa sem isso. Testes em `nebli/tests/test_gates.py`. (4) 61 refeita no v10.

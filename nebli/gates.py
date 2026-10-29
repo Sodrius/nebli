@@ -22,6 +22,7 @@ import html
 import hashlib
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -356,11 +357,21 @@ def inventory(run, plan):
             source = json.loads(source_file.read_text(encoding="utf-8"))
             pdf = run / source.get("slides", {}).get("arquivo", "_")
             if pdf.is_file() and pdf.suffix.lower() == ".pdf":
-                import fitz
-                with fitz.open(pdf) as doc:
-                    if len(doc) != len(slides):
-                        return label, False
-        except (json.JSONDecodeError, OSError, ImportError):
+                try:
+                    import fitz
+                    with fitz.open(pdf) as doc:
+                        page_count = len(doc)
+                except ImportError:
+                    # PyMuPDF is optional on macOS; Spotlight exposes the same
+                    # page count without modifying the system Python.
+                    result = subprocess.run(
+                        ["mdls", "-raw", "-name", "kMDItemNumberOfPages", str(pdf)],
+                        capture_output=True, text=True, check=False,
+                    )
+                    page_count = int(result.stdout.strip())
+                if page_count != len(slides):
+                    return label, False
+        except (json.JSONDecodeError, OSError, ImportError, ValueError):
             return label, False
     if any(s.get("classe") not in CLASSES_SLIDE or
            (s.get("classe") == "conteudo" and not s.get("itens")) or
@@ -531,6 +542,7 @@ def bad_cloze(e):
 def past_errors(plan):
     """Erros apontados por Davi em F-20261002-CLAUDE-10 viram reprovação."""
     entries = plan["entries"]
+    v9 = int(plan.get("pipeline_versao") or 1) >= 9
     dope = [e["key"] for e in entries if e.get("origin") == "Dope" and not str(e.get("sem_alternativa", "")).strip()]
     others = {}
     for e in entries:
@@ -564,13 +576,14 @@ def past_errors(plan):
             continue
         txt = (e.get("fields") or {}).get("Text", "") or ""
         clozes = CLOZE_RE.findall(txt)
-        if any(not re.search(r"<(?:b|strong)>", c, re.I) for c in clozes):
+        if not v9 and any(not re.search(r"<(?:b|strong)>", c, re.I) for c in clozes):
             sem_negrito.append(e["key"])
-    extra += [(f"card curto: texto visível ≤ {MAX_TEXTO} caracteres fora do AnKing" + (f" (longos: {big[:4]})" if big else ""), not big),
+    extra += [(f"card curto: texto visível ≤ {MAX_TEXTO} caracteres fora do AnKing" + (f" (longos: {big[:4]})" if big else ""), not big or v9),
               ("nota do Histology entra recortada em cards de uma frase (nebli.hx_cortes)" + (f": {hxlong[:4]}" if hxlong else ""), not hxlong),
               ("cloze de palavra inteira, sem 'x ou y' nem dica '::s/::x/::related/::all/::número' fora do AnKing" + (f": {badcz[:4]}" if badcz else ""), not badcz)]
-    extra += [("[duro] toda resposta de cloze autoral está em negrito, conferida card a card"
-               + (f": {sem_negrito[:6]}" if sem_negrito else ""), not sem_negrito)]
+    if not v9:
+        extra += [("[duro] toda resposta de cloze autoral está em negrito, conferida card a card"
+                   + (f": {sem_negrito[:6]}" if sem_negrito else ""), not sem_negrito)]
     # F-20261003-CLAUDE-15: "tá faltando comentário": todo card tem no verso uma explicação curta, não só figura
     def back_text(e):
         f = e.get("fields") or {}
@@ -578,7 +591,7 @@ def past_errors(plan):
     bare = [e["key"] for e in entries if e.get("kind") in ("text", "autoral") and not back_text(e)]
     longcz = [e["key"] for e in entries if e.get("origin") != "AnKing" and e.get("kind") in ("text", "autoral") and not (e.get("kind") == "text" and e.get("manter"))
               and any(len(re.sub(r"<[^>]+>", " ", m.split("::")[0]).split()) > MAX_CLOZE for m in CLOZE_RE.findall((e.get("fields") or {}).get("Text", "") or ""))]
-    extra += [(f"cloze curto (até {MAX_CLOZE} palavras) fora do AnKing" + (f": {longcz[:4]}" if longcz else ""), not longcz)]
+    extra += [(f"cloze curto (até {MAX_CLOZE} palavras) fora do AnKing" + (f": {longcz[:4]}" if longcz else ""), not longcz or v9)]
     extra += [("verso com explicação curta (não só figura)" + (f": faltam {len(bare)} ({bare[:3]})" if bare else ""), not bare)]
     # F-20261003-CLAUDE-15: card de estrutura leva imagem (livro da UC ou AnKing; slide só sem alternativa)
     if re.search(r"anatomia|biologia-tecidual|patologia|radiologia", plan.get("lesson_id", "")):
@@ -770,7 +783,7 @@ def autorais_com_motivo(run, plan):
         f = e.get("fields") or {}
         txt = f.get("Text", "")
         czs = re.findall(r"\{\{c\d+::(.*?)(?:::[^}]*)?\}\}", txt)
-        if not czs or any("<b>" not in c and "<strong>" not in c for c in czs):
+        if int(plan.get("pipeline_versao") or 1) < 9 and (not czs or any("<b>" not in c and "<strong>" not in c for c in czs)):
             probs.append(f"{e['key']}: cloze sem negrito")
         if len(_norm(f.get("Extra", "") or f.get("Back Extra", ""))) < 40:
             probs.append(f"{e['key']}: Extra sem o porquê")
@@ -910,8 +923,13 @@ def fidelidade_ao_slide(run, plan):
 def plan_checks(run, plan):
     from nebli import lint_cards
     out = []
+    from nebli.correcoes_vigentes import verificar as verificar_correcoes
+    out += verificar_correcoes(run, plan)
     entries = plan["entries"]
     out.append(("plano contém cards", bool(entries)))
+    dates = re.findall(r"20\d{2}-\d{2}-\d{2}", Path(run).name)
+    if dates and max(dates) >= "2026-10-25":
+        out.append(("[duro] corrida nova usa pipeline v9 e revisão independente", int(plan.get("pipeline_versao") or 1) >= 9))
     cards = lambda es: sum(len(e.get("cards", [])) or 1 for e in es)
     authored = [e for e in entries if e.get("origin") == "Autoral"]
     share = cards(authored) / max(1, cards(entries))
@@ -937,8 +955,19 @@ def plan_checks(run, plan):
         out += nomenclatura_oficial(run, plan)  # F-20261022-CLAUDE-10
         if int(plan.get("pipeline_versao") or 1) >= 7:
             out += v7_pre(run, plan) + passo_a_passo_pre(run, plan)  # F-20261023-CLAUDE-01/02
+            if int(plan.get("pipeline_versao") or 1) >= 10:
+                out += exemplo_da_aula(run, plan)  # F-20261029-CLAUDE-03
         if int(plan.get("pipeline_versao") or 1) >= 8:
-            out += motivacao_autorais(run, plan) + qualidade_autorais(run, plan)  # F-20261023-CLAUDE-04
+            out += motivacao_autorais(run, plan)
+            if int(plan.get("pipeline_versao") or 1) < 9:
+                out += qualidade_autorais(run, plan)
+        if int(plan.get("pipeline_versao") or 1) >= 9:
+            from nebli.revisor_autorais import verificar
+            from nebli.acervos import verificar_amplitude
+            out += verificar(run, plan)
+            out += organizadores_com_fonte(run, plan)
+            erros = verificar_amplitude(run, [e["key"] for e in authored])
+            out.append(("[duro] amplitude verificável em todos os acervos" + (": " + "; ".join(erros[:5]) if erros else ""), not erros))
     else:
         out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
     if "biologia-tecidual" in plan.get("lesson_id", ""):  # F-20261003-CLAUDE-13: aprender, não visualizar em excesso
@@ -951,7 +980,7 @@ def plan_checks(run, plan):
             out.append(("BT04 sem card cujo alvo é apenas haustros (anatomia macroscópica)"
                         + (f": {off_scope[:3]}" if off_scope else ""), not off_scope))
     hard = [key for key, text, extra, extra_problems in lint_cards.from_plan(run / "plan.json")
-            if any(level == "dura" for level, _ in (lint_cards.check(key, text, extra) if text else []) + extra_problems)]
+            if any(level == "dura" for level, _ in (lint_cards.check(key, text, extra, version=int(plan.get("pipeline_versao") or 1)) if text else []) + extra_problems)]
     out.append(("lint dos autorais sem reprovação dura (busca nos externos, espelhos, forma AnKing)", not hard))
     orders = [e.get("order") for e in entries]
     out.append(("ordem da aula: toda entrada com posição e slide em 'evid'", all(orders) and all(str(e.get("evid", "")).lower().startswith("slide") for e in entries)))
@@ -1026,7 +1055,9 @@ def v7_pre(run, plan):
                     + (f": {sem[:4]}" if sem else ""), not sem))
     # “cada autoral tem que ser inspirado num exemplar específico, para tentar sair como modelo, mas mudando o conteúdo”
     proj = Path(__file__).resolve().parents[1] / "flashcards" / "projeto"
-    ex, anti = _nids(proj / "GUIA_CARDS.md", "Exemplar"), _nids(proj / "GUIA_CARDS.md", "Anti-exemplar")
+    ex = _nids(proj / "GUIA_CARDS.md", "Exemplar")
+    # o GUIA_CARDS de 25–27/10 trocou o título "Anti-exemplar" por "Caso de feedback" (28/10: sem isso o gate nunca passava)
+    anti = _nids(proj / "GUIA_CARDS.md", "Anti-exemplar") | _nids(proj / "GUIA_CARDS.md", "Caso de feedback")
     rev = (run / "REVISAO-AUTORAIS.md").read_text(encoding="utf-8") if (run / "REVISAO-AUTORAIS.md").exists() else ""
     ruins = []
     for e in aut:
@@ -1375,7 +1406,100 @@ def exemplares_lidos(run):
         return [("EXEMPLARES/ANTI-EXEMPLARES lidos (corrida anterior ao GUIA_CARDS.md, legado)", bool(apr))]
     txt = guia.read_text(encoding="utf-8") if guia.exists() else ""
     ok = guia.exists() and d.get("guia_sha256") == hashlib.sha256(guia.read_bytes()).hexdigest() and apr and "SEM ANÁLISE" not in txt
-    return [("[duro] GUIA_CARDS.md lido nesta corrida (exemplares-lidos.json: sha256 vigente + ≥ 5 aprendizados; nenhum item sem análise)", bool(ok))]
+    out = [("[duro] GUIA_CARDS.md lido nesta corrida (exemplares-lidos.json: sha256 vigente + ≥ 5 aprendizados; nenhum item sem análise)", bool(ok))]
+    # F-20261029-CLAUDE-01 (Davi: "leia sempre o guia cards inteiro, é das coisas mais importantes" / "transforma em 3 arquivos mais
+    # direcionados"): em corrida v9 a leitura obrigatória são os três guias curtos (regras, exemplares, anti-exemplares), INTEIROS e na
+    # versão vigente: `guias_sha256` com o sha256 de cada arquivo + ≥ 2 aprendizados de ≥ 50 caracteres por guia (`guias_aprendizados`).
+    from nebli import etapa as _etapa
+    if _etapa.versao(Path(run)) >= 9:
+        lidos = d.get("guias_sha256") if isinstance(d.get("guias_sha256"), dict) else {}
+        aps = d.get("guias_aprendizados") if isinstance(d.get("guias_aprendizados"), dict) else {}
+        pend = []
+        for nome in GUIAS:
+            p = base / nome
+            if not p.exists():
+                pend.append(f"{nome} ausente"); continue
+            if lidos.get(nome) != hashlib.sha256(p.read_bytes()).hexdigest():
+                pend.append(f"{nome} não lido na versão vigente")
+            if sum(1 for x in aps.get(nome, []) if len(str(x).strip()) >= 50) < 2:
+                pend.append(f"{nome}: < 2 aprendizados")
+        out.append(("[duro] os três guias lidos INTEIROS na versão vigente (exemplares-lidos.json › guias_sha256 e guias_aprendizados)"
+                    + (f": {pend[:3]}" if pend else ""), not pend))
+    # F-20261029-CLAUDE-03 (Davi: “coloca como gate-hard ler os exemplares, anti-exemplares e mais coisas que tiver nos arquivos e forem
+    # importantes para o padrão de qualidade alta”): em corrida v10 a leitura obrigatória é LEITURA_OBRIGATORIA inteira (guias de card,
+    # guia de compreensão da aula com seus exemplares e anti-exemplares de deck, MEMORY, pipeline, rubrica do revisor e calibração de
+    # Davi), cada arquivo com sha256 vigente e ≥ 2 aprendizados; e `feedbacks_lidos_ate` = o F-id mais recente das FEEDBACKS.
+    if _etapa.versao(Path(run)) >= 10:
+        raiz = Path(__file__).resolve().parent.parent
+        lidos = d.get("leitura_sha256") if isinstance(d.get("leitura_sha256"), dict) else {}
+        aps = d.get("leitura_aprendizados") if isinstance(d.get("leitura_aprendizados"), dict) else {}
+        pend = []
+        for rel in LEITURA_OBRIGATORIA:
+            p = raiz / rel
+            if not p.exists():
+                pend.append(f"{rel} ausente"); continue
+            if lidos.get(rel) != hashlib.sha256(p.read_bytes()).hexdigest():
+                pend.append(f"{rel} não lido na versão vigente")
+            if sum(1 for x in aps.get(rel, []) if len(str(x).strip()) >= 50) < 2:
+                pend.append(f"{rel}: < 2 aprendizados")
+        ultimo = ultimo_feedback()
+        if not ultimo or d.get("feedbacks_lidos_ate") != ultimo:
+            pend.append(f"feedbacks_lidos_ate ≠ {ultimo} (ler as FEEDBACKS novas até a mais recente)")
+        out.append((f"[duro] leitura obrigatória INTEIRA na versão vigente: {len(LEITURA_OBRIGATORIA)} arquivos + FEEDBACKS até a mais "
+                    "recente (exemplares-lidos.json › leitura_sha256, leitura_aprendizados, feedbacks_lidos_ate; F-20261029-CLAUDE-03)"
+                    + (f": {pend[:3]}" if pend else ""), not pend))
+    return out
+
+
+GUIAS = ("GUIA-1-REGRAS.md", "GUIA-2-EXEMPLARES.md", "GUIA-3-ANTI.md")
+LEITURA_OBRIGATORIA = tuple(f"flashcards/projeto/{g}" for g in GUIAS) + (
+    "flashcards/projeto/GUIA-4-AULA.md",  # compreensão da aula: exemplares e anti-exemplares de DECK inteiro
+    "MEMORY.md",
+    "flashcards/projeto/EXECUCAO-DECK-AULA.md",
+    "config/revisor-autorais.md",
+    "flashcards/projeto/CALIBRACAO-QUALIDADE-2026-10-25.md",
+)
+
+
+def ultimo_feedback():
+    """O F-id mais recente das FEEDBACKS (maior data; empate, maior número)."""
+    p = Path(__file__).resolve().parent.parent / "flashcards" / "projeto" / "FEEDBACKS.md"
+    ids = set(re.findall(r"F-(\d{8})-([A-Z]+)-(\d{2})", p.read_text(encoding="utf-8"))) if p.exists() else set()
+    return max((f"F-{a}-{b}-{c}" for a, b, c in ids), key=lambda s: (s[2:10], int(s[-2:])), default="")
+
+
+def exemplo_da_aula(run, plan):
+    """F-20261029-CLAUDE-03: “VIROU UM DECK DE HEPATITE, MAS ISSO ERA SÓ PARA ILUSTRAR / O COMEÇO DA AULA É MAIS IMPORTANTE”.
+    (1) bloco que o slide chama de exemplo está como exemplo (nebli.etapa.problemas_exemplo_da_aula); (2) cada card de bloco de exemplo
+    está em `principios_ilustrados` (carrega um princípio geral, não um fato da doença); (3) peso: os blocos de princípio (o começo da
+    aula) têm mais cards que os de exemplo — sem exceção por motivo."""
+    from nebli import etapa, ordem
+    probs = etapa.problemas_exemplo_da_aula(Path(run))
+    d = _compreensao(run) or {}
+    blocos = [b for b in d.get("blocos", []) if isinstance(b, dict)]
+    comp = plan.get("compartilhados") or {}
+    chaves = {}
+    for e in plan.get("entries", []):
+        chaves.setdefault(_bloco_de(blocos, ordem.slide(e.get("evid"))), []).append((e["key"], len(e.get("cards", [])) or 1))
+    for k, v in comp.items():
+        chaves.setdefault(_bloco_de(blocos, ordem.slide(v.get("evid"))), []).append((f"sh-{k}", v.get("n_cards", 1)))
+    n_pr = n_ex = 0
+    for i, b in enumerate(blocos):
+        cs = chaves.get(i, [])
+        if b.get("papel") == "principio":
+            n_pr += sum(n for _, n in cs)
+        elif b.get("papel") == "exemplo":
+            n_ex += sum(n for _, n in cs)
+            decl = {k for p in b.get("principios_ilustrados", []) if isinstance(p, dict) for k in p.get("cards", [])}
+            sem = [k for k, _ in cs if k not in decl]
+            if sem:
+                probs.append(f"exemplo {b['laminas']}: cards sem princípio ilustrado {sem[:4]}")
+    if n_ex and n_pr <= n_ex:
+        probs.append(f"blocos de exemplo com {n_ex} cards ≥ blocos de princípio com {n_pr}: o deck virou o exemplo")
+    if not plan.get("entries"):
+        probs.append("plano vazio")
+    return [("[duro] exemplo do professor é exemplo, cada card dele carrega um princípio geral e o começo da aula pesa mais "
+             f"(princípio {n_pr} × exemplo {n_ex} cards; F-20261029-CLAUDE-03)" + (f"; {'; '.join(probs[:4])}" if probs else ""), not probs)]
 
 
 def cobertura_anking(run, plan):
@@ -1473,9 +1597,13 @@ def cobertura_anking(run, plan):
     if versao >= 3 and run.name not in LEGADO_V2:
         _mapa_ok = _autorais_no_mapa(run, plan)
         ok = share <= MAX_AUTORAL or (len(exc) >= 80 and (share <= MAX_AUTORAL_EXCECAO or _mapa_ok))  # F-20261022-CLAUDE-04
-        if _novo_06(run, plan):  # F-20261022-CLAUDE-06: “pode tirar limite de autoral” — vale só a prova de lacuna em todos os acervos
+        if versao < 9 and _novo_06(run, plan):  # F-20261022-CLAUDE-06: “pode tirar limite de autoral” — vale só a prova de lacuna em todos os acervos
             out.append((f"autoral = {share:.0%} dos cards, sem teto (F-20261022-CLAUDE-06); cada autoral prova lacuna em AnKing e em todas as Referências Externas", True))
             ok = None
+        if versao >= 9:
+            # F-20261029-CLAUDE-02 (Davi: "avalia se a aula toda tá coberta, que é mais importante que o teto de 30%"): o teto nunca
+            # corta conteúdo; acima de 30% vale com AUTORAL_EXCECAO fundamentada e todo autoral ligado a um item do mapa da aula.
+            ok = share <= MAX_AUTORAL or (len(exc) >= 80 and (share <= MAX_AUTORAL_EXCECAO or _mapa_ok))
         if ok is not None:
             out.append((f"[duro] autoral = {share:.0%} dos cards: até {MAX_AUTORAL:.0%}; até {MAX_AUTORAL_EXCECAO:.0%} só com AUTORAL_EXCECAO (≥ 80 caracteres); acima, só com todo autoral ligado ao mapa-de-profundidade"
                         + (" — exceção declarada" if share > MAX_AUTORAL and ok else ""), ok))
@@ -1578,12 +1706,42 @@ def inducao_clozes(plan):
             # F-20261023-CLAUDE-05 (v8): organizador com todos os clozes no mesmo índice (1 1 1), com a 1ª letra de dica
             v8 = int(plan.get("pipeline_versao") or 1) >= 8
             indices_ok = len(indices) == 1 if (contraste or v8) else len(indices) >= min(2, len(itens))
+            if int(plan.get("pipeline_versao") or 1) >= 9 and e.get("organizacao_preferencia_davi"):
+                indices_ok = bool(indices)  # exceção explícita; revisor julga recuperação e vazamento
             if len(itens) < 2 or not vertical or not indices_ok:
                 organizadores_ruins.append(e["key"])
     return [("[duro] indução: card que esconde 3+ itens tem dica com a 1ª letra em cada lacuna ({{c1::Coagulative::C…}})"
              + (f": {ruins[:4]}" if ruins else ""), not ruins),
             ("[duro] organizador: tópicos verticais e clozes distintos; contraste complementar usa um só índice"
              + (f": {organizadores_ruins[:4]}" if organizadores_ruins else ""), not organizadores_ruins)]
+
+
+def organizadores_com_fonte(run, plan):
+    """Organizadores autorais v9 precisam de um recorte verificável da fonte."""
+    import unicodedata
+
+    def normalizar(s):
+        s = unicodedata.normalize("NFKD", str(s))
+        s = "".join(c for c in s if not unicodedata.combining(c))
+        return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s)).strip().casefold()
+
+    ruins = []
+    raiz = Path(run).resolve()
+    for e in plan.get("entries", []):
+        if e.get("origin") != "Autoral" or not e.get("organizador"):
+            continue
+        fonte, trecho = e.get("organizacao_fonte"), e.get("organizacao_trecho")
+        try:
+            arquivo = (raiz / fonte).resolve() if fonte else None
+            valido = (arquivo is not None and arquivo.is_file()
+                      and raiz in arquivo.parents and len(normalizar(trecho)) >= 35
+                      and normalizar(trecho) in normalizar(arquivo.read_text(encoding="utf-8")))
+        except (OSError, UnicodeError, TypeError):
+            valido = False
+        if not valido:
+            ruins.append(e.get("key", "?"))
+    return [("[duro] organizador autoral tem fonte local e trecho literal que sustenta a organização"
+             + (f": {ruins[:4]}" if ruins else ""), not ruins)]
 
 
 def author_volume_supported(plan):
@@ -1602,6 +1760,11 @@ def live_checks(plan, run=None):
     from nebli import ordem, rotulos
     from nebli.decks import Anki
     call = Anki()
+    if run and int(plan.get('pipeline_versao') or 1)>=9:
+        from nebli.formatacao_final import verificar as verificar_formato_final
+        formato_final = verificar_formato_final(run,plan,call)
+    else:
+        formato_final = []
     tag = f"NEBLI::{plan['lesson_id']}"
     notes, others = ordem._live(tag)
     try:
@@ -1609,7 +1772,7 @@ def live_checks(plan, run=None):
     except (OSError, ValueError, NameError):
         pass
     problems, _, _ = ordem.check(tag, notes, others, plan)
-    out = [("ordem no Anki confere com o plano (coluna 'Ordem da aula')", bool(notes) and not problems)]
+    out = [("ordem no Anki confere com o plano (coluna 'Ordem da aula')", bool(notes) and not problems)] + formato_final
     # 11/10: gates passaram com Extras do plano que a delta recusou gravar; texto visível vivo tem de bater com o plano
     receipt = RUN.get("dir") and Path(RUN["dir"]) / "receipt.json"
     if receipt and receipt.exists():
