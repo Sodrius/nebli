@@ -81,6 +81,9 @@ def problemas_exemplo_da_aula(run: Path):
     pags = _paginas_slides(run)
     if not pags:
         return ["fontes/slides.txt ausente ou sem '===== página N =====': o rótulo de exemplo do professor não pôde ser conferido"]
+    if re.search(r"(?m)^MODO\s*=\s*['\"]prova['\"]", (run / "spec.py").read_text(encoding="utf-8") if (run / "spec.py").exists() else ""):
+        # F-20261029-CLAUDE-04: na base da prova o rótulo é o título da página ('# bloco — fonte'); “por exemplo” no texto não conta
+        pags = {k: next((l for l in v.splitlines() if l.startswith("# ")), "") for k, v in pags.items()}
     try:
         transc = re.sub(r"\s+", " ", (run / "fontes" / "transcricao.txt").read_text(encoding="utf-8")).lower()
     except OSError:

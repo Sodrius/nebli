@@ -852,3 +852,23 @@ E nesta sessão:
 Diagnóstico: na 61 v2 (23/10) as lâminas 14–29, que o professor intitula "A combinação de tudo… o exemplo da hepatite", foram marcadas como `principio` em `compreensao-aula.json`; por isso o gate "exemplo ≤ princípio" nunca disparou e metade dos cards saiu com hepatite B na frente. A lição do deck 60 ("reclassificar os vírus do estudo dirigido como princípio") foi generalizada errado. Os GUIAS 1–3 só ensinam o card, nenhum arquivo ensinava o deck.
 
 Aplicação: pipeline v10. (1) `GUIA-4-AULA.md`: compreensão da aula com exemplares e anti-exemplares de deck inteiro. (2) Gate `exemplo_da_aula` + `nebli.etapa E2` recusa: lâmina rotulada como exemplo pelo slide é papel `exemplo` (saída só com trecho literal da transcrição); cada card de bloco de exemplo declara o princípio geral que carrega (`principios_ilustrados`); blocos de princípio com mais cards que os de exemplo. (3) Leitura obrigatória v10 (`LEITURA_OBRIGATORIA`): GUIA-1 a 4, MEMORY, EXECUCAO-DECK-AULA, rubrica do revisor e CALIBRACAO-QUALIDADE inteiros (sha256 + aprendizados) e FEEDBACKS até a mais recente; `nebli.etapa E0` recusa sem isso. Testes em `nebli/tests/test_gates.py`. (4) 61 refeita no v10.
+
+## F-20261029-CLAUDE-04 — deck-prova de Farmacologia independente das aulas; principalmente AnKing; cobrir tudo e um pouco mais
+
+Falas literais de Davi (29/10):
+
+> monta um plano para fazermos um deck-prova de farmáco independente das minhas aulas, mas cobrindo tudo da apostila e tudo dos materiais extras
+> quero descartar o que já temos, tá ruim
+
+> ótimo
+> vou querer principalmente anking
+> também quero que seja realmente cobridno tudo e um pouco mais
+
+> registra o plano com mais detalhe para seguir essas duas especificações
+> planeja bem como irá fazer
+
+> pode usar lâmina de vez em quando e pode suspsneder e marcar
+
+Diagnóstico: os decks-aula da UC19 (FA01 Introdução, FC02, FC03; 258 cards, 112 autorais) ficaram ruins para a prova; Davi quer um deck único organizado pelo assunto da prova, com base na apostila e nos materiais extras, não nas lâminas.
+
+Aplicação: [PLANO-DECK-PROVA-UC19-2026-10-29](PLANO-DECK-PROVA-UC19-2026-10-29.md). Pipeline v11 com modo prova: base da prova (excertos literais da apostila e dos extras, em ordem de assunto) no lugar das lâminas, para os gates de compreensão, ordem e fidelidade valerem; gate duro `deck_prova` — `matriz-prova.json` 100% (todo item de objetivos, apostila, De Nucci, resumo e toda questão com card ou `fora` com motivo de lista fechada), todas as notas das seções AnKing de farmacologia geral decididas (entra, ou `duplica`/`clinico-especifico`/`autonomico`/`toxicologia-especifica`) — o "um pouco mais" —, autoral ≤ 20% sem exceção (acima disso, perguntar a Davi), uso de lâmina só com motivo. Deck antigo suspenso e marcado `NEBLI::retirado::deck-prova` por lote, com backup, sem apagar; decks-aula futuros da UC19 não são feitos.

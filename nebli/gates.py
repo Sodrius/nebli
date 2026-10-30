@@ -957,6 +957,9 @@ def plan_checks(run, plan):
             out += v7_pre(run, plan) + passo_a_passo_pre(run, plan)  # F-20261023-CLAUDE-01/02
             if int(plan.get("pipeline_versao") or 1) >= 10:
                 out += exemplo_da_aula(run, plan)  # F-20261029-CLAUDE-03
+        if plan.get("modo") == "prova" or Path(run).name.startswith("deck-prova"):
+            out.append(("[duro] corrida deck-prova-* roda no modo prova (MODO = \"prova\")", plan.get("modo") == "prova"))
+            out += deck_prova(run, plan)  # F-20261029-CLAUDE-04
         if int(plan.get("pipeline_versao") or 1) >= 8:
             out += motivacao_autorais(run, plan)
             if int(plan.get("pipeline_versao") or 1) < 9:
@@ -1628,6 +1631,74 @@ def cobertura_anking(run, plan):
         out.append((f"[duro] todo AnKing das seções da aula ({len(secs)}) está no deck ou em EXCLUIDOS com motivo"
                     + (" — aula de princípio geral sem seção própria (SECOES_MOTIVO)" if sem_secao else "")
                     + (f": faltam {sorted(set(faltam))[:6]}" if faltam else ""), (bool(secs) or sem_secao) and not faltam))
+    return out
+
+
+# F-20261029-CLAUDE-04 (UC19): “deck-prova de farmáco independente das minhas aulas, mas cobrindo tudo da apostila e tudo dos
+# materiais extras”, “vou querer principalmente anking” e “realmente cobrindo tudo e um pouco mais”. Modo prova (MODO = "prova").
+MOTIVOS_FORA_MATRIZ = ("eco", "fora-do-escopo", "calculo-sem-conceito")
+# lote-N: a nota entra noutro lote do mesmo deck-prova (a rodada final confere); outra-uc: fisiologia/bioquímica sem princípio farmacológico
+MOTIVOS_EXCLUIDO_PROVA = re.compile(r"^(duplica \d{13}|clinico-especifico|autonomico|toxicologia-especifica|lote-[123]|outra-uc)\b")
+MAX_AUTORAL_PROVA = 0.20
+
+
+def deck_prova(run, plan):
+    from nebli import base_prova
+    run = Path(run)
+    out = []
+    entries = plan.get("entries", [])
+    comp = plan.get("compartilhados") or {}
+    keys = {e["key"] for e in entries} | {f"sh-{k}" for k in comp}  # nota reaproveitada (sh-) também é card do deck
+    no_deck = {str(e.get("src")) for e in entries if e.get("src")} | {str(v.get("source_nid")) for v in comp.values() if v.get("source_nid")}
+    # (1) base da prova: excertos literais, toda fonte base usada, lâmina só com motivo
+    pb = base_prova.conferir(run)
+    out.append(("[duro] deck-prova: base da prova com excertos literais de toda fonte base (lâmina só com motivo)"
+                + (f": {pb[:3]}" if pb else ""), not pb))
+    # (2) tudo: toda linha da matriz (itens e questões) tem card do plano ou 'fora' com motivo da lista fechada
+    try:
+        m = json.loads((run / "matriz-prova.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        m = {}
+    linhas = [x for x in m.get("linhas", []) if isinstance(x, dict)]
+    fontes_txt = {}
+    probs, questoes = [], 0
+    for x in linhas:
+        f = x.get("fonte", "")
+        if f not in fontes_txt:
+            try:
+                with __import__("fitz").open(run / f) as d:
+                    fontes_txt[f] = base_prova.norm(" ".join(p.get_text() for p in d))
+            except Exception:
+                fontes_txt[f] = ""
+        if len(base_prova.norm(x.get("trecho", ""))) < 15 or base_prova.norm(x.get("trecho", "")) not in fontes_txt[f]:
+            probs.append(f"{x.get('id')}: trecho não é literal de {f}")
+        cs = [c for c in x.get("cards", []) if c in keys]
+        fora = str(x.get("fora", ""))
+        if x.get("cards") and len(cs) != len(x["cards"]):
+            probs.append(f"{x.get('id')}: cards fora do plano {sorted(set(x['cards']) - keys)[:3]}")
+        if not cs and not (fora in MOTIVOS_FORA_MATRIZ and len(str(x.get("porque", "")).strip()) >= 20):
+            probs.append(f"{x.get('id')}: sem card nem 'fora' ({'/'.join(MOTIVOS_FORA_MATRIZ)}) com porquê")
+        questoes += x.get("tipo") == "questao"
+    decl = m.get("questoes_por_fonte") or {}
+    for f, n in decl.items():
+        k = sum(1 for x in linhas if x.get("tipo") == "questao" and x.get("fonte") == f)
+        if k != int(n):
+            probs.append(f"{f}: {k} questões na matriz, {n} declaradas")
+    out.append((f"[duro] deck-prova cobre tudo: {len(linhas)} linhas da matriz ({questoes} questões) com card ou fora justificado"
+                + (f": {probs[:4]}" if probs else ""), bool(linhas) and bool(decl) and not probs))
+    # (3) um pouco mais: nota das seções de farmacologia geral só sai por motivo da lista fechada (o AnKing de princípio geral entra)
+    ruins = [f"{x['nid']}: {str(x.get('motivo', ''))[:40]}" for x in plan.get("excluidos", [])
+             if not MOTIVOS_EXCLUIDO_PROVA.match(str(x.get("motivo", "")).strip())]
+    dup = [x["nid"] for x in plan.get("excluidos", []) if str(x.get("motivo", "")).startswith("duplica ")
+           and str(x["motivo"]).split()[1] not in no_deck]
+    out.append(("[duro] deck-prova um pouco mais: AnKing fora só por duplica <nid no deck>|clinico-especifico|autonomico|toxicologia-especifica|lote-N|outra-uc"
+                + (f": {ruins[:3]}" if ruins else "") + (f"; duplica de nid fora do deck: {dup[:3]}" if dup else ""),
+                bool(plan.get("secoes_da_aula")) and not ruins and not dup))
+    # (4) principalmente AnKing: autoral ≤ 20% dos cards, sem exceção (acima disso, perguntar a Davi)
+    n = lambda es: sum(len(e.get("cards", [])) or 1 for e in es)
+    share = n([e for e in entries if e.get("origin") == "Autoral"]) / max(1, n(entries))
+    out.append((f"[duro] deck-prova principalmente AnKing: autoral = {share:.0%} dos cards (máx. {MAX_AUTORAL_PROVA:.0%}, sem exceção)",
+                bool(entries) and share <= MAX_AUTORAL_PROVA))
     return out
 
 

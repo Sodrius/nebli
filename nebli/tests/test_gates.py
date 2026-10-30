@@ -99,6 +99,56 @@ class GatesTests(unittest.TestCase):
             self.assertIn("ak-hbv", msg)
             self.assertFalse(gates.exemplo_da_aula(run, {"entries": []})[0][1])
 
+    def test_deck_prova_cobre_tudo_principalmente_anking(self):
+        # F-20261029-CLAUDE-04: deck-prova independente das aulas, cobrindo tudo da apostila e dos extras e um pouco mais, principalmente AnKing.
+        import fitz
+        from nebli import base_prova
+        with tempfile.TemporaryDirectory() as d:
+            run = Path(d) / "deck-prova-uc19-1-teste"
+            (run / "fontes").mkdir(parents=True)
+            doc = fitz.open(); pg = doc.new_page()
+            pg.insert_text((50, 72), "Agonista parcial tem eficacia menor que a do pleno.")
+            pg.insert_text((50, 90), "1. Qual alternativa define potencia?")
+            doc.save(run / "fontes" / "apostila.pdf")
+            base = {"fontes_base": ["fontes/apostila.pdf"], "blocos": [{"titulo": "3 Agonismo", "excertos": [
+                {"fonte": "fontes/apostila.pdf", "paginas": [1, 1], "de": "Agonista parcial", "ate": "do pleno."}]}]}
+            (run / "base-prova.json").write_text(json.dumps(base))
+            base_prova.montar(run)
+            self.assertEqual(base_prova.conferir(run), [])
+            linhas = [{"id": "ap1", "fonte": "fontes/apostila.pdf", "trecho": "Agonista parcial tem eficacia menor", "cards": ["ak-parcial"]},
+                      {"id": "q1", "tipo": "questao", "fonte": "fontes/apostila.pdf", "trecho": "Qual alternativa define potencia?",
+                       "cards": ["ak-potencia"]}]
+            m = {"questoes_por_fonte": {"fontes/apostila.pdf": 1}, "linhas": linhas}
+            (run / "matriz-prova.json").write_text(json.dumps(m))
+            ak = lambda k, s: {"key": k, "origin": "AnKing", "src": s, "cards": [{}]}
+            plan = {"modo": "prova", "secoes_da_aula": ["x.txt"], "entries": [ak("ak-parcial", 1111111111111), ak("ak-potencia", 2222222222222),
+                    ak("ak-ec50", 3333333333333), ak("ak-emax", 4444444444444), {"key": "au-x", "origin": "Autoral", "cards": [{}]}],
+                    "excluidos": [{"nid": 5555555555555, "motivo": "duplica 1111111111111 (mesmo fato, sem imagem)"}]}
+            ok = lambda pl: [o for _, o in gates.deck_prova(run, pl)]
+            self.assertEqual(ok(plan), [True, True, True, True])
+            linhas[0]["cards"] = []  # item da apostila sem card
+            (run / "matriz-prova.json").write_text(json.dumps(m))
+            self.assertFalse(ok(plan)[1])
+            linhas[0].update({"fora": "eco", "porque": "mesmo item que q1, respondido pelo mesmo card"})
+            m["questoes_por_fonte"]["fontes/apostila.pdf"] = 2  # questão declarada que não está na matriz
+            (run / "matriz-prova.json").write_text(json.dumps(m))
+            self.assertFalse(ok(plan)[1])
+            m["questoes_por_fonte"]["fontes/apostila.pdf"] = 1
+            linhas[1]["trecho"] = "questão inventada que não está na fonte"
+            (run / "matriz-prova.json").write_text(json.dumps(m))
+            self.assertFalse(ok(plan)[1])
+            (run / "matriz-prova.json").write_text(json.dumps({"linhas": []}))
+            self.assertFalse(ok(plan)[1])  # matriz vazia não passa
+            ruim = copy.deepcopy(plan); ruim["excluidos"][0]["motivo"] = "fora do material"  # o AnKing de princípio geral entra
+            self.assertFalse(ok(ruim)[2])
+            ruim = copy.deepcopy(plan); ruim["excluidos"][0]["motivo"] = "duplica 9999999999999"
+            self.assertFalse(ok(ruim)[2])
+            ruim = copy.deepcopy(plan); ruim["entries"] = ruim["entries"][1:]  # 1 autoral em 4 = 25%
+            self.assertFalse(ok(ruim)[3])
+            base["blocos"][0]["excertos"].append({"lamina": "fontes/apostila.pdf", "pagina": 1, "motivo": "curta"})
+            (run / "base-prova.json").write_text(json.dumps(base))
+            self.assertFalse(ok(plan)[0])  # lâmina sem motivo
+
     def test_compreensao_da_aula_blocks_example_before_principle_and_cards_outside_blocks(self):
         with tempfile.TemporaryDirectory() as d:
             run = Path(d)
