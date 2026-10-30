@@ -116,11 +116,11 @@ CARDS = [
  K(1490066320396, "V-prova", B3, "Índice terapêutico = TD50/ED50", 16, "resumo p.8; objetivos FD 4"),
  K(1490066323578, "V-prova", B3, "Mais seguro: IT maior", 16, "resumo p.8; orientadora 40"),
  K(1490066326802, "A-aula", B3, "IT estreito: varfarina, teofilina, digoxina, antiepilépticos, lítio", 16, "resumo p.8 (digoxina, varfarina, lítio)"),
- au("janela", "A <b>narrow therapeutic index</b> means a narrow {{c1::therapeutic window}}, so small changes in plasma level cause toxicity",
+ au("janela", "The range of <b>plasma concentration</b> between the minimum effective and the minimum toxic level is the {{c1::therapeutic window}}",
     "V-prova", B3, "IT estreito → janela estreita", 16, "objetivos FD 4; resumo p.8; questão de prova (orientadora 40)", motivacao="m-c6",
     fontes=F("resumo da aula 1, p.8", "Janela terapêutica: faixa de doses ou concentrações plasmáticas compreendida entre a concentração mínima eficaz e a concentração mínima tóxica."),
     sem_imagem="a curva quantal com DE50 e DT50 está no verso do card do índice terapêutico, logo antes",
-    extra="The window is the range between the minimum effective and the minimum toxic concentration.<br>Dosing aims to keep the drug inside it, and narrow windows (digoxin, lithium, warfarin) need monitoring."),
+    extra="A narrow therapeutic index (TD50 close to ED50) usually comes with a narrow window.<br>Dosing aims to keep the drug inside it, and narrow windows (digoxin, lithium, warfarin) need monitoring."),
  # ---------- 4 Agonismo (base p. 20–24) ----------
  au("agonismo-org", ORG("<b>Agonists by their effect on the receptor</b>:<br>- maximal response: {{c1::full::f…}} agonist<br>- submaximal response at any dose: {{c1::partial::p…}} agonist<br>- activity below baseline: {{c1::inverse::i…}} agonist<br>- one signaling pathway favored: {{c1::biased::b…}} agonist"),
     "V-pilar", B4, "Quatro tipos de agonista", 20, "objetivos FD 5; resumo p.6; questões de prova (orientadoras 24, 25, 28)", motivacao="m-g1", organizador=True,
