@@ -872,3 +872,14 @@ Falas literais de Davi (29/10):
 Diagnóstico: os decks-aula da UC19 (FA01 Introdução, FC02, FC03; 258 cards, 112 autorais) ficaram ruins para a prova; Davi quer um deck único organizado pelo assunto da prova, com base na apostila e nos materiais extras, não nas lâminas.
 
 Aplicação: [PLANO-DECK-PROVA-UC19-2026-10-29](PLANO-DECK-PROVA-UC19-2026-10-29.md). Pipeline v11 com modo prova: base da prova (excertos literais da apostila e dos extras, em ordem de assunto) no lugar das lâminas, para os gates de compreensão, ordem e fidelidade valerem; gate duro `deck_prova` — `matriz-prova.json` 100% (todo item de objetivos, apostila, De Nucci, resumo e toda questão com card ou `fora` com motivo de lista fechada), todas as notas das seções AnKing de farmacologia geral decididas (entra, ou `duplica`/`clinico-especifico`/`autonomico`/`toxicologia-especifica`) — o "um pouco mais" —, autoral ≤ 20% sem exceção (acima disso, perguntar a Davi), uso de lâmina só com motivo. Deck antigo suspenso e marcado `NEBLI::retirado::deck-prova` por lote, com backup, sem apagar; decks-aula futuros da UC19 não são feitos.
+
+## F-20261030-CLAUDE-01 — deck-prova: cobertura ampla do AnKing e do Step, além da prova
+
+Fala literal de Davi (30/10), ao autorizar o lote 2 do deck-prova UC19:
+
+> vai
+> garante sempre cobertura ampla e que vc esteja cobrindo bem as coisas do anking e step + as coisas da prova
+
+Diagnóstico: o lote 1 cobriu 100% da matriz da prova, mas a regra de exclusão permitia tirar nota HY do AnKing por `clinico-especifico` ou `outra-uc` sem distinguir o que o Step cobra no assunto. "Cobertura ampla" pede que o núcleo Step (HY 1–2) das seções do assunto entre sempre.
+
+Aplicação: gate `deck_prova` (modo prova): nota AnKing HY 1–2 das seções da prova só fica fora por `duplica <nid no deck>` ou `lote-N` (vai noutro lote); `autonomico`, `clinico-especifico`, `toxicologia-especifica` e `outra-uc` valem só para HY 3–5. A busca de cada lote lê as seções do First Aid, B&B, Bootcamp, Sketchy, Physeo, Pixorize, OME e Ninja Nerd do assunto e as de AnKing-MCAT/Ankisthesia. Teste em `nebli/tests/test_gates.py`.

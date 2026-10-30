@@ -1694,6 +1694,18 @@ def deck_prova(run, plan):
     out.append(("[duro] deck-prova um pouco mais: AnKing fora só por duplica <nid no deck>|clinico-especifico|autonomico|toxicologia-especifica|lote-N|outra-uc"
                 + (f": {ruins[:3]}" if ruins else "") + (f"; duplica de nid fora do deck: {dup[:3]}" if dup else ""),
                 bool(plan.get("secoes_da_aula")) and not ruins and not dup))
+    # F-20261030-CLAUDE-01: "cobrindo bem as coisas do anking e step + as coisas da prova" — o núcleo Step (HY 1–2) das seções entra sempre
+    hy = {}
+    for s in plan.get("secoes_da_aula") or []:
+        f = run / "busca" / "secoes" / s
+        for l in (f.read_text(encoding="utf-8").splitlines()[1:] if f.exists() else []):
+            mm = re.match(r"(\d{13}) (\d)-", l)
+            if mm:
+                hy[mm.group(1)] = mm.group(2)
+    step_fora = [f"{x['nid']} (HY {hy[str(x['nid'])]})" for x in plan.get("excluidos", []) if hy.get(str(x["nid"])) in ("1", "2")
+                 and not re.match(r"^(duplica \d{13}|lote-[123])\b", str(x.get("motivo", "")).strip())]
+    out.append(("[duro] deck-prova cobertura ampla do Step: AnKing HY 1–2 das seções só fica fora por duplica ou lote-N"
+                + (f": {step_fora[:4]}" if step_fora else ""), not step_fora))
     # (4) principalmente AnKing: autoral ≤ 20% dos cards, sem exceção (acima disso, perguntar a Davi)
     n = lambda es: sum(len(e.get("cards", [])) or 1 for e in es)
     share = n([e for e in entries if e.get("origin") == "Autoral"]) / max(1, n(entries))

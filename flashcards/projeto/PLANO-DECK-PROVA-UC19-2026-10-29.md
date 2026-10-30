@@ -98,6 +98,9 @@ O texto de todos os PDFs já foi extraído nesta sessão, sem leitura de julgame
    Fato de farmacologia geral que o material não cita, mas que o AnKing tem, **entra** (é o "um pouco mais"), marcado com a cor da rubrica `A-step` ou `R-detalhe`.
 5. **Rang & Dale** confirma cada bloco e aponta o que falta. O que falta só entra com card de acervo.
 
+### Cobertura ampla do AnKing e do Step (F-20261030-CLAUDE-01)
+- Nota AnKing HY 1–2 das seções do assunto entra sempre; só fica fora por `duplica <nid no deck>` ou `lote-N`. Os outros motivos valem só para HY 3–5.
+
 ### Lâminas de vez em quando
 - A lâmina nunca define bloco nem ordem.
 - Entra em dois casos: como figura real no verso, quando o acervo não tem a imagem (curva dose-resposta, curva de Schild, gráfico log C × t, platô de infusão), ou para conferir um termo do professor.

@@ -125,7 +125,14 @@ class GatesTests(unittest.TestCase):
                     ak("ak-ec50", 3333333333333), ak("ak-emax", 4444444444444), {"key": "au-x", "origin": "Autoral", "cards": [{}]}],
                     "excluidos": [{"nid": 5555555555555, "motivo": "duplica 1111111111111 (mesmo fato, sem imagem)"}]}
             ok = lambda pl: [o for _, o in gates.deck_prova(run, pl)]
-            self.assertEqual(ok(plan), [True, True, True, True])
+            self.assertEqual(ok(plan), [True, True, True, True, True])
+            # F-20261030-CLAUDE-01: nota HY 1–2 da seção não sai por motivo de assunto, só por duplica ou lote-N
+            (run / "busca" / "secoes").mkdir(parents=True)
+            (run / "busca" / "secoes" / "x.txt").write_text("# sec\n5555555555555 1-HighYield nota Step\n")
+            step = copy.deepcopy(plan); step["excluidos"][0]["motivo"] = "outra-uc: fisiologia"
+            self.assertFalse(ok(step)[3])
+            step["excluidos"][0]["motivo"] = "lote-2: farmacocinética"
+            self.assertTrue(ok(step)[3])
             linhas[0]["cards"] = []  # item da apostila sem card
             (run / "matriz-prova.json").write_text(json.dumps(m))
             self.assertFalse(ok(plan)[1])
@@ -144,7 +151,7 @@ class GatesTests(unittest.TestCase):
             ruim = copy.deepcopy(plan); ruim["excluidos"][0]["motivo"] = "duplica 9999999999999"
             self.assertFalse(ok(ruim)[2])
             ruim = copy.deepcopy(plan); ruim["entries"] = ruim["entries"][1:]  # 1 autoral em 4 = 25%
-            self.assertFalse(ok(ruim)[3])
+            self.assertFalse(ok(ruim)[4])
             base["blocos"][0]["excertos"].append({"lamina": "fontes/apostila.pdf", "pagina": 1, "motivo": "curta"})
             (run / "base-prova.json").write_text(json.dumps(base))
             self.assertFalse(ok(plan)[0])  # lâmina sem motivo

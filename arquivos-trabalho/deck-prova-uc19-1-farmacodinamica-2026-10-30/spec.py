@@ -11,20 +11,19 @@ from nebli.spec_lib import ak, au, sh, ORG, finalizar, acervo  # noqa: E402
 
 PIPELINE_VERSAO = 11
 MODO = "prova"
-SECOES_MOTIVO = ""
+SECOES_MOTIVO = ""  # 30/10 (F-20261030-CLAUDE-01): Bootcamp 08 Receptor Physiology e OME General Principles lidos inteiros, mas fora do recorte: são fisiologia autonômica/endócrina; delas entram só as notas do assunto (NO/GMPc, organofosforado)
 _SEC = ("_FirstAid_05_Pharm_01_Pharmacokinetics_and_Pharmacodynamics_07_Efficacy_vs_potency", "_FirstAid_05_Pharm_01_Pharmacokinetics_and_Pharmacodynamics_08_Receptor_binding",
         "_FirstAid_05_Pharm_01_Pharmacokinetics_and_Pharmacodynamics_09_Therapeutic_index",
         "_FirstAid_05_Pharm_01_Pharmacokinetics_and_Pharmacodynamics_10_Drug_effect_modifications_Types_of_Drug_Interactions",
         "_B_B_02_Basic_Pharmacology_01_General_02_Enzyme_Inhibitors", "_B_B_02_Basic_Pharmacology_01_General_02_Enzyme_Inhibitors_Extra",
         "_B_B_02_Basic_Pharmacology_01_General_03_Dose_Response", "_B_B_02_Basic_Pharmacology_01_General_03_Dose_Response_Extra",
-        "_Bootcamp_Pharmacology_01_Pharmacodynamics_05_Drug_Enzyme_Interactions", "_Bootcamp_Pharmacology_01_Pharmacodynamics_08_Receptor_Physiology",
+        "_Bootcamp_Pharmacology_01_Pharmacodynamics_05_Drug_Enzyme_Interactions",
         "_Bootcamp_Pharmacology_01_Pharmacodynamics_09_Drug_Receptor_Interactions",
         "_SketchyPharm_09_Pharmacology_Foundations_06_Pharmacodynamic_Basics_01_Agonists_Antagonists_Allosteric_Modulators",
         "_SketchyPharm_09_Pharmacology_Foundations_07_Drug_Drug_Interactions_01_Introduction_to_Pharmacodynamic_Pharmacokinetic_D",
         "_SketchyPharm_09_Pharmacology_Foundations_01_Pharmacokinetic_Basics_02_Plasma_Concentration_Therapeutic_Range",
         "_Physeo_09_Pharm_15_Pharm_Fundamentals_04_Efficacy_Potency_Activity_at_Cell_Receptors_and_Therapeutic_Index",
-        "_Physeo_09_Pharm_15_Pharm_Fundamentals_05_Drug_Drug_Interactions",
-        "_OME_PreClinical_General_Pharmacology_General_Principles_of_Pharmacology")
+        "_Physeo_09_Pharm_15_Pharm_Fundamentals_05_Drug_Drug_Interactions")
 SECOES_DA_AULA = [f"{s}.txt" for s in _SEC]
 AUTORAL_EXCECAO = ""
 PIPELINE = "anking-primeiro"
@@ -132,6 +131,9 @@ CARDS = [
  K(1490066314616, "V-prova", B4, "Agonista parcial: curva desce", 21, "resumo p.6; orientadora 24"),
  K(1484950415236, "V-prova", B4, "Parcial + pleno: abstinência", 21, "resumo p.6; orientadora 37; exemplar de Davi"),
  K(1484950383414, "A-aula", B4, "Buprenorfina: agonista μ parcial", 21, "resumo p.6; orientadora 37"),
+ K(1484950460397, "A-step", B4, "Butorfanol: agonista κ e parcial μ", 21, "Step HY 2 da seção de dose-resposta: outro agonista parcial opioide"),
+ K(1477447295771, "A-step", B4, "β-bloqueadores com atividade agonista parcial", 21, "Step HY 2 da seção de dose-resposta: agonista parcial fora dos opioides"),
+ K(1489960356460, "A-step", B4, "Clomifeno aumenta FSH e LH", 21, "Step HY 1 da seção de dose-resposta (B&B): modulador seletivo como agonista parcial/antagonista"),
  sh(1791762419072, "verde", B4, "Agonista inverso: abaixo do basal", 22, "V-prova: autoral antigo (12 revisões, sem crítica); orientadora 25; Stephen 1"),
  sh(1791762419199, "azul", B4, "Antagonista neutro: não muda o basal", 22, "A-aula: autoral antigo (11 revisões); orientadora 26; Stephen 1"),
  sh(1791762421022, "azul", B4, "Agonista tendencioso", 23, "A-aula: autoral antigo corrigido a pedido de Davi; orientadora 28"),
@@ -166,6 +168,7 @@ CARDS = [
  sh(1791762416798, "azul", B5, "Ortostérico × alostérico", 27, "A-aula: autoral antigo (4 revisões); objetivos FD 8; orientadora 29"),
  K(1484768430296, "A-aula", B5, "Benzodiazepínico: sítio alostérico do GABA-A", 27, "resumo p.4 (modulador alostérico)"),
  K(1484768435794, "A-aula", B5, "Benzodiazepínico potencializa o GABA-A (PAM)", 27, "resumo p.4 (PAM)"),
+ K(1484768467897, "A-step", B5, "Benzodiazepínico aumenta a frequência de abertura do canal", 27, "Step HY 2 (Sketchy): como o modulador alostérico positivo muda o canal"),
  K(1484768472408, "R-detalhe", B5, "Benzo, barbitúrico, álcool: sítios alostéricos diferentes", 27, "um pouco mais: vários moduladores no mesmo alvo"),
  K(1484768629105, "A-step", B5, "Flumazenil: competitivo no sítio do benzodiazepínico", 27, "um pouco mais: antagonista competitivo de um sítio alostérico"),
  K(1554208492401, "A-aula", B5, "Enantiômeros: imagens especulares", 27, "resumo p.4; orientadora 30"),
@@ -226,6 +229,8 @@ VERSO = {  # porquê em uma linha para nota de acervo sem verso explicativo (gat
  "ak1701897271054": "One enantiomer can carry most of the toxicity, which is why single-enantiomer drugs exist.",
  "ak1475704571141": "Potassium sets the resting membrane potential, so changing it alters excitability.",
  "ak1485382227392": "Atropine blocks only muscarinic receptors; the neuromuscular junction is nicotinic.",
+ "ak1477447295771": "A partial agonist keeps some β stimulation while blocking catecholamines, so resting heart rate falls less.",
+ "ak1484768467897": "Raising how often the channel opens is how this positive allosteric modulator boosts the GABA response.",
 }
 for c in CARDS:
     if c["key"] in VERSO and c["kind"] != "autoral":
