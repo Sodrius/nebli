@@ -131,6 +131,16 @@ Decks: `NEBLI::UC19::P1::Farmacologia::Deck-prova 1 — Farmacodinâmica`, `… 
 - **Fármaco por nome** só como exemplo que o material cobra (atropina, aspirina, omeprazol, cetoconazol, rifampicina, fenitoína). Erro já cometido: tabela de fármacos no lugar de agonismo, antagonismo e curvas (anti-exemplar da FA01).
 - **Estimativa:** lote 1 com 130–180 cards, lote 2 com 150–200, lote 3 com 70–110, total de 350–500. A 40 novos por dia, são 9–13 dias de estudo.
 
+## 3b. Reorganização final: princípio × fármacos específicos (F-20261031-CLAUDE-01, 31/10)
+
+Davi: "no final vamos separar o que for funcionamento geral e farmacologia do que é efeito de drogas específicas, vamos gerar um deck, com subdecks para os cards de drogas específicas que foram se metendo no meio / no fundo, cada deck deve ensinar o conteúdo, não me dar lista de farmaco para decorar sem compreender".
+
+Depois do lote 3, antes da rodada final:
+1. Classificar cada card dos três lotes: **princípio** (o alvo é um mecanismo, parâmetro ou conceito da farmacologia geral) ou **fármaco específico** (o alvo é um fármaco particular, seu efeito adverso, indicação ou interação pontual).
+2. Cada lote fica `Deck-prova N — …` (princípio, na ordem da base) + subdeck `Fármacos específicos` (os outros, agrupados pelo princípio que ilustram). Mudança só com o nome canônico dentro de `nebli.decks.escrita`; histórico preservado.
+3. Card de fármaco específico sem princípio a ilustrar sai (suspenso e marcado), e o verso de quem fica diz qual princípio ele ilustra.
+4. Gate no modo prova: deck principal sem card cujo alvo seja só nome de fármaco; todo card do subdeck ligado a item do mapa com princípio.
+
 ## 4. Como vou fazer, passo a passo
 
 ### P0 — Preparar (uma vez, antes do lote 1)

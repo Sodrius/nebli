@@ -1408,8 +1408,15 @@ def exemplares_lidos(run):
     if "guia_sha256" not in d and d.get("exemplares_sha256"):
         return [("EXEMPLARES/ANTI-EXEMPLARES lidos (corrida anterior ao GUIA_CARDS.md, legado)", bool(apr))]
     txt = guia.read_text(encoding="utf-8") if guia.exists() else ""
-    ok = guia.exists() and d.get("guia_sha256") == hashlib.sha256(guia.read_bytes()).hexdigest() and apr and "SEM ANÁLISE" not in txt
-    out = [("[duro] GUIA_CARDS.md lido nesta corrida (exemplares-lidos.json: sha256 vigente + ≥ 5 aprendizados; nenhum item sem análise)", bool(ok))]
+    from nebli import etapa as _etapa
+    if _etapa.versao(Path(run)) >= 10:
+        # GUIA-1 (31/10): "O histórico completo, nota a nota, fica em GUIA_CARDS.md (consulta, não leitura obrigatória)". Em v10+ a leitura
+        # obrigatória são os quatro guias e LEITURA_OBRIGATORIA (abaixo); do GUIA_CARDS vale só não ter item sem análise e os aprendizados.
+        ok = guia.exists() and apr and "SEM ANÁLISE" not in txt
+        out = [("[duro] GUIA_CARDS.md (consulta em v10+): ≥ 5 aprendizados registrados e nenhum item sem análise", bool(ok))]
+    else:
+        ok = guia.exists() and d.get("guia_sha256") == hashlib.sha256(guia.read_bytes()).hexdigest() and apr and "SEM ANÁLISE" not in txt
+        out = [("[duro] GUIA_CARDS.md lido nesta corrida (exemplares-lidos.json: sha256 vigente + ≥ 5 aprendizados; nenhum item sem análise)", bool(ok))]
     # F-20261029-CLAUDE-01 (Davi: "leia sempre o guia cards inteiro, é das coisas mais importantes" / "transforma em 3 arquivos mais
     # direcionados"): em corrida v9 a leitura obrigatória são os três guias curtos (regras, exemplares, anti-exemplares), INTEIROS e na
     # versão vigente: `guias_sha256` com o sha256 de cada arquivo + ≥ 2 aprendizados de ≥ 50 caracteres por guia (`guias_aprendizados`).
