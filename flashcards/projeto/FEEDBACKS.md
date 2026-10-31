@@ -883,3 +883,18 @@ Fala literal de Davi (30/10), ao autorizar o lote 2 do deck-prova UC19:
 Diagnóstico: o lote 1 cobriu 100% da matriz da prova, mas a regra de exclusão permitia tirar nota HY do AnKing por `clinico-especifico` ou `outra-uc` sem distinguir o que o Step cobra no assunto. "Cobertura ampla" pede que o núcleo Step (HY 1–2) das seções do assunto entre sempre.
 
 Aplicação: gate `deck_prova` (modo prova): nota AnKing HY 1–2 das seções da prova só fica fora por `duplica <nid no deck>` ou `lote-N` (vai noutro lote); `autonomico`, `clinico-especifico`, `toxicologia-especifica` e `outra-uc` valem só para HY 3–5. A busca de cada lote lê as seções do First Aid, B&B, Bootcamp, Sketchy, Physeo, Pixorize, OME e Ninja Nerd do assunto e as de AnKing-MCAT/Ankisthesia. Teste em `nebli/tests/test_gates.py`.
+
+## F-20261030-CLAUDE-02 — interações de CYP450: um só organizador amplo, com a lista completa
+
+Fala literal de Davi, no campo NEBLI_Comentario do card 1792624477502 (deck Farmacocinética I; primeira parte em 27/10, ainda pendente a segunda), lida em 30/10 ao montar o lote 2 do deck-prova UC19:
+
+> card de CYP450 inibição e estímulo tem que virar um só organizador e suspender os outros
+> um só amplo
+>
+> NEGRITO RUIM + FALTA AINDA OUTROS EXEMPLOS
+>
+> lista tem que ter tudo, se não atrapalha
+
+Diagnóstico: o organizador de 27/10 listava só três indutores e dois inibidores, com negrito nos rótulos; o AnKing tem um card por fármaco ("X is an inducer of CYP450"), e a regra do Step (F-20261030-CLAUDE-01) traria todos de volta, contra o pedido.
+
+Aplicação: o organizador vivo foi reescrito com todos os indutores e inibidores do AnKing das seções de farmacocinética, com negrito só no título, e o comentário foi marcado "CORRIGIDO, 30, 10, 26.". Os cards soltos "X induz/inibe CYP" saem por `duplica 1792624477502` (a regra do Step aceita `duplica`). Ficam os cards que dizem mais do que isso (rifampicina no HIV, ritonavir o mais potente, azitromicina não inibe, fenitoína e osteopenia). Gate `deck_prova`: card de acervo cuja frente só diz que um fármaco induz ou inibe o CYP450 não entra quando o deck tem o organizador de CYP.

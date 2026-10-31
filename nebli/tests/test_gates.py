@@ -125,7 +125,7 @@ class GatesTests(unittest.TestCase):
                     ak("ak-ec50", 3333333333333), ak("ak-emax", 4444444444444), {"key": "au-x", "origin": "Autoral", "cards": [{}]}],
                     "excluidos": [{"nid": 5555555555555, "motivo": "duplica 1111111111111 (mesmo fato, sem imagem)"}]}
             ok = lambda pl: [o for _, o in gates.deck_prova(run, pl)]
-            self.assertEqual(ok(plan), [True, True, True, True, True])
+            self.assertEqual(ok(plan), [True, True, True, True, True, True])
             # F-20261030-CLAUDE-01: nota HY 1–2 da seção não sai por motivo de assunto, só por duplica ou lote-N
             (run / "busca" / "secoes").mkdir(parents=True)
             (run / "busca" / "secoes" / "x.txt").write_text("# sec\n5555555555555 1-HighYield nota Step\n")
@@ -151,7 +151,7 @@ class GatesTests(unittest.TestCase):
             ruim = copy.deepcopy(plan); ruim["excluidos"][0]["motivo"] = "duplica 9999999999999"
             self.assertFalse(ok(ruim)[2])
             ruim = copy.deepcopy(plan); ruim["entries"] = ruim["entries"][1:]  # 1 autoral em 4 = 25%
-            self.assertFalse(ok(ruim)[4])
+            self.assertFalse(ok(ruim)[5])
             base["blocos"][0]["excertos"].append({"lamina": "fontes/apostila.pdf", "pagina": 1, "motivo": "curta"})
             (run / "base-prova.json").write_text(json.dumps(base))
             self.assertFalse(ok(plan)[0])  # lâmina sem motivo
@@ -403,3 +403,14 @@ class GatesTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CypSoltoTests(unittest.TestCase):
+    def test_cyp_solto_vai_para_o_organizador(self):
+        """F-20261030-CLAUDE-02: card que só diz que um fármaco induz/inibe o CYP450 sai; card com informação a mais fica."""
+        from nebli.gates import CYP_SOLTO, _frente_simples
+        solto = lambda s: bool(CYP_SOLTO.search(_frente_simples({"fields": {"Text": s}})))
+        assert solto("Phenytoin is a(n) {{c2:: inducer }} of {{c1:: cytochrome P450 }} and thus may have many drug interactions")
+        assert solto("Acute alcohol use leads to {{c1::inhibition}} of CYP450")
+        assert not solto("Rifampin is a CYP450 inducer and thus is contraindicated in HIV due to it decreasing HIV protease inhibitor serum concentrations")
+        assert not solto("Which macrolide antibiotic does not inhibit CYP450 ? {{c1::Azithromycin}}")

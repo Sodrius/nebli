@@ -1640,6 +1640,14 @@ MOTIVOS_FORA_MATRIZ = ("eco", "fora-do-escopo", "calculo-sem-conceito")
 # lote-N: a nota entra noutro lote do mesmo deck-prova (a rodada final confere); outra-uc: fisiologia/bioquímica sem princípio farmacológico
 MOTIVOS_EXCLUIDO_PROVA = re.compile(r"^(duplica \d{13}|clinico-especifico|autonomico|toxicologia-especifica|lote-[123]|outra-uc)\b")
 MAX_AUTORAL_PROVA = 0.20
+CYP_SOLTO = re.compile(r"^[\w.' -]{2,40}? (is|are) an? ?(\(n\) )?(potent )?(inducer|inhibitor)s? of (cytochrome ?P-?450|CYP-?450)( and thus may have many drug interactions)?$"
+                       r"|^[\w.' -]{2,40}? (induces|inhibits|inhibit) cytochrome ?P-?450$|^(chronic|acute) alcohol use leads to (induction|inhibition) of CYP-?450$", re.I)
+
+
+def _frente_simples(e):
+    t = (e.get("fields") or {}).get("Text", "")
+    t = re.sub(r"\{\{c\d+::(.*?)(::[^}]*)?\}\}", r"\1", t)
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", t)).strip(" .")
 
 
 def deck_prova(run, plan):
@@ -1706,6 +1714,11 @@ def deck_prova(run, plan):
                  and not re.match(r"^(duplica \d{13}|lote-[123])\b", str(x.get("motivo", "")).strip())]
     out.append(("[duro] deck-prova cobertura ampla do Step: AnKing HY 1–2 das seções só fica fora por duplica ou lote-N"
                 + (f": {step_fora[:4]}" if step_fora else ""), not step_fora))
+    # F-20261030-CLAUDE-02: "card de CYP450 inibição e estímulo tem que virar um só organizador e suspender os outros / um só amplo /
+    # lista tem que ter tudo" — card de acervo que só diz que um fármaco induz ou inibe o CYP450 não entra (vai para o organizador)
+    soltos = [e["key"] for e in entries if e.get("origin") != "Autoral" and CYP_SOLTO.search(_frente_simples(e))]
+    out.append(("[duro] deck-prova: indutor/inibidor de CYP450 só no organizador amplo, sem card solto por fármaco"
+                + (f": {soltos[:4]}" if soltos else ""), not soltos))
     # (4) principalmente AnKing: autoral ≤ 20% dos cards, sem exceção (acima disso, perguntar a Davi)
     n = lambda es: sum(len(e.get("cards", [])) or 1 for e in es)
     share = n([e for e in entries if e.get("origin") == "Autoral"]) / max(1, n(entries))
