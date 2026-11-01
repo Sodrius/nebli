@@ -12,6 +12,8 @@
 
 - **O deck segue o slide (F-20261022-CLAUDE-06, gate duro):** depois de ler todo o material e antes de buscar, responder em `compreensao-aula.json` o que a aula ensina, onde se encaixa, o que lembrar e o que o professor ensina em cada bloco de lâminas; o deck nasce disso, o exemplo clínico vem depois do princípio e nunca vira carro-chefe, e a revisão final confere bloco a bloco a fidelidade ao slide.
 
+**Comentários de Davi (F-20261101-CLAUDE-04):** sempre em sete passos com gate — `python3 -m nebli.rodada_comentarios abrir <pasta>` … `verificar <pasta>` (ver MEMORY › Rodada de comentários).
+
 ## Limites que não mudam
 
 - Davi estuda no Anki enquanto o executor trabalha: nunca tocar a nota em tela nem irmãos; escrita só por `nebli.decks.escrita()`; sync quando ele estiver ocioso.
