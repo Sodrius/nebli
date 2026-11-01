@@ -127,6 +127,12 @@ def main():
                     A("setSpecificValueOfCard", card=c["cardId"], keys=["flags"], newValues=[FLAG[s["cor"]]], warning_check=True)
                     log(op="flag-compartilhado", card=c["cardId"], de=c["flags"], para=FLAG[s["cor"]])
             log(op="addTags-compartilhado", nid=n["noteId"], cor=s["cor"], ordem=s["ordem_tag"])
+        # F-20261101-CLAUDE-03: compartilhado que Davi suspendeu em outra aula vem para esta, dessuspenso, para ele reavaliar
+        from nebli.decks import em_tela
+        from nebli.puxar_suspensos import puxar
+        tela = set(em_tela(A))
+        puxados = [n["noteId"] for n in shared if n["noteId"] not in tela
+                   and puxar(A, n, A("cardsInfo", cards=n["cards"]), DECK, LESSON, log)]
         problems = []
         for r, e in zip(results, plan["entries"]):
             n = A("notesInfo", notes=[r["nid"]])[0]
@@ -143,10 +149,10 @@ def main():
         for n in A("notesInfo", notes=shared_ids):
             for c in A("cardsInfo", cards=n["cards"]):
                 # F-20261016-CLAUDE-08 (refação): nota antiga da própria aula mantida por sh() já morava no deck; só é problema se foi movida agora
-                if canon(c["deckName"]) == DECK and DECK not in before["compartilhados"][str(n["noteId"])].get("decks", []):
+                if canon(c["deckName"]) == DECK and DECK not in before["compartilhados"][str(n["noteId"])].get("decks", []) and n["noteId"] not in puxados:
                     problems.append(f"compartilhado movido {n['noteId']}")
         flags = [c["flag"] for r in results for c in r["cards"].values()]
-        rec = {"run_id": plan["run_id"], "selection_hash": plan["selection_hash"], "deck": DECK, "notes": results,
+        rec = {"run_id": plan["run_id"], "selection_hash": plan["selection_hash"], "deck": DECK, "notes": results, "puxados_para_reavaliar": puxados,
                "cards_tag_aula": len(A("findCards", query=f'"tag:{LESSON_TAG}"')),
                "cards_new_lesson": len(flags), "expected": plan["totais"]["cards"],
                "green": flags.count(3), "blue": flags.count(4), "pink": flags.count(5),
