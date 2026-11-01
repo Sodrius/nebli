@@ -9,6 +9,7 @@ class FalaTests(unittest.TestCase):
         self.assertEqual(fala_pendente("imagem ruim CORRIGIDO, 24, 10, 26."), "")
         self.assertEqual(fala_pendente("melhorei VISTO, 01, 11, 26."), "")
         self.assertEqual(fala_pendente("bom card"), "bom card")
+        self.assertEqual(fala_pendente("faltou organizador CORRIGIDO 22/10/26 (Claude): organizador criado (ce-camadas)"), "")
 
 
 if __name__ == "__main__":

@@ -21,7 +21,7 @@
 - Preservar originais AnKing, IDs/histórico, comentários, marcas e suspensões pessoais. Não apagar notas sem autorização de Davi e backup. Arquivar documentos superados em `arquivo/` com hash.
 - Feedback novo: literal em FEEDBACKS → regra **reescrita no lugar** no MEMORY (sem acrescentar camada) → check no lint/gate quando mecanizável.
 - Não fabricar leitura, busca, teste ou revisão. Gate aprovado não prova julgamento.
-- **AnKing-primeiro com gates duros** (MEMORY §5): busca nos três caminhos em todos os acervos, `busca/cobertura.tsv`, autoral só para lacuna provada depois de buscar em AnKing e todas as Referências Externas (sem teto desde 22/10), **todo AnKing do conteúdo da aula entra, sem teto de cards** (`PIPELINE_VERSAO = 5`, `SECOES_DA_AULA`) e relido contra os ANTI-EXEMPLARES. O `apply` recusa instalar sem isso.
+- **AnKing-primeiro com gates duros** (MEMORY §5): busca nos três caminhos em todos os acervos, `busca/cobertura.tsv`, autoral só para lacuna provada depois de buscar em AnKing e todas as Referências Externas (sem teto desde 22/10), **todo AnKing das seções da aula é decidido: entra se ensina o princípio da aula, senão fica em EXCLUIDOS com motivo** (v12, F-20261101-CLAUDE-01; `SECOES_DA_AULA`) e relido contra os ANTI-EXEMPLARES. O `apply` recusa instalar sem isso.
 
 ## UC07 / Kenhub (neuroanatomia)
 

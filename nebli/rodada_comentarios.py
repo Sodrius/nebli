@@ -28,7 +28,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 GUIAS = {g: RAIZ / "flashcards" / "projeto" / f"{g}.md" for g in ("GUIA-1-REGRAS", "GUIA-2-EXEMPLARES", "GUIA-3-ANTI")}
 COMANDO = "NEBLI::comando::"
-_CORR = re.compile(r"\b(?:CORRIGIDO|VISTO)\s*,?\s*\d{1,2}\s*[,/]\s*\d{1,2}\s*[,/]\s*\d{2,4}\s*\.?[^\n<]*", re.I)
+_CORR = re.compile(r"\b(?:CORRIGIDO|VISTO)\s*,?\s*\d{1,2}\s*[,/]\s*\d{1,2}\s*[,/]\s*\d{2,4}\s*\.?(?:\s*\((?:Claude|Codex)\)[^.]*(?:\.|$))?", re.I)
 
 
 def _clean(s):
