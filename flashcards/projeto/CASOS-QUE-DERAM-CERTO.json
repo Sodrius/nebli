@@ -1,0 +1,4552 @@
+{
+ "gerado_por": "python3 -m nebli.casos",
+ "casos": [
+  {
+   "nid": 1790972064262,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-01-esofago-estomago-delgado",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Zenker ] diverticulum is an outpouching of pharyngeal mucosa through an acquired defect in the muscular wall ( false diverticulum ) caused by [ cricopharyngeal motor ] dysfunction",
+   "verso": "- Abnormal spasm or diminished relaxation of cricopharyngeal muscles → increased oropharyngeal intraluminal pressure → herniation through a weakness in Killian triangle - Treatment is cricopharyngeal myotomy",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790972065836,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-patologia-14-declaracao-obito",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Chagas ] disease is a visceral protozoal infection that presents with dilated cardiomyopathy , mega [ colon ], and mega [ esophagus ]",
+   "verso": "- Extreme constipation, may present with GI perforation Acute symptoms include: - Chagoma , which is inflammation around the bite site - Romaña sign , which is swelling around the eyelid when the organism enters the conjunctiva Chronic symptoms include: - Cardiac abnormalities such as dilated cardiomyopathy, apical atrophy and arrhythmias - GI abnormalities such as achalasia, megacolon, and megaes",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790972066061,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-radiologia-56-contrastes",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Achalasia may be idiopathic or secondary to a known insult, such as [ Chagas ] disease or extraesophageal malignancies",
+   "verso": "Chagas disease is caused by Trypanosoma cruzi infection",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790972066561,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-01-esofago-estomago-delgado",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "The [ angular incisure ] on the lesser curvature marks the junction of the body and the pyloric part of the stomach",
+   "verso": "Body above the incisure, pyloric antrum below",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790972067261,
+   "por_que_deu_certo": {
+    "elogio": "gostei dos cards bluelink"
+   },
+   "aula": "2026-uc08-anatomia-01-esofago-estomago-delgado",
+   "uc": "uc08",
+   "origem": "BlueLink",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790972069911,
+   "por_que_deu_certo": {
+    "elogio": "bom exemplo de card que conjuga duas informações: não precisa de um card pro ileum ser distal three-fifths, porque se sei o card do jejunum já sei o outro",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc08-anatomia-01-esofago-estomago-delgado",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "The jejunum makes up the proximal [ two-fifths ] of the small intestine beyond the duodenum",
+   "verso": "- The ileum makes up the distal three-fifths",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974689006,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "BlueLink",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974689631,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "The [ transverse ] and [ sigmoid ] colon are the mobile parts of the colon, each suspended by a mesocolon",
+   "verso": "Mobile segments can twist: volvulus affects the sigmoid and the cecum",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974689880,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "Dorian",
+   "frente": "Three external features distinguish the large intestine from the small intestine - [ haustra (sacculations)] - [ omental (epiploic) appendices ] - [ taeniae coli ]",
+   "verso": "- The rectum has none of them",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974691657,
+   "por_que_deu_certo": {
+    "verde": "verde, 13 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "GI tract diverticula classically arise where the [vasa recta] perforate the [ muscularis externa ] (weak point in colonic wall)",
+   "verso": "Most common in the sigmoid, where intraluminal pressure is highest",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974693080,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Appendicitis ] presents with diffuse periumbilical pain that eventually localizes to [ McBurney point ]",
+   "verso": "- Also may present with fever and nausea - Afferent pain fibers for appendix / proximal colon / overlying visceral peritoneum cross through superior mesenteric plexus and enter spinal cord at T10 to produce vague referred pain to the umbilicus - As the appendix becomes more inflamed, it irritates the parietal peritoneum and abdominal wall to cause more severe somatic pain shifting from the initial",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974695380,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "Slide",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974696505,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "Slide",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974697531,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The [ pectinate ( dentate )] line is formed where anal endoderm (hindgut) meets ectoderm",
+   "verso": "Transition point from simple columnar to stratified squamous epithelium",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974697657,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Above the pectinate line, the rectum is supplied mainly by the [ superior rectal ] artery.",
+   "verso": "Above the line: hindgut territory (IMA → superior rectal artery). Its terminal branches run inside the anal columns",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974697781,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Above the pectinate line, superior rectal venous drainage reaches the [ portal ] circulation.",
+   "verso": "Superior rectal vein → inferior mesenteric vein → splenic vein → portal vein",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974698031,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[Internal] hemorrhoids receive visceral innervation from pelvic splanchnic nerves",
+   "verso": "Visceral innervation senses stretch only, so internal hemorrhoids do not hurt",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974698282,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Below the pectinate line, inferior rectal venous drainage reaches the [ systemic ] circulation.",
+   "verso": "- AKA pectinate line - Inferior rectal vein → internal pudendal vein → internal iliac vein → common iliac vein → IVC",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974698706,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Hemorrhoids result from distension of the anal [arteriovenous plexus]",
+   "verso": "- This normally forms the anal cushions (composed of venous sinusoids and CT) which are important for maintaining fecal continence - Chronically increased venous pressure (straining / aging) can lead to cushions bulging into the anal canal (can become inflamed, thrombose, or prolapse)",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974698830,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Which type of hemorrhoids are found above the pectinate line ? [Internal hemorrhoids]",
+   "verso": "Internal = above the line, visceral nerves, painless bleeding",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790974698958,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Which type of hemorrhoid is NOT painful ? [Internal hemorrhoids]",
+   "verso": "Because it's above the pectinate line, innervation is autonomic (inferior hypogastric plexus), which detects stretch only",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790979862409,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biologia-tecidual-03-estrutura-estomago",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The mucosa of the gut wall consists of three layers: a(n) [epithelium], [lamina propria], and [muscularis mucosa]",
+   "verso": "Mucosa = epithelium + lamina propria + muscularis mucosae",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790979863910,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biologia-tecidual-03-estrutura-estomago",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Which gut wall layer contains Meissner's plexus ? [Submucosa]",
+   "verso": "Hence also referred to as the submucosal plexus",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790979867810,
+   "por_que_deu_certo": {
+    "verde": "verde, 10 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biologia-tecidual-03-estrutura-estomago",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Parietal ] cells are located in the [ body ] of the stomach and secrete [ HCl ] and [ intrinsic factor ]",
+   "verso": "These cells have abundant mitochondria and an intracellular tubulovesicular system that allows them to secrete large quantities of HCl and intrinsic factor",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790979869285,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biologia-tecidual-03-estrutura-estomago",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Chief ] cells are located in the [ body ] of the stomach and secrete [ pepsinogen ] and [ gastric lipase ]",
+   "verso": "Chief cells sit at the base of fundic glands",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790979869510,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biologia-tecidual-03-estrutura-estomago",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The [ chief ] cells of the stomach stain [ baso ] philic",
+   "verso": "- CHIEF s need to report at BAS e - Chief cells secrete pepsinogen (which self-cleaves to pepsin at gastric pH), pepsin helps begin digestion of proteins - Primarily found in the deeper gastric glands",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790979869860,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-bioquimica-16-regulacao-hormonal-massa-corporea",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Ghrelin is secreted by gastric cells and acts to [ increase ] appetite",
+   "verso": "- Rises before meals and falls after eating",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1790980018034,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biologia-tecidual-03-estrutura-estomago",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The H + from H 2 CO 3 is secreted from the parietal cell via the [ H + -K + ATPase ] pump",
+   "verso": "H+/K+ ATPase on the canaliculus: H+ out to the lumen, K+ in",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790980019633,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biologia-tecidual-03-estrutura-estomago",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "One cause of vitamin [ B 12 ] deficiency is [ gastric ] bypass surgery (e.g., Roux-en-Y , sleeve gastrectomy )",
+   "verso": "- The Roux-en-Y surgery attaches the stomach to the mid jejunum; Roux limb is the part of the small bowel connecting to the cardia of the stomach; hepatobiliary limb connects the bile system to the proximal small bowel - The sleeve gastrectomy surgery removes a large portion of the stomach, including the portions which produce ghrelin + intrinsic factor - Because any kind of surgical alteration / ",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790980912530,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biologia-tecidual-04-intestinos",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Lactose ] is converted into [ galactose ] and [ glucose ] by the enzyme [ lactase ] (intestinal brush border)",
+   "verso": "Lactase is a brush border enzyme, so it acts at the enterocyte surface",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790980913081,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biologia-tecidual-04-intestinos",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Which part of the small intestine contains the largest number of goblet cells ? [Ileum]",
+   "verso": "Goblet cells increase distally along the gut",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790980913229,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biologia-tecidual-04-intestinos",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The crypts of Lieberkühn contain [ Paneth ] cells , which secrete defensins , lysozyme , and TNF",
+   "verso": "Involved in regulation of intestinal bacteria and may protect adjacent stem cells Paneth cells sit at the crypt base and protect the stem cells",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790980914730,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biologia-tecidual-04-intestinos",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "What histologic feature distinguishes the ileum from other parts of the small intestine? [Peyer patches]",
+   "verso": "i.e., lymphoid aggregates in the lamina propria and submucosa",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790980914855,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-07-organizacao-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Peyer's patches are unencapsulated lymphoid tissue found in the [ lamina propria ] and [ submucosa ] of the [ ileum ]",
+   "verso": "Peyer patches: ileum, mucosa and submucosa, under M cells",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790980915172,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-07-organizacao-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Peyer patches contain specialized [ M cells ] that sample and present antigens to immune cells",
+   "verso": "Stands for microfold cells M cells pass antigens from the lumen to the lymphoid tissue below",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790980915907,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biologia-tecidual-04-intestinos",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The large intestine is characterized histologically by abundant [ goblet ] cells",
+   "verso": "Goblet cells lubricate the drying fecal mass",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981513853,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The three branches of the celiac trunk are the [ common hepatic ], [ splenic ], and [ left gastric ] arteries",
+   "verso": "Left gastric, splenic and common hepatic, the classic tripod",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981514825,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The [ left gastric ] artery gives off esophageal branches",
+   "verso": "Note: esophageal branches not depicted in this photo, but they would just come off the left gastric artery and ascend superiorly",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981515127,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The [ proper hepatic ] artery gives rise to the [ right ] gastric artery",
+   "verso": "Also gives rise to the left / right hepatic arteries (with the cystic artery branching off the right hepatic artery)",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981515426,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The lesser curvature of the stomach is supplied by the [ gastric ] arteries",
+   "verso": "Left and right gastric arteries",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981516052,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The [ splenic ] artery gives rise to the [ left gastroepiploic ] and [ short gastric ] arteries",
+   "verso": "The splenic artery runs along the upper border of the pancreas",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981516276,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The fundus and upper portion of the greater curvature of the stomach are supplied by the [ short gastric ] arteries",
+   "verso": "Short gastrics reach the fundus through the gastrosplenic ligament",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981516405,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The [ gastroduodenal ] artery gives rise to the anterior superior and posterior superior pancreaticoduodenal arteries",
+   "verso": "Superior pancreaticoduodenals (celiac) meet the inferior ones (SMA) around the pancreatic head",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981517780,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The [ gastroduodenal ] artery gives rise to the [right] gastroepiploic artery",
+   "verso": "Right gastro-omental runs along the greater curvature to meet the left",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981519128,
+   "por_que_deu_certo": {
+    "verde": "verde, 12 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-patologia-radiologia-19-correlacao-2",
+   "uc": "uc03",
+   "origem": "Dorian",
+   "frente": "The [ splenic vein ] joins the [ superior mesenteric vein ] to form the portal vein behind the [ neck ] of the pancreas",
+   "verso": "Portal vein = splenic + superior mesenteric veins, behind the pancreatic neck",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981519802,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "The cisterna chyli receives the intestinal trunk and the two [ lumbar ] trunks and continues as the thoracic duct",
+   "verso": "Cisterna chyli lies at L1–L2, right of the aorta",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981520429,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Which lymph node cluster drains the stomach , spleen , liver , and pancreas ? [Celiac]",
+   "verso": "Nodes follow the arteries: celiac territory to celiac nodes",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981520553,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Which lymph node cluster drains the upper duodenum ? [Celiac]",
+   "verso": "Upper duodenum is foregut, so celiac nodes",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981521328,
+   "por_que_deu_certo": {
+    "elogio": "imagem top aqui esse card ficou muito bom",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "The inferior pancreaticoduodenal artery is the first branch of the [ superior mesenteric ] artery",
+   "verso": "- It anastomoses with the superior pancreaticoduodenal arteries (celiac trunk)",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981521453,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Which lymph node cluster drains the lower duodenum ? [Superior mesenteric]",
+   "verso": "Lower duodenum is midgut, so superior mesenteric nodes",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981523225,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[Acute] mesenteric ischemia may occur due to a thrombotic or embolic occlusion of the [superior mesenteric] artery",
+   "verso": "Classic picture: pain out of proportion to the exam",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981523653,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Which artery supplies the regions of the hindgut ? [Inferior mesenteric artery]",
+   "verso": "Hindgut: distal third of the transverse colon to the upper anal canal",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981523773,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "Slide",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981524153,
+   "por_que_deu_certo": {
+    "elogio": "bom card"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "The three branches of the inferior mesenteric artery are the left colic, the [ sigmoid ] and the superior rectal arteries",
+   "verso": "Left colic, sigmoid arteries and superior rectal",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790981525201,
+   "por_que_deu_certo": {
+    "elogio": "melhorei o card"
+   },
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The [rectosigmoid junction (Sudeck point)] is a watershed region supplied by the last sigmoid arterial branch from the [ inferior mesenteric artery ] and the [ superior rectal artery ]",
+   "verso": "- Remember, superior rectal artery is a branch of the IMA (so an anastomosis within the IMA) - Thus susceptible to ischemic colitis (AKA colonic ischemia) - inferior mesenteric artery (IMA).",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790999268605,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-08-motilidade-i",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The [ myenteric (Auerbach) ] nerve plexus lies between the circular and longitudinal muscle layers of the gut wall",
+   "verso": "Don't confuse with the submucosal (Meissner) nerve plexus, which lies between the submucosa and inner circular muscle layer of the gut wall",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790999268731,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-08-motilidade-i",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The [ submucosal (Meissner) ] nerve plexus lies between the submucosa and inner circular muscle layer of the gut wall",
+   "verso": "Don't confuse with the myenteric (Auerbach) nerve plexus , which lies between the circular and longitudinal muscle layers of the gut wall",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790999268982,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-08-motilidade-i",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "What effect does atropine have on gut motility ? [Decreased motility]",
+   "verso": "Atropine blocks muscarinic receptors, removing the parasympathetic drive",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790999269107,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-08-motilidade-i",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "Sympathetic activity [ inhibits ] GI motility and secretion but contracts the sphincters",
+   "verso": "Sympathetic = brake on motility and secretion, but closes the sphincters",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1790999269356,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-08-motilidade-i",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Reflexes with both afferent and efferent pathways contained in the vagus nerve are called [vagovagal] reflexes",
+   "verso": "Example: receptive relaxation of the stomach",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1790999270232,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-08-motilidade-i",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Achalasia ] is characterized by disordered esophageal motility due to inability to relax the [ lower ] esophageal sphincter",
+   "verso": "A chalasia = A bsence of relaxation",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790999270656,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Hirschsprung ] disease occurs due to a congenital failure of [ ganglion ] cells to descend into the myenteric and submucosal plexus",
+   "verso": "Ganglion cells are derived from the neural crest ; neural crest cells moved caudally along vagal nerve fibers, present in wall of proximal colon at 8 th week of gestation, and in rectum by 12 th week",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790999270833,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-fisiologia-08-motilidade-i",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Phasic ] contractions of GI smooth muscle are periodic contractions followed by relaxation",
+   "verso": "Occur in the esophagus, gastric antrum, small intestine",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1790999270956,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-08-motilidade-i",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Tonic ] contractions of GI smooth muscle maintain a constant level of contraction without regular periods of relaxation",
+   "verso": "Occur in upper region of stomach and in lower esophageal, ileocecal, and internal anal sphincters",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1790999271082,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-08-motilidade-i",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "Distension of the segment just before a GI sphincter makes that sphincter [ relax ]",
+   "verso": "The sphincter opens as the bolus arrives, part of the peristaltic reflex",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790999271806,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-08-motilidade-i",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The Ca 2+ -calmodulin complex upregulates [ myosin-light-chain kinase (MLCK)], which [ phosphorylates ] myosin and contracts smooth muscle",
+   "verso": "K inase makes muscle K ontracted PH osphatase makes muscle PH laccid",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790999272357,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-08-motilidade-i",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The [ M 3 ] muscarinic receptor is found in glands, the bladder, and smooth muscle",
+   "verso": "M3 is Gq: IP3 releases Ca2+ from the sarcoplasmic reticulum",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790999832404,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-09-motilidade-ii",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Slow waves ] are oscillating membrane potentials inherent to the smooth muscle cells of some parts of the GI tract",
+   "verso": "Slow waves determine the rate at which action potentials, and thus contractions, can occur",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790999835129,
+   "por_que_deu_certo": {
+    "verde": "verde, 13 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-09-motilidade-ii",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "Secondary peristalsis of the esophagus is triggered by [ distension ] from food left behind by the primary wave",
+   "verso": "Primary peristalsis starts with swallowing; secondary starts from distension",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1790999835629,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-06-secrecao-gastrica",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "One function of secretin is to [ decrease ] gastric acid secretion and [ increase ] pyloric sphincter contraction",
+   "verso": "Secretin reduces acid secretion by parietal cells AND inhibits secretion of gastrin from G cells, basically acts to prevent further acid spilling into duodenum after food has been digested",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1790999836003,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-09-motilidade-ii",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The rate of gastric emptying is decreased primarily by [ fats ] and [ H + ] in the duodenum",
+   "verso": "- Via CCK and enteric nervous system reflexes, respectively - Allows adequate time for fat digestion and H + neutralization",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1790999836353,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-09-motilidade-ii",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Secretin is secreted in response to [ H + ] and [ fatty acids ] in the lumen of the duodenum",
+   "verso": "The release of gastric acid into the duodenum is the most potent stimulus for secretin release, which begins as the duodenal pH drops below 5 and rises dramatically as the pH drops below 3",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1790999836779,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-09-motilidade-ii",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Glucose-insulinotropic peptide (GIP) is secreted from [ K ] cells in the [ duodenum ] and [ jejunum ]",
+   "verso": "- Also known as gastric inhibitory peptide (GIP) - Glu K ose-insulinotropi K peptide",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790999836955,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-bioquimica-10-acao-hormonal",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "The [ oral ] form of glucose administration leads to greater insulin release due to stimulation of [ GIP ] and [ GLP-1 ] secretion",
+   "verso": "- These are incretins , and are released by the gut mucosa in response to sugar-containing meals - This response is independent of blood glucose levels, typically occurs prior to any elevation in blood glucose following a meal - The rate of insulin release is proportional to glucose levels up to ~300mg/dL Stimulatory Factors Inhibitory Factors ↑ Glucose, amino acids, fatty acid and ketoacid ↓ Gluc",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1790999837376,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-09-motilidade-ii",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Segmentation ] contractions serve to mix intestinal contents ; \" back-and-forth movement \"",
+   "verso": "No net forward movement When peristalsis reaches the terminal ileum, the ileocecal sphincter relaxes (gastrin, gastroileal reflex)",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1790999837629,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-09-motilidade-ii",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Motilin ] is a hormone that initiates [ migrating motor complexes ] at 90-minute intervals between meals",
+   "verso": "MMC sweeps residue and bacteria from stomach to ileum between meals - migrating motor complexes (MMCs).",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1790999838679,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-09-motilidade-ii",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The area postrema (chemoreceptor trigger zone) responds to [ emetogenic ] substances (e.g., chemotherapeutic agents)",
+   "verso": "The area postrema lies outside the blood-brain barrier, so it samples the blood",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791000306178,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Lactase deficiency may present with [ diarrhea ] due to the osmotic effects of undigested lactose",
+   "verso": "Colonic bacteria ferment the lactose: gas, bloating and acidic stool",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791000306552,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Which monosaccharide(s) are absorbed from the intestinal lumen by GLUT-5 ? [Fructose]",
+   "verso": "F for F ive, F ructose",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791000306802,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Which monosaccharide(s) are extruded from the intestinal cell into the blood by GLUT-2 ? [Glucose, galactose, and fructose]",
+   "verso": "All three monosaccharides leave through the same basolateral carrier",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791000306927,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Digestion of protein begins in the stomach with the action of [pepsin]",
+   "verso": "Activated by low pH (1-3), inactivated by high pH (> 5) Pepsin does only 10–15% of protein digestion; pancreatic proteases do most of it",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791000308301,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "An enteropeptidase deficiency will lead to diarrhea, failure to thrive, and edema (due to [hypoproteinemia])",
+   "verso": "This prevents activation of trypsin, leading to protein / fat malabsorption",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791000309427,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Pancreatic [ lipases ] are responsible for fat digestion in the small intestine",
+   "verso": "Includes pancreatic lipase, cholesterol ester hydrolase, and phospholipase A 2 Lipid Digestion Triglyceride (lingual, gastric, pancreatic lipases) → monoglyceride, fatty acid, fatty acid Cholesterol ester (cholesterol ester hydrolase) → cholesterol, fatty acid Phospholipid (phospholipase A2) → lysolecithin, fatty acid",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791000309928,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Pancreatic lipase is inactivated by [low] duodenal pH",
+   "verso": "Therefore, the use of a PPI drug can raise gastric pH and improve lipase activity",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791000310176,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Micelles ] bring the products of lipid digestion into contact with the intestinal brush border , where the lipid products diffuse across the luminal membrane",
+   "verso": "Micelles cross the unstirred water layer; lipids then enter the enterocyte",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791000311778,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Iron is absorbed in the [ Fe 2+ (ferrous) ] state in the [ duodenum ] of the small intestine",
+   "verso": "Ferric iron (Fe3+) must be reduced to Fe2+ before DMT1 can take it up",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791000312928,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The Fe 3+ iron in the plasma is bound to [transferrin] for transport in the blood",
+   "verso": "If not transferred to the plasma, iron is stored as ferritin in the mucosal cell and lost in the feces when the intestinal cell sloughs",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791000313402,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Calcitriol increases [ absorption ] of Ca 2+ and [ absorption ] of phosphate in the intestine",
+   "verso": "Calcitriol induces calbindin and the apical calcium channel",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791000313954,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "elogio": "isso é um bom card clínico + agrega conteúdo",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Vitamin K deficiency may occur in [ newborns ] due to lack of [ colonic bacteria ] that normally synthesize vitamin K",
+   "verso": "Vitamin K injection is given prophylactically to all newborns at birth to prevent hemorrhagic disease of the newborn",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791000314427,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "One source of vitamin D 3 (cholecalciferol) is through synthesis from 7-dehydrocholesterol in the presence of [ UV light ]",
+   "verso": "Then 25-hydroxylation in the liver and 1-hydroxylation in the kidney",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791000315151,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "What is the only essential secretion of the stomach ? [Intrinsic factor]",
+   "verso": "Thus following a total gastrectomy , patients must receive very high dose oral or parenteral vitamin B 12",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791000315652,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "One cause of vitamin B 12 deficiency is damage to or resection of the [ terminal ileum ] (e.g., Crohn disease)",
+   "verso": "B12–intrinsic factor complex is taken up only in the terminal ileum",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791014713449,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-06-secrecao-gastrica",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Mucosal defenses of the stomach include secretion of [ mucus ], [ HCO 3 - ], prostaglandins , and [ normal blood supply ]",
+   "verso": "- Mucin layer is secreted by foveolar cells in the stomach - Bicarbonate is secreted by surface epithelium - Normal blood supply provides nutrients and picks up leaked acid",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791014715501,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-06-secrecao-gastrica",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Vagal stimulation increases H + secretion directly via binding of [ acetylcholine ] to [ M 3 ] receptors on parietal cells",
+   "verso": "This direct pathway is blocked with antimuscarinics",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791014715800,
+   "por_que_deu_certo": {
+    "verde": "verde, 10 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-06-secrecao-gastrica",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Histamine binds to [ H 2 ] receptors on parietal cells , causing [ increased ] H + secretion",
+   "verso": "H2 blockers (e.g. famotidine) reduce acid by blocking this receptor",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791014716275,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-06-secrecao-gastrica",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Gastrin ] can increase H + secretion indirectly by causing histamine release from ECL cells",
+   "verso": "Histamine then stimulates parietal cells",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791014716402,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-06-secrecao-gastrica",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Gastrin increases acid secretion primarily through its effects on [ ECL ] cells",
+   "verso": "i.e., acid secretion is greater due to histamine release than direct action on parietal cells",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791014717600,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-06-secrecao-gastrica",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Gastrin secretion is most stimulated by stomach [ distension ]",
+   "verso": "- Gastrin secretion is also stimulated by amino acids tryptophan and phenylalanine - Most P o T ent = P henylalanine, T ryptophan",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791014718224,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-06-secrecao-gastrica",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Zollinger-Ellison syndrome is characterized by acid hypersecretion , causing recurrent [ ulcers ] in the [ duodenum ] and [ jejunum ]",
+   "verso": "A gastrin-secreting tumor drives acid output without the somatostatin brake",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791023270450,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-fisiologia-08-motilidade-i",
+   "uc": "uc08",
+   "origem": "Histology",
+   "frente": "Excitation spreads between smooth muscle cells through [ gap junctions ], so they contract together",
+   "verso": "",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791023298343,
+   "por_que_deu_certo": {
+    "elogio": "melhorei o card, aprende"
+   },
+   "aula": "2026-uc08-biologia-tecidual-04-intestinos",
+   "uc": "uc08",
+   "origem": "Histology",
+   "frente": "Enterocytes keep [ disaccharidases ] and [ peptidases ] in the glycocalyx, finishing digestion at the brush border",
+   "verso": "Final digestion happens on the brush border, right where absorption occurs",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791023301992,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biologia-tecidual-04-intestinos",
+   "uc": "uc08",
+   "origem": "Histology",
+   "frente": "Unlike the small intestine, the large-intestine mucosa has no [ villi ]",
+   "verso": "Colon mucosa is flat with straight crypts",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791023354943,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc08-biologia-tecidual-03-estrutura-estomago",
+   "uc": "uc08",
+   "origem": "Histology",
+   "frente": "About two-thirds of all saliva comes from the [ submandibular ] glands",
+   "verso": "- Mixed gland, mostly serous",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791023363069,
+   "por_que_deu_certo": {
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc08-biologia-tecidual-03-estrutura-estomago",
+   "uc": "uc08",
+   "origem": "Histology",
+   "frente": "In gastric glands , progenitor cells migrating toward the base become [secretory cells].",
+   "verso": "They replace parietal, chief and enteroendocrine cells. The surface epithelium renews faster.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791051804825,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-39-homem-ambiente-microrganismo",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Enteric bacteria (gut flora) produce vitamins, particularly vitamins [K] and [B 9 ]",
+   "verso": "Thus a small intestinal bacterial overgrowth (SIBO) of enteric bacteria will result in increased levels of vitamin K / B 9 K2 (menaquinone) is the form made by colonic bacteria; newborns lack this flora, hence vitamin K at birth",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791052036733,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-02-intestino-grosso-canal-anal",
+   "uc": "uc08",
+   "origem": "Histology",
+   "frente": "The [circular] muscle layer of the rectum forms the internal anal sphincter near the anus",
+   "verso": "Internal = smooth, involuntary (autonomic); external = skeletal, voluntary (pudendal)",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791052302525,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-bioquimica-16-regulacao-hormonal-massa-corporea",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "GLP-1 agonists and DPP-4 inhibitors cause increased satiety via decreased [gastric emptying]",
+   "verso": "While GLP-1 agonists cause weight loss, DPP-4 inhibitors are considered weight neutral as they do not work directly on GLP-1 receptors GLP-1 comes from intestinal L cells (ileum and colon) after a meal; slower emptying adds to satiety",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791557939905,
+   "por_que_deu_certo": {
+    "verde": "verde, 15 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-43-biologia-fungos",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[Rhizopus] is a(n) [bread] mold , and is one of the major causes of Mucormycosis",
+   "verso": "- Rhizopus forms sporangia full of sporangiospores",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791557941207,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-43-biologia-fungos",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "What do fungal plasma membranes contain that others lack? [Ergosterol]",
+   "verso": "- Takes the place of cholesterol, so it is the main antifungal target",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791557941758,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-43-biologia-fungos",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "The repeating polysaccharide capsular antigens of the Cryptococci capsule are the main virulence factor of the fungus, making it [anti-phagocytic]",
+   "verso": "Similar to the capsule of bacteria!",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791557942606,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-43-biologia-fungos",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Azoles inhibit the conversion of [lanosterol] to [ergosterol]",
+   "verso": "- Less ergosterol, leaky membrane, growth stops",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791557943732,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-43-biologia-fungos",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Aspergillus ] forms [ conidiophores ] with fruiting bodies",
+   "verso": "Released into the air, inhaled by humans - Conidia radiate from a swollen vesicle on top of the conidiophore",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791557944155,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-grand-round-04-paracoccidioidomicose",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Histoplasma , Paracoccidioides and other endemic systemic fungi are found in the [mold] form in soil and the [yeast] form in the body",
+   "verso": "- Most endemic systemic fungi (Histoplasma, Paracoccidioides) are thermally dimorphic - Cryptococcus and Candida are not",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791557944724,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-43-biologia-fungos",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Mucor / Rhizopus spp . ] hyphae are [ non-septated ] with [ wide-angled (90°) ] branching",
+   "verso": "- R hizopus / M ucor → R ight angles (~90°) and M issing septae - AS pergillus → A cute angle (< 45°) and S eptate hyphae - Formerly Zygomycota, now Mucoromycota; sexual spore is the zygospore",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791575024195,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc08-fisiologia-09-motilidade-ii",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "A slow wave that reaches only the [ contractile ] threshold, with no spike potentials, still causes a weak contraction",
+   "verso": "- Contractile threshold: small Ca²⁺ rise, weak contraction - Electrical threshold: spikes bring more Ca²⁺, strong contraction",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791575028298,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-fisiologia-09-motilidade-ii",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "[ Ghrelin ] relaxes the pylorus and speeds gastric emptying , unlike secretin and CCK",
+   "verso": "- Ghrelin rises during fasting",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791575690369,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-43-biologia-fungos",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Yeasts reproduce asexually mainly by [ budding ], which gives unequal cells, whereas [ binary fission ] gives two equal cells",
+   "verso": "- The bud is a blastoconidium",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791575691218,
+   "por_que_deu_certo": {
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-43-biologia-fungos",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Hyphae grow by elongating at their [ tips ], and a hyphal fragment can start a new colony",
+   "verso": "- Fragmentation is a simple form of asexual reproduction",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625422039,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-22-mecanismos-efetores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "What class of helper T cell promotes immunity against extracellular microbes via neutrophil recruitment ? [Th 17 ]",
+   "verso": "This is through the induction of neutrophilic inflammation",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625422657,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-22-mecanismos-efetores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "What class of helper T cell activates macrophages and cytotoxic T cells ? [Th 1 ]",
+   "verso": "- Macrophages secrete IL-12 causing differentiation to Th 1 - Th 1 cells then secrete IFN-γ to stimulate macrophages",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625423157,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-45-ativacao-linfocitos-t",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which CD marker(s) does the T-cell express in the thymic medulla ? [Either CD4 or CD8]",
+   "verso": "Also expresses the T-cell receptor (TCR) and CD3",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625423683,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-07-organizacao-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which type of selection causes T cells expressing TCRs with high affinity for self antigens on medullary epithelial cells to either undergo apoptosis or become regulatory T cells ? [Negative selection]",
+   "verso": "These antigens are tissue-restricted self-antigens",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625423808,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-07-organizacao-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Where does negative selection of T cells occur? [Thymic medulla]",
+   "verso": "- Removes T cells that bind self-antigens too strongly",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625423932,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-07-organizacao-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "The tissue-restricted self-antigens expressed in the thymus for negative selection are due to the action of [autoimmune regulator (AIRE)]",
+   "verso": "- T cells expressing TCRs with high affinity for self-antigens (expressed by AIRE) undergo apoptosis or become regulatory T cells - Deficiency leads to Autoimmune Polyendocrine Syndrome Type 1 (APS-1)",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625424481,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-20-mhc-apresentacao",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "MHC [ II ] binds to the T-cell receptor (TCR) and CD [ 4 ]",
+   "verso": "Rule of 8: - MHC II * CD4 = 8 - MHC I * CD8 = 8 - Expressed by dendritic cells, macrophages, B cells (\"antigen presenting cells\")",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625424957,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-imunologia-20-mhc-apresentacao",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "What protein is associated with MHC I ? [β2-microglobulin]",
+   "verso": "Whereas MHC II is associated with invariant chain",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791625425583,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-07-organizacao-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "The lymph node [ paracortex ] contains [ high endothelial venules (HEV)], through which T and B cells enter from the blood",
+   "verso": "Homing receptors on lymphocytes, such as L-selectins, bind to addressins present on HEVs",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791625425757,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-07-organizacao-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "In lymph nodes, [ secondary ] follicles have pale, central [ germinal centers ] and are active",
+   "verso": "Compared to primary follicles which are dense and dormant",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791625425933,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-22-mecanismos-efetores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Tuberculoid ] leprosy is associated with a strong [ Th 1 ] -cell response, allowing for [ cell-mediated ] immunity",
+   "verso": "- Also referred to as pauci bacillary leprosy - Mediates granuloma formation",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625426108,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-imunologia-22-mecanismos-efetores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Lepromatous ] leprosy is associated with a strong [ Th 2 ] -cell response, allowing for [ humoral ] immunity",
+   "verso": "- Also referred to as multi bacillary leprosy - Lack of Th 1 - Response results in lack of cell-mediated immunity and therefore lack of containment of the infection",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625426532,
+   "por_que_deu_certo": {
+    "verde": "verde, 14 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-20-mhc-apresentacao",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which immune cell type has the cell surface protein B7 (CD80/86)? [APCs (B cells, macrophages, dendritic cells)]",
+   "verso": "The interaction between B7 (CD80/86 on APCs) and CD28 on T-cells is crucial for the co-stimulation required for T-cell activation",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625426833,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-imunologia-20-mhc-apresentacao",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Endogenous antigens are degraded by the [proteasome] in the cytosol, then [TAP] delivers antigen peptides to the rough endoplasmic reticulum where the resulting antigen peptides are loaded onto [ MHC I ] for antigen presentation",
+   "verso": "- TAP = transporter associated with antigen processing - Antigen::MHC I complexes are then secreted in vesicles for presentation on cell surfaces",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791625428657,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-45-ativacao-linfocitos-t",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "T-cells and B-cells become [ anergic ] when exposed to their antigen without a costimulatory signal",
+   "verso": "Mechanism of self-tolerance",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625429657,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-45-ativacao-linfocitos-t",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "The extrinsic (death receptor) pathway of apoptosis can occur via receptor binding between [ Fas-L ] and its receptor CD[95], or TNF-α and its receptor",
+   "verso": "- i.e., binding of Fas ( CD95 ) and TNF-α receptors result in caspase activation - Fas–FasL also removes activated lymphocytes at the end of a response (activation-induced cell death); thymic negative selection relies mainly on the mitochondrial (BIM) pathway",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625429833,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-17-reconhecimento-adaptativo",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Cell-mediated immunity is used to defend against [ intra ] cellular agents",
+   "verso": "- Effector T cells kill infected cells or activate phagocytes",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625430208,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-imunologia-22-mecanismos-efetores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which cytokine is primarily responsible for stimulating monocytes / macrophages to kill the microbes they ingest ( macrophage-lymphocyte interaction )? [IFN-γ]",
+   "verso": "IFN-γ also inhibits differentiation into Th 2 cells",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791625430332,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-20-mhc-apresentacao",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which cytokine increases MHC class II expression and antigen presentation by antigen-presenting cells? [IFN-γ]",
+   "verso": "IFN-γ increases MHC II expression and antigen-processing capacity in responsive antigen-presenting cells, strengthening recognition by CD4+ T cells. This is distinct from type I interferons, which enhance antiviral defenses and MHC I expression. MHC I supports CD8+ recognition but normally delivers an inhibitory signal to NK cells.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625431258,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-imunologia-22-mecanismos-efetores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "The T-cell signal that drives B-cell class switching is binding of B-cell [ CD40 ] to T-cell [ CD40L ]",
+   "verso": "B7–CD28 is a different costimulatory pair: it activates the T cell. CD40–CD40L then lets that helper T cell activate the B cell and induce class switching.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625431383,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "elogio": "MELHOREI O CARD"
+   },
+   "aula": "2026-uc03-biologia-molecular-18-recombinacao",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Class switching of IgM is mediated by CD40L and cytokines from [T helper] cells",
+   "verso": "- Both Th 1 and Th 2 - This card previously said Th 2 specifically, but First Aid 2024 and AMBOSS mention both (April 2024)",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625431508,
+   "por_que_deu_certo": {
+    "verde": "verde, 12 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-45-ativacao-linfocitos-t",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "The helper subset a naive CD4+ T cell becomes is set mainly by the [ cytokines ] around it during activation",
+   "verso": "- Example: IL-12 gives Th1, IL-4 gives Th2",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625432133,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-22-mecanismos-efetores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "What class of helper T cell promotes IgE production by B cells ? [Th 2 ]",
+   "verso": "- IL-4 drives the class switch to IgE",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625432257,
+   "por_que_deu_certo": {
+    "verde": "verde, 12 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-45-ativacao-linfocitos-t",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which class of helper T cells is believed to play a role in tissue damage associated with autoimmune disease ? [Th 17 cells]",
+   "verso": "- Examples: psoriasis, inflammatory bowel disease",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625433208,
+   "por_que_deu_certo": {
+    "verde": "verde, 16 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-45-ativacao-linfocitos-t",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "The master transcription factor of Th1 cells is [ T-bet ], of Th2 cells [ GATA3 ], and of Th17 cells [ RORγt ]",
+   "verso": "- Tregs use FOXP3",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625433782,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-22-mecanismos-efetores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which immune cell secretes IL-12 ? [Macrophages]",
+   "verso": "- Dendritic cells also secrete it",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625433908,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-22-mecanismos-efetores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which immune cells secrete IFN-γ ? [Natural killer (NK) cells and Th 1 cells]",
+   "verso": "- NK-derived IFN-γ helps start Th1 differentiation",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625434032,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-22-mecanismos-efetores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "In the setting of chronic inflammation , macrophages can be activated to M1 macrophages by stimulation from [Th 1 ] cells, resulting in a(n) [ proinflammatory ] phenotype",
+   "verso": "This is the classical activation pathway , and is mediated by IFN-γ",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791625434457,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-22-mecanismos-efetores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "In the setting of chronic inflammation , macrophages can be activated to M2 macrophages by stimulation from [Th 2 ] cells, resulting in a(n) [anti-inflammatory] phenotype",
+   "verso": "- This is the alternative activation pathway, and is mediated by IL-4 / IL-13 - These macrophages are also involved in repair processes - Tumors typically activate the M2 version and the \"repair\" features helps the tumor survive",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791625434757,
+   "por_que_deu_certo": {
+    "verde": "verde, 10 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-45-ativacao-linfocitos-t",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Regulatory T ] cells are identified by expression of CD3, CD4, [ CD25 ], and [ FOXP3 ]",
+   "verso": "- CD25 is the IL-2 receptor α chain",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625434983,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-imunologia-45-ativacao-linfocitos-t",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Tregs constitutively express [ CTLA-4 ], which strips B7 from antigen-presenting cells",
+   "verso": "- Without B7, APCs cannot activate effector T cells",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625435657,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-45-ativacao-linfocitos-t",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which interleukin is primarily responsible for attenuating the inflammatory response ? [IL-10]",
+   "verso": "At ten uate the inflammatory response",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625436032,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-imunologia-45-ativacao-linfocitos-t",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "During naive CD4+ T-cell differentiation , [IL-6] shifts the response to TGF-β toward Th17 rather than induced Tregs.",
+   "verso": "In the classic mouse model, TGF-β favors FOXP3 and induced Tregs when inflammatory signals are absent. IL-6 promotes STAT3 and the Th17 program; human differentiation involves additional cytokines and context.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791625436658,
+   "por_que_deu_certo": {
+    "verde": "verde, 14 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-grand-round-03-espondilodiscite-tuberculosa",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Granuloma formation : Th 1 cells secrete [IFN-γ], which converts macrophages to epithelioid histiocytes and giant cells",
+   "verso": "- Typical of tuberculosis, a delayed-type (type IV) reaction",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791626776803,
+   "por_que_deu_certo": {
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Dermatophytes rarely invade below the [ stratum corneum ]",
+   "verso": "- Itching and scaling are a host reaction to fungal products, not deep invasion",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791626777428,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Dermatophytes cause tinea lesions that are often [pruritic (itchy)]",
+   "verso": "- Itch and scaling come from the host reaction",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791626779402,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Tinea capitis is a dermatophyte infection of the scalp, often caused by Trichophyton spp. , and almost always occurs in [young children]",
+   "verso": "Adults with tinea capitis are often immunocompromised or immunosuppressed",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791626783328,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Hyper / hypopigmented patches of pityriasis versicolor on the skin commonly occur on the [ chest ] and [ back ], especially in individuals who spend a lot of time in the [ sun ]",
+   "verso": "- Variety of color changes that may occur led to the term “versicolor, e.g., having many colors” - Lesions don't tan in sunlight, so they will be more prominent in the summer or after sun exposure",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791626783472,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[Malassezia furfur] is a fungus that is part of normal [ skin ] flora, thriving in [ hot ] and [ humid ] conditions",
+   "verso": "Humidity allows M. furfur to convert to its disease form",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791626784004,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which fungus has a \" spaghetti and meatball \" appearance on KOH prep ? [ Malassezia furfur ]",
+   "verso": "- Short hyphae (spaghetti) plus round yeasts (meatballs)",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791627546427,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-46-expressao-eucariotos-i",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "[ Housekeeping ] genes, such as actin, tubulin and GAPDH , are expressed at steady levels in all cells",
+   "verso": "- They sustain functions common to every cell",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791627547052,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-18-recombinacao",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "How can enhancers be far away from the gene it regulates? [DNA will bend to bring enhancer to promoter]",
+   "verso": "- Looping lets distant enhancers reach the promoter",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791627547302,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-46-expressao-eucariotos-i",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Histone [ acetylation ] usually [ activates ] DNA transcription",
+   "verso": "- Via relaxation of the DNA coil - A cetylation A ctivates",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791627547602,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-biologia-molecular-46-expressao-eucariotos-i",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "The [ promoter ] is where [ RNA polymerase II ] and general transcription factors bind upstream of a gene",
+   "verso": "- RNA polymerase II cannot recognize the promoter by itself",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791627548028,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-biologia-molecular-46-expressao-eucariotos-i",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Enhancers serve as binding sites for [specific] transcription factors",
+   "verso": "Whereas promoters serve as binding sites for general transcription factors",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791627548153,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-46-expressao-eucariotos-i",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "The promoter is an AT-rich upstream sequence with [TATA] and [CAAT] boxes",
+   "verso": "- TATA (Hogness) is located approximately 25 bases upstream, CAAT is located 70-80 bases upstream - These regions of weak A::T bonds are where RNA polymerase binds (easy to open up vs stronger G:::C bonds)",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791627548527,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-46-expressao-eucariotos-i",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[Enhancers] are stretches of DNA that increase gene expression by binding specific transcription factors",
+   "verso": "These bind regulatory activator proteins which stabilize RNA polymerase",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791627548651,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-46-expressao-eucariotos-i",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[Silencers] are sites where negative regulators (repressors) bind to DNA",
+   "verso": "These decrease expression of a gene on the same chromosome by preventing RNA polymerase from binding",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791627550153,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-46-expressao-eucariotos-i",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "After T 3 binds its nuclear receptor, the T 3 -receptor complex binds to a thyroid-regulatory element on DNA, where it stimulates [DNA transcription]",
+   "verso": "This ultimately leads to synthesis of new proteins that are responsible for the multiple actions of thyroid hormone",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791627550403,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-46-expressao-eucariotos-i",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "When unbound , the glucocorticoid receptor is located in the [cytoplasm]",
+   "verso": "- Held in the cytoplasm by heat shock proteins",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791628672874,
+   "por_que_deu_certo": {
+    "verde": "verde, 13 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-48-micoses-subcutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Sporothrix schenckii ] is classically contracted via cuts from [ rose thorns ], as well as tree bark , bushes , and plants",
+   "verso": "AKA rose-gardener's disease",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791628673798,
+   "por_que_deu_certo": {
+    "verde": "verde, 12 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-48-micoses-subcutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Sporothrix schenckii will result in a local [ pustule ], or ulcer , at the site of trauma and first entry and [nodules] along draining lymphatics",
+   "verso": "e.g., thorn from a rose bush pricks the skin then ascending up the lymphatic drainage",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791629588622,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-17-reconhecimento-adaptativo",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "The [ heavy ] chain contributes to the Fab and Fc region of an antibody",
+   "verso": "- Variable + constant domains; CH2/CH3 form the Fc",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791629588872,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-17-reconhecimento-adaptativo",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "The antigen receptors of T lymphocytes have one [ α ] and [ β ] chain (monovalent)",
+   "verso": "They are expressed on the cell, not secreted",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791629589247,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-18-recombinacao",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "V(D)J recombination happens in immature lymphocytes , before they ever meet [ antigen ]",
+   "verso": "- B cells in the bone marrow, T cells in the thymus, while not proliferating",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791629592247,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-49-ativacao-celulas-b",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Thymus-independent antigens with repeating epitopes activate B cells by [ cross-linking ] many BCRs",
+   "verso": "- Example: LPS and capsular polysaccharides",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791629592747,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-49-ativacao-celulas-b",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "One example of a thymus-independent antigen is [ lipopolysaccharides (LPS)] from gram negative bacteria",
+   "verso": "- Repeating sugar units bind many identical BCRs",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791629593673,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-imunologia-49-ativacao-celulas-b",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Hyper-IgM ] syndrome is most commonly due to mutated [ CD40L ] on Th cells",
+   "verso": "Class-switching defect",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791629593848,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-imunologia-07-organizacao-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which region of the lymph node enlarges and multiplies during humoral immune response (e.g., bacterial infection)? [Germinal centers]",
+   "verso": "Increased number of germinal centers → lymphadenopathy",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791629595447,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-22-mecanismos-efetores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Ig[G] antibodies bind to the bacteria's capsule , resulting in either [ phagocytosis ] ( Fc receptors ) or binding of [ complement ]",
+   "verso": "- Phagocytes bind opsonized microbes through FcγRI",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791629595747,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-imunologia-17-reconhecimento-adaptativo",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which immunoglobulin(s) fix complement ? [IgM and IgG]",
+   "verso": "- A single bound IgM pentamer is enough to start the classical pathway",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791629596747,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-17-reconhecimento-adaptativo",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "IgA is transported through the mucosa via binding between the [ J chain ] of IgA and the [ polymeric Ig ] receptor on epithelial cells",
+   "verso": "IgA dimers bind to pIgR found on basolateral surface of intestinal epithelial cells and undergoes transcytosis",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791629598172,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-49-ativacao-celulas-b",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Pathogen-specific IgM without IgG suggests a [ recent primary ] infection",
+   "verso": "- Example: rubella IgM and IgG testing in pregnancy",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791629598422,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-49-ativacao-celulas-b",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which form of poliovirus vaccine forms IgG and IgA antibodies ? [Oral polio vaccine (Sabin)]",
+   "verso": "- Live attenuated vaccine - Recall that poliovirus replicates in GI tract, thus IgA antibody production is best",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791630902842,
+   "por_que_deu_certo": {
+    "verde": "verde, 13 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-grand-round-04-paracoccidioidomicose",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Paracoccidioidomycosis ] has a geographical distribution localized to [ South America ]",
+   "verso": "- Referred to as the \"Brazillian Blastomycoses\" - Paracoccidioides brasiliensis",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791630903892,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-grand-round-04-paracoccidioidomicose",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Dissemination of [ paracoccidioidomycosis ] can result in cervical , axillary , and inguinal [ lymphadenopathy ]",
+   "verso": "- Typical of the acute juvenile form",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791630904067,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-grand-round-04-paracoccidioidomicose",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Mucosal [ ulcers ] in the upper [respiratory] tract and [ mouth ] is characteristic of [ Paracoccidioidomycosis ]",
+   "verso": "- Gums of the mouth - Ragged borders with small spots of hemorrhage",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791630904467,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-grand-round-04-paracoccidioidomicose",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Paracoccidioides yeasts show multiple buds around a large mother cell, the [pilot's wheel] pattern",
+   "verso": "Yeast form in the lungs",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791630904844,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "The yeast wall of Paracoccidioides is rich in [α-glucan], whereas the mold wall has mostly [β-glucan]",
+   "verso": "In the yeast phase, outer α-glucan can mask underlying β-glucan from recognition by dectin-1. This is a recognition effect; the earlier β-glucanase claim was unsupported.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791630905091,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-grand-round-04-paracoccidioidomicose",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Local , mild infections of Paracoccidioidomycosis are treated with [azoles] (e.g., [itraconazole])",
+   "verso": "- Treatment is long",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791630905643,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Histoplasma infects people when its [ microconidia ] are inhaled from contaminated soil",
+   "verso": "- Risk: caves, chicken coops and other places with bird or bat droppings",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791630906493,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Chronic [ Histoplasmosis ] can look similar to [ tuberculosis (TB)], with cavitary lesions in the upper lobes of the lungs and [ calcified ] nodules with fibrotic scarring",
+   "verso": "- In general, systemic fungi are a symptomatic - Severe infections (for instance, those in immunocompromised patients) result in major symptoms - Calcifications common in the hilar regions",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791630906793,
+   "por_que_deu_certo": {
+    "verde": "verde, 14 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Local , mild infections of histoplasmosis are treated with [azoles] (e.g., [fluconazole], [itraconazole])",
+   "verso": "Whereas systemic (disseminated) infections are treated with amphotericin B",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791630907293,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Diabetes mellitus ] predisposes individuals to Candida albicans infection",
+   "verso": "- Other risks: AIDS, old age, pregnancy, antibiotics, corticosteroids",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791630907418,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[Neutropenic] patients are more likely to have disseminated candidiasis ( hematogenous )",
+   "verso": "While T-cell deficient patients are more likely to get superficial Candida infections (i.e., chronic mucocutaneous candidiasis)",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791630907544,
+   "por_que_deu_certo": {
+    "verde": "verde, 14 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Candida albicans appears as budding [yeasts] with [pseudohyphae] in tissue and on KOH prep",
+   "verso": "Will have blastoconidia",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791630908792,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Candida albicans ] is the most common cause of opportunistic mycoses",
+   "verso": "e.g., immunocompromised patients (HIV/AIDS, neutropenic patients, patients with diabetes)",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791630908917,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Risk factors for Candida vulvovaginitis include diabetes, antibiotics, corticosteroids, pregnancy and [oral contraceptives]",
+   "verso": "- i.e., Candida albicans - Other risk factors include pregnancy (both pregnancy & OCPs ↑ estrogen) and diabetes mellitus",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791630909042,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Vaginitis that presents with itching , copious secretion , and “ cottage cheese ” appearing clumps are signs of [vaginal candidiasis]",
+   "verso": "C. albicans overgrowth can result in: - Oral thrush : white exudate on mucous membranes - Vaginitis : itching, copious discharge, and clumps resembling \"cottage cheese\" - Cutaneous candidiasis : beefy red rash with satellite pustular lesions in moist interiginous areas where skin touches, such as under the breasts, armpits, or anogenital region. In infants, it manifests as diaper rash",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791630909592,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which fungus is encapsulated ? [Cryptococcus neoformans]",
+   "verso": "- The capsule is polysaccharide",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791631342915,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-52-expressao-eucariotos-ii",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "A(n) [ nucleosome (10 nm chromatin)] is negatively charged DNA wrapped around the outside of positively charged proteins called [histones]",
+   "verso": "- About 147 bp of DNA wrap the histone octamer nearly twice",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791631344492,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-52-expressao-eucariotos-ii",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "In epigenetics, when a histone is [ deacetylated ] by an HDAC (an \"eraser\"), the histone [ winds ] the DNA to make it [ unavailable ] for transcription",
+   "verso": "DEAC tylation DEAC tivates DNA",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791631344917,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-52-expressao-eucariotos-ii",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "The [ histone code ] hypothesis says that combinations of tail modifications set a chromatin region's function",
+   "verso": "- Readers bind specific combinations and recruit other proteins",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791631345241,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-biologia-molecular-52-expressao-eucariotos-ii",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "At the yeast HO gene , Swi5 first opens chromatin, allowing the second activator [ SBF ] to bind",
+   "verso": "This is sequential recruitment: Swi5 recruits a remodeler and a HAT; only after chromatin opens can SBF recruit the transcription machinery.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791631345867,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-52-expressao-eucariotos-ii",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "What form of chromatin appears darker on EM? [Heterochromatin]",
+   "verso": "- Clusters near the nucleolus and nuclear envelope",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791631346366,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-52-expressao-eucariotos-ii",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "CpG islands , usually unmethylated, are concentrated in gene [ promoters ]",
+   "verso": "- Elsewhere in the genome most CpGs are methylated",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791631346617,
+   "por_que_deu_certo": {
+    "verde": "verde, 5 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-biologia-molecular-52-expressao-eucariotos-ii",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "DNA [ methylation ] at [ CpG ] islands [represses] transcription",
+   "verso": "- Methylation is mostly relevant to key developmental genes - Mechanistically, methylation is used to disrupt binding of transcription factors, recruit \"readers\", recruit heterochromatin protein - M ethylation M utes DNA",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791631347092,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-biologia-molecular-52-expressao-eucariotos-ii",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "After replication , a [ maintenance DNA methyltransferase ] copies methylation onto the new strand",
+   "verso": "After DNA replication, a CpG site can be methylated on the parental strand but not yet on the new strand. DNMT1 preferentially restores methylation at these hemimethylated sites, with targeting factors such as UHRF1. Histone reader–writer systems act on a different substrate: they recognize a histone modification and help place that mark on nearby new histones. Both help maintain epigenetic patter",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791631347467,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-biologia-molecular-52-expressao-eucariotos-ii",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "HDAC inhibitors prevent histones from being [ deacetylated ] resulting in genes such as tumor suppressors being [ transcribed ]",
+   "verso": "- Approved for some lymphomas and multiple myeloma",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791716405608,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-grand-round-03-espondilodiscite-tuberculosa",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "A granuloma may contain an infection while still harboring [ viable microbes ]",
+   "verso": "- Containment limits spread without necessarily eliminating the stimulus. - Persistent bacilli in tuberculosis illustrate why loss of immune control can permit reactivation.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791716410533,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-patologia-47-inflamacao-granulomatosa",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Epithelioid histiocytes are [ macrophages ] with abundant pink cytoplasm",
+   "verso": "- Epithelioid histiocytes are activated macrophages; the name describes appearance, not epithelial lineage.",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791716422184,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-grand-round-03-espondilodiscite-tuberculosa",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which cytokine is responsible for maintaining granulomas in TB infection ? [ TNF-α (from macrophages)]",
+   "verso": "While IFN-y stimulates macrophages to kill phagocytosed pathogens",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791716423083,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-patologia-47-inflamacao-granulomatosa",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "In immune granulomas , macrophage IL-12 supports Th1 cells, whose [ IFN-γ ] activates macrophages",
+   "verso": "- Persistent antigen sustains reciprocal stimulation between macrophages and T cells. - Removing the stimulus allows this circuit to subside; persistence keeps inflammation active.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791716426458,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-grand-round-03-espondilodiscite-tuberculosa",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "The circumscribed aggregate of epithelioid macrophages is a [ granuloma ]",
+   "verso": "- The rim contains lymphocytes and the center may vary by cause and stage.",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791716429751,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-grand-round-03-espondilodiscite-tuberculosa",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "The red slender organisms on this blue background are [ acid-fast bacilli ]",
+   "verso": "- This stain does not by itself identify the mycobacterial species.",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791716432998,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-patologia-47-inflamacao-granulomatosa",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Necrosis of macrophages infected by M. tuberculosis releases [ bacilli ] that can infect new cells",
+   "verso": "- The same immune response that contains bacilli can damage host tissue.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791716436082,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-grand-round-03-espondilodiscite-tuberculosa",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "A TB cavity forms when liquefied caseum drains into a(n) [ airway ]",
+   "verso": "- Drainage leaves an air-filled space and can carry bacilli through bronchi.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791716438427,
+   "por_que_deu_certo": {
+    "verde": "verde, 13 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-grand-round-03-espondilodiscite-tuberculosa",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Loss of CD4⁺ Th1 support can leave immune granulomas [ poorly organized ]",
+   "verso": "- Reduced macrophage activation weakens control of persistent microbes. - Advanced HIV infection illustrates this loss of cellular cooperation.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791744820056,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Besides blocking phagocytosis, the Cryptococcus capsule impairs [ antigen presentation ] and macrophage nitric oxide production",
+   "verso": "- The capsule is made of glucuronoxylomannan",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791762415623,
+   "por_que_deu_certo": {
+    "elogio": "melhorei o card para ficar mais atômico"
+   },
+   "aula": "2026-uc19-deck-prova-1-farmacodinamica",
+   "uc": "uc19",
+   "origem": "Autoral",
+   "frente": "Antacids relieve heartburn by neutralizing gastric acid in the lumen, so they act with no [drug target]",
+   "verso": "- A proton-pump inhibitor instead blocks new acid secretion at its target, the H+/K+ ATPase",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791762416971,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc19-deck-prova-1-farmacodinamica",
+   "uc": "uc19",
+   "origem": "AnKing",
+   "frente": "Benzodiazepines exert their effects via binding to an allosteric site on the [ GABA A ] receptor",
+   "verso": "- BZDs need GABA present; they do not open the channel alone",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791762418025,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc19-deck-prova-1-farmacodinamica",
+   "uc": "uc19",
+   "origem": "Autoral",
+   "frente": "Affinity is the ability to bind the target, whereas [intrinsic activity] (also called efficacy) is the ability to activate it once bound",
+   "verso": "- Antagonists have affinity but zero intrinsic activity",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791762418274,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc19-deck-prova-1-farmacodinamica",
+   "uc": "uc19",
+   "origem": "AnKing",
+   "frente": "V max of a drug is indicative of [ efficacy ]",
+   "verso": "Directly related (efficacious drugs have high V max )",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791762420550,
+   "por_que_deu_certo": {
+    "elogio": "exemplo de bom card ele realmente ensina algo e tem um cloze",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc19-deck-prova-1-farmacodinamica",
+   "uc": "uc19",
+   "origem": "AnKing",
+   "frente": "[ Partial opioid ] agonists can cause [opioid withdrawal] symptoms if the patient is also taking a full opioid agonist",
+   "verso": "- Due to competition for opioid receptors (partial agonists have high affinity and low efficacy) - e.g., buprenorphine , butorphanol , pentazocine",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791826286643,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc19-deck-prova-1-farmacodinamica",
+   "uc": "uc19",
+   "origem": "Autoral",
+   "frente": "Which drug is most potent ? [ A ]",
+   "verso": "- A has the lowest EC 50 , read at half of its own maximal response. - Potency is read on the dose axis; the plateau height is another property, efficacy.",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791826286795,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "elogio": "melhorei",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc19-deck-prova-1-farmacodinamica",
+   "uc": "uc19",
+   "origem": "Autoral",
+   "frente": "Which drugs have the same maximal efficacy ? [ A and B ]",
+   "verso": "- A and B reach the same plateau. C reaches a lower maximum. - Compare plateau height for efficacy and EC 50 for potency.",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1791910086149,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-patologia-47-inflamacao-granulomatosa",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Macrophage growth factors stimulate fibroblasts to deposit [ collagen ] around a granuloma",
+   "verso": "- Continued deposition can produce a fibrous rim and replace damaged tissue.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1791983679330,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-patologia-62-inflamacao-cronica",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "The characteristic triad of chronic inflammation is: 1. [ scarring ] 2. [ mononuclear infiltrate ] 3. [ tissue destruction ]",
+   "verso": "",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792065031181,
+   "por_que_deu_certo": {
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-43-biologia-fungos",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Antifungals by target: - bind ergosterol: [ polyenes ] - block ergosterol synthesis: [ azoles ] - block β-glucan synthesis: [ echinocandins ] - block nucleic acid synthesis: [ flucytosine ]",
+   "verso": "",
+   "tem_imagem": false,
+   "organizador": true
+  },
+  {
+   "nid": 1792065182152,
+   "por_que_deu_certo": {
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Main systemic mycoses : - endemic, by dimorphic true pathogens: [ paracoccidioidomycosis ] and [ histoplasmosis ] - opportunistic, mainly in the immunocompromised: [ cryptococcosis ], [ candidiasis ] and [ aspergillosis ]",
+   "verso": "- Endemic agents infect healthy people in their region; opportunists need a weakened host",
+   "tem_imagem": false,
+   "organizador": true
+  },
+  {
+   "nid": 1792081475762,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-patologia-47-inflamacao-granulomatosa",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "What are the main causes of granulomatous inflammation ? 1) infection: [ tuberculosis ], [ paracoccidioidomycosis ], histoplasmosis 2) foreign body: [ silica ] 3) unknown cause: [ sarcoidosis ], granulomatosis with polyangiitis",
+   "verso": "",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792081486660,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-patologia-47-inflamacao-granulomatosa",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Sarcoidosis is a systemic disease characterized by widespread [ noncaseating ] granulomas",
+   "verso": "- Noncaseating granulomas are typical but not specific; infectious causes still need exclusion.",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792166969765,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "How the immune system fails: 1. Too weak a response: [ immunodeficiency ] 2. Adaptive response against self: [ autoimmunity ] 3. Innate inflammation with no trigger: [ autoinflammatory ] disease",
+   "verso": "- Each group is a different failure: defense, self-tolerance, or the brake on inflammation - An exaggerated response to a harmless foreign antigen is hypersensitivity (lesson 64)",
+   "tem_imagem": false,
+   "organizador": true
+  },
+  {
+   "nid": 1792166970014,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Autoimmune diseases come from [adaptive] immunity, and autoinflammatory diseases from [innate] immunity",
+   "verso": "Autoimmunity reflects misdirected adaptive responses involving autoreactive T cells and/or antibodies, depending on the disease. Autoinflammatory disorders center on dysregulated innate pathways; inflammatory mechanisms can overlap in practice.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792166970767,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Peripheral tolerance of mature T cells: 1. [ Anergy ] (antigen without costimulation) 2. Suppression by [ regulatory T ] cells 3. [ Deletion ] by apoptosis",
+   "verso": "- Each mechanism has a single-gene disease when it fails: FOXP3 (IPEX) for Treg, FAS (ALPS) for deletion",
+   "tem_imagem": false,
+   "organizador": true
+  },
+  {
+   "nid": 1792166971544,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "The PD1 receptor is normally involved in the maintenance of [peripheral] immunologic tolerance",
+   "verso": "This \"checkpoint\" system is another line of defense against autoreactive immune cells that have escaped central tolerance",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792166971792,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which immune cell has the cell surface protein CD4 and CD25 ? [Regulatory T cells (T reg )]",
+   "verso": "- CD25 is the IL-2 receptor α chain; Tregs live on IL-2 and also deprive effector T cells of it",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792166974846,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Rheumatic fever ] is caused by cross-reactivity between [ Streptococcus pyogenes (GAS) ] antigens (M protein) and self -antigens (via molecular mimicry)",
+   "verso": "Self-antigens like the myosin found in cardiac muscle (esp. of the mitral valve) or neuronal antigens found in the basal ganglia (Sydenham chorea)",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792166975840,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Because pembrolizumab targets a peripheral tolerance mechanism, patients taking this drug can develop autoimmune disorders of [endocrine] organs",
+   "verso": "- e.g., thyroid, pancreas, pituitary gland, and the kidney - Inflammation of each endocrine organ can cause dysfunctions one would expect (kidney → nephritic syndrome, pancreas → T1DM)",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792166976595,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Myasthenia gravis ] is caused by autoantibodies to [ post ] synaptic [ ACh receptors ] at the NMJ",
+   "verso": "- Importantly, these antibodies (IgM and/or IgG) block activation resulting in a reduced number of functional acetylcholine receptors at the neuromuscular junction - This results in a decreased end plate potential (not allowing muscle cells to depolarize) since there are fewer postsynaptic cation channels that can now open in response to acetylcholine",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792166976940,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Autoantibodies form complexes with antigens , which activate the classical complement pathway and induce tissue damage in [ SLE ]",
+   "verso": "- Immune complexes deposit in small vessels (kidney, skin, joints) and attract neutrophils through complement",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792166978741,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[B]-cell deficiencies cause recurrent bacterial infections [T]-cell deficiencies produce fungal and viral infections",
+   "verso": "B -cell deficiency = B acterial",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792166986389,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "What classes of immunoglobulin are decreased in X-linked ( Bruton ) agammaglobulinemia (XLA)? [All classes]",
+   "verso": "- No mature B cells means no plasma cells, so every class falls",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792166987440,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "X-linked agammaglobulinemia increases susceptibility to [ encapsulated ] bacteria and viruses , particularly [ enteroviruses ]",
+   "verso": "Includes coxsackie A/B, poliovirus, echovirus, and rhinovirus",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792166991941,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "What is the most common mode of inheritance of chronic granulomatous disease (CGD)? [X-linked recessive]",
+   "verso": "Can also be autosomal recessive",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792166992666,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Nocardia is [ catalase ] positive , thus patients with chronic granulomatous disease are susceptible to infection",
+   "verso": "- Catalase destroys the bacterium's own H2O2, which phagocytes without NADPH oxidase would borrow to kill it",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792166993690,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-51-disturbios-sistema-imune",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Those with leukocyte adhesion deficiency are susceptible to bacterial invasion , particularly nonpurulent [ skin ] and [ mucosal ] infections",
+   "verso": "*e.g., gingival erythema, ulceration, skin abscesses, cellulitis, otitis media (because the skin and oral mucosa are susceptible to bacterial invasion)",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792170504179,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-43-biologia-fungos",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Polyenes result in leakage of [electrolytes] from the cell",
+   "verso": "Polyenes bind plasma sterols (ergosterol) forming membrane pores that allow leakage of electrolytes - The pores let K⁺ and Na⁺ leak out, so the fungal cell dies",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792173499322,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-43-biologia-fungos",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Round, thick-walled resting cells that fungi form under adverse conditions are [ chlamydoconidia ]",
+   "verso": "- They survive lack of nutrients, water or a bad temperature, like a resistance form; Candida albicans forms them on corn meal agar",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792175041239,
+   "por_que_deu_certo": {
+    "verde": "verde, 10 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "What class of drugs results in an accumulation of squalene intracellularly? [Allylamines (e.g., terbinafine)]",
+   "verso": "- Blocking squalene epoxidase leaves toxic squalene in the cell and no ergosterol",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792175043258,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Oral and esophageal ] [ candidiasis ] may be seen in the immuno [ compromised ] or those using oral [ steroids ]",
+   "verso": "Also inhaled corticosteroids - Steroids reduce T-cell and phagocyte function at the mucosa",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792175043737,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-imunologia-22-mecanismos-efetores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Chronic mucocutaneous candidiasis can result from congenital defects in [IL-17] signaling, commonly due to a deficiency in [AIRE protein]",
+   "verso": "- Thus these mutations cause Th 17 dysfunction IL-17 is secreted by Th 17 and is a proinflammatory cytokine that is involved in: - Production of neutrophil chemokines (recruits neutrophils to a site of inflammation) - Production of proinflammatory cytokines (IL-6, IL-1β, TNF-α) - Production of PGE 2 - Production of antimicrobial peptides by keratinocytes - Th17 cells and IL-17 recruit neutrophils ",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792175043988,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Oral ] candidiasis can be treated with [ nystatin ]",
+   "verso": "- Liquid ; \" swish and spit \" or \" swish and swallow \" - Can also use clotrimazole troches / lozenges - Candida esophagitis is treated with oral or IV fluconazole , not nystatin - Nystatin is not absorbed from the gut, so it acts only on the mucosa",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792175044587,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which polyene can treat oral and vaginal candidiasis ? [Nystatin]",
+   "verso": "Toxic for systemic use Nystatin uses: - Oral candidiasis (thrush) - Diaper rash (topical) - Vaginal candidiasis (topical) - Too toxic for systemic use, nystatin is used only topically",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792175047836,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Dermatophyte spores coating the outside of the hair shaft form an [ectothrix] infection, and spores inside it an [endothrix] infection",
+   "verso": "- Microsporum canis is typically ectothrix; Trichophyton tonsurans is endothrix, giving the black-dot tinea capitis",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792175050936,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Selenium sulfide ] is used as treatment for the fungus [ Malassezia furfur ] due to it promoting shedding of the [ stratum corneum ]",
+   "verso": "M. furfur infects the stratum corneum - Shedding the stratum corneum removes the layer where the fungus lives",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792175890134,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-microbiologia-48-micoses-subcutaneas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Ascending [ lymphangitis ] and [ cigar ] -shaped yeasts are classic manifestations of [Sporotrichosis ( Sporothrix schenckii infection)]",
+   "verso": "AKA nodular lymphangitis - The ulcer at the wound and a chain of nodules up the arm are the classic picture",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792176896207,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Coccidioides immitis ] has a characteristic [ mold ] form containing [ barrel ] -shaped arthroconidia",
+   "verso": "- Inhaled arthroconidia become spherules full of endospores in the lung",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792176897408,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "What is the treatment for local histoplasmosis , blastomycosis , and coccidioidomycosis infections? [Itraconazole]",
+   "verso": "- Itraconazole is an oral azole; severe disseminated forms need amphotericin B",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792176898257,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "What is the CD4+ count threshold for the development of candidal esophagitis ? [< 100 cells/mm 3 ]",
+   "verso": "AIDS-defining illness",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792176898506,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "What infectious cause of esophagitis presents as white pseudomembranes ? [Candida]",
+   "verso": "- Candida spreads from the mouth to the esophagus when T-cell immunity falls (AIDS)",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792176902806,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "In [ Mucormycosis ], the fungus has a predilection to proliferate in [ blood vessel ] walls , especially where there is excess [ glucose ] and [ ketone bodies ]",
+   "verso": "e.g., diabetic ketoacidosis in T1DM (high blood sugar and high blood ketones)",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792176905479,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[Bronchopulmonary] washings can be used to diagnose Cryptococcal infection",
+   "verso": "- AKA bronchopulmonary lavage - Recall that the lungs are the primary site of infection (due to inhalation)",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792261811401,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc07-telencefalo-e-cortex-cerebral-homunculo-motor-e-sensitivo",
+   "uc": "uc07",
+   "origem": "AnKing",
+   "frente": "O giro [pós]-central é a área [somestésica] primária (lobo parietal)",
+   "verso": "- Área somestésica: relativa à sensibilidade somática (tato, dor, temperatura e propriocepção); corresponde ao córtex somatossensitivo primário (áreas 3, 1 e 2 de Brodmann).",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792487516279,
+   "por_que_deu_certo": {
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-imunologia-17-reconhecimento-adaptativo",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "B-cell maturation Bone marrow [Pro-B]: no complete μ chain or surface Ig [Pre-B]: cytoplasmic μ and pre-BCR, no conventional light chain [Immature B]: surface IgM, no IgD Peripheral cells [Mature naive B]: surface [IgM and IgD] [Plasma cells]: antibody-secreting effectors [Memory B cells]: persistent antigen-experienced B cells",
+   "verso": "A productive heavy-chain rearrangement allows μ to pair with a surrogate light chain in the pre-BCR. Light-chain rearrangement then creates a complete IgM BCR. Mature naive B cells coexpress IgM and IgD by alternative RNA processing, not class-switch recombination. After antigen stimulation, activated clones can generate plasma cells or memory cells; those are alternative fates, not a required pla",
+   "tem_imagem": false,
+   "organizador": true
+  },
+  {
+   "nid": 1792572870634,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-telencefalo-e-cortex-cerebral-vista-inferior-do-encefalo",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870635,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-tronco-encefalico-01-visao-geral-superficie",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870636,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-nervos-cranianos-nervos-oculomotor-troclear-e-abducente",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870640,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-tronco-encefalico-01-visao-geral-superficie",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870644,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-estruturas-subcorticais-talamo",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870645,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-cerebelo-cortex-cerebelar",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870654,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-tronco-encefalico-01-visao-geral-superficie",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870655,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-tronco-encefalico-01-visao-geral-superficie",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870659,
+   "por_que_deu_certo": {
+    "verde": "verde, 9 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-introducao-ao-sistema-nervoso-sistema-nervoso-central-introducao-ao-encefalo",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870664,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-introducao-ao-sistema-nervoso-sistema-nervoso-periferico-nervos-ganglios-e-plexos",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870690,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-cerebelo-cortex-cerebelar",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870692,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc07-cerebelo-cortex-cerebelar",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870693,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-cerebelo-nucleos-do-cerebelo",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870694,
+   "por_que_deu_certo": {
+    "verde": "verde, 10 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-cerebelo-nucleos-do-cerebelo",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870695,
+   "por_que_deu_certo": {
+    "verde": "verde, 14 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-cerebelo-nucleos-do-cerebelo",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870696,
+   "por_que_deu_certo": {
+    "verde": "verde, 12 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-cerebelo-nucleos-do-cerebelo",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870697,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-cerebelo-nucleos-do-cerebelo",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870702,
+   "por_que_deu_certo": {
+    "verde": "verde, 14 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-estruturas-subcorticais-corte-coronal-do-encefalo-nivel-do-talamo",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870714,
+   "por_que_deu_certo": {
+    "verde": "verde, 14 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-telencefalo-e-cortex-cerebral-visao-geral-do-cerebro",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792572870734,
+   "por_que_deu_certo": {
+    "verde": "verde, 16 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc07-vascularizacao-do-encefalo-seios-venosos-da-dura-mater",
+   "uc": "uc07",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792588686955,
+   "por_que_deu_certo": {
+    "elogio": "melhorei"
+   },
+   "aula": "2026-uc07::14-10-medula-espinal-plexos-e-nervos",
+   "uc": "uc07::14",
+   "origem": "Kenhub",
+   "frente": "Há [8] pares de nervos espinais cervicais, [12] torácicos, [5] lombares, [5] sacrais e [1] coccígeo",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792588686964,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc07::13-10-construcao-morfofuncional-do-sistema-nervoso",
+   "uc": "uc07::13",
+   "origem": "Kenhub",
+   "frente": "Cada nervo espinal forma-se pela união de: 1. Raiz [ anterior ]— axônios [ eferentes ] 2. Raiz [ posterior ] — axônios [ aferentes ]",
+   "verso": "A raiz posterior conduz fibras aferentes ao SNC e contém o gânglio espinal; a anterior conduz fibras eferentes para fora do SNC.",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792588686968,
+   "por_que_deu_certo": {
+    "elogio": "MELHOREI"
+   },
+   "aula": "2026-uc07::13-10-construcao-morfofuncional-do-sistema-nervoso",
+   "uc": "uc07::13",
+   "origem": "Kenhub",
+   "frente": "As três partes principais do encéfalo são: 1. [ Cérebro ] 2. Cerebelo 3. [ Tronco encefálico ]",
+   "verso": "Cérebro, cerebelo e tronco encefálico formam as três divisões principais do encéfalo.",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792588686980,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc07::14-10-tronco-encefalico",
+   "uc": "uc07::14",
+   "origem": "Kenhub",
+   "frente": "A cavidade do tubo neural origina: - mesencéfalo: [aqueduto cerebral] - ponte e bulbo: [quarto ventrículo] - medula espinal: [canal central]",
+   "verso": "A cavidade contínua do tubo neural forma essas três estruturas; no prosencéfalo, forma os ventrículos laterais e o terceiro ventrículo.",
+   "tem_imagem": true,
+   "organizador": true
+  },
+  {
+   "nid": 1792624465974,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc19-deck-prova-2-farmacocinetica",
+   "uc": "uc19",
+   "origem": "Autoral",
+   "frente": "Clearance of a high-extraction drug by the liver is limited mainly by [hepatic blood flow]",
+   "verso": "The liver removes almost all the drug that reaches it, so delivery is the bottleneck (lidocaine, morphine, propranolol). For low-extraction drugs (warfarin, diazepam), the limits are enzyme activity and the free fraction instead.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792659584852,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "What is the embryonic origin of the gut tube epithelium and most major organs (e.g., lungs, liver, gallbladder, pancreas)? [Endo]derm",
+   "verso": "- So the gut lining and the glands of the liver and pancreas share the same germ layer",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792659586130,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The hindgut develops into structures from the [ distal 1/3rd of the transverse colon ] to the [ anal canal above the pectinate line ]",
+   "verso": "- The anal canal below the pectinate line comes from ectoderm",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792659586974,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "Embryonic origin of the gut wall layers: - epithelium and glands: [ endoderm ] - muscle, connective tissue, serosa: [ splanchnic mesoderm ]",
+   "verso": "- Splanchnic mesoderm lines the gut, while somatic mesoderm lines the body wall",
+   "tem_imagem": true,
+   "organizador": true
+  },
+  {
+   "nid": 1792659588552,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "Rotation of the stomach in the embryo pulls the dorsal mesogastrium left, opening the [ omental bursa ] behind it",
+   "verso": "- The bursa opens to the rest of the peritoneal cavity through the epiploic foramen",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792659590925,
+   "por_que_deu_certo": {
+    "verde": "verde, 8 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "Midgut loop in four steps: - growth - [ herniation ] - [ 90° rotation ] - return with [180°] rotation",
+   "verso": "- The two rotations sum to 270° counterclockwise",
+   "tem_imagem": false,
+   "organizador": true
+  },
+  {
+   "nid": 1792659591276,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "During the [ 10th ] week of gestation, the midgut returns to the abdominal cavity and rotates [ 270 ] ° counterclockwise around the [ superior mesenteric ] artery",
+   "verso": "Note: two separate rotations, 90º and 180º, totalling 270º Embryo at week 9-10 (loops of intestine are seen as a bulge of orange material in the cord near its attachment to the abdominal wall):",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792659591802,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "Primary loop of the midgut : Cephalic limb forms [ jejunum ] and [ ileum ] Caudal limb forms [ cecum ] and [ ascending colon ]",
+   "verso": "The superior mesenteric artery runs along the axis of the loop.",
+   "tem_imagem": true,
+   "organizador": true
+  },
+  {
+   "nid": 1792659592051,
+   "por_que_deu_certo": {
+    "elogio": "ESSE DECK DE EMBRIO DO INTESTINO E ESTÔMAGO TÁ TOP!!!"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "After the embryonic gut returns, the ascending and descending colon fuse posteriorly and become [ secondarily retroperitoneal ]",
+   "verso": "Their mesocolon fuses with the posterior parietal peritoneum. The mesentery proper of the small intestine stays free.",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792659592552,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Omphalocele is a persistent [ herniation ] of bowel into the umbilical cord",
+   "verso": "- The herniated loop stays covered by a sac of peritoneum",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792659593721,
+   "por_que_deu_certo": {
+    "verde": "verde, 10 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The [ vitelline ] duct connects the yolk sac to the [ midgut ] lumen",
+   "verso": "AKA omphalomesenteric duct",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792659594674,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Meckel ] diverticulum is an outpouching of all three layers of the bowel wall ( true diverticulum )",
+   "verso": "- The wall has mucosa, submucosa and muscularis, like the ileum it hangs from",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792659600350,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "[ Annular ] pancreas is a congenital malformation in which the [ ventral ] pancreatic bud forms a ring around the [ 2nd ] part of the duodenum",
+   "verso": "- AKA descending duodenum - Abnormal migration of the ventral pancreatic bud during 7th / 8th week can be caused by adherence to either the dorsal bud or duodenum before the rotation begins - Can be abnormal rotation OR bifid ventral bud “",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792659601976,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "The [ enzymatic ] component of pancreatic secretion is secreted by acinar cells",
+   "verso": "Whereas the aqueous component is secreted by ductal and centroacinar cells",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792659604301,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "What structure is contained within the hepatoduodenal ligament ? [Portal triad: 1) Proper hepatic artery 2) Portal vein 3) Common bile duct]",
+   "verso": "- The triad runs in the free edge of the lesser omentum",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792659604802,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "Hepatic sinusoids are [discontinuous] capillaries, allowing plasma macromolecules to reach hepatocytes.",
+   "verso": "Increasing permeability: 1. Continuous: uninterrupted endothelium. 2. Fenestrated: endothelial pores. 3. Sinusoidal: large gaps and discontinuous basement membrane. Hepatic sinusoids are sinusoidal/discontinuous capillaries; their fenestrations face the space of Disse.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792659607326,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "The hepatic acinus is the smallest unit supplied by a terminal [ portal vein ] branch and drained by a [ bile duct ]",
+   "verso": "- It is centered on the portal space",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792677733803,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-microbiologia-57-principios-gerais-virus",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "New virions form by [assembly], not cell division.",
+   "verso": "A viral particle contains one genome type. Host cells contain both DNA and RNA; bacteria divide rather than assemble progeny from separately made components.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792677735547,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-microbiologia-57-principios-gerais-virus",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Positive ] sense RNA can be used immediately by the cell for gene translation and protein synthesis",
+   "verso": "Once in the cytoplasm of the host cells - This is Baltimore group IV, which goes straight to translation",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792677737476,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-57-principios-gerais-virus",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "A viral genome in separate nucleic-acid molecules is [segmented]; one with two complementary strands is [double-stranded].",
+   "verso": "Segmentation and strand number are independent. Genome topology, circular versus linear, is a third property.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792677738076,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-57-principios-gerais-virus",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Most RNA virus genomes are [single]-stranded and [linear]",
+   "verso": "- Exception: reovirus is double-stranded and segmented",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792677740101,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-microbiologia-57-principios-gerais-virus",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[ Poxviruses ] are the only DNA viruses without icosahedral symmetry , and instead have a(n) \"[box]\" or \"[brick]\" shape",
+   "verso": "- Its large particle has outer and inner membranes and a core with the DNA and many enzymes",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792677740802,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-microbiologia-57-principios-gerais-virus",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Negative sense RNA viruses produce their own [RNA polymerase] to transcribe into positive sense RNA",
+   "verso": "Can then be used by host cells for protein production - The cell has no RNA-dependent RNA polymerase, so the virion must carry one - Retroviruses such as HIV likewise carry reverse transcriptase, integrase and protease",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792677742577,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-microbiologia-57-principios-gerais-virus",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Which type of viral genome is not infectious by itself ? [(-) RNA]",
+   "verso": "(+) RNA can be used by ribosomes dsDNA can undergo transcription to make mRNA - (+) RNA alone can be translated, so purified (+) RNA genomes are infectious",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792677743147,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-microbiologia-57-principios-gerais-virus",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "The complete extracellular particle that protects a viral genome and delivers it to the next permissive cell is the [virion]",
+   "verso": "A virion is the assembled particle that carries the genome between cells. Packaging protects that genome and supplies the structures needed for attachment and entry; genome replication and protein production require a host cell.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792695018715,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Steps of the viral cycle , in order: - [ adsorption ] - [ penetration ] - [ uncoating ] - synthesis of proteins and genome - [ assembly ] and maturation - [ release ]",
+   "verso": "Attachment/entry → uncoating → synthesis → assembly/maturation → release. Antivirals target selected steps; the mechanisms vary by virus.",
+   "tem_imagem": true,
+   "organizador": true
+  },
+  {
+   "nid": 1792695019413,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Adsorption binds a receptor that only some cells express, so the receptor largely determines viral [ tropism ]",
+   "verso": "- Receptors are ordinary host molecules (CD4, ICAM-1, CD21, sialic acid) - No receptor, no infection, even if the cell is permissive",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792695019915,
+   "por_que_deu_certo": {
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Influenza: entrada × saída Entrada: [hemagglutinin (HA)] binds sialic acid on the host cell. Saída: [neuraminidase (NA)] cleaves sialic acid so new virions can leave.",
+   "verso": "HA attaches influenza to the cell. After budding, NA prevents newly formed virions from remaining bound to sialic acid or clumping together.",
+   "tem_imagem": false,
+   "organizador": true
+  },
+  {
+   "nid": 1792695021790,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "[M2 channel proteins] are influenza viral proteins that ensure proper intracellular [pH] for viral [uncoating]",
+   "verso": "- Protons entering the virion trigger uncoating",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792695022916,
+   "por_que_deu_certo": {
+    "verde": "verde, 11 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "HIV [env] encoded [ gp160 ] is first sent to the [ endoplasmic reticulum ] of the cell for processing",
+   "verso": "- Proteases in Golgi apparatus cleave gp160 into gp120 and gp41 → sent to cell membrane (recall that ER and Golgi apparatus are processing centers for surface proteins) - This card previously said gp120 and gp41, which are post-processing protein derivatives of gp160 (Amboss 2024) - Envelope glycoproteins follow the secretory pathway to the plasma membrane",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792695051190,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Once HIV is inside a cell, viral [reverse transcriptase] converts viral RNA to double-stranded DNA (dsDNA) This double-stranded DNA is inserted into the host cell genome by [integrase], another viral enzyme",
+   "verso": "Recall that the HIV gene pol encodes reverse transcriptase, aspartate protease and integrase - Integration into the host genome is obligatory: the provirus",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792695059943,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "NRTIs lack a 3’ hydroxyl group , causing strand termination when binding to [HIV reverse transcriptase]",
+   "verso": "- The next nucleotide has nowhere to attach, so the chain stops",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792695061593,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Do NNRTIs require phosphorylation to be activated? [No]",
+   "verso": "Non-nucleoside RTIs (NNRTIs) directly inhibit reverse transcriptase by binding to a different site from NRTIs. They do not require phosphorylation to be active or compete with nucleotides",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792695062393,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Integrase inhibitors will inhibit HIV [dsDNA] integration into the host cell genome , preventing [mRNA] production",
+   "verso": "Inhibit integration of HIV dsDNA into host cell genome - Without integration there is no provirus to transcribe",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792695063612,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Antivirals can cure HCV infection, but not HIV, because HIV persists as an integrated [ provirus ]",
+   "verso": "- HCV cure = sustained virologic response, from combining drugs against protease, NS5A and polymerase",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792695063912,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "Highly active antiretroviral therapy (HAART) consists of a minimum of [3] drugs to prevent resistance",
+   "verso": "2 NRTIs + either an NNRTI or a protease inhibitor or an integrase inhibitor - One drug selects resistant mutants quickly; three targets at once rarely fail together",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792697125501,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07::14-10-medula-espinal-plexos-e-nervos",
+   "uc": "uc07::14",
+   "origem": "Autoral",
+   "frente": "Um acúmulo de corpos de neurônios chama-se [núcleo] dentro do SNC e [gânglio] fora dele",
+   "verso": "- Por isso o gânglio espinal, fora da medula, guarda os corpos dos neurônios sensitivos",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792697126920,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07::14-10-medula-espinal-plexos-e-nervos",
+   "uc": "uc07::14",
+   "origem": "Kenhub",
+   "frente": "A medula espinal começa no bulbo, no nível do [forame magno]",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792697127429,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07::14-10-medula-espinal-plexos-e-nervos",
+   "uc": "uc07::14",
+   "origem": "Autoral",
+   "frente": "Até o [4º mês] de vida intrauterina, a medula tem o comprimento da coluna; depois a coluna cresce [mais]",
+   "verso": "- Os segmentos mantêm os nomes da coluna, mas deixam de coincidir com as vértebras: a medula do adulto termina em L2",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792697128127,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07::14-10-medula-espinal-plexos-e-nervos",
+   "uc": "uc07::14",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792697128479,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 0 lapso(s), ativo"
+   },
+   "aula": "2026-uc07::14-10-medula-espinal-plexos-e-nervos",
+   "uc": "uc07::14",
+   "origem": "Autoral",
+   "frente": "As intumescências são dilatações da medula causadas pelas grossas [raízes nervosas] que entram e saem para os [membros]",
+   "verso": "- Na região torácica não há membro nem plexo: os nervos seguem isolados para a parede do tórax e do abdome, e a medula não se dilata",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792713389602,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "uc": "uc08",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792713390354,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "O [ligamento redondo] do fígado é remanescente da [veia umbilical] obliterada.",
+   "verso": "AKA round ligament of the liver - The umbilical vein carried oxygenated blood from the placenta; after birth it becomes this fibrous cord",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792713394204,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "Após atravessar o fígado , o sangue sai pelas [veias hepáticas] e alcança a [veia cava inferior].",
+   "verso": "- So blood from the gut is processed by the liver before reaching the right heart",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792713394868,
+   "por_que_deu_certo": {
+    "elogio": "melhorei",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "uc": "uc08",
+   "origem": "Autoral",
+   "frente": "Impressões da face visceral do fígado: [Gástrica] [Duodenal] [Cólica] [Renal] [Suprarrenal]",
+   "verso": "- The soft liver takes the shape of the organs that touch it",
+   "tem_imagem": true,
+   "organizador": true
+  },
+  {
+   "nid": 1792713395453,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "uc": "uc08",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792713397879,
+   "por_que_deu_certo": {
+    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "Quais artérias percorrem o ligamento hepatogástrico ? [Artérias gástricas]",
+   "verso": "Both left and right gastric arteries - The gastrohepatic ligament runs along the lesser curvature, where these arteries anastomose",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792713404156,
+   "por_que_deu_certo": {
+    "elogio": "MELHOREI, aprende",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "uc": "uc08",
+   "origem": "AnKing",
+   "frente": "O ducto [colédoco] resulta da união do ducto [cístico] com o ducto [hepático comum].",
+   "verso": "- From here the common bile duct runs to the duodenum behind the pancreatic head",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792713406304,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "uc": "uc08",
+   "origem": "Kenhub",
+   "frente": "",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792713409954,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "uc": "uc08",
+   "origem": "Ankisthesia",
+   "frente": "Principais regiões de anastomoses portossistêmicas : [Gastroesofágica] [Anorretal] [Paraumbilical] [Retroperitoneal]",
+   "verso": "Gastroesophageal → esophageal varices Anorectal → rectal varices Paraumbilical → caput medusae Retroperitoneal → posterior collaterals",
+   "tem_imagem": true,
+   "organizador": true
+  },
+  {
+   "nid": 1792753608341,
+   "por_que_deu_certo": {
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
+   },
+   "aula": "2026-uc03-microbiologia-59-patogenese-viral",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "In viral latency the genome stays in the cell without making virions, but the cycle can be [ reactivated ]",
+   "verso": "Between reactivations viral replication is zero. True viral latency belongs to the herpesviruses",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792786398983,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-biologia-molecular-54-rnas-nao-codificadores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "When using CRISPR/Cas9 to knock-in DNA, a(n) [repair template] must be added to guide insertion of a construct",
+   "verso": "Ideally, you use a Cas9 variant that introduces a single stranded break that would allow Homology Directed Repair to utilize the provided repair template to incorporate the new sequence into the target cells genome",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792786399910,
+   "por_que_deu_certo": {
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-biologia-molecular-54-rnas-nao-codificadores",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "siRNA pathway dsRNA → [Dicer] → siRNA guide guide + RISC/[Argonaute] → matching mRNA cut guide stays → next target",
+   "verso": "Dicer makes a short duplex; one strand stays with RISC. Catalytically active Argonaute cuts a sufficiently complementary target, and the guide can act again.",
+   "tem_imagem": true,
+   "organizador": true
+  },
+  {
+   "nid": 1792786400257,
+   "por_que_deu_certo": {
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-biologia-molecular-54-rnas-nao-codificadores",
+   "uc": "uc03",
+   "origem": "AnKing",
+   "frente": "With extensive siRNA–target complementarity , [Argonaute] cleaves the target mRNA.",
+   "verso": "The siRNA guide pairs with a matching mRNA in RISC. Catalytically active Argonaute cuts the target; Dicer processed the precursor earlier. See the full Dicer → RISC → cut → guide reuse sequence below.",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792786400608,
+   "por_que_deu_certo": {
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-biologia-molecular-54-rnas-nao-codificadores",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "After Argonaute cleaves a target mRNA, RISC retains the [siRNA guide] and can cleave another matching transcript.",
+   "verso": "The cleaved mRNA is degraded, while the siRNA guide remains in RISC to find another matching transcript.",
+   "tem_imagem": true,
+   "organizador": false
+  },
+  {
+   "nid": 1792787231967,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-biologia-molecular-54-rnas-nao-codificadores",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Regulatory RNAs act by: Folding into a ligand-sensitive shape: [riboswitch] Base-pairing with a target RNA: [siRNA] Recruiting silencing proteins onto its own chromosome: [Xist]",
+   "verso": "A riboswitch changes shape when a molecule binds. siRNA guides Argonaute to complementary RNA. Xist coats the X chromosome that produces it and recruits proteins that establish repressive chromatin.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1792787420154,
+   "por_que_deu_certo": {
+    "X": "gostei (x)",
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-59-patogenese-viral",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Viral infection patterns: [Acute]: virus cleared [Latent]: silent, reactivates [Persistent]: steady replication [Progressive]: rising until death",
+   "verso": "",
+   "tem_imagem": true,
+   "organizador": true
+  },
+  {
+   "nid": 1792787433932,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-microbiologia-59-patogenese-viral",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Viral virulence factors help a virus: - [ replicate] - [ colonize ] - [ evade ] immunity - act as a toxin, like [ NSP4 ]",
+   "verso": "Spread includes adhesion, entry and exit from cells and from the body.",
+   "tem_imagem": false,
+   "organizador": true
+  },
+  {
+   "nid": 1792788317025,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-biologia-molecular-46-expressao-eucariotos-i",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Phosphorylation can retain a transcription factor in the cytoplasm by masking its [NLS] from importins.",
+   "verso": "NLS means nuclear localization sequence. Importins recognize an accessible NLS and help transport its cargo through the nuclear pore, so masking the signal can reduce nuclear entry. The effect of phosphorylation depends on the factor and site; it does not always block import.",
+   "tem_imagem": false,
+   "organizador": false
+  },
+  {
+   "nid": 1793199677933,
+   "por_que_deu_certo": {
+    "guia2": "modelo no GUIA-2"
+   },
+   "aula": "2026-uc03-microbiologia-60-virologia-pratica",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Cytopathic effect includes altered: - [shape] - [adhesion] - [lysis] - [membrane fusion] - [inclusion bodies] - [apoptosis]",
+   "verso": "Lysis and apoptosis kill the cell, fusion makes syncytia, and inclusion bodies are often where virions are assembled. Each virus favors some of these, so the pattern points to a group.",
+   "tem_imagem": false,
+   "organizador": true
+  }
+ ]
+}
