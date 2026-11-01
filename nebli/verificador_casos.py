@@ -111,6 +111,15 @@ def forma_das_lacunas(e, autoral=None):
             probs.append(f"{len(rs)} lacunas no índice c{n} sem a dica da 1ª letra em cada uma")
         if len(rs) > 2 and not org and autoral:  # par no mesmo índice é contraste aprovado (GUIA-2 B; colédoco 1792713404156)
             probs.append(f"{len(rs)} respostas no índice c{n} fora de organizador")
+    if org:
+        # rodada 01/11 (b): "escrita ruim" nos organizadores de linhas explicativas; os modelos de Davi têm 3–8 palavras por linha
+        # (1792787420154, 1792588686980), e "MAIS CLOZES POR VEZ" quando cada item virava um cartão (1792695033836)
+        linhas = [l for l in (_txt(x, False) for x in re.split(r"<br\s*/?>|</div>\s*<div[^>]*>", texto)) if l]
+        longas = [] if "<table" in texto else [l for l in linhas[1:] if len(l.split()) > 14]  # tabela não tem linha
+        if longas:
+            probs.append(f"linha de organizador com mais de 14 palavras ({longas[0][:40]})")
+        if len(por_indice) >= 3 and all(len(v) == 1 for v in por_indice.values()):
+            probs.append("organizador com uma lacuna por cartão: agrupar no mesmo índice")
     if _FORMAT_NO_CLOZE.search(texto):
         probs.append("negrito/itálico/sublinhado dentro da lacuna")
     fora = _txt(_CLOZE.sub(" ", texto), False).lower()

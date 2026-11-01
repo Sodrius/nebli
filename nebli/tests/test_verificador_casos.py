@@ -73,6 +73,10 @@ class FormaTests(unittest.TestCase):
         self.assertIn("sem a dica", " ".join(v.forma_das_lacunas(org)))
         com_dica = {"fields": {"Text": '<div data-nebli-organizacao="true">' + "".join(f"- {{{{c1::x{i}::x…}}}}<br>" for i in range(5)) + "</div>"}}
         self.assertEqual(v.forma_das_lacunas(com_dica), [])
+        um_por = {"fields": {"Text": '<div data-nebli-organizacao="true">Cycle:<br>- {{c1::a}}<br>- {{c2::b}}<br>- {{c3::c}}</div>'}}
+        self.assertIn("uma lacuna por cartão", " ".join(v.forma_das_lacunas(um_por)))
+        longa = {"fields": {"Text": '<div data-nebli-organizacao="true">Why:<br>- ' + "word " * 15 + '{{c1::x}}</div>'}}
+        self.assertIn("mais de 14 palavras", " ".join(v.forma_das_lacunas(longa)))
         self.assertEqual(v.forma_das_lacunas({"fields": {"Text": "Tregs survive on {{c1::IL-2}} from T cells", "Extra": "FOXP3."}}), [])
 
 
