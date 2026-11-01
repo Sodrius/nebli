@@ -58,5 +58,23 @@ class V12Tests(unittest.TestCase):
         self.assertIn("a=b", " ".join(n for n, _ in v.verificar(self.run, plan)))
 
 
+class FormaTests(unittest.TestCase):
+    def test_erros_da_rodada_01_11(self):
+        ruim = {"fields": {"Text": "When Cas9 cuts, {{c1::<b>nonhomologous end joining (NHEJ) enzymes</b>}} repair it",
+                           "Extra": "<b>Aplicação:</b> x <img src=\"esquema.svg\">"}}
+        p = " ".join(v.forma_das_lacunas(ruim))
+        for trecho in ("mais de 3 palavras", "dentro da lacuna", "rótulo", "esquema desenhado"):
+            self.assertIn(trecho, p)
+        tres = {"fields": {"Text": "{{c1::A}}, {{c1::B}} and {{c1::C}}"}}
+        self.assertIn("3 respostas", " ".join(v.forma_das_lacunas(tres, autoral=True)))
+        self.assertEqual(v.forma_das_lacunas(tres, autoral=False), [])
+        self.assertEqual(v.forma_das_lacunas({"fields": {"Text": "O colédoco une o ducto {{c1::cístico}} ao {{c1::hepático comum}}."}}), [])
+        org = {"fields": {"Text": '<div data-nebli-organizacao="true">' + "".join(f"- {{{{c1::x{i}}}}}<br>" for i in range(5)) + "</div>"}}
+        self.assertIn("sem a dica", " ".join(v.forma_das_lacunas(org)))
+        com_dica = {"fields": {"Text": '<div data-nebli-organizacao="true">' + "".join(f"- {{{{c1::x{i}::x…}}}}<br>" for i in range(5)) + "</div>"}}
+        self.assertEqual(v.forma_das_lacunas(com_dica), [])
+        self.assertEqual(v.forma_das_lacunas({"fields": {"Text": "Tregs survive on {{c1::IL-2}} from T cells", "Extra": "FOXP3."}}), [])
+
+
 if __name__ == "__main__":
     unittest.main()

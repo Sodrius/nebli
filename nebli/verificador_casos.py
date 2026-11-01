@@ -83,6 +83,48 @@ def preparar(run, plan=None):
     return run / ENTRADA
 
 
+_ROTULO = re.compile(r"(?i)<b>\s*(aplicação|decodificação|application|example)\s*:\s*</b>|^(aplicação|decodificação)\s*:")
+_FORMAT_NO_CLOZE = re.compile(r"\{\{c\d+::\s*<(b|u|i)>", re.I)
+
+
+def forma_das_lacunas(e, autoral=None):
+    """Rodada 01/11 (F-20261101-CLAUDE-04): os erros de escrita que mais voltaram, conferidos em todo card (AnKing também).
+    Devolve a lista de problemas do card."""
+    f = e.get("fields") or {}
+    texto = f.get("Text") or ""
+    extra = f.get("Extra") or f.get("Back Extra") or ""
+    org = "data-nebli-organizacao" in texto
+    if autoral is None:
+        autoral = e.get("origin") == "Autoral"
+    probs = []
+    por_indice = {}
+    for n, corpo in re.findall(r"\{\{c(\d+)::((?:(?!\}\}).)*?)\}\}", texto, re.S):
+        resp = _txt(corpo.split("::")[0], False)
+        por_indice.setdefault(n, []).append(resp)
+        if len(resp.split()) > 3:
+            probs.append(f"lacuna com mais de 3 palavras ({resp[:40]})")
+    for n, rs in por_indice.items():
+        # organizadores aprovados por Davi têm 4–5 itens no mesmo índice (1792713409954, 1792787420154, 1792588686955), sempre
+        # com dica da 1ª letra; o tamanho certo do grupo fica com o verificador (esporotricose 1792175889534: "EXCESSO DE CLOZES")
+        dicas = re.findall(r"\{\{c" + n + r"::(?:(?!\}\}).)*?::[^}]*…\}\}", texto)
+        if len(rs) > 3 and len(dicas) < len(rs):
+            probs.append(f"{len(rs)} lacunas no índice c{n} sem a dica da 1ª letra em cada uma")
+        if len(rs) > 2 and not org and autoral:  # par no mesmo índice é contraste aprovado (GUIA-2 B; colédoco 1792713404156)
+            probs.append(f"{len(rs)} respostas no índice c{n} fora de organizador")
+    if _FORMAT_NO_CLOZE.search(texto):
+        probs.append("negrito/itálico/sublinhado dentro da lacuna")
+    fora = _txt(_CLOZE.sub(" ", texto), False).lower()
+    for rs in por_indice.values():
+        for r in rs:
+            if len(r) > 3 and re.search(r"\b" + re.escape(r.lower()) + r"\b", fora):
+                probs.append(f"resposta visível na frente ({r[:30]})")
+    if _ROTULO.search(extra) or _ROTULO.search(_txt(extra, False)):
+        probs.append("rótulo tipo 'Aplicação:' no verso")
+    if any(s.lower().endswith(".svg") for s in _IMG.findall(texto + extra)):
+        probs.append("esquema desenhado (.svg) no lugar de figura real")
+    return probs
+
+
 def verificar(run, plan):
     """Gates duros do pipeline v12."""
     run = Path(run)
@@ -118,6 +160,10 @@ def verificar(run, plan):
                 rep.append(f"{vistos[r]}={e['key']}")
             vistos.setdefault(r, e["key"])
     out.append(("[duro] v12: sem dois cards com a mesma resposta (repetição)" + (f": {rep[:4]}" if rep else ""), not rep))
+    forma = {e["key"]: forma_das_lacunas(e) for e in entries}
+    forma = {k: v for k, v in forma.items() if v}
+    out.append(("[duro] v12: forma das lacunas e figuras (≤ 3 palavras, ≤ 3 por índice, uma resposta fora de organizador, sem negrito dentro, "
+                "resposta não visível, sem rótulo no verso, sem esquema desenhado)" + (f": {dict(list(forma.items())[:3])}" if forma else ""), not forma))
     # Parecer do agente
     try:
         par = json.loads((run / PARECER).read_text(encoding="utf-8"))

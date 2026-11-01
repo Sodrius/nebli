@@ -80,7 +80,8 @@ def abrir(pasta, A):
 def _gates_existentes():
     nomes = set()
     for p in (RAIZ / "nebli").glob("*.py"):
-        nomes |= set(re.findall(r"(?m)^def (\w+)", p.read_text(encoding="utf-8")))
+        defs = set(re.findall(r"(?m)^def (\w+)", p.read_text(encoding="utf-8")))
+        nomes |= defs | {f"{p.stem}.{d}" for d in defs}
     return nomes
 
 
