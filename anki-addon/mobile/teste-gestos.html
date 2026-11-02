@@ -1,0 +1,26 @@
+<div id="nebli-diag" style="font:15px/1.4 sans-serif;text-align:left;max-width:640px;margin:auto">
+<b>NEBLI · teste do AnkiDroid</b><br>
+<span id="nd-versao">procurando a API JavaScript…</span>
+<div id="nd-funcoes" style="margin-top:8px;font-size:13px"></div>
+<div id="nd-userjs" style="margin-top:8px;font-size:13px"></div>
+<div style="margin-top:10px;font-size:13px;opacity:.75">Tire um print desta tela e mande para o Claude. Para testar as ações: em Configurações › Controles, ligue "Ação do usuário 1" a um gesto e faça o gesto aqui.</div>
+</div>
+<script>
+(function () {
+  var out = function (id, html) { var el = document.getElementById(id); if (el) el.innerHTML = html; };
+  var nomes = ["ankiToggleFlag", "ankiGetCardFlag", "ankiSuspendCard", "ankiBuryCard", "ankiMarkCard", "ankiAddTagToCard",
+               "ankiAddTagToNote", "ankiGetNoteTags", "ankiSetNoteTags", "ankiShowToast", "ankiShowAnswer", "ankiIsDisplayingAnswer",
+               "ankiGetCardId", "ankiGetCardNid", "ankiSearchCard", "ankiEnableHorizontalScrollbar"];
+  var api = null, modo = "";
+  try {
+    if (typeof AnkiDroidJS === "function") { api = new AnkiDroidJS({ version: "0.0.3", developer: "nebli@localhost" }); modo = "AnkiDroidJS (nova)"; }
+  } catch (e) { modo = "erro: " + e; }
+  if (!api && typeof AnkiDroidJS !== "undefined" && AnkiDroidJS.init) {
+    try { AnkiDroidJS.init(JSON.stringify({ version: "0.0.1", developer: "nebli@localhost" })); api = window; modo = "AnkiDroidJS.init (antiga)"; } catch (e) { modo = "erro: " + e; }
+  }
+  if (!api) { out("nd-versao", "API JavaScript <b>não encontrada</b> (é o Anki do computador, ou a opção está desligada em Configurações › Avançado)."); return; }
+  out("nd-versao", "API encontrada: <b>" + modo + "</b>");
+  out("nd-funcoes", nomes.map(function (n) { return (typeof api[n] === "function" ? "✅ " : "❌ ") + n; }).join("<br>"));
+  window.userJs1 = function () { try { api.ankiShowToast("Ação do usuário 1 funcionou"); } catch (e) {} out("nd-userjs", "✅ Ação do usuário 1 recebida pelo card"); };
+})();
+</script>
