@@ -223,6 +223,15 @@ def study_deck(col, mw, deck_id, log):
     ids = _branch_ids(col, branch)
     name = study_name(branch)
     fid = _filtered_id(col, name)
+    # Davi, 31/10: "quero que no estudar tudo eu possa fazer todos os cards não suspensos do deck" — o filtrado do Anki não puxa
+    # card enterrado; desenterra os do ramo antes de montar (suspensos continuam fora).
+    enterrados = col.find_cards("(" + " or ".join(f"did:{i}" for i in ids) + ") is:buried")
+    if enterrados:
+        try:
+            col.sched.unbury_cards(enterrados)
+        except AttributeError:  # Anki sem unbury_cards: desenterra deck a deck
+            for i in ids:
+                col.sched.unbury_deck(i)
     cards = col.find_cards("(" + " or ".join(f"did:{i}" for i in ids) + ") -is:suspended")
     filtered = col.sched.get_or_create_filtered_deck(deck_id=fid or 0)
     if fid is None:
@@ -233,7 +242,7 @@ def study_deck(col, mw, deck_id, log):
     filtered.config.reschedule = True
     out = col.sched.add_or_update_filtered_deck(filtered)
     col.decks.select(fid or out.id)
-    log(f"estudo para prova: {name} ({len(cards)} cards não suspensos, reagenda pelo FSRS)")
+    log(f"estudo para prova: {name} ({len(cards)} cards não suspensos, {len(enterrados)} desenterrados, reagenda pelo FSRS)")
     mw.moveToState("overview")
     return name, len(cards)
 
@@ -371,6 +380,22 @@ def action_request(mw, log):
             feitos.append({"id": deck_id, "de": antigo, "para": novo})
         result.update({"encontrado": True, "renomeados": feitos})
         log(f"decks renomeados em lote: {len(feitos)} (IDs preservados)")
+        (REPO / "arquivos-trabalho" / "anki-acao-resposta.json").write_text(json.dumps(result, ensure_ascii=False), encoding="utf-8")
+        return
+    if data["acao"] == "mover_deck_por_id":
+        # 03/11 ("deck de biomol da p3 fugiu"): dois decks P3 com o mesmo nome canônico; o renomeador pula conflito,
+        # então o ramo é movido pelo ID para o pai certo. Só o deck muda de lugar; cards, histórico e agendamento ficam.
+        filho, pai = col.decks.get(int(data["deck_id"])), col.decks.get(int(data["para_pai_id"]))
+        novo = pai["name"] + "::" + filho["name"].split("::")[-1]
+        col.decks.rename(filho["id"], novo)
+        vazio, apagado = data.get("apagar_vazio_id"), False
+        if vazio:
+            vazio = int(vazio)
+            cards = col.db.scalar("select count() from cards where did=? or odid=?", vazio, vazio)
+            if not list(col.decks.children(vazio)) and not cards:
+                col.decks.remove([vazio]); apagado = True
+        result.update({"encontrado": True, "movido": {"id": filho["id"], "para": novo}, "duplicado_apagado": apagado})
+        log(f"deck {filho['id']} movido para {novo}; duplicado apagado={apagado}")
         (REPO / "arquivos-trabalho" / "anki-acao-resposta.json").write_text(json.dumps(result, ensure_ascii=False), encoding="utf-8")
         return
     if did is not None:
