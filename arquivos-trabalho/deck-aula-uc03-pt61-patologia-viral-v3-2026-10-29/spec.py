@@ -169,11 +169,11 @@ CARDS = [
  # ---------- Lâminas 11–12: interferon tipo I (princípio) ----------
  K(1497440851060, "V-prova", E_, "Vírus dispara PRR citosólico → IFN tipo I", 11, "lâmina 11; prova 2018 P3 1.7 (padrões moleculares e IFN alfa/beta)"),
  sh(1793053714022, "verde", E_, "IFN-α/β agem nas células não infectadas", 11, "V-hy: card de imuno (AnKing 1489970693302); a lâmina 11 é este efeito"),
- au("au-ifn-tempo", "Type I <b>interferon</b> slows viral replication in neighbouring cells, holding the infection until the {{c1::adaptive}} response arrives",
+ au("au-ifn-tempo", "During a <b>viral infection</b>, type I interferon makes neighboring cells enter an {{c1::antiviral state}}, reducing viral protein synthesis and spread before T-cell control.",
     "V-pilar", E_, "IFN-I ganha tempo", 11, "transcrição lâmina 11", motivacao="m21",
     fontes=F("transcrição, lâmina 11", "Ele não impede a infecção de outras células, necessariamente, mas ele bloqueia ou dificulta a replicação viral. Na medida em que ele faz isso, ele ganha tempo"),
     sem_imagem="a figura da lâmina 11 é um esquema sem o alvo",
-    extra="It has little effect on the infected cell that made it.<br>Its job is to limit new virions until T cells and antibodies arrive, not to end the infection."),
+    extra="The infected cell releases IFN-α/β; neighboring cells induce antiviral proteins. This slows production of new virions and buys time for the adaptive response, but does not guarantee that neighboring cells avoid infection."),
  K(1520301328706, "R-detalhe", E_, "IFN-I reduz síntese proteica (estado antiviral)", 12, "lâmina 12 (estado de resistência antiviral: inibição da síntese proteica)"),
  sh(1793053714276, "verde", E_, "IFN-I aumenta MHC I", 12, "V-hy: card de imuno (AnKing 1520301453074); lâmina 12"),
  sh(1793053714397, "verde", E_, "IFN-α/β ativam NK", 12, "V-hy: card de imuno (AnKing 1487117310594); lâmina 12"),

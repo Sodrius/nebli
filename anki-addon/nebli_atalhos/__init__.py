@@ -11,7 +11,7 @@ Durante a revisão:
     '           enterra o card atual (volta amanhã); F-20261003-CLAUDE-19: “coloca o enterrar pro botão de '”
     c           comentário (Enter salva, Shift+Enter quebra a linha): abre o campo NEBLI_Comentario da nota para escrever
     v           voltar: desfaz a última ação e volta ao card anterior (Cmd/Ctrl+Z também)
-    Ctrl + / -  aumenta / reduz o zoom do card (persistente entre sessões)
+    Ctrl + / -  aumenta / reduz o zoom em todas as janelas (persistente entre sessões)
 
 A explicação com Tab é outro add-on (nebli_explicacoes), para quem quiser só ela.
 
@@ -33,7 +33,7 @@ from pathlib import Path
 
 from aqt import gui_hooks, mw
 from aqt.qt import (QAction, QApplication, QDialog, QDialogButtonBox, QEvent, QKeySequence, QLabel,
-                    QObject, QPlainTextEdit, QShortcut, Qt, QTextCursor, QTimer, QVBoxLayout)
+                    QObject, QPlainTextEdit, QShortcut, Qt, QTextCursor, QTimer, QVBoxLayout, QWidget)
 from aqt.utils import tooltip
 
 ANSWER = {"a": 1, "s": 2, "d": 3, "f": 4}
@@ -99,21 +99,49 @@ _zoom = _load_zoom()
 
 
 def _apply_zoom():
-    reviewer = _reviewer()
-    if reviewer:
-        reviewer.web.setZoomFactor(_zoom)
+    for window in QApplication.topLevelWidgets():
+        if window.isVisible():
+            _apply_zoom_to_window(window)
+
+
+def _apply_zoom_to_window(window):
+    """Amplia controles nativos e todo conteúdo web visível da janela."""
+    try:
+        base = window.property("_nebli_zoom_base_point")
+        if base is None:
+            base = window.font().pointSizeF()
+            if base <= 0:
+                base = QApplication.font().pointSizeF()
+            if base <= 0:
+                base = 12.0
+            window.setProperty("_nebli_zoom_base_point", base)
+        font = window.font()
+        font.setPointSizeF(max(6.0, float(base) * _zoom))
+        window.setFont(font)
+        _set_web_zoom(window)
+        for widget in window.findChildren(QWidget):
+            if widget.isVisible() and callable(getattr(widget, "setZoomFactor", None)):
+                widget.setZoomFactor(_zoom)
+    except RuntimeError:
+        pass  # janela fechada durante a atualização
+
+
+def _set_web_zoom(widget):
+    try:
+        if widget.isVisible() and callable(getattr(widget, "setZoomFactor", None)):
+            widget.setZoomFactor(_zoom)
+    except RuntimeError:
+        pass
 
 
 @_guarded
 def _change_zoom(delta):
     global _zoom
-    if not _reviewer():
-        return
     _zoom = round(min(ZOOM_MAX, max(ZOOM_MIN, _zoom + delta)), 2)
     USER.mkdir(exist_ok=True)
     ZOOM_FILE.write_text(json.dumps({"factor": _zoom}) + "\n", encoding="utf-8")
     _apply_zoom()
-    tooltip(f"Zoom do card: {round(_zoom * 100)}%")
+    tooltip(f"Zoom do Anki: {round(_zoom * 100)}%")
 
 
 @_guarded
@@ -310,9 +338,6 @@ def _on_shortcuts(state, shortcuts):
     shortcuts.append((UNDO_KEY, _undo))
     shortcuts.append((REDO_KEY, _redo))
     shortcuts.append((BURY_KEY, _bury))
-    shortcuts.append(("Ctrl+=", lambda: _change_zoom(ZOOM_STEP)))
-    shortcuts.append(("Ctrl++", lambda: _change_zoom(ZOOM_STEP)))
-    shortcuts.append(("Ctrl+-", lambda: _change_zoom(-ZOOM_STEP)))
 
 
 _parked = {}  # atalhos de menu/globais tirados durante a revisão -> atalho original
@@ -398,10 +423,46 @@ class _SoloKeys(QObject):
         return False
 
 
+class _GlobalZoom(QObject):
+    """Captura o zoom antes dos atalhos locais e alcança janelas abertas depois."""
+
+    def eventFilter(self, obj, event):
+        kind = event.type()
+        if kind == QEvent.Type.Show:
+            if isinstance(obj, QWidget) and obj.isWindow():
+                QTimer.singleShot(0, lambda window=obj: _apply_zoom_to_window(window))
+            elif callable(getattr(obj, "setZoomFactor", None)):
+                QTimer.singleShot(0, lambda widget=obj: _set_web_zoom(widget))
+            return False
+        if kind not in (QEvent.Type.ShortcutOverride, QEvent.Type.KeyPress):
+            return False
+        if QApplication.activeWindow() is None:
+            return False
+        modifiers = event.modifiers()
+        control = Qt.KeyboardModifier.ControlModifier | Qt.KeyboardModifier.MetaModifier
+        if not modifiers & control or modifiers & Qt.KeyboardModifier.AltModifier:
+            return False
+        key = event.key()
+        if key in (Qt.Key.Key_Plus, Qt.Key.Key_Equal):
+            step = ZOOM_STEP
+        elif key in (Qt.Key.Key_Minus, Qt.Key.Key_Underscore):
+            step = -ZOOM_STEP
+        else:
+            return False
+        if kind == QEvent.Type.ShortcutOverride:
+            event.accept()
+            return False
+        _change_zoom(step)
+        return True
+
+
 _solo = _SoloKeys()
 QApplication.instance().installEventFilter(_solo)
+_global_zoom = _GlobalZoom()
+QApplication.instance().installEventFilter(_global_zoom)
 gui_hooks.state_shortcuts_will_change.append(_on_shortcuts)
 gui_hooks.state_did_change.append(_on_state)
 gui_hooks.reviewer_did_show_question.append(_show_flag_status)
 gui_hooks.reviewer_did_show_answer.append(_show_flag_status)
+QTimer.singleShot(0, _apply_zoom)
 _log("carregado")

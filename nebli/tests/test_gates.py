@@ -414,3 +414,14 @@ class CypSoltoTests(unittest.TestCase):
         assert solto("Acute alcohol use leads to {{c1::inhibition}} of CYP450")
         assert not solto("Rifampin is a CYP450 inducer and thus is contraindicated in HIV due to it decreasing HIV protease inhibitor serum concentrations")
         assert not solto("Which macrolide antibiotic does not inhibit CYP450 ? {{c1::Azithromycin}}")
+
+
+def test_instalar_por_ultimo_reprova_apply_antes_da_e7(tmp_path):
+    import json as _j
+    from nebli import gates as _g
+    (tmp_path / "receipt.json").write_text(_j.dumps({"at": "2026-11-04T09:00:00+00:00"}))
+    (tmp_path / "etapas.jsonl").write_text(_j.dumps({"etapa": "E7", "em": "2026-11-04T10:00:00+00:00"}) + "\n")
+    assert _g.instalar_por_ultimo(tmp_path, {"pipeline_versao": 14})[0][1] is False
+    (tmp_path / "etapas.jsonl").write_text(_j.dumps({"etapa": "E7", "em": "2026-11-04T08:00:00+00:00"}) + "\n")
+    assert _g.instalar_por_ultimo(tmp_path, {"pipeline_versao": 14})[0][1] is True
+    assert _g.instalar_por_ultimo(tmp_path, {"pipeline_versao": 13}) == []

@@ -1,0 +1,67 @@
+{
+  "revisoes": [
+    {
+      "recibo": "arquivos-trabalho/comentarios-2026-10-31/receipt-regressao-20261031.json",
+      "sha256": "729d5865e5187a2a4bb2ec6c18b794b4f697eb5bf5319780c70fa6856f5707df"
+    },
+    {
+      "recibo": "arquivos-trabalho/comentarios-2026-10-31/receipt-regressao-duplicatas-20261031.json",
+      "sha256": "125def6e7baf60ccfaf002fe67f0317009acd337987b4feadd6987f13ea6ea5a"
+    },
+    {
+      "recibo": "arquivos-trabalho/comentarios-2026-10-31/receipt-regressao-saida-viral-20261031.json",
+      "sha256": "75b4a08f7879382ec5f1a9ca8a8eb02d80413eaa8eafa643c1976fb0b2691fcd"
+    },
+    {
+      "recibo": "arquivos-trabalho/comentarios-2026-10-31/receipt-regressao-inclusoes-20261031.json",
+      "sha256": "163426586dab8553af6009b3e4c4fb3489cbe5383ef999b7f57672fdeefd980c"
+    },
+    {
+      "recibo": "arquivos-trabalho/comentarios-2026-10-31/receipt-regressao-figura-calot-20261031.json",
+      "sha256": "878d12915228a0e8dfaca93dec23efcb7fc99983246aa4c833fea31bd53afebe"
+    },
+    {
+      "recibo": "arquivos-trabalho/comentarios-2026-10-31/receipt-regressao-lote3-20261031.json",
+      "sha256": "bea2b97be05b6f5ab9e3aca7aee22f2427fab089b3b539b3d57b782958da064d"
+    },
+    {
+      "recibo": "arquivos-trabalho/comentarios-2026-10-31/receipt-regressao-imagem-e-inducao-20261031.json",
+      "sha256": "de859568b691d60af385136836c6d1dfe3617494e0f15b1760b6178deafa5dc0"
+    },
+    {
+      "recibo": "arquivos-trabalho/comentarios-2026-10-31/receipt-regressao-figura-mediator-20261031.json",
+      "sha256": "9a8b334334768b99a45ffaaa08f8a18bb98f7401e811a2e4fa50bcff8f639da2"
+    },
+    {
+      "recibo": "arquivos-trabalho/comentarios-2026-10-31/receipt-regressao-figura-cystic-20261031.json",
+      "sha256": "72b31819949d2a8108657e9c1a8f9cdf2ea18b71161878bdf277d043fab3d92e"
+    },
+    {
+      "recibo": "arquivos-trabalho/comentarios-2026-10-31/receipt-regressao-figuras-neuro-20261031.json",
+      "sha256": "75be41c0e1bc2f6ae491e9c5f7871768c908e0e6b9fc3500eae90218d718331f"
+    },
+    {
+      "recibo": "/Users/davisousa/NEBLI/arquivos-trabalho/comentarios-2026-10-31/receipt-regressao-rnai-20261031.json",
+      "sha256": "4de385020dfc41a742fe056e982baad8e0548a0176de9b9a2c1591c8f9fe092e"
+    },
+    {
+      "recibo": "arquivos-trabalho/comentarios-2026-10-31/receipt-regressao-listas-fracas-20261031.json",
+      "sha256": "b1ad6116e430d0cbfe62f1639984b97522c8f77bc113b14d9c7f73ce4b5a949c"
+    },
+    {
+      "recibo": "arquivos-trabalho/comentarios-2026-10-31/receipt-regressao-retirados-ativos-20261101.json",
+      "sha256": "c760fbcae3ac1b2439112fe81b5b063f85973838d855710255680e6e719c763d"
+    }
+  ],
+  "posicoes": [
+    {
+      "nid": 1792695055212,
+      "recibo": "arquivos-trabalho/comentarios-2026-10-31/receipt-movimento-saida-viral-20261101.json",
+      "sha256": "43c66aaffd7e030d1bd729dac305edf5f33c6135ee0ab9a344305923cfd929b7",
+      "cards": {
+        "1792695055212": "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus",
+        "1792695055213": "NEBLI::UC03::P3::Microbiologia::Multiplicação viral e antivirais"
+      }
+    }
+  ]
+}

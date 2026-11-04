@@ -115,6 +115,11 @@ CARDS = [
  ak("hpylori-urease", 1482275983368, {1: V}, D_, "H. pylori produz urease", "33", "Verde: HY (2); 'fase ativa: produção de amônia' no slide 33."),
  # ---------- E. Glândula gástrica do corpo (slides 34–44) ----------
  ak("glandulas-corpo", 1486608734803, {1: Z}, E_, "Glândulas do corpo: mucosas, principais e parietais", 34, "Azul: lista dos tipos celulares (tag 5)."),
+ au("tronco-istmo", '<div data-nebli-organizacao="true"><b>Gastric stem cells</b> sit in the gland {{c1::isthmus::region}}:<br>- daughters moving up become {{c2::surface mucous::s…}} cells<br>- daughters moving down become mucous neck, parietal, chief and enteroendocrine cells</div>', {1: Z, 2: Z}, E_,
+    "Célula-tronco no istmo e diferenciação nos dois sentidos", "35", "pedido",
+    "pedido literal de Davi em 31/10 (F-20261031-CLAUDE-03); no acervo só o Histology 1702214416325, nota longa de vários clozes, sem a diferenciação nos dois sentidos.", [1482030319798, 1482022134697],
+    "Azul: compartimento proliferativo dos slides 25 e 35, pedido por Davi.",
+    extra="Surface mucous cells are renewed in about 3 to 5 days; parietal and chief cells live much longer.<br>The isthmus lies between the gastric pit and the gland neck."),
  hx("celulas-tronco-istmo", 1702214416325, {2: Z, 5: R}, E_, "Células-tronco no istmo", 35, "Azul: 'compartimento proliferativo' dos slides 25 e 35 (linha de pesquisa da professora); rosa: progenitoras sobem."),
  hx("progenitoras-glandula", 1702214504475, {1: R}, E_, "Progenitoras descem e viram células secretoras", 35, "Rosa: renovação mais lenta na glândula (slide 35)."),
  io("io-celula-mucosa-superficial", 36, "Surface mucous cell", Z, E_, "Célula mucosa superficial na lâmina", "Azul: tipo celular do roteiro, na fotomicrografia da aula.", ["Célula mucosa superficial"]),
@@ -140,6 +145,11 @@ CARDS = [
  ak("pepsinogenio-pepsina", 1482030319798, {1: Z, 2: Z}, E_, "Pepsinogênio → pepsina com H+", 44, "Azuis: destino do produto da célula zimogênica (canal Dr Mike)."),
  hx("principal-rer", 1702217278951, {3: Z}, E_, "Principal secreta proteína, rica em RER", 44, "Azul: ultraestrutura que explica a basofilia (Junqueira)."),
  # ---------- F. Células enteroendócrinas (slides 45–47) ----------
+ au("eec-organizador", '<div data-nebli-organizacao="true"><b>Enteroendocrine cells</b> by hormone and effect:<br>- L cells: {{c1::GLP-1::G…}} and peptide YY, slow digestion and promote fullness<br>- I cells: {{c1::CCK::C…}}, bile and pancreatic enzyme release<br>- K cells: {{c1::GIP::incretin}}, insulin secretion<br>- enterochromaffin cells: {{c1::serotonin::s…}}, gut motility<br>- X/A-like cells: {{c1::ghrelin::g…}}, hunger</div>', {1: Z}, F_,
+    "Organizador das enteroendócrinas: célula, hormônio, efeito", "45–46", "pedido",
+    "pedido literal de Davi em 31/10 (F-20261031-CLAUDE-03); o acervo só tem cards soltos de grelina e o Histology do DNES, sem o conjunto célula → hormônio → efeito.", [1482030319798, 1482022134697],
+    "Azul: organizador pedido por Davi; liga a caixa de grelina (slide 45) e as enteroendócrinas do slide 46 às do intestino.",
+    extra="GLP-1 is glucagon-like peptide-1, CCK is cholecystokinin and GIP is glucose-dependent insulinotropic peptide.<br>I and K cells sit in the duodenum and jejunum, L cells in the ileum and colon, ghrelin cells in the gastric body; enterochromaffin cells line the whole gut.<br>X/A-like cells are called A cells in rodents."),
  ak("grelina", 1482022013033, {1: V}, F_, "Grelina aumenta o apetite", 45, "Verde: HY (1); caixa 'Ghrelina: aumento do apetite' no slide 45."),
  au("grelina-celula", "Which hormone, produced by enteroendocrine cells of the <b>gastric body</b>, increases appetite and promotes growth?<br><br>{{c1::Ghrelin}}", {1: Z}, F_,
     "Grelina vem do corpo gástrico", "45; Junqueira p. 313", "prova", "AnKing diz só 'secretada no estômago'; Histology sem grelina.", [1482022013033, 1486605738754],

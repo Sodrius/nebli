@@ -11,6 +11,7 @@ import json
 import re
 import sys
 import urllib.request
+from nebli.acervos import catalogar, salvar_catalogo, registrar, file_hash
 
 DECKS = {"AnKing": '"deck:Referências::Anking Step Deck*"', "Externos": '"deck:Referências::Referências Externas*"'}
 
@@ -39,17 +40,35 @@ def main(argv):
     exigir_planejamento(Path(argv[0]).resolve().parents[1], "a busca por palavra")  # F-20261023-CLAUDE-02
     mx = int(argv[argv.index("--max") + 1]) if "--max" in argv else 30
     pares = [a for a in argv[1:] if "=" in a and not a.startswith("--")]
-    out = []
+    if mx <= 0:
+        raise ValueError("--max precisa ser positivo")
+    run = Path(argv[0]).resolve().parents[1]
+    catalog = catalogar(call)
+    salvar_catalogo(run, catalog)
+    out, records = [], []
     for par in pares:
         rot, termos = par.split("=", 1)
-        for nome, deck in DECKS.items():
-            ns = call("findNotes", query=f"{deck} ({termos})")  # parênteses: OR sem eles escapa do filtro de deck
-            out.append(f"### {rot} | {nome} | {termos} | {len(ns)} notas")
-            for n in call("notesInfo", notes=ns[:mx]):
+        coverage = []
+        out.append(f"### {rot} | Externos | {termos} | consulta individual em cada acervo abaixo")
+        for corpus in catalog['corpora']:
+            nome, deck = corpus['nome'], corpus['consulta']
+            query = f"{deck} ({termos})"
+            ns = sorted(set(call("findNotes", query=query)))
+            coverage.append({'acervo': nome, 'consulta': query, 'total_acervo': corpus['total'],
+                             'status': 'consultado' if ns else 'sem_resultados',
+                             'encontrados': len(ns), 'exibidos': min(mx, len(ns)),
+                             'truncado': len(ns) > mx, 'ids': ns})
+            out.append(f"### {rot} | {nome} | {termos} | {len(ns)} notas; exibidas {min(mx, len(ns))}")
+            for n in call("notesInfo", notes=ns[:mx]) if ns else []:
                 hy = [x.split("::")[-1] for x in n["tags"] if "HighYield" in x]
-                sub = next((x.split("::")[1] for x in n["tags"] if x.startswith("#AK_") and "::" in x), "")
                 out.append(f"  {n['noteId']} [{n['modelName'][:14]}] {hy[0] if hy else ''} {frente(n['fields'])[:190]}")
-    open(argv[0], "w", encoding="utf-8").write("\n".join(out) + "\n")
+        records.append({'chave': rot, 'consulta': termos, 'catalogo_sha256': catalog['sha256'],
+                        'cobertura_acervos': coverage})
+    target = Path(argv[0]).resolve()
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text("\n".join(out) + "\n", encoding="utf-8")
+    for record in records:
+        registrar(run, 'palavra-chave', dict(record, arquivo=str(target.relative_to(run)), arquivo_sha256=file_hash(target)))
     print("\n".join(l for l in out if l.startswith("###")))
 
 

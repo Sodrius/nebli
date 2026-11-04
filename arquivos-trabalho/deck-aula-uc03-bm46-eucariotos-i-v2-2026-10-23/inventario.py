@@ -6,7 +6,7 @@ PREFIXO = "bm46"
 AULA = "Expressão gênica em eucariotos I (UC03 P3; Biologia Molecular; Prof. Alexandre Bruni Cardoso)"
 EXC = "EXC: "
 _C = "conteudo"
-D = {}  # item do mapa → chaves dos cards (preenchido depois da busca)
+D = {"p1-1": ["sh-1791627546427"], "p1-2": ["sh-1791627546300"], "p2-1": ["au-ativador-indireto"], "p2-2": ["au-cromatina-reprime", "sh-1791627547178"], "p2-3": ["sh-1791627547052", "sh-1791627546678"], "p3-1": ["sh-1791627547902", "sh-1791627548028", "sh-1791627547602", "sh-1792082057314"], "p3-2": ["au-sigma-gerais", "sh-1791627548153", "sh-1791664583350"], "p4-1": ["au-enhancer-proximal", "sh-1791627548527", "ak1467833716981"], "p4-2": ["sh-1791627547052"], "p5-1": ["sh-1791627548775"], "p5-2": ["au-especificidade"], "p5-3": ["au-coativador", "sh-1791627547475"], "p6-1": ["au-alosteria", "sh-1791627547302"], "p6-2": ["au-repressor-modos", "sh-1791627548651"], "p6-3": ["au-dbd-ad"], "p7-1": ["sh-1791627549152"], "p7-2": ["sh-1791627549403"], "p7-3": ["au-modularidade"], "p8-1": ["sh-1792082068909"], "p8-2": ["sh-1792082068909"], "p8-3": ["sh-1792240363342", "sh-1792240377418", "sh-1791627550277", "sh-1791627550153"], "p8-4": ["sh-1791627550403", "sh-1791627550527"], "p8-5": ["au-nls", "sh-1791627550702"]}  # item do mapa → chaves dos cards (preenchido depois da busca, 23/10)
 
 def _d(k):
     v = D.get(k, [])

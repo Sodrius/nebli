@@ -137,7 +137,7 @@ def main():
             for c in ci:
                 exp = next(x["flag"] for x in e["cards"] if x["ord"] == c["ord"])
                 if c["flags"] != exp: problems.append(f"flag {e['key']}")
-                if canon(c["deckName"]) != DECK: problems.append(f"deck {e['key']}")
+                if canon(c["deckName"]) != DECK and not canon(c["deckName"]).startswith(DECK + "::"): problems.append(f"deck {e['key']}")
                 if c["queue"] == -1: problems.append(f"suspenso {e['key']}")
             r["cards"] = {str(c["cardId"]): {"ord": c["ord"], "flag": c["flags"]} for c in ci}
         for n in A("notesInfo", notes=shared_ids):

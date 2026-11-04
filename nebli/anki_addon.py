@@ -209,11 +209,48 @@ def answer_count_request(mw):
 
 
 
-# Estudo completo de um deck com um clique (F-20261011-CLAUDE-02/03): filtrado com todos os cards não suspensos do ramo,
+# Estudo completo (04/11): inclui suspensos com registro persistente e restauração ao sair do filtrado.
+# F-20261011-CLAUDE-02/03: filtrado com todos os cards do ramo,
 # reagendando pelo FSRS (Davi: "reagenda tb"), sem mexer em configuração. Fora da árvore NEBLI, como os outros filtrados.
 
 def study_name(branch):
     return f"NEBLI · {branch.rsplit('::', 1)[-1]}{STUDY_SUFFIX}"
+
+
+def _study_suspension_path(mw):
+    # Perfil local: o registro não deve entrar no Git nem ser compartilhado entre coleções.
+    return Path(mw.pm.profileFolder()) / "nebli-estudo-suspensos.json"
+
+
+def _save_study_suspensions(path, records):
+    temporary = path.with_suffix(".tmp")
+    temporary.write_text(json.dumps(records), encoding="utf-8")
+    temporary.replace(path)
+
+
+def restore_study_suspensions(mw, log):
+    """Restaura suspensão assim que o card sai do estudo, inclusive ao apagar o filtrado."""
+    if mw.state == "review" or LOCK.exists():
+        return 0
+    path = _study_suspension_path(mw)
+    if not path.exists():
+        return 0
+    records = json.loads(path.read_text(encoding="utf-8"))
+    returned, missing = [], []
+    for cid, fid in records.items():
+        row = mw.col.db.first("select did, odid from cards where id=?", int(cid))
+        if row is None:
+            missing.append(cid)
+        elif int(row[0]) != int(fid) or not int(row[1]):
+            returned.append(int(cid))
+    if returned:
+        mw.col.sched.suspend_cards(returned)
+        log(f"estudo para prova: suspensão original restaurada em {len(returned)} cards")
+    for cid in [str(c) for c in returned] + missing:
+        records.pop(cid, None)
+    if returned or missing:
+        _save_study_suspensions(path, records)
+    return len(returned)
 
 
 def study_deck(col, mw, deck_id, log):
@@ -223,8 +260,8 @@ def study_deck(col, mw, deck_id, log):
     ids = _branch_ids(col, branch)
     name = study_name(branch)
     fid = _filtered_id(col, name)
-    # Davi, 31/10: "quero que no estudar tudo eu possa fazer todos os cards não suspensos do deck" — o filtrado do Anki não puxa
-    # card enterrado; desenterra os do ramo antes de montar (suspensos continuam fora).
+    # O Anki exclui enterrados e suspensos do filtrado: desenterrar o ramo e
+    # incluir os suspensos com recuperação persistente da escolha pessoal (04/11).
     enterrados = col.find_cards("(" + " or ".join(f"did:{i}" for i in ids) + ") is:buried")
     if enterrados:
         try:
@@ -232,17 +269,31 @@ def study_deck(col, mw, deck_id, log):
         except AttributeError:  # Anki sem unbury_cards: desenterra deck a deck
             for i in ids:
                 col.sched.unbury_deck(i)
-    cards = col.find_cards("(" + " or ".join(f"did:{i}" for i in ids) + ") -is:suspended")
+    query = "(" + " or ".join(f"did:{i}" for i in ids) + ")"
+    suspended = col.find_cards(query + " is:suspended")
+    cards = col.find_cards(query)
     filtered = col.sched.get_or_create_filtered_deck(deck_id=fid or 0)
     if fid is None:
         filtered.name = name
     del filtered.config.search_terms[:]
-    filtered.config.search_terms.add(search="(" + " or ".join(f"did:{i}" for i in ids) + ") -is:suspended",
-                                     limit=9999, order=ORDER_ADDED)
+    filtered.config.search_terms.add(search=query,
+                                     limit=max(9999, len(cards)), order=ORDER_ADDED)
     filtered.config.reschedule = True
     out = col.sched.add_or_update_filtered_deck(filtered)
-    col.decks.select(fid or out.id)
-    log(f"estudo para prova: {name} ({len(cards)} cards não suspensos, {len(enterrados)} desenterrados, reagenda pelo FSRS)")
+    fid = fid or out.id
+    if suspended:
+        path = _study_suspension_path(mw)
+        records = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+        records.update({str(cid): int(fid) for cid in suspended})
+        # Persistir ANTES de liberar temporariamente: permite recuperar após falha/reinício.
+        _save_study_suspensions(path, records)
+        try:
+            col.sched.unsuspend_cards(suspended)
+            col.sched.rebuild_filtered_deck(fid)
+        finally:
+            restore_study_suspensions(mw, log)
+    col.decks.select(fid)
+    log(f"estudo para prova: {name} ({len(cards)} cards, {len(suspended)} suspensos temporários, {len(enterrados)} desenterrados, reagenda pelo FSRS)")
     mw.moveToState("overview")
     return name, len(cards)
 
@@ -428,7 +479,9 @@ def action_request(mw, log):
 def tick(mw, store, log):
     browser_setup_open(mw)
     answer_count_request(mw)
+    restore_study_suspensions(mw, log)
     action_request(mw, log)
+    restore_study_suspensions(mw, log)
     auto_memory(mw, store, log)
     locked = LOCK.exists()
     changed = relabel(mw.col, strip=locked, log=log)

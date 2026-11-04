@@ -8,9 +8,10 @@ Preferências canônicas: [MEMORY.md](MEMORY.md). Fila: [ESTADO-ATUAL.md](ESTADO
 
 | Módulo próprio atual | Funções a preservar |
 |---|---|
-| `nebli_atalhos` | Atalhos de revisão, bandeiras, comentário, desfazer e enterrar; regras vigentes de suspensão no Reviewer |
+| `nebli_atalhos` | Atalhos de revisão, bandeiras, comentário, desfazer e enterrar; zoom persistente com Ctrl + / Ctrl - em todas as janelas do Anki; regras vigentes de suspensão no Reviewer |
 | `nebli_decks` + `nebli/anki_addon.py` | Contagem de cards nos nomes, ferramentas de decks já existentes e ajustes do Browse |
 | `nebli_explicacoes` | Explicação única por card ao apertar Tab no verso, com estado de atualização |
+| `nebli_metas` (04/11) | Painel único de metas na parte inferior da tela inicial: progresso feito/alvo, quanto falta, ritmo diário necessário, prazo e posição em relação ao tempo decorrido. Substitui apenas a visualização do GoalBar; lê sua configuração e usa as contas de `calculo.py`, compartilhadas com o aviso do Claude. |
 
 Inventário instalado conferido em 08/10: **Review Heatmap (Glutanimate), Anki GoalBar (moritzvitt), Advanced Browser, VS Code For Anki e AnkiConnect são add-ons de terceiros e ficam separados**. Não renomeá-los nem empacotá-los como autoria NEBLI. Ajustes próprios de integração podem entrar como módulos NEBLI; dependências externas devem ser identificadas separadamente.
 
@@ -49,7 +50,7 @@ Evidências do Browse e limites dos testes: `arquivos-trabalho/auditoria-browse-
 
 
 ## Estudo de um deck com um clique (11/10/2026)
-Na tela de baralhos, engrenagem do deck → **NEBLI: estudar tudo deste deck (prova)**: cria (ou reconstrói) o filtrado `NEBLI · <deck>: estudo para prova`, fora da árvore NEBLI, com todos os cards **não suspensos** do ramo, **reagendando pelo FSRS** (o estado de memória dos cards se atualiza a cada resposta). Sem mexer em configuração; para encerrar, Excluir o filtrado (os cards voltam às aulas). **NEBLI: recalcular memória FSRS deste deck** recalcula estabilidade e dificuldade dos cards já revisados a partir do histórico. Testado em 11/10 pelo gatilho `arquivos-trabalho/anki-acao-pedido.json` ({"acao": "estudar"|"memoria", "deck": "<nome canônico>"}); o item de menu precisa de **reiniciar o Anki uma vez** (o carregador `__init__.py` mudou).
+Na tela de baralhos, engrenagem do deck → **NEBLI: estudar tudo deste deck (prova)**: cria (ou reconstrói) o filtrado `NEBLI · <deck>: estudo para prova`, fora da árvore NEBLI, com todos os cards do ramo, **incluindo suspensos para relembrar**, **reagendando pelo FSRS** (o estado de memória dos cards se atualiza a cada resposta). Sem mexer em configuração; para encerrar, Excluir o filtrado (os cards voltam às aulas). Desde 04/11, a suspensão original é registrada no perfil antes da liberação temporária exigida pelo Anki e restaurada automaticamente ao retornar ao deck de origem, fora da revisão. O registro sobrevive a reinício; requer este add-on ativo no computador de origem e não é sincronizado pelo AnkiWeb. O recálculo FSRS preserva a suspensão. Inclusão disponível também ao acionar em um subdeck; a interface ainda precisa ser conferida no Anki vivo. **NEBLI: recalcular memória FSRS deste deck** recalcula estabilidade e dificuldade dos cards já revisados a partir do histórico. Testado em 11/10 pelo gatilho `arquivos-trabalho/anki-acao-pedido.json` ({"acao": "estudar"|"memoria", "deck": "<nome canônico>"}); o item de menu precisa de **reiniciar o Anki uma vez** (o carregador `__init__.py` mudou).
 
 ## Tela de baralhos e Browser (11/10/2026, F-20261011-CLAUDE-04/05)
 - **Nome da aula em negrito** e os números `(total|ativos|novos)` sem negrito; **deck todo suspenso** (ativos = 0) aparece em **vermelho**. Feito no HTML da tela de baralhos (`deck_browser_will_render_content`), sem renomear nada.

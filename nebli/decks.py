@@ -139,10 +139,14 @@ def escrita(call, label, sync=True):
 
 def em_tela(call):
     """Notas que Davi tem na tela agora (card em revisão e irmãos): não alterar neste lote."""
+    # O AnkiConnect sinaliza ausência de revisão por um erro próprio. Só esse
+    # caso prova que não há card na tela; falhas de conexão/coleção abortam a escrita.
     try:
         card = call("guiCurrentCard")
-    except Exception:
-        return set()
+    except RuntimeError as exc:
+        if str(exc) == "guiCurrentCard: Gui review is not currently active.":
+            return set()
+        raise
     if not card:
         return set()
     return {call("cardsToNotes", cards=[card["cardId"]])[0]}

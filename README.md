@@ -7,6 +7,7 @@ Projeto de estudo e produção de decks-aula. Entrada do executor: [CLAUDE.md](C
 | Onde estamos, quem faz o quê, próxima aula | [ESTADO-ATUAL.md](ESTADO-ATUAL.md) |
 | O que Davi quer (regra única) | [MEMORY.md](MEMORY.md) |
 | Como fazer um deck, passo a passo | [EXECUCAO-DECK-AULA](flashcards/projeto/EXECUCAO-DECK-AULA.md) |
+| Completar decks após a prova, com minha aprovação | [REVISAO-POS-PROVA](flashcards/projeto/REVISAO-POS-PROVA.md) |
 | Falas de Davi, com data | [FEEDBACKS](flashcards/projeto/FEEDBACKS.md) |
 | Onde estão fontes, livros e modelos | [ACERVOS-REFERENCIA](flashcards/projeto/ACERVOS-REFERENCIA.md) e [bibliografia/](bibliografia/README.md) |
 | Explicação por Tab | [Guia](GUIA-EXPLICACOES-TAB.md) e `config/explicacao-tab.md` |

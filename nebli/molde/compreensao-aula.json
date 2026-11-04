@@ -12,7 +12,8 @@
    "principio": "<o princípio do bloco, se houver>", "exemplos": ["<exemplo usado para ilustrar>"],
    "cards_exemplo": [], "cards_associados": [], "sem_card": "", "motivo_exemplos": ""}
  ],
- "fidelidade": {"_como": "preencher ao fechar o deck, relendo o slide bloco a bloco contra os cards vivos",
-  "blocos": [{"laminas": [1, 7], "bate": true, "nota": "<nota própria do bloco (≥ 80): o que o slide ensina × o que os cards cobram, o que foi corrigido>", "cards_conferidos": []}],
+ "fidelidade": {"_como": "E7: reler o slide e o deck vivo. Em cada bloco de princípio/exemplo, relacionar CADA frase de aprender a cards que a fazem recuperar; cards_conferidos de todos os blocos deve cobrir todos os cards do plano. Registrar lacunas/excessos e correções na REVISAO-DE-QUALIDADE.md.",
+  "blocos": [{"laminas": [1, 7], "bate": true, "nota": "<nota própria do bloco (≥ 80): o que o slide ensina × o que os cards cobram, o que foi corrigido>", "cards_conferidos": [],
+   "relacoes": [{"aprender": "<copiar exatamente um item de aprender deste bloco>", "estado": "recuperavel", "cards": ["<chave do plan.json que exige a recuperação>"]}]}],
   "conclusao": "<o deck acompanha a aula em ordem e conteúdo? algum exemplo virou carro-chefe? algo de fora entrou?>"}
 }

@@ -29,4 +29,6 @@
 
 ## Outras rotas (só sob pedido)
 
+**“Revisão pós-prova da UC/prova X”** → [REVISAO-POS-PROVA](flashcards/projeto/REVISAO-POS-PROVA.md): investigar fontes + deck vivo, preparar sugestões completas e aguardar aprovação de Davi antes de qualquer mudança no Anki. Não acionar a fila de aulas.
+
 Índice do projeto: [README.md](README.md). Pedido explícito de “E1 + cards” (E1 + deck) inclui a E1: `didatica/E1.md`. Cadernos: `banco/CLAUDE.md` e `ROLES.md`. Typst: `typst-template/CLAUDE.md`. Site, liga e Etimologia: preservar.

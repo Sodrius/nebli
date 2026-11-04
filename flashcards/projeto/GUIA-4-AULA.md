@@ -33,7 +33,10 @@ O pedido, nas palavras dele (29/10): **"quero que vc faça um deck completo DA A
 
 ## 4. Como conferir antes de entregar (E7)
 
-- Ler só as frentes, na ordem. Elas contam o assunto da aula, ou o assunto do exemplo?
-- Contar os cards por bloco: o começo da aula tem o maior peso?
-- Para cada card de bloco de exemplo, tapar o nome da doença: o card ainda ensina algo de patologia geral? Se não, sai ou vai para o verso de outro.
-- A frase do título da aula consegue resumir o deck inteiro?
+**Auditoria nos dois sentidos (aprovada por Davi em 03/11; casos completos na proposta aprovada):**
+
+1. **Aula → cards.** Para cada bloco, reler lâmina e fala do professor e escrever a relação que se deve recuperar: causa e consequência, etapas, critério de comparação, estrutura e função, ou fato-chave situado. Marcar se o bloco é princípio, caso que traz mecanismo novo, exemplo que aplica princípio anterior, repetição ou apoio. Apontar a frente e a chave do card que exigem a lembrança **sem abrir o Tab**. Classificar como recuperável, parcial, só explicado no Extra/Tab, ausente ou fora com motivo. Menção ao tema não cobre a relação; item central parcial ou só explicado pede correção.
+2. **Cards → aula.** Ler todas as frentes na ordem e, para cada card, apontar qual relação da aula ensina, sua fonte e por que merece revisões recorrentes. Procurar duplicação sem ganho, detalhe de outra aula e exemplo que tomou o lugar do princípio. AnKing/Step além do texto literal só entra quando ensina o princípio da aula. Caso que introduz mecanismo novo continua conteúdo. Contagem por bloco alerta para desvio de peso, mas não decide sozinha.
+
+Na corrida v13, registrar a decisão no `compreensao-aula.json` › `fidelidade.blocos`: copiar cada frase de `aprender` de um bloco de princípio/exemplo para uma linha de `relacoes`, indicar `estado=recuperavel` e as chaves das frentes que a fazem recuperar. Se estiver parcial ou só no Extra/Tab, corrigir antes de marcar recuperável. A lista `cards_conferidos` desses blocos e dos demais deve abranger todo o plano. A fonte, o princípio e o valor de cada card já estão no `plan.json`/`tipos.tsv`; confrontá-los com o slide e resumir excessos, lacunas e correções na `REVISAO-DE-QUALIDADE.md`. O gate `auditoria_cobertura.problemas` verifica a correspondência e a cobertura de todos os cards; a leitura humana julga se a relação é verdadeira e útil.
+3. **Fecho.** Ver se as frentes permitem reconstruir o núcleo da aula em ordem e se cada objetivo central tem recuperação identificável. Registrar lacunas, excessos e correções nos artefatos de revisão que já existem. Não criar tarefa posterior para Davi nem tabela permanente paralela.

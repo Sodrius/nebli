@@ -18,6 +18,42 @@ MEDIA = Path.home() / "Library/Application Support/Anki2/User 1/collection.media
 IMG = re.compile(r'<img[^>]*src="([^"]+)"')
 
 
+def imagens_legiveis(plan):
+    """Sinaliza largura fixa pequena em figuras de cards autorais novos.
+
+    O teste estático não substitui a conferência do arquivo original e do render
+    no celular; esses dois passos permanecem obrigatórios no parecer visual.
+    """
+    ruins = []
+    for e in plan.get("entries", []):
+        if e.get("origin") != "Autoral":
+            continue
+        fields = e.get("fields") or {}
+        for field in ("Text", "Extra", "Header", "Back Extra"):
+            for tag in re.findall(r"<img\b[^>]*>", fields.get(field, "") or "", re.I):
+                width = re.search(r'\bwidth=["\']?(\d+)', tag, re.I)
+                if width and int(width.group(1)) < 500:
+                    ruins.append(f"{e['key']}:{field}:{width.group(1)}px")
+    return ruins
+
+
+def fontes_visiveis_sob_imagem(plan):
+    """Reprova legenda de procedência exibida logo abaixo de figura no card.
+
+    A procedência continua nos metadados da corrida; a legenda distrai da figura.
+    """
+    ruins = []
+    for e in plan.get("entries", []):
+        for field, value in (e.get("fields") or {}).items():
+            if not isinstance(value, str) or not re.search(r"<img\b", value, re.I):
+                continue
+            for match in re.finditer(r"<img\b[^>]*>\s*(?:<br\s*/?>\s*)*(?:<small\b[^>]*>|<figcaption\b[^>]*>)(.*?)(?:</small>|</figcaption>)", value, re.I | re.S):
+                caption = html.unescape(re.sub(r"<[^>]+>", " ", match.group(1))).strip()
+                if re.search(r"\b(?:fonte|aula|slide|figura\s+de)\b", caption, re.I):
+                    ruins.append(f"{e.get('key', '?')}:{field}:{caption[:60]}")
+    return ruins
+
+
 def cartoes_com_imagem(plan):
     out = []
     for e in plan.get("entries", []):

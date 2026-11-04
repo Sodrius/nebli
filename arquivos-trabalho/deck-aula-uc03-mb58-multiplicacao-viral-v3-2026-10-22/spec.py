@@ -97,9 +97,9 @@ CARDS = [
     extra="- Dynein carries it; a nuclear localization signal (NLS) imports the DNA<br>- Free DNA in the cytoplasm would alert innate sensors"),
  K(1516324096049, "A-aula", B_, "M2 acidifica o vírion para o desnudamento", 19, "lâminas 7 e 104 (influenza, canal M2)"),
  # ---------- Síntese (lâmina 20) ----------
- au("au-precoce", "Early viral mRNAs make {{c1::nonstructural}} proteins that replicate the genome, and late mRNAs make {{c2::structural}} proteins",
+ au("au-precoce", "In viruses with an <b>early/late gene program</b>, early mRNAs produce {{c1::genome-replication proteins}}, and late mRNAs produce {{c2::virion structural proteins}}.",
     "V-pilar", C_, "Proteínas precoces × tardias", 20, "lâmina 20; monitoria P3",
-    extra="- Genome copying comes first, so capsids are not made with nothing to package<br>- Many RNA viruses express all genes at once"),
+    extra="Replication machinery is needed before genomes can be copied and packaged. This timing is not universal: many RNA viruses express their genes together."),
  au("au-re", "Viral envelope <b>glycoproteins</b> are made on the {{c1::rough ER}} and processed in the Golgi, unlike proteins on free ribosomes",
     "A-aula", C_, "Glicoproteínas do envelope no RE rugoso", 20, "lâmina 20 (ribossomos ou retículo endoplasmático); Jawetz cap. 29",
     extra="- Their sugars come from the host Golgi, so they reflect the host cell"),
@@ -238,16 +238,16 @@ CARDS = [
  au("au-inclusao-local", "Inclusion bodies are viral components piled up at the {{c1::assembly}} site, so intranuclear ones mean assembly in the nucleus",
     "V-prova", F_, "Inclusão mostra o local de montagem", 85, "lâminas 84–86; prova 2015 P2 4.8",
     extra="- Assembly sites: cytosol, ER-Golgi, plasma membrane or nucleus"),
- au("au-inclusoes", ORG("<b>Viral inclusion bodies</b> by location:<br>- intranuclear: {{c1::herpes}}, adeno, parvo<br>- intracytoplasmic: {{c2::pox}}, reo, paramyxo, rabies"),
-    "A-aula", F_, "Inclusões intranucleares × citoplasmáticas", 85, "lâminas 85 e 235",
-    extra="- DNA viruses assembled in the nucleus vs. RNA viruses and pox in the cytoplasm"),
+ # au-inclusoes foi retirado por lista incompleta após feedback; au-inclusao-local cobre o princípio útil.
  au("au-maturacao", "Many viruses need a viral {{c1::protease}} to cut structural polyproteins during maturation, or the particles stay noninfectious",
     "A-aula", F_, "Maturação depende da protease viral", 84, "lâminas 84 e 138–139 (montagem e maturação do HIV)",
     extra="- In HIV, Gag and Gag-Pol are cut after budding<br>- This is the target of protease inhibitors"),
  # ---------- Liberação (lâminas 87–91) ----------
- au("au-liberacao", ORG("<b>Ways new virions leave the cell</b>:<br>- {{c1::lysis}}<br>- {{c1::budding}}<br>- direct passage to neighbor cells<br>- {{c2::syncytium}} formation"),
-    "V-pilar", F_, "Quatro formas de liberação", 87, "lâminas 87–90 e 237–240",
-    extra="- Naked viruses pile up and leave by lysis<br>" + IMG("brotamento.png")),
+ # Feedback de 01/11: c1 do note 1792695055212 mora no deck 57 (envelope × saída);
+ # c2 continua no deck 58 (sincícios). Em reaplicação, mover só o c1 de volta ao 57.
+ au("au-liberacao", ORG("<b>Viral exit and spread</b>:<br>Free naked virions usually leave by {{c1::lysis}}.<br>Enveloped virions acquire membrane by {{c1::budding}}.<br>Direct cell-to-cell fusion may form {{c2::syncytia}}."),
+    "V-pilar", F_, "Envelope × saída e propagação célula a célula", 87, "lâminas 67–68, 87–90 e 237–240",
+    extra='The figure shows budding and membrane acquisition. Cell fusion spreads infection directly. Naked virions usually leave by lysis, with exceptions.<br><img src="mb58-brotamento.png" width="460">'),
  au("au-brotamento", "Before budding, viral envelope {{c1::glycoproteins}} are inserted into the host membrane, and the nucleocapsid exits through that patch",
     "A-aula", F_, "Como o vírus brota", 88, "lâminas 88–89; Jawetz cap. 29 (fig. 29.3)",
     extra="- Enveloped viruses are not infectious until they bud, so they do not accumulate inside the cell"),
@@ -258,9 +258,9 @@ CARDS = [
  K(1502066667272, "V-hy", F_, "gp41 do HIV forma sincícios", 87, "lâmina 87 (sincícios)"),
  K(1483913062659, "V-hy", F_, "RNA no citoplasma, exceto ortomixo e retro", 91, "lâmina 91 (resumão)"),
  # ---------- Antivirais: princípios (lâminas 93–99) ----------
- au("au-poucos", ORG("<b>Why antivirals are few</b>:<br>- few obvious targets<br>- each virus has its own proteins<br>- {{c1::latency}} escapes treatment<br>- works only {{c2::early}}"),
+ au("au-poucos", '<div data-nebli-organizacao="true"><b>Limits of antiviral therapy</b><br><u>Drug design</u><br>Use of host pathways → {{c1::few selective targets}}<br>Different viral families → {{c1::limited broad coverage}}<br><u>Treatment</u><br>Latent infected cells → {{c2::no active replication}}<br>Late tissue injury → {{c2::less reversible benefit}}</div>',
     "V-pilar", G_, "Por que há poucos antivirais", 94, "lâmina 94; apostila guia de Micro; Jawetz cap. 30",
-    extra="- Similar symptoms from different viruses also delay diagnosis"),
+    extra="Host dependence and viral diversity constrain drug design. Latency and late injury constrain treatment for infections where those problems apply."),
  au("au-antiviral", ORG("<b>An antiviral may block</b>:<br>- free {{c1::virions}}<br>- binding or {{c1::entry}}<br>- genome {{c2::replication}}<br>- viral protein function<br>- {{c3::assembly}} or release"),
     "V-pilar", G_, "Mecanismos possíveis de um antiviral", 95, "lâminas 95–96 e 143; monitoria P3",
     extra="- The more a step depends on a virus-only protein, the more selective the drug"),

@@ -236,6 +236,14 @@ for c in CARDS:
     if c["key"] in VERSO and c["kind"] != "autoral":
         c["extra_add"] = VERSO[c["key"]] + ("<br>" + c["extra_add"] if c.get("extra_add") else "")
 
+# F-20261031-CLAUDE-01: card de fármaco específico vai para o subdeck "Fármacos específicos" e o verso diz o princípio que ilustra
+_REORG = _json.loads((HERE.parent / "reorganizacao-deck-prova-uc19.json").read_text(encoding="utf-8"))
+_ESPEC = _REORG["lotes"].get(HERE.name, {})
+for c in CARDS:
+    if c["key"] in _ESPEC:
+        c["subdeck"] = "Fármacos específicos"
+        c["extra_add"] = f"Illustrates: {_REORG['en'][c['key']]}." + ("<br>" + c["extra_add"] if c.get("extra_add") else "")
+
 DUPLICACAO = {"perda-resposta": "ganho: o AnKing dá a taquifilaxia em pergunta isolada; aqui os cinco nomes do objetivo FD 9 lado a lado, com o critério de tempo e de alvo que os separa"}
 for _k, _v in DUPLICACAO.items():
     next(c for c in CARDS if c["key"] == _k)["duplicacao_ok"] = _v

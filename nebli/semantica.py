@@ -23,6 +23,7 @@ import sys
 import urllib.request
 from collections import Counter
 from pathlib import Path
+from nebli.acervos import catalogar, validar_indice, salvar_catalogo, registrar, digest
 
 ROOT = Path(__file__).resolve().parents[1]
 IDX = ROOT / ".cache" / "indice-anking"
@@ -78,8 +79,10 @@ def indexar():
     from fastembed import TextEmbedding
     import numpy as np
     IDX.mkdir(parents=True, exist_ok=True)
+    catalog = catalogar(call)
     meta = []
-    for acervo, q in ACERVOS.items():
+    for corpus in catalog["corpora"]:
+      acervo, q = corpus["nome"], corpus["consulta"]
       nids = call("findNotes", query=q)
       for i in range(0, len(nids), 500):
         for n in call("notesInfo", notes=nids[i:i + 500]):
@@ -100,6 +103,8 @@ def indexar():
     np.save(IDX / "vetores.npy", vec)
     (IDX / "meta.jsonl").write_text("\n".join(json.dumps(m, ensure_ascii=False) for m in meta) + "\n", encoding="utf-8")
     (IDX / "info.json").write_text(json.dumps({"modelo": MODEL, "notas": len(meta), "acervos": dict(Counter(m["acervo"] for m in meta))}, ensure_ascii=False), encoding="utf-8")
+    validar_indice(catalog, meta, catalog)
+    (IDX / "acervos.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2))
     print(f"índice: {len(meta)} notas, modelo {MODEL}:", dict(Counter(m["acervo"] for m in meta)))
 
 
@@ -109,7 +114,12 @@ class Indice:
         from fastembed import TextEmbedding
         self.np = np
         self.meta = [json.loads(l) for l in (IDX / "meta.jsonl").read_text(encoding="utf-8").splitlines() if l]
+        self.catalog = catalogar(call)
+        indexed = json.loads((IDX / "acervos.json").read_text()) if (IDX / "acervos.json").exists() else None
+        validar_indice(self.catalog, self.meta, indexed)
         self.vec = np.load(IDX / "vetores.npy")
+        if len(self.vec) != len(self.meta):
+            raise RuntimeError("Índice inconsistente; reindexar com nebli.semantica indexar")
         self.emb = TextEmbedding(MODEL)
         self.docs = [Counter(tokens(f"{m['frente']} {m['extra']}")) for m in self.meta]
         self.df = Counter(t for d in self.docs for t in d)
@@ -140,6 +150,7 @@ class Indice:
         for d in docs:
             self.df.update(d.keys())
         self.acervos.append("NEBLI-vivo")
+        self.avg = sum(sum(d.values()) for d in self.docs) / len(self.docs)
 
     def bm25(self, q, n_top=100, k1=1.2, b=0.75):
         qt = set(tokens(q)); n = len(self.docs); out = []
@@ -162,8 +173,10 @@ class Indice:
 
     def buscar(self, q, k=12):
         """k melhores do AnKing + K_EXTERNO de cada acervo externo (cada acervo é buscado em toda consulta)."""
-        sem, sims = self.semantica(q, 3000)
-        kw = self.bm25(q, 3000)
+        # Rankings completos: truncar globalmente antes do filtro excluía acervos pequenos.
+        # O limite de 100 só é aplicado DEPOIS de isolar cada acervo.
+        sem, sims = self.semantica(q, None)
+        kw = self.bm25(q, None)
         out = []
         for acervo in self.acervos:
             s_ = [i for i in sem if self.meta[i]["acervo"] == acervo][:100]
@@ -187,15 +200,19 @@ def buscar(run: Path, pares, k=12):
     Indice.excluir_tag = f"NEBLI::{lesson}" if lesson else ""
     ix = Indice()
     (run / "busca").mkdir(exist_ok=True)
-    with open(run / "busca" / "semantica.jsonl", "a", encoding="utf-8") as f:
-        for par in pares:
-            chave, q = par.split("=", 1)
-            res = ix.buscar(q, k)
-            f.write(json.dumps({"chave": chave, "consulta": q, "acervos": ix.acervos,
-                                "top": [{x: r[x] for x in ("acervo", "nid", "sim", "rank_sem", "rank_kw", "hy", "frente")} for r in res]}, ensure_ascii=False) + "\n")
-            print(f"### {chave} | {q}")
-            for r in res:
-                print(f"  {r['acervo'][:9]:9s} {r['nid']} {r['sim']:.2f} {r['hy'] or '-'} {r['frente'][:150]}")
+    salvar_catalogo(run, ix.catalog)
+    for par in pares:
+        chave, q = par.split("=", 1)
+        res = ix.buscar(q, k)
+        coverage = [{"acervo": c["nome"], "total_acervo": c["total"], "consulta": q,
+                     "status": "consultado", "avaliados": c["total"],
+                     "retornados": sum(r["acervo"] == c["nome"] for r in res)} for c in ix.catalog["corpora"]]
+        registrar(run, "semantica", {"chave": chave, "consulta": q, "acervos": ix.acervos,
+                  "catalogo_sha256": ix.catalog["sha256"], "cobertura_acervos": coverage,
+                  "top": [{x: r[x] for x in ("acervo", "nid", "sim", "rank_sem", "rank_kw", "hy", "frente")} for r in res]})
+        print(f"### {chave} | {q}")
+        for r in res:
+            print(f"  {r['acervo'][:9]:9s} {r['nid']} {r['sim']:.2f} {r['hy'] or '-'} {r['frente'][:150]}")
 
 
 def secoes(run: Path, termos):
@@ -203,11 +220,16 @@ def secoes(run: Path, termos):
     pasta = run / "busca" / "secoes"; pasta.mkdir(parents=True, exist_ok=True)
     with open(run / "busca" / "secoes.jsonl", "a", encoding="utf-8") as log:
         for termo in termos:
-            alvo = [t for t in tags if termo.lower().replace(" ", "_") in t.lower() and not any(
-                o != t and o.startswith(t + "::") for o in tags)]  # só folhas: a seção mais específica
+            casam = [t for t in tags if termo.lower().replace(" ", "_") in t.lower()]
+            folha = lambda t: not any(o != t and o.startswith(t + "::") for o in tags)
+            # a seção mais específica; tag-mãe também entra quando tem notas próprias (30/10: o B&B Dose-Response tem 26 notas na
+            # mãe e só 6 na filha ::Extra, e listar só folhas as perdia)
+            alvo = [(t, f'{DECK} "tag:{t}"') for t in casam if folha(t)]
+            alvo += [(t, f'{DECK} "tag:{t}" -"tag:{t}::*"') for t in casam if not folha(t)
+                     and call("findNotes", query=f'{DECK} "tag:{t}" -"tag:{t}::*"')]
             print(f"### {termo}: {len(alvo)} seções")
-            for t in alvo:
-                nids = call("findNotes", query=f'{DECK} "tag:{t}"')
+            for t, consulta in sorted(alvo):
+                nids = call("findNotes", query=consulta)
                 linhas = []
                 for n in call("notesInfo", notes=nids):
                     frente, _ = texto(n["fields"])

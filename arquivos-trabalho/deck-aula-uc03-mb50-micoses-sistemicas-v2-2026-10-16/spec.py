@@ -50,6 +50,9 @@ CARDS = [
  # A. Micoses sistêmicas: classificação e características comuns (2–4)
  sh(1792065182152, "verde", A_, "Principais micoses sistêmicas", 2, "V-pilar: lâminas 2 e 65; organizador elogiado por Davi (“bom card organizador”)"),
  sh(1792065183130, "azul", A_, "Características comuns dos agentes", 4, "A-aula: lâminas 4 e 66; apostila e UC3.pdf"),
+ au("integrador-sistemicas", ORG("<b>Three systemic mycoses</b> by the yeast seen in tissue:<br>- small oval yeasts inside macrophages: {{c1::Histoplasma::H…}}<br>- many buds around a mother cell (pilot wheel): {{c1::Paracoccidioides::P…}}<br>- yeast with a thick capsule, seen with India ink: {{c1::Cryptococcus::C…}}"),
+    "V-pilar", A_, "Integrador: histoplasmose × PCM × criptococose", 4, "pedido literal de Davi em 31/10 (F-20261031-CLAUDE-03); lâminas 2, 65 e 66", organizador=True,
+    extra="All three are inhaled and start in the lung.<br>Histoplasma comes from bird and bat droppings and can mimic tuberculosis.<br>Paracoccidioides affects rural Latin America and causes mouth ulcers.<br>Cryptococcus comes from pigeon droppings and causes meningitis in AIDS."),
  A(1499970409878, "V-prova", A_, "Bolor no solo, levedura no corpo", 4, "lâmina 4; prova 2017 P2 2.6; nota viva da 43"),
  A(1499968803765, "R-detalhe", A_, "Infecção grave no imunossuprimido", 4, "Trabulsi cap. 70 (oportunistas); nota viva da 43"),
  # B. Paracoccidioidomicose (5–20)

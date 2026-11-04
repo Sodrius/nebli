@@ -188,3 +188,20 @@ Este é o gate operacional. Nenhum card autoral entra no deck (nem card AnKing �
 
 **Redundância**
 - [ ] Não repete outro card quase igual do mesmo slug — redundância só fica se cada card treina habilidade diferente (A9)
+
+## A27 — Autorais corretos, mas denunciados pela construção (24/10/2026)
+
+Comentários de Davi mostraram que correção factual e negrito mecânico não bastam. As assinaturas encontradas foram:
+
+- rótulo abstrato seguido de lista, como “Viral penetration routes”, sem uma frase que faça a lista responder a uma pergunta biológica;
+- cloze em verbo genérico, como `assembled` ou `defense`, que admite muitas formulações equivalentes;
+- contexto amplo, como “costimulatory signal”, que permite CD40–CD40L ou B7–CD28;
+- negrito aplicado à resposta, à frase toda ou a palavras sem função de orientação;
+- card que enumera exemplos antes de ensinar o eixo que os organiza;
+- dois cards para o mesmo mecanismo, quando o segundo fato caberia no Extra do primeiro.
+
+Correção: escrever primeiro a relação natural que um card AnKing ensinaria, escolher o menor alvo que essa relação induz de modo único, negritar apenas o contexto discriminante fora da lacuna e usar o Extra para mecanismo, exceção ou exemplo complementar. Uma lista só permanece quando o conjunto em si é uma unidade recuperável e a frase anterior declara o eixo que une os itens.
+
+## A28 — Tab formalmente válido, mas raso (24/10/2026)
+
+Três parágrafos e ausência de rótulos não garantem profundidade. O padrão ruim explica o princípio, repete a resposta e termina com uma paráfrase do mesmo fato. O terceiro parágrafo precisa acrescentar uma previsão: etapa intermediária, consequência, comparação mecanística ou ligação ao próximo nível de organização. Se o estudante não aprende a deduzir nada além da frente, o Tab continua raso mesmo sendo longo.

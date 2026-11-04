@@ -157,6 +157,8 @@ def registrar(run: Path, etapa: str, nota: str):
     if anterior and anterior not in feitas:
         raise SystemExit(f"{etapa} antes de {anterior}: siga o passo a passo")
     precisa = ARTEFATOS[etapa] + (["motivacoes.json"] if etapa == "E3" and versao(run) >= 8 else [])
+    if etapa == "E6" and versao(run) >= 14:  # F-20261104-CLAUDE-02: E6 revisa o plano, antes de instalar
+        precisa = ["plan.json", "REVISAO-DE-QUALIDADE.md", "mapa-de-profundidade.json"]
     arts = {a: _sha(run / a) for a in precisa}
     if any(v is None for v in arts.values()):
         raise SystemExit(f"{etapa} sem artefato: {[a for a, v in arts.items() if v is None]}")

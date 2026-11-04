@@ -172,7 +172,7 @@ def collect(call, query, limit=None):
     return cards[:limit] if limit else cards
 
 
-def item(call, card):
+def item(call, card, contexto=None):
     fields = card["fields"]
     ordered = [f["value"] for f in sorted(fields.values(), key=lambda f: f["order"])]
     target = hidden_target(fields, card["ord"])
@@ -206,6 +206,7 @@ def item(call, card):
         "alvo_oculto": target,
         "extra": extra[:800],
         "ja_estudados": studied_related(call, card, target) if call else [],
+        "planejamento": (contexto or {}).get(int(card["note"]), {"estado": "planejamento local não localizado; não inventar continuidade"}),
     }, card_hash(ordered, card["ord"]), card["note"]
 
 
@@ -283,14 +284,16 @@ def drop_empty_link(text):
 
 
 def generate(call, query, limit=None, redo=False, simulate=False, db=None, backend="auto",
-             workers=1, batch_size=BATCH):
+             workers=1, batch_size=BATCH, pending_only=False):
     db = db or open_store()
     system = STYLE.read_text(encoding="utf-8")
     version = style_version(system)
     # Regra editorial específica sem mudar a versão global do estilo: cards de
     # anatomia devem ensinar também para que a estrutura serve, não apenas seu
     # nome, localização ou relações espaciais.
-    system += ("\n\nEm cards de Anatomia, Neuroanatomia ou estruturas anatômicas, "
+    system += ("\n\nUse planejamento como intenção de objetivo e encaixe, nunca como fonte científica. "
+               "Se ausente, não invente vizinhos ou continuidade. Cada Tab continua autossuficiente. "
+               "Em cards de Anatomia, Neuroanatomia ou estruturas anatômicas, "
                "inclua sempre a função da estrutura e conecte essa função à sua "
                "posição ou às relações mostradas, sem inventar função quando o "
                "nome estiver ambíguo. A explicação não pode se limitar à identificação.")
@@ -310,13 +313,17 @@ def generate(call, query, limit=None, redo=False, simulate=False, db=None, backe
             db.execute("select card_id, hash, estilo, status from explicacoes")}
     todo = []
     cards = collect(call, query, limit)
+    from nebli.contexto_tab import index as contexto_index
+    contexto = contexto_index()
     print(f"Conferindo {len(cards)} cards e explicações já salvas…", flush=True)
     for index, card in enumerate(cards, 1):
         ordered = [f["value"] for f in sorted(card["fields"].values(), key=lambda f: f["order"])]
         saved = have.get(card["cardId"])
+        if pending_only and saved and saved[0] == card_hash(ordered, card["ord"]) and saved[2] == "ok":
+            continue
         if not redo and saved and saved[:2] == (card_hash(ordered, card["ord"]), version) and not str(saved[2]).startswith("revisar"):
             continue
-        todo.append(item(call, card))
+        todo.append(item(call, card, contexto=contexto))
         if len(todo) % 50 == 0:
             print(f"  contexto preparado: {index}/{len(cards)}", flush=True)
     print(f"{len(todo)} cards a explicar (estilo {version}).", flush=True)
@@ -532,6 +539,7 @@ def main():
     gen.add_argument("--backend", choices=("auto", "claude", "codex"), default="auto")
     gen.add_argument("--workers", type=int, default=1)
     gen.add_argument("--lote", type=int, default=BATCH)
+    gen.add_argument("--pendentes", action="store_true", help="gera apenas ausentes, alterados ou marcados revisar; preserva estilo antigo válido")
     sh = sub.add_parser("mostrar")
     sh.add_argument("ids", nargs="+")
     rs = sub.add_parser("resumo", help="totais da base; com busca, cobertura exata daqueles cards")
@@ -544,7 +552,8 @@ def main():
         install()
     elif args.cmd == "gerar":
         generate(Anki(), args.busca, args.limite, args.refazer, args.simular,
-                 backend=args.backend, workers=args.workers, batch_size=args.lote)
+                 backend=args.backend, workers=args.workers, batch_size=args.lote,
+                 pending_only=args.pendentes)
     elif args.cmd == "mostrar":
         show(args.ids)
     elif args.cmd == "ruins":

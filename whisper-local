@@ -1,0 +1,28 @@
+#!/bin/zsh
+set -euo pipefail
+
+repo_dir="${0:A:h}"
+whisper_bin="$repo_dir/.venv-whisper/bin/mlx_whisper"
+ffmpeg_dir="/Users/davisousa/homebrew/bin"
+
+if [[ ! -x "$whisper_bin" ]]; then
+  print -u2 "Whisper local não instalado em $repo_dir/.venv-whisper"
+  exit 1
+fi
+
+if (( $# == 0 )); then
+  print -u2 "uso: ./whisper-local ARQUIVO [ARQUIVO ...] [opções do mlx_whisper]"
+  exit 2
+fi
+
+export PATH="$ffmpeg_dir:$PATH"
+exec "$whisper_bin" \
+  --model "mlx-community/whisper-large-v3-turbo" \
+  --language pt \
+  --task transcribe \
+  --output-format all \
+  --word-timestamps True \
+  --hallucination-silence-threshold 2 \
+  --condition-on-previous-text False \
+  --initial-prompt "Aula de neuroanatomia e neurofisiologia em português brasileiro. Terminologia médica anatômica." \
+  "$@"

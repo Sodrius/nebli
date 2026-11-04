@@ -1,5 +1,47 @@
 # Feedbacks — registro único e testes de regressão
 
+## F-20261104-CLAUDE-03 — todo AnKing HY 1–3 das seções da aula entra (“deixar full”)
+
+Falas literais de Davi (04/11, sobre a 64): “sinto que ainda falta coisa no deck de hipersens”; “se tiver mais card anking hy 1, 2 ou 3 puxa tb, vamo deixar full, é um conteúdo importante”; “faz isso e continua contrastes”. Aplicação: na E4/E5, toda nota AnKing com tag HY 1, 2 ou 3 das seções de recurso do assunto (FirstAid, Bootcamp etc.) entra, inclusive doença → tipo/mecanismo; só fica fora com motivo concreto (repete a mesma lacuna e resposta de outro card, farmacologia de outra UC, ou trivia sem mecanismo), registrado em EXCLUIDOS. Reescrita só quando a lacuna é longa, tem negrito dentro ou repete resposta. Na 64: +42 notas HY puxadas, 6 excluídas com motivo; E7 (verificador 78/78) antes da delta.
+
+## F-20261104-CLAUDE-02 — Step em boa quantidade; E7 antes de instalar, instalar por último
+
+Falas literais de Davi (04/11): “garante que cobriu bem toda a aula + puxou uma boa quantidade de coisa do step, pra deixar isso pronto”; “a e7 tem que ser pré instalar, porque daí dá tempo de trocar algo / instalar é a última coisa, até lá pode ajustar com os motivos certos, por isso tem a e7”. Aplicação: (1) o AnKing/Step HY de cada mecanismo da aula entra em boa quantidade (classificação doença → mecanismo da FirstAid/Bootcamp), reescrito só quando a lacuna é longa ou repete a resposta de outro card; (2) pipeline v14: E6 revisão com raciocínio e E7 fidelidade/verificador por casos rodam sobre o plano, antes do apply; instalar é o primeiro passo da E8 e a última mudança do deck; a formatação final do vivo é conferida logo depois, com correção por delta. Na 64 o apply veio antes deste pedido; a leva Step entrou depois da E7.
+
+## F-20261104-CLAUDE-01 — metas do Anki: painel “quanto falta” e aviso do Claude
+
+Falas literais de Davi (03/11): “quando eu não cumprir a meta da semana ou do mês, tem que ser avisado pelo claude”; “quero que o add-on fique melhor, especificando de forma coerente com a estétitca dele quanto falta para eu bater a meta de cards novos da semana, do mês e do ano. tanto absolutamente quanto relativo ao tempo que falta / aquele add-on que já existe e fique entre o calendário e o deck”. Aplicação: módulo `anki-addon/nebli_metas` (painel abaixo do GoalBar, cores dele) e hook UserPromptSubmit `~/.claude/hooks/nebli_metas_aviso.py`, mesmas contas em `nebli_metas/calculo.py`.
+
+## F-20261103-CODEX-04 — deixar a próxima geração pronta
+
+Pedido literal de Davi: “deixa tudo pronto para a próxima geração de deck que eu quiser fazer”. Aplicação: o molde passou a v13, com auditoria de cobertura aprovada em 03/11 como gate verificável no E7 usando `compreensao-aula.json` e `cards_conferidos`; E0 lê o feedback mais recente calculado, sem data fixa no roteiro. As duas pendências da rodada anterior continuam registradas como tal e não são confundidas com card corrigido. O próximo deck começa pelo pedido curto e segue E0–E8 sem nova aprovação.
+
+## F-20261103-CODEX-02 — auditoria de cobertura aprovada e comentários recentes
+
+Falas literais de Davi: “ÓTIMO / gostei / pode aplicar”; “também vai olhando todos os comentários recentes que tem no deck e segue o pipeline já discutido pra isso”. Decisão: a auditoria nos dois sentidos da proposta de 03/11 integra E2/E3/E7 do pipeline vigente, usando os artefatos existentes e registrando lacunas, excessos e correções antes da entrega. A rodada de comentários segue os sete passos do MEMORY §10 e `nebli.rodada_comentarios`; abertura e resultado são registrados na corrida própria.
+
+## F-20261103-CODEX-01 — exemplar do mesmo tipo para todo autoral; auditoria de cobertura sob revisão
+
+Falas de Davi nesta conversa, preservadas: “gostei de 1, 2 tem que ser mais desenvolvido, 3 é bom, 4 é mt trabalho pra pouco ganho e 5 é ruim”; “vou arrumar o frsr”; “também quero que vc incorpore a ideia de que cada card autoral pode ser associado a um exemplar que seja do mesmo tipo de informação (pode definir os tipos de informações que um card pode ter com base nos exemplares. assim, quando for criar, pergunta: o que ele quer ensinar? qual bom card é similar e bom? a partir disso se inspirar e seguir”; “auditoria de cobertura não aplica, desenvolve e passa por mim / o resto já aplica e deixa pronto pros próximos decks”; “deixa consolidado para toda sessao nova saber tudo issso e estar naturalmente no pipeline”. Aplicação vigente: a criação de autorais passa a partir da pergunta sobre a informação a ensinar para a escolha justificada de um exemplar aprovado do mesmo tipo, com taxonomia no GUIA-2, registro em REVISAO-AUTORAIS, instrução no pipeline e verificador. A sugestão de acompanhar amostras em 7/14 dias e a prova curta fora do baralho foram rejeitadas. O ajuste de FSRS fica com Davi. A auditoria de cobertura em dois sentidos estava em proposta separada até a aprovação registrada em F-20261103-CODEX-02.
+
+## F-20261031-CODEX-04 — corrigir comentários, aprender com suspensões e impedir regressões
+
+Pedido literal: “faltou arrumar os comentários, upar pros erros não mais se repetirem conforme o pipeline, ajustar os cards e estudar os que já suspendi para compreender o que vc tem mais errado e gerar sugestões para errar menos para as próximas de forma confiável, com exemplos, gates e comentários”. Aplicação verificada: 22 notas textuais corrigidas, quatro figuras trocadas e cinco adicionadas e dois cards duplicados mais três cards de listas fracas suspensos por crítica explícita, com leitura posterior e histórico preservado. Recibos em `arquivos-trabalho/comentarios-2026-10-31/`. O registro `config/correcoes-vigentes.json` guarda os campos efetivamente aplicados e as retiradas, impedindo um plano posterior de reinstalar o texto superado. O gate `nebli.lint_cards.check_v10_feedback` reprova cloze mal fechado, dois alvos genéricos rejeitados e dois contextos ausentes apontados por Davi; o gate de imagem recusa a captura de texto rejeitada. Nove testes passaram, incluindo proteção da nota em tela. Os 250 Tabs dos cinco lotes permanecem atuais; mais 46 Tabs de cards alterados foram regenerados e conferidos (46 atuais, zero pendente). A análise de suspensões em `SUSPENSOES-ANALISE.md` compara autoral/AnKing e casos com comentário e card alternativo, descontando retirada do pipeline e troca de deck. O guia gerado está com 451 casos de feedback e zero sem análise nesta leitura. A triagem viva registra 36 caudas sem marcador: 16 elogios/edições/registros, 6 pedidos de interface, 8 críticas em notas com tag de retirada e 6 críticas de conteúdo. Não marcar como corrigidas por haver registro no guia.
+
+**Continuação 01/11:** quatro notas já etiquetadas como retiradas estavam ativas na coleção (1791627549276, 1791627549652, 1791630174545 e 1792787428653). Foram suspensas em lote curto, sem apagar ou alterar texto/comentário; as oito notas da categoria de retirada agora estão de fato suspensas. Recibo `receipt-regressao-retirados-ativos-20261101.json`. O card UC19 1793472242503 foi retirado do deck-prova pelo outro executor, conforme `ESTADO-ATUAL.md`.
+
+## F-20261031-CODEX-03 — Caps Lock normal, Caps Lock + 9 para HY; Tabs por último
+
+Pedido literal: “suspender tem que ser no caps lock / suspender HY tem quer ser caps lock 9 / roda os tabs dos cards que faltam também com 5 agentes de 50 cada”; sequência confirmada: “FAZ ISSO NO FINAL, QUANDO TERMINAR O QUE TE PEDI ANTES”. O código instalado diferencia Caps Lock normal de Caps Lock seguido de 9. O erro mostrado por Davi (`_guarded` não aceitava `allow_hy`) foi corrigido; o Anki registrou um carregamento às 16:01 depois dessa correção, sem novo erro no log. Uma proteção adicional que impede suspender o card seguinte após troca de tela foi instalada às 16:02 e entrará no próximo reinício. Seis fluxos simulados passaram; ainda falta a confirmação do atalho na interface real. Os cinco lotes de 50 Tabs foram gerados e os 250 passaram por validação de estilo e hash do card vivo, importação e readback; recibo em `arquivos-trabalho/comentarios-2026-10-31/tabs-import-receipt.json`. Esta leva de 250 não esgota os demais Tabs pendentes.
+
+## F-20261031-CODEX-02 — todos os comentários e suspensões viram calibração
+
+Pedido literal: “olha todos os comentários, ajusta o que deixei; deixa pronto no exemplares, anti-exemplares e guia o feedback também; também observa os cards que suspendo para vc compreender que tipo de coisa tenho feito e como escolher/fazer cards melhores pros próximos decks, para ficar mais próximo com o que realmente tive na aula”; complemento: “observa sempre meus comentáiros e deixa comentado no guia”. Aplicação: a rotina de comentários agora exige registrar **todo** comentário literal no guia gerado, inclusive edições que o próprio Davi fez, e anexar análise específica antes de um próximo deck. A revisão de suspensos pós-estudo é obrigatória como fonte de padrões, mas não presume reprovação sem comentário ou outra evidência. Coleta de 31/10: 435 notas comentadas, 58 caudas pendentes no retrato inicial e 670 cartões estudados suspensos (639 notas) no escopo NEBLI; o guia foi regenerado com 446 casos de feedback, os novos padrões e a lista de suspensos, todos com análise. Oito comentários adicionais surgiram durante a sessão e também entraram no guia. Duas notas desta leva foram corrigidas na coleção com readback (`1792787231967`, `1792695057693`); recibo em `arquivos-trabalho/comentarios-2026-10-31/receipt-seguros.json`. As demais pendências exigem revisão do conteúdo, das figuras e dos cards semelhantes; análise no guia não equivale a correção na coleção.
+
+## F-20261031-CODEX-01 — suspensão em Caps Lock + 9
+
+Pedido literal: “quero poder suspender card com caps + 9”. Alcance: atalho de revisão no Anki desktop. Esta foi a primeira implementação, depois substituída pelo pedido mais específico F-20261031-CODEX-03: Caps Lock sozinho suspende card comum, e Caps Lock seguido de 9 suspende HY. A regra vigente é a do registro F-20261031-CODEX-03 acima.
+
 ## F-20261027-CODEX-02 — novos comentários, cards próximos, guias e sync
 
 Pedido literal: “tem novos comentários / ajusta, ajusta os cards próximos, coloca nos guias, não comete os mesmos erros, entende o pq do erro e dá sync”. Vale também o pedido anterior: “revisa, corrige, corrige os cards que tiverem o mesmo erro, coloca no exemplares e anti-exemplares (gostei vira exemplar, com elogio) também / já deixa na memória isso como pipeline de correção de cards / já aprende para não ter os mesmos erros”.
@@ -898,3 +940,188 @@ Fala literal de Davi, no campo NEBLI_Comentario do card 1792624477502 (deck Farm
 Diagnóstico: o organizador de 27/10 listava só três indutores e dois inibidores, com negrito nos rótulos; o AnKing tem um card por fármaco ("X is an inducer of CYP450"), e a regra do Step (F-20261030-CLAUDE-01) traria todos de volta, contra o pedido.
 
 Aplicação: o organizador vivo foi reescrito com todos os indutores e inibidores do AnKing das seções de farmacocinética, com negrito só no título, e o comentário foi marcado "CORRIGIDO, 30, 10, 26.". Os cards soltos "X induz/inibe CYP" saem por `duplica 1792624477502` (a regra do Step aceita `duplica`). Ficam os cards que dizem mais do que isso (rifampicina no HIV, ritonavir o mais potente, azitromicina não inibe, fenitoína e osteopenia). Gate `deck_prova`: card de acervo cuja frente só diz que um fármaco induz ou inibe o CYP450 não entra quando o deck tem o organizador de CYP.
+
+**Atualização 31/10 (mesmo card, rodada 4):** depois da reescrita com a lista completa, Davi comentou literalmente:
+
+> VOLTAR PRO QUE ERA ANTES
+
+Junto com F-20261031-CLAUDE-01 ("não me dar lista de farmaco para decorar sem compreender"), a lista exaustiva fica revertida: o organizador volta à versão curta anterior (exemplos comuns de indutores e inibidores), e o "lista tem que ter tudo" deixa de valer. Continua valendo o organizador único (os cards soltos "X induz/inibe CYP" seguem fora por `duplica`, e o gate continua).
+
+## F-20261031-CLAUDE-01 — deck-prova: princípio no deck principal, fármacos específicos em subdecks; ensinar, não listar
+
+Fala literal de Davi (31/10), durante o lote 3 do deck-prova UC19:
+
+> no final vamos separar o que for funcionamento geral e farmacologia do que é efeito de drogas específicas, vamos gerar um deck, com subdecks para os cards de drogas específicas que foram se metendo no meio
+> no fundo, cada deck deve ensinar o conteúdo, não me dar lista de farmaco para decorar sem compreender
+
+Diagnóstico: a regra do Step (F-20261030-CLAUDE-01) trouxe para os lotes 1 e 2 muitos cards AnKing de fármaco específico (antivirais, anticonvulsivantes, antineoplásicos, anestésicos) misturados aos de princípio; o deck passa a parecer lista de fármacos em vez de ensinar a farmacologia geral.
+
+Aplicação: (1) no fim do deck-prova UC19 (depois do lote 3), cada lote ganha subdeck "Fármacos específicos" para os cards cujo alvo é um fármaco particular e não o princípio; o deck principal fica com o funcionamento geral, na ordem da base; (2) card de fármaco específico só entra quando ilustra um princípio do deck, e o verso diz qual princípio; lista de fármacos sem o porquê não entra como alvo; (3) gate no modo prova: todo card em subdeck de fármaco específico liga a um item do mapa com princípio, e o deck principal não tem card cujo alvo seja só o nome de um fármaco.
+
+## F-20261031-CLAUDE-02 — Caps Lock + 9 suspende com um só toque, mesmo no card verde
+
+Fala literal de Davi (31/10):
+
+> TÔ TENDO QUE PRESSIONAR CAPS + 9 2x, quero que seja só uma
+> tá duplicando opr ser verde
+
+Diagnóstico: a confirmação de dois toques para card verde (F-20261003-CLAUDE-15, "para suspender verde quero clicar 2x no caps lock") também era aplicada ao Caps Lock + 9, que já é uma combinação deliberada.
+
+Aplicação: `nebli_atalhos` — Caps Lock + 9 suspende na hora, inclusive card verde; Caps Lock sozinho no verde continua pedindo dois toques. Copiado para `addons21/nebli_atalhos` (diferença conferida: só esta mudança); vale depois de reiniciar o Anki.
+
+## F-20261031-CLAUDE-03 — estudar tudo, grande resumo como fonte, menos cards "away", cards pedidos
+
+Fala literal de Davi (31/10), colada no chat:
+
+> quero que no estudar tudo eu poss a fazer todos os cards não suspensos do deck e quando eu exclua o deck gerado artificialmente seja recalculado o FSRS para a próxima repetição ideal daquele card
+> é para poder introduzir cards novos, mas também revisar antigos
+> no geral vou fazer isso para crammar pré-prova, mas daí é bom que já adianto uns cards que faria no futuro
+>
+> o grande resumo da matéria x é uma boa fonte de conteúdo e organização da progressão do deck, porque está tudo bem dividido
+>
+> também é essencial que pare de ter quantos cards que vou ter que suspendere, porque ficaram mt away
+> o planejamento do deck tem que ser melhor, também a justificativa de cada card como etapa algo do pipeline
+>
+> fazer card de:
+> onde está a cél tronco gástrica e  como é a diferenciação
+> EECs →
+> L-cells: Produce GLP-1 and PYY to slow digestion and promote fullness.
+> I-cells: Produce CCK to trigger bile and enzyme release for fat breakdown.
+> K-cells: Produce GIP to stimulate insulin secretion.
+> Enterochromaffin cells: Produce serotonin to influence gut movements.
+> A-cells: Produce ghrelin to stimulate hunger.
+> histoplasmose x cryptococcose x paracoccodioidomicose. card integrador
+
+E em seguida: "roda isso tudo e aplica o deck no anki".
+
+Aplicação:
+- **Estudar tudo:** o filtrado de estudo já reúne os não suspensos do ramo, reagenda pelo FSRS a cada resposta (revisão adiantada conta como adiantada) e recalcula a memória dos respondidos; ao apagar o filtrado os cards voltam com a próxima repetição calculada. Acrescentado: cards enterrados do ramo são desenterrados antes de montar o filtrado (antes ficavam de fora), e ao apagar um filtrado de estudo a memória FSRS dos cards que passaram por ele é recalculada na hora.
+- **Grande resumo da matéria:** fonte de conteúdo e de ordem/progressão na E1/E2 de cada deck quando existir para a UC (localizar no Drive e declarar em fontes-decl).
+- **Menos cards "away":** card de fármaco/doença/detalhe que não ensina o princípio da aula não entra (F-20261031-CLAUDE-01 generalizada a todas as UCs); cada card carrega no plano a justificativa (item do mapa + fonte), e o planejamento (E3) é a etapa que decide o que entra.
+- **Cards pedidos:** célula-tronco gástrica (istmo) e diferenciação; organizador das EECs com o hormônio e a função; card integrador das três micoses sistêmicas.
+
+Estado (31/10, Claude): `nebli/anki_addon.py` › `study_deck` desenterra os cards do ramo antes de montar o filtrado (recarrega sozinho no add-on nebli_decks quando o arquivo muda). Cards pedidos instalados por correção pontual: BT03 1793476863707 (célula-tronco no istmo e diferenciação) e 1793476864207 (organizador das EECs; ghrelina em células X/A-like, que no roedor se chamam A), MB50 1793476864632 (integrador histoplasmose × PCM × criptococose pela levedura no tecido). As aulas antigas não passam nos gates de fontes posteriores; por isso não houve delta.
+
+## F-20261031-CLAUDE-04 — análise geral: custo-efetividade baixo, deck não guia para a aula
+
+Fala literal de Davi (31/10):
+
+> quero que vc analise todo o feedback que já deixei em comentários no anki + o que já suspendi e faça uma análise sobre os principais problemas que estamos tendo hoje
+> sinto que há um custo-efetividade baixo, que não me guia para realmente aquilo da aula
+> faz uma análise geral e me diz o que há de ruim com o pipeline e como melhorá-lo de forma realista
+
+Aplicação: análise em [ANALISE-CUSTO-EFETIVIDADE-2026-10-31.md](ANALISE-CUSTO-EFETIVIDADE-2026-10-31.md) (772 falas únicas de comentário, 2.137 cartas estudadas, 478 suspensas após estudo fora de decks suspensos inteiros). Propostas aguardam a decisão de Davi antes de virar regra.
+
+## F-20261031-CLAUDE-05 — plano para os principais problemas
+
+Fala literal de Davi (31/10):
+
+> me dá um plano para ajeitar os principais problemas e que mais tive problema, para seguirmos mais o que quero
+> seja proativo, entenda o que preciso para estudar e me ajuda a chegar lá
+
+Aplicação: [PLANO-CUSTO-EFETIVIDADE-2026-10-31.md](PLANO-CUSTO-EFETIVIDADE-2026-10-31.md), a partir da análise F-20261031-CLAUDE-04.
+
+## F-20261101-CLAUDE-01 — respostas de Davi sobre o pipeline que ele quer
+
+Davi rejeitou o plano F-20261031-CLAUDE-05 ("não gostei dessas ideias / quero deixar mais como quero / monta perguntas ... para termos um pipeline mais adequado, entendendo o que quero"). Respostas literais (01/11):
+
+- Deck que vale a pena: "Entendo a aula, AnKing/Step junto, Poucos e fortes, sinto que levar esses cards para a vida vão me agregar".
+- O que mais faz suspender/comentar: "Não ensina, Imagem ruim".
+- Participação: "Só no fim" (eu faço o deck inteiro, instalo e ele comenta no Anki).
+- Autoral: "lacuna e fio da aula, poucos, mas muito bons".
+- AnKing que a aula não ensinou: "Entra se ensina" (se ajuda a entender o princípio da aula, independente do HY).
+- Card para a vida: "Mecanismo, Comparação, Base clínica, Fato-chave".
+- Imagem: "Sempre que visual" (todo conceito visual leva figura, mesmo que precise procurar muito).
+- Decks atuais: "Deixo como está" (ele suspende e comenta; eu corrijo pelos comentários).
+
+Aplicação: MEMORY regra 6 e regra do autoral reescritas no lugar; PLANO-CUSTO-EFETIVIDADE substituído; propostas de orçamento rígido, piloto, rosa proibido e enxugamento dos decks atuais descartadas.
+
+## F-20261101-CODEX-01 — envelope e modo de saída na aula correta
+
+Comentário literal da nota 1792677739602:
+
+> falta um card sobre relação de modo de visão x envelope ou não
+> tipo:
+> sem envelope = lise
+
+Aplicação: o organizador 1792695055212 já foi corrigido para vírus nus geralmente saírem por lise e envelopados adquirirem envelope por brotamento. Seu irmão c1 foi movido para a aula 57, que mostra brotamento na lâmina 68; c2 sobre sincícios ficou na aula 58. IDs, histórico, agendamento e bandeiras conferidos. O comentário foi marcado `CORRIGIDO, 01, 11, 26.` e seu Tab refeito. Regra de posição de irmãos reescrita no MEMORY §3; `nebli.correcoes_vigentes` bloqueia reaplicação que reuniria os irmãos em um único deck.
+
+## F-20261101-CLAUDE-02 — tudo como gate, com agente verificador por casos que deram certo
+
+Fala literal de Davi (01/11), sobre F-20261101-CLAUDE-01 e o ajuste do gate "todo AnKing entra":
+
+> isso
+> e deixa tudo isso como gate e com um agente para verificar tudo baseado em casos que deram certo
+
+Aplicação: pipeline v12. `nebli/casos.py` (banco `CASOS-QUE-DERAM-CERTO.json`: X, elogio literal, GUIA-2, verde estudado sem comentário), `nebli/verificador_casos.py` (gates `tipos.tsv`, imagem quando visual, sem resposta repetida, parecer do agente atual e aprovado), rubrica `config/verificador-casos.md`, E3/E7 no pipeline, molde `PIPELINE_VERSAO = 12`, testes `test_verificador_casos`.
+
+## F-20261101-CLAUDE-03 — puxar para a aula nova o card que ele suspendeu em outro deck
+
+Fala literal de Davi (01/11):
+
+> nova regra:
+> se tem um card de uma aula que acabamos de criar e ele já está em outro deck, mas suspenso, puxe-o para a aula nova, porque daí reavalio se vou suspendê-lo ou não
+> isso é para não perdermos bons cards porque suspendi há mt tempo, quando o certo era suspender, mas quero rever agora
+
+Aplicação: `nebli/puxar_suspensos.py`. Gate v12 (toda nota NEBLI de outra aula achada na busca por significado, com todos os cards suspensos por Davi e sem `NEBLI::retirado`, entra por sh() ou vai a EXCLUIDOS com motivo; cópia nova do mesmo AnKing no lugar da suspensa reprova). O molde `apply.py` move a nota puxada para o deck novo, dessuspende e marca `NEBLI::reavaliar::<aula>` (nunca a nota em tela). Retirada do pipeline não é suspensão de Davi e não volta.
+
+## F-20261101-CLAUDE-04 — tirar o rodapé de bandeira/comando; ler comentários em sete passos
+
+Fala literal de Davi (01/11):
+
+> tira a mensagem que fica lá embaixo sempre pequena dizendo o .  signifcado ba bandeira e dos comandos que deixei
+> também aprende a sempre ler os comentários seguindo o seguinte passo a passo:
+> ver os novos
+> reavaliar cards com problemas similares
+> pensar porque teve aquele problema
+> pensar como não ter mais esse problema de forma definitiva, mesmo em outra conversa (no geral com gates + indicações precisas e exemplos)
+> anotar nos exemplares, anti-exemplares e guia
+> corrigir os cards todos com problema, seja comentário seja comando
+> aplicar tudo de volta
+
+Aplicação: (1) `anki-addon/nebli_atalhos` não mostra mais rótulo no rodapé (instalado em addons21; vale depois de reiniciar o Anki); supera os pedidos de rodapé nos comentários 1790974690103 e 1790999271207. (2) `nebli/rodada_comentarios.py`: `abrir` lista as pendências vivas (fala depois do último CORRIGIDO/VISTO, comando q/w/e/r, bandeira vermelha) e `verificar` é o gate dos sete passos. MEMORY (pipeline de correção) e GUIA-1 §9 reescritos no lugar; CLAUDE.md aponta o comando.
+
+## F-20261101-CLAUDE-05 — NEBLI no tablet, no celular e no controle
+
+Fala literal de Davi (01/11): "planeja como deixar tudo, desde os tabs até os comentários até uma forma de fazer o que faço no pc pelo tablet, pelo celular e pelo controlezinho de anki". Respostas: celular "Android (AnkiDroid)"; controle "deixa isso para depois"; no celular e tablet "Ler o Tab, Comentar, Bandeira e comandos, Suspender e enterrar, tudo que der no mac, com usabilidade adaptada"; no controle "Responder, Suspender e enterrar, Bandeira vermelha, Desfazer, tudo menos comentar porque não tem como".
+
+Aplicação: [PLANO-NEBLI-MOBILE-2026-11-01.md](PLANO-NEBLI-MOBILE-2026-11-01.md), aguardando o início.
+
+## F-20261102-CLAUDE-01 — tudo por gesto
+
+Fala literal de Davi (02/11): "quero tudo por gesto, especialmente o que mais uso". Aplicação: mapa de gestos por frequência de uso no PLANO-NEBLI-MOBILE; card de teste F0 no deck `NEBLI Teste gestos`.
+
+## F-20261104-CODEX-01 — comentários novos e gate do alvo
+
+Falas literais de Davi nos cards: 1791630905957 "o coração da marcação do lado da bandeira está tampando a bandeira deixa ele um pouquinho mais à esquerda"; 1792695020938 "já tem um card disso organizador, então vou suspender esse"; 1793199677071 "tirar fonte sempre de debaixo da imagem (gate-hard) porque isso distrai"; 1793476864207 "boa ideia, mas mal escrito, não dá foco não precisa das iniciais também, entrega mt"; 1793784421465 "indução fraca, tem que induzir o mais importante".
+
+Aplicação: GUIA-1/2/3 atualizados; o alvo essencial do organizador é conferido no verificador por casos, inicial de sigla curta e fonte visível sob figura têm bloqueio automático. Add-on do coração deslocado à esquerda no perfil local, a conferir após reinício.
+
+## F-20261104-CODEX-02 — gate do alvo essencial
+
+Davi: “coloca gate e integra isso no pipeline”. Aprova a pergunta sobre o que lembrar em seis meses, revisão de cada linha de organizador, busca de avulsos cobertos e verificação de recorrência nos próximos comentários. Aplicação: pipeline e molde v15; gate `verificador_casos.alvos_essenciais`, antes da instalação.
+
+
+## F-20261104-CODEX-03 — revisão pós-prova com controle dos acréscimos
+
+Fala literal de Davi (04/11):
+
+> quero que vc crie uma estrutura para, após cada prova, voltarmos vendo o que faltou nos decks, para agregarmso
+> pega os resumos, provas e todo o material disponível para tentar puxar os ankings do assunto que faltaram, algum organizador que faltou, algo assim... coisas que poderiam agregar, pequenos detalhes no deck
+> daí depois da prova eu peço, vc sugere as mudanças ou os cards a entrar pro deck ficar MUITO completo e eu aprovo ou não
+> isso ajuda para eu poder ter controle sobre o deck, porque quando fazemos ele no geral ainda não estudei o assunto
+
+Aplicação: MEMORY §12b, rota de entrada em AGENTS/CLAUDE/README e procedimento + molde REVISAO-POS-PROVA. Investigação e propostas prontas precedem a decisão; escrita somente dos itens aprovados. Estrutura documental, sem afirmar gate automático ou revisão de prova já executada.
+
+
+## F-20261104-CODEX-04 — estudar suspensos temporariamente
+
+Davi: “os cards que faço no fazer todo o deck quero que não sejam dessuspensos, mas apareçam também os suspensos para eu fazer”; “quando eu apagar, tudo volta ao normal”; “eles devam continuar suspensos quando eu apagar o deck e for recalcular o fsrs”; “isso para aquele estilo que fica quando faço só uma parte”.
+
+Aplicação: `nebli/anki_addon.py` inclui suspensos no estudo do ramo, com registro persistente e restauração ao retornar; o Anki requer liberação durante o estudo. Registro local no perfil. Testes de restauração/reinício e proteção durante revisão em `test_study_suspensions.py`; teste vivo ainda pendente.
+
+## F-20261104-CODEX-05 — planejar UC07 e Farmacologia antes do Claude gerar
+
+Davi: “a uc07 será organizada conforme o conteúdo de material de veterano + prova + bibliografia, seguindo o cronograma e aprofundando um pouco mais do que esses materiais, com boa estratificação de bandeira”. Também pediu “boa quantidade de organizadores, imagem kenhub + anking first e uma parte de função + clínica associada a cada deck”, planejar Farmacologia considerando materiais de veteranos/provas acumulados, transcrever aulas já baixadas com Whisper e deixar tudo salvo no Git para continuar em outra pasta. Claude será o executor dos decks, após o planejamento com Davi.
+
+Aplicação: MEMORY §2 atualizado no lugar; plano UC07/Farmacologia de 04/11 registra diretrizes, propostas e decisões pendentes. Transcrição e auditoria dos materiais novos ainda não executadas.

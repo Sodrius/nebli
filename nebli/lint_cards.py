@@ -51,7 +51,7 @@ def portuguese(text):
     return len(text.split()) > 4 and len(PT.findall(text)) > len(EN.findall(text))
 
 
-def check(key, text_html, extra_html=""):
+def check(key, text_html, extra_html="", version=8):
     """Lista de (gravidade, problema). 'dura' reprova; 'aviso' pede olhar."""
     text = plain(CLOZE.sub(lambda m: m.group(2), text_html))
     problems = []
@@ -65,7 +65,7 @@ def check(key, text_html, extra_html=""):
     # F-20261016-CLAUDE-03: “os cards ficaram um pouco grandes… autorais, na maior parte dos casos, num tamanho um pouco menor, com uma indução de qualidade”
     limite = MAX_ORG_WORDS if organizacao else MAX_SENT_WORDS
     if words > limite:
-        problems.append(("dura", f"{words} palavras ({'organizador' if organizacao else 'frase'}: máximo {limite}; AnKing: mediana 15)"))
+        problems.append(("aviso" if version >= 9 else "dura", f"{words} palavras ({'organizador' if organizacao else 'frase'}: máximo {limite}; AnKing: mediana 15)"))
     elif not organizacao and words > 16:
         problems.append(("aviso", f"{words} palavras (AnKing: mediana 15): dá para encurtar mantendo a indução?"))
     clozes = {m.group(1) for m in CLOZE.finditer(text_html)}
@@ -84,7 +84,7 @@ def check(key, text_html, extra_html=""):
     if portuguese(extra):
         problems.append(("dura", "Extra em português"))
     if extra_words > MAX_EXTRA_HARD:
-        problems.append(("dura", f"Extra com {extra_words} palavras (AnKing: mediana 19, p90 {MAX_EXTRA_HARD})"))
+        problems.append(("dura", f"Extra com {extra_words} palavras (AnKing: mediana 19, p90 {MAX_EXTRA_HARD}); condensar o comentário, com aprofundamento no Tab"))
     elif extra_words > MAX_EXTRA:
         problems.append(("aviso", f"Extra com {extra_words} palavras (AnKing p75 {MAX_EXTRA})"))
     if re.search(r"\b(the lecture|in the lecture|in the lesson|the lesson|the transcript|transcript cites|in the figure|exercise question|slide \d+|this card|these patterns)\b", extra, re.I):
@@ -93,12 +93,12 @@ def check(key, text_html, extra_html=""):
     # genérica que qualquer frase aceitaria (encode, toxic, DNA, protein…).
     genericos = [a for a in (plain(m.group(2)).lower().strip(" .") for m in CLOZE.finditer(text_html)) if a in GENERICOS]
     if genericos:
-        problems.append(("dura", f"cloze em palavra genérica ({', '.join(genericos)}): esconder o termo específico que se decora"))
+        problems.append(("aviso" if version >= 9 else "dura", f"cloze em palavra genérica ({', '.join(genericos)}): esconder o termo específico que se decora"))
     # F-20261022-CLAUDE-08: verso autoral tem de ensinar algo além da frente, não repeti-la
     palavras = lambda t: {w for w in re.findall(r"[a-z][a-z'-]{3,}", t.lower()) if w not in VAZIAS}
     ext, fre = palavras(extra), palavras(text)
     if len(ext) >= 3 and len(ext & fre) / len(ext) >= 0.7:
-        problems.append(("dura", "Extra repete a frente: o verso tem de trazer o porquê, a consequência ou o contraste"))
+        problems.append(("aviso" if version >= 9 else "dura", "Extra repete a frente: o verso tem de trazer o porquê, a consequência ou o contraste"))
     if re.search(r"\b(whereas|while|but)\b.*\{\{c\d+::", text_html) and len(clozes) >= 2:
         problems.append(("aviso", "contraste com 2+ clozes: conferir se não são dois cards"))
         # F-20261015-CLAUDE-05 (onicomicose: “já pontuei 300 cards nesse estilo, que são ruins”): par complementar em
@@ -146,6 +146,38 @@ def check_v8(extra_html):
     return probs
 
 
+
+def check_v9(text_html):
+    """Preferências explícitas Q1/Q2/Q6; julgamento contextual cabe ao revisor."""
+    probs = []
+    for m in CLOZE.finditer(text_html):
+        if re.search(r"<(?:b|strong)\b", m.group(2), re.I):
+            probs.append(("dura", "negrito manual dentro do cloze: destacar contexto/ação fora; template destaca resposta"))
+        parts = m.group(0)[2:-2].split("::", 2)
+        hint = parts[2] if len(parts) == 3 else None
+        if hint and re.search(r"\bor\b|/|\bou\b", hint, re.I):
+            probs.append(("dura", "dica de alternativas facilita demais: usar categoria quando necessária"))
+    return probs
+
+
+def check_v10_feedback(text_html):
+    """Regressões objetivas dos comentários de 31/10, para corridas v10+."""
+    probs = []
+    openings = len(re.findall(r"\{\{c\d+::", text_html or ""))
+    matches = list(CLOZE.finditer(text_html or ""))
+    if openings != len(matches):
+        probs.append(("dura", "cloze incompleto ou mal fechado: conferir todos os pares {{...}} antes de instalar"))
+    targets = {plain(m.group(2)).lower().strip(" .") for m in matches}
+    if targets & {"scarcest", "viral material"}:
+        probs.append(("dura", "cloze em palavra inferível ou genérica apontada por Davi: cobrar o conceito da aula"))
+    visible = plain(CLOZE.sub(" ", text_html or "")).lower()
+    if "peripheral t-cell rim" in visible and "granulom" not in visible:
+        probs.append(("dura", "anel periférico de células T sem contexto de granuloma na frente"))
+    if "uncoating" in visible and not re.search(r"\b(?:viral|virus|virion)\b", visible):
+        probs.append(("dura", "uncoating sem contexto de entrada ou infecção viral na frente"))
+    return probs
+
+
 def justification(entry):
     """Autoral só para alvo central da aula ou cobrado em prova, sem AnKing/associado equivalente
     (F-20260930-CLAUDE-19: autoria excessiva em detalhes na Imuno P2)."""
@@ -174,10 +206,14 @@ def from_plan(path):
                                          "Referências Externas (MCAT, AnatoKing, Dope etc.) antes de autorar")])
     v7 = int(plan.get("pipeline_versao") or 1) >= 7
     v8 = int(plan.get("pipeline_versao") or 1) >= 8
+    v9 = int(plan.get("pipeline_versao") or 1) >= 9
+    v10 = int(plan.get("pipeline_versao") or 1) >= 10
     for entry in autorais:
         fields = entry["fields"]
         yield entry["key"], fields.get("Text", ""), fields.get("Extra", ""), (justification(entry) + (check_v7(fields.get("Text", "")) if v7 else [])
-                                                                               + (check_v8(fields.get("Extra", "")) if v8 else []))
+                                                                               + (check_v8(fields.get("Extra", "")) if v8 else [])
+                                                                               + (check_v9(fields.get("Text", "")) if v9 else [])
+                                                                               + (check_v10_feedback(fields.get("Text", "")) if v10 else []))
 
 
 def from_anki(query):
@@ -200,10 +236,11 @@ def main():
     if not args.plano and not args.anki:
         parser.error("informe plan.json ou --anki '<busca>'")
     cards = from_plan(args.plano) if args.plano else from_anki(args.anki)
+    version = int(json.loads(Path(args.plano).read_text()).get("pipeline_versao", 8)) if args.plano else 8
     total = hard = 0
     for key, text, extra, extra_problems in cards:
         total += 1
-        problems = (check(key, text, extra) if text else []) + extra_problems
+        problems = (check(key, text, extra, version=version) if text else []) + extra_problems
         if problems:
             hard += any(level == "dura" for level, _ in problems)
             print(f"{key}: " + " | ".join(f"[{level}] {msg}" for level, msg in problems))

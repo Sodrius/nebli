@@ -87,3 +87,38 @@ Imagem: slide-64 (tubo endodérmico, boca/ânus).
 ```
 
 > **Nota de calibração (pendência):** antes de aplicar cards autorais num deck, destilar o padrão dos cards reais do AnKing daquele sistema e validar o formato (ver memória [[calibrar-antes-de-gerar-cards]]). Os exemplos acima são rascunho de forma, não versão final.
+
+## 24/10/2026 — correções que aproximaram autorais do gesto AnKing
+
+### Contexto que elimina uma resposta concorrente
+
+```html
+The <b>T-cell help signal that drives B-cell class switching</b> is binding of B-cell {{c1::<b>CD40</b>}} to T-cell {{c1::<b>CD40L</b>}}
+```
+
+“Costimulatory signal” sozinho também admitia B7–CD28. Nomear a consequência biológica torna CD40–CD40L a única resposta sem entregar a lacuna.
+
+### Mecanismo antes do detalhe
+
+```html
+Because they depend on host nuclear transcription and replication machinery, most <b>DNA viruses</b> replicate in the {{c1::<b>nucleus</b>}}
+```
+
+A versão anterior escondia “RNA polymerase”, embora a frase mencionasse simultaneamente RNA polimerase e maquinaria de replicação. O novo alvo é a previsão central produzida pelo mecanismo; poxvírus fica como discriminante no Extra.
+
+### Definição induzida pela função
+
+```html
+The complete extracellular particle that <b>protects a viral genome and delivers it to the next permissive cell</b> is the {{c1::<b>virion</b>}}
+```
+
+O alvo não aparece como substantivo arbitrário numa frase descritiva: a função específica induz um único nome e distingue virion dos componentes separados dentro da célula.
+
+### Extra que absorve redundância sem perder conteúdo
+
+```html
+<b>Organic solvents</b> such as ether disrupt a viral {{c1::<u>lipid envelope</u>}}, causing loss of infectivity
+Extra: Alcohol acts by the same envelope-disrupting principle. Naked viruses lack this lipid target and are therefore more resistant to both agents.
+```
+
+O card separado de álcool foi suspenso; a informação continua disponível como aplicação do mesmo princípio no verso.

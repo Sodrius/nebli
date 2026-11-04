@@ -1,0 +1,4 @@
+#!/bin/bash
+# Referência privada Kenhub. A autorização do piloto não autoriza escrever no Anki.
+cd "$(dirname "$0")" || exit 1
+exec "$HOME/NEBLI-privado/kenhub/venv/bin/python" -m nebli.kenhub.referencia_externa "$@"

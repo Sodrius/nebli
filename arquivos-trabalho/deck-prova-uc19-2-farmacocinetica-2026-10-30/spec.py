@@ -143,6 +143,14 @@ for c in CARDS:
     if c["key"] in VERSO and c["kind"] != "autoral":
         c["extra_add"] = VERSO[c["key"]] + ("<br>" + c["extra_add"] if c.get("extra_add") else "")
 
+# F-20261031-CLAUDE-01: card de fármaco específico vai para o subdeck "Fármacos específicos" e o verso diz o princípio que ilustra
+_REORG = _json.loads((HERE.parent / "reorganizacao-deck-prova-uc19.json").read_text(encoding="utf-8"))
+_ESPEC = _REORG["lotes"].get(HERE.name, {})
+for c in CARDS:
+    if c["key"] in _ESPEC:
+        c["subdeck"] = "Fármacos específicos"
+        c["extra_add"] = f"Illustrates: {_REORG['en'][c['key']]}." + ("<br>" + c["extra_add"] if c.get("extra_add") else "")
+
 DUPLICACAO = {"fumo-1a2": "ganho: o AnKing cita o CYP1A2 só numa tabela de substratos; só este liga o fumo à indução do CYP1A2 e à intoxicação por teofilina (orientadoras FC 5 e 25)",
               "liberacao": "ganho: o AnKing diz que glargina e PEGuilação prolongam a ação; só este card diz que a liberação estendida muda a absorção e não a meia-vida de eliminação (orientadora 10)",
               "fatores-absorcao": "ganho: o AnKing tem fatores soltos (esvaziamento, quelação, IBP); este é o conjunto da apostila p.14 que o banco cobra lado a lado",

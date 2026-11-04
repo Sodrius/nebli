@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "mode": "referencia_kenhub",
+  "deck_root": "Referências::Referências Externas::Kenhub",
+  "scope": ["anatomia", "histologia", "fisiologia"],
+  "exclude": ["neuroanatomia"],
+  "initial_suspension": true,
+  "content_phase_1": "identificacao_visual",
+  "content_phase_2": "texto_dos_quizzes",
+  "visual_themes": ["ciano"],
+  "private_only": true,
+  "background_only_after_authentication": true,
+  "hierarchy": ["dominio", "modulo_oficial", "secao_oficial", "unidade_oficial"],
+  "production": {
+    "batch_size_units": 50,
+    "checkpoint_requires_complete_coverage": true,
+    "text_phase_separate": true,
+    "selected_theme": "ciano"
+  },
+  "anki_write_policy": {
+    "prepare_outside_anki": true,
+    "single_write_session": true,
+    "vectorized_actions_only": true,
+    "single_final_readback": true,
+    "sync_while_studying": false
+  },
+  "pilot": {
+    "target_cards_min": 50,
+    "target_cards_max": 150,
+    "unit_profiles": [
+      "anatomia_osso_ou_musculo",
+      "anatomia_viscera_ou_vasos",
+      "histologia_ou_fisiologia_visual_pequena_densa"
+    ],
+    "review_percent": 100,
+    "render_targets": ["pc_front", "pc_back", "mobile_front", "mobile_back"]
+  },
+  "authorization": {
+    "required_before_network_collection": true,
+    "required_before_anki_write": true,
+    "approval_file": "PILOTO-AUTORIZADO.json"
+  }
+}

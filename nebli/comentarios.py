@@ -7,6 +7,7 @@ Davi: "tô deixando vários comentários pra vc aprender"; "quando for ver os co
 Nada é apagado no Anki. O registro (flashcards/projeto/comentarios-cards.jsonl) guarda cada versão vista, com data, aula,
 origem e o texto do card, para virar regra no MEMORY e gate quando houver padrão.
 """
+import hashlib
 import html
 import json
 import re
@@ -23,22 +24,35 @@ def clean(s):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
 
 
+def feedback_key(s):
+    """Compara a fala de Davi sem os marcadores de correção do executor."""
+    return re.sub(r"\s+", " ", re.sub(
+        r"\bCORRIGIDO\s*,\s*\d{1,2}\s*,\s*\d{1,2}\s*,\s*\d{2,4}\s*\.?",
+        "", clean(s), flags=re.IGNORECASE)).strip()
+
+
 def main(argv):
+    if "--snapshot" in argv:
+        from nebli.feedback_corpus import snapshot
+        return snapshot(argv[argv.index("--snapshot") + 1])
     A = Anki()
     seen = {}
     if LOG.exists():
         for l in LOG.read_text().splitlines():
-            r = json.loads(l); seen[r["nid"]] = r["comentario"]
+            r = json.loads(l); seen[r["nid"]] = feedback_key(r["comentario"])
     nids = A("findNotes", query="NEBLI_Comentario:_*")
     new = []
     for n in A("notesInfo", notes=nids):
         c = clean(n["fields"]["NEBLI_Comentario"]["value"])
-        if "--todos" in argv or seen.get(n["noteId"]) != c:
+        content = {k: v["value"] for k, v in n["fields"].items()}
+        digest = hashlib.sha256(json.dumps(content, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+        if "--todos" in argv or seen.get(n["noteId"]) != feedback_key(c):
             f = n["fields"]
             new.append({"nid": n["noteId"], "comentario": c,
                         "aula": next((t.split("::")[1] for t in n["tags"] if t.startswith("NEBLI::2026-")), ""),
                         "origem": next((t.split("::")[-1] for t in n["tags"] if t.startswith("NEBLI::origem::")), ""),
                         "card": clean((f.get("Text") or f.get("Header") or f.get("Front") or {}).get("value", ""))[:200],
+                        "campos": content, "conteudo_sha256": digest, "autor_da_edicao": "não inferido",
                         "visto_em": datetime.now(timezone.utc).isoformat()})
     for r in new:
         print(f"{r['nid']} [{r['aula'][:40]}|{r['origem']}] {r['comentario']}\n    card: {r['card'][:160]}")

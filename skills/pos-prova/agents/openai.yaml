@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pós-prova"
+  short_description: "Revisar decks após a prova e propor complementos"
+  default_prompt: "Use $pos-prova para revisar os decks da prova e apresentar os complementos para minha aprovação."

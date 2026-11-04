@@ -131,6 +131,26 @@ def _show_like_state():
                           "s.textContent=" + json.dumps(label) + ";})();")
 
 
+def _show_like_badge():
+    """Mostra o X marcado junto ao controle de bandeira quando ele existe no webview."""
+    reviewer = _reviewer()
+    if not reviewer or not reviewer.card:
+        return
+    liked = _is_liked(reviewer.card.id)
+    reviewer.web.eval("(function(){"
+                      "var n=document.getElementById('nebli-like-badge');"
+                      "if(!n){n=document.createElement('span');n.id='nebli-like-badge';"
+                      "n.style.cssText='position:fixed;z-index:10001;font:600 18px Arial;pointer-events:none';"
+                      "document.body.appendChild(n);}"
+                      "n.textContent=" + json.dumps("♥" if liked else "♡") + ";"
+                      "var f=document.querySelector('#flag, #flagButton, [data-action=flag], .flagButton');"
+                      "if(f){var r=f.getBoundingClientRect();n.style.left=(r.left-n.getBoundingClientRect().width-12)+'px';n.style.top=(r.top+2)+'px';n.style.right='auto';}"
+                      "else{n.style.right='18px';n.style.top='12px';n.style.left='auto';}"
+                      "n.style.color=" + json.dumps("#d43f55" if liked else "#888") + ";"
+                      "n.title='X: marcar ou desfazer gostei';"
+                      "})();")
+
+
 def _toggle_like():
     reviewer = _reviewer()
     if reviewer and reviewer.card:
@@ -143,6 +163,7 @@ def _toggle_like():
         if _popup["open"] and _popup["card"] == card.id:
             _popup["gostei"] = liked
             _show_like_state()
+        _show_like_badge()
         tooltip("Gostei registrado para este card." if liked else "Gostei removido deste card.")
 
 
@@ -190,6 +211,11 @@ class _TabKey(QObject):
 
 _tab = _TabKey()
 QApplication.instance().installEventFilter(_tab)
-gui_hooks.reviewer_did_show_question.append(_close_popup)
-gui_hooks.reviewer_did_show_answer.append(_close_popup)
+def _on_card_shown(*args):
+    _close_popup()
+    QTimer.singleShot(0, _show_like_badge)
+
+
+gui_hooks.reviewer_did_show_question.append(_on_card_shown)
+gui_hooks.reviewer_did_show_answer.append(_on_card_shown)
 _log("carregado")

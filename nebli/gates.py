@@ -801,8 +801,25 @@ def imagens_batem(run, plan):
     from nebli import imagens_cards
     falta, v = imagens_cards.pendentes(run, plan)
     ruins = [k for k, x in v.items() if isinstance(x, dict) and x.get("veredito") in ("trocar", "retirar")]
+    # F-20261031-CODEX-04: Davi rejeitou a captura de quatro parágrafos usada como imagem
+    # no card de meia-vida contexto-sensível. Um veredito antigo de "ok" não a valida.
+    texto_em_vez_de_figura = {"paste-ab1fe31810f535c3b8f8f6228e11440150723366.jpg"}
+    capturas = [key for key, _, srcs in imagens_cards.cartoes_com_imagem(plan)
+                if any(src in texto_em_vez_de_figura for _, src in srcs)]
     return [(f"[duro] imagem de cada card confere com a pergunta/cloze (imagens-batem.json)" +
-             (f": faltam {len(falta)} ({falta[:3]})" if falta else "") + (f"; a trocar {ruins[:3]}" if ruins else ""), not falta and not ruins)]
+             (f": faltam {len(falta)} ({falta[:3]})" if falta else "") + (f"; a trocar {ruins[:3]}" if ruins else "") +
+             (f"; captura de texto no lugar de figura {capturas[:3]}" if capturas else ""), not falta and not ruins and not capturas)]
+
+
+def imagens_legiveis(run, plan):
+    """F-20261103-CODEX-03: imagens novas não podem nascer com largura fixa pequena."""
+    from nebli import imagens_cards
+    ruins = imagens_cards.imagens_legiveis(plan)
+    fontes = imagens_cards.fontes_visiveis_sob_imagem(plan)
+    return [("[duro] imagem autoral sem largura fixa pequena; conferir arquivo e render no celular" +
+             (f": {ruins[:5]}" if ruins else ""), not ruins),
+            ("[duro] sem fonte visível abaixo da imagem" +
+             (f": {fontes[:5]}" if fontes else ""), not fontes)]
 
 
 COMPREENSAO_DESDE = 20261023  # corridas posteriores (ou PIPELINE_VERSAO ≥ 5) exigem compreensão da aula e fidelidade ao slide
@@ -916,8 +933,14 @@ def fidelidade_ao_slide(run, plan):
               and len(str(x.get("nota", "")).strip()) >= 30}
     falta = [b["laminas"] for b in blocos if tuple(b.get("laminas") or []) not in vistos]
     ok = bool(blocos) and not falta and len(str(f.get("conclusao", "")).strip()) >= 150
-    return [("[duro] revisão final de fidelidade ao slide: cada bloco conferido (bate em ordem e conteúdo, exemplo no lugar de exemplo)"
-             + (f"; faltam blocos {falta[:4]}" if falta else "") + ("" if len(str(f.get("conclusao", "")).strip()) >= 150 else "; sem conclusão (≥ 150)"), ok)]
+    out = [("[duro] revisão final de fidelidade ao slide: cada bloco conferido (bate em ordem e conteúdo, exemplo no lugar de exemplo)"
+            + (f"; faltam blocos {falta[:4]}" if falta else "") + ("" if len(str(f.get("conclusao", "")).strip()) >= 150 else "; sem conclusão (≥ 150)"), ok)]
+    if int(plan.get("pipeline_versao") or 1) >= 13:
+        from nebli import auditoria_cobertura
+        erros = auditoria_cobertura.problemas(d, plan)
+        out.append(("[duro] cobertura em dois sentidos: cada relação de aprender recuperável e cada card conferido na aula"
+                    + (f": {erros[:4]}" if erros else ""), not erros))
+    return out
 
 
 def plan_checks(run, plan):
@@ -948,6 +971,7 @@ def plan_checks(run, plan):
         out += linha_e_provas(run, plan)  # F-20261021-CLAUDE-02
         out += exemplares_lidos(run)  # F-20261021-CLAUDE-06
         out += imagens_batem(run, plan)  # F-20261022-CLAUDE-01
+        out += imagens_legiveis(run, plan)  # F-20261103-CODEX-03
         out += profundidade(run, plan)  # F-20261022-CLAUDE-04
         out += autorais_com_motivo(run, plan)  # F-20261022-CLAUDE-04
         if _novo_06(run, plan):
@@ -971,6 +995,11 @@ def plan_checks(run, plan):
             out += organizadores_com_fonte(run, plan)
             erros = verificar_amplitude(run, [e["key"] for e in authored])
             out.append(("[duro] amplitude verificável em todos os acervos" + (": " + "; ".join(erros[:5]) if erros else ""), not erros))
+        if int(plan.get("pipeline_versao") or 1) >= 12:  # F-20261101-CLAUDE-01: tipos, princípio, imagem, repetição e verificador por casos
+            from nebli import verificador_casos
+            out += verificador_casos.verificar(run, plan)
+            from nebli import puxar_suspensos  # F-20261101-CLAUDE-03
+            out += puxar_suspensos.verificar(run, plan)
     else:
         out.append((f"autoria {share:.0%} dos cards; acima de {MAX_AUTORAL:.0%} exige busca externa e espelhos por autoral{suffix}", allowed))
     if "biologia-tecidual" in plan.get("lesson_id", ""):  # F-20261003-CLAUDE-13: aprender, não visualizar em excesso
@@ -1021,7 +1050,7 @@ def plan_checks(run, plan):
         if _novo_06(run, plan):
             out += fidelidade_ao_slide(run, plan)  # F-20261022-CLAUDE-06
         if int(plan.get("pipeline_versao") or 1) >= 7:
-            out += v7_pos(run, plan) + passo_a_passo_pos(run, plan)  # F-20261023-CLAUDE-01/02
+            out += v7_pos(run, plan) + passo_a_passo_pos(run, plan) + instalar_por_ultimo(run, plan)  # F-20261023-CLAUDE-01/02; F-20261104-CLAUDE-02
     return out
 
 
@@ -1222,6 +1251,30 @@ def passo_a_passo_pre(run, plan):
         probs.append(f"{len(soltos)} card(s) fora de qualquer item do mapa (lateral sem motivo): {soltos[:5]}")
     return [("[duro] passo a passo de verdade: etapas em ordem, o que aprender em cada bloco, todo card num item do mapa, exemplo ≤ princípio, "
              "sem ficha técnica" + (f"; {'; '.join(probs[:5])}" if probs else ""), not probs)]
+
+
+
+def instalar_por_ultimo(run, plan):
+    """F-20261104-CLAUDE-02: “a e7 tem que ser pré instalar … instalar é a última coisa”. Com pipeline ≥ 14, o recibo da instalação
+    (receipt.json › at) é posterior ao registro da E7 em etapas.jsonl; sem recibo ou sem E7, reprova."""
+    run = Path(run)
+    if int(plan.get("pipeline_versao") or 1) < 14:
+        return []
+    try:
+        at = json.loads((run / "receipt.json").read_text(encoding="utf-8")).get("at", "")
+    except (OSError, ValueError):
+        at = ""
+    e7 = ""
+    p = run / "etapas.jsonl"
+    for l in (p.read_text(encoding="utf-8").splitlines() if p.exists() else []):
+        try:
+            x = json.loads(l)
+        except ValueError:
+            continue
+        if x.get("etapa") == "E7":
+            e7 = x.get("em", "")
+    ok = bool(at and e7 and e7 < at)
+    return [("[duro] v14: E7 registrada antes de instalar; instalar é a última mudança (F-20261104-CLAUDE-02)", ok)]
 
 
 def passo_a_passo_pos(run, plan):
@@ -1475,7 +1528,7 @@ def ultimo_feedback():
     """O F-id mais recente das FEEDBACKS (maior data; empate, maior número)."""
     p = Path(__file__).resolve().parent.parent / "flashcards" / "projeto" / "FEEDBACKS.md"
     ids = set(re.findall(r"F-(\d{8})-([A-Z]+)-(\d{2})", p.read_text(encoding="utf-8"))) if p.exists() else set()
-    return max((f"F-{a}-{b}-{c}" for a, b, c in ids), key=lambda s: (s[2:10], int(s[-2:])), default="")
+    return max((f"F-{a}-{b}-{c}" for a, b, c in ids), key=lambda s: (s[2:10], int(s[-2:]), s), default="")  # empate de data e número: desempate pela string (determinístico)
 
 
 def exemplo_da_aula(run, plan):
@@ -1635,7 +1688,9 @@ def cobertura_anking(run, plan):
         # v7 (F-20261023-CLAUDE-02): aula de princípio geral pode não ter seção de recurso do seu assunto; então SECOES_DA_AULA fica
         # vazia com SECOES_MOTIVO (≥ 60 caracteres) e entra só o AnKing que responde a um item 'aprender' (gate passo_a_passo).
         sem_secao = versao >= 7 and not secs and len(str(plan.get("secoes_motivo", "")).strip()) >= 60
-        out.append((f"[duro] todo AnKing das seções da aula ({len(secs)}) está no deck ou em EXCLUIDOS com motivo"
+        # v12 (F-20261101-CLAUDE-01, "entra se ensina"): toda nota das seções é decidida; a que não ensina o princípio da aula
+        # vai para EXCLUIDOS com motivo, sem ser obrigada a entrar.
+        out.append((f"[duro] todo AnKing das seções da aula ({len(secs)}) decidido: no deck se ensina o princípio da aula, senão em EXCLUIDOS com motivo"
                     + (" — aula de princípio geral sem seção própria (SECOES_MOTIVO)" if sem_secao else "")
                     + (f": faltam {sorted(set(faltam))[:6]}" if faltam else ""), (bool(secs) or sem_secao) and not faltam))
     return out

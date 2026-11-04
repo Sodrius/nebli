@@ -58,6 +58,9 @@ def _cards(plan, tipos):
                     "imagens": sorted({s for v in f.values() for s in _IMG.findall(v or "")}),
                     "tipo": t.get("tipo", ""), "principio": t.get("principio", ""), "visual": t.get("visual", ""),
                     "papel": t.get("papel", "")})
+        if int(plan.get("pipeline_versao") or 1) >= 15:
+            out[-1]["frente_html"] = f.get("Text") or f.get("Front") or ""
+            out[-1]["organizador"] = "data-nebli-organizacao" in out[-1]["frente_html"]
     return out
 
 
@@ -79,6 +82,7 @@ def preparar(run, plan=None):
     banco = _banco(_uc(plan, run))
     pacote = {"rubrica": RUBRICA.read_text(encoding="utf-8"), "aula": plan.get("lesson_id", run.name),
               "cards_sha": sha(cards), "banco_sha": sha(banco), "cards": cards, "banco": banco}
+    pacote["pipeline_versao"] = plan.get("pipeline_versao", 1)
     (run / ENTRADA).write_text(json.dumps(pacote, ensure_ascii=False, indent=1), encoding="utf-8")
     return run / ENTRADA
 
@@ -103,6 +107,9 @@ def forma_das_lacunas(e, autoral=None):
         por_indice.setdefault(n, []).append(resp)
         if len(resp.split()) > 3:
             probs.append(f"lacuna com mais de 3 palavras ({resp[:40]})")
+        partes = corpo.split("::")
+        if org and len(partes) > 1 and re.fullmatch(r"[A-Z][A-Z0-9-]{1,4}", resp) and re.fullmatch(r"[A-Z]…", partes[1].strip()):
+            probs.append(f"pista revela inicial de sigla curta ({resp})")
     for n, rs in por_indice.items():
         # organizadores aprovados por Davi têm 4–5 itens no mesmo índice (1792713409954, 1792787420154, 1792588686955), sempre
         # com dica da 1ª letra; o tamanho certo do grupo fica com o verificador (esporotricose 1792175889534: "EXCESSO DE CLOZES")
@@ -131,6 +138,49 @@ def forma_das_lacunas(e, autoral=None):
         probs.append("rótulo tipo 'Aplicação:' no verso")
     if any(s.lower().endswith(".svg") for s in _IMG.findall(texto + extra)):
         probs.append("esquema desenhado (.svg) no lugar de figura real")
+    return probs
+
+
+def alvos_essenciais(plan, parecer):
+    """v15: exige revisão explícita de cada lacuna, vinculada ao texto atual."""
+    if int(plan.get("pipeline_versao") or 1) < 15:
+        return []
+    probs = []
+    for e in plan.get("entries", []):
+        key = e["key"]
+        text = (e.get("fields") or {}).get("Text", "") or ""
+        clozes = [m.group(0) for m in _CLOZE.finditer(text)]
+        if not clozes:
+            continue
+        review = ((parecer or {}).get("cards") or {}).get(key) or {}
+        targets = review.get("alvos_essenciais")
+        if not isinstance(targets, list) or len(targets) != len(clozes):
+            probs.append(f"{key}: revisar cada ocorrência de lacuna")
+            continue
+        for index, (cloze, target) in enumerate(zip(clozes, targets), 1):
+            if not isinstance(target, dict):
+                probs.append(f"{key}: alvo {index} inválido")
+                continue
+            answer = _txt(_CLOZE.search(cloze).group(1).split("::")[0], False)
+            if (target.get("cloze") != cloze
+                    or _txt(str(target.get("resposta_esperada", "")), False).casefold() != answer.casefold()
+                    or target.get("essencial") is not True
+                    or target.get("inducao_sem_vazamento") is not True
+                    or len(str(target.get("porque_dura", "")).strip()) < 30):
+                probs.append(f"{key}: alvo {index} secundário, vazado ou sem justificativa atual")
+        if "data-nebli-organizacao" in text:
+            audit = review.get("avulsos_cobertos") or {}
+            if (not isinstance(audit, dict)
+                    or len(str(audit.get("busca", "")).strip()) < 15
+                    or not isinstance(audit.get("decisoes"), list)
+                    or (not audit["decisoes"] and len(str(audit.get("nenhum_porquê", "")).strip()) < 30)):
+                probs.append(f"{key}: falta busca de avulsos cobertos")
+            else:
+                for decision in audit["decisoes"]:
+                    if (not isinstance(decision, dict) or not decision.get("nid")
+                            or decision.get("acao") not in ("suspender", "manter")
+                            or len(str(decision.get("motivo", "")).strip()) < 30):
+                        probs.append(f"{key}: decisão de avulso incompleta")
     return probs
 
 
@@ -185,6 +235,10 @@ def verificar(run, plan):
         out.append(("[duro] v12: parecer do verificador por casos que deram certo (verificador-casos-parecer.json)", False))
         return out
     atual = par.get("cards_sha") == sha(cards) and par.get("banco_sha") == sha(banco)
+    alvos = alvos_essenciais(plan, par)
+    if int(plan.get("pipeline_versao") or 1) >= 15:
+        out.append(("[duro] v15: alvo essencial de cada lacuna e busca de avulsos cobertos" +
+                    (f": {'; '.join(alvos[:5])}" if alvos else ""), not alvos))
     out.append(("[duro] v12: parecer do verificador é do deck atual (hashes de cards e banco)", atual))
     res = par.get("cards") or {}
     probs, textos = [], {}
