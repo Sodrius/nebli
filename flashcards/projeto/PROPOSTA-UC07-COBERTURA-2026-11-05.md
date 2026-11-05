@@ -1,6 +1,6 @@
 # UC07 — proposta de cobertura e organização, 05/11/2026
 
-**Proposta para discutir com Davi e passar ao Claude.** A UC07 continua organizada pelo cronograma, com material de veteranos, bibliografia e aulas/transcrições como base. Davi confirmou em 05/11 que **ainda não tem provas antigas**; portanto, esta versão não atribui recorrência em prova. As provas entram depois no mesmo mapa. Nenhum card, bandeira, suspensão ou deck foi alterado.
+**Levantamento inicial preservado como evidência. A organização e a execução vigentes estão no [plano UC07 por aula](PLANO-UC07-POR-AULA-2026-11-05.md): Anatomia/Fisiologia, um subdeck por aula, sem práticas/discussão integrada, frentePT e ExtraEN. Após autorização, Codex entrega apenas o primeiro deck completo. Os números06/07/08/10 abaixo identificam a árvore antiga e não são o plano final.** A UC07 continua organizada pelo cronograma, com material de veteranos, bibliografia e aulas/transcrições como base. Davi confirmou em 05/11 que **ainda não tem provas antigas**; portanto, esta versão não atribui recorrência em prova. As provas entram depois no mesmo mapa. Nenhum card, bandeira, suspensão ou deck foi alterado.
 
 ## O que o levantamento mostrou
 

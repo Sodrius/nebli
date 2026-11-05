@@ -1131,3 +1131,40 @@ Aplicação: MEMORY §2 atualizado no lugar; plano UC07/Farmacologia de 04/11 re
 Davi: “coloca essa de hipersensibilidade como exemplar, gostei mt do deck”.
 
 Aplicação: GUIA-4-AULA §2 ganha o deck como exemplar de deck inteiro (corrida `deck-aula-uc03-im64-hipersensibilidade-v3-2026-11-04`: 78 notas/91 cards novos, pipeline v13, AnKing HY 1–3 de todas as seções, 12 autorais por lacuna provada, cada um moldado num exemplar e numa motivação). Os autorais continuam entrando no GUIA-2 pelo X/gostei no Anki.
+
+## F-20261105-CODEX-01 — UC07 por aula, Anatomia/Fisiologia e integradores
+
+Falas literais de Davi:
+
+> planeja, de acordo com o cronograma da uc07, como serão os decks
+> seguinte, quero decks de acordo com as aulas da matéria
+> um deck por aula
+> decks de qualidade, com kenhub e anking, cobrindo tudo que foi passado e um pouco (pouco) a mais
+> quero que tenha tanto card de análise quanto card de clínica do anking quanto card integrador e de pergunta mais teórica
+> todas as perguntas devem estar batendo com as imagens dos comentários
+> quero qualidade máxima
+> tem bibliografia + aulas + resumos dos veteranos para se embasar
+> planeja só por enquanto
+
+Ajuste literal:
+
+> tira as práticas, coloca um deck para anato e outro para fisiologia e tira o discussão integrada
+
+Idioma literal:
+
+> as frentes em português, comentário em ingl~ês
+> gerado com qualidade
+
+Pedido literal:
+
+> planeja os integradores, como eles vão estar e para que servem com base no que já fazemos
+
+Aplicação documental: MEMORY §§2,6,15 reescritos e plano UC07 por aula de05/11. Anatomia/Fisiologia como agrupadores e subdeck por aula, sem decks próprios de práticas/discussão integrada; todos os assuntos da mesma aula ficam no mesmo subdeck. Frente/resposta em português e comentário explicativo (Extra) em inglês; comentários pessoais preservados. Integradores partem dos exemplares aprovados por função de recuperação, com fonte, papel, ganho, posição, imagem correspondente e decisão sobre avulsos redundantes. Esta etapa é somente planejamento: nenhuma geração/reescrita/movimentação no Anki e nenhum novo gate executável implementado. Os controles já existentes de cobertura e imagem continuam exigidos na produção; o plano especifica verificações adicionais sem declará-las implementadas.
+
+## F-20261105-CODEX-02 — plano fixado, autorização futura e primeiro deck completo
+
+Davi, literal:
+
+> agora deixa o plano estabelecido na memória, me diz por onde vai começar e termina, deopis que eu autorizar, só quando vc realmenteterminar o primeiro deck
+
+Aplicação: MEMORY §2 e plano UC07 por aula atualizados. Ainda não é autorização de geração. Quando Davi autorizar, Codex executa o primeiro deck do cronograma (Anatomia01, Construção morfofuncional do sistema nervoso, 13/10, Gerson) até entrega completa pelo pipeline, sem parar em rascunho/instalação parcial e sem iniciar automaticamente o segundo. Essa instrução específica substitui a fila contínua nesta retomada e a passagem anterior da geração ao Claude. Os gates de produção já vigentes permanecem exigidos; nenhum novo gate executável foi implementado no planejamento.

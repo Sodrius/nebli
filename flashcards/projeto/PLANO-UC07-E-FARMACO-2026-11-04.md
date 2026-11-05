@@ -1,6 +1,6 @@
 # Planejamento UC07 e Farmacologia — 04/11/2026
 
-Executor dos decks: Claude. Planejamento com Davi; este documento registra diretrizes já pedidas e decisões ainda abertas. Não é ordem para gerar ou reformular decks agora. Ler também MEMORY e o pipeline vigente.
+UC07: [plano vigente por aula](PLANO-UC07-POR-AULA-2026-11-05.md), estabelecido em05/11; Anatomia/Fisiologia, sem práticas/discussão integrada, frentePT e ExtraEN. Aguardar autorização: Codex entregará apenas o primeiro deck completo. Este documento preserva inventário e contexto; Farmacologia continua na frente anterior do Claude. Ler MEMORY e o pipeline vigente. Não gerar nesta etapa.
 
 **Proposta concreta de 05/11:** [cobertura e organização UC07](PROPOSTA-UC07-COBERTURA-2026-11-05.md), com 40 relações dos decks 06/07/08/10, IDs e 14 candidatos destacados. Davi confirmou que ainda não tem provas antigas; não atribuir recorrência em prova. As cinco transcrições novas estão concluídas.
 
