@@ -1,0 +1,10 @@
+backup-uc07/
+fontes/*.pdf
+visual/
+img/
+media/
+*.anki2*
+
+render-previo/
+render-vivo/
+candidatos-autorais-lidos.json

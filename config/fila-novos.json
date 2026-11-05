@@ -1,5 +1,5 @@
 {
- "_doc": "faixa de 'due' por aula: due = base + ordem*10 + ord (fila de novos na ordem dos slides). Nova aula recebe o pr\u00f3ximo bloco de 20000.",
+ "_doc": "faixa de 'due' por aula: due = base + ordem*10 + ord (fila de novos na ordem dos slides). Nova aula recebe o próximo bloco de 20000.",
  "faixas": {
   "an01": 0,
   "an02": 100000,
@@ -147,6 +147,7 @@
   "dp2": 3870000,
   "dp3": 3890000,
   "hs64": 3910000,
-  "ct56": 3930000
+  "ct56": 3930000,
+  "u7an01v2": 3970000
  }
 }

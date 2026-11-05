@@ -44,7 +44,8 @@ def fala_pendente(comentario):
 
 def pendencias(A):
     itens = {}
-    nids = A("findNotes", query='"deck:NEBLI*" NEBLI_Comentario:_*')
+    # O campo identifica o fluxo NEBLI mesmo quando a nota foi movida para reserva.
+    nids = A("findNotes", query='NEBLI_Comentario:_*')
     for i in range(0, len(nids), 500):
         for n in A("notesInfo", notes=nids[i:i + 500]):
             f = fala_pendente(n["fields"].get("NEBLI_Comentario", {}).get("value", ""))

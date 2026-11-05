@@ -1,0 +1,118 @@
+{
+ "capturas": [
+  {
+   "arquivo": "/Users/davisousa/NEBLI/arquivos-trabalho/comentarios-2026-11-05/interface-flag0-gostei-false.png",
+   "salvo": true,
+   "estado": "review",
+   "card": 1793630055890,
+   "simulacao_visual_sem_feedback": false,
+   "badge": {
+    "bandeira": {
+     "height": 0,
+     "width": 0,
+     "x": 0,
+     "y": 0
+    },
+    "bandeira_visivel": false,
+    "coracao": {
+     "height": 27.142858505249023,
+     "width": 18.002233505249023,
+     "x": 2064.0068359375,
+     "y": 11.99776840209961
+    },
+    "coracao_visivel": true,
+    "encontrado": true,
+    "gap": null,
+    "texto": "♡"
+   }
+  },
+  {
+   "arquivo": "/Users/davisousa/NEBLI/arquivos-trabalho/comentarios-2026-11-05/interface-flag0-gostei-true.png",
+   "salvo": true,
+   "estado": "review",
+   "card": 1793630055890,
+   "simulacao_visual_sem_feedback": true,
+   "badge": {
+    "bandeira": {
+     "height": 0,
+     "width": 0,
+     "x": 0,
+     "y": 0
+    },
+    "bandeira_visivel": false,
+    "coracao": {
+     "height": 20.71428680419922,
+     "width": 10.691964149475098,
+     "x": 2071.31689453125,
+     "y": 11.99776840209961
+    },
+    "coracao_visivel": true,
+    "encontrado": true,
+    "gap": null,
+    "texto": "♥"
+   }
+  },
+  {
+   "arquivo": "/Users/davisousa/NEBLI/arquivos-trabalho/comentarios-2026-11-05/interface-flag4-gostei-false.png",
+   "salvo": true,
+   "estado": "review",
+   "card": 1793630055890,
+   "simulacao_visual_sem_feedback": false,
+   "badge": {
+    "bandeira": {
+     "height": 35,
+     "width": 18.069196701049805,
+     "x": 2071.930908203125,
+     "y": 0
+    },
+    "bandeira_visivel": true,
+    "coracao": {
+     "height": 27.142858505249023,
+     "width": 18.002233505249023,
+     "x": 2041.919677734375,
+     "y": 1.9977679252624512
+    },
+    "coracao_visivel": true,
+    "encontrado": true,
+    "gap": 12.008996963500977,
+    "texto": "♡"
+   }
+  },
+  {
+   "arquivo": "/Users/davisousa/NEBLI/arquivos-trabalho/comentarios-2026-11-05/interface-flag4-gostei-true.png",
+   "salvo": true,
+   "estado": "review",
+   "card": 1793630055890,
+   "simulacao_visual_sem_feedback": true,
+   "badge": {
+    "bandeira": {
+     "height": 35,
+     "width": 18.069196701049805,
+     "x": 2071.930908203125,
+     "y": 0
+    },
+    "bandeira_visivel": true,
+    "coracao": {
+     "height": 20.71428680419922,
+     "width": 10.691964149475098,
+     "x": 2049.22998046875,
+     "y": 1.9977679252624512
+    },
+    "coracao_visivel": true,
+    "encontrado": true,
+    "gap": 12.008963584899902,
+    "texto": "♥"
+   }
+  }
+ ],
+ "pedidos_fechados": [
+  1791630905957,
+  1792787231967
+ ],
+ "tabs_preservados_apos_leitura": [
+  1791630905958,
+  1791630905957,
+  1792787231967
+ ],
+ "sem_respostas_ou_gosteis_novos": true
+}

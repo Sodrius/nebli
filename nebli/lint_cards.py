@@ -51,12 +51,17 @@ def portuguese(text):
     return len(text.split()) > 4 and len(PT.findall(text)) > len(EN.findall(text))
 
 
-def check(key, text_html, extra_html="", version=8):
+def check(key, text_html, extra_html="", version=8, front_language="en"):
     """Lista de (gravidade, problema). 'dura' reprova; 'aviso' pede olhar."""
     text = plain(CLOZE.sub(lambda m: m.group(2), text_html))
     problems = []
     organizacao = 'data-nebli-organizacao="true"' in text_html
     pista_cid = organizacao and 'data-nebli-pista="CID"' in text_html
+    if version >= 9 and organizacao:
+        from nebli.qualidade_comentarios import negrito_contexto
+        sem_contexto = negrito_contexto(text_html)
+        if sem_contexto:
+            problems.append(("dura", f"organizador sem negrito visível no critério das linhas {sem_contexto}; título sozinho não basta"))
     if ";" in text:
         problems.append(("dura", "';' junta duas afirmações: dividir em cards ou reescrever numa frase só"))
     if re.search(r"(?<!\d):(?!\d)", text) and not organizacao:
@@ -71,8 +76,12 @@ def check(key, text_html, extra_html="", version=8):
     clozes = {m.group(1) for m in CLOZE.finditer(text_html)}
     if len(clozes) > MAX_CLOZES:
         problems.append(("aviso", f"{len(clozes)} clozes: vira lista; preferir um nome por card"))
-    if portuguese(text) and not pista_cid:
+    if front_language not in ("en", "pt"):
+        problems.append(("dura", "idioma de frente inválido: declarar en ou pt"))
+    if front_language == "en" and portuguese(text) and not pista_cid:
         problems.append(("dura", "frente em português (novos cards em inglês)"))
+    if front_language == "pt" and len(EN.findall(text)) > len(PT.findall(text)) and len(EN.findall(text)) >= 2:
+        problems.append(("dura", "frente em inglês no plano de frentes em português (F-20261105-CODEX-01)"))
     if text and not re.search(r"<(?:b|strong)\b", text_html or "") and not re.search(r"\{\{c\d+::\s*<(?:b|strong)\b", text_html or ""):
         problems.append(("dura", "sem negrito: AnKing negrita 1–3 termos de contexto (95% das notas, mediana 2; F-20261011-CLAUDE-01)"))
     if re.search(r"\b(?:the (?:lesson|lecture)|slide \d+)\b", text, re.I):
@@ -237,10 +246,11 @@ def main():
         parser.error("informe plan.json ou --anki '<busca>'")
     cards = from_plan(args.plano) if args.plano else from_anki(args.anki)
     version = int(json.loads(Path(args.plano).read_text()).get("pipeline_versao", 8)) if args.plano else 8
+    front_language = json.loads(Path(args.plano).read_text()).get("idioma_frente", "en") if args.plano else "en"
     total = hard = 0
     for key, text, extra, extra_problems in cards:
         total += 1
-        problems = (check(key, text, extra, version=version) if text else []) + extra_problems
+        problems = (check(key, text, extra, version=version, front_language=front_language) if text else []) + extra_problems
         if problems:
             hard += any(level == "dura" for level, _ in problems)
             print(f"{key}: " + " | ".join(f"[{level}] {msg}" for level, msg in problems))

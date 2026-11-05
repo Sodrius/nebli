@@ -53,7 +53,7 @@ def _cards(plan, tipos):
     for e in plan.get("entries", []):
         f = e.get("fields") or {}
         t = tipos.get(e["key"], {})
-        out.append({"chave": e["key"], "origem": e.get("origin", ""), "frente": _txt(f.get("Text") or f.get("Front") or ""),
+        out.append({"chave": e["key"], "origem": e.get("origin", ""), "frente": _txt(f.get("Text") or f.get("Front") or f.get("Nome PT") or ""),
                     "verso": _txt(f.get("Extra") or f.get("Back Extra") or f.get("Back") or ""),
                     "imagens": sorted({s for v in f.values() for s in _IMG.findall(v or "")}),
                     "tipo": t.get("tipo", ""), "principio": t.get("principio", ""), "visual": t.get("visual", ""),
@@ -94,6 +94,7 @@ _FORMAT_NO_CLOZE = re.compile(r"\{\{c\d+::\s*<(b|u|i)>", re.I)
 def forma_das_lacunas(e, autoral=None):
     """Rodada 01/11 (F-20261101-CLAUDE-04): os erros de escrita que mais voltaram, conferidos em todo card (AnKing também).
     Devolve a lista de problemas do card."""
+    from nebli.qualidade_comentarios import preferencia_sem_iniciais, sigla_curta
     f = e.get("fields") or {}
     texto = f.get("Text") or ""
     extra = f.get("Extra") or f.get("Back Extra") or ""
@@ -108,13 +109,14 @@ def forma_das_lacunas(e, autoral=None):
         if len(resp.split()) > 3:
             probs.append(f"lacuna com mais de 3 palavras ({resp[:40]})")
         partes = corpo.split("::")
-        if org and len(partes) > 1 and re.fullmatch(r"[A-Z][A-Z0-9-]{1,4}", resp) and re.fullmatch(r"[A-Z]…", partes[1].strip()):
+        if org and len(partes) > 1 and sigla_curta(resp) and re.fullmatch(r"[A-Z]…", partes[1].strip(), re.I):
             probs.append(f"pista revela inicial de sigla curta ({resp})")
     for n, rs in por_indice.items():
         # organizadores aprovados por Davi têm 4–5 itens no mesmo índice (1792713409954, 1792787420154, 1792588686955), sempre
         # com dica da 1ª letra; o tamanho certo do grupo fica com o verificador (esporotricose 1792175889534: "EXCESSO DE CLOZES")
         dicas = re.findall(r"\{\{c" + n + r"::(?:(?!\}\}).)*?::[^}]*…\}\}", texto)
-        if len(rs) > 3 and len(dicas) < len(rs):
+        precisam_dica = [r for r in rs if not sigla_curta(r)]
+        if len(precisam_dica) > 3 and len(dicas) < len(precisam_dica) and not preferencia_sem_iniciais(e):
             probs.append(f"{len(rs)} lacunas no índice c{n} sem a dica da 1ª letra em cada uma")
         if len(rs) > 2 and not org and autoral:  # par no mesmo índice é contraste aprovado (GUIA-2 B; colédoco 1792713404156)
             probs.append(f"{len(rs)} respostas no índice c{n} fora de organizador")
@@ -215,7 +217,10 @@ def verificar(run, plan):
     for e in entries:
         r = _respostas(e)
         if r and "data-nebli-organizacao" not in ((e.get("fields") or {}).get("Text") or ""):
-            if r in vistos:
+            # Mesma entidade em relações distintas não basta para concluir redundância
+            # (MEMORY §5: ganho específico). A justificativa explícita não substitui
+            # a comparação independente obrigatória com o caso aprovado.
+            if r in vistos and len(str(e.get("duplicacao_ok", "")).strip()) < 60:
                 rep.append(f"{vistos[r]}={e['key']}")
             vistos.setdefault(r, e["key"])
     out.append(("[duro] v12: sem dois cards com a mesma resposta (repetição)" + (f": {rep[:4]}" if rep else ""), not rep))

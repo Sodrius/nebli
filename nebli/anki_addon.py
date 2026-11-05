@@ -402,13 +402,70 @@ def deck_menu(menu, deck_id, mw, log):
     menu.addAction("NEBLI: recalcular memória FSRS deste deck").triggered.connect(memory)
 
 
+def capture_interface(mw, data, log):
+    """Captura a própria janela Qt sem alterar notas, agenda ou feedback pessoal."""
+    from aqt.qt import QTimer
+    import sys
+    out = Path(data['arquivo']).resolve()
+    if not out.is_relative_to((REPO / 'arquivos-trabalho').resolve()):
+        raise ValueError('captura deve ficar em arquivos-trabalho')
+    out.parent.mkdir(parents=True, exist_ok=True)
+    reviewer = getattr(mw, 'reviewer', None)
+    card = getattr(reviewer, 'card', None) if mw.state == 'review' else None
+    if 'simular_gostei' in data:
+        if not card or rotulos.canonical(mw.col.decks.get(card.odid or card.did)['name']) != 'NEBLI Teste gestos':
+            raise ValueError('simulação visual só no deck técnico, sem registrar X')
+        addon = next(m for m in list(sys.modules.values())
+                     if str(getattr(m, '__file__', '')).endswith('nebli_explicacoes/__init__.py'))
+        # No teste técnico, executar a função confiável que será carregada no próximo
+        # reinício. Trocar o code object conserva as referências já registradas em hooks.
+        if data.get('recarregar_funcao_badge'):
+            import ast
+            source = REPO / 'anki-addon/nebli_explicacoes/__init__.py'
+            tree = ast.parse(source.read_text())
+            fn = next(n for n in tree.body if isinstance(n, ast.FunctionDef) and n.name == '_show_like_badge')
+            namespace = dict(addon.__dict__)
+            exec(compile(ast.Module(body=[fn], type_ignores=[]), str(source), 'exec'), namespace)
+            addon._show_like_badge.__code__ = namespace['_show_like_badge'].__code__
+        original = addon._is_liked
+        try:
+            addon._is_liked = lambda cid: bool(data['simular_gostei'])
+            addon._show_like_badge()
+        finally:
+            addon._is_liked = original
+
+    def save():
+        ok = mw.grab().save(str(out))
+        report = {'arquivo': str(out), 'salvo': bool(ok), 'estado': mw.state,
+                  'card': card.id if card else None, 'simulacao_visual_sem_feedback': data.get('simular_gostei')}
+        def finish(metrics=None):
+            report['badge'] = metrics
+            out.with_suffix('.json').write_text(json.dumps(report, ensure_ascii=False))
+            log(f'captura da interface: {out.name}, salvo={ok}')
+        if card:
+            reviewer.web.evalWithCallback("""(()=>{const n=document.querySelector('#nebli-like-badge');
+                const f=document.querySelector('#_flag, #flag, #flagButton, [data-action=flag], .flagButton');
+                if(!n||!f)return {encontrado:false};const a=n.getBoundingClientRect(),b=f.getBoundingClientRect();
+                return {encontrado:true,texto:n.textContent,bandeira_visivel:b.width>0&&b.height>0,coracao_visivel:a.x>=0&&a.y>=0&&a.right<=innerWidth+1,gap:b.width>0?b.left-a.right:null,
+                        coracao:{x:a.x,y:a.y,width:a.width,height:a.height},
+                        bandeira:{x:b.x,y:b.y,width:b.width,height:b.height}};})()""", finish)
+        else:
+            finish()
+    QTimer.singleShot(600, save)
+
+
 def action_request(mw, log):
     """Gatilho por arquivo para operações locais que precisam da coleção aberta."""
     request = REPO / "arquivos-trabalho" / "anki-acao-pedido.json"
-    if not request.exists() or mw.state == "review":
+    if not request.exists():
         return
     data = json.loads(request.read_text(encoding="utf-8"))
+    if mw.state == "review" and data.get('acao') != 'capturar_interface':
+        return
     request.unlink()
+    if data.get('acao') == 'capturar_interface':
+        capture_interface(mw, data, log)
+        return
     col = mw.col
     did = next((d.id for d in col.decks.all_names_and_ids() if rotulos.canonical(d.name) == data.get("deck")), None)
     result = {"pedido": data, "encontrado": did is not None}

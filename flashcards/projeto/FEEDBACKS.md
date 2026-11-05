@@ -1187,3 +1187,61 @@ Davi, literal:
 > deixa o parecer dos revisores, após a terceira vez, como sugestão / porque tá refazendo e predendo mt coisa, só gastando token a toa
 
 Aplicação: a 65 Reparo tecidual v3 foi encolhendo a cada rodada do revisor cego e do verificador (de 54 para 29 notas) e saiu rasa. Depois da 3ª rodada o parecer do revisor de autorais, do verificador por casos e da formatação final deixa de bloquear: o executor registra `pareceres-como-sugestao.json` (rodadas ≥ 3 e pendências) e o gate (`sugestao_apos_tres_rodadas`) mostra a reprovação sem bloquear. Cortar card para passar no revisor não é mais motivo; o deck cobre a aula.
+
+## F-20261105-CODEX-04 — rodada diária,retomadaUC07 e aprendizado por stats
+
+Davi,literal:
+
+> gostei
+> deixa salvo na memória para eu continnuar com os próximos já adequadamente e com tudo que pedi só falando
+> continua a uc07 de onde paramos
+> fiz os cards de hoje, segue o pipeline: analisa os que gostei, os que não gostei. arruma o que deixei a melhorar, entende bem o porquê e grava nos arquivos de exemplares correspondentes, realmente ajustando tudo que há para ficar melhor os próximso decks gerados, em especial o negrito e os integradores/organizadores, que ainda saem zuados
+> aprende realmente com esses comentários, todo dia vou seguir esse pipelien de pedir para vc anotar o que deixei, mais o que deixei de comando, mais ver o que gostei e entender o padrão para cada dia ficarem melhores
+> aprende também sempre com o tipo de card que lembro mais fácil, fazendo essa análise pelas stats (deixa tudo isso pronta na skill correção de comentários, como já conversamos)
+> manda o que fará a skill aqui para eu ter certeza, depois roda ela e deixa ela pronta pra sempre que eu pedir
+
+Ordem posterior,literal:
+
+> termina o que estava fazendo e executa o comando anterior
+> TERMINA O DECK E CONTINUA O QUE TINHA PEDIDO
+
+Aplicação: Anatomia01 entregue antes da rodada. Skill dedicada,fluxo de sete passos,análise positiva/negativa/estatística com limites,atualização efetiva de regras,exemplares e gates. Retomada curta salva no MEMORY e ESTADO-ATUAL. Não inferir aprovação de um card específico a partir desta fala geral; usar X e comentários vivos.
+
+
+## F-20261105-CODEX-05 — pistas,negrito,figuras eescopoStep2
+
+Falas literais coletadas no Anki nesta rodada:
+
+1791628675571:
+
+> esses cards de micoses podem receber, em vários, uma tabela que diz quais são cutâneas, quais subcutâneas, quais susperficiais, oportunistas e sistêmicas tabela organizada tipo a das citocinas para o dekc de ativação das céls. t e b
+
+1792713410206:
+
+> negrito (gate-hard)
+
+1793784421465:
+
+> mt grande, pensar como deixar bem melhor
+
+1793784423639:
+
+> tirar iniciais nesse caso
+
+1793803589750:
+
+> card step 2 não precisa entrar ainda na realidade: gate-hard, não entra step 2 only
+
+Aplicação: negrito visível por critério,alvo essencial,exceção local que preserva retirada de dicas,sigla curta sem inicial,novas seleções sem fonteOnly_Step_2,tabelas medidas no CSS real e fontes científicas rechecadas quando o acervo generaliza. Correções de conteúdo não viram aprovação de Davi. Rodada em `arquivos-trabalho/comentarios-2026-11-05/`.
+
+
+## F-20261105-CODEX-06 — reabrir cobertura da UC07 e Kenhub primeiro
+
+Davi,literal:
+
+> sinto que o deck da uc07 não cobriu a aula realmente + as coisas da bibliografia e outras fontes
+> também não ficou kenhub fisrt
+> faltaram algumas estruturas, ainda que elas possam entrar depois
+> depois que terminar o que tinha pedido antes, averigua isso e deixa tudo pornt para quando eu voltar só reiniciar o anki e estar top
+
+Aplicação autorizada: fechar primeiro a rodada diária; depois reabrir a auditoria material da Anatomia01 contra a aula inteira, bibliografia, veteranos e fontes pertinentes, verificando Kenhub primeiro e estruturas omitidas sem adiamento automático. Gates mecânicos aprovados não encerram a crítica de cobertura. Preservar estudo e aplicar os complementos/correções; não aguardar nova aprovação nem iniciar a aula seguinte antes de resolver esta.

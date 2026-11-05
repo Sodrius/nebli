@@ -2755,7 +2755,6 @@ Esses comentários foram escritos depois do retrato inicial e tratados em uma se
 - Mais 14 notas receberam revisão de comentário curto, imagem ou formatação. A proposta, o motivo e a fonte de cada caso estão em `arquivos-trabalho/comentarios-2026-10-26/feedback-27-propostas.json`; o parecer independente em `formato-27-parecer-final.json` conferiu 28 renders em 390/1280 px, sem conteúdo cortado ou imagem quebrada. Figuras de DNA e anastomoses foram recortadas dos slides, e o gráfico de cinética veio de imagens originais do AnKing.
 - Recibo vivo: 14 notas alteradas, 18 explicações Tab com hash atualizado, 7 irmãos antigos suspensos, nenhuma nota aberta no estudo e nenhuma sincronização iniciada. `feedback-27-audit.json` encontrou zero divergência de campo, mídia ou Tab.
 - Todos os comentários dessa rodada aparecem como casos analisados em `GUIA_CARDS.md`; o elogio “bom card organizador” da nota 1792065182152 também entrou na seção de exemplares elogiados. O guia terminou com 79 exemplares marcados por X, 401 casos de feedback e zero análise ausente.
-
 ## O que as edições e os comentários de Davi ensinam (25/10)
 
 Esta análise descreve dimensões concretas; não transforma toda versão atual em modelo perfeito. Logs antigos guardavam somente 200 caracteres sem HTML, portanto não permitem reconstituir exatamente todas as mudanças de negrito. O novo coletor preserva campos completos e hash, mas não atribui automaticamente a autoria de uma edição.
@@ -2794,15 +2793,15 @@ Gerado por `python3 -m nebli.exemplares` (F-20261023-CLAUDE-02/03). **Ler inteir
 
 Cada anti-exemplar abaixo pertence a uma família de erro; a lista diz o que fazer e quantas vezes Davi apontou o erro. Os exemplares mostram o certo: modelo de função + consequência (azol, HDAC), contraste no mesmo índice com dica (inata/adaptativa, ecto/endotrix), organizador em pé com índices deliberados (tolerância periférica, falhas do sistema imune), verso com o porquê (CTLA-4, GLUT-2) e figura que ensina o que o card cobra.
 
-- **imagem** (120 casos): Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
+- **imagem** (118 casos): Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 - **estranho** (59 casos): Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 - **elogio** (42 casos): Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo).
-- **negrito** (37 casos): Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7).
+- **negrito** (40 casos): Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7).
+- **outro** (37 casos): Comentário pontual de Davi; ler o literal e aplicar a correção específica.
 - **porque** (36 casos): Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
-- **outro** (34 casos): Comentário pontual de Davi; ler o literal e aplicar a correção específica.
-- **organizador** (28 casos): Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova).
-- **cloze_local** (23 casos): Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso.
-- **cloze_longo** (19 casos): Cloze com palavras demais: difícil de lembrar e de conferir. No máximo 3 palavras no cloze; o resto fica visível ou vai para o verso.
+- **organizador** (31 casos): Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova).
+- **cloze_local** (24 casos): Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso.
+- **cloze_longo** (21 casos): Cloze com palavras demais: difícil de lembrar e de conferir. No máximo 3 palavras no cloze; o resto fica visível ou vai para o verso.
 - **aula** (15 casos): Card da aula errada, fora do escopo ou clínica demais. Cada assunto mora numa aula; clínica lateral ≤ 7%; o deck é o que a aula ensina.
 - **io** (14 casos): Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
 - **tab** (11 casos): Comentário sobre o Tab (explicação do Codex): Tab vago, em lista ou sem o porquê. Vale para o Tab: do básico ao aprofundamento, em texto corrido.
@@ -2972,7 +2971,7 @@ O X aprova a versão vista naquele momento; o conteúdo atual pode ter mudado. E
 ### Exemplar · note 1791631347092 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii; X em 2026-10-20)
 - **Elogio de Davi:** gostei (X em 2026-10-20).
 - **Card:** After replication, a {{c1::maintenance DNA methyltransferase}} copies methylation onto the new strand
-- **Verso:** After DNA replication, a CpG site can be methylated on the parental strand but not yet on the new strand. DNMT1 preferentially restores methylation at these hemimethylated sites, with targeting factors such as UHRF1. Histone reader–writer systems act on a different substrate: they recognize a histone modification and help place that mark on nearby new histones. Both help maintain epigenetic patterns, but one modifies DNA bases and the other modifies histone proteins. / [IMG nebli-bm52-208-20261026.png] / [IMG nebli-bm52-208-20261026.png]
+- **Verso:** DNMT1 preferentially methylates the unmethylated strand at hemimethylated CpG sites after replication. This copies a DNA-methylation pattern; histone reader–writer systems instead act on histone marks. / / [IMG nebli-0511-bm52-p45.png]
 - **Comentário de Davi (2026-10-22):** “comentário zuado veja como melhorei o cloze, entenda o padrçao e coloca nos exemplares”
 - **Comentário de Davi (2026-10-26):** “não ficou clara a diferença disso pro reader writer”
 - **Análise:** Enzima com nome completo no cloze, verso com o que ela reconhece (CpG hemimetilado). Davi reescreveu o cloze: o nome específico é o que se decora.
@@ -3033,10 +3032,10 @@ O X aprova a versão vista naquele momento; o conteúdo atual pode ter mudado. E
 - **Comentário de Davi (2026-10-13):** “isso é um bom card clínico + agrega conteúdo”
 - **Análise:** Deficiência + causa (falta de bactérias) com a conduta no verso. Card clínico que ensina fisiologia (quem produz vitamina K).
 
-### Exemplar · note 1792588686964 (2026-uc07; X em 2026-10-22)
+### Exemplar · note 1792588686964 (2026-uc07-anatomia-01-construcao-morfofuncional; X em 2026-10-22)
 - **Elogio de Davi:** gostei (X em 2026-10-22).
-- **Card:** Cada nervo espinal forma-se pela união de: / 1. Raiz {{c2::anterior}}— axônios {{c1::eferentes}} / 2. Raiz {{c2::posterior}} — axônios {{c1::aferentes}}
-- **Verso:** A raiz posterior conduz fibras aferentes ao SNC e contém o gânglio espinal; a anterior conduz fibras eferentes para fora do SNC. / [IMG raizes-nervo-espinal-20261031.png]
+- **Card:** Nervo espinal, união das raízes: / Raiz {{c2::anterior}}: axônios {{c1::eferentes}} / Raiz {{c2::posterior}}: axônios {{c1::aferentes}}
+- **Verso:** The dorsal root carries sensory input and bears the sensory ganglion. The ventral root carries motor output; their union forms a mixed spinal nerve. / / [IMG nebli-u7an01-raizes.png]
 - **Comentário de Davi (2026-10-22):** “card entrega a resposta em si mesmo completando a ideia ESSE comentário é mt ruim”
 - **Comentário de Davi (2026-10-30):** “imagem ruim”
 - **Análise:** Organizador das raízes do nervo espinal com o mesmo índice nos dois lados (anterior/eferente) depois da edição de Davi. Modelo: o par que se completa fica no mesmo índice.
@@ -3115,7 +3114,7 @@ O X aprova a versão vista naquele momento; o conteúdo atual pode ter mudado. E
 ### Exemplar · note 1791625426108 (2026-uc03-imunologia-22-mecanismos-efetores; X em 2026-10-24)
 - **Elogio de Davi:** gostei (X em 2026-10-24).
 - **Card:** {{c1::Lepromatous}} leprosy is associated with a strong {{c2::Th2}}-cell response, allowing for {{c2::humoral}} immunity
-- **Verso:** - Also referred to as multibacillary leprosy / - Lack of Th1 / - Response results in lack of cell-mediated immunity and therefore lack of containment of the infection /
+- **Verso:** - Also referred to as multibacillary leprosy / - Lack of Th1 / - Response results in lack of cell-mediated immunity and therefore lack of containment of the infection / / / [IMG nebli-0411-im22-63.png]
 - **Análise:** Relaciona perfil imune à falha de controle celular, em vez de só nomear Th2. O contraste deve manter o foco de ciclo básico e evitar simplificação absoluta das respostas humanas.
 
 ### Exemplar · note 1790981515127 (2026-uc08-anatomia-07-vascularizacao-visceras; X em 2026-10-24)
@@ -3340,7 +3339,7 @@ O X aprova a versão vista naquele momento; o conteúdo atual pode ter mudado. E
 ### Exemplar · note 1791629595197 (2026-uc03-imunologia-49-ativacao-celulas-b; X em 2026-11-01)
 - **Elogio de Davi:** gostei (X em 2026-11-01).
 - **Card:** Neutralizing antibodies block microbes or toxins from binding host {{c1::cell receptors}}
-- **Verso:** IgG is the main neutralizing antibody in blood; IgA acts on mucosae. / / [IMG im49-neutralizacao-slide43-20261103.png] / Aula IM49, slide 43: anticorpos impedem a ligação ao receptor da célula.
+- **Verso:** IgG is the main neutralizing antibody in blood; IgA acts on mucosae. / / [IMG im49-neutralizacao-slide43-20261103.png]
 - **Análise:** Neutralização como mecanismo: o anticorpo impede a ligação ao receptor da célula, cloze no alvo bloqueado. O verso diz qual classe neutraliza onde e traz o recorte do slide 43; modelo de função efetora de anticorpo com figura da aula.
 
 ### Exemplar · note 1792713407379 (2026-uc08-anatomia-11-figado-pancreas-vias-biliares; X em 2026-11-01)
@@ -3403,7 +3402,7 @@ O X aprova a versão vista naquele momento; o conteúdo atual pode ter mudado. E
 
 ### Exemplar · note 1792695019915 (2026-uc03-microbiologia-58-multiplicacao-viral-antivirais; X em 2026-11-02)
 - **Elogio de Davi:** gostei (X em 2026-11-02).
-- **Card:** Influenza and sialic acid: / {{c1::Hemagglutinin::}}: binds it to enter / {{c1::Neuraminidase::}}: cleaves it to leave
+- **Card:** Influenza and sialic acid: / {{c1::Hemagglutinin}}: binds it to {{c2::enter}} / {{c1::Neuraminidase}}: cleaves it to {{c2::leave}}
 - **Verso:** Neutralizing antibodies block hemagglutinin. / Oseltamivir blocks neuraminidase, so new virions stay stuck to the cell.
 - **Comentário de Davi (2026-10-30):** “tem que ter um card organizador para hemaglutinin x neuroaminidase isso tem que virar exemplar coisas parecidas assim precisam de orgnanizador para não ocnfudir”
 - **Comentário de Davi (2026-11-03):** “agora ficou top”
@@ -3429,12 +3428,6 @@ O X aprova a versão vista naquele momento; o conteúdo atual pode ter mudado. E
 - **Card:** Early complement deficiencies (C1-C4) are characterized by an increased risk of severe, recurrent pyogenic {{c1::sinopulmonary::location}} infections
 - **Verso:** - Specifically, increased risk of pneumococcal and H. influenzae pneumonia / - This begins in infancy
 - **Análise:** Base clínica de deficiência imune: o defeito (complemento precoce) prediz o local e o tipo de infecção, com dica de categoria location. Modelo de associação clínica que sai do mecanismo.
-
-### Exemplar · note 1793301694840 (2026-uc03-patologia-61-patologia-infeccao-viral; X em 2026-11-02)
-- **Elogio de Davi:** gostei (X em 2026-11-02).
-- **Card:** CMV infects white blood cells and blocks expression of {{c1::MHC I}}, inhibiting cytotoxic T-cell killing
-- **Verso:** Hiding MHC I escapes CD8 T cells but removes the brake on NK cells.
-- **Análise:** Evasão imune com causa e consequência: o vírus bloqueia MHC I e escapa do CD8; o verso traz o efeito oposto sobre NK. Modelo de mecanismo com contraponto no verso.
 
 ### Exemplar · note 1791716425502 (2026-uc03-patologia-47-inflamacao-granulomatosa; X em 2026-11-02)
 - **Elogio de Davi:** gostei (X em 2026-11-02).
@@ -3494,8 +3487,8 @@ O X aprova a versão vista naquele momento; o conteúdo atual pode ter mudado. E
 
 ### Exemplar · note 1792175888632 (2026-uc03-microbiologia-48-micoses-subcutaneas; X em 2026-11-03)
 - **Elogio de Davi:** gostei (X em 2026-11-03).
-- **Card:** Main subcutaneous mycoses (agent): / 1. {{c1::Sporotrichosis::S…}} (Sporothrix brasiliensis) / 2. {{c1::Chromoblastomycosis::C…}} (Fonsecaea pedrosoi) / 3. {{c1::Eumycetoma::E…}} (Madurella grisea) / 4. {{c1::Lobomycosis::L…}} (Lacazia loboi) / 5. {{c1::Phaeohyphomycosis::P…}} (dark molds)
-- **Verso:** - Phaeohyphomycosis shows dark septate hyphae in tissue, unlike the sclerotic bodies of chromoblastomycosis or the grains of mycetoma / - All come from soil and plants and enter through a wound
+- **Card:** Selected subcutaneous mycoses / Nodular lymphatic spread: {{c1::sporotrichosis::s…}} / Muriform bodies: {{c1::chromoblastomycosis::c…}} / Fungal grains: {{c1::eumycetoma::e…}} / Thick-walled yeasts in chains: {{c1::lobomycosis::l…}} / Pigmented tissue hyphae: {{c1::phaeohyphomycosis::p…}}
+- **Verso:** Selected examples, not an exhaustive classification. Tissue forms distinguish these infections; many follow traumatic inoculation. Sporotrichosis can also follow cat scratches or bites. Agents include Sporothrix, Fonsecaea, Madurella, the agent of Jorge Lobo disease and other dematiaceous molds, respectively. / / GroupSite or contextExamplesSuperficialOuter stratum corneum or hair surfacePityriasis versicolorCutaneousKeratinized skin, hair or nailsDermatophytosesSubcutaneousDermis/subcutis after inoculationSporotrichosis; chromoblastomycosis; eumycetoma; lobomycosisPrimary systemicDeep infection, often after inhalationHistoplasmosis; paracoccidioidomycosisOpportunisticImpaired host defenses favor invasionCandidiasis; aspergillosis; cryptococcosis / Depth and opportunism are different axes. Candida can cause mucocutaneous or invasive disease; cryptococcosis can also affect immunocompetent hosts. / / [IMG nebli-0511-subcut-comparacao.png]
 - **Análise:** Organizador de conjunto com dica da primeira letra e o agente entre parênteses em cada linha; o verso distingue o achado tecidual e a via comum de entrada. Modelo de lista da aula declarada como principais.
 
 ### Exemplar · note 1791630172795 (?; X em 2026-11-03)
@@ -3503,6 +3496,111 @@ O X aprova a versão vista naquele momento; o conteúdo atual pode ter mudado. E
 - **Card:** {{c1::microRNAs}} are small, noncoding RNA molecules that post-transcriptionally regulate protein expression
 - **Verso:** Introns can contain microRNA (miRNA) genes / / [IMG 0cdfbe7e74604e36ffbdb68bbb03b1b7.jpg]
 - **Análise:** Definição de uma classe de molécula pela função (regulação pós-transcricional), cloze no nome, verso com onde os genes ficam e figura. Modelo de fato-chave definido por função.
+
+### Exemplar · note 1793301694840 (2026-uc03-patologia-61-patologia-infeccao-viral; X em 2026-11-04)
+- **Elogio de Davi:** gostei (X em 2026-11-04).
+- **Card:** CMV infects white blood cells and blocks expression of {{c1::MHC I}}, inhibiting cytotoxic T-cell killing
+- **Verso:** Hiding MHC I escapes CD8 T cells but removes the brake on NK cells.
+- **Análise:** Evasão imune com causa e consequência: o vírus bloqueia MHC I e escapa do CD8; o verso traz o efeito oposto sobre NK. Modelo de mecanismo com contraponto no verso.
+
+### Exemplar · note 1792713405305 (2026-uc08-anatomia-11-figado-pancreas-vias-biliares; X em 2026-11-04)
+- **Elogio de Davi:** gostei (X em 2026-11-04).
+- **Card:** A prega espiral ajuda a manter o ducto cístico {{c1::aberto}}, permitindo a passagem da bile.
+- **Verso:** - Also called the Heister valves / - It also resists sudden emptying when abdominal pressure rises, as in coughing / [IMG khref-8f7b9f535860ae5ac44f-back.jpg]
+- **Análise:** Liga uma estrutura pequena à função que justifica aprendê-la: a prega espiral mantém o ducto cístico aberto para a bile passar. O Extra explica a consequência mecânica. Modelo de estrutura → função; o X não dispensa inspecionar a figura escolhida para outro card.
+
+### Exemplar · note 1793199695176 (2026-uc03-microbiologia-60-virologia-pratica; X em 2026-11-04)
+- **Elogio de Davi:** gostei (X em 2026-11-04).
+- **Card:** The following image shows koilocytic change, which appears as a wrinkled nucleus and is characteristic of {{c1::HPV}} infection / [IMG 3169ac292fcbdb1af7a8e2b174635aa2.jpg] /
+- **Verso:** [IMG 675d506f46c98d51a490f1e34e9e6529.webp] / / Koilocytes are squamous cells changed by HPV, with a clear halo around a wrinkled nucleus.
+- **Análise:** O diagnóstico depende de reconhecer a morfologia do coilócito na imagem, especialmente halo perinuclear e núcleo enrugado. Modelo de leitura visual que leva a uma associação etiológica específica; não basta decorar HPV sem recuperar o achado. A imagem nova precisa ser inspecionada antes de adaptar.
+
+### Exemplar · note 1793786653456 (2026-uc03-imunologia-64-hipersensibilidade; X em 2026-11-04)
+- **Elogio de Davi:** gostei (X em 2026-11-04).
+- **Card:** In autoimmune hemolytic anemia and immune thrombocytopenia, antibody-coated cells are destroyed mainly in the {{c1::spleen}}
+- **Verso:** [IMG a80f3b267d2602619a54f6b55ec55750.webp] / / [IMG 753d443cb002375ee5a7936cf6530e6a.webp] / / The antibody coats red cells or platelets and phagocytes destroy them, mostly in the spleen.
+- **Análise:** Reúne duas doenças pela mesma relação causal: células revestidas de anticorpos são removidas principalmente no baço. A resposta anatômica é explicada pelo mecanismo fagocítico no Extra. Modelo de integrador por mecanismo compartilhado, sem transformar as doenças em listas clínicas.
+
+### Exemplar · note 1791626776253 (2026-uc03-microbiologia-44-micoses-cutaneas; X em 2026-11-04)
+- **Elogio de Davi:** gostei (X em 2026-11-04).
+- **Card:** Sites infected by each dermatophyte genus: / Skin Hair Nails {{c4::Trichophyton}}{{c2::Yes}}{{c2::Yes}}{{c2::Yes}}{{c4::Microsporum}}{{c3::Yes}}{{c3::Yes}}{{c3::Rarely}}{{c4::Epidermophyton}}{{c1::Yes}}{{c1::No}}{{c1::Yes}}
+- **Verso:** Dermatophytes invade keratinized skin, hair and nails. Epidermophyton usually spares hair; Microsporum nail infection is very uncommon. This is a tissue-tropism comparison, not a claim that all fungi infect these three sites. / / GroupSite or contextExamplesSuperficialOuter stratum corneum or hair surfacePityriasis versicolorCutaneousKeratinized skin, hair or nailsDermatophytosesSubcutaneousDermis/subcutis after inoculationSporotrichosis; chromoblastomycosis; eumycetoma; lobomycosisPrimary systemicDeep infection, often after inhalationHistoplasmosis; paracoccidioidomycosisOpportunisticImpaired host defenses favor invasionCandidiasis; aspergillosis; cryptococcosis / Depth and opportunism are different axes. Candida can cause mucocutaneous or invasive disease; cryptococcosis can also affect immunocompetent hosts.
+- **Comentário de Davi (2026-10-15):** “card deveria ser a tabela em IO assim fica ruim”
+- **Comentário de Davi (2026-10-22):** “ajustei o card para ficar bom”
+- **Análise:** A tabela cruza gêneros de dermatófitos com tecidos acometidos e permite contrastar padrões informativos. As linhas têm o mesmo critério; os índices editados por Davi são parte da versão aprovada. Adaptar a organização quando houver uma comparação real, preservando diferenças e evitando preencher células sem valor didático.
+
+### Exemplar · note 1793784424989 (2026-uc03-imunologia-64-hipersensibilidade; X em 2026-11-04)
+- **Elogio de Davi:** gostei (X em 2026-11-04).
+- **Card:** Th2 cytokines in allergic airways and what each drives: / - IL-4: class switch to {{c1::IgE}} / - IL-5: recruits {{c1::eosinophils}} / - IL-13: {{c1::mucus}} production
+- **Verso:** Together these cytokines arm mast cells, bring eosinophils and fill the bronchi with mucus. / Leukotrienes add smooth muscle contraction.
+- **Análise:** Organizador vertical que associa cada citocina Th2 ao seu efeito distintivo, e o Extra conecta os efeitos à resposta alérgica. Modelo de conjunto funcional, não de enumeração avulsa. As dicas de inicial deste exemplar histórico não revogam as restrições atuais da v15.
+
+### Exemplar · note 1792696993158 (2026-uc07; X em 2026-11-05)
+- **Elogio de Davi:** gostei (X em 2026-11-05).
+- **Card:** O tronco encefálico tem seu limite inferior no plano do {{c1::forame magno}} e continua superiormente com o {{c2::diencéfalo}}.
+- **Verso:** The brainstem comprises medulla, pons and midbrain. It continues caudally as the spinal cord at the foramen magnum and rostrally toward the diencephalon. / / [IMG kh-cap-3490.jpg]
+- **Comentário de Davi (2026-10-23):** “imagem ruim”
+- **Comentário de Davi (2026-10-27):** “imagem”
+- **Comentário de Davi (2026-11-05):** “NEGRITO”
+- **Análise:** Relaciona os dois limites do tronco encefálico a marcos anatômicos concretos. É um fato espacial situado, útil para orientar a leitura da figura. O X não encerra o novo pedido NEGRITO: a falta de destaque contextual continua pendente e deve ser corrigida preservando o texto e o histórico.
+
+### Exemplar · note 1792487516279 (2026-uc03-imunologia-17-reconhecimento-adaptativo; X em 2026-11-05)
+- **Elogio de Davi:** gostei (X em 2026-11-05).
+- **Card:** B-cell maturation / Bone marrow / {{c1::Pro-B::P…}}: no complete μ chain or surface Ig / {{c1::Pre-B::P…}}: cytoplasmic μ and pre-BCR, no conventional light chain / {{c1::Immature B::I…}}: surface IgM, no IgD / Peripheral cells / {{c2::Mature naive B::M…}}: surface {{c3::IgM and IgD::I…}} / {{c2::Plasma cells::P…}}: antibody-secreting effectors / {{c2::Memory B cells::M…}}: persistent antigen-experienced B cells
+- **Verso:** A productive μ chain forms the pre-BCR with a surrogate light chain; conventional light-chain rearrangement then produces surface IgM. Mature naive B cells coexpress IgM and IgD by alternative RNA processing. Plasma and memory cells are alternative antigen-experienced fates, not obligatory steps in one linear sequence.
+- **Comentário de Davi (2026-10-26):** “FALTA QUE ESSE CARD TENHA MAIS DETALHES DE CADA TIPO, PODE REALMENTE SER DIFERENTE + FALTA COMENTÁRIO QUE AGREGUE”
+- **Análise:** Organiza maturação de linfócitos B por local, estágio e receptor, e o Extra explica a sequência molecular. Plasma e memória são destinos alternativos, não passos obrigatórios sucessivos. Modelo de integrador de processo que preserva ordem causal e distingue ramificações reais.
+
+### Exemplar · note 1793875230699 (2026-uc03-patologia-65-reparo-tecidual; X em 2026-11-05)
+- **Elogio de Davi:** gostei (X em 2026-11-05).
+- **Card:** Wound repair eventually results in scar formation, in which type {{c1::III}} collagen is replaced with type {{c1::I}} collagen ("remodeling")
+- **Verso:** - Matrix metalloproteinases (MMPs) degrade extracellular matrix components, enabling collagen remodeling / / - Delayed with zinc deficiency
+- **Análise:** Recupera uma transição concreta da cicatriz: colágeno III é substituído por I. O mesmo índice exige lembrar os dois termos sem um entregar a resposta do outro. O Extra situa a remodelação pelas metaloproteinases; modelo de processo com consequência estrutural, sem adicionar uma ficha clínica inteira.
+
+### Exemplar · note 1792696993158 (2026-uc07; X em 2026-11-05)
+- **Elogio de Davi:** gostei (X em 2026-11-05).
+- **Card:** O tronco encefálico tem seu limite inferior no plano do {{c1::forame magno}} e continua superiormente com o {{c2::diencéfalo}}.
+- **Verso:** The brainstem comprises medulla, pons and midbrain. It continues caudally as the spinal cord at the foramen magnum and rostrally toward the diencephalon. / / [IMG kh-cap-3490.jpg]
+- **Comentário de Davi (2026-10-23):** “imagem ruim”
+- **Comentário de Davi (2026-10-27):** “imagem”
+- **Comentário de Davi (2026-11-05):** “NEGRITO”
+- **Análise:** Relaciona os dois limites do tronco encefálico a marcos anatômicos concretos. É um fato espacial situado, útil para orientar a leitura da figura. O X não encerra o novo pedido NEGRITO: a falta de destaque contextual continua pendente e deve ser corrigida preservando o texto e o histórico.
+
+### Exemplar · note 1793199679755 (2026-uc03-microbiologia-60-virologia-pratica; X em 2026-11-05)
+- **Elogio de Davi:** gostei (X em 2026-11-05).
+- **Card:** A direct ELISA tests for a(n) {{c1::antigen}} / / An indirect ELISA tests for a(n) {{c1::antibody}}
+- **Verso:** Direct ELISA detects sample antigen with an enzyme-linked antibody. Indirect diagnostic ELISA detects patient antibody bound to known antigen, then uses an enzyme-linked secondary antibody. / / Direct / [IMG nebli-0411-nebli-mb60-direct-elisa-openstax.webp] / / Indirect / [IMG nebli-0411-nebli-mb60-indirect-elisa-openstax.webp]
+- **Análise:** O X aprova o contraste ELISA direto→antígeno e indireto→anticorpo acompanhado de duas figuras reais correspondentes. O ganho é comparar o objeto detectado, não decorar nomes isolados. Existem poucas revisões e um irmão histórico sem estudo; não inferir superioridade de retenção a partir desse X.
+
+### Exemplar · note 1791630905344 (2026-uc03-microbiologia-50-micoses-sistemicas; X em 2026-11-05)
+- **Elogio de Davi:** gostei (X em 2026-11-05).
+- **Card:** {{c1::Histoplasma capsulatum::Which fungus}} is associated with {{c2::bat}} and {{c2::bird}} droppings; therefore spelunkers who explore caves and farmers with chicken coops are at risk
+- **Verso:** - May manifest as subacute fever, malaise, dry cough / / - Chest x-ray: hilar lymphadenopathy (often mimics sarcoidosis) / / - Liver biopsy: granulomas with narrow-based budding yeast seen / / [IMG b39abbbf00aa0b03a99911510c118e8c.webp] /
+- **Análise:** O X aprova ecologia→exposição: Histoplasma em solo com excretas explica risco de caverna ou galinheiro. A relação liga nome, ambiente e clínica. Não copiar automaticamente toda a extensão do Extra nem tratar uma primeira resposta como prova de memória duradoura.
+
+### Exemplar · note 1792170508430 (2026-uc03-microbiologia-43-biologia-fungos; X em 2026-11-05)
+- **Elogio de Davi:** gostei (X em 2026-11-05).
+- **Card:** Main environmental factors that control fungal growth: / 1. {{c1::Temperature::T…}} / 2. Air {{c1::humidity::h…}} / 3. {{c1::pH::p…}}
+- **Verso:** - Below a water activity of about 0.65 fungi stop growing / - Optimal pH is about 6.5 (yeasts 2.5–8.5, molds 1.5–11)
+- **Análise:** O X aprova um conjunto natural do mesmo eixo: temperatura, umidade e pH como condições de crescimento fúngico. Recuperar em conjunto faz sentido pela relação, não apenas por haver três palavras. Valores e exceções do verso ainda precisam de fonte específica ao serem reutilizados.
+
+### Exemplar · note 1792141769157 (2026-uc03-grand-round-01-esquizofrenia; X em 2026-11-05)
+- **Elogio de Davi:** gostei (X em 2026-11-05).
+- **Card:** MethodExogenous contrastCT{{c1::iodinated}} (IV), also oral or rectal iodine or bariumMRI{{c2::gadolinium}} (IV)Ultrasound{{c3::microbubbles}}
+- **Verso:** - Gadolinium is paramagnetic, so it changes the MRI signal
+- **Análise:** O X aprova um quadro por método com contrastes exógenos correspondentes: CT/iodo, MRI/gadolínio e ultrassom/microbolhas. Preservar os índices deliberadamente editados por Davi; não impor c1 único por estética. O eixo método→agente torna os vizinhos comparáveis.
+
+### Exemplar · note 1791627547052 (2026-uc03-biologia-molecular-18-recombinacao; X em 2026-11-05)
+- **Elogio de Davi:** gostei (X em 2026-11-05).
+- **Card:** How can enhancers be far away from the gene it regulates? / {{c1::DNA will bend to bring enhancer to promoter}}
+- **Verso:** [IMG bed5603ace0425e3af14f71f2049e93e.webp] / / - Looping lets distant enhancers reach the promoter
+- **Análise:** O X aprova uma explicação espacial concreta: dobrar o DNA aproxima enhancer e promotor, com figura mostrando a alça. Copiar causa→relação espacial→consequência. A lacuna histórica longa e o número de palavras não são autorização para repetir clozes longos nos novos cards.
+
+### Exemplar · note 1791630173420 (?; X em 2026-11-05)
+- **Elogio de Davi:** gostei (X em 2026-11-05).
+- **Card:** CRISPR RNAs, siRNAs and miRNAs act in {{c1::trans}}, by pairing with other nucleic acids
+- **Verso:** - They are separate RNAs that find a different target
+- **Análise:** O X aprova contraste funcional cis/trans: um RNA separado reconhece outra molécula por pareamento. O alvo trans é induzido pelo mecanismo. Negrito histórico dentro do cloze não substitui a norma de contexto visível; ainda não houve revisão espaçada suficiente para avaliar retenção.
 
 ## Gostei históricos sem card disponível
 
@@ -4166,9 +4264,10 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 ### Caso de feedback · note 1790981519924 (2026-uc08-anatomia-07-vascularizacao-visceras)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** From the lymph , chylomicrons reach the blood through the {{c1:: thoracic duct }}
 - **Davi, rodada 1 (2026-10-13):** “card com cloze num lugar mt fácil o cloze cairia melhor em [thoracic duct]”
-- **Estado atual consultado (não implica aprovação):** From the lymph, chylomicrons reach the blood through the {{c1::thoracic duct}}
-  - **Verso depois:** - Drains at the junction of the left subclavian and internal jugular veins
-- **Análise:** [cloze_local] Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso.
+- **Davi, rodada 2 (2026-11-05):** “várias respostas possíveis: fere o princípio da unicidade”
+- **Estado atual consultado (não implica aprovação):** Intestinal lymph carrying chylomicrons enters the left venous angle through the {{c1::thoracic duct}}.
+  - **Verso depois:** Lacteals drain through intestinal lymphatics and the cisterna chyli into the thoracic duct. It empties at the junction of the left internal jugular and subclavian veins. / / [IMG nebli-an07-ducto-toracico-slide9.png]
+- **Análise:** [cloze_local] Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso. Aqui: Lymph isoladamente admitia múltiplas respostas. Origem intestinal e desembocadura venosa tornam o alvo único.
 
 ### Caso de feedback · note 1790981522079 (2026-uc08-anatomia-07-vascularizacao-visceras)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** The {{c1:: ileocolic ::SMA branch}} artery supplies the terminal ileum, the cecum and, through its appendicular branch, the appendix
@@ -4475,8 +4574,8 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Card na rodada 2:** Dermatophyte onychomycosis usually starts at the {{c1::distal}} nail edge, whereas Candida starts at the {{c1::proximal}} nail fold
 - **Davi, rodada 2 (2026-10-15):** “ajustei”
 - **Estado atual consultado (não implica aprovação):** Dermatophyte onychomycosis usually starts at the {{c1::distal}} nail edge, whereas Candida starts at the {{c1::proximal}} nail fold
-  - **Verso depois:** - Candida nail infection often comes with paronychia
-- **Análise:** [elogio] Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo).
+  - **Verso depois:** Distal-lateral nail involvement is typical of dermatophyte onychomycosis. Candida often involves the proximal nail fold with paronychia; this contrast is a usual pattern, not an absolute diagnostic rule. / / [IMG nebli-0511-mb50-p117.png]
+- **Análise:** [elogio] Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo). Aqui: Comparação fotográfica da aula mostra os dois padrões ungueais descritos.
 
 ### Caso de feedback · note 1791627550702 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Phosphorylation can switch a transcription factor off by blocking its {{c1::DNA binding}} or by keeping it out of the {{c2::nucleus}}
@@ -4571,9 +4670,9 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 1 (2026-10-15):** “card deveria ser a tabela em IO assim fica ruim”
 - **Card na rodada 2:** Sites infected by each dermatophyte genus: Skin Hair Nails Trichophyton {{c2::Yes}} {{c2::Yes}} {{c2::Yes}} Microsporum {{c3::Yes}} {{c3::Yes}} {{c3::Rarely}} Epidermophyton {{c1::Yes}} {{c1::No}} {{c
 - **Davi, rodada 2 (2026-10-22):** “ajustei o card para ficar bom”
-- **Estado atual consultado (não implica aprovação):** Sites infected by each dermatophyte genus: / Skin Hair Nails Trichophyton{{c2::Yes}}{{c2::Yes}}{{c2::Yes}}Microsporum{{c3::Yes}}{{c3::Yes}}{{c3::Rarely}}Epidermophyton{{c1::Yes}}{{c1::No}}{{c1::Yes}}
-  - **Verso depois:** Dermatophytes are cutaneous mycosis /
-- **Análise:** [elogio] Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo).
+- **Estado atual consultado (não implica aprovação):** Sites infected by each dermatophyte genus: / Skin Hair Nails {{c4::Trichophyton}}{{c2::Yes}}{{c2::Yes}}{{c2::Yes}}{{c4::Microsporum}}{{c3::Yes}}{{c3::Yes}}{{c3::Rarely}}{{c4::Epidermophyton}}{{c1::Yes}}{{c1::No}}{{c1::Yes}}
+  - **Verso depois:** Dermatophytes invade keratinized skin, hair and nails. Epidermophyton usually spares hair; Microsporum nail infection is very uncommon. This is a tissue-tropism comparison, not a claim that all fungi infect these three sites. / / GroupSite or contextExamplesSuperficialOuter stratum corneum or hair surfacePityriasis versicolorCutaneousKeratinized skin, hair or nailsDermatophytosesSubcutaneousDermis/subcutis after inoculationSporotrichosis; chromoblastomycosis; eumycetoma; lobomycosisPrimary systemicDeep infection, often after inhalationHistoplasmosis; paracoccidioidomycosisOpportunisticImpaired host defenses favor invasionCandidiasis; aspergillosis; cryptococcosis / Depth and opportunism are different axes. Candida can cause mucocutaneous or invasive disease; cryptococcosis can also affect immunocompetent hosts.
+- **Análise:** [elogio] Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo). Aqui: Preservados os índices editados por Davi; comentário explica o eixo e a exceção sem refazer a tabela aprovada.
 
 ### Caso de feedback · note 1791627549152 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** A eukaryotic activator binds DNA through one domain and recruits the transcription machinery through a separate {{c1::activation domain}}
@@ -4583,15 +4682,15 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 3 (2026-10-24):** “foto gostei do card agora. tá melhor”
 - **Davi, rodada 4 (2026-10-31):** “IMAGEM”
 - **Estado atual consultado (não implica aprovação):** An activator has a DNA-binding domain and an {{c1::activation domain}} that recruits Mediator and RNA polymerase II
-  - **Verso depois:** - The activation domain contacts Mediator and coactivators, which bring RNA polymerase II to the promoter / [IMG ativador-mediator-pol2-20261031.png]
-- **Análise:** [negrito] Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7). Aqui: O pedido mais recente era IMAGEM, apesar do elogio anterior ao texto. O verso agora inclui esquema vetorial conferido em 960×420: domínio de ligação no enhancer, domínio de ativação recrutando Mediator e contato funcional com RNA pol II no promotor. O arquivo foi adicionado à mídia e apareceu na resposta renderizada; manter a distinção dos domínios como exemplar visual.
+  - **Verso depois:** - The activation domain contacts Mediator and coactivators, which bring RNA polymerase II to the promoter / / / [IMG nebli-0511-bm46-p21.png]
+- **Análise:** [negrito] Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7). Aqui: Figura real de Gal4 separa fisicamente domínio de ligação e domínio de ativação; sai o esquema textual genérico.
 
 ### Caso de feedback · note 1791628675323 (2026-uc03-microbiologia-48-micoses-subcutaneas)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Because the fungus is implanted by minor trauma from soil and plants, chromoblastomycosis mostly affects the {{c1::lower limbs}}
 - **Davi, rodada 1 (2026-10-15):** “card ruim não ensina nada, só decora para ser bom, seria a explicação do porquê é lower limbs que são afetados + clozem em algo de decorar”
 - **Estado atual consultado (não implica aprovação):** Because the fungus is implanted by minor trauma from soil and plants, chromoblastomycosis mostly affects the {{c1::lower limbs}}
-  - **Verso depois:** - Typical patients are rural workers who walk barefoot or handle wood and thorny plants / [IMG mb48-cromomicose-membro.png]
-- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas. Aqui: Cloze no local (membros inferiores) sem o porquê (trauma com solo e plantas); o card bom explica a causa e cobra o que se decora.
+  - **Verso depois:** Traumatic implantation commonly affects exposed limbs. The clinical photographs show verrucous plaques on the lower limb, matching the typical exposure in rural work. / / [IMG mb48-cromomicose-membro.png]
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas. Aqui: Fotos reais mostram exatamente os membros afetados; ampliadas para remover limite antigo de360px.
 
 ### Caso de feedback · note 1791716407251 (2026-uc03-patologia-47-inflamacao-granulomatosa)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** {{c1::Foreign-body}} granulomas surround material that macrophages cannot readily degrade
@@ -4668,7 +4767,7 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 ### Caso de feedback · note 1790972065310 (2026-uc08-anatomia-01-esofago-estomago-delgado)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** The {{c2:: aorta }}, thoracic duct , and azygos vein perforate the diaphragm at the level of {{c1:: T12 }}
 - **Davi, rodada 1 (2026-10-22):** “falta um card organizador de atravessar o diafragma card novo em tabela com clozes”
-- **Estado atual consultado (não implica aprovação):** The {{c2::aorta}}, thoracic duct, and azygos vein perforate the diaphragm at the level of {{c1::T12}}
+- **Estado atual consultado (não implica aprovação):** The {{c2::aorta}}, {{c2::thoracic duct}}, and {{c2::azygos vein}} perforate the diaphragm at the level of {{c1::T12}}
   - **Verso depois:** - At T-1-2, its the red (aorta), white (thoracic duct), and blue (azygos vein) / - "I (IVC) ate (8) ten (10) eggs (esophagus) at (aorta) twelve (12)" / [IMG 45d522d8275fc877ec0cf6d51ef36d5d.jpg] / [IMG ded1ba10a42684612fa97fc7ca1eccf0.jpg]
 - **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova).
 
@@ -4683,8 +4782,8 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** At the lower esophagus , the portal system meets the systemic system through the {{c1:: left gastric }} vein and the esophageal branches of the {{c1:: azygos }} vein
 - **Davi, rodada 1 (2026-10-22):** “tem um card mt parecido com esse, daí fico confundido escreve diferente esse um pouco poderia ter uma foto melhor”
 - **Estado atual consultado (não implica aprovação):** At the lower esophagus, the portal system meets the systemic system through the {{c1::left gastric}} vein and the esophageal branches of the {{c1::azygos}} vein
-  - **Verso depois:** - Esophageal branch of azygos → azygos → IVC / SVC / - Left gastric → portal vein / - If ruptured, manifests as painless bleeding, can cause massive hematemesis / [IMG paste-35381940584451.jpg]
-- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
+  - **Verso depois:** Left gastric vein drains to the portal system. Esophageal veins communicate with the azygos system, which drains into the superior vena cava. Portal hypertension can reverse flow through this junction and dilate esophageal veins. / / [IMG paste-35381940584451.jpg]
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7). Aqui: O verso confundia cava superior com inferior; a figura será focada na junção esofágica.
 
 ### Caso de feedback · note 1790981525201 (2026-uc08-anatomia-07-vascularizacao-visceras)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** The {{c2::rectosigmoid junction (Sudeck point)}} is a watershed region supplied by the last sigmoid arterial branch from the {{c1:: inferior mesenteric artery }} and the {{c1:: superior rectal artery
@@ -4869,9 +4968,9 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 2 (2026-10-27):** “comentário grande”
 - **Davi, rodada 3 (2026-10-30):** “card estranho, indução fraca”
 - **Davi, rodada 4 (2026-10-31):** “INDUÇÃOR UIM QUERO QUE TIRE ESSA MENSAGEM PRETA QUE FIQUE APARECENDO EMBAIXO E DEIXE SÓ AS AMARELAS QUE APARECEM E SOMEM”
-- **Estado atual consultado (não implica aprovação):** Gal4 can activate transcription by recruiting {{c1::coactivators}} that modify chromatin or connect to the basal machinery.
-  - **Verso depois:** Gal4 binds DNA and recruits coactivators, including Mediator and chromatin modifiers, to support Pol II transcription.
-- **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova). Aqui: O conteúdo foi retirado na refação BM46 e não tem mais tag de aula, mas o card tinha voltado a ficar ativo. Em 01/11 foi suspenso de novo com ID/histórico intactos; o comentário sobre tarja preta continua separado da qualidade do card e espera teste real do add-on. Não usar esta nota retirada como exemplar de indução.
+- **Estado atual consultado (não implica aprovação):** DNA-bound Gal4 activates transcription by recruiting {{c1::coactivators}} that modify chromatin or connect to the basal machinery.
+  - **Verso depois:** Gal4 does not perform all downstream tasks itself. Its activation domain recruits proteins such as Mediator and chromatin modifiers, linking sequence recognition to transcription initiation.
+- **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova). Aqui: Negrito situa quem age e a ação visível; o comentário explica recrutamento em vez de repetir a frase.
 
 ### Caso de feedback · note 1791627549403 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Gal4 activates a gene with a TATA box and a UAS in any eukaryotic cell, showing the {{c1:: universality }} of transcriptional activation
@@ -4906,15 +5005,15 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 ### Caso de feedback · note 1791628674574 (2026-uc03-microbiologia-48-micoses-subcutaneas)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Sporothrix is a a cigar-shaped budding {{c1::yeast::yeast/mold}} in tissue and a {{c1::mold::yeast/mold}} on plants and soil
 - **Davi, rodada 1 (2026-10-22):** “melhorei o card falta só a imagem agora aprendi do que fiz”
-- **Estado atual consultado (não implica aprovação):** Sporothrix is a a cigar-shaped budding {{c1::yeast::yeast/mold}} in tissue and a {{c1::mold::yeast/mold}} on plants and soil
-  - **Verso depois:** - In Brazil the main species is S. brasiliensis / [IMG mb48-sporothrix-levedura.png]
-- **Análise:** [elogio] Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo).
+- **Estado atual consultado (não implica aprovação):** Sporothrix appears as a cigar-shaped budding cell in tissue, the {{c1::yeast}} form, and grows as {{c1::mold}} in environmental culture.
+  - **Verso depois:** Sporothrix is thermally dimorphic. Tissue yeast and filamentous culture are different forms of the same fungus; S. brasiliensis is important in zoonotic transmission in Brazil. / / [IMG mb48-sporothrix-levedura.png]
+- **Análise:** [elogio] Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo). Aqui: Retiradas alternativa binária e duplicação de artigo; a imagem de levedura é identificada sem fingir que mostra bolor.
 
 ### Caso de feedback · note 1791628675824 (2026-uc03-microbiologia-48-micoses-subcutaneas)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** A mycetoma is defined by: 1. Tumor-like {{c1:: swelling }} 2. Draining {{c2:: sinuses }} 3. {{c1:: Grains }}
 - **Davi, rodada 1 (2026-10-22):** “tríade assim tem que vir em tópicos com c1 c2 c1”
 - **Estado atual consultado (não implica aprovação):** A mycetoma is defined by: / 1. Tumor-like {{c1::swelling}} / 2. Draining {{c2::sinuses}} / 3. {{c1::Grains}}
-  - **Verso depois:** Grains are compact colonies of the causative organism and can be examined directly or in biopsy. / [IMG mb48-micetoma-graos.png]
+  - **Verso depois:** Grains are compact colonies of the causative organism and can be examined directly or in biopsy. / / [IMG nebli-0411-mb48-35.png]
 - **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova).
 
 ### Caso de feedback · note 1791628676074 (2026-uc03-microbiologia-48-micoses-subcutaneas)
@@ -4979,8 +5078,8 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Card na rodada 2:** Activated helper T cells and antigen-bearing B cells meet at the edge of the {{c1:: follicle }}
 - **Davi, rodada 2 (2026-10-26):** “falta mencionar a diferença de folículo e germinal center”
 - **Estado atual consultado (não implica aprovação):** Activated helper T cells and antigen-bearing B cells meet at the edge of the {{c1::follicle}}
-  - **Verso depois:** A follicle is the B-cell region of a secondary lymphoid organ. A primary follicle lacks a germinal center; after antigen stimulation, a secondary follicle contains a germinal center where B cells proliferate, mutate antibody genes and undergo selection. The initial T–B encounter occurs at the border with the T-cell zone, before some activated B cells seed that germinal center. / [IMG a10fc17517aad74736e4bb8bd3204683.webp]
-- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
+  - **Verso depois:** The follicle is the B-cell region, next to the T-cell zone. Activated T and B cells first meet at this border; germinal-center formation occurs later inside the follicle. / / [IMG a10fc17517aad74736e4bb8bd3204683.webp]
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7). Aqui: Verso distingue encontro inicial de centro germinativo sem uma definição longa paralela.
 
 ### Caso de feedback · note 1791629594347 (2026-uc03-imunologia-49-ativacao-celulas-b)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** After B-cell activation, alternative RNA processing converts membrane immunoglobulin into {{c1:: secreted antibody }}
@@ -5013,9 +5112,9 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 ### Caso de feedback · note 1791630906668 (2026-uc03-microbiologia-50-micoses-sistemicas)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Because Histoplasma is hard to see on direct exam , diagnosis relies on fungal {{c1::culture}}
 - **Davi, rodada 1 (2026-10-22):** “imagem”
-- **Estado atual consultado (não implica aprovação):** Because Histoplasma is hard to see on direct exam, diagnosis relies on fungal {{c1::culture}}
-  - **Verso depois:** - Yeasts are small and hidden inside macrophages / [IMG mb50-histoplasma-intracelular.png]
-- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
+- **Estado atual consultado (não implica aprovação):** Fungal {{c1::culture}} can confirm histoplasmosis when direct examination is insensitive.
+  - **Verso depois:** Small intracellular yeasts can be missed on direct examination. Culture demonstrates the organism but may take weeks; antigen detection and histopathology provide other diagnostic evidence. / / [IMG mb50-histoplasma-intracelular.png] / / [IMG b39abbbf00aa0b03a99911510c118e8c.webp] / / [IMG nebli-0511-histo-cultura-foco.png]
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7). Aqui: Retirado relies absoluto; foto de leveduras intracelulares permanece como explicação da dificuldade, não imagem de cultura.
 
 ### Caso de feedback · note 1791630908168 (2026-uc03-microbiologia-50-micoses-sistemicas)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** After a lung infection , Cryptococcus shows marked tropism for the {{c1::meninges}}
@@ -5049,8 +5148,8 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Interactions between histone {{c1:: N-terminal tails }} help compact nucleosomes into higher-order chromatin
 - **Davi, rodada 1 (2026-10-22):** “cloze num local terrível”
 - **Estado atual consultado (não implica aprovação):** Histone N-terminal tails stick out of the nucleosome, so enzymes can {{c1::acetylate}} them and loosen the chromatin
-  - **Verso depois:** - Acetylation neutralizes the lysine positive charge, so the tail grips the DNA less / - Tail-to-tail contacts are what compact nucleosomes into fibers
-- **Análise:** [cloze_local] Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso.
+  - **Verso depois:** Exposed histone tails are accessible to modifying enzymes. Acetylation neutralizes lysine charge and can recruit acetyl-lysine readers, altering both physical contacts and regulatory protein binding.
+- **Análise:** [cloze_local] Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso. Aqui: Similar da família apontada em BM52: verso curto demais nomeava efeito sem explicar o passo causal. Acrescentado substrato/ação/consequência sem mudar alvo ou índice.
 
 ### Caso de feedback · note 1791631343842 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** ATP-dependent nucleosome-remodeling complexes slide, eject or restructure nucleosomes using energy from {{c1:: ATP }}
@@ -5110,16 +5209,16 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Heritable gene-expression states that do not alter the DNA sequence are called {{c1:: epigenetic }} states
 - **Davi, rodada 1 (2026-10-22):** “cloze num local ruim arrumar”
 - **Estado atual consultado (não implica aprovação):** Epigenetic states are gene-expression patterns that persist through {{c1::cell division}} without changing the DNA sequence
-  - **Verso depois:** - They are copied by maintenance DNA methylation and by histone marks restored after replication / - This is how a liver cell keeps making liver cells
-- **Análise:** [cloze_local] Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso.
+  - **Verso depois:** During replication, maintenance methylation restores methylation on the new DNA strand, while reader–writer interactions help propagate some histone-mark patterns. These mechanisms support cellular identity without changing nucleotide sequence.
+- **Análise:** [cloze_local] Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso. Aqui: Similar da família apontada em BM52: verso curto demais nomeava efeito sem explicar o passo causal. Acrescentado substrato/ação/consequência sem mudar alvo ou índice.
 
 ### Caso de feedback · note 1791631347092 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** After replication , a {{c1:: maintenance DNA methyltransferase }} copies methylation onto the new strand
 - **Davi, rodada 1 (2026-10-22):** “comentário zuado veja como melhorei o cloze, entenda o padrçao e coloca nos exemplares”
 - **Davi, rodada 2 (2026-10-26):** “não ficou clara a diferença disso pro reader writer”
 - **Estado atual consultado (não implica aprovação):** After replication, a {{c1::maintenance DNA methyltransferase}} copies methylation onto the new strand
-  - **Verso depois:** After DNA replication, a CpG site can be methylated on the parental strand but not yet on the new strand. DNMT1 preferentially restores methylation at these hemimethylated sites, with targeting factors such as UHRF1. Histone reader–writer systems act on a different substrate: they recognize a histone modification and help place that mark on nearby new histones. Both help maintain epigenetic patterns, but one modifies DNA bases and the other modifies histone proteins. / [IMG nebli-bm52-208-20261026.png] / [IMG nebli-bm52-208-20261026.png]
-- **Análise:** [elogio] Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo).
+  - **Verso depois:** DNMT1 preferentially methylates the unmethylated strand at hemimethylated CpG sites after replication. This copies a DNA-methylation pattern; histone reader–writer systems instead act on histone marks. / / [IMG nebli-0511-bm52-p45.png]
+- **Análise:** [elogio] Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo). Aqui: Retirada imagem duplicada e comparação longa; mantidos substrato, momento e mecanismo.
 
 ### Caso de feedback · note 1791716408660 (2026-uc03-patologia-47-inflamacao-granulomatosa)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** T-cell–mediated immune granulomas involve {{c1::type IV}} hypersensitivity
@@ -5264,9 +5363,11 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 1 (2026-10-22):** “card ruim”
 - **Card na rodada 2:** Agents of endemic systemic mycoses share three features: 1. {{c1:: geographic distribution }} 2. reservoir in {{c1:: soil }} 3. {{c1:: airway }} entry
 - **Davi, rodada 2 (2026-11-03):** “vou melhorar, aprende”
-- **Estado atual consultado (não implica aprovação):** Agents of endemic systemic mycoses share three features: / 1. {{c1::geographic distribution}} / 2. reservoir in {{c1::soil}} / 3. {{c1::airway}} entry
-  - **Verso depois:** Their inhaled environmental propagules convert to a tissue form at body temperature; geography reflects the ecological niche of each fungus.
-- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
+- **Card na rodada 3:** Endemic systemic mycoses begin when environmental fungal propagules in soil enter through {{c1::inhalation}}. Their geographic range follows the fungus’s ecological niche.
+- **Davi, rodada 3 (2026-11-05):** “(Codex)”
+- **Estado atual consultado (não implica aprovação):** Endemic systemic dimorphic fungi usually initiate infection when airborne environmental propagules enter through {{c1::inhalation}}.
+  - **Verso depois:** Environmental growth supplies inhaled propagules that establish an initial pulmonary infection. Dissemination and tissue morphology depend on the fungus and host; this is not a rule for every geographically endemic fungal skin disease. / / [IMG b39abbbf00aa0b03a99911510c118e8c.webp] / / GroupSite or contextExamplesSuperficialOuter stratum corneum or hair surfacePityriasis versicolorCutaneousKeratinized skin, hair or nailsDermatophytosesSubcutaneousDermis/subcutis after inoculationSporotrichosis; chromoblastomycosis; eumycetoma; lobomycosisPrimary systemicDeep infection, often after inhalationHistoplasmosis; paracoccidioidomycosisOpportunisticImpaired host defenses favor invasionCandidiasis; aspergillosis; cryptococcosis / Depth and opportunism are different axes. Candida can cause mucocutaneous or invasive disease; cryptococcosis can also affect immunocompetent hosts.
+- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares. Aqui: Circunscrito o universo sistêmico dimórfico para não universalizar micose endêmica de pele.
 
 ### Caso de feedback · note 1792082171335 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Because chromatin already limits access to DNA, purely negative regulation is {{c1:: less common }} in eukaryotic transcription
@@ -5532,14 +5633,14 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** (sem texto: estrutura/imagem)
 - **Davi, rodada 1 (2026-10-22):** “não precisa ter cloze escondendo a estrutura da imagem, basta que haja uma seta e um cloze no nome dela”
 - **Estado atual consultado (não implica aprovação):** [estrutura com seta] Gânglio espinal
-  - **Verso depois:** [IMG kh-ganglion-spinale.jpg]
+  - **Verso depois:** The spinal ganglion contains primary sensory neuron somata outside the spinal cord. Central processes enter through the dorsal root.
 - **Análise:** [io] Card de estrutura/oclusão mal feito: cloze cobrindo a estrutura, seta errada, informação demais. Basta seta na estrutura destacada e o nome no cloze ao lado.
 
 ### Caso de feedback · note 1792588686961 (2026-uc07)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** O sistema nervoso autônomo subdivide-se em: 1. {{c1:: Simpático }} 2. Parassimpático 3. {{c1:: Entérico }}
 - **Davi, rodada 1 (2026-10-22):** “gostei dos cards organizadores, mas pode ter mais cloze por card arrumei”
-- **Estado atual consultado (não implica aprovação):** O sistema nervoso autônomo subdivide-se em: / 1. {{c1::Simpático}} / 2. Parassimpático / 3. {{c1::Entérico}}
-  - **Verso depois:** O sistema nervoso entérico organiza circuitos próprios na parede do trato gastrointestinal. / / [IMG kh-cap-3053.jpg]
+- **Estado atual consultado (não implica aprovação):** Organização autônoma, incluindo circuitos locais: / {{c1::Simpático}} / {{c1::Parassimpático}} / {{c1::Entérico}}
+  - **Verso depois:** Sympathetic and parasympathetic outputs control visceral effectors. Enteric circuits in the gut wall also integrate locally and interact with both divisions. / / [IMG nebli-u7an01-funcional.png]
 - **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova).
 
 ### Caso de feedback · note 1792588686964 (2026-uc07)
@@ -5547,8 +5648,8 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 1 (2026-10-22):** “card entrega a resposta em si mesmo completando a ideia ESSE comentário é mt ruim”
 - **Card na rodada 2:** Cada nervo espinal forma-se pela união de: 1. Raiz {{c2:: anterior }}— axônios {{c1:: eferentes }} 2. Raiz {{c2:: posterior }} — axônios {{c1:: aferentes }}
 - **Davi, rodada 2 (2026-10-30):** “imagem ruim”
-- **Estado atual consultado (não implica aprovação):** Cada nervo espinal forma-se pela união de: / 1. Raiz {{c2::anterior}}— axônios {{c1::eferentes}} / 2. Raiz {{c2::posterior}} — axônios {{c1::aferentes}}
-  - **Verso depois:** A raiz posterior conduz fibras aferentes ao SNC e contém o gânglio espinal; a anterior conduz fibras eferentes para fora do SNC. / [IMG raizes-nervo-espinal-20261031.png]
+- **Estado atual consultado (não implica aprovação):** Nervo espinal, união das raízes: / Raiz {{c2::anterior}}: axônios {{c1::eferentes}} / Raiz {{c2::posterior}}: axônios {{c1::aferentes}}
+  - **Verso depois:** The dorsal root carries sensory input and bears the sensory ganglion. The ventral root carries motor output; their union forms a mixed spinal nerve. / / [IMG nebli-u7an01-raizes.png]
 - **Análise:** [cloze_local] Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso. Aqui: A imagem antiga mostrava apenas a raiz anterior e não sustentava a comparação da frente. O verso agora inclui esquema de duas raízes, gânglio posterior e nervo espinal misto, com setas aferente/eferente. O arquivo foi visto em 960×410 e lido na resposta renderizada; o texto e os dois irmãos foram preservados.
 
 ### Caso de feedback · note 1792588686965 (2026-uc07)
@@ -5568,15 +5669,15 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 ### Caso de feedback · note 1792588686968 (2026-uc07)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** As três partes principais do encéfalo são: 1. {{c1:: Cérebro }} 2. Cerebelo 3. {{c1:: Tronco encefálico }}
 - **Davi, rodada 1 (2026-10-22):** “mesma coisa: pode ter mais coisa por card MELHOREI”
-- **Estado atual consultado (não implica aprovação):** As três partes principais do encéfalo são: / 1. {{c1::Cérebro}} / 2. Cerebelo / 3. {{c1::Tronco encefálico}}
-  - **Verso depois:** Cérebro, cerebelo e tronco encefálico formam as três divisões principais do encéfalo. / [IMG kh-mesencephalon-2.jpg]
+- **Estado atual consultado (não implica aprovação):** Partes do encéfalo: / {{c1::Cérebro}} / {{c1::Cerebelo}} / {{c1::Tronco encefálico}}
+  - **Verso depois:** These divisions have different cellular architectures and connections. The cerebral hemispheres belong to the cerebrum, while the brainstem continues into the spinal cord. / / [IMG nebli-u7an01-encefalo.png]
 - **Análise:** [elogio] Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo). Aqui: Troca esquema autonômico por visão sagital que mostra cérebro, cerebelo e tronco encefálico no mesmo quadro.
 
 ### Caso de feedback · note 1792588686971 (2026-uc07)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** O tronco encefálico é formado por: 1. {{c1:: Mesencéfalo }} 2. {{c1:: Ponte }} 3. {{c1:: Bulbo }}
 - **Davi, rodada 1 (2026-10-22):** “pode ter mais de um cloze por card estilo tópico assim economizamos cards melhorei o card, mas agora tem que sempre excluir quando fica assim faltando um dos clozes porque apaguei na edição”
-- **Estado atual consultado (não implica aprovação):** O tronco encefálico é formado por: / 1. {{c1::Mesencéfalo}} / 2. {{c1::Ponte}} / 3. {{c1::Bulbo}}
-  - **Verso depois:** O tronco encefálico reúne bulbo, ponte e mesencéfalo. A transição inferior é com a medula espinal; superiormente continua no diencéfalo. / [IMG kh-cap-3490.jpg]
+- **Estado atual consultado (não implica aprovação):** Tronco encefálico, de rostral a caudal: / {{c1::Mesencéfalo::M…}} / {{c1::Ponte::P…}} / {{c1::Bulbo::B…}}
+  - **Verso depois:** The midbrain lies above the pons, which lies above the medulla. The cerebellum attaches dorsally and is not a fourth part of the brainstem. / / [IMG nebli-u7an01-encefalo.png]
 - **Análise:** [elogio] Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo). Aqui: Troca esquema autonômico carregado por visão anatômica das três partes do tronco encefálico.
 
 ### Caso de feedback · note 1792588686986 (?)
@@ -5671,9 +5772,11 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 2 (2026-10-26):** “TODOS ESSES cards que tão nesse estilo podem virar um só card organizador, com clozes separados, para ficar mais fácil daria uns 4 cards juntos num maior, acho”
 - **Card na rodada 3:** Níveis da medula em corte : Corno lateral simpático evidente: {{c1::T1 a L2}} Intumescência cervical: {{c1::C5 a T1}} Intumescência lombossacral: {{c1::L2 a S2}}
 - **Davi, rodada 3 (2026-10-27):** “ajustar formatação comentário ruim imagem”
-- **Estado atual consultado (não implica aprovação):** Spinal cord levels in cross-section / Sympathetic lateral horn: {{c1::T1–L2}} / Cervical enlargement: {{c2::C5–T1}} / Lumbosacral enlargement: {{c2::L2–S2}}
-  - **Verso depois:** The lateral horn identifies the thoracolumbar sympathetic region. / Enlargements have larger anterior horns for limb motor neurons. / [IMG kh-cornu-laterale-medullae-spinalis.jpg]
-- **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova). Aqui: Três pistas espaciais em linhas; a figura de corno lateral é direcionada à distinção T1–L2.
+- **Card na rodada 4:** Spinal cord levels in cross-section Sympathetic lateral horn: {{c1::T1–L2}} Cervical enlargement: {{c2::C5–T1}} Lumbosacral enlargement: {{c2::L2–S2}}
+- **Davi, rodada 4 (2026-11-05):** “negrito”
+- **Estado atual consultado (não implica aprovação):** Segmentos da medula espinal / Corno lateral simpático: {{c1::T1–L2}} / Intumescência cervical: {{c2::C5–T1}} / Intumescência lombossacral: {{c2::L2–S3}}
+  - **Verso depois:** The sympathetic lateral horn is prominent in the thoracolumbar cord. Enlargements contain more neurons serving the limbs; these are spinal-segment ranges, not vertebral levels. L2–S3 follows the course guide and the external spinal-cord anatomy reference. / / Cervical / [IMG nebli-0511-medula-cervical.png] / Thoracic, with lateral horn / [IMG nebli-0511-medula-thoracic.png] / Lumbar / [IMG nebli-0511-medula-lumbar.png] / Sacral / [IMG nebli-0511-medula-sacral.png] /
+- **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova). Aqui: Negrito em cada critério de comparação, não somente no título; sem confundir nível medular com vértebra. Fonte conferida distingue nível medular de vértebra e indica L2–S3; figura vertebral substituída por quatro cortes reais da medula.
 
 ### Caso de feedback · note 1792328916159 (2026-uc07-medula-espinal-topografia-e-morfologia-da-medula-espinal)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Se o corno anterior é grande, o nível da medula espinal está entre {{c1::C5}} e {{c1::T1}} ou {{c1::L2}} e {{c1::S2}}
@@ -5692,8 +5795,8 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 ### Caso de feedback · note 1792588686967 (2026-uc07)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** A sinapse entre os neurônios pré e pós-ganglionares ocorre no gânglio {{c1::autônomo}}, onde ficam os corpos dos neurônios pós-ganglionares
 - **Davi, rodada 1 (2026-10-23):** “PODE MELHORAR ESSE CARD”
-- **Estado atual consultado (não implica aprovação):** Via eferente visceral (autônoma): / - neurônio pré-ganglionar: corpo no {{c1::SNC::S…}} / - sinapse no {{c1::gânglio autônomo::g…}} / - neurônio pós-ganglionar: do gânglio ao {{c1::órgão efetor::ó…}}
-  - **Verso depois:** - Na via somática basta um neurônio do SNC ao músculo; na visceral são dois, com sinapse no gânglio / [IMG kh-autonomic-ganglion.jpg]
+- **Estado atual consultado (não implica aprovação):** Via eferente visceral: / Pré-ganglionar: corpo no {{c1::sistema nervoso central}} / Sinapse no {{c1::gânglio autônomo}} / Pós-ganglionar: alcança o {{c1::órgão efetor}}
+  - **Verso depois:** The autonomic pathway uses a peripheral ganglionic relay. Visceral sensory afferents carry information inward and are distinct from this motor output. / / [IMG nebli-u7an01-funcional.png]
 - **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
 
 ### Caso de feedback · note 1792588686980 (2026-uc07)
@@ -5868,9 +5971,11 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** O tronco encefálico vai do plano do {{c1::forame magno}} até os {{c2::pedúnculos cerebrais}}
 - **Davi, rodada 1 (2026-10-23):** “imagem ruim”
 - **Davi, rodada 2 (2026-10-27):** “imagem”
-- **Estado atual consultado (não implica aprovação):** O tronco encefálico vai do plano do {{c1::forame magno}} até sua continuidade superior com o {{c2::diencéfalo}}.
-  - **Verso depois:** O tronco encefálico reúne bulbo, ponte e mesencéfalo. A transição inferior é com a medula espinal; superiormente continua no diencéfalo. / [IMG kh-cap-3490.jpg]
-- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7). Aqui: Corrige também o limite superior: os pedúnculos cerebrais pertencem ao mesencéfalo, parte do próprio tronco; a continuidade superior é com o diencéfalo. Substitui esquema sem foco por visão anatômica das três partes.
+- **Card na rodada 3:** O tronco encefálico vai do plano do {{c1::forame magno}} até sua continuidade superior com o {{c2::diencéfalo}}.
+- **Davi, rodada 3 (2026-11-05):** “NEGRITO”
+- **Estado atual consultado (não implica aprovação):** O tronco encefálico tem seu limite inferior no plano do {{c1::forame magno}} e continua superiormente com o {{c2::diencéfalo}}.
+  - **Verso depois:** The brainstem comprises medulla, pons and midbrain. It continues caudally as the spinal cord at the foramen magnum and rostrally toward the diencephalon. / / [IMG kh-cap-3490.jpg]
+- **Análise:** [negrito] Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7). Aqui: Negrito explicita região e eixo inferior/superior; verso em inglês conforme plano UC07.
 
 ### Caso de feedback · note 1792697127074 (2026-uc07)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** O canal vertebral começa na articulação {{c1::atlantoccipital}}, entre o osso occipital e o {{c2::atlas}} (C1)
@@ -5884,8 +5989,8 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 1 (2026-10-23):** “escrita estranha AJUSTA PARA SER EM TÓPICOS”
 - **Card na rodada 2:** Plexos por região da medula: - cervical: plexos {{c1::cervical}} (pescoço) e {{c1::braquial}} (membro superior) - lombossacral: plexo {{c1::lombossacral}} (membro inferior) - torácica: {{c1::nenhum}}
 - **Davi, rodada 2 (2026-10-31):** “CARD MT GRANDE”
-- **Estado atual consultado (não implica aprovação):** Plexos dos nervos espinais por região: / Pescoço → {{c1::cervical::c…}} / Membro superior → {{c1::braquial::b…}} / Membro inferior → {{c1::lombossacral::l…}} / Tórax → {{c1::nenhum::n…}}
-  - **Verso depois:** Thoracic ventral rami mostly continue as intercostal nerves. Plexuses redistribute fibers to the neck and limbs.
+- **Estado atual consultado (não implica aprovação):** Destino dos ramos anteriores: / Pescoço: plexo {{c1::cervical::c…}} / Membro superior: plexo {{c1::braquial::b…}} / Membro inferior: plexo {{c1::lombossacral::l…}} / Parede torácica típica: nervos {{c1::intercostais::i…}}
+  - **Verso depois:** Most thoracic ventral rami continue as intercostal nerves. Plexuses redistribute fibers among named peripheral nerves; dorsal rami do not form these limb plexuses. / / [IMG nebli-u7an01-plexos.png]
 - **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova). Aqui: O card de plexos tinha quatro regiões em linhas longas. A versão atual usa um mapa pescoço/membro superior/membro inferior/tórax, com termos curtos, mantendo a imagem e a suspensão se houver.
 
 ### Caso de feedback · note 1790999834254 (2026-uc08-fisiologia-09-motilidade-ii)
@@ -5928,9 +6033,9 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 ### Caso de feedback · note 1791630176396 (?)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** {{c2::siRNAs}} come from long exogenous dsRNA , whereas {{c2::miRNAs}} come from genome-encoded {{c1:: hairpin }} transcripts
 - **Davi, rodada 1 (2026-10-24):** “img”
-- **Estado atual consultado (não implica aprovação):** {{c2::siRNAs}} come from long exogenous dsRNA, whereas {{c2::miRNAs}} come from genome-encoded {{c1::hairpin}} transcripts
-  - **Verso depois:** - Both then share Dicer and RISC
-- **Análise:** [outro] Comentário pontual de Davi; ler o literal e aplicar a correção específica.
+- **Estado atual consultado (não implica aprovação):** RNA-silencing precursors / Long double-stranded RNA can generate {{c2::siRNAs}}. / Genome-encoded precursors of {{c2::miRNAs}} fold into {{c1::hairpin}} structures.
+  - **Verso depois:** Long double-stranded RNA can yield siRNAs, while miRNAs arise from genome-encoded hairpin precursors. Dicer processes many such precursors; a guide strand loaded into Argonaute directs silencing by sequence complementarity. / / [IMG nebli-bm54-sirna-via-p22-20261025.jpeg]
+- **Análise:** [outro] Comentário pontual de Davi; ler o literal e aplicar a correção específica. Aqui: O verso explica origem versus maquinaria compartilhada; conferir figura real de RNAi antes de aplicar.
 
 ### Caso de feedback · note 1791716425027 (2026-uc03-grand-round-03-espondilodiscite-tuberculosa)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Langhans giant cells have nuclei arranged at the {{c1:: periphery }} in a horseshoe-like pattern
@@ -5964,7 +6069,7 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** On the lateral surface of the cerebral hemisphere , the ascending ramus of the lateral sulcus enters the {{c1:: frontal lobe }}
 - **Davi, rodada 1 (2026-10-24):** “tem que deixar claro que é o cérebro card não fica claro pra eu só fazer do nada”
 - **Estado atual consultado (não implica aprovação):** On the lateral surface of the cerebral hemisphere, the ascending ramus of the lateral sulcus enters the {{c1::frontal lobe}}
-  - **Verso depois:** Together with the anterior horizontal ramus, it helps bound the pars triangularis of the inferior frontal gyrus. / [IMG kh-cap-358.jpg]
+  - **Verso depois:** The ascending ramus (S″ in the figure) rises from the lateral sulcus into the inferior frontal gyrus. It separates pars triangularis anteriorly from pars opercularis posteriorly. / / [IMG nebli-uc07-ramo-ascendente-usf.gif]
 - **Análise:** [outro] Comentário pontual de Davi; ler o literal e aplicar a correção específica.
 
 ### Caso de feedback · note 1792659591802 (2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas)
@@ -6129,9 +6234,9 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 1 (2026-10-24):** “IMAGEM de exemplos”
 - **Card na rodada 2:** siRNA pathway dsRNA → {{c1::Dicer}} → siRNA guide guide + RISC/{{c2::Argonaute}} → matching mRNA cut guide stays → next target
 - **Davi, rodada 2 (2026-11-04):** “(Codex)”
-- **Estado atual consultado (não implica aprovação):** siRNA pathway / dsRNA → {{c1::Dicer}} → siRNA guide / guide + RISC/{{c2::Argonaute}} → matching mRNA cut / guide stays → next target
-  - **Verso depois:** Dicer makes a short duplex; one strand stays with RISC. Catalytically active Argonaute cuts a sufficiently complementary target, and the guide can act again. / [IMG rnai-dicer-risc-20261031.png]
-- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
+- **Estado atual consultado (não implica aprovação):** siRNA silencing pathway / Processing long dsRNA: {{c1::Dicer}} makes short duplexes. / Cleaving complementary target mRNA: catalytic {{c2::Argonaute}} acts within RISC. / The guide strand remains available for another target.
+  - **Verso depois:** RISC is the RNA-induced silencing complex. One strand of the duplex becomes its guide; extensive guide–target pairing supports cleavage by a catalytically active Argonaute. / / [IMG nebli-bm54-sirna-via-p22-20261025.jpeg]
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7). Aqui: Retirada sequência ilegível guide guide; verbos distinguem processamento de clivagem e explicam reutilização.
 
 ### Caso de feedback · note 1792786400257 (2026-uc03-biologia-molecular-54-rnas-nao-codificadores)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Perfect pairing lets an siRNA-loaded RISC silence its target by {{c1:: Argonaute-mediated mRNA cleavage }}
@@ -6150,8 +6255,8 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Card na rodada 3:** After Argonaute cleaves a target mRNA, RISC retains the {{c1::siRNA guide}} and can cleave another matching transcript.
 - **Davi, rodada 3 (2026-10-30):** “IMAGEM DESSE PROCESSO”
 - **Estado atual consultado (não implica aprovação):** After Argonaute cleaves a target mRNA, RISC retains the {{c1::siRNA guide}} and can cleave another matching transcript.
-  - **Verso depois:** The cleaved mRNA is degraded, while the siRNA guide remains in RISC to find another matching transcript. / [IMG rnai-dicer-risc-20261031.png]
-- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7). Aqui: A figura do ciclo Dicer→RISC/Argonauta→mRNA cortado→guia reutilizado foi incluída no verso e conferida na resposta renderizada. A explicação foi condensada para a consequência que o card cobra: o mRNA é degradado, a fita guia permanece e pode reconhecer outro alvo. O organizador correspondente é 1792786399910.
+  - **Verso depois:** The cleaved mRNA is degraded, while the siRNA guide remains in RISC to find another matching transcript. / / / [IMG nebli-bm54-sirna-via-p22-20261025.jpeg]
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7). Aqui: Esquema textual próprio trocado por figura real de Dicer/Argonaute e alvo clivado; o verso explicita permanência da guia.
 
 ### Caso de feedback · note 1792786402034 (2026-uc03-biologia-molecular-54-rnas-nao-codificadores)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** By recognizing double-stranded RNA from viruses and active transposons, endogenous siRNA pathways defend genome integrity through {{c1:: sequence-specific RNA degradation }}
@@ -6205,8 +6310,8 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 1 (2026-10-26):** “negrito + sublhinado zuados aprnede como o anking faz profundamente e cria uma ideia para ter em todos os cards”
 - **Davi, rodada 2 (2026-10-27):** “comentário grande”
 - **Estado atual consultado (não implica aprovação):** Which complex links transcriptional activators to the RNA polymerase II machinery? / {{c1::Mediator}}
-  - **Verso depois:** Mediator connects enhancer-bound activators to the Pol II preinitiation complex; general factors position Pol II at the promoter.
-- **Análise:** [negrito] Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7). Aqui: O contraste Mediator versus fatores gerais já estava na frente; o verso repetia demais. Encurtar para a ponte ativador–Mediator–complexo de pré-iniciação mantém o mecanismo e cabe na revisão rápida.
+  - **Verso depois:** Mediator connects enhancer-bound activators to the Pol II preinitiation complex; general factors position Pol II at the promoter. / / [IMG nebli-0511-bm46-p17.png]
+- **Análise:** [negrito] Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7). Aqui: Substituída ausência de figura por mecanismo real com Mediator entre ativador e maquinaria Pol II.
 
 ### Caso de feedback · note 1791627547602 (2026-uc03-biologia-molecular-46-expressao-eucariotos-i)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** The {{c1:: promoter }} is where {{c2:: RNA polymerase II ::polymerase}} and general transcription factors bind upstream of a gene
@@ -6220,8 +6325,8 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Chromoblastomycosis is caused by pigmented (dematiaceous) molds , mainly {{c1:: Fonsecaea pedrosoi }} in Brazil
 - **Davi, rodada 1 (2026-10-26):** “COMENTÁRIO PODE AGREGAR ALGO SOBRE A DOENÇA REALMENTE”
 - **Estado atual consultado (não implica aprovação):** Chromoblastomycosis is caused by pigmented (dematiaceous) molds, mainly {{c1::Fonsecaea pedrosoi}} in Brazil
-  - **Verso depois:** These fungi are implanted through skin trauma and cause a chronic cutaneous or subcutaneous infection. In tissue, pigmented muriform cells provoke persistent granulomatous inflammation and fibrosis, contributing to slowly growing verrucous lesions. Muriform cells distinguish chromoblastomycosis from infections that retain pigmented hyphae in tissue.
-- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
+  - **Verso depois:** Traumatic implantation produces a chronic granulomatous lesion. Pigmented muriform cells in tissue distinguish chromoblastomycosis from phaeohyphomycosis, in which pigmented hyphae remain visible. / / GroupSite or contextExamplesSuperficialOuter stratum corneum or hair surfacePityriasis versicolorCutaneousKeratinized skin, hair or nailsDermatophytosesSubcutaneousDermis/subcutis after inoculationSporotrichosis; chromoblastomycosis; eumycetoma; lobomycosisPrimary systemicDeep infection, often after inhalationHistoplasmosis; paracoccidioidomycosisOpportunisticImpaired host defenses favor invasionCandidiasis; aspergillosis; cryptococcosis / Depth and opportunism are different axes. Candida can cause mucocutaneous or invasive disease; cryptococcosis can also affect immunocompetent hosts.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas. Aqui: Encurtado o verso mantendo causa e contraste morfológico, retirando repetição clínica.
 
 ### Caso de feedback · note 1791629587148 (2026-uc03-imunologia-49-ativacao-celulas-b)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** The {{c1:: precursor }} B cell is characterized by cytoplasmic μ
@@ -6241,15 +6346,15 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Transmission of Histoplasma occurs through the {{c1:: respiratory }} tract
 - **Davi, rodada 1 (2026-10-26):** “COMENTÁRIO PODERIA FALAR DO MORCEGO, NÃO ESSA BABOSEIRA”
 - **Estado atual consultado (não implica aprovação):** Transmission of Histoplasma occurs through the {{c1::respiratory}} tract
-  - **Verso depois:** Histoplasma grows in soil enriched with bird or bat droppings. Disturbing contaminated material in caves or roosts releases airborne microconidia, which reach the lungs when inhaled. Bats can harbor the fungus and shed it in guano; the usual human exposure is environmental inhalation, not a bat bite. Cryptococcus can also enter by inhalation, so this route is not exclusive to dimorphic fungi.
-- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
+  - **Verso depois:** Disturbing soil enriched with bat or bird droppings releases airborne microconidia, which reach the lungs when inhaled. Cave and roost exposure are environmental risks; the usual transmission is not a bat bite. / / [IMG b39abbbf00aa0b03a99911510c118e8c.webp]
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas. Aqui: Mantida a cadeia ambiente→aerossol→pulmão e retirado contraste lateral desnecessário.
 
 ### Caso de feedback · note 1791631345113 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Activators recruit {{c1::chromatin-remodeling complexes}} to reposition nucleosomes and expose regulatory DNA.
 - **Davi, rodada 1 (2026-10-26):** “indução ruim, acerto por contexto, não por saber”
 - **Estado atual consultado (não implica aprovação):** Activators recruit {{c1::chromatin-remodeling complexes}} to reposition nucleosomes and expose regulatory DNA.
-  - **Verso depois:** These complexes use ATP to move or restructure nucleosomes. Histone acetyltransferases instead modify histone tails; both can make DNA more accessible, through different mechanisms.
-- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
+  - **Verso depois:** These complexes use ATP to move or restructure nucleosomes. Histone acetyltransferases instead modify histone tails; both can make DNA more accessible, through different mechanisms. / / [IMG nebli-0511-bm52-p29.png]
+- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares. Aqui: A figura real separa remodelador de cromatina e HAT e mostra recrutamento por ativadores.
 
 ### Caso de feedback · note 1791716410077 (2026-uc03-imunologia-22-mecanismos-efetores)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Macrophages recruited to a granuloma can differentiate from circulating {{c1:: monocytes }}
@@ -6262,7 +6367,7 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Mycobacteria can survive inside macrophages by impairing {{c2::phagolysosomal}} fusion
 - **Davi, rodada 1 (2026-10-26):** “poderia aprofundar mais no comentário, não fazer uns comentários away como faz isso?”
 - **Estado atual consultado (não implica aprovação):** Mycobacteria can survive inside macrophages by impairing {{c2::phagolysosomal}} fusion
-  - **Verso depois:** After engulfment, the phagosome normally acidifies and acquires lysosomal enzymes that help kill its contents. M. tuberculosis interferes with this maturation, limiting delivery of the acidic, degradative environment. Persistent intracellular bacilli sustain antigen presentation and T-cell signals, helping maintain the granuloma. IFN-γ enhances macrophage antimicrobial activity, but activation does not guarantee sterilization.
+  - **Verso depois:** A macrophage normally fuses its phagosome with lysosomes and acidifies the compartment. Live M. tuberculosis can delay maturation and fusion, preserving an intracellular niche; IFN-γ activation helps restore killing. / / [IMG nebli-pt47-mtb-pmc3170014-f1.jpg]
 - **Análise:** [aula] Card da aula errada, fora do escopo ou clínica demais. Cada assunto mora numa aula; clínica lateral ≤ 7%; o deck é o que a aula ensina.
 
 ### Caso de feedback · note 1791762425575 (2026-uc19-farmacologia-01-introducao-mecanismos)
@@ -6276,8 +6381,8 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** B-cell maturation Bone marrow {{c1::Pro-B::P…}}: no complete μ chain or surface Ig {{c1::Pre-B::P…}}: cytoplasmic μ and pre-BCR, no conventional light chain {{c1::Immature B::I…}}: surface IgM, no IgD
 - **Davi, rodada 1 (2026-10-26):** “FALTA QUE ESSE CARD TENHA MAIS DETALHES DE CADA TIPO, PODE REALMENTE SER DIFERENTE + FALTA COMENTÁRIO QUE AGREGUE”
 - **Estado atual consultado (não implica aprovação):** B-cell maturation / Bone marrow / {{c1::Pro-B::P…}}: no complete μ chain or surface Ig / {{c1::Pre-B::P…}}: cytoplasmic μ and pre-BCR, no conventional light chain / {{c1::Immature B::I…}}: surface IgM, no IgD / Peripheral cells / {{c2::Mature naive B::M…}}: surface {{c3::IgM and IgD::I…}} / {{c2::Plasma cells::P…}}: antibody-secreting effectors / {{c2::Memory B cells::M…}}: persistent antigen-experienced B cells
-  - **Verso depois:** A productive heavy-chain rearrangement allows μ to pair with a surrogate light chain in the pre-BCR. Light-chain rearrangement then creates a complete IgM BCR. Mature naive B cells coexpress IgM and IgD by alternative RNA processing, not class-switch recombination. After antigen stimulation, activated clones can generate plasma cells or memory cells; those are alternative fates, not a required plasma-to-memory sequence.
-- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas.
+  - **Verso depois:** A productive μ chain forms the pre-BCR with a surrogate light chain; conventional light-chain rearrangement then produces surface IgM. Mature naive B cells coexpress IgM and IgD by alternative RNA processing. Plasma and memory cells are alternative antigen-experienced fates, not obligatory steps in one linear sequence.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas. Aqui: Preservada organização editada por Davi; retiradas repetições sem apagar o mecanismo e a bifurcação de destinos.
 
 ### Caso de feedback · note 1792588686981 (2026-uc07)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** No mesencéfalo , o {{c1::aqueduto cerebral}} separa o teto dorsal do tegmento ventral .
@@ -6375,9 +6480,9 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 2 (2026-10-27):** “MT GRANDE O CARD FALTOU DISTRIBUIR NEGRITO E NÃO DEIXAR SÓ NO TÍTULO COMENTÁRIO GRANDE TB”
 - **Card na rodada 3:** Retroviral replication Reverse transcription: host {{c1::tRNA}} primes DNA. Integration: viral DNA joins host DNA. Transcription: host {{c2::RNA polymerase II}} makes viral RNA. Unspliced RNA: genome
 - **Davi, rodada 3 (2026-10-27):** “imagem card zuado”
-- **Estado atual consultado (não implica aprovação):** Retroviral replication / Viral RNA → DNA: host {{c1::tRNA}} primes reverse transcription. / Integrated provirus → viral RNA: host {{c1::RNA polymerase II}} transcribes it.
-  - **Verso depois:** Reverse transcriptase makes DNA before integrase inserts it into the host genome. Host Pol II then transcribes the provirus. / [IMG nebli-retrovirus-cycle-20261027.svg]
-- **Análise:** [negrito] Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7). Aqui: Reduz a frente à sequência causal de três passos, com figura focada e sem quarto item lateral.
+- **Estado atual consultado (não implica aprovação):** Retroviral gene expression / Reverse transcription starts from a host {{c1::tRNA}} primer. / After integration, host {{c1::RNA polymerase II}} transcribes the provirus.
+  - **Verso depois:** Reverse transcriptase makes DNA before integration. Host RNA polymerase II then makes transcripts from the integrated provirus. / / [IMG nebli-0411-mb58-72.png]
+- **Análise:** [negrito] Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7). Aqui: Destaque nos momentos que discriminam primer da transcrição posterior, mantendo índices e figura real.
 
 ### Caso de feedback · note 1792695052637 (2026-uc03-microbiologia-58-multiplicacao-viral-antivirais)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** The RdRp of RNA viruses catalyzes both new {{c1:: genomes }} and {{c1:: mRNAs }}, so the virus must decide which to make
@@ -6392,8 +6497,8 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** In negative-strand RNA viruses , the polymerase uses a genome coated with {{c1::nucleoprotein}} as its transcription template.
 - **Davi, rodada 1 (2026-10-26):** “frase tem que ser mais compreensível RdRp fica difícil de compreender do nada ainda vc não consegue fazer cards que ensinam mt do nada, esse ficou ruim temos que calibrar mais os autorais”
 - **Estado atual consultado (não implica aprovação):** In negative-strand RNA viruses, the polymerase uses a genome coated with {{c1::nucleoprotein}} as its transcription template.
-  - **Verso depois:** The viral RNA-dependent RNA polymerase copies RNA into RNA. It enters with the nucleocapsid and transcribes mRNA from the protected genome, because the negative strand itself cannot be translated by ribosomes.
-- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares.
+  - **Verso depois:** Negative-sense viral RNA cannot serve directly as mRNA. It remains associated with nucleoprotein in a ribonucleoprotein complex; the virion also carries RNA-dependent RNA polymerase to begin transcription. The helical nucleocapsid panel illustrates RNA wrapped by repeated capsid-protein subunits. / / [IMG nebli-0511-nucleocapsideo.png]
+- **Análise:** [estranho] Card estranho que não ensina: frase abstrata, sem processo, decora um nome solto. Custo-efetividade baixa. Reescrever para carregar um processo compreensível (o que acontece, por quê, e a consequência), como os exemplares. Aqui: Incluído painel real da aula de estrutura viral com RNA e subunidades proteicas helicoidais; verso distingue revestimento e polimerase.
 
 ### Caso de feedback · note 1792695053893 (2026-uc03-microbiologia-58-multiplicacao-viral-antivirais)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Which viral genetic phenomenon can cause antigenic shift ? {{c1::Reassortment}}
@@ -6498,18 +6603,18 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Card na rodada 2:** A LexA–Gal4 hybrid binds DNA through LexA; Gal4 supplies the {{c1::activation domain}} that recruits transcription machinery.
 - **Davi, rodada 2 (2026-10-30):** “CARD MAL ESCRITO”
 - **Davi, rodada 3 (2026-10-31):** “imagem”
-- **Estado atual consultado (não implica aprovação):** A LexA–Gal4 hybrid binds DNA through LexA; Gal4 supplies the {{c1::activation domain}} that recruits transcription machinery.
-  - **Verso depois:** DNA binding and activation are separable functions. The hybrid turns on a LexA-controlled reporter only when its Gal4 activation domain is present.
-- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7). Aqui: A nota LexA–Gal4 foi retirada da BM46 e não tem tag de aula. Apesar disso seguia ativa. Em 01/11 foi suspensa; o pedido de imagem não justifica ressuscitar uma nota fora do deck sem comparar o substituto. Texto, comentário e histórico foram mantidos.
+- **Estado atual consultado (não implica aprovação):** A LexA–Gal4 hybrid binds a LexA DNA site, while the Gal4 segment supplies its {{c1::activation domain}}.
+  - **Verso depois:** DNA binding and activation are separable protein functions. Replacing the DNA-binding domain changes which site the hybrid recognizes without removing the Gal4 activation function. / / [IMG nebli-0511-gal4-hibrido.png]
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7). Aqui: A recuperação distingue modularidade das duas funções; o verso explica o resultado experimental.
 
 ### Caso de feedback · note 1791630173920 (?)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Attenuation works only because bacterial transcription and {{c1:: translation }} are coupled
 - **Davi, rodada 1 (2026-10-27):** “card estranho”
 - **Card na rodada 2:** In trp attenuation , abundant tryptophan lets the leader ribosome advance, allowing the {{c1::terminator}} hairpin to form.
 - **Davi, rodada 2 (2026-10-28):** “imagem”
-- **Estado atual consultado (não implica aprovação):** In trp attenuation, abundant tryptophan lets the leader ribosome advance, allowing the {{c1::terminator}} hairpin to form.
-  - **Verso depois:** The ribosome covers the region needed for the antiterminator. RNA polymerase then stops before the structural genes.
-- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7). Aqui: ‘Transcription and translation are coupled’ entregava translation; agora o card recupera a consequência do ribossomo no operon trp.
+- **Estado atual consultado (não implica aprovação):** In trp attenuation with scarce tryptophan, the stalled leader ribosome permits an {{c1::antiterminator}} hairpin to form.
+  - **Verso depois:** Stalling at the leader Trp codons leaves region 2 available to pair with region 3. This 2:3 antiterminator prevents 3:4 pairing, allowing transcription of the structural genes. / / [IMG nebli-0511-trp-comparacao.png]
+- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7). Aqui: Duas frentes cobravam Trp alto e terminador; esta passa a cobrar a condição oposta por mecanismo, preservando ID e histórico.
 
 ### Caso de feedback · note 1791630174545 (?)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** In the lab, crRNA and tracrRNA are fused into one {{c1:: single-guide }} RNA
@@ -6524,9 +6629,10 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 ### Caso de feedback · note 1791630905957 (2026-uc03-microbiologia-50-micoses-sistemicas)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** {{c2:: Histoplasma ::Which fungus}} targets the {{c1:: reticuloendothelial }} system, ultimately resulting in dissemination to the liver and spleen
 - **Davi, rodada 1 (2026-10-27):** “coloca no add-on quando ler: se eu deixar bandeira vermelha, é porque quero que vc troque algo no card identifica o que é, troca e volta a bandeira que estava quando eu pedir para vc ler todos os comentários deixa anotado aqui no comentário também assim bandeira vermelha CORRIGIDO”
+- **Davi, rodada 2 (2026-11-04):** “o coração da marcação do lado da bandeira está tampando a bandeira deixa ele um pouquinho mais à esquerda”
 - **Estado atual consultado (não implica aprovação):** {{c2::Histoplasma::Which fungus}} targets the {{c1::reticuloendothelial}} system, ultimately resulting in dissemination to the liver and spleen
   - **Verso depois:** - Gross presentation may reveal calcifications in these organs / Other clinical features of disseminated Histoplasmosis include: / - Nonspecific inflammatory symptoms (fatigue, fever, weight loss) / - Bilateral reticulonodular pulmonary infiltrates / - Lymphadenopathy / - Pancytopenia / - Bilateral adrenal enlargement /
-- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas. Aqui: Código do complemento atualizado; mudanças de atalho exigem reinício do Anki para carregar.
+- **Análise:** [porque] Verso que não explica: repete a frente ou falta o porquê. Todo verso traz a razão, a consequência ou o contraste, em 1–2 linhas. Aqui: O seletor antigo não encontrava #_flag nativo e a alternativa sobrepunha o coração à bandeira. Com bandeira oculta, o retângulo zero levava o coração para fora da tela. Conferência Qt real após corrigir o seletor e a posição alternativa: quatro estados visíveis,12px com bandeira; oito combinações de layout passaram no teste.
 
 ### Caso de feedback · note 1791826286795 (2026-uc19-deck-prova-1-farmacodinamica)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Which drugs have the same maximal efficacy ? {{c1:: A and B }}
@@ -6623,9 +6729,10 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 2 (2026-10-28):** “seria melhor se fosse mais específico nas veias”
 - **Card na rodada 3:** Na hipertensão portal , as veias {{c1::paraumbilicais}} comunicam-se com as {{c1::epigástricas superficiais}} e produzem a cabeça de medusa.
 - **Davi, rodada 3 (2026-11-03):** “IMAGEM”
-- **Estado atual consultado (não implica aprovação):** Na hipertensão portal, as veias {{c1::paraumbilicais}} comunicam-se com as {{c1::epigástricas superficiais}} e produzem a cabeça de medusa.
+- **Davi, rodada 4 (2026-11-05):** “negrito”
+- **Estado atual consultado (não implica aprovação):** Na hipertensão portal, as veias {{c1::paraumbilicais}} comunicam-se com as {{c1::epigástricas superficiais}}, produzindo veias dilatadas ao redor do umbigo, a cabeça de medusa.
   - **Verso depois:** Paraumbilical veins carry portal blood near the umbilicus. Superficial epigastric veins drain the abdominal wall into the systemic circulation. / [IMG an11-anastomoses-moore-recorte-20261027.png]
-- **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7). Aqui: Davi pediu os nomes das veias: a frente agora identifica paraumbilicais do sistema porta e epigástricas superficiais sistêmicas. A suspensão foi preservada; a correção do executor não equivale a aprovação.
+- **Análise:** [negrito] Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7). Aqui: Negrito distribuído na causa e achado visível; preservados os dois vasos como alvo.
 
 ### Caso de feedback · note 1792753617695 (2026-uc03-microbiologia-59-patogenese-viral)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** A red blood cell may bind a virus but is not {{c1:: permissive }}, lacking machinery to copy a genome
@@ -6711,7 +6818,7 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Card na rodada 2:** Influenza and sialic acid: {{c1::Hemagglutinin::}}: binds it to enter {{c1::Neuraminidase::}}: cleaves it to leave
 - **Davi, rodada 2 (2026-11-03):** “agora ficou top”
 - **Davi, rodada 3 (2026-11-04):** “VISTO, 03, 11, 26 (Codex)”
-- **Estado atual consultado (não implica aprovação):** Influenza and sialic acid: / {{c1::Hemagglutinin::}}: binds it to enter / {{c1::Neuraminidase::}}: cleaves it to leave
+- **Estado atual consultado (não implica aprovação):** Influenza and sialic acid: / {{c1::Hemagglutinin}}: binds it to {{c2::enter}} / {{c1::Neuraminidase}}: cleaves it to {{c2::leave}}
   - **Verso depois:** Neutralizing antibodies block hemagglutinin. / Oseltamivir blocks neuraminidase, so new virions stay stuck to the cell.
 - **Análise:** [elogio] Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo). Aqui: A nota virou organizador vertical da influenza: HA liga ácido siálico na entrada; NA o cliva na saída. Cada lacuna cobra o nome da proteína em uma etapa, enquanto a função oposta fica visível. O card de NA continua como detalhe da clivagem, com contexto influenza explícito. Exemplo a copiar para pares que a aula contrapõe.
 
@@ -6720,9 +6827,9 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 1 (2026-10-30):** “cloze num lugar zuado”
 - **Card na rodada 2:** Viruses with an early/late gene program : Early mRNAs: {{c1::polymerase::p…}}, copies the genome Late mRNAs: {{c1::capsid::c…}} proteins, package it
 - **Davi, rodada 2 (2026-11-04):** “(Codex)”
-- **Estado atual consultado (não implica aprovação):** Viruses with an early/late gene program: / Early mRNAs: {{c1::polymerase::p…}}, copies the genome / Late mRNAs: {{c1::capsid::c…}} proteins, package it
-  - **Verso depois:** The genome must be copied before there is anything to package. / Many RNA viruses express their genes all at once.
-- **Análise:** [cloze_local] Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso. Aqui: A lacuna antiga escondia apenas os rótulos nonstructural/structural, quase entregues pela frase. Agora o programa precoce/tardio é contexto visível e as lacunas curtas cobram a função concreta: proteínas de replicação do genoma e proteínas estruturais do vírion. O verso limita a regra aos vírus que têm tal programa.
+- **Estado atual consultado (não implica aprovação):** Viral early/late gene programs / Before genome replication: early {{c1::polymerase::p…}} expression supplies copying enzymes. / After genome replication: late {{c1::capsid::c…}} proteins package the progeny genomes.
+  - **Verso depois:** This timing separates preparation for genome replication from particle assembly. The details vary among virus families; RNA viruses do not all express every gene simultaneously.
+- **Análise:** [cloze_local] Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso. Aqui: Negrito destaca ordem e função; retirado absoluto incorreto sobre todos os vírus RNA.
 
 ### Caso de feedback · note 1792695054792 (2026-uc03-microbiologia-58-multiplicacao-viral-antivirais)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Viral inclusion bodies by location: - intranuclear: {{c1:: herpes }}, {{c1:: adeno }}, {{c1:: parvo }} - intracytoplasmic: {{c2:: pox }}, {{c2:: reo }}, {{c2:: paramyxo }}, {{c2:: rabies }}
@@ -6756,8 +6863,8 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 2 (2026-11-03):** “FAZ UMA ANÁLISE PARA APRENDER COMO USAR NEGRITO E SUBLINHADO, ONDE FICA BOM E COMO O AGENTE REVISOR TEM QUE APONTAR ESSE TIPO DE COISA NA FORMAÇÃO DO DECK”
 - **Davi, rodada 3 (2026-11-04):** “VISTO, 03, 11, 26 (Codex)”
 - **Estado atual consultado (não implica aprovação):** A eukaryotic repressor beside an activator can cover its activation domain and prevent recruitment of {{c1::coactivators}}.
-  - **Verso depois:** This blocks activation without removing the activator from DNA. Competition for the DNA site is a different mechanism.
-- **Análise:** [negrito] Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7). Aqui: 'Masking' foi trocado por uma ação concreta: repressor ao lado do ativador cobre o domínio de ativação e impede recrutar coativadores. O verso distingue esse mecanismo da competição pelo sítio de DNA.
+  - **Verso depois:** This blocks activation without removing the activator from DNA. Competition for the DNA site is a different mechanism. / / [IMG nebli-0511-repressor-mascaramento.png]
+- **Análise:** [negrito] Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7). Aqui: Painel real da aula mostra repressor cobrindo superfície do ativador sem removê-lo do DNA; separado de competição por sítio.
 
 ### Caso de feedback · note 1793199677933 (2026-uc03-microbiologia-60-virologia-pratica)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Cytopathic effect includes: - {{c1::altered cell shape::a…}} - {{c1::loss of adhesion::l…}} - {{c1::lysis::l…}} - {{c2::membrane fusion::m…}} - {{c2::inclusion bodies::i…}} - {{c2::apoptosis::a…}}
@@ -6812,7 +6919,7 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 2 (2026-11-03):** “quero que apareça um like ao lado da bandeira nos cards que eu der gostei”
 - **Estado atual consultado (não implica aprovação):** Regulatory RNAs act by: / Folding into a ligand-sensitive shape: {{c1::riboswitch}} / Base-pairing with a target RNA: {{c1::siRNA}} / Recruiting silencing proteins onto its own chromosome: {{c1::Xist}}
   - **Verso depois:** A riboswitch changes shape when a molecule binds. siRNA guides Argonaute to complementary RNA. Xist coats the X chromosome that produces it and recruits proteins that establish repressive chromatin.
-- **Análise:** [outro] Comentário pontual de Davi; ler o literal e aplicar a correção específica. Aqui: 'Scaffolding' precisa virar ação observável: Xist fica no próprio cromossomo e reúne/recruta proteínas que silenciam sua cromatina. Preferir 'recruiting proteins on chromatin' a jargão de andaime sem mecanismo.
+- **Análise:** [outro] Comentário pontual de Davi; ler o literal e aplicar a correção específica. Aqui: O seletor antigo não encontrava #_flag nativo e a alternativa sobrepunha o coração à bandeira. Com bandeira oculta, o retângulo zero levava o coração para fora da tela. Conferência Qt real após corrigir o seletor e a posição alternativa: quatro estados visíveis,12px com bandeira; oito combinações de layout passaram no teste.
 
 ### Caso de feedback · note 1792695021189 (2026-uc03-microbiologia-58-multiplicacao-viral-antivirais)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Uncoating releases the genome directly in the cytoplasm, after {{c1:: endosome acidification }}, or at the {{c2:: nuclear pore }}
@@ -6886,9 +6993,10 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Davi, rodada 1 (2026-11-03):** “falta um organizador do que estimula cada hormônio gástrico desses que tem card mt parecido”
 - **Card na rodada 2:** GI hormone release by digestive signals: - Stomach distension and nutrients → {{c1::gastrin::G…}} - Duodenal acid → {{c1::secretin::S…}} - Duodenal fat and amino acids → {{c2::cholecystokinin (CCK)::C
 - **Davi, rodada 2 (2026-11-04):** “(Codex)”
-- **Estado atual consultado (não implica aprovação):** GI hormone release by digestive signals: / - Stomach distension and nutrients → {{c1::gastrin::G…}} / - Duodenal acid → {{c1::secretin::S…}} / - Duodenal fat and amino acids → {{c2::cholecystokinin (CCK)::C…}}
-  - **Verso depois:** Gastrin comes from antral G cells, secretin from duodenal S cells, and cholecystokinin (CCK) from duodenal/jejunal I cells. Acid is the main secretin cue here; duodenal fatty acids can also stimulate it.
-- **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova).
+- **Davi, rodada 3 (2026-11-05):** “indução ruim”
+- **Estado atual consultado (não implica aprovação):** GI hormones released by digestive signals / Antral peptides and stomach distension → {{c1::gastrin}} / Acid entering the duodenum → {{c1::secretin}} / Duodenal fat and amino acids → {{c2::cholecystokinin (CCK)}}
+  - **Verso depois:** G cells release gastrin, which promotes gastric acid secretion. Duodenal S cells release secretin to promote bicarbonate secretion; I cells release CCK to promote pancreatic enzymes and gallbladder contraction.
+- **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova). Aqui: A pista distingue estímulo, célula e função sem esconder adjetivo genérico nem induzir pela inicial.
 
 ### Caso de feedback · note 1791014714525 (2026-uc08-fisiologia-06-secrecao-gastrica)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** During the {{c1:: gastric }} phase, stomach distension and nutrients stimulate acid secretion through neural reflexes and gastrin.
@@ -6902,24 +7010,25 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 ### Caso de feedback · note 1791628675571 (2026-uc03-microbiologia-48-micoses-subcutaneas)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** The diagnostic finding of chromoblastomycosis is brown, thick-walled {{c1::sclerotic bodies}} in pus, crusts or tissue
 - **Davi, rodada 1 (2026-11-03):** “MELHOREI, APRENDE VISTO, 01, 11, 26”
+- **Davi, rodada 2 (2026-11-05):** “esses cards de micoses podem receber, em vários, uma tabela que diz quais são cutâneas, quais subcutâneas, quais susperficiais, oportunistas e sistêmicas tabela organizada tipo a das citocinas para o dekc de ativação das céls. t e b”
 - **Estado atual consultado (não implica aprovação):** The diagnostic finding of chromoblastomycosis is brown, thick-walled {{c1::sclerotic bodies}} in pus, crusts or tissue
-  - **Verso depois:** - Also called muriform cells or copper pennies; they divide by septation / / [IMG mb48-corpos-escleroticos.png]
-- **Análise:** [elogio] Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo).
+  - **Verso depois:** - Also called muriform cells or copper pennies; they divide by septation / / [IMG mb48-corpos-escleroticos.png] / / GroupSite or contextExamplesSuperficialOuter stratum corneum or hair surfacePityriasis versicolorCutaneousKeratinized skin, hair or nailsDermatophytosesSubcutaneousDermis/subcutis after inoculationSporotrichosis; chromoblastomycosis; eumycetoma; lobomycosisPrimary systemicDeep infection, often after inhalationHistoplasmosis; paracoccidioidomycosisOpportunisticImpaired host defenses favor invasionCandidiasis; aspergillosis; cryptococcosis / Depth and opportunism are different axes. Candida can cause mucocutaneous or invasive disease; cryptococcosis can also affect immunocompetent hosts.
+- **Análise:** [elogio] Na verdade é elogio ou correção feita por Davi: usar a versão atual como modelo (o que Davi mudou mostra o padrão certo). Aqui: A frente é edição aprovada porDavi e deve permanecer. O pedido novo é apoio transversal no verso em várias notas; categorias de profundidade e oportunismo se sobrepõem, portanto tabela não deve apresentar cinco caixas mutuamente excludentes.
 
 ### Caso de feedback · note 1791630174044 (?)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** A riboswitch can block translation by folding over the {{c1:: ribosome-binding site }}
 - **Davi, rodada 1 (2026-11-03):** “imagem analisa todos os que eu já disse que precisa de imagem e coloca indicações + gates para quando pôr imagem”
 - **Davi, rodada 2 (2026-11-04):** “(Codex)”
 - **Estado atual consultado (não implica aprovação):** A riboswitch can block translation by folding over the {{c1::ribosome-binding site}}
-  - **Verso depois:** Other riboswitches form a transcriptional terminator instead. / / [IMG bm54-riboswitch-traducao-slide11-20261103.png] / Aula BM54, slide 11: a dobra cobre o sítio de ligação do ribossomo.
+  - **Verso depois:** Other riboswitches form a transcriptional terminator instead. / / [IMG bm54-riboswitch-traducao-slide11-20261103.png]
 - **Análise:** [dica] Falta dica no cloze quando a pergunta é ambígua (parte do duodeno, fase, ramo de qual artéria). Dica curta no próprio cloze, sem entregar.
 
 ### Caso de feedback · note 1791630175095 (?)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** When CRISPR/Cas9 makes a double-strand break to knock out a gene, the cell repairs it by error-prone {{c1::nonhomologous end joining}}
 - **Davi, rodada 1 (2026-11-03):** “CLOZE MT GRANDE”
 - **Estado atual consultado (não implica aprovação):** When CRISPR/Cas9 makes a double-strand break to knock out a gene, the cell repairs it by error-prone {{c1::nonhomologous end joining}}
-  - **Verso depois:** The small insertions and deletions it leaves disrupt the reading frame, so the gene is lost. / A Cas9 nickase making paired single-strand breaks favors homology-directed repair, which is precise. / / [IMG fd83418325844d4377263dff87454648.jpg]
-- **Análise:** [cloze_longo] Cloze com palavras demais: difícil de lembrar e de conferir. No máximo 3 palavras no cloze; o resto fica visível ou vai para o verso.
+  - **Verso depois:** Nonhomologous end joining repairs the break without a homologous donor template. End processing can produce indels; only some repair products disrupt gene function. An indel outside a coding sequence or divisible by three need not cause a frameshift. / / [IMG fd83418325844d4377263dff87454648.jpg]
+- **Análise:** [cloze_longo] Cloze com palavras demais: difícil de lembrar e de conferir. No máximo 3 palavras no cloze; o resto fica visível ou vai para o verso. Aqui: Removidas garantias falsas de frameshift/knockout e de reparo preciso por nickase pareada.
 
 ### Caso de feedback · note 1792170505326 (2026-uc03-microbiologia-43-biologia-fungos)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** What class of antifungals inhibits cell wall synthesis ? {{c1::Echinocandins (-fungin)}}
@@ -6949,9 +7058,9 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** (+) RNA virus cycle , in the cytoplasm: - genome translated as one {{c1::polyprotein::p…}} - viral {{c1::protease::p…}} frees the RNA-dependent RNA polymerase - polymerase copies a {{c1::negative::n…}
 - **Davi, rodada 1 (2026-11-03):** “MAIS CLOZES POR VEZ”
 - **Davi, rodada 2 (2026-11-04):** “(Codex)”
-- **Estado atual consultado (não implica aprovação):** (+) RNA virus cycle, in the cytoplasm: / - genome translated as one {{c1::polyprotein::p…}} / - viral {{c1::protease::p…}} frees the RNA-dependent RNA polymerase / - polymerase copies a {{c1::negative::n…}} strand / - that strand templates new genomes
-  - **Verso depois:** The same (+) RNA is mRNA and genome, so purified genome alone is infectious. / Protease inhibitors for hepatitis C act on the second step.
-- **Análise:** [outro] Comentário pontual de Davi; ler o literal e aplicar a correção específica.
+- **Estado atual consultado (não implica aprovação):** (+)RNA viruses that express a polyprotein / Genome translation produces a {{c1::polyprotein::p…}}. / Cleavage by viral {{c1::protease::p…}} frees functional proteins. / Genome copying uses a {{c1::negative::n…}} RNA intermediate.
+  - **Verso depois:** The positive-sense genome can serve as mRNA. Processing releases replication proteins; the negative-sense intermediate then templates new positive-sense genomes. Other positive-sense RNA viruses also use subgenomic RNAs or additional expression strategies.
+- **Análise:** [outro] Comentário pontual de Davi; ler o literal e aplicar a correção específica. Aqui: Limitada a afirmação ao grupo que expressa poliproteína; eixo único tradução→processamento→cópia.
 
 ### Caso de feedback · note 1792713393203 (2026-uc08-anatomia-11-figado-pancreas-vias-biliares)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** (sem texto: estrutura/imagem)
@@ -6996,16 +7105,94 @@ As críticas mostram o estado que precisa ser evitado e o processo de correção
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** In a focus assay , a transforming virus makes cells lose {{c1::contact inhibition}} and pile up into a focus
 - **Davi, rodada 1 (2026-11-03):** “TAMANHO DA IMAGEM COLOCA GATE PARA AVALIAR ISSO, estão saindo mt pequenas, daí fico tendo que ajustar manual”
 - **Davi, rodada 2 (2026-11-04):** “(Codex)”
+- **Davi, rodada 3 (2026-11-04):** “tirar fonte sempre de debaixo da imagem (gate-hard) porque isso distrai”
+- **Davi, rodada 4 (2026-11-05):** “(Codex)”
 - **Estado atual consultado (não implica aprovação):** In a focus assay, a transforming virus makes cells lose {{c1::contact inhibition}} and pile up into a focus
-  - **Verso depois:** Normal cells stop growing when they touch and stay in a monolayer; a transformed cell keeps dividing over its neighbors. / Each focus, like each plaque, comes from one infectious event. / / [IMG mb60-foco-slide22-legivel-20261103.png] / Aula MB60, slide 22: monolayer versus focus.
+  - **Verso depois:** Normal cells stop growing when they touch and stay in a monolayer; a transformed cell keeps dividing over its neighbors. / Each focus, like each plaque, comes from one infectious event. / / [IMG mb60-foco-slide22-legivel-20261103.png]
 - **Análise:** [imagem] Imagem ausente, genérica, com informação demais ou fora do contexto do card. A figura tem de mostrar exatamente o que o card cobra, pequena e direcionada; em aula visual (anatomia, histologia, embriologia) todo card leva figura real (gate v7).
 
 ### Caso de feedback · note 1793199691883 (2026-uc03-microbiologia-60-virologia-pratica)
 - **Registro histórico disponível (pode estar truncado; não é um diff completo):** Cowdry bodies are located in the {{c1::nucleus::what part of the cell?}}
 - **Davi, rodada 1 (2026-11-04):** “(Codex)”
 - **Estado atual consultado (não implica aprovação):** Cowdry bodies are located in the {{c1::nucleus::what part of the cell?}}
-  - **Verso depois:** Cowdry bodies are intranuclear viral inclusions. This herpesvirus image shows multinucleated cells with ground-glass type B nuclear changes. Type A inclusions are eosinophilic with a clear halo. / / [IMG 5f639bb53c2df0930748949e84df6dcb.webp] / Herpesvirus histology: inspect the nuclei in the central multinucleated cells.
-- **Análise:** [outro] Comentário pontual de Davi; ler o literal e aplicar a correção específica.
+  - **Verso depois:** Cowdry inclusions are intranuclear. Type A has an eosinophilic inclusion with a clear halo; type B gives a ground-glass nuclear appearance. The image illustrates herpesvirus-associated multinucleation and nuclear change. / / [IMG 5f639bb53c2df0930748949e84df6dcb.webp]
+- **Análise:** [outro] Comentário pontual de Davi; ler o literal e aplicar a correção específica. Aqui: Comentário distingue padrões sem simplesmente repetir núcleo; retirada legenda redundante abaixo da figura.
+
+### Caso de feedback · note 1792695020938 (2026-uc03-microbiologia-58-multiplicacao-viral-antivirais)
+- **Registro histórico disponível (pode estar truncado; não é um diff completo):** Which envelope protein of Influenza facilitates viral endocytosis into cells? {{c1::Hemagglutinin (HA)}}
+- **Davi, rodada 1 (2026-11-04):** “já tem um card disso organizador, então vou suspender esse”
+- **Davi, rodada 2 (2026-11-05):** “(Codex)”
+- **Estado atual consultado (não implica aprovação):** Which envelope protein of Influenza facilitates viral endocytosis into cells? / / {{c1::Hemagglutinin (HA)}}
+  - **Verso depois:** HA binds sialic acid on the host cell, enabling entry by endocytosis. / / [IMG mb58-ha-na-slide134-20261103.png]
+- **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova).
+
+### Caso de feedback · note 1793476864207 (2026-uc08-biologia-tecidual-03-estrutura-estomago)
+- **Registro histórico disponível (pode estar truncado; não é um diff completo):** Enteroendocrine cells by hormone and effect: - L cells: {{c1::GLP-1::G…}} and peptide YY, slow digestion and promote fullness - I cells: {{c1::CCK::C…}}, bile and pancreatic enzyme release - K cells:
+- **Davi, rodada 1 (2026-11-04):** “boa ideia, mas mal escrito, não dá foco não precisa das iniciais também, entrega mt”
+- **Card na rodada 2:** Enteroendocrine cells : identify the hormone from its main effect. - L cell · satiety and slower gastric emptying: {{c1::GLP-1}} - I cell · pancreatic enzymes and gallbladder contraction: {{c1::CCK}}
+- **Davi, rodada 2 (2026-11-05):** “(Codex)”
+- **Estado atual consultado (não implica aprovação):** Enteroendocrine hormones: / L · incretin that slows gastric emptying: {{c1::GLP-1}} / I · enzymes and gallbladder contraction: {{c1::CCK}} / K · nutrient-triggered incretin: {{c1::GIP}} / EC · peristaltic reflex: {{c1::serotonin}} / Gastric X/A-like · hunger: {{c1::ghrelin}}
+  - **Verso depois:** GLP-1 (glucagon-like peptide 1) and GIP (glucose-dependent insulinotropic polypeptide) enhance glucose-dependent insulin release. CCK (cholecystokinin) stimulates pancreatic enzymes and gallbladder contraction. Enterochromaffin serotonin signals to enteric nerves; gastric ghrelin promotes hunger. These labels describe predominant products, not exclusive one-hormone cell types. / / [IMG nebli-0511-entero-tipos.jpg]
+- **Análise:** [cloze_local] Cloze no lugar errado: esconde palavra genérica ou o que se entende, não o que se decora, ou o resto da frase entrega a resposta. Antes de escrever, perguntar 'o que Davi tem de guardar desta frase?' e esconder só isso. Aqui: O eixo hormônio por efeito é útil; o texto mistura célula+efeito sem destaque e GLP-1 não é unívoco a partir de saciedade/esvaziamento: célulasL também produzemPYY. Priorizar a ação incretínica junto ao efeito gástrico.
+
+### Caso de feedback · note 1793784421465 (2026-uc03-imunologia-64-hipersensibilidade)
+- **Registro histórico disponível (pode estar truncado; não é um diff completo):** Hypersensitivity types by the immune effector : - I: {{c1::IgE::I…}} on mast cells - II: antibody to antigen fixed on the {{c1::cell surface::c…}} or matrix - III: deposited {{c1::immune complexes::i…
+- **Davi, rodada 1 (2026-11-04):** “indução fraca, tem que induzir o mais importante”
+- **Card na rodada 2:** Hypersensitivity types by the effector that causes tissue injury: - I · mast-cell activation: {{c1::IgE::I…}} - II · antibody against a fixed cell or matrix antigen: {{c1::IgG/IgM::I…}} - III · deposi
+- **Davi, rodada 2 (2026-11-05):** “(Codex)”
+- **Davi, rodada 3 (2026-11-05):** “mt grande, pensar como deixar bem melhor”
+- **Estado atual consultado (não implica aprovação):** Hypersensitivity, key effectors: / I · mast-cell activation: {{c1::IgE}} / II · cell/matrix antibodies: {{c1::IgG/IgM}} / III · tissue deposition: {{c1::immune complexes}} / IV · cell-mediated injury: {{c1::T cells}}
+  - **Verso depois:** Types I–III involve antibodies. Type II targets fixed antigens; type III deposits soluble antigen–antibody complexes. / Type IV acts through T-cell cytokines or direct cytotoxicity. / / [IMG im64-gell-slide2.png]
+- **Análise:** [cloze_longo] Cloze com palavras demais: difícil de lembrar e de conferir. No máximo 3 palavras no cloze; o resto fica visível ou vai para o verso. Aqui: A frase introdutória e qualificadores longos competem com o eixo efetor→tipo; iniciais I… em IgE/IgG estreitam demais siglas curtas. Preservar os quatro efetores que Davi pediu para induzir.
+
+### Caso de feedback · note 1791625424233 (2026-uc03-imunologia-45-ativacao-linfocitos-t)
+- **Registro histórico disponível (pode estar truncado; não é um diff completo):** Severe combined immunodeficiency (SCID) may be caused by MHC class {{c1:: II }} deficiency
+- **Davi, rodada 1 (2026-11-05):** “tem que ter um organizador com todas as possíveis causas dessa doença”
+- **Estado atual consultado (não implica aprovação):** MHC class II deficiency impairs the development and activation of {{c1::CD4+ T cells}}.
+  - **Verso depois:** Poor antigen presentation reduces helper T-cell function and antibody responses. / This is a combined immunodeficiency distinct from classical SCID. / / [IMG 8246e29ed402d1087af107a0c864d6c1.webp] / / SCID reference, IUIS 2024SCID phenotypeGenetic causesT−B+IL2RG, JAK3, IL7R, PTPRC, CD3D, CD3E, CD247, CORO1A, LAT, LCP2T−B−RAG1/2, DCLRE1C, PRKDC, NHEJ1, LIG4, ADA, AK2, RAC2 (activating), NUDCD3 / Catalog of the two SCID groups in IUIS 2024; hypomorphic variants may have different phenotypes. MHC class II deficiency belongs to a separate combined-immunodeficiency group.
+- **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova). Aqui: O original confundeMHCII-CID comSCID clássico e cobraII como fragmento de rótulo previsível. Corrigir essa nota e acrescentar organizador separado; não apagar a associaçãoMHCII→CD4 para transformar a nota em outra doença.
+
+### Caso de feedback · note 1791630904467 (2026-uc03-grand-round-04-paracoccidioidomicose)
+- **Registro histórico disponível (pode estar truncado; não é um diff completo):** Paracoccidioides yeasts show multiple buds around a large mother cell, the {{c1::pilot's wheel}} pattern
+- **Davi, rodada 1 (2026-11-05):** “essa imagem debaixo tem que ir para os cards vários, junto da tabela que sugeri de comentário pensa os que cabe e coloca em vários”
+- **Estado atual consultado (não implica aprovação):** Paracoccidioides yeasts show multiple buds around a large mother cell, the {{c1::pilot's wheel}} pattern
+  - **Verso depois:** Multiple buds radiate from a mother yeast, producing the pilot’s-wheel pattern. Compare tissue forms below: Histoplasma is small and intracellular, Blastomyces buds broadly, and Coccidioides forms spherules. / / [IMG ad330188b77ba49cc3525118aad88bdc.jpg] / / [IMG b39abbbf00aa0b03a99911510c118e8c.webp]
+- **Análise:** [organizador] Falta organizador ou organizador mal feito (deitado, numerado em linha). Quando a aula compara ou enumera, um organizador em pé, uma linha por item, com índices deliberados (gate v7: 3+ itens em frase reprova). Aqui: Duas figuras com funções distintas substituem três fotos repetidas: foco em Paracoccidioides e comparador pedido.
+
+### Caso de feedback · note 1791631347892 (2026-uc03-biologia-molecular-52-expressao-eucariotos-ii)
+- **Registro histórico disponível (pode estar truncado; não é um diff completo):** Therapeutic use of iPS cells is limited because two of the factors, c-Myc and Klf4 , are {{c1:: oncogenes }}
+- **Davi, rodada 1 (2026-11-05):** “mts cards desse deck ficaram rasos”
+- **Estado atual consultado (não implica aprovação):** In iPS-cell reprogramming, the growth-promoting factor c-Myc raises concern because it is an {{c1::oncogene}}.
+  - **Verso depois:** Reprogramming must change cell identity without leaving uncontrolled proliferation. c-Myc increases growth-related transcription; integrating vectors add insertional risk, whereas non-integrating and factor-reduced methods avoid some of these risks. / / [IMG nebli-0511-cira-myc.jpg]
+- **Análise:** [outro] Comentário pontual de Davi; ler o literal e aplicar a correção específica. Aqui: Sai generalização de que todos os fatores/protocolos são igualmente oncogênicos; entra consequência causal da proliferação.
+
+### Caso de feedback · note 1792713410206 (2026-uc08-anatomia-11-figado-pancreas-vias-biliares)
+- **Registro histórico disponível (pode estar truncado; não é um diff completo):** {{c2::Varizes gástricas}} podem envolver anastomoses entre as {{c1::veias gástricas curtas}} (portais) e a veia {{c1::frênica inferior}} (sistêmica).
+- **Davi, rodada 1 (2026-11-05):** “negrito (gate-hard)”
+- **Estado atual consultado (não implica aprovação):** Na hipertensão portal, {{c2::varizes gástricas}} podem envolver anastomoses no fundo gástrico entre {{c1::veias gástricas curtas}} e a veia {{c1::frênica inferior}}.
+  - **Verso depois:** Short gastric veins drain the fundus into the splenic vein and portal system. Inferior phrenic veins provide systemic connections; drainage patterns vary, and gastric varices may also have gastrorenal shunts. Splenic vein obstruction can produce isolated gastric varices. / / [IMG 672067c83851454f4c30f9e6e8c2bbfa.jpg]
+- **Análise:** [negrito] Autoral sem negrito de contexto. AnKing negrita 1–2 termos que situam a frase fora do cloze; gate duro desde 23/10 (lint v7). Aqui: Destaque fora das lacunas nos critérios anatômico e hemodinâmico; não esconde apenas adjetivo secundário.
+
+### Caso de feedback · note 1793784423639 (2026-uc03-imunologia-64-hipersensibilidade)
+- **Registro histórico disponível (pode estar truncado; não é um diff completo):** Mast-cell mediators and their effect: - {{c1::histamine::h…}}: vasodilation, leaky vessels - {{c1::leukotrienes::l…}}: bronchoconstriction - {{c1::cytokines::c…}}: late-phase inflammation - {{c1::tryp
+- **Davi, rodada 1 (2026-11-05):** “tirar iniciais nesse caso”
+- **Estado atual consultado (não implica aprovação):** Mast-cell mediators: / Vasodilation and leakage: {{c1::histamine}} / Bronchoconstricting lipids: {{c1::leukotrienes}} / Late inflammatory proteins: {{c1::cytokines}} / Granule protease measured after anaphylaxis: {{c1::tryptase}}
+  - **Verso depois:** Histamine and proteases are stored in granules; leukotrienes are synthesized rapidly after activation. / Cytokines recruit inflammatory cells later. Tryptase contributes to tissue injury and provides a marker of mast-cell activation. / / [IMG im64-mediadores-slide70.png]
+- **Análise:** [outro] Comentário pontual de Davi; ler o literal e aplicar a correção específica. Aqui: O pedido literal é retirar iniciais. Há também indução não exclusiva: dano tissular sozinho cabe a vários mediadores/proteases. A proposta preserva efeito e torna a triptase discriminável pelo papel de marcador.
+
+### Caso de feedback · note 1793803583523 (2026-uc03-radiologia-56-contrastes)
+- **Registro histórico disponível (pode estar truncado; não é um diff completo):** Intracavitary contrast by method: - X-ray: air, barium or iodine - CT: iodine or {{c1::water}}, barium only in special dilute forms - MRI: the body's own {{c1::fluid}}, with no injection
+- **Davi, rodada 1 (2026-11-05):** “mt grande”
+- **Estado atual consultado (não implica aprovação):** Cavity imaging by method / CT neutral enteric contrast may use {{c1::water}}. / T2-weighted MR hydrography depicts the patient’s own {{c1::fluid}} without cavity injection.
+  - **Verso depois:** Iodinated agents and barium provide positive X-ray attenuation in appropriate enteric preparations. Neutral water in CT and bright native fluid on heavily T2-weighted MRI are different imaging strategies; native fluid is not an administered contrast agent.
+- **Análise:** [cloze_longo] Cloze com palavras demais: difícil de lembrar e de conferir. No máximo 3 palavras no cloze; o resto fica visível ou vai para o verso. Aqui: Retiradas rotas secundárias e falsa categoria RMfluido como contraste administrado; dois conceitos ligados pelo conteúdo da cavidade.
+
+### Caso de feedback · note 1793803589750 (2026-uc03-radiologia-56-contrastes)
+- **Registro histórico disponível (pode estar truncado; não é um diff completo):** Before contrast in a patient with renal damage, give IV fluids, hold nephrotoxic drugs and also hold {{c1::metformin}}, which accumulates if kidney injury follows
+- **Davi, rodada 1 (2026-11-05):** “card step 2 não precisa entrar ainda na realidade: gate-hard, não entra step 2 only”
+- **Estado atual consultado (não implica aprovação):** Before contrast in a patient with renal damage, give IV fluids, hold nephrotoxic drugs and also hold {{c1::metformin}}, which accumulates if kidney injury follows
+  - **Verso depois:** - Trying to minimize contrast induced ATN (contrast-induced nephropathy) / - AMBOSS lists certain antimicrobials, chemotherapeutic agents, NSAIDs, etc. as nephrotoxic medications / / Fluids dilute the iodine in the tubule; metformin is not nephrotoxic but accumulates in renal failure, with lactic acidosis.
+- **Análise:** [outro] Comentário pontual de Davi; ler o literal e aplicar a correção específica. Aqui: Conduta pericontraste com metformina é Step2-only e foi explicitamente retirada por Davi; suspender sem apagar ou alterar histórico.
 
 ## Cards suspensos após estudo (autoria da suspensão não inferida)
 
@@ -7024,12 +7211,13 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (autoral) note 1791664584596: In a partial diploid, is an Oc mutation dominant or recessive? / / {{c1::Dominant}}
 - (autoral) note 1791664584721: An Oc mutation affects only the genes on its own DNA molecule, so it acts in {{c1::cis}}
 
-### 2026-uc03-biologia-molecular-46-expressao-eucariotos-i — 3 suspensos
+### 2026-uc03-biologia-molecular-46-expressao-eucariotos-i — 4 suspensos
 - (acervo) note 1791627547178: What form of chromatin is transcriptionally inactive and sterically inaccessible? / {{c1::Heterochromatin}}
+- (acervo) note 1791627550277: What protein receptor motif is common to all steroid hormones, thyroid hormones, and vitamins A/D? / {{c1::Zinc finger}}
 - (autoral) note 1791627550702: Insulin, via AKT, phosphorylates FOXO1 and keeps it out of the {{c1::nucleus}}, so {{c2::gluconeogenic}} genes stay off
 - (acervo) note 1792082057314: RNA polymerase {{c1::III}} makes {{c2::t}}RNA and 5S rRNA
 
-### 2026-uc03-biologia-molecular-52-expressao-eucariotos-ii — 19 suspensos
+### 2026-uc03-biologia-molecular-52-expressao-eucariotos-ii — 20 suspensos
 - (acervo) note 1791631343090: With H1, the nucleosome exists as {{c1::30}} nm chromatin
 - (acervo) note 1791631343217: What classes of histones are found as a pair in the nucleosome? / {{c1::H2A, H2B, H3, and H4::4}}
 - (acervo) note 1791631343342: What class of histone is found outside the nucleosome and functions to condense the nucleosome together? / {{c1::H1}}
@@ -7038,6 +7226,7 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (autoral) note 1791631344117: {{c1::Histone acetyltransferases (HATs)}} transfer acetyl groups to lysines in histone tails
 - (autoral) note 1791631344241: {{c1::Histone deacetylases (HDACs)}} remove acetyl groups from lysines in histone tails
 - (autoral) note 1791631344366: Acetylation neutralizes the positive charge of lysine, lowering histone affinity for {{c1::DNA}}
+- (autoral) note 1791631344666: Histone modifications: / Acetylation usually {{c1::increases accessibility}} / Methylation depends on the modified {{c2::residue}} and methylation state
 - (autoral) note 1791631344792: Histone marks recruit {{c1::reader}} proteins that recognize specific modifications
 - (acervo) note 1791631345492: What form of chromatin is highly condensed? / {{c1::Heterochromatin}}
 - (autoral) note 1791631345616: {{c1::Constitutive}} heterochromatin stays condensed in every cell, as at centromeres and repeats
@@ -7045,13 +7234,15 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (autoral) note 1791631346116: H3K9 trimethylation recruits {{c1::HP1}}, which helps organize heterochromatin.
 - (autoral) note 1791631346967: Epigenetic states are gene-expression patterns that persist through {{c1::cell division}} without changing the DNA sequence
 - (acervo) note 1791631347641: Panobinostat and vorinostat are antineoplastics that are nonselective {{c1::histone deacetylase (HDAC)}} inhibitors
-- (autoral) note 1791631347892: Therapeutic use of iPS cells is limited because two of the factors, c-Myc and Klf4, are {{c1::oncogenes}}
+- (autoral) note 1791631347892: In iPS-cell reprogramming, the growth-promoting factor c-Myc raises concern because it is an {{c1::oncogene}}.
 - (autoral) note 1792082171335: Because chromatin already limits access to DNA, purely negative regulation is {{c1::less common}} in eukaryotic transcription
 - (autoral) note 1792082177137: Proteins with a {{c1::bromodomain}} read acetylated histone lysines and help open chromatin
 - (autoral) note 1792082183634: Histone-mark propagation after replication: / Recognizes a parental histone mark: {{c1::reader}} / Adds the mark to nearby new histones: {{c1::writer}}
 
-### 2026-uc03-biologia-molecular-54-rnas-nao-codificadores — 1 suspensos
+### 2026-uc03-biologia-molecular-54-rnas-nao-codificadores — 3 suspensos
+- (autoral) note 1792786398632: After a Cas9 cut, repair by NHEJ can insert or delete bases ({{c1::indels}}). A coding indel that shifts the reading frame may cause {{c2::loss of function}}.
 - (autoral) note 1792786404307: A female embryo cell silences one X-chromosome {{c1::at random}} and passes it on, so females are {{c2::mosaics}}
+- (acervo) note 1792786406533: What form of chromatin do Barr bodies exist as? / {{c1::Heterochromatin}}
 
 ### 2026-uc03-bioquimica-10-acao-hormonal — 11 suspensos
 - (acervo) note 1791054008921: What peptide is packaged with insulin and may be used to monitor β cell function in patients receiving exogenous insulin? / {{c1::C-peptide (connecting peptide)}}
@@ -7177,10 +7368,11 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (autoral) note 1791629597796: Compared with the primary response, the secondary antibody response has a shorter lag and a {{c1::higher}} peak
 - (autoral) note 1792166970267: Self-tolerance induced in the thymus or bone marrow is {{c1::central}}, and in tissues is {{c1::peripheral}}
 
-### 2026-uc03-imunologia-17-reconhecimento-adaptativo — 3 suspensos
+### 2026-uc03-imunologia-17-reconhecimento-adaptativo — 4 suspensos
 - (autoral) note 1791629588997: Unlike antibodies, the T-cell receptor is never {{c1::secreted}}
 - (acervo) note 1791629591146: The signal transduction region of B lymphocytes includes a heterodimer of {{c1::Ig-α}} and {{c1::Ig-β}}
 - (acervo) note 1792241813320: Does IgA cross the placenta? / {{c1::No}}
+- (autoral) note 1792487516279: B-cell maturation / Bone marrow / {{c1::Pro-B::P…}}: no complete μ chain or surface Ig / {{c1::Pre-B::P…}}: cytoplasmic μ and pre-BCR, no conventional light chain / {{c1::Immature B::I…}}: surface IgM, no IgD / Periphera
 
 ### 2026-uc03-imunologia-20-mhc-apresentacao — 1 suspensos
 - (acervo) note 1792241984143: Which MHC class is formed by 1 long chain and 1 short chain? / {{c1::MHC I}}
@@ -7215,7 +7407,7 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (autoral) note 1791629592872: Cytokines such as {{c1::BAFF}} let some thymus-independent antigens induce class switching
 - (autoral) note 1791629597672: IgA in colostrum is about {{c1::2000}} times more concentrated than in saliva
 
-### 2026-uc03-imunologia-51-disturbios-sistema-imune — 24 suspensos
+### 2026-uc03-imunologia-51-disturbios-sistema-imune — 23 suspensos
 - (autoral) note 1792166969765: How the immune system fails: / 1. Too weak a response: {{c1::immunodeficiency::i…}} / 2. Adaptive response against self: {{c1::autoimmunity::a…}} / 3. Innate inflammation with no trigger: {{c1::autoinflammatory::a…}} dis
 - (acervo) note 1792166972289: Defects in CD{{c1::25}} on regulatory T cells are associated with multiple sclerosis and type I diabetes mellitus
 - (acervo) note 1792166972544: What HLA subtype is associated with seronegative spondyloarthritis? / {{c1::HLA-B27}}
@@ -7227,7 +7419,6 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (acervo) note 1792166974094: Myasthenia gravis is associated with HLA-{{c1::B8}}
 - (acervo) note 1792166974340: {{c1::Autoimmune}} disorders are associated with polymorphisms in the PTPN22 gene
 - (autoral) note 1792166976092: Autoimmune diseases are {{c1::organ-specific}} when one organ is attacked (Graves, type 1 diabetes) and {{c1::systemic}} when many are (SLE)
-- (acervo) note 1792166976344: TSH receptors on thyroid gland follicular cells may be activated by {{c1::TSH receptor antibodies (TRAbs)}} in Graves disease
 - (acervo) note 1792166977241: Which antibodies are specific, but not sensitive for SLE? / {{c1::anti-dsDNA and anti-Smith antibodies::2}}
 - (autoral) note 1792166977992: Immunodeficiencies are {{c1::primary}} when due to an inborn defect (inherited or de novo), and {{c1::secondary}} when caused by acquired conditions such as HIV infection, malnutrition or chemotherapy.
 - (acervo) note 1792166982191: {{c1::Adenosine deaminase}} deficiency results in buildup of dATP, which is toxic to lymphocytes; causes SCID
@@ -7240,6 +7431,9 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (acervo) note 1792166995969: The criteria for AIDS is a CD4 count {{c3::200 cells/mm3}} or confirmed HIV status with {{c1::AIDS-defining opportunistic}} infections such as Pneumocystis pneumonia (PCP) or Candida esophagitis
 - (acervo) note 1792166997066: Serum amyloid A (SAA) is an acute phase reactant that is increased in chronic inflammatory states, malignancy, and {{c1::familial Mediterranean fever (FMF)::inherited condition}}
 - (acervo) note 1792166997364: Familial Mediterranean fever is characterized by {{c1::AA amyloid (secondary)}} deposits in tissues during attacks
+
+### 2026-uc03-imunologia-64-hipersensibilidade — 1 suspensos
+- (autoral) note 1793784422963: Free IgE lasts only 2–3 days in serum, but IgE bound to the mast-cell FcεRI lasts {{c1::weeks}}
 
 ### 2026-uc03-microbiologia-26-morfologia-estrutura-bacteriana — 23 suspensos
 - (autoral) note 1791163022242: Woese defined the three domains of life (Bacteria, Archaea, Eukarya) by comparing {{c1::ribosomal RNA}} sequences
@@ -7288,20 +7482,22 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 ### 2026-uc03-microbiologia-39-homem-ambiente-microrganismo — 1 suspensos
 - (autoral) note 1791014718900: Bacterial fermentation of fiber yields {{c1::butyrate}}, the short-chain fatty acid that nourishes colonocytes
 
-### 2026-uc03-microbiologia-43-biologia-fungos — 9 suspensos
+### 2026-uc03-microbiologia-43-biologia-fungos — 10 suspensos
 - (acervo) note 1791557940256: Patients get exposed to aflatoxins produced by Aspergillus by way of eating improperly stored {{c1::grains}} and {{c1::nuts}}
 - (acervo) note 1791557941081: {{c1::Eukaryotes::Prokaryotes or Eukaryotes}} include protozoa and fungi
 - (acervo) note 1791557941506: The two ribosomal subunits in eukaryotes are {{c1::60}}S and {{c1::40}}S making {{c1::80}}S
 - (autoral) note 1791557941879: In dimorphic fungi, the yeast phase at 37 °C has more {{c1::α-glucan}} in its wall than the mold phase
 - (acervo) note 1791557943483: What microscopy finding is characteristic of Candida? / / {{c1::Pseudohyphae}} ± {{c1::budding yeast}}
 - (acervo) note 1792170502028: {{c2::Aflatoxins}} derived from Aspergillus are a risk factor for {{c1::hepatocellular}} carcinoma
+- (acervo) note 1792170503576: Do prokaryotic cells have membrane bound organelles? / / {{c1::No!}}
 - (acervo) note 1792170505326: What class of antifungals inhibits cell wall synthesis? / / {{c1::Echinocandins (-fungin)}}
 - (acervo) note 1792170506078: Which enzyme converts flucytosine to 5-fluorouracil? / / {{c1::Cytosine deaminase}}
 - (acervo) note 1792170507325: Candida albicans is {{c1::dimorphic*}}, meaning it assumes different forms depending on the temperature of its environment
 
-### 2026-uc03-microbiologia-44-micoses-cutaneas — 13 suspensos
+### 2026-uc03-microbiologia-44-micoses-cutaneas — 14 suspensos
 - (autoral) note 1791626776427: Besides keratinases, dermatophytes secrete {{c1::elastases}}, collagenase and DNase
 - (acervo) note 1791626776929: What demographic of adults are at risk for tinea (ringworm) infections? / / {{c1::Athletes}}
+- (acervo) note 1791626777304: Tinea corporis affects the {{c1::body}}
 - (autoral) note 1791626778303: Trichophyton indotineae, an emerging dermatophyte, resists terbinafine through mutations in {{c1::squalene epoxidase}}
 - (autoral) note 1791626778603: A sterile eruption on the hands caused by an immune reaction to a distant dermatophyte focus is a {{c1::dermatophytid}}
 - (acervo) note 1791626781776: {{c2::Hyphae}} of tinea lesions due to {{c3::dermatophytes}} are seen with {{c1::KOH}} prep of {{c1::skin}} scrapings
@@ -7324,25 +7520,28 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (autoral) note 1791628676373: Jorge Lobo disease (lobomycosis) is caused by the fungus {{c1::Lacazia loboi}}
 - (autoral) note 1792175889534: Clinical forms of sporotrichosis: / - from a skin wound: {{c1::lymphocutaneous::L…}} (most common) and {{c1::fixed cutaneous::F…}} / - beyond the skin: {{c2::pulmonary::P…}} after inhalation and {{c2::disseminated::D…}}
 
-### 2026-uc03-microbiologia-50-micoses-sistemicas — 8 suspensos
+### 2026-uc03-microbiologia-50-micoses-sistemicas — 9 suspensos
 - (autoral) note 1791630903393: The {{c1::armadillo}} is a suspected natural reservoir of Paracoccidioides
 - (autoral) note 1791630904844: The yeast wall of Paracoccidioides is rich in {{c1::α-glucan}}, whereas the mold wall has mostly {{c1::β-glucan}}
 - (autoral) note 1791630906243: At 25ºC, Histoplasma forms thick-walled {{c1::tuberculate}} macroconidia
 - (autoral) note 1791630907794: An {{c1::auxanogram}} identifies yeasts by the carbon and nitrogen sources they assimilate
 - (autoral) note 1791630908043: Cryptococcus gattii (serotypes B and C) is linked to {{c1::eucalyptus}} trees
 - (autoral) note 1791744812082: The mold phase of Paracoccidioides is rich in immunogenic {{c1::galactomannan}}, which the yeast phase largely lacks
+- (autoral) note 1792065183130: Endemic systemic dimorphic fungi usually initiate infection when airborne environmental propagules enter through {{c1::inhalation}}.
 - (acervo) note 1792176897909: Candida albicans that extends from the mouth to the esophagus is known as {{c1::candidal esophagitis}}, which is a(n) {{c2::AIDS-defining}} illness
 - (acervo) note 1792176903305: {{c1::Pneumocystis jirovecii}} is a fungus responsible for causing Pneumocystic {{c2::pneumonia}}
 
-### 2026-uc03-microbiologia-57-principios-gerais-virus — 5 suspensos
+### 2026-uc03-microbiologia-57-principios-gerais-virus — 6 suspensos
 - (acervo) note 1792677731174: A(n) {{c1::bacteriophage}} is a virus that infects bacteria
 - (acervo) note 1792677735254: RNA viruses can be distinguished via their {{c1::polarity}}, either (+) sense or (-) sense
 - (acervo) note 1792677736052: What process takes RNA and makes DNA? / {{c1::Reverse transcription}}
+- (autoral) note 1792677736804: The viral genome plus its protein capsid forms the {{c1::nucleocapsid}}, which is the whole virion in naked viruses
 - (autoral) note 1792677737120: The viral genome encodes how to: / - replicate and {{c1::transcribe}} itself / - {{c1::package}} itself into virions / - alter the {{c2::structure}} of the host cell
 - (acervo) note 1792677742080: Alcohol disrupts the {{c1::envelope}} of viruses
 
-### 2026-uc03-microbiologia-58-multiplicacao-viral-antivirais — 15 suspensos
+### 2026-uc03-microbiologia-58-multiplicacao-viral-antivirais — 17 suspensos
 - (autoral) note 1792695020261: Crossing the cell membrane, a virus enters by: / receptor-mediated {{c1::endocytosis}} / direct {{c1::translocation}} / envelope–membrane {{c2::fusion}}
+- (acervo) note 1792695020938: Which envelope protein of Influenza facilitates viral endocytosis into cells? / / {{c1::Hemagglutinin (HA)}}
 - (autoral) note 1792695022663: Viral envelope glycoproteins are made on the {{c1::rough ER}} and processed in the Golgi, unlike proteins on free ribosomes
 - (autoral) note 1792695027165: In polyomaviruses, early genes encode {{c1::T antigens}} for replication; late genes encode {{c1::capsid proteins VP1–VP3}}.
 - (autoral) note 1792695027415: At the SV40 replication origin, large T antigen {{c1::unwinds the DNA}} before host DNA polymerases copy it.
@@ -7350,6 +7549,7 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (autoral) note 1792695027916: At the HPV replication origin, viral E2 recruits {{c1::E1}}, the helicase that opens DNA for host polymerases.
 - (autoral) note 1792695030040: Adenovirus uses the host RNA polymerase to make its mRNAs but encodes its own {{c1::DNA polymerase}} as an early protein
 - (autoral) note 1792695030288: Adenovirus DNA synthesis starts at both ends from a terminal protein primer linked to {{c1::dCMP}}, by {{c2::strand displacement}}
+- (autoral) note 1792695032265: Purified vaccinia DNA is not {{c1::infectious}}, because the first mRNAs need the RNA polymerase packed in the virion
 - (autoral) note 1792695032585: Parvoviruses replicate only in {{c1::dividing}} cells, because they rely entirely on host enzymes active in S phase
 - (autoral) note 1792695056542: HTLV-1 passes directly from infected to uninfected T cells through a {{c1::virological synapse}}
 - (autoral) note 1792695057693: Antiviral targets in the viral life cycle / Entry inhibitors block {{c1::entry}} into the host cell. / Polymerase inhibitors block genome {{c1::replication}}. / Protease inhibitors block virion {{c1::maturation}}.
@@ -7365,9 +7565,10 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (autoral) note 1792753617940: A mosquito bite bypasses the intact skin barrier, giving yellow fever virus {{c1::access}} to target cells.
 - (autoral) note 1792753635466: Viruses injected into blood by needles or insects bypass {{c1::epithelial}} barriers, a passive evasion by route
 
-### 2026-uc03-microbiologia-60-virologia-pratica — 2 suspensos
+### 2026-uc03-microbiologia-60-virologia-pratica — 3 suspensos
 - (autoral) note 1793199688480: In the practical, small round cells with a pyknotic nucleus and rapid lysis in 2 to 7 days point to {{c1::poliovirus}}
 - (autoral) note 1793199688730: In the practical, enlarged cells in 'bunches of grapes' with a basophilic nuclear inclusion point to {{c1::adenovirus}}
+- (acervo) note 1793199690507: A(n) {{c2::Tzanck}} smear showing {{c3::multinucleated giant}} cells is characteristic of infections with VZV, HSV, and CMV
 
 ### 2026-uc03-patologia-11-acumulos-adaptacao — 2 suspensos
 - (acervo) note 1791022171771: Which form of alcoholic liver disease may be reversible with abstinence? / {{c1::Hepatic steatosis}}
@@ -7434,39 +7635,17 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 ### 2026-uc03-radiologia-04-radiografia-ultrassom — 1 suspensos
 - (acervo) note 1792238912652: What is the appearance of calcium kidney stones on X-ray and CT? / {{c1::Radiopaque}}
 
-### 2026-uc07 — 13 suspensos
-- (acervo) note 1792588686962: Os gânglios simpáticos ficam próximos à {{c1::medula espinal}}
-- (acervo) note 1792588686963: Os gânglios sensitivos contêm corpos de neurônios que enviam informação da periferia ao {{c1::sistema nervoso central}}
-- (acervo) note 1792588686965: Os axônios aferentes entram na medula espinal pela raiz {{c1::posterior}} do nervo espinal
-- (acervo) note 1792588686967: Via eferente visceral (autônoma): / - neurônio pré-ganglionar: corpo no {{c1::SNC::S…}} / - sinapse no {{c1::gânglio autônomo::g…}} / - neurônio pós-ganglionar: do gânglio ao {{c1::órgão efetor::ó…}}
-- (acervo) note 1792588686969: A maior parte do encéfalo é o {{c1::cérebro}}
-- (acervo) note 1792588686975: O sulco {{c1::basilar}} da ponte aloja a artéria basilar
-- (acervo) note 1792588686979: Lateralmente ao tubérculo grácil fica o tubérculo {{c1::cuneiforme}}
-- (acervo) note 1792588687018: O cerebelo fica posterior à ponte e ao bulbo, na fossa {{c1::posterior}} do crânio
-- (acervo) note 1792588687021: As estruturas de substância cinzenta do cerebelo são o córtex cerebelar e os núcleos {{c1::cerebelares}}
-- (acervo) note 1792588687022: O cerebelo tem {{c1::quatro}} núcleos profundos
-- (acervo) note 1792588687023: Do medial para o lateral, os núcleos do cerebelo são o {{c2::fastigial}}, o {{c1::globoso}}, o {{c2::emboliforme}} e o {{c1::denteado}}
-- (acervo) note 1792697125200: A medula espinal localiza-se no canal {{c1::vertebral}} da coluna vertebral
-- (autoral) note 1792697127074: O canal vertebral começa na articulação {{c1::atlantoccipital}}, entre o osso occipital e o {{c2::atlas}} (C1)
+### 2026-uc03-radiologia-56-contrastes — 1 suspensos
+- (acervo) note 1793803589251: What is the likely diagnosis in a patient who develops a spike in creatinine 1 - 2 days after having a CT with IV contrast? / / {{c1::Contrast-induced nephropathy}}
 
-### 2026-uc07-cerebelo-cortex-cerebelar — 4 suspensos
-- (acervo) note 1792344675723: A camada média do córtex cerebelar é a camada {{c1::de Purkinje}}
-- (acervo) note 1792344676226: A camada externa do córtex cerebelar é a camada {{c1::molecular}}
-- (acervo) note 1792344676724: A camada interna do córtex cerebelar é a camada {{c1::granulosa}}
-- (acervo) note 1792344677325: A camada molecular do córtex cerebelar contém células {{c1::em cesto}} e {{c1::estreladas}}
+### 2026-uc07-anatomia-01-construcao-morfofuncional — 5 suspensos
+- (acervo) note 1792244863368: [estrutura com seta] Bulbo aberto
+- (acervo) note 1792244863743: [estrutura com seta] Ponte rostral
+- (acervo) note 1792244864867: [estrutura com seta] Mesencéfalo rostral
+- (acervo) note 1792265021996: Os corpos dos neurônios sensitivos primários ficam nos {{c1::gânglios espinais}}.
+- (acervo) note 1792588686967: Via eferente visceral: / Pré-ganglionar: corpo no {{c1::sistema nervoso central}} / Sinapse no {{c1::gânglio autônomo}} / Pós-ganglionar: alcança o {{c1::órgão efetor}}
 
-### 2026-uc07-medula-espinal-meninges-espinais-e-raizes-nervosas — 1 suspensos
-- (acervo) note 1792572870677: [estrutura com seta] Substância cinzenta
-
-### 2026-uc07-tronco-encefalico-01-visao-geral-superficie — 6 suspensos
-- (acervo) note 1792244863022: [estrutura com seta] Porção fechada do bulbo (metade caudal)
-- (acervo) note 1792244863368: [estrutura com seta] Porção aberta do bulbo (metade rostral)
-- (acervo) note 1792244863743: [estrutura com seta] Ponte (metade rostral)
-- (acervo) note 1792244864518: [estrutura com seta] Mesencéfalo (metade caudal)
-- (acervo) note 1792244864867: [estrutura com seta] Mesencéfalo (metade rostral)
-- (acervo) note 1792258811404: [estrutura com seta] Tubérculo do trigêmeo
-
-### 2026-uc08-anatomia-01-esofago-estomago-delgado — 39 suspensos
+### 2026-uc08-anatomia-01-esofago-estomago-delgado — 40 suspensos
 - (autoral) note 1790972063767: The esophagus is a muscular tube about {{c1::25}} cm long that runs from the pharynx to the stomach
 - (acervo) note 1790972064487: On a CT of the thorax, the {{c1::trachea}} is a good landmark to localize the esophagus (located posteriorly) and the great vessels (located anteriorly)
 - (acervo) note 1790972064584:
@@ -7479,6 +7658,7 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (acervo) note 1790972068159:
 - (acervo) note 1790972068261:
 - (acervo) note 1790972068360:
+- (acervo) note 1790972068462:
 - (acervo) note 1790972068706: On an abdominal CT scan, the pancreas can be identified by: / / - Its head in close association with the {{c1::2nd}} part of the duodenum- Its body overlying the {{c1::abdominal aorta::vasculature}}
 - (acervo) note 1790972069210: The main pancreatic duct drains into the {{c1::major}} duodenal papilla
 - (autoral) note 1790972070012: The {{c1::mesentery}} is the fold of peritoneum that attaches the jejunum and ileum to the posterior abdominal wall
@@ -7566,7 +7746,7 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (autoral) note 1792659606725: Bile canaliculi are grooves between neighboring {{c1::hepatocytes}} and get their own wall only in the portal space
 - (autoral) note 1792659606977: Hepatocyte ER functions: / Rough ER → {{c1::protein synthesis}} / Smooth ER → {{c1::drug metabolism}}
 
-### 2026-uc08-biologia-tecidual-03-estrutura-estomago — 39 suspensos
+### 2026-uc08-biologia-tecidual-03-estrutura-estomago — 40 suspensos
 - (acervo) note 1790979862409: The mucosa of the gut wall consists of three layers: a(n) {{c1::epithelium}}, {{c2::lamina propria}}, and {{c3::muscularis mucosa}}
 - (acervo) note 1790979862760: External to the submucosal layer of the gut wall is the {{c1::muscularis externa}}
 - (acervo) note 1790979863534:
@@ -7606,8 +7786,9 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (acervo) note 1791023366191: Chief cells secrete protein, so their basal cytoplasm is packed with {{c1::rough ER}}
 - (acervo) note 1791023366616: Scattered gastric cells with endocrine or paracrine function are the {{c1::enteroendocrine}} cells
 - (acervo) note 1791023366868: Gastrointestinal enterochromaffin (EC) cells release {{c1::serotonin}}.
+- (autoral) note 1793476864207: Enteroendocrine hormones: / L · incretin that slows gastric emptying: {{c1::GLP-1}} / I · enzymes and gallbladder contraction: {{c1::CCK}} / K · nutrient-triggered incretin: {{c1::GIP}} / EC · peristaltic reflex: {{c1::s
 
-### 2026-uc08-biologia-tecidual-04-intestinos — 27 suspensos
+### 2026-uc08-biologia-tecidual-04-intestinos — 28 suspensos
 - (acervo) note 1790980909855:
 - (acervo) note 1790980909978:
 - (acervo) note 1790980910107: All three parts of the small intestine contain {{c1::villi}} and {{c1::microvilli}}, which increase absorptive surface area
@@ -7634,6 +7815,7 @@ Suspensão sozinha não indica reprovação: pode refletir fase da prova, carga 
 - (acervo) note 1791023298992: Smooth muscle fibers in the villus core come from the {{c1::muscularis mucosae}}
 - (acervo) note 1791023299245: Paneth cells sit at the {{c1::base}} of the intestinal crypts
 - (acervo) note 1791023302244: The large intestine absorbs water and electrolytes and turns {{c1::indigestible}} material into feces
+- (acervo) note 1791023302370: The large-intestine lamina propria is rich in lymphoid {{c1::nodules}}, often reaching the submucosa
 - (acervo) note 1791023303318: Colonocytes have short irregular {{c1::microvilli}}, reflecting fluid absorption
 
 ### 2026-uc08-fisiologia-05-digestao-absorcao-nutrientes — 13 suspensos

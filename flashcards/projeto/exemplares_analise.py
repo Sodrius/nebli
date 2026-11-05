@@ -4,6 +4,14 @@ exige análise para todo exemplar e anti-exemplar (novos inclusive): ao aparecer
 
 # ---- EXEMPLARES (X de Davi): por que funciona e como usar ----
 EXEMPLARES = {
+ 1793875230699: 'Recupera uma transição concreta da cicatriz: colágeno III é substituído por I. O mesmo índice exige lembrar os dois termos sem um entregar a resposta do outro. O Extra situa a remodelação pelas metaloproteinases; modelo de processo com consequência estrutural, sem adicionar uma ficha clínica inteira.',
+ 1792487516279: 'Organiza maturação de linfócitos B por local, estágio e receptor, e o Extra explica a sequência molecular. Plasma e memória são destinos alternativos, não passos obrigatórios sucessivos. Modelo de integrador de processo que preserva ordem causal e distingue ramificações reais.',
+ 1792696993158: 'Relaciona os dois limites do tronco encefálico a marcos anatômicos concretos. É um fato espacial situado, útil para orientar a leitura da figura. O X não encerra o novo pedido NEGRITO: a falta de destaque contextual continua pendente e deve ser corrigida preservando o texto e o histórico.',
+ 1793784424989: 'Organizador vertical que associa cada citocina Th2 ao seu efeito distintivo, e o Extra conecta os efeitos à resposta alérgica. Modelo de conjunto funcional, não de enumeração avulsa. As dicas de inicial deste exemplar histórico não revogam as restrições atuais da v15.',
+ 1791626776253: 'A tabela cruza gêneros de dermatófitos com tecidos acometidos e permite contrastar padrões informativos. As linhas têm o mesmo critério; os índices editados por Davi são parte da versão aprovada. Adaptar a organização quando houver uma comparação real, preservando diferenças e evitando preencher células sem valor didático.',
+ 1793786653456: 'Reúne duas doenças pela mesma relação causal: células revestidas de anticorpos são removidas principalmente no baço. A resposta anatômica é explicada pelo mecanismo fagocítico no Extra. Modelo de integrador por mecanismo compartilhado, sem transformar as doenças em listas clínicas.',
+ 1793199695176: 'O diagnóstico depende de reconhecer a morfologia do coilócito na imagem, especialmente halo perinuclear e núcleo enrugado. Modelo de leitura visual que leva a uma associação etiológica específica; não basta decorar HPV sem recuperar o achado. A imagem nova precisa ser inspecionada antes de adaptar.',
+ 1792713405305: 'Liga uma estrutura pequena à função que justifica aprendê-la: a prega espiral mantém o ducto cístico aberto para a bile passar. O Extra explica a consequência mecânica. Modelo de estrutura → função; o X não dispensa inspecionar a figura escolhida para outro card.',
  1791575028298: "Contraste funcional curto: grelina relaxa o piloro e acelera o esvaziamento, em oposição à secretina e à CCK. O verso acrescenta contexto de jejum; conservar a relação, não transformar o X em aprovação de qualquer lista hormonal.",
  1792695019413: "Liga ligação ao receptor ao tropismo celular. O cloze recupera a consequência, e o verso dá exemplos de receptores sem tornar a lista o alvo. Modelo de mecanismo curto com consequência.",
  1792713409954: "Davi editou a frente em quatro linhas com uma pista inicial por região. O verso foi alinhado aos quatro itens em inglês e a figura real recortada; o elogio ao formato não dispensa conferir legibilidade móvel.",
@@ -254,3 +262,10 @@ EXEMPLARES.update({
  1792175888632: 'Organizador de conjunto com dica da primeira letra e o agente entre parênteses em cada linha; o verso distingue o achado tecidual e a via comum de entrada. Modelo de lista da aula declarada como principais.',
  1791630172795: 'Definição de uma classe de molécula pela função (regulação pós-transcricional), cloze no nome, verso com onde os genes ficam e figura. Modelo de fato-chave definido por função.',
 })
+
+# Rodada diária05/11: fonte versionada das análises específicas.
+_rodada05 = Path(__file__).with_name("analises-feedback-20261105.json")
+if _rodada05.exists():
+    _d05 = json.loads(_rodada05.read_text(encoding="utf-8"))
+    EXEMPLARES.update({int(k): v for k, v in _d05["exemplares"].items()})
+    NOTAS.update({int(k): v for k, v in _d05["notas"].items()})

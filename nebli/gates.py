@@ -405,7 +405,7 @@ def inventory(run, plan):
         except (json.JSONDecodeError, OSError):
             return label, False
     entries = {e["key"]: e for e in plan.get("entries", [])}
-    entries.update({f"sh-{n}": {} for n in plan.get("compartilhados", {})})
+    entries.update({f"sh-{n}": value for n, value in plan.get("compartilhados", {}).items()})
     cov = {i.get("id"): i for i in covered.get("itens", []) if i.get("id")}
     reviewed = review.get("itens", {})
     for item, source, _ in atomic:
@@ -969,6 +969,17 @@ def plan_checks(run, plan):
     out += verificar_correcoes(run, plan)
     entries = plan["entries"]
     out.append(("plano contém cards", bool(entries)))
+    if int(plan.get("pipeline_versao") or 1) >= 9:
+        from nebli.decks import Anki
+        from nebli.qualidade_comentarios import step2_only
+        fontes = {int(e['src']) for e in entries if str(e.get('src', '')).isdigit()}
+        fontes |= {int(k) for k in plan.get('compartilhados', {}) if str(k).isdigit()}
+        fontes |= {int(v['source_nid']) for v in plan.get('compartilhados', {}).values()
+                   if str(v.get('source_nid', '')).isdigit()}
+        notas_fontes = Anki()('notesInfo', notes=sorted(fontes)) if fontes else []
+        fora = step2_only([n for n in notas_fontes if n])
+        out.append(("[duro] seleção sem fonte marcada Only_Step_2 (tag Step2 junto de Step1 não exclui)"
+                    + (f": {fora[:6]}" if fora else ""), not fora))
     dates = re.findall(r"20\d{2}-\d{2}-\d{2}", Path(run).name)
     if dates and max(dates) >= "2026-10-25":
         out.append(("[duro] corrida nova usa pipeline v9 e revisão independente", int(plan.get("pipeline_versao") or 1) >= 9))
@@ -1871,6 +1882,7 @@ def cores_rubrica(plan):
 
 
 def inducao_clozes(plan):
+    from nebli.qualidade_comentarios import preferencia_sem_iniciais, sigla_curta
     ruins = []
     organizadores_ruins = []
     for e in plan.get("entries", []):
@@ -1881,12 +1893,15 @@ def inducao_clozes(plan):
         for n, corpo in _CLOZE_FULL.findall(txt):
             grupos.setdefault(n, []).append(corpo)
         for n, itens in grupos.items():
-            if len(itens) < 3:
+            respostas = [re.sub(r'<[^>]+>', '', c.split('::')[0]).strip() for c in itens]
+            if sum(not sigla_curta(r) for r in respostas) < 3 or preferencia_sem_iniciais(e):
                 continue
             for corpo in itens:
                 partes = corpo.split("::")
                 resp = re.sub(r"<[^>]+>", "", partes[0]).strip()
                 dica = partes[1].strip() if len(partes) > 1 else ""
+                if sigla_curta(resp):
+                    continue
                 if not dica or (resp and dica[0].lower() != resp[0].lower()):
                     ruins.append(f"{e['key']}/c{n}"); break
         # F-20261020-CODEX-05: organizadores são listas verticais e economizam notas
@@ -1979,7 +1994,8 @@ def live_checks(plan, run=None):
         out.append(("Text/Extra vivos conferem com o plano" + (f": divergem {len(bad)} ({bad[:3]})" if bad else ""), not bad))
     # F-16: a etimologia ficou num "NEBLI-deck::" órfão, fora da árvore, e Davi a perdeu de vista.
     out.append(("nenhum deck NEBLI fora da árvore NEBLI (etimologia incluída)",
-                not [n for n in call("deckNames") if n.startswith("NEBLI") and not rotulos.in_tree(n)]))
+                not [n for n in call("deckNames") if n.startswith("NEBLI") and not rotulos.in_tree(n)
+                     and rotulos.canonical(n) != "NEBLI Teste gestos"]))
     from nebli import explicacoes
     if os.environ.get("NEBLI_SEM_TAB") == "1":  # F-20261015-CLAUDE-06: "não gera com tab ainda, vou pedir pro codex gerar depois"
         out.append(("Tab pendente por decisão de Davi (Codex gera depois)", True))

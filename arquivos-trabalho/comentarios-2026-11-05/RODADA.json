@@ -1,0 +1,2662 @@
+{
+ "aberta_em": "2026-11-05T15:02:55.696660+00:00",
+ "itens": [
+  {
+   "nid": 1790981518578,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "At the lower esophagus , the portal system meets the systemic system through the {{c1:: left gastric }} vein and the esophageal branches of the {{c1:: azygos }} vein",
+   "aula": "2026-uc03-patologia-radiologia-19-correlacao-2",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1790981518578,
+     1790981519924,
+     1792713398630,
+     1792713401129,
+     1792713405053,
+     1792713410206,
+     1792713410554
+    ],
+    "corrigidos": [
+     1790981518578,
+     1790981519924,
+     1792713398630,
+     1792713401129,
+     1792713405053,
+     1792713410206,
+     1792713410554
+    ]
+   },
+   "causa": "O verso confundia cava superior com inferior; a figura será focada na junção esofágica.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "At the lower esophagus , the portal system meets the systemic system through the {{c1:: left gastric }} vein and the esophageal branches of the {{c1:: azygos }} vein → At the lower esophagus , the portal system meets the systemic system through the {{c1:: left gastric }} vein and the esophageal branches of the {{c1:: azygos }} vein; O verso confundia cava superior com inferior; a figura será focada na junção esofágica."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1790981519924,
+   "tipos": [
+    "comentario",
+    "comando:escrita"
+   ],
+   "fala": "várias respostas possíveis: fere o princípio da unicidade",
+   "card": "From the lymph , chylomicrons reach the blood through the {{c1:: thoracic duct }}",
+   "aula": "2026-uc08-anatomia-07-vascularizacao-visceras",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1790981518578,
+     1790981519924,
+     1790999836655,
+     1791000312550
+    ],
+    "corrigidos": [
+     1790981518578,
+     1790981519924,
+     1790999836655,
+     1791000312550
+    ]
+   },
+   "causa": "Lymph isoladamente admitia múltiplas respostas. Origem intestinal e desembocadura venosa tornam o alvo único.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "From the lymph , chylomicrons reach the blood through the {{c1:: thoracic duct }} → Intestinal lymph carrying chylomicrons enters the left venous angle through the {{c1::thoracic duct}}.; Lymph isoladamente admitia múltiplas respostas. Origem intestinal e desembocadura venosa tornam o alvo único."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1790999836655,
+   "tipos": [
+    "comentario",
+    "comando:escrita"
+   ],
+   "fala": "indução ruim",
+   "card": "GI hormone release by digestive signals: - Stomach distension and nutrients → {{c1::gastrin::G…}} - Duodenal acid → {{c1::secretin::S…}} - Duodenal fat and amino acids → {{c2::cholecystokinin (CCK)::C…}}",
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1790981519924,
+     1790999836655,
+     1791000312550
+    ],
+    "corrigidos": [
+     1790981519924,
+     1790999836655,
+     1791000312550
+    ]
+   },
+   "causa": "A pista distingue estímulo, célula e função sem esconder adjetivo genérico nem induzir pela inicial.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "GI hormone release by digestive signals: - Stomach distension and nutrients → {{c1::gastrin::G…}} - Duodenal acid → {{c1::secretin::S…}} - Duodenal fat and amino acids → {{c2::chol → GI hormones released by digestive signals Antral peptides and stomach distension → {{c1::gastrin}} Acid entering the duodenum → {{c1::secretin}} Duodenal fat and amino acids → {{c2; A pista distingue estímulo, célula e função sem esconder adjetivo genérico nem induzir pela inicial."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791000312550,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "Stored intracellular iron is bound to {{c1::ferritin}}, which prevents iron from forming free radicals via the Fenton reaction",
+   "aula": "2026-uc08-fisiologia-05-digestao-absorcao-nutrientes",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1790981519924,
+     1790999836655,
+     1791000312550
+    ],
+    "corrigidos": [
+     1790981519924,
+     1790999836655,
+     1791000312550
+    ]
+   },
+   "causa": "O verso passa a explicar proteção química e perda intestinal, em vez de repetir armazenamento.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Stored intracellular iron is bound to {{c1::ferritin}}, which prevents iron from forming free radicals via the Fenton reaction → Stored intracellular iron is bound to {{c1::ferritin}}, which prevents iron from forming free radicals via the Fenton reaction; O verso passa a explicar proteção química e perda intestinal, em vez de repetir armazenamento."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791557941758,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "The repeating polysaccharide capsular antigens of the Cryptococci capsule are the main virulence factor of the fungus, making it {{c1::anti-phagocytic}}",
+   "aula": "2026-uc03-microbiologia-43-biologia-fungos",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791557941758,
+     1791626776253,
+     1791628674574,
+     1791630904467,
+     1791630905518,
+     1791630905957,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ],
+    "corrigidos": [
+     1791557941758,
+     1791626776253,
+     1791628674574,
+     1791630904467,
+     1791630905518,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ]
+   },
+   "causa": "Incluída figura real de nanquim da aula que demonstra precisamente a cápsula antifagocítica.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "The repeating polysaccharide capsular antigens of the Cryptococci capsule are the main virulence factor of the fungus, making it {{c1::anti-phagocytic}} → The repeating polysaccharide capsular antigens of the Cryptococci capsule are the main virulence factor of the fungus, making it {{c1::anti-phagocytic}}; Incluída figura real de nanquim da aula que demonstra precisamente a cápsula antifagocítica."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791625424233,
+   "tipos": [
+    "comentario"
+   ],
+   "fala": "tem que ter um organizador com todas as possíveis causas dessa doença",
+   "card": "Severe combined immunodeficiency (SCID) may be caused by MHC class {{c1:: II }} deficiency",
+   "aula": "2026-uc03-imunologia-45-ativacao-linfocitos-t",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791625424233
+    ],
+    "corrigidos": [
+     1791625424233
+    ]
+   },
+   "causa": "O original confundeMHCII-CID comSCID clássico e cobraII como fragmento de rótulo previsível. Corrigir essa nota e acrescentar organizador separado; não apagar a associaçãoMHCII→CD4 para transformar a nota em outra doença.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Severe combined immunodeficiency (SCID) may be caused by MHC class {{c1:: II }} deficiency → MHC class II deficiency impairs the development and activation of {{c1::CD4+ T cells}}.; O original confundeMHCII-CID comSCID clássico e cobraII como fragmento de rótulo previsível. Corrigir essa nota e acrescentar organizador separado; não apagar a associaçãoMHCII→CD4 para transformar a nota em outra doença."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791626776253,
+   "tipos": [
+    "comando:comentario"
+   ],
+   "fala": "",
+   "card": "Sites infected by each dermatophyte genus: Skin Hair Nails {{c4::Trichophyton}} {{c2:: Yes }} {{c2:: Yes }} {{c2:: Yes }} {{c4::Microsporum}} {{c3:: Yes }} {{c3:: Yes }} {{c3:: Rarely }} {{c4::Epidermophyton}} {{c1:: Yes }} {{c1:: No }} {{c1:: Yes }}",
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791557941758,
+     1791626776253,
+     1791626778904,
+     1791628674574,
+     1791630904467
+    ],
+    "corrigidos": [
+     1791557941758,
+     1791626776253,
+     1791626778904,
+     1791628674574,
+     1791630904467
+    ]
+   },
+   "causa": "Preservados os índices editados por Davi; comentário explica o eixo e a exceção sem refazer a tabela aprovada.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Sites infected by each dermatophyte genus: Skin Hair Nails {{c4::Trichophyton}} {{c2:: Yes }} {{c2:: Yes }} {{c2:: Yes }} {{c4::Microsporum}} {{c3:: Yes }} {{c3:: Yes }} {{c3:: Rar → Sites infected by each dermatophyte genus: Skin Hair Nails {{c4::Trichophyton}} {{c2:: Yes }} {{c2:: Yes }} {{c2:: Yes }} {{c4::Microsporum}} {{c3:: Yes }} {{c3:: Yes }} {{c3:: Rar; Preservados os índices editados por Davi; comentário explica o eixo e a exceção sem refazer a tabela aprovada."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791626778904,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "Dermatophyte onychomycosis usually starts at the {{c1:: distal }} nail edge, whereas Candida starts at the {{c1:: proximal }} nail fold",
+   "aula": "2026-uc03-microbiologia-44-micoses-cutaneas",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791626776253,
+     1791626778904
+    ],
+    "corrigidos": [
+     1791626776253,
+     1791626778904
+    ]
+   },
+   "causa": "Comparação fotográfica da aula mostra os dois padrões ungueais descritos.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Dermatophyte onychomycosis usually starts at the {{c1:: distal }} nail edge, whereas Candida starts at the {{c1:: proximal }} nail fold → Dermatophyte onychomycosis usually starts at the {{c1:: distal }} nail edge, whereas Candida starts at the {{c1:: proximal }} nail fold; Comparação fotográfica da aula mostra os dois padrões ungueais descritos."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791627546928,
+   "tipos": [
+    "comando:escrita"
+   ],
+   "fala": "",
+   "card": "In multicellular organisms, a single gene is often controlled by {{c1:: dozens }} of transcription factors",
+   "aula": "",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791627546928
+    ],
+    "corrigidos": []
+   },
+   "causa": "Dozens era número vago; o alvo duradouro é o princípio de controle combinatório.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "In multicellular organisms, a single gene is often controlled by {{c1:: dozens }} of transcription factors → A eukaryotic gene integrates inputs from multiple transcription factors through {{c1::combinatorial control}}.; Dozens era número vago; o alvo duradouro é o princípio de controle combinatório."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791627547475,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "Which complex links transcriptional activators to the RNA polymerase II machinery ? {{c1::Mediator}}",
+   "aula": "2026-uc03-biologia-molecular-46-expressao-eucariotos-i",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791627547178,
+     1791627547302,
+     1791627547475,
+     1791627549152,
+     1792788316281
+    ],
+    "corrigidos": [
+     1791627547475,
+     1791627549152,
+     1792788316281
+    ]
+   },
+   "causa": "Substituída ausência de figura por mecanismo real com Mediator entre ativador e maquinaria Pol II.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Which complex links transcriptional activators to the RNA polymerase II machinery ? {{c1::Mediator}} → Which complex links transcriptional activators to the RNA polymerase II machinery ? {{c1::Mediator}}; Substituída ausência de figura por mecanismo real com Mediator entre ativador e maquinaria Pol II."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791627549152,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "An activator has a DNA-binding domain and an {{c1:: activation domain }} that recruits Mediator and RNA polymerase II",
+   "aula": "2026-uc03-biologia-molecular-46-expressao-eucariotos-i",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791627547178,
+     1791627547302,
+     1791627547475,
+     1791627549152,
+     1792788316281
+    ],
+    "corrigidos": [
+     1791627547475,
+     1791627549152,
+     1792788316281
+    ]
+   },
+   "causa": "Figura real de Gal4 separa fisicamente domínio de ligação e domínio de ativação; sai o esquema textual genérico.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "An activator has a DNA-binding domain and an {{c1:: activation domain }} that recruits Mediator and RNA polymerase II → An activator has a DNA-binding domain and an {{c1:: activation domain }} that recruits Mediator and RNA polymerase II; Figura real de Gal4 separa fisicamente domínio de ligação e domínio de ativação; sai o esquema textual genérico."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791627549276,
+   "tipos": [
+    "comando:escrita"
+   ],
+   "fala": "",
+   "card": "Gal4 can activate transcription by recruiting {{c1::coactivators}} that modify chromatin or connect to the basal machinery.",
+   "aula": "",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791627549276
+    ],
+    "corrigidos": []
+   },
+   "causa": "Negrito situa quem age e a ação visível; o comentário explica recrutamento em vez de repetir a frase.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Gal4 can activate transcription by recruiting {{c1::coactivators}} that modify chromatin or connect to the basal machinery. → DNA-bound Gal4 activates transcription by recruiting {{c1::coactivators}} that modify chromatin or connect to the basal machinery.; Negrito situa quem age e a ação visível; o comentário explica recrutamento em vez de repetir a frase."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791627549652,
+   "tipos": [
+    "comando:escrita"
+   ],
+   "fala": "",
+   "card": "A LexA–Gal4 hybrid binds DNA through LexA; Gal4 supplies the {{c1::activation domain}} that recruits transcription machinery.",
+   "aula": "",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791627549652
+    ],
+    "corrigidos": []
+   },
+   "causa": "A recuperação distingue modularidade das duas funções; o verso explica o resultado experimental.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "A LexA–Gal4 hybrid binds DNA through LexA; Gal4 supplies the {{c1::activation domain}} that recruits transcription machinery. → A LexA–Gal4 hybrid binds a LexA DNA site, while the Gal4 segment supplies its {{c1::activation domain}}.; A recuperação distingue modularidade das duas funções; o verso explica o resultado experimental."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791627550877,
+   "tipos": [
+    "comando:comentario,imagem"
+   ],
+   "fala": "",
+   "card": "Cytokine-activated JAK kinases phosphorylate {{c1:: STAT }} transcription factors",
+   "aula": "",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791627550877
+    ],
+    "corrigidos": []
+   },
+   "causa": "A figura da aula acompanha receptor, JAK, STAT e núcleo na mesma sequência descrita.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Cytokine-activated JAK kinases phosphorylate {{c1:: STAT }} transcription factors → Cytokine-activated JAK kinases phosphorylate {{c1:: STAT }} transcription factors; A figura da aula acompanha receptor, JAK, STAT e núcleo na mesma sequência descrita."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791628674574,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "Sporothrix is a a cigar-shaped budding {{c1::yeast::yeast/mold}} in tissue and a {{c1::mold::yeast/mold}} on plants and soil",
+   "aula": "2026-uc03-microbiologia-48-micoses-subcutaneas",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791557941758,
+     1791626776253,
+     1791628674574,
+     1791628675198,
+     1791628675323,
+     1791628675571,
+     1791630904467,
+     1792175888632
+    ],
+    "corrigidos": [
+     1791557941758,
+     1791626776253,
+     1791628674574,
+     1791628675198,
+     1791628675323,
+     1791628675571,
+     1791630904467,
+     1792175888632
+    ]
+   },
+   "causa": "Retiradas alternativa binária e duplicação de artigo; a imagem de levedura é identificada sem fingir que mostra bolor.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Sporothrix is a a cigar-shaped budding {{c1::yeast::yeast/mold}} in tissue and a {{c1::mold::yeast/mold}} on plants and soil → Sporothrix appears as a cigar-shaped budding cell in tissue , the {{c1::yeast}} form, and grows as {{c1::mold}} in environmental culture.; Retiradas alternativa binária e duplicação de artigo; a imagem de levedura é identificada sem fingir que mostra bolor."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791628675198,
+   "tipos": [
+    "comando:comentario"
+   ],
+   "fala": "",
+   "card": "Chromoblastomycosis is caused by pigmented (dematiaceous) molds , mainly {{c1:: Fonsecaea pedrosoi }} in Brazil",
+   "aula": "2026-uc03-microbiologia-48-micoses-subcutaneas",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791628674574,
+     1791628675198,
+     1791628675323,
+     1791628675571,
+     1792175888632
+    ],
+    "corrigidos": [
+     1791628674574,
+     1791628675198,
+     1791628675323,
+     1791628675571,
+     1792175888632
+    ]
+   },
+   "causa": "Encurtado o verso mantendo causa e contraste morfológico, retirando repetição clínica.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Chromoblastomycosis is caused by pigmented (dematiaceous) molds , mainly {{c1:: Fonsecaea pedrosoi }} in Brazil → Chromoblastomycosis is caused by pigmented (dematiaceous) molds , mainly {{c1:: Fonsecaea pedrosoi }} in Brazil; Encurtado o verso mantendo causa e contraste morfológico, retirando repetição clínica."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791628675323,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "Because the fungus is implanted by minor trauma from soil and plants, chromoblastomycosis mostly affects the {{c1:: lower limbs }}",
+   "aula": "2026-uc03-microbiologia-48-micoses-subcutaneas",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791628674574,
+     1791628675198,
+     1791628675323,
+     1791628675571,
+     1792175888632
+    ],
+    "corrigidos": [
+     1791628674574,
+     1791628675198,
+     1791628675323,
+     1791628675571,
+     1792175888632
+    ]
+   },
+   "causa": "Fotos reais mostram exatamente os membros afetados; ampliadas para remover limite antigo de360px.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Because the fungus is implanted by minor trauma from soil and plants, chromoblastomycosis mostly affects the {{c1:: lower limbs }} → Because the fungus is implanted by minor trauma from soil and plants, chromoblastomycosis mostly affects the {{c1:: lower limbs }}; Fotos reais mostram exatamente os membros afetados; ampliadas para remover limite antigo de360px."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791628675571,
+   "tipos": [
+    "comentario"
+   ],
+   "fala": "esses cards de micoses podem receber, em vários, uma tabela que diz quais são cutâneas, quais subcutâneas, quais susperficiais, oportunistas e sistêmicas tabela organizada tipo a das citocinas para o dekc de ativação das céls. t e b",
+   "card": "The diagnostic finding of chromoblastomycosis is brown, thick-walled {{c1::sclerotic bodies}} in pus, crusts or tissue",
+   "aula": "2026-uc03-microbiologia-48-micoses-subcutaneas",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791628674574,
+     1791628675198,
+     1791628675323,
+     1791628675571,
+     1792175888632
+    ],
+    "corrigidos": [
+     1791628674574,
+     1791628675198,
+     1791628675323,
+     1791628675571,
+     1792175888632
+    ]
+   },
+   "causa": "A frente é edição aprovada porDavi e deve permanecer. O pedido novo é apoio transversal no verso em várias notas; categorias de profundidade e oportunismo se sobrepõem, portanto tabela não deve apresentar cinco caixas mutuamente excludentes.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "The diagnostic finding of chromoblastomycosis is brown, thick-walled {{c1::sclerotic bodies}} in pus, crusts or tissue → The diagnostic finding of chromoblastomycosis is brown, thick-walled {{c1::sclerotic bodies}} in pus, crusts or tissue; A frente é edição aprovada porDavi e deve permanecer. O pedido novo é apoio transversal no verso em várias notas; categorias de profundidade e oportunismo se sobrepõem, portanto tabela não deve apresentar cinco caixas mutuamente excludentes."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791629593971,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "Activated helper T cells and antigen-bearing B cells meet at the edge of the {{c1:: follicle }}",
+   "aula": "2026-uc03-imunologia-07-organizacao-sistema-imune",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791629593971,
+     1792487516279
+    ],
+    "corrigidos": [
+     1791629593971,
+     1792487516279
+    ]
+   },
+   "causa": "Verso distingue encontro inicial de centro germinativo sem uma definição longa paralela.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Activated helper T cells and antigen-bearing B cells meet at the edge of the {{c1:: follicle }} → Activated helper T cells and antigen-bearing B cells meet at the edge of the {{c1:: follicle }}; Verso distingue encontro inicial de centro germinativo sem uma definição longa paralela."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791630172920,
+   "tipos": [
+    "comando:escrita"
+   ],
+   "fala": "",
+   "card": "{{c1:: Riboswitches }} are 5′ UTR structures that change shape when they bind a small molecule",
+   "aula": "",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791630172920
+    ],
+    "corrigidos": []
+   },
+   "causa": "O alvo agora é induzido pela ligação direta de metabólito ao RNA e a figura mostra o RBS ocultado.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "{{c1:: Riboswitches }} are 5′ UTR structures that change shape when they bind a small molecule → In bacterial mRNA , a metabolite-binding RNA structure that directly changes gene expression is a {{c1::riboswitch}}.; O alvo agora é induzido pela ligação direta de metabólito ao RNA e a figura mostra o RBS ocultado."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791630173546,
+   "tipos": [
+    "comando:escrita,imagem"
+   ],
+   "fala": "",
+   "card": "Besides its repressor , the trp operon is controlled by {{c1:: attenuation }}",
+   "aula": "",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791630173546
+    ],
+    "corrigidos": []
+   },
+   "causa": "Verso e figura distinguem dois níveis de controle, sem sugerir que repressor e atenuação sejam o mesmo mecanismo.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Besides its repressor , the trp operon is controlled by {{c1:: attenuation }} → Besides its repressor , the trp operon is controlled by {{c1:: attenuation }}; Verso e figura distinguem dois níveis de controle, sem sugerir que repressor e atenuação sejam o mesmo mecanismo."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791630173671,
+   "tipos": [
+    "comando:comentario,imagem"
+   ],
+   "fala": "",
+   "card": "When tryptophan is high , the ribosome quickly finishes the leader peptide and a {{c1:: terminator }} hairpin stops transcription",
+   "aula": "",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791630173671
+    ],
+    "corrigidos": []
+   },
+   "causa": "A legenda causal explica por que Trp alto permite a alça 3:4 mostrada na aula.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "When tryptophan is high , the ribosome quickly finishes the leader peptide and a {{c1:: terminator }} hairpin stops transcription → When tryptophan is high , the ribosome quickly finishes the leader peptide and a {{c1:: terminator }} hairpin stops transcription; A legenda causal explica por que Trp alto permite a alça 3:4 mostrada na aula."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791630173920,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "In trp attenuation , abundant tryptophan lets the leader ribosome advance, allowing the {{c1::terminator}} hairpin to form.",
+   "aula": "",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791630173920
+    ],
+    "corrigidos": []
+   },
+   "causa": "Duas frentes cobravam Trp alto e terminador; esta passa a cobrar a condição oposta por mecanismo, preservando ID e histórico.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "In trp attenuation , abundant tryptophan lets the leader ribosome advance, allowing the {{c1::terminator}} hairpin to form. → In trp attenuation with scarce tryptophan , the stalled leader ribosome permits an {{c1::antiterminator}} hairpin to form.; Duas frentes cobravam Trp alto e terminador; esta passa a cobrar a condição oposta por mecanismo, preservando ID e histórico."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791630175095,
+   "tipos": [
+    "comando:comentario"
+   ],
+   "fala": "",
+   "card": "When CRISPR/Cas9 makes a double-strand break to knock out a gene, the cell repairs it by error-prone {{c1::nonhomologous end joining}}",
+   "aula": "",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791630175095
+    ],
+    "corrigidos": []
+   },
+   "causa": "Removidas garantias falsas de frameshift/knockout e de reparo preciso por nickase pareada.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "When CRISPR/Cas9 makes a double-strand break to knock out a gene, the cell repairs it by error-prone {{c1::nonhomologous end joining}} → When CRISPR/Cas9 makes a double-strand break to knock out a gene, the cell repairs it by error-prone {{c1::nonhomologous end joining}}; Removidas garantias falsas de frameshift/knockout e de reparo preciso por nickase pareada."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791630176396,
+   "tipos": [
+    "comando:comentario,imagem"
+   ],
+   "fala": "",
+   "card": "{{c2::siRNAs}} come from long exogenous dsRNA , whereas {{c2::miRNAs}} come from genome-encoded {{c1:: hairpin }} transcripts",
+   "aula": "",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791630176396
+    ],
+    "corrigidos": []
+   },
+   "causa": "O verso explica origem versus maquinaria compartilhada; conferir figura real de RNAi antes de aplicar.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "{{c2::siRNAs}} come from long exogenous dsRNA , whereas {{c2::miRNAs}} come from genome-encoded {{c1:: hairpin }} transcripts → RNA-silencing precursors Long double-stranded RNA can generate {{c2::siRNAs}}. Genome-encoded precursors of {{c2::miRNAs}} fold into {{c1::hairpin}} structures.; O verso explica origem versus maquinaria compartilhada; conferir figura real de RNAi antes de aplicar."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791630176520,
+   "tipos": [
+    "comando:comentario,imagem"
+   ],
+   "fala": "",
+   "card": "The first miRNA, lin-4 , was found in {{c1:: C. elegans }}, where it represses lin-14 during larval development",
+   "aula": "",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791630176520
+    ],
+    "corrigidos": []
+   },
+   "causa": "O exemplo histórico agora ensina o mecanismo e usa a figura real dos sítios de pareamento lin-4/lin-14.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "The first miRNA, lin-4 , was found in {{c1:: C. elegans }}, where it represses lin-14 during larval development → The first miRNA, lin-4 , was found in {{c1:: C. elegans }}, where it represses lin-14 during larval development; O exemplo histórico agora ensina o mecanismo e usa a figura real dos sítios de pareamento lin-4/lin-14."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791630179395,
+   "tipos": [
+    "comando:comentario"
+   ],
+   "fala": "",
+   "card": "mRNA quality control occurs at {{c1::cytoplasmic processing bodies (P-bodies)}}, which contain exonucleases, decapping enzymes, and microRNAs",
+   "aula": "",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791630179395
+    ],
+    "corrigidos": []
+   },
+   "causa": "Alvo encurtado ao nome técnico; retirado pressuposto de que todo controle de qualidade ocorre ali.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "mRNA quality control occurs at {{c1::cytoplasmic processing bodies (P-bodies)}}, which contain exonucleases, decapping enzymes, and microRNAs → Cytoplasmic granules enriched in mRNA-decapping and decay proteins are called {{c1::P-bodies}}.; Alvo encurtado ao nome técnico; retirado pressuposto de que todo controle de qualidade ocorre ali."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791630904467,
+   "tipos": [
+    "comentario"
+   ],
+   "fala": "essa imagem debaixo tem que ir para os cards vários, junto da tabela que sugeri de comentário pensa os que cabe e coloca em vários",
+   "card": "Paracoccidioides yeasts show multiple buds around a large mother cell, the {{c1::pilot's wheel}} pattern",
+   "aula": "2026-uc03-grand-round-04-paracoccidioidomicose",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791557941758,
+     1791626776253,
+     1791628674574,
+     1791630904467,
+     1791630905518,
+     1791630905957,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ],
+    "corrigidos": [
+     1791557941758,
+     1791626776253,
+     1791628674574,
+     1791630904467,
+     1791630905518,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ]
+   },
+   "causa": "Duas figuras com funções distintas substituem três fotos repetidas: foco em Paracoccidioides e comparador pedido.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Paracoccidioides yeasts show multiple buds around a large mother cell, the {{c1::pilot's wheel}} pattern → Paracoccidioides yeasts show multiple buds around a large mother cell, the {{c1::pilot's wheel}} pattern; Duas figuras com funções distintas substituem três fotos repetidas: foco em Paracoccidioides e comparador pedido."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791630905518,
+   "tipos": [
+    "comando:comentario"
+   ],
+   "fala": "",
+   "card": "Transmission of Histoplasma occurs through the {{c1:: respiratory }} tract",
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791557941758,
+     1791630904467,
+     1791630905518,
+     1791630905957,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ],
+    "corrigidos": [
+     1791557941758,
+     1791630904467,
+     1791630905518,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ]
+   },
+   "causa": "Mantida a cadeia ambiente→aerossol→pulmão e retirado contraste lateral desnecessário.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Transmission of Histoplasma occurs through the {{c1:: respiratory }} tract → Transmission of Histoplasma occurs through the {{c1:: respiratory }} tract; Mantida a cadeia ambiente→aerossol→pulmão e retirado contraste lateral desnecessário."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791630905957,
+   "tipos": [
+    "comentario"
+   ],
+   "fala": "o coração da marcação do lado da bandeira está tampando a bandeira deixa ele um pouquinho mais à esquerda",
+   "card": "{{c2:: Histoplasma ::Which fungus}} targets the {{c1:: reticuloendothelial }} system, ultimately resulting in dissemination to the liver and spleen",
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "familia": "interface",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791557941758,
+     1791630904467,
+     1791630905518,
+     1791630905957,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ],
+    "corrigidos": [
+     1791557941758,
+     1791630904467,
+     1791630905518,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ]
+   },
+   "causa": "O seletor antigo não encontrava #_flag nativo e caía numa posição sobre a bandeira. Quando a bandeira estava oculta,o retângulo zero colocava o coração fora da tela. Agora a geometria visível determina a âncora e há posição alternativa segura.",
+   "prevencao": {
+    "gate": "qualidade_comentarios.badge_layout_ok",
+    "indicacao": "Coração de gostei usa #_flag nativo, mede sua geometria visível e mantém posição segura sem bandeira; testar oito combinações de largura/bandeira/gostei e conferir a janela real.",
+    "exemplo": "Antes: sobreposição na bandeira oux negativo sem bandeira → depois:12px com bandeira e coração visível sem ela."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791630906367,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "The most frequent visible lesions of disseminated histoplasmosis are on the {{c1:: tongue }} and {{c1::palate}}",
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791557941758,
+     1791630904467,
+     1791630905518,
+     1791630905957,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ],
+    "corrigidos": [
+     1791557941758,
+     1791630904467,
+     1791630905518,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ]
+   },
+   "causa": "Figura da própria aula localiza língua e palato; comentário separa lesão disseminada de via de entrada.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "The most frequent visible lesions of disseminated histoplasmosis are on the {{c1:: tongue }} and {{c1::palate}} → Oral lesions of disseminated histoplasmosis can involve the {{c1::tongue}} and {{c1::palate}}.; Figura da própria aula localiza língua e palato; comentário separa lesão disseminada de via de entrada."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791630906668,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "Because Histoplasma is hard to see on direct exam , diagnosis relies on fungal {{c1:: culture }}",
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791557941758,
+     1791630904467,
+     1791630905518,
+     1791630905957,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ],
+    "corrigidos": [
+     1791557941758,
+     1791630904467,
+     1791630905518,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ]
+   },
+   "causa": "Retirado relies absoluto; foto de leveduras intracelulares permanece como explicação da dificuldade, não imagem de cultura.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Because Histoplasma is hard to see on direct exam , diagnosis relies on fungal {{c1:: culture }} → Fungal {{c1::culture}} can confirm histoplasmosis when direct examination is insensitive .; Retirado relies absoluto; foto de leveduras intracelulares permanece como explicação da dificuldade, não imagem de cultura."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791631345113,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "Activators recruit {{c1::chromatin-remodeling complexes}} to reposition nucleosomes and expose regulatory DNA.",
+   "aula": "2026-uc03-biologia-molecular-52-expressao-eucariotos-ii",
+   "familia": "verso-causal-BM52",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; consulta Anki tag:NEBLI::2026-uc03-biologia-molecular-52-expressao-eucariotos-ii e leitura das41notas.",
+    "nids": [
+     1791627547178,
+     1791627547302,
+     1791631342791,
+     1791631342915,
+     1791631343090,
+     1791631343217,
+     1791631343342,
+     1791631343467,
+     1791631343592,
+     1791631343715,
+     1791631343842,
+     1791631343991,
+     1791631344117,
+     1791631344241,
+     1791631344366,
+     1791631344492,
+     1791631344666,
+     1791631344792,
+     1791631344917,
+     1791631345113,
+     1791631345241,
+     1791631345367,
+     1791631345492,
+     1791631345616,
+     1791631345741,
+     1791631345867,
+     1791631345990,
+     1791631346116,
+     1791631346241,
+     1791631346366,
+     1791631346492,
+     1791631346617,
+     1791631346842,
+     1791631346967,
+     1791631347092,
+     1791631347216,
+     1791631347342,
+     1791631347467,
+     1791631347641,
+     1791631347767,
+     1791631347892,
+     1792082171335,
+     1792082177137,
+     1792082183634
+    ],
+    "corrigidos": [
+     1791631345113,
+     1791631347092,
+     1791631347892,
+     1791631343342,
+     1791631343467,
+     1791631343592,
+     1791631343715,
+     1791631345367,
+     1791631346366,
+     1791631346967,
+     1791631347767,
+     1792082177137
+    ]
+   },
+   "causa": "A figura real separa remodelador de cromatina e HAT e mostra recrutamento por ativadores.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Activators recruit {{c1::chromatin-remodeling complexes}} to reposition nucleosomes and expose regulatory DNA. → Activators recruit {{c1::chromatin-remodeling complexes}} to reposition nucleosomes and expose regulatory DNA.; A figura real separa remodelador de cromatina e HAT e mostra recrutamento por ativadores."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791631347092,
+   "tipos": [
+    "comando:comentario"
+   ],
+   "fala": "",
+   "card": "After replication , a {{c1:: maintenance DNA methyltransferase }} copies methylation onto the new strand",
+   "aula": "2026-uc03-biologia-molecular-52-expressao-eucariotos-ii",
+   "familia": "verso-causal-BM52",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; consulta Anki tag:NEBLI::2026-uc03-biologia-molecular-52-expressao-eucariotos-ii e leitura das41notas.",
+    "nids": [
+     1791627547178,
+     1791627547302,
+     1791631342791,
+     1791631342915,
+     1791631343090,
+     1791631343217,
+     1791631343342,
+     1791631343467,
+     1791631343592,
+     1791631343715,
+     1791631343842,
+     1791631343991,
+     1791631344117,
+     1791631344241,
+     1791631344366,
+     1791631344492,
+     1791631344666,
+     1791631344792,
+     1791631344917,
+     1791631345113,
+     1791631345241,
+     1791631345367,
+     1791631345492,
+     1791631345616,
+     1791631345741,
+     1791631345867,
+     1791631345990,
+     1791631346116,
+     1791631346241,
+     1791631346366,
+     1791631346492,
+     1791631346617,
+     1791631346842,
+     1791631346967,
+     1791631347092,
+     1791631347216,
+     1791631347342,
+     1791631347467,
+     1791631347641,
+     1791631347767,
+     1791631347892,
+     1792082171335,
+     1792082177137,
+     1792082183634
+    ],
+    "corrigidos": [
+     1791631345113,
+     1791631347092,
+     1791631347892,
+     1791631343342,
+     1791631343467,
+     1791631343592,
+     1791631343715,
+     1791631345367,
+     1791631346366,
+     1791631346967,
+     1791631347767,
+     1792082177137
+    ]
+   },
+   "causa": "Retirada imagem duplicada e comparação longa; mantidos substrato, momento e mecanismo.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "After replication , a {{c1:: maintenance DNA methyltransferase }} copies methylation onto the new strand → After replication , a {{c1:: maintenance DNA methyltransferase }} copies methylation onto the new strand; Retirada imagem duplicada e comparação longa; mantidos substrato, momento e mecanismo."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791631347892,
+   "tipos": [
+    "comentario",
+    "comando:imagem"
+   ],
+   "fala": "mts cards desse deck ficaram rasos",
+   "card": "Therapeutic use of iPS cells is limited because two of the factors, c-Myc and Klf4 , are {{c1:: oncogenes }}",
+   "aula": "2026-uc03-biologia-molecular-52-expressao-eucariotos-ii",
+   "familia": "verso-causal-BM52",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; consulta Anki tag:NEBLI::2026-uc03-biologia-molecular-52-expressao-eucariotos-ii e leitura das41notas.",
+    "nids": [
+     1791627547178,
+     1791627547302,
+     1791631342791,
+     1791631342915,
+     1791631343090,
+     1791631343217,
+     1791631343342,
+     1791631343467,
+     1791631343592,
+     1791631343715,
+     1791631343842,
+     1791631343991,
+     1791631344117,
+     1791631344241,
+     1791631344366,
+     1791631344492,
+     1791631344666,
+     1791631344792,
+     1791631344917,
+     1791631345113,
+     1791631345241,
+     1791631345367,
+     1791631345492,
+     1791631345616,
+     1791631345741,
+     1791631345867,
+     1791631345990,
+     1791631346116,
+     1791631346241,
+     1791631346366,
+     1791631346492,
+     1791631346617,
+     1791631346842,
+     1791631346967,
+     1791631347092,
+     1791631347216,
+     1791631347342,
+     1791631347467,
+     1791631347641,
+     1791631347767,
+     1791631347892,
+     1792082171335,
+     1792082177137,
+     1792082183634
+    ],
+    "corrigidos": [
+     1791631345113,
+     1791631347092,
+     1791631347892,
+     1791631343342,
+     1791631343467,
+     1791631343592,
+     1791631343715,
+     1791631345367,
+     1791631346366,
+     1791631346967,
+     1791631347767,
+     1792082177137
+    ]
+   },
+   "causa": "Sai generalização de que todos os fatores/protocolos são igualmente oncogênicos; entra consequência causal da proliferação.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Therapeutic use of iPS cells is limited because two of the factors, c-Myc and Klf4 , are {{c1:: oncogenes }} → In iPS-cell reprogramming , the growth-promoting factor c-Myc raises concern because it is an {{c1::oncogene}}.; Sai generalização de que todos os fatores/protocolos são igualmente oncogênicos; entra consequência causal da proliferação."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1791780353397,
+   "tipos": [
+    "comando:comentario,imagem"
+   ],
+   "fala": "",
+   "card": "{{c2:: Eosinophils }} produce {{c1:: major basic protein }}, which destroys parasites and is responsible for epithelial cell damage in asthma",
+   "aula": "2026-uc03-imunologia-64-hipersensibilidade",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791780353397,
+     1793784421465,
+     1793784423639,
+     1793784427166,
+     1793784428840,
+     1793784429918
+    ],
+    "corrigidos": [
+     1791780353397,
+     1793784421465,
+     1793784423639,
+     1793784427166,
+     1793784428840,
+     1793784429918
+    ]
+   },
+   "causa": "Conectados alvo parasitário e dano colateral pelo mesmo mecanismo de membrana.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "{{c2:: Eosinophils }} produce {{c1:: major basic protein }}, which destroys parasites and is responsible for epithelial cell damage in asthma → {{c2:: Eosinophils }} produce {{c1:: major basic protein }}, which destroys parasites and is responsible for epithelial cell damage in asthma; Conectados alvo parasitário e dano colateral pelo mesmo mecanismo de membrana."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792065183130,
+   "tipos": [
+    "comando:escrita"
+   ],
+   "fala": "",
+   "card": "Endemic systemic mycoses begin when environmental fungal propagules in soil enter through {{c1::inhalation}}.",
+   "aula": "2026-uc03-microbiologia-50-micoses-sistemicas",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791557941758,
+     1791630904467,
+     1791630905518,
+     1791630905957,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ],
+    "corrigidos": [
+     1791557941758,
+     1791630904467,
+     1791630905518,
+     1791630906367,
+     1791630906668,
+     1792065183130
+    ]
+   },
+   "causa": "Circunscrito o universo sistêmico dimórfico para não universalizar micose endêmica de pele.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Endemic systemic mycoses begin when environmental fungal propagules in soil enter through {{c1::inhalation}}. → Endemic systemic dimorphic fungi usually initiate infection when airborne environmental propagules enter through {{c1::inhalation}}.; Circunscrito o universo sistêmico dimórfico para não universalizar micose endêmica de pele."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792081484462,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "Post-primary pulmonary TB favors the {{c1:: apices }}, where oxygen tension is relatively high",
+   "aula": "2026-uc03-patologia-47-inflamacao-granulomatosa",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792081484462
+    ],
+    "corrigidos": [
+     1792081484462
+    ]
+   },
+   "causa": "Incluída radiografia real do acervo AnKing, com alteração em campo superior, em vez de figura genérica de bactéria. Revisão independente rejeitou RX anterior por não demonstrar ápice; substituído por imagem institucional com cavidade visível e setas.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Post-primary pulmonary TB favors the {{c1:: apices }}, where oxygen tension is relatively high → Post-primary pulmonary TB favors the {{c1:: apices }}, where oxygen tension is relatively high; Incluída radiografia real do acervo AnKing, com alteração em campo superior, em vez de figura genérica de bactéria. Revisão independente rejeitou RX anterior por não demonstrar ápice; substituído por imagem institucional com cavidade visível e setas."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792082060961,
+   "tipos": [
+    "comando:comentario,escrita"
+   ],
+   "fala": "",
+   "card": "After the preinitiation complex forms, phosphorylation of the RNA polymerase II {{c1:: tail }} releases it to elongate",
+   "aula": "",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792082060961
+    ],
+    "corrigidos": []
+   },
+   "causa": "Tail era palavra genérica; o alvo passa a ser CTD, com expansão e consequência funcional no verso.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "After the preinitiation complex forms, phosphorylation of the RNA polymerase II {{c1:: tail }} releases it to elongate → Phosphorylation of the RNA polymerase II {{c1::CTD}} promotes promoter escape and elongation .; Tail era palavra genérica; o alvo passa a ser CTD, com expansão e consequência funcional no verso."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792175888632,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "Main subcutaneous mycoses (agent): 1. {{c1:: Sporotrichosis ::S…}} (Sporothrix brasiliensis) 2. {{c1:: Chromoblastomycosis ::C…}} (Fonsecaea pedrosoi) 3. {{c1:: Eumycetoma ::E…}} (Madurella grisea) 4. {{c1:: Lobomycosis ::L…}} (Lacazia loboi) 5. {{c1:: Phaeohyphomycosis ::P…}} (dark molds)",
+   "aula": "2026-uc03-microbiologia-48-micoses-subcutaneas",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791628674574,
+     1791628675198,
+     1791628675323,
+     1791628675571,
+     1792175888632
+    ],
+    "corrigidos": [
+     1791628674574,
+     1791628675198,
+     1791628675323,
+     1791628675571,
+     1792175888632
+    ]
+   },
+   "causa": "Título dizia agente mas as lacunas cobravam doenças. Preservado conjunto aprovado e índice; título passa a cobrar as doenças e as iniciais passam a orientar sem agentes cognatos expostos.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Main subcutaneous mycoses (agent): 1. {{c1:: Sporotrichosis ::S…}} (Sporothrix brasiliensis) 2. {{c1:: Chromoblastomycosis ::C…}} (Fonsecaea pedrosoi) 3. {{c1:: Eumycetoma ::E…}} ( → Selected subcutaneous mycoses Nodular lymphatic spread : {{c1::sporotrichosis::s…}} Muriform bodies : {{c1::chromoblastomycosis::c…}} Fungal grains : {{c1::eumycetoma::e…}} Thick-w; Título dizia agente mas as lacunas cobravam doenças. Preservado conjunto aprovado e índice; título passa a cobrar as doenças e as iniciais passam a orientar sem agentes cognatos expostos."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792328914296,
+   "tipos": [
+    "comentario"
+   ],
+   "fala": "negrito",
+   "card": "Spinal cord levels in cross-section Sympathetic lateral horn: {{c1::T1–L2}} Cervical enlargement: {{c2::C5–T1}} Lumbosacral enlargement: {{c2::L2–S2}}",
+   "aula": "2026-uc07-medula-espinal-topografia-e-morfologia-da-medula-espinal",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792328914296
+    ],
+    "corrigidos": [
+     1792328914296
+    ]
+   },
+   "causa": "Negrito em cada critério de comparação, não somente no título; sem confundir nível medular com vértebra. Fonte conferida distingue nível medular de vértebra e indica L2–S3; figura vertebral substituída por quatro cortes reais da medula.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Spinal cord levels in cross-section Sympathetic lateral horn: {{c1::T1–L2}} Cervical enlargement: {{c2::C5–T1}} Lumbosacral enlargement: {{c2::L2–S2}} → Segmentos da medula espinal Corno lateral simpático : {{c1::T1–L2}} Intumescência cervical : {{c2::C5–T1}} Intumescência lombossacral : {{c2::L2–S3}}; Negrito em cada critério de comparação, não somente no título; sem confundir nível medular com vértebra. Fonte conferida distingue nível medular de vértebra e indica L2–S3; figura vertebral substituída por quatro cortes reais da medula."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792487516279,
+   "tipos": [
+    "comando:comentario"
+   ],
+   "fala": "",
+   "card": "B-cell maturation Bone marrow {{c1::Pro-B::P…}}: no complete μ chain or surface Ig {{c1::Pre-B::P…}}: cytoplasmic μ and pre-BCR, no conventional light chain {{c1::Immature B::I…}}: surface IgM, no IgD Peripheral cells {{c2::Mature naive B::M…}}: surface {{c3::IgM and IgD::I…}} {{c2::Plasma cells::P…",
+   "aula": "2026-uc03-imunologia-17-reconhecimento-adaptativo",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791629593971,
+     1792487516279
+    ],
+    "corrigidos": [
+     1791629593971,
+     1792487516279
+    ]
+   },
+   "causa": "Preservada organização editada por Davi; retiradas repetições sem apagar o mecanismo e a bifurcação de destinos.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "B-cell maturation Bone marrow {{c1::Pro-B::P…}}: no complete μ chain or surface Ig {{c1::Pre-B::P…}}: cytoplasmic μ and pre-BCR, no conventional light chain {{c1::Immature B::I…}}: → B-cell maturation Bone marrow {{c1::Pro-B::P…}}: no complete μ chain or surface Ig {{c1::Pre-B::P…}}: cytoplasmic μ and pre-BCR, no conventional light chain {{c1::Immature B::I…}}:; Preservada organização editada por Davi; retiradas repetições sem apagar o mecanismo e a bifurcação de destinos."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792588686960,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "O sistema nervoso periférico é composto por todas as estruturas nervosas fora do {{c1::encéfalo}} e da {{c1::medula espinal}}",
+   "aula": "2026-uc07-anatomia-01-construcao-morfofuncional",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792588686960
+    ],
+    "corrigidos": [
+     1792588686960
+    ]
+   },
+   "causa": "Pedido atendido na refação entregue da AN01: esquema SNC/SNP real da aula instalado, com notas e cards conferidos. Não reescrever o deck recém-entregue.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "O sistema nervoso periférico é composto por todas as estruturas nervosas fora do {{c1::encéfalo}} e da {{c1::medula espinal}} → O sistema nervoso periférico é composto por todas as estruturas nervosas fora do {{c1::encéfalo}} e da {{c1::medula espinal}}; Pedido atendido na refação entregue da AN01: esquema SNC/SNP real da aula instalado, com notas e cards conferidos. Não reescrever o deck recém-entregue."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792695022241,
+   "tipos": [
+    "comando:escrita"
+   ],
+   "fala": "",
+   "card": "Viruses with an early/late gene program : Early mRNAs: {{c1::polymerase::p…}}, copies the genome Late mRNAs: {{c1::capsid::c…}} proteins, package it",
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792695022241,
+     1792695033836,
+     1792695036313,
+     1792695052983,
+     1792695055945
+    ],
+    "corrigidos": [
+     1792695022241,
+     1792695033836,
+     1792695036313,
+     1792695052983,
+     1792695055945
+    ]
+   },
+   "causa": "Negrito destaca ordem e função; retirado absoluto incorreto sobre todos os vírus RNA.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Viruses with an early/late gene program : Early mRNAs: {{c1::polymerase::p…}}, copies the genome Late mRNAs: {{c1::capsid::c…}} proteins, package it → Viral early/late gene programs Before genome replication : early {{c1::polymerase::p…}} expression supplies copying enzymes. After genome replication : late {{c1::capsid::c…}} prot; Negrito destaca ordem e função; retirado absoluto incorreto sobre todos os vírus RNA."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792695033836,
+   "tipos": [
+    "comando:escrita"
+   ],
+   "fala": "",
+   "card": "(+) RNA virus cycle , in the cytoplasm: - genome translated as one {{c1::polyprotein::p…}} - viral {{c1::protease::p…}} frees the RNA-dependent RNA polymerase - polymerase copies a {{c1::negative::n…}} strand - that strand templates new genomes",
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792695022241,
+     1792695033836,
+     1792695036313,
+     1792695052983,
+     1792695055945
+    ],
+    "corrigidos": [
+     1792695022241,
+     1792695033836,
+     1792695036313,
+     1792695052983,
+     1792695055945
+    ]
+   },
+   "causa": "Limitada a afirmação ao grupo que expressa poliproteína; eixo único tradução→processamento→cópia.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "(+) RNA virus cycle , in the cytoplasm: - genome translated as one {{c1::polyprotein::p…}} - viral {{c1::protease::p…}} frees the RNA-dependent RNA polymerase - polymerase copies a → (+)RNA viruses that express a polyprotein Genome translation produces a {{c1::polyprotein::p…}}. Cleavage by viral {{c1::protease::p…}} frees functional proteins. Genome copying us; Limitada a afirmação ao grupo que expressa poliproteína; eixo único tradução→processamento→cópia."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792695036313,
+   "tipos": [
+    "comando:escrita"
+   ],
+   "fala": "",
+   "card": "Retroviral RNA becomes DNA, then new viral RNA: - Reverse transcription starts from a host {{c1::tRNA}} primer. - After integration, host {{c1::RNA polymerase II}} transcribes the provirus.",
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792695022241,
+     1792695033836,
+     1792695036313,
+     1792695052983,
+     1792695055945
+    ],
+    "corrigidos": [
+     1792695022241,
+     1792695033836,
+     1792695036313,
+     1792695052983,
+     1792695055945
+    ]
+   },
+   "causa": "Destaque nos momentos que discriminam primer da transcrição posterior, mantendo índices e figura real.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Retroviral RNA becomes DNA, then new viral RNA: - Reverse transcription starts from a host {{c1::tRNA}} primer. - After integration, host {{c1::RNA polymerase II}} transcribes the  → Retroviral gene expression Reverse transcription starts from a host {{c1::tRNA}} primer. After integration , host {{c1::RNA polymerase II}} transcribes the provirus.; Destaque nos momentos que discriminam primer da transcrição posterior, mantendo índices e figura real."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792695052983,
+   "tipos": [
+    "comando:comentario,imagem"
+   ],
+   "fala": "",
+   "card": "In negative-strand RNA viruses , the polymerase uses a genome coated with {{c1::nucleoprotein}} as its transcription template.",
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792695022241,
+     1792695033836,
+     1792695036313,
+     1792695052983,
+     1792695055945
+    ],
+    "corrigidos": [
+     1792695022241,
+     1792695033836,
+     1792695036313,
+     1792695052983,
+     1792695055945
+    ]
+   },
+   "causa": "Incluído painel real da aula de estrutura viral com RNA e subunidades proteicas helicoidais; verso distingue revestimento e polimerase.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "In negative-strand RNA viruses , the polymerase uses a genome coated with {{c1::nucleoprotein}} as its transcription template. → In negative-strand RNA viruses , the polymerase uses a genome coated with {{c1::nucleoprotein}} as its transcription template.; Incluído painel real da aula de estrutura viral com RNA e subunidades proteicas helicoidais; verso distingue revestimento e polimerase."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792695055945,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "The envelope of a budding virus is a patch of host {{c1::membrane}} carrying viral glycoproteins",
+   "aula": "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792695022241,
+     1792695033836,
+     1792695036313,
+     1792695052983,
+     1792695055945
+    ],
+    "corrigidos": [
+     1792695022241,
+     1792695033836,
+     1792695036313,
+     1792695052983,
+     1792695055945
+    ]
+   },
+   "causa": "Corrigida origem final de envelope herpético e removido falso impedimento de acúmulo intracelular; figura mostra brotamento.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "The envelope of a budding virus is a patch of host {{c1::membrane}} carrying viral glycoproteins → The envelope of a budding virus is a patch of host {{c1::membrane}} carrying viral glycoproteins; Corrigida origem final de envelope herpético e removido falso impedimento de acúmulo intracelular; figura mostra brotamento."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792696993158,
+   "tipos": [
+    "comentario"
+   ],
+   "fala": "NEGRITO",
+   "card": "O tronco encefálico vai do plano do {{c1::forame magno}} até sua continuidade superior com o {{c2::diencéfalo}}.",
+   "aula": "2026-uc07::14-10-tronco-encefalico",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792696993158
+    ],
+    "corrigidos": [
+     1792696993158
+    ]
+   },
+   "causa": "Negrito explicita região e eixo inferior/superior; verso em inglês conforme plano UC07.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "O tronco encefálico vai do plano do {{c1::forame magno}} até sua continuidade superior com o {{c2::diencéfalo}}. → O tronco encefálico tem seu limite inferior no plano do {{c1::forame magno}} e continua superiormente com o {{c2::diencéfalo}}.; Negrito explicita região e eixo inferior/superior; verso em inglês conforme plano UC07."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792713398630,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "O pâncreas fica posterior ao {{c1::estômago}}, aproximadamente em L1–L2, entre o duodeno e o baço.",
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1790981518578,
+     1792713398630,
+     1792713401129,
+     1792713405053,
+     1792713410206,
+     1792713410554
+    ],
+    "corrigidos": [
+     1790981518578,
+     1792713398630,
+     1792713401129,
+     1792713405053,
+     1792713410206,
+     1792713410554
+    ]
+   },
+   "causa": "A figura exposta não mostra estômago; necessário substituir por relação sagital antes de fechar imagem.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "O pâncreas fica posterior ao {{c1::estômago}}, aproximadamente em L1–L2, entre o duodeno e o baço. → O pâncreas fica posterior ao {{c1::estômago}}, aproximadamente em L1–L2, entre o duodeno e o baço.; A figura exposta não mostra estômago; necessário substituir por relação sagital antes de fechar imagem."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792713401129,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "O pâncreas é principalmente {{c1::retroperitoneal}}, com exceção da cauda no ligamento esplenorrenal.",
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1790981518578,
+     1792713398630,
+     1792713401129,
+     1792713405053,
+     1792713410206,
+     1792713410554
+    ],
+    "corrigidos": [
+     1790981518578,
+     1792713398630,
+     1792713401129,
+     1792713405053,
+     1792713410206,
+     1792713410554
+    ]
+   },
+   "causa": "Retirada função exócrina/endócrina que não ajudava o alvo peritoneal; procurar figura que mostre o peritônio.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "O pâncreas é principalmente {{c1::retroperitoneal}}, com exceção da cauda no ligamento esplenorrenal. → O pâncreas é principalmente {{c1::retroperitoneal}}, com exceção da cauda no ligamento esplenorrenal.; Retirada função exócrina/endócrina que não ajudava o alvo peritoneal; procurar figura que mostre o peritônio."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792713405053,
+   "tipos": [
+    "comando:comentario,escrita,imagem,multiplos"
+   ],
+   "fala": "",
+   "card": "Quando o esfíncter do colédoco se contrai, a bile pode seguir pelo {{c1::ducto cístico}} até a vesícula biliar.",
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1790981518578,
+     1792713398630,
+     1792713401129,
+     1792713405053,
+     1792713410206,
+     1792713410554
+    ],
+    "corrigidos": [
+     1790981518578,
+     1792713398630,
+     1792713401129,
+     1792713405053,
+     1792713410206,
+     1792713410554
+    ]
+   },
+   "causa": "Distinguido esfíncter distal de contração vesicular; a figura anterior só mostrava ampola, não o desvio cístico.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Quando o esfíncter do colédoco se contrai, a bile pode seguir pelo {{c1::ducto cístico}} até a vesícula biliar. → Entre as refeições , a maior resistência do esfíncter da via biliar distal favorece o desvio da bile pelo {{c1::ducto cístico}} para a vesícula.; Distinguido esfíncter distal de contração vesicular; a figura anterior só mostrava ampola, não o desvio cístico."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792713410206,
+   "tipos": [
+    "comentario"
+   ],
+   "fala": "negrito (gate-hard)",
+   "card": "{{c2::Varizes gástricas}} podem envolver anastomoses entre as {{c1::veias gástricas curtas}} (portais) e a veia {{c1::frênica inferior}} (sistêmica).",
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1790981518578,
+     1792713398630,
+     1792713401129,
+     1792713405053,
+     1792713410206,
+     1792713410554
+    ],
+    "corrigidos": [
+     1790981518578,
+     1792713398630,
+     1792713401129,
+     1792713405053,
+     1792713410206,
+     1792713410554
+    ]
+   },
+   "causa": "Destaque fora das lacunas nos critérios anatômico e hemodinâmico; não esconde apenas adjetivo secundário.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "{{c2::Varizes gástricas}} podem envolver anastomoses entre as {{c1::veias gástricas curtas}} (portais) e a veia {{c1::frênica inferior}} (sistêmica). → Na hipertensão portal , {{c2::varizes gástricas}} podem envolver anastomoses no fundo gástrico entre {{c1::veias gástricas curtas}} e a veia {{c1::frênica inferior}}.; Destaque fora das lacunas nos critérios anatômico e hemodinâmico; não esconde apenas adjetivo secundário."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792713410554,
+   "tipos": [
+    "comentario",
+    "comando:imagem"
+   ],
+   "fala": "negrito",
+   "card": "Na hipertensão portal , as veias {{c1::paraumbilicais}} comunicam-se com as {{c1::epigástricas superficiais}} e produzem a cabeça de medusa.",
+   "aula": "2026-uc08-anatomia-11-figado-pancreas-vias-biliares",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1790981518578,
+     1792713398630,
+     1792713401129,
+     1792713405053,
+     1792713410206,
+     1792713410554
+    ],
+    "corrigidos": [
+     1790981518578,
+     1792713398630,
+     1792713401129,
+     1792713405053,
+     1792713410206,
+     1792713410554
+    ]
+   },
+   "causa": "Negrito distribuído na causa e achado visível; preservados os dois vasos como alvo.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Na hipertensão portal , as veias {{c1::paraumbilicais}} comunicam-se com as {{c1::epigástricas superficiais}} e produzem a cabeça de medusa. → Na hipertensão portal , as veias {{c1::paraumbilicais}} comunicam-se com as {{c1::epigástricas superficiais}}, produzindo veias dilatadas ao redor do umbigo , a cabeça de medusa.; Negrito distribuído na causa e achado visível; preservados os dois vasos como alvo."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792753604544,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "In the respiratory tract , the {{c1:: site of replication }} decides whether a virus causes rhinitis, laryngitis or pneumonia",
+   "aula": "2026-uc03-microbiologia-59-patogenese-viral",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792753604544,
+     1792753611264,
+     1792756972610,
+     1792787430076
+    ],
+    "corrigidos": [
+     1792753604544,
+     1792753611264,
+     1792756972610,
+     1792787430076
+    ]
+   },
+   "causa": "Removida regra falsa de gravidade exclusivamente proporcional à profundidade; figura real permanece alinhada ao sítio.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "In the respiratory tract , the {{c1:: site of replication }} decides whether a virus causes rhinitis, laryngitis or pneumonia → In the respiratory tract , the {{c1:: site of replication }} decides whether a virus causes rhinitis, laryngitis or pneumonia; Removida regra falsa de gravidade exclusivamente proporcional à profundidade; figura real permanece alinhada ao sítio."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792753611264,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "In memory B cells EBV expresses no viral protein, latency type {{c1:: 0 }}, so it is invisible to T cells",
+   "aula": "2026-uc03-microbiologia-59-patogenese-viral",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792753604544,
+     1792753611264,
+     1792756972610,
+     1792787430076
+    ],
+    "corrigidos": [
+     1792753604544,
+     1792753611264,
+     1792756972610,
+     1792787430076
+    ]
+   },
+   "causa": "Retirado invisível absoluto e definido estado de repouso; imagem comparativa distingue programa0 deIII.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "In memory B cells EBV expresses no viral protein, latency type {{c1:: 0 }}, so it is invisible to T cells → In resting memory B cells , EBV latency with no viral protein expression is type {{c1::0}}.; Retirado invisível absoluto e definido estado de repouso; imagem comparativa distingue programa0 deIII."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792756972610,
+   "tipos": [
+    "comando:escrita"
+   ],
+   "fala": "",
+   "card": "Rotavirus diarrhea has two mechanisms: - NSP4 raises Ca²⁺-linked Cl⁻ secretion: {{c1::secretory}} diarrhea - Enterocyte injury reduces lactase; unabsorbed lactose retains water: {{c1::osmotic}} diarrhea",
+   "aula": "2026-uc03-microbiologia-59-patogenese-viral",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792753604544,
+     1792753611264,
+     1792756972610,
+     1792787430076
+    ],
+    "corrigidos": [
+     1792753604544,
+     1792753611264,
+     1792756972610,
+     1792787430076
+    ]
+   },
+   "causa": "Cada linha distingue mecanismo pelo evento causal, com negrito visível e nomes específicos nas lacunas.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Rotavirus diarrhea has two mechanisms: - NSP4 raises Ca²⁺-linked Cl⁻ secretion: {{c1::secretory}} diarrhea - Enterocyte injury reduces lactase; unabsorbed lactose retains water: {{ → Rotavirus: mechanisms of diarrhea NSP4-driven chloride secretion produces {{c1::secretory}} diarrhea. Villus injury with unabsorbed lactose produces {{c1::osmotic}} diarrhea.; Cada linha distingue mecanismo pelo evento causal, com negrito visível e nomes específicos nas lacunas."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792786398632,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "After a Cas9 cut , repair by NHEJ can insert or delete bases ({{c1::indels}}). A coding indel that shifts the reading frame may cause {{c2::loss of function}}.",
+   "aula": "2026-uc03-biologia-molecular-54-rnas-nao-codificadores",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792786398632,
+     1792786399910,
+     1792786400608,
+     1792786404060,
+     1792787231967
+    ],
+    "corrigidos": [
+     1792786398632,
+     1792786399910,
+     1792786400608,
+     1792786404060
+    ]
+   },
+   "causa": "Recorte da aula mostra NHEJ→indel e contraste com HDR; o desenho anterior de Cas9 sozinho não mostrava a consequência de reparo.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "After a Cas9 cut , repair by NHEJ can insert or delete bases ({{c1::indels}}). A coding indel that shifts the reading frame may cause {{c2::loss of function}}. → After a Cas9 cut , repair by NHEJ can insert or delete bases ({{c1::indels}}). A coding indel that shifts the reading frame may cause {{c2::loss of function}}.; Recorte da aula mostra NHEJ→indel e contraste com HDR; o desenho anterior de Cas9 sozinho não mostrava a consequência de reparo."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792786399910,
+   "tipos": [
+    "comando:escrita"
+   ],
+   "fala": "",
+   "card": "siRNA pathway dsRNA → {{c1::Dicer}} → siRNA guide guide + RISC/{{c2::Argonaute}} → matching mRNA cut guide stays → next target",
+   "aula": "2026-uc03-biologia-molecular-54-rnas-nao-codificadores",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792786398632,
+     1792786399910,
+     1792786400608,
+     1792786404060,
+     1792787231967
+    ],
+    "corrigidos": [
+     1792786398632,
+     1792786399910,
+     1792786400608,
+     1792786404060
+    ]
+   },
+   "causa": "Retirada sequência ilegível guide guide; verbos distinguem processamento de clivagem e explicam reutilização.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "siRNA pathway dsRNA → {{c1::Dicer}} → siRNA guide guide + RISC/{{c2::Argonaute}} → matching mRNA cut guide stays → next target → siRNA silencing pathway Processing long dsRNA : {{c1::Dicer}} makes short duplexes. Cleaving complementary target mRNA : catalytic {{c2::Argonaute}} acts within RISC. The guide str; Retirada sequência ilegível guide guide; verbos distinguem processamento de clivagem e explicam reutilização."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792786400608,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "After Argonaute cleaves a target mRNA, RISC retains the {{c1::siRNA guide}} and can cleave another matching transcript.",
+   "aula": "2026-uc03-biologia-molecular-54-rnas-nao-codificadores",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792786398632,
+     1792786399910,
+     1792786400608,
+     1792786404060,
+     1792787231967
+    ],
+    "corrigidos": [
+     1792786398632,
+     1792786399910,
+     1792786400608,
+     1792786404060
+    ]
+   },
+   "causa": "Esquema textual próprio trocado por figura real de Dicer/Argonaute e alvo clivado; o verso explicita permanência da guia.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "After Argonaute cleaves a target mRNA, RISC retains the {{c1::siRNA guide}} and can cleave another matching transcript. → After Argonaute cleaves a target mRNA, RISC retains the {{c1::siRNA guide}} and can cleave another matching transcript.; Esquema textual próprio trocado por figura real de Dicer/Argonaute e alvo clivado; o verso explicita permanência da guia."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792786404060,
+   "tipos": [
+    "comando:comentario"
+   ],
+   "fala": "",
+   "card": "Guide–target pairing in RNA silencing: - Extensive pairing: {{c1::Argonaute cleavage}} - Partial pairing: {{c1::translational repression}} and mRNA decay",
+   "aula": "2026-uc03-biologia-molecular-54-rnas-nao-codificadores",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792786398632,
+     1792786399910,
+     1792786400608,
+     1792786404060,
+     1792787231967
+    ],
+    "corrigidos": [
+     1792786398632,
+     1792786399910,
+     1792786400608,
+     1792786404060
+    ]
+   },
+   "causa": "Verso reduzido mantendo regra funcional e ressalva sobre miRNA versus siRNA.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Guide–target pairing in RNA silencing: - Extensive pairing: {{c1::Argonaute cleavage}} - Partial pairing: {{c1::translational repression}} and mRNA decay → Guide–target pairing in RNA silencing: - Extensive pairing: {{c1::Argonaute cleavage}} - Partial pairing: {{c1::translational repression}} and mRNA decay; Verso reduzido mantendo regra funcional e ressalva sobre miRNA versus siRNA."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792787231967,
+   "tipos": [
+    "comentario"
+   ],
+   "fala": "quero que apareça um like ao lado da bandeira nos cards que eu der gostei",
+   "card": "Regulatory RNAs act by: Folding into a ligand-sensitive shape: {{c1::riboswitch}} Base-pairing with a target RNA: {{c1::siRNA}} Recruiting silencing proteins onto its own chromosome: {{c1::Xist}}",
+   "aula": "2026-uc03-biologia-molecular-54-rnas-nao-codificadores",
+   "familia": "interface",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792786398632,
+     1792786399910,
+     1792786400608,
+     1792786404060,
+     1792787231967
+    ],
+    "corrigidos": [
+     1792786398632,
+     1792786399910,
+     1792786400608,
+     1792786404060
+    ]
+   },
+   "causa": "O seletor antigo não encontrava #_flag nativo e caía numa posição sobre a bandeira. Quando a bandeira estava oculta,o retângulo zero colocava o coração fora da tela. Agora a geometria visível determina a âncora e há posição alternativa segura.",
+   "prevencao": {
+    "gate": "qualidade_comentarios.badge_layout_ok",
+    "indicacao": "Coração de gostei usa #_flag nativo, mede sua geometria visível e mantém posição segura sem bandeira; testar oito combinações de largura/bandeira/gostei e conferir a janela real.",
+    "exemplo": "Antes: sobreposição na bandeira oux negativo sem bandeira → depois:12px com bandeira e coração visível sem ela."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792787430076,
+   "tipos": [
+    "comando:escrita"
+   ],
+   "fala": "",
+   "card": "How viruses injure the host : - direct infection: {{c1::cell destruction}} or dysfunction - immune response: {{c1::inflammation}} and cytokine-mediated damage - signals from infected cells: {{c1::paracrine effects}} on neighbors - persistent change: tumor induction",
+   "aula": "2026-uc03-microbiologia-59-patogenese-viral",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1792753604544,
+     1792753611264,
+     1792756972610,
+     1792787430076
+    ],
+    "corrigidos": [
+     1792753604544,
+     1792753611264,
+     1792756972610,
+     1792787430076
+    ]
+   },
+   "causa": "Quarta linha passa a cobrar alvo como as outras; cada eixo é definido pelo modo de lesão, não por rótulo vago.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "How viruses injure the host : - direct infection: {{c1::cell destruction}} or dysfunction - immune response: {{c1::inflammation}} and cytokine-mediated damage - signals from infect → Viral injury: routes to host damage Replication in the infected cell : {{c1::cell destruction::c…}} or dysfunction. Host immune response : {{c1::inflammation::i…}}. Signals affecti; Quarta linha passa a cobrar alvo como as outras; cada eixo é definido pelo modo de lesão, não por rótulo vago."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1792788316281,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "A eukaryotic repressor beside an activator can cover its activation domain and prevent recruitment of {{c1::coactivators}}.",
+   "aula": "2026-uc03-biologia-molecular-46-expressao-eucariotos-i",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791627547178,
+     1791627547302,
+     1791627547475,
+     1791627549152,
+     1792788316281
+    ],
+    "corrigidos": [
+     1791627547475,
+     1791627549152,
+     1792788316281
+    ]
+   },
+   "causa": "Painel real da aula mostra repressor cobrindo superfície do ativador sem removê-lo do DNA; separado de competição por sítio.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "A eukaryotic repressor beside an activator can cover its activation domain and prevent recruitment of {{c1::coactivators}}. → A eukaryotic repressor beside an activator can cover its activation domain and prevent recruitment of {{c1::coactivators}}.; Painel real da aula mostra repressor cobrindo superfície do ativador sem removê-lo do DNA; separado de competição por sítio."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1793199691883,
+   "tipos": [
+    "comando:comentario"
+   ],
+   "fala": "",
+   "card": "Cowdry bodies are located in the {{c1::nucleus::what part of the cell?}}",
+   "aula": "2026-uc03-microbiologia-60-virologia-pratica",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1793199691883
+    ],
+    "corrigidos": [
+     1793199691883
+    ]
+   },
+   "causa": "Comentário distingue padrões sem simplesmente repetir núcleo; retirada legenda redundante abaixo da figura.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Cowdry bodies are located in the {{c1::nucleus::what part of the cell?}} → Cowdry bodies are located in the {{c1::nucleus::what part of the cell?}}; Comentário distingue padrões sem simplesmente repetir núcleo; retirada legenda redundante abaixo da figura."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1793301693418,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "The inflammatory infiltrate of a persistent viral infection is typically {{c1::mononuclear}}",
+   "aula": "2026-uc03-patologia-61-patologia-infeccao-viral",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1793301693418
+    ],
+    "corrigidos": [
+     1793301693418
+    ]
+   },
+   "causa": "Lâmina real mostra infiltrado mononuclear perivascular; preservada imagem alinhada ao alvo e ampliado limite para leitura responsiva.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "The inflammatory infiltrate of a persistent viral infection is typically {{c1::mononuclear}} → The inflammatory infiltrate of a persistent viral infection is typically {{c1::mononuclear}}; Lâmina real mostra infiltrado mononuclear perivascular; preservada imagem alinhada ao alvo e ampliado limite para leitura responsiva."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1793476864207,
+   "tipos": [
+    "comando:comentario,escrita,imagem,multiplos"
+   ],
+   "fala": "",
+   "card": "Enteroendocrine cells : identify the hormone from its main effect. - L cell · satiety and slower gastric emptying: {{c1::GLP-1}} - I cell · pancreatic enzymes and gallbladder contraction: {{c1::CCK}} - K cell · insulin release after oral nutrients: {{c1::GIP}} - Enterochromaffin cell · peristaltic r",
+   "aula": "2026-uc08-biologia-tecidual-03-estrutura-estomago",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1793476864207
+    ],
+    "corrigidos": [
+     1793476864207
+    ]
+   },
+   "causa": "O eixo hormônio por efeito é útil; o texto mistura célula+efeito sem destaque e GLP-1 não é unívoco a partir de saciedade/esvaziamento: célulasL também produzemPYY. Priorizar a ação incretínica junto ao efeito gástrico.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Enteroendocrine cells : identify the hormone from its main effect. - L cell · satiety and slower gastric emptying: {{c1::GLP-1}} - I cell · pancreatic enzymes and gallbladder contr → Enteroendocrine hormones : L · incretin that slows gastric emptying : {{c1::GLP-1}} I · enzymes and gallbladder contraction : {{c1::CCK}} K · nutrient-triggered incretin : {{c1::GI; O eixo hormônio por efeito é útil; o texto mistura célula+efeito sem destaque e GLP-1 não é unívoco a partir de saciedade/esvaziamento: célulasL também produzemPYY. Priorizar a ação incretínica junto ao efeito gástrico."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1793784421465,
+   "tipos": [
+    "comentario",
+    "comando:escrita"
+   ],
+   "fala": "mt grande, pensar como deixar bem melhor",
+   "card": "Hypersensitivity types by the effector that causes tissue injury: - I · mast-cell activation: {{c1::IgE::I…}} - II · antibody against a fixed cell or matrix antigen: {{c1::IgG/IgM::I…}} - III · deposited antigen–antibody aggregates: {{c1::immune complexes::i…}} - IV · direct cytotoxicity or macropha",
+   "aula": "2026-uc03-imunologia-64-hipersensibilidade",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791780353397,
+     1793784421465,
+     1793784423639,
+     1793784427166,
+     1793784428840,
+     1793784429918
+    ],
+    "corrigidos": [
+     1791780353397,
+     1793784421465,
+     1793784423639,
+     1793784427166,
+     1793784428840,
+     1793784429918
+    ]
+   },
+   "causa": "A frase introdutória e qualificadores longos competem com o eixo efetor→tipo; iniciais I… em IgE/IgG estreitam demais siglas curtas. Preservar os quatro efetores que Davi pediu para induzir.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Hypersensitivity types by the effector that causes tissue injury: - I · mast-cell activation: {{c1::IgE::I…}} - II · antibody against a fixed cell or matrix antigen: {{c1::IgG/IgM: → Hypersensitivity , key effectors: I · mast-cell activation : {{c1::IgE}} II · cell/matrix antibodies : {{c1::IgG/IgM}} III · tissue deposition : {{c1::immune complexes}} IV · cell-; A frase introdutória e qualificadores longos competem com o eixo efetor→tipo; iniciais I… em IgE/IgG estreitam demais siglas curtas. Preservar os quatro efetores que Davi pediu para induzir."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1793784423639,
+   "tipos": [
+    "comentario"
+   ],
+   "fala": "tirar iniciais nesse caso",
+   "card": "Mast-cell mediators and their effect: - {{c1::histamine::h…}}: vasodilation, leaky vessels - {{c1::leukotrienes::l…}}: bronchoconstriction - {{c1::cytokines::c…}}: late-phase inflammation - {{c1::tryptase::t…}}: tissue damage",
+   "aula": "2026-uc03-imunologia-64-hipersensibilidade",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791780353397,
+     1793784421465,
+     1793784423639,
+     1793784427166,
+     1793784428840,
+     1793784429918
+    ],
+    "corrigidos": [
+     1791780353397,
+     1793784421465,
+     1793784423639,
+     1793784427166,
+     1793784428840,
+     1793784429918
+    ]
+   },
+   "causa": "O pedido literal é retirar iniciais. Há também indução não exclusiva: dano tissular sozinho cabe a vários mediadores/proteases. A proposta preserva efeito e torna a triptase discriminável pelo papel de marcador.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Mast-cell mediators and their effect: - {{c1::histamine::h…}}: vasodilation, leaky vessels - {{c1::leukotrienes::l…}}: bronchoconstriction - {{c1::cytokines::c…}}: late-phase infla → Mast-cell mediators : Vasodilation and leakage : {{c1::histamine}} Bronchoconstricting lipids : {{c1::leukotrienes}} Late inflammatory proteins : {{c1::cytokines}} Granule protease; O pedido literal é retirar iniciais. Há também indução não exclusiva: dano tissular sozinho cabe a vários mediadores/proteases. A proposta preserva efeito e torna a triptase discriminável pelo papel de marcador."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1793784427166,
+   "tipos": [
+    "comando:comentario"
+   ],
+   "fala": "",
+   "card": "Natural anti-A and anti-B are mostly {{c1::IgM}}, which cannot cross the placenta, whereas anti-Rh made after sensitization at delivery is {{c1::IgG}}",
+   "aula": "2026-uc03-imunologia-64-hipersensibilidade",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791780353397,
+     1793784421465,
+     1793784423639,
+     1793784427166,
+     1793784428840,
+     1793784429918
+    ],
+    "corrigidos": [
+     1791780353397,
+     1793784421465,
+     1793784423639,
+     1793784427166,
+     1793784428840,
+     1793784429918
+    ]
+   },
+   "causa": "Retirada cronologia obrigatória primeiro parto/próxima gestação e doença ABO sempre leve; preservada base de isotipo e placenta.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Natural anti-A and anti-B are mostly {{c1::IgM}}, which cannot cross the placenta, whereas anti-Rh made after sensitization at delivery is {{c1::IgG}} → Natural anti-A and anti-B are predominantly {{c1::IgM}}, whereas anti-Rh produced after Rh-antigen sensitization is {{c1::IgG}}.; Retirada cronologia obrigatória primeiro parto/próxima gestação e doença ABO sempre leve; preservada base de isotipo e placenta."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1793784428840,
+   "tipos": [
+    "comando:comentario"
+   ],
+   "fala": "",
+   "card": "Circulating immune complexes lodge where plasma is filtered under pressure, such as the {{c1::glomerulus}} and synovium",
+   "aula": "2026-uc03-imunologia-64-hipersensibilidade",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791780353397,
+     1793784421465,
+     1793784423639,
+     1793784427166,
+     1793784428840,
+     1793784429918
+    ],
+    "corrigidos": [
+     1791780353397,
+     1793784421465,
+     1793784423639,
+     1793784427166,
+     1793784428840,
+     1793784429918
+    ]
+   },
+   "causa": "Corrigido absoluto sistêmico; verso liga depósito ao dano e inclui a exceção local relevante.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Circulating immune complexes lodge where plasma is filtered under pressure, such as the {{c1::glomerulus}} and synovium → Circulating immune complexes lodge where plasma is filtered under pressure, such as the {{c1::glomerulus}} and synovium; Corrigido absoluto sistêmico; verso liga depósito ao dano e inclui a exceção local relevante."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1793784429918,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "On glomerular immunofluorescence for IgG , deposited immune complexes (type III) look {{c1::granular}}, while anti–basement membrane antibody (type II) looks {{c1::linear}}",
+   "aula": "2026-uc03-imunologia-64-hipersensibilidade",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1791780353397,
+     1793784421465,
+     1793784423639,
+     1793784427166,
+     1793784428840,
+     1793784429918
+    ],
+    "corrigidos": [
+     1791780353397,
+     1793784421465,
+     1793784423639,
+     1793784427166,
+     1793784428840,
+     1793784429918
+    ]
+   },
+   "causa": "Figura de dois painéis já era adequada e não expõe resposta escrita; legenda explica mecanismo do padrão observado.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "On glomerular immunofluorescence for IgG , deposited immune complexes (type III) look {{c1::granular}}, while anti–basement membrane antibody (type II) looks {{c1::linear}} → On glomerular immunofluorescence for IgG , deposited immune complexes (type III) look {{c1::granular}}, while anti–basement membrane antibody (type II) looks {{c1::linear}}; Figura de dois painéis já era adequada e não expõe resposta escrita; legenda explica mecanismo do padrão observado."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1793803583523,
+   "tipos": [
+    "comentario"
+   ],
+   "fala": "mt grande",
+   "card": "Intracavitary contrast by method: - X-ray: air, barium or iodine - CT: iodine or {{c1::water}}, barium only in special dilute forms - MRI: the body's own {{c1::fluid}}, with no injection",
+   "aula": "2026-uc03-radiologia-56-contrastes",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1793803583523,
+     1793803583777,
+     1793803584848,
+     1793803589750,
+     1793803591426
+    ],
+    "corrigidos": [
+     1793803583523,
+     1793803583777,
+     1793803584848,
+     1793803589750,
+     1793803591426
+    ]
+   },
+   "causa": "Retiradas rotas secundárias e falsa categoria RMfluido como contraste administrado; dois conceitos ligados pelo conteúdo da cavidade.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Intracavitary contrast by method: - X-ray: air, barium or iodine - CT: iodine or {{c1::water}}, barium only in special dilute forms - MRI: the body's own {{c1::fluid}}, with no inj → Cavity imaging by method CT neutral enteric contrast may use {{c1::water}}. T2-weighted MR hydrography depicts the patient’s own {{c1::fluid}} without cavity injection.; Retiradas rotas secundárias e falsa categoria RMfluido como contraste administrado; dois conceitos ligados pelo conteúdo da cavidade."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1793803583777,
+   "tipos": [
+    "comando:comentario,imagem"
+   ],
+   "fala": "",
+   "card": "In intracavitary studies , barium and iodine are {{c1::positive}} contrast because they raise attenuation, while air and CO2 are {{c1::negative}}",
+   "aula": "2026-uc03-radiologia-56-contrastes",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1793803583523,
+     1793803583777,
+     1793803584848,
+     1793803589750,
+     1793803591426
+    ],
+    "corrigidos": [
+     1793803583523,
+     1793803583777,
+     1793803584848,
+     1793803589750,
+     1793803591426
+    ]
+   },
+   "causa": "Imagem real de lúmen preenchido com bário ilustra atenuação, em vez de foto do elemento químico.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "In intracavitary studies , barium and iodine are {{c1::positive}} contrast because they raise attenuation, while air and CO2 are {{c1::negative}} → In intracavitary studies , barium and iodine are {{c1::positive}} contrast because they raise attenuation, while air and CO2 are {{c1::negative}}; Imagem real de lúmen preenchido com bário ilustra atenuação, em vez de foto do elemento químico."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1793803584848,
+   "tipos": [
+    "comando:comentario,escrita"
+   ],
+   "fala": "",
+   "card": "The upper GI series follows swallowed contrast from the esophagus to the {{c1::duodenum}}, while the barium enema fills the {{c1::colon}} from the rectum",
+   "aula": "2026-uc03-radiologia-56-contrastes",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1793803583523,
+     1793803583777,
+     1793803584848,
+     1793803589750,
+     1793803591426
+    ],
+    "corrigidos": [
+     1793803583523,
+     1793803583777,
+     1793803584848,
+     1793803589750,
+     1793803591426
+    ]
+   },
+   "causa": "Negrito identifica via e exame; verso explica o que a via permite observar sem conduta clínica avançada.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "The upper GI series follows swallowed contrast from the esophagus to the {{c1::duodenum}}, while the barium enema fills the {{c1::colon}} from the rectum → The upper GI series follows swallowed contrast to the {{c1::duodenum}}, while a rectal barium enema outlines the {{c1::colon}}.; Negrito identifica via e exame; verso explica o que a via permite observar sem conduta clínica avançada."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1793803589750,
+   "tipos": [
+    "comentario"
+   ],
+   "fala": "card step 2 não precisa entrar ainda na realidade: gate-hard, não entra step 2 only",
+   "card": "Before contrast in a patient with renal damage, give IV fluids, hold nephrotoxic drugs and also hold {{c1::metformin}}, which accumulates if kidney injury follows",
+   "aula": "2026-uc03-radiologia-56-contrastes",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1793803583523,
+     1793803583777,
+     1793803584848,
+     1793803589750,
+     1793803591426
+    ],
+    "corrigidos": [
+     1793803583523,
+     1793803583777,
+     1793803584848,
+     1793803589750,
+     1793803591426
+    ]
+   },
+   "causa": "Conduta pericontraste com metformina é Step2-only e foi explicitamente retirada por Davi; suspender sem apagar ou alterar histórico.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Before contrast in a patient with renal damage, give IV fluids, hold nephrotoxic drugs and also hold {{c1::metformin}}, which accumulates if kidney injury follows → Before contrast in a patient with renal damage, give IV fluids, hold nephrotoxic drugs and also hold {{c1::metformin}}, which accumulates if kidney injury follows; Conduta pericontraste com metformina é Step2-only e foi explicitamente retirada por Davi; suspender sem apagar ou alterar histórico."
+   },
+   "corrigido": true
+  },
+  {
+   "nid": 1793803591426,
+   "tipos": [
+    "comando:imagem"
+   ],
+   "fala": "",
+   "card": "Anaphylaxis activates mast cells through {{c1::IgE}}, whereas an anaphylactoid reaction activates them {{c1::directly}}",
+   "aula": "2026-uc03-radiologia-56-contrastes",
+   "familia": "recuperacao-e-figura-da-aula",
+   "similares": {
+    "busca": "Busca local por tags da mesma aula entre as pendências lidas; cruzamento de frentes e versos na mesma rodada, com busca de acervo de imagens registrada em busca-figuras*.json.",
+    "nids": [
+     1793803583523,
+     1793803583777,
+     1793803584848,
+     1793803589750,
+     1793803591426
+    ],
+    "corrigidos": [
+     1793803583523,
+     1793803583777,
+     1793803584848,
+     1793803589750,
+     1793803591426
+    ]
+   },
+   "causa": "Termo anafilactoide substituído por mecanismo; retirada equivalência de conduta Step2 e afirmação de ativação sempre direta.",
+   "prevencao": {
+    "gate": "",
+    "nao_mecanizavel": "A relação científica entre pista, alvo e figura depende de julgamento de conteúdo e leitura real da fonte, além de medidas de layout. Não é demonstrada só por regex.",
+    "indicacao": "Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.",
+    "exemplo": "Anaphylaxis activates mast cells through {{c1::IgE}}, whereas an anaphylactoid reaction activates them {{c1::directly}} → Mast-cell activation may follow {{c1::IgE}} cross-linking or {{c1::non-IgE mechanisms}}.; Termo anafilactoide substituído por mecanismo; retirada equivalência de conduta Step2 e afirmação de ativação sempre direta."
+   },
+   "corrigido": true
+  }
+ ],
+ "sync": true
+}

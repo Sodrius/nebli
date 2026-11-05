@@ -1,5 +1,87 @@
 # GUIA 3 — Anti-exemplares: os erros que Davi já apontou e não podem voltar
 
+## Rodada de 05/11 — pedidos examinados e causas
+
+- **1790981518578:** Comando comando:imagem. O verso confundia cava superior com inferior; a figura será focada na junção esofágica.
+- **1790981519924:** Davi: “várias respostas possíveis: fere o princípio da unicidade”. Lymph isoladamente admitia múltiplas respostas. Origem intestinal e desembocadura venosa tornam o alvo único.
+- **1790999836655:** Davi: “indução ruim”. A pista distingue estímulo, célula e função sem esconder adjetivo genérico nem induzir pela inicial.
+- **1791000312550:** Comando comando:imagem. O verso passa a explicar proteção química e perda intestinal, em vez de repetir armazenamento.
+- **1791557941758:** Comando comando:imagem. Incluída figura real de nanquim da aula que demonstra precisamente a cápsula antifagocítica.
+- **1791625424233:** Davi: “tem que ter um organizador com todas as possíveis causas dessa doença”. O original confundeMHCII-CID comSCID clássico e cobraII como fragmento de rótulo previsível. Corrigir essa nota e acrescentar organizador separado; não apagar a associaçãoMHCII→CD4 para transformar a nota em outra doença.
+- **1791626776253:** Comando comando:comentario. Preservados os índices editados por Davi; comentário explica o eixo e a exceção sem refazer a tabela aprovada.
+- **1791626778904:** Comando comando:imagem. Comparação fotográfica da aula mostra os dois padrões ungueais descritos.
+- **1791627546928:** Comando comando:escrita. Dozens era número vago; o alvo duradouro é o princípio de controle combinatório.
+- **1791627547475:** Comando comando:imagem. Substituída ausência de figura por mecanismo real com Mediator entre ativador e maquinaria Pol II.
+- **1791627549152:** Comando comando:imagem. Figura real de Gal4 separa fisicamente domínio de ligação e domínio de ativação; sai o esquema textual genérico.
+- **1791627549276:** Comando comando:escrita. Negrito situa quem age e a ação visível; o comentário explica recrutamento em vez de repetir a frase.
+- **1791627549652:** Comando comando:escrita. A recuperação distingue modularidade das duas funções; o verso explica o resultado experimental.
+- **1791627550877:** Comando comando:comentario,imagem. A figura da aula acompanha receptor, JAK, STAT e núcleo na mesma sequência descrita.
+- **1791628674574:** Comando comando:imagem. Retiradas alternativa binária e duplicação de artigo; a imagem de levedura é identificada sem fingir que mostra bolor.
+- **1791628675198:** Comando comando:comentario. Encurtado o verso mantendo causa e contraste morfológico, retirando repetição clínica.
+- **1791628675323:** Comando comando:imagem. Fotos reais mostram exatamente os membros afetados; ampliadas para remover limite antigo de360px.
+- **1791628675571:** Davi: “esses cards de micoses podem receber, em vários, uma tabela que diz quais são cutâneas, quais subcutâneas, quais susperficiais, oportunistas e sistêmicas tabela organizada tipo a das citocinas para o dekc de ativação das céls. t e b”. A frente é edição aprovada porDavi e deve permanecer. O pedido novo é apoio transversal no verso em várias notas; categorias de profundidade e oportunismo se sobrepõem, portanto tabela não deve apresentar cinco caixas mutuamente excludentes.
+- **1791629593971:** Comando comando:imagem. Verso distingue encontro inicial de centro germinativo sem uma definição longa paralela.
+- **1791630172920:** Comando comando:escrita. O alvo agora é induzido pela ligação direta de metabólito ao RNA e a figura mostra o RBS ocultado.
+- **1791630173546:** Comando comando:escrita,imagem. Verso e figura distinguem dois níveis de controle, sem sugerir que repressor e atenuação sejam o mesmo mecanismo.
+- **1791630173671:** Comando comando:comentario,imagem. A legenda causal explica por que Trp alto permite a alça 3:4 mostrada na aula.
+- **1791630173920:** Comando comando:imagem. Duas frentes cobravam Trp alto e terminador; esta passa a cobrar a condição oposta por mecanismo, preservando ID e histórico.
+- **1791630175095:** Comando comando:comentario. Removidas garantias falsas de frameshift/knockout e de reparo preciso por nickase pareada.
+- **1791630176396:** Comando comando:comentario,imagem. O verso explica origem versus maquinaria compartilhada; conferir figura real de RNAi antes de aplicar.
+- **1791630176520:** Comando comando:comentario,imagem. O exemplo histórico agora ensina o mecanismo e usa a figura real dos sítios de pareamento lin-4/lin-14.
+- **1791630179395:** Comando comando:comentario. Alvo encurtado ao nome técnico; retirado pressuposto de que todo controle de qualidade ocorre ali.
+- **1791630904467:** Davi: “essa imagem debaixo tem que ir para os cards vários, junto da tabela que sugeri de comentário pensa os que cabe e coloca em vários”. Duas figuras com funções distintas substituem três fotos repetidas: foco em Paracoccidioides e comparador pedido.
+- **1791630905518:** Comando comando:comentario. Mantida a cadeia ambiente→aerossol→pulmão e retirado contraste lateral desnecessário.
+- **1791630905957:** O seletor antigo não encontrava #_flag nativo e a alternativa sobrepunha o coração à bandeira. Com bandeira oculta, o retângulo zero levava o coração para fora da tela. Conferência Qt real após corrigir o seletor e a posição alternativa: quatro estados visíveis,12px com bandeira; oito combinações de layout passaram no teste.
+- **1791630906367:** Comando comando:imagem. Figura da própria aula localiza língua e palato; comentário separa lesão disseminada de via de entrada.
+- **1791630906668:** Comando comando:imagem. Retirado relies absoluto; foto de leveduras intracelulares permanece como explicação da dificuldade, não imagem de cultura.
+- **1791631345113:** Comando comando:imagem. A figura real separa remodelador de cromatina e HAT e mostra recrutamento por ativadores.
+- **1791631347092:** Comando comando:comentario. Retirada imagem duplicada e comparação longa; mantidos substrato, momento e mecanismo.
+- **1791631347892:** Davi: “mts cards desse deck ficaram rasos”. Sai generalização de que todos os fatores/protocolos são igualmente oncogênicos; entra consequência causal da proliferação.
+- **1791780353397:** Comando comando:comentario,imagem. Conectados alvo parasitário e dano colateral pelo mesmo mecanismo de membrana.
+- **1792065183130:** Comando comando:escrita. Circunscrito o universo sistêmico dimórfico para não universalizar micose endêmica de pele.
+- **1792081484462:** Comando comando:imagem. Incluída radiografia real do acervo AnKing, com alteração em campo superior, em vez de figura genérica de bactéria. Revisão independente rejeitou RX anterior por não demonstrar ápice; substituído por imagem institucional com cavidade visível e setas.
+- **1792082060961:** Comando comando:comentario,escrita. Tail era palavra genérica; o alvo passa a ser CTD, com expansão e consequência funcional no verso.
+- **1792175888632:** Comando comando:imagem. Título dizia agente mas as lacunas cobravam doenças. Preservado conjunto aprovado e índice; título passa a cobrar as doenças e as iniciais passam a orientar sem agentes cognatos expostos.
+- **1792328914296:** Davi: “negrito”. Negrito em cada critério de comparação, não somente no título; sem confundir nível medular com vértebra. Fonte conferida distingue nível medular de vértebra e indica L2–S3; figura vertebral substituída por quatro cortes reais da medula.
+- **1792487516279:** Comando comando:comentario. Preservada organização editada por Davi; retiradas repetições sem apagar o mecanismo e a bifurcação de destinos.
+- **1792588686960:** Comando comando:imagem. Pedido atendido na refação entregue da AN01: esquema SNC/SNP real da aula instalado, com notas e cards conferidos. Não reescrever o deck recém-entregue.
+- **1792695022241:** Comando comando:escrita. Negrito destaca ordem e função; retirado absoluto incorreto sobre todos os vírus RNA.
+- **1792695033836:** Comando comando:escrita. Limitada a afirmação ao grupo que expressa poliproteína; eixo único tradução→processamento→cópia.
+- **1792695036313:** Comando comando:escrita. Destaque nos momentos que discriminam primer da transcrição posterior, mantendo índices e figura real.
+- **1792695052983:** Comando comando:comentario,imagem. Incluído painel real da aula de estrutura viral com RNA e subunidades proteicas helicoidais; verso distingue revestimento e polimerase.
+- **1792695055945:** Comando comando:imagem. Corrigida origem final de envelope herpético e removido falso impedimento de acúmulo intracelular; figura mostra brotamento.
+- **1792696993158:** Davi: “NEGRITO”. Negrito explicita região e eixo inferior/superior; verso em inglês conforme plano UC07.
+- **1792713398630:** Comando comando:imagem. A figura exposta não mostra estômago; necessário substituir por relação sagital antes de fechar imagem.
+- **1792713401129:** Comando comando:imagem. Retirada função exócrina/endócrina que não ajudava o alvo peritoneal; procurar figura que mostre o peritônio.
+- **1792713405053:** Comando comando:comentario,escrita,imagem,multiplos. Distinguido esfíncter distal de contração vesicular; a figura anterior só mostrava ampola, não o desvio cístico.
+- **1792713410206:** Davi: “negrito (gate-hard)”. Destaque fora das lacunas nos critérios anatômico e hemodinâmico; não esconde apenas adjetivo secundário.
+- **1792713410554:** Davi: “negrito”. Negrito distribuído na causa e achado visível; preservados os dois vasos como alvo.
+- **1792753604544:** Comando comando:imagem. Removida regra falsa de gravidade exclusivamente proporcional à profundidade; figura real permanece alinhada ao sítio.
+- **1792753611264:** Comando comando:imagem. Retirado invisível absoluto e definido estado de repouso; imagem comparativa distingue programa0 deIII.
+- **1792756972610:** Comando comando:escrita. Cada linha distingue mecanismo pelo evento causal, com negrito visível e nomes específicos nas lacunas.
+- **1792786398632:** Comando comando:imagem. Recorte da aula mostra NHEJ→indel e contraste com HDR; o desenho anterior de Cas9 sozinho não mostrava a consequência de reparo.
+- **1792786399910:** Comando comando:escrita. Retirada sequência ilegível guide guide; verbos distinguem processamento de clivagem e explicam reutilização.
+- **1792786400608:** Comando comando:imagem. Esquema textual próprio trocado por figura real de Dicer/Argonaute e alvo clivado; o verso explicita permanência da guia.
+- **1792786404060:** Comando comando:comentario. Verso reduzido mantendo regra funcional e ressalva sobre miRNA versus siRNA.
+- **1792787231967:** O seletor antigo não encontrava #_flag nativo e a alternativa sobrepunha o coração à bandeira. Com bandeira oculta, o retângulo zero levava o coração para fora da tela. Conferência Qt real após corrigir o seletor e a posição alternativa: quatro estados visíveis,12px com bandeira; oito combinações de layout passaram no teste.
+- **1792787430076:** Comando comando:escrita. Quarta linha passa a cobrar alvo como as outras; cada eixo é definido pelo modo de lesão, não por rótulo vago.
+- **1792788316281:** Comando comando:imagem. Painel real da aula mostra repressor cobrindo superfície do ativador sem removê-lo do DNA; separado de competição por sítio.
+- **1793199691883:** Comando comando:comentario. Comentário distingue padrões sem simplesmente repetir núcleo; retirada legenda redundante abaixo da figura.
+- **1793301693418:** Comando comando:imagem. Lâmina real mostra infiltrado mononuclear perivascular; preservada imagem alinhada ao alvo e ampliado limite para leitura responsiva.
+- **1793476864207:** Comando comando:comentario,escrita,imagem,multiplos. O eixo hormônio por efeito é útil; o texto mistura célula+efeito sem destaque e GLP-1 não é unívoco a partir de saciedade/esvaziamento: célulasL também produzemPYY. Priorizar a ação incretínica junto ao efeito gástrico.
+- **1793784421465:** Davi: “mt grande, pensar como deixar bem melhor”. A frase introdutória e qualificadores longos competem com o eixo efetor→tipo; iniciais I… em IgE/IgG estreitam demais siglas curtas. Preservar os quatro efetores que Davi pediu para induzir.
+- **1793784423639:** Davi: “tirar iniciais nesse caso”. O pedido literal é retirar iniciais. Há também indução não exclusiva: dano tissular sozinho cabe a vários mediadores/proteases. A proposta preserva efeito e torna a triptase discriminável pelo papel de marcador.
+- **1793784427166:** Comando comando:comentario. Retirada cronologia obrigatória primeiro parto/próxima gestação e doença ABO sempre leve; preservada base de isotipo e placenta.
+- **1793784428840:** Comando comando:comentario. Corrigido absoluto sistêmico; verso liga depósito ao dano e inclui a exceção local relevante.
+- **1793784429918:** Comando comando:imagem. Figura de dois painéis já era adequada e não expõe resposta escrita; legenda explica mecanismo do padrão observado.
+- **1793803583523:** Davi: “mt grande”. Retiradas rotas secundárias e falsa categoria RMfluido como contraste administrado; dois conceitos ligados pelo conteúdo da cavidade.
+- **1793803583777:** Comando comando:comentario,imagem. Imagem real de lúmen preenchido com bário ilustra atenuação, em vez de foto do elemento químico.
+- **1793803584848:** Comando comando:comentario,escrita. Negrito identifica via e exame; verso explica o que a via permite observar sem conduta clínica avançada.
+- **1793803589750:** Davi: “card step 2 não precisa entrar ainda na realidade: gate-hard, não entra step 2 only”. Conduta pericontraste com metformina é Step2-only e foi explicitamente retirada por Davi; suspender sem apagar ou alterar histórico.
+- **1793803591426:** Comando comando:imagem. Termo anafilactoide substituído por mecanismo; retirada equivalência de conduta Step2 e afirmação de ativação sempre direta.
+
+Antes/depois completos: `arquivos-trabalho/comentarios-2026-11-05/propostas.json`; notas originais e revisão independente preservadas. Nove similares de BM52 também receberam versos causais. Os dois casos de interface foram fechados após captura real da janela Qt e correção do seletor nativo e do estado sem bandeira.
+
 ## Anti-exemplares de 04/11
 
 - **1793476864207:** iniciais `G…`, `C…`, `s…`, `g…` davam pistas demais e linhas sem foco. Agora o efeito induz o hormônio, sem inicial; verso curto.

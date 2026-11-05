@@ -1,0 +1,25 @@
+{
+  "deck": "NEBLI::UC07::P1::Anatomia::01 Construção morfofuncional do sistema nervoso",
+  "cards": 113,
+  "notas": 86,
+  "ativos": 103,
+  "suspensoes_pessoais_mantidas": 10,
+  "cores": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 29,
+    "4": 75,
+    "5": 8,
+    "6": 0,
+    "7": 0
+  },
+  "pacote_pessoal": "/Users/davisousa/NEBLI-privado/pacotes/2026-11-05/NEBLI - UC07.apkg",
+  "sha256": "f1326ddc8bde1033818daccfb981c01180b871172325aefc77aeec363de639d8",
+  "publicado_em_pasta_compartilhada": false,
+  "motivo": "Kenhub é de uso pessoal; pacote completo mantido na pasta privada local,sem publicar imagens na pasta compartilhada.",
+  "gates": "119/119 sem Drive; pacote pessoal verificado separadamente",
+  "render": "113cards,0falhas,15folhas vistas",
+  "sync": true,
+  "em": "2026-11-05T15:01:42.373830+00:00"
+}

@@ -1,5 +1,16 @@
 # GUIA 1 — Regras: como Davi quer cada card
 
+## Rodada diária de 05/11 — prevenção vigente
+
+- Coração de gostei usa #_flag nativo, mede sua geometria visível e mantém posição segura sem bandeira; testar oito combinações de largura/bandeira/gostei e conferir a janela real. `qualidade_comentarios.badge_layout_ok` reprova ausência, sobreposição e saída da tela.
+- Negrito de organizador deve permanecer visível no critério de cada linha, além do título; `qualidade_comentarios.negrito_contexto` bloqueia destaque ausente ou escondido no cloze. O significado discriminante do destaque ainda exige leitura humana.
+- Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.
+- Não recolocar iniciais retiradas por Davi nem usar inicial de sigla curta como dica; `spec_lib.dicas`, `gates.inducao_clozes` e `verificador_casos.forma_das_lacunas` respeitam a preferência literal local, sem dispensar revisão de indução.
+- Novas seleções não incluem fontes marcadas Only_Step_2; a presença de uma tag Step2 junto de Step1 não prova exclusividade. `qualidade_comentarios.step2_only` é gate duro antes da instalação. A retirada de1793803589750 foi expressamente pedida; não chamar uma palavra de conduta de critério automático para qualquer card.
+- Imagem precisa mostrar o objeto ou mecanismo cobrado, e seus rótulos precisam continuar legíveis no render real em390px. Nome de arquivo não prova anatomia. Verificar também o CSS do modelo: tabela a6,63px reprova mesmo que o HTML declare16px sem!important.
+- Analisar X pela função e pela dimensão aprovada; índice editado pelo usuário e organização que ele escolheu prevalecem sobre uniformização estética. Correção do executor não vira exemplar positivo sem X/elogio novo.
+- Estatística por formato é descritiva: comparar UC/assunto, fase, intervalo, idade e exposição, registrar tamanho da amostra e reconhecer que formato atual pode diferir do usado em revisões antigas. Não converter tempo ou retenção bruta em lei causal nem mexer no FSRS.
+
 ## Feedback de 04/11 — alvo essencial e figura limpa
 
 - **Gate de organizador:** antes de aprovar cada linha, declarar o eixo comum, a informação a recuperar e por que é a mais importante. Com o cloze tapado, a pista deve conduzir à resposta por efeito ou mecanismo, sem revelar por inicial ou outra linha. Se o agente principal ficar visível e a lacuna esconder detalhe secundário, reprovar. Exemplo 1793784421465: `IV: T cells activating {{c1::macrophages::m…}}` → `IV · direct cytotoxicity or macrophage activation: {{c1::T cells}}`. Em 1793476864207, `{{c1::GLP-1::G…}}` → `L cell · satiety and slower gastric emptying: {{c1::GLP-1}}`. O alvo exige julgamento humano no verificador por casos; `verificador_casos.forma_das_lacunas` bloqueia inicial de sigla curta.
@@ -53,7 +64,7 @@ A pergunta de todo card: **"isso agrega algo no conhecimento ou está só para f
 - **Quando a aula compara ou enumera** — "card organizador serve precisamente para isso: comparar coisas diferentes e organizar na minha cabeça as ideias". Todo deck termina respondendo: **há organizador onde deve haver?**
 - **Em pé**, título que diz o que organiza, uma linha curta por item (≤ 26 palavras), sem numeração deitada: "tópicos mal escritos, tem que ficar em pé, tipo os cards de constrição esofágica".
 - **O cloze é o que deve ser lembrado** em cada linha; o critério de cada item fica visível e induz.
-- **Índices:** o mesmo c1 para um conjunto que se recupera junto; grupos reais em c1/c2 ("agrupa 2 clozes por card"). 3+ itens no mesmo índice levam a 1ª letra como dica (`::A…`).
+- **Índices:** o mesmo c1 para um conjunto que se recupera junto; grupos reais em c1/c2 ("agrupa 2 clozes por card"). 3+ itens no mesmo índice recebem dicas apenas quando não revelam o alvo. Siglas curtas nunca recebem inicial. Respeitar retirada de iniciais pedida por Davi, registrando a fala em `dicas_preferencia_davi` (≥30 caracteres); gerador e gates preservam essa exceção local.
 - **Classificação com fonte**, nunca inventada: "esses cards organizadores não podem ter classificação inventada por você, tem que ter uma fonte". Não misturar critérios para fabricar um conjunto.
 - Ao criar o organizador, **aposentar os avulsos** que ele cobre (suspender, sem apagar).
 

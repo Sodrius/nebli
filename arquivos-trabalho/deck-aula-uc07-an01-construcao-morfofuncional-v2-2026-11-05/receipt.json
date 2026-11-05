@@ -1,0 +1,802 @@
+{
+  "run_id": "uc07-an01-20261105v2",
+  "selection_hash": "27bffdabc9a92ba9",
+  "deck": "NEBLI::UC07::P1::Anatomia::01 Construção morfofuncional do sistema nervoso",
+  "notes": [
+    {
+      "key": "transducao",
+      "nid": 1793889229406,
+      "cards": {
+        "1793889229406": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "circuito-funcional",
+      "nid": 1793889229407,
+      "cards": {
+        "1793889229407": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "interneuronios",
+      "nid": 1793889229408,
+      "cards": {
+        "1793889229408": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793889229409": {
+          "ord": 1,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "inducao-neural",
+      "nid": 1793889229409,
+      "cards": {
+        "1793889229411": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793889229410": {
+          "ord": 1,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "fechamento-tubo",
+      "nid": 1793889229410,
+      "cards": {
+        "1793889229413": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793889229412": {
+          "ord": 1,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "origem-central-periferica",
+      "nid": 1793889229411,
+      "cards": {
+        "1793889229414": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "prosencefalo",
+      "nid": 1793889229412,
+      "cards": {
+        "1793889229417": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793889229416": {
+          "ord": 1,
+          "flag": 4
+        },
+        "1793889229415": {
+          "ord": 2,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "mesencefalo-origem",
+      "nid": 1793889229413,
+      "cards": {
+        "1793889229419": {
+          "ord": 0,
+          "flag": 5
+        },
+        "1793889229418": {
+          "ord": 1,
+          "flag": 5
+        }
+      }
+    },
+    {
+      "key": "rombencefalo",
+      "nid": 1793889229414,
+      "cards": {
+        "1793889229420": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793889229421": {
+          "ord": 1,
+          "flag": 4
+        },
+        "1793889229422": {
+          "ord": 2,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "metencefalo-adulto",
+      "nid": 1793889229415,
+      "cards": {
+        "1793889229423": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "mielencefalo-adulto",
+      "nid": 1793889229416,
+      "cards": {
+        "1793889229424": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "dendritos",
+      "nid": 1793889229417,
+      "cards": {
+        "1793889229425": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "axonio",
+      "nid": 1793889229418,
+      "cards": {
+        "1793889229426": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "soma",
+      "nid": 1793889229419,
+      "cards": {
+        "1793889229427": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "cicatriz-glial",
+      "nid": 1793889229420,
+      "cards": {
+        "1793889229429": {
+          "ord": 0,
+          "flag": 3
+        },
+        "1793889229428": {
+          "ord": 1,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "potassio-glia",
+      "nid": 1793889229421,
+      "cards": {
+        "1793889229430": {
+          "ord": 0,
+          "flag": 3
+        },
+        "1793889229431": {
+          "ord": 1,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "recaptacao-glia",
+      "nid": 1793889229422,
+      "cards": {
+        "1793889229432": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "oligodendrocito",
+      "nid": 1793889229423,
+      "cards": {
+        "1793889229434": {
+          "ord": 0,
+          "flag": 3
+        },
+        "1793889229433": {
+          "ord": 1,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "oligodendrocito-varios",
+      "nid": 1793889229424,
+      "cards": {
+        "1793889229435": {
+          "ord": 0,
+          "flag": 5
+        }
+      }
+    },
+    {
+      "key": "schwann",
+      "nid": 1793889229425,
+      "cards": {
+        "1793889229436": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793889229437": {
+          "ord": 1,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "schwann-segmento",
+      "nid": 1793889229426,
+      "cards": {
+        "1793889229438": {
+          "ord": 0,
+          "flag": 5
+        }
+      }
+    },
+    {
+      "key": "microglia",
+      "nid": 1793889229427,
+      "cards": {
+        "1793889229439": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "guillain-barre",
+      "nid": 1793889229428,
+      "cards": {
+        "1793889229440": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "esclerose-multipla",
+      "nid": 1793889229429,
+      "cards": {
+        "1793889229442": {
+          "ord": 0,
+          "flag": 3
+        },
+        "1793889229441": {
+          "ord": 1,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "astrocitos-capilares",
+      "nid": 1793889229430,
+      "cards": {
+        "1793889229443": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "glia",
+      "nid": 1793889229431,
+      "cards": {
+        "1793889229444": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "gfap",
+      "nid": 1793889229432,
+      "cards": {
+        "1793889229445": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "sinapse-quimica",
+      "nid": 1793889229433,
+      "cards": {
+        "1793889229446": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793889229447": {
+          "ord": 1,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "sinapse-eletrica",
+      "nid": 1793889229434,
+      "cards": {
+        "1793889229449": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793889229448": {
+          "ord": 1,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "liberacao-sinaptica",
+      "nid": 1793889229435,
+      "cards": {
+        "1793889229450": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793889229452": {
+          "ord": 1,
+          "flag": 4
+        },
+        "1793889229451": {
+          "ord": 2,
+          "flag": 4
+        },
+        "1793889229453": {
+          "ord": 3,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "saltatoria",
+      "nid": 1793889229436,
+      "cards": {
+        "1793889229455": {
+          "ord": 0,
+          "flag": 3
+        },
+        "1793889229454": {
+          "ord": 1,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "canais-nodais",
+      "nid": 1793889229437,
+      "cards": {
+        "1793889229456": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "fibras-propriocepcao",
+      "nid": 1793889229438,
+      "cards": {
+        "1793889229457": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "fibras-tato",
+      "nid": 1793889229439,
+      "cards": {
+        "1793889229458": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "fibras-dor-frio",
+      "nid": 1793889229440,
+      "cards": {
+        "1793889229459": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "fibras-dor-calor",
+      "nid": 1793889229441,
+      "cards": {
+        "1793889229460": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "duas-dores",
+      "nid": 1793889229442,
+      "cards": {
+        "1793889229461": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "fibras-c",
+      "nid": 1793889229443,
+      "cards": {
+        "1793889229462": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "morfologias",
+      "nid": 1793889229444,
+      "cards": {
+        "1793889229463": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "pseudounipolar-trajeto",
+      "nid": 1793889229445,
+      "cards": {
+        "1793889229464": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "pares-cranianos",
+      "nid": 1793889229446,
+      "cards": {
+        "1793889229465": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "snp-componentes",
+      "nid": 1793889229447,
+      "cards": {
+        "1793889229466": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "somatico-visceral",
+      "nid": 1793889229448,
+      "cards": {
+        "1793889229467": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "ramos-mistos",
+      "nid": 1793889229449,
+      "cards": {
+        "1793889229468": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "cerebelo-visual",
+      "nid": 1793889229450,
+      "cards": {
+        "1793889229469": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "branca-composicao",
+      "nid": 1793889229451,
+      "cards": {
+        "1793889229471": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793889229470": {
+          "ord": 1,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "cinzenta-composicao",
+      "nid": 1793889229452,
+      "cards": {
+        "1793889229472": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793889229473": {
+          "ord": 1,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "cortex-nucleos",
+      "nid": 1793889229453,
+      "cards": {
+        "1793889229474": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "nucleo-ganglio",
+      "nid": 1793889229454,
+      "cards": {
+        "1793889229475": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "intumescencia-cervical",
+      "nid": 1793889229455,
+      "cards": {
+        "1793889229476": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "intumescencia-lombossacral",
+      "nid": 1793889229456,
+      "cards": {
+        "1793889229477": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "distais-laterais",
+      "nid": 1793889229457,
+      "cards": {
+        "1793889229478": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793889229479": {
+          "ord": 1,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "extensores-ventrais",
+      "nid": 1793889229458,
+      "cards": {
+        "1793889229481": {
+          "ord": 0,
+          "flag": 5
+        },
+        "1793889229480": {
+          "ord": 1,
+          "flag": 5
+        }
+      }
+    },
+    {
+      "key": "flexores-dorsais",
+      "nid": 1793889229459,
+      "cards": {
+        "1793889229482": {
+          "ord": 0,
+          "flag": 5
+        },
+        "1793889229483": {
+          "ord": 1,
+          "flag": 5
+        }
+      }
+    },
+    {
+      "key": "broca-fala",
+      "nid": 1793889229460,
+      "cards": {
+        "1793889229484": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "transporte-axonal",
+      "nid": 1793889229461,
+      "cards": {
+        "1793889229485": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "tracadores",
+      "nid": 1793889229462,
+      "cards": {
+        "1793889229486": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "imagem-estrutural",
+      "nid": 1793889229463,
+      "cards": {
+        "1793889229487": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "redes",
+      "nid": 1793889229464,
+      "cards": {
+        "1793889229488": {
+          "ord": 0,
+          "flag": 3
+        }
+      }
+    },
+    {
+      "key": "ressonancia-funcional",
+      "nid": 1793889229465,
+      "cards": {
+        "1793889229490": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793889229489": {
+          "ord": 1,
+          "flag": 4
+        }
+      }
+    }
+  ],
+  "cards_new_lesson": 85,
+  "expected": 85,
+  "green": 24,
+  "blue": 53,
+  "pink": 8,
+  "compartilhados_tag": [
+    1792244863368,
+    1792244863743,
+    1792244864867,
+    1792265021996,
+    1792329455442,
+    1792329455695,
+    1792329455992,
+    1792329760618,
+    1792329761664,
+    1792329941889,
+    1792329944339,
+    1792572870656,
+    1792572870659,
+    1792572870664,
+    1792572870665,
+    1792572870666,
+    1792572870667,
+    1792572870668,
+    1792572870672,
+    1792588686960,
+    1792588686961,
+    1792588686964,
+    1792588686967,
+    1792588686968,
+    1792588686971,
+    1792697128629
+  ],
+  "cards_tag_aula": 118,
+  "problems": [],
+  "historico_preservado": true,
+  "at": "2026-11-05T14:43:53.926653+00:00",
+  "novos_reposicionados": [
+    {
+      "cid": 1792329455442,
+      "antes": 2650013,
+      "depois": 1,
+      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
+    },
+    {
+      "cid": 1792329455992,
+      "antes": 2650014,
+      "depois": 2,
+      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
+    },
+    {
+      "cid": 1792329944340,
+      "antes": 2690079,
+      "depois": 3,
+      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
+    },
+    {
+      "cid": 1792697128629,
+      "antes": 51077,
+      "depois": 5,
+      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
+    },
+    {
+      "cid": 1792697128630,
+      "antes": 51077,
+      "depois": 5,
+      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
+    },
+    {
+      "cid": 1792697128631,
+      "antes": 51077,
+      "depois": 5,
+      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
+    },
+    {
+      "cid": 1792754661839,
+      "antes": 51415,
+      "depois": 4,
+      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
+    },
+    {
+      "cid": 1792754661840,
+      "antes": 51415,
+      "depois": 4,
+      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
+    }
+  ],
+  "irmaos_antigos_retirados_do_estudo": [
+    1792754661839,
+    1792754661840,
+    1792697128629,
+    1792697128630,
+    1792697128631
+  ],
+  "motivo_retirada": "Cinco cartões nunca estudados,sem cloze correspondente após os conjuntos passarem ao mesmo índice. IDs e nota mantidos na reserva,sem apagar."
+}

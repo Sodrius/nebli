@@ -1,0 +1,12 @@
+{
+ "nid": 1793895432190,
+ "cards": [
+  1793895432190
+ ],
+ "deck": "NEBLI::UC03::P3::Imunologia::Distúrbios do sistema imune",
+ "fields": {
+  "Text": "<div data-nebli-organizacao=\"true\"><b>SCID: core mechanisms</b><br><b>Common cytokine receptor chain</b>: {{c1::IL2RG}}<br><b>Toxic purine metabolites</b>: {{c1::ADA}}<br><b>Failed receptor recombination</b>: {{c1::RAG1/2}}</div>",
+  "Extra": "Absent T-cell function compromises cellular defense and B-cell help. B-cell numbers depend on the genetic defect.<br><table style=\"width:100%;table-layout:fixed;font-size:16px!important;border-collapse:collapse\"><tr><th>SCID phenotype</th><th>Genetic causes</th></tr><tr><td style=\"font-size:16px!important;padding:5px;overflow-wrap:anywhere;border:1px solid #888\">T−B+</td><td style=\"font-size:16px!important;padding:5px;overflow-wrap:anywhere;border:1px solid #888\">IL2RG, JAK3, IL7R, PTPRC, CD3D, CD3E, CD247, CORO1A, LAT, LCP2</td></tr><tr><td style=\"font-size:16px!important;padding:5px;overflow-wrap:anywhere;border:1px solid #888\">T−B−</td><td style=\"font-size:16px!important;padding:5px;overflow-wrap:anywhere;border:1px solid #888\">RAG1/2, DCLRE1C, PRKDC, NHEJ1, LIG4, ADA, AK2, RAC2 (activating), NUDCD3</td></tr></table><br>Catalog of the two SCID groups in IUIS 2024; hypomorphic variants may have different phenotypes. MHC class II deficiency belongs to a separate combined-immunodeficiency group."
+ },
+ "flag": 4
+}

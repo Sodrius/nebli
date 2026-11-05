@@ -32,8 +32,8 @@
    "por_que_deu_certo": {
     "verde": "verde, 8 revisões, 0 lapso(s), ativo"
    },
-   "aula": "2026-uc03-radiologia-56-contrastes",
-   "uc": "uc03",
+   "aula": "2026-uc08-anatomia-01-esofago-estomago-delgado",
+   "uc": "uc08",
    "origem": "AnKing",
    "frente": "Achalasia may be idiopathic or secondary to a known insult, such as [ Chagas ] disease or extraesophageal malignancies",
    "verso": "Chagas disease is caused by Trypanosoma cruzi infection",
@@ -2436,7 +2436,7 @@
   {
    "nid": 1791630904067,
    "por_que_deu_certo": {
-    "verde": "verde, 6 revisões, 1 lapso(s), ativo"
+    "verde": "verde, 7 revisões, 1 lapso(s), ativo"
    },
    "aula": "2026-uc03-grand-round-04-paracoccidioidomicose",
    "uc": "uc03",
@@ -5119,6 +5119,19 @@
    "verso": "Hiding MHC I escapes CD8 T cells but removes the brake on NK cells.",
    "tem_imagem": false,
    "organizador": false
+  },
+  {
+   "nid": 1793784424989,
+   "por_que_deu_certo": {
+    "X": "gostei (x)"
+   },
+   "aula": "2026-uc03-imunologia-64-hipersensibilidade",
+   "uc": "uc03",
+   "origem": "Autoral",
+   "frente": "Th2 cytokines in allergic airways and what each drives: - IL-4: class switch to [IgE] - IL-5: recruits [eosinophils] - IL-13: [mucus] production",
+   "verso": "Together these cytokines arm mast cells, bring eosinophils and fill the bronchi with mucus. Leukotrienes add smooth muscle contraction.",
+   "tem_imagem": false,
+   "organizador": true
   },
   {
    "nid": 1793786653456,

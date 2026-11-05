@@ -1,5 +1,16 @@
 # GUIA 2 — Exemplares: os cards que Davi aprovou (X, "gostei", "melhorei")
 
+## Gostei novos de 05/11 — dimensão aprovada
+
+- **1791627547052:** O X aprova uma explicação espacial concreta: dobrar o DNA aproxima enhancer e promotor, com figura mostrando a alça. Copiar causa→relação espacial→consequência. A lacuna histórica longa e o número de palavras não são autorização para repetir clozes longos nos novos cards.
+- **1791630173420:** O X aprova contraste funcional cis/trans: um RNA separado reconhece outra molécula por pareamento. O alvo trans é induzido pelo mecanismo. Negrito histórico dentro do cloze não substitui a norma de contexto visível; ainda não houve revisão espaçada suficiente para avaliar retenção.
+- **1791630905344:** O X aprova ecologia→exposição: Histoplasma em solo com excretas explica risco de caverna ou galinheiro. A relação liga nome, ambiente e clínica. Não copiar automaticamente toda a extensão do Extra nem tratar uma primeira resposta como prova de memória duradoura.
+- **1792141769157:** O X aprova um quadro por método com contrastes exógenos correspondentes: CT/iodo, MRI/gadolínio e ultrassom/microbolhas. Preservar os índices deliberadamente editados por Davi; não impor c1 único por estética. O eixo método→agente torna os vizinhos comparáveis.
+- **1792170508430:** O X aprova um conjunto natural do mesmo eixo: temperatura, umidade e pH como condições de crescimento fúngico. Recuperar em conjunto faz sentido pela relação, não apenas por haver três palavras. Valores e exceções do verso ainda precisam de fonte específica ao serem reutilizados.
+- **1793199679755:** O X aprova o contraste ELISA direto→antígeno e indireto→anticorpo acompanhado de duas figuras reais correspondentes. O ganho é comparar o objeto detectado, não decorar nomes isolados. Existem poucas revisões e um irmão histórico sem estudo; não inferir superioridade de retenção a partir desse X.
+
+Não há prova de que um desses formatos causou melhor retenção: quatro notas novas ainda têm zero revisões espaçadas; os outros dois exemplos têm só três ou quatro. Ver relatório da rodada.
+
 ## Aprendizado de 04/11 — organizadores que funcionam
 
 - **1792065031181:** antifúngicos por alvo; eixo único, uma linha por classe, cloze no nome a recuperar. Davi elogiou e suspendeu avulsos cobertos.

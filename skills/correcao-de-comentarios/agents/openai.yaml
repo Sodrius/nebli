@@ -1,0 +1,4 @@
+interface:
+  display_name: "Correção de comentários"
+  short_description: "Corrige marcações e aprende com gosteis e revisões do NEBLI."
+  default_prompt: "Use $correcao-de-comentarios para executar minha rodada diária e salvar os aprendizados."

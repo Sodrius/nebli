@@ -54,17 +54,24 @@ def _call(a, **p):
     return json.load(urllib.request.urlopen(urllib.request.Request("http://127.0.0.1:8765", json.dumps({"action": a, "version": 6, "params": p}).encode())))["result"]
 
 
-def dicas(t):
+def dicas(t, preferencia_davi=""):
     """F-20261016-CLAUDE-01: índice que esconde 3+ itens recebe a primeira letra como dica em cada lacuna."""
+    from nebli.qualidade_comentarios import preferencia_sem_iniciais, sigla_curta
+    if preferencia_sem_iniciais({'dicas_preferencia_davi': preferencia_davi}):
+        return t
     conta = {}
-    for n, _ in CLOZE.findall(t):
-        conta[n] = conta.get(n, 0) + 1
+    for n, corpo in CLOZE.findall(t):
+        resposta = re.sub(r'<[^>]+>', '', corpo.split('::')[0]).strip()
+        conta[n] = conta.get(n, 0) + (not sigla_curta(resposta))
 
     def sub(m):
         n, corpo = m.group(1), m.group(2)
         if conta[n] < 3 or "::" in corpo:
             return m.group(0)
-        letra = re.sub(r"<[^>]+>", "", corpo).strip()[0]
+        resposta = re.sub(r"<[^>]+>", "", corpo).strip()
+        if not resposta or sigla_curta(resposta):
+            return m.group(0)
+        letra = resposta[0]
         return "{{c%s::%s::%s…}}" % (n, corpo, letra)
     return CLOZE.sub(sub, t)
 
@@ -97,7 +104,7 @@ def finalizar(cards, here: Path, busca_base: str):
             cores = c.pop("cores")
             ns = sorted({int(n) for n, _ in CLOZE.findall(c["text"])})
             c["flags"] = {n: COR[cores.get(n, cod[0])] for n in ns}
-            c["text"] = dicas(c["text"])
+            c["text"] = dicas(c["text"], c.get("dicas_preferencia_davi", ""))
             if c["key"] in cob:
                 c["busca"] = busca_base + cob[c["key"]][6] + " Candidatos lidos: " + cob[c["key"]][4] + "."
     return cards
