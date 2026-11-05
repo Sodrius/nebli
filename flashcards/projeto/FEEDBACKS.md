@@ -1125,3 +1125,9 @@ Aplicação: `nebli/anki_addon.py` inclui suspensos no estudo do ramo, com regis
 Davi: “a uc07 será organizada conforme o conteúdo de material de veterano + prova + bibliografia, seguindo o cronograma e aprofundando um pouco mais do que esses materiais, com boa estratificação de bandeira”. Também pediu “boa quantidade de organizadores, imagem kenhub + anking first e uma parte de função + clínica associada a cada deck”, planejar Farmacologia considerando materiais de veteranos/provas acumulados, transcrever aulas já baixadas com Whisper e deixar tudo salvo no Git para continuar em outra pasta. Claude será o executor dos decks, após o planejamento com Davi.
 
 Aplicação: MEMORY §2 atualizado no lugar; plano UC07/Farmacologia de 04/11 registra diretrizes, propostas e decisões pendentes. Transcrição e auditoria dos materiais novos ainda não executadas.
+
+## F-20261104-CLAUDE-03 — 64 Hipersensibilidade v3 é exemplar de deck
+
+Davi: “coloca essa de hipersensibilidade como exemplar, gostei mt do deck”.
+
+Aplicação: GUIA-4-AULA §2 ganha o deck como exemplar de deck inteiro (corrida `deck-aula-uc03-im64-hipersensibilidade-v3-2026-11-04`: 78 notas/91 cards novos, pipeline v13, AnKing HY 1–3 de todas as seções, 12 autorais por lacuna provada, cada um moldado num exemplar e numa motivação). Os autorais continuam entrando no GUIA-2 pelo X/gostei no Anki.
