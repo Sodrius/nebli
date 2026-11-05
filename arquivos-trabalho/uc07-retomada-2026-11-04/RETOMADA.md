@@ -71,3 +71,7 @@ Fonte: `/Users/davisousa/Downloads/Programa final MSP2061 TB.pdf`, uma página, 
 - Estudo temporário de suspensos: executados novamente os **dois testes** de `test_study_suspensions.py`, ambos passam (retorno/reinício e proteção durante revisão). Validação na interface, após apagar um filtrado e recalcular FSRS, continua pendente. Nenhum filtrado pessoal foi manipulado para testar.
 - Farmacologia/UC19 segue reivindicada pelo Claude; esta sessão não alterou lotes, fontes ou cards. O plano de 04/11 continua pedindo confrontar materiais novos com os três lotes existentes.
 - `./kenhub-deck --painel` executado: teste dos gates ok, 51 unidades registradas. Isso não substitui auditoria das aulas.
+
+## Continuação em 05/11
+
+Proposta concreta em `flashcards/projeto/PROPOSTA-UC07-COBERTURA-2026-11-05.md`; matriz de40 relações em `matriz-cobertura.tsv`, 14 candidatos destacados em `candidatos-propostos.tsv` e limitações em `fontes-e-limites.md`. Davi confirmou que ainda não tem provas antigas. O inventário vivo usa nomes canônicos sem contagens. Nenhuma escrita no Anki.

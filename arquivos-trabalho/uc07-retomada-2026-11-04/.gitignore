@@ -1,2 +1,5 @@
 *.log
 __pycache__/
+notas-vivas.json
+candidatos-snapshot.json
+candidatos-vivos.json

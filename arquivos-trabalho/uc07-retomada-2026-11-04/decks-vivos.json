@@ -1,6 +1,6 @@
 [
   {
-    "deck": "NEBLI (7033|3095|1476)::UC07 (604|573|462)::P1 (604|573|462)::Neuroanatomia (604|573|462)::01 Construção morfofuncional do sistema nervoso (28|20|0)",
+    "deck": "NEBLI::UC07::P1::Neuroanatomia::01 Construção morfofuncional do sistema nervoso",
     "cards": 28,
     "notas": 25,
     "suspensos": 8,
@@ -11,7 +11,7 @@
     }
   },
   {
-    "deck": "NEBLI (7033|3095|1476)::UC07 (604|573|462)::P1 (604|573|462)::Neuroanatomia (604|573|462)::02 Medula espinal, plexos e nervos (120|114|85)",
+    "deck": "NEBLI::UC07::P1::Neuroanatomia::02 Medula espinal, plexos e nervos",
     "cards": 120,
     "notas": 88,
     "suspensos": 6,
@@ -23,7 +23,7 @@
     }
   },
   {
-    "deck": "NEBLI (7033|3095|1476)::UC07 (604|573|462)::P1 (604|573|462)::Neuroanatomia (604|573|462)::03 Tronco encefálico (104|96|67)",
+    "deck": "NEBLI::UC07::P1::Neuroanatomia::03 Tronco encefálico",
     "cards": 104,
     "notas": 85,
     "suspensos": 8,
@@ -34,7 +34,7 @@
     }
   },
   {
-    "deck": "NEBLI (7033|3095|1476)::UC07 (604|573|462)::P1 (604|573|462)::Neuroanatomia (604|573|462)::04 Nervos cranianos (103|103|96)",
+    "deck": "NEBLI::UC07::P1::Neuroanatomia::04 Nervos cranianos",
     "cards": 103,
     "notas": 77,
     "suspensos": 0,
@@ -45,7 +45,7 @@
     }
   },
   {
-    "deck": "NEBLI (7033|3095|1476)::UC07 (604|573|462)::P1 (604|573|462)::Neuroanatomia (604|573|462)::05 Cerebelo (55|46|35)",
+    "deck": "NEBLI::UC07::P1::Neuroanatomia::05 Cerebelo",
     "cards": 55,
     "notas": 44,
     "suspensos": 9,
@@ -55,7 +55,7 @@
     }
   },
   {
-    "deck": "NEBLI (7033|3095|1476)::UC07 (604|573|462)::P1 (604|573|462)::Neuroanatomia (604|573|462)::06 Diencéfalo (21|21|20)",
+    "deck": "NEBLI::UC07::P1::Neuroanatomia::06 Diencéfalo",
     "cards": 21,
     "notas": 21,
     "suspensos": 0,
@@ -66,7 +66,7 @@
     }
   },
   {
-    "deck": "NEBLI (7033|3095|1476)::UC07 (604|573|462)::P1 (604|573|462)::Neuroanatomia (604|573|462)::07 Núcleos da base e telencéfalo (89|89|83)",
+    "deck": "NEBLI::UC07::P1::Neuroanatomia::07 Núcleos da base e telencéfalo",
     "cards": 89,
     "notas": 88,
     "suspensos": 0,
@@ -77,7 +77,7 @@
     }
   },
   {
-    "deck": "NEBLI (7033|3095|1476)::UC07 (604|573|462)::P1 (604|573|462)::Neuroanatomia (604|573|462)::08 Irrigação do SNC (24|24|22)",
+    "deck": "NEBLI::UC07::P1::Neuroanatomia::08 Irrigação do SNC",
     "cards": 24,
     "notas": 23,
     "suspensos": 0,
@@ -87,7 +87,7 @@
     }
   },
   {
-    "deck": "NEBLI (7033|3095|1476)::UC07 (604|573|462)::P1 (604|573|462)::Neuroanatomia (604|573|462)::09 Sistemas neurovegetativos (20|20|19)",
+    "deck": "NEBLI::UC07::P1::Neuroanatomia::09 Sistemas neurovegetativos",
     "cards": 20,
     "notas": 20,
     "suspensos": 0,
@@ -98,7 +98,7 @@
     }
   },
   {
-    "deck": "NEBLI (7033|3095|1476)::UC07 (604|573|462)::P1 (604|573|462)::Neuroanatomia (604|573|462)::10 Meninges e líquor (15|15|13)",
+    "deck": "NEBLI::UC07::P1::Neuroanatomia::10 Meninges e líquor",
     "cards": 15,
     "notas": 15,
     "suspensos": 0,
@@ -108,7 +108,7 @@
     }
   },
   {
-    "deck": "NEBLI (7033|3095|1476)::UC07 (604|573|462)::P1 (604|573|462)::Neuroanatomia (604|573|462)::11 Cortes seriados do SNC (8|8|8)",
+    "deck": "NEBLI::UC07::P1::Neuroanatomia::11 Cortes seriados do SNC",
     "cards": 8,
     "notas": 8,
     "suspensos": 0,
@@ -118,7 +118,7 @@
     }
   },
   {
-    "deck": "NEBLI (7033|3095|1476)::UC07 (604|573|462)::P1 (604|573|462)::Neuroanatomia (604|573|462)::12 Sistema límbico (4|4|2)",
+    "deck": "NEBLI::UC07::P1::Neuroanatomia::12 Sistema límbico",
     "cards": 4,
     "notas": 4,
     "suspensos": 0,
@@ -129,7 +129,7 @@
     }
   },
   {
-    "deck": "NEBLI (7033|3095|1476)::UC07 (604|573|462)::P1 (604|573|462)::Neuroanatomia (604|573|462)::13 Organização do córtex cerebral (13|13|12)",
+    "deck": "NEBLI::UC07::P1::Neuroanatomia::13 Organização do córtex cerebral",
     "cards": 13,
     "notas": 12,
     "suspensos": 0,

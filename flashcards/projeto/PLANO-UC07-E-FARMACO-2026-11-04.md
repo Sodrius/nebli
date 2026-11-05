@@ -2,6 +2,8 @@
 
 Executor dos decks: Claude. Planejamento com Davi; este documento registra diretrizes já pedidas e decisões ainda abertas. Não é ordem para gerar ou reformular decks agora. Ler também MEMORY e o pipeline vigente.
 
+**Proposta concreta de 05/11:** [cobertura e organização UC07](PROPOSTA-UC07-COBERTURA-2026-11-05.md), com 40 relações dos decks 06/07/08/10, IDs e 14 candidatos destacados. Davi confirmou que ainda não tem provas antigas; não atribuir recorrência em prova. As cinco transcrições novas estão concluídas.
+
 ## UC07 — organização e seleção
 
 A unidade do deck é o conteúdo do cronograma. Usar em conjunto material de veteranos, provas, bibliografia e aulas/transcrições; a ordem é a do cronograma. A fala mais recente de Davi substitui a restrição antiga de incluir uma estrutura apenas se mencionada literalmente na transcrição: bibliografia e materiais de veteranos/provas também fundamentam a seleção, e cabe um pequeno aprofundamento além deles.
