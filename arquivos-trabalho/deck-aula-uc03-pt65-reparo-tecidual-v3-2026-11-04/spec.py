@@ -21,7 +21,7 @@ SHORT = "pt65"
 LESSON = "2026-uc03-patologia-65-reparo-tecidual"
 DECK = "NEBLI::UC03::P3::Patologia::Reparo tecidual e cicatrização"
 CRITERIOS = "MEMORY.md + pipeline v15 + FEEDBACKS até F-20261104-CLAUDE-03 + GUIA-1 a GUIA-4 relidos em 04/11/2026"
-_IMGS = ("destinos", "arcabouco", "crescimento", "potencia", "nichos", "integrinas", "fases", "intencoes", "m1m2", "angiogenese", "reepit", "macrofago", "fibrose", "granulacao-histo", "forca")
+_IMGS = ("destinos", "arcabouco", "crescimento", "nichos", "integrinas", "fases", "intencoes", "m1m2", "angiogenese", "macrofago", "fibrose", "granulacao-histo", "forca")
 MEDIA = {f"im65-{n}.png": f"img/im65-{n}.png" for n in _IMGS}
 IMG = lambda n: f'<br><br><img src="im65-{n}.png" style="width:100%;max-width:850px;height:auto">'
 BUSCA = ("Três caminhos (04/11): seções de recurso do AnKing de cicatrização (FirstAid Wound healing e Scar formation, Pathoma, OME, Physeo, B&B, Bootcamp colágeno e cicatrização; busca/secoes); "
@@ -56,6 +56,33 @@ EXCLUIDOS = [
  # trivia de cicatriz
  (1487981606867, "hipertrófica e herança: trivia"), (1487981609857, "hipertrófica e recidiva: repete o contraste com o queloide"), (1487981624737, "queloide e predisposição étnica: trivia"),
  (1487981634878, "queloide na orelha: localização, trivia"), (1568496019520, "repete 1487981545623 (colágeno I na cicatriz)"),
+ (1468101717082, "mesma resposta de 1468101709109 (tecido estável); os exemplos vão no Extra dele"),
+ (1487981602812, "mesma resposta de 1487981599441 (cicatriz hipertrófica); o colágeno paralelo vai no Extra dele"),
+ (1487981616609, "mesma resposta de 1487981612881 (queloide); o colágeno desorganizado vai no Extra dele"),
+ (1487981620664, "mesma resposta de 1487981545623 (colágeno I e III); a síntese aumentada vai no Extra do queloide"),
+ (1468101697168, "repete 1487981520428 (tecido permanente); o verso dele já traz os exemplos"),
+ (1474059949481, "grânulos densos (Ca e ADP): hemostasia da aula 69; a serotonina e a histamina da plaqueta vão no Extra do plug primário"),
+ (1487981552881, "repete a resposta (zinco) de 1476584079267; a colagenase vai no Extra de 1487981550712"),
+ (1482374264661, "estenose macroscópica do Crohn: aula de Patologia do trato digestivo; a fibrose que retrai a parede vai no Extra de c-fibrose-mec"),
+ (1487981629888, "recidiva do queloide: sim ou não; já no Extra de 1487981612881"),
+ (1487981541929, "repete c-angiogenese e 1487981537242 (capilares nutrem a granulação)"),
+ (1487981353937, "definição de regeneração: repete c-org-destinos e c-arcabouco"),
+ (1487981526005, "definição de reparo: repete c-org-destinos e c-arcabouco"),
+ (1468250215718, "colágeno organiza a matriz: tautológico e repete c-mec-funcoes"),
+ (1496163125083, "fatores angiogênicos do tumor: aulas de tumores (74 a 82)"),
+ (1487981589146, "repete 1476583833764 (vitamina C na síntese do colágeno e na cicatrização)"),
+ (1473982141617, "resposta ambígua (weak, temporary, unstable); o plug primário frágil vai no Extra de 1473985984856"),
+ (1487981568284, "VEGF e angiogênese: repete c-angiogenese e a linha de angiogênese de c-macrofago-reparo"),
+ (1487981566131, "FGF-2 e angiogênese: a linha de angiogênese de c-macrofago-reparo traz VEGF e FGF-2"),
+ (1524169597395, "contratura por MMP e miofibroblasto: detalhe sem HY que repete 1487981543711"),
+ (1487981560574, "resposta ambígua (TGF-β e VEGF também vêm de plaquetas e macrófagos); o PDGF entra por sh-1791983683760"),
+ (1476584079267, "resposta ambígua (vitamina C, cobre e proteína também atrasam); o zinco vai no Extra do card de vitamina C"),
+ (1463884007824, "alvos secundários (colágeno, cicatrização) e uma só ideia lateral; o corticoide que atrasa a cicatrização vai no Tab"),
+
+
+ (1487981550712, "repete parte do verso de 1487981545623 (remodelamento do colágeno)"),
+ (1487981576976, "contraste espelho de 1487981574852; a cicatriz mínima vai no Extra dele"),
+ (1487981581148, "contraste espelho de 1487981578907; a cicatriz maior vai no Extra dele"),
  (1487460268378, "tecido permanente só hipertrofia: aula 11 Acúmulos e adaptação"), (1479425811082, "neurônios permanentes: repete os exemplos de tecido permanente"),
  # NEBLI vivo de outras aulas
  (1793301697517, "proteases de neutrófilos destroem o arcabouço na hepatite: detalhe da aula 61; o princípio entra pelos dois cards da 61 e por c-arcabouco"),
@@ -63,6 +90,15 @@ EXCLUIDOS = [
  (1791910086149, "fatores de macrófago e fibroblasto no granuloma: repete PDGF e TGF-β da 62"),
  (1791780349490, "transcitose por VEGF: detalhe da inflamação aguda (38)"),
  (1791743342606, "monócitos depois dos neutrófilos: repete 1487642786172"),
+ (1793301695344, "autoral da aula 61 reprovado pelo revisor independente na versão atual (alvo amplo sem o órgão na frente); o princípio entra por c-arcabouco"),
+ (1793301698344, "autoral da aula 61 reprovado pelo revisor independente na versão atual (alvo previsível); a fibrose da perda de arcabouço entra por c-org-destinos"),
+ (1791780363131, "autoral da aula 38 (suspenso por Davi) reprovado pelo revisor independente: negrito na lacuna e alvo previsível; o conteúdo entra por ak1487981520428 e c-org-destinos"),
+ (1791780353997, "autoral da aula 38 (suspenso por Davi) reprovado pelo revisor independente: negrito na lacuna e alvo ambíguo; entra por ak1474059949481"),
+ (1791983681904, "autoral da aula 62 reprovado pelo revisor independente: negrito na lacuna; os indutores vão no Extra de c-m1-m2"),
+ (1791983682407, "autoral da aula 62 reprovado pelo revisor independente: vários fatores cabem e repete c-m1-m2; o TGF-β do M2 está em c-m1-m2"),
+ (1791780360877, "autoral da aula 38 (suspenso por Davi) reprovado pelo revisor independente: alvo previsível e Extra repete; TNF e IL-1 passam para a frente de c-m1-m2"),
+ (1791780363380, "autoral da aula 38 (suspenso por Davi) reprovado pelo revisor independente: alvo genérico e Extra vazio; a fibrose crônica entra por c-fibrose-mec"),
+ (1520717070355, "M2 por Th2 na inflamação crônica (cópia suspensa na aula 37): repete sh-1791983682407 e sh-1791983681904 da aula 62"),
  (1792117377748, "necrose liquefativa do cérebro: aula 09; o arcabouço do cérebro vai no Extra de c-arcabouco"), (1792117378246, "necrose liquefativa do cérebro: aula 09"),
  (1792117377497, "necrose liquefativa: aula 09"), (1792117376722, "necrose coagulativa: aula 09"), (1792117361820, "hepatite viral aguda: aula 09"),
  (1791022173275, "reticulina na cirrose: Correlação patológica-radiológica 2"), (1791022173097, "célula estrelada: outra aula"),
@@ -95,109 +131,79 @@ FORA_DO_RECORTE = [
  "Escorbuto e quadro clínico da deficiência de vitamina C: Nutrição; aqui só a vitamina C na hidroxilação do colágeno e na cicatrização.",
  "Fatores de crescimento EGF, TGF-α, HB-EGF além de HGF e KGF: tabela da lâmina 8 sem fala nem prova; no Tab.",
  "Reparo do DNA e telômeros: outra aula (Biomol 85); aqui 'reparo' é tecidual.",
- "Cor e pigmentação da cicatriz em detalhe, anexos cutâneos e queratina: só uma frase no Extra da reepitelização.",
+ "Reepitelização por células basais, epiderme mais fina e cor da cicatriz pelo melanócito (lâmina 35), anexos cutâneos e queratina: Tab.",
 ]
 A_, B_, C_, D_, E_, F_, G_, H_ = "A-arcabouco-regeneracao", "B-tecidos-celulas-tronco", "C-fatores-matriz", "D-fases-hemostasia", "E-inflamatoria", "F-proliferativa", "G-maturacao-intencao", "H-reparo-inflamacao-cronica"
 
 CARDS = [
  # ---------- Lâminas 2–3: regeneração × reparo e o arcabouço (princípio) ----------
- au("c-org-destinos", ORG("<b>Outcome of tissue injury</b> by tissue and lesion:<br>- renewing tissue (skin, gut): {{c1::regeneration}}<br>- stable tissue after resection (liver): {{c1::compensatory growth}}<br>- deep wound: {{c2::scar}}<br>- chronic inflammation: {{c2::fibrosis}}"),
+ au("c-org-destinos", ORG("<b>Outcome of tissue injury</b> by tissue and lesion:<br>- renewing tissue (skin, gut): {{c1::regeneration}}<br>- stable tissue after resection (liver): compensatory growth<br>- deep wound: {{c1::scar}}<br>- chronic inflammation: {{c1::fibrosis}}"),
     "V-pilar", A_, "Quatro destinos da lesão", 2, "lâmina 2; transcrição p.4; Robbins cap.3", motivacao="m2", organizador=True,
-    organizacao_fonte="fontes/transcricao.txt", organizacao_trecho="crescimento compensatório",
+    organizacao_fonte="fontes/transcricao.txt", organizacao_trecho="Eu tenho de um lado os tecidos que estão se renovando constantemente",
     fontes=F("transcrição p.4", "Eu tenho de um lado os tecidos que estão se renovando constantemente"),
     extra="Regeneration and compensatory growth need replicating cells and a surviving scaffold.<br>Scar and fibrosis are what remains when the scaffold is lost or the injury persists." + IMG("destinos")),
- K(1487981353937, "A-aula", A_, "Regeneração é reposição com tecido nativo", 2, "lâmina 2: definição de regeneração; Pathoma e First Aid"),
- K(1487981526005, "A-aula", A_, "Reparo é reposição por cicatriz", 2, "lâmina 2: definição de reparo; par da regeneração"),
- au("c-arcabouco", "Cell loss with the <b>matrix scaffold intact</b> ends in {{c1::regeneration}}, but loss of the <b>scaffold</b> ends in {{c1::scar}}",
+ au("c-arcabouco", "After cell loss, the surviving cells can rebuild the original tissue only if its <b>scaffold</b>, the {{c1::extracellular matrix}}, survives",
     "V-pilar", A_, "O arcabouço decide regeneração ou cicatriz", 3, "lâminas 3; transcrição p.6; apostila cap.2; prova 2016 P2 1.7", motivacao="m1",
     fontes=F("transcrição p.6", "Mas eu dependo também do arcabouço"),
     imagem="im65-arcabouco.png",
     extra="Surviving cells rebuild the original pattern on the scaffold.<br>Without it they replicate but disorganize, and matrix is deposited as scar.<br>The brain scaffold is made of neuronal and glial processes, so brain infarcts liquefy." + IMG("arcabouco")),
- sh(1793301695344, "azul", A_, "Infecção aguda poupa a reticulina e regenera", 3, "A-aula: lâmina 3, hepatite A destrói hepatócitos e mantém as trabéculas; card da aula 61 associado"),
- sh(1793301698344, "azul", A_, "Perda maior que a regeneração colapsa a reticulina e vira septo de colágeno", 3, "A-aula: lâmina 3, hepatite B e crônicas destroem o arcabouço; card da aula 61 associado"),
  # ---------- Lâmina 4: tecidos lábeis, estáveis e permanentes ----------
  K(1487981487576, "A-aula", B_, "Tecido lábil", 4, "lâmina 4: lábeis ciclam sempre"),
  K(1487981494590, "A-aula", B_, "Tecido estável", 4, "lâmina 4: estáveis voltam ao ciclo quando necessário"),
  K(1487981520428, "A-aula", B_, "Tecido permanente sem regeneração", 4, "lâmina 4: permanentes cicatrizam"),
- K(1468101717082, "A-aula", B_, "Exemplos de tecido estável", 4, "lâmina 4 e transcrição p.4: fígado como estável"),
- K(1468101697168, "A-aula", B_, "Exemplos de tecido permanente", 4, "lâmina 4: neurônios, miocárdio e músculo esquelético"),
- sh(1791780363131, "azul", B_, "Cura por fibrose quando o tecido não regenera", 4, "A-aula: lâmina 4, tecido que não regenera repara por cicatriz; cópia suspensa por Davi na aula 38, volta para reavaliar"),
  # ---------- Lâminas 5–6: células-tronco ----------
- au("c-tronco-niveis", "<b>Embryonic</b> stem cells can give rise to any cell lineage, so they are {{c1::pluripotent}}",
-    "R-detalhe", B_, "Pluripotente × comprometida × somática", 5, "lâmina 5; transcrição p.10", motivacao="m5",
-    fontes=F("transcrição p.10", "células-tronco embrionárias, que são pluripotentes"),
-    imagem="im65-potencia.png",
-    extra="Lineage committed stem cells make only one germ layer's cells.<br>Adult somatic stem cells are narrower still, giving only the cell types of their own tissue." + IMG("potencia")),
- au("c-org-nichos", ORG("<b>Somatic stem cell niches</b> by tissue:<br>- small intestine: {{c1::crypt}} base<br>- skin: hair follicle {{c1::bulge}}<br>- cornea: {{c1::limbus}}"),
-    "A-aula", B_, "Nichos de células-tronco somáticas", 6, "lâmina 6; transcrição p.12; apostila cap.2", motivacao="m6", organizador=True,
-    organizacao_fonte="fontes/transcricao.txt", organizacao_trecho="Isso acontece em todos os lugares",
-    fontes=F("lâmina 6", "Células Tronco Somáticas"),
+ au("c-org-nichos", ORG("<b>Somatic stem cells</b> give only the cells of their own tissue:<br>- intestinal crypt: {{c1::Paneth}}, goblet and absorptive cells<br>- hair follicle bulge: {{c1::keratinocytes}}<br>- eye limbus: corneal or conjunctival epithelium<br>- liver: hepatocytes or {{c1::bile duct}} cells"),
+    "A-aula", B_, "O que cada nicho de célula-tronco somática origina", 6, "lâmina 6; transcrição p.12; apostila cap.2", motivacao="m6", organizador=True,
+    organizacao_fonte="fontes/transcricao.txt", organizacao_trecho="Elas são comprometidas por linhagens específicas",
+    fontes=F("transcrição p.12", "ela só dá queratinócito, ela não dá célula de Paneth") + F("transcrição p.12", "Na córnea, ela pode estar no limbo ali do olho") + F("transcrição p.12", "células que vão fazer o revestimento da córnea ou células que vão compor a conjuntiva") + F("transcrição p.12", "eu posso ter alguma célula que podem dar ou ducto biliar ou hepatócito"),
     imagem="im65-nichos.png",
-    extra="Each niche gives only the cell types of its own tissue.<br>Crypt stem cells make absorptive, goblet and Paneth cells, but never keratinocytes." + IMG("nichos")),
+    extra="The restriction comes from genetic programming plus the local microenvironment.<br>A crypt stem cell never makes keratinocytes, and a follicle stem cell never makes Paneth cells." + IMG("nichos")),
  K(1486608763486, "A-aula", B_, "Células-tronco do intestino na cripta", 6, "lâmina 6: cripta intestinal; HY 1"),
  # ---------- Lâmina 7: ciclo celular ----------
  K(1468101709109, "A-aula", B_, "Célula estável entra em G1 quando estimulada", 7, "lâmina 7: G0 → G1 por fator de crescimento"),
  K(1468101721156, "A-aula", B_, "Célula lábil nunca entra em G0", 7, "lâmina 7: lábeis ciclam sempre"),
  # ---------- Lâminas 8–9: fatores de crescimento ----------
- au("c-org-fatores", ORG("<b>Growth factors</b> and their main target cell in repair:<br>- keratinocyte: {{c1::KGF}}<br>- hepatocyte: {{c1::HGF}}<br>- endothelial cell: {{c2::VEGF}}"),
-    "R-org", C_, "Fator de crescimento e a célula-alvo", 8, "lâmina 8; transcrição p.16", motivacao="m7", organizador=True,
-    organizacao_fonte="fontes/transcricao.txt", organizacao_trecho="fator de crescimento de endotélio vascular",
-    fontes=F("transcrição p.16", "fator de crescimento de endotélio vascular"),
-    sem_imagem="tabela de texto da lâmina 8, sem figura focal",
-    extra="KGF is also called FGF-7 and comes from fibroblasts.<br>HGF comes from mesenchymal cells and also stimulates epithelial and endothelial cells.<br>VEGF also raises vascular permeability."),
  K(1487981558376, "V-pilar", C_, "TGF-β medeia fibrose e angiogênese", 8, "lâminas 8 e 9: TGF-β promove fibrose"),
- K(1487981560574, "A-aula", C_, "PDGF vem de plaquetas e macrófagos", 8, "lâmina 8: fonte do PDGF"),
  K(1487981564266, "A-aula", C_, "PDGF estimula o fibroblasto", 8, "lâmina 8: PDGF e síntese de colágeno"),
- K(1487981566131, "R-detalhe", C_, "FGF-2 e angiogênese", 8, "lâmina 8: FGF"),
- K(1487981568284, "A-aula", C_, "VEGF e angiogênese", 8, "lâmina 8: VEGF"),
- K(1496163125083, "A-aula", C_, "Tumor produz fatores angiogênicos", 9, "lâmina 9: VEGF e nutrição tumoral; liga a aula às de tumores"),
  # ---------- Lâmina 10: regeneração × reparo, crescimento compensatório ----------
- au("c-crescimento-comp", "After <b>partial hepatectomy</b> the remaining liver regrows to near its original size by {{c1::compensatory growth}}",
+ au("c-crescimento-comp", "After <b>partial hepatectomy</b> the remaining liver regrows to near its original size, but not its shape, by {{c1::compensatory growth::process}}",
     "V-pilar", A_, "Crescimento compensatório do fígado", 10, "lâmina 10; transcrição p.20; prova 2015 P2 3.4", motivacao="m3",
     fontes=F("transcrição p.20", "crescimento compensatório"),
     imagem="im65-crescimento.png",
-    extra="Stable hepatocytes leave G0 under growth factors and replicate on the remaining architecture.<br>The lost lobes do not return, so this is not true regeneration.<br>It makes living donor liver transplant possible." + IMG("crescimento")),
+    extra="Also called compensatory hyperplasia: stable hepatocytes leave G0 under growth factors and replicate on the remaining architecture.<br>The lost lobes do not return, so this is not true regeneration.<br>It makes living donor liver transplant possible." + IMG("crescimento")),
  # ---------- Lâminas 11–12: matriz extracelular ----------
  au("c-mec-funcoes", "Matrix <b>proteoglycans</b> bind and store {{c1::growth factors}}, giving the tissue its signaling microenvironment",
     "A-aula", C_, "A matriz guarda fatores de crescimento", 11, "lâmina 11; transcrição p.22", motivacao="m9",
-    fontes=F("transcrição p.22", "a matriz extracelular é importante para prover suporte mecânico"),
+    fontes=F("transcrição p.22", "reter líquidos e alguns mediadores como fatores de crescimento") + F("transcrição p.22", "que retém líquido, que criam a possibilidade de eu guardar ali por mais tempo mediadores"),
     sem_imagem="função da matriz em texto na lâmina 11; a figura da lâmina 12 está em c-integrinas",
-    extra="Fibrillar components such as collagen and elastin give structure.<br>Non fibrillar ones such as fibronectin and proteoglycans hold fluid and keep mediators near for paracrine action."),
- K(1468250215718, "A-aula", C_, "Colágeno organiza e fortalece a matriz", 11, "lâmina 11: componente fibrilar da matriz"),
+    extra="When injury remodels the matrix, the stored factors are released and stimulate repair.<br>Fibrillar components such as collagen and elastin give structure, while proteoglycans hold fluid and keep mediators near for paracrine action."),
  au("c-integrinas", "Cells anchor to the <b>matrix</b> through {{c1::integrins}}, which signal through the cytoskeleton to the nucleus",
     "A-aula", C_, "Integrinas sinalizam célula-matriz", 12, "lâmina 12; transcrição p.24", motivacao="m10",
     fontes=F("transcrição p.24", "Moléculas de adesão vão ancorar nesses componentes ﬁbrilares"),
     imagem="im65-integrinas.png",
     extra="This signaling sets cell polarity and tells the cell whether it has room to grow.<br>Contact inhibition works through cell to matrix contact, not only cell to cell." + IMG("integrinas")),
  # ---------- Lâminas 13–17: etapas e fases ----------
- au("c-ponto", "Skin sutures come out after about {{c1::7 to 10}} days, since they only bring the edges together and do not give the wound strength",
-    "V-prova", D_, "O ponto aproxima e não dá resistência", 14, "lâmina 14; transcrição p.28; prova 2015 P2sub 3.1", motivacao="m12",
-    fontes=F("transcrição p.28", "Eu dou ponto só pra aproximar a borda"),
-    sem_imagem="decisão cirúrgica explicada na fala, sem figura própria; a ferida fina e a com cicatriz estão em c-intencoes",
-    extra="Closer edges leave less matrix gap to fill with imperfect scar.<br>A tight stitch for strength pulls the edges apart and makes a bigger scar.<br>Full strength returns only after weeks of remodeling."),
- K(1487981574852, "A-aula", D_, "Primeira intenção: bordas aproximadas", 14, "lâmina 14: ferida fina"),
- K(1487981576976, "A-aula", D_, "Primeira intenção deixa cicatriz mínima", 14, "lâmina 14: ferida fina, cicatriz mínima"),
- au("c-org-fases", ORG("<b>Wound healing</b> phases by time and event:<br>- day 1, platelet plug and fibrin: {{c1::hemostasis}}<br>- days 2 to 4, neutrophils then macrophages: {{c1::inflammatory}}<br>- days 4 to 21, granulation tissue: {{c2::proliferative}}<br>- day 21 to 2 years, collagen remodeling: {{c2::maturation}}"),
-    "V-pilar", D_, "Fases da cicatrização e seus tempos", 16, "lâminas 15 a 17; transcrição p.26 e p.30; prova 2025 P3 4.2", motivacao="m11", organizador=True,
+ K(1487981574852, "A-aula", D_, "Primeira intenção: bordas aproximadas", 14, "lâmina 14: ferida fina", text="<div><b>Cutaneous healing</b> by {{c1::primary}}<u> intention</u> is when the <b>wound edges are brought together</b> (e.g., suturing a surgical incision)</div>"),
+ au("c-org-fases", ORG("<b>Wound healing</b> phases by time and event:<br>- first day, platelet plug and fibrin: {{c1::hemostasis}}<br>- next days, neutrophils then macrophages: {{c1::inflammatory}}<br>- first 3 weeks, fibroblasts, collagen and new capillaries: {{c1::proliferative}}<br>- 3 weeks to 2 years, collagen remodeling: {{c1::maturation}}"),
+    "V-pilar", D_, "Fases da cicatrização e seus tempos", 13, "lâminas 13 e 15 a 17 (o gráfico das fases está nas lâminas 13 e 16); transcrição p.26 e p.30; prova 2025 P3 4.2", motivacao="m11", organizador=True,
     organizacao_fonte="fontes/transcricao.txt", organizacao_trecho="Inﬂamatória, proliferativa e a de maturação",
     fontes=F("transcrição p.30", "Inﬂamatória, proliferativa e a de maturação dessa ferida"),
-    extra="The phases overlap, and their duration depends on wound size, location and infection.<br>Each phase prepares the next." + IMG("fases")),
+    extra="The phases overlap, and timing varies with wound size, location and infection.<br>The text slides give days 2 to 4 for inflammation and days 4 to 21 for proliferation, and the graph gives 4 to 6 and 4 to 24." + IMG("fases")),
  # ---------- Lâminas 18–20: hemostasia ----------
- K(1473982141617, "A-aula", D_, "Hemostasia primária forma plug plaquetário frágil", 18, "lâmina 18: plug primário"),
- K(1473985984856, "A-aula", D_, "Hemostasia secundária estabiliza com fibrina", 19, "lâmina 19: plug secundário"),
- sh(1791780353997, "azul", D_, "Plaqueta libera serotonina e histamina e aumenta a permeabilidade", 20, "A-aula: lâmina 20, a plaqueta ativada inicia a inflamação; cópia suspensa por Davi na aula 38, volta para reavaliar"),
+ K(1473985984856, "A-aula", D_, "Hemostasia secundária estabiliza com fibrina", 19, "lâmina 19: plug secundário", text="<div><b>Secondary hemostasis</b> stabilizes the <b>platelet plug</b> with {{c1::fibrin}}</div>"),
  # ---------- Lâminas 21–25: fase inflamatória ----------
  K(1487642786172, "A-aula", E_, "Macrófagos depois dos neutrófilos", 21, "lâmina 21: neutrófilo no 2º a 4º dia, depois macrófago; HY 1"),
- K(1463884007824, "V-prova", E_, "Corticoide inibe fibroblasto e atrasa a cicatrização", 21, "lâmina 21: corticoide diminui o macrófago; HY 2"),
- au("c-m1-m2", ORG("<b>Wound macrophages</b> by phase:<br>- early: {{c1::M1}}, kill microbes and clear debris<br>- later: {{c1::M2}}, clear apoptotic cells and secrete IL-10 and TGF-β"),
+ au("c-m1-m2", ORG("<b>Wound macrophages</b> by function:<br>- {{c1::M1}}: kills microbes, clears debris, makes TNF and IL-1<br>- {{c1::M2}}: clears apoptotic cells, makes IL-10 and TGF-β"),
     "V-pilar", E_, "M1 depois M2 na ferida", 22, "lâmina 22; transcrição p.26 e p.42", motivacao="m15", organizador=True,
-    organizacao_fonte="fontes/transcricao.txt", organizacao_trecho="No começo, M1",
+    organizacao_fonte="fontes/transcricao.txt", organizacao_trecho="No começo, M1, porque tem um monte de destruição tecidual",
     fontes=F("transcrição p.26", "No começo, M1"),
-    extra="The switch happens once damage signals fade.<br>M2 TGF-β drives fibroblast, epithelial and endothelial proliferation, which starts the proliferative phase." + IMG("m1m2")),
- sh(1791983681904, "azul", E_, "M1 por micróbios e IFN-γ; M2 por IL-4 e IL-13", 22, "A-aula: lâmina 22, indutores do M1 e do M2; card da aula 62 associado"),
- sh(1791983682407, "verde", E_, "M2 impulsiona o reparo com TGF-β", 23, "V-pilar: lâmina 23, o TGF-β do M2 inicia a proliferação; card da aula 62 associado"),
+    extra="M1 comes first and M2 later, once damage signals fade, induced by IFN-γ and by IL-4 and IL-13.<br>M2 TGF-β stimulates fibroblasts and new vessels, which starts the proliferative phase." + IMG("m1m2")),
  K(1520715124462, "A-aula", E_, "IL-10 e TGF-β mediam a resolução", 23, "lâmina 23: IL-10 e TGF-β; HY 3"),
- sh(1791780360877, "azul", E_, "TNF e IL-1 ligam inflamação ao reparo", 23, "A-aula: lâmina 23, TNF e IL-1 na fase inicial; cópia suspensa por Davi na aula 38, volta para reavaliar"),
+ au("c-neutrofilo-dano", "In the first days <b>neutrophils</b> enter the <b>wound</b>, drawn by bacterial products and by signals from injured host cells, the {{c1::DAMPs}}",
+    "V-pilar", D_, "Neutrófilo migra por produtos bacterianos e DAMPs", 21, "lâmina 21: polimorfonucleares", motivacao="m14",
+    fontes=F("slides p.21", "Migração conforme demanda"),
+    sem_imagem="fato de uma fase da cicatrização, sem figura própria; a sequência das fases está em c-org-fases",
+    extra="DAMPs (damage-associated molecular patterns) are signals released by damaged cells, so tissue damage itself calls the neutrophils even without infection.<br>Macrophages replace them on days 2 to 4."),
  # ---------- Lâminas 26–35: fase proliferativa ----------
  K(1487981531796, "V-pilar", F_, "Fase proliferativa é o tecido de granulação", 26, "lâmina 26: proliferativa; HY 1"),
  K(1487981539804, "A-aula", F_, "Fibroblasto deposita colágeno III", 27, "lâmina 27: fibroblasto e colágeno"),
@@ -208,69 +214,115 @@ CARDS = [
     fontes=F("transcrição p.60", "Esses vasos são menores, são imaturos"),
     imagem="im65-angiogenese.png",
     extra="Leaky vessels let nutrients and cells reach the granulation tissue.<br>Later, as collagen builds and inflammation fades, the vessels mature and many regress." + IMG("angiogenese")),
- K(1487981537242, "V-pilar", F_, "Tecido de granulação: colágeno III, capilares e miofibroblastos", 33, "lâminas 32 a 34: componentes; HY 1; prova 2016 P2 2.4"),
- K(1487981541929, "A-aula", F_, "Capilares nutrem o tecido de granulação", 33, "lâmina 33: capilares"),
- au("c-reepitelizacao", "<b>Basal cells</b> of the epidermis proliferate to re-epithelialize the wound, and the new epidermis has fewer layers and less {{c1::keratin}}",
-    "R-detalhe", F_, "Reepitelização por células basais", 35, "lâmina 35; transcrição p.66 e p.70", motivacao="m20",
-    fontes=F("transcrição p.66", "comecem a proliferar e reepitelizar esse tecido"),
-    imagem="im65-reepit.png",
-    extra="The thinner epithelium shows the vessels below it, so the area looks red.<br>Scars lose skin appendages, and melanocytes repopulate poorly, so color can change." + IMG("reepit")),
- # ---------- Lâminas 36–38: maturação ----------
- K(1487981550712, "A-aula", G_, "Colagenase remove o colágeno III", 36, "lâmina 36: remodelação do colágeno"),
- K(1487981552881, "R-detalhe", G_, "Colagenase precisa de zinco", 36, "lâmina 36: metaloproteinase"),
+ K(1487981537242, "V-pilar", F_, "Tecido de granulação: colágeno III, capilares e miofibroblastos", 33, "lâminas 32 a 34: componentes; HY 1; prova 2016 P2 2.4", text="<div><b>Granulation tissue</b> consists of type III collagen, {{c1::capillaries}}, and myofibroblasts</div>"),
+ au("c-maturacao", "In the <b>maturation phase</b> the <b>granulation tissue</b> becomes scar as surplus vessels {{c1::regress}} and collagen is remodeled",
+    "V-pilar", D_, "Maturação regride vasos e remodela colágeno", 36, "lâmina 36: 21º dia até 2 anos", motivacao="m21",
+    fontes=F("slides p.36", "Regressão dos vasos"),
+    sem_imagem="fato da fase de maturação, sem figura própria; os tempos das fases estão em c-org-fases",
+    extra="It runs from day 21 to 2 years. Once inflammation fades the new capillaries are no longer needed, and remodeling reduces edema.<br>Tensile strength reaches at most 70 to 80% of normal."),
  K(1487981594443, "V-prova", G_, "70 a 80% da força em 3 meses", 38, "lâmina 38: força tênsil; transcrição p.74 e p.78"),
  K(1487981592613, "A-aula", G_, "Deiscência após cirurgia abdominal", 38, "lâmina 38: cicatriz é ponto de fragilidade (hérnia incisional)"),
  # ---------- Lâminas 39–41: segunda intenção e fatores que atrasam ----------
  K(1487981578907, "A-aula", G_, "Segunda intenção: bordas não aproximadas", 39, "lâminas 39 e 41: úlcera"),
- K(1487981581148, "A-aula", G_, "Segunda intenção deixa cicatriz maior", 39, "lâmina 39: úlcera, cicatriz maior"),
- au("c-intencoes", "Compared with primary intention, <b>secondary intention</b> has more inflammation and granulation tissue, and wound {{c1::contraction}} closes the gap",
-    "V-prova", G_, "Segunda intenção: mais granulação e contração", 40, "lâminas 14, 39 a 41; transcrição p.30 e p.82; prova 2025 P3 4.3", motivacao="m23",
-    fontes=F("transcrição p.30", "Aliás, só pra continuar, se eu não tiver um corte bonitinho como esse"),
-    imagem="im65-intencoes.png",
-    extra="Edges that cannot be approximated, as in large ulcers, infected wounds and dehiscence, are left open.<br>The scar is bigger and slower, but safer than closing an infected wound over an abscess." + IMG("intencoes")),
  K(1487981543711, "A-aula", G_, "Miofibroblasto contrai a ferida", 40, "lâmina 40: contração; Robbins"),
- K(1524169597395, "R-detalhe", G_, "Contratura por MMP e miofibroblastos", 40, "lâmina 40: contração exagerada"),
- K(1487981589146, "V-prova", G_, "Vitamina C e cicatrização retardada", 41, "lâmina 41: o que atrasa; HY 3"),
- K(1476584079267, "A-aula", G_, "Zinco e cicatrização retardada", 41, "lâmina 41: o que atrasa; HY 2"),
  K(1487981587235, "A-aula", G_, "Infecção atrasa a cicatrização", 41, "lâmina 41: infecção é a causa local mais importante; transcrição p.30"),
  au("c-imunossupressao", "In an <b>immunosuppressed</b> patient the wound heals slowly because the {{c1::inflammatory}} phase is not properly triggered",
-    "V-prova", G_, "Imunossupressão bloqueia a fase inflamatória", 41, "lâmina 41; prova 2025 P3 4.2", motivacao="m24",
+    "V-prova", D_, "Imunossupressão bloqueia a fase inflamatória", 15, "lâmina 15 (fases); transcrição p.30; prova 2025 P3 4.2", motivacao="m24",
     fontes=F("provas 2025 P3 4.2", "A principal fase comprometida neste caso é a fase inflamatória"),
     sem_imagem="raciocínio de prova sobre a ordem das fases, sem figura; as fases estão em c-org-fases",
-    extra="Without that first phase the later ones receive no stimulus.<br>The inflammatory phase triggers the proliferative and maturation phases."),
+    extra="Without it the later phases receive no stimulus.<br>Its macrophages and cytokines are what activate fibroblasts and angiogenesis in the proliferative phase."),
  # ---------- Lâminas 42–44: reparo na inflamação crônica ----------
- au("c-macrofago-reparo", ORG("<b>Macrophage roles in wound repair</b> and their mediators:<br>- angiogenesis: {{c1::VEGF}} and FGF-2<br>- fibroblast and keratinocyte proliferation: {{c1::PDGF}}, TGF-β, KGF<br>- debridement: {{c2::collagenase}} and elastase<br>- antimicrobial defense: {{c2::nitric oxide}} and ROS"),
-    "A-aula", H_, "Papéis do macrófago no reparo", 42, "lâmina 42; transcrição p.86", motivacao="m16", organizador=True,
-    organizacao_fonte="fontes/transcricao.txt", organizacao_trecho="o macrófago é importante",
-    fontes=F("transcrição p.86", "E, de novo, o macrófago é importante"),
-    extra="Macrophages clean the wound and then recruit and stimulate the cells that rebuild it.<br>The same cell drives the fibrosis of chronic inflammation." + IMG("macrofago")),
- au("c-fibrose-mec", "Persistent injury keeps macrophages and lymphocytes active, raising collagen synthesis and lowering its degradation by {{c1::metalloproteinases}}, which causes fibrosis",
+ au("c-macrofago-reparo", ORG("<b>Macrophage mediators</b> by role in wound repair:<br>- debridement: phagocytosis, collagenase and elastase<br>- antimicrobial defense: {{c1::nitric oxide}} and ROS<br>- angiogenesis: {{c1::VEGF}} and FGF-2"),
+    "A-aula", H_, "Mediadores do macrófago por papel no reparo", 42, "lâmina 42; transcrição p.86", motivacao="m25", organizador=True,
+    organizacao_fonte="fontes/transcricao.txt", organizacao_trecho="E, de novo, o macrófago é importante",
+    fontes=F("transcrição p.86", "E, de novo, o macrófago é importante") + F("lâmina 42", "Reparo na Inflamação"),
+    extra="Macrophages also drive fibroblast growth with PDGF and TGF-β and remodel the matrix." + IMG("macrofago")),
+ au("c-fibrose-mec", "<b>Persistent injury</b> keeps macrophages and lymphocytes active, which raise collagen synthesis and lower the activity of {{c1::metalloproteinases}}, causing fibrosis",
     "V-prova", H_, "Fibrose: mais síntese e menos degradação", 43, "lâmina 43; transcrição p.88; prova 2018 P3 4.2 e 2015 P2sub 3.2", motivacao="m25",
     fontes=F("transcrição p.88", "esses macrófagos são ativados"),
     imagem="im65-fibrose.png",
-    extra="Growth factors PDGF, FGF and TGF-β and cytokines such as TNF, IL-1, IL-4 and IL-13 drive the fibroblasts.<br>The mechanism is the same as in a scar, but spread through the organ." + IMG("fibrose")),
- sh(1791780363380, "azul", H_, "Inflamação crônica mostra infiltrado mononuclear, angiogênese e fibrose", 43, "A-aula: lâmina 43; cópia suspensa por Davi na aula 38, volta para reavaliar"),
- K(1482374264661, "R-detalhe", H_, "Crohn: estenose e espessamento", 43, "transcrição p.88: a fibrose retrai a parede e obstrui, como no Crohn"),
+    extra="They release PDGF, FGF and TGF-β and cytokines such as TNF, IL-1, IL-4 and IL-13, which drive the fibroblasts, while less collagen is degraded.<br>It is the scar mechanism spread through the organ, and in Crohn disease it retracts the wall and can obstruct it." + IMG("fibrose")),
  # ---------- Lâmina 44: destinos finais e cicatrizes patológicas ----------
  K(1487981599441, "A-aula", H_, "Cicatriz hipertrófica respeita a borda", 44, "transcrição p.18; palavras-cruzadas e Robbins: excesso de colágeno"),
- K(1487981602812, "R-detalhe", H_, "Hipertrófica: colágeno paralelo", 44, "Robbins: excesso de colágeno"),
  K(1487981612881, "A-aula", H_, "Queloide ultrapassa a borda", 44, "palavras-cruzadas: queloide; Robbins"),
- K(1487981616609, "R-detalhe", H_, "Queloide: colágeno desorganizado", 44, "Robbins: queloide"),
- K(1487981620664, "R-detalhe", H_, "Queloide: síntese de colágeno I e III muito aumentada", 44, "Robbins: queloide"),
- K(1487981629888, "R-detalhe", H_, "Queloide recidiva", 44, "Robbins: o queloide recidiva após a excisão"),
 ]
 
 finalizar(CARDS, HERE, BUSCA)
+
+
+# v12 (forma_das_lacunas): negrito, itálico e sublinhado ficam fora da lacuna; o resto do formato do AnKing é preservado
+from nebli.spec_lib import _call as _chamada
+_ids = [c["src"] for c in CARDS if c["kind"] == "text" and "text" not in c]
+_vivas = {n["noteId"]: n["fields"].get("Text", {}).get("value", "") for n in (_chamada("notesInfo", notes=_ids) if _ids else [])}
+_CZ = _re.compile(r"\{\{c(\d+)::(.*?)\}\}", _re.S)
+def _limpa(m):
+    corpo = _re.sub(r"</?(?:b|i|u|strong|em)>", "", m.group(2))
+    return "{{c" + m.group(1) + "::" + corpo + "}}"
+for _c in CARDS:
+    if _c["kind"] == "text" and "text" not in _c:
+        _novo = _CZ.sub(_limpa, _vivas.get(_c["src"], ""))
+        if _novo and _novo != _vivas.get(_c["src"], ""):
+            _c["text"] = _novo
+
+_V = {"ak1476583833764": "Vitamin C deficiency, or scurvy, weakens the collagen and so delays wound healing.<br>Zinc deficiency also delays healing, since collagenase needs zinc to swap type III for type I collagen.",
+ "ak1468101709109": "Stable tissues include the liver, lymphocytes, renal tubule cells and periosteum.<br>They sit in G0 until a growth factor pushes them into G1.",
+ "ak1468250215718": "Collagen is the fibrillar component that gives the scaffold its structure and strength.",
+ "ak1487981574852": "Closer edges leave a smaller matrix gap to fill, so less disorganized scar forms.<br>Sutures only bring the edges together and give no strength, so a tight stitch makes a bigger scar and skin sutures come out at 7 to 10 days.",
+
+ "ak1487981539804": "Fibroblasts are stimulated by TGF-β, PDGF, EGF and IL-1 and lay down loose type III collagen first.",
+ "ak1487981537242": "These three components give the red, moist bed of a healing wound, with capillaries, fibroblasts and a few inflammatory cells.",
+ "ak1487981541929": "New capillaries are immature and leaky, which brings oxygen and nutrients to the busy fibroblasts.",
+ "ak1487981592613": "A scar never regains full strength, so a sudden rise in abdominal pressure can reopen it.",
+ "ak1487981578907": "A large or infected gap cannot be closed with stitches, so granulation tissue fills it from the base.<br>It has more inflammation and wound contraction than primary intention, a bigger scar, and it is slower.",
+
+ "ak1487981543711": "Myofibroblasts pull the margins together, which shrinks the wound area.",
+ "ak1473985984856": "Primary hemostasis makes a weak platelet plug first, and activated platelets also release serotonin, histamine and PDGF, which cause vasodilation and permeability and start the inflammation.",
+ "ak1487981587235": "Infection keeps inflammation going, so the wound cannot move on to the proliferative phase.<br>Poor nutrition, poor perfusion and hyperglycemia, which glycates new collagen, also delay healing.",
+ "ak1487981599441": "A hypertrophic scar has excess collagen but stays inside the original wound margins.<br>Its collagen is laid out in parallel bundles, unlike the disorganized bundles of a keloid.",
+ "ak1487981612881": "A keloid has disorganized collagen with markedly increased type I and III synthesis.<br>It tends to recur after excision, unlike a hypertrophic scar."}
+for _c in CARDS:
+    if _c["key"] in _V and _c["kind"] != "autoral":
+        _c["extra_add"] = _V[_c["key"]] + ("<br>" + _c["extra_add"] if _c.get("extra_add") else "")
+for _c in CARDS:
+    if _c["key"] == "ak1487981537242":
+        _c["extra_add"] = _c.get("extra_add", "") + IMG("granulacao-histo")
+    elif _c["key"] == "ak1487981594443":
+        _c["extra_add"] = _c.get("extra_add", "") + IMG("forca")
+    elif _c["kind"] == "text":
+        _c["sem_imagem"] = "fato de texto do AnKing sem figura focal na aula; a figura do bloco está no card autoral ou no card de acervo vizinho"
+    if _c["kind"] == "autoral" and _c.get("imagem"):
+        _c["slide_sem_alternativa"] = "a figura é do Robbins reproduzida na lâmina da aula, que é a referência do deck; o livro da corrida só tem o texto extraído, sem a figura em resolução utilizável; recorte em 2,4x a 3x"
 
 VERSO = {}  # chave: "- linha curta" para nota de acervo sem Extra (gate de verso)
 for c in CARDS:
     if c["key"] in VERSO and c["kind"] != "autoral":
         c["extra_add"] = VERSO[c["key"]] + ("<br>" + c["extra_add"] if c.get("extra_add") else "")
-DUPLICACAO = {}
+DUPLICACAO = {"c-org-destinos": "ganho: junta os quatro destinos por tipo de tecido e lesão (lâmina 2), enquanto c-arcabouco explica por que o arcabouço decide",
+ "c-arcabouco": "ganho: o princípio causal do arcabouço; c-org-destinos mapeia os destinos por tecido",
+ "c-macrofago-reparo": "ganho: mediadores de cada papel do macrófago, enquanto c-m1-m2 trata dos fenótipos e sh-1791983682407 do TGF-β do M2"}
 for _k, _v in DUPLICACAO.items():
     next(c for c in CARDS if c["key"] == _k)["duplicacao_ok"] = _v
-IMAGENS_VISTAS = {}
+IMAGENS_VISTAS = {
+ "im65-destinos.png": "lâmina 2: esquema de Robbins com os quatro destinos da lesão (renovação, estável, ferida, inflamação crônica) e seus desfechos; no verso do organizador, não na frente",
+ "im65-arcabouco.png": "lâmina 3: lóbulo hepático com lesão só das células (regeneração) e das células e da matriz (reparo por cicatriz); mostra os dois polos do card",
+ "im65-crescimento.png": "lâmina 10: fígado antes e depois da ressecção, lobo remanescente crescendo, TC das duas fases e ciclo celular com priming; sem título que dê a resposta",
+ "im65-nichos.png": "lâmina 6: pele (bulge do folículo), intestino (cripta), fígado e córnea (limbo) com os nichos marcados; os quatro painéis do organizador",
+ "im65-integrinas.png": "lâmina 12: matriz, integrinas, adesões focais, citoesqueleto e núcleo com os caminhos de sinalização; legível em 2,6x",
+ "im65-fases.png": "lâmina 16: curva das três fases sobrepostas com inflamação 4 a 6 dias, proliferação 4 a 24 dias e remodelação 21 dias a 2 anos",
+ "im65-intencoes.png": "lâmina 14: ferida fina (A) e ferida com cicatriz e contração (B) em 24 horas, 3 a 7 dias e semanas",
+ "im65-m1m2.png": "lâmina 22: macrófago M2 resolutivo e M1 inflamatório com indutores, produtos e funções de cada lado",
+ "im65-angiogenese.png": "lâmina 31: vaso que brota em rede de capilares em quatro etapas, sem fatores de crescimento rotulados",
+ "im65-macrofago.png": "lâmina 42: macrófago com os cinco papéis no reparo e os mediadores de cada um",
+ "im65-fibrose.png": "lâmina 43: fluxo de estímulo persistente a fibrose com fatores de crescimento, citocinas e redução de metaloproteinases",
+ "im65-granulacao-histo.png": "lâmina 33: histologia do tecido de granulação com vasos, fibroblastos e células inflamatórias em colágeno frouxo; legível em 2,6x",
+ "im65-forca.png": "lâmina 38: duas curvas de força tênsil no tempo, uma em semanas (até cerca de 80%) e outra comparando tecido ferido e íntegro",
+}
 REVISAO = {}
-ESCOPO = {"objetivo": "", "centrais": [], "exemplos": [], "outras_aulas": []}
+ESCOPO = {"objetivo": "Explicar por que um tecido regenera e outro cicatriza (arcabouço, tecidos lábeis, estáveis e permanentes, células-tronco, fatores de crescimento e matriz) e o reparo da ferida em fases até a fibrose da inflamação crônica; clínica só como exemplo do mecanismo.",
+          "centrais": [["Neutrófilo e DAMPs", "c-neutrofilo-dano"], ["Maturação", "c-maturacao"], ["Destinos da lesão", "c-org-destinos"], ["Arcabouço", "c-arcabouco"], ["Crescimento compensatório", "c-crescimento-comp"], ["Fases", "c-org-fases"],
+                       ["M1 e M2", "c-m1-m2"], ["Primeira e segunda intenção", "ak1487981578907"], ["Imunossupressão", "c-imunossupressao"], ["Fibrose", "c-fibrose-mec"], ["Tecido de granulação", "ak1487981531796", "ak1487981537242"],
+                       ["Colágeno III e I", "ak1487981545623"], ["Vitamina C", "ak1476583833764"], ["Força tênsil", "ak1487981594443"]],
+          "exemplos": ["ak1487981599441", "ak1487981612881", "ak1487981587235"],
+          "outras_aulas": ["sh-1791983683185", "sh-1791983683760", "sh-1792242119048"]}
 _slide = lambda c: int(_re.search(r"\d+", c["evid"]).group())
 CARDS.sort(key=_slide)

@@ -300,6 +300,20 @@ def coverage(run, plan):
     return label.replace("exercício com card", "exercício com card; seções do livro com card ou motivo"), ok
 
 
+
+def sugestao_apos_tres_rodadas(run, resultados):
+    """F-20261105-CLAUDE-01 (Davi): depois da terceira rodada o parecer do revisor/verificador/formatação vira sugestão.
+    A corrida declara `pareceres-como-sugestao.json` com rodadas >= 3 e o que ficou pendente; a reprovação continua visível, mas não bloqueia."""
+    p = Path(run) / "pareceres-como-sugestao.json"
+    try:
+        d = json.loads(p.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return resultados
+    if int(d.get("rodadas") or 0) < 3 or len(str(d.get("pendencias", "")).strip()) < 30:
+        return resultados
+    return [(r[0] + (" [sugestão após 3 rodadas: não bloqueia]" if not r[1] else ""), True) + tuple(r[2:]) for r in resultados]
+
+
 def orphans(run, plan):
     """F-20261009-CLAUDE-02: "tem coisa que não foi dada". Todo card precisa apontar para um item do material de base
     (lâmina, material docente, apostila/monitoria, prova ou livro) em cobertura.json; card sem item é fuga da aula.
@@ -719,6 +733,10 @@ def profundidade(run, plan):
         for k in ks:
             if k.startswith("sh-"): vivos_pend.add(k[3:])
     vivos = _textos_vivos(vivos_pend) if vivos_pend else {}
+    # E7 ocorre antes da instalação: avaliar a redação materializada do compartilhado.
+    # A conferência posterior no Anki continua sendo obrigatória na E8.
+    vivos.update({nid: " ".join(v["fields"].values()) for nid, v in comp.items()
+                  if isinstance(v.get("fields"), dict) and v["fields"]})
     for i in itens:
         ks = [resolve(k) for k in i.get("cards", [])]
         if not ks or None in ks: continue
@@ -903,7 +921,8 @@ def compreensao_aula(run, plan):
         rec = [r for r in d.get("reconstrucoes", []) if isinstance(r, dict)]
         if not rec or any(len(str(r.get("o_que", "")).strip()) < 60 or not r.get("cards") or not set(r["cards"]) <= validos for r in rec):
             probs.append("'reconstrucoes': o que as provas pedem para Davi reconstruir (≥ 60 caracteres), cada uma com cards válidos")
-    soltos = [k for b in blocos for k in b.get("cards_exemplo", []) if k not in keys]
+    validos = keys | {f"sh-{k}" for k in (plan.get("compartilhados") or {})}
+    soltos = [k for b in blocos for k in b.get("cards_exemplo", []) if k not in validos]
     if soltos:
         probs.append(f"cards_exemplo que não estão no plano: {soltos[:4]}")
     return [(f"[duro] compreensão da aula: o que ensina, onde se encaixa, {len(blocos)} blocos de lâminas com o que o professor ensina; "
@@ -991,13 +1010,13 @@ def plan_checks(run, plan):
         if int(plan.get("pipeline_versao") or 1) >= 9:
             from nebli.revisor_autorais import verificar
             from nebli.acervos import verificar_amplitude
-            out += verificar(run, plan)
+            out += sugestao_apos_tres_rodadas(run, verificar(run, plan))
             out += organizadores_com_fonte(run, plan)
             erros = verificar_amplitude(run, [e["key"] for e in authored])
             out.append(("[duro] amplitude verificável em todos os acervos" + (": " + "; ".join(erros[:5]) if erros else ""), not erros))
         if int(plan.get("pipeline_versao") or 1) >= 12:  # F-20261101-CLAUDE-01: tipos, princípio, imagem, repetição e verificador por casos
             from nebli import verificador_casos
-            out += verificador_casos.verificar(run, plan)
+            out += sugestao_apos_tres_rodadas(run, verificador_casos.verificar(run, plan))
             from nebli import puxar_suspensos  # F-20261101-CLAUDE-03
             out += puxar_suspensos.verificar(run, plan)
     else:
@@ -1012,7 +1031,7 @@ def plan_checks(run, plan):
             out.append(("BT04 sem card cujo alvo é apenas haustros (anatomia macroscópica)"
                         + (f": {off_scope[:3]}" if off_scope else ""), not off_scope))
     hard = [key for key, text, extra, extra_problems in lint_cards.from_plan(run / "plan.json")
-            if any(level == "dura" for level, _ in (lint_cards.check(key, text, extra, version=int(plan.get("pipeline_versao") or 1)) if text else []) + extra_problems)]
+            if any(level == "dura" for level, _ in (lint_cards.check(key, text, extra, version=int(plan.get("pipeline_versao") or 1), front_language=plan.get("idioma_frente", "en")) if text else []) + extra_problems)]
     out.append(("lint dos autorais sem reprovação dura (busca nos externos, espelhos, forma AnKing)", not hard))
     orders = [e.get("order") for e in entries]
     out.append(("ordem da aula: toda entrada com posição e slide em 'evid'", all(orders) and all(str(e.get("evid", "")).lower().startswith("slide") for e in entries)))
@@ -1375,6 +1394,20 @@ def escopo_basico(run, plan):
     return out
 
 
+def _provas_ausentes_autorizadas(run, escopo):
+    """Aceita ausência real e autorizada; não substitui questões disponíveis por dispensa."""
+    path = Path(run) / "fontes-decl.json"
+    fontes = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    provas = (fontes.get("familias") or {}).get("provas")
+    autorizacao = escopo.get("provas_ausentes", {})
+    return (isinstance(provas, dict) and provas.get("estado") == "não localizada"
+            and len(str(provas.get("busca", "")).strip()) >= 30
+            and len(str(provas.get("impacto", "")).strip()) >= 30
+            and isinstance(autorizacao, dict)
+            and len(str(autorizacao.get("autorizado_por", "")).strip()) >= 30
+            and not list((Path(run) / "fontes").glob("provas*")))
+
+
 def linha_e_provas(run, plan):
     """F-20261021-CLAUDE-02: (1) todas as fontes (aula, prova, bibliografia, apostila) alimentam cards declarados em escopo.json;
     (2) o deck explica a aula numa linha lógica, com progressão do mecanismo (passos em ordem, cada um com cards, na ordem do deck);
@@ -1394,7 +1427,9 @@ def linha_e_provas(run, plan):
     valido = lambda k: k in entries or (alias.get(k, k).startswith("sh-") and alias.get(k, k)[3:] in comp)
     out = []
     uso = d.get("uso_das_fontes", {})
+    provas_ausentes = _provas_ausentes_autorizadas(run, d)
     faltam = [f for f in ("aula", "prova", "bibliografia", "apostila")
+              if not (f == "prova" and provas_ausentes)
               if not (isinstance(uso.get(f), list) and uso[f] and all(valido(k) for k in uso[f]))]
     out.append((f"[duro] fontes usadas nos cards (aula, prova, bibliografia, apostila), cada uma com cards válidos em escopo.json 'uso_das_fontes'" +
                 (f": faltam {faltam}" if faltam else ""), not faltam))
@@ -1444,7 +1479,8 @@ def linha_e_provas(run, plan):
         elif len(str(r.get("fora", "")).strip()) < 30:
             pend.append(i)
     out.append((f"[duro] calibrado com as provas: {len(ids)} questões do índice, cada uma (menos ecos) com cards ou 'fora' justificado em escopo.json 'provas'" +
-                (f"; pendentes {pend[:4]}" if pend else ""), bool(ids) and not pend))
+                ("; provas não disponíveis, busca e autorização documentadas; sem inferir recorrência" if provas_ausentes else "") +
+                (f"; pendentes {pend[:4]}" if pend else ""), (bool(ids) or provas_ausentes) and not pend))
     return out
 
 
@@ -1920,7 +1956,7 @@ def live_checks(plan, run=None):
     call = Anki()
     if run and int(plan.get('pipeline_versao') or 1)>=9:
         from nebli.formatacao_final import verificar as verificar_formato_final
-        formato_final = verificar_formato_final(run,plan,call)
+        formato_final = sugestao_apos_tres_rodadas(run, verificar_formato_final(run,plan,call))
     else:
         formato_final = []
     tag = f"NEBLI::{plan['lesson_id']}"

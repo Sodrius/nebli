@@ -1168,3 +1168,22 @@ Davi, literal:
 > agora deixa o plano estabelecido na memória, me diz por onde vai começar e termina, deopis que eu autorizar, só quando vc realmenteterminar o primeiro deck
 
 Aplicação: MEMORY §2 e plano UC07 por aula atualizados. Ainda não é autorização de geração. Quando Davi autorizar, Codex executa o primeiro deck do cronograma (Anatomia01, Construção morfofuncional do sistema nervoso, 13/10, Gerson) até entrega completa pelo pipeline, sem parar em rascunho/instalação parcial e sem iniciar automaticamente o segundo. Essa instrução específica substitui a fila contínua nesta retomada e a passagem anterior da geração ao Claude. Os gates de produção já vigentes permanecem exigidos; nenhum novo gate executável foi implementado no planejamento.
+
+## F-20261105-CODEX-03 — execução autorizada e reserva da UC07 atual
+
+Davi, literal:
+
+> pode começar
+> os cards que já fiz guarda a informação
+> mas pode mexer em tudo dos decks lá, só mover pra um outro deck, daí no final apagamos o que já há para a uc07
+
+Aplicação: execução autorizada do primeiro deck. Preparar backup consistente e manifesto por card/nota da UC07 antes de mover para reserva histórica; preservar IDs, conteúdo/comentários, histórico/revisões, bandeiras e suspensões. Reusar notas pertinentes com o histórico. A limpeza da árvore antiga é posterior à substituição/conferência, sem apagar agora notas estudadas. Escritas seguem `nebli.decks.escrita()` e proteção da nota em tela/irmãos. O executor encerra após o primeiro deck completo, sem iniciar automaticamente o segundo.
+
+## F-20261105-CLAUDE-01 — pareceres dos revisores viram sugestão depois da terceira rodada
+
+Davi, literal:
+
+> ficou raso / essa é uma aula da P4 já / faltou card de fases da cicatrização, por exemplo / gastou mt token sem cobrir bem a aula
+> deixa o parecer dos revisores, após a terceira vez, como sugestão / porque tá refazendo e predendo mt coisa, só gastando token a toa
+
+Aplicação: a 65 Reparo tecidual v3 foi encolhendo a cada rodada do revisor cego e do verificador (de 54 para 29 notas) e saiu rasa. Depois da 3ª rodada o parecer do revisor de autorais, do verificador por casos e da formatação final deixa de bloquear: o executor registra `pareceres-como-sugestao.json` (rodadas ≥ 3 e pendências) e o gate (`sugestao_apos_tres_rodadas`) mostra a reprovação sem bloquear. Cortar card para passar no revisor não é mais motivo; o deck cobre a aula.
