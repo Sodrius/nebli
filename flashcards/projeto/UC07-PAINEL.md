@@ -1,6 +1,6 @@
 # UC07 — painel de sessão (gerado; não editar à mão)
 
-Gerado em 22/10/2026 15:58 por `./kenhub-deck --painel`. **Ler no início de toda sessão da UC07.**
+Gerado em 04/11/2026 16:49 por `./kenhub-deck --painel`. **Ler no início de toda sessão da UC07.**
 
 ## Onde estamos
 
@@ -84,6 +84,8 @@ Antes de instalar: navegador de cards do Anki fechado (o comando avisa). No fim:
 | F-20261018-CLAUDE-05 | Cards da mesma estrutura em sequência na ordem da aula (Kenhub primeiro); só um verde por estrutura; cards de texto no tipo de nota do AnKing (clone fiel); figuras maiores e overlay em 2x. Vale para todo deck do Kenhub. | `[G25 estrutura junta]` (deck.py)<br>`[G26 uma verde por estrutura]` (deck.py)<br>`[G24 formato AnKing]` (modelo.py)<br>`ESCALA = 2` (mascara.py)<br>`G16 figura` (render.py)<br>`[G10 seta evidente]` (deck.py)<br>`[G27 termo explicado]` (deck.py) | teste_gates: estrutura espalhada, duas verdes na mesma estrutura reprovam; tipo de nota igual ao AnKing e figuras maiores verificados |
 | F-20261019-CODEX-01 | Módulos e subdecks seguem a ordem oficial do Kenhub. Nota ativa reutilizada é associada; nota totalmente suspensa migra para a unidade nova, sem associação, preservando ID, histórico e comentário. | `[G29 ordem Kenhub]` (painel.py)<br>`[G30 suspensa migra]` (deck.py) | teste_gates: sequência fora da ordem oficial reprova; nota ativa associa e nota totalmente suspensa migra |
 | F-20261020-CODEX-02 | A cobertura integral fica instalada; a camada ativa só contém cards com fonte ou relação anatômico-funcional imediata registrada. Step/AnKing entra pelo assunto exato, priorizando HY. Detalhes e redundâncias permanecem suspensos como reserva. | `GATE F-20261020-CODEX-02` (seleciona_estudo.py) | teste_gates: manifesto vazio e card ativo sem evidência reprovam; após aplicação o estado vivo é comparado por card ID |
+| F-20261022-CLAUDE-09 | Deck por aula do cronograma em seções na ordem da aula (plano em nebli/uc07_aula.py): todo termo do texto da apostila/transcrição com card; Kenhub e AnKing traduzido antes de autoral (autoral com busca e motivo); toda carta com bandeira, uma verde por estrutura; AnKing traduzido com a figura do próprio AnKing ou escolha registrada; o que não é da aula vai para a aula certa ou é retirado (suspenso, etiquetado, Reserva). | `[termo-sem-card]` (uc07_aula.py)<br>`[bandeira]` (uc07_aula.py)<br>`[verde-única]` (uc07_aula.py)<br>`[figura-ankihub]` (uc07_aula.py)<br>`GATE plano-cobre-tudo` (uc07_aula.py)<br>`G2 verso sem a figura com o rótulo` (render.py) | nebli/tests/test_uc07_aula.py: autoral sem busca/negrito/figura, lacuna genérica, verso repetido, duas verdes, plano vazio e termo sem card reprovam |
+| F-20261022-CLAUDE-10 | Nome de estrutura no deck = nome da aula ou de livro brasileiro (Moore, Gray, Machado); Kenhub não atesta; grafia da aula prevalece. | `[nomenclatura]` (nomenclatura.py)<br>`def nomenclatura_oficial` (gates.py) | nebli/tests/test_nomenclatura.py: sinônimo do Kenhub quando a aula usa outro nome, nome inventado e qualificador de Portugal reprovam |
 
 Feedback novo: literal em FEEDBACKS → regra no MEMORY §15 → entrada em `nebli/kenhub/feedbacks.json` → gate no código → caso ruim em `teste_gates.py` → `./kenhub-deck --painel` verde.
 

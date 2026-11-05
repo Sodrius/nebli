@@ -18,6 +18,10 @@ Antes de gerar, montar matriz por aula: estrutura/relação, fonte e página/que
 
 Estar na prova não é o único critério de importância; frequência, papel de fundamento e ganho de compreensão contam. O tipo do card (imagem/organizador/função/clínica) não determina a bandeira. Preservar a bandeira vermelha como sinal de problema do usuário. Se três faixas não bastarem, propor subdivisões por etiquetas, com filtro de estudo, sem consumir cores usadas pelos comandos pessoais. Esta tabela é proposta de operacionalização, não calibração numérica concluída.
 
+### Estratificação adicional proposta na retomada
+
+Preservar as cores da rubrica vigente (MEMORY §8): verde para núcleo duradouro/HY pertinente, azul para conteúdo importante da prova de menor manutenção longa, rosa para detalhe útil pertinente. A tabela acima é operacional e não revoga essa rubrica. Para aumentar a estratificação sem alterar cores pessoais, propor etiquetas por evidência: **pilar**, **cobrança em prova**, **conteúdo dos materiais** e **aprofundamento selecionado**. Podem coexistir; recorrência em prova só pode ser atribuída após ler e contar questões independentes. Cada prioridade deve ter motivo e localizador. Não aplicar etiquetas ou mudar bandeiras durante o planejamento.
+
 ### Composição de cada deck
 
 - **Imagem Kenhub + AnKing primeiro:** identificação com imagem Kenhub e destaque/seta conforme o padrão aprovado; buscar AnKing para relações, mecanismos, função e associação clínica. Outros acervos entram quando a fonte preferida não atende; autoral apenas para lacuna demonstrada.
@@ -30,11 +34,11 @@ A auditoria final deve conferir cobertura das fontes, acréscimos limitados e ju
 
 ## Transcrição das aulas baixadas
 
-Davi informou que já baixou todas as aulas e quer transcrição com Whisper antes da geração pelo Claude. **Nesta sessão a transcrição ainda não começou.** Antes do lote: localizar pasta exata, cruzar nomes/duração com cronograma e transcrições existentes, listar o que falta e conferir espaço/modelo disponível no `whisper-local`. Não baixar novamente material já disponível.
+**Retomada de 04/11: transcrição dos vídeos locais concluída.** Pasta real `Aulas UC07/`, dentro do repositório: nove vídeos, quatro transcrições anteriores preservadas e cinco novas com Whisper (diencéfalo, telencéfalo, meninges/ventrículos/líquor, irrigação e demonstração prática; 206,2 min novos). Modelo `mlx-community/whisper-large-v3-turbo` já em cache, execução offline. Cada vídeo tem TXT, SRT, VTT, TSV e JSON. O cronograma e o vínculo vídeo → aula foram conferidos; demonstração prática é transversal. [Inventário e retomada](../../arquivos-trabalho/uc07-retomada-2026-11-04/RETOMADA.md), com manifesto e comando retomável. Ainda falta revisão integral dos termos anatômicos; arquivo transcrito não equivale a fonte lida para o deck. Não baixar novamente esses vídeos.
 
-Criar manifesto com arquivo original, aula do cronograma, duração, hash, saída, modelo/idioma e estado (pendente/concluído/falha/revisado). Produzir texto pesquisável e versão com tempos quando suportada, sem substituir originais ou transcrições existentes; processar incrementalmente, preservando saída de cada aula para retomada. Vocabulário anatômico duvidoso deve ser conferido com slides/bibliografia e marcado quando incerto. Transcrição automática não equivale a aula lida nem libera gerar deck sem E2/E3.
+O manifesto criado registra arquivo original, aula do cronograma, duração, hash, saída, modelo/idioma e estado (pendente/concluído/falha/revisado). Produzir texto pesquisável e versão com tempos quando suportada, sem substituir originais ou transcrições existentes; processar incrementalmente, preservando saída de cada aula para retomada. Vocabulário anatômico duvidoso deve ser conferido com slides/bibliografia e marcado quando incerto. Transcrição automática não equivale a aula lida nem libera gerar deck sem E2/E3.
 
-Guardar áudio/vídeo e transcrições integrais em armazenamento privado/local; Git recebe scripts, manifesto sem dados sensíveis e plano, não vídeos nem material protegido integral. Antes de entregar ao Claude, informar caminhos reais dos arquivos (ainda não identificados), aulas concluídas e pendentes.
+Guardar áudio/vídeo e transcrições integrais em armazenamento privado/local; Git recebe scripts, manifesto sem dados sensíveis e plano, não vídeos nem material protegido integral. Os caminhos reais e as aulas concluídas estão no inventário de retomada. Não foram localizados vídeos próprios de sistemas neurovegetativos, cortes seriados, sistema límbico, organização do córtex ou neuroimagem neste lote. O cronograma também inclui comunicação celular/arco reflexo e duas aulas de neuroimagem, sem decks dedicados na árvore UC07 consultada; conferir cobertura antes de propor criação ou destino.
 
 ## Farmacologia — revisar o plano existente com o material acumulado
 

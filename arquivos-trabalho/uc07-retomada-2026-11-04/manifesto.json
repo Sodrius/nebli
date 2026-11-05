@@ -1,0 +1,166 @@
+{
+  "modelo_lote": "mlx-community/whisper-large-v3-turbo",
+  "idioma": "pt",
+  "aulas": [
+    {
+      "arquivo": "Aulas UC07/MSP2061 - 01 - Topografia do Tronco Cerebral (1).mp4",
+      "bytes": 1071330240,
+      "mtime_ns": 1792434074330349812,
+      "sha256": "30301b336803d55703e15f03e18efb8f845839cd45177eab2a36de154dd434b1",
+      "duracao_segundos": 1611.042771,
+      "aulas_cronograma": [
+        "03"
+      ],
+      "destino": "Aulas UC07/transcricoes/MSP2061 - 01 - Topografia do Tronco Cerebral (1)",
+      "estado": "existente",
+      "modelo": "anterior; não inferido",
+      "idioma": "pt",
+      "segmentos": 237,
+      "ultimo_tempo": 1610.56,
+      "caracteres": 18661,
+      "revisao_humana": "pendente"
+    },
+    {
+      "arquivo": "Aulas UC07/MSP2061 - 02 - Topografia do Nervos Cranianos (1).mp4",
+      "bytes": 827851137,
+      "mtime_ns": 1792434014026286611,
+      "sha256": "2aacf75cbd971a055ccb3e0cf069a6556df631eb27ca6df8814f69db74468b90",
+      "duracao_segundos": 1245.177271,
+      "aulas_cronograma": [
+        "04"
+      ],
+      "destino": "Aulas UC07/transcricoes/MSP2061 - 02 - Topografia do Nervos Cranianos (1)",
+      "estado": "existente",
+      "modelo": "anterior; não inferido",
+      "idioma": "pt",
+      "segmentos": 222,
+      "ultimo_tempo": 1244.16,
+      "caracteres": 14517,
+      "revisao_humana": "pendente"
+    },
+    {
+      "arquivo": "Aulas UC07/MSP2061 - 03 - Topografia do Cerebelo (1).mp4",
+      "bytes": 499809300,
+      "mtime_ns": 1792433813628849727,
+      "sha256": "38b9e8286e3a014a26c764e8dad9d4b442ef439450f815d772d4d3029ef56e69",
+      "duracao_segundos": 751.5508,
+      "aulas_cronograma": [
+        "05"
+      ],
+      "destino": "Aulas UC07/transcricoes/MSP2061 - 03 - Topografia do Cerebelo (1)",
+      "estado": "existente",
+      "modelo": "anterior; não inferido",
+      "idioma": "pt",
+      "segmentos": 118,
+      "ultimo_tempo": 751.18,
+      "caracteres": 8845,
+      "revisao_humana": "pendente"
+    },
+    {
+      "arquivo": "Aulas UC07/MSP2061 - 04 - Topografia da Medula Espinhal (2).mp4",
+      "bytes": 4145618091,
+      "mtime_ns": 1792434566995413250,
+      "sha256": "2bad19ac1541bfbdeab0ef65af5665018d937f750185fa8b389b0d58ba1d5afb",
+      "duracao_segundos": 6253.180271,
+      "aulas_cronograma": [
+        "02"
+      ],
+      "destino": "Aulas UC07/transcricoes/MSP2061 - 04 - Topografia da Medula Espinhal (2)",
+      "estado": "existente",
+      "modelo": "anterior; não inferido",
+      "idioma": "pt",
+      "segmentos": 1526,
+      "ultimo_tempo": 6252.38,
+      "caracteres": 68530,
+      "revisao_humana": "pendente"
+    },
+    {
+      "arquivo": "Aulas UC07/MSP2061 - 05 - Topografia do Diencéfalo.mp4",
+      "bytes": 2814002043,
+      "mtime_ns": 1793803488013194871,
+      "sha256": "d9c984bebde172a25f7b3c718fa004391989f37314ed0cb6bc4c7ed3d806f5b7",
+      "duracao_segundos": 4233.562667,
+      "aulas_cronograma": [
+        "06"
+      ],
+      "destino": "Aulas UC07/transcricoes/MSP2061 - 05 - Topografia do Diencéfalo",
+      "estado": "concluido",
+      "modelo": "mlx-community/whisper-large-v3-turbo",
+      "idioma": "pt",
+      "segmentos": 1120,
+      "ultimo_tempo": 4233.12,
+      "caracteres": 48398,
+      "revisao_humana": "pendente"
+    },
+    {
+      "arquivo": "Aulas UC07/MSP2061 - 06 - Topografia do Telencéfalo.mp4",
+      "bytes": 2291134076,
+      "mtime_ns": 1793803401885545781,
+      "sha256": "3c14dc6687c39d07de1fd78d08dd748bf235bbd70e537067627665c8599667d9",
+      "duracao_segundos": 3447.177067,
+      "aulas_cronograma": [
+        "07"
+      ],
+      "destino": "Aulas UC07/transcricoes/MSP2061 - 06 - Topografia do Telencéfalo",
+      "estado": "concluido",
+      "modelo": "mlx-community/whisper-large-v3-turbo",
+      "idioma": "pt",
+      "segmentos": 896,
+      "ultimo_tempo": 3446.92,
+      "caracteres": 35159,
+      "revisao_humana": "pendente"
+    },
+    {
+      "arquivo": "Aulas UC07/MSP2061 - 13 - Meninges, ventrículos e líquor.mp4",
+      "bytes": 1246302626,
+      "mtime_ns": 1793803034201182891,
+      "sha256": "5f2509cbaec0f981a4fc5c18385038fda74f9e2fc7eaa0dbf535ddf769834384",
+      "duracao_segundos": 1874.606067,
+      "aulas_cronograma": [
+        "10"
+      ],
+      "destino": "Aulas UC07/transcricoes/MSP2061 - 13 - Meninges, ventrículos e líquor",
+      "estado": "concluido",
+      "modelo": "mlx-community/whisper-large-v3-turbo",
+      "idioma": "pt",
+      "segmentos": 305,
+      "ultimo_tempo": 1873.68,
+      "caracteres": 18722,
+      "revisao_humana": "pendente"
+    },
+    {
+      "arquivo": "Aulas UC07/UC7 - 03 - Irrigação do Encéfalo.mp4",
+      "bytes": 459355642,
+      "mtime_ns": 1793803114768475628,
+      "sha256": "5607bb2e8992a99ce1f642746e9a62caa7cfcf5df3004a6511925ddd3336fa6d",
+      "duracao_segundos": 1150.916438,
+      "aulas_cronograma": [
+        "08"
+      ],
+      "destino": "Aulas UC07/transcricoes/UC7 - 03 - Irrigação do Encéfalo",
+      "estado": "concluido",
+      "modelo": "mlx-community/whisper-large-v3-turbo",
+      "idioma": "pt",
+      "segmentos": 236,
+      "ultimo_tempo": 1149.98,
+      "caracteres": 14309,
+      "revisao_humana": "pendente"
+    },
+    {
+      "arquivo": "Aulas UC07/UC7 - 04 - Demonstração Prática Neuroanatomia (1).mp4",
+      "bytes": 665702098,
+      "mtime_ns": 1792495922940170809,
+      "sha256": "9bc491cb5d4278035c2d9e28ebef7e5a599f89c3196a5ecb720c0ebfd7d005b3",
+      "duracao_segundos": 1667.832833,
+      "aulas_cronograma": [],
+      "destino": "Aulas UC07/transcricoes/UC7 - 04 - Demonstração Prática Neuroanatomia (1)",
+      "estado": "concluido",
+      "modelo": "mlx-community/whisper-large-v3-turbo",
+      "idioma": "pt",
+      "segmentos": 343,
+      "ultimo_tempo": 1667.34,
+      "caracteres": 19577,
+      "revisao_humana": "pendente"
+    }
+  ]
+}
