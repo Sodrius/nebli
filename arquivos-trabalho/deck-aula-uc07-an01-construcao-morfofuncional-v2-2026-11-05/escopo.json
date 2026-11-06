@@ -1,0 +1,316 @@
+{
+  "ciclo": "básico",
+  "justificativa": "Primeira aula de Anatomia UC07,13/10/2026,Gerson Chadi. Prepara Comunicação celular/arco reflexo de Fisiologia, a aula regional de medula/tronco/cerebelo e as aulas de neuroimagem e córtex. Aqui permanecem os princípios explícitos das24 lâminas; detalhes regionais, manejo clínico e física de imagem ficam nas aulas próprias.",
+  "clinica_lateral": [
+    "guillain-barre",
+    "esclerose-multipla"
+  ],
+  "clinica_e_tema": false,
+  "motivo_tema": "",
+  "ordem_da_fala": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      11,
+      11
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      13,
+      16
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      19,
+      19
+    ],
+    [
+      20,
+      20
+    ],
+    [
+      21,
+      21
+    ],
+    [
+      22,
+      22
+    ],
+    [
+      23,
+      24
+    ]
+  ],
+  "historia": "A especialização separa detecção, condução e resposta. Aferentes trazem sinais e eferentes os levam a efetores; a integração permite respostas que envolvem mais que a célula estimulada. O ectoderma forma placa e tubo neural, enquanto células da crista migram. Dilatações sucessivas explicam como partes do encéfalo adulto se relacionam, sem exigir que cada nome seja aprendido isoladamente. O neurônio recebe, integra e conduz sinais em regiões especializadas, dependendo de suporte metabólico e glial. Astrócitos regulam o ambiente, micróglia remove detritos e células mielinizadoras isolam axônios. A condução percorre o axônio e a transmissão passa informação a outra célula. Mielina restringe a regeneração do potencial aos nós e, com o diâmetro, determina velocidade; populações de fibras carregam sinais diferentes. A disposição de prolongamentos distingue neurônios multipolares, bipolares e pseudounipolares. Nos sensitivos pseudounipolares o soma fica ao lado de um prolongamento bifurcado, preservando o trajeto periferia-centro. A anatomia distingue central e periférico, enquanto a função distingue domínios somático e visceral. Aferência e eferência indicam direção; o autônomo é a saída visceral, não todo o sistema visceral. A raiz dorsal conduz entrada sensitiva e possui gânglio; a raiz ventral conduz saída motora. Unidas, constituem nervo misto cujos ramos continuam mistos e podem redistribuir fibras em plexos. Somas e circuitos locais concentram-se na cinzenta, axônios na branca. Cinzenta forma córtex superficial ou núcleos internos; por isso um corte encefálico não se explica apenas como exterior cinzento e interior branco. A organização medular varia com a quantidade de fibras de passagem e os neurônios destinados aos membros. Na cinzenta, posição dos grupos motores corresponde aos músculos inervados, permitindo inferir função a partir da localização. Degeneração distal a uma lesão permite seguir fibras de uma via. Quando a via cruza a linha mediana, lesões em níveis diferentes deixam de afetar o mesmo lado do corpo, mostrando o valor funcional da trajetória anatômica. A perda seletiva da expressão verbal após lesão frontal dominante liga anatomia a função. O caso demonstra localização funcional sem reduzir todas as operações de linguagem a um único ponto. Substâncias captadas por neurônios podem ser transportadas ao longo dos axônios. A direção do transporte permite inferir se a marcação revela destino da projeção ou origem dos neurônios que chegam a uma região. O plano de corte determina as relações anatômicas visíveis. Identificar as mesmas estruturas no corte e na imagem estrutural torna a anatomia um fundamento para localizar alterações, sem exigir física do método. Funções complexas combinam contribuições de regiões conectadas. Ativação em tarefas distintas mostra especialização dentro de redes e complementa a imagem estrutural, sem converter associação de atividade em prova isolada de causalidade.",
+  "linha_logica": [
+    {
+      "passo": "Do circuito à origem das estruturas",
+      "mecanismo": true,
+      "liga_ao_proximo": "Neurônio sustentado pela glia",
+      "cards": [
+        "circuito-funcional",
+        "interneuronios",
+        "sh-1792572870667",
+        "sh-1792572870668",
+        "transducao",
+        "inducao-neural",
+        "fechamento-tubo",
+        "origem-central-periferica",
+        "prosencefalo",
+        "mesencefalo-origem",
+        "rombencefalo",
+        "metencefalo-adulto",
+        "mielencefalo-adulto"
+      ]
+    },
+    {
+      "passo": "Neurônio sustentado pela glia",
+      "mecanismo": true,
+      "liga_ao_proximo": "Comunicação,velocidade e morfologia",
+      "cards": [
+        "dendritos",
+        "axonio",
+        "soma",
+        "cicatriz-glial",
+        "potassio-glia",
+        "recaptacao-glia",
+        "astrocitos-capilares",
+        "gfap",
+        "microglia",
+        "glia",
+        "oligodendrocito",
+        "oligodendrocito-varios",
+        "schwann",
+        "schwann-segmento",
+        "guillain-barre",
+        "esclerose-multipla"
+      ]
+    },
+    {
+      "passo": "Comunicação,velocidade e morfologia",
+      "mecanismo": true,
+      "liga_ao_proximo": "Classificação e ligação com a periferia",
+      "cards": [
+        "sinapse-quimica",
+        "sinapse-eletrica",
+        "liberacao-sinaptica",
+        "saltatoria",
+        "canais-nodais",
+        "sh-1792572870666",
+        "fibras-c",
+        "fibras-propriocepcao",
+        "fibras-tato",
+        "fibras-dor-frio",
+        "fibras-dor-calor",
+        "duas-dores",
+        "morfologias",
+        "pseudounipolar-trajeto"
+      ]
+    },
+    {
+      "passo": "Classificação e ligação com a periferia",
+      "mecanismo": true,
+      "liga_ao_proximo": "Arquitetura central e somatotopia",
+      "cards": [
+        "snp-componentes",
+        "sh-1792588686960",
+        "sh-1792588686968",
+        "sh-1792588686971",
+        "somatico-visceral",
+        "sh-1792329944339",
+        "sh-1792588686967",
+        "sh-1792588686961",
+        "pares-cranianos",
+        "sh-1792329941889",
+        "sh-1792588686964",
+        "sh-1792572870664",
+        "sh-1792265021996",
+        "sh-1792572870665",
+        "ramos-mistos",
+        "sh-1792697128629"
+      ]
+    },
+    {
+      "passo": "Arquitetura central e somatotopia",
+      "mecanismo": true,
+      "liga_ao_proximo": "Inferir função por lesão,transporte e imagem",
+      "cards": [
+        "cerebelo-visual",
+        "sh-1792572870659",
+        "sh-1792572870656",
+        "sh-1792572870672",
+        "branca-composicao",
+        "cinzenta-composicao",
+        "cortex-nucleos",
+        "nucleo-ganglio",
+        "sh-1792244864867",
+        "sh-1792244863743",
+        "sh-1792244863368",
+        "sh-1792329455442",
+        "sh-1792329455695",
+        "intumescencia-cervical",
+        "intumescencia-lombossacral",
+        "sh-1792329761664",
+        "sh-1792329455992",
+        "distais-laterais",
+        "extensores-ventrais",
+        "flexores-dorsais"
+      ]
+    },
+    {
+      "passo": "Inferir função por lesão,transporte e imagem",
+      "mecanismo": true,
+      "liga_ao_proximo": "A localização anatômica prepara a interpretação das aulas regionais.",
+      "cards": [
+        "sh-1792329760618",
+        "broca-fala",
+        "transporte-axonal",
+        "tracadores",
+        "imagem-estrutural",
+        "redes",
+        "ressonancia-funcional",
+        "rm-estruturas"
+      ]
+    }
+  ],
+  "cards_de_conexao": [
+    "somatico-visceral",
+    "imagem-estrutural",
+    "redes",
+    "rm-estruturas"
+  ],
+  "provas": [
+    {
+      "id": "UC07 sem provas antigas disponíveis",
+      "fora": "Davi confirmou ainda não ter provas; busca no Drive não localizou gabaritos.Não atribuir recorrência nem inventar questão."
+    }
+  ],
+  "uso_das_fontes": {
+    "aula": [
+      "transducao",
+      "circuito-funcional",
+      "interneuronios",
+      "inducao-neural",
+      "fechamento-tubo",
+      "origem-central-periferica",
+      "prosencefalo",
+      "mesencefalo-origem",
+      "rombencefalo",
+      "metencefalo-adulto",
+      "mielencefalo-adulto",
+      "dendritos",
+      "axonio",
+      "soma",
+      "cicatriz-glial",
+      "potassio-glia",
+      "recaptacao-glia",
+      "oligodendrocito",
+      "oligodendrocito-varios",
+      "schwann",
+      "schwann-segmento",
+      "microglia",
+      "guillain-barre",
+      "esclerose-multipla",
+      "astrocitos-capilares",
+      "glia",
+      "gfap",
+      "sinapse-quimica",
+      "sinapse-eletrica",
+      "liberacao-sinaptica",
+      "saltatoria",
+      "canais-nodais",
+      "fibras-propriocepcao",
+      "fibras-tato",
+      "fibras-dor-frio",
+      "fibras-dor-calor",
+      "duas-dores",
+      "fibras-c",
+      "morfologias",
+      "pseudounipolar-trajeto",
+      "pares-cranianos",
+      "snp-componentes",
+      "somatico-visceral",
+      "ramos-mistos",
+      "cerebelo-visual",
+      "branca-composicao",
+      "cinzenta-composicao",
+      "cortex-nucleos",
+      "nucleo-ganglio",
+      "intumescencia-cervical",
+      "intumescencia-lombossacral",
+      "distais-laterais",
+      "extensores-ventrais",
+      "flexores-dorsais",
+      "broca-fala",
+      "transporte-axonal",
+      "tracadores",
+      "imagem-estrutural",
+      "redes",
+      "ressonancia-funcional",
+      "sh-1792572870667",
+      "sh-1792572870668",
+      "sh-1792572870666",
+      "sh-1792588686960",
+      "sh-1792588686968",
+      "sh-1792588686971",
+      "sh-1792329944339",
+      "sh-1792588686967",
+      "sh-1792329941889",
+      "sh-1792588686961",
+      "sh-1792588686964",
+      "sh-1792265021996",
+      "sh-1792697128629",
+      "sh-1792572870664",
+      "sh-1792572870665",
+      "sh-1792572870659",
+      "sh-1792572870656",
+      "sh-1792572870672",
+      "sh-1792244864867",
+      "sh-1792244863743",
+      "sh-1792244863368",
+      "sh-1792329455442",
+      "sh-1792329455695",
+      "sh-1792329761664",
+      "sh-1792329455992",
+      "sh-1792329760618"
+    ],
+    "bibliografia": [
+      "transporte-axonal",
+      "redes",
+      "somatico-visceral"
+    ],
+    "apostila": [
+      "somatico-visceral",
+      "intumescencia-cervical",
+      "nucleo-ganglio"
+    ],
+    "prova": []
+  },
+  "provas_ausentes": {
+    "autorizado_por": "Davi confirmou ainda não ter provas antigas e autorizou iniciar este deck com as aulas,bibliografia e veteranos disponíveis,em05/11/2026."
+  }
+}

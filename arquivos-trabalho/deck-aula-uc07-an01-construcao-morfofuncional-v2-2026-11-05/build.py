@@ -71,6 +71,9 @@ def build():
                                                         for x in A("cardsInfo", cards=(_ni or {}).get("cards", [])))}
             f_live={k:v["value"] for k,v in (_ni or {}).get("fields",{}).items()}
             f_live.update(getattr(spec,"SHARED_FIELDS",{}).get(str(c["nid"]),{}))
+            # Irmãos vazios antigos preservados na reserva não são novas recuperações.
+            if "Text" in f_live:
+                shared[str(c["nid"])]["n_cards"] = len(clozes(f_live["Text"]))
             source_tags=(_ni or {}).get("tags",[])
             origin=next((t.split("::origem::",1)[1] for t in source_tags if "::origem::" in t),"Kenhub" if "Kenhub" in (_ni or {}).get("modelName","") else "Autoral")
             shared[str(c["nid"])].update(fields=f_live,origin=origin,model=(_ni or {}).get("modelName"),before_fields_hash=h({k:v["value"] for k,v in (_ni or {}).get("fields",{}).items()}))

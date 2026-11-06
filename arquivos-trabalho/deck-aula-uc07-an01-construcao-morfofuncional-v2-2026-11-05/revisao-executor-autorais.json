@@ -1,0 +1,54 @@
+{
+  "pacote_sha256": "ab1b6827fe71a39c5e4a7a43bfa86c94517fa1aa685d9fd4d9e997239c1fb7c6",
+  "cards": [
+    {
+      "case_id": "A-ea68a7bf6b1fb9b0",
+      "input_sha256": "f2759cc37ffdfb17674160bf1315d4b8af3408fdc02f45b1dfed8993d805ff5a",
+      "veredito": "aprovado",
+      "julgamento": "Os domínios recuperam a divisão funcional sem confundir aferência com eferência; contexto fora da lacuna e figura com ambas as direções.",
+      "trecho": "<div data-nebli-organizacao=\"true\"><b>Divisão funcional do sistema nervoso</b>:<br>Relação com <b>corpo e meio externo</b>: {{c1::somático}}<br>Relação com <b>vísceras e meio interno</b>: {{c1::visceral}}</div>"
+    },
+    {
+      "case_id": "A-a04e9cae6b136f58",
+      "input_sha256": "c7bd25f31725b39ed3f96043388ecd8b0f5a0d71906ded0c1b220b8aeee076be",
+      "veredito": "aprovado",
+      "julgamento": "O mapa territorial recupera quatro destinos dos ramos anteriores; não duplica as raízes numéricas dos candidatos. Figura de plexos corresponde aos alvos.",
+      "trecho": "<div data-nebli-organizacao=\"true\"><b>Destino dos ramos anteriores</b>:<br><b>Pescoço</b>: plexo {{c1::cervical::c…}}<br><b>Membro superior</b>: plexo {{c1::braquial::b…}}<br><b>Membro inferior</b>: plexo {{c1::lombossacral::l…}}<br><b>Parede torácica típica</b>: nervos {{c1::intercostais::i…}}</div>"
+    },
+    {
+      "case_id": "A-efbbcd2099facc76",
+      "input_sha256": "aa816270ef721ca00f02b3074df7a8e10f72c1fd902ed7570c49ba741507247b",
+      "veredito": "aprovado",
+      "julgamento": "O organizador contrasta entrada sensitiva e saída motora no tronco. A legenda original confirma vermelho motor e azul sensitivo; recorte legível sem catálogo de núcleos.",
+      "trecho": "<div data-nebli-organizacao=\"true\"><b>Núcleos cranianos no tronco</b>:<br>Recebem <b>aferências dos nervos cranianos</b>: {{c1::sensitivos}}<br>Originam <b>eferências para efetores</b>: {{c1::motores}}</div>"
+    },
+    {
+      "case_id": "A-0cdac40e1aaffb8f",
+      "input_sha256": "9ee30270cf4ce874d66586a8b91b144fb6162675d8ff45904b18b12fdd6018cd",
+      "veredito": "aprovado",
+      "julgamento": "O alvo é o nome do princípio de mapa corporal, distinto das posições do homúnculo cobradas nos candidatos. Figura medular e Extra aplicam o princípio sem limitar sua definição ao córtex.",
+      "trecho": "No SNC, o <b>mapeamento ordenado do corpo</b> chama-se {{c1::somatotopia}}."
+    },
+    {
+      "case_id": "A-e75d13d0b62c78ae",
+      "input_sha256": "3cad28bee7c4a243a5a3e6050a2eddd6673d698658e26d4d6a5fc433c9288d8f",
+      "veredito": "aprovado",
+      "julgamento": "A comparação exige reconhecer o plano sagital em desenho e RM, com marcos correspondentes. Figura e contexto não revelam a resposta textual.",
+      "trecho": "Em qual <b>plano anatômico</b> estão os dois cortes da figura? {{c1::Sagital}}<br><img src=\"nebli-u7an01-imagem.png\" style=\"width:100%;max-width:820px;height:auto\">"
+    },
+    {
+      "case_id": "A-cef75321a973349b",
+      "input_sha256": "3fb223aa089319c56d55c9e1927acec1ff3c617840676366937653d0cc501e0b",
+      "veredito": "aprovado",
+      "julgamento": "As três setas recuperam corpo caloso, ponte e cerebelo na RM real da aula. A identificação transfere o atlas para a imagem e não acrescenta núcleos regionais aprofundados.",
+      "trecho": "<div data-nebli-organizacao=\"true\"><b>RM sagital, estruturas apontadas</b>:<br><b>(A)</b>: {{c1::Corpo caloso::C…}}<br><b>(B)</b>: {{c1::Ponte::P…}}<br><b>(C)</b>: {{c1::Cerebelo::C…}}</div><br><img src=\"nebli-u7an01-rm-apontada.png\" style=\"width:100%;max-width:820px;height:auto\">"
+    },
+    {
+      "case_id": "A-7b175f2a46176b93",
+      "input_sha256": "dde8c0cfb6690fe89478e57783e53c19acfef9cba9c94aadb73a0bcf013e2676",
+      "veredito": "aprovado",
+      "julgamento": "O conjunto associa quatro operações a suas contribuições neurais. Coordenação cerebelar permanece distinta do comando motor; não apresenta a rede como sequência rígida.",
+      "trecho": "<div data-nebli-organizacao=\"true\"><b>Rebater uma bola</b>, contribuições da rede:<br><b>Ver a trajetória</b>: córtex {{c1::visual::v…}}<br><b>Planejar a ação</b>: córtex {{c1::pré-motor::p…}}<br><b>Comando voluntário</b>: córtex {{c1::motor::m…}}<br><b>Coordenar o movimento</b>: {{c1::cerebelo::c…}}</div>"
+    }
+  ]
+}

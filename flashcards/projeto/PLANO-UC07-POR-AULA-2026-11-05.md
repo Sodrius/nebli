@@ -1,6 +1,6 @@
 # UC07 — plano por aula e integradores, 05/11/2026
 
-Plano estabelecido por Davi. **Geração ainda depende de autorização explícita.** Após a autorização, Codex executa somente o primeiro deck até a entrega completa; não inicia o segundo automaticamente. Nenhuma criação, tradução, movimentação ou suspensão de cards foi autorizada nesta etapa. As fontes e os exemplares orientam a proposta; os textos demonstrativos abaixo não são notas prontas para instalar.
+Plano estabelecido e execução autorizada por Davi em05/11. Codex conclui somente o primeiro deck antes de encerrar esta retomada; não inicia o segundo automaticamente. A auditoria de cobertura e Kenhub-first foi concluída e instalada em06/11:180cards/148notas,sem iniciar o segundo deck. Frentes demonstrativas abaixo continuam exemplos de forma, não recibos de instalação.
 
 ## Estrutura vigente
 
@@ -135,4 +135,19 @@ Primeiro deck: **Anatomia — 01 Construção morfofuncional do sistema nervoso*
 
 Depois, completar E1–E8 na ordem: mapa da aula, busca AnKing/Kenhub/acervos, cobertura com pouco aprofundamento, seleção/redação frente em português e Extra em inglês, mídia, integradores, revisão independente, fidelidade/cobertura nos dois sentidos, instalação protegida e verificações finais. Entregar sem Tab conforme a regra vigente, preservando IDs, comentários, histórico e suspensões pessoais; pacote pessoal/compartilhável segue a restrição de mídia Kenhub e sync só quando Davi estiver ocioso.
 
-A autorização futura será para Codex terminar **esse primeiro deck**, sem encerrar em busca, spec, rascunho ou instalação parcial e sem avançar automaticamente para o segundo. A instrução específica substitui a fila contínua nesta retomada e a passagem anterior da geração ao Claude. Autorização recebida; Anatomia01 foi entregue em05/11 com113cards/86notas. O próximo encontro do plano é Fisiologia01 Comunicação celular e arco reflexo; não iniciou nesta rodada.
+A autorização futura será para Codex terminar **esse primeiro deck**, sem encerrar em busca, spec, rascunho ou instalação parcial e sem avançar automaticamente para o segundo. A instrução específica substitui a fila contínua nesta retomada e a passagem anterior da geração ao Claude. Autorização recebida; Anatomia01 foi complementada em06/11 e está instalada com180cards/148notas. O próximo encontro do plano é Fisiologia01 Comunicação celular e arco reflexo; não iniciou nesta rodada.
+
+
+## Básico agora e cobertura regional ao final — F-20261105-CODEX-07
+
+Na introdução, recuperar as divisões e grandes estruturas, raízes/ramos/cornos, noções celulares e embrionárias e interpretação elementar dos métodos mostrados. Kenhub é a primeira escolha para identificação anatômica básica; os três cortes globais AnKing permanecem por cobrarem outra modalidade. Não transformar todo rótulo do atlas em IO introdutório.
+
+| Destino | Identificações regionais a verificar na aula própria | Estado |
+|---|---|---|
+| 03 Medula/tronco/nervos/cerebelo | Núcleos III/VI/XII e demais núcleos cranianos ensinados; colículos superior/inferior; pedúnculos,tegmento,oliva inferior; marcos ventrais/dorsais e dois níveis mesencefálicos | Previsto; não entregue pela identificação global da AN01 |
+| 04 Diencéfalo/núcleos da base/telencéfalo | Caudado,putâmen,pálido e relações de cápsulas/núcleos em cortes; detalhes dos conjuntos diencefálicos | Previsto; o básico de grandes regiões da AN01 não encerra esta cobertura |
+| 06 Meninges/ventrículos/líquor | Comunicações,produção,circulação,absorção e efeitos de obstrução; a origem embrionária das cavidades entra na AN01 | Previsto; origem não equivale a circuito completo |
+| 07 Cortes seriados | Transferência para cortes vizinhos,níveis,orientação e marcos das estruturas efetivamente ensinadas | Previsto; complementar modalidades em vez de duplicar o mesmo atlas |
+| 09 Córtex | Mapas regionais,áreas e redes associativas,linguagem e papéis dos demais rótulos do exemplo de tarefa | Previsto; AN01 recupera o princípio e exemplos básicos |
+
+Na E3 de cada aula,conferir estes destinos contra as fontes e os IDs existentes; na E7,apontar as frentes reais. No fechamento da UC07,nenhum item destinado fica contado como coberto apenas por estar planejado: todos precisam de nota/card vivo e revisão de pergunta,imagem e comentário. Os detalhes da seleção atual e adiamentos permanecem no mapa da própria corrida,sem criar outro sistema de auditoria.

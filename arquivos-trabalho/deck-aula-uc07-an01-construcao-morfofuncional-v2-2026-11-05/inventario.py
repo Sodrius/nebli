@@ -6,3 +6,9 @@ SLIDES=[(1, 'capa', 'Apresentação', []), (2, 'conteudo', 'circuito; receptor',
 JUSTIFICATIVAS={}
 CAPITULO=[("Machado cap1",[("circuito-livro","Especialização aferência,associação e eferência",["circuito-funcional","interneuronios"])]),("Machado cap2",[("origem-divisoes-livro","Desenvolvimento e organização central/periférica",["inducao-neural","origem-central-periferica","snp-componentes"])]),("Machado cap3",[("celulas-comunicacao-livro","Neurônio,neuroglia,sinapses e transporte",["soma","microglia","sinapse-quimica","tracadores"])])]
 EXERCICIOS=[("Apostila-guia,Aula1,p9–15",[])]
+
+# Auditoria incremental: básicos ausentes e destino regional.
+from pathlib import Path as _Path
+import json as _json
+_sup=_json.loads((_Path(__file__).parent/'auditoria-2026-11-05/suplemento-planejado.json').read_text())
+SLIDES=[(n,cl,t,it+[("audit-"+x['key'],x['relacao'],[x['key']]) for x in _sup if x['slide']==n]) for n,cl,t,it in SLIDES]

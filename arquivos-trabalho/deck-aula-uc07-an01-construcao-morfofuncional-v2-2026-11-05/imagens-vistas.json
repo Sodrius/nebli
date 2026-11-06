@@ -1,0 +1,722 @@
+{
+  "nebli-u7an01-neurulacao.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina3: figura real vista no arquivo e na prévia; usada para a relação neurulacao."
+  },
+  "nebli-u7an01-vesiculas.png": {
+    "qualidade": "boa",
+    "intencao": "AnKing1479351788638,imagem30dbfac5c5ef93cbcca926e8d30dcd25.jpg completa: três vesículas primárias,cinco secundárias e derivados adultos; nenhuma coluna ou seta cortada."
+  },
+  "nebli-u7an01-neuronio.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina4: figura real vista no arquivo e na prévia; usada para a relação neuronio."
+  },
+  "nebli-u7an01-glia.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina6: figura real vista no arquivo e na prévia; usada para a relação glia."
+  },
+  "nebli-u7an01-sinapse.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina7: figura real vista no arquivo e na prévia; usada para a relação sinapse."
+  },
+  "nebli-u7an01-mielina.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina8: figura real vista no arquivo e na prévia; usada para a relação mielina."
+  },
+  "nebli-u7an01-fibras.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina9: figura real vista no arquivo e na prévia; usada para a relação fibras."
+  },
+  "nebli-u7an01-morfologias.png": {
+    "qualidade": "boa",
+    "intencao": "Bitmap139 da lâmina10,extraído integralmente sem a sobreposição da pequena imagem secundária; bipolar,multipolar e pseudounipolar com seus prolongamentos."
+  },
+  "nebli-u7an01-divisoes.png": {
+    "qualidade": "boa",
+    "intencao": "Bitmaps152 e150 da lâmina11 dispostos verticalmente,sem cortar rótulos; componentes centrais e periféricos correspondem aos organizadores."
+  },
+  "nebli-u7an01-funcional.png": {
+    "qualidade": "boa",
+    "intencao": "Bitmap154 da lâmina11,retirado somente o cabeçalho incorreto que dizia Central; caminhos somático/visceral e aferente/eferente completos."
+  },
+  "nebli-u7an01-raizes.png": {
+    "qualidade": "boa",
+    "intencao": "Bitmap175 da lâmina12: raiz dorsal e gânglio,raiz ventral,união e ramos mistos,com rótulos completos."
+  },
+  "nebli-u7an01-encefalo.png": {
+    "qualidade": "boa",
+    "intencao": "Machado3ed,fig2.8,p14(PDF25),somente figura; desenho sagital e chaves mostram cérebro,cerebelo,tronco e continuidade medular sem texto cortado ao lado."
+  },
+  "nebli-u7an01-cinzenta.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina14: figura real vista no arquivo e na prévia; usada para a relação cinzenta."
+  },
+  "nebli-u7an01-medula.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina14: figura real vista no arquivo e na prévia; usada para a relação medula."
+  },
+  "nebli-u7an01-nucleos.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina15: figura real vista no arquivo e na prévia; usada para a relação nucleos."
+  },
+  "nebli-u7an01-cortes.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina16: figura real vista no arquivo e na prévia; usada para a relação cortes."
+  },
+  "nebli-u7an01-niveis.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina17: figura real vista no arquivo e na prévia; usada para a relação niveis."
+  },
+  "nebli-u7an01-somatotopia.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina18: figura real vista no arquivo e na prévia; usada para a relação somatotopia."
+  },
+  "nebli-u7an01-lesao.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina19: figura real vista no arquivo e na prévia; usada para a relação lesao."
+  },
+  "nebli-u7an01-broca.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina20: figura real vista no arquivo e na prévia; usada para a relação broca."
+  },
+  "nebli-u7an01-tracadores.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina21: figura real vista no arquivo e na prévia; usada para a relação tracadores."
+  },
+  "nebli-u7an01-imagem.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina22: figura real vista no arquivo e na prévia; usada para a relação imagem."
+  },
+  "nebli-u7an01-redes.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina23: figura real vista no arquivo e na prévia; usada para a relação redes."
+  },
+  "nebli-u7an01-funcional-imagem.png": {
+    "qualidade": "boa",
+    "intencao": "Lâmina24: figura real vista no arquivo e na prévia; usada para a relação funcional-imagem."
+  },
+  "nebli-u7an01-vesiculas-adulto.png": {
+    "qualidade": "boa",
+    "intencao": "Mesma figura AnKing completa de desenvolvimento; ponte/cerebelo saem do metencéfalo e bulbo do mielencéfalo. Preservados todos os rótulos e desenhos."
+  },
+  "nebli-u7an01-nucleos-ganglios.png": {
+    "qualidade": "boa",
+    "intencao": "Montagem de duas figuras reais: núcleos profundos da lâmina14 e gânglio dorsal da lâmina12; distingue os agregados centrais e periféricos sem usar corno como sinônimo de núcleo."
+  },
+  "nebli-u7an01-transporte.png": {
+    "qualidade": "boa",
+    "intencao": "Imagemf9d262 de transporte axonal do acervo AnKing,com microtúbulos,dineína/cinesina e direções; copiada integralmente,sem desenhar esquema novo."
+  },
+  "755339a3d01c11c1d48372dfa571e5f2.jpg": {
+    "qualidade": "boa",
+    "intencao": "Arco reflexo com receptor periférico,aferente,interneurônio e motoneurônio: corresponde à transdução e ao percurso entrada/saída,sem afirmar que todo reflexo exige interneurônio."
+  },
+  "e9f45268de22c8894d3f362154c4880b.png": {
+    "qualidade": "boa",
+    "intencao": "Junções comunicantes ligam duas membranas e conduzem corrente na sinapse elétrica; figura vista no arquivo original,distinta da fenda química."
+  },
+  "nebli-u7an01-plexos.png": {
+    "qualidade": "boa",
+    "intencao": "Figura169 da lâmina12,com plexo cervical no pescoço,braquial no membro superior,lombar/sacral e nervos intercostais na parede torácica; foi vista integralmente."
+  },
+  "kh-cerebellum.jpg": {
+    "qualidade": "boa",
+    "intencao": "Imagem e sobreposições Kenhub do cerebelo completo,identificação verde na vista medial; versão sem nome na frente e identificada no verso conferidas na prévia."
+  },
+  "u7-kh-cerebellum-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Imagem e sobreposições Kenhub do cerebelo completo,identificação verde na vista medial; versão sem nome na frente e identificada no verso conferidas na prévia."
+  },
+  "u7-kh-cerebellum-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Imagem e sobreposições Kenhub do cerebelo completo,identificação verde na vista medial; versão sem nome na frente e identificada no verso conferidas na prévia."
+  },
+  "u7-kh-sensory-neuron-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Entrada aferente e saída eferente são recuperadas em conjunto; interneurônio tem lugar na integração e Extra delimita reflexo polissináptico. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-sensory-neuron.jpg": {
+    "qualidade": "boa",
+    "intencao": "Entrada aferente e saída eferente são recuperadas em conjunto; interneurônio tem lugar na integração e Extra delimita reflexo polissináptico. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-sensory-neuron-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Entrada aferente e saída eferente são recuperadas em conjunto; interneurônio tem lugar na integração e Extra delimita reflexo polissináptico. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-motor-neuron-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Entrada aferente e saída eferente são recuperadas em conjunto; interneurônio tem lugar na integração e Extra delimita reflexo polissináptico. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-motor-neuron-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Entrada aferente e saída eferente são recuperadas em conjunto; interneurônio tem lugar na integração e Extra delimita reflexo polissináptico. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-motor-neuron.jpg": {
+    "qualidade": "boa",
+    "intencao": "Entrada aferente e saída eferente são recuperadas em conjunto; interneurônio tem lugar na integração e Extra delimita reflexo polissináptico. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-cavidade-lateral.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 3. Figura real correspondente: cavidade-lateral. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-cavidade-terceiro.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 3. Figura real correspondente: cavidade-terceiro. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-cavidade-aqueduto.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 3. Figura real correspondente: cavidade-aqueduto. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-cavidade-quarto.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 3. Figura real correspondente: cavidade-quarto. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-glia-radial.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 3. Figura real correspondente: glia-radial. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-poda.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Lâmina 3; Machado cap2–3; apostila Aula1. Figura real correspondente: poda. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-integracao.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Lâmina 5; Machado cap2–3; apostila Aula1. Figura real correspondente: integracao. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "35d4cace53161539f255038365355c0f.jpg": {
+    "qualidade": "boa",
+    "intencao": "Oligodendrócito central e Schwann periférico são ligados ao número de internódulos/axônios; segmentação periférica não foi confundida com envolver axônios amielínicos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-ependima.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 6. Figura real correspondente: ependima. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-satelites.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 6. Figura real correspondente: satelites. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-myelin.jpg": {
+    "qualidade": "boa",
+    "intencao": "Nó,Ranvier,canais de sódio e regeneração do potencial nos intervalos explicam condução saltatória; mielina não é o local de geração do potencial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-myelin-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Nó,Ranvier,canais de sódio e regeneração do potencial nos intervalos explicam condução saltatória; mielina não é o local de geração do potencial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-myelin-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Nó,Ranvier,canais de sódio e regeneração do potencial nos intervalos explicam condução saltatória; mielina não é o local de geração do potencial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-schwann-amielinica.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Lâmina 8; Machado cap2–3; apostila Aula1. Figura real correspondente: schwann-amielinica. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-retina.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Lâmina 10; Machado cap2–3; apostila Aula1. Figura real correspondente: retina. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-interbrain-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Diencéfalo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-interbrain-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Diencéfalo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-interbrain.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Diencéfalo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-brainstem.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Tronco encefálico; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-brainstem-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Tronco encefálico; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-brainstem-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Tronco encefálico; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-mesencephalon-2-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Mesencéfalo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-mesencephalon-2.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Mesencéfalo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-mesencephalon-2-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Mesencéfalo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-pons.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Ponte; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-pons-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Ponte; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-pons-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Ponte; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-medulla-oblongata.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Bulbo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-medulla-oblongata-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Bulbo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-medulla-oblongata-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Bulbo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-nervus-spinalis.jpg": {
+    "qualidade": "boa",
+    "intencao": "Anterior/eferente e posterior/aferente são contrastes com dois índices preservados. União mista e ramos são demonstrados na figura original completa. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-nervus-spinalis-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Anterior/eferente e posterior/aferente são contrastes com dois índices preservados. União mista e ramos são demonstrados na figura original completa. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-nervus-spinalis-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Anterior/eferente e posterior/aferente são contrastes com dois índices preservados. União mista e ramos são demonstrados na figura original completa. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-ganglion-spinale-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Corpos sensitivos primários ficam fora da medula,no gânglio dorsal; a oclusão testa identificar a estrutura enquanto a pergunta textual cobra seu conteúdo. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-ganglion-spinale-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Corpos sensitivos primários ficam fora da medula,no gânglio dorsal; a oclusão testa identificar a estrutura enquanto a pergunta textual cobra seu conteúdo. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-ganglion-spinale.jpg": {
+    "qualidade": "boa",
+    "intencao": "Corpos sensitivos primários ficam fora da medula,no gânglio dorsal; a oclusão testa identificar a estrutura enquanto a pergunta textual cobra seu conteúdo. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-anterior-root-of-spinal-nerve-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Raiz anterior do nervo espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-anterior-root-of-spinal-nerve-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Raiz anterior do nervo espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-anterior-root-of-spinal-nerve.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Raiz anterior do nervo espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-anterior-ramus-of-spinal-nerve-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Ramo anterior do nervo espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-anterior-ramus-of-spinal-nerve.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Ramo anterior do nervo espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-anterior-ramus-of-spinal-nerve-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Ramo anterior do nervo espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-posterior-ramus-of-spinal-nerve-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Ramo posterior; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-posterior-ramus-of-spinal-nerve.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Ramo posterior; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-posterior-ramus-of-spinal-nerve-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Ramo posterior; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-cervical-plexus.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Plexo cervical; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-cervical-plexus-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Plexo cervical; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-cervical-plexus-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Plexo cervical; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-brachial-plexus.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Plexo braquial; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-brachial-plexus-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Plexo braquial; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-brachial-plexus-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Plexo braquial; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-lumbar-plexus-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Plexo lombar; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-lumbar-plexus.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Plexo lombar; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-lumbar-plexus-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Plexo lombar; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-plexus-sacralis.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Plexo sacral; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-plexus-sacralis-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Plexo sacral; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-plexus-sacralis-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Plexo sacral; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "paste-f5d861916e170604b0e43a5e14f7464a7b5b6266.jpg": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Lâmina 12; apostila Aula1; fallback: nenhum IO Kenhub adequado deste alvo no corpus pesquisado.. Figura real correspondente: raizes. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-brain-R8.png": {
+    "qualidade": "boa",
+    "intencao": "As oclusões localizam encéfalo,cérebro,medula e cerebelo em vistas reais; o tronco é organizado em pergunta de conjunto e figura sagital própria. Não são as perguntas de origem embrionária nem de coordenação funcional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-brain.jpg": {
+    "qualidade": "boa",
+    "intencao": "As oclusões localizam encéfalo,cérebro,medula e cerebelo em vistas reais; o tronco é organizado em pergunta de conjunto e figura sagital própria. Não são as perguntas de origem embrionária nem de coordenação funcional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-brain-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "As oclusões localizam encéfalo,cérebro,medula e cerebelo em vistas reais; o tronco é organizado em pergunta de conjunto e figura sagital própria. Não são as perguntas de origem embrionária nem de coordenação funcional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-endbrain-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "As oclusões localizam encéfalo,cérebro,medula e cerebelo em vistas reais; o tronco é organizado em pergunta de conjunto e figura sagital própria. Não são as perguntas de origem embrionária nem de coordenação funcional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-endbrain.jpg": {
+    "qualidade": "boa",
+    "intencao": "As oclusões localizam encéfalo,cérebro,medula e cerebelo em vistas reais; o tronco é organizado em pergunta de conjunto e figura sagital própria. Não são as perguntas de origem embrionária nem de coordenação funcional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-endbrain-R8.png": {
+    "qualidade": "boa",
+    "intencao": "As oclusões localizam encéfalo,cérebro,medula e cerebelo em vistas reais; o tronco é organizado em pergunta de conjunto e figura sagital própria. Não são as perguntas de origem embrionária nem de coordenação funcional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-medulla-spinalis-R8.png": {
+    "qualidade": "boa",
+    "intencao": "As oclusões localizam encéfalo,cérebro,medula e cerebelo em vistas reais; o tronco é organizado em pergunta de conjunto e figura sagital própria. Não são as perguntas de origem embrionária nem de coordenação funcional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-medulla-spinalis-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "As oclusões localizam encéfalo,cérebro,medula e cerebelo em vistas reais; o tronco é organizado em pergunta de conjunto e figura sagital própria. Não são as perguntas de origem embrionária nem de coordenação funcional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-medulla-spinalis.jpg": {
+    "qualidade": "boa",
+    "intencao": "As oclusões localizam encéfalo,cérebro,medula e cerebelo em vistas reais; o tronco é organizado em pergunta de conjunto e figura sagital própria. Não são as perguntas de origem embrionária nem de coordenação funcional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-frontal-lobe.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo frontal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-frontal-lobe-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo frontal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-frontal-lobe-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo frontal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-lobus-parietalis-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo parietal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-lobus-parietalis-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo parietal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-lobus-parietalis.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo parietal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-lobus-temporalis-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo temporal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-lobus-temporalis-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo temporal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-lobus-temporalis.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo temporal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-insula-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo insular; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-insula.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo insular; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-insula-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo insular; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-lobus-occipitalis-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo occipital; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-lobus-occipitalis-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo occipital; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-lobus-occipitalis.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Lobo occipital; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-central-sulcus-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Sulco central; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-central-sulcus-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Sulco central; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-central-sulcus.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Sulco central; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "paste-1e09c128ecf549fdeab62ff0a3d0e43cb3a8f69e.jpg": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Lâmina 13; apostila Aula1; fallback: nenhum IO Kenhub adequado deste alvo no corpus pesquisado.. Figura real correspondente: encefalo. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "paste-66931b3f01188d01938c84116d67e996e4a64061.jpg": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Lâmina 13; apostila Aula1; fallback: nenhum IO Kenhub adequado deste alvo no corpus pesquisado.. Figura real correspondente: encefalo. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-corpus-callosum-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Corpo caloso; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-corpus-callosum.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Corpo caloso; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-corpus-callosum-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Corpo caloso; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-lateral-ventricle-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Ventrículo lateral; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-lateral-ventricle-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Ventrículo lateral; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-lateral-ventricle.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Ventrículo lateral; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-capsula-interna.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Cápsula interna; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-capsula-interna-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Cápsula interna; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-capsula-interna-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Cápsula interna; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-thalamus-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Tálamo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-thalamus-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Tálamo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-thalamus.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Tálamo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-substantia-alba.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Substância branca; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-substantia-alba-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Substância branca; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-substantia-alba-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Substância branca; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-gray-matter-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Substância cinzenta; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-gray-matter.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Substância cinzenta; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-gray-matter-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Substância cinzenta; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-canalis-centralis-medullae-spinalis.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Canal central da medula espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-canalis-centralis-medullae-spinalis-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Canal central da medula espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-canalis-centralis-medullae-spinalis-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Canal central da medula espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-cornu-posterius-medullae-spinalis-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Corno posterior da medula espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-cornu-posterius-medullae-spinalis-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Corno posterior da medula espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-cornu-posterius-medullae-spinalis.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Corno posterior da medula espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-anterior-horn-of-spinal-cord-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Corno anterior da medula espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-anterior-horn-of-spinal-cord.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Corno anterior da medula espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-anterior-horn-of-spinal-cord-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Corno anterior da medula espinal; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "9beb2beebde31729cfe04199b846d03e.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 15. Figura real correspondente: neurulacao. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-nucleos-funcao.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Lâmina15, legenda de núcleos e fibras aferentes/eferentes; Machado cap2–3. Figura real correspondente: nucleos-funcao. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "51ffc21fce0d7336a611bd0aa447e75c.png": {
+    "qualidade": "boa",
+    "intencao": "Três cortes sem rótulos na frente e correspondentes identificados no verso; aqueduto,base pontina e olivas/IVventrículo sustentam o reconhecimento do nível. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "2f7dffad3cdf444b07dad638e1ab84f5.png": {
+    "qualidade": "boa",
+    "intencao": "Três cortes sem rótulos na frente e correspondentes identificados no verso; aqueduto,base pontina e olivas/IVventrículo sustentam o reconhecimento do nível. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "46d2eda4c1787ca17b5b1fb3f029661d.png": {
+    "qualidade": "boa",
+    "intencao": "Três cortes sem rótulos na frente e correspondentes identificados no verso; aqueduto,base pontina e olivas/IVventrículo sustentam o reconhecimento do nível. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "abb5292e3001154856ff302fd719582b.png": {
+    "qualidade": "boa",
+    "intencao": "Três cortes sem rótulos na frente e correspondentes identificados no verso; aqueduto,base pontina e olivas/IVventrículo sustentam o reconhecimento do nível. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "21442b297d46e09ed11cc5598c8a3f8a.png": {
+    "qualidade": "boa",
+    "intencao": "Três cortes sem rótulos na frente e correspondentes identificados no verso; aqueduto,base pontina e olivas/IVventrículo sustentam o reconhecimento do nível. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "105e157ff2a5508373ddee8c74487630.webp": {
+    "qualidade": "boa",
+    "intencao": "Três cortes sem rótulos na frente e correspondentes identificados no verso; aqueduto,base pontina e olivas/IVventrículo sustentam o reconhecimento do nível. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-aqueductus-cerebri-Q-e9504ace.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Aqueduto cerebral; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-aqueductus-cerebri-R-e9504ace.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Aqueduto cerebral; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-aqueductus-cerebri.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Aqueduto cerebral; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-fourth-ventricle-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Quarto ventrículo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-fourth-ventricle.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Quarto ventrículo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-fourth-ventricle-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Quarto ventrículo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-cervical-enlargement-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Intumescência cervical; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-cervical-enlargement.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Intumescência cervical; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-cervical-enlargement-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Intumescência cervical; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-lumbar-enlargement-Q8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Intumescência lombossacral; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-lumbar-enlargement.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Intumescência lombossacral; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-lumbar-enlargement-R8.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Intumescência lombossacral; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-medullary-pyramids-R-75bb94ff.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Pirâmide do bulbo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "u7-kh-medullary-pyramids-Q-75bb94ff.png": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Pirâmide do bulbo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "kh-medullary-pyramids.jpg": {
+    "qualidade": "boa",
+    "intencao": "Destaque verde e seta correspondem a Pirâmide do bulbo; nome em português no verso,marca do Kenhub preservada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-rm-apontada.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Lâmina22, RM sagital real; três setas sobre a mesma imagem. Figura real correspondente: rm-apontada. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-bold-exemplo.png": {
+    "qualidade": "boa",
+    "intencao": "Delta da auditoria relida: figura de injeção acompanha inferência de traçadores; BOLD original acompanha fMRI; lesão e cornos mantêm figuras anatômicas pertinentes aos pares agora recuperados. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-fmri-visual.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Lâmina24; apostila Aula1; Machado cap2–3. Figura real correspondente: fmri-visual. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  },
+  "nebli-u7an01-fmri-auditivo.png": {
+    "qualidade": "boa",
+    "intencao": "Pergunta e comentário foram confrontados com Lâmina24; apostila Aula1; Machado cap2–3. Figura real correspondente: fmri-auditivo. Inspeção da composição e prévia; máscaras são overlays, não imagens anatômicas isoladas."
+  }
+}

@@ -1,6 +1,6 @@
 {
   "run_id": "uc07-an01-20261105v2",
-  "selection_hash": "27bffdabc9a92ba9",
+  "selection_hash": "f62ccb415c09a501",
   "deck": "NEBLI::UC07::P1::Anatomia::01 Construção morfofuncional do sistema nervoso",
   "notes": [
     {
@@ -146,6 +146,100 @@
       }
     },
     {
+      "key": "telencefalo-adulto",
+      "nid": 1793966747209,
+      "cards": {
+        "1793966747209": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "diencefalo-adulto",
+      "nid": 1793966747210,
+      "cards": {
+        "1793966747210": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "cavidade-telencefalo",
+      "nid": 1793966747211,
+      "cards": {
+        "1793966747211": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "cavidade-diencefalo",
+      "nid": 1793966747212,
+      "cards": {
+        "1793966747212": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "cavidade-mesencefalo",
+      "nid": 1793966747213,
+      "cards": {
+        "1793966747213": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "cavidade-metencefalo",
+      "nid": 1793966747214,
+      "cards": {
+        "1793966747214": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "cavidade-mielencefalo",
+      "nid": 1793966747215,
+      "cards": {
+        "1793966747215": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "glia-radial",
+      "nid": 1793966747216,
+      "cards": {
+        "1793966747216": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "poda-sinaptica",
+      "nid": 1793966747217,
+      "cards": {
+        "1793966747217": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793966747218": {
+          "ord": 1,
+          "flag": 4
+        }
+      }
+    },
+    {
       "key": "dendritos",
       "nid": 1793889229417,
       "cards": {
@@ -172,6 +266,16 @@
         "1793889229427": {
           "ord": 0,
           "flag": 3
+        }
+      }
+    },
+    {
+      "key": "disparo-limiar",
+      "nid": 1793966747218,
+      "cards": {
+        "1793966747219": {
+          "ord": 0,
+          "flag": 4
         }
       }
     },
@@ -326,6 +430,26 @@
       }
     },
     {
+      "key": "ependima",
+      "nid": 1793966747219,
+      "cards": {
+        "1793966747220": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "satelites",
+      "nid": 1793966747220,
+      "cards": {
+        "1793966747221": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
       "key": "sinapse-quimica",
       "nid": 1793889229433,
       "cards": {
@@ -376,6 +500,20 @@
       }
     },
     {
+      "key": "resposta-pos-sinaptica",
+      "nid": 1793966747221,
+      "cards": {
+        "1793966747222": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793966747223": {
+          "ord": 1,
+          "flag": 4
+        }
+      }
+    },
+    {
       "key": "saltatoria",
       "nid": 1793889229436,
       "cards": {
@@ -396,6 +534,16 @@
         "1793889229456": {
           "ord": 0,
           "flag": 3
+        }
+      }
+    },
+    {
+      "key": "fibras-amielinicas",
+      "nid": 1793966747222,
+      "cards": {
+        "1793966747224": {
+          "ord": 0,
+          "flag": 4
         }
       }
     },
@@ -460,6 +608,16 @@
       }
     },
     {
+      "key": "velocidade-comparacao",
+      "nid": 1793966747223,
+      "cards": {
+        "1793966747225": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
       "key": "morfologias",
       "nid": 1793889229444,
       "cards": {
@@ -474,6 +632,16 @@
       "nid": 1793889229445,
       "cards": {
         "1793889229464": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "bipolar-local",
+      "nid": 1793966747224,
+      "cards": {
+        "1793966747226": {
           "ord": 0,
           "flag": 4
         }
@@ -510,6 +678,16 @@
       }
     },
     {
+      "key": "sna-definicao",
+      "nid": 1793966747225,
+      "cards": {
+        "1793966747227": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
       "key": "ramos-mistos",
       "nid": 1793889229449,
       "cards": {
@@ -520,10 +698,80 @@
       }
     },
     {
+      "key": "kh-1792328891560",
+      "nid": 1793966747226,
+      "cards": {
+        "1793966747228": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "kh-1792328894044",
+      "nid": 1793966747227,
+      "cards": {
+        "1793966747229": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "raiz-posterior-visual",
+      "nid": 1793966747228,
+      "cards": {
+        "1793966747230": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
       "key": "cerebelo-visual",
       "nid": 1793889229450,
       "cards": {
         "1793889229469": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "kh-1792261723219",
+      "nid": 1793966747229,
+      "cards": {
+        "1793966747231": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "kh-1792261725721",
+      "nid": 1793966747230,
+      "cards": {
+        "1793966747232": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "kh-1792261727072",
+      "nid": 1793966747231,
+      "cards": {
+        "1793966747233": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "hipotalamo-visual",
+      "nid": 1793966747232,
+      "cards": {
+        "1793966747234": {
           "ord": 0,
           "flag": 4
         }
@@ -568,12 +816,52 @@
       }
     },
     {
+      "key": "kh-1792329743638",
+      "nid": 1793966747233,
+      "cards": {
+        "1793966747235": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
       "key": "nucleo-ganglio",
       "nid": 1793889229454,
       "cards": {
         "1793889229475": {
           "ord": 0,
           "flag": 3
+        }
+      }
+    },
+    {
+      "key": "lamina-alar",
+      "nid": 1793966747234,
+      "cards": {
+        "1793966747236": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "lamina-basal",
+      "nid": 1793966747235,
+      "cards": {
+        "1793966747237": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "nucleos-cranianos-funcao",
+      "nid": 1793966747236,
+      "cards": {
+        "1793966747238": {
+          "ord": 0,
+          "flag": 4
         }
       }
     },
@@ -640,10 +928,44 @@
       }
     },
     {
+      "key": "somatotopia-definicao",
+      "nid": 1793966747237,
+      "cards": {
+        "1793966747239": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "walleriana",
+      "nid": 1793966747238,
+      "cards": {
+        "1793966747240": {
+          "ord": 0,
+          "flag": 4
+        },
+        "1793966747241": {
+          "ord": 1,
+          "flag": 4
+        }
+      }
+    },
+    {
       "key": "broca-fala",
       "nid": 1793889229460,
       "cards": {
         "1793889229484": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "broca-localizacao",
+      "nid": 1793966747239,
+      "cards": {
+        "1793966747242": {
           "ord": 0,
           "flag": 4
         }
@@ -680,6 +1002,16 @@
       }
     },
     {
+      "key": "rm-estruturas",
+      "nid": 1793966747240,
+      "cards": {
+        "1793966747243": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
       "key": "redes",
       "nid": 1793889229464,
       "cards": {
@@ -702,101 +1034,88 @@
           "flag": 4
         }
       }
+    },
+    {
+      "key": "rm-foco-visual",
+      "nid": 1793966747241,
+      "cards": {
+        "1793966747244": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
+    },
+    {
+      "key": "rm-foco-auditivo",
+      "nid": 1793966747242,
+      "cards": {
+        "1793966747245": {
+          "ord": 0,
+          "flag": 4
+        }
+      }
     }
   ],
-  "cards_new_lesson": 85,
-  "expected": 85,
-  "green": 24,
-  "blue": 53,
-  "pink": 8,
+  "expected": 180,
+  "cards_new_lesson": 122,
   "compartilhados_tag": [
-    1792244863368,
-    1792244863743,
-    1792244864867,
-    1792265021996,
-    1792329455442,
-    1792329455695,
-    1792329455992,
-    1792329760618,
-    1792329761664,
-    1792329941889,
-    1792329944339,
-    1792572870656,
-    1792572870659,
-    1792572870664,
-    1792572870665,
-    1792572870666,
-    1792572870667,
-    1792572870668,
-    1792572870672,
-    1792588686960,
-    1792588686961,
-    1792588686964,
-    1792588686967,
-    1792588686968,
-    1792588686971,
-    1792697128629
+    "1792572870667",
+    "1792572870668",
+    "1792572870666",
+    "1792588686960",
+    "1792588686968",
+    "1792588686971",
+    "1792329944339",
+    "1792588686967",
+    "1792329941889",
+    "1792588686961",
+    "1792572870657",
+    "1792572870658",
+    "1792572870663",
+    "1792572870632",
+    "1792696993352",
+    "1792588686964",
+    "1792265021996",
+    "1792697128629",
+    "1792572870664",
+    "1792572870665",
+    "1792697134127",
+    "1792697128829",
+    "1792697129084",
+    "1792697129283",
+    "1792572870669",
+    "1792572870659",
+    "1792572870656",
+    "1792572870672",
+    "1792572870660",
+    "1792572870662",
+    "1792572870708",
+    "1792572870701",
+    "1792572870704",
+    "1792572870678",
+    "1792572870651",
+    "1792572870676",
+    "1792572870677",
+    "1792697130129",
+    "1792697129929",
+    "1792329761318",
+    "1792244864867",
+    "1792244863743",
+    "1792244863368",
+    "1792696997556",
+    "1792572870691",
+    "1792329455442",
+    "1792329455695",
+    "1792329761664",
+    "1792572870673",
+    "1792697128127",
+    "1792329455992",
+    "1792329760618",
+    "1792696994258",
+    "1792244862578"
   ],
-  "cards_tag_aula": 118,
+  "cards_tag_aula": 185,
   "problems": [],
   "historico_preservado": true,
-  "at": "2026-11-05T14:43:53.926653+00:00",
-  "novos_reposicionados": [
-    {
-      "cid": 1792329455442,
-      "antes": 2650013,
-      "depois": 1,
-      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
-    },
-    {
-      "cid": 1792329455992,
-      "antes": 2650014,
-      "depois": 2,
-      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
-    },
-    {
-      "cid": 1792329944340,
-      "antes": 2690079,
-      "depois": 3,
-      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
-    },
-    {
-      "cid": 1792697128629,
-      "antes": 51077,
-      "depois": 5,
-      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
-    },
-    {
-      "cid": 1792697128630,
-      "antes": 51077,
-      "depois": 5,
-      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
-    },
-    {
-      "cid": 1792697128631,
-      "antes": 51077,
-      "depois": 5,
-      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
-    },
-    {
-      "cid": 1792754661839,
-      "antes": 51415,
-      "depois": 4,
-      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
-    },
-    {
-      "cid": 1792754661840,
-      "antes": 51415,
-      "depois": 4,
-      "motivo": "Posição de novo após reorganização nativa; sem histórico de estudo."
-    }
-  ],
-  "irmaos_antigos_retirados_do_estudo": [
-    1792754661839,
-    1792754661840,
-    1792697128629,
-    1792697128630,
-    1792697128631
-  ],
-  "motivo_retirada": "Cinco cartões nunca estudados,sem cloze correspondente após os conjuntos passarem ao mesmo índice. IDs e nota mantidos na reserva,sem apagar."
+  "at": "2026-11-06T12:05:57.212538+00:00"
 }

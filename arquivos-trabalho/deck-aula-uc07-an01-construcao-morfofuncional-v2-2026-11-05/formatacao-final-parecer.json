@@ -1,0 +1,74 @@
+{
+  "revisor": {
+    "papel": "independente",
+    "execucao": "/root/revisao_autorais_uc07; 2026-11-06T12:10:10.036403+00:00; 24 capturas novas de cardsInfo.question/answer + modelStyling e collection.media; Chromium PC1280/cel390; inspeção visual de todas as faces; sem captura física AnkiUI"
+  },
+  "cards": {
+    "somatico-visceral": {
+      "nid": 1793889229448,
+      "sha256": "cd405a766fcd881059a6458aaa7cb44e2541ec995724dd4cbb8fed63d31deb19",
+      "cards": [
+        1793889229467
+      ],
+      "veredito": "aprovado",
+      "analise": "PC 1280 e celular 390, frente e verso: os domínios estão destacados e os dois alvos ocultos na frente. Extra inglês de 28 px legível; diagrama real completo, incluindo entradas e saídas, sem corte. Verso compacto e sem transbordamento lateral.",
+      "imagem_vista": true
+    },
+    "nucleos-cranianos-funcao": {
+      "nid": 1793966747236,
+      "sha256": "978d2a9f36975cc21d30d2cf3cd0dde1cb7316ff2585e270ef697e8ddceb791c",
+      "cards": [
+        1793966747238
+      ],
+      "veredito": "aprovado",
+      "analise": "PC 1280 e celular 390, frente e verso: aferências e eferências destacadas; sensitivos/motores ocultos na frente e azuis no verso. Explicação inglesa precede a figura focal; vermelho e azul identificáveis no celular. Figura completa e sem catálogo reduzido ilegível.",
+      "imagem_vista": true
+    },
+    "somatotopia-definicao": {
+      "nid": 1793966747237,
+      "sha256": "95a1cd216b6f76a45ed96875392bcf230fa9cebdaffd3214206c521e7c5ba4de",
+      "cards": [
+        1793966747239
+      ],
+      "veredito": "aprovado",
+      "analise": "PC 1280 e celular 390, frente e verso: definição em negrito e termo oculto sem exposição antecipada. Comentário inglês legível; mapa vertical mantém grupos mediais e laterais visíveis. Verso móvel requer rolagem vertical, com figura completa e sem corte lateral.",
+      "imagem_vista": true
+    },
+    "imagem-estrutural": {
+      "nid": 1793889229463,
+      "sha256": "c6b30370573c9d6cc533964a188b686ba88a9d0d81019995b500ef0f677be665",
+      "cards": [
+        1793889229487
+      ],
+      "veredito": "aprovado",
+      "analise": "PC 1280 e celular 390, frente e verso: plano anatômico destacado e Sagital oculto na frente. Figura instalada com largura máxima de 820 px no PC; os dois perfis permitem reconhecer o plano. Rótulos menores no celular não são alvos. Extra inglês legível e verso compacto.",
+      "imagem_vista": true
+    },
+    "rm-estruturas": {
+      "nid": 1793966747240,
+      "sha256": "d7c6ea0ea335ebd88fe66b2e662bb4289355e9fc726d049206b2f20afb2bd2b5",
+      "cards": [
+        1793966747243
+      ],
+      "veredito": "aprovado",
+      "analise": "PC 1280 e celular 390, frente e verso: rótulos (A)/(B)/(C) claros e três alvos ocultos na frente. RM real conserva setas distinguíveis para corpo caloso, ponte e cerebelo; nenhum nome é exposto pela figura. Comentário inglês integral e legível no verso.",
+      "imagem_vista": true
+    },
+    "redes": {
+      "nid": 1793889229464,
+      "sha256": "79326725c09ea0a20b391e164d7396c16e1e5d389883f9b4055fe5a3d4d4f909",
+      "cards": [
+        1793889229488
+      ],
+      "veredito": "aprovado",
+      "analise": "PC 1280 e celular 390, frente e verso: ações em negrito e quatro alvos ocultos; respostas azuis distinguíveis. Extra inglês legível e painéis encefálicos empilhados com os rótulos relevantes visíveis. Verso móvel usa rolagem vertical sem perda dos painéis.",
+      "imagem_vista": true
+    }
+  },
+  "evidencias": {
+    "diretorio": "render-formatacao-final-auditoria",
+    "fonte": "render-formatacao-final-auditoria/fonte.json",
+    "capturas": 24,
+    "campos_vivos_conferidos_por_hash": true
+  }
+}

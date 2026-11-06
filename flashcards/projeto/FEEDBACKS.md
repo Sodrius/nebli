@@ -1245,3 +1245,10 @@ Davi,literal:
 > depois que terminar o que tinha pedido antes, averigua isso e deixa tudo pornt para quando eu voltar só reiniciar o anki e estar top
 
 Aplicação autorizada: fechar primeiro a rodada diária; depois reabrir a auditoria material da Anatomia01 contra a aula inteira, bibliografia, veteranos e fontes pertinentes, verificando Kenhub primeiro e estruturas omitidas sem adiamento automático. Gates mecânicos aprovados não encerram a crítica de cobertura. Preservar estudo e aplicar os complementos/correções; não aguardar nova aprovação nem iniciar a aula seguinte antes de resolver esta.
+
+
+## F-20261105-CODEX-07 — básico agora; IO aprofundado na aula própria
+
+Davi: “lembre-se que o básico entra agora, io mt aprofundado entra no deck próprio de cada aula, mas no fim temos que garantir que cobrimos tudo com qualidade”
+
+Aplicação: a auditoria da primeira aula recupera divisões, estruturas maiores e relações introdutórias. Não converter todo rótulo de atlas em IO agora. IOs de núcleos individuais, feixes e marcos regionais detalhados recebem destino explícito na aula correspondente; o mapa global da UC07 distingue previsto de entregue. A postergação não dispensa cobertura integral ao final do curso.

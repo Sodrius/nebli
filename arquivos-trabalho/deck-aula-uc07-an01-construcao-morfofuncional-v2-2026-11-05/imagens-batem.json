@@ -1,0 +1,594 @@
+{
+  "transducao": {
+    "veredito": "ok",
+    "porque": "Transdução transforma a modalidade do estímulo em sinal neural; não foi confundida com a condução posterior do axônio. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "circuito-funcional": {
+    "veredito": "ok",
+    "porque": "Entrada aferente e saída eferente são recuperadas em conjunto; interneurônio tem lugar na integração e Extra delimita reflexo polissináptico. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "interneuronios": {
+    "veredito": "ok",
+    "porque": "Entrada aferente e saída eferente são recuperadas em conjunto; interneurônio tem lugar na integração e Extra delimita reflexo polissináptico. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792572870667": {
+    "veredito": "ok",
+    "porque": "Entrada aferente e saída eferente são recuperadas em conjunto; interneurônio tem lugar na integração e Extra delimita reflexo polissináptico. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792572870668": {
+    "veredito": "ok",
+    "porque": "Entrada aferente e saída eferente são recuperadas em conjunto; interneurônio tem lugar na integração e Extra delimita reflexo polissináptico. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "inducao-neural": {
+    "veredito": "ok",
+    "porque": "Placa,pregas,tubo e crista seguem a sequência da figura; a origem central/periférica preserva a exceção mesodérmica microglial no Extra. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "fechamento-tubo": {
+    "veredito": "ok",
+    "porque": "Placa,pregas,tubo e crista seguem a sequência da figura; a origem central/periférica preserva a exceção mesodérmica microglial no Extra. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "origem-central-periferica": {
+    "veredito": "ok",
+    "porque": "Placa,pregas,tubo e crista seguem a sequência da figura; a origem central/periférica preserva a exceção mesodérmica microglial no Extra. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "prosencefalo": {
+    "veredito": "ok",
+    "porque": "Três primárias e cinco secundárias são recuperadas pelos irmãos originais AnKing; os15 cards do bloco embrionário testam origens e derivados,sem anomalias regionais. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "mesencefalo-origem": {
+    "veredito": "ok",
+    "porque": "Três primárias e cinco secundárias são recuperadas pelos irmãos originais AnKing; os15 cards do bloco embrionário testam origens e derivados,sem anomalias regionais. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "rombencefalo": {
+    "veredito": "ok",
+    "porque": "Três primárias e cinco secundárias são recuperadas pelos irmãos originais AnKing; os15 cards do bloco embrionário testam origens e derivados,sem anomalias regionais. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "metencefalo-adulto": {
+    "veredito": "ok",
+    "porque": "Ponte/cerebelo no mesmo cloze contrastam com bulbo derivado do mielencéfalo; a figura conserva os destinos adultos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "mielencefalo-adulto": {
+    "veredito": "ok",
+    "porque": "Ponte/cerebelo no mesmo cloze contrastam com bulbo derivado do mielencéfalo; a figura conserva os destinos adultos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "dendritos": {
+    "veredito": "ok",
+    "porque": "Dendritos recuperam recepção e axônio a condução de saída; não é só rótulo solto nem afirmação de direção em todas as situações especiais. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "axonio": {
+    "veredito": "ok",
+    "porque": "Dendritos recuperam recepção e axônio a condução de saída; não é só rótulo solto nem afirmação de direção em todas as situações especiais. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "soma": {
+    "veredito": "ok",
+    "porque": "O centro metabólico e síntese proteica dão significado ao corpo celular; diferente de perguntar onde o soma fica no neurônio pseudounipolar. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "cicatriz-glial": {
+    "veredito": "ok",
+    "porque": "Potássio,recaptação,cicatriz e prolongamentos podais cobrem suporte e capilares. Extra distingue suporte astroglial do selo físico endotelial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "potassio-glia": {
+    "veredito": "ok",
+    "porque": "Potássio,recaptação,cicatriz e prolongamentos podais cobrem suporte e capilares. Extra distingue suporte astroglial do selo físico endotelial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "recaptacao-glia": {
+    "veredito": "ok",
+    "porque": "Potássio,recaptação,cicatriz e prolongamentos podais cobrem suporte e capilares. Extra distingue suporte astroglial do selo físico endotelial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "oligodendrocito": {
+    "veredito": "ok",
+    "porque": "Oligodendrócito central e Schwann periférico são ligados ao número de internódulos/axônios; segmentação periférica não foi confundida com envolver axônios amielínicos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "oligodendrocito-varios": {
+    "veredito": "ok",
+    "porque": "Oligodendrócito central e Schwann periférico são ligados ao número de internódulos/axônios; segmentação periférica não foi confundida com envolver axônios amielínicos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "schwann": {
+    "veredito": "ok",
+    "porque": "Oligodendrócito central e Schwann periférico são ligados ao número de internódulos/axônios; segmentação periférica não foi confundida com envolver axônios amielínicos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "schwann-segmento": {
+    "veredito": "ok",
+    "porque": "Oligodendrócito central e Schwann periférico são ligados ao número de internódulos/axônios; segmentação periférica não foi confundida com envolver axônios amielínicos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "microglia": {
+    "veredito": "ok",
+    "porque": "Fagocitose e defesa identificam micróglia,com ontogenia de precursores do saco vitelino corrigida pelo estudo primário; glia geral dá o conjunto. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "guillain-barre": {
+    "veredito": "ok",
+    "porque": "EM e forma desmielinizante deGuillain–Barré ilustram central versus periférico; não entraram tratamento,prognóstico ou critérios diagnósticos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "esclerose-multipla": {
+    "veredito": "ok",
+    "porque": "EM e forma desmielinizante deGuillain–Barré ilustram central versus periférico; não entraram tratamento,prognóstico ou critérios diagnósticos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "astrocitos-capilares": {
+    "veredito": "ok",
+    "porque": "Potássio,recaptação,cicatriz e prolongamentos podais cobrem suporte e capilares. Extra distingue suporte astroglial do selo físico endotelial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "glia": {
+    "veredito": "ok",
+    "porque": "Fagocitose e defesa identificam micróglia,com ontogenia de precursores do saco vitelino corrigida pelo estudo primário; glia geral dá o conjunto. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "gfap": {
+    "veredito": "ok",
+    "porque": "Potássio,recaptação,cicatriz e prolongamentos podais cobrem suporte e capilares. Extra distingue suporte astroglial do selo físico endotelial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sinapse-quimica": {
+    "veredito": "ok",
+    "porque": "Mensageiro químico e corrente via junções comunicantes são contrastados; não se afirmou que a despolarização pós-sináptica sempre dispara outro potencial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sinapse-eletrica": {
+    "veredito": "ok",
+    "porque": "Mensageiro químico e corrente via junções comunicantes são contrastados; não se afirmou que a despolarização pós-sináptica sempre dispara outro potencial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "liberacao-sinaptica": {
+    "veredito": "ok",
+    "porque": "Potencial abre canais de cálcio no terminal pré-sináptico e promove exocitose; os quatro irmãos recuperam elementos distintos da mesma transição. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "saltatoria": {
+    "veredito": "ok",
+    "porque": "Nó,Ranvier,canais de sódio e regeneração do potencial nos intervalos explicam condução saltatória; mielina não é o local de geração do potencial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "canais-nodais": {
+    "veredito": "ok",
+    "porque": "Nó,Ranvier,canais de sódio e regeneração do potencial nos intervalos explicam condução saltatória; mielina não é o local de geração do potencial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792572870666": {
+    "veredito": "ok",
+    "porque": "Nó,Ranvier,canais de sódio e regeneração do potencial nos intervalos explicam condução saltatória; mielina não é o local de geração do potencial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "fibras-propriocepcao": {
+    "veredito": "ok",
+    "porque": "Propriocepção/tato e dor com frio/calor cobrem os quatro grupos; o rótuloIII/Aδ eIV/C conserva as duas nomenclaturas da tabela. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "fibras-tato": {
+    "veredito": "ok",
+    "porque": "Propriocepção/tato e dor com frio/calor cobrem os quatro grupos; o rótuloIII/Aδ eIV/C conserva as duas nomenclaturas da tabela. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "fibras-dor-frio": {
+    "veredito": "ok",
+    "porque": "Propriocepção/tato e dor com frio/calor cobrem os quatro grupos; o rótuloIII/Aδ eIV/C conserva as duas nomenclaturas da tabela. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "fibras-dor-calor": {
+    "veredito": "ok",
+    "porque": "Propriocepção/tato e dor com frio/calor cobrem os quatro grupos; o rótuloIII/Aδ eIV/C conserva as duas nomenclaturas da tabela. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "duas-dores": {
+    "veredito": "ok",
+    "porque": "O contraste Aδ/C explica a primeira dor rápida e a segunda lenta pela mielina e velocidade,sem importar vias ascendentes regionais. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "fibras-c": {
+    "veredito": "ok",
+    "porque": "FibrasC amielínicas e pequenas oferecem o contraste de velocidade com fibras maiores; Extra explicita resistência axial e ausência de condução saltatória. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "morfologias": {
+    "veredito": "ok",
+    "porque": "As três classes usam o mesmo eixo de disposição dos prolongamentos; umc1 recupera o grupo e a figura agora não contém a sobreposição do slide. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "pseudounipolar-trajeto": {
+    "veredito": "ok",
+    "porque": "A posição lateral do corpo celular deixa a via periférico→central contínua; Extra evita chamar o ramo periférico de dendrito. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792588686960": {
+    "veredito": "ok",
+    "porque": "Encéfalo/medula definem o limite central e nervos/gânglios/terminações o periférico; os dois organizadores têm alvos complementares. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792588686968": {
+    "veredito": "ok",
+    "porque": "Cérebro,cerebelo e tronco são o conjunto; mesencéfalo,ponte e bulbo ordenam somente o tronco. Todos os itens do conjunto ficam escondidos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792588686971": {
+    "veredito": "ok",
+    "porque": "Cérebro,cerebelo e tronco são o conjunto; mesencéfalo,ponte e bulbo ordenam somente o tronco. Todos os itens do conjunto ficam escondidos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792329944339": {
+    "veredito": "ok",
+    "porque": "Domínio corporal ou visceral é um eixo distinto da direção aferente/eferente; entrada visceral não foi chamada de saída autônoma. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792588686967": {
+    "veredito": "ok",
+    "porque": "Via eferente visceral tem relé ganglionar e efetor; simpático/parassimpático são divisões e entérico foi delimitado como circuito local. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792329941889": {
+    "veredito": "ok",
+    "porque": "12pares cranianos e31espinais pertencem a grupos diferentes; divisão segmentar dos31 fica explicada no Extra,sem transformar este começo em uma aula regional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792588686961": {
+    "veredito": "ok",
+    "porque": "Via eferente visceral tem relé ganglionar e efetor; simpático/parassimpático são divisões e entérico foi delimitado como circuito local. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "pares-cranianos": {
+    "veredito": "ok",
+    "porque": "12pares cranianos e31espinais pertencem a grupos diferentes; divisão segmentar dos31 fica explicada no Extra,sem transformar este começo em uma aula regional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "snp-componentes": {
+    "veredito": "ok",
+    "porque": "Encéfalo/medula definem o limite central e nervos/gânglios/terminações o periférico; os dois organizadores têm alvos complementares. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "somatico-visceral": {
+    "veredito": "ok",
+    "porque": "Domínio corporal ou visceral é um eixo distinto da direção aferente/eferente; entrada visceral não foi chamada de saída autônoma. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792588686964": {
+    "veredito": "ok",
+    "porque": "Anterior/eferente e posterior/aferente são contrastes com dois índices preservados. União mista e ramos são demonstrados na figura original completa. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792265021996": {
+    "veredito": "ok",
+    "porque": "Corpos sensitivos primários ficam fora da medula,no gânglio dorsal; a oclusão testa identificar a estrutura enquanto a pergunta textual cobra seu conteúdo. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "ramos-mistos": {
+    "veredito": "ok",
+    "porque": "Ramos posteriores e anteriores já são mistos. O organizador agrupa destinos e corrige o antigoTórax→nenhum para intercostais típicos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792697128629": {
+    "veredito": "ok",
+    "porque": "Ramos posteriores e anteriores já são mistos. O organizador agrupa destinos e corrige o antigoTórax→nenhum para intercostais típicos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792572870664": {
+    "veredito": "ok",
+    "porque": "Anterior/eferente e posterior/aferente são contrastes com dois índices preservados. União mista e ramos são demonstrados na figura original completa. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792572870665": {
+    "veredito": "ok",
+    "porque": "Corpos sensitivos primários ficam fora da medula,no gânglio dorsal; a oclusão testa identificar a estrutura enquanto a pergunta textual cobra seu conteúdo. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792572870659": {
+    "veredito": "ok",
+    "porque": "As oclusões localizam encéfalo,cérebro,medula e cerebelo em vistas reais; o tronco é organizado em pergunta de conjunto e figura sagital própria. Não são as perguntas de origem embrionária nem de coordenação funcional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792572870656": {
+    "veredito": "ok",
+    "porque": "As oclusões localizam encéfalo,cérebro,medula e cerebelo em vistas reais; o tronco é organizado em pergunta de conjunto e figura sagital própria. Não são as perguntas de origem embrionária nem de coordenação funcional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792572870672": {
+    "veredito": "ok",
+    "porque": "As oclusões localizam encéfalo,cérebro,medula e cerebelo em vistas reais; o tronco é organizado em pergunta de conjunto e figura sagital própria. Não são as perguntas de origem embrionária nem de coordenação funcional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "cerebelo-visual": {
+    "veredito": "ok",
+    "porque": "As oclusões localizam encéfalo,cérebro,medula e cerebelo em vistas reais; o tronco é organizado em pergunta de conjunto e figura sagital própria. Não são as perguntas de origem embrionária nem de coordenação funcional. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "branca-composicao": {
+    "veredito": "ok",
+    "porque": "Somas/dendritos e axônios mielinizados distinguem cinzenta/branca; Extra registra que nenhuma das duas é tecido puro e há núcleos profundos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "cinzenta-composicao": {
+    "veredito": "ok",
+    "porque": "Somas/dendritos e axônios mielinizados distinguem cinzenta/branca; Extra registra que nenhuma das duas é tecido puro e há núcleos profundos. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "cortex-nucleos": {
+    "veredito": "ok",
+    "porque": "A figura encefálica mostra córtex e núcleos profundos; a pergunta combate explicitamente a inferência de que toda cinzenta fica na superfície. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "nucleo-ganglio": {
+    "veredito": "ok",
+    "porque": "O eixo é local central/periférico do agregado de somas; foram reunidas figuras com núcleos reais e gânglio para não ilustrar apenas a medula. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792244864867": {
+    "veredito": "ok",
+    "porque": "Três cortes sem rótulos na frente e correspondentes identificados no verso; aqueduto,base pontina e olivas/IVventrículo sustentam o reconhecimento do nível. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792244863743": {
+    "veredito": "ok",
+    "porque": "Três cortes sem rótulos na frente e correspondentes identificados no verso; aqueduto,base pontina e olivas/IVventrículo sustentam o reconhecimento do nível. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792244863368": {
+    "veredito": "ok",
+    "porque": "Três cortes sem rótulos na frente e correspondentes identificados no verso; aqueduto,base pontina e olivas/IVventrículo sustentam o reconhecimento do nível. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792329455442": {
+    "veredito": "ok",
+    "porque": "Cinzenta central e branca periférica são recuperadas em perguntas próprias já estudadas; figura medular confirma a inversão em relação ao córtex superficial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792329455695": {
+    "veredito": "ok",
+    "porque": "Cinzenta central e branca periférica são recuperadas em perguntas próprias já estudadas; figura medular confirma a inversão em relação ao córtex superficial. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792329761664": {
+    "veredito": "ok",
+    "porque": "A direção rostral agora é o alvo recuperado; o Extra liga o aumento de branca ao acúmulo das vias,melhorando a antiga pergunta restrita ao nível sacral. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "intumescencia-cervical": {
+    "veredito": "ok",
+    "porque": "Superior/cervical e inferior/lombossacral são recuperados em dois cards de acervo; Extra liga a maior população de neurônios à inervação dos membros,sem copiar o Extra errado do avulsoAnatoKing. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "intumescencia-lombossacral": {
+    "veredito": "ok",
+    "porque": "Superior/cervical e inferior/lombossacral são recuperados em dois cards de acervo; Extra liga a maior população de neurônios à inervação dos membros,sem copiar o Extra errado do avulsoAnatoKing. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792329455992": {
+    "veredito": "ok",
+    "porque": "Delta da auditoria relida: figura de injeção acompanha inferência de traçadores; BOLD original acompanha fMRI; lesão e cornos mantêm figuras anatômicas pertinentes aos pares agora recuperados."
+  },
+  "distais-laterais": {
+    "veredito": "ok",
+    "porque": "Lateral/distal contrasta com medial/axial; não se troca eixo mediolateral por eixo sensitivo-motor da raiz. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "extensores-ventrais": {
+    "veredito": "ok",
+    "porque": "Dorsal/flexor e ventral/extensor valem DENTRO do corno anterior. Qualificador na frente e Extras impedem confusão com o corno posterior sensitivo. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "flexores-dorsais": {
+    "veredito": "ok",
+    "porque": "Dorsal/flexor e ventral/extensor valem DENTRO do corno anterior. Qualificador na frente e Extras impedem confusão com o corno posterior sensitivo. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "sh-1792329760618": {
+    "veredito": "ok",
+    "porque": "Delta da auditoria relida: figura de injeção acompanha inferência de traçadores; BOLD original acompanha fMRI; lesão e cornos mantêm figuras anatômicas pertinentes aos pares agora recuperados."
+  },
+  "broca-fala": {
+    "veredito": "ok",
+    "porque": "Não fluência recupera a associação clínica básica do exemplo histórico; Extra situa o frontal dominante e lembra participação da rede. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "transporte-axonal": {
+    "veredito": "ok",
+    "porque": "Microtúbulos dão a base e anterógrado/retrógrado recuperam direção; Extra explica como os sentidos revelam destinos ou origens de conexões. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "tracadores": {
+    "veredito": "ok",
+    "porque": "Delta da auditoria relida: figura de injeção acompanha inferência de traçadores; BOLD original acompanha fMRI; lesão e cornos mantêm figuras anatômicas pertinentes aos pares agora recuperados."
+  },
+  "imagem-estrutural": {
+    "veredito": "ok",
+    "porque": "Os dois painéis vistos no slide22 são sagitais e mostram estruturas da linha média; a pergunta usa a mesma figura antes da resposta,sem rótuloSagital exposto. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "redes": {
+    "veredito": "ok",
+    "porque": "Visual,pré-motor,motor e cerebelo recuperam contribuições no mesmo ato. Planejamento não foi atribuído exclusivamente a uma região nem cerebelo a força motora direta. Figura confrontada com esta frente na prévia; procedência e recorte em figuras-julgadas.json."
+  },
+  "ressonancia-funcional": {
+    "veredito": "ok",
+    "porque": "Delta da auditoria relida: figura de injeção acompanha inferência de traçadores; BOLD original acompanha fMRI; lesão e cornos mantêm figuras anatômicas pertinentes aos pares agora recuperados."
+  },
+  "telencefalo-adulto": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 3. Figura real correspondente: vesiculas."
+  },
+  "diencefalo-adulto": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 3. Figura real correspondente: vesiculas."
+  },
+  "cavidade-telencefalo": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 3. Figura real correspondente: cavidade-lateral."
+  },
+  "cavidade-diencefalo": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 3. Figura real correspondente: cavidade-terceiro."
+  },
+  "cavidade-mesencefalo": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 3. Figura real correspondente: cavidade-aqueduto."
+  },
+  "cavidade-metencefalo": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 3. Figura real correspondente: cavidade-quarto."
+  },
+  "cavidade-mielencefalo": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 3. Figura real correspondente: cavidade-quarto."
+  },
+  "glia-radial": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 3. Figura real correspondente: glia-radial."
+  },
+  "poda-sinaptica": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina 3; Machado cap2–3; apostila Aula1. Figura real correspondente: poda."
+  },
+  "disparo-limiar": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina 5; Machado cap2–3; apostila Aula1. Figura real correspondente: integracao."
+  },
+  "ependima": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 6. Figura real correspondente: ependima."
+  },
+  "satelites": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 6. Figura real correspondente: satelites."
+  },
+  "resposta-pos-sinaptica": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina 7; Machado cap2–3; apostila Aula1. Figura real correspondente: integracao."
+  },
+  "fibras-amielinicas": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina 8; Machado cap2–3; apostila Aula1. Figura real correspondente: schwann-amielinica."
+  },
+  "velocidade-comparacao": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina 9; Machado cap2–3; apostila Aula1. Figura real correspondente: fibras."
+  },
+  "bipolar-local": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina 10; Machado cap2–3; apostila Aula1. Figura real correspondente: retina."
+  },
+  "sh-1792572870657": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Diencéfalo; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792572870658": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Tronco encefálico; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792572870663": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Mesencéfalo; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792572870632": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Ponte; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792696993352": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Bulbo; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sna-definicao": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina11; apostila Aula1; Machado cap2–3. Figura real correspondente: funcional."
+  },
+  "sh-1792697134127": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Raiz anterior do nervo espinal; nome em português no verso,marca do Kenhub preservada."
+  },
+  "kh-1792328891560": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Ramo anterior do nervo espinal; nome em português no verso,marca do Kenhub preservada."
+  },
+  "kh-1792328894044": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Ramo posterior; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792697128829": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Plexo cervical; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792697129084": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Plexo braquial; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792697129283": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Plexo lombar; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792572870669": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Plexo sacral; nome em português no verso,marca do Kenhub preservada."
+  },
+  "raiz-posterior-visual": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina 12; apostila Aula1; fallback: nenhum IO Kenhub adequado deste alvo no corpus pesquisado.. Figura real correspondente: raizes."
+  },
+  "sh-1792572870660": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Lobo frontal; nome em português no verso,marca do Kenhub preservada."
+  },
+  "kh-1792261723219": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Lobo parietal; nome em português no verso,marca do Kenhub preservada."
+  },
+  "kh-1792261725721": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Lobo temporal; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792572870662": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Lobo insular; nome em português no verso,marca do Kenhub preservada."
+  },
+  "kh-1792261727072": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Lobo occipital; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792572870708": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Sulco central; nome em português no verso,marca do Kenhub preservada."
+  },
+  "hipotalamo-visual": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina 13; apostila Aula1; fallback: nenhum IO Kenhub adequado deste alvo no corpus pesquisado.. Figura real correspondente: encefalo."
+  },
+  "sh-1792572870701": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Corpo caloso; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792572870704": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Ventrículo lateral; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792572870678": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Cápsula interna; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792572870651": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Tálamo; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792572870676": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Substância branca; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792572870677": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Substância cinzenta; nome em português no verso,marca do Kenhub preservada."
+  },
+  "kh-1792329743638": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Canal central da medula espinal; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792697130129": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Corno posterior da medula espinal; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792697129929": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Corno anterior da medula espinal; nome em português no verso,marca do Kenhub preservada."
+  },
+  "lamina-alar": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 15. Figura real correspondente: neurulacao."
+  },
+  "lamina-basal": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 15. Figura real correspondente: neurulacao."
+  },
+  "sh-1792329761318": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 15. Figura real correspondente: nucleos."
+  },
+  "nucleos-cranianos-funcao": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina15, legenda de núcleos e fibras aferentes/eferentes; Machado cap2–3. Figura real correspondente: nucleos-funcao."
+  },
+  "sh-1792696997556": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Aqueduto cerebral; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792572870691": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Quarto ventrículo; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792572870673": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Intumescência cervical; nome em português no verso,marca do Kenhub preservada."
+  },
+  "sh-1792697128127": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Intumescência lombossacral; nome em português no verso,marca do Kenhub preservada."
+  },
+  "somatotopia-definicao": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina18, título e mapa; apostila PDF19. Figura real correspondente: somatotopia."
+  },
+  "sh-1792696994258": {
+    "veredito": "ok",
+    "porque": "Destaque verde e seta correspondem a Pirâmide do bulbo; nome em português no verso,marca do Kenhub preservada."
+  },
+  "walleriana": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 19. Figura real correspondente: lesao."
+  },
+  "sh-1792244862578": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Machado cap2–3; apostila Aula1; lâmina 19. Figura real correspondente: lesao."
+  },
+  "broca-localizacao": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina 20; Machado cap2–3; apostila Aula1. Figura real correspondente: broca."
+  },
+  "rm-estruturas": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina22, RM sagital real; três setas sobre a mesma imagem. Figura real correspondente: rm-apontada."
+  },
+  "rm-foco-visual": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina24; apostila Aula1; Machado cap2–3. Figura real correspondente: fmri-visual."
+  },
+  "rm-foco-auditivo": {
+    "veredito": "ok",
+    "porque": "Pergunta e comentário foram confrontados com Lâmina24; apostila Aula1; Machado cap2–3. Figura real correspondente: fmri-auditivo."
+  }
+}

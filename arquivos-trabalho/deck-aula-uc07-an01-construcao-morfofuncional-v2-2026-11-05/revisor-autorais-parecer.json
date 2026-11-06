@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "rubrica_sha256": "a0469ce8863d794f702c6ec5f9730bf039ced86a3c719af022cd2d65bdc1d367",
+  "pacote_sha256": "ab1b6827fe71a39c5e4a7a43bfa86c94517fa1aa685d9fd4d9e997239c1fb7c6",
+  "revisor": {
+    "identidade": "Codex — agente independente /root/revisao_autorais_uc07",
+    "execucao": "/root/revisao_autorais_uc07; reconferência final pacoteab1b6827fe71a39c;7casos, fontes/candidatos e decisões relidos; somatotopiaNoSNC e RM(A)/(B)/(C) julgados sem mudança de alvos; sem escritaAnki",
+    "concluido_em": "2026-11-06T12:03:25.160029+00:00"
+  },
+  "independente_do_autor": true,
+  "cards": [
+    {
+      "case_id": "A-ea68a7bf6b1fb9b0",
+      "input_sha256": "f2759cc37ffdfb17674160bf1315d4b8af3408fdc02f45b1dfed8993d805ff5a",
+      "veredito": "aprovado",
+      "alvo": "Recupera os domínios somático e visceral como par funcional completo; ambos nomes são curtos e úteis para organizar aferência/eferência, sem fragmento lexical.",
+      "ambiguidade_alternativa": "Autônomo seria alternativa tentadora para vísceras/meio interno, mas não cobre aferência visceral. A classificação funcional e o Extra distinguem o domínio da sua saída autônoma; somático/visceral é o par adequado.",
+      "ganho": "A frente associa cada nome ao domínio; o Extra acrescenta entrada sensorial e saída motora em ambos e distingue os efetores motores.",
+      "encaixe": "Encaixa no bloco do SNP e antecede estudo de suas estruturas. Candidatos fornecidos cobram efetores motores e número de neurônios, sem recuperar os dois domínios incluindo aferência. A nova vizinhança visual não anula esse ganho.",
+      "justificativa_formato": "Mesmo c1 preserva o par real. Negrito em corpo e meio externo e vísceras e meio interno destaca os critérios visíveis; título situa a classificação. Alvos limpos; nenhum sublinhado ou pista adicional necessário.",
+      "teste_reconstrucao": "Permite entender que corpo/vísceras é eixo distinto de entrada/saída e que autônomo é a saída visceral. Reflexos mistos não são recuperados por este card e não são prometidos.",
+      "avaliacao_parcial": {
+        "escrita": "aprovado",
+        "escopo": "aprovado",
+        "cientifica": "aprovado",
+        "visual": "aprovado"
+      },
+      "evidencias": [
+        {
+          "trecho": "Both domains include sensory input and motor output.",
+          "analise": "Apoio distingue domínio funcional de direção."
+        },
+        {
+          "trecho": "<b>vísceras e meio interno</b>",
+          "analise": "Contexto discriminante visível e destacado."
+        },
+        {
+          "trecho": "nebli-u7an01-funcional.png",
+          "analise": "Figura atual reaberta: dois domínios com aferência/eferência; letras principais são discerníveis em largura móvel. Aprovação de pertinência não substitui nova inspeção do template vivo."
+        }
+      ],
+      "problemas": []
+    },
+    {
+      "case_id": "A-a04e9cae6b136f58",
+      "input_sha256": "c7bd25f31725b39ed3f96043388ecd8b0f5a0d71906ded0c1b220b8aeee076be",
+      "veredito": "aprovado",
+      "alvo": "Recupera o mapa território→plexo cervical/braquial/lombossacral ou nervos intercostais típicos; são destinos completos, não complemento de expressão previsível.",
+      "ambiguidade_alternativa": "Lombar e sacral isoladamente são respostas parciais para todo o membro inferior; lombossacral agrupa a distribuição pretendida. Subcostal não invalida parede torácica típica, qualificador que evita generalização a T12.",
+      "ganho": "Extra explica redistribuição de fibras em plexos e preserva distinção de ramos posteriores. Não repete apenas a lista.",
+      "encaixe": "Vizinhos mostram nervo formado por raízes e ramos mistos. Candidatos apresentados cobram níveis C5–T1/T12–S4 e mistura sensorial/motora; não substituem a classificação por território. Há ganho integrador específico.",
+      "justificativa_formato": "Quatro destinos de uma mesma divisão formam conjunto real em c1. Territórios destacados facilitam percorrer linhas; iniciais são pistas permitidas de organizador, não siglas expostas. Sem negrito manual no alvo ou sublinhado ornamental.",
+      "teste_reconstrucao": "Reconstrói raízes→nervo misto→ramos anteriores→plexos/distribuição torácica. Níveis radiculares detalhados não são objetivo deste conjunto; candidatos têm esse outro ganho.",
+      "avaliacao_parcial": {
+        "escrita": "aprovado",
+        "escopo": "aprovado",
+        "cientifica": "aprovado",
+        "visual": "aprovado"
+      },
+      "evidencias": [
+        {
+          "trecho": "Plexuses redistribute fibers among named peripheral nerves; dorsal rami do not form these limb plexuses.",
+          "analise": "Extra fornece processo e limite anatômico."
+        },
+        {
+          "trecho": "Cervical plexus no pescoço. Brachial plexus no membro superior. Intercostal nerves na parede torácica.",
+          "analise": "Fonte literal corresponde às relações propostas."
+        },
+        {
+          "trecho": "nebli-u7an01-plexos.png",
+          "analise": "Figura real atual reaberta: mostra territórios e linhas de plexos/intercostais. Rótulos finos são pequenos em celular; os destinos principais permanecem discerníveis, e não se cobra identificação minuciosa de raízes."
+        }
+      ],
+      "problemas": []
+    },
+    {
+      "case_id": "A-efbbcd2099facc76",
+      "input_sha256": "aa816270ef721ca00f02b3074df7a8e10f72c1fd902ed7570c49ba741507247b",
+      "veredito": "aprovado",
+      "alvo": "Recupera núcleos sensitivos versus motores pela conexão periférica. São categorias completas, não palavras soltas sem eixo ou fragmentos de nomes.",
+      "ambiguidade_alternativa": "Núcleos motores também recebem aferências centrais, mas a frente agora restringe aferências dos nervos cranianos. Essa delimitação exclui a alternativa e permite recuperar sensitivos; eferências para efetores induzem motores.",
+      "ganho": "O Extra agora explica previamente em inglês a codificação cromática: núcleos motores vermelhos enviam axônios para efetores; sensitivos azuis recebem fibras cranianas. Distingue grupos centrais de somas e gânglios periféricos. Essa explicação torna o recorte visual interpretável sem depender de rótulos minúsculos.",
+      "encaixe": "Complementa motoneurônio inferior do vizinho e aplica direção/modo de conexão aos núcleos da lâmina15. Candidatos cobram localização de motoneurônios, saída medial ou trato corticobulbar; nenhum recupera esse par de conexões periféricas.",
+      "justificativa_formato": "Mesmo c1 conserva o contraste funcional. Aferências dos nervos cranianos e eferências para efetores estão em negrito fora de alvos limpos, induzindo o par sem confundir aferências centrais dos núcleos motores. O recorte real focal evita o catálogo completo de núcleos e a legenda em texto antes da figura preserva o elo cor/função.",
+      "teste_reconstrucao": "Frente e verso ligam periferia→núcleo sensitivo e núcleo motor→efetor, distinguindo núcleo/gânglio/nervo. O crop mostra grupos azuis/vermelhos e seus feixes; a explicação textual permite interpretá-los. Identificação de todos os núcleos permanece fora do objetivo e não é exigida pelo conjunto.",
+      "avaliacao_parcial": {
+        "escrita": "aprovado",
+        "escopo": "aprovado",
+        "cientifica": "aprovado",
+        "visual": "aprovado"
+      },
+      "evidencias": [
+        {
+          "trecho": "Recebem <b>aferências dos nervos cranianos</b>: {{c1::sensitivos}}",
+          "analise": "Delimita origem periférica e resolve a alternativa de aferências centrais."
+        },
+        {
+          "trecho": "Motor nuclei (red) send efferent axons toward effectors.",
+          "analise": "Legenda funcional em texto legível vem antes do recorte, sem depender de ampliação de rótulos."
+        },
+        {
+          "trecho": "Sensory nuclei (blue) receive afferent fibers from cranial nerves.",
+          "analise": "Completa o contraste cromático; mesma classe funcional cobrada nafrente."
+        },
+        {
+          "trecho": "nebli-u7an01-nucleos-funcao.png",
+          "analise": "Crop670×245 reaberto e captura render-previo-auditoria/nucleos-cranianos-funcao-cel-back.png efetivamente vista: figura360×132 aproximadamente, com grupos/feixes azuis e vermelhos discerníveis; três linhasEN acima dela legíveis. O objetivo é contraste geral, não reconhecimento dos núcleos individuais. Contexto.imagens_locais ainda referencia arquivo antigo, mas a mídia efetivamente usada emfieldsExtra é a nova e foi a avaliada."
+        }
+      ],
+      "problemas": []
+    },
+    {
+      "case_id": "A-0cdac40e1aaffb8f",
+      "input_sha256": "9ee30270cf4ce874d66586a8b91b144fb6162675d8ff45904b18b12fdd6018cd",
+      "veredito": "aprovado",
+      "alvo": "Recupera somatotopia, o nome completo do princípio de mapeamento corporal ordenado no SNC. É fato-chave situado com utilidade para compreender os exemplos.",
+      "ambiguidade_alternativa": "Organização topográfica e representação somática são paráfrases, não princípios rivais. Somatotopia é o termo técnico exato dado pela fonte para corpo→SNC; retinotopia/tonotopia não descrevem esse mapa corporal geral.",
+      "ganho": "O Extra liga o mapa à distribuição previsível de déficits e concretiza um exemplo medial axial/proximal versus lateral distal no corno ventral.",
+      "encaixe": "Vizinhos aplicam a topografia motora e a relação entre cruzamento/local de lesão. Candidatos cobram face lateral, membros inferiores mediais e fibras viscerais, sem recuperar o nome do princípio geral. Não substitui nem duplica cada localização.",
+      "justificativa_formato": "Definição curta com c1 focal recupera o nome do princípio. No SNC situa o domínio; mapeamento ordenado do corpo em negrito destaca a definição que induz o alvo. A ordem nova é natural e não acrescenta pista lexical. Nenhum negrito manual no cloze ou sublinhado necessário.",
+      "teste_reconstrucao": "Permite partir da distribuição corporal de função para entender por que uma lesão focal tem déficit topográfico. A figura do corno ventral dá um exemplo concreto. Localização de todos os mapas somáticos fica fora deste alvo.",
+      "avaliacao_parcial": {
+        "escrita": "aprovado",
+        "escopo": "aprovado",
+        "cientifica": "aprovado",
+        "visual": "aprovado"
+      },
+      "evidencias": [
+        {
+          "trecho": "No SNC, o <b>mapeamento ordenado do corpo</b> chama-se {{c1::somatotopia}}.",
+          "analise": "Definição situada induz termo completo; a troca de ordem e limite do negrito preserva a relação."
+        },
+        {
+          "trecho": "denomina-se princípio da somatotopia.",
+          "analise": "Trecho literal da fonte nomeia o princípio."
+        },
+        {
+          "trecho": "nebli-u7an01-somatotopia.png",
+          "analise": "Imagem real reaberta: mapa axial/distal e flexores/extensores no corno ventral, rótulos grandes em composição vertical. O apoio corresponde ao exemplo do Extra; render final ainda será separado."
+        }
+      ],
+      "problemas": []
+    },
+    {
+      "case_id": "A-e75d13d0b62c78ae",
+      "input_sha256": "3cad28bee7c4a243a5a3e6050a2eddd6673d698658e26d4d6a5fc433c9288d8f",
+      "veredito": "aprovado",
+      "alvo": "Recupera o plano sagital pela imagem de dois cortes, categoria espacial completa. Não cobra nome de estrutura nem fragmento de expressão.",
+      "ambiguidade_alternativa": "Coronal e transversal são incompatíveis com os dois perfis mediais contendo corpo caloso arqueado, tronco e cerebelo. Sagital mediano é resposta mais específica compatível, não segunda alternativa contraditória.",
+      "ganho": "Além de classificar o plano, o Extra ensina usar marcos correspondentes para relacionar desenho e RM. Isso acrescenta estratégia visual.",
+      "encaixe": "Novo vizinho identifica três estruturas na RM; este identifica orientação do corte. Ganhos distintos, sem repetição do mesmo alvo. Candidatos apresentados cobram estruturas ou irrigação e não o plano aplicado ao par visual.",
+      "justificativa_formato": "Pergunta focal e figura na frente exigem inspeção. Plano anatômico em negrito dá a categoria pedida; alvo limpo. A figura não expõe o rótulo Sagital. Não precisa de sublinhado adicional.",
+      "teste_reconstrucao": "Reconstrói orientação do corte→marcos compartilhados→correspondência atlas/RM. Não prova capacidade de reconhecer os outros planos ou cada estrutura; não há essa promessa.",
+      "avaliacao_parcial": {
+        "escrita": "aprovado",
+        "escopo": "aprovado",
+        "cientifica": "aprovado",
+        "visual": "aprovado"
+      },
+      "evidencias": [
+        {
+          "trecho": "Em qual <b>plano anatômico</b> estão os dois cortes da figura? {{c1::Sagital}}",
+          "analise": "Pergunta inequívoca e sem nome do plano exposto."
+        },
+        {
+          "trecho": "Matching the brainstem, cerebellum and midline cerebral structures across both panels links the anatomical drawing to the structural MR image.",
+          "analise": "Extra acrescenta operação visual concreta."
+        },
+        {
+          "trecho": "nebli-u7an01-imagem.png",
+          "analise": "Imagem atual reaberta: perfis e marcos maiores discerníveis no par; letras finas não são alvo. O pacote usa max-width820px, portanto não herda automaticamente a antiga medição950px nem aprovação de render vivo."
+        }
+      ],
+      "problemas": []
+    },
+    {
+      "case_id": "A-cef75321a973349b",
+      "input_sha256": "3fb223aa089319c56d55c9e1927acec1ff3c617840676366937653d0cc501e0b",
+      "veredito": "aprovado",
+      "alvo": "Recupera corpo caloso, ponte e cerebelo na mesma RM sagital por três setas. São nomes anatômicos completos e um conjunto pequeno aplicado a imagem real.",
+      "ambiguidade_alternativa": "A poderia sugerir fórnix se a ponta fosse mais inferior; na imagem aberta a seta termina no arco branco calloso. B termina na saliência pontina e não no bulbo; C aponta massa cerebelar dorsal, não o quarto ventrículo. Não há alternativa visual equivalente nessas pontas.",
+      "ganho": "Extra oferece marcos e relações espaciais: arco acima do diencéfalo, ponte ventral e cerebelo dorsal. Isso ensina transferência atlas/RM em vez de só repetir a lista.",
+      "encaixe": "O vizinho de plano cobra orientação; candidatos de caudado em RM axial, conexão callosa e partes do cerebelo não substituem os três marcos nesta RM real da aula. Ganho específico de aplicação visual, sem expandir IO regional.",
+      "justificativa_formato": "Mesmo c1 mantém os três marcos ocultos juntos. Título informa modalidade/plano; A/B/C destacados são referências funcionais às setas. Alvos limpos e iniciais permitidas do conjunto; não são uma expansão visível que entregue sigla. Figura aparece na frente.",
+      "teste_reconstrucao": "Permite reconhecer marcos maiores em imagem estrutural e ligar posição relativa ao atlas. Não avalia todos os núcleos ou todas as estruturas do encéfalo e não declara essa cobertura.",
+      "avaliacao_parcial": {
+        "escrita": "aprovado",
+        "escopo": "aprovado",
+        "cientifica": "aprovado",
+        "visual": "aprovado"
+      },
+      "evidencias": [
+        {
+          "trecho": "<b>(A)</b>: {{c1::Corpo caloso::C…}}",
+          "analise": "Parênteses tornam inequívoco que A é referência da seta; alvo anatômico completo continua dependente da imagem."
+        },
+        {
+          "trecho": "The pons bulges ventrally in the brainstem, while the cerebellum lies dorsally.",
+          "analise": "Extra ensina relação espacial útil à identificação."
+        },
+        {
+          "trecho": "nebli-u7an01-rm-apontada.png",
+          "analise": "Figura atual aberta novamente: A no arco calloso, B na ponte, C no cerebelo. Setas e letras grandes permitem interpretação em largura móvel; render do template vivo permanece etapa separada."
+        }
+      ],
+      "problemas": []
+    },
+    {
+      "case_id": "A-7b175f2a46176b93",
+      "input_sha256": "dde8c0cfb6690fe89478e57783e53c19acfef9cba9c94aadb73a0bcf013e2676",
+      "veredito": "aprovado",
+      "alvo": "Recupera quatro contribuições no ato de rebater uma bola: córtex visual, pré-motor, motor e cerebelo. Categorias inteiras dentro de contexto comum; não exige oração longa.",
+      "ambiguidade_alternativa": "Área motora suplementar também planeja movimentos, mas a pista p… delimita o contribuinte pré-motor e a fonte o inclui. O texto fala em contribuições, sem exclusividade. Pré-frontal decide objetivos, que não se confunde obrigatoriamente com o planejamento motor focalizado.",
+      "ganho": "A frente liga percepção→planejamento→comando→coordenação; o Extra explicita circuitos conectados e coexistência de especialização/distribuição.",
+      "encaixe": "Complementa RM estrutural e funcional. Candidatos apresentados sobre pré-frontal, sistema límbico e córtex auditivo não recuperam cooperação dessas regiões no mesmo ato. Não se exige transformar cada região em nova ficha isolada.",
+      "justificativa_formato": "Mesmo c1 preserva conjunto funcional real. As quatro ações estão em negrito e induzem nomes limpos; iniciais do organizador são permitidas. A figura foi efetivamente reaberta, com painéis encefálicos verticais, não se presumiu pertinência pela versão anterior.",
+      "teste_reconstrucao": "Permite reconstruir entradas visuais que sustentam planejamento, execução e coordenação. Não demonstra os detalhes de cada conexão ou todos os participantes; Extra evita a leitura de um centro único e a enumeração não pretende ser exaustiva.",
+      "avaliacao_parcial": {
+        "escrita": "aprovado",
+        "escopo": "aprovado",
+        "cientifica": "aprovado",
+        "visual": "aprovado"
+      },
+      "evidencias": [
+        {
+          "trecho": "<b>Planejar a ação</b>: córtex {{c1::pré-motor::p…}}",
+          "analise": "Ação situa contribuinte sem alegar exclusividade."
+        },
+        {
+          "trecho": "Local specialization and distributed processing coexist; no single region performs the whole behavior alone.",
+          "analise": "Extra apresenta o princípio integrador com ganho próprio."
+        },
+        {
+          "trecho": "nebli-u7an01-redes.png",
+          "analise": "Figura atual reaberta: dois painéis encefálicos empilhados; regiões recuperadas e rótulos principais são distinguíveis em largura móvel. Não foram declaradas vistas capturas pós-build ainda indisponíveis."
+        }
+      ],
+      "problemas": []
+    }
+  ]
+}

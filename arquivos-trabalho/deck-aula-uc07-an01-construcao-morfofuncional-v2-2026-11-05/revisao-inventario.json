@@ -1,0 +1,554 @@
+{
+ "feita_depois_de_instalar": true,
+ "itens": {
+  "u7an01v2-s01": {
+   "veredito": "ok",
+   "card_visto": "exclusão: capa, abertura ou encerramento, sem conteúdo"
+  },
+  "u7an01v2-s02-circuito": {
+   "veredito": "ok",
+   "card_visto": "circuito-funcional (1793889229407), interneuronios (1793889229408), sh-1792572870667 (1792572870667), sh-1792572870668 (1792572870668)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s02-receptor": {
+   "veredito": "ok",
+   "card_visto": "transducao (1793889229406)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s03-neurulacao": {
+   "veredito": "ok",
+   "card_visto": "inducao-neural (1793889229409), fechamento-tubo (1793889229410), origem-central-periferica (1793889229411)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s03-vesiculas": {
+   "veredito": "ok",
+   "card_visto": "prosencefalo (1793889229412), mesencefalo-origem (1793889229413), rombencefalo (1793889229414)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s03-metencefalo": {
+   "veredito": "ok",
+   "card_visto": "metencefalo-adulto (1793889229415), mielencefalo-adulto (1793889229416)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s03-audit-telencefalo-adulto": {
+   "veredito": "ok",
+   "card_visto": "telencefalo-adulto (1793966747209)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s03-audit-diencefalo-adulto": {
+   "veredito": "ok",
+   "card_visto": "diencefalo-adulto (1793966747210)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s03-audit-cavidade-telencefalo": {
+   "veredito": "ok",
+   "card_visto": "cavidade-telencefalo (1793966747211)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s03-audit-cavidade-diencefalo": {
+   "veredito": "ok",
+   "card_visto": "cavidade-diencefalo (1793966747212)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s03-audit-cavidade-mesencefalo": {
+   "veredito": "ok",
+   "card_visto": "cavidade-mesencefalo (1793966747213)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s03-audit-cavidade-metencefalo": {
+   "veredito": "ok",
+   "card_visto": "cavidade-metencefalo (1793966747214)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s03-audit-cavidade-mielencefalo": {
+   "veredito": "ok",
+   "card_visto": "cavidade-mielencefalo (1793966747215)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s03-audit-glia-radial": {
+   "veredito": "ok",
+   "card_visto": "glia-radial (1793966747216)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s03-audit-poda-sinaptica": {
+   "veredito": "ok",
+   "card_visto": "poda-sinaptica (1793966747217)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s04-neuronio": {
+   "veredito": "ok",
+   "card_visto": "dendritos (1793889229417), axonio (1793889229418)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s05-soma": {
+   "veredito": "ok",
+   "card_visto": "soma (1793889229419)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s05-audit-disparo-limiar": {
+   "veredito": "ok",
+   "card_visto": "disparo-limiar (1793966747218)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s06-astrocito": {
+   "veredito": "ok",
+   "card_visto": "cicatriz-glial (1793889229420), potassio-glia (1793889229421), recaptacao-glia (1793889229422), astrocitos-capilares (1793889229430), gfap (1793889229432)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s06-microglia": {
+   "veredito": "ok",
+   "card_visto": "microglia (1793889229427), glia (1793889229431)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s06-mielinizadores": {
+   "veredito": "ok",
+   "card_visto": "oligodendrocito (1793889229423), oligodendrocito-varios (1793889229424), schwann (1793889229425), schwann-segmento (1793889229426)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s06-mielina-clinica": {
+   "veredito": "ok",
+   "card_visto": "guillain-barre (1793889229428), esclerose-multipla (1793889229429), oligodendrocito (1793889229423), schwann (1793889229425)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s06-audit-ependima": {
+   "veredito": "ok",
+   "card_visto": "ependima (1793966747219)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s06-audit-satelites": {
+   "veredito": "ok",
+   "card_visto": "satelites (1793966747220)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s07-sinapses": {
+   "veredito": "ok",
+   "card_visto": "sinapse-quimica (1793889229433), sinapse-eletrica (1793889229434)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s07-liberacao": {
+   "veredito": "ok",
+   "card_visto": "liberacao-sinaptica (1793889229435)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s07-audit-resposta-pos-sinaptica": {
+   "veredito": "ok",
+   "card_visto": "resposta-pos-sinaptica (1793966747221)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s08-saltatoria": {
+   "veredito": "ok",
+   "card_visto": "saltatoria (1793889229436), canais-nodais (1793889229437), sh-1792572870666 (1792572870666)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s08-audit-fibras-amielinicas": {
+   "veredito": "ok",
+   "card_visto": "fibras-amielinicas (1793966747222)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s09-velocidade": {
+   "veredito": "ok",
+   "card_visto": "fibras-c (1793889229443)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s09-fibras-sensoriais": {
+   "veredito": "ok",
+   "card_visto": "fibras-propriocepcao (1793889229438), fibras-tato (1793889229439), fibras-dor-frio (1793889229440), fibras-dor-calor (1793889229441)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s09-primeira-dor": {
+   "veredito": "ok",
+   "card_visto": "duas-dores (1793889229442)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s09-audit-velocidade-comparacao": {
+   "veredito": "ok",
+   "card_visto": "velocidade-comparacao (1793966747223)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s10-morfologias": {
+   "veredito": "ok",
+   "card_visto": "morfologias (1793889229444)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s10-pseudounipolar": {
+   "veredito": "ok",
+   "card_visto": "pseudounipolar-trajeto (1793889229445)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s10-audit-bipolar-local": {
+   "veredito": "ok",
+   "card_visto": "bipolar-local (1793966747224)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s11-snc-snp": {
+   "veredito": "ok",
+   "card_visto": "snp-componentes (1793889229447), sh-1792588686960 (1792588686960)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s11-encefalo": {
+   "veredito": "ok",
+   "card_visto": "sh-1792588686968 (1792588686968), sh-1792588686971 (1792588686971)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s11-somatico-visceral": {
+   "veredito": "ok",
+   "card_visto": "somatico-visceral (1793889229448), sh-1792329944339 (1792329944339)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s11-autonomo": {
+   "veredito": "ok",
+   "card_visto": "sh-1792588686967 (1792588686967), sh-1792588686961 (1792588686961)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s11-pares-nervos": {
+   "veredito": "ok",
+   "card_visto": "pares-cranianos (1793889229446), sh-1792329941889 (1792329941889)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s11-audit-sh-1792572870657": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870657 (1792572870657)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s11-audit-sh-1792572870658": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870658 (1792572870658)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s11-audit-sh-1792572870663": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870663 (1792572870663)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s11-audit-sh-1792572870632": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870632 (1792572870632)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s11-audit-sh-1792696993352": {
+   "veredito": "ok",
+   "card_visto": "sh-1792696993352 (1792696993352)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s11-audit-sna-definicao": {
+   "veredito": "ok",
+   "card_visto": "sna-definicao (1793966747225)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s12-raizes": {
+   "veredito": "ok",
+   "card_visto": "sh-1792588686964 (1792588686964), sh-1792572870664 (1792572870664)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s12-ganglio": {
+   "veredito": "ok",
+   "card_visto": "sh-1792265021996 (1792265021996), sh-1792572870665 (1792572870665)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s12-ramos": {
+   "veredito": "ok",
+   "card_visto": "ramos-mistos (1793889229449), sh-1792697128629 (1792697128629)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s12-audit-sh-1792697134127": {
+   "veredito": "ok",
+   "card_visto": "sh-1792697134127 (1792697134127)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s12-audit-kh-1792328891560": {
+   "veredito": "ok",
+   "card_visto": "kh-1792328891560 (1793966747226)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s12-audit-kh-1792328894044": {
+   "veredito": "ok",
+   "card_visto": "kh-1792328894044 (1793966747227)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s12-audit-sh-1792697128829": {
+   "veredito": "ok",
+   "card_visto": "sh-1792697128829 (1792697128829)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s12-audit-sh-1792697129084": {
+   "veredito": "ok",
+   "card_visto": "sh-1792697129084 (1792697129084)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s12-audit-sh-1792697129283": {
+   "veredito": "ok",
+   "card_visto": "sh-1792697129283 (1792697129283)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s12-audit-sh-1792572870669": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870669 (1792572870669)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s12-audit-raiz-posterior-visual": {
+   "veredito": "ok",
+   "card_visto": "raiz-posterior-visual (1793966747228)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s13-regioes": {
+   "veredito": "ok",
+   "card_visto": "cerebelo-visual (1793889229450), sh-1792572870659 (1792572870659), sh-1792572870656 (1792572870656), sh-1792572870672 (1792572870672)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s13-audit-sh-1792572870660": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870660 (1792572870660)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s13-audit-kh-1792261723219": {
+   "veredito": "ok",
+   "card_visto": "kh-1792261723219 (1793966747229)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s13-audit-kh-1792261725721": {
+   "veredito": "ok",
+   "card_visto": "kh-1792261725721 (1793966747230)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s13-audit-sh-1792572870662": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870662 (1792572870662)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s13-audit-kh-1792261727072": {
+   "veredito": "ok",
+   "card_visto": "kh-1792261727072 (1793966747231)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s13-audit-sh-1792572870708": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870708 (1792572870708)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s13-audit-hipotalamo-visual": {
+   "veredito": "ok",
+   "card_visto": "hipotalamo-visual (1793966747232)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s14-cinzenta-branca": {
+   "veredito": "ok",
+   "card_visto": "branca-composicao (1793889229451), cinzenta-composicao (1793889229452)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s14-cortex-nucleos": {
+   "veredito": "ok",
+   "card_visto": "cortex-nucleos (1793889229453)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s14-audit-sh-1792572870701": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870701 (1792572870701)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s14-audit-sh-1792572870704": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870704 (1792572870704)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s14-audit-sh-1792572870678": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870678 (1792572870678)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s14-audit-sh-1792572870651": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870651 (1792572870651)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s14-audit-sh-1792572870676": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870676 (1792572870676)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s14-audit-sh-1792572870677": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870677 (1792572870677)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s14-audit-kh-1792329743638": {
+   "veredito": "ok",
+   "card_visto": "kh-1792329743638 (1793966747233)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s14-audit-sh-1792697130129": {
+   "veredito": "ok",
+   "card_visto": "sh-1792697130129 (1792697130129)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s14-audit-sh-1792697129929": {
+   "veredito": "ok",
+   "card_visto": "sh-1792697129929 (1792697129929)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s15-nucleo-ganglio": {
+   "veredito": "ok",
+   "card_visto": "nucleo-ganglio (1793889229454)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s15-audit-lamina-alar": {
+   "veredito": "ok",
+   "card_visto": "lamina-alar (1793966747234)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s15-audit-lamina-basal": {
+   "veredito": "ok",
+   "card_visto": "lamina-basal (1793966747235)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s15-audit-sh-1792329761318": {
+   "veredito": "ok",
+   "card_visto": "sh-1792329761318 (1792329761318)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s15-audit-nucleos-cranianos-funcao": {
+   "veredito": "corrigido",
+   "card_visto": "nucleos-cranianos-funcao (1793966747236)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar); corrigido: nucleos-cranianos-funcao"
+  },
+  "u7an01v2-s16-tronco-seccoes": {
+   "veredito": "ok",
+   "card_visto": "sh-1792244864867 (1792244864867), sh-1792244863743 (1792244863743), sh-1792244863368 (1792244863368)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s16-audit-sh-1792696997556": {
+   "veredito": "ok",
+   "card_visto": "sh-1792696997556 (1792696997556)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s16-audit-sh-1792572870691": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870691 (1792572870691)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s17-medula-cinzenta": {
+   "veredito": "ok",
+   "card_visto": "sh-1792329455442 (1792329455442), sh-1792329455695 (1792329455695)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s17-intumescencias": {
+   "veredito": "ok",
+   "card_visto": "intumescencia-cervical (1793889229455), intumescencia-lombossacral (1793889229456)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s17-branca-rostral": {
+   "veredito": "ok",
+   "card_visto": "sh-1792329761664 (1792329761664)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s17-audit-sh-1792572870673": {
+   "veredito": "ok",
+   "card_visto": "sh-1792572870673 (1792572870673)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s17-audit-sh-1792697128127": {
+   "veredito": "ok",
+   "card_visto": "sh-1792697128127 (1792697128127)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s18-corno-ventral": {
+   "veredito": "ok",
+   "card_visto": "sh-1792329455992 (1792329455992)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s18-somatotopia": {
+   "veredito": "ok",
+   "card_visto": "distais-laterais (1793889229457)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s18-flexores": {
+   "veredito": "ok",
+   "card_visto": "extensores-ventrais (1793889229458), flexores-dorsais (1793889229459)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s18-audit-somatotopia-definicao": {
+   "veredito": "corrigido",
+   "card_visto": "somatotopia-definicao (1793966747237)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar); corrigido: somatotopia-definicao"
+  },
+  "u7an01v2-s19-corticoespinal": {
+   "veredito": "ok",
+   "card_visto": "sh-1792329760618 (1792329760618)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s19-audit-sh-1792696994258": {
+   "veredito": "ok",
+   "card_visto": "sh-1792696994258 (1792696994258)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s19-audit-walleriana": {
+   "veredito": "ok",
+   "card_visto": "walleriana (1793966747238)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s19-audit-sh-1792244862578": {
+   "veredito": "ok",
+   "card_visto": "sh-1792244862578 (1792244862578)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s20-broca": {
+   "veredito": "ok",
+   "card_visto": "broca-fala (1793889229460)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s20-audit-broca-localizacao": {
+   "veredito": "ok",
+   "card_visto": "broca-localizacao (1793966747239)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s21-tracadores": {
+   "veredito": "corrigido",
+   "card_visto": "transporte-axonal (1793889229461), tracadores (1793889229462)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar); corrigido: tracadores"
+  },
+  "u7an01v2-s22-imagem-estrutural": {
+   "veredito": "ok",
+   "card_visto": "imagem-estrutural (1793889229463)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s22-audit-rm-estruturas": {
+   "veredito": "corrigido",
+   "card_visto": "rm-estruturas (1793966747240)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar); corrigido: rm-estruturas"
+  },
+  "u7an01v2-s23-redes": {
+   "veredito": "ok",
+   "card_visto": "redes (1793889229464)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s24-imagem-funcional": {
+   "veredito": "corrigido",
+   "card_visto": "ressonancia-funcional (1793889229465)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar); corrigido: ressonancia-funcional"
+  },
+  "u7an01v2-s24-audit-rm-foco-visual": {
+   "veredito": "ok",
+   "card_visto": "rm-foco-visual (1793966747241)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-s24-audit-rm-foco-auditivo": {
+   "veredito": "ok",
+   "card_visto": "rm-foco-auditivo (1793966747242)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-cap-circuito-livro": {
+   "veredito": "ok",
+   "card_visto": "circuito-funcional (1793889229407), interneuronios (1793889229408)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-cap-origem-divisoes-livro": {
+   "veredito": "ok",
+   "card_visto": "inducao-neural (1793889229409), origem-central-periferica (1793889229411), snp-componentes (1793889229447)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar)"
+  },
+  "u7an01v2-cap-celulas-comunicacao-livro": {
+   "veredito": "corrigido",
+   "card_visto": "soma (1793889229419), microglia (1793889229427), sinapse-quimica (1793889229433), tracadores (1793889229462)",
+   "nota": "lido no despejo vivo (python3 -m nebli.revisar); corrigido: tracadores"
+  }
+ }
+}

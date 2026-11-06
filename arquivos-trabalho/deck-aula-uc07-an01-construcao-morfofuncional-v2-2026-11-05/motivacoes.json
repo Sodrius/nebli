@@ -1,0 +1,1108 @@
+{
+  "motivacoes": [
+    {
+      "id": "m-circuito",
+      "item_mapa": "p0-circuito",
+      "reconstruir": "Aferência leva informação ao centro, associação integra e eferência alcança o efetuador.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "",
+      "atendida_por": [
+        "circuito-funcional",
+        "interneuronios",
+        "sh-1792572870667",
+        "sh-1792572870668"
+      ]
+    },
+    {
+      "id": "m-receptor",
+      "item_mapa": "p0-receptor",
+      "reconstruir": "Receptores convertem estímulos físicos ou químicos em sinais neurais que permitem uma resposta específica.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "circuito",
+      "atendida_por": [
+        "transducao"
+      ]
+    },
+    {
+      "id": "m-neurulacao",
+      "item_mapa": "p1-neurulacao",
+      "reconstruir": "Placa neural dobra e fecha o tubo neural; tubo e crista dão origem a componentes diferentes do sistema nervoso.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "receptor",
+      "atendida_por": [
+        "inducao-neural",
+        "fechamento-tubo",
+        "origem-central-periferica"
+      ]
+    },
+    {
+      "id": "m-vesiculas",
+      "item_mapa": "p1-vesiculas",
+      "reconstruir": "Prosencéfalo origina telencéfalo e diencéfalo; rombencéfalo origina metencéfalo e mielencéfalo; mesencéfalo permanece.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "neurulacao",
+      "atendida_por": [
+        "prosencefalo",
+        "mesencefalo-origem",
+        "rombencefalo"
+      ]
+    },
+    {
+      "id": "m-metencefalo",
+      "item_mapa": "p1-metencefalo",
+      "reconstruir": "Ponte e cerebelo derivam do metencéfalo, enquanto o bulbo deriva do mielencéfalo.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "vesiculas",
+      "atendida_por": [
+        "metencefalo-adulto",
+        "mielencefalo-adulto"
+      ]
+    },
+    {
+      "id": "m-neuronio",
+      "item_mapa": "p2-neuronio",
+      "reconstruir": "Dendritos e soma recebem e integram sinais; o axônio conduz sinais para outras células.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "metencefalo",
+      "atendida_por": [
+        "dendritos",
+        "axonio"
+      ]
+    },
+    {
+      "id": "m-soma",
+      "item_mapa": "p2-soma",
+      "reconstruir": "O corpo celular mantém metabolicamente o neurônio e sustenta seus prolongamentos.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "neuronio",
+      "atendida_por": [
+        "soma"
+      ]
+    },
+    {
+      "id": "m-astrocito",
+      "item_mapa": "p2-astrocito",
+      "reconstruir": "Astrócitos sustentam o ambiente neuronal, participam da relação com capilares e da cicatriz glial.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "soma",
+      "atendida_por": [
+        "cicatriz-glial",
+        "potassio-glia",
+        "recaptacao-glia",
+        "astrocitos-capilares",
+        "gfap"
+      ]
+    },
+    {
+      "id": "m-microglia",
+      "item_mapa": "p2-microglia",
+      "reconstruir": "Micróglia realiza defesa fagocitária e difere das células que formam mielina.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "astrocito",
+      "atendida_por": [
+        "microglia",
+        "glia"
+      ]
+    },
+    {
+      "id": "m-mielinizadores",
+      "item_mapa": "p2-mielinizadores",
+      "reconstruir": "Oligodendrócitos mielinizam no sistema central e células de Schwann no periférico.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "microglia",
+      "atendida_por": [
+        "oligodendrocito",
+        "oligodendrocito-varios",
+        "schwann",
+        "schwann-segmento"
+      ]
+    },
+    {
+      "id": "m-mielina-clinica",
+      "item_mapa": "p2-mielina-clinica",
+      "reconstruir": "A mesma perda de mielina compromete a condução, mas sua localização central ou periférica distingue aplicações clínicas básicas.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "mielinizadores",
+      "atendida_por": [
+        "guillain-barre",
+        "esclerose-multipla",
+        "oligodendrocito",
+        "schwann"
+      ]
+    },
+    {
+      "id": "m-sinapses",
+      "item_mapa": "p3-sinapses",
+      "reconstruir": "Sinapses elétricas passam corrente entre células; sinapses químicas usam neurotransmissor entre elementos pré e pós-sinápticos.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "mielina-clinica",
+      "atendida_por": [
+        "sinapse-quimica",
+        "sinapse-eletrica"
+      ]
+    },
+    {
+      "id": "m-liberacao",
+      "item_mapa": "p3-liberacao",
+      "reconstruir": "O terminal pré-sináptico libera neurotransmissor que age em receptores pós-sinápticos, ligando a condução axonal à comunicação entre células.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "sinapses",
+      "atendida_por": [
+        "liberacao-sinaptica"
+      ]
+    },
+    {
+      "id": "m-saltatoria",
+      "item_mapa": "p3-saltatoria",
+      "reconstruir": "Mielina isola internódulos e potenciais de ação regeneram nos nós de Ranvier, acelerando a condução.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "liberacao",
+      "atendida_por": [
+        "saltatoria",
+        "canais-nodais",
+        "sh-1792572870666"
+      ]
+    },
+    {
+      "id": "m-velocidade",
+      "item_mapa": "p3-velocidade",
+      "reconstruir": "Fibras de maior diâmetro e mielinizadas conduzem mais rapidamente que fibras pequenas e amielínicas.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "saltatoria",
+      "atendida_por": [
+        "fibras-c"
+      ]
+    },
+    {
+      "id": "m-fibras-sensoriais",
+      "item_mapa": "p3-fibras-sensoriais",
+      "reconstruir": "A alfa transmite propriocepção e A beta mecanossensação; A delta e C transmitem modalidades de dor e temperatura.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "velocidade",
+      "atendida_por": [
+        "fibras-propriocepcao",
+        "fibras-tato",
+        "fibras-dor-frio",
+        "fibras-dor-calor"
+      ]
+    },
+    {
+      "id": "m-primeira-dor",
+      "item_mapa": "p3-primeira-dor",
+      "reconstruir": "Fibras A delta mielinizadas explicam a dor inicial rápida; fibras C amielínicas explicam a dor lenta subsequente.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "fibras-sensoriais",
+      "atendida_por": [
+        "duas-dores"
+      ]
+    },
+    {
+      "id": "m-morfologias",
+      "item_mapa": "p4-morfologias",
+      "reconstruir": "Multipolares têm vários dendritos; bipolares dois prolongamentos; pseudounipolares um prolongamento que bifurca.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "primeira-dor",
+      "atendida_por": [
+        "morfologias"
+      ]
+    },
+    {
+      "id": "m-pseudounipolar",
+      "item_mapa": "p4-pseudounipolar",
+      "reconstruir": "No neurônio pseudounipolar sensitivo o ramo periférico continua no ramo central e o soma fica lateral ao trajeto.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "morfologias",
+      "atendida_por": [
+        "pseudounipolar-trajeto"
+      ]
+    },
+    {
+      "id": "m-snc-snp",
+      "item_mapa": "p5-snc-snp",
+      "reconstruir": "Encéfalo e medula compõem o central; nervos, gânglios e terminações compõem o periférico.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "pseudounipolar",
+      "atendida_por": [
+        "snp-componentes",
+        "sh-1792588686960"
+      ]
+    },
+    {
+      "id": "m-encefalo",
+      "item_mapa": "p5-encefalo",
+      "reconstruir": "O encéfalo compreende cérebro, cerebelo e tronco encefálico; o tronco contém mesencéfalo, ponte e bulbo.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "snc-snp",
+      "atendida_por": [
+        "sh-1792588686968",
+        "sh-1792588686971"
+      ]
+    },
+    {
+      "id": "m-somatico-visceral",
+      "item_mapa": "p5-somatico-visceral",
+      "reconstruir": "Somático e visceral descrevem domínios funcionais, e ambos podem ter aferência e eferência.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "encefalo",
+      "atendida_por": [
+        "somatico-visceral",
+        "sh-1792329944339"
+      ]
+    },
+    {
+      "id": "m-autonomo",
+      "item_mapa": "p5-autonomo",
+      "reconstruir": "O sistema autônomo corresponde à eferência visceral e inclui simpático e parassimpático.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "somatico-visceral",
+      "atendida_por": [
+        "sh-1792588686967",
+        "sh-1792588686961"
+      ]
+    },
+    {
+      "id": "m-pares-nervos",
+      "item_mapa": "p5-pares-nervos",
+      "reconstruir": "Há doze pares de nervos cranianos e trinta e um pares de nervos espinais.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "autonomo",
+      "atendida_por": [
+        "pares-cranianos",
+        "sh-1792329941889"
+      ]
+    },
+    {
+      "id": "m-raizes",
+      "item_mapa": "p6-raizes",
+      "reconstruir": "Raiz dorsal leva aferências e raiz ventral leva eferências; a união forma um nervo espinal misto.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "pares-nervos",
+      "atendida_por": [
+        "sh-1792588686964",
+        "sh-1792572870664"
+      ]
+    },
+    {
+      "id": "m-ganglio",
+      "item_mapa": "p6-ganglio",
+      "reconstruir": "Corpos dos neurônios sensitivos primários ficam no gânglio da raiz dorsal, fora da medula.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "raizes",
+      "atendida_por": [
+        "sh-1792265021996",
+        "sh-1792572870665"
+      ]
+    },
+    {
+      "id": "m-ramos",
+      "item_mapa": "p6-ramos",
+      "reconstruir": "Após a união das raízes, ramos anterior e posterior são mistos; plexos são formados pela reunião de ramos anteriores.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "ganglio",
+      "atendida_por": [
+        "ramos-mistos",
+        "sh-1792697128629"
+      ]
+    },
+    {
+      "id": "m-regioes",
+      "item_mapa": "p7-regioes",
+      "reconstruir": "Cérebro, cerebelo, tronco e medula podem ser situados em vistas distintas sem confundir orientação.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "ramos",
+      "atendida_por": [
+        "cerebelo-visual",
+        "sh-1792572870659",
+        "sh-1792572870656",
+        "sh-1792572870672"
+      ]
+    },
+    {
+      "id": "m-cinzenta-branca",
+      "item_mapa": "p7-cinzenta-branca",
+      "reconstruir": "Substância cinzenta concentra somas e circuitos locais; substância branca concentra axônios predominantemente mielinizados.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "regioes",
+      "atendida_por": [
+        "branca-composicao",
+        "cinzenta-composicao"
+      ]
+    },
+    {
+      "id": "m-cortex-nucleos",
+      "item_mapa": "p7-cortex-nucleos",
+      "reconstruir": "Córtex é cinzenta superficial; núcleos são agregados de cinzenta profundos e coexistem com substância branca central.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "cinzenta-branca",
+      "atendida_por": [
+        "cortex-nucleos"
+      ]
+    },
+    {
+      "id": "m-nucleo-ganglio",
+      "item_mapa": "p7-nucleo-ganglio",
+      "reconstruir": "Agregados de corpos neuronais são chamados núcleos no sistema central e gânglios no periférico.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "cortex-nucleos",
+      "atendida_por": [
+        "nucleo-ganglio"
+      ]
+    },
+    {
+      "id": "m-tronco-seccoes",
+      "item_mapa": "p7-tronco-seccoes",
+      "reconstruir": "Cortes do mesencéfalo, ponte e bulbo diferem pela relação entre cavidade ventricular e estruturas ventrais.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "nucleo-ganglio",
+      "atendida_por": [
+        "sh-1792244864867",
+        "sh-1792244863743",
+        "sh-1792244863368"
+      ]
+    },
+    {
+      "id": "m-medula-cinzenta",
+      "item_mapa": "p8-medula-cinzenta",
+      "reconstruir": "Na medula a cinzenta é central e a branca periférica; a distribuição muda conforme o nível.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "tronco-seccoes",
+      "atendida_por": [
+        "sh-1792329455442",
+        "sh-1792329455695"
+      ]
+    },
+    {
+      "id": "m-intumescencias",
+      "item_mapa": "p8-intumescencias",
+      "reconstruir": "As intumescências cervical e lombossacral contêm mais neurônios para inervar os membros.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "medula-cinzenta",
+      "atendida_por": [
+        "intumescencia-cervical",
+        "intumescencia-lombossacral"
+      ]
+    },
+    {
+      "id": "m-branca-rostral",
+      "item_mapa": "p8-branca-rostral",
+      "reconstruir": "Níveis rostrais da medula têm mais substância branca pela acumulação de vias ascendentes e descendentes.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "intumescencias",
+      "atendida_por": [
+        "sh-1792329761664"
+      ]
+    },
+    {
+      "id": "m-corno-ventral",
+      "item_mapa": "p8-corno-ventral",
+      "reconstruir": "O corno anterior contém motoneurônios somáticos; o posterior participa do processamento sensitivo.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "branca-rostral",
+      "atendida_por": [
+        "sh-1792329455992"
+      ]
+    },
+    {
+      "id": "m-somatotopia",
+      "item_mapa": "p8-somatotopia",
+      "reconstruir": "Motoneurônios mediais relacionam-se a músculos axiais; laterais aos músculos distais dos membros.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "corno-ventral",
+      "atendida_por": [
+        "distais-laterais"
+      ]
+    },
+    {
+      "id": "m-flexores",
+      "item_mapa": "p8-flexores",
+      "reconstruir": "No corno anterior, grupos dorsais inervam flexores e ventrais inervam extensores.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "somatotopia",
+      "atendida_por": [
+        "extensores-ventrais",
+        "flexores-dorsais"
+      ]
+    },
+    {
+      "id": "m-corticoespinal",
+      "item_mapa": "p9-corticoespinal",
+      "reconstruir": "Degeneração após lesão permite acompanhar uma via; o cruzamento piramidal explica a mudança do lado dos déficits.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "flexores",
+      "atendida_por": [
+        "sh-1792329760618"
+      ]
+    },
+    {
+      "id": "m-broca",
+      "item_mapa": "p10-broca",
+      "reconstruir": "Lesão de uma região pode comprometer uma função específica; a observação de Broca relaciona linguagem expressiva ao frontal dominante.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "corticoespinal",
+      "atendida_por": [
+        "broca-fala"
+      ]
+    },
+    {
+      "id": "m-tracadores",
+      "item_mapa": "p11-tracadores",
+      "reconstruir": "Transporte anterógrado revela destinos axonais e retrógrado revela corpos celulares que enviam projeções.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "broca",
+      "atendida_por": [
+        "transporte-axonal",
+        "tracadores"
+      ]
+    },
+    {
+      "id": "m-imagem-estrutural",
+      "item_mapa": "p12-imagem-estrutural",
+      "reconstruir": "O plano anatômico orienta a correspondência entre corte e imagem estrutural do encéfalo.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "tracadores",
+      "atendida_por": [
+        "imagem-estrutural"
+      ]
+    },
+    {
+      "id": "m-redes",
+      "item_mapa": "p13-redes",
+      "reconstruir": "Atividades complexas recrutam regiões conectadas com contribuições diferentes, em vez de uma região executar tudo.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "imagem-estrutural",
+      "atendida_por": [
+        "redes"
+      ]
+    },
+    {
+      "id": "m-imagem-funcional",
+      "item_mapa": "p13-imagem-funcional",
+      "reconstruir": "Imagem estrutural mostra a anatomia, enquanto imagem funcional associa atividade a tarefas diferentes.",
+      "por_que_dura": "Esta relação permite interpretar a organização do sistema nervoso nas aulas seguintes e explicar a função ou consequência de sua alteração, em vez de lembrar nomes sem contexto.",
+      "depois_de": "redes",
+      "atendida_por": [
+        "ressonancia-funcional"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870657",
+      "item_mapa": "audit-s11-sh-1792572870657",
+      "reconstruir": "Reconhecer sem legenda Diencéfalo e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "pares-cranianos",
+      "atendida_por": [
+        "sh-1792572870657"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870658",
+      "item_mapa": "audit-s11-sh-1792572870658",
+      "reconstruir": "Reconhecer sem legenda Tronco encefálico e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "pares-cranianos",
+      "atendida_por": [
+        "sh-1792572870658"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870663",
+      "item_mapa": "audit-s11-sh-1792572870663",
+      "reconstruir": "Reconhecer sem legenda Mesencéfalo e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "pares-cranianos",
+      "atendida_por": [
+        "sh-1792572870663"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870632",
+      "item_mapa": "audit-s11-sh-1792572870632",
+      "reconstruir": "Reconhecer sem legenda Ponte e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "pares-cranianos",
+      "atendida_por": [
+        "sh-1792572870632"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792696993352",
+      "item_mapa": "audit-s11-sh-1792696993352",
+      "reconstruir": "Reconhecer sem legenda Bulbo e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "pares-cranianos",
+      "atendida_por": [
+        "sh-1792696993352"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792697134127",
+      "item_mapa": "audit-s12-sh-1792697134127",
+      "reconstruir": "Reconhecer sem legenda Raiz anterior do nervo espinal e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "ramos-mistos",
+      "atendida_por": [
+        "sh-1792697134127"
+      ]
+    },
+    {
+      "id": "m-audit-kh-1792328891560",
+      "item_mapa": "audit-s12-kh-1792328891560",
+      "reconstruir": "Reconhecer sem legenda Ramo anterior do nervo espinal e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "ramos-mistos",
+      "atendida_por": [
+        "kh-1792328891560"
+      ]
+    },
+    {
+      "id": "m-audit-kh-1792328894044",
+      "item_mapa": "audit-s12-kh-1792328894044",
+      "reconstruir": "Reconhecer sem legenda Ramo posterior e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "ramos-mistos",
+      "atendida_por": [
+        "kh-1792328894044"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792697128829",
+      "item_mapa": "audit-s12-sh-1792697128829",
+      "reconstruir": "Reconhecer sem legenda Plexo cervical e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "ramos-mistos",
+      "atendida_por": [
+        "sh-1792697128829"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792697129084",
+      "item_mapa": "audit-s12-sh-1792697129084",
+      "reconstruir": "Reconhecer sem legenda Plexo braquial e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "ramos-mistos",
+      "atendida_por": [
+        "sh-1792697129084"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792697129283",
+      "item_mapa": "audit-s12-sh-1792697129283",
+      "reconstruir": "Reconhecer sem legenda Plexo lombar e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "ramos-mistos",
+      "atendida_por": [
+        "sh-1792697129283"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870669",
+      "item_mapa": "audit-s12-sh-1792572870669",
+      "reconstruir": "Reconhecer sem legenda Plexo sacral e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "ramos-mistos",
+      "atendida_por": [
+        "sh-1792572870669"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870660",
+      "item_mapa": "audit-s13-sh-1792572870660",
+      "reconstruir": "Reconhecer sem legenda Lobo frontal e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792572870660"
+      ]
+    },
+    {
+      "id": "m-audit-kh-1792261723219",
+      "item_mapa": "audit-s13-kh-1792261723219",
+      "reconstruir": "Reconhecer sem legenda Lobo parietal e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "kh-1792261723219"
+      ]
+    },
+    {
+      "id": "m-audit-kh-1792261725721",
+      "item_mapa": "audit-s13-kh-1792261725721",
+      "reconstruir": "Reconhecer sem legenda Lobo temporal e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "kh-1792261725721"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870662",
+      "item_mapa": "audit-s13-sh-1792572870662",
+      "reconstruir": "Reconhecer sem legenda Lobo insular e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792572870662"
+      ]
+    },
+    {
+      "id": "m-audit-kh-1792261727072",
+      "item_mapa": "audit-s13-kh-1792261727072",
+      "reconstruir": "Reconhecer sem legenda Lobo occipital e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "kh-1792261727072"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870708",
+      "item_mapa": "audit-s13-sh-1792572870708",
+      "reconstruir": "Reconhecer sem legenda Sulco central e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792572870708"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870701",
+      "item_mapa": "audit-s14-sh-1792572870701",
+      "reconstruir": "Reconhecer sem legenda Corpo caloso e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792572870701"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870704",
+      "item_mapa": "audit-s14-sh-1792572870704",
+      "reconstruir": "Reconhecer sem legenda Ventrículo lateral e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792572870704"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870678",
+      "item_mapa": "audit-s14-sh-1792572870678",
+      "reconstruir": "Reconhecer sem legenda Cápsula interna e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792572870678"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870651",
+      "item_mapa": "audit-s14-sh-1792572870651",
+      "reconstruir": "Reconhecer sem legenda Tálamo e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792572870651"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870676",
+      "item_mapa": "audit-s14-sh-1792572870676",
+      "reconstruir": "Reconhecer sem legenda Substância branca e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792572870676"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870677",
+      "item_mapa": "audit-s14-sh-1792572870677",
+      "reconstruir": "Reconhecer sem legenda Substância cinzenta e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792572870677"
+      ]
+    },
+    {
+      "id": "m-audit-kh-1792329743638",
+      "item_mapa": "audit-s14-kh-1792329743638",
+      "reconstruir": "Reconhecer sem legenda Canal central da medula espinal e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "kh-1792329743638"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792697130129",
+      "item_mapa": "audit-s14-sh-1792697130129",
+      "reconstruir": "Reconhecer sem legenda Corno posterior da medula espinal e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792697130129"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792697129929",
+      "item_mapa": "audit-s14-sh-1792697129929",
+      "reconstruir": "Reconhecer sem legenda Corno anterior da medula espinal e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792697129929"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792696997556",
+      "item_mapa": "audit-s16-sh-1792696997556",
+      "reconstruir": "Reconhecer sem legenda Aqueduto mesencefálico e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792696997556"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870691",
+      "item_mapa": "audit-s16-sh-1792572870691",
+      "reconstruir": "Reconhecer sem legenda Quarto ventrículo e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792572870691"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792572870673",
+      "item_mapa": "audit-s17-sh-1792572870673",
+      "reconstruir": "Reconhecer sem legenda Intumescência cervical e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "intumescencia-cervical",
+      "atendida_por": [
+        "sh-1792572870673"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792697128127",
+      "item_mapa": "audit-s17-sh-1792697128127",
+      "reconstruir": "Reconhecer sem legenda Intumescência lombossacral e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "intumescencia-cervical",
+      "atendida_por": [
+        "sh-1792697128127"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792696994258",
+      "item_mapa": "audit-s19-sh-1792696994258",
+      "reconstruir": "Reconhecer sem legenda Pirâmides do bulbo raquidiano e distinguir sua posição das estruturas vizinhas.",
+      "por_que_dura": "Reconhecer a estrutura sem o nome visível,além da relação teórica já cobrada.",
+      "depois_de": "sh-1792329760618",
+      "atendida_por": [
+        "sh-1792696994258"
+      ]
+    },
+    {
+      "id": "m-audit-telencefalo-adulto",
+      "item_mapa": "audit-s03-telencefalo-adulto",
+      "reconstruir": "O  telencéfalo embrionário  origina os hemisférios cerebrais.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "inducao-neural",
+      "atendida_por": [
+        "telencefalo-adulto"
+      ]
+    },
+    {
+      "id": "m-audit-diencefalo-adulto",
+      "item_mapa": "audit-s03-diencefalo-adulto",
+      "reconstruir": "O  diencéfalo embrionário  origina o tálamo e o hipotálamo.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "inducao-neural",
+      "atendida_por": [
+        "diencefalo-adulto"
+      ]
+    },
+    {
+      "id": "m-audit-cavidade-telencefalo",
+      "item_mapa": "audit-s03-cavidade-telencefalo",
+      "reconstruir": "A  cavidade do telencéfalo  origina os ventrículos laterais.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "inducao-neural",
+      "atendida_por": [
+        "cavidade-telencefalo"
+      ]
+    },
+    {
+      "id": "m-audit-cavidade-diencefalo",
+      "item_mapa": "audit-s03-cavidade-diencefalo",
+      "reconstruir": "A  cavidade do diencéfalo  origina o terceiro ventrículo.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "inducao-neural",
+      "atendida_por": [
+        "cavidade-diencefalo"
+      ]
+    },
+    {
+      "id": "m-audit-cavidade-mesencefalo",
+      "item_mapa": "audit-s03-cavidade-mesencefalo",
+      "reconstruir": "A  cavidade do mesencéfalo  permanece como aqueduto cerebral.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "inducao-neural",
+      "atendida_por": [
+        "cavidade-mesencefalo"
+      ]
+    },
+    {
+      "id": "m-audit-cavidade-metencefalo",
+      "item_mapa": "audit-s03-cavidade-metencefalo",
+      "reconstruir": "O  metencéfalo  contribui para a porção superior da cavidade do quarto ventrículo.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "inducao-neural",
+      "atendida_por": [
+        "cavidade-metencefalo"
+      ]
+    },
+    {
+      "id": "m-audit-cavidade-mielencefalo",
+      "item_mapa": "audit-s03-cavidade-mielencefalo",
+      "reconstruir": "O  mielencéfalo  contribui para a porção inferior da cavidade do quarto ventrículo.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "inducao-neural",
+      "atendida_por": [
+        "cavidade-mielencefalo"
+      ]
+    },
+    {
+      "id": "m-audit-glia-radial",
+      "item_mapa": "audit-s03-glia-radial",
+      "reconstruir": "Na  migração cortical embrionária , neurônios utilizam prolongamentos da glia radial como suporte.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "inducao-neural",
+      "atendida_por": [
+        "glia-radial"
+      ]
+    },
+    {
+      "id": "m-audit-ependima",
+      "item_mapa": "audit-s06-ependima",
+      "reconstruir": "Os  ventrículos encefálicos  são revestidos por células ependimárias.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "dendritos",
+      "atendida_por": [
+        "ependima"
+      ]
+    },
+    {
+      "id": "m-audit-satelites",
+      "item_mapa": "audit-s06-satelites",
+      "reconstruir": "Nos  gânglios periféricos , células satélites envolvem os corpos neuronais.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "dendritos",
+      "atendida_por": [
+        "satelites"
+      ]
+    },
+    {
+      "id": "m-audit-lamina-alar",
+      "item_mapa": "audit-s15-lamina-alar",
+      "reconstruir": "No  tubo neural embrionário , a lâmina alar origina componentes sensitivos.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "lamina-alar"
+      ]
+    },
+    {
+      "id": "m-audit-lamina-basal",
+      "item_mapa": "audit-s15-lamina-basal",
+      "reconstruir": "No  tubo neural embrionário , a lâmina basal origina componentes motores.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "lamina-basal"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792329761318",
+      "item_mapa": "audit-s15-sh-1792329761318",
+      "reconstruir": "Motoneurônios inferiores ficam no corno anterior medular e em  núcleos motores cranianos  do tronco.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "sh-1792329761318"
+      ]
+    },
+    {
+      "id": "m-audit-walleriana",
+      "item_mapa": "audit-s19-walleriana",
+      "reconstruir": "Após  lesão axonal , a degeneração walleriana ocorre distalmente ao local lesado.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "sh-1792329760618",
+      "atendida_por": [
+        "walleriana"
+      ]
+    },
+    {
+      "id": "m-audit-sh-1792244862578",
+      "item_mapa": "audit-s19-sh-1792244862578",
+      "reconstruir": "A maioria das  fibras corticoespinais  cruza na decussação piramidal, no bulbo caudal.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "sh-1792329760618",
+      "atendida_por": [
+        "sh-1792244862578"
+      ]
+    },
+    {
+      "id": "m-audit-velocidade-comparacao",
+      "item_mapa": "audit-s09-velocidade-comparacao",
+      "reconstruir": "Na  classificação das fibras sensitivas , o grupo de maior diâmetro e velocidade é Aα (I).",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "sinapse-quimica",
+      "atendida_por": [
+        "velocidade-comparacao"
+      ]
+    },
+    {
+      "id": "m-audit-bipolar-local",
+      "item_mapa": "audit-s10-bipolar-local",
+      "reconstruir": "Na  via visual , neurônios bipolares são encontrados na retina.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "morfologias",
+      "atendida_por": [
+        "bipolar-local"
+      ]
+    },
+    {
+      "id": "m-audit-disparo-limiar",
+      "item_mapa": "audit-s05-disparo-limiar",
+      "reconstruir": "O  potencial de ação  inicia quando a despolarização alcança o limiar no segmento inicial do axônio.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "dendritos",
+      "atendida_por": [
+        "disparo-limiar"
+      ]
+    },
+    {
+      "id": "m-audit-poda-sinaptica",
+      "item_mapa": "audit-s03-poda-sinaptica",
+      "reconstruir": "A poda sináptica elimina conexões em excesso durante a  maturação neural .",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "inducao-neural",
+      "atendida_por": [
+        "poda-sinaptica"
+      ]
+    },
+    {
+      "id": "m-audit-broca-localizacao",
+      "item_mapa": "audit-s20-broca-localizacao",
+      "reconstruir": "A  área de Broca  situa-se no giro frontal inferior do hemisfério dominante.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "broca-fala",
+      "atendida_por": [
+        "broca-localizacao"
+      ]
+    },
+    {
+      "id": "m-audit-resposta-pos-sinaptica",
+      "item_mapa": "audit-s07-resposta-pos-sinaptica",
+      "reconstruir": "Um  potencial pós-sináptico  excitatório despolariza a célula.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "sinapse-quimica",
+      "atendida_por": [
+        "resposta-pos-sinaptica"
+      ]
+    },
+    {
+      "id": "m-audit-fibras-amielinicas",
+      "item_mapa": "audit-s08-fibras-amielinicas",
+      "reconstruir": "No  SNP , axônios amielínicos também recebem suporte de células de Schwann.",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "sinapse-quimica",
+      "atendida_por": [
+        "fibras-amielinicas"
+      ]
+    },
+    {
+      "id": "m-audit-hipotalamo-visual",
+      "item_mapa": "audit-s13-hipotalamo-visual",
+      "reconstruir": " Qual estrutura a seta indica?  Hipotálamo   ",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "cerebelo-visual",
+      "atendida_por": [
+        "hipotalamo-visual"
+      ]
+    },
+    {
+      "id": "m-audit-raiz-posterior-visual",
+      "item_mapa": "audit-s12-raiz-posterior-visual",
+      "reconstruir": " Qual estrutura a seta indica?  Raiz posterior  ",
+      "por_que_dura": "Recuperar relação introdutória documentada que estava apenas no verso ou ausente; não importar o conteúdo regional inteiro.",
+      "depois_de": "ramos-mistos",
+      "atendida_por": [
+        "raiz-posterior-visual"
+      ]
+    },
+    {
+      "id": "m-audit-somatotopia-definicao",
+      "item_mapa": "audit-s18-somatotopia-definicao",
+      "reconstruir": "O  mapeamento ordenado do corpo no SNC  chama-se somatotopia.",
+      "por_que_dura": "Dar nome ao princípio geral que permite interpretar o mapa corporal, não apenas decorar seus pares.",
+      "depois_de": "flexores-dorsais",
+      "atendida_por": [
+        "somatotopia-definicao"
+      ]
+    },
+    {
+      "id": "m-audit-rm-estruturas",
+      "item_mapa": "audit-s22-rm-estruturas",
+      "reconstruir": "  RM sagital, estruturas apontadas :  A : Corpo caloso  B : Ponte  C : Cerebelo ",
+      "por_que_dura": "Transferir o reconhecimento de três grandes estruturas do atlas para a RM da própria aula.",
+      "depois_de": "imagem-estrutural",
+      "atendida_por": [
+        "rm-estruturas"
+      ]
+    },
+    {
+      "id": "m-audit-nucleos-cranianos-funcao",
+      "item_mapa": "audit-s15-nucleos-cranianos-funcao",
+      "reconstruir": "  Núcleos cranianos no tronco : Recebem  aferências dos nervos cranianos : sensitivos Originam  eferências para efetores : motores ",
+      "por_que_dura": "Aplicar o eixo aferente/eferente aos agregados centrais, sem exigir agora localização de todos os núcleos.",
+      "depois_de": "sh-1792329761318",
+      "atendida_por": [
+        "nucleos-cranianos-funcao"
+      ]
+    },
+    {
+      "id": "m-audit-sna-definicao",
+      "item_mapa": "audit-s11-sna-definicao",
+      "reconstruir": "A  eferência visceral  constitui o sistema nervoso autônomo.",
+      "por_que_dura": "Relação básica ou leitura simples de imagem explícita na aula; não importa o detalhamento regional.",
+      "depois_de": "pares-cranianos",
+      "atendida_por": [
+        "sna-definicao"
+      ]
+    },
+    {
+      "id": "m-audit-rm-foco-visual",
+      "item_mapa": "audit-s24-rm-foco-visual",
+      "reconstruir": "O  foco posterior ao olhar palavras , nesta imagem funcional, está no lobo occipital.",
+      "por_que_dura": "Relação básica ou leitura simples de imagem explícita na aula; não importa o detalhamento regional.",
+      "depois_de": "redes",
+      "atendida_por": [
+        "rm-foco-visual"
+      ]
+    },
+    {
+      "id": "m-audit-rm-foco-auditivo",
+      "item_mapa": "audit-s24-rm-foco-auditivo",
+      "reconstruir": "O  foco lateral ao ouvir palavras , nesta imagem funcional, está no lobo temporal.",
+      "por_que_dura": "Relação básica ou leitura simples de imagem explícita na aula; não importa o detalhamento regional.",
+      "depois_de": "redes",
+      "atendida_por": [
+        "rm-foco-auditivo"
+      ]
+    }
+  ]
+}

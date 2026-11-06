@@ -1,0 +1,79 @@
+{
+  "guia_sha256": "a9dd272887f64d8a687f3c80c8e1cb76e964ca108c8812307a172397028f73c8",
+  "aprendizados": [
+    "O alvo da lacuna precisa ser o conhecimento durável, e a frente sem resposta deve induzir exatamente esse alvo sem revelá-lo.",
+    "Uma figura anatômica deve corresponder à estrutura e orientação cobradas; legenda de fonte não aparece no card.",
+    "O organizador de raízes espinais 1792588686964 exige recuperar o par de direções junto; adaptar a função pedagógica, não somente a aparência.",
+    "O exemplar 1792487516279 conecta local e maturação, distinguindo sequência de destinos alternativos; integradores não podem inventar etapas obrigatórias.",
+    "Exemplo clínico não autoriza ficha técnica da doença; a lacuna precisa recuperar o princípio que o professor demonstrou.",
+    "Lacunas longas e imagens genéricas foram críticas concretas; recortar uma figura real pertinente e testar todos os irmãos contra vazamento.",
+    "A aula introdutória precisa recuperar seus princípios antes dos casos finais; o exemplo da hepatite mostrou o erro de inverter esse peso.",
+    "A Hipersensibilidade v3 aprovada combina mecanismos gerais e AnKing pertinente, sem tomar contagem de cards como prova de cobertura.",
+    "Citar uma categoria ou pôr rótulos no Extra não recupera suas estruturas; conferir pergunta sem resposta.",
+    "Básico visual agora e IO regional com aula de destino explícita,sem marcar previsão como cobertura."
+  ],
+  "guias_sha256": {
+    "GUIA-1-REGRAS.md": "a9dd272887f64d8a687f3c80c8e1cb76e964ca108c8812307a172397028f73c8",
+    "GUIA-2-EXEMPLARES.md": "45b6d8c4608bce8cee4a2fff0843091c352c9c189679a9992b6393b02d107748",
+    "GUIA-3-ANTI.md": "d4a6ebfa41ff46c35fbd83512cbd67d6f75b89addede6478d0c16991ffb0e014"
+  },
+  "guias_aprendizados": {
+    "GUIA-1-REGRAS.md": [
+      "O alvo da lacuna precisa ser o conhecimento durável, e a frente sem resposta deve induzir exatamente esse alvo sem revelá-lo.",
+      "Uma figura anatômica deve corresponder à estrutura e orientação cobradas; legenda de fonte não aparece no card."
+    ],
+    "GUIA-2-EXEMPLARES.md": [
+      "O organizador de raízes espinais 1792588686964 exige recuperar o par de direções junto; adaptar a função pedagógica, não somente a aparência.",
+      "O exemplar 1792487516279 conecta local e maturação, distinguindo sequência de destinos alternativos; integradores não podem inventar etapas obrigatórias."
+    ],
+    "GUIA-3-ANTI.md": [
+      "Exemplo clínico não autoriza ficha técnica da doença; a lacuna precisa recuperar o princípio que o professor demonstrou.",
+      "Lacunas longas e imagens genéricas foram críticas concretas; recortar uma figura real pertinente e testar todos os irmãos contra vazamento."
+    ]
+  },
+  "leitura_sha256": {
+    "flashcards/projeto/GUIA-1-REGRAS.md": "a9dd272887f64d8a687f3c80c8e1cb76e964ca108c8812307a172397028f73c8",
+    "flashcards/projeto/GUIA-2-EXEMPLARES.md": "45b6d8c4608bce8cee4a2fff0843091c352c9c189679a9992b6393b02d107748",
+    "flashcards/projeto/GUIA-3-ANTI.md": "d4a6ebfa41ff46c35fbd83512cbd67d6f75b89addede6478d0c16991ffb0e014",
+    "flashcards/projeto/GUIA-4-AULA.md": "aec781fb15472970bb386c9b00ebab081730dd039f12de25d805cfd7ed055e45",
+    "MEMORY.md": "c54d8de675b103368d571d03d347559d29c4fc1b122bd3f435d15166b935572d",
+    "flashcards/projeto/EXECUCAO-DECK-AULA.md": "a52bfac6c2e47bd3a7bf906927798ff2aee35a91feb6e735198124d5159b0428",
+    "config/revisor-autorais.md": "a0469ce8863d794f702c6ec5f9730bf039ced86a3c719af022cd2d65bdc1d367",
+    "flashcards/projeto/CALIBRACAO-QUALIDADE-2026-10-25.md": "a4eef1b4c67b6c26af2e1a7596af5b24e4e0603625747a61ccf0253ed72104a6"
+  },
+  "leitura_aprendizados": {
+    "flashcards/projeto/GUIA-1-REGRAS.md": [
+      "O alvo da lacuna precisa ser o conhecimento durável, e a frente sem resposta deve induzir exatamente esse alvo sem revelá-lo.",
+      "Uma figura anatômica deve corresponder à estrutura e orientação cobradas; legenda de fonte não aparece no card."
+    ],
+    "flashcards/projeto/GUIA-2-EXEMPLARES.md": [
+      "O organizador de raízes espinais 1792588686964 exige recuperar o par de direções junto; adaptar a função pedagógica, não somente a aparência.",
+      "O exemplar 1792487516279 conecta local e maturação, distinguindo sequência de destinos alternativos; integradores não podem inventar etapas obrigatórias."
+    ],
+    "flashcards/projeto/GUIA-3-ANTI.md": [
+      "Exemplo clínico não autoriza ficha técnica da doença; a lacuna precisa recuperar o princípio que o professor demonstrou.",
+      "Lacunas longas e imagens genéricas foram críticas concretas; recortar uma figura real pertinente e testar todos os irmãos contra vazamento."
+    ],
+    "flashcards/projeto/GUIA-4-AULA.md": [
+      "A aula introdutória precisa recuperar seus princípios antes dos casos finais; o exemplo da hepatite mostrou o erro de inverter esse peso.",
+      "A Hipersensibilidade v3 aprovada combina mecanismos gerais e AnKing pertinente, sem tomar contagem de cards como prova de cobertura."
+    ],
+    "MEMORY.md": [
+      "A autorização de 05/11 vale para o primeiro deck UC07 inteiro e reserva dos antigos preservando estudo, sem iniciar automaticamente o segundo.",
+      "Frentes e respostas da UC07 ficam em português, Extra explicativo em inglês, preservando comentários pessoais e originais AnKing."
+    ],
+    "flashcards/projeto/EXECUCAO-DECK-AULA.md": [
+      "E0 a E8 são sequenciais; compreender cada lâmina e congelar motivações antecede buscar candidatos, e E7 antecede instalar.",
+      "Na v15 o verificador julga cada ocorrência literal de cloze e organizadores exigem busca real dos avulsos já cobertos."
+    ],
+    "config/revisor-autorais.md": [
+      "O parecer independente usa pacote isolado e precisa julgar indução, durabilidade e ganho, não somente cumprir uma forma curta.",
+      "Revisor não substitui a responsabilidade do executor: cada crítica é lida e corrigida ou respondida com evidência antes da instalação."
+    ],
+    "flashcards/projeto/CALIBRACAO-QUALIDADE-2026-10-25.md": [
+      "Davi prefere contexto suficiente para uma resposta inequívoca; a contagem de palavras não justifica amputar o discriminante necessário.",
+      "Figura focal e legível e Extra com consequência real são preferências de qualidade; acerto rápido sozinho não demonstra compreensão."
+    ]
+  },
+  "feedbacks_lidos_ate": "F-20261106-CLAUDE-01"
+}

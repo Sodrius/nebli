@@ -1,0 +1,642 @@
+{
+  "aula": "2026-uc07-anatomia-01-construcao-morfofuncional",
+  "feita_depois_de_instalar": true,
+  "cobertura_item_a_item": {
+    "ok": true,
+    "evidencia": "cobertura.json: 110 itens; exclusões com motivo no inventário"
+  },
+  "ordem_estrita_dos_slides": {
+    "ok": true,
+    "evidencia": "NEBLI::2026-uc07-anatomia-01-construcao-morfofuncional: 148 notas, prefixo 'u7an01v2'"
+  },
+  "imagens_vistas": {
+    "ok": true,
+    "evidencia": "imagens-vistas.json: 180 figuras julgadas"
+  },
+  "autorais_conferidos_no_livro": {
+    "ok": true,
+    "evidencia": "autorais conferidos contra as fontes de fontes-decl.json"
+  },
+  "autoral_sem_duplicar_alvo": {
+    "ok": true,
+    "evidencia": "0 compartilhados por sh(); coincidências de resposta com duplicacao_ok"
+  },
+  "dope_so_sem_alternativa": {
+    "ok": true,
+    "evidencia": "sem Dope"
+  },
+  "sem_credito_visivel": {
+    "ok": true,
+    "evidencia": "créditos AnKing removidos pelo build"
+  },
+  "ingles_nos_cards": {
+    "ok": true,
+    "evidencia": "Frentes e respostas em português; Extra em inglês;6autorais sem reprovação dura no lint."
+  },
+  "hy_verde": {
+    "ok": true,
+    "evidencia": "9 AnKing HY 1–2: verdes ou com hy_repete/clinica_lateral justificado"
+  },
+  "tab_lido_por_amostra": {
+    "ok": false,
+    "pendente": "Tab não gerado nesta corrida (Codex depois); nada foi lido"
+  },
+  "erros_anteriores_do_memory": {
+    "ok": true,
+    "evidencia": "escopo pela regra de 12/10 (sem coleção de exemplos), cor justificada, pistas fora da figura"
+  },
+  "cards": {
+    "transducao": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "circuito-funcional": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "interneuronios": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "inducao-neural": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "fechamento-tubo": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "origem-central-periferica": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "prosencefalo": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "mesencefalo-origem": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "rombencefalo": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "metencefalo-adulto": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "mielencefalo-adulto": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "telencefalo-adulto": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "diencefalo-adulto": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "cavidade-telencefalo": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "cavidade-diencefalo": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "cavidade-mesencefalo": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "cavidade-metencefalo": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "cavidade-mielencefalo": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "glia-radial": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "poda-sinaptica": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "dendritos": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "axonio": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "soma": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "disparo-limiar": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "cicatriz-glial": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "potassio-glia": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "recaptacao-glia": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "oligodendrocito": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "oligodendrocito-varios": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "schwann": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "schwann-segmento": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "microglia": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "guillain-barre": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "esclerose-multipla": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "astrocitos-capilares": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "glia": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "gfap": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "ependima": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "satelites": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "sinapse-quimica": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sinapse-eletrica": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "liberacao-sinaptica": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "resposta-pos-sinaptica": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "saltatoria": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "canais-nodais": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "fibras-amielinicas": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "fibras-propriocepcao": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "fibras-tato": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "fibras-dor-frio": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "fibras-dor-calor": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "duas-dores": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "fibras-c": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "velocidade-comparacao": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "morfologias": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "pseudounipolar-trajeto": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "bipolar-local": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "pares-cranianos": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "snp-componentes": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "somatico-visceral": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sna-definicao": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "ramos-mistos": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "kh-1792328891560": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "kh-1792328894044": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "raiz-posterior-visual": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "cerebelo-visual": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "kh-1792261723219": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "kh-1792261725721": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "kh-1792261727072": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "hipotalamo-visual": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "branca-composicao": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "cinzenta-composicao": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "cortex-nucleos": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "kh-1792329743638": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "nucleo-ganglio": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "lamina-alar": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "lamina-basal": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "nucleos-cranianos-funcao": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "intumescencia-cervical": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "intumescencia-lombossacral": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "distais-laterais": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "extensores-ventrais": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "flexores-dorsais": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "somatotopia-definicao": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "walleriana": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "broca-fala": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "broca-localizacao": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "transporte-axonal": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "tracadores": {
+      "veredito": "corrigido",
+      "nota": "campos Text,Extra"
+    },
+    "imagem-estrutural": {
+      "veredito": "corrigido",
+      "nota": "campos Text"
+    },
+    "rm-estruturas": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "redes": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "ressonancia-funcional": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "rm-foco-visual": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "rm-foco-auditivo": {
+      "veredito": "corrigido",
+      "nota": "nota nova"
+    },
+    "sh-1792572870667": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792572870668": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792572870666": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792588686960": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792588686968": {
+      "veredito": "corrigido",
+      "nota": "campos Extra (CSS responsivo)"
+    },
+    "sh-1792588686971": {
+      "veredito": "corrigido",
+      "nota": "campos Extra (CSS responsivo)"
+    },
+    "sh-1792329944339": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792588686967": {
+      "veredito": "corrigido",
+      "nota": "campos Extra (CSS responsivo)"
+    },
+    "sh-1792329941889": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792588686961": {
+      "veredito": "corrigido",
+      "nota": "campos Extra (CSS responsivo)"
+    },
+    "sh-1792572870657": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870658": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870663": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870632": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792696993352": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792588686964": {
+      "veredito": "corrigido",
+      "nota": "campos Extra (CSS responsivo)"
+    },
+    "sh-1792265021996": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792697128629": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792572870664": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792572870665": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792697134127": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792697128829": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792697129084": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792697129283": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870669": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870659": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792572870656": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792572870672": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792572870660": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870662": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870708": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870701": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870704": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870678": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870651": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870676": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870677": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792697130129": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792697129929": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792329761318": {
+      "veredito": "corrigido",
+      "nota": "campos Text,Extra"
+    },
+    "sh-1792244864867": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792244863743": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792244863368": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792696997556": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792572870691": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792329455442": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792329455695": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792329761664": {
+      "veredito": "ok",
+      "nota": "lido no deck vivo: frente, verso, figura e cor conferem"
+    },
+    "sh-1792572870673": {
+      "veredito": "corrigido",
+      "nota": "campos Nome PT,MascaraP,Extra,MascaraR"
+    },
+    "sh-1792697128127": {
+      "veredito": "corrigido",
+      "nota": "campos Nome PT,MascaraP,Extra,MascaraR"
+    },
+    "sh-1792329455992": {
+      "veredito": "corrigido",
+      "nota": "campos Text"
+    },
+    "sh-1792329760618": {
+      "veredito": "corrigido",
+      "nota": "campos Text"
+    },
+    "sh-1792696994258": {
+      "veredito": "corrigido",
+      "nota": "campos Extra"
+    },
+    "sh-1792244862578": {
+      "veredito": "corrigido",
+      "nota": "campos Text,Extra"
+    }
+  }
+}

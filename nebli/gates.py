@@ -965,6 +965,8 @@ def fidelidade_ao_slide(run, plan):
 def plan_checks(run, plan):
     from nebli import lint_cards
     out = []
+    from nebli.uc07_cobertura import verificar as verificar_uc07
+    out += verificar_uc07(run, plan)
     from nebli.correcoes_vigentes import verificar as verificar_correcoes
     out += verificar_correcoes(run, plan)
     entries = plan["entries"]

@@ -1,0 +1,851 @@
+{
+ "aula": "Construção morfofuncional do SN,UC07P1,Gerson2026",
+ "lido_antes_da_selecao": true,
+ "slides": [
+  {
+   "numero": 1,
+   "classe": "capa",
+   "titulo": "Apresentação",
+   "justificativa": "capa, abertura ou encerramento, sem conteúdo"
+  },
+  {
+   "numero": 2,
+   "classe": "conteudo",
+   "titulo": "circuito; receptor",
+   "itens": [
+    {
+     "id": "u7an01v2-s02-circuito",
+     "texto": "Aferência leva informação ao centro, associação integra e eferência alcança o efetuador.",
+     "card": [
+      "circuito-funcional",
+      "interneuronios",
+      "sh-1792572870667",
+      "sh-1792572870668"
+     ]
+    },
+    {
+     "id": "u7an01v2-s02-receptor",
+     "texto": "Receptores convertem estímulos físicos ou químicos em sinais neurais que permitem uma resposta específica.",
+     "card": "transducao"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "classe": "conteudo",
+   "titulo": "neurulacao; vesiculas; metencefalo",
+   "itens": [
+    {
+     "id": "u7an01v2-s03-neurulacao",
+     "texto": "Placa neural dobra e fecha o tubo neural; tubo e crista dão origem a componentes diferentes do sistema nervoso.",
+     "card": [
+      "inducao-neural",
+      "fechamento-tubo",
+      "origem-central-periferica"
+     ]
+    },
+    {
+     "id": "u7an01v2-s03-vesiculas",
+     "texto": "Prosencéfalo origina telencéfalo e diencéfalo; rombencéfalo origina metencéfalo e mielencéfalo; mesencéfalo permanece.",
+     "card": [
+      "prosencefalo",
+      "mesencefalo-origem",
+      "rombencefalo"
+     ]
+    },
+    {
+     "id": "u7an01v2-s03-metencefalo",
+     "texto": "Ponte e cerebelo derivam do metencéfalo, enquanto o bulbo deriva do mielencéfalo.",
+     "card": [
+      "metencefalo-adulto",
+      "mielencefalo-adulto"
+     ]
+    },
+    {
+     "id": "u7an01v2-s03-audit-telencefalo-adulto",
+     "texto": "O  telencéfalo embrionário  origina os hemisférios cerebrais.",
+     "card": "telencefalo-adulto"
+    },
+    {
+     "id": "u7an01v2-s03-audit-diencefalo-adulto",
+     "texto": "O  diencéfalo embrionário  origina o tálamo e o hipotálamo.",
+     "card": "diencefalo-adulto"
+    },
+    {
+     "id": "u7an01v2-s03-audit-cavidade-telencefalo",
+     "texto": "A  cavidade do telencéfalo  origina os ventrículos laterais.",
+     "card": "cavidade-telencefalo"
+    },
+    {
+     "id": "u7an01v2-s03-audit-cavidade-diencefalo",
+     "texto": "A  cavidade do diencéfalo  origina o terceiro ventrículo.",
+     "card": "cavidade-diencefalo"
+    },
+    {
+     "id": "u7an01v2-s03-audit-cavidade-mesencefalo",
+     "texto": "A  cavidade do mesencéfalo  permanece como aqueduto cerebral.",
+     "card": "cavidade-mesencefalo"
+    },
+    {
+     "id": "u7an01v2-s03-audit-cavidade-metencefalo",
+     "texto": "O  metencéfalo  contribui para a porção superior da cavidade do quarto ventrículo.",
+     "card": "cavidade-metencefalo"
+    },
+    {
+     "id": "u7an01v2-s03-audit-cavidade-mielencefalo",
+     "texto": "O  mielencéfalo  contribui para a porção inferior da cavidade do quarto ventrículo.",
+     "card": "cavidade-mielencefalo"
+    },
+    {
+     "id": "u7an01v2-s03-audit-glia-radial",
+     "texto": "Na  migração cortical embrionária , neurônios utilizam prolongamentos da glia radial como suporte.",
+     "card": "glia-radial"
+    },
+    {
+     "id": "u7an01v2-s03-audit-poda-sinaptica",
+     "texto": "A poda sináptica elimina conexões em excesso durante a  maturação neural .",
+     "card": "poda-sinaptica"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "classe": "conteudo",
+   "titulo": "neuronio",
+   "itens": [
+    {
+     "id": "u7an01v2-s04-neuronio",
+     "texto": "Dendritos e soma recebem e integram sinais; o axônio conduz sinais para outras células.",
+     "card": [
+      "dendritos",
+      "axonio"
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "classe": "conteudo",
+   "titulo": "soma",
+   "itens": [
+    {
+     "id": "u7an01v2-s05-soma",
+     "texto": "O corpo celular mantém metabolicamente o neurônio e sustenta seus prolongamentos.",
+     "card": "soma"
+    },
+    {
+     "id": "u7an01v2-s05-audit-disparo-limiar",
+     "texto": "O  potencial de ação  inicia quando a despolarização alcança o limiar no segmento inicial do axônio.",
+     "card": "disparo-limiar"
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "classe": "conteudo",
+   "titulo": "astrocito; microglia; mielinizadores; mielina-clinica",
+   "itens": [
+    {
+     "id": "u7an01v2-s06-astrocito",
+     "texto": "Astrócitos sustentam o ambiente neuronal, participam da relação com capilares e da cicatriz glial.",
+     "card": [
+      "cicatriz-glial",
+      "potassio-glia",
+      "recaptacao-glia",
+      "astrocitos-capilares",
+      "gfap"
+     ]
+    },
+    {
+     "id": "u7an01v2-s06-microglia",
+     "texto": "Micróglia realiza defesa fagocitária e difere das células que formam mielina.",
+     "card": [
+      "microglia",
+      "glia"
+     ]
+    },
+    {
+     "id": "u7an01v2-s06-mielinizadores",
+     "texto": "Oligodendrócitos mielinizam no sistema central e células de Schwann no periférico.",
+     "card": [
+      "oligodendrocito",
+      "oligodendrocito-varios",
+      "schwann",
+      "schwann-segmento"
+     ]
+    },
+    {
+     "id": "u7an01v2-s06-mielina-clinica",
+     "texto": "A mesma perda de mielina compromete a condução, mas sua localização central ou periférica distingue aplicações clínicas básicas.",
+     "card": [
+      "guillain-barre",
+      "esclerose-multipla",
+      "oligodendrocito",
+      "schwann"
+     ]
+    },
+    {
+     "id": "u7an01v2-s06-audit-ependima",
+     "texto": "Os  ventrículos encefálicos  são revestidos por células ependimárias.",
+     "card": "ependima"
+    },
+    {
+     "id": "u7an01v2-s06-audit-satelites",
+     "texto": "Nos  gânglios periféricos , células satélites envolvem os corpos neuronais.",
+     "card": "satelites"
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "classe": "conteudo",
+   "titulo": "sinapses; liberacao",
+   "itens": [
+    {
+     "id": "u7an01v2-s07-sinapses",
+     "texto": "Sinapses elétricas passam corrente entre células; sinapses químicas usam neurotransmissor entre elementos pré e pós-sinápticos.",
+     "card": [
+      "sinapse-quimica",
+      "sinapse-eletrica"
+     ]
+    },
+    {
+     "id": "u7an01v2-s07-liberacao",
+     "texto": "O terminal pré-sináptico libera neurotransmissor que age em receptores pós-sinápticos, ligando a condução axonal à comunicação entre células.",
+     "card": "liberacao-sinaptica"
+    },
+    {
+     "id": "u7an01v2-s07-audit-resposta-pos-sinaptica",
+     "texto": "Um  potencial pós-sináptico  excitatório despolariza a célula.",
+     "card": "resposta-pos-sinaptica"
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "classe": "conteudo",
+   "titulo": "saltatoria",
+   "itens": [
+    {
+     "id": "u7an01v2-s08-saltatoria",
+     "texto": "Mielina isola internódulos e potenciais de ação regeneram nos nós de Ranvier, acelerando a condução.",
+     "card": [
+      "saltatoria",
+      "canais-nodais",
+      "sh-1792572870666"
+     ]
+    },
+    {
+     "id": "u7an01v2-s08-audit-fibras-amielinicas",
+     "texto": "No  SNP , axônios amielínicos também recebem suporte de células de Schwann.",
+     "card": "fibras-amielinicas"
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "classe": "conteudo",
+   "titulo": "velocidade; fibras-sensoriais; primeira-dor",
+   "itens": [
+    {
+     "id": "u7an01v2-s09-velocidade",
+     "texto": "Fibras de maior diâmetro e mielinizadas conduzem mais rapidamente que fibras pequenas e amielínicas.",
+     "card": "fibras-c"
+    },
+    {
+     "id": "u7an01v2-s09-fibras-sensoriais",
+     "texto": "A alfa transmite propriocepção e A beta mecanossensação; A delta e C transmitem modalidades de dor e temperatura.",
+     "card": [
+      "fibras-propriocepcao",
+      "fibras-tato",
+      "fibras-dor-frio",
+      "fibras-dor-calor"
+     ]
+    },
+    {
+     "id": "u7an01v2-s09-primeira-dor",
+     "texto": "Fibras A delta mielinizadas explicam a dor inicial rápida; fibras C amielínicas explicam a dor lenta subsequente.",
+     "card": "duas-dores"
+    },
+    {
+     "id": "u7an01v2-s09-audit-velocidade-comparacao",
+     "texto": "Na  classificação das fibras sensitivas , o grupo de maior diâmetro e velocidade é Aα (I).",
+     "card": "velocidade-comparacao"
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "classe": "conteudo",
+   "titulo": "morfologias; pseudounipolar",
+   "itens": [
+    {
+     "id": "u7an01v2-s10-morfologias",
+     "texto": "Multipolares têm vários dendritos; bipolares dois prolongamentos; pseudounipolares um prolongamento que bifurca.",
+     "card": "morfologias"
+    },
+    {
+     "id": "u7an01v2-s10-pseudounipolar",
+     "texto": "No neurônio pseudounipolar sensitivo o ramo periférico continua no ramo central e o soma fica lateral ao trajeto.",
+     "card": "pseudounipolar-trajeto"
+    },
+    {
+     "id": "u7an01v2-s10-audit-bipolar-local",
+     "texto": "Na  via visual , neurônios bipolares são encontrados na retina.",
+     "card": "bipolar-local"
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "classe": "conteudo",
+   "titulo": "snc-snp; encefalo; somatico-visceral; autonomo; pares-nervos",
+   "itens": [
+    {
+     "id": "u7an01v2-s11-snc-snp",
+     "texto": "Encéfalo e medula compõem o central; nervos, gânglios e terminações compõem o periférico.",
+     "card": [
+      "snp-componentes",
+      "sh-1792588686960"
+     ]
+    },
+    {
+     "id": "u7an01v2-s11-encefalo",
+     "texto": "O encéfalo compreende cérebro, cerebelo e tronco encefálico; o tronco contém mesencéfalo, ponte e bulbo.",
+     "card": [
+      "sh-1792588686968",
+      "sh-1792588686971"
+     ]
+    },
+    {
+     "id": "u7an01v2-s11-somatico-visceral",
+     "texto": "Somático e visceral descrevem domínios funcionais, e ambos podem ter aferência e eferência.",
+     "card": [
+      "somatico-visceral",
+      "sh-1792329944339"
+     ]
+    },
+    {
+     "id": "u7an01v2-s11-autonomo",
+     "texto": "O sistema autônomo corresponde à eferência visceral e inclui simpático e parassimpático.",
+     "card": [
+      "sh-1792588686967",
+      "sh-1792588686961"
+     ]
+    },
+    {
+     "id": "u7an01v2-s11-pares-nervos",
+     "texto": "Há doze pares de nervos cranianos e trinta e um pares de nervos espinais.",
+     "card": [
+      "pares-cranianos",
+      "sh-1792329941889"
+     ]
+    },
+    {
+     "id": "u7an01v2-s11-audit-sh-1792572870657",
+     "texto": "Reconhecer sem legenda Diencéfalo e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870657"
+    },
+    {
+     "id": "u7an01v2-s11-audit-sh-1792572870658",
+     "texto": "Reconhecer sem legenda Tronco encefálico e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870658"
+    },
+    {
+     "id": "u7an01v2-s11-audit-sh-1792572870663",
+     "texto": "Reconhecer sem legenda Mesencéfalo e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870663"
+    },
+    {
+     "id": "u7an01v2-s11-audit-sh-1792572870632",
+     "texto": "Reconhecer sem legenda Ponte e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870632"
+    },
+    {
+     "id": "u7an01v2-s11-audit-sh-1792696993352",
+     "texto": "Reconhecer sem legenda Bulbo e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792696993352"
+    },
+    {
+     "id": "u7an01v2-s11-audit-sna-definicao",
+     "texto": "A  eferência visceral  constitui o sistema nervoso autônomo.",
+     "card": "sna-definicao"
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "classe": "conteudo",
+   "titulo": "raizes; ganglio; ramos",
+   "itens": [
+    {
+     "id": "u7an01v2-s12-raizes",
+     "texto": "Raiz dorsal leva aferências e raiz ventral leva eferências; a união forma um nervo espinal misto.",
+     "card": [
+      "sh-1792588686964",
+      "sh-1792572870664"
+     ]
+    },
+    {
+     "id": "u7an01v2-s12-ganglio",
+     "texto": "Corpos dos neurônios sensitivos primários ficam no gânglio da raiz dorsal, fora da medula.",
+     "card": [
+      "sh-1792265021996",
+      "sh-1792572870665"
+     ]
+    },
+    {
+     "id": "u7an01v2-s12-ramos",
+     "texto": "Após a união das raízes, ramos anterior e posterior são mistos; plexos são formados pela reunião de ramos anteriores.",
+     "card": [
+      "ramos-mistos",
+      "sh-1792697128629"
+     ]
+    },
+    {
+     "id": "u7an01v2-s12-audit-sh-1792697134127",
+     "texto": "Reconhecer sem legenda Raiz anterior do nervo espinal e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792697134127"
+    },
+    {
+     "id": "u7an01v2-s12-audit-kh-1792328891560",
+     "texto": "Reconhecer sem legenda Ramo anterior do nervo espinal e distinguir sua posição das estruturas vizinhas.",
+     "card": "kh-1792328891560"
+    },
+    {
+     "id": "u7an01v2-s12-audit-kh-1792328894044",
+     "texto": "Reconhecer sem legenda Ramo posterior e distinguir sua posição das estruturas vizinhas.",
+     "card": "kh-1792328894044"
+    },
+    {
+     "id": "u7an01v2-s12-audit-sh-1792697128829",
+     "texto": "Reconhecer sem legenda Plexo cervical e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792697128829"
+    },
+    {
+     "id": "u7an01v2-s12-audit-sh-1792697129084",
+     "texto": "Reconhecer sem legenda Plexo braquial e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792697129084"
+    },
+    {
+     "id": "u7an01v2-s12-audit-sh-1792697129283",
+     "texto": "Reconhecer sem legenda Plexo lombar e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792697129283"
+    },
+    {
+     "id": "u7an01v2-s12-audit-sh-1792572870669",
+     "texto": "Reconhecer sem legenda Plexo sacral e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870669"
+    },
+    {
+     "id": "u7an01v2-s12-audit-raiz-posterior-visual",
+     "texto": " Qual estrutura a seta indica?  Raiz posterior  ",
+     "card": "raiz-posterior-visual"
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "classe": "conteudo",
+   "titulo": "regioes",
+   "itens": [
+    {
+     "id": "u7an01v2-s13-regioes",
+     "texto": "Cérebro, cerebelo, tronco e medula podem ser situados em vistas distintas sem confundir orientação.",
+     "card": [
+      "cerebelo-visual",
+      "sh-1792572870659",
+      "sh-1792572870656",
+      "sh-1792572870672"
+     ]
+    },
+    {
+     "id": "u7an01v2-s13-audit-sh-1792572870660",
+     "texto": "Reconhecer sem legenda Lobo frontal e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870660"
+    },
+    {
+     "id": "u7an01v2-s13-audit-kh-1792261723219",
+     "texto": "Reconhecer sem legenda Lobo parietal e distinguir sua posição das estruturas vizinhas.",
+     "card": "kh-1792261723219"
+    },
+    {
+     "id": "u7an01v2-s13-audit-kh-1792261725721",
+     "texto": "Reconhecer sem legenda Lobo temporal e distinguir sua posição das estruturas vizinhas.",
+     "card": "kh-1792261725721"
+    },
+    {
+     "id": "u7an01v2-s13-audit-sh-1792572870662",
+     "texto": "Reconhecer sem legenda Lobo insular e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870662"
+    },
+    {
+     "id": "u7an01v2-s13-audit-kh-1792261727072",
+     "texto": "Reconhecer sem legenda Lobo occipital e distinguir sua posição das estruturas vizinhas.",
+     "card": "kh-1792261727072"
+    },
+    {
+     "id": "u7an01v2-s13-audit-sh-1792572870708",
+     "texto": "Reconhecer sem legenda Sulco central e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870708"
+    },
+    {
+     "id": "u7an01v2-s13-audit-hipotalamo-visual",
+     "texto": " Qual estrutura a seta indica?  Hipotálamo   ",
+     "card": "hipotalamo-visual"
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "classe": "conteudo",
+   "titulo": "cinzenta-branca; cortex-nucleos",
+   "itens": [
+    {
+     "id": "u7an01v2-s14-cinzenta-branca",
+     "texto": "Substância cinzenta concentra somas e circuitos locais; substância branca concentra axônios predominantemente mielinizados.",
+     "card": [
+      "branca-composicao",
+      "cinzenta-composicao"
+     ]
+    },
+    {
+     "id": "u7an01v2-s14-cortex-nucleos",
+     "texto": "Córtex é cinzenta superficial; núcleos são agregados de cinzenta profundos e coexistem com substância branca central.",
+     "card": "cortex-nucleos"
+    },
+    {
+     "id": "u7an01v2-s14-audit-sh-1792572870701",
+     "texto": "Reconhecer sem legenda Corpo caloso e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870701"
+    },
+    {
+     "id": "u7an01v2-s14-audit-sh-1792572870704",
+     "texto": "Reconhecer sem legenda Ventrículo lateral e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870704"
+    },
+    {
+     "id": "u7an01v2-s14-audit-sh-1792572870678",
+     "texto": "Reconhecer sem legenda Cápsula interna e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870678"
+    },
+    {
+     "id": "u7an01v2-s14-audit-sh-1792572870651",
+     "texto": "Reconhecer sem legenda Tálamo e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870651"
+    },
+    {
+     "id": "u7an01v2-s14-audit-sh-1792572870676",
+     "texto": "Reconhecer sem legenda Substância branca e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870676"
+    },
+    {
+     "id": "u7an01v2-s14-audit-sh-1792572870677",
+     "texto": "Reconhecer sem legenda Substância cinzenta e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870677"
+    },
+    {
+     "id": "u7an01v2-s14-audit-kh-1792329743638",
+     "texto": "Reconhecer sem legenda Canal central da medula espinal e distinguir sua posição das estruturas vizinhas.",
+     "card": "kh-1792329743638"
+    },
+    {
+     "id": "u7an01v2-s14-audit-sh-1792697130129",
+     "texto": "Reconhecer sem legenda Corno posterior da medula espinal e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792697130129"
+    },
+    {
+     "id": "u7an01v2-s14-audit-sh-1792697129929",
+     "texto": "Reconhecer sem legenda Corno anterior da medula espinal e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792697129929"
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "classe": "conteudo",
+   "titulo": "nucleo-ganglio",
+   "itens": [
+    {
+     "id": "u7an01v2-s15-nucleo-ganglio",
+     "texto": "Agregados de corpos neuronais são chamados núcleos no sistema central e gânglios no periférico.",
+     "card": "nucleo-ganglio"
+    },
+    {
+     "id": "u7an01v2-s15-audit-lamina-alar",
+     "texto": "No  tubo neural embrionário , a lâmina alar origina componentes sensitivos.",
+     "card": "lamina-alar"
+    },
+    {
+     "id": "u7an01v2-s15-audit-lamina-basal",
+     "texto": "No  tubo neural embrionário , a lâmina basal origina componentes motores.",
+     "card": "lamina-basal"
+    },
+    {
+     "id": "u7an01v2-s15-audit-sh-1792329761318",
+     "texto": "Motoneurônios inferiores ficam no corno anterior medular e em  núcleos motores cranianos  do tronco.",
+     "card": "sh-1792329761318"
+    },
+    {
+     "id": "u7an01v2-s15-audit-nucleos-cranianos-funcao",
+     "texto": "  Núcleos cranianos no tronco : Recebem  aferências dos nervos cranianos : sensitivos Originam  eferências para efetores : motores ",
+     "card": "nucleos-cranianos-funcao"
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "classe": "conteudo",
+   "titulo": "tronco-seccoes",
+   "itens": [
+    {
+     "id": "u7an01v2-s16-tronco-seccoes",
+     "texto": "Cortes do mesencéfalo, ponte e bulbo diferem pela relação entre cavidade ventricular e estruturas ventrais.",
+     "card": [
+      "sh-1792244864867",
+      "sh-1792244863743",
+      "sh-1792244863368"
+     ]
+    },
+    {
+     "id": "u7an01v2-s16-audit-sh-1792696997556",
+     "texto": "Reconhecer sem legenda Aqueduto mesencefálico e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792696997556"
+    },
+    {
+     "id": "u7an01v2-s16-audit-sh-1792572870691",
+     "texto": "Reconhecer sem legenda Quarto ventrículo e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870691"
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "classe": "conteudo",
+   "titulo": "medula-cinzenta; intumescencias; branca-rostral",
+   "itens": [
+    {
+     "id": "u7an01v2-s17-medula-cinzenta",
+     "texto": "Na medula a cinzenta é central e a branca periférica; a distribuição muda conforme o nível.",
+     "card": [
+      "sh-1792329455442",
+      "sh-1792329455695"
+     ]
+    },
+    {
+     "id": "u7an01v2-s17-intumescencias",
+     "texto": "As intumescências cervical e lombossacral contêm mais neurônios para inervar os membros.",
+     "card": [
+      "intumescencia-cervical",
+      "intumescencia-lombossacral"
+     ]
+    },
+    {
+     "id": "u7an01v2-s17-branca-rostral",
+     "texto": "Níveis rostrais da medula têm mais substância branca pela acumulação de vias ascendentes e descendentes.",
+     "card": "sh-1792329761664"
+    },
+    {
+     "id": "u7an01v2-s17-audit-sh-1792572870673",
+     "texto": "Reconhecer sem legenda Intumescência cervical e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792572870673"
+    },
+    {
+     "id": "u7an01v2-s17-audit-sh-1792697128127",
+     "texto": "Reconhecer sem legenda Intumescência lombossacral e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792697128127"
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "classe": "conteudo",
+   "titulo": "corno-ventral; somatotopia; flexores",
+   "itens": [
+    {
+     "id": "u7an01v2-s18-corno-ventral",
+     "texto": "O corno anterior contém motoneurônios somáticos; o posterior participa do processamento sensitivo.",
+     "card": "sh-1792329455992"
+    },
+    {
+     "id": "u7an01v2-s18-somatotopia",
+     "texto": "Motoneurônios mediais relacionam-se a músculos axiais; laterais aos músculos distais dos membros.",
+     "card": "distais-laterais"
+    },
+    {
+     "id": "u7an01v2-s18-flexores",
+     "texto": "No corno anterior, grupos dorsais inervam flexores e ventrais inervam extensores.",
+     "card": [
+      "extensores-ventrais",
+      "flexores-dorsais"
+     ]
+    },
+    {
+     "id": "u7an01v2-s18-audit-somatotopia-definicao",
+     "texto": "O  mapeamento ordenado do corpo no SNC  chama-se somatotopia.",
+     "card": "somatotopia-definicao"
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "classe": "conteudo",
+   "titulo": "corticoespinal",
+   "itens": [
+    {
+     "id": "u7an01v2-s19-corticoespinal",
+     "texto": "Degeneração após lesão permite acompanhar uma via; o cruzamento piramidal explica a mudança do lado dos déficits.",
+     "card": "sh-1792329760618"
+    },
+    {
+     "id": "u7an01v2-s19-audit-sh-1792696994258",
+     "texto": "Reconhecer sem legenda Pirâmides do bulbo raquidiano e distinguir sua posição das estruturas vizinhas.",
+     "card": "sh-1792696994258"
+    },
+    {
+     "id": "u7an01v2-s19-audit-walleriana",
+     "texto": "Após  lesão axonal , a degeneração walleriana ocorre distalmente ao local lesado.",
+     "card": "walleriana"
+    },
+    {
+     "id": "u7an01v2-s19-audit-sh-1792244862578",
+     "texto": "A maioria das  fibras corticoespinais  cruza na decussação piramidal, no bulbo caudal.",
+     "card": "sh-1792244862578"
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "classe": "conteudo",
+   "titulo": "broca",
+   "itens": [
+    {
+     "id": "u7an01v2-s20-broca",
+     "texto": "Lesão de uma região pode comprometer uma função específica; a observação de Broca relaciona linguagem expressiva ao frontal dominante.",
+     "card": "broca-fala"
+    },
+    {
+     "id": "u7an01v2-s20-audit-broca-localizacao",
+     "texto": "A  área de Broca  situa-se no giro frontal inferior do hemisfério dominante.",
+     "card": "broca-localizacao"
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "classe": "conteudo",
+   "titulo": "tracadores",
+   "itens": [
+    {
+     "id": "u7an01v2-s21-tracadores",
+     "texto": "Transporte anterógrado revela destinos axonais e retrógrado revela corpos celulares que enviam projeções.",
+     "card": [
+      "transporte-axonal",
+      "tracadores"
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "classe": "conteudo",
+   "titulo": "imagem-estrutural",
+   "itens": [
+    {
+     "id": "u7an01v2-s22-imagem-estrutural",
+     "texto": "O plano anatômico orienta a correspondência entre corte e imagem estrutural do encéfalo.",
+     "card": "imagem-estrutural"
+    },
+    {
+     "id": "u7an01v2-s22-audit-rm-estruturas",
+     "texto": "  RM sagital, estruturas apontadas :  A : Corpo caloso  B : Ponte  C : Cerebelo ",
+     "card": "rm-estruturas"
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "classe": "conteudo",
+   "titulo": "redes",
+   "itens": [
+    {
+     "id": "u7an01v2-s23-redes",
+     "texto": "Atividades complexas recrutam regiões conectadas com contribuições diferentes, em vez de uma região executar tudo.",
+     "card": "redes"
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "classe": "conteudo",
+   "titulo": "imagem-funcional",
+   "itens": [
+    {
+     "id": "u7an01v2-s24-imagem-funcional",
+     "texto": "Imagem estrutural mostra a anatomia, enquanto imagem funcional associa atividade a tarefas diferentes.",
+     "card": "ressonancia-funcional"
+    },
+    {
+     "id": "u7an01v2-s24-audit-rm-foco-visual",
+     "texto": "O  foco posterior ao olhar palavras , nesta imagem funcional, está no lobo occipital.",
+     "card": "rm-foco-visual"
+    },
+    {
+     "id": "u7an01v2-s24-audit-rm-foco-auditivo",
+     "texto": "O  foco lateral ao ouvir palavras , nesta imagem funcional, está no lobo temporal.",
+     "card": "rm-foco-auditivo"
+    }
+   ]
+  }
+ ],
+ "capitulo": [
+  {
+   "secao": "Machado cap1",
+   "itens": [
+    {
+     "id": "u7an01v2-cap-circuito-livro",
+     "texto": "Especialização aferência,associação e eferência",
+     "card": [
+      "circuito-funcional",
+      "interneuronios"
+     ]
+    }
+   ]
+  },
+  {
+   "secao": "Machado cap2",
+   "itens": [
+    {
+     "id": "u7an01v2-cap-origem-divisoes-livro",
+     "texto": "Desenvolvimento e organização central/periférica",
+     "card": [
+      "inducao-neural",
+      "origem-central-periferica",
+      "snp-componentes"
+     ]
+    }
+   ]
+  },
+  {
+   "secao": "Machado cap3",
+   "itens": [
+    {
+     "id": "u7an01v2-cap-celulas-comunicacao-livro",
+     "texto": "Neurônio,neuroglia,sinapses e transporte",
+     "card": [
+      "soma",
+      "microglia",
+      "sinapse-quimica",
+      "tracadores"
+     ]
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "fonte": "Apostila-guia,Aula1,p9–15",
+   "itens": []
+  }
+ ]
+}

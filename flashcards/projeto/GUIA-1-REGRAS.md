@@ -26,6 +26,8 @@ A pergunta de todo card: **"isso agrega algo no conhecimento ou está só para f
 
 ## 1. Que cards entram
 
+- **UC07: básico agora, IO regional na aula própria** (F-20261105-CODEX-06/07). Identificar estruturas maiores com Kenhub disponível; categoria ampla ou nome no Extra não substitui reconhecimento. Detalhes de núcleos/feixes/cortes têm destino explícito e só contam como cobertos após conferência dos cards vivos na aula correspondente. Não inserir todo rótulo apenas porque há um candidato no acervo.
+
 - **Cobrir a aula inteira.** "Sinto que faltou informação no deck como um todo." Todo item do slide, do quiz e das provas tem card ou motivo escrito para ficar fora. Deck raso é o erro mais caro.
 - **AnKing e acervos primeiro**, todos os irmãos; autoral só para lacuna provada. O AnKing é o modelo de forma: "os do AnKing são melhores".
 - **Cobertura vem antes do teto de autoral.** "Avalia se a aula toda tá coberta, que é mais importante que o teto de 30%." Quando o acervo não cobre: buscar de novo com sinônimos em todos os acervos, juntar em organizador, e só então autoral — mesmo acima de 30%. Nunca cortar item da aula para caber no teto.

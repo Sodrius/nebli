@@ -1,0 +1,1818 @@
+{
+  "cards_sha": "76ec8537e394dd5a76557440902644293dfbd2d5584380dc16dc416d5371b98c",
+  "banco_sha": "6ba8d9c8c027513ca879b04bf06e27cda455806782b4e081e9c745544f90bd1e",
+  "cards": {
+    "transducao": {
+      "caso": 1791000311352,
+      "comparacao": "Como «movement of ions ... known as solvent drag», recupera o nome de uma transformação definida, aqui «conversão de estímulos sensoriais em sinais elétricos». A mudança de transporte intestinal para recepção sensorial preserva a relação processo→nome; o arco mostra o estímulo periférico e o caminho neural.",
+      "veredito": "aprovado",
+      "motivo": "Transdução nomeia o passo que torna a energia sensorial utilizável pelo circuito; não é uma sigla entregue nem repete a direção aferente.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::transdução}}",
+          "resposta_esperada": "transdução",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Transdução nomeia o passo que torna a energia sensorial utilizável pelo circuito; não é uma sigla entregue nem repete a direção aferente. Alvo recuperado nesta ocorrência: transdução."
+        }
+      ]
+    },
+    "circuito-funcional": {
+      "caso": 1792588686964,
+      "comparacao": "O caso «Raiz anterior — axônios eferentes / posterior — aferentes» distingue fluxo neural pelo sentido. O novo organizador usa o eixo entrada/saída do centro; alvos de cada linha: aferente para entrada e eferente para saída. Recupera a direção sem já mostrar esses nomes, apoiado nas setas do arco real.",
+      "veredito": "aprovado",
+      "motivo": "O contraste entrada versus saída estrutura o arco reflexo. A identidade da célula de associação permanece um ganho separado em interneuronios.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::aferente}}",
+          "resposta_esperada": "aferente",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O contraste entrada versus saída estrutura o arco reflexo. A identidade da célula de associação permanece um ganho separado em interneuronios. Alvo recuperado nesta ocorrência: aferente."
+        },
+        {
+          "cloze": "{{c1::eferente}}",
+          "resposta_esperada": "eferente",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O contraste entrada versus saída estrutura o arco reflexo. A identidade da célula de associação permanece um ganho separado em interneuronios. Alvo recuperado nesta ocorrência: eferente."
+        }
+      ],
+      "avulsos_cobertos": {
+        "busca": "Consultas reais E4 por sensory afferent interneuron efferent motor reflex receptor; seções e candidatos-vivos.json lidos.",
+        "decisoes": [
+          {
+            "nid": 1554954906033,
+            "acao": "manter",
+            "motivo": "No plan.json é interneuronios: recupera célula de associação e destino motoneuronal. O organizador só nomeia entrada/saída e não cobra esse elo integrador."
+          }
+        ],
+        "nenhum_porquê": "Não há avulso redundante selecionado no novo deck neste eixo; notas antigas remanescentes ficam na reserva histórica,sem exclusão de estudo."
+      }
+    },
+    "interneuronios": {
+      "caso": 1791625426833,
+      "comparacao": "No exemplar, «proteasome ... TAP delivers ... MHC I» exige recuperar agentes sucessivos de uma via. Aqui «interneurônios conectam vias sensitivas a motoneurônios» recupera o elo integrador e seu destino motor, mostrado como relay neuron e motor neuron na figura. O Extra delimita a exceção monossináptica.",
+      "veredito": "aprovado",
+      "motivo": "O elo interneurônio→motoneurônio acrescenta integração à direção aferente/eferente e explica a conexão do arco polissináptico, sem afirmar que todo arco exige interneurônio.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::interneurônios}}",
+          "resposta_esperada": "interneurônios",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O elo interneurônio→motoneurônio acrescenta integração à direção aferente/eferente e explica a conexão do arco polissináptico, sem afirmar que todo arco exige interneurônio. Alvo recuperado nesta ocorrência: interneurônios."
+        },
+        {
+          "cloze": "{{c2::motoneurônios}}",
+          "resposta_esperada": "motoneurônios",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O elo interneurônio→motoneurônio acrescenta integração à direção aferente/eferente e explica a conexão do arco polissináptico, sem afirmar que todo arco exige interneurônio. Alvo recuperado nesta ocorrência: motoneurônios."
+        }
+      ]
+    },
+    "inducao-neural": {
+      "caso": 1792659586974,
+      "comparacao": "O bom caso «epithelium and glands: endoderm» liga origem embrionária a tecido. «notocorda induz ... placa neural» vai além da derivação: identifica indutor e tecido induzido. O corte mostra notocorda sob neuroectoderma, permitindo situar a relação causal na neurulação.",
+      "veredito": "aprovado",
+      "motivo": "Indutor notocordal e placa neural constituem o começo da cadeia de desenvolvimento; são diferentes das pregas que se fundirão depois.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::notocorda}}",
+          "resposta_esperada": "notocorda",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Indutor notocordal e placa neural constituem o começo da cadeia de desenvolvimento; são diferentes das pregas que se fundirão depois. Alvo recuperado nesta ocorrência: notocorda."
+        },
+        {
+          "cloze": "{{c1::placa neural}}",
+          "resposta_esperada": "placa neural",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Indutor notocordal e placa neural constituem o começo da cadeia de desenvolvimento; são diferentes das pregas que se fundirão depois. Alvo recuperado nesta ocorrência: placa neural."
+        }
+      ]
+    },
+    "fechamento-tubo": {
+      "caso": 1792659588552,
+      "comparacao": "«Rotation ... pulls ... opening the omental bursa» recupera a transformação morfológica que produz uma estrutura. Aqui «pregas ... fundem-se ... tubo neural» conserva processo→produto. A sequência visual mostra bordas aproximando-se e um tubo fechado, não apenas uma lista de nomes.",
+      "veredito": "aprovado",
+      "motivo": "Pregas neurais e tubo neural ligam movimento de fechamento ao resultado anatômico e preparam a separação entre tubo e crista.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::pregas neurais}}",
+          "resposta_esperada": "pregas neurais",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Pregas neurais e tubo neural ligam movimento de fechamento ao resultado anatômico e preparam a separação entre tubo e crista. Alvo recuperado nesta ocorrência: pregas neurais."
+        },
+        {
+          "cloze": "{{c1::tubo neural}}",
+          "resposta_esperada": "tubo neural",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Pregas neurais e tubo neural ligam movimento de fechamento ao resultado anatômico e preparam a separação entre tubo e crista. Alvo recuperado nesta ocorrência: tubo neural."
+        }
+      ]
+    },
+    "origem-central-periferica": {
+      "caso": 1792659586974,
+      "comparacao": "O exemplar contrasta «endoderm» e «splanchnic mesoderm» pelo tecido produzido. O novo contrasta «crista ... periférico» e «tubo ... central» pelo território formado. As duas respostas são apagadas juntas e a imagem diferencia crista e tubo; o Extra preserva a exceção da micróglia.",
+      "veredito": "aprovado",
+      "motivo": "Distinguir os destinos central e periférico das duas origens é uma relação embrionária durável; não se reduz ao fechamento mecânico do tubo.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::periférico}}",
+          "resposta_esperada": "periférico",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Distinguir os destinos central e periférico das duas origens é uma relação embrionária durável; não se reduz ao fechamento mecânico do tubo. Alvo recuperado nesta ocorrência: periférico."
+        },
+        {
+          "cloze": "{{c1::central}}",
+          "resposta_esperada": "central",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Distinguir os destinos central e periférico das duas origens é uma relação embrionária durável; não se reduz ao fechamento mecânico do tubo. Alvo recuperado nesta ocorrência: central."
+        }
+      ]
+    },
+    "prosencefalo": {
+      "caso": 1792659591802,
+      "comparacao": "«Cephalic limb forms jejunum and ileum» associa um precursor às suas duas derivações. «prosencéfalo ... telencéfalo e diencéfalo» pede a mesma relação embrionária com recuperação também do precursor. A figura contém a bifurcação e situa as vesículas no eixo encefálico.",
+      "veredito": "aprovado",
+      "motivo": "As duas derivações do prosencéfalo são o ramo anterior essencial do mapa de vesículas, sem duplicar os derivados do rombencéfalo.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c3::prosencéfalo}}",
+          "resposta_esperada": "prosencéfalo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "As duas derivações do prosencéfalo são o ramo anterior essencial do mapa de vesículas, sem duplicar os derivados do rombencéfalo. Alvo recuperado nesta ocorrência: prosencéfalo."
+        },
+        {
+          "cloze": "{{c1::telencéfalo}}",
+          "resposta_esperada": "telencéfalo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "As duas derivações do prosencéfalo são o ramo anterior essencial do mapa de vesículas, sem duplicar os derivados do rombencéfalo. Alvo recuperado nesta ocorrência: telencéfalo."
+        },
+        {
+          "cloze": "{{c2::diencéfalo}}",
+          "resposta_esperada": "diencéfalo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "As duas derivações do prosencéfalo são o ramo anterior essencial do mapa de vesículas, sem duplicar os derivados do rombencéfalo. Alvo recuperado nesta ocorrência: diencéfalo."
+        }
+      ]
+    },
+    "mesencefalo-origem": {
+      "caso": 1792588686980,
+      "comparacao": "O caso «mesencéfalo: aqueduto cerebral» relaciona região embrionária e destino. Aqui «vesícula média mantém-se como mesencéfalo» exige posição e continuidade entre etapas; o Extra explicita «does not split». A figura mostra o mesmo segmento amarelo nas duas fases.",
+      "veredito": "aprovado",
+      "motivo": "A permanência da vesícula média distingue o mesencéfalo dos ramos que se subdividem; a posição é contexto anatômico, sem pista de sigla curta.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::média}}",
+          "resposta_esperada": "média",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A permanência da vesícula média distingue o mesencéfalo dos ramos que se subdividem; a posição é contexto anatômico, sem pista de sigla curta. Alvo recuperado nesta ocorrência: média."
+        },
+        {
+          "cloze": "{{c1::mesencéfalo}}",
+          "resposta_esperada": "mesencéfalo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A permanência da vesícula média distingue o mesencéfalo dos ramos que se subdividem; a posição é contexto anatômico, sem pista de sigla curta. Alvo recuperado nesta ocorrência: mesencéfalo."
+        }
+      ]
+    },
+    "rombencefalo": {
+      "caso": 1792659591802,
+      "comparacao": "Assim como «Caudal limb forms cecum and ascending colon», o novo «rombencéfalo origina metencéfalo e mielencéfalo» liga precursor caudal a duas derivações. Os três índices testam as ligações do ramo; a figura mostra a bifurcação posterior e sua posição.",
+      "veredito": "aprovado",
+      "motivo": "O par metencéfalo/mielencéfalo e sua origem explica a divisão caudal do encéfalo e é distinto da derivação prosencefálica.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c3::rombencéfalo}}",
+          "resposta_esperada": "rombencéfalo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O par metencéfalo/mielencéfalo e sua origem explica a divisão caudal do encéfalo e é distinto da derivação prosencefálica. Alvo recuperado nesta ocorrência: rombencéfalo."
+        },
+        {
+          "cloze": "{{c1::metencéfalo}}",
+          "resposta_esperada": "metencéfalo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O par metencéfalo/mielencéfalo e sua origem explica a divisão caudal do encéfalo e é distinto da derivação prosencefálica. Alvo recuperado nesta ocorrência: metencéfalo."
+        },
+        {
+          "cloze": "{{c2::mielencéfalo}}",
+          "resposta_esperada": "mielencéfalo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O par metencéfalo/mielencéfalo e sua origem explica a divisão caudal do encéfalo e é distinto da derivação prosencefálica. Alvo recuperado nesta ocorrência: mielencéfalo."
+        }
+      ]
+    },
+    "metencefalo-adulto": {
+      "caso": 1792659591802,
+      "comparacao": "O caso identifica «jejunum and ileum» a partir da alça cefálica; «metencéfalo ... ponte e cerebelo» identifica o par adulto a partir de um precursor comum. A imagem contém setas explícitas de Metencephalon para Pons e Cerebellum.",
+      "veredito": "aprovado",
+      "motivo": "A origem compartilhada de ponte e cerebelo adiciona a estrutura adulta ao mapa embrionário, em vez de repetir somente a vesícula secundária.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::ponte}}",
+          "resposta_esperada": "ponte",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A origem compartilhada de ponte e cerebelo adiciona a estrutura adulta ao mapa embrionário, em vez de repetir somente a vesícula secundária. Alvo recuperado nesta ocorrência: ponte."
+        },
+        {
+          "cloze": "{{c1::cerebelo}}",
+          "resposta_esperada": "cerebelo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A origem compartilhada de ponte e cerebelo adiciona a estrutura adulta ao mapa embrionário, em vez de repetir somente a vesícula secundária. Alvo recuperado nesta ocorrência: cerebelo."
+        }
+      ]
+    },
+    "mielencefalo-adulto": {
+      "caso": 1792588686980,
+      "comparacao": "O exemplar «ponte e bulbo: quarto ventrículo» ancora um destino em uma região. O novo «mielencéfalo ... bulbo» ancora a estrutura adulta na vesícula caudal. A figura mostra Myelencephalon→Medulla oblongata e permite distinguir a ligação do par metencefálico.",
+      "veredito": "aprovado",
+      "motivo": "O bulbo é o destino adulto essencial do mielencéfalo; essa relação fecha o ramo caudal que o card rombencefalo apenas subdividia.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::bulbo}}",
+          "resposta_esperada": "bulbo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O bulbo é o destino adulto essencial do mielencéfalo; essa relação fecha o ramo caudal que o card rombencefalo apenas subdividia. Alvo recuperado nesta ocorrência: bulbo."
+        }
+      ]
+    },
+    "telencefalo-adulto": {
+      "caso": 1792659591802,
+      "comparacao": "Como «cephalic limb forms jejunum and ileum», relaciona precursor embrionário ao território adulto. «telencéfalo ... hemisférios cerebrais» acrescenta o destino que o card prosencefalo apenas nomeava como vesícula secundária. O desenho mostra as vesículas pares e sua expansão cerebral.",
+      "veredito": "aprovado",
+      "motivo": "Hemisférios cerebrais é o destino anatômico durável das vesículas telencefálicas, diferente de sua cavidade ventricular.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::hemisférios cerebrais}}",
+          "resposta_esperada": "hemisférios cerebrais",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Hemisférios cerebrais é o destino anatômico durável das vesículas telencefálicas, diferente de sua cavidade ventricular. Alvo desta ocorrência: hemisférios cerebrais."
+        }
+      ]
+    },
+    "diencefalo-adulto": {
+      "caso": 1792659591802,
+      "comparacao": "O caso liga ramo embrionário a estruturas adultas; «diencéfalo ... tálamo e hipotálamo» pede o par de derivados principais, sem tratá-los como lista exaustiva. A figura de vesículas traz o tálamo e o hipotálamo em sua ligação diencefálica.",
+      "veredito": "aprovado",
+      "motivo": "Tálamo e hipotálamo conectam a subdivisão embrionária às grandes regiões adultas vistas no atlas e na aula.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::tálamo}}",
+          "resposta_esperada": "tálamo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Tálamo e hipotálamo conectam a subdivisão embrionária às grandes regiões adultas vistas no atlas e na aula. Alvo desta ocorrência: tálamo."
+        },
+        {
+          "cloze": "{{c1::hipotálamo}}",
+          "resposta_esperada": "hipotálamo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Tálamo e hipotálamo conectam a subdivisão embrionária às grandes regiões adultas vistas no atlas e na aula. Alvo desta ocorrência: hipotálamo."
+        }
+      ]
+    },
+    "cavidade-telencefalo": {
+      "caso": 1792588686980,
+      "comparacao": "O caso «cavidade do tubo neural ... quarto ventrículo ... canal central» recupera destinos do lúmen. «telencéfalo ... ventrículos laterais» estende essa relação ao cérebro. A figura corrigida destaca e nomeia um ventrículo lateral entre estruturas hemisféricas, distinguindo cavidade e parede.",
+      "veredito": "aprovado",
+      "motivo": "A imagem agora mostra o ventrículo lateral real do atlas. A relação embrionária é recuperada no texto e o alvo adulto fica localizável no apoio visual.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::ventrículos laterais}}",
+          "resposta_esperada": "ventrículos laterais",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A imagem agora mostra o ventrículo lateral real do atlas. A relação embrionária é recuperada no texto e o alvo adulto fica localizável no apoio visual. Alvo nesta ocorrência: ventrículos laterais."
+        }
+      ]
+    },
+    "cavidade-diencefalo": {
+      "caso": 1792588686980,
+      "comparacao": "Como no caso «mesencéfalo: aqueduto / ponte e bulbo: quarto ventrículo», recupera a cavidade adulta a partir da região embrionária. O novo «diencéfalo ... terceiro ventrículo» tem agora figura do III destacado centralmente, distinto dos ventrículos laterais adjacentes.",
+      "veredito": "aprovado",
+      "motivo": "Terceiro ventrículo é apresentado como cavidade diencefálica em figura própria, resolvendo a confusão visual anterior com os tecidos tálamo/hipotálamo.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::terceiro ventrículo}}",
+          "resposta_esperada": "terceiro ventrículo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Terceiro ventrículo é apresentado como cavidade diencefálica em figura própria, resolvendo a confusão visual anterior com os tecidos tálamo/hipotálamo. Alvo nesta ocorrência: terceiro ventrículo."
+        }
+      ]
+    },
+    "cavidade-mesencefalo": {
+      "caso": 1792588686980,
+      "comparacao": "O exemplar já ensina «mesencéfalo: aqueduto cerebral», a mesma ligação cavitária. A figura corrigida destaca o aqueduto estreito dentro do mesencéfalo em vista medial, enquanto o Extra o conecta a III/IV. Não se reduz ao nome Midbrain de um diagrama de parede.",
+      "veredito": "aprovado",
+      "motivo": "O aqueduto aparece como conduto estreito no mesencéfalo e a legenda o identifica. A recuperação da derivação continua diferente de um IO que só localiza o conduto.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::aqueduto cerebral}}",
+          "resposta_esperada": "aqueduto cerebral",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O aqueduto aparece como conduto estreito no mesencéfalo e a legenda o identifica. A recuperação da derivação continua diferente de um IO que só localiza o conduto. Alvo nesta ocorrência: aqueduto cerebral."
+        }
+      ]
+    },
+    "cavidade-metencefalo": {
+      "caso": 1792588686980,
+      "comparacao": "O caso associa «ponte e bulbo: quarto ventrículo»; o novo especifica a contribuição superior do metencéfalo. A figura corrigida mostra o IV dorsal à ponte e ao bulbo, dando referência real para sua extensão superior; o Extra liga paredes metencefálicas à ponte/cerebelo.",
+      "veredito": "aprovado",
+      "motivo": "Superior é uma relação topográfica essencial da cavidade metencefálica. O IV inteiro destacado fornece sua posição adulta; o texto/Extra especifica a contribuição embrionária sem IO profundo.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::superior}}",
+          "resposta_esperada": "superior",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Superior é uma relação topográfica essencial da cavidade metencefálica. O IV inteiro destacado fornece sua posição adulta; o texto/Extra especifica a contribuição embrionária sem IO profundo. Alvo nesta ocorrência: superior."
+        }
+      ]
+    },
+    "cavidade-mielencefalo": {
+      "caso": 1792588686980,
+      "comparacao": "O caso «ponte e bulbo: quarto ventrículo» relaciona rombencéfalo e cavidade. O novo testa inferior, a contribuição mielencefálica. A imagem real agora mostra o IV entre bulbo/ponte e cerebelo, e o Extra distingue sua porção caudal da continuidade para canal central.",
+      "veredito": "aprovado",
+      "motivo": "Inferior recupera o polo caudal da cavidade rombencefálica. A figura do IV dá o alvo cavitário adulto e sua relação com o bulbo, superando a antiga figura só de paredes.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::inferior}}",
+          "resposta_esperada": "inferior",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Inferior recupera o polo caudal da cavidade rombencefálica. A figura do IV dá o alvo cavitário adulto e sua relação com o bulbo, superando a antiga figura só de paredes. Alvo nesta ocorrência: inferior."
+        }
+      ]
+    },
+    "glia-radial": {
+      "caso": 1792753608593,
+      "comparacao": "«travels up sensory axons ... ganglion» recupera o caminho físico que permite deslocamento entre regiões. Aqui «neurônios utilizam prolongamentos da glia radial como suporte» recupera o andaime de migração. A figura mostra neurônio migratório aderido ao processo entre superfícies ventricular e cortical.",
+      "veredito": "aprovado",
+      "motivo": "Glia radial como suporte migratório é um mecanismo concreto de formação cortical, distinto do cone que orienta o crescimento de um axônio.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::glia radial}}",
+          "resposta_esperada": "glia radial",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Glia radial como suporte migratório é um mecanismo concreto de formação cortical, distinto do cone que orienta o crescimento de um axônio. Alvo desta ocorrência: glia radial."
+        }
+      ]
+    },
+    "poda-sinaptica": {
+      "caso": 1793301690845,
+      "comparacao": "Como no caso «host machinery ... redirected ... stops dividing», liga processo celular a efeito. «poda ... elimina conexões em excesso» conserva esse tipo de informação. O painel1C corrigido mostra contato menos ativo englobado por micróglia versus contato mantido, tornando visível eliminação/estabilização.",
+      "veredito": "aprovado",
+      "motivo": "A figura agora mostra eliminação de contato e preservação de outro. O Extra limita engulfment microglial a um mecanismo de poda e distingue a remoção sináptica da apoptose neuronal.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::poda sináptica}}",
+          "resposta_esperada": "poda sináptica",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A figura agora mostra eliminação de contato e preservação de outro. O Extra limita engulfment microglial a um mecanismo de poda e distingue a remoção sináptica da apoptose neuronal. Alvo nesta ocorrência: poda sináptica."
+        },
+        {
+          "cloze": "{{c2::conexões em excesso}}",
+          "resposta_esperada": "conexões em excesso",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A figura agora mostra eliminação de contato e preservação de outro. O Extra limita engulfment microglial a um mecanismo de poda e distingue a remoção sináptica da apoptose neuronal. Alvo nesta ocorrência: conexões em excesso."
+        }
+      ]
+    },
+    "dendritos": {
+      "caso": 1791023298343,
+      "comparacao": "«Enterocytes keep disaccharidases ... finishing digestion at the brush border» liga estrutura especializada à função local. «prolongamentos ... receber sinais ... dendritos» pede o nome da estrutura pela função receptora; o desenho mostra ramificação e fluxo em direção ao soma.",
+      "veredito": "aprovado",
+      "motivo": "Dendritos são a superfície receptora fundamental do neurônio. A relação função→estrutura evita apenas decorar uma legenda visual.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::dendritos}}",
+          "resposta_esperada": "dendritos",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Dendritos são a superfície receptora fundamental do neurônio. A relação função→estrutura evita apenas decorar uma legenda visual. Alvo recuperado nesta ocorrência: dendritos."
+        }
+      ]
+    },
+    "axonio": {
+      "caso": 1792753608593,
+      "comparacao": "«travels up sensory axons ... ganglion» usa o axônio como via de condução, enquanto o novo recupera «axônio» a partir de «conduzir a saída ... para outras células». O desenho do neurônio mostra o prolongamento longo e o sentido até terminais.",
+      "veredito": "aprovado",
+      "motivo": "O axônio como saída distingue condução de recepção dendrítica; o transporte intracelular ulterior envolve outra relação e outro alvo.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::axônio}}",
+          "resposta_esperada": "axônio",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O axônio como saída distingue condução de recepção dendrítica; o transporte intracelular ulterior envolve outra relação e outro alvo. Alvo recuperado nesta ocorrência: axônio."
+        }
+      ]
+    },
+    "soma": {
+      "caso": 1791023298343,
+      "comparacao": "O exemplar associa maquinaria digestiva à célula e superfície que a sustentam. Aqui «centro metabólico ... núcleo e organelas de síntese» identifica o corpo celular pelo suporte biossintético. A figura permite localizar núcleo e soma em relação aos prolongamentos.",
+      "veredito": "aprovado",
+      "motivo": "Corpo celular como centro metabólico explica a dependência dos prolongamentos; não repete a posição fora do trajeto no pseudounipolar.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::corpo celular}}",
+          "resposta_esperada": "corpo celular",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Corpo celular como centro metabólico explica a dependência dos prolongamentos; não repete a posição fora do trajeto no pseudounipolar. Alvo recuperado nesta ocorrência: corpo celular."
+        }
+      ]
+    },
+    "disparo-limiar": {
+      "caso": 1791575024195,
+      "comparacao": "«slow wave ... contractile threshold ... weak contraction» relaciona voltagem/limiar à resposta. «despolarização alcança limiar no segmento inicial» recupera a condição de disparo neuronal. A figura contrapõe potenciais graduáveis e potenciais de ação e identifica zona gatilho.",
+      "veredito": "aprovado",
+      "motivo": "Limiar articula integração pós-sináptica e disparo; o Extra conserva a diferença entre resposta graduável e potencial de ação.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::limiar}}",
+          "resposta_esperada": "limiar",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Limiar articula integração pós-sináptica e disparo; o Extra conserva a diferença entre resposta graduável e potencial de ação. Alvo desta ocorrência: limiar."
+        }
+      ]
+    },
+    "cicatriz-glial": {
+      "caso": 1791983679330,
+      "comparacao": "«chronic inflammation ... scarring» situa cicatriz como resposta à lesão. Aqui «astrócitos participam ... cicatriz glial» recupera agente e produto da reparação nervosa. A imagem identifica astrócito, e o Extra explica reatividade e ausência de reposição neuronal equivalente.",
+      "veredito": "aprovado",
+      "motivo": "A resposta astroglial à lesão é uma associação celular forte; difere do tamponamento de potássio e da captação de transmissores.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::astrócitos}}",
+          "resposta_esperada": "astrócitos",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A resposta astroglial à lesão é uma associação celular forte; difere do tamponamento de potássio e da captação de transmissores. Alvo recuperado nesta ocorrência: astrócitos."
+        },
+        {
+          "cloze": "{{c1::cicatriz glial}}",
+          "resposta_esperada": "cicatriz glial",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A resposta astroglial à lesão é uma associação celular forte; difere do tamponamento de potássio e da captação de transmissores. Alvo recuperado nesta ocorrência: cicatriz glial."
+        }
+      ]
+    },
+    "potassio-glia": {
+      "caso": 1790999836655,
+      "comparacao": "«Duodenal acid → secretin» recupera o mediador apropriado a uma alteração fisiológica. «homeostase extracelular ... captação de potássio por astrócitos» recupera íon e célula reguladora. A figura situa a glia junto a neurônios, e o Extra liga acúmulo iônico à excitabilidade.",
+      "veredito": "aprovado",
+      "motivo": "Potássio extracelular e astrócitos formam o par que explica tamponamento durante atividade neural; não é a mesma função da recaptura de transmissores.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::potássio}}",
+          "resposta_esperada": "potássio",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Potássio extracelular e astrócitos formam o par que explica tamponamento durante atividade neural; não é a mesma função da recaptura de transmissores. Alvo recuperado nesta ocorrência: potássio."
+        },
+        {
+          "cloze": "{{c1::astrócitos}}",
+          "resposta_esperada": "astrócitos",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Potássio extracelular e astrócitos formam o par que explica tamponamento durante atividade neural; não é a mesma função da recaptura de transmissores. Alvo recuperado nesta ocorrência: astrócitos."
+        }
+      ]
+    },
+    "recaptacao-glia": {
+      "caso": 1791023298343,
+      "comparacao": "No caso, a função na borda em escova identifica a maquinaria de enterócitos. Aqui «remove o excesso de neurotransmissores ... sinapses» identifica o astrócito pelo controle do ambiente sináptico. A figura mostra prolongamentos gliais junto ao tecido neuronal.",
+      "veredito": "aprovado",
+      "motivo": "A remoção de transmissores encerra e limita a sinalização; nomear o astrócito nessa função agrega um mecanismo diferente da regulação de potássio.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::astrócito}}",
+          "resposta_esperada": "astrócito",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A remoção de transmissores encerra e limita a sinalização; nomear o astrócito nessa função agrega um mecanismo diferente da regulação de potássio. Alvo recuperado nesta ocorrência: astrócito."
+        }
+      ]
+    },
+    "oligodendrocito": {
+      "caso": 1792588686964,
+      "comparacao": "O caso UC07 «raiz anterior: eferentes / posterior: aferentes» relaciona estrutura neural a um domínio funcional preciso. «Oligodendrócitos ... mielina ... central» relaciona a célula mielinizante ao território central. Muda a segregação do fluxo na raiz para a segregação do produtor de mielina; a figura mostra a célula envolvendo axônios.",
+      "veredito": "aprovado",
+      "motivo": "Oligodendrócito versus território central é o par fundamental que separa a mielina do SNC da produzida por Schwann no SNP.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::Oligodendrócitos}}",
+          "resposta_esperada": "Oligodendrócitos",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Oligodendrócito versus território central é o par fundamental que separa a mielina do SNC da produzida por Schwann no SNP. Alvo recuperado nesta ocorrência: Oligodendrócitos."
+        },
+        {
+          "cloze": "{{c1::central}}",
+          "resposta_esperada": "central",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Oligodendrócito versus território central é o par fundamental que separa a mielina do SNC da produzida por Schwann no SNP. Alvo recuperado nesta ocorrência: central."
+        }
+      ]
+    },
+    "oligodendrocito-varios": {
+      "caso": 1791762418025,
+      "comparacao": "O caso distingue propriedades próximas por «ability to bind» versus «activate». Aqui o detalhe «vários axônios» distingue a capacidade de um oligodendrócito da unidade de Schwann. A figura original inspecionada mostra a mesma célula enviando processos a axônios separados.",
+      "veredito": "aprovado",
+      "motivo": "A multiplicidade de axônios por oligodendrócito é a diferença estrutural essencial e não repete apenas o território central da mielinização.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::vários axônios}}",
+          "resposta_esperada": "vários axônios",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A multiplicidade de axônios por oligodendrócito é a diferença estrutural essencial e não repete apenas o território central da mielinização. Alvo recuperado nesta ocorrência: vários axônios."
+        }
+      ]
+    },
+    "schwann": {
+      "caso": 1792588686964,
+      "comparacao": "No exemplar «raiz anterior ... eferentes / posterior ... aferentes», uma estrutura neural corresponde a um domínio definido. «Schwann ... mielina ... periférico» faz essa associação entre produtor e compartimento. A imagem mostra Schwann seriadas sobre o axônio, distinguindo esse domínio da mielina central de oligodendrócitos.",
+      "veredito": "aprovado",
+      "motivo": "Schwann e SNP estabelecem o outro polo do contraste de mielina e dão base ao caso de Guillain–Barré.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::Células de Schwann}}",
+          "resposta_esperada": "Células de Schwann",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Schwann e SNP estabelecem o outro polo do contraste de mielina e dão base ao caso de Guillain–Barré. Alvo recuperado nesta ocorrência: Células de Schwann."
+        },
+        {
+          "cloze": "{{c1::periférico}}",
+          "resposta_esperada": "periférico",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Schwann e SNP estabelecem o outro polo do contraste de mielina e dão base ao caso de Guillain–Barré. Alvo recuperado nesta ocorrência: periférico."
+        }
+      ]
+    },
+    "schwann-segmento": {
+      "caso": 1791762418025,
+      "comparacao": "«Affinity ... intrinsic activity» separa propriedades funcionais confundíveis; «uma célula de Schwann ... um internódulo» separa unidade celular e extensão mielinizada. A figura mostra várias células em série e nós entre segmentos; o Extra distingue Schwann não mielinizante.",
+      "veredito": "aprovado",
+      "motivo": "Um internódulo por célula explica por que um axônio longo usa muitas Schwann, em contraste com um oligodendrócito em vários axônios.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::um internódulo}}",
+          "resposta_esperada": "um internódulo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Um internódulo por célula explica por que um axônio longo usa muitas Schwann, em contraste com um oligodendrócito em vários axônios. Alvo recuperado nesta ocorrência: um internódulo."
+        }
+      ]
+    },
+    "microglia": {
+      "caso": 1791625430208,
+      "comparacao": "O exemplar identifica «IFN-γ» pelo estímulo à atividade microbicida de macrófagos. «glia fagocitária residente ... micróglia» identifica o efetor celular pela função defensiva e pelo território. A ilustração identifica a micróglia no tecido central.",
+      "veredito": "aprovado",
+      "motivo": "A micróglia como fagócito residente é o alvo de defesa que diferencia glia imune das células de suporte e de mielina.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::micróglia}}",
+          "resposta_esperada": "micróglia",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A micróglia como fagócito residente é o alvo de defesa que diferencia glia imune das células de suporte e de mielina. Alvo recuperado nesta ocorrência: micróglia."
+        }
+      ]
+    },
+    "guillain-barre": {
+      "caso": 1792166976595,
+      "comparacao": "«Myasthenia gravis ... antibodies ... postsynaptic ACh receptors» liga doença ao alvo anatômico básico. «forma desmielinizante de Guillain–Barré ... Schwann» liga doença à célula produtora da mielina periférica. O qualificativo da frente evita generalizar a variantes axonais.",
+      "veredito": "aprovado",
+      "motivo": "Schwann vincula a doença ao SNP, aplicando a classificação glial ao mecanismo clínico; não é repetição da pergunta genérica sobre mielina periférica.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::células de Schwann}}",
+          "resposta_esperada": "células de Schwann",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Schwann vincula a doença ao SNP, aplicando a classificação glial ao mecanismo clínico; não é repetição da pergunta genérica sobre mielina periférica. Alvo recuperado nesta ocorrência: células de Schwann."
+        }
+      ]
+    },
+    "esclerose-multipla": {
+      "caso": 1792166976595,
+      "comparacao": "O caso de miastenia recupera mecanismo autoimune e alvo sináptico. «esclerose múltipla ... autoimune ... oligodendrócitos» recupera processo e célula associados à mielina central. A figura identifica o oligodendrócito e seu envolvimento axonal.",
+      "veredito": "aprovado",
+      "motivo": "Autoimunidade e oligodendrócito situam a desmielinização no SNC e permitem contrastá-la à forma periférica de Guillain–Barré.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::autoimune}}",
+          "resposta_esperada": "autoimune",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Autoimunidade e oligodendrócito situam a desmielinização no SNC e permitem contrastá-la à forma periférica de Guillain–Barré. Alvo recuperado nesta ocorrência: autoimune."
+        },
+        {
+          "cloze": "{{c1::oligodendrócitos}}",
+          "resposta_esperada": "oligodendrócitos",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Autoimunidade e oligodendrócito situam a desmielinização no SNC e permitem contrastá-la à forma periférica de Guillain–Barré. Alvo recuperado nesta ocorrência: oligodendrócitos."
+        }
+      ]
+    },
+    "astrocitos-capilares": {
+      "caso": 1791023298343,
+      "comparacao": "«glycocalyx ... finishing digestion at the brush border» localiza uma função em uma especialização celular. «astrócitos ... capilares ... prolongamentos podais» pede a especialização que relaciona glia e vaso. A imagem mostra o astrócito junto ao capilar e o Extra separa suporte glial da vedação endotelial.",
+      "veredito": "aprovado",
+      "motivo": "Pés astrogliais são a interface estrutural com o microvaso; a distinção do selo por junções endoteliais impede atribuição errada da barreira.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::prolongamentos podais}}",
+          "resposta_esperada": "prolongamentos podais",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Pés astrogliais são a interface estrutural com o microvaso; a distinção do selo por junções endoteliais impede atribuição errada da barreira. Alvo recuperado nesta ocorrência: prolongamentos podais."
+        }
+      ]
+    },
+    "glia": {
+      "caso": 1792677743147,
+      "comparacao": "«complete extracellular particle ... virion» recupera um grupo/entidade pela sua definição funcional. «células não neuronais ... sustentação, isolamento e defesa ... glia» recupera a categoria coletiva. A ilustração apresenta os diferentes representantes.",
+      "veredito": "aprovado",
+      "motivo": "Glia fornece a categoria que reúne as especializações detalhadas nos cards seguintes; sua definição geral não cobra novamente uma função específica.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::glia}}",
+          "resposta_esperada": "glia",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Glia fornece a categoria que reúne as especializações detalhadas nos cards seguintes; sua definição geral não cobra novamente uma função específica. Alvo recuperado nesta ocorrência: glia."
+        }
+      ]
+    },
+    "gfap": {
+      "caso": 1791625424957,
+      "comparacao": "O caso «What protein is associated with MHC I? β2-microglobulin» recupera uma proteína pelo contexto celular. A frente atual «filamento intermediário usado como marcador de astrócitos» recupera GFAP por função e célula, sem expor a expansão da sigla. A imagem identifica a célula, enquanto o Extra explica o marcador e sua expansão.",
+      "veredito": "aprovado",
+      "motivo": "A reformulação eliminou a indução por expansão da sigla. GFAP agora exige recordar o marcador astroglial e constitui fato-chave de identificação celular.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::GFAP}}",
+          "resposta_esperada": "GFAP",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A reformulação eliminou a indução por expansão da sigla. GFAP agora exige recordar o marcador astroglial e constitui fato-chave de identificação celular."
+        }
+      ]
+    },
+    "ependima": {
+      "caso": 1791023298343,
+      "comparacao": "O caso «glycocalyx ... brush border» localiza uma especialização celular em uma superfície anatômica. «ventrículos ... células ependimárias» identifica o revestimento pelo lugar. A imagem mostra uma fileira epitelial ependimária margeando o ventrículo, distinta da glia parenquimatosa.",
+      "veredito": "aprovado",
+      "motivo": "Ependimárias são o revestimento das cavidades, preenchendo uma diferença real no conjunto de células gliais sem introduzir manejo de líquor.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::ependimárias}}",
+          "resposta_esperada": "ependimárias",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Ependimárias são o revestimento das cavidades, preenchendo uma diferença real no conjunto de células gliais sem introduzir manejo de líquor. Alvo desta ocorrência: ependimárias."
+        }
+      ]
+    },
+    "satelites": {
+      "caso": 1791023298343,
+      "comparacao": "O caso «enterocytes keep disaccharidases ... glycocalyx ... brush border» situa a especialização celular no lugar onde exerce suporte à função. «Nos gânglios ... satélites ... corpos neuronais» pede a glia pelo envolvimento somático, e não axonal. A micrografia mostra as pequenas células S ao redor dos grandes somas N; essa relação física valida a associação.",
+      "veredito": "aprovado",
+      "motivo": "Células satélites e somas ganglionares formam a associação que distingue esse suporte periférico da Schwann junto ao axônio.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::satélites}}",
+          "resposta_esperada": "satélites",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Células satélites e somas ganglionares formam a associação que distingue esse suporte periférico da Schwann junto ao axônio. Alvo desta ocorrência: satélites."
+        }
+      ]
+    },
+    "sinapse-quimica": {
+      "caso": 1792166970014,
+      "comparacao": "«autoimmune ... adaptive / autoinflammatory ... innate» liga classes próximas a seu efetor. «sinapse química ... neurotransmissores» liga modalidade ao meio de comunicação. A figura contém vesículas e elementos pré/pós, em contraste com canais entre células na elétrica.",
+      "veredito": "aprovado",
+      "motivo": "Neurotransmissores distinguem a sinapse química da passagem direta de corrente; a sequência de liberação posterior acrescenta etapas causais.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::química}}",
+          "resposta_esperada": "química",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Neurotransmissores distinguem a sinapse química da passagem direta de corrente; a sequência de liberação posterior acrescenta etapas causais. Alvo recuperado nesta ocorrência: química."
+        },
+        {
+          "cloze": "{{c2::neurotransmissores}}",
+          "resposta_esperada": "neurotransmissores",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Neurotransmissores distinguem a sinapse química da passagem direta de corrente; a sequência de liberação posterior acrescenta etapas causais. Alvo recuperado nesta ocorrência: neurotransmissores."
+        }
+      ]
+    },
+    "sinapse-eletrica": {
+      "caso": 1792166970014,
+      "comparacao": "O caso distingue classes de imunidade pelo mecanismo envolvido. «sinapse elétrica ... junções comunicantes» recupera a conexão que permite corrente direta. A figura original mostra canais ligando A e B e setas em ambas as direções.",
+      "veredito": "aprovado",
+      "motivo": "Junções comunicantes são a base estrutural da sinapse elétrica, distinta da fenda e dos transmissores da química.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::elétrica}}",
+          "resposta_esperada": "elétrica",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Junções comunicantes são a base estrutural da sinapse elétrica, distinta da fenda e dos transmissores da química. Alvo recuperado nesta ocorrência: elétrica."
+        },
+        {
+          "cloze": "{{c1::junções comunicantes}}",
+          "resposta_esperada": "junções comunicantes",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Junções comunicantes são a base estrutural da sinapse elétrica, distinta da fenda e dos transmissores da química. Alvo recuperado nesta ocorrência: junções comunicantes."
+        }
+      ]
+    },
+    "liberacao-sinaptica": {
+      "caso": 1791625426833,
+      "comparacao": "Como «proteasome ... TAP ... MHC I», cobra agentes e compartimentos em uma sequência. «potencial de ação abre canais de cálcio no terminal pré-sináptico, liberando neurotransmissores» conserva encadeamento, com quatro alvos essenciais e Extra que explicita a entrada de cálcio e fusão vesicular.",
+      "veredito": "aprovado",
+      "motivo": "Potencial de ação, canais de cálcio, lado pré-sináptico e transmissor conectam excitação a secreção; os índices separados deixam recuperar cada elo.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c3::potencial de ação}}",
+          "resposta_esperada": "potencial de ação",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Potencial de ação, canais de cálcio, lado pré-sináptico e transmissor conectam excitação a secreção; os índices separados deixam recuperar cada elo. Alvo recuperado nesta ocorrência: potencial de ação."
+        },
+        {
+          "cloze": "{{c4::canais de cálcio}}",
+          "resposta_esperada": "canais de cálcio",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Potencial de ação, canais de cálcio, lado pré-sináptico e transmissor conectam excitação a secreção; os índices separados deixam recuperar cada elo. Alvo recuperado nesta ocorrência: canais de cálcio."
+        },
+        {
+          "cloze": "{{c2::pré-sináptico}}",
+          "resposta_esperada": "pré-sináptico",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Potencial de ação, canais de cálcio, lado pré-sináptico e transmissor conectam excitação a secreção; os índices separados deixam recuperar cada elo. Alvo recuperado nesta ocorrência: pré-sináptico."
+        },
+        {
+          "cloze": "{{c1::neurotransmissores}}",
+          "resposta_esperada": "neurotransmissores",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Potencial de ação, canais de cálcio, lado pré-sináptico e transmissor conectam excitação a secreção; os índices separados deixam recuperar cada elo. Alvo recuperado nesta ocorrência: neurotransmissores."
+        }
+      ]
+    },
+    "resposta-pos-sinaptica": {
+      "caso": 1791575024195,
+      "comparacao": "O exemplar distingue oscilações elétricas e efeito contrátil, sem igualar qualquer resposta a disparo. «potencial pós-sináptico excitatório despolariza» distingue polaridade e efeito; a figura mostra EPSP abaixo dos picos de ação e contrapõe sinapse inibitória.",
+      "veredito": "aprovado",
+      "motivo": "Excitatório/despolariza é uma ligação elétrica fundamental; o Extra explicita que aumento da probabilidade de disparo não garante outro potencial de ação.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::excitatório}}",
+          "resposta_esperada": "excitatório",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Excitatório/despolariza é uma ligação elétrica fundamental; o Extra explicita que aumento da probabilidade de disparo não garante outro potencial de ação. Alvo desta ocorrência: excitatório."
+        },
+        {
+          "cloze": "{{c1::despolariza}}",
+          "resposta_esperada": "despolariza",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Excitatório/despolariza é uma ligação elétrica fundamental; o Extra explicita que aumento da probabilidade de disparo não garante outro potencial de ação. Alvo desta ocorrência: despolariza."
+        }
+      ]
+    },
+    "saltatoria": {
+      "caso": 1791575024195,
+      "comparacao": "O caso «contractile threshold ... weak contraction» liga condição elétrica a modo de resposta. «axônios mielinizados ... nós de Ranvier ... saltatória» liga arranjo estrutural ao modo de condução. A figura destaca nós e deslocamento da região despolarizada.",
+      "veredito": "aprovado",
+      "motivo": "Ranvier e condução saltatória expressam como a mielina altera a propagação; os canais nodais posteriores explicam outro elo do processo.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::Ranvier}}",
+          "resposta_esperada": "Ranvier",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Ranvier e condução saltatória expressam como a mielina altera a propagação; os canais nodais posteriores explicam outro elo do processo. Alvo recuperado nesta ocorrência: Ranvier."
+        },
+        {
+          "cloze": "{{c1::saltatória}}",
+          "resposta_esperada": "saltatória",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Ranvier e condução saltatória expressam como a mielina altera a propagação; os canais nodais posteriores explicam outro elo do processo. Alvo recuperado nesta ocorrência: saltatória."
+        }
+      ]
+    },
+    "canais-nodais": {
+      "caso": 1791762416971,
+      "comparacao": "«Benzodiazepines ... GABA A receptor» recupera a proteína efetora de uma ação; «nós de Ranvier ... canais de sódio» recupera o canal que regenera o potencial. A figura situa nós, e o Extra relaciona densidade de canais ao salto entre internódulos.",
+      "veredito": "aprovado",
+      "motivo": "Sódio identifica a maquinaria excitável do nó e explica a regeneração que o card saltatoria apenas nomeia.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::sódio}}",
+          "resposta_esperada": "sódio",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Sódio identifica a maquinaria excitável do nó e explica a regeneração que o card saltatoria apenas nomeia. Alvo recuperado nesta ocorrência: sódio."
+        }
+      ]
+    },
+    "fibras-amielinicas": {
+      "caso": 1791023298343,
+      "comparacao": "O exemplar relaciona uma maquinaria celular ao compartimento funcional específico, «glycocalyx ... brush border». «SNP ... axônios amielínicos ... Schwann» situa suporte glial mesmo sem bainha compacta. A figura mostra múltiplos axônios em invaginações de uma célula, diferença concreta em relação ao internódulo mielinizante.",
+      "veredito": "aprovado",
+      "motivo": "Schwann em fibras amielínicas corrige a falsa equivalência ausência de mielina=ausência de suporte glial e complementa schwann-segmento sem repeti-lo.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::Schwann}}",
+          "resposta_esperada": "Schwann",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Schwann em fibras amielínicas corrige a falsa equivalência ausência de mielina=ausência de suporte glial e complementa schwann-segmento sem repeti-lo. Alvo desta ocorrência: Schwann."
+        }
+      ]
+    },
+    "fibras-propriocepcao": {
+      "caso": 1792588686955,
+      "comparacao": "«8 pares ... cervicais» fixa número a território com contexto anatômico. «propriocepção muscular ... grupo I ... Aα» fixa grupo à modalidade e mostra a equivalência classificatória. A tabela apresenta maior diâmetro, mielina e proprioceptores no mesmo eixo.",
+      "veredito": "aprovado",
+      "motivo": "Grupo I liga propriocepção muscular à classe de maior condução; a equivalência Aα é contexto para unificar nomenclaturas usadas na aula.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::I}}",
+          "resposta_esperada": "I",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Grupo I liga propriocepção muscular à classe de maior condução; a equivalência Aα é contexto para unificar nomenclaturas usadas na aula. Alvo recuperado nesta ocorrência: I."
+        }
+      ]
+    },
+    "fibras-tato": {
+      "caso": 1792175047836,
+      "comparacao": "«outside ... ectothrix / inside ... endothrix» ancora uma nomenclatura na classificação correspondente. «grupo II ... tato ... Aβ» recupera a equivalência de duas escalas da fibra. A tabela visual confere receptor cutâneo e espessura mielinizada.",
+      "veredito": "aprovado",
+      "motivo": "Aβ permite reconhecer em outra nomenclatura a via tátil do grupo II, evitando confundi-la com nociceptivas finas.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::Aβ}}",
+          "resposta_esperada": "Aβ",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Aβ permite reconhecer em outra nomenclatura a via tátil do grupo II, evitando confundi-la com nociceptivas finas. Alvo recuperado nesta ocorrência: Aβ."
+        }
+      ]
+    },
+    "fibras-dor-frio": {
+      "caso": 1792175047836,
+      "comparacao": "O exemplar resolve nomenclaturas próximas pelo contexto de localização. «dor aguda e frio ... III e Aδ» resolve dupla nomenclatura por modalidade sensitiva. A tabela mostra a classe fina mielinizada; o Extra explicita que III e Aδ são dois nomes, não duas vias sucessivas.",
+      "veredito": "aprovado",
+      "motivo": "A equivalência III/Aδ vincula dor rápida e frio à fibra fina mielinizada, com ganho taxonômico além do contraste temporal de duas-dores.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::III e Aδ}}",
+          "resposta_esperada": "III e Aδ",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A equivalência III/Aδ vincula dor rápida e frio à fibra fina mielinizada, com ganho taxonômico além do contraste temporal de duas-dores. Alvo recuperado nesta ocorrência: III e Aδ."
+        }
+      ]
+    },
+    "fibras-dor-calor": {
+      "caso": 1792175047836,
+      "comparacao": "«outside ... ectothrix» relaciona contexto a nome preciso; «dor surda e calor ... IV e C» relaciona modalidade a duas classificações equivalentes. A figura mostra o menor axônio sem bainha e o Extra contrapõe Aδ.",
+      "veredito": "aprovado",
+      "motivo": "IV/C fixa a correspondência entre nomenclaturas e modalidades lentas, incluindo calor; o contraste duas-dores usa a mesma base em um fenômeno temporal.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::IV e C}}",
+          "resposta_esperada": "IV e C",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "IV/C fixa a correspondência entre nomenclaturas e modalidades lentas, incluindo calor; o contraste duas-dores usa a mesma base em um fenômeno temporal. Alvo recuperado nesta ocorrência: IV e C."
+        }
+      ]
+    },
+    "duas-dores": {
+      "caso": 1792695019915,
+      "comparacao": "«Hemagglutinin ... enter / Neuraminidase ... leave» reúne dois agentes sob um resultado contrastante. Aqui «dor rápida ... Aδ / dor lenta ... C» reúne as duas velocidades da experiência dolorosa. O Extra explica mielina e velocidade, diferente de somente converter grupos III/IV.",
+      "veredito": "aprovado",
+      "motivo": "O par simultâneo organiza as duas fases da dor e sua causa de velocidade. Há sobreposição de nomes com as fibras individuais, mas há ganho na comparação temporal conjunta.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::Aδ}}",
+          "resposta_esperada": "Aδ",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O par simultâneo organiza as duas fases da dor e sua causa de velocidade. Há sobreposição de nomes com as fibras individuais, mas há ganho na comparação temporal conjunta. Alvo recuperado nesta ocorrência: Aδ."
+        },
+        {
+          "cloze": "{{c1::C}}",
+          "resposta_esperada": "C",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O par simultâneo organiza as duas fases da dor e sua causa de velocidade. Há sobreposição de nomes com as fibras individuais, mas há ganho na comparação temporal conjunta. Alvo recuperado nesta ocorrência: C."
+        }
+      ]
+    },
+    "fibras-c": {
+      "caso": 1792173499322,
+      "comparacao": "«Round, thick-walled resting cells ... chlamydoconidia» identifica uma classe pela estrutura característica. «mais finas e amielínicas ... C» identifica a fibra pela combinação estrutural; a tabela confirma a ausência de bainha e o menor diâmetro.",
+      "veredito": "aprovado",
+      "motivo": "C como classe amielínica fina conecta morfologia à condução lenta; não repete somente a modalidade de dor/calor.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::C}}",
+          "resposta_esperada": "C",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "C como classe amielínica fina conecta morfologia à condução lenta; não repete somente a modalidade de dor/calor. Alvo recuperado nesta ocorrência: C."
+        }
+      ]
+    },
+    "velocidade-comparacao": {
+      "caso": 1791826286643,
+      "comparacao": "«Which drug is most potent? A» exige identificar o extremo de uma propriedade comparável. «maior diâmetro e velocidade ... Aα(I)» identifica o extremo da tabela de fibras, que mostra diâmetro, bainha e velocidade nas mesmas colunas. É diferente de perguntar a modalidade proprioceptiva.",
+      "veredito": "aprovado",
+      "motivo": "Aα/I como classe mais rápida liga nomenclatura ao eixo físico da classificação, com diâmetro e mielina explicados no Extra.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::Aα (I)}}",
+          "resposta_esperada": "Aα (I)",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Aα/I como classe mais rápida liga nomenclatura ao eixo físico da classificação, com diâmetro e mielina explicados no Extra. Alvo desta ocorrência: Aα (I)."
+        }
+      ]
+    },
+    "morfologias": {
+      "caso": 1791716425502,
+      "comparacao": "«Peripheral horseshoe: Langhans / scattered: foreign-body» diferencia nomes por arranjo morfológico. Eixo novo: número e disposição de prolongamentos; alvos: multipolar para vários dendritos+axônio, bipolar para um dendrito+axônio, pseudounipolar para prolongamento bifurcado. As pistas m/b/p são iniciais de palavras longas, não expansões de siglas.",
+      "veredito": "aprovado",
+      "motivo": "Os três padrões visuais são distintos no desenho, e os três nomes são a classificação durável; o trajeto do impulso pseudounipolar adiciona uma consequência funcional própria.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::multipolar::m…}}",
+          "resposta_esperada": "multipolar",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Os três padrões visuais são distintos no desenho, e os três nomes são a classificação durável; o trajeto do impulso pseudounipolar adiciona uma consequência funcional própria. Alvo recuperado nesta ocorrência: multipolar."
+        },
+        {
+          "cloze": "{{c1::bipolar::b…}}",
+          "resposta_esperada": "bipolar",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Os três padrões visuais são distintos no desenho, e os três nomes são a classificação durável; o trajeto do impulso pseudounipolar adiciona uma consequência funcional própria. Alvo recuperado nesta ocorrência: bipolar."
+        },
+        {
+          "cloze": "{{c1::pseudounipolar::p…}}",
+          "resposta_esperada": "pseudounipolar",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Os três padrões visuais são distintos no desenho, e os três nomes são a classificação durável; o trajeto do impulso pseudounipolar adiciona uma consequência funcional própria. Alvo recuperado nesta ocorrência: pseudounipolar."
+        }
+      ],
+      "avulsos_cobertos": {
+        "busca": "Consultas reais E4 por multipolar bipolar pseudounipolar neuron morphology classification; seções e candidatos-vivos.json lidos.",
+        "decisoes": [],
+        "nenhum_porquê": "O executor informou busca por multipolar/bipolar/pseudounipolar e não listou avulsos. No pacote, pseudounipolar-trajeto acrescenta o soma fora da condução, que a classificação por prolongamentos não testa."
+      }
+    },
+    "pseudounipolar-trajeto": {
+      "caso": 1792753608593,
+      "comparacao": "«travels up sensory axons ... ganglion» recupera a via percorrida pelo sinal/partícula no neurônio. «ramo periférico ao central sem atravessar corpo celular» recupera o compartimento que fica fora do trajeto. O desenho mostra o soma lateral e a seta direta no prolongamento.",
+      "veredito": "aprovado",
+      "motivo": "Corpo celular fora do caminho de condução é a relação distintiva do pseudounipolar; isso não repete o papel metabólico do soma.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::corpo celular}}",
+          "resposta_esperada": "corpo celular",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Corpo celular fora do caminho de condução é a relação distintiva do pseudounipolar; isso não repete o papel metabólico do soma. Alvo recuperado nesta ocorrência: corpo celular."
+        }
+      ]
+    },
+    "bipolar-local": {
+      "caso": 1792261811401,
+      "comparacao": "O exemplar «giro pós-central ... somestésica ... parietal» ancora uma identidade no sítio anatômico. «via visual ... bipolares ... retina» exige a associação de localização, e a figura corrigida situa células bipolares entre fotorreceptores e células ganglionares em camadas retinianas.",
+      "veredito": "aprovado",
+      "motivo": "Retina é agora exigida pela pergunta e representada pelo circuito em camadas. A imagem resolve o defeito anterior de mostrar apenas a silhueta bipolar, sem seu local.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::retina}}",
+          "resposta_esperada": "retina",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Retina é agora exigida pela pergunta e representada pelo circuito em camadas. A imagem resolve o defeito anterior de mostrar apenas a silhueta bipolar, sem seu local. Alvo nesta ocorrência: retina."
+        }
+      ]
+    },
+    "pares-cranianos": {
+      "caso": 1792588686955,
+      "comparacao": "O exemplar «8 pares ... cervicais, 12 ... torácicos» recupera contagem fundamental por grupo de nervos. «12 pares de nervos cranianos» pede a contagem do outro conjunto anatômico, sem inferi-la de espinais.",
+      "veredito": "aprovado",
+      "motivo": "Doze pares é o número básico dos nervos cranianos e organiza a divisão periférica; a figura de divisões o situa no conjunto de nervos.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::12}}",
+          "resposta_esperada": "12",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Doze pares é o número básico dos nervos cranianos e organiza a divisão periférica; a figura de divisões o situa no conjunto de nervos. Alvo recuperado nesta ocorrência: 12."
+        }
+      ]
+    },
+    "snp-componentes": {
+      "caso": 1792588686968,
+      "comparacao": "«principais partes do encéfalo ... Cérebro, Cerebelo, Tronco» recupera o conjunto anatômico de uma divisão. Eixo novo: componentes do SNP; alvos de cada linha: nervos, gânglios, terminações nervosas. O diagrama contém os três ramos; iniciais N/G/T não equivalem à expansão de siglas curtas.",
+      "veredito": "aprovado",
+      "motivo": "O conjunto periférico inclui condução, corpos celulares e terminações, evitando definir SNP apenas como nervos; o avulso de fronteira SNC/SNP conserva ganho próprio.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::Nervos::N…}}",
+          "resposta_esperada": "Nervos",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O conjunto periférico inclui condução, corpos celulares e terminações, evitando definir SNP apenas como nervos; o avulso de fronteira SNC/SNP conserva ganho próprio. Alvo recuperado nesta ocorrência: Nervos."
+        },
+        {
+          "cloze": "{{c1::Gânglios::G…}}",
+          "resposta_esperada": "Gânglios",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O conjunto periférico inclui condução, corpos celulares e terminações, evitando definir SNP apenas como nervos; o avulso de fronteira SNC/SNP conserva ganho próprio. Alvo recuperado nesta ocorrência: Gânglios."
+        },
+        {
+          "cloze": "{{c1::Terminações nervosas::T…}}",
+          "resposta_esperada": "Terminações nervosas",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O conjunto periférico inclui condução, corpos celulares e terminações, evitando definir SNP apenas como nervos; o avulso de fronteira SNC/SNP conserva ganho próprio. Alvo recuperado nesta ocorrência: Terminações nervosas."
+        }
+      ],
+      "avulsos_cobertos": {
+        "busca": "Consultas reais E4 por central peripheral nervous system brain spinal cord nerves ganglia; seções e candidatos-vivos.json lidos.",
+        "decisoes": [
+          {
+            "nid": 1792588686960,
+            "acao": "manter",
+            "motivo": "A frente exportada em candidatos-vivos.json cobra encéfalo e medula espinal como fronteira do periférico. O organizador enumera seus componentes; conjunto de componentes e fronteira territorial são relações diferentes."
+          }
+        ],
+        "nenhum_porquê": "Não há avulso redundante selecionado no novo deck neste eixo; notas antigas remanescentes ficam na reserva histórica,sem exclusão de estudo."
+      }
+    },
+    "somatico-visceral": {
+      "caso": 1792166970014,
+      "comparacao": "«autoimmune ... adaptive / autoinflammatory ... innate» discrimina domínios por tipo de relação. Eixo autoral: corpo/meio externo versus vísceras/meio interno; alvos das duas linhas: somático e visceral. Adapta o contraste de domínios e preserva no Extra aferência e eferência em ambos.",
+      "veredito": "aprovado",
+      "motivo": "A oposição somático/visceral recupera o domínio funcional, sem reduzir somático a movimento voluntário nem confundir visceral com apenas saída autonômica.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::somático}}",
+          "resposta_esperada": "somático",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A oposição somático/visceral recupera o domínio funcional, sem reduzir somático a movimento voluntário nem confundir visceral com apenas saída autonômica. Alvo recuperado nesta ocorrência: somático."
+        },
+        {
+          "cloze": "{{c1::visceral}}",
+          "resposta_esperada": "visceral",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A oposição somático/visceral recupera o domínio funcional, sem reduzir somático a movimento voluntário nem confundir visceral com apenas saída autonômica. Alvo recuperado nesta ocorrência: visceral."
+        }
+      ],
+      "avulsos_cobertos": {
+        "busca": "Consultas reais E4 por somatic visceral afferent efferent nervous system functional division; seções e candidatos-vivos.json lidos.",
+        "decisoes": [
+          {
+            "nid": 1792329944339,
+            "acao": "manter",
+            "motivo": "A frente exportada cobra músculo esquelético como alvo da inervação somática. O organizador cobra o domínio corpo/meio externo versus vísceras/meio interno, incluindo aferência; o efetor motor específico agrega informação."
+          }
+        ],
+        "nenhum_porquê": "Não há avulso redundante selecionado no novo deck neste eixo; notas antigas remanescentes ficam na reserva histórica,sem exclusão de estudo."
+      }
+    },
+    "sna-definicao": {
+      "caso": 1792166970014,
+      "comparacao": "«autoimmune ... adaptive / autoinflammatory ... innate» relaciona um domínio ao sistema responsável. «eferência visceral ... autônomo» faz a mesma distinção funcional. O esquema mostra somático/visceral, com sistema autônomo derivando especificamente do ramo eferente visceral.",
+      "veredito": "aprovado",
+      "motivo": "Autônomo nomeia a saída visceral, sem absorver a aferência visceral. O par tem ganho diante do organizador dos nomes simpático/parassimpático/entérico.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::autônomo}}",
+          "resposta_esperada": "autônomo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Autônomo nomeia a saída visceral, sem absorver a aferência visceral. O par tem ganho diante do organizador dos nomes simpático/parassimpático/entérico. Alvo desta ocorrência: autônomo."
+        }
+      ]
+    },
+    "ramos-mistos": {
+      "caso": 1792588686964,
+      "comparacao": "O caso «raiz anterior ... eferentes / posterior ... aferentes» separa fibras nas raízes. «ramos posteriores ... aferentes e eferentes» exige perceber que ramos já distribuem nervo misto. A figura das raízes e ramos permite diferenciar os níveis.",
+      "veredito": "aprovado",
+      "motivo": "Ambos os sentidos no ramo posterior previnem a confusão posterior=somente sensitivo; é relação distinta da segregação nas raízes.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::aferentes e eferentes}}",
+          "resposta_esperada": "aferentes e eferentes",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Ambos os sentidos no ramo posterior previnem a confusão posterior=somente sensitivo; é relação distinta da segregação nas raízes. Alvo recuperado nesta ocorrência: aferentes e eferentes."
+        }
+      ]
+    },
+    "kh-1792328891560": {
+      "caso": 1792588686964,
+      "comparacao": "O caso «raiz anterior ... eferentes / posterior ... aferentes» exige diferenciar estruturas espinais pelo contexto. O novo exige reconhecer o ramo anterior destacado após a união das raízes e fora da medula, em vista do nervo intercostal. A relação espacial acrescenta modalidade visual ao mapa de sentidos.",
+      "veredito": "aprovado",
+      "motivo": "O ramo anterior está destacado na saída que segue a parede torácica, distinto de raiz anterior e do ramo posterior que retorna ao dorso."
+    },
+    "kh-1792328894044": {
+      "caso": 1792588686964,
+      "comparacao": "O exemplar diferencia anterior/posterior nas raízes. Aqui o ramo posterior destacado precisa ser reconhecido depois do nervo misto e dirigido ao dorso; o Extra opõe explicitamente ramo misto a raiz posterior sensitiva. A figura mostra esse trajeto, sem legenda nominal na base.",
+      "veredito": "aprovado",
+      "motivo": "Reconhecer ramo posterior impede confundi-lo com a raiz dorsal. A pergunta visual tem ganho próprio sobre o texto ramos-mistos."
+    },
+    "raiz-posterior-visual": {
+      "caso": 1792588686964,
+      "comparacao": "O caso associa «raiz posterior» a aferência; a nova leitura do modelo exige apontar qual feixe converge ao gânglio antes do nervo. A seta vermelha aponta o segmento proximal à dilatação ganglionar, não o ramo posterior já distal à união.",
+      "veredito": "aprovado",
+      "motivo": "Raiz posterior é recuperável no modelo pela localização anterior ao nervo misto e pelo gânglio associado; complementa a função sem trocar raiz por ramo.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::Raiz posterior}}",
+          "resposta_esperada": "Raiz posterior",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Raiz posterior é recuperável no modelo pela localização anterior ao nervo misto e pelo gânglio associado; complementa a função sem trocar raiz por ramo. Alvo desta ocorrência: Raiz posterior."
+        }
+      ]
+    },
+    "cerebelo-visual": {
+      "caso": 1792261811401,
+      "comparacao": "O caso situa «giro pós-central ... somestésica ... parietal» para recuperar anatomia por referência espacial. O novo faz leitura visual direta: seta e verde destacam o cerebelo atrás do tronco. Inspecionei imagem-base, overlays e render da frente composto; a resposta textual não está na frente.",
+      "veredito": "aprovado",
+      "motivo": "O alvo visual é inequivocamente o cerebelo na vista medial; a leitura espacial complementa nomeá-lo no conjunto das partes do encéfalo."
+    },
+    "kh-1792261723219": {
+      "caso": 1792261811401,
+      "comparacao": "O caso situa «giro pós-central ... somestésica ... lobo parietal». A nova figura pede a região maior parietal a partir do destaque lateral posterior ao sulco central. Recupera o território, em vez de apenas ler parietal como contexto de outra função.",
+      "veredito": "aprovado",
+      "motivo": "O parietal ocupa a região destacada superior/posterior ao central, com limite temporal e occipital visíveis; é anatomia macroscópica básica."
+    },
+    "kh-1792261725721": {
+      "caso": 1792261811401,
+      "comparacao": "O exemplar liga uma área cortical a seu lobo; o novo pede reconhecer o temporal em vista lateral, abaixo da fissura lateral. A figura destaca o lobo inteiro e conserva os vizinhos frontal, parietal e occipital para orientação.",
+      "veredito": "aprovado",
+      "motivo": "Temporal como território anatômico básico prepara a interpretação auditiva sem exigir subdivisões corticais ou síndromes regionais."
+    },
+    "kh-1792261727072": {
+      "caso": 1792261811401,
+      "comparacao": "«giro pós-central ... parietal» é referência cortical situada. O novo recupera occipital pela posição no polo posterior, destacada em verde. O nome visual do território é diferente da tarefa funcional que depois recruta córtex visual.",
+      "veredito": "aprovado",
+      "motivo": "O occipital é reconhecível pelo extremo posterior e suas relações com cerebelo/parietal/temporal; a identificação não introduz aprofundamento de vias ópticas."
+    },
+    "hipotalamo-visual": {
+      "caso": 1792261811401,
+      "comparacao": "Como «pós-central ... lobo parietal», a pergunta exige situar estrutura por referências anatômicas. O desenho medial com seta e a peça com referência7 localizam hipotálamo abaixo do tálamo e acima da hipófise, distinto do tronco. As duas imagens foram vistas.",
+      "veredito": "aprovado",
+      "motivo": "Hipotálamo é o alvo da seta no desenho e da marcação correspondente na peça. A leitura situada complementa o nome como derivado diencefálico.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::Hipotálamo}}",
+          "resposta_esperada": "Hipotálamo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Hipotálamo é o alvo da seta no desenho e da marcação correspondente na peça. A leitura situada complementa o nome como derivado diencefálico. Alvo desta ocorrência: Hipotálamo."
+        }
+      ]
+    },
+    "branca-composicao": {
+      "caso": 1791557940956,
+      "comparacao": "O caso «fungal cell wall ... chitin and β-glucans» recupera composição a partir da estrutura e distingue componentes de outros tecidos. «substância branca ... axônios mielinizados» recupera o componente predominante do compartimento neural. A imagem de cortes situa a branca ao redor de núcleos e sob o córtex, ligando composição e aparência.",
+      "veredito": "aprovado",
+      "motivo": "Branca e axônios mielinizados ligam a aparência macroscópica às vias de condução; não requer exclusividade de mielina nem exclui glia.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::branca}}",
+          "resposta_esperada": "branca",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Branca e axônios mielinizados ligam a aparência macroscópica às vias de condução; não requer exclusividade de mielina nem exclui glia. Alvo recuperado nesta ocorrência: branca."
+        },
+        {
+          "cloze": "{{c2::axônios mielinizados}}",
+          "resposta_esperada": "axônios mielinizados",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Branca e axônios mielinizados ligam a aparência macroscópica às vias de condução; não requer exclusividade de mielina nem exclui glia. Alvo recuperado nesta ocorrência: axônios mielinizados."
+        }
+      ]
+    },
+    "cinzenta-composicao": {
+      "caso": 1791557940956,
+      "comparacao": "O exemplar «fungal cell wall ... chitin ... β-glucans» pede os constituintes característicos de uma estrutura. «cinzenta ... corpos celulares e dendritos» aplica a mesma relação de composição a tecido neural, preservando predominância em vez de exclusividade. O Extra inclui sinapses, glia e axônios, e o corte mostra cinzenta superficial e profunda.",
+      "veredito": "aprovado",
+      "motivo": "Cinzenta e corpos neuronais explicam a composição de regiões de integração, deixando clara a predominância em vez de uma composição exclusiva.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::cinzenta}}",
+          "resposta_esperada": "cinzenta",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Cinzenta e corpos neuronais explicam a composição de regiões de integração, deixando clara a predominância em vez de uma composição exclusiva. Alvo recuperado nesta ocorrência: cinzenta."
+        },
+        {
+          "cloze": "{{c2::corpos celulares}}",
+          "resposta_esperada": "corpos celulares",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Cinzenta e corpos neuronais explicam a composição de regiões de integração, deixando clara a predominância em vez de uma composição exclusiva. Alvo recuperado nesta ocorrência: corpos celulares."
+        }
+      ]
+    },
+    "cortex-nucleos": {
+      "caso": 1791716425502,
+      "comparacao": "O caso «peripheral horseshoe: Langhans / irregularly scattered: foreign-body» distingue nomes conforme arranjo espacial de células. «córtex na superfície / núcleos em profundidade» distingue organizações da cinzenta pelo arranjo anatômico, sem mudar seu constituinte principal. Os cortes mostram camada externa e agregados internos, ao nível introdutório pedido.",
+      "veredito": "aprovado",
+      "motivo": "Córtex e núcleos organizam a localização da cinzenta, e o contraste núcleo/gânglio seguinte usa outro eixo, central versus periférico.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::córtex}}",
+          "resposta_esperada": "córtex",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Córtex e núcleos organizam a localização da cinzenta, e o contraste núcleo/gânglio seguinte usa outro eixo, central versus periférico. Alvo recuperado nesta ocorrência: córtex."
+        },
+        {
+          "cloze": "{{c1::núcleos}}",
+          "resposta_esperada": "núcleos",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Córtex e núcleos organizam a localização da cinzenta, e o contraste núcleo/gânglio seguinte usa outro eixo, central versus periférico. Alvo recuperado nesta ocorrência: núcleos."
+        }
+      ]
+    },
+    "kh-1792329743638": {
+      "caso": 1792588686980,
+      "comparacao": "O caso «medula espinal: canal central» recupera cavidade por região embrionária. O novo pede localizar a cavidade residual na medula: a figura destaca o canal estreito caudal, em continuidade ao sistema ventricular desenhado. Não cobra todos os recessos regionais.",
+      "veredito": "aprovado",
+      "motivo": "Canal central é a pequena continuação medular do lúmen; sua visualização é distinta da substância cinzenta ao redor ou do IV ventrículo rostral."
+    },
+    "nucleo-ganglio": {
+      "caso": 1792175047836,
+      "comparacao": "O caso «outside hair shaft ... ectothrix / inside ... endothrix» distingue nomes pelo território de localização. Eixo novo: agregados de somas no sistema central ou periférico; alvos por linha: núcleos no central, gânglios no periférico. Preserva esse tipo fino de contraste espacial e a figura reúne núcleos encefálicos e gânglio espinal; a exceção nominal basal ganglia fica no Extra.",
+      "veredito": "aprovado",
+      "motivo": "A distinção topográfica é exata e o Extra explica a exceção nominal de basal ganglia; não confunde núcleos profundos com estruturas do SNP.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::núcleos}}",
+          "resposta_esperada": "núcleos",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A distinção topográfica é exata e o Extra explica a exceção nominal de basal ganglia; não confunde núcleos profundos com estruturas do SNP. Alvo recuperado nesta ocorrência: núcleos."
+        },
+        {
+          "cloze": "{{c1::gânglios}}",
+          "resposta_esperada": "gânglios",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A distinção topográfica é exata e o Extra explica a exceção nominal de basal ganglia; não confunde núcleos profundos com estruturas do SNP. Alvo recuperado nesta ocorrência: gânglios."
+        }
+      ],
+      "avulsos_cobertos": {
+        "busca": "Consultas reais E4 por nucleus ganglion central peripheral nervous system cell bodies; seções e candidatos-vivos.json lidos.",
+        "decisoes": [],
+        "nenhum_porquê": "A busca exportada por nucleus/ganglion/cell bodies não listou avulsos candidatos. cortex-nucleos testa superfície/profundidade dentro do encéfalo, não a oposição central/periférico deste organizador."
+      }
+    },
+    "lamina-alar": {
+      "caso": 1792659586974,
+      "comparacao": "«epithelium ... endoderm / muscle ... mesoderm» associa tecido de origem à função adulta. «lâmina alar ... sensitivos» usa o mesmo tipo fino de derivação, agora dentro do tubo. A figura mostra alar dorsal, raiz posterior e sulco limitante.",
+      "veredito": "aprovado",
+      "motivo": "O destino sensitivo alar dá base embrionária ao polo sensitivo central, sem exigir catálogo dos núcleos dos nervos cranianos.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::sensitivos}}",
+          "resposta_esperada": "sensitivos",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O destino sensitivo alar dá base embrionária ao polo sensitivo central, sem exigir catálogo dos núcleos dos nervos cranianos. Alvo desta ocorrência: sensitivos."
+        }
+      ]
+    },
+    "lamina-basal": {
+      "caso": 1792659586974,
+      "comparacao": "O bom caso separa destinos de camadas embrionárias; «lâmina basal ... motores» separa o destino da parede ventral do tubo. A figura nomeia basal lamina e anterior nerve-root em relação ao canal, proporcionando o outro polo do mapa alar/basal.",
+      "veredito": "aprovado",
+      "motivo": "Motor como destino basal complementa sensitivo/alar, sem generalizar a posição adulta de todo núcleo motor a uma única coluna medial.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::motores}}",
+          "resposta_esperada": "motores",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Motor como destino basal complementa sensitivo/alar, sem generalizar a posição adulta de todo núcleo motor a uma única coluna medial. Alvo desta ocorrência: motores."
+        }
+      ]
+    },
+    "nucleos-cranianos-funcao": {
+      "caso": 1792166970014,
+      "comparacao": "Como «autoimmune ... adaptive / autoinflammatory ... innate», organiza grupos próximos por função. Eixo novo: direção nos núcleos cranianos; primeira linha aferência→sensitivos, segunda eferência→motores. O recorte real mostra grupos azuis/vermelhos e o Extra explicita a legenda da aula, sem pedir localização fina.",
+      "veredito": "aprovado",
+      "motivo": "O par sensitivo/motor diferencia a recepção e a origem da saída nos agregados centrais. A figura é representativa e a busca real de avulsos permite preservar os alvos de localização e de via com ganho distinto.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::sensitivos}}",
+          "resposta_esperada": "sensitivos",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O par sensitivo/motor diferencia a recepção e a origem da saída nos agregados centrais. A figura é representativa e a busca real de avulsos permite preservar os alvos de localização e de via com ganho distinto. Alvo nesta ocorrência: sensitivos."
+        },
+        {
+          "cloze": "{{c1::motores}}",
+          "resposta_esperada": "motores",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O par sensitivo/motor diferencia a recepção e a origem da saída nos agregados centrais. A figura é representativa e a busca real de avulsos permite preservar os alvos de localização e de via com ganho distinto. Alvo nesta ocorrência: motores."
+        }
+      ],
+      "avulsos_cobertos": {
+        "busca": "(cranial OR craniano*) (nuclei OR núcleo*) (motor OR sensory OR eferente OR aferente); busca real em06/11; resultados integrais e inspeção em auditoria-2026-11-05/avulsos-busca-real.json",
+        "decisoes": [
+          {
+            "nid": 1480389622314,
+            "acao": "manter",
+            "motivo": "A nota cobra motoneurônio inferior e corno ventral, relacionando-o a núcleos motores cranianos. O organizador contrasta grupos sensitivos e motores por fluxo, sem repetir essa classificação de motoneurônio."
+          },
+          {
+            "nid": 1480612351879,
+            "acao": "manter",
+            "motivo": "O avulso recupera saída medial e categoria motora. É topografia de emergência, enquanto o novo distingue receber aferência de originar eferência; não há cobertura completa do par geral."
+          },
+          {
+            "nid": 1561043470778,
+            "acao": "manter",
+            "motivo": "A nota cobra via corticobulbar e ligação córtex–núcleos motores. O organizador não exige o nome/curso da via e inclui também a função receptora dos núcleos sensitivos."
+          },
+          {
+            "nid": 1792329455992,
+            "acao": "manter",
+            "motivo": "O avulso localiza corpos de motoneurônios no corno anterior da medula. O novo é o contraste funcional dos núcleos cranianos centrais, em outro contexto anatômico."
+          },
+          {
+            "nid": 1792697128629,
+            "acao": "manter",
+            "motivo": "A nota organiza destino de ramos anteriores nos plexos e intercostais. Isso é distribuição periférica, sem recobrir o par de funções dos núcleos cranianos."
+          }
+        ],
+        "nenhum_porquê": "Nenhum avulso inspecionado recupera a mesma pergunta com a mesma modalidade; não criar suspensão por coincidência de nome."
+      }
+    },
+    "intumescencia-cervical": {
+      "caso": 1792696993158,
+      "comparacao": "O caso vigente UC07 «limite inferior ... forame magno ... superiormente ... diencéfalo» situa uma formação do SNC por referência anatômica. «dilatação ... membros superiores ... intumescência cervical» situa um alargamento pela conexão regional. A figura dos níveis mostra o alargamento cervical e o Extra explica o aumento de circuitos para o membro.",
+      "veredito": "aprovado",
+      "motivo": "A intumescência cervical associa a ampliação medular à inervação superior, com explicação da necessidade de mais neurônios no Extra. O par lombossacral corresponde a outro território.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::intumescência cervical}}",
+          "resposta_esperada": "intumescência cervical",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A intumescência cervical associa a ampliação medular à inervação superior, com explicação da necessidade de mais neurônios no Extra. O par lombossacral corresponde a outro território."
+        }
+      ]
+    },
+    "intumescencia-lombossacral": {
+      "caso": 1792696993158,
+      "comparacao": "O exemplar UC07 localiza o tronco por «forame magno» e «diencéfalo», nomes que ancoram uma região no eixo do SNC. «dilatação ... membros inferiores ... intumescência lombossacral» ancora a dilatação caudal no território de inervação. O desenho e os cortes lombossacrais dão posição real; a explicação de maior população neuronal permanece no Extra.",
+      "veredito": "aprovado",
+      "motivo": "O alvo lombossacral recupera a dilatação para membros inferiores, diferente da cervical. A nomenclatura mais abrangente do card é esclarecida pelo Extra e pelos segmentos do desenho.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::intumescência lombossacral}}",
+          "resposta_esperada": "intumescência lombossacral",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O alvo lombossacral recupera a dilatação para membros inferiores, diferente da cervical. A nomenclatura mais abrangente do card é esclarecida pelo Extra e pelos segmentos do desenho."
+        }
+      ]
+    },
+    "distais-laterais": {
+      "caso": 1792261811401,
+      "comparacao": "«pós-central ... somestésica ... parietal» associa função e posição anatômica. «motoneurônios para músculos distais ... lateralmente» recupera mapa motor por região corporal. A figura do corno anterior mostra músculos distais no lado lateral.",
+      "veredito": "aprovado",
+      "motivo": "A relação distal/lateral é um eixo funcional do corno anterior, diferente do eixo extensor/flexor dorsoventral.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::distais}}",
+          "resposta_esperada": "distais",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A relação distal/lateral é um eixo funcional do corno anterior, diferente do eixo extensor/flexor dorsoventral. Alvo recuperado nesta ocorrência: distais."
+        },
+        {
+          "cloze": "{{c1::lateralmente}}",
+          "resposta_esperada": "lateralmente",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A relação distal/lateral é um eixo funcional do corno anterior, diferente do eixo extensor/flexor dorsoventral. Alvo recuperado nesta ocorrência: lateralmente."
+        }
+      ]
+    },
+    "extensores-ventrais": {
+      "caso": 1792261811401,
+      "comparacao": "O caso recupera localização cortical pela função. «extensores ... ventralmente» recupera localização de um pool motor no corno anterior. A ampliação mostra extensores abaixo, enquanto flexores estão acima, fornecendo o eixo dorsoventral correto.",
+      "veredito": "aprovado",
+      "motivo": "Extensores ventrais acrescentam o polo ventral da somatotopia motora, e o Extra impede confundir o contraste com cornos sensitivo e motor.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::extensores}}",
+          "resposta_esperada": "extensores",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Extensores ventrais acrescentam o polo ventral da somatotopia motora, e o Extra impede confundir o contraste com cornos sensitivo e motor. Alvo recuperado nesta ocorrência: extensores."
+        },
+        {
+          "cloze": "{{c1::ventralmente}}",
+          "resposta_esperada": "ventralmente",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Extensores ventrais acrescentam o polo ventral da somatotopia motora, e o Extra impede confundir o contraste com cornos sensitivo e motor. Alvo recuperado nesta ocorrência: ventralmente."
+        }
+      ]
+    },
+    "flexores-dorsais": {
+      "caso": 1792261811401,
+      "comparacao": "«giro pós-central ... somestésica» liga território à função; «flexores ... dorsalmente» liga ação muscular ao pool do corno anterior. A mesma figura mostra flexores no polo dorsal da ampliação, sem os deslocar ao corno posterior sensitivo.",
+      "veredito": "aprovado",
+      "motivo": "Flexores dorsais são o outro grupo motor do eixo interno ao corno anterior; cobram um pool distinto dos extensores, mantendo o contexto explícito.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c2::flexores}}",
+          "resposta_esperada": "flexores",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Flexores dorsais são o outro grupo motor do eixo interno ao corno anterior; cobram um pool distinto dos extensores, mantendo o contexto explícito. Alvo recuperado nesta ocorrência: flexores."
+        },
+        {
+          "cloze": "{{c1::dorsalmente}}",
+          "resposta_esperada": "dorsalmente",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Flexores dorsais são o outro grupo motor do eixo interno ao corno anterior; cobram um pool distinto dos extensores, mantendo o contexto explícito. Alvo recuperado nesta ocorrência: dorsalmente."
+        }
+      ]
+    },
+    "somatotopia-definicao": {
+      "caso": 1791000311352,
+      "comparacao": "O caso «movement of ions ... solvent drag» recupera um termo técnico pela relação que define. «No SNC, mapeamento ordenado do corpo ... somatotopia» faz a mesma recuperação de definição funcional situada. Separar No SNC do negrito preserva o contexto e a identidade do alvo; o desenho mostra grupos corporais ordenados no corno anterior.",
+      "veredito": "aprovado",
+      "motivo": "Somatotopia nomeia o princípio que permite relacionar posição do grupo neural à distribuição corporal do déficit; não repete nenhum par específico distal/lateral.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::somatotopia}}",
+          "resposta_esperada": "somatotopia",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Somatotopia nomeia o princípio que permite relacionar posição do grupo neural à distribuição corporal do déficit; não repete nenhum par específico distal/lateral. Alvo desta ocorrência: somatotopia."
+        }
+      ]
+    },
+    "walleriana": {
+      "caso": 1793301690845,
+      "comparacao": "«machinery ... redirected ... stops dividing» liga agressão/processo à consequência celular. Aqui «lesão axonal ... walleriana ... distalmente» identifica o processo e lado do segmento desconectado. As secções com perda de coloração mostram como seguir a via no exemplo da aula.",
+      "veredito": "aprovado",
+      "motivo": "Walleriana e distal recuperam o mecanismo de degeneração do axônio separado do soma, em vez de apenas nomear trato ou déficit contralateral.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::walleriana}}",
+          "resposta_esperada": "walleriana",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Walleriana e distal recuperam o mecanismo de degeneração do axônio separado do soma, em vez de apenas nomear trato ou déficit contralateral. Alvo desta ocorrência: walleriana."
+        },
+        {
+          "cloze": "{{c2::distalmente}}",
+          "resposta_esperada": "distalmente",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Walleriana e distal recuperam o mecanismo de degeneração do axônio separado do soma, em vez de apenas nomear trato ou déficit contralateral. Alvo desta ocorrência: distalmente."
+        }
+      ]
+    },
+    "broca-fala": {
+      "caso": 1792166976595,
+      "comparacao": "«Myasthenia gravis ... postsynaptic ACh receptors» ancora doença em sua associação principal. «afasia de Broca ... não fluente» ancora síndrome de linguagem em seu padrão essencial. A figura real mostra lesão frontal e o Extra situa a região frontal inferior dominante.",
+      "veredito": "aprovado",
+      "motivo": "Fala não fluente é a associação clínica básica de Broca que exemplifica relação estrutura/função e evita transformar o card em cronologia histórica.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::não fluente}}",
+          "resposta_esperada": "não fluente",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Fala não fluente é a associação clínica básica de Broca que exemplifica relação estrutura/função e evita transformar o card em cronologia histórica. Alvo recuperado nesta ocorrência: não fluente."
+        }
+      ]
+    },
+    "broca-localizacao": {
+      "caso": 1792261811401,
+      "comparacao": "O caso aprovado «giro pós-central ... parietal» associa função/área ao sítio no córtex. «Broca ... frontal inferior ... dominante» aplica a mesma recuperação topográfica. A fotografia mostra a lesão circundada na região frontal inferior, anterior ao sulco central.",
+      "veredito": "aprovado",
+      "motivo": "Frontal inferior localiza a área de produção da fala; o outro card de Broca cobra não fluência, uma associação clínica diferente e complementar.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::frontal inferior}}",
+          "resposta_esperada": "frontal inferior",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Frontal inferior localiza a área de produção da fala; o outro card de Broca cobra não fluência, uma associação clínica diferente e complementar. Alvo desta ocorrência: frontal inferior."
+        }
+      ]
+    },
+    "transporte-axonal": {
+      "caso": 1791625426833,
+      "comparacao": "O caso recupera «TAP» como agente transportador em uma via intracelular. «transporte axonal ... microtúbulos como trilhos» recupera o suporte estrutural que permite o tráfego. A figura mostra motores, cargas e trilho microtubular orientado.",
+      "veredito": "aprovado",
+      "motivo": "Microtúbulos constituem a via do transporte de carga, distinta do axônio como condutor do impulso e das duas direções cobradas em tracadores.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::microtúbulos}}",
+          "resposta_esperada": "microtúbulos",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Microtúbulos constituem a via do transporte de carga, distinta do axônio como condutor do impulso e das duas direções cobradas em tracadores. Alvo recuperado nesta ocorrência: microtúbulos."
+        }
+      ]
+    },
+    "tracadores": {
+      "caso": 1792753608593,
+      "comparacao": "O caso «travels up sensory axons ... ganglion» relaciona trajeto e destino. No organizador atual, eixo=informação revelada por marcação: destinos axonais→anterógrado e somas que projetam ao sítio→retrógrado. A figura da injeção e marcação em núcleos/córtex fornece o contexto de conexão, ultrapassando o antigo nome de direção soma/terminal.",
+      "veredito": "aprovado",
+      "motivo": "Anterógrado e retrógrado agora exigem interpretar o que cada marcação revela. O Extra preserva dependência das propriedades do traçador, sem prometer que todo marcador atravesse sinapses.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::anterógrado}}",
+          "resposta_esperada": "anterógrado",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Anterógrado e retrógrado agora exigem interpretar o que cada marcação revela. O Extra preserva dependência das propriedades do traçador, sem prometer que todo marcador atravesse sinapses. Alvo nesta ocorrência: anterógrado."
+        },
+        {
+          "cloze": "{{c1::retrógrado}}",
+          "resposta_esperada": "retrógrado",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Anterógrado e retrógrado agora exigem interpretar o que cada marcação revela. O Extra preserva dependência das propriedades do traçador, sem prometer que todo marcador atravesse sinapses. Alvo nesta ocorrência: retrógrado."
+        }
+      ],
+      "avulsos_cobertos": {
+        "busca": "(anterograde OR retrograde OR anterógrado OR retrógrado) (transport OR transporte OR tracer OR traçador); Anki vivo06/11,resultados em auditoria-2026-11-05/avulsos-busca-real.json",
+        "decisoes": [
+          {
+            "nid": 1479430581908,
+            "acao": "manter",
+            "motivo": "A nota original de acervo cobra microtúbulos como trilho físico. O organizador novo cobra inferência de destinos/origem por marcação, mantendo ganho distinto e preservando a referência."
+          },
+          {
+            "nid": 1701800094533,
+            "acao": "manter",
+            "motivo": "A fonte longa cobra kinesina/dineína, direção soma/terminal e endocitose. A pergunta do organizador recorta interpretação da marcação; não torna todos esses alvos redundantes nem exige suspender a referência."
+          },
+          {
+            "nid": 1793889229461,
+            "acao": "manter",
+            "motivo": "O avulso instalado cobra o trilho microtubular no transporte axonal. O organizador cobra se o marcador revela destinos de axônios ou somas de origem; compartilhar o processo não repete a recuperação."
+          }
+        ],
+        "nenhum_porquê": "Nenhum avulso inspecionado exige a mesma inferência experimental. Não suspender a nota útil de microtúbulos por compartilhar o tema transporte."
+      }
+    },
+    "imagem-estrutural": {
+      "caso": 1791826286643,
+      "comparacao": "O exemplar «Which drug is most potent? A» é leitura visual: inferir a categoria correta dos traços da figura, não repetir texto. O autoral «Em qual plano ... dois cortes ... Sagital» aplica o mesmo tipo fino a desenho e RM reais, ambos mostrando estruturas medianas em perfil. As legendas não escrevem Sagital.",
+      "veredito": "aprovado",
+      "motivo": "O plano sagital é recuperável pela orientação das duas imagens e é aplicável fora do exemplo; o pareamento desenho/RM reforça leitura anatômica estrutural.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::Sagital}}",
+          "resposta_esperada": "Sagital",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "O plano sagital é recuperável pela orientação das duas imagens e é aplicável fora do exemplo; o pareamento desenho/RM reforça leitura anatômica estrutural. Alvo recuperado nesta ocorrência: Sagital."
+        }
+      ]
+    },
+    "rm-estruturas": {
+      "caso": 1792713394868,
+      "comparacao": "O caso «impressões da face visceral do fígado ... gástrica, renal...» recupera nomes anatômicos pela posição. Eixo do autoral: estrutura apontada na RM; (A)=corpo caloso, (B)=ponte, (C)=cerebelo. Os parênteses tornam os rótulos explícitos sem alterar setas ou respostas; a comparação real de avulsos mantém a diferença de modalidade atlas/RM.",
+      "veredito": "aprovado",
+      "motivo": "Corpo caloso, ponte e cerebelo são três alvos inequívocos de leitura anatômica na RM. O contraste com avulsos confirma transferência de modalidade, sem suspensão por coincidência de nome.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::Corpo caloso::C…}}",
+          "resposta_esperada": "Corpo caloso",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Corpo caloso, ponte e cerebelo são três alvos inequívocos de leitura anatômica na RM. O contraste com avulsos confirma transferência de modalidade, sem suspensão por coincidência de nome. Alvo nesta ocorrência: Corpo caloso."
+        },
+        {
+          "cloze": "{{c1::Ponte::P…}}",
+          "resposta_esperada": "Ponte",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Corpo caloso, ponte e cerebelo são três alvos inequívocos de leitura anatômica na RM. O contraste com avulsos confirma transferência de modalidade, sem suspensão por coincidência de nome. Alvo nesta ocorrência: Ponte."
+        },
+        {
+          "cloze": "{{c1::Cerebelo::C…}}",
+          "resposta_esperada": "Cerebelo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Corpo caloso, ponte e cerebelo são três alvos inequívocos de leitura anatômica na RM. O contraste com avulsos confirma transferência de modalidade, sem suspensão por coincidência de nome. Alvo nesta ocorrência: Cerebelo."
+        }
+      ],
+      "avulsos_cobertos": {
+        "busca": "(sagittal OR sagital) (\"corpus callosum\" OR \"corpo caloso\" OR pons OR ponte OR cerebellum OR cerebelo); busca real em06/11; resultados integrais e inspeção em auditoria-2026-11-05/avulsos-busca-real.json",
+        "decisoes": [
+          {
+            "nid": 1481163962977,
+            "acao": "manter",
+            "motivo": "A nota cobra cabeça do caudado em RM axial. Região e estrutura diferem dos três alvos de RM sagital, portanto mantém ganho próprio."
+          },
+          {
+            "nid": 1792572870632,
+            "acao": "manter",
+            "motivo": "O Kenhub exige reconhecer a ponte no atlas. A RM sagital deste organizador exige transferência para imagem radiológica, modalidade distinta."
+          },
+          {
+            "nid": 1792572870701,
+            "acao": "manter",
+            "motivo": "O Kenhub cobra corpo caloso em desenho medial destacado. O alvo em RM acrescenta reconhecimento de sinal/contorno em outra modalidade."
+          },
+          {
+            "nid": 1793889229450,
+            "acao": "manter",
+            "motivo": "O avulso cerebelar usa atlas Kenhub. O organizador cobra localizar cerebelo em RM ao lado de outros dois marcos, com ganho de modalidade."
+          },
+          {
+            "nid": 1793889229463,
+            "acao": "manter",
+            "motivo": "A pergunta antiga cobra apenas o plano Sagital. Não exige reconhecer corpo caloso, ponte ou cerebelo apontados na RM."
+          }
+        ],
+        "nenhum_porquê": "Nenhum avulso inspecionado recupera a mesma pergunta com a mesma modalidade; não criar suspensão por coincidência de nome."
+      }
+    },
+    "redes": {
+      "caso": 1792786399910,
+      "comparacao": "O exemplar «dsRNA → Dicer ... RISC/Argonaute → ... cut» organiza agentes pelo papel em um processo. Eixo autoral: contribuições para rebater uma bola; alvos de cada linha: visual para trajetória, pré-motor para planejamento, motor para comando, cerebelo para coordenação. Adapta processo a contribuições conectadas, preservadas na figura.",
+      "veredito": "aprovado",
+      "motivo": "As quatro contribuições dão conteúdo concreto à rede distribuída, sem alegar que as regiões operam isoladamente. As iniciais são de nomes anatômicos extensos e o Extra explicita interação.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::visual::v…}}",
+          "resposta_esperada": "visual",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "As quatro contribuições dão conteúdo concreto à rede distribuída, sem alegar que as regiões operam isoladamente. As iniciais são de nomes anatômicos extensos e o Extra explicita interação. Alvo recuperado nesta ocorrência: visual."
+        },
+        {
+          "cloze": "{{c1::pré-motor::p…}}",
+          "resposta_esperada": "pré-motor",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "As quatro contribuições dão conteúdo concreto à rede distribuída, sem alegar que as regiões operam isoladamente. As iniciais são de nomes anatômicos extensos e o Extra explicita interação. Alvo recuperado nesta ocorrência: pré-motor."
+        },
+        {
+          "cloze": "{{c1::motor::m…}}",
+          "resposta_esperada": "motor",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "As quatro contribuições dão conteúdo concreto à rede distribuída, sem alegar que as regiões operam isoladamente. As iniciais são de nomes anatômicos extensos e o Extra explicita interação. Alvo recuperado nesta ocorrência: motor."
+        },
+        {
+          "cloze": "{{c1::cerebelo::c…}}",
+          "resposta_esperada": "cerebelo",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "As quatro contribuições dão conteúdo concreto à rede distribuída, sem alegar que as regiões operam isoladamente. As iniciais são de nomes anatômicos extensos e o Extra explicita interação. Alvo recuperado nesta ocorrência: cerebelo."
+        }
+      ],
+      "avulsos_cobertos": {
+        "busca": "Consultas reais E4 por distributed neural networks interconnected brain areas complex behavior; seções e candidatos-vivos.json lidos.",
+        "decisoes": [],
+        "nenhum_porquê": "A busca exportada por distributed neural networks/interconnected brain areas/complex behavior não listou avulsos. Broca-fala e cerebelo-visual conservam associação clínica e identificação espacial, diferentes das quatro contribuições à tarefa."
+      }
+    },
+    "ressonancia-funcional": {
+      "caso": 1791826286795,
+      "comparacao": "O exemplar «Which drugs have the same maximal efficacy?» distingue o sinal funcional que se lê na figura. «ressonância magnética funcional ... hemodinâmicas» exige técnica e variável indireta de atividade. A imagem nova BOLD de origem AnKing mostra sobreposição de ativação em RM estrutural, distinta da série de palavras de procedência não fixada.",
+      "veredito": "aprovado",
+      "motivo": "A figura BOLD real sustenta a técnica hemodinâmica; o Extra distingue a medida indireta dos potenciais de ação. O card não pede localizar ACC nem transfere o nome RM para a série de palavras.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::ressonância magnética funcional}}",
+          "resposta_esperada": "ressonância magnética funcional",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A figura BOLD real sustenta a técnica hemodinâmica; o Extra distingue a medida indireta dos potenciais de ação. O card não pede localizar ACC nem transfere o nome RM para a série de palavras. Alvo desta ocorrência: ressonância magnética funcional."
+        },
+        {
+          "cloze": "{{c2::hemodinâmicas}}",
+          "resposta_esperada": "hemodinâmicas",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "A figura BOLD real sustenta a técnica hemodinâmica; o Extra distingue a medida indireta dos potenciais de ação. O card não pede localizar ACC nem transfere o nome RM para a série de palavras. Alvo desta ocorrência: hemodinâmicas."
+        }
+      ]
+    },
+    "rm-foco-visual": {
+      "caso": 1792261811401,
+      "comparacao": "Como «giro pós-central ... somestésica ... parietal», liga tarefa/função a território. O novo «foco posterior ao olhar palavras ... occipital» exige localizar a ativação na figura funcional. O texto agora não fixa a técnica como fMRI, e o foco está visível no polo posterior.",
+      "veredito": "aprovado",
+      "motivo": "Occipital situa o processamento visual na imagem sem reduzir toda leitura a uma única região nem confundir a técnica com o mapa anatômico.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::occipital}}",
+          "resposta_esperada": "occipital",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Occipital situa o processamento visual na imagem sem reduzir toda leitura a uma única região nem confundir a técnica com o mapa anatômico. Alvo desta ocorrência: occipital."
+        }
+      ]
+    },
+    "rm-foco-auditivo": {
+      "caso": 1792261811401,
+      "comparacao": "O caso relaciona função primária a lobo cortical; «foco lateral ao ouvir palavras ... temporal» aplica localização macroscópica à imagem da tarefa. A versão atual não esconde sons nem exige inferir A1: a imagem mostra a região temporal lateral e o Extra preserva a rede de associação.",
+      "veredito": "aprovado",
+      "motivo": "Temporal é a localização recuperável do foco auditivo. A restrição ao lobo corrige a especificidade injustificada de auditivo primário do draft.",
+      "alvos_essenciais": [
+        {
+          "cloze": "{{c1::temporal}}",
+          "resposta_esperada": "temporal",
+          "essencial": true,
+          "inducao_sem_vazamento": true,
+          "porque_dura": "Temporal é a localização recuperável do foco auditivo. A restrição ao lobo corrige a especificidade injustificada de auditivo primário do draft. Alvo desta ocorrência: temporal."
+        }
+      ]
+    }
+  },
+  "deck": {
+    "fio_da_aula": "O pacote ampliado conecta desenvolvimento/cavidades, migração/poda, integração elétrica, glia adicional, organização motora/sensitiva e leitura anatômica/funcional. Os sete apoios visuais questionados foram corrigidos e as buscas reais dos organizadores novos/modificados foram confrontadas. Traçadores agora exige interpretar destinos/origem. Os compartilhados e o E7 são auditados pelo executor; este parecer julga os cards presentes e não comprova instalação nem cobertura integral dos conteúdos regionais destinados a outras aulas.",
+    "repetidos": "Nenhum sem ganho próprio decisivo no pacote atual. Bipolar-local agora exige retina, não repete a definição de bipolar. Origem embrionária, reconhecimento em atlas e reconhecimento em RM diferem pela relação/modalidade; preservar a distinção.",
+    "fora_do_principio": "nenhum identificado; pendências de imagens e de busca não transformam o conteúdo em tema lateral."
+  }
+}
