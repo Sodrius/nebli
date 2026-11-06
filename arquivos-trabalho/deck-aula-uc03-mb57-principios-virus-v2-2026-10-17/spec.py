@@ -14,7 +14,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-mb57-20261017a"
 SHORT = "mb57n"
 LESSON = "2026-uc03-microbiologia-57-principios-gerais-virus"
-DECK = "NEBLI::UC03::P3::Microbiologia::Princípios gerais dos vírus"
+DECK = "NEBLI::UC03::P3::Microbiologia::57 Princípios gerais dos vírus"
 CRITERIOS = "MEMORY.md §3/§5/§6/§7/§8 + FEEDBACKS até F-20261016-CLAUDE-11 + ANTI-EXEMPLARES §1–16, 17/10/2026"
 MEDIA = {f"mb57-{n}.jpg": f"img/mb57-{n}.jpg" for n in ("baltimore", "estruturas")}
 IMG = lambda n, w=460: f'<img src="mb57-{n}.jpg" width="{w}">'

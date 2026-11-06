@@ -3,7 +3,7 @@
 RUN_ID = "uc03-pt47-20261010a"
 SHORT = "pt47"
 LESSON = "2026-uc03-patologia-47-inflamacao-granulomatosa"
-DECK = "NEBLI::UC03::P3::Patologia::Inflamação granulomatosa"
+DECK = "NEBLI::UC03::P3::Patologia::47 Inflamação granulomatosa"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261010-CODEX-03) + inventário e fontes da corrida, 10/10/2026"
 MEDIA = {f"pt47-s{n:02}-visual.png": f"img/pt47-s{n:02}-visual.png"
          for n in (10, 14, 20, 21, 23, 24, 26, 27, 31, 33, 35)}

@@ -4,7 +4,7 @@ import json, re, urllib.request
 RUN_ID = "uc03-bq33-20261011a"
 SHORT = "bq33"
 LESSON = "2026-uc03-bioquimica-33-integracao-metabolica-ii"
-DECK = "NEBLI::UC03::P2::Bioquímica::Integração metabólica II"
+DECK = "NEBLI::UC03::P2::Bioquímica::33 Integração metabólica II"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261011-CLAUDE-02) + plano vigente, 11/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

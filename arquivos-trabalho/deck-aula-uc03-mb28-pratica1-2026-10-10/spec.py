@@ -3,7 +3,7 @@
 RUN_ID = "uc03-mb28-20261010a"
 SHORT = "mb28"
 LESSON = "2026-uc03-microbiologia-28-pratica-1"
-DECK = "NEBLI::UC03::P2::Microbiologia::Prática 1 — morfologia e assepsia"
+DECK = "NEBLI::UC03::P2::Microbiologia::28 Prática 1 — morfologia e assepsia"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261010-CLAUDE-04) + plano de 08/10 ajustado em 10/10, 10/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

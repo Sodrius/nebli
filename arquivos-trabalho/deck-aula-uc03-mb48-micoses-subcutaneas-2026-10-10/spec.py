@@ -3,7 +3,7 @@
 RUN_ID = "uc03-mb48-20261010a"
 SHORT = "mb48"
 LESSON = "2026-uc03-microbiologia-48-micoses-subcutaneas"
-DECK = "NEBLI::UC03::P3::Microbiologia::Micoses subcutâneas"
+DECK = "NEBLI::UC03::P3::Microbiologia::48 Micoses subcutâneas"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261010-CLAUDE-02) + plano de 08/10 ajustado em 10/10, 10/10/2026"
 MEDIA = {"mb48-sporothrix-margarida.png": "img/mb48-sporothrix-margarida.png", "mb48-lobo-cadeias.png": "img/mb48-lobo-cadeias.png"}
 V, Z, R = 3, 4, 5

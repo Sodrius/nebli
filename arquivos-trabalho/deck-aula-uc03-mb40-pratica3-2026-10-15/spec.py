@@ -3,7 +3,7 @@
 RUN_ID = "uc03-mb40-20261015a"
 SHORT = "mb40"
 LESSON = "2026-uc03-microbiologia-40-pratica-3"
-DECK = "NEBLI::UC03::P2::Microbiologia::Prática 3 — identificação bacteriana"
+DECK = "NEBLI::UC03::P2::Microbiologia::40 Prática 3 — identificação bacteriana"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 15/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

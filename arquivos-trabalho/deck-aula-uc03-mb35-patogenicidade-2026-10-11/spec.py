@@ -4,7 +4,7 @@ import json, re, urllib.request
 RUN_ID = "uc03-mb35-20261011a"
 SHORT = "mb35"
 LESSON = "2026-uc03-microbiologia-35-patogenicidade-bacteriana"
-DECK = "NEBLI::UC03::P2::Microbiologia::Patogenicidade bacteriana"
+DECK = "NEBLI::UC03::P2::Microbiologia::35 Patogenicidade bacteriana"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261011-CLAUDE-03) + plano vigente, 11/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

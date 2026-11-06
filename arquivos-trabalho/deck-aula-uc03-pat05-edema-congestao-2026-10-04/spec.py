@@ -1,7 +1,7 @@
 RUN_ID = "uc03-pat05-20261004a"
 SHORT = "pat05"
 LESSON = "2026-uc03-patologia-23-edema-congestao"
-DECK = "NEBLI::UC03::P2::Patologia::Edema e congestão"
+DECK = "NEBLI::UC03::P2::Patologia::23 Edema e congestão"
 CRITERIOS = "MEMORY.md + FEEDBACKS até F-20261004-CODEX-04; fontes completas em fontes.json e planejamento-v2.md"
 MEDIA = {}
 V, Z, R = 3, 4, 5

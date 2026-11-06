@@ -6,7 +6,7 @@
 RUN_ID = "uc03-gr02-20261003a"
 SHORT = "gr02"
 LESSON = "2026-uc03-grand-round-21-diabetes"
-DECK = "NEBLI::UC03::P2::Grand Round::Grand Round 2 (diabetes)"
+DECK = "NEBLI::UC03::P2::Grand Round::21 Grand Round 2 (diabetes)"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261003-CLAUDE-19) + PLANO-GERACAO-ANO, 03/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

@@ -3,7 +3,7 @@
 RUN_ID = "uc03-im22-20261015a"
 SHORT = "im22"
 LESSON = "2026-uc03-imunologia-22-mecanismos-efetores"
-DECK = "NEBLI::UC03::P1::Imunologia::Mecanismos efetores imunes"
+DECK = "NEBLI::UC03::P1::Imunologia::22 Mecanismos efetores imunes"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 15/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

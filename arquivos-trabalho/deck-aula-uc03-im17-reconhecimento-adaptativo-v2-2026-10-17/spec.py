@@ -19,7 +19,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-im17-20261017a"
 SHORT = "im17n"
 LESSON = "2026-uc03-imunologia-17-reconhecimento-adaptativo"
-DECK = "NEBLI::UC03::P1::Imunologia::Reconhecimento imune adaptativo"
+DECK = "NEBLI::UC03::P1::Imunologia::17 Reconhecimento imune adaptativo"
 CRITERIOS = "MEMORY.md §3/§5/§6/§7/§8 + FEEDBACKS até F-20261016-CLAUDE-11 + ANTI-EXEMPLARES §1–16, 17/10/2026"
 MEDIA = {f"im17-{n}.png": f"img/im17-{n}.png" for n in ("humoral-celular", "eletroforese", "troca-classe", "estrutura")}
 IMG = lambda n, w=440: f'<img src="im17-{n}.png" width="{w}">'

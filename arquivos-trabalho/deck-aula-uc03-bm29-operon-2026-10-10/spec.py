@@ -5,7 +5,7 @@
 RUN_ID = "uc03-bm29-20261010a"
 SHORT = "bm29"
 LESSON = "2026-uc03-biologia-molecular-29-operon-procariotos"
-DECK = "NEBLI::UC03::P2::Biologia Molecular::Operon em procariotos"
+DECK = "NEBLI::UC03::P2::Biologia Molecular::29 Operon em procariotos"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261010-CLAUDE-05) + plano de 08/10 ajustado em 10/10, 10/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

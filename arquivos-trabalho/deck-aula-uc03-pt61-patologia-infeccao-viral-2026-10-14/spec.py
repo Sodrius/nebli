@@ -4,7 +4,7 @@
 RUN_ID = "uc03-pt61-20261014a"
 SHORT = "pt61"
 LESSON = "2026-uc03-patologia-61-patologia-infeccao-viral"
-DECK = "NEBLI::UC03::P3::Patologia::Patologia da infecção viral"
+DECK = "NEBLI::UC03::P3::Patologia::61 Patologia da infecção viral"
 CRITERIOS = "MEMORY.md (14/10, F-20261014-CLAUDE-02) + PLANO-CONTINUACAO-DECKS (C1–C7) + PLANO-CARDS-TABS, 14/10/2026"
 _IMG = {"negri": "jpeg", "sarampo": "jpeg", "sincicio": "jpeg", "coilocito": "jpeg", "cinetica": "png", "interferon": "jpeg",
         "estado-antiviral": "jpeg", "nk": "jpeg", "ciclo-hbv": "jpeg", "vidro-fosco": "jpeg", "ihc-hbsag": "jpeg", "ihc-hbcag": "jpeg",

@@ -21,7 +21,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-bq16-20261017a"
 SHORT = "bq16n"
 LESSON = "2026-uc03-bioquimica-16-regulacao-hormonal-massa-corporea"
-DECK = "NEBLI::UC03::P1::Bioquímica::Regulação hormonal e massa corpórea"
+DECK = "NEBLI::UC03::P1::Bioquímica::16 Regulação hormonal e massa corpórea"
 CRITERIOS = "MEMORY.md §3/§5/§6/§7/§8 + FEEDBACKS até F-20261016-CLAUDE-11 + ANTI-EXEMPLARES §1–16, 17/10/2026"
 MEDIA = {f"bq16-{n}.png": f"img/bq16-{n}.png" for n in ("lipostatica", "ampk", "ob-leptina", "parabiose", "arqueado")}
 IMG = lambda n, w=440: f'<img src="bq16-{n}.png" width="{w}">'

@@ -3,7 +3,7 @@
 RUN_ID = "uc03-bm18-20261014a"
 SHORT = "bm18"
 LESSON = "2026-uc03-biologia-molecular-18-recombinacao"
-DECK = "NEBLI::UC03::P1::Biologia Molecular::Recombinação V(D)J"
+DECK = "NEBLI::UC03::P1::Biologia Molecular::18 Recombinação V(D)J"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 14/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

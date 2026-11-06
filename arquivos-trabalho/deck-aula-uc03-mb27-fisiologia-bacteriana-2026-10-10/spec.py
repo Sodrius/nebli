@@ -3,7 +3,7 @@
 RUN_ID = "uc03-mb27-20261010a"
 SHORT = "mb27"
 LESSON = "2026-uc03-microbiologia-27-fisiologia-bacteriana"
-DECK = "NEBLI::UC03::P2::Microbiologia::Fisiologia bacteriana"
+DECK = "NEBLI::UC03::P2::Microbiologia::27 Fisiologia bacteriana"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261010-CLAUDE-04) + plano de 08/10 ajustado em 10/10, 10/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

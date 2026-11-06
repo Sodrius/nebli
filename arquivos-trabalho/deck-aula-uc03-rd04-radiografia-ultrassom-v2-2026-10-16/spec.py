@@ -17,7 +17,7 @@ PIPELINE = "anking-primeiro"  # F-20261015-CLAUDE-06: liga os gates duros (cober
 RUN_ID = "uc03-rd04-20261016a"
 SHORT = "rd04"
 LESSON = "2026-uc03-radiologia-04-radiografia-ultrassom"
-DECK = "NEBLI::UC03::P1::Radiologia::Radiografia e ultrassom"
+DECK = "NEBLI::UC03::P1::Radiologia::04 Radiografia e ultrassom"
 CRITERIOS = "MEMORY.md §3/§5/§6/§7/§8 + FEEDBACKS até F-20261016-CLAUDE-10 + ANTI-EXEMPLARES §1–16, 16/10/2026"
 MEDIA = {f"rd04-{n}.png": f"img/rd04-{n}.png" for n in ("tubo", "densidades", "magnificacao", "pa-ap", "silhueta", "sombra", "reforco")}
 IMG = lambda n, w=420: f'<img src="rd04-{n}.png" width="{w}">'

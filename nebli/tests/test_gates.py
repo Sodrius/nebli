@@ -425,3 +425,50 @@ def test_instalar_por_ultimo_reprova_apply_antes_da_e7(tmp_path):
     (tmp_path / "etapas.jsonl").write_text(_j.dumps({"etapa": "E7", "em": "2026-11-04T08:00:00+00:00"}) + "\n")
     assert _g.instalar_por_ultimo(tmp_path, {"pipeline_versao": 14})[0][1] is True
     assert _g.instalar_por_ultimo(tmp_path, {"pipeline_versao": 13}) == []
+
+
+def _inv_run(tmp_path, slides, txt_por_pagina):
+    (tmp_path / "inventario.py").write_text("SLIDES = " + repr(slides) + "\n", encoding="utf-8")
+    (tmp_path / "fontes").mkdir()
+    (tmp_path / "fontes" / "slides.txt").write_text(
+        "\n".join(f"===== página {n} =====\n{t}" for n, t in txt_por_pagina.items()), encoding="utf-8")
+    return tmp_path
+
+
+def test_cobertura_por_lamina_reprova_fora_generico_e_grafico_sem_figura(tmp_path):
+    """F-20261106-CLAUDE-01: o padrão da 65 v3 (lâminas de gráfico em fora_do_recorte com texto genérico) reprova."""
+    from nebli import gates as _g
+    gen = "Lâmina {}: figura ou detalhe sem card próprio (FORA_DO_RECORTE)"
+    slides = [(1, "conteudo", "Lâmina 1", [("i1", "x", "c-a")]), (2, "fora_do_recorte", gen.format(2), []),
+              (3, "conteudo", "Gráfico das fases", [("i3", "y", "c-b")])]
+    run = _inv_run(tmp_path, slides, {1: "texto " * 30, 2: "Fases", 3: "Fases"})
+    plan = {"pipeline_versao": 16, "entries": [{"key": "c-a", "fields": {"Text": "a"}}, {"key": "c-b", "fields": {"Text": "b"}}]}
+    res = {r[0][:40]: r[1] for r in _g.cobertura_por_lamina(run, plan)}
+    assert list(res.values()) == [False, False, True, False]
+
+
+def test_cobertura_por_lamina_passa_quando_toda_lamina_tem_card_e_figura(tmp_path):
+    from nebli import gates as _g
+    slides = [(1, "capa", "Capa", []), (2, "conteudo", "Lâmina 2", [("i2", "x", "c-a")]), (3, "conteudo", "Gráfico", [("i3", "y", "c-b")])]
+    run = _inv_run(tmp_path, slides, {1: "", 2: "texto " * 30, 3: "Fases"})
+    plan = {"pipeline_versao": 16, "entries": [{"key": "c-a", "fields": {"Text": "a"}},
+                                               {"key": "c-b", "fields": {"Text": "b", "Extra": '<img src="g.png">'}}]}
+    assert all(r[1] for r in _g.cobertura_por_lamina(run, plan))
+
+
+def test_cobertura_por_lamina_nunca_passa_no_vazio(tmp_path):
+    from nebli import gates as _g
+    run = _inv_run(tmp_path, [(1, "capa", "Capa", [])], {1: ""})
+    assert _g.cobertura_por_lamina(run, {"pipeline_versao": 16, "entries": []})[0][1] is False
+    assert _g.cobertura_por_lamina(run, {"pipeline_versao": 15}) == []
+
+
+def test_cobertura_por_lamina_aceita_figura_sem_card_so_com_motivo(tmp_path):
+    from nebli import gates as _g
+    slides = [(3, "conteudo", "Gráfico", [("i3", "y", "c-b")])]
+    run = _inv_run(tmp_path, slides, {3: "Fases"})
+    plan = {"pipeline_versao": 16, "entries": [{"key": "c-b", "fields": {"Text": "b"}}]}
+    (tmp_path / "inventario.py").write_text("SLIDES = " + repr(slides) + "\nFIGURA_SEM_CARD = {3: 'curto'}\n", encoding="utf-8")
+    assert _g.cobertura_por_lamina(run, plan)[3][1] is False
+    (tmp_path / "inventario.py").write_text("SLIDES = " + repr(slides) + "\nFIGURA_SEM_CARD = {3: 'a figura mostra pele normal, sem o alvo que o card cobra'}\n", encoding="utf-8")
+    assert _g.cobertura_por_lamina(run, plan)[3][1] is True

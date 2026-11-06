@@ -3,7 +3,7 @@
 RUN_ID = "uc03-im17-20261014a"
 SHORT = "im17"
 LESSON = "2026-uc03-imunologia-17-reconhecimento-adaptativo"
-DECK = "NEBLI::UC03::P1::Imunologia::Reconhecimento imune adaptativo"
+DECK = "NEBLI::UC03::P1::Imunologia::17 Reconhecimento imune adaptativo"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 14/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

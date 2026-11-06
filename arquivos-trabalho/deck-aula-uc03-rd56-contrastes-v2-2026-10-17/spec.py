@@ -17,7 +17,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-rd56-20261017a"
 SHORT = "rd56n"
 LESSON = "2026-uc03-radiologia-56-contrastes"
-DECK = "NEBLI::UC03::P3::Radiologia::Contrastes radiológicos"
+DECK = "NEBLI::UC03::P3::Radiologia::56 Contrastes radiológicos"
 CRITERIOS = "MEMORY.md §3/§5/§6/§7/§8 + FEEDBACKS até F-20261016-CLAUDE-11 + ANTI-EXEMPLARES §1–16, 17/10/2026"
 MEDIA = {f"rd56-{n}.jpg": f"img/rd56-{n}.jpg" for n in ("enema", "microbolhas", "reacoes", "angiorm")}
 IMG = lambda n, w=460: f'<img src="rd56-{n}.jpg" width="{w}">'

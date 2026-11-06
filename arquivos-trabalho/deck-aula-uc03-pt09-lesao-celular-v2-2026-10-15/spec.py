@@ -8,7 +8,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-pt09-20261015b"
 SHORT = "pt09"
 LESSON = "2026-uc03-patologia-09-lesao-celular"
-DECK = "NEBLI::UC03::P1::Patologia::Lesão celular, necrose e apoptose"
+DECK = "NEBLI::UC03::P1::Patologia::09 Lesão celular, necrose e apoptose"
 CRITERIOS = "MEMORY.md §5 (AnKing-primeiro, gates duros) + ANTI-EXEMPLARES-CARDS + PLANO-ANKING-PRIMEIRO, 15/10/2026"
 MEDIA = {f"pt09-{n}": f"img/pt09-{n}" for n in ("resposta.png", "sequencia.png", "tubulo.jpeg", "coagulativa.jpeg", "liquefativa.png", "gordurosa.png")}
 IMG = lambda n, w=440: f'<img src="pt09-{n}" width="{w}">'

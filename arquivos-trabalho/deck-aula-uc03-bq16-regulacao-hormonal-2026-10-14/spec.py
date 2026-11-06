@@ -3,7 +3,7 @@
 RUN_ID = "uc03-bq16-20261014a"
 SHORT = "bq16"
 LESSON = "2026-uc03-bioquimica-16-regulacao-hormonal-massa-corporea"
-DECK = "NEBLI::UC03::P1::Bioquímica::Regulação hormonal e massa corpórea"
+DECK = "NEBLI::UC03::P1::Bioquímica::16 Regulação hormonal e massa corpórea"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 14/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

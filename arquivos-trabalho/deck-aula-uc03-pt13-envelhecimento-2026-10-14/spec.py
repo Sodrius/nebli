@@ -3,7 +3,7 @@
 RUN_ID = "uc03-pt13-20261014a"
 SHORT = "pt13"
 LESSON = "2026-uc03-patologia-13-envelhecimento"
-DECK = "NEBLI::UC03::P1::Patologia::Envelhecimento celular e tecidual"
+DECK = "NEBLI::UC03::P1::Patologia::13 Envelhecimento celular e tecidual"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 14/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

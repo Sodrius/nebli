@@ -17,7 +17,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-mb58-20261022a"
 SHORT = "mb58v"
 LESSON = "2026-uc03-microbiologia-58-multiplicacao-viral-antivirais"
-DECK = "NEBLI::UC03::P3::Microbiologia::Multiplicação viral e antivirais"
+DECK = "NEBLI::UC03::P3::Microbiologia::58 Multiplicação viral e antivirais"
 CRITERIOS = "MEMORY.md + pipeline v5 (EXECUCAO-DECK-AULA) + FEEDBACKS até F-20261022-CLAUDE-07 + EXEMPLARES/ANTI-EXEMPLARES de 22/10"
 MEDIA = {f"mb58-{n}": f"img/mb58-{n}" for n in ("ciclo.jpg", "mecanismos.png", "rolling.png", "adeno.jpg", "brotamento.png", "t-antigen.png")}
 IMG = lambda n, w=460: f'<img src="mb58-{n}" width="{w}">'

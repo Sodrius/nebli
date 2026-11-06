@@ -8,7 +8,7 @@
 RUN_ID = "uc03-im45-20261010a"
 SHORT = "im45"
 LESSON = "2026-uc03-imunologia-45-ativacao-linfocitos-t"
-DECK = "NEBLI::UC03::P3::Imunologia::Ativação de linfócitos T"
+DECK = "NEBLI::UC03::P3::Imunologia::45 Ativação de linfócitos T"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261009-CLAUDE-04) + PLANO-AJUSTES-ANKI-2026-10-08, 10/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

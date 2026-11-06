@@ -7,7 +7,7 @@
 RUN_ID = "uc03-pr01-20261013a"
 SHORT = "pr01"
 LESSON = "2026-uc03-patologia-radiologia-06-correlacao-1"
-DECK = "NEBLI::UC03::P1::Patologia::Correlação patológica-radiológica 1"
+DECK = "NEBLI::UC03::P1::Patologia::06 Correlação patológica-radiológica 1"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261012-CLAUDE-02) + plano vigente, 13/10/2026"
 _IMG = ("rx-enfisema", "tc-bolhas", "macro-bolhas", "histo-normal", "histo-enfisema", "rx-consolidacao", "rx-comparacao", "us-derrame",
         "tc-derrame", "cito-neutrofilos", "rx-menisco", "silhueta-esquema", "rx-lingula", "rx-lobo-inferior", "macro-pneumonia", "histo-pneumonia",

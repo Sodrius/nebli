@@ -4,7 +4,7 @@ import json, re, urllib.request
 RUN_ID = "uc03-pt38-20261011a"
 SHORT = "pt38"
 LESSON = "2026-uc03-patologia-38-inflamacao-aguda"
-DECK = "NEBLI::UC03::P2::Patologia::Inflamação aguda"
+DECK = "NEBLI::UC03::P2::Patologia::38 Inflamação aguda"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261011-CLAUDE-06) + plano vigente, 11/10/2026"
 MEDIA = {n: f"img/{n}" for n in (
     "pt38-s20-neutrofilos.png", "pt38-s27-miocardio.png", "pt38-s30-congestao.png", "pt38-s30-infiltrado.png",

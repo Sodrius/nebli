@@ -3,7 +3,7 @@
 RUN_ID = "uc03-pt11-20261014a"
 SHORT = "pt11"
 LESSON = "2026-uc03-patologia-11-acumulos-adaptacao"
-DECK = "NEBLI::UC03::P1::Patologia::Acúmulos e adaptação celular"
+DECK = "NEBLI::UC03::P1::Patologia::11 Acúmulos e adaptação celular"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 14/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

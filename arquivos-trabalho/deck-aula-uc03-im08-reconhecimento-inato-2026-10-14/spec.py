@@ -3,7 +3,7 @@
 RUN_ID = "uc03-im08-20261014a"
 SHORT = "im08"
 LESSON = "2026-uc03-imunologia-08-reconhecimento-inato"
-DECK = "NEBLI::UC03::P1::Imunologia::Reconhecimento imune inato"
+DECK = "NEBLI::UC03::P1::Imunologia::08 Reconhecimento imune inato"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 14/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

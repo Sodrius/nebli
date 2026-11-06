@@ -21,7 +21,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-mb59-20261023a"
 SHORT = "mb59"
 LESSON = "2026-uc03-microbiologia-59-patogenese-viral"
-DECK = "NEBLI::UC03::P3::Microbiologia::Patogênese da infecção viral"
+DECK = "NEBLI::UC03::P3::Microbiologia::59 Patogênese da infecção viral"
 CRITERIOS = "MEMORY.md + pipeline v7 (EXECUCAO-DECK-AULA) + FEEDBACKS até F-20261023-CLAUDE-03 + GUIA_CARDS.md de 23/10"
 _IMGS = ("disseminacao", "padroes", "padroes-comp", "hsv-latencia", "ebv-latencia", "hbv-aguda", "hbv-cronica", "hiv-setpoint",
          "rota-nsp4", "polio-trajeto", "hiv-inoculo", "hpv-tropismo", "resp-sitios")

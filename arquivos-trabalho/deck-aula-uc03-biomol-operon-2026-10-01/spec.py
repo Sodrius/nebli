@@ -5,7 +5,7 @@
 RUN_ID = "uc03-operon-20261001a"
 SHORT = "operon"
 LESSON = "2026-uc03-biomol-29-operon-procariotos"
-DECK = "NEBLI::UC03::P2::Biologia Molecular::Operon em procariotos"
+DECK = "NEBLI::UC03::P2::Biologia Molecular::29 Operon em procariotos"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261001-CLAUDE-09) + EXECUCAO-DECK-AULA, 01/10/2026"
 
 _S = [7, 8, 9, 17, 19, 23, 24, 25, 27, 29, 30, 31, 32, 35, 36, 37, 39, 41, 43, 45]

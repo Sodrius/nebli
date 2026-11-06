@@ -4,7 +4,7 @@
 RUN_ID = "uc03-pt09-20261014a"
 SHORT = "pt09"
 LESSON = "2026-uc03-patologia-09-lesao-celular"
-DECK = "NEBLI::UC03::P1::Patologia::Lesão celular, necrose e apoptose"
+DECK = "NEBLI::UC03::P1::Patologia::09 Lesão celular, necrose e apoptose"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 14/10/2026"
 MEDIA = {"pt09-tubulo.jpeg": "img/pt09-tubulo.jpeg", "pt09-coagulativa.jpeg": "img/pt09-coagulativa.jpeg"}
 F = lambda n, w=440: f'<img src="pt09-{n}.jpeg" width="{w}">'

@@ -4,7 +4,7 @@
 RUN_ID = "uc03-rd02-20261012a"
 SHORT = "rd02"
 LESSON = "2026-uc03-radiologia-02-diagnostico-radiologico"
-DECK = "NEBLI::UC03::P1::Radiologia::Diagnóstico radiológico"
+DECK = "NEBLI::UC03::P1::Radiologia::02 Diagnóstico radiológico"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261011-CLAUDE-06) + plano vigente, 12/10/2026"
 MEDIA = {"rd02-gb-espesso.png": "img/rd02-gb-espesso.png", "rd02-angio-aorta.png": "img/rd02-angio-aorta.png", **{f"rd02-mod-{m}.png": f"img/rd02-mod-{m}.png" for m in ("rx", "tc", "us", "rm")}}
 V, Z, R = 3, 4, 5

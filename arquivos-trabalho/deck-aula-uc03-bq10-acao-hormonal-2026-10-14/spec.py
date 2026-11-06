@@ -3,7 +3,7 @@
 RUN_ID = "uc03-bq10-20261014a"
 SHORT = "bq10"
 LESSON = "2026-uc03-bioquimica-10-acao-hormonal"
-DECK = "NEBLI::UC03::P1::Bioquímica::Ação hormonal"
+DECK = "NEBLI::UC03::P1::Bioquímica::10 Ação hormonal"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 14/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

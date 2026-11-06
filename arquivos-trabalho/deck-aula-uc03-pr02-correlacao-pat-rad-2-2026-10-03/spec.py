@@ -4,7 +4,7 @@
 RUN_ID = "uc03-pr02-20261003a"
 SHORT = "pr02"
 LESSON = "2026-uc03-patologia-radiologia-19-correlacao-2"
-DECK = "NEBLI::UC03::P2::Patologia::Correlação patológica-radiológica 2"
+DECK = "NEBLI::UC03::P2::Patologia::19 Correlação patológica-radiológica 2"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261003-CLAUDE-13) + PLANO-GERACAO-ANO, 03/10/2026"
 _P = (3, 4, 8, 9, 11, 13, 18, 22, 24, 27, 28, 30, 31, 19, 20)
 MEDIA = {f"nebli-uc03-pr02-p{p:02d}f.png": f"io/nebli-uc03-pr02-p{p:02d}f.png" for p in _P}

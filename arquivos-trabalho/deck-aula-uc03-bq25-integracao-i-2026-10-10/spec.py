@@ -3,7 +3,7 @@
 RUN_ID = "uc03-bq25-20261010a"
 SHORT = "bq25"
 LESSON = "2026-uc03-bioquimica-25-integracao-metabolica-i"
-DECK = "NEBLI::UC03::P2::Bioquímica::Integração metabólica I"
+DECK = "NEBLI::UC03::P2::Bioquímica::25 Integração metabólica I"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261010-CLAUDE-04) + plano de 08/10 ajustado em 10/10, 10/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

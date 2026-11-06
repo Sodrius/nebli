@@ -5,7 +5,7 @@
 RUN_ID = "uc03-rd05-20261012a"
 SHORT = "rd05"
 LESSON = "2026-uc03-radiologia-05-tomografia"
-DECK = "NEBLI::UC03::P1::Radiologia::Tomografia computadorizada"
+DECK = "NEBLI::UC03::P1::Radiologia::05 Tomografia computadorizada"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261012-CLAUDE-01) + plano vigente, 12/10/2026"
 MEDIA = {f"rd05-{n}.png": f"img/rd05-{n}.png" for n in (
     "janela-partes-moles", "janela-pulmao", "janela-osso", "fase-sem", "fase-arterial", "fase-portal", "fase-tardia",

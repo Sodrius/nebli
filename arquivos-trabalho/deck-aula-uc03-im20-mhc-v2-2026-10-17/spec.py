@@ -16,7 +16,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-im20-20261017a"
 SHORT = "im20n"
 LESSON = "2026-uc03-imunologia-20-mhc-apresentacao"
-DECK = "NEBLI::UC03::P1::Imunologia::MHC e apresentação de antígenos"
+DECK = "NEBLI::UC03::P1::Imunologia::20 MHC e apresentação de antígenos"
 CRITERIOS = "MEMORY.md §3/§5/§6/§7/§8 + FEEDBACKS até F-20261016-CLAUDE-11 + ANTI-EXEMPLARES §1–16, 17/10/2026"
 MEDIA = {f"im20-{n}.png": f"img/im20-{n}.png" for n in ("haplotipos", "ancoras", "clip", "pdc", "mhc1-montagem")}
 IMG = lambda n, w=420: f'<img src="im20-{n}.png" width="{w}">'

@@ -11,7 +11,7 @@ PIPELINE = "anking-primeiro"  # F-20261015-CLAUDE-06: liga os gates duros (cober
 RUN_ID = "uc03-pt03-20261016a"
 SHORT = "pt03"
 LESSON = "2026-uc03-patologia-03-diagnostico-patologico"
-DECK = "NEBLI::UC03::P1::Patologia::Diagnóstico patológico"
+DECK = "NEBLI::UC03::P1::Patologia::03 Diagnóstico patológico"
 CRITERIOS = "EXECUCAO-DECK-AULA (passos 0–7, 16/10) + MEMORY §3/§5/§6/§8 + ANTI-EXEMPLARES, 16/10/2026"
 MEDIA = {f"pt03-{n}.png": f"img/pt03-{n}.png" for n in ("he", "ihq")}
 IMG = lambda n, w=420: f'<img src="pt03-{n}.png" width="{w}">'

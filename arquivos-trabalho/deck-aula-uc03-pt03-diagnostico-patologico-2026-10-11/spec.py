@@ -4,7 +4,7 @@ import json, re, urllib.request
 RUN_ID = "uc03-pt03-20261012a"
 SHORT = "pt03"
 LESSON = "2026-uc03-patologia-03-diagnostico-patologico"
-DECK = "NEBLI::UC03::P1::Patologia::Diagnóstico patológico"
+DECK = "NEBLI::UC03::P1::Patologia::03 Diagnóstico patológico"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261011-CLAUDE-06) + plano vigente, 12/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

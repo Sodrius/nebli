@@ -5,7 +5,7 @@
 RUN_ID = "uc03-im07-20261015a"
 SHORT = "im07"
 LESSON = "2026-uc03-imunologia-07-organizacao-sistema-imune"
-DECK = "NEBLI::UC03::P1::Imunologia::Organização do sistema imune"
+DECK = "NEBLI::UC03::P1::Imunologia::07 Organização do sistema imune"
 CRITERIOS = "MEMORY.md (§2 cobertura longitudinal, §5–6 conexão/compreensão) + ANTI-EXEMPLARES-CARDS + auditoria 15/10, 15/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

@@ -18,7 +18,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-pt14-20261017a"
 SHORT = "pt14n"
 LESSON = "2026-uc03-patologia-14-declaracao-obito"
-DECK = "NEBLI::UC03::P1::Patologia::Declaração de óbito"
+DECK = "NEBLI::UC03::P1::Patologia::14 Declaração de óbito"
 CRITERIOS = "MEMORY.md §3/§5/§6/§7/§8 + FEEDBACKS até F-20261016-CLAUDE-11 + ANTI-EXEMPLARES §1–16, 17/10/2026"
 MEDIA = {f"pt14-{n}.png": f"img/pt14-{n}.png" for n in ("parte-i", "caso1")}
 IMG = lambda n, w=460: f'<img src="pt14-{n}.png" width="{w}">'

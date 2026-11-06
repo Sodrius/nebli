@@ -1,7 +1,7 @@
 RUN_ID = "uc03-pat05-refacao-20261004"
 SHORT = "pat05"
 LESSON = "2026-uc03-patologia-23-edema-congestao"
-DECK = "NEBLI::UC03::P2::Patologia::Edema e congestão"
+DECK = "NEBLI::UC03::P2::Patologia::23 Edema e congestão"
 CRITERIOS = "MEMORY.md + F-20261004-CODEX-05; inventário atômico e fontes completas antes da seleção"
 MEDIA = {f"nebli-pat05-refacao-s{n:02d}.png": f"visual-slide-{n:02d}.png" for n in range(2, 17)}
 V, Z, R = 3, 4, 5

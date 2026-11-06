@@ -3,7 +3,7 @@
 RUN_ID = "uc03-gr15-20261014a"
 SHORT = "gr15"
 LESSON = "2026-uc03-grand-round-01-esquizofrenia"
-DECK = "NEBLI::UC03::P1::Grand Round::Grand Round 1 (esquizofrenia)"
+DECK = "NEBLI::UC03::P1::Grand Round::15 Grand Round 1 (esquizofrenia)"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 14/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

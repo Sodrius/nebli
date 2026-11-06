@@ -17,7 +17,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-rd12-20261017a"
 SHORT = "rd12n"
 LESSON = "2026-uc03-radiologia-12-ressonancia-magnetica"
-DECK = "NEBLI::UC03::P1::Radiologia::Ressonância magnética"
+DECK = "NEBLI::UC03::P1::Radiologia::12 Ressonância magnética"
 CRITERIOS = "MEMORY.md §3/§5/§6/§7/§8 + FEEDBACKS até F-20261016-CLAUDE-11 + ANTI-EXEMPLARES §1–16, 17/10/2026"
 MEDIA = {f"rd12-{n}.png": f"img/rd12-{n}.png" for n in ("sequencias", "gadolinio")}
 IMG = lambda n, w=440: f'<img src="rd12-{n}.png" width="{w}">'

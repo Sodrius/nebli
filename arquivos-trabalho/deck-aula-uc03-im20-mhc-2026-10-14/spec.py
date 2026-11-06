@@ -3,7 +3,7 @@
 RUN_ID = "uc03-im20-20261014a"
 SHORT = "im20"
 LESSON = "2026-uc03-imunologia-20-mhc-apresentacao"
-DECK = "NEBLI::UC03::P1::Imunologia::MHC e apresentação de antígenos"
+DECK = "NEBLI::UC03::P1::Imunologia::20 MHC e apresentação de antígenos"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 14/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

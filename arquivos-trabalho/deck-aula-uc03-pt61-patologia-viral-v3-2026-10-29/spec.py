@@ -21,7 +21,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-pt61-20261029a"
 SHORT = "pt61"
 LESSON = "2026-uc03-patologia-61-patologia-infeccao-viral"
-DECK = "NEBLI::UC03::P3::Patologia::Patologia da infecção viral"
+DECK = "NEBLI::UC03::P3::Patologia::61 Patologia da infecção viral"
 CRITERIOS = "MEMORY.md + pipeline v10 (EXECUCAO-DECK-AULA) + FEEDBACKS até F-20261029-CLAUDE-03 + GUIA-1 a GUIA-4 de 29/10"
 _IMGS = ("raiva", "sarampo", "sincicio", "coilocito", "curva2", "vidro-fosco", "ihq-hbsag", "ihq-hbcag", "infiltrado", "necrose",
          "apoptose", "interface", "linf-b", "septos")

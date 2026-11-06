@@ -10,7 +10,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-rd02-20261016a"
 SHORT = "rd02"
 LESSON = "2026-uc03-radiologia-02-diagnostico-radiologico"
-DECK = "NEBLI::UC03::P1::Radiologia::Diagnóstico radiológico"
+DECK = "NEBLI::UC03::P1::Radiologia::02 Diagnóstico radiológico"
 CRITERIOS = "MEMORY.md §3/§5/§6/§8 (AnKing-primeiro, rubrica de cores, indução, fronteira da radiologia) + ANTI-EXEMPLARES, 16/10/2026"
 MEDIA = {f"rd02-{n}.png": f"img/rd02-{n}.png" for n in ("us", "tc", "rm", "rx", "angio", "pet", "planos")}
 IMG = lambda n, w=420: f'<img src="rd02-{n}.png" width="{w}">'

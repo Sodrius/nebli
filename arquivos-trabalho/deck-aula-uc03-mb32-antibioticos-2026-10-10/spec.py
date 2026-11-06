@@ -5,7 +5,7 @@
 RUN_ID = "uc03-mb32-20261010a"
 SHORT = "mb32"
 LESSON = "2026-uc03-microbiologia-32-antibioticos-resistencia"
-DECK = "NEBLI::UC03::P2::Microbiologia::Antibióticos e resistência"
+DECK = "NEBLI::UC03::P2::Microbiologia::32 Antibióticos e resistência"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261010-CLAUDE-06) + plano de 08/10 ajustado em 10/10, 10/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

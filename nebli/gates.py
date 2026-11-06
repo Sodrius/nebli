@@ -942,6 +942,77 @@ def nomenclatura_oficial(run, plan):
     return [(f"nomenclatura oficial em {len(nomes)} nomes de estrutura (aula ou livro brasileiro)"
              + (f": {len(probs)} fora — " + "; ".join(probs[:4]) if probs else ""), not probs)]
 
+FORA_MAX = 0.10  # F-20261106-CLAUDE-01: no máximo 10% das lâminas de conteúdo fora do recorte
+FORA_GENERICO = re.compile(r"figura ou detalhe sem card pr[oó]prio|sem card pr[oó]prio\s*\(FORA_DO_RECORTE\)", re.I)
+GRAFICO = re.compile(r"\b(gr[aá]fico|curva|esquema|tabela|figura|diagrama|histolog|ciclo|fases)\b", re.I)
+
+
+def cobertura_por_lamina(run, plan):
+    """F-20261106-CLAUDE-01 (Davi: “sinto que os últimos ficaram rasos: coloca um gate para isso”; 65 v3: 13 de 43 lâminas,
+    inclusive os três gráficos, foram para `fora_do_recorte` com o texto genérico e nada reprovou). Pipeline v16+:
+    (1) no máximo 10% das lâminas de conteúdo fora do recorte; (2) cada lâmina fora tem motivo próprio (≥ 40 caracteres, sem o
+    texto genérico) no título do inventário; (3) toda lâmina de conteúdo cuja página tem pouco texto (é figura, gráfico ou
+    tabela) ou cujo título diz gráfico/esquema/tabela tem ao menos um card ligado com <img>; (4) toda lâmina de conteúdo
+    aponta ao menos um card do plano. Lâmina coberta só no Extra/Tab não conta (MEMORY §2.2)."""
+    if int(plan.get("pipeline_versao") or 1) < 16:
+        return []
+    run = Path(run)
+    inv = run / "inventario.py"
+    if not inv.exists():
+        return [("[duro] cobertura por lâmina (F-20261106-CLAUDE-01): inventario.py ausente", False)]
+    import importlib.util
+    sp = importlib.util.spec_from_file_location("inv_cobertura", inv)
+    mod = importlib.util.module_from_spec(sp)
+    sp.loader.exec_module(mod)
+    slides = list(getattr(mod, "SLIDES", []))
+    conteudo = [s for s in slides if s[1] in ("conteudo", "fora_do_recorte")]
+    if not conteudo:
+        return [("[duro] cobertura por lâmina (F-20261106-CLAUDE-01): nenhuma lâmina de conteúdo no inventário", False)]
+    fora = [s for s in conteudo if s[1] == "fora_do_recorte"]
+    gen = [s[0] for s in fora if FORA_GENERICO.search(str(s[2])) or len(re.sub(r"^L[aâ]mina \d+:?\s*", "", str(s[2])).strip()) < 40]
+    entries = {e["key"]: e for e in plan.get("entries", [])}
+    comp = {f"sh-{n}" for n in (plan.get("compartilhados") or {})}
+    chaves = set(entries) | comp
+    txt = {}
+    stxt = run / "fontes" / "slides.txt"
+    if stxt.exists():
+        for m in re.finditer(r"===== página (\d+) =====\n(.*?)(?=\n===== página |\Z)", stxt.read_text(encoding="utf-8"), re.S):
+            corpo = re.sub(r"\S+@\S+", " ", m.group(2))
+            txt[int(m.group(1))] = len(re.findall(r"[A-Za-zÀ-ú]{3,}", corpo))
+    sem_card, sem_fig = [], []
+    sem_fig_ok = {int(k): v for k, v in (getattr(mod, "FIGURA_SEM_CARD", {}) or {}).items() if len(str(v).strip()) >= 40}
+    for n, classe, titulo, itens in conteudo:
+        if classe != "conteudo":
+            continue
+        ks = set()
+        for it in itens:
+            d = it[2] if len(it) > 2 else ""
+            for k in (d if isinstance(d, (list, tuple)) else [d]):
+                if isinstance(k, str) and not k.startswith("EXC"):
+                    ks.add(k)
+        ligados = ks & chaves
+        if not ligados:
+            sem_card.append(n)
+            continue
+        visual = txt.get(n, 99) <= 12 or bool(GRAFICO.search(str(titulo)))
+        if visual:
+            com_img = any("<img" in " ".join(str(v) for v in (entries.get(k, {}).get("fields") or {}).values())
+                          + str(entries.get(k, {}).get("extra_add", "")) for k in ligados) or any(k in comp for k in ligados)
+            if not com_img and n not in sem_fig_ok:
+                sem_fig.append(n)
+    frac = len(fora) / len(conteudo)
+    return [
+        (f"[duro] lâminas fora do recorte ≤ {FORA_MAX:.0%} das de conteúdo (F-20261106-CLAUDE-01): {len(fora)}/{len(conteudo)} = {frac:.0%}"
+         + (f" {[s[0] for s in fora]}" if fora else ""), frac <= FORA_MAX),
+        ("[duro] cada lâmina fora do recorte tem motivo próprio (≥ 40 caracteres, não o texto genérico)"
+         + (f": {gen}" if gen else ""), not gen),
+        ("[duro] toda lâmina de conteúdo aponta card do plano (menção no Extra/Tab não cobre)"
+         + (f": {sem_card}" if sem_card else ""), not sem_card),
+        ("[duro] lâmina de figura, gráfico ou tabela (pouco texto ou título visual) tem card com a figura (ou FIGURA_SEM_CARD com motivo próprio no inventário)"
+         + (f": {sem_fig}" if sem_fig else ""), not sem_fig),
+    ]
+
+
 def fidelidade_ao_slide(run, plan):
     """F-20261022-CLAUDE-06: ao fechar o deck, revisar se ele bate em ordem e conteúdo com o slide — bloco a bloco, o que o professor
     ensina tem card, nada fora da aula entrou e nenhum exemplo virou carro-chefe. `compreensao-aula.json` › `fidelidade`."""
@@ -1005,6 +1076,7 @@ def plan_checks(run, plan):
         out += imagens_batem(run, plan)  # F-20261022-CLAUDE-01
         out += imagens_legiveis(run, plan)  # F-20261103-CODEX-03
         out += profundidade(run, plan)  # F-20261022-CLAUDE-04
+        out += cobertura_por_lamina(run, plan)  # F-20261106-CLAUDE-01
         out += autorais_com_motivo(run, plan)  # F-20261022-CLAUDE-04
         if _novo_06(run, plan):
             out += compreensao_aula(run, plan)  # F-20261022-CLAUDE-06

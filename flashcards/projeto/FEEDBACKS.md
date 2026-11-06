@@ -1252,3 +1252,15 @@ Aplicação autorizada: fechar primeiro a rodada diária; depois reabrir a audit
 Davi: “lembre-se que o básico entra agora, io mt aprofundado entra no deck próprio de cada aula, mas no fim temos que garantir que cobrimos tudo com qualidade”
 
 Aplicação: a auditoria da primeira aula recupera divisões, estruturas maiores e relações introdutórias. Não converter todo rótulo de atlas em IO agora. IOs de núcleos individuais, feixes e marcos regionais detalhados recebem destino explícito na aula correspondente; o mapa global da UC07 distingue previsto de entregue. A postergação não dispensa cobertura integral ao final do curso.
+
+
+## F-20261106-CLAUDE-01 — gate contra deck raso; 65 refeita; P1–P4 pelo Moodle
+
+Davi, literal:
+
+> quero continuar criando os decks da uc03 / vamos continuar dos da p4 / sinto que os últimos ficaram rasos: coloca um gate para isso ser verificado / primeiro entra no moodle e observa o que é p1, p2, p3 e p4 para reajustar a posição dos decks de acordo no anki. isso para a uc03 por enquanto / segundo, vamos rodar o deck da aula 69
+> antes ajusta o deck da aula de cicatrização, que ficou raso, não abordou tudo (ex é o gráfico com fases da inflamação)
+> depois de ajustar o deck, segue nessa ordem: pôr gates para não repetir mais esse erro de ser raso / ajustar a ordem das aulas e dos decks no anki de acordo com o moodle / fazer o deck da 69
+> continua / termina só quando parar tudo que pedi / também, no final, me dá uma forma de gastarmos menos tokens e condensarmos os arquivos
+
+Aplicação: causa da 65 v3 rasa = 13/43 lâminas em `fora_do_recorte` com texto genérico (inclusive os gráficos das lâminas 16, 24 e 30). Pipeline v16: gate duro `gates.cobertura_por_lamina` (≤ 10% fora do recorte, motivo próprio por lâmina, toda lâmina de conteúdo com card, lâmina visual com figura), testes em `nebli/tests/test_gates.py`; MEMORY §2.2 e EXECUCAO reescritos no lugar. 65 refeita como v4 (`deck-aula-uc03-pt65-reparo-tecidual-v4-2026-11-06`).

@@ -3,7 +3,7 @@
 RUN_ID = "uc03-rd12-20261014a"
 SHORT = "rd12"
 LESSON = "2026-uc03-radiologia-12-ressonancia-magnetica"
-DECK = "NEBLI::UC03::P1::Radiologia::Ressonância magnética"
+DECK = "NEBLI::UC03::P1::Radiologia::12 Ressonância magnética"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 14/10/2026"
 MEDIA = {f"rd12-cranio-{n}.png": f"img/rd12-cranio-{n}.png" for n in ("t1", "t2")}
 V, Z, R = 3, 4, 5

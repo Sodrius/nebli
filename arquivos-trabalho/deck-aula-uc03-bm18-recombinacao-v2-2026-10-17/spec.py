@@ -20,7 +20,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-bm18-20261017a"
 SHORT = "bm18n"
 LESSON = "2026-uc03-biologia-molecular-18-recombinacao"
-DECK = "NEBLI::UC03::P1::Biologia Molecular::Recombinação V(D)J"
+DECK = "NEBLI::UC03::P1::Biologia Molecular::18 Recombinação V(D)J"
 CRITERIOS = "MEMORY.md §3/§5/§6/§7/§8 + FEEDBACKS até F-20261016-CLAUDE-11 + ANTI-EXEMPLARES §1–16, 17/10/2026"
 MEDIA = {f"bm18-{n}.png": f"img/bm18-{n}.png" for n in ("vj", "rss", "juncional", "aid")}
 IMG = lambda n, w=420: f'<img src="bm18-{n}.png" width="{w}">'

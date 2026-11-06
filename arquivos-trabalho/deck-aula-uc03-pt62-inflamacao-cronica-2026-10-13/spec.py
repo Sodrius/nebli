@@ -5,7 +5,7 @@
 RUN_ID = "uc03-pt62-20261013a"
 SHORT = "pt62"
 LESSON = "2026-uc03-patologia-62-inflamacao-cronica"
-DECK = "NEBLI::UC03::P3::Patologia::Inflamação crônica"
+DECK = "NEBLI::UC03::P3::Patologia::62 Inflamação crônica"
 CRITERIOS = "MEMORY.md (reorganizado 13/10) + FEEDBACKS até F-20261013-CLAUDE-03, 13/10/2026"
 _IMG = ("aguda-vs-cronica", "infiltrado-misto", "monocito-macrofago", "m1-m2", "macrofago-linfocito", "plasmocitos", "folículo-linfoide")
 MEDIA = {f"pt62-{n.replace('í', 'i')}.png": f"img/pt62-{n.replace('í', 'i')}.png" for n in _IMG}

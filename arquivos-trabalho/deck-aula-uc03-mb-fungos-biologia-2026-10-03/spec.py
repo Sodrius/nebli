@@ -6,7 +6,7 @@
 RUN_ID = "uc03-mb43-20261003a"
 SHORT = "mb43"
 LESSON = "2026-uc03-microbiologia-43-biologia-fungos"
-DECK = "NEBLI::UC03::P3::Microbiologia::Biologia geral dos fungos"
+DECK = "NEBLI::UC03::P3::Microbiologia::43 Biologia geral dos fungos"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261003-CODEX-22) + PLANO-GERACAO-ANO, 03/10/2026"
 MEDIA = {"nebli-uc03-mb43-p23f.png": "io/nebli-uc03-mb43-p23f.png"}
 V, Z, R = 3, 4, 5

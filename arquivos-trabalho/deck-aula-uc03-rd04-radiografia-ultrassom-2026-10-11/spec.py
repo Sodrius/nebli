@@ -4,7 +4,7 @@
 RUN_ID = "uc03-rd04-20261012a"
 SHORT = "rd04"
 LESSON = "2026-uc03-radiologia-04-radiografia-ultrassom"
-DECK = "NEBLI::UC03::P1::Radiologia::Radiografia e ultrassom"
+DECK = "NEBLI::UC03::P1::Radiologia::04 Radiografia e ultrassom"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261012-CLAUDE-01) + plano vigente, 12/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

@@ -3,7 +3,7 @@
 RUN_ID = "uc03-bm52-20261010a"
 SHORT = "bm52"
 LESSON = "2026-uc03-biologia-molecular-52-expressao-eucariotos-ii"
-DECK = "NEBLI::UC03::P3::Biologia Molecular::Expressão gênica em eucariotos II"
+DECK = "NEBLI::UC03::P3::Biologia Molecular::52 Expressão gênica em eucariotos II"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261010-CLAUDE-02) + plano de 08/10 ajustado em 10/10, 10/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

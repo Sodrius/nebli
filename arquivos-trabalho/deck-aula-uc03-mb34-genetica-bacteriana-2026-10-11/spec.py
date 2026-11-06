@@ -4,7 +4,7 @@ import json, re, urllib.request
 RUN_ID = "uc03-mb34-20261011a"
 SHORT = "mb34"
 LESSON = "2026-uc03-microbiologia-34-genetica-bacteriana"
-DECK = "NEBLI::UC03::P2::Microbiologia::Genética bacteriana"
+DECK = "NEBLI::UC03::P2::Microbiologia::34 Genética bacteriana"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261011-CLAUDE-02) + plano vigente, 11/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

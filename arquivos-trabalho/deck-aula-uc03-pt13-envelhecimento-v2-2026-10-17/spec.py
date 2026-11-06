@@ -20,7 +20,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-pt13-20261017a"
 SHORT = "pt13n"
 LESSON = "2026-uc03-patologia-13-envelhecimento"
-DECK = "NEBLI::UC03::P1::Patologia::Envelhecimento celular e tecidual"
+DECK = "NEBLI::UC03::P1::Patologia::13 Envelhecimento celular e tecidual"
 CRITERIOS = "MEMORY.md §3/§5/§6/§7/§8 + FEEDBACKS até F-20261016-CLAUDE-11 + ANTI-EXEMPLARES §1–16, 17/10/2026"
 MEDIA = {f"pt13-{n}.png": f"img/pt13-{n}.png" for n in ("reserva", "telomeros", "werner")}
 IMG = lambda n, w=440: f'<img src="pt13-{n}.png" width="{w}">'

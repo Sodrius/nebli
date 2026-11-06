@@ -5,7 +5,7 @@
 RUN_ID = "uc03-mb30-20261010a"
 SHORT = "mb30"
 LESSON = "2026-uc03-microbiologia-30-controle-microbiologico"
-DECK = "NEBLI::UC03::P2::Microbiologia::Controle microbiológico"
+DECK = "NEBLI::UC03::P2::Microbiologia::30 Controle microbiológico"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261010-CLAUDE-06) + plano de 08/10 ajustado em 10/10, 10/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

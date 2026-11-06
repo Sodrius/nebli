@@ -4,7 +4,7 @@ import json, re, urllib.request
 RUN_ID = "uc03-mb39-20261012a"
 SHORT = "mb39"
 LESSON = "2026-uc03-microbiologia-39-homem-ambiente-microrganismo"
-DECK = "NEBLI::UC03::P2::Microbiologia::Homem, ambiente e microrganismo"
+DECK = "NEBLI::UC03::P2::Microbiologia::39 Homem, ambiente e microrganismo"
 CRITERIOS = "MEMORY.md + FEEDBACKS (até F-20261011-CLAUDE-06) + plano vigente, 12/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5

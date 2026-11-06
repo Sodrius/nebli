@@ -29,7 +29,7 @@ PIPELINE = "anking-primeiro"
 RUN_ID = "uc03-gr15-20261017a"
 SHORT = "gr15n"
 LESSON = "2026-uc03-grand-round-01-esquizofrenia"
-DECK = "NEBLI::UC03::P1::Grand Round::Grand Round 1 (esquizofrenia)"
+DECK = "NEBLI::UC03::P1::Grand Round::15 Grand Round 1 (esquizofrenia)"
 CRITERIOS = "MEMORY.md §3/§5/§6/§7/§8 + FEEDBACKS até F-20261016-CLAUDE-11 + ANTI-EXEMPLARES §1–16, 17/10/2026"
 MEDIA = {f"gr15-{n}.png": f"img/gr15-{n}.png" for n in ("curso", "inicio", "ventriculos", "vias", "metabolismo", "neuronio")}
 IMG = lambda n, w=460: f'<img src="gr15-{n}.png" width="{w}">'

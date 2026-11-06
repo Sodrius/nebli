@@ -3,7 +3,7 @@
 RUN_ID = "uc03-pt14-20261014a"
 SHORT = "pt14"
 LESSON = "2026-uc03-patologia-14-declaracao-obito"
-DECK = "NEBLI::UC03::P1::Patologia::Declaração de óbito"
+DECK = "NEBLI::UC03::P1::Patologia::14 Declaração de óbito"
 CRITERIOS = "MEMORY.md + ANTI-EXEMPLARES-CARDS (14/10) + PLANO-CONTINUACAO-DECKS, 14/10/2026"
 MEDIA = {}
 V, Z, R = 3, 4, 5
