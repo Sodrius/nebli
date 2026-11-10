@@ -301,6 +301,75 @@ def coverage(run, plan):
 
 
 
+
+def matriz_fontes(run, plan):
+    """F-20261110-CLAUDE-01 (Davi: “faltou cruzar todas as fontes (provas, slides, aula, material, livro, resumos...) para
+    garantir profundidade e cobertura total […] isso é o erro que mais já corrigi, queria que ele parasse de acontecer”).
+    Pipeline v17+: `matriz-fontes.json` = {"linhas": [{"fonte": lamina|transcricao|apostila|resumo|prova|livro|video,
+    "ref": "N" (lâmina/página) ou id, "item": o que a fonte ensina (≥ 15 caracteres), "cards": [chaves do plano] ou
+    "motivo": por que fica fora (≥ 30)}]}. Reprova: lâmina de conteúdo do inventário sem linha; página da transcrição com
+    fala (≥ 40 palavras) sem linha; questão de prova sem linha; apostila/resumo lido e livro de referência sem nenhuma
+    linha; card inexistente; mais de 10% das linhas de lâmina/fala/prova fora. Nunca passa no vazio."""
+    if int(plan.get("pipeline_versao") or 1) < 17:
+        return []
+    run = Path(run)
+    label = "[duro] matriz de fontes cruzadas: cada lâmina, página da fala, questão de prova, apostila/resumo e livro com card ou motivo (F-20261110-CLAUDE-01)"
+    try:
+        linhas = json.loads((run / "matriz-fontes.json").read_text(encoding="utf-8")).get("linhas") or []
+    except (OSError, ValueError, AttributeError):
+        return [(label + ": matriz-fontes.json ausente ou inválida", False)]
+    if not linhas:
+        return [(label + ": matriz vazia", False)]
+    chaves = {e["key"] for e in plan.get("entries", [])} | {f"sh-{n}" for n in (plan.get("compartilhados") or {})}
+    prob = []
+    tem = lambda f, r: any(str(l.get("fonte")) == f and str(l.get("ref")) == str(r) for l in linhas)
+    try:
+        import importlib.util
+        sp = importlib.util.spec_from_file_location("inv_matriz", run / "inventario.py")
+        mod = importlib.util.module_from_spec(sp); sp.loader.exec_module(mod)
+        conteudo = [s[0] for s in getattr(mod, "SLIDES", []) if s[1] == "conteudo"]
+    except (OSError, ImportError, AttributeError, SyntaxError):
+        conteudo = []
+    if not conteudo:
+        prob.append("inventário sem lâminas de conteúdo")
+    prob += [f"lâmina {n} sem linha" for n in conteudo if not tem("lamina", n)]
+    tr = run / "fontes" / "transcricao.txt"
+    if tr.exists():
+        for m in re.finditer(r"===== página (\d+) =====\n(.*?)(?=\n===== página |\Z)", tr.read_text(encoding="utf-8"), re.S):
+            if len(m.group(2).split()) >= 40 and not tem("transcricao", m.group(1)):
+                prob.append(f"fala p.{m.group(1)} sem linha")
+    provas = "\n".join(a.read_text(encoding="utf-8", errors="ignore") for a in sorted((run / "fontes").glob("provas*")))
+    for m in re.finditer(r"^── \[([^\]]+)\] (\S+)", provas, re.M):
+        if not tem("prova", f"{m.group(1).strip()} {m.group(2)}"):
+            prob.append(f"prova {m.group(1).strip()} {m.group(2)} sem linha")
+    try:
+        decl = json.loads((run / "fontes-decl.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        decl = {}
+    if any(isinstance(v, dict) and v.get("texto") for v in (decl.get("materiais_uc") or {}).values()) and \
+            not any(l.get("fonte") in ("apostila", "resumo") for l in linhas):
+        prob.append("apostila/resumo lido sem nenhuma linha")
+    if decl.get("referencia") and not any(l.get("fonte") == "livro" for l in linhas):
+        prob.append("livro de referência sem nenhuma linha")
+    base, fora = 0, 0
+    for i, l in enumerate(linhas):
+        cs = l.get("cards") or []
+        if len(str(l.get("item", "")).strip()) < 15:
+            prob.append(f"linha {i}: item vago")
+        if cs:
+            ruins = [c for c in cs if c not in chaves]
+            if ruins:
+                prob.append(f"linha {i}: cards fora do plano {ruins[:2]}")
+        elif len(str(l.get("motivo", "")).strip()) < 30:
+            prob.append(f"linha {i}: sem card nem motivo")
+        if l.get("fonte") in ("lamina", "transcricao", "prova"):
+            base += 1
+            fora += 0 if cs else 1
+    if base and fora / base > 0.10:
+        prob.append(f"{fora}/{base} linhas de lâmina/fala/prova fora (> 10%)")
+    return [(label + (f": {prob[:4]}" if prob else ""), not prob)]
+
+
 def sugestao_apos_tres_rodadas(run, resultados):
     """F-20261105-CLAUDE-01 (Davi): depois da terceira rodada o parecer do revisor/verificador/formatação vira sugestão.
     A corrida declara `pareceres-como-sugestao.json` com rodadas >= 3 e o que ficou pendente; a reprovação continua visível, mas não bloqueia."""
@@ -1077,6 +1146,7 @@ def plan_checks(run, plan):
         out += imagens_legiveis(run, plan)  # F-20261103-CODEX-03
         out += profundidade(run, plan)  # F-20261022-CLAUDE-04
         out += cobertura_por_lamina(run, plan)  # F-20261106-CLAUDE-01
+        out += matriz_fontes(run, plan)  # F-20261110-CLAUDE-01
         out += autorais_com_motivo(run, plan)  # F-20261022-CLAUDE-04
         if _novo_06(run, plan):
             out += compreensao_aula(run, plan)  # F-20261022-CLAUDE-06
@@ -2085,6 +2155,8 @@ def live_checks(plan, run=None):
 
 
 def drive_checks(data):
+    # F-20261110-CLAUDE-01 (Davi: “não precisa mais ir upando pro drive, depois upamos tudo”): upload por deck adiado.
+    return [("Drive: upload por deck adiado (F-20261110-CLAUDE-01; sobe tudo depois)", True)]
     from nebli import entrega
     folder = entrega.ROOT / data.get("drive_pasta", "_")
     names = entrega.names(data.get("nome", "_"))

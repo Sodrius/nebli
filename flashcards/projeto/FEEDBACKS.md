@@ -1264,3 +1264,144 @@ Davi, literal:
 > continua / termina só quando parar tudo que pedi / também, no final, me dá uma forma de gastarmos menos tokens e condensarmos os arquivos
 
 Aplicação: causa da 65 v3 rasa = 13/43 lâminas em `fora_do_recorte` com texto genérico (inclusive os gráficos das lâminas 16, 24 e 30). Pipeline v16: gate duro `gates.cobertura_por_lamina` (≤ 10% fora do recorte, motivo próprio por lâmina, toda lâmina de conteúdo com card, lâmina visual com figura), testes em `nebli/tests/test_gates.py`; MEMORY §2.2 e EXECUCAO reescritos no lugar. 65 refeita como v4 (`deck-aula-uc03-pt65-reparo-tecidual-v4-2026-11-06`).
+
+
+## F-20261108-CODEX-01 — indução sem iniciais automáticas e rodada integral
+
+Davi, literal no Anki (1792064618158):
+
+> PODE TIRAR INICIAIS TIRA ISSO DE PÔR INNICAL DO PIPELINE TB, MESMO QUANDO É MAIS D E3 CLOZES
+
+1792756972610:
+
+> indução ruim, mas caminho bom sempre que peço um ajuste, pensa como manter o conteúdo, mas cobrar de forma a induzir melhor, como fazem os organizadores que elogio
+
+1792787231967:
+
+> COMEÇA A POR ESSE ESPAÇO NOS ORGANIZADORES
+
+Pedido no chat:
+
+> quando terminar roda o pipeline de comentários: ver, identificar problemas, corrigir de acordo com os exemplares, corrigir erros próximos em outros, colocar nos .mds as instruções e exemplares para não repetir os problemas
+> Já corrige tudo também, mesmo os que só tem comando e deixa prontos
+> só aplica no final, porque estou fazendo cards
+
+Aplicação: preparar antes da escrita; comentários, comandos e elogios juntos, sem confundir aprovação da frente com aprovação do verso. Retirar inserção automática de iniciais de `spec_lib.dicas` e sua exigência dos gates; a pista vem do critério semântico. Testar geração preservando ausência de iniciais e gate que reprova inicial em nova autoria v16. Conservar o conteúdo dos organizadores ao refazer indução; título separado dos itens por uma linha vazia. Correções e comparação com semelhantes em `arquivos-trabalho/comentarios-2026-11-08/`.
+
+## F-20261108-CLAUDE-01 — UC07 só Anatomia; transcrição substitui slide; aplicar só no fim
+
+Davi, literal (08/11):
+
+> QUERO CONTINUAR MONTANDO O deck da uc07 com as aulas que já tive de acordo com o cronograma
+> vamos seguir montando deck e fazendo assim: puxando transcrição, resumo, bibliografia e material complementar para cobrir tudo que deve ter em cada deck-aula e no deck-prova final
+> sempre kenhub first, com anking vindo para clínica e decks seguindo uma progressão para ter completude
+> também acho que no deck neuroanatomia já tem mt coisa pronta, só conferir e garantir que tá seugindo como quero em completude, kenhub e anking
+> vamos fazer só para anatomia / as que não tem material ainda pode deixar / se não tem slide mas tem transcrição segue
+> ok, começa / aplica só no fim, porque estou usando o anki
+
+Aplicação: UC07 Anatomia 03, 04 e 06 + deck-prova de Anatomia; 07 Cortes e Fisiologia ficam sem deck até haver material/pedido. Aula sem lâminas no Drive com transcrição = roteiro da aula montado das transcrições (unidades minuto a minuto) mais monitoria/apostila/Machado em `fontes/slides.txt`, declarado em `fontes.json › sem_laminas`. Reserva histórica UC07 reaproveitada com ID e histórico (Kenhub primeiro, AnKing para relação e clínica). Escrita no Anki só no fim, numa janela única para as três aulas e o deck-prova.
+
+## F-20261109-CLAUDE-01 — UC07: todas as estruturas por IO do Kenhub, mais AnKing, subdecks por estrutura
+
+Davi, literal (09/11, sobre a Anatomia 03 instalada):
+
+> na aula 3 faltou card anking, alguns cards autorias de baixa qualidade e faltou puxar direto vários IO do kenhub, que são cards para eu decorar a estrutura, entender a neuroanatomia e as funções com alguns cards
+> è mt importante para essa matéria que eu decore todas essas estruturas
+> pode fazer subdecks dentro do deck-aula da aula 3 para cada estrutura também
+> corrige isso e aprende para as próxiams seguir nesse padrão
+
+Também em 09/11: "o deck prova é a soma dos deck-aula, isso é padrão do nebli" (UC › matéria › prova › aula); "a cada aula pronta deixa no anki, quero já começar a usá-las"; "instalando, vai tudo de uma vez, mesmo que eu esteja usando, só faz rápido".
+
+Aplicação: em todo deck-aula de anatomia da UC07, **toda estrutura do assunto da aula entra por IO do Kenhub puxado direto** (a nota `NEBLI Kenhub IO v1` da Referência/Reserva migra para o deck-aula com histórico, sem cópia autoral), não só as que o professor nomeou; o deck-aula ganha **subdecks por estrutura** (ex.: Medula espinal, Tronco encefálico, Nervos cranianos, Cerebelo), com as identificações primeiro e os cards de função/relação logo depois; **AnKing HY 1–3 das seções da estrutura entra** salvo motivo concreto; autoral só para o fio da aula e, quando houver AnKing/Kenhub equivalente, o acervo substitui o autoral. Instalação de cada aula assim que pronta, numa janela curta, mesmo com Davi no Anki (sem tocar a nota em tela).
+
+Davi, literal (09/11, complemento):
+
+> deck de neuro, principal é io do kenhub, em segundo lugar ankin, em terceiro organizador e mt em último card normal com cloze perguntando algo, pode ter, mas menos
+
+Aplicação: composição do deck-aula de neuroanatomia por prioridade — (1) IO do Kenhub (maioria), (2) AnKing, (3) organizador, (4) cloze de texto, poucos.
+
+Davi, literal (09/11, tarde):
+
+> pode continuar, ao fim de cada aula aplica, isso que signficia aplicar no final, daí vc continua pra próxima aula qando aplica, assim é o melhor esquema
+> lembra de não permitir dois cards para uma estrutura, porque isso faz com que infle demais a quantiadde de cards
+
+Aplicação: “aplicar no fim” = aplicar ao terminar cada aula (uma janela curta), depois seguir para a próxima. **Uma estrutura = um card de identificação** no deck-aula (IO do Kenhub, ID AnKing ou “Qual estrutura a seta indica?” contam como o mesmo tipo): duplicatas por nome normalizado saem, fica a que tem mais histórico.
+
+
+## F-20261109-CODEX-01 — nomes mínimos precisos, qualidade do conjunto e identificação única
+
+Davi, literal:
+
+> roda a correção de todos os comentários e regera os tabs
+> quero especial atenção para o erro de neuroanato de colocar nome a mais
+> para anatomia dá muito trabalho decorar alguns nomes, tipo funículo posterior da medula espinal
+> só funículo posterior é mais fácil
+> ajusta isso pra tudo do deck de neuranato, garante que as coisas estruturas não se repetem, para não inflar demais o deck e aplica
+> depois olha todo o deck do kenhub para ver esse erro e arrumar
+> o deck da aula 3 ficou bem ruim: as bandeiras não ficaram adequadas, ficou com uma quantidade absurda de card, mt card do kenhub tá com nome genérico ou nome enorme, não foi pensado como o nome deveria ser opsto no card
+> também acho que pode ser mais bem pensado o deck como um todo
+> garante a qualidade do deck, pareando com exemplares e realmente tentando entender o que quero
+> a quantidade de cards que deve aparecer nos títulos dos decks é a quantidade de cards diferentes
+> um card repetido entra só uma vez
+> cards de etimologia não tem entrado no deck
+
+Aplicação em andamento: menor nome anatômico inequívoco no contexto da figura, sem eliminar qualificadores que distinguem estruturas. Identificação repetida não soma cobertura. Parear pelo tipo de informação com exemplares aprovados e conferir sequência, custo e função do conjunto. Títulos contam IDs de cards únicos, incluindo compartilhados uma vez; investigar entrada dos cards de etimologia. Recibo da execução em arquivos-trabalho/comentarios-2026-11-09.
+
+Complementos literais de Davi durante a rodada:
+
+> foco no seguinte: que o deck de neuroanato chegue no seguinte ponto: cards de boa qualidade, especialmente IO dos cards com nome adequado tanto de acordo com manuais de anatomia, quanto conferido que a IA que os criou identificou certo a estrutura. o foco do deck é IO, mas os organizadores (que tem saído de baixa qualidade) e anking são essenciais para fechar o deck
+> deixei vários comentários sobre o deck, considera eles
+> no geral, menos palvras é mt melhor nos clozes
+
+Critério de entrega: identificação visual validada no alvo anatômico, nomenclatura mínima precisa de manual e organizadores/AnKing complementares, com lacuna no termo essencial e explicação no verso/Tab. Rodada acompanha comentários posteriores antes da escrita.
+
+## F-20261110-CODEX-01 — rodada integral, tamanho real das imagens e Extra por mecanismo
+
+Davi, literal no chat:
+
+> corrige todos os comentários que tem no anki, os cards que tem o mesmo erro e aplica no fim de deixar tudo pronto, para não me atrapalhar mt
+> ocloca o que tiver que pôr pra exemplar e anti exemplar como já fazemos tb
+> pode fazer tudo, te dou permissão, só para de pedir permissão
+> continua sem pedir permissão
+
+No Anki,1793986752415:
+
+> TAMANHO DA IMAGEM EM CADA CARD TEM QUE SER GATE: TÁ SENDO MT PEQUENO
+
+1792170504428:
+
+> TAMANHO DAS IMAGENS TEM QUE SER AVALIADO COM GATE
+
+1793301692919:
+
+> TEM MTS COMENTÁRIOS VINDO ZUADOS ESTUDA OS DO ANKING, ENTENDA O PADRÃO E COLOCA ISSO BEM ANALISADO NOS EXEMPLARES E NOS QUE GOSTEI, porque tá mts zuados vindo nos autorais
+
+Aplicação: preparar fora do Anki e aplicar ao terminar a rodada, com proteção da tela, comparação viva e backup. O mesmo defeito de largura é buscado em todas as notas adaptadas, inclusive acervo. `imagens_cards.imagens_legiveis` verifica também AnKing e CSS max-width pequeno; `layout_imagens.verificar_arquivo` exige medição atual por hash para corridas novas desde10/11, usando CSS vivo e390px; gate em `gates.imagens_legiveis`. Testes de vazio, mídia ausente, figura pequena apesar de arquivo grande, overflow e acervo. Extra comparado com exemplos originais: condição/sinal→mecanismo→consequência, contraste ou exemplo específico. X aprova a dimensão observada, sem transformar correção posterior do executor em elogio. Recibos na corrida `arquivos-trabalho/comentarios-2026-11-10/`.
+
+## F-20261110-CLAUDE-01 — cobertura total cruzando todas as fontes; um agente maior no lugar de tantos gates; sem Drive
+
+Davi, literal (10/11, sobre a 67 Imunidade de mucosas e a pergunta de eficiência):
+
+> como podemos fazer para ter mais qualidade, mais rápido e com menos tokens no deck de forma concreta
+> VÊ SE ESSE MONTE DE AGENTE TEM SIDO EFETIVO, O QUE PODEMOS COMPENSAR
+> ótimo, vamos aplicar a sugestão 1 e 2
+> também quero que ao invés de penar com tantos gates vire só mais uma coisa dentor desse agente maior
+> também quero maior garantia que vc conseguirá fazer de primeira bem os cards, para o revisor ajustar detalhe
+> para essa última aula, sinto que faltou cobertura, um erro recorrente: deck tem ficado pouco aprofundado, sem cobrir tudo da aula (pelo menos buscar cobrir todas as lâminas de forma consciente). além disso, sinto que não precisa mais ir upando pro drive, depois upamos tudo. também faltou cruzar todas as fontes (provas, slides, aula, material, livro, resumos...) para garantir profundidade e cobertura total, puxando do anking e fazendo autorais com qualidade
+> isso é o erro que mais já corrigi, queria que ele parasse de acontecer, com gate, agente ou qualquer cousa confiável
+
+Sugestões aprovadas (relato de 10/11): (1) um revisor só, com as rubricas do revisor de autorais e do verificador por casos, reaproveitando o veredito de todo card com o mesmo conteúdo; (2) leitura obrigatória por diferença: reler inteiro só o que mudou desde a última leitura registrada.
+
+Aplicação: E3 ganha a matriz de fontes cruzadas (`matriz-fontes.json`, gate duro): uma linha por lâmina, por página/ideia da fala, por ponto da apostila/resumo, por item de gabarito de prova e por seção do livro, cada uma com o card que a recupera ou motivo próprio; profundidade medida contra a matriz, não contra a contagem. O agente único (`config/revisor-unico.md`) faz primeiro a auditoria de completude contra a matriz e as fontes e depois a qualidade dos cards; os gates mecânicos viram a lista que ele confere e relata. O executor escreve os autorais já conferindo a lista de defeitos que os revisores mais acharam (sigla visível junto da lacuna, resposta por oposição, título que entrega item, lacuna binária, negrito dentro do cloze) para o revisor só ajustar detalhe. Slides e pacote não sobem mais para o Drive a cada deck (sobem todos depois).
+
+## F-20261110-CLAUDE-02 — decks de embriologia e anatomia da UC08 P2 como referência
+
+Davi, literal (10/11):
+
+> continua / ajusta o que falei e deixa pronto para eu poder fazer o deck com qualidade
+> deixa o deck de embrio e anato da p2 como referência até o momento: gostei dos dois, ainda que ache que eles ainda podem ter cards para alguns detalhes que faltaram, mas estão ótimos
+> anato tem uns problemas com nomenclatura qeu não sei se tá certo e embrio faltou falar um pouco mais de hindgut, fora isso tá lindo
+> isso pode corrigir depois de terminar o deck de agora, para aqueles virarem referência de verdade
+> depois faremos o outro deck da uc08 que tá faltando
+
+Aplicação: os decks de embriologia e anatomia da UC08 P2 entram no GUIA-4 como exemplares de deck, com as ressalvas literais (anatomia: conferir nomenclatura; embriologia: completar o intestino posterior) e alguns detalhes que faltaram. Depois da 67: corrigir os dois (nomenclatura oficial com o gate de nomenclatura; cards do intestino posterior pelo pipeline) e então fazer o deck da UC08 que falta.

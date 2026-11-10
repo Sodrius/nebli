@@ -1,0 +1,37 @@
+{
+ "_como": "F-20261110-CLAUDE-01, E3 (antes de buscar) e conferida na E7. Uma linha por lâmina de conteúdo, por página da fala com conteúdo, por questão de prova (id como em fontes/provas-*.txt), por ponto da apostila/resumo e por seção do livro. 'cards' = chaves do plano que recuperam o item; sem card, 'motivo' próprio (≥ 30 caracteres). Fora ≤ 10% das linhas de lâmina/fala/prova.",
+ "linhas": [
+  {
+   "fonte": "lamina",
+   "ref": 2,
+   "item": "<o que a lâmina 2 ensina>",
+   "cards": [
+    "<chave>"
+   ]
+  },
+  {
+   "fonte": "transcricao",
+   "ref": "4",
+   "item": "<o que o professor ensina nessa página>",
+   "cards": []
+  },
+  {
+   "fonte": "prova",
+   "ref": "2024 P3 1.7",
+   "item": "<o que a questão e o gabarito pedem>",
+   "cards": []
+  },
+  {
+   "fonte": "apostila",
+   "ref": "Aula 11",
+   "item": "<ponto da apostila>",
+   "cards": []
+  },
+  {
+   "fonte": "livro",
+   "ref": "Janeway 12.11",
+   "item": "<seção do livro>",
+   "motivo": "<por que fica fora, se ficar>"
+  }
+ ]
+}

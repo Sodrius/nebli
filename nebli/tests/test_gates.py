@@ -472,3 +472,38 @@ def test_cobertura_por_lamina_aceita_figura_sem_card_so_com_motivo(tmp_path):
     assert _g.cobertura_por_lamina(run, plan)[3][1] is False
     (tmp_path / "inventario.py").write_text("SLIDES = " + repr(slides) + "\nFIGURA_SEM_CARD = {3: 'a figura mostra pele normal, sem o alvo que o card cobra'}\n", encoding="utf-8")
     assert _g.cobertura_por_lamina(run, plan)[3][1] is True
+
+
+def _matriz_run(tmp_path, linhas, slides=((1, "capa", "Capa", []), (2, "conteudo", "L2", [("i", "x", "c-a")]))):
+    import json as _j
+    run = tmp_path / "r"; (run / "fontes").mkdir(parents=True)
+    (run / "inventario.py").write_text("SLIDES = " + repr(list(slides)) + "\n")
+    (run / "fontes" / "transcricao.txt").write_text("===== página 1 =====\n" + "fala " * 50 + "\n===== página 2 =====\n\n")
+    (run / "fontes" / "provas-x.txt").write_text("── [2024 P3] 1.7 (IM)\n   P: pergunta\n")
+    (run / "fontes-decl.json").write_text(_j.dumps({"referencia": {"livro": "Janeway"}, "materiais_uc": {"a.pdf": {"texto": "fontes/a.txt"}}}))
+    if linhas is not None:
+        (run / "matriz-fontes.json").write_text(_j.dumps({"linhas": linhas}))
+    return run
+
+
+def test_matriz_fontes_reprova_fonte_sem_linha_e_nunca_passa_no_vazio(tmp_path):
+    """F-20261110-CLAUDE-01: lâmina, fala ou questão de prova sem linha na matriz reprova; matriz ausente ou vazia reprova."""
+    from nebli import gates as _g
+    plan = {"pipeline_versao": 17, "entries": [{"key": "c-a"}]}
+    assert _g.matriz_fontes(_matriz_run(tmp_path / "a", None), plan)[0][1] is False
+    assert _g.matriz_fontes(_matriz_run(tmp_path / "b", []), plan)[0][1] is False
+    so_lamina = [{"fonte": "lamina", "ref": 2, "item": "o que a lâmina 2 ensina", "cards": ["c-a"]}]
+    r = _g.matriz_fontes(_matriz_run(tmp_path / "c", so_lamina), plan)[0]
+    assert r[1] is False and "fala p.1" in r[0]
+    assert _g.matriz_fontes(_matriz_run(tmp_path / "d", so_lamina), {"pipeline_versao": 16}) == []
+
+
+def test_matriz_fontes_passa_com_todas_as_fontes_ligadas(tmp_path):
+    from nebli import gates as _g
+    linhas = [{"fonte": "lamina", "ref": 2, "item": "o que a lâmina 2 ensina", "cards": ["c-a"]},
+              {"fonte": "transcricao", "ref": "1", "item": "fala da página 1 sobre o tema", "cards": ["c-a"]},
+              {"fonte": "prova", "ref": "2024 P3 1.7", "item": "questão sobre o mecanismo", "cards": ["c-a"]},
+              {"fonte": "apostila", "ref": "a", "item": "ponto da apostila da aula", "cards": ["c-a"]},
+              {"fonte": "livro", "ref": "cap", "item": "seção do livro da aula", "motivo": "detalhe do livro sem objetivo cobrado na aula"}]
+    plan = {"pipeline_versao": 17, "entries": [{"key": "c-a"}]}
+    assert _g.matriz_fontes(_matriz_run(tmp_path, linhas), plan)[0][1] is True
