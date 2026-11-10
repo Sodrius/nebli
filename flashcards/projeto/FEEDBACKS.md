@@ -1405,3 +1405,17 @@ Davi, literal (10/11):
 > depois faremos o outro deck da uc08 que tá faltando
 
 Aplicação: os decks de embriologia e anatomia da UC08 P2 entram no GUIA-4 como exemplares de deck, com as ressalvas literais (anatomia: conferir nomenclatura; embriologia: completar o intestino posterior) e alguns detalhes que faltaram. Depois da 67: corrigir os dois (nomenclatura oficial com o gate de nomenclatura; cards do intestino posterior pelo pipeline) e então fazer o deck da UC08 que falta.
+
+## F-20261110-CLAUDE-03 — associado suspenso vem sempre para o deck novo; cobertura total e profundidade sempre
+
+Davi, literal (10/11):
+
+> quando vc puxa um associado de outro deck que estava suspenso, quero que o procedimento padrão sempre seja o seguinte agora: deixa ele como principal do deck novo e associado ao antigo, dessuspenso no deck novo para eu decidiir o que farei com ele ao revê-lo
+> ajeita essas questões dos decks da uc08, aprende que realmetne tem que cobrir tudo e ser bem profundo nos decks (isso tem que coorrer sempre.
+> depois, prepara para rodar o deck de biologia e crescimento dos tumores
+> quero que sempre seja feito no nível de profundidade elevada que os melhores decks chegaram perto: completude e profundidade
+> sobre o deck de imunidade de mucosas, por exemplo, acho que ficou um pouco raso: faltou passar por agumas coisas
+> corrige também para ficar completo (Sei que tem mt coisa associada às outras aulas, mas ainda há como ir nas fontes [bibliografia, resumos, yt, slide, provas...] e puxar coisa de verdade do anking ou criar alguns poucos e certeiros autorais, organizador ou não]
+> arruma o da uc08, arruma o de imuno e segue pro da uc03. se eui quiser que pare vou avisar
+
+Aplicação: (1) `puxar_suspensos`: nota com qualquer card suspenso por Davi que a aula usa vem por sh(): os cards suspensos mudam para o deck novo, dessuspensos, com `NEBLI::reavaliar::<aula>`; a etiqueta da aula antiga fica (associação). EXCLUIDOS só aceita “outro assunto:”. (2) Associado de outra aula não substitui card desta: o que a aula ensina e já está em outro deck conta como coberto só se o card associado diz aquilo; o resto vem das fontes (bibliografia, resumos, YouTube, slide, provas) como AnKing real ou poucos autorais certeiros (organizador quando é conjunto). (3) Correções: UC08 P2 Anatomia (nomenclatura) e Embriologia (intestino posterior + detalhes), 67 aprofundada, depois a aula de biologia e crescimento dos tumores, em sequência, até Davi mandar parar.

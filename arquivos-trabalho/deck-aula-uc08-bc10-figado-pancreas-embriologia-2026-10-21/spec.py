@@ -16,7 +16,8 @@ SHORT = "bc10"
 LESSON = "2026-uc08-biocel-10-embriologia-digestorio-figado-pancreas"
 DECK = "NEBLI::UC08::P2::Biologia Celular::Embriologia do digestório, fígado e pâncreas"
 CRITERIOS = "MEMORY.md §3/§5/§6/§7/§8 + FEEDBACKS até F-20261022-CLAUDE-02 + ANTI-EXEMPLARES §1–16, 22/10/2026"
-MEDIA = {}
+MEDIA = {"bc10-cloaca-septacao.png": "img/bc10-cloaca-septacao.png"}
+FIG = "<br><img src=\"bc10-cloaca-septacao.png\">"
 BUSCA = ("Três caminhos (22/10): seções de recurso do AnKing (embriologia do GI, microarquitetura hepática, pâncreas exócrino; busca/secoes); palavra-chave e significado "
          "em AnKing, Referências Externas e NEBLI vivo (busca/semantica.jsonl, uma consulta por conceito). ")
 
@@ -26,7 +27,7 @@ def K(nid, cod, bloco, alvo, slide, motivo, **kw):
 
 
 A_, B_, C_, D_, E_, F_ = "A-tubo", "B-estomago", "C-intestinos", "D-brotos-figado-pancreas", "E-pancreas-histologia", "F-figado-histologia"
-EXCLUIDOS = []
+EXCLUIDOS = [(1482115492876, "cópia NEBLI apagada do Anki depois de 22/10: não ressuscitar (10/11)"), (1482115420919, "cópia NEBLI apagada do Anki depois de 22/10: não ressuscitar (10/11)")]
 FORA_DO_RECORTE = [
     "Clínica além do mecanismo mostrado em aula (regra dos 2 do Meckel, cintilografia, associações e conduta de onfalocele e gastroschisis, estenose do piloro, pancreatite, cirrose, hepatites): fica para patologia e clínica.",
     "Inervação autonômica do digestório e ligamentos e recessos do peritônio (esplenorrenal, gastrocólico, SAID PUCKER): são das aulas de Anatomia de inervação e peritônio.",
@@ -102,6 +103,34 @@ CARDS = [
     K(1482274971453, "A-aula", C_, "Onfalocele: falha do retorno da alça herniada", 42, "lâminas 36 e 42"),
     K(1486596683598, "A-aula", C_, "Hérnia umbilical: o anel umbilical não fecha", 42, "lâmina 42 (hérnia umbilical congênita)"),
     K(1482959873096, "A-aula", C_, "Má rotação intestinal: falha da rotação da alça", 42, "lâmina 42 (rotação anormal do intestino)"),
+    # F-20261110-CLAUDE-02 (Davi: "embrio faltou falar um pouco mais de hindgut"): lâmina 40 (septação da cloaca), 42 (ânus
+    # imperfurado, fístulas do intestino posterior) e gabarito de prova (linha pectínea muda irrigação e drenagem). Sem AnKing de
+    # cloaca/septo urorretal/membrana cloacal (busca 10/11 em AnKing e Referências Externas: 0 notas) → autorais.
+    au("au-cloaca", "The terminal dilation of the <b>hindgut</b>, which receives the allantois and is closed by the cloacal membrane, is the {{c1::cloaca}}",
+       "V-pilar", C_, "Cloaca: fim dilatado do intestino posterior", 40, "lâmina 40 (septação da cloaca); Carlson cap. 15; Langman cap. 15",
+       extra="- It is lined by endoderm and touches the surface ectoderm at the cloacal membrane" + FIG),
+    au("au-urorretal", "The <b>urorectal septum</b> divides the cloaca into the {{c1::urogenital sinus}} in front and the {{c2::rectum and upper anal canal}} behind",
+       "V-pilar", C_, "Septo urorretal separa seio urogenital e reto", 40, "lâmina 40 (seio urogenital, septo urorretal, reto); Carlson cap. 15",
+       extra="- The urogenital sinus forms the urinary bladder and most of the urethra<br>- The tip of the septum becomes the perineal body" + FIG),
+    au("au-membranas", "When the urorectal septum reaches the <b>cloacal membrane</b>, it splits it into the urogenital membrane and the {{c1::anal membrane}}",
+       "A-aula", C_, "Membrana cloacal → urogenital e anal", 40, "lâmina 40 (membrana cloacal; C: membrana urogenital, períneo, membrana anal); Langman cap. 15",
+       extra="- The anal membrane sits at the bottom of the proctodeum and ruptures, opening the anal canal" + FIG),
+    au("au-canal-anal", "The <b>anal canal</b> above the pectinate line comes from hindgut {{c1::endoderm}}; below it, from the {{c2::proctodeum}} (ectoderm)",
+       "V-pilar", C_, "Duas origens do canal anal", 40, "lâmina 40 (proctodeo) e gabarito de prova (transição endoderma do intestino posterior × ectoderma do proctodeu)",
+       extra="- That is why the pectinate line changes arteries, veins, lymph nodes and nerves" + FIG),
+    sh(1790974697657, "azul", C_, "Acima da linha pectínea: artéria retal superior (da AMI)", 40, "gabarito de prova: a transição muda a irrigação"),
+    sh(1790974698156, "azul", C_, "Abaixo da linha pectínea: artéria retal inferior (da pudenda interna)", 40, "gabarito de prova: a transição muda a irrigação"),
+    sh(1790974697781, "azul", C_, "Acima: drenagem venosa portal", 40, "gabarito de prova: a transição muda a drenagem"),
+    sh(1790974698282, "azul", C_, "Abaixo: drenagem venosa sistêmica", 40, "gabarito de prova: a transição muda a drenagem"),
+    sh(1790974697906, "azul", C_, "Acima: linfonodos ilíacos internos", 40, "gabarito de prova: a transição muda a drenagem"),
+    sh(1790974698404, "azul", C_, "Abaixo: linfonodos inguinais superficiais", 40, "gabarito de prova: a transição muda a drenagem"),
+    au("au-imperfurado", "<b>Imperforate anus</b> results when the {{c1::anal membrane}} fails to rupture or the urorectal septum forms abnormally",
+       "A-aula", C_, "Ânus imperfurado", 42, "lâmina 42 (ânus imperfurado); Langman cap. 15; Moore cap. 11",
+       extra="- In the high forms the rectum ends blind above the pelvic floor" + FIG),
+    au("au-fistulas", "Hindgut fistulas from abnormal septation of the cloaca connect the <b>rectum</b> to the {{c1::urethra, bladder or vagina}}",
+       "A-aula", C_, "Fístulas do intestino posterior", 42, "lâmina 42 (fístulas de intestino posterior); Langman cap. 15",
+       extra="- These organs come from the urogenital sinus, the front half of the cloaca" + FIG),
+    K(1512661102770, "A-step", C_, "Ânus imperfurado → investigar VACTERL", 42, "lâmina 42 (ânus imperfurado): associação que sempre se pede"),
     K(1482886567135, "V-pilar", C_, "Hirschsprung: gânglios não chegam aos plexos", 44, "lâmina 44 (agangliose por falha de migração)"),
     K(1482886572434, "A-aula", C_, "Os gânglios vêm da crista neural", 44, "lâmina 44 (migração das células da crista neural)"),
     K(1482886576526, "A-aula", C_, "Hirschsprung: mutação do gene RET", 44, "lâmina 44 (proto-oncogene RET)"),
@@ -152,9 +181,9 @@ CARDS = [
     K(1462120796565, "A-aula", E_, "As ilhotas de Langerhans são a porção endócrina do pâncreas", 61, "lâmina 61 (ilhotas pancreáticas e porção exócrina)"),
     K(1482115296382, "V-pilar", E_, "As células acinares secretam as enzimas pancreáticas", 65, "lâmina 65 (grânulos de secreção)"),
     K(1482115500165, "V-pilar", E_, "As proteases pancreáticas são secretadas inativas", 65, "lâmina 65 (tripsinogênio e quimotripsinogênio)"),
-    K(1482115492876, "A-aula", E_, "A enteropeptidase ativa o tripsinogênio", 65, "lâmina 65 (tripsinogênio)"),
+    # K(1482115492876, "A-aula", E_, "A enteropeptidase ativa o tripsinogênio", 65, "lâmina 65 (tripsinogênio)"),  # apagada do Anki: não ressuscitar (10/11)
     K(1482115504921, "A-aula", E_, "A tripsina ativa todas as pró-enzimas", 65, "lâmina 65 (tripsinogênio, quimotripsinogênio, carboxipeptidases)"),
-    K(1482115420919, "A-aula", E_, "A amilase pancreática hidrolisa o amido", 65, "lâmina 65 (amilase)"),
+    # K(1482115420919, "A-aula", E_, "A amilase pancreática hidrolisa o amido", 65, "lâmina 65 (amilase)"),  # apagada do Anki: não ressuscitar (10/11)
     K(1482115541696, "A-aula", E_, "A lipase pancreática digere gordura no intestino", 65, "lâmina 65 (lipase, colesterol esterase, fosfolipase)"),
     K(1482115305907, "V-pilar", E_, "As células dos ductos secretam a parte aquosa", 66, "lâmina 66 (bicarbonato e água)"),
     K(1482115316095, "A-aula", E_, "As células dos ductos secretam bicarbonato", 66, "lâmina 66 (bicarbonato e água)"),

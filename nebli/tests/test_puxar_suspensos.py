@@ -36,6 +36,27 @@ class PuxarTests(unittest.TestCase):
         c = p.candidatos(self.run, {"lesson_id": "2026-uc03-nova"}, FakeAnki())
         self.assertEqual([x["nid"] for x in c], [1792000000001])
 
+    def test_parcial_tambem_vem_e_so_suspensos_mudam(self):
+        A = FakeAnki(); A.notes[1792000000003]["cards"] = [13, 14]
+        A.cards[14] = {"cardId": 14, "queue": -1, "deckName": "NEBLI::Velha"}
+        c = p.candidatos(self.run, {"lesson_id": "2026-uc03-nova"}, A)
+        self.assertEqual(sorted(x["nid"] for x in c), [1792000000001, 1792000000003])
+        log = []
+        class Rec(FakeAnki):
+            pass
+        ops = []
+        def AA(a, **k):
+            ops.append((a, k)); return A(a, **k)
+        self.assertTrue(p.puxar(AA, A.notes[1792000000003], [A.cards[13], A.cards[14]], "NEBLI::Nova", "x", lambda **k: log.append(k)))
+        self.assertEqual(ops[0][1]["cards"], [14])
+
+    def test_excluir_so_outro_assunto(self):
+        base = {"lesson_id": "2026-uc03-nova", "entries": []}
+        r = p.verificar(self.run, dict(base, excluidos=[{"nid": 1792000000001, "motivo": "já coberto pelo autoral"}]), FakeAnki())
+        self.assertFalse(r[0][1])
+        r = p.verificar(self.run, dict(base, excluidos=[{"nid": 1792000000001, "motivo": "outro assunto: só vocabulário"}]), FakeAnki())
+        self.assertTrue(r[0][1])
+
     def test_gate_exige_sh_e_recusa_copia_nova(self):
         plan = {"lesson_id": "2026-uc03-nova", "entries": [{"key": "ak1", "src": "1490000000001"}]}
         r = p.verificar(self.run, plan, FakeAnki())

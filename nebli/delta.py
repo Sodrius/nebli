@@ -185,7 +185,13 @@ def main(argv=None):
                     A("addTags", notes=[e_nid], tags=" ".join(missing)); log(op="tags", key=e["key"], sai=cor_old, entra=missing)
             cards = A("cardsInfo", cards=A("findCards", query=f"nid:{e_nid}"))
             shared_note = any(t.startswith("NEBLI::compartilhado::") for t in A("notesInfo", notes=[e_nid])[0]["tags"])
-            if sorted(c["ord"] for c in cards) != sorted(x["ord"] for x in e["cards"]): raise RuntimeError(f"{e['key']}: ords divergentes")
+            if sorted(c["ord"] for c in cards) != sorted(x["ord"] for x in e["cards"]):
+                # 10/11: nota já corrigida no vivo (reconciliada) que mudou o número de lacunas: os cards vivos prevalecem
+                from nebli.reconcilia import carregar
+                if new_note or "Text" not in carregar(Path(run)).get(e["key"], {}):
+                    raise RuntimeError(f"{e['key']}: ords divergentes")
+                e["cards"] = [{"n": c["ord"] + 1, "ord": c["ord"], "flag": c["flags"]} for c in cards]
+                log(op="ords-vivos", key=e["key"], ords=[c["ord"] for c in cards])
             for c in cards:
                 flag = next(x["flag"] for x in e["cards"] if x["ord"] == c["ord"])
                 if new_note:
