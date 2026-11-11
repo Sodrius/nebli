@@ -244,19 +244,12 @@ class GatesTests(unittest.TestCase):
         contrast["fields"]["Text"] = "Anterior — {{c1::eferente}}<br>Posterior — {{c2::aferente}}"
         self.assertFalse(gates.inducao_clozes({"entries": [contrast]})[-1][1])
 
-    def test_cards_scope_does_not_require_e1_but_default_does(self):
-        from nebli import entrega
-        with tempfile.TemporaryDirectory() as d:
-            root = Path(d)
-            (root / "Aula.apkg").write_text("package")
-            (root / "Aula - slides.pdf").write_text("slides")
-            data = {"nome": "Aula", "drive_pasta": ".", "escopo": "cards"}
-            with patch.object(entrega, "ROOT", root):
-                self.assertTrue(all(ok for _, ok in gates.drive_checks(data)))
-                data.pop("escopo")
-                self.assertEqual(sum(not ok for _, ok in gates.drive_checks(data)), 1)
-                data["escopo"] = "typo"
-                self.assertFalse(all(ok for _, ok in gates.drive_checks(data)))
+    def test_drive_upload_is_deferred_without_checking_files(self):
+        # v17: Davi adiou uploads por deck; esta checagem não exige E1/APKG.
+        for data in ({"nome": "Aula", "escopo": "cards"}, {"nome": "Aula"}):
+            checks = gates.drive_checks(data)
+            self.assertTrue(all(ok for _, ok in checks))
+            self.assertTrue(all("adiado" in label for label, _ in checks))
 
     def test_sources_need_book_three_channels_and_recorded_searches(self):
         with tempfile.TemporaryDirectory() as d:

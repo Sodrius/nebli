@@ -71,6 +71,14 @@ def build():
                                                         for x in A("cardsInfo", cards=(_ni or {}).get("cards", [])))}
             if c.get("origin"):  # F-20261110-CLAUDE-03: suspenso puxado para Davi reavaliar declara a origem
                 shared[str(c["nid"])]["origin"] = c["origin"]
+            if UC == "uc07":
+                from nebli.uc07_prioridades import bandeira
+                source = _ni or {}
+                fields_live = {k: v["value"] for k, v in source.get("fields", {}).items()}
+                fields_live.update(getattr(spec, "SHARED_FIELDS", {}).get(str(c["nid"]), {}))
+                origin_live = c.get("origin") or next((t.split("::origem::", 1)[1] for t in source.get("tags", []) if "::origem::" in t), "Kenhub" if "Kenhub" in source.get("modelName", "") else "Autoral")
+                shared[str(c["nid"])].update(model=source.get("modelName", ""), fields=fields_live, origin=origin_live,
+                                             cor=COR[bandeira(source.get("modelName", ""), fields_live, origin_live)])
             continue
         kind = c["kind"]
         model = info[c["src"]]["modelName"] if kind == "kenhub" and info.get(c["src"]) else MODEL.get(kind)
@@ -145,7 +153,11 @@ def build():
             if im in spec.MEDIA: continue
             if not A("retrieveMediaFile", filename=im): issues.append(f"{c['key']}: mídia ausente {im}")
         if not str(c["evid"]).startswith("Slide "): issues.append(f"{c['key']}: evid sem slide")
-        for x in cards: x["cor"] = COR[x["flag"]]
+        for x in cards:
+            if UC == "uc07":
+                from nebli.uc07_prioridades import bandeira
+                x["flag"] = bandeira(model, fields, origin)
+            x["cor"] = COR[x["flag"]]
         tags += [f"NEBLI::cor::{spec.LESSON}::{x}" for x in sorted({x["cor"] for x in cards})]
         if all(x["flag"] == 5 for x in cards): tags.append("NEBLI::lateral")
         e = {k: v for k, v in c.items() if k not in ("text", "extra", "clinical_new", "remarks", "fields_override", "lines", "rects", "mask_rects", "search")}

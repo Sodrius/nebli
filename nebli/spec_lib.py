@@ -92,6 +92,10 @@ def finalizar(cards, here: Path, busca_base: str):
             c["flags"] = {n: COR[cod[0]] for n in clozes.get(c["src"], [1])}
         elif c["kind"] == "kenhub":
             c["flags"] = {1: COR[cod[0]]}
+        elif c["kind"] == "livroio":
+            # Identificação visual de atlas/livro: os campos são imagens e
+            # máscaras já conferidas, sem índices cloze textuais.
+            c["flags"] = {1: 3}
         else:
             cores = c.pop("cores")
             ns = sorted({int(n) for n, _ in CLOZE.findall(c["text"])})

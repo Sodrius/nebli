@@ -1,0 +1,11 @@
+# Revisão de qualidade AN04 —11/11
+
+Recorte: quatro transcrições e núcleos da base pela apostila, com62unidades. Não é um deck geral de neurofisiologia ou de todas as questões daUC07. A matriz editorial independente cruza267relações e17questões pertinentes com cards recuperáveis; detalhes de meninges/líquor/drenagem venosa ficam naAN06, e tronco/cerebelo/nervos pertencem àAN03.
+
+As provas acrescentaram relações recuperáveis de vias direta/indireta, D1/D2, parkinsonismo, déficit sensitivo talâmico, alça deMeyer e Papez/fórnix. Recuperadas cópias existentes quando havia histórico. Corrigidos hipotálamo anterior/posterior, ramo ascendente, lóbulos parietais, labirinto, Broca, territórios daACP e conceito deestriado. Não se adotaram erros de gabarito sobre cápsula interna ou fibras dofórnix. Sulco central não é descrito como chegando obrigatoriamente ao sulco lateral.
+
+Prioridade de imagens: Kenhub;13alvos semIOKenhub adequado usam figuras reais doMachado com rótulo oculto e linha-guia mantida. O arqueado é hipotalâmico. A seta herdada do tubérculo anterior caiu abaixo do término original na pranchaNetter: corrigida com recorte focal, sem resposta inglesa visível nafrente. Os182IOs compartilhados foram abertos nas16pranchas de render; as13duplasMachado e a correçãoNetter foram julgadas pelo revisor independente. Isso é inspeção visual, não inferência de correção apenas porcor/slug.
+
+O deck completo e a fila deestudo têm conferências separadas: selecao-estudo.json guarda ordinais e fontes de prova/resumo para cada decisão ativa. Não se libera toda clínica porque o órgão foi nomeado. Giros/sulcos internos daínsula, redes capilares/partes finas da hipófise, ramos arteriais pequenos e síndromes não cobradas permanecem suspensos. Dor talâmica tardia c3/c4 também fica suspensa; c1/c2 entram pelaquestão6. Três avulsos redundantes preservados porID não ganham prioridade sobre IO/organizador/AnKing.
+
+Pré-instalação:23autorais e85casos julgados pelo revisor único. A pré-checagem mecânica foi incorporada antes do pacote final; foram corrigidos vazamentos e negrito em critérios dos organizadores. Conferência viva, agendamento, suspensão e pacote serão registrados depois da instalação; este documento não os dá por feitos.

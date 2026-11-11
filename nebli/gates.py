@@ -635,10 +635,14 @@ def past_errors(plan):
            and any(a == o or (min(len(a), len(o)) >= 8 and (a in o or o in a)) for a in answers(e) for o in others)]
     legend = [e["key"] for e in entries if e.get("kind") == "slideio" and e.get("aponta") != "estrutura"]
     blocks = {}
-    for e in entries:
+    # Compartilhados são conteúdo real da aula; ignorá-los reprovava blocos
+    # com IO novo e relações já recuperáveis nas notas preservadas.
+    for e in entries + list((plan.get("compartilhados") or {}).values()):
         b = blocks.setdefault(e.get("bloco"), {"slides": set(), "texto": 0})
         b["slides"].add(str(e.get("evid", "")).split(";")[0])
-        b["texto"] += e.get("kind") in ("text", "autoral")
+        fields = e.get("fields", {})
+        text = re.sub(r"<[^>]+>", "", fields.get("Text") or fields.get("Front") or "").strip()
+        b["texto"] += bool(text) and e.get("kind") != "anatoking" and not re.match(r"(?:ID do|Qual estrutura a seta)", text, re.I)
     thin = [k for k, b in blocks.items() if b["texto"] < len(b["slides"])]
     # F-20261003-CLAUDE-13: oclusão do slide é autoral (busca antes) e mascara o rótulo inteiro (verso mostra o nome todo)
     ios = [e for e in entries if e.get("kind") == "slideio"]
@@ -1988,6 +1992,11 @@ _CLOZE_FULL = re.compile(r"\{\{c(\d+)::(.*?)\}\}", re.S)
 
 
 def cores_rubrica(plan):
+    if re.search(r'(?:^|::)UC07(?:$|::)', plan.get('deck', ''), re.I):
+        from nebli.uc07_prioridades import verificar
+        problemas = verificar(plan)
+        return [("[duro] F-20261111-CODEX-01 UC07: IO verde, AnKing azul, demais rosa" +
+                 (": " + "; ".join(problemas[:5]) if problemas else ""), not problemas)]
     out = []
     entries = plan.get("entries", [])
     centrais = set()

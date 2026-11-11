@@ -1,0 +1,9 @@
+# Material pessoal, mídia licenciada e renders ficam locais.
+render-previo/
+render-vivo/
+img/
+visual/
+fontes/
+livros/
+io/
+__pycache__/
