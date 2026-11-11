@@ -1,11 +1,28 @@
 # GUIA 1 — Regras: como Davi quer cada card
 
+## Critérios vigentes de escrita e conferência
+
+- Não inserir iniciais automaticamente, mesmo com três ou mais lacunas; o critério semântico visível deve discriminar o alvo. Gerador preserva o texto e o gate v16 recusa iniciais em nova autoria.
+- Toda figura, de autoria ou acervo adaptado, deve ocupar espaço útil e mostrar o alvo com rótulos legíveis a390px; medir largura computada com CSS real. Figura pequena, montagem ampla ou limite de altura exigem recorte/painéis ou troca da fonte; CSS não recupera informação perdida.
+- O organizador compara pelo mesmo critério concreto em cada linha e cobra o termo essencial mais curto inequívoco; contexto visível, título separado dos itens e índices escolhidos pelo ganho de recuperação. Não esconder frase inteira quando só o nome discrimina.
+- A tradução AnKing preserva o destaque discriminante visível da fonte, adaptado ao português; `gates.destaque_anking` impede perda completa. Não basta deixar negrito dentro da lacuna.
+- Nos cards teóricos de anatomia, variar fontes quando outra vista ou representação acrescenta informação; conferir alvo e rótulos em cada fonte.
+- Negritar apenas contexto e fragmento discriminante fora da lacuna; não destacar cada palavra da linha. A edição elogiada de Davi é preservada. Se tudo aparece em negrito, o destaque perdeu função.
+- O Extra responde por que ou como o fato ocorre, com cadeia causal curta, contraste ou exemplo específico; não repetir a frente nem inserir ressalvas laterais. Estudar o Extra AnKing do mesmo tipo de informação e verificar sua precisão; aprovação da frente não aprova o verso.
+- Nome anatômico deve ser o mínimo inequívoco no contexto da figura; manter o qualificador discriminante e corrigir também o rótulo desenhado. Conferir o ponto da seta na fonte/manual: verde, slug e nome correto não provam identificação anatômica.
+- A frente usa uma afirmação ou pergunta natural com contexto e ação que discriminem a resposta; a lacuna cobra só o alvo essencial. Reescrever preservando o conteúdo e deslocar explicação para o verso, sem criar resposta genérica inferível.
+- Registrar o estado explicitamente elogiado como exemplar, com trecho literal e dimensão que funcionou; preservar edições do estudante e não atribuir aprovação às correções posteriores do executor.
+- Quando a mesma identificação ou relação já é recuperada por outro card, associar ao card preservado e retirar o excedente com justificativa e histórico; não excluir notas nem interpretar suspensão pessoal como reprovação.
+- Tabela comparativa no celular usa texto curto, largura disponível e fonte real de pelo menos18px nesta família. Conferir o CSS computado, o espaço lateral e as quebras de palavras, não somente o atributo HTML.
+- Pedido de voltar ao início deve usar a fonte original ou um backup identificado, preservando a nota estudada e seu histórico; não apresentar uma reconstrução aproximada como restauração literal.
+- Identificação anatômica pode exigir função e direção: quando Davi pedir aferente/eferente, incluir o discriminante junto ao rótulo e no verso, preservando a seta e a estrutura mostrada.
+
 ## Rodada diária de 05/11 — prevenção vigente
 
 - Coração de gostei usa #_flag nativo, mede sua geometria visível e mantém posição segura sem bandeira; testar oito combinações de largura/bandeira/gostei e conferir a janela real. `qualidade_comentarios.badge_layout_ok` reprova ausência, sobreposição e saída da tela.
 - Negrito de organizador deve permanecer visível no critério de cada linha, além do título; `qualidade_comentarios.negrito_contexto` bloqueia destaque ausente ou escondido no cloze. O significado discriminante do destaque ainda exige leitura humana.
 - Organizador tem eixo comum e alvo essencial em cada linha; reduzir carga retirando qualificadores repetidos, sem esconder detalhe secundário nem expor nome cognato da resposta. Exemplos: HST1793784421465 e GLP-1/PYY1793476864207.
-- Não recolocar iniciais retiradas por Davi nem usar inicial de sigla curta como dica; `spec_lib.dicas`, `gates.inducao_clozes` e `verificador_casos.forma_das_lacunas` respeitam a preferência literal local, sem dispensar revisão de indução.
+- Não inserir iniciais automaticamente nem exigi-las por quantidade de lacunas; `spec_lib.dicas` preserva o texto. `gates.inducao_clozes` reprova pistas de inicial em novas autorias v16; revisão humana julga a indução semântica.
 - Novas seleções não incluem fontes marcadas Only_Step_2; a presença de uma tag Step2 junto de Step1 não prova exclusividade. `qualidade_comentarios.step2_only` é gate duro antes da instalação. A retirada de1793803589750 foi expressamente pedida; não chamar uma palavra de conduta de critério automático para qualquer card.
 - Imagem precisa mostrar o objeto ou mecanismo cobrado, e seus rótulos precisam continuar legíveis no render real em390px. Nome de arquivo não prova anatomia. Verificar também o CSS do modelo: tabela a6,63px reprova mesmo que o HTML declare16px sem!important.
 - Analisar X pela função e pela dimensão aprovada; índice editado pelo usuário e organização que ele escolheu prevalecem sobre uniformização estética. Correção do executor não vira exemplar positivo sem X/elogio novo.
@@ -41,6 +58,7 @@ A pergunta de todo card: **"isso agrega algo no conhecimento ou está só para f
 - **Evidência das suspensões de 31/10:** o retrato mostra que autorais da UC08 foram suspensos com mais frequência que os AnKing estudados da mesma UC, enquanto a UC19 passou por troca de deck. Esta diferença orienta a auditoria, mas não prova a causa de cada suspensão. O caso pró-B/pré-B/imatura (avulsos suspensos → organizador pedido por Davi) é evidência direta para preferir um card de comparação quando a aula ensina um conjunto.
 
 ## 2. A frente
+- **Cópia AnKing também se reescreve quando a frase é confusa** (comentário de 10/11 em 1793984250726): ordem natural (o que acontece → por quê), sem ponto e vírgula, uma palavra por lacuna, figura da lâmina no verso e verso com o porquê. Exemplo em GUIA-3.
 
 - **Frase AnKing:** curta (8–19 palavras), afirma um fato concreto, faz sentido sozinha ("um card tem que fazer sentido sozinho"). Situar o assunto quando não é óbvio: "faltou falar que era sobre embrio", "tem que deixar claro que é o cérebro".
 - **Cloze no que se decora**, não no que se entende: nome específico, molécula, estrutura, número que a aula dá. Nunca verbo, adjetivo ou palavra genérica que o resto da frase completa ("cloze em algo que não é para ser decorado, mas entendido").
@@ -66,7 +84,7 @@ A pergunta de todo card: **"isso agrega algo no conhecimento ou está só para f
 - **Quando a aula compara ou enumera** — "card organizador serve precisamente para isso: comparar coisas diferentes e organizar na minha cabeça as ideias". Todo deck termina respondendo: **há organizador onde deve haver?**
 - **Em pé**, título que diz o que organiza, uma linha curta por item (≤ 26 palavras), sem numeração deitada: "tópicos mal escritos, tem que ficar em pé, tipo os cards de constrição esofágica".
 - **O cloze é o que deve ser lembrado** em cada linha; o critério de cada item fica visível e induz.
-- **Índices:** o mesmo c1 para um conjunto que se recupera junto; grupos reais em c1/c2 ("agrupa 2 clozes por card"). 3+ itens no mesmo índice recebem dicas apenas quando não revelam o alvo. Siglas curtas nunca recebem inicial. Respeitar retirada de iniciais pedida por Davi, registrando a fala em `dicas_preferencia_davi` (≥30 caracteres); gerador e gates preservam essa exceção local.
+- **Índices:** o mesmo c1 para um conjunto que se recupera junto; grupos reais em c1/c2 ("agrupa 2 clozes por card"). Não inserir iniciais automaticamente, mesmo com3+itens. A pista deve vir de um critério semântico discriminante. Siglas curtas nunca recebem inicial. Pistas semânticas necessárias e índices editados por Davi são preservados.
 - **Classificação com fonte**, nunca inventada: "esses cards organizadores não podem ter classificação inventada por você, tem que ter uma fonte". Não misturar critérios para fabricar um conjunto.
 - Ao criar o organizador, **aposentar os avulsos** que ele cobre (suspender, sem apagar).
 
@@ -97,7 +115,7 @@ A pergunta de todo card: **"isso agrega algo no conhecimento ou está só para f
 ## 8. Idioma, cor e Tab
 
 - **Idioma:** inglês, como o AnKing. Anatomia (UC07, UC08 anatomia): **frente em português, Extra em inglês**.
-- **Cor:** HY 1–2 do AnKing e pilares da aula verdes; detalhe rosa ("esse tipo de card é para ser rosa", "card HY rosa, tem que ser verde").
+- **Cor:** HY 1–2 do AnKing e pilares da aula verdes; detalhe rosa ("esse tipo de card é para ser rosa", "card HY rosa, tem que ser verde"). **Exceção UC07 passada/futura (11/11): IO verde, AnKing azul e demais rosa, por tipo/origem.** Na UC07 a direção de estudo vem da suspensão temporária por apostila/resumo/prova, não da cor; sem regenerar Tabs até pedido.
 - **Tab:** texto corrido com storytelling, do básico ao aprofundamento, explicando o porquê (nunca lista 1, 2, 3, 4).
 
 ## 9. Como trabalhar com o que Davi faz no Anki

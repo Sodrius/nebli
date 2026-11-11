@@ -17,3 +17,10 @@ Se existe parecer anterior, copie o julgamento de todo card cujo texto (frente e
 ## Resposta ao executor
 
 Poucas linhas: `ok` da completude com cada falta (fonte/ref + o que falta), as contagens dos pareceres e cada `revisar` com chave + defeito + ação.
+
+## Menos rodadas (F-20261111-CLAUDE-02)
+
+Davi (11/11): "pensa como o corretor pode ser mais eficiente, para termos menos rodadas".
+- O executor só manda o pacote depois de `python3 -m nebli.precheck_revisor <corrida>` sair limpo (forma das lacunas, lint duro, respostas repetidas, fonte só Step 2, trecho de organizador): o revisor não gasta rodada com defeito mecânico.
+- Numa única passada, liste TODAS as faltas da completude (fonte por fonte, sem cortar a lista) e TODOS os `revisar`; para cada `revisar` escreva o texto corrigido pronto (frente e verso para colar) e, para cada falta, o card proposto (AnKing nid ou texto autoral completo com a fonte).
+- Nas rodadas seguintes avalie só o que mudou; se a correção seguiu exatamente o seu texto pronto, aprove sem reabrir o card.

@@ -1438,3 +1438,55 @@ Davi, literal (10/11):
 > também coloca pros agentes serem em sonnet a partir de agora
 
 Aplicação: (1) `.claude/agents/*.md` com `model: sonnet`. (2) Pipeline E3/E5: a "segunda leva" vira parte da primeira — antes de instalar, rodar uma passada de aprofundamento própria: cada questão de prova (enunciado E gabarito, frase a frase), cada objetivo da aula, cada seção da bibliografia e do resumo e cada página da transcrição viram linha da matriz e o gabarito inteiro precisa ser reconstruível só com os cards; depois perguntar, bloco a bloco, "o que um examinador ainda poderia pedir aqui?" e cobrir com AnKing ou autoral. (3) Depois da 75: melhorar o deck de hemostasia (65/hemostasia da UC03) pelo mesmo critério.
+
+
+## F-20261111-CODEX-01 — UC07 por origem e estudo direcionado; novas provas; Tabs adiados
+
+Davi, literal:
+
+> para toda a uc07, o que já foi e o que não: para a UC07: deixar IO verde, anking azul e outros rosas
+> também quero que fique dessuspenso somente aquilo que está marcado nos resumos
+> tudo que é mencionado nos resumos deve ser dessuspenso, o resto pode suspender
+> muito cuidado com essa de dessuspender, seja cuidadoso
+> também deixa dessuspenso aquilo que está na apostila, no resumo ou na prova, o que é resto pode suspender, porque quero direcionar meu estduodo
+> deixa na sua memória que mais pra frente passaremos ajustando o nome de todos os cards do kenhub para tirar coisas que são ruins, como esse "da medula espinal", esse tipo de padrão. cards kenhub tem boas imagens, mas o cloze ainda tá zuado em vários, mt coisa ruim
+> não precisa regerar os tabs por enquanto, quando quiser vou pedir
+> quero que vc entregue as 3 aulas da uc07, depois siga para outras coisas. pode ser generoso na dessuspensão, mas foco nessas coisas que realmente indicam como arrumar, tipo prova e resumo
+> pode terminar as 3 aulas antes disso
+
+Aplicação: três aulas AN03/AN04/AN06; cores por origem em toda a UC07 passada/futura; seleção temporária generosa por apostila/resumo/prova, com evidência por alvo/relação e backup. Novas provas localizadas na pasta pessoal UC07 em 11/11. Sem Tabs; revisão global futura dos nomes/clozes Kenhub registrada no MEMORY §15. Não confundir deck completo com fila de estudo temporária.
+
+## F-20261111-CLAUDE-01 — agentes em Sonnet; cicatrização aprovada; epidemiologia dentro da 75; choque e CIVD
+
+Davi, literal (11/11):
+
+> quero que todo agente rode em sonnet
+> gostei do deck de cicatrização, acho que agora está melhor (acho que ainda poderia puxar mais anking diretamente relacionado com a aula, mas ok)
+> agora vamos rodar a aula de choque e civd
+> dentro do deck de bio e crescimento tumoral já adiciona os que vc conseguir do anking e os principais autorais do que seria aula de epidemiologia de tumores, que é tão pequena que não merece deck próprio
+
+Aplicação: (1) `.claude/agents/*.md` com `model: sonnet` e toda chamada de Agent com model sonnet. (2) 65 Reparo tecidual v4 vira exemplar no GUIA-4, com a ressalva de puxar mais AnKing diretamente da aula. (3) A 75 absorve a aula 74 (Epidemiologia dos tumores): AnKing de epidemiologia/rastreamento e poucos autorais centrais, num bloco próprio. (4) Próximo deck: Choque e CIVD; hemostasia depois.
+
+## F-20261111-CLAUDE-02 — revisor mais eficiente, menos rodadas
+
+Davi, literal (11/11):
+
+> continua
+> pensa como o corretor pode ser mais eficiente, para termos menos rodadas
+> vai até o fim de entregar essa aula e fechar a de hemostasia, daí já começa choque
+
+Aplicação: `nebli/precheck_revisor.py` (pré-checagem mecânica obrigatória antes de mandar ao revisor) e `config/revisor-unico.md` › "Menos rodadas" (uma passada com todas as faltas e todos os revisar, cada um com texto corrigido pronto; rodadas seguintes só no que mudou). Ordem: entregar a 75, fechar hemostasia, começar choque e CIVD.
+
+## F-20261111-CODEX-02 — deck completo da aula; estudo dirigido por prova e veteranos
+
+Davi, literal (11/11):
+
+> lembra de deixar dessuspenso só o que está em prova ou resumo de veterano, o resto pode suspender
+> pode ser generoso, mas ão inventar regra. isso não tem saído tão bom: tem faltado coisa ou ficado em excesso outras
+> mt card com imagem errada tb
+> termina o deck que está fazendo e corrige isso
+> segue o pipeline consolidado para montar deck já
+> DECK TEM QUE SER O MAIS COMPLETO POSSÍVEL, MAS DAÍ VC DESSUSPENDE SÓ O QUE REALMENTE FOR IMPORTAR MTTT
+> toma cuidado para não puxar coisas de outras aulas também: seja específico para a aula que está trtando, que no caso já tem transcrição e é a aula
+
+Aplicação: completar AN04 dentro do recorte da transcrição; seleção de estudo exige relação identificável em prova ou resumo de veterano, sem usar presença do órgão como licença para toda clínica. Cobertura completa e fila dessuspensa são conferidas separadamente. Imagens precisam mostrar o alvo perguntado. Sem começar outra aula antes de entregar esta.
