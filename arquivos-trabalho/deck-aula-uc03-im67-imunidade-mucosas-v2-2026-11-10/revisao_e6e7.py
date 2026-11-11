@@ -4,16 +4,16 @@ plan = json.load(open("plan.json"))
 ordem = {e["key"]: int(e["order"]) for e in plan["entries"]}
 ordem.update({f"sh-{k}": v["order"] for k, v in plan["compartilhados"].items()})
 REL = {
- (1, 2): [["k-malt", "sh-1791023357519", "sh-1791147098269"], ["k-tres-tarefas"]],
- (3, 8): [["ex1701979294684-tonsilas"], ["sh-1790980914855", "sh-1790980914730"], ["sh-1791625425757"], ["k-iel-cd8"], ["k-nodulo-colon"]],
+ (1, 2): [["k-malt", "sh-1791023357519", "sh-1791983685881"], ["k-tres-tarefas"], ["sh-1791147098269", "k-fumo", "sh-1791592724520"]],
+ (3, 8): [["ex1701979294684-tonsilas"], ["sh-1790980914855", "sh-1790980914730"], ["sh-1791625425757"], ["k-iel-cd8"], ["k-nodulo-colon", "sh-1791023302370"]],
  (9, 10): [["k-iel-cd8"], ["k-infl-fisiologica"], ["k-infl-fisiologica"]],
- (11, 13): [["sh-1790980913229", "k-caliciforme", "k-microbiota"], ["sh-1790980915172"], ["k-dc-mesenterico"], ["k-homing"]],
- (14, 17): [["k-tres-tarefas"], ["k-ac-retinoico"], ["k-dc-il10-ido"], ["k-dc-proinfl"]],
- (18, 19): [["k-prr-basolateral"], ["k-prr-basolateral"], ["k-prr-basolateral"]],
+ (11, 13): [["sh-1790980913229", "k-caliciforme", "sh-1791023297666"], ["k-microbiota", "sh-1791780601643", "ak1506179807216"], ["sh-1791000315902"], ["sh-1790980915172", "sh-1791780605649"], ["k-dc-mesenterico", "k-dc-dendritos"], ["k-homing", "k-alfa4beta7"], ["ak1497204171184", "sh-1791629598422"]],
+ (14, 17): [["k-tres-tarefas", "sh-1791780602055", "k-tolerancia-oral"], ["k-ac-retinoico"], ["k-dc-il10-ido", "sh-1791625433083"], ["k-dc-proinfl", "k-dc-viral"]],
+ (18, 19): [["k-prr-basolateral"], ["k-prr-basolateral"], ["k-prr-basolateral", "sh-1791780608272", "sh-1792240191394", "ak1521772146512"]],
  (20, 21): [["k-iga-neutraliza", "k-iga-aglutina", "sh-1792241813071", "sh-1792241812821"], ["sh-1791629594773"], ["sh-1791629596747", "sh-1791629596922"], ["sh-1791629597045"], ["sh-1790980915277"],
-            ["sh-1791629596622", "sh-1791629597172", "sh-1791629597547"], ["sh-1792241812572", "sh-1791629591820"]],
+            ["sh-1791629596622", "sh-1791629597172", "sh-1791629597547", "ak1487121965148"], ["sh-1792241812572", "sh-1791629591820"]],
  (22, 27): [["k-reguladoras"], ["k-il10-colite"], ["k-treg-th17", "sh-1791625432907"], ["k-treg-th17", "sh-1791625432733"], ["sh-1791625422173", "sh-1791625422039"],
-            ["k-balanco-treg", "sh-1791625432007"], ["k-higiene"], ["sh-1791625434757", "sh-1791625435233"], ["sh-1791625435657", "sh-1791983683185"], ["sh-1792242114021"], ["sh-1791780353019"]],
+            ["k-balanco-treg", "sh-1791625432007"], ["k-higiene", "sh-1791780613803", "k-fases"], ["sh-1791625434757", "sh-1791625435233"], ["sh-1791625435657", "sh-1791983683185"], ["sh-1792242114021"], ["sh-1791780353019"]],
  (28, 29): [["k-olho"], ["k-olho"], ["k-olho", "sh-1791625430882"]],
 }
 NOTA = {

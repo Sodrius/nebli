@@ -1,7 +1,7 @@
 ---
 name: compilador
 description: Monta main.typ, compila Typst, audita e move PDF. Roda localmente, nunca delegado para outra sessão.
-model: claude-sonnet-4-6
+model: sonnet
 tools: Bash, Read, Edit
 ---
 

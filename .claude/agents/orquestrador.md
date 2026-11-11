@@ -1,7 +1,7 @@
 ---
 name: orquestrador
 description: Orquestrador do pipeline NEBLI. Recupera o contexto vigente e coordena somente o trabalho solicitado.
-model: claude-opus-4-7
+model: sonnet
 tools: Bash, Read, Write, Edit
 ---
 

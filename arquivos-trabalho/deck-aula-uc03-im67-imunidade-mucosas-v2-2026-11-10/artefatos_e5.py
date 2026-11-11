@@ -37,8 +37,15 @@ A = {
  "k-iga-aglutina": ("IgA aglutina e elimina pelas fezes", "prova UC03; transcrição p.58", "agglutination", "AnKing de IgA cobra local, forma e transporte; nenhum diz que a sIgA aglutina micróbios no muco, ponto do gabarito da prova", "mecanismo", "A IgA dimérica aglutina micróbios no muco e eles saem nas fezes", "nao", "lacuna", "§A", "causa → mecanismo → consequência", "1791631347467", "molécula → ação → consequência, ação no cloze", "1791631345113", "p7-1"),
  "k-higiene": ("Hipótese da higiene", "transcrição p.72–74", "hygiene hypothesis", "AnKing não tem a hipótese da higiene (busca: asma IgE 1474580613274, basófilos); o card NEBLI da aula 39 está suspenso e tem negrito no cloze", "mecanismo", "Pouca exposição microbiana precoce deixa a regulação destreinada e aumenta alergias", "nao", "lacuna", "§A", "causa → mecanismo → consequência", "1791631347467", "condição → consequência com o nome da ideia no cloze", "1791627549152", "p8-6"),
 
+"k-alfa4beta7": ("Integrina α4β7 do homing", "transcrição p.36; Janeway 12.6", "α4β7", "Busca 10/11 (alpha4beta7, vedolizumab, MAdCAM, integrin homing gut): só natalizumabe no Crohn (1497204171184), que não nomeia a molécula", "fato-chave", "O homing intestinal usa a integrina α4β7 ligando MAdCAM-1", "nao", "lacuna", "§E", "fato-chave situado", "1791023354943", "fato curto com o contexto visível e a molécula no cloze", "1791627549152", "p4-11"),
+"k-dc-viral": ("Dendrítica na infecção viral", "prova 2025 P3 2.2", "IL-12", "Busca 10/11 (dendritic IL-12 interferon): nenhum AnKing liga a dendrítica intestinal às citocinas antivirais do gabarito", "mecanismo", "Na infecção viral a dendrítica apresenta e libera IL-12 e IFN tipo I", "nao", "lacuna", "§A", "causa → mecanismo → consequência", "1791631347467", "estímulo → resposta da célula → citocina no cloze", "1791631345113", "p5-8"),
+"k-fumo": ("Fumo destrói os cílios", "apostila cap. 2", "cilia", "Busca 10/11 (smoking cilia mucociliary): nenhum AnKing liga o fumo aos cílios; o escalador mucociliar (1473289461901) só descreve a função", "mecanismo", "O fumo destrói os cílios e a limpeza do muco falha", "nao", "lacuna", "§A", "causa → mecanismo → consequência", "1791631347467", "agente → dano → consequência, estrutura no cloze", "1791631345113", "p1-3"),
+"k-dc-dendritos": ("Dendrítica alcança o lúmen", "transcrição p.34; prova 2025", "between epithelial cells", "Busca 10/11 (dendritic lumen, transepithelial): só células M no Histology (1701980449458); nenhum card da dendrítica amostrando o lúmen, ponto do gabarito da prova", "mecanismo", "A dendrítica amostra o lúmen por prolongamentos entre os enterócitos", "sim", "lacuna", "§A", "processo ou formação em ordem", "1792713404156", "agente → via → destino, via no cloze", "1791627549152", "p4-8"),
+"k-tolerancia-oral": ("Tolerância oral", "apostila cap. 2", "tolerance", "Busca 10/11 (oral tolerance): só teste de tolerância à glicose no AnKing; nenhum card de tolerância oral", "mecanismo", "Antígeno por via oral induz tolerância sistêmica", "nao", "lacuna", "§A", "causa → mecanismo → consequência", "1791631347467", "via de exposição → resultado, resultado no cloze", "1791631345113", "p5-5"),
+"k-fases": ("Três fases da imunidade intestinal", "transcrição p.74–76", "bacteria", "Busca 10/11: o AnKing só tem IgA no leite (1487117234083, 1487121965148); nenhum card das fases pré-natal, amamentação e alimento sólido", "comparacao", "A imunidade intestinal amadurece em três fases ligadas à microbiota e ao leite", "nao", "lacuna", "§C", "conjunto organizado", "1792787420154", "eixo (fase) e uma linha por fase com o marco no cloze", "1793784421465", "p8-11"),
 }
 VER = {}
+NAO_VISUAL = {"ak1497204171184", "ak1487121965148", "ak1505765860803", "ak1521772146512", "ak1506179807216"}
 cob = ["chave\tconceito\tfonte_aula\tveredito\tlidos\tdecora\tdecisao"]
 dec, tip, rev = {}, ["chave\ttipo\tprincipio\tvisual\tpapel"], ["# Revisão dos autorais — 67 Imunidade de mucosas", ""]
 for k, e in E.items():
@@ -56,7 +63,7 @@ for k, e in E.items():
         alvo = e.get("alvo", "")
         txt = e["fields"]["Text"]; ans = re.findall(r"\{\{c\d+::([^}:]+)", txt)
         cob.append(f"{k}\t{alvo}\t{e.get('evid','')}\tcoberto\t\t{ans[0] if ans else ''}\tacervo: entra")
-        tip.append(f"{k}\tfato-chave\tPrincípio da {e.get('evid','').lower()}: {alvo}\tsim\t")
+        tip.append(f"{k}\tfato-chave\tPrincípio da {e.get('evid','').lower()}: {alvo}\t{'nao' if k in NAO_VISUAL else 'sim'}\t")
 for k, v in plan["compartilhados"].items():
     cob.append(f"sh-{k}\t{v.get('alvo','')}\t{v.get('evid','')}\tcoberto\t\t\tassociado (cópia NEBLI viva)")
 (H / "busca/cobertura.tsv").write_text("\n".join(cob) + "\n")
@@ -82,7 +89,11 @@ MAP = {"p1-1": ["k-malt", sh(1791023357519), sh(1473289461901)], "p1-2": ["k-tre
  "p7-3": [sh(1487117251418), sh(1487117223955)], "p7-6": [sh(1487117209824), sh(1487117238120), sh(1487117234083)], "p7-7": [sh(1487117216624), sh(1487117219869)], "p7-4": [sh(1487117255825)], "p7-5": [sh(1486831451445)],
  "p8-1": ["k-reguladoras"], "p8-7": [sh(1487116967325), sh(1487116971703)], "p8-2": ["k-il10-colite"], "p8-8": [sh(1489970615786), sh(1487981558376)],
  "p8-3": ["k-treg-th17", sh(1487116955601), sh(1487116975048)], "p8-9": [sh(1489970054827)], "p8-4": [sh(1520300013308), sh(1520300296240)],
- "p8-5": ["k-balanco-treg", sh(1487116873670)], "p8-10": [sh(1479267424779)], "p8-6": ["k-higiene"], "p9-1": ["k-olho"], "p9-2": ["k-olho", sh(1487117300306)]}
+ "p8-5": ["k-balanco-treg", sh(1487116873670)], "p8-10": [sh(1479267424779)], "p8-6": ["k-higiene"], "p9-1": ["k-olho"], "p9-2": ["k-olho", sh(1487117300306)],
+ "p1-3": ["k-fumo", "sh-1791592724520"], "p1-4": ["sh-1791983685881"], "p2-6": ["sh-1791023302370"], "p4-6": [sh(1488502340989)], "p4-7": ["sh-1791023297666", "sh-1791780601643"],
+ "p4-8": ["k-dc-dendritos"], "p4-9": ["ak1497204171184"], "p4-10": ["sh-1791780605649"], "p5-5": ["k-tolerancia-oral"], "p5-6": ["sh-1791625433083"],
+ "p5-7": ["sh-1791780602055"], "p6-3": [sh(1521771712578), "ak1521772146512"], "p6-4": ["sh-1791780608272"], "p7-8": ["ak1487121965148"],
+ "p8-11": ["k-fases"], "p8-12": ["sh-1791780613803"], "p4-11": ["k-alfa4beta7"], "p4-12": [sh(1516219843437)], "p4-13": ["ak1506179807216"], "p5-8": ["k-dc-viral"]}
 validos = set(E) | {f"sh-{k}" for k in plan["compartilhados"]}
 todos = [x for v in MAP.values() for x in v]
 assert set(todos) <= validos, set(todos) - validos

@@ -69,6 +69,8 @@ def build():
                                     # F-20261016-CLAUDE-08: autoral antigo da própria aula mantido por sh() conta no teto de autoral (gate)
                                     "deck_proprio": any(re.sub(r" \(\d+\|\d+\|\d+\)", "", x["deckName"]) == spec.DECK
                                                         for x in A("cardsInfo", cards=(_ni or {}).get("cards", [])))}
+            if c.get("origin"):  # F-20261110-CLAUDE-03: suspenso puxado para Davi reavaliar declara a origem
+                shared[str(c["nid"])]["origin"] = c["origin"]
             continue
         kind = c["kind"]
         model = info[c["src"]]["modelName"] if kind == "kenhub" and info.get(c["src"]) else MODEL.get(kind)

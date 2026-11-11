@@ -1419,3 +1419,22 @@ Davi, literal (10/11):
 > arruma o da uc08, arruma o de imuno e segue pro da uc03. se eui quiser que pare vou avisar
 
 Aplicação: (1) `puxar_suspensos`: nota com qualquer card suspenso por Davi que a aula usa vem por sh(): os cards suspensos mudam para o deck novo, dessuspensos, com `NEBLI::reavaliar::<aula>`; a etiqueta da aula antiga fica (associação). EXCLUIDOS só aceita “outro assunto:”. (2) Associado de outra aula não substitui card desta: o que a aula ensina e já está em outro deck conta como coberto só se o card associado diz aquilo; o resto vem das fontes (bibliografia, resumos, YouTube, slide, provas) como AnKing real ou poucos autorais certeiros (organizador quando é conjunto). (3) Correções: UC08 P2 Anatomia (nomenclatura) e Embriologia (intestino posterior + detalhes), 67 aprofundada, depois a aula de biologia e crescimento dos tumores, em sequência, até Davi mandar parar.
+
+
+### F-20261110-CODEX-02 — negrito, fontes e organizador preservado
+
+Davi, literal: “NEGRITO”; “imagem pode melhorar: para decks de anato, variedade de imagens ajuda quando tiver card teórico, vale colocar imagens de outras fontes também, ir variando”; “cria e mantém o organizador”; “lindo card”; “esse deck de anato tem que virar referência para os próximos decks de anatomia”.
+
+Aplicação: restaurar destaque perdido nas traduções, gate contra perda completa, preservar organizador hepático e criar cinco IOs separados, registrar UC08 como referência com ressalvas de nomes/setas individualmente conferidos. O coletor agora preserva quebras de linha para ler fala nova depois de justificativa atribuída ao executor. Exemplos e limites em GUIA-2/3 e recibo comentarios-2026-11-10.
+
+## F-20261110-CLAUDE-04 — profundidade na primeira leva, provas primeiro; agentes em Sonnet; hemostasia depois
+
+Davi, literal (10/11):
+
+> continua até terminar
+> também há o que melhorar no deck de hemostasia: faz isso quando acabar o que já há
+> no fundo, o deck tá saindo sem a profundidade que quero, tá ficando mais raso
+> quero que vc reconsidere prova, bibliografia, resumos, materiais extras, transcrições. especialmente provas. quero que o deck saia sempre mais aprofundado do que o que tem saído agora, garantindo que estamos cobrindo tudo, o que só tem acontecido na segunda leva, porém sempre acabo tendo que pedir pra vc refazer o deck
+> também coloca pros agentes serem em sonnet a partir de agora
+
+Aplicação: (1) `.claude/agents/*.md` com `model: sonnet`. (2) Pipeline E3/E5: a "segunda leva" vira parte da primeira — antes de instalar, rodar uma passada de aprofundamento própria: cada questão de prova (enunciado E gabarito, frase a frase), cada objetivo da aula, cada seção da bibliografia e do resumo e cada página da transcrição viram linha da matriz e o gabarito inteiro precisa ser reconstruível só com os cards; depois perguntar, bloco a bloco, "o que um examinador ainda poderia pedir aqui?" e cobrir com AnKing ou autoral. (3) Depois da 75: melhorar o deck de hemostasia (65/hemostasia da UC03) pelo mesmo critério.

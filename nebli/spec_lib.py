@@ -46,8 +46,13 @@ def kh(key, src, cod, bloco, alvo, slide, motivo, nome=None, **kw):
                 origin="Kenhub", **({"nome": nome} if nome else {}), **kw)
 
 
-def sh(nid, cor, bloco, alvo, slide, motivo):
-    return dict(key=f"sh-{nid}", kind="compartilhado", nid=nid, cor=cor, bloco=bloco, alvo=alvo, evid=f"Slide {slide}", motivo=motivo)
+def sh(nid, cor, bloco, alvo, slide, motivo, reavaliar=False):
+    """reavaliar=True (F-20261110-CLAUDE-03): nota NEBLI de outra aula suspensa por Davi, puxada dessuspensa para ELE decidir;
+    origem declarada, fora do julgamento do revisor (não é autoral desta corrida)."""
+    d = dict(key=f"sh-{nid}", kind="compartilhado", nid=nid, cor=cor, bloco=bloco, alvo=alvo, evid=f"Slide {slide}", motivo=motivo)
+    if reavaliar:
+        d["origin"] = "NEBLI-reavaliar-Davi"
+    return d
 
 
 def _call(a, **p):
@@ -55,25 +60,12 @@ def _call(a, **p):
 
 
 def dicas(t, preferencia_davi=""):
-    """F-20261016-CLAUDE-01: índice que esconde 3+ itens recebe a primeira letra como dica em cada lacuna."""
-    from nebli.qualidade_comentarios import preferencia_sem_iniciais, sigla_curta
-    if preferencia_sem_iniciais({'dicas_preferencia_davi': preferencia_davi}):
-        return t
-    conta = {}
-    for n, corpo in CLOZE.findall(t):
-        resposta = re.sub(r'<[^>]+>', '', corpo.split('::')[0]).strip()
-        conta[n] = conta.get(n, 0) + (not sigla_curta(resposta))
+    """F-20261108-CODEX-01: não inserir iniciais automaticamente.
 
-    def sub(m):
-        n, corpo = m.group(1), m.group(2)
-        if conta[n] < 3 or "::" in corpo:
-            return m.group(0)
-        resposta = re.sub(r"<[^>]+>", "", corpo).strip()
-        if not resposta or sigla_curta(resposta):
-            return m.group(0)
-        letra = resposta[0]
-        return "{{c%s::%s::%s…}}" % (n, corpo, letra)
-    return CLOZE.sub(sub, t)
+    Pistas semânticas já escritas continuam preservadas. O parâmetro antigo
+    permanece por compatibilidade com specs existentes.
+    """
+    return t
 
 
 def finalizar(cards, here: Path, busca_base: str):

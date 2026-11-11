@@ -1,7 +1,7 @@
 ---
 name: revisor-profundo
 description: Tier 3 da rubrica de qualidade NEBLI. Revisão editorial profunda de E1 com olho do aluno-alvo, triangulação de evidência e veredito acionável. Modelo Opus 4.7.
-model: claude-opus-4-7
+model: sonnet
 tools: Read, Bash, Grep
 ---
 

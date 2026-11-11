@@ -1,7 +1,7 @@
 ---
 name: cadernista
 description: Gera o caderno de questões (P1/P2/P3/HISTORICO de uma UC) ponta a ponta. Orquestra gerar+render+audit+verify. Sem redação, sem edição de banco.
-model: claude-sonnet-4-6
+model: sonnet
 tools: Bash, Read
 ---
 

@@ -241,6 +241,9 @@ def main(argv=None):
         log(op="delta-fim", cards=len(flags), problemas=len(problems))
         print(json.dumps({k: rec[k] for k in ("cards_new_lesson", "expected", "green", "blue", "pink", "cards_tag_aula", "problems")}, ensure_ascii=False))
         if problems or rec["cards_new_lesson"] != rec["expected"]: raise SystemExit("Readback divergente")
+    # F-20261110-CLAUDE-03: associado suspenso por Davi em outro deck vem para esta aula, dessuspenso (fora do lock acima)
+    from nebli import puxar_suspensos
+    puxar_suspensos.main(["aplicar", str(run)])
 
 
 if __name__ == "__main__":

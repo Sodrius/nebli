@@ -1,4 +1,5 @@
 ---
+model: sonnet
 name: revisor-autorais
 description: Revisa todos os autorais NEBLI antes da instalação, com rubrica calibrada, evidência literal e parecer vinculado ao conteúdo. Também realiza avaliações cegas sem ler rótulos históricos.
 tools: Read, Write, Bash

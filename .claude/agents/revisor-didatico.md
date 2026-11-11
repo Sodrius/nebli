@@ -1,7 +1,7 @@
 ---
 name: revisor-didatico
 description: Tier 2 da rubrica de qualidade NEBLI. Avalia didática de E1 com 12 critérios estruturados. Modelo Sonnet 4.6 — econômico para julgamento por rubrica.
-model: claude-sonnet-4-6
+model: sonnet
 tools: Read, Bash
 ---
 
